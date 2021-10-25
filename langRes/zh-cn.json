@@ -1,8 +1,8 @@
 {
     "bridge": {
         "title": "网络模式",
-        "tips_one": "如果你改变路由器的工作模式，你必须重新连接你的客户端设备",
-        "tips_two": "如果改用AP模式/无线扩展模式/WDS模式，你可能无法再访问这个界面。你可以按住重置按扭4秒钟，恢复到路由模式",
+        "tips_one": "如果你改变路由器的工作模式，你必须重新连接你的客户端设备。",
+        "tips_two": "如果改用AP模式/无线扩展模式/WDS模式，你可能无法再访问这个界面。你可以按住重置按扭4秒钟，恢复到路由模式。",
         "note_one": "启用OpenVPN或Wireguard客户端。 请禁用它们以设置桥接模式。",
         "note_two": "上网认证已启用。请禁用它以设置桥接模式。",
         "mode_switch": "模式切换",
@@ -16,9 +16,9 @@
         "access_router": "访问你的路由器",
         "access_router_wds_tips": "桥接成功后，路由器会从上级自动获取IP。如果需要访问路由器的web，可以从上级路由器的终端列表查看路由器获取的IP地址，用它来访问web。如果没有权限访问上级路由器的web，可以通过按住reset键4秒，恢复路由模式。",
         "access_router_ext_tips": "桥接成功后，如果需要访问本路由器web，须手动配置你的PC/手机为静态IP，网段跟本路由器网关一致，通过本路由器网关访问web。如果不能访问，可以通过按住reset键4秒，恢复路由模式。",
-        "reset_mac_tips": "你正在使用克隆MAC地址，必须恢复成出厂MAC地址",
-        "set_up_ap_tips": "要设置成AP模式，必须在WAN口插入网线",
-        "remove_wan_tips": "请拔除插入WAN口的网线",
+        "reset_mac_tips": "你正在使用克隆MAC地址，必须恢复成出厂MAC地址。",
+        "set_up_ap_tips": "要设置成AP模式，必须在WAN口插入网线。",
+        "remove_wan_tips": "请拔除插入WAN口的网线。",
         "enter_pwd_tips": "请输入密码",
         "choose_ssid_tips": "请选择SSID"
     }
