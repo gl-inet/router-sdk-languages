@@ -1,16 +1,17 @@
 {
-  "login": {
-    "login": "Login",
-    "admin_password": "Admin Password",
-    "password_hint": {
-      "placeholder": "Please enter password",
-      "null": "WARNING: Cannot be empty!"
-    },
-    "forgot_password": {
-      "title": "Forgot Password",
-      "desc": "Try to press and hold the 'Reset' button for 10 seconds, then release your finger. You will see LEDs flash in a pattern. Wait for the router to reboot and then start over.",
-      "online_docs": "Online docs"
-    },
-    "err_msg": "ERROR: Username or password is incorrect!"
-  }
+    "login": {
+        "login": "Login",
+        "admin_password": "Admin Password",
+        "password_hint": {
+            "placeholder": "Please enter password",
+            "null": "WARNING: Cannot be empty!"
+        },
+        "forgot_password": {
+            "title": "Forgot Password",
+            "desc": "Try to press and hold the 'Reset' button for 10 seconds, then release your finger. You will see LEDs flash in a pattern. Wait for the router to reboot and then start over.",
+            "online_docs": "Online docs"
+        },
+        "err_msg": "ERROR: Username or password is incorrect!",
+        "retry_after": " "
+    }
 }
