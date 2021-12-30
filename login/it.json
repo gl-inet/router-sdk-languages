@@ -1,17 +1,16 @@
 {
-  "login": {
-    "login": "login",
-    "admin_password": "Password Admin",
-    "password_hint": {
-      "placeholder": "Si prega di inserire la password",
-      "null": "non è possibile lasciare vuoto",
-      "more": "Almeno 5 caratteri"
-    },
-    "forgot_password": {
-      "title": "Dimentica password",
-      "desc": "Provare a tenere premuto il tasto \"reset\" per 10 secondi, dopo molla il dito. Vedrai i LED lampeggiare regolarmente. Attendere il riavvio del router, quindi ricominciare.",
-      "online_docs": "Documenti online"
-    },
-    "err_msg": "Errore: Il nome di utente o il password non sono corretti!"
-  }
+    "login": {
+        "login": "login",
+        "admin_password": "Password Admin",
+        "password_hint": {
+            "placeholder": "Si prega di inserire la password",
+            "null": "non è possibile lasciare vuoto"
+        },
+        "forgot_password": {
+            "title": "Dimentica password",
+            "desc": "Provare a tenere premuto il tasto \"reset\" per 10 secondi, dopo molla il dito. Vedrai i LED lampeggiare regolarmente. Attendere il riavvio del router, quindi ricominciare.",
+            "online_docs": "Documenti online"
+        },
+        "err_msg": "Errore: Il nome di utente o il password non sono corretti!"
+    }
 }
