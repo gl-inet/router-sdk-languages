@@ -23,7 +23,7 @@
         "no_firmware": "固件不存在。",
         "unpass": "校验不通过",
         "not_supported": "版本不支持",
-        "platform_unpass": "平台检测不通过",
+        "platform_unpass": "该固件不适用于此设备",
         "not_gl": "该固件不是官方发布固件",
         "old_version": "上传的固件版本低于当前版本。",
         "advised_not_keep_setting": "内核大版本升级，建议不保留配置。",
@@ -34,6 +34,7 @@
         "updating": "升级中",
         "update_fail": "升级失败",
         "firmware_sign_unpass": "固件签名验证不通过",
-        "keep_setting_tips": "保留设置升级可能会引发故障，因为固件版本变更可能导致功能不兼容。"
+        "keep_setting_tips": "保留设置升级可能会引发故障，因为固件版本变更可能导致功能不兼容。",
+        "firmware_type": "固件类型"
     }
 }
