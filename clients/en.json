@@ -1,23 +1,23 @@
 {
-  "menu_clients": "Clients",
-  "clients": {
-    "online_client": "Online Clients",
-    "offline_client": "Offline Clients",
-    "name": "Name",
-    "speed": "Speed",
-    "traffic": "Traffic",
-    "access_wan": "Access WAN",
-    "block_wan": "Block WAN",
-    "action": "Action",
-    "unknown": "Unknown",
-    "self": "self",
-    "limit_speed": "Limit Speed",
-    "remove_limit": "Disable Limit",
-    "delete_client": "Delete Client",
-    "limit_speed_title": "Limit Speed Setting",
-    "upload": "Upload",
-    "download": "Download",
-    "delete_all_caution": "Delete All 记得改",
-    "delete_caution": "Confirm Delete 记得改"
-  }
+    "menu_clients": "Clients",
+    "clients": {
+        "online_client": "Online Clients",
+        "offline_client": "Offline Clients",
+        "name": "Name",
+        "speed": "Speed",
+        "traffic": "Traffic",
+        "access_wan": "Access WAN",
+        "block_wan": "Block WAN",
+        "action": "Action",
+        "unknown": "Unknown",
+        "self": "self",
+        "limit_speed": "Limit Speed",
+        "remove_limit": "Disable Limit",
+        "delete_client": "Remove Client",
+        "limit_speed_title": "Limit Speed Settings",
+        "upload": "Upload",
+        "download": "Download",
+        "delete_all_caution": "Do you want to remove all clients from the list?\nThe action doesn't prevent the client from reconnecting to the router, and all settings for those clients will also be removed.",
+        "delete_caution": "Do you want to remove the client from the list?\nThe action doesn't prevent the client from reconnecting to the router, and all settings for the client will also be removed."
+    }
 }
