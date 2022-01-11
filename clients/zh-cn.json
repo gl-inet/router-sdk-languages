@@ -4,6 +4,20 @@
         "speed": "速率",
         "traffic": "流量统计",
         "unknown": "未知",
-        "confirm_delete": "确认删除"
-    }
+        "delete_all_caution": "您想要从列表中移除所有客户端吗？\n这并不能阻止客户端重新连接到路由器，您针对这些客户端的配置也会被一并移除。",
+        "delete_caution": "您想要从列表中移除这台客户端吗？\n这并不能阻止客户端重新连接到路由器，您针对这台客户端的配置也会被一并移除。",
+        "online_client": "在线客户端",
+        "offline_client": "离线客户端",
+        "access_wan": "访问外网",
+        "block_wan": "阻止访问外网",
+        "action": "操作",
+        "self": "本机",
+        "limit_speed": "限速",
+        "remove_limit": "取消限速",
+        "upload": "上行",
+        "download": "下行",
+        "limit_speed_title": "限速设置",
+        "delete_client": "移除客户端"
+    },
+    "menu_clients": "客户端"
 }
