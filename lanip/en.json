@@ -1,5 +1,5 @@
 {
-    "menu_lanip": "Lan IP",
+    "menu_lanip": "LAN IP",
     "lan_ip": {
         "lan": "LAN IP",
         "guest": "Guest IP",
@@ -9,11 +9,11 @@
         "end_ip": "End IP Address",
         "change_to": "The router's IP address is successfully changed to",
         "redirect_to": "You are being redirected to the new IP",
-        "guest_conflict_tips": "与 Guest IP 冲突",
-        "lan_conflict_tips": "与 LAN IP 冲突",
-        "ip_outside_tips": "IP 地址在子网范围之外",
-        "cannot_contain_ip_tips": "地址池范围不能包括路由器的 LAN IP",
-        "end_smaller_tips": "结束地址小于起始地址"
+        "guest_conflict_tips": "It is in conflict with Guest IP",
+        "lan_conflict_tips": "It is in conflict with LAN IP",
+        "ip_outside_tips": "IP address is outside the subnet",
+        "cannot_contain_ip_tips": "The address range can't include the router's IP",
+        "end_smaller_tips": "End address is less than start address"
     },
     "address_reservation": {
         "title": "Address Reservation",
@@ -24,8 +24,8 @@
         "no_data": "No data in the table",
         "add_new": "Add a New Reservation Entry",
         "set_data": "Edit the Reservation Entry",
-        "confirm_delete_all": "Confirm deleting all address reserved entries?",
-        "confirm_delete": "Confirm delete?",
+        "confirm_delete_all": "Are you sure you want to delete all address reserved entries?",
+        "confirm_delete": "Are you sure you want to delete the address reserved entry?",
         "mac_existed": "MAC Existed",
         "ip_existed": "IP Existed"
     }
