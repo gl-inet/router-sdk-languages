@@ -1,0 +1,32 @@
+{
+    "menu_lanip": "Lan IP",
+    "lan_ip": {
+        "lan": "LAN IP",
+        "guest": "Guest IP",
+        "tips": "GL routers use 192.168.8.1 as the default LAN IP address. This is the address you would enter into your browser 's address bar to access the router's admin page. You can manually setup a new LAN IP address within these three ranges.",
+        "note": "Note: The starting IP address and ending IP address must be between 2~254, and the ending address should be greater than starting address.",
+        "start_ip": "Start IP Address",
+        "end_ip": "End IP Address",
+        "change_to": "The router's IP address is successfully changed to",
+        "redirect_to": "You are being redirected to the new IP",
+        "guest_conflict_tips": "与 Guest IP 冲突",
+        "lan_conflict_tips": "与 LAN IP 冲突",
+        "ip_outside_tips": "IP 地址在子网范围之外",
+        "cannot_contain_ip_tips": "地址池范围不能包括路由器的 LAN IP",
+        "end_smaller_tips": "结束地址小于起始地址"
+    },
+    "address_reservation": {
+        "title": "Address Reservation",
+        "tips": "When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router’s DHCP server. You can assign reserved IP addresses to computers or servers that require permanent IP settings.",
+        "note": "Note: Configured clients have to reconnect the router to activate.",
+        "name": "Name",
+        "action": "Action",
+        "no_data": "No data in the table",
+        "add_new": "Add a New Reservation Entry",
+        "set_data": "Edit the Reservation Entry",
+        "confirm_delete_all": "Confirm deleting all address reserved entries?",
+        "confirm_delete": "Confirm delete?",
+        "mac_existed": "MAC Existed",
+        "ip_existed": "IP Existed"
+    }
+}

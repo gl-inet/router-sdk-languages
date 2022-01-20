@@ -1,0 +1,47 @@
+{
+    "lan_ip": {
+        "lan": "局域网 IP",
+        "guest": "访客 IP",
+        "tips": "GL路由器使用192.168.8.1作为默认LAN IP地址，这是你进入路由器管理页面的浏览器访问地址，你可以在以下三个范围内手动设置一个",
+        "note": "注意：起始IP地址和结束IP地址必须在2~254范围内，结束地址应大于起始地址。",
+        "start_ip": "起始IP地址",
+        "end_ip": "结束IP地址",
+        "change_to": "路由器的IP地址已成功更改为",
+        "redirect_to": "你正被重定向到新IP",
+        "guest_conflict_tips": "与访客 IP 冲突",
+        "lan_conflict_tips": "与局域网 IP 冲突",
+        "ip_outside_tips": "IP 地址在子网范围之外",
+        "cannot_contain_ip_tips": "地址池范围不能包括路由器的局域网 IP",
+        "end_smaller_tips": "结束地址小于起始地址"
+    },
+    "static_ip_bind": {
+        "title": "静态IP地址绑定",
+        "tips": "通常你计算机的 IP 地址由路由器动态分配。如果你希望计算机拥有静态 IP 地址，你可以手动添加你计算机的 MAC 地址和希望使用的静态 IP 地址。",
+        "note": "注意，被配置的客户端必须重新连接路由器才能生效。",
+        "name": "名称",
+        "action": "操作",
+        "no_data": "没有配置信息",
+        "add_new": "添加一条新绑定配置",
+        "set_data": "编辑绑定配置",
+        "confirm_delete_all": "是否删除所有静态IP绑定",
+        "confirm_delete": "确认删除",
+        "invalid": "无效",
+        "mac_existed": "MAC 已存在",
+        "ip_existed": "IP 已存在"
+    },
+    "address_reservation": {
+        "title": "地址预留",
+        "tips": "如果您在局域网中为客户端指定了一个预留的 IP 地址，路由器的 DHCP 服务器时将在该客户端在每次访问为它分配这个 IP 地址。您可以为需要固定 IP 设置的计算机或服务器分配预留的 IP 地址。",
+        "note": "注意，被配置的客户端必须重新连接路由器才能生效。",
+        "name": "名称",
+        "action": "操作",
+        "no_data": "空",
+        "set_data": "编辑预留配置",
+        "add_new": "添加一条新预留配置",
+        "confirm_delete_all": "是否删除所有的地址预留配置？",
+        "invalid": "无效",
+        "mac_existed": "MAC 已存在",
+        "ip_existed": "IP 已存在",
+        "confirm_delete": "确认删除"
+    }
+}

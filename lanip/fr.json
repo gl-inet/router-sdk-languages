@@ -1,0 +1,38 @@
+{
+    "lan_ip": {
+        "lan": "Lan IP",
+        "guest": "Guest IP",
+        "tips": "Les routeurs GL utilisent 192.168.8.1 comme adresse IP LAN par défaut. C'est l'adresse que vous entrez dans la barre d'adresse de votre navigateur pour accéder à la page d'administration du routeur. Vous pouvez en configurer manuellement un dans ces trois plages",
+        "note": "Remarque: l'adresse IP de départ et l'adresse IP de fin doivent être comprises entre 2 et 254, et l'adresse de fin doit être supérieure à l'adresse de départ.",
+        "start_ip": "Adresse IP de départ",
+        "end_ip": "Adresse IP de fin",
+        "ip_conflicts": "L'adresse IP de l'invité est en conflit avec l'adresse IP LAN",
+        "change_to": "L'adresse IP du routeur a été modifiée avec succès",
+        "redirect_to": "Vous êtes redirigé vers la nouvelle adresse IP"
+    },
+    "static_ip_bind": {
+        "title": "Liaison d'adresse IP statique",
+        "tips": "Habituellement, l'adresse IP de votre ordinateur est attribuée dynamiquement par le routeur. Si vous souhaitez que votre ordinateur ait une adresse IP statique, vous pouvez ajouter manuellement l'adresse MAC de votre ordinateur et l'adresse IP statique que vous souhaitez utiliser.",
+        "note": "Le client configuré doit se reconnecter au routeur pour prendre effet.",
+        "name": "prénom",
+        "action": "action",
+        "no_data": "Aucune donnée dans le tableau",
+        "add_new": "",
+        "set_data": "",
+        "confirm_delete_all": "Ob alle statischen IP-Bindungen gelöscht werden sollen",
+        "confirm_delete": "Confirmer la suppression",
+        "invalid": "Non valable",
+        "mac_existed": "MAC existait",
+        "ip_existed": "IP existait"
+    },
+    "address_reservation": {
+        "note": "Le client configuré doit se reconnecter au routeur pour prendre effet.",
+        "name": "prénom",
+        "action": "action",
+        "no_data": "Aucune donnée dans le tableau",
+        "confirm_delete": "Confirmer la suppression",
+        "invalid": "Non valable",
+        "mac_existed": "MAC existait",
+        "ip_existed": "IP existait"
+    }
+}

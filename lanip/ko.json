@@ -1,0 +1,38 @@
+{
+    "lan_ip": {
+        "lan": "LAN IP",
+        "guest": "방문객 IP",
+        "tips": "GL 라우터는 192.168.8.1을 기본 LAN IP 주소로 사용합니다.이 주소는 라우터 관리 페이지에 입력 한 브라우저 액세스 주소이며 다음 세 범위 내에서 하나를 수동으로 설정할 수 있습니다.",
+        "note": "참고 : 시작 IP 주소와 끝 IP 주소는 2 ~ 254의 범위에 있어야하며 끝 주소는 시작 주소보다 커야합니다.",
+        "start_ip": "시작 IP 주소",
+        "end_ip": "최종 IP 주소",
+        "ip_conflicts": "게스트 IP 주소가 LAN IP 주소와 충돌",
+        "change_to": "라우터의 IP 주소가 다음으로 성공적으로 변경되었습니다",
+        "redirect_to": "새 IP로 리디렉션 중입니다"
+    },
+    "static_ip_bind": {
+        "title": "고정 IP 주소 바인딩",
+        "tips": "일반적으로 컴퓨터의 IP 주소는 라우터에 의해 동적으로 할당됩니다. 컴퓨터에 고정 IP 주소를 가지려면 컴퓨터의 MAC 주소와 사용하려는 고정 IP 주소를 수동으로 추가 할 수 있습니다.",
+        "note": "구성된 클라이언트가 적용 되려면 라우터를 다시 연결해야합니다.",
+        "name": "이름",
+        "action": "동작",
+        "no_data": "구성 정보가 없습니다",
+        "add_new": "새 IP-MAC 바인딩 추가",
+        "set_data": "IP-MAC 바인딩 편집",
+        "confirm_delete_all": "모든 고정 IP 바인딩을 삭제할지 여부",
+        "confirm_delete": "삭제 확인",
+        "invalid": "무효",
+        "mac_existed": "MAC이 이미 존재합니다",
+        "ip_existed": "IP이 이미 존재합니다"
+    },
+    "address_reservation": {
+        "note": "구성된 클라이언트가 적용 되려면 라우터를 다시 연결해야합니다.",
+        "name": "이름",
+        "action": "동작",
+        "no_data": "구성 정보가 없습니다",
+        "confirm_delete": "삭제 확인",
+        "invalid": "무효",
+        "mac_existed": "MAC이 이미 존재합니다",
+        "ip_existed": "IP이 이미 존재합니다"
+    }
+}

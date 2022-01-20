@@ -1,0 +1,38 @@
+{
+    "lan_ip": {
+        "lan": "Ip lan",
+        "guest": "Ospite IP",
+        "tips": "I router GL usano 192.168.8.1 come LAN IP indirizzo predefinito,. Questo è l'indirizzo da inserire nella barra degli indirizzi del browser per accederealla pagina di amministrazione del router. Puoi impostare manualmente uno all'interno di questi tre intervalli",
+        "note": "Nota: l'indirizzo IP iniziale e l'indirizzo IP finale devono essere compresi nell'intervallo 2 ~ 254 e l'indirizzo finale deve essere maggiore dell'indirizzo iniziale.",
+        "start_ip": "Avvia indirizzo IP",
+        "end_ip": "Indirizzo IP finale",
+        "ip_conflicts": "L'indirizzo IP ospite è in conflitto con l'indirizzo IP della LAN",
+        "change_to": "l'indirizzo IP del router è stato cambiato con successo in",
+        "redirect_to": "Stai per essere reindirizzato al nuovo IP"
+    },
+    "static_ip_bind": {
+        "title": "Associazione indirizzi IP statici",
+        "tips": "Solitamente l'indirizzo IP del tuo computer viene assegnato dinamicamente dal router. Se si desidera che il computer abbia un indirizzo IP statico, è possibile aggiungere manualmente l'indirizzo MAC del computer e l'indirizzo IP statico che si desidera utilizzare.",
+        "note": "Si nota che il cliente configurato deve riconnettersi al router per avere effetto.",
+        "name": "nome",
+        "action": "Azione",
+        "no_data": "Nesuuna informazione di configurazione",
+        "add_new": "Aggiungi una nuova configurazione di associazione",
+        "set_data": "Modificare la configurazione di associazione",
+        "confirm_delete_all": "Vuoi eliminare tutte binding IP statici",
+        "confirm_delete": "Conferma elimina",
+        "invalid": "Non valido",
+        "mac_existed": "MAC già esistente",
+        "ip_existed": "IP già esistente"
+    },
+    "address_reservation": {
+        "note": "Si nota che il cliente configurato deve riconnettersi al router per avere effetto.",
+        "name": "nome",
+        "action": "Azione",
+        "confirm_delete": "Conferma elimina",
+        "invalid": "Non valido",
+        "mac_existed": "MAC già esistente",
+        "ip_existed": "IP già esistente",
+        "no_data": "Nesuuna informazione di configurazione"
+    }
+}
