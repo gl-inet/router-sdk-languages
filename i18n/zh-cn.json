@@ -2,7 +2,7 @@
     "ddns": {
         "desc": "你可以开启动态DNS，以便于远程访问此设备。",
         "test": "DDNS解析测试",
-        "note": "注意：你必须有一个公网IP地址才能使用动态DNS。如果此路由器在防火墙的后面，你需要在你的主路由器上面设置端口转发。",
+        "note": "注意：你必须有一个公网IP地址才能使用动态 DNS。如果此路由器在防火墙的后面，你需要在你的主路由器上面设置端口转发。",
         "enabled": "启用",
         "enable_http": "开启HTTP外网访问",
         "enable_https": "开启HTTPS外网访问",
@@ -10,7 +10,7 @@
         "read_and_agree": "我已阅读并同意了",
         "terms_service": "服务条款",
         "privacy_policy": "隐私政策",
-        "detecting": "正在检测中，请稍后",
+        "detecting": "正在检测中，请稍后……",
         "resolved_as": "你的ddns已成功解析为",
         "behind_nat": "但此路由在防火墙后面或ISP服务商给你提供的IP不是公网IP。",
         "working": "你的ddns服务正常。",
