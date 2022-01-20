@@ -9,17 +9,14 @@
         "change_to": "路由器的IP地址已成功更改为",
         "redirect_to": "你正被重定向到新IP",
         "guest_conflict_tips": "与访客 IP 冲突",
-        "lan_conflict_tips": "与局域网 IP 冲突",
+        "lan_conflict_tips": "与 LAN IP 冲突",
         "ip_outside_tips": "IP 地址在子网范围之外",
-        "cannot_contain_ip_tips": "地址池范围不能包括路由器的局域网 IP",
+        "cannot_contain_ip_tips": "地址池范围不能包括路由器的 IP",
         "end_smaller_tips": "结束地址小于起始地址"
     },
     "static_ip_bind": {
-        "tips": "通常你计算机的 IP 地址由路由器动态分配。如果你希望计算机拥有静态 IP 地址，你可以手动添加你计算机的 MAC 地址和希望使用的静态 IP 地址。",
         "name": "名称",
-        "no_data": "没有配置信息",
         "set_data": "编辑绑定配置",
-        "confirm_delete": "确认删除",
         "mac_existed": "MAC 已存在"
     },
     "address_reservation": {
@@ -31,9 +28,10 @@
         "no_data": "空",
         "set_data": "编辑预留配置",
         "add_new": "添加一条新预留配置",
-        "confirm_delete_all": "是否删除所有的地址预留配置？",
+        "confirm_delete_all": "您确认要删除删除所有的地址预留配置吗？",
         "mac_existed": "MAC 已存在",
         "ip_existed": "IP 已存在",
-        "confirm_delete": "确认删除"
-    }
+        "confirm_delete": "您确认要删除该地址预留配置吗？"
+    },
+    "menu_lanip": "LAN IP"
 }
