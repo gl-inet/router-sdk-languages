@@ -6,24 +6,16 @@
         "note": "Nota: La dirección IP inicial y final deben estar en el rango de 2 - 254, y la final debe ser mayor que la inicial.",
         "start_ip": "Dirección IP inicial",
         "end_ip": "Dirección IP final",
-        "ip_conflicts": "Dirección IP de visita entra en conflicto con la dirección IP de la LAN",
         "change_to": "La dirección IP del router se ha cambiado con éxito a",
         "redirect_to": "Está siendo redirigido a la nueva IP"
     },
     "static_ip_bind": {
-        "title": "Vinculación de la dirección IP estática",
         "tips": "Normalmente la dirección IP de tu ordenador es asignada dinámicamente por el router. Si quieres que tu ordenador tenga una dirección IP estática, puedes añadir manualmente la dirección MAC de tu ordenador y la dirección IP estática que quieres usar.",
-        "note": "Tenga en cuenta que el cliente configurado tiene que reconectar el router para entrar en vigor.",
         "name": "Nombre",
-        "action": "Acción",
         "no_data": "No hay datos en la tabla",
-        "add_new": "Añadir un nuevo vínculo de IP estática",
         "set_data": "Modificar el vínculo de IP estáticos",
-        "confirm_delete_all": "Si eliminar todos los enlaces de IP estáticos",
         "confirm_delete": "Confirme la eliminación",
-        "invalid": "Inválido",
-        "mac_existed": "MAC ya existe",
-        "ip_existed": "IP ya existe"
+        "mac_existed": "MAC ya existe"
     },
     "address_reservation": {
         "note": "Tenga en cuenta que el cliente configurado tiene que reconectar el router para entrar en vigor.",
@@ -31,7 +23,6 @@
         "action": "Acción",
         "no_data": "No hay datos en la tabla",
         "confirm_delete": "Confirme la eliminación",
-        "invalid": "Inválido",
         "mac_existed": "MAC ya existe",
         "ip_existed": "IP ya existe"
     }

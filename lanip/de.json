@@ -6,31 +6,22 @@
         "note": "Hinweis: Die Start-IP-Adresse und die End-IP-Adresse müssen im Bereich von 2 bis 254 liegen, und die End-Adresse sollte größer als die Start-Adresse sein.",
         "start_ip": "Start-IP-Adresse",
         "end_ip": "End-IP-Adresse",
-        "ip_conflicts": "Gast-IP-Adresse steht in Konflikt mit der LAN-IP-Adresse",
         "change_to": "Die IP-Adresse des Routers wurde erfolgreich geändert zu",
         "redirect_to": "Sie werden auf die neue IP-Adresse umgeleitet"
     },
     "static_ip_bind": {
-        "title": "Statische IP-Adressbindung",
         "tips": "Normalerweise wird die IP-Adresse Ihres Computers vom Router dynamisch zugewiesen. Wenn Ihr Computer eine statische IP-Adresse haben soll, können Sie die MAC-Adresse Ihres Computers und die statische IP-Adresse, die Sie verwenden möchten, manuell hinzufügen.",
-        "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",
         "name": "Name",
-        "action": "Aktion",
         "no_data": "Keine Daten in der Tabelle",
-        "add_new": "Fügen Sie eine neue Bindung hinzu",
         "set_data": "Bearbeiten Sie die Bindung",
-        "confirm_delete_all": "Ob alle statischen IP-Bindungen gelöscht werden sollen",
         "confirm_delete": "Löschen bestätigen",
-        "invalid": "Ungültig",
-        "mac_existed": "MAC vorhanden",
-        "ip_existed": "IP vorhanden"
+        "mac_existed": "MAC vorhanden"
     },
     "address_reservation": {
         "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",
         "action": "Aktion",
         "no_data": "Keine Daten in der Tabelle",
         "confirm_delete": "Löschen bestätigen",
-        "invalid": "Ungültig",
         "mac_existed": "MAC vorhanden",
         "ip_existed": "IP vorhanden"
     }
