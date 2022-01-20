@@ -1,12 +1,12 @@
 {
     "cloud": {
         "title": "云端管理",
-        "tips": "使用GoodCloud，你可以将设备分组管理，检查实时状态，远程设置，批量操作及监测连接的客户端等。",
+        "tips": "使用 GoodCloud，你可以将路由器分组管理，检查路由器实时状态，远程设置路由器，批量操作路由器及监测连接的客户端等。",
         "bound_by": "此设备被",
         "on": "绑定于",
         "unbind": "解除绑定",
         "id_is": "你的设备ID是",
-        "add_id_tips": "请使用这个ID把此设备加入到你Cloud账号。",
+        "add_id_tips": "请使用这个 ID 把此设备绑定到你 Cloud 账号下。",
         "enable": "启用",
         "remote_ssh": "远程 SSH",
         "remote_web": "远程 Web",
@@ -21,7 +21,7 @@
         "user": "用户",
         "region": "地区",
         "unbind_note": "提示：该操作只在当前区域上解绑。如果你有在其它区域绑定，请依次从每个区域解绑。",
-        "unbind_success": "解绑成功",
+        "unbind_success": "解绑成功。",
         "view_log": "查看日志"
     }
 }
