@@ -1,12 +1,12 @@
 {
     "cloud": {
         "title": "Cloud Management",
-        "tips": "With GoodCloud, you can manage routers in groups, check live router status, set up routers remotely, operate routers in batch and monitor connected clients etc.",
-        "bound_by": "The device was bound by",
+        "tips": "With GoodCloud, you can manage routers in groups, check real-time router status, set up routers remotely, operate routers in batch and monitor connected clients etc.",
+        "bound_by": "The device is bound by",
         "on": "on",
         "unbind": "Unbind",
         "id_is": "Your device ID is",
-        "add_id_tips": "Please use the ID to add this device to your cloud account.",
+        "add_id_tips": "Please use this ID to add the device to your cloud account.",
         "enable": "Enabled",
         "remote_ssh": "Remote SSH",
         "remote_web": "Remote Web Access",
@@ -20,8 +20,8 @@
         "unbind_tips": "Are you sure you want to unbind the device with GoodCloud? The device is bound to:",
         "user": "User",
         "region": "Region",
-        "unbind_note": "Note: This only take effect to the selected region. If you have ever bound this device on different regions, do this on each region.",
-        "unbind_success": "Unbinding Successfully",
+        "unbind_note": "Note: This will only take effect in the selected region. If you bounded this device on different regions, do this on each region.",
+        "unbind_success": "Unbind Successful",
         "view_log": "View Logs"
     }
 }
