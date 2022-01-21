@@ -1,0 +1,25 @@
+{
+    "firewall": {
+        "port_forwards": "Port forwarding",
+        "open_ports_on_router": "Aprire la porta del router",
+        "port_forwards_desc": "Il port forwarding consente agli utenti sulla WAN di accedere alle risorse del server (come server Web, server FTP, ecc.) Fornite dal computer locale.",
+        "open_port_on_router_dest": "L'apertura della porta del router consente agli utenti della WAN di accedere alle risorse del server (come server Web, server FTP, ecc.) Forniti dal router.",
+        "dmz_desc": "DMZ può esporre completamente il set di dispositivi come DMZ nella rete locale alla rete WAN, in modo da garantire la sicurezza di altri dispositivi nella rete locale fornendo servizi alla rete WAN.",
+        "dmz_tips": "L'attivazione di DMZ invaliderà il port forwarding e aprirà le regole di porta di routing.",
+        "open_dmz": "Apri DMZ",
+        "dmz_host_ip": "DMZ Host IP",
+        "name": "nome",
+        "protocol": "Protocollo",
+        "external_zone": "Zona esterna",
+        "external_ports": "Porto esterno",
+        "internal_zone": "Zona interna",
+        "internal_ip": "IP interno",
+        "internal_ports": "Porto interno",
+        "port": "portale",
+        "status": "Stato",
+        "action": "Azione",
+        "no_data": "Nesuuna informazione di configurazione",
+        "delete_all_port_tips": "Vuoi eliminare tutte le regole della porta?",
+        "invalid_ip": "Ip invalido"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "firewall": {
+        "port_forwards": "ポート転送",
+        "open_ports_on_router": "ルーターのポートを開く",
+        "port_forwards_desc": "ポート転送を使用すると、WAN上のユーザーはローカルコンピューターによって提供されるサーバーリソースにアクセスできます。（Webサーバー、FTPサーバーなど）",
+        "open_port_on_router_dest": "ルータのポートを開けることでインターネット上のユーザがルータの提供するサービス(Webサーバー,FTPサーバーなど)にアクセスすることができるようになります。",
+        "dmz_desc": "DMZは、LAN内でDMZに設定されているデバイスをWANに完全に公開できます。WANにサービスを提供しながら、LAN内の他のデバイスのセキュリティを確保します。",
+        "dmz_tips": "DMZをオンにすると、ポート転送とルーティングポートルールの開放が無効になります。",
+        "open_dmz": "DMZの有効化",
+        "dmz_host_ip": "DMZホストIP",
+        "name": "名前",
+        "protocol": "プロトコル",
+        "external_zone": "外部ゾーン",
+        "external_ports": "外部ポート",
+        "internal_zone": "内部ゾーン",
+        "internal_ip": "内部IP",
+        "internal_ports": "内部ポート",
+        "port": "ポート",
+        "status": "状態",
+        "action": "操作",
+        "no_data": "設定情報なし",
+        "delete_all_port_tips": "すべてのポートルールを削除しますか？",
+        "invalid_ip": "無効なIP!"
+    }
+}

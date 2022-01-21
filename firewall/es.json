@@ -1,0 +1,25 @@
+{
+    "firewall": {
+        "port_forwards": "Redirección de puertos",
+        "open_ports_on_router": "Puertos abiertos en el router",
+        "port_forwards_desc": "La redirección de puertos permite que los ordenadores remotas se conecten a un ordernador o un servicio específico detrás del cortafuegos en la LAN local (como servidores web, servidores FTP, etc.)",
+        "open_port_on_router_dest": "Los servicios del router, como web, FTP, etc., requieren que se abran sus respectivos puertos en el router para poder acceder públicamente.",
+        "dmz_desc": "DMZ le permite exponer un ordenador a Internet, para que todos los paquetes internos sean redirigidos al ordenador que ha configurado.",
+        "dmz_tips": "Si activa la DMZ, las reglas de redirección de puerto y regla de puerto abierto no tendrán efecto.",
+        "open_dmz": "Abrir DMZ",
+        "dmz_host_ip": "DMZ Host IP",
+        "name": "Nombre",
+        "protocol": "Protocolo",
+        "external_zone": "Zona externa",
+        "external_ports": "Puertos externos",
+        "internal_zone": "Zona interna",
+        "internal_ip": "IP interna",
+        "internal_ports": "Puertos internos",
+        "port": "puerto",
+        "status": "Estado",
+        "action": "Acción",
+        "no_data": "No hay datos en la tabla",
+        "delete_all_port_tips": "¿Quiere eliminar todas las reglas de puerto?",
+        "invalid_ip": "¡IP inválida!"
+    }
+}
