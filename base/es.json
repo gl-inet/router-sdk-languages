@@ -1,0 +1,46 @@
+{
+    "upload": {
+        "select_or_drag": "Seleccione un archivo o arrástrelo aquí",
+        "file_include": "Tipo de archivo incluye",
+        "uploading": "subiendo",
+        "success": "con éxito",
+        "reupload": "Vuelva a subir el archivo",
+        "retry": "¡Inténtalo de nuevo!",
+        "firmware_format_error": "ERROR: Formato incorrecto de firmware!",
+        "error": "ERROR: ¡Error al subir el archivo!",
+        "format_error": "Error de formato de datos"
+    },
+    "core": {
+        "protocol": "Protocolo",
+        "ip": "Dirección IP",
+        "ipv6": "Dirección IPv6",
+        "gateway": "Puerta de en lace",
+        "dns": "Servidor DNS",
+        "netmask": "Máscara de red",
+        "username": "Nombre del usuario",
+        "password": "Contraseña",
+        "ssid": "SSID",
+        "channel": "Canal",
+        "required": "Obligatorio",
+        "optional": "Opcional",
+        "modify": "Modificar",
+        "cancel": "Cancelar",
+        "apply": "Aplicar",
+        "install": "instalar",
+        "connect": "Conectar",
+        "disconnect": "Desconectar",
+        "abort": "Terminar",
+        "caution": "Precaución",
+        "no": "NO",
+        "yes": "SÍ",
+        "close": "Cerrar",
+        "add": "Añadir",
+        "delete": "Borrar",
+        "delete_all": "Eliminar todo",
+        "submit": "Enviar",
+        "setting": "Ajuste"
+    },
+    "msg": {
+        "access_denied": "ERROR: usuario no válido, permiso denegado o no se encontró registro de inicio de sesión."
+    }
+}
