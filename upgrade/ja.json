@@ -1,1 +1,37 @@
-{"upgrade":{"title":"アップグレード","online":"オンラインアップグレード","current_version":"現在のバージョン","compile_time":"コンパイル時間","latest_version":"最新バージョン","current_latest_version":"目前のバージョンはすでに最新バージョンです。","keep_setting":"設定を保持します","keep_installed":"インストールしたパッケージを保存する","local":"ローカルアップグレード","firmware_verification":"ファームウェアの検証","version":"バージョン","verifi_res":"検証結果","auto":"自動アップグレード","enable_auto":"自動アップグレードを有効化","router_time":"ルーターの時刻","auto_time":"自動アップグレードの実行時刻","caution_desc":"この機能はユーザーカスタムのインストールリストしか保存しないから、ブラグイン管理画面で再インストールできます！","checking":"検証中","pass":"検証成功","firmware_large":"アップロードのファームウェアが大きすぎます。","no_firmware":"ファームウェアは存在しません","unpass":"検証失敗","not_supported":"バージョン不対応","platform_unpass":"プラットフォームの検出が失敗","not_gl":"このファームウェアはGL-iNetが発表したファームウェアではありません。","old_version":"アップロードされたファームウェアのバージョンが現在のバージョンより低いです。","advised_not_keep_setting":"カーネルが大きいバージョンから、アップグレードしたあと、配置を保持しないことをおすすめ","unknown_version":"未知バージョン、サードパーティファームウェアまたは古いバージョン","downloading":"ダウンロード中","download_fail":"ダウンロード中","download_finish":"ダウンロード失敗","updating":"アップグレード中","update_fail":"アップグレード失敗","firmware_sign_unpass":"ファームウェア署名の検証が不合格です。"}}
+{
+    "upgrade": {
+        "title": "アップグレード",
+        "online": "オンラインアップグレード",
+        "current_version": "現在のバージョン",
+        "compile_time": "コンパイル時間",
+        "latest_version": "最新バージョン",
+        "current_latest_version": "目前のバージョンはすでに最新バージョンです。",
+        "keep_setting": "設定を保持します",
+        "keep_installed": "インストールしたパッケージを保存する",
+        "local": "ローカルアップグレード",
+        "firmware_verification": "ファームウェアの検証",
+        "version": "バージョン",
+        "verifi_res": "検証結果",
+        "auto": "自動アップグレード",
+        "enable_auto": "自動アップグレードを有効化",
+        "router_time": "ルーターの時刻",
+        "auto_time": "自動アップグレードの実行時刻",
+        "caution_desc": "この機能はユーザーカスタムのインストールリストしか保存しないから、ブラグイン管理画面で再インストールできます！",
+        "checking": "検証中",
+        "pass": "検証成功",
+        "firmware_large": "アップロードのファームウェアが大きすぎます。",
+        "no_firmware": "ファームウェアは存在しません",
+        "unpass": "検証失敗",
+        "not_supported": "バージョン不対応",
+        "platform_unpass": "プラットフォームの検出が失敗",
+        "not_gl": "このファームウェアはGL-iNetが発表したファームウェアではありません。",
+        "old_version": "アップロードされたファームウェアのバージョンが現在のバージョンより低いです。",
+        "advised_not_keep_setting": "カーネルが大きいバージョンから、アップグレードしたあと、配置を保持しないことをおすすめ",
+        "unknown_version": "未知バージョン、サードパーティファームウェアまたは古いバージョン",
+        "download_fail": "ダウンロード中",
+        "download_finish": "ダウンロード失敗",
+        "updating": "アップグレード中",
+        "update_fail": "アップグレード失敗",
+        "firmware_sign_unpass": "ファームウェア署名の検証が不合格です。"
+    }
+}
