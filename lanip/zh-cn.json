@@ -14,9 +14,6 @@
         "cannot_contain_ip_tips": "地址池范围不能包括路由器的 IP",
         "end_smaller_tips": "结束地址小于起始地址"
     },
-    "static_ip_bind": {
-        "set_data": "编辑绑定配置"
-    },
     "address_reservation": {
         "title": "地址预留",
         "tips": "如果您在局域网中为客户端指定了一个预留的 IP 地址，路由器的 DHCP 服务器时将在该客户端在每次访问为它分配这个 IP 地址。您可以为需要固定 IP 设置的计算机或服务器分配预留的 IP 地址。",
@@ -31,5 +28,5 @@
         "ip_existed": "IP 已存在",
         "confirm_delete": "您确认要删除该地址预留配置吗？"
     },
-    "menu_lanip": "LAN IP"
+    "menu_lanip": "局域网 IP"
 }
