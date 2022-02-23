@@ -2,16 +2,13 @@
     "lan_ip": {
         "lan": "Lan IP",
         "guest": "Gast IP",
-        "note": "Hinweis: Die Start-IP-Adresse und die End-IP-Adresse müssen im Bereich von 2 bis 254 liegen, und die End-Adresse sollte größer als die Start-Adresse sein.",
         "start_ip": "Start-IP-Adresse",
         "end_ip": "End-IP-Adresse",
         "change_to": "Die IP-Adresse des Routers wurde erfolgreich geändert zu",
         "redirect_to": "Sie werden auf die neue IP-Adresse umgeleitet"
     },
     "static_ip_bind": {
-        "name": "Name",
-        "set_data": "Bearbeiten Sie die Bindung",
-        "mac_existed": "MAC vorhanden"
+        "set_data": "Bearbeiten Sie die Bindung"
     },
     "address_reservation": {
         "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",

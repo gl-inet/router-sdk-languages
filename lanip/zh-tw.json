@@ -2,16 +2,13 @@
     "lan_ip": {
         "lan": "區域網路 IP",
         "guest": "訪客 IP",
-        "note": "注意：起始IP地址和結束IP地址必須在2~254範圍內，結束地址應大於起始地址。",
         "start_ip": "起始IP地址",
         "end_ip": "結束IP地址",
         "change_to": "路由器的IP地址已成功更改為",
         "redirect_to": "你正被重定向到新IP"
     },
     "static_ip_bind": {
-        "name": "名稱",
-        "set_data": "編輯靜態 IP 綁定",
-        "mac_existed": "MAC 已存在"
+        "set_data": "編輯靜態 IP 綁定"
     },
     "address_reservation": {
         "note": "注意，被配置的客戶端必須重新連接路由器才能生效。",

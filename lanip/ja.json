@@ -2,16 +2,13 @@
     "lan_ip": {
         "lan": "Lan IP",
         "guest": "ゲスト IP",
-        "note": "注：開始IPアドレスと終了IPアドレスはクライアントに対してDHCPで割り当てるIPアドレスの範囲で2～254の範囲で指定します。また終了アドレスは開始アドレスより大きいものを指定します。",
         "start_ip": "開始IPアドレス",
         "end_ip": "終了IPアドレス",
         "change_to": "ルータIPアドレスの変更が完了しました",
         "redirect_to": "新しいIPにリダイレクトされます"
     },
     "static_ip_bind": {
-        "name": "名前",
-        "set_data": "静的IPバインディングの変更",
-        "mac_existed": "MACは既に存在します"
+        "set_data": "静的IPバインディングの変更"
     },
     "address_reservation": {
         "note": "警告：設定したクライアントは、有効にするためにルータに再接続する必要があります。",
