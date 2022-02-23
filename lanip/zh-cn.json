@@ -1,7 +1,7 @@
 {
     "lan_ip": {
-        "lan": "局域网 IP",
-        "guest": "访客 IP",
+        "lan": "路由器 IP 地址",
+        "guest": "默认网关",
         "start_ip": "起始IP地址",
         "end_ip": "结束IP地址",
         "change_to": "路由器的IP地址已成功更改为",
@@ -10,7 +10,13 @@
         "lan_conflict_tips": "与 LAN IP 冲突",
         "ip_outside_tips": "IP 地址在子网范围之外",
         "cannot_contain_ip_tips": "地址池范围不能包括路由器的 IP",
-        "end_smaller_tips": "结束地址小于起始地址"
+        "end_smaller_tips": "结束地址小于起始地址",
+        "ip_three_easy_lan_enter_tip": "输入范围(0-255)",
+        "lan_or_guest_senior_tip": "您可以在 IPv4 私有地址范围内设置子网: 192.168.0.0/16，172.16.0.0/12，10.0.0.0/8",
+        "lan_easy_tip": "路由器 IP 地址是您进入路由器管理页面的浏览器访问地址。",
+        "user_count_easy_lan_enter_tip": "输入范围(1-253)",
+        "lan_or_guest_model_setting": "高级设置",
+        "user_count_max": "最大用户数"
     },
     "address_reservation": {
         "title": "地址预留",
