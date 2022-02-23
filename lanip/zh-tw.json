@@ -2,7 +2,6 @@
     "lan_ip": {
         "lan": "區域網路 IP",
         "guest": "訪客 IP",
-        "tips": "GL路由器使用192.168.8.1作為默認LAN IP地址，這是你進入路由器管理頁面的瀏覽器訪問地址，你可以在以下三個範圍內手動設置一個",
         "note": "注意：起始IP地址和結束IP地址必須在2~254範圍內，結束地址應大於起始地址。",
         "start_ip": "起始IP地址",
         "end_ip": "結束IP地址",
@@ -10,11 +9,8 @@
         "redirect_to": "你正被重定向到新IP"
     },
     "static_ip_bind": {
-        "tips": "通常你計算機的 IP 地址由路由器動態分配。如果你希望計算機擁有靜態 IP 地址，你可以手動添加你計算機的 MAC 地址和希望使用的靜態 IP 地址。",
         "name": "名稱",
-        "no_data": "沒有配置信息",
         "set_data": "編輯靜態 IP 綁定",
-        "confirm_delete": "確認刪除",
         "mac_existed": "MAC 已存在"
     },
     "address_reservation": {

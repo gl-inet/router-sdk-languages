@@ -2,7 +2,6 @@
     "lan_ip": {
         "lan": "Ip lan",
         "guest": "Ospite IP",
-        "tips": "I router GL usano 192.168.8.1 come LAN IP indirizzo predefinito,. Questo è l'indirizzo da inserire nella barra degli indirizzi del browser per accederealla pagina di amministrazione del router. Puoi impostare manualmente uno all'interno di questi tre intervalli",
         "note": "Nota: l'indirizzo IP iniziale e l'indirizzo IP finale devono essere compresi nell'intervallo 2 ~ 254 e l'indirizzo finale deve essere maggiore dell'indirizzo iniziale.",
         "start_ip": "Avvia indirizzo IP",
         "end_ip": "Indirizzo IP finale",
@@ -10,11 +9,8 @@
         "redirect_to": "Stai per essere reindirizzato al nuovo IP"
     },
     "static_ip_bind": {
-        "tips": "Solitamente l'indirizzo IP del tuo computer viene assegnato dinamicamente dal router. Se si desidera che il computer abbia un indirizzo IP statico, è possibile aggiungere manualmente l'indirizzo MAC del computer e l'indirizzo IP statico che si desidera utilizzare.",
         "name": "nome",
-        "no_data": "Nesuuna informazione di configurazione",
         "set_data": "Modificare la configurazione di associazione",
-        "confirm_delete": "Conferma elimina",
         "mac_existed": "MAC già esistente"
     },
     "address_reservation": {

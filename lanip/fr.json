@@ -2,7 +2,6 @@
     "lan_ip": {
         "lan": "Lan IP",
         "guest": "Guest IP",
-        "tips": "Les routeurs GL utilisent 192.168.8.1 comme adresse IP LAN par défaut. C'est l'adresse que vous entrez dans la barre d'adresse de votre navigateur pour accéder à la page d'administration du routeur. Vous pouvez en configurer manuellement un dans ces trois plages",
         "note": "Remarque: l'adresse IP de départ et l'adresse IP de fin doivent être comprises entre 2 et 254, et l'adresse de fin doit être supérieure à l'adresse de départ.",
         "start_ip": "Adresse IP de départ",
         "end_ip": "Adresse IP de fin",
@@ -10,11 +9,8 @@
         "redirect_to": "Vous êtes redirigé vers la nouvelle adresse IP"
     },
     "static_ip_bind": {
-        "tips": "Habituellement, l'adresse IP de votre ordinateur est attribuée dynamiquement par le routeur. Si vous souhaitez que votre ordinateur ait une adresse IP statique, vous pouvez ajouter manuellement l'adresse MAC de votre ordinateur et l'adresse IP statique que vous souhaitez utiliser.",
         "name": "prénom",
-        "no_data": "Aucune donnée dans le tableau",
         "set_data": "",
-        "confirm_delete": "Confirmer la suppression",
         "mac_existed": "MAC existait"
     },
     "address_reservation": {

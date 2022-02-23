@@ -2,7 +2,6 @@
     "lan_ip": {
         "lan": "IP Lan",
         "guest": "Invitado IP",
-        "tips": "Los GL routers usan 192.168.8.1 como la dirección IP LAN predeterminada. Es la dirección que debe ingresar en la barra de direcciones de su navegador para acceder a la página de administración del router. Puede configurar manualmente uno dentro de estos tres rangos",
         "note": "Nota: La dirección IP inicial y final deben estar en el rango de 2 - 254, y la final debe ser mayor que la inicial.",
         "start_ip": "Dirección IP inicial",
         "end_ip": "Dirección IP final",
@@ -10,11 +9,8 @@
         "redirect_to": "Está siendo redirigido a la nueva IP"
     },
     "static_ip_bind": {
-        "tips": "Normalmente la dirección IP de tu ordenador es asignada dinámicamente por el router. Si quieres que tu ordenador tenga una dirección IP estática, puedes añadir manualmente la dirección MAC de tu ordenador y la dirección IP estática que quieres usar.",
         "name": "Nombre",
-        "no_data": "No hay datos en la tabla",
         "set_data": "Modificar el vínculo de IP estáticos",
-        "confirm_delete": "Confirme la eliminación",
         "mac_existed": "MAC ya existe"
     },
     "address_reservation": {
