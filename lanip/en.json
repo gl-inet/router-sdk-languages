@@ -1,8 +1,8 @@
 {
     "menu_lanip": "LAN IP",
     "lan_ip": {
-        "lan": "LAN IP",
-        "guest": "Guest IP",
+        "lan": "",
+        "guest": "",
         "tips": "GL routers use 192.168.8.1 as the default LAN IP address. This is the address you would enter into your browser 's address bar to access the router's admin page. You can manually setup a new LAN IP address within these three ranges.",
         "note": "Note: The starting IP address and ending IP address must be between 2~254, and the ending address should be greater than starting address.",
         "start_ip": "Start IP Address",
