@@ -13,8 +13,8 @@
         "cannot_contain_ip_tips": "The address range can't include the router's IP",
         "end_smaller_tips": "End address is less than start address",
         "lan_or_guest_senior_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
-        "ip_three_easy_lan_enter_tip": "",
-        "user_count_easy_lan_enter_tip": "",
+        "ip_three_easy_lan_enter_tip": "Range (1-254)",
+        "user_count_easy_lan_enter_tip": "Range (1-254)",
         "lan_or_guest_model_setting": "Advanced",
         "user_count_max": "Maximum Number of Users",
         "lan_tab": "Private Network",
@@ -31,7 +31,7 @@
         "add_new": "Add a New Reservation Entry",
         "set_data": "Edit the Reservation Entry",
         "confirm_delete_all": "Are you sure you want to delete all address reserved entries?",
-        "confirm_delete": "Are you sure you want to delete the address reserved entry?",
+        "confirm_delete": "Are you sure you want to delete the reserved address entry?",
         "mac_existed": "MAC Existed",
         "ip_existed": "IP Existed"
     }
