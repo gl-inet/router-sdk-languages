@@ -5,7 +5,18 @@
         "start_ip": "Adresse IP de départ",
         "end_ip": "Adresse IP de fin",
         "change_to": "L'adresse IP du routeur a été modifiée avec succès",
-        "redirect_to": "Vous êtes redirigé vers la nouvelle adresse IP"
+        "redirect_to": "Vous êtes redirigé vers la nouvelle adresse IP",
+        "lan_or_guest_model_setting": "",
+        "cannot_contain_ip_tips": "",
+        "user_count_max": "",
+        "lan_conflict_tips": "",
+        "ip_outside_tips": "",
+        "guest_conflict_tips": "",
+        "security_title": "",
+        "dhcp_charter_label": "",
+        "lpr_serve_label": "",
+        "dhcp_serve_title": "",
+        "enable_dhcp_tips": ""
     },
     "address_reservation": {
         "note": "Le client configuré doit se reconnecter au routeur pour prendre effet.",
@@ -14,6 +25,10 @@
         "no_data": "Aucune donnée dans le tableau",
         "confirm_delete": "Confirmer la suppression",
         "mac_existed": "MAC existait",
-        "ip_existed": "IP existait"
-    }
+        "ip_existed": "IP existait",
+        "set_data": "",
+        "confirm_delete_all": ""
+    },
+    "menu_lanip": "",
+    "menu_guestip": ""
 }
