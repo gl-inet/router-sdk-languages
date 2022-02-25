@@ -5,7 +5,18 @@
         "start_ip": "시작 IP 주소",
         "end_ip": "최종 IP 주소",
         "change_to": "라우터의 IP 주소가 다음으로 성공적으로 변경되었습니다",
-        "redirect_to": "새 IP로 리디렉션 중입니다"
+        "redirect_to": "새 IP로 리디렉션 중입니다",
+        "lan_or_guest_model_setting": "",
+        "lan_conflict_tips": "",
+        "ip_outside_tips": "",
+        "user_count_max": "",
+        "guest_conflict_tips": "",
+        "cannot_contain_ip_tips": "",
+        "security_title": "",
+        "dhcp_charter_label": "",
+        "lpr_serve_label": "",
+        "dhcp_serve_title": "",
+        "enable_dhcp_tips": ""
     },
     "address_reservation": {
         "note": "구성된 클라이언트가 적용 되려면 라우터를 다시 연결해야합니다.",
@@ -14,6 +25,10 @@
         "no_data": "구성 정보가 없습니다",
         "confirm_delete": "삭제 확인",
         "mac_existed": "MAC이 이미 존재합니다",
-        "ip_existed": "IP이 이미 존재합니다"
-    }
+        "ip_existed": "IP이 이미 존재합니다",
+        "confirm_delete_all": "",
+        "set_data": ""
+    },
+    "menu_lanip": "",
+    "menu_guestip": ""
 }
