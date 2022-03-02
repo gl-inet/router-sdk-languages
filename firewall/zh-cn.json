@@ -1,7 +1,7 @@
 {
     "firewall": {
         "port_forwards": "端口转发",
-        "open_ports_on_router": "打开路由器端口",
+        "open_ports_on_router": "开放路由器端口",
         "port_forwards_desc": "端口转发可以实现广域网上的用户访问本地计算机提供的服务器资源（如web服务器、FTP 服务器等）。",
         "open_port_on_router_dest": "打开路由器端口可以实现广域网上的用户访问路由器提供的服务器资源（如web服务器、FTP 服务器等）。",
         "dmz_desc": "DMZ可以将局域网中设置为DMZ的设备完全暴露给广域网，以实现在对广域网提供服务的同时，确保局域网内的其它设备的安全。",
