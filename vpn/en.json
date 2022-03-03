@@ -211,7 +211,8 @@
         "users": "Users",
         "profiles": "Profiles",
         "set_key_btn": "Set Key Manually",
-        "invalid_dest_addr": "Invalid target address"
+        "invalid_dest_addr": "Invalid target address",
+        "set_key_manually_tips": "The router will automatically generate a key pair for you. If you are familiar with WireGuard and want to update the key pair or add a pre-shared key, you can also set key manually."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
