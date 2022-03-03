@@ -190,7 +190,10 @@
         "policy_base_on": "VPN Policy base on $$$$VLAN$$$",
         "enable_th": "Enable",
         "domain_name_tips": "The domain name in the list will also match its own subdomain (For example, google.com will match mail.google.com).",
-        "traffic_use_vpn_label": "The Traffic from Client Device with VPN"
+        "traffic_use_vpn_label": "The Traffic from Client Device with VPN",
+        "domain_exception": "Exception When Accessing Following Domain/IP",
+        "ie_without_vpn": "(i.e. without VPN)",
+        "ie_with_vpn": "(i.e. with VPN)"
     },
     "invalid_dest_addr": "Invalid target address",
     "menu_wgserver": "WireGuard Server",
