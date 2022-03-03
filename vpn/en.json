@@ -205,7 +205,8 @@
         "base_on_strategy": "Based on the $$$$VLAN$$$$",
         "website_label": "Website",
         "device_label": "Client Device",
-        "global_proxy_label": "Global proxy"
+        "global_proxy_label": "Global proxy",
+        "global_proxy_tips": "Only allow one VPN client to be activated, and all traffic will go through VPN."
     },
     "invalid_dest_addr": "Invalid target address",
     "menu_wgserver": "WireGuard Server",
