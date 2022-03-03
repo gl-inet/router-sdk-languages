@@ -185,7 +185,8 @@
         "ovpn_desc": "OpenVPN 是一个开源软件应用程序，它利用虚拟专用网络 (OpenVPN) 技术在路由或桥接配置中创建安全的点对点或站点到站点连接以远程访问设施，请您按照以下步骤操作：",
         "wg_step_tip1": "1. 生成 WireGuard® 配置；",
         "wg_tips1": "您尚未设置任何节点配置。请先添加一个节点配置。",
-        "public_ip": "真实 IP"
+        "public_ip": "真实 IP",
+        "route _mode": "路由模式"
     },
     "invalid_dest_addr": "无效的目的地址",
     "menu_wgserver": "WireGuard 服务器",
