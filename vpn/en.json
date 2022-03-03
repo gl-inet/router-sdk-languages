@@ -185,10 +185,19 @@
         "access_by_sites": "Differentiate by The Sites Visited",
         "access_by_sites_desc": "In domain name/IP mode, you can set which websites to visit with VPN, or you can set which websites to visit without VPN.",
         "access_by_dev": "Differentiate by The Clients Accessing Network",
-        "access_by_dev_desc": "In MAC filtering mode, you can accurately set whether each client in your local area network accesses the Internet with VPN by the MAC address of the client."
+        "access_by_dev_desc": "In MAC filtering mode, you can accurately set whether each client in your local area network accesses the Internet with VPN by the MAC address of the client.",
+        "global_policy_btn": "Global Policies",
+        "policy_base_on": "VPN Policy base on $$$$VLAN$$$",
+        "enable_th": "Enable",
+        "domain_exception_with_vpn": "Exception When Accessing Following Domain/IP (i.e. with VPN)",
+        "domain_exception_without_vpn": "Exception When Accessing Following Domain/IP (i.e. without VPN)",
+        "domain_name_tips": "The domain name in the list will also match its own subdomain (For example, google.com will match mail.google.com).",
+        "traffic_use_vpn_label": "The Traffic from Client Device with VPN"
     },
     "invalid_dest_addr": "Invalid target address",
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
-    "menu_wgclient": "WireGuard Client"
+    "menu_wgclient": "WireGuard Client",
+    "menu_ovpnclient": "OpenVPN Client",
+    "menu_vpndashboard": "VPN Dashboard"
 }
