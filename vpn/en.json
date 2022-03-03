@@ -201,7 +201,8 @@
         "strategy": "策略模式",
         "strategy_label": "策略模式",
         "route _mode": "Route Mode",
-        "base_on_web_tips": "Only allow one VPN client to be activated, and only the traffic of certain websites defined by IP address or domain name can go through VPN."
+        "base_on_web_tips": "Only allow one VPN client to be activated, and only the traffic of certain websites defined by IP address or domain name can go through VPN.",
+        "base_on_device_tips": "Only allow one VPN client to be activated, and only the traffic of certain local client devices defined by MAC address can go through VPN."
     },
     "invalid_dest_addr": "Invalid target address",
     "menu_wgserver": "WireGuard Server",
