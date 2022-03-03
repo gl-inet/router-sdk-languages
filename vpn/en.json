@@ -199,7 +199,9 @@
         "set_policy_on_service_tips": "如果启用该选项，路由器上运行的各个服务的流量是否通过 VPN 转发将由您需要在此处配置的规则决定。",
         "use_vpn_services": "使用 VPN 的服务：",
         "strategy": "策略模式",
-        "strategy_label": "策略模式"
+        "strategy_label": "策略模式",
+        "route _mode": "Route Mode",
+        "base_on_web_tips": "Only allow one VPN client to be activated, and only the traffic of certain websites defined by IP address or domain name can go through VPN."
     },
     "invalid_dest_addr": "Invalid target address",
     "menu_wgserver": "WireGuard Server",
