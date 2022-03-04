@@ -19,6 +19,7 @@
         "download": "Download",
         "delete_all_caution": "Do you want to remove all clients from the list?\nThe action doesn't prevent the client from reconnecting to the router, and all settings for those clients will also be removed.",
         "delete_caution": "Do you want to remove the client from the list?\nThe action doesn't prevent the client from reconnecting to the router, and all settings for the client will also be removed.",
-        "random_mac_tips": "This is a randomized MAC address."
+        "random_mac_tips": "This is a randomized MAC address.",
+        "random_mac_warning_tips": "Your settings for the client may be invalidated due to changes in the device's MAC address."
     }
 }
