@@ -216,7 +216,10 @@
         "add_new_btn": "Add New",
         "stop_btn": "Stop",
         "peer_deprecated_tips": "The configuration of the client peer is invalid due to the change in server configuration, please create a new peer configuration for your device.",
-        "askpass_label": "Passphrase"
+        "askpass_label": "Passphrase",
+        "advanced_configuration_tips": "If you are familiar with OpenVPN, you can also manually modify advanced configuration.",
+        "users_empty_tips": "The user list is empty, you need to add at least one user to connect to OpenVPN server.",
+        "use_client_tips": "Prefer using $$$$other VPN service providers$$$$ or $$$$customizing your own VPN server ?$$$$ Create a new group to add your configuration files."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
