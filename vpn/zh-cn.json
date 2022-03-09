@@ -114,7 +114,6 @@
         "log_level": "日志级别",
         "client_use_vpn": "客户端使用 VPN",
         "client_auth_tips": "路由器将自动为您生成服务端与客户端证书-密钥对，生成的客户端证书-密钥对在生成客户端配置文件时将自动写入。",
-        "more_congfig_tips": "如果您对 OpenVPN 足够了解，您也可以$$$$手动修改高级配置$$$$。",
         "export_config": "导出客户端配置",
         "use_ddns_export_tips": "使用 DDNS 域名可以避免因为公网 IP 变更导致客户端无法连接到服务。如果要使用此功能，请您的路由器已经$$$$启用 DDNS$$$$ 并且可以成功解析。",
         "use_ddns_domain": "使用 DDNS 域名",
