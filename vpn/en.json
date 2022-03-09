@@ -221,7 +221,8 @@
         "users_empty_tips": "The user list is empty, you need to add at least one user to connect to OpenVPN server.",
         "use_client_tips": "Prefer using $$$$other VPN service providers$$$$ or $$$$customizing your own VPN server ?$$$$ Create a new group to add your configuration files.",
         "choose_a_server_title": "选择$$$$VPN$$$$服务器",
-        "loaction_label": "位置"
+        "loaction_label": "位置",
+        "loaction_label_tips": "路由器只会获取您所选择的国家/地区内的服务器对应的配置文件。您选择的国家/地区越多，获取服务器配置文件所需的时间就越长。"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
