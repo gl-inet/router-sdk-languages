@@ -227,7 +227,8 @@
         "use_client_tips": "需要使用来自$$$$其它 VPN 服务提供商$$$$或是$$$$您自建的 VPN 服务器$$$$的配置？创建一个新组以添加您的配置文件。",
         "add_new_btn": "添加新",
         "profiles": "客户端配置",
-        "askpass_label": "密钥"
+        "askpass_label": "密钥",
+        "wg_revoke_key_tips": "创建 WireGuard 密钥失败。每个 Mullvad 账号下，您最多只能同时拥有五个密钥。请前往 $$$$Mullvad$$$$ 撤销一个密钥。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
