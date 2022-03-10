@@ -2,17 +2,22 @@
     "ddns": {
         "desc": "你可以開啟動態 DNS，以便於遠程訪問此設備.",
         "test": "DDNS 解析測試",
-        "note": "注意：你必須有一個公網IP地址才能使用動態DNS，如果此路由器在防火牆的後面，你需要在你的主路由器上面設置端口轉發.",
+        "note": "注意：您需要有一個 公共 IP 地址才能使用動態 DNS。如果此路由器設置在防火牆之後，你需要在你的主路由器上面設置端口轉發。",
         "enable_http": "開啟HTTP外網訪問",
         "enable_https": "開啟HTTPS外網訪問",
         "enable_ssh": "開啟SSH外網訪問",
         "read_and_agree": "我已閱讀並同意了",
         "terms_service": "服務條款",
         "privacy_policy": "隱私政策",
-        "detecting": "正在檢測中，請稍後",
+        "detecting": "正在檢測中，請稍後…",
         "resolved_as": "你的ddns已成功解析為",
         "behind_nat": "但此路由在防火牆後面或ISP服務商給你提供的IP不是公網IP",
         "working": "你的DDNS服務正常",
-        "not_effective": "你的DDNS解析尚未生效，請稍後重試"
-    }
+        "not_effective": "你的DDNS解析尚未生效，請稍後重試",
+        "enable": "啟用",
+        "enable_http_tip": "HTTP 是一種非加密協議。請謹慎使用。",
+        "not_internet": "沒有連接到互聯網，測試 DDNS 前請先連接到互聯網！",
+        "host_name": "域名"
+    },
+    "menu_ddns": "動態 DNS"
 }
