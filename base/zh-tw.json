@@ -36,9 +36,32 @@
         "delete": "刪除",
         "delete_all": "全部刪除",
         "submit": "提交",
-        "setting": "設置"
+        "setting": "設置",
+        "security_password_tips": "至少需要大寫字母、小寫字母、數字和符號中的其中兩個",
+        "download": "下載",
+        "retry": "請重試",
+        "not_allow_weak": "防止弱式密碼",
+        "reset": "重置",
+        "clear_all_caution": "確定要全部清除嗎？",
+        "allow_password_tips": "允許使用字母（區分大小寫）、數字和符號 $$$$",
+        "please_choose": "請選擇",
+        "delete_caution": "您確認要刪除該項配置嗎？",
+        "delete_all_caution": "您確認要刪除所有的配置項嗎？",
+        "password_tips": "$$$$ 字元和最大 $$$$ 字元",
+        "back": "返回",
+        "use_weak_tips": "弱密碼很容易被猜到，並且還會使您的網絡面臨潛在的攻擊。",
+        "disable": "禁用",
+        "copy": "複製"
     },
     "msg": {
-        "access_denied": "無效用戶，權限被拒絕或未登錄！"
+        "access_denied": "無效用戶，權限被拒絕或未登錄！",
+        "getting": "請稍候…",
+        "success": "成功！",
+        "operation_not_finished": "請等待當前操作完成。",
+        "being_process": "處理中，請稍候…",
+        "installing": "正在安裝，請稍候…",
+        "uninstalling": "正在卸載，請稍候…",
+        "interface_timeout": "等待超時，請檢查網絡環境或重啟設備。",
+        "unknown_err": "發生未知錯誤，請檢查網絡環境或重啟設備。"
     }
 }
