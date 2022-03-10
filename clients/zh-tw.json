@@ -3,8 +3,24 @@
         "name": "名稱",
         "speed": "速率",
         "traffic": "流量統計",
-        "wired_device": "有線設備",
         "2G_wiredless_device": "2.4G無線設備",
-        "delete_all": "全部刪除"
-    }
+        "delete_caution": "您想從列表中刪除該客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
+        "delete_all_caution": "您想從列表中刪除所有客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
+        "access_wan": "訪問區域網絡 (WAN)",
+        "online_client": "在線客戶端",
+        "offline_client": "離線客戶端",
+        "random_mac_warning_tips": "由於設備的 MAC 地址已更改，您的客戶端設置可能會失效。",
+        "block_wan": "禁止訪問區域網絡 (WAN)",
+        "action": "操作",
+        "unknown": "未知",
+        "self": "本機",
+        "limit_speed": "限速",
+        "remove_limit": "取消限速",
+        "delete_client": "移除客戶端",
+        "limit_speed_title": "限速設置",
+        "upload": "上傳",
+        "download": "下載",
+        "random_mac_tips": "這是一個隨機的 MAC 地址。"
+    },
+    "menu_clients": "客戶端"
 }
