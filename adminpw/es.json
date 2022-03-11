@@ -1,8 +1,13 @@
 {
     "adminpw": {
-        "old_pwd": "Antigua contraseña",
+        "old_pwd": "Contraseña actual",
         "new_pwd": "Nueva contraseña",
-        "confirm_pwd": "Confirmar la contraseña nueva ",
-        "warning": "ADVERTENCIA: ¡No puede ser correspondiente a su contraseña ANTERIOR!"
-    }
+        "confirm_pwd": "Confirmar contraseña",
+        "warning": "La nueva contraseña no puede ser la misma que la anterior",
+        "confirm_pwd_tips": "Confirmar nueva contraseña",
+        "old_pwd_error": "¡Contraseña actual incorrecta!",
+        "old_pwd_tips": "Introducir contraseña actual",
+        "new_pwd_tips": "Introducir nueva contraseña"
+    },
+    "menu_adminpw": "Contraseña del Administrador"
 }
