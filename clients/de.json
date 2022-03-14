@@ -3,8 +3,24 @@
         "name": "Name",
         "speed": "Geschwindigkeit",
         "traffic": "Verkehr",
-        "wired_device": "Kabelgebundenes Gerät",
         "2G_wiredless_device": "2.4G Wireless-Gerät",
-        "delete_all": "Alles löschen"
-    }
+        "online_client": "Online-Kunden",
+        "offline_client": "Offline-Kunden",
+        "access_wan": "Access WAN",
+        "block_wan": "WAN blockieren",
+        "action": "Aktion",
+        "unknown": "Unbekannt",
+        "self": "selbst",
+        "limit_speed": "Geschwindigkeit begrenzen",
+        "remove_limit": "Grenze deaktivieren",
+        "delete_client": "Kunde entfernen",
+        "upload": "hochladen",
+        "download": "herunterladen",
+        "limit_speed_title": "Geschwindigkeitseinstellungen begrenzen",
+        "delete_all_caution": "Möchten Sie alle Kunden aus der Liste entfernen?\nDie Aktion hindert den Client nicht daran, sich erneut mit dem Router zu verbinden, und alle Einstellungen für diese Clients werden ebenfalls entfernt.",
+        "delete_caution": "Möchten Sie den Kunden aus der Liste entfernen?\nDie Aktion verhindert nicht, dass sich der Client erneut mit dem Router verbindet, und alle Einstellungen für den Client werden ebenfalls entfernt.",
+        "random_mac_tips": "Dies ist eine randomisierte MAC-Adresse.",
+        "random_mac_warning_tips": "Ihre Einstellungen für den Client können aufgrund von Änderungen in der MAC-Adresse des Geräts ungültig werden."
+    },
+    "menu_clients": "Kunden"
 }
