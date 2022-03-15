@@ -1,1 +1,24 @@
-{"bridge":{"title":"Modo de Red","tips_one":"Cuando cambie el modo de trabajo del router, es posible que deba volver a conectar todos sus dispositivos cliente.","tips_two":"Cuando usa el modo Punto de acceso / Extender / WDS, no puede volver a conectarse a esta IU. Puede mantener pulsado el botón de reinicio durante 4 segundos para volver al modo router.","note_one":"El cliente OpenVPN o Wireguard está activado. Por favor, desactívelos para configurar el modo puente.","note_two":"Portal acutivo está activado. Desactívalo para configurar el modo puente","mode_switch":"Cambio de modo","router":"router","ap":"Punto de acceso","ext":"Extensión","wds":"WDS","ssid":"Nombre de Wi-Fi (SSID)","password":"Contraseña","holder_choose":"Seleccionar","access_router":"Accediendo a su router","access_router_wds_tips":"Una vez que el puente se haya conectado con éxito, el router obtendrá automáticamente una IP del router principal.Si necesita acceder a la interfaz de usuario del router debe usar la IP obtenida del router principal para conectarse. Para obtener esta IP, comprueba la lista de clientes conectados en la interfaz de tu router principal. Si no tienes acceso a la interfaz de usuario del router principal, puedes restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.","access_router_ext_tips":"Después de que el puente se haya realizado con éxito, si necesitas acceder a la interfaz de usuario de este enrutador, deberás configurar manualmente tu PC/teléfono móvil a una dirección IP estática en el mismo rango que el router. Si aún así no puede acceder a ella, puede restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.","reset_mac_tips":"Por favor, reinicie su MAC a la MAC de fábrica en el clon de MAC.","set_up_ap_tips":"Para configurar el modo Punto de acceso, primero debe conectar un cable Ethernet al puerto WAN.","remove_wan_tips":"Por favor, retire el cable de Internet del puerto WAN.","enter_pwd_tips":"Por favor, ingrese contraseña","choose_ssid_tips":""}}
+{
+    "bridge": {
+        "tips_one": "Cuando cambie el modo de trabajo del router, es posible que deba volver a conectar todos sus dispositivos cliente.",
+        "tips_two": "Cuando usa el modo Punto de acceso / Extender / WDS, no puede volver a conectarse a esta IU. Puede mantener pulsado el botón de reinicio durante 4 segundos para volver al modo router.",
+        "note_one": "El cliente OpenVPN o Wireguard está activado. Por favor, desactívelos para configurar el modo puente.",
+        "note_two": "Portal acutivo está activado. Desactívalo para configurar el modo puente",
+        "mode_switch": "Cambio de modo",
+        "router": "router",
+        "ap": "Punto de acceso",
+        "wds": "WDS",
+        "ssid": "Nombre de Wi-Fi (SSID)",
+        "password": "Contraseña",
+        "holder_choose": "Seleccionar",
+        "access_router": "Accediendo a su router",
+        "access_router_wds_tips": "Una vez que el puente se haya conectado con éxito, el router obtendrá automáticamente una IP del router principal.Si necesita acceder a la interfaz de usuario del router debe usar la IP obtenida del router principal para conectarse. Para obtener esta IP, comprueba la lista de clientes conectados en la interfaz de tu router principal. Si no tienes acceso a la interfaz de usuario del router principal, puedes restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.",
+        "access_router_ext_tips": "Después de que el puente se haya realizado con éxito, si necesitas acceder a la interfaz de usuario de este enrutador, deberás configurar manualmente tu PC/teléfono móvil a una dirección IP estática en el mismo rango que el router. Si aún así no puede acceder a ella, puede restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.",
+        "reset_mac_tips": "Por favor, reinicie su MAC a la MAC de fábrica en el clon de MAC.",
+        "set_up_ap_tips": "Para configurar el modo Punto de acceso, primero debe conectar un cable Ethernet al puerto WAN.",
+        "remove_wan_tips": "Por favor, retire el cable de Internet del puerto WAN.",
+        "enter_pwd_tips": "Por favor, ingrese contraseña",
+        "choose_ssid_tips": "",
+        "relay": "Extensión"
+    }
+}
