@@ -1,6 +1,5 @@
 {
     "bridge": {
-        "title": "網路模式",
         "tips_one": "當您更改路由器的網絡模式時，您可能需要重新連接所有客戶端設備。",
         "tips_two": "當您使用AP模式/無線擴展模式/WDS模式時，可能無法再訪問這個界面。您可以按住重置按鈕 4 秒鐘以恢復到路由器模式。",
         "note_one": "已啟用OpenVPN或Wireguard客戶端。 請禁用它們以設置橋接模式。",
@@ -8,7 +7,6 @@
         "mode_switch": "模式切換",
         "router": "路由模式",
         "ap": "無線存取（AP）模式",
-        "ext": "無線擴展模式",
         "wds": "無線分布式系统（WDS）模式",
         "ssid": "無線網路名稱（SSID）",
         "password": "密碼",
@@ -21,7 +19,8 @@
         "remove_wan_tips": "請從 WAN 端口拔下以太網電纜。",
         "enter_pwd_tips": "請輸入密碼",
         "choose_ssid_tips": "請選擇SSID",
-        "learn_more": "了解更多"
+        "learn_more": "了解更多",
+        "relay": "無線擴展模式"
     },
     "menu_bridge": "網絡模式"
 }
