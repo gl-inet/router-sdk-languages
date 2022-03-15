@@ -1,1 +1,24 @@
-{"bridge":{"title":"modalità di rete","tips_one":"Se si modifica la modalità di lavoro del router, è necessario ricollegare il dispositivo client.","tips_two":"Quando si utilizza la modalità Access Point / Extender / WDS, non è possibile connettersi nuovamente a questa UI. È possibile tenere premuto il pulsante di ripristino per 4 secondi per tornare alla modalità router.","note_one":"L'attuale OpenVPN o Wireguard Client è abilitato e non può essere sottoposto a ponte. Per favore chiudilo prima","note_two":"Il Captive Portal è abilitato. Disabilitalo per impostare la modalità bridge.","mode_switch":"Cmbio di modalità","router":"modalità router","ap":"punto di accesso","ext":"modalità di esstensione","wds":"modalità WDS","ssid":"nome Wi-Fi (SSID)","password":"password","holder_choose":"Scegliere","access_router":"Accedi al tuo router","access_router_wds_tips":"Dopo aver eseguito il bridging, il router ottiene automaticamente un IP dal router principale. Se è necessario accedere all'interfaccia utente di questo router, è necessario connettersi utilizzando l'IP ottenuto dal router principale. Per ottenere questo IP, controllare l'elenco dei client connessi nell'interfaccia utente dei router principali. Se non si ha accesso all'interfaccia utente del router principale, è possibile ripristinare la modalità di routing tenendo premuto il pulsante di ripristino per 4 secondi.","access_router_ext_tips":"Dopo aver eseguito il bridging, se è necessario accedere all'interfaccia utente di questo router, è necessario configurare manualmente il PC / telefono cellulare su un indirizzo IP statico nello stesso intervallo del router. Se non riesci ancora ad accedervi, puoi ripristinare la modalità di routing tenendo premuto il pulsante di ripristino per 4 secondi.","reset_mac_tips":"Si prega di ripristinare a indirizzo MAC di fabbrica per utilizzare il MAC clone","set_up_ap_tips":"Per impostare la modalità AP, è necessario inserire un cavo di rete nella porta WAN.","remove_wan_tips":"Si prega di rimuovere il cavo internet dal portale WAN","enter_pwd_tips":"Si prega di inserire la password","choose_ssid_tips":""}}
+{
+    "bridge": {
+        "tips_one": "Se si modifica la modalità di lavoro del router, è necessario ricollegare il dispositivo client.",
+        "tips_two": "Quando si utilizza la modalità Access Point / Extender / WDS, non è possibile connettersi nuovamente a questa UI. È possibile tenere premuto il pulsante di ripristino per 4 secondi per tornare alla modalità router.",
+        "note_one": "L'attuale OpenVPN o Wireguard Client è abilitato e non può essere sottoposto a ponte. Per favore chiudilo prima",
+        "note_two": "Il Captive Portal è abilitato. Disabilitalo per impostare la modalità bridge.",
+        "mode_switch": "Cmbio di modalità",
+        "router": "modalità router",
+        "ap": "punto di accesso",
+        "wds": "modalità WDS",
+        "ssid": "nome Wi-Fi (SSID)",
+        "password": "password",
+        "holder_choose": "Scegliere",
+        "access_router": "Accedi al tuo router",
+        "access_router_wds_tips": "Dopo aver eseguito il bridging, il router ottiene automaticamente un IP dal router principale. Se è necessario accedere all'interfaccia utente di questo router, è necessario connettersi utilizzando l'IP ottenuto dal router principale. Per ottenere questo IP, controllare l'elenco dei client connessi nell'interfaccia utente dei router principali. Se non si ha accesso all'interfaccia utente del router principale, è possibile ripristinare la modalità di routing tenendo premuto il pulsante di ripristino per 4 secondi.",
+        "access_router_ext_tips": "Dopo aver eseguito il bridging, se è necessario accedere all'interfaccia utente di questo router, è necessario configurare manualmente il PC / telefono cellulare su un indirizzo IP statico nello stesso intervallo del router. Se non riesci ancora ad accedervi, puoi ripristinare la modalità di routing tenendo premuto il pulsante di ripristino per 4 secondi.",
+        "reset_mac_tips": "Si prega di ripristinare a indirizzo MAC di fabbrica per utilizzare il MAC clone",
+        "set_up_ap_tips": "Per impostare la modalità AP, è necessario inserire un cavo di rete nella porta WAN.",
+        "remove_wan_tips": "Si prega di rimuovere il cavo internet dal portale WAN",
+        "enter_pwd_tips": "Si prega di inserire la password",
+        "choose_ssid_tips": "",
+        "relay": "modalità di esstensione"
+    }
+}
