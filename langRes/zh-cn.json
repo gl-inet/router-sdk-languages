@@ -1,6 +1,5 @@
 {
     "bridge": {
-        "title": "网络模式",
         "tips_one": "如果你改变路由器的网络模式，你必须重新连接你的客户端设备。",
         "tips_two": "如果改用 AP 模式/无线扩展模式/ WDS 模式，您可能无法再访问这个界面。您可以通过按住设备上的重置按扭 4 秒钟来将设备恢复到路由模式。",
         "note_one": "已启用 OpenVPN 或 Wireguard 客户端。请先禁用它们再设置桥接模式。",
@@ -8,7 +7,6 @@
         "mode_switch": "模式切换",
         "router": "路由模式",
         "ap": "AP模式",
-        "ext": "无线扩展模式",
         "wds": "WDS模式",
         "ssid": "Wi-Fi 名称（SSID）",
         "password": "密码",
@@ -21,7 +19,8 @@
         "remove_wan_tips": "请拔除插入 WAN 口的网线。",
         "enter_pwd_tips": "请输入密码",
         "choose_ssid_tips": "请选择SSID",
-        "learn_more": "了解更多"
+        "learn_more": "了解更多",
+        "router_desc": "创建您自己的私有网络。本路由器将充当 NAT、防火墙和 DHCP 服务器。"
     },
     "menu_bridge": "网络模式"
 }
