@@ -1,6 +1,5 @@
 {
     "bridge": {
-        "title": "Netzwerkmodus",
         "tips_one": "Wenn Sie den Arbeitsmodus des Routers ändern, müssen Sie möglicherweise alle Ihre Endgeräte erneut verbinden.",
         "tips_two": "Wenn Sie den Access Point/Extender/WDS-Modus verwenden, können Sie sich nicht erneut mit dieser Benutzeroberfläche verbinden.Sie können die Reset-Taste 4 Sekunden lang gedrückt halten, um zum Router-Modus zurückzukehren.",
         "note_one": "OpenVPN oder Wireguard-Client ist aktiviert. Bitte deaktivieren Sie sie, um den Bridge-Modus einzurichten.",
@@ -8,7 +7,6 @@
         "mode_switch": "Modusschalter",
         "router": "Router",
         "ap": "Zugangspunkt",
-        "ext": "Extender",
         "wds": "WDS",
         "ssid": "Wi-Fi-Name (SSID)",
         "password": "Passwort",
@@ -20,6 +18,7 @@
         "set_up_ap_tips": "Um ein Access Point aufzustellen, müssen Sie zuerst ein Ethernet-Kabel an den WAN-Port anschließen.",
         "remove_wan_tips": "Bitte entfernen Sie das Internetkabel vom WAN Anschluss.",
         "enter_pwd_tips": "Bitte geben Sie das Passwort ein",
-        "choose_ssid_tips": "Bitte SSID auswählen"
+        "choose_ssid_tips": "Bitte SSID auswählen",
+        "relay": "Extender"
     }
 }
