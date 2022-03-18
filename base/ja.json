@@ -4,9 +4,9 @@
         "file_include": "ファイルタイプ",
         "success": "成功",
         "reupload": "ファイルを再アップロードします",
-        "firmware_format_error": "エラー: ファームウェアのフォーマットが不正です",
-        "error": "エラー: ファイルのアップロードに失敗しました",
-        "format_error": "データフォーマットエラー"
+        "firmware_format_error": "エラー: ファームウェアのフォーマットが不正です！",
+        "error": "エラー: ファイルのアップロードに失敗しました。",
+        "format_error": "データフォーマットエラー！"
     },
     "core": {
         "protocol": "プロトコル",
@@ -36,9 +36,32 @@
         "delete": "削除",
         "delete_all": "すべて削除",
         "submit": "提出する",
-        "setting": "設置"
+        "setting": "設置",
+        "download": "ダウンロード",
+        "retry": "再試行",
+        "delete_caution": "エントリを削除しますか？",
+        "clear_all_caution": "すべて削除しますか？",
+        "password_tips": "$$$$文字と最大値$$$$文字",
+        "security_password_tips": "少なくとも大文字、小文字、数と記号の2つが必要です",
+        "please_choose": "選択してください",
+        "back": "リターン",
+        "disable": "無効",
+        "copy": "コピー",
+        "reset": "リセット",
+        "delete_all_caution": "すべてのエントリーを削除しますか？",
+        "allow_password_tips": "文字(大文字と小文字を区別)、数、記号$$$$を入力できます",
+        "not_allow_weak": "弱パスワードの利用を禁止",
+        "use_weak_tips": "弱パスワードは推測されやすく、ネットワークが潜在的な攻撃に直面することもあるかもしれません。"
     },
     "msg": {
-        "access_denied": "エラー: 無効なユーザーか、ログイン権限がない、もしくは拒否されました"
+        "access_denied": "エラー: 無効なユーザーか、ログイン権限がない、もしくは拒否されました！",
+        "success": "成功！",
+        "getting": "取得中、少々お待ちください…",
+        "being_process": "処理中、少々お待ちください…",
+        "installing": "インストール中、少々お待ちください…",
+        "unknown_err": "不明なエラーが発生しました。ネットワーク環境をチェックしたり、デバイスを再起動してください。",
+        "interface_timeout": "タイムアウト。ネットワーク環境をチェックしたり、デバイスを再起動してください。",
+        "operation_not_finished": "現在の操作が完了するまで待ってください。",
+        "uninstalling": "アンインストール中、少々お待ちください…"
     }
 }
