@@ -218,7 +218,8 @@
         "wg_revoke_key_tips": "Failed to generate a WireGuard key. You can only have up to five keys at the same time per Mullvad account. Please go to $$$$Mullvad$$$$ to revoke a key.",
         "local_access_tips": "If this option is enabled, devices in the virtual network can access resources inside the LAN through the VPN tunnel.",
         "masq_tips": "If this option is enabled, When clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.",
-        "use_vpn_only_tips": "If this option is enabled, when the VPN client is enabled, the router will block data forwarding on all non-VPN interfaces, which means that clients downstream of the router can't access all internal resources in the higher LAN."
+        "use_vpn_only_tips": "If this option is enabled, when the VPN client is enabled, the router will block data forwarding on all non-VPN interfaces, which means that clients downstream of the router can't access all internal resources in the higher LAN.",
+        "disable_vpn_for_services": "Disable VPN for GoodCloud, DDNS and NTP"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
