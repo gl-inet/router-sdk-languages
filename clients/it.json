@@ -1,11 +1,25 @@
 {
     "clients": {
-        "name": "nome",
-        "speed": "velocità",
+        "name": "Nome",
+        "speed": "Velocità",
         "traffic": "Statistiche del traffico",
-        "2G_wiredless_device": "Dispositivo wireless 2.4G",
         "offline_client": "Client Offline",
-        "online_client": "Client in linea"
+        "online_client": "Client in linea",
+        "delete_all_caution": "Vuoi eliminare tutti i clienti dall'elenco?\nL'azione non impedisce al client di riconnettersi al router e verranno eliminato anche tutte le impostazioni per quei client.",
+        "access_wan": "Accesso WAN",
+        "block_wan": "Blocca WAN",
+        "action": "Azione",
+        "unknown": "Sconosciuto",
+        "self": "stesso",
+        "limit_speed": "Limita la velocità",
+        "remove_limit": "Disattiva il limite",
+        "delete_client": "Eliminare un client",
+        "upload": "Upload",
+        "download": "Download",
+        "limit_speed_title": "Imposta il limite di velocità",
+        "delete_caution": "Vuoi eliminare tutti i clienti dall'elenco?\nL'azione non impedisce al client di riconnettersi al router e verranno eliminato anche tutte le impostazioni per quei client.",
+        "random_mac_warning_tips": "Le tue impostazioni per il client potrebbero essere invalidate a causa di modifiche all'indirizzo MAC del dispositivo.",
+        "random_mac_tips": "Questo è un indirizzo MAC randomizzato."
     },
     "menu_clients": "Client"
 }
