@@ -219,7 +219,8 @@
         "masq_tips": "若此选项启用，当 LAN 中的客户端设备发送其 IP 数据包时，路由器将源 IP 地址替换为自己的地址，然后将其转发到 VPN 通道。",
         "local_access_tips": "若此选项启用，虚拟网络中的设备可以通过 VPN 通道访问局域网内部的资源。",
         "use_vpn_only_tips": "若此选项启用，当启用 VPN 客户端时，路由器将阻止所有非 VPN 接口上的数据转发，这意味着路由器下游的客户端无法访问上游局域网的所有内部资源。",
-        "disable_vpn_for_services": "禁止 GoodCloud, DDNS 和 NTP 使用 VPN"
+        "disable_vpn_for_services": "禁止 GoodCloud, DDNS 和 NTP 使用 VPN",
+        "view_status": "查看状态"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
