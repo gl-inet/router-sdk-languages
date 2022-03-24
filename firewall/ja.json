@@ -18,6 +18,15 @@
         "port": "ポート",
         "action": "操作",
         "no_data": "設定情報なし",
-        "delete_all_port_tips": "すべてのポートルールを削除しますか？"
-    }
+        "delete_all_port_tips": "すべてのポートルールを削除しますか？",
+        "add_port_forwards_title": "新しいポート転送ルールの追加",
+        "edit_port_forwards_title": "ポート転送ルールの編集",
+        "add_router_prot_title": "新しいオープンポートを追加",
+        "edit_router_prot_title": "オープンポートを編集",
+        "confirm_delete_tips": "エントリを削除しますか？",
+        "source": "ソース(ゾーン、ポート)",
+        "dest": "転送先(ゾーン、IP、ポート)",
+        "enable": "開く"
+    },
+    "menu_firewallview": "ファイアウォール"
 }
