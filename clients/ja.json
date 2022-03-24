@@ -3,8 +3,24 @@
         "name": "名前",
         "speed": "転送速度",
         "traffic": "転送量合計",
-        "wired_device": "有線デバイス",
         "2G_wiredless_device": "2.4Gワイヤレスデバイス",
-        "delete_all": "すべて削除"
-    }
+        "online_client": "オンライン クライアント",
+        "offline_client": "オフライン クライアント",
+        "block_wan": "WANのアクセスをブロック",
+        "action": "操作",
+        "unknown": "未知",
+        "self": "本機",
+        "remove_limit": "制限を取り消し",
+        "delete_client": "クライアントを削除する",
+        "limit_speed_title": "速度制限を設定",
+        "upload": "アップロード",
+        "download": "ダウンロード",
+        "access_wan": "WANに接続",
+        "limit_speed": "速度を制限",
+        "delete_all_caution": "リストからすべてのクライアントを削除しますか？\nこれにより、クライアントがルータに再接続されるのを禁止することはできません。これらのクライアントの構成も削除されます。",
+        "delete_caution": "リストからこのクライアントを削除しますか？\nこれにより、クライアントがルータに再接続されるのを禁止することはできません。これらのクライアントの構成も削除されます。",
+        "random_mac_warning_tips": "クライアントの設定は、デバイスのMACアドレスの変更により無効にされるかもしれません。",
+        "random_mac_tips": "これはランダムなMACアドレスです。"
+    },
+    "menu_clients": "クライアント"
 }
