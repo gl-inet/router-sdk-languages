@@ -8,9 +8,10 @@
         },
         "forgot_password": {
             "title": "Dimentica password",
-            "desc": "Provare a tenere premuto il tasto \"reset\" per 10 secondi, dopo molla il dito. Vedrai i LED lampeggiare regolarmente. Attendere il riavvio del router, quindi ricominciare.",
+            "desc": "Provare a tenere premuto il tasto \"riavvio\" per 10 secondi, quindi rilascia. Vedrai le luci a LED lampeggiare. Attendi il riavvio del router e poi ricomincia.",
             "online_docs": "Documenti online"
         },
-        "err_msg": "Errore: Il nome di utente o il password non sono corretti!"
+        "err_msg": "L'username o il password non sono corretti!",
+        "retry_after": "Hai provato ad accedere troppe volte, riprova tra $$$$ secondi."
     }
 }
