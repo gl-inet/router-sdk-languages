@@ -132,7 +132,7 @@
         "process_use_vpn_tips": "如果启用该选项，在路由器上运行的所有进程的流量（例如访问 GoodCloud）将通过 VPN 转发。在此情况下，如果 VPN 断开连接，将导致这些进程无法访问互联网。",
         "kill_switch": "拦截未经 VPN 的流量",
         "kill_switch_tips": "如果启用该选项，对于符合访问策略的流量，将只允许通过 VPN 发送，任何尝试不经过隧道加密访问广域网的请求（比如根据您手动配置的静态路由规则进行转发）都将被拦截。",
-        "use_vpn_only": "当 VPN 启用时阻止 WAN 访问",
+        "use_vpn_only": "当 VPN 启用时允许 WAN 访问",
         "filter_rule": "过滤规则",
         "policy_nav_title": "当设备通过您的路由器访问网络时$$$$您希望路由器如何区分流量是否使用 VPN 隧道传输？",
         "to_set_rule": "去配置规则",
