@@ -150,7 +150,7 @@
         "process_use_vpn_tips": "If this option is enabled, the traffic of all processes running on the router (such as accessing GoodCloud) will be forwarded through the VPN. In this case, if the VPN is disconnected, these processes will not be able to access the Internet.",
         "kill_switch": "Internet Kill Switch",
         "kill_switch_tips": "If this option is enabled, the traffic that meets the access policy will only be allowed to be sent through the VPN, and any requests that attempt to access the WAN without tunnel encryption (for example, forwarding according to the static routing rules that you manually configure) will be blocked.",
-        "use_vpn_only": "Block WAN Access when VPN is Enabled",
+        "use_vpn_only": "Allow WAN Access when VPN is Enabled",
         "filter_rule": "Filter Rules",
         "policy_nav_title": "When client accesses the network with your router$$$$how do you want the router to differentiate whether the traffic uses a VPN encrypted tunnel?",
         "to_set_rule": "Set Rules",
