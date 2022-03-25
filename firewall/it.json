@@ -18,6 +18,15 @@
         "port": "portale",
         "action": "Azione",
         "no_data": "Nesuuna informazione di configurazione",
-        "delete_all_port_tips": "Vuoi eliminare tutte le regole della porta?"
-    }
+        "delete_all_port_tips": "Vuoi eliminare tutte le regole della porta?",
+        "add_port_forwards_title": "Aggiungi una nuova regola di port forward",
+        "edit_port_forwards_title": "Modifica la regola di port forward",
+        "edit_router_prot_title": "Modifica la porta aperta",
+        "add_router_prot_title": "Aggiungi la nuova porta aperta",
+        "confirm_delete_tips": "Sei sicuro di voler eliminare la voce?",
+        "source": "Sorgente (zona, porta)",
+        "dest": "Destinazione (zona, IP, porta)",
+        "enable": "Attiva"
+    },
+    "menu_firewallview": "Firewall"
 }
