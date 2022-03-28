@@ -1,19 +1,36 @@
 {
     "lan_ip": {
-        "lan": "區域網路 IP",
-        "guest": "訪客 IP",
+        "lan": "路由器 IP 地址",
+        "guest": "預設網關",
         "start_ip": "起始IP地址",
         "end_ip": "結束IP地址",
         "change_to": "路由器的IP地址已成功更改為",
-        "redirect_to": "你正被重定向到新IP"
+        "redirect_to": "你正被重定向到新IP",
+        "lan_or_guest_model_setting": "進階設置",
+        "ip_outside_tips": "IP 地址在子網範圍外",
+        "lan_tab": "私人網絡",
+        "guest_tab": "訪客網絡",
+        "lan_or_guest_senior_tip": "您可以在 IPv4 私人地址範圍內設置子網: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "ip_easy_tip": "路由器 IP 地址是你進入路由器管理頁面的瀏覽器訪問地址。",
+        "guest_conflict_tips": "與訪客 IP 衝突",
+        "lan_conflict_tips": "與LAN IP 衝突",
+        "cannot_contain_ip_tips": "地址範圍不包括路由器的IP",
+        "end_smaller_tips": "結束IP 地址小於起始IP 地址",
+        "user_count_max": "最大用戶數"
     },
     "address_reservation": {
         "note": "注意，被配置的客戶端必須重新連接路由器才能生效。",
         "name": "名稱",
         "action": "操作",
-        "confirm_delete": "確認刪除",
+        "confirm_delete": "您確認要刪除該地址預留配置嗎？",
         "mac_existed": "MAC 已存在",
         "ip_existed": "IP 已存在",
-        "no_data": "空"
-    }
+        "no_data": "空",
+        "title": "地址預留",
+        "tips": "如果你在局域網中為客戶端指定了一個預留的 IP 地址，路由器的 DHCP 服務器將在該客戶端在每次訪問為它分配這個 IP 地址。你可以為需要固定 IP 設置的電腦或服務器分配預留的 IP 地址。",
+        "add_new": "新增一個新預留配置",
+        "set_data": "編輯預留配置",
+        "confirm_delete_all": "您確認要刪除所有的地址預留配置嗎？"
+    },
+    "menu_lanip": "LAN"
 }
