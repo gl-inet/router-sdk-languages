@@ -1,6 +1,29 @@
 {
     "vpn": {
         "tunnel_ip": "Indirizzo del tunnel",
-        "client_vpn_private_ip": "IP Virtuale del Client"
+        "client_vpn_private_ip": "IP Virtuale del Client",
+        "ovpn_step_tip1": "1. Genera un file di configurazione OpenVPN;",
+        "ovpn_step_tip2": "2. Modificare la configurazione predefinita, quindi salvare;",
+        "ovpn_step_tip3": "3. Esportare il file di configurazione del client sul dispositivo client;",
+        "ovpn_step_tip4": "4. Andare alla pagina di stato della VPN e avvia il server VPN.",
+        "ovpn_tips": "Non hai ancora alcun file di configurazione di OpenVPN, inizia generandone uno nuovo.",
+        "wg_step_tip1": "1. Genera un file di configurazione WireGuard®;",
+        "wg_step_tip3": "3. Copiare le informazioni peer sul cliente;",
+        "wg_step_tip2": "2. Aggiungere una configurazione peer;",
+        "vpn_private_ip": "IP Virtuale",
+        "custom_route": "Personalizzare le regole di percorso",
+        "custom_route_desc": "Ti consente di configurare manualmente le regole di routing per ogni istanza del client VPN.",
+        "wg_desc": "WireGuard® è una VPN estremamente semplice, veloce e moderna che utilizza una crittografia all'avanguardia. Si prega di seguire i passaggi seguenti:",
+        "autodetec": "Trovato Automaticamente",
+        "ovpn_desc": "OpenVPN è un'applicazione software open source che implementa tecniche di rete privata virtuale (OpenVPN) per creare connessioni point-to-point o site-to-site sicure in configurazioni instradate o con bridge e strutture di accesso remoto, attenersi alla seguente procedura:",
+        "wg_step_tip4": "4. Andare alla pagina di stato della VPN e avvia il server VPN.",
+        "autodetec_desc": "Verranno utilizzate le regole di instradamento definite in ogni file di configurazione del client VPN o emesse dal server VPN.",
+        "public_ip": "IP Reale",
+        "server_location": "Posizione del server",
+        "allowed_ip": "IP consentiti",
+        "wg_tips1": "Non hai ancora alcuna configurazione peer. Inizia aggiungendo una configurazione peer.",
+        "client": "Client",
+        "server": "Server",
+        "modify_proxy_mode": "Modificare la modalità proxy"
     }
 }
