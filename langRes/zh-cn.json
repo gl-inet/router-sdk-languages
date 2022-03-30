@@ -22,7 +22,10 @@
         "relay": "无线扩展模式",
         "ap_desc": "通过有线连接到上级网络网络并扩展无线网络。",
         "relay_desc": "扩展现有无线网络的 Wi-Fi 覆盖范围。",
-        "wds_desc": "与 Extender 类似，如果您的主路由器支持 WDS 模式，请选择 WDS。"
+        "wds_desc": "与 Extender 类似，如果您的主路由器支持 WDS 模式，请选择 WDS。",
+        "connet_fail_msg": "连接失败。",
+        "lan_conflict_msg": "LAN 子网与要连接的 Wi-Fi 子网冲突，请设置一个不同的网段。",
+        "get_ip_fail_msg": "获取 IP 失败。"
     },
     "menu_bridge": "网络模式"
 }
