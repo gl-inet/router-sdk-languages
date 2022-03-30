@@ -1,6 +1,9 @@
 {
     "reset": {
-        "tips": "En caso de mal funcionamiento, puede volver a la configuración predeterminada de fábrica. Pero todas sus configuraciones, aplicaciones y datos actuales se perderán. El proceso tomará aproximadamente 3 minutos. NO apague el router durante el proceso.",
-        "warning": "ADVERTENCIA: ¿Desea revertir su router al estado predeterminado de fábrica?"
-    }
+        "tips": "En caso de mal funcionamiento, puedes reiniciar el router. Todos los ajustes, aplicaciones y datos actuales se perderán. El proceso durará unos 3 minutos. NO apague el router durante este proceso.",
+        "warning": "¿Deseas restablecer el estado de fábrica de tu router?",
+        "button": "Borrar todo y empezar Reboot",
+        "confirm": "Restablecer"
+    },
+    "menu_reset": "Restablecer el firmware"
 }
