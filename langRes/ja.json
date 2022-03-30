@@ -22,7 +22,10 @@
         "learn_more": "もっと多く",
         "ap_desc": "有線ネットワークに接続し、無線LANを拡張する。",
         "relay_desc": "既存の無線ネットワークのWi-Fi範囲をひろげます。",
-        "wds_desc": "Extenderのように、メインルータがWDSモードをサポートしている場合は、WDSを選択します。"
+        "wds_desc": "Extenderのように、メインルータがWDSモードをサポートしている場合は、WDSを選択します。",
+        "connet_fail_msg": "接続が失敗しました。",
+        "lan_conflict_msg": "LANサブネットは、接続されているWiFiサブネットと衝突する、別のサブネットを設定してください。",
+        "get_ip_fail_msg": "IPの取得に失敗しました。"
     },
     "menu_bridge": "ネットモード"
 }
