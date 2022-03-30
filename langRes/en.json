@@ -23,8 +23,8 @@
         "ap_desc": "Connect to a wired network and broadcast a wireless network.",
         "relay_desc": "Extend the Wi-Fi coverage of an existing wireless network.",
         "wds_desc": "Similar to Extender, please choose WDS if your main router supports WDS mode.",
-        "connet_fail_msg": "连接失败",
-        "lan_conflict_msg": "IP 网段冲突(LAN接口必须设置一个和你要连接的WiFi不在同一网段的地址)",
+        "connet_fail_msg": "Connection failed.",
+        "lan_conflict_msg": "The LAN subnet conflicts with the Wifi subnet to be connected, please set a different subnet.",
         "get_ip_fail_msg": "获取 IP 失败"
     },
     "menu_bridge": "Network Mode"
