@@ -3,8 +3,21 @@
         "name": "Nombre",
         "speed": "Velocidad",
         "traffic": "tráfico",
-        "wired_device": "Dispositivo con cable",
         "2G_wiredless_device": "Dispositivo inalámbrico 2.4G",
-        "delete_all": "Eliminar todo"
-    }
+        "online_client": "Clientes Online",
+        "offline_client": "Clientes Sin Conexión",
+        "access_wan": "Acceder a WAN",
+        "block_wan": "Bloquear WAN",
+        "action": "Acción",
+        "unknown": "Desconocido",
+        "self": "mismo",
+        "limit_speed": "Límite de Velocidad",
+        "remove_limit": "Desactivar el límite",
+        "delete_client": "Eliminar el Cliente",
+        "limit_speed_title": "Configuración de Límite de Velocidad",
+        "upload": "Subir",
+        "download": "Descargar",
+        "delete_all_caution": "¿Quieres eliminar todos los clientes de la lista?\nLa acción no impide que el cliente se vuelva a conectar al router, y todos los ajustes de esos clientes también se eliminarán."
+    },
+    "menu_clients": "Clientes"
 }
