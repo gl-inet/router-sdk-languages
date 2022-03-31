@@ -11,6 +11,7 @@
             "desc": "Intenta mantener pulsado el botón de 'Reset' durante 10 segundos y luego suéltalo. Verás que las luces LED parpadean. Espera a que el router reboot y vuelve a empezar.",
             "online_docs": "Documentos online"
         },
-        "err_msg": "Nombre de usuario o contraseña incorrectos."
+        "err_msg": "Nombre de usuario o contraseña incorrectos.",
+        "retry_after": "Muchos intentos fallidos de inicio de sesión, por favor, inténtelo de nuevo en $$$$ segundos."
     }
 }
