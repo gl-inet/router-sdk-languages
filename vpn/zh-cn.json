@@ -218,7 +218,9 @@
         "local_access_tips": "若此选项启用，虚拟网络中的设备可以通过 VPN 通道访问局域网内部的资源。",
         "use_vpn_only_tips": "若此选项启用，当启用 VPN 客户端时，路由器将阻止所有非 VPN 接口上的数据转发，这意味着路由器下游的客户端无法访问上游局域网的所有内部资源。",
         "disable_vpn_for_services": "禁止 GoodCloud, DDNS 和 NTP 使用 VPN",
-        "view_status": "查看状态"
+        "view_status": "查看状态",
+        "client_using_tips": "正在使用中",
+        "no_internet_msg": "没有连接到互联网！"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
