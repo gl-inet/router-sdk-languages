@@ -219,8 +219,7 @@
         "use_vpn_only_tips": "If this option is enabled, when the VPN client is enabled, the router will block data forwarding on all non-VPN interfaces, which means that clients downstream of the router can't access all internal resources in the higher LAN.",
         "disable_vpn_for_services": "Disable VPN for GoodCloud, DDNS and NTP",
         "view_status": "View Status",
-        "no_internet_msg": "无网络",
-        "client_is_using_tips": "Currently in use"
+        "no_internet_msg": "无网络"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
