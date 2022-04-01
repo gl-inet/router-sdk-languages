@@ -9,10 +9,15 @@
         "read_and_agree": "Ho letto e accetto",
         "terms_service": "Termini del servizio",
         "privacy_policy": "Politica sulla privacy",
-        "detecting": "In fase di test, si prega di attendere",
+        "detecting": "In fase di test, si prega di attendere…",
         "resolved_as": "Il tuo ddns è stato analizzato correttamente come",
         "behind_nat": "Ma questo router è dietro NAT o non hai un indirizzo IP pubblico.",
         "working": "Il tuo servizio DDNS è normale",
-        "not_effective": "Il tuo DDNS non è ancora valido, riprova più tardi"
-    }
+        "not_effective": "Il tuo DDNS non è ancora valido, riprova più tardi",
+        "enable_http_tip": "HTTP è un protocollo non crittografato. Si prega di utilizzare con cautela.",
+        "enable": "Attiva",
+        "not_internet": "No Internet, per favore connettiti a Internet prima di testare DDNS!",
+        "host_name": "L'hostname"
+    },
+    "menu_ddns": "Dynamic DNS"
 }
