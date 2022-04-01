@@ -1,20 +1,36 @@
 {
     "lan_ip": {
         "lan": "Indirizzo IP del router",
-        "guest": "Ospite IP",
+        "guest": "Gateway predefinito",
         "start_ip": "Avvia indirizzo IP",
         "end_ip": "Indirizzo IP finale",
         "change_to": "l'indirizzo IP del router è stato cambiato con successo in",
-        "redirect_to": "Stai per essere reindirizzato al nuovo IP"
+        "redirect_to": "Stai per essere reindirizzato al nuovo IP",
+        "lan_or_guest_model_setting": "Avanzate",
+        "cannot_contain_ip_tips": "L'intervallo di indirizzi non può includere l'IP del router",
+        "end_smaller_tips": "L'indirizzo finale è inferiore all'indirizzo iniziale",
+        "user_count_max": "Numero massimo di utenti",
+        "lan_tab": "Rete privata",
+        "guest_tab": "Guest rete",
+        "guest_conflict_tips": "È in conflitto con l'IP Guest",
+        "lan_or_guest_senior_tip": "È possibile impostare la sottorete all'interno degli intervalli di indirizzi privati IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "lan_conflict_tips": "È in conflitto con l'IP LAN",
+        "ip_outside_tips": "L'indirizzo IP è esterno alla sottorete",
+        "ip_easy_tip": "L'indirizzo IP del router è l'indirizzo che inseriresti nella barra degli indirizzi del tuo browser per accedere alla pagina di amministrazione del router."
     },
     "address_reservation": {
         "note": "Si nota che il cliente configurato deve riconnettersi al router per avere effetto.",
         "name": "nome",
         "action": "Azione",
-        "confirm_delete": "Conferma elimina",
+        "confirm_delete": "Sei sicuro di voler eliminare la voce dell'indirizzo riservato?",
         "mac_existed": "MAC già esistente",
         "ip_existed": "IP già esistente",
-        "no_data": "Nesuuna informazione di configurazione"
+        "no_data": "Nesuuna informazione di configurazione",
+        "set_data": "Modificare la voce di prenotazione",
+        "confirm_delete_all": "Sei sicuro di voler eliminare tutte le voci riservate agli indirizzi?",
+        "add_new": "Aggiungi una nuova voce di prenotazione",
+        "title": "Prenotazione indirizzo",
+        "tips": "Quando si specifica un indirizzo IP riservato per un client all'interno della LAN, il client riceve sempre lo stesso indirizzo IP ogni volta che accede al server DHCP del router. È possibile assegnare indirizzi IP riservati a computer o server che richiedono impostazioni IP permanenti."
     },
     "menu_lanip": "LAN"
 }
