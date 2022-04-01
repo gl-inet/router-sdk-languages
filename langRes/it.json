@@ -6,7 +6,7 @@
         "on": "Su",
         "unbind": "Sblocca",
         "id_is": "L'ID del tuo dispositivo è",
-        "add_id_tips": "Utilizza questo ID per aggiungere questo dispositivo al tuo account Cloud.",
+        "add_id_tips": "Utilizzare questo ID per associare il dispositivo al tuo account cloud.",
         "enable": "Abilita",
         "device_id": "ID dispositivo",
         "data_server": "Dati server",
@@ -15,11 +15,16 @@
         "agree": "Ho letto e accetto",
         "terms": "Termini del servizio",
         "privacy": "Politica sulla privacy",
-        "unbind_tips": "Vuoi svincolare il dispositivo con GoodCloud? Il dispositivo è vincolato a:",
+        "unbind_tips": "Sei sicuro di voler sbloccare il dispositivo con GoodCloud? Il dispositivo è vincolato a:",
         "user": "Utente",
         "region": "Regione",
-        "unbind_note": "Suggerimento: questa operazione è solo disaggregata nell'area corrente. Se hai legature in altre aree, separale da ciascuna area a turno.",
-        "unbind_success": "",
-        "view_log": "Visualizza registro"
-    }
+        "unbind_note": "Nota: questo avrà effetto solo nella regione selezionata. Se hai delimitato questo dispositivo su regioni diverse, fallo su ciascuna regione.",
+        "unbind_success": "Disaccoppiamento riuscito.",
+        "view_log": "Visualizza registro",
+        "enable_remote_web": "Abilita accesso Web remoto",
+        "enable_remote_ssh": "Abilita SSH remoto",
+        "device_mac": "Dispositivo MAC",
+        "device_sn": "S/N del dispositivo"
+    },
+    "menu_cloud": "GoodCloud"
 }
