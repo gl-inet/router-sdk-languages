@@ -13,6 +13,11 @@
         "resolved_as": "Su DDNS está resuelto como",
         "behind_nat": "Pero este router está detrás de NAT o no tiene una dirección IP pública.",
         "working": "Su servicio de DDNS está funcionando.",
-        "not_effective": "Su DDNS no es efectivo todavía. Por favor, inténtelo más tarde."
-    }
+        "not_effective": "Su DDNS no es efectivo todavía. Por favor, inténtelo más tarde.",
+        "enable_http_tip": "HTTP es un protocolo no cifrado. Por favor, utilícelo con precaución.",
+        "enable": "Activar",
+        "not_internet": "No hay Internet, ¡conéctese a Internet antes de probar el DDNS!",
+        "host_name": "Nombre de Host"
+    },
+    "menu_ddns": "DNS Dinámico"
 }
