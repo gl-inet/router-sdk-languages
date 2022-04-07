@@ -1,25 +1,30 @@
 {
     "cloud": {
-        "title": "Gestión de nubes",
-        "tips": "Con GoodCloud, puede gestionar los routers en grupos, comprobar el estado de los routers en directo, configurar los routers de forma remota, operar los routers por lotes y supervisar los clientes conectados, etc.",
-        "bound_by": "El dispositivo está sujeto por",
+        "title": "GoodCloud",
+        "tips": "Con GoodCloud, puede gestionar los routers en grupos, comprobar el estado del router en tiempo real, configurar los routers de forma remota, operar los routers en lote y supervisar los clientes conectados, etc.",
+        "bound_by": "El dispositivo está vinculado por",
         "on": "Vinculado a",
         "unbind": "Desvincular",
         "id_is": "La ID de su dispositivo es",
-        "add_id_tips": "Utilice la ID para agregar este dispositivo a su cuenta en la nube.",
-        "enable": "Activado",
+        "add_id_tips": "Utiliza este ID para vincular el dispositivo a tu cuenta en la nube.",
+        "enable": "Activar",
         "device_id": "ID del dispositivo",
         "data_server": "Servidor de datos",
         "holder_choose": "Seleccionar",
-        "choose_data_server_tips": "",
+        "choose_data_server_tips": "Selecciona el servidor de datos",
         "agree": "He leído y estoy de acuerdo",
         "terms": "Términos de servicio",
         "privacy": "Política de Privacidad",
-        "unbind_tips": "¿Quieres desvincular su dispositivo de",
+        "unbind_tips": "¿Estás seguro de que quieres desvincular el dispositivo con GoodCloud? El dispositivo está vinculado a:",
         "user": "Usuario",
         "region": "Región",
-        "unbind_note": "Nota: Esto sólo tiene efecto en la región seleccionada. Si alguna vez ha vinculado este dispositivo a diferentes regiones, hágalo en cada región.",
-        "unbind_success": "",
-        "view_log": "Ver Registros"
-    }
+        "unbind_note": "Nota: Esto sólo tendrá efecto en la región seleccionada. Si has delimitado este dispositivo en diferentes regiones, hazlo en cada una de ellas.",
+        "unbind_success": "Desenlazar con éxito.",
+        "view_log": "Ver Registros",
+        "enable_remote_web": "Activar el acceso remoto a la web",
+        "enable_remote_ssh": "Activar SSH Remoto",
+        "device_mac": "Dispositivo MAC",
+        "device_sn": "Dispositivo S/N"
+    },
+    "menu_cloud": "GoodCloud"
 }
