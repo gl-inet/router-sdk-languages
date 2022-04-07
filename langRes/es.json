@@ -1,7 +1,7 @@
 {
     "bridge": {
-        "tips_one": "Cuando cambie el modo de trabajo del router, es posible que deba volver a conectar todos sus dispositivos cliente.",
-        "tips_two": "Cuando usa el modo Punto de acceso / Extender / WDS, no puede volver a conectarse a esta IU. Puede mantener pulsado el botón de reinicio durante 4 segundos para volver al modo router.",
+        "tips_one": "Cuando cambies el modo de red del router, es posible que tengas que volver a conectar todos tus dispositivos cliente.",
+        "tips_two": "Cuando utilice el modo Punto de Acceso/Extensor/WDS, no podrá volver a conectarse a esta interfaz. Puede mantener pulsado el botón de reinicio durante 4 segundos para volver al modo router.",
         "mode_switch": "Cambio de modo",
         "router": "router",
         "ap": "Punto de acceso",
@@ -10,13 +10,22 @@
         "password": "Contraseña",
         "holder_choose": "Seleccionar",
         "access_router": "Accediendo a su router",
-        "access_router_wds_tips": "Una vez que el puente se haya conectado con éxito, el router obtendrá automáticamente una IP del router principal.Si necesita acceder a la interfaz de usuario del router debe usar la IP obtenida del router principal para conectarse. Para obtener esta IP, comprueba la lista de clientes conectados en la interfaz de tu router principal. Si no tienes acceso a la interfaz de usuario del router principal, puedes restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.",
+        "access_router_wds_tips": "Una vez que el puente se haya realizado con éxito, el router obtendrá automáticamente una IP del router principal. Si necesitas acceder a la UI de este router, deberás conectarte utilizando la IP obtenida del router principal. Para obtener esta IP, comprueba la lista de clientes conectados en la UI de tu router principal. Si no tienes acceso a la UI del router principal, puedes restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.",
         "access_router_ext_tips": "Después de que el puente se haya realizado con éxito, si necesitas acceder a la interfaz de usuario de este enrutador, deberás configurar manualmente tu PC/teléfono móvil a una dirección IP estática en el mismo rango que el router. Si aún así no puede acceder a ella, puede restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.",
         "reset_mac_tips": "Por favor, reinicie su MAC a la MAC de fábrica en el clon de MAC.",
         "set_up_ap_tips": "Para configurar el modo Punto de acceso, primero debe conectar un cable Ethernet al puerto WAN.",
-        "remove_wan_tips": "Por favor, retire el cable de Internet del puerto WAN.",
+        "remove_wan_tips": "Retire el cable Ethernet del puerto WAN.",
         "enter_pwd_tips": "Por favor, ingrese contraseña",
-        "choose_ssid_tips": "",
-        "relay": "Extensión"
-    }
+        "choose_ssid_tips": "Elija el SSID",
+        "relay": "Extensión",
+        "router_desc": "Crea tu propia red privada. El router actuará como NAT, cortafuegos y servidor DHCP.",
+        "ap_desc": "Conéctate a una red por cable y difunde una red inalámbrica.",
+        "wds_desc": "Al igual que en el caso del extensor, elija WDS si su router principal admite el modo WDS.",
+        "learn_more": "Más información",
+        "relay_desc": "Ampliar la cobertura Wi-Fi de una red inalámbrica existente.",
+        "connet_fail_msg": "Fallo de conexión.",
+        "lan_conflict_msg": "La subred LAN entra en conflicto con la subred Wifi que se va a conectar, por favor establezca una subred diferente.",
+        "get_ip_fail_msg": "No se ha podido obtener la IP."
+    },
+    "menu_bridge": "Modo de Red"
 }
