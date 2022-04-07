@@ -5,8 +5,8 @@
         "success": "con éxito",
         "reupload": "Vuelva a subir el archivo",
         "firmware_format_error": "ERROR: Formato incorrecto de firmware!",
-        "error": "ERROR: ¡Error al subir el archivo!",
-        "format_error": "Error de formato de datos"
+        "error": "No se ha podido subir el archivo.",
+        "format_error": "¡Error de formato de datos!"
     },
     "core": {
         "protocol": "Protocolo",
@@ -36,9 +36,35 @@
         "delete": "Borrar",
         "delete_all": "Eliminar todo",
         "submit": "Enviar",
-        "setting": "Ajuste"
+        "setting": "Ajuste",
+        "download": "Descargar",
+        "retry": "Reintentar",
+        "not_allow_weak": "Prevenir Contraseña Débil",
+        "delete_all_caution": "¿Estás seguro de que quieres borrar todas las entradas?",
+        "clear_all_caution": "¿Estás seguro de que quieres borrar todo?",
+        "password_tips": "$$$$ caracteres y máximo $$$$ caracteres",
+        "security_password_tips": "Se requieren al menos dos de las letras mayúsculas, minúsculas, números y símbolos",
+        "please_choose": "Seleccionar",
+        "options": "Opción",
+        "next": "Siguiente",
+        "reset": "Restablecer",
+        "delete_caution": "¿Estás seguro de que quieres borrar la entrada?",
+        "allow_password_tips": "Se admiten letras (distinguiendo mayúsculas y minúsculas), números y símbolos $$$$",
+        "back": "Atrás",
+        "use_weak_tips": "as contraseñas débiles son fáciles de adivinar, y también exponen su red a posibles ataques de fuerza bruta.",
+        "admin_panel": "Panel de Administración",
+        "disable": "Desactivar",
+        "copy": "Copiar"
     },
     "msg": {
-        "access_denied": "ERROR: usuario no válido, permiso denegado o no se encontró registro de inicio de sesión."
+        "access_denied": "¡Usuario no válido, permiso denegado o no conectado!",
+        "success": "¡Éxito!",
+        "operation_not_finished": "Espere hasta que la operación actual haya terminado.",
+        "getting": "Obteniendo, espera por favor…",
+        "being_process": "Procesando, espera por favor…",
+        "installing": "Instalando, espera por favor…",
+        "uninstalling": "Desinstalando, espera por favor…",
+        "unknown_err": "Se ha producido un error desconocido. Por favor, compruebe el entorno de red o reinicie el dispositivo.",
+        "interface_timeout": "Tiempo de espera en la respuesta. Compruebe el entorno de red o reinicie el dispositivo."
     }
 }
