@@ -217,7 +217,12 @@
         "view_status": "查看狀態",
         "local_access_tips": "若此選項啟用，虛擬網絡中的設備可以通過 VPN 通道訪問局域網內部的資源。",
         "use_vpn_only_tips": "若此選項啟用，當啟用 VPN 客戶端時，路由器將阻止所有非 VPN 接口上的數據轉發，這意味著路由器下游的客戶端無法訪問上游局域網的所有內部資源。",
-        "location_max_pre_label": "每個位置的最大數目"
+        "location_max_pre_label": "每個位置的最大數目",
+        "client_conneting_tips": "連接中......",
+        "setup_guide": "設置指引",
+        "client_conneted_tips": "已連接",
+        "client_using_tips": "正在使用中",
+        "no_internet_msg": "沒有連接到網絡！"
     },
     "menu_wgserver": "WireGuard 服務器",
     "menu_ovpnserver": "OpenVPN 服務器",
