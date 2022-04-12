@@ -222,7 +222,8 @@
         "use_vpn_only_tips": "このオプションを開くと、VPNクライアントを利用しているとき、ルータは、すべての非VPNインタフェースでのデータ転送をブロックします。つまり、ルータのダウンストリームのクライアントが上級LANのすべての内部リソースにアクセスできないです。",
         "view_status": "ステータ スチェック",
         "setup_guide": "セットアップ ガイド",
-        "location_max_pre_label": "位置ごとの最大数"
+        "location_max_pre_label": "位置ごとの最大数",
+        "location_max_pre_placeholder": "制限なし"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
