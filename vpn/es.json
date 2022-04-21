@@ -126,7 +126,6 @@
         "qrcode": "Código QR",
         "loaction_label": "Localización",
         "generate_peer_tips2": "Copie la siguiente configuración en su cliente WireGuard.",
-        "process_use_vpn_tips": "Si esta opción está activada, el tráfico de todos los procesos que se ejecuten en el router (como el acceso a GoodCloud) se reenviará a través de la VPN. En este caso, si la VPN se desconecta, estos procesos no podrán acceder a Internet.",
         "only_dev": "Para las solicitudes del siguiente dispositivo",
         "base_on_device_tips": "Sólo permite la activación de un cliente VPN, y sólo el tráfico de ciertos dispositivos clientes locales $$$$ definidos por la dirección MAC$$$$ puede pasar por la VPN.",
         "has_auth_tips": "La verificación de nombre de usuario/contraseña está activada, y los dispositivos cliente requieren cualquier nombre de usuario/contraseña de la lista para conectarse al servidor OpenVPN.",
