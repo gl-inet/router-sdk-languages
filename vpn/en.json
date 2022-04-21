@@ -225,7 +225,8 @@
         "location_max_pre_label": "Max of Per Location",
         "location_max_pre_placeholder": "No limit",
         "use_vpn_label": "使用 VPN",
-        "no_use_vpn_label": "不使用 VPN"
+        "no_use_vpn_label": "不使用 VPN",
+        "disable_vpn_for_services_tips": "If this option is enabled, services on routers that usually require the use of a real IP will not use VPN. Including GoodCloud, DDNS, rtty."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
