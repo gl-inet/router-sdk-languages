@@ -161,7 +161,6 @@
         "keep_alive": "保活間隔",
         "config": "配置",
         "guest_use_vpn": "在訪客網絡中使用 VPN",
-        "process_use_vpn": "路由器上的所有進程使用 VPN",
         "process_use_vpn_tips": "如果啟用該選項，在路由器上運行的所有進程的流量（例如訪問 GoodCloud）將通過 VPN 轉發。在此情況下，如果 VPN 斷開連接，將導致這些進程無法訪問互聯網。",
         "access_by_dev": "通過訪問網絡的客戶端來區分",
         "access_by_dev_desc": "MAC 過濾模式下，您可以通過客戶端的 MAC 地址精確的指定您的局域網內的每台客戶端是否通過 VPN訪問互聯網。",

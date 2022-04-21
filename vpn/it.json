@@ -125,7 +125,6 @@
         "client_auth_mode": "Modalità di autenticazione",
         "server_cert": "Certificato del server",
         "guest_use_vpn": "Usare VPN nella rete ospite",
-        "process_use_vpn": "Usare VPN in tutti i processi sul router",
         "kill_switch": "Internet Kill Switch",
         "config": "Configurazione",
         "kill_switch_tips": "Se questa opzione è abilitata, il traffico che soddisfa la politica di accesso potrà essere inviato solo tramite la VPN e tutte le richieste che tentano di accedere alla WAN senza la crittografia del tunnel (ad esempio, inoltrando secondo le regole di routing statico che tu manualmente configurare) sarà bloccato.",
