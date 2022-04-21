@@ -144,7 +144,6 @@
         "more_config": "Set More",
         "config": "Configuration",
         "guest_use_vpn": "Use VPN in Guest Network",
-        "process_use_vpn": "Use VPN in All Processes on Router",
         "process_use_vpn_tips": "If this option is enabled, the traffic of all processes running on the router (such as accessing GoodCloud) will be forwarded through the VPN. In this case, if the VPN is disconnected, these processes will not be able to access the Internet.",
         "kill_switch": "Block Non-VPN Traffic",
         "kill_switch_tips": "If this option is enabled, all traffic from client devices trying to be sent out of the VPN tunnel will be blocked, which will effectively prevent VPN leaks due to client DNS settings, dropped VPN connections, client apps requesting by IP, etc.",
