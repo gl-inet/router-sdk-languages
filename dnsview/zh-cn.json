@@ -6,7 +6,7 @@
         "rebinding_tips": "启用此选项可能会导致私有 DNS 查找失败。如果您的网络需要通过强制主页进行认证，请禁用此选项。",
         "override_label": "覆盖所有客户端的 DNS 设置",
         "override_tips": "若此选项启用，路由器将忽略所有客户端上未加密的 DNS 设置。",
-        "set_dns_server_title": "设置 DNS 服务器",
+        "set_dns_server_title": "DNS 服务器设置",
         "mode": "模式",
         "proxy_addr_label": "代理服务器地址",
         "encryption_type_label": "加密类型",
@@ -31,7 +31,7 @@
         "form_wan_label": "来自以太网的 DNS",
         "form_wwan_label": "来自中继的 DNS",
         "form_tethering_label": "来自热点共享的 DNS",
-        "form_modem_label": "来自蜂窝网络的 DNS'",
+        "form_modem_label": "来自蜂窝网络的 DNS",
         "form_ovpn_label": "来自 OpenVPN 的 DNS",
         "form_wg_label": "来自 WireGuard 的 DNS"
     }
