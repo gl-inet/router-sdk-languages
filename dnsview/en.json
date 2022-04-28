@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "编辑 Hosts",
-        "desc": " 如果您在此处设置了自定义的 DNS 服务器，任何流量请求都将优先通过此处设置的 DNS 服务器进行解析，而非从以太网、无线中继、蜂窝网络、热点共享或 VPN 配置中获取的 DNS 服务器。",
+        "desc": "如果您在此处设置了自定义的 DNS 服务器，任何流量请求都将优先通过此处设置的 DNS 服务器进行解析，而非从以太网、无线中继、蜂窝网络、热点共享或 VPN 配置中获取的 DNS 服务器。",
         "rebinding_label": "DNS Rebinding Attack Protection",
         "rebinding_tips": "Turning on this option may cause private DNS lookup failure. If your network has a captive portal please disable this option.",
         "override_label": "Override DNS Settings for All Clients",
