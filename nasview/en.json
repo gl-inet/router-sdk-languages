@@ -1,11 +1,11 @@
 {
     "nas": {
-        "nas_tips": "This page only provides the shared folder management function. If you need to manage the files in your storage device, please $$$$Use App $$$$.",
-        "disk_title": "Disk Manage",
+        "nas_tips": "This page only provides the shared folder management function. If you need to manage the files in your storage device, please $$$$Use the Smartphone Apps $$$$.",
+        "disk_title": "Disk Management",
         "disk_name_th": "Disk Name",
         "disk_size_th": "Disk Size",
         "eject_th": "Eject",
-        "file_server_label": "File Service",
+        "file_server_label": "File Services",
         "share_folder_label": "Shared Folders",
         "user_manage_label": "User Management",
         "sd_card": "SD Card",
@@ -32,9 +32,9 @@
         "folder_link_title": "Folder Access Link",
         "remove_all_share_caution": "Are you sure you want to remove all shared folders?",
         "remove_share_caution": "Are you sure you want to remove the shared folder?",
-        "user_manage_tips": "For some protocols (currently only Samba is supported), each shared folder can be individually set whether to allow the following users to access or manage it.",
+        "user_manage_tips": "For some protocols (currently only Samba is supported), each shared folder can be set user permissions independently.",
         "set_password_title": "Change Password",
-        "webdav_warning_tips": "WebDav is still in the experimental stage. It is not possible to set access permissions for each folder individually. Please use it with caution.",
+        "webdav_warning_tips": "WebDav is still in the experimental stage. It is not possible to set access permissions for each folder independently. Please use it with caution.",
         "remove_all_user_caution": "Are you sure you want to remove all users?",
         "remove_user_caution": "Are you sure you want to remove the user?",
         "already_user": "user already exists"
