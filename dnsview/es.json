@@ -1,1 +1,9 @@
-{}
+{
+    "dns": {
+        "provider": "Proveedor de DNS",
+        "rebinding_label": "Protección contra ataques de reversión de DNS",
+        "rebinding_tips": "La activación de esta opción puede provocar fallos en la búsqueda de DNS privados. Si su red tiene un portal cautivo, desactive esta opción.",
+        "override_label": "Anular la configuración de DNS para todos los clientes",
+        "override_tips": "Si está activada, el router anulará la configuración de DNS sin cifrar para todos los clientes."
+    }
+}
