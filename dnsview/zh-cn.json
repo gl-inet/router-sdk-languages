@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "编辑 Hosts",
-        "desc": "如果您在此处设置了自定义的 DNS 服务器，任何流量请求都将优先通过此处设置的 DNS 服务器进行解析，而非从以太网、无线中继、蜂窝网络、热点共享或 VPN 配置中获取的 DNS 服务器。",
+        "desc": "如果您在此处设置了自定义的 DNS 服务器，任何DNS请求都将优先通过此处设置的 DNS 服务器进行解析，而非从以太网、无线中继、蜂窝网络、热点共享或 VPN 配置中获取的 DNS 服务器。",
         "rebinding_label": "DNS 重绑定攻击保护",
         "rebinding_tips": "启用此选项可能会导致私有 DNS 查找失败。如果您的网络需要通过强制主页进行认证，请禁用此选项。",
         "override_label": "覆盖所有客户端的 DNS 设置",
@@ -10,9 +10,9 @@
         "mode": "模式",
         "proxy_addr_label": "代理服务器地址",
         "encryption_type_label": "加密类型",
-        "v1_tips": "当前路由器使用的是 v1 版本的DNS ，仅支持部分加密 DNS 服务器。",
+        "v1_tips": "当前路由器使用的是 v1 版本的DNS协议 ，仅支持部分加密 DNS 服务器。",
         "server": "服务器",
-        "server_tips": "您可以选择最多 8 个服务器地址，路由器会在其中自动选用最快的服务器。",
+        "server_tips": "您可以选择最多 8 个DNS服务器。路由器会在其中自动选用最快的服务器。",
         "at_least_one_server_tips": "至少选择一个服务器",
         "select_server_btn": "选择服务器",
         "choose_server_title": "选择 DNS 服务器",
