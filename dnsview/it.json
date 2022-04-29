@@ -4,6 +4,8 @@
         "rebinding_label": "Protezione da attacchi di rebinding DNS",
         "override_label": "Oltrepassare le impostazioni DNS di tutti i clienti",
         "override_tips": "Se abilitato, il tuo router sovrascriverà le impostazioni DNS non crittografate per tutti i client.",
-        "rebinding_tips": "L'attivazione di questa opzione potrebbe causare un errore di ricerca DNS privato. Se la tua rete ha un captive portal, disabilita questa opzione."
+        "rebinding_tips": "L'attivazione di questa opzione potrebbe causare un errore di ricerca DNS privato. Se la tua rete ha un captive portal, disabilita questa opzione.",
+        "edit_host_btn": "Modifica Host",
+        "desc": "Se si imposta un server DNS personalizzato, qualsiasi richiesta di traffico sarà risolta attraverso il server DNS impostato qui in preferenza a quello ottenuto dal server DNS di configurazione Ethernet, relay wireless, cellulare, condivisione hotspot o VPN."
     }
 }
