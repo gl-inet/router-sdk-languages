@@ -1,1 +1,9 @@
-{}
+{
+    "dns": {
+        "provider": "Provider DNS",
+        "rebinding_label": "Protezione da attacchi di rebinding DNS",
+        "override_label": "Oltrepassare le impostazioni DNS di tutti i clienti",
+        "override_tips": "Se abilitato, il tuo router sovrascriverà le impostazioni DNS non crittografate per tutti i client.",
+        "rebinding_tips": "L'attivazione di questa opzione potrebbe causare un errore di ricerca DNS privato. Se la tua rete ha un captive portal, disabilita questa opzione."
+    }
+}
