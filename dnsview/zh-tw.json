@@ -31,9 +31,9 @@
         "form_modem_label": "來自行動網絡的 DNS",
         "form_ovpn_label": "來自 OpenVPN 的 DNS",
         "form_wg_label": "來自 WireGuard 的 DNS",
-        "desc": "如果你在此處設置了自定義的 DNS 服務器，任何流量請求都將優先通過此處設置的 DNS 服務器進行解析，而非從以太網、無線中繼、行動網絡、熱點共享或 VPN 配置中獲取的 DNS 服務器。",
-        "server_tips": "您可以選擇最多 8 個服務器地址，路由器會在其中自動選用最快的服務器。",
+        "desc": "如果你在此處設置了自定義的 DNS 服務器，任何DNS請求都將優先通過此處設置的 DNS 服務器進行解析，而非從以太網、無線中繼、行動網絡、熱點共享或 VPN 配置中獲取的 DNS 服務器。",
+        "server_tips": "您可以選擇最多 8 個服務器。路由器會在其中自動選用最快的服務器。",
         "set_dns_server_title": "DNS 服務器設置",
-        "v1_tips": "當前路由器使用的是 v1 版本的DNS ，僅支持部分加密 DNS 服務器。"
+        "v1_tips": "當前路由器使用的是 v1 版本的DNS 协议，僅支持部分加密 DNS 服務器。"
     }
 }
