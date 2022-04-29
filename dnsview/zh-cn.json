@@ -14,7 +14,7 @@
         "server": "服务器",
         "server_tips": "您可以选择最多 8 个服务器地址，路由器会在其中自动选用最快的服务器。",
         "at_least_one_server_tips": "至少选择一个服务器",
-        "select_server_btn": "Select Server",
+        "select_server_btn": "选择服务器",
         "choose_server_title": "选择 DNS 服务器",
         "select_all_label": "所有",
         "select_log_label": "有日志",
@@ -33,6 +33,7 @@
         "form_tethering_label": "来自热点共享的 DNS",
         "form_modem_label": "来自蜂窝网络的 DNS",
         "form_ovpn_label": "来自 OpenVPN 的 DNS",
-        "form_wg_label": "来自 WireGuard 的 DNS"
+        "form_wg_label": "来自 WireGuard 的 DNS",
+        "provider": "DNS 提供商"
     }
 }
