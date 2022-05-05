@@ -33,6 +33,7 @@
         "choose_server_title": "Seleccionar Servidor DNS",
         "host_tips": "Las solicitudes de los clientes se resolverán preferentemente utilizando las reglas DNS estáticas que escriba en Hosts.",
         "manual_label": "DNS manual",
-        "form_wg_label": "DNS desde WireGuard"
+        "form_wg_label": "DNS desde WireGuard",
+        "adguardhome_in_use_tips": "AdGuard Home está habilitado, el enrutador debe usar el servidor DNS proporcionado por AdGuard Home, no puede personalizar los servidores DNS."
     }
 }
