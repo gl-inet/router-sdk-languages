@@ -23,6 +23,15 @@
         "add_share_title": "共有フォルダを添加",
         "set_share_title": "シェア　フォルダ　設置",
         "server_config_title": "Samba設置",
-        "share_name_label": "シェア名"
+        "share_name_label": "シェア名",
+        "remove_all_share_caution": "共有フォルダをすべて削除しますか?",
+        "remove_share_caution": "この共有フォルダを削除しますか?",
+        "user_manage_tips": "一部のプロトコル(現在はSambaのみサポート)にとっては、共有フォルダごとにユーザー権限を個別に設定できます。",
+        "set_password_title": "パスワードを変更",
+        "webdav_warning_tips": "WebDavはまだ実験的な段階であり、フォルダごとに単独でアクセス権を設定することはできませんので、慎重に使用してください。",
+        "remove_all_user_caution": "すべてのユーザーを削除しますか?",
+        "remove_user_caution": "このユーザーを削除しますか?",
+        "already_user": "ユーザーが既に存在します",
+        "anonymity_label": "匿名アクセス"
     }
 }
