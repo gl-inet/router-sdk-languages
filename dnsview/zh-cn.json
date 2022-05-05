@@ -33,6 +33,7 @@
         "form_modem_label": "来自蜂窝网络的 DNS",
         "form_ovpn_label": "来自 OpenVPN 的 DNS",
         "form_wg_label": "来自 WireGuard 的 DNS",
-        "provider": "DNS 提供商"
+        "provider": "DNS 提供商",
+        "adguardhome_in_use": "AdGuard Home 已启用，此路由器必须使用 AdGuard Home 提供的 DNS 服务器，您无法自定义 DNS 服务器。"
     }
 }
