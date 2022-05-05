@@ -2,8 +2,14 @@
     "dns": {
         "provider": "DNSプロバイダー",
         "rebinding_tips": "このオプションを開くと、プライベートDNSの検索に失敗する可能性があります。ネットワークがキャプティブポータルで認証する必要がある場合はこのオプションを無効にします。",
-        "rebinding_label": "DNS再バインド（DNS Rebinding）攻撃防御",
+        "rebinding_label": "DNS再バインド攻撃防御",
         "override_label": "全クライアントのDNS設定を上書きする",
-        "override_tips": "このオプションを開くと、ルータはクライアントですべての暗号化されていないDNS設定を無視します。"
+        "override_tips": "このオプションを開くと、ルータはクライアントですべての暗号化されていないDNS設定を無視します。",
+        "form_ovpn_label": "OpenVPNよりDNS",
+        "form_wg_label": "WireGuardよりDNS",
+        "form_tethering_label": "テザリングよりDNS",
+        "form_modem_label": "セルラーネットワークよりDNS",
+        "adguardhome_in_use_tips": "AdGuard Homeが開いています。このルータはAdGuard Homeが提供するDNSサーバを使用する必要があります。DNSサーバをカスタマイズすることはできません。",
+        "auto_get_label": "オートマチック"
     }
 }
