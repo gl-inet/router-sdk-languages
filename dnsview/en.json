@@ -33,6 +33,7 @@
         "form_modem_label": "DNS from Cellular",
         "form_ovpn_label": "DNS from OpenVPN",
         "form_wg_label": "DNS from WireGuard",
-        "provider": "DNS Provider"
+        "provider": "DNS Provider",
+        "adguardhome_in_use": "AdGuard Home is enabled, the router must use the DNS server provided by AdGuard Home, you can't customize DNS servers."
     }
 }
