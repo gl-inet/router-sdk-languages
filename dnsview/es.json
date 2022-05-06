@@ -6,12 +6,12 @@
         "override_label": "Anular Configuración DNS para Todos Clientes",
         "override_tips": "Si se activa, el router anulará la configuración de DNS no cifrada para todos los clientes.",
         "edit_host_btn": "Editar Hosts",
-        "desc": "Si establece un servidor DNS personalizado, cualquier solicitud de tráfico se resolverá a través del servidor DNS establecido aquí con preferencia al obtenido desde el servidor DNS de la configuración de Ethernet, retransmisión inalámbrica, celular, hotspot compartido o VPN.",
+        "desc": "Si establece servidores DNS personalizados, cualquier nombre dns se resolverá a través de los servidores DNS establecidos aquí en lugar del obtenido del servidor DNS de la wan, del repetidor, del celular, del hotspot compartido o de la configuración VPN.",
         "form_wwan_label": "DNS desde Repetidor",
         "mode": "Modo",
         "proxy_addr_label": "Dirección del Servidor Proxy",
         "encryption_type_label": "Tipo de Encriptación",
-        "v1_tips": "El router utiliza la versión v1 de DNS, por lo que sólo es compatible con algunos servidores DNS codificados.",
+        "v1_tips": "El router utiliza la versión v1 de DNS. Solo se admiten algunos servidores DNS codificados.",
         "server": "Servidor",
         "at_least_one_server_tips": "Seleccionar al menos un servidor",
         "select_server_btn": "Seleccionar Servidor",
@@ -27,13 +27,13 @@
         "form_tethering_label": "DNS desde Tethering",
         "form_modem_label": "DNS desde Celular",
         "form_ovpn_label": "DNS desde OpenVPN",
-        "server_tips": "Puedes elegir hasta 8 direcciones de servidor, y el router elegirá automáticamente el servidor más rápido entre ellos.",
+        "server_tips": "Puedes elegir hasta 8 servidores. El router elegirá automáticamente el servidor más rápido entre ellos.",
         "set_dns_server_title": "Configuración del Servidor DNS",
         "select_all_label": "Todo",
         "choose_server_title": "Seleccionar Servidor DNS",
         "host_tips": "Las solicitudes de los clientes se resolverán preferentemente utilizando las reglas DNS estáticas que escriba en Hosts.",
         "manual_label": "DNS manual",
         "form_wg_label": "DNS desde WireGuard",
-        "adguardhome_in_use_tips": "AdGuard Home está habilitado, el enrutador debe usar el servidor DNS proporcionado por AdGuard Home, no puede personalizar los servidores DNS."
+        "adguardhome_in_use_tips": "Si AdGuard Home está activado, el router debe utilizar el servidor DNS proporcionado por AdGuard Home, no se pueden personalizar los servidores DNS."
     }
 }
