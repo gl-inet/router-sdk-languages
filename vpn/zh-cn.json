@@ -213,7 +213,7 @@
         "masq_tips": "若此选项启用，当 LAN 中的客户端设备发送其 IP 数据包时，路由器将源 IP 地址替换为自己的地址，然后将其转发到 VPN 通道。",
         "local_access_tips": "若此选项启用，可以通过 VPN 通道访问LAN子网内部的资源。",
         "use_vpn_only_tips": "若启用该选项，当启用 VPN 时，客户端设备将依然可以访问 WAN 侧资源，比如上级子网中的打印机，NAS 等设备。",
-        "disable_vpn_for_services": "Services from GL.iNet Doesn't Use VPN",
+        "disable_vpn_for_services": "禁止 GoodCloud, DDNS 和 NTP 使用 VPN",
         "view_status": "查看状态",
         "client_using_tips": "正在使用中",
         "no_internet_msg": "没有连接到互联网！",
