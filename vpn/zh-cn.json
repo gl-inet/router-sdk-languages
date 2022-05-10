@@ -224,7 +224,9 @@
         "location_max_pre_placeholder": "无限制",
         "no_use_vpn_label": "不使用 VPN",
         "disable_vpn_for_services_tips": "若启用该选项，路由器上通常需要使用真实 IP 的服务将不使用 VPN。包括GoodCloud、DDNS、rtty.",
-        "use_vpn_label": "使用 VPN"
+        "use_vpn_label": "使用 VPN",
+        "client_count": "无客户端 | 1 台客户端 | {count} 台客户端",
+        "client_dialog_title": "客户端状态"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
