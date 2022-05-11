@@ -224,7 +224,9 @@
         "location_max_pre_placeholder": "Senza limiti",
         "disable_vpn_for_services_tips": "Se questa opzione è attivata, i servizi sui router che di solito richiedono l'uso di un IP reale non useranno la VPN. Inclusi GoodCloud, DDNS, rtty.",
         "no_use_vpn_label": "senza VPN",
-        "use_vpn_label": "con VPN"
+        "use_vpn_label": "con VPN",
+        "client_count": "Nessun cliente | 1 Cliente | {count} Clienti",
+        "client_dialog_title": "Stato dei clienti"
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
