@@ -224,7 +224,9 @@
         "location_max_pre_placeholder": "制限なし",
         "disable_vpn_for_services_tips": "このオプションを開くと、ルーターで通常実際のIPを使用する必要があるサービスはVPNを使用しません。GoodCloud、DDNS、rttyが含まれています。",
         "use_vpn_label": "VPNを使用する",
-        "no_use_vpn_label": "VPNを使用しない"
+        "no_use_vpn_label": "VPNを使用しない",
+        "client_count": "クライアントなし | 1 クライアント | {count} クライアント",
+        "client_dialog_title": "クライアントのステータス"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
