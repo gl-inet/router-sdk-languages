@@ -216,7 +216,7 @@
         "view_status": "查看状态",
         "client_using_tips": "正在使用中",
         "no_internet_msg": "没有连接到互联网！",
-        "client_conneting_tips": "连接中。。。",
+        "client_conneting_tips": "连接中……",
         "client_conneted_tips": "已连接",
         "setup_guide": "设置向导",
         "location_max_pre_label": "每个位置最大数量",
@@ -225,7 +225,8 @@
         "disable_vpn_for_services_tips": "若启用该选项，路由器上通常需要使用真实 IP 的服务将不使用 VPN。包括GoodCloud、DDNS、rtty.",
         "use_vpn_label": "使用 VPN",
         "client_count": "无客户端 | 1 台客户端 | {count} 台客户端",
-        "client_dialog_title": "客户端状态"
+        "client_dialog_title": "客户端状态",
+        "configuration": "配置"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
