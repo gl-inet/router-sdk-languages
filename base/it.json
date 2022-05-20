@@ -4,9 +4,9 @@
         "file_include": "Incluso il tipo di file",
         "success": "Successo",
         "reupload": "Carica nuovamente il file",
-        "firmware_format_error": "formato firmware errato",
-        "error": "inoltro file fallito!",
-        "format_error": "Errore nel formato dei dati"
+        "firmware_format_error": "formato firmware errato!",
+        "error": "Impossibile caricare il file.",
+        "format_error": "Errore nel formato dei dati!"
     },
     "core": {
         "protocol": "Protocollo",
@@ -61,10 +61,11 @@
         "type": "Tipo",
         "port": "portale",
         "action": "Azione",
-        "enable": "Abilita"
+        "enable": "Abilita",
+        "continue": "Continuare"
     },
     "msg": {
-        "access_denied": "utente non valido, permesso negato o non connesso",
+        "access_denied": "L'utente non valido, permesso negato o non connesso!",
         "success": "Successo!",
         "operation_not_finished": "Si prega di attendere fino al termine dell'operazione in corso.",
         "getting": "Sta ricevendo, per favore aspetta…",
