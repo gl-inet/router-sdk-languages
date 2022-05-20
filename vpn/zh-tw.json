@@ -214,8 +214,8 @@
         "view_status": "查看狀態",
         "local_access_tips": "若此選項啟用，可以通過 VPN 通道訪問LAN子網內部的資源。",
         "use_vpn_only_tips": "若啟用該選項，當啟用 VPN 時，客戶端設備將依然可以訪問 WAN 側資源，比如上級子網中的打印機，NAS 等設備。",
-        "location_max_pre_label": "每個位置的最大數目",
-        "client_conneting_tips": "連接中......",
+        "location_max_pre_label": "每個地區的最大數目",
+        "client_conneting_tips": "連接中…",
         "setup_guide": "設置指引",
         "client_conneted_tips": "已連接",
         "client_using_tips": "正在使用中",
@@ -228,8 +228,8 @@
         "client_count": "無客戶端 | 1 台客戶端 | {count} 台客戶端",
         "configuration": "配置"
     },
-    "menu_wgserver": "WireGuard 服務器",
-    "menu_ovpnserver": "OpenVPN 服務器",
+    "menu_wgserver": "WireGuard 服務端",
+    "menu_ovpnserver": "OpenVPN 服務端",
     "menu_wgclient": "WireGuard 客戶端",
     "menu_ovpnclient": "OpenVPN 客戶端",
     "menu_vpndashboard": "VPN 儀錶盤"
