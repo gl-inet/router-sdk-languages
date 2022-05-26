@@ -1,8 +1,8 @@
 {
     "ddns": {
-        "desc": "È possibile abilitare il DNS dinamico per questo router e accedere a questo router da remoto.",
+        "desc": "È possibile abilitare il DNS dinamico per questo router ed accedervi da remoto.",
         "test": "Test di risoluzione DDNS",
-        "note": "Nota: è necessario un indirizzo IP pubblico Internet per utilizzare il DNS dinamico. Se questo router è dietro NAT, potrebbe essere necessario configurare il port forwarding nel router ISP.",
+        "note": "Nota: è necessario un indirizzo IP pubblico Internet per utilizzare il DNS dinamico. Se questo router è dietro NAT, potrebbe essere necessario configurare il Port Forwarding nel router ISP.",
         "enable_http": "Abilita l'accesso alla rete esterna HTTP",
         "enable_https": "Abilita l'accesso alla rete esterna HTTPS",
         "enable_ssh": "Abilita l'accesso alla rete esterna SSH",
@@ -12,12 +12,12 @@
         "detecting": "In fase di test, si prega di attendere…",
         "resolved_as": "Il tuo ddns è stato analizzato correttamente come",
         "behind_nat": "Ma questo router è dietro NAT o non hai un indirizzo IP pubblico.",
-        "working": "Il tuo servizio DDNS è normale.",
+        "working": "Il tuo servizio DDNS sta funzionando.",
         "not_effective": "Il tuo DDNS non è ancora valido, riprova più tardi.",
         "enable_http_tip": "HTTP è un protocollo non crittografato. Si prega di utilizzare con cautela.",
         "enable": "Attiva",
-        "not_internet": "No Internet, per favore connettiti a Internet prima di testare DDNS!",
-        "host_name": "L'hostname"
+        "not_internet": "Nessuna connessione Internet, per favore connettiti prima di testare il DDNS!",
+        "host_name": "Nome Host"
     },
-    "menu_ddns": "Dynamic DNS"
+    "menu_ddns": "DNS Dinamico"
 }
