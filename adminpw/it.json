@@ -1,13 +1,13 @@
 {
     "adminpw": {
-        "old_pwd": "Password precedente",
+        "old_pwd": "Vecchia Password",
         "new_pwd": "Nuova password",
         "confirm_pwd": "Conferma password",
-        "warning": "La tua nuova password non può essere la stessa della tua password precedente",
-        "confirm_pwd_tips": "Immettere di nuovo la nuova password",
+        "warning": "La nuova password non può essere uguale a quella vecchia",
+        "confirm_pwd_tips": "Immetti ancora la nuova password",
         "old_pwd_error": "La vecchia password è sbagliata!",
-        "old_pwd_tips": "Inserisci la password precedente",
-        "new_pwd_tips": "Inserire una nuova password"
+        "old_pwd_tips": "Inserisci la vecchia password",
+        "new_pwd_tips": "Inserisci la nuova password"
     },
-    "menu_adminpw": "Admin Password"
+    "menu_adminpw": "Password di Amministrazione"
 }
