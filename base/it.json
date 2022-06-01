@@ -62,7 +62,8 @@
         "port": "Porta",
         "action": "Azione",
         "enable": "Abilita",
-        "continue": "Continua"
+        "continue": "Continua",
+        "router_time": "Tempo del Router"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -74,5 +75,15 @@
         "uninstalling": "In disinstallazione, attendere…",
         "unknown_err": "Errore sconosciuto. Verifica l'ambiente di rete o riavvia il dispositivo.",
         "interface_timeout": "Richiesta scaduta. Verifica l'ambiente di rete o riavvia il dispositivo."
+    },
+    "date": {
+        "day": "giorno(i)",
+        "sunday": "Dom",
+        "monday": "Lun",
+        "tuesday": "Mar",
+        "wednesday": "Mer",
+        "thursday": "Gio",
+        "friday": "Ven",
+        "saturday": "Sab"
     }
 }
