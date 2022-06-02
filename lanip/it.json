@@ -22,15 +22,15 @@
         "note": "Nota: Il client configurato deve riconnettersi al router per far sì che le impostazioni abbiano effetto.",
         "name": "Nome",
         "action": "Azione",
-        "confirm_delete": "Sei sicuro di voler eliminare la voce dell'indirizzo prenotato?",
+        "confirm_delete": "Sei sicuro di voler eliminare la voce dell'indirizzo statico?",
         "mac_existed": "MAC già esistente",
         "ip_existed": "IP già esistente",
         "no_data": "Nessuna dato di configurazione",
-        "set_data": "Modifica la voce di prenotazione",
-        "confirm_delete_all": "Sei sicuro di voler eliminare tutte le voci degli indirizzi prenotati?",
-        "add_new": "Aggiungi una nuova voce di prenotazione",
-        "title": "Prenotazione Indirizzo",
-        "tips": "Quando si specifica un indirizzo IP prenotato per un client all'interno della LAN, il client riceve sempre lo stesso indirizzo IP ogni volta che accede al server DHCP del router. È possibile assegnare indirizzi IP riservati a computer o server che richiedono impostazioni IP statici."
+        "set_data": "Modifica l'indirizzo statico",
+        "confirm_delete_all": "Sei sicuro di voler eliminare tutte le voci degli indirizzi statici?",
+        "add_new": "Aggiungi un indirizzo statico",
+        "title": "Indirizzo Statico",
+        "tips": "Quando si specifica un indirizzo IP statico per un client all'interno della LAN, il client riceve sempre lo stesso indirizzo IP ogni volta che accede al server DHCP del router. È possibile riservare indirizzi IP a computer o server che richiedono di impostare IP statici."
     },
     "menu_lanip": "LAN"
 }
