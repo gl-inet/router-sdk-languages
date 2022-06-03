@@ -4,7 +4,7 @@
         "rebinding_label": "Protezione da attacchi di rebinding DNS",
         "override_label": "Oltrepassare le impostazioni DNS di tutti i Client",
         "override_tips": "Se abilitato, il tuo router sovrascriverà le impostazioni DNS non crittografate per tutti i Client.",
-        "rebinding_tips": "L'attivazione di questa opzione potrebbe causare un errore di ricerca DNS privato. Se la tua rete ha un Captive Portal, disabilita questa opzione.",
+        "rebinding_tips": "L'attivazione di questa opzione potrebbe causare un errore di ricerca del DNS privato. Se la tua rete ha un Captive Portal, disabilita questa opzione.",
         "edit_host_btn": "Modifica Host",
         "desc": "Se si impostano dei server DNS personalizzati, qualsiasi nome dns sarà risolto attraverso i server DNS qui specificati invece di quelli ottenuti dal server DNS della configurazione wan, ripetitore, cellulare, condivisione hotspot o VPN.",
         "select_nolog_label": "Nessun Log",
@@ -25,7 +25,7 @@
         "set_proxy_label": "DNS Proxy",
         "auto_get_label": "Automatico",
         "form_wan_label": "DNS da Ethernet",
-        "form_wwan_label": "DNS dal ripetitore",
+        "form_wwan_label": "DNS da ripetitore",
         "form_tethering_label": "DNS da Tethering",
         "form_modem_label": "DNS da Cellulare",
         "form_ovpn_label": "DNS da OpenVPN",
@@ -34,6 +34,6 @@
         "server_tips": "Puoi scegliere fino a 8 server. Il router sceglierà automaticamente il server più veloce tra questi.",
         "mode": "Modalità",
         "host_tips": "Le richieste dei Client saranno risolte dando la preferenza alle regole DNS statiche che hai scritto nella sezione Hosts.",
-        "adguardhome_in_use_tips": "AdGuard Home è abilitato, non è possibile personalizzare i server DNS poichè il router deve utilizzare il server DNS fornito da AdGuard Home."
+        "adguardhome_in_use_tips": "AdGuard Home è abilitato, non è possibile cambiare i server DNS poichè il router deve utilizzare quelli forniti da AdGuard Home."
     }
 }
