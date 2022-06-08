@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "Edit Hosts",
-        "desc": "If you set custom DNS servers, any DNS request will be resolved through the DNS servers set here instead of the one obtained from wan, repeater, cellular, hotspot sharing or VPN configuration DNS server.",
+        "desc": "If you set custom DNS servers, any DNS requests will be resolved through the DNS server set here instead of the one obtained from WAN, repeater, cellular, hotspot sharing or VPN configuration DNS server.",
         "rebinding_label": "DNS Rebinding Attack Protection",
         "rebinding_tips": "Turning on this option may cause private DNS lookup failure. If your network has a captive portal please disable this option.",
         "override_label": "Override DNS Settings for All Clients",
