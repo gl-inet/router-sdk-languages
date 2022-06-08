@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "Edit Hosts",
-        "desc": "If you set custom DNS servers, any DNS requests will be resolved through the DNS server set here instead of the one obtained from WAN, repeater, cellular, hotspot sharing or VPN configuration DNS server.",
+        "desc": "If you set custom DNS servers, any domain names will be resolved through the DNS servers set here instead of the one obtained from Ethernet, repeater, cellular, tethering or VPN configuration DNS servers.",
         "rebinding_label": "DNS Rebinding Attack Protection",
         "rebinding_tips": "Turning on this option may cause private DNS lookup failure. If your network has a captive portal please disable this option.",
         "override_label": "Override DNS Settings for All Clients",
@@ -11,11 +11,11 @@
         "proxy_addr_label": "Proxy Server Address",
         "encryption_type_label": "Encryption Type",
         "v1_tips": "The router uses the v1 version of DNS. Only some encrypted DNS servers are supported.",
-        "server": "Server",
+        "server": "Servers",
         "server_tips": "You can choose up to 8 servers. The router will automatically choose the fastest server among them.",
         "at_least_one_server_tips": "Select at least one server",
-        "select_server_btn": "Select Server",
-        "choose_server_title": "Select DNS Server",
+        "select_server_btn": "Select Servers",
+        "choose_server_title": "Select DNS Servers",
         "select_all_label": "All",
         "select_log_label": "Log",
         "select_nolog_label": "No Log",
