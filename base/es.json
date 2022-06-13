@@ -62,7 +62,8 @@
         "port": "puerto",
         "action": "Acción",
         "enable": "Activar",
-        "continue": "Continuar"
+        "continue": "Continuar",
+        "router_time": "Hora del router"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o no conectado!",
@@ -74,5 +75,15 @@
         "uninstalling": "Desinstalando, espera por favor…",
         "unknown_err": "Se ha producido un error desconocido. Por favor, compruebe el entorno de red o reinicie el dispositivo.",
         "interface_timeout": "Tiempo de espera en la respuesta. Compruebe el entorno de red o reinicie el dispositivo."
+    },
+    "date": {
+        "sunday": "Do",
+        "day": "día(s)",
+        "thursday": "Ju",
+        "monday": "Lu",
+        "tuesday": "Ma",
+        "wednesday": "Mi",
+        "friday": "Vi",
+        "saturday": "Sá"
     }
 }
