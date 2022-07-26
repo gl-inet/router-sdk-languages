@@ -1,0 +1,24 @@
+{
+    "menu_edgerouter": "旁路由",
+    "edgerouter": {
+        "desc": " 旁路由模式是一种特殊的网络连接方式，在旁路由模式下，您只需要将路由器正常连接到一个已存在的局域网中即可对已存在的局域网进行扩展，而不需要对已存在的局域网做任何修改。",
+        "connect_tips": "物理连接方式： 将WAN口连接到主路由器的LAN口。",
+        "test_tips": " 连接测试：已存在局域网中的设备IP地址和DNS设置不会发生任何变化，但数据流会先经过旁路由，然后到达主路由，可以用tracerout等工具检查。",
+        "enable_label": "启用旁路由模式",
+        "cookies_dns_label": "强制使用旁路由的 DNS",
+        "cookies_dns_tips": "此选项开启后强制使用旁路由 DNS，关闭时则使用主路由 DNS",
+        "cover_mode_label": "设备覆盖模式",
+        "global_label": "全局覆盖",
+        "part_label": "部分覆盖",
+        "devices_title": "设备列表",
+        "manage_device_btn": "管理设备",
+        "active_th": "活跃",
+        "not_active": "未活跃",
+        "current_active": "当前活跃",
+        "no_active_tips": "这台设备从未连接过，请检查设备状态。",
+        "choose_devices_title": "选择设备",
+        "has_covered_title": "已覆盖设备",
+        "scan_devices_title": "新扫描设备",
+        "remove_device_caution": "是否移除覆盖当前设备"
+    }
+}
