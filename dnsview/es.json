@@ -21,7 +21,7 @@
         "select_log_label": "Log",
         "select_nolog_label": "No hay Log",
         "auto_get_label": "Automático",
-        "choose_encryption_label": "DNS de Encriptación",
+        "choose_encryption_label": "DNS cifrado",
         "set_proxy_label": "Proxy DNS",
         "form_wan_label": "DNS desde Ethernet",
         "form_tethering_label": "DNS desde Tethering",
@@ -34,6 +34,7 @@
         "host_tips": "Las solicitudes de los clientes se resolverán preferentemente utilizando las reglas DNS estáticas que escriba en Hosts.",
         "manual_label": "DNS manual",
         "form_wg_label": "DNS desde WireGuard",
-        "adguardhome_in_use_tips": "Si AdGuard Home está activado, el router debe utilizar el servidor DNS proporcionado por AdGuard Home, no se pueden personalizar los servidores DNS."
+        "adguardhome_in_use_tips": "Si AdGuard Home está activado, el router debe utilizar el servidor DNS proporcionado por AdGuard Home, no se pueden personalizar los servidores DNS.",
+        "server_warning_tips": "El servidor parece estar desactualizado."
     }
 }
