@@ -212,7 +212,7 @@
         "local_access_tips": "If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.",
         "masq_tips": "If this option is enabled, When clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.",
         "use_vpn_only_tips": "If this option is enabled, while VPN is connected, client devices will still be able to access WAN, e.g. accessing your printer, NAS etc in upper subnet.",
-        "disable_vpn_for_services": "Services from GL.iNet doesn't Use VPN",
+        "disable_vpn_for_services": "Services from GL.iNet don't Use VPN",
         "view_status": "View Status",
         "no_internet_msg": "No Internet Connection!",
         "client_using_tips": "Currently in use",
