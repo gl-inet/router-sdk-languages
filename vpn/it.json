@@ -200,7 +200,7 @@
         "policy_nav_title": "Quando il client accede alla rete con il tuo router$$$$ come vuoi che il router distingua se il traffico utilizza un tunnel crittografato VPN?",
         "only_rule": "Quando si accede al seguente dominio/IP",
         "peer_deprecated_tips": "La configurazione del peer client non è valida a causa della modifica della configurazione del server, crea una nuova configurazione peer per il tuo dispositivo.",
-        "askpass_label": "Passphrase",
+        "askpass_label": "Frase d'accesso",
         "server_is_off": "Il server $$$$WireGuard$$$$ è attualmente DISATTIVATO",
         "server_is_starting": "Il server $$$$WireGuard$$$$ si sta avviando…",
         "profiles": "Profili",
@@ -226,7 +226,10 @@
         "use_vpn_label": "con VPN",
         "client_count": "Nessun cliente | 1 Cliente | {count} Clienti",
         "client_dialog_title": "Stato dei Client",
-        "configuration": "Configurazione"
+        "configuration": "Configurazione",
+        "add_manually_btn": "Aggiungi Manualmente",
+        "third_lead_tips": "Sto ottenendo il file di configurazione VPN dal servizio VPN che hai deciso di usare.",
+        "nordvpn_setup_guide": "Sono le credenziali di servizio di NordVPN.Se non sai come ottenerle, per favore consulta $$$$la guida di setup$$$$."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
