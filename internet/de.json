@@ -1,0 +1,100 @@
+{
+    "cable": {
+        "title": "Kabel",
+        "no_wan": "Kein Kabel am WAN Anschluss erkannt, bitte verbinden Sie ein Internetkabel.",
+        "rm_wan_cable": "Bitte entfernen Sie das Internetkabel vom WAN Anschluss.",
+        "wan_been_lan": "WAN Anschluss wird als LAN Anschluss verwendet. Sie können es unten auf WAN zurücksetzen",
+        "confirm_to_lan": "Bitte bestätigen: Möchten Sie den WAN Anschluss als LAN Anschluss benutzen?",
+        "confirm_to_wan": "Bitte bestätigen: Möchten Sie den WAN Anschluss zurück zum WAN Anschluss umschalten?",
+        "repeated": "Erfolgreich verbunden, ohne erneut eine Verbindung herstellen zu müssen"
+    },
+    "tethering": {
+        "title": "Netzwerkfreigabe",
+        "device": "Gerät",
+        "no_device_tips": "Kein Tethering-Gerät gefunden, Schließen Sie Ihr Smartphone oder USB-Modem an, um zu starten."
+    },
+    "repeater": {
+        "title": "Repeater",
+        "known_net": "bekannte Netzwerke",
+        "options": "Repeater Optionen",
+        "no_tips": "Repeater (STA) ist deaktiviert"
+    },
+    "modem": {
+        "title": "Mobilfunknetz",
+        "plug_in_tips": "Kein Modem gefunden, Stecken Sie Ihr USB-Modem ein, um zu starten.",
+        "manage": "Verwalten",
+        "name": "Modem Name",
+        "phone_num": "Telefonnummer",
+        "operator": "Mobilfunkanbieter",
+        "signal": "Signal",
+        "upload": "Upload",
+        "download": "Download",
+        "install_sim": "SIM Karte installiert",
+        "install_sim_tips": "Bitte Stecken Sie Ihre SIM-Karte in den SIM-Slot, dann",
+        "reboot_this": "Modem neu starten",
+        "port": "Port",
+        "manually_tips": "Manuelle Eingabe",
+        "pin": "Pincode",
+        "service": "Service",
+        "dial_num": "Einwahlnummer",
+        "authentication": "Authentifizierung",
+        "user_name": "Benutzername",
+        "password": "Passwort",
+        "sim_not_registered": "SIM-Karte nicht registriert",
+        "sim_lock": "Die SIM-Karte wurde gesperrt, bitte geben Sie den PIN-Code ein, um sie zu entsperren.",
+        "connect_fail_tips": "Verbindung fehlgeschlagen, erneute Verbindung",
+        "auto_setup": "Automatisches Einrichten"
+    },
+    "router_visual": {
+        "wlan_client": "WLAN-Client",
+        "lan_Client": "LAN-Clients"
+    },
+    "modemmanage": {
+        "title": "Verwaltung",
+        "no_modem": "Kein Modem gefunden",
+        "at_command": "AT-Kommando",
+        "port": "Port",
+        "shortcut": "Verknüpfung",
+        "send": "Senden",
+        "cell_info": "Zellen Info",
+        "copy": "Kopieren",
+        "refresh": "Aktualisieren",
+        "success_copy": "Erfolgreiche Kopie",
+        "reboot_sucess": "Erfolg, bitte warten Sie $$$$ Sekunden"
+    },
+    "sms": {
+        "title": "Kurznachricht",
+        "send_sms": "Nachricht senden",
+        "receive": "Empfangen",
+        "all_read": "Alles gelesen",
+        "del_read": "Gelesene Nachrichten löschen",
+        "send": "Senden",
+        "not_found_sms_modem": "Dieses Modem unterstützt keine SMS",
+        "from": "Von",
+        "to": "Senden an",
+        "sent": "Gesendet",
+        "sending": "Senden",
+        "send_fail": "Senden fehlgeschlagen",
+        "body": "SMS-Inhalte",
+        "reply": "Antwort",
+        "resend": "Erneut senden",
+        "del_sms": "Entfernen",
+        "send_new": "Neue SMS",
+        "resend_sms": "SMS erneut senden",
+        "reply_sms": "Auf SMS antworten",
+        "recipient": "Empfänger",
+        "send_modem": "Vom Modul (SIM)",
+        "confirm_del": "Löschen bestätigen",
+        "invalid_dial_num": "Ungültige Wählnummer",
+        "international": "International",
+        "national": "National",
+        "unknown": "Unbekannt",
+        "no_sms": "Keine Nachricht",
+        "detail": "SMS-Details"
+    },
+    "internet": {
+        "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
+        "connecting": "Verbinden…",
+        "getting": "bekommen…"
+    }
+}
