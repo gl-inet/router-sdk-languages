@@ -6,7 +6,10 @@
         "wan_been_lan": "Порт WAN использовался как LAN. Вы можете переключить его в WAN",
         "confirm_to_lan": "Вы хотите использовать порт WAN в качестве LAN?",
         "confirm_to_wan": "Вы хотите изменить порт WAN обратно на WAN?",
-        "repeated": "Подключение удалось"
+        "repeated": "Подключение удалось",
+        "pppoe_vlanid_tips": "",
+        "egderouter_mode_tips": "",
+        "using_as_wan": ""
     },
     "tethering": {
         "title": "Смартфон, USB модем",
@@ -17,7 +20,13 @@
         "title": "Повторитель",
         "known_net": "Известные сети",
         "options": "Параметры повторителя",
-        "no_tips": "Повторитель (СТО) отключен"
+        "no_tips": "Повторитель (СТО) отключен",
+        "join_wifi": "",
+        "retry_connet_tips": "",
+        "allow_dfs_tips1": "",
+        "fail_eap_key_tips": "",
+        "fail_key_tips": "",
+        "fail_not_found_tips": ""
     },
     "modem": {
         "title": "Модем",
@@ -34,7 +43,39 @@
         "user_name": "Имя пользователя",
         "password": "Пароль",
         "sim_not_registered": "SIM-карта не зарегистрирована",
-        "auto_setup": "Автоматическая настройка"
+        "auto_setup": "Автоматическая настройка",
+        "sim_slot_switching_tips": "",
+        "current_sim_label": "",
+        "current_config_title": "",
+        "use_other_config_btn": "",
+        "current_config_badge": "",
+        "save_config_label": "",
+        "copy_config_btn": "",
+        "sim_slot_setting_title": "",
+        "auto_switch_label": "",
+        "main_slot_label": "",
+        "sim_profile_label": "",
+        "timing_check_main_sim_label": "",
+        "check_main_sim_time_label": "",
+        "choose_current_slot_label": "",
+        "remove_profile_warning": "",
+        "set_detection_tips": "",
+        "enable_band_filter_label": "",
+        "band_filter_mode_label": "",
+        "band_masking_label": "",
+        "band_only_label": "",
+        "band_only_tips": "",
+        "band_masking_tips": "",
+        "band_only_warning": "",
+        "current_sim_badge_label": "",
+        "select_profile_desc": "",
+        "edit_profile_title": "",
+        "add_new_profile_title": "",
+        "name_already_exist_tips": "",
+        "history_signal_title": "",
+        "choose_other_profile_btn": "",
+        "sim_failover_interval_label": "",
+        "saved_config_title": ""
     },
     "router_visual": {
         "wlan_client": "Wi-Fi клиенты",
@@ -62,6 +103,17 @@
         "confirm_del": "Вы точно хотите удалить",
         "invalid_dial_num": "Неверно набран номер",
         "national": "Локальный",
-        "no_sms": "Нет сообщений"
+        "no_sms": "Нет сообщений",
+        "forward_encryp_label": "",
+        "forward_smtp_title": "",
+        "forward_title": "",
+        "forward_email_label": "",
+        "forward_smtp_server_label": "",
+        "forward_email_account_label": "",
+        "forward_email_subject_label": "",
+        "forward_email_list_title": "",
+        "forward_add_email_btn": "",
+        "forward_add_phone_btn": "",
+        "forward_no_encryp_label": ""
     }
 }
