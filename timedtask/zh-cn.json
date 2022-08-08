@@ -1,7 +1,7 @@
 {
     "menu_timedtask": "定时任务",
     "timedtask": {
-        "desc": "本页面仅提供设备在活跃状态的定时功能，如果设备关机或异常则无法正常使用该功能。",
+        "desc": "如果设备在设定时间处于关机状态，则该任务不会执行。",
         "on_time_label": "开启时间",
         "off_time_label": "关闭时间",
         "reboot_title": "定时重启",
@@ -13,11 +13,12 @@
         "enable_guest_wifi_label": "启用访客 Wi-Fi 定时任务",
         "host_wifi_title": "主 Wi-Fi",
         "guest_wifi_title": "访客 Wi-Fi",
-        "switch_label": "切换至",
-        "switch_time_label": "切换时间",
-        "restore_label": "恢复至",
-        "restore_time_label": "恢复时间",
+        "switch_label": "设置为",
+        "switch_time_label": "切换",
+        "restore_label": "设置为",
+        "restore_time_label": "恢复",
         "wifi_title": "定时切换 $$$$ Wi-Fi 状态",
-        "led_title": "定时切换 LED 开闭"
+        "led_title": "定时切换 LED 开闭",
+        "enable_scheduled_label": "启用定时任务"
     }
 }
