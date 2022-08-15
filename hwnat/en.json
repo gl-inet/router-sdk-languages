@@ -1,7 +1,7 @@
 {
-    "menu_hwnat": " ",
+    "menu_hwnat": "Hardware Acceleration",
     "hwnat": {
-        "desc": " ",
-        "tips": " "
+        "desc": "Hardware acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.",
+        "tips": "When hardware acceleration is on, the following functions will not work properly: Port Forwards, Client Speed Limit, VPN."
     }
 }
