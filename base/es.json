@@ -63,7 +63,8 @@
         "action": "Acción",
         "enable": "Activar",
         "continue": "Continuar",
-        "router_time": "Hora del router"
+        "router_time": "Hora del router",
+        "learn_more": "Más información"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o no conectado!",
@@ -85,5 +86,11 @@
         "wednesday": "Mi",
         "friday": "Vi",
         "saturday": "Sá"
+    },
+    "internet": {
+        "lan_ip_tips": "La subred de LAN está en conflicto con la subred de WAN, por favor $$$$Cambia la subred de LAN$$$$ a una dirección diferente.",
+        "getting": "Obteniendo…",
+        "connecting": "Conectando...…",
+        "guest_ip_tips": "La subred de invitados está en conflicto con la subred WAN, por favor $$$$Cambia la subred de invitados$$$$ a una dirección diferente."
     }
 }
