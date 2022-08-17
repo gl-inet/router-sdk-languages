@@ -63,7 +63,8 @@
         "port": "Port",
         "action": "Action",
         "continue": "Continue",
-        "router_time": "Router Time"
+        "router_time": "Router Time",
+        "learn_more": "Learn More"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -85,5 +86,12 @@
         "thursday": "Th",
         "friday": "Fr",
         "saturday": "Sa"
+    },
+    "internet": {
+        "connected": "Connected",
+        "lan_ip_tips": "LAN subnet is in conflict with the WAN subnet, Please $$$$Change LAN Subnet$$$$ to a different address.",
+        "getting": "Getting…",
+        "connecting": "Connecting…",
+        "guest_ip_tips": "Guest subnet is in conflict with the WAN subnet, Please $$$$Change Guest Subnet$$$$ to a different address."
     }
 }
