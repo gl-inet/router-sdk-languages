@@ -62,7 +62,8 @@
         "port": "ポート",
         "enable": "開く",
         "action": "操作",
-        "continue": "続けて"
+        "continue": "続けて",
+        "learn_more": "もっと多く"
     },
     "msg": {
         "access_denied": "エラー: 無効なユーザーか、ログイン権限がない、もしくは拒否されました！",
@@ -74,5 +75,10 @@
         "interface_timeout": "タイムアウト。ネットワーク環境をチェックしたり、デバイスを再起動してください。",
         "operation_not_finished": "現在の操作が完了するまで待ってください。",
         "uninstalling": "アンインストール中、少々お待ちください…"
+    },
+    "internet": {
+        "lan_ip_tips": "LANサブネットとWANサブネットはコンフリクトしています。$$$$はLAN IP$$$$を別のIPアドレスに変更してください。",
+        "getting": "取得中…",
+        "connecting": "接続中…"
     }
 }
