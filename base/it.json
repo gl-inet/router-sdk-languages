@@ -63,7 +63,8 @@
         "action": "Azione",
         "enable": "Abilita",
         "continue": "Continua",
-        "router_time": "Tempo del Router"
+        "router_time": "Tempo del Router",
+        "learn_more": "Dimmi di più"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -85,5 +86,11 @@
         "thursday": "Gio",
         "friday": "Ven",
         "saturday": "Sab"
+    },
+    "internet": {
+        "lan_ip_tips": "La sottorete LAN è in conflitto con la sottorete WAN, si prega di $$$$ modificare la sottorete LAN$$$$ con un altro indirizzo.",
+        "getting": "ci siamo…",
+        "connecting": "In Connessione…",
+        "guest_ip_tips": "La sottorete ospite è in conflitto con la sottorete WAN, si prega di $$$$cambiare la sottorete ospite$$$$ con un altro indirizzo."
     }
 }
