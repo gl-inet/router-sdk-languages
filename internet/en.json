@@ -11,7 +11,8 @@
         "repeated": "Connected successfully without having to reconnect",
         "pppoe_log": "PPPoE Connet Log",
         "setting": "Ethernet Settings",
-        "dhcp_tips": "IP address assigned by higher network machine."
+        "dhcp_tips": "IP address assigned by higher network machine.",
+        "pppoe_vlanid_tips": "输入VLAN ID后可以自动创建一个VLAN并通过连接WAN口进行上网。"
     },
     "tethering": {
         "title": "Tethering",
