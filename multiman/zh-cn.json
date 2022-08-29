@@ -1,0 +1,29 @@
+{
+    "menu_multiwan": "多线负载",
+    "multiwan": {
+        "tips": "路由器支持同时配置多条联网线路，您可以在此配置如何使用。",
+        "failover_desc": "故障转移：当正在使用的线路故障时，路由器会自动切换到另一条线路。",
+        "balancing_desc": "均衡负载：同时使用多条线路来提升路由器的总带宽。",
+        "mode_label": "模式",
+        "mode_failover_tips": "路由器会自动选择优先级最高的可用线路。",
+        "mode_balancing_tips": "系统会按负载比例来为新建立的连接分配线路。",
+        "mode_balancing_note": "注意：这并不能保证存活的连接或流量按照负载比例来分配。",
+        "failover_label": "故障转移",
+        "balancing_label": "负载均衡",
+        "track_title": "线路状态监测方式",
+        "physical_state_monitor": "物理状态监测",
+        "priority_title": "线路优先值",
+        "ratio_title": "负载比例",
+        "track_desc": " 路由器将通过监测和目标 IP 的连接状态，来判断接口是否可用。",
+        "track_enable_tips": "如果不启用网络状态监测则启用物理状态监测。",
+        "track_proto_label": "检测协议",
+        "track_method_label": "检测命令",
+        "interval_label": "检测间隔",
+        "fault_condition_label": "变更为故障状态条件",
+        "available_condition_label": "变更为可用状态条件",
+        "success_count": "成功 $$$$ 次",
+        "fault_count": "失败 $$$$ 次",
+        "track_addr_label": "检测地址",
+        "both_label": "同时"
+    }
+}
