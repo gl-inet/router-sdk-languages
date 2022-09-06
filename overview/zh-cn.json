@@ -29,7 +29,11 @@
         "charge_cnt_label": "充电循环",
         "free_of": "$$$$ 可用，共 $$$$",
         "no_data": "暂无数据",
-        "memory_tips": "此处显示的内存是 Linux 系统可用的内存。由于部分内存会被分配给 Wi-Fi 子系统或其它引导区，此处的总内存会小于物理内存。"
+        "memory_tips": "此处显示的内存是 Linux 系统可用的内存。由于部分内存会被分配给 Wi-Fi 子系统或其它引导区，此处的总内存会小于物理内存。",
+        "temperature_threshold_warning": "设置为这个阈值，风扇可能一直启动。",
+        "temperature_threshold_label": "温度阈值",
+        "fan_setting_tips": "风扇启动的CPU温度阈值是$$$$ ~ $$$$ 。",
+        "fan_setting_title": "风扇设置"
     },
     "menu_overview": "概要"
 }
