@@ -1,7 +1,6 @@
 {
     "edgerouter": {
         "desc": "El modo de usurpación de puerta de enlace es una forma simple de conectar el router la red existente. En este modo, no es necesario modificar la topología de red para beneficiarse de todas las funciones del router.",
-        "connect_tips": "Cómo connectar el router: Connectar el puerto WAN a un puerto LAN del router principal.",
         "test_tips": "Comprobar: La dirección IP y DNS de los dispositivos cliente no cambia. Es posible utilizar traceroute (Linux) o tracert (Windows) para comprobar que los datos pasan a través del router usurpador.",
         "enable_label": "Activar modo de usurpación de puerta de enlace",
         "cookies_dns_label": "Forzar el uso del DNS en el modo usurpación de puerta de enlace",
