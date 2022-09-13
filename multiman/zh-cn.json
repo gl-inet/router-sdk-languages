@@ -24,6 +24,8 @@
         "success_count": "成功 $$$$ 次",
         "fault_count": "失败 $$$$ 次",
         "track_addr_label": "检测 IP",
-        "both_label": "同时"
+        "both_label": "同时",
+        "flush_track_label": "强制切换接口",
+        "flush_track_tips": "若此选项启用，当联网接口发生变化时，路由器将刷新所有已建立的连接，以确保它们使用优先级更高的接口。这可以避免不必要的流量损失，但也会导致网络波动增大（一些 VPN 可能无法立即重连）。"
     }
 }
