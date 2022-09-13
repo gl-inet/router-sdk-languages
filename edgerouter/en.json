@@ -1,7 +1,7 @@
 {
     "menu_edgerouter": "Drop-in Gateway Mode",
     "edgerouter": {
-        "desc": "旁路由模式是一种特殊的网络连接方式，它可以对你路由器进行扩展。具体功能请查看$$$$旁路由拓扑图$$$$。",
+        "desc": "In drop-in gateway mode, the router will use ARP spoofing to let clients on the LAN to use it as the gateway. For details, please view $$$$ Drop-in Gateway Topology $$$$. You can use this mode to extend the functionality of your primary route.",
         "enable_label": "Enable Drop-in Gateway Mode",
         "cookies_dns_label": "Force the use of Drop-In Gateway Mode DNS",
         "cookies_dns_tips": "This option forces the use of The Drop-in Gateway Mode DNS when on and the primary router DNS when off.",
