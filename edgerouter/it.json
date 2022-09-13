@@ -1,7 +1,6 @@
 {
     "edgerouter": {
         "desc": "La modalità Drop-in Gateway è un modo semplice per connettere il router alla tua rete. In questa modalità non hai bisogno di modificare la topologia della tua rete per poter usare tutte le funzionalità del router.",
-        "test_tips": "Come testare: L'indirizzo IP e i DNS dei dispositivi client non cambieranno. Puoi usare traceroute (Linux) o tracert (Windows) per verificare che i tuoi dati passino attraverso il Drop-in gateway.",
         "enable_label": "Abilita la modalità Drop-in Gateway",
         "cookies_dns_label": "Forza l'uso dei DNS in modalità Drop-in gateway",
         "cookies_dns_tips": "Questa opzione forza l'uso dei DNS Drop-in Gateway quando abilitata, se spenta userà i DNS del router primario.",

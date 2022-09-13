@@ -2,7 +2,6 @@
     "menu_edgerouter": "旁路由",
     "edgerouter": {
         "desc": "旁路由模式是一种特殊的网络连接方式，它可以对你路由器进行扩展。具体功能请查看$$$$旁路由拓扑图$$$$。",
-        "test_tips": "连接测试：已存在局域网中的设备 IP 地址和 DNS 设置不会发生任何变化，但数据流会先经过旁路由，然后到达主路由，可以用 tracerout 等工具检查。",
         "enable_label": "启用旁路由模式",
         "cookies_dns_label": "强制使用旁路由的 DNS",
         "cookies_dns_tips": "此选项开启后强制使用旁路由 DNS，关闭时则使用主路由 DNS。",
