@@ -2,7 +2,6 @@
     "menu_edgerouter": "Drop-in Gateway Mode",
     "edgerouter": {
         "desc": "旁路由模式是一种特殊的网络连接方式，它可以对你路由器进行扩展。具体功能请查看$$$$旁路由拓扑图$$$$。",
-        "test_tips": "How to test: The IP address and DNS of the client devices will not change. You can use traceroute (Linux) or tracert (Windows) to check your data flow goes to the Drop-in Gateway.",
         "enable_label": "Enable Drop-in Gateway Mode",
         "cookies_dns_label": "Force the use of Drop-In Gateway Mode DNS",
         "cookies_dns_tips": "This option forces the use of The Drop-in Gateway Mode DNS when on and the primary router DNS when off.",
