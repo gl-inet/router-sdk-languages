@@ -25,7 +25,7 @@
         "fault_count": "Fail $$$$ times",
         "track_addr_label": "Track IP",
         "both_label": "Both",
-        "flush_track_tips": "flush_track_tips",
+        "flush_track_tips": "If this option is enabled, when the networking interface changes, the router will refresh all existing connections to ensure they use the higher priority interface. This avoids unnecessary traffic loss, but can also lead to increased network volatility (some VPNs may not reconnect immediately).",
         "flush_track_label": "Flush Track"
     }
 }
