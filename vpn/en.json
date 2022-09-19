@@ -233,7 +233,9 @@
         "following_domain_label": "Accessing Following Domain/IP",
         "following_mac_label": "Traffic from Following Device",
         "domain_required_tips": "Using the current list, you must add a domain name or IP",
-        "mac_required_tips": "Using the current list, you must add a device"
+        "mac_required_tips": "Using the current list, you must add a device",
+        "enable_vpn_cascading": "Enable VPN Cascading",
+        "enable_vpn_cascading_tips": "If this option is enabled, if you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. This is also called VPN cascading."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
