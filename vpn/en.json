@@ -233,7 +233,9 @@
         "following_domain_label": "Accessing Following Domain/IP",
         "following_mac_label": "Traffic from Following Device",
         "domain_required_tips": "Using the current list, you must add a domain name or IP",
-        "mac_required_tips": "Using the current list, you must add a device"
+        "mac_required_tips": "Using the current list, you must add a device",
+        "forwarding_via_client": "Forwarding via VPN Client",
+        "forwarding_via_client_tips": "通过 VPN Client 转发"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
