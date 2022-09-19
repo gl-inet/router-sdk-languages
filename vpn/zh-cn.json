@@ -233,7 +233,9 @@
         "mac_required_tips": "使用当前列表时，你必须添加一个设备",
         "domain_required_tips": "使用当前列表时，你必须添加一个域名或 IP",
         "following_mac_label": "来自跟随设备的流量",
-        "following_domain_label": "访问下列域名/IP时"
+        "following_domain_label": "访问下列域名/IP时",
+        "forwarding_via_client": "转发到 VPN 客户端通道",
+        "forwarding_via_client_tips": "若此选项启用，来自 VPN 服务端所在虚拟网络的流量，将通过路由器上运行的 VPN 客户端进行转发。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
