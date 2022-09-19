@@ -60,7 +60,7 @@
         "account": "Account",
         "password": "Password",
         "get_third": "Save Credentials & Get Servers",
-        "upload_tips": "Please find compatible WireGuard service providers. Learn about the benefits of $$$$using a VPN on the Router$$$$.",
+        "upload_tips": "Please visit $$$$ VPN on Router $$$$ to view OpenVPN compatible VPN service providers and learn about the benefits of using VPN.",
         "upload_desc": "Follow your VPN service provider's guide, download the WireGuard configuration file, and import the configuration file to the router.",
         "verifying": "Verifying…",
         "passed_tips": "$$$$ valid configurations have been resolved",
@@ -234,8 +234,8 @@
         "following_mac_label": "Traffic from Following Device",
         "domain_required_tips": "Using the current list, you must add a domain name or IP",
         "mac_required_tips": "Using the current list, you must add a device",
-        "forwarding_via_client": "Forwarding via VPN Client",
-        "forwarding_via_client_tips": "通过 VPN Client 转发"
+        "forwarding_via_client": "Forwarding to VPN Client Tunnel",
+        "forwarding_via_client_tips": "If this option is enabled, traffic from the virtual network where the VPN server is located will be forwarded through the VPN client running on the router."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
