@@ -1,6 +1,14 @@
 {
     "timedtask": {
         "reboot_time_label": "Tempo di Reboot",
-        "reboot_title": "Pianificazione Reboot"
-    }
+        "reboot_title": "Pianificazione Reboot",
+        "on_time_label": "Tempo di Accensione",
+        "wifi_turn_onoff_label": "Accensione/Spegnimento",
+        "off_time_label": "Tempo di Spegnimento",
+        "wifi_mode_label": "Modalità Programmata Wi-Fi",
+        "wifi_power_switch_label": "Interruttore di Potenza TX",
+        "enable_wifi_label": "Abilitare la Programmazione Wi-Fi Principale",
+        "desc": "Se il dispositivo viene spento all'ora impostata, l'attività non verrà eseguito."
+    },
+    "menu_timedtask": "Attività Pianificate"
 }
