@@ -1,6 +1,6 @@
 {
     "edgerouter": {
-        "desc": "La modalità Drop-in Gateway è un modo semplice per connettere il router alla tua rete. In questa modalità non hai bisogno di modificare la topologia della tua rete per poter usare tutte le funzionalità del router.",
+        "desc": "In modalità drop-in gateway, il router utilizza l'ARP spoofing per consentire ai client della LAN di utilizzarlo come gateway. Per ulteriori informazioni, consultare $$$$ Drop-in Gateway Topology $$$$. È possibile usare questa modalità per estendere la funzionalità del percorso primario.",
         "enable_label": "Abilita la modalità Drop-in Gateway",
         "cookies_dns_label": "Forza l'uso dei DNS in modalità Drop-in gateway",
         "cookies_dns_tips": "Questa opzione forza l'uso dei DNS Drop-in Gateway quando abilitata, se spenta userà i DNS del router primario.",
