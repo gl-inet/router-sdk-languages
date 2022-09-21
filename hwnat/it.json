@@ -1,1 +1,7 @@
-{}
+{
+    "menu_hwnat": "Accelerazione Hardware",
+    "hwnat": {
+        "desc": "L'accelerazione hardware riduce il carico della CPU e velocizza l'inoltro dei pacchetti di traffico, ma può entrare in conflitto con alcune funzioni.",
+        "tips": "Quando l'accelerazione hardware è attiva, le seguenti funzioni non funzionano correttamente: Inoltro porte, Limite velocità client, VPN."
+    }
+}
