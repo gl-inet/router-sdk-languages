@@ -236,7 +236,7 @@
         "mac_required_tips": "Using the current list, you must add a device",
         "enable_vpn_cascading": "Enable VPN Cascading",
         "enable_vpn_cascading_tips": "If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. This is also called VPN cascading.",
-        "auth_conflict_tips": "验证方式冲突"
+        "auth_conflict_tips": "The authentication methods used by the profiles in a group must be the same. Please upload different files from providers to different groups separately."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
