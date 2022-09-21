@@ -235,7 +235,8 @@
         "following_mac_label": "来自跟随设备的流量",
         "following_domain_label": "访问下列域名/IP时",
         "enable_vpn_cascading": "启用 VPN 级联",
-        "enable_vpn_cascading_tips": "若该选项启用，当您在该路由器上同时运行 VPN 服务器和 VPN 客户端的情况下，连接到 VPN 服务器的终端将被直接路由到 VPN 客户端隧道。这也被称为VPN级联。"
+        "enable_vpn_cascading_tips": "若该选项启用，当您在该路由器上同时运行 VPN 服务器和 VPN 客户端的情况下，连接到 VPN 服务器的终端将被直接路由到 VPN 客户端隧道。这也被称为VPN级联。",
+        "auth_conflict_tips": "同一个组中的配置文件使用的验证方式必须相同。请将不同来自供应商文件分开上传到不同的组。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
