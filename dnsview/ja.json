@@ -25,7 +25,7 @@
         "select_filter_label": "フィルター",
         "select_nofilter_label": "フィルターなし",
         "select_nodnssec_label": "DNSSECなし",
-        "desc": "カスタムDNSサーバーを設定すると、すべてのDNS請求は、wan、リピータ、セルラー、ホットスポット共有、VPN設定のDNSサーバーから取得するのではなく、ここで設定したDNSサーバーを経由して解決されるようになります。",
+        "desc": "カスタムDNSサーバーを設定すると、すべてのDNS請求はイーサネット、リピータ、セルラーネットワーク、テザリングまたはVPN設定のDNSサーバーから取得するのではなく、ここで設定されたDNSサーバーを経由して解決されるようになります。",
         "edit_host_btn": "編集 Hosts",
         "set_dns_server_title": "DNS　サーバ設定",
         "v1_tips": "ルーターは、DNSのv1バージョンを使用します。一部の暗号化されたDNSサーバーのみサポートされています。",
