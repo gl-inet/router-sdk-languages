@@ -1,1 +1,13 @@
-{}
+{
+    "multiwan": {
+        "balancing_desc": "Bilanciamento del Carico: Usare più interfacce contemporaneamente per aumentare la larghezza di banda totale del router.",
+        "mode_label": "Modalità",
+        "mode_failover_tips": "Il router seleziona automaticamente l'interfaccia disponibile con la priorità più alta.",
+        "mode_balancing_tips": "Il sistema assegnerà le interfacce alle nuove connessioni in base al rapporto di carico.",
+        "mode_balancing_note": "Nota: Non è garantito che le connessioni o il traffico in tempo reale corrispondano al rapporto di carico.",
+        "failover_label": "Failover",
+        "failover_desc": "Failover: Quando l'interfaccia utilizzata si guasta, il router passa automaticamente a un'altra interfaccia.",
+        "tips": "Il router supporta la connessione di più interfacce di rete contemporaneamente. È possibile stabilire come usarlo."
+    },
+    "menu_multiwan": "Multi-WAN"
+}
