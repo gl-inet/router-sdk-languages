@@ -7,7 +7,20 @@
         "mode_balancing_note": "Nota: Non è garantito che le connessioni o il traffico in tempo reale corrispondano al rapporto di carico.",
         "failover_label": "Failover",
         "failover_desc": "Failover: Quando l'interfaccia utilizzata si guasta, il router passa automaticamente a un'altra interfaccia.",
-        "tips": "Il router supporta la connessione di più interfacce di rete contemporaneamente. È possibile stabilire come usarlo."
+        "tips": "Il router supporta la connessione di più interfacce di rete contemporaneamente. È possibile stabilire come usarlo.",
+        "balancing_label": "Bilanciamento del Carico",
+        "track_title": "Metodo di Monitoraggio dello Stato dell'Interfaccia",
+        "physical_state_monitor": "Seguire il collegamento fisico",
+        "priority_title": "Priorità dell'Interfaccia",
+        "ratio_title": "Rapporto di Carico",
+        "track_enable_tips": "Se il tracciamento è disabilitato, lo stato di disponibilità dell'interfaccia rimarrà uguale a quello della connessione fisica.",
+        "track_proto_label": "Protocollo di Traccia",
+        "track_method_label": "Comando della Traccia",
+        "interval_label": "Intervallo di Tracciamento",
+        "fault_condition_label": "Modifica della Condizione di Guasto",
+        "available_condition_label": "Modifica delle Condizioni Disponibili",
+        "success_count": "Successo $$$$ Volte",
+        "track_desc": "Il router tiene traccia dello stato della connessione all'IP di destinazione per determinare se l'interfaccia è disponibile."
     },
     "menu_multiwan": "Multi-WAN"
 }
