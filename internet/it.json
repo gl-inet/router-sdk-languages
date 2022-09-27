@@ -1,6 +1,6 @@
 {
     "cable": {
-        "title": "Cavo Ethernet",
+        "title": "Ethernet",
         "no_wan": "Nessun cavo rilevato nella porta WAN. Si prega di inserire un cavo ethernet.",
         "rm_wan_cable": "Si prega di rimuovere il cavo ethernet dalla porta WAN.",
         "wan_been_lan": "La porta WAN è stata impostata come LAN. Puoi ritornare alla modalità WAN",
@@ -11,10 +11,11 @@
         "using_as_wan": "In uso come WAN, $$$$ Passa a LAN$$$$",
         "pppoe_log": "log di connessione PPPoE",
         "setting": "Impostazioni Ethernet",
-        "dhcp_tips": "Indirizzo IP assegnato dalla macchina di rete superiore."
+        "dhcp_tips": "Indirizzo IP assegnato dalla macchina di rete superiore.",
+        "pppoe_vlanid_tips": "Questa impostazione è richiesta solamente se il server PPPoE del provider richiede che l'interfaccia usi uno specifico tag VLAN ID."
     },
     "tethering": {
-        "title": "Tethering",
+        "title": "Accoppiamento",
         "device": "Dispositivo",
         "no_device_tips": "Nessun dispositivo Tethering trovato, per iniziare collega lo smartphone o il Modem USB."
     },
@@ -30,7 +31,7 @@
         "join_other": "Unisciti ad un'altra rete",
         "ssid": "SSID",
         "encryption": "Sicurezza",
-        "identity": "Username",
+        "identity": "Nome utente",
         "key": "Password",
         "remember": "Salva",
         "lock_bssid": "Blocca BSSID",
@@ -131,7 +132,21 @@
         "send_error_msg3": "Impossibile inviare.",
         "send_error_msg4": "Timeout di invio.",
         "send_error_msg5": "Il dispositivo non supporta la funzione SMS.",
-        "send_error_msg6": "L'attuale ambiente di rete non supporta la funzione SMS."
+        "send_error_msg6": "L'attuale ambiente di rete non supporta la funzione SMS.",
+        "forward_email_account_label": "Nome Utente",
+        "forward_smtp_title": "Casella email mittente (SMTP)",
+        "forward_encryp_label": "Metodo di criptazione",
+        "forward_smtp_server_label": "Indirizzo server SMTP",
+        "forward_phone_tips": "Se vuoi che il router inoltri gli SMS al tuo cellulare, assicurati che la rete mobile sia disponibile e supporti l'invio di SMS.",
+        "forward_no_encryp_label": "nessuno",
+        "forward_email_subject_tips": "Tu puoi personalizzare il soggetto così da distinguere da quale numero telefonico hai ricevuto SMS.",
+        "forward_email_subject_label": "Soggetto",
+        "forward_email_list_title": "Indirizzo email destinatario",
+        "forward_add_email_btn": "Aggiungi Email",
+        "forward_add_phone_btn": "Aggiungi numero telefonico",
+        "forward_title": "Inoltro SMS",
+        "forward_email_label": "Email",
+        "forward_email_tips": "Se vuoi inoltrare SMS via email, per favore seleziona prima l'indirizzo email mittente, sarà usato per inviare SMS all'indirizzo email destinatario"
     },
     "modemmanage": {
         "title": "Gestione",
@@ -146,8 +161,8 @@
         "success_copy": "Copia riuscita",
         "reboot_sucess": "Riuscito, aspettare $$$$ secondi per favore.",
         "info": "Informazioni sul Modem",
-        "soft_reset": "Soft Reboot",
-        "hardware _reset": "Hard Reboot",
+        "soft_reset": "Riavvio soft",
+        "hardware _reset": "Riavvio hard",
         "export_debug_info": "Esporta informazioni di debug"
     },
     "menu_internet": "Internet"
