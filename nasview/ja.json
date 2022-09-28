@@ -26,7 +26,7 @@
         "share_name_label": "シェア名",
         "remove_all_share_caution": "共有フォルダをすべて削除しますか?",
         "remove_share_caution": "この共有フォルダを削除しますか?",
-        "user_manage_tips": "一部のプロトコル(Samba/WebDav)にとっては、共有フォルダごとにユーザー権限を個別に設定できます。",
+        "user_manage_tips": "一部のプロトコル(Samba/WebDAV)にとっては、共有フォルダごとにユーザー権限を個別に設定できます。",
         "set_password_title": "パスワードを変更",
         "remove_all_user_caution": "すべてのユーザーを削除しますか?",
         "remove_user_caution": "このユーザーを削除しますか?",
@@ -41,7 +41,12 @@
         "other_share_proto_btn": "添加別のシェア協議",
         "share_path_label": "シェア経路",
         "share_proto_label": "シェアプロトコル",
-        "eject_disk_caution": "本当にディスクを取り出しますか？ 他の人があなたの共有ファイルを使用している場合、その人のブラウジング、アップロード、ダウンロードが中断される可能性があります。"
+        "eject_disk_caution": "本当にディスクを取り出しますか？ 他の人があなたの共有ファイルを使用している場合、その人のブラウジング、アップロード、ダウンロードが中断される可能性があります。",
+        "fast_share_btn": "クイックセットアップ共有",
+        "no_disk_tips": "最初にストレージ デバイスを挿入してください",
+        "no_user_tips": "少なくとも1つの書き込み可能なユーザーまたは読み取り専用ユーザーを選択してください。",
+        "later_add_btn": "後で追加",
+        "share_link_tips": "フォルダは共有されています。以下のリンクから、フォルダをネットワークディスクとしてPCやPhoneにマウントします。$$$$セットアップガイド$$$$"
     },
     "menu_nasview": "ネット　ストレージ"
 }
