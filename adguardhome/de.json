@@ -1,16 +1,16 @@
 {
-    "adguardhome": {
-        "desc": "AdGuard Home ist eine netzwerkweite Software zum Blockieren von Anzeigen und Tracking. Nachdem Sie sie eingerichtet haben, werden ALLE Ihre Heimgeräte berücksichtigt, und Sie benötigen dafür keine clientseitige Software. Auf dieser Seite werden Statistiken über die von Adguard Home bereitgestellte API abgerufen.",
-        "tips": "Wenn Sie eine erweiterte Konfiguration für AdguardHome vornehmen müssen, gehen Sie bitte zu $$$$Einstellungsseite$$$$.",
-        "top_queried_domain": "Meist abgefragte Domains",
-        "top_blocked_domain": "Meist blockierte Domains",
-        "dns_querie_title": "DNS-Abfragen",
-        "blocked_filtering_title": "Geblockt durch Filter",
-        "replaced_safebrowsing_title": "Blockierte Malware/Phishing",
-        "replaced_parental_title": "Blockierte Erwachsenen-Webseiten",
-        "for_last_days": "in den letzten $$$$ Tage",
-        "domain_th": "Domain",
-        "request_th": "Anzahl der Anfragen",
-        "for_last_one_day": "für die letzten 24 Stunden"
-    }
+"adguardhome": {
+"desc": "AdGuard Home ist eine netzwerkweite Software zum Blockieren von Anzeigen und Tracking. Nachdem Sie sie eingerichtet haben, werden ALLE Ihre Heimgeräte berücksichtigt und Sie benötigen dafür keine clientseitige Software. Diese Seite bezieht ihre Statistiken von der Adguard Home API. Wenn AdGuard Home eingeschaltet ist erzwingt der Router die Nutzung der von AdGuard Home bereitgestellten DNS Server.",
+"tips": "Wenn Sie eine erweiterte Konfiguration für Adguard Home vornehmen müssen gehen Sie bitte zur $$$$Einstellungsseite$$$$.",
+"top_queried_domain": "Meist abgefragte Domains",
+"top_blocked_domain": "Meist blockierte Domains",
+"dns_querie_title": "DNS-Abfragen",
+"blocked_filtering_title": "Geblockt durch Filter",
+"replaced_safebrowsing_title": "Blockierte Malware/Phishing",
+"replaced_parental_title": "Blockierte Erwachsenen-Webseiten",
+"for_last_days": "in den letzten $$$$ Tage",
+"domain_th": "Domain",
+"request_th": "Anzahl der Anfragen",
+"for_last_one_day": "für die letzten 24 Stunden"
+}
 }
