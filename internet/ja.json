@@ -11,7 +11,8 @@
         "pppoe_log": "PPPoE接続ログ",
         "setting": "イーサネット設定",
         "using_as_lan": "LANとして使用中、$$$$はWAN$$$$に変更する",
-        "using_as_wan": "WANとして使用中、$$$$はLAN$$$$に変更する"
+        "using_as_wan": "WANとして使用中、$$$$はLAN$$$$に変更する",
+        "pppoe_vlanid_tips": "この設定エントリは、プロバイダーの PPPoE サーバーがインターフェイスでタグ付きの特定の VLAN ID を使用する必要がある場合のみ必要です。"
     },
     "tethering": {
         "title": "テザリング",
@@ -148,7 +149,21 @@
         "send_error_msg4": "送信タイムアウト。",
         "send_error_msg5": "デバイスはメッセージ機能が対応できません。",
         "send_error_msg6": "現時点のネット環境は、SMS機能をサポートしていません。",
-        "send_error_msg1": "Modemが検出されません。"
+        "send_error_msg1": "Modemが検出されません。",
+        "forward_email_subject_tips": "SMS を受信した電話番号を区別できるように、件名をカスタマイズできます。",
+        "forward_phone_tips": "ルーターで SMS を携帯電話に転送する場合は、モバイル ネットワークが利用可能であり、SMS の送信をサポートしていることをご確認ください。",
+        "forward_smtp_title": "送信者メールボックス (SMTP)",
+        "forward_email_tips": "SMS をメールに転送する場合は、最初に送信者のメールを設定ください。SMS をターゲットのメールに送信するために使用されます。 $$$$詳細$$$$",
+        "forward_title": "SMS転送",
+        "forward_email_label": "Eメール",
+        "forward_smtp_server_label": "SMTP サーバーアドレス",
+        "forward_encryp_label": "暗号化方法",
+        "forward_email_account_label": "ユーザー名",
+        "forward_email_subject_label": "テーマ",
+        "forward_email_list_title": "ターゲットメール",
+        "forward_add_email_btn": "メールを追加",
+        "forward_add_phone_btn": "電話番号を追加",
+        "forward_no_encryp_label": "なし"
     },
     "menu_internet": "インターネット"
 }
