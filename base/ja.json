@@ -64,7 +64,9 @@
         "action": "操作",
         "continue": "続けて",
         "learn_more": "もっと多く",
-        "router_time": "ルータ時間"
+        "router_time": "ルータ時間",
+        "auto": "オート",
+        "edit": "エディット"
     },
     "msg": {
         "access_denied": "エラー: 無効なユーザーか、ログイン権限がない、もしくは拒否されました！",
@@ -80,6 +82,21 @@
     "internet": {
         "lan_ip_tips": "LANサブネットとWANサブネットはコンフリクトしています。$$$$はLAN IP$$$$を別のIPアドレスに変更してください。",
         "getting": "取得中…",
-        "connecting": "接続中…"
+        "connecting": "接続中…",
+        "connected": "接続済み",
+        "guest_ip_tips": "ゲスト サブネットは WAN サブネットと競合しています。$$$$ゲスト サブネット$$$$を別のアドレスに変更ください。",
+        "up_not_online_tips": "インターフェイスは接続されていますが、$$$$ プロトコルでインターネットにアクセスできません。"
+    },
+    "date": {
+        "day": "日付",
+        "sunday": "日",
+        "saturday": "土",
+        "monday": "月",
+        "tuesday": "火",
+        "wednesday": "水",
+        "thursday": "木",
+        "friday": "金",
+        "second": "{count} 秒 | {count}秒",
+        "min": "{count} 分 | {count} 分"
     }
 }
