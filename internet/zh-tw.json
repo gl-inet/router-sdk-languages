@@ -11,7 +11,8 @@
         "using_as_wan": "正在作為WAN埠使用，$$$$切換至LAN埠$$$$",
         "pppoe_log": "PPPoE連接日誌",
         "setting": "有線網絡設置",
-        "dhcp_tips": "由上級網絡主機分配IP。"
+        "dhcp_tips": "由上級網絡主機分配IP。",
+        "pppoe_vlanid_tips": "此配置項僅在供應商的 PPPoE 伺服器要求接口使用已標記的特定 VLAN ID 時才需要輸入。"
     },
     "tethering": {
         "title": "熱點分享",
@@ -148,7 +149,21 @@
         "send_error_msg2": "未知錯誤。",
         "send_error_msg3": "發送失敗。",
         "send_error_msg5": "當前設備不支持短信功能。",
-        "send_error_msg6": "當前網絡環境不支持短信功能。"
+        "send_error_msg6": "當前網絡環境不支持短信功能。",
+        "forward_email_tips": "如果要將短信轉發到郵箱，請先設置發件人郵箱，這用於向目標郵箱發送短信。 $$$$了解更多$$$$",
+        "forward_smtp_title": "發件人郵箱 (SMTP)",
+        "forward_title": "短信轉發",
+        "forward_email_label": "電子郵件",
+        "forward_smtp_server_label": "SMTP 服務器地址",
+        "forward_encryp_label": "加密方式",
+        "forward_email_account_label": "用戶名",
+        "forward_email_subject_label": "主題",
+        "forward_email_list_title": "目標電子郵件",
+        "forward_add_email_btn": "添加電子郵件",
+        "forward_add_phone_btn": "添加電話號碼",
+        "forward_no_encryp_label": "沒有",
+        "forward_email_subject_tips": "您可以自定義主題，以便區分收到的短信的電話號碼。",
+        "forward_phone_tips": "如果您希望使用路由器將短信轉發到您的手機，請確保您的移動網絡可用並支持發送短信。"
     },
     "menu_internet": "網絡"
 }
