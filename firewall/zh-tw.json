@@ -2,9 +2,9 @@
     "firewall": {
         "port_forwards": "端口轉發",
         "open_ports_on_router": "開放路由器端口",
-        "port_forwards_desc": "端口轉發可以實現廣域網上的用戶訪問本地計算機提供的服務器資源（如web服務器、FTP 服務器等）。",
-        "open_port_on_router_dest": "打開路由器端口可以實現廣域網上的用戶訪問路由器提供的服務器資源（如web服務器、FTP 服務器等）。",
-        "dmz_desc": "DMZ可以將局域網中設置為DMZ的設備完全暴露給廣域網，以實現在對廣域網提供服務的同時，確保局域網內的其它設備的安全。",
+        "port_forwards_desc": "Port Forwarding (端口轉發) 可以實現廣域網上的用戶訪問本地電腦提供的伺服器資源（如web伺服器、FTP 伺服器等）。",
+        "open_port_on_router_dest": "打開路由器端口可以實現廣域網上的用戶訪問路由器提供的伺服器資源（如web伺服器、FTP 伺服器等）。",
+        "dmz_desc": "DMZ可以將局域網中設置為DMZ的設備並完全暴露給廣域網，以實現在對廣域網提供服務的同時，確保局域網內其他設備的安全。",
         "dmz_tips": "開啟DMZ，將導致端口轉發和打開路由端口規則失效。",
         "open_dmz": "開啟DMZ",
         "dmz_host_ip": "DMZ主機IP",
