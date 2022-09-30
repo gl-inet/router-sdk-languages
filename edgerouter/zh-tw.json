@@ -1,1 +1,23 @@
-{}
+{
+    "edgerouter": {
+        "cookies_dns_tips": "此選項開啟後強制使用drop-in gateway (旁路由) DNS，關閉時則使用主路由 DNS。",
+        "not_active": "未啟用",
+        "current_active": "當前啟用中",
+        "cover_mode_label": "設備覆蓋模式",
+        "active_th": "啟用中",
+        "no_active_tips": "該設備從未連接，請檢查設備狀態。",
+        "choose_devices_title": "選項設備",
+        "has_covered_title": "已覆蓋的設備",
+        "scan_devices_title": "新的掃描設備",
+        "remove_device_caution": "是否刪除覆蓋的當前設備",
+        "desc": "在drop-in gateway (旁路由) 模式下，路由器會通過 ARP 欺騙的方式讓局域網中的客戶端將它作為網關。詳情請參考$$$$Drop-in Gateway Topology$$$$。您可以用此模式來擴展您主路由的功能。",
+        "enable_label": "啟用drop-in gateway (旁路由) 模式",
+        "cookies_dns_label": "強制使用drop-in gateway (旁路由)的 DNS",
+        "global_label": "全部覆蓋",
+        "part_label": "部份覆蓋",
+        "devices_title": "設備列表",
+        "manage_device_btn": "管理設備",
+        "scan_device_warning": "您需要使用以太網連接到主路由才能使用drop-in gateway (旁路由) 模式。"
+    },
+    "menu_edgerouter": "Drop-in Gateway (旁路由) 模式"
+}
