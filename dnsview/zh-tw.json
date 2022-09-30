@@ -9,10 +9,10 @@
         "mode": "模式",
         "proxy_addr_label": "代理服務器地址",
         "encryption_type_label": "加密類型",
-        "server": "服務器",
+        "server": "伺服器",
         "at_least_one_server_tips": "至少選擇一個服務器",
-        "select_server_btn": "選擇服務器",
-        "choose_server_title": "選擇DNS 服務器",
+        "select_server_btn": "選擇伺服器",
+        "choose_server_title": "選擇DNS 伺服器",
         "select_all_label": "所有",
         "select_log_label": "日誌",
         "select_nolog_label": "無日誌",
@@ -30,10 +30,11 @@
         "form_modem_label": "來自行動網絡的 DNS",
         "form_ovpn_label": "來自 OpenVPN 的 DNS",
         "form_wg_label": "來自 WireGuard 的 DNS",
-        "desc": "如果你在此處設置了自定義的 DNS 服務器，任何DNS請求都將優先通過此處設置的 DNS 服務器進行解析，而非從以太網、無線中繼、行動網絡、熱點共享或 VPN 配置中獲取的 DNS 服務器。",
+        "desc": "如果你在此處設置了自定義的 DNS 服務器，任何DNS請求都將優先通過此處設置的 DNS 服務器進行解析，而非從以太網、無線中繼、行動網絡、共享熱點或 VPN 配置中獲取的 DNS 服務器。",
         "server_tips": "您可以選擇最多 8 個服務器。路由器會在其中自動選用最快的服務器。",
         "set_dns_server_title": "DNS 服務器設置",
         "v1_tips": "當前路由器使用的是 v1 版本的DNS 协议，僅支持部分加密 DNS 服務器。",
-        "adguardhome_in_use_tips": "AdGuard Home 已啟用，此路由器必須使用 AdGuard Home 提供的 DNS 服務器，您無法自定義 DNS 服務器。"
+        "adguardhome_in_use_tips": "AdGuard Home 已啟用，此路由器必須使用 AdGuard Home 提供的 DNS 服務器，您無法自定義 DNS 服務器。",
+        "server_warning_tips": "該伺服器可能已過期。"
     }
 }
