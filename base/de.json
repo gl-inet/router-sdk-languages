@@ -5,8 +5,8 @@
         "success": "erfolgreich",
         "reupload": "Datei erneut hochladen",
         "firmware_format_error": "FEHLER: Falsches Firmwareformat!",
-        "error": "FEHLER: Hochladen der Datei fehlgeschlagen!",
-        "format_error": "Datenformatfehler"
+        "error": "Hochladen der Datei fehlgeschlagen.",
+        "format_error": "Datenformatfehler!"
     },
     "core": {
         "protocol": "Protokoll",
@@ -40,14 +40,63 @@
         "refresh": "Aktualisierung",
         "type": "Art",
         "port": "Port",
-        "action": "Aktion"
+        "action": "Aktion",
+        "download": "Herunterladen",
+        "retry": "Wiederholen",
+        "not_allow_weak": "Verhindere schwache Kennworte",
+        "delete_all_caution": "Sind Sie sicher, dass sie alle Einträge löschen wollen?",
+        "clear_all_caution": "Sind Sie sicher, dass sie Alles löschen möchten?",
+        "password_tips": "$$$$ Zeichen und maximal $$$$ Zeichen",
+        "security_password_tips": "Wenigstens 2 Gross- und Kleinbuchstaben, Ziffern und Symbole benötigt",
+        "please_choose": "Bitte auswählen",
+        "reset": "Zurücksetzen",
+        "delete_caution": "Sind Sie sicher, dass sie den Eintrag löschen wollen?",
+        "allow_password_tips": "Buchstaben (Groß-/Kleinschreibung beachten), Ziffern and Symbole $$$$ sind zulässig",
+        "stop": "Stop",
+        "continue": "Weiter",
+        "next": "Nächste(r)",
+        "use_weak_tips": "Schwache Kennwörter sind leicht zu erraten und setzen Ihr Netzwerk außerdem potenziellen Brute-Force-Angriffen aus.",
+        "disable": "Deaktivieren",
+        "router_time": "Routerzeit",
+        "back": "Zurück",
+        "copy": "Kopieren",
+        "options": "Optionen",
+        "admin_panel": "Administrator Schalttafel",
+        "start": "Start",
+        "learn_more": "Mehr erfahren",
+        "enable": "Aktivieren",
+        "auto": "Selbsttätig",
+        "edit": "Bearbeiten"
     },
     "msg": {
-        "access_denied": "FEHLER: Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!"
+        "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
+        "being_process": "Verarbeitung, bitte warten…",
+        "getting": "Abholung, bitte warten…",
+        "operation_not_finished": "Bitte warten Sie, bis die derzeitige Aufgabe beendet ist.",
+        "installing": "Installation, bitte warten…",
+        "uninstalling": "Deinstallation, bitte warten…",
+        "unknown_err": "Unbekannter Fehler aufgetreten. Bitte überprüfen Sie die Netzwerkumgebung oder starten das Gerät neu.",
+        "success": "Erfolg!",
+        "interface_timeout": "Zeitüberschreitung bei der Antwort. Bitte überprüfen Sie die Netzwerkumgebung oder starten das Gerät neu."
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
         "getting": "bekommen…",
-        "connecting": "Verbinden…"
+        "connecting": "Verbinden…",
+        "connected": "Verbunden",
+        "guest_ip_tips": "Das Gast-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die Gast-IP$$$$ in eine andere IP-Adresse.",
+        "up_not_online_tips": "Die Schnittstelle ist verbunden, aber mit dem $$$$ Protokoll kann nicht auf das Internet zugegriffen werden."
+    },
+    "date": {
+        "wednesday": "Mi",
+        "day": "Tag(e)",
+        "sunday": "So",
+        "monday": "Mo",
+        "tuesday": "Di",
+        "thursday": "Do",
+        "friday": "Fr",
+        "saturday": "Sa",
+        "second": "{count} Sekunde| {count} Sekunden",
+        "min": "{count} Minute | {count} Minuten"
     }
 }
