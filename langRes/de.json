@@ -10,13 +10,21 @@
         "password": "Passwort",
         "holder_choose": "Bitte auswählen",
         "access_router": "Zugriff auf Ihren Router",
-        "access_router_wds_tips": "Nach erfolgreicher Überbrückung bezieht der Router automatisch eine IP vom Hauptrouter. Wenn Sie auf die Benutzeroberfläche dieses Routers zugreifen brauchen, müssen Sie die Verbindung mit der vom Hauptrouter erhaltenen IP herstellen. Um diese IP zu erhalten, überprüfen Sie die Liste der verbundenen Clients in der Benutzeroberfläche Ihres Hauptrouters. Wenn Sie keinen Zugriff auf die Benutzeroberfläche des Hauptrouters haben, können Sie den Routing-Modus wiederherstellen, indem Sie die Reset-Taste 4 Sekunden lang gedrückt halten.",
+        "access_router_wds_tips": "Nach erfolgreicher Überbrückung bezieht der Router automatisch eine IP vom Hauptrouter. Wenn Sie auf die Benutzeroberfläche dieses Routers Zugriff brauchen, müssen Sie die Verbindung mit der vom Hauptrouter erhaltenen IP herstellen. Um diese IP zu erhalten, überprüfen Sie die Liste der verbundenen Clients in der Benutzeroberfläche Ihres Hauptrouters. Wenn Sie keinen Zugriff auf die Benutzeroberfläche des Hauptrouters haben, können Sie den Routing-Modus wiederherstellen, indem Sie die Reset-Taste 4 Sekunden lang gedrückt halten.",
         "access_router_ext_tips": "Nach dem erfolgreichen Bridging müssen Sie, wenn Sie auf die Benutzeroberfläche dieses Routers zugreifen müssen, Ihren PC/Ihr Mobiltelefon manuell mit einer statischen IP-Adresse im selben Bereich wie der Router konfigurieren. Wenn Sie immer noch nicht darauf zugreifen können, können Sie den Routing-Modus wiederherstellen, indem Sie die Reset-Taste 4 Sekunden lang gedrückt halten.",
         "reset_mac_tips": "Bitte setzen Sie Ihre MAC auf die Werkseinstellung MAC in MAC klonen zurück.",
         "set_up_ap_tips": "Um ein Access Point aufzustellen, müssen Sie zuerst ein Ethernet-Kabel an den WAN-Port anschließen.",
         "remove_wan_tips": "Bitte entfernen Sie das Internetkabel vom WAN Anschluss.",
         "enter_pwd_tips": "Bitte geben Sie das Passwort ein",
         "choose_ssid_tips": "Bitte SSID auswählen",
-        "relay": "Extender"
-    }
+        "relay": "Extender",
+        "wds_desc": "Ähnlich zum Fall des Extender, wählen Sie bitte WDS, falls ihr Hauptrouter den WDS-Modus untersützt.",
+        "router_desc": "Richten Sie ihr eigenes privates Netzwerk ein. Der Router agiert danach als NAT-, Firewall- und DHCP - Server.",
+        "ap_desc": "Verbinden Sie sich mit einem kabelgebundenem Netzwerk, und strahlen sie ein schnurloses Netzwerk aus.",
+        "relay_desc": "Erweitern sie die WLAN Reichweite eines bestehenden WLANs.",
+        "connet_fail_msg": "Verbindung fehlgeschlagen.",
+        "lan_conflict_msg": "Das lokale Subnetz kollidiert mit dem zu verbindenden WLAN Subnetz: Bitte wählen Sie ein anderes Subnetz.",
+        "get_ip_fail_msg": "Es konnte keine IP Adresse zugeteilt werden."
+    },
+    "menu_bridge": "Netzwerk-Modus"
 }
