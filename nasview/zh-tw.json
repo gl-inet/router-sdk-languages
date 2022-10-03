@@ -22,7 +22,7 @@
         "public_user_label": "可讀寫用戶",
         "readonly_user": "只讀用戶",
         "remove_all_share_caution": "你確認要移除所有分享文件夾嗎？",
-        "user_manage_tips": "對於部分協議(Samba/WebDav)，每個共享文件夾可以單獨設置用戶權限。",
+        "user_manage_tips": "對於部分協議(Samba/WebDAV)，每個共享文件夾可以單獨設置用戶權限。",
         "set_password_title": "修改密碼",
         "remove_all_user_caution": "你確認要移除所有用戶嗎？",
         "remove_user_caution": "你確認要移除該用戶嗎？",
@@ -31,7 +31,7 @@
         "add_user_btn": "添加用戶",
         "no_device": "沒有檢測到設備",
         "nas_tips": "本頁面僅提供共享文件夾管理功能，如果需要管理你存儲設備內的文件，請$$$$使用 App $$$$。",
-        "shared_folder_tips": "你需要開啟對應的文件服務（ Samba/WebDav），才能通過該協議訪問你共享的文件夾。",
+        "shared_folder_tips": "您需要開啟對應的文件服務（ Samba/WebDAV），才能通過該協議訪問您共享的文件夾。",
         "share_link_btn": "分享鏈接",
         "anonymity_label": "匿名訪問",
         "allow_write_label": "允許寫入",
@@ -41,7 +41,12 @@
         "other_share_proto_btn": "添加額外協議",
         "share_path_label": "共享路徑",
         "share_proto_label": "分享協議",
-        "eject_disk_caution": "你確定要彈出磁盤嗎？如果其它人正在使用你共享的文件，他們的瀏覽、上傳和下載將會被中斷。"
+        "eject_disk_caution": "你確定要彈出磁盤嗎？如果其它人正在使用你共享的文件，他們的瀏覽、上傳和下載將會被中斷。",
+        "later_add_btn": "稍後添加",
+        "fast_share_btn": "快速設置共享",
+        "no_disk_tips": "請先插入存儲設備",
+        "share_link_tips": "該文件夾已被共享。使用以下鏈接將該文件夾作為網絡磁盤掛載到你的電腦或手機上。 $$$$設置嚮導$$$$",
+        "no_user_tips": "請至少選擇一個可讀寫用戶或只讀用戶。"
     },
     "menu_nasview": "網絡存儲"
 }
