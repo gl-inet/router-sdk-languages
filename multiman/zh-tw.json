@@ -1,1 +1,31 @@
-{}
+{
+    "multiwan": {
+        "flush_track_tips": "若此選項啟用，當聯網接口發生變化時，路由器將刷新所有已存在的數據流，以確保它們使用優先級更高的接口。這可以避免不必要的流量損失，但也會導致網絡波動增大（一些 VPN 可能無法立即重連）。",
+        "flush_track_label": "強制刷新數據流",
+        "balancing_desc": "均衡負載：同時使用多個接口來提昇路由器的總帶寬。",
+        "mode_label": "模式",
+        "mode_failover_tips": "路由器會自動選擇優先級最高的可用接口。",
+        "failover_label": "故障轉移",
+        "balancing_label": "負載均衡",
+        "track_title": "接口狀態監測方式",
+        "physical_state_monitor": "跟隨物理連接",
+        "tips": "路由器支持同時連接多個聯網接口，您可以在此設置如何使用。",
+        "priority_title": "接口優先級",
+        "ratio_title": "負載比例",
+        "track_desc": "路由器將通過監測和目標 IP 的連接狀態，來判斷接口是否可用。",
+        "track_enable_tips": "如果禁用跟踪，接口可用狀態會和物理連接狀態保持一致。",
+        "track_proto_label": "檢測協議",
+        "track_method_label": "檢測命令",
+        "interval_label": "檢測間隔",
+        "fault_condition_label": "變更為故障狀態條件",
+        "available_condition_label": "變更為可用狀態條件",
+        "success_count": "成功 $$$$ 次",
+        "fault_count": "失敗 $$$$ 次",
+        "track_addr_label": "檢測 IP",
+        "both_label": "同時",
+        "mode_balancing_tips": "系統會按負載比例來為新建立的連接分配接口。",
+        "mode_balancing_note": "注意：這並不能保證存活的連接或流量按照負載比例來分配。",
+        "failover_desc": "故障轉移：當正在使用的接口故障時，路由器會自動切換到另一個接口。"
+    },
+    "menu_multiwan": "多線負載"
+}
