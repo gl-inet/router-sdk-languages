@@ -3,7 +3,7 @@
         "schedule_on_label": "Programación activada",
         "temperature_label": "Temperatura",
         "charge_cnt_label": "Ciclo de carga",
-        "cpu_status_title": "Estado CPU",
+        "cpu_status_title": "Carga media CPU",
         "fan": "Ventilador",
         "memory_title": "Uso de memoria",
         "flash_title": "Flash",
@@ -28,7 +28,15 @@
         "no_data": "Sin datos",
         "led_not_set_tips": "El tiempo del LED no se ha ajustado.",
         "batter_level_label": "Nivel de batería",
-        "hours": "Horas"
+        "hours": "Horas",
+        "memory_cache_label": "Cache",
+        "memory_used_label": "Utilizado",
+        "memory_tips": "La memoria que se muestra aquí es la memoria disponible al sistema Linux. La memoria total será menor que la memoria física porque una parte estará asignada al subsistema inalámbrico o a otras áreas de inicio.",
+        "fan_setting_tips": "El umbral de temperatura CPU para el inicio del ventilador es $$$$ ~ $$$$ .",
+        "temperature_threshold_label": "Umbral de temperatura",
+        "temperature_threshold_warning": "En este valor del umbral, puede que el ventilador esté siempre encendido.",
+        "fan_setting_title": "Configuración del ventilador",
+        "cpu_num": "Core único | {count} cores"
     },
     "menu_overview": "Resumen"
 }
