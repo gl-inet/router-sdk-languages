@@ -1,6 +1,6 @@
 {
     "edgerouter": {
-        "desc": "El modo de usurpación de puerta de enlace es una forma simple de conectar el router la red existente. En este modo, no es necesario modificar la topología de red para beneficiarse de todas las funciones del router.",
+        "desc": "En el modo de usurpación de puerta de enlace, el router utilizará la suplantación de ARP para que los clientes en la LAN lo utilicen de puerta de enlace. Para más detalles, por favor vea $$$$ Drop-in Gateway Topology $$$$. Puede utilizar este modo para extender la funcionalidad de su router primario.",
         "enable_label": "Activar modo de usurpación de puerta de enlace",
         "cookies_dns_label": "Forzar el uso del DNS en el modo usurpación de puerta de enlace",
         "devices_title": "Lista de Dispositivos",
@@ -9,7 +9,8 @@
         "not_active": "Inactivo",
         "current_active": "Actualmente activo",
         "no_active_tips": "Este dispositivo nunca se ha conectado, por favor compruebe el estado del dispositivo.",
-        "cookies_dns_tips": "Esta opción fuerza el uso del DNS en el router usurpador cuando el modo está activado y usa el DNS del router principal cuando está desactivado."
+        "cookies_dns_tips": "Esta opción fuerza el uso del DNS en el router usurpador cuando el modo está activado y usa el DNS del router principal cuando está desactivado.",
+        "scan_device_warning": "Es necesario utilizar una conexión Ethernet al router principal para utilizar el modo de suplantación de puerta de enlace."
     },
     "menu_edgerouter": "Modo de usurpación de puerta de enlace"
 }
