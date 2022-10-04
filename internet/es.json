@@ -11,7 +11,8 @@
         "using_as_wan": "Usando como WAN, $$$$Cambia a LAN$$$$",
         "setting": "Configuración de Ethernet",
         "pppoe_log": "Log de Conexión PPPoE",
-        "dhcp_tips": "Dirección IP asignada por la máquina de red superior."
+        "dhcp_tips": "Dirección IP asignada por la máquina de red superior.",
+        "pppoe_vlanid_tips": "Esta entrada de la configuración sólo es necesaria si el proveedor del servidor PPPoE require que la interfaz utilice una etiqueta específica VLAN ID."
     },
     "tethering": {
         "title": "Tethering",
@@ -131,7 +132,21 @@
         "send_error_msg4": "Tiempo de espera para enviar.",
         "send_error_msg5": "El dispositivo no es compatible con la función SMS.",
         "send_error_msg1": "No se ha detectado el módem.",
-        "send_error_msg6": "El entorno de red actual no admite la función SMS."
+        "send_error_msg6": "El entorno de red actual no admite la función SMS.",
+        "forward_email_label": "Email",
+        "forward_smtp_server_label": "Dirección del servidor SMTP",
+        "forward_encryp_label": "Método de cifrado",
+        "forward_smtp_title": "Buzón de correo del remitente (SMTP)",
+        "forward_title": "Reenvío de SMS",
+        "forward_phone_tips": "Si quiere que el router reenvíe SMS a su teléfono, asegúrese de que su red móvil está disponible y permite el envío de SMS.",
+        "forward_no_encryp_label": "Ninguno",
+        "forward_email_account_label": "Nombre de usuario",
+        "forward_email_tips": "Si quiere reenviar SMSs a email, por favor configure el envío de email primero, se utiliza para enviar SMSs a la dirección destino. $$$$Leer más$$$$",
+        "forward_email_subject_tips": "Puede personalizar el asunto de modo que pueda distinguir qué número de teléfono recibió el SMS.",
+        "forward_add_phone_btn": "Añadir Número de Teléfono",
+        "forward_email_subject_label": "Asunto",
+        "forward_email_list_title": "Email destino",
+        "forward_add_email_btn": "Añadir Email"
     },
     "modemmanage": {
         "title": "Administración",
@@ -145,8 +160,8 @@
         "refresh": "Actuarizar",
         "success_copy": "Copiado con éxito",
         "info": "Información del Módem",
-        "soft_reset": "Soft Reboot",
-        "hardware _reset": "Hard Reboot",
+        "soft_reset": "Reinicio suave",
+        "hardware _reset": "Reinicio duro",
         "reboot_sucess": "Éxito, por favor espere $$$$ segundos.",
         "export_debug_info": "Exportar información de depuración"
     },
