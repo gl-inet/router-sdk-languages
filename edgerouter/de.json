@@ -1,5 +1,14 @@
 {
     "edgerouter": {
-        "desc": "Im Einlassschleusen Modus wird der Router ARP Spoofing benutzen, damit die Clients im lokalen Netzwerk ihn als lokales Gateway benutzen. Für weitere Details, sehen Sie sich bitte die Drop-In Gateway Topologie an.  Sie können diesen Modus benutzen, um die Funktionalität ihres Haupt-Routers zu erweitern."
+        "desc": "Im Einlassschleusen Modus wird der Router ARP Spoofing benutzen, damit die Clients im lokalen Netzwerk ihn als lokales Gateway benutzen. Für weitere Details, sehen Sie sich bitte die Drop-In Gateway Topologie an. Sie können diesen Modus benutzen, um die Funktionalität ihres Haupt-Routers zu erweitern.",
+        "cover_mode_label": "Gerät-Schutzmodus",
+        "global_label": "Gesamtschutz",
+        "part_label": "Teilschutz",
+        "devices_title": "Geräteübersicht",
+        "manage_device_btn": "Geräte verwalten",
+        "not_active": "Deaktiviert",
+        "active_th": "Aktiviert",
+        "current_active": "Im Moment aktiviert",
+        "no_active_tips": "Dieses Gerät war noch nie verbunden; bitte überprüfen sie den Gerätestatus."
     }
 }
