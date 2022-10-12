@@ -53,9 +53,9 @@
         "allow_dfs_tips2": "Otherwise, the router will not connect to any Wi-Fi using DFS channels.",
         "retry_disable_guest_tips": "While attempting to reconnect, your router will periodically scan for Wi-Fi networks, and your guest Wi-Fi network will be temporarily unavailable during the scan.",
         "scan_disable_guest_tips": "During the scan for Wi-Fi signals, your guest network will be temporarily unavailable for about 10 seconds. Do you wish to continue?",
-        "fail_eap_key_tips": "用户名或密码错误",
-        "fail_key_tips": "密码错误",
-        "fail_not_found_tips": "不在信号范围内",
+        "fail_eap_key_tips": "Incorrect username or password.",
+        "fail_key_tips": "Incorrect password.",
+        "fail_not_found_tips": "Could not find the network, probably not in signal range.",
         "fail_dfs_tips": "该wifi使用dfs"
     },
     "modem": {
