@@ -52,7 +52,12 @@
         "allow_dfs_tips2": "否则，路由器将不会连接到任意使用 DFS 信道的 Wi-Fi。",
         "allow_dfs_tips1": "若此选项启用，当检测到有雷达正在使用路由器当前使用的信道时，5GHz Wi-Fi 将暂时无法连接；",
         "retry_disable_guest_tips": "尝试重新连接的过程中，路由器每隔一段时间会扫描周边 Wi-Fi，在扫描期间，您的访客网络 Wi-Fi 暂时被关闭。",
-        "scan_disable_guest_tips": "扫描周边 Wi-Fi 信号期间，您的访客网络 Wi-Fi 将暂时被关闭，这需要 10 秒左右的时间，您确认要继续吗？"
+        "scan_disable_guest_tips": "扫描周边 Wi-Fi 信号期间，您的访客网络 Wi-Fi 将暂时被关闭，这需要 10 秒左右的时间，您确认要继续吗？",
+        "fail_eap_key_tips": "用户名或密码不正确。",
+        "fail_not_found_tips": "找不到该网络，它可能不在信号范围内。",
+        "fail_dfs_tips": "该网络使用 DFS 信道。",
+        "fail_key_tips": "密码不正确。",
+        "unusable_eap_tips": "此路由器不支持中继使用 EAP 的网络。"
     },
     "modem": {
         "title": "蜂窝网络",
