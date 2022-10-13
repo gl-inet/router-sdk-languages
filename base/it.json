@@ -88,8 +88,8 @@
         "thursday": "Gio",
         "friday": "Ven",
         "saturday": "Sab",
-        "second": "secondi",
-        "min": "Minuti"
+        "second": "{count} secondo | {count} secondi",
+        "min": "{count} Minuto | {count} Minuti"
     },
     "internet": {
         "lan_ip_tips": "La sottorete LAN è in conflitto con la sottorete WAN, si prega di $$$$ modificare la sottorete LAN$$$$ con un altro indirizzo.",
