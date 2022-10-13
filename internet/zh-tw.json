@@ -52,7 +52,12 @@
         "allow_dfs_tips1": "若此選項啟用，當檢測到有雷達正在使用路由器當前使用的信道時，5GHz Wi-Fi 將暫時無法連接;",
         "allow_dfs_tips2": "否則，路由器將不會連接到任意使用 DFS 信道的 Wi-Fi。",
         "retry_disable_guest_tips": "嘗試重新連接的過程中，路由器每隔一段時間會掃描周邊 Wi-Fi，在掃描期間，你的訪客網絡 Wi-Fi 暫時被關閉。",
-        "scan_disable_guest_tips": "掃描周邊 Wi-Fi 信號期間，您的訪客網絡 Wi-Fi 將暫時被關閉，這需要 10 秒左右的時間，你確認要繼續嗎？"
+        "scan_disable_guest_tips": "掃描周邊 Wi-Fi 信號期間，您的訪客網絡 Wi-Fi 將暫時被關閉，這需要 10 秒左右的時間，你確認要繼續嗎？",
+        "fail_not_found_tips": "找不到網絡，可能不在信號範圍內。",
+        "fail_eap_key_tips": "用戶名或密碼錯誤。",
+        "fail_key_tips": "密碼錯誤。",
+        "fail_dfs_tips": "網絡使用 DFS 通道。",
+        "unusable_eap_tips": "此路由器不支持使用 EAP 的重複網絡。"
     },
     "modem": {
         "title": "行動網絡",
