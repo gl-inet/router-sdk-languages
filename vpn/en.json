@@ -237,7 +237,8 @@
         "enable_vpn_cascading": "Enable VPN Cascading",
         "enable_vpn_cascading_tips": "If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. This is also called VPN cascading.",
         "auth_conflict_tips": "Configuration files in the same group must use the same authentication method. Please upload configuration files from different providers to separate groups.",
-        "file_oversize_tips": "The uploaded compressed file can't contain more than 1,000 configuration files."
+        "file_oversize_tips": "The uploaded compressed file can't contain more than 1,000 configuration files.",
+        "unzip_fail_msg": "解压失败"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
