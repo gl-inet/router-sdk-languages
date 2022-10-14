@@ -40,7 +40,7 @@
         "lock_bssid": "BSSIDをロック",
         "set_static": "手動で静的IPを設定",
         "unlock": "オート",
-        "retry_connet_tips": "接続失敗、再試行中…",
+        "retry_connet_tips": "接続に失敗しました、後で再試行します…",
         "lock_bssid_tips": "この選択肢を開くと、ルータはこのSSIDを使用しているネットワークに切り替えるときに、選択したBSSIDに対応するAPに接続しようとするだけです。",
         "advanced_settings": "詳細設定",
         "antijam": "2.4Gネットは20MHz帯域幅を強制使用",
@@ -55,7 +55,7 @@
         "retry_disable_guest_tips": "再接続中は、ルーターが一定間隔で周囲のWi-Fiをスキャンし、その間、ゲストネットワークのWi-Fiは一時的にオフになります。",
         "fail_eap_key_tips": "ユーザー名またはパスワードが間違っています。",
         "fail_key_tips": "パスワードが正しくありません。",
-        "fail_not_found_tips": "ネットワークが見つかりませんでした。おそらく信号範囲外です。",
+        "fail_not_found_tips": "ネットワークが見つかりませんでした。入力したSSIDとセキュリティタイプをご確認ください。",
         "unusable_eap_tips": "このルーターは、EAPを使用するリピートネットワークには対応していません。"
     },
     "modem": {
