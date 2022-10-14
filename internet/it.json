@@ -37,7 +37,7 @@
         "lock_bssid": "Blocca BSSID",
         "set_static": "Imposta manualmente IP statico",
         "unlock": "Auto",
-        "retry_connet_tips": "Connessione fallita, sto riprovando…",
+        "retry_connet_tips": "Connessione fallita, riproverà più tardi…",
         "lock_bssid_tips": "Se questa opzione è attivata, il router si connetterà solo all'AP corrispondente al BSSID selezionato quando si passa a una rete che utilizza questo SSID.",
         "advanced_settings": "Impostazioni avanzate",
         "antijam": "Forza l'ampiezza di banda a 20MHz per 2.4G",
@@ -55,7 +55,7 @@
         "scan_disable_guest_tips": "Durante la scansione dei segnali Wi-Fi, la rete ospite sarà temporaneamente non disponibile per circa 10 secondi. Si desidera continuare?",
         "fail_key_tips": "Il password non corretta.",
         "fail_eap_key_tips": "Il nome utente o password non corretti.",
-        "fail_not_found_tips": "Non è stato possibile trovare la rete, probabilmente non c'è campo per il segnale.",
+        "fail_not_found_tips": "Impossibile trovare la rete, controllare l'SSID e il tipo di sicurezza inseriti.",
         "unusable_eap_tips": "Questo router non supporta reti ripetute che utilizzano EAP."
     },
     "modem": {
