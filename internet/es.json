@@ -39,7 +39,7 @@
         "set_static": "Configurar manualmente la IP estática",
         "unlock": "Auto",
         "allow_change_tips": "Si la opción está activada, el router se conectará automáticamente a otras redes guardadas cuando no pueda conectarse a la red Wi-Fi actual.",
-        "retry_connet_tips": "Error de conexión, reintentando…",
+        "retry_connet_tips": "Error de conexión, lo volveremos a intentar más tarde…",
         "lock_bssid_tips": "Si esta opción está activada, el router sólo se conectará al AP correspondiente al BSSID que haya seleccionado al cambiar a una red que utilice este SSID.",
         "advanced_settings": "Configuración Avanzada",
         "antijam": "Obligación de 20MHz de banda para 2.4G",
@@ -52,7 +52,8 @@
         "allow_dfs_tips1": "Si la opción está activada, el Wi-Fi de 5GHz no estará disponible temporalmente cuando un radar esté utilizando el canal que está usando actualmente el router;",
         "allow_dfs_tips2": "De lo contrario, el router no se conectará a ninguna Wi-Fi que utilice canales DFS.",
         "scan_disable_guest_tips": "Durante la búsqueda de señales Wi-Fi, su red de invitados no estará disponible temporalmente durante unos 10 segundos. ¿Desea continuar?",
-        "retry_disable_guest_tips": "Mientras se intenta reconectar, el router buscará periódicamente redes Wi-Fi, y la red Wi-Fi de invitados no estará disponible temporalmente durante la búsqueda."
+        "retry_disable_guest_tips": "Mientras se intenta reconectar, el router buscará periódicamente redes Wi-Fi, y la red Wi-Fi de invitados no estará disponible temporalmente durante la búsqueda.",
+        "fail_not_found_tips": "No se ha podido encontrar la red, por favor compruebe el SSID y el tipo de seguridad que ha introducido."
     },
     "modem": {
         "title": "Módem",
