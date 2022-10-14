@@ -45,7 +45,7 @@
         "set_static": "Manually Set Static IP",
         "unlock": "Auto",
         "antijam_tips_2": "It only works when repeating 2.4G Wi-Fi.",
-        "retry_connet_tips": "Connection failed, retrying…",
+        "retry_connet_tips": "Connection failed, will retry later…",
         "lock_bssid_tips": "If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.",
         "advanced_settings": "Advanced Settings",
         "allow_dfs": "Allow repeat DFS channels",
@@ -55,7 +55,7 @@
         "scan_disable_guest_tips": "During the scan for Wi-Fi signals, your guest network will be temporarily unavailable for about 10 seconds. Do you wish to continue?",
         "fail_eap_key_tips": "Incorrect username or password.",
         "fail_key_tips": "Incorrect password.",
-        "fail_not_found_tips": "Could not find the network, probably not in signal range.",
+        "fail_not_found_tips": "Could not find the network, please check the SSID and security type you entered.",
         "unusable_eap_tips": "This router don't support repeat networks that use EAP."
     },
     "modem": {
