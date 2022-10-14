@@ -45,7 +45,7 @@
         "change_wifi": "切换网络",
         "unlock": "自动",
         "antijam_tips_2": "该选项仅在中继 2.4G Wi-Fi 时生效。",
-        "retry_connet_tips": "连接失败，正在重试……",
+        "retry_connet_tips": "连接失败，稍后将重试……",
         "lock_bssid_tips": "如果启用该选项，路由器在切换到使用此 SSID 的网络时，只会尝试连接您所选的 BSSID 所对应的 AP。",
         "advanced_settings": "高级设置",
         "allow_dfs": "允许中继 DFS 信道",
@@ -54,7 +54,7 @@
         "retry_disable_guest_tips": "尝试重新连接的过程中，路由器每隔一段时间会扫描周边 Wi-Fi，在扫描期间，您的访客网络 Wi-Fi 暂时被关闭。",
         "scan_disable_guest_tips": "扫描周边 Wi-Fi 信号期间，您的访客网络 Wi-Fi 将暂时被关闭，这需要 10 秒左右的时间，您确认要继续吗？",
         "fail_eap_key_tips": "用户名或密码不正确。",
-        "fail_not_found_tips": "找不到该网络，它可能不在信号范围内。",
+        "fail_not_found_tips": "找不到该网络，请检查您输入的 SSID 和安全类型。",
         "fail_key_tips": "密码不正确。",
         "unusable_eap_tips": "此路由器不支持中继使用 EAP 的网络。"
     },
