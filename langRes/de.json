@@ -6,8 +6,8 @@
         "on": "an",
         "unbind": "Entbinden",
         "id_is": "Ihre Geräte-ID lautet",
-        "add_id_tips": "Bitte verwenden Sie die ID, um dieses Gerät Ihrem Cloud-Konto hinzuzufügen.",
-        "enable": "Aktiviert",
+        "add_id_tips": "Bitte verwenden Sie diese ID, um dieses Gerät Ihrem Cloud-Konto hinzuzufügen.",
+        "enable": "Aktivieren",
         "device_id": "Geräte ID",
         "data_server": "Daten-Server",
         "holder_choose": "Bitte auswählen",
@@ -15,11 +15,16 @@
         "agree": "Ich habe gelesen und stimme zu",
         "terms": "Nutzungsbedingungen",
         "privacy": "Datenschutz-Bestimmungen",
-        "unbind_tips": "Möchten Sie Ihr Gerät entbinden：",
+        "unbind_tips": "Sind Sie sicher, dass sie ihr Gerät entfernen möchten? Das Gerät ist verbunden mit:",
         "user": "Benutzer",
         "region": "Region",
-        "unbind_note": "Hinweis: Dies gilt nur für die ausgewählte Region. Wenn Sie dieses Gerät jemals in verschiedenen Regionen verbunden haben, tun Sie dies in jeder Region.",
-        "unbind_success": "Bindung erfolgreich lösen",
-        "view_log": "Protokolle anzeigen"
-    }
+        "unbind_note": "Hinweis: Dies gilt nur für die ausgewählte Region. Wenn Sie dieses Gerät in verschiedenen Regionen verbunden haben, tun sie dies in jeder Region.",
+        "unbind_success": "Bindung erfolgreich gelöst.",
+        "view_log": "Protokolle anzeigen",
+        "enable_remote_ssh": "SSH-Fernzugriff aktivieren",
+        "enable_remote_web": "Web-Fernzugriff aktivieren",
+        "device_mac": "Geräte-MAC",
+        "device_sn": "Geräte S/N"
+    },
+    "menu_cloud": "GoodCloud"
 }
