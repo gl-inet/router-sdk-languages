@@ -1,6 +1,7 @@
 {
     "menu_hwnat": "Hardwarebeschleunigung",
     "hwnat": {
-        "desc": "Hardwarebeschleunigung reduziert die CPU-Last und beschleunigt Packetweiterleitungen aber kann manche Funktionen beeinträchtigen."
+        "desc": "Hardwarebeschleunigung reduziert die CPU-Last und beschleunigt Packetweiterleitungen aber kann manche Funktionen beeinträchtigen.",
+        "tips": "Wenn die Hardwarebeschleunigung aktiviert ist funktionieren die folgenden Funktionen nicht richtig: Portweiterleitung, Client-Geschwindigkeits- und Verkehrsstatistik, VPN-Richtlinien (Globale Optionen und Proxy-Modus)."
     }
 }
