@@ -3,11 +3,11 @@
         "edit_host_btn": "Hosts-Datei ändern",
         "desc": "Wenn Sie benutzerdefinierte DNS-Server einstellen werden alle Domänennamen über die hier eingestellten DNS-Server aufgelöst und nicht über die DNS-Server der Ethernet-, Repeater-, Mobilfunk-, Tethering- oder VPN-Konfiguration.",
         "server": "Server",
-        "adguardhome_in_use_tips": "AdGuard Home ist aktiviert; der Router muss den von AdGuard Home zur Verfügung gestellten DNS Server benutzen; Sie können den DNS-Server nicht anpassen.",
+        "adguardhome_in_use_tips": "AdGuard Home ist aktiviert; der Router muss den von AdGuard Home zur Verfügung gestellten DNS Server benutzen; Sie können die DNS-Server nicht anpassen.",
         "provider": "DNS Provider",
-        "rebinding_tips": "Das Aktivieren dieser Option kann zu Fehlern bei privater DNS Suche führen. Falls ihr Netzwerk ein Zwangsportal aufweist, deaktivieren Sie diese Option bitte.",
+        "rebinding_tips": "Das Aktivieren dieser Option kann zu Fehlern bei privater DNS Suche führen. Falls ihr Netzwerk ein Zwangsportal benutzt deaktivieren Sie diese Option bitte.",
         "override_label": "Überschreiben der DNS Einstellungen aller Clients",
-        "override_tips": "Falls aktiviert, wird ihr Router die unverschlüsselten DNS Einstellungen für alle Clienten überschreiben.",
+        "override_tips": "Falls aktiviert wird ihr Router die unverschlüsselten DNS Einstellungen für alle Clienten überschreiben.",
         "set_dns_server_title": "Einstellungen DNS-Server",
         "mode": "Modus",
         "proxy_addr_label": "Adresse des Proxy-Servers",
@@ -27,13 +27,14 @@
         "select_filter_label": "Filter",
         "select_nofilter_label": "Kein Filter",
         "select_nodnssec_label": "Kein DNSSEC",
-        "host_tips": "Client-Anfragen werden bevorzugt beantwortet indem statische DNS Regeln, die sie in die Hosts-Datei schreiben, benutzt werden.",
+        "host_tips": "Anfragen von Clients werden zunächst anhand der statischen DNS-Regeln aufgelöst, die Sie in die Hosts-Datei geschrieben haben.",
         "auto_get_label": "Automatisch",
         "choose_encryption_label": "Verschlüsseltes DNS",
         "manual_label": "Manuelles DNS",
         "set_proxy_label": "DNS Proxy",
-        "form_wan_label": "DNS vom übergeordneten Netzwerk",
+        "form_wan_label": "DNS vom Ethernet",
         "form_tethering_label": "DNS vom Tethering",
-        "server_warning_tips": "Der Server scheint nicht auf dem aktuellen Stand zu sein."
+        "server_warning_tips": "Der Server scheint nicht auf dem aktuellen Stand zu sein.",
+        "rebinding_label": "Schutz vor DNS-Rebind-Attacke"
     }
 }
