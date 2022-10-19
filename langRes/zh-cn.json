@@ -1,7 +1,7 @@
 {
     "bridge": {
         "tips_one": "如果你改变路由器的网络模式，你必须重新连接你的客户端设备。",
-        "tips_two": "如果改用 AP 模式/无线扩展模式/ WDS 模式，您可能无法再访问这个界面。您可以通过按住设备上的重置按扭 4 秒钟来将设备恢复到路由模式。",
+        "tips_two": "如果改用 $$$$，您可能无法再访问这个界面。您可以通过按住设备上的重置按扭 4 秒钟来将设备恢复到路由模式。",
         "mode_switch": "模式切换",
         "router": "路由模式",
         "ap": "AP模式",
@@ -19,12 +19,14 @@
         "choose_ssid_tips": "请选择SSID",
         "router_desc": "创建您自己的私有网络。本路由器将充当 NAT、防火墙和 DHCP 服务器。",
         "relay": "无线扩展模式",
-        "ap_desc": "通过有线连接到上级网络网络并扩展无线网络。",
+        "ap_desc": "通过有线连接到上级网络并扩展无线网络。",
         "relay_desc": "扩展现有无线网络的 Wi-Fi 覆盖范围。",
         "wds_desc": "与 Extender 类似，如果您的主路由器支持 WDS 模式，请选择 WDS。",
         "connet_fail_msg": "连接失败。",
         "lan_conflict_msg": "LAN 子网与要连接的 Wi-Fi 子网冲突，请设置一个不同的网段。",
-        "get_ip_fail_msg": "获取 IP 失败。"
+        "get_ip_fail_msg": "获取 IP 失败。",
+        "bridge_pattern_label": "网桥模式",
+        "bridge_pattern_desc": "通过有线连接到上级网络。"
     },
     "menu_bridge": "网络模式"
 }
