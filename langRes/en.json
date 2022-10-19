@@ -1,7 +1,7 @@
 {
     "bridge": {
         "tips_one": "When you change the router’s network mode, you may need to re-connect all your client devices.",
-        "tips_two": "When you use Access Point/Extender/WDS mode, you may not connect to this UI again. You can Press and hold the reset button for 4 seconds to revert to router mode.",
+        "tips_two": "When you use $$$$ mode, you may not connect to this UI again. You can Press and hold the reset button for 4 seconds to revert to router mode.",
         "mode_switch": "Mode Switch",
         "router": "Router",
         "ap": "Access Point",
@@ -26,7 +26,7 @@
         "lan_conflict_msg": "The LAN subnet conflicts with the Wifi subnet to be connected, please set a different subnet.",
         "get_ip_fail_msg": "Failed to get IP.",
         "bridge_pattern_label": "Bridge",
-        "bridge_pattern_desc": "桥接模式描述"
+        "bridge_pattern_desc": "Connect to a wired network."
     },
     "menu_bridge": "Network Mode"
 }
