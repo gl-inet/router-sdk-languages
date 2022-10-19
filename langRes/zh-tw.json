@@ -1,7 +1,7 @@
 {
     "bridge": {
         "tips_one": "當您更改路由器的網絡模式時，您可能需要重新連接所有客戶端設備。",
-        "tips_two": "當您使用 $$$$ 時，可能無法再訪問這個界面。您可以按住重置按鈕 4 秒鐘以恢復到路由器模式。",
+        "tips_two": "當您使用 $$$$時，可能無法再訪問這個界面。您可以按住重置按鈕 4 秒鐘以恢復到路由器模式。",
         "mode_switch": "模式切換",
         "router": "路由模式",
         "ap": "無線存取（AP）模式",
@@ -24,7 +24,8 @@
         "wds_desc": "與 Extender 類似，如果您的主路由器支持 WDS 模式，請選擇 WDS。",
         "connet_fail_msg": "連接失敗。",
         "lan_conflict_msg": "LAN子網與要連接的Wifi子網衝突，請設置不同的子網。",
-        "get_ip_fail_msg": "獲取IP失敗。"
+        "get_ip_fail_msg": "獲取IP失敗。",
+        "bridge_pattern_desc": "通過有線連接到上級網絡。"
     },
     "menu_bridge": "網絡模式"
 }
