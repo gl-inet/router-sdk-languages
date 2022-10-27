@@ -121,7 +121,7 @@
         "client_use_vpn": "Client Use VPN to",
         "client_auth_tips": "The router will automatically generate a server and client certificate-key, and write into the configuration file when generating the client configuration file.",
         "export_config": "Export Client Configuration",
-        "use_ddns_export_tips": "Use DDNS domain to avoid that the client cannot connect to the service because of the change of the public network IP. If you want to use this function, please $$$$Enable DDNS$$$$ on your router and it can be resolved successfully.",
+        "use_ddns_export_tips": "If the change in public network IP is causing the the client to be unable to connect, use DDNS domain to avoid this problem. If you want to use this feature, please $$$$Enable DDNS$$$$ on your router.",
         "use_ddns_domain": "Use DDNS Domain",
         "download_config": "Download File",
         "tun": "TUN",
