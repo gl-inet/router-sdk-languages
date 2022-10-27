@@ -4,7 +4,7 @@
         "open_ports_on_router": "Open Ports on Router",
         "port_forwards_desc": "Port Forwarding lets remote computers connect to a local computer or server behind the firewall in the LAN network (such as Web servers, FTP servers, etc.).",
         "open_port_on_router_dest": "The router's services, such as Web and FTP, requires opening their respective router ports in order to be publicly reachable.",
-        "dmz_desc": "DMZ lets you to expose one computer to the Internet, so all inbound packets will be redirected to this computer, ensuring the security of other connected devices.",
+        "dmz_desc": "DMZ lets you to expose one computer to the Internet, so all inbound packets will be redirected to this computer.",
         "dmz_tips": "If you enable DMZ, your port forward and port open rules will not take effect.",
         "open_dmz": "Enable DMZ",
         "dmz_host_ip": "DMZ Host IP",
