@@ -49,7 +49,7 @@
         "lock_bssid_tips": "If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.",
         "advanced_settings": "Advanced Settings",
         "allow_dfs": "Allow repeating of DFS channels",
-        "allow_dfs_tips1": "If the option is enabled, when the router repeat Wi-Fi on any DFS channel, it will follow the hotspot for DFS channel avoidance. When this Wi-Fi is available, the router's own 5GHz Wi-Fi will use the DFS channel. Otherwise, the router's own 5GHz Wi-Fi will switch back to the non-DFS channel.",
+        "allow_dfs_tips1": "If the option is enabled, 5GHz Wi-Fi will be temporarily unavailable when a radar is using the channel which the router is currently using;",
         "allow_dfs_tips2": "Otherwise, the router will not connect to any Wi-Fi using DFS channels.",
         "retry_disable_guest_tips": "While attempting to reconnect, your router will periodically scan for Wi-Fi networks, and your guest Wi-Fi network will be temporarily unavailable during the scan.",
         "scan_disable_guest_tips": "During the scan for Wi-Fi signals, your guest network will be temporarily unavailable for about 10 seconds. Do you wish to continue?",
