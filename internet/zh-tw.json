@@ -27,7 +27,7 @@
         "change_wifi": "切換網絡",
         "allow_change": "允許切換至其他已保存網絡",
         "allow_change_tips": "若啟用此選項，當無法連接到當前的Wi-Fi時，路由器將嘗試連接其他已保存的網絡。",
-        "antijam_tips": "若啟用此選項，設備將降低連接速度以提升連接穩定性。",
+        "antijam_tips": "如果啟用此選項，設備將以降低連接速率為代價提高連接的穩定性。",
         "lock_band": "頻段選擇",
         "lock_band_tips": "若你手動選擇了某個頻段，路由器將不會掃瞄或連接到其他頻段的Wi-Fi。",
         "join_wifi": "加入 Wi-Fi",
@@ -49,14 +49,15 @@
         "antijam": "2.4G 網絡強制使用20MHz 頻寬",
         "antijam_tips_2": "該選項僅在中繼 2.4G Wi-Fi 時生效。",
         "allow_dfs": "允許中繼 DFS 信道",
-        "allow_dfs_tips1": "若此選項啟用，路由器中繼 DFS 信道的 Wi-Fi 時，將跟隨熱點進行 DFS 信道規避。當該 Wi-Fi 可用時，路由器自身的 5GHz Wi-Fi 將使用 DFS 信道。否則，路由器自身的 5GHz Wi-Fi 將切換回非 DFS 信道。",
+        "allow_dfs_tips1": "若此選項啟用，當路由器在任何 DFS 通道上重複 Wi-Fi 時，它將跟隨熱點進行 DFS 通道規避。 當此 Wi-Fi 可用時，路由器自身的 5GHz Wi-Fi 將使用 DFS 信道。 否則，路由器自身的 5GHz Wi-Fi 將切換回非 DFS 通道。",
         "allow_dfs_tips2": "否則，路由器將不會連接到任意使用 DFS 信道的 Wi-Fi。",
         "retry_disable_guest_tips": "嘗試重新連接的過程中，路由器每隔一段時間會掃描周邊 Wi-Fi，在掃描期間，你的訪客網絡 Wi-Fi 暫時被關閉。",
         "scan_disable_guest_tips": "掃描周邊 Wi-Fi 信號期間，您的訪客網絡 Wi-Fi 將暫時被關閉，這需要 10 秒左右的時間，你確認要繼續嗎？",
         "fail_not_found_tips": "找不到網絡，請檢查您輸入的 SSID 和安全類型。",
         "fail_eap_key_tips": "用戶名或密碼錯誤。",
         "fail_key_tips": "密碼錯誤。",
-        "unusable_eap_tips": "此路由器不支持使用 EAP 的重複網絡。"
+        "unusable_eap_tips": "此路由器不支持使用 EAP 的重複網絡。",
+        "fail_mac_tips": "路由器的MAC不能與任何Wi-Fi客戶端相同，請$$$修改clone的MAC$$$$或修改該客戶端的MAC。"
     },
     "modem": {
         "title": "行動網絡",
