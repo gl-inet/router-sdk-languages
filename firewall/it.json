@@ -4,7 +4,7 @@
         "open_ports_on_router": "Aprire le porte del Router",
         "port_forwards_desc": "Il Port Forwarding consente agli utenti sulla WAN di accedere alle risorse del server (come server Web, server FTP, ecc.) fornite dal computer locale.",
         "open_port_on_router_dest": "I servizi del router, come ad esempio Web e FTP, richiedono la rispettiva apertura delle porte sul router perchè siano pubblicamente raggiungibili.",
-        "dmz_desc": "DMZ può esporre completamente un computer alla rete Internet in modo che tutto il traffico in arrivo sia reindirizzato verso questo computer, assicurando la sicurezza dei dispositivi connessi.",
+        "dmz_desc": "La DMZ consente di esporre un computer a Internet, in modo che tutti i pacchetti in entrata vengano reindirizzati a questo computer.",
         "dmz_tips": "L'attivazione di DMZ invaliderà il Port Forwarding e le regole delle porte aperte.",
         "open_dmz": "Abilita DMZ",
         "dmz_host_ip": "DMZ Host IP",
