@@ -1,11 +1,11 @@
 {
     "tor": {
         "desc": "Tor (\"The Onion Router\") は無料のオープンソースソフトウェアで匿名のコミュニケーションができます。ユーザーがインターネット利用する場合、プライバシーも守ります。",
-        "matter_tips": "この機能はテスト中ですから、部分の国でエラーがあるかもしれません。",
+        "matter_tips": "この機能はテスト中のため、いくつかの国では問題が起きる可能性があります。",
         "exit_node_tips": "トラッカーに表示するカスタムの場所を選択することができます。",
         "exit_node_label": "出口ノード",
         "log_title": "Tor ログ",
         "manual_label": "カスタム出口ノード",
-        "use_tips": "Tor が有効になっている場合、VPN、DNS、IPv6、ADGuard ホームの機能は正しく動作しません。"
+        "use_tips": "Tor が有効になっている場合、VPN、DNS、IPv6、ADGuard Homeの機能は正しく動作しません。"
     }
 }
