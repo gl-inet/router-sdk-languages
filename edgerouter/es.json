@@ -2,7 +2,6 @@
     "edgerouter": {
         "desc": "En el modo de usurpación de puerta de enlace, el router utilizará la suplantación de ARP para que los clientes en la LAN lo utilicen de puerta de enlace. Para más detalles, por favor vea $$$$ Drop-in Gateway Topology $$$$. Puede utilizar este modo para extender la funcionalidad de su router primario.",
         "enable_label": "Activar modo de usurpación de puerta de enlace",
-        "current_active": "Actualmente activo",
         "no_active_tips": "Este dispositivo nunca se ha conectado, por favor compruebe el estado del dispositivo."
     },
     "menu_edgerouter": "usurpación de puerta de enlace"
