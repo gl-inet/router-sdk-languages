@@ -12,7 +12,8 @@
         "dhcp_tips": "DHCP，由上级网络主机分配 IP。",
         "using_as_wan": "正在作为 WAN 口使用，$$$$切换至 LAN 口$$$$",
         "using_as_lan": "正在作为 LAN 口使用，$$$$切换至 WAN 口$$$$",
-        "pppoe_vlanid_tips": "此配置项仅在供应商的 PPPoE 服务器需要接口使用标记特定 VLAN ID 的情况下需要输入。"
+        "pppoe_vlanid_tips": "此配置项仅在供应商的 PPPoE 服务器需要接口使用标记特定 VLAN ID 的情况下需要输入。",
+        "egderouter_mode_tips": "旁路由已启用。若要修改以太网配置，请先关闭$$$$旁路由$$$$。"
     },
     "tethering": {
         "title": "热点共享",
