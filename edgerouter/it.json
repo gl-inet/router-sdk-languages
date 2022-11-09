@@ -2,7 +2,6 @@
     "edgerouter": {
         "desc": "In modalità drop-in gateway, il router utilizza l'ARP spoofing per consentire ai client della LAN di utilizzarlo come gateway. Per ulteriori informazioni, consultare $$$$ Drop-in Gateway Topology $$$$. È possibile usare questa modalità per estendere la funzionalità del percorso primario.",
         "enable_label": "Abilita la modalità Drop-in Gateway",
-        "cookies_dns_tips": "Questa opzione forza l'uso dei DNS Drop-in Gateway quando abilitata, se spenta userà i DNS del router primario.",
         "cover_mode_label": "Modalità di Copertura dei dispositivi",
         "global_label": "Copertura Globale",
         "part_label": "Copertura Parziale",
