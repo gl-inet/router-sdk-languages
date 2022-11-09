@@ -3,7 +3,6 @@
     "edgerouter": {
         "desc": "In drop-in gateway mode, the router will use ARP spoofing to let clients on the LAN to use it as the gateway. For details, please view $$$$ Drop-in Gateway Topology $$$$. You can use this mode to extend the functionality of your primary route.",
         "enable_label": "Enable Drop-in Gateway Mode",
-        "current_active": "Current Active",
         "no_active_tips": "This device has never been connected, please check the device status.",
         "choose_devices_title": "Option Device",
         "has_covered_title": "Already covered device",
