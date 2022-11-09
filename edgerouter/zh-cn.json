@@ -18,6 +18,10 @@
         "has_covered_title": "已覆盖设备",
         "scan_devices_title": "新扫描设备",
         "remove_device_caution": "是否移除覆盖当前设备",
-        "scan_device_warning": "您需要通过以太网连接到主路由，才能正常使用旁路由模式。"
+        "scan_device_warning": "您需要通过以太网连接到主路由，才能正常使用旁路由模式。",
+        "dhcp_closed_tips": "主路由器的 DHCP 服务已处于关闭状态，旁路由运行中。",
+        "dhcp_on_tips": "主路由器的 DHCP 服务尚处于启用状态。为避免冲突，旁路由已暂停。请$$$$前往主路由器管理界面$$$$关闭 DHCP 服务。",
+        "enable_tips": "旁路由正常运行时，会使用本路由器的 DNS 替代主路由的 DNS。",
+        "dhcp_on_warning_tips": "旁路由已开启。检测到您的主路由上的 DHCP 服务尚未关闭。为避免冲突，请$$$$前往主路由器管理界面$$$$关闭 DHCP 服务。"
     }
 }
