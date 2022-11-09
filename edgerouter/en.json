@@ -20,6 +20,7 @@
         "remove_device_caution": "Whether to delete the covered current device",
         "scan_device_warning": "You need to use an Ethernet connection to the primary route in order to use drop-in gateway mode.",
         "dhcp_closed_tips": "上级路由已关闭DHCP",
-        "dhcp_on_tips": "上级路由已开启DHCP，为避免网络冲突请点击$$$$跳转至上级路由$$$$关闭。"
+        "dhcp_on_tips": "上级路由已开启DHCP，为避免网络冲突请点击$$$$跳转至上级路由$$$$关闭。",
+        "enable_tips": "开启后自动开启旁路由DNS。"
     }
 }
