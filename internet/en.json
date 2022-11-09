@@ -12,7 +12,8 @@
         "pppoe_log": "PPPoE Connection Log",
         "setting": "Ethernet Settings",
         "dhcp_tips": "IP address assigned by higher network machine.",
-        "pppoe_vlanid_tips": "This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID."
+        "pppoe_vlanid_tips": "This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.",
+        "egderouter_mode_tips": "已开启旁路由模式，请$$$$跳转至旁路由$$$$页面了解详细。"
     },
     "tethering": {
         "title": "Tethering",
