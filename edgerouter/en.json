@@ -19,9 +19,9 @@
         "scan_devices_title": "New scan device",
         "remove_device_caution": "Whether to delete the covered current device",
         "scan_device_warning": "You need to use an Ethernet connection to the primary route in order to use drop-in gateway mode.",
-        "dhcp_closed_tips": "上级路由已关闭DHCP",
-        "dhcp_on_tips": "上级路由已开启DHCP，为避免网络冲突请点击$$$$跳转至上级路由$$$$关闭。",
-        "enable_tips": "开启后自动开启旁路由DNS。",
+        "dhcp_closed_tips": "The DHCP service on the main router is disabled, drop-in gateway is working.",
+        "dhcp_on_tips": "The DHCP service is still enabled on the main router. To avoid conflicts, drop-in gateway has been stopped. Please $$$$go to the main router admin panel$$$$ to disable the DHCP service.",
+        "enable_tips": "When the drop-in gateway is working, the DNS of this router is used instead of the DNS of the main route.",
         "dhcp_on_warning_tips": "旁路由模式开启后，检测到你的上级路由开启DHCP，为了避免网络冲突请点击$$$$跳转至上级路由$$$$去关闭。"
     }
 }
