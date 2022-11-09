@@ -3,7 +3,6 @@
     "edgerouter": {
         "desc": "旁路由模式下，路由器会通过 ARP 欺骗的方式让局域网中的客户端将它作为网关。详情请参考$$$$旁路由拓扑图$$$$。您可以用此模式来扩展您主路由的功能。",
         "enable_label": "启用旁路由模式",
-        "devices_title": "设备列表",
         "active_th": "活跃",
         "not_active": "未活跃",
         "current_active": "当前活跃",
