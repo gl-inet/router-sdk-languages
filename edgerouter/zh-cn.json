@@ -6,6 +6,7 @@
         "dhcp_closed_tips": "主路由器的 DHCP 服务已处于关闭状态，旁路由已生效。",
         "dhcp_on_tips": "主路由器的 DHCP 服务尚处于启用状态，旁路由可能无法生效。请$$$$前往主路由器管理界面$$$$关闭 DHCP 服务或将 DHCP 服务的网关设为 {ip}。",
         "enable_tips": "旁路由生效时，会使用本路由器的 DNS 替代主路由的 DNS。",
-        "dhcp_on_warning_tips": "旁路由已开启。"
+        "dhcp_on_warning_tips": "旁路由已开启。",
+        "dhcp_set_gateway_tips": "主路由器的 DHCP 服务已正确将网关设为 {ip}，旁路由已生效。"
     }
 }
