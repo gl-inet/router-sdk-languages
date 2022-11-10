@@ -4,8 +4,8 @@
         "speed": "速率",
         "traffic": "流量统计",
         "unknown": "未知",
-        "delete_all_caution": "您想要从列表中移除所有客户端吗？\n这并不能阻止客户端重新连接到路由器，您针对这些客户端的配置也会被一并移除。",
-        "delete_caution": "您想要从列表中移除这台客户端吗？\n这并不能阻止客户端重新连接到路由器，您针对这台客户端的配置也会被一并移除。",
+        "delete_all_caution": "您确认要从列表中移除所有客户端吗？\n这并不能阻止客户端重新连接到路由器，您针对这些客户端的配置也会被一并移除。",
+        "delete_caution": "您确认要从列表中移除这台客户端吗？\n这并不能阻止客户端重新连接到路由器，您针对这台客户端的配置也会被一并移除。",
         "online_client": "在线客户端",
         "offline_client": "离线客户端",
         "access_wan": "访问外网",
@@ -43,7 +43,8 @@
         "games": "游戏机",
         "pad": "平板电脑",
         "clear_traffic_label": "清除流量统计",
-        "clear_btn": "清除"
+        "clear_btn": "清除",
+        "clear_traffic_caution": "您确认要清空所有的流量统计数据吗？"
     },
     "menu_clients": "客户端"
 }
