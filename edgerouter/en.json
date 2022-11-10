@@ -6,6 +6,7 @@
         "dhcp_closed_tips": "The DHCP service on the main router is disabled, drop-in gateway is working.",
         "dhcp_on_tips": "The DHCP service is still enabled on the main router. Drop-in gateway may not work properly. Please $$$$go to the main router admin panel$$$$ to disable the DHCP service or set its gateway to {ip}.",
         "enable_tips": "When the drop-in gateway is working, the DNS of this router is used instead of the DNS of the main route.",
-        "dhcp_on_warning_tips": "Drop-in gateway is enabled."
+        "dhcp_on_warning_tips": "Drop-in gateway is enabled.",
+        "dhcp_set_gateway_tips": "The DHCP service on the main router has correctly set the gateway to {ip}, drop-in gateway is working."
     }
 }
