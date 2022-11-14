@@ -1,10 +1,10 @@
 {
     "clients": {
-        "name": "名前",
+        "name": "名称",
         "speed": "転送速度",
-        "traffic": "転送量合計",
-        "online_client": "オンライン クライアント",
-        "offline_client": "オフライン クライアント",
+        "traffic": "トラフィック",
+        "online_client": "オンラインクライアント",
+        "offline_client": "オフラインクライアント",
         "block_wan": "WANをブロックする",
         "action": "操作",
         "unknown": "不明なデバイス",
@@ -17,17 +17,17 @@
         "access_wan": "WANに接続する",
         "limit_speed": "速度を制限する",
         "delete_all_caution": "リストからすべてのクライアントを削除しますか？\nこの操作によって、クライアントがルータに再接続するのを防げるわけではありません。これらのクライアントの設定はすべて削除されます。",
-        "delete_caution": "リストからすべてのクライアントを削除しますか？\nこの操作によって、クライアントがルータに再接続するのを防げるわけではありません。これらのクライアントの設定はすべて削除されます。",
+        "delete_caution": "リストからこのクライアントを削除しますか？\nこの操作によって、クライアントがルータに再接続するのを防げるわけではありません。このクライアントの設定はすべて削除されます。",
         "random_mac_warning_tips": "クライアントの設定は、デバイスのMACアドレスの変更により無効になる可能性があります。",
         "random_mac_tips": "これはランダム化されたMACアドレスです。",
         "unlimited_hint": "無制限",
         "television": "テレビ",
         "smart_appliances": "スマート家電",
         "gateway": "ゲートウェイ",
-        "phone": "フォン",
+        "phone": "携帯電話",
         "laptop": "ノートパソコン",
         "sound": "サウンド",
-        "edit_device_title": "クライアントを編集する",
+        "edit_device_title": "クライアント機器を編集する",
         "device_type_label": "デバイスタイプ",
         "camera": "カメラ",
         "sort_by": "$$$$でソート",
@@ -42,9 +42,9 @@
         "watch": "ウェアラブルデバイス",
         "printer": "プリンタ",
         "games": "ゲーム",
-        "clear_traffic_label": "トラフィック統計をクリアする",
+        "clear_traffic_label": "トラフィック統計を削除する",
         "clear_traffic_caution": "すべてのトラフィック統計を削除しますか？",
-        "clear_btn": "クリア"
+        "clear_btn": "削除する"
     },
     "menu_clients": "クライアント"
 }
