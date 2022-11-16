@@ -1,7 +1,7 @@
 {
     "bridge": {
         "tips_one": "Se si modifica la modalità di rete del router, è necessario ricollegare tutti i dispositivi Client.",
-        "tips_two": "Quando si utilizza la modalità $$$$, potresti non poter connetterti nuovamente a questa UI. In tal caso premi il pulsante di ripristino per 4 secondi e tornerai alla modalità router.",
+        "tips_two": "Quando si utilizza la modalità $$$$, potresti non poter connetterti nuovamente a questa UI. In tal caso premi il pulsante di ripristino per 4 secondi per tornare alla modalità router.",
         "mode_switch": "Cambio di modalità",
         "router": "Modalità Router",
         "ap": "Punto di Accesso",
@@ -10,23 +10,23 @@
         "password": "Password",
         "holder_choose": "Scegli",
         "access_router": "Sto accedendo al tuo router",
-        "access_router_wds_tips": "Dopo che sarà configurato il bridging , il Router otterrà automaticamente un IP dal Router principale. Se è necessario accedere all'interfaccia utente di questo router, dovrai connetterti utilizzando l'IP assegnato dal Router principale. Per ottenere questo IP, controlla l'elenco dei clienti connessi nell'interfaccia utente del tuo Router principale. Se non hai accesso all'interfaccia utente del router principale, puoi ripristinare la modalità di routing tenendo premuto il pulsante di ripristino per 4 secondi.",
-        "access_router_ext_tips": "Dopo aver eseguito il bridging, se è necessario accedere all'interfaccia utente di questo Router, dovrai configurare manualmente il PC / telefono cellulare su un indirizzo IP statico nello stesso intervallo del Router. Se non riesci ancora ad accedervi, puoi ripristinare la modalità di Routing tenendo premuto il pulsante di ripristino per 4 secondi.",
+        "access_router_wds_tips": "Dopo che sarà configurato il bridging , il router otterrà automaticamente un IP dal Router principale. Se è necessario accedere all'interfaccia utente di questo router, dovrai connetterti utilizzando l'IP assegnato dal router principale. Per ottenere questo IP, controlla l'elenco dei clienti connessi nell'interfaccia utente del tuo Router principale. Se non hai accesso all'interfaccia utente del router principale, puoi ripristinare la modalità di routing tenendo premuto il pulsante di ripristino per 4 secondi.",
+        "access_router_ext_tips": "Dopo aver eseguito il bridging, se è necessario accedere all'interfaccia utente di questo Router, dovrai configurare manualmente il PC / telefono cellulare su un indirizzo IP statico nello stesso intervallo di quello del router. Se non riesci ancora ad accedervi, puoi ripristinare la modalità di routing tenendo premuto il pulsante di ripristino per 4 secondi.",
         "reset_mac_tips": "Per utilizzare il MAC clone si prega di ripristinare l'indirizzo MAC di fabbrica.",
-        "set_up_ap_tips": "Per impostare la modalità AP, è necessario inserire un cavo di rete nella porta WAN.",
+        "set_up_ap_tips": "Per impostare la modalità Punto di Accesso, è necessario inserire un cavo di rete nella porta WAN.",
         "remove_wan_tips": "Si prega di rimuovere il cavo Ethernet dalla porta WAN.",
         "enter_pwd_tips": "Si prega di inserire la password",
         "choose_ssid_tips": "Si prega di scegliere SSID",
         "relay": "Modalità Estensione",
         "router_desc": "Crea la tua rete privata. Il router fungerà da NAT, firewall e server DHCP.",
-        "wds_desc": "Simile a Extender, si prega di scegliere WDS quando il tuo Router principale supporta la modalità WDS.",
+        "wds_desc": "Simile a Extender, si prega di scegliere WDS quando il tuo router principale supporta la modalità WDS.",
         "ap_desc": "Connettiti a una rete cablata e trasmetti una rete wireless.",
         "relay_desc": "Estendi la copertura Wi-Fi di una rete wireless esistente.",
         "lan_conflict_msg": "La sottorete LAN è in conflitto con la sottorete Wi-Fi da collegare, impostare una sottorete diversa.",
         "get_ip_fail_msg": "Impossibile ottenere l'IP.",
         "connet_fail_msg": "Connessione fallita.",
         "bridge_pattern_label": "Bridge",
-        "bridge_pattern_desc": "Connettersi a una rete cablata."
+        "bridge_pattern_desc": "Connettiti ad una rete cablata."
     },
     "menu_bridge": "Modalità di rete"
 }
