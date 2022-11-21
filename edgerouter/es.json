@@ -1,7 +1,12 @@
 {
     "edgerouter": {
-        "desc": "En el modo de usurpación de puerta de enlace, el router utilizará la suplantación de ARP para que los clientes en la LAN lo utilicen de puerta de enlace. Para más detalles, por favor vea $$$$ Drop-in Gateway Topology $$$$. Puede utilizar este modo para extender la funcionalidad de su router primario.",
-        "enable_label": "Activar modo de usurpación de puerta de enlace"
+        "desc": "Cuando la suplantación (spoofing) de puerta de enlace está activo, todo el tráfico de los clientes en la red es primeramente procesado por éste enrutador. Para más detalles, por favor vea $$$$ Drop-in Gateway Topology $$$$. Puede utilizar este modo para extender la funcionalidad de su enrutador primario.",
+        "enable_label": "Activar modo de suplantación (spoofing) de puerta de enlace",
+        "dhcp_closed_tips": "El servicio de DHCP en el enrutador principal está deshabilitado, la suplantación (spoofing) de puerta de enlace está trabajando.",
+        "enable_tips": "Cuando la suplantación (spoofing) de puerta de enlace está trabajando, el servicio de DNS de ésta puerta de enlace es utilizado en reemplazo de el DNS de la ruta principal.",
+        "dhcp_on_warning_tips": "Suplantación (spoofing) de puerta de enlace está habilitado.",
+        "dhcp_on_tips": "El servicio de DHCP aún está habilitado en el enrutador principal. Es posible que la suplantación (spoofing) de puerta de enlace no funcione correctamente. Por favor $$$$vaya a la administración de la puerta de enlace principal$$$$ para desactivar el servicio de DHCP, o ajuste su puerta de enlace para que apunte a {ip}.",
+        "dhcp_set_gateway_tips": "El servicio de DHCP en el enrutador principal ha sido ajustado correctamente a {ip}, la suplantación (spoofing) de puerta de enlace está trabajando."
     },
-    "menu_edgerouter": "usurpación de puerta de enlace"
+    "menu_edgerouter": "Suplantación (spoofing) de puerta de enlace"
 }
