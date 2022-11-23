@@ -1,6 +1,12 @@
 {
     "edgerouter": {
         "desc": "Im Einlassschleuse-Modus wird der Router ARP Spoofing anwenden, damit die Clients im lokalen Netzwerk ihn als lokales Gateway benutzen. Für weitere Details, sehen Sie sich bitte die Drop-In Gateway Topologie an. Sie können diesen Modus benutzen, um die Funktionalität ihres Haupt-Routers zu erweitern.",
-        "enable_label": "Einlassschleuse-Modus aktivieren"
+        "enable_label": "Einlassschleuse-Modus aktivieren",
+        "dhcp_closed_tips": "Der DHCP-Dienst des Haupt-Routers ist ausgeschalten; das drop-in gateway funktioniert nicht.",
+        "dhcp_on_tips": "Der DHCP-Dienst ist noch aktiviert auf dem Haupt-Router. Das drop-in gateway funktioniert möglicherweise nicht ordnungsgemäß. Bitte $$$$gehen sie zum Haupt-Router Panel$$$$ um den DHCP-Dienst zu deaktivieren oder um seinem Gateway die IP-Adresse {ip} zuzuweisen.",
+        "enable_tips": "Falls das drop-in gateway funktioniert, wird der DNS dieses Routers anstatt des DNS des Haupt-Routers verwendet.",
+        "dhcp_on_warning_tips": "Das drop-in gateway ist eingeschalten.",
+        "dhcp_set_gateway_tips": "Der DHCP-Dienst auf dem Haupt-Router hat ordnungsgemäß das Gateway auf {ip} gesetzt; das drop-in gateway funktioniert.",
+        "auto_set_tips": "Die DHCP-Einstellungen des übergeordneten Routers wurden als geändert erkannt, und der Router wird möglicherweise nicht ordnungsgemäß seine Funktion ausführen können. Bitte $$$$Synchronisieren Sie die Einstellungen des DHCP$$$$ oder ändern Sie die Einstellungen manuell."
     }
 }
