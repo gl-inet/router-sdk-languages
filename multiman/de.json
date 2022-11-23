@@ -1,6 +1,10 @@
 {
     "multiwan": {
-        "tips": "Der Router unterstützt den gleichzeitigen Anschluss mehrerer Netzwerkschnittstellen. Sie können festlegen, wie diese verwendet werden sollen."
+        "tips": "Der Router unterstützt den gleichzeitigen Anschluss mehrerer Netzwerkschnittstellen. Sie können festlegen, wie diese verwendet werden sollen.",
+        "failover_desc": "Ausfallsicherung: Falls die verwendete Verbindung fehlschlägt, wird der Router automatisch auf eine andere Schnittstelle umschalten.",
+        "mode_label": "Modus",
+        "mode_failover_tips": "Der Router wählt automatisch die verfügbare Schnittstelle mit der höchsten Priorität.",
+        "balancing_desc": "Lastverteilung: Verwendung mehrerer Schnittstellen zur selben Zeit, um die gesamte Bandbreite des Routers zu vergrößern."
     },
     "menu_multiwan": "Multi-WAN"
 }
