@@ -67,7 +67,11 @@
         "learn_more": "了解更多",
         "auto": "自动",
         "edit": "编辑",
-        "characters_hint": "$$$$ 位"
+        "characters_hint": "$$$$ 位",
+        "maximum_byte_tips": "至多 {count} 个字节",
+        "begin_not_allow_tips": "不能使用字符 {char} 之一开头",
+        "not_allow_use_tips": "不允许使用字符 {char}",
+        "has_been_used_tips": "不允许相同的 {label}"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
