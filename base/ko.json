@@ -71,7 +71,18 @@
         "lock": "",
         "view_less": "",
         "upload": "",
-        "loacl": ""
+        "loacl": "",
+        "has_been_used_tips": "",
+        "router_time": "",
+        "maximum_byte_tips": "",
+        "not_allow_use_tips": "",
+        "view": "",
+        "whitelist": "",
+        "select_btn": "",
+        "password_tips": "",
+        "drag_sort": "",
+        "all_select_btn": "",
+        "select_none_btn": ""
     },
     "msg": {
         "access_denied": "유효하지 않은 사용자, 권한이 거부되거나 로그인하지 못했습니다.",
@@ -79,7 +90,9 @@
         "being_process": "",
         "installing": "",
         "uninstalling": "",
-        "processing": ""
+        "processing": "",
+        "success": "",
+        "unknown_err": ""
     },
     "upload": {
         "select_or_drag": "파일을 선택하거나 여기로 끕니다",
@@ -96,7 +109,8 @@
         "min": "",
         "day": "",
         "hour": "",
-        "ms": ""
+        "ms": "",
+        "for_last_time": ""
     },
     "internet": {
         "lan_ip_tips": "",
@@ -109,6 +123,8 @@
         "band_width": "",
         "unlocked": "",
         "frequency": "",
-        "client": ""
+        "client": "",
+        "offline_tips": "",
+        "up_not_online_tips": ""
     }
 }
