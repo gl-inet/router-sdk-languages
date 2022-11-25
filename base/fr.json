@@ -71,7 +71,18 @@
         "unlock": "",
         "view_less": "",
         "upload": "",
-        "loacl": ""
+        "loacl": "",
+        "maximum_byte_tips": "",
+        "router_time": "",
+        "select_btn": "",
+        "view": "",
+        "whitelist": "",
+        "password_tips": "",
+        "not_allow_use_tips": "",
+        "has_been_used_tips": "",
+        "drag_sort": "",
+        "all_select_btn": "",
+        "select_none_btn": ""
     },
     "msg": {
         "access_denied": "ERREUR: Utilisateur invalide, permission refusée ou aucun enregistrement de connexion trouvé!",
@@ -79,7 +90,9 @@
         "being_process": "",
         "uninstalling": "",
         "installing": "",
-        "processing": ""
+        "processing": "",
+        "success": "",
+        "unknown_err": ""
     },
     "upload": {
         "select_or_drag": "Sélectionnez un fichier ou faites-le glisser ici",
@@ -96,7 +109,8 @@
         "second": "",
         "min": "",
         "hour": "",
-        "ms": ""
+        "ms": "",
+        "for_last_time": ""
     },
     "internet": {
         "getting": "",
@@ -109,6 +123,8 @@
         "unlocked": "",
         "locked": "",
         "frequency": "",
-        "client": ""
+        "client": "",
+        "offline_tips": "",
+        "up_not_online_tips": ""
     }
 }
