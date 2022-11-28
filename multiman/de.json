@@ -4,7 +4,16 @@
         "failover_desc": "Ausfallsicherung: Falls die verwendete Verbindung fehlschlägt, wird der Router automatisch auf eine andere Schnittstelle umschalten.",
         "mode_label": "Modus",
         "mode_failover_tips": "Der Router wählt automatisch die verfügbare Schnittstelle mit der höchsten Priorität.",
-        "balancing_desc": "Lastverteilung: Verwendung mehrerer Schnittstellen zur selben Zeit, um die gesamte Bandbreite des Routers zu vergrößern."
+        "balancing_desc": "Lastverteilung: Verwendung mehrerer Schnittstellen zur selben Zeit, um die gesamte Bandbreite des Routers zu vergrößern.",
+        "track_desc": "Der Router wird den Verbindungsstatus zur Ziel-IP-Adresse überwachen, um zu bestimmen ob die Schnittstelle verfügbar ist.",
+        "mode_balancing_tips": "Das System weist den neuen Verbindungen die Schnittstellen gemäß dem Lastverhältnis zu.",
+        "mode_balancing_note": "Hinweis: Es ist nicht sichergestellt, dass bestehende Verbindungen oder Daten dem Lastverhältnis entsprechen.",
+        "failover_label": "Ausfallsicherung",
+        "balancing_label": "Lastverteilung",
+        "track_title": "Methode der Schnittstellen-Überwachung",
+        "physical_state_monitor": "Folge der phyischen Verbindung",
+        "priority_title": "Priorität der Schnittstelle",
+        "ratio_title": "Lastverhältnis"
     },
     "menu_multiwan": "Multi-WAN"
 }
