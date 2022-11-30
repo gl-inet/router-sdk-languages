@@ -238,7 +238,8 @@
         "enable_vpn_cascading_tips": "若该选项启用，当您在该路由器上同时运行 VPN 服务器和 VPN 客户端的情况下，连接到 VPN 服务器的终端将被直接路由到 VPN 客户端隧道。",
         "auth_conflict_tips": "同一个组中的配置文件使用的验证方式必须相同。请将不同来自供应商的配置文件分开上传到不同的组。",
         "file_oversize_tips": "上传的压缩文件内的配置文件不能超过 1,000 个。",
-        "unzip_fail_msg": "解压缩文件失败。请检查该文件并重新上传。"
+        "unzip_fail_msg": "解压缩文件失败。请检查该文件并重新上传。",
+        "online_count": "{count} 在线"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
