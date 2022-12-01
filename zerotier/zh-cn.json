@@ -3,6 +3,10 @@
         "desc": "ZeroTier 能创建安全的、可在任何地方工作的点对点虚拟网络，并支持对电话、PC等设备的接入。您可以用它来远程访问你的设备或局域网。",
         "authorized_tips": "设备已连接到您的 ZeroTier 虚拟网络。",
         "unauthorized_tips": "设备已加入到 ZeroTier，请前往$$$$ZeroTier Central$$$$授权本设备连接到您的虚拟网络。",
-        "first_use_tips": "ZeroTier 使用 Network ID 连接到您的虚拟网络，这个 Network ID 需要在 $$$$ZeroTier Central$$$$ 创建。"
+        "first_use_tips": "ZeroTier 使用 Network ID 连接到您的虚拟网络，这个 Network ID 需要在 $$$$ZeroTier Central$$$$ 创建。",
+        "current_ip_label": "路由器虚拟 IP",
+        "auto_nat_tips": "若此选项启用，LAN 子网内部和 WAN 侧的资源将允许通过 ZeroTier 虚拟网络访问。",
+        "auto_nat_label": "允许远程访问 LAN&WAN",
+        "enable_nat_tips": "设备已允许 ZeroTier 客户端访问 WAN 侧和 LAN 侧的资源。但您需要在 $$$$ZeroTier Central$$$$ 中配置路由规则，客户端的请求才会被 ZeroTier 虚拟网络转发到设备："
     }
 }
