@@ -210,7 +210,7 @@
         "askpass_label": "密钥",
         "wg_revoke_key_tips": "创建 WireGuard 密钥失败。每个 Mullvad 账号下，您最多只能同时拥有五个密钥。请前往 $$$$Mullvad$$$$ 撤销一个密钥。",
         "masq_tips": "若此选项启用，当 LAN 中的客户端设备发送其 IP 数据包时，路由器将源 IP 地址替换为自己的地址，然后将其转发到 VPN 通道。",
-        "local_access_tips": "若此选项启用，可以通过 VPN 通道访问LAN子网内部的资源。",
+        "local_access_tips": "若此选项启用，LAN 子网内部的资源将允许通过 VPN 通道访问。",
         "use_vpn_only_tips": "当启用 VPN 时，开启此选项，客户端设备将依然可以访问WAN子网资源，比如打印机，NAS等设备。",
         "disable_vpn_for_services": "GL.iNet 的服务不使用 VPN",
         "view_status": "查看状态",
