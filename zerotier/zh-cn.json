@@ -7,6 +7,7 @@
         "current_ip_label": "路由器虚拟 IP",
         "auto_nat_tips": "若此选项启用，LAN 子网内部和 WAN 侧的资源将允许通过 ZeroTier 虚拟网络访问。",
         "auto_nat_label": "允许远程访问 LAN&WAN",
-        "enable_nat_tips": "设备已允许 ZeroTier 客户端访问 WAN 侧和 LAN 侧的资源。但您需要在 $$$$ZeroTier Central$$$$ 中配置路由规则，客户端的请求才会被 ZeroTier 虚拟网络转发到设备："
+        "enable_nat_tips": "设备已允许 ZeroTier 客户端访问 WAN 侧和 LAN 侧的资源。但您需要在 $$$$ZeroTier Central$$$$ 中配置路由规则，客户端的请求才会被 ZeroTier 虚拟网络转发到设备：",
+        "not_found_tips": "ZeroTier 未找到此 Network ID，请检查您的输入。"
     }
 }
