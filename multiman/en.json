@@ -27,6 +27,7 @@
         "both_label": "Both",
         "flush_track_tips": "If this option is enabled, when the networking interface changes, the router will refresh all existing data streams to ensure they use the higher priority interface. This avoids unnecessary traffic loss, but can also lead to increased network volatility (some VPNs may not reconnect immediately).",
         "flush_track_label": "Forced Refresh Streams",
-        "enable_check_label": "Enable Internet Status Tracking"
+        "enable_check_label": "Enable Internet Status Tracking",
+        "interface_state_label": "网络状态"
     }
 }
