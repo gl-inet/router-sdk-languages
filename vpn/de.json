@@ -116,6 +116,9 @@
         "log_level": "Detail-Grad",
         "client_each_other": "Client-zu-Client",
         "upload": "Hochladen",
-        "ovpn_init_tips": "Bei der Initialisierung des OpenVPN Servers wird der Router automatisch verschlüsselte Dateien, wie z.B. das Server Wurzelzertifikat, für Sie generieren, um die Sicherheit ihrer Kommunikation zu gewährleisten.  Falls Sie mit OpenVPN bereits vertraut sind, können Sie es auch $$$enter manually$$$."
+        "ovpn_init_tips": "Bei der Initialisierung des OpenVPN Servers wird der Router automatisch verschlüsselte Dateien, wie z.B. das Server Wurzelzertifikat, für Sie generieren, um die Sicherheit ihrer Kommunikation zu gewährleisten.  Falls Sie mit OpenVPN bereits vertraut sind, können Sie es auch $$$enter manually$$$.",
+        "client_auth_tips": "Der Router wird automatisch einen Server- und Klient-Zertifikats-Schlüssel generieren, und ihn in die Konfigurations-Datei schreiben, wenn er die Konfigurations-Datei des Klienten erzeugt.",
+        "export_config": "Klienten-Konfiguration exportieren",
+        "listen_port": "Lauschender Port"
     }
 }
