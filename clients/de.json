@@ -3,8 +3,8 @@
         "name": "Name",
         "speed": "Geschwindigkeit",
         "traffic": "Verkehr",
-        "online_client": "Online-Kunden",
-        "offline_client": "Offline-Kunden",
+        "online_client": "Verbundene Geräte",
+        "offline_client": "Nicht verbundene Geräte",
         "access_wan": "WAN-Zugriff",
         "block_wan": "WAN blockieren",
         "action": "Aktion",
@@ -16,8 +16,8 @@
         "upload": "hochladen",
         "download": "herunterladen",
         "limit_speed_title": "Geschwindigkeit begrenzen",
-        "delete_all_caution": "Möchten Sie alle Geräte aus der Liste entfernen?\nDie Aktion hindert den Client nicht daran, sich erneut mit dem Router zu verbinden. Alle Einstellungen für diese Clients werden ebenfalls entfernt.",
-        "delete_caution": "Möchten Sie das Gerät aus der Liste entfernen?\nDie Aktion verhindert nicht, dass sich der Client erneut mit dem Router verbindet. Alle Einstellungen für den Client werden ebenfalls entfernt.",
+        "delete_all_caution": "Sind Sie sicher, dass Sie alle Geräte aus der Liste entfernen wollen?\nDie Aktion hindert die Geräte nicht daran, sich erneut mit dem Router zu verbinden. Alle Einstellungen für diese Geräte werden ebenfalls entfernt.",
+        "delete_caution": "Sind Sie sie sicher, dass Sie dieses Gerät aus der Liste entfernen wollen?\nDie Aktion verhindert nicht, dass sich das Gerät erneut mit dem Router verbindet. Alle Einstellungen für das Gerät werden ebenfalls entfernt.",
         "random_mac_tips": "Dies ist eine zufällige MAC-Adresse.",
         "random_mac_warning_tips": "Ihre Einstellungen für den Client können aufgrund von Änderungen in der MAC-Adresse des Geräts ungültig werden.",
         "phone": "Telefon",
@@ -41,7 +41,10 @@
         "unlimited_hint": "Unbegrenzt",
         "television": "Fernseher",
         "smart_appliances": "Smarthome-Geräte",
-        "watch": "Smartwatch/Fitnesstracker"
+        "watch": "Smartwatch/Fitnesstracker",
+        "clear_traffic_label": "Leere die Verbindungsstatistiken",
+        "clear_traffic_caution": "Sind Sie sicher, dass Sie alle Verbindungsstatistiken löschen wollen?",
+        "clear_btn": "Leeren"
     },
-    "menu_clients": "Kunden"
+    "menu_clients": "Gerät"
 }
