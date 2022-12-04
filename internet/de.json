@@ -1,9 +1,9 @@
 {
     "cable": {
-        "title": "Kabel",
-        "no_wan": "Kein Kabel am WAN Anschluss erkannt, bitte verbinden Sie ein Internetkabel.",
-        "rm_wan_cable": "Bitte entfernen Sie das Internetkabel vom WAN Anschluss.",
-        "wan_been_lan": "WAN Anschluss wird als LAN Anschluss verwendet. Sie können es unten auf WAN zurücksetzen",
+        "title": "Ethernet",
+        "no_wan": "Kein Kabel am WAN Anschluss erkannt, bitte verbinden Sie ein Ethernetkabel.",
+        "rm_wan_cable": "Bitte entfernen Sie das Ethernetkabel vom WAN Anschluss.",
+        "wan_been_lan": "Der WAN Port wird aktuell als LAN Port verwendet. Sie können ihn unten auf WAN zurücksetzen",
         "confirm_to_lan": "Bitte bestätigen: Möchten Sie den WAN Anschluss als LAN Anschluss benutzen?",
         "confirm_to_wan": "Bitte bestätigen: Möchten Sie den WAN Anschluss zurück zum WAN Anschluss umschalten?",
         "repeated": "Erfolgreich verbunden, ohne erneut eine Verbindung herstellen zu müssen",
@@ -11,8 +11,9 @@
         "using_as_wan": "Gegenwärtig als WAN im Einsatz, $$$$Zu LAN wechseln$$$$",
         "setting": "Etherneteinstellungen",
         "pppoe_vlanid_tips": "Diese Einstellung wird nur benötigt, wenn der Provider eine VLAN-ID verlangt.",
-        "pppoe_log": "PPPoE-Verbindungslog",
-        "dhcp_tips": "zugewiesene IP-Adresse"
+        "pppoe_log": "PPPoE-Verbindungsprotokoll",
+        "dhcp_tips": "Von einem höheren Netzwerkgerät zugewiesene IP-Adresse.",
+        "egderouter_mode_tips": "Das Drop-in gateway ist aktiviert. Wenn du die Ethernet Einstellungen ändern willst, deaktiviere bitte $$$$das Drop-in Gateway$$$$ zuerst."
     },
     "tethering": {
         "title": "Netzwerkfreigabe",
@@ -20,10 +21,10 @@
         "no_device_tips": "Kein Tethering-Gerät gefunden, Schließen Sie Ihr Smartphone oder USB-Modem an, um zu starten."
     },
     "repeater": {
-        "title": "Repeater",
+        "title": "Verstärker",
         "known_net": "bekannte Netzwerke",
         "options": "Repeater Optionen",
-        "no_tips": "Repeater (STA) ist deaktiviert",
+        "no_tips": "Verstärker (STA) ist deaktiviert.",
         "key": "Passwort",
         "lock_bssid": "Feste BSSID",
         "unlock": "Auto",
@@ -42,7 +43,7 @@
         "retry_connet_tips": "Verbindung fehlgeschlagen, versuche es später erneut…",
         "lock_bssid_tips": "Wenn diese Option aktiviert ist wird sich der Router nur zum Accesspunkt mit der festgelegten BSSID verbinden.",
         "advanced_settings": "Erweiterte Einstellungen",
-        "allow_dfs": "Repeating von DFS-Kanälen zulassen",
+        "allow_dfs": "Verstärkung von DFS-Kanälen erlauben",
         "allow_dfs_tips2": "Andernfalls stellt der Router keine Verbindung zu einem WLAN her, das den DFS-Kanal verwendet.",
         "retry_disable_guest_tips": "Während des Versuchs, die Verbindung wiederherzustellen, sucht Ihr Router periodisch nach WLAN-Netzwerken und Ihr Gast-WLAN ist während dieser Suche vorübergehend nicht verfügbar.",
         "scan_disable_guest_tips": "Während der Suche nach WLAN-Signalen ist Ihr Gastnetzwerk vorübergehend für etwa 10 Sekunden nicht verfügbar. Möchten Sie fortfahren?",
@@ -53,9 +54,11 @@
         "allow_change": "Nutzung anderer gespeicherter Netzwerke erlauben",
         "allow_change_tips": "Wenn diese Option aktiviert ist verbindet sich der Router automatisch mit anderen gespeicherten WLANs, wenn das derzeitige WLAN nicht verfügbar ist.",
         "antijam": "20MHz Bandbreite für 2.4G erzwingen",
-        "antijam_tips": "Wenn diese Option aktiviert ist verbessert das Gerät die Stabilität der Verbindung auf Kosten einer geringeren Verbindungsgeschwindigkeit.",
+        "antijam_tips": "Falls diese Option aktiviert ist, verbessert das Gerät die Stabilität der Verbindung auf Kosten einer geringeren Verbindungsgeschwindigkeit.",
         "encryption": "Sicherheit",
-        "identity": "Benutzername"
+        "identity": "Benutzername",
+        "allow_dfs_tips1": "Wenn die Option aktiviert ist und der Router WLAN auf einem beliebigen DFS-Kanal verstärkt, folgt er der Quelle, um den DFS-Kanal zu vermeiden. Wenn dies möglich ist, verwendet das eigene 5-GHz-WLAN des Routers den DFS-Kanal. Andernfalls schaltet das eigene 5-GHz-WLAN des Routers zurück auf den Nicht-DFS-Kanal.",
+        "fail_mac_tips": "Die MAX des Routers kann nicht dieselbe, wie die eines WLAN Gerätes sein, bitte $$$$bearbeite die MAC des Klons$$$$ oder bearbeite die MAC Adresse auf dem Gerät."
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -80,7 +83,7 @@
         "password": "Passwort",
         "sim_not_registered": "SIM-Karte nicht registriert",
         "sim_lock": "Die SIM-Karte wurde gesperrt, bitte geben Sie den PIN-Code ein, um sie zu entsperren.",
-        "connect_fail_tips": "Verbindung fehlgeschlagen, erneute Verbindung",
+        "connect_fail_tips": "Verbindung fehlgeschlagen, verbinde erneut…",
         "auto_setup": "Automatisches Einrichten",
         "clear_traffic": "Automatisches Sichern von Verkehrsstatistiken ausschalten",
         "manual_setup": "Manuelles Setup",
@@ -94,7 +97,8 @@
         "clear_traffic_tips": "Wenn diese Option aktiviert ist sichert das System die Verkehrsstatistiken nicht automatisch.",
         "not_compatible": "Inkompatibles Modem",
         "no_sim_tips": "Ihre SIM-Karte wird nicht erkannt. Überprüfen Sie bitte, ob die Karte richtig herum eingelegt ist und der Kontakt gut ist. Das Modem unterstützt keinen SIM-Kartentausch während des Betriebs. Wenn Sie die SIM-Karte wechseln müssen Sie $$$$das Modem neu starten$$$$ oder den Router neu starten.",
-        "ttl_tips": "Einige Netzbetreiber stellen fest, ob die SIM-Karte in einem Router verwendet wird, indem sie den TTL-Wert ermitteln. Wenn Ihre SIM-Karte im Router nicht verwendet werden kann, können sie versuchen, die TTL auf einen anderen Wert als 64 oder 128 (z. B. 65) einzustellen."
+        "ttl_tips": "Einige Netzbetreiber stellen fest, ob die SIM-Karte in einem Router verwendet wird, indem sie den TTL-Wert ermitteln. Wenn Ihre SIM-Karte im Router nicht verwendet werden kann, können sie versuchen, die TTL auf einen anderen Wert als 64 oder 128 (z. B. 65) einzustellen.",
+        "connecting_tips": "Manche SIM-Karten haben bestimme Benutzungs-Einschränkungen, diese benötigen eine bestimmte APN. Wenn deine SIM-Karte nicht registriert wird, kontaktiere bitte deine Netzbetreiber, ob es bestimmte Einschränkungen hat."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -111,7 +115,11 @@
         "copy": "Kopieren",
         "refresh": "Aktualisieren",
         "success_copy": "Erfolgreiche Kopie",
-        "reboot_sucess": "Erfolg, bitte warten Sie $$$$ Sekunden"
+        "reboot_sucess": "Erfolg, bitte warten Sie $$$$ Sekunden.",
+        "info": "Modem Information",
+        "soft_reset": "Sanfter Neustart",
+        "hardware _reset": "Harter Neustart",
+        "export_debug_info": "Debug Informationen exportieren"
     },
     "sms": {
         "title": "Kurznachricht",
@@ -141,6 +149,27 @@
         "national": "National",
         "unknown": "Unbekannt",
         "no_sms": "Keine Nachricht",
-        "detail": "SMS-Details"
-    }
+        "detail": "SMS-Details",
+        "send_error_msg2": "Unbekannter Fehler.",
+        "send_error_msg1": "Das Modem wurde nicht erkannt.",
+        "send_error_msg6": "Die aktuelle Netzwerkumgebung unterstützt die SMS Funktion nicht.",
+        "send_error_msg4": "Zeitüberschreitung beim Senden.",
+        "send_error_msg5": "Dieses Gerät unterstützt die SMS Funktion nicht.",
+        "forward_no_encryp_label": "Nichts",
+        "forward_add_email_btn": "E-Mail hinzufügen",
+        "send_error_msg3": "Fehler beim Versenden.",
+        "forward_email_tips": "Wenn du SMS Nachrichten über E-Mail weiterleiten willst, dann stelle bitte die Absenden-E-Mail zuerst ein, sie wird verwendet, um die SMS an die Ziel-E-Mail zu senden. $$$$Erfahre mehr$$$$",
+        "forward_smtp_title": "Absenden Postfach (SMTP)",
+        "forward_title": "SMS Weiterleitung",
+        "forward_email_label": "E-Mail",
+        "forward_smtp_server_label": "SMTP Server Adresse",
+        "forward_encryp_label": "Verschlüsselungsmethode",
+        "forward_email_account_label": "Nutzername",
+        "forward_email_subject_label": "Betreff",
+        "forward_email_list_title": "Ziel E-Mail",
+        "forward_email_subject_tips": "Die können den Betreff anpassen, um zu unterscheiden, welche Telefonnummer die SMS erhalten hat.",
+        "forward_add_phone_btn": "Telefonnummer hinzufügen",
+        "forward_phone_tips": "Falls Sie wollen, dass der Router SMS an Ihr Mobilfunk-Gerät weiterleitet, stellen Sie sicher, dass eine Mobilfunkverbindung besteht und diese das Versenden von SMS unterstütztz."
+    },
+    "menu_internet": "Internet"
 }
