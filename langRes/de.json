@@ -1,8 +1,8 @@
 {
     "bridge": {
-        "tips_one": "Wenn Sie den Arbeitsmodus des Routers ändern, müssen Sie möglicherweise alle Ihre Endgeräte erneut verbinden.",
+        "tips_one": "Wenn Sie den Netzwerkmodus des Routers ändern, müssen Sie möglicherweise alle Ihre Endgeräte erneut verbinden.",
         "tips_two": "Wenn Sie den $$$$-Modus verwenden, können Sie sich eventuell nicht erneut mit dieser Benutzeroberfläche verbinden. Sie können die Reset-Taste 4 Sekunden lang gedrückt halten, um zum Router-Modus zurückzukehren.",
-        "mode_switch": "Modusschalter",
+        "mode_switch": "Modus-Schalter",
         "router": "Router",
         "ap": "Zugangspunkt",
         "wds": "WDS",
@@ -24,7 +24,9 @@
         "relay_desc": "Erweitern sie die WLAN Reichweite eines bestehenden WLANs.",
         "connet_fail_msg": "Verbindung fehlgeschlagen.",
         "lan_conflict_msg": "Das lokale Subnetz kollidiert mit dem zu verbindenden WLAN Subnetz: Bitte wählen Sie ein anderes Subnetz.",
-        "get_ip_fail_msg": "Es konnte keine IP Adresse zugeteilt werden."
+        "get_ip_fail_msg": "Es konnte keine IP Adresse zugeteilt werden.",
+        "bridge_pattern_label": "Brücke",
+        "bridge_pattern_desc": "Verbunden mit einem verkabelten-Netzwerk."
     },
     "menu_bridge": "Netzwerk-Modus"
 }
