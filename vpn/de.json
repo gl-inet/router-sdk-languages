@@ -212,7 +212,17 @@
         "keep_alive": "Halten",
         "disable_vpn_for_services": "Dienste von GL.iNet benutzen keine VPN",
         "following_mac_label": "Verkehr von dem folgenden Gerät",
-        "enable_vpn_cascading": "Aktiviere VPN Cascading"
+        "enable_vpn_cascading": "Aktiviere VPN Cascading",
+        "base_on_web_tips": "In diesem Modus wird nur der Verkehr bestimmter Webseiten $$$$defined bz IP address or domain name$$$$ durch das VPN gehen. Lediglich ein einziger VPN Klient kann aktiviert werden.",
+        "base_on_device_tips": "In diesem Modus wird nur der Verkehr bestimmter lokaler Geräte $$$$defined by MAC address$$$$ durch das VPN gehen. Lediglich ein einziger VPN Klient kann aktiviert werden.",
+        "has_auth_tips": "Benutzername-/Passwort-Verifizierung ist aktiviert, und Klienten-Geräte bedürfen eines beliebigen Benutzernamens/Passworts von der Liste, um sich mit dem OpenVPN-Server zu verbinden.",
+        "wgserver_peer_list_desc": "Jedes Klient-Gerät, das sich mit dem WireGuard Server verbinden möchte, benötigt eine einzigartige Gegenstellen-Konfiguration; Sie müssen also für jedes Gerät eine eigene Konfiguration erzeugen. Jede Konfiguration muss eine einzigartige Klienten-IP verwenden.",
+        "access_by_dev_desc": "Mittels MAC Filter-Modus können Sie exakt bestimmen, ob ein bestimmter Klient in ihrem lokalen Netzwerk auf das Internet mittels VPN und durch die MAC-Adresse des Klienten festgelegt, zugreifen darf.",
+        "domain_name_tips": "Der Domänen-Name in der Liste wird wird der eigenen Subdomäne entsprechen: z.B. google.com wird mail.google.com entsprechen.",
+        "base_on_vlan_tips": "In diesem Modus kann $$$$only the traffic of certain VLAN$$$$ durch das VPN gehen. Lediglich ein einziger VPN Klient kann aktiviert werden.",
+        "set_key_manually_tips": "Der Router wird automatisch ein Schlüßelpaar für Sie erzeugen. Falls Sie mit WireGuard vertraut sind, und das Schlüsselpaar aktualisieren oder einen pre-shared Schlüssel erzeugen möchten, können Sie die hier manuell vornehmen",
+        "peer_deprecated_tips": "Die Konfiguration der Klienten-Gegenstelle ist ungültig aufgrund einer Änderung in der Server-Konfiguration. Bitte erzeugen Sie eine neue Gegenstellen-Konfiguration für ihr Gerät.",
+        "traffic_use_vpn_label": "Der Verbrauch des Geräts des Klienten"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
