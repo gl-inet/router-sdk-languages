@@ -232,7 +232,11 @@
         "use_vpn_only_tips": "Falls diese Option aktiviert ist, haben Klienten-Geräte noch Zugriff auf das WAN, z.B. Zugriff auf Drucker, NAS, etc. im übergeordneten Subnetz, während das VPN verbunden ist.",
         "disable_vpn_for_services_tips": "Falls diese Option aktiviert ist, werden Dienste auf dem Router, deren Funktionieren normalerweise von echten IP-Adressen abhängt, kein VPN benutzen. Dies inkludiert GoodCloud, DDNS, rtty.",
         "use_client_tips": "Möchten Sie lieber $$$$andere VPN Dienste-Provider$$$$ verwenden oder $$$$ihren eigenen VPN Server anpassen$$$$? Erzeugen Sie eine neue Gruppe um ihre Konfigurationsdateien hinzuzufügen.",
-        "nordvpn_setup_guide": "Zugangsdaten zum NordVPN-Dienst. Falls Sie nicht wissen, wie Sie sie erlangen können, sehen Sie bitte im $$$$Setup-Leitfaden$$$$ nach."
+        "nordvpn_setup_guide": "Zugangsdaten zum NordVPN-Dienst. Falls Sie nicht wissen, wie Sie sie erlangen können, sehen Sie bitte im $$$$Setup-Leitfaden$$$$ nach.",
+        "mac_required_tips": "Gemäß der gegenwärtigen Liste müssen Sie ein Gerät hinzufügen",
+        "domain_required_tips": "Gemäß der gegenwärtigen Liste, müssen Sie einen Domänen-Namen oder IP-Adresse hinzufügen",
+        "third_lead_tips": "Fordern Sie die VPN Konfigurations-Datei von ihrem VPN-Dienste-Provider an.",
+        "enable_vpn_cascading_tips": "Falls diese Option aktiviert ist, werden zum VPN verbundene Klienten weitergeroutet zum Klienten VPN-Tunnel, wenn Sie sowohl VPN-Server als auch VPN-Client auf diesem Router im Einsatz haben."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
