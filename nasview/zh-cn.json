@@ -46,7 +46,8 @@
         "fast_share_btn": "快速设置共享",
         "no_disk_tips": "请先插入存储设备",
         "later_add_btn": "稍后添加",
-        "no_user_tips": "请至少选择一个可读写用户或只读用户。"
+        "no_user_tips": "请至少选择一个可读写用户或只读用户。",
+        "nfs_tips": "使用 exFAT 格式的磁盘无法通过 NFS 协议分享。"
     },
     "menu_nasview": "网络存储"
 }
