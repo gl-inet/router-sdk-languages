@@ -1,6 +1,6 @@
 {
     "tailscale": {
-        "desc": " Tailscale 是一项内网穿透服务，它能创建安全的、加密的、可在任何地方工作的点对点虚拟网络，并支持对电话、PC等设备的接入。您可以用它来远程访问你专用网络上的设备或局域网。",
+        "desc": "Tailscale 是一项内网穿透服务，它能创建安全的、加密的、可在任何地方工作的点对点虚拟网络，并支持对电话、PC等设备的接入。您可以用它来远程访问你专用网络上的设备或局域网。",
         "need_login_tips": "Tailscale 已开启 ，请$$$$前往绑定账号$$$$ 授权设备连接到虚拟网络。",
         "need_mandate_tips": "您的设备已登录到 Tailscale ，请$$$$前往 Tailscale Central$$$$授权设备连接到您的虚拟网络。",
         "enable_lan_tips": "设备已允许 Tailscale 客户端访问 LAN 侧的资源。您可以在$$$$Tailscale Central$$$$ 中启用路由规则，使客户端的请求被 Tailscale 虚拟网络转发到设备。",
