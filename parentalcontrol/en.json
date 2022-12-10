@@ -2,7 +2,7 @@
     "menu_parentalcontrol": "Parental Control",
     "parental": {
         "enable_lable": "Enable Parental Control",
-        "enable_auto_update_label": "启用自动更新特征库",
+        "enable_auto_update_label": "Enable Auto Update of Feature Library",
         "drop_anonymous_label": "Disable Internet Access for Unmanaged Devices",
         "view_anonymous_btn": "View Unmanaged Devices",
         "anonymous_title": "Unmanaged Devices",
@@ -56,18 +56,18 @@
         "device_title": "Devices",
         "add_device_btn": "Manage Device",
         "add_device_tips": "Please select the client device that belongs to your child or family, e.g. kid's mobile phone, tablet, games console. Please note that each client device can only be assigned to one profile.",
-        "schedule_title": "Schedule",
+        "schedule_title": "Schedules",
         "add_schedule_btn": "Add Schedule",
         "add_schedule_tips": "You can set up special time slots during which the device will use additional rules to restrict access. For example, playtimes you allow your child to play or free time slots at weekends, or times when your child needs a break.",
         "schedule_rule_label": "Schedule Ruleset",
         "execution_time_label": "Execution Time",
         "time_to_label": "{time} to {time}",
         "execution_day_label": "Execution Day(s)",
-        "day_err_msg": "Please select an execution date.",
+        "day_err_msg": "Please select an execution day(s).",
         "time_err_msg": "End time at least 15 minutes greater than start time.",
         "day_conflict_err_msg": "Other schedules already exist for {day} between {begin} and {end}, please remove them first.",
         "time_conflict_err_msg": "Other schedules already exist for between {begin} and {end}, please remove them first.",
         "begin_time_label": "Start Time",
-        "end_time_label": "结束时间"
+        "end_time_label": "End Time"
     }
 }
