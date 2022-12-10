@@ -13,7 +13,12 @@
         "working": "Ihr DDNS Service arbeitet.",
         "not_effective": "Ihr DDNS ist noch nicht wirksam. Bitte versuchen Sie es später.",
         "enable_http_tip": "HTTP ist ein unverschlüsseltes Protokoll. Bitte benutzen Sie es mit Vorsicht.",
-        "host_name": "Hostname"
+        "host_name": "Hostname",
+        "parsing_success_tips": "Die DDNS Domain verweist korrekt auf die öffentliche IP dieses Gerätes.",
+        "parsing_error_tips": "Der DNS Eintrag der DDNS Domain konnte nicht vom DNS-Server gefunden werden. Bitte überprüfen Sie die Internetverbindung dieses Gerätes.",
+        "parsing_warning_tips": "Die IP-Adresse der DDNS-Domain ist nicht mit der WAN-IP ihres Gerätes identisch. Sie benötigen eine öffentliche IP-Adresse, um dynamisches DNS zu verwenden. Wenn dieser Router hinter einem NAT ist, muss ggf. eine Portweiterleitung in ihrem Modem eingerichtet werden. Falls Sie den VPN Client aktiviert haben, schalten Sie bitte die Option „Dienste von GL.iNet benutzen keine VPN“ in den Globalen-Einstellungen aus.",
+        "parsing_label": "IP-Adresse der DNS Auflösung",
+        "parsing_interface_title": "Schnittstellen WAN-IP"
     },
     "menu_dynamicdns": "Dynamisches DNS"
 }
