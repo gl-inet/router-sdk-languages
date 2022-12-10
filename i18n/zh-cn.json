@@ -13,7 +13,12 @@
         "working": "你的 DDNS 服务正常。",
         "not_effective": "你的 DDNS 解析尚未生效，请稍后重试。",
         "enable_http_tip": "HTTP 是未加密的协议，请谨慎使用。",
-        "host_name": "域名"
+        "host_name": "域名",
+        "parsing_success_tips": "DDNS 域名已经正确的被解析为本设备的公网 IP。",
+        "parsing_error_tips": "未能在 DNS 服务器中找到此 DDNS 域名的 DNS 记录。请检查设备的互联网连接。",
+        "parsing_interface_title": "接口 WAN IP",
+        "parsing_warning_tips": "解析 DDNS 域名获得的 IP 与本设备的 WAN IP 均不相同。你必须有一个公网IP地址才能使用动态 DNS。如果此路由器在防火墙的后面，你需要在你的主路由器上面设置端口转发。如果您开启了 VPN Client，请在全局选项中开启 “GL.iNet 的服务不使用 VPN”。",
+        "parsing_label": "DDNS 域名解析结果"
     },
     "menu_dynamicdns": "动态 DNS"
 }
