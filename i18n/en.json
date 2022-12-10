@@ -14,11 +14,11 @@
         "not_effective": "Your DDNS is not effective yet. Please try later.",
         "enable_http_tip": "HTTP is a non-encrypted protocol. Please use with caution.",
         "host_name": "Host Name",
-        "parsing_success_tips": "解析成功！本地 IP 已匹配到公共网络 IP",
-        "parsing_error_tips": "解析失败，服务器无对应 IP",
-        "parsing_warning_tips": "DDNS已解析，但未匹配到公共网络 IP .xxxxxx",
-        "parsing_label": "DDNS 解析地址",
-        "parsing_interface_title": "接口 IP"
+        "parsing_success_tips": "The DDNS domain has been correctly resolved to the public IP of this device.",
+        "parsing_error_tips": "The DNS record for this DDNS domain could not be found in the DNS server. Please check the Internet connection of the device.",
+        "parsing_warning_tips": "The IP from DDNS domain resolution is not the same as the WAN IPs of the device. You need an Internet Public IP address to use the Dynamic DNS. If this router is behind NAT, you may need to set up port forward in your ISP router. If you have VPN Client enabled, please turn on \"Services from GL.iNet don't Use VPN\" in the global options.",
+        "parsing_label": "IP from DDNS Domain Resolution",
+        "parsing_interface_title": "Interface WAN IP"
     },
     "menu_dynamicdns": "Dynamic DNS"
 }
