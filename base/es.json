@@ -42,7 +42,7 @@
         "not_allow_weak": "Prevenir Contraseña Débil",
         "delete_all_caution": "¿Está seguro de que desea borrar todas las entradas?",
         "clear_all_caution": "¿Está seguro de que desea borrar todo?",
-        "password_tips": "$$$$ caracteres y máximo $$$$ caracteres",
+        "password_tips": "Mínimo $$$$ caracteres y máximo $$$$ caracteres",
         "security_password_tips": "Se requieren al menos dos letras mayúsculas, minúsculas, números y símbolos",
         "please_choose": "Seleccionar",
         "options": "Opciones",
@@ -67,7 +67,12 @@
         "learn_more": "Más información",
         "auto": "Auto",
         "edit": "Editar",
-        "characters_hint": "$$$$ caracteres"
+        "characters_hint": "$$$$ caracteres",
+        "maximum_byte_tips": "Máximo {count} bytes",
+        "begin_not_allow_tips": "No puede comenzar con ninguno de los caracteres {char}",
+        "not_allow_use_tips": "los caracteres {char} no son permitidos",
+        "has_been_used_tips": "No permitir el mismo {label}",
+        "view": "Ver"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
