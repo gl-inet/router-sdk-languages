@@ -20,7 +20,7 @@
         "is_ok_th": "Validez",
         "usable": "Utilizable",
         "unusable": "Inutilizable",
-        "share_link_btn": "Compartir Enlace",
+        "share_link_btn": "Enlace compartido",
         "add_share_title": "Añadir Carpeta Compartida",
         "set_share_title": "Configuración de Carpeta Compartida",
         "server_config_title": "Configuración de Samba",
@@ -46,7 +46,8 @@
         "no_disk_tips": "Inserte primero el dispositivo de almacenamiento",
         "share_link_tips": "La carpeta se ha compartido. Utilice el siguiente enlace para montar esta carpeta como un disco en red en su PC o Teléfono. $$$$Setup Guide$$$$",
         "later_add_btn": "Añadir más tarde",
-        "no_user_tips": "Por favor, seleccione al menos un usuario de escritura o de sólo lectura."
+        "no_user_tips": "Por favor, seleccione al menos un usuario de escritura o de sólo lectura.",
+        "nfs_tips": "Discos con formato exFAT no se pueden compartir utilizando el protocolo NFS."
     },
     "menu_nasview": "Almacenamiento en Red"
 }
