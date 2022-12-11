@@ -1,1 +1,14 @@
-{}
+{
+    "tailscale": {
+        "need_mandate_tips": "El enrutador está asignado a la cuenta de Tailscale pero no ha sido autorizado para tener acceso a la red. Por favor vaya a $$$$ Tailscale Admin Console$$$$ para autorizar a que el enrutador se conecte a su red virtual. Si está asignado a una cuenta que no es suya, remueva la asignación primero.",
+        "ready_tips": "El enrutador está conectado a su red virtual Tailscale.",
+        "account_label": "Asignar Cuenta",
+        "logout_btn": "Remover Asignación",
+        "desc": "Tailscale permite que pueda acceder de forma fácil y segura sus dispositivos desde cualquier parte del mundo. Utiliza conexiones punto-a-punto encriptadas, lo que significa que solo los dispositivos en su red privada pueden comunicarse entre sí. Puede utilizar Tailscale para acceder a sus dispositivos o red local de forma remota.",
+        "enable_lan_tips": "El enrutador ya permite que clientes Tailscale tengan acceso a la red local (LAN), pero es necesario crear reglas de enrutamiento (routing rules) en $$$$Tailscale Admin Console$$$$ para que las conexiones de los clientes sean re-enviadas al enrutador a través de la red virtual Tailscale.",
+        "enable_lan_label": "Permitir el acceso remoto a la red local (LAN)",
+        "current_ip_label": "Dirección IP Virtual del Enrutador",
+        "need_login_tips": "El servicio de Tailscale ha sido activado pero no ha sido asignado aún. Por favor asigne éste enrutador a su cuenta de Tailscale a través de $$$$The Device Bind Link$$$$.",
+        "get_url_err_msg": "No fué posible obtener un link que permita asignar el enrutador."
+    }
+}
