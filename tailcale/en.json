@@ -9,6 +9,7 @@
         "account_label": "Bind Account",
         "logout_btn": "Unbind",
         "current_ip_label": "Router Virtual IP",
-        "get_url_err_msg": "Failed to get device binding link."
+        "get_url_err_msg": "Failed to get device binding link.",
+        "allow_lan_wan_tips": "If this option is enabled, resources inside the LAN subnet and WAN side can be accessed through the Tailscale virtual network."
     }
 }
