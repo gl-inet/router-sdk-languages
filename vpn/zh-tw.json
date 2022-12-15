@@ -210,7 +210,7 @@
         "no_use_vpn": "不使用 VPN",
         "all_sites": "所有網站",
         "masq_tips": "若此選項啟用，當 LAN 中的客戶端設備發送其 IP 數據包時，路由器將源 IP 地址替換為自己的地址，然後將其轉發到 VPN 通道。",
-        "disable_vpn_for_services": "GL.iNet 的服務不使用 VPN",
+        "disable_vpn_for_services": "GL.iNet 的服務使用 VPN",
         "view_status": "查看狀態",
         "local_access_tips": "若此選項啟用，可以通過 VPN 通道訪問LAN子網內部的資源。",
         "use_vpn_only_tips": "若啟用該選項，當啟用 VPN 時，客戶端設備將依然可以訪問 WAN 側資源，比如上級子網中的打印機，NAS 等設備。",
