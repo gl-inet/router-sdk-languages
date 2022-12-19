@@ -1,1 +1,19 @@
-{}
+{
+    "parental": {
+        "group_name_label": "Nombre Del Perfil",
+        "edit_group_title": "Modificar Perfil",
+        "remove_group_tips": "Estas seguro que quieres borrar este perfil?",
+        "remove_rule_tips": "Estas seguro que quieres borrar este conjunto de reglas?",
+        "manual_add_mac_title": "Agregar Dispositivo Manualmente",
+        "drop_label": "Bloquear Acceso a Internet",
+        "drop_desc": "Quitar acceso a internet a todos los dispositivos",
+        "accept_label": "Sin Limite",
+        "accept_desc": "Aceptar todas las conexiones de internet",
+        "enable_lable": "Activar Control Para Padres",
+        "group_title": "Perfiles",
+        "remove_rule_err_default_msg": "No se puede borrar el conjunto de reglas ya que es la predeterminada de un grupo de reglas o un perfil. Por favor chequea tus perfiles.",
+        "device_type_th": "Tipo de Dispositivo",
+        "device_name_th": "Nombre de Dispositivo"
+    },
+    "menu_parentalcontrol": "Control Parental"
+}
