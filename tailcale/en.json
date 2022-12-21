@@ -10,6 +10,9 @@
         "logout_btn": "Unbind",
         "current_ip_label": "Router Virtual IP",
         "get_url_err_msg": "Failed to get device binding link.",
-        "allow_lan_wan_tips": "If this option is enabled, resources inside the LAN subnet and WAN side can be accessed through the Tailscale virtual network."
+        "allow_lan_wan_tips": "If this option is enabled, resources inside the LAN subnet and WAN side can be accessed through the Tailscale virtual network.",
+        "enable_wan_label": "Allow Remote Access WAN",
+        "allow_lan_tips": "If this option is enabled, resources inside the LAN subnet can be accessed through the Tailscale virtual network.",
+        "allow_wan_tips": "If this option is enabled, the resources on the WAN side of the router will be allowed to be accessed via the Tailscale virtual network."
     }
 }
