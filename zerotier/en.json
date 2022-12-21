@@ -4,7 +4,7 @@
         "first_use_tips": "ZeroTier connects to your virtual network using the Network ID, which needs to be created on $$$$ZeroTier Central$$$$.",
         "unauthorized_tips": "The device has been added to ZeroTier, please go to $$$$ZeroTier Central$$$$ to authorize the device to connect to your virtual network.",
         "authorized_tips": "The device is connected to your ZeroTier virtual network.",
-        "enable_nat_tips": "The device already allows ZeroTier clients to access resources on the WAN side and LAN side. But you need to set up routing rules in $$$$ZeroTier Central$$$$ for client requests to be forwarded to the device through ZeroTier virtual network:",
+        "enable_nat_tips": "The device already allows ZeroTier clients to access resources on the WAN or LAN. But you need to set up routing rules in $$$$ZeroTier Central$$$$ for client requests to be forwarded to the device through ZeroTier virtual network:",
         "auto_nat_label": "Allow Remote Access LAN&WAN",
         "auto_nat_tips": "If this option is enabled, resources inside the LAN subnet and WAN side can be accessed through the ZeroTier virtual network.",
         "current_ip_label": "Router Virtual IP",
