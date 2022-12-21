@@ -8,6 +8,10 @@
         "auto_nat_label": "Allow Remote Access LAN&WAN",
         "auto_nat_tips": "If this option is enabled, resources inside the LAN subnet and WAN side can be accessed through the ZeroTier virtual network.",
         "current_ip_label": "Router Virtual IP",
-        "not_found_tips": "ZeroTier has not found the Network ID, please check your input."
+        "not_found_tips": "ZeroTier has not found the Network ID, please check your input.",
+        "allow_lan_label": "Allow Remote Access LAN",
+        "allow_wan_label": "Allow Remote Access WAN",
+        "allow_lan_tips": "If this option is enabled, the resources inside the device LAN will be allowed to be accessed via the Tailscale virtual network.",
+        "allow_wan_tips": "If this option is enabled, the resources on the WAN side of the device will be allowed to be accessed via the Tailscale virtual network."
     }
 }
