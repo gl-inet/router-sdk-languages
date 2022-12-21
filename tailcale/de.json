@@ -9,7 +9,6 @@
         "logout_btn": "Trennen",
         "need_mandate_tips": "Dieses Gerät ist mit einem Tailscale Konto verbunden, aber der Zugriff auf das Netzwerk wurde nicht freigegeben. Bitte gehen Sie zur $$Tailscale Admin Konsole$$$, um Ihr Gerät mit Ihrem virtuellen Netzwerk zu verbinden. Falls dies nicht Ihr Konto ist, entbinden Sie es zuerst.",
         "enable_lan_tips": "Das Gerät erlaubt bereits Tailscale Geräten auf Ressourcen im LAN und WAN zuzugreifen. Aber Sie müssen Routing-Einstellungen in der $$$$Tailscale Admin Konsole$$$$ festlegen, um Geräte Anfragen an dieses Gerät durch das virtuelle Tailscale Netzwerk zu leiten.",
-        "get_url_err_msg": "Fehler beim Holen des Gerät-Verknüpfungs-Links.",
-        "allow_lan_wan_tips": "Wenn diese Option aktiviert ist, kann auf Ressourcen innerhalb des LAN-Subnetzes und der WAN-Seite über das virtuelle Netzwerk von Tailscale zugegriffen werden."
+        "get_url_err_msg": "Fehler beim Holen des Gerät-Verknüpfungs-Links."
     }
 }
