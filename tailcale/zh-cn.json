@@ -5,7 +5,7 @@
         "need_mandate_tips": "本设备已绑定到 Tailscale 账号下，但还尚未获得入网授权。请前往$$$$ Tailscale Admin Console$$$$授权设备连接到您的虚拟网络。如果这不是您的账号，请先解绑。",
         "enable_lan_tips": "设备已允许 Tailscale 客户端访问 WAN 侧和 LAN 侧的资源。但您需要在 $$$$Tailscale Admin Console$$$$ 中编辑路由设置，客户端的请求才会被 Tailscale 虚拟网络转发到设备。",
         "ready_tips": "设备已连接到您的 Tailscale 虚拟网络。",
-        "enable_lan_label": "允许远程访问 LAN&WAN",
+        "enable_lan_label": "允许远程访问 LAN",
         "account_label": "绑定账号",
         "logout_btn": "取消绑定",
         "current_ip_label": "路由器虚拟 IP",
