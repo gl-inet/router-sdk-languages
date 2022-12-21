@@ -8,6 +8,8 @@
         "auto_nat_label": "Permitir acceso remoto a LAN y WAN",
         "current_ip_label": "Dirección IP virtual del enrutador",
         "auto_nat_tips": "Si esta opción está activada, los recursos tanto en la subred LAN como en la red WAN se pueden acceder a través de la red virtual ZeroTier.",
-        "not_found_tips": "ZeroTier no ha podido encontrar el ID de red (Network ID). Por favor revise los datos que ha entrado."
+        "not_found_tips": "ZeroTier no ha podido encontrar el ID de red (Network ID). Por favor revise los datos que ha entrado.",
+        "allow_lan_label": "Permitir acceso remoto a LAN",
+        "allow_wan_label": "Permitir acceso remoto a WAN"
     }
 }
