@@ -9,6 +9,7 @@
         "auto_nat_tips": "Falls diese Option aktiviert ist, kann auf Ressourcen innerhalb des LAN Subnetzen, sowie von WAN-Seite mittels des ZeroTier virtuellen Netzwerks zugegriffen werden.",
         "not_found_tips": "ZeroTier hat keine Netzwerk ID gefunden; bitte überprüfen Sie ihre Eingabe.",
         "enable_nat_tips": "Das Gerät erlaubt bereits ZeroTier Clients, auf Ressourcen auf WAN oder LAN zuzugreifen. Aber Sie müssen noch Routing-Regeln in $$$$ZeroTier Central$$$$ für Client-Anfragen aufsetzen, damit diese zum Gerät durch das ZeroTier virtuelle Netzwerk weitergeleitet werden können:",
-        "allow_wan_label": "Entfernten Zugriff WAN erlauben"
+        "allow_wan_label": "Entfernten Zugriff WAN erlauben",
+        "allow_lan_label": "Erlaube externen LAN Zugriff"
     }
 }
