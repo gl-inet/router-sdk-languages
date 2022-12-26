@@ -2,7 +2,6 @@
     "ddns": {
         "desc": "이 라우터에 대해 동적 DNS를 활성화하고이 라우터에 원격으로 액세스 할 수 있습니다.",
         "test": "DDNS 테스트",
-        "note": "참고 : 동적 DNS를 사용하려면 인터넷 공용 IP 주소가 있어야합니다. 이 라우터가 NAT 뒤에 있으면 ISP 라우터에서 포트 포워드를 설정해야합니다.",
         "enable_http": "HTTP 원격 액세스 활성화",
         "enable_https": "HTTPS 원격 액세스 활성화",
         "enable_ssh": "SSH 원격 액세스 활성화",

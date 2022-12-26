@@ -2,7 +2,6 @@
     "ddns": {
         "desc": "你可以开启动态 DNS，以便于远程访问此设备。",
         "test": "DDNS 解析测试",
-        "note": "注意：你必须有一个公网IP地址才能使用动态 DNS。如果此路由器在防火墙的后面，你需要在你的主路由器上面设置端口转发。",
         "enable_http": "启用 HTTP 远程访问",
         "enable_https": "启用 HTTPS 远程访问",
         "enable_ssh": "启用 SSH 远程访问",

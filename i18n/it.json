@@ -2,7 +2,6 @@
     "ddns": {
         "desc": "È possibile abilitare il DNS dinamico per questo router in modo da accedervi da remoto.",
         "test": "Test di risoluzione DDNS",
-        "note": "Nota: è necessario un indirizzo IP pubblico Internet per utilizzare il DNS dinamico. Se questo router è dietro NAT, potrebbe essere necessario configurare il Port Forwarding nel router ISP.",
         "enable_http": "Abilita l'accesso alla rete esterna HTTP",
         "enable_https": "Abilita l'accesso alla rete esterna HTTPS",
         "enable_ssh": "Abilita l'accesso alla rete esterna SSH",

@@ -2,7 +2,6 @@
     "ddns": {
         "desc": "Puede activar el DNS Dinámico para éste enrutador y así tener acceso a el mismo de forma remota.",
         "test": "Prueba de DDNS (DNS Dinámico)",
-        "note": "Nota: Necesita una dirección IP pública de Internet para utilizar el DNS Dinámico. Si este enrutador está detrás de NAT, es posible que tenga que configurar el reenvío de puertos en su enrutador principal.",
         "enable_http": "Activar el acceso remoto HTTP",
         "enable_https": "Activar el acceso remoto HTTPS",
         "enable_ssh": "Activar el acceso remoto SSH",
