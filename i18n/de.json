@@ -1,6 +1,6 @@
 {
     "ddns": {
-        "desc": "Sie können Dynamisches DNS für diesen Router aktivieren und auf diesen Router entfernt zugreifen.",
+        "desc": "Sie können Dynamisches DNS für diesen Router aktivieren und auf diesen Router entfernt zugreifen. Es kann eine Verzögerung von bis zu 10 Minuten bei der Aktualisierung von DDNS-Adresse geben. Dies kann dazu führen, dass der Zugang über die DDNS-Domain nicht sofort verfügbar ist, nachdem Sie diese Aktiviert haben oder sich Ihre öffentliche IP geändert hat.",
         "test": "DDNS Test",
         "enable_http": "Aktivieren Sie den HTTP-Fernzugriff",
         "enable_https": "Aktivieren Sie den HTTPS-Fernzugriff",
