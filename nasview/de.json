@@ -35,7 +35,7 @@
         "share_name_label": "Name der Freigabe",
         "anonymity_label": "Anonymer Zugriff",
         "allow_write_label": "Erlaube Schreibzugriff",
-        "public_user_label": "Benutzer mit Schreibzugriff",
+        "public_user_label": "Benutzer mit Lese- und Schreibzugriff",
         "readonly_user": "Benutzer mit Nur-Lese-Zugriff",
         "add_user_btn": "Benutzer hinzufügen",
         "folder_link_title": "Link zum Ordner Zugriff",
@@ -48,7 +48,8 @@
         "later_add_btn": "Später hinzufügen",
         "no_user_tips": "Bitte wählen Sie mindestens einen Benutzer mit Schreib oder Nur-Lese-Rechten.",
         "nfs_tips": "Festplatten im exFAT-Format können nicht über das NFS-Protokoll freigeben werden.",
-        "ftp_fat32_tips": "Das FTP-Protokoll unterstützt es aktuell noch nicht auf Festplatten im FAT32-Format zu schreiben."
+        "ftp_fat32_tips": "Das FTP-Protokoll unterstützt es aktuell noch nicht auf Festplatten im FAT32-Format zu schreiben.",
+        "format_th": "Format"
     },
     "menu_nasview": "Netzwerk-Speicher"
 }
