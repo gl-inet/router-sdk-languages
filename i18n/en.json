@@ -1,6 +1,6 @@
 {
     "ddns": {
-        "desc": "You can enable Dynamic DNS for this router and access this router remotely.",
+        "desc": "You can enable Dynamic DNS for this router and access this router remotely. There is a delay of up to 10 minutes in the sync of records between DNS servers. This may result in access via DDNS domains not being available immediately after you have just enabled or your public IP has changed.",
         "test": "DDNS Test",
         "enable_http": "Enable HTTP Remote Access",
         "enable_https": "Enable HTTPS Remote Access",
