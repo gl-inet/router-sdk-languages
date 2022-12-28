@@ -44,7 +44,7 @@
         "clear_all_caution": "Sei sicuro di voler cancellare tutto?",
         "delete_caution": "Sei sicuro di voler eliminare la voce?",
         "delete_all_caution": "Sei sicuro di voler eliminare tutte le voci?",
-        "password_tips": "$$$$ caratteri e massimo $$$$ caratteri",
+        "password_tips": "Minimo $$$$ caratteri e massimo $$$$ caratteri",
         "allow_password_tips": "Sono consentite lettere (maiuscole e minuscole), numeri e simboli $$$$",
         "please_choose": "Si prega di scegliere",
         "reset": "Ripristina",
@@ -67,7 +67,16 @@
         "learn_more": "Dimmi di più",
         "auto": "Automatico",
         "edit": "Modifica",
-        "characters_hint": "$$$$ caratteri"
+        "characters_hint": "$$$$ caratteri",
+        "maximum_byte_tips": "Bytes {count} massimi",
+        "begin_not_allow_tips": "Non può cominciare con uno dei caratteri {char}",
+        "not_allow_use_tips": "Non sono permessi i {char}",
+        "has_been_used_tips": "Non permettere lo stesso {label}",
+        "view": "Vedi",
+        "description": "Descrizione",
+        "all_select_btn": "Seleziona tutto",
+        "select_none_btn": "Deseleziona tutto",
+        "blacklist": "Lista di blocco"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
