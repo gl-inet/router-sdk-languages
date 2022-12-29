@@ -10,10 +10,10 @@
         "tips": "Il router supporta la connessione di più interfacce di rete contemporaneamente. È possibile stabilire come usarlo.",
         "balancing_label": "Bilanciamento del Carico",
         "track_title": "Metodo di Monitoraggio dello Stato dell'Interfaccia",
-        "physical_state_monitor": "Seguire il collegamento fisico",
+        "physical_state_monitor": "Internet sempre disponibile quando l'interfaccia è connessa",
         "priority_title": "Priorità dell'Interfaccia",
         "ratio_title": "Rapporto di Carico",
-        "track_enable_tips": "Se il tracciamento è disabilitato, lo stato di disponibilità dell'interfaccia rimarrà uguale a quello della connessione fisica.",
+        "track_enable_tips": "Se il tracciamento è disabilitato, il dispositivo penserà che l'interfaccia è collegata a Internet quando l'interfaccia è connessa (ad esempio se il cavo è collegato e si ottiene un indirizzo IP, il ripetitore sarà operativo).",
         "track_proto_label": "Protocollo di Tracciamento",
         "track_method_label": "Comando di Tracciamento",
         "interval_label": "Intervallo di Tracciamento",
@@ -25,7 +25,9 @@
         "track_addr_label": "IP di Tracciamento",
         "both_label": "Entrambi",
         "flush_track_tips": "Se questa opzione è attivata, quando l'interfaccia di rete cambia, il router aggiorna tutti i flussi di dati esistenti per garantire che utilizzino l'interfaccia a priorità più alta. Questo evita inutili perdite di traffico, ma può anche comportare una maggiore volatilità della rete (alcune VPN potrebbero non riconnettersi immediatamente).",
-        "flush_track_label": "Aggiornamento Forzato Streams"
+        "flush_track_label": "Aggiornamento Forzato Streams",
+        "enable_check_label": "Abilita il tracciamento dello stato Internet",
+        "interface_state_label": "Stato di Rete"
     },
     "menu_multiwan": "Multi-WAN"
 }
