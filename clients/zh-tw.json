@@ -3,8 +3,8 @@
         "name": "名稱",
         "speed": "速率",
         "traffic": "流量統計",
-        "delete_caution": "您想從列表中刪除該客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
-        "delete_all_caution": "您想從列表中刪除所有客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
+        "delete_caution": "您確定想從列表中刪除該客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
+        "delete_all_caution": "您確定想從列表中刪除所有客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
         "access_wan": "訪問區域網絡 (WAN)",
         "online_client": "在線客戶端",
         "offline_client": "離線客戶端",
@@ -24,7 +24,7 @@
         "television": "電視機",
         "gateway": "網關",
         "speed_tips": "此速率為最近 3 分鐘內的平均速率。 \n注意：打開此頁面時系統才開始計算速率（如打開頁面 10 秒時顯示的是最近 10 秒內平均速度），因此數值會有較大波動。",
-        "edit_device_title": "編輯客戶端設備",
+        "edit_device_title": "修改客戶端設備",
         "phone": "電話",
         "camera": "相機",
         "watch": "可穿戴設備",
@@ -41,7 +41,11 @@
         "computer": "桌面電腦",
         "pad": "平板電腦",
         "smart_appliances": "智能家電",
-        "games": "遊戲機"
+        "games": "遊戲機",
+        "hardware_acceleration_warning": "$$$$硬件加速$$$$已啟用，客戶端速度和流量統計出現異常，客戶端速度限制不起作用。",
+        "clear_traffic_label": "清除流量統計",
+        "clear_traffic_caution": "您確定要刪除所有流量統計信息嗎？",
+        "clear_btn": "清除"
     },
     "menu_clients": "客戶端"
 }
