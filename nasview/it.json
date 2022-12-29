@@ -6,7 +6,7 @@
         "add_share_title": "Aggiungi cartella condivisa",
         "user_manage_tips": "Per alcuni protocolli ( {protos} ), ogni cartella condivisa può avere permessi utente indipendenti.",
         "allow_write_label": "Permetti la Scrittura",
-        "public_user_label": "Utente con permessi di scrittura",
+        "public_user_label": "Utente con permessi di lettura e scrittura",
         "readonly_user": "Utente con permessi di sola lettura",
         "add_user_btn": "Aggiungi Utente",
         "remove_all_share_caution": "Sei sicuro di voler rimuovere tutte le cartelle condivise?",
@@ -46,7 +46,10 @@
         "no_disk_tips": "Si prega di inserire prima il dispositivo di archiviazione",
         "share_link_tips": "La cartella è stata condivisa. Usa il seguente link per montare la cartella come disco di rete nel tuo PC o Telefono. $$$$Guida di Setup$$$$",
         "later_add_btn": "Aggiungi più tardi",
-        "no_user_tips": "Per favore seleziona almeno un utente con permessi di scrittura o sola lettura."
+        "no_user_tips": "Per favore seleziona almeno un utente con permessi di scrittura o sola lettura.",
+        "nfs_tips": "I dischi in formato exFAT non possono essere condivisi attraverso il protocollo NFS.",
+        "ftp_fat32_tips": "Il protocollo FTP non supporta ancora la scrittura dati su dischi formattati in FAT32.",
+        "format_th": "Formato"
     },
     "menu_nasview": "Archiviazione di Rete"
 }
