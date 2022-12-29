@@ -12,7 +12,8 @@
         "pppoe_log": "PPPoE連接日誌",
         "setting": "有線網絡設置",
         "dhcp_tips": "由上級網絡主機分配IP。",
-        "pppoe_vlanid_tips": "此配置項僅在供應商的 PPPoE 伺服器要求接口使用已標記的特定 VLAN ID 時才需要輸入。"
+        "pppoe_vlanid_tips": "此配置項僅在供應商的 PPPoE 伺服器要求接口使用已標記的特定 VLAN ID 時才需要輸入。",
+        "egderouter_mode_tips": "Drop-in gateway (旁路由) 已啟用。如果您想修改以太網設置，請先禁用 $$$$Drop-in Gateway$$$$。"
     },
     "tethering": {
         "title": "熱點分享",
