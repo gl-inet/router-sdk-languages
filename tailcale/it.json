@@ -1,1 +1,17 @@
-{}
+{
+    "tailscale": {
+        "enable_wan_label": "Consenti accesso remoto WAN",
+        "allow_wan_tips": "Se questa opzione è abilitata, sarà consentito accedere alle risorse dentro il dispositivo WAN attraverso la rete virtuale Tailscale.",
+        "need_login_tips": "Il servizio Tailscale è abilitato, ma il dispositivo non è ancora associato. Si prega di associare questo dispositivo al tuo account Tailscale usando $$$$The Device Bind Link$$$$.",
+        "allow_lan_tips": "Se questa opzione è abilitata, sarà consentito accedere alle risorse dentro il dispositivo LAN attraverso la rete virtuale Tailscale.",
+        "need_mandate_tips": "Questo dispositivo è associato all' account Tailscale, ma non è stato autorizzato per l'accesso al network. Si prega di andare al $$$$ Tailscale Admin Console$$$$ per autorizzare il dispositivo a connettersi alla tua rete virtuale. Se questo non è il tuo account, per favore dissocialo.",
+        "ready_tips": "Il dispositivo è connesso alla tua rete virtuale Tailscale.",
+        "enable_lan_label": "Permetti l'accesso remoto LAN",
+        "account_label": "Associa Account",
+        "logout_btn": "Dissocia",
+        "current_ip_label": "IP Virtuale del Router",
+        "get_url_err_msg": "Non sono riuscito ad ottenere un link di associazione del dispositivo.",
+        "enable_lan_tips": "Il dispositivo sta già permettendo ai clients Tailscale di accedere alle risorse nella LAN o WAN, ma devi modificare l'impostazione del percorso nel $$$$Tailscale Admin Console$$$$ per far sì che le richieste dei clients siano inoltrate attraverso la rete virtuale di Tailscale.",
+        "desc": "$$$$Tailscale$$$$ fa' in modo che i dispositivi in tuo possesso possano essere accessibili in qualunque parte del mondo in maniera semplice e sicura. Abilita connessioni sicure point-to-point, il che significha che solo i dispositivi nella tua rete privata possono comunicare tra loro. Puoi usarlo per accedere ai tuoi dispositivi o LAN da remoto."
+    }
+}
