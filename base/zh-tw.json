@@ -47,7 +47,7 @@
         "please_choose": "請選擇",
         "delete_caution": "您確認要刪除該項配置嗎？",
         "delete_all_caution": "您確認要刪除所有的配置項嗎？",
-        "password_tips": "$$$$ 字元和最大 $$$$ 字元",
+        "password_tips": "最少 $$$$ 字元和最大 $$$$ 字元",
         "back": "返回",
         "use_weak_tips": "弱密碼很容易被猜到，並且還會使您的網絡面臨潛在的攻擊。",
         "disable": "禁用",
@@ -67,7 +67,16 @@
         "router_time": "路由器時間",
         "auto": "自動",
         "edit": "修改",
-        "characters_hint": "$$$$ 字符"
+        "characters_hint": "$$$$ 字符",
+        "maximum_byte_tips": "最大 {count} 字節",
+        "begin_not_allow_tips": "不能以字符開頭 {char}",
+        "not_allow_use_tips": "此字符 {char} 並不允許使用",
+        "has_been_used_tips": "不允許相同 {label}",
+        "view": "瀏覽",
+        "description": "描述",
+        "all_select_btn": "全選",
+        "select_none_btn": "全部取消選擇",
+        "blacklist": "黑名單"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -99,6 +108,7 @@
         "friday": "五",
         "saturday": "六",
         "second": "{count} 秒 | {count} 秒",
-        "min": "{count} 分鐘 | {count} 分鐘"
+        "min": "{count} 分鐘 | {count} 分鐘",
+        "hour": "{count} 小時 | {count} 小時"
     }
 }
