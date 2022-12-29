@@ -223,7 +223,7 @@
         "location_max_pre_placeholder": "無限制",
         "use_vpn_label": "有VPN",
         "no_use_vpn_label": "無VPN",
-        "disable_vpn_for_services_tips": "若啟用該選項，路由器上通常需要使用真實 IP 的服務將不使用 VPN。包括GoodCloud、DDNS、rtty。",
+        "disable_vpn_for_services_tips": "若啟用該選項，路由器上通常需要使用真實 IP 的服務將使用 VPN。包括GoodCloud、DDNS、rtty。",
         "client_dialog_title": "客戶端狀態",
         "client_count": "無客戶端 | 1 台客戶端 | {count} 台客戶端",
         "configuration": "配置",
@@ -238,7 +238,8 @@
         "enable_vpn_cascading_tips": "若該選項啟用，當您在該路由器上同時運行 VPN 服務器和 VPN 客戶端的情況下，連接到 VPN 服務器的終端將被直接路由到 VPN 客戶端隧道。",
         "auth_conflict_tips": "同一個組中的配置文件使用的驗證方式必須相同。請將不同來自供應商的配置文件分開上傳到不同的組。",
         "unzip_fail_msg": "解壓文件失敗。請檢查文件並重新上傳。",
-        "file_oversize_tips": "上傳的壓縮文件不能超過 1000 個配置文件。"
+        "file_oversize_tips": "上傳的壓縮文件不能超過 1000 個配置文件。",
+        "online_count": "{count} 在線"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
