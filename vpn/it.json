@@ -174,7 +174,7 @@
         "search_config_placeholder": "Cerca file di configurazione",
         "set_up_now_btn": "Configura ora",
         "global_proxy_tips": "Tutto il traffico passerà attraverso la VPN. Può essere attivata una sola istanza client VPN.",
-        "disable_vpn_for_services": "I servizi di GL.iNet non usano la VPN",
+        "disable_vpn_for_services": "I servizi di GL.iNet usano la VPN",
         "view_status": "Visualizza stato",
         "users": "Utenti",
         "access_by_sites_desc": "Nella modalità Nome di dominio/IP, puoi impostare quali siti Web visitare con VPN oppure quelli da visitare senza.",
@@ -221,7 +221,7 @@
         "previous _step_btn": "Indietro",
         "location_max_pre_label": "Massimo di Per Location",
         "location_max_pre_placeholder": "Senza limiti",
-        "disable_vpn_for_services_tips": "Se questa opzione è attivata, i servizi sui router che di solito richiedono l'uso di un IP reale non useranno la VPN. Questo include GoodCloud, DDNS, rtty.",
+        "disable_vpn_for_services_tips": "Se questa opzione è attivata, i servizi sui router che di solito richiedono l'uso di un IP reale useranno la VPN. Questo include GoodCloud, DDNS, rtty.",
         "no_use_vpn_label": "senza VPN",
         "use_vpn_label": "con VPN",
         "client_count": "Nessun cliente | 1 Cliente | {count} Clienti",
@@ -238,7 +238,8 @@
         "enable_vpn_cascading_tips": "Se questa opzione è abilitata, quando sia un VPN server sia un VPN Client sono attivi contemporaneamente sul router, i client connessi al server VPN saranno ulteriormente indirizzati sul tunnel del VPN client.",
         "auth_conflict_tips": "I file di configurazione nello stesso gruppo devono usare lo stesso metodo di autenticazione. Per favore carica file di configurazione di provider differenti in gruppi separati.",
         "file_oversize_tips": "Il file compresso caricato non può contenere più di 1.000 file di configurazione.",
-        "unzip_fail_msg": "Non è stato possibile decomprimere il file. Controllare il file e caricarlo nuovamente."
+        "unzip_fail_msg": "Non è stato possibile decomprimere il file. Controllare il file e caricarlo nuovamente.",
+        "online_count": "{count} Online"
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
