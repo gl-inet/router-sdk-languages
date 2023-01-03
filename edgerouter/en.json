@@ -9,6 +9,7 @@
         "dhcp_on_warning_tips": "Drop-in gateway is enabled.",
         "dhcp_set_gateway_tips": "The DHCP service on the main router has correctly set the gateway to {ip}, drop-in gateway is working.",
         "auto_set_tips": "The DHCP settings of the parent router are detected to have changed and the router may not be able to network properly. Please $$$$Sync the Settings from DHCP$$$$ or modify your settings manually.",
-        "desc_vpn": "Please note that the VPN policy of this device does not work for clients from the WAN port in drop-in gateway mode."
+        "desc_vpn": "Please note that the VPN policy of this device does not work for clients from the WAN port in drop-in gateway mode.",
+        "cable_not_connected_tips": "物理网线未连接"
     }
 }
