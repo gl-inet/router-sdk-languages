@@ -15,6 +15,6 @@
 "request_th": "Requests Count",
 "no_data": "No Data",
 "process_req_label": "AdGuard Home Handle Client Requests",
-"process_req_tips": "若此选项启用，来自客户端的请求将不再由路由器转发给 ADGuard Home。ADGuard Home 会显示请求来自哪个客户端，但基于域名的 VPN 策略将不生效。"
+"process_req_tips": "If this option is enabled, requests from clients will stop being forwarded by the router to ADGuard Home. ADGuard Home will show which client the request came from, but VPN policy based on the domain will not work."
 }
 }
