@@ -13,6 +13,8 @@
 "request_th": "Anzahl der Anfragen",
 "for_last_one_day": "für die letzten 24 Stunden",
 "not_disabled_dns_msg": "Kein anderer DNS ist deaktiviert",
-"no_data": "Keine Daten"
+"no_data": "Keine Daten",
+"process_req_label": "AdGuard Home verwaltet Geräte Anfragen",
+"process_req_tips": "Wenn diese Option aktiviert ist, werden Anfragen von Clients nicht mehr vom Router an AdGuard Home weitergeleitet. AdGuard Home zeigt an, von welchem Client die Anfrage kam, aber die VPN-Richtlinie, welche auf der Domain basiert, funktioniert nicht."
 }
 }
