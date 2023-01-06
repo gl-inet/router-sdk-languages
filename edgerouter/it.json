@@ -8,7 +8,8 @@
         "dhcp_on_tips": "Il servizio DHCP sul router principale è ancora abilitato. Il drop-in gateway potrebbe non funzionare correttamente. Per favore vai al $$$$pannello di amministratore del router principale$$$$ per disabilitare il servizio DHCP o configura il suo gateway in {ip}.",
         "dhcp_set_gateway_tips": "Il servizio DHCP nel router principale ha correttamente settato il gateway in {ip} ed il drop-in gateway è inn funzione.",
         "desc_vpn": "Si prega di notare che le politiche VPN di questo dispositivo non funzionano per i clients dalla porta WAN se in modalità drop-in gateway.",
-        "auto_set_tips": "Le impostazione DHCP del router collegato sono state cambiate e il router potrebbe non funzionare correttamente. Per favore $$$$Sync the Settings from DHCP$$$$ o cambia le tue impostazioni."
+        "auto_set_tips": "Le impostazione DHCP del router collegato sono state cambiate e il router potrebbe non funzionare correttamente. Per favore $$$$Sync the Settings from DHCP$$$$ o cambia le tue impostazioni.",
+        "cable_not_connected_tips": "Non c'è alcun cavo nella porta WAN. Inserire un cavo Ethernet."
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
