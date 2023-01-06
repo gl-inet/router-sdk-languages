@@ -8,7 +8,8 @@
         "dhcp_on_warning_tips": "Das drop-in gateway ist eingeschalten.",
         "dhcp_set_gateway_tips": "Der DHCP-Dienst auf dem Haupt-Router hat ordnungsgemäß das Gateway auf {ip} gesetzt; das drop-in gateway funktioniert.",
         "auto_set_tips": "Die DHCP-Einstellungen des übergeordneten Routers wurden als geändert erkannt, und der Router wird möglicherweise nicht ordnungsgemäß seine Funktion ausführen können. Bitte $$$$Synchronisieren Sie die Einstellungen des DHCP$$$$ oder ändern Sie die Einstellungen manuell.",
-        "desc_vpn": "Bitte beachten Sie, dass die VPN-Richtlinie dieses Geräts nicht für Clients vom WAN-Port im Drop-in-Gateway-Modus funktioniert."
+        "desc_vpn": "Bitte beachten Sie, dass die VPN-Richtlinie dieses Geräts nicht für Clients vom WAN-Port im Drop-in-Gateway-Modus funktioniert.",
+        "cable_not_connected_tips": "Am WAN-Anschluss wurde kein Kabel erkannt. Bitte stecken Sie ein Ethernet-Kabel ein."
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
