@@ -1,1 +1,11 @@
-{}
+{
+    "zerotier": {
+        "desc": "$$$$ZeroTier$$ は、どこでも使える安全なピアツーピアの仮想ネットワークを作成し、電話、PCなどのデバイスへのアクセスをサポートします。デバイスやLANへのリモートアクセスすることもできます。",
+        "unauthorized_tips": "デバイスが ZeroTier に追加されました。$$$$ZeroTier Central$$$$ でデバイスを仮想ネットワークに接続することを承認してください。",
+        "authorized_tips": "デバイスはZeroTier仮想ネットワークに接続されています。",
+        "current_ip_label": "ルーターの仮想 IP",
+        "auto_nat_label": "LAN&WANのリモートアクセスを許可する",
+        "not_found_tips": "ZeroTierはネットワークIDを見つけられませんでした。入力を確認してください。",
+        "first_use_tips": "ZeroTier は、$$$$ZeroTier Central$$$$ で作成する必要があるネットワーク ID を使用して仮想ネットワークに接続します。"
+    }
+}
