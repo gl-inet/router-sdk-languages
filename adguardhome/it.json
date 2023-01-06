@@ -13,6 +13,8 @@
 "tips": "Se vuoi eseguire una configurazione avanzata di AdguardHome, vai alla $$$$Pagina delle Impostazioni$$$$.",
 "not_disabled_dns_msg": "Nessun altro DNS è disabilitato",
 "no_data": "Nessun dato",
-"desc": "AdGuard Home è un software di rete per bloccare gli annunci e il tracciamento. Dopo averlo impostato, coprirà tutti i tuoi dispositivi domestici e non avrai bisogno di alcun altro software lato client. Questa pagina ottiene le statistiche attraverso l'API fornita da AdGuard Home. Quando AdGuard Home è abilitato, il router forzerà l'uso dei server DNS forniti da AdGuard Home."
+"desc": "AdGuard Home è un software di rete per bloccare gli annunci e il tracciamento. Dopo averlo impostato, coprirà tutti i tuoi dispositivi domestici e non avrai bisogno di alcun altro software lato client. Questa pagina ottiene le statistiche attraverso l'API fornita da AdGuard Home. Quando AdGuard Home è abilitato, il router forzerà l'uso dei server DNS forniti da AdGuard Home.",
+"process_req_label": "AdGuard Home Gestire le Richieste dei Clienti",
+"process_req_tips": "Se questa opzione è attivata, le richieste dei client smetteranno di essere inoltrate dal router ad ADGuard Home. ADGuard Home mostrerà da quale client proviene la richiesta, ma il criterio VPN basato sul dominio non funzionerà."
 }
 }
