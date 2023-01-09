@@ -26,7 +26,10 @@
         "lan_conflict_msg": "Das lokale Subnetz kollidiert mit dem zu verbindenden WLAN Subnetz: Bitte wählen Sie ein anderes Subnetz.",
         "get_ip_fail_msg": "Es konnte keine IP Adresse zugeteilt werden.",
         "bridge_pattern_label": "Brücke",
-        "bridge_pattern_desc": "Verbunden mit einem verkabelten-Netzwerk."
+        "bridge_pattern_desc": "Verbunden mit einem verkabelten-Netzwerk.",
+        "force_subnet_label": "Erzwinge ein 24er Subnetz",
+        "subnet_mode_bable": "Subnetz Modus",
+        "passthrough_desc": "Wenn die IP Durchleitung aktiviert ist, leitet der Router die Träger-IP-Adresse an den LAN-Port weiter."
     },
     "menu_bridge": "Netzwerk-Modus"
 }
