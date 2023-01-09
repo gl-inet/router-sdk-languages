@@ -28,7 +28,8 @@
         "bridge_pattern_label": "Bridge",
         "bridge_pattern_desc": "Connect to a wired network.",
         "force_subnet_label": "Force 24 Subnet",
-        "subnet_mode_bable": "Subnet Mode"
+        "subnet_mode_bable": "Subnet Mode",
+        "passthrough_desc": "If IP Passthrough is enabled, the router will pass the carrier IP address to the LAN port."
     },
     "menu_bridge": "Network Mode"
 }
