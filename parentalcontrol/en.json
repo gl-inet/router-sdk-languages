@@ -68,7 +68,7 @@
         "stop_brief_btn": "Stop Temporary Ruleset",
         "manual_stop_brief_label": "Until Manual Stop",
         "brief_stop_time_label": "Stop Time",
-        "rule_desc": "You can set up a ruleset for specific time zones to limit which websites and apps your child can access. For example, \"learning time\" only allows access to education websites/apps.",
+        "rule_desc": "You can set up a ruleset for specific time zones to limit which websites and apps your child can access. For example, \"learning time\" does not allows access to specified short video websites/apps.",
         "rule_title": "ruleset",
         "rule_tips": "You can assign which ruleset to be used at which time period in the schedule of each profile.",
         "rule_name_th": "Ruleset Name",
@@ -86,6 +86,6 @@
         "job_type_label": "Recruitment",
         "download_type_label": "Download",
         "portal_type_label": "Web Portal",
-        "default_rule_tips": "默认规则集会在没有设置日程的时间段启用"
+        "default_rule_tips": "The router will limit access to devices in the profile by this rule, unless you set a schedule."
     }
 }
