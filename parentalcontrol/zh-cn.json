@@ -72,7 +72,7 @@
         "stop_brief_btn": "停止使用临时规则集",
         "manual_stop_brief_label": "直到手动停止",
         "brief_stop_time_label": "截止时间",
-        "rule_desc": "您可以为特定时间段设置访问规则集，以限制您的孩子只能访问哪些网站、使用哪些应用。 如“学习时间”只允许访问指定的直播网站/应用。",
+        "rule_desc": "您可以为特定时间段设置访问规则集，以限制您的孩子只能访问哪些网站、使用哪些应用。 如“学习时间”不允许访问指定的短视频网站/应用。",
         "rule_title": "规则集",
         "rule_tips": "您可以在每个设备组的日程中指定在哪个时间段使用哪个规则集。",
         "rule_name_th": "规则集名称",
@@ -93,6 +93,7 @@
         "music_type_label": "音乐类",
         "job_type_label": "招聘类",
         "download_type_label": "下载类",
-        "portal_type_label": "门户网站"
+        "portal_type_label": "门户网站",
+        "default_rule_tips": "路由器将按此规则限制设备组内的设备访问，除非您设置了日程。"
     }
 }
