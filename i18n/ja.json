@@ -12,7 +12,11 @@
         "working": "ダイナミックDNSサービスは作動中です。",
         "not_effective": "DDNSはまだ有効になっていません。後で試してください。",
         "enable_http_tip": "HTTPは暗号化されていないプロトコルです。注意の上、ご利用ください。",
-        "host_name": "ホスト名"
+        "host_name": "ホスト名",
+        "parsing_success_tips": "DDNS ドメインは、このデバイスのパブリック IP に正しく解決されました。",
+        "parsing_error_tips": "DNSサーバーでこのDDNSドメインのDNSレコードが見つかりませんでした。端末のインターネット接続を確認してください。",
+        "parsing_label": "DDNSのドメイン解決によるIP",
+        "parsing_interface_title": "インターフェース WAN IP"
     },
     "menu_dynamicdns": "ダイナミックDNS"
 }
