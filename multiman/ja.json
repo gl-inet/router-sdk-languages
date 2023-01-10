@@ -7,7 +7,7 @@
         "failover_label": "フェイルオーバー",
         "balancing_label": "ロードバランス",
         "track_title": "インターフェイス・ステータスの追跡方法",
-        "physical_state_monitor": "物理的な接続に倣う",
+        "physical_state_monitor": "インターフェイスが接続されているときは常にインターネットに接続可能",
         "tips": "ルータは同時に複数のネットワークインターフェイスの接続をサポートしています。使い方を設定できます。",
         "failover_desc": "フェイルオーバー：使用中のインターフェイスに障害が発生すると、ルータは自動的に別のインターフェイスに切り替えます。",
         "priority_title": "インターフェイスの優先順位",
@@ -25,7 +25,9 @@
         "flush_track_label": "強制更新ストリーム",
         "success_count": "$$$$回の成功",
         "fault_count": "$$$$回の失敗",
-        "both_label": "両方"
+        "both_label": "両方",
+        "enable_check_label": "インターネット状況追跡を有効にする",
+        "interface_state_label": "ネットワーク状況"
     },
     "menu_multiwan": "マルチWAN"
 }
