@@ -6,6 +6,10 @@
         "current_ip_label": "ルーターの仮想 IP",
         "auto_nat_label": "LAN&WANのリモートアクセスを許可する",
         "not_found_tips": "ZeroTierはネットワークIDを見つけられませんでした。入力を確認してください。",
-        "first_use_tips": "ZeroTier は、$$$$ZeroTier Central$$$$ で作成する必要があるネットワーク ID を使用して仮想ネットワークに接続します。"
+        "first_use_tips": "ZeroTier は、$$$$ZeroTier Central$$$$ で作成する必要があるネットワーク ID を使用して仮想ネットワークに接続します。",
+        "allow_lan_label": "リモート アクセス LAN を許可する",
+        "allow_wan_tips": "このオプションを有効にすると、Zerotier 仮想ネットワーク経由でデバイスの WAN 側のリソースに アクセスできるようになります。",
+        "allow_lan_tips": "このオプションを有効にすると、Zerotierの仮想ネットワーク経由で機器LAN内のリソースにアクセスできるようになります。",
+        "auto_nat_tips": "このオプションを有効にすると、ZeroTier 仮想ネットワークを介して LAN サブネットと WAN 側のリソースにアクセスできるようになります。"
     }
 }
