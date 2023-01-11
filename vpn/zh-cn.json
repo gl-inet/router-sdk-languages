@@ -239,7 +239,8 @@
         "auth_conflict_tips": "同一个组中的配置文件使用的验证方式必须相同。请将不同来自供应商的配置文件分开上传到不同的组。",
         "file_oversize_tips": "上传的压缩文件内的配置文件不能超过 1,000 个。",
         "unzip_fail_msg": "解压缩文件失败。请检查该文件并重新上传。",
-        "online_count": "{count} 在线"
+        "online_count": "{count} 在线",
+        "block_traffic_domain_filter_warning": "$$$$ 选项已经启用，列表中的域名无法解析，因此可能不生效。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
