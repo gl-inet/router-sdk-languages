@@ -41,7 +41,7 @@
         "retry": "再試行する",
         "delete_caution": "このエントリを削除しますか？",
         "clear_all_caution": "すべて削除しますか？",
-        "password_tips": "$$$$文字と最大値$$$$文字",
+        "password_tips": "最小 $$$$ 文字、最大 $$$$ 文字",
         "security_password_tips": "大文字、小文字、数字、記号のうち、少なくとも2種類が必要です",
         "please_choose": "選択してください",
         "back": "戻る",
@@ -67,7 +67,16 @@
         "router_time": "ルータの時刻",
         "auto": "自動",
         "edit": "編集する",
-        "characters_hint": "$$$$文字"
+        "characters_hint": "$$$$文字",
+        "has_been_used_tips": "同じ{label}を許可しない",
+        "maximum_byte_tips": "最大{count}バイト",
+        "begin_not_allow_tips": "文字{char}のいずれかで開始できません",
+        "view": "観る",
+        "not_allow_use_tips": "文字 {char} は使用できません",
+        "description": "説明",
+        "all_select_btn": "すべて選択",
+        "select_none_btn": "すべて選択解除",
+        "blacklist": "ブロックリスト"
     },
     "msg": {
         "access_denied": "無効なユーザーか、承認されていないか、もしくはログインしていません！",
