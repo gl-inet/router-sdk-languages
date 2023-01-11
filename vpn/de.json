@@ -239,7 +239,8 @@
         "enable_vpn_cascading_tips": "Falls diese Option aktiviert ist, werden zum VPN verbundene Clients weiter geroutet zum Client VPN-Tunnel, wenn Sie sowohl VPN-Server als auch VPN-Client auf diesem Router im Einsatz haben.",
         "file_oversize_tips": "Die hochgeladene, komprimierte Datei kann nicht mehr als 1.000 Konfigurationsdateien enthalten.",
         "unzip_fail_msg": "Entpacken der Datei fehlgeschlagen. Bitte überprüfen Sie die Datei und laden Sie diese danach erneut hoch.",
-        "auth_conflict_tips": "Konfigurationsdateien in derselben Gruppe müssen dieselbe Authentifizierungs-Methode benutzen. Bitte laden Sie Konfigurationsdateien unterschiedlicher Provider in separate Gruppen hoch."
+        "auth_conflict_tips": "Konfigurationsdateien in derselben Gruppe müssen dieselbe Authentifizierungs-Methode benutzen. Bitte laden Sie Konfigurationsdateien unterschiedlicher Provider in separate Gruppen hoch.",
+        "block_traffic_domain_filter_warning": "Die Option $$$$ ist aktiviert, und die Domain in der Liste kann nicht aufgelöst werden, sodass sie möglicherweise nicht gültig ist."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
