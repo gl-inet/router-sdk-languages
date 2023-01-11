@@ -161,7 +161,7 @@
         "set_key_btn": "手動で鍵を設定する",
         "peer_deprecated_tips": "クライアントピアの設定は、サーバ設定の変更により無効です。デバイスの新しいピア設定を作成してください。",
         "askpass_label": "パスフレーズ",
-        "disable_vpn_for_services": "GL.iNetのサービスではVPNを利用しません",
+        "disable_vpn_for_services": "GL.iNetのサービス はVPNを利用する",
         "global_policy_btn": "グローバルオプション",
         "users_empty_tips": "ユーザーリストが空欄です。OpenVPNサーバの接続には、少なくとも1人のユーザを登録してください。",
         "advanced_configuration_tips": "OpenVPNに精通しているなら、手動で詳細設定を変更することもできます。",
@@ -221,7 +221,7 @@
         "setup_guide": "セットアップガイド",
         "location_max_pre_label": "場所ごとの最大数",
         "location_max_pre_placeholder": "制限なし",
-        "disable_vpn_for_services_tips": "このオプションを有効にすると、ルーターは通常、実IPを使用する必要があるサービスにVPNを使用しません。GoodCloud、DDNS、rttyが含まれます。",
+        "disable_vpn_for_services_tips": "このオプションを有効にすると、ルーターは通常、実IPを使用する必要があるサービスはVPNを使用します。GoodCloud、DDNS、rttyが含まれます。",
         "use_vpn_label": "VPNを使用する",
         "no_use_vpn_label": "VPNを使用しない",
         "client_count": "クライアントなし | 1 クライアント | {count} クライアント",
@@ -238,7 +238,8 @@
         "enable_vpn_cascading_tips": "このオプションを有効にすると、ルーターでVPNサーバと VPNクライアントの両方を稼働させている場合は、VPNサーバに接続されているクライアントはさらにVPNクライアントトンネルにルーティングされます。",
         "auth_conflict_tips": "同じグループの構成ファイルには同じ認証メソッドを使用しなければなりません。異なるプロバイダからの構成ファイルを別々のグループにアップロードしてください。",
         "file_oversize_tips": "アップロードされた圧縮ファイルに、1,000 個を超える構成ファイルを含めることはできません。",
-        "unzip_fail_msg": "ファイルの解凍に失敗しました。ファイルを確認して、アップロードし直してください。"
+        "unzip_fail_msg": "ファイルの解凍に失敗しました。ファイルを確認して、アップロードし直してください。",
+        "online_count": "{count} オンライン"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバ",
