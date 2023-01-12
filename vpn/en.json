@@ -239,7 +239,8 @@
         "auth_conflict_tips": "Configuration files in the same group must use the same authentication method. Please upload configuration files from different providers to separate groups.",
         "file_oversize_tips": "The uploaded compressed file can't contain more than 1,000 configuration files.",
         "unzip_fail_msg": "Failed to unzip the file. Please check the file and re-upload.",
-        "online_count": "{count} Online"
+        "online_count": "{count} Online",
+        "block_traffic_domain_filter_warning": "The $$$$ option is enabled and the domain in the list cannot be resolved, so it may not be valid."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
