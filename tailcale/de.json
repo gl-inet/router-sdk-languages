@@ -13,6 +13,7 @@
         "enable_wan_label": "Erlaube externen WAN Zugriff",
         "allow_lan_tips": "Wenn diese Option aktiviert ist, wird der Zugriff auf Ressourcen innerhalb des LANs über das virtuelle Netzwerk von Tailscale ermöglicht.",
         "allow_wan_tips": "Wenn diese Option aktiviert ist, wird der Zugriff auf Ressourcen innerhalb des WANs über das virtuelle Netzwerk von Tailscale ermöglicht.",
-        "exit_node_tips": "Wenn diese Option aktiviert ist, leitet das Gerät alle Anfragen an den Ausgangsknoten weiter. Vor der Aktivierung müssen Sie die Subnetz-Routen {subnet} dieses Geräts in der $$$$Tailscale Admin Console$$$$ aktivieren, damit Tailscale Client-Anfragen weiterleiten kann; andernfalls können Ihre Clients nicht auf das Internet zugreifen."
+        "exit_node_tips": "",
+        "custom_exit_node_tips": "Wenn diese Option aktiviert ist, leitet das Gerät alle Anfragen an den Ausgangsknoten weiter. Vor der Aktivierung müssen Sie die Subnetz-Routen {subnet} dieses Geräts in der $$$$Tailscale Admin Console$$$$ aktivieren, damit Tailscale Client-Anfragen weiterleiten kann; andernfalls können Ihre Clients nicht auf das Internet zugreifen."
     }
 }
