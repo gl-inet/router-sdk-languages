@@ -13,6 +13,8 @@
 "domain_th": "網域",
 "request_th": "請求總數",
 "no_data": "無數據",
-"desc": "AdGuard Home 是一款用於攔截廣告和反跟踪的全網絡軟件。 在您安裝完成後，它將保護您的所有家庭設備，您不需要安裝任何客戶端軟件。 此頁面通過 AdGuard Home 提供的 API 獲取統計信息。 啟用 AdGuard Home 後，路由器將強制使用 AdGuard Home 提供的 DNS 服務器。"
+"desc": "AdGuard Home 是一款用於攔截廣告和反跟踪的全網絡軟件。 在您安裝完成後，它將保護您的所有家庭設備，您不需要安裝任何客戶端軟件。 此頁面通過 AdGuard Home 提供的 API 獲取統計信息。 啟用 AdGuard Home 後，路由器將強制使用 AdGuard Home 提供的 DNS 服務器。",
+"process_req_label": "AdGuard Home處理客戶端請求",
+"process_req_tips": "如果啟用此選項，來自客戶端的請求將停止由路由器轉發到 ADGuard Home。 ADGuard Home 將顯示請求來自哪個客戶端，但基於網域的 VPN 策略將不起作用。"
 }
 }
