@@ -8,7 +8,8 @@
         "enable_tips": "當 Drop-in gateway (旁路由) 工作時，使用該路由器的 DNS 而不是主路由的 DNS。",
         "dhcp_on_warning_tips": "Drop-in gateway (旁路由) 已啟用。",
         "dhcp_set_gateway_tips": "主路由器上的 DHCP 服務已將網關正確設置為 {ip}，Drop-in gateway (旁路由) 正在運行。",
-        "auto_set_tips": "檢測到主路由器的DHCP設置發生變化，路由器可能無法正常聯網。請 $$$$Sync the Settings from DHCP$$$$ 同步設置或手動修改您的設置。"
+        "auto_set_tips": "檢測到主路由器的DHCP設置發生變化，路由器可能無法正常聯網。請 $$$$Sync the Settings from DHCP$$$$ 同步設置或手動修改您的設置。",
+        "cable_not_connected_tips": "WAN 端口未檢測到以太網電纜。請插入以太網電纜。"
     },
     "menu_edgerouter": "Drop-in Gateway (旁路由)"
 }
