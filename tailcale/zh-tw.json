@@ -12,6 +12,7 @@
         "desc": "$$$$Tailscale$$$$ 讓您可以在世界任何地方安全、輕鬆地訪問您擁有的設備。 它啟用加密的點對點連接，這意味著只有您的專用網絡上的設備才能相互通信。 您可以使用它來遠程訪問您的設備或 LAN。",
         "need_mandate_tips": "此設備已綁定到 Tailscale 帳戶，但尚未被授權訪問網絡。請轉到 $$$$ Tailscale 管理控制台$$$$ 授權設備連接到您的虛擬網絡。 如果這不是您的帳號，請先解綁。",
         "enable_lan_tips": "該設備已經允許 Tailscale 客戶端訪問 LAN 或 WAN 上的資源。 但是您需要在 $$$$Tailscale 管理控制台$$$$ 中編輯路由設置，以便通過 Tailscale 虛擬網絡將客戶端請求轉發到設備。",
-        "account_label": "綁定賬號"
+        "account_label": "綁定賬號",
+        "exit_node_tips": "如果您選擇的導出節點不可用或無法訪問互聯網，設備將無法將設置同步到 Tailscale。"
     }
 }
