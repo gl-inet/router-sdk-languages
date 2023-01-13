@@ -239,7 +239,8 @@
         "auth_conflict_tips": "同一個組中的配置文件使用的驗證方式必須相同。請將不同來自供應商的配置文件分開上傳到不同的組。",
         "unzip_fail_msg": "解壓文件失敗。請檢查文件並重新上傳。",
         "file_oversize_tips": "上傳的壓縮文件不能超過 1000 個配置文件。",
-        "online_count": "{count} 在線"
+        "online_count": "{count} 在線",
+        "block_traffic_domain_filter_warning": "$$$$ 選項已啟用，無法解析列表中的域，因此它可能無效。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
