@@ -10,6 +10,7 @@
         "enable_wan_label": "リモートアクセスWANを許可する",
         "allow_wan_tips": "このオプションを有効にすると、Tailscale仮想ネットワーク経由でデバイスのWAN側のリソースにアクセスできるようになります。",
         "current_ip_label": "ルーターの仮想 IP",
-        "get_url_err_msg": "デバイスバインドリンクの取得に失敗しました。"
+        "get_url_err_msg": "デバイスバインドリンクの取得に失敗しました。",
+        "manual_node_label": "出口ノードを指定する"
     }
 }
