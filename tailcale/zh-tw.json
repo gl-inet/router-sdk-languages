@@ -14,6 +14,7 @@
         "enable_lan_tips": "該設備已經允許 Tailscale 客戶端訪問 LAN 或 WAN 上的資源。 但是您需要在 $$$$Tailscale 管理控制台$$$$ 中編輯路由設置，以便通過 Tailscale 虛擬網絡將客戶端請求轉發到設備。",
         "account_label": "綁定賬號",
         "exit_node_tips": "如果您選擇的導出節點不可用或無法訪問互聯網，設備將無法將設置同步到 Tailscale。",
-        "manual_node_label": "自定義出口節點"
+        "manual_node_label": "自定義出口節點",
+        "custom_exit_node_tips": "如果啟用此選項，設備會將所有請求轉發到出口節點。 啟用前，您需要在$$$$Tailscale Admin Console$$$$中啟用此設備的子網路由{subnet}，以便Tailscale轉發客戶端請求； 否則，您的客戶將無法訪問互聯網。"
     }
 }
