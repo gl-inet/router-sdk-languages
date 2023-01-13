@@ -26,7 +26,10 @@
         "lan_conflict_msg": "LAN子網與要連接的Wifi子網衝突，請設置不同的子網。",
         "get_ip_fail_msg": "獲取IP失敗。",
         "bridge_pattern_desc": "通過有線連接到上級網絡。",
-        "bridge_pattern_label": "橋接"
+        "bridge_pattern_label": "橋接",
+        "subnet_mode_bable": "子網模式",
+        "passthrough_desc": "如果啟用 IP Passthrough，路由器會將運營商 IP 地址傳遞給 LAN 端口。",
+        "force_subnet_label": "強制 24 子網"
     },
     "menu_bridge": "網絡模式"
 }
