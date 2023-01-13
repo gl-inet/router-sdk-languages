@@ -13,6 +13,7 @@
         "get_url_err_msg": "Non sono riuscito ad ottenere un link di associazione del dispositivo.",
         "enable_lan_tips": "Il dispositivo sta già permettendo ai clients Tailscale di accedere alle risorse nella LAN o WAN, ma devi modificare l'impostazione del percorso nel $$$$Tailscale Admin Console$$$$ per far sì che le richieste dei clients siano inoltrate attraverso la rete virtuale di Tailscale.",
         "desc": "$$$$Tailscale$$$$ fa' in modo che i dispositivi in tuo possesso possano essere accessibili in qualunque parte del mondo in maniera semplice e sicura. Abilita connessioni sicure point-to-point, il che significha che solo i dispositivi nella tua rete privata possono comunicare tra loro. Puoi usarlo per accedere ai tuoi dispositivi o LAN da remoto.",
-        "manual_node_label": "Nodi di Uscita Personalizzati"
+        "manual_node_label": "Nodi di Uscita Personalizzati",
+        "exit_node_label": "Nodi di Uscita"
     }
 }
