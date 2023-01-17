@@ -28,7 +28,8 @@
         "bridge_pattern_label": "ブリッジ",
         "bridge_pattern_desc": "有線ネットワークに接続する。",
         "subnet_mode_bable": "サブネットモード",
-        "force_subnet_label": "強制24サブネット"
+        "force_subnet_label": "強制24サブネット",
+        "passthrough_desc": "IP Passthrough が有効になっている場合、ルーターはキャリア IP アドレスを LAN ポートに渡します。"
     },
     "menu_bridge": "ネットワークモード"
 }
