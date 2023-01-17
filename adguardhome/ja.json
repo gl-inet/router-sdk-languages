@@ -14,6 +14,7 @@
 "tips": "Adguard Homeの詳細設定が必要な場合は、$$$$設定ページ$$$$に移動してください。",
 "not_disabled_dns_msg": "他のDNSは無効にされていません",
 "no_data": "データなし",
-"process_req_label": "AdGuard Homeはクライアントリクエストを処理します"
+"process_req_label": "AdGuard Homeはクライアントリクエストを処理します",
+"process_req_tips": "このオプションを有効にすると、クライアントからのリクエストがルーターによってADGuard Homeに転送されなくなります。ADGuard Homeは、リクエストがどのクライアントから来たのかを表示しますが、ドメインに基づくVPNポリシーは機能しません。"
 }
 }
