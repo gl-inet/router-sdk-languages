@@ -26,7 +26,10 @@
         "lan_conflict_msg": "La subred LAN entra en conflicto con la subred Wifi que se va a conectar, por favor establezca una subred diferente.",
         "get_ip_fail_msg": "No se ha podido obtener la IP.",
         "bridge_pattern_label": "Puente (bridge)",
-        "bridge_pattern_desc": "Conectar a una red cableada."
+        "bridge_pattern_desc": "Conectar a una red cableada.",
+        "force_subnet_label": "Forzar 24 Subnet",
+        "subnet_mode_bable": "Modo Subnet",
+        "passthrough_desc": "Si IP Passthrough está habilitado, el router pasará la dirección IP del portador al puerto LAN."
     },
     "menu_bridge": "Modo de Red"
 }
