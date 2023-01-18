@@ -27,7 +27,7 @@
         "share_name_label": "Compartir Nombre",
         "anonymity_label": "Acceso Anónimo",
         "allow_write_label": "Permitir Escribir",
-        "public_user_label": "Usuario Escribible",
+        "public_user_label": "Usuario Lee-Escribe",
         "readonly_user": "Usuario de Sólo Lectura",
         "add_user_btn": "Añadir Usuario",
         "folder_link_title": "Enlace de Acceso Carpeta",
@@ -39,7 +39,7 @@
         "already_user": "Usuario ya existe",
         "other_share_proto_btn": "Añadir Protocolo Extra",
         "free_space": "$$$$ libre de $$$$",
-        "share_path_label": "Compartir el Camino",
+        "share_path_label": "Compartir el Directorio",
         "share_proto_label": "Compartir el Protocolo",
         "eject_disk_caution": "¿Está seguro de que quiere expulsar el disco? Si alguien está utilizando los archivos compartidos, la navegación, la carga y la descarga se interrumpirán.",
         "fast_share_btn": "Configuración rápida de carpeta compartida",
@@ -47,7 +47,9 @@
         "share_link_tips": "La carpeta se ha compartido. Utilice el siguiente enlace para montar esta carpeta como un disco en red en su PC o Teléfono. $$$$Setup Guide$$$$",
         "later_add_btn": "Añadir más tarde",
         "no_user_tips": "Por favor, seleccione al menos un usuario de escritura o de sólo lectura.",
-        "nfs_tips": "Discos con formato exFAT no se pueden compartir utilizando el protocolo NFS."
+        "nfs_tips": "Discos con formato exFAT no se pueden compartir utilizando el protocolo NFS.",
+        "ftp_fat32_tips": "El protocolo FTP aún no soporta la escritura de datos en discos formateados en FAT32.",
+        "format_th": "Formato"
     },
     "menu_nasview": "Almacenamiento en Red"
 }
