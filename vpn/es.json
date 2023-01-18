@@ -81,7 +81,7 @@
         "loaction_label_tips": "El router sólo obtendrá los perfiles de configuración de los servidores situados en las regiones que elijas. Cuantas más regiones elijas, más tiempo tardará en obtener los perfiles.",
         "previous _step_btn": "Atrás",
         "upload_file_btn": "Subir Archivo",
-        "disable_vpn_for_services": "Los servicios de GL.iNet no utilizan VPN",
+        "disable_vpn_for_services": "Los servicios de GL.iNet utilizan VPN",
         "view_status": "Ver Estado",
         "access_by_dev": "Diferenciarse por la red de acceso de los clientes",
         "access_by_sites_desc": "En el modo de nombre de dominio/IP, puede establecer qué sitios web visitar con VPN, o puede establecer qué sitios web visitar sin VPN.",
@@ -222,7 +222,7 @@
         "location_max_pre_label": "Máx. de Por Ubicación",
         "location_max_pre_placeholder": "Sin límite",
         "use_vpn_label": "Con VPN",
-        "disable_vpn_for_services_tips": "Si esta opción está activada, los servicios en los routers que normalmente requieren el uso de una IP real no utilizarán la VPN. Incluyendo GoodCloud, DDNS, rtty.",
+        "disable_vpn_for_services_tips": "Si esta opción está activada, servicios en los routers que usualmente requieren el uso de una IP real utilizarán VPN. Incluyendo GoodCloud, DDNS, rtty.",
         "no_use_vpn_label": "Sin VPN",
         "client_count": "Sin Clientes | 1 Cliente | {count} clientes",
         "client_dialog_title": "Estado de los Clientes",
@@ -239,7 +239,8 @@
         "enable_vpn_cascading_tips": "Si esta opción está activada, cuando se estén ejecutando de forma simultánea un Servidor VPN y un Cliente VPN en éste enrutador, los clientes conectados al Servidor VPN serán enrutados al túnel del Cliente VPN.",
         "auth_conflict_tips": "Archivos de configuración que estén en el mismo grupo deben utilizar el mismo método de autenticación. Por favor, asegúrese de cargar archivos de configuración de diferentes proveedores a grupos separados.",
         "online_count": "{count} En línea",
-        "following_domain_label": "Cuando esté accediendo algún Dominio/Dirección IP de esta lista"
+        "following_domain_label": "Cuando esté accediendo algún Dominio/Dirección IP de esta lista",
+        "block_traffic_domain_filter_warning": "La opción $$$$ está activada y el dominio en la lista no se puede resolver, es posible que no sea válido."
     },
     "menu_ovpnclient": "Cliente OpenVPN",
     "menu_wgclient": "Cliente WireGuard",
