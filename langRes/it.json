@@ -26,7 +26,10 @@
         "get_ip_fail_msg": "Impossibile ottenere l'IP.",
         "connet_fail_msg": "Connessione fallita.",
         "bridge_pattern_label": "Bridge",
-        "bridge_pattern_desc": "Connettiti ad una rete cablata."
+        "bridge_pattern_desc": "Connettiti ad una rete cablata.",
+        "force_subnet_label": "Forzare una 24 Subnet",
+        "passthrough_desc": "Se IP Passthrough è abilitato, il router passerà l'indirizzo IP dell'operatore alla porta LAN.",
+        "subnet_mode_bable": "Modalità di Subnet"
     },
     "menu_bridge": "Modalità di rete"
 }
