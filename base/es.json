@@ -72,11 +72,15 @@
         "begin_not_allow_tips": "No puede comenzar con ninguno de los caracteres {char}",
         "not_allow_use_tips": "los caracteres {char} no son permitidos",
         "has_been_used_tips": "No permitir el mismo {label}",
-        "view": "Ver"
+        "view": "Ver",
+        "description": "Descripción",
+        "all_select_btn": "Seleccionar Todo",
+        "select_none_btn": "Anular toda la selección",
+        "blacklist": "Lista de bloqueo"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
-        "success": "Éxito!",
+        "success": "¡Aplicado!",
         "operation_not_finished": "Espere hasta que la operación actual haya terminado.",
         "getting": "Obteniendo, espere por favor…",
         "being_process": "Procesando, espere por favor…",
@@ -86,7 +90,7 @@
         "interface_timeout": "Tiempo de espera agotado para la respuesta. Compruebe el entorno de red o reinicie el dispositivo."
     },
     "date": {
-        "sunday": "Do",
+        "sunday": "SU",
         "day": "día(s)",
         "thursday": "Ju",
         "monday": "Lu",
