@@ -101,5 +101,14 @@
         "second": "{count} 秒 | {count}秒",
         "min": "{count} 分 | {count} 分",
         "hour": "{count} 時間 | {count} 時間"
+    },
+    "upload": {
+        "select_or_drag": "ファイルを選択するか、こちらにドラッグしてください",
+        "file_include": "ファイルタイプ",
+        "success": "アップロード成功",
+        "reupload": "ファイルを再アップロードする",
+        "firmware_format_error": "ファームウェアのフォーマットが不正です！",
+        "error": "ファイルのアップロードに失敗しました。",
+        "format_error": "データフォーマットエラー！"
     }
 }
