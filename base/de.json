@@ -101,5 +101,14 @@
         "second": "{count} Sekunde| {count} Sekunden",
         "min": "{count} Minute | {count} Minuten",
         "hour": "{count} Stunde | {count} Stunden"
+    },
+    "upload": {
+        "select_or_drag": "Wählen Sie eine Datei oder ziehen Sie diese hierher",
+        "file_include": "Dateityp enthält",
+        "success": "Hochladen erfolgreich",
+        "reupload": "Datei erneut hochladen",
+        "firmware_format_error": "FEHLER: Falsches Firmwareformat!",
+        "error": "Hochladen der Datei fehlgeschlagen.",
+        "format_error": "Datenformatfehler!"
     }
 }
