@@ -101,5 +101,16 @@
         "guest_ip_tips": "访客子网与 WAN 子网冲突，请$$$$更改访客子网$$$$为不同的地址。",
         "up_not_online_tips": "该接口已经连接，但是无法通过 $$$$ 协议访问互联网。",
         "offline_tips": "该接口已经连接，但是无法访问互联网。"
+    },
+    "upload": {
+        "file_include": "文件类型包括",
+        "select_or_drag": "选择一个文件上传或将文件拖到此处",
+        "firmware_format_error": "固件格式错误！",
+        "reupload": "重新上传文件",
+        "success": "上传成功",
+        "format_error": "数据格式错误！",
+        "error": "文件上传失败。",
+        "too_large_tips": "上传文件过大，请上传 $$$$ 以内的文件。",
+        "lass_than_tips": "（小于 $$$$）"
     }
 }
