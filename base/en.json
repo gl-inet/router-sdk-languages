@@ -101,5 +101,16 @@
         "guest_ip_tips": "Guest subnet is in conflict with the WAN subnet, Please $$$$Change Guest Subnet$$$$ to a different address.",
         "up_not_online_tips": "The interface is connected, but the Internet can't be accessed with $$$$ protocol.",
         "offline_tips": "The interface is connected, but the Internet can't be accessed."
+    },
+    "upload": {
+        "select_or_drag": "Select a file or drag it here",
+        "file_include": "File types include",
+        "success": "Upload successful",
+        "reupload": "Re-upload file",
+        "firmware_format_error": "Incorrect firmware format!",
+        "error": "Failed to upload file.",
+        "format_error": "Data format error!",
+        "too_large_tips": "The uploaded file is too large, please upload a file within $$$$.",
+        "lass_than_tips": "(Less than $$$$)"
     }
 }
