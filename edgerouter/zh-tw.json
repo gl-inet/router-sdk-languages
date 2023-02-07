@@ -1,6 +1,6 @@
 {
     "edgerouter": {
-        "desc": "在drop-in gateway (旁路由) 模式下，來自網絡中客戶端的所有流量首先由該路由器處理。詳情請參考$$$$Drop-in Gateway Topology$$$$。您可以用此模式來擴展您主路由的功能。",
+        "desc": "在drop-in gateway (旁路由) 模式下，來自網絡中客戶端的所有流量首先由該路由器處理。您可以用此模式來擴展您主路由的功能。",
         "enable_label": "啟用drop-in gateway (旁路由) 模式",
         "desc_vpn": "請注意，此設備的 VPN 策略不適用於Drop-in gateway (旁路由) 模式下來自 WAN 端口的客戶端。",
         "dhcp_closed_tips": "主路由器上的 DHCP 服務已禁用，接入網關正在運行。",
