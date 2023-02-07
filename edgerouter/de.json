@@ -1,6 +1,6 @@
 {
     "edgerouter": {
-        "desc": "Im Drop-in Gateway Modus werden alle Daten zuerst von diesem Router verarbeitet. Für weitere Details sehen Sie sich bitte die $$$$Drop-In Gateway Topologie$$$$ an. Sie können diesen Modus benutzen, um die Funktionalität ihres Haupt-Routers zu erweitern.",
+        "desc": "Im Drop-in Gateway Modus werden alle Daten zuerst von diesem Router verarbeitet. Sie können diesen Modus benutzen, um die Funktionalität ihres Haupt-Routers zu erweitern.",
         "enable_label": "Drop-in Gateway Modus aktivieren",
         "dhcp_closed_tips": "Der DHCP-Dienst des Haupt-Routers ist ausgeschalten; das drop-in gateway funktioniert nicht.",
         "dhcp_on_tips": "Der DHCP-Dienst ist noch aktiviert auf dem Haupt-Router. Das Drop-in Gateway funktioniert möglicherweise nicht ordnungsgemäß. Bitte gehen Sie zum $$$$Haupt-Router Panel$$$$, um den DHCP-Dienst zu deaktivieren oder um seinem Gateway die IP-Adresse {ip} zuzuweisen.",
