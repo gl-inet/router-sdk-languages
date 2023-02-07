@@ -1,6 +1,6 @@
 {
     "edgerouter": {
-        "desc": "Cuando la suplantación (spoofing) de puerta de enlace está activo, todo el tráfico de los clientes en la red es primeramente procesado por éste enrutador. Para más detalles, por favor vea $$$$ Drop-in Gateway Topology $$$$. Puede utilizar este modo para extender la funcionalidad de su enrutador primario.",
+        "desc": "Cuando la suplantación (spoofing) de puerta de enlace está activo, todo el tráfico de los clientes en la red es primeramente procesado por éste enrutador. Puede utilizar este modo para extender la funcionalidad de su enrutador primario.",
         "enable_label": "Activar modo de suplantación (spoofing) de puerta de enlace",
         "dhcp_closed_tips": "El servicio de DHCP en el enrutador principal está deshabilitado, la suplantación (spoofing) de puerta de enlace está trabajando.",
         "enable_tips": "Cuando la suplantación (spoofing) de puerta de enlace está trabajando, el servicio de DNS de ésta puerta de enlace es utilizado en reemplazo de el DNS de la ruta principal.",
