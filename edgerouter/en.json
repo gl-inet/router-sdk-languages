@@ -1,7 +1,7 @@
 {
     "menu_edgerouter": "Drop-in Gateway",
     "edgerouter": {
-        "desc": "When drop-in gateway is working, all traffic from clients in the network is first processed by this router. For details, please view $$$$ Drop-in Gateway Topology $$$$. You can use this mode to extend the functionality of your primary route.",
+        "desc": "When drop-in gateway is working, all traffic from clients in the network is first processed by this router. You can use this mode to extend the functionality of your primary route.",
         "enable_label": "Enable Drop-in Gateway Mode",
         "dhcp_closed_tips": "The DHCP service on the main router is disabled, drop-in gateway is working.",
         "dhcp_on_tips": "The DHCP service is still enabled on the main router. Drop-in gateway may not work properly. Please go to $$$$the main router admin panel$$$$ to disable the DHCP service or set its gateway to {ip}.",
