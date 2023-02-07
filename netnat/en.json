@@ -1,0 +1,9 @@
+{
+    "menu_netnat": "Network Acceleration",
+    "netnat": {
+        "desc": "Network acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.",
+        "tips": "When Network acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit.",
+        "hwnat_label": "Hardware Acceleration",
+        "swnat_label": "Software Acceleration"
+    }
+}
