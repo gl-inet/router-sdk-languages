@@ -119,7 +119,8 @@
         "sim_failover_interval_tips": "若故障转移后仍无法联网，设备将切回首选 SIM 卡槽，并间隔一段时间后才会重新尝试故障转移。",
         "timing_check_main_sim_label": "定时检测首选卡槽状态",
         "choose_current_slot_label": "SIM 卡",
-        "remove_profile_warning": "您确定要删除此配置吗？配置删除后无法恢复。"
+        "remove_profile_warning": "您确定要删除此配置吗？配置删除后无法恢复。",
+        "set_detection_tips": "您可以$$$$前往多线负载页面$$$$修改检测方式和故障转移的次数。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
