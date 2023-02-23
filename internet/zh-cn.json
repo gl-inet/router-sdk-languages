@@ -120,8 +120,17 @@
         "timing_check_main_sim_label": "定时检测首选卡槽状态",
         "choose_current_slot_label": "SIM 卡",
         "remove_profile_warning": "您确定要删除此配置吗？配置删除后无法恢复。",
-        "set_detection_tips": "您可以$$$$前往多线负载页面$$$$修改检测方式和故障转移的次数。",
-        "current_sim_badge_label": "当前：SIM {sim}"
+        "set_detection_tips": "联网状态检测方式与$$$$多线负载页面$$$$中的配置一致。",
+        "current_sim_badge_label": "当前：SIM {sim}",
+        "data_roaming_label": "数据漫游",
+        "enable_band_filter_label": "启用频段过滤",
+        "band_masking_label": "屏蔽",
+        "band_masking_tips": "“屏蔽”模式下，路由器将屏蔽下列频段。",
+        "band_filter_mode_label": "过滤模式",
+        "current_badge_label": "当前",
+        "band_only_label": "仅使用",
+        "band_only_tips": "“仅使用”模式下，路由器将仅使用下列频段，其他的频段将被屏蔽。",
+        "band_only_warning": "请至少选择一个可使用的频段。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
