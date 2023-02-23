@@ -98,7 +98,19 @@
         "clear_traffic_tips": "Se l'opzione è abilitata, il sistema non salverà automaticamente le statistiche sul traffico.",
         "not_compatible": "Modem incompatibile",
         "connecting_tips": "Alcune carte SIM potrebbero avere restrizioni di utilizzo speciali, come la necessità di utilizzare un APN specifico. Se la tua carta SIM non può essere registrata alla rete, chiedi al tuo operatore se ha restrizioni speciali.",
-        "ttl_tips": "Alcuni operatori di rete determineranno se la carta SIM viene utilizzata sul router rilevando il valore di TTL. Se la tua carta SIM non può essere utilizzata sul router, puoi provare a impostare il TTL su un valore diverso da 64 e 128 (ad esempio, 65)."
+        "ttl_tips": "Alcuni operatori di rete determineranno se la carta SIM viene utilizzata sul router rilevando il valore di TTL. Se la tua carta SIM non può essere utilizzata sul router, puoi provare a impostare il TTL su un valore diverso da 64 e 128 (ad esempio, 65).",
+        "current_sim_label": "Scheda SIM attuale",
+        "current_config_title": "Impostazioni attuali",
+        "saved_config_title": "Impostazioni salvate",
+        "current_config_badge": "In Uso",
+        "save_config_label": "Impostazioni salvate",
+        "sim_slot_setting_title": "Impostazioni dello slot della scheda SIM",
+        "auto_switch_label": "Auto interuttore",
+        "choose_other_profile_btn": "Altre impostazioni",
+        "use_other_config_btn": "Usare altre impostazioni",
+        "copy_config_btn": "Clonare Impostazioi",
+        "main_slot_label": "Slot della scheda SIM preferito",
+        "sim_no_profile_warning": "Nessuna impostazione è stata selezionata, sarà configurato automaticamente."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
