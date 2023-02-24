@@ -44,7 +44,7 @@
         "lock_bssid_tips": "Wenn diese Option aktiviert ist wird sich der Router nur zum Accesspunkt mit der festgelegten BSSID verbinden.",
         "advanced_settings": "Erweiterte Einstellungen",
         "allow_dfs": "Verstärkung von DFS-Kanälen erlauben",
-        "allow_dfs_tips2": "Andernfalls stellt der Router keine Verbindung zu einem WLAN her, das den DFS-Kanal verwendet.",
+        "allow_dfs_tips2": "Wenn die Option deaktiviert ist, stellt der Router keine Verbindung zu einem Wi-Fi her, das DFS-Kanäle verwendet.",
         "retry_disable_guest_tips": "Während des Versuchs, die Verbindung wiederherzustellen, sucht Ihr Router periodisch nach WLAN-Netzwerken und Ihr Gast-WLAN ist während dieser Suche vorübergehend nicht verfügbar.",
         "scan_disable_guest_tips": "Während der Suche nach WLAN-Signalen ist Ihr Gastnetzwerk vorübergehend für etwa 10 Sekunden nicht verfügbar. Möchten Sie fortfahren?",
         "fail_key_tips": "Falsches Passwort.",
@@ -119,7 +119,18 @@
         "timing_check_main_sim_label": "Prüfen des Status des bevorzugten Steckplatzes geplant",
         "timing_check_main_sim_tips": "Wenn diese Option aktiviert ist, versucht das Gerät, zum angegebenen Zeitpunkt wieder zum bevorzugten SIM-Slot zu wechseln. So können Sie wieder zum bevorzugten SIM-Steckplatz wechseln, wenn die Internetverbindung verfügbar ist.",
         "choose_current_slot_label": "SIM-Karte",
-        "remove_profile_warning": "Sind Sie sicher, dass Sie diese Einstellungen löschen wollen? Die Einstellungen können nach dem Löschen nicht wiederhergestellt werden."
+        "remove_profile_warning": "Sind Sie sicher, dass Sie diese Einstellungen löschen wollen? Die Einstellungen können nach dem Löschen nicht wiederhergestellt werden.",
+        "data_roaming_label": "Daten-Roaming",
+        "enable_band_filter_label": "Bandfilter aktivieren",
+        "band_masking_label": "Masking",
+        "band_only_tips": "Im „Ausschließlich nutzten“-Modus verwendet der Router nur die Bänder, die anderen werden maskiert.",
+        "band_masking_tips": "Im „Masking“ Modus maskiert der Router die folgenden Bänder.",
+        "current_badge_label": "Aktuell",
+        "band_filter_mode_label": "Filter-Modus",
+        "band_only_label": "Ausschließlich nutzten",
+        "band_only_warning": "Bitte wählen Sie mindestens eines der zulässigen Bänder aus.",
+        "set_detection_tips": "Der Internet-Status wird auf die gleiche Weise ermittelt wie die Einstellungen auf der $$$$Multi-WAN$$$$ Seite.",
+        "current_sim_badge_label": "Aktuell: SIM {sim}"
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
