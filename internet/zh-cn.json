@@ -50,7 +50,7 @@
         "lock_bssid_tips": "如果启用该选项，路由器在切换到使用此 SSID 的网络时，只会尝试连接您所选的 BSSID 所对应的 AP。",
         "advanced_settings": "高级设置",
         "allow_dfs": "允许中继 DFS 信道",
-        "allow_dfs_tips2": "否则，路由器将不会连接到任意使用 DFS 信道的 Wi-Fi。",
+        "allow_dfs_tips2": "若此选项禁用，路由器将不会连接到任意使用 DFS 信道的 Wi-Fi。",
         "allow_dfs_tips1": "若此选项启用，路由器中继 DFS 信道的 Wi-Fi 时，将跟随热点进行 DFS 信道规避。当该 Wi-Fi 可用时，路由器自身的 5GHz Wi-Fi 将使用 DFS 信道。否则，路由器自身的 5GHz Wi-Fi 将切换回非 DFS 信道。",
         "retry_disable_guest_tips": "尝试重新连接的过程中，路由器每隔一段时间会扫描周边 Wi-Fi，在扫描期间，您的访客网络 Wi-Fi 暂时被关闭。",
         "scan_disable_guest_tips": "扫描周边 Wi-Fi 信号期间，您的访客网络 Wi-Fi 将暂时被关闭，这需要 10 秒左右的时间，您确认要继续吗？",
