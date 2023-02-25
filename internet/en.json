@@ -51,7 +51,7 @@
         "advanced_settings": "Advanced Settings",
         "allow_dfs": "Allow repeating of DFS channels",
         "allow_dfs_tips1": "If the option is enabled, when the router repeat Wi-Fi on any DFS channel, it will follow the hotspot for DFS channel avoidance. When this Wi-Fi is available, the router's own 5GHz Wi-Fi will use the DFS channel. Otherwise, the router's own 5GHz Wi-Fi will switch back to the non-DFS channel.",
-        "allow_dfs_tips2": "Otherwise, the router will not connect to any Wi-Fi using DFS channels.",
+        "allow_dfs_tips2": "If the option is disabled, the router will not connect to any Wi-Fi using DFS channels.",
         "retry_disable_guest_tips": "While attempting to reconnect, your router will periodically scan for Wi-Fi networks, and your guest Wi-Fi network will be temporarily unavailable during the scan.",
         "scan_disable_guest_tips": "During the scan for Wi-Fi signals, your guest network will be temporarily unavailable for about 10 seconds. Do you wish to continue?",
         "fail_eap_key_tips": "Incorrect username or password.",
@@ -130,7 +130,7 @@
         "band_masking_tips": "In \"Masking\" mode, the router will mask the following bands.",
         "band_only_warning": "Please select at least one of the allowed bands.",
         "current_badge_label": "Current",
-        "current_sim_badge_label": "Currnet: SIM {sim}"
+        "current_sim_badge_label": "Current: SIM {sim}"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
