@@ -13,7 +13,8 @@
         "setting": "Ethernet Settings",
         "dhcp_tips": "IP address assigned by higher network machine.",
         "pppoe_vlanid_tips": "This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.",
-        "egderouter_mode_tips": "Drop-in gateway is enabled. If you want to modify the Ethernet settings, please disable $$$$Drop-in Gateway$$$$ first."
+        "egderouter_mode_tips": "Drop-in gateway is enabled. If you want to modify the Ethernet settings, please disable $$$$Drop-in Gateway$$$$ first.",
+        "change_to_lan_check_tips": "切换至 LAN 口，请拔出插入当前 WAN 口的网线。$$$$重新检测$$$$"
     },
     "tethering": {
         "title": "Tethering",
