@@ -30,7 +30,8 @@
         "force_subnet_label": "Force 24 Subnet",
         "subnet_mode_bable": "Subnet Mode",
         "passthrough_desc": "If IP Passthrough is enabled, the router will pass the carrier IP address to the LAN port.",
-        "passthrough_close_warning": "启用该模式，DNS、WI-FI、VPN、AdGuard Home将被关闭。"
+        "passthrough_close_warning": "启用该模式，DNS、WI-FI、VPN、AdGuard Home将被关闭。",
+        "passthrough_conflict_warning": "该模式与旁路由、以太网设置、路由策略、防火墙等功能互相影响，可能导致无法使用"
     },
     "menu_bridge": "Network Mode"
 }
