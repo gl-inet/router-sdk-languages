@@ -14,8 +14,8 @@
         "dhcp_tips": "IP address assigned by higher network machine.",
         "pppoe_vlanid_tips": "This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.",
         "egderouter_mode_tips": "Drop-in gateway is enabled. If you want to modify the Ethernet settings, please disable $$$$Drop-in Gateway$$$$ first.",
-        "change_to_lan_check_tips": "切换至 LAN 口，请拔出插入当前 WAN 口的网线。$$$$重新检测$$$$",
-        "change_to_wan_tips": "如果您选择切换成 WAN 口，可能无法通过连接当前接口访问这个界面。您可以通过连接 WI-FI 访问或者按住设备上的重置按扭 4 秒钟来将设备当前接口恢复为 LAN 口。"
+        "change_to_lan_check_tips": "Please unplug the Ethernet cable that is plugged into the WAN port first. $$$$ re-detect $$$$",
+        "change_to_wan_tips": "Once the LAN port is used as a WAN port, you will have no access to the administrator panel via a network cable connection to the LAN. Please ensure that your client can connect to Wi-Fi."
     },
     "tethering": {
         "title": "Tethering",
