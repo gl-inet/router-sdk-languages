@@ -35,6 +35,7 @@
         "form_wg_label": "DNS from WireGuard",
         "provider": "DNS Provider",
         "adguardhome_in_use_tips": "AdGuard Home is enabled, the router must use the DNS server provided by AdGuard Home, you can't customize DNS servers.",
-        "server_warning_tips": "The server suspected to be expired."
+        "server_warning_tips": "The server suspected to be expired.",
+        "form_interface_label": "DNS from {interface}"
     }
 }
