@@ -13,7 +13,10 @@
         "pppoe_vlanid_tips": "Diese Einstellung wird nur benötigt, wenn der Provider eine VLAN-ID verlangt.",
         "pppoe_log": "PPPoE-Verbindungsprotokoll",
         "dhcp_tips": "Von einem höheren Netzwerkgerät zugewiesene IP-Adresse.",
-        "egderouter_mode_tips": "Das Drop-in gateway ist aktiviert. Wenn du die Ethernet Einstellungen ändern willst, deaktiviere bitte $$$$das Drop-in Gateway$$$$ zuerst."
+        "egderouter_mode_tips": "Das Drop-in gateway ist aktiviert. Wenn du die Ethernet Einstellungen ändern willst, deaktiviere bitte $$$$das Drop-in Gateway$$$$ zuerst.",
+        "change_to_wan_tips": "Sobald der LAN-Anschluss als WAN-Anschluss verwendet wird, haben Sie keinen Zugriff auf das Administrationspanel über eine Netzwerkkabelverbindung zum LAN. Bitte stellen Sie sicher, dass Ihr Client eine Wi-Fi-Verbindung herstellen kann.",
+        "change_to_wan_tips2": "Sie können den LAN-Anschluss (der nicht mehr als WAN-Anschluss verwendet wird) wiederherstellen, indem Sie die Reset-Taste am Gerät 4 Sekunden lang gedrückt halten.",
+        "change_to_lan_check_tips": "Bitte ziehen Sie zuerst das Ethernet-Kabel ab, das an den WAN-Anschluss angeschlossen ist. $$$$ neu erkennen $$$$"
     },
     "tethering": {
         "title": "Netzwerkfreigabe",
@@ -111,7 +114,7 @@
         "sim_failover_interval_tips": "Wenn die Internetverbindung nach dem Failover immer noch nicht verfügbar ist, wechselt das Gerät zurück zum bevorzugten SIM-Steckplatz und versucht das Failover erst nach diesem Zeitraum erneut.",
         "check_main_sim_time_label": "Zeit der Umschaltung",
         "use_other_config_btn": "Andere Einstellungen verwenden",
-        "copy_config_btn": "Einstellungen duplizieren",
+        "copy_config_btn": "Einstellungen duplizieren und bearbeiten",
         "sim_slot_setting_title": "SIM-Kartensteckplatz-Einstellungen",
         "main_slot_label": "Bevorzugter SIM-Karten-Steckplatz",
         "sim_profile_label": "SIM-{index}-Einstellungen",
