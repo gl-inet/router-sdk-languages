@@ -13,7 +13,10 @@
         "setting": "Impostazioni Ethernet",
         "dhcp_tips": "Indirizzo IP assegnato dalla macchina di rete superiore.",
         "pppoe_vlanid_tips": "Questa impostazione è richiesta solamente se il server PPPoE del provider richiede che l'interfaccia usi uno specifico tag VLAN ID.",
-        "egderouter_mode_tips": "Il drop-in gateway è abilitato. Se vuoi modificare le impostazioni Ethernet, per favore disabilita prima il $$$$Drop-in Gateway$$$$."
+        "egderouter_mode_tips": "Il drop-in gateway è abilitato. Se vuoi modificare le impostazioni Ethernet, per favore disabilita prima il $$$$Drop-in Gateway$$$$.",
+        "change_to_lan_check_tips": "Prima rimuovi il cavo Ethernet collegato alla porta WAN. $$$$ re-detect $$$$",
+        "change_to_wan_tips2": "Puoi resettare la porta LAN (se non usata più come porta WAN) tenendo premuto il bottone di reset per 4 secondi.",
+        "change_to_wan_tips": "Una volta che si inizia a usare la porta LAN come WAN, non potrai più accedere al pannello di amministrazione usando la connessione via cavo. Controlla prima che tu sia connesso alla rete Wi-Fi."
     },
     "tethering": {
         "title": "Tethering",
@@ -50,7 +53,7 @@
         "allow_change_tips": "Se l'opzione è attivata, il router si connetterà automaticamente ad altre reti salvate quando non è in grado di connettersi alla rete Wi-Fi corrente.",
         "lock_band": "Scegli la banda",
         "allow_dfs": "Consentire la ripetizione dei canali DFS",
-        "allow_dfs_tips2": "In caso contrario, il router non si connetterà a nessun Wi-Fi che usa i canali DFS.",
+        "allow_dfs_tips2": "Se questa opzione è disabilitata, il router non si connetterà a nessun Wi-Fi che usa i canali DFS.",
         "retry_disable_guest_tips": "Mentre tenta di riconnettersi, il router esegue una scansione periodica delle reti Wi-Fi e la rete Wi-Fi ospite sarà temporaneamente non disponibile durante tale scansione.",
         "scan_disable_guest_tips": "Durante la scansione dei segnali Wi-Fi, la rete ospite sarà temporaneamente non disponibile per circa 10 secondi. Si desidera continuare?",
         "fail_key_tips": "Il password non è corretta.",
@@ -108,9 +111,25 @@
         "auto_switch_label": "Auto interuttore",
         "choose_other_profile_btn": "Altre impostazioni",
         "use_other_config_btn": "Usare altre impostazioni",
-        "copy_config_btn": "Clonare Impostazioi",
+        "copy_config_btn": "Crea una copia e modifica",
         "main_slot_label": "Slot della scheda SIM preferito",
-        "sim_no_profile_warning": "Nessuna impostazione è stata selezionata, sarà configurato automaticamente."
+        "sim_no_profile_warning": "Nessuna impostazione è stata selezionata, sarà configurato automaticamente.",
+        "sim_slot_switching_tips": "Selettore slot della scheda SIM…",
+        "set_detection_tips": "Lo stato di connessione a Internet viene rilevato allo stesso modo delle impostazioni nella pagina $$$$Multi-WAN$$$$.",
+        "data_roaming_label": "Roaming dei Dati",
+        "band_masking_label": "Mascheramento di Rete (Masking)",
+        "band_masking_tips": "Se la modalità \"Masking\" è attivata, il router \"nasconderà\" le seguenti reti.",
+        "current_badge_label": "In uso",
+        "enable_band_filter_label": "Abilita filtro su banda di rete",
+        "band_filter_mode_label": "Modalità filtro",
+        "band_only_warning": "Scegli almeno una delle seguenti bande di rete.",
+        "current_sim_badge_label": "In uso: SIM {sim}",
+        "sim_failover_interval_label": "Intervallo di Failover",
+        "sim_failover_interval_tips": "Se la connessione Internet non è ancora disponibile dopo il failover, il dispositivo tornerà ad usare la SIM preferita e ritenterà il failover solo dopo l'intervallo di tempo deciso da questo parametro.",
+        "timing_check_main_sim_tips": "Se questa opzione è abilitata, il dispositivo proverà a tornare ad usare la SIM preferita all'ora specificata. Questo per fare In modo che tu possa tornare a utilizzare la SIM preferita quando la sua connessione Internet torna disponibile.",
+        "sim_profile_label": "Setting della SIM {index}",
+        "choose_current_slot_label": "SIM Card in uso",
+        "remove_profile_warning": "Sei sicuro di voler cancellare queste impostazioni? Le impostazioni andranno perse per sempre e non potranno essere recuperate."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -164,7 +183,7 @@
         "forward_add_phone_btn": "Aggiungi numero telefonico",
         "forward_title": "Inoltro SMS",
         "forward_email_label": "Email",
-        "forward_email_tips": "Se vuoi inoltrare SMS via email, per favore seleziona prima l'indirizzo email mittente, sarà usato per inviare SMS all'indirizzo email destinatario"
+        "forward_email_tips": "Se vuoi inoltrare SMS via email, per favore imposta prima l'indirizzo email mittente; questo sarà usato per inviare SMS all'indirizzo email destinatario."
     },
     "modemmanage": {
         "title": "Gestione",
