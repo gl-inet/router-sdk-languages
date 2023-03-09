@@ -63,6 +63,7 @@
         "parse_mac_error_tips": "解析 MAC 地址失败，请检查该文件并重新上传。",
         "parse_mac_success_tips": "已解析出{count}个有效的 MAC 地址",
         "parse_mac_warning_tips": "{count}个 MAC 地址解析失败，将会在确认导入后被丢弃。",
-        "import_btn": "导入"
+        "import_btn": "导入",
+        "blacklist_self_error_tips": "黑名单不能包含本机 MAC"
     }
 }
