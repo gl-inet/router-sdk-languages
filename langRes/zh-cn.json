@@ -30,7 +30,7 @@
         "force_subnet_label": "强制24位子网",
         "subnet_mode_bable": "子网模式",
         "passthrough_desc": "如果启用了 IP Passthrough 功能，路由器会将运营商的 IP 地址传递到 LAN 口。",
-        "passthrough_close_warning": "若您切换到此模式，DNS、Wi-Fi、VPN、AdGuard Home 将被关闭。",
+        "passthrough_close_warning": "若您切换到此模式，IPv6、DNS、Wi-Fi、VPN、AdGuard Home 将被关闭。",
         "passthrough_conflict_warning": "如果您进行了以下配置，此模式可能无法正常工作：启用旁路由、将 WAN 口设置为 LAN口、使用 VPN 策略、添加了防火墙配置。"
     },
     "menu_bridge": "网络模式"
