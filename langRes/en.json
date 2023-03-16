@@ -31,7 +31,7 @@
         "subnet_mode_bable": "Subnet Mode",
         "passthrough_desc": "If IP Passthrough is enabled, the router will pass the carrier IP address to the LAN port.",
         "passthrough_close_warning": "If you switch to this mode, Repeater, Tethering, Wireless, Clients, IPv6, DNS, VPN, and AdGuard Home will be disabled.",
-        "passthrough_conflict_warning": "This mode may not work if you have the following settings: enabled drop-in gateway mode, set WAN port as LAN, used VPN policy, added any firewall setting."
+        "passthrough_conflict_warning": "This mode may not work if you have the following settings: enabled drop-in gateway mode, set WAN port as LAN, used VPN policy, added any firewall setting, set MAC address."
     },
     "menu_bridge": "Network Mode"
 }
