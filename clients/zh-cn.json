@@ -48,7 +48,21 @@
         "hardware_acceleration_warning": "$$$$硬件加速$$$$已启用，客户端速度和流量统计数据异常，客户端限速无法正常工作。",
         "network_acceleration_warning": "$$$$网络加速$$$$已启用，客户端速度和流量统计数据异常，客户端限速无法正常工作。",
         "block_label": "阻止入网",
-        "access_label": "允许入网"
+        "access_label": "允许入网",
+        "access_control_label": "访问控制",
+        "import_mac_label": "导入客户端",
+        "import_mac_add_tips": "导入成功的 MAC 地址将被追加到列表内。",
+        "parse_mac_error_tips": "解析 MAC 地址失败，请检查该文件并重新上传。",
+        "parse_mac_success_tips": "已解析出 1 个有效的 MAC 地址。| 已解析出 {count} 个有效的 MAC 地址。",
+        "parse_mac_warning_tips": "1 条数据不是有效的 MAC 地址，它们将会在确认导入后被丢弃。 | {count} 条数据不是有效的 MAC 地址，它们将会在确认导入后被丢弃。",
+        "blacklist_self_error_tips": "禁止将本机 MAC 添加到黑名单。",
+        "access_control_tips": "访问控制允许或阻止特定客户设备访问你的网络。",
+        "access_control_black_tips": "当一台客户端设备被阻止时，它将无法访问内网与外网。",
+        "access_control_white_tips": "只有当一台设备被允许访问时，它才可以连接到内网与外网。",
+        "self_mac_label": "本机 MAC",
+        "import_mac_tips": "您可以将客户端设备 MAC 地址导入到列表中。$$$$下载导入模板$$$$",
+        "import_btn": "导入",
+        "whitelist_self_error_tips": "本机 MAC 必须包含在白名单中。"
     },
     "menu_clients": "客户端"
 }
