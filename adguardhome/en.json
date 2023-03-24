@@ -15,6 +15,6 @@
 "request_th": "Requests Count",
 "no_data": "No Data",
 "process_req_label": "AdGuard Home Handle Client Requests",
-"process_req_tips": "If this option is enabled, requests from clients will no longer be forwarded by the router to ADGuard Home. ADGuard Home will show which client the request came from, but VPN policy based on the domain will not work."
+"process_req_tips": "If this option is enabled, DNS queries from client devices will be handled by AdGuard Home directly. AdGuard Home will show DNS query logs by clients. But this will cause VPN policies based on domain not work."
 }
 }
