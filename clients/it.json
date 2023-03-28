@@ -50,7 +50,19 @@
         "block_label": "Blocca",
         "access_label": "Autorizza",
         "access_control_label": "Controllo Accessi",
-        "access_control_tips": "I dispositivi client specifici sono autorizzati o bloccati l'accesso alla rete dal controllo accessi."
+        "access_control_tips": "I dispositivi client specifici sono autorizzati o bloccati l'accesso alla rete dal controllo accessi.",
+        "access_control_black_tips": "Un dispositivo client non può connettersi alla LAN e alla WAN se è bloccato.",
+        "import_mac_add_tips": "Gli indirizzi MAC importati correttamente verranno aggiunti all'elenco.",
+        "parse_mac_success_tips": "1 indirizzo MAC valido è stato risolto. | {count} indirizzi MAC validi sono stati risolti.",
+        "parse_mac_warning_tips": "1 voce non è un indirizzo MAC valido verrà scartato se l'importazione viene confermata. | {count} voci non è un indirizzo MAC valido, verrà scartato se l'importazione viene confermata.",
+        "import_btn": "Importare",
+        "blacklist_self_error_tips": "Disabilita l'aggiunta del self MAC alla blocklist.",
+        "access_control_white_tips": "Un dispositivo client può connettersi alla LAN e alla WAN solo se è autorizzato ad accedervi.",
+        "import_mac_label": "Importa Clients",
+        "self_mac_label": "Proprio MAC",
+        "parse_mac_error_tips": "Impossibile risolvere l'indirizzo MAC, controlla il file e ricaricalo.",
+        "whitelist_self_error_tips": "Il allowlist deve contenere il MAC personale.",
+        "import_mac_tips": "È possibile importare gli indirizzi MAC del dispositivo client nell'elenco. $$$$Scarica modello di importazione$$$$"
     },
     "menu_clients": "Client"
 }
