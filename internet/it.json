@@ -131,7 +131,13 @@
         "choose_current_slot_label": "SIM Card in uso",
         "remove_profile_warning": "Sei sicuro di voler cancellare queste impostazioni? Le impostazioni andranno perse per sempre e non potranno essere recuperate.",
         "check_main_sim_time_label": "Intervallo di Switching",
-        "timing_check_main_sim_label": "Intervallo di controllo dello stato dello slot preferito"
+        "timing_check_main_sim_label": "Intervallo di controllo dello stato dello slot preferito",
+        "band_only_label": "Use Only",
+        "band_only_tips": "In modalità \"Use Only\", il router utilizzerà solo le bande, le altre bande di frequenza saranno bloccate.",
+        "excellent_singal_label": "Eccellente",
+        "good_singal_label": "Buono",
+        "poor_singal_label": "Scarso",
+        "fair_singal_label": "Discreto"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -185,7 +191,8 @@
         "forward_add_phone_btn": "Aggiungi numero telefonico",
         "forward_title": "Inoltro SMS",
         "forward_email_label": "Email",
-        "forward_email_tips": "Se vuoi inoltrare SMS via email, per favore imposta prima l'indirizzo email mittente; questo sarà usato per inviare SMS all'indirizzo email destinatario."
+        "forward_email_tips": "Se vuoi inoltrare SMS via email, per favore imposta prima l'indirizzo email mittente; questo sarà usato per inviare SMS all'indirizzo email destinatario.",
+        "forward_tips": "Per evitare circolarità, l'inoltro SMS non verrà eseguito quando il numero locale viene inserito qui, inoltre, se il Modem non legge il numero della tua scheda SIM, l'inoltro SMS non verrà eseguito."
     },
     "modemmanage": {
         "title": "Gestione",
