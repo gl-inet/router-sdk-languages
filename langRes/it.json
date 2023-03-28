@@ -30,7 +30,8 @@
         "force_subnet_label": "Forzare una 24 Subnet",
         "passthrough_desc": "Se IP Passthrough è abilitato, il router passerà l'indirizzo IP dell'operatore alla porta LAN.",
         "subnet_mode_bable": "Modalità di Subnet",
-        "passthrough_close_warning": "Se passi a questa modalità, ripetitore, wireless, client, VPN e AdGuard Home verranno disabilitati."
+        "passthrough_close_warning": "Se passi a questa modalità, ripetitore, wireless, client, VPN e AdGuard Home verranno disabilitati.",
+        "passthrough_conflict_warning": "Questa modalità potrebbe non funzionare se si dispone delle seguenti impostazioni: Tethering abilitato, modalità gateway drop-in abilitata, IPv6 abilitato, DNS impostato manualmente, Multi-WAN impostato su modalità con bilanciamento del carico, impostazione della porta WAN come LAN, politica VPN utilizzata, aggiunta di qualsiasi impostazione del firewall, impostare manualmente l'indirizzo MAC."
     },
     "menu_bridge": "Modalità di rete"
 }
