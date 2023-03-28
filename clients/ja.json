@@ -45,7 +45,22 @@
         "clear_traffic_label": "トラフィック統計を削除する",
         "clear_traffic_caution": "すべてのトラフィック統計を削除しますか？",
         "clear_btn": "削除する",
-        "hardware_acceleration_warning": "$$$$ハードウェア アクセラレーション$$$$が有効になっています。クライアント速度とトラフィック統計が異常です。クライアント速度制限が機能していません。"
+        "hardware_acceleration_warning": "$$$$ハードウェア アクセラレーション$$$$が有効になっています。クライアント速度とトラフィック統計が異常です。クライアント速度制限が機能していません。",
+        "block_label": "ブロック",
+        "access_label": "アクセス",
+        "access_control_label": "アクセス制御",
+        "access_control_black_tips": "クライアント デバイスはブロックされている場合、LAN および WAN に接続できません。",
+        "import_mac_tips": "クライアント デバイスの MAC アドレスをリストにインポートできます。 $$$$インポート テンプレートをダウンロード$$$$",
+        "parse_mac_success_tips": "1つの有効なMACアドレスが解決されました。| {count} 有効なMACアドレスが解決されました。",
+        "import_btn": "インポート",
+        "access_control_tips": "アクセス制御は、特定のクライアント デバイスのネットワークへのアクセスを許可またはブロックします。",
+        "access_control_white_tips": "デバイスはアクセスを許可された場合のみ、LANやWANに接続することができます。",
+        "self_mac_label": "ローカルMAC",
+        "network_acceleration_warning": "$$$$ネットワークアクセラレーション$$$$ が有効であり、クライアント速度およびトラフィック統計が異常であり、クライアント速度制限が正常に動作していない。",
+        "import_mac_label": "クライアントのインポート",
+        "import_mac_add_tips": "正常にインポートされた MAC アドレスがリストに追加されます。",
+        "parse_mac_error_tips": "MACアドレスの解決に失敗しました。ファイルを確認し、再アップロードしてください。",
+        "parse_mac_warning_tips": "1つのエントリは有効なMACアドレスではありません。インポートが確認された場合、破棄されます。| {count} エントリが有効なMACアドレスでない場合、インポートが確認されると破棄されます。"
     },
     "menu_clients": "クライアント"
 }
