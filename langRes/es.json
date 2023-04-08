@@ -25,7 +25,12 @@
         "enable_remote_ssh": "Activar SSH Remoto",
         "device_mac": "Dispositivo MAC",
         "device_sn": "Dispositivo S/N",
-        "europe_label": "Europa"
+        "europe_label": "Europa",
+        "unbound_tips": "Tu dispositivo no está vinculado a ninguna cuenta de cloud.",
+        "token_invalid_tips": "La verificación de la clave de seguridad de tu dispositivo ha fallado, por favor ve a $$$$ para resetear el token de seguridad o vuelve a enlazar el dispositivo.",
+        "america_label": "América",
+        "asia_pacific_label": "Asia Pacífico",
+        "china_label": "China"
     },
     "menu_cloud": "GoodCloud"
 }
