@@ -1,1 +1,9 @@
-{}
+{
+    "menu_netnat": "Aceleración Network",
+    "netnat": {
+        "desc": "La Aceleración Network reduce la carga de CPU y acelera el tráfico de reenvio de paquetes, pero puede causar conflicto con otras funciones.",
+        "tips": "Cuando la Aceleración Network está activada, las siguientes funciones no funcionaran correctamente: Velocidad del cliente , estadísticas de tráfico y velocidad límite del cliente.",
+        "hwnat_label": "Aceleración Hardware",
+        "swnat_label": "Aceleración Software"
+    }
+}
