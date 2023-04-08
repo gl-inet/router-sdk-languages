@@ -69,7 +69,9 @@
         "select_none_btn": "Anular toda la selección",
         "blacklist": "Lista de bloqueo",
         "mode": "Modo",
-        "advanced": "Avanzada"
+        "advanced": "Avanzada",
+        "whitelist": "Lista de permitidos",
+        "current": "Actual"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -111,6 +113,8 @@
         "reupload": "Vuelva a subir el archivo",
         "firmware_format_error": "Formato incorrecto de firmware!",
         "error": "No se ha podido subir el archivo.",
-        "format_error": "¡Error de formato de datos!"
+        "format_error": "¡Error de formato de datos!",
+        "too_large_tips": "El fichero cargado es demasiado grande, por favor suba un fichero que no exceda $$$$.",
+        "lass_than_tips": "(Menos que $$$$)"
     }
 }
