@@ -16,7 +16,11 @@
         "user_count_max": "最大用户数",
         "lan_tab": "私有网络",
         "guest_tab": "访客网络",
-        "ip_easy_tip": "路由器 IP 地址是您进入路由器管理页面的浏览器访问地址。"
+        "ip_easy_tip": "路由器 IP 地址是您进入路由器管理页面的浏览器访问地址。",
+        "enable_dhcp_tips": "DHCP 服务器会自动为每个客户设备分配 IP 地址和其他通信参数。如果 DHCP 服务器被禁用，你必须为每个客户端设备手动配置这些参数。",
+        "dhcp_charter_label": "租期",
+        "lpr_serve_label": "LPR 服务器",
+        "dhcp_serve_title": "DHCP 服务器"
     },
     "address_reservation": {
         "title": "地址预留",
