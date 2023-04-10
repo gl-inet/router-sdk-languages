@@ -15,6 +15,6 @@
 "not_disabled_dns_msg": "Ningún otro DNS desactivado",
 "no_data": "Sin Datos",
 "process_req_label": "AdGuard Home Gestiona las Solicitudes de los Clientes",
-"process_req_tips": "Si esta opción está habilitada, las solicitudes DNS de los clientes serán gestionadas por ADGuard Home. ADGuard Home mostrará los logs de la solicitudes de los clientes. Esto hará que las políticas VPN basadas en el dominio no funcionarán."
+"process_req_tips": "Si esta opción está habilitada, las solicitudes DNS de los dispositivos del cliente serán gestionadas directamente por AdGuard Home. ADGuard Home mostrará los registros de las solicitudes de los clientes. Sin embargo, esto provocará que las políticas VPN basadas en dominios no funcionen."
 }
 }
