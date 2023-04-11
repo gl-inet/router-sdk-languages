@@ -16,7 +16,11 @@
         "lan_conflict_tips": "與LAN IP 衝突",
         "cannot_contain_ip_tips": "地址範圍不包括路由器的IP",
         "end_smaller_tips": "結束IP 地址小於起始IP 地址",
-        "user_count_max": "最大用戶數"
+        "user_count_max": "最大用戶數",
+        "enable_dhcp_tips": "DHCP 服務器自動為每個客戶端設備分配 IP 地址和其他通信參數。如果 DHCP 服務器被禁用，您將必須為每個客戶端手動配置它們。",
+        "dhcp_serve_title": "DHCP服務器",
+        "dhcp_charter_label": "租期",
+        "lpr_serve_label": "LPR 服務器"
     },
     "address_reservation": {
         "note": "注意，被配置的客戶端必須重新連接路由器才能生效。",
@@ -33,5 +37,6 @@
         "confirm_delete_all": "您確認要刪除所有的地址預留配置嗎？",
         "desc_label": "描述"
     },
-    "menu_lanip": "LAN"
+    "menu_lanip": "LAN",
+    "menu_guestip": "訪客網絡"
 }
