@@ -70,7 +70,8 @@
         "blacklist": "黑名單",
         "mode": "模式",
         "advanced": "進階設置",
-        "current": "當前"
+        "current": "當前",
+        "whitelist": "白名單"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -112,6 +113,8 @@
         "reupload": "重新上傳文件",
         "firmware_format_error": "固件格式錯誤!",
         "error": "文件上載失敗",
-        "format_error": "數據格式錯誤!"
+        "format_error": "數據格式錯誤!",
+        "too_large_tips": "上傳的文件太大，請上傳 $$$$ 的文件。",
+        "lass_than_tips": "（少於 $$$$）"
     }
 }
