@@ -45,7 +45,24 @@
         "hardware_acceleration_warning": "$$$$硬件加速$$$$已啟用，客戶端速度和流量統計出現異常，客戶端速度限制不起作用。",
         "clear_traffic_label": "清除流量統計",
         "clear_traffic_caution": "您確定要刪除所有流量統計信息嗎？",
-        "clear_btn": "清除"
+        "clear_btn": "清除",
+        "block_label": "禁止",
+        "access_label": "存取",
+        "access_control_label": "訪問控制",
+        "import_mac_label": "導入客戶",
+        "import_mac_add_tips": "成功導入的 MAC 地址將附加到列表中。",
+        "parse_mac_error_tips": "MAC地址解析失敗，請檢查文件並重新上傳。",
+        "parse_mac_success_tips": "已解析 1 個有效的 MAC 地址。 | {count} 個有效的 MAC 地址已被解析。",
+        "blacklist_self_error_tips": "禁用將自身 MAC 添加到阻止列表。",
+        "access_control_tips": "訪問控制允許或阻止特定客戶端設備訪問您的網絡。",
+        "access_control_black_tips": "如果客戶端設備被阻止，則無法連接到 LAN 和 WAN。",
+        "access_control_white_tips": "客戶端設備只有在允許訪問的情況下才能連接到 LAN 和 WAN。",
+        "import_mac_tips": "您可以將客戶端設備 MAC 地址導入到列表中。 $$$$下載導入模板$$$$",
+        "whitelist_self_error_tips": "白名單必須包含自身 MAC。",
+        "self_mac_label": "Self MAC",
+        "parse_mac_warning_tips": "1 個條目不是有效的 MAC 地址，如果確認導入，它將被丟棄。 | {count} 個條目不是有效的 MAC 地址，如果確認導入，它將被丟棄。",
+        "import_btn": "輸入",
+        "network_acceleration_warning": "$$$$網絡加速$$$$開啟，客戶端速度和流量統計異常，客戶端限速沒有工作。"
     },
     "menu_clients": "客戶端"
 }
