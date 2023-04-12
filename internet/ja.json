@@ -16,7 +16,7 @@
         "egderouter_mode_tips": "サイドルーティングが有効になっています。イーサネット設定を変更する場合は、先に$$$$サイドルーティング$$$$を無効にしてください。",
         "change_to_wan_tips": "LANポートをWANポートとして使用すると、LANにネットワークケーブルで接続して管理パネルにアクセスすることができなくなります。クライアントがWi-Fiに接続できることを確認してください。",
         "change_to_wan_tips2": "本体のリセットボタンを4秒間長押しすることで、LANポート（WANポートとして使用されなくなる）を復帰させることができます。",
-        "change_to_lan_check_tips": "まずWANポートに差し込まれているイーサネットケーブルを抜いてください。$$$$再検出 $$$$ を行います。"
+        "change_to_lan_check_tips": "まずWANポートに差し込まれているイーサネットケーブルを抜いてください。$$$$再検出 $$$$ を行います"
     },
     "tethering": {
         "title": "テザリング",
@@ -126,7 +126,7 @@
         "main_slot_label": "SIMカードスロット優先",
         "timing_check_main_sim_tips": "このオプションを有効にすると、デバイスは指定された時間に優先SIMスロットへの切り替えを試みます。そのため、そのインターネット接続が利用可能なときに、優先SIMスロットの使用に切り換えることができます。",
         "check_main_sim_time_label": "スイッチングタイム",
-        "sim_slot_switching_tips": "SIMカードスロット切り替え中．．．",
+        "sim_slot_switching_tips": "SIMカードスロット切り替え中……",
         "current_config_title": "現在の設定",
         "sim_slot_setting_title": "SIMカードスロットの設定",
         "auto_switch_label": "オートスイッチ",
