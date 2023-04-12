@@ -49,7 +49,8 @@
         "no_user_tips": "Please select at least one writable user or read-only user.",
         "nfs_tips": "Disks with exFAT format cannot be shared via NFS protocol.",
         "ftp_fat32_tips": "FTP protocol does not support writing data to FAT32 formatted disks yet.",
-        "format_th": "Format"
+        "format_th": "Format",
+        "users_limit_tips": "用户最多只能存在10个"
     },
     "menu_nasview": "Network Storage"
 }
