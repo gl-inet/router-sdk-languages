@@ -16,7 +16,11 @@
         "ip_outside_tips": "Die IP-Adresse befindet sich nicht im Sub-Netzwerk",
         "cannot_contain_ip_tips": "Der Adressbereich darf nicht die Router IP-Adresse beinhalten",
         "end_smaller_tips": "Die letzte IP-Adresse ist kleiner als die erste IP-Adresse",
-        "ip_easy_tip": "Die IP-Adrese des Routers ist diejenige Adresse, die sie in ihren Browser eintragen, um die Administrationsseite des Routers aufzurufen."
+        "ip_easy_tip": "Die IP-Adrese des Routers ist diejenige Adresse, die sie in ihren Browser eintragen, um die Administrationsseite des Routers aufzurufen.",
+        "dhcp_charter_label": "Gültigkeitsdauer",
+        "lpr_serve_label": "LPR-Server",
+        "dhcp_serve_title": "DHCP-Server",
+        "enable_dhcp_tips": "Der DHCP-Server weist den einzelnen Client-Geräten automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen Sie dies für jedes Gerät manuell konfigurieren."
     },
     "address_reservation": {
         "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",
