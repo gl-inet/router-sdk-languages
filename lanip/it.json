@@ -16,7 +16,11 @@
         "lan_or_guest_senior_tip": "È possibile impostare la sottorete all'interno degli intervalli di indirizzi privati IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "lan_conflict_tips": "È in conflitto con l'IP LAN",
         "ip_outside_tips": "L'indirizzo IP è esterno alla sottorete",
-        "ip_easy_tip": "L'indirizzo IP del router è quello che inseriresti nella barra degli indirizzi del tuo browser per accedere alla sua pagina di amministrazione."
+        "ip_easy_tip": "L'indirizzo IP del router è quello che inseriresti nella barra degli indirizzi del tuo browser per accedere alla sua pagina di amministrazione.",
+        "dhcp_charter_label": "Tempo di Lease",
+        "lpr_serve_label": "Server LPR",
+        "dhcp_serve_title": "Server DHCP",
+        "enable_dhcp_tips": "Il server DHCP assegna automaticamente gli indirizzi IP ed altri parametri di comunicazione per ogni dispositivo client. Se il server DHCP è disabilitato, dovrai configurarli manualmente per ogni client."
     },
     "address_reservation": {
         "note": "Nota: Il client configurato deve riconnettersi al router per far sì che le impostazioni abbiano effetto.",
