@@ -22,6 +22,7 @@
         "enable_ping_label": "允许 WAN 侧 Ping 本机",
         "enable_https_label": "启用 HTTPS 远程访问",
         "enable_ssh_label": "启用 SSH 远程访问",
-        "enable_ipaddr_label": "启用特定 IP 地址远程访问"
+        "enable_ipaddr_label": "启用特定 IP 地址远程访问",
+        "enable_ipaddr_tips": "您可以添加指定 IP 地址远程访问您的路由器管理界面，未被添加的 IP 地址将无法远程访问"
     }
 }
