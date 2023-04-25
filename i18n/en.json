@@ -17,7 +17,8 @@
         "parsing_error_tips": "The DNS record for this DDNS domain could not be found in the DNS server. Please check the Internet connection of the device.",
         "parsing_warning_tips": "The IP from DDNS domain resolution is not the same as the WAN IPs of the device. You need an Internet Public IP address to use the Dynamic DNS. If this router is behind NAT, you may need to set up port forward in your ISP router. If you have VPN Client enabled, please disabled \"Services from GL.iNet Use VPN\" in the global options.",
         "parsing_label": "IP from DDNS Domain Resolution",
-        "parsing_interface_title": "Interface WAN IP"
+        "parsing_interface_title": "Interface WAN IP",
+        "remote_access_tips": "前往$$$$远程访问控制$$$$修改配置"
     },
     "menu_dynamicdns": "Dynamic DNS"
 }
