@@ -83,7 +83,10 @@
         "drag_sort": "",
         "all_select_btn": "",
         "select_none_btn": "",
-        "blacklist": ""
+        "blacklist": "",
+        "use_weak_tips": "",
+        "begin_not_allow_tips": "",
+        "toggle_btn": ""
     },
     "msg": {
         "access_denied": "Ошибка: недостаточно прав",
@@ -93,7 +96,9 @@
         "installing": "",
         "processing": "",
         "success": "",
-        "unknown_err": ""
+        "unknown_err": "",
+        "operation_not_finished": "",
+        "interface_timeout": ""
     },
     "upload": {
         "select_or_drag": "Выберите файл или поместите его в окно",
@@ -103,7 +108,8 @@
         "firmware_format_error": "ОШИБКА: Недопустимый формат прошивки!",
         "error": "ОШИБКА: Не удалось загрузить файл!",
         "format_error": "Ошибка формата данных",
-        "lass_than_tips": ""
+        "lass_than_tips": "",
+        "too_large_tips": ""
     },
     "internet": {
         "connected": "",
