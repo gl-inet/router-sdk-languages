@@ -6,7 +6,10 @@
         "wan_been_lan": "Le port WAN a été utilisé comme LAN. Vous pouvez le définir sur WAN ci-dessous",
         "confirm_to_lan": "Veuillez confirmer: souhaitez-vous utiliser le port WAN en tant que LAN?",
         "confirm_to_wan": "Veuillez confirmer: voulez-vous changer le port WAN en WAN?",
-        "repeated": "Connection déjà réussi . Ce n'est pas la peine de connecter encore une fois."
+        "repeated": "Connection déjà réussi . Ce n'est pas la peine de connecter encore une fois.",
+        "using_as_wan": "",
+        "pppoe_vlanid_tips": "",
+        "egderouter_mode_tips": ""
     },
     "tethering": {
         "title": "Partage",
@@ -17,7 +20,13 @@
         "title": "Répétiteur",
         "known_net": "Réseaux connus",
         "options": "Repeater Options",
-        "no_tips": "Le répéteur (STA) est désactivé"
+        "no_tips": "Le répéteur (STA) est désactivé",
+        "join_wifi": "",
+        "retry_connet_tips": "",
+        "allow_dfs_tips1": "",
+        "fail_eap_key_tips": "",
+        "fail_key_tips": "",
+        "fail_not_found_tips": ""
     },
     "modem": {
         "title": "Modem",
@@ -36,7 +45,39 @@
         "user_name": "Nom d'utilisateur",
         "password": "Mot de passe",
         "sim_not_registered": "La carte SIM n'a pas inscrit",
-        "auto_setup": "Configuration automatique"
+        "auto_setup": "Configuration automatique",
+        "band_filter_mode_label": "",
+        "band_masking_label": "",
+        "sim_slot_switching_tips": "",
+        "current_sim_label": "",
+        "current_config_title": "",
+        "saved_config_title": "",
+        "use_other_config_btn": "",
+        "current_config_badge": "",
+        "save_config_label": "",
+        "copy_config_btn": "",
+        "sim_slot_setting_title": "",
+        "auto_switch_label": "",
+        "main_slot_label": "",
+        "sim_profile_label": "",
+        "choose_other_profile_btn": "",
+        "sim_failover_interval_label": "",
+        "timing_check_main_sim_label": "",
+        "check_main_sim_time_label": "",
+        "choose_current_slot_label": "",
+        "remove_profile_warning": "",
+        "set_detection_tips": "",
+        "enable_band_filter_label": "",
+        "band_only_label": "",
+        "band_only_tips": "",
+        "band_masking_tips": "",
+        "band_only_warning": "",
+        "current_sim_badge_label": "",
+        "select_profile_desc": "",
+        "edit_profile_title": "",
+        "add_new_profile_title": "",
+        "name_already_exist_tips": "",
+        "history_signal_title": ""
     },
     "router_visual": {
         "wlan_client": "Clients WLAN",
@@ -64,6 +105,17 @@
         "confirm_del": "Confirmer la suppression",
         "invalid_dial_num": "Numéro de composition invalide",
         "national": "Local",
-        "no_sms": "Pas de message"
+        "no_sms": "Pas de message",
+        "forward_email_label": "",
+        "forward_smtp_title": "",
+        "forward_smtp_server_label": "",
+        "forward_encryp_label": "",
+        "forward_email_list_title": "",
+        "forward_add_email_btn": "",
+        "forward_add_phone_btn": "",
+        "forward_email_account_label": "",
+        "forward_email_subject_label": "",
+        "forward_title": "",
+        "forward_no_encryp_label": ""
     }
 }
