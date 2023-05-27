@@ -1,6 +1,6 @@
 {
     "ddns": {
-        "desc": "Puede activar el DNS Dinámico para éste enrutador y accesarlo de forma remota. Hay un retraso de hasta 10 minutos en la sincronización de registros entre los servidores DNS. Esto puede provocar que el acceso a través de dominios DDNS no esté disponible inmediatamente después de que usted lo haya habilitado o que su IP pública haya cambiado.",
+        "desc": "Puede activar el DNS Dinámico para éste enrutador y accesarlo de forma remota. Hay un retraso de hasta 10 minutos en la sincronización de registros entre los servidores DNS. Esto puede provocar que el acceso a través de dominios DDNS no esté disponible inmediatamente después de que se haya habilitado o que su IP pública haya cambiado.",
         "test": "Prueba de DDNS (DNS Dinámico)",
         "enable_http": "Activar el acceso remoto HTTP",
         "enable_https": "Activar el acceso remoto HTTPS",
