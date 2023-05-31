@@ -1,1 +1,17 @@
-{}
+{
+    "menu_olede750": "OLED 屏幕設置",
+    "olede750": {
+        "show_wifi_pwd_label": "顯示 Wi-Fi 密碼",
+        "show_wifi_pwd_tips": "如果啟用此選項， Wi-Fi 密碼將顯示在 2.4GHz Wi-Fi 頁面和 5GHz Wi-Fi 頁面上。否則，它們只會顯示 SSID。",
+        "show_main_label": "啟用基本狀態頁面",
+        "show_main_tips": "此頁面顯示網絡狀態、客戶端數量、Wi-Fi 狀態、電池電量和當前時間。",
+        "show_2g_label": "啟用 2.4GHz Wi-Fi 信息頁面",
+        "show_5g_label": "啟用 5GHz Wi-Fi 信息頁面",
+        "show_lanip_label": "啟用 LAN 信息頁面",
+        "show_lanip_tips": "此頁面顯示網絡模式、路由器局域網 IP。",
+        "show_vpn_label": "啟用 VPN 狀態頁面",
+        "show_custom_label": "啟用自定義文本頁面",
+        "custom_content_label": "自定義文字",
+        "tips": "OLED 屏幕共有 6 個頁面，您可以通過選擇要顯示的頁面來自定義要查看的內容。如果開啟多頁顯示，可以短按電源鍵切換到下一頁。"
+    }
+}
