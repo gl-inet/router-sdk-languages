@@ -10,11 +10,11 @@
 "domain_th": "Dominio",
 "request_th": "Número de peticiones",
 "for_last_days": "durante los últimos $$$$ días",
-"desc": "AdGuard Home es un software de red para bloquear los anuncios y el seguimiento. Después de configurarlo, cubrirá TODOS sus dispositivos domésticos, y no necesitará ningún software en el cliente para ello. Esta página obtiene estadísticas a través de la API proporcionada por AdGuard Home. Cuando AdGuard Home está activado, el router forzará el uso de los servidores DNS proporcionados por AdGuard Home.",
+"desc": "AdGuard Home es un software de red para bloquear los anuncios y el seguimiento. Después de configurarse, cubrirá TODOS sus dispositivos domésticos, y no necesitará ningún software en los clientes para ello. Esta página obtiene estadísticas a través de la API proporcionada por AdGuard Home. Cuando AdGuard Home está activado, el router forzará el uso de los servidores DNS proporcionados por AdGuard Home.",
 "tips": "Si necesita hacer una configuración avanzada para Adguard Home, por favor vaya a la página $$$$Settings Page$$$$.",
 "not_disabled_dns_msg": "Ningún otro DNS desactivado",
 "no_data": "Sin Datos",
 "process_req_label": "AdGuard Home Gestiona las Solicitudes de los Clientes",
-"process_req_tips": "Si esta opción está habilitada, las solicitudes DNS de los dispositivos del cliente serán gestionadas directamente por AdGuard Home. ADGuard Home mostrará los registros de las solicitudes de los clientes. Sin embargo, esto provocará que las políticas VPN basadas en dominios no funcionen."
+"process_req_tips": "Si esta opción está habilitada, las solicitudes DNS de los dispositivos en la red serán gestionadas directamente por AdGuard Home. AdGuard Home mostrará un registro de las solicitudes de los clientes. Sin embargo, al habilitar ésta opción la política VPN basada en dominios no funcionará."
 }
 }
