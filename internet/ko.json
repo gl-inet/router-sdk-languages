@@ -12,7 +12,10 @@
         "using_as_wan": "",
         "setting": "",
         "using_as_lan": "",
-        "dhcp_tips": ""
+        "dhcp_tips": "",
+        "change_to_lan_check_tips": "",
+        "change_to_wan_tips": "",
+        "change_to_wan_tips2": ""
     },
     "tethering": {
         "title": "뜨거운 공유",
@@ -49,7 +52,14 @@
         "antijam_tips_2": "",
         "lock_bssid_tips": "",
         "advanced_settings": "",
-        "available_wifi": ""
+        "available_wifi": "",
+        "antijam_tips": "",
+        "lock_band_tips": "",
+        "allow_dfs_tips2": "",
+        "retry_disable_guest_tips": "",
+        "scan_disable_guest_tips": "",
+        "unusable_eap_tips": "",
+        "fail_mac_tips": ""
     },
     "modem": {
         "title": "모뎀",
@@ -136,7 +146,15 @@
         "lock_tower_title": "",
         "scan_tower_msg": "",
         "sim_tower_title": "",
-        "available_tower_title": ""
+        "available_tower_title": "",
+        "ttl_tips": "",
+        "traffic_tips": "",
+        "clear_traffic_tips": "",
+        "no_sim_tips": "",
+        "connecting_tips": "",
+        "sim_no_profile_warning": "",
+        "sim_failover_interval_tips": "",
+        "timing_check_main_sim_tips": ""
     },
     "router_visual": {
         "wlan_client": "무선 클라이언트",
@@ -188,7 +206,11 @@
         "send_error_msg5": "",
         "send_error_msg6": "",
         "forward_email_title": "",
-        "forward_sms_title": ""
+        "forward_sms_title": "",
+        "send_error_msg1": "",
+        "forward_email_subject_tips": "",
+        "forward_phone_tips": "",
+        "forward_tips": ""
     },
     "modemmanage": {
         "title": "조치",
