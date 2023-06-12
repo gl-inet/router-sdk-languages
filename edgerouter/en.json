@@ -1,15 +1,15 @@
 {
     "menu_edgerouter": "Drop-in Gateway",
     "edgerouter": {
-        "desc": "When drop-in gateway is working, all traffic from clients in the network is first processed by this router. You can use this mode to extend the functionality of your primary route.",
+        "desc": "When drop-in gateway mode is enabled, all traffic from clients on the network is first processed by this router. You can use this mode to extend the functionality of your primary router.",
         "enable_label": "Enable Drop-in Gateway Mode",
         "dhcp_closed_tips": "The DHCP service on the main router is disabled, drop-in gateway is working.",
         "dhcp_on_tips": "The DHCP service is still enabled on the main router. Drop-in gateway may not work properly. Please go to $$$$the main router admin panel$$$$ to disable the DHCP service or set its gateway to {ip}.",
-        "enable_tips": "When the drop-in gateway is working, the DNS of this router is used instead of the DNS of the main route.",
+        "enable_tips": "When drop-in gateway mode is enabled, the DNS settings of this router are used instead of those from the main router.",
         "dhcp_on_warning_tips": "Drop-in gateway is enabled.",
         "dhcp_set_gateway_tips": "The DHCP service on the main router has correctly set the gateway to {ip}, drop-in gateway is working.",
-        "auto_set_tips": "The DHCP settings of the parent router are detected to have changed and the router may not be able to network properly. Please $$$$Sync the Settings from DHCP$$$$ or modify your settings manually.",
-        "desc_vpn": "Please note that the VPN policy of this device does not work for clients from the WAN port in drop-in gateway mode.",
-        "cable_not_connected_tips": "No cable detected in WAN port. Please insert an ethernet cable."
+        "auto_set_tips": "The DHCP settings of the parent router appear to have changed and the router may not be able to connect to the network properly. Please $$$$Sync the Settings from DHCP$$$$ or modify your settings manually.",
+        "desc_vpn": "Please note that in Drop-in Gateway mode, the VPN policy of this device will not work for clients from the WAN port.",
+        "cable_not_connected_tips": "No cable detected in the WAN port. Please insert an ethernet cable."
     }
 }
