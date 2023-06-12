@@ -240,7 +240,8 @@
         "file_oversize_tips": "上传的压缩文件内的配置文件不能超过 1,000 个。",
         "unzip_fail_msg": "解压缩文件失败。请检查该文件并重新上传。",
         "online_count": "{count} 在线",
-        "block_traffic_domain_filter_warning": "$$$$ 选项已经启用，列表中的域名无法解析，因此可能不生效。"
+        "block_traffic_domain_filter_warning": "$$$$ 选项已经启用，列表中的域名无法解析，因此可能不生效。",
+        "rootcert_duplicate_tips": "检测到证书文件，请重建组。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
