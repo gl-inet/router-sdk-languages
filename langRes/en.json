@@ -1,7 +1,7 @@
 {
     "cloud": {
         "title": "GoodCloud",
-        "tips": "With GoodCloud, you can manage routers in groups, check real-time router status, set up routers remotely, operate routers in batch and monitor connected clients etc.",
+        "tips": "With GoodCloud, you can manage groups of  routers, check their status in real-time, set up routers remotely, operate routers in batch and monitor connected clients etc.",
         "bound_by": "The device is bound by",
         "on": "on",
         "unbind": "Unbind",
@@ -11,11 +11,11 @@
         "device_id": "Device ID",
         "data_server": "Data Server",
         "holder_choose": "Please Choose",
-        "choose_data_server_tips": "Please choose data server",
+        "choose_data_server_tips": "Please choose a data server",
         "agree": "I have read and agree",
         "terms": "Terms of Service",
         "privacy": "Privacy Policy",
-        "unbind_tips": "Are you sure you want to unbind the device with GoodCloud? The device is bound to:",
+        "unbind_tips": "Are you sure you want to unbind the device from GoodCloud? The device is bound to:",
         "user": "User",
         "region": "Region",
         "unbind_note": "Note: This will only take effect in the selected region. If you bound this device on different regions, do this on each region.",
@@ -29,7 +29,7 @@
         "america_label": "America",
         "asia_pacific_label": "Asia Pacific",
         "china_label": "China",
-        "unbound_tips": "The device is not bonded to any cloud account.",
+        "unbound_tips": "The device is not bound to any cloud account.",
         "token_invalid_tips": "Device security key verification failed, please go to $$$$ to reset the security token or rebind the device."
     },
     "menu_cloud": "GoodCloud"
