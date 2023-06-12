@@ -1,20 +1,20 @@
 {
 "adguardhome": {
-"desc": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that. This page gets statistics through the API provided by AdGuard Home. When AdGuard Home is enabled, the router will force the use of DNS servers provided by AdGuard Home.",
-"tips": "If you need to do advanced configuration for Adguard Home, please go to the $$$$Settings Page$$$$.",
+"desc": "AdGuard Home is network-wide software that blocks ads and tracking. Once set up, it will cover ALL the devices on your home network, there is no need for any additional client-side software. This page gets statistics through the API provided by AdGuard Home. When AdGuard Home is enabled, the router will force the use of DNS servers provided by AdGuard Home.",
+"tips": "Please go to the $$$$Settings Page$$$$ to perform advanced configuration of Adguard Home.",
 "top_queried_domain": "Top queried domains",
 "top_blocked_domain": "Top blocked domains",
 "dns_querie_title": "DNS Queries",
 "blocked_filtering_title": "Blocked by Filters",
 "replaced_safebrowsing_title": "Blocked malware/phishing",
 "replaced_parental_title": "Blocked adult websites",
-"for_last_one_day": "For the last 24 hours",
-"for_last_days": "For the last $$$$ days",
+"for_last_one_day": "In the last 24 hours",
+"for_last_days": "In the last $$$$ days",
 "not_disabled_dns_msg": "No other DNS is disabled",
 "domain_th": "Domain",
 "request_th": "Requests Count",
 "no_data": "No Data",
 "process_req_label": "AdGuard Home Handle Client Requests",
-"process_req_tips": "If this option is enabled, DNS queries from client devices will be handled by AdGuard Home directly. AdGuard Home will show DNS query logs by clients. But this will cause VPN policies based on domain not work."
+"process_req_tips": "If this option is enabled, DNS queries from client devices will be handled directly by AdGuard Home. AdGuard Home will show DNS query logs by clients, but this will cause VPN policies based on domain not to work."
 }
 }
