@@ -193,7 +193,7 @@
         "invalid_dest_addr": "Invalid target address",
         "set_key_manually_tips": "The router will automatically generate a key pair for you. If you are familiar with WireGuard and want to update the key pair or add a pre-shared key, you can provide these keys manually.",
         "wgserver_peer_list_desc": "Each client device that connects to the WireGuard server requires a unique peer configuration. You need to create a separate configuration for each client device; each configuration must specify a unique client IP.",
-        "has_auth_tips": "Username/password verification is enabled, client devices require any username/password from the list to connect to the OpenVPN server.",
+        "has_auth_tips": "Username/password verification is enabled. Client devices will require username/password from the list to connect to the OpenVPN server.",
         "add_new_btn": "Add New",
         "peer_deprecated_tips": "The configuration of the client peer is invalid because of a change in the server configuration. Please create a new peer configuration for your device.",
         "askpass_label": "Passphrase",
