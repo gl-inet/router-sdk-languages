@@ -12,7 +12,10 @@
         "using_as_wan": "",
         "using_as_lan": "",
         "setting": "",
-        "dhcp_tips": ""
+        "dhcp_tips": "",
+        "change_to_lan_check_tips": "",
+        "change_to_wan_tips": "",
+        "change_to_wan_tips2": ""
     },
     "tethering": {
         "title": "Смартфон, USB модем",
@@ -49,7 +52,14 @@
         "lock_bssid_tips": "",
         "advanced_settings": "",
         "unlock": "",
-        "identity": ""
+        "identity": "",
+        "antijam_tips": "",
+        "lock_band_tips": "",
+        "allow_dfs_tips2": "",
+        "retry_disable_guest_tips": "",
+        "scan_disable_guest_tips": "",
+        "unusable_eap_tips": "",
+        "fail_mac_tips": ""
     },
     "modem": {
         "title": "Модем",
@@ -136,7 +146,15 @@
         "operator": "",
         "scan_tower_msg": "",
         "sim_tower_title": "",
-        "available_tower_title": ""
+        "available_tower_title": "",
+        "ttl_tips": "",
+        "traffic_tips": "",
+        "clear_traffic_tips": "",
+        "no_sim_tips": "",
+        "connecting_tips": "",
+        "sim_no_profile_warning": "",
+        "sim_failover_interval_tips": "",
+        "timing_check_main_sim_tips": ""
     },
     "router_visual": {
         "wlan_client": "Wi-Fi клиенты",
@@ -204,7 +222,12 @@
         "send_error_msg5": "",
         "send_error_msg6": "",
         "forward_email_title": "",
-        "forward_sms_title": ""
+        "forward_sms_title": "",
+        "send_fail": "",
+        "send_error_msg1": "",
+        "forward_email_subject_tips": "",
+        "forward_phone_tips": "",
+        "forward_tips": ""
     },
     "menu_internet": ""
 }
