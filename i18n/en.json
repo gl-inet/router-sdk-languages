@@ -1,6 +1,6 @@
 {
     "ddns": {
-        "desc": "You can enable Dynamic DNS for this router and access this router remotely. There is a delay of up to 10 minutes in the sync of records between DNS servers. This may result in access via DDNS domains not being available immediately after you have just enabled or your public IP has changed.",
+        "desc": "You can enable Dynamic DNS (DDNS) for this router and access this router remotely. There will be a delay of up to ten minutes in the synchronisation of records between DNS servers. This may result in access via DDNS domains not being available immediately after you have just enabled or if your public IP has recently changed.",
         "test": "DDNS Test",
         "enable_http": "Enable HTTP Remote Access",
         "enable_https": "Enable HTTPS Remote Access",
@@ -14,10 +14,10 @@
         "enable_http_tip": "HTTP is a non-encrypted protocol. Please use with caution.",
         "host_name": "Host Name",
         "parsing_success_tips": "The DDNS domain has been correctly resolved to the public IP of this device.",
-        "parsing_error_tips": "The DNS record for this DDNS domain could not be found in the DNS server. Please check the Internet connection of the device.",
-        "parsing_warning_tips": "The IP from DDNS domain resolution is not the same as the WAN IPs of the device. You need an Internet Public IP address to use the Dynamic DNS. If this router is behind NAT, you may need to set up port forward in your ISP router. If you have VPN Client enabled, please disabled \"Services from GL.iNet Use VPN\" in the global options.",
-        "parsing_label": "IP from DDNS Domain Resolution",
-        "parsing_interface_title": "Interface WAN IP",
+        "parsing_error_tips": "The DNS record for this DDNS domain could not be found by the DNS server. Please check the Internet connection of the device.",
+        "parsing_warning_tips": "The IP address from DDNS domain resolution is not the same as the WAN IP of the device. You need an Internet Public IP address to use Dynamic DNS. If this router is behind NAT, you may need to set up port forwarding on your ISP router. If you have VPN Client enabled, please disabled \"Services from GL.iNet Use VPN\" in the global options.",
+        "parsing_label": "IP address from DDNS Domain Resolution",
+        "parsing_interface_title": "WAN Interface IP address",
         "remote_access_tips": "前往$$$$远程访问控制$$$$修改配置"
     },
     "menu_dynamicdns": "Dynamic DNS"
