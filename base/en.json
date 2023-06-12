@@ -39,7 +39,7 @@
         "retry": "Retry",
         "disable": "Disable",
         "not_allow_weak": "Prevent Weak Password",
-        "use_weak_tips": "Weak passwords are easily guessable, and also exposes your network to potential brute-force attacks.",
+        "use_weak_tips": "Weak passwords are easily guessable and also expose your network to potential brute-force attacks.",
         "back": "Back",
         "download": "Download",
         "copy": "Copy",
@@ -60,7 +60,7 @@
         "edit": "Edit",
         "characters_hint": "$$$$ characters",
         "maximum_byte_tips": "Maximum {count} bytes",
-        "begin_not_allow_tips": "Can't start with one of the characters {char}",
+        "begin_not_allow_tips": "Cannot start with any of the characters {char}",
         "not_allow_use_tips": "the characters {char} are not allowed",
         "has_been_used_tips": "Do not allow the same {label}",
         "view": "View",
@@ -74,18 +74,18 @@
         "whitelist": "Allowlist",
         "drag_sort": "Drag Sort",
         "select_btn": "Select",
-        "toggle_btn": "切换"
+        "toggle_btn": "To Switch"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
         "success": "Applied!",
-        "operation_not_finished": "Please wait until the current operation is finished.",
+        "operation_not_finished": "Please wait until the current operation has finished.",
         "getting": "Getting, please wait…",
         "being_process": "Processing, please wait…",
         "installing": "Installing, please wait…",
         "uninstalling": "Uninstalling, please wait…",
         "unknown_err": "Unknown error occurred. Please check the network environment or reboot the device.",
-        "interface_timeout": "Timeout in response. Please check the network environment or reboot the device."
+        "interface_timeout": "Operation timed out. Please check the network environment or reboot the device."
     },
     "date": {
         "day": "day(s)",
@@ -117,7 +117,7 @@
         "firmware_format_error": "Incorrect firmware format!",
         "error": "Failed to upload file.",
         "format_error": "Data format error!",
-        "too_large_tips": "The uploaded file is too large, please upload a file within $$$$.",
+        "too_large_tips": "The uploaded file is too large, please upload a file less than $$$$ bytes.",
         "lass_than_tips": "(Less than $$$$)"
     }
 }
