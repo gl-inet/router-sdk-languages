@@ -1,17 +1,17 @@
 {
     "zerotier": {
-        "desc": "$$$$ZeroTier$$$$ creates securely peer to peer virtual Ethernet networks that work anywhere and supports access to devices such as phones, PCs etc. You can use it to access your devices or LAN remotely.",
-        "first_use_tips": "ZeroTier connects to your virtual network using the Network ID, which needs to be created on $$$$ZeroTier Central$$$$.",
-        "unauthorized_tips": "The device has been added to ZeroTier, please go to $$$$ZeroTier Central$$$$ to authorize the device to connect to your virtual network.",
+        "desc": "$$$$ZeroTier$$$$ creates a secure, virtual peer to peer Ethernet network accessible from anywhere; it supports access to devices such as phones, PCs etc. You can use it to access your devices or LAN remotely.",
+        "first_use_tips": "ZeroTier connects to your virtual network using the Network ID, that you create on $$$$ZeroTier Central$$$$.",
+        "unauthorized_tips": "The device has been added to ZeroTier. Please go to $$$$ZeroTier Central$$$$ to authorize the device to connect to your virtual network.",
         "authorized_tips": "The device is connected to your ZeroTier virtual network.",
-        "enable_nat_tips": "The device already allows ZeroTier clients to access resources on the WAN or LAN. But you need to set up routing rules in $$$$ZeroTier Central$$$$ for client requests to be forwarded to the device through ZeroTier virtual network:",
+        "enable_nat_tips": "The device already allows ZeroTier clients to access resources on the WAN or LAN. You need to set up routing rules in $$$$ZeroTier Central$$$$ to allow client requests to be forwarded through the ZeroTier virtual network:",
         "auto_nat_label": "Allow Remote Access LAN&WAN",
-        "auto_nat_tips": "If this option is enabled, resources inside the LAN subnet and WAN side can be accessed through the ZeroTier virtual network.",
+        "auto_nat_tips": "If this option is enabled, resources inside the LAN subnet and WAN can be accessed through the ZeroTier virtual network.",
         "current_ip_label": "Router Virtual IP",
-        "not_found_tips": "ZeroTier has not found the Network ID, please check your input.",
+        "not_found_tips": "ZeroTier has not found the Network ID, please check the value entered.",
         "allow_lan_label": "Allow Remote Access LAN",
         "allow_wan_label": "Allow Remote Access WAN",
-        "allow_lan_tips": "If this option is enabled, the resources inside the device LAN will be allowed to be accessed via the Zerotier virtual network.",
-        "allow_wan_tips": "If this option is enabled, the resources on the WAN side of the device will be allowed to be accessed via the Zerotier virtual network."
+        "allow_lan_tips": "If this option is enabled, the resources inside the device LAN will be able to be accessed via the ZeroTier virtual network.",
+        "allow_wan_tips": "If this option is enabled, the resources on the WAN side of the device will be able to be accessed via the ZeroTier virtual network."
     }
 }
