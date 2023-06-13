@@ -137,7 +137,8 @@
         "sim_failover_interval_tips": "フェイルオーバー後にインターネット接続がまだ利用できない場合、デバイスは優先SIMスロットに切り替わり、そして、フェイルオーバーは一定の時間間隔の後に再試行されます。",
         "timing_check_main_sim_label": "優先カードスロットの状態を時限的に検知",
         "choose_current_slot_label": "SIMカード",
-        "remove_profile_warning": "この設定を削除してもよろしいですか? 削除後、設定を復元することはできません。"
+        "remove_profile_warning": "この設定を削除してもよろしいですか? 削除後、設定を復元することはできません。",
+        "no_sim_tips2": "SIMカードが検出されませんでした。SIMカードの挿入方向と接触を確認してください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
