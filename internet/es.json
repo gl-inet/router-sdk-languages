@@ -137,7 +137,8 @@
         "sim_failover_interval_label": "Intervalo Failover",
         "sim_failover_interval_tips": "Si la conexión de internet sigue sin estar disponible después del failover, el dispositivo cambiará a la ranura SIM preferida y solo volverá a intentar el failover después de este intervalo.",
         "timing_check_main_sim_label": "Comprobando el Estado de la Ranura SIM Programada",
-        "remove_profile_warning": "¿Estás seguro que quieres borrar esta configuración? La configuración no puede ser recuperada después de ser borrada."
+        "remove_profile_warning": "¿Estás seguro que quieres borrar esta configuración? La configuración no puede ser recuperada después de ser borrada.",
+        "no_sim_tips2": "No se detecta la tarjeta SIM. Compruebe si la tarjeta está insertada en la dirección correcta y si el contacto es bueno."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
