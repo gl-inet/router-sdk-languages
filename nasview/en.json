@@ -51,7 +51,8 @@
         "ftp_fat32_tips": "FTP protocol does not support writing data to FAT32 formatted disks yet.",
         "format_th": "Format",
         "users_limit_tips": "用户最多只能存在10个",
-        "serve_not_enable_tips": "您未开启文件共享协议，访问链接将不生效。"
+        "serve_not_enable_tips": "您未开启文件共享协议，访问链接将不生效。",
+        "fat32_warning": "FAT32 format disks are less compatible with large files, it is recommended to use exFAT format."
     },
     "menu_nasview": "Network Storage"
 }
