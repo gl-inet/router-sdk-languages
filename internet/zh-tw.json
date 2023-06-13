@@ -137,7 +137,8 @@
         "sim_failover_interval_label": "故障自動切換間隔",
         "sim_failover_interval_tips": "若故障自動切換後仍無法聯網，設備將切回首選 SIM 卡槽，並間隔一段時間後才會重新嘗試故障自動切換。",
         "timing_check_main_sim_label": "定時檢測首選卡槽狀態",
-        "remove_profile_warning": "您確定要刪除此配置嗎？配置刪除後無法恢復。"
+        "remove_profile_warning": "您確定要刪除此配置嗎？配置刪除後無法恢復。",
+        "no_sim_tips2": "沒有檢測到您的 SIM 卡。請檢查 SIM 卡插入的方向是否正確、接觸是否良好。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
