@@ -50,7 +50,8 @@
         "nfs_tips": "使用 exFAT 格式的磁盘无法通过 NFS 协议分享。",
         "ftp_fat32_tips": "FTP 协议尚不支持向 FAT32 格式的磁盘写入数据。",
         "format_th": "格式",
-        "serve_not_enable_tips": "您未开启文件共享协议，访问链接将不生效。"
+        "serve_not_enable_tips": "您未开启文件共享协议，访问链接将不生效。",
+        "fat32_warning": "FAT32 格式的磁盘对大文件兼容性较差，建议使用 exFAT 格式。"
     },
     "menu_nasview": "网络存储"
 }
