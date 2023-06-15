@@ -240,7 +240,8 @@
         "file_oversize_tips": "アップロードされた圧縮ファイルに、1,000 個を超える構成ファイルを含めることはできません。",
         "unzip_fail_msg": "ファイルの解凍に失敗しました。ファイルを確認して、アップロードし直してください。",
         "online_count": "{count} オンライン",
-        "block_traffic_domain_filter_warning": "$$$$オプションはすでにONになっていますが、リスト内のドメインを解決できないため、有効にならない可能性があります。"
+        "block_traffic_domain_filter_warning": "$$$$オプションはすでにONになっていますが、リスト内のドメインを解決できないため、有効にならない可能性があります。",
+        "azirevpn_account_limit_tips": "1つのAzireVPNアカウントは10台のデバイスでしか利用できません。アカウント内のデバイス数が上限に達しましたので、$$$$ AzireVPN$$$$で使用していないデバイスを削除してから再試行してください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバ",
