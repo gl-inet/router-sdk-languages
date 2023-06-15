@@ -16,6 +16,7 @@
         "exit_node_tips": "If the export node you have selected is not available or cannot access Internet, the device will not be able to synchronise the settings to Tailscale.",
         "custom_exit_node_tips": "If this option is enabled, the device will forward all requests to the exit node. Before enabled, you need to enable subnet routes {subnet} of this device in $$$$Tailscale Admin Console$$$$ for Tailscale to forward client requests; otherwise, your clients will not be able to access the Internet.",
         "manual_node_label": "Custom Exit Nodes",
-        "exit_node_label": "Exit Node"
+        "exit_node_label": "Exit Node",
+        "current_ip_tips": "Tailscale uses the 100.64.0.0/10 subnet, which may conflict with an ISP-assigned address or VPN client address. If your WAN IP or VPN IP is an address within this subnet, disable Tailscale to avoid being unable to network."
     }
 }
