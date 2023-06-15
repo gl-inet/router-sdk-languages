@@ -122,7 +122,7 @@
         "sim_failover_interval_tips": "若故障转移后仍无法联网，设备将切回首选 SIM 卡槽，并间隔一段时间后才会重新尝试故障转移。",
         "timing_check_main_sim_label": "定时检测首选卡槽状态",
         "choose_current_slot_label": "SIM 卡",
-        "remove_profile_warning": "您确定要删除此配置吗？配置删除后无法恢复。",
+        "remove_profile_warning": "您确定要删除此配置模板吗？配置模板删除后无法恢复。",
         "set_detection_tips": "联网状态检测方式与$$$$多线负载页面$$$$中的配置一致。",
         "current_sim_badge_label": "正在使用 SIM {sim}",
         "data_roaming_label": "数据漫游",
@@ -141,7 +141,12 @@
         "no_sim_tips2": "没有检测到您的 SIM 卡。请检查 SIM 卡插入的方向是否正确、接触是否良好。",
         "setting_sim_title": "SIM 卡使用的配置",
         "manage_profiles_btn": "管理配置模板",
-        "save_as_profile_title": "另存为配置模板"
+        "save_as_profile_title": "另存为配置模板",
+        "edit_profile_title": "修改配置模板",
+        "select_profile_title": "选择配置模板",
+        "sim_not_setup_label": "未设置",
+        "add_new_profile_title": "添加新配置模板",
+        "select_profile_desc": "你可以$$$$选择配置模板$$$$来将其中的内容复制到 SIM 卡使用的配置中。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
