@@ -16,6 +16,7 @@
         "exit_node_tips": "如果您选择的出口节点不可用或无法联网，设备会无法将配置同步给 Tailscale。",
         "custom_exit_node_tips": "若此选项启用，设备会将所有的请求转发到出口节点。启用之前，您需要在 $$$$Tailscale Admin Console$$$$ 中启用本设备的 {subnet} 子网路由，Tailscale 才会转发客户端的请求；否则，您的客户端将无法访问互联网。",
         "manual_node_label": "自定义出口节点",
-        "exit_node_label": "出口节点"
+        "exit_node_label": "出口节点",
+        "current_ip_tips": "Tailscale 使用 100.64.0.0/10 子网，这可能和 ISP 分配的地址或 VPN 客户端地址冲突。若您的 WAN IP 或 VPN 使用了此子网内地址，请禁用 Tailscale。"
     }
 }
