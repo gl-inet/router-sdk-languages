@@ -49,7 +49,8 @@
         "no_user_tips": "請至少選擇一個可讀寫用戶或只讀用戶。",
         "ftp_fat32_tips": "FTP 協議尚不支持向 FAT32 格式的磁盤寫入數據。",
         "nfs_tips": "exFAT 格式的磁盤不能通過 NFS 協議共享。",
-        "format_th": "格式化"
+        "format_th": "格式化",
+        "fat32_warning": "FAT32 格式的磁盤對大文件兼容性較差，建議使用 exFAT 格式。"
     },
     "menu_nasview": "網絡存儲"
 }
