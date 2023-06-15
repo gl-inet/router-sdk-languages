@@ -241,7 +241,8 @@
         "unzip_fail_msg": "解压缩文件失败。请检查该文件并重新上传。",
         "online_count": "{count} 在线",
         "block_traffic_domain_filter_warning": "$$$$ 选项已经启用，列表中的域名无法解析，因此可能不生效。",
-        "rootcert_duplicate_tips": "检测到证书文件，请重建组。"
+        "rootcert_duplicate_tips": "检测到证书文件，请重建组。",
+        "azirevpn_account_limit_tips": "一个 AzireVPN 账号只允许同时在 10 台设备上使用。您的账号中设备数量已经达到上限，请前往 $$$$AzireVPN$$$$ 删除不使用的设备后再重试。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
