@@ -33,7 +33,7 @@
         "desc": "如果你在此處設置了自定義的 DNS 服務器，任何DNS請求都將優先通過此處設置的 DNS 服務器進行解析，而非從以太網、無線中繼、行動網絡、共享熱點或 VPN 配置中獲取的 DNS 服務器。",
         "server_tips": "您可以選擇最多 8 個服務器。路由器會在其中自動選用最快的服務器。",
         "set_dns_server_title": "DNS 服務器設置",
-        "v1_tips": "當前路由器使用的是 v1 版本的DNS 协议，僅支持部分加密 DNS 服務器。",
+        "v1_tips": "當前路由器使用 DNS v1 版本。並非所有加密的 DNS 服務器都受支持。",
         "adguardhome_in_use_tips": "AdGuard Home 已啟用，此路由器必須使用 AdGuard Home 提供的 DNS 服務器，您無法自定義 DNS 服務器。",
         "server_warning_tips": "該伺服器可能已過期。",
         "form_interface_label": "來自 {interface} 的 DNS"
