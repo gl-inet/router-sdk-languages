@@ -20,7 +20,11 @@
         "enable_dhcp_tips": "DHCP 服務器自動為每個客戶端設備分配 IP 地址和其他通信參數。如果 DHCP 服務器被禁用，您將必須為每個客戶端手動配置它們。",
         "dhcp_serve_title": "DHCP服務器",
         "dhcp_charter_label": "租期",
-        "lpr_serve_label": "LPR 服務器"
+        "lpr_serve_label": "LPR 服務器",
+        "security_title": "安全設置",
+        "ap_isolate_label": "AP隔離",
+        "ap_isolate_tips": "您可以將網絡的客戶端設備隔離到一個單獨的網絡區域中。這些設備無法與網絡上的其他設備通信。",
+        "allow_lan_label": "允許從 LAN 訪問網絡"
     },
     "address_reservation": {
         "note": "注意，被配置的客戶端必須重新連接路由器才能生效。",
