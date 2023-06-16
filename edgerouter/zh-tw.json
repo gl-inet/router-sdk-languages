@@ -5,7 +5,7 @@
         "desc_vpn": "請注意，此設備的 VPN 策略不適用於Drop-in gateway (旁路由) 模式下來自 WAN 端口的客戶端。",
         "dhcp_closed_tips": "主路由器上的 DHCP 服務已禁用，接入網關正在運行。",
         "dhcp_on_tips": "主路由器上仍然啟用 DHCP 服務。Drop-in gateway (旁路由) 可能無法正常工作。請轉到 $$$$ the main router admin panel $$$$ 以禁用 DHCP 服務或將其網關設置為 {ip}。",
-        "enable_tips": "當 Drop-in gateway (旁路由) 工作時，使用該路由器的 DNS 而不是主路由的 DNS。",
+        "enable_tips": "當 Drop-in gateway (旁路由) 工作時，將使用此路由器的 DNS 設置，而不是主路由器的 DNS 設置。",
         "dhcp_on_warning_tips": "Drop-in gateway (旁路由) 已啟用。",
         "dhcp_set_gateway_tips": "主路由器上的 DHCP 服務已將網關正確設置為 {ip}，Drop-in gateway (旁路由) 正在運行。",
         "auto_set_tips": "檢測到主路由器的DHCP設置發生變化，路由器可能無法正常聯網。請 $$$$Sync the Settings from DHCP$$$$ 同步設置或手動修改您的設置。",
