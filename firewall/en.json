@@ -2,8 +2,8 @@
     "firewall": {
         "port_forwards": "Port Forwards",
         "open_ports_on_router": "Open Ports on Router",
-        "port_forwards_desc": "Port Forwarding allows remote computers to connect to a local computer or server that is behind the firewall in the LAN network (for example Web servers, FTP servers, etc.).",
-        "open_port_on_router_dest": "The router's services, such as Web and FTP, requires that their respective router ports are opened in order for them to be publicly reachable.",
+        "port_forwards_desc": "If you have servers in your LAN subnet and want them be accessible from the WAN side, you need to set up port forward to these servers, identified by IP addresses and ports.",
+        "open_port_on_router_dest": "For security reasons, the services that you install on the device are only opened to its LAN network. If you want them to be accessible from the WAN network, you need to open ports for these services on the WAN.",
         "dmz_desc": "DMZ lets you to expose one local computer to the Internet, all inbound packets will be redirected to this computer.",
         "dmz_tips": "If you enable DMZ, your port forward and port open rules will not take effect.",
         "open_dmz": "Enable DMZ",
