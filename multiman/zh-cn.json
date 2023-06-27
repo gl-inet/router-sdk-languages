@@ -28,6 +28,7 @@
         "flush_track_label": "强制刷新数据流",
         "flush_track_tips": "若此选项启用，当联网接口发生变化时，路由器将刷新所有已存在的数据流，以确保它们使用优先级更高的接口。这可以避免不必要的流量损失，但也会导致网络波动增大（一些 VPN 可能无法立即重连）。",
         "enable_check_label": "启用互联网状态监测",
-        "interface_state_label": "网络状态"
+        "interface_state_label": "网络状态",
+        "balancing_waring": "至少要配置两个负载比例不为零的接口，均衡负载才会正常工作。如果没有负载比例不为零的可联网接口，设备将无法联网。"
     }
 }
