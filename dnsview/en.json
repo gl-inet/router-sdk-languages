@@ -36,6 +36,7 @@
         "provider": "DNS Provider",
         "adguardhome_in_use_tips": "AdGuard Home is enabled, the router must use the DNS server provided by AdGuard Home, you cannot customize DNS servers.",
         "server_warning_tips": "The server appears to have expired.",
-        "form_interface_label": "DNS from {interface}"
+        "form_interface_label": "DNS from {interface}",
+        "bark_enable_override_tips": "bark 已启用，覆盖所有客户端的 DNS 设置提示"
     }
 }
