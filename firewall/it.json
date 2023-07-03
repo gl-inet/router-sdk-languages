@@ -2,9 +2,9 @@
     "firewall": {
         "port_forwards": "Port Forwarding",
         "open_ports_on_router": "Aprire le porte del Router",
-        "port_forwards_desc": "Il Port Forwarding consente agli utenti sulla WAN di accedere alle risorse del server (come server Web, server FTP, ecc.) fornite dal computer locale.",
-        "open_port_on_router_dest": "I servizi del router, come ad esempio Web e FTP, richiedono la rispettiva apertura delle porte sul router perchè siano pubblicamente raggiungibili.",
-        "dmz_desc": "La DMZ consente di esporre un computer a Internet, in modo che tutti i pacchetti in entrata vengano reindirizzati a questo computer.",
+        "port_forwards_desc": "Se nella tua sottorete LAN hai dei server e vuoi che siano accessibili dalla parte WAN, devi configurare l'inoltro delle porte a questi server, identificati dai tuoi indirizzi IP e dalle porte.",
+        "open_port_on_router_dest": "Per ragioni di sicurezza, i servizi che installerrai nel dispositivo sono aperti solo alla rete LAN. Se vuoi che siano accessibili dalla rete WAN, dovrai aprire le rispettive porte per questi servizi nella WAN.",
+        "dmz_desc": "La DMZ consente di esporre un computer locale ad Internet, così che tutti i pacchetti in entrata vengano reindirizzati a questo computer.",
         "dmz_tips": "L'attivazione di DMZ invaliderà il Port Forwarding e le regole delle porte aperte.",
         "open_dmz": "Abilita DMZ",
         "dmz_host_ip": "DMZ Host IP",
