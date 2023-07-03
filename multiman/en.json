@@ -29,11 +29,11 @@
         "flush_track_label": "Forced Refresh Streams",
         "enable_check_label": "Enable Internet Status Tracking",
         "interface_state_label": "Network Status",
-        "balancing_warning_tips": "至少要配置两个负载比例不为零的接口，均衡负载才会正常工作。如果没有负载比例不为零的可联网接口，设备将无法联网。",
+        "balancing_warning_tips": "At least two interfaces with non-zero load ratios must be configured for the balanced load to work properly. If there is no connectable Internet interface with a non-zero load ratio, the device will not be able to connect to the Internet.",
         "track_mode_label": "Track Mode",
         "passive_label": "Passive",
         "active_label": "Active",
         "sensitivity_label": "Sensitivity",
-        "sensitivity_tips": "sensitivity 的提示"
+        "sensitivity_tips": "This sensitivity determines how often Internet status tracking is performed at intervals. The shorter the interval, the more timely the status change."
     }
 }
