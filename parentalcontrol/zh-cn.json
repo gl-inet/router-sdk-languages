@@ -97,11 +97,21 @@
         "default_rule_tips": "路由器将按此规则限制设备组内的设备访问，除非您设置了日程。",
         "current_rule_label": "当前规则集：",
         "del_all_schedule_btn": "删除所有日程",
-        "remove_all_schedule_tips": "你确定要删除所有的日程吗？"
+        "remove_all_schedule_tips": "你确定要删除所有的日程吗？",
+        "bark_version_desc": "Bark 版本由 $$$$Bark$$$$ 提供。它使用 Bark 的平台进行管理，您需要向 Bark 额外支付订阅费用。此版本中，您可以一键过滤各类应用及站点，监控请求历史记录。",
+        "bark_version_title": "Bark 版",
+        "version_conversion_btn": "切换版本",
+        "local_version_title": "本地版",
+        "toggle_version_desc": "您可以根据需要选择要使用的家长控制功能版本。两种版本的家长控制功能不能同时开启，您切换版本时将自动关闭另一个。",
+        "local_version_desc": "本地版本由 GL.iNet 提供。目前处于测试阶段，因此不需要支付额外费用。此版本中，如果需要按应用过滤请求，您需要手动输入域名。"
     },
     "bark": {
-        "desc": "$$$$Bark$$$$是一个专门用于家长控制的 APP，通过家庭可以管理他们的孩子何时可以在他们的设备上访问互联网，以及他们可以访问哪些网站。您可以设置就寝时间并阻止访问各种网站，包括流媒体、游戏和成人内容等。",
-        "unbound_tips": "Bark 服务已启用，但此设备尚未绑定。请使用$$$$设备绑定链接$$$$将这台设备绑定到您的 Bark 账号下。",
-        "online_tips": "设备已连接到 Bark 云服务。$$$$前往 Bark 管理设备$$$$"
+        "desc": "通过$$$$Bark$$$$，您可以为您孩子的设备创建自定义的每日屏幕时间安排，阻止他们访问特定或某类网站。",
+        "unbound_tips": "Bark 服务已启用，但此设备尚未和任何账号配对。请使用$$$$设备配对链接$$$$将这台设备与您的 Bark 账号配对。",
+        "online_tips": "设备已连接到 Bark 云服务并与账号配对。请$$$$前往 Bark$$$$ 并登录配对账户进行控制。",
+        "enable_bandwidth_monitor_label": "启用宽带监控",
+        "enable_ipv6_label": "启用 IPv6 支持",
+        "note_tips": "注意：Bark 不向某些国家/地区的用户提供服务。GL.iNet 不对此服务负责。如果您不能访问 Bark 或使用中遇到任何问题，请$$$$联系 Bark 的技术支持$$$$。",
+        "force_dns_enable_tips": "Bark 会阻止几乎所有来自客户端发送到互联网的 DNS 请求。请$$$$ 前往 DNS 页面$$$$ 禁用 {label} 选项，以避免你的客户端无法访问互联网。"
     }
 }
