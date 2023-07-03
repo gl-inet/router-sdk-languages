@@ -36,6 +36,7 @@
         "provider": "DNS 提供商",
         "adguardhome_in_use_tips": "AdGuard Home 已启用，此路由器必须使用 AdGuard Home 提供的 DNS 服务器，您无法自定义 DNS 服务器。",
         "server_warning_tips": "该服务器疑似过期。",
-        "form_interface_label": "来自{interface}的 DNS"
+        "form_interface_label": "来自{interface}的 DNS",
+        "bark_enable_override_tips": "Bark 会阻止几乎所有来自客户端发送到互联网的 DNS 请求。如果您在 Bark 工作时启用此选项，您的客户端可能无法上网。"
     }
 }
