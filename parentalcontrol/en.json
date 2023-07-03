@@ -90,22 +90,22 @@
         "current_rule_label": "Current Ruleset:",
         "del_all_schedule_btn": "Delete All Schedules",
         "remove_all_schedule_tips": "Are you sure you want to delete all the schedules?",
-        "version_conversion_btn": "版本切换",
-        "toggle_version_desc": "家长控制提供本地/高级两种版本，您可以根据需求来为您的家庭使用合适的版本,并管理他们的设备。",
-        "local_version_title": "本地版",
-        "local_version_desc": "本地版家长控制可以将您孩子分为不同的设备组，并对设备组的设备进行时间和浏览限制网站的限制。",
-        "bark_version_desc": "Bark版家长控制提供了更为强大的数据库支撑，并在免费版基础上增加了对各种 APP 和站点的一键限制。",
-        "bark_version_title": "Bark版"
+        "version_conversion_btn": "Switch Version",
+        "toggle_version_desc": "You can select the version of the parental control feature you want to use as needed. Both versions of Parental Controls cannot be enabled at the same time, and the another one will be automatically disabled when you switch versions.",
+        "local_version_title": "Local Version",
+        "local_version_desc": "The local version is provided by GL.iNet. It is currently in beta, so there is no additional cost. In this version, if you need to filter requests by application, you need to enter the domain manually.",
+        "bark_version_desc": "The Bark version is provided by $$$$Bark$$$$. It is managed using Bark's platform and you will need to pay an additional subscription fee to Bark. In this version, you can filter applications&websites with one click and monitor the request history.",
+        "bark_version_title": "Bark Version"
     },
     "bark": {
-        "desc": "$$$$Bark$$$$是一个专门用于家长控制的 APP，通过家庭可以管理他们的孩子何时可以在他们的设备上访问互联网，以及他们可以访问哪些网站。您可以设置就寝时间并阻止访问各种网站，包括流媒体、游戏和成人内容等。",
-        "unbound_tips": "Bark 服务已启用，但此设备尚未绑定。请使用$$$$设备绑定链接$$$$将这台设备绑定到您的 Bark 账号下。",
-        "online_tips": "设备已连接到 Bark 云服务。$$$$前往 Bark 管理设备$$$$",
-        "enable_bandwidth_monitor_label": "启用宽带监控",
+        "desc": "With $$$$Bark$$$$, your can create custom daily screen time schedules for your child’s device, block they access to specific websites or even whole categories.",
+        "unbound_tips": "The Bark service is enabled, but this device is not yet paired with any account. Please use the $$$$Device Pairing Link$$$$ to pair this device with your Bark account.",
+        "online_tips": "The device is connected to Bark Cloud Services and paired with an account. Please $$$$Go to Bark$$$$ and log in to the paired account to control access.",
+        "enable_bandwidth_monitor_label": "Enable Bandwidth Monitor",
         "enable_bandwidth_monitor_tips": "启用宽带监控的tooltips",
-        "enable_ipv6_label": "启用 IPv6 支持",
+        "enable_ipv6_label": "Enable IPv6 Support",
         "enable_ipv6_tips": "启用 IPv6 支持的tooltips",
-        "note_tips": "注意：Bark 只能通过美国的网络进行访问。如果 Bark 不能阻止设备访问各类网站请联系 Bark 人员或者 GL-iNet 的 $$$$ 技术支持$$$$",
-        "force_dns_enable_tips": "xxxx，请前往 $$$$DNS$$$$ 关闭xxx选项"
+        "note_tips": "Note: Bark does not provide service to users in certain countries. GL.iNet is not responsible for this service. If you are unable to access Bark or experience any problems with its use, please $$$$Contact Bark Technical Support$$$$.",
+        "force_dns_enable_tips": "Bark blocks almost all DNS requests from clients sent to the Internet. Please $$$$ Go to DNS Page$$$$ disable {label} option to avoid your clients not be able to access the Internet."
     }
 }
