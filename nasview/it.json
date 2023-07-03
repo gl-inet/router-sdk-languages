@@ -49,7 +49,10 @@
         "no_user_tips": "Per favore seleziona almeno un utente con permessi di scrittura o sola lettura.",
         "nfs_tips": "I dischi in formato exFAT non possono essere condivisi attraverso il protocollo NFS.",
         "ftp_fat32_tips": "Il protocollo FTP non supporta ancora la scrittura dati su dischi formattati in FAT32.",
-        "format_th": "Formato"
+        "format_th": "Formato",
+        "fat32_warning": "I dischi formattati in FAT32 sono poco compatibili con i file di grandi dimensioni, si raccomanda l'uso di exFAT.",
+        "serve_not_enable_tips": "Non hai aperto le condizioni d'uso della condivisione file NAS; Se non lo fai il link di accesso non funzionerà.",
+        "users_limit_tips": "Sono consentiti solo un massimo di 10 utenti"
     },
     "menu_nasview": "Archiviazione di Rete"
 }
