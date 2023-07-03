@@ -20,7 +20,10 @@
         "dhcp_charter_label": "Tempo di Lease",
         "lpr_serve_label": "Server LPR",
         "dhcp_serve_title": "Server DHCP",
-        "enable_dhcp_tips": "Il server DHCP assegna automaticamente gli indirizzi IP ed altri parametri di comunicazione per ogni dispositivo client. Se il server DHCP è disabilitato, dovrai configurarli manualmente per ogni client."
+        "enable_dhcp_tips": "Il server DHCP assegna automaticamente gli indirizzi IP ed altri parametri di comunicazione per ogni dispositivo client. Se il server DHCP è disabilitato, dovrai configurarli manualmente per ogni client.",
+        "ap_isolate_tips": "Puoi isolare i Client della tua rete in una rete separata. Questi dispositivi non potranno comunicare tra di loro nella rete.",
+        "ap_isolate_label": "Isolare AP",
+        "allow_lan_label": "Permetti l'accesso alla rete dalla LAN"
     },
     "address_reservation": {
         "note": "Nota: Il client configurato deve riconnettersi al router per far sì che le impostazioni abbiano effetto.",
