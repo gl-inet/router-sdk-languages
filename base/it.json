@@ -40,7 +40,7 @@
         "please_choose": "Si prega di scegliere",
         "reset": "Ripristina",
         "back": "Indietro",
-        "use_weak_tips": "Le password deboli sono facilmente decifrabili, inoltre espongono la tua rete a potenziali attacchi di forza bruta.",
+        "use_weak_tips": "Le password deboli sono facilmente decifrabili ed espongono la tua rete a potenziali attacchi di forza bruta.",
         "disable": "Disattiva",
         "copy": "Copia",
         "next": "Avanti",
@@ -60,7 +60,7 @@
         "edit": "Modifica",
         "characters_hint": "$$$$ caratteri",
         "maximum_byte_tips": "Bytes {count} massimi",
-        "begin_not_allow_tips": "Non può cominciare con uno dei caratteri {char}",
+        "begin_not_allow_tips": "Non può cominciare con uno di questi caratteri {char}",
         "not_allow_use_tips": "Non sono permessi i {char}",
         "has_been_used_tips": "Non permettere lo stesso {label}",
         "view": "Vedi",
@@ -74,7 +74,10 @@
         "whitelist": "Allowlist",
         "confirm": "conferma",
         "save_btn": "salva",
-        "name": "Nome"
+        "name": "Nome",
+        "select_btn": "Seleziona",
+        "drag_sort": "Ordinamento",
+        "toggle_btn": "Cambiare"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -89,13 +92,13 @@
     },
     "date": {
         "day": "giorno(i)",
-        "sunday": "Dom",
-        "monday": "Lun",
-        "tuesday": "Mar",
-        "wednesday": "Mer",
-        "thursday": "Gio",
-        "friday": "Ven",
-        "saturday": "Sab",
+        "sunday": "Do | Domenica",
+        "monday": "Lu | Lunedì",
+        "tuesday": "Ma | Martedì",
+        "wednesday": "Me | Mercoledì",
+        "thursday": "Gio | Giovedì",
+        "friday": "Ve | Venerdì",
+        "saturday": "Sa | Sabato",
         "second": "{count} secondo | {count} secondi",
         "min": "{count} Minuto | {count} Minuti",
         "hour": "{count} Ore | {count} Ore"
@@ -117,7 +120,7 @@
         "firmware_format_error": "Formato firmware errato!",
         "error": "Impossibile caricare il file.",
         "format_error": "Errore nel formato dei dati!",
-        "too_large_tips": "L'archivio caricato è troppo grande, si prega di caricare un archivio fino a $$$$.",
+        "too_large_tips": "L'archivio caricato è troppo grande, si prega di caricare un file grande al massimo $$$$ bytes.",
         "lass_than_tips": "(Meno di $$$$)"
     }
 }
