@@ -9,5 +9,12 @@
         "old_pwd_tips": "输入旧密码",
         "new_pwd_tips": "输入新密码",
         "old_pwd_error": "旧密码不正确！"
+    },
+    "security": {
+        "local_access_title": "本地访问控制",
+        "redirect_https_label": "强制使用 HTTPS",
+        "session_timeout_label": "自动注销时间",
+        "apply_success_tips": "应用初稿成功，请等待 Web 服务器重新启动。",
+        "remote_access_title": "远程访问控制"
     }
 }
