@@ -17,7 +17,8 @@
         "parsing_error_tips": "未能在 DNS 服务器中找到此 DDNS 域名的 DNS 记录。请检查设备的互联网连接。",
         "parsing_interface_title": "接口 WAN IP",
         "parsing_warning_tips": "解析 DDNS 域名获得的 IP 与本设备的 WAN IP 均不相同。你必须有一个公网IP地址才能使用动态 DNS。如果此路由器在防火墙的后面，你需要在你的主路由器上面设置端口转发。如果您开启了 VPN Client，请在全局选项中禁用 “GL.iNet 的服务使用 VPN”。",
-        "parsing_label": "DDNS 域名解析结果"
+        "parsing_label": "DDNS 域名解析结果",
+        "remote_access_tips": "如果您要远程访问设备，请$$$$前往安全页面$$$$配置。"
     },
     "menu_dynamicdns": "动态 DNS"
 }
