@@ -18,7 +18,7 @@
         "parsing_warning_tips": "The IP address from DDNS domain resolution is not the same as the WAN IP of the device. You need an Internet Public IP address to use Dynamic DNS. If this router is behind NAT, you may need to set up port forwarding on your ISP router. If you have VPN Client enabled, please disabled \"Services from GL.iNet Use VPN\" in the global options.",
         "parsing_label": "IP address from DDNS Domain Resolution",
         "parsing_interface_title": "WAN Interface IP address",
-        "remote_access_tips": "前往$$$$远程访问控制$$$$修改配置"
+        "remote_access_tips": "If you want to access the device remotely, please $$$$Go to Security Page$$$$ to set up."
     },
     "menu_dynamicdns": "Dynamic DNS"
 }
