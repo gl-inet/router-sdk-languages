@@ -7,8 +7,8 @@
         "confirm_to_lan": "Sind Sie sicher, dass Sie den WAN Anschluss als LAN Anschluss benutzen?",
         "confirm_to_wan": "Sind Sie sicher, dass Sie den WAN Anschluss zurück in den WAN-Modus umschalten wollen?",
         "repeated": "Erfolgreich verbunden, ohne erneut eine Verbindung herstellen zu müssen",
-        "using_as_lan": "Gegenwärtig als LAN im Einsatz, $$$$Zu WAN wechseln$$$$",
-        "using_as_wan": "Gegenwärtig als WAN im Einsatz, $$$$Zu LAN wechseln$$$$",
+        "using_as_lan": "Aktuell als LAN konfiguriert, $$$$zu WAN ändern$$$$",
+        "using_as_wan": "Aktuell als WAN konfiguriert, $$$$zu LAN ändern$$$$",
         "setting": "Etherneteinstellungen",
         "pppoe_vlanid_tips": "Diese Einstellung wird nur benötigt, wenn der Provider eine VLAN-ID verlangt.",
         "pppoe_log": "PPPoE-Verbindungsprotokoll",
@@ -19,15 +19,15 @@
         "change_to_lan_check_tips": "Bitte ziehen Sie zuerst das Netzwerkkabel vom WAN-Port ab. $$$$ Neu erkennen $$$$"
     },
     "tethering": {
-        "title": "Netzwerkfreigabe",
+        "title": "Tethering",
         "device": "Gerät",
-        "no_device_tips": "Kein Tethering-Gerät gefunden, Schließen Sie Ihr Smartphone oder USB-Modem an, um zu starten."
+        "no_device_tips": "Kein Tethering-Gerät gefunden. Schließen Sie Ihr Smartphone oder USB-Modem an, um zu starten."
     },
     "repeater": {
-        "title": "Verstärker",
+        "title": "Repeater",
         "known_net": "bekannte Netzwerke",
         "options": "Repeater Optionen",
-        "no_tips": "Verstärker (STA) ist deaktiviert.",
+        "no_tips": "Repeater ist deaktiviert.",
         "key": "Passwort",
         "lock_bssid": "Feste BSSID",
         "unlock": "Auto",
@@ -65,7 +65,7 @@
     },
     "modem": {
         "title": "Mobilfunknetz",
-        "plug_in_tips": "Kein Modem gefunden, Stecken Sie Ihr USB-Modem ein, um zu starten.",
+        "plug_in_tips": "Kein Modem gefunden. Stecken Sie Ihr USB-Modem ein, um zu starten.",
         "manage": "Verwalten",
         "name": "Modem Name",
         "phone_num": "Telefonnummer",
