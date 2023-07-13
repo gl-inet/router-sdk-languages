@@ -4,12 +4,12 @@
         "enable_label": "Drop-in Gateway Modus aktivieren",
         "dhcp_closed_tips": "Der DHCP-Dienst des Haupt-Routers ist ausgeschalten; das drop-in gateway funktioniert nicht.",
         "dhcp_on_tips": "Der DHCP-Dienst ist noch aktiviert auf dem Haupt-Router. Das Drop-in Gateway funktioniert möglicherweise nicht ordnungsgemäß. Bitte gehen Sie zum $$$$Haupt-Router Panel$$$$, um den DHCP-Dienst zu deaktivieren oder um seinem Gateway die IP-Adresse {ip} zuzuweisen.",
-        "enable_tips": "Falls das Drop-in Gateway funktioniert, wird der DNS dieses Routers anstatt des DNS des Haupt-Routers verwendet.",
+        "enable_tips": "Wenn 'Drop-in Gateway' aktiv ist, wird die DNS Einstellung dieses Routers verwendet, anstatt die Einstellungen des Haupt-Routers.",
         "dhcp_on_warning_tips": "Das drop-in gateway ist eingeschalten.",
         "dhcp_set_gateway_tips": "Der DHCP-Dienst auf dem Haupt-Router hat ordnungsgemäß das Gateway auf {ip} gesetzt; das drop-in gateway funktioniert.",
-        "auto_set_tips": "Die DHCP-Einstellungen des übergeordneten Routers wurden als geändert erkannt, und der Router wird möglicherweise nicht ordnungsgemäß seine Funktion ausführen können. Bitte $$$$Synchronisieren Sie die Einstellungen des DHCP$$$$ oder ändern Sie die Einstellungen manuell.",
-        "desc_vpn": "Bitte beachten Sie, dass die VPN-Richtlinie dieses Geräts nicht für Clients vom WAN-Port im Drop-in-Gateway-Modus funktioniert.",
-        "cable_not_connected_tips": "Am WAN-Anschluss wurde kein Kabel erkannt. Bitte stecken Sie ein Ethernet-Kabel ein."
+        "auto_set_tips": "Die DHCP-Einstellungen des Haupt-Routers wurden vermutlich geändert und dieser Router wird möglicherweise nicht mehr wie gewünscht funktionieren. Bitte $$$$Synchronisieren Sie die Einstellungen des DHCP$$$$ oder ändern Sie die Einstellungen manuell.",
+        "desc_vpn": "Bitte beachten Sie, dass im 'Drop-in Gateway' Modus die VPN-Richtlinie dieses Geräts nicht für Clients am WAN-Port funktioniert.",
+        "cable_not_connected_tips": "Am WAN-Port wurde kein Kabel erkannt. Bitte stecken Sie ein Ethernet-Kabel ein."
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
