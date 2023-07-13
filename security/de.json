@@ -9,5 +9,20 @@
         "old_pwd_error": "Das alte Passwort ist falsch!",
         "old_pwd_tips": "Altes Passwort",
         "new_pwd_tips": "Neues Passwort"
+    },
+    "security": {
+        "ipaddr_list_label": "Liste der IP Adressen",
+        "local_access_title": "Lokale Berechtigung",
+        "redirect_https_label": "Erzwinge HTTPS",
+        "session_timeout_label": "Automatische Abmeldung",
+        "apply_success_tips": "Erfolgreich angewendet; Warte auf Neustart des Webserver.",
+        "remote_access_title": "Berechtigung des Fernzugriff",
+        "enable_ping_label": "Erlaube Ping aus dem WAN",
+        "enable_https_label": "Aktiviere HTTPS Fernzugriff",
+        "enable_ssh_label": "Erlaube SSH Fernzugriff",
+        "enable_ipaddr_label": "Erlaube Fernzugriff von bestimmten IPs",
+        "enable_ipaddr_tips": "Füge eine IP hinzu, um von dieser Fernzugriff auf die Verwaltung des Routers zu bekommen.",
+        "no_ipaddr_list_label": "Keine IP Adressen",
+        "add_ipaddr_btn": "Füge eine IP Adresse hinzu"
     }
 }
