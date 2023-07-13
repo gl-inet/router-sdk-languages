@@ -12,7 +12,7 @@
         "channel": "Kanal",
         "setting": "Einstellungen",
         "required": "Benötigt",
-        "optional": "Wahlfrei",
+        "optional": "Optional",
         "modify": "Ändern",
         "cancel": "Abbrechen",
         "apply": "Anwenden",
@@ -27,7 +27,7 @@
         "add": "Hinzufügen",
         "delete": "Entfernen",
         "delete_all": "Alles löschen",
-        "submit": "Einreichen",
+        "submit": "Bestätigen",
         "refresh": "Neuladen",
         "type": "Art",
         "port": "Port",
@@ -37,7 +37,7 @@
         "not_allow_weak": "Verhindere schwache Kennworte",
         "delete_all_caution": "Sind Sie sicher, dass sie alle Einträge löschen wollen?",
         "clear_all_caution": "Sind Sie sicher, dass sie Alles löschen möchten?",
-        "password_tips": "Minimal $$$$ Zeichen und maximal $$$$ Zeichen",
+        "password_tips": "Mindestens $$$$ Zeichen und maximal $$$$ Zeichen",
         "security_password_tips": "Wenigstens 2 Gross- und Kleinbuchstaben, Ziffern und Symbole benötigt",
         "please_choose": "Bitte auswählen",
         "reset": "Zurücksetzen",
@@ -46,7 +46,7 @@
         "stop": "Stop",
         "continue": "Weiter",
         "next": "Weiter",
-        "use_weak_tips": "Schwache Kennwörter sind leicht zu erraten und setzen Ihr Netzwerk außerdem potenziellen Brute-Force-Angriffen aus.",
+        "use_weak_tips": "Schwache Kennwörter sind leicht zu erraten und eine Bedrohung für Ihr Netzwerk bei potenziellen Brute-Force-Angriffen.",
         "disable": "Deaktiviere",
         "router_time": "Routerzeit",
         "back": "Zurück",
@@ -59,7 +59,7 @@
         "auto": "Automatisch",
         "edit": "Bearbeiten",
         "maximum_byte_tips": "Maximale {count} Bytes",
-        "begin_not_allow_tips": "Kann nicht mit einem der folgenden Zeichen beginnen: {char}",
+        "begin_not_allow_tips": "Darf nicht mit einem der folgenden Zeichen beginnen: {char}",
         "has_been_used_tips": "Erlaube nicht das gleiche {label}",
         "view": "Ansehen",
         "not_allow_use_tips": "Die Zeichen {char} sind nicht erlaubt",
@@ -74,20 +74,21 @@
         "whitelist": "Freigabeliste",
         "select_btn": "Auswählen",
         "drag_sort": "Freie Sortierung",
-        "confirm": "Abschuss bestätigen",
-        "save_btn": "Intakt",
-        "name": "Name"
+        "confirm": "Bestätigen",
+        "save_btn": "Speichern",
+        "name": "Name",
+        "toggle_btn": "Wechseln"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
         "being_process": "Verarbeitung, bitte warten…",
         "getting": "Abholung, bitte warten…",
-        "operation_not_finished": "Bitte warten Sie, bis die derzeitige Aufgabe beendet ist.",
+        "operation_not_finished": "Bitte warten Sie, bis die aktuelle Aufgabe beendet ist.",
         "installing": "Installation, bitte warten…",
         "uninstalling": "Deinstallation, bitte warten…",
         "unknown_err": "Unbekannter Fehler aufgetreten. Bitte überprüfen Sie die Netzwerkumgebung oder starten das Gerät neu.",
         "success": "Angewendet!",
-        "interface_timeout": "Zeitüberschreitung bei der Antwort. Bitte überprüfen Sie die Netzwerkumgebung oder starten das Gerät neu."
+        "interface_timeout": "Zeitüberschreitung bei der Antwort. Bitte überprüfen Sie die Netzwerkverbindung oder starten das Gerät neu."
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
@@ -119,7 +120,7 @@
         "firmware_format_error": "FEHLER: Falsches Firmwareformat!",
         "error": "Hochladen der Datei fehlgeschlagen.",
         "format_error": "Datenformatfehler!",
-        "too_large_tips": "Die hochgeladene Datei ist zu groß, bitte laden Sie eine Datei unter $$$$ hoch.",
+        "too_large_tips": "Die hochgeladene Datei ist zu groß, bitte laden Sie eine Datei unter $$$$ Byte hoch.",
         "lass_than_tips": "(Weniger als $$$$)"
     }
 }
