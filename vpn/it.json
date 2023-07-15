@@ -242,7 +242,8 @@
         "online_count": "{count} Online",
         "block_traffic_domain_filter_warning": "L'opzione $$$$ è abilitata e il dominio nell'elenco non può essere risolto, quindi potrebbe non essere valido.",
         "azirevpn_account_limit_tips": "Un numero d’account AzireVPN permette solo l’uso simultaneo di 10 dispositivi. Nelle vostre account attrezzature già raggiunto il massimale quantitativo, per favore recarsi $$$$AzireVPN $$$$cancellato dopo che non utilizzano dispositivi di riprovare.",
-        "rootcert_duplicate_tips": "Rilevato un File di certificato, si prega di Ricostruire il Gruppo."
+        "rootcert_duplicate_tips": "Rilevato un File di certificato, si prega di Ricostruire il Gruppo.",
+        "rootcert_missing_tips": "Il file di configurazione caricato richiede un certificato di cifratura, tuttavia nell'archivio zip non c'è un file di certificato corrispondente."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
