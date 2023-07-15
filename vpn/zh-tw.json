@@ -242,7 +242,8 @@
         "online_count": "{count} 在線",
         "block_traffic_domain_filter_warning": "$$$$ 選項已啟用，無法解析列表中的域，因此它可能無效。",
         "azirevpn_account_limit_tips": "一個 AzireVPN 賬號只允許同時在 10 臺設備上使用。您的賬號中設備數量已經達到上限，請前往 $$$$AzireVPN$$$$ 刪除不使用的設備後再重試。",
-        "rootcert_duplicate_tips": "檢測到證書文件，請重新組建。"
+        "rootcert_duplicate_tips": "檢測到證書文件，請重新組建。",
+        "rootcert_missing_tips": ""
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
