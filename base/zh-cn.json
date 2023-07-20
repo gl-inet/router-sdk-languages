@@ -79,7 +79,8 @@
         "name": "名称",
         "toggle_btn": "切换",
         "band": "频段",
-        "lock": "锁定"
+        "lock": "锁定",
+        "unlock": "解锁"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -113,7 +114,9 @@
         "connecting": "连接中……",
         "guest_ip_tips": "访客子网与 WAN 子网冲突，请$$$$更改访客子网$$$$为不同的地址。",
         "up_not_online_tips": "该接口已经连接，但是无法通过 $$$$ 协议访问互联网。",
-        "offline_tips": "该接口已经连接，但是无法访问互联网。"
+        "offline_tips": "该接口已经连接，但是无法访问互联网。",
+        "locked": "已锁定",
+        "unlocked": "未锁定"
     },
     "upload": {
         "file_include": "文件类型包括",
