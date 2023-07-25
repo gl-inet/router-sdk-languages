@@ -150,7 +150,8 @@
         "has_been_choose_profile_desc": "您已经复制了 {profileName} 中的内容。$$$$复制另一个$$$$",
         "name_already_exist_tips": "此名称已存在。",
         "history_signal_title": "历史信号记录",
-        "lock_tower_title": "锁定基站"
+        "lock_tower_title": "锁定基站",
+        "locked_tower_tips": "如果被锁定的 tower 和 cellular 配置中的频段过滤或 APN 参数不匹配，cellular 接口将无法联网。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -226,5 +227,8 @@
         "reboot_sucess": "处理成功，请等待 $$$$ 秒。",
         "export_debug_info": "导出调试信息"
     },
-    "menu_internet": "互联网"
+    "menu_internet": "互联网",
+    "mdoem": {
+        "cellular_desc": "蜂窝网络接口将重新连接以切换到锁定的基站。"
+    }
 }
