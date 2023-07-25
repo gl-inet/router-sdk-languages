@@ -152,7 +152,8 @@
         "history_signal_title": "历史信号记录",
         "lock_tower_title": "锁定基站",
         "locked_tower_tips": "如果被锁定的 tower 和 cellular 配置中的频段过滤或 APN 参数不匹配，cellular 接口将无法联网。",
-        "device_may_not_b_tips": "Cellular 接口启用时，设备可能无法扫描到所有的基站。"
+        "device_may_not_b_tips": "Cellular 接口启用时，设备可能无法扫描到所有的基站。",
+        "cellular_desc": "蜂窝网络接口将重新连接以切换到锁定的基站。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
