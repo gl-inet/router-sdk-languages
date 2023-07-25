@@ -152,7 +152,8 @@
         "history_signal_title": "Historical Signal Record",
         "lock_tower_title": "Lock Tower",
         "available_tower_title": "Available Tower",
-        "locked_tower_tips": "If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet."
+        "locked_tower_tips": "If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.",
+        "device_may_not_b_tips": "The device may not be able to scan all towers when the Cellular interface is enabled."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -228,5 +229,8 @@
         "reboot_sucess": "Success, please wait for $$$$ seconds.",
         "export_debug_info": "Export Debug Info"
     },
-    "menu_internet": "Internet"
+    "menu_internet": "Internet",
+    "mdoem": {
+        "cellular_desc": "The Cellular interface will reconnect to switch to the locked tower."
+    }
 }
