@@ -82,7 +82,8 @@
         "lock": "锁定",
         "unlock": "解锁",
         "debug": "调试",
-        "send": "发送"
+        "send": "发送",
+        "upload": "上传"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -108,7 +109,8 @@
         "second": "{count} 秒 | {count} 秒",
         "min": "{count} 分钟 | {count} 分钟",
         "hour": "{count} 小时 | {count} 小时",
-        "for_last_time": "最近 {time}"
+        "for_last_time": "最近 {time}",
+        "ms": "毫秒"
     },
     "internet": {
         "connected": "已连接",
