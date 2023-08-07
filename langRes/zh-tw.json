@@ -31,7 +31,8 @@
         "passthrough_desc": "如果啟用 IP Passthrough，路由器會將運營商 IP 地址傳遞給 LAN 端口。",
         "force_subnet_label": "強制 24 子網",
         "passthrough_close_warning": "如果切換到此模式，中繼器、無線、客戶端、VPN 和 AdGuard Home 都將被禁用。",
-        "passthrough_conflict_warning": "如果啟用了以下任何設置，則此模式可能無法工作 Tethering、Drop-In Gateway 模式、IPv6、手動設置 DNS、Multi-WAN 設置為負載平衡模式、WAN 端口設置為 LAN、正在使用 VPN 策略、任何防火牆 已添加設置，已手動設置 MAC 地址。"
+        "passthrough_conflict_warning": "如果啟用了以下任何設置，則此模式可能無法工作 Tethering、Drop-In Gateway 模式、IPv6、手動設置 DNS、Multi-WAN 設置為負載平衡模式、WAN 端口設置為 LAN、正在使用 VPN 策略、任何防火牆 已添加設置，已手動設置 MAC 地址。",
+        "passthrough_conflict_2b_warning": "此模式可能無法工作如您有以下設置，：啟用嵌入式網關模式、啟用 IPv6、手動設置 DNS、將多 WAN 設置為負載平衡模式、將 WAN 端口設置為 LAN、使用 VPN 策略、添加任何 防火牆設置，手動設置MAC地址。"
     },
     "menu_bridge": "網絡模式"
 }
