@@ -148,7 +148,15 @@
         "sim_not_setup_label": "未設置",
         "select_profile_desc": "妳可以$$$$選擇配置模板$$$$來將其中的內容複制到 SIM 卡使用的配置中。",
         "has_been_choose_profile_desc": "您已經復製了 {profileName} 中的內容。$$$$復製另一個$$$$",
-        "name_already_exist_tips": "此名稱已存在"
+        "name_already_exist_tips": "此名稱已存在",
+        "device_may_not_b_tips": "啟用蜂窩接口時，設備可能無法掃描所有基站。",
+        "history_signal_title": "歷史信號記錄",
+        "lock_tower_title": "鎖定基站",
+        "available_tower_title": "可用基站",
+        "cellular_desc": "蜂窩接口將重新連接以切換到鎖定的基站。",
+        "scan_tower_msg": "這可能需要幾分鐘的時間。請耐心等待。",
+        "sim_tower_title": "SIM {sim} 基站",
+        "locked_tower_tips": "如果被鎖定的 tower 和 cellular 配置中的頻段過濾或 APN 參數不匹配，cellular 接口將無法聯網。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
