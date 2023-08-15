@@ -32,7 +32,8 @@
         "passthrough_desc": "Si IP Passthrough está habilitado, el router pasará la dirección IP del portador al puerto LAN.",
         "passthrough_close_warning": "Si tu cambias a este modo, Repetidor, Wireless, Clientes, VPN y AdGuard Home no estarán disponibles.",
         "passthrough_conflict_warning": "Este modo puede ser que no funcione si tú tienes la siguiente configuración: Tethering activado, modo drop-in gateway activado, IPv6 activada, DNS configurada en modo manual, Multi-WAN en modo balance de carga, puerto WAN como LAN, uso de políticas VPN, algún ajuste añadido al firewall, MAC address configurada en modo manual.",
-        "passthrough_conflict_2b_warning": ""
+        "passthrough_conflict_2b_warning": "",
+        "passthrough_secondwan_warning": ""
     },
     "menu_bridge": "Modo de Red"
 }
