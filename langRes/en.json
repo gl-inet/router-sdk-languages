@@ -33,7 +33,7 @@
         "passthrough_close_warning": "If you switch to this mode, Repeater, Wireless, Clients, VPN, and AdGuard Home will be disabled.",
         "passthrough_conflict_warning": "This mode may not work if any of the following settings are enabled Tethering, Drop-In Gateway mode, IPv6, manually set DNS, Multi-WAN set to load balanced mode, WAN port set as LAN, VPN policy is in use, Any firewall setting has been added, MAC address has been set manually.",
         "passthrough_conflict_2b_warning": "This mode may not work if you have the following settings: enabled drop-in gateway mode, enabled IPv6, manually set DNS, set Multi-WAN to load balanced mode, set WAN port as LAN, used VPN policy, added any firewall setting, manually set MAC address.",
-        "passthrough_secondwan_warning": "IP Passthrough does not support Ethernet 2. Enabling IP Passthrough will invalidate the settings of WAN port as LAN port or LAN port as WAN port."
+        "passthrough_secondwan_warning": "IP Passthrough mode requires and can only have one WAN port. Please go to the $$$$ page to modify it to cancel the use of the WAN port as a LAN port or to cancel the use of the LAN as a WAN port."
     },
     "menu_bridge": "Network Mode"
 }
