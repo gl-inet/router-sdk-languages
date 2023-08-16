@@ -21,7 +21,8 @@
         "remote_access_tips": "Se vuoi accedere al dispositivo da remoto, si prega di $$$$Andare alla Pagina di Sicurezza$$$$ per configurarlo.",
         "parsing_ip_warning_tips": "L' indirizzo IP della risoluzione DDNS del dominio non è lo stesso dell'IP WAN del dispositivo.",
         "need_pubilc_ip_tips": "Hai bisogno di un indirizzo IP pubblico per usare il DNS dinamico.",
-        "sevices_warning_tips": "Se hai un client VPN attivo, per favore disabilita l'opzione \"I servizi di GL.iNet usano la VPN\" nelle opzioni globali VPN."
+        "sevices_warning_tips": "Se hai un client VPN attivo, per favore disabilita l'opzione \"I servizi di GL.iNet usano la VPN\" nelle opzioni globali VPN.",
+        "nat_warning_tips": "Se questo router è dietro NAT, devi configurare l'inoltro delle porte nel router del tuo ISP."
     },
     "menu_dynamicdns": "DNS Dinamico"
 }
