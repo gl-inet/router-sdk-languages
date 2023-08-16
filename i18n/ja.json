@@ -20,7 +20,8 @@
         "parsing_warning_tips": "DDNSドメイン解決によるIPは、デバイスの WAN IP と同じではありません。 ダイナミック DNS を使用するには、インターネットのパブリック IP アドレスが必要です。 このルーターが NAT の後にある場合、ISP ルーターでポート転送を設定する必要があります。 VPN クライアントを有効にしている場合は、グローバル オプションで [GL.iNetのサービスで VPN を使用] を無効にしてください。",
         "parsing_ip_warning_tips": "DDNSドメイン解決によるIPは、デバイスの WAN IP と同じではありません。",
         "need_pubilc_ip_tips": "ダイナミック DNS を使用するには、インターネットのパブリック IP アドレスが必要です。",
-        "sevices_warning_tips": "VPN クライアントを有効にしている場合は、グローバル オプションで [GL.iNetのサービスで VPN を使用] を無効にしてください。"
+        "sevices_warning_tips": "VPN クライアントを有効にしている場合は、グローバル オプションで [GL.iNetのサービスで VPN を使用] を無効にしてください。",
+        "nat_warning_tips": "このルーターが NAT の後にある場合、ISP ルーターでポート転送を設定する必要があります。"
     },
     "menu_dynamicdns": "ダイナミックDNS"
 }
