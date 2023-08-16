@@ -21,7 +21,8 @@
         "remote_access_tips": "前往$$$$遠程訪問控制$$$$修改配置",
         "parsing_ip_warning_tips": "DDNS域名解析出來的IP和設備的WAN IP不一樣。",
         "need_pubilc_ip_tips": "您需要一個互聯網公共 IP 地址才能使用動態 DNS。",
-        "sevices_warning_tips": "如果您啟用了 VPN 客戶端，請在全局選項中禁用“來自 GL.iNet 的服務使用 VPN”。"
+        "sevices_warning_tips": "如果您啟用了 VPN 客戶端，請在全局選項中禁用“來自 GL.iNet 的服務使用 VPN”。",
+        "nat_warning_tips": "如果此路由器在 NAT 之後，您可能需要在您的 ISP 路由器中設置端口轉發。"
     },
     "menu_dynamicdns": "動態 DNS"
 }
