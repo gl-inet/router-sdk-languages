@@ -18,7 +18,10 @@
         "parsing_interface_title": "接口廣域網IP",
         "parsing_success_tips": "DDNS 域已正確解析為本設備的公共網路 IP。",
         "parsing_label": "IP 來自 DDNS 域名解析",
-        "remote_access_tips": "前往$$$$遠程訪問控制$$$$修改配置"
+        "remote_access_tips": "前往$$$$遠程訪問控制$$$$修改配置",
+        "parsing_ip_warning_tips": "DDNS域名解析出來的IP和設備的WAN IP不一樣。",
+        "need_pubilc_ip_tips": "您需要一個互聯網公共 IP 地址才能使用動態 DNS。",
+        "sevices_warning_tips": "如果您啟用了 VPN 客戶端，請在全局選項中禁用“來自 GL.iNet 的服務使用 VPN”。"
     },
     "menu_dynamicdns": "動態 DNS"
 }
