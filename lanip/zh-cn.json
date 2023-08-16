@@ -10,7 +10,7 @@
         "lan_conflict_tips": "与 LAN IP 冲突",
         "ip_outside_tips": "IP 地址在子网范围之外",
         "cannot_contain_ip_tips": "地址池范围不能包括路由器的 IP",
-        "end_smaller_tips": "结束地址小于起始地址",
+        "end_smaller_tips": "结束地址应大于初始地址。",
         "lan_or_guest_senior_tip": "您可以在 IPv4 私有地址范围内设置子网: 192.168.0.0/16，172.16.0.0/12，10.0.0.0/8",
         "lan_or_guest_model_setting": "高级设置",
         "user_count_max": "最大用户数",
@@ -24,7 +24,8 @@
         "ap_isolate_label": "AP 隔离",
         "ap_isolate_tips": "可以将您网络的客户端设备隔离到一个单独的网络区域。这些设备无法与网络中的其他设备进行通信。",
         "allow_lan_label": "允许通过 LAN 侧访问网络",
-        "security_title": "安全设置"
+        "security_title": "安全设置",
+        "dhcp_disable_warning_tips": "关闭 DHCP 之后可能不能联网，请谨慎操作。"
     },
     "address_reservation": {
         "title": "地址预留",
