@@ -11,7 +11,7 @@
         "lan_conflict_tips": "It is in conflict with LAN IP",
         "ip_outside_tips": "IP address is outside the subnet",
         "cannot_contain_ip_tips": "The address range can't include the router's IP",
-        "end_smaller_tips": "End address is less than start address",
+        "end_smaller_tips": "The end address should be greater than the initial address.",
         "lan_or_guest_senior_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "lan_or_guest_model_setting": "Advanced",
         "user_count_max": "Maximum Number of Users",
@@ -26,7 +26,7 @@
         "ap_isolate_label": "AP Isolation",
         "ap_isolate_tips": "You can isolate your network's client devices into a separate network area. These devices cannot communicate with other devices on the network.",
         "allow_lan_label": "Allow Access to the Network from the LAN",
-        "dhcp_disable_warning_tips": "关闭 DHCP 之后可能不能联网，请谨慎操作。"
+        "dhcp_disable_warning_tips": "If you disable DHCP, you may not be able to connect to the Internet, so please be careful."
     },
     "address_reservation": {
         "title": "Address Reservation",
