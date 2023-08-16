@@ -18,7 +18,10 @@
         "parsing_warning_tips": "Die IP-Adresse der DDNS Domain ist nicht mit der WAN IP Ihres Routers identisch. Sie benötigen eine öffentliche IP-Adresse, um dynamisches DNS (DDNS) zu verwenden. Wenn dieser Router hinter einem NAT ist, muss ggf. eine Portweiterleitung auf Ihrem Hauptrouter eingerichtet werden. Falls Sie den VPN Client aktiviert haben, schalten Sie bitte die Option „Dienste von GL.iNet benutzen die VPN“ in den globalen Einstellungen aus.",
         "parsing_label": "IP-Adresse der DDNS Namensauflösung",
         "parsing_interface_title": "IP der WAN Schnittstelle",
-        "remote_access_tips": "Für den Fernzugriff bitte die $$$$ Sicherheitseinstellungen$$$$ konfigurieren."
+        "remote_access_tips": "Für den Fernzugriff bitte die $$$$ Sicherheitseinstellungen$$$$ konfigurieren.",
+        "parsing_ip_warning_tips": "Die IP-Adresse der DDNS Domain ist nicht mit der WAN IP Ihres Routers identisch.",
+        "need_pubilc_ip_tips": "Sie benötigen eine öffentliche IP-Adresse, um dynamisches DNS (DDNS) zu verwenden.",
+        "sevices_warning_tips": "Falls Sie den VPN Client aktiviert haben, schalten Sie bitte die Option „Dienste von GL.iNet benutzen die VPN“ in den globalen Einstellungen aus."
     },
     "menu_dynamicdns": "Dynamisches DNS"
 }
