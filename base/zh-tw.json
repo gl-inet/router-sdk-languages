@@ -77,7 +77,16 @@
         "confirm": "確認",
         "save_btn": "保存",
         "toggle_btn": "替換",
-        "name": "名稱"
+        "name": "名稱",
+        "debug": "",
+        "send": "",
+        "view_more": "",
+        "unlock": "",
+        "band": "",
+        "lock": "",
+        "view_less": "",
+        "upload": "",
+        "loacl": ""
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -88,7 +97,8 @@
         "installing": "正在安裝，請稍候…",
         "uninstalling": "正在卸載，請稍候…",
         "interface_timeout": "操作超時。請檢查網絡環境或重啟設備。",
-        "unknown_err": "發生未知錯誤，請檢查網絡環境或重啟設備。"
+        "unknown_err": "發生未知錯誤，請檢查網絡環境或重啟設備。",
+        "processing": ""
     },
     "internet": {
         "lan_ip_tips": "LAN子網與WAN子網衝突，請$$$$修改LAN IP地址$$$$。",
@@ -97,7 +107,13 @@
         "connected": "已連接",
         "guest_ip_tips": "訪客子網與 WAN 子網衝突，請$$$$更改訪客子網$$$$為不同的地址。",
         "up_not_online_tips": "接口已連接，但是無法通過 $$$$ 協議訪問互聯網。",
-        "offline_tips": "接口已連接，但是無法訪問互聯網。"
+        "offline_tips": "接口已連接，但是無法訪問互聯網。",
+        "locked": "",
+        "band_width": "",
+        "unlocked": "",
+        "frequency": "",
+        "server": "",
+        "client": ""
     },
     "date": {
         "day": "天",
@@ -111,7 +127,8 @@
         "second": "{count} 秒 | {count} 秒",
         "min": "{count} 分鐘 | {count} 分鐘",
         "hour": "{count} 小時 | {count} 小時",
-        "for_last_time": "在過去 {time}"
+        "for_last_time": "在過去 {time}",
+        "ms": ""
     },
     "upload": {
         "select_or_drag": "選擇一個文件上傳或將文件拖到此處",
