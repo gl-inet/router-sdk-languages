@@ -31,7 +31,8 @@
         "passthrough_desc": "Se IP Passthrough è abilitato, il router passerà l'indirizzo IP dell'operatore alla porta LAN.",
         "subnet_mode_bable": "Modalità di Subnet",
         "passthrough_close_warning": "Se passi a questa modalità, ripetitore, wireless, client, VPN e AdGuard Home verranno disabilitati.",
-        "passthrough_conflict_warning": "Questa modalità potrebbe non funzionare se sono abilitate le seguenti impostazioni: Tethering, Drop-in gateway, IPv6 , DNS manuale, Multi-WAN impostato su modalità bilanciamento del carico, porta WAN impostata come LAN, regole VPN, qualsiasi impostazione del firewall aggiunta manualmente, indirizzo MAC manuale."
+        "passthrough_conflict_warning": "Questa modalità potrebbe non funzionare se sono abilitate le seguenti impostazioni: Tethering, Drop-in gateway, IPv6 , DNS manuale, Multi-WAN impostato su modalità bilanciamento del carico, porta WAN impostata come LAN, regole VPN, qualsiasi impostazione del firewall aggiunta manualmente, indirizzo MAC manuale.",
+        "passthrough_conflict_2b_warning": ""
     },
     "menu_bridge": "Modalità di rete"
 }
