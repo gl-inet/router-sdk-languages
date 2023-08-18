@@ -16,6 +16,9 @@
         "custom_exit_node_tips": "Wenn diese Option aktiviert ist, leitet das Gerät alle Anfragen an den Ausgangsknoten weiter. Vor der Aktivierung müssen Sie die Subnetz-Routen {subnet} dieses Geräts in der $$$$Tailscale Admin Console$$$$ aktivieren, damit Tailscale Client-Anfragen weiterleiten kann; andernfalls können Ihre Clients nicht auf das Internet zugreifen.",
         "exit_node_tips": "Wenn der von Ihnen gewählte Exportknoten nicht verfügbar ist oder nicht auf das Internet zugreifen kann, kann das Gerät die Einstellungen nicht mit Tailscale synchronisieren.",
         "manual_node_label": "Benutzerdefinierte Ausgangspunkte",
-        "exit_node_label": "Ausgangspunkt"
+        "exit_node_label": "Ausgangspunkt",
+        "current_ip_tips": "",
+        "dns_warning_tips": "",
+        "custom_exit_node_warning": ""
     }
 }
