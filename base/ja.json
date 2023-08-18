@@ -75,11 +75,8 @@
         "confirm": "確認",
         "save_btn": "保存",
         "name": "名称",
-        "debug": "",
         "view_more": "",
-        "band": "",
         "view_less": "",
-        "loacl": "",
         "drag_sort": ""
     },
     "msg": {
@@ -101,9 +98,7 @@
         "guest_ip_tips": "ゲストサブネットはWANサブネットと競合しています。$$$$ゲストサブネットを変更する$$$$で別のアドレスにしてください。",
         "up_not_online_tips": "インターフェイスは接続されていますが、$$$$プロトコルでインターネットにアクセスできません。",
         "offline_tips": "インターフェイスは接続されていますが、インターネットにアクセスできません。",
-        "locked": "",
-        "unlocked": "",
-        "client": ""
+        "unlocked": ""
     },
     "date": {
         "day": "日",
@@ -116,8 +111,7 @@
         "friday": "金",
         "second": "{count} 秒 | {count}秒",
         "min": "{count} 分 | {count} 分",
-        "hour": "{count} 時間 | {count} 時間",
-        "for_last_time": ""
+        "hour": "{count} 時間 | {count} 時間"
     },
     "upload": {
         "select_or_drag": "ファイルを選択するか、こちらにドラッグしてください",

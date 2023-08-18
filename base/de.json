@@ -78,9 +78,7 @@
         "save_btn": "Speichern",
         "name": "Name",
         "toggle_btn": "Wechseln",
-        "view_more": "",
         "lock": "",
-        "view_less": "",
         "upload": ""
     },
     "msg": {
@@ -102,9 +100,7 @@
         "guest_ip_tips": "Das Gast-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die Gast-IP$$$$ in eine andere IP-Adresse.",
         "up_not_online_tips": "Die Schnittstelle ist verbunden, aber mit dem $$$$ Protokoll kann nicht auf das Internet zugegriffen werden.",
         "offline_tips": "Die Schnittstelle ist verbunden, aber es kann nicht auf das Internet zugegriffen werden.",
-        "band_width": "",
-        "locked": "",
-        "client": ""
+        "locked": ""
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
@@ -117,8 +113,7 @@
         "saturday": "Sa | Samstag",
         "second": "{count} Sekunde| {count} Sekunden",
         "min": "{count} Minute | {count} Minuten",
-        "hour": "{count} Stunde | {count} Stunden",
-        "for_last_time": ""
+        "hour": "{count} Stunde | {count} Stunden"
     },
     "upload": {
         "select_or_drag": "Wählen Sie eine Datei oder ziehen Sie diese hierher",
