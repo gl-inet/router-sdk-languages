@@ -78,15 +78,10 @@
         "select_btn": "Seleziona",
         "drag_sort": "Ordinamento",
         "toggle_btn": "Cambiare",
-        "debug": "",
         "send": "",
-        "view_more": "",
         "band": "",
-        "lock": "",
         "unlock": "",
-        "view_less": "",
-        "upload": "",
-        "loacl": ""
+        "upload": ""
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -97,8 +92,7 @@
         "installing": "In installazione, attendere…",
         "uninstalling": "In disinstallazione, attendere…",
         "unknown_err": "Errore sconosciuto. Verifica l'ambiente di rete o riavvia il dispositivo.",
-        "interface_timeout": "Richiesta scaduta. Verifica l'ambiente di rete o riavvia il dispositivo.",
-        "processing": ""
+        "interface_timeout": "Richiesta scaduta. Verifica l'ambiente di rete o riavvia il dispositivo."
     },
     "date": {
         "day": "giorno(i)",
@@ -112,8 +106,7 @@
         "second": "{count} secondo | {count} secondi",
         "min": "{count} Minuto | {count} Minuti",
         "hour": "{count} Ore | {count} Ore",
-        "for_last_time": "Più recente {time}",
-        "ms": ""
+        "for_last_time": "Più recente {time}"
     },
     "internet": {
         "lan_ip_tips": "La sottorete LAN è in conflitto con la sottorete WAN, si prega di $$$$ modificare la sottorete LAN$$$$ con un altro indirizzo.",
@@ -123,11 +116,8 @@
         "connected": "Connesso",
         "up_not_online_tips": "L'interfaccia è connessa, ma non si può accedere ad Internet con il protocollo $$$$.",
         "offline_tips": "L'interfaccia è connessa, ma non si può accedere ad Internet.",
-        "server": "",
         "band_width": "",
-        "unlocked": "",
         "locked": "",
-        "frequency": "",
         "client": ""
     },
     "upload": {
