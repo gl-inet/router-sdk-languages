@@ -3,7 +3,12 @@
         "old_pwd": "이전 비밀번호",
         "new_pwd": "새로운 비밀번호",
         "confirm_pwd": "새 비밀번호 확인",
-        "warning": "이전 비밀번호와 같을 수 없습니다"
+        "warning": "이전 비밀번호와 같을 수 없습니다",
+        "title": "",
+        "confirm_pwd_tips": "",
+        "old_pwd_tips": "",
+        "new_pwd_tips": "",
+        "old_pwd_error": ""
     },
     "security": {
         "enable_ping_label": "",
@@ -19,7 +24,8 @@
         "remote_access_title": "",
         "no_ipaddr_list_label": "",
         "add_ipaddr_btn": "",
-        "port_disabled_tips": ""
+        "port_disabled_tips": "",
+        "add_ipaddr_tips": ""
     },
     "curity": {
         "port_conflict_tips": ""
