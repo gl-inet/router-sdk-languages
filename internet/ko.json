@@ -9,7 +9,10 @@
         "repeated": "성공적으로 연결되었으며 다시 연결할 필요가 없습니다.",
         "pppoe_vlanid_tips": "",
         "egderouter_mode_tips": "",
-        "using_as_wan": ""
+        "using_as_wan": "",
+        "setting": "",
+        "using_as_lan": "",
+        "dhcp_tips": ""
     },
     "tethering": {
         "title": "뜨거운 공유",
@@ -26,7 +29,27 @@
         "allow_dfs_tips1": "",
         "fail_eap_key_tips": "",
         "fail_key_tips": "",
-        "fail_not_found_tips": ""
+        "fail_not_found_tips": "",
+        "change_wifi": "",
+        "allow_change": "",
+        "allow_change_tips": "",
+        "antijam": "",
+        "lock_band": "",
+        "join_title": "",
+        "detail_title": "",
+        "join_other": "",
+        "ssid": "",
+        "encryption": "",
+        "identity": "",
+        "key": "",
+        "remember": "",
+        "lock_bssid": "",
+        "set_static": "",
+        "unlock": "",
+        "antijam_tips_2": "",
+        "lock_bssid_tips": "",
+        "advanced_settings": "",
+        "available_wifi": ""
     },
     "modem": {
         "title": "모뎀",
@@ -84,7 +107,36 @@
         "name_already_exist_tips": "",
         "history_signal_title": "",
         "set_detection_tips": "",
-        "band_filter_mode_label": ""
+        "band_filter_mode_label": "",
+        "data_roaming_label": "",
+        "port_tips": "",
+        "apn_tips": "",
+        "ttl_placeholder": "",
+        "manual_setup": "",
+        "setting": "",
+        "traffic": "",
+        "reset_count": "",
+        "clear_traffic": "",
+        "not_compatible": "",
+        "current_badge_label": "",
+        "excellent_singal_label": "",
+        "good_singal_label": "",
+        "fair_singal_label": "",
+        "poor_singal_label": "",
+        "no_sim_tips2": "",
+        "manage_profiles_btn": "",
+        "setting_sim_title": "",
+        "save_as_profile_title": "",
+        "select_profile_title": "",
+        "sim_not_setup_label": "",
+        "has_been_choose_profile_desc": "",
+        "locked_tower_tips": "",
+        "device_may_not_b_tips": "",
+        "cellular_desc": "",
+        "lock_tower_title": "",
+        "scan_tower_msg": "",
+        "sim_tower_title": "",
+        "available_tower_title": ""
     },
     "router_visual": {
         "wlan_client": "무선 클라이언트",
@@ -129,7 +181,14 @@
         "forward_email_list_title": "",
         "forward_add_email_btn": "",
         "forward_add_phone_btn": "",
-        "forward_no_encryp_label": ""
+        "forward_no_encryp_label": "",
+        "send_error_msg2": "",
+        "send_error_msg3": "",
+        "send_error_msg4": "",
+        "send_error_msg5": "",
+        "send_error_msg6": "",
+        "forward_email_title": "",
+        "forward_sms_title": ""
     },
     "modemmanage": {
         "title": "조치",
@@ -141,6 +200,12 @@
         "cell_info": "세포 정보",
         "copy": "복사",
         "refresh": "새로 고침",
-        "success_copy": "복사 성공"
-    }
+        "success_copy": "복사 성공",
+        "info": "",
+        "soft_reset": "",
+        "hardware _reset": "",
+        "reboot_sucess": "",
+        "export_debug_info": ""
+    },
+    "menu_internet": ""
 }
