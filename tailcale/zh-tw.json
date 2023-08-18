@@ -18,7 +18,6 @@
         "custom_exit_node_tips": "如果啟用此選項，設備會將所有請求轉發到出口節點。 啟用前，您需要在$$$$Tailscale Admin Console$$$$中啟用此設備的子網路由{subnet}，以便Tailscale轉發客戶端請求； 否則，您的客戶將無法訪問互聯網。",
         "exit_node_label": "出口節點",
         "current_ip_tips": "Tailscale 使用 100.64.0.0/10 子網，這可能和 ISP 分配的地址或 VPN 客戶端地址衝突。若您的 WAN IP 或 VPN 使用了此子網內地址，請禁用 Tailscale。",
-        "custom_exit_node_warning": "",
         "dns_warning_tips": ""
     }
 }

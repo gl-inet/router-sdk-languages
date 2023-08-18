@@ -17,8 +17,6 @@
         "exit_node_tips": "選択したエクスポート ノードが利用できないまたはインターネットにアクセスできない場合、デバイスはTailscaleに設定を同期することができません。",
         "custom_exit_node_tips": "このオプションを有効にすると、デバイスはすべてのリクエストを出口ノードに転送します。 有効にする前に、Tailscale がクライアントリクエストを転送できるように、$$$$Tailscale 管理コンソール$$$$でこのデバイスのサブネット ルート {subnet} を有効にする必要があります。 そうではない場合、クライアントがインターネットにアクセスできません。",
         "enable_lan_tips": "このデバイスでは、Tailscale クライアントが LAN または WAN 上のリソースにアクセスすることを既に許可しています。ただし、Tailscaleの仮想ネットワーク経由でクライアントからのリクエストをデバイスに転送するには、$$$$Tailscale Admin Console$$$$でルート設定を編集する必要があります。",
-        "current_ip_tips": "",
-        "custom_exit_node_warning": "",
-        "dns_warning_tips": ""
+        "custom_exit_node_warning": ""
     }
 }
