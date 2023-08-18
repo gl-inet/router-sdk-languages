@@ -6,8 +6,7 @@
         "wan_been_lan": "Порт WAN использовался как LAN. Вы можете переключить его в WAN",
         "confirm_to_lan": "Вы хотите использовать порт WAN в качестве LAN?",
         "confirm_to_wan": "Вы хотите изменить порт WAN обратно на WAN?",
-        "repeated": "Подключение удалось",
-        "change_to_wan_tips": ""
+        "repeated": "Подключение удалось"
     },
     "tethering": {
         "title": "Смартфон, USB модем",
@@ -19,9 +18,7 @@
         "known_net": "Известные сети",
         "options": "Параметры повторителя",
         "no_tips": "Повторитель (СТО) отключен",
-        "change_wifi": "",
         "ssid": "",
-        "advanced_settings": "",
         "unusable_eap_tips": ""
     },
     "modem": {
@@ -40,15 +37,10 @@
         "password": "Пароль",
         "sim_not_registered": "SIM-карта не зарегистрирована",
         "auto_setup": "Автоматическая настройка",
-        "sim_slot_setting_title": "",
         "set_detection_tips": "",
-        "current_sim_badge_label": "",
         "saved_config_title": "",
-        "ttl_placeholder": "",
         "clear_traffic": "",
-        "manage_profiles_btn": "",
-        "device_may_not_b_tips": "",
-        "traffic_tips": ""
+        "device_may_not_b_tips": ""
     },
     "router_visual": {
         "wlan_client": "Wi-Fi клиенты",
@@ -77,10 +69,7 @@
         "invalid_dial_num": "Неверно набран номер",
         "national": "Локальный",
         "no_sms": "Нет сообщений",
-        "forward_email_list_title": "",
         "from": "",
-        "reply_sms": "",
-        "send_error_msg5": "",
-        "forward_tips": ""
+        "send_error_msg5": ""
     }
 }
