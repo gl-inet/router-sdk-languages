@@ -3,11 +3,17 @@
         "old_pwd": "Старый пароль",
         "new_pwd": "Новый пароль",
         "confirm_pwd": "Подтвердите Пароль",
-        "warning": "ПРЕДУПРЕЖДЕНИЕ: Старый пароль введен не верно."
+        "warning": "ПРЕДУПРЕЖДЕНИЕ: Старый пароль введен не верно.",
+        "old_pwd_error": "",
+        "title": "",
+        "confirm_pwd_tips": "",
+        "old_pwd_tips": "",
+        "new_pwd_tips": ""
     },
     "security": {
         "enable_ping_label": "",
         "enable_ssh_label": "",
-        "enable_ipaddr_label": ""
+        "enable_ipaddr_label": "",
+        "add_ipaddr_tips": ""
     }
 }
