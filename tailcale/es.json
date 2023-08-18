@@ -16,6 +16,9 @@
         "allow_wan_tips": "Si esta opción está activada, los recursos en el lado WAN del dispositivo seran permitidos a ser accesados a través de la red virtual Tailscale.",
         "exit_node_tips": "Si el nodo de exportación que haz seleccionado no está disponible o no puede acceder al Internet, el dispositivo no podrá sincronizar la configuración con Tailscale.",
         "allow_lan_tips": "Si esta opción está activada, los recursos dentro del dispositivo LAN seran permitidos a ser accesados a través de la red virtual Tailscale.",
-        "custom_exit_node_tips": "Si esta opción está activada, el dispositivo reenviará todas las solicitudes al nodo de salida. Antes de habilitarlo, debe habilitar las rutas de subnet {subnet} de este dispositivo en $$$$Tailscale Admin Console$$$$ para Tailscale reenviar las solicitudes de los clientes; de lo contrario, tus clientes no podrán acceder al Internet."
+        "custom_exit_node_tips": "Si esta opción está activada, el dispositivo reenviará todas las solicitudes al nodo de salida. Antes de habilitarlo, debe habilitar las rutas de subnet {subnet} de este dispositivo en $$$$Tailscale Admin Console$$$$ para Tailscale reenviar las solicitudes de los clientes; de lo contrario, tus clientes no podrán acceder al Internet.",
+        "current_ip_tips": "",
+        "dns_warning_tips": "",
+        "custom_exit_node_warning": ""
     }
 }
