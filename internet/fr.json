@@ -7,7 +7,6 @@
         "confirm_to_lan": "Veuillez confirmer: souhaitez-vous utiliser le port WAN en tant que LAN?",
         "confirm_to_wan": "Veuillez confirmer: voulez-vous changer le port WAN en WAN?",
         "repeated": "Connection déjà réussi . Ce n'est pas la peine de connecter encore une fois.",
-        "using_as_lan": "",
         "change_to_wan_tips": ""
     },
     "tethering": {
@@ -20,13 +19,9 @@
         "known_net": "Réseaux connus",
         "options": "Repeater Options",
         "no_tips": "Le répéteur (STA) est désactivé",
-        "fail_eap_key_tips": "",
         "allow_change": "",
-        "join_title": "",
         "ssid": "",
-        "remember": "",
         "antijam_tips_2": "",
-        "lock_band_tips": "",
         "unusable_eap_tips": ""
     },
     "modem": {
@@ -47,25 +42,15 @@
         "password": "Mot de passe",
         "sim_not_registered": "La carte SIM n'a pas inscrit",
         "auto_setup": "Configuration automatique",
-        "current_sim_label": "",
         "current_config_badge": "",
-        "auto_switch_label": "",
         "sim_failover_interval_label": "",
-        "remove_profile_warning": "",
         "band_only_tips": "",
-        "select_profile_desc": "",
         "history_signal_title": "",
-        "install_sim": "",
         "apn_tips": "",
-        "manual_setup": "",
         "clear_traffic": "",
-        "fair_singal_label": "",
         "save_as_profile_title": "",
-        "locked_tower_tips": "",
         "device_may_not_b_tips": "",
-        "available_tower_title": "",
-        "no_sim_tips": "",
-        "timing_check_main_sim_tips": ""
+        "no_sim_tips": ""
     },
     "router_visual": {
         "wlan_client": "Clients WLAN",
@@ -81,8 +66,7 @@
         "cell_info": "Information de la batterie",
         "copy": "Copie",
         "refresh": "mise à jour",
-        "success_copy": "Copie réussi",
-        "reboot_sucess": ""
+        "success_copy": "Copie réussi"
     },
     "sms": {
         "title": "Un message court",
@@ -95,15 +79,10 @@
         "invalid_dial_num": "Numéro de composition invalide",
         "national": "Local",
         "no_sms": "Pas de message",
-        "forward_encryp_label": "",
         "forward_email_account_label": "",
-        "not_found_sms_modem": "",
         "receive": "",
-        "to": "",
         "reply_sms": "",
-        "detail": "",
         "send_error_msg5": "",
-        "forward_email_subject_tips": "",
         "forward_tips": ""
     }
 }

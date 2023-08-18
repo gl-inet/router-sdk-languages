@@ -7,7 +7,6 @@
         "confirm_to_lan": "Вы хотите использовать порт WAN в качестве LAN?",
         "confirm_to_wan": "Вы хотите изменить порт WAN обратно на WAN?",
         "repeated": "Подключение удалось",
-        "using_as_lan": "",
         "change_to_wan_tips": ""
     },
     "tethering": {
@@ -20,13 +19,9 @@
         "known_net": "Известные сети",
         "options": "Параметры повторителя",
         "no_tips": "Повторитель (СТО) отключен",
-        "fail_eap_key_tips": "",
         "change_wifi": "",
-        "join_title": "",
         "ssid": "",
-        "lock_bssid": "",
         "advanced_settings": "",
-        "lock_band_tips": "",
         "unusable_eap_tips": ""
     },
     "modem": {
@@ -45,25 +40,15 @@
         "password": "Пароль",
         "sim_not_registered": "SIM-карта не зарегистрирована",
         "auto_setup": "Автоматическая настройка",
-        "use_other_config_btn": "",
         "sim_slot_setting_title": "",
-        "timing_check_main_sim_label": "",
         "set_detection_tips": "",
-        "band_only_label": "",
         "current_sim_badge_label": "",
-        "name_already_exist_tips": "",
         "saved_config_title": "",
-        "install_sim_tips": "",
         "ttl_placeholder": "",
-        "manual_setup": "",
         "clear_traffic": "",
-        "good_singal_label": "",
         "manage_profiles_btn": "",
-        "sim_not_setup_label": "",
         "device_may_not_b_tips": "",
-        "scan_tower_msg": "",
-        "traffic_tips": "",
-        "sim_no_profile_warning": ""
+        "traffic_tips": ""
     },
     "router_visual": {
         "wlan_client": "Wi-Fi клиенты",
@@ -79,8 +64,7 @@
         "cell_info": "Информация о сети",
         "copy": "Копировать",
         "refresh": "Обновить",
-        "success_copy": "Копирование успешно",
-        "reboot_sucess": ""
+        "success_copy": "Копирование успешно"
     },
     "sms": {
         "title": "Короткое сообщение",
@@ -93,15 +77,10 @@
         "invalid_dial_num": "Неверно набран номер",
         "national": "Локальный",
         "no_sms": "Нет сообщений",
-        "forward_email_label": "",
         "forward_email_list_title": "",
-        "receive": "",
         "from": "",
-        "reply": "",
         "reply_sms": "",
-        "detail": "",
         "send_error_msg5": "",
-        "send_fail": "",
         "forward_tips": ""
     }
 }

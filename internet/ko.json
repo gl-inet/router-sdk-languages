@@ -7,7 +7,6 @@
         "confirm_to_lan": "확인하십시오 : WAN 포트가 LAN으로 사용됩니까?",
         "confirm_to_wan": "확인하십시오 : WAN 포트 기능이 복원 되었습니까?",
         "repeated": "성공적으로 연결되었으며 다시 연결할 필요가 없습니다.",
-        "setting": "",
         "change_to_wan_tips": ""
     },
     "tethering": {
@@ -20,13 +19,9 @@
         "known_net": "알려진 네트워크",
         "options": "리피터 옵션",
         "no_tips": "릴레이 비활성화",
-        "fail_eap_key_tips": "",
         "allow_change": "",
-        "join_title": "",
         "encryption": "",
-        "lock_bssid": "",
         "lock_bssid_tips": "",
-        "lock_band_tips": "",
         "unusable_eap_tips": ""
     },
     "modem": {
@@ -54,23 +49,14 @@
         "sim_lock": "SIM 카드가 잠겨 있으며 PIN 코드로 잠금을 해제해야 합니다.",
         "connect_fail_tips": "연결 실패, 다시 연결 중",
         "auto_setup": "자동 설정",
-        "current_sim_label": "",
         "current_config_badge": "",
-        "auto_switch_label": "",
         "sim_failover_interval_label": "",
-        "remove_profile_warning": "",
         "band_only_warning": "",
-        "add_new_profile_title": "",
         "band_filter_mode_label": "",
-        "ttl_placeholder": "",
         "reset_count": "",
-        "excellent_singal_label": "",
         "no_sim_tips2": "",
-        "select_profile_title": "",
         "device_may_not_b_tips": "",
-        "sim_tower_title": "",
-        "clear_traffic_tips": "",
-        "sim_failover_interval_tips": ""
+        "clear_traffic_tips": ""
     },
     "router_visual": {
         "wlan_client": "무선 클라이언트",
@@ -105,11 +91,8 @@
         "unknown": "알려지지 않다",
         "no_sms": "메시지가 없습니다",
         "detail": "SMS 세부정보",
-        "forward_smtp_server_label": "",
         "forward_email_list_title": "",
-        "send_error_msg2": "",
-        "send_error_msg6": "",
-        "forward_email_subject_tips": ""
+        "send_error_msg6": ""
     },
     "modemmanage": {
         "title": "조치",
@@ -121,7 +104,6 @@
         "cell_info": "세포 정보",
         "copy": "복사",
         "refresh": "새로 고침",
-        "success_copy": "복사 성공",
-        "reboot_sucess": ""
+        "success_copy": "복사 성공"
     }
 }
