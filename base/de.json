@@ -77,7 +77,16 @@
         "confirm": "Bestätigen",
         "save_btn": "Speichern",
         "name": "Name",
-        "toggle_btn": "Wechseln"
+        "toggle_btn": "Wechseln",
+        "send": "",
+        "view_more": "",
+        "band": "",
+        "lock": "",
+        "unlock": "",
+        "view_less": "",
+        "debug": "",
+        "upload": "",
+        "loacl": ""
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -88,7 +97,8 @@
         "uninstalling": "Deinstallation, bitte warten…",
         "unknown_err": "Unbekannter Fehler aufgetreten. Bitte überprüfen Sie die Netzwerkumgebung oder starten das Gerät neu.",
         "success": "Angewendet!",
-        "interface_timeout": "Zeitüberschreitung bei der Antwort. Bitte überprüfen Sie die Netzwerkverbindung oder starten das Gerät neu."
+        "interface_timeout": "Zeitüberschreitung bei der Antwort. Bitte überprüfen Sie die Netzwerkverbindung oder starten das Gerät neu.",
+        "processing": ""
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
@@ -97,7 +107,13 @@
         "connected": "Verbunden",
         "guest_ip_tips": "Das Gast-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die Gast-IP$$$$ in eine andere IP-Adresse.",
         "up_not_online_tips": "Die Schnittstelle ist verbunden, aber mit dem $$$$ Protokoll kann nicht auf das Internet zugegriffen werden.",
-        "offline_tips": "Die Schnittstelle ist verbunden, aber es kann nicht auf das Internet zugegriffen werden."
+        "offline_tips": "Die Schnittstelle ist verbunden, aber es kann nicht auf das Internet zugegriffen werden.",
+        "server": "",
+        "band_width": "",
+        "unlocked": "",
+        "locked": "",
+        "frequency": "",
+        "client": ""
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
@@ -110,7 +126,8 @@
         "saturday": "Sa | Samstag",
         "second": "{count} Sekunde| {count} Sekunden",
         "min": "{count} Minute | {count} Minuten",
-        "hour": "{count} Stunde | {count} Stunden"
+        "hour": "{count} Stunde | {count} Stunden",
+        "ms": ""
     },
     "upload": {
         "select_or_drag": "Wählen Sie eine Datei oder ziehen Sie diese hierher",
