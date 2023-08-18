@@ -17,7 +17,6 @@
         "exit_node_label": "Nodi di Uscita",
         "exit_node_tips": "Se il nodo di esportazione selezionato non è disponibile o non può accedere a Internet, il dispositivo non sarà in grado di sincronizzare le impostazioni con Tailscale.",
         "custom_exit_node_tips": "Se questa opzione è abilitata, il dispositivo inoltrerà tutte le richieste al nodo di uscita. Prima di abilitarla, è necessario abilitare le rotte di sottorete {subnet} di questo dispositivo in $$$$Tailscale Admin Console$$$$ affinché Tailscale inoltri le richieste dei clienti; altrimenti, i clienti non saranno in grado di accedere a Internet.",
-        "current_ip_tips": "Tailscale usa la sottorete 100.64.0.0/10, che può entrare in conflitto con un indirizzo assegnato dall'ISP o da un Client VPN. Se il tuo indirizzo WAN o l'IP della VPN appartengono a tale sottorete, disabilita Tailscale per evitare di non poter navigare.",
-        "dns_warning_tips": ""
+        "current_ip_tips": "Tailscale usa la sottorete 100.64.0.0/10, che può entrare in conflitto con un indirizzo assegnato dall'ISP o da un Client VPN. Se il tuo indirizzo WAN o l'IP della VPN appartengono a tale sottorete, disabilita Tailscale per evitare di non poter navigare."
     }
 }
