@@ -3,11 +3,17 @@
         "old_pwd": "ancien mot de passe",
         "new_pwd": "nouveau mot de passe",
         "confirm_pwd": "Confirmez le mot de passe",
-        "warning": "ATTENTION: ne peut pas être identique à votre mot de passe OLD!"
+        "warning": "ATTENTION: ne peut pas être identique à votre mot de passe OLD!",
+        "confirm_pwd_tips": "",
+        "old_pwd_tips": "",
+        "new_pwd_tips": "",
+        "old_pwd_error": "",
+        "title": ""
     },
     "security": {
         "enable_ssh_label": "",
         "enable_ipaddr_label": "",
-        "enable_ping_label": ""
+        "enable_ping_label": "",
+        "add_ipaddr_tips": ""
     }
 }
