@@ -76,7 +76,16 @@
         "drag_sort": "Ordenar arrastrando",
         "confirm": "Confirmar confirmación",
         "save_btn": "guardar",
-        "name": "Nombre"
+        "name": "Nombre",
+        "debug": "",
+        "send": "",
+        "view_more": "",
+        "band": "",
+        "lock": "",
+        "unlock": "",
+        "view_less": "",
+        "upload": "",
+        "loacl": ""
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -87,7 +96,8 @@
         "installing": "Instalando, espere por favor…",
         "uninstalling": "Desinstalando, espere por favor…",
         "unknown_err": "Se ha producido un error desconocido. Por favor, compruebe el entorno de red o reinicie el dispositivo.",
-        "interface_timeout": "Tiempo de espera agotado para la respuesta. Compruebe el entorno de red o reinicie el dispositivo."
+        "interface_timeout": "Tiempo de espera agotado para la respuesta. Compruebe el entorno de red o reinicie el dispositivo.",
+        "processing": ""
     },
     "date": {
         "sunday": "Dom|Domingo",
@@ -100,7 +110,8 @@
         "saturday": "Sa|Sábado",
         "second": "{count} segundo | {count} segundos",
         "min": "{count} minuto | {count} minutos",
-        "hour": "{count} Hora | {count} Horas"
+        "hour": "{count} Hora | {count} Horas",
+        "ms": ""
     },
     "internet": {
         "lan_ip_tips": "La subred de LAN está en conflicto con la subred de WAN, por favor $$$$Cambie la subred de LAN$$$$ a una dirección diferente.",
@@ -109,7 +120,13 @@
         "guest_ip_tips": "La subred de invitados está en conflicto con la subred WAN, por favor $$$$Cambie la subred de invitados$$$$ a una dirección diferente.",
         "connected": "Conectado",
         "up_not_online_tips": "La interfaz está conectada, pero el Internet no se puede acceder con el protocolo $$$$.",
-        "offline_tips": "La interfaz está conectada, pero no se puede acceder al Internet."
+        "offline_tips": "La interfaz está conectada, pero no se puede acceder al Internet.",
+        "server": "",
+        "band_width": "",
+        "unlocked": "",
+        "locked": "",
+        "frequency": "",
+        "client": ""
     },
     "upload": {
         "select_or_drag": "Seleccione un archivo o arrástrelo aquí",
