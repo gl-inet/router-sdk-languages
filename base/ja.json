@@ -75,7 +75,16 @@
         "confirm": "確認",
         "save_btn": "保存",
         "name": "名称",
-        "toggle_btn": ""
+        "toggle_btn": "",
+        "debug": "",
+        "send": "",
+        "view_more": "",
+        "unlock": "",
+        "band": "",
+        "lock": "",
+        "view_less": "",
+        "upload": "",
+        "loacl": ""
     },
     "msg": {
         "access_denied": "無効なユーザーか、承認されていないか、もしくはログインしていません！",
@@ -86,7 +95,8 @@
         "unknown_err": "不明なエラーが発生しました。ネットワーク環境を確認するか、デバイスを再起動してください。",
         "interface_timeout": "応答タイムアウト。ネットワーク環境を確認するか、デバイスを再起動してください。",
         "operation_not_finished": "処理が完了するまでしばらくお待ちください。",
-        "uninstalling": "アンインストール中、しばらくお待ちください…"
+        "uninstalling": "アンインストール中、しばらくお待ちください…",
+        "processing": ""
     },
     "internet": {
         "lan_ip_tips": "LANサブネットはWANサブネットと競合しています。$$$$LANサブネットを変更する$で別のアドレスにしてください。",
@@ -95,7 +105,13 @@
         "connected": "接続済み",
         "guest_ip_tips": "ゲストサブネットはWANサブネットと競合しています。$$$$ゲストサブネットを変更する$$$$で別のアドレスにしてください。",
         "up_not_online_tips": "インターフェイスは接続されていますが、$$$$プロトコルでインターネットにアクセスできません。",
-        "offline_tips": "インターフェイスは接続されていますが、インターネットにアクセスできません。"
+        "offline_tips": "インターフェイスは接続されていますが、インターネットにアクセスできません。",
+        "server": "",
+        "locked": "",
+        "band_width": "",
+        "unlocked": "",
+        "frequency": "",
+        "client": ""
     },
     "date": {
         "day": "日",
@@ -108,7 +124,8 @@
         "friday": "金",
         "second": "{count} 秒 | {count}秒",
         "min": "{count} 分 | {count} 分",
-        "hour": "{count} 時間 | {count} 時間"
+        "hour": "{count} 時間 | {count} 時間",
+        "ms": ""
     },
     "upload": {
         "select_or_drag": "ファイルを選択するか、こちらにドラッグしてください",
