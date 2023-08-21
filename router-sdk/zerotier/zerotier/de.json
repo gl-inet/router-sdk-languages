@@ -1,0 +1,17 @@
+{
+    "zerotier": {
+        "desc": "$$$$ZeroTier$$$$ erstellt ein sicheres, virtuelles Peer-zu-Peer Ethernet-Netzwerk, das überall einsatzbereit ist, und Zugriff auf Geräte wie Telefone, PCs, etc. unterstützt. Sie können es benutzen, um aus der Ferne auf Ihre Geräte oder Ihr Netzwerk aus der Ferne zuzugreifen.",
+        "auto_nat_label": "Entfernten Zugriff LAN und WAN erlauben",
+        "unauthorized_tips": "Das Gerät wurde zu ZeroTier hinzugefügt; bitte rufen Sie $$$$ZeroTier Central$$$$ auf, um das Gerät zu autorisieren, sich mit ihrem virtuellen Netzwerk zu verbinden.",
+        "authorized_tips": "Das Gerät ist jetzt mit Ihrem ZeroTier virtuellen Netzwerk verbunden.",
+        "current_ip_label": "Virtuelle IP des Routers",
+        "first_use_tips": "ZeroTier verbindet sich zu Ihrem virtuellen Netzwerk mittels Netzwerk ID, welche unter $$$$ZeroTier Central$$$$ erstellt werden muss.",
+        "auto_nat_tips": "Falls diese Option aktiviert ist, kann auf Ressourcen innerhalb des LAN Subnetzen, sowie von WAN-Seite mittels des ZeroTier virtuellen Netzwerks zugegriffen werden.",
+        "not_found_tips": "ZeroTier hat keine Netzwerk ID gefunden; bitte überprüfen Sie ihre Eingabe.",
+        "enable_nat_tips": "Das Gerät erlaubt bereits ZeroTier Clients, auf Ressourcen auf WAN oder LAN zuzugreifen. Aber Sie müssen noch Routing-Regeln in $$$$ZeroTier Central$$$$ für Client-Anfragen aufsetzen, damit diese zum Gerät durch das ZeroTier virtuelle Netzwerk weitergeleitet werden können:",
+        "allow_wan_label": "Erlaube externen WAN Zugriff",
+        "allow_lan_label": "Erlaube externen LAN Zugriff",
+        "allow_lan_tips": "Wenn diese Option aktiviert ist, wird der Zugriff auf Ressourcen innerhalb des LANs über das virtuelle Netzwerk von ZeroTier ermöglicht.",
+        "allow_wan_tips": "Wenn diese Option aktiviert ist, wird der Zugriff auf Ressourcen innerhalb des WANs über das virtuelle Netzwerk von ZeroTier ermöglicht."
+    }
+}

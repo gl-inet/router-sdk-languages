@@ -1,0 +1,16 @@
+{
+    "ipv6": {
+        "tips": "When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addresses via DHCPv6. You can also modify the IPv6 address manually in the Ethernet settings page. Some features (firewall, VPN, client list, GoodCloud) do not yet support IPv6.",
+        "note": "Note: If you use functions of both VPN and IPv6 at the same time, it's likely to cause IPv6 data leakage.",
+        "enable": "Enabled",
+        "mode": "Mode",
+        "addr": "IPv6 Address",
+        "dns_acq": "DNS acquisition method",
+        "dns_tips": "DNS is used to find the IP address corresponding to the domain name. Manually setting the DNS server may cause DNS lookup failure. Please use it with caution.",
+        "dns_server": "DNS Server",
+        "invalid_parameter": "The format you entered is incorrect!",
+        "dns_server_empty": "Enter at least one DNS server",
+        "native_tips": "This option is only available for private network, guest network always use NAT6 mode."
+    },
+    "menu_ipv6": "IPv6"
+}

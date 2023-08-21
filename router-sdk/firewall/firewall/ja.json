@@ -1,0 +1,32 @@
+{
+    "firewall": {
+        "port_forwards": "ポート転送",
+        "open_ports_on_router": "ルータのポート開放",
+        "port_forwards_desc": "ポート転送を使用すると、リモートコンピュータをローカルコンピュータやファイアウォールの内側にあるLAN上のサーバ（Webサーバ、FTPサーバなど）に接続できます。",
+        "open_port_on_router_dest": "ルーターの提供するサービス（Webサーバ、FTPサーバなど）は外部からアクセスできるように、それぞれのポートを開放しておく必要があります。",
+        "dmz_desc": "DMZはコンピュータをインターネット上で公開するため、すべての受信パケットはこのデバイスにリダイレクトされます。",
+        "dmz_tips": "DMZを有効にすると、ポート転送やポート開放ルールが無効になります。",
+        "open_dmz": "DMZの有効化",
+        "dmz_host_ip": "DMZホストIP",
+        "name": "名称",
+        "protocol": "プロトコル",
+        "external_zone": "外部ゾーン",
+        "external_ports": "外部ポート",
+        "internal_zone": "内部ゾーン",
+        "internal_ip": "内部IP",
+        "internal_ports": "内部ポート",
+        "port": "ポート",
+        "action": "操作",
+        "no_data": "ルーティングテーブルにデータなし",
+        "delete_all_port_tips": "エントリをすべて削除しますか？",
+        "add_port_forwards_title": "新しいポート転送ルールを追加する",
+        "edit_port_forwards_title": "ポート転送ルールを変更する",
+        "add_router_prot_title": "新しいポート開放を追加する",
+        "edit_router_prot_title": "ポート開放を変更する",
+        "confirm_delete_tips": "このエントリを削除しますか？",
+        "source": "ソース（ゾーン、ポート）",
+        "dest": "転送先（ゾーン、IP、ポート）",
+        "enable": "有効にする"
+    },
+    "menu_firewallview": "ファイアウォール"
+}

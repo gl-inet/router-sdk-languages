@@ -1,0 +1,9 @@
+{
+    "igmp": {
+        "desc": "IGMP Snooping escucha los paquetes de protocolo IGMP, extrae la información correspondiente, crea y mantiene la publicación de reenvío de multicast de capa 2; y a continuación reenvía los datos del grupo de multicast a los dispositivos que se unan al grupo de multicast, mientras que otros hosts no pueden recibir los datos del grupo de multicast.",
+        "note": "IGMPv3 es compatible con v1 y v2. Utilice v3 por defecto, y cambie a otra versión si se presentan problemas.",
+        "enabled": "Activado",
+        "version": "Versión",
+        "holder": "Seleccionar"
+    }
+}

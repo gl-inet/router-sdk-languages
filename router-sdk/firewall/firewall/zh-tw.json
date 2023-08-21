@@ -1,0 +1,32 @@
+{
+    "firewall": {
+        "port_forwards": "端口轉發",
+        "open_ports_on_router": "開放路由器端口",
+        "port_forwards_desc": "Port Forwarding (端口轉發) 可以實現廣域網上的用戶訪問本地電腦提供的伺服器資源（如web伺服器、FTP 伺服器等）。",
+        "open_port_on_router_dest": "打開路由器端口可以實現廣域網上的用戶訪問路由器提供的伺服器資源（如web伺服器、FTP 伺服器等）。",
+        "dmz_desc": "DMZ 可以將局域網中設置為DMZ的設備並完全暴露給廣域網，因此所有入站數據包都將重定向到這台計算機。",
+        "dmz_tips": "開啟DMZ，將導致端口轉發和打開路由端口規則失效。",
+        "open_dmz": "開啟DMZ",
+        "dmz_host_ip": "DMZ主機IP",
+        "name": "名稱",
+        "protocol": "協議",
+        "external_zone": "外部區域",
+        "external_ports": "外部端口",
+        "internal_zone": "內部區域",
+        "internal_ip": "内部IP",
+        "internal_ports": "内部端口",
+        "port": "通訊埠",
+        "action": "操作",
+        "no_data": "沒有配置信息",
+        "delete_all_port_tips": "是否要刪除所有端口規則?",
+        "add_port_forwards_title": "添加新的通訊埠轉發 (Port Forward) 規則",
+        "edit_port_forwards_title": "編輯通訊埠轉發 (Port Forward) 規則",
+        "add_router_prot_title": "添加新的開放端口",
+        "edit_router_prot_title": "編輯開放端口",
+        "confirm_delete_tips": "您確認要刪除該項配置嗎？",
+        "source": "來源（區域、端口）",
+        "dest": "轉發目標（區域，IP，端口）",
+        "enable": "啟用"
+    },
+    "menu_firewallview": "防火牆"
+}

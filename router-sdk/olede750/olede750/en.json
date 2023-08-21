@@ -1,0 +1,17 @@
+{
+    "menu_olede750": "OLED Screen Settings",
+    "olede750": {
+        "show_wifi_pwd_label": "Show the Wi-Fi Password",
+        "show_wifi_pwd_tips": "If this option is enabled, the Wi-Fi password will be displayed on the 2.4GHz Wi-Fi page and the 5GHz Wi-Fi page. Otherwise, they will only show the SSID.",
+        "show_main_label": "Enable Base Status Page",
+        "show_main_tips": "This page displays the network status, number of clients, Wi-Fi status, battery level, and current time.",
+        "show_2g_label": "Enable 2.4GHz Wi-Fi Info Page",
+        "show_5g_label": "Enable 5GHz Wi-Fi Info Page",
+        "show_lanip_label": "Enable LAN Info Page",
+        "show_lanip_tips": "This page displays the network mode, router LAN IP.",
+        "show_vpn_label": "Enable VPN Status Page",
+        "show_custom_label": "Enable Customized Text Page",
+        "custom_content_label": "Customized Text",
+        "tips": "The OLED screen has a total of 6 pages which you can customize the content to be viewed by selecting the page to be displayed. If multiple pages are enabled for display, you can short press the power button to switch the screen to the next page."
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "igmp": {
+        "desc": "Lo snooping IGMP monitora ed estrae informazioni dal pacchetto del protocollo IGMP, forma una tabella di appartenenza multicast e quindi inoltra il servizio multicast a qualunque ospite che si aggiunga al gruppo, assicurandosi che tutti i membri del gruppo ricevano il servizio multicast corretto, mentre Il resto degli host non lo potrà ricevere.",
+        "note": "IGMPv3 è compatibile con v1 e v2. Usa v3 per impostazione predefinita e cambia solamente se riscontri un problema.",
+        "enabled": "Abilitato",
+        "version": "Versione",
+        "holder": "Scegli"
+    }
+}

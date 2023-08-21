@@ -1,0 +1,16 @@
+{
+    "ipv6": {
+        "tips": "啟用 IPv6 後，以太網等 WAN 接口將通過 DHCPv6 獲取其 IPv6 地址。 您還可以在以太網設置頁面中手動修改 IPv6 地址。 某些功能（防火牆、VPN、客戶端列表、GoodCloud）尚不支持 IPv6。",
+        "note": "注意:如果同時使用VPN和IPv6的功能，很可能會導致IPv6數據洩漏。",
+        "enable": "啟用",
+        "mode": "模式",
+        "addr": "IPv6地址",
+        "dns_acq": "DNS 採集方式",
+        "dns_tips": "DNS 用於查找域名對應的 IP 地址，手動設置 DNS 服務器可能導致 DNS 查找失敗，請謹慎使用。",
+        "dns_server": "DNS伺服器",
+        "invalid_parameter": "你輸入的格式不正確！",
+        "dns_server_empty": "至少輸入一個 DNS 服務器",
+        "native_tips": "此選項僅適用於私有網絡，訪客網絡並始終使用 NAT6 模式。"
+    },
+    "menu_ipv6": "IPv6"
+}

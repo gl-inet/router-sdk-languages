@@ -1,0 +1,29 @@
+{
+    "wireless": {
+        "ssid": "Wi-Fi 名称（SSID）",
+        "encryption": "Wi-Fi 安全性",
+        "key": "Wi-Fi 密码",
+        "ssid_visibility": "SSID可见性",
+        "mode": "无线模式",
+        "band_width": "频宽",
+        "channel": "信道",
+        "tx_power": "发射功率",
+        "shown": "显示",
+        "hidden": "隐藏",
+        "max": "最大",
+        "high": "高",
+        "medium": "中",
+        "low": "低",
+        "guest": "访客",
+        "channel_optimization": "信道优化",
+        "repeater_using_tips": "启用无线中继时，该配置项无法修改。",
+        "enable": "启用 Wi-Fi",
+        "enable_dfs_tips": "若路由器使用 DFS 信道：每次 Wi-Fi 启动都需要进行信道可用性检查，期间 5G 信号无法连接，此过程需要 $$$$；若路由器检测到雷达正在使用当前信道，它将暂时断开与客户端的连接，并切换到另一个可用信道；此外，扫描周边可用网络时，5GHz Wi-Fi 将暂时关闭。",
+        "enable_dfs": "允许使用 DFS 信道",
+        "dsf_starting": "正在进行信道可用性检查，此过程需要 $$$$，请稍候……",
+        "dsf_conflict": "检测到有雷达正在使用路由器当前使用的信道，5GHz Wi-Fi 将暂时无法连接。",
+        "channel_auto_dfs_tips": "当您的频宽设置为 160 MHz 时，Wi-Fi 必然会使用 DFS 信道，即使您选用非 DFS 信道或者 \"$$$$\" 选项。",
+        "channel_auto_tips": "当您选择 \"$$$$\" 选项，Wi-Fi 不会自动切换到 DFS 信道。"
+    },
+    "menu_wireless": "无线"
+}

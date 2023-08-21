@@ -1,0 +1,15 @@
+{
+    "edgerouter": {
+        "desc": "Cuando la suplantación (spoofing) de puerta de enlace está activo, todo el tráfico de los clientes en la red es primeramente procesado por éste enrutador. Puede utilizar este modo para extender la funcionalidad de su enrutador primario.",
+        "enable_label": "Activar modo de suplantación (spoofing) de puerta de enlace",
+        "dhcp_closed_tips": "El servicio de DHCP en el enrutador principal está deshabilitado, la suplantación (spoofing) de puerta de enlace está trabajando.",
+        "enable_tips": "Cuando la suplantación (spoofing) de puerta de enlace está trabajando, el servicio de DNS de ésta puerta de enlace es utilizado en reemplazo de el DNS de la ruta principal.",
+        "dhcp_on_warning_tips": "Suplantación (spoofing) de puerta de enlace está habilitado.",
+        "dhcp_on_tips": "El servicio de DHCP aún está habilitado en el router principal. Es posible que Drop-in gateway no funcione correctamente. Por favor vaya a $$$$el panel de administración del router principal$$$$ para desactivar el servicio de DHCP, o ajuste su puerta de enlace para que apunte a {ip}.",
+        "dhcp_set_gateway_tips": "El servicio de DHCP en el enrutador principal ha sido ajustado correctamente a {ip}, la suplantación (spoofing) de puerta de enlace está trabajando.",
+        "auto_set_tips": "Se ha detectado que los ajustes DHCP de el enrutador principal han cambiado, y por ello es posible que éste enrutador no pueda manejar la red correctamente. Por favor, $$$$sincronice los ajustes de DHCP$$$$ o modifique sus ajustes manualmente.",
+        "desc_vpn": "Tenga en cuenta que la directiva VPN de este dispositivo no funciona para clientes del puerto WAN en modo drop-in gateway.",
+        "cable_not_connected_tips": "No se detectó ningún cable en el puerto WAN. Por favor inserte un cable ethernet."
+    },
+    "menu_edgerouter": "Suplantación (spoofing) de puerta de enlace"
+}

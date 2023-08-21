@@ -1,0 +1,29 @@
+{
+    "wireless": {
+        "ssid": "Nombre de Wi-Fi (SSID)",
+        "encryption": "Seguridad de Wi-Fi",
+        "key": "Contraseña de Wi-Fi",
+        "ssid_visibility": "Visibilidad SSID",
+        "mode": "Modo de Wi-Fi",
+        "band_width": "Banda ancha",
+        "channel": "Canal",
+        "tx_power": "Potencia TX",
+        "shown": "Mostrar",
+        "hidden": "Esconder",
+        "max": "Max",
+        "high": "Alto",
+        "medium": "Mediano",
+        "low": "Bajo",
+        "guest": "Invitado",
+        "channel_optimization": "Optimización de Canales",
+        "dsf_starting": "Comprobando la disponibilidad del canal, el proceso tardará $$$$, espera un momento por favor...…",
+        "enable": "Activar Wi-Fi",
+        "dsf_conflict": "El Wi-Fi de 5GHz no estará disponible temporalmente porque un radar está utilizando el canal que actualmente está usando el router.",
+        "repeater_using_tips": "La entrada no se puede modificar cuando el repetidor está activado.",
+        "enable_dfs_tips": "Si el enrutador tiene asignado un canal DFS (Selección Dinámica de Frecuencias), el proceso de verificación de que dicho canal esté disponible es necesaria cada vez que se activa el Wi-Fi, tiempo durante el cual la señal de 5GHz no está disponible para conexión. Éste proceso tarda $$$$. Si el enrutador detecta que un radar está utilizando el canal que el enrutador está utilizando en ese momento, se desconectará temporalmente de los clientes y se cambiará a otro canal disponible. Además, el Wi-Fi de 5GHz se apagará temporalmente mientras se buscan canales cercanos que estén disponibles.",
+        "enable_dfs": "Permitir Canal DFS",
+        "channel_auto_tips": "Si selecciona la opción “$$$$”, la red inalámbrica no cambiará automáticamente el canal DFS.",
+        "channel_auto_dfs_tips": "Cuando selecciona el ancho de banda de 160 MHz, la red inalámbrica siempre utilizará el canal DFS, incluso si selecciona un canal que no sea DFS o selecciona la opción “$$$$”."
+    },
+    "menu_wireless": "Inalámbrica"
+}

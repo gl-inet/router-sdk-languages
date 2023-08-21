@@ -1,0 +1,21 @@
+{
+    "tailscale": {
+        "need_mandate_tips": "El enrutador está asignado a la cuenta de Tailscale pero no ha sido autorizado para tener acceso a la red. Por favor vaya a $$$$ Tailscale Admin Console$$$$ para autorizar a que el enrutador se conecte a su red virtual. Si está asignado a una cuenta que no es suya, remueva la asignación primero.",
+        "ready_tips": "El enrutador está conectado a su red virtual Tailscale.",
+        "account_label": "Asignar Cuenta",
+        "logout_btn": "Remover Asignación",
+        "desc": "$$$$Tailscale$$$$ permite que puedas acceder a tus dispositivos desde cualquier parte del mundo de una forma fácil y segura. Utiliza conexiones encriptadas punto-a-punto, lo que significa que solo los dispositivos en tu red privada puedan comunicarse entre sí. Lo puedes utilizar para acceder a tus dispositivos o red local (LAN) de forma remota.",
+        "enable_lan_tips": "El dispositivo ya permite a los clientes de Tailscale acceder a recursos en el LAN o WAN. Pero debe editar la configuración de ruta en $$$$Tailscale Admin Console$$$$ para que las solicitudes de cliente se reenvíen al dispositivo a través de la red virtual Tailscale.",
+        "enable_lan_label": "Permitir el acceso remoto a la red local (LAN)",
+        "current_ip_label": "Dirección IP Virtual del Enrutador",
+        "need_login_tips": "El servicio de Tailscale ha sido activado pero no ha sido asignado aún. Por favor asigne éste enrutador a su cuenta de Tailscale a través de $$$$The Device Bind Link$$$$.",
+        "get_url_err_msg": "No fué posible obtener un link que permita asignar el enrutador.",
+        "manual_node_label": "Nodos de salida personalizados",
+        "exit_node_label": "Nodo de salida",
+        "enable_wan_label": "Permitir acceso remoto de WAN",
+        "allow_wan_tips": "Si esta opción está activada, los recursos en el lado WAN del dispositivo seran permitidos a ser accesados a través de la red virtual Tailscale.",
+        "exit_node_tips": "Si el nodo de exportación que haz seleccionado no está disponible o no puede acceder al Internet, el dispositivo no podrá sincronizar la configuración con Tailscale.",
+        "allow_lan_tips": "Si esta opción está activada, los recursos dentro del dispositivo LAN seran permitidos a ser accesados a través de la red virtual Tailscale.",
+        "custom_exit_node_tips": "Si esta opción está activada, el dispositivo reenviará todas las solicitudes al nodo de salida. Antes de habilitarlo, debe habilitar las rutas de subnet {subnet} de este dispositivo en $$$$Tailscale Admin Console$$$$ para Tailscale reenviar las solicitudes de los clientes; de lo contrario, tus clientes no podrán acceder al Internet."
+    }
+}

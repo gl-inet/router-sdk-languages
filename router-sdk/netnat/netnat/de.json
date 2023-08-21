@@ -1,0 +1,9 @@
+{
+    "menu_netnat": "Netzwerk-Beschleunigung",
+    "netnat": {
+        "desc": "Die Netzwerkbeschleunigung reduziert die CPU-Belastung und beschleunigt die Weiterleitung von Datenpaketen, kann jedoch mit einigen Funktionen in Konflikt geraten.",
+        "tips": "Wenn die Netzwerkbeschleunigung aktiviert ist, funktionieren die folgenden Funktionen nicht richtig: Client-Geschwindigkeits- und Verkehrsstatistik, Client-Geschwindigkeitsbegrenzung.",
+        "hwnat_label": "Hardware-Beschleunigung",
+        "swnat_label": "Software-Beschleunigung"
+    }
+}

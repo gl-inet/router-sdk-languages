@@ -1,0 +1,23 @@
+{
+    "firewall": {
+        "port_forwards": "Port Forward",
+        "open_ports_on_router": "Ports ouverts sur le routeur",
+        "port_forwards_desc": "Le transfert de port permet aux ordinateurs distants de se connecter à un ordinateur ou à un service spécifique derrière le pare-feu du réseau local (tels que des serveurs Web, des serveurs FTP, etc.).",
+        "open_port_on_router_dest": "Les services du routeur, tels que Web, FTP, etc., nécessitent que leurs ports respectifs soient ouverts sur le routeur pour pouvoir être accessibles au public.",
+        "dmz_desc": "La DMZ vous permet d’exposer un ordinateur à Internet, de sorte que tous les paquets entrants soient redirigés vers l’ordinateur que vous avez défini.",
+        "dmz_tips": "Si vous activez la DMZ, vos règles de transfert de port et d'ouverture de port ne prendront effet.",
+        "open_dmz": "DMZ ouverte",
+        "dmz_host_ip": "IP de l'hôte DMZ",
+        "name": "prénom",
+        "protocol": "Protocole",
+        "external_zone": "Zone externe",
+        "external_ports": "Puertos externos",
+        "internal_zone": "Zone interne",
+        "internal_ip": "IP interne",
+        "internal_ports": "Ports Internes",
+        "port": "Port",
+        "action": "action",
+        "no_data": "Aucune donnée dans le tableau",
+        "delete_all_port_tips": "Voulez-vous supprimer toutes les règles de port?"
+    }
+}

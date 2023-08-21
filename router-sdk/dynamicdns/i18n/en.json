@@ -1,0 +1,24 @@
+{
+    "ddns": {
+        "desc": "You can enable Dynamic DNS (DDNS) for this router and access this router remotely. There will be a delay of up to ten minutes in the synchronisation of records between DNS servers. This may result in access via DDNS domains not being available immediately after you have just enabled or if your public IP has recently changed.",
+        "test": "DDNS Test",
+        "enable_http": "Enable HTTP Remote Access",
+        "enable_https": "Enable HTTPS Remote Access",
+        "enable_ssh": "Enable SSH Remote Access",
+        "read_and_agree": "I have read and agree",
+        "terms_service": "Terms of Service",
+        "privacy_policy": "Privacy Policy",
+        "detecting": "Detecting, please wait…",
+        "working": "Your DDNS service is working.",
+        "not_effective": "Your DDNS is not effective yet. Please try later.",
+        "enable_http_tip": "HTTP is a non-encrypted protocol. Please use with caution.",
+        "host_name": "Host Name",
+        "parsing_success_tips": "The DDNS domain has been correctly resolved to the public IP of this device.",
+        "parsing_error_tips": "The DNS record for this DDNS domain could not be found by the DNS server. Please check the Internet connection of the device.",
+        "parsing_warning_tips": "The IP address from DDNS domain resolution is not the same as the WAN IP of the device. You need an Internet Public IP address to use Dynamic DNS. If this router is behind NAT, you may need to set up port forwarding on your ISP router. If you have VPN Client enabled, please disabled \"Services from GL.iNet Use VPN\" in the global options.",
+        "parsing_label": "IP address from DDNS Domain Resolution",
+        "parsing_interface_title": "WAN Interface IP address",
+        "remote_access_tips": "If you want to access the device remotely, please $$$$Go to Security Page$$$$ to set up."
+    },
+    "menu_dynamicdns": "Dynamic DNS"
+}

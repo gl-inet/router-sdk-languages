@@ -1,0 +1,48 @@
+{
+    "core": {
+        "protocol": "Protocole",
+        "ip": "Adresse IP",
+        "ipv6": "Adresse IPv6",
+        "gateway": "passerelle",
+        "dns": "Serveur dns",
+        "netmask": "Masque de réseau",
+        "username": "Nom d'utilisateur",
+        "password": "Mot de passe",
+        "ssid": "SSID",
+        "channel": "Canal",
+        "required": "Champs obligatoires",
+        "optional": "Facultatif",
+        "modify": "Modifier",
+        "cancel": "Annuler",
+        "apply": "Appliquer",
+        "install": "installer",
+        "connect": "Relier",
+        "disconnect": "Déconnecter",
+        "abort": "Avorter",
+        "caution": "Mise en garde",
+        "no": "NON",
+        "yes": "OUI",
+        "close": "Fermer",
+        "add": "Ajouter",
+        "delete": "Effacer",
+        "delete_all": "Supprimer tout",
+        "submit": "Soumettre",
+        "setting": "Réglage",
+        "port": "Port",
+        "confirm": "confirmer",
+        "save_btn": "La conservation",
+        "name": "prénom"
+    },
+    "msg": {
+        "access_denied": "ERREUR: Utilisateur invalide, permission refusée ou aucun enregistrement de connexion trouvé!"
+    },
+    "upload": {
+        "select_or_drag": "Sélectionnez un fichier ou faites-le glisser ici",
+        "file_include": "Le type de fichier inclut",
+        "success": "Succès",
+        "reupload": "Re-télécharger le fichier",
+        "firmware_format_error": "ERREUR: format incorrect du firmware!",
+        "error": "ERREUR: Impossible de télécharger le fichier!",
+        "format_error": "Erreur de format de données"
+    }
+}

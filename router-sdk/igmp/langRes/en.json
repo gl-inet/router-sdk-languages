@@ -1,0 +1,7 @@
+{
+    "igmp": {
+        "desc": "IGMP Snooping listens and extracts information from the IGMP protocol package, establishes and maintains the layer 2 multicast forwarding publication, and then forwards the multicast group data to any host that joins the multicast group, whilst other hosts cannot receive the multicast group data.",
+        "note": "IGMPv3 is compatible with v1 and v2. Use v3 by default, and switch if you experience a problem.",
+        "version": "Version"
+    }
+}

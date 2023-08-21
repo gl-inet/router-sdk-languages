@@ -1,0 +1,17 @@
+{
+    "login": {
+        "login": "Anmeldung",
+        "admin_password": "Admin Passwort",
+        "password_hint": {
+            "placeholder": "Bitte geben Sie das Passwort ein",
+            "null": "WARNUNG: Darf nicht leer bleiben!"
+        },
+        "forgot_password": {
+            "title": "Passwort vergessen",
+            "desc": "Versuchen Sie, die „Reset“-Taste zu drücken und lassen Sie nach 10 Sekunden wieder los. Sie sehen LEDs blinken. Warten Sie, bis der Router neu gestartet wurde, und beginnen Sie dann von vorne.",
+            "online_docs": "Schauen Sie sich bei Fragen auch die Online-Dokumentation an"
+        },
+        "err_msg": "Benutzername oder Passwort falsch!",
+        "retry_after": "Zu viele fehlerhafte Anmeldeversuche, bitte versuche es in $$$$ Sekunden erneut."
+    }
+}

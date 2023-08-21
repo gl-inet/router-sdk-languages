@@ -1,0 +1,17 @@
+{
+    "login": {
+        "login": "登录",
+        "admin_password": "管理员密码",
+        "password_hint": {
+            "placeholder": "请输入密码",
+            "null": "不能为空！"
+        },
+        "forgot_password": {
+            "title": "忘记密码",
+            "desc": "尝试按住＂重置＂按钮 10 秒钟后松开手指，你会看到 LED 灯有规律地闪烁。待路由器重新启动后，可重新开始设置。",
+            "online_docs": "在线文档"
+        },
+        "err_msg": "用户名或密码不正确！",
+        "retry_after": "登录失败的次数过多，请您等待 $$$$ 秒之后重试。"
+    }
+}

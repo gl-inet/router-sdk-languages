@@ -1,0 +1,32 @@
+{
+    "firewall": {
+        "port_forwards": "Redirecciones de puertos",
+        "open_ports_on_router": "Puertos abiertos en el enrutador",
+        "port_forwards_desc": "La redirección de puertos permite que ordenadores remotos se puedan conectar a un ordernador o un servicio específico detrás del firewall en la LAN local (tal como servidores Web, servidores FTP, etc.).",
+        "open_port_on_router_dest": "Los servicios del enrutador tal como Web, FTP, etc., requieren que se abran sus respectivos puertos en el enrutador para ser accesibles públicamente.",
+        "dmz_desc": "DMZ le permite exponer un ordenador al Internet para que todos los paquetes entrantes sean redirigidos dicho ordenador.",
+        "dmz_tips": "Si activa la DMZ, las reglas de redirección de puertos y de puertos abiertos no tendrán efecto.",
+        "open_dmz": "Activar la DMZ",
+        "dmz_host_ip": "Dirección IP del ordenador expuesto a través de la DMZ",
+        "name": "Nombre",
+        "protocol": "Protocolo",
+        "external_zone": "Zona Externa",
+        "external_ports": "Puertos Externos",
+        "internal_zone": "Zona Interna",
+        "internal_ip": "Dirección IP interna",
+        "internal_ports": "Puerto interno",
+        "port": "Puerto",
+        "action": "Acción",
+        "no_data": "No hay datos en la tabla",
+        "delete_all_port_tips": "¿Quiere eliminar todas las reglas de puerto?",
+        "edit_port_forwards_title": "Modificar Regla de Reenvío de Puertos",
+        "add_router_prot_title": "Añadir Un Nuevo Puerto Abierto",
+        "edit_router_prot_title": "Modificar Puerto Abierto",
+        "source": "Origen (zona, puerto)",
+        "dest": "Destino (zona, IP, puerto)",
+        "enable": "Activar",
+        "add_port_forwards_title": "Añadir Nueva Regla de Reenvío de Puertos",
+        "confirm_delete_tips": "¿Está seguro de que querer borrar la entrada?"
+    },
+    "menu_firewallview": "Firewall"
+}

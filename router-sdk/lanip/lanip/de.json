@@ -1,0 +1,42 @@
+{
+    "lan_ip": {
+        "lan": "IP-Adresse des Routers",
+        "guest": "Standard Gateway",
+        "start_ip": "Start-IP-Adresse",
+        "end_ip": "Schluss-IP-Adresse",
+        "change_to": "Die IP-Adresse des Routers wurde erfolgreich geändert zu",
+        "redirect_to": "Sie werden auf die neue IP-Adresse umgeleitet",
+        "lan_or_guest_senior_tip": "Sie können das Subnetz innerhalb des privaten IPv4 Adressbereichs festlegen: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "lan_or_guest_model_setting": "Erweitert",
+        "user_count_max": "Maximale Anzahl an Benutzern",
+        "lan_tab": "Privates Netzwerk",
+        "guest_tab": "Gast Netzwerk",
+        "guest_conflict_tips": "Konflikt mit der Gast IP-Adresse",
+        "lan_conflict_tips": "Konflikt mit der LAN IP-Adresse",
+        "ip_outside_tips": "Die IP-Adresse befindet sich nicht im Sub-Netzwerk",
+        "cannot_contain_ip_tips": "Der Adressbereich darf nicht die Router IP-Adresse beinhalten",
+        "end_smaller_tips": "Die letzte IP-Adresse ist kleiner als die erste IP-Adresse",
+        "ip_easy_tip": "Die IP-Adrese des Routers ist diejenige Adresse, die sie in ihren Browser eintragen, um die Administrationsseite des Routers aufzurufen.",
+        "dhcp_charter_label": "Gültigkeitsdauer",
+        "lpr_serve_label": "LPR-Server",
+        "dhcp_serve_title": "DHCP-Server",
+        "enable_dhcp_tips": "Der DHCP-Server weist den einzelnen Client-Geräten automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen Sie dies für jedes Gerät manuell konfigurieren."
+    },
+    "address_reservation": {
+        "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",
+        "action": "Aktion",
+        "no_data": "Keine Daten in der Tabelle",
+        "confirm_delete": "Sind Sie sicher, dass Sie den Eintrag der reservierten Adresse löschen möchten?",
+        "mac_existed": "MAC vorhanden",
+        "ip_existed": "IP vorhanden",
+        "add_new": "Neuen Reservierungs-Eintrag hinzufügen",
+        "name": "Name",
+        "title": "IP-Adressreservierung",
+        "tips": "Wenn sie eine IP-Adressreservierung für einen Client in ihrem Netzwerk festlegen, erhält der Client stets die selbe IP-Adresse beim Zugriff auf den DHCP-Server des Routers. Sie können IP-Adressreservierungen für Computer oder Server festlegen, welche eine fixe IP-Adresse benötigen.",
+        "set_data": "Adressreservierungs-Eintrag bearbeiten",
+        "confirm_delete_all": "Sind Sie sicher, dass Sie den Adressreservierungs-Eintrag löschen möchten?",
+        "desc_label": "Beschreibung"
+    },
+    "menu_lanip": "LAN",
+    "menu_guestip": "Gast-Netzwerk"
+}

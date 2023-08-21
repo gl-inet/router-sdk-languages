@@ -1,0 +1,17 @@
+{
+    "login": {
+        "login": "登錄",
+        "admin_password": "管理員密碼",
+        "password_hint": {
+            "placeholder": "請輸入密碼",
+            "null": "不能為空！"
+        },
+        "forgot_password": {
+            "title": "忘記密碼",
+            "desc": "嘗試按住「重置」按鈕10秒鐘後鬆開，你會看到LED燈閃爍。待路由器重新啟動後，可重新開始設置。",
+            "online_docs": "線上文檔"
+        },
+        "err_msg": "用戶名或密碼不正確！",
+        "retry_after": "登錄失敗的次數過多，請你等待 $$$$ 秒之後重試。"
+    }
+}

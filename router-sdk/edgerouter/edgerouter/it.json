@@ -1,0 +1,15 @@
+{
+    "edgerouter": {
+        "desc": "Quando la modalità drop-in gateway è abilitata, tutto il traffico dei Client nella rete è processato per primo da questo router. È possibile usare questa modalità per estendere la funzionalità del percorso primario.",
+        "enable_label": "Abilita la modalità Drop-in Gateway",
+        "dhcp_closed_tips": "Il servizio DHCP del router principale è disattivato, il drop-in gateway è in funzione.",
+        "enable_tips": "Quando il drop-in gateway è in abilitato, viene usata l'impostazione DNS di questo router invece di quella del router principale.",
+        "dhcp_on_warning_tips": "Il drop-in gateway è in funzione.",
+        "dhcp_on_tips": "Il servizio DHCP sul router principale è ancora abilitato. Il drop-in gateway potrebbe non funzionare correttamente. Per favore vai al $$$$pannello di amministratore del router principale$$$$ per disabilitare il servizio DHCP o configura il suo gateway in {ip}.",
+        "dhcp_set_gateway_tips": "Il servizio DHCP nel router principale ha correttamente settato il gateway in {ip} ed il drop-in gateway è inn funzione.",
+        "desc_vpn": "Si prega di notare che nella modalità drop-in gateway le politiche VPN di questo dispositivo non funzioneranno per i Client dalla porta WAN.",
+        "auto_set_tips": "Sembra che le impostazione DHCP del router collegato siano state cambiate e il router potrebbe non connettersi correttamente. Per favore $$$$Sync the Settings from DHCP$$$$ o cambia le tue impostazioni.",
+        "cable_not_connected_tips": "Non c'è alcun cavo nella porta WAN. Inserire un cavo Ethernet."
+    },
+    "menu_edgerouter": "Drop-in Gateway"
+}

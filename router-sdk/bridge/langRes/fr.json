@@ -1,0 +1,22 @@
+{
+    "bridge": {
+        "tips_one": "Lorsque vous modifiez le mode de fonctionnement du routeur, vous devrez peut-être reconnecter tous vos périphériques clients.",
+        "tips_two": "Lorsque vous utilisez le mode Point d'accès / Extender / WDS, vous ne pouvez plus vous connecter à cette interface utilisateur. Vous pouvez appuyer sur le bouton de réinitialisation pendant 4 secondes pour revenir au mode routeur.",
+        "mode_switch": "Commutation de mode",
+        "router": "Routeur",
+        "ap": "Point d'accès",
+        "wds": "WDS",
+        "ssid": "Nom Wi-Fi (SSID)",
+        "password": "Mot de passe",
+        "holder_choose": "",
+        "access_router": "Accéder à votre routeur",
+        "access_router_wds_tips": "Une fois le pontage réussi, le routeur obtiendra automatiquement une adresse IP du routeur principal. Si vous devez accéder à l'interface utilisateur de ce routeur, vous devez vous connecter à l'aide de l'adresse IP obtenue du routeur principal. Pour obtenir cette adresse IP, consultez la liste des clients connectés dans l'interface utilisateur de votre routeur principal. Si vous n'avez pas accès à l'interface utilisateur du routeur principal, vous pouvez restaurer le mode de routage en maintenant le bouton de réinitialisation enfoncé pendant 4 secondes.",
+        "access_router_ext_tips": "Une fois le pontage réussi, si vous devez accéder à l'interface utilisateur de ce routeur, vous devez configurer manuellement votre PC / téléphone portable sur une adresse IP statique du même domaine que le routeur. Si vous ne pouvez toujours pas y accéder, vous pouvez restaurer le mode de routage en maintenant enfoncé le bouton de réinitialisation pendant 4 secondes.",
+        "reset_mac_tips": "Veuillez réinitialiser votre MAC à l'usine mac dans le clone MAC.",
+        "set_up_ap_tips": "Pour configurer le mode Point d'accès, vous devez d'abord connecter un câble Ethernet au port WAN.",
+        "remove_wan_tips": "Veuillez retirer le câble Internet du port WAN.",
+        "enter_pwd_tips": "Veuillez entrer le mot de passe",
+        "choose_ssid_tips": "",
+        "relay": "Extenseur"
+    }
+}

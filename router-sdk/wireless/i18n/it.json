@@ -1,0 +1,29 @@
+{
+    "wireless": {
+        "ssid": "Nome del Wi-Fi (SSID)",
+        "encryption": "Sicurezza della rete wireless",
+        "key": "Password del Wi-Fi",
+        "ssid_visibility": "Visibilità SSID",
+        "mode": "Modalità Wi-Fi",
+        "band_width": "Larghezza di banda",
+        "channel": "Canale",
+        "tx_power": "Potenza di trasmissione",
+        "shown": "Visibile",
+        "hidden": "Nascosto",
+        "max": "Max",
+        "high": "Alto",
+        "medium": "Medio",
+        "low": "Basso",
+        "guest": "Ospite",
+        "channel_optimization": "Ottimizzazione del canale",
+        "enable": "Attiva il Wi-Fi",
+        "repeater_using_tips": "La voce non può essere modificata quando il ripetitore è abilitato.",
+        "enable_dfs_tips": "Se al router è assegnato un canale DFS: il controllo della disponibilità del canale è richiesto ogni volta che si attiva il Wi-Fi; Durante questo periodo il segnale a 5GHz non è disponibile per la connessione e questo processo richiede $$$$. Se il router rileva che il radar sta utilizzando lo stesso canale si disconnette temporaneamente dal client e passa a un altro canale disponibile. Inoltre il Wi-Fi a 5GHz viene temporaneamente disattivato durante la scansione delle reti disponibili nelle vicinanze.",
+        "dsf_starting": "Sto verificando la disponibilità del canale. Il processo richiederà $$$$, si prega di attendere...…",
+        "dsf_conflict": "Il Wi-Fi a 5 GHz sarà temporaneamente non disponibile perché un radar sta utilizzando lo stesso canale del router.",
+        "enable_dfs": "Consenti canale DFS",
+        "channel_auto_tips": "Quando si seleziona l'opzione \"$$$$\", il Wi-Fi non passa automaticamente al canale DFS.",
+        "channel_auto_dfs_tips": "Quando la larghezza di banda è impostata su 160 MHz, il Wi-Fi usa sempre il canale DFS, anche se si sceglie un canale non DFS o l'opzione \"$$$$\"."
+    },
+    "menu_wireless": "Wireless"
+}

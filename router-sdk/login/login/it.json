@@ -1,0 +1,17 @@
+{
+    "login": {
+        "login": "Login",
+        "admin_password": "Password di Amministratore",
+        "password_hint": {
+            "placeholder": "Si prega di inserire la password",
+            "null": "ATTENZIONE: Non può essere vuoto!"
+        },
+        "forgot_password": {
+            "title": "Ho dimenticato la Password",
+            "desc": "Prova a tenere premuto il tasto \"riavvio\" per 10 secondi, quindi rilascialo. Vedrai la luce LED lampeggiare. Attendi il riavvio del router e poi configuralo da capo.",
+            "online_docs": "Documentazione online"
+        },
+        "err_msg": "L'username o la password non sono corretti!",
+        "retry_after": "Hai provato ad accedere troppe volte, riprova tra $$$$ secondi."
+    }
+}

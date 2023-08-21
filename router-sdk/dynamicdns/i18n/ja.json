@@ -1,0 +1,23 @@
+{
+    "ddns": {
+        "desc": "ダイナミックDNSを有効にすると、リモートからこのルータにアクセスできるようになります。DNS サーバー間のレコードの同期には、最大 10 分の遅延があります。 これにより、有効にした直後または変更されたパブリック IP が、DDNS ドメイン経由のアクセスが利用できなくなる可能性があります。",
+        "test": "ダイナミックDNSのテスト",
+        "enable_http": "HTTPリモートアクセスを有効にする",
+        "enable_https": "HTTPSリモートアクセスを有効にする",
+        "enable_ssh": "SSHリモートアクセスを有効にする",
+        "read_and_agree": "読んだ上で同意します",
+        "terms_service": "利用規約",
+        "privacy_policy": "プライバシーポリシー",
+        "detecting": "検査中、しばらくお待ちください…",
+        "working": "ダイナミックDNSサービスは作動中です。",
+        "not_effective": "DDNSはまだ有効になっていません。後で試してください。",
+        "enable_http_tip": "HTTPは暗号化されていないプロトコルです。注意の上、ご利用ください。",
+        "host_name": "ホスト名",
+        "parsing_success_tips": "DDNS ドメインは、このデバイスのパブリック IP に正しく解決されました。",
+        "parsing_error_tips": "DNSサーバーでこのDDNSドメインのDNSレコードが見つかりませんでした。端末のインターネット接続を確認してください。",
+        "parsing_label": "DDNSのドメイン解決によるIP",
+        "parsing_interface_title": "インターフェース WAN IP",
+        "parsing_warning_tips": "DDNSドメイン解決によるIPは、デバイスの WAN IP と同じではありません。 ダイナミック DNS を使用するには、インターネットのパブリック IP アドレスが必要です。 このルーターが NAT の後にある場合、ISP ルーターでポート転送を設定する必要があります。 VPN クライアントを有効にしている場合は、グローバル オプションで [GL.iNetのサービスで VPN を使用] を無効にしてください。"
+    },
+    "menu_dynamicdns": "ダイナミックDNS"
+}

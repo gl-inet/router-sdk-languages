@@ -1,0 +1,17 @@
+{
+    "zerotier": {
+        "first_use_tips": "ZeroTier si connette alla tua rete virtuale usando l'ID del network, che devi creare su $$$$ZeroTier$$$$.",
+        "unauthorized_tips": "Il dispositivo è stato aggiunto a ZeroTier. Si prega di andare sulla $$$$Centrale ZeroTier$$$$ per autorizzare il dispositivo a connettersi alla tua rete virtuale.",
+        "desc": "$$$$ZeroTier$$$$ crea una rete virtuali Ethernet peer to peer accessibile ovunque; supporta l'accesso a dispositivi come telefoni, PC ecc. Puoi usarlo per accedere ai tuoi dispositivi o LAN da remoto.",
+        "authorized_tips": "Il dispositivo è connesso alla tua rete virtuale ZeroTier.",
+        "enable_nat_tips": "Il dispositivo sta già permettendo ai clients ZeroTier di accedere alle risorse della WAN o LAN. Devi configurare le regole di routing nella $$$$Centrale ZeroTier$$$$ affinchè le richieste dei clients siano inoltrate attraverso la rete virtuale ZeroTier.",
+        "auto_nat_label": "Abilita Accesso Remoto LAN&WAN",
+        "current_ip_label": "IP Virtuale del Router",
+        "auto_nat_tips": "Se questa opzione è abilitata, le risorse dentro la sottorete LAN e WAN possono essere raggiunte attraverso la rete virtuale ZeroTier.",
+        "not_found_tips": "ZeroTier non ha trovato l'ID del Network, si prega di controllare il valore inserito.",
+        "allow_lan_label": "Abilita Accesso remoto LAN",
+        "allow_wan_tips": "Se questa opzione è abilitata, le risorse all'interno della WAN del dispositivo possono essere raggiunte attraverso la rete virtuale ZeroTier.",
+        "allow_lan_tips": "Se questa opzione è abilitata, le risorse all'interno della LAN del dispositivo possono essere raggiunte attraverso la rete virtuale ZeroTier.",
+        "allow_wan_label": "Abilita Accesso Remoto WAN"
+    }
+}

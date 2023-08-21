@@ -1,0 +1,32 @@
+{
+    "firewall": {
+        "port_forwards": "Port Weiterleitung",
+        "open_ports_on_router": "Öffnen Sie die Ports am Router",
+        "port_forwards_desc": "Die Portweiterleitung ermöglicht entfernten Computern, sich mit einem bestimmten Computer oder Dienst hinter der Firewall im lokalen LAN zu verbinden (z. B. Webserver, FTP-Server usw.).",
+        "open_port_on_router_dest": "Für Dienste des Routers wie Web, FTP, usw. müssen die entsprechenden Ports des Routers geöffnet werden, um öffentlich erreichbar zu sein.",
+        "dmz_desc": "Mittels der DMZ können Sie einen Computer für das Internet freigeben, sodass alle eingehenden Pakete an diesen Computer weitergeleitet werden.",
+        "dmz_tips": "Falls Sie die DMZ aktivieren, werden die Regeln für Portweiterleitungen und Portöffnungen nicht beachtet.",
+        "open_dmz": "DMZ aktivieren",
+        "dmz_host_ip": "DMZ Host IP",
+        "name": "Name",
+        "protocol": "Protokoll",
+        "external_zone": "Externe Zone",
+        "external_ports": "Externe Ports",
+        "internal_zone": "Interne Zone",
+        "internal_ip": "Interne IP",
+        "internal_ports": "Interne Ports",
+        "port": "Port",
+        "action": "Aktion",
+        "no_data": "Keine Daten in der Tabelle",
+        "delete_all_port_tips": "Sind Sie sicher, dass sie alle Einträge löschen möchten?",
+        "edit_port_forwards_title": "Portweiterleitung bearbeiten",
+        "add_port_forwards_title": "Neue Portweiterleitung hinzufügen",
+        "add_router_prot_title": "Neuen Port öffnen",
+        "edit_router_prot_title": "Geöffneten Port bearbeiten",
+        "confirm_delete_tips": "Sind Sie sicher, dass sie diesen Eintrag löschen möchten?",
+        "source": "Quelle: (Zone, Port)",
+        "dest": "Ziel: (Zone, Port)",
+        "enable": "Aktiviere"
+    },
+    "menu_firewallview": "Firewall"
+}

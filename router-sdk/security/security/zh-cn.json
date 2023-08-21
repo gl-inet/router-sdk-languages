@@ -1,0 +1,28 @@
+{
+    "adminpw": {
+        "title": "管理员密码",
+        "old_pwd": "旧密码",
+        "new_pwd": "新密码",
+        "confirm_pwd": "确认新密码",
+        "warning": "不能与旧密码相同",
+        "confirm_pwd_tips": "再次输入新密码",
+        "old_pwd_tips": "输入旧密码",
+        "new_pwd_tips": "输入新密码",
+        "old_pwd_error": "旧密码不正确！"
+    },
+    "security": {
+        "local_access_title": "本地访问控制",
+        "redirect_https_label": "强制使用 HTTPS",
+        "session_timeout_label": "自动注销时间",
+        "apply_success_tips": "应用初稿成功，请等待 Web 服务器重新启动。",
+        "remote_access_title": "远程访问控制",
+        "ipaddr_list_label": "IP 地址列表",
+        "enable_ping_label": "允许从 WAN 侧 Ping",
+        "enable_https_label": "启用 HTTPS 远程访问",
+        "enable_ssh_label": "启用 SSH 远程访问",
+        "enable_ipaddr_label": "允许从特定 IP 进行远程访问",
+        "enable_ipaddr_tips": "添加一个特定的 IP 地址允许从该设备管理路由器。",
+        "no_ipaddr_list_label": "无 IP 地址",
+        "add_ipaddr_btn": "添加一个 IP 地址"
+    }
+}

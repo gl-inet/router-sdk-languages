@@ -1,0 +1,17 @@
+{
+    "zerotier": {
+        "first_use_tips": "ZeroTier 使用您在 $$$$ZeroTier Central$$$$ 上創建的網絡 ID 連接到您的虛擬網絡。",
+        "unauthorized_tips": "該設備已添加到 ZeroTier，請前往 $$$$ZeroTier Central$$$$ 授權設備連接到您的虛擬網絡。",
+        "authorized_tips": "該設備已連接到您的 ZeroTier 虛擬網絡。",
+        "auto_nat_label": "允許遠程訪問LAN&WAN",
+        "auto_nat_tips": "如果啟用此選項，則可以通過 ZeroTier 虛擬網絡訪問 LAN 子網和 WAN 端內部的資源。",
+        "current_ip_label": "路由器虛擬 IP",
+        "allow_lan_label": "允許遠程訪問 LAN",
+        "allow_wan_label": "允許遠程訪問WAN",
+        "allow_lan_tips": "如果啟用此選項，將允許通過 Zerotier 虛擬網絡訪問設備 LAN 內的資源。",
+        "allow_wan_tips": "如果啟用此選項，將允許通過 Zerotier 虛擬網絡訪問設備 WAN 端的資源。",
+        "desc": "$$$$ZeroTier$$$$ 讓您可以在世界任何地方安全、輕鬆地訪問您擁有的設備。 它啟用加密的點對點連接，這意味著只有您的專用網絡上的設備才能相互通信。 您可以使用它來遠程訪問您的設備或 LAN。",
+        "enable_nat_tips": "該設備已經允許 ZeroTier 客戶端訪問 WAN 或 LAN 上的資源。但是需要在$$$$ZeroTier Central$$$$設置路由規則，客戶端請求通過ZeroTier虛擬網絡轉發到設備：",
+        "not_found_tips": "ZeroTier 未找到網絡 ID，請檢查您的輸入。"
+    }
+}

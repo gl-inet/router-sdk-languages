@@ -1,0 +1,13 @@
+{
+    "macclone": {
+        "desc": "公共のホットスポットに接続した際に実際のMACアドレスを知られたくない場合、またはMACアドレスに基づいてインターネットへのアクセスを制限されたくない場合は、ランダムなMACアドレスを使用ください。",
+        "tips": "ホテルやその他の事業所のネットワークは認証が必要な場合は、MAC クローニングを利用する必要があります。",
+        "mode_label": "モード",
+        "factory_default_label": "工場出荷時のデフォルト",
+        "clone_label": "クローン",
+        "current_client_label": "現在のクライアント",
+        "random_btn": "ランダム",
+        "manual_label": "マニュアル"
+    },
+    "menu_macclone": "MACアドレス"
+}

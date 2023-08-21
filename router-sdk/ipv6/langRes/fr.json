@@ -1,0 +1,14 @@
+{
+    "ipv6": {
+        "tips": "La version actuelle du pare-feu, de VPN, de la liste terminale , du service cloud, etc. Ce qui ne prend pas en charge IPv6 actuellement. Par conséquent, La fonction IPv6 peut seulement être utilisée pour la configuration dans cette interface.",
+        "note": "Remarque: Si vous utilisez simultanément les fonctions VPN et IPv6, C‘est possible de causer la divulgation de données IPv6.",
+        "enable": "Activée",
+        "mode": "Mode",
+        "addr": "Adresse IPv6",
+        "dns_acq": "Méthode d'acquisition DNS",
+        "dns_tips": "Un serveur DNS est un ordinateur enregistré pour rejoindre le système de noms de domaine. Le paramètre DNS manuel peut entraîner l'échec de la recherche DNS. S'il vous plaît utiliser avec prudence",
+        "dns_server": "Serveur dns",
+        "invalid_parameter": "ERREUR: Paramètre, valeur ou format invalide!",
+        "dns_server_empty": ""
+    }
+}

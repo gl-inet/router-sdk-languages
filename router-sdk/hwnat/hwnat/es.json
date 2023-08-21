@@ -1,0 +1,7 @@
+{
+    "hwnat": {
+        "desc": "La aceleración por hardware reduce la carga en la CPU y acelera el tráfico de reenvío de paquetes, pero puede entrar en conflicto con algunas características.",
+        "tips": "Cuando la aceleración por hardware está habilitada, las siguientes características no funcionarán adecuadamente: Estadísticas de Velocidad y Tráfico de Clientes, Límite de Velocidad de Clientes."
+    },
+    "menu_hwnat": "Aceleración por Hardware"
+}

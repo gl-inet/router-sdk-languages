@@ -1,0 +1,15 @@
+{
+    "menu_edgerouter": "旁路由",
+    "edgerouter": {
+        "desc": "旁路由生效时，网络中所有来自客户端的流量都先经由此路由器处理。您可以用此模式来扩展您主路由的功能。",
+        "enable_label": "启用旁路由模式",
+        "dhcp_closed_tips": "主路由器的 DHCP 服务已处于关闭状态，旁路由已生效。",
+        "dhcp_on_tips": "主路由器的 DHCP 服务尚处于启用状态，旁路由可能无法生效。请前往$$$$主路由器管理界面$$$$关闭 DHCP 服务或将 DHCP 服务的网关设为 {ip}。",
+        "enable_tips": "旁路由生效时，会使用本路由器的 DNS 替代主路由的 DNS。",
+        "dhcp_on_warning_tips": "旁路由已开启。",
+        "dhcp_set_gateway_tips": "主路由器的 DHCP 服务已正确将网关设为 {ip}，旁路由已生效。",
+        "auto_set_tips": "检测到上级路由器的 DHCP 配置发生变化，路由器可能无法正常联网。请$$$$同步来自 DHCP 的配置$$$$或手动修改您的配置。",
+        "desc_vpn": "请注意，在旁路由模式下，本设备的 VPN 策略不会对来自 WAN 口的客户端生效。",
+        "cable_not_connected_tips": "WAN 口检测不到网线，请插入网线。"
+    }
+}
