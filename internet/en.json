@@ -5,7 +5,7 @@
         "rm_wan_cable": "Please remove the ethernet cable from the WAN port.",
         "wan_been_lan": "WAN port has been used as LAN. You can set it back to WAN below",
         "confirm_to_lan": "Are you sure you want to use the WAN port as LAN?",
-        "confirm_to_wan": "Are you sure you want to change WAN port back to WAN?",
+        "confirm_to_wan": "Are you sure you want to change LAN port back to WAN?",
         "using_as_lan": "Using as LAN, $$$$Change to WAN$$$$",
         "using_as_wan": "Using as WAN, $$$$Change to LAN$$$$",
         "repeated": "Connected successfully without having to reconnect",
@@ -230,7 +230,7 @@
         "refresh": "Refresh",
         "success_copy": "Copy successful",
         "reboot_sucess": "Success, please wait for $$$$ seconds.",
-        "export_debug_info": "Export Debug Info"
+        "export_debug_info": "Export Debug History Info"
     },
     "menu_internet": "Internet"
 }
