@@ -61,7 +61,8 @@
         "fail_key_tips": "Incorrect password.",
         "fail_not_found_tips": "Could not find the network, please check the SSID and security type you entered.",
         "unusable_eap_tips": "This router doesn't support repeat networks that use EAP.",
-        "fail_mac_tips": "The MAC address of the router cannot be the same as any Wi-Fi client, please $$$$modify the MAC of the clone$$$$ or modify the MAC address of that client."
+        "fail_mac_tips": "The MAC address of the router cannot be the same as any Wi-Fi client, please $$$$modify the MAC of the clone$$$$ or modify the MAC address of that client.",
+        "scan_wifi_fail_dfs_tips": "The device is running the DFS channel availability check and cannot scan for nearby Wi-Fi. please wait for the check to finish."
     },
     "modem": {
         "title": "Cellular",
