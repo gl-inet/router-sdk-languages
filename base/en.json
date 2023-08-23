@@ -91,7 +91,8 @@
         "interval_time": "Interval Time",
         "low": "Low",
         "medium": "Medium",
-        "high": "High"
+        "high": "High",
+        "custom": "Custom"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -145,5 +146,8 @@
         "format_error": "Data format error!",
         "too_large_tips": "The uploaded file is too large, please upload a file less than $$$$ bytes.",
         "lass_than_tips": "(Less than $$$$)"
+    },
+    "system": {
+        "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。"
     }
 }
