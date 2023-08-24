@@ -31,8 +31,7 @@
         "force_subnet_label": "強制24サブネット",
         "passthrough_desc": "IP Passthrough が有効になっている場合、ルーターはキャリア IP アドレスを LAN ポートに渡します。",
         "passthrough_close_warning": "このモードに切り替えると、リピーター、ワイヤレス、クライアント、VPN、AdGuard Homeは無効になります。",
-        "passthrough_conflict_warning": "次の設定がある場合、このモードは機能しない可能性があります: テザリングを有効にしている、ドロップイン ゲートウェイ モードを有効にしている、IPv6 を有効にしている、DNS を設定している、マルチWANをロードバランスに設定している、WAN ポートを LAN として設定している、VPN ポリシーを使用している、ファイアウォール設定を追加している、 MAC アドレスを設定しています。",
-        "passthrough_secondwan_warning": ""
+        "passthrough_conflict_warning": "次の設定がある場合、このモードは機能しない可能性があります: テザリングを有効にしている、ドロップイン ゲートウェイ モードを有効にしている、IPv6 を有効にしている、DNS を設定している、マルチWANをロードバランスに設定している、WAN ポートを LAN として設定している、VPN ポリシーを使用している、ファイアウォール設定を追加している、 MAC アドレスを設定しています。"
     },
     "menu_bridge": "ネットワークモード"
 }
