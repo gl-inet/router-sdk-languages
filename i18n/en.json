@@ -22,7 +22,9 @@
         "parsing_ip_warning_tips": "The IP address from DDNS domain resolution is not the same as the WAN IP of the device.",
         "need_pubilc_ip_tips": "You need an Internet Public IP address to use Dynamic DNS.",
         "sevices_warning_tips": "If you have VPN Client enabled, please disabled \"Services from GL.iNet Use VPN\" in the global options.",
-        "nat_warning_tips": "If this router is behind NAT, you may need to set up port forwarding on your ISP router."
+        "nat_warning_tips": "If this router is behind NAT, you may need to set up port forwarding on your ISP router.",
+        "use_desc": "You can enable Dynamic DNS (DDNS) for this router and access this router remotely.",
+        "enabled_tips": "DNS 服務器之間的記錄同步最多會有 10 分鐘的延遲。在剛剛啟用或者更改您的公共 IP 後，可能會導致您無法立即通過 DDNS 域訪問。"
     },
     "menu_dynamicdns": "Dynamic DNS"
 }
