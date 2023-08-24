@@ -1,0 +1,14 @@
+{
+    "macclone": {
+        "desc": "When you connect to a public hotspot, use a random MAC address if you do not want the hotspot to know your real MAC address or to limit your access to the Internet based on it.",
+        "tips": "If your hotel or other business location's network requires authentication, you may need to use the MAC cloning.",
+        "factory_default_label": "Factory Default",
+        "clone_label": "Clone",
+        "manual_label": "Manual",
+        "mode_label": "Mode",
+        "current_client_label": "Current Client",
+        "random_btn": "Random",
+        "no_mac_tips": "Generated when the interface is enabled"
+    },
+    "menu_macclone": "MAC Address"
+}
