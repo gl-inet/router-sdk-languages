@@ -28,11 +28,8 @@
         "failover_desc": "故障轉移：如果當前活動鏈路發生故障，路由器將自動切換到另一個網絡接口。",
         "interface_state_label": "網絡狀態",
         "enable_check_label": "啟用互聯網狀態跟踪",
-        "passive_label": "",
         "active_label": "",
-        "sensitivity_label": "",
         "sensitivity_tips": "",
-        "track_mode_label": "",
         "balancing_warning_tips": ""
     },
     "menu_multiwan": "多線負載"
