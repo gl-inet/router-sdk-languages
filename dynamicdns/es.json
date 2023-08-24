@@ -1,0 +1,27 @@
+{
+    "ddns": {
+        "desc": "Puede activar el DNS Dinámico para éste enrutador y accesarlo de forma remota. Hay un retraso de hasta 10 minutos en la sincronización de registros entre los servidores DNS. Esto puede provocar que el acceso a través de dominios DDNS no esté disponible inmediatamente después de que se haya habilitado o que su IP pública haya cambiado.",
+        "test": "Prueba de DDNS (DNS Dinámico)",
+        "enable_http": "Activar el acceso remoto HTTP",
+        "enable_https": "Activar el acceso remoto HTTPS",
+        "enable_ssh": "Activar el acceso remoto SSH",
+        "read_and_agree": "He leído y estoy de acuerdo",
+        "terms_service": "Términos de servicio",
+        "privacy_policy": "Política de Privacidad",
+        "detecting": "Detectando, espere un momento por favor…",
+        "working": "Su servicio de DNS Dinámico (DDNS) está funcionando.",
+        "not_effective": "Su DNS Dinámico (DDNS) no es efectivo todavía. Por favor, inténtelo más tarde.",
+        "enable_http_tip": "HTTP es un protocolo no encriptado. Por favor, utilícelo con precaución.",
+        "host_name": "Nombre de Host",
+        "parsing_success_tips": "El dominio DDNS (DNS Dinámico) ha sido resuelto correctamente a la dirección pública de éste enrutador.",
+        "parsing_error_tips": "El registro/entrada para éste dominio DDNS (DNS Dinámico) no se pudo encontrar en el servidor DNS. Por favor revise el estado de la conexión al Internet del enrutador.",
+        "parsing_warning_tips": "La dirección IP resuelta a través del dominio DDNS no es la misma que las IP WAN del dispositivo. Usted Necesita una dirección IP pública de Internet para utilizar el DNS dinámico. Si este router está detrás de un NAT, es posible que deba configurar el reenvío de puertos en el router de su proveedor de servicios de Internet (ISP). Si usted tiene VPN Cliente habilitado, por favor desactive \"Servicios de GL.iNet Usan VPN\" en las opciones globales.",
+        "parsing_label": "Dirección IP obtenida a través de la resolución de Dominio Dinámico (DDNS)",
+        "parsing_interface_title": "Dirección IP del interfaz WAN",
+        "parsing_ip_warning_tips": "La dirección IP resuelta a través del dominio DDNS no es la misma que las IP WAN del dispositivo.",
+        "need_pubilc_ip_tips": "Usted Necesita una dirección IP pública de Internet para utilizar el DNS dinámico.",
+        "sevices_warning_tips": "Si usted tiene VPN Cliente habilitado, por favor desactive \"Servicios de GL.iNet Usan VPN\" en las opciones globales.",
+        "nat_warning_tips": "Si este router está detrás de un NAT, es posible que deba configurar el reenvío de puertos en el router de su proveedor de servicios de Internet (ISP)."
+    },
+    "menu_dynamicdns": "DNS Dinámico"
+}
