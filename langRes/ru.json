@@ -8,7 +8,6 @@
         "wds": "WDS",
         "ssid": "Имя сети (SSID)",
         "password": "Пароль",
-        "holder_choose": "",
         "access_router": "Доступ к роутеру",
         "access_router_wds_tips": "После успешного подключения маршрутизатор автоматически получит IP-адрес от основного маршрутизатора. Настройки данного роутера будут доступны по IP-адресу полученный от основного роутера. Чтобы узнать этот IP-адрес, проверьте список подключенных клиентов в интерфейсе главного роутера.",
         "access_router_ext_tips": "После успешной настройки моста, для получения доступа к настройкам данного роутера, вы должны вручную настроить статический IP-адрес на своем ПК / мобильном телефоне. Если у вас не получается подключится к роутеру, Вы всегда можете восстановить заводские настройки удерживая кнопку сброса в течение 4 секунд.",
@@ -16,24 +15,14 @@
         "set_up_ap_tips": "Чтобы настроить режим точки доступа, сначала необходимо подключить интернет кабель к порту WAN.",
         "remove_wan_tips": "Пожалуйста, отключите интернет-кабель от порта WAN.",
         "enter_pwd_tips": "Введите пароль",
-        "choose_ssid_tips": "",
         "relay": "Накопитель",
-        "ap_desc": "",
         "relay_desc": "",
-        "wds_desc": "",
         "passthrough_conflict_2b_warning": "",
-        "router_desc": "",
         "subnet_mode_bable": "",
-        "passthrough_desc": "",
         "force_subnet_label": "",
-        "connet_fail_msg": "",
         "lan_conflict_msg": "",
-        "get_ip_fail_msg": "",
         "passthrough_close_warning": "",
-        "bridge_pattern_desc": "",
         "passthrough_secondwan_warning": "",
-        "passthrough_conflict_warning": "",
         "bridge_pattern_label": ""
-    },
-    "menu_bridge": ""
+    }
 }
