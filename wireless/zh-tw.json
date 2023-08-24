@@ -1,0 +1,29 @@
+{
+    "wireless": {
+        "ssid": "無線網路名稱（SSID）",
+        "encryption": "無線網絡安全",
+        "key": "Wi-Fi 密碼",
+        "ssid_visibility": "SSID可見性",
+        "mode": "無線模式",
+        "band_width": "頻寬",
+        "channel": "信道",
+        "tx_power": "發射功率",
+        "shown": "顯示",
+        "hidden": "隐藏",
+        "max": "最大",
+        "high": "高",
+        "medium": "中",
+        "low": "低",
+        "guest": "訪客",
+        "channel_optimization": "信道優化",
+        "enable": "啟動Wi-Fi",
+        "repeater_using_tips": "啟用中繼模式時無法修改條目",
+        "enable_dfs_tips": "若路由器使用 DFS 信道：每次 Wi-Fi 啟動都需要進行信道可用性檢查，期間 5G 信號無法連接，此過程需要 $$$$；若路由器檢測到雷達正在使用當前信道，它將暫時斷開與客戶端的連接，並切換到另一個可用信道；此外，掃描周邊可用網絡時，5GHz Wi-Fi 將暫時關閉。",
+        "dsf_starting": "正在進行信道可用性檢查，此過程需要 $$$$，請稍候……",
+        "dsf_conflict": "檢測到有雷達正在使用路由器當前使用的信道，5GHz Wi-Fi 將暫時無法連接。",
+        "enable_dfs": "允許使用 DFS 信道",
+        "channel_auto_dfs_tips": "當您的頻寬設置為 160 MHz 時，Wi-Fi 必然會使用 DFS 信道，即使您選用非 DFS 信道或者 \"$$$$\" 選項。",
+        "channel_auto_tips": "當您選擇 \"$$$$\" 選項，Wi-Fi 不會自動切換到 DFS 信道。"
+    },
+    "menu_wireless": "無線"
+}

@@ -1,0 +1,29 @@
+{
+    "wireless": {
+        "ssid": "WLAN-Name (SSID)",
+        "encryption": "WLAN-Sicherheit",
+        "key": "WLAN-Passwort",
+        "ssid_visibility": "SSID-Sichtbarkeit",
+        "mode": "WLAN-Modus",
+        "band_width": "Bandbreite",
+        "channel": "Kanal",
+        "tx_power": "Sendeleistung",
+        "shown": "Angezeigt",
+        "hidden": "Verborgen",
+        "max": "Maximum",
+        "high": "Hoch",
+        "medium": "Mittel",
+        "low": "Niedrig",
+        "guest": "Gast",
+        "channel_optimization": "Kanaloptimierung",
+        "enable": "WLAN einschalten",
+        "repeater_using_tips": "Der Eintrag kann im Repeatermodus nicht modifiziert werden.",
+        "enable_dfs": "DFS-Kanäle erlauben",
+        "channel_auto_dfs_tips": "Wenn Sie die Bandbreite auf 160 MHz setzen wird das WLAN immer DFS-Kanäle benutzen, auch wenn sie einen nicht-DFS-Kanal in der \"$$$$\"-Option auswählen.",
+        "channel_auto_tips": "Wenn Sie die Option \"$$$$\" wählen wird das WLAN nicht automatisch zum DFS-Kanal wechseln.",
+        "dsf_starting": "Teste Kanalverfügbarkeit, der Vorgang wird $$$$ benötigen. Bitte warten Sie…",
+        "dsf_conflict": "5GHz-WLAN wird zeitweilig nicht verfügbar sein, weil der vom Router benutzte Funkkanal von einem Radar belegt ist.",
+        "enable_dfs_tips": "Falls der Router einen DFS Kanal zugeteilt ist: Die Überprüfung der Kanal-Verfügbarkeit ist nach jeder WLAN-Aktivierung erforderlich; währenddessen steht das 5 GHz Signal für Verbindungen nicht zur Verfügung, dieser Vorgang dauert $$$$; falls der Router ein Funksignal (Radar) entdeckt, welches den aktuellen Kanal nutzt, wird die Verbindung zum Gerät vorübergehend unterbrochen und auf einen anderen verfügbaren Kanal umgeschalten. Zudem wird das 5 GHz WLAN während des Prüfens auf nahegelegene Netzwerke vorübergehend ausgeschalten."
+    },
+    "menu_wireless": "WLAN"
+}
