@@ -27,8 +27,7 @@
         "flush_track_tips": "Si esta opción está activada, cuando la interfaz de red cambia, el router refrescará todos los flujos de datos para asegurar que se utiliza la interfaz con máxima prioridad. Esto evita pérdidas de tráfico innecesarias, pero también puede resultar en una inestabilidad de red más alta (algunas VPNs pueden no reconectarse inmediatamente).",
         "flush_track_label": "Forzar el refresco de flujos",
         "enable_check_label": "Activar el seguimiento del estado de conexión al Internet",
-        "interface_state_label": "Estado de la Red",
-        "passive_label": ""
+        "interface_state_label": "Estado de la Red"
     },
     "menu_multiwan": "Multi-WAN"
 }
