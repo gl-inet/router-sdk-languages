@@ -1,0 +1,16 @@
+{
+    "ipv6": {
+        "tips": "Wenn IPv6 aktiviert ist, erhalten WAN-Schnittstellen wie Ethernet ihre IPv6-Adressen über DHCPv6. Sie können die IPv6-Adresse auch manuell auf der Ethernet-Einstellungsseite ändern. Einige Funktionen (Firewall, VPN, Client-Liste, GoodCloud) unterstützen IPv6 bisher noch nicht.",
+        "note": "Hinweis: Wenn Sie die VPN und IPv6 Funktionen gleichzeitig verwenden, kann es wahrscheinlich zu einem IPv6-Datenleck kommen.",
+        "enable": "Aktiviere",
+        "mode": "Modus",
+        "addr": "IPv6-Adresse",
+        "dns_acq": "DNS-Erfassungsmethode",
+        "dns_tips": "DNS wird benutzt, um die IP-Adresse einer Domain aufzulösen. Die manuelle DNS-Einstellung kann zu DNS-Auflösungs-Fehlern führen. Bitte benutzen Sie diese Funktion mit Vorsicht.",
+        "dns_server": "DNS-Server",
+        "invalid_parameter": "Das eingegebene Format ist ungültig!",
+        "dns_server_empty": "Geben Sie mindestens einen DNS-Server ein",
+        "native_tips": "Diese Option ist nur für das private Netzwerk gültig, das Gastnetzwerk wird immer den NAT6 Modus verwenden."
+    },
+    "menu_ipv6": "IPv6"
+}

@@ -1,0 +1,16 @@
+{
+    "ipv6": {
+        "tips": "Quando IPv6 è abilitato, le interfacce WAN come l'Ethernet otterranno i loro indirizzi IPv6 attraverso il DHCPv6. Puoi modificare l'IPv6 manualmente nelle impostazioni Ethernet. Alcune caratteristiche (firewall, VPN, lista dei clients, GoodCloud) non supportano ancora IPv6.",
+        "note": "Nota: se si utilizzano contemporaneamente le funzioni VPN e IPv6, è probabile che queste causino una perdita di dati IPv6.",
+        "enable": "Abilita",
+        "mode": "Modalità",
+        "addr": "Indirizzo IPv6",
+        "dns_acq": "Metodo di acquisizione DNS",
+        "dns_tips": "Il DNS viene utilizzato per trovare l'indirizzo IP corrispondente al nome di dominio. L'impostazione manuale del server DNS può causare un errore di ricerca DNS. Usare l'opzione con cautela.",
+        "dns_server": "DNS server",
+        "invalid_parameter": "Il formato che hai inserito non è corretto!",
+        "dns_server_empty": "Inserisci almeno un server DNS",
+        "native_tips": "Questa opzione è disponibile solo per la rete privata; la rete guest utilizza sempre la modalità NAT6."
+    },
+    "menu_ipv6": "IPv6"
+}
