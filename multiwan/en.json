@@ -34,7 +34,7 @@
         "passive_label": "Passive",
         "active_label": "Active",
         "sensitivity_label": "Sensitivity",
-        "sensitivity_tips": "This sensitivity determines how often the Internet status is detected. We recommend using the low level when the network is unstable, so as to avoid the network constantly switching; we recommend using the high level when video conferencing or live broadcasting, so as to quickly switch when the network is disconnected; please be careful with the adjustment, because switching to the high level will easily cause the network to be disconnected;",
+        "sensitivity_tips": "This sensitivity determines the time interval for a Internet state detection. We recommend using the low level when the Internet is unstable to avoid frequent network switching; We recommend the use of high-grade video or live broadcast, in order to ensure that the Internet can be quickly switched; Switching the high level may causeInternet disconnection. Please adjust it with caution.",
         "track_mode_tips": "检测模式的提示。。。"
     }
 }
