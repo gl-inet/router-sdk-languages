@@ -91,7 +91,8 @@
         "interval_time": "间隔时间",
         "low": "低",
         "high": "高",
-        "custom": "自定义"
+        "custom": "自定义",
+        "medium": "中"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -147,5 +148,8 @@
         "error": "文件上传失败。",
         "too_large_tips": "上传文件过大，请上传 $$$$ 以内的文件。",
         "lass_than_tips": "（小于 $$$$）"
+    },
+    "system": {
+        "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。"
     }
 }
