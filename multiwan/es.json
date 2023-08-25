@@ -1,0 +1,33 @@
+{
+    "multiwan": {
+        "mode_balancing_tips": "El sistema asignará las interfaces a nuevas conexiones según el índice de carga.",
+        "track_enable_tips": "Si el seguimiento (tracking) de la conexión está desactivado, el dispositivo dará por hecho que el interfaz está conectado al Internet si tiene una conexión física activa (el cable está conectado y una dirección IP ha sido adquirida o está preajustada). En dicho caso, la retransmisión será exitosa.",
+        "tips": "El router es capaz de conectar distintas interfaces de red al mismo tiempo. Puede configurar cómo utilizar esta característica.",
+        "balancing_desc": "Balanceo de carga: Utiliza distintas interfaces al mismo tiempo para incrementar el ancho de banda total.",
+        "mode_label": "Modo",
+        "mode_failover_tips": "El router selecciona, automáticamente, la interfaz disponible con la prioridad más alta.",
+        "mode_balancing_note": "Nota: No se garantiza que las conexiones activas o el tráfico se ajusten exactamente el índice de carga establecido.",
+        "failover_label": "Tolerancia a fallos",
+        "balancing_label": "Balanceo de Carga",
+        "track_title": "Método de control de las interfaces",
+        "physical_state_monitor": "Internet siempre disponible cuando el interfaz está conectado",
+        "priority_title": "Prioridad de la interfaz",
+        "ratio_title": "Índice de carga",
+        "track_proto_label": "Protocolo de control",
+        "track_method_label": "Comando de control",
+        "interval_label": "Intervalo de control",
+        "available_condition_label": "Cambio a estado Disponible",
+        "fault_condition_label": "Cambio a estado de Fallo (No disponible)",
+        "success_count": "Éxito $$$$ veces",
+        "fault_count": "Fallo $$$$ veces",
+        "track_addr_label": "IP de control",
+        "both_label": "Ambos",
+        "failover_desc": "Tolerancia frente a fallos: Cuando el enlace utilizado falla, el router automáticamente cambiará a otra interfaz.",
+        "track_desc": "El router controlará el estado de la conexión a la IP de destino para determinar si la interfaz está disponible.",
+        "flush_track_tips": "Si esta opción está activada, cuando la interfaz de red cambia, el router refrescará todos los flujos de datos para asegurar que se utiliza la interfaz con máxima prioridad. Esto evita pérdidas de tráfico innecesarias, pero también puede resultar en una inestabilidad de red más alta (algunas VPNs pueden no reconectarse inmediatamente).",
+        "flush_track_label": "Forzar el refresco de flujos",
+        "enable_check_label": "Activar el seguimiento del estado de conexión al Internet",
+        "interface_state_label": "Estado de la Red"
+    },
+    "menu_multiwan": "Multi-WAN"
+}
