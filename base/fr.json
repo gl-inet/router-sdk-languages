@@ -91,7 +91,8 @@
         "select_btn": "",
         "whitelist": "",
         "drag_sort": "",
-        "toggle_btn": ""
+        "toggle_btn": "",
+        "setting_instructions": ""
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -104,7 +105,8 @@
         "unknown_err": "Une erreur est survenue. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur.",
         "interface_timeout": "Temps d'attente dépassé. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur.",
         "processing": "",
-        "please_note": ""
+        "please_note": "",
+        "port_occupied": ""
     },
     "date": {
         "day": "jour(s)",
@@ -148,5 +150,8 @@
         "format_error": "Format de données incorrect !",
         "too_large_tips": "Le ficher envoyé est trop lourd, veuillez télécharger un fichier dans $$$$.",
         "lass_than_tips": "(Moins de $$$$)"
+    },
+    "system": {
+        "battery_err_tips": ""
     }
 }
