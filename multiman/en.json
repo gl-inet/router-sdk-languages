@@ -34,6 +34,6 @@
         "passive_label": "Passive",
         "active_label": "Active",
         "sensitivity_label": "Sensitivity",
-        "sensitivity_tips": "This sensitivity determines how often Internet status tracking is performed at intervals. The shorter the interval, the more timely the status change."
+        "sensitivity_tips": "This sensitivity determines how often the Internet status is detected. We recommend using the low level when the network is unstable, so as to avoid the network constantly switching; we recommend using the high level when video conferencing or live broadcasting, so as to quickly switch when the network is disconnected; please be careful with the adjustment, because switching to the high level will easily cause the network to be disconnected;"
     }
 }
