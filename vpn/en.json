@@ -67,7 +67,7 @@
         "passed": "Passed",
         "rootcert_tips": "The root certificate file has been parsed:",
         "needauth_tips": "$$$$ valid configuration files have been detected. Please enter the username and password. If these configurations use different passwords, you will need to enter the password individually for each configuration file:",
-        "needinfo_tips": "$$$$ valid configuration files need the passphrase to be provided, Please ensure that these configurations all use the same passphrase:",
+        "needinfo_tips": "$$$$ valid configuration files need the askpass to be provided, Please ensure that these configurations all use the same askpass:",
         "unpassed_tips": "The following $$$$ files are not valid configuration files. These will be discarded when the compressed package is confirmed:",
         "unpass": "Failed",
         "cert_key": "Certificate Key",
@@ -196,7 +196,7 @@
         "has_auth_tips": "Username/password verification is enabled. Client devices will require username/password from the list to connect to the OpenVPN server.",
         "add_new_btn": "Add New",
         "peer_deprecated_tips": "The configuration of the client peer is invalid because of a change in the server configuration. Please create a new peer configuration for your device.",
-        "askpass_label": "Passphrase",
+        "askpass_label": "Askpass",
         "advanced_configuration_tips": "If you are familiar with OpenVPN, you can also modify advanced configuration settings manually.",
         "users_empty_tips": "The user list is empty, you must add at least one user to connect to OpenVPN server.",
         "use_client_tips": "Prefer using $$$$other VPN service providers$$$$ or $$$$customizing your own VPN server$$$$ ? Create a new group to add your configuration files.",
@@ -247,7 +247,7 @@
         "remvove_public_key_label": "Delete public key at the same time",
         "wgclient_clear_account_warning": "Are you sure you want to clear the account, associated public key and configuration file?",
         "ovpnclient_clear_account_warning": "Are you sure you want to clear this account and profile?",
-        "needauth_needinfo_tips": "检测到 $$$$ 个有效的配置文件需要输入用户名密码及密钥："
+        "needauth_needinfo_tips": "$$$$ valid configuration files need the username, password and the askpass to be provided, Please ensure that these configurations all use the same authentication information:"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
