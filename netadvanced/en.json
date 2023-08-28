@@ -1,6 +1,6 @@
 {
     "netadvanced": {
-        "full_cone_nat_tips": "Full Cone NAT",
+        "full_cone_nat_tips": "Full Cone NAT can be used to reduce game latency, but enabling Full Cone NAT may be less secure.",
         "sip_alg_tips": "SIP ALG can be used to mitigate the effects of multiple NATs, but in most cases it will not help. Enabling SIP ALG may affect VoIP calls such as one-way audio (only one party can hear the other), phones not ringing during a call, phones dropping while connected, and calls going directly to voicemail."
     }
 }
