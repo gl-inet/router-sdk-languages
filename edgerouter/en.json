@@ -11,7 +11,7 @@
         "auto_set_tips": "The DHCP settings of the parent router appear to have changed and the router may not be able to connect to the network properly. Please $$$$Sync the Settings from DHCP$$$$ or modify your settings manually.",
         "desc_vpn": "Please note that in Drop-in Gateway mode, the VPN policy of this device will not work for clients from the WAN port.",
         "cable_not_connected_tips": "No cable detected in the WAN port. Please insert an ethernet cable.",
-        "modify_superior_router_label": "所有设备通过旁路由联网",
+        "modify_superior_router_label": "All devices are networked through drop-in gateways",
         "modify_superior_router_desc": "需要去修改主路由配置，必须是有主路由访问权限的用户才能配置"
     }
 }
