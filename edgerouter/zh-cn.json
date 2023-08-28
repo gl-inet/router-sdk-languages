@@ -10,6 +10,7 @@
         "dhcp_set_gateway_tips": "主路由器的 DHCP 服务已正确将网关设为 {ip}，旁路由已生效。",
         "auto_set_tips": "检测到上级路由器的 DHCP 配置发生变化，路由器可能无法正常联网。请$$$$同步来自 DHCP 的配置$$$$或手动修改您的配置。",
         "desc_vpn": "请注意，在旁路由模式下，本设备的 VPN 策略不会对来自 WAN 口的客户端生效。",
-        "cable_not_connected_tips": "WAN 口检测不到网线，请插入网线。"
+        "cable_not_connected_tips": "WAN 口检测不到网线，请插入网线。",
+        "modify_superior_router_label": "所有设备通过旁路由联网"
     }
 }
