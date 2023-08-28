@@ -1,6 +1,6 @@
 {
     "netadvanced": {
         "sip_alg_tips": "SIP ALG可用于缓解多个 NAT，但对绝大多数情况没有帮助。打开SIP ALG 可能会影响 VoIP 呼叫，比如单向音频（只有一个人可以听到另一个）、打电话时电话不响、接通后电话掉线、呼叫直接转到语音信箱。",
-        "full_cone_nat_tips": "完全圆锥型 NAT（Full Cone NAT）"
+        "full_cone_nat_tips": "完全圆锥型 NAT（Full Cone NAT）可用于减少游戏延迟，但启用 Full Cone NAT可能安全性较低。"
     }
 }
