@@ -244,7 +244,8 @@
         "rootcert_missing_tips": "The configuration file you uploaded requires certificate encryption, but there is no corresponding certificate file in the zip archive.",
         "rootcert_duplicate_tips": "Certificate File Detected, Please Rebuild the Group.",
         "azirevpn_account_limit_tips": "An AzireVPN account is only allowed to be used on 10 devices at the same time. You have reached the maximum number of devices in your account, please go to $$$$AzireVPN$$$$ to delete the devices you are not using and try again.",
-        "remvove_public_key_label": "同时删除公开密钥"
+        "remvove_public_key_label": "同时删除公开密钥",
+        "wgclient_clear_account_warning": "您确定要清除该账号及相关公开密钥和配置文件吗？"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
