@@ -49,7 +49,7 @@
         "passed": "校验通过",
         "rootcert_tips": "已解析出根证书文件：",
         "needauth_tips": "检测到 $$$$ 个有效的配置文件需要输入用户名密码，如果这些配置使用不同密码，您需要手动为每个配置文件输入密码：",
-        "needinfo_tips": "检测到 $$$$ 个有效的配置文件需要输入密钥，请确保这些配置使用相同的密钥 ：",
+        "needinfo_tips": "检测到 $$$$ 个有效的配置文件需要输入 askpass，请确保这些配置使用相同的 askpass：",
         "unpassed_tips": "以下 $$$$ 个不是有效的配置文件，确认应用该压缩包时，这些文件将被抛弃 ：",
         "unpass": "不通过",
         "cert_key": "证书文件密钥",
@@ -246,7 +246,8 @@
         "rootcert_missing_tips": "您上传的配置文件中要求使用证书加密，但是压缩包内没有对应的证书文件。",
         "remvove_public_key_label": "同时删除公开密钥",
         "wgclient_clear_account_warning": "您确定要清除该账号及相关公开密钥和配置文件吗？",
-        "ovpnclient_clear_account_warning": "您确定要清除该账号和配置文件吗？"
+        "ovpnclient_clear_account_warning": "您确定要清除该账号和配置文件吗？",
+        "needauth_needinfo_tips": "检测到 $$$$ 有效的配置文件需要提供用户名、密码和 askpass，请确保这些配置都使用相同的验证信息："
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
