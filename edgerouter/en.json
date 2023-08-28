@@ -13,6 +13,7 @@
         "cable_not_connected_tips": "No cable detected in the WAN port. Please insert an ethernet cable.",
         "modify_superior_router_label": "All devices are networked through drop-in gateways",
         "modify_superior_router_desc": "需要去修改主路由配置，必须是有主路由访问权限的用户才能配置",
-        "modify_self_router_label": "Some devices select their own networking gateway"
+        "modify_self_router_label": "Some devices select their own networking gateway",
+        "modify_self_router_desc": "在需要使用旁路由的设备上手动修改网络配置，将网关修改为旁路由的 IP 地址。"
     }
 }
