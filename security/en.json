@@ -13,7 +13,7 @@
     "security": {
         "local_access_title": "Local Access Control",
         "redirect_https_label": "Force HTTPS",
-        "session_timeout_label": "Auto-Logout Time when Browser Closes",
+        "session_timeout_label": "Auto-Logout Time",
         "apply_success_tips": "Applied Successfully; waiting for the web server to restart.",
         "remote_access_title": "Remote Access Control",
         "enable_ping_label": "Allow Ping from WAN",
@@ -26,7 +26,7 @@
         "add_ipaddr_btn": "Add an IP Address",
         "port_disabled_tips": "This port is forbidden by the browser",
         "add_ipaddr_tips": "An example of the IP address style you can enter is (also supports IPv6 format) e.g.192.168.8.1, e.g.192.168.8.1/24.",
-        "session_timeout_tips": "Interval between closing the browser page and logging out"
+        "session_timeout_tips": "Interval between closing or hibernating the browser page and logging out."
     },
     "curity": {
         "port_conflict_tips": "That port is already in use."
