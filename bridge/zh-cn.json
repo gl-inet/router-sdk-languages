@@ -31,7 +31,9 @@
         "passthrough_close_warning": "若您切换到此模式，中继、无线、客户端、VPN、AdGuard Home 功能将被禁用。",
         "passthrough_conflict_warning": "如果您进行了以下配置，此模式可能无法正常工作：启用热点共享、启用旁路由、启用 IPv6、手动设置了 DNS、设置多线负载为负载均衡、将 WAN 口设置为 LAN口、使用 VPN 策略、添加了防火墙配置、设置了 MAC 地址。",
         "passthrough_conflict_2b_warning": "如果您进行了以下配置，此模式可能无法正常工作：启用旁路由、启用 IPv6、手动设置了 DNS、设置多线负载为负载均衡、将 WAN 口设置为 LAN口、使用 VPN 策略、添加了防火墙配置、设置了 MAC 地址。",
-        "passthrough_secondwan_warning": "IP Passthrough 模式需要且只能有一个 WAN 口。请前往$$$$页面修改，取消将 WAN 口作为 LAN 口使用或取消将 LAN 作为 WAN 口使用。"
+        "passthrough_secondwan_warning": "IP Passthrough 模式需要且只能有一个 WAN 口。请前往$$$$页面修改，取消将 WAN 口作为 LAN 口使用或取消将 LAN 作为 WAN 口使用。",
+        "tips_two": "当您使用 $$$$ 模式时，将无法再次连接到此用户界面。您可以按住重置按钮 4 秒钟来恢复路由器模式。",
+        "tips_one": "更改路由器的网络模式时，可能需要重新连接所有客户端设备。"
     },
     "menu_bridge": "网络模式"
 }
