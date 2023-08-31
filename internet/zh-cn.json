@@ -62,7 +62,8 @@
         "fail_key_tips": "密码不正确。",
         "unusable_eap_tips": "此路由器不支持中继使用 EAP 的网络。",
         "fail_mac_tips": "路由器的 MAC 地址不能与 Wi-Fi 客户端相同，请$$$$修改克隆的 MAC$$$$或在该客户端上修改 MAC。",
-        "scan_wifi_fail_dfs_tips": "设备正在进行 DFS 信道可用性检测，无法扫描周边 Wi-Fi。请等待检测结束。"
+        "scan_wifi_fail_dfs_tips": "设备正在进行 DFS 信道可用性检测，无法扫描周边 Wi-Fi。请等待检测结束。",
+        "connet_dfs_tips": "路由器中继DFS信道的WiFi时，如果此WiFi可用，路由器将使用选择的DFS信道，需要注意的是，如果此WIFI不可用，将会切换信道，此时会导致通过WIFI连接的客户端短暂断开，有些设备会无感重连，有些需要手动重连。"
     },
     "modem": {
         "title": "蜂窝网络",
