@@ -11,6 +11,25 @@
         "new_pwd_tips": "新しいパスワードを入力してください"
     },
     "security": {
-        "local_access_title": "ローカルアクセス制御"
+        "local_access_title": "ローカルアクセス制御",
+        "enable_ssh_label": "SSHリモートアクセス",
+        "enable_ipaddr_label": "特定のIPからのリモートアクセスを許可する",
+        "session_timeout_label": "自動ログアウト時間",
+        "enable_ping_label": "WAN側からのPingを許可する",
+        "enable_https_label": "HTTPSリモートアクセス",
+        "add_ipaddr_btn": "IPアドレスを追加する",
+        "port_disabled_tips": "このポートはブラウザにより使用できません",
+        "apply_success_tips": "適用されました；ウェブサーバの再起動を待機中。",
+        "session_timeout_tips": "ブラウザのページを閉じたり休止状態にしてからログアウトするまでの間隔。",
+        "redirect_https_label": "HTTPSを強制する",
+        "enable_ipaddr_tips": "機器によるルータ管理を許可するため、IPアドレスを追加してください。",
+        "ipaddr_list_label": "IPアドレス一覧",
+        "remote_access_title": "リモートアクセス制御",
+        "no_ipaddr_list_label": "IPアドレスがありません",
+        "add_ipaddr_tips": "入力可能なIPアドレス形式の一例（IPv6形式もサポートしています）としては、192.168.8.1や192.168.8.1/24など。"
+    },
+    "menu_security": "セキュリティ",
+    "curity": {
+        "port_conflict_tips": "そのポートは既に使用されています。"
     }
 }
