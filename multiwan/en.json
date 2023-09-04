@@ -35,6 +35,7 @@
         "active_label": "Active",
         "sensitivity_label": "Sensitivity",
         "sensitivity_tips": "This sensitivity determines the time interval for Internet status detection. It is recommended to use low sensitivity when Internet access is unstable to avoid frequent network switching; it is recommended to use high sensitivity when video or live streaming to ensure that you can switch Internet access quickly; switching to high sensitivity may result in network disconnection.Please adjust it with caution.",
-        "track_mode_tips": "Active mode will always use traffic even when the screen is off, and it is recommended to use it when the user requires high sensitivity, such as playing games; passive mode is recommended to use it when the traffic is billed;"
+        "track_mode_tips": "Active mode will always use traffic even when the screen is off, and it is recommended to use it when the user requires high sensitivity, such as playing games; passive mode is recommended to use it when the traffic is billed;",
+        "network_tracking_title": "{interface} Netwrok Tracking"
     }
 }
