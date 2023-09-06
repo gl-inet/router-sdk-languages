@@ -19,15 +19,17 @@ jobs:
         run: |
           chmod u+rwx ./build-langs.sh
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v2
-        with:
-         name: my-artifact
-         path: ./dist.zip
+      - name: Generate release tag
+        id: tag
+        if: true && !failure() && !cancelled()
+        run: |
+        echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")"
+        echo "::set-output name=status::success"
 
-      - name: Download artifact
-        uses: actions/download-artifact@v2
+      - name: Upload  to release
+        uses: softprops/action-gh-release@v1
+        if: steps.tag.outputs.status == 'success' && !cancelled() && !failure()
         with:
-          name: my-artifact
-          path: ./dist.zip
+          tag_name: ${{ steps.tag.outputs.release_tag }}
+          files: ./dist.zip
 
