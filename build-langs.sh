@@ -14,7 +14,7 @@ merge_lang(){
     
     for file in $files; do
       filename=$(basename $file .json)
-
+      echo $filename
       jq -s add $file > $output_folder/release.$filename.json
     done
     echo $(ls $output_folder)
