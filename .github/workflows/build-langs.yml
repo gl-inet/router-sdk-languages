@@ -17,5 +17,5 @@ jobs:
 
       - name: Run build-langs
         run: |
-          ./build-langs.sh
+          chmod u+rwx ./build-langs.sh
 
