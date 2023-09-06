@@ -5,6 +5,8 @@ on:
     branches: [ "release" ]
 
   workflow_dispatch:
+    tags:
+          description: 'Test tags'
 
 jobs:
   build:
