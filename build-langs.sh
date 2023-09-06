@@ -17,7 +17,7 @@ merge_lang(){
 
       jq -s add $file > $output_folder/release.$filename.json
     done
-
+    echo $(ls $output_folder)
     zip -r $output_folder.zip $output_folder
   done
 }
