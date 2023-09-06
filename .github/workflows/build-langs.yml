@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "release" ]
   workflow_dispatch:
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,5 +17,5 @@ jobs:
 
       - name: Run build-langs
         run: |
-        ./build-langs.sh
+        build-langs.sh
 
