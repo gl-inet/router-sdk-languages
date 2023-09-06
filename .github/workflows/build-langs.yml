@@ -23,8 +23,8 @@ jobs:
         id: tag
         if: true && !failure() && !cancelled()
         run: |
-        echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")"
-        echo "::set-output name=status::success"
+          echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")"
+          echo "::set-output name=status::success"
 
       - name: Upload  to release
         uses: softprops/action-gh-release@v1
