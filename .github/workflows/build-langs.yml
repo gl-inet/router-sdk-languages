@@ -3,11 +3,8 @@ name: BuildLangs
 on:
   push:
     branches: [ "release" ]
-
   workflow_dispatch:
-    tags:
-          description: 'Test tags'
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
