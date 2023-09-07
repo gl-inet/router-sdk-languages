@@ -24,7 +24,10 @@
         "sevices_warning_tips": "如果您开启了 VPN Client，请在全局选项中禁用 “GL.iNet 的服务使用 VPN”。",
         "nat_warning_tips": "如果此路由器在防火墙的后面，你需要在你的主路由器上面设置端口转发。",
         "use_desc": "你可以启用动态 DNS，以便于远程访问此设备。",
-        "enabled_tips": "DNS 服务器之间的记录同步会有最多 10 分钟的延迟。这可能导致您刚刚启用或您的公网 IP 变化之后无法马上通过 DDNS 域名访问。"
+        "enabled_tips": "DNS 服务器之间的记录同步会有最多 10 分钟的延迟。这可能导致您刚刚启用或您的公网 IP 变化之后无法马上通过 DDNS 域名访问。",
+        "to_security_btn": "前往设置",
+        "security_settings_tips": "您可以通过“系统-安全”，修改远程访问控制中的选项，用以限制远程访问的访问方式。",
+        "security_settings_btn": "安全设置"
     },
     "menu_dynamicdns": "动态 DNS"
 }
