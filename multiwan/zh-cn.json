@@ -10,7 +10,7 @@
         "mode_balancing_note": "注意：这并不能保证存活的连接或流量按照负载比例来分配。",
         "failover_label": "故障转移",
         "balancing_label": "负载均衡",
-        "track_title": "接口状态监测方式",
+        "track_title": "接口状态跟踪",
         "physical_state_monitor": "接口连接时就认为可连接到互联网",
         "priority_title": "接口优先级",
         "ratio_title": "负载比例",
@@ -27,7 +27,7 @@
         "both_label": "同时",
         "flush_track_label": "强制刷新数据流",
         "flush_track_tips": "若此选项启用，当联网接口发生变化时，路由器将刷新所有已存在的数据流，以确保它们使用优先级更高的接口。这可以避免不必要的流量损失，但也会导致网络波动增大（一些 VPN 可能无法立即重连）。",
-        "enable_check_label": "启用互联网状态监测",
+        "enable_check_label": "启用接口状态跟踪",
         "interface_state_label": "网络状态",
         "balancing_warning_tips": "至少要配置两个负载比例不为零的接口，均衡负载才会正常工作。如果没有负载比例不为零的可联网接口，设备将无法联网。",
         "passive_label": "被动",
@@ -35,6 +35,8 @@
         "sensitivity_label": "灵敏度",
         "track_mode_label": "监测模式",
         "sensitivity_tips": "此灵敏度决定了间隔多久进行一次联网状态检测。网络不稳定时推荐使用低灵敏度，避免网络不停的切换；视频会议或者直播场景推荐使用高灵敏度，断网时可以快速切换；切换高灵敏度容易造成断网,请谨慎调节；",
-        "track_mode_tips": "主动模式在熄屏的时候也会一直使用流量，推荐使用用户对灵敏度要求很高的时候，比如打游戏；被动模式推荐在流量计费的时候使用；"
+        "track_mode_tips": "主动模式在熄屏的时候也会一直使用流量，推荐使用用户对灵敏度要求很高的时候，比如打游戏；被动模式推荐在流量计费的时候使用；",
+        "network_tracking_title": "{interface} 状态跟踪",
+        "sensitivity_options_label": "灵敏度选项"
     }
 }
