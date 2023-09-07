@@ -1,9 +1,12 @@
 name: BuildLangs
 
 on:
-  push:
-    branches: [ "release" ]
   workflow_dispatch:
+    inputs:
+      version:
+        description: '输入版本'
+        default: 'v4.5'
+        required: true
 
 jobs:
   build:
@@ -23,7 +26,7 @@ jobs:
         id: tag
         if: true && !failure() && !cancelled()
         run: |
-          echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")"
+          echo "::set-output name=release_tag::$(${{ inputs.version }})-$(date +"%Y.%m.%d-%H%M")"
           echo "::set-output name=status::success"
 
       - name: Upload  to release
