@@ -21,14 +21,12 @@
         "enable_https_label": "HTTPS 远程访问",
         "enable_ssh_label": "SSH 远程访问",
         "enable_ipaddr_label": "允许从特定 IP 进行远程访问",
-        "enable_ipaddr_tips": "添加一个特定的 IP 地址允许从该设备管理路由器。",
+        "enable_ipaddr_tips": "添加特定的 IP 地址允许从该设备管理路由器。",
         "no_ipaddr_list_label": "无 IP 地址",
         "add_ipaddr_btn": "添加一个 IP 地址",
         "port_disabled_tips": "此端口被浏览器禁止使用",
         "add_ipaddr_tips": "您可以按照下面样式输入 IP 地址（也支持 IPv6 格式）：如 192.168.8.1，如 192.168.8.1/24。",
-        "session_timeout_tips": "浏览器页面关闭或者休眠状态到登出的间隔时间。"
-    },
-    "curity": {
+        "session_timeout_tips": "浏览器页面关闭或者休眠状态到登出的间隔时间。",
         "port_conflict_tips": "不能设置相同的端口。"
     },
     "menu_security": "安全"

@@ -245,9 +245,10 @@
         "rootcert_duplicate_tips": "Certificate File Detected, Please Rebuild the Group.",
         "azirevpn_account_limit_tips": "An AzireVPN account is only allowed to be used on 10 devices at the same time. You have reached the maximum number of devices in your account, please go to $$$$AzireVPN$$$$ to delete the devices you are not using and try again.",
         "remvove_public_key_label": "Delete public key at the same time",
-        "wgclient_clear_account_warning": "Are you sure you want to clear the account, associated public key and configuration file?",
-        "ovpnclient_clear_account_warning": "Are you sure you want to clear this account and profile?",
-        "needauth_needinfo_tips": "$$$$ valid configuration files need the username, password and the askpass to be provided, Please ensure that these configurations all use the same authentication information:"
+        "wgclient_clear_account_warning": "Are you sure you want to delete the accounts, associated public keys and configuration files inside the router?",
+        "ovpnclient_clear_account_warning": "Are you sure you want to delete this account and profile inside the router ?",
+        "needauth_needinfo_tips": "$$$$ valid configuration files need the username, password and the askpass to be provided, Please ensure that these configurations all use the same authentication information:",
+        "del_account_btn": "Delete Account Information"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",

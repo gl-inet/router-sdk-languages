@@ -20,15 +20,13 @@
         "enable_https_label": "HTTPS Remote Access",
         "enable_ssh_label": "SSH Remote Access",
         "enable_ipaddr_label": "Allow Remote Access from Specific IPs",
-        "enable_ipaddr_tips": "Add a specific IP address to allow management of the router from that device.",
+        "enable_ipaddr_tips": "Add multiple specific IP addresses to manage the router from this device.",
         "ipaddr_list_label": "IP Address List",
         "no_ipaddr_list_label": "No IP Address",
         "add_ipaddr_btn": "Add an IP Address",
         "port_disabled_tips": "This port is forbidden by the browser",
         "add_ipaddr_tips": "An example of the IP address style you can enter is (also supports IPv6 format) e.g.192.168.8.1, e.g.192.168.8.1/24.",
-        "session_timeout_tips": "Interval between closing or hibernating the browser page and logging out."
-    },
-    "curity": {
+        "session_timeout_tips": "Interval between closing or hibernating the browser page and logging out.",
         "port_conflict_tips": "That port is already in use."
     },
     "menu_security": "Security"
