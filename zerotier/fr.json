@@ -1,1 +1,17 @@
-{}
+{                                                                                                                                                                          
+    "zerotier": {                                                                                                                                                          
+        "desc": "$$$$ZeroTier$$$$ crée des réseaux Ethernet virtuels pairs à pairs sécurisés qui fonctionnent partout et permettent d'accéder à des appareils tels que des téléphones, des PC, etc. Vous pouvez l'utiliser pour accéder à distance à vos appareils ou à votre réseau local.",
+        "first_use_tips": "ZeroTier se connecte à votre réseau virtuel à l'aide de l'ID réseau, qui doit être créé sur $$$$ZeroTier Central$$$$.",                        
+        "unauthorized_tips": "Le dispositif a été ajouté à ZeroTier, veuillez vous rendre sur $$$$ZeroTier Central$$$$ pour autoriser le dispositif à se connecter à votre réseau virtuel.",   
+        "authorized_tips": "L'appareil est connecté à votre réseau virtuel ZeroTier.", 
+        "enable_nat_tips": "L'appareil permet déjà aux clients ZeroTier d'accéder aux ressources sur le WAN ou le LAN. Mais vous devez configurer des règles de routage dans $$$$ZeroTier Central$$$$ pour que les demandes des clients soient transmises au dispositif via le réseau virtuel ZeroTier :",
+        "auto_nat_label": "Autoriser l'accès à distance LAN&WAN",                                                                                                                   
+        "auto_nat_tips": "Si cette option est activée, les ressources du réseau local (LAN) et du réseau externe (WAN) sont accessibles via le réseau virtuel ZeroTier.", 
+        "current_ip_label": "Routeur des IP virtuelles", 
+        "not_found_tips": "ZeroTier n'a pas trouvé l'ID du réseau, veuillez vérifier votre saisie.",                                                                               
+        "allow_lan_label": "Autoriser l'accès au réseau local (LAN)", 
+        "allow_wan_label": "Autoriser l'accès au réseau externe WAN",
+        "allow_lan_tips": "Si cette option est activée, les ressources à l'intérieur du réseau local de l'appareil seront autorisées à être accédées via le réseau virtuel Zerotier.",
+        "allow_wan_tips": "Si cette option est activée, les ressources du réseau externe WAN de l'appareil seront autorisées à être accédées via le réseau virtuel Zerotier."
+    }                                                                                                                                                                      
+}                     
