@@ -1,19 +1,37 @@
 {
+    "menu_lanip": "Réseaux local",
     "lan_ip": {
-        "lan": "Lan IP",
-        "guest": "Guest IP",
-        "start_ip": "Adresse IP de départ",
-        "end_ip": "Adresse IP de fin",
-        "change_to": "L'adresse IP du routeur a été modifiée avec succès",
-        "redirect_to": "Vous êtes redirigé vers la nouvelle adresse IP"
+        "lan": "Adresse IP du routeur",
+        "guest": "Passerelle par defaut",
+        "start_ip": "Commence par l'adresse IP",
+        "end_ip": "Fini par l'adresse IP",
+        "change_to": "L'adresse IP du routeur a été modifier avec succès en",
+        "redirect_to": "Vous allez être redirigé vers la nouvelle adresse IP",
+        "guest_conflict_tips": "Cette adresse IP est dans la plage réseau invité, vous ne pouvez pas l'utilser pour ça",
+        "lan_conflict_tips": "Cette adresse IP est dans la plage du réseau local(Local), vous ne pouvez pas l'utiliser pour ça",
+        "ip_outside_tips": "L'adresse IP est en dehors du masque de sous-réseau",
+        "cannot_contain_ip_tips": "La plage réseau ne peut pas contenir l'adresse IP du routeur",
+        "end_smaller_tips": "L'adresse de fin est inferieur l'adresse de début",
+        "lan_or_guest_senior_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "lan_or_guest_model_setting": "Configuration avancé",
+        "user_count_max": "Nombre maximum d'utilisateurs",
+        "lan_tab": "Réseau local",
+        "guest_tab": "Réseau invité",
+        "ip_easy_tip": "L'adresse IP du routeur est l'adresse que vous devez saisir dans la barre d'adresse de votre navigateur pour accéder à la page d'administration du routeur."
     },
     "address_reservation": {
-        "note": "Le client configuré doit se reconnecter au routeur pour prendre effet.",
-        "name": "prénom",
-        "action": "action",
-        "no_data": "Aucune donnée dans le tableau",
-        "confirm_delete": "Confirmer la suppression",
-        "mac_existed": "MAC existait",
-        "ip_existed": "IP existait"
+        "title": "Addresse Reservées",
+        "tips": "Lorsque vous spécifiez une adresse IP réservée pour un client au sein du réseau local, le client reçoit toujours la même adresse IP chaque fois qu'il accède au serveur DHCP du routeur.... Vous pouvez attribuer des adresses IP réservées à des ordinateurs ou à des serveurs qui nécessitent des paramètres IP permanents.",
+        "note": "Remarque : les clients configurés doivent se reconnecter au routeur pour être activés.",
+        "name": "Nom",
+        "action": "Action",
+        "no_data": "Pas de données dans le tableau",
+        "add_new": "Ajouter une reservation d'adresse",
+        "set_data": "Modifier la reservation d'adresse",
+        "confirm_delete_all": "Êtes-vous sûr de vouloir supprimer toutes les entrées réservées aux adresses ?",
+        "confirm_delete": "Êtes-vous sûr de vouloir supprimer l'entrée de l'adresse réservée ?",
+        "mac_existed": "MAC existantes",
+        "ip_existed": "IP existantes",
+        "desc_label": "Description"
     }
 }
