@@ -1,11 +1,11 @@
 #!/bin/bash
 
 if ! command -v jq &> /dev/null; then
-  echo "jq 未安装，请先安装 jq"
+  echo "jq is not installed, please install jq first."
   exit 1
 fi
 
-output_folder="./dist"
+output_folder="./gl-router-sdk-languages"
 rm -rf "$output_folder"
 rm -rf "$output_folder.zip"
 mkdir -p "$output_folder"
