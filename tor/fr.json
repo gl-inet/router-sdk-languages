@@ -1,7 +1,11 @@
 {
     "tor": {
-        "desc": "Tor (provenir de \"le routeur d'oignon \") est un logiciel gratuit et open-source permettant la communication anonyme. Il aide les utilisateurs à explorer Internet en toute confidentialité.",
-        "matter_tips": "Cette fonction est en train d'être testé . Elle a peut-être quelques probléms dans certains pays.",
-        "exit_node_tips": "Vous pouvez également choisir le pays dans lequel vous laissez les suiveurs croire où êtes-vous"
+        "desc": "Tor (dérivé de  \"The Onion Router \") est un logiciel libre et gratuit permettant de communiquer de manière anonyme. Il aide les utilisateurs à explorer l'internet en toute confidentialité.",
+        "matter_tips": "Cette fonction est actuellement en version bêta et peut poser des problèmes dans certains pays.",
+        "manual_label": "Noeuds de sortie personnalisés",
+        "exit_node_label": "Noeuds de sortie",
+        "exit_node_tips": "Vous pouvez choisir un lieu personnalisé dans lequel apparaîtront les traqueurs.",
+        "log_title": "Journaux du service Tor",
+        "use_tips": "Lorsque Tor est activé, les fonctions suivantes ne fonctionneront pas correctement : VPN, DNS, IPv6, ADGuard Home."
     }
 }
