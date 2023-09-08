@@ -1,1 +1,15 @@
-{}
+{
+    "menu_edgerouter": "Passerelle au-vol",
+    "edgerouter": {
+        "desc": "Quand votre passerelle au-vol est en fonctionnement, tout le traffic des équipements connectés au réseau sont traité par celui-ci. Pour plus de détails, consulter la page $$$$ Drop-in Gateway Topology $$$$. Vous pouvez utilisez cette fonctionnalité pour étendres les fonctionnalité du routeur principal.",
+        "enable_label": "Activer la passerelle au-vol",
+        "dhcp_closed_tips": "Le service DHCP du routeur principal est désactivé, la passerelle au-vol est en fonctionnement",
+        "dhcp_on_tips": "Le service DHCP est toujours activé sur le routeur principal. La passerelle au-vol peut ne pas fonctionner correctement. Veuillez vous rendre sur $$$$le panneau d'administration du routeur principal$$$$ pour désactiver le service DHCP ou régler sa passerelle sur {IP}.",
+        "enable_tips": "Lorsque la passerelle drop-in fonctionne, le DNS de ce routeur est utilisé à la place du DNS de la route principale.",
+        "dhcp_on_warning_tips": "La passerelle au-vol est activé.",
+        "dhcp_set_gateway_tips": "Le service DHCP du routeur principal a correctement défini la passerelle sur {ip}, la passerelle au-vol fonctionne.",
+        "auto_set_tips": "Les paramètres DHCP du routeur parent ont été détectés comme ayant changé et le routeur peut ne pas être en mesure d'établir un réseau correctement. Veuillez $$$$Synchroniser les paramètres du DHCP$$$$ ou modifier vos paramètres manuellement.",
+        "desc_vpn": "Veuillez noter que la politique VPN de cet appareil ne fonctionne pas pour les équipements connectés au port WAN en mode passerelle d'entrée.",
+        "cable_not_connected_tips": "Aucun cable branché au port WAN. Veuillez connecter un cable ethernet pour connecté le routeur à internet."
+    }
+}              
