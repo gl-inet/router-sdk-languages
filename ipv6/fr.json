@@ -1,13 +1,16 @@
 {
     "ipv6": {
-        "tips": "La version actuelle du pare-feu, de VPN, de la liste terminale , du service cloud, etc. Ce qui ne prend pas en charge IPv6 actuellement. Par conséquent, La fonction IPv6 peut seulement être utilisée pour la configuration dans cette interface.",
-        "note": "Remarque: Si vous utilisez simultanément les fonctions VPN et IPv6, C‘est possible de causer la divulgation de données IPv6.",
-        "enable": "Activée",
+        "tips": "Lorsque l'IPv6 est activé, les interfaces WAN telles que l'Ethernet obtiennent leurs adresses IPv6 via DHCPv6. Vous pouvez également modifier l'adresse IPv6 manuellement dans la page des paramètres Ethernet. Certaines fonctionnalités (pare-feu, VPN, liste de clients, BADCloud) ne supportent pas encore IPv6.",
+        "note": "Remarque : si vous utilisez les fonctions VPN et IPv6 en même temps, vous risquez de provoquer une fuite de données IPv6.",
+        "enable": "Activé",
         "mode": "Mode",
-        "addr": "Adresse IPv6",
-        "dns_acq": "Méthode d'acquisition DNS",
-        "dns_tips": "Un serveur DNS est un ordinateur enregistré pour rejoindre le système de noms de domaine. Le paramètre DNS manuel peut entraîner l'échec de la recherche DNS. S'il vous plaît utiliser avec prudence",
-        "dns_server": "Serveur dns",
-        "invalid_parameter": "ERREUR: Paramètre, valeur ou format invalide!"
-    }
+        "addr": "Adresse IPV6",
+        "dns_acq": "Méthodes d'acquisition des serveurs DNS",
+        "dns_tips": "Le DNS est utilisé pour trouver l'adresse IP correspondant au nom de domaine. Une mauvaise configuration des serveurs DNS peut entraîner un échec de la recherche DNS. Veuillez l'utiliser avec prudence.",
+        "dns_server": "Serveur DNS",
+        "invalid_parameter": "Le format d'adresse que vous avez entré est incorrect!",
+        "dns_server_empty": "Entrer au moins un serveur DNS",
+        "native_tips": "Cette option n'est disponible que pour le réseau privé, le réseau invité utilise toujours le mode NAT6."
+    },
+    "menu_ipv6": "IPv6"
 }
