@@ -1,15 +1,21 @@
 {
     "home": {
-        "reboot": "Redémarrer",
-        "logout": "Connectez - Out",
-        "default": "défaut",
-        "language": "la langue",
+        "reboot": "Redemarrer",
+        "logout": "Quitter",
+        "default": "default",
+        "dark": "Sombre",
+        "language": "langue",
+        "theme": "Thème",
         "footer": {
-            "copyright": "droits d'auteur",
-            "desc": "Tous les droits sont réservés"
+            "copyright": "Copyright",
+            "desc": "Tout droits réservés"
         },
-        "no_internet": "Pas de connexion Internet! Trouvez de nouveaux réseaux pour vous reconnecter.",
-        "reboot_warning": "AVERTISSEMENT: Voulez-vous redémarrer votre routeur?"
+        "no_internet": "Pas de connexion à Internet. Trouvez un réseau pour vous connecter",
+        "reboot_warning": "Etes vous sûr de vouloir redemarrer votre routeur ?",
+        "classic": "Classique"
     },
+    "menu_applications": "Applications",
+    "menu_network": "Réseau",
+    "menu_system": "Système",
     "menu_vpn": "VPN"
 }
