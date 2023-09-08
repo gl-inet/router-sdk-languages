@@ -3,14 +3,15 @@
         "login": "S'identifier",
         "admin_password": "Mot de passe administrateur",
         "password_hint": {
-            "placeholder": "Veuillez entrer le mot de passe",
-            "null": "ATTENTION: Ne peut pas être vide!"
+            "placeholder": "Veuillez entrer votre de passe s'il vous plaît",
+            "null": "ATTENTION: Vous ne pouvez pas laisser ce champs vide!"
         },
         "forgot_password": {
-            "title": "Mot de passe oublié",
-            "desc": "Essayez d'appuyer sur le bouton 'Reset' et maintenez-le enfoncé pendant 10 secondes, puis relâchez votre doigt. Vous verrez les DEL clignoter dans un motif. Attendez que le routeur redémarre, puis recommencez.",
-            "online_docs": "Docs en ligne"
+            "title": "J'ai oublié mon mot de passe",
+            "desc": "Essayez d'appuyer sur le bouton \"Reset\" pendant 10 secondes, puis relâchez-le. Les voyants lumineux clignotent. Attendez que le routeur redémarre, puis recommencez.",
+            "online_docs": "Documentation en ligne"
         },
-        "err_msg": "Erroné: Le nom d'utilisateur ou le mot de passe est incorrect"
+        "err_msg": "Mauvais nom d'utilisateur ou mauvais mot de passe",
+        "retry_after": "Trop de tentative de connexions, réessayez dans $$$$ seconds."
     }
 }
