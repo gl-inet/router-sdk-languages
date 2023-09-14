@@ -249,7 +249,8 @@
         "ovpnclient_clear_account_warning": "Are you sure you want to delete this account and profile inside the router ?",
         "needauth_needinfo_tips": "$$$$ valid configuration files need the username, password and the askpass to be provided, Please ensure that these configurations all use the same authentication information:",
         "del_account_btn": "Delete Account Information",
-        "ovpnclinet_taps2s_disable_tips": "此功能开启后，{feature} 等功能不能使用"
+        "ovpnclinet_taps2s_disable_tips": "此功能开启后，{feature} 等功能不能使用",
+        "ovpnclient_tap_s2s_close_tips": "此功能关闭后, OpenVPN 客户端会恢复成原来的地址"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
