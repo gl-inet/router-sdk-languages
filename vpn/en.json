@@ -251,7 +251,8 @@
         "del_account_btn": "Delete Account Information",
         "ovpnclinet_taps2s_disable_tips": "此功能开启后，{feature} 等功能不能使用",
         "ovpnclient_tap_s2s_close_tips": "此功能关闭后, OpenVPN 客户端会恢复成原来的地址",
-        "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S 只兼容 Global Proxy Mode, 开启 OpenVPN 之后将为您自动调整。"
+        "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S 只兼容 Global Proxy Mode, 开启 OpenVPN 之后将为您自动调整。",
+        "ovpnclient_tap_s2s_ip_tips": "OpenVPN 客户端的 IP 地址会发生变化。"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
