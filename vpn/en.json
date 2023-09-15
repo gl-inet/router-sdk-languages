@@ -249,10 +249,10 @@
         "ovpnclient_clear_account_warning": "Are you sure you want to delete this account and profile inside the router ?",
         "needauth_needinfo_tips": "$$$$ valid configuration files need the username, password and the askpass to be provided, Please ensure that these configurations all use the same authentication information:",
         "del_account_btn": "Delete Account Information",
-        "ovpnclinet_taps2s_disable_tips": "此功能开启后，{feature} 等功能不能使用",
-        "ovpnclient_tap_s2s_close_tips": "此功能关闭后, OpenVPN 客户端会恢复成原来的地址",
-        "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S 只兼容 Global Proxy Mode, 开启 OpenVPN 之后将为您自动调整。",
-        "ovpnclient_tap_s2s_ip_tips": "OpenVPN 客户端的 IP 地址会发生变化。"
+        "ovpnclinet_taps2s_disable_tips": "When this feature is enabled, functions such as {feature} cannot be used.",
+        "ovpnclient_tap_s2s_close_tips": "When this feature is turned off, the OpenVPN client reverts to its original IP address.",
+        "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S only works with Global Proxy Mode, it will adjust automatically with OpenVPN on.",
+        "ovpnclient_tap_s2s_ip_tips": "The IP address of the OpenVPN client may change."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
