@@ -248,7 +248,11 @@
         "wgclient_clear_account_warning": "您确定要清除路由器里面的账号及相关公开密钥和配置文件吗？",
         "ovpnclient_clear_account_warning": "您确定要清除路由器里面的账号和配置文件吗？",
         "needauth_needinfo_tips": "检测到 $$$$ 有效的配置文件需要提供用户名、密码和 askpass，请确保这些配置都使用相同的验证信息：",
-        "del_account_btn": "清除账号"
+        "del_account_btn": "清除账号",
+        "ovpnclinet_taps2s_disable_tips": "此功能开启后，{feature} 等功能不能使用。",
+        "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S 只兼容 Global Proxy Mode, 开启 OpenVPN 之后将为您自动调整。",
+        "ovpnclient_tap_s2s_ip_tips": "OpenVPN 客户端的 IP 地址会发生变化。",
+        "ovpnclient_tap_s2s_close_tips": "此功能关闭后, OpenVPN 客户端会恢复成原来的IP地址。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
