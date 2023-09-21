@@ -31,7 +31,7 @@
         "interface_state_label": "Network Status",
         "balancing_warning_tips": "At least two interfaces with non-zero load ratios must be configured for the balanced load to work properly. If there is no connectable Internet interface with a non-zero load ratio, the device will not be able to connect to the Internet.",
         "track_mode_label": "Enable Data Savings",
-        "passive_label": "Passive",
+        "passive_label": "Data Savings",
         "sensitivity_label": "Sensitivity",
         "sensitivity_tips": "This sensitivity determines the time interval for Internet status detection. It is recommended to use low sensitivity when Internet access is unstable to avoid frequent network switching; it is recommended to use high sensitivity when video or live streaming to ensure that you can switch Internet access quickly; switching to high sensitivity may result in network disconnection.Please adjust it with caution.",
         "track_mode_tips": "Enable the switch to track only when there is an interface network error, and recommend users to use bandwidth charging mode for the interface.",
