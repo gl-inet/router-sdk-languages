@@ -30,7 +30,7 @@
         "enable_check_label": "启用接口状态跟踪",
         "interface_state_label": "网络状态",
         "balancing_warning_tips": "至少要配置两个负载比例不为零的接口，均衡负载才会正常工作。如果没有负载比例不为零的可联网接口，设备将无法联网。",
-        "passive_label": "被动",
+        "passive_label": "自动省流",
         "sensitivity_label": "灵敏度",
         "track_mode_label": "启用自动省流",
         "sensitivity_tips": "此灵敏度决定了间隔多久进行一次联网状态检测。网络不稳定时推荐使用低灵敏度，避免网络不停的切换；视频会议或者直播场景推荐使用高灵敏度，断网时可以快速切换；切换高灵敏度容易造成断网,请谨慎调节；",
