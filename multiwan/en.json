@@ -34,7 +34,7 @@
         "passive_label": "Low Data Mode",
         "sensitivity_label": "Sensitivity",
         "sensitivity_tips": "This sensitivity determines the time interval for Internet status detection. It is recommended to use low sensitivity when Internet access is unstable to avoid frequent network switching; it is recommended to use high sensitivity when video or live streaming to ensure that you can switch Internet access quickly; switching to high sensitivity may result in network disconnection.Please adjust it with caution.",
-        "track_mode_tips": "Enable the switch to track only when there is an interface network error, and recommend users to use Low Data Mode.",
+        "track_mode_tips": "Enable the switch to track only when there is an interface network error, and recommend users to use Low Data Mode when you are on a limited data plan.",
         "network_tracking_title": "{interface} Status Track",
         "sensitivity_options_label": "Sensitivity Options"
     }
