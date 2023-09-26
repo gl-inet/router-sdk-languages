@@ -31,7 +31,7 @@
         "choose_config_file_tips": "You can switch the configuration file whilst the client is running; the process of switching the configuration file will not cause traffic leakage.",
         "route_rule": "$$$$ Route Rule",
         "edit_instance_config": "$$$$ Options",
-        "local_access": "LAN IP Gateway Remote Access",
+        "local_access": "Remote Access LAN IP",
         "masq": "IP Masquerading",
         "mtu_tips": "The MTU you set for the instance will overwrite the MTU item in the configuration file.",
         "default_metric": "Default Metric",
@@ -253,7 +253,7 @@
         "ovpnclient_tap_s2s_close_tips": "When this feature is turned off, the OpenVPN client reverts to its original IP address.",
         "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S only works with Global Proxy Mode, it will adjust automatically with OpenVPN on.",
         "ovpnclient_tap_s2s_ip_tips": "The IP address of the OpenVPN client may change.",
-        "client_each_other_tips": "Client to client 提示"
+        "client_each_other_tips": "This is VPN Client to VPN Client, not Site to Site."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
