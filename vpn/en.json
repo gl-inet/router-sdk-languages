@@ -145,7 +145,7 @@
         "config": "Configuration",
         "guest_use_vpn": "Use VPN in Guest Network",
         "kill_switch": "Block Non-VPN Traffic",
-        "kill_switch_tips": "Enable this option to block all traffic from client devices outside the VPN tunnel, preventing leaks from DNS settings, connection issues, or applications making IP requests. This overrides other VPN policies and rules.",
+        "kill_switch_tips": "Enable this option to block all traffic from client devices outside the VPN tunnel attempting to be sent outside of the VPN tunnel , preventing leaks from DNS settings, connection issues, or applications making IP requests. This overrides other VPN policies and rules.",
         "use_vpn_only": "Allow Access WAN",
         "filter_rule": "Filter Rules",
         "policy_nav_title": "When a client accesses the network with your router$$$$how do you want the router to indicate whether the traffic is using a VPN encrypted tunnel?",
