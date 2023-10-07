@@ -253,7 +253,8 @@
         "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S 只兼容 Global Proxy Mode, 开启 OpenVPN 之后将为您自动调整。",
         "ovpnclient_tap_s2s_ip_tips": "OpenVPN 客户端的 IP 地址会发生变化。",
         "ovpnclient_tap_s2s_close_tips": "此功能关闭后, OpenVPN 客户端会恢复成原来的IP地址。",
-        "client_each_other_tips": "这里是 VPN 客户端 到 VPN 客户端，不是 端到端。"
+        "client_each_other_tips": "这里是 VPN 客户端 到 VPN 客户端，不是 端到端。",
+        "account_service_credentials_title": "服务凭证"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
