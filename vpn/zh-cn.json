@@ -127,7 +127,7 @@
         "config": "配置",
         "guest_use_vpn": "在访客网络中使用 VPN",
         "kill_switch": "阻止非 VPN 流量",
-        "kill_switch_tips": "启用此选项可阻止来自 VPN 隧道外客户端设备的所有流量，防止 DNS 设置、连接问题或应用程序发出 IP 请求造成泄漏。这将优先于其他 VPN 策略和规则。",
+        "kill_switch_tips": "若启用该选项，所有来自客户端设备、尝试发送到 VPN 隧道外的流量都将被拦截，这将有效防止因为 客户端 DNS 设置、VPN 连接断开、客户端应用通过 IP 请求等情况导致的 VPN 泄露。这将优先于其他 VPN 策略和规则。",
         "use_vpn_only": "允许访问 WAN 侧",
         "filter_rule": "过滤规则",
         "policy_nav_title": "当设备通过您的路由器访问网络时$$$$您希望路由器如何区分流量是否使用 VPN 隧道传输？",
