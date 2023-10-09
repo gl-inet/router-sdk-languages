@@ -1,1 +1,20 @@
-{}
+{
+  "adguardhome": {
+    "desc": "AdGuard Home est un logiciel qui bloque les publicités et le pistage sur l'ensemble du réseau. Une fois installé, il couvre TOUS vos appareils domestiques, et vous n'avez besoin d'aucun logiciel client pour cela. Cette page obtient des statistiques grâce à l'API fournie par AdGuard Home. Lorsque AdGuard Home est activé, le routeur forcera l'utilisation des serveurs DNS fournis par AdGuard Home.",
+    "tips": "Si vous avez besoin d'effectuer une configuration avancée pour Adguard Home, veuillez vous rendre à la section $$$$Settings Page$$$$.",
+    "top_queried_domain": "Domaines les plus consultés",
+    "top_blocked_domain": "Domaines les plus bloqués",
+    "dns_querie_title": "Requêtes DNS",
+    "blocked_filtering_title": "Bloqué par les filtres",
+    "replaced_safebrowsing_title": "Bloqué malware/phishing",
+    "replaced_parental_title": "Site pour adultes bloqué",
+    "for_last_one_day": "Pendant les dernières 24 heures",
+    "for_last_days": "Pour les $$$$ derniers jours",
+    "not_disabled_dns_msg": "Aucun autre DNS n'est désactivé",
+    "domain_th": "Domaines",
+    "request_th": "Nombres de requêtes",
+    "no_data": "Pas de données",
+    "process_req_label": "AdGuard Home traite les demandes des clients",
+    "process_req_tips": "Si cette option est activée, les requêtes DNS des appareils connectés au routeur seront traitées directement par AdGuard Home. AdGuard Home affichera les journaux des requêtes DNS de vos équipements. Malheureselent, les politiques VPN basées sur le domaine ne fonctionneront plus."
+  }
+}

@@ -1,12 +1,13 @@
 {
     "process": {
         "installing": "Installation",
+        "upgrading": "Mise à jour à la version plus récente",
         "rebooting": "Redémarrage",
-        "reverting": "Revenant",
-        "upgrade_tips": "Si vous ne pouvez pas entrer la page de la gestion du routeur après la mise à jour de micrologiciel , Veuillez essayer de nettoyer le cache du navigateur",
-        "install_tips": "L'installation du logiciel prend quelques minutes. Veuillez ne pas actualiser la page jusqu'à ce qu'elle soit terminée",
-        "reboot_tips": "Le redémarrage du routeur prend environ une minute. Veuillez ne pas actualiser la page jusqu'à ce qu'elle soit terminée",
-        "revert_tips": "Revert Firmware prend environ une minute. Toutes vos données utilisateur et paramètres seront nettoyés. Veuillez ne pas actualiser la page jusqu'à ce qu'elle soit terminée",
-        "wait_tips": "Si ce processus prend trop de temps, veuillez suivre les guides de dépannage à l’adresse"
+        "reverting": "Retour à la version anterieure",
+        "upgrade_tips": "Si vous ne parvenez pas à accéder au panneau web de votre routeur après la mise à jour du micrologiciel, essayez de vider le cache du navigateur.",
+        "install_tips": "L'installation du logiciel prendra quelques minutes. Veuillez NE PAS rafraîchir la page avant la fin de l'installation.",
+        "reboot_tips": "Le redémarrage du routeur prend environ $$$$. Veuillez NE PAS actualiser la page avant qu'il ne soit terminé.",
+        "revert_tips": "La réinitialisation du micrologiciel prend environ $$$$. Tous vos paramètres, applications et données actuels seront effacés. N'actualisez PAS la page avant la fin de l'opération.",
+        "wait_tips": "Si cette procédure est trop longue, veuillez suivre les guides de dépannage à l'adresse suivante"
     }
 }

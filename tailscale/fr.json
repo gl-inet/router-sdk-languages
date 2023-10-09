@@ -1,1 +1,21 @@
-{}
+{
+    "tailscale": {
+        "desc": "$$$$Tailscale$$$$ rend les appareils que vous possédez accessibles partout dans le monde, en toute sécurité et sans effort. Il permet des connexions point à point chiffrées, ce qui signifie que seuls les appareils de votre réseau privé peuvent communiquer entre eux. Vous pouvez l'utiliser pour accéder à distance à vos appareils ou à votre réseau local.",
+        "need_login_tips": "Le service Tailscale est activé, mais l'appareil n'est pas encore lié. Veuillez lier cet appareil à votre compte Tailscale en utilisant un $$$$lien de liaison d'appareil$$$$.",
+        "need_mandate_tips": "Ce dispositif est lié au compte Tailscale, mais n'a pas encore été autorisé à accéder au réseau. Veuillez vous rendre sur la $$$$ console d'administration Tailscale $$$$ pour autoriser le dispositif à se connecter à votre réseau virtuel. S'il ne s'agit pas de votre compte, veuillez d'abord vous déconnecter.",
+        "enable_lan_tips": "L'appareil permet déjà aux clients Tailscale d'accéder aux ressources sur le LAN ou le WAN. Mais vous devez modifier les paramètres d'itinéraire dans $$$$ Console d'administration Tailscale$$$$ pour que les demandes des clients soient transmises à l'appareil via le réseau virtuel Tailscale.",
+        "ready_tips": "L'appareil est connecté à votre réseau virtuel Tailscale.",
+        "enable_lan_label": "Autoriser l'accès à distance au reseau local(LAN)",
+        "account_label": "Lier le compte",
+        "logout_btn": "Delier ",
+        "current_ip_label": "Routeur des adresse IP virtuelles",
+        "get_url_err_msg": "Échec de l'obtention du lien de liaison de l'appareil.",
+        "enable_wan_label": "Autoriser l'accès à distance au réseau extérieur (WAN)",
+        "allow_lan_tips": "Si cette option est activée, l'accès aux ressources du réseau local de l'appareil sera autorisé via le réseau virtuel Tailscale.",
+        "allow_wan_tips": "Si cette option est activée, l'accès aux ressources du reseau exterieur (WAN) de l'appareil sera autorisé via le réseau virtuel Tailscale.",
+        "exit_node_tips": "Si le nœud d'exportation que vous avez sélectionné n'est pas disponible ou ne peut pas accéder à Internet, l'appareil ne pourra pas synchroniser les paramètres avec Tailscale.",
+        "custom_exit_node_tips": "Si cette option est activée, l'appareil transmettra toutes les demandes au nœud de sortie. Avant d'activer cette option, vous devez activer les routes de sous-réseau {subnet} de ce périphérique dans $$$$Console d'administration Tailscale$$$$ pour que Tailscale transmette les demandes des clients ; sinon, vos clients ne pourront pas accéder à Internet.",
+        "manual_node_label": "Nœuds de sortie personnalisés",
+        "exit_node_label": "Nœuds de sortie"
+    }
+}

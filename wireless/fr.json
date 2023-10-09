@@ -1,20 +1,29 @@
 {
     "wireless": {
-        "ssid": "Nom Wi-Fi (SSID)",
-        "encryption": "Sécurité Wi-Fi",
-        "key": "Clé Wi-Fi",
-        "ssid_visibility": "Visibilité SSID",
+        "ssid": "Nom du WiFi (SSID)",
+        "encryption": "Sécurité WiFi",
+        "key": "Mot de passe WiFi",
+        "ssid_visibility": "Visibilité du SSID",
         "mode": "Mode WiFi",
         "band_width": "Bande passante",
         "channel": "Canal",
-        "tx_power": "Puissance TX (dBm)",
-        "shown": "Affichage",
-        "hidden": "Cacher",
+        "tx_power": "Puissance du signal",
+        "shown": "Montré",
+        "hidden": "Caché",
         "max": "Max",
-        "high": "Haut",
+        "high": "Élevé",
         "medium": "Moyen",
         "low": "Faible",
-        "guest": "Guest",
-        "channel_optimization": "Optimisation des canaux"
-    }
+        "guest": "Invités",
+        "channel_optimization": "Optimisation du canal",
+        "repeater_using_tips": "L'entrée ne peut pas être modifiée lorsque le répéteur est activé.",
+        "enable": "Activer le WiFi",
+        "enable_dfs_tips": "Si le routeur est assigné à un canal DFS : la vérification de la disponibilité du canal est requise à chaque fois que le Wi-Fi est activé, pendant que le signal 5GHz est indisponible pour la connexion, et ce processus prend $$$$ ; si le routeur détecte que le radar utilise le canal actuel, il se déconnectera temporairement du client et passera à un autre canal disponible ; en outre, le Wi-Fi 5GHz sera temporairement désactivé pendant qu'il recherche des réseaux disponibles à proximité.",
+        "enable_dfs": "Autoriser le canal DFS",
+        "dsf_starting": "Vérification de la disponibilité des canaux... le processus prendra $$$$... veuillez patienter......",
+        "dsf_conflict": "Le Wi-Fi 5GHz sera temporairement indisponible parce qu'un radar utilise le canal qui est actuellement utilisé par le routeur.",
+        "channel_auto_dfs_tips": "Lorsque votre bande passante est réglée sur 160 MHz, le Wi-Fi utilise toujours le canal DFS, même si vous choisissez un canal non DFS ou l'option \"$$$$\".",
+        "channel_auto_tips": "Lorsque vous sélectionnez l'option \"$$$$\", le Wi-Fi ne bascule pas automatiquement sur le canal DFS."
+    },
+    "menu_wireless": "Réseau sans-fil"
 }

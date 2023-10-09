@@ -1,1 +1,33 @@
-{}
+{
+    "menu_multiwan": "Multi-WAN",
+    "multiwan": {
+        "tips": "Le routeur permet de connecter plusieurs interfaces réseau en même temps. Vous pouvez définir comment l'utiliser.",
+        "failover_desc": "Basculement : En cas de défaillance d'une connexion utilisé, le routeur bascule automatiquement sur une autre connexion internet.",
+        "balancing_desc": "Répartiteur charge : Utiliser plusieurs interfaces en même temps pour augmenter la bande passante totale du routeur.",
+        "mode_label": "Mode",
+        "mode_failover_tips": "Le routeur sélectionne automatiquement l'interface disponible ayant la priorité la plus élevée.",
+        "mode_balancing_tips": "Le système attribue des interfaces aux nouvelles connexions en fonction du taux de charge.",
+        "mode_balancing_note": "Note : Il n'est pas garanti que les connexions ou le trafic en cours correspondent au taux de charge.",
+        "failover_label": "Bascule",
+        "balancing_label": "Répartiteur de charge",
+        "track_title": "Méthode de suivi de l'état de l'interface.",
+        "physical_state_monitor": "Internet toujours disponible lorsque l'interface est connectée",
+        "priority_title": "Interface prioritaire",
+        "ratio_title": "taux de charge",
+        "track_desc": "Le routeur suit l'état de la connexion à l'IP de destination pour déterminer si l'interface est disponible.",
+        "track_enable_tips": "Si le suivi est désactivé, l'appareil pensera que l'interface est connectée à internet lorsque l'interface est connectée (par exemple, le câble est branché et l'IP est acquise, le répéteur fonctionne).",
+        "track_proto_label": "Protocole surveillé",
+        "track_method_label": "Commande utilisé",
+        "interval_label": "Intervale de suivi",
+        "fault_condition_label": "Passage à l'état de défaillance",
+        "available_condition_label": "Passage à l'état disponible",
+        "success_count": "Succès $$$$ fois",
+        "fault_count": "Echec $$$$ fois",
+        "track_addr_label": "Suivi de l'IP",
+        "both_label": "Les deux",
+        "flush_track_tips": "Si cette option est activée, lorsque l'interface réseau change, le routeur actualise tous les flux de données existants pour s'assurer qu'ils utilisent l'interface la plus prioritaire. Cela permet d'éviter les pertes de trafic inutiles, mais peut également accroître la volatilité du réseau (certains VPN peuvent ne pas se reconnecter immédiatement).",
+        "flush_track_label": "Rafraîchissement forcé",
+        "enable_check_label": "Activer le suivi de la connexion à Internet ",
+        "interface_state_label": "Etat du réseau"
+    }
+}

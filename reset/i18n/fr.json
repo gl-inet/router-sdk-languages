@@ -1,6 +1,9 @@
 {
     "reset": {
-        "tips": "En cas de dysfonctionnement, vous pouvez revenir aux réglages d'usine par défaut. Mais tous vos paramètres, applications et données actuels seront perdus. Le processus prendra environ 3 minutes. NE PAS éteindre le routeur pendant la restauration",
-        "warning": "AVERTISSEMENT: Voulez-vous rétablir le statut d'usine de votre routeur?"
-    }
+        "tips": "En cas de mauvais fonctionnement, vous pouvez réinitialiser votre routeur. Toutes vos configuration, applications et  données seront perdus. Ce processus prendra environs $$$$. N'éteignez pas votre routeur pendant le processus",
+        "warning": "Etes vous sur de vouloir réinitialiser votre routeur avec les paramètres d'usines",
+        "button": "Tout supprimer et redémarrer",
+        "confirm": "Réinitialiser"
+    },
+    "menu_reset": "Reinitialisation"
 }

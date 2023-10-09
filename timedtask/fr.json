@@ -1,1 +1,24 @@
-{}
+{
+    "menu_timedtask": "Taches planifiées",
+    "timedtask": {
+        "desc": "Si l'appareil est arrêté à l'heure fixée, la tâche ne sera pas exécutée.",
+        "on_time_label": "Délai de mise en service",
+        "off_time_label": "Délai de mise hors service",
+        "reboot_title": "Redémarrage planifier",
+        "reboot_time_label": "Heure du redémarrage",
+        "wifi_mode_label": "Plage horraire Wi-Fi",
+        "wifi_turn_onoff_label": "Bouton On/Off",
+        "wifi_power_switch_label": "Bouton piussance de transmission",
+        "enable_wifi_label": "Activer les plages horraires du WiFi principal",
+        "enable_guest_wifi_label": "Activer les plages horraires du WiFi invité",
+        "host_wifi_title": "WiFi Principal",
+        "guest_wifi_title": "WiFi Invités",
+        "switch_label": "Régler sur",
+        "switch_time_label": "Changer",
+        "restore_label": "Régler sur",
+        "restore_time_label": "Restaurer",
+        "enable_scheduled_label": "Activer la planification",
+        "led_title": "Affichage LED de l'horraire",
+        "wifi_title": "Plages horraires du réseau WiFi $$$$"
+    }
+}
