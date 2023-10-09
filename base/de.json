@@ -93,7 +93,8 @@
         "debug": "",
         "send": "",
         "upload": "",
-        "medium": ""
+        "medium": "",
+        "setting_instructions": ""
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -106,7 +107,8 @@
         "success": "Angewendet!",
         "interface_timeout": "Zeitüberschreitung bei der Antwort. Bitte überprüfen Sie die Netzwerkverbindung oder starten das Gerät neu.",
         "processing": "",
-        "please_note": ""
+        "please_note": "",
+        "port_occupied": ""
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
@@ -150,5 +152,8 @@
         "format_error": "Datenformatfehler!",
         "too_large_tips": "Die hochgeladene Datei ist zu groß, bitte laden Sie eine Datei unter $$$$ Byte hoch.",
         "lass_than_tips": "(Weniger als $$$$)"
+    },
+    "system": {
+        "battery_err_tips": ""
     }
 }
