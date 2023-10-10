@@ -20,6 +20,14 @@
         "quantity_write_label": "Quantità di Scrittura",
         "command_label": "Comando",
         "forward_log_title": "Registro Inoltro",
-        "dev_addr_label": "Indirizzo del Dispositivo"
+        "dev_addr_label": "Indirizzo del Dispositivo",
+        "one_way_label": "One-way",
+        "forward_to_network_title": "Inoltra alla Rete",
+        "parse_method_label": "Metodo di Analisi",
+        "parse_method_tips": "Questa opzione determina il modo in cui il dispositivo analizza i byte dalla rete.",
+        "parse_binary_tips": "Il metodo \"Binario\" inoltra direttamente i dati binari grezzi, ad es. la stringa \"5F7D\" proveniente dalla rete verrà inoltrata alla porta seriale con il suo codice ACSII 0x35463744.",
+        "parse_hexstr_tips": "Il metodo \"Hex String\" inoltra i dati come stringa esadecimale, ad es. la stringa \"5F7D\" dalla rete verrà analizzata come 0x5F7D e quindi inoltrata alla porta seriale.",
+        "two_ways_label": "Two-ways",
+        "parse_method_response_tips": "La risposta dalla porta seriale verrà inviata alla rete utilizzando il metodo corrispondente."
     }
 }
