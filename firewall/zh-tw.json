@@ -2,8 +2,8 @@
     "firewall": {
         "port_forwards": "端口轉發",
         "open_ports_on_router": "開放路由器端口",
-        "port_forwards_desc": "Port Forwarding (端口轉發) 可以實現廣域網上的用戶訪問本地電腦提供的伺服器資源（如web伺服器、FTP 伺服器等）。",
-        "open_port_on_router_dest": "打開路由器端口可以實現廣域網上的用戶訪問路由器提供的伺服器資源（如web伺服器、FTP 伺服器等）。",
+        "port_forwards_desc": "如果您的 LAN 子網路中有伺服器並且希望可以從 WAN 端存取它們，則需要設定到這些伺服器的連接埠轉發，並透過 IP 位址和連接埠進行識別。",
+        "open_port_on_router_dest": "出於安全原因，您在裝置上安裝的服務僅對其 LAN 網路開放。如果您希望可以從 WAN 網路存取它們，則需要在 WAN 上為這些服務開啟連接埠。",
         "dmz_desc": "DMZ 可以將局域網中設置為DMZ的設備並完全暴露給廣域網，因此所有入站數據包都將重定向到這台計算機。",
         "dmz_tips": "開啟DMZ，將導致端口轉發和打開路由端口規則失效。",
         "open_dmz": "開啟DMZ",
