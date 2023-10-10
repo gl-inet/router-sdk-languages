@@ -9,7 +9,9 @@
         "dhcp_set_gateway_tips": "Il servizio DHCP nel router principale ha correttamente settato il gateway in {ip} ed il drop-in gateway è inn funzione.",
         "desc_vpn": "Si prega di notare che nella modalità drop-in gateway le politiche VPN di questo dispositivo non funzioneranno per i Client dalla porta WAN.",
         "auto_set_tips": "Sembra che le impostazione DHCP del router collegato siano state cambiate e il router potrebbe non connettersi correttamente. Per favore $$$$Sync the Settings from DHCP$$$$ o cambia le tue impostazioni.",
-        "cable_not_connected_tips": "Non c'è alcun cavo nella porta WAN. Inserire un cavo Ethernet."
+        "cable_not_connected_tips": "Non c'è alcun cavo nella porta WAN. Inserire un cavo Ethernet.",
+        "modify_superior_router_desc": "È necessario andare a modificare la configurazione del percorso primario, che deve essere configurato da un utente che ha accesso al percorso primario.",
+        "modify_self_router_label": "Alcuni dispositivi selezionano il proprio gateway di rete"
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
