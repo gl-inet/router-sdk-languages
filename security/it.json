@@ -23,6 +23,10 @@
         "enable_ssh_label": "L'accesso remoto SSH",
         "enable_ipaddr_label": "Abilita l'Accesso Remoto da specifici indirizzi IP",
         "no_ipaddr_list_label": "Nessun Indirizzo IP",
-        "add_ipaddr_btn": "Aggiungi un Indirizzo IP"
+        "add_ipaddr_btn": "Aggiungi un Indirizzo IP",
+        "port_conflict_tips": "Quella porta è già in uso.",
+        "port_disabled_tips": "Questa porta è vietata dal browser",
+        "session_timeout_tips": "Intervallo tra la chiusura o l'ibernazione della pagina del browser e la disconnessione.",
+        "add_ipaddr_tips": "Un esempio dello stile dell'indirizzo IP che è possibile inserire è (supporta anche il formato IPv6) ad es.192.168.8.1, ad es.192.168.8.1/24."
     }
 }
