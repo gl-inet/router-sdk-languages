@@ -1,1 +1,30 @@
-{}
+{
+    "bluetooth_devices": {
+        "scan_title": "掃描設定",
+        "scan_type": "掃描類型",
+        "active": "現行",
+        "passive": "被動的",
+        "msec": "毫秒",
+        "scan_window_time": "掃描視窗時間",
+        "scan_window_time_tips": "掃描視窗時間不得大於掃描間隔時間",
+        "broadcast_packets_title": "廣播資料包",
+        "device_name": "設備名稱",
+        "rssi": "接收訊號強度指數",
+        "raw_data": "原始數據",
+        "no_data": "沒有數據",
+        "broadcast_data": "廣播數據",
+        "broadcast_packet_type": "資料包類型",
+        "normal_package": "普通的",
+        "scan_response_package": "掃描回應",
+        "structured": "結構化的",
+        "Flags": "旗",
+        "ServiceUUIDs": "服務 UUID",
+        "ServiceClassUUIDs": "服務類 UUID",
+        "ShortenedLocalName": "縮寫的本地名稱",
+        "title": "藍牙裝置",
+        "enable_bluetooth": "啟用藍牙",
+        "scan_interval_time": "掃描間隔時間",
+        "loading": "載入中…",
+        "CompleteLocalName": "完整的本地名稱"
+    }
+}
