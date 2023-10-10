@@ -28,11 +28,11 @@
         "flush_track_label": "Aggiornamento Forzato Streams",
         "enable_check_label": "Abilita il tracciamento dello stato Internet",
         "interface_state_label": "Stato di Rete",
-        "passive_label": "Passiva",
+        "passive_label": "Modalità Dati Bassi",
         "sensitivity_label": "Sensibilità",
         "balancing_warning_tips": "Devono essere configurate almeno due interfacce con un rapporto che non sia zero perchè il bilanciamento funzioni correttamente. Se non c'è un' interfaccia Internet con rapporto zero, il dispositivo non potrà connettersi ad Internet.",
         "track_mode_label": "Modalità di Monitoraggio",
-        "sensitivity_tips": "La Sensività determina quanto grande è l'intervallo per effettuare il monitoraggio dello Stato Internet. Più l'intervallo è breve, più spesso viene cambiato lo stato."
+        "sensitivity_tips": "Questa sensibilità determina l'intervallo di tempo per il rilevamento dello stato di Internet. Si consiglia di utilizzare una sensibilità bassa quando l'accesso a Internet è instabile per evitare frequenti cambi di rete; si consiglia di utilizzare un'elevata sensibilità durante lo streaming video o live per garantire di poter cambiare rapidamente l'accesso a Internet; il passaggio alla sensibilità alta può provocare la disconnessione della rete. Regolarla con cautela."
     },
     "menu_multiwan": "Multi-WAN"
 }
