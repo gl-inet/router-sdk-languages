@@ -88,7 +88,30 @@
         "default_rule_tips": "除非您設置時間表，否則路由器將通過強制執行此規則來限制對配置文件中所有客戶端設備的訪問。",
         "current_rule_label": "當前規則集：",
         "del_all_schedule_btn": "刪除所有計劃",
-        "remove_all_schedule_tips": "您確定要刪除所有計劃嗎？"
+        "remove_all_schedule_tips": "您確定要刪除所有計劃嗎？",
+        "version_conversion_btn": "切換版本",
+        "local_version_title": "本地版本",
+        "local_version_desc": "本機版本由 GL.iNet 提供。目前它處於測試階段，因此無需額外付費。在此版本中，如果需要按應用程式過濾請求，則需要手動輸入網域名稱。",
+        "toggle_version_desc": "您可以根據需要選擇要使用的家長監護功能的版本。兩個版本的家長監護功能不能同時啟用，當您切換版本時，另一個版本將自動停用。",
+        "bark_version_desc": "Bark 版本由 $$$$Bark$$$$ 在自己的平台上提供和管理，提供了單擊即可過濾應用程式和網站並監控請求歷史記錄的選項。請注意，對於此項服務，需直接向 Bark 支付額外的訂閱費用。",
+        "bark_version_title": "樹皮版"
     },
-    "menu_parentalcontrol": "家長控制"
+    "menu_parentalcontrol": "家長控制",
+    "bark": {
+        "unbind_tips": "您確定要重設配對碼以將裝置與另一個帳戶重新配對嗎？請注意，此操作不會從目前配對的帳戶中刪除裝置。",
+        "weight_desc": "Bark 屢獲殊榮的服務可以幫助保護您孩子的數位世界並提供全面的線上保護。",
+        "unbound_tips": "Bark服務已啟用，但該裝置尚未與任何帳戶配對。請使用$$$$設備配對連結$$$$將此設備與您的 Bark 帳戶配對。",
+        "online_tips": "該裝置已連接到 Bark 雲端服務並與帳戶配對。請$$$$前往 Bark$$$$ 並登入配對帳戶以控制存取。",
+        "note_tips": "Bark 的服務在某些國家可能無法使用。由於 GL.iNet 不是此服務的供應商，如果您在使用 Bark 時遇到任何問題，請直接聯絡 $$$$Bark 的技術支援$$$$ 尋求協助。",
+        "desc": "根據您選擇的訂閱（Bark 或 BarkJr），您將能夠：",
+        "enable_ipv6_label": "啟用 IPv6 支援",
+        "force_dns_enable_tips": "Bark 會阻止幾乎所有從用戶端傳送到 Internet 的 DNS 請求。請$$$$前往DNS頁面$$$$停用{label}選項以避免您的用戶端無法存取網路。",
+        "unbind_btn": "維修",
+        "visit_tips": "請造訪 $$$$bark us$$$$ 以了解更多資訊並立即註冊以獲得為期一周的免費試用。",
+        "feature_tips1": "對家中所有連網裝置設定家長監護。",
+        "feature_tips2": "在孩子的所有裝置上設定每日就寢時間和上學時間，以限制網路幹擾",
+        "feature_tips3": "選擇所有裝置上允許/阻止哪些網站和應用程式",
+        "feature_tips4": "監控您孩子的簡訊、電子郵件以及 30 多個社交媒體平台和應用程序，以發現數位危險的跡象",
+        "pairing_code_label": "配對碼"
+    }
 }
