@@ -24,7 +24,10 @@
         "sevices_warning_tips": "如果您啟用了 VPN 客戶端，請在全局選項中禁用“來自 GL.iNet 的服務使用 VPN”。",
         "nat_warning_tips": "如果此路由器在 NAT 之後，您可能需要在您的 ISP 路由器中設置端口轉發。",
         "use_desc": "你可以開啟動態 DNS，以便於遠程訪問此設備。",
-        "enabled_tips": "DNS 服務器之間的記錄同步最多會有 10 分鐘的延遲。在剛剛啟用或者更改您的公共 IP 後，可能會導致您無法立即通過 DDNS 域訪問。"
+        "enabled_tips": "DNS 服務器之間的記錄同步最多會有 10 分鐘的延遲。在剛剛啟用或者更改您的公共 IP 後，可能會導致您無法立即通過 DDNS 域訪問。",
+        "to_security_btn": "前往安全部門",
+        "security_settings_tips": "在「系統-安全性」遠端存取控制中，可以修改兩個選項來限制遠端存取。",
+        "security_settings_btn": "安全設定"
     },
     "menu_dynamicdns": "動態 DNS"
 }
