@@ -1,6 +1,6 @@
 {
     "netadvanced": {
-        "sip_alg_tips": "SIP ALG",
-        "full_cone_nat_tips": "Full Cone NAT"
+        "sip_alg_tips": "SIP ALG 可用於減輕多個 NAT 的影響，但在大多數情況下它沒有幫助。 啟用 SIP ALG 可能會影響 VoIP 呼叫，例如單向音訊（只有一方可以聽到另一方的聲音）、電話在通話期間不響鈴、電話在連接時掉線以及呼叫直接轉到語音信箱。",
+        "full_cone_nat_tips": "Full Cone NAT 可用於減少遊戲延遲，但啟用 Full Cone NAT 可能不太安全。"
     }
 }
