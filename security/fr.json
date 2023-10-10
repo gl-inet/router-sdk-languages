@@ -3,6 +3,27 @@
         "old_pwd": "ancien mot de passe",
         "new_pwd": "nouveau mot de passe",
         "confirm_pwd": "Confirmez le mot de passe",
-        "warning": "ATTENTION: ne peut pas être identique à votre mot de passe OLD!"
+        "warning": "ATTENTION: ne peut pas être identique à votre mot de passe OLD!",
+        "new_pwd_tips": "Entrez votre nouveau mot de passe",
+        "title": "Mot de passe administrateur",
+        "confirm_pwd_tips": "Confirmez votre nouveau mot de passe",
+        "old_pwd_tips": "Entrez votre mot de passe actuel",
+        "old_pwd_error": "Mot de passe actuel incorrect !"
+    },
+    "security": {
+        "apply_success_tips": "Appliqué avec succès; veuillez patienter pendant que le serveur web redémarre.",
+        "enable_ssh_label": "Accès distant par SSH",
+        "enable_ipaddr_label": "Autoriser l'accès distant depuis des adresses IP spécifiques",
+        "session_timeout_label": "Durée pour la deconnexion automatique",
+        "redirect_https_label": "Forcer l'utilisation du protocole https",
+        "enable_https_label": "Accès distant par HTTPS",
+        "add_ipaddr_btn": "Ajouter une adresse IP",
+        "port_disabled_tips": "Ce port est bloqué par votre navigateur",
+        "local_access_title": "Contrôle d'accès local",
+        "ipaddr_list_label": "Liste d'adresses IP",
+        "remote_access_title": "Contrôle d'accès distant",
+        "enable_ping_label": "Autoriser le ping depuis le WAN",
+        "enable_ipaddr_tips": "Ajouter plusieurs adresses IP spécifiques pour gérer le routeur depuis cet appareil.",
+        "no_ipaddr_list_label": "Aucune adresse IP"
     }
 }
