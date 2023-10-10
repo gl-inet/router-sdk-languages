@@ -5,7 +5,7 @@
         "rm_wan_cable": "請移除WAN埠的網路線。",
         "wan_been_lan": "WAN埠已設置為LAN埠模式，你可以將其設回WAN埠模式",
         "confirm_to_lan": "你確認要把WAN埠作為LAN埠使用嗎？",
-        "confirm_to_wan": "你確認要恢復WAN埠功能嗎？",
+        "confirm_to_wan": "您確定要將 LAN 連接埠變更回 WAN 連接埠嗎？",
         "repeated": "已成功連接，不必重新連接",
         "using_as_lan": "正在作為LAN埠使用，$$$$切換至WAN埠$$$$",
         "using_as_wan": "正在作為WAN埠使用，$$$$切換至LAN埠$$$$",
@@ -61,7 +61,9 @@
         "fail_eap_key_tips": "用戶名或密碼錯誤。",
         "fail_key_tips": "密碼錯誤。",
         "unusable_eap_tips": "此路由器不支持使用 EAP 的重複網絡。",
-        "fail_mac_tips": "路由器的MAC不能與任何Wi-Fi客戶端相同，請$$$修改clone的MAC$$$$或修改該客戶端的MAC。"
+        "fail_mac_tips": "路由器的MAC不能與任何Wi-Fi客戶端相同，請$$$修改clone的MAC$$$$或修改該客戶端的MAC。",
+        "scan_wifi_fail_dfs_tips": "設備正在執行 DFS 通道可用性檢查，無法掃描附近的 Wi-Fi。請等待檢查完成。",
+        "connet_dfs_tips": "當路由器重複使用 DFS 通道的 WiFi 時，如果該 WiFi 可用，則路由器將使用所選的 DFS 通道。注意，如果這個WIFI不可用，就會進行通道切換，這會導致透過WIFI連接的用戶端短暫斷開，有的裝置會在沒有感知到的情況下重新連接，而有的則需要手動重新連接。"
     },
     "modem": {
         "title": "行動網絡",
@@ -157,7 +159,10 @@
         "scan_tower_msg": "這可能需要幾分鐘的時間。請耐心等待。",
         "sim_tower_title": "SIM {sim} 基站",
         "locked_tower_tips": "如果被鎖定的 tower 和 cellular 配置中的頻段過濾或 APN 參數不匹配，cellular 接口將無法聯網。",
-        "lte_plus_tips": "有些設備可能會將4G+顯示爲5G"
+        "lte_plus_tips": "有些設備可能會將4G+顯示爲5G",
+        "tower_locked_tips": "塔樓鎖定",
+        "reboot_buildin_modem_btn": "重新啟動內建數據機",
+        "reboot_buildin_modem_warning": "您確定要重新啟動內建數據機嗎？"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
