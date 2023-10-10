@@ -11,7 +11,10 @@
         "auto_set_tips": "Sembra che le impostazione DHCP del router collegato siano state cambiate e il router potrebbe non connettersi correttamente. Per favore $$$$Sync the Settings from DHCP$$$$ o cambia le tue impostazioni.",
         "cable_not_connected_tips": "Non c'è alcun cavo nella porta WAN. Inserire un cavo Ethernet.",
         "modify_superior_router_desc": "È necessario andare a modificare la configurazione del percorso primario, che deve essere configurato da un utente che ha accesso al percorso primario.",
-        "modify_self_router_label": "Alcuni dispositivi selezionano il proprio gateway di rete"
+        "modify_self_router_label": "Alcuni dispositivi selezionano il proprio gateway di rete",
+        "modify_superior_router_label": "Tutti i dispositivi sono collegati in rete tramite gateway drop-in",
+        "modify_self_router_desc": "È necessario modificare manualmente l'indirizzo del gateway con l'indirizzo IP del gateway drop-in su alcuni dei dispositivi che devono utilizzare il gateway drop-in.",
+        "configuration_method_label": "Metodo di configurazione"
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
