@@ -3,13 +3,13 @@
         "desc": "Vous pouvez activer le DNS dynamique pour ce routeur et y accéder à distance. Il y a un délai pouvant aller jusqu'à 10 minutes dans la synchronisation des enregistrements entre les serveurs DNS. Il se peut donc que l'accès au domaine DDNS ne soit pas disponible et avoir pour conséquence que l'accès via le domaines DDNS ne soit pas disponible immédiatement après l'activation du service ou après un changement d'addresse IP publique.",
         "test": "Test DDNS",
         "enable_http": "Activer l'accès à distance par HTTP",
-        "enable_https": "Activer l'accès à distance par HTTPS ",
+        "enable_https": "Activer l'accès à distance par HTTPS",
         "enable_ssh": "Activer l'accès à distance par SSH",
         "read_and_agree": "J'ai lu et j'accepte",
         "terms_service": "Conditions d'utilisation",
         "privacy_policy": "Vie privée",
-        "detecting": "Detection, Veuillez patienter",
-        "working": "Vous DDNS est en service",
+        "detecting": "Détection, veuillez patienter .…",
+        "working": "Votre DDNS est en service .",
         "not_effective": "Votre DDNS ne fonctionne pas. Essayez plus tard.",
         "enable_http_tip": "HTTP n'est pas un protocole sécurisé. Utilisez le avec prudence.",
         "host_name": "Nom d'hôte",
@@ -17,7 +17,12 @@
         "parsing_error_tips": "L'enregistrement pour ce domaine DDNS n'est présent dans les serveurs DNS. Vérifiez que le routeur est bien connecté à Internet.",
         "parsing_warning_tips": "L'adresse IP renvoyé par la résolution de votre DDNS n'est pas la même que l'addresse IP externe de votre routeur. Vous avez besoin d'une adresse IP publique sur votre routeur pour pouvoir utiliser le DNS dynamique. Si votre routeur est derrière un NAT, il se peut que vous deviez configurer une redirection de port dans le routeur de votre fournisseur d'accès. Si le client VPN est activé, veuillez désactiver \"Services from GL.iNet Use VPN\" dans les options globales.",
         "parsing_label": "IP liée au domaine DDNS",
-        "parsing_interface_title": "IP Publique"
+        "parsing_interface_title": "IP Publique",
+        "sevices_warning_tips": "Si vous avez votre client VPN d'activé, veuillez désactiver \"Les services GL.iNet utilise le VPN\" dans les paramètres généraux .",
+        "remote_access_tips": "Si vous voulez accéder à votre appareil à distance, rendez-vous $$$$Go to Security Page$$$$ pour le paramétrer .",
+        "parsing_ip_warning_tips": "L'adresse IP de votre domaine DDNS n'est pas la même que celle de votre adresse WAN .",
+        "need_pubilc_ip_tips": "Vous avez besoin d'une adresse IP publique pour utiliser la fonction de DNS dynamique .",
+        "nat_warning_tips": "Si le routeur est derrière un NAT, vous devez configurer les redirections de port sur le routeur de votre fournisseur d'accès Internet ."
     },
     "menu_dynamicdns": "DNS Dynamique"
 }
