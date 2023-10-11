@@ -15,7 +15,7 @@
         "pppoe_vlanid_tips": "此配置项仅在供应商的 PPPoE 服务器需要接口使用标记特定 VLAN ID 的情况下需要输入。",
         "egderouter_mode_tips": "旁路由已启用。若要修改以太网配置，请先关闭$$$$旁路由$$$$。",
         "change_to_lan_check_tips": "请先拔出插入 WAN 口的网线。$$$$重新检测$$$$",
-        "change_to_wan_tips": "LAN 口用作 WAN 口后，您将无法再通过该网口连接到内网来访问管理员面板。请确保您的客户端可以连接 Wi-Fi或者还有其他lan口。",
+        "change_to_wan_tips": "LAN 口用作 WAN 口后，您将无法再通过该网口连接到内网来访问管理员面板。请确保您的客户端可以连接 Wi-Fi或者还有其他 LAN 口。",
         "change_to_wan_tips2": "您可以按住设备上的重置按扭 4 秒钟来还原 LAN 口（不再作为 WAN 口）。"
     },
     "tethering": {
