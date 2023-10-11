@@ -1,9 +1,9 @@
 {
     "adminpw": {
-        "old_pwd": "ancien mot de passe",
-        "new_pwd": "nouveau mot de passe",
-        "confirm_pwd": "Confirmez le mot de passe",
-        "warning": "ATTENTION: ne peut pas être identique à votre mot de passe OLD!",
+        "old_pwd": "Mot de passe actuel",
+        "new_pwd": "Nouveau mot de passe",
+        "confirm_pwd": "Confirmez votre nouveau mot de passe",
+        "warning": "ATTENTION : votre nouveau mot de passe ne peut pas être identique à votre mot de passe actuel",
         "new_pwd_tips": "Entrez votre nouveau mot de passe",
         "title": "Mot de passe administrateur",
         "confirm_pwd_tips": "Confirmez votre nouveau mot de passe",
@@ -11,11 +11,11 @@
         "old_pwd_error": "Mot de passe actuel incorrect !"
     },
     "security": {
-        "apply_success_tips": "Appliqué avec succès; veuillez patienter pendant que le serveur web redémarre.",
+        "apply_success_tips": "Appliqué avec succès ; veuillez patienter pendant que le serveur web redémarre.",
         "enable_ssh_label": "Accès distant par SSH",
         "enable_ipaddr_label": "Autoriser l'accès distant depuis des adresses IP spécifiques",
         "session_timeout_label": "Durée pour la deconnexion automatique",
-        "redirect_https_label": "Forcer l'utilisation du protocole https",
+        "redirect_https_label": "Forcer l'utilisation du protocole HTTPS",
         "enable_https_label": "Accès distant par HTTPS",
         "add_ipaddr_btn": "Ajouter une adresse IP",
         "port_disabled_tips": "Ce port est bloqué par votre navigateur",
@@ -24,6 +24,10 @@
         "remote_access_title": "Contrôle d'accès distant",
         "enable_ping_label": "Autoriser le ping depuis le WAN",
         "enable_ipaddr_tips": "Ajouter plusieurs adresses IP spécifiques pour gérer le routeur depuis cet appareil.",
-        "no_ipaddr_list_label": "Aucune adresse IP"
-    }
+        "no_ipaddr_list_label": "Aucune adresse IP",
+        "port_conflict_tips": "Ce port est déjà utilisé.",
+        "session_timeout_tips": "Durée après laquelle vous serez déconnecté pour inactivité ou parce que vous avez fermé votre navigateur.",
+        "add_ipaddr_tips": "Exemple d'adresses IP que vous pouvez entrez (Les adresses ipv6 sont aussi acceptées) ex : 192.168.8.1, ex : 192.168.8.1/24."
+    },
+    "menu_security": "Sécurité"
 }
