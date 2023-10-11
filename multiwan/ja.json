@@ -26,8 +26,11 @@
         "success_count": "$$$$回の成功",
         "fault_count": "$$$$回の失敗",
         "both_label": "両方",
-        "enable_check_label": "インターネット状況追跡を有効にする",
-        "interface_state_label": "ネットワーク状況"
+        "enable_check_label": "インターフェース・ステータスの追跡を有効にする",
+        "interface_state_label": "ネットワーク状況",
+        "track_mode_label": "省データモード",
+        "passive_label": "省データモード",
+        "sensitivity_label": "感度"
     },
     "menu_multiwan": "マルチWAN"
 }
