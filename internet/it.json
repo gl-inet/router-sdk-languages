@@ -16,7 +16,7 @@
         "egderouter_mode_tips": "Il drop-in gateway è abilitato. Se vuoi modificare le impostazioni Ethernet, per favore disabilita prima il $$$$Drop-in Gateway$$$$.",
         "change_to_lan_check_tips": "Prima rimuovi il cavo Ethernet collegato alla porta WAN. $$$$ Rileva di nuovo $$$$",
         "change_to_wan_tips2": "Puoi resettare la porta LAN (affinchè non sia pià usata più come porta WAN) tenendo premuto il bottone di reset per quattro secondi.",
-        "change_to_wan_tips": "Una volta che si inizia a usare la porta LAN come WAN, non potrai più accedere al pannello di amministrazione usando la connessione del cavo LAN. Controlla prima che tu sia connesso alla rete Wi-Fi."
+        "change_to_wan_tips": "Una volta utilizzata la porta LAN come porta WAN, non sarà possibile accedere al pannello amministratore tramite questa porta Ethernet collegata alla porta LAN. Assicurati che il tuo client possa connettersi al Wi-Fi o ad un'altra porta LAN."
     },
     "tethering": {
         "title": "Tethering",
@@ -62,7 +62,8 @@
         "unusable_eap_tips": "Questo router non supporta reti ripetute che utilizzano EAP.",
         "fail_mac_tips": "L'indirizzo MAC del router non può essere lo stesso di nessun Client Wi-Fi, $$$$ modificare il MAC del clone$$$$ o modificare l'indirizzo MAC del Client.",
         "allow_dfs_tips1": "Se l'opzione è attivata, quando il router ripete il Wi-Fi di un qualsiasi canale DFS, seguirà l'hotspot per evitare il canale DFS. Quando questo Wi-Fi è disponibile, il Wi-Fi a 5GHz del router utilizzerà il canale DFS. Altrimenti, il Wi-Fi a 5GHz del router tornerà al canale non DFS.",
-        "scan_wifi_fail_dfs_tips": "Il dispositivo sta eseguendo il controllo della disponibilità dei canali DFS e non è in grado di eseguire la scansione della rete Wi-Fi nelle vicinanze."
+        "scan_wifi_fail_dfs_tips": "Il dispositivo sta eseguendo il controllo della disponibilità dei canali DFS e non è in grado di eseguire la scansione della rete Wi-Fi nelle vicinanze.",
+        "connet_dfs_tips": "Quando il router ripete un WiFi con un canale DFS, se questo WiFi è disponibile, il router utilizzerà il canale DFS selezionato. Tieni presente che se questo Wi-Fi non è disponibile, il canale verrà cambiato, il che comporterà una breve disconnessione del client connesso tramite Wi-Fi e alcuni dispositivi verranno ricollegati senza rilevamento, mentre altri dovranno essere ricollegati manualmente."
     },
     "modem": {
         "title": "Cellulare",
@@ -154,7 +155,8 @@
         "lock_tower_title": "Lock Tower",
         "sim_tower_title": "SIM {sim} Tower",
         "available_tower_title": "Tower Disponibile",
-        "tower_locked_tips": "Tower Bloccata"
+        "tower_locked_tips": "Tower Bloccata",
+        "lte_plus_tips": "Alcuni dispositivi potrebbero visualizzare 4G+ come 5G"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
