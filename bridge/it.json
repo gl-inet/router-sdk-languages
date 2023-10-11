@@ -33,7 +33,8 @@
         "passthrough_close_warning": "Se passi a questa modalità, ripetitore, wireless, client, VPN e AdGuard Home verranno disabilitati.",
         "passthrough_conflict_warning": "Questa modalità potrebbe non funzionare se sono abilitate le seguenti impostazioni: Tethering, Drop-in gateway, IPv6 , DNS manuale, Multi-WAN impostato su modalità bilanciamento del carico, porta WAN impostata come LAN, regole VPN, qualsiasi impostazione del firewall aggiunta manualmente, indirizzo MAC manuale.",
         "passthrough_conflict_2b_warning": "Questa modalità potrebbe non funzionare se sono presenti le seguenti impostazioni: modalità gateway drop-in abilitata, IPv6 abilitato, impostazione manuale DNS, impostazione Multi-WAN in modalità carico bilanciato, impostazione porta WAN come LAN, policy VPN utilizzata, aggiunta di eventuali impostazioni firewall, impostare manualmente l'indirizzo MAC.",
-        "passthrough_secondwan_warning": "La modalità Passthrough IP richiede e può avere solo una porta WAN. Andare alla pagina $$$$ per modificarla per annullare l'uso della porta WAN come porta LAN o per annullare l'uso della LAN come porta WAN."
+        "passthrough_secondwan_warning": "La modalità Passthrough IP richiede e può avere solo una porta WAN. Andare alla pagina $$$$ per modificarla per annullare l'uso della porta WAN come porta LAN o per annullare l'uso della LAN come porta WAN.",
+        "set_up_bridge_tips": "Per impostare la modalità Bridge, è necessario prima collegare un cavo Ethernet alla porta WAN."
     },
     "menu_bridge": "Modalità di rete"
 }
