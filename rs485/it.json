@@ -29,6 +29,8 @@
         "parse_hexstr_tips": "Il metodo \"Hex String\" inoltra i dati come stringa esadecimale, ad es. la stringa \"5F7D\" dalla rete verrà analizzata come 0x5F7D e quindi inoltrata alla porta seriale.",
         "two_ways_label": "Two-ways",
         "parse_method_response_tips": "La risposta dalla porta seriale verrà inviata alla rete utilizzando il metodo corrispondente.",
-        "server_addr_label": "Indirizzo del Server"
+        "server_addr_label": "Indirizzo del Server",
+        "client_cert_label": "Certificato cliente",
+        "client_key_label": "Chiave Privata del Cliente"
     }
 }
