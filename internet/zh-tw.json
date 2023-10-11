@@ -15,7 +15,7 @@
         "pppoe_vlanid_tips": "此配置項僅在供應商的 PPPoE 伺服器要求接口使用已標記的特定 VLAN ID 時才需要輸入。",
         "egderouter_mode_tips": "Drop-in gateway (旁路由) 已啟用。如果您想修改以太網設置，請先禁用 $$$$Drop-in Gateway$$$$。",
         "change_to_lan_check_tips": "請先拔出插入 WAN 口的網線。 $$$$重新檢測$$$$",
-        "change_to_wan_tips": "LAN 口用作 WAN 口後，您將無法再通過網線連接到內網來訪問管理員面板。請確保您的客戶端可以連接 Wi-Fi。",
+        "change_to_wan_tips": "LAN 口用作 WAN 口後，您將無法再通過該網口連接到內網來訪問管理員面板。請確保您的客戶端可以連接 Wi-Fi或者還有其他 LAN 口。",
         "change_to_wan_tips2": "您可以按住設備上的重置按扭 4 秒鐘來還原 LAN 口（不再作為 WAN 口）。"
     },
     "tethering": {
