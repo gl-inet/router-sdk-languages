@@ -40,7 +40,10 @@
         "ManufacturerSpecificData": "製造商特定數據",
         "SimplePairingHashC192": "簡單配對哈希 C-192",
         "SecurityManagerTKValue": "安全經理 TK 值",
-        "AdvertisingInterval ": "廣告間隔"
+        "AdvertisingInterval ": "廣告間隔",
+        "phy": "PHY",
+        "mac": "MAC",
+        "raw": "原始數據"
     },
     "bluetooth_remote_manage": {
         "title": "藍牙遠端管理",
@@ -115,6 +118,36 @@
         "hex_check": "請輸入十六進位字元。",
         "decimal_check": "請輸入小數字符號。",
         "utf8_check": "請輸入 UTF-8 字元。",
-        "16_bit_service_class_uuids": "16 位元服務類 UUID"
-    }
+        "16_bit_service_class_uuids": "16 位元服務類 UUID",
+        "complete_32_bit_service_class_uuids": "完整的 32 位元服務類別 UUID",
+        "shortened_localName": "縮寫的本地名稱",
+        "complete_localName": "完整的本地名稱",
+        "tx_power_level": "發送功率",
+        "class_of_device": "設備類型",
+        "simple_pairing_hash_c_192": "簡單配對哈希 C-192",
+        "security_manager_tk_value": "安全管理器 TK 值",
+        "security_manager_out_of_band_flags": "安全管理器帶外標誌",
+        "slave_connection_interval_range": "連機間隔隨機值",
+        "16_bit_service_solicitation_uuids": "16 位元服務請求 UUID",
+        "128_bit_service_solicitation_uuids": "128 位元服務請求 UUID",
+        "16_bit_service_data_UUID": "16位元服務資料 UUID",
+        "manufacturer_specific_data": "製造商特定數據",
+        "128_bit_service_class_uuids": "128 位元服務類 UUID",
+        "complete_128_bit_service_class_uuids": "完整的 128 位元服務類別 UUID",
+        "simple_pairing_randomizer_r_192": "簡單配對隨機化 R-192"
+    },
+    "bluetooth_settings": {
+        "title": "藍牙設定備份/恢復",
+        "backup": "備份",
+        "restore": "恢復",
+        "backup_button": "匯出",
+        "include_certificate": "包含 TLS 證書",
+        "valid_configuration_success": "有效的設定檔。",
+        "backup_tips": "您可以在此頁面匯出所有與藍牙相關的設置，包括掃描、連線、遠端管理、報表、資料定義。"
+    },
+    "menu_bluetoothsettings": "設定備份/恢復",
+    "menu_bluetoothreport": "藍牙報告",
+    "menu_bluetoothremotemanage": "藍牙遠端管理",
+    "menu_bluetoothdevices": "藍牙裝置",
+    "menu_bluetooth": "藍牙"
 }
