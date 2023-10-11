@@ -126,7 +126,7 @@
         "guest_use_vpn": "Usa VPN nella rete ospite",
         "kill_switch": "Blocca il traffico Non-VPN",
         "config": "Configurazione",
-        "kill_switch_tips": "Se questa opzione è abilitata, tutto il traffico dai dispositivi client che cercano di essere inviati fuori dal tunnel VPN sarà bloccato. Questo impedirà efficacemente la fuoriuscita di dati dalla VPN dovuti alle impostazioni DNS dei client, alle connessioni VPN interrotte, alle applicazioni client che richiedono un IP, ecc.",
+        "kill_switch_tips": "Abilita questa opzione per bloccare tutto il traffico proveniente dai dispositivi client all'esterno del tunnel VPN che tenta di essere inviato all'esterno del tunnel VPN, impedendo perdite dalle impostazioni DNS, problemi di connessione o applicazioni che effettuano richieste IP. Ciò sovrascrive altre politiche e regole VPN.",
         "export_config": "Esporta Configurazione Client",
         "use_ddns_domain": "Usare il dominio DDNS",
         "upload": "Upload",
