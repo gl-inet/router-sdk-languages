@@ -61,7 +61,8 @@
         "fail_not_found_tips": "Impossibile trovare la rete, controllare il SSID e il tipo di sicurezza inseriti.",
         "unusable_eap_tips": "Questo router non supporta reti ripetute che utilizzano EAP.",
         "fail_mac_tips": "L'indirizzo MAC del router non può essere lo stesso di nessun Client Wi-Fi, $$$$ modificare il MAC del clone$$$$ o modificare l'indirizzo MAC del Client.",
-        "allow_dfs_tips1": "Se l'opzione è attivata, quando il router ripete il Wi-Fi di un qualsiasi canale DFS, seguirà l'hotspot per evitare il canale DFS. Quando questo Wi-Fi è disponibile, il Wi-Fi a 5GHz del router utilizzerà il canale DFS. Altrimenti, il Wi-Fi a 5GHz del router tornerà al canale non DFS."
+        "allow_dfs_tips1": "Se l'opzione è attivata, quando il router ripete il Wi-Fi di un qualsiasi canale DFS, seguirà l'hotspot per evitare il canale DFS. Quando questo Wi-Fi è disponibile, il Wi-Fi a 5GHz del router utilizzerà il canale DFS. Altrimenti, il Wi-Fi a 5GHz del router tornerà al canale non DFS.",
+        "scan_wifi_fail_dfs_tips": "Il dispositivo sta eseguendo il controllo della disponibilità dei canali DFS e non è in grado di eseguire la scansione della rete Wi-Fi nelle vicinanze."
     },
     "modem": {
         "title": "Cellulare",
