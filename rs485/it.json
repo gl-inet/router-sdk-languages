@@ -31,6 +31,27 @@
         "parse_method_response_tips": "La risposta dalla porta seriale verrà inviata alla rete utilizzando il metodo corrispondente.",
         "server_addr_label": "Indirizzo del Server",
         "client_cert_label": "Certificato cliente",
-        "client_key_label": "Chiave Privata del Cliente"
+        "client_key_label": "Chiave Privata del Cliente",
+        "password_key_label": "Password della Chiave",
+        "command_tips": "Il gateway si iscriverà all'argomento per ricevere i comandi di controllo emessi dalla piattaforma.",
+        "response_label": "Risposta",
+        "response_tips": "Il gateway utilizzerà l'argomento per inviare il risultato della ricezione o dell'esecuzione del comando in risposta al controllo.",
+        "qos_level_label": "Livello QoS",
+        "keep_alive_interval_label": "Keep Alive Interval",
+        "topic_label": "Topic",
+        "tcps_running_tips": "Il server TCP è in esecuzione.",
+        "tcps_starting_tips": "Il server TCP si sta avviando...",
+        "tcpc_connected_tips": "Il client TCP è connesso.",
+        "tcpc_connecting_tips": "Il client TCP si sta connettendo...",
+        "udp_running_tips": "UDP è in esecuzione.",
+        "udp_starting_tips": "UDP sta iniziando...",
+        "target_client_label": "Cliente Target",
+        "target_addr_label": "Indirizzo di Destinazione",
+        "target_port_label": "Porta di Destinazione",
+        "write_status_label": "Stato di Scrittura",
+        "write_data_label": "Scrivere Dati",
+        "starting_data_addr_label": "Indirizzo Dati Iniziale",
+        "mqtt_connected_tips": "MQTT collegato.",
+        "mqtt_connecting_tips": "MQTT si collega..."
     }
 }
