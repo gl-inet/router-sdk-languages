@@ -1,1 +1,7 @@
-{}
+{
+    "hwnat": {
+        "desc": "L'accélération matérielle peut réduire la charge du CPU et accélérer le traffic des paquets transmis, il peut cependant être en conflit avec d'autre fonctionnalités .",
+        "tips": "Quand l'accélération matérielle est activé, les fonctions suivantes peuvent ne pas fonctionner correctement : Débit du client, Statistiques du traffic, Limite de débit du client."
+    },
+    "menu_hwnat": "Accélération matérielle"
+}
