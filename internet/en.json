@@ -15,7 +15,7 @@
         "pppoe_vlanid_tips": "This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.",
         "egderouter_mode_tips": "Drop-in gateway is enabled. If you want to modify the Ethernet settings, please disable $$$$Drop-in Gateway$$$$ first.",
         "change_to_lan_check_tips": "First, please unplug the Ethernet cable that is plugged into the WAN port. $$$$ re-detect $$$$",
-        "change_to_wan_tips": "Once the LAN port is used as a WAN port, you will not be able to access the administrator panel via a network cable connected to the LAN port. Please ensure that your client can connect to Wi-Fi.",
+        "change_to_wan_tips": "Once the LAN port is used as a WAN port, you will not be able to access the administrator panel via this Ethernet port connected to the LAN port. Please ensure that your client can connect to Wi-Fi or other LAN port.",
         "change_to_wan_tips2": "You can restore the LAN port (so that it is no longer used as a WAN port) by pressing and holding the reset button on the device for four seconds."
     },
     "tethering": {
