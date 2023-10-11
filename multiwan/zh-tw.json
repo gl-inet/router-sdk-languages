@@ -27,7 +27,7 @@
         "mode_balancing_note": "注意：這並不能保證存活的連接或流量按照負載比例來分配。",
         "failover_desc": "故障轉移：如果當前活動鏈路發生故障，路由器將自動切換到另一個網絡接口。",
         "interface_state_label": "網絡狀態",
-        "enable_check_label": "啟用互聯網狀態跟踪",
+        "enable_check_label": "啟用介面狀態追蹤",
         "balancing_warning_tips": "負載平衡必須至少配置兩個非零負載比的介面才能正常運作。如果沒有可連接的非零負載率的 Internet 接口，設備將無法連接到 Internet。",
         "track_mode_label": "低數據模式",
         "passive_label": "低數據模式",
