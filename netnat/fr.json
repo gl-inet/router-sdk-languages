@@ -1,1 +1,9 @@
-{}
+{
+    "menu_netnat": "Accélération du réseau",
+    "netnat": {
+        "desc": "L'accélération du réseau réduit la charge du CPU et améliore le débit de transmission des paquets, mais il peut être en conflit avec d'autres fonctionnalités .",
+        "tips": "Quand l'accélération matérielle est activé, les fonctions suivantes peuvent ne pas fonctionner correctement : Débit du client, Statistiques du traffic, Limite de débit du client .",
+        "hwnat_label": "Accélération matérielle",
+        "swnat_label": "Accélération logicielle"
+    }
+}
