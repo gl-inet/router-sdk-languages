@@ -89,7 +89,12 @@
         "medium": "Medio",
         "band": "Band",
         "lock": "Lock",
-        "unlock": "Unlock"
+        "unlock": "Unlock",
+        "local": "Locale",
+        "high": "Alto",
+        "custom": "Costume",
+        "clear": "Cancella",
+        "setting_instructions": "Guida all'Installazione"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -100,7 +105,10 @@
         "installing": "In installazione, attendere…",
         "uninstalling": "In disinstallazione, attendere…",
         "unknown_err": "Errore sconosciuto. Verifica l'ambiente di rete o riavvia il dispositivo.",
-        "interface_timeout": "Richiesta scaduta. Verifica l'ambiente di rete o riavvia il dispositivo."
+        "interface_timeout": "Richiesta scaduta. Verifica l'ambiente di rete o riavvia il dispositivo.",
+        "port_occupied": "porto {nome} occupato",
+        "please_note": "Notare che:",
+        "processing": "In lavorazione..."
     },
     "date": {
         "day": "giorno(i)",
@@ -114,7 +122,8 @@
         "second": "{count} secondo | {count} secondi",
         "min": "{count} Minuto | {count} Minuti",
         "hour": "{count} Ore | {count} Ore",
-        "for_last_time": "Più recente {time}"
+        "for_last_time": "Più recente {time}",
+        "ms": "ms"
     },
     "internet": {
         "lan_ip_tips": "La sottorete LAN è in conflitto con la sottorete WAN, si prega di $$$$ modificare la sottorete LAN$$$$ con un altro indirizzo.",
@@ -123,7 +132,15 @@
         "guest_ip_tips": "La sottorete ospite è in conflitto con la sottorete WAN, si prega di $$$$cambiare la sottorete ospite$$$$ con un altro indirizzo.",
         "connected": "Connesso",
         "up_not_online_tips": "L'interfaccia è connessa, ma non si può accedere ad Internet con il protocollo $$$$.",
-        "offline_tips": "L'interfaccia è connessa, ma non si può accedere ad Internet."
+        "offline_tips": "L'interfaccia è connessa, ma non si può accedere ad Internet.",
+        "disabled": "Disabilitato",
+        "server": "Server",
+        "client": "Cliente",
+        "enabled": "Abilitato",
+        "band_width": "Bandwidth",
+        "unlocked": "Unlocked",
+        "locked": "Locked",
+        "frequency": "Frequenza"
     },
     "upload": {
         "select_or_drag": "Seleziona un file o trascinalo qui",
@@ -135,5 +152,8 @@
         "format_error": "Errore nel formato dei dati!",
         "too_large_tips": "L'archivio caricato è troppo grande, si prega di caricare un file grande al massimo $$$$ bytes.",
         "lass_than_tips": "(Meno di $$$$)"
+    },
+    "system": {
+        "battery_err_tips": "Il sistema non rileva il modulo batteria, controllare la connessione di alimentazione o la batteria per eventuali danni."
     }
 }
