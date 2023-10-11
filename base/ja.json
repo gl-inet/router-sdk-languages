@@ -106,7 +106,8 @@
         "operation_not_finished": "処理が完了するまでしばらくお待ちください。",
         "uninstalling": "アンインストール中、しばらくお待ちください…",
         "please_note": "注意:",
-        "processing": "処理中..."
+        "processing": "処理中...",
+        "port_occupied": "{name} ポートが占有されています"
     },
     "internet": {
         "lan_ip_tips": "LANサブネットはWANサブネットと競合しています。$$$$LANサブネットを変更する$で別のアドレスにしてください。",
@@ -118,21 +119,27 @@
         "offline_tips": "インターフェイスは接続されていますが、インターネットにアクセスできません。",
         "band_width": "帯域幅",
         "locked": "ロック",
-        "unlocked": "ロック解除"
+        "unlocked": "ロック解除",
+        "enabled": "有効",
+        "disabled": "無効",
+        "server": "サーバー",
+        "client": "クライアント",
+        "frequency": "頻度"
     },
     "date": {
         "day": "日",
-        "sunday": "日",
-        "saturday": "土",
-        "monday": "月",
-        "tuesday": "火",
-        "wednesday": "水",
-        "thursday": "木",
-        "friday": "金",
+        "sunday": "日| 日曜日",
+        "saturday": "土| 土曜日",
+        "monday": "月｜月曜日",
+        "tuesday": "火| 火曜日",
+        "wednesday": "水｜水曜日",
+        "thursday": "木| 木曜日",
+        "friday": "金| 金曜日",
         "second": "{count} 秒 | {count}秒",
         "min": "{count} 分 | {count} 分",
         "hour": "{count} 時間 | {count} 時間",
-        "ms": "ミリ秒"
+        "ms": "ミリ秒",
+        "for_last_time": "最新{時間｝"
     },
     "upload": {
         "select_or_drag": "ファイルを選択するか、こちらにドラッグしてください",
@@ -142,7 +149,10 @@
         "firmware_format_error": "ファームウェアのフォーマットが不正です！",
         "error": "ファイルのアップロードに失敗しました。",
         "format_error": "データフォーマットエラー！",
-        "too_large_tips": "アップロードされたファイルが大きすぎるため、 $$$$以内のファイルをアップロードしてください。",
+        "too_large_tips": "アップロードされたファイルが大きすぎるため、 $$$$バイト以下のファイルをアップロードしてください。",
         "lass_than_tips": "($$$$未満)"
+    },
+    "system": {
+        "battery_err_tips": "システムがバッテリー モジュールを検出しません。電源接続またはバッテリーに損傷がないかご確認ください。"
     }
 }
