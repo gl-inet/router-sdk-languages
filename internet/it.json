@@ -118,7 +118,7 @@
         "sim_no_profile_warning": "Nessuna impostazione è stata selezionata, sarà configurata automaticamente.",
         "sim_slot_switching_tips": "Selettore slot della scheda SIM…",
         "set_detection_tips": "Lo stato di connessione a Internet viene rilevato allo stesso modo delle impostazioni nella pagina $$$$Multi-WAN$$$$.",
-        "data_roaming_label": "Roaming dei Dati",
+        "data_roaming_label": "Roaming Dati Internazionale",
         "band_masking_label": "Blocco",
         "band_masking_tips": "Se la modalità \"Mascheramento\" è attivata, il router bloccherà le seguenti reti.",
         "current_badge_label": "In uso",
@@ -156,7 +156,13 @@
         "sim_tower_title": "SIM {sim} Tower",
         "available_tower_title": "Tower Disponibile",
         "tower_locked_tips": "Tower Bloccata",
-        "lte_plus_tips": "Alcuni dispositivi potrebbero visualizzare 4G+ come 5G"
+        "lte_plus_tips": "Alcuni dispositivi potrebbero visualizzare 4G+ come 5G",
+        "cellular_desc": "L'interfaccia Cellulare si ricollegherà per passare alla torre bloccata.",
+        "locked_tower_tips": "Se la torre bloccata non corrisponde al mascheramento della banda o ai parametri APN nelle impostazioni del cellulare, l'interfaccia cellulare non sarà in grado di connettersi a Internet.",
+        "scan_tower_msg": "Questo potrebbe richiedere alcuni minuti. Per favore sii paziente.",
+        "reboot_buildin_modem_btn": "Riavviare il Modem Integrato",
+        "reboot_buildin_modem_warning": "Sei sicuro di voler riavviare il modem integrato?",
+        "device_may_not_b_tips": "Il dispositivo potrebbe non essere in grado di scansionare tutte le torri quando l'interfaccia Cellulare è abilitata."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
