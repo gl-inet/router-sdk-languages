@@ -30,7 +30,8 @@
         "interface_state_label": "ネットワーク状況",
         "track_mode_label": "省データモード",
         "passive_label": "省データモード",
-        "sensitivity_label": "感度"
+        "sensitivity_label": "感度",
+        "balancing_warning_tips": "バランスロードが正しく機能するためには、少なくとも負荷比率がゼロでない2つのインターフェイスが設定されていなければなりません。負荷率がゼロでない接続可能なインターネット・インターフェースがない場合、デバイスはインターネットに接続できません。"
     },
     "menu_multiwan": "マルチWAN"
 }
