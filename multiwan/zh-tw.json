@@ -7,7 +7,7 @@
         "mode_failover_tips": "路由器會自動選擇優先級最高的可用接口。",
         "failover_label": "故障轉移",
         "balancing_label": "負載均衡",
-        "track_title": "接口狀態監測方式",
+        "track_title": "介面狀態追蹤",
         "physical_state_monitor": "接口連接時互聯網始終可用",
         "tips": "路由器支持同時連接到多個網絡接口。您可以配置應如何使用這些多個網絡。",
         "priority_title": "接口優先級",
@@ -27,7 +27,15 @@
         "mode_balancing_note": "注意：這並不能保證存活的連接或流量按照負載比例來分配。",
         "failover_desc": "故障轉移：如果當前活動鏈路發生故障，路由器將自動切換到另一個網絡接口。",
         "interface_state_label": "網絡狀態",
-        "enable_check_label": "啟用互聯網狀態跟踪"
+        "enable_check_label": "啟用介面狀態追蹤",
+        "balancing_warning_tips": "負載平衡必須至少配置兩個非零負載比的介面才能正常運作。如果沒有可連接的非零負載率的 Internet 接口，設備將無法連接到 Internet。",
+        "track_mode_label": "低數據模式",
+        "passive_label": "低數據模式",
+        "track_mode_tips": "僅當出現介面網路錯誤時啟用交換器進行跟踪，並建議用戶在數據計劃有限時使用低數據模式。",
+        "sensitivity_label": "靈敏度",
+        "sensitivity_tips": "此靈敏度決定了網路狀態偵測的時間間隔。上網不穩定時建議使用低靈敏度，避免頻繁切換網路；影片或直播時建議使用高靈敏度，以確保您可以快速切換上網；切換到高靈敏度可能會導致網路斷開，請謹慎調整。",
+        "network_tracking_title": "{interface} 狀態追蹤",
+        "sensitivity_options_label": "靈敏度選項"
     },
     "menu_multiwan": "多線負載"
 }

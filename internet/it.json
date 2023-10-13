@@ -5,7 +5,7 @@
         "rm_wan_cable": "Si prega di rimuovere il cavo ethernet dalla porta WAN.",
         "wan_been_lan": "La porta WAN è stata impostata come LAN. Puoi ritornare alla modalità WAN",
         "confirm_to_lan": "Sei sicuro di voler utilizzare la porta WAN come LAN?",
-        "confirm_to_wan": "Sei sicuro di voler ripristinare la porta WAN su WAN?",
+        "confirm_to_wan": "Sei sicuro di voler ripristinare la porta LAN su WAN?",
         "repeated": "Connesso correttamente senza riconnessioni",
         "using_as_lan": "In uso come LAN, $$$$ Passa a WAN$$$$",
         "using_as_wan": "In uso come WAN, $$$$ Passa a LAN$$$$",
@@ -16,7 +16,7 @@
         "egderouter_mode_tips": "Il drop-in gateway è abilitato. Se vuoi modificare le impostazioni Ethernet, per favore disabilita prima il $$$$Drop-in Gateway$$$$.",
         "change_to_lan_check_tips": "Prima rimuovi il cavo Ethernet collegato alla porta WAN. $$$$ Rileva di nuovo $$$$",
         "change_to_wan_tips2": "Puoi resettare la porta LAN (affinchè non sia pià usata più come porta WAN) tenendo premuto il bottone di reset per quattro secondi.",
-        "change_to_wan_tips": "Una volta che si inizia a usare la porta LAN come WAN, non potrai più accedere al pannello di amministrazione usando la connessione del cavo LAN. Controlla prima che tu sia connesso alla rete Wi-Fi."
+        "change_to_wan_tips": "Una volta utilizzata la porta LAN come porta WAN, non sarà possibile accedere al pannello amministratore tramite questa porta Ethernet collegata alla porta LAN. Assicurati che il tuo client possa connettersi al Wi-Fi o ad un'altra porta LAN."
     },
     "tethering": {
         "title": "Tethering",
@@ -61,7 +61,9 @@
         "fail_not_found_tips": "Impossibile trovare la rete, controllare il SSID e il tipo di sicurezza inseriti.",
         "unusable_eap_tips": "Questo router non supporta reti ripetute che utilizzano EAP.",
         "fail_mac_tips": "L'indirizzo MAC del router non può essere lo stesso di nessun Client Wi-Fi, $$$$ modificare il MAC del clone$$$$ o modificare l'indirizzo MAC del Client.",
-        "allow_dfs_tips1": "Se l'opzione è attivata, quando il router ripete il Wi-Fi di un qualsiasi canale DFS, seguirà l'hotspot per evitare il canale DFS. Quando questo Wi-Fi è disponibile, il Wi-Fi a 5GHz del router utilizzerà il canale DFS. Altrimenti, il Wi-Fi a 5GHz del router tornerà al canale non DFS."
+        "allow_dfs_tips1": "Se l'opzione è attivata, quando il router ripete il Wi-Fi di un qualsiasi canale DFS, seguirà l'hotspot per evitare il canale DFS. Quando questo Wi-Fi è disponibile, il Wi-Fi a 5GHz del router utilizzerà il canale DFS. Altrimenti, il Wi-Fi a 5GHz del router tornerà al canale non DFS.",
+        "scan_wifi_fail_dfs_tips": "Il dispositivo sta eseguendo il controllo della disponibilità dei canali DFS e non è in grado di eseguire la scansione della rete Wi-Fi nelle vicinanze.",
+        "connet_dfs_tips": "Quando il router ripete un WiFi con un canale DFS, se questo WiFi è disponibile, il router utilizzerà il canale DFS selezionato. Tieni presente che se questo Wi-Fi non è disponibile, il canale verrà cambiato, il che comporterà una breve disconnessione del client connesso tramite Wi-Fi e alcuni dispositivi verranno ricollegati senza rilevamento, mentre altri dovranno essere ricollegati manualmente."
     },
     "modem": {
         "title": "Cellulare",
@@ -116,7 +118,7 @@
         "sim_no_profile_warning": "Nessuna impostazione è stata selezionata, sarà configurata automaticamente.",
         "sim_slot_switching_tips": "Selettore slot della scheda SIM…",
         "set_detection_tips": "Lo stato di connessione a Internet viene rilevato allo stesso modo delle impostazioni nella pagina $$$$Multi-WAN$$$$.",
-        "data_roaming_label": "Roaming dei Dati",
+        "data_roaming_label": "Roaming Dati Internazionale",
         "band_masking_label": "Blocco",
         "band_masking_tips": "Se la modalità \"Mascheramento\" è attivata, il router bloccherà le seguenti reti.",
         "current_badge_label": "In uso",
@@ -148,7 +150,19 @@
         "sim_not_setup_label": "Non Configurato",
         "select_profile_desc": "È possibile $$$$ Selezionare un Profilo $$$$ per copiarne il contenuto nelle impostazioni utilizzate dalla carta SIM.",
         "name_already_exist_tips": "Questo nome esiste già.",
-        "has_been_choose_profile_desc": "Hai copiato il contenuto del profilo {profileName}. $$$$Copia un altro Profilo$$$$"
+        "has_been_choose_profile_desc": "Hai copiato il contenuto del profilo {profileName}. $$$$Copia un altro Profilo$$$$",
+        "history_signal_title": "Registrazione Storica del Segnale",
+        "lock_tower_title": "Lock Tower",
+        "sim_tower_title": "SIM {sim} Tower",
+        "available_tower_title": "Tower Disponibile",
+        "tower_locked_tips": "Tower Bloccata",
+        "lte_plus_tips": "Alcuni dispositivi potrebbero visualizzare 4G+ come 5G",
+        "cellular_desc": "L'interfaccia Cellulare si ricollegherà per passare alla torre bloccata.",
+        "locked_tower_tips": "Se la torre bloccata non corrisponde al mascheramento della banda o ai parametri APN nelle impostazioni del cellulare, l'interfaccia cellulare non sarà in grado di connettersi a Internet.",
+        "scan_tower_msg": "Questo potrebbe richiedere alcuni minuti. Per favore sii paziente.",
+        "reboot_buildin_modem_btn": "Riavviare il Modem Integrato",
+        "reboot_buildin_modem_warning": "Sei sicuro di voler riavviare il modem integrato?",
+        "device_may_not_b_tips": "Il dispositivo potrebbe non essere in grado di scansionare tutte le torri quando l'interfaccia Cellulare è abilitata."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",

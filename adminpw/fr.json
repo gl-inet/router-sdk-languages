@@ -2,12 +2,12 @@
     "adminpw": {
         "old_pwd": "Mot de passe actuel",
         "new_pwd": "Nouveau mot de passe",
-        "confirm_pwd": "Confirmer votre mot de passe",
-        "warning": "Votre nouveau mot de passe ne peut pas être l'ancien mot de passe",
-        "confirm_pwd_tips": "Entrer votre nouveau mot de passe à nouveau",
+        "confirm_pwd": "Confirmez votre nouveau mot de passe",
+        "warning": "ATTENTION : votre nouveau mot de passe ne peut pas être identique à votre mot de passe actuel",
+        "confirm_pwd_tips": "Confirmez votre nouveau mot de passe",
         "old_pwd_tips": "Entrez votre mot de passe actuel",
         "new_pwd_tips": "Entrez votre nouveau mot de passe",
-        "old_pwd_error": "Mot de passe actuel incorrect"
+        "old_pwd_error": "Mot de passe actuel incorrect !"
     },
     "menu_adminpw": "Mot de passe administrateur"
 }

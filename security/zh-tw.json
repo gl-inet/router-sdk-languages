@@ -14,15 +14,20 @@
         "ipaddr_list_label": "IP 地址列表",
         "local_access_title": "本地訪問控制",
         "redirect_https_label": "Force HTTPS",
-        "session_timeout_label": "自動登出時間",
+        "session_timeout_label": "自動註銷時間",
         "apply_success_tips": "應用成功；等待 Web 服務器重新啟動。",
         "remote_access_title": "遠程訪問控制",
         "enable_ping_label": "允許從 WAN 網絡 Ping",
         "enable_https_label": "HTTPS 遠程訪問",
         "enable_ssh_label": "SSH 遠程訪問",
-        "enable_ipaddr_label": "允許從特定 IP 地址進行遠程訪問",
-        "enable_ipaddr_tips": "添加特定 IP 地址以允許從該設備管理路由器。",
+        "enable_ipaddr_label": "允許從特定 IP 進行遠端存取",
+        "enable_ipaddr_tips": "新增多個特定 IP 位址以從此裝置管理路由器。",
         "add_ipaddr_btn": "添加 IP 地址",
-        "no_ipaddr_list_label": "無 IP 地址"
-    }
+        "no_ipaddr_list_label": "無 IP 地址",
+        "port_conflict_tips": "該連接埠已被使用。",
+        "port_disabled_tips": "該連接埠被瀏覽器禁止",
+        "add_ipaddr_tips": "您可以輸入的 IP 位址樣式範例為（也支援 IPv6 格式），例如 192.168.8.1、例如 192.168.8.1/24。",
+        "session_timeout_tips": "關閉或休眠瀏覽器頁面與登出之間的時間間隔。"
+    },
+    "menu_security": "安全"
 }

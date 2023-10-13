@@ -22,7 +22,12 @@
         "parsing_ip_warning_tips": "L' indirizzo IP della risoluzione DDNS del dominio non è lo stesso dell'IP WAN del dispositivo.",
         "need_pubilc_ip_tips": "Hai bisogno di un indirizzo IP pubblico per usare il DNS dinamico.",
         "sevices_warning_tips": "Se hai un client VPN attivo, per favore disabilita l'opzione \"I servizi di GL.iNet usano la VPN\" nelle opzioni globali VPN.",
-        "nat_warning_tips": "Se questo router è dietro NAT, devi configurare l'inoltro delle porte nel router del tuo ISP."
+        "nat_warning_tips": "Se questo router è dietro NAT, devi configurare l'inoltro delle porte nel router del tuo ISP.",
+        "use_desc": "È possibile abilitare il DNS dinamico (DDNS) per questo router e accedere a questo router da remoto.",
+        "security_settings_btn": "Impostazioni di Sicurezza",
+        "to_security_btn": "Vai a Sicurezza",
+        "security_settings_tips": "Nel controllo dell'accesso remoto \"Sicurezza del sistema\", è possibile modificare due opzioni per limitare l'accesso remoto.",
+        "enabled_tips": "È possibile un ritardo massimo di 10 minuti nella sincronizzazione dei record tra i server DNS. Dopo aver semplicemente abilitato o modificato il tuo IP pubblico, potrebbe non essere possibile accedere immediatamente tramite il dominio DDNS."
     },
     "menu_dynamicdns": "DNS Dinamico"
 }

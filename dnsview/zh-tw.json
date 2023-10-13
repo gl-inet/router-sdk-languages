@@ -36,6 +36,7 @@
         "v1_tips": "當前路由器使用 DNS v1 版本。並非所有加密的 DNS 服務器都受支持。",
         "adguardhome_in_use_tips": "AdGuard Home 已啟用，此路由器必須使用 AdGuard Home 提供的 DNS 服務器，您無法自定義 DNS 服務器。",
         "server_warning_tips": "該伺服器可能已過期。",
-        "form_interface_label": "來自 {interface} 的 DNS"
+        "form_interface_label": "來自 {interface} 的 DNS",
+        "bark_enable_override_tips": "Bark 會阻止幾乎所有從用戶端傳送到 Internet 的 DNS 請求。如果您在 Bark 工作時啟用此選項，您的用戶端可能無法存取 Internet。"
     }
 }

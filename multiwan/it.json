@@ -9,7 +9,7 @@
         "failover_desc": "Failover: Quando l'interfaccia attualmente attiva e utilizzata non si connette, il router passa automaticamente a un'altra interfaccia di rete.",
         "tips": "Il router supporta connessioni di più interfacce di rete contemporaneamente. È possibile stabilire come usarle.",
         "balancing_label": "Bilanciamento del Carico",
-        "track_title": "Metodo di Monitoraggio dello Stato dell'Interfaccia",
+        "track_title": "Traccia dello Stato dell'Interfaccia",
         "physical_state_monitor": "Internet sempre disponibile quando l'interfaccia è connessa",
         "priority_title": "Priorità dell'Interfaccia",
         "ratio_title": "Rapporto di Carico",
@@ -26,13 +26,16 @@
         "both_label": "Entrambi",
         "flush_track_tips": "Se questa opzione è attivata e l'interfaccia di rete cambia, il router aggiornerà tutti i flussi di dati esistenti per garantire che utilizzino l'interfaccia a priorità più alta. Questo evita inutili perdite di traffico, ma può anche comportare una maggiore volatilità della rete (alcune VPN potrebbero non riconnettersi immediatamente).",
         "flush_track_label": "Aggiornamento Forzato Streams",
-        "enable_check_label": "Abilita il tracciamento dello stato Internet",
+        "enable_check_label": "Abilita Traccia Stato Interfaccia",
         "interface_state_label": "Stato di Rete",
-        "passive_label": "Passiva",
+        "passive_label": "Modalità Dati Bassi",
         "sensitivity_label": "Sensibilità",
         "balancing_warning_tips": "Devono essere configurate almeno due interfacce con un rapporto che non sia zero perchè il bilanciamento funzioni correttamente. Se non c'è un' interfaccia Internet con rapporto zero, il dispositivo non potrà connettersi ad Internet.",
-        "track_mode_label": "Modalità di Monitoraggio",
-        "sensitivity_tips": "La Sensività determina quanto grande è l'intervallo per effettuare il monitoraggio dello Stato Internet. Più l'intervallo è breve, più spesso viene cambiato lo stato."
+        "track_mode_label": "Modalità Dati Bassi",
+        "sensitivity_tips": "Questa sensibilità determina l'intervallo di tempo per il rilevamento dello stato di Internet. Si consiglia di utilizzare una sensibilità bassa quando l'accesso a Internet è instabile per evitare frequenti cambi di rete; si consiglia di utilizzare un'elevata sensibilità durante lo streaming video o live per garantire di poter cambiare rapidamente l'accesso a Internet; il passaggio alla sensibilità alta può provocare la disconnessione della rete. Regolarla con cautela.",
+        "track_mode_tips": "Abilita lo switch a monitorare solo quando si verifica un errore di rete dell'interfaccia e consiglia agli utenti di utilizzare la modalità dati limitati quando si utilizza un piano dati limitato.",
+        "network_tracking_title": "{interface} Traccia dello Stato",
+        "sensitivity_options_label": "Opzioni di Sensibilità"
     },
     "menu_multiwan": "Multi-WAN"
 }

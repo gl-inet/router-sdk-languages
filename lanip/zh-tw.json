@@ -21,10 +21,12 @@
         "dhcp_serve_title": "DHCP服務器",
         "dhcp_charter_label": "租期",
         "lpr_serve_label": "LPR 服務器",
-        "security_title": "安全設置",
-        "ap_isolate_label": "AP隔離",
+        "security_title": "安全設定",
+        "ap_isolate_label": "客戶端隔離",
         "ap_isolate_tips": "您可以將網絡的客戶端設備隔離到一個單獨的網絡區域中。這些設備無法與網絡上的其他設備通信。",
-        "allow_lan_label": "允許從 LAN 訪問網絡"
+        "allow_lan_label": "允許從 LAN-Guest 存取網絡",
+        "lpr_tips": "可填入多個印表機 LPR 連接埠。",
+        "dhcp_disable_warning_tips": "如果停用 DHCP，您可能無法連接互聯網，請小心。"
     },
     "address_reservation": {
         "note": "注意，被配置的客戶端必須重新連接路由器才能生效。",

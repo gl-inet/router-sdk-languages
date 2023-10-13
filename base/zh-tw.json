@@ -81,7 +81,20 @@
         "global_options": "全局選項",
         "interval_time": "間隔時間",
         "low": "低",
-        "local": "本地"
+        "local": "本地",
+        "band": "樂團",
+        "view_less": "看更少",
+        "setting_instructions": "設定指南",
+        "medium": "中等的",
+        "high": "高的",
+        "custom": "風俗",
+        "clear": "清除",
+        "lock": "鎖",
+        "view_more": "看更多",
+        "debug": "偵錯",
+        "send": "傳送",
+        "upload": "上傳",
+        "unlock": "開鎖"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -92,7 +105,10 @@
         "installing": "正在安裝，請稍候…",
         "uninstalling": "正在卸載，請稍候…",
         "interface_timeout": "操作超時。請檢查網絡環境或重啟設備。",
-        "unknown_err": "發生未知錯誤，請檢查網絡環境或重啟設備。"
+        "unknown_err": "發生未知錯誤，請檢查網絡環境或重啟設備。",
+        "port_occupied": "{name}連接埠被佔用",
+        "please_note": "請注意：",
+        "processing": "加工..."
     },
     "internet": {
         "lan_ip_tips": "LAN子網與WAN子網衝突，請$$$$修改LAN IP地址$$$$。",
@@ -101,7 +117,15 @@
         "connected": "已連接",
         "guest_ip_tips": "訪客子網與 WAN 子網衝突，請$$$$更改訪客子網$$$$為不同的地址。",
         "up_not_online_tips": "接口已連接，但是無法通過 $$$$ 協議訪問互聯網。",
-        "offline_tips": "接口已連接，但是無法訪問互聯網。"
+        "offline_tips": "接口已連接，但是無法訪問互聯網。",
+        "band_width": "頻寬",
+        "locked": "鎖定",
+        "enabled": "啟用",
+        "disabled": "停用",
+        "server": "伺服器",
+        "client": "客戶",
+        "unlocked": "解鎖",
+        "frequency": "頻率"
     },
     "date": {
         "day": "天",
@@ -115,7 +139,8 @@
         "second": "{count} 秒 | {count} 秒",
         "min": "{count} 分鐘 | {count} 分鐘",
         "hour": "{count} 小時 | {count} 小時",
-        "for_last_time": "在過去 {time}"
+        "for_last_time": "最近{時間}",
+        "ms": "毫秒"
     },
     "upload": {
         "select_or_drag": "選擇一個文件上傳或將文件拖到此處",
@@ -127,5 +152,8 @@
         "format_error": "數據格式錯誤!",
         "too_large_tips": "上傳的文件太大，請上傳 $$$$ 的文件。",
         "lass_than_tips": "（少於 $$$$）"
+    },
+    "system": {
+        "battery_err_tips": "系統未偵測到電池模組，請檢查電源連接或電池是否損壞。"
     }
 }

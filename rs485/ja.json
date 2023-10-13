@@ -56,6 +56,7 @@
         "dev_addr_label": "機器アドレス",
         "func_code_label": "機能コード",
         "data_label": "データ",
-        "timeout_label": "タイムアウト"
+        "timeout_label": "タイムアウト",
+        "parse_hexstr_tips": "「16 進文字列」メソッドは、データを 16 進文字列として転送します。 例えば、ネットワークからの文字列「5F7D」は「 0x5F7D 」として解析され、シリアル ポートに転送されます。"
     }
 }

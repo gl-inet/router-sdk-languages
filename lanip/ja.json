@@ -15,8 +15,17 @@
         "ip_outside_tips": "IPアドレスはサブネット範囲外です",
         "guest_conflict_tips": "ゲストIPと競合しています",
         "cannot_contain_ip_tips": "アドレス範囲にルータのIPを含めることはできません",
-        "end_smaller_tips": "終了アドレスが開始アドレスより小さいです",
-        "ip_easy_tip": "ルータのIPアドレスは、ルータの管理ページにアクセスするためのブラウザに入力するアドレスです。"
+        "end_smaller_tips": "終了アドレスは初期アドレスより大きくなければなりません。",
+        "ip_easy_tip": "ルータのIPアドレスは、ルータの管理ページにアクセスするためのブラウザに入力するアドレスです。",
+        "dhcp_serve_title": "DHCPサーバー",
+        "enable_dhcp_tips": "DHCPサーバーは、各クライアント機器にIPアドレスやその他の通信パラメータを自動的に割り当てます。DHCPサーバーが無効になっている場合は、各クライアントに対して手動で設定する必要があります。",
+        "lpr_serve_label": "LPRサーバー",
+        "dhcp_charter_label": "リース時間",
+        "security_title": "セキュリティー設定",
+        "ap_isolate_label": "クライアント隔離",
+        "ap_isolate_tips": "ネットワークのクライアントデバイスを別のネットワークエリアに隔離することができます。これらのデバイスは、ネットワーク上の他のデバイスと通信できません。",
+        "dhcp_disable_warning_tips": "DHCPを無効にすると、インターネットに接続できなくなる場合がありますので、ご注意ください。",
+        "allow_lan_label": "LAN-ゲストからのネットワークアクセスを許可する"
     },
     "address_reservation": {
         "note": "注：設定を有効化するため、クライアントをルータに再接続する必要があります。",
