@@ -36,11 +36,15 @@
         "current_firmware_title": "現在のファームウェア",
         "new_firmware_title": "新しいファームウェア",
         "online_upgrading_title": "オンラインアップグレード",
-        "keep_setting_tips": "ルータの現在の設定は保持されます。アップグレード後、インストールしたパッケージの再インストールが求められます。",
+        "keep_setting_tips": "現在の設定は保持されます。アップグレードが完了すると、ユーザーがインストールしたパッケージを再インストールするよう求められます。",
         "later_btn": "後にする",
         "available_update_title": "アップグレードリマインダー",
         "ignore_text_btn": "このアップグレードを無視する",
-        "preview_version_title": "プレビュー版"
+        "preview_version_title": "プレビュー版",
+        "accepted_rc_tips": "ファームウェア プレビュー プランに同意しました。 問題が発生した場合はご連絡ください。",
+        "accept_preview_label": "承認されたプレビュープラン",
+        "new_rc_firmware_title": "RCファームウェア",
+        "accept_preview_tips": "このスイッチを有効にすると、最新の不安定なアップデート、パッチ、改善、改良が利用可能になり次第、すぐに入手できます。一度設定するとオンのままになります (後でオフにすることもできます)。"
     },
     "menu_upgrade": "アップグレード"
 }
