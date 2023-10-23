@@ -50,7 +50,10 @@
         "format_th": "Formatteren",
         "users_limit_tips": "Maximaal 10 gebruikers zijn toegestaan",
         "fat32_warning": "FAT-schijven zijn niet compatibel met grote bestanden, het wordt aanbevolen om het exFAT-bestandsysteem te gebruiken.",
-        "limit_share_folder_tips": "Voeg maximaal {count} gedeelde mappen toe, waarna extra gedeelde mapprotocollen aan elke gedeelde map kunnen worden toegevoegd."
+        "limit_share_folder_tips": "Voeg maximaal {count} gedeelde mappen toe, waarna extra gedeelde mapprotocollen aan elke gedeelde map kunnen worden toegevoegd.",
+        "nfs_tips": "Schijven met exFAT-indeling kunnen niet worden gedeeld via het NFS-protocol.",
+        "ftp_fat32_tips": "Het FTP-protocol ondersteunt op dit moment niet het schrijven van data naar FAT32-schijven.",
+        "serve_not_enable_tips": "U heeft de NAS-overeenkomst voor het delen van bestanden nog niet gelezen. Pas daarna kunt u de toegangslink aanklikken."
     },
     "menu_nasview": "Netwerkopslag"
 }
