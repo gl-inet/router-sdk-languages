@@ -37,7 +37,17 @@
         "platform_unpass": "Deze firmware is niet compatibel met dit apparaat.",
         "old_version": "De geüploade firmware is ouder dan de huidige firmware.",
         "firmware_downloading": "De firmware wordt gedownload…",
-        "sysupgrade_test_failed": "De firmware kon niet met syspgrade worden bijgewerkt."
+        "sysupgrade_test_failed": "De firmware kon niet met syspgrade worden bijgewerkt.",
+        "rc_version_enable_tips": "Inschakelen om de nieuwste onstabiele updates, patches en verbeteringen te ontvangen zodra ze beschikbaar zijn. Stel het één keer in en het blijft ingeschakeld (je hebt altijd de mogelijkheid om het later uit te schakelen). Bekijk de nieuwste functies op $$$$ Wat is er nieuw? $$$$",
+        "rc_version_disable_tips": "Zet de schakelaar uit en de router stuurt je alleen stabiele versies. Geen laatste onstabiele updates, patches of verbeteringen meer. Als je stabiele versies handmatig wilt downloaden, ga dan naar $$$$het downloadcentrum$$$$.",
+        "advised_not_keep_setting": "De kernelversie zal worden bijgewerkt. U wordt geadviseerd om uw huidige instellingen niet te behouden.",
+        "release_note_btn": "Uitgaveopmerkingen",
+        "keep_setting_tips": "De huidige instellingen blijven behouden. Nadat het bijwerken is voltooid, wordt u gevraagd om door-de-gebruiker-geïnstalleerde pakketten opnieuw te installeren.",
+        "available_update_title": "Bijwerkingsherrinnering",
+        "accepted_rc_tips": "U heeft er voor gekozen om de ontwikkelingsfirmware te ontvangen. Neem contact met ons op als u problemen ondervindt.",
+        "accept_preview_label": "Ontwikkelingsfirmware ingeschakeld",
+        "accept_preview_tips": "Inschakelen om de nieuwste onstabiele updates, patches enverbeteringen te ontvangen zodra ze beschikbaar zijn. Eén keer instellen en hij blijft aan (je hebt altijd de mogelijkheid om hem later weer uit te zetten).",
+        "check_online_err_msg": "{code}, het online bijwerken is mislukt."
     },
     "menu_upgrade": "Bijwerken"
 }
