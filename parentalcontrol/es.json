@@ -88,7 +88,15 @@
         "rule_desc": "Puedes configurar reglas para zonas horarias específicas para limitar a qué sitios web y aplicaciones puede acceder su hijo. Por ejemplo, el \"tiempo de aprendizaje\" no permite el acceso a sitios web / aplicaciones de videos cortos específicos.",
         "remove_all_schedule_tips": "¿Estas seguro de que quieres borrar todas las programaciones?",
         "current_rule_label": "Reglas Actuales:",
-        "del_all_schedule_btn": "Borrar Todas las Programaciones"
+        "del_all_schedule_btn": "Borrar Todas las Programaciones",
+        "local_version_title": "Versión Local",
+        "local_version_desc": "La versión local es proporcionada por GL.iNet. Actualmente está en fase beta, por lo que no hay costos adicionales. En esta versión, si necesitas filtrar solicitudes por aplicación, deberás ingresar el dominio manualmente.",
+        "toggle_version_desc": "Puedes seleccionar la versión de la función de control parental que desees usar según tus necesidades. Ambas versiones de los Controles Parentales no pueden estar habilitadas al mismo tiempo, y la otra se desactivará automáticamente cuando cambies de versión.",
+        "bark_version_desc": "La versión de Bark, proporcionada y gestionada por $$$$Bark$$$$ en su propia plataforma, ofrece la opción de filtrar aplicaciones y sitios web con un solo clic y de monitorear el historial de solicitudes. Tenga en cuenta que hay una tarifa de suscripción adicional que se debe pagar directamente a Bark por este servicio.",
+        "bark_version_title": "Bark Versión"
     },
-    "menu_parentalcontrol": "Control Parental"
+    "menu_parentalcontrol": "Control Parental",
+    "bark": {
+        "desc": "Dependiendo de la suscripción que elijas (Bark o BarkJr), podrás:"
+    }
 }
