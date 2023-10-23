@@ -51,6 +51,12 @@
         "write_data_label": "Data wegschrijven",
         "starting_data_addr_label": "Begin dataadres",
         "tcps_running_tips": "TCP-server wordt uitgevoerd.",
-        "mqtt_connected_tips": "MQTT is verbonden."
+        "mqtt_connected_tips": "MQTT is verbonden.",
+        "parse_binary_tips": "De \"binaire\"-methode stuurt de ruwe binaire gegevens direct door, b.v. de string \"5F7D\" van het netwerk wordt doorgestuurd naar de seriële poort met de ACSII-code 0x35463744.",
+        "parse_hexstr_tips": "De \"Hexadecimale tekst\"-methode stuurt de gegevens door als een Hexadecimale tekst, b.v. de string \"5F7D\" uit het netwerk wordt ontleed als 0x5F7D en vervolgens doorgestuurd naar de seriële poort.",
+        "parse_method_response_tips": "Het antwoord van de seriële poort wordt via de overeenkomstige methode naar het netwerk verzonden.",
+        "command_tips": "De gateway abonneert zich op het onderwerp om commando's te ontvangen die door het platform worden uitgegeven.",
+        "response_tips": "De gateway gebruikt het onderwerp om het ontvangst- of uitvoeringsresultaat van het commando te verzenden als reactie op de besturing.",
+        "keep_alive_interval_label": "Houd levend interval"
     }
 }
