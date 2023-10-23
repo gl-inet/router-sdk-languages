@@ -32,9 +32,9 @@
         "add": "Toevoegen",
         "delete_all_caution": "Weet je zeker dat je alle regels wilt verwijderen?",
         "clear_all_caution": "Weet je zeker dat je alles wilt leegmaken?",
-        "password_tips": "Minimaal $$$$ tekens en maximaal $$$$ tekens.",
-        "allow_password_tips": "Leestekens (hoofdletter gevoelig), nummers en speciale tekens $$$$ zijn toegestaan.",
-        "security_password_tips": "Van de hoofdletters, kleine letters, nummers en symbolen zijn er van ieder minimaal twee vereist.",
+        "password_tips": "Minimaal $$$$ tekens en maximaal $$$$ tekens",
+        "allow_password_tips": "Leestekens (hoofdletter gevoelig), nummers en speciale tekens $$$$ zijn toegestaan",
+        "security_password_tips": "Van de hoofdletters, kleine letters, nummers en symbolen zijn er van ieder minimaal twee vereist",
         "please_choose": "Gelieve te kiezen",
         "retry": "Opnieuw proberen",
         "disable": "Uitschakelen",
@@ -127,10 +127,33 @@
     },
     "internet": {
         "connected": "Verbonden",
-        "getting": "Wordt opehaald…",
+        "getting": "Wordt opgehaald…",
         "connecting": "Verbinding wordt opgezet…",
         "guest_ip_tips": "Het gastensubnet overlapt met het WAN-subnet, gelieve $$$$verandert u het LAN-subnet$$$$ naar een ander IP-adres.",
         "up_not_online_tips": "De netwerkpoort is verbonden, maar het Internet kan niet worden bereikt via $$$$-protocol.",
-        "lan_ip_tips": "Het LAN-subnet overlapt met het WAN-subnet, gelieve $$$$verandert u het LAN-subnet$$$$ naar een ander IP-adres."
+        "lan_ip_tips": "Het LAN-subnet overlapt met het WAN-subnet, gelieve $$$$verandert u het LAN-subnet$$$$ naar een ander IP-adres.",
+        "offline_tips": "De netwerkpoort is verbonden, maar kan geen verbinding maken met het Internet.",
+        "band_width": "Bandbreedte",
+        "unlocked": "Ontgrendeld",
+        "locked": "Vergrendeld",
+        "frequency": "Frequentie",
+        "server": "Server",
+        "client": "Apparaat",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+    },
+    "system": {
+        "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade."
+    },
+    "upload": {
+        "select_or_drag": "Selecteer of sleep een bestand",
+        "file_include": "De ondersteunde bestandstypes zijn",
+        "success": "Succesvolle upload",
+        "reupload": "Bestand opnieuw uploaden",
+        "firmware_format_error": "Ongeldige firmware formaat!",
+        "error": "Kon het bestand niet uploaden.",
+        "format_error": "Ongeldige dataformaat!",
+        "too_large_tips": "Het geüploade bestand is te groot, upload een bestand van maximaal $$$$ bytes.",
+        "lass_than_tips": "(minder dan $$$$)"
     }
 }
