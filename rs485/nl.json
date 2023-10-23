@@ -1,1 +1,34 @@
-{}
+{
+    "rs485": {
+        "serial_port_setting_title": "Serieële poort instellingen",
+        "serial_port_label": "Seriële poort",
+        "baud_rate_label": "Baudsnelheid",
+        "parity_bit_label": "Pariteitsbit",
+        "data_bit_label": "Databit",
+        "total_timeout_label": "Totale time-out",
+        "debug_function_label": "Debugfunctie",
+        "common_label": "Algemeen",
+        "custom_label": "Aangepast",
+        "func_code_label": "Functiecode",
+        "command_label": "Commando",
+        "data_label": "Data",
+        "payload_label": "Lading",
+        "quantity_registers_label": "Hoeveelheid registers",
+        "quantity_write_label": "Hoeveelheid schrijfbewerkingen",
+        "forward_to_network_title": "Doorsturen naar netwerk",
+        "parse_method_label": "Ontledingsmethode",
+        "parse_method_tips": "Deze optie bepaalt hoe dat het apparaat bytes afkomstig van het netwerk ontleed.",
+        "server_addr_label": "Serveradres",
+        "server_port_label": "Serverpoort",
+        "local_port_label": "Lokale poort",
+        "timeout_label": "Time-out",
+        "encryption_mode_label": "Versleutelingsmethode",
+        "one_way_label": "Een-richting",
+        "stop_bit_label": "Stopbit",
+        "dev_addr_label": "Apparaatadres",
+        "quantity_coils_label": "Hoeveelheid wikkelingen",
+        "quantity_inputs_label": "Hoeveelheid invoeringspunten",
+        "forward_log_title": "Logboek doorsturen",
+        "forward_log_tips": "Dit apparaat kan alleen het logboek tot de afgelopen drie dagen behouden. Logboeken gaan na herstarten verloren."
+    }
+}
