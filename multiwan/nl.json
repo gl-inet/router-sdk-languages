@@ -1,6 +1,34 @@
 {
     "multiwan": {
-        "track_enable_tips": "Indien monitoren is uitgeschakeld, zal de router aanneme dat de netwerkoort, wanneer ingeplugd en een IP-adres heeft, altijd verbonden is met het internet."
+        "track_enable_tips": "Indien monitoren is uitgeschakeld, zal de router aanneme dat de netwerkoort, wanneer ingeplugd en een IP-adres heeft, altijd verbonden is met het internet.",
+        "mode_label": "Modus",
+        "mode_failover_tips": "De router selecteert automatisch, op basis van prioriteit, de eerst volgende netwerkpoort.",
+        "mode_balancing_tips": "Het systeem wijst netwerkpoorten toe op basis van het belastingsratio.",
+        "mode_balancing_note": "Opmerking: Actieve verbindingen en dataverkeer worden niet omgeleid, om zo te voldoen aan het belastingsratio.",
+        "failover_label": "Failover",
+        "balancing_label": "Belastingsverdeler",
+        "track_title": "Netwerkpoortstatusmonitoring",
+        "physical_state_monitor": "Wanneer de netwerkpoort is verbonden, is het internet altijd bereikbaar.",
+        "priority_title": "Netwerkpoortprioriteit",
+        "ratio_title": "Belastingsverhouding",
+        "track_desc": "De router monitort de status van de verbinding tot het IP-adres van de bestemming. Om vast te stellen of dat de netwerkpoort beschikbaar is.",
+        "track_proto_label": "Monitoringsprotocol",
+        "track_method_label": "Monitoringscommando",
+        "interval_label": "Monitoringsinterval",
+        "fault_condition_label": "Verander naar mislukkingsvoorwaarde",
+        "available_condition_label": "Verander naar beschikbaarheidsvoorwaarde",
+        "success_count": "$$$$ maal succesvol",
+        "fault_count": "$$$$ maal mislukt",
+        "track_addr_label": "IP-adres traceren",
+        "both_label": "Beide",
+        "flush_track_label": "Forceer het verversen van verbindingen",
+        "enable_check_label": "Netwerkpoortstatusmonitoring aanzetten",
+        "interface_state_label": "Netwerkstatus",
+        "track_mode_label": "Gegevensbesparingsmodus",
+        "passive_label": "Gegevensbesparingsmodus",
+        "sensitivity_label": "Gevoeligheid",
+        "network_tracking_title": "{interface}-statusmonitoring",
+        "sensitivity_options_label": "Gevoeligheidsinstellingen"
     },
     "menu_multiwan": "Multi-WAN"
 }
