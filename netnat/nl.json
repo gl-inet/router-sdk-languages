@@ -2,6 +2,8 @@
     "menu_netnat": "Netwerkacceleratie",
     "netnat": {
         "desc": "Netwerkacceleratie vermindert de CPU-belasting en versnelt het doorsturen van datapakketten. Sommige functies werken daardoor niet naar behoren.",
-        "tips": "Wanneer netwerkversnelling is ingeschakeld, werken de volgende functies niet correct: Speed en Traffic statistieken, Client snelheidslimiet, Ouderlijke controle."
+        "tips": "Wanneer netwerkacceleratie is ingeschakeld, werken de volgende functies niet correct: snelheids- en verkeersstatistieken, snelheidslimieten van cliënten, ouderlijktoezicht.",
+        "hwnat_label": "Hardwareacceleratie",
+        "swnat_label": "Softwareacceleratie"
     }
 }
