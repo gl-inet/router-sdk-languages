@@ -1,1 +1,30 @@
-{}
+{
+    "bridge": {
+        "mode_switch": "Modus verwisselen",
+        "router": "Router",
+        "ap": "Access Point",
+        "wds": "WDS",
+        "ssid": "Wi-Fi-naam (SSID)",
+        "password": "Wachtwoord",
+        "holder_choose": "Gelieve te kiezen",
+        "access_router": "Verbinding maken met de router",
+        "reset_mac_tips": "Gelieve het MAC-adres te resetten naar fabrieksinstellingen via de \"MAC klonen\"-pagina.",
+        "remove_wan_tips": "Ontkoppel de ethernetkabel van de WAN-netwerkpoort.",
+        "enter_pwd_tips": "Voer een wachtwoord in",
+        "choose_ssid_tips": "Kies een SSID",
+        "relay": "Extender",
+        "relay_desc": "Breid het Wi-Fi-bereik van een bestaand draadloosnetwerk uit.",
+        "wds_desc": "Werkt hetzelde als de Extendermodus, kies voor deze modus wanneer de hoofdrouter WDS ondersteund.",
+        "connet_fail_msg": "Verbinding mislukt.",
+        "get_ip_fail_msg": "Het is niet gelukt om een IP-adres te krijgen.",
+        "bridge_pattern_label": "Bridge",
+        "bridge_pattern_desc": "Maak verbinding met een bedraadnetwerk.",
+        "force_subnet_label": "Vereis een 24-bits subnet",
+        "subnet_mode_bable": "Subnetmodus",
+        "tips_one": "Wanneer je de netwerk modus van de router wijzigt, is het mogelijk dat je alle verbonden apparaten opnieuw moet verbinden.",
+        "set_up_ap_tips": "Om de access point-modus in te schakelen, verbind als eerste een ethernetkabel met de WAN-netwerkpoort.",
+        "ap_desc": "Maak verbinding met een bedraadnetwerk en zend een draadloosnetwerk uit.",
+        "lan_conflict_msg": "Het LAN-subnet overlapt met het WiFi-subnet. Keis een ander subnet."
+    },
+    "menu_bridge": "Netwerkmodus"
+}
