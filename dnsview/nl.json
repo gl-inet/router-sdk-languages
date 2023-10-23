@@ -1,1 +1,33 @@
-{}
+{
+    "dns": {
+        "rebinding_label": "Bescherming tegen \"DNS Rebinding\"-aanvallen",
+        "override_label": "DNS instellingen voor all cliënten overschrijven",
+        "select_nolog_label": "Geen logprotocol",
+        "form_tethering_label": "DNS-van-tethering",
+        "override_tips": "Indien geschakeld, zal de router alle onbersleutelde DNS-instellingen voor alle cliënten overschrijven.",
+        "set_dns_server_title": "DNS-server instellingen",
+        "mode": "Modus",
+        "proxy_addr_label": "Proxyserveradres",
+        "encryption_type_label": "Versleutelingstype",
+        "server": "Servers",
+        "select_server_btn": "Servers selecteren",
+        "choose_server_title": "Selecteer DNS-servers",
+        "select_all_label": "Alles",
+        "select_log_label": "Logprotocol",
+        "select_filter_label": "Filter",
+        "select_nofilter_label": "Geen filter",
+        "select_nodnssec_label": "Geen DNSSEC",
+        "auto_get_label": "Automatisch",
+        "choose_encryption_label": "Versleutelde DNS",
+        "manual_label": "Handmatige DNS",
+        "set_proxy_label": "DNS-proxy",
+        "form_wan_label": "DNS-van-ethernet",
+        "form_wwan_label": "DNS-van-repeater",
+        "form_modem_label": "DNS-van-mobiel",
+        "form_ovpn_label": "DNS-van-OpenVPN",
+        "form_wg_label": "DNS-van-WireGuard",
+        "provider": "DNS-leverancier",
+        "server_warning_tips": "The server lijkt te zijn verlopen.",
+        "form_interface_label": "DNS van {interface}"
+    }
+}
