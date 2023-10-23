@@ -58,7 +58,12 @@
         "parse_mac_warning_tips": "1 regel bevat een ongeldig MAC-adres. Deze wordt verwijderd als de import wordt bevestigd. | {count} MAC-adressen zijn ongeldig. Ze worden verwijderd als de import wordt bevestigd.",
         "blacklist_self_error_tips": "Vermijd het toevoegen van een eigen MAC-adres aan de blokkeerlijst.",
         "whitelist_self_error_tips": "De lijst met toegestane adressen moet het eigen MAC-adres bevatten.",
-        "toggle_speed_unit_btn": "Maateenheid wijzigen"
+        "toggle_speed_unit_btn": "Maateenheid wijzigen",
+        "import_mac_label": "Apparaten importeren",
+        "self_mac_label": "Eigen MAC",
+        "parse_mac_error_tips": "Kan het MAC-adres niet achterhalen, controleer het bestand en upload het opnieuw.",
+        "parse_mac_success_tips": "1 geldig MAC-adres is gevonden. | {count} geldige MAC-adressen zijn gevonden.",
+        "import_btn": "Importeren"
     },
     "menu_clients": "Apparaten"
 }
