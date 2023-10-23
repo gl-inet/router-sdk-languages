@@ -27,7 +27,15 @@
         "flush_track_tips": "Si esta opción está activada, cuando la interfaz de red cambia, el router refrescará todos los flujos de datos para asegurar que se utiliza la interfaz con máxima prioridad. Esto evita pérdidas de tráfico innecesarias, pero también puede resultar en una inestabilidad de red más alta (algunas VPNs pueden no reconectarse inmediatamente).",
         "flush_track_label": "Forzar el refresco de flujos",
         "enable_check_label": "Activar el seguimiento del estado de conexión al Internet",
-        "interface_state_label": "Estado de la Red"
+        "interface_state_label": "Estado de la Red",
+        "track_mode_label": "Modo de Datos Reducidos",
+        "passive_label": "Modo de Datos Reducido",
+        "sensitivity_label": "Sensibilidad",
+        "track_mode_tips": "Habilite el interruptor para rastrear solo cuando haya un error de red en la interfaz y recomiende a los usuarios que utilicen el Modo de Datos Reducidos cuando tengan un plan de datos limitado.",
+        "network_tracking_title": "{interface} Seguimiento de Estado",
+        "balancing_warning_tips": "Se deben configurar al menos dos interfaces con ratios de carga no nulos para que el balanceo de carga funcione correctamente. Si no hay una interfaz de Internet conectable con un ratio de carga no nulo, el dispositivo no podrá conectarse a Internet.",
+        "sensitivity_tips": "Esta sensibilidad determina el intervalo de tiempo para la detección del estado de Internet. Se recomienda utilizar una baja sensibilidad cuando el acceso a Internet es inestable para evitar cambios frecuentes de red; se recomienda utilizar una alta sensibilidad cuando se trata de video o transmisiones en vivo para asegurarse de que pueda cambiar rápidamente el acceso a Internet; cambiar a alta sensibilidad puede producir desconexión de la red. Por favor, ajuste con precaución.",
+        "sensitivity_options_label": "Opciones de Sensibilidad"
     },
     "menu_multiwan": "Multi-WAN"
 }
