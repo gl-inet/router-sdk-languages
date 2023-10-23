@@ -254,7 +254,8 @@
         "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S only works with Global Proxy Mode, it will adjust automatically with OpenVPN on.",
         "ovpnclient_tap_s2s_ip_tips": "The IP address of the OpenVPN client may change.",
         "client_each_other_tips": "This is VPN Client to VPN Client, not Site to Site.",
-        "account_service_credentials_title": "Service Credentials"
+        "account_service_credentials_title": "Service Credentials",
+        "generate_peer_falied_msg": "Failed to generate client ip"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",

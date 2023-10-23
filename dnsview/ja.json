@@ -36,6 +36,7 @@
         "manual_label": "DNS手動入力",
         "form_wwan_label": "リピータからのDNS",
         "server_warning_tips": "サーバが期限切れである可能性があります。",
-        "form_interface_label": "{インターフェイス}からのDNS"
+        "form_interface_label": "{インターフェイス}からのDNS",
+        "bark_enable_override_tips": "Barkは、ほぼすべてのインターネットに送信されるクライアントからのDNSリクエストをブロックします。Barkの動作中にこのオプションを有効にすると、クライアントがインターネットにアクセスできなくなる可能性があります。"
     }
 }
