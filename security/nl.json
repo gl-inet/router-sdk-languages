@@ -2,12 +2,29 @@
     "adminpw": {
         "new_pwd": "Nieuw wachtwoord",
         "confirm_pwd": "Bevestig wachtwoord",
-        "confirm_pwd_tips": "Voer nogmaals het wachtwoord in",
+        "confirm_pwd_tips": "Voer het nieuwe wachtwoord nogmaals in",
         "old_pwd_tips": "Voer het vorige wachtwoord in",
         "new_pwd_tips": "Voer het nieuwe wachtwoord in",
-        "old_pwd_error": "Het oude wachtwoord is incorrect!",
+        "old_pwd_error": "Het vorige wachtwoord is onjuist!",
         "old_pwd": "Vorig wachtwoord",
-        "warning": "Het nieuwe wachtwoord mag niet gelijk zijn aan het oude wachtwoord",
+        "warning": "Het nieuwe wachtwoord mag niet gelijk zijn aan het vorige wachtwoord",
         "title": "Adminstratorwachtwoord"
-    }
+    },
+    "security": {
+        "local_access_title": "Lokale toegangscontrole",
+        "redirect_https_label": "HTTPS vereisen",
+        "session_timeout_label": "Tijdsduur voordat er automatisch wordt uitgelogd",
+        "apply_success_tips": "Succesvol toegepast; wachtend op de webserver om te herstarten.",
+        "remote_access_title": "Externe toegangscontrole",
+        "enable_ping_label": "Sta ping vanuit het WAN toe",
+        "enable_https_label": "HTTPS-externe-toegang",
+        "enable_ssh_label": "SSH-externe-toegang",
+        "enable_ipaddr_label": "Sta externe toegang vanaf een specifiek IP-adres toe",
+        "enable_ipaddr_tips": "Sta meerdere IP-adressen toe om de router te beheren.",
+        "ipaddr_list_label": "IP-adressenlijst",
+        "no_ipaddr_list_label": "Geen IP-adressen",
+        "add_ipaddr_btn": "Voeg een IP-adres toe",
+        "port_conflict_tips": "Deze netwerkpoort is al in gebruik."
+    },
+    "menu_security": "Beveiliging"
 }
