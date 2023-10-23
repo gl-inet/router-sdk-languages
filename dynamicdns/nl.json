@@ -1,1 +1,22 @@
-{}
+{
+    "ddns": {
+        "test": "DDNS-test",
+        "enable_https": "Schakel HTTPS-externe-toegang in",
+        "enable_ssh": "Schakel SSH-externe-toegang in",
+        "read_and_agree": "Ik heb gelezen en accepteer de",
+        "terms_service": "servicevoorwaarden",
+        "privacy_policy": "privacyvoorwaarden",
+        "working": "De DDNS-service is gereed en ingeschakeld.",
+        "not_effective": "DDNS werkt momenteel nog niet. Probeer het later nog eens.",
+        "host_name": "Hostname",
+        "parsing_success_tips": "De DDNS-domeinnaam kan terugherleid worden naar het publieke IP-adres van dit apparaat.",
+        "parsing_label": "Het huidige IP-adres van het DDNS-domein",
+        "parsing_interface_title": "WAN-netwerkpoort-IP-adres",
+        "security_settings_btn": "Beveiligingsinstellingen",
+        "to_security_btn": "Ga naar beveiligingsinstellingen",
+        "enable_http": "Schakel HTTP-externe-toegang in",
+        "detecting": "Wordt gedetecteert, een ogenblik…",
+        "enable_http_tip": "HTTP is een niet-versleuteld protocol. Ben voorzichtig."
+    },
+    "menu_dynamicdns": "Dynamische DNS"
+}
