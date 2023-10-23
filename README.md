@@ -53,11 +53,11 @@ If you would like to help us translate a language
 
 ## Editorial Suggestions
 1.We use `$$$$` as a replacement variable, and we also use it to mark text buttons. Please keep it when you translate. For example, here are two examples:
-![](https://static.gl-inet.com/github/router-sdk-languages/edit_etc.1.png)
-![](https://static.gl-inet.com/github/router-sdk-languages/edit_etc.2.png)
+![](https://static.gl-inet.com/github/router-sdk-languages/edit.etc.1.png)
+![](https://static.gl-inet.com/github/router-sdk-languages/edit.etc.2.png)
 
 2.In addition, for numeric + unit type variables, we use `{}` to mark numeric variables and `|` to distinguish between singular and plural forms.
-![](https://static.gl-inet.com/github/router-sdk-languages/edit_etc.3.png)
+![](https://static.gl-inet.com/github/router-sdk-languages/edit.etc.3.png)
 
 ## Submit a translation or accept a suggestion
 
@@ -72,7 +72,7 @@ After you have submitted a certain amount of usable text, we will invite you to 
 We expect to officially release version 4.5.0 in November!
 The current progress is as follows
 
-![](https://static.gl-inet.com/github/router-sdk-languages/42BCC210-BD57-46d1-B7ED-9958754CDADD.png)
+![](https://static.gl-inet.com/github/router-sdk-languages/weblate.png)
 
 ## Adding New Languages
 
