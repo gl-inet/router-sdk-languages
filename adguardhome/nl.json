@@ -14,6 +14,7 @@
 "domain_th": "Domein",
 "request_th": "Aantal aanvragen",
 "no_data": "Data ontbreekt",
-"process_req_label": "AdGuard Home verwerkt verzoeken van cliënten"
+"process_req_label": "AdGuard Home verwerkt verzoeken van cliënten",
+"process_req_tips": "Als deze optie is ingeschakeld, worden DNS-query's van client-apparaten rechtstreeks door AdGuard Home afgehandeld. AdGuard Home toont DNS-querylogboeken van clients, maar dit zorgt ervoor dat het VPN-beleid op basis van domein, niet werkt."
 }
 }
