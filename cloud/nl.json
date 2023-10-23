@@ -1,1 +1,36 @@
-{}
+{
+    "cloud": {
+        "title": "GoodCloud",
+        "tips": "Met GoodCloud kunt u groepen routers beheren, hun status in realtime controleren, routers op afstand instellen, routers tegelijkertijd bedienen, aangesloten apparaten monitoren en nog veel meer.",
+        "bound_by": "Dit apparaat is gekoppeld aan",
+        "on": "aan",
+        "unbind": "Ontkoppelen",
+        "id_is": "Het ID van uw apparaat is",
+        "enable": "Inschakelen",
+        "device_id": "Apparaat-ID",
+        "data_server": "Dataserver",
+        "holder_choose": "Gelieve te kiezen",
+        "choose_data_server_tips": "Kies een dataserver",
+        "agree": "Ik heb gelezen en ga akkoord met de",
+        "terms": "algemenevoorwaarden",
+        "privacy": "privacyvoorwaarden",
+        "unbind_tips": "Weet u zeker dat u dit apparaat wilt ontkoppelen van GoodCloud? Dit apparaat is gekoppeld aan:",
+        "user": "Gebruiker",
+        "region": "Regio",
+        "add_id_tips": "Gebruik dit ID om dit apparaat to koppelen aan uw GoodCloud-account.",
+        "view_log": "Logboek tonen",
+        "enable_remote_ssh": "Externe SSH-toegang aanzetten",
+        "enable_remote_web": "Externe webtoegang aanzetten",
+        "device_mac": "MAC-adres van het apparaat",
+        "device_sn": "S/N van het apparaat",
+        "europe_label": "Europa",
+        "america_label": "Amerika",
+        "china_label": "China",
+        "asia_pacific_label": "Aziatisch-Pacifisch",
+        "token_invalid_tips": "Verificatie van de beveiligingssleutel van het apparaat is mislukt. $$$$Verbind het apparaat opnieuw$$$$ om verbinding te maken met {cloud}.",
+        "unbind_note": "Let op: Dit heeft alleen effect in de geselecteerde regio. Als u dit apparaat in verschillende regio's hebt gekoppeld, doe dit dan voor elke andere regio.",
+        "unbind_success": "Succesvol ontkoppeld.",
+        "unbound_tips": "Dit apparaat is niet gekoppeld aan een GoodCloud-account."
+    },
+    "menu_cloud": "GoodCloud"
+}
