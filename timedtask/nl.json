@@ -1,3 +1,24 @@
 {
-    "menu_timedtask": "Geplande taken"
+    "menu_timedtask": "Geplande taken",
+    "timedtask": {
+        "wifi_turn_onoff_label": "Inschakelen / uitschakelen",
+        "desc": "Als het apparaat op de ingestelde is uitgeschakeld, wordt de taak niet uitgevoerd.",
+        "on_time_label": "Opstarttijd",
+        "off_time_label": "Uitschakelingstijd",
+        "reboot_title": "Geplande herstart",
+        "reboot_time_label": "Herstarttijd",
+        "wifi_mode_label": "Geplande Wi-Fi-modus",
+        "wifi_power_switch_label": "TX-vermogen verwisselen",
+        "enable_wifi_label": "Het globale Wi-Fi-schema inschakelen",
+        "enable_guest_wifi_label": "Het gastennetwerk-Wi-Fi-schema inschakelen",
+        "host_wifi_title": "Globale Wi-Fi",
+        "guest_wifi_title": "Gasten-Wi-Fi",
+        "switch_label": "Configuratie",
+        "switch_time_label": "Omschakelen",
+        "restore_label": "Configuratie",
+        "restore_time_label": "Terugzetten",
+        "enable_scheduled_label": "Activeren",
+        "led_title": "LED-tijdsschema",
+        "wifi_title": "$$$$ WiFi-statusschema"
+    }
 }
