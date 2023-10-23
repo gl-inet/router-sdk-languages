@@ -46,12 +46,19 @@
         "clear_traffic_caution": "Weet u zeker dat u alle verbindingsstatistieken wilt wissen?",
         "block_label": "Blokkeren",
         "access_control_label": "Toegangscontrole",
-        "access_control_black_tips": "Een apparaat kan niet verbinden met LAN of WAN als het geblokkeerd is.",
+        "access_control_black_tips": "Een apparaat kan niet verbinden met het LAN of WAN als het geblokkeerd is.",
         "clear_btn": "Wissen",
         "hardware_acceleration_warning": "$$$$Hardwareversnelling$$$$ is ingeschakeld, apparaatsnelheid en -verkeersstatistieken zijn incorrect, apparaatsnelheidslimiet werkt niet.",
         "network_acceleration_warning": "$$$$Hardwareversnelling$$$$ is ingeschakeld, apparaatsnelheid en -verkeersstatistieken zijn incorrect, apparaatsnelheidslimiet werkt niet.",
         "access_label": "Toegang verlenen",
-        "access_control_tips": "Met toegangscontrole wordt de toegang tot uw netwerk voor specifieke apparaten toegestaan of geblokkeerd."
+        "access_control_tips": "Met toegangscontrole wordt de toegang tot uw netwerk voor specifieke apparaten toegestaan of geblokkeerd.",
+        "import_mac_tips": "U kunt MAC-adressen van apparaten in de lijst importeren. $$$$Importeersjabloon downloaden$$$$",
+        "access_control_white_tips": "Een apparaat kan alleen verbinden met het WAN of LAN als het toegangsrechten heeft.",
+        "import_mac_add_tips": "De succesvol geïmporteerde MAC-adressen worden aan de lijst toegevoegd.",
+        "parse_mac_warning_tips": "1 regel bevat een ongeldig MAC-adres. Deze wordt verwijderd als de import wordt bevestigd. | {count} MAC-adressen zijn ongeldig. Ze worden verwijderd als de import wordt bevestigd.",
+        "blacklist_self_error_tips": "Vermijd het toevoegen van een eigen MAC-adres aan de blokkeerlijst.",
+        "whitelist_self_error_tips": "De lijst met toegestane adressen moet het eigen MAC-adres bevatten.",
+        "toggle_speed_unit_btn": "Maateenheid wijzigen"
     },
     "menu_clients": "Apparaten"
 }
