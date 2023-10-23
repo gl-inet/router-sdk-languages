@@ -36,8 +36,21 @@
         "remove_user_caution": "Weet je zeker dat je deze gebruiker wilt verwijderen?",
         "user_manage_tips": "Voor sommige protocollen ( {protos} ) kunnen voor elke gedeelde map individuele machtigingen worden ingesteld.",
         "eject_disk_caution": "Weet u zeker dat u de schijf wilt loskoppelen? Als iemand bestanden gebruikt die u hebt gedeeld, wordt het browsen, uploaden en downloaden afgebroken.",
-        "share_path_label": "Gedeeld pad",
+        "share_path_label": "Pad van de gedeelde map",
         "arrow_wan_label": "Toegang toestaan $$$$ vanaf WAN",
-        "shared_folder_tips": "U moet de juiste bestandsservice ( {protos} ) inschakelen om via dit protocol toegang te krijgen tot uw gedeelde mappen."
-    }
+        "shared_folder_tips": "U moet de juiste bestandsservice ( {protos} ) inschakelen om via dit protocol toegang te krijgen tot uw gedeelde mappen.",
+        "share_proto_label": "Protocol van de gedeelde map",
+        "other_share_proto_btn": "Extra protocol toevoegen",
+        "free_space": "$$$$ vrij van de $$$$",
+        "later_add_btn": "Later toevoegen",
+        "fast_share_btn": "Snel een gedeelde map aanmaken",
+        "no_disk_tips": "Voer eerst het opslagapparaat in",
+        "share_link_tips": "De map is gedeeld. Gebruik de volgende link om de map als netwerkschijf op uw pc of telefoon te koppelen.",
+        "no_user_tips": "Kies minstens één gebruiker met lees- en/of schrijfrechten.",
+        "format_th": "Formatteren",
+        "users_limit_tips": "Maximaal 10 gebruikers zijn toegestaan",
+        "fat32_warning": "FAT-schijven zijn niet compatibel met grote bestanden, het wordt aanbevolen om het exFAT-bestandsysteem te gebruiken.",
+        "limit_share_folder_tips": "Voeg maximaal {count} gedeelde mappen toe, waarna extra gedeelde mapprotocollen aan elke gedeelde map kunnen worden toegevoegd."
+    },
+    "menu_nasview": "Netwerkopslag"
 }
