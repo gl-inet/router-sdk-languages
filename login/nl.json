@@ -1,1 +1,17 @@
-{}
+{
+    "login": {
+        "login": "Login",
+        "admin_password": "Administratorwachtwoord",
+        "password_hint": {
+            "placeholder": "Voer het wachtwoord in",
+            "null": "WAARSCHUWING: Dit veld mag niet leeg zijn!"
+        },
+        "forgot_password": {
+            "title": "Wachtwoord resetten",
+            "desc": "Hou de 'Reset'-knop voor tien seconden ingedrukt, laat vervolgens de knop los. U zult zien dat de LED-lampen beginnen te knipperen. Wacht totdat de router is herstart en begin vervolgens opnieuw.",
+            "online_docs": "Online documentatie"
+        },
+        "err_msg": "Incorrecte gebruikersnaam en/of wachtwoord!",
+        "retry_after": "Te veel login pogingen, probeer het opnieuw na $$$$ seconden."
+    }
+}
