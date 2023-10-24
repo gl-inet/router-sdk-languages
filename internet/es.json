@@ -66,7 +66,7 @@
         "connet_dfs_tips": "Cuando el router repite una WiFi con un canal DFS, si esta WiFi está disponible, el router utilizará el canal DFS seleccionado. Ten en cuenta que si esta WiFi no está disponible, se cambiara el canal, lo que producirá una breve desconexión del cliente conectado a través de la WiFi. Algunos dispositivos se reconectarán automáticamente sin percibirlo, mientras que otros necesitarán ser reconectados manualmente."
     },
     "modem": {
-        "title": "Módem celular",
+        "title": "Móvil",
         "plug_in_tips": "No se ha encontrado ningún dispositivo de módem. Conecte su módem USB para empezar.",
         "manage": "Gestionar",
         "name": "Nombre del módem",
@@ -148,7 +148,21 @@
         "select_profile_desc": "Puedes $$$$ Select a Profile $$$$ para copiar el contenido de este a las configuraciones utilizadas por la tarjeta SIM.",
         "edit_profile_title": "Modificar Perfil",
         "add_new_profile_title": "Añadir un Nuevo Perfil",
-        "sim_not_setup_label": "No Configurado"
+        "sim_not_setup_label": "No Configurado",
+        "lte_plus_tips": "Algunos dispositivos pueden mostrar 4G+ como 5G",
+        "scan_tower_msg": "Esto puede tardar unos minutos. Por favor, ten paciencia.",
+        "has_been_choose_profile_desc": "Has copiado el contenido de {profileName}. $$$$ Copy Another Profile$$$$",
+        "reboot_buildin_modem_btn": "Reiniciar Módem Integrado",
+        "name_already_exist_tips": "Este nombre ya existe.",
+        "history_signal_title": "Registro Histórico de Señal",
+        "cellular_desc": "La interfaz móvil se reconectará para cambiar a la torre bloqueada.",
+        "locked_tower_tips": "Si la torre a la que se ha restringido el acceso no coincide con los parámetros de enmascaramiento de banda o APN en la configuración móvil, la interfaz móvil no podrá conectarse a Internet.",
+        "sim_tower_title": "SIM {sim} Torre",
+        "tower_locked_tips": "Torre Bloqueada",
+        "reboot_buildin_modem_warning": "¿Estás seguro de querer reiniciar el módem integrado?",
+        "lock_tower_title": "Bloquear Torre",
+        "device_may_not_b_tips": "Es posible que el dispositivo no pueda escanear todas las torres cuando la interfaz móvil está activada.",
+        "available_tower_title": "Torre Disponible"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -203,7 +217,9 @@
         "forward_email_subject_label": "Asunto",
         "forward_email_list_title": "Email de destino",
         "forward_add_email_btn": "Añadir Email",
-        "forward_tips": "Para evitar la circularidad, el reenvio de SMS no se ejecutará cuando ingreses aquí un número local. También, si el Modem no lee el número de tu tarjeta SIM, el reenvio de SMS no será ejecutado."
+        "forward_tips": "Para evitar la circularidad, el reenvio de SMS no se ejecutará cuando ingreses aquí un número local. También, si el Modem no lee el número de tu tarjeta SIM, el reenvio de SMS no será ejecutado.",
+        "forward_email_title": "Reenviar por Correo Electrónico",
+        "forward_sms_title": "Reenviar por SMS"
     },
     "modemmanage": {
         "title": "Administración",
