@@ -93,10 +93,25 @@
         "local_version_desc": "La versión local es proporcionada por GL.iNet. Actualmente está en fase beta, por lo que no hay costos adicionales. En esta versión, si necesitas filtrar solicitudes por aplicación, deberás ingresar el dominio manualmente.",
         "toggle_version_desc": "Puedes seleccionar la versión de la función de control parental que desees usar según tus necesidades. Ambas versiones de los Controles Parentales no pueden estar habilitadas al mismo tiempo, y la otra se desactivará automáticamente cuando cambies de versión.",
         "bark_version_desc": "La versión de Bark, proporcionada y gestionada por $$$$Bark$$$$ en su propia plataforma, ofrece la opción de filtrar aplicaciones y sitios web con un solo clic y de monitorear el historial de solicitudes. Tenga en cuenta que hay una tarifa de suscripción adicional que se debe pagar directamente a Bark por este servicio.",
-        "bark_version_title": "Bark Versión"
+        "bark_version_title": "Bark Versión",
+        "version_conversion_btn": "Cambiar Versión"
     },
     "menu_parentalcontrol": "Control Parental",
     "bark": {
-        "desc": "Dependiendo de la suscripción que elijas (Bark o BarkJr), podrás:"
+        "desc": "Dependiendo de la suscripción que elijas (Bark o BarkJr), podrás:",
+        "weight_desc": "El servicio galardonado de Bark puede ayudar a proteger el mundo digital de tu hijo y proporcionar una protección en línea integral.",
+        "unbound_tips": "El servicio Bark está habilitado, pero este dispositivo no está vinculado con ninguna cuenta. Por favor $$$$Device Pairing Link$$$$ para vincular este dispositivo con tu cuenta Bark.",
+        "online_tips": "El dispositivo está conectado a los Servicios en la Nube de Bark y vinculado a una cuenta. Por favor $$$$Go to Bark$$$$ e inicia sesión en su cuenta para controlar el acceso.",
+        "note_tips": "El servicio de Bark puede no estar disponible en ciertos países. Dado que GL.iNet no es el proveedor de este servicio, si encuentras algún problema al usar Bark, te rogamos te comuniques directamente con $$$$Bark's Technical Support$$$$ para obtener ayuda.",
+        "unbind_btn": "Reemparejar",
+        "enable_ipv6_label": "Habilitar Soporte para IPv6",
+        "force_dns_enable_tips": "Bark bloquea casi todas las solicitudes DNS enviadas por los clientes a Internet. Por favor, $$$$ Go to DNS Page$$$$ y desactiva la opción {label} para evitar que tus clientes no puedan acceder a Internet.",
+        "unbind_tips": "¿Estás seguro de que quieres restablecer el código de emparejamiento para volver a emparejar el dispositivo con otra cuenta? Ten en cuenta que esta acción no eliminará el dispositivo de la cuenta con la que actualmente está emparejado.",
+        "visit_tips": "Visita $$$$bark us$$$$ para aprender más e inscríbete hoy para una prueba gratuita de una semana.",
+        "feature_tips1": "Establece controles parentales en todos los dispositivos conectados a internet de tu hogar.",
+        "feature_tips2": "Configura horarios de sueño y de clases diariamente en todos los dispositivos de tu hijo para reducir las distracciones en línea",
+        "feature_tips3": "Elige qué sitios web y aplicaciones están permitidos/bloqueados en todos los dispositivos",
+        "feature_tips4": "Monitorea los mensajes, correos electrónicos y más de 30 plataformas de redes sociales y aplicaciones de tu hijo, en busca de indicios de riesgos en línea",
+        "pairing_code_label": "Código de Emparejamiento"
     }
 }
