@@ -28,6 +28,15 @@
         "form_wg_label": "DNS-van-WireGuard",
         "provider": "DNS-leverancier",
         "server_warning_tips": "The server lijkt te zijn verlopen.",
-        "form_interface_label": "DNS van {interface}"
+        "form_interface_label": "DNS van {interface}",
+        "edit_host_btn": "Hosts bewerken",
+        "desc": "Als u aangepaste DNS-servers instelt, worden alle domeinnamen omgezet via de DNS-servers die hier zijn ingesteld, in plaats van degene die zijn verkregen via DNS-servers met Ethernet-, Repeater-, Cellular-, Tethering- of VPN-configuratie.",
+        "rebinding_tips": "Als u deze optie inschakelt, kan een privé-DNS-zoekopdracht mislukken. Als uw netwerk een captive portal heeft, schakel deze optie uit.",
+        "v1_tips": "De router gebruikt versie v1 van DNS. Niet alle gecodeerde DNS-servers worden ondersteund.",
+        "server_tips": "U kunt maximaal acht servers kiezen. De router kiest automatisch de snelste server.",
+        "at_least_one_server_tips": "Selecteer ten minste één server",
+        "host_tips": "Verzoeken van cliënten worden in eerste instantie opgelost met behulp van de statische DNS-regels die u in hosts hebt geconfigureerd.",
+        "adguardhome_in_use_tips": "AdGuard Home is ingeschakeld, de router moet de DNS-server gebruiken die door AdGuard Home wordt geleverd, u kunt DNS-servers niet aanpassen.",
+        "bark_enable_override_tips": "Bark blokkeert bijna alle DNS-verzoeken van cliënten die naar internet worden verzonden. Als u deze optie inschakelt terwijl Bark werkt, hebben uw cliënten mogelijk geen toegang tot het Internet."
     }
 }
