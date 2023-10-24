@@ -1,5 +1,22 @@
 {
     "vpn": {
-        "tunnel_ip": "Tunneladres"
+        "tunnel_ip": "Tunneladres",
+        "client_vpn_private_ip": "Het virtuele IP-adres van de cliënt",
+        "vpn_private_ip": "Virtueel IP-adres",
+        "public_ip": "Echt IP-adres",
+        "server_location": "Serverlocatie",
+        "ovpn_step_tip1": "1. Geneer een OpenVPN-configuratiebestand;",
+        "ovpn_step_tip2": "2. Bewerk de standaardconfiguratie en sla deze vervolgens op;",
+        "ovpn_step_tip3": "3. Exporteer het cliëntconfiguratiebestand naar de cliënt;",
+        "ovpn_step_tip4": "4. Ga naar de VPN-dashboardpagina en start de VPN-server.",
+        "wg_desc": "WireGuard® is een uiterst eenvoudige, snelle en moderne VPN die gebruik maakt van de modernste cryptografie. Volg de onderstaande stappen:",
+        "wg_step_tip1": "1. Genereer een WireGuard®-configuratiebestand;",
+        "wg_step_tip2": "2. Voeg een peer-configuratie toe;",
+        "wg_tips1": "U heeft nog geen peerconfiguraties. Om te starten, voeg een peerconfiguratie toe.",
+        "allowed_ip": "Toegestane IP-adressen",
+        "ovpn_desc": "OpenVPN is een open-source softwareapplicatie die Virtual Private Network (OpenVPN)-technieken implementeert om veilige point-to-point- of site-to-site-verbindingen te creëren in gerouteerde of overbrugde configuraties en faciliteiten voor externe toegang. Volg de onderstaande stappen:",
+        "ovpn_tips": "U heeft nog geen OpenVPN-configuratiebestanden. Om te starten, genereer er een.",
+        "wg_step_tip3": "3. Kopieer de peerinformatie naar de cliënt;",
+        "wg_step_tip4": "4. Ga naar de VPN-dashboardpagina en start de VPN-server."
     }
 }
