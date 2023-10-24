@@ -61,7 +61,9 @@
         "unusable_eap_tips": "Éste enrutador no soporta el retransmitir redes que utilizan EAP.",
         "fail_key_tips": "Clave incorrecta.",
         "allow_dfs_tips1": "Si la opción está activada y el enrutador esté re-transmitiendo Wi-Fi en algún canal DFS (Selección Dinámica de Frecuencias), este seguirá el canal seleccionado por el hotspot principal que está realizando de el proceso de filtrado de canales DFS. De lo contrario, seleccionará por si mismo un canal no-DFS para Wi-Fi de 5 Ghz.",
-        "fail_mac_tips": "La dirección MAC de el enrutador no puede ser la misma de ningún cliente Wi-Fi. Por favor, $$$$modifique la dirección MAC clonada$$$$ o modifique la dirección MAC del cliente."
+        "fail_mac_tips": "La dirección MAC de el enrutador no puede ser la misma de ningún cliente Wi-Fi. Por favor, $$$$modifique la dirección MAC clonada$$$$ o modifique la dirección MAC del cliente.",
+        "scan_wifi_fail_dfs_tips": "El dispositivo está comprobando la disponibilidad de canal DFS y no puede buscar Wi-Fi cercanas. Por favor, espera a que finalice la comprobación.",
+        "connet_dfs_tips": "Cuando el router repite una WiFi con un canal DFS, si esta WiFi está disponible, el router utilizará el canal DFS seleccionado. Ten en cuenta que si esta WiFi no está disponible, se cambiara el canal, lo que producirá una breve desconexión del cliente conectado a través de la WiFi. Algunos dispositivos se reconectarán automáticamente sin percibirlo, mientras que otros necesitarán ser reconectados manualmente."
     },
     "modem": {
         "title": "Módem celular",
@@ -138,7 +140,15 @@
         "sim_failover_interval_tips": "Si la conexión de internet sigue sin estar disponible después del failover, el dispositivo cambiará a la ranura SIM preferida y solo volverá a intentar el failover después de este intervalo.",
         "timing_check_main_sim_label": "Comprobando el Estado de la Ranura SIM Programada",
         "remove_profile_warning": "¿Estás seguro que quieres borrar esta configuración? La configuración no puede ser recuperada después de ser borrada.",
-        "no_sim_tips2": "No se detecta la tarjeta SIM. Compruebe si la tarjeta está insertada en la dirección correcta y si el contacto es bueno."
+        "no_sim_tips2": "No se detecta la tarjeta SIM. Compruebe si la tarjeta está insertada en la dirección correcta y si el contacto es bueno.",
+        "select_profile_title": "Seleccionar Perfil",
+        "manage_profiles_btn": "Gestionar Perfiles",
+        "save_as_profile_title": "Guardar como Perfil",
+        "setting_sim_title": "Configuraciones utilizadas por la SIM",
+        "select_profile_desc": "Puedes $$$$ Select a Profile $$$$ para copiar el contenido de este a las configuraciones utilizadas por la tarjeta SIM.",
+        "edit_profile_title": "Modificar Perfil",
+        "add_new_profile_title": "Añadir un Nuevo Perfil",
+        "sim_not_setup_label": "No Configurado"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
