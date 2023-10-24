@@ -68,19 +68,12 @@
         "all_select_btn": "Tout selectionner",
         "select_none_btn": "Tout deselectionner",
         "blacklist": "Liste des blocages",
-        "view_less": "",
         "low": "",
-        "band": "",
         "unlock": "",
-        "send": "",
         "medium": "",
-        "custom": "",
         "advanced": "",
-        "local": "",
         "name": "",
-        "whitelist": "",
-        "toggle_btn": "",
-        "global_options": ""
+        "toggle_btn": ""
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -91,8 +84,7 @@
         "installing": "Installation, veuillez patienter",
         "uninstalling": "Désinstallation, veuillez patientez",
         "unknown_err": "Une erreur est survenue. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur.",
-        "interface_timeout": "Temps d'attente dépassé. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur.",
-        "please_note": ""
+        "interface_timeout": "Temps d'attente dépassé. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur."
     },
     "date": {
         "day": "jour(s)",
@@ -105,8 +97,7 @@
         "saturday": "Sam",
         "second": "{count} seconde | {count} secondes",
         "min": "{count} Minute | {count} Minutes",
-        "hour": "{count} Heure | {count} Heures",
-        "for_last_time": ""
+        "hour": "{count} Heure | {count} Heures"
     },
     "internet": {
         "connected": "Connecté",
@@ -116,9 +107,7 @@
         "guest_ip_tips": "Le réseau invité est en conflit avec le réseau WAN, veuillez $$$$Changez le réseau invité$$$$ par des adresses différentes.",
         "up_not_online_tips": "L'interface est connectée, mais le protocole $$$$ ne permet pas d'accéder à Internet.",
         "offline_tips": "L'interface est connectée, mais il est impossible d'accéder à Internet.",
-        "band_width": "",
         "locked": "",
-        "server": "",
         "disabled": ""
     },
     "upload": {
