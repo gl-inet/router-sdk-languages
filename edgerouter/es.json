@@ -9,7 +9,12 @@
         "dhcp_set_gateway_tips": "El servicio de DHCP en el enrutador principal ha sido ajustado correctamente a {ip}, la suplantación (spoofing) de puerta de enlace está trabajando.",
         "auto_set_tips": "Se ha detectado que los ajustes DHCP de el enrutador principal han cambiado, y por ello es posible que éste enrutador no pueda manejar la red correctamente. Por favor, $$$$sincronice los ajustes de DHCP$$$$ o modifique sus ajustes manualmente.",
         "desc_vpn": "Tenga en cuenta que la directiva VPN de este dispositivo no funciona para clientes del puerto WAN en modo drop-in gateway.",
-        "cable_not_connected_tips": "No se detectó ningún cable en el puerto WAN. Por favor inserte un cable ethernet."
+        "cable_not_connected_tips": "No se detectó ningún cable en el puerto WAN. Por favor inserte un cable ethernet.",
+        "modify_superior_router_label": "Todos los dispositivos están conectados a través de la puerta de enlace Drop-in",
+        "modify_superior_router_desc": "Debes modificar la configuración de la ruta principal, la cual debe ser configurada por un usuario que tenga acceso a la ruta principal.",
+        "modify_self_router_label": "Algunos dispositivos eligen su propia puerta de enlace",
+        "modify_self_router_desc": "Debes cambiar manualmente la dirección de la puerta de enlace a la dirección IP de la puerta de enlace Drop-in en algunos de los dispositivos que necesitan utilizar la puerta de enlace Drop-in.",
+        "configuration_method_label": "Método de configuración"
     },
     "menu_edgerouter": "Suplantación (spoofing) de puerta de enlace"
 }
