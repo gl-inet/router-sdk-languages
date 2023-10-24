@@ -68,33 +68,19 @@
         "all_select_btn": "Tout selectionner",
         "select_none_btn": "Tout deselectionner",
         "blacklist": "Liste des blocages",
-        "current": "",
         "view_less": "",
-        "view_more": "",
         "low": "",
-        "clear": "",
         "band": "",
-        "lock": "",
         "unlock": "",
-        "debug": "",
         "send": "",
-        "upload": "",
         "medium": "",
-        "high": "",
         "custom": "",
-        "mode": "",
         "advanced": "",
-        "confirm": "",
         "local": "",
-        "save_btn": "",
         "name": "",
-        "select_btn": "",
         "whitelist": "",
-        "drag_sort": "",
         "toggle_btn": "",
-        "setting_instructions": "",
-        "global_options": "",
-        "interval_time": ""
+        "global_options": ""
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -106,9 +92,7 @@
         "uninstalling": "Désinstallation, veuillez patientez",
         "unknown_err": "Une erreur est survenue. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur.",
         "interface_timeout": "Temps d'attente dépassé. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur.",
-        "processing": "",
-        "please_note": "",
-        "port_occupied": ""
+        "please_note": ""
     },
     "date": {
         "day": "jour(s)",
@@ -122,7 +106,6 @@
         "second": "{count} seconde | {count} secondes",
         "min": "{count} Minute | {count} Minutes",
         "hour": "{count} Heure | {count} Heures",
-        "ms": "",
         "for_last_time": ""
     },
     "internet": {
@@ -133,13 +116,9 @@
         "guest_ip_tips": "Le réseau invité est en conflit avec le réseau WAN, veuillez $$$$Changez le réseau invité$$$$ par des adresses différentes.",
         "up_not_online_tips": "L'interface est connectée, mais le protocole $$$$ ne permet pas d'accéder à Internet.",
         "offline_tips": "L'interface est connectée, mais il est impossible d'accéder à Internet.",
-        "client": "",
         "band_width": "",
-        "unlocked": "",
         "locked": "",
-        "frequency": "",
         "server": "",
-        "enabled": "",
         "disabled": ""
     },
     "upload": {
@@ -152,8 +131,5 @@
         "format_error": "Format de données incorrect !",
         "too_large_tips": "Le ficher envoyé est trop lourd, veuillez télécharger un fichier dans $$$$.",
         "lass_than_tips": "(Moins de $$$$)"
-    },
-    "system": {
-        "battery_err_tips": ""
     }
 }
