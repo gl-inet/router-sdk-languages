@@ -1,6 +1,6 @@
 {
     "edgerouter": {
-        "desc": "Cuando la suplantación (spoofing) de puerta de enlace está activo, todo el tráfico de los clientes en la red es primeramente procesado por éste enrutador. Puede utilizar este modo para extender la funcionalidad de su enrutador primario.",
+        "desc": "Cuando se habilita el modo de puerta de enlace Drop-in, todo el tráfico de los clientes en la red son procesados primero por este router. Puedes utilizar este modo para ampliar la funcionalidad de tu router principal.",
         "enable_label": "Activar modo de suplantación (spoofing) de puerta de enlace",
         "dhcp_closed_tips": "El servicio de DHCP en el enrutador principal está deshabilitado, la suplantación (spoofing) de puerta de enlace está trabajando.",
         "enable_tips": "Cuando la suplantación (spoofing) de puerta de enlace está trabajando, el servicio de DNS de ésta puerta de enlace es utilizado en reemplazo de el DNS de la ruta principal.",
@@ -16,5 +16,5 @@
         "modify_self_router_desc": "Debes cambiar manualmente la dirección de la puerta de enlace a la dirección IP de la puerta de enlace Drop-in en algunos de los dispositivos que necesitan utilizar la puerta de enlace Drop-in.",
         "configuration_method_label": "Método de configuración"
     },
-    "menu_edgerouter": "Suplantación (spoofing) de puerta de enlace"
+    "menu_edgerouter": "Puerta de Enlace Drop-in"
 }
