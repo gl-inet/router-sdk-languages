@@ -15,6 +15,34 @@
         "end_ip": "Eind-IP-adres",
         "guest_conflict_tips": "Het overlapt met het IP-adres van het gastennetwerk",
         "end_smaller_tips": "Het eind-IP-adres moet groter zijn dan het begin-IP-adres.",
-        "lan_tab": "Privénetwerk"
-    }
+        "lan_tab": "Privénetwerk",
+        "ip_easy_tip": "Het IP-adres van de router is het adres dat u in de adresbalk van uw browser invoert om toegang te krijgen tot de beheerderspagina van de router.",
+        "ap_isolate_tips": "U kunt de apparaten van uw netwerk isoleren in een afzonderlijk netwerkgebied. Deze apparaten kunnen niet communiceren met andere apparaten op het netwerk.",
+        "lan_or_guest_senior_tip": "U kunt een subnet instellen binnen de IPv4-privéadresbereiken: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "enable_dhcp_tips": "De DHCP-server wijst automatisch IP-adressen en andere communicatieparameters toe aan elk apparaat. Als de DHCP-server is uitgeschakeld, moet u voor elke apparaat handmatig het IP-adres configureren.",
+        "dhcp_serve_title": "DHCP-server",
+        "dhcp_charter_label": "Geldigheidstijd",
+        "lpr_serve_label": "LPR-server",
+        "security_title": "Beveiligingsinstellingen",
+        "ap_isolate_label": "Apparaatisolatie",
+        "allow_lan_label": "Sta toe dat apparaten op het gastennetwerk toegang krijgen tot het privénetwerk",
+        "dhcp_disable_warning_tips": "Als u DHCP uitschakelt, kunt u mogelijk geen verbinding maken met Internet. Wees dus voorzichtig.",
+        "lpr_tips": "Er kunnen meerdere LPR-poorten worden ingevuld."
+    },
+    "address_reservation": {
+        "title": "IP-adresreservering",
+        "tips": "Wanneer u een gereserveerd IP-adres opgeeft voor een apparaat in het LAN, dan ontvangt dit apparaat altijd hetzelfde IP-adres wanneer deze verbinding maakt met de DHCP-server van de router. U kunt gereserveerde IP-adressen toewijzen aan computers en/of servers waarvoor permanente IP-adressen nodig zijn.",
+        "note": "Let op: Geconfigureerde apparaten moeten opnieuw verbinding maken met de router.",
+        "name": "Naam",
+        "action": "Actie",
+        "no_data": "Lege tabel",
+        "add_new": "Nieuwe reservering toevoegen",
+        "set_data": "Reservering bewerken",
+        "confirm_delete_all": "Weet u zeker dat u alle gereserveerde adressen wilt verwijderen?",
+        "confirm_delete": "Weet u zeker dat u de IP-adresreservering wilt verwijderen?",
+        "mac_existed": "Dit MAC-adres is al toegevoegd",
+        "ip_existed": "Dit IP-adres is al toegevoegd",
+        "desc_label": "Beschrijving"
+    },
+    "menu_guestip": "Gastennetwerk"
 }
