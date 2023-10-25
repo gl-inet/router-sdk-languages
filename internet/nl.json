@@ -15,7 +15,7 @@
         "pppoe_vlanid_tips": "Deze instelling is alleen vereist als de PPPoE-server van de provider vereist dat de interface een getagde specifieke VLAN-ID gebruikt.",
         "egderouter_mode_tips": "De plaatsvervangende gateway is ingeschakeld. Als u de ethernet-instellingen wilt wijzigen, schakel dan eerst $$$$de plaatsvervangende gateway$$$$ uit.",
         "change_to_lan_check_tips": "Koppel eerst de ethernetkabel los die op de WAN-poort is aangesloten. $$$$ Herdetecteren $$$$",
-        "change_to_wan_tips": "Zodra de LAN-poort als WAN-poort wordt gebruikt, hebt u geen toegang meer tot het beheerderspaneel via deze netwerkpoort die op de LAN-poort is aangesloten. Zorg ervoor dat uw cliënt verbinding kan maken met Wi-Fi of een andere LAN-poort.",
+        "change_to_wan_tips": "Zodra de LAN-poort als WAN-poort wordt gebruikt, hebt u geen toegang meer tot het beheerderspaneel via deze netwerkpoort die op de LAN-poort is aangesloten. Zorg ervoor dat uw apparaat verbinding kan maken met Wi-Fi of een andere LAN-poort.",
         "change_to_wan_tips2": "U kunt de LAN-poort herstellen (zodat deze niet langer als WAN-poort wordt gebruikt) door de resetknop op het apparaat vier seconden ingedrukt te houden."
     },
     "tethering": {
@@ -44,7 +44,7 @@
         "advanced_settings": "Geavanceerde instellingen",
         "fail_key_tips": "Onjuist wachtwoord.",
         "fail_eap_key_tips": "Onjuiste gebruikersnaam en/of wachtwoord",
-        "connet_dfs_tips": "Wanneer de router een Wi-Fi-netwerk met een DFS-kanaal versterkt, zal de router, als deze Wi-Fi-netwerk beschikbaar is, het geselecteerde DFS-kanaal gebruiken. Houd er rekening mee dat als deze Wi-Fi-netwek niet beschikbaar is, het kanaal zal worden omgeschakeld, wat zal resulteren in een korte ontkoppeling van de cliënt die via Wi-Fi-netwerk is verbonden, en dat sommige apparaten opnieuw zullen worden verbonden zonder dat dit wordt opgemerkt, terwijl andere handmatig opnieuw moeten worden verbonden.",
+        "connet_dfs_tips": "Wanneer de router een Wi-Fi-netwerk met een DFS-kanaal versterkt, zal de router, als deze Wi-Fi-netwerk beschikbaar is, het geselecteerde DFS-kanaal gebruiken. Houd er rekening mee dat als deze Wi-Fi-netwek niet beschikbaar is, het kanaal zal worden omgeschakeld, wat zal resulteren in een korte ontkoppeling van het apparaat dat via Wi-Fi-netwerk is verbonden, en dat sommige apparaten opnieuw zullen worden verbonden zonder dat dit wordt opgemerkt, terwijl andere handmatig opnieuw moeten worden verbonden.",
         "allow_change": "Sta het overschakelen naar andere opgeslagen netwerken toe",
         "allow_change_tips": "Als de optie is ingeschakeld, maakt de router automatisch verbinding met andere opgeslagen netwerken wanneer hij geen verbinding kan maken met het huidige Wi-Fi-netwerk.",
         "antijam": "Forceer een bandbreedte van 20 MHz voor 2,4G",
@@ -63,7 +63,7 @@
         "fail_not_found_tips": "Kon het netwerk niet vinden. Controleer de SSID en het beveiligingstype dat u heeft ingevoerd.",
         "unusable_eap_tips": "Deze router ondersteunt niet het versterken van netwerken die EAP gebruiken.",
         "scan_wifi_fail_dfs_tips": "Het apparaat voert de beschikbaarheidscontrole van DFS-kanalen uit en kan niet scannen naar Wi-Fi in de buurt. Wacht tot de controle is voltooid.",
-        "fail_mac_tips": "Het MAC-adres van de router kan niet hetzelfde zijn als die van welke Wi-Fi-cliënt dan ook. $$$$Wijzig het MAC-adres dat is gekloond$$$$ of wijzig het MAC-adres van die cliënt."
+        "fail_mac_tips": "Het MAC-adres van de router kan niet hetzelfde zijn als die van welk Wi-Fi-apparaat dan ook. $$$$Wijzig het MAC-adres dat is gekloond$$$$ of wijzig het MAC-adres van het apparaat."
     },
     "modem": {
         "title": "Mobiel",
@@ -112,7 +112,7 @@
         "available_tower_title": "Beschikbare masten",
         "lock_tower_title": "Mast vergrendelen",
         "connecting_tips": "Sommige simkaarten hebben speciale gebruiksbeperkingen, bijvoorbeeld de noodzaak om een specifieke APN te gebruiken. Als uw simkaart niet kan worden geregistreerd, neem dan contact op met uw netwerkoperator om te zien of er speciale beperkingen gelden voor uw simkaart.",
-        "locked_tower_tips": "Als de vergrendelde mast niet overeenkomt met de bandmaskering of APN-parameters in de mobiele instellingen, kan het mobiele interface geen verbinding maken met Internet.",
+        "locked_tower_tips": "Als de vergrendelde mast niet overeenkomt met de bandmaskering of APN-parameters in de mobiele instellingen, kan het mobiele interface geen verbinding maken met internet.",
         "plug_in_tips": "Geen modem gevonden. Sluit uw USB-modem aan om te beginnen.",
         "port_tips": "De cdc-wcdm0-poort is sneller, terwijl de ttyUSBX-poort heeft een betere compatibiliteit heeft.",
         "apn_tips": "Sommige simkaarten vereisen een specifieke APN. Als u de juiste APN niet weet, vraag dit dan aan uw netwerkoperator.",
@@ -136,11 +136,11 @@
         "main_slot_label": "Voorkeurs SIM-kaartsleuf",
         "sim_no_profile_warning": "Er is geen instelling geselecteerd, deze wordt automatisch geconfigureerd.",
         "sim_failover_interval_label": "Failover-interval",
-        "sim_failover_interval_tips": "Als de Internetverbinding nog steeds niet beschikbaar is nadat er een failover heeft plaatsgevonden, schakelt het apparaat terug naar de gewenste SIM-sleuf en probeert het de failover pas na dit interval opnieuw.",
+        "sim_failover_interval_tips": "Als de internetverbinding nog steeds niet beschikbaar is nadat er een failover heeft plaatsgevonden, schakelt het apparaat terug naar de gewenste SIM-sleuf en probeert het de failover pas na dit interval opnieuw.",
         "timing_check_main_sim_label": "Gepland de status van voorkeursslot controleren",
         "timing_check_main_sim_tips": "Als deze optie is ingeschakeld, probeert het apparaat op het opgegeven tijdstip terug te schakelen naar het gewenste SIM-kaartsleuf. Met deze functie kunt u terugschakelen naar de gewenste SIM-kaartsleuf wanneer de internetverbinding beschikbaar is.",
         "remove_profile_warning": "Weet je zeker dat je dit profiel wilt verwijderen? Het profiel kan na verwijdering niet worden hersteld.",
-        "set_detection_tips": "De Internetstatus wordt op dezelfde manier gedetecteerd als de instellingen op de $$$$Multi-WAN$$$$-pagina.",
+        "set_detection_tips": "De internetstatus wordt op dezelfde manier gedetecteerd als de instellingen op de $$$$Multi-WAN$$$$-pagina.",
         "check_main_sim_time_label": "Schakeltijd",
         "data_roaming_label": "Internationale dataroaming",
         "enable_band_filter_label": "Bandmaskering inschakelen",
