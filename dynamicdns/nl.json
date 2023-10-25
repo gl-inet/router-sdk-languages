@@ -16,7 +16,18 @@
         "to_security_btn": "Ga naar beveiligingsinstellingen",
         "enable_http": "Schakel HTTP-externe-toegang in",
         "detecting": "Wordt gedetecteert, een ogenblik…",
-        "enable_http_tip": "HTTP is een niet-versleuteld protocol. Ben voorzichtig."
+        "enable_http_tip": "HTTP is een niet-versleuteld protocol. Ben voorzichtig.",
+        "desc": "U kunt dynamische DNS (DDNS) voor deze router inschakelen, zo dat u op afstand toegang krijgen tot het beheerpaneel van deze router. Er zal een vertraging van maximaal tien minuten optreden bij de synchronisatie van records tussen DNS-servers. Dit kan ertoe leiden dat toegang via DDNS-domeinen niet direct beschikbaar is nadat u DDNS hebt ingeschakeld of als uw openbare IP-adres onlangs is gewijzigd.",
+        "parsing_error_tips": "Het DNS-record voor dit DDNS-domein kan niet worden gevonden door de DNS-server. Controleer de internetverbinding van de router.",
+        "parsing_warning_tips": "Het IP-adres van die de DNS-server retourneert is niet hetzelfde als het WAN IP-adres van de router. U hebt een openbaar internet-IP-adres nodig om dynamische DNS te gebruiken. Als deze router zich achter NAT bevindt, moet u mogelijk poort-forwarding instellen op uw de router van uw internetprovider. Als u de VPN-cliënt heeft ingeschakeld, schakel dan \"Services van GL.iNet gebruiken VPN\" uit in de algemene opties.",
+        "need_pubilc_ip_tips": "U heeft een openbaar IP-adres nodig om dynamische DNS te gebruiken.",
+        "sevices_warning_tips": "Als u de VPN-cliënt heeft ingeschakeld, schakel dan \"Services van GL.iNet gebruiken VPN\" uit in de algemene opties.",
+        "enabled_tips": "Er kan een vertraging van maximaal 10 minuten optreden bij de recordsynchronisatie tussen DNS-servers. Dit kan ertoe leiden dat u geen toegang meer kunt krijgen via de DDNS-domeinnaam onmiddellijk nadat u deze heeft ingeschakeld of dat uw openbare IP-adres is gewijzigd.",
+        "remote_access_tips": "Als u op afstand toegang wilt krijgen tot de router, ga dan naar $$$$de beveiligingspagina$$$$ om dit in te stellen.",
+        "parsing_ip_warning_tips": "Het IP-adres dat de DNS-server retourneert is niet gelijk aan het WAN-IP-adres van de router.",
+        "nat_warning_tips": "Als deze router zich achter NAT bevindt, moet u mogelijk poort-forwarding instellen op uw ISP-router.",
+        "use_desc": "U kunt dynamische DNS (DDNS) voor deze router inschakelen en op afstand toegang krijgen tot deze router.",
+        "security_settings_tips": "In \"Systeembeveiliging > Toegangsbeheer op afstand\" kunt u twee opties wijzigen om de toegang op afstand te beperken."
     },
     "menu_dynamicdns": "Dynamische DNS"
 }
