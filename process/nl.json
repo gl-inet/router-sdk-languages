@@ -1,1 +1,15 @@
-{}
+{
+    "process": {
+        "installing": "Wordt geïnstalleerd",
+        "upgrading": "Wordt bijgewerkt",
+        "rebooting": "Wordt herstart",
+        "reverting": "Wordt teruggezet",
+        "restore": "Wordt hersteld",
+        "reboot_tips": "Het opnieuw opstarten van de router duurt ongeveer $$$$. Vernieuw de pagina NIET totdat deze klaar is.",
+        "wait_tips": "Als dit proces te lang duurt, volg dan de probleemoplossingsgidsen op",
+        "restore_tips": "Het herstellen van een back-up duurt ongeveer $$$$. Vernieuw de pagina niet totdat deze klaar is.",
+        "upgrade_tips": "Als u na het bijwerken van de firmware geen toegang kunt krijgen tot het webpaneel van uw router, probeer dan de browsercache te wissen.",
+        "install_tips": "De software-installatie duurt enkele minuten. Vernieuw de pagina NIET totdat deze klaar is.",
+        "revert_tips": "Het resetten van de firmware duurt ongeveer $$$$. Al uw huidige instellingen, applicaties en gegevens worden gewist. Vernieuw de pagina NIET totdat deze klaar is."
+    }
+}

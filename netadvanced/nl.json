@@ -1,1 +1,7 @@
-{}
+{
+    "netadvanced": {
+        "full_cone_nat_tips": "Full Cone NAT kan worden gebruikt om de latentie van games te verminderen, maar het inschakelen van Full Cone NAT is mogelijk minder veilig.",
+        "sip_alg_tips": "SIP ALG kan worden gebruikt om de effecten van meerdere NAT's te verzachten, maar in de meeste gevallen zal dit niet helpen. Het inschakelen van SIP ALG kan van invloed zijn op VoIP-oproepen, zoals eenrichtingsaudio (slechts één partij kan de andere partij horen), telefoons die niet overgaan tijdens een gesprek, telefoons die wegvallen terwijl ze verbonden zijn en oproepen die rechtstreeks naar de voicemail gaan."
+    },
+    "menu_netadvanced": "NAT-instellingen"
+}

@@ -1,1 +1,24 @@
-{}
+{
+    "tailscale": {
+        "ready_tips": "Dit apparaat is verbonden met het Tailscale virtuele netwerk.",
+        "enable_lan_label": "Sta externe toegang tot het LAN toe",
+        "account_label": "Account koppelen",
+        "logout_btn": "Ontkoppelen",
+        "current_ip_label": "Het virtuele IP-adres van de router",
+        "get_url_err_msg": "Kon niet de apparaatkoppelingslink ophalen.",
+        "enable_wan_label": "Sta externe toegang tot het WAN toe",
+        "manual_node_label": "Aangepaste uitgangsknooppunten",
+        "exit_node_label": "Uitgangsknooppunt",
+        "need_login_tips": "De Tailscale service is ingeschakeld, maar het apparaat is nog niet gebonden. Koppel dit apparaat aan uw Tailscale-account met behulp van $$$$de apparaatkoppellink$$$$.",
+        "enable_lan_tips": "Het apparaat geeft Tailscale-clients al toegang tot bronnen op het LAN of WAN. Maar u moet de route-instellingen bewerken in $$$$Tailscale Admin Console$$$$ zodat cliëntenaanvragen via het Tailscale virtuele netwerk naar het apparaat kunnen worden doorgestuurd.",
+        "allow_lan_tips": "Als deze optie is ingeschakeld, mogen de bronnen binnen het LAN van het apparaat worden benaderd via het virtuele Tailscale-netwerk.",
+        "current_ip_tips": "Tailscale gebruikt het 100.64.0.0/10-subnet, wat in conflict kan komen met een door de ISP toegewezen adres of een VPN-cliëntadres. Als uw WAN IP of VPN IP een adres binnen dit subnet is, schakelt u Tailscale uit om te voorkomen dat u niet kunt netwerken.",
+        "exit_node_tips": "Als het door u geselecteerde uitgangsknooppunt niet beschikbaar is of geen toegang heeft tot het Internet, kan het apparaat de instellingen niet synchroniseren met Tailscale.",
+        "dns_warning_tips": "Wanneer u een intranet-IP-adres als DNS gebruikt, heeft u mogelijk geen toegang tot de DNS-server.",
+        "desc": "$$$$Tailscale$$$$ maakt de apparaten die u bezit overal ter wereld veilig en moeiteloos toegankelijk. Het maakt gecodeerde point-to-point-verbindingen mogelijk, wat betekent dat alleen apparaten op uw privénetwerk met elkaar kunnen communiceren. U kunt het gebruiken om op afstand toegang te krijgen tot uw apparaten of LAN.",
+        "need_mandate_tips": "Dit apparaat is gebonden aan het Tailscale-account, maar is nog niet geautoriseerd voor toegang tot het netwerk. Ga naar $$$$ Tailscale Admin Console$$$$ om het apparaat te autoriseren om verbinding te maken met uw virtuele netwerk. Als dit niet uw account is, dient u dit eerst te ontkoppelen.",
+        "allow_wan_tips": "Als deze optie is ingeschakeld, mogen de bronnen aan de WAN-kant van het apparaat worden benaderd via het virtuele Tailscale-netwerk.",
+        "custom_exit_node_tips": "Als deze optie is ingeschakeld, stuurt het apparaat alle verzoeken door naar het uitgangsknooppunt. Voordat u dit inschakelt, moet u subnetroutes {subnet} van dit apparaat inschakelen in $$$$Tailscale Admin Console$$$$ zodat Tailscale cliëntverzoeken kan doorsturen; Anders hebben uw klanten geen toegang tot internet.",
+        "custom_exit_node_warning": "Als u een aangepaste uitgangsknooppunt inschakelt, stuurt het apparaat alle verzoeken door naar het uitgangsknooppunt. Voordat dit wordt ingeschakeld, moet u subnetroutes {subnet} van dit apparaat inschakelen in $$$$Tailscale Admin Console$$$$ zodat Tailscale cliëntverzoeken kan doorsturen; Anders hebben uw cliënten geen toegang tot het Internet."
+    }
+}

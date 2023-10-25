@@ -1,1 +1,32 @@
-{}
+{
+    "firewall": {
+        "port_forwards": "Poort-forwarding",
+        "dmz_desc": "Met DMZ kunt u alle binnenkomend verkeer doorsturen naar één lokaal IP-adres.",
+        "open_dmz": "DMZ inschakelen",
+        "dmz_host_ip": "DMZ host-IP-adres",
+        "name": "Naam",
+        "protocol": "Protocol",
+        "external_zone": "Externe zone",
+        "external_ports": "Externe poort",
+        "internal_zone": "Interne zone",
+        "internal_ip": "Intern IP-adres",
+        "port": "Poort",
+        "action": "Actie",
+        "no_data": "Geen data in de tabel",
+        "edit_port_forwards_title": "Poort-forwarding aanpassen",
+        "edit_router_prot_title": "Openstaande poort aanpassen",
+        "confirm_delete_tips": "Weet u zeker dat u deze regel wilt verwijderen?",
+        "source": "Bron (zone, poort)",
+        "dest": "Doel (zone, IP-adres, poort)",
+        "enable": "Inschakelen",
+        "open_ports_on_router": "Poorten openen",
+        "dmz_tips": "Als u DMZ inschakelt, hebben de poort-forwardings en geopende poorten geen effect.",
+        "internal_ports": "Interne poort",
+        "add_port_forwards_title": "Nieuwe poort-forwarding",
+        "add_router_prot_title": "Nieuwe openstaande poort",
+        "delete_all_port_tips": "Weet u zeker dat u alles wilt leegmaken?",
+        "port_forwards_desc": "Als u servers in uw LAN-subnet heeft en wilt dat deze toegankelijk zijn vanaf de WAN-kant, moet u poort-forwards naar deze servers instellen.",
+        "open_port_on_router_dest": "Om veiligheidsredenen zijn de diensten die u op het apparaat installeert alleen toegankelijk voor het LAN-netwerk. Als u wilt dat ze toegankelijk zijn vanaf het WAN-netwerk, moet u poorten voor deze services op het WAN openen."
+    },
+    "menu_firewallview": "Firewall"
+}

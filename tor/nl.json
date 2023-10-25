@@ -1,1 +1,11 @@
-{}
+{
+    "tor": {
+        "manual_label": "Aangepaste uitgangsknooppunten",
+        "exit_node_label": "Uitgangsknooppunt",
+        "log_title": "Tor-logboek",
+        "use_tips": "Wanneer Tor is ingeschakeld, werken de volgende functies niet correct: VPN, DNS, IPv6 en ADGuard Home.",
+        "desc": "Tor (afgeleid van \"The Onion Router\") is gratis, open source software voor het mogelijk maken van anonieme communicatie. Het helpt gebruikers om het internet met anonimiteit te verkennen.",
+        "matter_tips": "Deze functie bevindt zich momenteel in de bètafase en kan in sommige landen problemen veroorzaken.",
+        "exit_node_tips": "U kunt een aangepaste locatie kiezen die in trackers wordt weergegeven."
+    }
+}

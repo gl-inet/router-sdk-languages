@@ -1,1 +1,7 @@
-{}
+{
+    "igmp": {
+        "desc": "IGMP Snooping luistert en extraheert informatie uit het IGMP-protocolpakket, brengt de laag 2 multicast-doorstuurpublicatie tot stand en onderhoudt deze, en stuurt vervolgens de multicast-groepsgegevens door naar elke host die zich bij de multicast-groep aansluit, terwijl andere hosts de multicast-groepsgegevens niet kunnen ontvangen.",
+        "note": "IGMPv3 is compatibel met v1 en v2. Gebruik standaard v3 en schakel over als u een probleem ondervindt.",
+        "version": "Versie"
+    }
+}

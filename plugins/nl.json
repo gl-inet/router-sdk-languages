@@ -1,1 +1,37 @@
-{}
+{
+    "plugins": {
+        "update": "Bijwerken",
+        "uninstall": "verwijderen",
+        "no_packages": "Geen softwarepakketten",
+        "free_space": "Vrije schijfruimte:",
+        "filter": "Filter",
+        "search_package": "Zoek pakketten",
+        "name": "Naam",
+        "version": "Versie",
+        "size": "Grootte",
+        "action": "Actie",
+        "all": "Alles",
+        "no_install": "Niet geïnstalleerd",
+        "installed": "Geïnstalleerd",
+        "available_update": "Update beschikbaar",
+        "install_faile": "Mislukte installatie",
+        "uninstall_success": "Succesvolle verwijdering",
+        "uninstall_faile": "Mislukte verwijdering",
+        "package_info": "Softwarepakketinfo",
+        "go": "Ga",
+        "system": "systeem",
+        "time_last_update": "Laatst ververst:",
+        "loading_tips": "De lijst wordt ververst, een ogenbik...",
+        "edit_sources_btn": "Bronnen beheren",
+        "add_sources_tips": "Het formaat van alle softwarebronnen is src/gz.",
+        "add_sources_title": "Voeg een aangepaste bron toe",
+        "install": "installeren",
+        "confirm_uninsatll_dependency": "Afhankelijke softwarepakketten verwijderen",
+        "user_retention": "Gereserveerd",
+        "install_success": "Succesvolle installatie",
+        "uninstall_caution": "Weet je zeker dat je het volgende wilt verwijderen",
+        "tips": "Kan de lijst met bronnen niet bijwerken. Controleer uw netwerkverbinding en probeer het opnieuw.",
+        "system_tip": "Het softwarepakket maakt deel uit van het basissysteem van de router en kan daardoor niet worden verwijderd."
+    },
+    "menu_plugins": "Invoegtoepassingen"
+}

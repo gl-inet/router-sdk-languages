@@ -1,1 +1,20 @@
-{}
+{
+    "menu_lanip": "LAN",
+    "lan_ip": {
+        "lan": "IP-adres van de router",
+        "guest": "Standaardgateway",
+        "start_ip": "Begin-IP-adres",
+        "change_to": "Het IP-adres van de router is succesvol veranderd naar",
+        "redirect_to": "U wordt nu herleid naar het nieuwe IP-adres",
+        "lan_conflict_tips": "Het overlapt met het IP-adres van het LAN-netwerk",
+        "ip_outside_tips": "Het IP-adres zit buiten het subnet",
+        "cannot_contain_ip_tips": "Deze IP-adressenreeks mag niet het IP-adres van de router bevatten",
+        "lan_or_guest_model_setting": "Geavanceerd",
+        "user_count_max": "Maximaal aantal gebruikers",
+        "guest_tab": "Gastennetwerk",
+        "end_ip": "Eind-IP-adres",
+        "guest_conflict_tips": "Het overlapt met het IP-adres van het gastennetwerk",
+        "end_smaller_tips": "Het eind-IP-adres moet groter zijn dan het begin-IP-adres.",
+        "lan_tab": "Privénetwerk"
+    }
+}

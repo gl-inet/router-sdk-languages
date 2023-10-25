@@ -25,7 +25,7 @@
         "set_proxy_label": "Proxy DNS",
         "form_wan_label": "DNS desde Internet",
         "form_tethering_label": "DNS desde Tethering",
-        "form_modem_label": "DNS desde Celular",
+        "form_modem_label": "DNS a través de Móvil",
         "form_ovpn_label": "DNS desde OpenVPN",
         "server_tips": "Puede elegir hasta 8 servidores. El enrutador elegirá automáticamente el servidor más rápido entre ellos.",
         "set_dns_server_title": "Configuración del Servidor DNS",
@@ -36,6 +36,7 @@
         "form_wg_label": "DNS desde WireGuard",
         "adguardhome_in_use_tips": "Si AdGuard Home está activado, el router debe utilizar el servidor DNS proporcionado por AdGuard Home y no se pueden personalizar los servidores DNS.",
         "server_warning_tips": "Parece que el servidor ha expirado.",
-        "form_interface_label": "DNS desde {interface}"
+        "form_interface_label": "DNS desde {interface}",
+        "bark_enable_override_tips": "Bark bloquea casi todas las solicitudes DNS de los clientes enviadas a Internet. Si habilitas esta opción mientras Bark está funcionando, es posible que tus clientes no puedan acceder a Internet."
     }
 }

@@ -1,1 +1,20 @@
-{}
+{
+"adguardhome": {
+"desc": "AdGuard Home is netwerk-brede software die advertenties en tracking blokkeert. Na het instellen werkt het voor ALLE apparaten in uw thuisnetwerk, er is geen extra client-side software nodig. Deze pagina haalt statistieken op via de API van AdGuard Home. Wanneer AdGuard Home is ingeschakeld, zal de router het gebruik van DNS-servers van AdGuard Home afdwingen.",
+"top_blocked_domain": "Meest geblokkeerde domeinen",
+"dns_querie_title": "DNS-query's",
+"blocked_filtering_title": "Geblokkeerd door filter",
+"tips": "Ga naar de $$$$instellingen$$$$ om de geavanceerde configuratie van Adguard Home uit te voeren.",
+"top_queried_domain": "Meest opgevraagde domeinen",
+"replaced_safebrowsing_title": "Geblokkeerde malware/phishingpagina's",
+"replaced_parental_title": "Geblokkeerde website voor volwassenen",
+"for_last_one_day": "In de afgelopen 24 uur",
+"for_last_days": "De afgelopen $$$$ dagen",
+"not_disabled_dns_msg": "Er is geen andere DNS uitgeschakeld",
+"domain_th": "Domein",
+"request_th": "Aantal aanvragen",
+"no_data": "Data ontbreekt",
+"process_req_label": "AdGuard Home verwerkt verzoeken van cliënten",
+"process_req_tips": "Als deze optie is ingeschakeld, worden DNS-query's van client-apparaten rechtstreeks door AdGuard Home afgehandeld. AdGuard Home toont DNS-querylogboeken van clients, maar dit zorgt ervoor dat het VPN-beleid op basis van domein, niet werkt."
+}
+}
