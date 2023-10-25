@@ -1,6 +1,6 @@
 {
     "multiwan": {
-        "track_enable_tips": "Indien monitoren is uitgeschakeld, zal de router aanneme dat de netwerkoort, wanneer ingeplugd en een IP-adres heeft, altijd verbonden is met het internet.",
+        "track_enable_tips": "Indien netwerkpoort monitoring is uitgeschakeld, zal de router aannemen dat de netwerkpoort, wanneer ingeplugd (bv. via een kabel is aangesloten) en een IP-adres heeft, altijd verbonden is met het internet.",
         "mode_label": "Modus",
         "mode_failover_tips": "De router selecteert automatisch, op basis van prioriteit, de eerst volgende netwerkpoort.",
         "mode_balancing_tips": "Het systeem wijst netwerkpoorten toe op basis van het belastingsratio.",
@@ -29,7 +29,7 @@
         "sensitivity_label": "Gevoeligheid",
         "network_tracking_title": "{interface}-statusmonitoring",
         "sensitivity_options_label": "Gevoeligheidsinstellingen",
-        "sensitivity_tips": "Deze gevoeligheid bepaalt het tijdsinterval voor detectie van de internetstatus. Het wordt aanbevolen om een lage gevoeligheid te gebruiken wanneer de internettoegang instabiel is, om te voorkomen dat er regelmatig van netwerk wordt gewisseld; het wordt aanbevolen om hoge gevoeligheid te gebruiken bij video- of livestreaming om ervoor te zorgen dat u snel van Internettoegang kunt wisselen; Als u overschakelt naar hoge gevoeligheid, kan dit tot gevolg hebben dat de netwerkverbinding wordt verbroken. Pas dit met voorzichtigheid aan.",
+        "sensitivity_tips": "Deze gevoeligheid bepaalt het tijdsinterval voor detectie van de internetstatus. Het wordt aanbevolen om een lage gevoeligheid te gebruiken wanneer de internettoegang instabiel is, om te voorkomen dat er regelmatig van netwerk wordt gewisseld; het wordt aanbevolen om hoge gevoeligheid te gebruiken bij video- of livestreaming om ervoor te zorgen dat u snel van internettoegang kunt wisselen; Als u overschakelt naar hoge gevoeligheid, kan dit tot gevolg hebben dat de netwerkverbinding wordt verbroken. Pas dit met voorzichtigheid aan.",
         "tips": "De router ondersteunt verbindingen met meerdere netwerkpoorten tegelijkertijd. U kunt configureren hoe deze meerdere netwerken moeten worden gebruikt.",
         "failover_desc": "Failover: Als de huidige, actieve verbinding uitvalt, schakelt de router automatisch over naar een andere netwerkpoort.",
         "balancing_desc": "Belastingsbalans: gebruikt meerdere netwerkpoorten tegelijkertijd om de totale bandbreedte van de router te vergroten.",
