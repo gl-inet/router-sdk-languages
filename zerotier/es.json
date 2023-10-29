@@ -1,6 +1,6 @@
 {
     "zerotier": {
-        "desc": "$$$$ZeroTier$$$$ crea de forma segura redes virtuales Ethernet de punto-a-punto (peer to peer) que funcionan en cualquier lugar y tienen soporte de acceso a dispositivos tales como teléfonos, PCs etc. Puede utilizar ZeroTier para acceder a sus dispositivos o su LAN de forma remota.",
+        "desc": "$$$$ZeroTier$$$$ crea de forma segura una red virtual Ethernet de punto-a-punto (peer to peer) que es accesible desde cualquier lugar y permite el acceso a dispositivos tales como teléfonos, PCs etc. Puede utilizar ZeroTier para acceder a sus dispositivos o su LAN de forma remota.",
         "first_use_tips": "ZeroTier conecta a su red virtual usando el ID de Red (Network ID), el cual debe ser creado en $$$$ZeroTier Central$$$$.",
         "authorized_tips": "El dispositivo está conectado a su red virtual ZeroTier.",
         "enable_nat_tips": "El dispositivo ya permite clientes de ZeroTier a que tengan acceso a los recursos en en la WAN o LAN. Sin embargo, es necesario crear reglas de enrutamiento (routing rules) en $$$$ZeroTier Central$$$$ de forma que las que las solicitudes de cliente sean reenviadas correctamente al dispositivo a través de la red virtual ZeroTier:",
