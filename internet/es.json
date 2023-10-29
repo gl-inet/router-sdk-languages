@@ -5,7 +5,7 @@
         "rm_wan_cable": "Por favor, retire el cable ethernet del puerto WAN.",
         "wan_been_lan": "El puerto WAN se ha utilizado como LAN. Puede configurarlo de nuevo a WAN más abajo",
         "confirm_to_lan": "¿Está seguro de que querer utilizar el puerto WAN como LAN?",
-        "confirm_to_wan": "¿Está seguro de que querer volver a utilizar el puerto WAN como WAN?",
+        "confirm_to_wan": "¿Está seguro de que querer volver a utilizar el puerto LAN como WAN?",
         "repeated": "Conectado con éxito sin haber sido necesario volver a conectar",
         "using_as_lan": "Usando como LAN, $$$$Cambiar a WAN$$$$",
         "using_as_wan": "Usando como WAN, $$$$Cambiar a LAN$$$$",
@@ -14,9 +14,9 @@
         "dhcp_tips": "Dirección IP asignada por una máquina de red a un nivel superior.",
         "pppoe_vlanid_tips": "Éste ajuste sólo es necesario si el servidor PPPoE del proveedor requiere que la interfaz utilice una etiqueta específica de ID de VLAN.",
         "egderouter_mode_tips": "El modo Drop-in Gateway está activado. Si quiere modificar los ajustes de Ethernet, por favor primeramente deshabilite $$$$Drop-in Gateway$$$$.",
-        "change_to_wan_tips": "Una vez que el puerto LAN es usando como puerto WAN, no tendrás acceso al panel de administración usando un cable de red conectado a la LAN. Asegúrese que su cliente se puede conectar por Wi-Fi.",
-        "change_to_wan_tips2": "Puedes restaurar el puerto LAN (que ya no se use como puerto WAN) manteniendo presionado el botón de reset en el dispositivo durante 4 segundos.",
-        "change_to_lan_check_tips": "Por favor desconecta primero el cable conectado al puerto WAN. $$$$ Detectando... $$$$"
+        "change_to_wan_tips": "Una vez que el puerto LAN es usando como puerto WAN, no podrá acceder al panel de administración usando un cable de red conectado al puerto LAN. Asegúrese de que su cliente se puede conectar por Wi-Fi.",
+        "change_to_wan_tips2": "Puede restaurar el puerto LAN (que ya no se use como puerto WAN) manteniendo presionado el botón de reset en el dispositivo durante cuatro (4) segundos.",
+        "change_to_lan_check_tips": "Por favor, desconecte primero el cable conectado al puerto WAN. $$$$ Detectando... $$$$"
     },
     "tethering": {
         "title": "Uso compartido (Tethering)",
