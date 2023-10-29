@@ -2,9 +2,9 @@
     "firewall": {
         "port_forwards": "Redirecciones de puertos",
         "open_ports_on_router": "Puertos abiertos en el enrutador",
-        "port_forwards_desc": "La redirección de puertos permite que ordenadores remotos se puedan conectar a un ordernador o un servicio específico detrás del firewall en la LAN local (tal como servidores Web, servidores FTP, etc.).",
-        "open_port_on_router_dest": "Los servicios del enrutador tal como Web, FTP, etc., requieren que se abran sus respectivos puertos en el enrutador para ser accesibles públicamente.",
-        "dmz_desc": "DMZ le permite exponer un ordenador al Internet para que todos los paquetes entrantes sean redirigidos dicho ordenador.",
+        "port_forwards_desc": "Si tiene servidores en su red local (LAN) y quiere que sean accesibles desde el lado WAN, debe configurar la redirección de puertos a esos servidores, identificados por sus direcciones IP y puertos.",
+        "open_port_on_router_dest": "Por razones de seguridad, los servicios que instale en el dispositivo solo están disponibles en la red local (LAN). Si quiere que sean accesibles desde la red WAN, debe abrir los puertos correspondientes a estos servicios en la WAN.",
+        "dmz_desc": "DMZ le permite exponer un ordenador local a Internet para que todos los paquetes entrantes sean redirigidos a dicho ordenador.",
         "dmz_tips": "Si activa la DMZ, las reglas de redirección de puertos y de puertos abiertos no tendrán efecto.",
         "open_dmz": "Activar la DMZ",
         "dmz_host_ip": "Dirección IP del ordenador expuesto a través de la DMZ",
