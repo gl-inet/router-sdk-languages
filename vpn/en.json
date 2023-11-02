@@ -255,7 +255,8 @@
         "ovpnclient_tap_s2s_ip_tips": "The IP address of the OpenVPN client may change.",
         "client_each_other_tips": "This is VPN Client to VPN Client, not Site to Site.",
         "account_service_credentials_title": "Service Credentials",
-        "generate_peer_falied_msg": "Failed to generate client ip"
+        "generate_peer_falied_msg": "Failed to generate client ip",
+        "domain_err_tips": "Incorrect formatting, please change manually or $$$$one-click processing$$$$"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
