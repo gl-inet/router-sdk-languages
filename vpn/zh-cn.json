@@ -255,7 +255,8 @@
         "ovpnclient_tap_s2s_close_tips": "此功能关闭后, OpenVPN 客户端会恢复成原来的IP地址。",
         "client_each_other_tips": "这里是 VPN 客户端 到 VPN 客户端，不是 端到端。",
         "account_service_credentials_title": "服务凭证",
-        "generate_peer_falied_msg": "无法生成客户端 ip"
+        "generate_peer_falied_msg": "无法生成客户端 ip",
+        "domain_err_tips": "格式不正确，请手动更改或$$$$一键处理$$$$"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
