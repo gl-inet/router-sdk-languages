@@ -255,7 +255,8 @@
         "rootcert_missing_tips": "Het certificaat ontbreekt; Voeg een certificaat toe voordat u doorgaat.",
         "block_traffic_domain_filter_warning": "De $$$$-optie is ingeschakeld en het domein in de lijst kan niet worden benaderd. Het is mogelijk niet geldig.",
         "auth_conflict_tips": "Configuratiebestanden in dezelfde groep moeten dezelfde authenticatiemethode gebruiken. Upload configuratiebestanden van verschillende providers naar afzonderlijke groepen.",
-        "enable_vpn_cascading_tips": "Als deze optie is ingeschakeld en zowel de VPN-server als de VPN-cliënt op deze router draaien, worden cliënten die met de VPN-server zijn verbonden ook naar de VPN-cliënttunnel gerouteerd."
+        "enable_vpn_cascading_tips": "Als deze optie is ingeschakeld en zowel de VPN-server als de VPN-cliënt op deze router draaien, worden cliënten die met de VPN-server zijn verbonden ook naar de VPN-cliënttunnel gerouteerd.",
+        "domain_err_tips": "Incorrecte formattering, gelieve handmatig aan te passen of $$$$automatisch aan laten passen$$$$"
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
