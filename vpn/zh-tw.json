@@ -255,7 +255,8 @@
         "ovpnclient_tap_s2s_ip_tips": "OpenVPN 用戶端的 IP 位址可能會變更。",
         "ovpnclient_tap_s2s_close_tips": "關閉此功能後，OpenVPN 用戶端將恢復其原始 IP 位址。",
         "rootcert_missing_tips": "您上傳的設定檔需要證書加密，但zip壓縮包中沒有對應的證書檔。",
-        "generate_peer_falied_msg": "無法生產客戶端ip"
+        "generate_peer_falied_msg": "無法生產客戶端ip",
+        "domain_err_tips": "格式不正確，請手動更改或$$$$一鍵處理$$$$"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
