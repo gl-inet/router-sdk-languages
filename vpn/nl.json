@@ -179,7 +179,7 @@
         "configuration": "Configuratie",
         "client_dialog_title": "Cliëntstatus",
         "client_count": "Geen cliënten | 1 cliënt | {count} cliënten",
-        "disable_vpn_for_services_tips": "Als deze optie is ingeschakeld, zullen services op routers die normaal gesproken het gebruik van een echt IP-adres vereisen, gebruik maken van VPN. Inclusief GoodCloud, DDNS, rtty.",
+        "disable_vpn_for_services_tips": "Als deze optie is ingeschakeld, zullen GoodCloud, DDNS en rtty-diensten gebruik maken van VPN-tunnels. Let op, normaliter vereisen deze diensten het echt IP-adres van de router. Mogelijk werken deze diensten bij het inschakelen niet naar behoren.",
         "add_manually_btn": "Handmatig toevoegen",
         "following_mac_label": "Verkeer van het volgende apparaat",
         "nordvpn_setup_guide": "Het zijn dienstgegevens van NordVPN. Als u niet weet hoe u dit kunt verkrijgen, raadpleeg dan $$$$de installatiehandleiding$$$$.",
