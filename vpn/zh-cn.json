@@ -222,7 +222,7 @@
         "location_max_pre_label": "每个位置最大数量",
         "location_max_pre_placeholder": "无限制",
         "no_use_vpn_label": "不使用 VPN",
-        "disable_vpn_for_services_tips": "若启用该选项，路由器上通常需要使用真实 IP 的服务将使用 VPN。包括GoodCloud、DDNS、rtty.",
+        "disable_vpn_for_services_tips": "若此选项被启用，GooodCloud、DDNS、rtty 服务将使用 VPN 隧道发送数据包。请注意，通常情况下，这些服务需要使用设备的真实 IP 地址，否则运行可能出现故障。",
         "use_vpn_label": "使用 VPN",
         "client_count": "无客户端 | 1 台客户端 | {count} 台客户端",
         "client_dialog_title": "客户端状态",
