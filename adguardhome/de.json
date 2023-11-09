@@ -15,6 +15,6 @@
 "not_disabled_dns_msg": "Kein anderer DNS ist deaktiviert",
 "no_data": "Keine Daten",
 "process_req_label": "AdGuard Home verwaltet Geräte Anfragen",
-"process_req_tips": "Wenn diese Option aktiviert ist, werden DNS-Anfragen von Client-Geräten direkt von AdGuard Home bearbeitet. AdGuard Home zeichnet die DNS-Anfragen der jeweiligen Clients auf. Dies führt jedoch dazu, dass domainbasierte VPN-Richtlinien nicht mehr funktionieren werden."
+"process_req_tips": "Wenn diese Option aktiviert ist, werden DNS-Anfragen der Client-Geräte von AdGuard Home beantwortet. AdGuard Home zeichnet die DNS-Anfragen der jeweiligen Clients auf, aber domainbasierte VPN-Richtlinien werden nicht funktionieren."
 }
 }
