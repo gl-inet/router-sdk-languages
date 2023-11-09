@@ -2,5 +2,6 @@
     "netadvanced": {
         "full_cone_nat_tips": "Full Cone NAT kann die Latenz in Onlinespielen verbessern, jedoch kann das Aktivieren mit Sicherheitsrisiken verbunden sein.",
         "sip_alg_tips": "SIP ALG kann negative Effekte von mehrfachen NAT reduzieren, wird aber in den meisten Fällen nicht helfen. Die Aktivierung von SIP ALG kann VoIP-Anrufe beeinträchtigen. Wie zum Beispiel Einweg-Audio (nur eine Partei kann die andere hören), Telefone klingeln nicht während eines Anrufs, Telefonverbindungen werden während eines Gesprächs getrennt oder Anrufe gehen direkt zur Mailbox."
-    }
+    },
+    "menu_netadvanced": "NAT-Einstellungen"
 }
