@@ -1,7 +1,7 @@
 {
 "adguardhome": {
-"desc": "AdGuard Home ist eine Netzwerkweite Software zum Blockieren von Anzeigen und Tracking. Nachdem es aktiviert wurde, werden alle Geräte im Netzwerk Adguard Home als DNS-Server verwenden, dies erfordert keine zusätzliche Software auf den Geräten. Diese Seite bezieht ihre Statistiken von der Adguard Home API, wenn AdGuard Home eingeschaltet ist, erzwingt der Router die Nutzung der von AdGuard Home bereitgestellten DNS-Server.",
-"tips": "Falls Sie erweiterte Einstellungen in Adguard Home ändern wollen, gehen Sie bitte zur $$$$Einstellungsseite$$$$.",
+"desc": "AdGuard Home ist eine netzwerkweite Software zum Blockieren von Werbung und Tracking. Nachdem es aktiviert wurde, werden ALLE Geräte im Netzwerk Adguard Home als DNS-Server verwenden. Dies erfordert keine zusätzliche Software auf den Geräten. Diese Seite bezieht ihre Statistiken von der Adguard Home API. Wenn AdGuard Home eingeschaltet ist, erzwingt der Router die Nutzung der von AdGuard Home bereitgestellten DNS-Server.",
+"tips": "Bitte gehen Sie zu den $$$$Einstellungen$$$$, um die erweiterte Konfiguration von Adguard Home vorzunehmen.",
 "top_queried_domain": "Meist abgefragten Domains",
 "top_blocked_domain": "Meist blockierte Domains",
 "dns_querie_title": "DNS-Abfragen",
