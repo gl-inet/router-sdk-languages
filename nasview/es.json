@@ -49,7 +49,11 @@
         "no_user_tips": "Por favor, seleccione al menos un usuario de escritura o de sólo lectura.",
         "nfs_tips": "Discos con formato exFAT no se pueden compartir utilizando el protocolo NFS.",
         "ftp_fat32_tips": "El protocolo FTP aún no soporta la escritura de datos en discos formateados en FAT32.",
-        "format_th": "Formato"
+        "format_th": "Formato",
+        "fat32_warning": "Los discos con formato FAT no son compatibles con archivos grandes, se recomienda usar el formato exFAT.",
+        "limit_share_folder_tips": "Añada hasta {count} carpetas compartidas, y se pueden agregar protocolos de compartición adicionales a cada carpeta compartida.",
+        "users_limit_tips": "Solo se permite un máximo de 10 usuarios.",
+        "serve_not_enable_tips": "No ha activado el acuerdo de compartición de archivos en el NAS, hasta que lo haga, el enlace de acceso no surtirá efecto."
     },
     "menu_nasview": "Almacenamiento en Red"
 }
