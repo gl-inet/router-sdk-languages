@@ -1,7 +1,7 @@
 {
     "wireless": {
-        "encryption": "WiFi-beveliging",
-        "key": "WiFi-wachtwoord",
+        "encryption": "Wi-Fi-beveliging",
+        "key": "Wi-Fi-wachtwoord",
         "mode": "Wi-Fi-modus",
         "band_width": "Bandbreedte",
         "channel": "Kanaal",
@@ -18,7 +18,7 @@
         "enable_dfs": "DFS-kanaal toestaan",
         "ssid": "Wi-Fi-naam (SSID)",
         "ssid_visibility": "SSID-zichtbaarheid",
-        "enable_dfs_tips": "Als de router is toegewezen aan het DFS-kanaal: de controle van de kanaalbeschikbaarheid is vereist telkens wanneer Wi-Fi wordt ingeschakeld. Gedurende deze tijd zal het 5GHz-signaal niet beschikbaar zijn voor verbindingen. Dit proces duurt $$$$. Als de router detecteert dat de radar het huidige kanaal gebruikt, verbreekt deze tijdelijk de verbinding met de cliënt en schakelt over naar een ander beschikbaar kanaal; bovendien wordt 5GHz Wi-Fi tijdelijk uitgeschakeld terwijl de router zoekt naar beschikbare netwerken in de buurt.",
+        "enable_dfs_tips": "Als de router is toegewezen aan het DFS-kanaal: de controle van de kanaalbeschikbaarheid is vereist telkens wanneer Wi-Fi wordt ingeschakeld. Gedurende deze tijd zal het 5GHz-signaal niet beschikbaar zijn voor verbindingen. Dit proces duurt $$$$. Als de router detecteert dat de radar het huidige kanaal gebruikt, verbreekt deze tijdelijk de verbinding met het apparaat en schakelt over naar een ander beschikbaar kanaal; bovendien wordt 5GHz Wi-Fi tijdelijk uitgeschakeld terwijl de router zoekt naar beschikbare netwerken in de buurt.",
         "repeater_using_tips": "Deze regel kan niet worden gewijzigd als de repeater is ingeschakeld.",
         "dsf_starting": "Controleren op de beschikbaarheid van kanalen. Dit proces duurt $$$$. Een ogenblik……",
         "dsf_conflict": "5GHz Wi-Fi is tijdelijk niet beschikbaar omdat een radar gebruik maakt van het kanaal dat de router momenteel gebruikt.",

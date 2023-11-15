@@ -3,7 +3,7 @@
         "desc": "Cuando se habilita el modo de puerta de enlace Drop-in, todo el tráfico de los clientes en la red son procesados primero por este router. Puedes utilizar este modo para ampliar la funcionalidad de tu router principal.",
         "enable_label": "Activar modo de suplantación (spoofing) de puerta de enlace",
         "dhcp_closed_tips": "El servicio de DHCP en el enrutador principal está deshabilitado, la suplantación (spoofing) de puerta de enlace está trabajando.",
-        "enable_tips": "Cuando la suplantación (spoofing) de puerta de enlace está trabajando, el servicio de DNS de ésta puerta de enlace es utilizado en reemplazo de el DNS de la ruta principal.",
+        "enable_tips": "Cuando la suplantación (spoofing) de puerta de enlace (router) está activada, el servicio de DNS de este router es utilizado en lugar del DNS del router principal de la red.",
         "dhcp_on_warning_tips": "Suplantación (spoofing) de puerta de enlace está habilitado.",
         "dhcp_on_tips": "El servicio de DHCP aún está habilitado en el router principal. Es posible que Drop-in gateway no funcione correctamente. Por favor vaya a $$$$el panel de administración del router principal$$$$ para desactivar el servicio de DHCP, o ajuste su puerta de enlace para que apunte a {ip}.",
         "dhcp_set_gateway_tips": "El servicio de DHCP en el enrutador principal ha sido ajustado correctamente a {ip}, la suplantación (spoofing) de puerta de enlace está trabajando.",

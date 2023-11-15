@@ -10,7 +10,7 @@
         "allow_wan_tips": "Als deze optie is ingeschakeld, zijn de bronnen aan de WAN-kant van het apparaat toegankelijk via het virtuele ZeroTier-netwerk.",
         "desc": "$$$$ZeroTier$$$$ creëert een veilig, virtueel peer-to-peer Ethernet-netwerk dat overal toegankelijk is; het ondersteunt toegang tot apparaten zoals telefoons, pc's enz. U kunt het gebruiken om op afstand toegang te krijgen tot uw apparaten of LAN.",
         "unauthorized_tips": "Het apparaat is toegevoegd aan ZeroTier. Ga naar $$$$ZeroTier Central$$$$ om het apparaat te autoriseren om verbinding te maken met uw virtuele netwerk.",
-        "enable_nat_tips": "et apparaat geeft ZeroTier-cliënten al toegang tot bronnen op het WAN of LAN. U moet routeringsregels instellen in $$$$ZeroTier Central$$$$ om toe te staan dat cliëntaanvragen worden doorgestuurd via het virtuele ZeroTier-netwerk:",
+        "enable_nat_tips": "Het apparaat geeft ZeroTier-cliënten al toegang tot bronnen op het WAN of LAN. U moet routeringsregels instellen in $$$$ZeroTier Central$$$$ om toe te staan dat cliëntaanvragen worden doorgestuurd via het virtuele ZeroTier-netwerk:",
         "auto_nat_tips": "Als deze optie is ingeschakeld, zijn bronnen binnen het LAN-subnet en WAN toegankelijk via het virtuele ZeroTier-netwerk.",
         "allow_lan_tips": "Als deze optie is ingeschakeld, zijn de bronnen binnen het LAN-netwerk van het apparaat toegankelijk via het virtuele ZeroTier-netwerk."
     }

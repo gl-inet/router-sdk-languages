@@ -42,7 +42,7 @@
         "delete_caution": "¿Está seguro de que desea borrar la entrada?",
         "allow_password_tips": "Se permiten letras (distinguiendo mayúsculas y minúsculas), números y símbolos $$$$",
         "back": "Atrás",
-        "use_weak_tips": "Las contraseñas débiles son fáciles de adivinar, y también exponen su red a posibles ataques de fuerza bruta.",
+        "use_weak_tips": "Las contraseñas débiles son fáciles de adivinar y también exponen su red a posibles ataques de fuerza bruta.",
         "admin_panel": "Panel de Administración",
         "disable": "Desactivar",
         "copy": "Copiar",
@@ -74,8 +74,8 @@
         "current": "Actual",
         "select_btn": "Seleccionar",
         "drag_sort": "Ordenar arrastrando",
-        "confirm": "Confirmar confirmación",
-        "save_btn": "guardar",
+        "confirm": "Confirmar",
+        "save_btn": "Guardar",
         "name": "Nombre",
         "global_options": "Opciones globales",
         "interval_time": "Intervalo",
@@ -94,12 +94,13 @@
         "setting_instructions": "Guia de Instalación",
         "band": "Banda",
         "lock": "Bloquear",
-        "unlock": "Desbloquear"
+        "unlock": "Desbloquear",
+        "pre_set_up": "Configuración Previa"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
         "success": "¡Aplicado!",
-        "operation_not_finished": "Espere hasta que la operación actual haya terminado.",
+        "operation_not_finished": "Por favor espere hasta que la operación actual haya terminado.",
         "getting": "Obteniendo, espere por favor…",
         "being_process": "Procesando, espere por favor…",
         "installing": "Instalando, espere por favor…",
@@ -150,7 +151,7 @@
         "firmware_format_error": "Formato incorrecto de firmware!",
         "error": "No se ha podido subir el archivo.",
         "format_error": "¡Error de formato de datos!",
-        "too_large_tips": "El fichero cargado es demasiado grande, por favor suba un fichero que no exceda $$$$ bytes.",
+        "too_large_tips": "El archivo subido es demasiado grande, por favor suba un archivo que sea menor de $$$$ bytes.",
         "lass_than_tips": "(Menos que $$$$)"
     },
     "system": {

@@ -223,7 +223,7 @@
         "location_max_pre_placeholder": "無限制",
         "use_vpn_label": "有VPN",
         "no_use_vpn_label": "無VPN",
-        "disable_vpn_for_services_tips": "若啟用該選項，路由器上通常需要使用真實 IP 的服務將使用 VPN。包括GoodCloud、DDNS、rtty。",
+        "disable_vpn_for_services_tips": "若此選項被啟用，GooodCloud、DDNS、rtty 服務將使用 VPN 隧道發送數據包。請註意，通常情況下，這些服務需要使用設備的真實 IP 地址，否則運行可能出現故障。",
         "client_dialog_title": "客戶端狀態",
         "client_count": "無客戶端 | 1 台客戶端 | {count} 台客戶端",
         "configuration": "配置",
@@ -255,7 +255,8 @@
         "ovpnclient_tap_s2s_ip_tips": "OpenVPN 用戶端的 IP 位址可能會變更。",
         "ovpnclient_tap_s2s_close_tips": "關閉此功能後，OpenVPN 用戶端將恢復其原始 IP 位址。",
         "rootcert_missing_tips": "您上傳的設定檔需要證書加密，但zip壓縮包中沒有對應的證書檔。",
-        "generate_peer_falied_msg": "無法生產客戶端ip"
+        "generate_peer_falied_msg": "無法生產客戶端ip",
+        "domain_err_tips": "格式不正確，請手動更改或$$$$一鍵處理$$$$"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",

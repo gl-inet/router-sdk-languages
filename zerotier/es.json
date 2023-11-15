@@ -1,17 +1,17 @@
 {
     "zerotier": {
-        "desc": "$$$$ZeroTier$$$$ crea de forma segura redes virtuales Ethernet de punto-a-punto (peer to peer) que funcionan en cualquier lugar y tienen soporte de acceso a dispositivos tales como teléfonos, PCs etc. Puede utilizar ZeroTier para acceder a sus dispositivos o su LAN de forma remota.",
-        "first_use_tips": "ZeroTier conecta a su red virtual usando el ID de Red (Network ID), el cual debe ser creado en $$$$ZeroTier Central$$$$.",
+        "desc": "$$$$ZeroTier$$$$ crea de forma segura una red virtual Ethernet de punto-a-punto (peer to peer) que es accesible desde cualquier lugar y permite el acceso a dispositivos tales como teléfonos, PCs etc. Puede utilizar ZeroTier para acceder a sus dispositivos o su LAN de forma remota.",
+        "first_use_tips": "ZeroTier conecta a su red virtual usando el ID de Red (Network ID), el cual es creado en $$$$ZeroTier Central$$$$.",
         "authorized_tips": "El dispositivo está conectado a su red virtual ZeroTier.",
-        "enable_nat_tips": "El dispositivo ya permite clientes de ZeroTier a que tengan acceso a los recursos en en la WAN o LAN. Sin embargo, es necesario crear reglas de enrutamiento (routing rules) en $$$$ZeroTier Central$$$$ de forma que las que las solicitudes de cliente sean reenviadas correctamente al dispositivo a través de la red virtual ZeroTier:",
+        "enable_nat_tips": "El dispositivo ya permite que clientes de ZeroTier tengan acceso a los recursos en en la WAN o LAN. Sin embargo, es necesario crear reglas de enrutamiento (routing rules) en $$$$ZeroTier Central$$$$ de modo que las que las solicitudes de cliente sean reenviadas correctamente al dispositivo a través de la red virtual ZeroTier:",
         "unauthorized_tips": "El dispositivo ha sido agregado a ZeroTier. Por favor, vaya a $$$$ZeroTier Central$$$$ para autorizarlo a que se conecte a su red virtual.",
         "auto_nat_label": "Permitir acceso remoto a LAN y WAN",
         "current_ip_label": "Dirección IP virtual del enrutador",
         "auto_nat_tips": "Si esta opción está activada, los recursos tanto en la subred LAN como en la red WAN se pueden acceder a través de la red virtual ZeroTier.",
-        "not_found_tips": "ZeroTier no ha podido encontrar el ID de red (Network ID). Por favor revise los datos que ha entrado.",
+        "not_found_tips": "ZeroTier no ha podido encontrar el ID de red (Network ID), por favor revise los datos que ha proporcionado.",
         "allow_lan_label": "Permitir Acceso Remoto a LAN",
         "allow_wan_label": "Permitir Acceso Remoto a WAN",
-        "allow_lan_tips": "Si esta opción está habilitada, los recursos dentro del dispositivo LAN seran permitidos a ser accesados a través de la red virtual Zerotier.",
-        "allow_wan_tips": "Si esta opción está activada, los recursos en la lado WAN del dispositivo seran permitidos a ser accesados a través de la red virtual Zerotier."
+        "allow_lan_tips": "Si esta opción está habilitada, los recursos dentro de la red local (LAN) podrán ser accedidos a través de la red virtual ZeroTier.",
+        "allow_wan_tips": "Si esta opción está activada, los recursos en el lado WAN del dispositivo serán accesibles través de la red virtual ZeroTier."
     }
 }

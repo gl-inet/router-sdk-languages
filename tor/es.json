@@ -1,11 +1,11 @@
 {
     "tor": {
-        "desc": "Tor (derivado de ¨The Onion Router¨) es un sofrware gratuito y de código abierto para permitir la comunicación anómina. Ayuda a los usuarios a explorar el internet con privacidad.",
-        "matter_tips": "Esta característica actualmente se encuentra en la versión beta. Puede tener problema en algunos países.",
-        "exit_node_tips": "Puede seleccionar el país en el que quiere parecer que está para los rastreadores.",
+        "desc": "Tor (derivado de ¨The Onion Router¨ o “El Router Cebolla”) es un software gratuito y de código abierto para permitir la comunicación anómina. Ayuda a los usuarios a explorar el internet con privacidad.",
+        "matter_tips": "Esta característica actualmente se encuentra en la versión beta. Puede tener problemas en algunos países.",
+        "exit_node_tips": "Puede elegir una ubicación personalizada para que aparezca en los rastreadores.",
         "exit_node_label": "Nodo de salida",
         "log_title": "Log de Tor",
         "manual_label": "Nodos de salida personalizados",
-        "use_tips": "Cuando Tor está activado, las siguientes características no funcionarán adecuadamente: VPN, DNS, IPv6, ADGuard Home."
+        "use_tips": "Cuando Tor está activado, las siguientes características no funcionarán adecuadamente: VPN, DNS, IPv6 y ADGuard Home."
     }
 }

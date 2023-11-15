@@ -222,7 +222,7 @@
         "location_max_pre_label": "每个位置最大数量",
         "location_max_pre_placeholder": "无限制",
         "no_use_vpn_label": "不使用 VPN",
-        "disable_vpn_for_services_tips": "若启用该选项，路由器上通常需要使用真实 IP 的服务将使用 VPN。包括GoodCloud、DDNS、rtty.",
+        "disable_vpn_for_services_tips": "若此选项被启用，GooodCloud、DDNS、rtty 服务将使用 VPN 隧道发送数据包。请注意，通常情况下，这些服务需要使用设备的真实 IP 地址，否则运行可能出现故障。",
         "use_vpn_label": "使用 VPN",
         "client_count": "无客户端 | 1 台客户端 | {count} 台客户端",
         "client_dialog_title": "客户端状态",
@@ -255,7 +255,8 @@
         "ovpnclient_tap_s2s_close_tips": "此功能关闭后, OpenVPN 客户端会恢复成原来的IP地址。",
         "client_each_other_tips": "这里是 VPN 客户端 到 VPN 客户端，不是 端到端。",
         "account_service_credentials_title": "服务凭证",
-        "generate_peer_falied_msg": "无法生成客户端 ip"
+        "generate_peer_falied_msg": "无法生成客户端 ip",
+        "domain_err_tips": "格式不正确，请手动更改或$$$$一键处理$$$$"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",

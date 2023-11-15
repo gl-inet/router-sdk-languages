@@ -10,5 +10,21 @@
         "old_pwd_tips": "Introducir contraseña actual",
         "new_pwd_tips": "Introducir nueva contraseña"
     },
-    "menu_security": "Seguridad"
+    "menu_security": "Seguridad",
+    "security": {
+        "port_conflict_tips": "Este puerto ya está en uso.",
+        "redirect_https_label": "Forzar HTTPS",
+        "apply_success_tips": "Aplicado satisfactoriamente; esperando a que se reinicie el servidor Web.",
+        "add_ipaddr_btn": "Añadir una dirección IP",
+        "port_disabled_tips": "Este puerto está prohibido para el navegador",
+        "ipaddr_list_label": "Lista de direcciones IP",
+        "remote_access_title": "Control de Acceso Remoto",
+        "enable_ping_label": "Permitir Ping desde WAN",
+        "enable_https_label": "Acesso Remoto por HTTPS",
+        "enable_ssh_label": "Acceso Remoto por SSH",
+        "enable_ipaddr_label": "Permitir Acceso Remoto sólo desde direcciones IPs específicas",
+        "enable_ipaddr_tips": "Añadir varias direcciones IP específicas para gestionar el router desde este dispositivo.",
+        "no_ipaddr_list_label": "Ninguna dirección IP",
+        "add_ipaddr_tips": "Especifique una dirección IP (también soporta IPv6), por ejemplo 192.168.8.1, 192.168.8.1/24."
+    }
 }

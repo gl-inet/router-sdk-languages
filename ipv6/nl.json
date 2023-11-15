@@ -1,1 +1,16 @@
-{}
+{
+    "ipv6": {
+        "tips": "Wanneer IPv6 is ingeschakeld, krijgen WAN-interfaces zoals ethernet hun IPv6-adressen via DHCPv6. U kunt het IPv6-adres ook handmatig toewijzen op de pagina Ethernet-instellingen. Sommige functies (firewall, VPN, apparatenlijst, GoodCloud) ondersteunen IPv6 nog niet.",
+        "note": "Let op: Als u de functies van zowel VPN als IPv6 tegelijkertijd gebruikt, is de kans groot dat er IPv6-gegevenslekken ontstaan.",
+        "enable": "Ingeschakeld",
+        "mode": "Modus",
+        "addr": "IPv6-adres",
+        "dns_acq": "DNS-acquisitiemethode",
+        "dns_tips": "DNS wordt gebruikt om het IP-adres te vinden dat overeenkomt met de domeinnaam. Het handmatig instellen van de DNS-server kan een DNS-lookup-fout veroorzaken. Gebruik het met voorzichtigheid.",
+        "dns_server": "DNS-server",
+        "invalid_parameter": "Het door u ingevoerde formaat is onjuist!",
+        "dns_server_empty": "Voer minimaal één DNS-server in",
+        "native_tips": "Deze optie is alleen beschikbaar voor privénetwerken; gastnetwerken gebruiken altijd de NAT6-modus."
+    },
+    "menu_ipv6": "IPv6"
+}
