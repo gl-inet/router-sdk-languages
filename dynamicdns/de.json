@@ -22,7 +22,12 @@
         "parsing_ip_warning_tips": "Die IP-Adresse der DDNS Domain ist nicht mit der WAN IP Ihres Routers identisch.",
         "need_pubilc_ip_tips": "Sie benötigen eine öffentliche IP-Adresse, um dynamisches DNS (DDNS) zu verwenden.",
         "sevices_warning_tips": "Falls Sie den VPN Client aktiviert haben, schalten Sie bitte die Option „Dienste von GL.iNet benutzen die VPN“ in den globalen Einstellungen aus.",
-        "nat_warning_tips": "Wenn dieser Router hinter einem NAT ist, muss ggf. eine Portweiterleitung auf Ihrem Hauptrouter eingerichtet werden."
+        "nat_warning_tips": "Wenn dieser Router hinter einem NAT ist, muss ggf. eine Portweiterleitung auf Ihrem Hauptrouter eingerichtet werden.",
+        "security_settings_tips": "In \"Systemsicherheit - Fernzugriff\" können zwei Optionen geändert werden um den Fernzugriff zu steuern.",
+        "enabled_tips": "Es kann bis zu 10 Minuten dauern, bis der Eintrag zwischen den DNS Servern synchronisiert ist. In diesem Zeitraum kann der Router nicht per DDNS erreicht werden, direkt nachdem der Dienst aktiviert oder die öffentliche IP geändert wurde.",
+        "to_security_btn": "Gehe zu Sicherheit",
+        "use_desc": "Sie können Dynamic DNS (DDNS) für diesen Router aktivieren und ihn aus der Ferne erreichen.",
+        "security_settings_btn": "Sicherheitseinstellungen"
     },
     "menu_dynamicdns": "Dynamisches DNS"
 }
