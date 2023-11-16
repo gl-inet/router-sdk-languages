@@ -10,7 +10,11 @@
         "auto_set_tips": "Die DHCP-Einstellungen des Haupt-Routers wurden vermutlich geändert und dieser Router wird möglicherweise nicht mehr wie gewünscht funktionieren. Bitte $$$$Synchronisieren Sie die Einstellungen des DHCP$$$$ oder ändern Sie die Einstellungen manuell.",
         "desc_vpn": "Bitte beachten Sie, dass im 'Drop-in Gateway' Modus die VPN-Richtlinie dieses Geräts nicht für Clients am WAN-Port funktioniert.",
         "cable_not_connected_tips": "Am WAN-Port wurde kein Kabel erkannt. Bitte stecken Sie ein Ethernet-Kabel ein.",
-        "modify_superior_router_label": "Alle Netzwerkgeräte werden durch das Drop-in Gateway geleitet"
+        "modify_superior_router_label": "Alle Netzwerkgeräte werden durch das Drop-in Gateway geleitet",
+        "modify_self_router_label": "Einige Geräte wählen ein eigenes Netzwerk Gateway",
+        "configuration_method_label": "Konfigurationsweg",
+        "modify_superior_router_desc": "Die primäre Route muss angepasst werden. Das kann nur ein Benutzer konfigurieren, mit Zugriff auf diese Route.",
+        "modify_self_router_desc": "Um das Drop-in Gateway zu benutzen, muss die Gateway Adresse auf manchen Geräten manuell auf die IP Adresse des Drop-In Gateway geändert werden."
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
