@@ -12,7 +12,7 @@
         "mode": "Modus",
         "proxy_addr_label": "Adresse des Proxy-Servers",
         "encryption_type_label": "Art der Verschlüsselung",
-        "v1_tips": "Der Router benutzt Version v1 des DNS. Nur einige verschlüsselnde DNS-Server werden unterstützt.",
+        "v1_tips": "Der Router benutzt Version v1 des DNS. Nicht alle verschlüsselnde DNS-Server werden unterstützt.",
         "server_tips": "Sie können bis zu 8 Server wählen. Der Router wird automatisch den schnellsten Server wählen.",
         "at_least_one_server_tips": "Wählen Sie mindestens einen Server",
         "select_server_btn": "Wahl des Servers",
@@ -34,7 +34,7 @@
         "set_proxy_label": "DNS Proxy",
         "form_wan_label": "DNS vom Ethernet",
         "form_tethering_label": "DNS vom Tethering",
-        "server_warning_tips": "Der Server scheint nicht auf dem aktuellen Stand zu sein.",
+        "server_warning_tips": "Der Server scheint nicht mehr gültig zu sein.",
         "rebinding_label": "Schutz vor DNS-Rebind-Angriffen",
         "form_interface_label": "DNS von {interface}"
     }
