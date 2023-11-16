@@ -31,7 +31,10 @@
         "subnet_mode_bable": "Subnetz Modus",
         "passthrough_desc": "Wenn IP Passthrough aktiviert ist, leitet der Router die IP-Adresse des Provider an den LAN Port weiter.",
         "passthrough_close_warning": "Wenn Sie in diesen Modus wechseln, werden Repeater, Wireless, Clients, VPN und AdGuard Home deaktiviert.",
-        "passthrough_conflict_warning": "Dieser Modus funktioniert möglicherweise nicht, wenn Sie die folgenden Einstellungen vorgenommen haben: Tethering aktiviert, Drop-in-Gateway-Modus aktiviert, IPv6 aktiviert, DNS manuell eingestellt, Multi-WAN auf Lastausgleich eingestellt, WAN-Port als LAN eingestellt, VPN-Richtlinie verwendet, Firewall-Einstellungen hinzugefügt oder die MAC-Adresse manuell eingestellt haben."
+        "passthrough_conflict_warning": "Dieser Modus funktioniert möglicherweise nicht, wenn Sie die folgenden Einstellungen vorgenommen haben: Tethering aktiviert, Drop-in-Gateway-Modus aktiviert, IPv6 aktiviert, DNS manuell eingestellt, Multi-WAN auf Lastausgleich eingestellt, WAN-Port als LAN eingestellt, VPN-Richtlinie verwendet, Firewall-Einstellungen hinzugefügt oder die MAC-Adresse manuell eingestellt haben.",
+        "passthrough_secondwan_warning": "IP Weiterleitung erfordert nur einen einzigen WAN Port. Bitte gehe zur $$$$ Seite und ändere die Einstellung oder deaktiviere die Verwendung des WAN Port als LAN Port oder LAN Port als WAN Port.",
+        "passthrough_conflict_2b_warning": "Dieser Modus funktioniert nicht, wen die folgenden Einstellungen aktiviert sind: Drop-In Gateway, IPv6, manuell gesetzte DNS, Multi-WAN mit 'Load Balance', WAN Port als LAN, VPN policy, hinzugefügte Firewall Einstellungen, manuell gesetzte MAC Adresse.",
+        "set_up_bridge_tips": "Um die Bridge Funktion zu aktivieren, muss zuerst ein Netzwerkkabel an dem WAN Port angeschlossen sein."
     },
     "menu_bridge": "Netzwerkmodus"
 }
