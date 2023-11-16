@@ -1,6 +1,6 @@
 {
     "edgerouter": {
-        "desc": "Im Drop-in Gateway Modus werden alle Daten zuerst von diesem Router verarbeitet. Sie können diesen Modus benutzen, um die Funktionalität ihres Haupt-Routers zu erweitern.",
+        "desc": "Ist der Drop-in Gateway Modus aktiviert, werden der gesamte Netzwerkverkehr zuerst von diesem Router verarbeitet. Sie können diesen Modus benutzen, um die Funktionen des Haupt-Routers zu erweitern.",
         "enable_label": "Drop-in Gateway Modus aktivieren",
         "dhcp_closed_tips": "Der DHCP-Dienst des Haupt-Routers ist ausgeschalten; das drop-in gateway funktioniert einwandfrei.",
         "dhcp_on_tips": "Der DHCP-Dienst ist noch aktiviert auf dem Haupt-Router. Das Drop-in Gateway funktioniert möglicherweise nicht ordnungsgemäß. Bitte gehen Sie zum $$$$Haupt-Router Panel$$$$, um den DHCP-Dienst zu deaktivieren oder um seinem Gateway die IP-Adresse {ip} zuzuweisen.",
@@ -9,7 +9,8 @@
         "dhcp_set_gateway_tips": "Der DHCP-Dienst auf dem Haupt-Router hat ordnungsgemäß das Gateway auf {ip} gesetzt; das Drop-in Gateway funktioniert.",
         "auto_set_tips": "Die DHCP-Einstellungen des Haupt-Routers wurden vermutlich geändert und dieser Router wird möglicherweise nicht mehr wie gewünscht funktionieren. Bitte $$$$Synchronisieren Sie die Einstellungen des DHCP$$$$ oder ändern Sie die Einstellungen manuell.",
         "desc_vpn": "Bitte beachten Sie, dass im 'Drop-in Gateway' Modus die VPN-Richtlinie dieses Geräts nicht für Clients am WAN-Port funktioniert.",
-        "cable_not_connected_tips": "Am WAN-Port wurde kein Kabel erkannt. Bitte stecken Sie ein Ethernet-Kabel ein."
+        "cable_not_connected_tips": "Am WAN-Port wurde kein Kabel erkannt. Bitte stecken Sie ein Ethernet-Kabel ein.",
+        "modify_superior_router_label": "Alle Netzwerkgeräte werden durch das Drop-in Gateway geleitet"
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
