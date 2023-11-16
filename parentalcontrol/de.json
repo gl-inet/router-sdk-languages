@@ -86,9 +86,10 @@
         "download_type_label": "Herunterladen",
         "portal_type_label": "Web-Portal",
         "rule_desc": "Sie können ein Regelwerk für bestimmte Zeitbereiche einrichten, um den Zugriff Ihres Kindes auf Websites und Apps zu beschränken. Zum Beispiel erlaubt die „Lernzeit“ keinen Zugang zu bestimmten Video-Webseiten oder Apps.",
-        "default_rule_tips": "Der Router schränkt den Zugriff auf Geräte im Profil durch diese Regel ein, es sei denn, Sie legen einen Zeitplan fest.",
+        "default_rule_tips": "Solange kein Zeitplan eingerichtet ist, erzwingt der Router den eingeschränkten Zugriff auf allen Geräte im Profil durch diese Regel.",
         "del_all_schedule_btn": "Alle Zeitpläne löschen",
         "remove_all_schedule_tips": "Sind Sie sicher, dass Sie alle Zeitpläne löschen wollen?",
-        "current_rule_label": "Aktuelles Regelwerk:"
+        "current_rule_label": "Aktuelles Regelwerk:",
+        "version_conversion_btn": "Version wechseln"
     }
 }
