@@ -57,6 +57,7 @@
         "parse_method_response_tips": "Het antwoord van de seriële poort wordt via de overeenkomstige methode naar het netwerk verzonden.",
         "command_tips": "De gateway abonneert zich op het onderwerp om commando's te ontvangen die door het platform worden uitgegeven.",
         "response_tips": "De gateway gebruikt het onderwerp om het ontvangst- of uitvoeringsresultaat van het commando te verzenden als reactie op de besturing.",
-        "keep_alive_interval_label": "Houd levend interval"
+        "keep_alive_interval_label": "Houd levend interval",
+        "device_busy_msg": "{code}, het serieële nummer dat is ingesteld door de serieële poort is al in gebruik."
     }
 }
