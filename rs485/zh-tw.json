@@ -57,6 +57,7 @@
         "func_code_label": "功能碼",
         "response_tips": "網關將使用主題發送命令的接收或執行結果以回應控制項。",
         "qos_level_label": "服務品質等級",
-        "keep_alive_interval_label": "保持存活間隔"
+        "keep_alive_interval_label": "保持存活間隔",
+        "device_busy_msg": "{code}， 串口設置的序列號被佔用。"
     }
 }
