@@ -34,5 +34,7 @@ jobs:
         if: steps.tag.outputs.status == 'success' && !cancelled() && !failure()
         with:
           tag_name: ${{ steps.tag.outputs.release_tag }}
-          files: ./gl-router-sdk-languages.zip
+          files: |
+            ./gl-router-sdk-languages.zip
+            ./gl-router-sdk-languages/*
 
