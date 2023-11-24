@@ -22,7 +22,7 @@ merge_lang() {
       else
         merged_json=$(jq -s add "$file")
       fi
-        echo $(jq -c '.' "$merged_json") > "$output_file"
+        echo "$(jq -c '.' <<< "$merged_json")" > "$output_file"
     done
   done
   zip -r "$output_folder.zip" "$output_folder"
