@@ -10,12 +10,12 @@
         "mode_balancing_note": "Hinweis: Es ist nicht sichergestellt, dass bestehende Verbindungen oder Daten dem Lastverhältnis entsprechen.",
         "failover_label": "Ausfallsicherung",
         "balancing_label": "Lastverteilung",
-        "track_title": "Methode der Schnittstellen-Überwachung",
+        "track_title": "Schnittstellen Statusüberwachung",
         "physical_state_monitor": "Internet-Zugriff stets verfügbar, wenn die Schnittstelle verbunden ist",
         "priority_title": "Priorität der Schnittstelle",
         "ratio_title": "Lastverhältnis",
         "flush_track_tips": "Wenn diese Option aktiviert ist und die Netzwerkschnittstelle sich ändert, wird der Router alle existierenden Daten-Verbindungen aktualisieren, um die höhere Priorisierung der Netzwerkschnittstelle sicherzustellen. Das verhindert den Verlust von Daten, kann aber zur Verbindungstrennung führen (manche VPNs verbinden sich nicht sofort erneut).",
-        "enable_check_label": "Aktiviere die Überprüfung der Internetverbindung",
+        "enable_check_label": "Aktiviere Schnittstellen-Statusüberwachung",
         "flush_track_label": "Erzwinge das neu laden von Verbindungen",
         "interface_state_label": "Netzwerk Status",
         "track_enable_tips": "Wenn die Schnittstellenüberwachung desaktiviert ist, wird das Gerät immer davon ausgehen, dass eine Internetverbindung besteht, wenn die Schnittstelle verbunden ist (z.B. das Kabel ist angeschlossen und IP-Adresse wurde zugeteilt, WLAN-Verbindung wurde hergestellt).",
@@ -28,9 +28,14 @@
         "fault_count": "$$$$ mal Fehlgeschlagen",
         "track_addr_label": "IP-Adresse überwachen",
         "both_label": "Beide",
-        "passive_label": "Passiv",
+        "passive_label": "Geringe Daten Modus",
         "sensitivity_label": "Empfindlichkeit",
-        "sensitivity_tips": "Die Empfindlichkeit gibt an wie oft die Internetverfügbarkeit geprüft wird. Je geringer das Intervall, desto schneller findet ein Schnittstellenwechsel statt."
+        "sensitivity_tips": "Die Empfindlichkeit gibt an wie oft die Internetverfügbarkeit geprüft wird. Je geringer das Intervall, desto schneller findet ein Schnittstellenwechsel statt. Verwende eine geringe Empfindlichkeit, wenn die Internetverbindung instabil ist um häufige Wechsel zu vermeiden. Eine hohe Empfindlichkeit wird empfohlen für Video oder Live-Streaming, um schnell auf das nächste verfügbare Netzwerk zu wechseln, diese Einstellung kann aber zu mehr Verbindungsabbrüchen führen. Bitte diese Einstellung mit Vorsicht anpassen.",
+        "balancing_warning_tips": "Mindestens zwei Schnittstellen mit nicht-null Lastverhältnis müssen konfiguriert werden, damit die Lastverteilung arbeiten kann. Wenn es keine nicht-null Lastverhältnis Schnittstelle mit Internetverbindung gibt, kann das Gerät keine Internetverbindung herstellen.",
+        "track_mode_label": "Modus für geringe Daten",
+        "track_mode_tips": "Aktiviere diesen Schalter um nur zu überprüfen ob ein Schnittstellenfehler vorliegt. Diese Einstellung ist ratsam für 'geringen Datenverbrauch' bei einem Vertrag mit begrenztem Datenvolumen.",
+        "network_tracking_title": "{interface} Status",
+        "sensitivity_options_label": "Einstellung der Empfindlichkeit"
     },
     "menu_multiwan": "Multi-WAN"
 }
