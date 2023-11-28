@@ -90,11 +90,22 @@
         "del_all_schedule_btn": "Alle Zeitpläne löschen",
         "remove_all_schedule_tips": "Sind Sie sicher, dass Sie alle Zeitpläne löschen wollen?",
         "current_rule_label": "Aktuelles Regelwerk:",
-        "version_conversion_btn": "Version wechseln"
+        "version_conversion_btn": "Version wechseln",
+        "local_version_title": "Lokale Version",
+        "local_version_desc": "Die lokale Version wird bereitgestellt von GL.iNet. Sie ist derzeit in der Erprobung (Beta), es werden daher keine zusätzlichen Kosten berechnet. In dieser Version werden anfragen nach Anwendung gefiltert, Domains müssen manuell eingetragen werden.",
+        "toggle_version_desc": "Die Version des Kinderschutz kann frei gewählt werden. Aber beide Systeme können nicht gleichzeitig aktiviert sein, das jeweils andere wird automatisch deaktiviert beim Wechseln der Version.",
+        "bark_version_desc": "Diese Version von Bark wird bereitgestellt und verwaltet von $$$$Bark$$$$ auf ihrer eigenen Plattform. Es wird die Option geboten Anwendungen und Webseiten mit nur einem Klick zu filtern und die Anfragen historisch zu betrachten. Bitte beachte, dass für diesen Service ein zusätzliches Abo direkt bei Bark benötigt wird.",
+        "bark_version_title": "Bark Version"
     },
     "bark": {
         "unbind_tips": "Soll die Kopplung zurückgesetzt werden, um mit einem neuen Konto zu verbunden zu werden? Das Gerät wird aus dem aktuell gekoppelten Konto entfernt.",
         "weight_desc": "Barks preisgekrönter Dienst kann Ihr Kind in der digitalen Welt schützen und bietet einen umfassenden Onlineschutz.",
-        "unbind_btn": "Neu koppeln"
+        "unbind_btn": "Neu koppeln",
+        "desc": "Abhängig vom gewählten Abo (Bark oder BarkJr), kann ausgewählt werden:",
+        "unbound_tips": "Der Bark Dient ist aktiviert, aber dieses Gerät ist nicht mit einem Konto verbunden. Bitte nutze den $$$$Device Pairing Link$$$$ um dieses Gerät mit dem Bark Konto zu verbinden.",
+        "online_tips": "Dieses Gerät ist verbunden mit der Bark Cloud und verbunden mit einem Konto. Bitte $$$$gehe zu Bark$$$$ und melde dich an dem Konto an für die Zugriffskontrolle.",
+        "enable_ipv6_label": "Aktiviere IPv6",
+        "note_tips": "Der Dienst von Bark ist in einigen Ländern nicht verfügbar. Da GL.iNet nicht der Anbieter des Services ist, sollten Fehler bei der Benutzung von Bark direkt mit dem $$$$Bark's Technical Support$$$$ besprochen werden.",
+        "force_dns_enable_tips": "Bark blockiert nahezu alle DNS Anfragen vom Client in das Internet. Bitte $$$$gehe zur DNS Seite$$$$ und deaktiviere {label} um zu verhindern, dass Clients keine Internetverbindung bekommen."
     }
 }
