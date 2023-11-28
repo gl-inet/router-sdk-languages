@@ -14,8 +14,11 @@
         "allow_lan_tips": "Wenn diese Option aktiviert ist, wird der Zugriff auf Ressourcen innerhalb des LANs über das virtuelle Netzwerk von Tailscale ermöglicht.",
         "allow_wan_tips": "Wenn diese Option aktiviert ist, wird der Zugriff auf Ressourcen innerhalb des WANs über das virtuelle Netzwerk von Tailscale ermöglicht.",
         "custom_exit_node_tips": "Wenn diese Option aktiviert ist, leitet das Gerät alle Anfragen an den Ausgangsknoten weiter. Vor der Aktivierung müssen Sie die Subnetz-Routen {subnet} dieses Geräts in der $$$$Tailscale Admin Console$$$$ aktivieren, damit Tailscale Client-Anfragen weiterleiten kann; andernfalls können Ihre Clients nicht auf das Internet zugreifen.",
-        "exit_node_tips": "Wenn der von Ihnen gewählte Exportknoten nicht verfügbar ist oder nicht auf das Internet zugreifen kann, kann das Gerät die Einstellungen nicht mit Tailscale synchronisieren.",
-        "manual_node_label": "Benutzerdefinierte Ausgangspunkte",
-        "exit_node_label": "Ausgangspunkt"
+        "exit_node_tips": "Wenn der von Ihnen gewählte Ausgangsknoten nicht verfügbar ist oder nicht auf das Internet zugreifen kann, kann das Gerät die Einstellungen nicht mit Tailscale synchronisieren.",
+        "manual_node_label": "Manueller Ausgangspunkt",
+        "exit_node_label": "Ausgangspunkt",
+        "custom_exit_node_warning": "Wenn ein manuelles Ausgangspunkt eingerichtet ist werden alle Anfragen zu diesem Ausgangspunkt weitergeleitet. Vor der Einrichtung muss das Subnetz {subnet} dieses Geräts in der $$$$Tailscale Admin Console$$$$ aktiviert werden um Anfragen der Clients weiterzuleiten. Ansonsten werden die Clients keine Internetverbindung bekommen.",
+        "current_ip_tips": "Taliscale nutzt das 100.64.0.0/10 Netzwerk, welches vielleicht mit den zugewiesenen Adressen des Internetanbieters oder des VPN Client in Konflikt steht. Wenn das WAN oder VPN Adressen aus diesem Raum benutzt, deaktiviere Taliscale, um zu verhindern dass das Internet oder VPN nicht erreichbar ist.",
+        "dns_warning_tips": "Wenn eine LAN IP Adresse als DNS Server genutzt wird, kann der DNS Server vielleicht nicht erreicht werden."
     }
 }
