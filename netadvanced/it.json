@@ -2,5 +2,6 @@
     "netadvanced": {
         "sip_alg_tips": "SIP ALG può essere utilizzato per mitigare gli effetti di più NAT, ma nella maggior parte dei casi non è utile. L'attivazione di SIP ALG può influire sulle chiamate VoIP, come ad esempio l'audio unidirezionale (solo un interlocutore può sentire l'altro), i telefoni che non squillano durante una chiamata, i telefoni che cadono durante la connessione e le chiamate che vanno direttamente alla segreteria telefonica.",
         "full_cone_nat_tips": "Full Cone NAT può essere utilizzato per ridurre la latenza di gioco, ma l'attivazione di Full Cone NAT può essere meno sicura."
-    }
+    },
+    "menu_netadvanced": "Impostazioni NAT"
 }
