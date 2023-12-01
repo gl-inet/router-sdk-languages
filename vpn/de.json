@@ -230,7 +230,7 @@
         "local_access_tips": "Falls diese Option aktiviert ist, können mittels VPN-Tunnel auf Ressourcen innerhalb des LAN Subnetzes zugegriffen werden.",
         "masq_tips": "Falls diese Option aktiviert ist, ersetzt der Router die Quell-IP-Adresse mit seiner eigenen, wenn Client-Geräte des lokalen Netzwerks ihre Pakete senden, und leitet diese Pakete dann zum VPN-Tunnel weiter.",
         "use_vpn_only_tips": "Falls diese Option aktiviert ist, haben Client-Geräte noch Zugriff auf das WAN, z. B. Zugriff auf Drucker, NAS, etc. im übergeordneten Subnetz, während das VPN verbunden ist.",
-        "disable_vpn_for_services_tips": "Falls diese Option aktiviert ist, werden die GoodCloud, DDNS und rtty Dienste die Pakete über das VPN senden. Bitte beachten Sie, dass diese Dienste normalerweise eine öffentliche IP benötigen und daher der dienst vielleicht nicht funktioniert.",
+        "disable_vpn_for_services_tips": "Falls diese Option aktiviert ist, werden die GoodCloud, DDNS und rtty Dienste über das VPN senden. Bitte beachten Sie, dass diese Dienste normalerweise eine öffentliche IP benötigen und daher vielleicht nicht funktioniert.",
         "use_client_tips": "Möchten Sie lieber $$$$andere VPN Dienste-Provider$$$$ verwenden oder $$$$ihren eigenen VPN Server anpassen$$$$? Erzeugen Sie eine neue Gruppe, um ihre Konfigurationsdateien hinzuzufügen.",
         "nordvpn_setup_guide": "Zugangsdaten zum NordVPN-Dienst. Falls Sie nicht wissen, wie Sie diese erlangen können, sehen Sie bitte im $$$$Setup-Leitfaden$$$$ nach.",
         "mac_required_tips": "Um die aktuelle Liste zu nutzen, müssen Sie ein Gerät hinzufügen",
