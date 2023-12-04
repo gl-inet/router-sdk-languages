@@ -162,7 +162,15 @@
         "scan_tower_msg": "Es kann ein paar Minuten dauern. Bitte warten...",
         "available_tower_title": "Verfügbare Funkmasten",
         "device_may_not_b_tips": "Das Gerät kann eventuell nicht alle Funkmasten scannen, wenn die mobile Schnittstelle aktiviert ist.",
-        "reboot_buildin_modem_warning": "Eingebautes Modem neu starten?"
+        "reboot_buildin_modem_warning": "Eingebautes Modem neu starten?",
+        "need_pin_no_history_tips": "Bitte PIN eingeben, es sind noch {count} Versuche übrig.",
+        "pin_locked_no_history_tips": "SIM Karte ist gesperrt.",
+        "pin_locked_history_tips": "PIN {value} Fehler, SIM ist gesperrt.",
+        "protocol_tips": "Das QCM/QMI Protokoll ist schneller, das 3G Protokoll hat eine höhere Kompatibilität.",
+        "certification_info_btn": "Informationen zum Zertifikat",
+        "sim_slot_pin_mark_tips": "Der SIM-Karten-Slot ist markiert und kann nicht automatisch gewechselt werden.",
+        "pin_verify_success_tips": "PIN erfolgreich geprüft.",
+        "need_pin_history_tips": "Die PIN {value} ist falsch. Es sind noch {count} Versuche übrig."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -181,7 +189,7 @@
         "success_copy": "Erfolgreiche Kopie",
         "reboot_sucess": "Erfolg, bitte warten Sie $$$$ Sekunden.",
         "info": "Modem Information",
-        "soft_reset": "Sanfter Neustart",
+        "soft_reset": "Soft Neustart",
         "export_debug_info": "Debug Informationen exportieren",
         "hardware_reset": "Harter Neustart"
     },
