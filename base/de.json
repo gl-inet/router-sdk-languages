@@ -95,7 +95,8 @@
         "high": "Hoch",
         "custom": "Benutzerdefiniert",
         "clear": "Löschen",
-        "pre_set_up": "Voreinrichtung"
+        "pre_set_up": "Voreinrichtung",
+        "verify_btn": "Prüfen"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -127,7 +128,9 @@
         "client": "Client",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert",
-        "net_trouble_guide_link": "Hilfe zur Netzwerk-Fehlerbehebung"
+        "net_trouble_guide_link": "Hilfe zur Netzwerk-Fehlerbehebung",
+        "ttl_tips": "TTL (Time to Live) gibt an, wie lange ein Paket im Netzwerk existiert. Dieser Wert wird nach Vorgaben des Betreibers gesetzt.",
+        "hl_tips": "Für IPv6 gibt der HL (Hop Limit) Wert die Anzahl der maximalen Übertragungs-Hops eines Datenpakets im Netzwerk an. Dieser Wert entspricht dem TTL im IPv4."
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
