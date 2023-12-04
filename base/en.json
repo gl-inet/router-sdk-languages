@@ -143,8 +143,8 @@
         "client": "Client",
         "enabled": "Enabled",
         "disabled": "Disabled",
-        "ttl_tips": "TTL（Time To Live）设置了数据包在网络中生存的最大时间，根据运营商要求进行填写。",
-        "hl_tips": "HL（Hop Limit），在IPv6中，该字段用于限制数据包在网络中的传输跳数，相当于IPv4的TTL。",
+        "ttl_tips": "TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator.",
+        "hl_tips": "In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.",
         "net_trouble_guide_link": "Network Troubleshooting Guide"
     },
     "upload": {
