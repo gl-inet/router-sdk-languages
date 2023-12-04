@@ -1,6 +1,28 @@
 {
     "firewall": {
         "open_ports_on_router": "Otwarte Porty na Routerze",
-        "port_forwards": "Przekierowania Portów"
-    }
+        "port_forwards": "Przekierowania Portów",
+        "open_port_on_router_dest": "Dla celów bezpieczeństwa usługi, które zainstalujesz na urządzeniu są jedynie otwarte dla sieci LAN. Jeśli chcesz, żeby były dostępne z sieci WAN musisz otworzyć porty dla tych usług po stronie WAN.",
+        "name": "Nazwa",
+        "protocol": "Protokół",
+        "external_zone": "Strefa Zewnętrzna",
+        "external_ports": "Port Zewnętrzny",
+        "internal_zone": "Strefa Wewnętrzna",
+        "internal_ip": "Wewnętrzne IP",
+        "internal_ports": "Port Wewnętrzny",
+        "port": "Port",
+        "action": "Akcja",
+        "no_data": "Brak danych w tabeli",
+        "add_port_forwards_title": "Dodaj Nowe Przekierowanie",
+        "edit_port_forwards_title": "Modyfikuj Przekierowanie",
+        "add_router_prot_title": "Otwórz Nowy Port",
+        "edit_router_prot_title": "Modyfikuj Otwarty Port",
+        "delete_all_port_tips": "Czy jesteś pewien, że chcesz usunąć wszystkie wpisy?",
+        "confirm_delete_tips": "Czy jesteś pewien, że chcesz usunąć ten wpis?",
+        "source": "Źródło (strefa, port)",
+        "dest": "Cel (strefa, IP, port)",
+        "enable": "Włącz",
+        "port_forwards_desc": "Jeśli masz serwery w swojej podsieci LAN i chcesz, żeby były dostępne od strony WAN musisz ustawić przekierowanie portów do tych serwerów, identyfikowane przez adresy IP oraz porty."
+    },
+    "menu_firewallview": "Zapora Sieciowa"
 }
