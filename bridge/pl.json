@@ -1,6 +1,40 @@
 {
     "bridge": {
         "tips_one": "Po zmianie trybu sieciowego routera może być konieczne ponowne podłączenie wszystkich urządzeń klienckich.",
-        "tips_two": "Po użyciu trybu $$$$ nie będzie można ponownie połączyć się z tym interfejsem użytkownika. Możesz nacisnąć i przytrzymać przycisk resetowania przez 4 sekundy, aby powrócić do trybu routera."
-    }
+        "tips_two": "Po użyciu trybu $$$$ nie będzie można ponownie połączyć się z tym interfejsem użytkownika. Możesz nacisnąć i przytrzymać przycisk resetowania przez 4 sekundy, aby powrócić do trybu routera.",
+        "mode_switch": "Przełącznik trybu",
+        "router": "Router",
+        "ap": "Access Point",
+        "wds": "WDS",
+        "ssid": "Wi-Fi Nazwa (SSID)",
+        "password": "Hasło",
+        "holder_choose": "Proszę wybrać",
+        "access_router": "Dostęp do Routera",
+        "access_router_ext_tips": "Jeśli po pomyślnym wykonaniu mostkowania chcesz uzyskać dostęp do interfejsu użytkownika tego routera, musisz ręcznie skonfigurować komputer PC/telefon komórkowy na statyczny adres IP z tego samego zakresu adresów co router. Jeśli nadal nie możesz uzyskać dostępu do interfejsu użytkownika, możesz przywrócić tryb routingu, przytrzymując przycisk resetowania przez 4 sekundy.",
+        "reset_mac_tips": "Zresetuj swój MAC do fabrycznego MAC w klonie MAC.",
+        "set_up_ap_tips": "Aby skonfigurować tryb Access Point, należy najpierw podłączyć kabel Ethernet do portu WAN.",
+        "remove_wan_tips": "Proszę odłączyć kabel Ethernet od portu WAN.",
+        "enter_pwd_tips": "Proszę wpisać hasło",
+        "choose_ssid_tips": "Proszę wybrać SSID",
+        "router_desc": "Stwórz własną sieć prywatną. Router będzie pełnił funkcję NAT, firewalla i serwera DHCP.",
+        "relay": "Extender",
+        "ap_desc": "Połącz się z siecią przewodową i rozgłaszaj sieć bezprzewodową.",
+        "relay_desc": "Połącz się z siecią Wi-Fi i rozgłaszaj sieć bezprzewodową.",
+        "wds_desc": "Podobnie jak w przypadku Extendera, wybierz WDS, jeśli Twój główny router obsługuje tryb WDS.",
+        "connet_fail_msg": "Połączenie nieudane.",
+        "get_ip_fail_msg": "Nie udało się uzyskać adresu IP.",
+        "bridge_pattern_label": "Bridge",
+        "bridge_pattern_desc": "Połącz się z siecią przewodową.",
+        "force_subnet_label": "Podsieć Force 24",
+        "subnet_mode_bable": "Tryb podsieci",
+        "passthrough_desc": "Jeśli włączona jest funkcja IP Passthrough, router przekaże adres IP operatora do portu LAN.",
+        "passthrough_conflict_warning": "Ten tryb może nie działać, jeśli włączone jest którekolwiek z poniższych ustawień: Tethering, tryb bramy typu Drop-In, IPv6, ręcznie ustawiony DNS, Multi-WAN ustawiony na tryb równoważenia obciążenia, Port WAN ustawiony jako LAN, Używane są zasady VPN, Dowolna zapora sieciowa dodano ustawienie, adres MAC został ustawiony ręcznie.",
+        "passthrough_conflict_2b_warning": "Ten tryb może nie działać, jeśli masz następujące ustawienia: włączony tryb bramy typu drop-in, włączony IPv6, ręcznie ustawiony DNS, ustawiony Multi-WAN na tryb równoważenia obciążenia, ustawiony port WAN jako LAN, używana polityka VPN, dodane dowolne ustawienie zapory ogniowej, ręcznie ustawić adres MAC.",
+        "passthrough_secondwan_warning": "Tryb IP Passthrough wymaga i może mieć tylko jeden port WAN. Przejdź do strony $$$$, aby ją zmodyfikować i anulować używanie portu WAN jako portu LAN lub anulować używanie sieci LAN jako portu WAN.",
+        "set_up_bridge_tips": "Aby skonfigurować tryb Bridge, należy najpierw podłączyć kabel Ethernet do portu WAN.",
+        "access_router_wds_tips": "Po pomyślnym wykonaniu mostu router automatycznie uzyska adres IP z routera głównego. Jeśli chcesz uzyskać dostęp do interfejsu użytkownika tego routera, musisz połączyć się przy użyciu adresu IP wysłanego przez główny router. Aby uzyskać ten adres IP, sprawdź listę podłączonych klientów w interfejsie użytkownika głównego routera. Jeśli nie masz dostępu do interfejsu użytkownika głównego routera, możesz przywrócić tryb routingu, przytrzymując przycisk resetowania przez 4 sekundy.",
+        "lan_conflict_msg": "Podsieć LAN powoduje konflikt z podsiecią Wi-Fi, z którą chcesz się połączyć. Ustaw inną podsieć.",
+        "passthrough_close_warning": "Jeśli przełączysz się na ten tryb, Repeater, Wireless, Clients, VPN i AdGuard Home zostaną wyłączone."
+    },
+    "menu_bridge": "Tryb sieciowy"
 }
