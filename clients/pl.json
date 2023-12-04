@@ -59,7 +59,9 @@
         "whitelist_self_error_tips": "Lista dozwolonych musi zawierać własny adres MAC.",
         "descending": "Malejąco",
         "printer": "Drukarka",
-        "speed_tips": "Dane te przedstawiają średnią prędkość z ostatnich 3 minut.\nUwaga: system rozpoczyna obliczanie średniej prędkości w momencie otwarcia tej strony (np. jeśli strona jest otwarta przez 10 sekund, średnia prędkość zostanie obliczona na podstawie danych z tylko 10 sekund)."
+        "speed_tips": "Dane te przedstawiają średnią prędkość z ostatnich 3 minut.\nUwaga: system rozpoczyna obliczanie średniej prędkości w momencie otwarcia tej strony (np. jeśli strona jest otwarta przez 10 sekund, średnia prędkość zostanie obliczona na podstawie danych z tylko 10 sekund).",
+        "parse_mac_success_tips": "1 prawidłowy adres MAC został rozwiązany. | {count} ważnych adresów MAC zostało rozwiązanych.",
+        "parse_mac_warning_tips": "1 wpis nie jest prawidłowym adresem MAC, zostanie on odrzucony po potwierdzeniu importu. | {count} wpisy nie są prawidłowymi adresami MAC, zostaną odrzucone, jeśli import zostanie potwierdzony."
     },
     "menu_clients": "Klient"
 }
