@@ -4,6 +4,7 @@
         "desc": "Die Netzwerkbeschleunigung reduziert die CPU-Belastung und beschleunigt die Weiterleitung von Datenpaketen, kann jedoch mit einigen Funktionen in Konflikt geraten.",
         "tips": "Wenn die Netzwerkbeschleunigung aktiviert ist, funktionieren die folgenden Funktionen nicht richtig: Geschwindigkeits- und Verkehrsstatistik, Geschwindigkeitsbegrenzung, Kindersicherung.",
         "hwnat_label": "Hardware-Beschleunigung",
-        "swnat_label": "Software-Beschleunigung"
+        "swnat_label": "Software-Beschleunigung",
+        "wifi_reload_tips": "Für das Einschalten oder Ändern der Hardwarebeschleunigung muss das WLAN Modul neu geladen werden. Dieser Vorgang kann zwischen 10 Sekunden und 1 Minute dauern."
     }
 }
