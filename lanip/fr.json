@@ -11,13 +11,23 @@
         "lan_conflict_tips": "Cette adresse IP est dans la plage du réseau local(Local), vous ne pouvez pas l'utiliser pour ça",
         "ip_outside_tips": "L'adresse IP est en dehors du masque de sous-réseau",
         "cannot_contain_ip_tips": "La plage réseau ne peut pas contenir l'adresse IP du routeur",
-        "end_smaller_tips": "L'adresse de fin est inferieur l'adresse de début",
+        "end_smaller_tips": "L'adresse de fin est inferieur l'adresse de début.",
         "lan_or_guest_senior_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "lan_or_guest_model_setting": "Configuration avancé",
         "user_count_max": "Nombre maximum d'utilisateurs",
         "lan_tab": "Réseau local",
         "guest_tab": "Réseau invité",
-        "ip_easy_tip": "L'adresse IP du routeur est l'adresse que vous devez saisir dans la barre d'adresse de votre navigateur pour accéder à la page d'administration du routeur."
+        "ip_easy_tip": "L'adresse IP du routeur est l'adresse que vous devez saisir dans la barre d'adresse de votre navigateur pour accéder à la page d'administration du routeur.",
+        "lpr_tips": "Plusieurs ports LPR d'imprimante peuvent être remplis.",
+        "security_title": "Paramètres de sécurités",
+        "ap_isolate_label": "Isolation d'un AP",
+        "ap_isolate_tips": "Vous pouvez isoler les appareils clients de votre réseau dans une zone de réseau séparée. Ces appareils ne peuvent pas communiquer avec les autres appareils du réseau.",
+        "dhcp_disable_warning_tips": "Si vous désactivez le DHCP, vous risquez de ne pas pouvoir vous connecter à l'internet.",
+        "dhcp_charter_label": "Temp du bail",
+        "lpr_serve_label": "Serveur LPR",
+        "dhcp_serve_title": "Serveur DHCP",
+        "enable_dhcp_tips": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication à chaque appareil client. Si le serveur DHCP est désactivé, vous devrez les configurer manuellement pour chaque client.",
+        "allow_lan_label": "Autoriser l'accès au réseau à partir du réseau local - invité"
     },
     "address_reservation": {
         "title": "Addresse Reservées",
@@ -33,5 +43,6 @@
         "mac_existed": "MAC existantes",
         "ip_existed": "IP existantes",
         "desc_label": "Description"
-    }
+    },
+    "menu_guestip": "Réseau invité"
 }
