@@ -13,7 +13,10 @@
         "setting": "Paramètres Ethernet",
         "dhcp_tips": "Adresse IP attribuée par la machine du réseau supérieur.",
         "pppoe_vlanid_tips": "Cette entrée n'est nécessaire que si le serveur PPPoE du fournisseur exige que l'interface utilise un ID VLAN spécifique",
-        "egderouter_mode_tips": "La passerelle Drop-in est activée. Si vous souhaitez modifier les paramètres Ethernet, veuillez d'abord désactiver $$$$Passerelle Drop-in$$$$"
+        "egderouter_mode_tips": "La passerelle Drop-in est activée. Si vous souhaitez modifier les paramètres Ethernet, veuillez d'abord désactiver $$$$Passerelle Drop-in$$$$",
+        "change_to_wan_tips": "Une fois que le port LAN est utilisé comme port WAN, vous ne pourrez pas accéder au panneau d'administration via ce port Ethernet connecté au port LAN. Assurez-vous que votre client peut se connecter au Wi-Fi ou à un autre port LAN.",
+        "change_to_lan_check_tips": "Tout d'abord, veuillez débrancher le câble Ethernet branché sur le port WAN. $$$$ re-detect $$$$",
+        "change_to_wan_tips2": "Vous pouvez restaurer le port LAN (afin qu'il ne soit plus utilisé comme port WAN) en appuyant sur le bouton de réinitialisation de l'appareil et en le maintenant enfoncé pendant quatre secondes."
     },
     "tethering": {
         "title": "Partage de connexion ",
@@ -58,7 +61,9 @@
         "fail_key_tips": "Mot de passe incorrect",
         "fail_not_found_tips": "Impossible de trouver le réseau, veuillez vérifier le SSID et le type de sécurité que vous avez saisis.",
         "unusable_eap_tips": "Ce routeur ne supporte pas les réseaux répétitifs qui utilisent EAP.",
-        "fail_mac_tips": "Le MAC du routeur ne peut pas être le même que celui d'un client Wi-Fi, veuillez $$$$modifier l'adresse MAC du clone$$$$ ou modifier l'adresse MAC de ce client."
+        "fail_mac_tips": "Le MAC du routeur ne peut pas être le même que celui d'un client Wi-Fi, veuillez $$$$modifier l'adresse MAC du clone$$$$ ou modifier l'adresse MAC de ce client.",
+        "connet_dfs_tips": "Lorsque le routeur répète un WiFi avec un canal DFS, si ce WiFi est disponible, le routeur utilisera le canal DFS sélectionné. Notez que si ce WiFi n'est pas disponible, le canal sera changé, ce qui entraînera une brève déconnexion du client connecté par le WiFi, et certains appareils seront reconnectés sans détection, tandis que d'autres devront être reconnectés manuellement.",
+        "scan_wifi_fail_dfs_tips": "L'appareil est en train de vérifier la disponibilité des canaux DFS et ne peut pas rechercher un réseau Wi-Fi à proximité. Veuillez attendre la fin de la vérification."
     },
     "modem": {
         "title": "Cellulaire",
@@ -119,7 +124,45 @@
         "timing_check_main_sim_tips": "Si cette option est activée, l'appareil essaiera de revenir à l'emplacement SIM préféré à l'heure spécifiée. Ainsi, vous pouvez revenir à l'utilisation de l'emplacement SIM préféré lorsque sa connexion internet est disponible.",
         "check_main_sim_time_label": "Délai de commutation",
         "choose_current_slot_label": "Carte SIM",
-        "remove_profile_warning": "Êtes-vous sûr de vouloir supprimer ces paramètres ? Les paramètres ne peuvent pas être récupérés après la suppression."
+        "remove_profile_warning": "Êtes-vous sûr de vouloir supprimer ces paramètres ? Les paramètres ne peuvent pas être récupérés après la suppression.",
+        "lte_plus_tips": "Certains appareils peuvent afficher 4G+ comme 5G",
+        "reboot_buildin_modem_btn": "Redémarrer le modem intégré",
+        "enable_band_filter_label": "Activer le masquage de bande",
+        "band_masking_tips": "En mode \"Blocage\", le routeur bloque les bandes suivantes.",
+        "has_been_choose_profile_desc": "Vous avez copié le contenu de {nomduprofil}. $$$$ Copier un autre profil$$$$",
+        "no_sim_tips2": "Votre carte SIM n'a pas été détectée. Veuillez vérifier que la carte a été insérée correctement et que les contacts sont propres.",
+        "select_profile_desc": "Vous pouvez $$$$ Sélectionner un profil $$$$ pour copier son contenu dans les paramètres utilisés par la carte SIM.",
+        "data_roaming_label": "Données en itinérance internationale",
+        "manage_profiles_btn": "Gérer les profils",
+        "device_may_not_b_tips": "L'appareil peut ne pas être en mesure de balayer toutes les tours lorsque l'interface cellulaire est activée.",
+        "scan_tower_msg": "Cela peut prendre du temps. Veuillez patientez.",
+        "reboot_buildin_modem_warning": "Êtes-vous sûr de vouloir redémarrer le modem intégré ?",
+        "band_filter_mode_label": "Mode de masquage",
+        "band_masking_label": "Bloquer",
+        "band_only_label": "Ouvert",
+        "band_only_tips": "En mode \"ouvert\", le routeur n'utilisera que ces bandes, les autres seront bloquées.",
+        "set_detection_tips": "L'état de l'Internet est détecté de la même manière que les paramètres de la page $$$$Multi-WAN$$$$.",
+        "locked_tower_tips": "Si le relai verrouillé ne correspond pas aux paramètres de masquage de bande ou d'APN dans les paramètres cellulaires, l'interface cellulaire ne pourra pas se connecter à l'internet.",
+        "cellular_desc": "L'interface cellulaire se reconnecte pour passer à l'antenne relai verrouillée.",
+        "sim_tower_title": "Relai SIM {sim}",
+        "band_only_warning": "Veuillez sélectionner au moins un des groupes autorisés.",
+        "current_badge_label": "Actuel",
+        "current_sim_badge_label": "Active : SIM {sim}",
+        "excellent_singal_label": "Excellent",
+        "good_singal_label": "Bon",
+        "fair_singal_label": "Juste",
+        "poor_singal_label": "Pauvre",
+        "setting_sim_title": "Paramètres utilisés par la carte SIM",
+        "save_as_profile_title": "Sauvegarder comme Profil",
+        "edit_profile_title": "Modifier le Profil",
+        "add_new_profile_title": "Ajouter un nouveau Profil",
+        "select_profile_title": "Selectionner un Profil",
+        "sim_not_setup_label": "Non configuré",
+        "name_already_exist_tips": "Ce nom est déjà utilisé.",
+        "history_signal_title": "Historique du signal",
+        "tower_locked_tips": "Relai verrouillé",
+        "lock_tower_title": "Bloquer les relais",
+        "available_tower_title": "Relai disponible"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -174,7 +217,9 @@
         "forward_add_phone_btn": "Ajouter un numéro de téléphone",
         "forward_phone_tips": "Si vous souhaitez que le routeur transfère les SMS vers votre téléphone portable, assurez-vous que votre réseau mobile est disponible et qu'il prend en charge l'envoi de SMS.",
         "forward_no_encryp_label": "Aucun",
-        "forward_tips": "Pour éviter tous risques de boucle, le transfert de SMS ne sera pas exécuté lorsque le numéro local est saisi ici. De même, si le modem ne lit pas le numéro de votre carte SIM, le transfert de SMS ne sera pas exécuté."
+        "forward_tips": "Pour éviter tous risques de boucle, le transfert de SMS ne sera pas exécuté lorsque le numéro local est saisi ici. De même, si le modem ne lit pas le numéro de votre carte SIM, le transfert de SMS ne sera pas exécuté.",
+        "forward_sms_title": "Transmettre par SMS",
+        "forward_email_title": "Transmettre par courriel"
     },
     "modemmanage": {
         "title": "Gérer",
