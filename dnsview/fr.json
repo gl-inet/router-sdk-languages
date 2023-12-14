@@ -10,7 +10,7 @@
         "mode": "Mode",
         "proxy_addr_label": "Addresse du serveur proxy",
         "encryption_type_label": "Type de chiffrement",
-        "v1_tips": "Le routeur utilise la version version 1 de DNS. Seuls certains serveurs DNS chiffrés sont pris en charge.",
+        "v1_tips": "Le routeur utilise la version 1 de DNS. Seuls certains serveurs DNS chiffrés sont pris en charge.",
         "server": "Serveurs",
         "server_tips": "Vous pouvez choisir jusqu'à 8 serveurs. Le routeur choisira automatiquement le serveur le plus rapide parmi eux.",
         "at_least_one_server_tips": "Sélectionner au moins un serveur",
@@ -35,6 +35,8 @@
         "form_wg_label": "Serveur DNS pour WireGuard",
         "provider": "Fournisseur DNS",
         "adguardhome_in_use_tips": "AdGuard Home est activé, le routeur doit utiliser le serveur DNS fourni par AdGuard Home, vous ne pouvez pas personnaliser les serveurs DNS.",
-        "server_warning_tips": "Le serveur est suspecté d'être expiré."
+        "server_warning_tips": "Le serveur est suspecté d'être expiré.",
+        "form_interface_label": "DNS depuis {interface}",
+        "bark_enable_override_tips": "Bark bloque presque toutes les requêtes DNS des clients envoyées sur Internet. Si vous activez cette option alors que Bark fonctionne, vos clients risquent de ne pas pouvoir accéder à Internet."
     }
 }
