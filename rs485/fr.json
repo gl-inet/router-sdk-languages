@@ -29,7 +29,7 @@
         "password_key_label": "Mot de passe de la clé",
         "command_tips": "La passerelle s'abonne au sujet pour recevoir les commandes de contrôle émises par la plate-forme.",
         "response_label": "Réponse",
-        "response_tips": "La passerelle utilisera le sujet pour envoyer le résultat de la réception ou de l'exécution de la commande en réponse au contrôle.",
+        "response_tips": "La passerelle utilisera l'objet pour envoyer le résultat de la réception ou de l'exécution de la commande en réponse au contrôle.",
         "qos_level_label": "Niveau de QoS",
         "keep_alive_interval_label": "Intervalle de maintien",
         "topic_label": "Objet",
@@ -43,6 +43,21 @@
         "custom_label": "Personnalisé",
         "dev_addr_label": "Adresse de l'appareil",
         "serial_port_label": "Port série",
-        "debug_function_label": "Fonction de débogage"
+        "debug_function_label": "Fonction de débogage",
+        "device_busy_msg": "{code}, le numéro de série défini par le port série est occupé.",
+        "tcps_starting_tips": "Le serveur TCP démarre ...",
+        "tcpc_connected_tips": "Le client TCP est connecté.",
+        "tcpc_connecting_tips": "Le client TCP se connecte ...",
+        "udp_starting_tips": "Le serveur UDP demarre ...",
+        "udp_running_tips": "Le serveur UDP est démarré.",
+        "mqtt_connected_tips": "MQTT connecté.",
+        "mqtt_connecting_tips": "Connexion MQTT ...",
+        "target_client_label": "Client cible",
+        "target_addr_label": "Adresse cible",
+        "target_port_label": "Port cible",
+        "write_data_label": "Donnée en ecriture",
+        "write_status_label": "Etat d'écriture",
+        "tcps_running_tips": "Serveur TCP démarré.",
+        "starting_data_addr_label": "Adresse de début des données"
     }
 }
