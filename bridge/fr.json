@@ -29,7 +29,12 @@
         "bridge_pattern_desc": "Se connecter à un reseau filaire",
         "force_subnet_label": "Forcer le sous-résau /24",
         "subnet_mode_bable": "Comportement sous-réseau",
-        "passthrough_desc": "Si l'option IP Passthrough est activée, le routeur transmet l'adresse IP du fournisseur d'accès Internet à vos équipements"
+        "passthrough_desc": "Si l'option IP Passthrough est activée, le routeur transmet l'adresse IP du fournisseur d'accès Internet à vos équipements",
+        "passthrough_conflict_warning": "Ce mode peut ne pas fonctionner si l'un des paramètres suivants est activé : Tethering, mode Drop-In Gateway, IPv6, DNS défini manuellement, Multi-WAN défini en mode équilibré, port WAN défini en tant que LAN, politique VPN en cours d'utilisation, tout paramètre de pare-feu a été ajouté, l'adresse MAC a été définie manuellement.",
+        "passthrough_secondwan_warning": "Le mode IP Passthrough nécessite et ne peut avoir qu'un seul port WAN. Veuillez consulter la page $$$$ pour la modifier afin d'annuler l'utilisation du port WAN en tant que port LAN ou d'annuler l'utilisation du LAN en tant que port WAN.",
+        "passthrough_close_warning": "Si vous passez à ce mode, les fonctions Répéteur, Sans fil, Clients, VPN et AdGuard Home seront désactivées.",
+        "passthrough_conflict_2b_warning": "Ce mode peut ne pas fonctionner si vous avez les paramètres suivants : activé le mode passerelle d'insertion, activé IPv6, défini manuellement le DNS, défini le Multi-WAN en mode équilibré, défini le port WAN comme LAN, utilisé la politique VPN, ajouté un paramètre de pare-feu, défini manuellement l'adresse MAC.",
+        "set_up_bridge_tips": "Pour configurer le mode Pont, vous devez d'abord connecter un câble Ethernet au port WAN."
     },
     "menu_bridge": "Comportement"
 }
