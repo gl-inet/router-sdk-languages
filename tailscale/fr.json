@@ -7,15 +7,18 @@
         "ready_tips": "L'appareil est connecté à votre réseau virtuel Tailscale.",
         "enable_lan_label": "Autoriser l'accès à distance au reseau local(LAN)",
         "account_label": "Lier le compte",
-        "logout_btn": "Delier ",
+        "logout_btn": "Delier",
         "current_ip_label": "Routeur des adresse IP virtuelles",
         "get_url_err_msg": "Échec de l'obtention du lien de liaison de l'appareil.",
         "enable_wan_label": "Autoriser l'accès à distance au réseau extérieur (WAN)",
         "allow_lan_tips": "Si cette option est activée, l'accès aux ressources du réseau local de l'appareil sera autorisé via le réseau virtuel Tailscale.",
         "allow_wan_tips": "Si cette option est activée, l'accès aux ressources du reseau exterieur (WAN) de l'appareil sera autorisé via le réseau virtuel Tailscale.",
         "exit_node_tips": "Si le nœud d'exportation que vous avez sélectionné n'est pas disponible ou ne peut pas accéder à Internet, l'appareil ne pourra pas synchroniser les paramètres avec Tailscale.",
-        "custom_exit_node_tips": "Si cette option est activée, l'appareil transmettra toutes les demandes au nœud de sortie. Avant d'activer cette option, vous devez activer les routes de sous-réseau {subnet} de ce périphérique dans $$$$Console d'administration Tailscale$$$$ pour que Tailscale transmette les demandes des clients ; sinon, vos clients ne pourront pas accéder à Internet.",
+        "custom_exit_node_tips": "Si cette option est activée, l'appareil transmettra toutes les demandes au nœud de sortie. Avant d'activer cette option, vous devez activer les routes de sous-réseau {subnet} de ce périphérique dans $$$$Tailscale Admin Console$$$$ pour que Tailscale transmette les demandes des clients ; sinon, vos clients ne pourront pas accéder à Internet.",
         "manual_node_label": "Nœuds de sortie personnalisés",
-        "exit_node_label": "Nœuds de sortie"
+        "exit_node_label": "Nœuds de sortie",
+        "current_ip_tips": "Tailscale utilise le sous-réseau 100.64.0.0/10, qui peut entrer en conflit avec une adresse attribuée par un FAI ou une adresse de client VPN. Si votre IP WAN ou VPN est une adresse dans ce sous-réseau, désactivez Tailscale pour éviter des conflits réseaux.",
+        "custom_exit_node_warning": "Si vous activez le nœud de sortie personnalisé, l'appareil transmettra toutes ses requêtes au nœud de sortie. Avant de l'activer, vous devez activer les routes de sous-réseau {subnet} de ce périphérique dans $$$$Tailscale Admin Console$$$$ pour que Tailscale transmette les demandes des clients ; sinon, vos clients ne pourront pas accéder à Internet.",
+        "dns_warning_tips": "Lorsque vous utilisez une adresse IP intranet comme DNS, il se peut que vous ne puissiez pas accéder au serveur DNS."
     }
 }
