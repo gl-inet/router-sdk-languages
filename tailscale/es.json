@@ -10,15 +10,15 @@
         "current_ip_label": "Dirección IP Virtual del Enrutador",
         "need_login_tips": "El servicio de Tailscale ha sido activado pero no ha sido asignado aún. Por favor asigne éste enrutador a su cuenta de Tailscale a través de $$$$The Device Bind Link$$$$.",
         "get_url_err_msg": "No fué posible obtener un link que permita asignar el enrutador.",
-        "manual_node_label": "Nodos de salida personalizados",
+        "manual_node_label": "Nodo de salida personalizado",
         "exit_node_label": "Nodo de salida",
         "enable_wan_label": "Permitir acceso remoto de WAN",
         "allow_wan_tips": "Si esta opción está activada, los recursos en el lado WAN del dispositivo seran permitidos a ser accesados a través de la red virtual Tailscale.",
-        "exit_node_tips": "Si el nodo de exportación que haz seleccionado no está disponible o no puede acceder al Internet, el dispositivo no podrá sincronizar la configuración con Tailscale.",
+        "exit_node_tips": "Si el nodo de salida que ha seleccionado no está disponible o no puede acceder al Internet, el dispositivo no podrá sincronizar la configuración con Tailscale.",
         "allow_lan_tips": "Si esta opción está activada, los recursos dentro del dispositivo LAN seran permitidos a ser accesados a través de la red virtual Tailscale.",
-        "custom_exit_node_tips": "Si esta opción está activada, el dispositivo reenviará todas las solicitudes al nodo de salida. Antes de habilitarlo, debe habilitar las rutas de subnet {subnet} de este dispositivo en $$$$Tailscale Admin Console$$$$ para Tailscale reenviar las solicitudes de los clientes; de lo contrario, tus clientes no podrán acceder al Internet.",
+        "custom_exit_node_tips": "Si esta opción está activada, el dispositivo reenviará todas las solicitudes al nodo de salida. Antes de habilitarlo, debe habilitar las rutas de subred {subnet} de este dispositivo en $$$$Tailscale Admin Console$$$$ para que Tailscale reenvíe las solicitudes de los clientes; de lo contrario, sus clientes no podrán acceder a Internet.",
         "current_ip_tips": "Tailscale utiliza la subred 100.64.0.0/10, que puede entrar en conflicto con una dirección asignada por el proveedor de servicios de Internet (ISP) o una dirección de cliente VPN. Si tu dirección IP de WAN o dirección IP de VPN se encuentra dentro de esta subred, desactiva Tailscale para evitar problemas de conectividad en la red.",
-        "custom_exit_node_warning": "Si habilitas el Nodo de Salida Personalizado, el dispositivo reenviará todas las solicitudes al nodo de salida. Antes de habilitarlo, debes activar las rutas de subred {subnet} de este dispositivo en $$$$Tailscale Admin Console$$$$ para que Tailscale pueda reenviar las solicitudes de los clientes; de lo contrario, tus clientes no podrán acceder a Internet.",
+        "custom_exit_node_warning": "Si habilita el Nodo de Salida Personalizado, el dispositivo reenviará todas las solicitudes al nodo de salida. Antes de habilitarlo, debes activar las rutas de subred {subnet} de este dispositivo en $$$$Tailscale Admin Console$$$$ para que Tailscale reenvíe las solicitudes de los clientes; de lo contrario, sus clientes no podrán acceder a Internet.",
         "dns_warning_tips": "Cuando se utiliza una dirección IP de la intranet como DNS, es posible que no se pueda acceder al servidor DNS."
     }
 }
