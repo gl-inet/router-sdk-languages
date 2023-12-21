@@ -4,6 +4,7 @@
         "desc": "La Aceleración Network reduce la carga de CPU y acelera el tráfico de reenvio de paquetes, pero puede causar conflicto con otras funciones.",
         "tips": "Cuando la Aceleración de Red está activada, las siguientes funciones no funcionaran correctamente: Velocidad del cliente , estadísticas de tráfico, velocidad límite del cliente y Control Parental.",
         "hwnat_label": "Aceleración Hardware",
-        "swnat_label": "Aceleración Software"
+        "swnat_label": "Aceleración Software",
+        "wifi_reload_tips": "Cambiar o alternar la aceleración de hardware requiere recargar el módulo WIFI, con tiempos de espera de 10 segundos a 1 minuto."
     }
 }
