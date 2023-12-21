@@ -242,8 +242,8 @@
         "online_count": "{count} オンライン",
         "block_traffic_domain_filter_warning": "$$$$オプションはすでにONになっていますが、リスト内のドメインを解決できないため、有効にならない可能性があります。",
         "azirevpn_account_limit_tips": "1つのAzireVPNアカウントは10台のデバイスでしか利用できません。アカウント内のデバイス数が上限に達しましたので、$$$$ AzireVPN$$$$で使用していないデバイスを削除してから再試行してください。",
-        "remvove_public_key_label": "公開鍵を同時に削除する",
-        "wgclient_clear_account_warning": "ルーター内のアカウント、関連する公開鍵および設定ファイルを削除してもよろしいですか?",
+        "remvove_public_key_label": "同時に公開鍵と秘密鍵を削除する",
+        "wgclient_clear_account_warning": "ルーター内のアカウントの認証情報、関連する公開鍵、秘密鍵および設定ファイルを削除してもよろしいですか?",
         "ovpnclient_clear_account_warning": "ルーター内のアカウントとプロファイルを削除してもよろしいですか?",
         "rootcert_missing_tips": "アップロードした設定ファイルには証明書の暗号化が必要ですが、ZIPアーカイブには対応する証明書ファイルがありません。",
         "rootcert_duplicate_tips": "証明書ファイルが検出されました、グループを再構築してください。",
@@ -254,7 +254,8 @@
         "ovpnclient_tap_s2s_close_tips": "この機能をオフにすると、OpenVPN クライアントは元の IP アドレスに戻ります。",
         "ovpnclient_tap_s2s_global_proxy_tips": "TAP-S2S はグローバル プロキシ モードでのみ動作し、OpenVPN がオンになると自動的に調整されます。",
         "ovpnclient_tap_s2s_ip_tips": "OpenVPN クライアントの IP アドレスは変更される可能性があります。",
-        "ovpnclinet_taps2s_disable_tips": "この機能を有効にすると、{feature} などの機能が使用できなくなります。"
+        "ovpnclinet_taps2s_disable_tips": "この機能を有効にすると、{feature} などの機能が使用できなくなります。",
+        "generate_peer_falied_msg": "クライアントIPの生成に失敗しました"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバ",
