@@ -94,7 +94,8 @@
         "high": "Alto",
         "custom": "Costume",
         "clear": "Cancella",
-        "setting_instructions": "Guida all'Installazione"
+        "setting_instructions": "Guida all'Installazione",
+        "pre_set_up": "Preimpostazione"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -122,7 +123,7 @@
         "second": "{count} secondo | {count} secondi",
         "min": "{count} Minuto | {count} Minuti",
         "hour": "{count} Ore | {count} Ore",
-        "for_last_time": "Più recente {time}",
+        "for_last_time": "Ultimo {time}",
         "ms": "ms"
     },
     "internet": {
@@ -140,7 +141,8 @@
         "band_width": "Bandwidth",
         "unlocked": "Unlocked",
         "locked": "Locked",
-        "frequency": "Frequenza"
+        "frequency": "Frequenza",
+        "net_trouble_guide_link": "Guida alla Risoluzione dei Problemi di Rete"
     },
     "upload": {
         "select_or_drag": "Seleziona un file o trascinalo qui",
@@ -150,7 +152,7 @@
         "firmware_format_error": "Formato firmware errato!",
         "error": "Impossibile caricare il file.",
         "format_error": "Errore nel formato dei dati!",
-        "too_large_tips": "L'archivio caricato è troppo grande, si prega di caricare un file grande al massimo $$$$ bytes.",
+        "too_large_tips": "Il file caricato è troppo grande, caricare un file di dimensioni inferiori a $$$$ byte.",
         "lass_than_tips": "(Meno di $$$$)"
     },
     "system": {

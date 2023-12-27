@@ -1,1 +1,20 @@
-{}
+{
+"adguardhome": {
+"desc": "AdGuard Home to oprogramowanie sieciowe, które blokuje reklamy i śledzenie. Po skonfigurowaniu obejmie wszystkie urządzenia w sieci domowej, nie ma potrzeby instalowania dodatkowego oprogramowania po stronie klienta. Ta strona pobiera statystyki za pośrednictwem interfejsu API dostarczonego przez AdGuard Home. Gdy AdGuard Home jest włączony, router wymusi użycie serwerów DNS dostarczonych przez AdGuard Home.",
+"tips": "Przejdź do strony $$$$Settings Page$$$$, aby przeprowadzić zaawansowaną konfigurację Adguard Home.",
+"top_queried_domain": "Domeny z największą liczbą zapytań",
+"top_blocked_domain": "Top zablokowane domeny",
+"dns_querie_title": "Zapytania DNS",
+"blocked_filtering_title": "Zablokowane przez filtry",
+"replaced_safebrowsing_title": "Zablokowane złośliwe oprogramowanie/phishing",
+"for_last_one_day": "W ciągu ostatnich 24 godzin",
+"for_last_days": "W ciągu ostatnich $$$$ dni",
+"domain_th": "Domena",
+"request_th": "Liczba zapytań",
+"no_data": "Brak danych",
+"process_req_label": "AdGuard Home obsługuje żądania klientów",
+"process_req_tips": "Jeśli ta opcja jest włączona, zapytania DNS z urządzeń klienckich będą obsługiwane bezpośrednio przez AdGuard Home. AdGuard Home wyświetli dzienniki zapytań DNS klientów, ale spowoduje to, że zasady VPN oparte na domenie nie będą działać.",
+"replaced_parental_title": "Zablokowane witryny dla dorosłych",
+"not_disabled_dns_msg": "Żaden inny DNS nie jest wyłączony"
+}
+}

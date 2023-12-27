@@ -2,7 +2,7 @@
     "dns": {
         "provider": "Proveedor DNS",
         "rebinding_label": "Protección contra Ataques de Reemplazo (Rebind) de DNS",
-        "rebinding_tips": "El activar esta opción puede provocar fallos de búsqueda en servidores DNS privados. Si su red tiene un Portal Cautivo, desactive esta opción.",
+        "rebinding_tips": "Si activa esta opción puede provocar un error en la búsqueda de DNS privados. Si su red tiene un Portal Cautivo, desactive esta opción.",
         "override_label": "Anular y Reemplazar la Configuración DNS para Todos Clientes",
         "override_tips": "Si se activa, el enrutador anulará y reemplazará la configuración de DNS no encriptada para todos los clientes.",
         "edit_host_btn": "Editar Hosts",
@@ -31,11 +31,11 @@
         "set_dns_server_title": "Configuración del Servidor DNS",
         "select_all_label": "Todos",
         "choose_server_title": "Seleccionar Servidores DNS",
-        "host_tips": "Las solicitudes de los clientes se resolverán preferentemente utilizando las reglas estáticas de DNS que se encuentran en Hosts.",
+        "host_tips": "Las solicitudes de los clientes se resolverán, inicialmente, utilizando las reglas estáticas de DNS que se encuentren en el Host.",
         "manual_label": "DNS Manual",
         "form_wg_label": "DNS desde WireGuard",
-        "adguardhome_in_use_tips": "Si AdGuard Home está activado, el router debe utilizar el servidor DNS proporcionado por AdGuard Home y no se pueden personalizar los servidores DNS.",
-        "server_warning_tips": "Parece que el servidor ha expirado.",
+        "adguardhome_in_use_tips": "Si AdGuard Home está activado, el router debe utilizar el servidor DNS proporcionado por AdGuard Home, no puede personalizar los servidores DNS.",
+        "server_warning_tips": "El servidor parece que ha expirado.",
         "form_interface_label": "DNS desde {interface}",
         "bark_enable_override_tips": "Bark bloquea casi todas las solicitudes DNS de los clientes enviadas a Internet. Si habilitas esta opción mientras Bark está funcionando, es posible que tus clientes no puedan acceder a Internet."
     }

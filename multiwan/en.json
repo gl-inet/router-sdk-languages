@@ -3,7 +3,7 @@
     "multiwan": {
         "tips": "The router supports connections to multiple network interfaces at the same time. You can configure how these multiple networks should be used.",
         "failover_desc": "Failover: If the current, active link fails, the router will automatically switch to another network interface.",
-        "balancing_desc": "Load Balance: Uses multiple network interfaces at the same time to increase the total bandwidth of the router.",
+        "balancing_desc": "Load Balance: Uses multiple network interfaces at the same time to increase the total bandwidth of the router. Note that connections to the same application or site will usually only use one interface.",
         "mode_label": "Mode",
         "mode_failover_tips": "The router automatically selects the next available interface with the highest priority.",
         "mode_balancing_tips": "The system will assign interfaces to new connections based on the load ratio.",

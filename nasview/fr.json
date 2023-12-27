@@ -31,7 +31,7 @@
         "add_user_btn": "Ajouter un utilisateur",
         "folder_link_title": "Lien d'accès au dossier",
         "remove_all_share_caution": "Êtes vous sûr de vouloir supprimer tous les dossiers partagés ?",
-        "remove_share_caution": "Êtes vous sûr de vouloir supprimer ce dossier partager",
+        "remove_share_caution": "Êtes vous sûr de vouloir supprimer ce dossier partager ?",
         "user_manage_tips": "Pour certains protocoles ( {protos} ), il est possible d'affiner les permission par dossier et par utilisateur.",
         "set_password_title": "Changer le mot de passe",
         "remove_all_user_caution": "Êtes vous sûr de vouloir supprimer tous les utilisateur ?",
@@ -45,11 +45,15 @@
         "later_add_btn": "Ajouter plus tard",
         "fast_share_btn": "Configuration rapide du partage",
         "no_disk_tips": "Veuillez brancher un sotckage amovible avant s'il vous plait",
-        "share_link_tips": "Le dossier a été partagé. Utilisez le lien suivant pour monter le dossier en tant que disque réseau sur votre PC ou votre téléphone. $$$$Guide d'installation$$$$",
+        "share_link_tips": "Le dossier a été partagé. Utilisez le lien suivant pour monter le dossier en tant que disque réseau sur votre PC ou votre téléphone. $$$$Guide d'installation$$$$.",
         "no_user_tips": "Veuillez sélectionner au moins un utilisateur en écriture ou un utilisateur en lecture seule.",
-        "nfs_tips": "Les disques au format exFAT ne peuvent pas être partagés via le protocole NFS.",                                                                              
-        "ftp_fat32_tips": "Le protocole FTP ne permet pas encore d'écrire des données sur des disques au format FAT32.",                                                          
-        "format_th": "Formatter"                                                                             
-    },                                                                                                                                                         
-    "menu_nasview": "Stockage réseau"                                                                                                                          
-} 
+        "nfs_tips": "Les disques au format exFAT ne peuvent pas être partagés via le protocole NFS.",
+        "ftp_fat32_tips": "Le protocole FTP ne permet pas encore d'écrire des données sur des disques au format FAT32.",
+        "format_th": "Formatter",
+        "fat32_warning": "Les disques au format FAT étant moins compatibles avec les fichiers volumineux, il est recommandé d'utiliser le format exFAT.",
+        "users_limit_tips": "Seulement 10 utilisateurs sont autorisés.",
+        "serve_not_enable_tips": "Vous n'avez pas ouvert l'accord de partage de fichiers NAS. Tant que vous ne l'aurez pas fait, le lien d'accès ne prendra pas effet.",
+        "limit_share_folder_tips": "Ajoutez jusqu'à {count} dossiers partagés, et des protocoles de partage supplémentaires peuvent être ajoutés à chaque dossier partagé."
+    },
+    "menu_nasview": "Stockage réseau"
+}

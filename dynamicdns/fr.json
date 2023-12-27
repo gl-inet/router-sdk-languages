@@ -26,7 +26,8 @@
         "use_desc": "Vous pouvez activez le DNS dynamique pour ce routeur et y accéder à distance .",
         "to_security_btn": "Aller dans les paramètres de sécurité",
         "security_settings_btn": "Paramètres de sécurité",
-        "security_settings_tips": "Dans les \"paramètres de sécurité\" Contrôle à distance, Vous pouvez modifier 2 deux options pour limiter l'accès a distance."
+        "security_settings_tips": "Dans les \"paramètres de sécurité\" Contrôle à distance, Vous pouvez modifier 2 deux options pour limiter l'accès a distance.",
+        "enabled_tips": "La synchronisation des enregistrements entre les serveurs DNS peut prendre jusqu'à 10 minutes. Il se peut donc que vous ne puissiez pas accéder au nom de domaine DDNS immédiatement après l'avoir activé ou que votre adresse IP publique ait changé."
     },
     "menu_dynamicdns": "DNS Dynamique"
 }

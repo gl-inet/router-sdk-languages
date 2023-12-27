@@ -15,12 +15,18 @@
         "lan_conflict_tips": "Konflikt mit der LAN IP-Adresse",
         "ip_outside_tips": "Die IP-Adresse befindet sich nicht im Sub-Netzwerk",
         "cannot_contain_ip_tips": "Der Adressbereich darf nicht die Router IP-Adresse beinhalten",
-        "end_smaller_tips": "Die letzte IP-Adresse ist kleiner als die erste IP-Adresse",
+        "end_smaller_tips": "Die letzte IP Adresse muss größer sein als die erste Adresse.",
         "ip_easy_tip": "Die IP-Adrese des Routers ist diejenige Adresse, die sie in ihren Browser eintragen, um die Administrationsseite des Routers aufzurufen.",
         "dhcp_charter_label": "Gültigkeitsdauer",
         "lpr_serve_label": "LPR-Server",
         "dhcp_serve_title": "DHCP-Server",
-        "enable_dhcp_tips": "Der DHCP-Server weist den einzelnen Client-Geräten automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen Sie dies für jedes Gerät manuell konfigurieren."
+        "enable_dhcp_tips": "Der DHCP-Server weist den einzelnen Client-Geräten automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen Sie dies für jedes Gerät manuell konfigurieren.",
+        "lpr_tips": "Mehrere Drucker LPR Ports können angegeben werden.",
+        "dhcp_disable_warning_tips": "Wenn DHCP deaktiviert wird, kann unter Umständen das Internet nicht erreicht werden. Vorsicht.",
+        "security_title": "Sicherheitseinstellungen",
+        "ap_isolate_label": "AP Isolation",
+        "ap_isolate_tips": "Die Clients können in einem eigenen Netzwerkbereich isoliert werden. Diese Geräte können nicht mit anderen Geräten im Netzwerk kommunizieren.",
+        "allow_lan_label": "Erlaube Zugriff zum Netzwerk aus dem Gast LAN"
     },
     "address_reservation": {
         "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",

@@ -91,11 +91,12 @@
         "low": "Low",
         "medium": "Medium",
         "high": "High",
-        "custom": "Custom",
+        "custom": "Customize",
         "local": "Local",
         "clear": "Clear",
         "setting_instructions": "Setup Guide",
-        "pre_set_up": "Pre-Set Up"
+        "pre_set_up": "Pre-Set Up",
+        "verify_btn": "Verify"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -141,7 +142,10 @@
         "server": "Server",
         "client": "Client",
         "enabled": "Enabled",
-        "disabled": "Disabled"
+        "disabled": "Disabled",
+        "ttl_tips": "TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator.",
+        "hl_tips": "In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.",
+        "net_trouble_guide_link": "Network Troubleshooting Guide"
     },
     "upload": {
         "select_or_drag": "Select a file or drag it here",

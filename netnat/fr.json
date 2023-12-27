@@ -4,6 +4,7 @@
         "desc": "L'accélération du réseau réduit la charge du CPU et améliore le débit de transmission des paquets, mais il peut être en conflit avec d'autres fonctionnalités .",
         "tips": "Quand l'accélération matérielle est activé, les fonctions suivantes peuvent ne pas fonctionner correctement : Débit du client, Statistiques du traffic, Limite de débit du client .",
         "hwnat_label": "Accélération matérielle",
-        "swnat_label": "Accélération logicielle"
+        "swnat_label": "Accélération logicielle",
+        "wifi_reload_tips": "L'activation de l'accélération matérielle requiert de recharger le module WIFI, cela provoque une coupure de 10 secondes à 1 minute."
     }
 }

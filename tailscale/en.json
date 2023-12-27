@@ -13,12 +13,12 @@
         "enable_wan_label": "Allow Remote Access WAN",
         "allow_lan_tips": "If this option is enabled, the resources inside the device LAN will be allowed to be accessed via the Tailscale virtual network.",
         "allow_wan_tips": "If this option is enabled, the resources on the WAN side of the device will be allowed to be accessed via the Tailscale virtual network.",
-        "exit_node_tips": "If the export node you have selected is not available or cannot access Internet, the device will not be able to synchronise the settings to Tailscale.",
-        "custom_exit_node_tips": "If this option is enabled, the device will forward all requests to the exit node. Before enabled, you need to enable subnet routes {subnet} of this device in $$$$Tailscale Admin Console$$$$ for Tailscale to forward client requests; otherwise, your clients will not be able to access the Internet.",
-        "manual_node_label": "Custom Exit Nodes",
+        "exit_node_tips": "If the Exit Node you have selected is not available or cannot access Internet, the device will not be able to synchronise the settings to Tailscale.",
+        "custom_exit_node_tips": "If this option is enabled, the device will forward all requests to the Exit Node. Before enabled, you need to enable subnet routes {subnet} of this device in $$$$Tailscale Admin Console$$$$ for Tailscale to forward client requests; otherwise, your clients will not be able to access the Internet.",
+        "manual_node_label": "Custom Exit Node",
         "exit_node_label": "Exit Node",
         "current_ip_tips": "Tailscale uses the 100.64.0.0/10 subnet, which may conflict with an ISP-assigned address or VPN client address. If your WAN IP or VPN IP is an address within this subnet, disable Tailscale to avoid being unable to network.",
-        "custom_exit_node_warning": "If you enable Custom Exit Node, the device will forward all requests to the exit node. Before enabled, you must enable subnet routes {subnet} of this device in $$$$Tailscale Admin Console$$$$ for Tailscale to forward client requests; otherwise, your clients will not be able to access the Internet.",
+        "custom_exit_node_warning": "If you enable Custom Exit Node, the device will forward all requests to the Exit Node. Before enabled, you must enable subnet routes {subnet} of this device in $$$$Tailscale Admin Console$$$$ for Tailscale to forward client requests; otherwise, your clients will not be able to access the Internet.",
         "dns_warning_tips": "When using an intranet IP address as DNS, you may not be able to access the DNS server."
     }
 }

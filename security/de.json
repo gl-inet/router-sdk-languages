@@ -18,11 +18,16 @@
         "apply_success_tips": "Erfolgreich angewendet; Warte auf Neustart des Webserver.",
         "remote_access_title": "Berechtigung des Fernzugriff",
         "enable_ping_label": "Erlaube Ping aus dem WAN",
-        "enable_https_label": "Aktiviere HTTPS Fernzugriff",
-        "enable_ssh_label": "Erlaube SSH Fernzugriff",
-        "enable_ipaddr_label": "Erlaube Fernzugriff von bestimmten IPs",
-        "enable_ipaddr_tips": "Füge eine IP hinzu, um von dieser Fernzugriff auf die Verwaltung des Routers zu bekommen.",
+        "enable_https_label": "HTTPS Fernzugriff",
+        "enable_ssh_label": "SSH Fernzugriff",
+        "enable_ipaddr_label": "Erlaube Fernzugriff nur von bestimmten IPs",
+        "enable_ipaddr_tips": "Füge bestimmte IP Adressen hinzu, um von diesen die Verwaltung des Routers zu erlauben.",
         "no_ipaddr_list_label": "Keine IP Adressen",
-        "add_ipaddr_btn": "Füge eine IP Adresse hinzu"
-    }
+        "add_ipaddr_btn": "Füge eine IP Adresse hinzu",
+        "port_conflict_tips": "Dieser Port ist bereits in Benutzung.",
+        "session_timeout_tips": "Zeitraum zwischen dem Schließen oder Ruhezustand der Browser Seite und dem Abmelden.",
+        "port_disabled_tips": "Dieser Port ist vom Browser gesperrt",
+        "add_ipaddr_tips": "Beispiele für das Format der Eingabe einer IP oder eines Netzwerks (auch IPv6): 192.168.8.1."
+    },
+    "menu_security": "Sicherheit"
 }

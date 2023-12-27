@@ -4,6 +4,7 @@
         "desc": "Network acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.",
         "tips": "When Network acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit,Parent Control.",
         "hwnat_label": "Hardware Acceleration",
-        "swnat_label": "Software Acceleration"
+        "swnat_label": "Software Acceleration",
+        "wifi_reload_tips": "Switching or toggling hardware acceleration requires WIFI module reload, with wait times of 10 seconds to 1 minute."
     }
 }

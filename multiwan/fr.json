@@ -1,5 +1,5 @@
 {
-    "menu_multiwan": "Multi-WAN",
+    "menu_multiwan": "Passerelles multiples",
     "multiwan": {
         "tips": "Le routeur permet de connecter plusieurs interfaces réseau en même temps. Vous pouvez définir comment l'utiliser.",
         "failover_desc": "Basculement : En cas de défaillance d'une connexion utilisé, le routeur bascule automatiquement sur une autre connexion internet.",
@@ -10,7 +10,7 @@
         "mode_balancing_note": "Note : Il n'est pas garanti que les connexions ou le trafic en cours correspondent au taux de charge.",
         "failover_label": "Bascule",
         "balancing_label": "Répartiteur de charge",
-        "track_title": "Méthode de suivi de l'état de l'interface.",
+        "track_title": "Méthode de suivi de l'état de l'interface",
         "physical_state_monitor": "Internet toujours disponible lorsque l'interface est connectée",
         "priority_title": "Interface prioritaire",
         "ratio_title": "taux de charge",
@@ -27,7 +27,15 @@
         "both_label": "Les deux",
         "flush_track_tips": "Si cette option est activée, lorsque l'interface réseau change, le routeur actualise tous les flux de données existants pour s'assurer qu'ils utilisent l'interface la plus prioritaire. Cela permet d'éviter les pertes de trafic inutiles, mais peut également accroître la volatilité du réseau (certains VPN peuvent ne pas se reconnecter immédiatement).",
         "flush_track_label": "Rafraîchissement forcé",
-        "enable_check_label": "Activer le suivi de la connexion à Internet ",
-        "interface_state_label": "Etat du réseau"
+        "enable_check_label": "Activer le suivi de la connexion à Internet",
+        "interface_state_label": "Etat du réseau",
+        "track_mode_label": "Mode de données faible",
+        "passive_label": "Mode données falble",
+        "sensitivity_label": "Sensibilité",
+        "balancing_warning_tips": "Au moins deux interfaces avec des taux de charge non nuls doivent être configurées pour que la charge équilibrée fonctionne correctement. S'il n'y a pas d'interface Internet connectable avec un taux de charge non nul, l'appareil ne pourra pas se connecter à Internet.",
+        "sensitivity_tips": "Cette sensibilité détermine l'intervalle de temps pour la détection de l'état de l'Internet. Il est recommandé d'utiliser une sensibilité faible lorsque l'accès à l'internet est instable afin d'éviter de changer fréquemment de réseau ; il est recommandé d'utiliser une sensibilité élevée lors de la diffusion de vidéos ou de flux en direct afin de pouvoir changer rapidement d'accès à l'internet ; le passage à une sensibilité élevée peut entraîner une déconnexion du réseau.",
+        "track_mode_tips": "Activez le commutateur pour qu'il effectue un suivi uniquement en cas d'erreur du réseau d'interface et recommandez aux utilisateurs d'utiliser le mode \"données faibles\" lorsqu'ils disposent d'un plan de données limité.",
+        "network_tracking_title": "{interface} État de la connexion",
+        "sensitivity_options_label": "Options de sensiblité"
     }
 }

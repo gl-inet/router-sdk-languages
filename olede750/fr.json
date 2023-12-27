@@ -1,1 +1,17 @@
-{}
+{
+    "olede750": {
+        "show_lanip_tips": "Cette page affiche le mode réseau, l'IP LAN du routeur.",
+        "tips": "L'écran OLED comporte un total de 6 pages dont vous pouvez personnaliser le contenu en sélectionnant la page à afficher. Si l'affichage de plusieurs pages est activé, vous pouvez appuyer brièvement sur le bouton d'alimentation pour faire passer l'écran à la page suivante.",
+        "show_wifi_pwd_tips": "Si cette option est activée, le mot de passe Wi-Fi sera affiché sur la page Wi-Fi 2.4GHz et la page Wi-Fi 5GHz. Dans le cas contraire, seul le SSID sera affiché.",
+        "show_wifi_pwd_label": "Montrer le mot de passe Wi-Fi",
+        "show_main_label": "Activer la page d'état de la base",
+        "show_main_tips": "Cette page affiche l'état du réseau, le nombre de clients, l'état du Wi-Fi, le niveau de la batterie et l'heure actuelle.",
+        "show_2g_label": "Activer la page d'information sur le Wi-Fi 2,4 GHz",
+        "show_5g_label": "Activer la page d'information sur le Wi-Fi 5 GHz",
+        "show_lanip_label": "Activer la page d'information du réseau local (LAN)",
+        "show_vpn_label": "Activer la page d'état du VPN",
+        "show_custom_label": "Activer la page de texte personnalisé",
+        "custom_content_label": "Texte personnalisé"
+    },
+    "menu_olede750": "Paramètres de l'écran OLED"
+}

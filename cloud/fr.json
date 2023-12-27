@@ -15,11 +15,11 @@
         "agree": "J'ai lu et j'accepte",
         "terms": "Condition d'utilisation",
         "privacy": "Vie privée",
-        "unbind_tips": "Êtes-vous sûr de vouloir délier l'appareil de GoodCloud ? L'appareil est lié à",
+        "unbind_tips": "Êtes-vous sûr de vouloir délier l'appareil de GoodCloud ? L'appareil est lié à :",
         "user": "Utilisateur",
         "region": "Région",
         "unbind_note": "Remarque : cette opération n'aura d'effet que dans la région sélectionnée. Si vous liez cet appareil dans différentes régions, effectuez cette opération dans chaque région.",
-        "unbind_success": "L'appareil est dissocié",
+        "unbind_success": "L'appareil est dissocié.",
         "view_log": "Voir les journaux",
         "enable_remote_ssh": "Activer l'accès SSH",
         "enable_remote_web": "Activer l'accès à l'interface web",
@@ -28,7 +28,9 @@
         "europe_label": "Europe",
         "america_label": "Amérique",
         "asia_pacific_label": "Asie Pacifique",
-        "china_label": "Chine"
+        "china_label": "Chine",
+        "unbound_tips": "L'appareil n'est lié à aucun compte dans le cloud.",
+        "token_invalid_tips": "La vérification de la clé de sécurité de l'appareil a échoué, veuillez $$$$Rebind the Device$$$$ pour connecté le {cloud}."
     },
     "menu_cloud": "GoodCloud"
 }

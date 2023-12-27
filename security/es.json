@@ -25,6 +25,9 @@
         "enable_ipaddr_label": "Permitir Acceso Remoto sólo desde direcciones IPs específicas",
         "enable_ipaddr_tips": "Añadir varias direcciones IP específicas para gestionar el router desde este dispositivo.",
         "no_ipaddr_list_label": "Ninguna dirección IP",
-        "add_ipaddr_tips": "Especifique una dirección IP (también soporta IPv6), por ejemplo 192.168.8.1, 192.168.8.1/24."
+        "add_ipaddr_tips": "Un ejemplo de dirección IP que puede ingresar es (también admite el formato IPv6), e.j. 192.168.8.1.",
+        "local_access_title": "Control de Acceso Local",
+        "session_timeout_label": "Tiempo de cierre de sesión automático",
+        "session_timeout_tips": "Intervalo entre cerrar o hibernar la página del navegador y cerrar sesión."
     }
 }

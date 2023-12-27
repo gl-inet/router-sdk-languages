@@ -95,7 +95,8 @@
         "local": "本地",
         "clear": "清除",
         "setting_instructions": "设置说明",
-        "pre_set_up": "预设"
+        "pre_set_up": "预设",
+        "verify_btn": "验证"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -141,7 +142,10 @@
         "server": "服务器",
         "client": "客户端",
         "enabled": "已启用",
-        "disabled": "已禁用"
+        "disabled": "已禁用",
+        "net_trouble_guide_link": "网络故障排除指南",
+        "ttl_tips": "TTL（Time To Live）设置了数据包在网络中生存的最大时间，根据运营商要求进行填写。",
+        "hl_tips": "HL（Hop Limit），在IPv6中，该字段用于限制数据包在网络中的传输跳数，相当于IPv4的TTL。"
     },
     "upload": {
         "file_include": "文件类型包括",

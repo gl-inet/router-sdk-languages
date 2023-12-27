@@ -162,7 +162,15 @@
         "tower_locked_tips": "Tower Locked",
         "reboot_buildin_modem_btn": "Reboot Build-in Modem",
         "reboot_buildin_modem_warning": "Are you sure want to reboot the built-in Modem ?",
-        "lte_plus_tips": "Some device may display 4G+ as 5G"
+        "lte_plus_tips": "Some device may display 4G+ as 5G",
+        "sim_slot_pin_mark_tips": "The SIM card slot has been marked and cannot be automatically switched.",
+        "pin_verify_success_tips": "PIN code verification successful.",
+        "need_pin_no_history_tips": "You need to enter the PIN code, and you have {count} attempts remaining.",
+        "need_pin_history_tips": "The PIN code {value} is incorrect. You have {count} attempts remaining.",
+        "pin_locked_no_history_tips": "SIM card was locked.",
+        "pin_locked_history_tips": "PIM code {value} error, SIM card was locked.",
+        "protocol_tips": "The QCM/QMI protocol are faster, and the 3G protocol has better compatibility.",
+        "certification_info_btn": "Certification Info"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
