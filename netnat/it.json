@@ -4,6 +4,7 @@
         "desc": "L'accelerazione di rete riduce il carico della CPU e rende più veloce il traffico dell'inoltro dei paccheti, ma può avere dei conflitti con alcuni funzioni.",
         "tips": "Quando l'accelerazione di rete è attivata, le seguenti funzioni non funzionano correttamente: Statistiche di velocità e traffico del client, Limite di velocità del client, Controllo genitori.",
         "hwnat_label": "L'accelerazione del hardware",
-        "swnat_label": "L'accelerazione del software"
+        "swnat_label": "L'accelerazione del software",
+        "wifi_reload_tips": "La commutazione o l'attivazione dell'accelerazione hardware richiede il ricaricamento del modulo WiFi, con tempi di attesa da 10 secondi a 1 minuto."
     }
 }
