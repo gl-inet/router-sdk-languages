@@ -1,5 +1,20 @@
 {
 "adguardhome": {
-"desc": "AdGuard Home은 광고 및 추적을 차단하는 네트워크 전체 소프트웨어입니다. 일단 설정되면 홈 네트워크의 모든 장치에 적용되므로 추가 클라이언트 측 소프트웨어가 필요하지 않습니다. 이 페이지는 AdGuard Home에서 제공하는 API를 통해 통계를 가져옵니다. AdGuard Home이 활성화되면 라우터는 AdGuard Home에서 제공하는 DNS 서버를 강제로 사용합니다."
+"desc": "AdGuard Home은 광고 및 추적을 차단하는 네트워크 전체 소프트웨어입니다. 일단 설정되면 홈 네트워크의 모든 장치에 적용되므로 추가 클라이언트 측 소프트웨어가 필요하지 않습니다. 이 페이지는 AdGuard Home에서 제공하는 API를 통해 통계를 가져옵니다. AdGuard Home이 활성화되면 라우터는 AdGuard Home에서 제공하는 DNS 서버를 강제로 사용합니다.",
+"tips": "Adguard Home의 고급 구성을 수행하려면 설정 페이지로 이동하세요.",
+"top_queried_domain": "가장 많이 검색된 도메인",
+"top_blocked_domain": "상위 차단 도메인",
+"dns_querie_title": "DNS 쿼리",
+"blocked_filtering_title": "필터에 의해 차단됨",
+"replaced_safebrowsing_title": "차단된 악성 코드/피싱",
+"replaced_parental_title": "차단된 성인 웹사이트",
+"for_last_one_day": "지난 24시간 동안",
+"for_last_days": "지난 며칠 동안",
+"domain_th": "도메인",
+"request_th": "요청 수",
+"no_data": "데이터 없음",
+"process_req_label": "AdGuard Home은 클라이언트 요청을 처리합니다",
+"not_disabled_dns_msg": "다른 DNS는 비활성화 되었습니다",
+"process_req_tips": "이 옵션을 활성화하면 클라이언트 장치의 DNS 쿼리가 AdGuard Home에서 직접 처리됩니다. AdGuard Home은 클라이언트별 DNS 쿼리 로그를 표시하지만 이로 인해 도메인 기반 VPN 정책이 작동하지 않게 됩니다."
 }
 }
