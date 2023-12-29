@@ -162,7 +162,15 @@
         "scan_tower_msg": "Questo potrebbe richiedere alcuni minuti. Per favore sii paziente.",
         "reboot_buildin_modem_btn": "Riavviare il Modem Integrato",
         "reboot_buildin_modem_warning": "Sei sicuro di voler riavviare il modem integrato?",
-        "device_may_not_b_tips": "Il dispositivo potrebbe non essere in grado di scansionare tutte le torri quando l'interfaccia Cellulare è abilitata."
+        "device_may_not_b_tips": "Il dispositivo potrebbe non essere in grado di scansionare tutte le torri quando l'interfaccia Cellulare è abilitata.",
+        "need_pin_no_history_tips": "È necessario immettere il codice PIN e sono rimasti {count} tentativi.",
+        "protocol_tips": "Il protocollo QCM/QMI è più veloce e il protocollo 3G ha una migliore compatibilità.",
+        "certification_info_btn": "Informazioni sulla Certificazione",
+        "sim_slot_pin_mark_tips": "Il SIM card slot è stato contrassegnato e non può essere commutato automaticamente.",
+        "pin_verify_success_tips": "La verifica del codice PIN è riuscita.",
+        "need_pin_history_tips": "Il codice PIN {value} non è corretto. Sono rimasti {count} tentativi.",
+        "pin_locked_no_history_tips": "La scheda SIM era bloccata.",
+        "pin_locked_history_tips": "Errore codice PIM {value}, SIM card era bloccata."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
