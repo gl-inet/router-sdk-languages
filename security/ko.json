@@ -1,12 +1,33 @@
 {
     "adminpw": {
-        "old_pwd": "기존 비밀번호",
+        "old_pwd": "이전 비밀번호",
         "new_pwd": "새로운 비밀번호",
         "confirm_pwd": "비밀번호 확인",
         "warning": "새 비밀번호는 이전 비밀번호와 같을 수 없습니다",
         "confirm_pwd_tips": "새 비밀번호를 다시 입력하세요",
         "old_pwd_tips": "이전 비밀번호를 입력하세요",
         "new_pwd_tips": "새로운 비밀번호를 입력하세요",
-        "old_pwd_error": "이전 비밀번호가 올바르지 않습니다!"
-    }
+        "old_pwd_error": "이전 비밀번호가 올바르지 않습니다!",
+        "title": "관리자 비밀번호"
+    },
+    "security": {
+        "enable_ipaddr_tips": "이 장치에서 라우터를 관리하려면 여러 개의 특정 IP 주소를 추가하세요.",
+        "port_disabled_tips": "이 포트는 브라우저에서 금지되어 있습니다",
+        "local_access_title": "로컬 접근 제어",
+        "redirect_https_label": "강제 HTTPS",
+        "session_timeout_label": "자동 로그아웃 시간",
+        "apply_success_tips": "성공적으로 적용됨; 웹 서버가 다시 시작될 때까지 기다립니다.",
+        "remote_access_title": "원격 접속 제어",
+        "enable_ping_label": "WAN에서 Ping 허용",
+        "enable_https_label": "HTTPS 원격 접속",
+        "enable_ssh_label": "SSH 원격 접속",
+        "enable_ipaddr_label": "특정 IP에서만 원격 접속 허용",
+        "ipaddr_list_label": "IP 주소 목록",
+        "no_ipaddr_list_label": "IP 주소 없음",
+        "add_ipaddr_btn": "IP 주소 추가",
+        "add_ipaddr_tips": "입력할 수 있는 IP 주소의 예는 (IPv6 형식도 지원) 192.168.8.1입니다(예: 192.168.8.1).",
+        "session_timeout_tips": "브라우저 페이지를 닫거나 최대 절전 모드로 전환한 후 로그아웃할 때까지의 간격입니다.",
+        "port_conflict_tips": "이 포트는 이미 사용 중입니다."
+    },
+    "menu_security": "보안"
 }
