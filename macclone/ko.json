@@ -1,1 +1,14 @@
-{}
+{
+    "macclone": {
+        "desc": "공용 핫스팟에 연결할 때 핫스팟이 실제 MAC 주소를 알거나 이를 기반으로 인터넷 액세스를 제한하지 못하도록 하려면 임의의 MAC 주소를 사용하세요.",
+        "tips": "호텔이나 다른 비즈니스 위치의 네트워크에 인증이 필요한 경우, MAC 복제를 사용해야 할 수 있습니다.",
+        "factory_default_label": "공장 출하 기본값",
+        "clone_label": "복제",
+        "manual_label": "수동",
+        "mode_label": "모드",
+        "current_client_label": "현재 클라이언트",
+        "random_btn": "임의",
+        "no_mac_tips": "인터페이스가 활성화되면 생성됩니다"
+    },
+    "menu_macclone": "MAC 주소"
+}
