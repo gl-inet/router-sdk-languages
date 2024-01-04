@@ -1,1 +1,13 @@
-{}
+{
+    "dns": {
+        "edit_host_btn": "호스트 편집",
+        "desc": "사용자 지정 DNS 서버를 설정하면 모든 도메인 이름은 이더넷, 리피터, 셀룰러, 테더링 또는 VPN 구성 DNS 서버에서 가져온 것이 아니라 여기에서 설정한 DNS 서버를 통해 확인됩니다.",
+        "rebinding_label": "DNS 리바인딩 공격 차단",
+        "rebinding_tips": "이 옵션을 켜면 비공개 DNS 조회에 실패할 수 있습니다. 네트워크에 캡티브 포털이 있는 경우 이 옵션을 비활성화하세요.",
+        "override_label": "모든 클라이언트의 DNS 설정 덮어쓰기",
+        "override_tips": "활성화하면 라우터가 모든 클라이언트에 대해 암호화되지 않은 DNS 설정을 재정의합니다.",
+        "set_dns_server_title": "DNS 서버 설정",
+        "mode": "모드",
+        "proxy_addr_label": "프록시 서버 주소"
+    }
+}
