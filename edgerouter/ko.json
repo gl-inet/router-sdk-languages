@@ -1,6 +1,7 @@
 {
     "edgerouter": {
-        "desc": "Drop-in Gateway 모드가 활성화되면 네트워크상의 클라이언트로부터의 모든 트래픽이 이 라우터에 의해 먼저 처리됩니다. 이 모드를 사용하여 기본 라우터의 기능을 확장할 수 있습니다."
+        "desc": "Drop-in Gateway 모드가 활성화되면 네트워크상의 클라이언트로부터의 모든 트래픽이 이 라우터에 의해 먼저 처리됩니다. 이 모드를 사용하여 기본 라우터의 기능을 확장할 수 있습니다.",
+        "enable_label": "Drop-in Gateway 활성화"
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
