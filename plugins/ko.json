@@ -1,1 +1,37 @@
-{}
+{
+    "plugins": {
+        "update": "업데이트",
+        "free_space": "사용 가능한 공간:",
+        "name": "이름",
+        "confirm_uninsatll_dependency": "종속성 제거",
+        "installed": "설치됨",
+        "uninstall_success": "제거에 성공했습니다",
+        "no_packages": "소프트웨어 패키지 없음",
+        "search_package": "패키지 검색",
+        "uninstall": "제거함",
+        "install": "설치",
+        "filter": "필터",
+        "version": "버전",
+        "size": "사이즈",
+        "action": "실행",
+        "all": "모두",
+        "no_install": "설치되지 않음",
+        "available_update": "사용 가능한 업데이트",
+        "user_retention": "예약",
+        "install_success": "설치 성공",
+        "install_faile": "설치 실패",
+        "uninstall_faile": "제거 실패",
+        "package_info": "패키지 정보",
+        "go": "GO",
+        "uninstall_caution": "제거하시겠습니까",
+        "tips": "리포지토리 목록을 업데이트하지 못했습니다. 네트워크를 확인하고 다시 시도하십시오.",
+        "system": "시스템",
+        "system_tip": "소프트웨어 패키지는 라우터의 기본 시스템의 일부이므로 제거할 수 없습니다.",
+        "time_last_update": "마지막 새로 고침 시간:",
+        "loading_tips": "목록을 새로 고치는 중. 잠시만 기다려 주십시오...",
+        "edit_sources_btn": "소스 관리",
+        "add_sources_tips": "모든 소스의 압축 형식은 src/gz입니다.",
+        "add_sources_title": "사용자 지정 소프트웨어 소스 추가"
+    },
+    "menu_plugins": "플러그 인"
+}
