@@ -2,6 +2,35 @@
     "cloud": {
         "title": "GoodCloud",
         "tips": "GoodCloud를 사용하면 라우터 그룹을 관리하고, 실시간으로 상태를 확인하고, 라우터를 원격으로 설정하고, 라우터를 일괄적으로 작동하고, 연결된 클라이언트를 모니터링하는 등의 작업을 수행할 수 있습니다.",
-        "bound_by": "이 장치는 다음에 의해 바인딩됩니다"
-    }
+        "bound_by": "이 장치는 다음에 의해 바인딩됩니다",
+        "agree": "내용을 읽고 동의합니다",
+        "unbind_tips": "GoodCloud에서 장치의 바인딩을 해제하시겠습니까? 장치가 바인딩되어 있습니다:",
+        "unbind_note": "참고: 선택한 지역에서만 적용됩니다. 이 장치를 여러 지역에 바인딩한 경우 각 지역에서 이 작업을 수행하세요.",
+        "enable_remote_web": "원격 웹 액세스 활성화",
+        "on": "켜기",
+        "id_is": "당신의 장치 ID",
+        "add_id_tips": "기기를 클라우드 계정에 바인딩하려면 이 ID를 사용하세요.",
+        "unbind": "바인딩 해제",
+        "enable": "활성화",
+        "device_id": "장치 ID",
+        "data_server": "데이타 서버",
+        "holder_choose": "선택하세요",
+        "choose_data_server_tips": "데이터 서버를 선택하세요",
+        "terms": "서비스 이용 약관",
+        "privacy": "개인정보 보호 정책",
+        "user": "사용자",
+        "region": "지역",
+        "unbind_success": "바인딩 해제 성공.",
+        "view_log": "기록 보기",
+        "enable_remote_ssh": "원격 SSH 활성화",
+        "device_mac": "장치 MAC",
+        "device_sn": "장치 S/N",
+        "europe_label": "유럽",
+        "america_label": "아메리카",
+        "asia_pacific_label": "아시아 태평양",
+        "china_label": "중국",
+        "unbound_tips": "기기가 클라우드 계정에 바인딩되지 않습니다.",
+        "token_invalid_tips": "장치 보안 키 확인에 실패했습니다. $$$$ 장치$$$$ 를 다시 바인딩하여 {cloud}를 연결하세요."
+    },
+    "menu_cloud": "GoodCloud"
 }
