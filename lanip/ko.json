@@ -1,6 +1,11 @@
 {
     "menu_lanip": "LAN",
     "lan_ip": {
-        "lan": "라우터 IP 주소"
+        "lan": "라우터 IP 주소",
+        "guest": "기본 게이트웨이",
+        "start_ip": "시작 IP 주소",
+        "end_ip": "끝 IP 주소",
+        "change_to": "라우터의 IP 주소가 다음과 같이 변경되었습니다",
+        "redirect_to": "새 IP로 리디렉션되었습니다"
     }
 }
