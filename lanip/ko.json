@@ -6,6 +6,10 @@
         "start_ip": "시작 IP 주소",
         "end_ip": "끝 IP 주소",
         "change_to": "라우터의 IP 주소가 다음과 같이 변경되었습니다",
-        "redirect_to": "새 IP로 리디렉션되었습니다"
+        "redirect_to": "새 IP로 리디렉션되었습니다",
+        "guest_conflict_tips": "게스트 IP와 충돌합니다",
+        "lan_conflict_tips": "LAN IP와 충돌함",
+        "ip_outside_tips": "IP 주소가 서브넷 외부에 있음",
+        "cannot_contain_ip_tips": "주소 범위에는 라우터의 IP를 포함할 수 없습니다"
     }
 }
