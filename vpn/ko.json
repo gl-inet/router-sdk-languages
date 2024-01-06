@@ -127,6 +127,13 @@
         "use_preshare_key": "미리 공유된 키 사용",
         "ovpn_init_tips": "OpenVPN 서버 구성을 생성할 때 라우터는 자동으로 일부 암호화된 파일(예: 서버 루트 인증서)을 생성하며, 이 파일은 사용자의 통신을 보호하는 데 사용됩니다. OpenVPN에 익숙한 경우 $$$$ 수동으로 입력할 수도 있습니다$$$$.",
         "communication_proto": "프로토콜",
-        "auth_algo": "인증 알고리즘"
+        "auth_algo": "인증 알고리즘",
+        "cert_and_user": "사용자 이름/비밀번호와 인증서",
+        "access_lan_wan": "LAN 및 WAN 접속",
+        "access_lan": "LAN만 접근",
+        "add_new_user_title": "새로운 사용자 추가",
+        "duplicate_user_name": "사용자명이 이미 사용 중입니다",
+        "access_wan": "WLAN만 접근",
+        "no_auth_tips": "사용자 아이디/비밀번호 인증이 활성화되어 있지 않으면 구성된 사용자 아이디와 비밀번호가 사용되지 않습니다."
     }
 }
