@@ -1,6 +1,6 @@
 {
     "multiwan": {
-        "balancing_desc": "Bilanciamento del Carico: Usa più interfacce di rete contemporaneamente per aumentare la larghezza di banda totale del router.",
+        "balancing_desc": "Bilanciamento del Carico: Usa più interfacce di rete contemporaneamente per aumentare la larghezza di banda totale del router. Si noti che le connessioni alla stessa applicazione o allo stesso sito di solito utilizzano solo un'interfaccia.",
         "mode_label": "Modalità",
         "mode_failover_tips": "Il router seleziona automaticamente la prima interfaccia disponibile con la priorità più alta.",
         "mode_balancing_tips": "Il sistema assegnerà le interfacce alle nuove connessioni in base al rapporto di carico.",

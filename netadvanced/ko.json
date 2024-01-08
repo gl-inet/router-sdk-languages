@@ -1,1 +1,7 @@
-{}
+{
+    "netadvanced": {
+        "full_cone_nat_tips": "Full Cone NAT를 사용하면 게임 지연 시간을 줄일 수 있지만, Full Cone NAT를 활성화하면 보안성이 떨어질 수 있습니다.",
+        "sip_alg_tips": "SIP ALG를 사용하여 다중 NAT의 영향을 완화할 수 있지만, 대부분의 경우 도움이 되지 않습니다. SIP ALG를 사용 설정하면 단방향 오디오(한쪽 당사자만 상대방의 말을 들을 수 있음), 통화 중 전화벨이 울리지 않음, 연결 중 전화 끊김, 음성 사서함으로 바로 연결되는 통화 등의 VoIP 통화에 영향을 줄 수 있습니다."
+    },
+    "menu_netadvanced": "NAT 설정"
+}

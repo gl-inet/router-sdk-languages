@@ -95,7 +95,8 @@
         "custom": "Costume",
         "clear": "Cancella",
         "setting_instructions": "Guida all'Installazione",
-        "pre_set_up": "Preimpostazione"
+        "pre_set_up": "Preimpostazione",
+        "verify_btn": "Verifica"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -142,7 +143,9 @@
         "unlocked": "Unlocked",
         "locked": "Locked",
         "frequency": "Frequenza",
-        "net_trouble_guide_link": "Guida alla Risoluzione dei Problemi di Rete"
+        "net_trouble_guide_link": "Guida alla Risoluzione dei Problemi di Rete",
+        "ttl_tips": "Il TTL (Time To Live) stabilisce il tempo massimo di sopravvivenza dei pacchetti nella rete e viene compilato in base ai requisiti dell'operatore.",
+        "hl_tips": "In IPv6, il campo HL (Hop Limit) è utilizzato per limitare il numero di hop di trasmissione dei pacchetti di dati nella rete, equivalente al TTL in IPv4."
     },
     "upload": {
         "select_or_drag": "Seleziona un file o trascinalo qui",

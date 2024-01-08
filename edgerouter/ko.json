@@ -1,1 +1,20 @@
-{}
+{
+    "edgerouter": {
+        "desc": "Drop-in Gateway 모드가 활성화되면 네트워크상의 클라이언트로부터의 모든 트래픽이 이 라우터에 의해 먼저 처리됩니다. 이 모드를 사용하여 기본 라우터의 기능을 확장할 수 있습니다.",
+        "enable_label": "Drop-in Gateway 활성화",
+        "dhcp_on_tips": "DHCP 서비스가 여전히 사용 중입니다. Drop-in gateway가 제대로 작동하지 않을 수 있습니다. 라우터 관리 패널 $$$$로 이동하여 DHCP 서비스를 사용하지 않도록 설정하거나 해당 게이트웨이를 {ip}(으)로 설정하십시오.",
+        "auto_set_tips": "상위 라우터의 DHCP 설정이 변경되어 라우터가 네트워크에 제대로 연결하지 못할 수 있습니다. $$$$$ DHCP에서 설정 동기화$$ 또는 수동으로 설정을 수정하십시오.",
+        "modify_superior_router_desc": "기본 경로 구성을 수정하려면 기본 경로에 액세스할 수 있는 사용자가 구성해야 합니다.",
+        "dhcp_closed_tips": "DHCP 서비스가 사용되지 않도록 설정되어 있으며, drop-in gateway가 작동 중입니다.",
+        "enable_tips": "drop-in gateway 모드를 사용하도록 설정하면 이 라우터의 DNS 설정이 주 라우터의 DNS 설정 대신 사용됩니다.",
+        "dhcp_on_warning_tips": "Drop-in gateway가 활성화 되었습니다.",
+        "dhcp_set_gateway_tips": "라우터의 DHCP 서비스가 게이트웨이를 {ip}(으)로 올바르게 설정했습니다. Drop-in gateway가 작동 중입니다.",
+        "desc_vpn": "Drop-in Gateway 모드에서는 WAN 포트의 클라이언트에 대해 이 장치의 VPN 정책이 작동하지 않습니다.",
+        "cable_not_connected_tips": "WAN 포트에서 케이블이 감지되지 않았습니다. 이더넷 케이블을 삽입하십시오.",
+        "modify_superior_router_label": "모든 장치가 drop-in gateway를 통해 네트워크로 연결됨",
+        "modify_self_router_label": "일부 디바이스는 자체 네트워킹 게이트웨이를 선택합니다",
+        "modify_self_router_desc": "drop-in gateway를 사용해야 하는 일부 디바이스에서 게이트웨이 주소를 드롭인 게이트웨이의 IP 주소로 수동으로 변경해야 합니다.",
+        "configuration_method_label": "구성 방법"
+    },
+    "menu_edgerouter": "Drop-in Gateway"
+}

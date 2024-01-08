@@ -1,1 +1,29 @@
-{}
+{
+    "wireless": {
+        "encryption": "Wi-Fi 보안",
+        "key": "Wi-Fi 비밀번호",
+        "ssid_visibility": "SSID 보이기",
+        "mode": "Wi-Fi 모드",
+        "band_width": "대역폭",
+        "channel": "채널",
+        "tx_power": "송신 전력",
+        "shown": "표시됨",
+        "hidden": "숨김",
+        "max": "최대",
+        "high": "높음",
+        "medium": "중간",
+        "low": "최소",
+        "guest": "손님",
+        "enable_dfs": "DFS 채널 허용",
+        "dsf_starting": "채널 가용성을 확인하는 중입니다. 이 과정에는 $$$$이 소요됩니다. 기다리세요……",
+        "dsf_conflict": "라우터가 현재 사용 중인 채널을 레이더가 사용하고 있기 때문에 5GHz Wi-Fi를 일시적으로 사용할 수 없습니다.",
+        "channel_auto_dfs_tips": "대역폭이 160MHz로 설정되면 DFS가 아닌 채널이나 \"$$$$\" 옵션을 선택하더라도 Wi-Fi는 항상 DFS 채널을 사용합니다.",
+        "repeater_using_tips": "중계기를 사용하도록 설정한 경우에는 항목을 수정할 수 없습니다.",
+        "enable": "Wi-Fi 사용",
+        "channel_auto_tips": "\"$$$$\" 옵션을 선택하면 Wi-Fi가 자동으로 DFS 채널로 전환되지 않습니다.",
+        "ssid": "Wi-Fi 이름(SSID)",
+        "enable_dfs_tips": "라우터에 DFS 채널이 할당된 경우: Wi-Fi가 활성화될 때마다 채널 가용성 확인이 필요하며, 이 시간 동안에는 5GHz 신호를 연결에 사용할 수 없으며 이 프로세스에는 $$$$가 소요됩니다. 라우터가 레이더가 현재 채널을 사용하고 있음을 감지하면 일시적으로 클라이언트와의 연결을 끊고 사용 가능한 다른 채널로 전환합니다. 또한, 라우터가 근처에서 사용 가능한 네트워크를 검색하는 동안 5GHz Wi-Fi가 일시적으로 꺼집니다.",
+        "channel_optimization": "채널 최적화"
+    },
+    "menu_wireless": "무선"
+}

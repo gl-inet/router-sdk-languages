@@ -1,1 +1,33 @@
-{}
+{
+    "ddns": {
+        "test": "DDNS 테스트",
+        "enable_http": "HTTP 원격 액세스 활성화",
+        "enable_https": "HTTPS 원격 액세스 활성화",
+        "enable_ssh": "SSH 원격 액세스 활성화",
+        "read_and_agree": "읽었으며 이에 동의합니다",
+        "terms_service": "서비스 약관",
+        "privacy_policy": "개인 정보 정책",
+        "detecting": "감지 중입니다. 잠시 기다려 주세요…",
+        "working": "DDNS 서비스가 작동 중입니다.",
+        "enable_http_tip": "HTTP는 암호화되지 않은 프로토콜입니다. 주의해서 사용하십시오.",
+        "host_name": "호스트 이름",
+        "parsing_success_tips": "DDNS 도메인이 이 장치의 공용 IP로 올바르게 확인되었습니다.",
+        "parsing_label": "DDNS 도메인 IP 주소 확인",
+        "parsing_interface_title": "WAN 인터페이스 IP 주소",
+        "parsing_ip_warning_tips": "DDNS 도메인 확인의 IP 주소는 장치의 WAN IP와 동일하지 않습니다.",
+        "need_pubilc_ip_tips": "동적 DNS를 사용하려면 인터넷 공용 IP 주소가 필요합니다.",
+        "nat_warning_tips": "이 라우터가 NAT 뒤에 있는 경우, ISP 라우터에서 포트 전달을 설정해야 할 수도 있습니다.",
+        "use_desc": "이 라우터에 대해 동적 DNS(DDNS)를 활성화하고 이 라우터에 원격으로 액세스할 수 있습니다.",
+        "security_settings_btn": "보안 설정",
+        "security_settings_tips": "\"시스템 보안\" 원격 액세스 제어에서는 두 가지 옵션을 수정하여 원격 액세스를 제한할 수 있습니다.",
+        "to_security_btn": "보안으로 이동",
+        "desc": "이 라우터에 대해 동적 DNS(DDNS)를 활성화하고 이 라우터에 원격으로 액세스할 수 있습니다. DNS 서버 간 레코드 동기화에는 최대 10분의 지연이 발생합니다. 이로 인해 방금 활성화한 후 또는 공용 IP가 최근에 변경된 경우 DDNS 도메인을 통한 액세스가 즉시 가능하지 않을 수 있습니다.",
+        "not_effective": "귀하의 DDNS는 아직 효과적이지 않습니다. 나중에 다시 시도 해주세요.",
+        "parsing_error_tips": "DNS 서버에서 이 DDNS 도메인의 DNS 레코드를 찾을 수 없습니다. 장치의 인터넷 연결을 확인하십시오.",
+        "parsing_warning_tips": "DDNS 도메인 확인의 IP 주소는 장치의 WAN IP와 동일하지 않습니다. 동적 DNS를 사용하려면 인터넷 공용 IP 주소가 필요합니다. 이 라우터가 NAT 뒤에 있는 경우 ISP 라우터에서 포트 전달을 설정해야 할 수도 있습니다. VPN 클라이언트가 활성화된 경우 글로벌 옵션에서 \"GL.iNet의 서비스 VPN 사용\"을 비활성화하십시오.",
+        "remote_access_tips": "장치에 원격으로 액세스하려면 $$$$보안 페이지$$$$로 이동하여 설정하세요.",
+        "sevices_warning_tips": "VPN 클라이언트가 활성화된 경우 글로벌 옵션에서 \"GL.iNet의 서비스 VPN 사용\"을 비 활성화 하십시오.",
+        "enabled_tips": "DNS 서버 간 레코드 동기화는 최대 10분까지 지연될 수 있습니다. 이로 인해 DDNS 도메인 이름을 활성화한 직후 또는 공용 IP가 변경된 직후 해당 도메인 이름을 통해 접속하지 못할 수 있습니다."
+    },
+    "menu_dynamicdns": "동적 DNS"
+}

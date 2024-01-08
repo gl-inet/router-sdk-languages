@@ -3,7 +3,7 @@
         "mode_balancing_tips": "El sistema asignará las interfaces a nuevas conexiones según el índice de carga.",
         "track_enable_tips": "Si el seguimiento (tracking) de la conexión está desactivado, el dispositivo dará por hecho que el interfaz está conectado al Internet si tiene una conexión física activa (el cable está conectado y una dirección IP ha sido adquirida o está preajustada). En dicho caso, la retransmisión será exitosa.",
         "tips": "El router es capaz de conectar distintas interfaces de red al mismo tiempo. Puede configurar cómo utilizar esta característica.",
-        "balancing_desc": "Balanceo de carga: Utiliza distintas interfaces al mismo tiempo para incrementar el ancho de banda total.",
+        "balancing_desc": "Balanceo de carga: Utiliza múltiples interfaces de red al mismo tiempo para aumentar el ancho de banda total del router. Tenga en cuenta que las conexiones a la misma aplicación o sitio normalmente solo utilizarán una interfaz.",
         "mode_label": "Modo",
         "mode_failover_tips": "El router selecciona, automáticamente, la interfaz disponible con la prioridad más alta.",
         "mode_balancing_note": "Nota: No se garantiza que las conexiones activas o el tráfico se ajusten exactamente el índice de carga establecido.",
