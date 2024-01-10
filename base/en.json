@@ -98,7 +98,7 @@
         "pre_set_up": "Pre-Set Up",
         "verify_btn": "Verify",
         "view_details_btn": "View Details",
-        "idx_label": "序号"
+        "idx_label": "index"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -162,6 +162,6 @@
     },
     "system": {
         "battery_err_tips": "The system does not detect the battery module, check the power connection or battery for damage.",
-        "limit_tips": "限制 {count} 条"
+        "limit_tips": "Data must not exceed {count} entries."
     }
 }
