@@ -96,7 +96,10 @@
         "clear": "清除",
         "setting_instructions": "设置说明",
         "pre_set_up": "预设",
-        "verify_btn": "验证"
+        "verify_btn": "验证",
+        "view_details_btn": "查看详情",
+        "idx_label": "序号",
+        "update": "更新"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -159,6 +162,7 @@
         "lass_than_tips": "（小于 $$$$）"
     },
     "system": {
-        "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。"
+        "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。",
+        "limit_tips": "数据不能超过 {count} 条。"
     }
 }

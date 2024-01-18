@@ -15,14 +15,14 @@
         "track_method_label": "추적 명령",
         "fault_condition_label": "실패 조건으로 변경",
         "available_condition_label": "이용 가능 조건으로 변경",
-        "success_count": "성공 횟수",
-        "fault_count": "실패횟수",
+        "success_count": "성공 $$$$ 회",
+        "fault_count": "실패 $$$$ 회",
         "both_label": "둘 다",
         "flush_track_label": "스트림 강제 새로 고침",
         "interface_state_label": "네트워크 상태",
         "track_mode_label": "낮은 데이터 모드",
         "passive_label": "낮은 데이터 모드",
-        "sensitivity_label": "민감도",
+        "sensitivity_label": "감도",
         "track_mode_tips": "인터페이스 네트워크 오류가 있는 경우에만 추적하도록 스위치를 활성화하고 제한된 데이터 요금제를 사용하는 경우 사용자에게 저데이터 모드를 사용하도록 권장합니다.",
         "tips": "라우터는 동시에 여러 네트워크 인터페이스에 대한 연결을 지원합니다. 이러한 다중 네트워크를 사용하는 방법을 구성할 수 있습니다.",
         "balancing_desc": "로드 밸런싱: 여러 네트워크 인터페이스를 동시에 사용하여 라우터의 총 대역폭을 늘립니다. 동일한 애플리케이션이나 사이트에 대한 연결은 일반적으로 하나의 인터페이스만 사용합니다.",
@@ -36,6 +36,6 @@
         "balancing_warning_tips": "밸런싱된 로드가 제대로 작동하려면 로드 비율이 0이 아닌 인터페이스를 두 개 이상 구성해야 합니다. 부하율이 0이 아닌 연결 가능한 인터넷 인터페이스가 없으면 장치는 인터넷에 연결할 수 없습니다.",
         "sensitivity_tips": "이 민감도는 인터넷 상태 감지의 시간 간격을 결정합니다. 잦은 네트워크 전환을 피하기 위해 인터넷 접속이 불안정할 때는 낮은 감도를 사용하는 것이 좋습니다. 인터넷 접속을 빠르게 전환할 수 있도록 비디오 또는 라이브 스트리밍 시 높은 감도를 사용하는 것이 좋습니다. 높은 감도로 설정하면 네트워크 연결이 끊길 수 있으므로 주의해서 조정하시기 바랍니다.",
         "network_tracking_title": "{인터페이스} 상태 트랙",
-        "sensitivity_options_label": "민감도 설정"
+        "sensitivity_options_label": "감도 설정"
     }
 }
