@@ -96,7 +96,10 @@
         "custom": "Benutzerdefiniert",
         "clear": "Löschen",
         "pre_set_up": "Voreinrichtung",
-        "verify_btn": "Prüfen"
+        "verify_btn": "Prüfen",
+        "view_details_btn": "Details ansehen",
+        "idx_label": "index",
+        "update": "Update"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -159,6 +162,7 @@
         "lass_than_tips": "(Weniger als $$$$)"
     },
     "system": {
-        "battery_err_tips": "Das System hat keine Batterie erkannt. Bitte die Stromversorgung und Batterie auf Schäden überprüfen."
+        "battery_err_tips": "Das System hat keine Batterie erkannt. Bitte die Stromversorgung und Batterie auf Schäden überprüfen.",
+        "limit_tips": "Daten dürfen nicht mehr als {count} Einträge enthalten."
     }
 }
