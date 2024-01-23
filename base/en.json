@@ -163,6 +163,7 @@
     },
     "system": {
         "battery_err_tips": "The system does not detect the battery module, check the power connection or battery for damage.",
-        "limit_tips": "Data must not exceed {count} entries."
+        "limit_tips": "Data must not exceed {count} entries.",
+        "feature_unusable_tips": "因为{feature}功能影响，此功能无法使用。"
     }
 }
