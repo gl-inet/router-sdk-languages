@@ -163,6 +163,7 @@
     },
     "system": {
         "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。",
-        "limit_tips": "数据不能超过 {count} 条。"
+        "limit_tips": "数据不能超过 {count} 条。",
+        "feature_unusable_tips": "因为{feature}功能影响，此功能无法使用。"
     }
 }
