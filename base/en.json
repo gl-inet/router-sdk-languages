@@ -164,6 +164,6 @@
     "system": {
         "battery_err_tips": "The system does not detect the battery module, check the power connection or battery for damage.",
         "limit_tips": "Data must not exceed {count} entries.",
-        "feature_unusable_tips": "This feature is unavailable because of the {feature} feature."
+        "feature_unusable_tips": "This feature does not work because {feature} is enabled."
     }
 }
