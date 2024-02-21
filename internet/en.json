@@ -63,7 +63,9 @@
         "unusable_eap_tips": "This router doesn't support repeat networks that use EAP.",
         "fail_mac_tips": "The MAC address of the router cannot be the same as any Wi-Fi client, please $$$$modify the MAC of the clone$$$$ or modify the MAC address of that client.",
         "scan_wifi_fail_dfs_tips": "The device is running the DFS channel availability check and cannot scan for nearby Wi-Fi. please wait for the check to finish.",
-        "connet_dfs_tips": "When the router repeats a WiFi with a DFS channel, if this WiFi is available, the router will use the selected DFS channel. Note that if this WiFi is not available, the channel will be switched, which will result in a brief disconnection of the client connected through the WiFi, and some devices will be reconnected without sensing, while some need to be reconnected manually."
+        "connet_dfs_tips": "When the router repeats a WiFi with a DFS channel, if this WiFi is available, the router will use the selected DFS channel. Note that if this WiFi is not available, the channel will be switched, which will result in a brief disconnection of the client connected through the WiFi, and some devices will be reconnected without sensing, while some need to be reconnected manually.",
+        "portal_tips": "The router has automatically entered Captive Portal authentication mode to connect to the hotspot. It will automatically exit this mode after successful authentication.",
+        "portal_vpn_tips": "There may be data leakage when using VPN in this mode."
     },
     "modem": {
         "title": "Cellular",
