@@ -23,7 +23,8 @@
         "use_as_wan_tips": "{asWan}，您将无法通过该网口连接到内网来访问管理面板。请确保您的客户端可以连接 Wi-Fi 或者其他 LAN 口。",
         "revert_as_lan_tips": "您确定要将{silkprint}恢复作为 LAN 口使用状态吗？",
         "change_port_btn": "切换至{port}",
-        "revert_port_btn": "恢复作为{port}使用"
+        "revert_port_btn": "恢复作为{port}使用",
+        "use_as_port_btn": "将{silkprint}切换至{port}"
     },
     "tethering": {
         "title": "Tethering",
