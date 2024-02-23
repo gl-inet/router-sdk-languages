@@ -152,7 +152,9 @@
         "ttl_tips": "TTL（Time To Live）设置了数据包在网络中生存的最大时间，根据运营商要求进行填写。",
         "hl_tips": "HL（Hop Limit），在IPv6中，该字段用于限制数据包在网络中的传输跳数，相当于IPv4的TTL。",
         "wan_label": "WAN 口",
-        "lan_label": "LAN 口"
+        "lan_label": "LAN 口",
+        "wan_lan_label": "WAN/LAN 口",
+        "lan1_label": "LAN 1 口"
     },
     "upload": {
         "file_include": "文件类型包括",
