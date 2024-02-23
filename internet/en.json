@@ -19,7 +19,8 @@
         "change_to_wan_tips2": "You can restore the LAN port (so that it is no longer used as a WAN port) by pressing and holding the reset button on the device for four seconds.",
         "no_wan_tips": "{silkprint}检测不到网线，请插入网线",
         "using_tips": "正在作为{usingPort}使用，{changePort}",
-        "reset_port_tips": "您可以按住设备上的重置按钮 4 秒钟来还原 {silkprint}（不再作为 {port}使用）"
+        "reset_port_tips": "您可以按住设备上的重置按钮 4 秒钟来还原 {silkprint}（不再作为 {port}使用）",
+        "use_as_wan_tips": "{asWan}，您将无法通过该网口连接到内网来访问管理面板。请确保您的客户端可以连接 Wi-Fi 或者其他 LAN 口。"
     },
     "tethering": {
         "title": "Tethering",
