@@ -63,7 +63,9 @@
         "allow_dfs_tips1": "Wenn die Option aktiviert ist und der Router WLAN auf einem beliebigen DFS-Kanal verstärkt, folgt er der Quelle, um den DFS-Kanal zu vermeiden. Wenn dies möglich ist, verwendet das eigene 5-GHz-WLAN des Routers den DFS-Kanal. Andernfalls schaltet das eigene 5-GHz-WLAN des Routers zurück auf den Nicht-DFS-Kanal.",
         "fail_mac_tips": "Die MAC des Router kann nicht dieselbe sein, wie die eines WLAN Gerätes. Bitte $$$$ändere die MAC des Router$$$$ oder ändern Sie die MAC Adresse auf dem WLAN Gerät.",
         "connet_dfs_tips": "Wenn der Router als Repeater für ein WLAN mit DFS Kanal eingerichtet ist, und das WLAN erreichbar ist, wird dieser Kanal genutzt. Wenn das WLAN nicht verfügbar ist, wird es zu einem kurzen Verbindungsabbruch kommen. Manche Geräte werden dies nicht bemerken, manche müssen manuell erneut verbunden werden.",
-        "scan_wifi_fail_dfs_tips": "Die DFS (Dynamische Frequenzwahl) Prüfung läuft, es kann gerade nicht nach WLAN Netzwerken gesucht werden. Bitte warten Sie bis die Prüfung abgeschlossen ist."
+        "scan_wifi_fail_dfs_tips": "Die DFS (Dynamische Frequenzwahl) Prüfung läuft, es kann gerade nicht nach WLAN Netzwerken gesucht werden. Bitte warten Sie bis die Prüfung abgeschlossen ist.",
+        "portal_tips": "Der Router hat automatisch in den 'Captive Portal Authentification' Modus gewechselt, um sich mit dem Hotspot zu verbinden. Der Modus wird automatisch verlassen, nach der erfolgreichen Authentifizierung.",
+        "portal_vpn_tips": "Bei der Benutzung von VPN in diesem Modus können Daten abließen."
     },
     "modem": {
         "title": "Mobilfunknetz",
