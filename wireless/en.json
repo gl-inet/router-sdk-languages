@@ -23,7 +23,8 @@
         "dsf_starting": "Checking for channel availability. This process will take $$$$. Please wait……",
         "dsf_conflict": "5GHz Wi-Fi is temporarily unavailable because a radar is using the channel that the router is currently using.",
         "channel_auto_dfs_tips": "When your bandwidth is set to 160 MHz, Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel or the \"$$$$\" option.",
-        "channel_auto_tips": "When you select the \"$$$$\" option, Wi-Fi will not automatically switch to the DFS channel."
+        "channel_auto_tips": "When you select the \"$$$$\" option, Wi-Fi will not automatically switch to the DFS channel.",
+        "lan_guest_conflict_tips": "Guest Wi-Fi cannot be enabled because {guest} is in conflict with {lan}."
     },
     "menu_wireless": "Wireless"
 }

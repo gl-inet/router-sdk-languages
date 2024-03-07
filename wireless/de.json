@@ -23,7 +23,8 @@
         "channel_auto_tips": "Wenn Sie die Option \"$$$$\" wählen wird das WLAN nicht automatisch zum DFS-Kanal wechseln.",
         "dsf_starting": "Teste Kanalverfügbarkeit, der Vorgang wird $$$$ benötigen. Bitte warten Sie…",
         "dsf_conflict": "5GHz-WLAN wird zeitweilig nicht verfügbar sein, weil der vom Router benutzte Funkkanal von einem Radar belegt ist.",
-        "enable_dfs_tips": "Falls der Router einen DFS Kanal zugeteilt ist: Die Überprüfung der Kanal-Verfügbarkeit ist nach jeder WLAN-Aktivierung erforderlich; währenddessen steht das 5 GHz Signal für Verbindungen nicht zur Verfügung, dieser Vorgang dauert $$$$; falls der Router ein Funksignal (Radar) entdeckt, welches den aktuellen Kanal nutzt, wird die Verbindung zum Gerät vorübergehend unterbrochen und auf einen anderen verfügbaren Kanal umgeschalten. Zudem wird das 5 GHz WLAN während des Prüfens auf nahegelegene Netzwerke vorübergehend ausgeschalten."
+        "enable_dfs_tips": "Falls der Router einen DFS Kanal zugeteilt ist: Die Überprüfung der Kanal-Verfügbarkeit ist nach jeder WLAN-Aktivierung erforderlich; währenddessen steht das 5 GHz Signal für Verbindungen nicht zur Verfügung, dieser Vorgang dauert $$$$; falls der Router ein Funksignal (Radar) entdeckt, welches den aktuellen Kanal nutzt, wird die Verbindung zum Gerät vorübergehend unterbrochen und auf einen anderen verfügbaren Kanal umgeschalten. Zudem wird das 5 GHz WLAN während des Prüfens auf nahegelegene Netzwerke vorübergehend ausgeschalten.",
+        "lan_guest_conflict_tips": "Gäste WLAN kann nicht aktiviert werden, weil {guest} in Konflikt mit {lan} steht."
     },
     "menu_wireless": "WLAN"
 }

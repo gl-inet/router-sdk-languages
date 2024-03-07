@@ -95,7 +95,13 @@
         "setting_instructions": "Installatiegids",
         "save_btn": "Opslaan",
         "global_options": "Globale instellingen",
-        "pre_set_up": "Voorafgaande configuratie"
+        "pre_set_up": "Voorafgaande configuratie",
+        "incorrect_formate_tips": "Incorrecte formattering, gelieve handmatig aan te passen of {action}",
+        "one_click_process_btn": "automatisch aan laten passen",
+        "verify_btn": "Verifiëren",
+        "view_details_btn": "Toon details",
+        "update": "Bijwerken",
+        "idx_label": "indexering"
     },
     "msg": {
         "success": "Toegepast!",
@@ -141,7 +147,8 @@
         "server": "Server",
         "client": "Apparaat",
         "enabled": "Ingeschakeld",
-        "disabled": "Uitgeschakeld"
+        "disabled": "Uitgeschakeld",
+        "ttl_tips": "Met TTL (Time To Live) wordt het maximaal te overleven pakketen aangegeven. Deze instelling wordt naar behoeve van de administrator aangepast."
     },
     "system": {
         "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade."

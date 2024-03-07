@@ -36,7 +36,7 @@
         "new_firmware_title": "New Firmware",
         "online_upgrading_title": "Online Upgrading",
         "sysupgrade_test_failed": "Testing the firmware with sysupgrade failed.",
-        "keep_setting_tips": "Current settings will be retained. You will be prompted to reinstall any User installed packages after the upgrade has completed.",
+        "keep_setting_tips": "If this option is enabled, current settings will be retained and you will be prompted to reinstall any User installed packages after the upgrade has completed.",
         "available_update_title": "Upgrade Reminder",
         "later_btn": "Later",
         "ignore_text_btn": "Ignore This Upgrade",
@@ -44,9 +44,8 @@
         "accepted_rc_tips": "You have accepted the firmware preview plan. Please contact us if you encounter any issues.",
         "preview_version_title": "Preview Version",
         "accept_preview_label": "Accept Preview Plan",
-        "accept_preview_tips": "Enable the switch to get latest unstable updates, patches, improvements, and enhancements as soon as they're available. Set it once and it stays on (you always have the option to turn it off later).",
-        "rc_version_enable_tips": "Enable the switch to get latest unstable updates, patches, improvements, and enhancements as soon as they're available. Set it once and it stays on (you always have the option to turn it off later).Check out the latest features at $$$$ What's New? $$$$",
-        "rc_version_disable_tips": "Turn off the switch and the router will only send you stable versions. No more latest unstable updates, patches, improvements, or enhancements. If you want to download stable versions manually, go to $$$$the download center$$$$.",
+        "rc_version_enable_tips": "If this option is enabled, you can try out new features before the stable version is issued and provide us with feedback. Note that these upgrades may not be stable. Please check $$$$ What's New? $$$$ for the latest firmware features.",
+        "rc_version_disable_tips": "Please note that disabling this option will not automatically return your firmware to a stable version. If you need to use a stable version of the firmware, please go to $$$$The Download Center $$$$.",
         "check_online_err_msg": "{code}，the online upgrade is abnormal."
     },
     "menu_upgrade": "Upgrade"

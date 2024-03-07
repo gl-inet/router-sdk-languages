@@ -1,6 +1,6 @@
 {
     "ipv6": {
-        "tips": "Wenn IPv6 aktiviert ist, erhalten WAN-Schnittstellen wie Ethernet ihre IPv6-Adressen über DHCPv6. Sie können die IPv6-Adresse auch manuell auf der Ethernet-Einstellungsseite ändern. Einige Funktionen (Firewall, VPN, Client-Liste, GoodCloud) unterstützen IPv6 bisher noch nicht.",
+        "tips": "Wenn IPv6 aktiviert ist, erhalten WAN-Schnittstellen eine IPv6-Adresse über DHCPv6. Sie können die IPv6-Adresse manuell in den Ethernet-Einstellungen ändern. Einige Funktionen (Firewall, VPN, Client-Liste, GoodCloud) unterstützen IPv6 noch nicht.",
         "note": "Hinweis: Wenn Sie die VPN und IPv6 Funktionen gleichzeitig verwenden, kann es wahrscheinlich zu einem IPv6-Datenleck kommen.",
         "enable": "Aktiviert",
         "mode": "Modus",

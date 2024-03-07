@@ -23,7 +23,8 @@
         "dsf_starting": "正在进行信道可用性检查，此过程需要 $$$$，请稍候……",
         "dsf_conflict": "检测到有雷达正在使用路由器当前使用的信道，5GHz Wi-Fi 将暂时无法连接。",
         "channel_auto_dfs_tips": "当您的频宽设置为 160 MHz 时，Wi-Fi 必然会使用 DFS 信道，即使您选用非 DFS 信道或者 \"$$$$\" 选项。",
-        "channel_auto_tips": "当您选择 \"$$$$\" 选项，Wi-Fi 不会自动切换到 DFS 信道。"
+        "channel_auto_tips": "当您选择 \"$$$$\" 选项，Wi-Fi 不会自动切换到 DFS 信道。",
+        "lan_guest_conflict_tips": "由于 {lan} 与 {guest} 冲突，访客 Wi-Fi 无法启动。"
     },
     "menu_wireless": "无线"
 }

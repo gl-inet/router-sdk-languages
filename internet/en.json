@@ -16,7 +16,17 @@
         "egderouter_mode_tips": "Drop-in gateway is enabled. If you want to modify the Ethernet settings, please disable $$$$Drop-in Gateway$$$$ first.",
         "change_to_lan_check_tips": "First, please unplug the Ethernet cable that is plugged into the WAN port. $$$$ re-detect $$$$",
         "change_to_wan_tips": "Once the LAN port is used as a WAN port, you will not be able to access the administrator panel via this Ethernet port connected to the LAN port. Please ensure that your client can connect to Wi-Fi or other LAN port.",
-        "change_to_wan_tips2": "You can restore the LAN port (so that it is no longer used as a WAN port) by pressing and holding the reset button on the device for four seconds."
+        "change_to_wan_tips2": "You can restore the LAN port (so that it is no longer used as a WAN port) by pressing and holding the reset button on the device for four seconds.",
+        "no_wan_tips": "{silkprint}检测不到网线，请插入网线",
+        "using_tips": "正在作为{usingPort}使用，{changePort}",
+        "reset_port_tips": "您可以按住设备上的重置按钮 4 秒钟来还原 {silkprint}（不再作为 {port}使用）",
+        "use_as_wan_tips": "{asWan}，您将无法通过该网口连接到内网来访问管理面板。请确保您的客户端可以连接 Wi-Fi 或者其他 LAN 口。",
+        "revert_as_lan_tips": "您确定要将{silkprint}恢复作为 LAN 口使用状态吗？",
+        "change_port_btn": "切换至{port}",
+        "revert_port_btn": "恢复作为{port}使用",
+        "use_as_port_btn": "将{silkprint}切换至{port}",
+        "revert_wan_tips": "恢复为 WAN 口后",
+        "use_as_wan_silkprint_tips": "一旦{silkprint}作为 WAN 口使用"
     },
     "tethering": {
         "title": "Tethering",
@@ -63,7 +73,9 @@
         "unusable_eap_tips": "This router doesn't support repeat networks that use EAP.",
         "fail_mac_tips": "The MAC address of the router cannot be the same as any Wi-Fi client, please $$$$modify the MAC of the clone$$$$ or modify the MAC address of that client.",
         "scan_wifi_fail_dfs_tips": "The device is running the DFS channel availability check and cannot scan for nearby Wi-Fi. please wait for the check to finish.",
-        "connet_dfs_tips": "When the router repeats a WiFi with a DFS channel, if this WiFi is available, the router will use the selected DFS channel. Note that if this WiFi is not available, the channel will be switched, which will result in a brief disconnection of the client connected through the WiFi, and some devices will be reconnected without sensing, while some need to be reconnected manually."
+        "connet_dfs_tips": "When the router repeats a WiFi with a DFS channel, if this WiFi is available, the router will use the selected DFS channel. Note that if this WiFi is not available, the channel will be switched, which will result in a brief disconnection of the client connected through the WiFi, and some devices will be reconnected without sensing, while some need to be reconnected manually.",
+        "portal_tips": "The router has automatically entered Captive Portal authentication mode to connect to the hotspot. It will automatically exit this mode after successful authentication.",
+        "portal_vpn_tips": "There may be data leakage when using VPN in this mode."
     },
     "modem": {
         "title": "Cellular",

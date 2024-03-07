@@ -26,7 +26,8 @@
         "allow_lan_label": "允许通过 LAN-Guest 侧访问网络",
         "security_title": "安全设置",
         "dhcp_disable_warning_tips": "关闭 DHCP 之后可能不能联网，请谨慎操作。",
-        "lpr_tips": "可填写多个打印机LPR端口。"
+        "lpr_tips": "可填写多个打印机LPR端口。",
+        "guest_disabel_tips": "由于 {guest} 处于禁用状态，访客网络不会生效。"
     },
     "address_reservation": {
         "title": "地址预留",

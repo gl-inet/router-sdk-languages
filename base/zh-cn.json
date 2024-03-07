@@ -99,7 +99,9 @@
         "verify_btn": "验证",
         "view_details_btn": "查看详情",
         "idx_label": "序号",
-        "update": "更新"
+        "update": "更新",
+        "incorrect_formate_tips": "格式不正确，请手动更改或{action}",
+        "one_click_process_btn": "一键处理"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -148,7 +150,11 @@
         "disabled": "已禁用",
         "net_trouble_guide_link": "网络故障排除指南",
         "ttl_tips": "TTL（Time To Live）设置了数据包在网络中生存的最大时间，根据运营商要求进行填写。",
-        "hl_tips": "HL（Hop Limit），在IPv6中，该字段用于限制数据包在网络中的传输跳数，相当于IPv4的TTL。"
+        "hl_tips": "HL（Hop Limit），在IPv6中，该字段用于限制数据包在网络中的传输跳数，相当于IPv4的TTL。",
+        "wan_label": "WAN 口",
+        "lan_label": "LAN 口",
+        "wan_lan_label": "WAN/LAN 口",
+        "lan1_label": "LAN 1 口"
     },
     "upload": {
         "file_include": "文件类型包括",
@@ -163,6 +169,7 @@
     },
     "system": {
         "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。",
-        "limit_tips": "数据不能超过 {count} 条。"
+        "limit_tips": "数据不能超过 {count} 条。",
+        "feature_unusable_tips": "由于 {feature} 已启用，此功能无法正常工作。"
     }
 }

@@ -26,7 +26,8 @@
         "security_title": "Sicherheitseinstellungen",
         "ap_isolate_label": "AP Isolation",
         "ap_isolate_tips": "Die Clients können in einem eigenen Netzwerkbereich isoliert werden. Diese Geräte können nicht mit anderen Geräten im Netzwerk kommunizieren.",
-        "allow_lan_label": "Erlaube Zugriff zum Netzwerk aus dem Gast LAN"
+        "allow_lan_label": "Erlaube Zugriff zum Netzwerk aus dem Gast LAN",
+        "guest_disabel_tips": "{guest} ist deaktiviert, daher wird das Gastnetzwerk nicht funktionieren."
     },
     "address_reservation": {
         "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",

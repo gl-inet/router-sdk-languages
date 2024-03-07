@@ -95,7 +95,9 @@
         "send": "傳送",
         "upload": "上傳",
         "unlock": "開鎖",
-        "pre_set_up": "預設"
+        "pre_set_up": "預設",
+        "incorrect_formate_tips": "格式不正確，請手動更改或{action}",
+        "one_click_process_btn": "一鍵處理"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -155,6 +157,7 @@
         "lass_than_tips": "（少於 $$$$）"
     },
     "system": {
-        "battery_err_tips": "系統未偵測到電池模組，請檢查電源連接或電池是否損壞。"
+        "battery_err_tips": "系統未偵測到電池模組，請檢查電源連接或電池是否損壞。",
+        "feature_unusable_tips": "由於 {feature} 已啓用，此功能無法正常工作。"
     }
 }
