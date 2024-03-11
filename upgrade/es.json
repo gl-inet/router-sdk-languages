@@ -27,7 +27,7 @@
         "update_fail": "Actualización fallida",
         "download_success": "¡Descargardo con éxito!",
         "release_note_btn": "Notas de la versión",
-        "keep_setting_tips": "La configuración actual se mantendrá. Se le solicitará reinstalar cualquier paquete instalado por el usuario después de que se haya completado la actualización.",
+        "keep_setting_tips": "Si esta opción está habilitada, se conservarán las configuraciones actuales y se le pedirá que reinstale los paquetes instalados por el usuario una vez completada la actualización.",
         "firmware_type": "Tipo de Firmware",
         "unknown_error": "Error desconocido.",
         "firmware_downloading": "Bajando el firmware…",
@@ -43,9 +43,9 @@
         "accepted_rc_tips": "Has aceptado un firmware previo. Por favor, contacta con nosotros si encuentras algún problema.",
         "preview_version_title": "Versión Previa",
         "accept_preview_label": "Aceptar Vista Previa",
-        "rc_version_disable_tips": "Apaga el interruptor y el router solo te enviará versiones estables. No recibirás más actualizaciones inestables, parches o mejoras recientes. Si deseas descargar versiones estables manualmente, ve al $$$$centro de descargas$$$$.",
+        "rc_version_disable_tips": "Tenga en cuenta que deshabilitar esta opción no devolverá automáticamente su firmware a una versión estable. Si necesita utilizar una versión estable del firmware, vaya a $$$$The Download Center $$$$.",
         "new_rc_firmware_title": "Firmware RC",
-        "rc_version_enable_tips": "Habilita el interruptor para obtener las últimas actualizaciones inestables, parches, y mejoras tan pronto como estén disponibles. Configúralo una vez y permanecerá activado (siempre tendrás la opción de desactivarlo más tarde). Consulta las últimas características en $$$$ ¿Que es nuevo? $$$$",
+        "rc_version_enable_tips": "Si esta opción está habilitada, puede probar nuevas funciones antes de que se publique la versión estable y enviarnos sus comentarios. Tenga en cuenta que es posible que estas actualizaciones no sean estables. Por favor marque $$$$ What's New? $$$$ para obtener las últimas funciones del firmware.",
         "check_online_err_msg": "{code}, la actualización en línea presenta un comportamiento anormal."
     },
     "menu_upgrade": "Mejorar"
