@@ -63,7 +63,9 @@
         "allow_dfs_tips1": "Si la opción está activada y el enrutador esté re-transmitiendo Wi-Fi en algún canal DFS (Selección Dinámica de Frecuencias), este seguirá el canal seleccionado por el hotspot principal que está realizando de el proceso de filtrado de canales DFS. De lo contrario, seleccionará por si mismo un canal no-DFS para Wi-Fi de 5 Ghz.",
         "fail_mac_tips": "La dirección MAC del router no puede ser la misma que la de cualquier cliente Wi-Fi, por favor, $$$$modifique la dirección MAC clonada$$$$ o modifique la dirección MAC del cliente.",
         "scan_wifi_fail_dfs_tips": "El dispositivo está comprobando la disponibilidad de canal DFS y no puede buscar Wi-Fi cercanas. Por favor, espera a que finalice la comprobación.",
-        "connet_dfs_tips": "Cuando el router repite una WiFi con un canal DFS, si esta WiFi está disponible, el router utilizará el canal DFS seleccionado. Tenga en cuenta que si esta WiFi no está disponible, se cambiara el canal, lo que producirá una breve desconexión del cliente conectado a través de la WiFi y algunos dispositivos se reconectarán automáticamente, mientras que otros necesitarán ser reconectados manualmente."
+        "connet_dfs_tips": "Cuando el router repite una WiFi con un canal DFS, si esta WiFi está disponible, el router utilizará el canal DFS seleccionado. Tenga en cuenta que si esta WiFi no está disponible, se cambiara el canal, lo que producirá una breve desconexión del cliente conectado a través de la WiFi y algunos dispositivos se reconectarán automáticamente, mientras que otros necesitarán ser reconectados manualmente.",
+        "portal_vpn_tips": "Puede haber una fuga de datos cuando use la VPN en este modo.",
+        "portal_tips": "El router ha ingresado automáticamente al mode de autenticación del Portal Cautivo para conectarse al punto de acceso. Saldrá automáticamente de esto modo después de haber autentificado."
     },
     "modem": {
         "title": "Móvil",
