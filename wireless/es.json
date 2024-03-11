@@ -23,7 +23,8 @@
         "enable_dfs_tips": "Si el enrutador tiene asignado un canal DFS (Selección Dinámica de Frecuencias), el proceso de verificación de que dicho canal esté disponible es necesaria cada vez que se activa el Wi-Fi, tiempo durante el cual la señal de 5GHz no está disponible para conexión. Éste proceso tarda $$$$. Si el enrutador detecta que un radar está utilizando el canal que el enrutador está utilizando en ese momento, se desconectará temporalmente de los clientes y se cambiará a otro canal disponible. Además, el Wi-Fi de 5GHz se apagará temporalmente mientras se buscan canales cercanos que estén disponibles.",
         "enable_dfs": "Permitir Canal DFS",
         "channel_auto_tips": "Si selecciona la opción “$$$$”, la red inalámbrica no cambiará automáticamente el canal DFS.",
-        "channel_auto_dfs_tips": "Cuando selecciona el ancho de banda de 160 MHz, la red inalámbrica siempre utilizará el canal DFS, incluso si selecciona un canal que no sea DFS o selecciona la opción “$$$$”."
+        "channel_auto_dfs_tips": "Cuando selecciona el ancho de banda de 160 MHz, la red inalámbrica siempre utilizará el canal DFS, incluso si selecciona un canal que no sea DFS o selecciona la opción “$$$$”.",
+        "lan_guest_conflict_tips": "La conexión Wi-Fi para invitados no se puede activar porque {guest} está en conflicto con {lan}."
     },
     "menu_wireless": "Inalámbrica"
 }
