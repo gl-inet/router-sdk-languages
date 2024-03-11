@@ -97,7 +97,11 @@
         "unlock": "Desbloquear",
         "pre_set_up": "Configuración Previa",
         "verify_btn": "Verificar",
-        "one_click_process_btn": "one-click processing"
+        "one_click_process_btn": "one-click processing",
+        "incorrect_formate_tips": "Formato incorrecto, cámbielo manualmente o {action}",
+        "view_details_btn": "Ver Detalles",
+        "idx_label": "índice",
+        "update": "Actualizar"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -146,7 +150,11 @@
         "client": "Cliente",
         "net_trouble_guide_link": "Guía de solución de problemas de red",
         "ttl_tips": "TTL (Time To Live) establece el tiempo máximo que los paquetes sobreviven en la red y se completa de acuerdo con los requisitos del operador.",
-        "hl_tips": "En IPv6, el campo HL (Límite de salto) se utiliza para limitar el número de saltos de transmisión de paquetes de datos en la red, lo que equivale al TTL en IPv4."
+        "hl_tips": "En IPv6, el campo HL (Límite de salto) se utiliza para limitar el número de saltos de transmisión de paquetes de datos en la red, lo que equivale al TTL en IPv4.",
+        "wan_label": "WAN",
+        "lan_label": "LAN",
+        "wan_lan_label": "WAN/LAN",
+        "lan1_label": "LAN 1"
     },
     "upload": {
         "select_or_drag": "Seleccione un archivo o arrástrelo aquí",
@@ -160,6 +168,8 @@
         "lass_than_tips": "(Menos que $$$$)"
     },
     "system": {
-        "battery_err_tips": "El sistema no detecta el módulo de la batería, verifica la conexión de energía o la batería en busca de daños."
+        "battery_err_tips": "El sistema no detecta el módulo de la batería, verifica la conexión de energía o la batería en busca de daños.",
+        "feature_unusable_tips": "Esta función no funciona porque {feature} esta habilitada.",
+        "limit_tips": "Los datos no deben exceder {count} entradas."
     }
 }
