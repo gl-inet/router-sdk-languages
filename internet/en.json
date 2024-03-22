@@ -82,7 +82,8 @@
         "allow_auto_portal_label": "Allow Auto Enable Authentication Mode",
         "auto_portal_tips": "The router has automatically entered Captive Portal authentication mode to connect to the hotspot. It will automatically exit this mode after successful authentication.",
         "to_auth_btn": "前往认证",
-        "entered_portal_tips": "当前工作在 Portal 认证模式下，如果您真正使用 VPN 可能会存在数据泄露，认证结束后会自动退出该模式，或者您可以现在{exit}"
+        "entered_portal_tips": "当前工作在 Portal 认证模式下，如果您真正使用 VPN 可能会存在数据泄露，认证结束后会自动退出该模式，或者您可以现在{exit}",
+        "exit_portal_btn": "退出"
     },
     "modem": {
         "title": "Cellular",
