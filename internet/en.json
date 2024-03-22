@@ -76,7 +76,9 @@
         "connet_dfs_tips": "When the router repeats a WiFi with a DFS channel, if this WiFi is available, the router will use the selected DFS channel. Note that if this WiFi is not available, the channel will be switched, which will result in a brief disconnection of the client connected through the WiFi, and some devices will be reconnected without sensing, while some need to be reconnected manually.",
         "portal_tips": "The router has automatically entered Captive Portal authentication mode to connect to the hotspot. It will automatically exit this mode after successful authentication.",
         "portal_vpn_tips": "There may be data leakage when using VPN in this mode.",
-        "modify_wifi_tips": "Changing any network settings will cause repeater to reconnect."
+        "modify_wifi_tips": "Changing any network settings will cause repeater to reconnect.",
+        "modify_wifi_title": "Modify Network Settings",
+        "enable_disguise_label": "启用伪装"
     },
     "modem": {
         "title": "Cellular",
