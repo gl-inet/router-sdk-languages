@@ -27,7 +27,12 @@
         "source": "来源（区域，端口）",
         "dest": "转发目标（区域，IP，端口）",
         "enable": "启用",
-        "priority_label": "优先级"
+        "priority_label": "优先级",
+        "dmz_priority_lower_label": "低于端口转发",
+        "dmz_priority_higher_label": "高于端口转发",
+        "port_value_tips": "端口号范围为 1 到 65535，可以设置单个端口号或通过 - 符号连接首尾端口号来设置端口范围。",
+        "port_range_tips": "{exPort}与{exPort}范围不一致",
+        "adjust _priority_btn": "调整优先级"
     },
     "menu_firewallview": "防火墙"
 }
