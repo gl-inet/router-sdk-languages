@@ -18,7 +18,7 @@
         "change_to_wan_tips": "Once the LAN port is used as a WAN port, you will not be able to access the administrator panel via this Ethernet port connected to the LAN port. Please ensure that your client can connect to Wi-Fi or other LAN port.",
         "change_to_wan_tips2": "You can restore the LAN port (so that it is no longer used as a WAN port) by pressing and holding the reset button on the device for four seconds.",
         "no_wan_tips": "{silkprint} status: Using as {port} (default). No cable detected.",
-        "using_tips": "正在作为{usingPort}使用，{changePort}",
+        "using_tips": "{silkprint} status: Using as {port}. {changePort}",
         "reset_port_tips": "You can restore the {silkprint} by pressing and holding down the device's reset button for 4 seconds.",
         "use_as_wan_tips": "{asWan}, the device connected to the port can't access the admin panel anymore. You'll have to connect it to Wi-Fi or other LAN ports.",
         "revert_as_lan_tips": "Are you sure to restore the {silkprint} to LAN port (default)?",
