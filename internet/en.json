@@ -19,14 +19,14 @@
         "change_to_wan_tips2": "You can restore the LAN port (so that it is no longer used as a WAN port) by pressing and holding the reset button on the device for four seconds.",
         "no_wan_tips": "{silkprint} status: Using as {port} (default). No cable detected.",
         "using_tips": "正在作为{usingPort}使用，{changePort}",
-        "reset_port_tips": "您可以按住设备上的重置按钮 4 秒钟来还原 {silkprint}（不再作为 {port}使用）",
-        "use_as_wan_tips": "{asWan}，您将无法通过该网口连接到内网来访问管理面板。请确保您的客户端可以连接 Wi-Fi 或者其他 LAN 口。",
-        "revert_as_lan_tips": "您确定要将{silkprint}恢复作为 LAN 口使用状态吗？",
-        "change_port_btn": "切换至{port}",
-        "revert_port_btn": "恢复作为{port}使用",
-        "use_as_port_btn": "将{silkprint}切换至{port}",
-        "revert_wan_tips": "恢复为 WAN 口后",
-        "use_as_wan_silkprint_tips": "一旦{silkprint}作为 WAN 口使用"
+        "reset_port_tips": "You can restore the {silkprint} by pressing and holding down the device's reset button for 4 seconds.",
+        "use_as_wan_tips": "{asWan}, the device connected to the port can't access the admin panel anymore. You'll have to connect it to Wi-Fi or other LAN ports.",
+        "revert_as_lan_tips": "Are you sure to restore the {silkprint} to LAN port (default)?",
+        "change_port_btn": "Change to {port}",
+        "revert_port_btn": "Restore to {port}",
+        "use_as_port_btn": "Change the {silkprint} to {port}",
+        "revert_wan_tips": "After you restore the WAN port",
+        "use_as_wan_silkprint_tips": "Once the {silkprint} is used as a WAN port"
     },
     "tethering": {
         "title": "Tethering",
