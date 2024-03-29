@@ -29,10 +29,10 @@
         "enable": "Enable",
         "priority_label": "Priority",
         "dmz_priority_higher_label": "Higher than Port Forwarding",
-        "dmz_priority_lower_label": "低于端口转发",
+        "dmz_priority_lower_label": "Lower than Port Forwarding",
         "adjust _priority_btn": "Adjust Priority",
-        "port_value_tips": "value 1 to 65535 or range 1-65535",
-        "port_range_tips": "External Port 与 Internal Port 范围不一致"
+        "port_value_tips": "The port range is from 1 to 65535. You can set a single port or set the port range by concatenating the first and last port numbers with the - symbol.",
+        "port_range_tips": "{exPort} does not match the {inPort} range."
     },
     "menu_firewallview": "Firewall"
 }
