@@ -38,6 +38,7 @@
         "server_warning_tips": "The server appears to have expired.",
         "form_interface_label": "DNS from {interface}",
         "bark_enable_override_tips": "Bark blocks almost all DNS requests from clients sent to the Internet. If you enable this option while Bark is working, your clients may not be able to access the Internet.",
-        "override_vpn_label": "Allow Config Custome DNS with VPN Tunnel"
+        "override_vpn_label": "Allow Config Custome DNS with VPN Tunnel",
+        "override_vpn_tips": "Enable the button for encryption, manual input, or proxy modes. Specified VPN traffic, when transmitted through the VPN tunnel, is resolved by the VPN's DNS server. During connection or unexpected disconnection, traffic is resolved by the upstream router's DNS server."
     }
 }
