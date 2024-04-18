@@ -2,7 +2,8 @@
     "btnsettings": {
         "fun_label": "拨动开关功能",
         "no_config_tips": "在未添加 $$$$ 客户端配置的情况下，拨动开关将不会生效。",
-        "no_func_babel": "无功能"
+        "no_func_babel": "无功能",
+        "startup_tips": "注意：当设备启动后，如果拨动开关处于打开状态，{func} 将会启用，否则它将被禁用。"
     },
     "menu_btnsettings": "拨动开关设置"
 }
