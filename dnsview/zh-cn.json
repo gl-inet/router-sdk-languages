@@ -38,6 +38,7 @@
         "server_warning_tips": "该服务器疑似过期。",
         "form_interface_label": "来自{interface}的 DNS",
         "bark_enable_override_tips": "Bark 会阻止几乎所有来自客户端发送到互联网的 DNS 请求。如果您在 Bark 工作时启用此选项，您的客户端可能无法上网。",
-        "override_vpn_tips": "当选择模式为加密、手动输入或代理时，建议启用该按钮。VPN策略中设置的特定流量通过VPN隧道传输时，将由VPN的DNS服务器进行解析，并且在连接过程中或意外断开时，流量将由上级路由器设置的DNS服务器进行解析。"
+        "override_vpn_tips": "若该选项启用，当 VPN 连接可用时，通过 VPN 隧道传输的数据包将使用 VPN 自身的 DNS 服务器进行解析。",
+        "override_vpn_label": "允许 VPN 通道优先使用自身的 DNS"
     }
 }
