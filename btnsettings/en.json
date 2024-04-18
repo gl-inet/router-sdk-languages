@@ -3,7 +3,7 @@
         "fun_label": "Toggle Button Function",
         "no_config_tips": "The toggle button will not take effect if $$$$ client configuration is not added.",
         "no_func_babel": "No Function",
-        "startup_tips": "开机{func}会按物理开关状态启动。",
+        "startup_tips": "Note: After the device is rebooted, {func} will be enabled if the toggle switch is on, otherwise it will be disabled.",
         "auto_sync_tips": "应用会根据拨动开关状态重新设置{func}，是否确认应用？"
     },
     "menu_btnsettings": "Toggle Button Settings"
