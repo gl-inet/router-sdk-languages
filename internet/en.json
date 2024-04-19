@@ -83,9 +83,9 @@
         "auto_portal_tips": "The router has automatically entered authentication mode to access Captive Portal of the hotspot. It will automatically exit this mode after successful authentication.",
         "to_auth_btn": "Go to Captive Portal to Authenticate",
         "entered_portal_tips": "The device is in authentication mode. Note that this mode pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel, shopping mall). The device automatically exits this mode after successful authentication. You can also {exit} now.",
-        "exit_portal_btn": "Exit the Mode",
+        "exit_portal_btn": "Leave Authentication Mode",
         "auto_go_auth_tips": "Automatically {auth} after {count}",
-        "need_enter_portal_tips": "Unable to access the Internet through the repeated hotspot, you can try to enter {portal} to solve the issue.",
+        "need_enter_portal_tips": "Can’t access the internet via the repeated hotspot. Try to enter {portal} to fix the issue.",
         "portal_auth_mode_btn": "Authentication Mode",
         "going_to_auth_tips": "Coming soon to the Authentication page:"
     },
