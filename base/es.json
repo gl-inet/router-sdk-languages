@@ -101,7 +101,8 @@
         "incorrect_formate_tips": "Formato incorrecto, cámbielo manualmente o {action}",
         "view_details_btn": "Ver Detalles",
         "idx_label": "índice",
-        "update": "Actualizar"
+        "update": "Actualizar",
+        "tips_ttitle": "Consejos"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -157,7 +158,12 @@
         "lan1_label": "LAN 1",
         "clone_label": "Clonar",
         "random_btn": "Aleatoria",
-        "current_client_label": "Cliente Actual"
+        "current_client_label": "Cliente Actual",
+        "disguise_mac_label": "Dirección MAC oculta",
+        "random_mac_label": "Dirección MAC aleatoria",
+        "clone_mac_label": "Dirección MAC clonada",
+        "mac_addr_label": "Dirección MAC",
+        "mac_real_label": "Real"
     },
     "upload": {
         "select_or_drag": "Seleccione un archivo o arrástrelo aquí",
@@ -173,6 +179,7 @@
     "system": {
         "battery_err_tips": "El sistema no detecta el módulo de la batería, verifica la conexión de energía o la batería en busca de daños.",
         "feature_unusable_tips": "Esta función no funciona porque {feature} esta habilitada.",
-        "limit_tips": "Los datos no deben exceder {count} entradas."
+        "limit_tips": "Los datos no deben exceder {count} entradas.",
+        "no_internet_base_tips": "Por favor, verifique su entorno de internet y vuelva a intentarlo."
     }
 }
