@@ -80,7 +80,7 @@
         "enable_disguise_tips": "If this option is enabled, this router camouflage itself as the same device as the client device you are now using.",
         "allow_auto_portal_tips": "If this option is enabled, this router will automatically enter authentication mode when it connects to a hotspot successfully but cannot connect to the Internet. Note that this mode pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel, shopping mall).",
         "allow_auto_portal_label": "Auto-Enable Authentication Mode for Public Hotspots",
-        "auto_portal_tips": "The router has automatically entered authentication mode to access Captive Portal of the hotspot. It will automatically exit this mode after successful authentication.",
+        "auto_portal_tips": "The router has entered the authentication mode to access the Captive Portal's hotspot. After successful authentication, it will automatically leave this mode. ",
         "to_auth_btn": "Go to Captive Portal to Authenticate",
         "entered_portal_tips": "The device is in authentication mode. Note that this mode pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel, shopping mall). The device automatically exits this mode after successful authentication. You can also {exit} now.",
         "exit_portal_btn": "Leave Authentication Mode",
