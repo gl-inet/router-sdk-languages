@@ -5,7 +5,13 @@ This repository is an Interface Language Pack for the GL.iNet Router SDK for loc
 GL.iNet ensures the provision and maintenance of English and Chinese language packs for the interface, but we recognize that users worldwide seek to access the interface in their native language, as it is more familiar to them. Therefore, we have made the interface available for translation and sought assistance from dedicated users. Other languages have been translated with the generous help of our users.
 It is important to note that GL.iNet cannot guarantee the completeness or quality of language packs other than those in English and Chinese.
 
-# How to Packs
+# How to Update Language Packs
+
+## Firmware version 4.6 and higher
+
+Open the "Management Interface Languages" pop-up window via the button at the bottom of the language toggle list on the right side of the title bar, select the language you need and click "Update" and the device will automatically pull the latest version of the language pack from our repository.
+
+## Firmware version 4.5
 
 1. Find the matching Release from the [Releases](https://github.com/gl-inet/router-sdk-languages/releases) in this repository based on your firmware version.
 
@@ -18,6 +24,9 @@ It is important to note that GL.iNet cannot guarantee the completeness or qualit
   * `fr`: Français
   * `it`: Italiano
   * `ja`: 日本語
+  * `ko`: 한국어
+  * `pl`: Polski
+  * `ru`: Русский
   * `zh-cn`: 简体中文
   * `zh-tw`: 繁体中文
 
@@ -69,7 +78,7 @@ After you have submitted a certain amount of usable text, we will invite you to 
 
 ## Translation Progress by Language
 
-We expect to officially release version 4.5.0 in November!
+We expect to officially release version 4.6 in June 2024!
 The current progress is as follows
 
 ![](https://static.gl-inet.com/github/router-sdk-languages/weblate.png)
