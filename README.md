@@ -81,7 +81,7 @@ After you have submitted a certain amount of usable text, we will invite you to 
 We expect to officially release version 4.6 in June 2024!
 The current progress is as follows
 
-![](https://static.gl-inet.com/github/router-sdk-languages/weblate.png)
+![](https://static.gl-inet.com/github/router-sdk-languages/weblate20240420.png)
 
 ## Adding New Languages
 
