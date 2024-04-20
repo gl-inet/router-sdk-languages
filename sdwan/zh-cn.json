@@ -1,7 +1,12 @@
 {
     "sdwan": {
         "nodes_title": "网络拓扑图",
-        "real_time_data_title": "实时数据"
+        "real_time_data_title": "实时数据",
+        "no_device_tips": "若要使用此功能，您必须将设备添加到 {cloud} 中的某个虚拟网络内。",
+        "download_data_title": "下行流量",
+        "upload_data_title": "上行流量",
+        "device_tips": "此设备已被添加到虚拟网络 {network} 中。请转到 {cloud} 修改设置。",
+        "real_time_data_tips": "此处仅包括通过网关的流量，这可能与云端计费流量的数据不完全一致。"
     },
     "menu_sdwan": "AstroWarp"
 }
