@@ -2,9 +2,9 @@
     "bridge": {
         "mode_switch": "模式切換",
         "router": "路由模式",
-        "ap": "無線存取（AP）模式",
+        "ap": "無線訪問（AP）模式",
         "wds": "無線分布式系统（WDS）模式",
-        "ssid": "無線網路名稱（SSID）",
+        "ssid": "無線網絡名稱（SSID）",
         "password": "密碼",
         "holder_choose": "請選擇",
         "access_router": "訪問你的路由器",
@@ -33,7 +33,7 @@
         "passthrough_conflict_2b_warning": "此模式可能無法工作如您有以下設置：啟用嵌入式網關模式、啟用 IPv6、手動設置 DNS、將多 WAN 設置為負載平衡模式、將 WAN 端口設置為 LAN、使用 VPN 策略、添加任何 防火牆設置，手動設置MAC地址。",
         "passthrough_secondwan_warning": "IP Passthrough 模式需要且只能有一個 WAN 口。請前往$$$$頁面修改，取消將 WAN 口作為 LAN 口使用或取消將 LAN 作為 WAN 口使用。",
         "set_up_bridge_tips": "要設置成橋接模式，必須在WAN埠插入網線。",
-        "tips_one": "當您變更路由器的網路模式時，您可能需要重新連接所有用戶端裝置。",
+        "tips_one": "當您變更路由器的網絡模式時，您可能需要重新連接所有用戶端裝置。",
         "tips_two": "當您使用 $$$$ 模式時，您將無法再次連接到此 UI。您可以按住重設按鈕 4 秒鐘以恢復到路由器模式。"
     },
     "menu_bridge": "網絡模式"
