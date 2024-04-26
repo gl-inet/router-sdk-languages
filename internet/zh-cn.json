@@ -76,7 +76,6 @@
         "connet_dfs_tips": "路由器中继DFS信道的WiFi时，如果此WiFi可用，路由器将使用选择的DFS信道，需要注意的是，如果此WiFi不可用，将会切换信道，此时会导致通过WiFi连接的客户端短暂断开，有些设备会无感重连，有些需要手动重连。",
         "allow_auto_portal_tips": "若此选项启用，此路由器会在连接热点成功但无法连接到互联网时自动进入公共热点认证模式。注意，此模式会暂停 VPN，这可能导致信息泄露给热点的提供方（如酒店、商场）。",
         "allow_auto_portal_label": "自动启用公共热点认证模式",
-        "exit_portal_btn": "退出此模式",
         "need_enter_portal_tips": "无法通过已中继的热点访问互联网，您可以尝试进入{portal}来解决问题。",
         "portal_auth_mode_btn": "公共热点认证模式",
         "modify_wifi_tips": "更改任何网络设置都会导致中继重新连接。",
