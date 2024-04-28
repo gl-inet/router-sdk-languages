@@ -1,1 +1,14 @@
-{}
+{
+    "clients": {
+        "name": "Имя",
+        "speed": "Скорость",
+        "traffic": "Трафик",
+        "access_wan": "Доступ WAN",
+        "block_wan": "Блокировка WAN",
+        "action": "Действие",
+        "unknown": "Неизвестный",
+        "online_client": "Клиенты в сети",
+        "offline_client": "Отключенные клиенты"
+    },
+    "menu_clients": "Клиенты"
+}
