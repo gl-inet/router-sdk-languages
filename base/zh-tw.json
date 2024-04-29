@@ -5,10 +5,10 @@
         "ipv6": "IPv6地址",
         "gateway": "網關",
         "dns": "DNS伺服器",
-        "netmask": "子網路遮罩",
+        "netmask": "子網絡遮罩",
         "username": "帳號名稱",
         "password": "密碼",
-        "ssid": "無線網路名稱（SSID）",
+        "ssid": "無線網絡名稱（SSID）",
         "channel": "信道",
         "required": "必填",
         "optional": "選填",
@@ -97,7 +97,13 @@
         "unlock": "開鎖",
         "pre_set_up": "預設",
         "incorrect_formate_tips": "格式不正確，請手動更改或{action}",
-        "one_click_process_btn": "一鍵處理"
+        "one_click_process_btn": "一鍵處理",
+        "verify_btn": "驗證",
+        "tips_ttitle": "提示",
+        "click here_btn": "點擊此處",
+        "view_details_btn": "查看詳情",
+        "update": "更新",
+        "idx_label": "序號"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -111,7 +117,7 @@
         "unknown_err": "發生未知錯誤，請檢查網絡環境或重啟設備。",
         "port_occupied": "{name}連接埠被佔用",
         "please_note": "請注意：",
-        "processing": "加工..."
+        "processing": "正在處理……"
     },
     "internet": {
         "lan_ip_tips": "LAN子網與WAN子網衝突，請$$$$修改LAN IP地址$$$$。",
@@ -128,7 +134,22 @@
         "server": "伺服器",
         "client": "客戶端",
         "unlocked": "解鎖",
-        "frequency": "頻率"
+        "frequency": "頻率",
+        "clone_label": "克隆",
+        "random_btn": "隨機",
+        "current_client_label": "當前用戶",
+        "clone_mac_label": "克隆的 MAC 地址",
+        "hl_tips": "HL（Hop Limit），在IPv6中，該字段用於限制數據包在網絡中的傳輸跳數，相當於IPv4的TTL。",
+        "net_trouble_guide_link": "網絡故障排除指南",
+        "disguise_mac_label": "偽裝的 MAC 地址",
+        "random_mac_label": "隨機的 MAC 地址",
+        "wan_lan_label": "WAN/LAN 埠",
+        "wan_label": "WAN 埠",
+        "lan_label": "LAN 埠",
+        "lan1_label": "LAN 1 埠",
+        "ttl_tips": "TTL（Time To Live）設置了數據包在網絡中生存的最大時間，根據運營商要求進行填寫。",
+        "mac_addr_label": "MAC 地址",
+        "mac_real_label": "出廠"
     },
     "date": {
         "day": "天",
@@ -158,6 +179,8 @@
     },
     "system": {
         "battery_err_tips": "系統未偵測到電池模組，請檢查電源連接或電池是否損壞。",
-        "feature_unusable_tips": "由於 {feature} 已啓用，此功能無法正常工作。"
+        "feature_unusable_tips": "由於 {feature} 已啓用，此功能無法正常工作。",
+        "no_internet_base_tips": "請您檢查網絡環境後重試。",
+        "limit_tips": "數據不能超過 {count} 條。"
     }
 }

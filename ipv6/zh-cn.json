@@ -1,6 +1,6 @@
 {
     "ipv6": {
-        "tips": "启用 IPv6 后，以太网等 WAN 接口将通过 DHCPv6 获取分配的 IPv6 地址。您也可以在以太网配置页面中手动修改 IPv6 地址。部分功能（防火墙、VPN、客户端列表、GoodCloud）尚未支持 IPv6。",
+        "tips": "启用 IPv6 后，以太网等 WAN 接口将通过 DHCPv6 获取分配的 IPv6 地址。您也可以在以太网配置页面中手动修改 IPv6 地址。部分功能（防火墙、VPN、GoodCloud）尚未支持 IPv6。",
         "note": "注意:如果同时使用VPN和IPv6的功能，很可能会导致IPv6数据泄漏。",
         "enable": "启用",
         "mode": "模式",

@@ -101,7 +101,9 @@
         "idx_label": "序号",
         "update": "更新",
         "incorrect_formate_tips": "格式不正确，请手动更改或{action}",
-        "one_click_process_btn": "一键处理"
+        "one_click_process_btn": "一键处理",
+        "tips_ttitle": "提示",
+        "click here_btn": "点击此处"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -154,7 +156,15 @@
         "wan_label": "WAN 口",
         "lan_label": "LAN 口",
         "wan_lan_label": "WAN/LAN 口",
-        "lan1_label": "LAN 1 口"
+        "lan1_label": "LAN 1 口",
+        "mac_addr_label": "MAC 地址",
+        "clone_label": "克隆",
+        "random_btn": "随机",
+        "current_client_label": "当前客户端",
+        "disguise_mac_label": "伪装的 MAC 地址",
+        "random_mac_label": "随机的 MAC 地址",
+        "clone_mac_label": "克隆的 MAC 地址",
+        "mac_real_label": "出厂"
     },
     "upload": {
         "file_include": "文件类型包括",
@@ -170,6 +180,7 @@
     "system": {
         "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。",
         "limit_tips": "数据不能超过 {count} 条。",
-        "feature_unusable_tips": "由于 {feature} 已启用，此功能无法正常工作。"
+        "feature_unusable_tips": "由于 {feature} 已启用，此功能无法正常工作。",
+        "no_internet_base_tips": "请您检查网络环境后重试。"
     }
 }

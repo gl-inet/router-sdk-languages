@@ -1,14 +1,15 @@
 {
     "macclone": {
-        "desc": "當你連線到公共熱點時，若你不希望熱點發現你真實的MAC地址，或者不希望熱點控制人員對你進行上網限制，請使用MAC地址複製功能。",
+        "desc": "當你連線到公共網絡時，若你不希望熱點發現你真實的 MAC 地址，或者不希望網絡控制人員對你進行上網限制，請使用 MAC 地址複製功能。",
         "tips": "如果您的酒店或其他營業地點的網絡需要身份驗證，您可能需要使用 MAC cloning。",
         "mode_label": "模式",
         "factory_default_label": "出廠默認",
         "clone_label": "克隆",
-        "manual_label": "手冊",
+        "manual_label": "手動",
         "random_btn": "隨機",
         "current_client_label": "當前用戶",
-        "no_mac_tips": "接口使能時生成"
+        "no_mac_tips": "接口使能時生成",
+        "current_interface_as_lan_tips": "WAN 埠目前用作 LAN 埠使用，配置僅在其恢復為 WAN 埠后生效。"
     },
     "menu_macclone": "MAC地址"
 }

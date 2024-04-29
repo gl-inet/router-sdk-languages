@@ -13,10 +13,13 @@
         "no_internet": "No Internet Connection! Find a network to reconnect.",
         "reboot_warning": "Are you sure you want to reboot your router?",
         "classic": "Classic",
-        "custom_lang_btn": "自定义语言",
-        "custom_lang_title": "自定义管理语言",
-        "custom_lang_tips": "更新需要消耗流量，除简中、繁中、英文、日语、意大利语外是官方语言包，其他均为用户自己社区维护。",
-        "custom_lang_note": "如果是非社区上传的语言包，在不选择的情况下会被清空。"
+        "custom_lang_btn": "Add Languages",
+        "custom_lang_title": "Management Interface Languages",
+        "custom_lang_tips": "The official language packs are English and Chinese. (Other languages are maintained by our community.) The latest language packs will be obtained from our repository when you click \"Update\".",
+        "custom_lang_note": "Unselected language packs will be deleted (except English).",
+        "enable_update_langs_label": "Enable Auto Update",
+        "update_time_label": "Update Time",
+        "langs_no_internet_tips": "Failed to update language list. {otherTips}"
     },
     "menu_applications": "Applications",
     "menu_network": "Network",

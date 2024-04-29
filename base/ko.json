@@ -150,7 +150,10 @@
         "lan_ip_tips": "LAN 서브넷이 WAN 서브넷과 충돌합니다. $$$$LAN 서브넷$$$$을 다른 주소로 변경하십시오.",
         "up_not_online_tips": "인터페이스가 연결되어 있지만 $$$$ 프로토콜을 사용하여 인터넷에 액세스할 수 없습니다.",
         "enabled": "활성화됨",
-        "ttl_tips": "TTL(Time To Live)은 패킷이 네트워크에서 생존할 수 있는 최대 시간을 설정하며 운영자의 요구 사항에 따라 채워집니다."
+        "ttl_tips": "TTL(Time To Live)은 패킷이 네트워크에서 생존할 수 있는 최대 시간을 설정하며 운영자의 요구 사항에 따라 채워집니다.",
+        "clone_label": "복제",
+        "random_btn": "임의",
+        "current_client_label": "현재 클라이언트"
     },
     "upload": {
         "file_include": "파일 형식에는 다음이 포함됩니다",

@@ -1,6 +1,6 @@
 {
     "rs485": {
-        "parse_hexstr_tips": "「十六進位字串」方法將資料作為十六進位字串轉發，例如來自網路的字串「5F7D」將被解析為0x5F7D，然後轉送到串口。",
+        "parse_hexstr_tips": "「十六進位字串」方法將資料作為十六進位字串轉發，例如來自網絡的字串「5F7D」將被解析為0x5F7D，然後轉送到串口。",
         "tcpc_connecting_tips": "TCP 用戶端正在連線...",
         "command_label": "命令",
         "data_label": "數據",
@@ -11,11 +11,11 @@
         "quantity_write_label": "寫入數量",
         "forward_log_title": "轉發日誌",
         "forward_log_tips": "設備僅保存最近3天的日誌。重啟後日誌遺失。",
-        "forward_to_network_title": "轉送網路",
+        "forward_to_network_title": "轉送網絡",
         "parse_method_label": "解析方法",
-        "parse_method_tips": "此選項決定設備如何解析來自網路的位元組。",
-        "parse_binary_tips": "“Binary”方法直接轉發原始二進位數據，例如來自網路的字串「5F7D」將被轉送到串行端口，其 ACSII 代碼為 0x35463744。",
-        "parse_method_response_tips": "串列埠的回應將透過相應的方法傳送到網路。",
+        "parse_method_tips": "此選項決定設備如何解析來自網絡的位元組。",
+        "parse_binary_tips": "“Binary”方法直接轉發原始二進位數據，例如來自網絡的字串「5F7D」將被轉送到串行端口，其 ACSII 代碼為 0x35463744。",
+        "parse_method_response_tips": "串列埠的回應將透過相應的方法傳送到網絡。",
         "server_addr_label": "伺服器位址",
         "server_port_label": "伺服器連接埠",
         "local_port_label": "本地埠",

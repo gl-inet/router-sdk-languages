@@ -101,7 +101,9 @@
         "idx_label": "index",
         "update": "Update",
         "incorrect_formate_tips": "Incorrect formatting, please change manually or {action}",
-        "one_click_process_btn": "one-click processing"
+        "one_click_process_btn": "one-click processing",
+        "tips_ttitle": "Tips",
+        "click here_btn": "Click Here"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -151,10 +153,18 @@
         "ttl_tips": "TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator.",
         "hl_tips": "In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.",
         "net_trouble_guide_link": "Network Troubleshooting Guide",
-        "wan_label": "WAN",
-        "lan_label": "LAN",
-        "wan_lan_label": "WAN/LAN",
-        "lan1_label": "LAN 1"
+        "wan_label": "WAN Port",
+        "lan_label": "LAN Port",
+        "wan_lan_label": "WAN/LAN Port",
+        "lan1_label": "LAN 1 Port",
+        "mac_addr_label": "MAC Address",
+        "mac_real_label": "Factory",
+        "clone_label": "Clone",
+        "random_btn": "Random",
+        "current_client_label": "Current Client",
+        "disguise_mac_label": "Camouflaged MAC address",
+        "random_mac_label": "Randomized MAC address",
+        "clone_mac_label": "Cloned MAC address"
     },
     "upload": {
         "select_or_drag": "Select a file or drag it here",
@@ -170,6 +180,7 @@
     "system": {
         "battery_err_tips": "The system does not detect the battery module, check the power connection or battery for damage.",
         "limit_tips": "Data must not exceed {count} entries.",
-        "feature_unusable_tips": "This feature does not work because {feature} is enabled."
+        "feature_unusable_tips": "This feature does not work because {feature} is enabled.",
+        "no_internet_base_tips": "Please check your internet environment and try again."
     }
 }

@@ -2,7 +2,9 @@
     "btnsettings": {
         "fun_label": "Función del Botón de Conmutación",
         "no_config_tips": "El botón de conmutación no tendrá efecto si no se agrega la configuración del cliente $$$$.",
-        "no_func_babel": "Sin función"
+        "no_func_babel": "Sin función",
+        "auto_sync_tips": "¿Se activa/desactiva {func} inmediatamente dependiendo del estado del Botón de Conmutación?",
+        "startup_tips": "Nota: Después de que el dispositivo se reinicie, {func} estará activado si el Botón de Conmutación está encendido, de lo contrario estará deshabilitado."
     },
     "menu_btnsettings": "Configuración del Botón de Alternancia"
 }

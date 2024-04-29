@@ -12,7 +12,14 @@
         },
         "no_internet": "没有网络连接！寻找新的网络重新连接.",
         "reboot_warning": "您确认要重新启动路由器吗？",
-        "classic": "经典"
+        "classic": "经典",
+        "custom_lang_btn": "添加语言",
+        "custom_lang_title": "管理界面语言",
+        "custom_lang_note": "未被选择的语言包将被删除（英文除外）。",
+        "custom_lang_tips": "官方语言包为英文和中文（其他语言由我们的社区维护）。点击更新时将从我们的官方仓库拉取最新的语言包。",
+        "langs_no_internet_tips": "更新语言列表失败。{otherTips}",
+        "enable_update_langs_label": "启用自动更新",
+        "update_time_label": "更新时间"
     },
     "menu_applications": "应用程序",
     "menu_system": "系统",

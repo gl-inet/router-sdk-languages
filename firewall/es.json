@@ -26,7 +26,13 @@
         "dest": "Destino (zona, IP, puerto)",
         "enable": "Activar",
         "add_port_forwards_title": "Añadir Nueva Regla de Reenvío de Puertos",
-        "confirm_delete_tips": "¿Está seguro de que querer borrar la entrada?"
+        "confirm_delete_tips": "¿Está seguro de que querer borrar la entrada?",
+        "port_range_tips": "{exPort} no coincide con el rango de {inPort}.",
+        "priority_label": "Prioridad",
+        "adjust _priority_btn": "Ajustar Prioridad",
+        "port_value_tips": "El rango de puertos va desde 1 hasta 65535. Puedes configurar un solo puerto o establecer el rango de puertos concatenando el primer y último número de puerto con el símbolo \"-\" (por ejemplo, 501-510).",
+        "dmz_priority_higher_label": "Más alto que Reenvío de Puertos",
+        "dmz_priority_lower_label": "Más bajo que Reenvío de Puertos"
     },
     "menu_firewallview": "Firewall"
 }

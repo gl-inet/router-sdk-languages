@@ -2,7 +2,7 @@
     "cable": {
         "title": "有線",
         "no_wan": "WAN埠檢測不到網線，請插入網線。",
-        "rm_wan_cable": "請移除WAN埠的網路線。",
+        "rm_wan_cable": "請移除WAN埠的網絡線。",
         "wan_been_lan": "WAN埠已設置為LAN埠模式，你可以將其設回WAN埠模式",
         "confirm_to_lan": "你確認要把WAN埠作為LAN埠使用嗎？",
         "confirm_to_wan": "您確定要將 LAN 連接埠變更回 WAN 連接埠嗎？",
@@ -16,7 +16,17 @@
         "egderouter_mode_tips": "Drop-in gateway (旁路由) 已啟用。如果您想修改以太網設置，請先禁用 $$$$Drop-in Gateway$$$$。",
         "change_to_lan_check_tips": "請先拔出插入 WAN 口的網線。 $$$$重新檢測$$$$",
         "change_to_wan_tips": "LAN 口用作 WAN 口後，您將無法再通過該網口連接到內網來訪問管理員面板。請確保您的客戶端可以連接 Wi-Fi或者還有其他 LAN 口。",
-        "change_to_wan_tips2": "您可以按住設備上的重置按扭 4 秒鐘來還原 LAN 口（不再作為 WAN 口）。"
+        "change_to_wan_tips2": "您可以按住設備上的重置按扭 4 秒鐘來還原 LAN 口（不再作為 WAN 口）。",
+        "using_tips": "{silkprint} 狀態：正在作為 {port} 使用。 {changePort}",
+        "reset_port_tips": "您可以通過按住設備的重置按鈕 4 秒鐘來將其恢復為 {silkprint}。",
+        "change_port_btn": "切換至 {port}",
+        "no_wan_tips": "{silkprint} 狀態：作為 {port} 使用。 未檢測到網線。",
+        "use_as_wan_tips": "{asWan}，客戶端設備將無法再使用該網口連接並訪問管理面板。 請確保您的客戶端可以連接 Wi-Fi 或者其他 LAN 埠。",
+        "revert_as_lan_tips": "您確定要將 {silkprint}恢復成作為 LAN 埠使用的狀態嗎？",
+        "revert_port_btn": "恢復至 {port}",
+        "use_as_port_btn": "將 {silkprint}切換至作為 {port}使用",
+        "revert_wan_tips": "恢復為 WAN 埠後",
+        "use_as_wan_silkprint_tips": "一旦 {silkprint}作為 WAN 埠使用"
     },
     "tethering": {
         "title": "熱點分享",
@@ -25,7 +35,7 @@
     },
     "repeater": {
         "title": "中繼",
-        "known_net": "已知網路",
+        "known_net": "已知網絡",
         "options": "中繼選項",
         "no_tips": "中繼已禁用。",
         "change_wifi": "切換網絡",
@@ -63,7 +73,20 @@
         "unusable_eap_tips": "此路由器不支持使用 EAP 的重複網絡。",
         "fail_mac_tips": "路由器的MAC不能與任何Wi-Fi客戶端相同，請$$$$修改clone的MAC$$$$或修改該客戶端的MAC。",
         "scan_wifi_fail_dfs_tips": "設備正在執行 DFS 通道可用性檢查，無法掃描附近的 Wi-Fi。請等待檢查完成。",
-        "connet_dfs_tips": "當路由器重複使用 DFS 通道的 WiFi 時，如果該 WiFi 可用，則路由器將使用所選的 DFS 通道。注意，如果這個WiFi不可用，就會進行通道切換，這會導致透過WiFi連接的用戶端短暫斷開，有的裝置會在沒有感知到的情況下重新連接，而有的則需要手動重新連接。"
+        "connet_dfs_tips": "當路由器重複使用 DFS 通道的 WiFi 時，如果該 WiFi 可用，則路由器將使用所選的 DFS 通道。注意，如果這個WiFi不可用，就會進行通道切換，這會導致透過WiFi連接的用戶端短暫斷開，有的裝置會在沒有感知到的情況下重新連接，而有的則需要手動重新連接。",
+        "allow_auto_portal_tips": "若此選項啟用，此路由器會在連接熱點成功但無法連接到互聯網時自動進入公共熱點認證模式。 注意，此模式會暫停 VPN，這可能導致信息洩露給熱點的提供方（如酒店、商場）。",
+        "allow_auto_portal_label": "自動啟用公共熱點認證模式",
+        "modify_wifi_title": "修改網絡配置",
+        "enable_disguise_label": "啟用偽裝",
+        "need_enter_portal_tips": "無法通過已中繼的熱點訪問互聯網，您可以嘗試進入{portal}來解決問題。",
+        "modify_wifi_tips": "更改任何網絡設置都會導致中繼重新連接。",
+        "going_to_auth_tips": "即將前往認證頁面：",
+        "auto_portal_tips": "此設備已自動進入公共熱點驗證模式以訪問熱點的 Captive Portal。 認證成功後，設備將自動退出該模式。",
+        "to_auth_btn": "前往登錄",
+        "entered_portal_tips": "設備處於公共熱點認證模式中。 注意，此模式會暫停 VPN，這可能導致信息洩露給熱點的提供方（如酒店、商場）。 認證成功後設備會自動退出該模式。 如果您要退出，{exit}。",
+        "auto_go_auth_tips": "{count}之後自動{auth}",
+        "portal_auth_mode_btn": "公共熱點認證模式",
+        "enable_disguise_tips": "若此選項啟用，路由器偽裝成您目前使用的客戶端設備的同款設備。"
     },
     "modem": {
         "title": "行動網絡",
@@ -162,7 +185,17 @@
         "lte_plus_tips": "有些設備可能會將4G+顯示爲5G",
         "tower_locked_tips": "塔樓鎖定",
         "reboot_buildin_modem_btn": "重新啟動內建數據機",
-        "reboot_buildin_modem_warning": "您確定要重新啟動內建數據機嗎？"
+        "reboot_buildin_modem_warning": "您確定要重新啟動內建數據機嗎？",
+        "pin_verify_success_tips": "PIN 碼驗證成功。",
+        "need_pin_tips": "SIM卡正處於鎖定狀態，請檢測是否有輸入pin碼或者pin碼是否輸入正確。",
+        "sim_slot_pin_mark_tips": "SIM 卡槽已被標記，不可以自動切換。",
+        "need_pin_no_history_tips": "您需要輸入PIN 碼，還剩餘 {count} 次機會。",
+        "need_pin_history_tips": "PIN 碼 {value} 錯誤，還剩餘 {count} 次機會。",
+        "last_pin_tips": "此 SIM 卡的 PIN 碼還剩下最後一次嘗試解鎖的機會，如果再次輸入失敗，您需要使用 PUK 碼解鎖。 為防止您的 SIM 卡被鎖，設備不會再進行撥號，請使用手機進行解鎖。",
+        "pin_locked_no_history_tips": "SIM 卡已被鎖定。",
+        "pin_locked_history_tips": "PIM 碼 {value} 錯誤, SIM 卡已鎖定。",
+        "protocol_tips": "QCM/QMI 協議速度更快，3G 協議的兼容性更好。",
+        "certification_info_btn": "認證信息"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
