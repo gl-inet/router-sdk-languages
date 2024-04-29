@@ -11,6 +11,8 @@ It is important to note that GL.iNet cannot guarantee the completeness or qualit
 
 Open the "Management Interface Languages" pop-up window via the button at the bottom of the language toggle list on the right side of the title bar, select the language you need and click "Update" and the device will automatically pull the latest version of the language pack from our repository.
 
+Note: Only language packs with more than 50% translated are shown in this list.
+
 ## Firmware version 4.5
 
 1. Find the matching Release from the [Releases](https://github.com/gl-inet/router-sdk-languages/releases) in this repository based on your firmware version.
