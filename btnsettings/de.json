@@ -2,7 +2,10 @@
     "btnsettings": {
         "no_config_tips": "Der Schalter wird nicht funktionieren, wenn keine $$$$ Client-Konfiguration hinterlegt ist.",
         "fun_label": "Funktion des Schalters",
-        "no_func_babel": "Keine Funktion"
+        "no_func_babel": "Keine Funktion",
+        "vpn_client_tips": "Die {vpnType} Konfiguration unter {menuKey} muss gesetzt sein, damit der Schalter funktioniert.",
+        "startup_tips": "Notiz: Wenn das Gerät neu gestartet wurde der Schalter ein ist, wird {funct} aktiviert sein. Ansonsten ist die Funktion deaktiviert.",
+        "auto_sync_tips": "Soll {func} aktiviert/deaktiviert sein, direkt nach dem ändern des Schalters?"
     },
     "menu_btnsettings": "Konfiguration des Schalters"
 }
