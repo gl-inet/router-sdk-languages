@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "Edit Hosts",
-        "desc": "If you set custom DNS servers, any domain names will be resolved through the DNS servers set here rather than the one obtained from Ethernet, Repeater, Cellular, Tethering or VPN configuration DNS servers.",
+        "desc": "Each interface and VPN tunnel uses its own DNS by default. If you set custom DNS servers, any domain names will be resolved through the DNS servers set here rather than the one obtained from Ethernet, Repeater, Cellular, Tethering DNS servers.",
         "rebinding_label": "DNS Rebinding Attack Protection",
         "rebinding_tips": "Turning this option on may cause private DNS lookup failure. If your network has a captive portal please disable this option.",
         "override_label": "Override DNS Settings for All Clients",
