@@ -79,7 +79,14 @@
         "allow_auto_portal_label": "Aktiviere automatischen Login Modus für öffentliche Hotspots",
         "enable_disguise_label": "Tarnmodus aktivieren",
         "modify_wifi_tips": "Änderungen an den Netzwerkeinstellungen führen zu einem Neustart des  Repeater.",
-        "modify_wifi_title": "Netzwerkeinstellungen anpassen"
+        "modify_wifi_title": "Netzwerkeinstellungen anpassen",
+        "going_to_auth_tips": "Das Anmeldeportal erscheint bald:",
+        "auto_portal_tips": "Der Router hat in den Login Modus für öffentliche Hotspots gewechselt, für eine Anmeldung am Captive Portal des Anbieters. Nach erfolgreicher Anmeldung wird dieser Modus automatisch verlassen.",
+        "to_auth_btn": "Gehe zum Login",
+        "auto_go_auth_tips": "Automatisch {auth} nach {count}",
+        "need_enter_portal_tips": "Verbindung zum Internet kann nicht über den Hotspot hergestellt werden. Versuche {portal} zu erreichen für eine Anmeldung.",
+        "portal_auth_mode_btn": "Login Modus für öffentliche Hotspots",
+        "entered_portal_tips": "Der Router ist im Login Modus für öffentliche Hotspots. Das VPN ist pausiert, alle Daten werden nun ungesichert an den Anbieter des Hotspots (z.B. Hotel) gesendet. Nach erfolgreichem Anmelden wird das sichere VPN automatisch wieder hergestellt. Mit {exit} kann der Modus manuell verlassen werden."
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -186,7 +193,9 @@
         "certification_info_btn": "Informationen zum Zertifikat",
         "sim_slot_pin_mark_tips": "Der SIM-Karten-Slot ist markiert und kann nicht automatisch gewechselt werden.",
         "pin_verify_success_tips": "PIN erfolgreich geprüft.",
-        "need_pin_history_tips": "Die PIN {value} ist falsch. Es sind noch {count} Versuche übrig."
+        "need_pin_history_tips": "Die PIN {value} ist falsch. Es sind noch {count} Versuche übrig.",
+        "need_pin_tips": "Die SIM Karte ist gesperrt. Bitte prüfen ob ein PIN Code hinterlegt ist und dass dieser der richtige für die Karte ist.",
+        "last_pin_tips": "Noch ein letzter Versuch ist offen, die PIN zum entsperren der SIM Karte einzugeben. Wenn diese falsch ist, wird der PUK Code benötigt um sie zu entsperren. Um eine Sperrung zu vermeiden wird sich der Router nicht mehr einwählen, bitte verwenden Sie die SIM Karte in einem Mobiltelefon zum entsperren."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
