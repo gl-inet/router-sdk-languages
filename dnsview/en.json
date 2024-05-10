@@ -4,7 +4,7 @@
         "desc": "If you set custom DNS servers, any dns name will be resolved through the DNS servers set here instead of the DNS server from Ethernet, Repeater, Cellular, Tethering. Otherwise, each interface uses its own DNS settings by default.",
         "rebinding_label": "DNS Rebinding Attack Protection",
         "rebinding_tips": "Turning this option on may cause private DNS lookup failure. If your network has a captive portal please disable this option.",
-        "override_label": "Override DNS Settings for All Clients",
+        "override_label": "Override DNS Settings of All Clients",
         "override_tips": "If enabled, your router will override unencrypted DNS settings for all clients.",
         "set_dns_server_title": "DNS Server Settings",
         "mode": "Mode",
@@ -38,7 +38,7 @@
         "server_warning_tips": "The server appears to have expired.",
         "form_interface_label": "DNS from {interface}",
         "bark_enable_override_tips": "Bark blocks almost all DNS requests from clients sent to the Internet. If you enable this option while Bark is working, your clients may not be able to access the Internet.",
-        "override_vpn_label": "Allow Custom DNS to Override VPN's DNS",
+        "override_vpn_label": "Allow Custom DNS to Override VPN DNS",
         "override_vpn_tips": "If this option is enabled, once you have set custom DNS, packets transmitted through the VPN tunnel will be resolved using the custom DNS override instead of the DNS server settings from the VPN connections."
     }
 }
