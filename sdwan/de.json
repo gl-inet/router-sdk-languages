@@ -1,1 +1,14 @@
-{}
+{
+    "sdwan": {
+        "device_tips": "Sie wurden in das virtuelle Netzwerk {network} aufgenommen. Bitte passen Sie die Einstellungen unter {cloud} an.",
+        "real_time_data_title": "Echtzeitdaten",
+        "upload_data_title": "Hochgeladene Daten",
+        "download_data_title": "Heruntergeladene Daten",
+        "interface_title": "Schnittstellen",
+        "real_time_data_tips": "Enthält nur die Daten von Geräten, welche durch diesen Router gehen. Diese unterscheiden sich möglicherweise von den Abrechnungsdaten.",
+        "nodes_title": "Netzwerk Topologie",
+        "no_device_tips": "Das Gerät muss in einem virtuellen Netzwerk in {cloud} hinzugefügt werden, um diese Funktion zu benutzen.",
+        "interface_tips": "Sie können bestimmte Schnittstellen abschalten, beim beitreten dieses virtuellen Netzwerks."
+    },
+    "menu_sdwan": "AstroWarp"
+}

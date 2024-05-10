@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "编辑 Hosts",
-        "desc": "如果您在此处设置了自定义的 DNS 服务器，任何域名都将优先通过此处设置的 DNS 服务器进行解析，而非从以太网、无线中继、蜂窝网络、热点共享或 VPN 配置中获取的 DNS 服务器。",
+        "desc": "如果您在此处设置了自定义的 DNS 服务器，任何域名都将优先通过此处设置的 DNS 服务器进行解析，而非从以太网、无线中继、蜂窝网络、热点共享中获取的 DNS 服务器。否则，每个接口默认使用自己的 DNS。",
         "rebinding_label": "DNS 重绑定攻击保护",
         "rebinding_tips": "启用此选项可能会导致私有 DNS 查找失败。如果您的网络需要通过强制主页进行认证，请禁用此选项。",
         "override_label": "覆盖所有客户端的 DNS 设置",
@@ -34,11 +34,11 @@
         "form_ovpn_label": "来自 OpenVPN 的 DNS",
         "form_wg_label": "来自 WireGuard 的 DNS",
         "provider": "DNS 提供商",
-        "adguardhome_in_use_tips": "AdGuard Home 已启用，此路由器必须使用 AdGuard Home 提供的 DNS 服务器，您无法自定义 DNS 服务器。",
+        "adguardhome_in_use_tips": "AdGuard Home 已启用，此路由器将使用 AdGuard Home 提供的 DNS 服务器作为自定义 DNS 服务器。 DNS 服务器设置将不生效。",
         "server_warning_tips": "该服务器疑似过期。",
         "form_interface_label": "来自{interface}的 DNS",
         "bark_enable_override_tips": "Bark 会阻止几乎所有来自客户端发送到互联网的 DNS 请求。如果您在 Bark 工作时启用此选项，您的客户端可能无法上网。",
-        "override_vpn_tips": "若该选项启用，当 VPN 连接可用时，通过 VPN 隧道传输的数据包将使用 VPN 自身的 DNS 服务器进行解析。",
-        "override_vpn_label": "允许 VPN 通道优先使用自身的 DNS"
+        "override_vpn_tips": "若该选项启用，一旦您设置了自定义 DNS，通过 VPN 隧道传输的数据包将使用自定义的 DNS 替代来着 VPN 自身的 DNS 服务器设置进行解析。",
+        "override_vpn_label": "允许自定义 DNS 覆盖 VPN 的 DNS 设置"
     }
 }

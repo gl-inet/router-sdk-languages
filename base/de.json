@@ -101,7 +101,9 @@
         "idx_label": "index",
         "update": "Update",
         "incorrect_formate_tips": "Falsche Formatierung, bitte manuell ändern oder {action}",
-        "one_click_process_btn": "one-click processing"
+        "one_click_process_btn": "one-click processing",
+        "tips_ttitle": "Hinweise",
+        "click here_btn": "Hier klicken"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -136,13 +138,18 @@
         "net_trouble_guide_link": "Hilfe zur Netzwerk-Fehlerbehebung",
         "ttl_tips": "TTL (Time to Live) gibt an, wie lange ein Paket im Netzwerk existiert. Dieser Wert wird nach Vorgaben des Betreibers gesetzt.",
         "hl_tips": "Für IPv6 gibt der HL (Hop Limit) Wert die Anzahl der maximalen Übertragungs-Hops eines Datenpakets im Netzwerk an. Dieser Wert entspricht dem TTL im IPv4.",
-        "wan_label": "WAN",
-        "lan_label": "LAN",
-        "wan_lan_label": "WAN/LAN",
+        "wan_label": "WAN Port",
+        "lan_label": "LAN Port",
+        "wan_lan_label": "WAN/LAN Port",
         "lan1_label": "LAN 1",
         "clone_label": "Klonen",
         "random_btn": "Zufällig",
-        "current_client_label": "Aktueller Client"
+        "current_client_label": "Aktueller Client",
+        "clone_mac_label": "Kopierte MAC Adresse",
+        "random_mac_label": "Zufällige MAC Adresse",
+        "disguise_mac_label": "Versteckte MAC Adresse",
+        "mac_addr_label": "MAC Adresse",
+        "mac_real_label": "Echte MAC Adresse"
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
@@ -173,6 +180,7 @@
     "system": {
         "battery_err_tips": "Das System hat keine Batterie erkannt. Bitte die Stromversorgung und Batterie auf Schäden überprüfen.",
         "limit_tips": "Daten dürfen nicht mehr als {count} Einträge enthalten.",
-        "feature_unusable_tips": "Dieses Feature funktioniert nicht, weil {feature} eingeschaltet ist."
+        "feature_unusable_tips": "Dieses Feature funktioniert nicht, weil {feature} eingeschaltet ist.",
+        "no_internet_base_tips": "Bitte die Internetverbindung prüfen und erneut versuchen."
     }
 }

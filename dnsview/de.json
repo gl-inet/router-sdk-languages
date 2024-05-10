@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "Hosts-Datei bearbeiten",
-        "desc": "Wenn Sie benutzerdefinierte DNS-Server einstellen, werden alle Domänennamen über die hier eingestellten DNS-Server aufgelöst und nicht mehr über die DNS-Server der Ethernet-, Repeater-, Mobilfunk-, Tethering- oder VPN-Konfiguration.",
+        "desc": "Jede Schnittstelle und VPN Tunnel nutzt einen eigenen DNS Server als Standard. Wenn Sie benutzerdefinierte DNS-Server einstellen, werden alle Domänennamen über die hier eingestellten DNS-Server aufgelöst und nicht mehr über die DNS-Server der Ethernet-, Repeater-, Mobilfunk- oder Tetheringkonfiguration.",
         "server": "Server",
         "adguardhome_in_use_tips": "AdGuard Home ist aktiviert, der Router muss den von AdGuard Home zur Verfügung gestellten DNS Server benutzen. Sie können die DNS-Server nicht anpassen.",
         "provider": "DNS Provider",
@@ -37,6 +37,8 @@
         "server_warning_tips": "Der Server scheint nicht mehr gültig zu sein.",
         "rebinding_label": "Schutz vor DNS-Rebind-Angriffen",
         "form_interface_label": "DNS von {interface}",
-        "bark_enable_override_tips": "Bark blockiert nahezu alle DNS Anfragen von Clients in das Internet. Wenn diese Option aktiviert wird, während Bark arbeitet, können die Clients unter Umständen das Internet nicht erreichen."
+        "bark_enable_override_tips": "Bark blockiert nahezu alle DNS Anfragen von Clients in das Internet. Wenn diese Option aktiviert wird, während Bark arbeitet, können die Clients unter Umständen das Internet nicht erreichen.",
+        "override_vpn_tips": "Wenn diese Option eingeschaltet ist und eine VPN Verbindung verfügbar ist, werden Namensauflösungen zu dem im VPN eingestellten DNS Server gesendet.",
+        "override_vpn_label": "Erlaube VPN Tunnel einen eigenen DNS Server zu nutzen"
     }
 }

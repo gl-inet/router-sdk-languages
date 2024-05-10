@@ -16,7 +16,17 @@
         "egderouter_mode_tips": "Das Drop-in gateway ist aktiviert. Wenn du die Ethernet Einstellungen ändern willst, deaktiviere bitte $$$$das Drop-in Gateway$$$$ zuerst.",
         "change_to_wan_tips": "Sobald der LAN Port als WAN Port verwendet wird, haben Sie keinen Zugriff auf die Verwaltungsoberfläche über ein Netzwerkkabel. Bitte stellen Sie sicher, dass ein Client eine WLAN-Verbindung herstellen kann.",
         "change_to_wan_tips2": "Sie können den LAN-Port (der nicht mehr als WAN-Port verwendet wird) zurücksetzen, indem Sie die Reset-Taste am Router 4 Sekunden lang gedrückt halten.",
-        "change_to_lan_check_tips": "Bitte ziehen Sie zuerst das Netzwerkkabel vom WAN-Port ab. $$$$ Neu erkennen $$$$"
+        "change_to_lan_check_tips": "Bitte ziehen Sie zuerst das Netzwerkkabel vom WAN-Port ab. $$$$ Neu erkennen $$$$",
+        "change_port_btn": "Ändern auf {port}",
+        "revert_port_btn": "Wiederherstellen auf {port}",
+        "no_wan_tips": "{silkprint} status: Benutze als {port}. Kein Kabel erkannt.",
+        "using_tips": "{silkprint} status: Benutze als {port}. {changePort}",
+        "use_as_wan_tips": "Geräte am {asWan} Port können die Administrator-Oberfläche nicht mehr erreichen. Der Zugang ist weiterhin über WLAN oder einem anderen LAN Port möglich.",
+        "reset_port_tips": "Der {silkprint} kann wiederhergestellt werden, wenn der Reset-Taster am Gerät für 4 Sekunden gedrückt und gehalten wird.",
+        "revert_as_lan_tips": "{silkprint} wiederherstellen zu LAN (default)?",
+        "revert_wan_tips": "Nachdem der WAN Port wiederhergestellt wurde",
+        "use_as_wan_silkprint_tips": "Wenn der {silkprint} als WAN Port genutzt wird",
+        "use_as_port_btn": "Ändere {silkprint} auf {port}"
     },
     "tethering": {
         "title": "Tethering",
@@ -63,7 +73,13 @@
         "allow_dfs_tips1": "Wenn die Option aktiviert ist und der Router WLAN auf einem beliebigen DFS-Kanal verstärkt, folgt er der Quelle, um den DFS-Kanal zu vermeiden. Wenn dies möglich ist, verwendet das eigene 5-GHz-WLAN des Routers den DFS-Kanal. Andernfalls schaltet das eigene 5-GHz-WLAN des Routers zurück auf den Nicht-DFS-Kanal.",
         "fail_mac_tips": "Die MAC des Router kann nicht dieselbe sein, wie die eines WLAN Gerätes. Bitte $$$$ändere die MAC des Router$$$$ oder ändern Sie die MAC Adresse auf dem WLAN Gerät.",
         "connet_dfs_tips": "Wenn der Router als Repeater für ein WLAN mit DFS Kanal eingerichtet ist, und das WLAN erreichbar ist, wird dieser Kanal genutzt. Wenn das WLAN nicht verfügbar ist, wird es zu einem kurzen Verbindungsabbruch kommen. Manche Geräte werden dies nicht bemerken, manche müssen manuell erneut verbunden werden.",
-        "scan_wifi_fail_dfs_tips": "Die DFS (Dynamische Frequenzwahl) Prüfung läuft, es kann gerade nicht nach WLAN Netzwerken gesucht werden. Bitte warten Sie bis die Prüfung abgeschlossen ist."
+        "scan_wifi_fail_dfs_tips": "Die DFS (Dynamische Frequenzwahl) Prüfung läuft, es kann gerade nicht nach WLAN Netzwerken gesucht werden. Bitte warten Sie bis die Prüfung abgeschlossen ist.",
+        "enable_disguise_tips": "Wenn diese Option eingeschaltet ist, tarnt sich der Router als dasselbe Gerät, welches jetzt gerade verbunden ist.",
+        "allow_auto_portal_tips": "Wenn diese Option aktiviert ist, wird der Router in den 'Login Modus' schalten, wenn er sich erfolgreich an einem Hotspot anmelden kann, aber keine Verbindung zum Internet bekommt. Dieser Modus wird das VPN pausieren, was Daten ungesichert an den Anbieter des Hotspot senden kann (z.B. Hotel).",
+        "allow_auto_portal_label": "Aktiviere automatischen Login Modus für öffentliche Hotspots",
+        "enable_disguise_label": "Tarnmodus aktivieren",
+        "modify_wifi_tips": "Änderungen an den Netzwerkeinstellungen führen zu einem Neustart des  Repeater.",
+        "modify_wifi_title": "Netzwerkeinstellungen anpassen"
     },
     "modem": {
         "title": "Mobilfunknetz",
