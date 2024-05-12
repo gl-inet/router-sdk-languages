@@ -1,5 +1,5 @@
 {
-    "menu_lanip": "Réseaux local",
+    "menu_lanip": "LAN",
     "lan_ip": {
         "lan": "Adresse IP du routeur",
         "guest": "Passerelle par defaut",
@@ -26,19 +26,20 @@
         "dhcp_charter_label": "Temp du bail",
         "lpr_serve_label": "Serveur LPR",
         "dhcp_serve_title": "Serveur DHCP",
-        "enable_dhcp_tips": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication à chaque appareil client. Si le serveur DHCP est désactivé, vous devrez les configurer manuellement pour chaque client."
+        "enable_dhcp_tips": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication à chaque appareil client. Si le serveur DHCP est désactivé, vous devrez les configurer manuellement pour chaque client.",
+        "guest_disabel_tips": "{guest} est désativé les reseaux invités ne peuvent pas fonctionner."
     },
     "address_reservation": {
-        "title": "Addresse Reservées",
-        "tips": "Lorsque vous spécifiez une adresse IP réservée pour un client au sein du réseau local, le client reçoit toujours la même adresse IP chaque fois qu'il accède au serveur DHCP du routeur.... Vous pouvez attribuer des adresses IP réservées à des ordinateurs ou à des serveurs qui nécessitent des paramètres IP permanents.",
+        "title": "Adresses Reservées",
+        "tips": "Lorsque vous spécifiez une adresse IP réservée pour un client au sein du réseau local, l'appareil reçoit toujours la même adresse IP chaque fois qu'il demande une adresse au serveur DHCP du routeur. Vous pouvez attribuer des adresses IP réservées à des ordinateurs ou à des serveurs qui nécessitent que leur adresse ne change pas.",
         "note": "Remarque : les clients configurés doivent se reconnecter au routeur pour être activés.",
         "name": "Nom",
         "action": "Action",
-        "no_data": "Pas de données dans le tableau",
-        "add_new": "Ajouter une reservation d'adresse",
-        "set_data": "Modifier la reservation d'adresse",
-        "confirm_delete_all": "Êtes-vous sûr de vouloir supprimer toutes les entrées réservées aux adresses ?",
-        "confirm_delete": "Êtes-vous sûr de vouloir supprimer l'entrée de l'adresse réservée ?",
+        "no_data": "Pas de données dans le tableau.",
+        "add_new": "Ajouter une réservation d'adresse",
+        "set_data": "Modifier la réservation d'adresse",
+        "confirm_delete_all": "Êtes-vous sûr de vouloir supprimer toutes les réservations d'adresses ?",
+        "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette réservation d'adresse ?",
         "mac_existed": "MAC existantes",
         "ip_existed": "IP existantes",
         "desc_label": "Description"
