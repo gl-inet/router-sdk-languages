@@ -98,7 +98,12 @@
         "pre_set_up": "Pre installation",
         "verify_btn": "Vérifier",
         "incorrect_formate_tips": "Formatage incorrect, veuillez le modifier manuellement ou {action}",
-        "one_click_process_btn": "one-click processing"
+        "one_click_process_btn": "one-click processing",
+        "tips_ttitle": "Astuces",
+        "click here_btn": "Cliquez ici",
+        "view_details_btn": "Montrer les détails",
+        "idx_label": "Index",
+        "update": "Mettre à jour"
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -149,7 +154,16 @@
         "ttl_tips": "Le TTL (Time To Live) définit la durée maximale de survie des paquets dans le réseau et est renseigné en fonction des besoins de l'opérateur.",
         "hl_tips": "En IPv6, le champ HL (Hop Limit) est utilisé pour limiter le nombre de sauts de transmission des paquets de données dans le réseau, ce qui équivaut au TTL en IPv4.",
         "random_btn": "Aléatoire",
-        "current_client_label": "Client actuel"
+        "current_client_label": "Client actuel",
+        "disguise_mac_label": "Adresse MAC camouflé",
+        "lan_label": "Port LAN",
+        "wan_lan_label": "Port WAN/LAN",
+        "lan1_label": "Port LAN 1",
+        "random_mac_label": "Adresse MAC aléatoire",
+        "clone_mac_label": "Adresse MAC cloné",
+        "wan_label": "Port WAN",
+        "mac_addr_label": "Adresse MAC",
+        "clone_label": "Cloner"
     },
     "upload": {
         "select_or_drag": "Sélectionnez un fichier ou déposez-le ici",
@@ -163,6 +177,8 @@
         "lass_than_tips": "(Moins de $$$$)"
     },
     "system": {
-        "battery_err_tips": "Le système n'a pas detecté le module de batterie, vérfiez si votre alimentation ou votre batterie n'est pas endommagé."
+        "battery_err_tips": "Le système n'a pas detecté le module de batterie, vérfiez si votre alimentation ou votre batterie n'est pas endommagé.",
+        "feature_unusable_tips": "Cette fonctionnalité ne peut pas fonctionner car {feature} est activé.",
+        "no_internet_base_tips": "Veuillez vérifier votre connexion Internet et réessayer."
     }
 }

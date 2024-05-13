@@ -16,7 +16,17 @@
         "egderouter_mode_tips": "La passerelle Drop-in est activée. Si vous souhaitez modifier les paramètres Ethernet, veuillez d'abord désactiver $$$$Passerelle Drop-in$$$$.",
         "change_to_wan_tips": "Une fois que le port LAN est utilisé comme port WAN, vous ne pourrez pas accéder au panneau d'administration via ce port Ethernet connecté au port LAN. Assurez-vous que votre client peut se connecter au Wi-Fi ou à un autre port LAN.",
         "change_to_lan_check_tips": "Tout d'abord, veuillez débrancher le câble Ethernet branché sur le port WAN. $$$$ re-detect $$$$",
-        "change_to_wan_tips2": "Vous pouvez restaurer le port LAN (afin qu'il ne soit plus utilisé comme port WAN) en appuyant sur le bouton de réinitialisation de l'appareil et en le maintenant enfoncé pendant quatre secondes."
+        "change_to_wan_tips2": "Vous pouvez restaurer le port LAN (afin qu'il ne soit plus utilisé comme port WAN) en appuyant sur le bouton de réinitialisation de l'appareil et en le maintenant enfoncé pendant quatre secondes.",
+        "change_port_btn": "Changer en {port}",
+        "use_as_wan_tips": "{asWan}, les appareils connecté à ce port ne peuvent pas accéder à l'interface d'administration. Vous devez vous connecter à un autre port ou au réseau WiFi.",
+        "no_wan_tips": "silkprint} Etat : Utilisé comme {port}. Pas de cable détecté.",
+        "using_tips": "{silkprint} status : Utilisé comme {port}. {changePort}",
+        "reset_port_tips": "Vous pouvez restaurer le {silkprint} en restant appuyé sur le bouton reset pendant 4 secondes.",
+        "revert_port_btn": "Restaurer en {port}",
+        "use_as_port_btn": "Changer le {silkprint} en {port}",
+        "revert_wan_tips": "Après avoir restauré le port WAN",
+        "use_as_wan_silkprint_tips": "Une fois que {silkprint} est utilisé come port WAN",
+        "revert_as_lan_tips": "Etes vous sûr de vouloir restaurer le {silkprint} en port LAN (default) ?"
     },
     "tethering": {
         "title": "Partage de connexion",
@@ -31,7 +41,7 @@
         "change_wifi": "Changer de réseau",
         "allow_change": "Autoriser le changement parmis les autres réseaux enregistrés",
         "allow_change_tips": "Si l'option est activée, le routeur se connectera automatiquement à d'autres réseaux enregistrés lorsqu'il ne parvient pas à se connecter au réseau Wi-Fi actuel.",
-        "antijam": "Forcer la Bande passante 20MHz pour le WiFi 2.4G",
+        "antijam": "Forcer la bande passante 20MHz pour le WiFi 2.4G",
         "antijam_tips": "Si cette option est activée, l'appareil améliorera la stabilité de la connexion au prix d'une réduction du débit.",
         "lock_band": "Selectionner une fréquence",
         "lock_band_tips": "Si vous sélectionnez manuellement une fréquence, le routeur ne recherchera pas de WiFi avec une autre fréquence et ne s'y connectera pas.",

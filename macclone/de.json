@@ -1,6 +1,6 @@
 {
     "macclone": {
-        "desc": "Falls Sie sich mit einem öffentlichen Hotspot verbinden, aber nicht möchten, dass der Server Ihre echte MAC-Adresse sieht oder Ihre Internetverbindungen basierend auf der MAC-Adresse einschränkt.",
+        "desc": "Falls Sie sich mit einem öffentlichen Netzwerk verbinden, aber nicht möchten, dass der Netzwerkanbieter Ihre echte MAC-Adresse sieht oder Ihre Internetverbindungen basierend auf der MAC-Adresse einschränkt.",
         "tips": "Falls Ihr Hotel oder andere Geschäftsstandorte eine Netzwerkauthentifizierung verlangen, könnte das Klonen von MAC-Adressen helfen.",
         "mode_label": "Modus",
         "factory_default_label": "Werkseinstellungen",
@@ -8,7 +8,8 @@
         "current_client_label": "Aktueller Client",
         "random_btn": "Zufällig",
         "manual_label": "Manuell",
-        "no_mac_tips": "Wird erzeugt beim aktivieren der Schnittstelle"
+        "no_mac_tips": "Wird erzeugt beim aktivieren der Schnittstelle",
+        "current_interface_as_lan_tips": "Die aktuelle Schnittstelle ist ein LAN Port. Diese Konfiguration wird angewendet, wenn die Schnittstelle als WAN konfiguriert wird."
     },
     "menu_macclone": "MAC-Adresse"
 }
