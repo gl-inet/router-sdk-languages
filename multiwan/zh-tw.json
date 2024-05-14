@@ -31,7 +31,7 @@
         "balancing_warning_tips": "負載平衡必須至少配置兩個非零負載比的介面才能正常運作。如果沒有可連接的非零負載率的 Internet 接口，設備將無法連接到 Internet。",
         "track_mode_label": "低數據模式",
         "passive_label": "低數據模式",
-        "track_mode_tips": "僅當出現介面網絡錯誤時啟用交換器進行跟踪，並建議用戶在數據計劃有限時使用低數據模式。",
+        "track_mode_tips": "若此选项启用，则仅在出现接口网络错误时进行跟踪。建议对使用数据流量计费的接口启用。",
         "sensitivity_label": "靈敏度",
         "sensitivity_tips": "此靈敏度決定了網絡狀態偵測的時間間隔。上網不穩定時建議使用低靈敏度，避免頻繁切換網絡；影片或直播時建議使用高靈敏度，以確保您可以快速切換上網；切換到高靈敏度可能會導致網絡斷開，請謹慎調整。",
         "network_tracking_title": "{interface} 狀態追蹤",
