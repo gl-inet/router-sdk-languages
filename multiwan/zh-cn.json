@@ -34,7 +34,7 @@
         "sensitivity_label": "灵敏度",
         "track_mode_label": "省流模式",
         "sensitivity_tips": "此灵敏度决定了间隔多久进行一次联网状态检测。网络不稳定时推荐使用低灵敏度，避免网络不停的切换；视频会议或者直播场景推荐使用高灵敏度，断网时可以快速切换；切换高灵敏度容易造成断网,请谨慎调节；",
-        "track_mode_tips": "启用开关后，只在接口网络标记异常的情况下进行跟踪，推荐接口使用流量计费的用户。",
+        "track_mode_tips": "若此选项启用，则仅在出现接口网络错误时进行跟踪。建议对使用数据流量计费的接口启用。",
         "network_tracking_title": "{interface} 状态跟踪",
         "sensitivity_options_label": "灵敏度选项"
     }
