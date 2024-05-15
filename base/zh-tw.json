@@ -149,7 +149,8 @@
         "lan1_label": "LAN 1 埠",
         "ttl_tips": "TTL（Time To Live）設置了數據包在網絡中生存的最大時間，根據運營商要求進行填寫。",
         "mac_addr_label": "MAC 地址",
-        "mac_real_label": "出廠"
+        "mac_real_label": "出廠",
+        "mac_format_tips": "第一個字節的最低位不允許設置爲 1（即第二個十六進制數字不允許爲奇數）。"
     },
     "date": {
         "day": "天",
