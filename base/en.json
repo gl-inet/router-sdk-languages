@@ -164,7 +164,8 @@
         "current_client_label": "Current Client",
         "disguise_mac_label": "Camouflaged MAC address",
         "random_mac_label": "Randomized MAC address",
-        "clone_mac_label": "Cloned MAC address"
+        "clone_mac_label": "Cloned MAC address",
+        "mac_format_tips": "the least significant bit of the first octet is not allowed set to 1 (i.e. the second hexadecimal digit is not allowed odd)."
     },
     "upload": {
         "select_or_drag": "Select a file or drag it here",
