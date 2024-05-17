@@ -3,6 +3,13 @@
         "scan_title": "Configuración de escaneo",
         "enable_bluetooth": "Habilitar Bluetooth",
         "advanced_setting": "Configuración Avanzada",
-        "title": "Configuración Bluetooth"
+        "title": "Configuración Bluetooth",
+        "scan_type": "Tipo de Escaneo",
+        "active": "Activo",
+        "passive": "Pasivo",
+        "msec": "mseg",
+        "scan_interval_time": "Tiempo de Intervalo de Escaneo",
+        "scan_window_time": "Tiempo de Ventana de Escaneo",
+        "scan_window_time_must_not_be_greater_than_scan_interval_time": "El tiempo de ventana de escaneo no debe ser mayor que el tiempo de intervalo de escaneo"
     }
 }
