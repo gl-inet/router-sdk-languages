@@ -149,7 +149,10 @@
         "random_mac_label": "Zufällige MAC Adresse",
         "disguise_mac_label": "Versteckte MAC Adresse",
         "mac_addr_label": "MAC Adresse",
-        "mac_real_label": "Echte MAC Adresse"
+        "mac_real_label": "Echte MAC Adresse",
+        "mtu_general_tips": "Wenn Sie einen Wert einstellen, der über/unter dem vom Gerät unterstützten Bereich liegt, verwendet das Gerät den unterstützten Höchst-/Mindestwert.",
+        "mtu_ipv6_warning_tips": "IPv6 kann nicht funktionieren, wenn die MTU kleiner als 1280 ist.",
+        "mac_format_tips": "das niedrigstwertige Bit des ersten Oktetts darf nicht auf 1 gesetzt werden (d. h. die zweite Hexadezimalziffer darf nicht ungerade sein)."
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
