@@ -165,7 +165,9 @@
         "disguise_mac_label": "Camouflaged MAC address",
         "random_mac_label": "Randomized MAC address",
         "clone_mac_label": "Cloned MAC address",
-        "mac_format_tips": "the least significant bit of the first octet is not allowed set to 1 (i.e. the second hexadecimal digit is not allowed odd)."
+        "mac_format_tips": "the least significant bit of the first octet is not allowed set to 1 (i.e. the second hexadecimal digit is not allowed odd).",
+        "mtu_general_tips": "If you set a value higher/lower than the supported range of the device, the device uses the supported maximum/minimum value.",
+        "mtu_ipv6_warning_tips": "IPv6 cannot work when MTU is lower than 1280."
     },
     "upload": {
         "select_or_drag": "Select a file or drag it here",

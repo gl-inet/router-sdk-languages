@@ -86,7 +86,8 @@
         "auto_go_auth_tips": "Automatically {auth} after {count}",
         "need_enter_portal_tips": "Can’t access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause VPNs and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
         "portal_auth_mode_btn": "Login Mode for Public Hotspots",
-        "going_to_auth_tips": "Coming soon to the Login page:"
+        "going_to_auth_tips": "Coming soon to the Login page:",
+        "cannot_accessed_portal_url_tips": "If you cannot access the login page, try disabling other Internet connections (e.g., ethernet, cellular)."
     },
     "modem": {
         "title": "Cellular",
