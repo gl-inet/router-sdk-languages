@@ -33,7 +33,7 @@
         "sensitivity_tips": "Die Empfindlichkeit gibt an wie oft die Internetverfügbarkeit geprüft wird. Je geringer das Intervall, desto schneller findet ein Schnittstellenwechsel statt. Verwende eine geringe Empfindlichkeit, wenn die Internetverbindung instabil ist um häufige Wechsel zu vermeiden. Eine hohe Empfindlichkeit wird empfohlen für Video oder Live-Streaming, um schnell auf das nächste verfügbare Netzwerk zu wechseln, diese Einstellung kann aber zu mehr Verbindungsabbrüchen führen. Bitte diese Einstellung mit Vorsicht anpassen.",
         "balancing_warning_tips": "Mindestens zwei Schnittstellen mit nicht-null Lastverhältnis müssen konfiguriert werden, damit die Lastverteilung arbeiten kann. Wenn es keine nicht-null Lastverhältnis Schnittstelle mit Internetverbindung gibt, kann das Gerät keine Internetverbindung herstellen.",
         "track_mode_label": "Modus für geringe Daten",
-        "track_mode_tips": "Aktiviere diesen Schalter um nur zu überprüfen ob ein Schnittstellenfehler vorliegt. Diese Einstellung ist ratsam für 'geringen Datenverbrauch' bei einem Vertrag mit begrenztem Datenvolumen.",
+        "track_mode_tips": "Wenn diese Option aktiviert ist, wird nur ein Netzwerkfehler der Schnittstelle erfasst. Es wird empfohlen, diese Option für Schnittstellen zu aktivieren, die Datenverkehr abrechnen.",
         "network_tracking_title": "{interface} Status",
         "sensitivity_options_label": "Einstellung der Empfindlichkeit"
     },
