@@ -86,7 +86,8 @@
         "allow_auto_portal_tips": "Si esta opción está habilitada, este router entrará automáticamente en modo de autenticación cuando se conecte correctamente a un punto de acceso pero no a Internet. Este modo pausará las VPN, lo que puede causar fugas de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial).",
         "enable_disguise_tips": "Si esta opción está habilitada, este router se camuflará como el mismo dispositivo que el dispositivo cliente que estás utilizando actualmente.",
         "to_auth_btn": "Ir al Portal Cautivo",
-        "entered_portal_tips": "El dispositivo está en modo de autenticación. Las VPN han sido pausadas, lo que puede causar filtraciones de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial). Después de la autenticación exitosa, este router sale automáticamente de este modo. Para salir manualmente, {exit}."
+        "entered_portal_tips": "El dispositivo está en modo de autenticación. Las VPN han sido pausadas, lo que puede causar filtraciones de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial). Después de la autenticación exitosa, este router sale automáticamente de este modo. Para salir manualmente, {exit}.",
+        "cannot_accessed_portal_url_tips": "Si no puedes acceder a la página de inicio de sesión, intenta desactivar otras conexiones a Internet (por ejemplo, ethernet, movil)."
     },
     "modem": {
         "title": "Móvil",
