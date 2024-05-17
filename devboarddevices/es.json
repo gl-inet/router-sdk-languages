@@ -80,7 +80,11 @@
         "sensor_data": "Data de Sensor",
         "new_device": "{count} dispositivo nuevo | {count} dispositivos nuevos",
         "allow_new_devices_join": "Permitir que se unan nuevos dispositivos",
-        "duration": "Duración"
+        "duration": "Duración",
+        "no_thread": "No hay conexión encadenada! revisa su red encadenada",
+        "open_devices_commissioning_tips_one": "Puedes abrir el dispositivo comisionado por un tiempo determinado para permitir que otros dispositivos se unan a esta red en cadena.",
+        "open_devices_commissioning_tips_two": "Favor $$$$presione el boton de parear en tu dispositivo encadenado $$$$ para parear con este enrutador.",
+        "apply_thread_network": "No se puede agregar Dispositivo porque el dispositivo no esta en una red encadenada. Favor abililtar o unirse a la red encadenada."
     },
     "automations": {
         "title": "Automatizaciones",
@@ -116,6 +120,14 @@
         "manage_devices": "Manejar Dispositivos",
         "manage_devices_tip": "Favor seleccionar el dispositivo a usar como actuador. Estos Dispositivos se alumbrarán cuando el evento sea detonado.",
         "create_automations_type_tip": "Favor seleccione cuando quieres que esta automatizacion se active?",
-        "create_automations_actuator_tip": "Favor seleccionar el dispositivo(s) a usar como actuador."
-    }
+        "create_automations_actuator_tip": "Favor seleccionar el dispositivo(s) a usar como actuador.",
+        "manage_devices_warning": "Favor seleccionar el dispositivo(s) a usar.",
+        "edit_name": "Editar Nombre",
+        "name": "Nombre",
+        "delete_automation": "Borrar Automatización",
+        "delete_automation_tip": "Esta seguro que quieres borrar esta automatización?",
+        "delete": "Borrar"
+    },
+    "menu_devboarddevices": "Dispositivos",
+    "menu_devboardautomations": "Automatizaciónes"
 }
