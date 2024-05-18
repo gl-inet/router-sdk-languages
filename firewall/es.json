@@ -1,11 +1,11 @@
 {
     "firewall": {
-        "port_forwards": "Redirecciones de puertos",
+        "port_forwards": "Reenvío de Puertos",
         "open_ports_on_router": "Puertos abiertos en el enrutador",
-        "port_forwards_desc": "Si tiene servidores en su red local (LAN) y quiere que sean accesibles desde el lado WAN, debe configurar la redirección de puertos a esos servidores, identificados por sus direcciones IP y puertos.",
+        "port_forwards_desc": "Si tiene servidores en tu subred LAN y desea que sean accesibles desde el lado WAN, necesita configurar el reenvío de puertos hacia estos servidores, identificados por direcciones IP y puertos. El dispositivo priorizará la regla de mayor prioridad si hay un conflicto entre los {external_ports} de dos reglas habilitadas.",
         "open_port_on_router_dest": "Por razones de seguridad, los servicios que instale en el dispositivo solo están disponibles en la red local (LAN). Si quiere que sean accesibles desde la red WAN, debe abrir los puertos correspondientes a estos servicios en la WAN.",
         "dmz_desc": "DMZ le permite exponer un ordenador local a Internet para que todos los paquetes entrantes sean redirigidos a dicho ordenador.",
-        "dmz_tips": "Si activa la DMZ, las reglas de redirección de puertos y de puertos abiertos no tendrán efecto.",
+        "dmz_tips": "Si activa DMZ, sus reglas de reenvío y apertura de puertos no tendrán efecto.",
         "open_dmz": "Activar la DMZ",
         "dmz_host_ip": "Dirección IP del ordenador expuesto a través de la DMZ",
         "name": "Nombre",
@@ -31,8 +31,8 @@
         "priority_label": "Prioridad",
         "adjust _priority_btn": "Ajustar Prioridad",
         "port_value_tips": "El rango de puertos va desde 1 hasta 65535. Puedes configurar un solo puerto o establecer el rango de puertos concatenando el primer y último número de puerto con el símbolo \"-\" (por ejemplo, 501-510).",
-        "dmz_priority_higher_label": "Más alto que Reenvío de Puertos",
-        "dmz_priority_lower_label": "Más bajo que Reenvío de Puertos"
+        "dmz_priority_higher_label": "Más alto",
+        "dmz_priority_lower_label": "Más bajo"
     },
     "menu_firewallview": "Firewall"
 }
