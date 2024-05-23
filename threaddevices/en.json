@@ -176,6 +176,7 @@
         "access_router_wds_tips2": "If you need to directly connect your phone/PC to S200 and access the Thread subnet, you need to switch the Backbone Router interface to br-lan;If the phone/PC connects to the S200 superior router and accesses the Thread subnet, please choose (eth0 or wlan-sta0) based on the superior link connection method.",
         "access_router_wds_tips3": "DNS64 and NAT64 are not supported in this mode",
         "access_router_ext_tips2": "If you need to directly connect your phone/PC to S200 and access the Thread subnet, you need to set the interface to br-lan;If the phone/PC connects to the S200 superior router and accesses the Thread subnet, the interface needs to be set to wlan-sta0.",
-        "iot_version": "IoT Version"
+        "iot_version": "IoT Version",
+        "thread_version": "Thread Version"
     }
 }
