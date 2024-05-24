@@ -23,7 +23,7 @@
         "lqi": "LQI",
         "join_with_commissioner": "Join with Commissioner",
         "update_joiner_credential": "Update Joiner Credential",
-        "qr_tip": "Use youe OT Commissioner scan the Connect QR Code of the device, or enter the EUI64 and Join Passphrase manually.",
+        "qr_tip": "Use your OT Commissioner to scan the Connect QR Code of the device, or enter the EUI64 and Join Passphrase manually.",
         "link_local_address": "Link-Local Address",
         "local_address": "OMR Address",
         "mesh_local_eid": "Mesh-Local EID",
@@ -73,8 +73,8 @@
         "commission_records": "Commission Records",
         "rejoin_all": "Batch rejoin",
         "status": "Status",
-        "wait_joiner_start_connect": "Wait Joiner start connect...",
-        "wait_commissioner_enable": "Wait Commissioner enable...",
+        "wait_joiner_start_connect": "Wait Joiner start connect…",
+        "wait_commissioner_enable": "Wait Commissioner enable…",
         "ready_to_join": "Ready to Join",
         "joining": "Joining",
         "joined": "Joined",
@@ -117,7 +117,7 @@
         "leader_situation": "Leader Situation",
         "device_detail": "Device Detail",
         "base": "Base",
-        "buffer_info": "BufferInfo",
+        "buffer_info": "Buffer Info",
         "advanced": "Advanced",
         "name": "Name",
         "rloc16": "RLOC16",
@@ -131,7 +131,7 @@
         "end_device": "End Device",
         "loading_tip": "Please wait to get data",
         "timeout": "Timeout",
-        "connectionTime": "ConnectionTime",
+        "connectionTime": "Connection Time",
         "keep_refresh": "Keep Refresh",
         "bind_the_current_device_name": "Bind the current device name",
         "keep_refresh_tips": "Enabling this feature will continuously send multicast packets to the Thread network, which consumes network bandwidth and is not recommended for large capacity networks.",
@@ -175,6 +175,8 @@
     "thread": {
         "access_router_wds_tips2": "If you need to directly connect your phone/PC to S200 and access the Thread subnet, you need to switch the Backbone Router interface to br-lan;If the phone/PC connects to the S200 superior router and accesses the Thread subnet, please choose (eth0 or wlan-sta0) based on the superior link connection method.",
         "access_router_wds_tips3": "DNS64 and NAT64 are not supported in this mode",
-        "access_router_ext_tips2": "If you need to directly connect your phone/PC to S200 and access the Thread subnet, you need to set the interface to br-lan;If the phone/PC connects to the S200 superior router and accesses the Thread subnet, the interface needs to be set to wlan-sta0."
+        "access_router_ext_tips2": "If you need to directly connect your phone/PC to S200 and access the Thread subnet, you need to set the interface to br-lan;If the phone/PC connects to the S200 superior router and accesses the Thread subnet, the interface needs to be set to wlan-sta0.",
+        "iot_version": "IoT Version",
+        "thread_version": "Thread Version"
     }
 }

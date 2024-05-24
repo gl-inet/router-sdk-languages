@@ -75,7 +75,7 @@
         "connet_dfs_tips": "Wenn der Router als Repeater für ein WLAN mit DFS Kanal eingerichtet ist, und das WLAN erreichbar ist, wird dieser Kanal genutzt. Wenn das WLAN nicht verfügbar ist, wird es zu einem kurzen Verbindungsabbruch kommen. Manche Geräte werden dies nicht bemerken, manche müssen manuell erneut verbunden werden.",
         "scan_wifi_fail_dfs_tips": "Die DFS (Dynamische Frequenzwahl) Prüfung läuft, es kann gerade nicht nach WLAN Netzwerken gesucht werden. Bitte warten Sie bis die Prüfung abgeschlossen ist.",
         "enable_disguise_tips": "Wenn diese Option eingeschaltet ist, tarnt sich der Router als dasselbe Gerät, welches jetzt gerade verbunden ist.",
-        "allow_auto_portal_tips": "Wenn diese Option aktiviert ist, wird der Router in den 'Login Modus' schalten, wenn er sich erfolgreich an einem Hotspot anmelden kann, aber keine Verbindung zum Internet bekommt. Dieser Modus wird das VPN pausieren, was Daten ungesichert an den Anbieter des Hotspot senden kann (z.B. Hotel).",
+        "allow_auto_portal_tips": "Wenn diese Option aktiviert ist, wechselt der Router automatisch in den Anmeldemodus für öffentliche Hotspots, wenn er erfolgreich mit einem Hotspot, aber nicht mit dem Internet verbunden ist. Dieser Modus unterbricht VPNs und benutzerdefinierte DNS bis zum Verlassen des Hotspots, was zu Datenlecks beim Hotspot-Anbieter (z. B. Hotel/Einkaufszentrum) führen kann.",
         "allow_auto_portal_label": "Aktiviere automatischen Login Modus für öffentliche Hotspots",
         "enable_disguise_label": "Tarnmodus aktivieren",
         "modify_wifi_tips": "Änderungen an den Netzwerkeinstellungen führen zu einem Neustart des Repeater.",
@@ -84,9 +84,10 @@
         "auto_portal_tips": "Der Router hat in den Login Modus für öffentliche Hotspots gewechselt, für eine Anmeldung am Captive Portal des Anbieters. Nach erfolgreicher Anmeldung wird dieser Modus automatisch verlassen.",
         "to_auth_btn": "Gehe zum Login",
         "auto_go_auth_tips": "Automatisch {auth} nach {count}",
-        "need_enter_portal_tips": "Verbindung zum Internet kann nicht über den Hotspot hergestellt werden. Versuche {portal} zu erreichen für eine Anmeldung.",
+        "need_enter_portal_tips": "Es kann nicht über den verstärkten Hotspot auf das Internet zugegriffen werden. Versuchen Sie, {portal} einzugeben, um das Problem zu beheben. Beachten Sie, dass dieser Modus VPNs und benutzerdefinierte DNS bis zum Verlassen des Hotspots unterbricht, was zu Datenlecks beim Anbieter des Hotspots (z. B. Hotels/Einkaufszentrum) führen kann.",
         "portal_auth_mode_btn": "Login Modus für öffentliche Hotspots",
-        "entered_portal_tips": "Der Router ist im Login Modus für öffentliche Hotspots. Das VPN ist pausiert, alle Daten werden nun ungesichert an den Anbieter des Hotspots (z.B. Hotel) gesendet. Nach erfolgreichem Anmelden wird das sichere VPN automatisch wieder hergestellt. Mit {exit} kann der Modus manuell verlassen werden."
+        "entered_portal_tips": "Das Gerät befindet sich im Anmeldemodus für öffentliche Hotspots. VPNs und benutzerdefinierte DNS wurden pausiert, was zu Datenlecks beim Anbieter des Hotspots (z. B. Hotels) führen kann. Nach erfolgreicher Anmeldung verlässt der Router diesen Modus automatisch. Um ihn manuell zu verlassen, {exit}.",
+        "cannot_accessed_portal_url_tips": "Wenn Sie nicht auf die Anmeldeseite zugreifen können, versuchen Sie, andere Internetverbindungen zu deaktivieren (z. B. Ethernet, Mobilfunk)."
     },
     "modem": {
         "title": "Mobilfunknetz",

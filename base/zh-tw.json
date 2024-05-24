@@ -152,7 +152,9 @@
         "mac_real_label": "出廠",
         "mac_format_tips": "第一個字節的最低位不允許設置爲 1（即第二個十六進制數字不允許爲奇數）。",
         "mtu_general_tips": "如果您設置了高於或低於設備支持範圍的數值，設備會使用支持的最大或最小值。",
-        "mtu_ipv6_warning_tips": "MTU 低於 1280 時 IPv6 無法工作。"
+        "mtu_ipv6_warning_tips": "MTU 低於 1280 時 IPv6 無法工作。",
+        "illegal_subnet_tips": "不合規的子網，最後三位比特必須爲 0。",
+        "illegal_subnet_mask_tips": "不合規的掩碼，由於子網爲 {subnet}，掩碼不能小於 {min}。"
     },
     "date": {
         "day": "天",

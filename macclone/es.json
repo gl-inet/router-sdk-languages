@@ -1,6 +1,6 @@
 {
     "macclone": {
-        "desc": "Utilice una dirección MAC aleatoria cuando se conecte a un punto de acceso público pero no quiera que el servidor verifique su dirección MAC real o limite la conexión al Internet en base a su dirección MAC real.",
+        "desc": "Cuando se conecte a una red pública (por ejemplo, un hotel/centro comercial), utilice una dirección MAC aleatoria si no quieres que se conozca tu verdadera dirección MAC o si quieres limitar tu acceso a Internet basado en ella.",
         "tips": "Por ejemplo, si su lugar de negocios u hotel requiere autenticación, es posible que sea necesario activar la clonación de direcciones MAC y utilizar una dirección ya autorizada.",
         "mode_label": "Modo",
         "factory_default_label": "Predeterminado de fábrica",

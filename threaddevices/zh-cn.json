@@ -175,6 +175,8 @@
     "thread": {
         "access_router_wds_tips2": "若需要手机/pc直连S200，访问Thread子网，需将BBR接口切换为br-lan；手机/pc连接S200上级路由，访问Thread子网，请根据上级链路连接方式选择（eth0或wlan-sta0）。",
         "access_router_wds_tips3": "该模式下不支持DNS64和NAT64",
-        "access_router_ext_tips2": "若需要手机/pc直连S200，访问Thread子网，需将接口设置为br-lan；若手机/pc连接S200上级路由，访问Thread子网，需将接口设置为wlan-sta0。"
+        "access_router_ext_tips2": "若需要手机/pc直连S200，访问Thread子网，需将接口设置为br-lan；若手机/pc连接S200上级路由，访问Thread子网，需将接口设置为wlan-sta0。",
+        "thread_version": "网关版本",
+        "iot_version": "IoT 版本"
     }
 }
