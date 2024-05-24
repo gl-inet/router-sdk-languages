@@ -42,7 +42,7 @@
         "link_local_address": "Link-Lokale Adresse",
         "active_dataset_tlvs": "Aktiver Datensatz TLVs",
         "join_with_commissioner": "Mit Commissioner beitreten",
-        "qr_tip": "Scannen Sie mit Ihrem OT Commissioner den Connect-QR-Code des Geräts, oder geben Sie die EUI64 und die Join Passphrase manuell ein.",
+        "qr_tip": "Scanne mit dem OT Commissioner den Connect-QR-Code des Geräts, oder geben Sie die EUI64 und die Join Passphrase manuell ein.",
         "modify_tip": "Wenn Sie diese Einstellungen anwenden, werden die Einstellungen für das gesamte Thread-Netzwerk geändert.",
         "disable_the_device_content": "Hinweis: Wenn sich andere Border-Router im aktuellen Thread-Netzwerk befinden, funktioniert das Thread-Netzwerk weiterhin. Durch diesen Vorgang werden die Authentifizierungsinformationen des Geräts erst dann aus dem Thread-Netzwerk entfernt, wenn Sie es manuell entfernen.",
         "join_network_waiting": "Beitritt zum Netzwerk, bitte warten…",
@@ -175,6 +175,8 @@
     "thread": {
         "access_router_wds_tips3": "DNS64 und NAT64 werden in diesem Modus nicht unterstützt",
         "access_router_wds_tips2": "Wenn Sie Ihr Telefon/PC direkt mit dem S200 verbinden und auf das Thread-Subnetz zugreifen möchten, müssen Sie die Schnittstelle des Backbone-Routers auf br-lan umstellen. Wenn das Telefon/PC mit dem übergeordneten S200-Router verbunden ist und auf das Thread-Subnetz zugreift, wählen Sie bitte (eth0 oder wlan-sta0) entsprechend der übergeordneten Verbindungsmethode.",
-        "access_router_ext_tips2": "Wenn Sie Ihr Telefon/PC direkt mit dem S200 verbinden und auf das Thread-Subnetz zugreifen möchten, müssen Sie die Schnittstelle auf br-lan einstellen; wenn das Telefon/PC mit dem übergeordneten S200-Router verbunden ist und auf das Thread-Subnetz zugreift, muss die Schnittstelle auf wlan-sta0 eingestellt werden."
+        "access_router_ext_tips2": "Wenn Sie Ihr Telefon/PC direkt mit dem S200 verbinden und auf das Thread-Subnetz zugreifen möchten, müssen Sie die Schnittstelle auf br-lan einstellen; wenn das Telefon/PC mit dem übergeordneten S200-Router verbunden ist und auf das Thread-Subnetz zugreift, muss die Schnittstelle auf wlan-sta0 eingestellt werden.",
+        "iot_version": "IoT Version",
+        "thread_version": "Thread Version"
     }
 }
