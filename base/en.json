@@ -168,7 +168,7 @@
         "mac_format_tips": "the least significant bit of the first octet is not allowed set to 1 (i.e. the second hexadecimal digit is not allowed odd).",
         "mtu_general_tips": "If you set a value higher/lower than the supported range of the device, the device uses the supported maximum/minimum value.",
         "mtu_ipv6_warning_tips": "IPv6 cannot work when MTU is lower than 1280.",
-        "illegal_subnet_tips": "illegal subnets, the last three bits must be 0."
+        "illegal_subnet_tips": "Illegal subnets, the last three bits must be 0."
     },
     "upload": {
         "select_or_drag": "Select a file or drag it here",
