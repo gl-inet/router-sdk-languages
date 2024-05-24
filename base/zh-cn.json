@@ -168,7 +168,8 @@
         "mac_format_tips": "第一个字节的最低位不允许设置为 1（即第二个十六进制数字不允许为奇数）。",
         "mtu_general_tips": "如果您设置了高于或低于设备支持范围的数值，设备会使用支持的最大或最小值。",
         "mtu_ipv6_warning_tips": "MTU 低于 1280 时 IPv6 无法工作。",
-        "illegal_subnet_tips": "不合规的子网，最后三位比特必须为 0。"
+        "illegal_subnet_tips": "不合规的子网，最后三位比特必须为 0。",
+        "illegal_subnet_mask_tips": "不合规的掩码，由于子网为 {subnet}，掩码不能小于 {min}。"
     },
     "upload": {
         "file_include": "文件类型包括",
