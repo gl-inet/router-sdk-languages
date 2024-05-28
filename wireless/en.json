@@ -25,7 +25,8 @@
         "channel_auto_dfs_tips": "When your bandwidth is set to 160 MHz, Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel or the \"$$$$\" option.",
         "channel_auto_tips": "When you select the \"$$$$\" option, Wi-Fi will not automatically switch to the DFS channel.",
         "lan_guest_conflict_tips": "Guest Wi-Fi cannot be enabled because {guest} is in conflict with {lan}.",
-        "enable_random_bssid_label": "Enable Randomized BSSID"
+        "enable_random_bssid_label": "Enable Randomized BSSID",
+        "random_bssid_enabled_tips": "开启随机bssid的提示"
     },
     "menu_wireless": "Wireless"
 }
