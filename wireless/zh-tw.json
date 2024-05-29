@@ -24,7 +24,10 @@
         "enable_dfs": "允許使用 DFS 信道",
         "channel_auto_dfs_tips": "當您的頻寬設置為 160 MHz 時，Wi-Fi 必然會使用 DFS 信道，即使您選用非 DFS 信道或者 \"$$$$\" 選項。",
         "channel_auto_tips": "當您選擇 \"$$$$\" 選項，Wi-Fi 不會自動切換到 DFS 信道。",
-        "lan_guest_conflict_tips": "由於 {lan} 與 {guest} 沖突，訪客 Wi-Fi 無法啟動。"
+        "lan_guest_conflict_tips": "由於 {lan} 與 {guest} 沖突，訪客 Wi-Fi 無法啟動。",
+        "random_bssid_enabled_tips": "若此選項啟用，設備會使用一個隨機生成的 BSSID，並在每次重啟時更新它。",
+        "random_bssid_disabled_tips": "使用固定的 BSSID 可能導致您被追蹤。如果您的客戶端設備需要使用固定的 BSSID，建議您將 SSID 設為隱藏。{more}",
+        "enable_random_bssid_label": "啟用隨機化的 BSSID"
     },
     "menu_wireless": "無線"
 }
