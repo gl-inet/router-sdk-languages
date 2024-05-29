@@ -26,7 +26,7 @@
         "channel_auto_tips": "When you select the \"$$$$\" option, Wi-Fi will not automatically switch to the DFS channel.",
         "lan_guest_conflict_tips": "Guest Wi-Fi cannot be enabled because {guest} is in conflict with {lan}.",
         "enable_random_bssid_label": "Enable Randomized BSSID",
-        "random_bssid_enabled_tips": "If this option is enabled, the device uses a randomly generated MAC as the BSSID and updates it at each reboot.",
+        "random_bssid_enabled_tips": "If this option is enabled, the device uses a randomly generated BSSID and renews it at each reboot.",
         "random_bssid_disabled_tips": "Using a static BSSID may cause you to be tracked. If your client device requires the use of a static BSSID, it is recommended that you set the SSID to hidden. {more}"
     },
     "menu_wireless": "Wireless"
