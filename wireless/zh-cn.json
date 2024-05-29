@@ -26,7 +26,8 @@
         "channel_auto_tips": "当您选择 \"$$$$\" 选项，Wi-Fi 不会自动切换到 DFS 信道。",
         "lan_guest_conflict_tips": "由于 {lan} 与 {guest} 冲突，访客 Wi-Fi 无法启动。",
         "random_bssid_enabled_tips": "若此选项启用，设备会使用一个随机生成的 MAC 来作为 BSSID，并在每次重启时更新它。",
-        "random_bssid_disabled_tips": "使用固定的 BSSID 可能导致您被追踪。如果您的客户端设备需要使用固定的 BSSID，建议您将 SSID 设为隐藏。{more}"
+        "random_bssid_disabled_tips": "使用固定的 BSSID 可能导致您被追踪。如果您的客户端设备需要使用固定的 BSSID，建议您将 SSID 设为隐藏。{more}",
+        "enable_random_bssid_label": "启用随机化的 BSSID"
     },
     "menu_wireless": "无线"
 }
