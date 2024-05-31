@@ -86,8 +86,9 @@
         "allow_auto_portal_tips": "Si esta opción está activada, este router entrará automáticamente en el Modo de Inicio de Sesión para Hotspots Públicos cuando se conecte correctamente a un hotspot pero no tenga acceso a Internet. Este modo pausará las VPN y el DNS personalizado hasta que se desconecte, lo que podría causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial).",
         "enable_disguise_tips": "Si esta opción está habilitada, este router se camuflará como el mismo dispositivo que el dispositivo cliente que estás utilizando actualmente.",
         "to_auth_btn": "Ir a Iniciar Sesión",
-        "entered_portal_tips": "El dispositivo está en Modo de Inicio de Sesión para Hotspots Públicos. Las VPN y el DNS personalizado han sido pausados, lo que puede causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial). Después de iniciar sesión correctamente, este router sale automáticamente de este modo. Para salir manualmente, {exit}.",
-        "cannot_accessed_portal_url_tips": "Si no puedes acceder a la página de inicio de sesión, intenta desactivar otras conexiones a Internet (por ejemplo, ethernet, movil)."
+        "entered_portal_tips": "El dispositivo está en Modo de Inicio de Sesión para Hotspots Públicos. Las VPN y el DNS personalizado han sido pausados, lo que puede causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial). Después de iniciar sesión correctamente, este router sale automáticamente de este modo. {exit}.",
+        "cannot_accessed_portal_url_tips": "Si no puedes acceder a la página de inicio de sesión, intenta desactivar otras conexiones a Internet (por ejemplo, ethernet, movil).",
+        "quit_btn": "salir"
     },
     "modem": {
         "title": "Móvil",
