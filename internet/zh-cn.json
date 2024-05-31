@@ -82,12 +82,13 @@
         "enable_disguise_tips": "若此选项启用，路由器伪装成您目前使用的客户端设备的同款设备。",
         "auto_portal_tips": "此设备已自动进入公共热点验证模式以访问热点的 Captive Portal。认证成功后，设备将自动退出该模式。",
         "to_auth_btn": "前往登录",
-        "entered_portal_tips": "设备处于公共热点认证模式中。VPN 和自定义 DNS 已被暂时停用，这可能导致信息泄露给热点的提供方（如酒店、商场）。认证成功后设备会自动退出该模式。如果您要退出，{exit}。",
+        "entered_portal_tips": "设备处于公共热点认证模式中。VPN 和自定义 DNS 已被暂时停用，这可能导致信息泄露给热点的提供方（如酒店、商场）。认证成功后设备会自动退出该模式。{exit}。",
         "enable_disguise_label": "启用伪装",
         "modify_wifi_title": "修改网络配置",
         "auto_go_auth_tips": "{count}之后自动{auth}",
         "going_to_auth_tips": "跳转到认证页面：",
-        "cannot_accessed_portal_url_tips": "如果无法访问认证页面，请尝试禁用其它联网方式（如有线、蜂窝网络）。"
+        "cannot_accessed_portal_url_tips": "如果无法访问认证页面，请尝试禁用其它联网方式（如有线、蜂窝网络）。",
+        "quit_btn": "退出认证模式"
     },
     "modem": {
         "title": "蜂窝网络",
