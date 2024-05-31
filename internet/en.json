@@ -82,7 +82,7 @@
         "allow_auto_portal_label": "Auto-Enable Login Mode for Public Hotspots",
         "auto_portal_tips": "The device has entered Login Mode for Public Hotspots to access the Captive Portal's hotspot. After successful login, it will automatically leave this mode.",
         "to_auth_btn": "Go to Login",
-        "entered_portal_tips": "The device is in Login Mode for Public Hotspots. VPNs and custom DNS has been paused, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall). After successful login, this router automatically leaves this mode. To leave manually, {exit}.",
+        "entered_portal_tips": "The device is in Login Mode for Public Hotspots. VPNs and custom DNS has been paused, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall). After successful login, this router automatically quit this mode. {exit}.",
         "auto_go_auth_tips": "Automatically {auth} after {count}",
         "need_enter_portal_tips": "Can’t access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause VPNs and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
         "portal_auth_mode_btn": "Login Mode for Public Hotspots",
