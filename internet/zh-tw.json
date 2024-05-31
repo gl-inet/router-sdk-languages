@@ -83,11 +83,12 @@
         "going_to_auth_tips": "跳轉到認證頁面：",
         "auto_portal_tips": "此設備已自動進入公共熱點驗證模式以訪問熱點的 Captive Portal。 認證成功後，設備將自動退出該模式。",
         "to_auth_btn": "前往登錄",
-        "entered_portal_tips": "設備處於公共熱點認證模式中。 VPN 和自定義 DNS 已被暫時停用，這可能導致信息洩露給熱點的提供方（如酒店、商場）。 認證成功後設備會自動退出該模式。 如果您要退出，{exit}。",
+        "entered_portal_tips": "設備處於公共熱點認證模式中。 VPN 和自定義 DNS 已被暫時停用，這可能導致信息洩露給熱點的提供方（如酒店、商場）。 認證成功後設備會自動退出該模式。 {exit}。",
         "auto_go_auth_tips": "{count}之後自動{auth}",
         "portal_auth_mode_btn": "公共熱點認證模式",
         "enable_disguise_tips": "若此選項啟用，路由器偽裝成您目前使用的客戶端設備的同款設備。",
-        "cannot_accessed_portal_url_tips": "如果無法訪問認證頁面，請嘗試禁用其它聯網方式（如有線、行動網絡）。"
+        "cannot_accessed_portal_url_tips": "如果無法訪問認證頁面，請嘗試禁用其它聯網方式（如有線、行動網絡）。",
+        "quit_btn": "退出認證模式"
     },
     "modem": {
         "title": "行動網絡",
