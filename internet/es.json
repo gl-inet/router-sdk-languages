@@ -11,7 +11,7 @@
         "using_as_wan": "Usando como WAN, $$$$Cambiar a LAN$$$$",
         "setting": "Configuración de Ethernet",
         "pppoe_log": "Log de conexiones PPPoE",
-        "dhcp_tips": "Dirección IP asignada por una máquina de red a un nivel superior.",
+        "dhcp_tips": "La dirección IP es asignada por un dispositivo de red a un nivel superior.",
         "pppoe_vlanid_tips": "Éste ajuste sólo es necesario si el servidor PPPoE del proveedor requiere que la interfaz utilice una etiqueta específica de ID de VLAN.",
         "egderouter_mode_tips": "El modo Drop-in Gateway está activado. Si quiere modificar los ajustes de Ethernet, por favor primeramente deshabilite $$$$Drop-in Gateway$$$$.",
         "change_to_wan_tips": "Una vez que el puerto LAN es usando como puerto WAN, no podrá acceder al panel de administración usando un cable de red conectado al puerto LAN. Asegúrese de que su cliente se puede conectar por Wi-Fi.",
@@ -79,7 +79,7 @@
         "auto_go_auth_tips": "Automáticamente {auth} después de {count}",
         "need_enter_portal_tips": "No se puede acceder a Internet a través del hotspot repetido. Intenta ingresar {portal} para solucionar el problema. Tenga en cuenta que este modo pausará las VPN y el DNS personalizado hasta que se desconecte, lo que podría causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial).",
         "portal_auth_mode_btn": "Modo de Inicio de Sesión para Hotspots Públicos",
-        "going_to_auth_tips": "Próximamente en la página de Inicio de Sesión:",
+        "going_to_auth_tips": "Redirigiendo a la página de inicio de sesión:",
         "modify_wifi_tips": "Los cambios en la configuración de red harán que el repetidor se reconecte.",
         "modify_wifi_title": "Modificar la configuración de red",
         "enable_disguise_label": "Activar el Camuflaje",
@@ -88,7 +88,7 @@
         "to_auth_btn": "Ir a Iniciar Sesión",
         "entered_portal_tips": "El dispositivo está en Modo de Inicio de Sesión para Hotspots Públicos. Las VPN y el DNS personalizado han sido pausados, lo que puede causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial). Después de iniciar sesión correctamente, este router sale automáticamente de este modo. {exit}.",
         "cannot_accessed_portal_url_tips": "Si no puedes acceder a la página de inicio de sesión, intenta desactivar otras conexiones a Internet (por ejemplo, ethernet, movil).",
-        "quit_btn": "salir"
+        "quit_btn": "Salir del Modo de Inicio de Sesión"
     },
     "modem": {
         "title": "Móvil",
