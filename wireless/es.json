@@ -24,7 +24,10 @@
         "enable_dfs": "Permitir Canal DFS",
         "channel_auto_tips": "Si selecciona la opción “$$$$”, la red inalámbrica no cambiará automáticamente el canal DFS.",
         "channel_auto_dfs_tips": "Cuando selecciona el ancho de banda de 160 MHz, la red inalámbrica siempre utilizará el canal DFS, incluso si selecciona un canal que no sea DFS o selecciona la opción “$$$$”.",
-        "lan_guest_conflict_tips": "La conexión Wi-Fi para invitados no se puede activar porque {guest} está en conflicto con {lan}."
+        "lan_guest_conflict_tips": "La conexión Wi-Fi para invitados no se puede activar porque {guest} está en conflicto con {lan}.",
+        "enable_random_bssid_label": "Habilitar BSSID aleatorio",
+        "random_bssid_disabled_tips": "Utilizar un BSSID estático puede permitir que sea rastreado. Si su dispositivo cliente requiere un BSSID estático, se recomienda configurar el SSID como oculto. {more}",
+        "random_bssid_enabled_tips": "Si esta opción está habilitada, el enrutador utilizará un BSSID generado aleatoriamente y lo renovará cada vez que reinicie."
     },
     "menu_wireless": "Inalámbrica"
 }
