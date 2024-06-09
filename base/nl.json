@@ -101,7 +101,9 @@
         "verify_btn": "Verifiëren",
         "view_details_btn": "Toon details",
         "update": "Bijwerken",
-        "idx_label": "indexering"
+        "idx_label": "indexering",
+        "tips_ttitle": "Tips",
+        "click here_btn": "Klik hier"
     },
     "msg": {
         "success": "Toegepast!",
@@ -151,7 +153,19 @@
         "ttl_tips": "Met TTL (Time To Live) wordt het maximaal te overleven pakketen aangegeven. Deze instelling wordt naar behoeve van de administrator aangepast.",
         "clone_label": "Klonen",
         "random_btn": "Willekeurig",
-        "current_client_label": "Huidig apparaat"
+        "current_client_label": "Huidig apparaat",
+        "random_mac_label": "Willekeurig MAC-adres",
+        "clone_mac_label": "Gestolen MAC-adres",
+        "disguise_mac_label": "Gecamoufleerd MAC-adres",
+        "net_trouble_guide_link": "Netwerkproblemenoplosser",
+        "wan_label": "WAN-poort",
+        "lan_label": "LAN-poort",
+        "lan1_label": "LAN 1-poort",
+        "wan_lan_label": "WAN/LAN-poort",
+        "hl_tips": "Bij IPv6, het HL-veld (Hop Limit) wordt gebruikt als limiet voor het aantal overdrachtshops van datapakketten. Het werkt bijna hetzelfde als de TTL van IPv4.",
+        "mac_format_tips": "De significantste bit van het eerste octet mag niet gelijk zijn aan 1 (b.v. de tweede hexadecimale cijfer niet gelijk zijn aan een even getal).",
+        "mac_addr_label": "MAC-adres",
+        "mac_real_label": "Origineel MAC-adres"
     },
     "system": {
         "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade."
