@@ -11,7 +11,7 @@
         "repeated": "Connexion réussie sans avoir à se reconnecter",
         "pppoe_log": "Journal de connexion PPPoE",
         "setting": "Paramètres Ethernet",
-        "dhcp_tips": "Adresse IP attribuée par la machine du réseau supérieur.",
+        "dhcp_tips": "L'adresse IP est attribuée par la machine réseau supérieure.",
         "pppoe_vlanid_tips": "Cette entrée n'est nécessaire que si le serveur PPPoE du fournisseur exige que l'interface utilise un ID VLAN spécifique.",
         "egderouter_mode_tips": "La passerelle Drop-in est activée. Si vous souhaitez modifier les paramètres Ethernet, veuillez d'abord désactiver $$$$Passerelle Drop-in$$$$.",
         "change_to_wan_tips": "Une fois que le port LAN est utilisé comme port WAN, vous ne pourrez pas accéder au panneau d'administration via ce port Ethernet connecté au port LAN. Assurez-vous que votre client peut se connecter au Wi-Fi ou à un autre port LAN.",
@@ -73,7 +73,22 @@
         "unusable_eap_tips": "Ce routeur ne supporte pas les réseaux répétitifs qui utilisent EAP.",
         "fail_mac_tips": "Le MAC du routeur ne peut pas être le même que celui d'un client Wi-Fi, veuillez $$$$modifier l'adresse MAC du clone$$$$ ou modifier l'adresse MAC de ce client.",
         "connet_dfs_tips": "Lorsque le routeur répète un WiFi avec un canal DFS, si ce WiFi est disponible, le routeur utilisera le canal DFS sélectionné. Notez que si ce WiFi n'est pas disponible, le canal sera changé, ce qui entraînera une brève déconnexion du client connecté par le WiFi, et certains appareils seront reconnectés sans détection, tandis que d'autres devront être reconnectés manuellement.",
-        "scan_wifi_fail_dfs_tips": "L'appareil est en train de vérifier la disponibilité des canaux DFS et ne peut pas rechercher un réseau Wi-Fi à proximité. Veuillez attendre la fin de la vérification."
+        "scan_wifi_fail_dfs_tips": "L'appareil est en train de vérifier la disponibilité des canaux DFS et ne peut pas rechercher un réseau Wi-Fi à proximité. Veuillez attendre la fin de la vérification.",
+        "quit_btn": "Quitter le mode de connexion",
+        "modify_wifi_title": "Modifier les paramètres réseau",
+        "allow_auto_portal_label": "Activer automatiquement le mode de connexion pour les points d'accès publics",
+        "need_enter_portal_tips": "Impossible d'accéder à Internet via le hotspot répété. Essayez d'entrer dans {portal} pour résoudre le problème. Notez que ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial).",
+        "allow_auto_portal_tips": "Si cette option est activée, ce routeur entrera automatiquement en mode de connexion pour les points d'accès publics lorsqu'il sera connecté avec succès à un hotspot mais pas à Internet. Ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial).",
+        "entered_portal_tips": "L'appareil est en mode de connexion pour les points d'accès publics. Les VPN et les DNS personnalisés ont été mis en pause, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial). Après une connexion réussie, ce routeur quitte automatiquement ce mode. {exit}.",
+        "auto_portal_tips": "L'appareil est passé en mode de connexion pour les points d'accès publics afin d'accéder au portail captif du hotspot. Après une connexion réussie, il quittera automatiquement ce mode.",
+        "to_auth_btn": "Aller à la connexion",
+        "auto_go_auth_tips": "Authentification automatique après {count}",
+        "going_to_auth_tips": "Redirection vers la page de connexion :",
+        "modify_wifi_tips": "Les modifications des paramètres réseau feront se reconnecter le répéteur.",
+        "enable_disguise_tips": "Si cette option est activée, ce routeur se camouflera en tant que même appareil que celui que vous utilisez actuellement.",
+        "portal_auth_mode_btn": "Mode de connexion pour les points d'accès publics",
+        "enable_disguise_label": "Activer le camouflage",
+        "cannot_accessed_portal_url_tips": "Si vous ne pouvez pas accéder à la page de connexion, essayez de désactiver les autres connexions Internet (par exemple, ethernet, connexion mobile)."
     },
     "modem": {
         "title": "Cellulaire",
@@ -180,7 +195,9 @@
         "need_pin_no_history_tips": "Vous devez saisir le code PIN et il vous reste {count} tentatives.",
         "need_pin_history_tips": "Le code PIN {value} est incorrect. Il vous reste {count} tentatives.",
         "pin_locked_no_history_tips": "La carte SIM a été vérrouillé.",
-        "pin_locked_history_tips": "Erreur de code PIN {value}, la carte SIM a été verrouillée."
+        "pin_locked_history_tips": "Erreur de code PIN {value}, la carte SIM a été verrouillée.",
+        "need_pin_tips": "La carte SIM est verrouillée, veuillez vérifier si un code PIN a été saisi ou si le code PIN saisi est correct.",
+        "last_pin_tips": "Il reste une dernière tentative pour déverrouiller le code PIN de cette carte SIM, si elle échoue à nouveau, vous devrez utiliser le code PUK pour la déverrouiller. Pour éviter que votre carte SIM ne soit bloquée, l'appareil ne composera plus, veuillez donc utiliser votre téléphone pour la déverrouiller."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
