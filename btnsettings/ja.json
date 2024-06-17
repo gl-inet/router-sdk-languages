@@ -2,7 +2,10 @@
     "btnsettings": {
         "fun_label": "トグルボタン機能",
         "no_config_tips": "トグルボタンは、$$$$クライアント設定が追加されていない場合と有効になりません。",
-        "no_func_babel": "機能なし"
+        "no_func_babel": "機能なし",
+        "startup_tips": "注記：デバイスを再起動した後、トグルボタンがオンの場合は{func}が有効になり、オフの場合は無効になります。",
+        "auto_sync_tips": "トグルボタンの状態に応じて、{func}は即座に有効/無効になりますか？",
+        "vpn_client_tips": "トグルスイッチを機能させるためには、{meunKey}で{vpnType}の設定を行う必要があります。"
     },
     "menu_btnsettings": "トグルボタンの設定"
 }
