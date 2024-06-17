@@ -1,1 +1,16 @@
-{}
+{
+    "ipv6": {
+        "tips": "Amikor az IPv6 engedélyezett, a WAN interfészek, mint például az Ethernet, DHCPv6 segítségével kapják meg az IPv6 címeiket. Az IPv6 címet kézzel is módosíthatja az Ethernet beállítások oldalán. Néhány funkció (tűzfal, VPN, GoodCloud) még nem támogatja az IPv6-ot.",
+        "dns_server_empty": "Adjon meg legalább egy DNS szervert",
+        "native_tips": "Ez az opció csak a privát hálózatra érhető el, a vendéghálózat mindig NAT6 módot használ.",
+        "note": "Megjegyzés: Ha egyszerre használja a VPN és az IPv6 funkciókat, az IPv6 adatszivárgást okozhat.",
+        "enable": "Engedélyezve",
+        "mode": "Mód",
+        "addr": "IPv6 cím",
+        "dns_acq": "DNS szerzési módszer",
+        "dns_tips": "A DNS-t arra használják, hogy megtalálják a domain névhez tartozó IP címet. A DNS szerver kézi beállítása DNS keresési hibát okozhat. Kérjük, óvatosan használja.",
+        "dns_server": "DNS Szerver",
+        "invalid_parameter": "A megadott formátum helytelen!"
+    },
+    "menu_ipv6": "IPv6"
+}
