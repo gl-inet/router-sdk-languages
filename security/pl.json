@@ -7,6 +7,27 @@
         "confirm_pwd_tips": "Wprowadź ponownie nowe hasło",
         "old_pwd_tips": "Wprowadź stare hasło",
         "new_pwd_tips": "Wprowadź nowe hasło",
-        "old_pwd_error": "Stare hasło jest niepoprawne!"
-    }
+        "old_pwd_error": "Stare hasło jest niepoprawne!",
+        "title": "Hasło administratora"
+    },
+    "security": {
+        "local_access_title": "Kontrola dostępu lokalnego",
+        "redirect_https_label": "Wymuś HTTPS",
+        "session_timeout_label": "Czas automatycznego wylogowania",
+        "apply_success_tips": "Zastosowano pomyślnie; oczekiwanie na restart serwera sieciowego.",
+        "remote_access_title": "Kontrola dostępu zdalnego",
+        "enable_ping_label": "Zezwól na ping z WAN",
+        "enable_https_label": "Zdalny dostęp HTTPS",
+        "enable_ssh_label": "Zdalny dostęp SSH",
+        "enable_ipaddr_label": "Zezwól na zdalny dostęp tylko z określonych adresów IP",
+        "enable_ipaddr_tips": "Dodaj wiele określonych adresów IP, aby zarządzać routerem z tego urządzenia.",
+        "ipaddr_list_label": "Lista adresów IP",
+        "no_ipaddr_list_label": "Brak adresu IP",
+        "add_ipaddr_btn": "Dodaj adres IP",
+        "port_disabled_tips": "Ten port jest zablokowany przez przeglądarkę",
+        "session_timeout_tips": "Interwał między zamknięciem lub uśpieniem strony przeglądarki a wylogowaniem.",
+        "port_conflict_tips": "Ten port jest już używany.",
+        "add_ipaddr_tips": "Przykład stylu wpisywania adresu IP, który możesz wprowadzić (obsługuje również format IPv6), np. 192.168.8.1."
+    },
+    "menu_security": "Bezpieczeństwo"
 }
