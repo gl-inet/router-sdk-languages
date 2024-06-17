@@ -15,8 +15,18 @@
         "change_to_wan_tips": "LAN 포트가 WAN 포트로 사용되면 LAN 포트에 연결된 이 이더넷 포트를 통해 관리자 패널에 액세스할 수 없습니다. 클라이언트가 Wi-Fi 또는 다른 LAN 포트에 연결할 수 있는지 확인하세요.",
         "change_to_wan_tips2": "장치의 재설정 버튼을 4초간 길게 누르면 LAN 포트를 복원(더 이상 WAN 포트로 사용되지 않도록)할 수 있습니다.",
         "setting": "이더넷 설정",
-        "dhcp_tips": "상위 네트워크 시스템에서 할당된 IP 주소.",
-        "pppoe_vlanid_tips": "이 설정 항목은 공급자의 PPPoE 서버에서 인터페이스에 태그가 지정된 특정 VLAN ID를 사용하도록 요구하는 경우에만 필요합니다."
+        "dhcp_tips": "IP 주소는 상위 네트워크 기기에 의해 할당됩니다.",
+        "pppoe_vlanid_tips": "이 설정 항목은 공급자의 PPPoE 서버에서 인터페이스에 태그가 지정된 특정 VLAN ID를 사용하도록 요구하는 경우에만 필요합니다.",
+        "reset_port_tips": "기기의 리셋 버튼을 4초간 누르고 있으면 {silkprint}를 복원할 수 있습니다.",
+        "use_as_wan_tips": "{asWan}으로 설정된 포트에 연결된 장치는 더 이상 관리자 패널에 접근할 수 없습니다. Wi-Fi나 다른 LAN 포트에 연결해야 합니다.",
+        "use_as_port_btn": "{silkprint}을 {port}로 변경하세요.",
+        "revert_as_lan_tips": "{silkprint}을 LAN 포트(기본값)로 복원하시겠습니까?",
+        "use_as_wan_silkprint_tips": "{silkprint}이 WAN 포트로 사용될 때",
+        "using_tips": "{silkprint} 상태: {port}로 사용 중입니다. {changePort}",
+        "change_port_btn": "{port}로 변경",
+        "revert_port_btn": "{port}로 복원",
+        "revert_wan_tips": "WAN 포트를 복원한 후",
+        "no_wan_tips": "케이블이 감지되지 않았습니다."
     },
     "tethering": {
         "title": "테더링",
@@ -50,7 +60,7 @@
         "change_wifi": "네트워크 스위치",
         "allow_change": "저장된 다른 네트워크로 전환 허용",
         "allow_change_tips": "이 옵션을 활성화하면 라우터가 현재 Wi-Fi 네트워크에 연결할 수 없을 때 저장된 다른 네트워크에 자동으로 연결됩니다.",
-        "antijam": "2.4G용 20MHz 대역폭 강제 적용",
+        "antijam": "2.4G 대역폭을 20MHz로 강제 설정",
         "antijam_tips": "이 옵션을 활성화하면 장치가 연결 속도를 줄여 연결 안정성을 개선합니다.",
         "lock_band": "대역 선택",
         "lock_band_tips": "수동으로 대역을 선택하면 라우터는 다른 대역을 사용 중인 Wi-Fi를 검색하거나 연결하지 않습니다.",
@@ -63,7 +73,22 @@
         "lock_bssid_tips": "이 옵션을 활성화하면 라우터는 이 SSID를 사용하는 네트워크로 전환할 때 선택한 BSSID에 해당하는 AP에만 연결합니다.",
         "allow_dfs_tips1": "이 옵션을 활성화하면 라우터가 DFS 채널에서 Wi-Fi를 반복할 때 DFS 채널 회피를 위해 핫스팟을 따릅니다. 이 Wi-Fi를 사용할 수 있는 경우 라우터 자체의 5GHz Wi-Fi가 DFS 채널을 사용합니다. 그렇지 않으면 라우터 자체의 5GHz Wi-Fi가 비-DFS 채널로 다시 전환됩니다.",
         "scan_wifi_fail_dfs_tips": "장치가 DFS 채널 가용성 검사를 실행 중이며 근처 Wi-Fi를 검색할 수 없습니다. 검사가 완료될 때까지 기다려 주세요.",
-        "connet_dfs_tips": "라우터가 DFS 채널이 있는 Wi-Fi를 반복할 때, 이 Wi-Fi를 사용할 수 있는 경우 라우터는 선택한 DFS 채널을 사용합니다. 이 WiFi를 사용할 수 없는 경우 채널이 전환되어 WiFi를 통해 연결된 클라이언트의 연결이 잠시 끊어지고, 일부 장치는 감지 없이 재연결되는 반면 일부 장치는 수동으로 재연결해야 합니다."
+        "connet_dfs_tips": "라우터가 DFS 채널이 있는 Wi-Fi를 반복할 때, 이 Wi-Fi를 사용할 수 있는 경우 라우터는 선택한 DFS 채널을 사용합니다. 이 WiFi를 사용할 수 없는 경우 채널이 전환되어 WiFi를 통해 연결된 클라이언트의 연결이 잠시 끊어지고, 일부 장치는 감지 없이 재연결되는 반면 일부 장치는 수동으로 재연결해야 합니다.",
+        "cannot_accessed_portal_url_tips": "로그인 페이지에 접속할 수 없는 경우, 다른 인터넷 연결(예: 이더넷, 셀룰러)을 비활성화해 보십시오.",
+        "quit_btn": "로그인 모드 종료",
+        "allow_auto_portal_label": "공공 핫스팟에 대한 자동 로그인 모드 활성화",
+        "modify_wifi_title": "네트워크 설정 수정",
+        "enable_disguise_label": "위장 모드 활성화",
+        "auto_go_auth_tips": "자동으로 {auth} 후 {count}",
+        "modify_wifi_tips": "네트워크 설정 변경으로 리피터가 재연결됩니다.",
+        "entered_portal_tips": "장치가 공공 핫스팟 로그인 모드에 있습니다. VPN과 사용자 지정 DNS가 일시 중지되었으며, 이는 핫스팟 제공자(예: 호텔/쇼핑몰)에게 데이터 유출이 발생할 수 있습니다. 로그인에 성공하면, 이 라우터는 자동으로 이 모드를 종료합니다. {exit}.",
+        "going_to_auth_tips": "로그인 페이지로 리디렉션 중:",
+        "to_auth_btn": "로그인으로 이동",
+        "portal_auth_mode_btn": "공공 핫스팟용 로그인 모드",
+        "auto_portal_tips": "이 기기는 Captive Portal의 핫스팟에 접속하기 위해 공공 핫스팟용 로그인 모드로 진입했습니다. 로그인에 성공하면 자동으로 이 모드를 종료합니다.",
+        "need_enter_portal_tips": "반복된 핫스팟을 통해 인터넷에 접속할 수 없습니다. 문제를 해결하려면 {portal}로 진입해 보십시오. 이 모드는 VPN과 사용자 지정 DNS를 일시 중지하며, 이로 인해 핫스팟 제공자(예: 호텔/쇼핑몰)에게 데이터 유출이 발생할 수 있습니다.",
+        "enable_disguise_tips": "이 옵션을 활성화하면, 이 라우터는 현재 사용 중인 클라이언트 기기와 동일한 기기로 위장합니다.",
+        "allow_auto_portal_tips": "이 옵션을 활성화하면, 라우터는 핫스팟에 성공적으로 연결되었지만 인터넷에 연결되지 않은 경우 자동으로 공공 핫스팟 로그인 모드로 진입합니다. 이 모드는 VPN과 사용자 지정 DNS를 일시 중지시키며, 핫스팟 제공자(예: 호텔/쇼핑몰)에게 데이터 유출이 발생할 수 있습니다."
     },
     "modem": {
         "title": "셀룰러",
@@ -170,7 +195,9 @@
         "scan_tower_msg": "몇 분 정도 소요될 수 있습니다. 잠시만 기다려주세요.",
         "reboot_buildin_modem_warning": "내장 모뎀을 재부팅하시겠습니까?",
         "need_pin_no_history_tips": "PIN 코드를 입력해야 하며 {count}번의 시도가 남았습니다.",
-        "protocol_tips": "QCM/QMI 프로토콜은 더 빠르며 3G 프로토콜은 호환성이 더 좋습니다."
+        "protocol_tips": "QCM/QMI 프로토콜은 더 빠르며 3G 프로토콜은 호환성이 더 좋습니다.",
+        "last_pin_tips": "이 SIM 카드의 PIN 코드를 잠금 해제하기 위한 마지막 시도가 남아 있습니다. 만약 다시 입력에 실패한다면, PUK 코드를 사용하여 잠금 해제해야 합니다. SIM 카드가 잠기는 것을 방지하기 위해, 장치는 다시 다이얼하지 않으므로, 휴대폰을 사용하여 잠금 해제해 주세요.",
+        "need_pin_tips": "SIM 카드가 잠겨 있습니다. PIN 코드가 입력되었는지, 또는 입력된 PIN 코드가 정확한지 확인해 주세요."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
