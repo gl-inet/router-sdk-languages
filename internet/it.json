@@ -11,12 +11,22 @@
         "using_as_wan": "In uso come WAN, $$$$ Passa a LAN$$$$",
         "pppoe_log": "Log di connessione PPPoE",
         "setting": "Impostazioni Ethernet",
-        "dhcp_tips": "Indirizzo IP assegnato dalla macchina di rete superiore.",
+        "dhcp_tips": "L'indirizzo IP è assegnato da un dispositivo di rete superiore.",
         "pppoe_vlanid_tips": "Questa impostazione è richiesta solamente se il server PPPoE del provider richiede che l'interfaccia usi uno specifico tag VLAN ID.",
         "egderouter_mode_tips": "Il drop-in gateway è abilitato. Se vuoi modificare le impostazioni Ethernet, per favore disabilita prima il $$$$Drop-in Gateway$$$$.",
         "change_to_lan_check_tips": "Prima rimuovi il cavo Ethernet collegato alla porta WAN. $$$$ Rileva di nuovo $$$$",
         "change_to_wan_tips2": "Puoi resettare la porta LAN (affinchè non sia pià usata più come porta WAN) tenendo premuto il bottone di reset per quattro secondi.",
-        "change_to_wan_tips": "Una volta utilizzata la porta LAN come porta WAN, non sarà possibile accedere al pannello amministratore tramite questa porta Ethernet collegata alla porta LAN. Assicurati che il tuo client possa connettersi al Wi-Fi o ad un'altra porta LAN."
+        "change_to_wan_tips": "Una volta utilizzata la porta LAN come porta WAN, non sarà possibile accedere al pannello amministratore tramite questa porta Ethernet collegata alla porta LAN. Assicurati che il tuo client possa connettersi al Wi-Fi o ad un'altra porta LAN.",
+        "use_as_wan_tips": "{asWan}, il dispositivo connesso alla porta non potrà più accedere al pannello di amministrazione. Dovrai connetterlo al Wi-Fi o ad altre porte LAN.",
+        "revert_port_btn": "Ripristina a {port}",
+        "revert_wan_tips": "Dopo aver ripristinato la porta WAN",
+        "use_as_wan_silkprint_tips": "Una volta che la {silkprint} è utilizzata come porta WAN",
+        "using_tips": "Stato di {silkprint}: Utilizzo come {port}. {changePort}",
+        "change_port_btn": "Cambia in {port}",
+        "no_wan_tips": "Nessun cavo rilevato.",
+        "use_as_port_btn": "Cambia {silkprint} in {port}",
+        "reset_port_tips": "Puoi ripristinare la {silkprint} premendo e tenendo premuto il pulsante di reset del dispositivo per 4 secondi.",
+        "revert_as_lan_tips": "Sei sicuro di voler ripristinare la {silkprint} alla porta LAN (impostazione predefinita)?"
     },
     "tethering": {
         "title": "Tethering",
@@ -44,7 +54,7 @@
         "retry_connet_tips": "Connessione fallita, riproverò più tardi…",
         "lock_bssid_tips": "Se questa opzione è attivata, il router si connetterà solo all'AP corrispondente al BSSID selezionato quando si passa a una rete che utilizza questo SSID.",
         "advanced_settings": "Impostazioni avanzate",
-        "antijam": "Forza l'ampiezza di banda a 20MHz per 2.4G",
+        "antijam": "Forza la larghezza di banda a 20MHz per il 2.4G",
         "antijam_tips": "Se questa opzione è attivata, il dispositivo migliorerà la stabilità della connessione riducendo la velocità di connessione.",
         "change_wifi": "Cambia Rete",
         "allow_change": "Consenti il passaggio ad altre reti salvate",
@@ -63,7 +73,22 @@
         "fail_mac_tips": "L'indirizzo MAC del router non può essere lo stesso di nessun Client Wi-Fi, $$$$ modificare il MAC del clone$$$$ o modificare l'indirizzo MAC del Client.",
         "allow_dfs_tips1": "Se l'opzione è attivata, quando il router ripete il Wi-Fi di un qualsiasi canale DFS, seguirà l'hotspot per evitare il canale DFS. Quando questo Wi-Fi è disponibile, il Wi-Fi a 5GHz del router utilizzerà il canale DFS. Altrimenti, il Wi-Fi a 5GHz del router tornerà al canale non DFS.",
         "scan_wifi_fail_dfs_tips": "Il dispositivo sta eseguendo il controllo della disponibilità dei canali DFS e non è in grado di eseguire la scansione della rete Wi-Fi nelle vicinanze.",
-        "connet_dfs_tips": "Quando il router ripete un WiFi con un canale DFS, se questo WiFi è disponibile, il router utilizzerà il canale DFS selezionato. Tieni presente che se questo WiFi non è disponibile, il canale verrà cambiato, il che comporterà una breve disconnessione del client connesso tramite WiFi e alcuni dispositivi verranno ricollegati senza rilevamento, mentre altri dovranno essere ricollegati manualmente."
+        "connet_dfs_tips": "Quando il router ripete un WiFi con un canale DFS, se questo WiFi è disponibile, il router utilizzerà il canale DFS selezionato. Tieni presente che se questo WiFi non è disponibile, il canale verrà cambiato, il che comporterà una breve disconnessione del client connesso tramite WiFi e alcuni dispositivi verranno ricollegati senza rilevamento, mentre altri dovranno essere ricollegati manualmente.",
+        "quit_btn": "Esci dalla Modalità Login",
+        "modify_wifi_title": "Modifica Impostazioni di Rete",
+        "allow_auto_portal_label": "Abilita automaticamente la Modalità Login per Hotspot Pubblici",
+        "enable_disguise_tips": "Se questa opzione è abilitata, questo router si camuffa come lo stesso dispositivo del dispositivo client che stai utilizzando ora.",
+        "auto_go_auth_tips": "Autenticazione automatica dopo {count}",
+        "portal_auth_mode_btn": "Modalità Login per Hotspot Pubblici",
+        "going_to_auth_tips": "Reindirizzamento alla pagina di login:",
+        "need_enter_portal_tips": "Impossibile accedere a internet tramite l'hotspot ripetuto. Prova ad inserire {portal} per risolvere il problema. Nota che questa modalità metterà in pausa VPN e DNS personalizzati fino all'uscita, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale).",
+        "cannot_accessed_portal_url_tips": "Se non riesci ad accedere alla pagina di login, prova a disabilitare altre connessioni Internet (ad esempio, ethernet, cellulare).",
+        "auto_portal_tips": "Il dispositivo è entrato nella Modalità Login per Hotspot Pubblici per accedere all'hotspot del Captive Portal. Dopo il login riuscito, uscirà automaticamente da questa modalità.",
+        "enable_disguise_label": "Abilita Camuffamento",
+        "entered_portal_tips": "Il dispositivo è in Modalità Login per Hotspot Pubblici. VPN e DNS personalizzati sono stati messi in pausa, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale). Dopo il login riuscito, questo router uscirà automaticamente da questa modalità. {exit}.",
+        "to_auth_btn": "Vai al Login",
+        "modify_wifi_tips": "Le modifiche nelle impostazioni di rete faranno riconnettere il ripetitore.",
+        "allow_auto_portal_tips": "Se questa opzione è abilitata, questo router entrerà automaticamente in Modalità Login per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. Questa modalità metterà in pausa VPN e DNS personalizzati fino all'uscita, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale)."
     },
     "modem": {
         "title": "Cellulare",
@@ -170,7 +195,9 @@
         "pin_verify_success_tips": "La verifica del codice PIN è riuscita.",
         "need_pin_history_tips": "Il codice PIN {value} non è corretto. Sono rimasti {count} tentativi.",
         "pin_locked_no_history_tips": "La scheda SIM era bloccata.",
-        "pin_locked_history_tips": "Errore codice PIM {value}, SIM card era bloccata."
+        "pin_locked_history_tips": "Errore codice PIM {value}, SIM card era bloccata.",
+        "need_pin_tips": "La SIM è bloccata, controlla se è stato inserito un codice PIN o se il codice PIN inserito è corretto.",
+        "last_pin_tips": "Resta un ultimo tentativo per sbloccare il codice PIN di questa SIM, se non viene inserito correttamente, sarà necessario utilizzare il codice PUK per sbloccarlo. Per evitare che la SIM venga bloccata, il dispositivo non effettuerà ulteriori tentativi di connessione, quindi si prega di utilizzare il proprio telefono per sbloccarla."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
