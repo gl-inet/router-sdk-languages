@@ -165,10 +165,17 @@
         "hl_tips": "Bij IPv6, het HL-veld (Hop Limit) wordt gebruikt als limiet voor het aantal overdrachtshops van datapakketten. Het werkt bijna hetzelfde als de TTL van IPv4.",
         "mac_format_tips": "De significantste bit van het eerste octet mag niet gelijk zijn aan 1 (b.v. de tweede hexadecimale cijfer niet gelijk zijn aan een even getal).",
         "mac_addr_label": "MAC-adres",
-        "mac_real_label": "Origineel MAC-adres"
+        "mac_real_label": "Origineel MAC-adres",
+        "illegal_subnet_mask_tips": "Ongeldig masker, aangezien het subnet {subnet} is, mag het masker niet kleiner zijn dan {min}.",
+        "mtu_general_tips": "Als u een waarde instelt die hoger/lager is dan het ondersteunde bereik van het apparaat, gebruikt het apparaat de ondersteunde maximale/minimale waarde.",
+        "illegal_subnet_tips": "Ongeldige subnets, de laatste drie bits moeten 0 zijn.",
+        "mtu_ipv6_warning_tips": "IPv6 werkt niet als MTU lager is dan 1280."
     },
     "system": {
-        "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade."
+        "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade.",
+        "no_internet_base_tips": "Controleer uw internetomgeving en probeer het opnieuw.",
+        "limit_tips": "Gegevens mogen niet meer dan {count} vermeldingen bevatten.",
+        "feature_unusable_tips": "Deze functie werkt niet omdat {feature} is ingeschakeld."
     },
     "upload": {
         "select_or_drag": "Selecteer of sleep een bestand",
