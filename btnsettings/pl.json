@@ -2,7 +2,10 @@
     "btnsettings": {
         "fun_label": "Funkcja przycisku przełączania",
         "no_config_tips": "Przycisk przełączania nie zadziała, jeśli konfiguracja klienta $$$$ nie zostanie dodana.",
-        "no_func_babel": "Brak funkcji"
+        "no_func_babel": "Brak funkcji",
+        "vpn_client_tips": "Musisz ustawić konfigurację {vpnType} w {meunKey}, aby przełącznik mógł działać.",
+        "auto_sync_tips": "Czy {func} jest natychmiast włączane/wyłączane w zależności od stanu Przełącznika?",
+        "startup_tips": "Uwaga: Po ponownym uruchomieniu urządzenia, {func} zostanie włączone, jeśli Przełącznik jest aktywny, w przeciwnym razie zostanie wyłączone."
     },
     "menu_btnsettings": "Ustawienia przycisku przełączania"
 }
