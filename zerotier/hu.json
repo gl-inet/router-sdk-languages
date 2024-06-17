@@ -1,1 +1,17 @@
-{}
+{
+    "zerotier": {
+        "desc": "A $$$$ZeroTier$$$$ egy biztonságos, virtuális peer-to-peer Ethernet hálózatot hoz létre, amely bárhonnan elérhető; támogatja az olyan eszközökhöz való hozzáférést, mint a telefonok, számítógépek stb. Használhatja az eszközeihez vagy a helyi hálózathoz való távoli hozzáféréshez.",
+        "first_use_tips": "A ZeroTier a virtuális hálózathoz a $$$$ZeroTier Central$$$$-on létrehozott Hálózati Azonosító segítségével csatlakozik.",
+        "unauthorized_tips": "Az eszköz hozzáadásra került a ZeroTierhez. Kérjük, lépjen a $$$$ZeroTier Central$$$$ oldalra az eszköz hálózathoz való csatlakozásának engedélyezéséhez.",
+        "authorized_tips": "Az eszköz csatlakozik a ZeroTier virtuális hálózatához.",
+        "enable_nat_tips": "Az eszköz már lehetővé teszi a ZeroTier kliensek számára a WAN vagy LAN erőforrások elérését. Be kell állítania az útválasztási szabályokat a $$$$ZeroTier Central$$$$-on, hogy a klienskérések továbbíthatók legyenek a ZeroTier virtuális hálózaton keresztül:",
+        "auto_nat_label": "Távoli hozzáférés engedélyezése LAN&WAN",
+        "auto_nat_tips": "Ha ez az opció engedélyezve van, a LAN alhálózaton belüli erőforrások és a WAN a ZeroTier virtuális hálózaton keresztül elérhetők.",
+        "current_ip_label": "Router Virtuális IP",
+        "not_found_tips": "A ZeroTier nem találta meg a Hálózati Azonosítót, kérjük, ellenőrizze a megadott értéket.",
+        "allow_lan_label": "Távoli hozzáférés engedélyezése LAN",
+        "allow_wan_label": "Távoli hozzáférés engedélyezése WAN",
+        "allow_lan_tips": "Ha ez az opció engedélyezve van, az eszköz LAN-ján belüli erőforrások elérhetők lesznek a ZeroTier virtuális hálózaton keresztül.",
+        "allow_wan_tips": "Ha ez az opció engedélyezve van, az eszköz WAN oldalán lévő erőforrások elérhetők lesznek a ZeroTier virtuális hálózaton keresztül."
+    }
+}
