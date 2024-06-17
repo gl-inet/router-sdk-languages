@@ -1,1 +1,16 @@
-{}
+{
+    "ipv6": {
+        "note": "Uwaga: Jeśli jednocześnie używasz funkcji VPN i IPv6, może to prowadzić do wycieku danych IPv6.",
+        "enable": "Włączone",
+        "mode": "Tryb",
+        "addr": "Adres IPv6",
+        "dns_acq": "Metoda pozyskiwania DNS",
+        "dns_tips": "DNS służy do znajdowania adresu IP odpowiadającego nazwie domeny. Ręczne ustawienie serwera DNS może spowodować niepowodzenie wyszukiwania DNS. Proszę używać z ostrożnością.",
+        "dns_server": "Serwer DNS",
+        "invalid_parameter": "Wprowadzony format jest nieprawidłowy!",
+        "dns_server_empty": "Wprowadź przynajmniej jeden serwer DNS",
+        "native_tips": "Ta opcja jest dostępna tylko dla sieci prywatnej, sieć gościnna zawsze używa trybu NAT6.",
+        "tips": "Po włączeniu IPv6, interfejsy WAN takie jak Ethernet otrzymają swoje adresy IPv6 za pośrednictwem DHCPv6. Możesz również ręcznie zmodyfikować adres IPv6 na stronie ustawień Ethernetu. Niektóre funkcje (zapora sieciowa, VPN, GoodCloud) jeszcze nie obsługują IPv6."
+    },
+    "menu_ipv6": "IPv6"
+}
