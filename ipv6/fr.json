@@ -1,6 +1,6 @@
 {
     "ipv6": {
-        "tips": "Lorsque l'IPv6 est activé, les interfaces WAN telles que l'Ethernet obtiennent leurs adresses IPv6 via DHCPv6. Vous pouvez également modifier l'adresse IPv6 manuellement dans la page des paramètres Ethernet. Certaines fonctionnalités (pare-feu, VPN, liste de clients, BADCloud) ne supportent pas encore IPv6.",
+        "tips": "Lorsque IPv6 est activé, les interfaces WAN telles que l'Ethernet obtiendront leurs adresses IPv6 via DHCPv6. Vous pouvez également modifier manuellement l'adresse IPv6 dans la page de paramètres Ethernet. Certaines fonctionnalités (pare-feu, VPN, GoodCloud) ne prennent pas encore en charge IPv6.",
         "note": "Remarque : si vous utilisez les fonctions VPN et IPv6 en même temps, vous risquez de provoquer une fuite de données IPv6.",
         "enable": "Activé",
         "mode": "Mode",
