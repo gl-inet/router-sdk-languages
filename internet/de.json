@@ -12,7 +12,7 @@
         "setting": "Etherneteinstellungen",
         "pppoe_vlanid_tips": "Diese Einstellung wird nur benötigt, wenn der Provider eine VLAN-ID verlangt.",
         "pppoe_log": "PPPoE-Verbindungsprotokoll",
-        "dhcp_tips": "Von einem höheren Netzwerkgerät zugewiesene IP-Adresse.",
+        "dhcp_tips": "IP-Adresse wird vom übergeordneten Netzwerkgerät zugewiesen.",
         "egderouter_mode_tips": "Das Drop-in gateway ist aktiviert. Wenn du die Ethernet Einstellungen ändern willst, deaktiviere bitte $$$$das Drop-in Gateway$$$$ zuerst.",
         "change_to_wan_tips": "Sobald der LAN Port als WAN Port verwendet wird, haben Sie keinen Zugriff auf die Verwaltungsoberfläche über ein Netzwerkkabel. Bitte stellen Sie sicher, dass ein Client eine WLAN-Verbindung herstellen kann.",
         "change_to_wan_tips2": "Sie können den LAN-Port (der nicht mehr als WAN-Port verwendet wird) zurücksetzen, indem Sie die Reset-Taste am Router 4 Sekunden lang gedrückt halten.",
@@ -80,7 +80,7 @@
         "enable_disguise_label": "Tarnmodus aktivieren",
         "modify_wifi_tips": "Änderungen an den Netzwerkeinstellungen führen zu einem Neustart des Repeater.",
         "modify_wifi_title": "Netzwerkeinstellungen anpassen",
-        "going_to_auth_tips": "Das Anmeldeportal erscheint bald:",
+        "going_to_auth_tips": "Weiterleitung zur Anmeldeseite:",
         "auto_portal_tips": "Der Router hat in den Login Modus für öffentliche Hotspots gewechselt, für eine Anmeldung am Captive Portal des Anbieters. Nach erfolgreicher Anmeldung wird dieser Modus automatisch verlassen.",
         "to_auth_btn": "Gehe zum Login",
         "auto_go_auth_tips": "Automatisch {auth} nach {count}",
@@ -88,7 +88,7 @@
         "portal_auth_mode_btn": "Login Modus für öffentliche Hotspots",
         "entered_portal_tips": "Das Gerät befindet sich im Anmeldemodus für öffentliche Hotspots. VPNs und benutzerdefinierte DNS wurden pausiert, was zu Datenlecks beim Anbieter des Hotspots (z. B. Hotels) führen kann. Nach erfolgreicher Anmeldung verlässt der Router diesen Modus automatisch. {exit}.",
         "cannot_accessed_portal_url_tips": "Wenn Sie nicht auf die Anmeldeseite zugreifen können, versuchen Sie, andere Internetverbindungen zu deaktivieren (z. B. Ethernet, Mobilfunk).",
-        "quit_btn": "verlassen"
+        "quit_btn": "Verlassen des Anmelde-Modus"
     },
     "modem": {
         "title": "Mobilfunknetz",
