@@ -1,1 +1,20 @@
-{}
+{
+    "menu_edgerouter": "Átjáró beépítése",
+    "edgerouter": {
+        "desc": "Amikor az átjáró beépítési módja engedélyezve van, a hálózaton lévő ügyfelek összes forgalma először ezen a routeren kerül feldolgozásra. Ezt a módot használhatja az elsődleges router funkcionalitásának kiterjesztésére.",
+        "enable_label": "Átjáró beépítési mód engedélyezése",
+        "dhcp_closed_tips": "A fő útválasztó DHCP szolgáltatása ki van kapcsolva, a drop-in átjáró működik.",
+        "dhcp_on_tips": "A DHCP szolgáltatás még engedélyezve van az elsődleges routeren. Az átjáró beépítés nem működhet megfelelően. Kérjük, lépjen a $$$$fő router adminisztrációs paneljére$$$$ a DHCP szolgáltatás kikapcsolásához vagy állítsa be annak átjáróját {ip}-re.",
+        "enable_tips": "Amikor az átjáró beépítési módja engedélyezve van, a router DNS beállításai kerülnek használatra az elsődleges router beállításai helyett.",
+        "dhcp_on_warning_tips": "Az átjáró beépítés engedélyezve van.",
+        "dhcp_set_gateway_tips": "Az elsődleges router DHCP szolgáltatása helyesen állította be az átjárót {ip}-re, az átjáró beépítés működik.",
+        "auto_set_tips": "Úgy tűnik, hogy az alap router DHCP beállításai megváltoztak, és a router nem tud megfelelően csatlakozni a hálózathoz. Kérjük, $$$$Szinkronizálja a beállításokat a DHCP-től$$$$ vagy módosítsa beállításait manuálisan.",
+        "desc_vpn": "Vegye figyelembe, hogy az átjáró beépítési módban a VPN szabályzat ezen eszközön nem fog működni a WAN portról érkező ügyfelek számára.",
+        "cable_not_connected_tips": "Nincs kábel észlelve a WAN portban. Kérjük, helyezzen be egy ethernet kábelt.",
+        "modify_superior_router_label": "Az összes eszköz az átjáró beépítésen keresztül van hálózatba kötve",
+        "modify_superior_router_desc": "Módosítania kell az elsődleges útvonal konfigurációját, amelyet csak az elsődleges útvonalhoz hozzáféréssel rendelkező felhasználó konfigurálhat.",
+        "modify_self_router_label": "Néhány eszköz saját hálózati átjárót választ",
+        "modify_self_router_desc": "Manuálisan meg kell változtatnia az átjáró címét az átjáró beépítés IP címére azon eszközökön, amelyeknek szükségük van az átjáró beépítés használatára.",
+        "configuration_method_label": "Konfigurációs módszer"
+    }
+}
