@@ -1,1 +1,24 @@
-{}
+{
+    "menu_timedtask": "Zadania zaplanowane",
+    "timedtask": {
+        "on_time_label": "Czas włączenia",
+        "desc": "Jeśli urządzenie zostanie wyłączone o ustawionej godzinie, zadanie nie zostanie wykonane.",
+        "off_time_label": "Czas wyłączenia",
+        "reboot_title": "Zaplanowany restart",
+        "reboot_time_label": "Czas restartu",
+        "wifi_mode_label": "Zaplanowany tryb Wi-Fi",
+        "wifi_turn_onoff_label": "Włącz/Wyłącz",
+        "wifi_power_switch_label": "Przełącz moc nadawania",
+        "enable_wifi_label": "Włącz zaplanowanie głównego Wi-Fi",
+        "enable_guest_wifi_label": "Włącz zaplanowanie Wi-Fi dla gości",
+        "host_wifi_title": "Główne Wi-Fi",
+        "guest_wifi_title": "Wi-Fi dla gości",
+        "switch_label": "Ustaw na",
+        "switch_time_label": "Przełącz",
+        "restore_label": "Ustaw na",
+        "restore_time_label": "Przywróć",
+        "enable_scheduled_label": "Włącz zaplanowanie",
+        "led_title": "Zaplanowany harmonogram wyświetlacza LED",
+        "wifi_title": "$$$$ Harmonogram statusu Wi-Fi"
+    }
+}

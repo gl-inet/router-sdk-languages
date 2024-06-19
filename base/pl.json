@@ -90,7 +90,20 @@
         "not_allow_weak": "Zapobiegaj słabemu hasłu",
         "use_weak_tips": "Słabe hasła są łatwe do odgadnięcia, a także narażają Twoją sieć na potencjalne ataki typu brute-force.",
         "begin_not_allow_tips": "Nie może zaczynać się od żadnego ze znaków {char}",
-        "drag_sort": "Drag Sort"
+        "drag_sort": "Drag Sort",
+        "view_details_btn": "Zobacz szczegóły",
+        "verify_btn": "Zweryfikuj",
+        "gateway": "Brama",
+        "dns": "Serwer DNS",
+        "abort": "Przerwij",
+        "password_tips": "Minimum $$$$ znaków i maksimum $$$$ znaków",
+        "incorrect_formate_tips": "Niepoprawny format, proszę zmienić ręcznie lub {action}",
+        "one_click_process_btn": "Przetwarzanie jednym kliknięciem",
+        "tips_ttitle": "Wskazówki",
+        "click here_btn": "Kliknij tutaj",
+        "pre_set_up": "Wstępna konfiguracja",
+        "update": "Aktualizacja",
+        "idx_label": "indeks"
     },
     "msg": {
         "port_occupied": "{nazwa} zajęty port",
@@ -103,7 +116,8 @@
         "unknown_err": "Wystąpił nieznany błąd. Sprawdź środowisko sieciowe lub zrestartuj urządzenie.",
         "interface_timeout": "Upłynął limit czasu operacji. Sprawdź środowisko sieciowe lub zrestartuj urządzenie.",
         "processing": "Przetwarzanie...",
-        "please_note": "Uwaga:"
+        "please_note": "Uwaga:",
+        "uninstalling": "Odinstalowywanie, proszę czekać…"
     },
     "upload": {
         "file_include": "Typy plików obejmują",
@@ -117,7 +131,10 @@
         "select_or_drag": "Wybierz plik lub przeciągnij go tutaj"
     },
     "system": {
-        "battery_err_tips": "System nie wykrywa modułu akumulatorowego, sprawdź podłączenie zasilania lub akumulator pod kątem uszkodzeń."
+        "battery_err_tips": "System nie wykrywa modułu akumulatorowego, sprawdź podłączenie zasilania lub akumulator pod kątem uszkodzeń.",
+        "feature_unusable_tips": "Ta funkcja nie działa, ponieważ włączono {feature}.",
+        "no_internet_base_tips": "Proszę sprawdzić swoje środowisko internetowe i spróbować ponownie.",
+        "limit_tips": "Dane nie mogą przekraczać {count} wpisów."
     },
     "internet": {
         "guest_ip_tips": "Podsieć gościa jest w konflikcie z podsiecią WAN. $$$$Zmień podsieć gościa$$$$ na inny adres.",
@@ -134,7 +151,27 @@
         "server": "Server",
         "client": "Klient",
         "enabled": "Włączony",
-        "disabled": "Wyłączony"
+        "disabled": "Wyłączony",
+        "hl_tips": "W polu HL (Limit Skoków) IPv6 używa się do ograniczenia liczby skoków transmisyjnych pakietów danych w sieci, co jest równoważne z TTL w IPv4.",
+        "illegal_subnet_mask_tips": "Nielegalna maska, ponieważ podsieć to {subnet}, maska nie może być mniejsza niż {min}.",
+        "wan_label": "Port WAN",
+        "ttl_tips": "TTL (Time To Live) ustawia maksymalny czas życia pakietów w sieci i jest wypełniany zgodnie z wymaganiami operatora.",
+        "net_trouble_guide_link": "Przewodnik Rozwiązywania Problemów Sieciowych",
+        "wan_lan_label": "Port WAN/LAN",
+        "lan1_label": "Port LAN 1",
+        "random_mac_label": "Losowy adres MAC",
+        "clone_mac_label": "Sklonowany adres MAC",
+        "mtu_general_tips": "Jeśli ustawisz wartość wyższą/niższą niż zakres obsługiwany przez urządzenie, urządzenie użyje maksymalnej/minimalnej obsługiwanej wartości.",
+        "illegal_subnet_tips": "Nielegalne podsieci, ostatnie trzy bity muszą być 0.",
+        "mtu_ipv6_warning_tips": "IPv6 nie będzie działać, gdy MTU jest mniejsze niż 1280.",
+        "lan_label": "Port LAN",
+        "disguise_mac_label": "Zamaskowany adres MAC",
+        "mac_addr_label": "Adres MAC",
+        "mac_real_label": "Fabryka",
+        "clone_label": "Klonuj",
+        "random_btn": "Losowy",
+        "current_client_label": "Aktualny klient",
+        "mac_format_tips": "najmniej znaczący bit pierwszego oktetu nie może być ustawiony na 1 (tj. druga cyfra szesnastkowa nie może być nieparzysta)."
     },
     "date": {
         "day": "dzień(dni)",

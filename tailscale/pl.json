@@ -1,1 +1,24 @@
-{}
+{
+    "tailscale": {
+        "desc": "Tailscale umożliwia bezpieczny i bezproblemowy dostęp do Twoich urządzeń z dowolnego miejsca na świecie. Zapewnia szyfrowane połączenia punkt-punkt, co oznacza, że tylko urządzenia w Twojej prywatnej sieci mogą ze sobą komunikować się. Możesz go używać do zdalnego dostępu do swoich urządzeń lub sieci LAN.",
+        "need_login_tips": "Usługa Tailscale jest włączona, ale urządzenie nie jest jeszcze przypisane. Proszę przypisać to urządzenie do konta Tailscale za pomocą $$$$Linku do Przypisania Urządzenia$$$$.",
+        "need_mandate_tips": "To urządzenie jest przypisane do konta Tailscale, ale nie zostało jeszcze autoryzowane do dostępu do sieci. Proszę przejść do $$$$Konsoli Administracyjnej Tailscale$$$$, aby autoryzować urządzenie do połączenia z Twoją wirtualną siecią. Jeśli to nie jest Twoje konto, najpierw je odłącz.",
+        "enable_lan_tips": "Urządzenie już pozwala klientom Tailscale na dostęp do zasobów w sieci LAN lub WAN. Ale musisz edytować ustawienia trasowania w $$$$Konsoli Administracyjnej Tailscale$$$$, aby żądania klientów były przekazywane do urządzenia przez wirtualną sieć Tailscale.",
+        "ready_tips": "Urządzenie jest połączone z Twoją wirtualną siecią Tailscale.",
+        "enable_lan_label": "Zezwól na Zdalny Dostęp do LAN",
+        "account_label": "Przypisz Konto",
+        "logout_btn": "Odłącz",
+        "current_ip_label": "Wirtualny IP Routera",
+        "get_url_err_msg": "Nie udało się uzyskać linku do przypisania urządzenia.",
+        "enable_wan_label": "Zezwól na zdalny dostęp do sieci WAN",
+        "allow_lan_tips": "Jeśli ta opcja jest włączona, zasoby w sieci LAN urządzenia będą mogły być dostępne przez wirtualną sieć Tailscale.",
+        "allow_wan_tips": "Jeśli ta opcja jest włączona, zasoby po stronie WAN urządzenia będą mogły być dostępne przez wirtualną sieć Tailscale.",
+        "exit_node_label": "Węzeł wyjściowy",
+        "current_ip_tips": "Tailscale używa podsieci 100.64.0.0/10, co może kolidować z adresem przydzielonym przez dostawcę internetu lub adres klienta VPN. Jeśli Twój adres IP WAN lub VPN znajduje się w tej podsieci, wyłącz Tailscale, aby uniknąć problemów z siecią.",
+        "dns_warning_tips": "Podczas używania intranetowego adresu IP jako DNS, możesz nie być w stanie uzyskać dostępu do serwera DNS.",
+        "manual_node_label": "Niestandardowy Węzeł Wyjściowy",
+        "exit_node_tips": "Jeśli wybrany przez Ciebie Węzeł Wyjściowy nie jest dostępny lub nie może uzyskać dostępu do Internetu, urządzenie nie będzie mogło zsynchronizować ustawień z Tailscale.",
+        "custom_exit_node_warning": "Jeśli włączysz Niestandardowy Węzeł Wyjściowy, urządzenie będzie przekazywać wszystkie żądania do Węzła Wyjściowego. Przed włączeniem musisz włączyć trasy podsieci {subnet} tego urządzenia w $$$$Konsoli Administracyjnej Tailscale$$$$, aby Tailscale mógł przekazywać żądania klientów; w przeciwnym razie Twoi klienci nie będą mogli uzyskać dostępu do Internetu.",
+        "custom_exit_node_tips": "Jeśli ta opcja jest włączona, urządzenie będzie przekazywać wszystkie żądania do Węzła Wyjściowego. Przed włączeniem musisz włączyć trasy podsieci {subnet} tego urządzenia w $$$$Konsoli Administracyjnej Tailscale$$$$, aby Tailscale mógł przekazywać żądania klientów; w przeciwnym razie Twoi klienci nie będą mogli uzyskać dostępu do Internetu."
+    }
+}

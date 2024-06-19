@@ -1,1 +1,15 @@
-{}
+{
+    "process": {
+        "installing": "Telepítés",
+        "upgrading": "Frissítés",
+        "rebooting": "Újraindítás",
+        "reverting": "Visszaállítás",
+        "upgrade_tips": "Amennyiben a firmware frissítés után nem tudja elérni a router webes kezelőfelületét, kérjük, próbálja meg törölni a böngésző gyorsítótárát.",
+        "install_tips": "A szoftver telepítése néhány percet vesz igénybe. Kérjük, NE frissítse az oldalt, amíg be nem fejeződik.",
+        "reboot_tips": "A router újraindítása körülbelül $$$$. Kérjük, NE frissítse az oldalt, amíg be nem fejeződik.",
+        "revert_tips": "A firmware visszaállítása körülbelül $$$$. Az összes jelenlegi beállítását, alkalmazását és adatait törölni fogja. Kérjük, NE frissítse az oldalt, amíg be nem fejeződik.",
+        "wait_tips": "Ha ez a folyamat túl hosszú ideig tart, kérjük, kövesse a hibaelhárítási útmutatókat a",
+        "restore": "Visszaállítás",
+        "restore_tips": "A biztonsági mentés visszaállítása körülbelül $$$$. Kérjük, ne frissítse az oldalt, amíg be nem fejeződik."
+    }
+}

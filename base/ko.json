@@ -101,7 +101,9 @@
         "idx_label": "색인",
         "update": "업데이트",
         "incorrect_formate_tips": "형식이 잘못되었습니다. 수동으로 변경하거나 {action}",
-        "one_click_process_btn": "원-클릭 처리"
+        "one_click_process_btn": "원-클릭 처리",
+        "tips_ttitle": "팁",
+        "click here_btn": "여기를 클릭하세요"
     },
     "msg": {
         "success": "적용!",
@@ -153,7 +155,21 @@
         "ttl_tips": "TTL(Time To Live)은 패킷이 네트워크에서 생존할 수 있는 최대 시간을 설정하며 운영자의 요구 사항에 따라 채워집니다.",
         "clone_label": "복제",
         "random_btn": "임의",
-        "current_client_label": "현재 클라이언트"
+        "current_client_label": "현재 클라이언트",
+        "wan_label": "WAN 포트",
+        "lan_label": "LAN 포트",
+        "wan_lan_label": "WAN/LAN 포트",
+        "lan1_label": "LAN 1 포트",
+        "random_mac_label": "랜덤화된 MAC 주소",
+        "illegal_subnet_tips": "부적합한 서브넷입니다. 마지막 세 비트는 0이어야 합니다.",
+        "clone_mac_label": "복제된 MAC 주소",
+        "mtu_ipv6_warning_tips": "MTU가 1280보다 낮으면 IPv6는 작동할 수 없습니다.",
+        "illegal_subnet_mask_tips": "부적합한 마스크입니다. 서브넷이 {subnet}인 경우, 마스크는 {min}보다 작을 수 없습니다.",
+        "mtu_general_tips": "장치가 지원하는 범위를 벗어나는 값을 설정하면, 장치는 지원하는 최대/최소값을 사용합니다.",
+        "disguise_mac_label": "위장된 MAC 주소",
+        "mac_addr_label": "MAC 주소",
+        "mac_real_label": "공장",
+        "mac_format_tips": "첫 번째 옥텟의 최하위 비트를 1로 설정하는 것은 허용되지 않습니다(즉, 두 번째 16진수 숫자가 홀수여서는 안 됩니다)."
     },
     "upload": {
         "file_include": "파일 형식에는 다음이 포함됩니다",
@@ -168,6 +184,8 @@
     },
     "system": {
         "battery_err_tips": "시스템이 배터리 모듈을 감지하지 못합니다. 전원 연결이나 배터리에 손상이 있는지 확인하십시오.",
-        "limit_tips": "데이터는 {count} 개를 초과할 수 없습니다."
+        "limit_tips": "데이터는 {count} 개를 초과할 수 없습니다.",
+        "feature_unusable_tips": "이 기능은 {feature}이(가) 활성화되어 있기 때문에 작동하지 않습니다.",
+        "no_internet_base_tips": "인터넷 환경을 확인하고 다시 시도해 주세요."
     }
 }

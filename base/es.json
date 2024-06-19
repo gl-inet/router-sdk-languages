@@ -18,7 +18,7 @@
         "install": "instalar",
         "connect": "Conectar",
         "disconnect": "Desconectar",
-        "abort": "Terminar",
+        "abort": "Detener y Cancelar",
         "caution": "Precaución",
         "no": "No",
         "yes": "SÍ",
@@ -167,7 +167,9 @@
         "mac_real_label": "Fábrica",
         "mac_format_tips": "El bit menos significativo del primer octeto no puede estar configurado en 1 (es decir, no se permite que el segundo dígito hexadecimal sea impar).",
         "mtu_general_tips": "Si estableces un valor más alto/bajo que el rango compatible del dispositivo, el dispositivo utiliza el valor máximo/mínimo admitido.",
-        "mtu_ipv6_warning_tips": "IPv6 no puede funcionar cuando la MTU es menor que 1280."
+        "mtu_ipv6_warning_tips": "IPv6 no puede funcionar cuando la MTU es menor que 1280.",
+        "illegal_subnet_tips": "Subredes ilegales, los últimos tres bits deben ser 0.",
+        "illegal_subnet_mask_tips": "Máscara ilegal. Debido a que la subred es {subnet}, la máscara no puede ser inferior a {min}."
     },
     "upload": {
         "select_or_drag": "Seleccione un archivo o arrástrelo aquí",

@@ -1,1 +1,24 @@
-{}
+{
+    "menu_timedtask": "Запланированные задачи",
+    "timedtask": {
+        "desc": "Если устройство будет выключено в запланированное время, задача не будет выполнена.",
+        "restore_time_label": "Восстановить",
+        "enable_scheduled_label": "Включить по расписанию",
+        "wifi_title": "$$$$ Расписание статуса Wi-Fi",
+        "on_time_label": "Время включения",
+        "off_time_label": "Время выключения",
+        "reboot_title": "Запланировать перезагрузку",
+        "reboot_time_label": "Время перезагрузки",
+        "wifi_mode_label": "Режим по расписанию Wi-Fi",
+        "wifi_turn_onoff_label": "Включение/Выключение",
+        "wifi_power_switch_label": "Переключение мощности передачи",
+        "enable_wifi_label": "Включить расписание основного Wi-Fi",
+        "enable_guest_wifi_label": "Включить расписание гостевого Wi-Fi",
+        "host_wifi_title": "Основной Wi-Fi",
+        "guest_wifi_title": "Гостевой Wi-Fi",
+        "switch_label": "Установить в",
+        "switch_time_label": "Переключить",
+        "restore_label": "Установить в",
+        "led_title": "Расписание индикации LED"
+    }
+}

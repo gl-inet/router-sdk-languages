@@ -1,1 +1,14 @@
-{}
+{
+    "sdwan": {
+        "no_device_tips": "この機能を使用するには、デバイスを{cloud}の仮想ネットワークのいずれかに追加する必要があります。",
+        "nodes_title": "ネットワークトポロジー",
+        "real_time_data_title": "リアルタイムデータ",
+        "upload_data_title": "アップロードトラフィックデータ",
+        "device_tips": "仮想ネットワーク{network}に追加されました。設定を変更するには{cloud}にアクセスしてください。",
+        "real_time_data_tips": "ゲートウェイを通過したデバイスのデータのみを含みます。これは、請求データによって報告される合計と異なる場合があります。",
+        "download_data_title": "ダウンロードトラフィックデータ",
+        "interface_title": "インターフェース",
+        "interface_tips": "この仮想ネットワークへの特定のインターフェースの参加を無効にすることができます。"
+    },
+    "menu_sdwan": "AstroWarp"
+}

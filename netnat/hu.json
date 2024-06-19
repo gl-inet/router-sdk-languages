@@ -1,1 +1,10 @@
-{}
+{
+    "menu_netnat": "Hálózati Gyorsítás",
+    "netnat": {
+        "desc": "A hálózati gyorsítás csökkenti a CPU terhelését és felgyorsítja a forgalmi csomagok továbbítását, de néhány funkcióval ütközhet.",
+        "tips": "Amikor a hálózati gyorsítás engedélyezve van, a következő funkciók nem fognak megfelelően működni: Kliens sebesség és forgalmi statisztikák, Kliens sebességkorlátozás, Szülői felügyelet.",
+        "hwnat_label": "Hardveres Gyorsítás",
+        "swnat_label": "Szoftveres Gyorsítás",
+        "wifi_reload_tips": "A hardveres gyorsítás be- vagy kikapcsolása a WIFI modul újratöltését igényli, ami 10 másodperctől 1 percig tartó várakozási időt jelent."
+    }
+}

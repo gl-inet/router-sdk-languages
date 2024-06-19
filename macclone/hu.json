@@ -1,1 +1,15 @@
-{}
+{
+    "macclone": {
+        "tips": "Ha a szállodája vagy más üzleti helyszínének hálózata hitelesítést igényel, előfordulhat, hogy MAC-klónozást kell használnia.",
+        "manual_label": "Kézi",
+        "mode_label": "Mód",
+        "current_client_label": "Aktuális kliens",
+        "random_btn": "Véletlenszerű",
+        "no_mac_tips": "A felület engedélyezésekor generálódik",
+        "current_interface_as_lan_tips": "A jelenlegi felület LAN port. A konfiguráció akkor lép érvénybe, amikor WAN portra vált.",
+        "factory_default_label": "Gyári alapbeállítás",
+        "clone_label": "Klónozás",
+        "desc": "Amikor nyilvános hálózathoz (pl. szálloda/bevásárlóközpont) csatlakozik, használjon véletlenszerű MAC-címet, ha nem szeretné, hogy a hálózatkezelő ismerje az Ön valódi MAC-címét, vagy az alapján korlátozza az internet-hozzáférését."
+    },
+    "menu_macclone": "MAC-cím"
+}

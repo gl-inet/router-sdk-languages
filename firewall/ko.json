@@ -1,9 +1,9 @@
 {
     "firewall": {
-        "port_forwards": "포트 토워딩",
+        "port_forwards": "포트 포워딩",
         "open_ports_on_router": "라우터에서 포트 열기",
         "dmz_desc": "DMZ를 사용하면 하나의 로컬 컴퓨터를 인터넷에 노출할 수 있으며, 모든 인바운드 패킷은 이 컴퓨터로 리디렉션됩니다.",
-        "dmz_tips": "DMZ를 활성화하면 포트 전달 및 포트 열기 규칙이 적용되지 않습니다.",
+        "dmz_tips": "DMZ를 활성화하면 포트 포워딩 및 포트 개방 규칙이 적용되지 않습니다.",
         "open_dmz": "DMZ 활성화",
         "dmz_host_ip": "DMZ 호스트 IP",
         "protocol": "프로토콜",
@@ -16,8 +16,8 @@
         "port": "포트",
         "action": "실행",
         "no_data": "테이블에 데이터가 없습니다",
-        "add_port_forwards_title": "새 포트 전달 규칙 추가",
-        "edit_port_forwards_title": "포트 전달 규칙 수정",
+        "add_port_forwards_title": "새 포트 포워딩 규칙 추가",
+        "edit_port_forwards_title": "포트 포워딩 규칙 수정",
         "add_router_prot_title": "새로운 개방형 포트 추가",
         "edit_router_prot_title": "개방형 포트 수정",
         "delete_all_port_tips": "모든 항목을 삭제하시겠습니까?",
@@ -25,8 +25,14 @@
         "source": "소스 (영역, 포트)",
         "dest": "대상 (영역, IP, 포트)",
         "enable": "가능",
-        "port_forwards_desc": "LAN 서브넷에 서버가 있고 WAN 측에서 액세스할 수 있도록 하려면, IP 주소와 포트로 식별되는 이러한 서버에 대한 포트 전달을 설정해야 합니다.",
-        "open_port_on_router_dest": "보안상의 이유로 장치에 설치하는 서비스는 해당 LAN 네트워크에만 공개됩니다. WAN 네트워크에서 액세스할 수 있도록 하려면 WAN에서 이러한 서비스에 대한 포트를 열어야 합니다."
+        "port_forwards_desc": "LAN 서브넷에 서버가 있고 WAN 측에서 접근 가능하게 하려면 해당 서버로 포트 포워딩을 설정해야 합니다. 서버는 IP 주소와 포트로 식별됩니다. 두 활성화된 규칙의 {external_ports} 사이에 충돌이 발생하면 장치는 우선 순위가 높은 규칙을 우선 적용합니다.",
+        "open_port_on_router_dest": "보안상의 이유로 장치에 설치하는 서비스는 해당 LAN 네트워크에만 공개됩니다. WAN 네트워크에서 액세스할 수 있도록 하려면 WAN에서 이러한 서비스에 대한 포트를 열어야 합니다.",
+        "dmz_priority_lower_label": "최소",
+        "dmz_priority_higher_label": "최대",
+        "port_range_tips": "{exPort}가 {inPort} 범위와 일치하지 않습니다.",
+        "priority_label": "우선순위",
+        "adjust _priority_btn": "우선순위 조정",
+        "port_value_tips": "포트 범위는 1부터 65535까지입니다. 단일 포트를 설정하거나 첫 번째 포트 번호와 마지막 포트 번호를 - 기호로 연결하여 포트 범위를 설정할 수 있습니다(예: 501-510)."
     },
     "menu_firewallview": "방화벽"
 }

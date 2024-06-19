@@ -9,6 +9,12 @@
 "for_last_days": "Az elmúlt $$$$ napban",
 "domain_th": "Cím",
 "request_th": "Alkalom",
-"no_data": "Nincs adat"
+"no_data": "Nincs adat",
+"tips": "Kérjük, lépjen a $$$$Beállítások oldalra$$$$ az Adguard Home részletes konfigurálásához.",
+"replaced_parental_title": "Blokkolt felnőtt tartalmú weboldalak",
+"desc": "Az AdGuard Home egy otthoni hálózatban működő szoftver, amely blokkolja a hirdetéseket és a követést. Egyszer beállítva, az összes otthoni hálózati eszközön működni fog, nincs szükség semmilyen további kliensoldali szoftverre. Ez az oldal az AdGuard Home által biztosított API-n keresztül kapja meg a statisztikákat. Amikor az AdGuard Home engedélyezve van, a router kényszeríteni fogja az AdGuard Home által biztosított DNS-szerverek használatát.",
+"not_disabled_dns_msg": "Nincs más DNS letiltva",
+"process_req_label": "AdGuard Home Kezeli a Kliens Kéréseket",
+"process_req_tips": "Ha ez az opció engedélyezve van, a klienseszközök DNS-lekérdezéseit közvetlenül az AdGuard Home fogja kezelni. Az AdGuard Home meg fogja jeleníteni a kliensek DNS-lekérdezéseinek naplóit, de ez azt eredményezheti, hogy a domain alapú VPN-szabályok nem fognak működni."
 }
 }

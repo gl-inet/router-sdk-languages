@@ -1,1 +1,37 @@
-{}
+{
+    "plugins": {
+        "go": "Przejdź",
+        "tips": "Nie udało się zaktualizować listy repozytoriów, sprawdź swoje połączenie sieciowe i spróbuj ponownie.",
+        "system": "system",
+        "update": "Aktualizacja",
+        "install": "zainstaluj",
+        "uninstall": "odinstaluj",
+        "no_packages": "Brak pakietów oprogramowania",
+        "free_space": "Wolne miejsce:",
+        "filter": "Filtr",
+        "search_package": "Szukaj pakietu",
+        "name": "Nazwa",
+        "version": "Wersja",
+        "size": "Rozmiar",
+        "action": "Akcja",
+        "confirm_uninsatll_dependency": "Usuń zależności",
+        "all": "Wszystkie",
+        "no_install": "Nie zainstalowane",
+        "installed": "Zainstalowane",
+        "available_update": "Dostępne aktualizacje",
+        "user_retention": "Zarezerwowane",
+        "install_success": "Instalacja zakończona sukcesem",
+        "install_faile": "Instalacja nieudana",
+        "uninstall_success": "Odinstalowanie zakończone sukcesem",
+        "uninstall_faile": "Nie udało się odinstalować",
+        "package_info": "Informacje o pakietach",
+        "uninstall_caution": "Czy na pewno chcesz odinstalować",
+        "system_tip": "Pakiet oprogramowania jest częścią podstawowego systemu routera i nie może być odinstalowany.",
+        "time_last_update": "Ostatnie odświeżenie:",
+        "loading_tips": "Lista jest odświeżana, proszę czekać...",
+        "edit_sources_btn": "Zarządzaj źródłami",
+        "add_sources_tips": "Skompresowany format wszystkich źródeł oprogramowania to src/gz.",
+        "add_sources_title": "Dodaj niestandardowe źródło oprogramowania"
+    },
+    "menu_plugins": "Wtyczki"
+}

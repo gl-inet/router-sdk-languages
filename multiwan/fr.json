@@ -3,7 +3,7 @@
     "multiwan": {
         "tips": "Le routeur permet de connecter plusieurs interfaces réseau en même temps. Vous pouvez définir comment l'utiliser.",
         "failover_desc": "Basculement : En cas de défaillance d'une connexion utilisé, le routeur bascule automatiquement sur une autre connexion internet.",
-        "balancing_desc": "Répartiteur charge : Utiliser plusieurs interfaces en même temps pour augmenter la bande passante totale du routeur.",
+        "balancing_desc": "Équilibrage de charge : Utilise plusieurs interfaces réseau en même temps pour augmenter la bande passante totale du routeur. Notez que les connexions à la même application ou site utiliseront généralement une seule interface.",
         "mode_label": "Mode",
         "mode_failover_tips": "Le routeur sélectionne automatiquement l'interface disponible ayant la priorité la plus élevée.",
         "mode_balancing_tips": "Le système attribue des interfaces aux nouvelles connexions en fonction du taux de charge.",
@@ -34,7 +34,7 @@
         "sensitivity_label": "Sensibilité",
         "balancing_warning_tips": "Au moins deux interfaces avec des taux de charge non nuls doivent être configurées pour que la charge équilibrée fonctionne correctement. S'il n'y a pas d'interface Internet connectable avec un taux de charge non nul, l'appareil ne pourra pas se connecter à Internet.",
         "sensitivity_tips": "Cette sensibilité détermine l'intervalle de temps pour la détection de l'état de l'Internet. Il est recommandé d'utiliser une sensibilité faible lorsque l'accès à l'internet est instable afin d'éviter de changer fréquemment de réseau ; il est recommandé d'utiliser une sensibilité élevée lors de la diffusion de vidéos ou de flux en direct afin de pouvoir changer rapidement d'accès à l'internet ; le passage à une sensibilité élevée peut entraîner une déconnexion du réseau.",
-        "track_mode_tips": "Activez le commutateur pour qu'il effectue un suivi uniquement en cas d'erreur du réseau d'interface et recommandez aux utilisateurs d'utiliser le mode \"données faibles\" lorsqu'ils disposent d'un plan de données limité.",
+        "track_mode_tips": "Si cette option est activée, elle ne suivra que lorsqu'il y a une erreur de réseau d'interface. Il est recommandé d'activer cette option pour les interfaces qui utilisent la facturation du trafic de données.",
         "network_tracking_title": "{interface} État de la connexion",
         "sensitivity_options_label": "Options de sensiblité"
     }

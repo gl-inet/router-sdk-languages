@@ -1,1 +1,33 @@
-{}
+{
+    "ddns": {
+        "desc": "Ezt a routert távolról is elérheti, ha engedélyezi a dinamikus DNS-t (DDNS). A DNS-szerverek közötti rekordok szinkronizálása akár tíz percet is igénybe vehet. Ez azt eredményezheti, hogy a DDNS domainek nem azonnal lesznek elérhetők, miután engedélyezte őket, vagy ha a nyilvános IP-címe nemrég megváltozott.",
+        "test": "DDNS Teszt",
+        "enable_http": "HTTP távoli hozzáférés engedélyezése",
+        "enable_https": "HTTPS távoli hozzáférés engedélyezése",
+        "enable_ssh": "SSH távoli hozzáférés engedélyezése",
+        "read_and_agree": "Elolvastam és elfogadom",
+        "terms_service": "Szolgáltatási feltételek",
+        "privacy_policy": "Adatvédelmi irányelvek",
+        "detecting": "Észlelés, kérem várjon…",
+        "working": "A DDNS szolgáltatása működik.",
+        "not_effective": "A DDNS még nem aktív. Kérjük, próbálja meg később.",
+        "enable_http_tip": "Az HTTP egy nem titkosított protokoll. Kérjük, óvatosan használja.",
+        "host_name": "Hosztnév",
+        "parsing_success_tips": "A DDNS domain helyesen feloldódott erre az eszközre mutató nyilvános IP-címre.",
+        "parsing_error_tips": "A DNS-szerver nem találta meg ezt a DDNS domaint. Kérjük, ellenőrizze az eszköz internetkapcsolatát.",
+        "parsing_warning_tips": "A DDNS domain feloldásából származó IP-cím nem egyezik az eszköz WAN IP-címével. Dinamikus DNS használatához nyilvános internetes IP-cím szükséges. Ha ez a router NAT mögött van, előfordulhat, hogy port továbbítást kell beállítania az internetszolgáltató routerén. Ha VPN kliens van engedélyezve, kérjük, kapcsolja ki a \"GL.iNet szolgáltatások VPN használata\" opciót a globális beállításokban.",
+        "parsing_label": "IP-cím a DDNS Domain Feloldásból",
+        "parsing_interface_title": "WAN interfész IP-címe",
+        "remote_access_tips": "Ha távolról szeretné elérni az eszközt, kérjük, $$$$menjen a Biztonsági oldalra$$$$ a beállításhoz.",
+        "parsing_ip_warning_tips": "A DDNS domain feloldásából származó IP-cím nem egyezik az eszköz WAN IP-címével.",
+        "need_pubilc_ip_tips": "Dinamikus DNS használatához nyilvános internetes IP-cím szükséges.",
+        "sevices_warning_tips": "Ha a VPN kliens aktív, kérjük, kapcsolja ki a \"GL.iNet szolgáltatások VPN használata\" opciót a globális beállításokban.",
+        "nat_warning_tips": "Ha a router NAT mögött van, előfordulhat, hogy port továbbítást kell beállítania az internetszolgáltató által biztosított routeren.",
+        "use_desc": "Engedélyezheti a Dinamikus DNS-t (DDNS) a routeren, és távolról hozzáférhet a routerhez.",
+        "enabled_tips": "A DNS szerverek közötti rekord szinkronizálásában akár 10 perc késedelem is előfordulhat. Ez azt eredményezheti, hogy közvetlenül a DDNS engedélyezése után, vagy a nyilvános IP-cím megváltozása után nem tud azonnal a DDNS domain néven keresztül hozzáférni.",
+        "security_settings_btn": "Biztonsági beállítások",
+        "security_settings_tips": "A \"Rendszer-Biztonság\" Távoli hozzáférés szabályozásában módosíthatja a távoli hozzáférés korlátozására szolgáló két opciót.",
+        "to_security_btn": "Ugrás a Biztonságra"
+    },
+    "menu_dynamicdns": "Dinamikus DNS"
+}

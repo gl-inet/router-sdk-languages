@@ -163,7 +163,13 @@
         "clone_mac_label": "Adresse MAC cloné",
         "wan_label": "Port WAN",
         "mac_addr_label": "Adresse MAC",
-        "clone_label": "Cloner"
+        "clone_label": "Cloner",
+        "mtu_general_tips": "Si vous définissez une valeur supérieure/inférieure à la plage prise en charge par l'appareil, l'appareil utilise la valeur maximale/minimale prise en charge.",
+        "illegal_subnet_mask_tips": "Masque illégal, étant donné que le sous-réseau est {subnet}, le masque ne peut pas être inférieur à {min}.",
+        "mac_real_label": "Usine",
+        "mac_format_tips": "le bit le moins significatif du premier octet ne doit pas être réglé sur 1 (c'est-à-dire que le deuxième chiffre hexadécimal ne doit pas être impair).",
+        "mtu_ipv6_warning_tips": "IPv6 ne peut pas fonctionner si le MTU est inférieur à 1280.",
+        "illegal_subnet_tips": "Sous-réseaux illégaux, les trois derniers bits doivent être 0."
     },
     "upload": {
         "select_or_drag": "Sélectionnez un fichier ou déposez-le ici",
@@ -179,6 +185,7 @@
     "system": {
         "battery_err_tips": "Le système n'a pas detecté le module de batterie, vérfiez si votre alimentation ou votre batterie n'est pas endommagé.",
         "feature_unusable_tips": "Cette fonctionnalité ne peut pas fonctionner car {feature} est activé.",
-        "no_internet_base_tips": "Veuillez vérifier votre connexion Internet et réessayer."
+        "no_internet_base_tips": "Veuillez vérifier votre connexion Internet et réessayer.",
+        "limit_tips": "Les données ne doivent pas dépasser {count} entrées."
     }
 }

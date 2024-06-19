@@ -1,1 +1,14 @@
-{}
+{
+    "sdwan": {
+        "no_device_tips": "A funkció használatához hozzá kell adnia az eszközt a(z) {cloud} egyik virtuális hálózatához.",
+        "device_tips": "Hozzáadta a rendszer a virtuális hálózathoz {network}. Kérjük, lépjen a(z) {cloud} oldalra a beállítások módosításához.",
+        "real_time_data_title": "Valós idejű adatok",
+        "real_time_data_tips": "Csak azok az eszközadatok tartoznak ide, amelyek az Átjárón keresztül haladtak át; ez eltérhet az Ön számlázási adataiban jelentett összestől.",
+        "upload_data_title": "Feltöltési adatforgalom",
+        "download_data_title": "Letöltési adatforgalom",
+        "interface_title": "Interfészek",
+        "interface_tips": "Lehetősége van bizonyos interfészek letiltására ebben a virtuális hálózatban.",
+        "nodes_title": "Hálózati topológia"
+    },
+    "menu_sdwan": "AstroWarp"
+}

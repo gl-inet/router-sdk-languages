@@ -1,1 +1,24 @@
-{}
+{
+    "tailscale": {
+        "desc": "A $$$$Tailscale$$$$ lehetővé teszi, hogy a világ bármely pontjáról biztonságosan és erőfeszítés nélkül hozzáférjen az Ön által birtokolt eszközökhöz. Titkosított pont-pont kapcsolatokat létesít, ami azt jelenti, hogy csak a privát hálózatán lévő eszközök kommunikálhatnak egymással. Használhatja távoli eszközeihez vagy LAN-hoz való hozzáférésre.",
+        "need_login_tips": "A Tailscale szolgáltatás engedélyezve van, de az eszköz még nincs hozzárendelve. Kérjük, kösse hozzá ezt az eszközt a Tailscale fiókjához a $$$$Eszköz Hozzárendelési Linken$$$$ keresztül.",
+        "need_mandate_tips": "Ez az eszköz hozzá van rendelve egy Tailscale fiókhoz, de még nem kapott engedélyt a hálózathoz való hozzáférésre. Kérjük, lépjen a $$$$Tailscale Adminisztrációs Konzolra$$$$, hogy engedélyezze az eszköz csatlakozását a virtuális hálózatához. Ha ez nem az Ön fiókja, kérjük, először szüntesse meg a hozzárendelést.",
+        "enable_lan_tips": "Az eszköz már lehetővé teszi a Tailscale kliensek számára, hogy hozzáférjenek a LAN vagy WAN erőforrásokhoz. De szükséges a útvonalbeállítások szerkesztése a $$$$Tailscale Adminisztrációs Konzolon$$$$ keresztül, hogy a klienskéréseket a Tailscale virtuális hálózaton keresztül az eszközhöz irányítsák.",
+        "ready_tips": "Az eszköz csatlakozik a Tailscale virtuális hálózatához.",
+        "enable_lan_label": "Távoli hozzáférés engedélyezése LAN",
+        "account_label": "Fiók Hozzárendelése",
+        "logout_btn": "Hozzárendelés Megszüntetése",
+        "current_ip_label": "Router Virtuális IP",
+        "get_url_err_msg": "Nem sikerült az eszköz hozzárendelési linkjének lekérése.",
+        "enable_wan_label": "Távoli Hozzáférés WAN Engedélyezése",
+        "allow_lan_tips": "Ha ez az opció engedélyezve van, az eszköz LAN-ján belüli erőforrások hozzáférhetővé válnak a Tailscale virtuális hálózatán keresztül.",
+        "allow_wan_tips": "Ha ez az opció engedélyezve van, az eszköz WAN oldalán lévő erőforrások hozzáférhetővé válnak a Tailscale virtuális hálózatán keresztül.",
+        "exit_node_tips": "Ha a kiválasztott Exit Node nem érhető el vagy nem tud hozzáférni az internethez, a készülék nem lesz képes szinkronizálni a beállításokat a Tailscale-lel.",
+        "custom_exit_node_tips": "Ha ez az opció engedélyezve van, az eszköz továbbítja az összes kérést az Exit Node-ra. Engedélyezés előtt szükséges a subnet útvonalak {subnet} engedélyezése az eszközön a $$$$Tailscale Adminisztrációs Konzolon$$$$ keresztül, hogy a Tailscale továbbíthassa a klienskéréseket; egyébként a kliensek nem lesznek képesek az internethez való hozzáférésre.",
+        "manual_node_label": "Egyéni Exit Node",
+        "exit_node_label": "Exit Node",
+        "current_ip_tips": "A Tailscale a 100.64.0.0/10 alhálózatot használja, ami ütközhet egy internetszolgáltató által kijelölt címmel vagy VPN kliens címmel. Ha a WAN IP vagy VPN IP címe ebben az alhálózatban van, kapcsolja ki a Tailscale-t, hogy elkerülje a hálózati problémákat.",
+        "custom_exit_node_warning": "Ha engedélyezi az Egyéni Exit Node-ot, az eszköz továbbítja az összes kérést az Exit Node-ra. Engedélyezés előtt szükséges a subnet útvonalak {subnet} engedélyezése az eszközön a $$$$Tailscale Adminisztrációs Konzolon$$$$ keresztül, hogy a Tailscale továbbíthassa a klienskéréseket; egyébként a kliensek nem lesznek képesek az internethez való hozzáférésre.",
+        "dns_warning_tips": "Amikor egy belső IP címet használ DNS-ként, előfordulhat, hogy nem tud hozzáférni a DNS szerverhez."
+    }
+}
