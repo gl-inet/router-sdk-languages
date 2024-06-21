@@ -1,1 +1,7 @@
-{}
+{
+    "netadvanced": {
+        "full_cone_nat_tips": "Pilno konuso NAT gali būti naudojamas mažinti žaidimo delsai, tačiau įjungus Pilno konuso NAT, saugumas gali būti silpnesnis.",
+        "sip_alg_tips": "SIP ALG gali būti naudojamas mažinti kelių NAT poveikį, tačiau daugeliu atvejų tai nepadės. Įjungus SIP ALG, gali būti paveiktos VoIP skambučių funkcijos, pavyzdžiui, vienpusis garso perdavimas (vienas šalis gali girdėti kitą), telefonai neskamba skambinant, telefonai atsijungia būdami prisijungę, o skambučiai nukreipiami tiesiai į balso paštą."
+    },
+    "menu_netadvanced": "NAT Nustatymai"
+}
