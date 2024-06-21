@@ -1,1 +1,33 @@
-{}
+{
+    "wireless": {
+        "ssid": "Wi-Fi pavadinimas (SSID)",
+        "shown": "Rodomas",
+        "hidden": "Paslėptas",
+        "encryption": "Wi-Fi saugumas",
+        "key": "Wi-Fi slaptažodis",
+        "ssid_visibility": "SSID matomumas",
+        "mode": "Wi-Fi režimas",
+        "band_width": "Duomenų siuntimo srauto pralaidumas",
+        "channel": "Kanalas",
+        "tx_power": "TX galia",
+        "max": "Maksimalus",
+        "high": "Aukštas",
+        "medium": "Vidutinis",
+        "low": "Žemas",
+        "guest": "Svečias",
+        "channel_optimization": "Kanalo optimizavimas",
+        "repeater_using_tips": "Įrašas negali būti modifikuojamas, kai įjungtas pakartotuvas.",
+        "enable": "Įjungti Wi-Fi",
+        "enable_dfs_tips": "Jei maršrutizatoriui priskirtas DFS kanalas: kiekvieną kartą įjungiant Wi-Fi, reikalinga patikrinti kanalo prieinamumą, šiuo metu 5 GHz signalas nebus prieinamas ryšiams, šis procesas užtrunka $$$$. Jei maršrutizatorius nustato, kad radaras naudoja dabartinį kanalą, jis laikinai atjungs klientą ir perjungs į kitą prieinamą kanalą; be to, 5 GHz Wi-Fi bus laikinai išjungtas, kol maršrutizatorius skenuos prieinamus, artimus tinklus.",
+        "enable_dfs": "Leisti DFS kanalą",
+        "dsf_starting": "Tikrinama kanalo prieinamumas. Šis procesas užtruks $$$$. Prašome palaukti……",
+        "dsf_conflict": "5 GHz Wi-Fi laikinai nepasiekiamas, nes radaras naudoja kanalą, kurį šiuo metu naudoja maršrutizatorius.",
+        "channel_auto_dfs_tips": "Kai jūsų duomenų siuntimo srauto pralaidumas nustatytas į 160 MHz, Wi-Fi visada naudos DFS kanalą, net jei pasirinksite ne-DFS kanalą ar \"$$$$\" parinktį.",
+        "channel_auto_tips": "Kai pasirenkate \"$$$$\" parinktį, Wi-Fi automatiškai nepersijungs į DFS kanalą.",
+        "lan_guest_conflict_tips": "Svečio Wi-Fi negali būti įjungtas, nes {guest} yra konflikte su {lan}.",
+        "enable_random_bssid_label": "Įjungti atsitiktinį BSSID",
+        "random_bssid_enabled_tips": "Jei ši parinktis įjungta, įrenginys naudoja atsitiktinai sugeneruotą BSSID ir atnaujina jį kiekvieną kartą paleidžiant iš naujo.",
+        "random_bssid_disabled_tips": "Naudojant statinį BSSID, galite būti sekamas. Jei jūsų kliento įrenginys reikalauja naudoti statinį BSSID, rekomenduojama nustatyti SSID kaip paslėptą. {more}"
+    },
+    "menu_wireless": "Belaidis"
+}
