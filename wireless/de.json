@@ -24,7 +24,10 @@
         "dsf_starting": "Teste Kanalverfügbarkeit, der Vorgang dauert $$$$. Bitte warten Sie…",
         "dsf_conflict": "Das 5GHz WLAN ist vorübergehen nicht verfügbar, weil der aktuelle Funkkanal von einem Radar belegt ist.",
         "enable_dfs_tips": "Falls der Router einen DFS Kanal verwendet: Die Kanal-Verfügbarkeit wird bei jeder WLAN-Aktivierung überprüft. In der Zeit steht das 5 GHz Signal nicht zur Verfügung, dieser Vorgang dauert $$$$. Falls der Router ein Funksignal (Radar) entdeckt, welches den aktuellen Kanal nutzt, wird die Verbindung zum Gerät unterbrochen und auf einen anderen Kanal umgeschaltet.",
-        "lan_guest_conflict_tips": "Das Gäste WLAN kann nicht aktiviert werden, weil {guest} in Konflikt mit {lan} steht."
+        "lan_guest_conflict_tips": "Das Gäste WLAN kann nicht aktiviert werden, weil {guest} in Konflikt mit {lan} steht.",
+        "enable_random_bssid_label": "Aktivieren Sie Randomized BSSID",
+        "random_bssid_enabled_tips": "Wenn diese Option aktiviert ist, verwendet das Gerät eine zufällig generierte BSSID und erneuert sie bei jedem Neustart.",
+        "random_bssid_disabled_tips": "Die Verwendung einer statischen BSSID kann dazu führen, dass Sie verfolgt werden. Wenn Ihr Client-Gerät die Verwendung einer statischen BSSID erfordert, wird empfohlen, das SSID auf versteckt zu setzen. {more}"
     },
     "menu_wireless": "WLAN"
 }
