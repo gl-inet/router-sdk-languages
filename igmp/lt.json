@@ -1,1 +1,7 @@
-{}
+{
+    "igmp": {
+        "desc": "„IGMP Snooping“ klausosi ir ištraukia informaciją iš IGMP protokolo paketo, sudaro ir palaiko 2 sluoksnio daugiataškio perduodamojo skelbimo publikaciją, tada perduoda daugiataškio grupės duomenis į bet kurį skleidėją, kuris prisijungia prie daugiataškio grupės, tuo tarpu kiti skleidėjai negali gauti daugiataškio grupės duomenų.",
+        "note": "IGMPv3 yra suderinamas su v1 ir v2. Numatytai naudoti v3, ir jei patiriate problemą, perjunkite.",
+        "version": "Versija"
+    }
+}
