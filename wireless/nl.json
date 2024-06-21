@@ -23,7 +23,11 @@
         "dsf_starting": "Controleren op de beschikbaarheid van kanalen. Dit proces duurt $$$$. Een ogenblik……",
         "dsf_conflict": "5GHz Wi-Fi is tijdelijk niet beschikbaar omdat een radar gebruik maakt van het kanaal dat de router momenteel gebruikt.",
         "channel_auto_dfs_tips": "Wanneer de bandbreedte is ingesteld op 160 MHz, zal Wi-Fi altijd het DFS-kanaal gebruiken, zelfs als u een niet-DFS-kanaal of de optie \"$$$$\" kiest.",
-        "channel_auto_tips": "Wanneer u de optie \"$$$$\" selecteert, schakelt Wi-Fi niet automatisch over naar het DFS-kanaal."
+        "channel_auto_tips": "Wanneer u de optie \"$$$$\" selecteert, schakelt Wi-Fi niet automatisch over naar het DFS-kanaal.",
+        "lan_guest_conflict_tips": "Gast-Wi-Fi kan niet worden ingeschakeld omdat {guest} in conflict is met {lan}.",
+        "enable_random_bssid_label": "Gebruik van een willekeurig BSSID inschakelen",
+        "random_bssid_disabled_tips": "Het gebruik van een statisch BSSID kan ervoor zorgen dat u gevolgd wordt. Als uw clientapparaat het gebruik van een statisch BSSID vereist, wordt aanbevolen om de SSID te verbergen. {more}",
+        "random_bssid_enabled_tips": "Als deze optie is ingeschakeld, gebruikt het apparaat een willekeurig gegenereerd BSSID en vernieuwt dit bij elke herstart."
     },
     "menu_wireless": "Draadloos"
 }
