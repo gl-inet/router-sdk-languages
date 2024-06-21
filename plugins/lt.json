@@ -1,1 +1,37 @@
-{}
+{
+    "plugins": {
+        "install": "įdiegti",
+        "uninstall": "pašalinti",
+        "no_packages": "Nėra prog. įrang. paketų",
+        "free_space": "Laisva vieta:",
+        "action": "Veiksmas",
+        "update": "Atnaujinti",
+        "filter": "Filtruoti",
+        "search_package": "Ieškoti paketo",
+        "name": "pavadinimas (daž.)",
+        "version": "Versija",
+        "size": "Dydis",
+        "confirm_uninsatll_dependency": "Pašalinti priklausomybes",
+        "all": "Visi",
+        "no_install": "Neįdiegta",
+        "installed": "Įdiegta",
+        "available_update": "Galimi atnaujinimai",
+        "user_retention": "Rezervuota",
+        "install_success": "Įdiegimas sėkmingas",
+        "install_faile": "Įdiegimas nepavyko",
+        "uninstall_success": "Šalinimas sėkmingas",
+        "uninstall_faile": "Pašalinimas nepavyko",
+        "package_info": "Paketai Informacija",
+        "go": "Eiti",
+        "uninstall_caution": "Ar tikrai norite pašalinti",
+        "tips": "Nepavyko atnaujinti saugyklų sąrašo, prašome patikrinti tinklo ryšį ir bandyti dar kartą.",
+        "system": "sistema",
+        "system_tip": "Šis taikomosios programos paketas yra dalis maršrutizatoriaus bazinės sistemos ir negali būti pašalintas.",
+        "time_last_update": "Paskutinio atnaujinimo laikas:",
+        "loading_tips": "Sąrašas atnaujinamas, prašome palaukti...",
+        "edit_sources_btn": "Tvarkyti šaltinius",
+        "add_sources_tips": "Visų programinės įrangos šaltinių suspaustas formatas yra src/gz.",
+        "add_sources_title": "Pridėti pasirinktinės programinės įrangos šaltinį"
+    },
+    "menu_plugins": "Papildiniai"
+}
