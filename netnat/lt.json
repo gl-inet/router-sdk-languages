@@ -1,1 +1,10 @@
-{}
+{
+    "menu_netnat": "Tinklo spartinimas",
+    "netnat": {
+        "desc": "Tinklo spartinimas mažina CPU apkrovą ir pagreitina duomenų paketų peradresavimą, tačiau gali sukelti konfliktų su kai kuriomis funkcijomis.",
+        "tips": "Kai tinklo spartinimas įjungtas, šios funkcijos neveiks tinkamai: Kliento greitis ir srauto statistika, Kliento greičio ribojimas, Tėvų kontrolė.",
+        "hwnat_label": "Aparatinės įrangos spartinimas",
+        "swnat_label": "Programinės įrangos spartinimas",
+        "wifi_reload_tips": "Aparatinės įrangos spartinimo įjungimas arba išjungimas reikalauja WIFI modulio perleidimo, laukimo laikas nuo 10 sekundžių iki 1 minutės."
+    }
+}
