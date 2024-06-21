@@ -1,1 +1,17 @@
-{}
+{
+    "zerotier": {
+        "first_use_tips": "„ZeroTier“ jungiasi prie jūsų virtualaus tinklo naudodamas tinklo ID, kurį sukūrėte „ZeroTier Central“.",
+        "auto_nat_tips": "Jei ši parinktis įgalinta, išteklius viduje vietinio tinklo („LAN“) potinklyje ir WAN galima pasiekti per „ZeroTier“ virtualų tinklą.",
+        "desc": "„ZeroTier“ sukuria saugų, virtualų lygiarangį „eternetas“ tinklą, prieinamą iš bet kur; jis palaiko prieigą prie įrenginių, tokių kaip telefonai, kompiuteriai ir t.t. Galite jį naudoti norėdami nuotoliniu būdu pasiekti savo įrenginius arba vietinį tinklą („LAN“).",
+        "unauthorized_tips": "Įrenginys buvo pridėtas prie „ZeroTier“. Prašome eiti į „ZeroTier Central“, kad įgalintumėte įrenginį jungtis prie jūsų virtualaus tinklo.",
+        "authorized_tips": "Įrenginys yra prijungtas prie jūsų „ZeroTier“ virtualaus tinklo.",
+        "enable_nat_tips": "Įrenginys jau leidžia „ZeroTier“ klientams pasiekti išteklius WAN arba vietiniame tinkle („LAN“). Jums reikia nustatyti kelvado taisykles „ZeroTier Central“, kad leistumėte klientų užklausas perduoti per „ZeroTier“ virtualų tinklą:",
+        "auto_nat_label": "Leisti nuotolinę prieigą prie vietinio tinklo ir WAN",
+        "current_ip_label": "Maršrutizatoriaus virtualus IP",
+        "not_found_tips": "„ZeroTier“ nerado tinklo ID, prašome patikrinti įvestą reikšmę.",
+        "allow_lan_label": "Leisti nuotolinę prieigą prie vietinio tinklo",
+        "allow_wan_label": "Leisti nuotolinę prieigą prie WAN",
+        "allow_lan_tips": "Jei ši parinktis įgalinta, įrenginio vietinio tinklo („LAN“) išteklius galima bus pasiekti per „ZeroTier“ virtualų tinklą.",
+        "allow_wan_tips": "Jei ši parinktis įgalinta, įrenginio WAN pusės išteklius galima bus pasiekti per „ZeroTier“ virtualų tinklą."
+    }
+}
