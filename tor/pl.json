@@ -1,1 +1,11 @@
-{}
+{
+    "tor": {
+        "desc": "Tor (pochodzący od \"The Onion Router\") to darmowe oprogramowanie open source umożliwiające anonimową komunikację. Pomaga użytkownikom przeglądać internet z zachowaniem prywatności.",
+        "matter_tips": "Ta funkcja jest obecnie w fazie beta i może powodować problemy w niektórych krajach.",
+        "exit_node_label": "Węzeł wyjściowy",
+        "exit_node_tips": "Możesz wybrać niestandardową lokalizację, która będzie wyświetlana w śledzeniu.",
+        "log_title": "Dziennik Tor",
+        "use_tips": "Gdy włączony jest Tor, następujące funkcje nie będą działać poprawnie: VPN, DNS, IPv6 oraz Adguard Home.",
+        "manual_label": "Niestandardowy węzeł wyjściowy"
+    }
+}
