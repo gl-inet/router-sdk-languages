@@ -1,1 +1,15 @@
-{}
+{
+    "macclone": {
+        "desc": "Jei jungiatės prie viešojo tinklo (pvz., viešbučio ar prekybos centro), naudokite atsitiktinį MAC adresą, jei nenorite, kad tinklo administratorius žinotų jūsų tikrąjį MAC adresą arba kad jis ribotų jūsų prieigą prie interneto pagal jį.",
+        "tips": "Jei jūsų viešbučio ar kitos verslo vietos tinklas reikalauja autentifikacijos, gali tekti naudoti MAC klonavimą.",
+        "factory_default_label": "Gamyklinis numatytasis",
+        "clone_label": "Klonuoti",
+        "manual_label": "Rankinis",
+        "mode_label": "Režimas",
+        "current_client_label": "Esamas klientas",
+        "random_btn": "Atsitiktinis",
+        "no_mac_tips": "Sugeneruota, kai sąsaja įjungta",
+        "current_interface_as_lan_tips": "Dabartinė sąsaja yra vietinio tinklo („LAN“) prievadas. Konfigūracija įsigalios, kai ji bus perjungta į plačiajuosčio tinklo („WAN“) prievadą."
+    },
+    "menu_macclone": "MAC adresas"
+}
