@@ -11,7 +11,7 @@
         "repeated": "Verbonden zonder dat de verbinding moest worden herverbonden",
         "pppoe_log": "PPPoE-verbindingslogboek",
         "setting": "Ethernetinstellingen",
-        "dhcp_tips": "IP-adres wordt toegewezen door hogere netwerkapparatuur.",
+        "dhcp_tips": "Het IP-adres wordt toegewezen door netwerkapparatuur die dichterbij het WAN-netwerk staat.",
         "pppoe_vlanid_tips": "Deze instelling is alleen vereist als de PPPoE-server van de provider vereist dat de interface een getagde specifieke VLAN-ID gebruikt.",
         "egderouter_mode_tips": "De plaatsvervangende gateway is ingeschakeld. Als u de ethernet-instellingen wilt wijzigen, schakel dan eerst $$$$de plaatsvervangende gateway$$$$ uit.",
         "change_to_lan_check_tips": "Koppel eerst de ethernetkabel los die op de WAN-poort is aangesloten. $$$$ Herdetecteren $$$$",
@@ -23,10 +23,10 @@
         "use_as_port_btn": "Wijzig de {silkprint} in {port}",
         "use_as_wan_silkprint_tips": "Zodra de {silkprint} wordt gebruikt als een WAN-poort",
         "using_tips": "{silkprint} status: Gebruikt als {port}. {changePort}",
-        "use_as_wan_tips": "{asWan}, het apparaat dat op de poort is aangesloten, kan niet meer toegang krijgen tot het beheerderspaneel. U moet het verbinden met Wi-Fi of andere LAN-poorten.",
+        "use_as_wan_tips": "{asWan}, het apparaat dat op de poort is aangesloten, kan niet meer toegang krijgen tot het beheerderspaneel. U moet het verbinden met Wi-Fi of een van de andere LAN-poorten.",
         "revert_as_lan_tips": "Weet u zeker dat u de {silkprint} wilt herstellen naar LAN-poort (standaard)?",
-        "revert_port_btn": "Herstellen naar {port}",
-        "revert_wan_tips": "Nadat u de WAN-poort hebt hersteld"
+        "revert_port_btn": "Terug zetten naar {port}",
+        "revert_wan_tips": "Nadat u de WAN-poort hebt terug gezet"
     },
     "tethering": {
         "title": "Tetheren",
@@ -86,9 +86,9 @@
         "allow_auto_portal_tips": "Als deze optie is ingeschakeld, zal deze router automatisch de Login Modus voor Openbare Hotspots activeren wanneer het succesvol verbonden is met een hotspot maar niet met het internet. Deze modus zal VPN's en aangepaste DNS pauzeren totdat het verlaten wordt, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum).",
         "modify_wifi_tips": "Wijzigingen in de netwerkinstellingen zullen de repeater opnieuw laten verbinden.",
         "enable_disguise_label": "Camouflage inschakelen",
-        "enable_disguise_tips": "Als deze optie is ingeschakeld, vermomt deze router zich als hetzelfde apparaat als het clientapparaat dat u nu gebruikt.",
-        "need_enter_portal_tips": "Kan niet via de herhaalde hotspot toegang krijgen tot het internet. Probeer {portal} te betreden om het probleem op te lossen. Let op dat deze modus VPN's en aangepaste DNS zal pauzeren totdat het verlaten wordt, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum).",
-        "entered_portal_tips": "Het apparaat bevindt zich in de Login Modus voor Openbare Hotspots. VPN's en aangepaste DNS zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum). Na succesvolle aanmelding verlaat deze router automatisch deze modus. {exit}."
+        "enable_disguise_tips": "Als deze optie is ingeschakeld, vermomt de router zich als het apparaat die het clientapparaat momenteel gebruikt.",
+        "need_enter_portal_tips": "Kan niet via de gerepeatte hotspot toegang krijgen tot het internet. Probeer {portal} te betreden om het probleem op te lossen. Let op dat deze modus VPN's en aangepaste DNS zal pauzeren totdat het verlaten wordt, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum).",
+        "entered_portal_tips": "Het apparaat bevindt zich in de Login Modus voor Openbare Hotspots. VPN's en aangepaste DNS zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum). Na succesvolle aanmelding verlaat de router automatisch deze modus. {exit}."
     },
     "modem": {
         "title": "Mobiel",
@@ -190,13 +190,13 @@
         "lte_plus_tips": "Sommige apparaten tonen mogelijk 4G+ als 5G weergeven",
         "sim_slot_pin_mark_tips": "De SIM-kaartsleuf is gemarkeerd en kan niet automatisch worden gewisseld.",
         "pin_verify_success_tips": "PIN-code verificatie succesvol.",
-        "need_pin_no_history_tips": "U moet de PIN-code invoeren, en u heeft nog {count} pogingen over.",
+        "need_pin_no_history_tips": "U moet de PIN-code invoeren, u heeft nog {count} pogingen over.",
         "need_pin_history_tips": "De PIN-code {value} is onjuist. U heeft nog {count} pogingen over.",
-        "pin_locked_no_history_tips": "SIM-kaart is geblokkeerd.",
-        "pin_locked_history_tips": "PIM-code {value} fout, SIM-kaart is geblokkeerd.",
+        "pin_locked_no_history_tips": "De SIM-kaart is geblokkeerd.",
+        "pin_locked_history_tips": "De PIN-code {value} fout, de SIM-kaart is geblokkeerd.",
         "protocol_tips": "Het QCM/QMI-protocol is sneller, en het 3G-protocol heeft een betere compatibiliteit.",
         "certification_info_btn": "Certificatie-informatie",
-        "last_pin_tips": "Er is nog één laatste poging over om de PIN-code voor deze SIM-kaart te ontgrendelen, als het opnieuw mislukt, moet u de PUK-code gebruiken om deze te ontgrendelen. Om te voorkomen dat uw SIM-kaart wordt geblokkeerd, zal het apparaat niet opnieuw inbellen, dus gebruik alstublieft uw telefoon om deze te ontgrendelen.",
+        "last_pin_tips": "Er is nog één laatste poging over om de PIN-code voor deze SIM-kaart in te voerrn, als het opnieuw mislukt, moet u de PUK-code gebruiken om deze te ontgrendelen. Om te voorkomen dat uw SIM-kaart wordt geblokkeerd, zal het apparaat niet opnieuw inbellen, dus gebruik alstublieft uw telefoon om deze te ontgrendelen.",
         "need_pin_tips": "SIM-kaart is geblokkeerd, controleer of er een PIN-code is ingevoerd of dat de ingevoerde PIN-code correct is."
     },
     "sms": {
