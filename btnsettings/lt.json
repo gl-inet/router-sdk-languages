@@ -1,11 +1,11 @@
 {
     "btnsettings": {
         "fun_label": "Perjungimo mygtuko funkcija",
-        "no_config_tips": "Perjungimo mygtukas neveiks, jei nepridėta $$$$ kliento konfigūracija.",
-        "no_func_babel": "Nėra funkcijos",
-        "startup_tips": "Pastaba: Iš naujo paleidus įrenginį, {func} bus įjungta, jei Perjungimo mygtukas įjungtas, priešingu atveju bus išjungta.",
-        "auto_sync_tips": "Ar {func} įjungta/išjungta nedelsiant priklausomai nuo Perjungimo mygtuko būsenos?",
-        "vpn_client_tips": "Jums reikia nustatyti {vpnType} konfigūraciją {meunKey}, kad perjungimo jungiklis veiktų."
+        "no_config_tips": "Perjungimo mygtukas neveiks/neturės poveikio, jei – $$$$, nėra pridėta prie kliento konfigūracijos.",
+        "no_func_babel": "Nėra/Neturi funkcijos",
+        "startup_tips": "Pastaba: Iš naujo paleidus įrenginį, „{func}“ bus įjungta/įgalinta (-s), jei perjungimo mygtukas yra nuspaustas/nukreiptas tai reikšmei, priešingu atveju, jis bus išjungtas/neįgalintas.",
+        "auto_sync_tips": "Ar „{func}“ įjungta/įgalinta ar išjungta/neįgalinta (-as/-i) iškart, (priklausomai) nuo perjungimo mygtuko būsenos/pozicijos?",
+        "vpn_client_tips": "Jums reikia nustatyti – „{vpnType}“ konfigūraciją, kuris randamas – „{meunKey}“, kad perjungimo jungiklis veiktų."
     },
     "menu_btnsettings": "Perjungimo mygtuko nustatymai"
 }
