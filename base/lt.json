@@ -70,7 +70,7 @@
         "select_none_btn": "Atžymėti visus",
         "blacklist": "Blokuojamųjų sąrašas",
         "mode": "Režimas",
-        "advanced": "Išplėstinis",
+        "advanced": "Pažangus/-i",
         "current": "Esamas",
         "whitelist": "Leidžiamųjų sąrašas",
         "drag_sort": "Tempimo rūšiavimas",
@@ -86,7 +86,7 @@
         "debug": "Derinimas/Trukdžių šalinimas",
         "send": "Siųsti",
         "upload": "Įkelti",
-        "global_options": "Visuotinės parinktys",
+        "global_options": "Išorinės/Visuotinės parinktys",
         "interval_time": "Intervalo laikas",
         "low": "Žemas/-i",
         "medium": "Vidutinis/-ė",
@@ -172,7 +172,7 @@
         "illegal_subnet_mask_tips": "Neteisinga kaukė, kadangi potinklis yra {subnet}, kaukė negali būti mažesnė nei {min}."
     },
     "upload": {
-        "lass_than_tips": "(Mažiau nei $$$$)",
+        "lass_than_tips": "(Mažiau nei – $$$$)",
         "select_or_drag": "Pasirinkite failą arba nuvilkite jį čia",
         "file_include": "Failų tipai apima",
         "success": "Įkėlimas sėkmingas",
@@ -180,12 +180,12 @@
         "firmware_format_error": "Neteisingas progr. įrang. laikmenos formatas!",
         "error": "Nepavyko įkelti failo.",
         "format_error": "Duomenų formato klaida!",
-        "too_large_tips": "Įkeltas failas yra per didelis, prašome įkelti failą, kuris yra mažesnis nei $$$$ baitai."
+        "too_large_tips": "Įkeltas failas yra per didelis. Prašome įkelti failą, kuris yra mažesnis nei – $$$$ baitai/-as/-ų."
     },
     "system": {
-        "battery_err_tips": "Sistema neaptinka baterijos modulio, patikrinkite maitinimo jungtį arba bateriją dėl pažeidimų.",
-        "limit_tips": "Duomenys neturi viršyti {count} įvestų.",
-        "feature_unusable_tips": "Ši funkcija neveikia, nes įjungta {feature}.",
+        "battery_err_tips": "Sistema neaptinka baterijos/akumuliatoriaus modulio. Patikrinkite maitinimo jungtį arba pačią bateriją/akumuliatorių dėl fizinių/-ės pažeidimų/žalos.",
+        "limit_tips": "Duomenys neturi viršyti – {count} įvesčių.",
+        "feature_unusable_tips": "Ši funkcija neveikia, nes – {feature} yra įjungta/įgalinta (-as/-i).",
         "no_internet_base_tips": "Prašome patikrinti interneto aplinką ir bandyti dar kartą."
     }
 }
