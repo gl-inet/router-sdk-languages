@@ -77,8 +77,8 @@
         "quit_btn": "Quitter le mode de connexion",
         "modify_wifi_title": "Modifier les paramètres réseau",
         "allow_auto_portal_label": "Activer automatiquement le mode de connexion pour les points d'accès publics",
-        "need_enter_portal_tips": "Impossible d'accéder à Internet via le hotspot répété. Essayez d'entrer dans {portal} pour résoudre le problème. Notez que ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial).",
-        "allow_auto_portal_tips": "Si cette option est activée, ce routeur entrera automatiquement en mode de connexion pour les points d'accès publics lorsqu'il sera connecté avec succès à un hotspot mais pas à Internet. Ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial).",
+        "need_enter_portal_tips": "Impossible d'accéder à Internet via le hotspot répété. Essayez d'entrer dans {portal} pour résoudre le problème. Notez que ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données auprès du fournisseur du hotspot (par exemple, hôtel/centre commercial).",
+        "allow_auto_portal_tips": "Si cette option est activée, ce routeur entrera automatiquement en mode de connexion pour les points d'accès publics lorsqu'il sera connecté avec succès à un hotspot mais pas à Internet. Ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données auprès du fournisseur du hotspot (par exemple, hôtel/centre commercial).",
         "entered_portal_tips": "L'appareil est en mode de connexion pour les points d'accès publics. Les VPN et les DNS personnalisés ont été mis en pause, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial). Après une connexion réussie, ce routeur quitte automatiquement ce mode. {exit}.",
         "auto_portal_tips": "L'appareil est passé en mode de connexion pour les points d'accès publics afin d'accéder au portail captif du hotspot. Après une connexion réussie, il quittera automatiquement ce mode.",
         "to_auth_btn": "Aller à la connexion",
@@ -197,7 +197,7 @@
         "pin_locked_no_history_tips": "La carte SIM a été vérrouillé.",
         "pin_locked_history_tips": "Erreur de code PIN {value}, la carte SIM a été verrouillée.",
         "need_pin_tips": "La carte SIM est verrouillée, veuillez vérifier si un code PIN a été saisi ou si le code PIN saisi est correct.",
-        "last_pin_tips": "Il reste une dernière tentative pour déverrouiller le code PIN de cette carte SIM, si elle échoue à nouveau, vous devrez utiliser le code PUK pour la déverrouiller. Pour éviter que votre carte SIM ne soit bloquée, l'appareil ne composera plus, veuillez donc utiliser votre téléphone pour la déverrouiller.",
+        "last_pin_tips": "Il reste un dernier essai pour déverrouiller le code PIN de cette carte SIM, si la saisie échoue à nouveau, vous devrez utiliser le code PUK pour la déverrouiller. Pour éviter que votre carte SIM ne soit bloquée, l'appareil ne composera plus, veuillez donc utiliser votre téléphone pour la déverrouiller.",
         "region_code_label": "Code du pays / région"
     },
     "router_visual": {
