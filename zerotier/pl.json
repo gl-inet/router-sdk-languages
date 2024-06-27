@@ -1,17 +1,17 @@
 {
     "zerotier": {
-        "desc": "$$$$ZeroTier$$$$ tworzy bezpieczną, wirtualną sieć Ethernet typu peer-to-peer dostępną z dowolnego miejsca; obsługuje dostęp do urządzeń takich jak telefony, komputery itp. Możesz jej używać do zdalnego dostępu do swoich urządzeń lub sieci LAN.",
-        "first_use_tips": "ZeroTier łączy się z Twoją wirtualną siecią za pomocą identyfikatora sieci, który tworzysz na $$$$ZeroTier Central$$$$.",
-        "unauthorized_tips": "Urządzenie zostało dodane do ZeroTier. Proszę przejść do $$$$ZeroTier Central$$$$, aby autoryzować urządzenie do połączenia się z Twoją wirtualną siecią.",
-        "authorized_tips": "Urządzenie jest połączone z Twoją wirtualną siecią ZeroTier.",
-        "enable_nat_tips": "Urządzenie już pozwala klientom ZeroTier na dostęp do zasobów WAN lub LAN. Musisz ustawić reguły routingu w $$$$ZeroTier Central$$$$, aby zezwolić na przekazywanie żądań klientów przez wirtualną sieć ZeroTier:",
-        "auto_nat_label": "Zezwól na Zdalny Dostęp LAN&WAN",
+        "desc": "$$$$ZeroTier$$$$ tworzy bezpieczną, wirtualną sieć Ethernet typu peer-to-peer dostępną z dowolnego miejsca; obsługuje dostęp do urządzeń takich jak telefony, komputery itp. Możesz użyć go do zdalnego dostępu do swoich urządzeń lub sieci LAN.",
+        "first_use_tips": "ZeroTier łączy się z twoją wirtualną siecią za pomocą identyfikatora sieci, który tworzysz w $$$$ZeroTier Central$$$$.",
+        "unauthorized_tips": "Urządzenie zostało dodane do ZeroTier. Proszę przejść do $$$$ZeroTier Central$$$$, aby autoryzować urządzenie do połączenia z twoją wirtualną siecią.",
+        "authorized_tips": "Urządzenie jest połączone z wirtualną siecią ZeroTier.",
+        "enable_nat_tips": "Urządzenie już pozwala klientom ZeroTier na dostęp do zasobów WAN lub LAN. Musisz ustawić reguły routingu w $$$$ZeroTier Central$$$$, aby umożliwić przekazywanie żądań klientów przez wirtualną sieć ZeroTier:",
+        "auto_nat_label": "Zezwalaj na zdalny dostęp do LAN&WAN",
         "auto_nat_tips": "Jeśli ta opcja jest włączona, zasoby wewnątrz podsieci LAN i WAN mogą być dostępne przez wirtualną sieć ZeroTier.",
-        "current_ip_label": "Wirtualny IP Routera",
+        "current_ip_label": "Wirtualny adres IP routera",
         "not_found_tips": "ZeroTier nie znalazł identyfikatora sieci, proszę sprawdzić wprowadzoną wartość.",
-        "allow_lan_label": "Zezwól na Zdalny Dostęp LAN",
+        "allow_lan_label": "Zezwalaj na zdalny dostęp do LAN",
         "allow_wan_label": "Zezwól na zdalny dostęp do sieci WAN",
-        "allow_lan_tips": "Jeśli ta opcja jest włączona, zasoby wewnątrz sieci LAN urządzenia będą dostępne poprzez wirtualną sieć ZeroTier.",
+        "allow_lan_tips": "Jeśli ta opcja jest włączona, zasoby wewnątrz LAN urządzenia będą mogły być dostępne przez wirtualną sieć ZeroTier.",
         "allow_wan_tips": "Jeśli ta opcja jest włączona, zasoby po stronie WAN urządzenia będą dostępne poprzez wirtualną sieć ZeroTier."
     }
 }
