@@ -168,7 +168,7 @@
         "illegal_subnet_mask_tips": "Masque illégal, étant donné que le sous-réseau est {subnet}, le masque ne peut pas être inférieur à {min}.",
         "mac_real_label": "Usine",
         "mac_format_tips": "le bit le moins significatif du premier octet ne doit pas être réglé sur 1 (c'est-à-dire que le deuxième chiffre hexadécimal ne doit pas être impair).",
-        "mtu_ipv6_warning_tips": "IPv6 ne peut pas fonctionner si le MTU est inférieur à 1280.",
+        "mtu_ipv6_warning_tips": "IPv6 ne peut pas fonctionner lorsque le MTU est inférieur à 1280.",
         "illegal_subnet_tips": "Sous-réseaux illégaux, les trois derniers bits doivent être 0."
     },
     "upload": {
