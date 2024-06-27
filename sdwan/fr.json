@@ -1,11 +1,11 @@
 {
     "sdwan": {
-        "nodes_title": "Topologie du réseau",
+        "nodes_title": "Topologie réseau",
         "real_time_data_title": "Données en temps réel",
         "download_data_title": "Données de trafic téléchargées",
         "interface_title": "Interfaces",
         "no_device_tips": "Vous devez ajouter l'appareil à l'un des réseaux virtuels dans {cloud} pour utiliser cette fonctionnalité.",
-        "device_tips": "Vous avez été ajouté au réseau virtuel {network}. Veuillez aller sur {cloud} pour modifier les paramètres.",
+        "device_tips": "Vous avez été ajouté au réseau virtuel {network}. Veuillez aller à {cloud} pour modifier les paramètres.",
         "real_time_data_tips": "Inclut uniquement les données de l'appareil qui ont transité par la passerelle ; cela peut différer des données totales rapportées par votre facturation.",
         "upload_data_title": "Données de trafic envoyées",
         "interface_tips": "Vous pouvez désactiver des interfaces spécifiques rejoignant ce réseau virtuel."
