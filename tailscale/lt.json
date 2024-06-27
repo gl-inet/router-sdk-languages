@@ -1,1 +1,24 @@
-{}
+{
+    "tailscale": {
+        "desc": "„Tailscale“ leidžia Jums prieiti prie prietaisų iš bet kurios pasaulio vietos saugiai ir be pastangų. Jis įgalina užšifruotus taškas-į-tašką ryšius, o tai reiškia, kad tik Jūsų privataus tinklo įrenginiai gali tarpusavyje bendrauti. Galite naudoti jį, norėdami nuotoliniu būdu pasiekti savo įrenginius ar vietinį tinklą („LAN“).",
+        "need_login_tips": "„Tailscale“ tarnyba įjungta/įgalinta, bet prietaisas dar nesusietas. Prašome susieti šį prietaisą su savo „Tailscale“ paskyra, naudojant – $$$$prietaiso susiejimo nuoroda$$$$.",
+        "need_mandate_tips": "Šis prietaisas susietas su „Tailscale“ paskyra, bet dar neautorizuotas prieigai prie tinklo. Prašome nueiti į – $$$$„Tailscale“ administravimo konsolę$$$$, kad autorizuotumėte prietaisą jungtis, prie Jūsų virtualaus tinklo. Jei tai nėra Jūsų paskyra, prašome ją pirmiausia atsieti.",
+        "enable_lan_tips": "Prietaisas jau leidžia „Tailscale“ klientams pasiekti išteklius, vietiniame tinkle („LAN“) arba plačiajame tinkle („WAN“). Tačiau Jums reikia redaguoti maršruto nustatymus $$$$„Tailscale“ administravimo konsolėje$$$$, kad klientų užklausos būtų nukreiptos/persiųstos į prietaisą per „Tailscale“ virtualų tinklą.",
+        "ready_tips": "Prietaisas prijungtas prie Jūsų „Tailscale“ virtualaus tinklo.",
+        "enable_lan_label": "Leisti nuotolinei prieigai prie vietinio tinklo („LAN“)",
+        "account_label": "Susieti paskyrą",
+        "logout_btn": "Atsieti",
+        "current_ip_label": "Maršrutizatoriaus virtualus IP",
+        "get_url_err_msg": "Nepavyko gauti prietaiso susiejimo nuorodos.",
+        "enable_wan_label": "Leisti nuotolinei prieigai prie plačiajo tinklo („WAN“)",
+        "allow_lan_tips": "Jei ši parinktis – įgalinta, tada prietaiso vietiniame tinkle („LAN“) esantys ištekliai, bus leidžiami pasiekti per „Tailscale“ virtualų tinklą.",
+        "allow_wan_tips": "Jei ši parinktis – įgalinta, tada prietaiso plačiajame tinkle („WAN“) esantys ištekliai, bus leidžiami pasiekti per „Tailscale“ virtualų tinklą.",
+        "exit_node_tips": "Jei pasirinktas tinklo išėjimo mazgas nepasiekiamas arba negali pasiekti interneto, tada prietaisas negalės sinchronizuoti nustatymų su „Tailscale“.",
+        "custom_exit_node_tips": "Jei ši parinktis – įgalinta, prietaisas nukreips/persiųs visus prašymus į tinklo išėjimo mazgą. Prieš įgalinant, Jums reikia įgalinti šio prietaiso potinklio maršrutus – {subnet}, randamus – $$$$„Tailscale“ administravimo konsolėje$$$$, kad „Tailscale“ galėtų nukreipti/persiųsti klientų užklausas; kitaip, Jūsų klientai negalės pasiekti interneto.",
+        "custom_exit_node_warning": "Jei įgalinsite – pasirinktinį tinklo išėjimo mazgą, prietaisas nukreips/persiųs vis užklausimus į Išėjimo Mazgą. Prieš įgalinant, Jums reikia įgalinti šio prietaiso potinklio maršrutus – {subnet}, randamus – $$$$„Tailscale“ administravimo konsolėje$$$$, kad „Tailscale“ galėtų nukreipti/persiųsti klientų užklausas; kitaip, Jūsų klientai negalės pasiekti interneto.",
+        "dns_warning_tips": "Naudojant „intranet“ IP adresą kaip „DNS“; Jūs galimai negalėsite pasiekti šį „DNS“ serverį.",
+        "manual_node_label": "Pasirinktinis tinklo išėjimo mazgas",
+        "exit_node_label": "Tinklo išėjimo mazgas",
+        "current_ip_tips": "„Tailscale“ naudoja – 100.64.0.0/10 potinklį, kuris gali konfliktuoti su interneto paslaugų teikėjo paskirtu adresu arba „VPN“ kliento adresu. Jei Jūsų plačiajame tinkle („WAN“) esantis IP arba „VPN“ IP yra šiame potinklyje, išjunkite „Tailscale“, kad išvengtumėte tinklo neprieinamumo problemų."
+    }
+}

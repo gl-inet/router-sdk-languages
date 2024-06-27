@@ -1,1 +1,11 @@
-{}
+{
+    "tor": {
+        "desc": "„Tor“ (kilmė iš – „The Onion Router“) yra nemokamas, atviro kodo, taikomoji programa anoniminei komunikacijai užtikrinti. Ji padeda vartotojams/naudotojams naršyti internete, išlaikant privatumą.",
+        "matter_tips": "Ši funkcija šiuo metu yra „beta“ versijoje ir kai kuriose šalyse galite patirti sunkumų/trikdžių.",
+        "manual_label": "Pasirinktinis tinklo išėjimo mazgas",
+        "exit_node_label": "Išeiti iš tinklo mazgo",
+        "exit_node_tips": "Jūs galite nustatyti pasirinktinę vietą, kuri atsiras ir bus rodoma sekikliuose.",
+        "log_title": "„Tor“ žurnalas",
+        "use_tips": "Įjungus – „Tor“, šios funkcijos neveiks tinkamai: „VPN“, „DNS“, „IPv6“ ir „Adguard Home“."
+    }
+}

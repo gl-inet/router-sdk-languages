@@ -1,1 +1,7 @@
-{}
+{
+    "menu_hwnat": "Akceleracja sprzętowa",
+    "hwnat": {
+        "desc": "Akceleracja sprzętowa zmniejsza ogólne obciążenie procesora i przyspiesza przekazywanie pakietów danych, ale może kolidować z niektórymi funkcjami.",
+        "tips": "Gdy włączona jest akceleracja sprzętowa, następujące funkcje nie będą działać poprawnie: Statystyki prędkości i ruchu klienta, Limit prędkości klienta."
+    }
+}

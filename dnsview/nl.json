@@ -30,7 +30,7 @@
         "server_warning_tips": "The server lijkt te zijn verlopen.",
         "form_interface_label": "DNS van {interface}",
         "edit_host_btn": "Hosts bewerken",
-        "desc": "Wanneer u aangepaste DNS-servers instelt, worden alle DNS-verzoeken via deze servers opgelost (in plaats van de DNS-servers verkregen via Ethernet, Repeater, Mobiel, Tethering). Anders gebruikt u de DNS-instellingen die voor elke interface zijn geconfigureerd.",
+        "desc": "Wanneer u aangepaste DNS-servers instelt, worden alle DNS-gegevens via deze servers opgezocht (in plaats van de DNS-servers verkregen via ethernet, repeater, mobieletelefonie, tethering). Anders gebruikt u de DNS-instellingen die per interface kunnen worden geconfigureerd.",
         "rebinding_tips": "Als u deze optie inschakelt, kan een privé-DNS-zoekopdracht mislukken. Als uw netwerk een captive portal heeft, schakel deze optie uit.",
         "v1_tips": "De router gebruikt versie v1 van DNS. Niet alle gecodeerde DNS-servers worden ondersteund.",
         "server_tips": "U kunt maximaal acht servers kiezen. De router kiest automatisch de snelste server.",
@@ -38,7 +38,7 @@
         "host_tips": "Verzoeken van apparaten worden in eerste instantie opgelost met behulp van de statische DNS-regels die u in hosts hebt geconfigureerd.",
         "adguardhome_in_use_tips": "AdGuard Home is ingeschakeld en deze router zal de DNS-server die door AdGuard Home wordt aangeboden gebruiken als de aangepaste DNS-server. De DNS-serverinstellingen zullen niet werken.",
         "bark_enable_override_tips": "Bark blokkeert bijna alle DNS-verzoeken van apparaten die naar internet worden verzonden. Als u deze optie inschakelt terwijl Bark werkt, hebben uw apparaten mogelijk geen toegang tot het internet.",
-        "override_vpn_tips": "Als deze optie is ingeschakeld, worden pakketten die via de VPN-tunnel worden verzonden opgelost met behulp van de aangepaste DNS-overschrijving in plaats van de DNS-serverinstellingen van de VPN-verbindingen, zodra u aangepaste DNS heeft ingesteld.",
-        "override_vpn_label": "Aangepaste DNS toestaan om VPN DNS te overschrijven"
+        "override_vpn_tips": "Als deze optie is ingeschakeld, worden pakketten die via de VPN-tunnel wordt de bestemming met behulp van de aangepaste DNS-overschrijving opgezocht in plaats van de DNS-serverinstellingen van de VPN-verbindingen, zodra u aangepaste DNS heeft ingesteld.",
+        "override_vpn_label": "Sta toe dat de aangepaste DNS-instellingen de DNS-instellingen van de VPN overschrijven"
     }
 }

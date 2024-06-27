@@ -23,7 +23,11 @@
         "dsf_starting": "Vérification de la disponibilité des canaux. Le processus prendra $$$$. Veuillez patienter …",
         "dsf_conflict": "Le Wi-Fi 5GHz sera temporairement indisponible parce qu'un radar utilise le canal qui est actuellement utilisé par le routeur.",
         "channel_auto_dfs_tips": "Lorsque votre bande passante est réglée sur 160 MHz, le Wi-Fi utilise toujours le canal DFS, même si vous choisissez un canal non DFS ou l'option \"$$$$\".",
-        "channel_auto_tips": "Lorsque vous sélectionnez l'option \"$$$$\", le Wi-Fi ne bascule pas automatiquement sur le canal DFS."
+        "channel_auto_tips": "Lorsque vous sélectionnez l'option \"$$$$\", le Wi-Fi ne bascule pas automatiquement sur le canal DFS.",
+        "lan_guest_conflict_tips": "Le Wi-Fi invité ne peut pas être activé car {guest} est en conflit avec {lan}.",
+        "enable_random_bssid_label": "Activer le BSSID aléatoire",
+        "random_bssid_enabled_tips": "Si cette option est activée, l'appareil utilise un BSSID généré aléatoirement et le renouvelle à chaque redémarrage.",
+        "random_bssid_disabled_tips": "L'utilisation d'un BSSID statique peut vous exposer à un suivi. Si votre appareil client nécessite l'utilisation d'un BSSID statique, il est recommandé de définir le SSID comme étant caché. {more}"
     },
     "menu_wireless": "Réseau sans-fil"
 }

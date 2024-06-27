@@ -1,1 +1,20 @@
-{}
+{
+"adguardhome": {
+"desc": "„AdGuard Home“ – yra viso tinklo taikomoji programa, kuri blokuoja reklamas/skelbimus ir sekimą. Kai ji sukonfigūruota, ji apsaugos VISUS Jūsų namų tinklo įrenginius, papildomų kliento pusės, plėtinių ar programų nereikia. Šis puslapis gauna statistiką per „AdGuard Home“ pateiktą „API“. Kai „AdGuard Home“ įgalinta, tada maršrutizatorius privers naudoti „AdGuard Home“ pateiktus „DNS“ serverius.",
+"tips": "Prašome eiti į $$$$Nustatymų puslapį$$$$, kad atliktumėte išplėstinę „Adguard Home“ konfigūraciją.",
+"dns_querie_title": "„DNS“ užklausos",
+"top_queried_domain": "Dažniausiai užklausiami domenai-sritys",
+"top_blocked_domain": "Dažniausiai blokuojami domenai-sritys",
+"blocked_filtering_title": "Blokuota filtrų",
+"replaced_safebrowsing_title": "Blokuotos kenkėjiškos šnipinėjimų/išpirkos reikalaujančios programos",
+"replaced_parental_title": "Blokuotos suaugusiems skirtos svetainės",
+"for_last_one_day": "Per paskutines 24-ias valandas",
+"for_last_days": "Per paskutines/-ius $$$$ dienas/-ų",
+"not_disabled_dns_msg": "Joks kitas „DNS“ yra išjungtas",
+"domain_th": "Domenas-Sritis",
+"request_th": "Užklausų skaičius",
+"no_data": "Nėra duomenų",
+"process_req_label": "„AdGuard Home“ tvarko klientų užklausas",
+"process_req_tips": "Jei ši parinktis – įgalinta, „DNS“ užklausos iš klientų įrenginių, bus tiesiogiai tvarkomos – „AdGuard Home“. „AdGuard Home“ rodys klientų „DNS“ užklausų žurnalus, tačiau dėl to neveiks „VPN“ politikos, kurios pagrįstos domenu-sritimi."
+}
+}

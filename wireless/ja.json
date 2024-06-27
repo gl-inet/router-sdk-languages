@@ -23,7 +23,11 @@
         "dsf_starting": "チャネルの可用性を確認中のため、$$$$かかります。しばらくお待ちください..…",
         "dsf_conflict": "レーダーがルータで使用されているチャネルを使用していることが検出されたため、5GHz Wi-Fiは一時的に接続できなくなります。",
         "channel_auto_tips": "「$$$$」オプションを選択すると、Wi-Fi は自動的に DFS チャネルに切り替わりません。",
-        "channel_auto_dfs_tips": "帯域幅が160 MHzに設定されている場合、非DFSチャネルまたは「$$$$」オプションを選択した場合でも、Wi-Fi は常にDFSチャネルを使用します。"
+        "channel_auto_dfs_tips": "帯域幅が160 MHzに設定されている場合、非DFSチャネルまたは「$$$$」オプションを選択した場合でも、Wi-Fi は常にDFSチャネルを使用します。",
+        "random_bssid_disabled_tips": "静的BSSIDの使用は追跡される原因となる可能性があります。クライアントデバイスが静的BSSIDの使用を要求する場合は、SSIDを非表示に設定することをお勧めします。{more}",
+        "enable_random_bssid_label": "ランダム化されたBSSIDを有効にする",
+        "lan_guest_conflict_tips": "ゲストWi-Fiは、{guest}が{lan}と競合しているため、有効にすることができません。",
+        "random_bssid_enabled_tips": "このオプションを有効にすると、デバイスはランダムに生成されたBSSIDを使用し、リブートごとにそれを更新します。"
     },
     "menu_wireless": "無線"
 }

@@ -1,1 +1,17 @@
-{}
+{
+    "login": {
+        "login": "Prisijungti",
+        "admin_password": "Administratoriaus slaptažodis",
+        "password_hint": {
+            "placeholder": "Prašome įvesti slaptažodį",
+            "null": "ĮSPĖJIMAS: Laukas negali būti tuščias!"
+        },
+        "forgot_password": {
+            "title": "Pamiršau slaptažodį",
+            "desc": "Pabandykite paspausti ir palaikyti mygtuką – „Reset/Atstatyti“ nuspaustą 10-imt sekundžių, tada paleiskite. Jūs matysite, kaip mirksi „LED“ šviesos lemputė. Palaukite, kol maršrutizatorius pasileis iš naujo, tada pradėkite iš naujo.",
+            "online_docs": "Internetinė dokumentacija"
+        },
+        "err_msg": "Neteisingas vartotojo/naudotojo vardas arba slaptažodis!",
+        "retry_after": "Per daug nesėkmingų prisijungimo bandymų, prašome pabandyti dar kartą po $$$$ sekundės/-žių."
+    }
+}

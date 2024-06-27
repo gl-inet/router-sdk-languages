@@ -2,12 +2,12 @@
     "sdwan": {
         "nodes_title": "Netwerktopologie",
         "real_time_data_title": "Real-time Gegevens",
-        "download_data_title": "Downloadverkeer Gegevens",
+        "download_data_title": "Gegevensdownloadverkeer",
         "real_time_data_tips": "Bevat alleen de gegevens van het apparaat die via de Gateway zijn gepasseerd; dit kan verschillen van het totaal dat door uw factureringsgegevens wordt gerapporteerd.",
-        "upload_data_title": "Uploadverkeer Gegevens",
+        "upload_data_title": "Gegevensuploadverkeer",
         "interface_tips": "U kunt specifieke interfaces uitschakelen die aan dit virtuele netwerk deelnemen.",
         "interface_title": "Interfaces",
-        "no_device_tips": "U moet het apparaat toevoegen aan een van de virtuele netwerken in {cloud} om deze functie te gebruiken.",
+        "no_device_tips": "U moet het apparaat toevoegen aan een van de virtuele netwerken in {cloud} om deze functie te kunnen gebruiken.",
         "device_tips": "U bent toegevoegd aan het virtuele netwerk {network}. Ga naar {cloud} om de instellingen te wijzigen."
     },
     "menu_sdwan": "AstroWarp"
