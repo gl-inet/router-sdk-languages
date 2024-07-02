@@ -1,7 +1,7 @@
 {
     "netadvanced": {
         "full_cone_nat_tips": "A Full Cone NAT használható a játék késleltetésének csökkentésére, de a Full Cone NAT engedélyezése kevésbé biztonságos lehet.",
-        "sip_alg_tips": "A SIP ALG használható a többszörös NAT hatásainak mérséklésére, de a legtöbb esetben nem segít. A SIP ALG engedélyezése befolyásolhatja a VoIP hívásokat, például az egyirányú hangátvitelt (csak az egyik fél hallja a másikat), a hívások során nem csörögnek a telefonok, a kapcsolat megszakadása közben, és a hívások közvetlenül a hangpostára mennek."
+        "sip_alg_tips": "A SIP ALG használható a többszörös NAT-ok hatásainak mérséklésére, de a legtöbb esetben nem segít. A SIP ALG engedélyezése befolyásolhatja a VoIP hívásokat, mint például az egyirányú hangátvitelt (csak az egyik fél hallja a másikat), a telefonok nem csörögnek hívás közben, a telefonok lekapcsolódnak kapcsolat közben, és a hívások közvetlenül a hangpostára mennek."
     },
     "menu_netadvanced": "NAT beállítások"
 }
