@@ -1,6 +1,6 @@
 {
     "nas": {
-        "nas_tips": "Šiame puslapyje pateikiama tik bendrinamų aplankų valdymo funkcija. Jei norite valdyti failus savo saugojimo įrenginyje, prašome $$$$Naudoti išmaniojo telefono programėles$$$$.",
+        "nas_tips": "Šiame puslapyje pateikiama tik bendrinamų aplankų valdymo funkcija. Jei norite valdyti failus savo saugyklos/disko įrenginyje, prašome – $$$$Naudoti išmaniojo telefono programėles $$$$.",
         "file_server_label": "Failų tarnybos",
         "share_folder_label": "Bendrinami aplankai",
         "user_manage_label": "Naudotojų/Vartotojų valdymas",
@@ -9,7 +9,7 @@
         "remove_all_user_caution": "Ar tikrai norite pašalinti visus naudotojus/vartotojus?",
         "remove_user_caution": "Ar tikrai norite pašalinti naudotoją/vartotoją?",
         "already_user": "naudotojas/vartotojas jau egzistuoja",
-        "eject_disk_caution": "Ar tikrai norite išstumti diską? Jei kažkas naudoja jūsų bendrintus failus, naršymas, įkėlimas ir atsisiuntimas bus nutraukti.",
+        "eject_disk_caution": "Ar tikrai norite išstùmti diską? Jei kažkas naudoja Jūsų bendrintus failus, juos naršo, vykdo įkėlimus ar bando atsisiųsti juos, tada jie bus nutraukti/įvyks lūžis.",
         "disk_title": "Diskų valdymas",
         "disk_name_th": "Disko pavadinimas",
         "disk_size_th": "Disko dydis/talpa",
@@ -18,7 +18,7 @@
         "no_device": "Įrenginys/-iai neaptiktas/-i",
         "arrow_wan_label": "Leisti prieigą – $$$$ iš „WAN“",
         "has_shared": "Bendrinama/-s",
-        "shared_folder_tips": "Norėdami per šį protokolą pasiekti bendrinamus aplankus, turite įjungti atitinkamą failų tarnybą ( {protos} ).",
+        "shared_folder_tips": "Norėdami per šį protokolą pasiekti bendrinamus aplankus, turite įjungti/įgalinti atitinkamą failų tarnybą ( „{protos}“ ).",
         "path_th": "Kelias",
         "access_proto_th": "Prieigos protokolas",
         "is_ok_th": "Galiojimas/Tikrùmas",
@@ -44,16 +44,16 @@
         "free_space": "$$$$ laisva/-s/-i iš $$$$",
         "later_add_btn": "Pridėti vėliau",
         "fast_share_btn": "Greitosios sąrankos bendrinimas",
-        "no_disk_tips": "Prašome pirmiausia įterpti saugojimo įrenginį",
-        "share_link_tips": "Aplankas buvo pasidalintas. Naudokite šią sujungimą, kad prijungtumėte aplanką kaip tinklo diską prie savo kompiuterio arba telefono.",
+        "no_disk_tips": "Prašome pirmiausia įterpti saugyklos/disko įrenginį",
+        "share_link_tips": "Aplankas buvo pasidalintas. Naudokite šį sujungimą, kad prijungtumėte aplanką kaip tinklo diską prie savo kompiuterio ar telefono.",
         "no_user_tips": "Prašome pasirinkti bent vieną rašomąjį naudotoją/vartotoją arba tik skaitymo naudotoją/vartotoją.",
         "nfs_tips": "Diskai su „exFAT“ formatu, negali būti bendrinami per „NFS“ protokolą.",
         "ftp_fat32_tips": "„FTP“ protokolas dar nepalaiko duomenų rašymo į „FAT32“ formatu suformatuotus diskus.",
         "format_th": "Formatuoti",
         "users_limit_tips": "Leidžiama ne daugiau kaip 10-imt naudotojų/vartotojų.",
-        "serve_not_enable_tips": "Jūs neįjungėte NAS failų dalijimosi sutarties, kol to nepadarėte, prieigos sujungimas neįsigalios.",
+        "serve_not_enable_tips": "Jūs neįjungėte „NAS“ failų dalijimosi sutarties, kol to nepadarėte, prieigos sujungimas neįsigalios.",
         "fat32_warning": "„FAT“ formato diskai yra mažiau suderinami su dideliais failais, rekomenduojama naudoti „exFAT“ formatą.",
-        "limit_share_folder_tips": "Pridėkite iki {count} bendrinamų aplankų, ir kiekvienam bendrinamam aplankui galima pridėti papildomų dalijimosi protokolų."
+        "limit_share_folder_tips": "Pridėkite iki – {count} bendrinamų aplankų; ir kiekvienam bendrinamam aplankui galima pridėti papildomų dalijimosi protokolų."
     },
     "menu_nasview": "Tinklo saugykla/vietovė"
 }
