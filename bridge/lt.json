@@ -31,10 +31,10 @@
         "get_ip_fail_msg": "Nepavyko gauti IP adreso.",
         "passthrough_desc": "Jei įgalintas IP perėjimo režimas, maršrutizatorius perduos teikėjo IP adresą į „LAN“ prievadą.",
         "passthrough_close_warning": "Jei perjungsite į šį režimą, tada kartotùvas, belaidis/bevielis, klientai ir „AdGuard Home“ bus išjungti.",
-        "passthrough_conflict_warning": "Šis režimas gali neveikti, jei įjungti šie nustatymai: „Tethering“, įjungtas „Drop-In Gateway“ režimas, IPv6, rankiniu būdu nustatytas DNS, „Multi-WAN“ nustatytas į apkrovos balansavimo režimą, WAN prievadas nustatytas kaip LAN, naudojama VPN politika, pridėtas bet koks užkardos nustatymas, rankiniu būdu nustatytas MAC adresas.",
-        "passthrough_conflict_2b_warning": "Šis režimas gali neveikti, jei turite šiuos nustatymus: įjungtas „Drop-In Gateway“ režimas, įjungtas IPv6, rankiniu būdu nustatytas DNS, nustatytas „Multi-WAN“ į apkrovos balansavimo režimą, WAN prievadas nustatytas kaip LAN, naudojama VPN politika, pridėtas bet koks užkardos nustatymas, rankiniu būdu nustatytas MAC adresas.",
-        "passthrough_secondwan_warning": "„IP Passthrough“ režimui reikalingas ir gali būti tik vienas WAN prievadas. Prašome eiti į $$$$ puslapį, kad pakeistumėte nustatymus ir atšauktumėte WAN prievado naudojimą kaip LAN prievadą arba atšauktumėte LAN naudojimą kaip WAN prievadą.",
-        "set_up_bridge_tips": "Norėdami nustatyti „Bridge“ režimą, pirmiausia turite prijungti „Ethernet“ laidą prie WAN prievado."
+        "passthrough_conflict_warning": "Šis režimas gali neveikti, jei įjungti/įgalinti šie nustatymai: „Saitvietė“, „Tinklo tarpuvartės užsukimo režimas“, „IPv6“, „Rankiniu būdu nustatytas „DNS““, „Daugiasąsajinis („Multi-WAN“) nustatytas į apkrovos balansavimo režimą“, „„WAN“ prievadas nustatytas kaip „LAN““, „Naudojama „VPN“ politika“, „Pridėtas bet koks užkardos nustatymas“ ar „Rankiniu būdu nustatytas „MAC“ adresas“.",
+        "passthrough_conflict_2b_warning": "Šis režimas gali neveikti, jei įjungti/įgalinti šie nustatymai: „Tinklo tarpuvartės užsukimo režimas“, „IPv6“, „Rankiniu būdu nustatytas „DNS““, „Daugiasąsajinis („Multi-WAN“) nustatytas į apkrovos balansavimo režimą“, „„WAN“ prievadas nustatytas kaip „LAN““, „Naudojama „VPN“ politika“, „Pridėtas bet koks užkardos nustatymas“ ar „Rankiniu būdu nustatytas „MAC“ adresas“.",
+        "passthrough_secondwan_warning": "IP perėjimo režimas reikalauja, kad būtų tik vienas „WAN“ prievadas. Prašome eiti į – $$$$ puslapį, kad pakeistumėte/redaguotumėte nustatymus ir atšauktumėte „WAN“ prievado naudojimą kaip „LAN“ prievadą arba, kad atšauktumėte „LAN“ prievado naudojimą kaip „WAN“ prievadą.",
+        "set_up_bridge_tips": "Norėdami nustatyti „tinklo tiltą“ – jungimo“ režimą, pirmiausia turite prijungti „eterneto“ laidą prie „WAN“ prievado."
     },
     "menu_bridge": "Tinklo režimas"
 }
