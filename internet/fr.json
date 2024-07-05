@@ -11,7 +11,7 @@
         "repeated": "Connexion réussie sans avoir à se reconnecter",
         "pppoe_log": "Journal de connexion PPPoE",
         "setting": "Paramètres Ethernet",
-        "dhcp_tips": "L'adresse IP est attribuée par la machine réseau supérieure.",
+        "dhcp_tips": "L'adresse IP est attribuée par un appareil réseau supérieur.",
         "pppoe_vlanid_tips": "Cette entrée n'est nécessaire que si le serveur PPPoE du fournisseur exige que l'interface utilise un ID VLAN spécifique.",
         "egderouter_mode_tips": "La passerelle Drop-in est activée. Si vous souhaitez modifier les paramètres Ethernet, veuillez d'abord désactiver $$$$Passerelle Drop-in$$$$.",
         "change_to_wan_tips": "Une fois que le port LAN est utilisé comme port WAN, vous ne pourrez pas accéder au panneau d'administration via ce port Ethernet connecté au port LAN. Assurez-vous que votre client peut se connecter au Wi-Fi ou à un autre port LAN.",
@@ -47,7 +47,7 @@
         "lock_band_tips": "Si vous sélectionnez manuellement une fréquence, le routeur ne recherchera pas de WiFi avec une autre fréquence et ne s'y connectera pas.",
         "join_wifi": "Se connecter au WiFi",
         "join_title": "Se connecter au réseau",
-        "detail_title": "Details du réseau",
+        "detail_title": "Détails du réseau",
         "available_wifi": "Réseaux disponibles",
         "join_other": "Se connecter à un autre réseau",
         "ssid": "SSID",
@@ -77,8 +77,8 @@
         "quit_btn": "Quitter le mode de connexion",
         "modify_wifi_title": "Modifier les paramètres réseau",
         "allow_auto_portal_label": "Activer automatiquement le mode de connexion pour les points d'accès publics",
-        "need_enter_portal_tips": "Impossible d'accéder à Internet via le hotspot répété. Essayez d'entrer dans {portal} pour résoudre le problème. Notez que ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données auprès du fournisseur du hotspot (par exemple, hôtel/centre commercial).",
-        "allow_auto_portal_tips": "Si cette option est activée, ce routeur entrera automatiquement en mode de connexion pour les points d'accès publics lorsqu'il sera connecté avec succès à un hotspot mais pas à Internet. Ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données auprès du fournisseur du hotspot (par exemple, hôtel/centre commercial).",
+        "need_enter_portal_tips": "Impossible d'accéder à Internet via le hotspot répété. Essayez d'entrer {portal} pour résoudre le problème. Notez que ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial).",
+        "allow_auto_portal_tips": "Si cette option est activée, ce routeur entrera automatiquement en mode de connexion pour les points d'accès publics lorsqu'il sera connecté avec succès à un hotspot mais pas à Internet. Ce mode mettra en pause les VPN et les DNS personnalisés jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial).",
         "entered_portal_tips": "L'appareil est en mode de connexion pour les points d'accès publics. Les VPN et les DNS personnalisés ont été mis en pause, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial). Après une connexion réussie, ce routeur quitte automatiquement ce mode. {exit}.",
         "auto_portal_tips": "L'appareil est passé en mode de connexion pour les points d'accès publics afin d'accéder au portail captif du hotspot. Après une connexion réussie, il quittera automatiquement ce mode.",
         "to_auth_btn": "Aller à la connexion",
@@ -88,7 +88,7 @@
         "enable_disguise_tips": "Si cette option est activée, ce routeur se camouflera en tant que même appareil que celui que vous utilisez actuellement.",
         "portal_auth_mode_btn": "Mode de connexion pour les points d'accès publics",
         "enable_disguise_label": "Activer le camouflage",
-        "cannot_accessed_portal_url_tips": "Si vous ne pouvez pas accéder à la page de connexion, essayez de désactiver les autres connexions Internet (par exemple, ethernet, connexion mobile)."
+        "cannot_accessed_portal_url_tips": "Si vous ne pouvez pas accéder à la page de connexion, essayez de désactiver les autres connexions Internet (par exemple, ethernet, Connexion mobile)."
     },
     "modem": {
         "title": "Cellulaire",
