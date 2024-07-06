@@ -17,7 +17,7 @@
         "priority_title": "Sąsajos ir/arba Sietuvo prioritetas",
         "ratio_title": "Apkrovos santykis",
         "track_desc": "Maršrutizatorius seka ryšio su paskirties IP būklę, kad nustatytų, ar sąsaja ir/arba sietuvas yra pasiekiamas.",
-        "track_enable_tips": "Jei sekimas yra išjungtas, įrenginys laikys, kad sąsaja ir/arba sietuvas yra prijungtas prie interneto, kai sąsaja ir/arba sietuvas yra prijungtas (pvz., jei kištukas įkištas ir gautas IP adresas).",
+        "track_enable_tips": "Jei sekimas yra – išjungtas/neįgalintas, įrenginys laikys nuostatą, kad sąsaja ir/arba sietuvas turi pasiekimą/prieigą prie interneto, kai sąsaja ir/arba sietuvas yra prijungtas (pvz., jei kištukas įkištas ir gautas IP adresas).",
         "track_proto_label": "Sekimo protokolas",
         "track_method_label": "Sekimo komanda",
         "interval_label": "Sekimo intervalas",
@@ -35,7 +35,7 @@
         "passive_label": "Mažo kiekio duomenų režimas",
         "sensitivity_label": "Jautrumas",
         "sensitivity_tips": "Šis jautrumas nustato interneto būklės nustatymo laiko intervalą. Rekomenduojama naudoti žemą jautrumą, kai interneto prieiga yra nestabili, siekiant išvengti dažno tinklo perjungimo; rekomenduojama naudoti aukštą jautrumą, kai žiūrima vaizdo medžiaga arba vyksta tiesioginė transliacija, kad galėtumėte greitai perjungti interneto prieigą; perjungimas į aukštą jautrumą gali sukelti tinklo atsijungimą. Prašome reguliuoti atsargiai.",
-        "track_mode_tips": "Jei ši parinktis įjungta, sekimas vyks tik tada, kai bus sąsajos tinklo klaida. Rekomenduojama tai įjungti sąsajoms, kurios naudoja duomenų srauto apmokestinimą.",
+        "track_mode_tips": "Jei ši parinktis – įjungta/įgalinta, tada sekimas vyks tik tada, kai bus sąsajos ir/arba sietuvo tinklo klaida. Rekomenduojama tai įjungti/įgalinti sąsajoms ir/arba sietuvams, kurios naudoja duomenų srauto apmokestinimą (ribotų duomenų planai).",
         "network_tracking_title": "„{interface}“ – būklės/būsenos sekimas"
     }
 }
