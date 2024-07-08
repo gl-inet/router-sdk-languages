@@ -34,11 +34,11 @@
         "server_tips": "Puoi scegliere fino a otto server. Il router sceglierà automaticamente il server più veloce tra questi.",
         "mode": "Modalità",
         "host_tips": "Le richieste dei client saranno risolte, inizialmente, utilizzando le regole DNS statiche scritte in Hosts.",
-        "adguardhome_in_use_tips": "Adguard Home è attivo e questo router utilizzerà il server DNS fornito da Adguard Home come server DNS personalizzato. Le impostazioni del server DNS non funzioneranno.",
+        "adguardhome_in_use_tips": "AdGuard Home è attivo e questo router utilizzerà il server DNS fornito da AdGuard Home come server DNS personalizzato. Le impostazioni del server DNS non funzioneranno.",
         "server_warning_tips": "Sembra che il server sia scaduto.",
         "form_interface_label": "DNS Etichetta del Modulo {interface}",
         "bark_enable_override_tips": "Bark blocca praticamente tutte le richieste DNS dai Client verso Internet. Se abiliti questa opzione mentra Bark è in funzione, i tuoi Client potrebbero non essere in grado di accedere Internet.",
-        "override_vpn_label": "Permetti al DNS personalizzato di sovrascrivere il DNS VPN",
+        "override_vpn_label": "Consenti al DNS personalizzato di sovrascrivere il DNS VPN",
         "override_vpn_tips": "Se questa opzione è abilitata, una volta impostato un DNS personalizzato, i pacchetti trasmessi attraverso il tunnel VPN verranno risolti utilizzando la sovrascrittura del DNS personalizzato anziché le impostazioni del server DNS delle connessioni VPN."
     }
 }
