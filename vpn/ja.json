@@ -221,7 +221,7 @@
         "setup_guide": "セットアップガイド",
         "location_max_pre_label": "場所ごとの最大数",
         "location_max_pre_placeholder": "制限なし",
-        "disable_vpn_for_services_tips": "このオプションを有効にすると、GooodCloud、DDNS、rttyサービスはVPNトンネルを使用してパケットを送信します。通常、これらのサービスはデバイスの実際のIPアドレスを使用する必要があり、そうでない場合は操作が失敗する可能性があることに注意してください。",
+        "disable_vpn_for_services_tips": "このオプションを有効にすると、GooodCloud、DDNS、rttyサービスはVPNトンネルを使用してパケットを送信します。通常、これらのサービスはデバイスの実際のIPアドレスを使用する必要がありますので、そうでない場合は操作が失敗する可能性があることに注意してください。",
         "use_vpn_label": "VPNを使用する",
         "no_use_vpn_label": "VPNを使用しない",
         "client_count": "クライアントなし | 1 クライアント | {count} クライアント",
@@ -256,7 +256,7 @@
         "ovpnclient_tap_s2s_ip_tips": "OpenVPN クライアントの IP アドレスは変更される可能性があります。",
         "ovpnclinet_taps2s_disable_tips": "この機能を有効にすると、{feature} などの機能が使用できなくなります。",
         "generate_peer_falied_msg": "クライアントIPの生成に失敗しました",
-        "domain_err_tips": "手動でフォーマットを修正するか、$$$$ワンクリック処理$$$$してください"
+        "domain_err_tips": "フォーマットが正しくありません。手動で変更するか、$$$$ワンクリック処理$$$$してください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバ",
