@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "호스트 편집",
-        "desc": "사용자 정의 DNS 서버를 설정하면, 이더넷, 리피터, 셀룰러, 테더링을 통해 얻은 DNS 서버 대신 해당 DNS 서버를 통해 DNS 쿼리가 해결됩니다. 그렇지 않으면 각 인터페이스에 구성된 DNS 설정을 사용하게 됩니다.",
+        "desc": "사용자 정의 DNS 서버를 설정하면, DNS 쿼리는 이더넷, 리피터, 셀룰러, 테더링을 통해 얻은 DNS 서버 대신 해당 DNS 서버를 통해 해결됩니다. 그렇지 않으면 각 인터페이스에 구성된 DNS 설정을 사용하게 됩니다.",
         "rebinding_label": "DNS 리바인딩 공격 차단",
         "rebinding_tips": "이 옵션을 켜면 비공개 DNS 조회에 실패할 수 있습니다. 네트워크에 캡티브 포털이 있는 경우 이 옵션을 비활성화하세요.",
         "override_label": "모든 클라이언트의 DNS 설정 덮어쓰기",
@@ -38,7 +38,7 @@
         "server_warning_tips": "서버가 만료되었습니다.",
         "form_interface_label": "{interface}에서 DNS",
         "bark_enable_override_tips": "Bark는 인터넷으로 전송되는 클라이언트의 거의 모든 DNS 요청을 차단합니다. Bark가 작동하는 동안 이 옵션을 활성화하면 클라이언트가 인터넷에 액세스하지 못할 수 있습니다.",
-        "override_vpn_label": "사용자 정의 DNS가 VPN DNS를 덮어쓰기 허용",
-        "override_vpn_tips": "이 옵션을 활성화하면, 사용자 정의 DNS를 설정하고 나면 VPN 터널을 통해 전송되는 패킷이 VPN 연결의 DNS 서버 설정 대신 사용자 정의 DNS 덮어쓰기를 사용하여 해결됩니다."
+        "override_vpn_label": "사용자 정의 DNS가 VPN DNS를 덮어쓰도록 허용",
+        "override_vpn_tips": "이 옵션을 활성화하면, 사용자 정의 DNS를 설정하고 나면 VPN 터널을 통해 전송되는 패킷은 VPN 연결에서 온 DNS 서버 설정 대신 사용자 정의 DNS 덮어쓰기를 사용하여 해결됩니다."
     }
 }
