@@ -1,14 +1,14 @@
 {
     "sdwan": {
-        "no_device_tips": "Turite pridėti įrenginį į vieną iš virtualių tinklų {cloud}, kurią naudoti šią funkciją.",
-        "real_time_data_tips": "Įtraukiami tik įrenginio duomenys, kurie praėjo per Tinklo tarpuvartę; tai gali skirtis nuo bendros jūsų sąskaitos duomenų sumos.",
-        "upload_data_title": "Įkelto srauto duomenys",
-        "download_data_title": "Atsiųsto srauto duomenys",
+        "no_device_tips": "Jūs turite pridėti įrenginį prie vieno iš virtualių tinklų – {cloud}, kad naudotumėte šią funkciją.",
+        "real_time_data_tips": "Įtraukia tik per tinklo tarpuvartę praėjusius įrenginio duomenis; tai gali skirtis nuo Jūsų sąskaitos duomenų apskaičiavimo, nurodyto bendro kiekio.",
+        "upload_data_title": "Įkelti srauto duomenis",
+        "download_data_title": "Atsisiųsti srauto duomenis",
         "interface_title": "Sąsajos ir Sietuvai",
-        "device_tips": "Jūs buvote pridėtas prie virtualaus tinklo {network}. Prašome eiti į {cloud}, kad pakeistumėte nustatymus.",
+        "device_tips": "Jūs buvote pridėtas prie virtualaus tinklo – {network}. Prašome eiti į – {cloud}, kad pakeistumėte nustatymus.",
         "nodes_title": "Tinklo topologija",
         "real_time_data_title": "Realiojo laiko duomenys",
-        "interface_tips": "Galite išjungti tam tikras sąsajas, neleidžiant joms jungtis prie šio virtualaus tinklo."
+        "interface_tips": "Galite išjungti tam tikras sąsajas ir sietuvus, kad jos neprisijungtų prie šio virtualaus tinklo."
     },
     "menu_sdwan": "„AstroWarp“"
 }

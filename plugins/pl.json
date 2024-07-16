@@ -1,9 +1,9 @@
 {
     "plugins": {
-        "go": "Przejdź",
+        "go": "Idź",
         "tips": "Nie udało się zaktualizować listy repozytoriów, sprawdź swoje połączenie sieciowe i spróbuj ponownie.",
         "system": "system",
-        "update": "Aktualizacja",
+        "update": "Aktualizuj",
         "install": "zainstaluj",
         "uninstall": "odinstaluj",
         "no_packages": "Brak pakietów oprogramowania",
@@ -20,10 +20,10 @@
         "installed": "Zainstalowane",
         "available_update": "Dostępne aktualizacje",
         "user_retention": "Zarezerwowane",
-        "install_success": "Instalacja zakończona sukcesem",
-        "install_faile": "Instalacja nieudana",
+        "install_success": "Instalacja zakończona powodzeniem",
+        "install_faile": "Instalacja nie powiodła się",
         "uninstall_success": "Odinstalowanie zakończone sukcesem",
-        "uninstall_faile": "Nie udało się odinstalować",
+        "uninstall_faile": "Odinstalowanie nie powiodło się",
         "package_info": "Informacje o pakietach",
         "uninstall_caution": "Czy na pewno chcesz odinstalować",
         "system_tip": "Pakiet oprogramowania jest częścią podstawowego systemu routera i nie może być odinstalowany.",
@@ -33,5 +33,5 @@
         "add_sources_tips": "Skompresowany format wszystkich źródeł oprogramowania to src/gz.",
         "add_sources_title": "Dodaj niestandardowe źródło oprogramowania"
     },
-    "menu_plugins": "Wtyczki"
+    "menu_plugins": "Dodaj niestandardowe źródło oprogramowania"
 }

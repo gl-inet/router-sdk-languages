@@ -155,7 +155,7 @@
         "hl_tips": "In IPv6, il campo HL (Hop Limit) è utilizzato per limitare il numero di hop di trasmissione dei pacchetti di dati nella rete, equivalente al TTL in IPv4.",
         "random_btn": "Casuale",
         "current_client_label": "Client Attuale",
-        "mtu_general_tips": "Se imposti un valore più alto/inferiore rispetto all'intervallo supportato dal dispositivo, il dispositivo utilizzerà il valore massimo/minimo supportato.",
+        "mtu_general_tips": "Se imposti un valore superiore/inferiore all'intervallo supportato dal dispositivo, il dispositivo utilizzerà il valore massimo/minimo supportato.",
         "disguise_mac_label": "Indirizzo MAC camuffato",
         "illegal_subnet_tips": "Sottoreti non valide, gli ultimi tre bit devono essere 0.",
         "mtu_ipv6_warning_tips": "IPv6 non può funzionare quando MTU è inferiore a 1280.",
@@ -167,8 +167,8 @@
         "wan_label": "Porta WAN",
         "lan_label": "Porta LAN",
         "wan_lan_label": "Porta WAN/LAN",
-        "random_mac_label": "Indirizzo MAC casualizzato",
-        "illegal_subnet_mask_tips": "Maschera non valida, poiché la subnet è {subnet}, la maschera non può essere inferiore a {min}.",
+        "random_mac_label": "Indirizzo MAC randomizzato",
+        "illegal_subnet_mask_tips": "Maschera non valida, poiché la sottorete è {subnet}, la maschera non può essere inferiore a {min}.",
         "clone_mac_label": "Indirizzo MAC clonato"
     },
     "upload": {
@@ -186,6 +186,6 @@
         "battery_err_tips": "Il sistema non rileva il modulo batteria, controllare la connessione di alimentazione o la batteria per eventuali danni.",
         "no_internet_base_tips": "Si prega di controllare l'ambiente Internet e riprovare.",
         "limit_tips": "I dati non devono superare le {count} voci.",
-        "feature_unusable_tips": "Questa funzione non funziona perché {feature} è attiva."
+        "feature_unusable_tips": "Questa funzionalità non funziona perché {feature} è attivato."
     }
 }

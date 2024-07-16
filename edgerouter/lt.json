@@ -1,20 +1,20 @@
 {
     "edgerouter": {
-        "dhcp_closed_tips": "Pagrindinio maršrutizatoriaus DHCP tarnyba išjungta, mesti-į tinklo tarpuvartė veikia.",
-        "dhcp_on_tips": "Pagrindinio maršrutizatoriaus DHCP tarnyba vis dar įjungta. Mesti-į tinklo tarpuvartė gali neveikti tinkamai. Prašome eiti į $$$$pagrindinio maršrutizatoriaus administravimo skydelį$$$$, kad išjungtumėte DHCP tarnybą arba nustatytumėte jos tinklo tarpuvartę į {ip}.",
-        "enable_tips": "Kai įgalintas mesti-į tinklo tarpuvartės režimas, naudojami šio maršrutizatoriaus DNS nustatymai vietoj pagrindinio maršrutizatoriaus nustatymų.",
-        "dhcp_set_gateway_tips": "Pagrindinio maršrutizatoriaus DHCP tarnyba tinkamai nustatė tinklo tarpuvartę į {ip}, mesti-į tinklo tarpuvartė veikia.",
-        "auto_set_tips": "Atrodo, kad pagrindinio maršrutizatoriaus DHCP nustatymai pasikeitė ir maršrutizatorius gali netinkamai prisijungti prie tinklo. Prašome $$$$sinchronizuoti nustatymus iš DHCP$$$$ arba pakeisti savo nustatymus rankiniu būdu.",
-        "desc_vpn": "Atkreipkite dėmesį, kad mesti-į tinklo tarpuvartės režime šio įrenginio VPN politika neveiks klientams, ateinantiems iš WAN prievado.",
-        "desc": "Kai įgalintas mesti-į tinklo tarpuvartės režimas, visi tinklo klientų srautai pirmiausia apdorojami šiame maršrutizatoriuje. Šį režimą galite naudoti norėdami išplėsti savo pagrindinio maršrutizatoriaus funkcionalumą.",
-        "enable_label": "Įgalinti mesti-į tinklo tarpuvartės režimą",
-        "dhcp_on_warning_tips": "Mesti-į tinklo tarpuvartė įgalinta.",
-        "cable_not_connected_tips": "WAN prievade neaptiktas kabelis. Prašome įterpti „eternetas“ kabelį.",
-        "modify_superior_router_label": "Visi įrenginiai tinkluojami per mesti-į tinklo tarpuvartę",
-        "modify_superior_router_desc": "Jums reikia eiti pakeisti pirminės maršrutizacijos konfigūraciją, kurią turi konfigūruoti naudotojas, turintis prieigą prie pirminės maršrutizacijos.",
-        "modify_self_router_label": "Kai kurie įrenginiai pasirenka savo tinklavimo tinklo tarpuvartę",
-        "modify_self_router_desc": "Jums reikia rankiniu būdu pakeisti tinklo tarpuvartės adresą į mesti-į tinklo tarpuvartės IP adresą kai kuriuose įrenginiuose, kuriems reikia naudoti mesti-į tinklo tarpuvartę.",
+        "dhcp_closed_tips": "Pagrindinio maršrutizatoriaus „DHCP“ tarnyba – išjungta; tinklo tarpuvartės užsukimas – veikia.",
+        "dhcp_on_tips": "Pagrindinio maršrutizatoriaus „DHCP“ tarnyba vis dar – įjungta. Tinklo tarpuvartės užsukimas gali neveikti tinkamai. Prašome eiti į – $$$$pagrindinio maršrutizatoriaus administravimo skydelį$$$$, kad išjungtumėte „DHCP“ tarnybą arba nustatytumėte jos tinklo tarpuvartę į – {ip}.",
+        "enable_tips": "Kai įgalintas tinklo tarpuvartės užsukimo režimas, naudojami šio maršrutizatoriaus „DNS“ nustatymai, vietoj pagrindinio maršrutizatoriaus nustatymų.",
+        "dhcp_set_gateway_tips": "Pagrindinio maršrutizatoriaus „DHCP“ tarnyba tinkamai nustatė tinklo tarpuvartę į – {ip}; tinklo tarpuvartės užsukimas – veikia.",
+        "auto_set_tips": "Atrodo, kad pagrindinio maršrutizatoriaus „DHCP“ nustatymai pasikeitė ir maršrutizatorius galimai negalės prisijungti prie tinklo. Prašome – $$$$sinchronizuoti nustatymus iš „DHCP“$$$$ arba pakeiskite savo nustatymus, rankiniu būdu.",
+        "desc_vpn": "Atkreipkite dėmesį į tai, kad tinklo tarpuvartės užsukimo režime, šio įrenginio „VPN“ politika neveiks klientams, ateinantiems iš „WAN“ prievado.",
+        "desc": "Kai įgalintas tinklo tarpuvartės užsukimo režimas, visi tinklo klientų srautai, bus pirmiausia apdorojami šiame maršrutizatoriuje. Šį režimą galite naudoti norėdami išplėsti savo pagrindinio maršrutizatoriaus funkcionalumą.",
+        "enable_label": "Įgalinti tinklo tarpuvartės užsukimo režimą",
+        "dhcp_on_warning_tips": "Tinklo tarpuvartės užsukimas – įgalintas.",
+        "cable_not_connected_tips": "„WAN“ prievade nebuvo galima aptikti lai̇do. Prašome įkišti „eterneto“ lai̇dą.",
+        "modify_superior_router_label": "Visi įrenginiai tinkluojami per tinklo tarpuvartę užsukimą",
+        "modify_superior_router_desc": "Jums reikia pakeisti pirminės kelvados konfigūraciją, kuri turi būti konfigūruota naudotojo/vartotojo. Šis turi turėti prieigos teisę, prie pirminės kelvados.",
+        "modify_self_router_label": "Kai kurie įrenginiai savarankiškai pasirenka, kad naudotų savo tinklavimo tinklo tarpuvartę",
+        "modify_self_router_desc": "Jums reikia rankiniu būdu pakeisti tinklo tarpuvartės adresą į tinklo tarpuvartės užsukimo IP adresą. Šis reikalingas kai kuriuose įrenginiuose, kuriems reikia naudoti tinklo tarpuvartes užsukimą.",
         "configuration_method_label": "Konfigūracijos metodas"
     },
-    "menu_edgerouter": "Mesti-į tinklo tarpuvartė"
+    "menu_edgerouter": "Tinklo tarpuvartės užsukimas"
 }

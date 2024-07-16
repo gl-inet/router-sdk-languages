@@ -23,11 +23,11 @@
         "channel_auto_tips": "Wenn die Option \"$$$$\" gewählt ist, wird das WLAN nicht automatisch auf einen DFS-Kanal wechseln.",
         "dsf_starting": "Teste Kanalverfügbarkeit, der Vorgang dauert $$$$. Bitte warten Sie…",
         "dsf_conflict": "Das 5GHz WLAN ist vorübergehen nicht verfügbar, weil der aktuelle Funkkanal von einem Radar belegt ist.",
-        "enable_dfs_tips": "Falls der Router einen DFS Kanal verwendet: Die Kanal-Verfügbarkeit wird bei jeder WLAN-Aktivierung überprüft. In der Zeit steht das 5 GHz Signal nicht zur Verfügung, dieser Vorgang dauert $$$$. Falls der Router ein Funksignal (Radar) entdeckt, welches den aktuellen Kanal nutzt, wird die Verbindung zum Gerät unterbrochen und auf einen anderen Kanal umgeschaltet.",
+        "enable_dfs_tips": "Wenn dem Router die Verwendung eines DFS-Kanals zugewiesen wird, ist jedes Mal, wenn WLAN aktiviert wird, eine Überprüfung der Kanalverfügbarkeit erforderlich. Während dieser Zeit ist das 5GHz-Signal nicht für Verbindungen verfügbar; dieser Prozess dauert $$$$. Wenn der Router feststellt, dass das Radar den aktuellen Kanal nutzt, wird er vorübergehend die Verbindung zum Client trennen und auf einen anderen verfügbaren Kanal wechseln; zusätzlich wird das 5GHz-WLAN vorübergehend ausgeschaltet, während der Router nach verfügbaren, nahen Netzwerken sucht.",
         "lan_guest_conflict_tips": "Das Gäste WLAN kann nicht aktiviert werden, weil {guest} in Konflikt mit {lan} steht.",
-        "enable_random_bssid_label": "Aktivieren Sie Randomized BSSID",
+        "enable_random_bssid_label": "Zufällige BSSID aktivieren",
         "random_bssid_enabled_tips": "Wenn diese Option aktiviert ist, verwendet das Gerät eine zufällig generierte BSSID und erneuert sie bei jedem Neustart.",
-        "random_bssid_disabled_tips": "Die Verwendung einer statischen BSSID kann dazu führen, dass Sie verfolgt werden. Wenn Ihr Client-Gerät die Verwendung einer statischen BSSID erfordert, wird empfohlen, das SSID auf versteckt zu setzen. {more}"
+        "random_bssid_disabled_tips": "Die Verwendung einer statischen BSSID kann dazu führen, dass Sie verfolgt werden. Wenn Ihr Client-Gerät die Verwendung einer statischen BSSID erfordert, wird empfohlen, die SSID auf versteckt zu setzen. {more}"
     },
     "menu_wireless": "WLAN"
 }

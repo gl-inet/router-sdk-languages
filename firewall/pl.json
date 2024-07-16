@@ -1,7 +1,7 @@
 {
     "firewall": {
         "open_ports_on_router": "Otwarte Porty na Routerze",
-        "port_forwards": "Przekierowanie portów",
+        "port_forwards": "Dostosuj priorytet",
         "open_port_on_router_dest": "Dla celów bezpieczeństwa usługi, które zainstalujesz na urządzeniu są jedynie otwarte dla sieci LAN. Jeśli chcesz, żeby były dostępne z sieci WAN musisz otworzyć porty dla tych usług po stronie WAN.",
         "name": "Nazwa",
         "protocol": "Protokół",
@@ -22,14 +22,14 @@
         "source": "Źródło (strefa, port)",
         "dest": "Cel (strefa, IP, port)",
         "enable": "Włącz",
-        "port_forwards_desc": "Jeśli masz serwery w podsieci LAN i chcesz, aby były dostępne z zewnątrz, musisz ustawić przekierowanie portów do tych serwerów, identyfikowanych przez adresy IP i porty. Urządzenie będzie przyznawać wyższy priorytet regule o wyższym priorytecie, jeśli wystąpi konflikt między {external_ports} dwóch włączonych reguł.",
+        "port_forwards_desc": "Jeśli masz serwery w podsieci LAN i chcesz, aby były dostępne z zewnątrz, musisz ustawić przekierowanie portów do tych serwerów, identyfikowane przez adresy IP i porty. Urządzenie przyzna wyższy priorytet regule o wyższym priorytecie, jeśli wystąpi konflikt między {external_ports} dwóch włączonych reguł.",
         "dmz_priority_lower_label": "Najniższy",
         "open_dmz": "Włącz DMZ",
         "dmz_priority_higher_label": "Najwyższy",
         "priority_label": "Priorytet",
         "adjust _priority_btn": "Dostosuj priorytet",
         "port_value_tips": "Zakres portów to od 1 do 65535. Możesz ustawić pojedynczy port lub zakres portów, łącząc pierwszy i ostatni numer portu symbolem - (tak jak 501-510).",
-        "dmz_tips": "Jeśli włączysz DMZ, twoje reguły przekierowania portów oraz reguły otwierania portów nie będą miały efektu.",
+        "dmz_tips": "Jeśli włączysz DMZ, twoje reguły przekierowania portów i otwierania portów nie będą miały efektu.",
         "dmz_desc": "DMZ pozwala na wystawienie jednego lokalnego komputera do Internetu, wszystkie przychodzące pakiety będą przekierowane do tego komputera.",
         "dmz_host_ip": "IP hosta DMZ",
         "port_range_tips": "{exPort} nie pasuje do zakresu {inPort}."

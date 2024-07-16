@@ -1,14 +1,14 @@
 {
     "sdwan": {
-        "nodes_title": "Topologia di Rete",
-        "download_data_title": "Scarica Dati del Traffico",
+        "nodes_title": "Topologia di rete",
+        "download_data_title": "Dati del traffico in download",
         "real_time_data_tips": "Include solo i dati del dispositivo che sono passati attraverso il Gateway; questi possono differire dal totale riportato dai tuoi dati di fatturazione.",
-        "upload_data_title": "Carica Dati del Traffico",
+        "upload_data_title": "Dati del traffico in upload",
         "interface_title": "Interfacce",
         "interface_tips": "Puoi disabilitare specifiche interfacce dall'unirsi a questa rete virtuale.",
         "no_device_tips": "Devi aggiungere il dispositivo a una delle reti virtuali in {cloud} per utilizzare questa funzione.",
         "device_tips": "Sei stato aggiunto alla rete virtuale {network}. Vai su {cloud} per modificare le impostazioni.",
-        "real_time_data_title": "Dati in Tempo Reale"
+        "real_time_data_title": "Dati in tempo reale"
     },
     "menu_sdwan": "AstroWarp"
 }
