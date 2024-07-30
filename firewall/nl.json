@@ -1,6 +1,6 @@
 {
     "firewall": {
-        "port_forwards": "Port Forwarding",
+        "port_forwards": "Portforwarding",
         "dmz_desc": "Met DMZ kunt u alle binnenkomend verkeer doorsturen naar één lokaal IP-adres.",
         "open_dmz": "DMZ inschakelen",
         "dmz_host_ip": "DMZ host-IP-adres",
@@ -13,7 +13,7 @@
         "port": "Poort",
         "action": "Actie",
         "no_data": "Geen data in de tabel",
-        "edit_port_forwards_title": "Port Forwarding Regel Wijzigen",
+        "edit_port_forwards_title": "Portforwardingregel wijzigen",
         "edit_router_prot_title": "Openstaande poort aanpassen",
         "confirm_delete_tips": "Weet u zeker dat u deze regel wilt verwijderen?",
         "source": "Bron (zone, poort)",
@@ -22,7 +22,7 @@
         "open_ports_on_router": "Poorten openen",
         "dmz_tips": "Als u DMZ inschakelt, zullen uw port forwarding en port open regels niet van kracht worden.",
         "internal_ports": "Interne poort",
-        "add_port_forwards_title": "Nieuwe Port Forwarding Regel Toevoegen",
+        "add_port_forwards_title": "Nieuwe portforwardingregel toevoegen",
         "add_router_prot_title": "Nieuwe openstaande poort",
         "delete_all_port_tips": "Weet u zeker dat u alles wilt leegmaken?",
         "port_forwards_desc": "Als u servers in uw LAN-subnet heeft en wilt dat deze toegankelijk zijn vanaf de WAN-zijde, moet u port forwarding instellen naar deze servers, geïdentificeerd door IP-adressen en poorten. Het apparaat zal de regel met de hoogste prioriteit voorrang geven als er een conflict is tussen de {external_ports} van twee ingeschakelde regels.",

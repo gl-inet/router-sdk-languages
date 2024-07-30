@@ -113,13 +113,13 @@
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
         "setting": "„Eterneto“ nustatymai",
         "dhcp_tips": "IP adresas priskiriamas aukštesnio tinklo įrenginio.",
-        "pppoe_vlanid_tips": "Šis nustatymų įrašas reikalingas tik jei paslaugos teikėjo PPPoE serveris reikalauja, kad sąsaja naudotų pažymėtą tam tikrą VLAN ID.",
+        "pppoe_vlanid_tips": "Šis nustatymų įrašas reikalingas, tik, jei paslaugos teikėjo „PPPoE“ serveris reikalauja, kad sąsaja ir/arba sietuvas naudotų pažymėtą tam tikrą „VLAN“ ID.",
         "egderouter_mode_tips": "Įjungta „Drop-in Gateway“. Jei norite keisti „Ethernet“ nustatymus, pirmiausia išjunkite $$$$Drop-in Gateway$$$$.",
-        "change_to_lan_check_tips": "Pirmiausia, prašome ištraukti „Ethernet“ laidą, prijungtą prie WAN prievado. $$$$ re-detect $$$$",
-        "change_to_wan_tips": "Kai LAN prievadas naudojamas kaip WAN prievadas, nebegalėsite pasiekti administratoriaus skydelio per šį „Ethernet“ prievadą, prijungtą prie LAN prievado. Prašome įsitikinti, kad jūsų klientas gali prisijungti prie „Wi-Fi“ ar kito LAN prievado.",
+        "change_to_lan_check_tips": "Pirmiausia, prašome ištraukti „eterneto“ laidą, prijungtą prie „WAN“ prievado. $$$$ iš naujo aptikti $$$$",
+        "change_to_wan_tips": "Kai „LAN“ prievadas naudojamas kaip „WAN“ prievadas, Jūs nebegalėsite pasiekti administratoriaus skydelio per šį „etherneto“ prievadą. Prašome įsitikinti, kad Jūsų klientas gali prisijungti prie „Wi-Fi“ ar kito „LAN“ prievado.",
         "using_tips": "„{silkprint}“ būsena: Naudojama kaip – „{port}“. „{changePort}“",
-        "reset_port_tips": "{silkprint} būsena: Naudojama kaip {port}. {changePort}",
-        "use_as_wan_tips": "{asWan}, įrenginys, prijungtas prie prievado, nebegalės pasiekti admin panelės. Jums teks prisijungti prie „Wi-Fi“ ar kitų LAN prievadų.",
+        "reset_port_tips": "Jūs galite atstatyti – „{silkprint}“ paspausdami ir laikydami įrenginio atstatymo mygtuką keturioms (4) sekundėms.",
+        "use_as_wan_tips": "„{asWan}“, įrenginys, prijungtas prie prievado, nebegalės pasiekti administravimo panelės. Jums teks jį prijungti prie „Wi-Fi“ ar vieną iš kitų „LAN“ prievadų.",
         "revert_as_lan_tips": "Ar tikrai norite atkurti/atstatyti – „{silkprint}“ į vietinio tinklo („LAN“) prievadą (numatytąjį)?",
         "revert_port_btn": "Atkurti į – {port}",
         "use_as_port_btn": "Pakeisti – {silkprint} į – {port}",
@@ -134,16 +134,16 @@
         "using_as_wan": "Naudojamas kaip – „WAN“, $$$$Pakeisti į – „LAN“$$$$",
         "repeated": "Sėkmingai prisijungta, be poreikio iš naujo jungtis",
         "pppoe_log": "„PPPoE“ ryšio prisijungimo žurnalas",
-        "change_to_wan_tips2": "Galite atkurti vietinio tinklo prievadą (kad jis nebūtų naudojamas kaip WAN prievadas), paspausdami ir laikydami įrenginio atstatymo mygtuką keturias sekundes.",
+        "change_to_wan_tips2": "Galite atstatyti „LAN“ prievado veikimą (, kad jis nebūtų naudojamas kaip „WAN“ prievadas), paspausdami ir laikydami įrenginio atstatymo mygtuką keturioms (4) sekundėms.",
         "no_wan_tips": "Lai̇̃das neaptiktas.",
         "change_port_btn": "Pakeisti į – {port}"
     },
     "repeater": {
         "change_wifi": "Pakeisti tinklą",
         "allow_change": "Leisti perjungimą į kitus išsaugotus tinklus",
-        "allow_change_tips": "Jei ši parinktis įjungta, maršrutizatorius automatiškai prisijungs prie kitų išsaugotų tinklų, jei negalės prisijungti prie dabartinio „Wi-Fi“ tinklo.",
+        "allow_change_tips": "Jei ši parinktis įgalinta, maršrutizatorius automatiškai prisijungs prie kitų išsaugotų tinklų, kai negalės/nepavyks prisijungti prie dabartinio „Wi-Fi“ tinklo.",
         "antijam": "Priverstinai naudoti 20MHz duomenų siuntimo ir perdavimo srauto pralaidumą 2,4Ghz dažnių juostoje",
-        "antijam_tips": "Jei ši parinktis įjungta, įrenginys pagerins ryšio stabilumą sumažindamas ryšio spartą.",
+        "antijam_tips": "Jei ši parinktis įjungta/įgalinta, įrenginys pagerins ryšio stabilumą, sumažindamas ryšio spartą.",
         "lock_band": "Juostų pasirinkimas",
         "antijam_tips_2": "Tai veikia tik (at)kartojant 2,4Ghz „Wi-Fi“.",
         "retry_connet_tips": "Ryšys (jo prisijungimas) nepavyko, bandysime vėliau…",
@@ -202,7 +202,7 @@
     "tethering": {
         "title": "Saitvietė",
         "device": "Įrenginys",
-        "no_device_tips": "Saitvietės įrenginys nerastas, prijunkite savo išmanųjį telefoną arba USB modemą, kad pradėtumėte."
+        "no_device_tips": "Saitvietės įrenginys nerastas, prijunkite savo išmanųjį telefoną arba „USB“ modemą, kad pradėtumėte."
     },
     "sms": {
         "title": "„SMS“",
