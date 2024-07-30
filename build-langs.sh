@@ -16,6 +16,9 @@ merge_lang() {
     files=$(ls "$path"/*.json)
     for file in $files; do
       filename=$(basename "$file" .json)
+      if [ "$filename" == "zh_Hant" ]; then
+        filename = "zh-tw"
+      fi
       output_file="$output_folder/release.$filename.json"
       if [ -f "$output_file" ]; then
         merged_json=$(jq -s 'reduce .[] as $item ({}; . * $item)' "$output_file" "$file")
