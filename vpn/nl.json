@@ -262,5 +262,20 @@
     "menu_wgclient": "WireGuard®-cliënt",
     "menu_ovpnserver": "OpenVPN-server",
     "menu_wgserver": "WireGuard®-server",
-    "menu_vpndashboard": "VPN-dashboard"
+    "menu_vpndashboard": "VPN-dashboard",
+    "vpn_err": {
+        "param_has_rce_risk_msg": "parameter heeft een rce-risico",
+        "get_conf_fail_msg": "configuratiegegevens ophalen mislukt",
+        "get_conf_file_fail_msg": "het ophalen van het configuratiebestand is mislukt",
+        "no_execute_program_msg": "het programma wordt niet uitgevoerd, misschien niet geïnstalleerd",
+        "target_if_already_run_msg": "doelinterface is al actief",
+        "no_key_file_msg": "privésleutelbestand bestaat niet",
+        "no_cert_key_file_msg": "openbare sleutelbestand bestaat niet",
+        "no_openssl_tool_msg": "geen openssl tool, mogelijk niet geïnstalleerd",
+        "get_local_ipv4_net_fail_msg": "het verkrijgen van het lokale IPv4-adres is mislukt",
+        "get_local_ipv6_net_fail_msg": "het verkrijgen van het lokale IPv6-adres is mislukt",
+        "conflicts_with_local_addr_v6_msg": "het doeladres is in conflict met het lokale IPv6-adres",
+        "conflicts_with_local_addr_v4_msg": "het doeladres is in conflict met het lokale IPv4-adres",
+        "client_if_conflict_msg": "er draait al een andere vpn-client"
+    }
 }
