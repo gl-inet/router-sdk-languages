@@ -262,5 +262,20 @@
     "menu_wgserver": "WireGuardサーバ",
     "menu_ovpnserver": "OpenVPNサーバ",
     "menu_wgclient": "WireGuardクライアント",
-    "menu_ovpnclient": "OpenVPNクライアント"
+    "menu_ovpnclient": "OpenVPNクライアント",
+    "vpn_err": {
+        "param_has_rce_risk_msg": "パラメータにはRCEリスクがあります。",
+        "get_conf_fail_msg": "取得配置数据失败",
+        "no_key_file_msg": "プライベートキーファイルが存在しません",
+        "get_conf_file_fail_msg": "取得設定ファイルに失敗しました",
+        "no_execute_program_msg": "プログラムを実行できません。おそらくインストールされていない可能性があります。",
+        "target_if_already_run_msg": "ターゲットインターフェースは既に実行中です",
+        "no_cert_key_file_msg": "公開鍵ファイルが存在しません",
+        "no_openssl_tool_msg": "未安装OpenSSL工具。",
+        "get_local_ipv4_net_fail_msg": "取得ローカルIPv4アドレスに失敗しました",
+        "conflicts_with_local_addr_v6_msg": "ターゲットアドレスがローカルIPv6アドレスと競合しています",
+        "get_local_ipv6_net_fail_msg": "取得本地 IPv6 地址失败",
+        "conflicts_with_local_addr_v4_msg": "ターゲットアドレスがローカルIPv4アドレスと競合しています",
+        "client_if_conflict_msg": "他のVPNクライアントが実行中です"
+    }
 }
