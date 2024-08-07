@@ -262,5 +262,20 @@
     "menu_wgclient": "WireGuard Client",
     "menu_vpndashboard": "Dashboard VPN",
     "menu_ovpnclient": "OpenVPN Client",
-    "menu_ovpnserver": "Server OpenVPN"
+    "menu_ovpnserver": "Server OpenVPN",
+    "vpn_err": {
+        "target_if_already_run_msg": "l'interfaccia di destinazione è già in esecuzione",
+        "param_has_rce_risk_msg": "il parametro presenta un rischio di esecuzione di codice remoto",
+        "get_conf_fail_msg": "Impossibile ottenere i dati di configurazione",
+        "no_key_file_msg": "il file della chiave privata non esiste",
+        "get_conf_file_fail_msg": "impossibile ottenere il file di configurazione",
+        "no_execute_program_msg": "il programma non viene eseguito, forse non è installato",
+        "no_cert_key_file_msg": "il file della chiave pubblica non esiste",
+        "no_openssl_tool_msg": "non presente lo strumento openssl, potrebbe non essere installato",
+        "get_local_ipv4_net_fail_msg": "Impossibile ottenere l'indirizzo IPv4 locale",
+        "get_local_ipv6_net_fail_msg": "Impossibile ottenere l'indirizzo IPv6 locale",
+        "conflicts_with_local_addr_v6_msg": "l'indirizzo di destinazione è in conflitto con l'indirizzo IPv6 locale",
+        "conflicts_with_local_addr_v4_msg": "l'indirizzo di destinazione è in conflitto con l'indirizzo IPv4 locale",
+        "client_if_conflict_msg": "è in esecuzione un altro client VPN"
+    }
 }
