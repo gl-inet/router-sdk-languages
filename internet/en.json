@@ -292,7 +292,7 @@
         "exit_button": "Exit",
         "tethering_connecting_note": "Note:",
         "finish": "Finish",
-        "use_vpn_protect_privacy": "Using a vpn can protect your privacy.",
+        "use_vpn_protect_privacy": "Using a vpn can protect your privacy. Would you like try it now?",
         "tethering_connected_description": "Tethering configuration is complete. You can enjoy the internet now.",
         "tethering_connect_fail_title_start": "Now the network cannot be connected, please try the following ways.",
         "ok_button": "OK",
@@ -335,7 +335,7 @@
         "pppoe_label": "PPPoE",
         "restart_router_tip": "2.Restart the router.",
         "concat_isp_tip": "3.Contact your ISP for help.",
-        "ethernet_concat_us": "4.If the problem has not been solved, you can also email support@gl-inet.com.",
+        "ethernet_concat_us": "4.If the problem has not been solved, you can also email {supportEmail}.",
         "connection_is_normal": "Current network connection type is {type} and network status is normal.",
         "pppoe_is_normal": "Current network connection type is PPPoE and network status is normal.",
         "static_ip_config": "Static IP configuration",
@@ -360,6 +360,9 @@
         "network_guide_title": "Network Guide",
         "suggest": "Suggest",
         "can_enjoy_the_internet": "You can enjoy the internet now.",
-        "successful_networking": "Successful Networking"
+        "successful_networking": "Successful Networking",
+        "vpn_user_guide": "VPN User Guide",
+        "support_email": "support@gl-inet.com",
+        "oops": "Oops…"
     }
 }
