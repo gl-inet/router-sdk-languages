@@ -39,7 +39,21 @@
         "info_title": "Device Information",
         "device_name_label": "Device Name",
         "no_account_tips": "Do not have an account?",
-        "enabled_tips": "The Cloud Service is currently Enabled."
+        "enabled_tips": "The Cloud Service is currently Enabled.",
+        "device_be_bound_info_title": "The following is this device information.",
+        "service_will_be_unbind_tips": "Cloud service will be unbind",
+        "device_be_bound_by_other_title": "Device is Bound",
+        "device_be_bound_by_other_tips": "This device is already bound by {user} . You cannot bind it to your account.",
+        "back_login_btn": "Go back to login",
+        "contact_other_user_tips": "You need to contact the {user} and ask them to unbind the device for you. Or initiate an unbundling request to this account with the platform message.",
+        "not_support_change_bind_tips": "Sorry, this device does not support the feature to change the bound account. Please contact your device provider for further assistance.",
+        "req_unbind_sms_btn": "Request Unbinding with Message",
+        "reset_pawd_title": "Reset Password",
+        "service_will_be_disable_tips": "Cloud service will be disabled.",
+        "service_disable_tips": "The Cloud Service is currently disabled.",
+        "bind_fail_strong_title": "Device Binding Failure",
+        "bind_success_strong_title": "Device Is Bound Successfully",
+        "bind_fail_strong_tips": "Current device information is as follows. This information may be required by Technical Support if you need assistance."
     },
     "menu_cloud": "GoodCloud"
 }
