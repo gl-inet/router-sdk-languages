@@ -106,7 +106,8 @@
         "click here_btn": "Click Here",
         "cell_phone_num_label": "Mobile Number",
         "email_box_lable": "Email",
-        "sign_up_btn": "Sign Up"
+        "sign_up_btn": "Sign Up",
+        "agree_terms_and_privacy_tips": "I have read and agree {terms} & {privacy}."
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -198,5 +199,9 @@
         "limit_tips": "Data must not exceed {count} entries.",
         "feature_unusable_tips": "This feature does not work because {feature} is enabled.",
         "no_internet_base_tips": "Please check your internet environment and try again."
+    },
+    "err": {
+        "network_not_reachable_msg": "Network not reachable",
+        "abnormal_operation_msg": "Operational exceptions"
     }
 }
