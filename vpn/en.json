@@ -256,7 +256,11 @@
         "client_each_other_tips": "This is VPN Client to VPN Client, not Site to Site.",
         "account_service_credentials_title": "Service Credentials",
         "generate_peer_falied_msg": "Failed to generate client ip",
-        "domain_err_tips": "Incorrect formatting, please change manually or $$$$one-click processing$$$$"
+        "domain_err_tips": "Incorrect formatting, please change manually or $$$$one-click processing$$$$",
+        "domain_detect_success_tips": "{count} domain names or IP addresses were successfully detected.",
+        "domain_detect_failed_tips": "{count} domain names or IP addresses failed to be detected.",
+        "inp_domain_url_label": "Input URL Link",
+        "domain_url_tips": "Please enter the correct URL. The URL detection will identify the correctness of the domain name or IP address."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
