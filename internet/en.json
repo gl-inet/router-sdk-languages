@@ -339,7 +339,7 @@
         "connection_is_normal": "Current network connection type is {type} and network status is normal.",
         "pppoe_is_normal": "Current network connection type is PPPoE and network status is normal.",
         "static_ip_config": "Static IP configuration",
-        "preset_static_ip": "Static IP",
+        "preset_static_ip": "Using Static IP Mode",
         "detecting_loading": "Detecting",
         "make_sure_wan_position_is_correct": "Currently the WAN port is used as LAN, if you want to set up Ethernet, please make sure the WAN port is used as WAN.",
         "manual_authentication_prompt": "Manual authentication prompt",
@@ -364,6 +364,11 @@
         "vpn_user_guide": "VPN User Guide",
         "support_email": "support@gl-inet.com",
         "oops": "Oops…",
-        "network_detecting": "Networking detection in progress, please wait a moment."
+        "network_detecting": "Networking detection in progress, please wait a moment.",
+        "enter_the_information": "Enter The lnformation",
+        "ethernet_configuration": "Ethernet Configuration",
+        "more_advanced_options": "More advanced options can be edited using the main interface.",
+        "failure_auto_obtain_data": "Failure To Automatically Obtain Data",
+        "can_choose_to_continue_the_process": "You can choose to continue the process below manually or reboot the modem."
     }
 }
