@@ -1,10 +1,10 @@
 {
     "core": {
         "protocol": "Protokoll",
-        "ip": "IP-Adresse",
-        "ipv6": "IPv6-Adresse",
+        "ip": "IP Adresse",
+        "ipv6": "IPv6 Adresse",
         "gateway": "Gateway",
-        "dns": "DNS-Server",
+        "dns": "DNS Server",
         "netmask": "Netzmaske",
         "username": "Benutzername",
         "password": "Passwort",
@@ -169,7 +169,14 @@
         "min": "{count} Minute | {count} Minuten",
         "hour": "{count} Stunde | {count} Stunden",
         "for_last_time": "Letzte {time}",
-        "ms": "millisekunden"
+        "ms": "millisekunden",
+        "year": "{count} Jahr | {count} Jahre",
+        "day_time": "{count} Tag | {count} Tage",
+        "quarter": "Quartal",
+        "week": "{count} Woche | {count} Wochen",
+        "month": "{count} Monat | {count} Monate",
+        "day_var": "Tag {count}",
+        "month_list": "Januar|Februar|März|April|Mai|Juni|Juli| August|September|Oktober|November|Dezember"
     },
     "upload": {
         "select_or_drag": "Wählen Sie eine Datei oder ziehen Sie diese hierher",

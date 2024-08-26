@@ -103,7 +103,10 @@
         "incorrect_formate_tips": "格式不正确，请手动更改或{action}",
         "one_click_process_btn": "一键处理",
         "tips_ttitle": "提示",
-        "click here_btn": "点击此处"
+        "click here_btn": "点击此处",
+        "email_box_lable": "邮箱",
+        "cell_phone_num_label": "手机号码",
+        "sign_up_btn": "注册"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -117,7 +120,8 @@
         "unknown_err": "发生未知错误。请检查网络环境或重启设备。",
         "processing": "正在处理......",
         "please_note": "请注意：",
-        "port_occupied": "{name}端口已被占用"
+        "port_occupied": "{name}端口已被占用",
+        "send_success_tips": "发送成功"
     },
     "date": {
         "day": "执行日期",
@@ -132,7 +136,13 @@
         "min": "{count} 分钟 | {count} 分钟",
         "hour": "{count} 小时 | {count} 小时",
         "for_last_time": "最近 {time}",
-        "ms": "毫秒"
+        "ms": "毫秒",
+        "day_time": "{count} 天 | {count} 天",
+        "week": "{count} 周| {count} 周",
+        "month": "{count} 月| {count} 月",
+        "year": "{count} 年 | {count} 年",
+        "quarter": "季度",
+        "month_list": "一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月"
     },
     "internet": {
         "connected": "已连接",

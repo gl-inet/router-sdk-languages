@@ -262,5 +262,20 @@
     "menu_wgclient": "Klient WireGuard",
     "menu_ovpnclient": "Klient OpenVPN",
     "menu_wgserver": "Serwer WireGuard",
-    "menu_vpndashboard": "Panel zarządzania VPN"
+    "menu_vpndashboard": "Panel zarządzania VPN",
+    "vpn_err": {
+        "param_has_rce_risk_msg": "parametr ma ryzyko RCE (Remote Code Execution)",
+        "get_conf_fail_msg": "pobranie danych konfiguracyjnych nie powiodło się",
+        "get_conf_file_fail_msg": "pobranie pliku konfiguracyjnego nie powiodło się",
+        "no_execute_program_msg": "program nie został wykonany, być może nie jest zainstalowany",
+        "target_if_already_run_msg": "interfejs docelowy jest już uruchomiony",
+        "no_key_file_msg": "prywatny plik klucza nie istnieje",
+        "no_cert_key_file_msg": "plik klucza publicznego nie istnieje",
+        "no_openssl_tool_msg": "narzędzie openssl niedostępne, możliwe, że nie jest zainstalowane",
+        "get_local_ipv4_net_fail_msg": "Nie udało się uzyskać lokalnego adresu IPv4.",
+        "get_local_ipv6_net_fail_msg": "nie udało się uzyskać lokalnego adresu IPv6",
+        "conflicts_with_local_addr_v6_msg": "docelowy adres koliduje z lokalnym adresem IPv6",
+        "conflicts_with_local_addr_v4_msg": "docelowy adres IP jest w konflikcie z lokalnym adresem IPv4",
+        "client_if_conflict_msg": "inny klient VPN jest uruchomiony"
+    }
 }

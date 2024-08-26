@@ -262,5 +262,20 @@
     "menu_ovpnserver": "OpenVPN-сервер",
     "menu_wgclient": "Клієнт WireGuard",
     "menu_ovpnclient": "OpenVPN-клієнт",
-    "menu_vpndashboard": "Панель керування VPN"
+    "menu_vpndashboard": "Панель керування VPN",
+    "vpn_err": {
+        "param_has_rce_risk_msg": "параметр має ризик RCE",
+        "get_conf_fail_msg": "отримання даних конфігурації не вдалося",
+        "get_conf_file_fail_msg": "Отримання файлу конфігурації не вдалося",
+        "no_execute_program_msg": "програма не виконується, можливо, не встановлена",
+        "target_if_already_run_msg": "цільовий інтерфейс вже працює",
+        "no_key_file_msg": "приватний ключовий файл не існує",
+        "no_cert_key_file_msg": "публічний ключовий файл не існує",
+        "no_openssl_tool_msg": "openssl інструмент відсутній, можливо, не встановлено",
+        "get_local_ipv4_net_fail_msg": "отримання локальної IPv4-адреси не вдалося",
+        "get_local_ipv6_net_fail_msg": "отримання локальної IPv6-адреси не вдалося",
+        "conflicts_with_local_addr_v4_msg": "цільова адреса конфліктує з локальною IPv4-адресою",
+        "conflicts_with_local_addr_v6_msg": "цільова адреса конфліктує з локальною IPv6-адресою",
+        "client_if_conflict_msg": "інший VPN-клієнт працює"
+    }
 }

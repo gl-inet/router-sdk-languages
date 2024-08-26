@@ -95,7 +95,17 @@
         "local_version_title": "Local Version",
         "local_version_desc": "The local version is provided by GL.iNet. It is currently in beta, so there is no additional cost. In this version, if you need to filter requests by application, you need to enter the domain manually.",
         "bark_version_desc": "The Bark version, which is provided and managed by $$$$Bark$$$$ on their own platform, offers the option to filter applications and websites with a single click and monitor request history. Please be aware that an additional subscription fee is payable directly to Bark for this service.",
-        "bark_version_title": "Bark Version"
+        "bark_version_title": "Bark Version",
+        "blocklist_input_mode_label": "Blocklist Input Mode",
+        "blocklist_input_mode_tooltip": "You can set the blacklist manually or by subscribing to the URL. After subscribing to the URL, the blacklist will be automatically updated every day.",
+        "success_and_fail_domain_tip": "{success} domain names or IP addresses were successfully detected, and {failed} domain names or IP addresses failed to be detected.",
+        "manual_label": "Manual",
+        "subscription_url_label": "Subscription URL",
+        "input_url_link_label": "Input URL Link",
+        "input_url_link_tooltip": "Please enter the correct URL. The URL detection will identify the correctness of the domain name or IP address.",
+        "detect_button": "Detect",
+        "detecting_message": "Please hold on, detection in progress.",
+        "ssid_or_password_is_error": "SSID or password is incorrect."
     },
     "bark": {
         "desc": "Depending on the subscription you choose (Bark or BarkJr), you'll be able to:",

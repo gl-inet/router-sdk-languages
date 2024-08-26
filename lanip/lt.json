@@ -2,7 +2,7 @@
     "menu_lanip": "Vietinis tinklas („LAN“)",
     "lan_ip": {
         "guest_tab": "Svečių tinklas",
-        "dhcp_serve_title": "DHCP serveris",
+        "dhcp_serve_title": "„DHCP“ serveris",
         "lan": "Maršrutizatoriaus IP adresas",
         "guest": "Numatyta tinklo tarpuvartė",
         "start_ip": "Pradinis IP adresas",
@@ -18,16 +18,16 @@
         "lan_or_guest_model_setting": "Pažangus/-i",
         "user_count_max": "Maksimalus naudotojų/vartotojų skaičius",
         "lan_tab": "Privatus tinklas",
-        "ip_easy_tip": "Maršrutizatoriaus IP adresas yra adresas, kurį įvedate į naršyklės adreso juostą, kad patektumėte į maršrutizatoriaus administravimo puslapį.",
-        "enable_dhcp_tips": "DHCP serveris automatiškai priskiria IP adresus ir kitus ryšio parametrus klientų įrenginiams. Jei DHCP serveris yra išjungtas, klientų įrenginių tinklo nustatymai turės būti sukonfigūruoti rankiniu būdu.",
+        "ip_easy_tip": "Maršrutizatoriaus IP adresas yra tas pats tinklo tarpuvartės adresas, kurį Jūs įvedate į naršyklės adreso juostą, kad patektumėte į maršrutizatoriaus administravimo puslapį.",
+        "enable_dhcp_tips": "„DHCP“ serveris automatiškai priskiria IP adresus ir kitus ryšio parametrus, klientų įrenginiams. Jei „DHCP“ serveris yra išjungtas, tada klientų įrenginių tinklo nustatymai turės būti sukonfigūruoti rankiniu būdu.",
         "dhcp_charter_label": "Nuomos laikas",
-        "lpr_serve_label": "LPR serveris",
+        "lpr_serve_label": "„LPR“ serveris",
         "security_title": "Saugumo nustatymai",
-        "ap_isolate_label": "„AP“ izoliacija",
-        "ap_isolate_tips": "Galite izoliuoti savo tinklo klientų įrenginius į atskirą tinklo sritį. Šie įrenginiai negali bendrauti su kitais tinklo įrenginiais.",
-        "dhcp_disable_warning_tips": "Jei išjungsite DHCP, gali būti, kad negalėsite prisijungti prie interneto, todėl prašome būti atsargiems.",
-        "lpr_tips": "Gali būti užpildyti keli spausdintuvų LPR prievadai.",
-        "guest_disabel_tips": "{svečias} yra išjungtas, todėl svečių tinklas neveikia."
+        "ap_isolate_label": "„AP“ – Prieigos taško izoliacija",
+        "ap_isolate_tips": "Galite izoliuoti savo tinklo klientų įrenginius į atskirą tinklo sritį. Šie įrenginiai negali bendrauti su kitais įrenginiais, tinkle.",
+        "dhcp_disable_warning_tips": "Jei išjungsite „DHCP“, gali būti, kad negalėsite prisijungti prie interneto, todėl prašome būti atsargiems.",
+        "lpr_tips": "Galima užpildyti kelerius „LPR“ spausdintuvo prievadus.",
+        "guest_disabel_tips": "{svečias} yra išjungta/neįgalinta (-s/-i), todėl svečių tinklas neveikia."
     },
     "address_reservation": {
         "confirm_delete": "Ar tikrai norite ištrinti rezervuoto adreso įrašą?",

@@ -94,7 +94,16 @@
         "toggle_version_desc": "Puedes seleccionar la versión de la función de control parental que desees usar según tus necesidades. Ambas versiones de los Controles Parentales no pueden estar habilitadas al mismo tiempo, y la otra se desactivará automáticamente cuando cambies de versión.",
         "bark_version_desc": "La versión de Bark, proporcionada y gestionada por $$$$Bark$$$$ en su propia plataforma, ofrece la opción de filtrar aplicaciones y sitios web con un solo clic y de monitorear el historial de solicitudes. Tenga en cuenta que hay una tarifa de suscripción adicional que se debe pagar directamente a Bark por este servicio.",
         "bark_version_title": "Bark Versión",
-        "version_conversion_btn": "Cambiar Versión"
+        "version_conversion_btn": "Cambiar Versión",
+        "blocklist_input_mode_tooltip": "Se puede llenar la Lista de Bloqueos de forma manual o subscribiéndose al URL. Después de subscribirse al URL, la Lista de Bloqueos se acutalizará diariamente.",
+        "detect_button": "Detectar",
+        "blocklist_input_mode_label": "Modo de entrada a la Lista de Bloqueos",
+        "success_and_fail_domain_tip": "{success} nombres de dominio o direcciones IP fueron detectados exitosamente, y {failed} nombres de dominio o direcciones IP no pudieron ser detectados.",
+        "manual_label": "Manual",
+        "subscription_url_label": "URL suscrito",
+        "detecting_message": "Un momento por favor, la detección se encuentra en curso.",
+        "input_url_link_tooltip": "Por favor ingresar el URL correcto. El sistema detectará automáticamente si el dominio o la dirección IP están escritos de forma apropiada.",
+        "ssid_or_password_is_error": "El nombre de la Red Inalámbrica (SSID) o la clave son incorrectos."
     },
     "menu_parentalcontrol": "Control Parental",
     "bark": {

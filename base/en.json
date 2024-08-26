@@ -103,7 +103,12 @@
         "incorrect_formate_tips": "Incorrect formatting, please change manually or {action}",
         "one_click_process_btn": "one-click processing",
         "tips_ttitle": "Tips",
-        "click here_btn": "Click Here"
+        "click here_btn": "Click Here",
+        "cell_phone_num_label": "Mobile Number",
+        "email_box_lable": "Email",
+        "sign_up_btn": "Sign Up",
+        "agree_terms_and_privacy_tips": "I have read and agree {terms} & {privacy}.",
+        "detect_btn": "Detect"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -117,7 +122,8 @@
         "interface_timeout": "Operation timed out. Please check the network environment or reboot the device.",
         "processing": "Processing...",
         "please_note": "Please note:",
-        "port_occupied": "{name} port occupied"
+        "port_occupied": "{name} port occupied",
+        "send_success_tips": "Send successfully!"
     },
     "date": {
         "day": "day(s)",
@@ -128,11 +134,18 @@
         "thursday": "Th | Thursday",
         "friday": "Fr | Friday",
         "saturday": "Sa | Saturday",
-        "second": "{count} second | {count} seconds",
+        "second": "{count} Second | {count} Seconds",
         "min": "{count} Minute | {count} Minutes",
         "hour": "{count} Hour | {count} Hours",
         "for_last_time": "Last {time}",
-        "ms": "ms"
+        "ms": "ms",
+        "day_time": "{count} Day | {count} Days",
+        "week": "{count} Week | {count} Weeks",
+        "month": "{count} Month | {count} Months",
+        "year": "{count} Year | {count} Years",
+        "day_var": "Day {count}",
+        "quarter": "Quarter",
+        "month_list": "January|February|March|April|May|June|July| August|September|October|November|December"
     },
     "internet": {
         "connected": "Connected",
@@ -169,7 +182,15 @@
         "mtu_general_tips": "If you set a value higher/lower than the supported range of the device, the device uses the supported maximum/minimum value.",
         "mtu_ipv6_warning_tips": "IPv6 cannot work when MTU is lower than 1280.",
         "illegal_subnet_tips": "Illegal subnets, the last three bits must be 0.",
-        "illegal_subnet_mask_tips": "Illegal mask, since the subnet is {subnet}, the mask cannot be less than {min}."
+        "illegal_subnet_mask_tips": "Illegal mask, since the subnet is {subnet}, the mask cannot be less than {min}.",
+        "mode_label": "{tab} Mode",
+        "auto_update_mac_time_label": "By Time",
+        "auto_update_mac_label": "Auto Update MAC",
+        "auto_update_mac_tips": "If this option is enabled, the MAC can update automatically.",
+        "auto_update_mac_strategy_label": "Auto Update MAC Strategy",
+        "mac_replacement_label": "MAC Replacement Cycle",
+        "mac_replacement_tips": "The MAC can update at the update time point, and if the MAC is still in use at this time, it will update after the next time you reconnect to the network.",
+        "recheck_btn": "re-detect"
     },
     "upload": {
         "select_or_drag": "Select a file or drag it here",
@@ -187,5 +208,9 @@
         "limit_tips": "Data must not exceed {count} entries.",
         "feature_unusable_tips": "This feature does not work because {feature} is enabled.",
         "no_internet_base_tips": "Please check your internet environment and try again."
+    },
+    "err": {
+        "network_not_reachable_msg": "Network not reachable",
+        "abnormal_operation_msg": "Operational exception"
     }
 }

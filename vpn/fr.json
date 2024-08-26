@@ -262,5 +262,20 @@
     "menu_ovpnserver": "Serveur OpenVPN",
     "menu_wgclient": "Client Wireguard",
     "menu_ovpnclient": "Client OpenVPN",
-    "menu_vpndashboard": "Réseaux privées VPN"
+    "menu_vpndashboard": "Réseaux privées VPN",
+    "vpn_err": {
+        "target_if_already_run_msg": "l'interface cible est déjà en fonctionnement",
+        "param_has_rce_risk_msg": "le paramètre présente un risque d'exécution de code à distance",
+        "get_conf_fail_msg": "échec de l'obtention des données de configuration",
+        "no_key_file_msg": "le fichier de clé privée n'existe pas",
+        "get_conf_file_fail_msg": "échec de l'obtention du fichier de configuration",
+        "no_execute_program_msg": "aucun programme exécuté, peut-être non installé",
+        "no_cert_key_file_msg": "le fichier de clé publique n'existe pas",
+        "get_local_ipv4_net_fail_msg": "échec de l'obtention de l'adresse IPv4 locale",
+        "no_openssl_tool_msg": "aucun outil OpenSSL, peut-être pas installé",
+        "get_local_ipv6_net_fail_msg": "échec de l'obtention de l'adresse IPv6 locale",
+        "conflicts_with_local_addr_v6_msg": "l'adresse cible est en conflit avec l'adresse IPv6 locale",
+        "conflicts_with_local_addr_v4_msg": "l'adresse cible est en conflit avec l'adresse IPv4 locale",
+        "client_if_conflict_msg": "un autre client VPN est en cours d'exécution"
+    }
 }

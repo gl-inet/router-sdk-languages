@@ -30,7 +30,9 @@
         "asia_pacific_label": "亚太",
         "china_label": "中国大陆",
         "unbound_tips": "设备尚未被绑定到任何云端账号。",
-        "token_invalid_tips": "设备安全密钥验证失败，请$$$$重新绑定设备$$$$以连接到 {cloud}。"
+        "token_invalid_tips": "设备安全密钥验证失败，请$$$$重新绑定设备$$$$以连接到 {cloud}。",
+        "bind_ready_tips": "此设备被 {user} 绑定于 {time}",
+        "sms_verification_code_label": "短信验证码"
     },
     "menu_cloud": "GoodCloud"
 }
