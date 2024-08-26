@@ -182,7 +182,14 @@
         "mtu_general_tips": "If you set a value higher/lower than the supported range of the device, the device uses the supported maximum/minimum value.",
         "mtu_ipv6_warning_tips": "IPv6 cannot work when MTU is lower than 1280.",
         "illegal_subnet_tips": "Illegal subnets, the last three bits must be 0.",
-        "illegal_subnet_mask_tips": "Illegal mask, since the subnet is {subnet}, the mask cannot be less than {min}."
+        "illegal_subnet_mask_tips": "Illegal mask, since the subnet is {subnet}, the mask cannot be less than {min}.",
+        "mode_label": "{tab} Mode",
+        "auto_update_mac_time_label": "By Time",
+        "auto_update_mac_label": "Auto Update MAC",
+        "auto_update_mac_tips": "If this option is enabled, the MAC can update automatically.",
+        "auto_update_mac_strategy_label": "Auto Update MAC Strategy",
+        "mac_replacement_label": "MAC Replacement Cycle",
+        "mac_replacement_tips": "The MAC can update at the update time point, and if the MAC is still in use at this time, it will update after the next time you reconnect to the network."
     },
     "upload": {
         "select_or_drag": "Select a file or drag it here",
