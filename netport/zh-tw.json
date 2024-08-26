@@ -1,1 +1,7 @@
-{}
+{
+    "netport": {
+        "as_wan_tips": "{asWan}，客戶端設備將無法再使用該網口連接並訪問管理面板。 請確保您的客戶端可以連接 Wi-Fi 或者其他 LAN 埠。",
+        "set_as_wan_tips": "一旦 {silkprint}作為 WAN 埠使用",
+        "reset_as_lan_tips": "您確定要將 {silkprint}恢復成作為 LAN 埠使用的狀態嗎？"
+    }
+}
