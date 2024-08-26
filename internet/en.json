@@ -343,7 +343,7 @@
         "detecting_loading": "Detecting",
         "make_sure_wan_position_is_correct": "Currently the WAN port is used as LAN, if you want to set up Ethernet, please make sure the WAN port is used as WAN.",
         "manual_authentication_prompt": "Manual authentication prompt",
-        "wait_for_four_second_to_login_tip": "The device is in Login Mode for Public Hotspots. Automatically Go to Login after 4 seconds.",
+        "wait_for_four_second_to_login_tip": "The device is in Login Mode for Public Hotspots. Automatically Go to Login after {num} seconds.",
         "reboot_modem": "Please reboot the modem",
         "ios_device": "iOS Device",
         "enter_login_mode_for_public_hotspots_tip": "Click the Next button to enter Login Mode for Public Hotspots.",
@@ -370,6 +370,7 @@
         "failure_auto_obtain_data": "Failure To Automatically Obtain Data",
         "can_choose_to_continue_the_process": "You can choose to continue the process below manually or reboot the modem.",
         "phone_is_connected": "phone is connected",
-        "can_not_access_the_internet_hotspot": "Can't access the internet via the repeated hotspot. Try to enter Login Mode for Public Hotspots to fix the issue."
+        "can_not_access_the_internet_hotspot": "Can't access the internet via the repeated hotspot. Try to enter Login Mode for Public Hotspots to fix the issue.",
+        "android_device": "Android Device"
     }
 }
