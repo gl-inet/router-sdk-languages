@@ -10,6 +10,7 @@
         "as_wan_tips": "{asWan}, the device connected to the port can't access the admin panel anymore. You'll have to connect it to Wi-Fi or other LAN ports.",
         "reset_as_wan_tips": "将{silkprint}恢复作为 WAN 口后",
         "reset_as_lan_tips": "Are you sure to restore the {silkprint} to LAN port (default)?",
-        "set_as_lan_tips": "您确定要将{silkprint}切换为 LAN 口使用吗？"
+        "set_as_lan_tips": "您确定要将{silkprint}切换为 LAN 口使用吗？",
+        "no_wan_tips": "{silkprint} port have been used as LAN (Local Area Network).You can set it back to WAN (Wide Area Network) in {view}"
     }
 }
