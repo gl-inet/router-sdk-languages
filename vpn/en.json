@@ -267,7 +267,15 @@
         "domain_input_mode_label": "Input Mode",
         "wg_mullvad_limit_tips": "Failed to generate a WireGuard key. You can only have up to five keys at the same time per Mullvad account. Please go to {provider} to revoke a key.",
         "wg_self_public_key_tips": "Public key form your side",
-        "go_renew_btn": "Go Renew"
+        "go_renew_btn": "Go Renew",
+        "wg_nordvpn_tips": "NordVPN token is the credentials to login to NordVPN, you need to login to the NordVPN official website first, and then manually get its token.",
+        "expires_at_tips": "Expires at {time}",
+        "number_allocated_ips_label": "Number of allocated IPs",
+        "server_select_label": "Server Select",
+        "account_name_tips": "Account Name {name}",
+        "wg_surfshark_not_connet_tips": "If the VPN server cannot be connected, the public key may be expired. You can update the public key.",
+        "search_region_label": "Country / Region / City",
+        "only_show_selected_label": "Show only selected item"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
