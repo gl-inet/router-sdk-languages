@@ -276,7 +276,11 @@
         "wg_surfshark_not_connet_tips": "If the VPN server cannot be connected, the public key may be expired. You can update the public key.",
         "search_region_label": "Country / Region / City",
         "only_show_selected_label": "Show only selected item",
-        "guide_title": "VPN Client Select"
+        "guide_title": "VPN Client Select",
+        "guide_login_title": "Login {provider}",
+        "guide_done_title": "Successful Networking",
+        "guide_pull_title": "{provider} Server Select",
+        "wg_guide_tips": "The VPN guide can help you use the VPN quickly. It is only for AzireVPN, Mullvad, NordVPN, PIA and Surfshark. For others, you can skip. Configuring the VPN may take a few minutes."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
