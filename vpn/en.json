@@ -280,7 +280,13 @@
         "guide_login_title": "Login {provider}",
         "guide_done_title": "Successful Networking",
         "guide_pull_title": "{provider} Server Select",
-        "wg_guide_tips": "The VPN guide can help you use the VPN quickly. It is only for AzireVPN, Mullvad, NordVPN, PIA and Surfshark. For others, you can skip. Configuring the VPN may take a few minutes."
+        "wg_guide_tips": "The VPN guide can help you use the VPN quickly. It is only for AzireVPN, Mullvad, NordVPN, PIA and Surfshark. For others, you can skip. Configuring the VPN may take a few minutes.",
+        "guide_switch_another_server_tips": "2.Switch to another VPN server.",
+        "guide_make_sure_available_tips": "1.Make sure the VPN account is available.",
+        "guide_cannot_work_tips": "Now the VPN cannot work properly, please try the following ways.",
+        "guide_done_tips": "{provider} has been connected successfully and you can enjoy VPN now.",
+        "guide_restart_tips": "3.Restart the router.",
+        "guide_contact_us_tips": "4.If the problem has not been solved, you can also email {email}."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -317,6 +323,7 @@
         "password_too_short_msg": "the password must be at least 8 characters",
         "invalid_username_msg": "the username may only contain letters and numbers",
         "register_account_fail_msg": "register new account failed",
-        "vpn_client_connect_fail_msg": "vpn client failed to connect to server"
+        "vpn_client_connect_fail_msg": "vpn client failed to connect to server",
+        "connect_server_fail_msg": "get information from provider server failed"
     }
 }
