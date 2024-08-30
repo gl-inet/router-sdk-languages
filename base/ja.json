@@ -103,7 +103,11 @@
         "view_details_btn": "詳細を見る",
         "idx_label": "インデックス",
         "pre_set_up": "事前設定",
-        "update": "更新"
+        "update": "更新",
+        "sign_up_btn": "サインアップ",
+        "agree_terms_and_privacy_tips": "{terms}と{privacy}を読み、同意します。",
+        "detect_btn": "検出",
+        "cell_phone_num_label": "携帯電話番号"
     },
     "msg": {
         "access_denied": "無効なユーザーか、承認されていないか、もしくはログインしていません！",
@@ -117,7 +121,8 @@
         "uninstalling": "アンインストール中、しばらくお待ちください…",
         "please_note": "注意:",
         "processing": "処理中...",
-        "port_occupied": "{name} ポートが占有されています"
+        "port_occupied": "{name} ポートが占有されています",
+        "send_success_tips": "正常に送信されました!"
     },
     "internet": {
         "lan_ip_tips": "LANサブネットはWANサブネットと競合しています。$$$$LANサブネットを変更する$$$$で別のアドレスにしてください。",
@@ -153,8 +158,10 @@
         "mac_real_label": "工場",
         "hl_tips": "IPv6では、HL（Hop Limit）フィールドがデータパケットのネットワーク内の伝送ホップ数を制限するために使用され、これはIPv4のTTLに相当します。",
         "net_trouble_guide_link": "ネットワークトラブルシューティングガイド",
-        "illegal_subnet_tips": "不正なサブネット、最後の3ビットは0でなければなりません。",
-        "random_mac_label": "ランダム化されたMACアドレス"
+        "illegal_subnet_tips": "不正なサブネットです。最後の3ビットは0でなければなりません。",
+        "random_mac_label": "ランダム化されたMACアドレス",
+        "mode_label": "{tab}モード",
+        "recheck_btn": "再検出"
     },
     "date": {
         "day": "日",
@@ -169,7 +176,13 @@
         "min": "{count} 分 | {count} 分",
         "hour": "{count} 時間 | {count} 時間",
         "ms": "ミリ秒",
-        "for_last_time": "最新{time}"
+        "for_last_time": "最新{time}",
+        "day_time": "{count}日 | {count}日",
+        "week": "{count}週 | {count}週",
+        "month": "{count}月 | {count}月",
+        "day_var": "{count}日",
+        "year": "{count}年 | {count}年",
+        "month_list": "1月|2月|3月|4月|5月|6月|7月|8月|9月|10月|11月|12月"
     },
     "upload": {
         "select_or_drag": "ファイルを選択するか、こちらにドラッグしてください",
