@@ -103,7 +103,11 @@
         "update": "Bijwerken",
         "idx_label": "indexering",
         "tips_ttitle": "Tips",
-        "click here_btn": "Klik hier"
+        "click here_btn": "Klik hier",
+        "detect_btn": "Detecteren",
+        "cell_phone_num_label": "Mobiele telefoonnummer",
+        "agree_terms_and_privacy_tips": "Ik heb gelezen en ga akkoord met de {terms} & {privacy}.",
+        "sign_up_btn": "Aanmelden"
     },
     "msg": {
         "success": "Toegepast!",
@@ -117,7 +121,8 @@
         "please_note": "Let op:",
         "access_denied": "Ongeldige gebruiker, toestemming geweigerd of niet aangemeld!",
         "unknown_err": "Er trad een onbekende fout op. Controleer de netwerkomgeving of herstart het apparaat.",
-        "port_occupied": "{name} netwerkpoort is al in gebruik"
+        "port_occupied": "{name} netwerkpoort is al in gebruik",
+        "send_success_tips": "Succesvol verzonden!"
     },
     "date": {
         "day": "dag(en)",
@@ -132,7 +137,14 @@
         "for_last_time": "Laatste {time}",
         "ms": "ms",
         "tuesday": "di | dinsdag",
-        "hour": "{count} uur | {count} uren"
+        "hour": "{count} uur | {count} uren",
+        "day_time": "{count} dag | {count} dagen",
+        "quarter": "Kwartaal",
+        "month": "count} maand | {count} maanden",
+        "year": "count} jaar | {count} jaren",
+        "day_var": "Dag {count}",
+        "week": "count} week | {count} weken",
+        "month_list": "januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december"
     },
     "internet": {
         "connected": "Verbonden",
@@ -169,7 +181,13 @@
         "illegal_subnet_mask_tips": "Ongeldig subnetmasker, aangezien het subnet {subnet} is, mag het masker niet kleiner zijn dan {min}.",
         "mtu_general_tips": "Als u een waarde instelt die hoger/lager is dan het ondersteunde bereik van het apparaat, gebruikt het apparaat de ondersteunde maximale/minimale waarde.",
         "illegal_subnet_tips": "Ongeldige subnets, de laatste drie bits moeten 0 zijn.",
-        "mtu_ipv6_warning_tips": "IPv6 werkt niet als het MTU lager is dan 1280."
+        "mtu_ipv6_warning_tips": "IPv6 werkt niet als het MTU lager is dan 1280.",
+        "auto_update_mac_time_label": "Op tijd",
+        "auto_update_mac_tips": "Zodra deze optie is ingeschakeld, wordt het MAC-adres automatisch bijgewerkt.",
+        "auto_update_mac_strategy_label": "MAC-strategie automatisch bijwerken",
+        "mac_replacement_label": "MAC-vervangings cyclus",
+        "mode_label": "{tab} modus",
+        "auto_update_mac_label": "MAC automatisch bijwerken"
     },
     "system": {
         "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade.",
