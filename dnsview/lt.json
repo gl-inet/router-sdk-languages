@@ -1,11 +1,11 @@
 {
     "dns": {
-        "edit_host_btn": "Redaguoti skleidėjus",
+        "edit_host_btn": "Redaguoti skleidėjus/vedėjus",
         "form_modem_label": "„DNS“ iš mobiliojo ryšio",
         "form_ovpn_label": "„DNS“ iš „OpenVPN“",
         "form_wg_label": "„DNS“ iš „WireGuard“",
         "provider": "„DNS“ teikėjas",
-        "desc": "Kai nustatote pasirinktines DNS serverius, visos DNS užklausos bus išspręstos per juos (vietoj DNS serverių, gautų per „eternetą“, kartotùvą, mobilųjį ryšį, saitvietę). Priešingu atveju naudosite kiekvienai sąsajai konfigūruotus DNS nustatymus.",
+        "desc": "Kai nustatote pasirinktinius „DNS“ serverius, visos „DNS“ užklausos bus išspręstos per juos (vietoj „DNS“ serverių, gautų per „eternetą“, kartotuvą, mobilųjį ryšį ar saitvietę, kurią teikią Jūsų interneto teikėjas). Priešingu atveju, naudosite kiekvienai sąsajai ir/ar sietuvui sukonfigūruotus „DNS“ nustatymus.",
         "rebinding_label": "DNS „Rebinding“ atakos apsauga",
         "rebinding_tips": "Įjungus šią parinktį, gali kilti privačių DNS paieškų trikties. Jei jūsų tinklas turi „Captive Portal“, prašome išjungti šią parinktį.",
         "override_label": "Perkeisti/Perrašyti (priverstinai) visų klientų „DNS“ nustatymus",
@@ -16,7 +16,7 @@
         "encryption_type_label": "Šifravimo tipas",
         "v1_tips": "Maršrutizatorius naudoja „DNS v1“ versiją. Ne visi užšifruoti „DNS“ serveriai yra palaikomi.",
         "server": "Serveriai",
-        "server_tips": "Galite pasirinkti iki aštuonių serverių. Maršrutizatorius automatiškai pasirinks greičiausią serverį iš jų.",
+        "server_tips": "Jūs galite pasirinkti iki aštuonių serverių. Maršrutizatorius automatiškai pasirinks greičiausią serverį iš jų.",
         "at_least_one_server_tips": "Pasirinkite bent vieną serverį",
         "select_server_btn": "Pasirinkti serverius",
         "choose_server_title": "Pasirinkti „DNS“ serverius",
