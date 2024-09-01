@@ -26,15 +26,15 @@
         "fault_count": "Nepavyko – $$$$ kartą/-ų",
         "track_addr_label": "Sekti IP",
         "both_label": "Abu/-i",
-        "flush_track_tips": "Jei ši parinktis įjungta ir keičiasi tinklo sąsajos, maršrutizatorius atnaujins visus esamus duomenų srautus, kad užtikrintų jų naudojimą aukščiausios pirmenybės sąsajoje. Tai išvengia nereikalingo srauto praradimo, tačiau gali sukelti tinklo nestabilumą (pavyzdžiui, kai kurie VPN gali neprisijungti iš karto).",
+        "flush_track_tips": "Jei ši parinktis įjungta/įgalinta ir tinklo sąsaja ir/arba sietuvas pasikeičia, tada maršrutizatorius atnaujins/perkels visus esamus duomenų srautus, kad užtikrintų jų naudojimą aukščiausios pirmenybės sąsajoje. Tai išvengia nereikalingo srauto praradimo, tačiau gali sukelti didesnį tinklo nestabilumą (pavyzdžiui, kai kurie „VPN“ gali neprisijungti iš karto).",
         "flush_track_label": "Priverstinis srautų atnaujinimas/įkėlimas iš naujo",
         "enable_check_label": "Įjungti/Įgalinti sąsajos ir/arba sietuvo būklės/būsenos sekimą",
         "interface_state_label": "Tinklo būklė/būsena",
-        "balancing_warning_tips": "Norint tinkamai veikti subalansuotam apkrovos paskirstymui, turi būti sukonfigūruotos bent dvi sąsajos su nenuliniais apkrovos santykiais. Jei nėra prisijungiančios interneto sąsajos su nenuliniu apkrovos santykiu, įrenginys negalės prisijungti prie interneto.",
+        "balancing_warning_tips": "Norint, kad tinkamai veiktų subalansuotas apkrovos paskirstymas, turi būti sukonfigūruotos bent dvi sąsajos/sietuvai su nenuliniais apkrovos santykiais. Jei nėra prisijungiančios interneto sąsajos/sietuvo su nenuliniu apkrovos santykiu, tada įrenginys negalės prisijungti prie interneto.",
         "track_mode_label": "Mažo kiekio duomenų režimas",
         "passive_label": "Mažo kiekio duomenų režimas",
         "sensitivity_label": "Jautrumas",
-        "sensitivity_tips": "Šis jautrumas nustato interneto būklės nustatymo laiko intervalą. Rekomenduojama naudoti žemą jautrumą, kai interneto prieiga yra nestabili, siekiant išvengti dažno tinklo perjungimo; rekomenduojama naudoti aukštą jautrumą, kai žiūrima vaizdo medžiaga arba vyksta tiesioginė transliacija, kad galėtumėte greitai perjungti interneto prieigą; perjungimas į aukštą jautrumą gali sukelti tinklo atsijungimą. Prašome reguliuoti atsargiai.",
+        "sensitivity_tips": "Šis jautrumas nustato interneto būsenos/būklės aptikimo laiko intervalą. Rekomenduojama naudoti žemą jautrumą, kai interneto prieiga yra nestabili, siekiant išvengti dažno tinklo perjungimo; rekomenduojama naudoti aukštą jautrumą, kai žiūrima vaizdo medžiaga arba vyksta tiesioginė transliacija, kad galėtumėte greitai perjungti interneto prieigą. Perjungimas į aukštą jautrumą gali sukelti tinklo atsijungimą. Prašome reguliuoti atsargiai.",
         "track_mode_tips": "Jei ši parinktis – įjungta/įgalinta, tada sekimas vyks tik tada, kai bus sąsajos ir/arba sietuvo tinklo klaida. Rekomenduojama tai įjungti/įgalinti sąsajoms ir/arba sietuvams, kurios naudoja duomenų srauto apmokestinimą (ribotų duomenų planai).",
         "network_tracking_title": "„{interface}“ – būklės/būsenos sekimas"
     }
