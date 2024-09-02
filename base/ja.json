@@ -125,11 +125,11 @@
         "send_success_tips": "正常に送信されました!"
     },
     "internet": {
-        "lan_ip_tips": "LANサブネットはWANサブネットと競合しています。$$$$LANサブネットを変更する$$$$で別のアドレスにしてください。",
+        "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。$$$$Change LAN Subnet$$$$で別のアドレスにしてください。",
         "getting": "取得中…",
         "connecting": "接続中…",
         "connected": "接続済み",
-        "guest_ip_tips": "ゲストサブネットはWANサブネットと競合しています。$$$$ゲストサブネットを変更する$$$$で別のアドレスにしてください。",
+        "guest_ip_tips": "ゲストサブネットがWANサブネットと競合しています。$$$$Change Guest Subnet$$$$で別のアドレスにしてください。",
         "up_not_online_tips": "インターフェイスは接続されていますが、$$$$プロトコルでインターネットにアクセスできません。",
         "offline_tips": "インターフェイスは接続されていますが、インターネットにアクセスできません。",
         "band_width": "帯域幅",
@@ -156,12 +156,14 @@
         "mtu_ipv6_warning_tips": "MTUが1280未満の場合、IPv6は機能しません。",
         "mac_addr_label": "MACアドレス",
         "mac_real_label": "工場",
-        "hl_tips": "IPv6では、HL（Hop Limit）フィールドがデータパケットのネットワーク内の伝送ホップ数を制限するために使用され、これはIPv4のTTLに相当します。",
+        "hl_tips": "IPv6では、HL（Hop Limit）フィールドがデータパケットのネットワーク内の伝送ホップ数を制限するために使用されます。これはIPv4のTTLに相当します。",
         "net_trouble_guide_link": "ネットワークトラブルシューティングガイド",
         "illegal_subnet_tips": "不正なサブネットです。最後の3ビットは0でなければなりません。",
         "random_mac_label": "ランダム化されたMACアドレス",
         "mode_label": "{tab}モード",
-        "recheck_btn": "再検出"
+        "recheck_btn": "再検出",
+        "auto_update_mac_label": "MACアドレスの自動アップデート",
+        "auto_update_mac_tips": "このオプションを有効にすると、MACアドレスが自動的にアップデートされます。"
     },
     "date": {
         "day": "日",
@@ -172,9 +174,9 @@
         "wednesday": "水 | 水曜日",
         "thursday": "木 | 木曜日",
         "friday": "金| 金曜日",
-        "second": "{count} 秒 | {count}秒",
-        "min": "{count} 分 | {count} 分",
-        "hour": "{count} 時間 | {count} 時間",
+        "second": "{count}秒 | {count}秒",
+        "min": "{count}分 | {count}分",
+        "hour": "{count}時間 | {count}時間",
         "ms": "ミリ秒",
         "for_last_time": "最新{time}",
         "day_time": "{count}日 | {count}日",
@@ -182,7 +184,8 @@
         "month": "{count}月 | {count}月",
         "day_var": "{count}日",
         "year": "{count}年 | {count}年",
-        "month_list": "1月|2月|3月|4月|5月|6月|7月|8月|9月|10月|11月|12月"
+        "month_list": "1月|2月|3月|4月|5月|6月|7月|8月|9月|10月|11月|12月",
+        "quarter": "四分の一"
     },
     "upload": {
         "select_or_drag": "ファイルを選択するか、こちらにドラッグしてください",
