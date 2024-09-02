@@ -256,7 +256,9 @@
         "ovpnclient_tap_s2s_ip_tips": "OpenVPN クライアントの IP アドレスは変更される可能性があります。",
         "ovpnclinet_taps2s_disable_tips": "この機能を有効にすると、{feature} などの機能が使用できなくなります。",
         "generate_peer_falied_msg": "クライアントIPの生成に失敗しました",
-        "domain_err_tips": "フォーマットが正しくありません。手動で変更するか、$$$$ワンクリック処理$$$$してください。"
+        "domain_err_tips": "フォーマットが正しくありません。手動で変更するか、$$$$one-click processing$$$$してください",
+        "domain_detect_success_tips": "{count}のドメイン名またはIPアドレスの検出に成功しました。",
+        "domain_detect_failed_tips": "{count}のドメイン名またはIPアドレスの検出に失敗しました。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバ",
@@ -264,18 +266,25 @@
     "menu_wgclient": "WireGuardクライアント",
     "menu_ovpnclient": "OpenVPNクライアント",
     "vpn_err": {
-        "param_has_rce_risk_msg": "パラメータにはRCEリスクがあります。",
-        "get_conf_fail_msg": "取得配置数据失败",
-        "no_key_file_msg": "プライベートキーファイルが存在しません",
-        "get_conf_file_fail_msg": "取得設定ファイルに失敗しました",
+        "param_has_rce_risk_msg": "パラメータにはRCEリスクがあります",
+        "get_conf_fail_msg": "設定データの取得に失敗",
+        "no_key_file_msg": "秘密鍵ファイルが存在しません",
+        "get_conf_file_fail_msg": "設定ファイルの取得に失敗しました",
         "no_execute_program_msg": "プログラムを実行できません。おそらくインストールされていない可能性があります。",
         "target_if_already_run_msg": "ターゲットインターフェースは既に実行中です",
         "no_cert_key_file_msg": "公開鍵ファイルが存在しません",
-        "no_openssl_tool_msg": "未安装OpenSSL工具。",
-        "get_local_ipv4_net_fail_msg": "取得ローカルIPv4アドレスに失敗しました",
+        "no_openssl_tool_msg": "OpenSSLツールが存在しません。おそらくインストールされていません",
+        "get_local_ipv4_net_fail_msg": "ローカルIPv4アドレスの取得に失敗しました",
         "conflicts_with_local_addr_v6_msg": "ターゲットアドレスがローカルIPv6アドレスと競合しています",
-        "get_local_ipv6_net_fail_msg": "取得本地 IPv6 地址失败",
+        "get_local_ipv6_net_fail_msg": "ローカルIPv6アドレスの取得に失敗しました",
         "conflicts_with_local_addr_v4_msg": "ターゲットアドレスがローカルIPv4アドレスと競合しています",
-        "client_if_conflict_msg": "他のVPNクライアントが実行中です"
+        "client_if_conflict_msg": "他のVPNクライアントが実行中です",
+        "username_has_been_token_msg": "ユーザー名は既に使われています",
+        "to_many_conf_item_msg": "設定項目が多すぎます",
+        "invalid_login_info_msg": "不正なログイン情報",
+        "port_be_used_msg": "ポートが既に使用されています",
+        "err_auth_type_val_msg": "認証方式エラー",
+        "invalid_private_wg_key_msg": "不正な秘密鍵",
+        "no_passwd_msg": "アカウントにパスワードがありません"
     }
 }
