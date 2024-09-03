@@ -48,5 +48,9 @@
         "rc_version_disable_tips": "Please note that disabling this option will not automatically return your firmware to a stable version. If you need to use a stable version of the firmware, please go to $$$$The Download Center $$$$.",
         "check_online_err_msg": "{code}，the online upgrade is abnormal."
     },
-    "menu_upgrade": "Upgrade"
+    "menu_upgrade": "Upgrade",
+    "cellular": {
+        "upgrade_tips": "Please do not power off during the module upgrade process.The device will automatically reboot after the module is upgraded, which may take a few seconds.",
+        "online_upgrade_title": "Module Online Upgrade"
+    }
 }
