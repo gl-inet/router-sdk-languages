@@ -48,5 +48,11 @@
         "rc_version_disable_tips": "このオプションを無効にしても、ファームウェアが自動的に安定版に戻るわけではないことにご注意ください。安定版のファームウェアを使用する必要がある場合は、$$$$The Download Center $$$$ へアクセスしてください。",
         "check_online_err_msg": "{code}、オンラインアップグレードが異常です。"
     },
-    "menu_upgrade": "アップグレード"
+    "menu_upgrade": "アップグレード",
+    "cellular": {
+        "is_update_tips": "モジュールは最新です。",
+        "online_upgrade_title": "モジュールオンラインアップグレード",
+        "local_upgrade_title": "モジュールローカルアップグレード",
+        "upgrade_tips": "モジュールアップデート処理中は電源を切らないでください。モジュールアップデート完了後、デバイスは自動的に再起動します。この処理には数秒かかります。"
+    }
 }
