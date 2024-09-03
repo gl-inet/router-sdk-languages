@@ -46,7 +46,12 @@
         "rc_version_disable_tips": "请注意，禁用此选项并不会自动将您的固件退回稳定版本。如果您需要使用稳定版本的固件，请前往$$$$下载中心$$$$。",
         "new_rc_firmware_title": "RC 固件",
         "rc_version_enable_tips": "若此选项启用，您可以在稳定版本发布前试用新功能并向我们提供反馈。请注意，这些更新内容可能不够稳定。您可以查看 $$$$ What's New?$$$$ 来了解最新固件功能。",
-        "check_online_err_msg": "{code}，在线升级检测异常"
+        "check_online_err_msg": "{code}，在线升级检测异常",
+        "firmware_local_title": "固件本地升级",
+        "firmware_online_title": "固件在线升级"
     },
-    "menu_upgrade": "升级"
+    "menu_upgrade": "升级",
+    "cellular": {
+        "unzip_failed_tips": "解压失败"
+    }
 }
