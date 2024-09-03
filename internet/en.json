@@ -390,7 +390,7 @@
     "traffic": {
         "data_used_label": "{sim} Data Used",
         "save_to_flash_label": "Power failure to save data statistics",
-        "no_saved_limit_tips": "If you need to lock the SIM card based on data usage, turn onthe \"Power failure to save data statistics\" switch.",
+        "no_saved_limit_tips": "If you need to lock the SIM card based on data usage, turn on the \"Power failure to save data statistics\" switch.",
         "save_to_flash_tips": "If the switch is turned on, the traffic data will not be lost after power failure.",
         "modify_data_used_tips": "The data statistics are for information only; actual traffic is determined by your network operator and will appear on the bill provided by your network operator.",
         "data_cap_amout_label": "Data Cap Amount",
@@ -400,6 +400,6 @@
         "data_reset_period_label": "Data Reset Period",
         "start_day_label": "Start Day",
         "start_hour_label": "Start Hour",
-        "clear_warning_tips": "After modifying any data limiting configuration, the data will be clear. Do I need to clear the data?"
+        "clear_warning_tips": "After modifying any data limiting configuration, the data will be clear. Do you need to clear the data?"
     }
 }
