@@ -95,7 +95,19 @@
         "version_conversion_btn": "切换版本",
         "local_version_title": "本地版",
         "toggle_version_desc": "您可以根据需要选择要使用的家长控制功能版本。两种版本的家长控制功能不能同时开启，您切换版本时将自动关闭另一个。",
-        "local_version_desc": "本地版本由 GL.iNet 提供。目前处于测试阶段，因此不需要支付额外费用。此版本中，如果需要按应用过滤请求，您需要手动输入域名。"
+        "local_version_desc": "本地版本由 GL.iNet 提供。目前处于测试阶段，因此不需要支付额外费用。此版本中，如果需要按应用过滤请求，您需要手动输入域名。",
+        "blocklist_input_mode_label": "黑名单输入方式",
+        "blocklist_input_mode_tooltip": "你可以手动设置黑名单，也可以通过订阅URL的方式设置黑名单。订阅URL后，黑名单会每天自动更新。",
+        "success_and_fail_domain_tip": "{success}域名或IP地址检测成功，{failed}域名或IP地址检测失败。",
+        "manual_label": "手动",
+        "subscription_url_label": "订阅URL",
+        "input_url_link_label": "输入URL链接",
+        "detect_button": "检测",
+        "detecting_message": "请稍等，正在进行检测。",
+        "ssid_or_password_is_error": "SSID或密码不正确。",
+        "domain_detect_success_tips": "{count}域名被成功检测。",
+        "domain_detect_failed_tips": "{count}域名检测失败。",
+        "input_url_link_tips": "请输入正确的URL，URL检测将识别域名的正确性。"
     },
     "bark": {
         "desc": "根据您的订阅方案（Bark 或 BarkJr），您将能够：",
