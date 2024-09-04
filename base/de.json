@@ -103,7 +103,11 @@
         "incorrect_formate_tips": "Falsche Formatierung, bitte manuell ändern oder {action}",
         "one_click_process_btn": "one-click processing",
         "tips_ttitle": "Hinweise",
-        "click here_btn": "Hier klicken"
+        "click here_btn": "Hier klicken",
+        "agree_terms_and_privacy_tips": "Ich stimme den {terms} & der {privacy} zu.",
+        "cell_phone_num_label": "Handynummer",
+        "sign_up_btn": "Registrieren",
+        "detect_btn": "Ermitteln"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -117,7 +121,8 @@
         "interface_timeout": "Zeitüberschreitung bei der Antwort. Bitte überprüfen Sie die Netzwerkverbindung oder starten Sie das Gerät neu.",
         "processing": "Verarbeitung ...",
         "please_note": "Bitte beachten:",
-        "port_occupied": "{name} Port belegt"
+        "port_occupied": "{name} Port belegt",
+        "send_success_tips": "Erfolgreich gesendet!"
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
@@ -154,7 +159,13 @@
         "mtu_ipv6_warning_tips": "IPv6 kann nicht funktionieren, wenn die MTU kleiner als 1280 ist.",
         "mac_format_tips": "das niedrigstwertige Bit des ersten Oktetts darf nicht auf 1 gesetzt werden (d. h. die zweite Hexadezimalziffer darf nicht ungerade sein).",
         "illegal_subnet_tips": "Ungültige Subnetze, die letzten drei Bits müssen 0 sein.",
-        "illegal_subnet_mask_tips": "Ungültige Maske, da das Subnetz {subnet} ist, kann die Maske nicht kleiner als {min} sein."
+        "illegal_subnet_mask_tips": "Ungültige Maske, da das Subnetz {subnet} ist, kann die Maske nicht kleiner als {min} sein.",
+        "auto_update_mac_time_label": "Zum Zeitpunkt",
+        "auto_update_mac_tips": "Wenn diese Option aktiv ist, kann die MAC-Adresse automatisch gewechselt werden.",
+        "mac_replacement_label": "MAC-Wechselintervall",
+        "auto_update_mac_strategy_label": "Automatischer Wechsel der MAC-Adresse",
+        "auto_update_mac_label": "MAC automatisch wechseln",
+        "mac_replacement_tips": "Die MAC-Adresse kann zum Aktualisierungszeitpunkt gewechselt werden, und wenn die MAC-Adresse zu diesem Zeitpunkt noch in Verwendung ist, wird sie beim nächsten Herstellen einer Netzwerkverbindung aktualisiert."
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
