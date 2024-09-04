@@ -273,7 +273,7 @@
         "conflicts_with_local_addr_v4_msg": "das Ziel-IP-Adresse steht im Konflikt mit der lokalen IPv4-Adresse",
         "no_cert_key_file_msg": "Öffentlicher Schlüssel-Datei existiert nicht",
         "get_local_ipv4_net_fail_msg": "Lokale IPv4-Adresse konnte nicht abgerufen werden",
-        "no_openssl_tool_msg": "Kein OpenSSL-Tool vorhanden, möglicherweise nicht installiert.",
+        "no_openssl_tool_msg": "OpenSSL konnte nicht gefunden werden, möglicherweise ist es nicht installiert.",
         "get_local_ipv6_net_fail_msg": "IPv6-Adresse konnte nicht abgerufen werden",
         "client_if_conflict_msg": "ein anderer VPN-Client läuft",
         "conflicts_with_local_addr_v6_msg": "das Ziel-IP-Adresse steht im Konflikt mit der lokalen IPv6-Adresse"
