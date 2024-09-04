@@ -5,6 +5,11 @@
         "reset_as_wan_tips": "将{silkprint}恢复作为 WAN 口后",
         "set_as_wan_tips": "一旦 {silkprint}作为 WAN 口使用",
         "reset_as_lan_tips": "您确定要将 {silkprint}恢复成作为 LAN 口使用的状态吗？",
-        "set_as_lan_tips": "您确定要将{silkprint}切换为 LAN 口使用吗？"
-    }
+        "set_as_lan_tips": "您确定要将{silkprint}切换为 LAN 口使用吗？",
+        "rate_label": "网口协商速率",
+        "as_label": "作为 {port}使用",
+        "unplug_cable_tips": "首先，请拔掉插入 {silkprint}的网线。",
+        "two_port_label": "{port1}和 {port2}"
+    },
+    "menu_netport": "网口管理"
 }
