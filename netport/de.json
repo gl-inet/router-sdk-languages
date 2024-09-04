@@ -1,5 +1,10 @@
 {
     "netport": {
-        "rate_label": "Ausgehandelte Portgeschwindigkeit"
-    }
+        "rate_label": "Ausgehandelte Portgeschwindigkeit",
+        "unplug_cable_tips": "Bitte entfernen Sie zuerst das Ethernetkabel im Anschluss {silkprint}.",
+        "wan_lan_change_tips": "Sie können den WAN-Port als LAN-Port verwenden.",
+        "reset_port_tips": "Sie können {silkprint} in den {port}-Modus zurücksetzen, indem Sie die Reset-Taste des Geräts 4 Sekunden lang gedrückt halten.",
+        "as_label": "Als {port}"
+    },
+    "menu_netport": "Verwaltung der Netzwerkanschlüsse"
 }
