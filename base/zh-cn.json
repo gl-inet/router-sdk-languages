@@ -108,7 +108,10 @@
         "sign_up_btn": "注册",
         "email_box_label": "邮箱",
         "agree_terms_and_privacy_tips": "我已阅读并同意{terms} 和 {privacy}。",
-        "detect_btn": "检测"
+        "detect_btn": "检测",
+        "switch_btn": "切换",
+        "exit_btn": "退出",
+        "done_btn": "完成"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -123,7 +126,9 @@
         "processing": "正在处理......",
         "please_note": "请注意：",
         "port_occupied": "{name}端口已被占用",
-        "send_success_tips": "发送成功"
+        "send_success_tips": "发送成功",
+        "sign_up_success": "注册成功！",
+        "successfully_badge_tips": "成功！"
     },
     "date": {
         "day": "执行日期",
@@ -144,7 +149,8 @@
         "month": "{count} 月| {count} 月",
         "year": "{count} 年 | {count} 年",
         "quarter": "季度",
-        "month_list": "一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月"
+        "month_list": "一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月",
+        "day_var": "第{count}天"
     },
     "internet": {
         "connected": "已连接",
@@ -190,7 +196,8 @@
         "mac_replacement_label": "MAC更换周期",
         "mac_replacement_tips": "MAC可以在更新时间点更新，如果此时MAC仍在使用，则在下次重新连接网络时更新。",
         "duplex_full_label": "{speed} Mbps全双工",
-        "duplex_half_label": "{speed} Mbps半双工"
+        "duplex_half_label": "{speed} Mbps半双工",
+        "recheck_btn": "重新检测"
     },
     "upload": {
         "file_include": "文件类型包括",
@@ -207,6 +214,20 @@
         "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。",
         "limit_tips": "数据不能超过 {count} 条。",
         "feature_unusable_tips": "由于 {feature} 已启用，此功能无法正常工作。",
-        "no_internet_base_tips": "请您检查网络环境后重试。"
+        "no_internet_base_tips": "请您检查网络环境后重试。",
+        "forget_password_btn": "忘记密码？",
+        "lost_account_btn": "丢失账户？"
+    },
+    "err": {
+        "abnormal_operation_msg": "操作异常",
+        "network_not_reachable_msg": "无法连接网络"
+    },
+    "subscription": {
+        "url_label": "订阅URL",
+        "manual_label": "手动"
+    },
+    "vaildate": {
+        "only_letters_num_allowd_tips": "只允许输入字母和数字",
+        "invalid_line_label": "无效行号:{num}"
     }
 }
