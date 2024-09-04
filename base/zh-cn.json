@@ -106,7 +106,9 @@
         "click here_btn": "点击此处",
         "cell_phone_num_label": "手机号码",
         "sign_up_btn": "注册",
-        "email_box_label": "邮箱"
+        "email_box_label": "邮箱",
+        "agree_terms_and_privacy_tips": "我已阅读并同意{terms} 和 {privacy}。",
+        "detect_btn": "检测"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -179,7 +181,16 @@
         "mtu_general_tips": "如果您设置了高于或低于设备支持范围的数值，设备会使用支持的最大或最小值。",
         "mtu_ipv6_warning_tips": "MTU 低于 1280 时 IPv6 无法工作。",
         "illegal_subnet_tips": "不合规的子网，最后三位比特必须为 0。",
-        "illegal_subnet_mask_tips": "不合规的掩码，由于子网为 {subnet}，掩码不能小于 {min}。"
+        "illegal_subnet_mask_tips": "不合规的掩码，由于子网为 {subnet}，掩码不能小于 {min}。",
+        "auto_update_mac_strategy_label": "自动更新MAC策略",
+        "mode_label": "{tab} 模式",
+        "auto_update_mac_time_label": "按时间",
+        "auto_update_mac_label": "自动更新MAC",
+        "auto_update_mac_tips": "启用此选项后，MAC可以自动更新。",
+        "mac_replacement_label": "MAC更换周期",
+        "mac_replacement_tips": "MAC可以在更新时间点更新，如果此时MAC仍在使用，则在下次重新连接网络时更新。",
+        "duplex_full_label": "{speed} Mbps全双工",
+        "duplex_half_label": "{speed} Mbps半双工"
     },
     "upload": {
         "file_include": "文件类型包括",
