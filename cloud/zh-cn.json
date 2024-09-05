@@ -83,6 +83,11 @@
         "phone_not_exist_msg": "电话号码为空。",
         "email_verify_code_invalid_msg": "邮件验证码已过期。",
         "verify_code_err_msg": "验证码错误。",
-        "account_incorrect_msg": "用户名或密码错误。"
+        "account_incorrect_msg": "用户名或密码错误。",
+        "device_not_found_msg": "未知设备。",
+        "phone_verify_code_invalid_msg": "手机验证码已过期。",
+        "verify_code_over_limit_msg": "发送的验证码超过限制。",
+        "send_verify_code_err_msg": "发送电子邮件验证码失败。",
+        "phone_verify_code_err_msg": "手机验证码错误。"
     }
 }
