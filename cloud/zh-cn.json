@@ -69,7 +69,20 @@
         "app_auth_tips": "请输入您的双因素身份验证应用程序生成的一次性密码。",
         "email_auth_tips": "请输入你的安全邮箱({email})收到的验证码。",
         "sms_auth_tips": "请输入您的安全电话{phone}收到的验证码。",
-        "cn_side_label": "China station"
+        "cn_side_label": "中国站"
     },
-    "menu_cloud": "GoodCloud"
+    "menu_cloud": "GoodCloud",
+    "cloud_err": {
+        "username_already_exist_msg": "用户名已经存在。",
+        "phone_already_exist_msg": "手机号码已经存在。",
+        "email_verify_code_err_msg": "邮件验证码错误。",
+        "server_abnormal_msg": "服务器异常",
+        "server_busy_msg": "服务器繁忙，请稍后再试。",
+        "token_invalid_msg": "token失效",
+        "email_already_exist_msg": "邮箱已存在。",
+        "phone_not_exist_msg": "电话号码为空。",
+        "email_verify_code_invalid_msg": "邮件验证码已过期。",
+        "verify_code_err_msg": "验证码错误。",
+        "account_incorrect_msg": "用户名或密码错误。"
+    }
 }
