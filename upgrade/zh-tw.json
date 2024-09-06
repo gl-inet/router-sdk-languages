@@ -1,7 +1,7 @@
 {
     "upgrade": {
         "online": "線上升級",
-        "compile_time": "編譯時間",
+        "compile_time": "更新時間",
         "keep_setting": "保留配置",
         "keep_installed": "保留已安裝的軟件包",
         "local": "本地升級",
@@ -56,12 +56,16 @@
         "installing_tips": "模塊正在安裝......",
         "unzip_failed_tips": "解壓失敗",
         "verify_failed_tips": "驗證失敗",
-        "online_upgrade_title": "模組線上升級",
-        "current_label": "當前模組",
+        "online_upgrade_title": "模塊在線升級",
+        "current_label": "當前版本",
         "local_install_fail_tips": "模組本機升級安裝失敗，請重新上傳",
         "is_update_tips": "模組為最新版本。",
-        "new_label": "新模組",
+        "new_label": "新版本",
         "downloading_tips": "模塊正在升級......",
-        "upgrading_title": "模組升級"
+        "upgrading_title": "模組升級",
+        "upgrade_tips": "模組升級過程中請勿關機。模組升級後，裝置會自動重新開機，這可能需要幾秒鐘的時間。",
+        "local_upgrade_title": "模塊本地升級",
+        "local_upgrade_tips": "當蜂窩網絡出現故障時，可以嘗試升級蜂窩模塊來解決問題。",
+        "go_download_btn": "去下載"
     }
 }
