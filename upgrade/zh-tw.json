@@ -50,5 +50,18 @@
         "firmware_local_title": "固件本地升級",
         "firmware_online_title": "固件在線升級"
     },
-    "menu_upgrade": "升級"
+    "menu_upgrade": "升級",
+    "cellular": {
+        "install_success_tips": "模組安裝成功，裝置即將重新開機。",
+        "installing_tips": "模塊正在安裝......",
+        "unzip_failed_tips": "解壓失敗",
+        "verify_failed_tips": "驗證失敗",
+        "online_upgrade_title": "模組線上升級",
+        "current_label": "當前模組",
+        "local_install_fail_tips": "模組本機升級安裝失敗，請重新上傳",
+        "is_update_tips": "模組為最新版本。",
+        "new_label": "新模組",
+        "downloading_tips": "模塊正在升級......",
+        "upgrading_title": "模組升級"
+    }
 }
