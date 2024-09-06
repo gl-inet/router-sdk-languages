@@ -318,6 +318,17 @@
         "repeater_title_option": "中继"
     },
     "traffic": {
-        "first_month_label": "第一个月"
+        "first_month_label": "第一个月",
+        "data_used_label": "{sim} 已用流量",
+        "data_cap_amout_label": "流量数据上限额度",
+        "data_reset_period_label": "数据重置周期",
+        "start_hour_label": "开始时间点",
+        "start_day_label": "开始日期",
+        "modify_data_used_tips": "数据统计仅供参考。实际流量由网络运营商决定，并将显示在网络运营商提供的账单上。",
+        "clear_warning_tips": "修改任何流量数据限制配置后，流量数据将被清清零。您需要清零流量数据吗？",
+        "sim_limit_title": "{sim}限制设置",
+        "modify_data_used_title": "修改{sim}数据",
+        "save_to_flash_label": "断电时保存数据",
+        "no_saved_limit_tips": "如果需要根据流量数据使用情况锁定 SIM 卡，请打开 “关机时保存数据 ”开关。"
     }
 }
