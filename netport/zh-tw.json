@@ -2,6 +2,9 @@
     "netport": {
         "as_wan_tips": "{asWan}，客戶端設備將無法再使用該網口連接並訪問管理面板。 請確保您的客戶端可以連接 Wi-Fi 或者其他 LAN 埠。",
         "set_as_wan_tips": "一旦 {silkprint}作為 WAN 埠使用",
-        "reset_as_lan_tips": "您確定要將 {silkprint}恢復成作為 LAN 埠使用的狀態嗎？"
+        "reset_as_lan_tips": "您確定要將 {silkprint}恢復成作為 LAN 埠使用的狀態嗎？",
+        "set_as_lan_tips": "您確定要將{silkprint}切換爲 LAN 口使用嗎？",
+        "reset_as_wan_tips": "將{silkprint}恢復作爲 WAN 口後",
+        "reset_port_tips": "您可以通過按住設備的重置按鈕 4 秒鐘來將{silkprint}恢復爲{port}模式。"
     }
 }
