@@ -279,6 +279,17 @@
         "configure_router_tip": "網絡指南幫助您在短短幾分鐘內配置路由器並將其連接到互聯網。"
     },
     "traffic": {
-        "first_month_label": "第一個月"
+        "first_month_label": "第一個月",
+        "data_used_label": "{sim} 已用流量",
+        "data_cap_amout_label": "流量數據上限額度",
+        "data_reset_period_label": "數據重置週期",
+        "start_hour_label": "開始時間點",
+        "start_day_label": "開始日期",
+        "modify_data_used_tips": "資料統計僅供參考。實際流量由網路業者決定，並會顯示在網路業者提供的帳單上。",
+        "clear_warning_tips": "修改任何流量數據限制配置後，流量數據將被清清零。您需要清零流量數據嗎？",
+        "sim_limit_title": "{sim}限制設置",
+        "modify_data_used_title": "修改{sim}數據",
+        "save_to_flash_label": "斷電時保存數據",
+        "no_saved_limit_tips": "如果需要根據流量數據使用情況鎖定 SIM 卡，請打開 “關機時保存數據 ”開關。"
     }
 }
