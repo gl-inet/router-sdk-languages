@@ -46,13 +46,23 @@
         "new_rc_firmware_title": "RCファームウェア",
         "rc_version_enable_tips": "このオプションを有効にすると、最終版が発行される前に新機能を試すことができ、フィードバックを提供することができます。ただし、これらのアップグレードは安定していない可能性があります。最新のファームウェア機能については、$$$$ What's New? $$$$ をご確認ください。",
         "rc_version_disable_tips": "このオプションを無効にしても、ファームウェアが自動的に安定版に戻るわけではないことにご注意ください。安定版のファームウェアを使用する必要がある場合は、$$$$The Download Center $$$$ へアクセスしてください。",
-        "check_online_err_msg": "{code}、オンラインアップグレードが異常です。"
+        "check_online_err_msg": "{code}、オンラインアップグレードが異常です。",
+        "firmware_local_title": "ファームウェアローカルアップグレード",
+        "firmware_online_title": "ファームウェアオンラインアップグレード"
     },
     "menu_upgrade": "アップグレード",
     "cellular": {
         "is_update_tips": "モジュールは最新です。",
         "online_upgrade_title": "モジュールオンラインアップグレード",
         "local_upgrade_title": "モジュールローカルアップグレード",
-        "upgrade_tips": "モジュールアップデート処理中は電源を切らないでください。モジュールアップデート完了後、デバイスは自動的に再起動します。この処理には数秒かかります。"
+        "upgrade_tips": "モジュールアップデート処理中は電源を切らないでください。モジュールアップデート完了後、デバイスは自動的に再起動します。この処理には数秒かかります。",
+        "install_success_tips": "モジュールのインストールに成功しました。デバイスはまもなく再起動します。",
+        "unzip_failed_tips": "展開に失敗しました",
+        "new_label": "新しいバージョン",
+        "downloading_tips": "モジュールをダウンロードしています。",
+        "upgrading_title": "モジュールをアップグレードしています",
+        "go_download_btn": "ダウンロードへ移動",
+        "installing_tips": "モジュールをインストールしています。",
+        "current_label": "現在のバージョン"
     }
 }
