@@ -329,6 +329,11 @@
         "sim_limit_title": "{sim}限制设置",
         "modify_data_used_title": "修改{sim}数据",
         "save_to_flash_label": "断电时保存数据",
-        "no_saved_limit_tips": "如果需要根据流量数据使用情况锁定 SIM 卡，请打开 “关机时保存数据 ”开关。"
+        "no_saved_limit_tips": "如果需要根据流量数据使用情况锁定 SIM 卡，请打开 “关机时保存数据 ”开关。",
+        "second_month_label": "第二个月",
+        "third_month_label": "第三个月",
+        "save_to_flash_tips": "如果打开这个开关，即使设备关机，数据也能保存。",
+        "data_used_total_tips": "已用数据是当前SIM卡卡槽的数据。",
+        "over_limit_tips": "当前使用的数据超出数据上限，请重置数据上限或手动校准数据，否则可能会断开网络或自动切换 SIM 卡。"
     }
 }
