@@ -310,6 +310,11 @@
         "sim_limit_title": "{sim}限制設置",
         "modify_data_used_title": "修改{sim}數據",
         "save_to_flash_label": "斷電時保存數據",
-        "no_saved_limit_tips": "如果需要根據流量數據使用情況鎖定 SIM 卡，請打開 “關機時保存數據 ”開關。"
+        "no_saved_limit_tips": "如果需要根據流量數據使用情況鎖定 SIM 卡，請打開 “關機時保存數據 ”開關。",
+        "second_month_label": "第二個月",
+        "third_month_label": "第三個月",
+        "save_to_flash_tips": "如果打開這個開關，即使設備關機，數據也能保存。",
+        "data_used_total_tips": "已用數據是當前SIM卡卡槽的數據。",
+        "over_limit_tips": "當前使用的數據超出數據上限，請重置數據上限或手動校準數據，否則可能會斷開網絡或自動切換 SIM 卡。"
     }
 }
