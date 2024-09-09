@@ -176,7 +176,8 @@
         "quarter": "季度",
         "year": "{count} 年 | {count} 年",
         "day_var": "第{count}天",
-        "week": "{count} 周| {count} 周"
+        "week": "{count} 周| {count} 周",
+        "month_list": "一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月"
     },
     "upload": {
         "select_or_drag": "選擇一個文件上傳或將文件拖到此處",
@@ -194,5 +195,9 @@
         "feature_unusable_tips": "由於 {feature} 已啓用，此功能無法正常工作。",
         "no_internet_base_tips": "請您檢查網絡環境後重試。",
         "limit_tips": "數據不能超過 {count} 條。"
+    },
+    "vaildate": {
+        "only_letters_num_allowd_tips": "只允許輸入字母和數字",
+        "invalid_line_label": "無效行號:{num}"
     }
 }
