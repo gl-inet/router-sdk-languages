@@ -111,7 +111,8 @@
         "exit_btn": "Išeiti",
         "done_btn": "Baigta",
         "cell_phone_num_label": "Mobiliojo tel. nr.",
-        "agree_terms_and_privacy_tips": "Aš perskaičiau ir sutinku – {terms} & {privacy}."
+        "agree_terms_and_privacy_tips": "Aš perskaičiau ir sutinku – {terms} & {privacy}.",
+        "upgrade_btn": "Aukštutinis atnaujinimas"
     },
     "msg": {
         "being_process": "Apdorojama, prašome palaukti…",
@@ -195,11 +196,11 @@
         "auto_update_mac_strategy_label": "Automatiško „MAC“ (adreso) atnaujinimo „strategija“",
         "mac_replacement_label": "„MAC“ (adreso) pakeitimo ciklas",
         "mac_replacement_tips": "„MAC“ (adresas) gali atsinaujinti nurodytu atnaujinimo laiku ir, jei „MAC“ (adresas) vis dar naudojamas tuo laiku, tada jis bus atnaujintas po kito tinklo perjungimo.",
-        "recheck_btn": "iš naujo aptikti"
+        "recheck_btn": "Iš naujo aptikti"
     },
     "upload": {
         "lass_than_tips": "(Mažiau nei – $$$$)",
-        "select_or_drag": "Pasirinkite failą arba nuvilkite jį čia",
+        "select_or_drag": "Pasirinkite failą kurį norite įkelti arba nuvilkite jį čia",
         "file_include": "Failų tipai apima",
         "success": "Įkėlimas sėkmingas",
         "reupload": "Pakartotinai įkelkite failą",
@@ -225,6 +226,7 @@
         "manual_label": "Rankinis"
     },
     "vaildate": {
-        "only_letters_num_allowd_tips": "Tik raidės ir skaičiai yra leidžiami"
+        "only_letters_num_allowd_tips": "Tik raidės ir skaičiai yra leidžiami",
+        "invalid_line_label": "Negalimas linijos numeris: {num}"
     }
 }
