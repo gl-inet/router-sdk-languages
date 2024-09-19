@@ -351,7 +351,11 @@
         "select_proto_type_tip": "如果 ISP 不提供任何互联网连接信息，请选择此类型。",
         "check_password_correct_tip": "请确保宽带账户密码正确无误，如果忘记密码，可以联系运营商。",
         "ethernet_config_title": "以太网配置",
-        "reboot_parent_gateway_tip": "1.重启主网关。"
+        "reboot_parent_gateway_tip": "1.重启主网关。",
+        "restart_router_tip": "2.重启路由器。",
+        "concat_isp_tip": "3.请联系您的 ISP 寻求帮助。",
+        "pppoe_label": "PPPoE",
+        "dhcp_label": "DHCP"
     },
     "traffic": {
         "first_month_label": "第一个月",
