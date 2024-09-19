@@ -257,7 +257,11 @@
         "account_service_credentials_title": "服务凭证",
         "generate_peer_falied_msg": "无法生成客户端 ip",
         "domain_err_tips": "格式不正确，请手动更改或$$$$一键处理$$$$",
-        "guide_done_title": "成功联网"
+        "guide_done_title": "成功联网",
+        "domain_detect_failed_tips": "{count} 域名或 IP 地址检测失败。",
+        "domain_url_tips": "请输入正确的 URL 链接，URL 检测将识别域名或 IP 地址的正确性。",
+        "domain_detect_success_tips": "成功检测到 {count} 域名或 IP 地址。",
+        "inp_domain_url_label": "输入 URL 链接"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -278,6 +282,14 @@
         "conflicts_with_local_addr_v4_msg": "目标地址与本地IPv4地址冲突",
         "conflicts_with_local_addr_v6_msg": "目标地址与本地IPv6地址冲突",
         "client_if_conflict_msg": "其他VPN客户端正在运行",
-        "username_has_been_token_msg": "用户名已被占用"
+        "username_has_been_token_msg": "用户名已被占用",
+        "to_many_conf_item_msg": "配置项过多",
+        "invalid_login_info_msg": "无效登录信息",
+        "port_be_used_msg": "端口已被占用",
+        "err_auth_type_val_msg": "错误认证类型",
+        "invalid_private_wg_key_msg": "无效私钥",
+        "no_passwd_msg": "账户无密码",
+        "group_auth_conflict_with_users_msg": "组授权与用户授权冲突",
+        "get_provider_token_fail_msg": "获取第三方提供商 token 失败"
     }
 }
