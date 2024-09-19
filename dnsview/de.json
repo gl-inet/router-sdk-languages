@@ -39,6 +39,7 @@
         "form_interface_label": "DNS von {interface}",
         "bark_enable_override_tips": "Bark blockiert nahezu alle DNS Anfragen von Clients in das Internet. Wenn diese Option aktiviert wird, während Bark arbeitet, können die Clients unter Umständen das Internet nicht erreichen.",
         "override_vpn_tips": "Wenn diese Option eingeschaltet ist und eine VPN Verbindung verfügbar ist, werden Namensauflösungen zu dem im VPN eingestellten DNS Server gesendet.",
-        "override_vpn_label": "Erlaube eigene DNS Server, anstelle der DNS Server des VPN Tunnel"
+        "override_vpn_label": "Erlaube eigene DNS Server, anstelle der DNS Server des VPN Tunnel",
+        "invalid_resolver_id_tips": "Ungültige Resolver-ID"
     }
 }
