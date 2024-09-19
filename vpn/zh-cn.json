@@ -261,7 +261,23 @@
         "domain_detect_failed_tips": "{count} 域名或 IP 地址检测失败。",
         "domain_url_tips": "请输入正确的 URL 链接，URL 检测将识别域名或 IP 地址的正确性。",
         "domain_detect_success_tips": "成功检测到 {count} 域名或 IP 地址。",
-        "inp_domain_url_label": "输入 URL 链接"
+        "inp_domain_url_label": "输入 URL 链接",
+        "domain_input_mode_tips": "您可以手动或自动输入域名或 IP，如果选择订阅 URL，URL 链接中的域名或 IP 将每天自动更新。",
+        "wg_surfshark_limit_tips": "您已达到最大连接数，请转到{provider}删除未使用的连接。",
+        "wg_mullvad_limit_tips": "生成 WireGuard 密钥失败。每个 Mullvad 账户最多只能同时拥有五个密钥。请访问 {provider} 撤销密钥。",
+        "domain_input_mode_label": "输入模式",
+        "wg_self_public_key_tips": "你方的公钥",
+        "go_renew_btn": "去更新",
+        "number_allocated_ips_label": "已分配 IP 的数量",
+        "wg_nordvpn_tips": "NordVPN token 是登录 NordVPN 的凭证，您需要先登录 NordVPN 官方网站，然后手动获取其 token。",
+        "wg_surfshark_not_connet_tips": "如果 VPN 服务器无法连接，公钥可能已过期，您可以更新公钥。",
+        "expires_at_tips": "在 {time}到期",
+        "search_region_label": "国家/地区/城市",
+        "account_name_tips": "账户名 {name}",
+        "server_select_label": "服务器选择",
+        "guide_title": "VPN 客户端选择",
+        "guide_login_title": "登录 {provider}",
+        "guide_pull_title": "{provider} 服务器选择"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -290,6 +306,13 @@
         "invalid_private_wg_key_msg": "无效私钥",
         "no_passwd_msg": "账户无密码",
         "group_auth_conflict_with_users_msg": "组授权与用户授权冲突",
-        "get_provider_token_fail_msg": "获取第三方提供商 token 失败"
+        "get_provider_token_fail_msg": "获取第三方提供商 token 失败",
+        "download_conf_fail_msg": "下载配置文件失败",
+        "register_public_key_fail_msg": "注册公钥失败",
+        "country_count_zero_msg": "所选国家/地区的服务器数量为零",
+        "invalid_ip_addr_msg": "无效IP地址",
+        "password_too_short_msg": "密码长度至少为8个字符",
+        "invalid_username_msg": "用户名只能包含字母和数字",
+        "register_account_fail_msg": "注册新帐户失败"
     }
 }
