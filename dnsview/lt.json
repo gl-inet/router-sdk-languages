@@ -39,6 +39,7 @@
         "form_interface_label": "„DNS“ iš – „{interface}“",
         "bark_enable_override_tips": "Bark beveik visiškai blokuoja klientų DNS užklausas, siunčiamas į internetą. Jei įgalinsite šią parinktį, kol veikia Bark, jūsų klientai gali negalėti pasiekti interneto.",
         "override_vpn_label": "Leisti pasirinktiniams „DNS“ perkeist/perrašyti „VPN DNS“",
-        "override_vpn_tips": "Jei ši parinktis įjungta, nustatę pasirinktinį DNS, per VPN tunelį perduodami paketai bus išspręsti naudojant pasirinktinį DNS perrašymą, o ne VPN ryšių DNS serverio nustatymus."
+        "override_vpn_tips": "Jei ši parinktis įjungta, nustatę pasirinktinį DNS, per VPN tunelį perduodami paketai bus išspręsti naudojant pasirinktinį DNS perrašymą, o ne VPN ryšių DNS serverio nustatymus.",
+        "invalid_resolver_id_tips": "Negalimas sprendiklio identifikatorius"
     }
 }
