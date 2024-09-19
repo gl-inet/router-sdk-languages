@@ -39,6 +39,7 @@
         "form_interface_label": "{インターフェイス}からのDNS",
         "bark_enable_override_tips": "Barkは、ほぼすべてのインターネットに送信されるクライアントからのDNSリクエストをブロックします。Barkの動作中にこのオプションを有効にすると、クライアントがインターネットにアクセスできなくなる可能性があります。",
         "override_vpn_label": "カスタムDNSをVPN DNSに優先させる",
-        "override_vpn_tips": "このオプションを有効にすると、カスタムDNSを設定した場合、VPNトンネルを通じて送信されるパケットは、VPN接続からのDNSサーバー設定ではなく、カスタムDNSの上書きを使用して解決されます。"
+        "override_vpn_tips": "このオプションを有効にすると、カスタムDNSを設定した場合、VPNトンネルを通じて送信されるパケットは、VPN接続からのDNSサーバー設定ではなく、カスタムDNSの上書きを使用して解決されます。",
+        "invalid_resolver_id_tips": "无效的解析器ID"
     }
 }
