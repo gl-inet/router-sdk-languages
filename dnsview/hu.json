@@ -39,6 +39,7 @@
         "form_interface_label": "DNS a(z) {interface} felületről",
         "bark_enable_override_tips": "A Bark majdnem minden DNS kérést blokkol a kliensektől, amelyek az internetre irányulnak. Ha ezt az opciót engedélyezi, miközben a Bark működik, előfordulhat, hogy a kliensek nem tudnak hozzáférni az internethez.",
         "adguardhome_in_use_tips": "Az AdGuard Home engedélyezve van, és ez a router az AdGuard Home által biztosított DNS-szervert fogja használni egyéni DNS-szerverként. A DNS-szerver beállításai nem fognak működni.",
-        "override_label": "Az összes kliens DNS-beállításainak felülbírálása"
+        "override_label": "Az összes kliens DNS-beállításainak felülbírálása",
+        "invalid_resolver_id_tips": "Érvénytelen feloldó azonosító"
     }
 }
