@@ -283,7 +283,13 @@
         "only_show_selected_label": "只显示所选项目",
         "guide_make_sure_available_tips": "1.请确保 VPN 账户可用。",
         "guide_cannot_work_tips": "现在 VPN 无法正常工作，请尝试以下方法。",
-        "guide_switch_another_server_tips": "2.请切换到另一个 VPN 服务器。"
+        "guide_switch_another_server_tips": "2.请切换到另一个 VPN 服务器。",
+        "guide_done_tips": "已成功连接 {provider}，您现在可以使用 VPN。",
+        "guide_restart_tips": "3.重启路由器。",
+        "guide_contact_us_tips": "4.如果问题仍未解决，您也可以发送电子邮件至 {email}。",
+        "guide_sign_up_title": "注册{provider}账户",
+        "wg_not_subscription_tips": "该账户可能没有订阅。",
+        "wg_subscription_expired_tips": "该帐户订阅可能已过期。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
