@@ -257,7 +257,11 @@
         "rootcert_missing_tips": "您上傳的設定檔需要證書加密，但zip壓縮包中沒有對應的證書檔。",
         "generate_peer_falied_msg": "無法生產客戶端ip",
         "domain_err_tips": "格式不正確，請手動更改或$$$$一鍵處理$$$$",
-        "guide_done_title": "成功聯網"
+        "guide_done_title": "成功聯網",
+        "domain_detect_failed_tips": "{count} 域名或 IP 地址檢測失敗。",
+        "domain_detect_success_tips": "成功檢測到 {count} 域名或 IP 地址。",
+        "inp_domain_url_label": "輸入 URL 鏈接",
+        "domain_url_tips": "請輸入正確的 URL 鏈接，URL 檢測將識別域名或 IP 地址的正確性。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -277,6 +281,8 @@
         "get_local_ipv6_net_fail_msg": "獲取本地 IPv6 地址失敗",
         "conflicts_with_local_addr_v4_msg": "目標地址與本地IPv4地址衝突",
         "conflicts_with_local_addr_v6_msg": "目標地址與本地IPv6地址衝突",
-        "username_has_been_token_msg": "用戶名已被佔用"
+        "username_has_been_token_msg": "用戶名已被佔用",
+        "to_many_conf_item_msg": "配置項過多",
+        "invalid_login_info_msg": "無效登錄信息"
     }
 }
