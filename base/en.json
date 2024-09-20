@@ -230,6 +230,8 @@
     "vaildate": {
         "only_letters_num_allowd_tips": "Only letters and numbers are allowed",
         "invalid_line_label": "Invalid Line Number: {num}",
-        "only_allowd_input_tips": "Only {limit} is allowed to be entered."
+        "only_allowd_input_tips": "Only {limit} is allowed to be entered.",
+        "only_num_letter_symbol_tips": "Only letters, numbers and symbols {symbol} are allowed",
+        "min_max_length_tips": "{min} - {max} characters"
     }
 }
