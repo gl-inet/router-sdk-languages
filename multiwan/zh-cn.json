@@ -41,6 +41,7 @@
         "strict _label": "严格",
         "normal_label": "普通",
         "low_data_label": "低数据",
-        "strict_mode_label": "严格模式"
+        "strict_mode_label": "严格模式",
+        "det_mode_tips": "默认使用普通模式，低数据模式仅在出现接口网络错误时进行跟踪，严格模式仅通过公网ICMP/ICMPv6响应判断接口状态。"
     }
 }
