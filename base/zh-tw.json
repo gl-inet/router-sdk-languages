@@ -105,7 +105,14 @@
         "update": "更新",
         "idx_label": "序號",
         "upgrade_btn": "升級",
-        "done_btn": "已完成"
+        "done_btn": "已完成",
+        "cell_phone_num_label": "手機號碼",
+        "email_box_label": "電子郵件",
+        "sign_up_btn": "註冊",
+        "agree_terms_and_privacy_tips": "我已閱讀並同意{terms}與{privacy}。",
+        "detect_btn": "檢測",
+        "switch_btn": "切換",
+        "exit_btn": "退出"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -119,7 +126,10 @@
         "unknown_err": "發生未知錯誤，請檢查網絡環境或重啟設備。",
         "port_occupied": "{name}連接埠被佔用",
         "please_note": "請注意：",
-        "processing": "正在處理……"
+        "processing": "正在處理……",
+        "send_success_tips": "發送成功！",
+        "sign_up_success": "註冊成功！",
+        "successfully_badge_tips": "成功！"
     },
     "internet": {
         "lan_ip_tips": "LAN子網與WAN子網衝突，請$$$$修改LAN IP地址$$$$。",
@@ -156,7 +166,17 @@
         "mtu_general_tips": "如果您設置了高於或低於設備支持範圍的數值，設備會使用支持的最大或最小值。",
         "mtu_ipv6_warning_tips": "MTU 低於 1280 時 IPv6 無法工作。",
         "illegal_subnet_tips": "不合規的子網，最後三位比特必須爲 0。",
-        "illegal_subnet_mask_tips": "不合規的掩碼，由於子網爲 {subnet}，掩碼不能小於 {min}。"
+        "illegal_subnet_mask_tips": "不合規的掩碼，由於子網爲 {subnet}，掩碼不能小於 {min}。",
+        "auto_update_mac_strategy_label": "自動更新MAC策略",
+        "duplex_full_label": "{speed} Mbps 全雙工",
+        "mode_label": "{tab}模式",
+        "auto_update_mac_time_label": "按時間",
+        "auto_update_mac_label": "自動更新MAC",
+        "auto_update_mac_tips": "如果啟用此選項，MAC地址將可以自動更新。",
+        "mac_replacement_label": "MAC地址更換週期",
+        "mac_replacement_tips": "MAC地址可以在更新時間點進行更新，如果該時間點MAC地址仍在使用中，則會在下次重新連接網絡後更新。",
+        "duplex_half_label": "{speed} Mbps 半雙工",
+        "recheck_btn": "重新檢測"
     },
     "date": {
         "day": "天",
@@ -195,10 +215,21 @@
         "battery_err_tips": "系統未偵測到電池模組，請檢查電源連接或電池是否損壞。",
         "feature_unusable_tips": "由於 {feature} 已啓用，此功能無法正常工作。",
         "no_internet_base_tips": "請您檢查網絡環境後重試。",
-        "limit_tips": "數據不能超過 {count} 條。"
+        "limit_tips": "數據不能超過 {count} 條。",
+        "forget_password_btn": "忘記密碼？",
+        "lost_account_btn": "遺失帳戶？"
     },
     "vaildate": {
         "only_letters_num_allowd_tips": "只允許輸入字母和數字",
-        "invalid_line_label": "無效行號:{num}"
+        "invalid_line_label": "無效行號:{num}",
+        "only_allowd_input_tips": "僅允許輸入 {limit}。"
+    },
+    "err": {
+        "abnormal_operation_msg": "操作異常",
+        "network_not_reachable_msg": "網絡無法連接"
+    },
+    "subscription": {
+        "url_label": "訂閱URL",
+        "manual_label": "手動"
     }
 }
