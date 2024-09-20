@@ -40,6 +40,8 @@
         "bark_enable_override_tips": "Bark bloquea casi todas las solicitudes DNS de los clientes enviadas a Internet. Si habilitas esta opción mientras Bark está funcionando, es posible que tus clientes no puedan acceder a Internet.",
         "override_vpn_label": "Permitir que el DNS personalizado anule el DNS VPN",
         "override_vpn_tips": "Si esta opción está habilitada, una vez que haya establecido un DNS personalizado, los paquetes transmitidos a través del túnel VPN se resolverán utilizando la DNS personalizada en lugar de las configuraciones de servidor DNS de las conexiones VPN.",
-        "invalid_resolver_id_tips": "Identificador de resolución no válido"
+        "invalid_resolver_id_tips": "Identificador de resolución no válido",
+        "controld_plan_tips": "Existen dos planes, gratuito y premium, y solo puedes elegir uno de ellos.",
+        "controld_plan_label": "Plan de acción"
     }
 }
