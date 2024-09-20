@@ -94,7 +94,18 @@
         "local_version_desc": "本機版本由 GL.iNet 提供。目前它處於測試階段，因此無需額外付費。在此版本中，如果需要按應用程式過濾請求，則需要手動輸入網域名稱。",
         "toggle_version_desc": "您可以根據需要選擇要使用的家長監護功能的版本。兩個版本的家長監護功能不能同時啟用，當您切換版本時，另一個版本將自動停用。",
         "bark_version_desc": "Bark 版本由 $$$$Bark$$$$ 在自己的平台上提供和管理，提供了單擊即可過濾應用程式和網站並監控請求歷史記錄的選項。請注意，對於此項服務，需直接向 Bark 支付額外的訂閱費用。",
-        "bark_version_title": "Bark 版"
+        "bark_version_title": "Bark 版",
+        "blocklist_input_mode_label": "黑名單輸入方式",
+        "blocklist_input_mode_tooltip": "你可以手動設置黑名單，也可以通過訂閱URL的方式設置黑名單。訂閱URL後，黑名單會每天自動更新。",
+        "success_and_fail_domain_tip": "{success}域名或IP地址檢測成功，{failed}域名或IP地址檢測失敗。",
+        "manual_label": "手動",
+        "subscription_url_label": "訂閱 URL",
+        "input_url_link_label": "輸入 URL 鏈接",
+        "detect_button": "檢測",
+        "detecting_message": "請稍等，正在進行檢測。",
+        "ssid_or_password_is_error": "SSID 或密碼不正確。",
+        "domain_detect_success_tips": "{count}域名被成功檢測。",
+        "domain_detect_failed_tips": "{count}域名檢測失敗。"
     },
     "menu_parentalcontrol": "家長控制",
     "bark": {
