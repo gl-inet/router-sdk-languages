@@ -41,7 +41,7 @@
         "low_data_label": "低數據",
         "strict _label": "嚴格",
         "normal_label": "普通",
-        "det_mode_tips": "默認使用普通模式，低數據模式僅在出現接口網絡錯誤時進行跟蹤，嚴格模式僅通過公網ICMP/ICMPv6響應判斷接口狀態。"
+        "det_mode_tips": "默認使用普通模式，低數據模式僅在出現接口網絡錯誤時進行跟蹤，嚴格模式僅根據來自公網ip的檢測命令結果判斷接口狀態。"
     },
     "menu_multiwan": "多線負載"
 }
