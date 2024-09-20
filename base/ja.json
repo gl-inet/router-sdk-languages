@@ -107,7 +107,12 @@
         "sign_up_btn": "サインアップ",
         "agree_terms_and_privacy_tips": "{terms}と{privacy}を読み、同意します。",
         "detect_btn": "検出",
-        "cell_phone_num_label": "携帯電話番号"
+        "cell_phone_num_label": "携帯電話番号",
+        "email_box_label": "メール",
+        "switch_btn": "スイッチ",
+        "exit_btn": "終了",
+        "done_btn": "完了",
+        "upgrade_btn": "アップグレード"
     },
     "msg": {
         "access_denied": "無効なユーザーか、承認されていないか、もしくはログインしていません！",
@@ -122,7 +127,9 @@
         "please_note": "注意:",
         "processing": "処理中...",
         "port_occupied": "{name} ポートが占有されています",
-        "send_success_tips": "正常に送信されました!"
+        "send_success_tips": "正常に送信されました!",
+        "sign_up_success": "登録に成功しました！",
+        "successfully_badge_tips": "成功しました！"
     },
     "internet": {
         "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。$$$$Change LAN Subnet$$$$で別のアドレスにしてください。",
@@ -163,7 +170,13 @@
         "mode_label": "{tab}モード",
         "recheck_btn": "再検出",
         "auto_update_mac_label": "MACアドレスの自動アップデート",
-        "auto_update_mac_tips": "このオプションを有効にすると、MACアドレスが自動的にアップデートされます。"
+        "auto_update_mac_tips": "このオプションを有効にすると、MACアドレスが自動的にアップデートされます。",
+        "auto_update_mac_time_label": "時間による",
+        "mac_replacement_tips": "指定した更新時刻にMACは更新されますが、その時点でMACがまだ使用中の場合は、次にネットワークに再接続した後に更新されます。",
+        "duplex_full_label": "{speed} Mbps フルデュプレックス",
+        "duplex_half_label": "{speed} Mbps ハーフデュプレックス",
+        "auto_update_mac_strategy_label": "MACアドレス自動更新戦略",
+        "mac_replacement_label": "MACアドレス交換周期"
     },
     "date": {
         "day": "日",
@@ -202,6 +215,23 @@
         "battery_err_tips": "システムがバッテリー モジュールを検出しません。電源接続またはバッテリーに損傷がないかご確認ください。",
         "feature_unusable_tips": "{feature}が有効になっているため、この機能は動作しません。",
         "no_internet_base_tips": "インターネット環境を確認して、再試行してください。",
-        "limit_tips": "データは{count}エントリを超えてはなりません。"
+        "limit_tips": "データは{count}エントリを超えてはなりません。",
+        "lost_account_btn": "アカウントを失いましたか？",
+        "forget_password_btn": "パスワードを忘れましたか？"
+    },
+    "err": {
+        "network_not_reachable_msg": "ネットワークに接続できません",
+        "abnormal_operation_msg": "操作に例外が発生しました"
+    },
+    "subscription": {
+        "url_label": "サブスクリプションURL",
+        "manual_label": "マニュアル"
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "入力可能なのは{limit}のみです。",
+        "only_num_letter_symbol_tips": "文字、数字、および記号{symbol}のみが許可されています。",
+        "only_letters_num_allowd_tips": "文字と数字のみが許可されています",
+        "min_max_length_tips": "{min} - {max} 文字",
+        "invalid_line_label": "無効な行番号：{num}"
     }
 }
