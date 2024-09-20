@@ -30,7 +30,11 @@
         "token_invalid_tips": "設備安全密鑰驗證失敗，請 $$$$ 重新綁定設備 $$$$ 以連接到 {cloud}。",
         "america_label": "美國",
         "asia_pacific_label": "亞太地區",
-        "china_label": "中國"
+        "china_label": "中國",
+        "get_start_btn": "開始"
     },
-    "menu_cloud": "GoodCloud"
+    "menu_cloud": "GoodCloud",
+    "cloud_err": {
+        "device_not_found_msg": "未知設備。"
+    }
 }
