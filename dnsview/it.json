@@ -40,6 +40,8 @@
         "bark_enable_override_tips": "Bark blocca praticamente tutte le richieste DNS dai Client verso Internet. Se abiliti questa opzione mentra Bark è in funzione, i tuoi Client potrebbero non essere in grado di accedere Internet.",
         "override_vpn_label": "Consenti al DNS personalizzato di sovrascrivere il DNS VPN",
         "override_vpn_tips": "Se questa opzione è abilitata, una volta impostato un DNS personalizzato, i pacchetti trasmessi attraverso il tunnel VPN verranno risolti utilizzando la sovrascrittura del DNS personalizzato anziché le impostazioni del server DNS delle connessioni VPN.",
-        "invalid_resolver_id_tips": "ID del Resolver non valido"
+        "invalid_resolver_id_tips": "ID del Resolver non valido",
+        "controld_plan_tips": "Ci sono due piani, gratuito e premium, e puoi sceglierne solo uno.",
+        "controld_plan_label": "Piano"
     }
 }
