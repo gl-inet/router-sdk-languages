@@ -34,7 +34,17 @@
         "illegal_subnet_tips": "Недопустимые подсети, последние три бита должны быть 0.",
         "mac_format_tips": "Младший значащий бит первого октета не может быть установлен в 1 (то есть вторая шестнадцатеричная цифра не может быть нечетной).",
         "lan_label": "Порт LAN",
-        "mac_real_label": "Заводские настройки"
+        "mac_real_label": "Заводские настройки",
+        "mode_label": "Режим {tab}",
+        "auto_update_mac_time_label": "По времени",
+        "auto_update_mac_label": "Автообновление MAC",
+        "mac_replacement_label": "Цикл замены MAC",
+        "recheck_btn": "Повторное обнаружение",
+        "mac_replacement_tips": "MAC-адрес может обновляться в установленное время обновления, и если MAC-адрес все еще используется в это время, он будет обновлен после следующего подключения к сети.",
+        "duplex_full_label": "{speed} Мбит/с полный дуплекс",
+        "duplex_half_label": "{speed} Мбит/с полудуплекс",
+        "auto_update_mac_tips": "Если эта опция включена, MAC-адрес может обновляться автоматически.",
+        "auto_update_mac_strategy_label": "Стратегия автообновления MAC"
     },
     "core": {
         "protocol": "Протокол",
@@ -140,7 +150,16 @@
         "delete_caution": "Вы уверены, что хотите удалить запись?",
         "delete_all_caution": "Добавить новое правило перенаправления портов",
         "click here_btn": "Нажмите здесь",
-        "ip": "IP-адрес"
+        "ip": "IP-адрес",
+        "cell_phone_num_label": "Мобильный номер",
+        "email_box_label": "Электронная почта",
+        "sign_up_btn": "Зарегистрироваться",
+        "agree_terms_and_privacy_tips": "Я прочитал и согласен с {terms} и {privacy}.",
+        "detect_btn": "Обнаружить",
+        "switch_btn": "Переключить",
+        "exit_btn": "Выход",
+        "done_btn": "Готово",
+        "upgrade_btn": "Обновление"
     },
     "msg": {
         "access_denied": "Неверный пользователь, доступ запрещен или не выполнен вход!",
@@ -154,7 +173,10 @@
         "processing": "Обработка...",
         "please_note": "Обратите внимание:",
         "port_occupied": "Порт {name} занят",
-        "getting": "Получение данных, пожалуйста, подождите…"
+        "getting": "Получение данных, пожалуйста, подождите…",
+        "send_success_tips": "Отправлено успешно!",
+        "sign_up_success": "Успешная регистрация!",
+        "successfully_badge_tips": "Успешно!"
     },
     "date": {
         "thursday": "Чт | Четверг",
@@ -169,7 +191,14 @@
         "monday": "Пн | Понедельник",
         "tuesday": "Вт | Вторник",
         "wednesday": "Ср | Среда",
-        "friday": "Пт | Пятница"
+        "friday": "Пт | Пятница",
+        "quarter": "Квартал",
+        "day_time": "{count} день | {count} дней",
+        "month_list": "Январь|Февраль|Март|Апрель|Май|Июнь|Июль| Август|Сентябрь|Октябрь|Ноябрь|Декабрь",
+        "day_var": "День {count}",
+        "week": "{count} неделя | {count} недель",
+        "month": "{count} месяц | {count} месяцев",
+        "year": "{count} год | {count} лет"
     },
     "upload": {
         "lass_than_tips": "(Меньше чем $$$$)",
@@ -186,6 +215,22 @@
         "limit_tips": "Данные не должны превышать {count} записей.",
         "battery_err_tips": "Система не обнаруживает модуль батареи, проверьте подключение питания или батарею на наличие повреждений.",
         "feature_unusable_tips": "Эта функция не работает, потому что включена {feature}.",
-        "no_internet_base_tips": "Пожалуйста, проверьте ваше интернет-соединение и попробуйте снова."
+        "no_internet_base_tips": "Пожалуйста, проверьте ваше интернет-соединение и попробуйте снова.",
+        "forget_password_btn": "Забыли пароль?",
+        "lost_account_btn": "Потеряли аккаунт?"
+    },
+    "err": {
+        "abnormal_operation_msg": "Операционное исключение",
+        "network_not_reachable_msg": "Сеть недоступна"
+    },
+    "subscription": {
+        "url_label": "URL подписки",
+        "manual_label": "Руководство"
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "Разрешено вводить только {limit}.",
+        "only_letters_num__allowd_tips": "Разрешены только буквы, цифры и символ {symbol}.",
+        "only_letters_num_allowd_tips": "Разрешены только буквы и цифры",
+        "invalid_line_label": "Неверный номер строки: {num}"
     }
 }
