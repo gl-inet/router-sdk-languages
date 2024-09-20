@@ -38,7 +38,7 @@
         "network_tracking_title": "{interface} Status Track",
         "sensitivity_options_label": "Sensitivity Options",
         "det_mode_label": "Detection Mode",
-        "det_mode_tips": "检测模式的提示",
+        "det_mode_tips": "Normal mode is used by default, low-data mode tracks only when an interface network error occurs, and strict mode accurately determines the interface state only from public ICMP/ICMPv6 responses.",
         "strict_mode_label": "Strict mode",
         "low_data_label": "Low data",
         "normal_label": "Normal",
