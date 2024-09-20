@@ -107,7 +107,12 @@
         "detect_btn": "Detecteren",
         "cell_phone_num_label": "Mobiele telefoonnummer",
         "agree_terms_and_privacy_tips": "Ik heb gelezen en ga akkoord met de {terms} & {privacy}.",
-        "sign_up_btn": "Aanmelden"
+        "sign_up_btn": "Aanmelden",
+        "email_box_label": "E-mail",
+        "switch_btn": "Schakelaar",
+        "exit_btn": "Afsluiten",
+        "done_btn": "Voltooid",
+        "upgrade_btn": "Ongeldig regelnummer: {num}"
     },
     "msg": {
         "success": "Toegepast!",
@@ -122,7 +127,9 @@
         "access_denied": "Ongeldige gebruiker, toestemming geweigerd of niet aangemeld!",
         "unknown_err": "Er trad een onbekende fout op. Controleer de netwerkomgeving of herstart het apparaat.",
         "port_occupied": "{name} netwerkpoort is al in gebruik",
-        "send_success_tips": "Succesvol verzonden!"
+        "send_success_tips": "Succesvol verzonden!",
+        "sign_up_success": "Succesvol geregistreerd!",
+        "successfully_badge_tips": "Succesvol!"
     },
     "date": {
         "day": "dag(en)",
@@ -187,13 +194,19 @@
         "auto_update_mac_strategy_label": "MAC-strategie automatisch bijwerken",
         "mac_replacement_label": "MAC-vervangings cyclus",
         "mode_label": "{tab} modus",
-        "auto_update_mac_label": "MAC automatisch bijwerken"
+        "auto_update_mac_label": "MAC automatisch bijwerken",
+        "duplex_full_label": "{speed} Mbps full duplex",
+        "duplex_half_label": "{speed} Mbps half duplex",
+        "mac_replacement_tips": "De MAC kan bijwerken op het update tijdstip, en als de MAC op dit moment nog in gebruik is, zal het bijwerken na de volgende keer dat u opnieuw verbinding maakt met het netwerk.",
+        "recheck_btn": "Opnieuw detecteren"
     },
     "system": {
         "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade.",
         "no_internet_base_tips": "Controleer uw internet verbinding en probeer het opnieuw.",
         "limit_tips": "Gegevens mogen niet meer dan {count} vermeldingen bevatten.",
-        "feature_unusable_tips": "Deze functie werkt niet omdat {feature} is ingeschakeld."
+        "feature_unusable_tips": "Deze functie werkt niet omdat {feature} is ingeschakeld.",
+        "lost_account_btn": "Account kwijt?",
+        "forget_password_btn": "Wachtwoord vergeten?"
     },
     "upload": {
         "select_or_drag": "Selecteer of sleep een bestand",
@@ -205,5 +218,20 @@
         "format_error": "Ongeldige dataformaat!",
         "too_large_tips": "Het geüploade bestand is te groot, upload een bestand van maximaal $$$$ bytes.",
         "lass_than_tips": "(minder dan $$$$)"
+    },
+    "err": {
+        "abnormal_operation_msg": "Operationele uitzondering",
+        "network_not_reachable_msg": "Netwerk niet bereikbaar"
+    },
+    "subscription": {
+        "url_label": "Abonnement URL",
+        "manual_label": "Handleiding"
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "Alleen {limit} mag worden ingevoerd.",
+        "only_num_letter_symbol_tips": "Alleen letters, cijfers en symbolen {symbol} zijn toegestaan",
+        "only_letters_num_allowd_tips": "Alleen letters en cijfers zijn toegestaan",
+        "min_max_length_tips": "{min} - {max} tekens",
+        "invalid_line_label": "Ongeldig regelnummer: {num}"
     }
 }
