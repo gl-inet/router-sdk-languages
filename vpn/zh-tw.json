@@ -261,7 +261,12 @@
         "domain_detect_failed_tips": "{count} 域名或 IP 地址檢測失敗。",
         "domain_detect_success_tips": "成功檢測到 {count} 域名或 IP 地址。",
         "inp_domain_url_label": "輸入 URL 鏈接",
-        "domain_url_tips": "請輸入正確的 URL 鏈接，URL 檢測將識別域名或 IP 地址的正確性。"
+        "domain_url_tips": "請輸入正確的 URL 鏈接，URL 檢測將識別域名或 IP 地址的正確性。",
+        "wg_azirevpn_limit_tips": "一個AzireVPN賬號只能同時在10臺設備上使用，您的帳戶已達到設備的最大數量，請到{provider}刪除未使用的設備，然後再試一次。",
+        "wg_surfshark_limit_tips": "您已達到最大連接數，請到{provider}刪除未使用的連接。",
+        "domain_input_mode_label": "輸入模式",
+        "wg_mullvad_limit_tips": "生成 WireGuard 密鑰失敗，每個 Mullvad 賬戶最多隻能同時擁有五個密鑰，請訪問 {provider} 撤銷密鑰。",
+        "domain_input_mode_tips": "您可以手動或自動輸入域名或 IP，如果選擇訂閱 URL，URL 鏈接中的域名或 IP 將每天自動更新。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -283,6 +288,21 @@
         "conflicts_with_local_addr_v6_msg": "目標地址與本地IPv6地址衝突",
         "username_has_been_token_msg": "用戶名已被佔用",
         "to_many_conf_item_msg": "配置項過多",
-        "invalid_login_info_msg": "無效登錄信息"
+        "invalid_login_info_msg": "無效登錄信息",
+        "download_conf_fail_msg": "下載配置文件失敗",
+        "vpn_client_connect_fail_msg": "VPN客戶端連接服務器失敗",
+        "client_if_conflict_msg": "其他VPN客戶端正在運行",
+        "port_be_used_msg": "端口已被佔用",
+        "err_auth_type_val_msg": "錯誤認證類型",
+        "invalid_private_wg_key_msg": "無效私鑰",
+        "no_passwd_msg": "賬戶無密碼",
+        "group_auth_conflict_with_users_msg": "組授權與用戶授權衝突",
+        "register_public_key_fail_msg": "註冊公鑰失敗",
+        "country_count_zero_msg": "所選國家/地區的服務器數量爲零",
+        "invalid_ip_addr_msg": "無效IP地址",
+        "password_too_short_msg": "密碼長度至少爲8個字符",
+        "invalid_username_msg": "用戶名只能包含字母和數字",
+        "register_account_fail_msg": "註冊新帳戶失敗",
+        "get_provider_token_fail_msg": "獲取第三方提供商令牌失敗"
     }
 }
