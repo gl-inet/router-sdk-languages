@@ -266,7 +266,30 @@
         "wg_surfshark_limit_tips": "您已達到最大連接數，請到{provider}刪除未使用的連接。",
         "domain_input_mode_label": "輸入模式",
         "wg_mullvad_limit_tips": "生成 WireGuard 密鑰失敗，每個 Mullvad 賬戶最多隻能同時擁有五個密鑰，請訪問 {provider} 撤銷密鑰。",
-        "domain_input_mode_tips": "您可以手動或自動輸入域名或 IP，如果選擇訂閱 URL，URL 鏈接中的域名或 IP 將每天自動更新。"
+        "domain_input_mode_tips": "您可以手動或自動輸入域名或 IP，如果選擇訂閱 URL，URL 鏈接中的域名或 IP 將每天自動更新。",
+        "wg_self_public_key_tips": "你方的公鑰",
+        "go_renew_btn": "去更新",
+        "number_allocated_ips_label": "已分配 IP 的數量",
+        "wg_nordvpn_tips": "NordVPN 令牌是登錄 NordVPN 的憑證，您需要先登錄 NordVPN 官方網站，然後手動獲取其令牌。",
+        "expires_at_tips": "在{time}到期",
+        "search_region_label": "國家/地區/城市",
+        "account_name_tips": "賬戶名 {name}",
+        "server_select_label": "服務器選擇",
+        "only_show_selected_label": "只顯示所選項",
+        "guide_title": "VPN 客戶端選擇",
+        "guide_login_title": "登錄 {provider}",
+        "guide_make_sure_available_tips": "1.請確保 VPN 賬戶可用。",
+        "guide_done_tips": "已成功連接 {provider}，您現在可以使用 VPN。",
+        "guide_restart_tips": "3.重啓路由器。",
+        "wg_surfshark_not_connet_tips": "如果 VPN 服務器無法連接，公鑰可能已過期，您可以更新公鑰。",
+        "guide_cannot_work_tips": "現在 VPN 無法正常工作，請嘗試以下方法。",
+        "guide_pull_title": "{provider} 服務器選擇",
+        "wg_guide_tips": "VPN指南可以帮助您快速使用WireGuard VPN，该指南仅适用于AzireVPN、Mullvad、PIA、Surfshark和NordVPN，对于其他VPN，您可以跳过。配置VPN可能需要几分钟时间。",
+        "guide_switch_another_server_tips": "2.請切換到另一個 VPN 服務器。",
+        "guide_contact_us_tips": "4.如果問題仍未解決，您也可以發送電子郵件至 {email}。",
+        "guide_sign_up_title": "註冊{provider}賬戶",
+        "wg_not_subscription_tips": "該賬戶可能沒有訂閱。",
+        "wg_subscription_expired_tips": "該帳戶訂閱可能已過期。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -303,6 +326,7 @@
         "password_too_short_msg": "密碼長度至少爲8個字符",
         "invalid_username_msg": "用戶名只能包含字母和數字",
         "register_account_fail_msg": "註冊新帳戶失敗",
-        "get_provider_token_fail_msg": "獲取第三方提供商令牌失敗"
+        "get_provider_token_fail_msg": "獲取第三方提供商令牌失敗",
+        "connect_server_fail_msg": "從供應商服務器獲取信息失敗"
     }
 }
