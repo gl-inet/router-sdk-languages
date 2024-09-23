@@ -384,7 +384,10 @@
         "restart_phone_and_router": "3.重啓手機和路由器。",
         "can_not_access_the_internet_hotspot": "無法通過中繼熱點上網，請嘗試進入公共熱點認證模式來解決這個問題。",
         "proto_connecting": "{proto}連接中",
-        "unknow_device": "未知設備"
+        "unknow_device": "未知設備",
+        "wifi_not_found": "連接失敗。SSID或密碼錯誤，請重試。",
+        "password_is_wrong": "連接失敗。密碼錯誤，請重試。",
+        "repeater_concat_us": "3.如果問題仍未解決，您也可以發送電子郵件至{supportEmail}。"
     },
     "traffic": {
         "first_month_label": "第一個月",
