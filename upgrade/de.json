@@ -46,7 +46,12 @@
         "accept_preview_label": "Akzeptiere Vorschau Version (Beta)",
         "rc_version_enable_tips": "Aktiviere den Schalter, um neuste Updates, Patches, Neuerungen und Verbesserungen zu testen, bevor sie veröffentlicht werden. Diese Option bleibt aktiv, bis sie deaktiviert wird. Erfahre unter $$$$ What's New? $$$$ welches die neusten Features sind.",
         "check_online_err_msg": "{code}, das Online Upgrade ist ungewöhnlich.",
-        "rc_version_disable_tips": "Deaktiviere den Schalter, um nur die stabilen Versionen zu erhalten. Es werden keine instabilen Updates, Patches, Neuerungen und Verbesserungen mehr angeboten. Um die stabilen Versionen manuell herunterzuladen, gehe auf das $$$$ download center $$$$."
+        "rc_version_disable_tips": "Deaktiviere den Schalter, um nur die stabilen Versionen zu erhalten. Es werden keine instabilen Updates, Patches, Neuerungen und Verbesserungen mehr angeboten. Um die stabilen Versionen manuell herunterzuladen, gehe auf das $$$$ download center $$$$.",
+        "firmware_local_title": "Lokales Firmware-Upgrade",
+        "firmware_online_title": "Online-Firmware-Upgrade"
     },
-    "menu_upgrade": "Aktualisierung"
+    "menu_upgrade": "Aktualisierung",
+    "cellular": {
+        "is_update_tips": "Modul hat die aktuelle Firmware."
+    }
 }

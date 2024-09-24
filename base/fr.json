@@ -103,7 +103,16 @@
         "click here_btn": "Cliquez ici",
         "view_details_btn": "Montrer les détails",
         "idx_label": "Index",
-        "update": "Mettre à jour"
+        "update": "Mettre à jour",
+        "cell_phone_num_label": "Numéro de mobile",
+        "sign_up_btn": "S'inscrire",
+        "agree_terms_and_privacy_tips": "J'ai lu et j'accepte les {terms} & {privacy}.",
+        "detect_btn": "Détecter",
+        "email_box_label": "Email",
+        "switch_btn": "Basculer",
+        "exit_btn": "Quitter",
+        "done_btn": "Terminé",
+        "upgrade_btn": "Mettre à niveau"
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -117,7 +126,10 @@
         "interface_timeout": "Temps d'attente dépassé. Veuillez vérifier votre connexion au réseau ou redémarrer le routeur.",
         "processing": "Traitement...",
         "please_note": "À noter :",
-        "port_occupied": "{name} port occupé"
+        "port_occupied": "{name} port occupé",
+        "send_success_tips": "Envoyé avec succès !",
+        "sign_up_success": "Enregistré avec succès !",
+        "successfully_badge_tips": "Avec succès !"
     },
     "date": {
         "day": "jour(s)",
@@ -132,7 +144,14 @@
         "min": "{count} Minute | {count} Minutes",
         "hour": "{count} Heure | {count} Heures",
         "for_last_time": "Dernier {time}",
-        "ms": "milisecondes"
+        "ms": "milisecondes",
+        "day_var": "Jour {count}",
+        "day_time": "{count} jour | {count} jours",
+        "quarter": "Trimestre",
+        "week": "{count} semaine | {count} semaines",
+        "month": "{count} mois | {count} mois",
+        "year": "{count} an | {count} ans",
+        "month_list": "Janvier|Février|Mars|Avril|Mai|Juin|Juillet| Août|Septembre|Octobre|Novembre|Décembre"
     },
     "internet": {
         "connected": "Connecté",
@@ -169,7 +188,17 @@
         "mac_real_label": "Usine",
         "mac_format_tips": "le bit le moins significatif du premier octet ne doit pas être réglé sur 1 (c'est-à-dire que le deuxième chiffre hexadécimal ne doit pas être impair).",
         "mtu_ipv6_warning_tips": "IPv6 ne peut pas fonctionner lorsque le MTU est inférieur à 1280.",
-        "illegal_subnet_tips": "Sous-réseaux illégaux, les trois derniers bits doivent être 0."
+        "illegal_subnet_tips": "Sous-réseaux illégaux, les trois derniers bits doivent être 0.",
+        "mode_label": "Mode {tab}",
+        "auto_update_mac_time_label": "Par heure",
+        "auto_update_mac_label": "Mise à jour automatique de l'adresse MAC",
+        "auto_update_mac_tips": "Si cette option est activée, l'adresse MAC peut se mettre à jour automatiquement.",
+        "auto_update_mac_strategy_label": "Stratégie de mise à jour automatique de l'adresse MAC",
+        "mac_replacement_label": "Cycle de remplacement de l'adresse MAC",
+        "mac_replacement_tips": "L'adresse MAC peut se mettre à jour au moment du point de mise à jour, et si l'adresse MAC est encore en utilisation à ce moment, elle se mettra à jour après la prochaine reconnexion au réseau.",
+        "duplex_full_label": "{speed} Mbps en duplex intégral",
+        "duplex_half_label": "{speed} Mbps en duplex partiel",
+        "recheck_btn": "Redétecter"
     },
     "upload": {
         "select_or_drag": "Sélectionnez un fichier ou déposez-le ici",
@@ -186,6 +215,23 @@
         "battery_err_tips": "Le système n'a pas detecté le module de batterie, vérfiez si votre alimentation ou votre batterie n'est pas endommagé.",
         "feature_unusable_tips": "Cette fonctionnalité ne peut pas fonctionner car {feature} est activé.",
         "no_internet_base_tips": "Veuillez vérifier votre connexion Internet et réessayer.",
-        "limit_tips": "Les données ne doivent pas dépasser {count} entrées."
+        "limit_tips": "Les données ne doivent pas dépasser {count} entrées.",
+        "lost_account_btn": "Compte perdu ?",
+        "forget_password_btn": "Mot de passe oublié ?"
+    },
+    "subscription": {
+        "url_label": "URL d'abonnement",
+        "manual_label": "Manuel"
+    },
+    "err": {
+        "network_not_reachable_msg": "Réseau non accessible",
+        "abnormal_operation_msg": "Exception opérationnelle"
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "Seul {limit} est autorisé à être saisi.",
+        "only_letters_num_allowd_tips": "Seules les lettres et les chiffres sont autorisés",
+        "invalid_line_label": "Numéro de ligne invalide : {num}",
+        "only_num_letter_symbol_tips": "Seuls les lettres, les chiffres et les symboles {symbol} sont autorisés.",
+        "min_max_length_tips": "{min} - {max} caractères"
     }
 }

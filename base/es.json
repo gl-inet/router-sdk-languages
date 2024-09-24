@@ -103,7 +103,16 @@
         "idx_label": "índice",
         "update": "Actualizar",
         "tips_ttitle": "Consejos",
-        "click here_btn": "Pulse aquí"
+        "click here_btn": "Pulse aquí",
+        "agree_terms_and_privacy_tips": "He leido y acepto los {terms} y {privacy}.",
+        "sign_up_btn": "Registrarse",
+        "detect_btn": "Detectar",
+        "email_box_label": "Dirección de Correo Electrónico",
+        "cell_phone_num_label": "Número móvil",
+        "switch_btn": "Cambiar",
+        "exit_btn": "Salir",
+        "done_btn": "Hecho",
+        "upgrade_btn": "Actualizar"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -117,7 +126,10 @@
         "interface_timeout": "Tiempo de espera agotado. Compruebe el entorno de red o reinicie el dispositivo.",
         "port_occupied": "{name} puerto ocupado",
         "please_note": "Por favor, ten en cuenta:",
-        "processing": "Procesando..."
+        "processing": "Procesando...",
+        "send_success_tips": "Enviado exitosamente",
+        "successfully_badge_tips": "¡Con éxito!",
+        "sign_up_success": "¡Registrado con éxito!"
     },
     "date": {
         "sunday": "Dom|Domingo",
@@ -176,7 +188,17 @@
         "mtu_general_tips": "Si estableces un valor más alto/bajo que el rango compatible del dispositivo, el dispositivo utiliza el valor máximo/mínimo admitido.",
         "mtu_ipv6_warning_tips": "IPv6 no puede funcionar cuando la MTU es menor que 1280.",
         "illegal_subnet_tips": "Subredes ilegales, los últimos tres bits deben ser 0.",
-        "illegal_subnet_mask_tips": "Máscara ilegal. Debido a que la subred es {subnet}, la máscara no puede ser inferior a {min}."
+        "illegal_subnet_mask_tips": "Máscara ilegal. Debido a que la subred es {subnet}, la máscara no puede ser inferior a {min}.",
+        "recheck_btn": "detectar nuevamente",
+        "mode_label": "Modo {tab}",
+        "auto_update_mac_label": "Actualizar la dirección MAC de forma automática",
+        "auto_update_mac_tips": "Si esta opción se encuentra habilitada, la dirección MAC se puede actualizar de forma automática.",
+        "auto_update_mac_strategy_label": "Estrategia de actualización automática de la dirección MAC",
+        "mac_replacement_label": "Ciclo de reemplazo de la dirección MAC",
+        "mac_replacement_tips": "La dirección MAC se puede actualizar en el momento que se ha selectionado, y si se encuentra en uso en dicho momento, se actualizará la próxima vez que se conecte a la red.",
+        "duplex_full_label": "{speed} Mbps full duplex (simultáneo en ambos sentidos)",
+        "duplex_half_label": "{speed} Mbps half duplex (un solo sentido a la vez)",
+        "auto_update_mac_time_label": "Por Tiempo"
     },
     "upload": {
         "select_or_drag": "Seleccione un archivo o arrástrelo aquí",
@@ -193,6 +215,23 @@
         "battery_err_tips": "El sistema no detecta el módulo de la batería, verifica la conexión de energía o la batería en busca de daños.",
         "feature_unusable_tips": "Esta función no funciona porque {feature} esta habilitada.",
         "limit_tips": "Los datos no deben exceder {count} entradas.",
-        "no_internet_base_tips": "Por favor, verifique su entorno de internet y vuelva a intentarlo."
+        "no_internet_base_tips": "Por favor, verifique su entorno de internet y vuelva a intentarlo.",
+        "lost_account_btn": "¿Cuenta perdida?",
+        "forget_password_btn": "¿Olvidó la contraseña?"
+    },
+    "err": {
+        "network_not_reachable_msg": "La red no es alcanzable",
+        "abnormal_operation_msg": "Excepción operativa"
+    },
+    "subscription": {
+        "url_label": "URL de suscripción",
+        "manual_label": "Manual"
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "Solo se permite ingresar {limit}.",
+        "only_num_letter_symbol_tips": "Solo se permiten letras, números y símbolos {symbol}",
+        "only_letters_num_allowd_tips": "Solo se permiten letras y números",
+        "min_max_length_tips": "{min} - {max} caracteres",
+        "invalid_line_label": "Número de línea inválido: {num}"
     }
 }

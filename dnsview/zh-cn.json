@@ -39,6 +39,9 @@
         "form_interface_label": "来自{interface}的 DNS",
         "bark_enable_override_tips": "Bark 会阻止几乎所有来自客户端发送到互联网的 DNS 请求。如果您在 Bark 工作时启用此选项，您的客户端可能无法上网。",
         "override_vpn_tips": "若该选项启用，一旦您设置了自定义 DNS，通过 VPN 隧道传输的数据包将使用自定义的 DNS 替代来着 VPN 自身的 DNS 服务器设置进行解析。",
-        "override_vpn_label": "允许自定义 DNS 覆盖 VPN 的 DNS 设置"
+        "override_vpn_label": "允许自定义 DNS 覆盖 VPN 的 DNS 设置",
+        "invalid_resolver_id_tips": "无效的解析器ID",
+        "controld_plan_tips": "有两种计划，免费和高级，您只能选择其中一个。",
+        "controld_plan_label": "计划"
     }
 }

@@ -35,7 +35,13 @@
         "sensitivity_label": "靈敏度",
         "sensitivity_tips": "此靈敏度決定了網絡狀態偵測的時間間隔。上網不穩定時建議使用低靈敏度，避免頻繁切換網絡；影片或直播時建議使用高靈敏度，以確保您可以快速切換上網；切換到高靈敏度可能會導致網絡斷開，請謹慎調整。",
         "network_tracking_title": "{interface} 狀態追蹤",
-        "sensitivity_options_label": "靈敏度選項"
+        "sensitivity_options_label": "靈敏度選項",
+        "det_mode_label": "檢測模式",
+        "strict_mode_label": "嚴格模式",
+        "low_data_label": "低數據",
+        "strict _label": "嚴格",
+        "normal_label": "普通",
+        "det_mode_tips": "默認使用普通模式，低數據模式僅在出現接口網絡錯誤時進行跟蹤，嚴格模式僅根據來自公網ip的檢測命令結果判斷接口狀態。"
     },
     "menu_multiwan": "多線負載"
 }

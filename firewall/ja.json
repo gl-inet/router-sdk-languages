@@ -2,7 +2,7 @@
     "firewall": {
         "port_forwards": "ポート転送",
         "open_ports_on_router": "ルータのポート開放",
-        "port_forwards_desc": "LANサブネット内にサーバーがあり、WAN側からアクセス可能にしたい場合は、IPアドレスとポートを指定して、これらのサーバーへのポート転送を設定する必要があります。2つの有効なルールの{external_ports}が衝突する場合、デバイスはより高い優先度のルールを優先します。",
+        "port_forwards_desc": "LANサブネット内にサーバーがあり、WAN側からアクセス可能にしたい場合は、IPアドレスとポートで識別されるこれらのサーバーへのポート転送を設定する必要があります。2つの有効なルールの{external_ports}間に競合がある場合、デバイスはより高い優先度のルールを優先します。",
         "open_port_on_router_dest": "セキュリティにより、デバイスにインストールしたサービスはLANネットワークにのみ開放されます。WANネットワークからアクセスできるようにするには、WAN上でこれらのサービスのポートを開放する必要があります。",
         "dmz_desc": "DMZは、ローカルコンピュータをインターネットに公開することができ、すべての受信パケットはこのコンピュータにリダイレクトされます。",
         "dmz_tips": "DMZを有効にすると、ポート転送とポート開放のルールは効果を発揮しません。",
@@ -29,9 +29,9 @@
         "enable": "有効にする",
         "dmz_priority_higher_label": "最高",
         "dmz_priority_lower_label": "最低",
-        "port_range_tips": "{exPort}は{inPort}の範囲と一致しません。",
+        "port_range_tips": "{exPort} と {inPort} の範囲が一致しません。",
         "priority_label": "優先度",
-        "adjust _priority_btn": "優先度調整",
+        "adjust _priority_btn": "優先度の調整",
         "port_value_tips": "ポート範囲は1から65535です。単一のポートを設定するか、または最初と最後のポート番号を - 記号で連結してポート範囲を設定できます（例：501-510）。"
     },
     "menu_firewallview": "ファイアウォール"

@@ -37,7 +37,14 @@
         "fan_setting_title": "風扇設置",
         "cpu_status_title": "CPU平均負載",
         "cpu_num": "單核 | {count} 核",
-        "device_info_title": "設備信息"
+        "device_info_title": "設備信息",
+        "usb_switch_from_to_tips": "您確定要從 {usb1} 切換到 {usb2}？",
+        "usb3_switching_tips": "該功能支持 USB 2.0 和 USB 3.0 協議切換。",
+        "usb_switch_label": "USB 協議切換",
+        "switching_to_usb3_tips": "切換到 USB3.0 時，請重新插入 USB。",
+        "switching_to_usb2_tips": "從 USB3.0 切換到 USB2.0 後，所有連接的 USB 設備都將重新加載。",
+        "switching_warning_tips": "確保 USB 盤未被使用，否則 USB 盤上的數據可能會被損壞。",
+        "battery_label": "電池"
     },
     "menu_overview": "概要"
 }

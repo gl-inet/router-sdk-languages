@@ -1,1 +1,17 @@
-{}
+{
+    "netport": {
+        "rate_label": "Ausgehandelte Portgeschwindigkeit",
+        "unplug_cable_tips": "Bitte entfernen Sie zuerst das Ethernetkabel im Anschluss {silkprint}.",
+        "wan_lan_change_tips": "Sie können den WAN-Port als LAN-Port verwenden.",
+        "reset_port_tips": "Sie können {silkprint} in den {port}-Modus zurücksetzen, indem Sie die Reset-Taste des Geräts 4 Sekunden gedrückt halten.",
+        "as_label": "Als {port}",
+        "set_as_wan_tips": "Wenn {silkprint} als WAN Port genutzt wird",
+        "as_wan_tips": "{asWan}, das Gerät an diesem Port kann die Administrations-Webseite nicht mehr aufrufen. Über WLAN oder einen anderen LAN Port ist die Verbindung weiterhin möglich.",
+        "reset_as_wan_tips": "Stelle {silkprint} zum WAN Port zurück.",
+        "reset_as_lan_tips": "Soll {silkprint} wirklich zurück als LAN Port (Standard) konfiguriert werden?",
+        "set_as_lan_tips": "Soll {silkprint} wirklich zu LAN Port geändert werden?",
+        "no_wan_tips": "{silkprint} wird als LAN (Local Area Network) Port benutzt. Der Port kann über {view} wieder zum WAN (Wide Area Network) Port konfiguriert werden",
+        "two_port_label": "{port1} und {port2}"
+    },
+    "menu_netport": "Verwaltung der Netzwerkanschlüsse"
+}

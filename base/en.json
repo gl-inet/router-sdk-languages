@@ -105,10 +105,14 @@
         "tips_ttitle": "Tips",
         "click here_btn": "Click Here",
         "cell_phone_num_label": "Mobile Number",
-        "email_box_lable": "Email",
         "sign_up_btn": "Sign Up",
         "agree_terms_and_privacy_tips": "I have read and agree {terms} & {privacy}.",
-        "detect_btn": "Detect"
+        "detect_btn": "Detect",
+        "email_box_label": "Email",
+        "switch_btn": "Switch",
+        "exit_btn": "Exit",
+        "done_btn": "Done",
+        "upgrade_btn": "Upgrade"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -123,7 +127,9 @@
         "processing": "Processing...",
         "please_note": "Please note:",
         "port_occupied": "{name} port occupied",
-        "send_success_tips": "Send successfully!"
+        "send_success_tips": "Send successfully!",
+        "sign_up_success": "Registered successfully!",
+        "successfully_badge_tips": "Successfully!"
     },
     "date": {
         "day": "day(s)",
@@ -190,10 +196,12 @@
         "auto_update_mac_strategy_label": "Auto Update MAC Strategy",
         "mac_replacement_label": "MAC Replacement Cycle",
         "mac_replacement_tips": "The MAC can update at the update time point, and if the MAC is still in use at this time, it will update after the next time you reconnect to the network.",
-        "recheck_btn": "re-detect"
+        "recheck_btn": "Re-detect",
+        "duplex_full_label": "{speed} Mbps full duplex",
+        "duplex_half_label": "{speed} Mbps half duplex"
     },
     "upload": {
-        "select_or_drag": "Select a file or drag it here",
+        "select_or_drag": "Select a file to upload or drag it here",
         "file_include": "File types include",
         "success": "Upload successful",
         "reupload": "Re-upload file",
@@ -207,10 +215,23 @@
         "battery_err_tips": "The system does not detect the battery module, check the power connection or battery for damage.",
         "limit_tips": "Data must not exceed {count} entries.",
         "feature_unusable_tips": "This feature does not work because {feature} is enabled.",
-        "no_internet_base_tips": "Please check your internet environment and try again."
+        "no_internet_base_tips": "Please check your internet environment and try again.",
+        "lost_account_btn": "Lost Account?",
+        "forget_password_btn": "Forget Password?"
     },
     "err": {
         "network_not_reachable_msg": "Network not reachable",
         "abnormal_operation_msg": "Operational exception"
+    },
+    "subscription": {
+        "url_label": "Subscription URL",
+        "manual_label": "Manual"
+    },
+    "vaildate": {
+        "only_letters_num_allowd_tips": "Only letters and numbers are allowed",
+        "invalid_line_label": "Invalid Line Number: {num}",
+        "only_allowd_input_tips": "Only {limit} is allowed to be entered.",
+        "only_num_letter_symbol_tips": "Only letters, numbers and symbols {symbol} are allowed",
+        "min_max_length_tips": "{min} - {max} characters"
     }
 }

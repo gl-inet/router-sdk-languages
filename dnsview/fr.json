@@ -39,6 +39,9 @@
         "form_interface_label": "DNS depuis {interface}",
         "bark_enable_override_tips": "Bark bloque presque toutes les requêtes DNS des clients envoyées sur Internet. Si vous activez cette option alors que Bark fonctionne, vos clients risquent de ne pas pouvoir accéder à Internet.",
         "override_vpn_label": "Autoriser le DNS personnalisé à remplacer le DNS du VPN",
-        "override_vpn_tips": "Si cette option est activée, une fois que vous avez défini un DNS personnalisé, les paquets transmis via le tunnel VPN seront résolus en utilisant la substitution du DNS personnalisé au lieu des paramètres du serveur DNS des connexions VPN."
+        "override_vpn_tips": "Si cette option est activée, une fois que vous avez défini un DNS personnalisé, les paquets transmis via le tunnel VPN seront résolus en utilisant la substitution du DNS personnalisé au lieu des paramètres du serveur DNS des connexions VPN.",
+        "invalid_resolver_id_tips": "Identifiant de résolveur non valide",
+        "controld_plan_label": "Planifier",
+        "controld_plan_tips": "Il existe deux formules, gratuite et premium, et vous ne pouvez en choisir qu'une seule."
     }
 }

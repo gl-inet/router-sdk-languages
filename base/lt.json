@@ -103,7 +103,16 @@
         "incorrect_formate_tips": "Neteisingas/Netinkamas formatavimas, prašome pakeisti rankiniu būdu arba {action}",
         "one_click_process_btn": "vieno paspaudimo apdorojimas",
         "tips_ttitle": "Patarimai",
-        "click here_btn": "Spauskite čia"
+        "click here_btn": "Spauskite čia",
+        "sign_up_btn": "Prisiregistruoti",
+        "detect_btn": "Aptikti",
+        "email_box_label": "El. paštas",
+        "switch_btn": "Komutatorius",
+        "exit_btn": "Išeiti",
+        "done_btn": "Baigta",
+        "cell_phone_num_label": "Mobiliojo tel. nr.",
+        "agree_terms_and_privacy_tips": "Aš perskaičiau ir sutinku – {terms} & {privacy}.",
+        "upgrade_btn": "Aukštutinis atnaujinimas"
     },
     "msg": {
         "being_process": "Apdorojama, prašome palaukti…",
@@ -117,7 +126,10 @@
         "interface_timeout": "Operacija užtruko per ilgai. Prašome patikrinti tinklo aplinką arba paleiskite įrenginį iš naujo (t.y. perkraukite).",
         "processing": "Apdorojama...",
         "please_note": "Atkreipkite dėmesį:",
-        "port_occupied": "{pavadinimas} prievadas užimtas"
+        "port_occupied": "{pavadinimas} prievadas užimtas",
+        "send_success_tips": "Nusiųsta sėkmingai!",
+        "sign_up_success": "Sėkmingai prisiregistruota!",
+        "successfully_badge_tips": "Sėkmingai!"
     },
     "date": {
         "thursday": "Kt | Ketvirtadienis",
@@ -128,11 +140,18 @@
         "wednesday": "Tr | Trečiadienis",
         "friday": "Pn | Penktadienis",
         "saturday": "Št | Šeštadienis",
-        "second": "{count} sekundė/-ę | {count} sekundės/-žių",
+        "second": "{count} Sekundė/-ę | {count} Sekundės/-žių",
         "min": "{count} minutė/-ę | {count} minutės/-žių",
         "hour": "{count} valanda/-ą | {count} valandos/-ų",
         "for_last_time": "Paskutinis/Buvęs {time}",
-        "ms": "ms"
+        "ms": "ms",
+        "day_time": "{count} Diena/-ą | {count} Dienų/-os",
+        "quarter": "Ketvirtadalis",
+        "week": "{count} Savaitė/-ę | {count} Savaitės/-čių",
+        "month": "{count} Mėnesis/-į | {count} Mėnesiai/-ių",
+        "year": "{count} Metas/-ai | {count} Metai/-ų",
+        "day_var": "Diena {count}",
+        "month_list": "Sausis|Vasaris|Kovas|Balandis|Gegužė|Birželis|Liepa|Rugpjūtis|Rugsėjis|Spalis|Lapkritis|Gruodis"
     },
     "internet": {
         "getting": "Gaunama/-s…",
@@ -169,11 +188,21 @@
         "mtu_general_tips": "Jei nustatysite didesnę/mažesnę reikšmę nei įrenginio palaikomas diapazonas, tada įrenginys naudos palaikomą maksimalią/minimaliausią reikšmę.",
         "mtu_ipv6_warning_tips": "IPv6 negali veikti, kai „MTU“ yra mažesnis nei – 1280.",
         "illegal_subnet_tips": "Neteisėti potinkliai, paskutiniai trys bitai privalo būti – 0.",
-        "illegal_subnet_mask_tips": "Neteisinga/-s tinklavimo „kaukė“ – adresų segregatorius, kadangi potinklis yra – „{subnet}“, tinklavimo „kaukė“ – adresų segregatorius negali būti mažesnė nei – {min}."
+        "illegal_subnet_mask_tips": "Neteisinga/-s tinklavimo „kaukė“ – adresų segregatorius, kadangi potinklis yra – „{subnet}“, tinklavimo „kaukė“ – adresų segregatorius negali būti mažesnė nei – {min}.",
+        "mode_label": "{tab} Režimas",
+        "auto_update_mac_time_label": "Pagal laiką",
+        "auto_update_mac_label": "Automatiškai atnaujinti „MAC“ (adresą)",
+        "auto_update_mac_tips": "Jei ši parinktis įjungta/įgalinta, tada „MAC“ (adresas) gali automatiškai atsinaujinti.",
+        "auto_update_mac_strategy_label": "Automatiško „MAC“ (adreso) atnaujinimo „strategija“",
+        "mac_replacement_label": "„MAC“ (adreso) pakeitimo ciklas",
+        "mac_replacement_tips": "„MAC“ (adresas) gali atsinaujinti nurodytu atnaujinimo laiku ir, jei „MAC“ (adresas) vis dar naudojamas tuo laiku, tada jis bus atnaujintas po kito tinklo perjungimo.",
+        "recheck_btn": "Iš naujo aptikti",
+        "duplex_full_label": "{speed} Mbps pilno duplekso",
+        "duplex_half_label": "{speed} Mbps pusės duplekso"
     },
     "upload": {
         "lass_than_tips": "(Mažiau nei – $$$$)",
-        "select_or_drag": "Pasirinkite failą arba nuvilkite jį čia",
+        "select_or_drag": "Pasirinkite failą kurį norite įkelti arba nuvilkite jį čia",
         "file_include": "Failų tipai apima",
         "success": "Įkėlimas sėkmingas",
         "reupload": "Pakartotinai įkelkite failą",
@@ -186,6 +215,23 @@
         "battery_err_tips": "Sistema neaptinka baterijos/akumuliatoriaus modulio. Patikrinkite maitinimo jungtį arba pačią bateriją/akumuliatorių dėl fizinių/-ės pažeidimų/žalos.",
         "limit_tips": "Duomenys neturi viršyti – {count} įvesčių.",
         "feature_unusable_tips": "Ši funkcija neveikia, nes – {feature} yra įjungta/įgalinta (-as/-i).",
-        "no_internet_base_tips": "Prašome patikrinti interneto aplinką ir bandyti dar kartą."
+        "no_internet_base_tips": "Prašome patikrinti interneto aplinką ir bandyti dar kartą.",
+        "lost_account_btn": "Praradote paskyrą?",
+        "forget_password_btn": "Pamiršote slaptažodį?"
+    },
+    "err": {
+        "abnormal_operation_msg": "Operacinė išimtis",
+        "network_not_reachable_msg": "Tinklas nepasiekiamas"
+    },
+    "subscription": {
+        "url_label": "Prenumerato „URL“ – saitas",
+        "manual_label": "Rankinis"
+    },
+    "vaildate": {
+        "only_letters_num_allowd_tips": "Tik raidės ir skaičiai yra leidžiami",
+        "invalid_line_label": "Negalimas linijos numeris: {num}",
+        "only_allowd_input_tips": "Leidžiama įvesti tik {limit}.",
+        "only_num_letter_symbol_tips": "Tik raidės, skaičiai ir simboliai {symbol} yra leidžiami",
+        "min_max_length_tips": "{min} - {max} simbolių"
     }
 }

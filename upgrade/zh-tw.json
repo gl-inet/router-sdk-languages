@@ -1,7 +1,7 @@
 {
     "upgrade": {
         "online": "線上升級",
-        "compile_time": "編譯時間",
+        "compile_time": "更新時間",
         "keep_setting": "保留配置",
         "keep_installed": "保留已安裝的軟件包",
         "local": "本地升級",
@@ -46,7 +46,26 @@
         "rc_version_enable_tips": "若此選項啟用，您可以在穩定版本發布前試用新功能並向我們提供反饋。請註意，這些更新內容可能不夠穩定。您可以查看 $$$$ What's New?$$$$ 來了解最新固件功能。",
         "rc_version_disable_tips": "請註意，禁用此選項並不會自動將您的固件退回穩定版本。如果您需要使用穩定版本的固件，請前往$$$$下載中心$$$$。",
         "new_rc_firmware_title": "RC 固件",
-        "check_online_err_msg": "{code}，在線升級檢測異常。"
+        "check_online_err_msg": "{code}，在線升級檢測異常。",
+        "firmware_local_title": "固件本地升級",
+        "firmware_online_title": "固件在線升級"
     },
-    "menu_upgrade": "升級"
+    "menu_upgrade": "升級",
+    "cellular": {
+        "install_success_tips": "模組安裝成功，裝置即將重新開機。",
+        "installing_tips": "模塊正在安裝......",
+        "unzip_failed_tips": "解壓失敗",
+        "verify_failed_tips": "驗證失敗",
+        "online_upgrade_title": "模塊在線升級",
+        "current_label": "當前版本",
+        "local_install_fail_tips": "模組本機升級安裝失敗，請重新上傳",
+        "is_update_tips": "模組為最新版本。",
+        "new_label": "新版本",
+        "downloading_tips": "模塊正在下載......",
+        "upgrading_title": "模組升級",
+        "upgrade_tips": "模組升級過程中請勿關機。模組升級後，裝置會自動重新開機，這可能需要幾秒鐘的時間。",
+        "local_upgrade_title": "模塊本地升級",
+        "local_upgrade_tips": "當蜂窩網絡出現故障時，可以嘗試升級蜂窩模塊來解決問題。",
+        "go_download_btn": "去下載"
+    }
 }

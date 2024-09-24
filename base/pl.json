@@ -103,7 +103,16 @@
         "click here_btn": "Kliknij tutaj",
         "pre_set_up": "Wstępna konfiguracja",
         "update": "Aktualizacja",
-        "idx_label": "indeks"
+        "idx_label": "indeks",
+        "cell_phone_num_label": "Numer telefonu komórkowego",
+        "sign_up_btn": "Zarejestruj się",
+        "agree_terms_and_privacy_tips": "Przeczytałem i zgadzam się z {terms} & {privacy}.",
+        "detect_btn": "Wykryj",
+        "email_box_label": "Email",
+        "switch_btn": "Przełącz",
+        "exit_btn": "Wyjście",
+        "done_btn": "Gotowe",
+        "upgrade_btn": "Aktualizacja"
     },
     "msg": {
         "port_occupied": "{nazwa} zajęty port",
@@ -117,7 +126,10 @@
         "interface_timeout": "Upłynął limit czasu operacji. Sprawdź środowisko sieciowe lub zrestartuj urządzenie.",
         "processing": "Przetwarzanie...",
         "please_note": "Uwaga:",
-        "uninstalling": "Odinstalowywanie, proszę czekać…"
+        "uninstalling": "Odinstalowywanie, proszę czekać…",
+        "send_success_tips": "Wysłano pomyślnie!",
+        "sign_up_success": "Zarejestrowano pomyślnie!",
+        "successfully_badge_tips": "Sukces!"
     },
     "upload": {
         "file_include": "Typy plików obejmują",
@@ -134,7 +146,9 @@
         "battery_err_tips": "System nie wykrywa modułu akumulatorowego, sprawdź podłączenie zasilania lub akumulator pod kątem uszkodzeń.",
         "feature_unusable_tips": "Ta funkcja nie działa, ponieważ włączono {feature}.",
         "no_internet_base_tips": "Proszę sprawdzić swoje środowisko internetowe i spróbować ponownie.",
-        "limit_tips": "Dane nie mogą przekraczać {count} wpisów."
+        "limit_tips": "Dane nie mogą przekraczać {count} wpisów.",
+        "lost_account_btn": "Zgubione konto?",
+        "forget_password_btn": "Zapomniałeś hasła?"
     },
     "internet": {
         "guest_ip_tips": "Podsieć gościa jest w konflikcie z podsiecią WAN. $$$$Zmień podsieć gościa$$$$ na inny adres.",
@@ -171,7 +185,17 @@
         "clone_label": "Klonuj",
         "random_btn": "Losowy",
         "current_client_label": "Aktualny klient",
-        "mac_format_tips": "najmniej znaczący bit pierwszego oktetu nie może być ustawiony na 1 (tj. druga cyfra szesnastkowa nie może być nieparzysta)."
+        "mac_format_tips": "najmniej znaczący bit pierwszego oktetu nie może być ustawiony na 1 (tj. druga cyfra szesnastkowa nie może być nieparzysta).",
+        "mode_label": "Tryb {tab}",
+        "auto_update_mac_label": "Automatyczna aktualizacja MAC",
+        "auto_update_mac_tips": "Jeśli ta opcja jest włączona, adres MAC może aktualizować się automatycznie.",
+        "auto_update_mac_strategy_label": "Strategia automatycznej aktualizacji MAC",
+        "mac_replacement_label": "Cykl wymiany MAC",
+        "mac_replacement_tips": "Adres MAC może się aktualizować w punkcie czasowym aktualizacji, a jeśli adres MAC jest nadal używany w tym czasie, aktualizacja nastąpi po następnym połączeniu z siecią.",
+        "recheck_btn": "Wykryj ponownie",
+        "duplex_full_label": "{speed} Mbps pełny dupleks",
+        "duplex_half_label": "{speed} Mbps półdupleks",
+        "auto_update_mac_time_label": "Według czasu"
     },
     "date": {
         "day": "dzień(dni)",
@@ -186,6 +210,28 @@
         "min": "{count} Minute | {count} Minutes",
         "hour": "{count} Godzina | {count} Godzina",
         "for_last_time": "Ostatni {czas}",
-        "ms": "milisekundy"
+        "ms": "milisekundy",
+        "quarter": "Kwartał",
+        "day_time": "{count} Dzień | {count} Dni",
+        "month_list": "Styczeń|Luty|Marzec|Kwiecień|Maj|Czerwiec|Lipiec| Sierpień|Wrzesień|Październik|Listopad|Grudzień",
+        "week": "{count} tydzień | {count} tygodnie",
+        "month": "{count} miesiąc | {count} miesiące",
+        "year": "{count} rok | {count} lata",
+        "day_var": "Dzień {count}"
+    },
+    "err": {
+        "abnormal_operation_msg": "Wyjątek operacyjny",
+        "network_not_reachable_msg": "Sieć nieosiągalna"
+    },
+    "subscription": {
+        "url_label": "URL subskrypcji",
+        "manual_label": "Instrukcja obsługi"
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "Dozwolone jest wprowadzenie tylko {limit}.",
+        "only_num_letter_symbol_tips": "Dozwolone są tylko litery, cyfry i symbole {symbol}",
+        "only_letters_num_allowd_tips": "Dozwolone są tylko litery i cyfry",
+        "min_max_length_tips": "{min} - {max} znaków",
+        "invalid_line_label": "Nieprawidłowy numer linii: {num}"
     }
 }

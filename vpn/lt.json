@@ -256,7 +256,15 @@
         "client_each_other_tips": "Tai yra VPN kliento į VPN klientą ryšys, o ne vietos į vietą.",
         "account_service_credentials_title": "Tarnybos kredencialai",
         "generate_peer_falied_msg": "Nepavyko sugeneruoti kliento IP",
-        "domain_err_tips": "Neteisingas formatavimas, prašome pakeisti rankiniu būdu arba $$$$vieno paspaudimo apdorojimas$$$$"
+        "domain_err_tips": "Neteisingas formatavimas, prašome pakeisti rankiniu būdu arba $$$$vieno paspaudimo apdorojimas$$$$",
+        "inp_domain_url_label": "Įveskite „URL“ – saito nuorodą",
+        "domain_input_mode_label": "Įvesties režimas",
+        "expires_at_tips": "Baigia galioti – {time}",
+        "server_select_label": "Serverio pasirinkimas",
+        "account_name_tips": "Paskyros vardas – {name}",
+        "guide_title": "„VPN“ kliento pasirinkimas",
+        "guide_done_title": "Sėkmingas tinklavimas",
+        "guide_login_title": "Prisijungti – „{provider}“"
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -264,7 +272,7 @@
     "menu_ovpnclient": "„OpenVPN“ klientas",
     "menu_vpndashboard": "„VPN“ ataskaitų skydelis",
     "vpn_err": {
-        "param_has_rce_risk_msg": "parametras turi RCE riziką",
+        "param_has_rce_risk_msg": "parametras turi „RCE“ riziką",
         "get_conf_fail_msg": "konfigūracijos duomenų gavimas nepavyko",
         "no_key_file_msg": "privataus rakto failas neegzistuoja",
         "get_conf_file_fail_msg": "nepavyko gauti konfigūracijos failo",
@@ -276,6 +284,11 @@
         "get_local_ipv6_net_fail_msg": "nepavyko gauti vietinio IPv6 adreso",
         "conflicts_with_local_addr_v6_msg": "taikomojo adreso konfliktas su vietiniu IPv6 adresu",
         "client_if_conflict_msg": "kita VPN kliento programa veikia",
-        "conflicts_with_local_addr_v4_msg": "taikomojo adreso konfliktas su vietiniu IPv4 adresu"
+        "conflicts_with_local_addr_v4_msg": "taikomojo adreso konfliktas su vietiniu IPv4 adresu",
+        "invalid_login_info_msg": "negalima prisijungimo informacija",
+        "err_auth_type_val_msg": "autentifikavimo tipo klaida",
+        "invalid_ip_addr_msg": "negalimas IP adresas",
+        "invalid_private_wg_key_msg": "negalimas privatus raktas",
+        "no_passwd_msg": "paskyra neturi slaptažodžio"
     }
 }

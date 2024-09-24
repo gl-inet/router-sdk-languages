@@ -3,6 +3,15 @@
     "netport": {
         "rate_label": "Negotiated Network Port Rate",
         "unplug_cable_tips": "First, please unplug the Ethernet cable that is plugged into the {silkprint}.",
-        "as_label": "As {port}"
+        "as_label": "As {port}",
+        "wan_lan_change_tips": "You can use the WAN port as a LAN port.",
+        "reset_port_tips": "You can restore {silkprint} to {port} mode by holding down the reset button of the device for 4 seconds.",
+        "set_as_wan_tips": "Once the {silkprint} is used as a WAN port",
+        "as_wan_tips": "{asWan}, the device connected to the port can't access the admin panel anymore. You'll have to connect it to Wi-Fi or other LAN ports.",
+        "reset_as_wan_tips": "Restore {silkprint} as WAN port.",
+        "reset_as_lan_tips": "Are you sure to restore the {silkprint} to LAN port (default)?",
+        "set_as_lan_tips": "Are you sure you want to switch {silkprint} to a LAN port?",
+        "no_wan_tips": "{silkprint} have been used as LAN (Local Area Network).You can set it back to WAN (Wide Area Network) in {view}",
+        "two_port_label": "{port1} and {port2}"
     }
 }

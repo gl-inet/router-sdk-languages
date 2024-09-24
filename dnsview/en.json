@@ -39,6 +39,9 @@
         "form_interface_label": "DNS from {interface}",
         "bark_enable_override_tips": "Bark blocks almost all DNS requests from clients sent to the Internet. If you enable this option while Bark is working, your clients may not be able to access the Internet.",
         "override_vpn_label": "Allow Custom DNS to Override VPN DNS",
-        "override_vpn_tips": "If this option is enabled, once you have set custom DNS, packets transmitted through the VPN tunnel will be resolved using the custom DNS override instead of the DNS server settings from the VPN connections."
+        "override_vpn_tips": "If this option is enabled, once you have set custom DNS, packets transmitted through the VPN tunnel will be resolved using the custom DNS override instead of the DNS server settings from the VPN connections.",
+        "invalid_resolver_id_tips": "Invalid Resolver ID",
+        "controld_plan_tips": "There are two plans, free and premium, and you can only choose one of them.",
+        "controld_plan_label": "Plan"
     }
 }
