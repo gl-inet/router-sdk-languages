@@ -38,7 +38,7 @@
         "version": "Versija",
         "firmware_verification": "Programinės įrangos laikmenos tikrinimas",
         "verifi_res": "Tikrinimo rezultatas",
-        "compile_time": "Kompiliavimo laikas",
+        "compile_time": "Atnaujinimo laikas",
         "local": "Aukštutinis atnaujinimas vietiniu būdu",
         "keep_setting": "Išlaikyti nustatymus",
         "advised_not_keep_setting": "„Kernel“ (branduolio) versija bus aukštutiniškai atnaujinta. Rekomenduojame neišsaugoti (neišlaikyti) dabartinių nustatymų.",
@@ -46,7 +46,15 @@
         "unpass": "Nepavyko",
         "unknown_version": "Tai yra nežinoma versija; trečiųjų šalių programinė įranga arba versija yra itin sena.",
         "not_gl": "Tai nėra oficialiai išleista programinė įranga.",
-        "checking": "Tikrinama/-s/-i"
+        "checking": "Tikrinama/-s/-i",
+        "firmware_online_title": "Internetinis programinės įrangos aukštutinis atnaujinimas",
+        "firmware_local_title": "Vietinis programinės įrangos aukštutinis atnaujinimas"
     },
-    "menu_upgrade": "Aukštutinis atnaujinimas"
+    "menu_upgrade": "Aukštutinis atnaujinimas",
+    "cellular": {
+        "upgrade_tips": "Prašome neišjungti įrenginio, kai vyksta aukštutinis modulio atnaujinimo vyksmas. Įrenginys automatiškai pasileis iš naujo, po to, kai modulis atsinaujina. Šis vyksmas gali užtrukti keletą sekundžių.",
+        "online_upgrade_title": "Internetinis modulio aukštutinis atnaujinimas",
+        "is_update_tips": "Modulis yra atnaujintas.",
+        "local_upgrade_tips": "Kai mobilusis tinklas patiria klaidą, Jūs galite pabandyti atlikti aukštutinį modulio atnaujinimą, siekiant išspręsti problemą."
+    }
 }
