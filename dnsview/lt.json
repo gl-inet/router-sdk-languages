@@ -9,7 +9,7 @@
         "rebinding_label": "DNS „Rebinding“ atakos apsauga",
         "rebinding_tips": "Įjungus šią parinktį, gali kilti privačių DNS paieškų trikties. Jei jūsų tinklas turi „Captive Portal“, prašome išjungti šią parinktį.",
         "override_label": "Perkeisti/Perrašyti (priverstinai) visų klientų „DNS“ nustatymus",
-        "override_tips": "Jei įgalinta, jūsų maršrutizatorius perrašys nešifruotus DNS nustatymus visiems klientams.",
+        "override_tips": "Jei įgalinta, Jūsų maršrutizatorius perrašys nešifruotus „DNS“ nustatymus visiems klientams.",
         "set_dns_server_title": "„DNS“ serverio nustatymai",
         "mode": "Režimas",
         "proxy_addr_label": "Įgalioto serverio adresas",
@@ -34,14 +34,14 @@
         "form_wan_label": "„DNS“ iš „eterneto“",
         "form_wwan_label": "„DNS“ iš kartotuvo",
         "form_tethering_label": "„DNS“ iš saitvietės",
-        "adguardhome_in_use_tips": "Adguard Home yra įjungtas ir šis maršrutizatorius naudos Adguard Home teikiamą DNS serverį kaip pasirinktinį DNS serverį. DNS serverio nustatymai neveiks.",
+        "adguardhome_in_use_tips": "„Adguard Home“ yra įjungtas/įgalintas ir šis maršrutizatorius naudos „Adguard Home“ teikiamą „DNS“ serverį kaip pasirinktinį „DNS“ serverį. „DNS“ serverio nustatymai neveiks.",
         "server_warning_tips": "Atrodo, kad serverio galiojimo laikas pasibaigė.",
         "form_interface_label": "„DNS“ iš – „{interface}“",
-        "bark_enable_override_tips": "Bark beveik visiškai blokuoja klientų DNS užklausas, siunčiamas į internetą. Jei įgalinsite šią parinktį, kol veikia Bark, jūsų klientai gali negalėti pasiekti interneto.",
+        "bark_enable_override_tips": "„Bark“ beveik visiškai blokuoja klientų „DNS“ užklausas, siunčiamas į internetą. Jei įgalinsite šią parinktį, kol veikia „Bark“, Jūsų klientai galimai negalės pasiekti interneto.",
         "override_vpn_label": "Leisti pasirinktiniams „DNS“ perkeist/perrašyti „VPN DNS“",
         "override_vpn_tips": "Jei ši parinktis įjungta, nustatę pasirinktinį DNS, per VPN tunelį perduodami paketai bus išspręsti naudojant pasirinktinį DNS perrašymą, o ne VPN ryšių DNS serverio nustatymus.",
-        "invalid_resolver_id_tips": "Negalimas sprendiklio identifikatorius",
-        "controld_plan_tips": "Yra du planai: nemokamas ir premium, ir galite pasirinkti tik vieną iš jų.",
+        "invalid_resolver_id_tips": "Negalimas sprendiklio ID",
+        "controld_plan_tips": "Yra du planai: nemokamas ir „premium“, galite pasirinkti tik vieną iš jų.",
         "controld_plan_label": "Planas"
     }
 }
