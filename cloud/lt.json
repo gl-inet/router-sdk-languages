@@ -31,7 +31,7 @@
         "america_label": "Amerika",
         "asia_pacific_label": "Azijos ir Ramiojo vandenyno regionas",
         "china_label": "Kinija",
-        "service_label": "Debesijos paslauga/tarnyba",
+        "service_label": "Debesijos paslaugos/tarnybos",
         "bind_ready_tips": "Įrenginys yra susietas – {user} nuo {time}",
         "info_title": "Įrenginio informacija",
         "remote_access_titel": "Nuotolinės prieigos būdai",
@@ -42,7 +42,29 @@
         "enabled_tips": "Debesijos paslauga/tarnyba yra įjungta/įgalinta.",
         "device_be_bound_by_other_title": "Įrenginys yra susietas",
         "device_be_bound_by_other_tips": "Šis įrenginys jau yra susietas – {user}. Jūs negalite jo susieti prie savo paskyros.",
-        "contact_other_user_tips": "Jums reikia susisiekti su – {user} ir prašyti jų, kad atsietų įrenginį. Arba inicijuokite išrišimo prašymą šiai paskyrai su platformos žinute."
+        "contact_other_user_tips": "Jums reikia susisiekti su – {user} ir prašyti jų, kad atsietų įrenginį. Arba inicijuokite išrišimo prašymą šiai paskyrai su platformos žinute.",
+        "get_start_btn": "Pradėkite",
+        "back_login_btn": "Grįžti atgal į prisijungimą",
+        "service_will_be_disable_tips": "Debesijos paslauga/tarnyba bus išjungta.",
+        "bind_fail_strong_title": "Nesėkmingas įrenginio pririšimas",
+        "international_label": "Tarptautinis",
+        "self_label": "Savo",
+        "cn_side_label": "Kinijos stotis",
+        "egion_label": "Regionas",
+        "has_cloud_tips": "Turi paskyrą?",
+        "reset_pawd_title": "Atstatyti slaptažodį",
+        "service_disable_tips": "Debesijos paslauga/tarnyba dabar yra išjungta.",
+        "bind_fail_strong_tips": "Dabartinė įrenginio informacija yra tokia kuri pateikiama. Ši informacija gali būti reikalinga techninei pagalbai, jei Jums reikia pagalbos.",
+        "service_will_be_unbind_tips": "Debesijos paslauga/tarnyba bus atrišta",
+        "bind_success_strong_title": "Įrenginys yra susietas sėkmingai"
     },
-    "menu_cloud": "„GoodCloud“"
+    "menu_cloud": "„GoodCloud“",
+    "cloud_err": {
+        "server_busy_msg": "Serveris yra užsiėmęs, prašome pabandyti dar kartą vėlesniu laiku.",
+        "phone_not_exist_msg": "Tel. nr. yra tuščias.",
+        "send_verify_code_err_msg": "Nepavyko išsiųsti el. pašto patvirtinimo kodo.",
+        "device_not_found_msg": "Nežinoma įranga.",
+        "verify_code_err_msg": "Patvirtinimo kodo klaida.",
+        "phone_already_exist_msg": "Mobiliojo tel. nr. jau egzistuoja."
+    }
 }
