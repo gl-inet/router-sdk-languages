@@ -36,6 +36,10 @@
         "sensitivity_label": "Jautrumas",
         "sensitivity_tips": "Šis jautrumas nustato interneto būsenos/būklės aptikimo laiko intervalą. Rekomenduojama naudoti žemą jautrumą, kai interneto prieiga yra nestabili, siekiant išvengti dažno tinklo perjungimo; rekomenduojama naudoti aukštą jautrumą, kai žiūrima vaizdo medžiaga arba vyksta tiesioginė transliacija, kad galėtumėte greitai perjungti interneto prieigą. Perjungimas į aukštą jautrumą gali sukelti tinklo atsijungimą. Prašome reguliuoti atsargiai.",
         "track_mode_tips": "Jei ši parinktis – įjungta/įgalinta, tada sekimas vyks tik tada, kai bus sąsajos ir/arba sietuvo tinklo klaida. Rekomenduojama tai įjungti/įgalinti sąsajoms ir/arba sietuvams, kurios naudoja duomenų srauto apmokestinimą (ribotų duomenų planai).",
-        "network_tracking_title": "„{interface}“ – būklės/būsenos sekimas"
+        "network_tracking_title": "„{interface}“ – būklės/būsenos sekimas",
+        "det_mode_label": "Aptikimo veiksena",
+        "normal_label": "Įprastas",
+        "strict_mode_label": "Griežta veiksena",
+        "det_mode_tips": "Normali veiksena yra naudojama numatytai; mažų duomenų veiksena suseks tik tada, kai sąsaja/sietuvas patiria tinklo klaidą; griežta veiksena numato, kad sąsajos/sietuvo būsena/būklė yra remiama jos aptikimu nuo visuotinio IP."
     }
 }
