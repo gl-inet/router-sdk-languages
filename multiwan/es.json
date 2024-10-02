@@ -35,7 +35,13 @@
         "network_tracking_title": "{interface} Seguimiento de Estado",
         "balancing_warning_tips": "Se deben configurar al menos dos interfaces con ratios de carga no nulos para que el balanceo de carga funcione correctamente. Si no hay una interfaz de Internet conectable con un ratio de carga no nulo, el dispositivo no podrá conectarse a Internet.",
         "sensitivity_tips": "Esta sensibilidad determina el intervalo de tiempo para la detección del estado de Internet. Se recomienda utilizar una baja sensibilidad cuando el acceso a Internet es inestable para evitar cambios frecuentes de red; se recomienda utilizar una alta sensibilidad cuando se trata de video o transmisiones en vivo para asegurarse de que pueda cambiar rápidamente el acceso a Internet; cambiar a alta sensibilidad puede producir desconexión de la red. Por favor, ajuste con precaución.",
-        "sensitivity_options_label": "Opciones de Sensibilidad"
+        "sensitivity_options_label": "Opciones de Sensibilidad",
+        "det_mode_label": "Modo de Detección",
+        "strict_mode_label": "Modo estricto",
+        "normal_label": "Normal",
+        "strict _label": "Estricto",
+        "det_mode_tips": "El modo normal es el que se utiliza por defecto; el modo de pocos-datos solamente traza cuando hay un error en alguna conexión de red; y el modo estricto determina el estado de la conexión basándose exclusivamente en si un comando de detección a una red IP externa es exitoso.",
+        "low_data_label": "Pocos-datos"
     },
     "menu_multiwan": "WAN Multiple"
 }
