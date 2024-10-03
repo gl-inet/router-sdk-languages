@@ -56,7 +56,20 @@
         "service_disable_tips": "Debesijos paslauga/tarnyba dabar yra išjungta.",
         "bind_fail_strong_tips": "Dabartinė įrenginio informacija yra tokia kuri pateikiama. Ši informacija gali būti reikalinga techninei pagalbai, jei Jums reikia pagalbos.",
         "service_will_be_unbind_tips": "Debesijos paslauga/tarnyba bus atrišta",
-        "bind_success_strong_title": "Įrenginys yra susietas sėkmingai"
+        "bind_success_strong_title": "Įrenginys yra susietas sėkmingai",
+        "not_support_change_bind_tips": "Atsiprašome, šis įrenginys nepalaiko funkcijos pakeisti susietą paskyrą. Prašome susisiekti su įrenginio teikėju dėl tolesnės pagalbos.",
+        "req_unbind_sms_btn": "Prašymas atšaukti susiejimą su žinute",
+        "reset_pawd_mode_label": "Grąžinimo veiksena",
+        "reset_success_msg": "Grąžinimas sėkmingas, prašome prisijungti iš naujo.",
+        "sign_up_mode_label": "Registracijos veiksena",
+        "sms_verification_code_label": "Žinutės patvirtinimo kodas",
+        "email_verification_code_label": "El. pašto patvirtinimo kodas",
+        "two_factor_auth_title": "Dviejų veiksnių autentifikacija",
+        "app_auth_label": "Autentifikatoriaus programa",
+        "email_auth_tips": "Prašome įvesti patvirtinimo kodą, kurį gavote į savo saugų el. paštą ({email}).",
+        "send_reset_link_btn": "Siųsti grąžinimo sujungimą",
+        "app_auth_tips": "Prašome įvesti vienkartinį slaptažodį, kurį sugeneravo jūsų dviejų veiksnių autentifikatoriaus programa.",
+        "sms_auth_tips": "Prašome įvesti patvirtinimo kodą, kurį gavote į savo saugų telefoną {phone}."
     },
     "menu_cloud": "„GoodCloud“",
     "cloud_err": {
@@ -65,6 +78,16 @@
         "send_verify_code_err_msg": "Nepavyko išsiųsti el. pašto patvirtinimo kodo.",
         "device_not_found_msg": "Nežinoma įranga.",
         "verify_code_err_msg": "Patvirtinimo kodo klaida.",
-        "phone_already_exist_msg": "Mobiliojo tel. nr. jau egzistuoja."
+        "phone_already_exist_msg": "Mobiliojo tel. nr. jau egzistuoja.",
+        "username_already_exist_msg": "Naudotojo vardas jau egzistuoja.",
+        "phone_verify_code_err_msg": "Telefono patvirtinimo kodas neteisingas.",
+        "account_incorrect_msg": "Naudotojo vardas arba slaptažodis neteisingas.",
+        "server_abnormal_msg": "Serverio išimtis",
+        "email_already_exist_msg": "Pašto dėžutė jau egzistuoja.",
+        "email_verify_code_invalid_msg": "El. pašto patvirtinimo kodas pasibaigė.",
+        "verify_code_over_limit_msg": "Išsiųstų patvirtinimo kodų skaičius viršijo ribą.",
+        "email_verify_code_err_msg": "El. pašto patvirtinimo kodas neteisingas.",
+        "phone_verify_code_invalid_msg": "Telefono patvirtinimo kodas pasibaigė.",
+        "token_invalid_msg": "žetono panaikinimas"
     }
 }
