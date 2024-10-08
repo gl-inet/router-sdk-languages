@@ -271,7 +271,25 @@
         "wg_surfshark_limit_tips": "Jūs pasiekėte maksimalų prisijungimų skaičių, prašome eiti į – „{provider}“, kad ištrintumėte prisijungimus, kurių nenaudojate.",
         "wg_self_public_key_tips": "Viešojo rakto forma iš Jūsų pusės",
         "domain_detect_success_tips": "{count} domeno-srities pavadinimai ar IP adresai buvo sėkmingai atrasti.",
-        "wg_nordvpn_tips": "„NordVPN“ žetonas yra kredencialiai, skirti prisijungti prie „NordVPN“, Jums reikia prisijungti per „NordVPN“ puslapį pirmiausia, tada rankiniu būdu gauti jo žetoną."
+        "wg_nordvpn_tips": "„NordVPN“ žetonas yra kredencialiai, skirti prisijungti prie „NordVPN“, Jums reikia prisijungti per „NordVPN“ puslapį pirmiausia, tada rankiniu būdu gauti jo žetoną.",
+        "go_renew_btn": "Eiti atnaujinti",
+        "number_allocated_ips_label": "Priskirtų IP skaičius",
+        "wg_surfshark_not_connet_tips": "Jei VPN serverio nepavyksta prisijungti, viešasis raktas gali būti pasibaigęs. Galite atnaujinti viešąjį raktą.",
+        "search_region_label": "Šalis / Regionas / Miestas",
+        "only_show_selected_label": "Rodyti tik pasirinktą elementą",
+        "guide_pull_title": "{provider} Serverio Pasirinkimas",
+        "guide_make_sure_available_tips": "1.Įsitikinkite, kad VPN paskyra yra galima.",
+        "guide_cannot_work_tips": "Dabar VPN neveikia tinkamai, prašome pabandyti šiuos būdus.",
+        "guide_done_tips": "{provider} sėkmingai prisijungė ir dabar galite mėgautis VPN.",
+        "guide_switch_another_server_tips": "2.Pereikite prie kito VPN serverio.",
+        "guide_restart_tips": "3.Iš naujo paleiskite maršrutizatorių.",
+        "guide_sign_up_title": "Užregistruokite {provider} paskyrą",
+        "wg_not_subscription_tips": "Ši paskyra gali neturėti prenumeratos.",
+        "wg_subscription_expired_tips": "Šios paskyros prenumerata gali būti pasibaigusi.",
+        "wg_mullvad_limit_tips": "Nepavyko sukurti „WireGuard“ rakto. Vienam „Mullvad“ paskyros vartotojui vienu metu galima turėti iki penkių raktų. Prašome eiti į {provider}, kad panaikintumėte raktą.",
+        "domain_input_mode_tips": "Galite įvesti domeno pavadinimą arba IP rankiniu būdu arba automatiškai, ir jei pasirinksite Prenumeruoti URL, domeno pavadinimas arba IP URL yra automatiškai atnaujinamas kasdien.",
+        "guide_contact_us_tips": "4.Jei problema neišspręsta, taip pat galite siųsti el. laišką {email}.",
+        "wg_guide_tips": "VPN vadovas padės greitai naudotis „WireGuard“ VPN. Tai skirta tik „AzireVPN“, „Mullvad“, „PIA“, „Surfshark“, „NordVPN“, „Hideme“ ir „IPVanish“. Kitiems galite praleisti. VPN konfigūravimas gali užtrukti kelias minutes."
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -308,6 +326,7 @@
         "password_too_short_msg": "slaptažodis turi sudaryti nors 8-is rašmenis",
         "register_account_fail_msg": "nepavyko registruoti naujos paskyros",
         "invalid_username_msg": "Naudotojo/Vartotojo vardas (t.y. Slapyvardis) gali turėti tik raides ir skaičius",
-        "get_provider_token_fail_msg": "gauti trečiosios partijos teikėjo žetoną nepavyko"
+        "get_provider_token_fail_msg": "gauti trečiosios partijos teikėjo žetoną nepavyko",
+        "connect_server_fail_msg": "Nepavyko gauti informacijos iš teikėjo serverio"
     }
 }
