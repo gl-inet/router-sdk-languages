@@ -195,7 +195,7 @@
     "bluetooth_report": {
         "report_gateway_status": "Įgalinti tinklo tarpuvartės būklės ataskaitą",
         "rssi_threshold": "„RSSI“ slenkstis",
-        "rssi_threshold_tips": "Nustatę slenkstį, tinklo tarpuvartė praneš tik apie tuos įrenginius, kurių signalo stiprumas yra didesnis nei nustatyta vertė.",
+        "rssi_threshold_tips": "Nustatę slenkstį, tinklo tarpuvartė praneš duomenis tik apie tuos įrenginius, kurių signalo stiprumas yra didesnis nei nustatyta vertė.",
         "filters": "Filtrai",
         "enable_mac_filters": "Įjungti/Įgalinti „MAC“ filtrus",
         "title": "„Bluetooth“ ataskaita",
@@ -207,12 +207,12 @@
         "report_broadcast_data": "Pranešti apie transliuojamus duomenis",
         "report_broadcast_data_tips": "Jei ši funkcija įgalinta, kiekvienoje praneštoje ataskaitoje bus pateikiami visi transliuojamo duomenų paketo duomenys; priešingu atveju, kiekvienoje praneštoje ataskaitoje bus pateikiami tik įrenginio MAC adresas ir RSSI.",
         "enable_raw_data_filters": "Įjungti/Įgalinti neapdorotų duomenų filtrus",
-        "filters_tips": "Jei šis filtras neįgalintas, čia sukonfigūruotos filtro taisyklės neveiks."
+        "filters_tips": "Jei šis filtras – išjungtas/neįgalintas, čia sukonfigūruotos filtro taisyklės neveiks."
     },
     "bluetooth_settings": {
         "backup": "Atsarginė kopija",
         "restore": "Atkurti/Atstatyti (-ymas)",
-        "backup_tips": "Galite eksportuoti visas su Bluetooth susijusias nustatymų puslapio konfigūracijas, įskaitant skenavimą, ryšį, nuotolinį valdymą, atskaitas, duomenų apibrėžimą.",
+        "backup_tips": "Galite eksportuoti visas su „Bluetooth“ susijusias nustatymų puslapio konfigūracijas, įskaitant skenavimą, ryšį, nuotolinį valdymą, at(a)skaitas, duomenų apibrėžimą.",
         "backup_button": "Eksportuoti",
         "title": "„Bluetooth“ nustatymų atsarginė kopija/atstatymas",
         "include_certificate": "Įtraukti „TLS“ sertifikatą",
