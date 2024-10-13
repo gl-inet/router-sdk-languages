@@ -35,7 +35,13 @@
         "track_mode_label": "Modus für geringe Daten",
         "track_mode_tips": "Wenn diese Option aktiviert ist, wird nur ein Netzwerkfehler der Schnittstelle erfasst. Es wird empfohlen, diese Option für Schnittstellen zu aktivieren, die Datenverkehr abrechnen.",
         "network_tracking_title": "{interface} Status",
-        "sensitivity_options_label": "Einstellung der Empfindlichkeit"
+        "sensitivity_options_label": "Einstellung der Empfindlichkeit",
+        "det_mode_label": "Erkennungsmodus",
+        "strict_mode_label": "Strenger Modus",
+        "normal_label": "Normal",
+        "strict _label": "Streng",
+        "low_data_label": "Datenarm",
+        "det_mode_tips": "Der Normalmodus ist standardmäßig in Gebrauch, der datenarme Modus zeichnet nur auf, wenn ein Netzwerkfehler an der Schnittstelle auftritt, und der strenge Modus bestimmt den Status der Schnittstelle ausschließlich anhand der Ergebnisse eines Erkennungsbefehls von einer öffentlichen IP."
     },
     "menu_multiwan": "Multi WAN"
 }
