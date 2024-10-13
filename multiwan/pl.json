@@ -36,6 +36,12 @@
         "network_tracking_title": "Śledzenie statusu {interface}",
         "sensitivity_options_label": "Opcje czułości",
         "balancing_desc": "Balansowanie obciążenia: Używa jednocześnie wielu interfejsów sieciowych, aby zwiększyć całkowitą przepustowość routera. Należy zauważyć, że połączenia z tą samą aplikacją lub stroną zazwyczaj będą korzystać tylko z jednego interfejsu.",
-        "track_mode_tips": "Równoważenie Obciążenia: Używa jednocześnie wielu interfejsów sieciowych, aby zwiększyć całkowitą przepustowość routera. Należy zauważyć, że połączenia z tą samą aplikacją lub stroną zazwyczaj będą korzystać tylko z jednego interfejsu."
+        "track_mode_tips": "Równoważenie Obciążenia: Używa jednocześnie wielu interfejsów sieciowych, aby zwiększyć całkowitą przepustowość routera. Należy zauważyć, że połączenia z tą samą aplikacją lub stroną zazwyczaj będą korzystać tylko z jednego interfejsu.",
+        "det_mode_label": "Tryb wykrywania",
+        "normal_label": "Normalny",
+        "low_data_label": "Oszczędny transfer danych",
+        "strict_mode_label": "Tryb ścisły",
+        "strict _label": "Ścisły",
+        "det_mode_tips": "Domyślnie używany jest tryb normalny, tryb oszczędny transferu danych rejestruje tylko w przypadku wystąpienia błędu sieci interfejsu, a tryb ścisły określa status interfejsu wyłącznie na podstawie wyników polecenia wykrywania z publicznego IP."
     }
 }
