@@ -36,6 +36,12 @@
         "sensitivity_tips": "Cette sensibilité détermine l'intervalle de temps pour la détection de l'état de l'Internet. Il est recommandé d'utiliser une sensibilité faible lorsque l'accès à l'internet est instable afin d'éviter de changer fréquemment de réseau ; il est recommandé d'utiliser une sensibilité élevée lors de la diffusion de vidéos ou de flux en direct afin de pouvoir changer rapidement d'accès à l'internet ; le passage à une sensibilité élevée peut entraîner une déconnexion du réseau.",
         "track_mode_tips": "Si cette option est activée, elle ne suivra que lorsqu'il y a une erreur de réseau d'interface. Il est recommandé d'activer cette option pour les interfaces qui utilisent la facturation du trafic de données.",
         "network_tracking_title": "{interface} État de la connexion",
-        "sensitivity_options_label": "Options de sensiblité"
+        "sensitivity_options_label": "Options de sensiblité",
+        "det_mode_label": "Mode de détection",
+        "strict _label": "Strict",
+        "normal_label": "Normal",
+        "low_data_label": "Faible consommation de données",
+        "strict_mode_label": "Mode strict",
+        "det_mode_tips": "Le mode normal est utilisé par défaut, le mode faible consommation de données ne trace que lorsqu'une erreur de réseau d'interface se produit, et le mode strict détermine l'état de l'interface uniquement sur la base des résultats d'une commande de détection à partir d'une ip publique."
     }
 }
