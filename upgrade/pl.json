@@ -46,7 +46,26 @@
         "check_online_err_msg": "{code}, aktualizacja online jest nieprawidłowa.",
         "accept_preview_label": "Zaakceptuj Plan Wersji Próbnej",
         "keep_setting_tips": "Jeśli ta opcja jest włączona, aktualne ustawienia zostaną zachowane i po zakończeniu aktualizacji zostaniesz poproszony o ponowną instalację wszystkich pakietów zainstalowanych przez użytkownika.",
-        "rc_version_enable_tips": "Jeśli ta opcja jest włączona, możesz wypróbować nowe funkcje przed wydaniem wersji finalnej i dostarczyć nam informacje zwrotne. Należy jednak pamiętać, że te aktualizacje mogą być niestabilne. Proszę sprawdzić $$$$ Co Nowego? $$$$ aby uzyskać informacje o najnowszych funkcjach oprogramowania."
+        "rc_version_enable_tips": "Jeśli ta opcja jest włączona, możesz wypróbować nowe funkcje przed wydaniem wersji finalnej i dostarczyć nam informacje zwrotne. Należy jednak pamiętać, że te aktualizacje mogą być niestabilne. Proszę sprawdzić $$$$ Co Nowego? $$$$ aby uzyskać informacje o najnowszych funkcjach oprogramowania.",
+        "firmware_local_title": "Lokalna aktualizacja oprogramowania układowego",
+        "firmware_online_title": "Aktualizacja oprogramowania układowego online"
     },
-    "menu_upgrade": "Aktualizacja"
+    "menu_upgrade": "Aktualizacja",
+    "cellular": {
+        "online_upgrade_title": "Aktualizacja modułu online",
+        "local_upgrade_title": "Lokalna aktualizacja modułu",
+        "local_install_fail_tips": "Instalacja lokalnej aktualizacji modułu nie powiodła się, proszę ponownie przesłać plik",
+        "is_update_tips": "Moduł jest aktualny.",
+        "upgrade_tips": "Proszę nie wyłączać zasilania podczas procesu aktualizacji modułu. Urządzenie automatycznie uruchomi się ponownie po aktualizacji modułu, co może zająć kilka sekund.",
+        "go_download_btn": "Pobierz",
+        "installing_tips": "Instalacja modułu......",
+        "unzip_failed_tips": "Błąd dekompresji",
+        "verify_failed_tips": "Błąd weryfikacji",
+        "current_label": "Aktualna wersja",
+        "local_upgrade_tips": "Gdy sieć komórkowa zawiedzie, można spróbować zaktualizować moduł komórkowy, aby rozwiązać problem.",
+        "new_label": "Nowa wersja",
+        "downloading_tips": "Pobieranie modułu......",
+        "upgrading_title": "Aktualizacja modułu",
+        "install_success_tips": "Moduł zainstalowany pomyślnie, urządzenie zaraz zostanie ponownie uruchomione."
+    }
 }
