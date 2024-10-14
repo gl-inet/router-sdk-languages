@@ -46,7 +46,26 @@
         "accept_preview_label": "Előzetes Terv Elfogadása",
         "rc_version_enable_tips": "Ha ez az opció engedélyezve van, kipróbálhatja az új funkciókat a végleges verzió kiadása előtt és visszajelzést adhat nekünk. Vegye figyelembe, hogy ezek a frissítések lehet, hogy nem stabilak. Kérjük, ellenőrizze a $$$$ Mi Újság? $$$$ a legújabb firmware funkciókért.",
         "rc_version_disable_tips": "Kérjük, vegye figyelembe, hogy ennek az opciónak a kikapcsolása nem fogja automatikusan visszaállítani a firmware-t egy stabil verzióra. Ha stabil verziójú firmware-t szeretne használni, kérjük, látogasson el a $$$$Letöltőközpontba$$$$.",
-        "check_online_err_msg": "{code}, az online frissítés rendellenes."
+        "check_online_err_msg": "{code}, az online frissítés rendellenes.",
+        "firmware_local_title": "Firmware Helyi Frissítés",
+        "firmware_online_title": "Firmware Online Frissítés"
     },
-    "menu_upgrade": "Frissítés"
+    "menu_upgrade": "Frissítés",
+    "cellular": {
+        "online_upgrade_title": "Modul Online Frissítés",
+        "is_update_tips": "A modul naprakész.",
+        "local_upgrade_title": "Modul Helyi Frissítés",
+        "go_download_btn": "Töltse le",
+        "unzip_failed_tips": "Kicsomagolási hiba",
+        "local_install_fail_tips": "A modul helyi frissítésének telepítése sikertelen, kérjük, töltse fel újra",
+        "local_upgrade_tips": "Amikor a mobilhálózati kapcsolat meghiúsul, megpróbálhatja frissíteni a mobil modult a probléma megoldása érdekében.",
+        "new_label": "Új Verzió",
+        "installing_tips": "Modul telepítése......",
+        "install_success_tips": "A modul sikeresen telepítve, a készülék hamarosan újraindul.",
+        "downloading_tips": "Modul letöltése......",
+        "upgrading_title": "Modul Frissítése",
+        "upgrade_tips": "Kérjük, ne kapcsolja ki a készüléket a modul frissítési folyamata alatt. A modul frissítése után a készülék automatikusan újraindul, ami néhány másodpercet vehet igénybe.",
+        "verify_failed_tips": "Ellenőrzési hiba",
+        "current_label": "Jelenlegi Verzió"
+    }
 }
