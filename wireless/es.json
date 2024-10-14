@@ -27,7 +27,9 @@
         "lan_guest_conflict_tips": "La conexión Wi-Fi para invitados no se puede activar porque {guest} está en conflicto con {lan}.",
         "enable_random_bssid_label": "Habilitar BSSID aleatorio",
         "random_bssid_disabled_tips": "Utilizar un BSSID estático puede permitir que sea rastreado. Si su dispositivo cliente requiere un BSSID estático, se recomienda configurar el SSID como oculto. {more}",
-        "random_bssid_enabled_tips": "Si esta opción está habilitada, el enrutador utilizará un BSSID generado aleatoriamente y lo renovará cada vez que reinicie."
+        "random_bssid_enabled_tips": "Si esta opción está habilitada, el enrutador utilizará un BSSID generado aleatoriamente y lo renovará cada vez que reinicie.",
+        "radio_bands": "Bandas de radio",
+        "mlo_wifi_security_tips": "WPA3-SAE es adecuado para la mayoría de dispositivos que admiten MLO, y se recomienda este protocolo."
     },
     "menu_wireless": "Inalámbrica"
 }
