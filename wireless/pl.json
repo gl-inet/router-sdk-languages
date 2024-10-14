@@ -27,7 +27,9 @@
         "lan_guest_conflict_tips": "Gościnne Wi-Fi nie może być włączone, ponieważ {guest} jest w konflikcie z {lan}.",
         "enable_random_bssid_label": "Włącz losowe BSSID",
         "random_bssid_disabled_tips": "Używanie statycznego BSSID może spowodować śledzenie. Jeśli urządzenie klienta wymaga użycia statycznego BSSID, zaleca się ustawienie SSID jako ukryte. {more}",
-        "random_bssid_enabled_tips": "Jeśli ta opcja jest włączona, urządzenie używa losowo wygenerowanego BSSID i odnawia go przy każdym ponownym uruchomieniu."
+        "random_bssid_enabled_tips": "Jeśli ta opcja jest włączona, urządzenie używa losowo wygenerowanego BSSID i odnawia go przy każdym ponownym uruchomieniu.",
+        "radio_bands": "Pasmo radiowe",
+        "mlo_wifi_security_tips": "WPA3-SAE jest odpowiedni dla większości urządzeń obsługujących MLO i ten protokół jest zalecany."
     },
     "menu_wireless": "Bezprzewodowy"
 }
