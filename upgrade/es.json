@@ -50,5 +50,22 @@
         "firmware_local_title": "Actualización del Firmware local",
         "firmware_online_title": "Actualización del firmware en línea"
     },
-    "menu_upgrade": "Actualizar"
+    "menu_upgrade": "Actualizar",
+    "cellular": {
+        "online_upgrade_title": "Actualización en Línea del Módulo",
+        "go_download_btn": "Ir a Descargar",
+        "local_install_fail_tips": "La instalación de la actualización local del módulo ha fallado, por favor vuelva a subir",
+        "current_label": "Versión Actual",
+        "new_label": "Nueva Versión",
+        "downloading_tips": "Descargando el módulo......",
+        "installing_tips": "Instalando el módulo......",
+        "install_success_tips": "Módulo instalado con éxito, el dispositivo está a punto de reiniciar.",
+        "upgrading_title": "Actualizando el Módulo",
+        "is_update_tips": "El módulo está actualizado.",
+        "local_upgrade_title": "Actualización Local del Módulo",
+        "unzip_failed_tips": "Fallo en la descompresión",
+        "verify_failed_tips": "Fallo en la verificación",
+        "upgrade_tips": "Por favor, no apague durante el proceso de actualización del módulo. El dispositivo se reiniciará automáticamente después de que el módulo se actualice, lo cual puede tardar unos segundos.",
+        "local_upgrade_tips": "Cuando la red celular falla, puede intentar actualizar el módulo celular para solucionar el problema."
+    }
 }
