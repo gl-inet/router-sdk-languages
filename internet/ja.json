@@ -394,7 +394,12 @@
         "network_connection_feedback_title": "ネットワーク接続フィードバック",
         "attention_label": "注意！",
         "repeater_warning_connected_tips": "選択したネットワーク{failedSsid}は接続に失敗しました。保存されたネットワーク{connectedSsid}に自動的に切り替え、接続に成功しました。",
-        "repeater_warning_sub_tips": "現在のネットワークを使用したくない場合は、他のネットワークを選択するために戻ってください。"
+        "repeater_warning_sub_tips": "現在のネットワークを使用したくない場合は、他のネットワークを選択するために戻ってください。",
+        "restart_main_router_tips": "メインルーターを再起動してください。",
+        "repeater_need_enable_auth_tips": "リレーされるWiFiが認証を必要とする場合は、認証モードを有効にしてください。",
+        "fail_public_tips": "現在ネットワークに接続できません。次の方法をお試しください。",
+        "restart_router_tips": "ルーターを再起動してください。",
+        "fail_contact_tips": "問題が解決されない場合は、{addr} までメールを送ることもできます。"
     },
     "traffic": {
         "no_saved_limit_tips": "データ使用量に基づいてSIMカードをロックする必要がある場合は、「電源オフ時にデータを節約」スイッチをオンにしてください。",
