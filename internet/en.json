@@ -393,7 +393,9 @@
         "network_connection_feedback_title": "Network Connection Feedback",
         "portal_login_mode_tips": "The device is in Login Mode for Public Hotspots. You can manually go to login authentication.",
         "enter_login_mode_tips": "Can't access the internet via the repeated hotspot. Try to enter Login Mode for Public Hotspots to fix the issue.",
-        "click_to_enter_login_mode_tips": "Click the Next button to enter Login Mode for Public Hotspots."
+        "click_to_enter_login_mode_tips": "Click the Next button to enter Login Mode for Public Hotspots.",
+        "repeater_warning_connected_tips": "The network you selected {failedSsid} failed to connect to the network. It has been auto-switched to the saved network {connectedSsid} and connected successfully.",
+        "repeater_warning_sub_tips": "If you do not want to use the current network, please back to select another network."
     },
     "traffic": {
         "data_used_label": "{sim} Data Used",
