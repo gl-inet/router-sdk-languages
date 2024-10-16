@@ -393,7 +393,9 @@
         "static_ip_config": "静的IP設定",
         "no_available_ap_tips": "現在スキャンされている利用可能なネットワークはありません。{toDo}ができます。",
         "network_connection_feedback_title": "ネットワーク接続フィードバック",
-        "attention_label": "注意！"
+        "attention_label": "注意！",
+        "repeater_warning_connected_tips": "選択したネットワーク{failedSsid}は接続に失敗しました。保存されたネットワーク{connectedSsid}に自動的に切り替え、接続に成功しました。",
+        "repeater_warning_sub_tips": "現在のネットワークを使用したくない場合は、他のネットワークを選択するために戻ってください。"
     },
     "traffic": {
         "no_saved_limit_tips": "データ使用量に基づいてSIMカードをロックする必要がある場合は、「電源オフ時にデータを節約」スイッチをオンにしてください。",
