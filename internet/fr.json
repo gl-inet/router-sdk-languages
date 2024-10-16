@@ -393,7 +393,9 @@
         "network_connection_feedback_title": "Retour sur la connexion réseau",
         "portal_login_mode_tips": "L'appareil est en mode de connexion pour les points d'accès publics. Vous pouvez vous rendre manuellement à l'authentification de connexion.",
         "enter_login_mode_tips": "Impossible d'accéder à Internet via le hotspot répété. Essayez d'entrer dans le Mode de Connexion pour les Hotspots Publics pour résoudre le problème.",
-        "click_to_enter_login_mode_tips": "Cliquez sur le bouton Suivant pour entrer en Mode de Connexion pour les Hotspots Publics."
+        "click_to_enter_login_mode_tips": "Cliquez sur le bouton Suivant pour entrer en Mode de Connexion pour les Hotspots Publics.",
+        "repeater_warning_connected_tips": "Le réseau que vous avez sélectionné {failedSsid} n'a pas réussi à se connecter au réseau. Il a été automatiquement basculé vers le réseau enregistré {connectedSsid} et s'est connecté avec succès.",
+        "repeater_warning_sub_tips": "Si vous ne souhaitez pas utiliser le réseau actuel, veuillez revenir pour en sélectionner un autre."
     },
     "traffic": {
         "data_used_label": "{sim} Données utilisées",
