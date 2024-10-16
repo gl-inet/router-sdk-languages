@@ -394,7 +394,12 @@
         "enter_login_mode_tips": "无法通过重复的热点访问互联网。尝试进入公共热点的登录模式以解决问题。",
         "click_to_enter_login_mode_tips": "点击“下一步”按钮进入公共热点的登录模式。",
         "repeater_warning_connected_tips": "您选择的网络{failedSsid}连接失败。系统已自动切换到已保存的网络{connectedSsid}并成功连接。",
-        "repeater_warning_sub_tips": "如果您不想使用当前网络，请返回选择另一个网络。"
+        "repeater_warning_sub_tips": "如果您不想使用当前网络，请返回选择另一个网络。",
+        "repeater_need_enable_auth_tips": "如果中继的WiFi需要认证，请启用认证模式。",
+        "fail_public_tips": "现在无法连接网络，请尝试以下方法。",
+        "restart_router_tips": "重启路由器。",
+        "fail_contact_tips": "如果问题未得到解决，您也可以发送电子邮件至{addr}。",
+        "restart_main_router_tips": "重启主路由器。"
     },
     "traffic": {
         "first_month_label": "第一个月",
