@@ -394,7 +394,12 @@
         "enter_login_mode_tips": "無法通過重複的熱點訪問互聯網。嘗試進入公共熱點的登錄模式以解決問題。",
         "click_to_enter_login_mode_tips": "點擊下一步按鈕以進入公共熱點的登錄模式。",
         "repeater_warning_connected_tips": "您選擇的網絡 {failedSsid} 連接失敗。系統已自動切換至已儲存的網絡 {connectedSsid} 並成功連接。",
-        "repeater_warning_sub_tips": "如果您不想使用当前网络，请返回选择另一个网络。"
+        "repeater_warning_sub_tips": "如果您不想使用当前网络，请返回选择另一个网络。",
+        "repeater_need_enable_auth_tips": "如果中繼的WiFi需要認證，請啟用認證模式。",
+        "fail_public_tips": "現在無法連接網絡，請嘗試以下方法。",
+        "restart_router_tips": "重新啟動路由器。",
+        "fail_contact_tips": "如果問題尚未解決，您也可以發送電子郵件至 {addr}。",
+        "restart_main_router_tips": "重新啟動主路由器。"
     },
     "traffic": {
         "first_month_label": "第一個月",
