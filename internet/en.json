@@ -390,7 +390,10 @@
         "repeater_concat_us": "3.If the problem has not been solved, you can also email {supportEmail}.",
         "no_available_ap_tips": "No available networks are currently scanned, you can {toDo}.",
         "attention_label": "Attention!",
-        "network_connection_feedback_title": "Network Connection Feedback"
+        "network_connection_feedback_title": "Network Connection Feedback",
+        "portal_login_mode_tips": "The device is in Login Mode for Public Hotspots. You can manually go to login authentication.",
+        "enter_login_mode_tips": "Can't access the internet via the repeated hotspot. Try to enter Login Mode for Public Hotspots to fix the issue.",
+        "click_to_enter_login_mode_tips": "Click the Next button to enter Login Mode for Public Hotspots."
     },
     "traffic": {
         "data_used_label": "{sim} Data Used",
