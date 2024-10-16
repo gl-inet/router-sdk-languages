@@ -394,7 +394,12 @@
         "enter_login_mode_tips": "Nie można uzyskać dostępu do internetu przez powtórzone hotspoty. Spróbuj wejść w tryb logowania dla publicznych hotspotów, aby rozwiązać problem.",
         "click_to_enter_login_mode_tips": "Kliknij przycisk Dalej, aby przejść do trybu logowania dla publicznych hotspotów.",
         "repeater_warning_connected_tips": "Wybrana sieć {failedSsid} nie mogła się połączyć. Została automatycznie przełączona na zapisaną sieć {connectedSsid} i połączenie zostało pomyślnie nawiązane.",
-        "repeater_warning_sub_tips": "Jeśli nie chcesz korzystać z obecnej sieci, proszę wróć, aby wybrać inną sieć."
+        "repeater_warning_sub_tips": "Jeśli nie chcesz korzystać z obecnej sieci, proszę wróć, aby wybrać inną sieć.",
+        "repeater_need_enable_auth_tips": "Jeśli przekazywane WiFi wymaga uwierzytelnienia, proszę włączyć tryb uwierzytelnienia.",
+        "fail_public_tips": "Obecnie nie można połączyć się z siecią, proszę spróbować następujących sposobów.",
+        "restart_router_tips": "Zrestartuj router.",
+        "fail_contact_tips": "Jeśli problem nie został rozwiązany, możesz również wysłać e-mail na adres {addr}.",
+        "restart_main_router_tips": "Zrestartuj główny router."
     },
     "traffic": {
         "modify_data_used_tips": "Statystyki danych mają charakter informacyjny. Rzeczywisty ruch jest określany przez operatora sieci i pojawi się na rachunku dostarczonym przez operatora sieci.",
