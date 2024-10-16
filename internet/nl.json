@@ -393,7 +393,9 @@
         "network_connection_feedback_title": "Netwerkverbinding Feedback",
         "portal_login_mode_tips": "Het apparaat bevindt zich in de inlogmodus voor openbare hotspots. U kunt handmatig naar de loginverificatie gaan.",
         "enter_login_mode_tips": "Kan geen toegang krijgen tot het internet via de herhaalde hotspot. Probeer de inlogmodus voor openbare hotspots te betreden om het probleem op te lossen.",
-        "click_to_enter_login_mode_tips": "Klik op de knop Volgende om de inlogmodus voor openbare hotspots te betreden."
+        "click_to_enter_login_mode_tips": "Klik op de knop Volgende om de inlogmodus voor openbare hotspots te betreden.",
+        "repeater_warning_connected_tips": "Het geselecteerde netwerk {failedSsid} kon geen verbinding maken met het netwerk. Er is automatisch overgeschakeld naar het opgeslagen netwerk {connectedSsid} en de verbinding is succesvol tot stand gebracht.",
+        "repeater_warning_sub_tips": "Als u het huidige netwerk niet wilt gebruiken, ga dan terug om een ander netwerk te selecteren."
     },
     "traffic": {
         "save_to_flash_label": "Gegevens opslaan bij uitschakelen",
