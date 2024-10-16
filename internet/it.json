@@ -393,7 +393,9 @@
         "network_connection_feedback_title": "Riscontro sulla Connessione di Rete",
         "portal_login_mode_tips": "Il dispositivo è in Modalità di Accesso per Hotspot Pubblici. Puoi procedere manualmente all'autenticazione di accesso.",
         "enter_login_mode_tips": "Impossibile accedere a Internet tramite l'hotspot ripetuto. Prova ad entrare in Modalità di Accesso per Hotspot Pubblici per risolvere il problema.",
-        "click_to_enter_login_mode_tips": "Clicca il pulsante Avanti per entrare in Modalità di Accesso per Hotspot Pubblici."
+        "click_to_enter_login_mode_tips": "Clicca il pulsante Avanti per entrare in Modalità di Accesso per Hotspot Pubblici.",
+        "repeater_warning_connected_tips": "La rete selezionata {failedSsid} non è riuscita a connettersi alla rete. È stata commutata automaticamente alla rete salvata {connectedSsid} e connessa con successo.",
+        "repeater_warning_sub_tips": "Se non desideri utilizzare la rete corrente, per favore torna indietro per selezionarne un'altra."
     },
     "traffic": {
         "no_saved_limit_tips": "Se necessiti di bloccare la SIM card in base all'uso dei dati, attiva l'interruttore \"Salva dati allo spegnimento\".",
