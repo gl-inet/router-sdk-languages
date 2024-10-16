@@ -394,7 +394,12 @@
         "enter_login_mode_tips": "Kann das Internet nicht über den wiederholten Hotspot erreichen. Versuchen Sie, den Anmelde-Modus für öffentliche Hotspots zu betreten, um das Problem zu beheben.",
         "click_to_enter_login_mode_tips": "Klicken Sie auf die Schaltfläche \"Weiter\", um den Anmelde-Modus für öffentliche Hotspots zu betreten.",
         "repeater_warning_connected_tips": "Das ausgewählte Netzwerk {failedSsid} konnte keine Verbindung herstellen. Es wurde automatisch auf das gespeicherte Netzwerk {connectedSsid} umgeschaltet und erfolgreich verbunden.",
-        "repeater_warning_sub_tips": "Wenn Sie das aktuelle Netzwerk nicht verwenden möchten, kehren Sie bitte zurück, um ein anderes Netzwerk auszuwählen."
+        "repeater_warning_sub_tips": "Wenn Sie das aktuelle Netzwerk nicht verwenden möchten, kehren Sie bitte zurück, um ein anderes Netzwerk auszuwählen.",
+        "restart_main_router_tips": "Starten Sie den Haupt-Router neu.",
+        "fail_public_tips": "Das Netzwerk kann derzeit nicht verbunden werden, bitte versuchen Sie folgende Methoden.",
+        "repeater_need_enable_auth_tips": "Wenn das weitergeleitete WLAN eine Authentifizierung erfordert, aktivieren Sie bitte den Authentifizierungsmodus.",
+        "restart_router_tips": "Starten Sie den Router neu.",
+        "fail_contact_tips": "Wenn das Problem nicht gelöst wurde, können Sie auch eine E-Mail an {addr} senden."
     },
     "traffic": {
         "data_used_label": "{sim} Datenverbrauch",
