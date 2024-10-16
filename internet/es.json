@@ -393,7 +393,9 @@
         "network_connection_feedback_title": "Retroalimentación de la Conexión de Red",
         "portal_login_mode_tips": "El dispositivo está en Modo de Inicio de Sesión para Hotspots Públicos. Puede ir manualmente a la autenticación de inicio de sesión.",
         "enter_login_mode_tips": "No se puede acceder a internet a través del punto de acceso repetido. Intente ingresar al Modo de Inicio de Sesión para Puntos de Acceso Públicos para solucionar el problema.",
-        "click_to_enter_login_mode_tips": "Haga clic en el botón Siguiente para entrar al Modo de Inicio de Sesión para Hotspots Públicos."
+        "click_to_enter_login_mode_tips": "Haga clic en el botón Siguiente para entrar al Modo de Inicio de Sesión para Hotspots Públicos.",
+        "repeater_warning_connected_tips": "La red que seleccionó {failedSsid} no pudo conectarse a la red. Se ha cambiado automáticamente a la red guardada {connectedSsid} y se ha conectado con éxito.",
+        "repeater_warning_sub_tips": "Si no desea utilizar la red actual, por favor regrese para seleccionar otra red."
     },
     "traffic": {
         "save_to_flash_tips": "Si el interruptor está activado, los datos se pueden guardar incluso después de que el dispositivo se haya apagado.",
