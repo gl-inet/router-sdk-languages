@@ -394,7 +394,12 @@
         "enter_login_mode_tips": "Can't access the internet via the repeated hotspot. Try to enter Login Mode for Public Hotspots to fix the issue.",
         "click_to_enter_login_mode_tips": "Click the Next button to enter Login Mode for Public Hotspots.",
         "repeater_warning_connected_tips": "The network you selected {failedSsid} failed to connect to the network. It has been auto-switched to the saved network {connectedSsid} and connected successfully.",
-        "repeater_warning_sub_tips": "If you do not want to use the current network, please back to select another network."
+        "repeater_warning_sub_tips": "If you do not want to use the current network, please back to select another network.",
+        "restart_main_router_tips": "Restart the main router.",
+        "repeater_need_enable_auth_tips": "If the relayed WiFi requires authentication, please enable authentication mode.",
+        "fail_public_tips": "Now the network cannot be connected, please try the following ways.",
+        "restart_router_tips": "Restart the router.",
+        "fail_contact_tips": "If the problem has not been solved, you can also email {addr}."
     },
     "traffic": {
         "data_used_label": "{sim} Data Used",
