@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "메인 게이트웨이를 리부팅하세요.",
         "contact_isp_tips": "ISP에 문의하여 도움을 받으십시오.",
         "cable_success_tips": "현재 네트워크 연결 유형은 {type}이며 네트워크 상태가 정상입니다.",
-        "detecting_title": "检测中"
+        "detecting_title": "检测中",
+        "cable_no_wan_tips": "WAN 포트에 네트워크 케이블을 연결해 주세요.",
+        "cable_no_wan_lan_tips": "LAN 포트에서 네트워크 케이블을 감지했습니다. 케이블이 올바른 위치에 삽입되었는지 확인해 주십시오.",
+        "cable_wan_checking_tips": "WAN 상태를 확인 중입니다. 잠시만 기다려 주십시오.",
+        "cable_pppoe_tips": "请输入您的ISP提供的信息。请确保宽带账户密码正确，如果忘记了，您可以联系您的运营商。",
+        "cable_dhcp_tips": "ISP가 인터넷 연결에 대한 정보를 제공하지 않는 경우 이 유형을 선택하세요.",
+        "use_static_btn": "사용 중인 정적 IP 모드",
+        "cable_connecting_tips": "네트워킹 감지가 진행 중입니다, 잠시만 기다려 주세요.",
+        "cable_manual_title": "获取数据失败",
+        "cable_static_title": "고정 IP 설정",
+        "cable_static_tips": "고급 옵션은 주 인터페이스를 사용하여 편집할 수 있습니다.",
+        "cable_manual_tips": "모뎀을 수동으로 계속 조작하거나 리부팅할 수 있습니다.",
+        "cable_config_title": "이더넷 구성",
+        "cable_detect_title": "WAN 인터페이스 감지",
+        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Korean. Please provide the text you wish to translate, and I will assist you accordingly."
     },
     "traffic": {
         "no_saved_limit_tips": "데이터 사용량에 따라 SIM 카드를 잠그려면 \"전원을 끌 때 데이터 저장\" 스위치를 켜십시오.",
