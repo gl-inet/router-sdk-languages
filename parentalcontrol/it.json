@@ -94,7 +94,19 @@
         "local_version_title": "Versione Locale",
         "local_version_desc": "La versione Locale è offerta da Gl.iNet. Al momento è in versione beta, quindi è gratuita. In questa versione, se hai bisogno di richiedere un filtro legato all'applicazione, devi specificare il dominio manualmente.",
         "bark_version_title": "Versione Bark",
-        "toggle_version_desc": "Puoi scegliere quale versione del Controllo Parentale usare. Non puoi abilitarle entrambe insieme e una delle due sarà automaticamente disabilitata quando cambi versione."
+        "toggle_version_desc": "Puoi scegliere quale versione del Controllo Parentale usare. Non puoi abilitarle entrambe insieme e una delle due sarà automaticamente disabilitata quando cambi versione.",
+        "domain_detect_failed_tips": "{count} nomi di dominio non sono stati rilevati.",
+        "manual_label": "Manuale",
+        "input_url_link_tips": "Si prega di inserire l'URL corretto. Il rilevamento dell'URL identificherà la correttezza del nome di dominio.",
+        "blocklist_input_mode_label": "Modalità di inserimento della lista di blocco",
+        "blocklist_input_mode_tooltip": "È possibile impostare la blacklist manualmente o sottoscrivendo un URL. Dopo la sottoscrizione dell'URL, la blacklist verrà aggiornata automaticamente ogni giorno.",
+        "success_and_fail_domain_tip": "{success} nomi di dominio o indirizzi IP sono stati rilevati con successo, e {failed} nomi di dominio o indirizzi IP non sono stati rilevati.",
+        "subscription_url_label": "URL di sottoscrizione",
+        "input_url_link_label": "Inserisci link URL",
+        "detect_button": "Rileva",
+        "detecting_message": "Attendere prego, rilevamento in corso.",
+        "ssid_or_password_is_error": "SSID o password non corretti.",
+        "domain_detect_success_tips": "{count} nomi di dominio sono stati rilevati con successo."
     },
     "menu_parentalcontrol": "Controllo Parentale",
     "bark": {
