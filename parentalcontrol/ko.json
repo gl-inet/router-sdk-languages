@@ -94,7 +94,19 @@
         "portal_type_label": "웹 포털",
         "del_all_schedule_btn": "모든 스케줄 삭제",
         "version_conversion_btn": "스위치 버전",
-        "bark_version_title": "Bark 버전"
+        "bark_version_title": "Bark 버전",
+        "blocklist_input_mode_label": "블록리스트 입력 모드",
+        "blocklist_input_mode_tooltip": "URL을 구독하거나 수동으로 블랙리스트를 설정할 수 있습니다. URL을 구독하면 블랙리스트가 매일 자동으로 업데이트됩니다.",
+        "domain_detect_failed_tips": "{count}개의 도메인 이름이 감지되지 못했습니다.",
+        "manual_label": "수동",
+        "subscription_url_label": "구독 URL",
+        "detecting_message": "잠시만 기다려 주세요, 감지가 진행 중입니다.",
+        "input_url_link_tips": "올바른 URL을 입력해 주세요. URL 감지는 도메인 이름의 정확성을 확인합니다.",
+        "success_and_fail_domain_tip": "{success}개의 도메인 이름 또는 IP 주소가 성공적으로 감지되었으며, {failed}개의 도메인 이름 또는 IP 주소가 감지에 실패했습니다.",
+        "input_url_link_label": "URL 링크 입력",
+        "detect_button": "감지",
+        "ssid_or_password_is_error": "SSID 또는 비밀번호가 올바르지 않습니다.",
+        "domain_detect_success_tips": "{count}개의 도메인 이름이 성공적으로 감지되었습니다."
     },
     "menu_parentalcontrol": "자녀 사용관리",
     "bark": {
