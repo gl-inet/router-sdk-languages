@@ -95,7 +95,19 @@
         "remove_all_schedule_tips": "Êtes-vous sûr de vouloir supprimer toutes les planifications d'horaires ?",
         "toggle_version_desc": "Vous pouvez sélectionner la version de la fonction de contrôle parental que vous souhaitez utiliser en fonction de vos besoins. Les deux versions du contrôle parental ne peuvent pas être activées en même temps, et l'autre sera automatiquement désactivée lorsque vous passerez d'une version à l'autre.",
         "local_version_desc": "La version locale est fournie par GL.iNet. Elle est actuellement en version bêta, et n'entraîne donc aucun coût supplémentaire. Dans cette version, si vous avez besoin de filtrer les demandes par application, vous devez entrer le domaine manuellement.",
-        "bark_version_desc": "La version Bark, fournie et gérée par $$$$Bark$$$$ sur sa propre plateforme, offre la possibilité de filtrer les applications et les sites web d'un simple clic et de contrôler l'historique des demandes. Veuillez noter que ce service fait l'objet d'un abonnement supplémentaire payable directement à Bark."
+        "bark_version_desc": "La version Bark, fournie et gérée par $$$$Bark$$$$ sur sa propre plateforme, offre la possibilité de filtrer les applications et les sites web d'un simple clic et de contrôler l'historique des demandes. Veuillez noter que ce service fait l'objet d'un abonnement supplémentaire payable directement à Bark.",
+        "blocklist_input_mode_label": "Mode de saisie de la liste de blocage",
+        "detect_button": "Détecter",
+        "domain_detect_failed_tips": "{count} noms de domaine n'ont pas pu être détectés.",
+        "domain_detect_success_tips": "{count} noms de domaine ont été détectés avec succès.",
+        "input_url_link_tips": "Veuillez saisir l'URL correcte. La détection d'URL identifiera la validité du nom de domaine.",
+        "blocklist_input_mode_tooltip": "Vous pouvez définir la liste noire manuellement ou en vous abonnant à l'URL. Après vous être abonné à l'URL, la liste noire sera mise à jour automatiquement chaque jour.",
+        "success_and_fail_domain_tip": "{success} noms de domaine ou adresses IP ont été détectés avec succès, et {failed} noms de domaine ou adresses IP n'ont pas pu être détectés.",
+        "manual_label": "Manuel",
+        "subscription_url_label": "URL d'abonnement",
+        "input_url_link_label": "Saisir le lien URL",
+        "detecting_message": "Veuillez patienter, la détection est en cours.",
+        "ssid_or_password_is_error": "Le SSID ou le mot de passe est incorrect."
     },
     "bark": {
         "desc": "En fonction de l'abonnement choisi (Bark ou BarkJr), vous pourrez :",
