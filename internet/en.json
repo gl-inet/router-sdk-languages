@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "Reboot the main gateway.",
         "contact_isp_tips": "Contact your ISP for help.",
         "cable_success_tips": "Current network connection type is {type} and network status is normal.",
-        "detecting_title": "Detecting"
+        "detecting_title": "Detecting",
+        "cable_no_wan_tips": "No cable detected. Please connect the network cable to the WAN port.",
+        "cable_no_wan_lan_tips": "LAN port detects a network cable, please make sure the cable is inserted in the correct position.",
+        "cable_wan_checking_tips": "WAN status checking, please wait a moment.",
+        "cable_pppoe_tips": "Enter the information provided by your ISP. Please make sure the broadband account password is correct, if you forget it, you can contact your operator.",
+        "cable_connecting_tips": "Networking detection in progress, please wait a moment.",
+        "cable_dhcp_tips": "Select this type if your ISP doesn't provide any information for internet connection.",
+        "use_static_btn": "Using Static IP Mode",
+        "cable_manual_title": "Failure to automatically obtain data",
+        "cable_static_title": "Static IP Configuration",
+        "cable_static_tips": "More advanced options can be edited using the main interface.",
+        "cable_manual_tips": "You can choose to continue the process below manually or reboot the modem.",
+        "cable_detect_title": "WAN interface detect",
+        "cable_config_title": "Ethernet configuration",
+        "cable_enter_info_title": "Enter the information"
     },
     "traffic": {
         "data_used_label": "{sim} Data Used",
