@@ -1,1 +1,17 @@
-{}
+{
+    "netport": {
+        "wan_lan_change_tips": "U kunt de WAN-poort als een LAN-poort gebruiken.",
+        "as_label": "Als {port}",
+        "unplug_cable_tips": "Ontkoppel eerst de Ethernetkabel die is aangesloten op de {silkprint}.",
+        "as_wan_tips": "{asWan}, het apparaat dat op de poort is aangesloten, kan niet meer toegang krijgen tot het beheerderspaneel. U moet het verbinden met Wi-Fi of andere LAN-poorten.",
+        "set_as_wan_tips": "Zodra de {silkprint} als een WAN-poort wordt gebruikt",
+        "reset_as_lan_tips": "Weet u zeker dat u de {silkprint} wilt herstellen naar LAN-poort (standaard)?",
+        "two_port_label": "{port1} en {port2}",
+        "reset_port_tips": "U kunt {silkprint} herstellen naar {port}-modus door de resetknop van het apparaat 4 seconden ingedrukt te houden.",
+        "reset_as_wan_tips": "Herstel {silkprint} als WAN-poort.",
+        "rate_label": "Onderhandelde netwerkpoortsnelheid",
+        "no_wan_tips": "{silkprint} is gebruikt als LAN (Lokaal Netwerk). U kunt het terugzetten naar WAN (Wide Area Network) in {view}",
+        "set_as_lan_tips": "Weet u zeker dat u {silkprint} wilt omschakelen naar een LAN-poort?"
+    },
+    "menu_netport": "Beheer van netwerkpoorten"
+}
