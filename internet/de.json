@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "Starten Sie das Hauptgateway neu.",
         "contact_isp_tips": "Wenden Sie sich für Hilfe an Ihren Internetdienstanbieter.",
         "cable_success_tips": "Der aktuelle Netzwerkverbindungstyp ist {type} und der Netzwerkstatus ist normal.",
-        "detecting_title": "Erkennung"
+        "detecting_title": "Erkennung",
+        "cable_no_wan_tips": "Kein Kabel erkannt. Bitte verbinden Sie das Netzwerkkabel mit dem WAN-Port.",
+        "cable_no_wan_lan_tips": "LAN-Port erkennt ein Netzwerkkabel, bitte stellen Sie sicher, dass das Kabel in der richtigen Position eingesteckt ist.",
+        "cable_wan_checking_tips": "WAN-Status wird überprüft, bitte warten Sie einen Moment.",
+        "cable_pppoe_tips": "Geben Sie die von Ihrem Internetdienstanbieter bereitgestellten Informationen ein. Bitte stellen Sie sicher, dass das Kennwort für das Breitbandkonto korrekt ist. Falls Sie es vergessen haben, können Sie Ihren Betreiber kontaktieren.",
+        "cable_connecting_tips": "Netzwerkerkennung läuft, bitte warten Sie einen Moment.",
+        "cable_dhcp_tips": "Wählen Sie diesen Typ, wenn Ihr Internetdienstanbieter keine Informationen für die Internetverbindung bereitstellt.",
+        "use_static_btn": "Verwendung des statischen IP-Modus",
+        "cable_manual_title": "Daten konnten nicht automatisch abgerufen werden",
+        "cable_static_title": "Statische IP-Konfiguration",
+        "cable_static_tips": "Weitere erweiterte Optionen können über die Hauptoberfläche bearbeitet werden.",
+        "cable_manual_tips": "Sie können den Vorgang manuell fortsetzen oder den Modem neu starten.",
+        "cable_detect_title": "WAN-Schnittstellenerkennung",
+        "cable_config_title": "Ethernet-Konfiguration",
+        "cable_enter_info_title": "Um Ihre Anfrage zu bearbeiten, benötige ich die zu übersetzenden Informationen oder Texte. Bitte stellen Sie den Text zur Verfügung, den Sie übersetzt haben möchten."
     },
     "traffic": {
         "data_used_label": "{sim} Datenverbrauch",
