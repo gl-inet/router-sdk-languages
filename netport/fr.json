@@ -1,1 +1,17 @@
-{}
+{
+    "menu_netport": "Gestion des ports réseau",
+    "netport": {
+        "wan_lan_change_tips": "Vous pouvez utiliser le port WAN comme un port LAN.",
+        "as_wan_tips": "{asWan}, l'appareil connecté au port ne pourra plus accéder au panneau d'administration. Vous devrez le connecter au Wi-Fi ou à d'autres ports LAN.",
+        "set_as_wan_tips": "Une fois que le {silkprint} est utilisé comme un port WAN",
+        "reset_as_lan_tips": "Êtes-vous sûr de vouloir restaurer le {silkprint} en port LAN (par défaut) ?",
+        "set_as_lan_tips": "Êtes-vous sûr de vouloir basculer le {silkprint} en port LAN ?",
+        "two_port_label": "{port1} et {port2}",
+        "reset_port_tips": "Vous pouvez restaurer {silkprint} en mode {port} en maintenant enfoncé le bouton de réinitialisation de l'appareil pendant 4 secondes.",
+        "rate_label": "Taux négocié du port réseau",
+        "as_label": "En tant que {port}",
+        "unplug_cable_tips": "Tout d'abord, veuillez débrancher le câble Ethernet qui est connecté au {silkprint}.",
+        "reset_as_wan_tips": "Restaurer {silkprint} en tant que port WAN.",
+        "no_wan_tips": "{silkprint} a été utilisé comme LAN (réseau local). Vous pouvez le remettre en WAN (réseau étendu) dans {view}"
+    }
+}
