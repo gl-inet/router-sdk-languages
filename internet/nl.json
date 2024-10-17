@@ -392,7 +392,20 @@
         "fail_reboot_gateway_tips": "Herstart de hoofdgateway.",
         "contact_isp_tips": "Neem contact op met uw internetprovider voor hulp.",
         "cable_success_tips": "Huidig netwerkverbindingstype is {type} en de netwerkstatus is normaal.",
-        "detecting_title": "Detecteren"
+        "detecting_title": "Detecteren",
+        "cable_no_wan_tips": "Geen kabel gedetecteerd. Sluit de netwerkkabel aan op de WAN-poort.",
+        "cable_no_wan_lan_tips": "Beschikbare Netwerken",
+        "cable_wan_checking_tips": "WAN-status controleren, een ogenblik geduld alstublieft.",
+        "cable_pppoe_tips": "Voer de informatie in die door uw internetprovider is verstrekt. Zorg ervoor dat het wachtwoord van uw breedbandaccount correct is, als u het bent vergeten, kunt u contact opnemen met uw operator.",
+        "cable_dhcp_tips": "Selecteer dit type als uw ISP geen informatie verstrekt voor internetverbinding.",
+        "cable_connecting_tips": "Netwerkdetectie is bezig, een ogenblik geduld alstublieft.",
+        "use_static_btn": "Gebruik van de statische IP-modus",
+        "cable_static_title": "Statische IP-configuratie",
+        "cable_manual_title": "Automatisch gegevens ophalen mislukt",
+        "cable_manual_tips": "U kunt ervoor kiezen om het proces hieronder handmatig voort te zetten of het modem te herstarten.",
+        "cable_static_tips": "Geavanceerdere opties kunnen worden bewerkt via de hoofdinterface.",
+        "cable_config_title": "Ethernet-configuratie",
+        "cable_detect_title": "WAN-interface detecteren"
     },
     "traffic": {
         "save_to_flash_label": "Gegevens opslaan bij uitschakelen",
