@@ -392,7 +392,20 @@
         "fail_reboot_gateway_tips": "Riavvia il gateway principale.",
         "contact_isp_tips": "Contatta il tuo fornitore di servizi Internet per assistenza.",
         "cable_success_tips": "Il tipo di connessione di rete attuale è {type} e lo stato della rete è normale.",
-        "detecting_title": "Rilevamento"
+        "detecting_title": "Rilevamento",
+        "cable_no_wan_tips": "Nessun cavo rilevato. Si prega di collegare il cavo di rete alla porta WAN.",
+        "cable_no_wan_lan_tips": "La porta LAN rileva un cavo di rete, si prega di assicurarsi che il cavo sia inserito nella posizione corretta.",
+        "cable_wan_checking_tips": "Verifica dello stato WAN, attendere prego un momento.",
+        "cable_pppoe_tips": "Inserisci le informazioni fornite dal tuo ISP. Assicurati che la password dell'account a banda larga sia corretta, se la dimentichi, puoi contattare il tuo operatore.",
+        "cable_dhcp_tips": "Seleziona questo tipo se il tuo ISP non fornisce alcuna informazione per la connessione a Internet.",
+        "use_static_btn": "Utilizzo della modalità IP statico",
+        "cable_connecting_tips": "Rilevamento della rete in corso, attendere prego.",
+        "cable_static_title": "Configurazione IP statico",
+        "cable_static_tips": "È possibile modificare le opzioni più avanzate utilizzando l'interfaccia principale.",
+        "cable_manual_title": "Impossibile ottenere automaticamente i dati",
+        "cable_manual_tips": "Puoi scegliere di continuare il processo manualmente o riavviare il modem.",
+        "cable_config_title": "Configurazione Ethernet",
+        "cable_detect_title": "Rilevamento interfaccia WAN"
     },
     "traffic": {
         "no_saved_limit_tips": "Se necessiti di bloccare la SIM card in base all'uso dei dati, attiva l'interruttore \"Salva dati allo spegnimento\".",
