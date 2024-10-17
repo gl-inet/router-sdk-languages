@@ -392,7 +392,20 @@
         "fail_reboot_gateway_tips": "Paleiskite iš naujo pagrindinę tinklo tarpuvartę.",
         "contact_isp_tips": "Susisiekite su savo interneto paslaugų teikėju dėl pagalbos.",
         "cable_success_tips": "Dabartinis tinklo ryšio tipas yra {type} ir tinklo būklė yra normali.",
-        "detecting_title": "Aptikimas"
+        "detecting_title": "Aptikimas",
+        "cable_no_wan_tips": "Nerastas laidas. Prašome prijungti tinklo laidą prie WAN prievado.",
+        "cable_no_wan_lan_tips": "Vietinio tinklo („LAN“) prievadas aptiko tinklo laidą, įsitikinkite, kad laidas įkištas į teisingą vietą.",
+        "cable_wan_checking_tips": "WAN būsenos tikrinimas, prašome palaukti.",
+        "cable_pppoe_tips": "Įveskite jūsų interneto paslaugų teikėjo pateiktą informaciją. Įsitikinkite, kad plačiajuosčio ryšio paskyros slaptažodis yra teisingas, jei jį pamiršote, galite susisiekti su operatoriumi.",
+        "cable_dhcp_tips": "Pasirinkite šį tipą, jei jūsų interneto paslaugų teikėjas nepateikia jokių interneto ryšio duomenų.",
+        "cable_connecting_tips": "Tinklavimo aptikimas vyksta, prašome palaukti.",
+        "cable_manual_title": "Automatinio duomenų gavimo triktis",
+        "use_static_btn": "Naudodami statinio IP veikseną",
+        "cable_static_title": "Statinio IP konfigūracija",
+        "cable_manual_tips": "Galite pasirinkti tęsti procesą žemiau rankiniu būdu arba paleisti modemą iš naujo.",
+        "cable_static_tips": "Daugiau pažangių parinkčių galima redaguoti naudojant pagrindinę sąsają.",
+        "cable_config_title": "„Ethernet“ konfigūracija",
+        "cable_detect_title": "WAN sąsają aptikimas"
     },
     "traffic": {
         "sim_limit_title": "{sim} Ribojimo nustatymai",
