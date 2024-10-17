@@ -94,7 +94,19 @@
         "toggle_version_desc": "Możesz wybrać wersję funkcji kontroli rodzicielskiej, której chcesz używać, w razie potrzeby. Obie wersje kontroli rodzicielskiej nie mogą być włączone jednocześnie, a druga zostanie automatycznie wyłączona po przełączeniu wersji.",
         "local_version_title": "Wersja lokalna",
         "local_version_desc": "Wersja lokalna jest dostarczana przez GL.iNet. Obecnie jest w fazie beta, więc nie wiąże się z dodatkowymi kosztami. W tej wersji, jeśli potrzebujesz filtrować żądania według aplikacji, musisz ręcznie wprowadzić domenę.",
-        "bark_version_desc": "Wersja Bark, która jest dostarczana i zarządzana przez $$$$Bark$$$$ na własnej platformie, oferuje możliwość filtrowania aplikacji i stron internetowych jednym kliknięciem oraz monitorowania historii żądań. Należy pamiętać, że za korzystanie z tej usługi należy dodatkowo zapłacić bezpośrednio Bark abonament."
+        "bark_version_desc": "Wersja Bark, która jest dostarczana i zarządzana przez $$$$Bark$$$$ na własnej platformie, oferuje możliwość filtrowania aplikacji i stron internetowych jednym kliknięciem oraz monitorowania historii żądań. Należy pamiętać, że za korzystanie z tej usługi należy dodatkowo zapłacić bezpośrednio Bark abonament.",
+        "blocklist_input_mode_label": "Tryb wprowadzania listy blokowanych",
+        "blocklist_input_mode_tooltip": "Możesz ustawić czarną listę ręcznie lub poprzez subskrypcję URL. Po subskrypcji URL, czarna lista będzie automatycznie aktualizowana każdego dnia.",
+        "success_and_fail_domain_tip": "{success} nazw domen lub adresów IP zostało pomyślnie wykrytych, a {failed} nazw domen lub adresów IP nie udało się wykryć.",
+        "manual_label": "Ręcznie",
+        "subscription_url_label": "URL subskrypcji",
+        "input_url_link_label": "Wprowadź link URL",
+        "detect_button": "Wykryj",
+        "detecting_message": "Proszę czekać, trwa wykrywanie.",
+        "ssid_or_password_is_error": "Nazwa SSID lub hasło są nieprawidłowe.",
+        "input_url_link_tips": "Proszę wprowadzić poprawny URL. Wykrywanie URL zweryfikuje poprawność nazwy domeny.",
+        "domain_detect_success_tips": "{count} nazw domen zostało pomyślnie wykrytych.",
+        "domain_detect_failed_tips": "{count} nazw domen nie udało się wykryć."
     },
     "bark": {
         "desc": "W zależności od wybranej subskrypcji (Bark lub BarkJr), będziesz mógł:",
