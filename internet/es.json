@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "Reinicie el gateway principal.",
         "contact_isp_tips": "Póngase en contacto con su proveedor de servicios de Internet para obtener ayuda.",
         "cable_success_tips": "El tipo de conexión de red actual es {type} y el estado de la red es normal.",
-        "detecting_title": "Detección"
+        "detecting_title": "Detección",
+        "cable_no_wan_tips": "No se detecta cable. Por favor, conecte el cable de red al puerto WAN.",
+        "cable_no_wan_lan_tips": "Asegúrese de que el cable de red esté insertado en la posición correcta al detectar un cable en el puerto LAN.",
+        "cable_wan_checking_tips": "Verificando el estado de WAN, por favor espere un momento.",
+        "cable_pppoe_tips": "Ingrese la información proporcionada por su proveedor de servicios de Internet. Asegúrese de que la contraseña de la cuenta de banda ancha sea correcta, si la olvida, puede contactar a su operador.",
+        "cable_dhcp_tips": "Seleccione este tipo si su ISP no proporciona ninguna información para la conexión a internet.",
+        "use_static_btn": "Usando el modo de IP estática",
+        "cable_connecting_tips": "Detección de red en curso, por favor espere un momento.",
+        "cable_manual_title": "Error al obtener datos automáticamente",
+        "cable_static_title": "Configuración de IP estática",
+        "cable_static_tips": "Se pueden editar opciones más avanzadas utilizando la interfaz principal.",
+        "cable_manual_tips": "Puede optar por continuar el proceso manualmente o reiniciar el módem.",
+        "cable_detect_title": "Detección de interfaz WAN",
+        "cable_config_title": "Configuración de Ethernet",
+        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Spanish. Please provide the text you need translated, and I will be happy to assist you."
     },
     "traffic": {
         "save_to_flash_tips": "Si el interruptor está activado, los datos se pueden guardar incluso después de que el dispositivo se haya apagado.",
