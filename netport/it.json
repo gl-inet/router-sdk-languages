@@ -1,1 +1,17 @@
-{}
+{
+    "menu_netport": "Gestione delle porte di rete",
+    "netport": {
+        "rate_label": "Velocità negoziata della porta di rete",
+        "as_label": "Come {port}",
+        "unplug_cable_tips": "Prima di tutto, scollegare il cavo Ethernet che è collegato al {silkprint}.",
+        "wan_lan_change_tips": "È possibile utilizzare la porta WAN come porta LAN.",
+        "reset_port_tips": "È possibile ripristinare {silkprint} alla modalità {port} tenendo premuto il pulsante di reset del dispositivo per 4 secondi.",
+        "reset_as_wan_tips": "Ripristina {silkprint} come porta WAN.",
+        "set_as_wan_tips": "Una volta che {silkprint} viene utilizzata come porta WAN",
+        "reset_as_lan_tips": "Sei sicuro di voler ripristinare {silkprint} alla porta LAN (predefinita)?",
+        "set_as_lan_tips": "Sei sicuro di voler impostare {silkprint} come porta LAN?",
+        "no_wan_tips": "{silkprint} è stata utilizzata come LAN (Rete Locale). Puoi reimpostarla come WAN (Rete Estesa) in {view}",
+        "two_port_label": "{port1} e {port2}",
+        "as_wan_tips": "{asWan}, il dispositivo connesso alla porta non potrà più accedere al pannello di amministrazione. Dovrai connetterlo al Wi-Fi o ad altre porte LAN."
+    }
+}
