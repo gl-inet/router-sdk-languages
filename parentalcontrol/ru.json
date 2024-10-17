@@ -95,7 +95,19 @@
         "rule_name_th": "Название набора правил",
         "rule_drop_app_label": "Блокировать приложения и сайты",
         "current_rule_label": "Текущий набор правил:",
-        "del_all_schedule_btn": "Удалить все расписания"
+        "del_all_schedule_btn": "Удалить все расписания",
+        "blocklist_input_mode_label": "Режим ввода черного списка",
+        "blocklist_input_mode_tooltip": "Вы можете установить черный список вручную или подписавшись на URL. После подписки на URL черный список будет автоматически обновляться каждый день.",
+        "success_and_fail_domain_tip": "{success} доменных имен или IP-адресов были успешно обнаружены, и {failed} доменных имен или IP-адресов не удалось обнаружить.",
+        "domain_detect_success_tips": "{count} доменных имен были успешно обнаружены.",
+        "domain_detect_failed_tips": "{count} доменных имен не удалось обнаружить.",
+        "manual_label": "Вручную",
+        "subscription_url_label": "URL подписки",
+        "input_url_link_label": "Введите ссылку URL",
+        "detect_button": "Обнаружить",
+        "detecting_message": "Пожалуйста, подождите, идет процесс обнаружения.",
+        "ssid_or_password_is_error": "Неверно указаны SSID или пароль.",
+        "input_url_link_tips": "Пожалуйста, введите правильный URL. Обнаружение URL проверит корректность доменного имени."
     },
     "bark": {
         "desc": "В зависимости от выбранной подписки (Bark или BarkJr), вы сможете:",
