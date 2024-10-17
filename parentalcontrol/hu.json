@@ -95,7 +95,19 @@
         "bark_version_desc": "A Bark verziót, amelyet a $$$$Bark$$$$ saját platformján biztosít és kezel, egyetlen kattintással lehet alkalmazásokat és weboldalakat szűrni, valamint a kérési előzményeket monitorozni. Kérjük, vegye figyelembe, hogy e szolgáltatásért további előfizetési díjat kell fizetni közvetlenül a Barknak.",
         "bark_version_title": "Bark verzió",
         "group_name_label": "Profilnév",
-        "begin_time_label": "Kezdési idő"
+        "begin_time_label": "Kezdési idő",
+        "domain_detect_failed_tips": "{count} domainnév nem került felismerésre.",
+        "success_and_fail_domain_tip": "{success} domainnév vagy IP-cím sikeresen felismerésre került, és {failed} domainnév vagy IP-cím felismerése nem sikerült.",
+        "manual_label": "Kézi",
+        "input_url_link_tips": "Kérjük, adja meg a helyes URL-t. Az URL felismerés ellenőrzi a domainnév helyességét.",
+        "blocklist_input_mode_label": "Tiltott listák beviteli módja",
+        "blocklist_input_mode_tooltip": "Manuálisan állíthatja be a feketelistát, vagy feliratkozhat egy URL-re. Az URL-re való feliratkozás után a feketelista automatikusan frissül minden nap.",
+        "subscription_url_label": "Előfizetési URL",
+        "input_url_link_label": "URL-cím bevitel",
+        "detect_button": "Felismerés",
+        "detecting_message": "Kérem várjon, a felismerés folyamatban van.",
+        "ssid_or_password_is_error": "Az SSID vagy a jelszó helytelen.",
+        "domain_detect_success_tips": "{count} domainnév sikeresen felismerésre került."
     },
     "bark": {
         "desc": "Az Ön által választott előfizetéstől függően (Bark vagy BarkJr), képes lesz:",
