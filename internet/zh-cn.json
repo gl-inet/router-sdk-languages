@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "重启主网关。",
         "contact_isp_tips": "联系您的互联网服务提供商以获取帮助。",
         "cable_success_tips": "当前网络连接类型为{type}，网络状态正常。",
-        "detecting_title": "检测中"
+        "detecting_title": "检测中",
+        "cable_no_wan_tips": "未检测到网络线缆。请将网络线缆连接至WAN端口。",
+        "cable_no_wan_lan_tips": "LAN端口检测到网络线缆，请确保线缆插入正确位置。",
+        "cable_wan_checking_tips": "WAN状态检查中，请稍候。",
+        "cable_pppoe_tips": "请输入您的ISP提供的信息。请确保宽带账户密码正确，如果您忘记了，可以联系您的运营商。",
+        "cable_dhcp_tips": "如果您的ISP未提供任何互联网连接信息，请选择此类型。",
+        "use_static_btn": "使用静态IP模式",
+        "cable_connecting_tips": "正在进行网络检测，请稍候。",
+        "cable_manual_title": "获取数据失败",
+        "cable_static_title": "静态IP配置",
+        "cable_manual_tips": "您可以选择手动继续以下步骤，或者重启调制解调器。",
+        "cable_static_tips": "更多高级选项可以通过主界面进行编辑。",
+        "cable_config_title": "以太网配置",
+        "cable_detect_title": "WAN接口检测",
+        "cable_enter_info_title": "请提供需要翻译的信息。"
     },
     "traffic": {
         "first_month_label": "第一个月",
