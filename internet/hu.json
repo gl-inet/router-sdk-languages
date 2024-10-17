@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "Újraindítsa a fő átjárót.",
         "contact_isp_tips": "Lépjen kapcsolatba az internetszolgáltatójával segítségért.",
         "cable_success_tips": "Az aktuális hálózati kapcsolat típusa {type}, és a hálózati állapot normális.",
-        "detecting_title": "Érzékelés"
+        "detecting_title": "Érzékelés",
+        "cable_no_wan_tips": "Nincs érzékelhető kábel. Kérjük, csatlakoztassa a hálózati kábelt a WAN portra.",
+        "cable_no_wan_lan_tips": "LAN port érzékeli a hálózati kábelt, kérjük, győződjön meg arról, hogy a kábel a helyes pozícióba van behelyezve.",
+        "cable_wan_checking_tips": "WAN állapot ellenőrzése, kérem várjon egy pillanatot.",
+        "cable_pppoe_tips": "Adja meg az internetszolgáltatója által biztosított információkat. Kérjük, győződjön meg arról, hogy a szélessávú fiók jelszava helyes, ha elfelejtette, lépjen kapcsolatba az üzemeltetővel.",
+        "cable_dhcp_tips": "Válassza ezt az opciót, ha az internetszolgáltatója nem biztosít semmilyen információt az internetkapcsolathoz.",
+        "use_static_btn": "Statikus IP mód használata",
+        "cable_connecting_tips": "Hálózatfelismerés folyamatban, kérem várjon egy pillanatot.",
+        "cable_manual_title": "Az adatok automatikus lekérése sikertelen.",
+        "cable_static_title": "Statikus IP-konfiguráció",
+        "cable_manual_tips": "A folyamatot manuálisan is folytathatja, vagy újraindíthatja a modemet.",
+        "cable_detect_title": "WAN interfész észlelése",
+        "cable_static_tips": "A fejlettebb beállítások szerkeszthetők a fő felületen keresztül.",
+        "cable_config_title": "Ethernet-konfiguráció",
+        "cable_enter_info_title": "Kérjük, adjon meg részletes információkat vagy szöveget, amit le szeretne fordítani."
     },
     "traffic": {
         "start_hour_label": "Kezdő óra",
