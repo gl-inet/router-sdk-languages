@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "Zrestartuj główną bramę.",
         "contact_isp_tips": "Skontaktuj się z dostawcą usług internetowych w celu uzyskania pomocy.",
         "cable_success_tips": "Aktualny typ połączenia sieciowego to {type} i status sieci jest normalny.",
-        "detecting_title": "Wykrywanie"
+        "detecting_title": "Wykrywanie",
+        "cable_no_wan_tips": "Nie wykryto kabla. Proszę podłączyć kabel sieciowy do portu WAN.",
+        "cable_no_wan_lan_tips": "Port LAN wykrył kabel sieciowy, proszę upewnić się, że kabel jest włożony we właściwe gniazdo.",
+        "cable_wan_checking_tips": "Sprawdzanie statusu WAN, proszę czekać chwilę.",
+        "cable_pppoe_tips": "Wprowadź informacje dostarczone przez Twojego dostawcę usług internetowych. Upewnij się, że hasło do konta szerokopasmowego jest poprawne, jeśli je zapomniałeś, możesz skontaktować się z operatorem.",
+        "cable_dhcp_tips": "Wybierz ten typ, jeśli Twój dostawca usług internetowych nie dostarcza żadnych informacji dotyczących połączenia z internetem.",
+        "use_static_btn": "Używanie trybu statycznego adresu IP",
+        "cable_connecting_tips": "Trwa wykrywanie sieci, proszę czekać.",
+        "cable_manual_title": "Nieudane automatyczne pobieranie danych",
+        "cable_static_title": "Statyczna konfiguracja IP",
+        "cable_manual_tips": "Możesz kontynuować proces poniżej ręcznie lub zrestartować modem.",
+        "cable_static_tips": "Więcej zaawansowanych opcji można edytować za pomocą głównego interfejsu.",
+        "cable_config_title": "Konfiguracja Ethernet",
+        "cable_detect_title": "Wykrywanie interfejsu WAN",
+        "cable_enter_info_title": "Proszę podać informacje, które mają zostać przetłumaczone."
     },
     "traffic": {
         "modify_data_used_tips": "Statystyki danych mają charakter informacyjny. Rzeczywisty ruch jest określany przez operatora sieci i pojawi się na rachunku dostarczonym przez operatora sieci.",
