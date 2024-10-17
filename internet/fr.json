@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "Redémarrez la passerelle principale.",
         "contact_isp_tips": "Contactez votre fournisseur d'accès à Internet pour obtenir de l'aide.",
         "cable_success_tips": "Le type de connexion réseau actuel est {type} et l'état du réseau est normal.",
-        "detecting_title": "Détection"
+        "detecting_title": "Détection",
+        "cable_no_wan_tips": "Aucun câble détecté. Veuillez connecter le câble réseau au port WAN.",
+        "cable_no_wan_lan_tips": "Le port LAN détecte un câble réseau, veuillez vous assurer que le câble est inséré dans la bonne position.",
+        "cable_wan_checking_tips": "Vérification de l'état du WAN, veuillez patienter un instant.",
+        "cable_pppoe_tips": "Entrez les informations fournies par votre FAI. Veuillez vous assurer que le mot de passe du compte haut débit est correct, si vous l'oubliez, vous pouvez contacter votre opérateur.",
+        "cable_dhcp_tips": "Sélectionnez ce type si votre FAI ne fournit aucune information pour la connexion Internet.",
+        "use_static_btn": "En utilisant le mode IP statique",
+        "cable_connecting_tips": "Détection du réseau en cours, veuillez patienter un instant.",
+        "cable_manual_title": "Échec de l'obtention automatique des données",
+        "cable_static_title": "Configuration d'IP statique",
+        "cable_static_tips": "Des options plus avancées peuvent être modifiées via l'interface principale.",
+        "cable_manual_tips": "Vous pouvez choisir de poursuivre le processus ci-dessous manuellement ou de Redémarrer le modem.",
+        "cable_detect_title": "Détection de l'interface WAN",
+        "cable_config_title": "Configuration Ethernet",
+        "cable_enter_info_title": "Votre demande n'est pas claire. Pourriez-vous fournir le texte spécifique que vous souhaitez traduire en français ?"
     },
     "traffic": {
         "data_used_label": "{sim} Données utilisées",
