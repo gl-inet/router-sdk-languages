@@ -392,7 +392,21 @@
         "fail_reboot_gateway_tips": "重啟主網關。",
         "contact_isp_tips": "請聯繫您的網路服務提供商尋求幫助。",
         "cable_success_tips": "當前網絡連接類型為{type}，網絡狀態正常。",
-        "detecting_title": "偵測中"
+        "detecting_title": "偵測中",
+        "cable_no_wan_tips": "未檢測到網路線。請將網路線連接至WAN埠。",
+        "cable_no_wan_lan_tips": "請確保網路電纜插入正確位置，LAN埠已檢測到網路電纜。",
+        "cable_wan_checking_tips": "WAN 狀態檢查中，請稍候。",
+        "cable_pppoe_tips": "請輸入您的網際網路服務提供商所提供的資訊。請確保寬頻帳戶密碼正確，如果您忘記了，可以聯繫您的運營商。",
+        "cable_dhcp_tips": "如果您的ISP未提供任何互聯網連接資訊，請選擇此類型。",
+        "use_static_btn": "使用靜態IP模式",
+        "cable_connecting_tips": "正在進行網絡檢測，請稍候。",
+        "cable_manual_title": "無法自動獲取數據",
+        "cable_static_title": "靜態 IP 配置",
+        "cable_manual_tips": "您可以選擇手動繼續以下流程，或者重啟數據機。",
+        "cable_static_tips": "更多高級選項可以通過主界面進行編輯。",
+        "cable_config_title": "乙太網絡配置",
+        "cable_detect_title": "WAN 介面偵測",
+        "cable_enter_info_title": "请提供需要翻译的信息。"
     },
     "traffic": {
         "first_month_label": "第一個月",
