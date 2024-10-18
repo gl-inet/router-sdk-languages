@@ -405,7 +405,21 @@
         "cable_static_tips": "고급 옵션은 주 인터페이스를 사용하여 편집할 수 있습니다.",
         "cable_manual_tips": "모뎀을 수동으로 계속 조작하거나 리부팅할 수 있습니다.",
         "cable_config_title": "이더넷 구성",
-        "cable_detect_title": "WAN 인터페이스 감지"
+        "cable_detect_title": "WAN 인터페이스 감지",
+        "modem_fail_apn_tips": "수동으로 {do}를 시도해 보십시오. APN을 모르는 경우, 인터넷 서비스 제공업체(ISP)에 연락하십시오.",
+        "modem_set_apn_btn": "设置正确的APN",
+        "modem_fail_sim_tips": "SIM 카드가 사용 가능한지 확인하고 필요한 경우 교체하십시오.",
+        "modem_sim_title": "SIM 카드를 삽입하십시오.",
+        "modem_pin_title": "PIN 코드 입력",
+        "modem_apn_title": "APN 설정",
+        "modem_apn_tips": "ISP에 문의하여 올바른 APN을 확인하십시오.",
+        "modem_dialling_tips": "다이얼 중입니다, 잠시 기다려 주십시오...",
+        "modem_network_connecting_tips": "다이얼링이 성공했습니다. 네트워크 연결 중...",
+        "modem_pin_tips": "SIM 카드의 PIN 코드는 3회 시도할 수 있습니다. 만약 3회 모두 잘못 입력된 경우, SIM 카드가 잠깁니다. 휴대폰을 사용하여 SIM 카드의 잠금을 해제해 주십시오. 이 SIM 카드의 PIN 코드를 모르는 경우, 인터넷 서비스 제공업체(ISP)에 문의하십시오.",
+        "modem_sim_locked_tips": "PIN 코드를 3회 잘못 입력하여 SIM 카드가 잠겼습니다. 휴대폰을 통해 잠금을 해제해 주십시오.",
+        "modem_pin_err_tips": "PIN 코드 {code}가 잘못되었습니다. 기회가 {count}번 더 있습니다.",
+        "modem_no_sim_reboot_tips": "如果您已重新插入SIM卡但仍未检测到SIM卡，请断开电源并重启路由器。",
+        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Korean. Please provide the text you wish to translate, and I will assist you accordingly."
     },
     "traffic": {
         "no_saved_limit_tips": "데이터 사용량에 따라 SIM 카드를 잠그려면 \"전원을 끌 때 데이터 저장\" 스위치를 켜십시오.",
