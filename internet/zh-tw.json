@@ -406,7 +406,20 @@
         "cable_static_tips": "更多高級選項可以通過主界面進行編輯。",
         "cable_config_title": "以太網絡配置",
         "cable_detect_title": "WAN 介面偵測",
-        "cable_enter_info_title": "輸入資訊"
+        "cable_enter_info_title": "輸入資訊",
+        "modem_fail_apn_tips": "請嘗試手動{do}，如果您不知道您的APN，請聯繫您的網絡服務提供商。",
+        "modem_set_apn_btn": "設定正確的APN",
+        "modem_sim_title": "插入SIM卡",
+        "modem_fail_sim_tips": "請確保SIM卡可用，如有必要請更換。",
+        "modem_pin_title": "請輸入PIN碼",
+        "modem_apn_title": "APN 設定",
+        "modem_apn_tips": "如果您不知道正確的APN，請向您的ISP查詢。",
+        "modem_dialling_tips": "撥號中，請稍候...",
+        "modem_network_connecting_tips": "撥號成功。網絡連接中...",
+        "modem_pin_tips": "SIM卡的PIN碼可以嘗試3次。如果三次都輸入錯誤，SIM卡將會被鎖定。請使用手機來解鎖SIM卡。如果您不知道這張SIM卡的PIN碼，請諮詢您的網路服務提供商。",
+        "modem_sim_locked_tips": "PIN碼輸入錯誤3次，SIM卡已被鎖定，請透過您的手機進行解鎖。",
+        "modem_pin_err_tips": "PIN碼{code}錯誤，還有{count}次機會。",
+        "modem_no_sim_reboot_tips": "若您已重新插入SIM卡後，仍未檢測到SIM卡，請斷電重啟您的路由器。"
     },
     "traffic": {
         "first_month_label": "第一個月",
