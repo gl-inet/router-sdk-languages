@@ -405,7 +405,21 @@
         "cable_manual_tips": "U kunt ervoor kiezen om het proces hieronder handmatig voort te zetten of het modem te herstarten.",
         "cable_static_tips": "Geavanceerdere opties kunnen worden bewerkt via de hoofdinterface.",
         "cable_config_title": "Ethernet-configuratie",
-        "cable_detect_title": "WAN-interface detecteren"
+        "cable_detect_title": "WAN-interface detecteren",
+        "modem_fail_apn_tips": "Probeer het handmatig te {do}, als u uw APN niet kent, neem dan contact op met uw internetprovider.",
+        "modem_set_apn_btn": "stel de juiste APN in",
+        "modem_fail_sim_tips": "Zorg ervoor dat de SIM-kaart beschikbaar is en vervang deze indien nodig.",
+        "modem_sim_title": "Plaats de simkaart",
+        "modem_pin_title": "Voer pincode in",
+        "modem_apn_title": "APN-instellingen",
+        "modem_apn_tips": "Als u de juiste APN niet weet, controleer dit dan bij uw internetprovider.",
+        "modem_dialling_tips": "Oproepen, even geduld a.u.b...",
+        "modem_network_connecting_tips": "Verbinding wordt tot stand gebracht. Netwerk verbinden...",
+        "modem_pin_tips": "De pincode voor de SIM-kaart kan 3 keer worden geprobeerd. Als de pincode alle drie de keren verkeerd wordt ingevoerd, wordt de SIM-kaart vergrendeld. Gebruik een mobiele telefoon om de SIM-kaart te ontgrendelen. Als u de pincode voor deze SIM-kaart niet weet, raadpleeg dan uw internetprovider.",
+        "modem_pin_err_tips": "PIN-code {code} is onjuist, u heeft nog {count} poging over.",
+        "modem_sim_locked_tips": "De PIN-code is 3 keer verkeerd ingevoerd, de SIM-kaart is vergrendeld, ontgrendel deze via uw telefoon.",
+        "modem_no_sim_reboot_tips": "Als u de SIM-kaart opnieuw hebt geplaatst en deze nog steeds niet wordt gedetecteerd, schakel dan uw router uit en start deze opnieuw op.",
+        "cable_enter_info_title": "Probeer het handmatig te {do}, als u uw APN niet kent, neem dan contact op met uw internetprovider."
     },
     "traffic": {
         "save_to_flash_label": "Gegevens opslaan bij uitschakelen",
