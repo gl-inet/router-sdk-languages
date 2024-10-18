@@ -405,7 +405,21 @@
         "cable_static_tips": "Weitere erweiterte Optionen können über die Hauptoberfläche bearbeitet werden.",
         "cable_manual_tips": "Sie können den Vorgang manuell fortsetzen oder den Modem neu starten.",
         "cable_detect_title": "WAN-Schnittstellenerkennung",
-        "cable_config_title": "Ethernet-Konfiguration"
+        "cable_config_title": "Ethernet-Konfiguration",
+        "modem_fail_apn_tips": "Bitte versuchen Sie es manuell, wenn Sie Ihren APN nicht kennen, kontaktieren Sie bitte Ihren Internetdienstanbieter.",
+        "modem_set_apn_btn": "Richten Sie den korrekten APN ein.",
+        "modem_fail_sim_tips": "Stellen Sie sicher, dass die SIM-Karte verfügbar ist und ersetzen Sie sie bei Bedarf.",
+        "modem_sim_title": "SIM-Karte einlegen",
+        "modem_apn_title": "APN-Einstellungen",
+        "modem_pin_title": "Geben Sie den PIN-Code ein",
+        "modem_apn_tips": "Wenn Sie den richtigen APN nicht kennen, prüfen Sie bitte bei Ihrem Internetdienstanbieter.",
+        "modem_dialling_tips": "Wählen, bitte warten...",
+        "modem_network_connecting_tips": "Die Verbindung wird hergestellt. Netzwerkverbindung wird aufgebaut...",
+        "modem_sim_locked_tips": "Der PIN-Code wurde 3 Mal falsch eingegeben, die SIM-Karte wurde gesperrt, bitte entsperren Sie diese über Ihr Telefon.",
+        "modem_pin_tips": "Die PIN-Nummer für die SIM-Karte kann 3 Mal versucht werden. Wenn die PIN-Nummer alle drei Male falsch eingegeben wird, wird die SIM-Karte gesperrt. Bitte verwenden Sie ein Mobiltelefon, um die SIM-Karte zu entsperren. Wenn Sie den PIN-Code für diese SIM-Karte nicht kennen, konsultieren Sie bitte Ihren Internetdienstanbieter.",
+        "modem_pin_err_tips": "Der PIN-Code {code} ist falsch, es gibt noch {count} weitere Versuche.",
+        "modem_no_sim_reboot_tips": "Wenn Ihre SIM-Karte bereits erneut eingelegt wurde und immer noch nicht erkannt wird, trennen Sie bitte den Router vom Strom und starten Sie ihn neu.",
+        "cable_enter_info_title": "Um Ihre Anfrage zu bearbeiten, benötige ich die zu übersetzenden Informationen oder Texte. Bitte stellen Sie den Text zur Verfügung, den Sie übersetzt haben möchten."
     },
     "traffic": {
         "data_used_label": "{sim} Datenverbrauch",
