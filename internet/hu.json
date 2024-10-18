@@ -405,7 +405,21 @@
         "cable_manual_tips": "A folyamatot manuálisan is folytathatja, vagy újraindíthatja a modemet.",
         "cable_detect_title": "WAN interfész észlelése",
         "cable_static_tips": "A fejlettebb beállítások szerkeszthetők a fő felületen keresztül.",
-        "cable_config_title": "Ethernet-konfiguráció"
+        "cable_config_title": "Ethernet-konfiguráció",
+        "modem_fail_apn_tips": "Kérem, próbálja meg {do} manuálisan, ha nem ismeri az APN-jét, lépjen kapcsolatba az internetszolgáltatójával.",
+        "modem_set_apn_btn": "állítsa be a helyes APN-t",
+        "modem_fail_sim_tips": "Győződjön meg arról, hogy a SIM-kártya elérhető, és szükség esetén cserélje ki.",
+        "modem_sim_title": "SIM-kártya behelyezése",
+        "modem_pin_title": "Adja meg a PIN kódot",
+        "modem_apn_title": "APN beállítása",
+        "modem_apn_tips": "Ha nem tudja a helyes APN-t, kérjük, érdeklődjön az internetszolgáltatójánál.",
+        "modem_dialling_tips": "Hívás folyamatban, kérem várjon...",
+        "modem_network_connecting_tips": "Hívás sikeres. Hálózat csatlakoztatása...",
+        "modem_pin_tips": "A SIM-kártya PIN-kódját háromszor lehet megpróbálni. Ha mindhárom alkalommal helytelenül adják meg a PIN-kódot, a SIM-kártya zárolva lesz. Kérjük, használjon mobiltelefont a SIM-kártya feloldásához. Ha nem ismeri ezt a SIM-kártya PIN-kódját, kérjük, forduljon az internetszolgáltatójához.",
+        "modem_sim_locked_tips": "A PIN-kódot háromszor adták meg helytelenül, a SIM-kártya zárolva lett, kérjük, oldja fel telefonján keresztül.",
+        "modem_pin_err_tips": "A PIN-kód {code} helytelen, még {count} próbálkozás van.",
+        "modem_no_sim_reboot_tips": "Ha már újrahelyezte a SIM-kártyát, de még mindig nem érzékeli a SIM-kártyát, kérjük, kapcsolja ki és újraindítsa a routerét.",
+        "cable_enter_info_title": "Kérjük, adjon meg részletes információkat vagy szöveget, amit le szeretne fordítani."
     },
     "traffic": {
         "start_hour_label": "Kezdő óra",
