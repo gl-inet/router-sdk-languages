@@ -405,7 +405,21 @@
         "cable_static_tips": "Des options plus avancées peuvent être modifiées via l'interface principale.",
         "cable_manual_tips": "Vous pouvez choisir de poursuivre le processus ci-dessous manuellement ou de Redémarrer le modem.",
         "cable_detect_title": "Détection de l'interface WAN",
-        "cable_config_title": "Configuration Ethernet"
+        "cable_config_title": "Configuration Ethernet",
+        "modem_fail_apn_tips": "Veuillez essayer de {do} manuellement, si vous ne connaissez pas votre APN, veuillez contacter votre fournisseur de services Internet.",
+        "modem_set_apn_btn": "définir le bon APN",
+        "modem_fail_sim_tips": "Assurez-vous que la carte SIM est disponible et remplacez-la si nécessaire.",
+        "modem_sim_title": "Insérez la carte SIM",
+        "modem_pin_title": "Entrez le code PIN",
+        "modem_apn_title": "Configuration APN",
+        "modem_apn_tips": "Si vous ne connaissez pas l'APN correct, veuillez vérifier auprès de votre FAI.",
+        "modem_dialling_tips": "Composition de l'appel, veuillez patienter...",
+        "modem_network_connecting_tips": "La numérotation est réussie. Connexion au réseau en cours...",
+        "modem_pin_tips": "Le code PIN de la carte SIM peut être saisi 3 fois. Si le code PIN est saisi incorrectement lors des trois tentatives, la carte SIM sera verrouillée. Veuillez utiliser un téléphone portable pour déverrouiller la carte SIM. Si vous ne connaissez pas le code PIN de cette carte SIM, veuillez consulter votre fournisseur de services Internet.",
+        "modem_sim_locked_tips": "Le code PIN a été saisi incorrectement 3 fois, la carte SIM a été verrouillée, veuillez la déverrouiller via votre téléphone.",
+        "modem_pin_err_tips": "Le code PIN {code} est incorrect, il reste {count} tentative(s) supplémentaire(s).",
+        "modem_no_sim_reboot_tips": "Si vous avez déjà réinséré la carte SIM et qu'elle n'est toujours pas détectée, veuillez éteindre et redémarrer votre routeur.",
+        "cable_enter_info_title": "Votre demande n'est pas claire. Pourriez-vous fournir le texte spécifique que vous souhaitez traduire en français ?"
     },
     "traffic": {
         "data_used_label": "{sim} Données utilisées",
