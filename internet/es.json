@@ -405,7 +405,21 @@
         "cable_static_tips": "Se pueden editar opciones más avanzadas utilizando la interfaz principal.",
         "cable_manual_tips": "Puede optar por continuar el proceso manualmente o reiniciar el módem.",
         "cable_detect_title": "Detección de interfaz WAN",
-        "cable_config_title": "Configuración de Ethernet"
+        "cable_config_title": "Configuración de Ethernet",
+        "modem_fail_apn_tips": "Por favor, intente {do} manualmente, si no conoce su APN, contacte a su proveedor de servicios de internet.",
+        "modem_set_apn_btn": "establecer el APN correcto",
+        "modem_fail_sim_tips": "Asegúrese de que la SIM esté disponible y reemplácela si es necesario.",
+        "modem_sim_title": "Inserte la tarjeta SIM",
+        "modem_apn_title": "Configuración de APN",
+        "modem_pin_title": "Ingrese el código PIN",
+        "modem_apn_tips": "Si no conoce el APN correcto, por favor consulte con su proveedor de servicios de Internet.",
+        "modem_dialling_tips": "Marcando, por favor espere...",
+        "modem_network_connecting_tips": "La marcación ha sido exitosa. Conectando a la red...",
+        "modem_no_sim_reboot_tips": "Si ya ha vuelto a insertar la tarjeta SIM y aún no se detecta la tarjeta SIM, por favor apague y reinicie su router.",
+        "modem_sim_locked_tips": "Se ha introducido incorrectamente el código PIN 3 veces, la tarjeta SIM ha sido bloqueada, por favor desbloquéela a través de su teléfono.",
+        "modem_pin_tips": "El código PIN de la tarjeta SIM se puede intentar 3 veces. Si el código PIN se introduce incorrectamente en las tres ocasiones, la tarjeta SIM se bloqueará. Por favor, utilice un teléfono móvil para desbloquear la tarjeta SIM. Si no conoce el código PIN de esta tarjeta SIM, consulte a su proveedor de servicios de Internet.",
+        "modem_pin_err_tips": "El código PIN {code} es incorrecto, queda {count} oportunidad más.",
+        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Spanish. Please provide the text you need translated, and I will be happy to assist you."
     },
     "traffic": {
         "save_to_flash_tips": "Si el interruptor está activado, los datos se pueden guardar incluso después de que el dispositivo se haya apagado.",
