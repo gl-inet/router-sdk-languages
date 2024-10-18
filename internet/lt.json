@@ -405,7 +405,21 @@
         "cable_manual_tips": "Galite pasirinkti tęsti procesą žemiau rankiniu būdu arba paleisti modemą iš naujo.",
         "cable_static_tips": "Daugiau pažangių parinkčių galima redaguoti naudojant pagrindinę sąsają.",
         "cable_config_title": "„Ethernet“ konfigūracija",
-        "cable_detect_title": "WAN sąsają aptikimas"
+        "cable_detect_title": "WAN sąsają aptikimas",
+        "modem_fail_apn_tips": "Prašome bandyti {do} rankiniu būdu, jei nežinote savo APN, susisiekite su savo interneto paslaugų teikėju.",
+        "modem_set_apn_btn": "nustatykite teisingą APN",
+        "modem_fail_sim_tips": "Įsitikinkite, kad SIM kortelė yra prieinama ir, jei reikia, pakeiskite ją.",
+        "modem_sim_title": "Įterpkite SIM kortelę",
+        "modem_pin_title": "Įveskite PIN kodą",
+        "modem_apn_title": "APN sąranka",
+        "modem_apn_tips": "Jei nežinote tinkamo APN, pasitikrinkite su savo interneto paslaugų teikėju.",
+        "modem_dialling_tips": "Skambinama, prašome palaukti...",
+        "modem_network_connecting_tips": "Skambinimas sėkmingas. Tinklas jungiamas...",
+        "modem_pin_tips": "SIM kortelės PIN kodą galima bandyti įvesti 3 kartus. Jei PIN kodas visus tris kartus įvestas neteisingai, SIM kortelė bus užblokuota. Prašome naudoti mobilųjį telefoną, kad atrakintumėte SIM kortelę. Jei nežinote šios SIM kortelės PIN kodo, prašome kreiptis į savo interneto paslaugų teikėją.",
+        "modem_pin_err_tips": "PIN kodas {code} yra neteisingas, liko dar {count} bandymas(-ai).",
+        "modem_sim_locked_tips": "PIN kodas įvestas neteisingai 3 kartus, SIM kortelė užblokuota, prašome atrakinti ją per savo telefoną.",
+        "modem_no_sim_reboot_tips": "Jei įdėjote SIM kortelę iš naujo, bet ji vis tiek nėra aptinkama, išjunkite maitinimą ir iš naujo įjunkite savo maršrutizatorių.",
+        "cable_enter_info_title": "Prašome bandyti {do} rankiniu būdu, jei nežinote savo APN, susisiekite su savo interneto paslaugų teikėju."
     },
     "traffic": {
         "sim_limit_title": "{sim} Ribojimo nustatymai",
