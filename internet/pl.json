@@ -405,7 +405,21 @@
         "cable_manual_tips": "Możesz kontynuować proces poniżej ręcznie lub zrestartować modem.",
         "cable_static_tips": "Więcej zaawansowanych opcji można edytować za pomocą głównego interfejsu.",
         "cable_config_title": "Konfiguracja Ethernet",
-        "cable_detect_title": "Wykrywanie interfejsu WAN"
+        "cable_detect_title": "Wykrywanie interfejsu WAN",
+        "modem_fail_apn_tips": "Proszę spróbować {do} ręcznie, jeśli nie znasz swojego APN, skontaktuj się ze swoim dostawcą usług internetowych.",
+        "modem_set_apn_btn": "ustaw poprawny APN",
+        "modem_fail_sim_tips": "Upewnij się, że karta SIM jest dostępna i w razie potrzeby wymień ją.",
+        "modem_sim_title": "Włóż kartę SIM",
+        "modem_pin_title": "Wprowadź kod PIN",
+        "modem_apn_title": "Konfiguracja APN",
+        "modem_apn_tips": "Jeśli nie znasz poprawnego APN, sprawdź to u swojego dostawcy usług internetowych.",
+        "modem_dialling_tips": "Nawiązywanie połączenia, proszę czekać...",
+        "modem_network_connecting_tips": "Połączenie się powiodło. Trwa łączenie z siecią...",
+        "modem_pin_tips": "Kod PIN karty SIM można wprowadzić 3 razy. Jeśli kod PIN zostanie wprowadzony błędnie trzykrotnie, karta SIM zostanie zablokowana. Proszę użyć telefonu komórkowego, aby odblokować kartę SIM. Jeśli nie znasz kodu PIN do tej karty SIM, skonsultuj się ze swoim dostawcą usług internetowych (ISP).",
+        "modem_sim_locked_tips": "Kod PIN został wprowadzony błędnie 3 razy, karta SIM została zablokowana, proszę odblokować ją za pomocą telefonu.",
+        "modem_pin_err_tips": "Kod PIN {code} jest nieprawidłowy, pozostała {count} próba.",
+        "modem_no_sim_reboot_tips": "Jeśli ponownie włożyłeś kartę SIM i nadal nie jest wykrywana, proszę odłączyć zasilanie i ponownie uruchomić router.",
+        "cable_enter_info_title": "Proszę podać informacje, które mają zostać przetłumaczone."
     },
     "traffic": {
         "modify_data_used_tips": "Statystyki danych mają charakter informacyjny. Rzeczywisty ruch jest określany przez operatora sieci i pojawi się na rachunku dostarczonym przez operatora sieci.",
