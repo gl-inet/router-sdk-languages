@@ -405,7 +405,21 @@
         "cable_manual_tips": "モデムを手動で再設定するか、リブートすることを選択できます。",
         "cable_static_tips": "詳細なオプションはメインインターフェースを使用して編集できます。",
         "cable_config_title": "イーサネット設定",
-        "cable_detect_title": "WANインターフェース検出"
+        "cable_detect_title": "WANインターフェース検出",
+        "modem_fail_apn_tips": "手動で{do}を試みてください。APNがわからない場合は、インターネットサービスプロバイダーにお問い合わせください。",
+        "modem_set_apn_btn": "正しいAPNを設定する",
+        "modem_fail_sim_tips": "SIMカードが利用可能であることを確認し、必要に応じて交換してください。",
+        "modem_sim_title": "SIMカードを挿入してください。",
+        "modem_pin_title": "PIN コードを入力",
+        "modem_apn_title": "APN設定",
+        "modem_apn_tips": "ご利用のAPNが不明な場合は、インターネットサービスプロバイダーにお問い合わせください。",
+        "modem_dialling_tips": "ダイヤル中です、お待ちください...",
+        "modem_network_connecting_tips": "ダイヤルが成功しました。ネットワーク接続中...",
+        "modem_pin_tips": "SIMカードのPINコードは3回試行できます。3回とも間違ったPINコードを入力すると、SIMカードがロックされます。携帯電話を使用してSIMカードのロックを解除してください。このSIMカードのPINコードがわからない場合は、ISPに相談してください。",
+        "modem_sim_locked_tips": "PINコードが3回間違って入力されました。SIMカードがロックされていますので、携帯電話でロック解除してください。",
+        "modem_pin_err_tips": "PINコード{code}が間違っています。あと{count}回のチャンスがあります。",
+        "modem_no_sim_reboot_tips": "如果您已经重新插入SIM卡，但仍未检测到SIM卡，请关闭电源并重启您的路由器。",
+        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Japanese. Please provide the text you wish to translate, and I will assist you accordingly."
     },
     "traffic": {
         "no_saved_limit_tips": "データ使用量に基づいてSIMカードをロックする必要がある場合は、「電源オフ時にデータを節約」スイッチをオンにしてください。",
