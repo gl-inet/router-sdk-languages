@@ -113,7 +113,7 @@
         "cell_phone_num_label": "Mobiliojo tel. nr.",
         "agree_terms_and_privacy_tips": "Aš perskaičiau ir sutinku – {terms} & {privacy}.",
         "upgrade_btn": "Aukštutinis atnaujinimas",
-        "setp_label": "Žingsnis {num} :",
+        "setp_label": "{num} žingsnis:",
         "join_btn": "Prisijungti"
     },
     "msg": {
@@ -131,7 +131,8 @@
         "port_occupied": "{pavadinimas} prievadas užimtas",
         "send_success_tips": "Nusiųsta sėkmingai!",
         "sign_up_success": "Sėkmingai prisiregistruota!",
-        "successfully_badge_tips": "Sėkmingai!"
+        "successfully_badge_tips": "Sėkmingai!",
+        "lack_of_memory_tips": "Dėl atminties trūkumo, galite bandyti paleisti iš naujo įrenginį, kad aukštutiniškai atnaujintumėte programinę įrangą."
     },
     "date": {
         "thursday": "Kt | Ketvirtadienis",
@@ -223,12 +224,13 @@
     },
     "err": {
         "abnormal_operation_msg": "Operacinė išimtis",
-        "network_not_reachable_msg": "Tinklas nepasiekiamas"
+        "network_not_reachable_msg": "Tinklas nepasiekiamas",
+        "param_illegal_msg": "Neteisėtas parametras, operacija nepavyko."
     },
     "subscription": {
         "url_label": "Prenumerato „URL“ – saitas",
         "manual_label": "Rankinis/Gidas",
-        "url_err_tips": "Įveskite teisingą URL saitą."
+        "url_err_tips": "Įveskite teisingą „URL“ – saitą."
     },
     "vaildate": {
         "only_letters_num_allowd_tips": "Tik raidės ir skaičiai yra leidžiami",
