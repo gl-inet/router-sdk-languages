@@ -2,7 +2,10 @@
     "btnsettings": {
         "fun_label": "Schakelknopfunctie",
         "no_config_tips": "De schakelknop werkt pas als de $$$$-cliëntconfiguratie is toegevoegd.",
-        "no_func_babel": "Geen functie"
+        "no_func_babel": "Geen functie",
+        "auto_sync_tips": "Wordt {func} onmiddellijk ingeschakeld/uitgeschakeld afhankelijk van de toestand van de wisselknop?",
+        "vpn_client_tips": "U moet de {vpnType}-configuratie in {meunKey} instellen voordat de schakelaar kan werken.",
+        "startup_tips": "Opmerking: Nadat het apparaat opnieuw is opgestart, zal {func} ingeschakeld zijn als de wisselknop aan staat, anders zal het uitgeschakeld zijn."
     },
     "menu_btnsettings": "Schakelknopinstellingen"
 }

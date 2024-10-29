@@ -1,11 +1,11 @@
 {
     "firewall": {
-        "port_forwards": "Transferts de ports",
+        "port_forwards": "Redirection de port",
         "open_ports_on_router": "Ports ouverts sur le routeur",
-        "port_forwards_desc": "Le transfert de port permet aux ordinateurs distants de se connecter à un ordinateur local ou à un serveur situé derrière le pare-feu du réseau LAN (tels que les serveurs Web, les serveurs FTP, etc.).",
+        "port_forwards_desc": "Si vous avez des serveurs dans votre sous-réseau LAN et que vous souhaitez qu'ils soient accessibles depuis le côté WAN, vous devez configurer la redirection de port vers ces serveurs, identifiés par des adresses IP et des ports. L'appareil donnera la priorité à la règle la plus haute si un conflit survient entre les {external_ports} de deux règles activées.",
         "open_port_on_router_dest": "Les services du routeur, tels que Web et FTP, nécessitent l'ouverture de leurs ports respectifs afin d'être accessibles au public.",
         "dmz_desc": "La DMZ vous permet d'exposer un ordinateur à l'Internet, de sorte que tous les paquets entrants seront redirigés vers cet ordinateur.",
-        "dmz_tips": "Si vous activez la DMZ, vos règles de transferts et d'ouverture de ports n'auront plus d'effets .",
+        "dmz_tips": "Si vous activez la DMZ, vos règles de redirection de port et d'ouverture de port ne seront pas appliquées.",
         "open_dmz": "Activer la DMZ",
         "dmz_host_ip": "Adresse IP de la DMZ",
         "name": "Nom",
@@ -18,15 +18,21 @@
         "port": "Port",
         "action": "Action",
         "no_data": "Pas de données dans le tableau",
-        "add_port_forwards_title": "Ajouter une règle de transfert de port",
-        "edit_port_forwards_title": "Modifer la règle de transfert de port",
+        "add_port_forwards_title": "Ajouter une nouvelle règle de redirection de port",
+        "edit_port_forwards_title": "Modifier la règle de redirection de port",
         "add_router_prot_title": "Ouvrir un nouveau port",
         "edit_router_prot_title": "Modifier l'ouverture du Port",
         "delete_all_port_tips": "Etes vous sûr de vouloir supprimer toutes les entrées ?",
         "confirm_delete_tips": "Etes vous sûr de vouloir supprimer cette entrée ?",
         "source": "Source (zone, port)",
         "dest": "Destination (zone, IP, port)",
-        "enable": "Activer"
+        "enable": "Activer",
+        "dmz_priority_higher_label": "Le plus élevé",
+        "dmz_priority_lower_label": "Le plus bas",
+        "port_range_tips": "{exPort} ne correspond pas à la plage de {inPort}.",
+        "adjust _priority_btn": "Ajuster la priorité",
+        "priority_label": "Priorité",
+        "port_value_tips": "La plage des ports est de 1 à 65535. Vous pouvez définir un seul port ou définir la plage de ports en concaténant le premier et le dernier numéro de port avec le symbole - (comme 501-510)."
     },
     "menu_firewallview": "Pare-feu"
 }

@@ -1,0 +1,33 @@
+{
+    "ddns": {
+        "need_pubilc_ip_tips": "Norėdami naudoti dinaminį „DNS“, Jums reikia viešojo interneto IP adreso.",
+        "detecting": "Aptinkama, prašome palaukti…",
+        "remote_access_tips": "Jei norite nuotoliniu būdu pasiekti įrenginį, prašome – $$$$Eiti į saugumo puslapį$$$$, kad nustatytumėte.",
+        "not_effective": "Jūsų „DDNS“ dar neveiklus. Prašome pabandyti vėliau.",
+        "terms_service": "Paslaugų teikimo sąlygos",
+        "parsing_ip_warning_tips": "IP adresas, gautas iš „DDNS“ domeno-srities išsprendimo, nėra toks pat, kaip įrenginio „WAN“ IP adresas.",
+        "enable_http_tip": "„HTTP“ yra nešifruotas (nesaugus) protokolas. Prašome naudoti atsargiai.",
+        "enable_https": "Įgalinti nuotolinę „HTTPS“ prieigą",
+        "read_and_agree": "Aš perskaičiau ir sutinku",
+        "host_name": "Skleidėjo/Vedėjo pavadinimas",
+        "sevices_warning_tips": "Jei įjungėte „VPN“ klientą, prašome išjungti „Paslaugos iš „GL.iNet“ naudoja „VPN““ visuotinėse parinktyse.",
+        "parsing_label": "IP adresas iš „DDNS“ domeno-srities išsprendimo",
+        "enable_ssh": "Įgalinti nuotolinę „SSH“ prieigą",
+        "parsing_warning_tips": "IP adresas, gautas iš „DDNS“ domeno-srities išsprendimo, nėra toks pat, kaip įrenginio „WAN“ IP adresas. Norėdami naudoti dinaminį „DNS“, Jums reikia viešojo interneto IP adreso. Jei šis maršrutizatorius yra už „NAT“, tokiu atveju, Jums gali tekti nustatyti prievadų persiuntimą iš interneto teikėjo įrangos per kurį jungiatės. Jei įjungėte „VPN“ klientą, prašome išjungti „Paslaugos iš „GL.iNet“ naudoja „VPN““ visuotinėse parinktyse.",
+        "nat_warning_tips": "Jei šis maršrutizatorius yra už „NAT“, tokiu atveju, Jums gali tekti nustatyti prievadų persiuntimą iš interneto teikėjo įrangos per kurį jungiatės.",
+        "enabled_tips": "Tarp „DNS“ serverių įrašų sinchronizacijos, gali užtrukti iki dešimties minučių. Šis gali sukelti prieigos nepasiekimą, kai bandote pasiekti „DDNS“ domeno-srities pavadinimo iš kart, po jų įjungimo/įgalinimo, arba jei neseniai pasikeitė Jūsų viešasis IP.",
+        "parsing_interface_title": "„WAN“ sąsajos ir/arba sietuvo IP adresas",
+        "enable_http": "Įgalinti nuotolinę „HTTP“ prieigą",
+        "parsing_success_tips": "„DDNS“ domenas-sritis buvo teisingai nukreiptas į šio įrenginio viešąjį IP.",
+        "use_desc": "Jūs galite įjungti/įgalinti dinaminį „DNS“ („DDNS“) šiam maršrutizatoriui ir turėti prieigą prie jo, nuotoliniu būdu.",
+        "parsing_error_tips": "„DNS“ serveriui nepavyko rasti šio „DDNS“ domeno-srities „DNS“ įrašo. Prašome patikrinti įrenginio interneto ryšį.",
+        "privacy_policy": "Privatumo politika",
+        "working": "Jūsų „DDNS“ tarnyba veikia.",
+        "test": "„DDNS“ testas",
+        "desc": "Jūs galite įjungti/įgalinti dinaminį „DNS“ („DDNS“) šiam maršrutizatoriui ir turėti prieigą prie jo, nuotoliniu būdu. „DNS“ serverių įrašų sinchronizacija gali užtrukti iki dešimties minučių. Dėl to gali atsirasti vėlavimas ar prieigos nepasiekimas, kai naudojatės „DDNS“ domenais-sritimis iš kart, po jų įjungimo/įgalinimo, arba jei neseniai pasikeitė Jūsų viešasis IP.",
+        "security_settings_btn": "Saugumo nustatymai",
+        "to_security_btn": "Eiti į saugumo puslapį",
+        "security_settings_tips": "„Sistemos-Saugumo“ – nuotolinės prieigos kontrolėje, galite pakeisti dvi parinktis, kad apribotumėte nuotolinę prieigą."
+    },
+    "menu_dynamicdns": "Dinaminis „DNS“"
+}

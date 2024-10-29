@@ -1,6 +1,6 @@
 {
     "macclone": {
-        "desc": "Lorsque vous vous connectez à un point d'accès public, utilisez une adresse MAC aléatoire si vous ne voulez pas que le point d'accès connaisse votre véritable adresse MAC ou limite votre accès à l'internet en fonction de celle-ci.",
+        "desc": "Lorsque vous vous connectez à un réseau public (par exemple, un hôtel ou un centre commercial), utilisez une adresse MAC aléatoire si vous ne souhaitez pas que l'administrateur du réseau connaisse votre véritable adresse MAC ou qu'il limite votre accès à Internet en fonction de celle-ci.",
         "tips": "Si le réseau de votre hôtel ou de votre entreprise exige une authentification, vous devrez peut-être utiliser le clonage de MAC.",
         "factory_default_label": "Adresse MAC d'usine",
         "clone_label": "Clone",
@@ -8,7 +8,8 @@
         "mode_label": "Mode",
         "current_client_label": "Client actuel",
         "random_btn": "Aléatoire",
-        "no_mac_tips": "Généré lorsque l'interface est activée"
+        "no_mac_tips": "Généré lorsque l'interface est activée",
+        "current_interface_as_lan_tips": "Lorsque vous vous connectez à un réseau public (par exemple, un hôtel ou un centre commercial), utilisez une adresse MAC aléatoire si vous ne souhaitez pas que l'administrateur réseau connaisse votre véritable adresse MAC ou qu'il limite votre accès à Internet en fonction de celle-ci."
     },
     "menu_macclone": "Adresse MAC"
 }

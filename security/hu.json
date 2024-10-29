@@ -1,1 +1,33 @@
-{}
+{
+    "adminpw": {
+        "old_pwd": "Régi jelszó",
+        "confirm_pwd": "Jelszó ismét",
+        "new_pwd": "Új jelszó",
+        "warning": "Az új jelszó nem lehet azonos a régi jelszóval",
+        "confirm_pwd_tips": "Jelszó megismétlése",
+        "old_pwd_tips": "Régi jelszó megadása",
+        "new_pwd_tips": "Új jelszó megadása",
+        "old_pwd_error": "A régi jelszó hibás!",
+        "title": "Felügyeleti jelszó"
+    },
+    "security": {
+        "ipaddr_list_label": "IP-cím lista",
+        "no_ipaddr_list_label": "Nincs IP-cím",
+        "add_ipaddr_btn": "IP-cím hozzáadása",
+        "port_disabled_tips": "Ez a port tiltva van a böngésző által",
+        "add_ipaddr_tips": "Az Ön által bevihető IP-cím stílusának egy példája (IPv6 formátumot is támogat), pl. 192.168.8.1.",
+        "session_timeout_tips": "Az időintervallum a böngészőoldal bezárása vagy alvó állapotba helyezése és a kijelentkezés között.",
+        "port_conflict_tips": "Ez a port már használatban van.",
+        "local_access_title": "Helyi hozzáférés-vezérlés",
+        "redirect_https_label": "HTTPS kényszerítése",
+        "session_timeout_label": "Automatikus kijelentkezési idő",
+        "apply_success_tips": "Sikeres alkalmazás; várakozás a webszerver újraindítására.",
+        "remote_access_title": "Távoli hozzáférés-vezérlés",
+        "enable_ping_label": "Ping engedélyezése a WAN felől",
+        "enable_https_label": "HTTPS távoli hozzáférés",
+        "enable_ssh_label": "SSH távoli hozzáférés",
+        "enable_ipaddr_label": "Csak meghatározott IP-címekről engedélyezett távoli hozzáférés",
+        "enable_ipaddr_tips": "Adjon hozzá több meghatározott IP-címet a router kezeléséhez erről az eszközről."
+    },
+    "menu_security": "Ez a port már használatban van."
+}

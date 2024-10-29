@@ -1,1 +1,15 @@
-{}
+{
+    "process": {
+        "installing": "Telepítés",
+        "upgrading": "Frissítés",
+        "rebooting": "Újraindítás",
+        "reverting": "Visszaállítás",
+        "upgrade_tips": "Amennyiben a szoftver frissítését követően nem éri el az útválasztó kezelőfelületét próbálja meg törölni a böngésző gyorsítótárát!",
+        "install_tips": "A szoftver frissítése pár percet vesz igénybe. Kérem, a folyamat befejeztéig NE FRISSÍTSE a lapot!",
+        "reboot_tips": "Az útválasztó újraindítása körülbelül $$$$et vesz igénybe. Kérem, a folyamat befejeztéig NE FRISSÍTSE a lapot!",
+        "revert_tips": "A firmware visszaállítása körülbelül $$$$ időt vesz igénybe. Az összes jelenlegi beállítás, alkalmazás és adat törlődik. Kérjük, NE frissítse az oldalt, amíg be nem fejeződik.",
+        "wait_tips": "Amennyiben azt észleli, hogy a folyamat a vártnál tovább tart hibaelhárítási lehetőségekért tekintse meg a dokumentációt:",
+        "restore": "Visszaállítás",
+        "restore_tips": "Visszaállítás"
+    }
+}

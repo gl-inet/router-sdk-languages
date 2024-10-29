@@ -1,1 +1,11 @@
-{}
+{
+    "btnsettings": {
+        "fun_label": "Művelet a gomb eltolásakor",
+        "no_config_tips": "A kapcsoló mindaddig nem fog működni, míg a(z) $$$$ konfigurálása meg nem történik.",
+        "no_func_babel": "Nincs művelet",
+        "vpn_client_tips": "Be kell állítania a(z) {vpnType} konfigurációt a(z) {meunKey} menüben, hogy a kapcsoló működjön.",
+        "startup_tips": "Megjegyzés: A készülék újraindítása után, ha a Kapcsoló Gomb be van kapcsolva, akkor a(z) {func} funkció engedélyezve lesz, egyébként pedig letiltva.",
+        "auto_sync_tips": "Megjegyzés: Ha az eszközt újraindítják, és a Kapcsoló Gomb be van kapcsolva, akkor a {func} funkció engedélyezve lesz, egyébként pedig letiltva."
+    },
+    "menu_btnsettings": "Kapcsológomb"
+}

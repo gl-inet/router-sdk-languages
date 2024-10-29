@@ -12,7 +12,14 @@
         },
         "no_internet": "インターネットに接続していません。ネットワークに接続してください。",
         "reboot_warning": "ルーターを再起動しますか？",
-        "classic": "クラシック"
+        "classic": "クラシック",
+        "langs_no_internet_tips": "言語リストの更新に失敗しました。{otherTips}",
+        "custom_lang_btn": "言語の追加",
+        "custom_lang_title": "管理画面の言語",
+        "enable_update_langs_label": "自動更新を有効にする",
+        "update_time_label": "更新時間",
+        "custom_lang_tips": "公式の言語パックは英語と中国語です。（その他の言語はコミュニティによってメンテナンスされており、GL.iNetはそれらの完全性や品質を保証することはできません。）「更新」をクリックすると、最新の言語パックがリポジトリから取得されます。",
+        "custom_lang_note": "選択されていない言語パックは削除されます（英語を除く）。"
     },
     "menu_vpn": "VPN",
     "menu_applications": "アプリケーション",

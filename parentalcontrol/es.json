@@ -94,7 +94,19 @@
         "toggle_version_desc": "Puedes seleccionar la versión de la función de control parental que desees usar según tus necesidades. Ambas versiones de los Controles Parentales no pueden estar habilitadas al mismo tiempo, y la otra se desactivará automáticamente cuando cambies de versión.",
         "bark_version_desc": "La versión de Bark, proporcionada y gestionada por $$$$Bark$$$$ en su propia plataforma, ofrece la opción de filtrar aplicaciones y sitios web con un solo clic y de monitorear el historial de solicitudes. Tenga en cuenta que hay una tarifa de suscripción adicional que se debe pagar directamente a Bark por este servicio.",
         "bark_version_title": "Bark Versión",
-        "version_conversion_btn": "Cambiar Versión"
+        "version_conversion_btn": "Cambiar Versión",
+        "blocklist_input_mode_tooltip": "Se puede llenar la Lista de Bloqueos de forma manual o subscribiéndose al URL. Después de subscribirse al URL, la Lista de Bloqueos se acutalizará diariamente.",
+        "detect_button": "Detectar",
+        "blocklist_input_mode_label": "Modo de entrada a la Lista de Bloqueos",
+        "success_and_fail_domain_tip": "{success} nombres de dominio o direcciones IP fueron detectados exitosamente, y {failed} nombres de dominio o direcciones IP no pudieron ser detectados.",
+        "manual_label": "Manual",
+        "subscription_url_label": "URL suscrito",
+        "detecting_message": "Un momento por favor, la detección se encuentra en curso.",
+        "ssid_or_password_is_error": "El nombre de la Red Inalámbrica (SSID) o la clave son incorrectos.",
+        "domain_detect_success_tips": "Se detectaron con éxito {count} nombres de dominio.",
+        "domain_detect_failed_tips": "No se logró detectar {count} nombres de dominio.",
+        "input_url_link_label": "Introduzca el enlace URL",
+        "input_url_link_tips": "Por favor, introduzca la URL correcta. La detección de URL identificará la corrección del nombre de dominio."
     },
     "menu_parentalcontrol": "Control Parental",
     "bark": {
@@ -110,7 +122,7 @@
         "visit_tips": "Visita $$$$bark us$$$$ para aprender más e inscríbete hoy para una prueba gratuita de una semana.",
         "feature_tips1": "Establece controles parentales en todos los dispositivos conectados a internet de tu hogar.",
         "feature_tips2": "Configura horarios de sueño y de clases diariamente en todos los dispositivos de tu hijo para reducir las distracciones en línea",
-        "feature_tips3": "Elige qué sitios web y aplicaciones están permitidos/bloqueados en todos los dispositivos",
+        "feature_tips3": "Seleccione cuáles sitios web y aplicaciones están permitidos o bloqueados en todos los dispositivos",
         "feature_tips4": "Monitorea los mensajes, correos electrónicos y más de 30 plataformas de redes sociales y aplicaciones de tu hijo, en busca de indicios de riesgos en línea",
         "pairing_code_label": "Código de Emparejamiento"
     }

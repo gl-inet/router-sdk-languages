@@ -14,8 +14,8 @@
         "ip_easy_tip": "路由器 IP 地址是你進入路由器管理頁面的瀏覽器訪問地址。",
         "guest_conflict_tips": "與訪客 IP 衝突",
         "lan_conflict_tips": "與LAN IP 衝突",
-        "cannot_contain_ip_tips": "地址範圍不包括路由器的IP",
-        "end_smaller_tips": "結束IP 地址應該大於起始IP 地址。",
+        "cannot_contain_ip_tips": "地址範圍不包括路由器的 IP",
+        "end_smaller_tips": "結束 IP 地址應該大於起始 IP 地址。",
         "user_count_max": "最大用戶數",
         "enable_dhcp_tips": "DHCP 服務器自動為每個客戶端設備分配 IP 地址和其他通信參數。如果 DHCP 服務器被禁用，您將必須為每個客戶端手動配置它們。",
         "dhcp_serve_title": "DHCP服務器",
@@ -24,10 +24,9 @@
         "security_title": "安全設定",
         "ap_isolate_label": "AP 隔離",
         "ap_isolate_tips": "您可以將網絡的客戶端設備隔離到一個單獨的網絡區域中。這些設備無法與網絡上的其他設備通信。",
-        "allow_lan_label": "允許從 LAN-Guest 存取網絡",
         "lpr_tips": "可填入多個印表機 LPR 連接埠。",
         "dhcp_disable_warning_tips": "如果停用 DHCP，您可能無法連接互聯網，請小心。",
-        "guest_disabel_tips": "由於 {guest} 處於禁用狀態，訪客網絡不會生效。"
+        "guest_disabel_tips": "由於 {guest} 處於禁用狀態，因此訪客網絡目前不可用。"
     },
     "address_reservation": {
         "note": "注意，被配置的客戶端必須重新連接路由器才能生效。",

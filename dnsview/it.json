@@ -2,11 +2,11 @@
     "dns": {
         "provider": "Provider DNS",
         "rebinding_label": "Protezione da attacchi di rebinding DNS",
-        "override_label": "Oltrepassare le impostazioni DNS di tutti i Client",
+        "override_label": "Sovrascrivi le impostazioni DNS di tutti i client",
         "override_tips": "Se abilitato, il tuo router sovrascriverà le impostazioni DNS non crittografate per tutti i Client.",
         "rebinding_tips": "L'attivazione di questa opzione potrebbe causare un errore di ricerca del DNS privato. Se la tua rete ha un Captive Portal, disabilita questa opzione.",
         "edit_host_btn": "Modifica Host",
-        "desc": "Se si impostano dei server DNS personalizzati, qualsiasi nome di dominio sarà risolto attraverso i server DNS qui specificati invece di quelli ottenuti dal server DNS della configurazione Ethernet, ripetitore, cellulare, condivisione hotspot o VPN.",
+        "desc": "Quando imposti dei server DNS personalizzati, tutte le richieste DNS verranno risolte attraverso di essi (invece che attraverso i server DNS ottenuti tramite Ethernet, Ripetitore, Cellulare, Tethering). Altrimenti, utilizzerai le impostazioni DNS configurate per ogni interfaccia.",
         "select_nolog_label": "Nessun Log",
         "set_dns_server_title": "Impostazioni del Server DNS",
         "encryption_type_label": "Tipo di Crittografia",
@@ -34,9 +34,14 @@
         "server_tips": "Puoi scegliere fino a otto server. Il router sceglierà automaticamente il server più veloce tra questi.",
         "mode": "Modalità",
         "host_tips": "Le richieste dei client saranno risolte, inizialmente, utilizzando le regole DNS statiche scritte in Hosts.",
-        "adguardhome_in_use_tips": "AdGuard Home è abilitato, non è possibile cambiare i server DNS poichè il router deve utilizzare quelli forniti da AdGuard Home.",
+        "adguardhome_in_use_tips": "AdGuard Home è attivo e questo router utilizzerà il server DNS fornito da AdGuard Home come server DNS personalizzato. Le impostazioni del server DNS non funzioneranno.",
         "server_warning_tips": "Sembra che il server sia scaduto.",
         "form_interface_label": "DNS Etichetta del Modulo {interface}",
-        "bark_enable_override_tips": "Bark blocca praticamente tutte le richieste DNS dai Client verso Internet. Se abiliti questa opzione mentra Bark è in funzione, i tuoi Client potrebbero non essere in grado di accedere Internet."
+        "bark_enable_override_tips": "Bark blocca praticamente tutte le richieste DNS dai Client verso Internet. Se abiliti questa opzione mentra Bark è in funzione, i tuoi Client potrebbero non essere in grado di accedere Internet.",
+        "override_vpn_label": "Consenti al DNS personalizzato di sovrascrivere il DNS VPN",
+        "override_vpn_tips": "Se questa opzione è abilitata, una volta impostato un DNS personalizzato, i pacchetti trasmessi attraverso il tunnel VPN verranno risolti utilizzando la sovrascrittura del DNS personalizzato anziché le impostazioni del server DNS delle connessioni VPN.",
+        "invalid_resolver_id_tips": "ID del Resolver non valido",
+        "controld_plan_tips": "Ci sono due piani, gratuito e premium, e puoi sceglierne solo uno.",
+        "controld_plan_label": "Piano"
     }
 }

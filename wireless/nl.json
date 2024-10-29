@@ -18,12 +18,19 @@
         "enable_dfs": "DFS-kanaal toestaan",
         "ssid": "Wi-Fi-naam (SSID)",
         "ssid_visibility": "SSID-zichtbaarheid",
-        "enable_dfs_tips": "Als de router is toegewezen aan het DFS-kanaal: de controle van de kanaalbeschikbaarheid is vereist telkens wanneer Wi-Fi wordt ingeschakeld. Gedurende deze tijd zal het 5GHz-signaal niet beschikbaar zijn voor verbindingen. Dit proces duurt $$$$. Als de router detecteert dat de radar het huidige kanaal gebruikt, verbreekt deze tijdelijk de verbinding met het apparaat en schakelt over naar een ander beschikbaar kanaal; bovendien wordt 5GHz Wi-Fi tijdelijk uitgeschakeld terwijl de router zoekt naar beschikbare netwerken in de buurt.",
+        "enable_dfs_tips": "Als de router is ingesteld om een DFS-kanaal te gebruiken, dan is elke keer dat Wi-Fi wordt ingeschakeld een beschikbaarheidscontrole van het kanaal vereist, gedurende deze tijd zal het 5GHz-signaal niet beschikbaar zijn voor verbindingen, dit proces duurt $$$$. Als de router detecteert dat de radar het huidige kanaal gebruikt, zal het tijdelijk de verbinding met de client verbreken en overschakelen naar een ander beschikbaar kanaal; bovendien wordt de 5GHz Wi-Fi tijdelijk uitgeschakeld terwijl de router scant naar beschikbare, nabijgelegen netwerken.",
         "repeater_using_tips": "Deze regel kan niet worden gewijzigd als de repeater is ingeschakeld.",
         "dsf_starting": "Controleren op de beschikbaarheid van kanalen. Dit proces duurt $$$$. Een ogenblik……",
         "dsf_conflict": "5GHz Wi-Fi is tijdelijk niet beschikbaar omdat een radar gebruik maakt van het kanaal dat de router momenteel gebruikt.",
         "channel_auto_dfs_tips": "Wanneer de bandbreedte is ingesteld op 160 MHz, zal Wi-Fi altijd het DFS-kanaal gebruiken, zelfs als u een niet-DFS-kanaal of de optie \"$$$$\" kiest.",
-        "channel_auto_tips": "Wanneer u de optie \"$$$$\" selecteert, schakelt Wi-Fi niet automatisch over naar het DFS-kanaal."
+        "channel_auto_tips": "Wanneer u de optie \"$$$$\" selecteert, schakelt Wi-Fi niet automatisch over naar het DFS-kanaal.",
+        "lan_guest_conflict_tips": "Het gasten-Wi-Fi-netwerk kan niet worden ingeschakeld omdat {guest} in conflict is met {lan}.",
+        "enable_random_bssid_label": "Gebruik van een willekeurig BSSID inschakelen",
+        "random_bssid_disabled_tips": "Het gebruik van een statisch BSSID kan ervoor zorgen dat u gevolgd wordt. Als uw clientapparaat het gebruik van een statisch BSSID vereist, wordt aanbevolen om de SSID te verbergen. {more}",
+        "random_bssid_enabled_tips": "Als u deze optie is ingeschakeld, gebruikt het apparaat een willekeurig gegenereerd BSSID en vernieuwt dit bij elke herstart.",
+        "radio_bands": "Radiofrequenties",
+        "mlo_wifi_security_tips": "WPA3-SAE is geschikt voor de meeste apparaten die MLO ondersteunen, en dit protocol wordt aanbevolen.",
+        "radio_bands_tips": "Selecteer minimaal twee radiofrequenties."
     },
     "menu_wireless": "Draadloos"
 }

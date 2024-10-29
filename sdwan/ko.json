@@ -1,1 +1,18 @@
-{}
+{
+    "sdwan": {
+        "no_device_tips": "이 기능을 사용하려면 장치를 {cloud} 의 가상 네트워크 중 하나에 추가해야 합니다.",
+        "real_time_data_tips": "게이트웨이를 통과한 장치의 데이터만 포함되며, 이는 청구 데이터에 보고된 총량과 다를 수 있습니다.",
+        "nodes_title": "네트워크 토폴로지",
+        "upload_data_title": "업로드 트래픽 데이터",
+        "download_data_title": "다운로드 트래픽 데이터",
+        "real_time_data_title": "실시간 데이터",
+        "interface_title": "인터페이스",
+        "interface_tips": "특정 인터페이스가 이 가상 네트워크에 참여하지 않도록 비활성화할 수 있습니다.",
+        "device_tips": "가상 네트워크 {network} 에 추가되었습니다. 설정을 수정하려면 {cloud} 로 이동하세요.",
+        "use_tips": "AstroWarp는 원격 네트워킹, 트래픽 집계 및 원격 장치 관리를 제공하기 위해 설계된 고급 SD-WAN 플랫폼입니다.",
+        "get_start_title": "클라우드 서비스 활성화됨",
+        "get_start_tips": "AstroWarp를 시작하려면 클릭하세요!",
+        "enable_tips": "AstroWarp이 활성화되어 있을 때, {feature}를 사용할 수 없습니다."
+    },
+    "menu_sdwan": "AstroWarp"
+}

@@ -1,1 +1,18 @@
-{}
+{
+    "sdwan": {
+        "no_device_tips": "A funkció használatához hozzá kell adnia az eszközt a(z) {cloud} egyik virtuális hálózatához.",
+        "device_tips": "Hozzá lett adva a(z) {network} virtuális hálózathoz. Kérjük, lépjen a(z) {cloud} oldalra a beállítások módosításához.",
+        "real_time_data_title": "Valós idejű adatok",
+        "real_time_data_tips": "Csak azon eszköz adatait tartalmazza, amelyek áthaladtak a Gateway-en; ez eltérhet az Ön számlázási adataiban jelentett összestől.",
+        "upload_data_title": "Feltöltési adatforgalom",
+        "download_data_title": "Letöltési adatforgalom",
+        "interface_title": "Interfészek",
+        "interface_tips": "Lehetősége van letiltani bizonyos interfészek csatlakozását ehhez a virtuális hálózathoz.",
+        "nodes_title": "Hálózati topológia",
+        "get_start_title": "Felhőszolgáltatások engedélyezve",
+        "get_start_tips": "Kattintson az AstroWarp használatának megkezdéséhez!",
+        "use_tips": "Az AstroWarp egy fejlett SD-WAN platform, amely zökkenőmentes távoli hálózatépítést, forgalomaggregációt és távoli eszközkezelést biztosít.",
+        "enable_tips": "Az AstroWarp bekapcsolása esetén a(z) {feature} nem használható."
+    },
+    "menu_sdwan": "Lehetősége van bizonyos interfészek letiltására ebben a virtuális hálózatban."
+}

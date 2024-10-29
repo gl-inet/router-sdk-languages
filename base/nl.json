@@ -101,7 +101,20 @@
         "verify_btn": "Verifiëren",
         "view_details_btn": "Toon details",
         "update": "Bijwerken",
-        "idx_label": "indexering"
+        "idx_label": "indexering",
+        "tips_ttitle": "Tips",
+        "click here_btn": "Klik hier",
+        "detect_btn": "Detecteren",
+        "cell_phone_num_label": "Mobiele telefoonnummer",
+        "agree_terms_and_privacy_tips": "Ik heb gelezen en ga akkoord met de {terms} & {privacy}.",
+        "sign_up_btn": "Aanmelden",
+        "email_box_label": "E-mail",
+        "switch_btn": "Schakelaar",
+        "exit_btn": "Afsluiten",
+        "done_btn": "Voltooid",
+        "upgrade_btn": "Ongeldig regelnummer: {num}",
+        "setp_label": "Stap {num} :",
+        "join_btn": "Aansluiten"
     },
     "msg": {
         "success": "Toegepast!",
@@ -115,7 +128,10 @@
         "please_note": "Let op:",
         "access_denied": "Ongeldige gebruiker, toestemming geweigerd of niet aangemeld!",
         "unknown_err": "Er trad een onbekende fout op. Controleer de netwerkomgeving of herstart het apparaat.",
-        "port_occupied": "{name} netwerkpoort is al in gebruik"
+        "port_occupied": "{name} netwerkpoort is al in gebruik",
+        "send_success_tips": "Succesvol verzonden!",
+        "sign_up_success": "Succesvol geregistreerd!",
+        "successfully_badge_tips": "Succesvol!"
     },
     "date": {
         "day": "dag(en)",
@@ -130,7 +146,14 @@
         "for_last_time": "Laatste {time}",
         "ms": "ms",
         "tuesday": "di | dinsdag",
-        "hour": "{count} uur | {count} uren"
+        "hour": "{count} uur | {count} uren",
+        "day_time": "{count} dag | {count} dagen",
+        "quarter": "Kwartaal",
+        "month": "count} maand | {count} maanden",
+        "year": "count} jaar | {count} jaren",
+        "day_var": "Dag {count}",
+        "week": "count} week | {count} weken",
+        "month_list": "januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december"
     },
     "internet": {
         "connected": "Verbonden",
@@ -151,10 +174,41 @@
         "ttl_tips": "Met TTL (Time To Live) wordt het maximaal te overleven pakketen aangegeven. Deze instelling wordt naar behoeve van de administrator aangepast.",
         "clone_label": "Klonen",
         "random_btn": "Willekeurig",
-        "current_client_label": "Huidig apparaat"
+        "current_client_label": "Huidig apparaat",
+        "random_mac_label": "Willekeurig MAC-adres",
+        "clone_mac_label": "Gestolen MAC-adres",
+        "disguise_mac_label": "Gecamoufleerd MAC-adres",
+        "net_trouble_guide_link": "Netwerkproblemenoplosser",
+        "wan_label": "WAN-poort",
+        "lan_label": "LAN-poort",
+        "lan1_label": "LAN 1-poort",
+        "wan_lan_label": "WAN/LAN-poort",
+        "hl_tips": "Bij IPv6, het HL-veld (Hop Limit) wordt gebruikt als limiet voor het aantal overdrachtshops van datapakketten. Het werkt bijna hetzelfde als de TTL van IPv4.",
+        "mac_format_tips": "De significantste bit van het eerste octet mag niet gelijk zijn aan 1 (b.v. de tweede hexadecimale cijfer niet gelijk zijn aan een even getal).",
+        "mac_addr_label": "MAC-adres",
+        "mac_real_label": "Origineel MAC-adres",
+        "illegal_subnet_mask_tips": "Ongeldig subnetmasker, aangezien het subnet {subnet} is, mag het masker niet kleiner zijn dan {min}.",
+        "mtu_general_tips": "Als u een waarde instelt die hoger/lager is dan het ondersteunde bereik van het apparaat, gebruikt het apparaat de ondersteunde maximale/minimale waarde.",
+        "illegal_subnet_tips": "Ongeldige subnets, de laatste drie bits moeten 0 zijn.",
+        "mtu_ipv6_warning_tips": "IPv6 werkt niet als het MTU lager is dan 1280.",
+        "auto_update_mac_time_label": "Op tijd",
+        "auto_update_mac_tips": "Zodra deze optie is ingeschakeld, wordt het MAC-adres automatisch bijgewerkt.",
+        "auto_update_mac_strategy_label": "MAC-strategie automatisch bijwerken",
+        "mac_replacement_label": "MAC-vervangings cyclus",
+        "mode_label": "{tab} modus",
+        "auto_update_mac_label": "MAC automatisch bijwerken",
+        "duplex_full_label": "{speed} Mbps full duplex",
+        "duplex_half_label": "{speed} Mbps half duplex",
+        "mac_replacement_tips": "De MAC kan bijwerken op het update tijdstip, en als de MAC op dit moment nog in gebruik is, zal het bijwerken na de volgende keer dat u opnieuw verbinding maakt met het netwerk.",
+        "recheck_btn": "Opnieuw detecteren"
     },
     "system": {
-        "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade."
+        "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade.",
+        "no_internet_base_tips": "Controleer uw internet verbinding en probeer het opnieuw.",
+        "limit_tips": "Gegevens mogen niet meer dan {count} vermeldingen bevatten.",
+        "feature_unusable_tips": "Deze functie werkt niet omdat {feature} is ingeschakeld.",
+        "lost_account_btn": "Account kwijt?",
+        "forget_password_btn": "Wachtwoord vergeten?"
     },
     "upload": {
         "select_or_drag": "Selecteer of sleep een bestand",
@@ -166,5 +220,21 @@
         "format_error": "Ongeldige dataformaat!",
         "too_large_tips": "Het geüploade bestand is te groot, upload een bestand van maximaal $$$$ bytes.",
         "lass_than_tips": "(minder dan $$$$)"
+    },
+    "err": {
+        "abnormal_operation_msg": "Operationele uitzondering",
+        "network_not_reachable_msg": "Netwerk niet bereikbaar"
+    },
+    "subscription": {
+        "url_label": "Abonnement URL",
+        "manual_label": "Handleiding",
+        "url_err_tips": "Voer de juiste URL-link in."
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "Alleen {limit} mag worden ingevoerd.",
+        "only_num_letter_symbol_tips": "Alleen letters, cijfers en symbolen {symbol} zijn toegestaan",
+        "only_letters_num_allowd_tips": "Alleen letters en cijfers zijn toegestaan",
+        "min_max_length_tips": "{min} - {max} tekens",
+        "invalid_line_label": "Ongeldig regelnummer: {num}"
     }
 }

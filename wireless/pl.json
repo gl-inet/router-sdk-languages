@@ -1,1 +1,36 @@
-{}
+{
+    "wireless": {
+        "ssid": "Nazwa sieci Wi-Fi (SSID)",
+        "encryption": "Zabezpieczenia Wi-Fi",
+        "shown": "Widoczny",
+        "hidden": "Ukryty",
+        "max": "Maksymalny",
+        "high": "Wysoki",
+        "medium": "Średni",
+        "enable": "Włącz Wi-Fi",
+        "enable_dfs": "Zezwól na kanał DFS",
+        "dsf_starting": "Trwa sprawdzanie dostępności kanału. Proces ten zajmie $$$$. Proszę czekać……",
+        "key": "Hasło Wi-Fi",
+        "ssid_visibility": "Widoczność SSID",
+        "mode": "Tryb Wi-Fi",
+        "band_width": "Przepustowość",
+        "channel": "Kanał",
+        "tx_power": "Moc TX",
+        "low": "Niski",
+        "guest": "Gość",
+        "channel_optimization": "Optymalizacja kanału",
+        "repeater_using_tips": "Wpis nie może być zmodyfikowany, gdy włączony jest tryb wzmacniacza.",
+        "enable_dfs_tips": "Jeśli router jest przypisany do korzystania z kanału DFS, wtedy za każdym razem, gdy Wi-Fi jest włączane, wymagane jest sprawdzenie dostępności kanału, podczas tego czasu sygnał 5GHz nie będzie dostępny do połączeń, ten proces trwa $$$$. Jeśli router wykryje, że radar korzysta z aktualnego kanału, tymczasowo rozłączy się z klientem i przełączy na inny dostępny kanał; dodatkowo, 5GHz Wi-Fi zostanie tymczasowo wyłączone podczas skanowania przez router dostępnych, pobliskich sieci.",
+        "dsf_conflict": "5GHz Wi-Fi jest tymczasowo niedostępne, ponieważ radar używa kanału, którego obecnie używa router.",
+        "channel_auto_dfs_tips": "Gdy twoja przepustowość jest ustawiona na 160 MHz, Wi-Fi zawsze będzie używać kanału DFS, nawet jeśli wybierzesz kanał nie-DFS lub opcję \"$$$$\".",
+        "channel_auto_tips": "Kiedy wybierzesz opcję \"$$$$\", Wi-Fi nie przełączy się automatycznie na kanał DFS.",
+        "lan_guest_conflict_tips": "Gościnne Wi-Fi nie może być włączone, ponieważ {guest} jest w konflikcie z {lan}.",
+        "enable_random_bssid_label": "Włącz losowe BSSID",
+        "random_bssid_disabled_tips": "Używanie statycznego BSSID może spowodować śledzenie. Jeśli urządzenie klienta wymaga użycia statycznego BSSID, zaleca się ustawienie SSID jako ukryte. {more}",
+        "random_bssid_enabled_tips": "Jeśli ta opcja jest włączona, urządzenie używa losowo wygenerowanego BSSID i odnawia go przy każdym ponownym uruchomieniu.",
+        "radio_bands": "Pasmo radiowe",
+        "mlo_wifi_security_tips": "WPA3-SAE jest odpowiedni dla większości urządzeń obsługujących MLO i ten protokół jest zalecany.",
+        "radio_bands_tips": "Proszę wybrać przynajmniej dwie pasma radiowe."
+    },
+    "menu_wireless": "Bezprzewodowy"
+}

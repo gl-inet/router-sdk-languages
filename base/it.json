@@ -98,7 +98,23 @@
         "pre_set_up": "Preimpostazione",
         "verify_btn": "Verifica",
         "incorrect_formate_tips": "Formattazione errata, modificare manualmente o {action}",
-        "one_click_process_btn": "one-click processing"
+        "one_click_process_btn": "one-click processing",
+        "click here_btn": "Clicca Qui",
+        "view_details_btn": "Visualizza Dettagli",
+        "idx_label": "indice",
+        "update": "Aggiorna",
+        "tips_ttitle": "Suggerimenti",
+        "cell_phone_num_label": "Numero di cellulare",
+        "sign_up_btn": "Registrati",
+        "agree_terms_and_privacy_tips": "Ho letto e accetto i {terms} & {privacy}.",
+        "email_box_label": "Email",
+        "switch_btn": "Interruttore",
+        "detect_btn": "Rileva",
+        "exit_btn": "Esci",
+        "done_btn": "Fatto",
+        "upgrade_btn": "Aggiornamento",
+        "setp_label": "Passaggio {num} :",
+        "join_btn": "Unisciti"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -112,7 +128,10 @@
         "interface_timeout": "Richiesta scaduta. Verifica l'ambiente di rete o riavvia il dispositivo.",
         "port_occupied": "porto {nome} occupato",
         "please_note": "Notare che:",
-        "processing": "In lavorazione..."
+        "processing": "In lavorazione...",
+        "send_success_tips": "Inviato con successo!",
+        "sign_up_success": "Registrato con successo!",
+        "successfully_badge_tips": "Con successo!"
     },
     "date": {
         "day": "giorno(i)",
@@ -127,7 +146,14 @@
         "min": "{count} Minuto | {count} Minuti",
         "hour": "{count} Ore | {count} Ore",
         "for_last_time": "Ultimo {time}",
-        "ms": "ms"
+        "ms": "ms",
+        "day_time": "{count} Giorno | {count} Giorni",
+        "quarter": "Trimestre",
+        "week": "{count} Settimana | {count} Settimane",
+        "month": "{count} Mese | {count} Mesi",
+        "year": "{count} Anno | {count} Anni",
+        "day_var": "Giorno {count}",
+        "month_list": "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre"
     },
     "internet": {
         "lan_ip_tips": "La sottorete LAN è in conflitto con la sottorete WAN, si prega di $$$$ modificare la sottorete LAN$$$$ con un altro indirizzo.",
@@ -149,7 +175,32 @@
         "ttl_tips": "Il TTL (Time To Live) stabilisce il tempo massimo di sopravvivenza dei pacchetti nella rete e viene compilato in base ai requisiti dell'operatore.",
         "hl_tips": "In IPv6, il campo HL (Hop Limit) è utilizzato per limitare il numero di hop di trasmissione dei pacchetti di dati nella rete, equivalente al TTL in IPv4.",
         "random_btn": "Casuale",
-        "current_client_label": "Client Attuale"
+        "current_client_label": "Client Attuale",
+        "mtu_general_tips": "Se imposti un valore superiore/inferiore all'intervallo supportato dal dispositivo, il dispositivo utilizzerà il valore massimo/minimo supportato.",
+        "disguise_mac_label": "Indirizzo MAC camuffato",
+        "illegal_subnet_tips": "Sottoreti non valide, gli ultimi tre bit devono essere 0.",
+        "mtu_ipv6_warning_tips": "IPv6 non può funzionare quando MTU è inferiore a 1280.",
+        "lan1_label": "Porta LAN 1",
+        "mac_addr_label": "Indirizzo MAC",
+        "mac_real_label": "Fabbrica",
+        "clone_label": "Clona",
+        "mac_format_tips": "il bit meno significativo del primo ottetto non deve essere impostato a 1 (ovvero, la seconda cifra esadecimale non deve essere dispari).",
+        "wan_label": "Porta WAN",
+        "lan_label": "Porta LAN",
+        "wan_lan_label": "Porta WAN/LAN",
+        "random_mac_label": "Indirizzo MAC randomizzato",
+        "illegal_subnet_mask_tips": "Maschera non valida, poiché la sottorete è {subnet}, la maschera non può essere inferiore a {min}.",
+        "clone_mac_label": "Indirizzo MAC clonato",
+        "mode_label": "Modalità {tab}",
+        "auto_update_mac_time_label": "Per Tempo",
+        "auto_update_mac_label": "Aggiornamento MAC Automatico",
+        "duplex_full_label": "{speed} Mbps full duplex",
+        "auto_update_mac_tips": "Se questa opzione è abilitata, il MAC può aggiornarsi automaticamente.",
+        "auto_update_mac_strategy_label": "Strategia di Aggiornamento Automatico MAC",
+        "mac_replacement_label": "Ciclo di Sostituzione MAC",
+        "mac_replacement_tips": "Il MAC può aggiornarsi al momento dell'aggiornamento, e se il MAC è ancora in uso in questo momento, si aggiornerà dopo il prossimo collegamento alla rete.",
+        "recheck_btn": "Rileva nuovamente",
+        "duplex_half_label": "{speed} Mbps half duplex"
     },
     "upload": {
         "select_or_drag": "Seleziona un file o trascinalo qui",
@@ -163,6 +214,27 @@
         "lass_than_tips": "(Meno di $$$$)"
     },
     "system": {
-        "battery_err_tips": "Il sistema non rileva il modulo batteria, controllare la connessione di alimentazione o la batteria per eventuali danni."
+        "battery_err_tips": "Il sistema non rileva il modulo batteria, controllare la connessione di alimentazione o la batteria per eventuali danni.",
+        "no_internet_base_tips": "Si prega di controllare l'ambiente Internet e riprovare.",
+        "limit_tips": "I dati non devono superare le {count} voci.",
+        "feature_unusable_tips": "Questa funzionalità non funziona perché {feature} è attivato.",
+        "lost_account_btn": "Hai perso l'account?",
+        "forget_password_btn": "Hai dimenticato la password?"
+    },
+    "subscription": {
+        "url_label": "URL di sottoscrizione",
+        "manual_label": "Manuale",
+        "url_err_tips": "Si prega di inserire il collegamento URL corretto."
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "È consentito inserire solo {limit}.",
+        "only_num_letter_symbol_tips": "Sono consentite solo lettere, numeri e simboli {symbol}",
+        "min_max_length_tips": "{min} - {max} caratteri",
+        "only_letters_num_allowd_tips": "Sono consentiti solo lettere e numeri",
+        "invalid_line_label": "Numero di linea non valido: {num}"
+    },
+    "err": {
+        "network_not_reachable_msg": "Rete non raggiungibile",
+        "abnormal_operation_msg": "Eccezione operativa"
     }
 }

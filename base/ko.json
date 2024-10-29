@@ -101,7 +101,20 @@
         "idx_label": "색인",
         "update": "업데이트",
         "incorrect_formate_tips": "형식이 잘못되었습니다. 수동으로 변경하거나 {action}",
-        "one_click_process_btn": "원-클릭 처리"
+        "one_click_process_btn": "원-클릭 처리",
+        "tips_ttitle": "팁",
+        "click here_btn": "여기를 클릭하세요",
+        "cell_phone_num_label": "휴대폰 번호",
+        "sign_up_btn": "가입하기",
+        "agree_terms_and_privacy_tips": "{terms} 및 {privacy}를 읽고 동의합니다.",
+        "detect_btn": "감지",
+        "email_box_label": "이메일",
+        "switch_btn": "전환",
+        "exit_btn": "종료",
+        "done_btn": "완료",
+        "upgrade_btn": "업그레이드",
+        "setp_label": "단계 {num} :",
+        "join_btn": "加入"
     },
     "msg": {
         "success": "적용!",
@@ -115,7 +128,10 @@
         "port_occupied": "{name} 포트가 점유됨",
         "access_denied": "잘못된 사용자, 권한이 거부되었거나 로그인되지 않았습니다!",
         "being_process": "처리 중입니다. 잠시 기다려 주세요…",
-        "unknown_err": "알 수 없는 오류가 발생했습니다. 네트워크 환경을 확인하시거나 기기를 재부팅해주세요."
+        "unknown_err": "알 수 없는 오류가 발생했습니다. 네트워크 환경을 확인하시거나 기기를 재부팅해주세요.",
+        "send_success_tips": "성공적으로 전송되었습니다!",
+        "sign_up_success": "성공적으로 등록되었습니다!",
+        "successfully_badge_tips": "성공적으로!"
     },
     "date": {
         "day": "날",
@@ -130,7 +146,14 @@
         "for_last_time": "마지막 {time}",
         "ms": "밀리 초",
         "monday": "월 | 월요일",
-        "min": "{count} 분 | {count} 분"
+        "min": "{count} 분 | {count} 분",
+        "month_list": "1월|2월|3월|4월|5월|6월|7월|8월|9월|10월|11월|12월",
+        "day_time": "{count}일 | {count}일",
+        "quarter": "분기",
+        "month": "{count}개월 | {count}개월",
+        "week": "{count}주 | {count}주",
+        "year": "{count}년 | {count}년",
+        "day_var": "{count}일"
     },
     "internet": {
         "connected": "연결됨",
@@ -153,7 +176,31 @@
         "ttl_tips": "TTL(Time To Live)은 패킷이 네트워크에서 생존할 수 있는 최대 시간을 설정하며 운영자의 요구 사항에 따라 채워집니다.",
         "clone_label": "복제",
         "random_btn": "임의",
-        "current_client_label": "현재 클라이언트"
+        "current_client_label": "현재 클라이언트",
+        "wan_label": "WAN 포트",
+        "lan_label": "LAN 포트",
+        "wan_lan_label": "WAN/LAN 포트",
+        "lan1_label": "LAN 1 포트",
+        "random_mac_label": "랜덤화된 MAC 주소",
+        "illegal_subnet_tips": "부적합한 서브넷입니다. 마지막 세 비트는 0이어야 합니다.",
+        "clone_mac_label": "복제된 MAC 주소",
+        "mtu_ipv6_warning_tips": "MTU가 1280보다 낮으면 IPv6는 작동할 수 없습니다.",
+        "illegal_subnet_mask_tips": "부적합한 마스크입니다. 서브넷이 {subnet}인 경우, 마스크는 {min}보다 작을 수 없습니다.",
+        "mtu_general_tips": "장치가 지원하는 범위를 벗어나는 값을 설정하면, 장치는 지원하는 최대/최소값을 사용합니다.",
+        "disguise_mac_label": "위장된 MAC 주소",
+        "mac_addr_label": "MAC 주소",
+        "mac_real_label": "공장",
+        "mac_format_tips": "첫 번째 옥텟의 최하위 비트를 1로 설정하는 것은 허용되지 않습니다(즉, 두 번째 16진수 숫자가 홀수여서는 안 됩니다).",
+        "duplex_full_label": "{speed} Mbps 전이중",
+        "duplex_half_label": "{speed} Mbps 반이중",
+        "auto_update_mac_strategy_label": "MAC 전략 자동 업데이트",
+        "mac_replacement_label": "MAC 교체 주기",
+        "mac_replacement_tips": "업데이트 시점에 MAC을 업데이트할 수 있으며, 이 시간에 MAC이 여전히 사용 중인 경우 다음 네트워크에 다시 연결할 때 업데이트됩니다.",
+        "recheck_btn": "재감지",
+        "mode_label": "{tab} 모드",
+        "auto_update_mac_time_label": "시간별로",
+        "auto_update_mac_label": "MAC 자동 업데이트",
+        "auto_update_mac_tips": "이 옵션을 활성화하면 MAC 주소가 자동으로 업데이트됩니다."
     },
     "upload": {
         "file_include": "파일 형식에는 다음이 포함됩니다",
@@ -168,6 +215,26 @@
     },
     "system": {
         "battery_err_tips": "시스템이 배터리 모듈을 감지하지 못합니다. 전원 연결이나 배터리에 손상이 있는지 확인하십시오.",
-        "limit_tips": "데이터는 {count} 개를 초과할 수 없습니다."
+        "limit_tips": "데이터는 {count} 개를 초과할 수 없습니다.",
+        "feature_unusable_tips": "이 기능은 {feature}이(가) 활성화되어 있기 때문에 작동하지 않습니다.",
+        "no_internet_base_tips": "인터넷 환경을 확인하고 다시 시도해 주세요.",
+        "lost_account_btn": "계정을 잃어버리셨나요?",
+        "forget_password_btn": "비밀번호를 잊으셨나요?"
+    },
+    "err": {
+        "abnormal_operation_msg": "작동 예외",
+        "network_not_reachable_msg": "네트워크에 연결할 수 없습니다"
+    },
+    "subscription": {
+        "url_label": "구독 URL",
+        "manual_label": "수동",
+        "url_err_tips": "정확한 URL 링크를 입력해 주세요."
+    },
+    "vaildate": {
+        "only_allowd_input_tips": "{limit}만 입력할 수 있습니다.",
+        "only_num_letter_symbol_tips": "只允许字母、数字和符号{symbol}",
+        "only_letters_num_allowd_tips": "문자와 숫자만 허용됩니다",
+        "min_max_length_tips": "{min} - {max}个字符",
+        "invalid_line_label": "유효하지 않은 줄 번호: {num}"
     }
 }

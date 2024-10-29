@@ -1,15 +1,15 @@
 {
     "dns": {
         "edit_host_btn": "Editer les Hôtes",
-        "desc": "Si vous définissez des serveurs DNS personnalisés, tous les noms de domaines seront résolus par les serveurs DNS définis ici au lieu de ceux obtenus à partir des serveurs DNS Ethernet, répéteur, cellulaire, téthering ou de la configuration VPN.",
+        "desc": "Si vous définissez des serveurs DNS personnalisés, tous les noms de domaines seront résolus par les serveurs DNS définis ici au lieu de ceux obtenus à partir de votre connexion Ethernet, répéteur, cellulaire, téthering ou de la configuration VPN.",
         "rebinding_label": "Protection contre les attaques de DNS rebinding",
         "rebinding_tips": "L'activation de cette option peut entraîner l'échec de resolutions de DNS privés. Si votre réseau dispose d'un portail captif, veuillez désactiver cette option.",
         "override_label": "Remplacer les paramètres DNS pour tous les clients",
-        "override_tips": "Si cette option est activée, votre routeur remplacera les paramètres DNS non cryptés pour tous les clients.",
+        "override_tips": "Si cette option est activée, votre routeur remplacera les paramètres DNS non chiffré pour tous les clients.",
         "set_dns_server_title": "Configuration du serveur DNS",
         "mode": "Mode",
-        "proxy_addr_label": "Addresse du serveur proxy",
-        "encryption_type_label": "Type de chiffrement",
+        "proxy_addr_label": "Adresse du serveur proxy",
+        "encryption_type_label": "Mode de chiffrement",
         "v1_tips": "Le routeur utilise la version 1 de DNS. Seuls certains serveurs DNS chiffrés sont pris en charge.",
         "server": "Serveurs",
         "server_tips": "Vous pouvez choisir jusqu'à 8 serveurs. Le routeur choisira automatiquement le serveur le plus rapide parmi eux.",
@@ -34,9 +34,14 @@
         "form_ovpn_label": "Serveur DNS pour OpenVPN",
         "form_wg_label": "Serveur DNS pour WireGuard",
         "provider": "Fournisseur DNS",
-        "adguardhome_in_use_tips": "AdGuard Home est activé, le routeur doit utiliser le serveur DNS fourni par AdGuard Home, vous ne pouvez pas personnaliser les serveurs DNS.",
+        "adguardhome_in_use_tips": "AdGuard Home est activé et ce routeur utilisera le serveur DNS fourni par AdGuard Home comme serveur DNS personnalisé. Les paramètres du serveur DNS ne fonctionneront pas.",
         "server_warning_tips": "Le serveur est suspecté d'être expiré.",
         "form_interface_label": "DNS depuis {interface}",
-        "bark_enable_override_tips": "Bark bloque presque toutes les requêtes DNS des clients envoyées sur Internet. Si vous activez cette option alors que Bark fonctionne, vos clients risquent de ne pas pouvoir accéder à Internet."
+        "bark_enable_override_tips": "Bark bloque presque toutes les requêtes DNS des clients envoyées sur Internet. Si vous activez cette option alors que Bark fonctionne, vos clients risquent de ne pas pouvoir accéder à Internet.",
+        "override_vpn_label": "Autoriser le DNS personnalisé à remplacer le DNS du VPN",
+        "override_vpn_tips": "Si cette option est activée, une fois que vous avez défini un DNS personnalisé, les paquets transmis via le tunnel VPN seront résolus en utilisant la substitution du DNS personnalisé au lieu des paramètres du serveur DNS des connexions VPN.",
+        "invalid_resolver_id_tips": "Identifiant de résolveur non valide",
+        "controld_plan_label": "Planifier",
+        "controld_plan_tips": "Il existe deux formules, gratuite et premium, et vous ne pouvez en choisir qu'une seule."
     }
 }

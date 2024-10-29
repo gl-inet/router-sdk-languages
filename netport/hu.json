@@ -1,0 +1,17 @@
+{
+    "netport": {
+        "as_label": "Mint {port}",
+        "wan_lan_change_tips": "A WAN portot LAN portként is használhatja.",
+        "reset_port_tips": "A {silkprint} portot visszaállíthatja {port} módba, ha a készülék reset gombját 4 másodpercig nyomva tartja.",
+        "rate_label": "Kialkudott hálózati portsebesség",
+        "unplug_cable_tips": "Először kérjük, húzza ki az Ethernet kábelt, amely a {silkprint} csatlakozóba van dugva.",
+        "as_wan_tips": "{asWan}, az ehhez a porthoz csatlakoztatott eszköz többé nem férhet hozzá az adminisztrációs panelhez. Wi-Fi-hez vagy más LAN portokhoz kell csatlakoztatnia.",
+        "reset_as_wan_tips": "Állítsa vissza a {silkprint} portot WAN portként.",
+        "set_as_wan_tips": "Amint a {silkprint} WAN portként van használva",
+        "reset_as_lan_tips": "Biztosan visszaállítja a {silkprint} portot LAN portra (alapértelmezett)?",
+        "set_as_lan_tips": "Biztosan át szeretné kapcsolni a {silkprint} portot LAN portra?",
+        "no_wan_tips": "A {silkprint} LAN (helyi hálózat) portként lett használva. Visszaállíthatja WAN (széles körű hálózat) portként a {view} nézetben.",
+        "two_port_label": "{port1} és {port2}"
+    },
+    "menu_netport": "Hálózati portkezelés"
+}

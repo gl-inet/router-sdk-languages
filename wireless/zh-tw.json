@@ -1,6 +1,6 @@
 {
     "wireless": {
-        "ssid": "無線網路名稱（SSID）",
+        "ssid": "無線網絡名稱（SSID）",
         "encryption": "無線網絡安全",
         "key": "Wi-Fi 密碼",
         "ssid_visibility": "SSID可見性",
@@ -18,13 +18,19 @@
         "channel_optimization": "信道優化",
         "enable": "啟動Wi-Fi",
         "repeater_using_tips": "啟用中繼模式時無法修改條目",
-        "enable_dfs_tips": "若路由器使用 DFS 信道：每次 Wi-Fi 啟動都需要進行信道可用性檢查，期間 5G 信號無法連接，此過程需要 $$$$；若路由器檢測到雷達正在使用當前信道，它將暫時斷開與客戶端的連接，並切換到另一個可用信道；此外，掃描周邊可用網絡時，5GHz Wi-Fi 將暫時關閉。",
+        "enable_dfs_tips": "如果路由器被指定使用DFS頻道，則每次啟用Wi-Fi時都需要進行頻道可用性檢查，在此期間5GHz信號將無法用於連接，此過程需要一段時間。如果路由器檢測到雷達正在使用當前頻道，它將暫時與客戶端斷開連接，並切換到另一個可用頻道；此外，在路由器掃描附近可用網絡時，5GHz Wi-Fi將暫時關閉。",
         "dsf_starting": "正在進行信道可用性檢查，此過程需要 $$$$，請稍候……",
         "dsf_conflict": "檢測到有雷達正在使用路由器當前使用的信道，5GHz Wi-Fi 將暫時無法連接。",
         "enable_dfs": "允許使用 DFS 信道",
         "channel_auto_dfs_tips": "當您的頻寬設置為 160 MHz 時，Wi-Fi 必然會使用 DFS 信道，即使您選用非 DFS 信道或者 \"$$$$\" 選項。",
         "channel_auto_tips": "當您選擇 \"$$$$\" 選項，Wi-Fi 不會自動切換到 DFS 信道。",
-        "lan_guest_conflict_tips": "由於 {lan} 與 {guest} 沖突，訪客 Wi-Fi 無法啟動。"
+        "lan_guest_conflict_tips": "由於 {lan} 與 {guest} 沖突，訪客 Wi-Fi 無法啟動。",
+        "random_bssid_enabled_tips": "若此選項啟用，設備會使用一個隨機生成的 BSSID，並在每次重啟時更新它。",
+        "random_bssid_disabled_tips": "使用固定的 BSSID 可能導致您被追蹤。如果您的客戶端設備需要使用固定的 BSSID，建議您將 SSID 設為隱藏。{more}",
+        "enable_random_bssid_label": "啟用隨機化的 BSSID",
+        "radio_bands": "無線電頻段",
+        "mlo_wifi_security_tips": "WPA3-SAE適用於大多數支援MLO的設備，並推薦使用此協議。",
+        "radio_bands_tips": "請至少選擇兩個無線電頻段。"
     },
     "menu_wireless": "無線"
 }

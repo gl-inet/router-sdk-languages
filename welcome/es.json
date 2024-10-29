@@ -1,14 +1,25 @@
 {
     "welcome": {
-        "choose_lang": "Elige tu idioma",
+        "choose_lang": "Por favor elegir un idioma",
         "next": "Siguiente",
         "back": "Atrás",
-        "submit": "Entregar",
-        "set_pwd": "Configura tu contraseña de administrador",
+        "submit": "Enviar",
+        "set_pwd": "Configurar la contraseña de Administración",
         "new_pwd": "Nueva contraseña",
-        "new_pwd_placeholder": "Introduce la contraseña",
-        "confirm_pwd": "Confirmar Contraseña",
-        "confirm_pwd_placeholder": "Las contraseñas no coinciden",
-        "unknown_err_msg": "El Wi-Fi se apaga durante la inicialización del router, por favor compruebe que su dispositivo cliente se ha vuelto a conectar al router."
+        "new_pwd_placeholder": "Introducir la contraseña",
+        "confirm_pwd": "Confirmar la contraseña",
+        "confirm_pwd_placeholder": "Las contraseñas no coinciden, deben ser idénticas",
+        "unknown_err_msg": "El Wi-Fi se apaga durante la inicialización del router, por favor compruebe que su dispositivo cliente se ha vuelto a conectar al router.",
+        "htmode_160_label": "Ancho de Banda dinámico de 160 Mhz",
+        "welcome_slogan": "Bienvenidos a GL.iNet!",
+        "set_wifi_title": "Configurar la red Wi-Fi",
+        "htmode_160_tips": "El ancho de banda dinámico de 160 Mhz ofrece tanto un mayor rendimiento como una señal con mejor cubrimiento. Después de activar esta función es necesario esperar unos momentos para que el enrutador detecte si hay señales de radar presentes y así evitar problemas de interferencia.",
+        "wifi_restart_loading_text": "Puede tomar algunos segundos, por favor esperar.",
+        "pwd_inconsistencies": "Hay inconsistencias en la clave de seguridad",
+        "reconnected_wifi_loading_text": "Favor asegurarse de que el enrutador se haya conectado nuevamente a la siguiente red Wi-Fi.",
+        "ssid": "Nombre de la red Wi-Fi (SSID)",
+        "key": "Clave de la red Wi-Fi",
+        "wifi_code_text": "Hacer una búsqueda para conectar",
+        "wifi_scan_code_tips": "La contraseña de WiFi se puede modificar individualmente en el Panel de Administración."
     }
 }

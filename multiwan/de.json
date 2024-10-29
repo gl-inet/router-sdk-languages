@@ -1,13 +1,13 @@
 {
     "multiwan": {
         "tips": "Der Router unterstützt mehrere Internetverbindungen gleichzeitig. Sie können festlegen, wie diese verwendet werden sollen.",
-        "failover_desc": "Ausfallsicherung: Falls die verwendete Verbindung fehlschlägt, wird der Router automatisch auf eine andere Schnittstelle umschalten.",
+        "failover_desc": "Ausfallsicherung: Falls die verwendete Verbindung fehlschlägt, wird der Router automatisch zu einer aktiven Schnittstelle wechseln.",
         "mode_label": "Modus",
-        "mode_failover_tips": "Der Router wählt automatisch die verfügbare Schnittstelle mit der höchsten Priorität.",
-        "balancing_desc": "Lastverteilung: Verwendung mehrerer Schnittstellen zur selben Zeit, um die Bandbreite des Routers zu erhöhen. Bitte beachten, dass Verbindungen für die gleiche Anwendung oder den gleichen Standort normalerweise nur eine Schnittstelle benutzen.",
+        "mode_failover_tips": "Der Router wählt automatisch die aktive Schnittstelle mit der höchsten Priorität.",
+        "balancing_desc": "Lastverteilung: Gleichzeitige Verwendung von mehreren Schnittstellen, um die gesamte Bandbreite des Routers zu erhöhen. Aber eine einzelne Verbindungen für die gleiche Anwendung oder zum gleichen Standort verwendet normalerweise nur eine Schnittstelle.",
         "track_desc": "Der Router überwacht den Verbindungsstatus zur Ziel IP-Adresse, um festzustellen, ob die Schnittstelle verfügbar ist.",
-        "mode_balancing_tips": "Das System weist den neuen Verbindungen die Schnittstellen gemäß dem Lastverhältnis zu.",
-        "mode_balancing_note": "Hinweis: Es ist nicht sichergestellt, dass bestehende Verbindungen oder Daten dem Lastverhältnis entsprechen.",
+        "mode_balancing_tips": "Das System weist neuen Verbindungen eine Schnittstelle nach konfiguriertem Lastverhältnis zu.",
+        "mode_balancing_note": "Hinweis: Bestehende Verbindungen oder Daten werden nicht nach dem konfigurierten Lastverhältnis verteilt.",
         "failover_label": "Ausfallsicherung",
         "balancing_label": "Lastverteilung",
         "track_title": "Schnittstellen Statusüberwachung",
@@ -33,9 +33,15 @@
         "sensitivity_tips": "Die Empfindlichkeit gibt an wie oft die Internetverfügbarkeit geprüft wird. Je geringer das Intervall, desto schneller findet ein Schnittstellenwechsel statt. Verwende eine geringe Empfindlichkeit, wenn die Internetverbindung instabil ist um häufige Wechsel zu vermeiden. Eine hohe Empfindlichkeit wird empfohlen für Video oder Live-Streaming, um schnell auf das nächste verfügbare Netzwerk zu wechseln, diese Einstellung kann aber zu mehr Verbindungsabbrüchen führen. Bitte diese Einstellung mit Vorsicht anpassen.",
         "balancing_warning_tips": "Mindestens zwei Schnittstellen mit nicht-null Lastverhältnis müssen konfiguriert werden, damit die Lastverteilung arbeiten kann. Wenn es keine nicht-null Lastverhältnis Schnittstelle mit Internetverbindung gibt, kann das Gerät keine Internetverbindung herstellen.",
         "track_mode_label": "Modus für geringe Daten",
-        "track_mode_tips": "Aktiviere diesen Schalter um nur zu überprüfen ob ein Schnittstellenfehler vorliegt. Diese Einstellung ist ratsam für 'geringen Datenverbrauch' bei einem Vertrag mit begrenztem Datenvolumen.",
+        "track_mode_tips": "Wenn diese Option aktiviert ist, wird nur ein Netzwerkfehler der Schnittstelle erfasst. Es wird empfohlen, diese Option für Schnittstellen zu aktivieren, die Datenverkehr abrechnen.",
         "network_tracking_title": "{interface} Status",
-        "sensitivity_options_label": "Einstellung der Empfindlichkeit"
+        "sensitivity_options_label": "Einstellung der Empfindlichkeit",
+        "det_mode_label": "Erkennungsmodus",
+        "strict_mode_label": "Strenger Modus",
+        "normal_label": "Normal",
+        "strict _label": "Streng",
+        "low_data_label": "Datenarm",
+        "det_mode_tips": "Der Normalmodus ist standardmäßig in Gebrauch, der datenarme Modus zeichnet nur auf, wenn ein Netzwerkfehler an der Schnittstelle auftritt, und der strenge Modus bestimmt den Status der Schnittstelle ausschließlich anhand der Ergebnisse eines Erkennungsbefehls von einer öffentlichen IP."
     },
-    "menu_multiwan": "Multi-WAN"
+    "menu_multiwan": "Multi WAN"
 }

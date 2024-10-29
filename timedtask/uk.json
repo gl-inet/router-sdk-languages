@@ -1,1 +1,24 @@
-{}
+{
+    "timedtask": {
+        "off_time_label": "Час вимкнення",
+        "host_wifi_title": "Основний Wi-Fi",
+        "desc": "Якщо пристрій буде вимкнено у встановлений час, завдання не буде виконано.",
+        "on_time_label": "Час включення",
+        "reboot_title": "Запланований перезапуск",
+        "reboot_time_label": "Час перезапуску",
+        "wifi_mode_label": "Режим Wi-Fi за розкладом",
+        "wifi_turn_onoff_label": "Увімкнення/Вимкнення",
+        "wifi_power_switch_label": "Перемикання потужності передачі",
+        "enable_wifi_label": "Увімкнути розклад основного Wi-Fi",
+        "enable_guest_wifi_label": "Увімкнути розклад гостьового Wi-Fi",
+        "guest_wifi_title": "Гостьовий Wi-Fi",
+        "switch_label": "Встановити на",
+        "switch_time_label": "Перемикання",
+        "restore_label": "Встановити на",
+        "restore_time_label": "Відновити",
+        "enable_scheduled_label": "Увімкнути за розкладом",
+        "led_title": "Розклад роботи світлодіодного дисплея",
+        "wifi_title": "$$$$ Розклад статусу Wi-Fi"
+    },
+    "menu_timedtask": "Заплановані завдання"
+}

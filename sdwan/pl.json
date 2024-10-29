@@ -1,1 +1,18 @@
-{}
+{
+    "sdwan": {
+        "no_device_tips": "Musisz dodać urządzenie do jednej z wirtualnych sieci w {cloud}, aby użyć tej funkcji.",
+        "real_time_data_title": "Dane w czasie rzeczywistym",
+        "download_data_title": "Pobierz dane o ruchu sieciowym",
+        "real_time_data_tips": "Zawiera tylko dane urządzenia, które przeszły przez Bramę; może się to różnić od całkowitej ilości danych zgłaszanych przez dane rozliczeniowe.",
+        "nodes_title": "Topologia sieci",
+        "interface_title": "Interfejsy",
+        "interface_tips": "Możesz wyłączyć określone interfejsy uniemożliwiając im dołączenie do tej wirtualnej sieci.",
+        "upload_data_title": "Wyślij dane o ruchu sieciowym",
+        "device_tips": "Zostałeś dodany do sieci wirtualnej {network}. Proszę przejdź do {cloud}, aby zmodyfikować ustawienia.",
+        "get_start_title": "Usługi chmurowe włączone",
+        "get_start_tips": "Kliknij, aby rozpocząć korzystanie z AstroWarp!",
+        "use_tips": "AstroWarp to zaawansowana platforma SD-WAN zaprojektowana w celu zapewnienia bezproblemowej zdalnej sieci, agregacji ruchu oraz zarządzania zdalnymi urządzeniami.",
+        "enable_tips": "Po włączeniu AstroWarp, {feature} nie może być używane."
+    },
+    "menu_sdwan": "AstroWarp"
+}

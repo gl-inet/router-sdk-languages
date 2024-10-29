@@ -1,7 +1,7 @@
 {
     "upgrade": {
         "online": "Actualización en línea",
-        "compile_time": "Tiempo de Compilación",
+        "compile_time": "Tiempo de Actualización",
         "keep_setting": "Mantener la configuración",
         "keep_installed": "Mantener Paquetes ya Instalados",
         "local": "Actualización Local",
@@ -46,7 +46,26 @@
         "rc_version_disable_tips": "Tenga en cuenta que deshabilitar esta opción no devolverá automáticamente su firmware a una versión estable. Si necesita utilizar una versión estable del firmware, vaya a $$$$The Download Center $$$$.",
         "new_rc_firmware_title": "Firmware RC",
         "rc_version_enable_tips": "Si esta opción está habilitada, puede probar nuevas funciones antes de que se publique la versión estable y enviarnos sus comentarios. Tenga en cuenta que es posible que estas actualizaciones no sean estables. Por favor marque $$$$ What's New? $$$$ para obtener las últimas funciones del firmware.",
-        "check_online_err_msg": "{code}, la actualización en línea presenta un comportamiento anormal."
+        "check_online_err_msg": "{code}, la actualización en línea presenta un comportamiento anormal.",
+        "firmware_local_title": "Actualización del Firmware local",
+        "firmware_online_title": "Actualización del firmware en línea"
     },
-    "menu_upgrade": "Mejorar"
+    "menu_upgrade": "Actualizar",
+    "cellular": {
+        "online_upgrade_title": "Actualización en Línea del Módulo",
+        "go_download_btn": "Ir a Descargar",
+        "local_install_fail_tips": "La instalación de la actualización local del módulo ha fallado, por favor vuelva a subir",
+        "current_label": "Versión Actual",
+        "new_label": "Nueva Versión",
+        "downloading_tips": "Descargando el módulo......",
+        "installing_tips": "Instalando el módulo......",
+        "install_success_tips": "Módulo instalado con éxito, el dispositivo está a punto de reiniciar.",
+        "upgrading_title": "Actualizando el Módulo",
+        "is_update_tips": "El módulo está actualizado.",
+        "local_upgrade_title": "Actualización Local del Módulo",
+        "unzip_failed_tips": "Fallo en la descompresión",
+        "verify_failed_tips": "Fallo en la verificación",
+        "upgrade_tips": "Por favor, no apague durante el proceso de actualización del módulo. El dispositivo se reiniciará automáticamente después de que el módulo se actualice, lo cual puede tardar unos segundos.",
+        "local_upgrade_tips": "Cuando la red celular falla, puede intentar actualizar el módulo celular para solucionar el problema."
+    }
 }

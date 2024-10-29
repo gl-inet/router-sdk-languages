@@ -1,6 +1,6 @@
 {
     "ipv6": {
-        "tips": "Quando IPv6 è abilitato, le interfacce WAN come l'Ethernet otterranno i loro indirizzi IPv6 attraverso il DHCPv6. Puoi modificare l'IPv6 manualmente nelle impostazioni Ethernet. Alcune caratteristiche (firewall, VPN, lista dei clients, GoodCloud) non supportano ancora IPv6.",
+        "tips": "Quando IPv6 è abilitato, le interfacce WAN come Ethernet otterranno i loro indirizzi IPv6 tramite DHCPv6. È possibile anche modificare manualmente l'indirizzo IPv6 nella pagina delle impostazioni Ethernet. Alcune funzionalità (firewall, VPN, GoodCloud) non supportano ancora IPv6.",
         "note": "Nota: se si utilizzano contemporaneamente le funzioni VPN e IPv6, è probabile che queste causino una perdita di dati IPv6.",
         "enable": "Abilita",
         "mode": "Modalità",

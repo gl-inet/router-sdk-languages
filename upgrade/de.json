@@ -44,9 +44,28 @@
         "accepted_rc_tips": "Sie haben der Firmware Vorschau (Beta) zugestimmt. Bitte kontaktieren Sie uns, wenn Probleme auftreten.",
         "preview_version_title": "Vorschau Version (Beta)",
         "accept_preview_label": "Akzeptiere Vorschau Version (Beta)",
-        "rc_version_enable_tips": "Aktiviere den Schalter, für die neusten instabilen Updates, Patches, Neuerungen und Verbesserungen sobald diese verfügbar sind. Dieser Schalter bleibt aktiv, bis er manuell deaktiviert wird. Erfahre unter $$$$ What's New? $$$$ welches die neusten Features sind.",
+        "rc_version_enable_tips": "Aktiviere den Schalter, um neuste Updates, Patches, Neuerungen und Verbesserungen zu testen, bevor sie veröffentlicht werden. Diese Option bleibt aktiv, bis sie deaktiviert wird. Erfahre unter $$$$ What's New? $$$$ welches die neusten Features sind.",
         "check_online_err_msg": "{code}, das Online Upgrade ist ungewöhnlich.",
-        "rc_version_disable_tips": "Deaktiviere den Schalter, um nur die stabilen Versionen zu erhalten. Es werden keine instabilen Updates, Patches, Neuerungen und Verbesserungen mehr angeboten. Um die stabilen Versionen manuell herunterzuladen, gehe auf das $$$$ download center $$$$."
+        "rc_version_disable_tips": "Deaktiviere den Schalter, um nur die stabilen Versionen zu erhalten. Es werden keine instabilen Updates, Patches, Neuerungen und Verbesserungen mehr angeboten. Um die stabilen Versionen manuell herunterzuladen, gehe auf das $$$$ download center $$$$.",
+        "firmware_local_title": "Lokales Firmware-Upgrade",
+        "firmware_online_title": "Online-Firmware-Upgrade"
     },
-    "menu_upgrade": "Aktualisierung"
+    "menu_upgrade": "Aktualisierung",
+    "cellular": {
+        "is_update_tips": "Modul hat die aktuelle Firmware.",
+        "local_upgrade_title": "Modul Lokales Upgrade",
+        "go_download_btn": "Download starten",
+        "local_upgrade_tips": "Wenn die Mobilfunkverbindung fehlschlägt, können Sie versuchen, das Mobilfunkmodul zu aktualisieren, um das Problem zu lösen.",
+        "online_upgrade_title": "Modul Online-Upgrade",
+        "current_label": "Aktuelle Version",
+        "new_label": "Neue Version",
+        "downloading_tips": "Modul wird heruntergeladen......",
+        "installing_tips": "Modul wird installiert......",
+        "install_success_tips": "Modul erfolgreich installiert, das Gerät wird gleich neu gestartet.",
+        "unzip_failed_tips": "Dekomprimierungsfehler",
+        "upgrading_title": "Modul-Upgrade wird durchgeführt",
+        "verify_failed_tips": "Verifizierungsfehler",
+        "local_install_fail_tips": "Installation des lokalen Modul-Upgrades fehlgeschlagen, bitte erneut hochladen",
+        "upgrade_tips": "Bitte schalten Sie während des Modul-Upgrade-Prozesses nicht aus. Das Gerät wird nach dem Upgrade des Moduls automatisch neu gestartet, was einige Sekunden dauern kann."
+    }
 }

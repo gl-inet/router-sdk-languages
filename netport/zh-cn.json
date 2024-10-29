@@ -1,0 +1,17 @@
+{
+    "netport": {
+        "reset_port_tips": "您可以通过按住设备的重置按钮 4 秒钟来将{silkprint}恢复为{port}模式。",
+        "as_wan_tips": "{asWan}，客户端设备将无法再使用该网口连接并访问管理面板。请确保您的客户端可以连接 Wi-Fi 或者其他 LAN 口。",
+        "reset_as_wan_tips": "将{silkprint}恢复作为 WAN 口后",
+        "set_as_wan_tips": "一旦 {silkprint}作为 WAN 口使用",
+        "reset_as_lan_tips": "您确定要将 {silkprint}恢复成作为 LAN 口使用的状态吗？",
+        "set_as_lan_tips": "您确定要将{silkprint}切换为 LAN 口使用吗？",
+        "rate_label": "网口协商速率",
+        "as_label": "作为 {port}使用",
+        "unplug_cable_tips": "首先，请拔掉插入 {silkprint}的网线。",
+        "two_port_label": "{port1}和 {port2}",
+        "wan_lan_change_tips": "可以将 WAN 口作为 LAN 口使用。",
+        "no_wan_tips": "{silkprint}已被用作LAN(局域网)。您可以在{view}中将其设置回WAN(广域网)"
+    },
+    "menu_netport": "网口管理"
+}

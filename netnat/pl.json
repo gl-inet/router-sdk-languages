@@ -1,1 +1,10 @@
-{}
+{
+    "netnat": {
+        "wifi_reload_tips": "Przełączanie lub włączanie przyspieszenia sprzętowego wymaga ponownego załadowania modułu WIFI, z czasem oczekiwania od 10 sekund do 1 minuty.",
+        "desc": "Przyspieszenie sieci zmniejsza obciążenie procesora i przyspiesza przekazywanie pakietów danych, ale może kolidować z niektórymi funkcjami.",
+        "hwnat_label": "Przyspieszenie sprzętowe",
+        "swnat_label": "Przyspieszenie programowe",
+        "tips": "Gdy przyspieszenie sieci jest włączone, następujące funkcje nie będą działać poprawnie: Prędkość Klienta i Statystyki Ruchu, Limit Prędkości Klienta, Kontrola Rodzicielska."
+    },
+    "menu_netnat": "Przyspieszenie sieci"
+}

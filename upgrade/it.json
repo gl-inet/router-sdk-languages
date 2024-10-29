@@ -36,7 +36,7 @@
         "firmware_up_to_date": "Il firmware è aggiornato.",
         "current_firmware_title": "Firmware Attuale",
         "online_upgrading_title": "Aggiornamento Online",
-        "keep_setting_tips": "Verranno mantenute le configurazioni attuali. Dopo l'aggiornamento, verrà chiesto di reinstallare i pacchetti precendentemente installati dall'utente.",
+        "keep_setting_tips": "Se questa opzione è abilitata, le impostazioni correnti saranno mantenute e verrà richiesto di reinstallare eventuali pacchetti installati dall'utente dopo il completamento dell'aggiornamento.",
         "later_btn": "Più tardi",
         "available_update_title": "Promemoria dell'Aggiornamento",
         "ignore_text_btn": "Ignora questo aggiornamento",
@@ -44,9 +44,28 @@
         "preview_version_title": "Versione di Anteprima",
         "accept_preview_label": "Accettare il Programma di Anteprima",
         "new_rc_firmware_title": "Firmware RC",
-        "rc_version_enable_tips": "Attivate l'interruttore per ricevere gli ultimi aggiornamenti instabili, le patch, i miglioramenti e le migliorie non appena sono disponibili. Impostatelo una volta e rimarrà attivo (avete sempre la possibilità di disattivarlo in seguito). Scoprite le ultime funzionalità su $$$$ What's New? $$$$",
-        "rc_version_disable_tips": "Disattivando l'interruttore, il router invierà solo versioni stabili. Non più gli ultimi aggiornamenti, patch, miglioramenti o miglioramenti instabili. Se si desidera scaricare manualmente le versioni stabili, visitare il sito $$$$the download center$$$$.",
-        "check_online_err_msg": "{code}, l'aggiornamento online è anomalo."
+        "rc_version_enable_tips": "Se questa opzione è abilitata, è possibile provare nuove funzionalità prima dell'emissione della versione finale e fornirci un feedback. Si noti che questi aggiornamenti potrebbero non essere stabili. Si prega di controllare $$$$Novità?$$$$ per le ultime funzionalità del firmware.",
+        "rc_version_disable_tips": "Si noti che disabilitare questa opzione non farà ritornare automaticamente il firmware a una versione stabile. Se necessita di utilizzare una versione stabile del firmware, si prega di visitare il $$$$Centro Download$$$$.",
+        "check_online_err_msg": "{code}, l'aggiornamento online è anomalo.",
+        "firmware_online_title": "Aggiornamento Firmware Online",
+        "firmware_local_title": "Aggiornamento Firmware Locale"
     },
-    "menu_upgrade": "Aggiornamento"
+    "menu_upgrade": "Aggiornamento",
+    "cellular": {
+        "online_upgrade_title": "Aggiornamento Modulo Online",
+        "local_upgrade_title": "Aggiornamento Modulo Locale",
+        "go_download_btn": "Vai al Download",
+        "install_success_tips": "Modulo installato con successo, il dispositivo sta per riavviarsi.",
+        "unzip_failed_tips": "Errore di decompressione",
+        "current_label": "Versione Corrente",
+        "local_install_fail_tips": "Installazione dell'aggiornamento locale del modulo fallita, si prega di ricaricare",
+        "local_upgrade_tips": "Quando la rete cellulare non funziona, puoi provare ad aggiornare il modulo cellulare per risolvere il problema.",
+        "new_label": "Nuova Versione",
+        "downloading_tips": "Download del modulo in corso......",
+        "installing_tips": "Installazione del modulo in corso......",
+        "upgrading_title": "Aggiornamento Modulo",
+        "upgrade_tips": "Si prega di non spegnere durante il processo di aggiornamento del modulo. Il dispositivo si riavvierà automaticamente dopo l'aggiornamento del modulo, il che potrebbe richiedere alcuni secondi.",
+        "is_update_tips": "Il modulo è aggiornato.",
+        "verify_failed_tips": "Errore di verifica"
+    }
 }

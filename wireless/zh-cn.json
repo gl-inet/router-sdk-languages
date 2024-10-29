@@ -18,13 +18,19 @@
         "channel_optimization": "信道优化",
         "repeater_using_tips": "启用无线中继时，该配置项无法修改。",
         "enable": "启用 Wi-Fi",
-        "enable_dfs_tips": "若路由器使用 DFS 信道：每次 Wi-Fi 启动都需要进行信道可用性检查，期间 5G 信号无法连接，此过程需要 $$$$；若路由器检测到雷达正在使用当前信道，它将暂时断开与客户端的连接，并切换到另一个可用信道；此外，扫描周边可用网络时，5GHz Wi-Fi 将暂时关闭。",
+        "enable_dfs_tips": "如果路由器被指定使用DFS频道，则每次启用Wi-Fi时都需要进行频道可用性检查，在此期间5GHz信号将无法用于连接，此过程需要一段时间。如果路由器检测到雷达正在使用当前频道，它将暂时与客户端断开连接，并切换到另一个可用频道；此外，在路由器扫描附近可用网络时，5GHz Wi-Fi将暂时关闭。",
         "enable_dfs": "允许使用 DFS 信道",
         "dsf_starting": "正在进行信道可用性检查，此过程需要 $$$$，请稍候……",
         "dsf_conflict": "检测到有雷达正在使用路由器当前使用的信道，5GHz Wi-Fi 将暂时无法连接。",
         "channel_auto_dfs_tips": "当您的频宽设置为 160 MHz 时，Wi-Fi 必然会使用 DFS 信道，即使您选用非 DFS 信道或者 \"$$$$\" 选项。",
         "channel_auto_tips": "当您选择 \"$$$$\" 选项，Wi-Fi 不会自动切换到 DFS 信道。",
-        "lan_guest_conflict_tips": "由于 {lan} 与 {guest} 冲突，访客 Wi-Fi 无法启动。"
+        "lan_guest_conflict_tips": "由于 {lan} 与 {guest} 冲突，访客 Wi-Fi 无法启动。",
+        "random_bssid_enabled_tips": "若此选项启用，设备会使用一个随机生成的 BSSID，并在每次重启时更新它。",
+        "random_bssid_disabled_tips": "使用固定的 BSSID 可能导致您被追踪。如果您的客户端设备需要使用固定的 BSSID，建议您将 SSID 设为隐藏。{more}",
+        "enable_random_bssid_label": "启用随机化的 BSSID",
+        "radio_bands": "无线电频段",
+        "mlo_wifi_security_tips": "WPA3-SAE适用于大多数支持MLO的设备，推荐使用此协议。",
+        "radio_bands_tips": "请选择至少两个无线频段。"
     },
     "menu_wireless": "无线"
 }

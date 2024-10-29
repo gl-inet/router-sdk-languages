@@ -102,7 +102,19 @@
         "update": "Update",
         "incorrect_formate_tips": "Incorrect formatting, please change manually or {action}",
         "one_click_process_btn": "one-click processing",
-        "tips_ttitle": "Tips"
+        "tips_ttitle": "Tips",
+        "click here_btn": "Click Here",
+        "cell_phone_num_label": "Mobile Number",
+        "sign_up_btn": "Sign Up",
+        "agree_terms_and_privacy_tips": "I have read and agree {terms} & {privacy}.",
+        "detect_btn": "Detect",
+        "email_box_label": "Email",
+        "switch_btn": "Switch",
+        "exit_btn": "Exit",
+        "done_btn": "Done",
+        "upgrade_btn": "Upgrade",
+        "setp_label": "Step {num}:",
+        "join_btn": "Join"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -116,7 +128,11 @@
         "interface_timeout": "Operation timed out. Please check the network environment or reboot the device.",
         "processing": "Processing...",
         "please_note": "Please note:",
-        "port_occupied": "{name} port occupied"
+        "port_occupied": "{name} port occupied",
+        "send_success_tips": "Send successfully!",
+        "sign_up_success": "Registered successfully!",
+        "successfully_badge_tips": "Successfully!",
+        "lack_of_memory_tips": "Due to lack of memory, if you want to upgrade the firmware, you can try to reboot the device."
     },
     "date": {
         "day": "day(s)",
@@ -127,11 +143,18 @@
         "thursday": "Th | Thursday",
         "friday": "Fr | Friday",
         "saturday": "Sa | Saturday",
-        "second": "{count} second | {count} seconds",
+        "second": "{count} Second | {count} Seconds",
         "min": "{count} Minute | {count} Minutes",
         "hour": "{count} Hour | {count} Hours",
         "for_last_time": "Last {time}",
-        "ms": "ms"
+        "ms": "ms",
+        "day_time": "{count} Day | {count} Days",
+        "week": "{count} Week | {count} Weeks",
+        "month": "{count} Month | {count} Months",
+        "year": "{count} Year | {count} Years",
+        "day_var": "Day {count}",
+        "quarter": "Quarter",
+        "month_list": "January|February|March|April|May|June|July| August|September|October|November|December"
     },
     "internet": {
         "connected": "Connected",
@@ -152,21 +175,36 @@
         "ttl_tips": "TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator.",
         "hl_tips": "In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.",
         "net_trouble_guide_link": "Network Troubleshooting Guide",
-        "wan_label": "WAN",
-        "lan_label": "LAN",
-        "wan_lan_label": "WAN/LAN",
-        "lan1_label": "LAN 1",
+        "wan_label": "WAN Port",
+        "lan_label": "LAN Port",
+        "wan_lan_label": "WAN/LAN Port",
+        "lan1_label": "LAN 1 Port",
         "mac_addr_label": "MAC Address",
-        "mac_real_label": "Real",
+        "mac_real_label": "Factory",
         "clone_label": "Clone",
         "random_btn": "Random",
         "current_client_label": "Current Client",
-        "disguise_mac_label": "Disguised MAC address",
+        "disguise_mac_label": "Camouflaged MAC address",
         "random_mac_label": "Randomized MAC address",
-        "clone_mac_label": "Cloned MAC address"
+        "clone_mac_label": "Cloned MAC address",
+        "mac_format_tips": "the least significant bit of the first octet is not allowed set to 1 (i.e. the second hexadecimal digit is not allowed odd).",
+        "mtu_general_tips": "If you set a value higher/lower than the supported range of the device, the device uses the supported maximum/minimum value.",
+        "mtu_ipv6_warning_tips": "IPv6 cannot work when MTU is lower than 1280.",
+        "illegal_subnet_tips": "Illegal subnets, the last three bits must be 0.",
+        "illegal_subnet_mask_tips": "Illegal mask, since the subnet is {subnet}, the mask cannot be less than {min}.",
+        "mode_label": "{tab} Mode",
+        "auto_update_mac_time_label": "By Time",
+        "auto_update_mac_label": "Auto Update MAC",
+        "auto_update_mac_tips": "If this option is enabled, the MAC can update automatically.",
+        "auto_update_mac_strategy_label": "Auto Update MAC Strategy",
+        "mac_replacement_label": "MAC Replacement Cycle",
+        "mac_replacement_tips": "The MAC can update at the update time point, and if the MAC is still in use at this time, it will update after the next time you reconnect to the network.",
+        "recheck_btn": "Re-detect",
+        "duplex_full_label": "{speed} Mbps full duplex",
+        "duplex_half_label": "{speed} Mbps half duplex"
     },
     "upload": {
-        "select_or_drag": "Select a file or drag it here",
+        "select_or_drag": "Select a file to upload or drag it here",
         "file_include": "File types include",
         "success": "Upload successful",
         "reupload": "Re-upload file",
@@ -180,6 +218,25 @@
         "battery_err_tips": "The system does not detect the battery module, check the power connection or battery for damage.",
         "limit_tips": "Data must not exceed {count} entries.",
         "feature_unusable_tips": "This feature does not work because {feature} is enabled.",
-        "no_internet_base_tips": "Please check your internet environment and try again."
+        "no_internet_base_tips": "Please check your internet environment and try again.",
+        "lost_account_btn": "Lost Account?",
+        "forget_password_btn": "Forget Password?"
+    },
+    "err": {
+        "network_not_reachable_msg": "Network not reachable",
+        "abnormal_operation_msg": "Operational exception",
+        "param_illegal_msg": "Illegal parameter, operation failed."
+    },
+    "subscription": {
+        "url_label": "Subscription URL",
+        "manual_label": "Manual",
+        "url_err_tips": "Please enter the correct URL link."
+    },
+    "vaildate": {
+        "only_letters_num_allowd_tips": "Only letters and numbers are allowed",
+        "invalid_line_label": "Invalid Line Number: {num}",
+        "only_allowd_input_tips": "Only {limit} is allowed to be entered.",
+        "only_num_letter_symbol_tips": "Only letters, numbers and symbols {symbol} are allowed",
+        "min_max_length_tips": "{min} - {max} characters"
     }
 }

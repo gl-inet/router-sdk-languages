@@ -1,1 +1,37 @@
-{}
+{
+    "plugins": {
+        "update": "Frissítés",
+        "install": "telepítés",
+        "uninstall": "eltávolítás",
+        "no_packages": "Nem találhatók csomagok",
+        "free_space": "Szabad terület:",
+        "filter": "Szűrés",
+        "search_package": "Csomag keresése",
+        "name": "Név",
+        "version": "Verzió",
+        "size": "Méret",
+        "action": "Művelet",
+        "confirm_uninsatll_dependency": "Függőségek eltávolítása",
+        "all": "Mind",
+        "no_install": "Nincs telepítve",
+        "installed": "Telepített",
+        "available_update": "Frissíthető",
+        "user_retention": "Fenntartott",
+        "install_success": "Telepítés sikeres",
+        "install_faile": "Telepítés sikertelen",
+        "uninstall_success": "Eltávolítás sikeres",
+        "uninstall_faile": "Eltávolítás sikertelen",
+        "package_info": "Csomag leírása",
+        "go": "Ugrás",
+        "uninstall_caution": "A következő csomag eltávolítására készül:",
+        "tips": "Nem sikerült a tárolók lekérdezése. Kérem, ellenőrizze a kapcsolatot, majd próbálja újra!",
+        "system": "rendszer",
+        "system_tip": "Ez a csomag a rendszer alapvető részét képezi, emiatt nem lehet eltávolítani.",
+        "time_last_update": "Utoljára frissítve:",
+        "loading_tips": "Lista frissítése folyamatban. Kérem, várjon...",
+        "edit_sources_btn": "Források kezelése",
+        "add_sources_tips": "A tömörített forrásfájlnak src/gz fájltípusnak kell lennie.",
+        "add_sources_title": "Tároló hozzáadása"
+    },
+    "menu_plugins": "Bővítmények"
+}

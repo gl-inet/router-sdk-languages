@@ -1,1 +1,20 @@
-{}
+{
+"adguardhome": {
+"top_blocked_domain": "Tiltott lekérdezések listája",
+"top_queried_domain": "Lekérdezések listája",
+"dns_querie_title": "Lekérdezések",
+"blocked_filtering_title": "Tiltott lekérdezések",
+"replaced_safebrowsing_title": "Adathalász/fertőző lekérdezések",
+"for_last_one_day": "Az elmúlt 24 órában",
+"for_last_days": "Az elmúlt $$$$ napban",
+"domain_th": "Cím",
+"request_th": "Alkalom",
+"no_data": "Nincs adat",
+"tips": "Részletes konfiguráláshoz nyissa meg az AdGuard Home $$$$irányítópultját$$$$!",
+"replaced_parental_title": "Felnőtt tartalmú lekérdezések",
+"desc": "Az AdGuard Home egy hálózati reklámszűrő, ami szűri a reklámokat és a nyomkövető sütiket. Beállítást követően minden csatlakozó eszközön védelmet nyújt. Nem igényli további alkalmazás telepítését vagy eszközönkénti beállítást. Ez a felület kizárólag az AdGuard Home API által nyújtott statisztikai adatokat jeleníti meg. Engedélyezés esetén az útválasztó az AdGuard Home DNS-kiszolgálóit fogja használni.",
+"not_disabled_dns_msg": "Nincs más DNS letiltva",
+"process_req_label": "Az AdGuard Home kezeli a klienskéréseket",
+"process_req_tips": "Ha ez az opció engedélyezve van, a klienseszközök DNS-lekérdezéseit közvetlenül az AdGuard Home fogja kezelni. Az AdGuard Home meg fogja jeleníteni a kliensek DNS-lekérdezéseinek naplóit, de ez azt eredményezheti, hogy a domain alapú VPN-szabályok nem fognak működni."
+}
+}

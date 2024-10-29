@@ -4,7 +4,8 @@
         "no_config_tips": "在未添加 $$$$ 客户端配置的情况下，拨动开关将不会生效。",
         "no_func_babel": "无功能",
         "startup_tips": "注意：当设备启动后，如果拨动开关处于打开状态，{func} 将会启用，否则它将被禁用。",
-        "auto_sync_tips": "是否立即根据拨动开关的状态启用/禁用 {func}？"
+        "auto_sync_tips": "是否立即根据拨动开关的状态启用/禁用 {func}？",
+        "vpn_client_tips": "您需要在 {meunKey} 中设置 {vpnType}的配置文件，拨动开关才能正常工作。"
     },
     "menu_btnsettings": "拨动开关设置"
 }

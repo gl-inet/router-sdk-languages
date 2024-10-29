@@ -1,0 +1,33 @@
+{
+    "adminpw": {
+        "title": "Administratoriaus slaptažodis",
+        "old_pwd": "Senas/Buvusis slaptažodis",
+        "new_pwd": "Naujas slaptažodis",
+        "confirm_pwd": "Patvirtinkite slaptažodį",
+        "warning": "Jūsų naujas slaptažodis negali būti toks pat, kaip senas/buvusis slaptažodis",
+        "confirm_pwd_tips": "Įveskite naują slaptažodį dar kartą",
+        "old_pwd_tips": "Įveskite seną/buvusį slaptažodį",
+        "new_pwd_tips": "Įveskite naują slaptažodį",
+        "old_pwd_error": "Senas/Buvusis slaptažodis yra neteisingas!"
+    },
+    "security": {
+        "local_access_title": "Vietinis prieigos valdymas",
+        "redirect_https_label": "Priversti „HTTPS“ veikimą",
+        "session_timeout_label": "Automatinio atsijungimo laikas",
+        "apply_success_tips": "Sėkmingai pritaikyta; laukiama, kol tinklalapio serveris pasileis iš naujo.",
+        "remote_access_title": "Nuotolinės prieigos valdymas",
+        "enable_ping_label": "Leisti veiksmą – ryšio atsakas iš „WAN“",
+        "enable_https_label": "„HTTPS“ nuotolinė prieiga",
+        "enable_ssh_label": "„SSH“ nuotolinė prieiga",
+        "enable_ipaddr_label": "Leisti nuotolinę prieigą tik iš konkrečių IPs (dgs.) adresų",
+        "enable_ipaddr_tips": "Pridėkite kelis konkrečius IP adresus, kad galėtumėte valdyti maršrutizatorių iš šio įrenginio.",
+        "ipaddr_list_label": "IP adresų sąrašas",
+        "no_ipaddr_list_label": "Nėra IP adreso",
+        "add_ipaddr_btn": "Pridėti IP adresą",
+        "port_disabled_tips": "Šis prievadas yra uždraustas naršyklės",
+        "add_ipaddr_tips": "Pavyzdys, kaip ir kokio stiliaus galite įvesti IP adresą (taip pat palaiko IPv6 formatą), pvz.: 192.168.8.1.",
+        "session_timeout_tips": "Intervalas tarp naršyklės puslapio uždarymo ar žiemojimo ir atsijungimo iš sistemos.",
+        "port_conflict_tips": "Šis prievadas jau naudojamas."
+    },
+    "menu_security": "Saugumas"
+}

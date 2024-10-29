@@ -32,10 +32,16 @@
         "sensitivity_tips": "Deze gevoeligheid bepaalt het tijdsinterval voor detectie van de internetstatus. Het wordt aanbevolen om een lage gevoeligheid te gebruiken wanneer de internettoegang instabiel is, om te voorkomen dat er regelmatig van netwerk wordt gewisseld; het wordt aanbevolen om hoge gevoeligheid te gebruiken bij video- of livestreaming om ervoor te zorgen dat u snel van internettoegang kunt wisselen; Als u overschakelt naar hoge gevoeligheid, kan dit tot gevolg hebben dat de netwerkverbinding wordt verbroken. Pas dit met voorzichtigheid aan.",
         "tips": "De router ondersteunt verbindingen met meerdere netwerkpoorten tegelijkertijd. U kunt configureren hoe deze meerdere netwerken moeten worden gebruikt.",
         "failover_desc": "Failover: Als de huidige, actieve verbinding uitvalt, schakelt de router automatisch over naar een andere netwerkpoort.",
-        "balancing_desc": "Belastingsbalans: gebruikt meerdere netwerkpoorten tegelijkertijd om de totale bandbreedte van de router te vergroten.",
+        "balancing_desc": "Load Balancing: Gebruikt tegelijkertijd meerdere netwerkinterfaces om de totale bandbreedte van de router te vergroten. Let op dat verbindingen met dezelfde applicatie of site gewoonlijk slechts één interface gebruiken.",
         "flush_track_tips": "Als deze optie is ingeschakeld en de status van de netwerkpoort wordt verandert, ververst de router alle bestaande gegevensstromen om er zeker van te zijn dat de netwerkpoort met de hoogste prioriteit gebruiken. Dit voorkomt onnodig verkeersverlies, maar kan leiden tot een toename van de netwerkvolatiliteit (sommige VPN's maken mogelijk niet onmiddellijk opnieuw verbinding).",
         "balancing_warning_tips": "Er moeten ten minste twee netwerkpoorten met niet-nul belastingsverhoudingen worden geconfigureerd om de gebalanceerde belasting goed te laten werken. Als er geen verbindbare netwerkpoort is met een belastingsratio die niet nul is, kan het apparaat geen verbinding maken met internet.",
-        "track_mode_tips": "Schakel de schakelaar om alleen bij te houden wanneer er zich een netwerkpoortfout voordoet, en raad gebruikers aan om de Low Data Mode te gebruiken als u een beperkt data-abonnement heeft."
+        "track_mode_tips": "Als deze optie is ingeschakeld, zal het alleen tracking uitvoeren wanneer er een probleem is bmmet een interface. Het wordt aanbevolen om dit in te schakelen voor interfaces die gebruikmaken van dataverkeer facturering.",
+        "det_mode_label": "Detectiemodus",
+        "strict _label": "Strikt",
+        "normal_label": "Normaal",
+        "low_data_label": "Weinig data",
+        "strict_mode_label": "Strikte modus",
+        "det_mode_tips": "De normale modus wordt standaard gebruikt, de modus met weinig data registreert alleen wanneer er een netwerkfout optreedt bij een interface, en de strikte modus bepaalt de status van de interface uitsluitend op basis van de resultaten van een detectieopdracht vanaf een openbaar ip."
     },
     "menu_multiwan": "Multi-WAN"
 }

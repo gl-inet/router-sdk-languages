@@ -1,1 +1,17 @@
-{}
+{
+    "login": {
+        "login": "Logowanie",
+        "admin_password": "Hasło administratora",
+        "password_hint": {
+            "placeholder": "Proszę wprowadzić hasło",
+            "null": "OSTRZEŻENIE: Nie może być puste!"
+        },
+        "forgot_password": {
+            "title": "Zapomniałeś hasła",
+            "desc": "Spróbuj przytrzymać przycisk 'Reset' przez 10 sekund, a następnie puść. Zobaczysz mrugające diody LED. Poczekaj, aż router się zrestartuje, a następnie zacznij ponownie.",
+            "online_docs": "Dokumentacja online"
+        },
+        "err_msg": "Nieprawidłowa nazwa użytkownika lub hasło!",
+        "retry_after": "Zbyt wiele nieudanych prób logowania, spróbuj ponownie za $$$$ sekund."
+    }
+}

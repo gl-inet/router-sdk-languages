@@ -1,11 +1,11 @@
 {
     "firewall": {
-        "port_forwards": "Port Forwarding",
+        "port_forwards": "Inoltro Porte",
         "open_ports_on_router": "Porte aperte del Router",
-        "port_forwards_desc": "Se nella tua sottorete LAN hai dei server e vuoi che siano accessibili dalla parte WAN, devi configurare l'inoltro delle porte a questi server, identificati dai tuoi indirizzi IP e dalle porte.",
+        "port_forwards_desc": "Se hai server nella tua sottorete LAN e desideri che siano accessibili dal lato WAN, devi impostare l'inoltro delle porte a questi server, identificati da indirizzi IP e porte. Il dispositivo darà priorità alla regola di più alta priorità in caso di conflitto tra le {external_ports} di due regole abilitate.",
         "open_port_on_router_dest": "Per ragioni di sicurezza, i servizi che installerrai nel dispositivo sono aperti solo alla rete LAN. Se vuoi che siano accessibili dalla rete WAN, dovrai aprire le rispettive porte per questi servizi nella WAN.",
         "dmz_desc": "La DMZ consente di esporre un computer locale ad Internet, così che tutti i pacchetti in entrata vengano reindirizzati a questo computer.",
-        "dmz_tips": "L'attivazione di DMZ invaliderà il Port Forwarding e le regole delle porte aperte.",
+        "dmz_tips": "Se abiliti DMZ, le tue regole di inoltro porte e di apertura porte non avranno effetto.",
         "open_dmz": "Abilita DMZ",
         "dmz_host_ip": "DMZ Host IP",
         "name": "Nome",
@@ -19,14 +19,20 @@
         "action": "Azione",
         "no_data": "Nessuna configurazione",
         "delete_all_port_tips": "Sei sicuro di voler eliminare tutte le regole?",
-        "add_port_forwards_title": "Aggiungi una nuova regola di Port Forwarding",
-        "edit_port_forwards_title": "Modifica le regole di Port Forwarding",
+        "add_port_forwards_title": "Aggiungi Nuova Regola di Inoltro Porte",
+        "edit_port_forwards_title": "Modifica Regola di Inoltro Porte",
         "edit_router_prot_title": "Modifica la porta aperta",
         "add_router_prot_title": "Aggiungi una nuova porta aperta",
         "confirm_delete_tips": "Sei sicuro di voler eliminare la voce?",
         "source": "Sorgente (zona, porta)",
         "dest": "Destinazione (zona, IP, porta)",
-        "enable": "Attiva"
+        "enable": "Attiva",
+        "dmz_priority_higher_label": "Massima",
+        "dmz_priority_lower_label": "Minima",
+        "priority_label": "Priorità",
+        "adjust _priority_btn": "Regola Priorità",
+        "port_range_tips": "{exPort} non corrisponde all'intervallo di {inPort}.",
+        "port_value_tips": "L'intervallo delle porte è da 1 a 65535. È possibile impostare una singola porta o definire l'intervallo di porte concatenando il primo e l'ultimo numero di porta con il simbolo - (ad esempio 501-510)."
     },
     "menu_firewallview": "Firewall"
 }

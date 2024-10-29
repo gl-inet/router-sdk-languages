@@ -8,7 +8,7 @@
         "netmask": "子网掩码",
         "username": "用户名",
         "password": "密码",
-        "ssid": "SSID",
+        "ssid": "无线网络名称（SSID）",
         "channel": "信道",
         "setting": "设置",
         "required": "必填",
@@ -102,7 +102,19 @@
         "update": "更新",
         "incorrect_formate_tips": "格式不正确，请手动更改或{action}",
         "one_click_process_btn": "一键处理",
-        "tips_ttitle": "提示"
+        "tips_ttitle": "提示",
+        "click here_btn": "点击此处",
+        "cell_phone_num_label": "手机号码",
+        "sign_up_btn": "注册",
+        "email_box_label": "邮箱",
+        "agree_terms_and_privacy_tips": "我已阅读并同意{terms} 和 {privacy}。",
+        "detect_btn": "检测",
+        "switch_btn": "切换",
+        "exit_btn": "退出",
+        "done_btn": "已完成",
+        "upgrade_btn": "升级",
+        "setp_label": "步骤 {num}：",
+        "join_btn": "加入"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -116,10 +128,14 @@
         "unknown_err": "发生未知错误。请检查网络环境或重启设备。",
         "processing": "正在处理......",
         "please_note": "请注意：",
-        "port_occupied": "{name}端口已被占用"
+        "port_occupied": "{name}端口已被占用",
+        "send_success_tips": "发送成功",
+        "sign_up_success": "注册成功！",
+        "successfully_badge_tips": "成功！",
+        "lack_of_memory_tips": "由于内存不足，如果要升级固件，可以尝试重启设备。"
     },
     "date": {
-        "day": "执行日期",
+        "day": "天",
         "wednesday": "三 | 周三",
         "sunday": "日 | 周日",
         "monday": "一 | 周一",
@@ -131,7 +147,14 @@
         "min": "{count} 分钟 | {count} 分钟",
         "hour": "{count} 小时 | {count} 小时",
         "for_last_time": "最近 {time}",
-        "ms": "毫秒"
+        "ms": "毫秒",
+        "day_time": "{count} 天 | {count} 天",
+        "week": "{count} 周| {count} 周",
+        "month": "{count} 月| {count} 月",
+        "year": "{count} 年 | {count} 年",
+        "quarter": "季度",
+        "month_list": "一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月",
+        "day_var": "第{count}天"
     },
     "internet": {
         "connected": "已连接",
@@ -149,7 +172,7 @@
         "client": "客户端",
         "enabled": "已启用",
         "disabled": "已禁用",
-        "net_trouble_guide_link": "网络故障排除指南",
+        "net_trouble_guide_link": "网络故障处理指南",
         "ttl_tips": "TTL（Time To Live）设置了数据包在网络中生存的最大时间，根据运营商要求进行填写。",
         "hl_tips": "HL（Hop Limit），在IPv6中，该字段用于限制数据包在网络中的传输跳数，相当于IPv4的TTL。",
         "wan_label": "WAN 口",
@@ -163,7 +186,22 @@
         "disguise_mac_label": "伪装的 MAC 地址",
         "random_mac_label": "随机的 MAC 地址",
         "clone_mac_label": "克隆的 MAC 地址",
-        "mac_real_label": "真实"
+        "mac_real_label": "出厂",
+        "mac_format_tips": "第一个字节的最低位不允许设置为 1（即第二个十六进制数字不允许为奇数）。",
+        "mtu_general_tips": "如果您设置了高于或低于设备支持范围的数值，设备会使用支持的最大或最小值。",
+        "mtu_ipv6_warning_tips": "MTU 低于 1280 时 IPv6 无法工作。",
+        "illegal_subnet_tips": "不合规的子网，最后三位比特必须为 0。",
+        "illegal_subnet_mask_tips": "不合规的掩码，由于子网为 {subnet}，掩码不能小于 {min}。",
+        "auto_update_mac_strategy_label": "自动更新MAC策略",
+        "mode_label": "{tab} 模式",
+        "auto_update_mac_time_label": "按时间",
+        "auto_update_mac_label": "自动更新MAC",
+        "auto_update_mac_tips": "启用此选项后，MAC可以自动更新。",
+        "mac_replacement_label": "MAC更换周期",
+        "mac_replacement_tips": "MAC可以在更新时间点更新，如果此时MAC仍在使用，则在下次重新连接网络时更新。",
+        "duplex_full_label": "{speed} Mbps全双工",
+        "duplex_half_label": "{speed} Mbps半双工",
+        "recheck_btn": "重新检测"
     },
     "upload": {
         "file_include": "文件类型包括",
@@ -180,6 +218,25 @@
         "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。",
         "limit_tips": "数据不能超过 {count} 条。",
         "feature_unusable_tips": "由于 {feature} 已启用，此功能无法正常工作。",
-        "no_internet_base_tips": "请您检查网络环境后重试。"
+        "no_internet_base_tips": "请您检查网络环境后重试。",
+        "forget_password_btn": "忘记密码？",
+        "lost_account_btn": "丢失账户？"
+    },
+    "err": {
+        "abnormal_operation_msg": "操作异常",
+        "network_not_reachable_msg": "无法连接网络",
+        "param_illegal_msg": "参数非法，操作失败。"
+    },
+    "subscription": {
+        "url_label": "订阅URL",
+        "manual_label": "手动",
+        "url_err_tips": "请输入正确的URL链接。"
+    },
+    "vaildate": {
+        "only_letters_num_allowd_tips": "只允许输入字母和数字",
+        "invalid_line_label": "无效行号:{num}",
+        "only_allowd_input_tips": "只允许输入{limit}。",
+        "only_num_letter_symbol_tips": "只允许使用字母、数字和符号{symbol}。",
+        "min_max_length_tips": "{min} - {max} 个字符"
     }
 }

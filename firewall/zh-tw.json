@@ -2,8 +2,8 @@
     "firewall": {
         "port_forwards": "端口轉發",
         "open_ports_on_router": "開放路由器端口",
-        "port_forwards_desc": "如果您的 LAN 子網路中有伺服器並且希望可以從 WAN 端存取它們，則需要設定到這些伺服器的連接埠轉發，並透過 IP 位址和連接埠進行識別。",
-        "open_port_on_router_dest": "出於安全原因，您在裝置上安裝的服務僅對其 LAN 網路開放。如果您希望可以從 WAN 網路存取它們，則需要在 WAN 上為這些服務開啟連接埠。",
+        "port_forwards_desc": "如果您的 LAN 子網絡中有伺服器並且希望可以從 WAN 端訪問它們，則需要設定到這些伺服器的連接埠轉發，並透過 IP 位址和連接埠進行識別。如果兩條已啟用規則的{external_ports}存在衝突，設備會優先執行高優先級的規則。",
+        "open_port_on_router_dest": "出於安全原因，您在裝置上安裝的服務僅對其 LAN 網絡開放。如果您希望可以從 WAN 網絡訪問它們，則需要在 WAN 上為這些服務開啟連接埠。",
         "dmz_desc": "DMZ 可以將局域網中設置為DMZ的設備並完全暴露給廣域網，因此所有入站數據包都將重定向到這台計算機。",
         "dmz_tips": "開啟DMZ，將導致端口轉發和打開路由端口規則失效。",
         "open_dmz": "開啟DMZ",
@@ -19,14 +19,20 @@
         "action": "操作",
         "no_data": "沒有配置信息",
         "delete_all_port_tips": "是否要刪除所有端口規則?",
-        "add_port_forwards_title": "添加新的通訊埠轉發 (Port Forward) 規則",
-        "edit_port_forwards_title": "編輯通訊埠轉發 (Port Forward) 規則",
+        "add_port_forwards_title": "添加新的通訊埠轉發 (Port Forwarding) 規則",
+        "edit_port_forwards_title": "編輯通訊埠轉發 (Port Forwarding) 規則",
         "add_router_prot_title": "添加新的開放端口",
         "edit_router_prot_title": "編輯開放端口",
         "confirm_delete_tips": "您確認要刪除該項配置嗎？",
         "source": "來源（區域、端口）",
         "dest": "轉發目標（區域，IP，端口）",
-        "enable": "啟用"
+        "enable": "啟用",
+        "dmz_priority_higher_label": "最高",
+        "dmz_priority_lower_label": "最低",
+        "adjust _priority_btn": "調整優先級",
+        "port_value_tips": "端口號範圍為 1 到 65535，可以設置單個端口號或通過 - 符號連接首尾端口號來設置端口範圍（如 501-510）。",
+        "port_range_tips": "{exPort}與{inPort}範圍不一致。",
+        "priority_label": "優先級"
     },
     "menu_firewallview": "防火牆"
 }

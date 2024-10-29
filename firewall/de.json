@@ -2,7 +2,7 @@
     "firewall": {
         "port_forwards": "Port Weiterleitung",
         "open_ports_on_router": "Öffnen Sie die Ports am Router",
-        "port_forwards_desc": "Wenn im LAN Server oder Dienste stehen, welche von außen erreichbar sein sollen, muss die Portweiterleitung auf die IP und den Port eingerichtet werden.",
+        "port_forwards_desc": "Wenn im LAN Server oder Dienste stehen, welche von aussen erreichbar sein sollen, muss die Portweiterleitung auf die IP und den Port eingerichtet werden. Es wird die höher priorisierte Regel verwendet, wenn es einen Konflikt zwischen zwei Regeln auf {external_ports} gibt.",
         "open_port_on_router_dest": "Aus Sicherheitsgründen sind auf dem Router installierte Dienste nur aus dem LAN erreichbar. Wenn die Dienste auch aus dem WAN erreichbar sein sollen, müssen die entsprechenden Ports für das WAN freigegeben werden.",
         "dmz_desc": "Mittels der DMZ können Sie einen lokalen Computer für das Internet freigeben, alle eingehenden Pakete werden an diesen Computer weitergeleitet.",
         "dmz_tips": "Falls Sie die DMZ aktivieren, werden die Regeln für Portweiterleitungen und Portöffnungen nicht beachtet.",
@@ -19,14 +19,20 @@
         "action": "Aktion",
         "no_data": "Keine Daten in der Tabelle",
         "delete_all_port_tips": "Sind Sie sicher, dass sie alle Einträge löschen möchten?",
-        "edit_port_forwards_title": "Portweiterleitung bearbeiten",
-        "add_port_forwards_title": "Neue Portweiterleitung hinzufügen",
+        "edit_port_forwards_title": "Portweiterleitungs Regel bearbeiten",
+        "add_port_forwards_title": "Neue Portweiterleitung Regel hinzufügen",
         "add_router_prot_title": "Neuen Port öffnen",
         "edit_router_prot_title": "Geöffneten Port bearbeiten",
         "confirm_delete_tips": "Sind Sie sicher, dass sie diesen Eintrag löschen möchten?",
         "source": "Quelle: (Zone, Port)",
         "dest": "Ziel: (Zone, Port)",
-        "enable": "Aktivieren"
+        "enable": "Aktivieren",
+        "dmz_priority_higher_label": "Höchste",
+        "dmz_priority_lower_label": "Niedrigste",
+        "port_range_tips": "{exPort} ist nicht gleich, wie {inPort}.",
+        "priority_label": "Priorität",
+        "adjust _priority_btn": "Priorität anpassen",
+        "port_value_tips": "Die verfügbaren Ports gehen von 1 bis 65535. Es kann ein einzelner Port angegeben werden oder ein Bereich, mit einem - (zum Beispiel 501-510)."
     },
     "menu_firewallview": "Firewall"
 }
