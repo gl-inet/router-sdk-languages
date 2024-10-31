@@ -292,7 +292,8 @@
         "wg_subscription_expired_tips": "This account subscription may have expired.",
         "ovpn_nordvpn_tips": "To ensure successful usage of the VPN, kindly enter {account}, which serve as your service credentials for NordVPN.",
         "to_setup_guide_tips": "If you don't know how to get it, please see {guide}.",
-        "accurate_account_label": "the accurate NordVPN username and password"
+        "accurate_account_label": "the accurate NordVPN username and password",
+        "wg_guide_disabled_tips": "OpenVPN is connected, turn off OpenVPN if you need to use Wireguard VPN."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
