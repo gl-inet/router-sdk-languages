@@ -264,7 +264,8 @@
         "apn_tips": "Niektóre karty SIM wymagają określonego APN. Jeśli nie znasz poprawnego APN, zapytaj swojego operatora sieci.",
         "auto_switch_label": "Automatyczne przełączanie",
         "region_code_label": "Kod kraju/regionu",
-        "band_block_warning": "Proszę nie blokować wszystkich pasm."
+        "band_block_warning": "Proszę nie blokować wszystkich pasm.",
+        "traffic_days_tips": "Maksymalna liczba dni przyjmuje wartość rzeczywistej maksymalnej liczby dni w bieżącym miesiącu."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -419,7 +420,9 @@
         "modem_sim_locked_tips": "Kod PIN został wprowadzony błędnie 3 razy, karta SIM została zablokowana, proszę odblokować ją za pomocą telefonu.",
         "modem_pin_err_tips": "Kod PIN {code} jest nieprawidłowy, pozostała {count} próba.",
         "modem_no_sim_reboot_tips": "Jeśli ponownie włożyłeś kartę SIM i nadal nie jest wykrywana, proszę odłączyć zasilanie i ponownie uruchomić router.",
-        "cable_enter_info_title": "Proszę podać informacje, które mają zostać przetłumaczone."
+        "cable_enter_info_title": "Proszę podać informacje, które mają zostać przetłumaczone.",
+        "cable_fail_try_other_tips": "Proszę spróbować innego {config}.",
+        "modem_auto_switching_tips": "Pobieranie informacji o karcie SIM, proszę czekać."
     },
     "traffic": {
         "modify_data_used_tips": "Statystyki danych mają charakter informacyjny. Rzeczywisty ruch jest określany przez operatora sieci i pojawi się na rachunku dostarczonym przez operatora sieci.",
@@ -438,6 +441,7 @@
         "save_to_flash_label": "Zapisz dane przy wyłączaniu zasilania",
         "no_saved_limit_tips": "Jeśli potrzebujesz zablokować kartę SIM na podstawie użycia danych, włącz przełącznik \"Zapisz dane przy wyłączaniu zasilania\".",
         "data_used_total_tips": "Użyte dane to dane obecnego slotu karty SIM.",
-        "over_limit_tips": "Aktualne zużycie danych przekracza ustalony limit danych, proszę zresetować limit danych lub skorygować dane ręcznie, w przeciwnym razie sieć może zostać rozłączona lub karta SIM może zostać automatycznie zmieniona."
+        "over_limit_tips": "Aktualne zużycie danych przekracza ustalony limit danych, proszę zresetować limit danych lub skorygować dane ręcznie, w przeciwnym razie sieć może zostać rozłączona lub karta SIM może zostać automatycznie zmieniona.",
+        "data_used_limit_tips": "Jeśli zużycie danych przekroczy ustalony limit danych, zresetuj limit danych lub zmodyfikuj dane ręcznie. W przeciwnym razie sieć może zostać rozłączona lub karta SIM może zostać automatycznie przełączona. Aby przełączyć slot karty SIM, proszę włączyć {do}."
     }
 }
