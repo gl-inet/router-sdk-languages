@@ -199,7 +199,8 @@
         "need_pin_tips": "La SIM è bloccata, controlla se è stato inserito un codice PIN o se il codice PIN inserito è corretto.",
         "last_pin_tips": "Se non si riesce ad accedere alla pagina di login, provare a disabilitare altre connessioni Internet (ad esempio, ethernet, cellulare).",
         "region_code_label": "Codice Paese / Regione",
-        "band_block_warning": "Si prega di non bloccare tutte le bande."
+        "band_block_warning": "Si prega di non bloccare tutte le bande.",
+        "traffic_days_tips": "Il numero massimo di giorni assume il valore del numero massimo effettivo di giorni nel mese corrente."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -419,7 +420,9 @@
         "modem_pin_tips": "Il codice PIN della scheda SIM può essere inserito 3 volte. Se il codice PIN viene inserito in modo errato per tutte e tre le volte, la scheda SIM verrà bloccata. Si prega di utilizzare un telefono cellulare per sbloccare la scheda SIM. Se non si conosce il codice PIN di questa scheda SIM, si prega di consultare il proprio ISP.",
         "modem_pin_err_tips": "Il codice PIN {code} è errato, rimane {count} ulteriore tentativo.",
         "modem_no_sim_reboot_tips": "Se dopo aver reinserito la SIM card, questa non viene ancora rilevata, si prega di spegnere e riavviare il router.",
-        "cable_enter_info_title": "Si prega di provare a farlo {do} manualmente, se non si conosce il proprio APN, si prega di contattare il proprio ISP."
+        "cable_enter_info_title": "Si prega di provare a farlo {do} manualmente, se non si conosce il proprio APN, si prega di contattare il proprio ISP.",
+        "cable_fail_try_other_tips": "Si prega di provare un'altra {config}.",
+        "modem_auto_switching_tips": "Recupero delle informazioni della scheda SIM, attendere prego."
     },
     "traffic": {
         "no_saved_limit_tips": "Se necessiti di bloccare la SIM card in base all'uso dei dati, attiva l'interruttore \"Salva dati allo spegnimento\".",
@@ -438,6 +441,7 @@
         "start_hour_label": "Ora di Inizio",
         "clear_warning_tips": "Dopo aver modificato qualsiasi configurazione di limitazione dei dati, i dati verranno cancellati. È necessario cancellare i dati?",
         "third_month_label": "Terzo Mese",
-        "over_limit_tips": "I dati attualmente utilizzati superano la soglia del limite di dati, si prega di reimpostare la soglia del limite di dati o di calibrare manualmente i dati, altrimenti la rete potrebbe essere disconnessa o la SIM potrebbe essere cambiata automaticamente."
+        "over_limit_tips": "I dati attualmente utilizzati superano la soglia del limite di dati, si prega di reimpostare la soglia del limite di dati o di calibrare manualmente i dati, altrimenti la rete potrebbe essere disconnessa o la SIM potrebbe essere cambiata automaticamente.",
+        "data_used_limit_tips": "Se i Dati Utilizzati superano la Quantità di Soglia Dati, reimpostare la Quantità di Soglia Dati o modificare i dati manualmente. In caso contrario, la rete potrebbe essere disconnessa o la scheda SIM potrebbe passare automaticamente. Per cambiare lo slot della scheda SIM, si prega di attivare {do}."
     }
 }
