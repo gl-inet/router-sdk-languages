@@ -199,7 +199,8 @@
         "pin_verify_success_tips": "PINコードの検証に成功しました。",
         "need_pin_no_history_tips": "PINコードを入力する必要があり、残り{count}回の試行が可能です。",
         "region_code_label": "国家/地区コード",
-        "band_block_warning": "すべての帯域をブロックしないでください。"
+        "band_block_warning": "すべての帯域をブロックしないでください。",
+        "traffic_days_tips": "最大日数は、現在の月の実際の最大日数の値を取ります。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -418,7 +419,10 @@
         "modem_pin_tips": "SIMカードのPINコードは3回試行できます。3回とも間違ったPINコードを入力すると、SIMカードがロックされます。携帯電話を使用してSIMカードのロックを解除してください。このSIMカードのPINコードがわからない場合は、ISPに相談してください。",
         "modem_sim_locked_tips": "PINコードが3回間違って入力されました。SIMカードがロックされていますので、携帯電話でロック解除してください。",
         "modem_pin_err_tips": "PINコード{code}が間違っています。あと{count}回のチャンスがあります。",
-        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Japanese. Please provide the text you wish to translate, and I will assist you accordingly."
+        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Japanese. Please provide the text you wish to translate, and I will assist you accordingly.",
+        "modem_no_sim_reboot_tips": "SIMカードを再挿入しても認識されない場合は、ルーターを再起動してください。",
+        "cable_fail_try_other_tips": "別の{config}を試してください。",
+        "modem_auto_switching_tips": "SIMカード情報を取得しています。お待ちください。"
     },
     "traffic": {
         "no_saved_limit_tips": "データ使用量に基づいてSIMカードをロックする必要がある場合は、「電源オフ時にデータを節約」スイッチをオンにしてください。",
@@ -437,6 +441,7 @@
         "second_month_label": "2ヶ月目",
         "sim_limit_title": "{sim} 制限設定",
         "first_month_label": "1ヶ月目",
-        "data_used_total_tips": "使用済みデータは現在のSIMカードスロットのデータです。"
+        "data_used_total_tips": "使用済みデータは現在のSIMカードスロットのデータです。",
+        "data_used_limit_tips": "使用済みデータがデータキャップ量を超えた場合は、データキャップ量をリセットするか、データを手動で修正してください。そうしないと、ネットワークが切断されたり、SIMカードが自動的に切り替わる可能性があります。SIMカードスロットを切り替えるには、{do}をオンにしてください。"
     }
 }
