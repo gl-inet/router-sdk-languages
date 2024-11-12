@@ -108,7 +108,8 @@
         "pin_locked_history_tips": "„PIM“ kodo – {value} klaida, „SIM“ kortelė buvo užrakinta.",
         "protocol_tips": "„QCM/QMI“ protokolas yra greitesnis, o 3G protokolas turi geresnį suderinamumą.",
         "region_code_label": "Šalis / Regiono kodas",
-        "band_block_warning": "Prašome neužblokuoti visų dažnių juostų."
+        "band_block_warning": "Prašome neužblokuoti visų dažnių juostų.",
+        "traffic_days_tips": "Maksimalus dienų skaičius atitinka faktiškai didžiausią dienų skaičių einamajame mėnesyje."
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -419,7 +420,9 @@
         "modem_pin_err_tips": "PIN kodas {code} yra neteisingas, liko dar {count} bandymas(-ai).",
         "modem_sim_locked_tips": "PIN kodas įvestas neteisingai 3 kartus, SIM kortelė užblokuota, prašome atrakinti ją per savo telefoną.",
         "modem_no_sim_reboot_tips": "Jei įdėjote SIM kortelę iš naujo, bet ji vis tiek nėra aptinkama, išjunkite maitinimą ir iš naujo įjunkite savo maršrutizatorių.",
-        "cable_enter_info_title": "Įveskite informaciją"
+        "cable_enter_info_title": "Įveskite informaciją",
+        "cable_fail_try_other_tips": "Pabandykite kitą {config}.",
+        "modem_auto_switching_tips": "Gaunama SIM kortelės informacija, prašome palaukti."
     },
     "traffic": {
         "sim_limit_title": "{sim} Ribojimo nustatymai",
@@ -438,6 +441,7 @@
         "no_saved_limit_tips": "Jei reikia užrakinti SIM kortelę pagal duomenų naudojimą, įjunkite jungiklį „Sutaupyti duomenis išsijungus“.",
         "over_limit_tips": "Šiuo metu naudojamų duomenų kiekis viršija nustatytą duomenų ribą, prašome atstatyti duomenų ribą arba rankiniu būdu koreguoti duomenis, kitaip tinklas gali būti atjungtas arba „SIM“ kortelė gali būti automatiškai pakeista.",
         "data_reset_period_label": "Duomenų atstatymo periodas",
-        "second_month_label": "Antras mėnuo"
+        "second_month_label": "Antras mėnuo",
+        "data_used_limit_tips": "Jei naudojamų duomenų kiekis viršija duomenų ribos kiekį, atstatykite duomenų ribos kiekį arba keiskite duomenis rankiniu būdu. Priešingu atveju, tinklas gali būti atjungtas arba SIM kortelė gali būti automatiškai pakeista. Norėdami pakeisti SIM kortelės lizdą, prašome įjungti {do}."
     }
 }
