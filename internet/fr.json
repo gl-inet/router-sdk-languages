@@ -199,7 +199,8 @@
         "need_pin_tips": "La carte SIM est verrouillée, veuillez vérifier si un code PIN a été saisi ou si le code PIN saisi est correct.",
         "last_pin_tips": "Il reste un dernier essai pour déverrouiller le code PIN de cette carte SIM, si la saisie échoue à nouveau, vous devrez utiliser le code PUK pour la déverrouiller. Pour éviter que votre carte SIM ne soit bloquée, l'appareil ne composera plus, veuillez donc utiliser votre téléphone pour la déverrouiller.",
         "region_code_label": "Code du pays / région",
-        "band_block_warning": "Veuillez ne pas bloquer toutes les bandes."
+        "band_block_warning": "Veuillez ne pas bloquer toutes les bandes.",
+        "traffic_days_tips": "Le nombre maximum de jours prend la valeur du nombre maximum réel de jours dans le mois en cours."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -419,7 +420,9 @@
         "modem_sim_locked_tips": "Le code PIN a été saisi incorrectement 3 fois, la carte SIM a été verrouillée, veuillez la déverrouiller via votre téléphone.",
         "modem_pin_err_tips": "Le code PIN {code} est incorrect, il reste {count} tentative(s) supplémentaire(s).",
         "modem_no_sim_reboot_tips": "Si vous avez déjà réinséré la carte SIM et qu'elle n'est toujours pas détectée, veuillez éteindre et redémarrer votre routeur.",
-        "cable_enter_info_title": "Votre demande n'est pas claire. Pourriez-vous fournir le texte spécifique que vous souhaitez traduire en français ?"
+        "cable_enter_info_title": "Votre demande n'est pas claire. Pourriez-vous fournir le texte spécifique que vous souhaitez traduire en français ?",
+        "cable_fail_try_other_tips": "Veuillez essayer une autre {config}.",
+        "modem_auto_switching_tips": "Obtention des informations de la carte SIM, veuillez patienter."
     },
     "traffic": {
         "data_used_label": "{sim} Données utilisées",
@@ -438,6 +441,7 @@
         "over_limit_tips": "Les données actuellement utilisées dépassent le montant de la limite de données, veuillez réinitialiser le montant de la limite de données ou calibrer les données manuellement, sinon le réseau peut être déconnecté ou la carte SIM peut être changée automatiquement.",
         "second_month_label": "Deuxième mois",
         "sim_limit_title": "Paramètres de limite pour {sim}",
-        "first_month_label": "Premier mois"
+        "first_month_label": "Premier mois",
+        "data_used_limit_tips": "Si les Données Utilisées dépassent le Montant du Plafond de Données, réinitialisez le Montant du Plafond de Données ou modifiez les données manuellement. Sinon, le réseau peut être déconnecté ou la carte SIM peut basculer automatiquement. Pour changer l'emplacement de la carte SIM, veuillez activer {do}."
     }
 }
