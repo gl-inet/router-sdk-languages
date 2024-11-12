@@ -199,7 +199,8 @@
         "last_pin_tips": "Queda un último intento para desbloquear el código PIN de esta tarjeta SIM, si no se puede ingresar nuevamente, deberá usar el código PUK para desbloquearlo. Para evitar que su tarjeta SIM quede bloqueada, el dispositivo no volverá a marcar, así que use su teléfono para desbloquearla.",
         "need_pin_tips": "La tarjeta SIM está bloqueada, verifique si se introduzco un código PIN o si el código PIN introducido es correcto.",
         "region_code_label": "Código de país / región",
-        "band_block_warning": "Por favor, no bloquees todas las bandas."
+        "band_block_warning": "Por favor, no bloquees todas las bandas.",
+        "traffic_days_tips": "El número máximo de días toma el valor del número máximo real de días en el mes actual."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -419,7 +420,9 @@
         "modem_sim_locked_tips": "Se ha introducido incorrectamente el código PIN 3 veces, la tarjeta SIM ha sido bloqueada, por favor desbloquéela a través de su teléfono.",
         "modem_pin_tips": "El código PIN de la tarjeta SIM se puede intentar 3 veces. Si el código PIN se introduce incorrectamente en las tres ocasiones, la tarjeta SIM se bloqueará. Por favor, utilice un teléfono móvil para desbloquear la tarjeta SIM. Si no conoce el código PIN de esta tarjeta SIM, consulte a su proveedor de servicios de Internet.",
         "modem_pin_err_tips": "El código PIN {code} es incorrecto, queda {count} oportunidad más.",
-        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Spanish. Please provide the text you need translated, and I will be happy to assist you."
+        "cable_enter_info_title": "To provide you with a translation, I need the specific text that you would like to have translated from English to Spanish. Please provide the text you need translated, and I will be happy to assist you.",
+        "cable_fail_try_other_tips": "Por favor, intente otra {config}.",
+        "modem_auto_switching_tips": "Obteniendo información de la tarjeta SIM, por favor espere."
     },
     "traffic": {
         "save_to_flash_tips": "Si el interruptor está activado, los datos se pueden guardar incluso después de que el dispositivo se haya apagado.",
@@ -438,6 +441,7 @@
         "data_used_total_tips": "Los datos utilizados corresponden a la ranura de la tarjeta SIM actual.",
         "second_month_label": "Segundo Mes",
         "sim_limit_title": "Configuración del límite de {sim}",
-        "first_month_label": "Primer Mes"
+        "first_month_label": "Primer Mes",
+        "data_used_limit_tips": "Si los Datos Utilizados exceden la Cantidad Límite de Datos, restablezca la Cantidad Límite de Datos o modifique los datos manualmente. De lo contrario, la red puede desconectarse o la tarjeta SIM puede cambiar automáticamente. Para cambiar la ranura de la tarjeta SIM, por favor active {do}."
     }
 }
