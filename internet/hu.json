@@ -108,7 +108,8 @@
         "band_only_warning": "Legalább egy sáv kiválasztása szükséges.",
         "current_sim_badge_label": "Aktív: SIM {sim}",
         "good_singal_label": "Jó",
-        "band_block_warning": "Kérjük, ne blokkolja az összes sávot."
+        "band_block_warning": "Kérjük, ne blokkolja az összes sávot.",
+        "traffic_days_tips": "A napok maximális száma az aktuális hónap tényleges maximális napjainak értékét veszi fel."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -419,7 +420,9 @@
         "modem_sim_locked_tips": "A PIN-kódot háromszor adták meg helytelenül, a SIM-kártya zárolva lett, kérjük, oldja fel telefonján keresztül.",
         "modem_pin_err_tips": "A PIN-kód {code} helytelen, még {count} próbálkozás van.",
         "modem_no_sim_reboot_tips": "Ha már újrahelyezte a SIM-kártyát, de még mindig nem érzékeli a SIM-kártyát, kérjük, kapcsolja ki és újraindítsa a routerét.",
-        "cable_enter_info_title": "Kérjük, adjon meg részletes információkat vagy szöveget, amit le szeretne fordítani."
+        "cable_enter_info_title": "Kérjük, adjon meg részletes információkat vagy szöveget, amit le szeretne fordítani.",
+        "cable_fail_try_other_tips": "Kérjük, próbáljon ki egy másik {config}.",
+        "modem_auto_switching_tips": "SIM-kártya információinak lekérése, kérem várjon."
     },
     "traffic": {
         "start_hour_label": "Kezdő óra",
@@ -438,6 +441,7 @@
         "modify_data_used_tips": "Az adatstatisztikák csak tájékoztató jellegűek. A tényleges forgalmat a hálózati szolgáltató határozza meg, és az Ön hálózati szolgáltatója által kiállított számlán jelenik meg.",
         "data_cap_amout_label": "Adatforgalmi korlát mennyisége",
         "data_reset_period_label": "Adatforgalom visszaállítási periódusa",
-        "over_limit_tips": "A jelenleg használt adatmennyiség meghaladja az adatforgalmi korlátot, kérjük, állítsa vissza az adatforgalmi korlát mennyiségét vagy kalibrálja az adatokat manuálisan, ellenkező esetben a hálózat megszakadhat vagy az SIM-kártya automatikusan ki lehet cserélve."
+        "over_limit_tips": "A jelenleg használt adatmennyiség meghaladja az adatforgalmi korlátot, kérjük, állítsa vissza az adatforgalmi korlát mennyiségét vagy kalibrálja az adatokat manuálisan, ellenkező esetben a hálózat megszakadhat vagy az SIM-kártya automatikusan ki lehet cserélve.",
+        "data_used_limit_tips": "Ha a felhasznált adatmennyiség meghaladja az adatplafon értékét, állítsa vissza az adatplafon mennyiségét vagy manuálisan módosítsa az adatokat. Ellenkező esetben a hálózat megszakadhat, vagy a SIM-kártya automatikusan váltódhat. A SIM-kártya helyének váltásához kérjük, kapcsolja be a {do} funkciót."
     }
 }
