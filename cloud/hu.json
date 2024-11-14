@@ -69,7 +69,9 @@
         "info_title": "Eszközinformációk",
         "service_desc": "A {service} segítségével csoportosan kezelheti a routereket, valós időben ellenőrizheti azok állapotát, távolról konfigurálhatja a routereket, kötegelt üzemmódban működtetheti azokat, figyelemmel kísérheti a csatlakoztatott klienseket, stb.",
         "bind_fail_strong_tips": "Az aktuális eszköz információi a következők. Ha segítségre van szüksége, a Műszaki Támogatásnak szüksége lehet ezekre az információkra.",
-        "sms_auth_tips": "Kérjük, adja meg a biztonságos telefonjára ({phone}) kapott megerősítő kódot."
+        "sms_auth_tips": "Kérjük, adja meg a biztonságos telefonjára ({phone}) kapott megerősítő kódot.",
+        "login_side_title": "Használja a glinet fiókját",
+        "sign_up_title": "Hozza létre a glinet fiókját"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -88,6 +90,8 @@
         "verify_code_err_msg": "Megerősítő kód hiba.",
         "phone_verify_code_err_msg": "A telefonos megerősítő kód helytelen.",
         "email_verify_code_invalid_msg": "Az e-mail megerősítő kód lejárt.",
-        "verify_code_over_limit_msg": "A küldött megerősítő kódok száma meghaladta a limitet."
+        "verify_code_over_limit_msg": "A küldött megerősítő kódok száma meghaladta a limitet.",
+        "account_not_exist_msg": "A felhasználó nem létezik.",
+        "send_msg_over_limit_msg": "Csak hetente egyszer küldhető."
     }
 }
