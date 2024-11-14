@@ -69,7 +69,9 @@
         "no_account_tips": "Nie masz konta?",
         "req_unbind_sms_btn": "Zażądaj Rozwiązania Powiązania za Pomocą Wiadomości",
         "service_disable_tips": "Usługa Chmurowa jest obecnie wyłączona.",
-        "app_auth_tips": "Proszę wprowadzić jednorazowe hasło wygenerowane przez aplikację do dwuetapowej autentykacji."
+        "app_auth_tips": "Proszę wprowadzić jednorazowe hasło wygenerowane przez aplikację do dwuetapowej autentykacji.",
+        "login_side_title": "Użyj swojego konta glinet",
+        "sign_up_title": "Utwórz swoje konto glinet"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -88,6 +90,8 @@
         "email_already_exist_msg": "Skrzynka pocztowa już istnieje.",
         "phone_already_exist_msg": "Numer telefonu komórkowego już istnieje.",
         "verify_code_over_limit_msg": "Liczba wysłanych kodów weryfikacyjnych przekroczyła limit.",
-        "phone_not_exist_msg": "Numer telefonu jest pusty."
+        "phone_not_exist_msg": "Numer telefonu jest pusty.",
+        "account_not_exist_msg": "Użytkownik nie istnieje.",
+        "send_msg_over_limit_msg": "Można wysłać tylko raz w tygodniu."
     }
 }
