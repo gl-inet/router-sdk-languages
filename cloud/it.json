@@ -69,7 +69,9 @@
         "not_support_change_bind_tips": "Spiacenti, questo dispositivo non supporta la funzione di cambiare l'account associato. Si prega di contattare il fornitore del dispositivo per ulteriore assistenza.",
         "bind_success_strong_title": "Il dispositivo è stato associato con successo",
         "bind_fail_strong_tips": "Le informazioni attuali del dispositivo sono le seguenti. Queste informazioni possono essere richieste dall'Assistenza Tecnica se necessiti di aiuto.",
-        "email_auth_tips": "Per favore inserisci il codice di verifica ricevuto sulla tua email sicura ({email})."
+        "email_auth_tips": "Per favore inserisci il codice di verifica ricevuto sulla tua email sicura ({email}).",
+        "login_side_title": "Utilizza il tuo account glinet",
+        "sign_up_title": "Crea il tuo account glinet"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -88,6 +90,8 @@
         "email_verify_code_invalid_msg": "Il codice di verifica email è scaduto.",
         "verify_code_err_msg": "Errore nel codice di verifica.",
         "phone_verify_code_err_msg": "Il codice di verifica del telefono è incorretto.",
-        "verify_code_over_limit_msg": "Il numero di codici di verifica inviati ha superato il limite."
+        "verify_code_over_limit_msg": "Il numero di codici di verifica inviati ha superato il limite.",
+        "account_not_exist_msg": "Utente non esistente.",
+        "send_msg_over_limit_msg": "Può essere inviato solo una volta a settimana."
     }
 }
