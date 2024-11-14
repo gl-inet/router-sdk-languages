@@ -70,8 +70,8 @@
         "send_reset_link_btn": "Siųsti grąžinimo sujungimą",
         "app_auth_tips": "Prašome įvesti vienkartinį slaptažodį, kurį sugeneravo jūsų dviejų veiksnių autentifikatoriaus programa.",
         "sms_auth_tips": "Prašome įvesti patvirtinimo kodą, kurį gavote į savo saugų telefoną {phone}.",
-        "login_side_title": "Naudokite savo glinet paskyrą",
-        "sign_up_title": "Sukurkite savo glinet paskyrą"
+        "login_side_title": "Naudokite savo „glinet“ paskyrą",
+        "sign_up_title": "Sukurkite savo „glinet“ paskyrą"
     },
     "menu_cloud": "„GoodCloud“",
     "cloud_err": {
@@ -81,17 +81,17 @@
         "device_not_found_msg": "Nežinoma įranga.",
         "verify_code_err_msg": "Patvirtinimo kodo klaida.",
         "phone_already_exist_msg": "Mobiliojo tel. nr. jau egzistuoja.",
-        "username_already_exist_msg": "Naudotojo vardas jau egzistuoja.",
-        "phone_verify_code_err_msg": "Telefono patvirtinimo kodas neteisingas.",
-        "account_incorrect_msg": "Naudotojo vardas arba slaptažodis neteisingas.",
+        "username_already_exist_msg": "Naudotojo/Vartotojo vardas jau egzistuoja.",
+        "phone_verify_code_err_msg": "Telefono patvirtinimo kodas yra neteisingas.",
+        "account_incorrect_msg": "Naudotojo/Vartotojo vardas arba slaptažodis yra neteisingas.",
         "server_abnormal_msg": "Serverio išimtis",
         "email_already_exist_msg": "Pašto dėžutė jau egzistuoja.",
-        "email_verify_code_invalid_msg": "El. pašto patvirtinimo kodas pasibaigė.",
+        "email_verify_code_invalid_msg": "El. pašto patvirtinimo kodo galiojimo laikas pasibaigė.",
         "verify_code_over_limit_msg": "Išsiųstų patvirtinimo kodų skaičius viršijo ribą.",
-        "email_verify_code_err_msg": "El. pašto patvirtinimo kodas neteisingas.",
-        "phone_verify_code_invalid_msg": "Telefono patvirtinimo kodas pasibaigė.",
+        "email_verify_code_err_msg": "El. pašto patvirtinimo kodas yra neteisingas.",
+        "phone_verify_code_invalid_msg": "Telefono patvirtinimo kodo galiojimo laikas pasibaigė.",
         "token_invalid_msg": "žetono panaikinimas",
-        "account_not_exist_msg": "Naudotojas neegzistuoja.",
+        "account_not_exist_msg": "Naudotojas/Vartotojas neegzistuoja.",
         "send_msg_over_limit_msg": "Gali būti siunčiama tik kartą per savaitę."
     }
 }
