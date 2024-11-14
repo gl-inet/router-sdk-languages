@@ -69,7 +69,9 @@
         "app_auth_label": "Authentifikation per App",
         "email_auth_tips": "Bitte gebe den Bestätigungscode ein, den Du per E-Mail an {email} erhalten hast.",
         "app_auth_tips": "Bitte gebe das Einmal-Passwort aus Deiner Zwei-Faktor Authentifikation App ein.",
-        "sms_auth_tips": "Bitte gebe den Bestätigungscode ein, den Du per SMS an {phone} erhalten hast."
+        "sms_auth_tips": "Bitte gebe den Bestätigungscode ein, den Du per SMS an {phone} erhalten hast.",
+        "login_side_title": "Verwenden Sie Ihr glinet-Konto",
+        "sign_up_title": "Erstellen Sie Ihr glinet-Konto"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -88,6 +90,8 @@
         "server_abnormal_msg": "Serverausnahme",
         "email_already_exist_msg": "Die E-Mail-Adresse existiert bereits.",
         "phone_already_exist_msg": "Die Mobilfunknummer existiert bereits.",
-        "verify_code_over_limit_msg": "Die Anzahl der gesendeten Bestätigungscodes ist höher als die erlaubte Menge."
+        "verify_code_over_limit_msg": "Die Anzahl der gesendeten Bestätigungscodes ist höher als die erlaubte Menge.",
+        "account_not_exist_msg": "Benutzer existiert nicht.",
+        "send_msg_over_limit_msg": "Kann nur einmal pro Woche gesendet werden."
     }
 }
