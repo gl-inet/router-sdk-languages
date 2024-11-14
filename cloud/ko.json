@@ -69,7 +69,9 @@
         "service_disable_tips": "현재 클라우드 서비스가 비활성화되어 있습니다.",
         "service_will_be_unbind_tips": "클라우드 서비스 연결이 해제될 것입니다.",
         "reset_success_msg": "재설정이 성공적으로 완료되었습니다. 다시 로그인해 주세요.",
-        "sms_auth_tips": "안전한 전화 {phone}로 받은 인증 코드를 입력해 주세요."
+        "sms_auth_tips": "안전한 전화 {phone}로 받은 인증 코드를 입력해 주세요.",
+        "login_side_title": "사용하세요 glinet 계정",
+        "sign_up_title": "glinet 계정을 생성하세요"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -88,6 +90,8 @@
         "phone_already_exist_msg": "휴대폰 번호가 이미 존재합니다.",
         "phone_not_exist_msg": "전화번호가 비어 있습니다.",
         "verify_code_over_limit_msg": "인증 코드 발송 횟수가 제한을 초과하였습니다.",
-        "email_verify_code_invalid_msg": "이메일 인증 코드가 만료되었습니다."
+        "email_verify_code_invalid_msg": "이메일 인증 코드가 만료되었습니다.",
+        "account_not_exist_msg": "사용자가 존재하지 않습니다.",
+        "send_msg_over_limit_msg": "주에 한 번만 보낼 수 있습니다."
     }
 }
