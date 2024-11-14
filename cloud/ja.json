@@ -69,7 +69,9 @@
         "reset_success_msg": "リセットに成功しました。再度ログインしてください。",
         "two_factor_auth_title": "二要素認証",
         "app_auth_tips": "二要素認証アプリで生成されたワンタイムパスワードを入力してください。",
-        "sms_auth_tips": "安全な電話{phone}で受け取った認証コードを入力してください。"
+        "sms_auth_tips": "安全な電話{phone}で受け取った認証コードを入力してください。",
+        "login_side_title": "ご利用ください、あなたのGL.iNetアカウントを",
+        "sign_up_title": "GL.iNetアカウントを作成する"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -88,6 +90,8 @@
         "phone_already_exist_msg": "携帯電話番号は既に存在しています。",
         "phone_not_exist_msg": "電話番号が空です。",
         "verify_code_over_limit_msg": "送信された認証コードの数が上限を超えました。",
-        "email_verify_code_invalid_msg": "メール認証コードが期限切れです。"
+        "email_verify_code_invalid_msg": "メール認証コードが期限切れです。",
+        "account_not_exist_msg": "ユーザーが存在しません。",
+        "send_msg_over_limit_msg": "週に一度だけ送信可能です。"
     }
 }
