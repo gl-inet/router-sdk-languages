@@ -69,7 +69,9 @@
         "bind_fail_strong_tips": "Les informations actuelles de l'appareil sont les suivantes. Ces informations peuvent être requises par le Support Technique si vous avez besoin d'assistance.",
         "egion_label": "Région",
         "two_factor_auth_title": "Authentification à deux facteurs",
-        "sms_auth_tips": "Veuillez entrer le code de vérification reçu sur votre téléphone sécurisé {phone}."
+        "sms_auth_tips": "Veuillez entrer le code de vérification reçu sur votre téléphone sécurisé {phone}.",
+        "login_side_title": "Utilisez votre compte glinet",
+        "sign_up_title": "Créez votre compte glinet"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -88,6 +90,8 @@
         "verify_code_err_msg": "Erreur de code de vérification.",
         "verify_code_over_limit_msg": "Le nombre de codes de vérification envoyés dépasse la limite.",
         "email_already_exist_msg": "La boîte mail existe déjà.",
-        "username_already_exist_msg": "Le nom d'utilisateur existe déjà."
+        "username_already_exist_msg": "Le nom d'utilisateur existe déjà.",
+        "account_not_exist_msg": "Utilisateur non existant.",
+        "send_msg_over_limit_msg": "Peut seulement être envoyé une fois par semaine."
     }
 }
