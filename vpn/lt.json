@@ -289,7 +289,13 @@
         "wg_mullvad_limit_tips": "Nepavyko sukurti „WireGuard“ rakto. Vienam „Mullvad“ paskyros vartotojui vienu metu galima turėti iki penkių raktų. Prašome eiti į {provider}, kad panaikintumėte raktą.",
         "domain_input_mode_tips": "Galite įvesti domeno pavadinimą arba IP rankiniu būdu arba automatiškai, ir jei pasirinksite Prenumeruoti URL, domeno pavadinimas arba IP URL yra automatiškai atnaujinamas kasdien.",
         "guide_contact_us_tips": "4.Jei problema neišspręsta, taip pat galite siųsti el. laišką {email}.",
-        "wg_guide_tips": "VPN vadovas padės greitai naudotis „WireGuard“ VPN. Tai skirta tik „AzireVPN“, „Mullvad“, „PIA“, „Surfshark“, „NordVPN“, „Hideme“ ir „IPVanish“. Kitiems galite praleisti. VPN konfigūravimas gali užtrukti kelias minutes."
+        "wg_guide_tips": "VPN vadovas padės greitai naudotis „WireGuard“ VPN. Tai skirta tik „AzireVPN“, „Mullvad“, „PIA“, „Surfshark“, „NordVPN“, „Hideme“ ir „IPVanish“. Kitiems galite praleisti. VPN konfigūravimas gali užtrukti kelias minutes.",
+        "wg_guide_disabled_tips": "„OpenVPN“ yra prijungtas, išjunkite „OpenVPN“, jeigu Jums reikia naudoti „WireGuard VPN“.",
+        "on_router_label": "„VPN“ maršrutizatoriuje",
+        "manual_upload_tips": "Prašome apsilankyti – {page}, norint peržiūrėti – {type} palaikomus „VPN“ paslaugų teikėjus ir sužinokite apie „VPN“ naudojimosi/vartojimosi naudas.",
+        "ovpn_nordvpn_tips": "Kad būtu užtikrintas sėkmingas „VPN“ naudojimas/vartojimas, prašome įvesti – {account}, kuris patenkins „NordVPN“ paslaugos kredencialus.",
+        "to_setup_guide_tips": "Jeigu Jūs nežinote kaip jį gauti, prašome peržiūrėti – {guide}.",
+        "accurate_account_label": "Tikslus „NordVPN“ naudotojo/vartotojo vardas (t.y. slapyvardis) ir slaptažodis"
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -327,7 +333,8 @@
         "register_account_fail_msg": "nepavyko registruoti naujos paskyros",
         "invalid_username_msg": "Naudotojo/Vartotojo vardas (t.y. Slapyvardis) gali turėti tik raides ir skaičius",
         "get_provider_token_fail_msg": "gauti trečiosios partijos teikėjo žetoną nepavyko",
-        "connect_server_fail_msg": "Nepavyko gauti informacijos iš teikėjo serverio",
-        "network_abnormal_msg": "Tinklo veikimas gali būti nenormalus"
+        "connect_server_fail_msg": "nepavyko gauti informacijos iš teikėjo serverio",
+        "network_abnormal_msg": "Tinklo veikimas gali būti nenormalus",
+        "api_limit_triggered_msg": "Per daug dažnų užklausų, bandykite dar kartą vėlesniu laiku."
     }
 }
