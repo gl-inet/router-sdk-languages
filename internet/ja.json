@@ -443,6 +443,9 @@
         "data_used_total_tips": "使用済みデータは現在のSIMカードスロットのデータです。",
         "sim_data_limit_common_tips": "データ使用量がデータキャップ量を超えた場合は、データキャップ量またはデータ使用量を手動で修正してください。",
         "sim_data_limit_single_tips": "そうでなければ、SIMカードは無効になります。",
-        "sim_data_limit_dual_tips": "ネットワークが切断されるか、SIMカードが{do}する可能性があります。"
+        "sim_data_limit_dual_tips": "ネットワークが切断されるか、SIMカードが{do}する可能性があります。",
+        "over_limit_common_tips": "データ使用量がデータキャップ量を超えました。データキャップ量を変更するか、データ使用量を手動で修正してください。",
+        "sim_threshold_single_tips": "SIMデータキャップ量が設定されている場合、データがデータキャップ量を超えるとSIMは無効になります。",
+        "sim_threshold_dual_tips": "現在の{currentSim}データキャップ量が設定され、SIMカードスロット{handler}が有効になっている場合、データがデータキャップ量を超えると{currentSim}は自動的に{otherSim}に切り替わり、{currentSim}は無効になります。"
     }
 }
