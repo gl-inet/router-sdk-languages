@@ -443,6 +443,9 @@
         "first_month_label": "Premier mois",
         "sim_data_limit_common_tips": "Si les données utilisées dépassent le montant du plafond de données, veuillez modifier manuellement le montant du plafond de données ou les données utilisées.",
         "sim_data_limit_single_tips": "Sinon, la carte SIM sera désactivée.",
-        "sim_data_limit_dual_tips": "Sinon, le réseau peut être déconnecté ou la carte SIM peut {do}."
+        "sim_data_limit_dual_tips": "Sinon, le réseau peut être déconnecté ou la carte SIM peut {do}.",
+        "over_limit_common_tips": "Les données utilisées ont dépassé le montant de la limite de données, veuillez modifier manuellement le montant de la limite de données ou les données utilisées.",
+        "sim_threshold_single_tips": "Si le montant du plafond de données SIM est défini, la SIM sera désactivée lorsque sa consommation de données dépassera le montant du plafond de données.",
+        "sim_threshold_dual_tips": "Si le montant du plafond de données de {currentSim} est défini et que l'emplacement de la carte SIM {handler} est activé, {currentSim} basculera automatiquement sur {otherSim} lorsque ses données dépasseront le montant du plafond de données et {currentSim} sera désactivé."
     }
 }
