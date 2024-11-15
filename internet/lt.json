@@ -443,6 +443,9 @@
         "second_month_label": "Antras mėnuo",
         "sim_data_limit_common_tips": "Jei naudojamų duomenų kiekis viršija duomenų ribos kiekį, prašome rankiniu būdu pakeisti duomenų ribos kiekį arba naudojamų duomenų kiekį.",
         "sim_data_limit_single_tips": "Priešingu atveju, SIM kortelė bus išjungta.",
-        "sim_data_limit_dual_tips": "Kitu atveju, tinklas gali būti atjungtas arba SIM kortelė gali {do}."
+        "sim_data_limit_dual_tips": "Kitu atveju, tinklas gali būti atjungtas arba SIM kortelė gali {do}.",
+        "over_limit_common_tips": "Duomenų kiekis viršijo nustatytą duomenų limitą, prašome pakeisti duomenų limitą arba rankiniu būdu sumažinti naudojamų duomenų kiekį.",
+        "sim_threshold_single_tips": "Jei nustatytas SIM duomenų limito kiekis, SIM bus išjungtas, kai jo duomenys viršys duomenų limito kiekį.",
+        "sim_threshold_dual_tips": "Jei nustatytas {currentSim} duomenų ribos kiekis ir SIM kortelės lizdas {handler} įgalintas, {currentSim} automatiškai perjungs į {otherSim}, kai jo duomenų kiekis viršys duomenų ribos kiekį ir {currentSim} bus išjungtas."
     }
 }
