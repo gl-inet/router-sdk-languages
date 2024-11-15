@@ -443,6 +443,9 @@
         "data_used_total_tips": "已用數據是當前SIM卡卡槽的數據。",
         "sim_data_limit_common_tips": "如果使用的數據量超過數據上限，請手動修改數據上限或已使用的數據量。",
         "sim_data_limit_single_tips": "否則，SIM卡將被停用。",
-        "sim_data_limit_dual_tips": "否則，網絡可能會斷開，或者SIM卡可能會{do}。"
+        "sim_data_limit_dual_tips": "否則，網絡可能會斷開，或者SIM卡可能會{do}。",
+        "over_limit_common_tips": "已使用的數據量超出數據上限，請手動修改數據上限或已使用的數據量。",
+        "sim_threshold_single_tips": "如果設定了SIM數據上限，當數據使用量超過該上限時，SIM將會被禁用。",
+        "sim_threshold_dual_tips": "如果設定了{currentSim}數據上限並啟用了SIM卡插槽{handler}，當數據超出上限時，{currentSim}將自動切換到{otherSim}，並將{currentSim}禁用。"
     }
 }
