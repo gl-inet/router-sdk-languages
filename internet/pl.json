@@ -443,6 +443,9 @@
         "data_used_total_tips": "Użyte dane to dane obecnego slotu karty SIM.",
         "sim_data_limit_common_tips": "Jeśli zużyte dane przekroczą ustalony limit danych, proszę ręcznie zmodyfikować limit danych lub ilość zużytych danych.",
         "sim_data_limit_single_tips": "W przeciwnym razie karta SIM zostanie wyłączona.",
-        "sim_data_limit_dual_tips": "W przeciwnym razie sieć może zostać rozłączona lub karta SIM może {do}."
+        "sim_data_limit_dual_tips": "W przeciwnym razie sieć może zostać rozłączona lub karta SIM może {do}.",
+        "over_limit_common_tips": "Użyte dane przekroczyły ustalony limit danych, proszę zmodyfikować limit danych lub ręcznie wprowadzić ilość użytych danych.",
+        "sim_threshold_single_tips": "Jeśli ustawiono limit danych dla karty SIM, karta SIM zostanie wyłączona, gdy zużycie danych przekroczy ustalony limit.",
+        "sim_threshold_dual_tips": "Jeśli ustawiono limit danych dla {currentSim} i włączono slot karty SIM {handler}, {currentSim} automatycznie przełączy się na {otherSim}, gdy przekroczy ustawiony limit danych, a {currentSim} zostanie wyłączony."
     }
 }
