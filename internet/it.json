@@ -443,6 +443,9 @@
         "third_month_label": "Terzo Mese",
         "sim_data_limit_common_tips": "Se i dati utilizzati superano la soglia del limite di dati, si prega di modificare manualmente il limite di dati o i dati utilizzati.",
         "sim_data_limit_single_tips": "In caso contrario, la scheda SIM verrà disabilitata.",
-        "sim_data_limit_dual_tips": "In caso contrario, la rete potrebbe essere disconnessa o la SIM potrebbe {do}."
+        "sim_data_limit_dual_tips": "In caso contrario, la rete potrebbe essere disconnessa o la SIM potrebbe {do}.",
+        "over_limit_common_tips": "Il volume di dati utilizzato ha superato il limite stabilito, si prega di modificare manualmente il limite di dati o il volume di dati utilizzato.",
+        "sim_threshold_single_tips": "Se l'importo del limite di dati SIM è impostato, la SIM verrà disabilitata quando i suoi dati superano l'importo del limite di dati.",
+        "sim_threshold_dual_tips": "Se l'importo del limite di dati di {currentSim} è impostato e lo slot della SIM Card {handler} è attivato, {currentSim} passerà automaticamente a {otherSim} quando i suoi dati superano l'importo del limite di dati e {currentSim} verrà disabilitato."
     }
 }
