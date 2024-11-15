@@ -441,6 +441,9 @@
         "over_limit_tips": "Les données actuellement utilisées dépassent le montant de la limite de données, veuillez réinitialiser le montant de la limite de données ou calibrer les données manuellement, sinon le réseau peut être déconnecté ou la carte SIM peut être changée automatiquement.",
         "second_month_label": "Deuxième mois",
         "sim_limit_title": "Paramètres de limite pour {sim}",
-        "first_month_label": "Premier mois"
+        "first_month_label": "Premier mois",
+        "sim_data_limit_common_tips": "Si les données utilisées dépassent le montant du plafond de données, veuillez modifier manuellement le montant du plafond de données ou les données utilisées.",
+        "sim_data_limit_single_tips": "Sinon, la carte SIM sera désactivée.",
+        "sim_data_limit_dual_tips": "Sinon, le réseau peut être déconnecté ou la carte SIM peut {do}."
     }
 }
