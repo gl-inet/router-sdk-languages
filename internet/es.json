@@ -443,6 +443,9 @@
         "first_month_label": "Primer Mes",
         "sim_data_limit_single_tips": "De lo contrario, la tarjeta SIM será desactivada.",
         "sim_data_limit_dual_tips": "De lo contrario, la red podría desconectarse o la tarjeta SIM podría {do}.",
-        "sim_data_limit_common_tips": "Si el uso de datos excede la cantidad del límite de datos, por favor modifique manualmente la cantidad del límite de datos o el uso de datos."
+        "sim_data_limit_common_tips": "Si el uso de datos excede la cantidad del límite de datos, por favor modifique manualmente la cantidad del límite de datos o el uso de datos.",
+        "over_limit_common_tips": "Los datos utilizados han superado el límite establecido, por favor modifique el límite de datos o los datos utilizados manualmente.",
+        "sim_threshold_single_tips": "Si se establece el límite de datos para la SIM, la SIM se desactivará cuando los datos excedan la cantidad del límite establecido.",
+        "sim_threshold_dual_tips": "Si se establece el límite de datos para {currentSim} y la ranura para tarjeta SIM {handler} está habilitada, {currentSim} cambiará automáticamente a {otherSim} cuando los datos excedan el límite establecido y {currentSim} se desactivará."
     }
 }
