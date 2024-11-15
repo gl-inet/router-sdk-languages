@@ -441,6 +441,9 @@
         "second_month_label": "Second Month",
         "first_month_label": "First Month",
         "third_month_label": "Third Month",
-        "over_limit_tips": "The Data Used has exceeded the Data Cap Amount, please reset the Data Cap Amount or modify the data manually. Otherwise, the network may be disconnected or the SIM card may switch automatically. To switch the SIM card slot, please turn on {do}."
+        "over_limit_tips": "The Data Used has exceeded the Data Cap Amount, please reset the Data Cap Amount or modify the data manually. Otherwise, the network may be disconnected or the SIM card may switch automatically. To switch the SIM card slot, please turn on {do}.",
+        "sim_data_limit_single_tips": "Otherwise, the SIM card will be disabled.",
+        "sim_data_limit_dual_tips": "Otherwise, the network may be disconnected or the SIM card may {do}.",
+        "sim_data_limit_common_tips": "If the Data Used exceeds the Data Cap Amount, please modify the Data Cap Amount or the Data Used manually."
     }
 }
