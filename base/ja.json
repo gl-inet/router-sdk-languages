@@ -131,7 +131,8 @@
         "port_occupied": "{name} ポートが占有されています",
         "send_success_tips": "正常に送信されました!",
         "sign_up_success": "登録に成功しました！",
-        "successfully_badge_tips": "成功しました！"
+        "successfully_badge_tips": "成功しました！",
+        "lack_of_memory_tips": "メモリ不足のため、ファームウェアをアップグレードする場合は、デバイスをリブートしてみてください。"
     },
     "internet": {
         "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。$$$$Change LAN Subnet$$$$で別のアドレスにしてください。",
@@ -223,7 +224,8 @@
     },
     "err": {
         "network_not_reachable_msg": "ネットワークに接続できません",
-        "abnormal_operation_msg": "操作に例外が発生しました"
+        "abnormal_operation_msg": "操作に例外が発生しました",
+        "param_illegal_msg": "不正なパラメータです、操作に失敗しました。"
     },
     "subscription": {
         "url_label": "サブスクリプションURL",
@@ -232,7 +234,7 @@
     },
     "vaildate": {
         "only_allowd_input_tips": "入力可能なのは{limit}のみです。",
-        "only_num_letter_symbol_tips": "文字、数字、および記号{symbol}のみが許可されています。",
+        "only_num_letter_symbol_tips": "文字、数字、および記号{symbol}のみが許可されています",
         "only_letters_num_allowd_tips": "文字と数字のみが許可されています",
         "min_max_length_tips": "{min} - {max} 文字",
         "invalid_line_label": "無効な行番号：{num}"
