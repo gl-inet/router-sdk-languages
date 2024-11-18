@@ -131,7 +131,8 @@
         "processing": "In lavorazione...",
         "send_success_tips": "Inviato con successo!",
         "sign_up_success": "Registrato con successo!",
-        "successfully_badge_tips": "Con successo!"
+        "successfully_badge_tips": "Con successo!",
+        "lack_of_memory_tips": "A causa della mancanza di memoria, se si desidera aggiornare il firmware, si può tentare di riavviare il dispositivo."
     },
     "date": {
         "day": "giorno(i)",
@@ -235,6 +236,10 @@
     },
     "err": {
         "network_not_reachable_msg": "Rete non raggiungibile",
-        "abnormal_operation_msg": "Eccezione operativa"
+        "abnormal_operation_msg": "Eccezione operativa",
+        "param_illegal_msg": "Parametro non valido, operazione fallita."
+    },
+    "validate": {
+        "not_allowed_only_spaces": "Non è consentito utilizzare solo spazi."
     }
 }
