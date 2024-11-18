@@ -289,7 +289,13 @@
         "server_select_label": "サーバー選択",
         "account_name_tips": "アカウント名 {name}",
         "guide_done_tips": "{provider}に正常に接続され、VPNを利用できるようになりました。",
-        "guide_restart_tips": "3.ルーターを再起動してください。"
+        "guide_restart_tips": "3.ルーターを再起動してください。",
+        "wg_guide_disabled_tips": "OpenVPNが接続されています。Wireguard VPNを使用する場合は、OpenVPNをオフにしてください。",
+        "on_router_label": "ルーター上のVPN",
+        "manual_upload_tips": "{page}を訪問して、{type}に対応するVPNサービスプロバイダーを確認し、VPNを使用する利点について学んでください。",
+        "ovpn_nordvpn_tips": "VPNの使用を成功させるために、NordVPNのサービス認証情報として機能する{account}を入力してください。",
+        "to_setup_guide_tips": "ご不明な点がある場合は、{guide}をご覧ください。",
+        "accurate_account_label": "正確なNordVPNユーザー名とパスワード"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバ",
@@ -321,13 +327,14 @@
         "register_account_fail_msg": "新規アカウントの登録に失敗しました",
         "register_public_key_fail_msg": "公開鍵の登録に失敗しました",
         "vpn_client_connect_fail_msg": "VPNクライアントがサーバーに接続できませんでした",
-        "group_auth_conflict_with_users_msg": "グループ認証がユーザーのものと競合しています",
+        "group_auth_conflict_with_users_msg": "グループ認証がユーザー認証と競合しています",
         "get_provider_token_fail_msg": "サードパーティプロバイダーのトークン取得に失敗しました",
         "download_conf_fail_msg": "設定ファイルのダウンロードに失敗しました",
         "connect_server_fail_msg": "プロバイダーサーバーから情報を取得できませんでした",
         "country_count_zero_msg": "選択した国のサーバー数がゼロです",
         "invalid_ip_addr_msg": "無効なIPアドレスです",
         "password_too_short_msg": "パスワードは少なくとも8文字でなければなりません",
-        "network_abnormal_msg": "ネットワークが異常かもしれません"
+        "network_abnormal_msg": "ネットワークが異常かもしれません",
+        "api_limit_triggered_msg": "頻繁に操作してください。"
     }
 }
