@@ -219,11 +219,13 @@
         "port_occupied": "Порт {name} зайнятий",
         "send_success_tips": "Успішно відправлено!",
         "sign_up_success": "Успішно зареєстровано!",
-        "successfully_badge_tips": "Успішно!"
+        "successfully_badge_tips": "Успішно!",
+        "lack_of_memory_tips": "Через нестачу пам'яті, якщо ви хочете оновити прошивку, спробуйте перезавантажити пристрій."
     },
     "err": {
         "abnormal_operation_msg": "Операційне виключення",
-        "network_not_reachable_msg": "Мережа недоступна"
+        "network_not_reachable_msg": "Мережа недоступна",
+        "param_illegal_msg": "Недопустимий параметр, операція не вдалася."
     },
     "subscription": {
         "url_label": "URL підписки",
@@ -236,5 +238,8 @@
         "only_letters_num_allowd_tips": "Дозволені лише літери та цифри",
         "min_max_length_tips": "{min} - {max} символів",
         "invalid_line_label": "Неправильний номер рядка: {num}"
+    },
+    "validate": {
+        "not_allowed_only_spaces": "Не дозволяється використовувати лише пробіли."
     }
 }
