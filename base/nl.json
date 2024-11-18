@@ -131,7 +131,8 @@
         "port_occupied": "{name} netwerkpoort is al in gebruik",
         "send_success_tips": "Succesvol verzonden!",
         "sign_up_success": "Succesvol geregistreerd!",
-        "successfully_badge_tips": "Succesvol!"
+        "successfully_badge_tips": "Succesvol!",
+        "lack_of_memory_tips": "Wegens onvoldoende geheugen, als u de firmware wilt upgraden, kunt u proberen het apparaat te herstarten."
     },
     "date": {
         "day": "dag(en)",
@@ -223,7 +224,8 @@
     },
     "err": {
         "abnormal_operation_msg": "Operationele uitzondering",
-        "network_not_reachable_msg": "Netwerk niet bereikbaar"
+        "network_not_reachable_msg": "Netwerk niet bereikbaar",
+        "param_illegal_msg": "Ongeldige parameter, bewerking mislukt."
     },
     "subscription": {
         "url_label": "Abonnement URL",
@@ -236,5 +238,8 @@
         "only_letters_num_allowd_tips": "Alleen letters en cijfers zijn toegestaan",
         "min_max_length_tips": "{min} - {max} tekens",
         "invalid_line_label": "Ongeldig regelnummer: {num}"
+    },
+    "validate": {
+        "not_allowed_only_spaces": "Het is niet toegestaan om alleen spaties te gebruiken."
     }
 }
