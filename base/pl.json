@@ -131,7 +131,8 @@
         "uninstalling": "Odinstalowywanie, proszę czekać…",
         "send_success_tips": "Wysłano pomyślnie!",
         "sign_up_success": "Zarejestrowano pomyślnie!",
-        "successfully_badge_tips": "Sukces!"
+        "successfully_badge_tips": "Sukces!",
+        "lack_of_memory_tips": "Z powodu braku pamięci, jeśli chcesz zaktualizować oprogramowanie układowe, możesz spróbować ponownie uruchomić urządzenie."
     },
     "upload": {
         "file_include": "Typy plików obejmują",
@@ -223,7 +224,8 @@
     },
     "err": {
         "abnormal_operation_msg": "Wyjątek operacyjny",
-        "network_not_reachable_msg": "Sieć nieosiągalna"
+        "network_not_reachable_msg": "Sieć nieosiągalna",
+        "param_illegal_msg": "Nieprawidłowy parametr, operacja nie powiodła się."
     },
     "subscription": {
         "url_label": "URL subskrypcji",
@@ -236,5 +238,8 @@
         "only_letters_num_allowd_tips": "Dozwolone są tylko litery i cyfry",
         "min_max_length_tips": "{min} - {max} znaków",
         "invalid_line_label": "Nieprawidłowy numer linii: {num}"
+    },
+    "validate": {
+        "not_allowed_only_spaces": "Nie wolno używać samych spacji."
     }
 }
