@@ -178,7 +178,8 @@
         "getting": "Получение данных, пожалуйста, подождите…",
         "send_success_tips": "Отправлено успешно!",
         "sign_up_success": "Успешная регистрация!",
-        "successfully_badge_tips": "Успешно!"
+        "successfully_badge_tips": "Успешно!",
+        "lack_of_memory_tips": "Из-за недостатка памяти, если вы хотите обновить прошивку, вы можете попробовать перезагрузить устройство."
     },
     "date": {
         "thursday": "Чт | Четверг",
@@ -223,7 +224,8 @@
     },
     "err": {
         "abnormal_operation_msg": "Операционное исключение",
-        "network_not_reachable_msg": "Сеть недоступна"
+        "network_not_reachable_msg": "Сеть недоступна",
+        "param_illegal_msg": "Недопустимый параметр, операция не удалась."
     },
     "subscription": {
         "url_label": "URL подписки",
@@ -236,5 +238,8 @@
         "invalid_line_label": "Неверный номер строки: {num}",
         "only_num_letter_symbol_tips": "Только буквы, цифры и символы {symbol} разрешены",
         "min_max_length_tips": "От {min} до {max} символов"
+    },
+    "validate": {
+        "not_allowed_only_spaces": "Использование только пробелов не допускается."
     }
 }
