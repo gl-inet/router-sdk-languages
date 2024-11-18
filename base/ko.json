@@ -131,7 +131,8 @@
         "unknown_err": "알 수 없는 오류가 발생했습니다. 네트워크 환경을 확인하시거나 기기를 재부팅해주세요.",
         "send_success_tips": "성공적으로 전송되었습니다!",
         "sign_up_success": "성공적으로 등록되었습니다!",
-        "successfully_badge_tips": "성공적으로!"
+        "successfully_badge_tips": "성공적으로!",
+        "lack_of_memory_tips": "메모리가 부족하여 펌웨어를 업그레이드하려면 장치를 리부팅해 보십시오."
     },
     "date": {
         "day": "날",
@@ -223,7 +224,8 @@
     },
     "err": {
         "abnormal_operation_msg": "작동 예외",
-        "network_not_reachable_msg": "네트워크에 연결할 수 없습니다"
+        "network_not_reachable_msg": "네트워크에 연결할 수 없습니다",
+        "param_illegal_msg": "잘못된 매개변수, 작업 실패."
     },
     "subscription": {
         "url_label": "구독 URL",
@@ -236,5 +238,8 @@
         "only_letters_num_allowd_tips": "문자와 숫자만 허용됩니다",
         "min_max_length_tips": "{min} - {max}个字符",
         "invalid_line_label": "유효하지 않은 줄 번호: {num}"
+    },
+    "validate": {
+        "not_allowed_only_spaces": "공백만 사용하는 것은 허용되지 않습니다."
     }
 }
