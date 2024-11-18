@@ -131,7 +131,8 @@
         "port_occupied": "{name} port occupé",
         "send_success_tips": "Envoyé avec succès !",
         "sign_up_success": "Enregistré avec succès !",
-        "successfully_badge_tips": "Avec succès !"
+        "successfully_badge_tips": "Avec succès !",
+        "lack_of_memory_tips": "En raison d'un manque de mémoire, si vous souhaitez mettre à jour le firmware, vous pouvez essayer de redémarrer l'appareil."
     },
     "date": {
         "day": "jour(s)",
@@ -228,7 +229,8 @@
     },
     "err": {
         "network_not_reachable_msg": "Réseau non accessible",
-        "abnormal_operation_msg": "Exception opérationnelle"
+        "abnormal_operation_msg": "Exception opérationnelle",
+        "param_illegal_msg": "Paramètre illégal, l'opération a échoué."
     },
     "vaildate": {
         "only_allowd_input_tips": "Seul {limit} est autorisé à être saisi.",
@@ -236,5 +238,8 @@
         "invalid_line_label": "Numéro de ligne invalide : {num}",
         "only_num_letter_symbol_tips": "Seuls les lettres, les chiffres et les symboles {symbol} sont autorisés.",
         "min_max_length_tips": "{min} - {max} caractères"
+    },
+    "validate": {
+        "not_allowed_only_spaces": "Il n'est pas permis d'utiliser uniquement des espaces."
     }
 }
