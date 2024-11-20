@@ -450,7 +450,6 @@
         "sim_threshold_dual_tips": "Wenn das Datenvolumen für {currentSim} festgelegt ist und der SIM-Karten-Slot {handler} aktiviert ist, wird {currentSim} automatisch auf {otherSim} umschalten, wenn das Datenvolumen überschritten wird, und {currentSim} wird deaktiviert."
     },
     "cellular": {
-        "enabled_sim_auto_switch_tips": "Die SIM wird gewechselt, wenn das Datenvolumen erreicht ist.",
-        "disabled_sim_auto_switch_tips": "Die SIM wird bei Erreichen des Datenlimits nicht wechseln, da {handler} nicht aktiviert ist. Und die SIM wird deaktiviert, wenn das Datenlimit erreicht ist."
+        "enabled_sim_auto_switch_tips": "Die SIM wird gewechselt, wenn das Datenvolumen erreicht ist."
     }
 }
