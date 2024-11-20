@@ -448,6 +448,10 @@
         "over_limit_common_tips": "Il volume di dati utilizzato ha superato il limite stabilito, si prega di modificare manualmente il limite di dati o il volume di dati utilizzato.",
         "sim_threshold_single_tips": "Se l'importo del limite di dati SIM è impostato, la SIM verrà disabilitata quando i suoi dati superano l'importo del limite di dati.",
         "sim_threshold_dual_tips": "Se l'importo del limite di dati di {currentSim} è impostato e lo slot della SIM Card {handler} è attivato, {currentSim} passerà automaticamente a {otherSim} quando i suoi dati superano l'importo del limite di dati e {currentSim} verrà disabilitato.",
-        "disabled_sim_auto_switch_tips": "La SIM non effettuerà il cambio al raggiungimento del limite di dati perché {handler} non è attivo. E la SIM verrà disabilitata quando si raggiunge il limite di dati."
+        "disabled_sim_auto_switch_tips": "La SIM non effettuerà il cambio al raggiungimento del limite di dati perché {handler} non è attivo. E la SIM verrà disabilitata quando si raggiunge il limite di dati.",
+        "enabled_sim_auto_switch_tips": "La SIM verrà sostituita al raggiungimento del limite di dati."
+    },
+    "cellular": {
+        "enabled_sim_auto_switch_tips": "La SIM verrà sostituita al raggiungimento del limite di dati."
     }
 }
