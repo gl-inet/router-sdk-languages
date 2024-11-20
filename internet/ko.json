@@ -448,6 +448,10 @@
         "over_limit_common_tips": "사용된 데이터가 데이터 캡 용량을 초과하였습니다. 데이터 캡 용량을 수정하거나 사용된 데이터를 수동으로 조정해 주십시오.",
         "sim_threshold_single_tips": "SIM 데이터 캡 용량이 설정되면, 데이터 사용량이 데이터 캡 용량을 초과하면 SIM이 비활성화됩니다.",
         "sim_threshold_dual_tips": "만약 {currentSim} 데이터 사용량 제한이 설정되어 있고 SIM 카드 슬롯 {handler}가 활성화되어 있다면, 데이터 사용량이 제한을 초과하면 {currentSim}에서 {otherSim}으로 자동 전환되며 {currentSim}은 비활성화됩니다.",
-        "disabled_sim_auto_switch_tips": "SIM 카드는 데이터 제한에 도달했을 때 {handler}가 활성화되어 있지 않기 때문에 전환되지 않습니다. 그리고 데이터 제한에 도달하면 SIM 카드는 비활성화될 것입니다."
+        "disabled_sim_auto_switch_tips": "SIM 카드는 데이터 제한에 도달했을 때 {handler}가 활성화되어 있지 않기 때문에 전환되지 않습니다. 그리고 데이터 제한에 도달하면 SIM 카드는 비활성화될 것입니다.",
+        "enabled_sim_auto_switch_tips": "SIM 카드는 데이터 사용량이 제한에 도달하면 전환됩니다."
+    },
+    "cellular": {
+        "enabled_sim_auto_switch_tips": "SIM 카드는 데이터 사용량이 제한에 도달하면 전환됩니다."
     }
 }
