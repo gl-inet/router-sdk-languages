@@ -447,6 +447,11 @@
         "sim_data_limit_dual_tips": "Sinon, le réseau peut être déconnecté ou la carte SIM peut {do}.",
         "over_limit_common_tips": "Les données utilisées ont dépassé le montant de la limite de données, veuillez modifier manuellement le montant de la limite de données ou les données utilisées.",
         "sim_threshold_single_tips": "Si le montant du plafond de données SIM est défini, la SIM sera désactivée lorsque sa consommation de données dépassera le montant du plafond de données.",
-        "sim_threshold_dual_tips": "Si le montant du plafond de données de {currentSim} est défini et que l'emplacement de la carte SIM {handler} est activé, {currentSim} basculera automatiquement sur {otherSim} lorsque ses données dépasseront le montant du plafond de données et {currentSim} sera désactivé."
+        "sim_threshold_dual_tips": "Si le montant du plafond de données de {currentSim} est défini et que l'emplacement de la carte SIM {handler} est activé, {currentSim} basculera automatiquement sur {otherSim} lorsque ses données dépasseront le montant du plafond de données et {currentSim} sera désactivé.",
+        "disabled_sim_auto_switch_tips": "La carte SIM ne basculera pas à la limite de données car {handler} n'est pas activé. Et la carte SIM sera désactivée lorsque la limite de données sera atteinte."
+    },
+    "cellular": {
+        "enabled_sim_auto_switch_tips": "La carte SIM basculera lorsque le plafond de données sera atteint.",
+        "disabled_sim_auto_switch_tips": "La carte SIM ne basculera pas à la limite de données car {handler} n'est pas activé. Et la carte SIM sera désactivée lorsque la limite de données sera atteinte."
     }
 }
