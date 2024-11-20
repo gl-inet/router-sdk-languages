@@ -450,8 +450,5 @@
         "sim_threshold_dual_tips": "如果设置了{currentSim}的数据上限额度，并且启用了SIM卡槽{handler}，当其数据超出上限额度时，{currentSim}将自动切换到{otherSim}，并且{currentSim}将被禁用。",
         "disabled_sim_auto_switch_tips": "达到数据上限时，SIM卡不会切换，因为{handler}未启用。并且当达到数据上限时，SIM卡将被禁用。",
         "enabled_sim_auto_switch_tips": "SIM卡将在达到数据上限时切换。"
-    },
-    "cellular": {
-        "enabled_sim_auto_switch_tips": "SIM卡将在达到数据上限时切换。"
     }
 }
