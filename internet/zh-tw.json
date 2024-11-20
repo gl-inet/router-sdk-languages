@@ -449,8 +449,5 @@
         "sim_threshold_single_tips": "如果設定了SIM數據上限，當數據使用量超過該上限時，SIM將會被禁用。",
         "sim_threshold_dual_tips": "如果設定了{currentSim}數據上限並啟用了SIM卡插槽{handler}，當數據超出上限時，{currentSim}將自動切換到{otherSim}，並將{currentSim}禁用。",
         "disabled_sim_auto_switch_tips": "SIM卡在達到數據上限時不會切換，因為{handler}未啟用。而且當數據上限達到時，SIM卡將被禁用。"
-    },
-    "cellular": {
-        "enabled_sim_auto_switch_tips": "SIM卡將在達到數據上限時切換。"
     }
 }
