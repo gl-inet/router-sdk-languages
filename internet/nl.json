@@ -447,6 +447,11 @@
         "sim_data_limit_dual_tips": "Anders kan het netwerk worden verbroken of de SIM-kaart kan {do}.",
         "over_limit_common_tips": "Het gebruikte datavolume heeft de datalimiet overschreden, wijzig a.u.b. de datalimiet of het gebruikte datavolume handmatig.",
         "sim_threshold_single_tips": "Als de datalimiet voor de SIM is ingesteld, wordt de SIM uitgeschakeld wanneer het datagebruik de datalimiet overschrijdt.",
-        "sim_threshold_dual_tips": "Als de datalimiet voor {currentSim} is ingesteld en de SIM-kaartsleuf {handler} is ingeschakeld, zal {currentSim} automatisch overschakelen naar {otherSim} wanneer het datagebruik de datalimiet overschrijdt en zal {currentSim} worden uitgeschakeld."
+        "sim_threshold_dual_tips": "Als de datalimiet voor {currentSim} is ingesteld en de SIM-kaartsleuf {handler} is ingeschakeld, zal {currentSim} automatisch overschakelen naar {otherSim} wanneer het datagebruik de datalimiet overschrijdt en zal {currentSim} worden uitgeschakeld.",
+        "disabled_sim_auto_switch_tips": "De SIM zal niet overschakelen bij het bereiken van de datalimiet omdat {handler} niet is ingeschakeld. En de SIM zal worden uitgeschakeld wanneer de datalimiet is bereikt."
+    },
+    "cellular": {
+        "enabled_sim_auto_switch_tips": "De SIM zal overschakelen wanneer de datalimiet is bereikt.",
+        "disabled_sim_auto_switch_tips": "De SIM zal niet overschakelen bij het bereiken van de datalimiet omdat {handler} niet is ingeschakeld. En de SIM zal worden uitgeschakeld wanneer de datalimiet is bereikt."
     }
 }
