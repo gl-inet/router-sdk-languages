@@ -450,8 +450,5 @@
         "sim_threshold_dual_tips": "Si se establece el límite de datos para {currentSim} y la ranura para tarjeta SIM {handler} está habilitada, {currentSim} cambiará automáticamente a {otherSim} cuando los datos excedan el límite establecido y {currentSim} se desactivará.",
         "disabled_sim_auto_switch_tips": "La SIM no cambiará al alcanzar el límite de datos porque {handler} no está habilitado. Y la SIM se desactivará cuando se alcance el límite de datos.",
         "enabled_sim_auto_switch_tips": "La SIM se cambiará al alcanzar el límite de datos."
-    },
-    "cellular": {
-        "enabled_sim_auto_switch_tips": "La SIM se cambiará al alcanzar el límite de datos."
     }
 }
