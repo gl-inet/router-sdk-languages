@@ -447,6 +447,11 @@
         "sim_data_limit_common_tips": "If the Data Used exceeds the Data Cap Amount, please modify the Data Cap Amount or the Data Used manually.",
         "sim_threshold_single_tips": "If the SIM Data Cap Amount is set , SIM will be disabled when it's data exceeds the Data Cap Amount.",
         "over_limit_common_tips": "The Data Used has exceeded the Data Cap Amount, please modify the Data Cap Amount or the Data Used manually.",
-        "sim_threshold_dual_tips": "If the {currentSim} Data Cap Amount is set and the SIM Card Slot {handler} is enabled, {currentSim} will automatically switch to {otherSim} when it's data exceeds the Data Cap Amount and {currentSim} will be disabled."
+        "sim_threshold_dual_tips": "If the {currentSim} Data Cap Amount is set and the SIM Card Slot {handler} is enabled, {currentSim} will automatically switch to {otherSim} when it's data exceeds the Data Cap Amount and {currentSim} will be disabled.",
+        "disabled_sim_auto_switch_tips": "The SIM will not switch at data cap because {handler} is not enable. And the SIM will be disabled when data cap is reached."
+    },
+    "cellular": {
+        "enabled_sim_auto_switch_tips": "The SIM will switch when data cap is reached.",
+        "disabled_sim_auto_switch_tips": "The SIM will not switch at data cap because {handler} is not enable. And the SIM will be disabled when data cap is reached."
     }
 }
