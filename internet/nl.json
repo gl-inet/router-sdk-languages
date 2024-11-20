@@ -450,5 +450,8 @@
         "sim_threshold_dual_tips": "Als de datalimiet voor {currentSim} is ingesteld en de SIM-kaartsleuf {handler} is ingeschakeld, zal {currentSim} automatisch overschakelen naar {otherSim} wanneer het datagebruik de datalimiet overschrijdt en zal {currentSim} worden uitgeschakeld.",
         "disabled_sim_auto_switch_tips": "De SIM zal niet overschakelen bij het bereiken van de datalimiet omdat {handler} niet is ingeschakeld. En de SIM zal worden uitgeschakeld wanneer de datalimiet is bereikt.",
         "enabled_sim_auto_switch_tips": "De SIM zal overschakelen wanneer de datalimiet is bereikt."
+    },
+    "cellular": {
+        "enabled_sim_auto_switch_tips": "De SIM zal overschakelen wanneer de datalimiet is bereikt."
     }
 }
