@@ -447,7 +447,9 @@
         "sim_data_limit_dual_tips": "Andernfalls könnte die Netzwerkverbindung getrennt werden oder die SIM-Karte könnte {do}.",
         "sim_threshold_single_tips": "Wenn das Datenlimit für die SIM-Karte festgelegt ist, wird die SIM-Karte deaktiviert, sobald ihr Datenvolumen das festgelegte Datenlimit überschreitet.",
         "over_limit_common_tips": "Die verwendeten Daten haben das festgelegte Datenvolumen überschritten. Bitte passen Sie das Datenvolumen oder die verwendeten Daten manuell an.",
-        "sim_threshold_dual_tips": "Wenn das Datenvolumen für {currentSim} festgelegt ist und der SIM-Karten-Slot {handler} aktiviert ist, wird {currentSim} automatisch auf {otherSim} umschalten, wenn das Datenvolumen überschritten wird, und {currentSim} wird deaktiviert."
+        "sim_threshold_dual_tips": "Wenn das Datenvolumen für {currentSim} festgelegt ist und der SIM-Karten-Slot {handler} aktiviert ist, wird {currentSim} automatisch auf {otherSim} umschalten, wenn das Datenvolumen überschritten wird, und {currentSim} wird deaktiviert.",
+        "enabled_sim_auto_switch_tips": "Die SIM wird gewechselt, wenn das Datenvolumen erreicht ist.",
+        "disabled_sim_auto_switch_tips": "Die SIM wird bei Erreichen des Datenlimits nicht wechseln, da {handler} nicht aktiviert ist. Und die SIM wird deaktiviert, wenn das Datenlimit erreicht ist."
     },
     "cellular": {
         "enabled_sim_auto_switch_tips": "Die SIM wird gewechselt, wenn das Datenvolumen erreicht ist."
