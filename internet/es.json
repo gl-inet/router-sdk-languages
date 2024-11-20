@@ -447,6 +447,11 @@
         "sim_data_limit_common_tips": "Si el uso de datos excede la cantidad del límite de datos, por favor modifique manualmente la cantidad del límite de datos o el uso de datos.",
         "over_limit_common_tips": "Los datos utilizados han superado el límite establecido, por favor modifique el límite de datos o los datos utilizados manualmente.",
         "sim_threshold_single_tips": "Si se establece el límite de datos para la SIM, la SIM se desactivará cuando los datos excedan la cantidad del límite establecido.",
-        "sim_threshold_dual_tips": "Si se establece el límite de datos para {currentSim} y la ranura para tarjeta SIM {handler} está habilitada, {currentSim} cambiará automáticamente a {otherSim} cuando los datos excedan el límite establecido y {currentSim} se desactivará."
+        "sim_threshold_dual_tips": "Si se establece el límite de datos para {currentSim} y la ranura para tarjeta SIM {handler} está habilitada, {currentSim} cambiará automáticamente a {otherSim} cuando los datos excedan el límite establecido y {currentSim} se desactivará.",
+        "disabled_sim_auto_switch_tips": "La SIM no cambiará al alcanzar el límite de datos porque {handler} no está habilitado. Y la SIM se desactivará cuando se alcance el límite de datos."
+    },
+    "cellular": {
+        "enabled_sim_auto_switch_tips": "La SIM se cambiará al alcanzar el límite de datos.",
+        "disabled_sim_auto_switch_tips": "La SIM no cambiará al alcanzar el límite de datos porque {handler} no está habilitado. Y la SIM se desactivará cuando se alcance el límite de datos."
     }
 }
