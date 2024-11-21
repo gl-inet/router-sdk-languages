@@ -1,1 +1,35 @@
-{}
+{
+    "esim": {
+        "usage": "사용법",
+        "supplier": "공급업체",
+        "name": "이름",
+        "store": "저장소",
+        "top_up_title": "QR 코드를 스캔하여 충전하세요",
+        "upload": "업로드",
+        "delete_esim_profile": "eSIM 프로필을 삭제하시겠습니까?",
+        "current_esim_status_title": "현재 eSIM 상태",
+        "esim_profile_list_title": "eSIM 프로필 목록",
+        "export_support_log": "지원을 위한 로그 내보내기",
+        "total": "총계",
+        "esim_storage": "eSIM 저장소",
+        "remain": "남음",
+        "expire": "만료",
+        "esim_profile_number": "eSIM 프로필 번호",
+        "seed_profile": "시드 프로필",
+        "esim_profile_number_tips": "다른 저장소에서 판매하는 eSIM 프로필의 크기가 다르기 때문에 eSIM에 기록되는 프로필 수도 다를 수 있습니다.",
+        "seed_profile_tips": "시드 프로필은 GL.iNet이 제공하는 무료 서비스입니다. 시드 프로필 데이터를 사용하여 다른 프로필을 다운로드하거나 초기 테스트를 수행할 수 있으며, 남은 데이터 양과 만료일을 확인할 수 있습니다. 시드 프로필의 무료 데이터가 소진되거나 만료된 경우, 이더넷 또는 리피터 연결을 통해 인터넷에 추가 프로필을 다운로드할 수도 있습니다.",
+        "normal_profile": "일반 프로필",
+        "recommend_esim_profile_store": "eSIM 프로필 추천 스토어",
+        "installation_log_list": "설치 로그",
+        "add_esim_profile": "eSIM 프로필 추가",
+        "add_esim_profile_tips": "대부분의 eSIM은 한 번만 다운로드하고 추가할 수 있습니다",
+        "input_activation_code": "활성화 코드 입력",
+        "activation_code": "활성화 코드",
+        "confirmation_code": "확인 코드"
+    },
+    "menu_esim": "eSIM 관리",
+    "sim": {
+        "remain_memory": "남음",
+        "total_memory": "전체"
+    }
+}
