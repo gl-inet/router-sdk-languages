@@ -112,7 +112,9 @@
         "switch_btn": "Schalter",
         "exit_btn": "Beenden",
         "done_btn": "Erledigt",
-        "upgrade_btn": "Firmware Aktualisieren"
+        "upgrade_btn": "Firmware Aktualisieren",
+        "setp_label": "Schritt {num} :",
+        "join_btn": "Beitreten"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -129,7 +131,8 @@
         "port_occupied": "{name} Port belegt",
         "send_success_tips": "Erfolgreich gesendet!",
         "sign_up_success": "Erfolgreich registriert!",
-        "successfully_badge_tips": "Erfolgreich!"
+        "successfully_badge_tips": "Erfolgreich!",
+        "lack_of_memory_tips": "Aufgrund von Speichermangel, wenn Sie die Firmware aktualisieren möchten, können Sie versuchen, das Gerät neu zu starten."
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
@@ -176,7 +179,8 @@
         "recheck_btn": "Erneut erkennen",
         "duplex_half_label": "{speed} MBit/s Halb-Duplex",
         "duplex_full_label": "{speed} MBit/s Voll-Duplex",
-        "mode_label": "{tab} Modus"
+        "mode_label": "{tab} Modus",
+        "address_label": "Adresse"
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
@@ -221,17 +225,21 @@
     },
     "err": {
         "abnormal_operation_msg": "Unerwarteter Fehler",
-        "network_not_reachable_msg": "Netzwerk nicht erreichbar"
+        "network_not_reachable_msg": "Netzwerk nicht erreichbar",
+        "param_illegal_msg": "Ungültiger Parameter, Vorgang fehlgeschlagen."
     },
     "subscription": {
         "url_label": "Abonnement URL",
-        "manual_label": "Anleitung"
+        "manual_label": "Anleitung",
+        "url_err_tips": "Bitte geben Sie den korrekten URL-Link ein."
     },
-    "vaildate": {
-        "only_letters_num_allowd_tips": "Nur Buchstaben und Zahlen erlaubt",
+    "validate": {
+        "not_allowed_only_spaces": "Die Verwendung von ausschließlich Leerzeichen ist nicht erlaubt.",
+        "only_allow_letter_num_start_tip": "Nur Zahlen oder Buchstaben dürfen am Anfang stehen.",
+        "only_letters_num_allowd_tips": "Nur Buchstaben und Zahlen sind erlaubt.",
         "invalid_line_label": "Ungültige Zeilennummer: {num}",
         "only_allowd_input_tips": "Es dürfen nur {limit} eingegeben werden.",
-        "only_num_letter_symbol_tips": "Nur Buchstaben, Zahlen und die Symbole {symbol} sind erlaubt",
-        "min_max_length_tips": "{min} - {max} Zeichen"
+        "only_num_letter_symbol_tips": "Nur Buchstaben, Zahlen und Symbole {symbol} sind erlaubt.",
+        "min_max_length_tips": "{min} - {max} Zeichen."
     }
 }

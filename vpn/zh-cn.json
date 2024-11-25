@@ -262,7 +262,7 @@
         "domain_url_tips": "请输入正确的 URL 链接，URL 检测将识别域名或 IP 地址的正确性。",
         "domain_detect_success_tips": "成功检测到 {count} 域名或 IP 地址。",
         "inp_domain_url_label": "输入 URL 链接",
-        "domain_input_mode_tips": "您可以手动或自动输入域名或 IP，如果选择订阅 URL，URL 链接中的域名或 IP 将每天自动更新。",
+        "domain_input_mode_tips": "如果选择订阅 URL，URL 链接中的域名或 IP 将每天自动更新。",
         "wg_surfshark_limit_tips": "您已达到最大连接数，请到{provider}删除未使用的连接。",
         "wg_mullvad_limit_tips": "生成 WireGuard 密钥失败，每个 Mullvad 账户最多只能同时拥有五个密钥，请访问 {provider} 撤销密钥。",
         "domain_input_mode_label": "输入模式",
@@ -278,7 +278,7 @@
         "guide_title": "VPN 客户端选择",
         "guide_login_title": "登录 {provider}",
         "guide_pull_title": "{provider} 服务器选择",
-        "wg_guide_tips": "VPN指南可以帮助您快速使用WireGuard VPN，该指南仅适用于AzireVPN、Mullvad、PIA、Surfshark和NordVPN，对于其他VPN，您可以跳过。配置VPN可能需要几分钟时间。",
+        "wg_guide_tips": "VPN指南可以帮助您快速使用WireGuard VPN，该指南仅适用于AzireVPN、 Mullvad、PIA、Surfshark、NordVPN、Hide.me和IPVanish，对于其他VPN，您可以跳过。配置VPN可能需要几分钟。",
         "wg_azirevpn_limit_tips": "一个AzireVPN账号只能同时在10台设备上使用，您的帐户已达到设备的最大数量，请到{provider}删除未使用的设备，然后再试一次。",
         "only_show_selected_label": "只显示所选项",
         "guide_make_sure_available_tips": "1.请确保 VPN 账户可用。",
@@ -289,7 +289,12 @@
         "guide_contact_us_tips": "4.如果问题仍未解决，您也可以发送电子邮件至 {email}。",
         "guide_sign_up_title": "注册{provider}账户",
         "wg_not_subscription_tips": "该账户可能没有订阅。",
-        "wg_subscription_expired_tips": "该帐户订阅可能已过期。"
+        "wg_subscription_expired_tips": "该帐户订阅可能已过期。",
+        "accurate_account_label": "准确的 NordVPN 用户名和密码",
+        "to_setup_guide_tips": "如果您不知道如何获取它，请参阅 {guide}。",
+        "ovpn_nordvpn_tips": "为确保成功使用 VPN，请输入 {account} 作为 您使用 NordVPN 的服务凭证。",
+        "manual_upload_tips": "请在 {page} 上了解兼容的 {type} 服务提供商和 VPN 的用途。",
+        "on_router_label": "VPN on Router"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -327,6 +332,8 @@
         "invalid_username_msg": "用户名只能包含字母和数字",
         "register_account_fail_msg": "注册新帐户失败",
         "vpn_client_connect_fail_msg": "VPN客户端连接服务器失败",
-        "connect_server_fail_msg": "从供应商服务器获取信息失败"
+        "connect_server_fail_msg": "从供应商服务器获取信息失败",
+        "network_abnormal_msg": "网络可能异常",
+        "api_limit_triggered_msg": "操作频繁，请稍后再试。"
     }
 }

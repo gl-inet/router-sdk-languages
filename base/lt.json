@@ -69,7 +69,7 @@
         "all_select_btn": "Pažymėti visus",
         "select_none_btn": "Atžymėti visus",
         "blacklist": "Blokuojamųjų sąrašas",
-        "mode": "Režimas",
+        "mode": "Veiksena",
         "advanced": "Pažangus/-i",
         "current": "Esamas/Dabartinis",
         "whitelist": "Leidžiamųjų sąrašas",
@@ -112,7 +112,9 @@
         "done_btn": "Baigta",
         "cell_phone_num_label": "Mobiliojo tel. nr.",
         "agree_terms_and_privacy_tips": "Aš perskaičiau ir sutinku – {terms} & {privacy}.",
-        "upgrade_btn": "Aukštutinis atnaujinimas"
+        "upgrade_btn": "Aukštutinis atnaujinimas",
+        "setp_label": "{num} žingsnis:",
+        "join_btn": "Prisijungti"
     },
     "msg": {
         "being_process": "Apdorojama, prašome palaukti…",
@@ -129,7 +131,8 @@
         "port_occupied": "{pavadinimas} prievadas užimtas",
         "send_success_tips": "Nusiųsta sėkmingai!",
         "sign_up_success": "Sėkmingai prisiregistruota!",
-        "successfully_badge_tips": "Sėkmingai!"
+        "successfully_badge_tips": "Sėkmingai!",
+        "lack_of_memory_tips": "Dėl atminties trūkumo, galite bandyti paleisti iš naujo įrenginį, kad aukštutiniškai atnaujintumėte programinę įrangą."
     },
     "date": {
         "thursday": "Kt | Ketvirtadienis",
@@ -141,7 +144,7 @@
         "friday": "Pn | Penktadienis",
         "saturday": "Št | Šeštadienis",
         "second": "{count} Sekundė/-ę | {count} Sekundės/-žių",
-        "min": "{count} minutė/-ę | {count} minutės/-žių",
+        "min": "{count} minutė/-ę | {count} minutes/-ės/-čių",
         "hour": "{count} valanda/-ą | {count} valandos/-ų",
         "for_last_time": "Paskutinis/Buvęs {time}",
         "ms": "ms",
@@ -189,7 +192,7 @@
         "mtu_ipv6_warning_tips": "IPv6 negali veikti, kai „MTU“ yra mažesnis nei – 1280.",
         "illegal_subnet_tips": "Neteisėti potinkliai, paskutiniai trys bitai privalo būti – 0.",
         "illegal_subnet_mask_tips": "Neteisinga/-s tinklavimo „kaukė“ – adresų segregatorius, kadangi potinklis yra – „{subnet}“, tinklavimo „kaukė“ – adresų segregatorius negali būti mažesnė nei – {min}.",
-        "mode_label": "{tab} Režimas",
+        "mode_label": "{tab} Veiksena",
         "auto_update_mac_time_label": "Pagal laiką",
         "auto_update_mac_label": "Automatiškai atnaujinti „MAC“ (adresą)",
         "auto_update_mac_tips": "Jei ši parinktis įjungta/įgalinta, tada „MAC“ (adresas) gali automatiškai atsinaujinti.",
@@ -197,8 +200,9 @@
         "mac_replacement_label": "„MAC“ (adreso) pakeitimo ciklas",
         "mac_replacement_tips": "„MAC“ (adresas) gali atsinaujinti nurodytu atnaujinimo laiku ir, jei „MAC“ (adresas) vis dar naudojamas tuo laiku, tada jis bus atnaujintas po kito tinklo perjungimo.",
         "recheck_btn": "Iš naujo aptikti",
-        "duplex_full_label": "{speed} Mbps pilno duplekso",
-        "duplex_half_label": "{speed} Mbps pusės duplekso"
+        "duplex_full_label": "(dvi-/abi-)pusis – {speed} Mbps",
+        "duplex_half_label": "vienpusis/pakaitinis – {speed} Mbps",
+        "address_label": "Adresas"
     },
     "upload": {
         "lass_than_tips": "(Mažiau nei – $$$$)",
@@ -221,17 +225,21 @@
     },
     "err": {
         "abnormal_operation_msg": "Operacinė išimtis",
-        "network_not_reachable_msg": "Tinklas nepasiekiamas"
+        "network_not_reachable_msg": "Tinklas nepasiekiamas",
+        "param_illegal_msg": "Neteisėtas parametras, operacija nepavyko."
     },
     "subscription": {
         "url_label": "Prenumerato „URL“ – saitas",
-        "manual_label": "Rankinis"
+        "manual_label": "Rankinis/Gidas",
+        "url_err_tips": "Įveskite teisingą „URL“ – saitą."
     },
-    "vaildate": {
-        "only_letters_num_allowd_tips": "Tik raidės ir skaičiai yra leidžiami",
-        "invalid_line_label": "Negalimas linijos numeris: {num}",
+    "validate": {
+        "not_allowed_only_spaces": "Negalima naudoti tik tarpų.",
+        "only_allow_letter_num_start_tip": "Pradėti galima tik skaičiais arba raidėmis.",
+        "only_letters_num_allowd_tips": "Tik raidės ir skaičiai yra leidžiami.",
+        "invalid_line_label": "Netinkamas eilutės numeris: {num}",
         "only_allowd_input_tips": "Leidžiama įvesti tik {limit}.",
-        "only_num_letter_symbol_tips": "Tik raidės, skaičiai ir simboliai {symbol} yra leidžiami",
-        "min_max_length_tips": "{min} - {max} simbolių"
+        "only_num_letter_symbol_tips": "Leidžiami tik raidės, skaičiai ir simboliai {symbol}.",
+        "min_max_length_tips": "{min} - {max} simbolių."
     }
 }

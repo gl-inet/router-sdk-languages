@@ -66,7 +66,8 @@
         "auto_update_mac_tips": "Якщо ця опція включена, MAC може оновлюватися автоматично.",
         "auto_update_mac_strategy_label": "Стратегія автоматичного оновлення MAC",
         "mac_replacement_label": "Цикл заміни MAC",
-        "mac_replacement_tips": "MAC може оновлюватися у встановлений час оновлення, і якщо MAC все ще використовується в цей час, він оновиться після наступного підключення до мережі."
+        "mac_replacement_tips": "MAC може оновлюватися у встановлений час оновлення, і якщо MAC все ще використовується в цей час, він оновиться після наступного підключення до мережі.",
+        "address_label": "Адреса"
     },
     "upload": {
         "select_or_drag": "Виберіть файл або перетягніть його сюди",
@@ -200,7 +201,9 @@
         "switch_btn": "Перемкнути",
         "exit_btn": "Вихід",
         "done_btn": "Готово",
-        "upgrade_btn": "Оновлення"
+        "upgrade_btn": "Оновлення",
+        "setp_label": "Крок {num} :",
+        "join_btn": "Приєднатися"
     },
     "msg": {
         "access_denied": "Недійсний користувач, доступ заборонено або не виконано вхід!",
@@ -217,21 +220,26 @@
         "port_occupied": "Порт {name} зайнятий",
         "send_success_tips": "Успішно відправлено!",
         "sign_up_success": "Успішно зареєстровано!",
-        "successfully_badge_tips": "Успішно!"
+        "successfully_badge_tips": "Успішно!",
+        "lack_of_memory_tips": "Через нестачу пам'яті, якщо ви хочете оновити прошивку, спробуйте перезавантажити пристрій."
     },
     "err": {
         "abnormal_operation_msg": "Операційне виключення",
-        "network_not_reachable_msg": "Мережа недоступна"
+        "network_not_reachable_msg": "Мережа недоступна",
+        "param_illegal_msg": "Недопустимий параметр, операція не вдалася."
     },
     "subscription": {
         "url_label": "URL підписки",
-        "manual_label": "Ручний"
+        "manual_label": "Ручний",
+        "url_err_tips": "Будь ласка, введіть правильне посилання URL."
     },
-    "vaildate": {
-        "only_allowd_input_tips": "Дозволяється ввести лише {limit}.",
+    "validate": {
+        "not_allowed_only_spaces": "Не дозволяється використовувати лише пробіли.",
+        "only_allow_letter_num_start_tip": "Тільки цифри або літери можуть бути на початку.",
+        "only_letters_num_allowd_tips": "Лише літери та цифри дозволені.",
+        "invalid_line_label": "Недійсний номер рядка: {num}",
+        "only_allowd_input_tips": "Введення дозволяється лише до {limit}.",
         "only_num_letter_symbol_tips": "Лише літери, цифри та символи {symbol} дозволені.",
-        "only_letters_num_allowd_tips": "Дозволені лише літери та цифри",
-        "min_max_length_tips": "{min} - {max} символів",
-        "invalid_line_label": "Неправильний номер рядка: {num}"
+        "min_max_length_tips": "{min} - {max} символів."
     }
 }

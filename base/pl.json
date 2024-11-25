@@ -112,7 +112,9 @@
         "switch_btn": "Przełącz",
         "exit_btn": "Wyjście",
         "done_btn": "Gotowe",
-        "upgrade_btn": "Aktualizacja"
+        "upgrade_btn": "Aktualizacja",
+        "setp_label": "Krok {num} :",
+        "join_btn": "Dołącz"
     },
     "msg": {
         "port_occupied": "{nazwa} zajęty port",
@@ -129,7 +131,8 @@
         "uninstalling": "Odinstalowywanie, proszę czekać…",
         "send_success_tips": "Wysłano pomyślnie!",
         "sign_up_success": "Zarejestrowano pomyślnie!",
-        "successfully_badge_tips": "Sukces!"
+        "successfully_badge_tips": "Sukces!",
+        "lack_of_memory_tips": "Z powodu braku pamięci, jeśli chcesz zaktualizować oprogramowanie układowe, możesz spróbować ponownie uruchomić urządzenie."
     },
     "upload": {
         "file_include": "Typy plików obejmują",
@@ -195,7 +198,8 @@
         "recheck_btn": "Wykryj ponownie",
         "duplex_full_label": "{speed} Mbps pełny dupleks",
         "duplex_half_label": "{speed} Mbps półdupleks",
-        "auto_update_mac_time_label": "Według czasu"
+        "auto_update_mac_time_label": "Według czasu",
+        "address_label": "Adres"
     },
     "date": {
         "day": "dzień(dni)",
@@ -221,17 +225,21 @@
     },
     "err": {
         "abnormal_operation_msg": "Wyjątek operacyjny",
-        "network_not_reachable_msg": "Sieć nieosiągalna"
+        "network_not_reachable_msg": "Sieć nieosiągalna",
+        "param_illegal_msg": "Nieprawidłowy parametr, operacja nie powiodła się."
     },
     "subscription": {
         "url_label": "URL subskrypcji",
-        "manual_label": "Instrukcja obsługi"
+        "manual_label": "Instrukcja obsługi",
+        "url_err_tips": "Proszę wprowadzić poprawny link URL."
     },
-    "vaildate": {
+    "validate": {
+        "not_allowed_only_spaces": "Nie wolno używać samych spacji.",
+        "only_allow_letter_num_start_tip": "Tylko cyfry lub litery mogą być na początku.",
+        "only_letters_num_allowd_tips": "Nieprawidłowy numer linii: {num}",
+        "invalid_line_label": "Nieprawidłowy numer linii: {num}",
         "only_allowd_input_tips": "Dozwolone jest wprowadzenie tylko {limit}.",
-        "only_num_letter_symbol_tips": "Dozwolone są tylko litery, cyfry i symbole {symbol}",
-        "only_letters_num_allowd_tips": "Dozwolone są tylko litery i cyfry",
-        "min_max_length_tips": "{min} - {max} znaków",
-        "invalid_line_label": "Nieprawidłowy numer linii: {num}"
+        "only_num_letter_symbol_tips": "Dozwolone są tylko litery, cyfry i symbole {symbol}.",
+        "min_max_length_tips": "{min} - {max} znaków."
     }
 }

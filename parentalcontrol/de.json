@@ -95,7 +95,19 @@
         "local_version_desc": "Die lokale Version wird bereitgestellt von GL.iNet. Sie ist derzeit in der Erprobung (Beta), es werden daher keine zusätzlichen Kosten berechnet. In dieser Version werden anfragen nach Anwendung gefiltert, Domains müssen manuell eingetragen werden.",
         "toggle_version_desc": "Die Version des Kinderschutz kann frei gewählt werden. Aber beide Systeme können nicht gleichzeitig aktiviert sein, das jeweils andere wird automatisch deaktiviert beim Wechseln der Version.",
         "bark_version_desc": "Diese Version von Bark wird bereitgestellt und verwaltet von $$$$Bark$$$$ auf ihrer eigenen Plattform. Es wird die Option geboten Anwendungen und Webseiten mit nur einem Klick zu filtern und die Anfragen historisch zu betrachten. Bitte beachte, dass für diesen Service ein zusätzliches Abo direkt bei Bark benötigt wird.",
-        "bark_version_title": "Bark Version"
+        "bark_version_title": "Bark Version",
+        "blocklist_input_mode_label": "Blocklist-Eingabemodus",
+        "domain_detect_success_tips": "{count} Domainnamen wurden erfolgreich erkannt.",
+        "domain_detect_failed_tips": "{count} Domainnamen konnten nicht erkannt werden.",
+        "ssid_or_password_is_error": "SSID oder Kennwort ist falsch.",
+        "input_url_link_tips": "Bitte geben Sie die korrekte URL ein. Die URL-Erkennung wird die Richtigkeit des Domainnamens feststellen.",
+        "blocklist_input_mode_tooltip": "Sie können die Blacklist manuell einstellen oder durch Abonnieren der URL. Nach dem Abonnieren der URL wird die Blacklist automatisch jeden Tag aktualisiert.",
+        "success_and_fail_domain_tip": "{success} Domainnamen oder IP-Adressen wurden erfolgreich erkannt, und {failed} Domainnamen oder IP-Adressen konnten nicht erkannt werden.",
+        "manual_label": "Manuell",
+        "subscription_url_label": "Abonnement-URL",
+        "input_url_link_label": "URL-Link eingeben",
+        "detect_button": "Erkennen",
+        "detecting_message": "Bitte warten Sie, die Erkennung läuft."
     },
     "bark": {
         "unbind_tips": "Soll die Kopplung zurückgesetzt werden, um mit einem neuen Konto zu verbunden zu werden? Das Gerät wird aus dem aktuell gekoppelten Konto entfernt.",

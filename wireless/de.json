@@ -27,7 +27,10 @@
         "lan_guest_conflict_tips": "Das Gäste WLAN kann nicht aktiviert werden, weil {guest} in Konflikt mit {lan} steht.",
         "enable_random_bssid_label": "Zufällige BSSID aktivieren",
         "random_bssid_enabled_tips": "Wenn diese Option aktiviert ist, verwendet das Gerät eine zufällig generierte BSSID und erneuert sie bei jedem Neustart.",
-        "random_bssid_disabled_tips": "Die Verwendung einer statischen BSSID kann dazu führen, dass Sie verfolgt werden. Wenn Ihr Client-Gerät die Verwendung einer statischen BSSID erfordert, wird empfohlen, die SSID auf versteckt zu setzen. {more}"
+        "random_bssid_disabled_tips": "Die Verwendung einer statischen BSSID kann dazu führen, dass Sie verfolgt werden. Wenn Ihr Client-Gerät die Verwendung einer statischen BSSID erfordert, wird empfohlen, die SSID auf versteckt zu setzen. {more}",
+        "mlo_wifi_security_tips": "WPA3-SAE eignet sich für die meisten Geräte, die MLO unterstützen, und dieses Protokoll wird empfohlen.",
+        "radio_bands": "Funkbänder",
+        "radio_bands_tips": "Bitte wählen Sie mindestens zwei Funkbänder aus."
     },
     "menu_wireless": "WLAN"
 }

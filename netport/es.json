@@ -1,1 +1,17 @@
-{}
+{
+    "menu_netport": "Administración de Puerto de Red",
+    "netport": {
+        "rate_label": "Velocidad negociada para el puerto",
+        "no_wan_tips": "{silkprint} ha sido configurado como un puerto de LAN (red de área local). Puede re-ajustarlo para que sea un puerto WAN (red externa) en {view}",
+        "reset_as_wan_tips": "Restaurar la configuración de {silkprint} como un puerto de WAN.",
+        "unplug_cable_tips": "Primero desconecte el cable Ethernet que está conectado en {silkprint}.",
+        "wan_lan_change_tips": "Puede utilizar el puerto WAN como un puerto LAN (de la red local).",
+        "reset_port_tips": "Puede reestablecer {silkprint} al modo {port} presionando el botón de Reset durante 4 segundos.",
+        "as_wan_tips": "{asWan}, el dispositivo conectado al puerto ya no puede acceder al Panel de Administración. Es necesario que lo conecte via Wi-Fi o a través de uno de los puertos LAN.",
+        "set_as_wan_tips": "Una vez {silkprint} ha sido utilziado como un puerto WAN",
+        "reset_as_lan_tips": "Con seguridad quiere ajustar {silkprint} como un puerto LAN (es la configuración por defecto)?",
+        "set_as_lan_tips": "Con seguridad quiere configurar {silkprint} como un puerto LAN?",
+        "two_port_label": "{port1} y {port2}",
+        "as_label": "Como {port}"
+    }
+}

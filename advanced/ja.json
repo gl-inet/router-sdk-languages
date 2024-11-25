@@ -2,6 +2,9 @@
     "menu_advanced": "詳細設定",
     "advanced": {
         "note_two": "LuCIをそのままの状態で提供しています。GL.iNetはLuCIの今後のメンテナンスに対して責任を負いません。",
-        "note_one": "OpenWrtのデフォルトのユーザーインタフェースLuCIを使用して、詳細設定を変更できます。LuCIはOpenWrtによってメンテナンスされているオープンソースの独立したプロジェクトです。"
+        "note_one": "OpenWrtのデフォルトのユーザーインタフェースLuCIを使用して、詳細設定を変更できます。LuCIはOpenWrtによってメンテナンスされているオープンソースの独立したプロジェクトです。",
+        "go_to_luci_btn": "LuCIへ移動する",
+        "luci_security_tips": "LuCIのセキュリティのため、リモートからLuCIにアクセスする必要がある場合は、LuCIポートを手動で開くようにしてください。",
+        "luci_rtty_tips": "rttyを経由してLuCIにリモートアクセスする必要がある場合は、クラウドプラットフォーム上で{port}ポートでLuCIにアクセスしてください。"
     }
 }

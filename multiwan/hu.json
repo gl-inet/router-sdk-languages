@@ -36,6 +36,12 @@
         "balancing_warning_tips": "Legalább két, nem nulla terhelési aránnyal rendelkező interfész konfigurálása szükséges a kiegyensúlyozott terhelés megfelelő működéséhez. Ha nincs csatlakoztatható internetes interfész nem nulla terhelési aránnyal, az eszköz nem lesz képes csatlakozni az internethez.",
         "track_mode_label": "Alacsony Adatmód",
         "passive_label": "Alacsony Adatmód",
-        "sensitivity_label": "Érzékenység"
+        "sensitivity_label": "Érzékenység",
+        "det_mode_label": "Érzékelési mód",
+        "strict _label": "Szigorú",
+        "normal_label": "Normál",
+        "low_data_label": "Kis adatforgalmú",
+        "strict_mode_label": "Szigorú mód",
+        "det_mode_tips": "Alapértelmezés szerint a normál mód van használatban, a kis adatforgalmú mód csak interfész hálózati hiba esetén rögzít, és a szigorú mód kizárólag egy nyilvános IP-ről érkező érzékelési parancs eredményei alapján határozza meg az interfész állapotát."
     }
 }

@@ -44,7 +44,7 @@
         "enabled_tips": "云服务当前处于启用状态。",
         "device_be_bound_by_other_title": "设备被绑定",
         "not_support_change_bind_tips": "对不起，本设备不支持更改绑定帐号的功能。请与您的设备供应商联系以获得进一步的帮助。",
-        "req_unbind_sms_btn": "请求与消息解除绑定",
+        "req_unbind_sms_btn": "发送请求解绑消息",
         "back_login_btn": "返回登录",
         "reset_pawd_title": "重置密码",
         "service_will_be_unbind_tips": "云服务将被解除绑定",
@@ -69,7 +69,9 @@
         "app_auth_tips": "请输入您的双因素身份验证应用程序生成的一次性密码。",
         "email_auth_tips": "请输入你的安全邮箱({email})收到的验证码。",
         "sms_auth_tips": "请输入您的手机{phone}收到的验证码。",
-        "cn_side_label": "中国站"
+        "cn_side_label": "中国站",
+        "sign_up_title": "创建您的 glinet 账户",
+        "login_side_title": "使用您的 glinet 帐户"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -86,8 +88,10 @@
         "account_incorrect_msg": "用户名或密码错误。",
         "device_not_found_msg": "未知设备。",
         "phone_verify_code_invalid_msg": "手机验证码已过期。",
-        "verify_code_over_limit_msg": "发送的验证码超过限制。",
+        "verify_code_over_limit_msg": "操作频繁，请稍后再尝试。",
         "send_verify_code_err_msg": "发送电子邮件验证码失败。",
-        "phone_verify_code_err_msg": "手机验证码错误。"
+        "phone_verify_code_err_msg": "手机验证码错误。",
+        "account_not_exist_msg": "用户不存在。",
+        "send_msg_over_limit_msg": "每周只能发送一次。"
     }
 }

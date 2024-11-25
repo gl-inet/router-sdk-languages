@@ -111,7 +111,19 @@
         "current_rule_label": "Поточний набір правил:",
         "del_all_schedule_btn": "Видалити всі розклади",
         "remove_all_schedule_tips": "Ви впевнені, що хочете видалити всі розклади?",
-        "version_conversion_btn": "Переключити версію"
+        "version_conversion_btn": "Переключити версію",
+        "blocklist_input_mode_label": "Режим введення чорного списку",
+        "blocklist_input_mode_tooltip": "Ви можете встановити чорний список вручну або шляхом підписки на URL. Після підписки на URL чорний список буде автоматично оновлюватися щодня.",
+        "manual_label": "Вручну",
+        "subscription_url_label": "URL підписки",
+        "input_url_link_tips": "Будь ласка, введіть правильний URL. Виявлення URL визначить коректність доменного імені.",
+        "success_and_fail_domain_tip": "{success} доменних імен або IP-адрес було успішно виявлено, а {failed} доменних імен або IP-адрес не вдалося виявити.",
+        "input_url_link_label": "Введіть посилання URL",
+        "detect_button": "Виявити",
+        "detecting_message": "Зачекайте, триває виявлення.",
+        "ssid_or_password_is_error": "Неправильний SSID або пароль.",
+        "domain_detect_success_tips": "{count} доменних імен було успішно виявлено.",
+        "domain_detect_failed_tips": "{count} доменних імен не вдалося виявити."
     },
     "menu_parentalcontrol": "Батьківський контроль"
 }

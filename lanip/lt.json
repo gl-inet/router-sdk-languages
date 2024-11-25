@@ -27,22 +27,22 @@
         "ap_isolate_tips": "Galite izoliuoti savo tinklo klientų įrenginius į atskirą tinklo sritį. Šie įrenginiai negali bendrauti su kitais įrenginiais, tinkle.",
         "dhcp_disable_warning_tips": "Jei išjungsite „DHCP“, gali būti, kad negalėsite prisijungti prie interneto, todėl prašome būti atsargiems.",
         "lpr_tips": "Galima užpildyti kelerius „LPR“ spausdintuvo prievadus.",
-        "guest_disabel_tips": "{svečias} yra išjungta/neįgalinta (-s/-i), todėl svečių tinklas neveikia."
+        "guest_disabel_tips": "{svečias} yra išjungta/neįgalinta (-s/-i), todėl svečių tinklas yra nepasiekiamas."
     },
     "address_reservation": {
         "confirm_delete": "Ar tikrai norite ištrinti rezervuoto adreso įrašą?",
-        "mac_existed": "MAC adresas jau egzistuoja",
-        "ip_existed": "IP adresas jau egzistuoja",
-        "desc_label": "Aprašymas",
+        "mac_existed": "„MAC“ egzistavo",
+        "ip_existed": "IP egzistavo",
+        "desc_label": "Aprašas/-ymas",
         "title": "Adreso rezervacija",
-        "tips": "Kai nurodote rezervuotą IP adresą LAN klientui, klientas visada gaus tą patį IP adresą, kai prašys IP adreso iš maršrutizatoriaus DHCP serverio. Galite priskirti rezervuotus IP adresus kompiuteriams ar serveriams, kuriems reikalingi nuolatiniai IP nustatymai.",
+        "tips": "Kai nurodote rezervuotą IP adresą „LAN“ klientui, tada klientas visada gaus tą patį IP adresą, kai prašys IP adreso iš maršrutizatoriaus „DHCP“ serverio. Galite priskirti rezervuotus IP adresus kompiuteriams ar serveriams, kuriems reikalingi nuolatiniai IP nustatymai.",
         "note": "Pastaba: Konfigūruoti klientai turi iš naujo prisijungti prie maršrutizatoriaus, kad aktyvuotų.",
         "name": "Pavadinimas",
         "action": "Veiksmas",
         "no_data": "Lentelėje nėra duomenų.",
         "add_new": "Pridėti naują rezervacijos įrašą",
-        "set_data": "Keisti rezervacijos įrašą",
+        "set_data": "Keisti/Redaguoti rezervacijos įrašą",
         "confirm_delete_all": "Ar tikrai norite ištrinti visus adresų rezervacijos įrašus?"
     },
-    "menu_guestip": "Svečio Tinklas"
+    "menu_guestip": "Svečių tinklas"
 }

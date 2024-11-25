@@ -263,10 +263,10 @@
         "domain_url_tips": "Please enter the correct URL. The URL detection will identify the correctness of the domain name or IP address.",
         "wg_surfshark_limit_tips": "You have reached the maximum number of connections, please go to {provider} to delete the connections you are not using.",
         "wg_azirevpn_limit_tips": "An AzireVPN account may only be used on 10 devices at the same time. You have reached the maximum number of devices for your account, please go to {provider}, delete any devices that you are not using and try again.",
-        "domain_input_mode_tips": "You can enter the domain name or IP manually or automatically, and if you select Subscribe URL, the domain name or IP in the URL is automatically updated every day.",
+        "domain_input_mode_tips": "If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day.",
         "domain_input_mode_label": "Input Mode",
         "wg_mullvad_limit_tips": "Failed to generate a WireGuard key. You can only have up to five keys at the same time per Mullvad account. Please go to {provider} to revoke a key.",
-        "wg_self_public_key_tips": "Public key form your side",
+        "wg_self_public_key_tips": "Public key from your side",
         "go_renew_btn": "Go Renew",
         "wg_nordvpn_tips": "NordVPN token is the credentials to login to NordVPN, you need to login to the NordVPN official website first, and then manually get its token.",
         "expires_at_tips": "Expires at {time}",
@@ -280,16 +280,22 @@
         "guide_login_title": "Login {provider}",
         "guide_done_title": "Successful Networking",
         "guide_pull_title": "{provider} Server Select",
-        "wg_guide_tips": "The VPN guide can help you use the VPN quickly. It is only for AzireVPN, Mullvad, NordVPN, PIA and Surfshark. For others, you can skip. Configuring the VPN may take a few minutes.",
+        "wg_guide_tips": "The VPN guide can help you use the WireGuard VPN quickly. It is only for AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hide.me and IPVanish. For others, you can skip. Configuring the VPN may take a few minutes.",
         "guide_switch_another_server_tips": "2.Switch to another VPN server.",
         "guide_make_sure_available_tips": "1.Make sure the VPN account is available.",
         "guide_cannot_work_tips": "Now the VPN cannot work properly, please try the following ways.",
         "guide_done_tips": "{provider} has been connected successfully and you can enjoy VPN now.",
         "guide_restart_tips": "3.Restart the router.",
         "guide_contact_us_tips": "4.If the problem has not been solved, you can also email {email}.",
-        "guide_sign_up_title": "Register account of the {provider}",
+        "guide_sign_up_title": "Sign up for {provider}",
         "wg_not_subscription_tips": "This account may not have a subscription.",
-        "wg_subscription_expired_tips": "This account subscription may have expired."
+        "wg_subscription_expired_tips": "This account subscription may have expired.",
+        "ovpn_nordvpn_tips": "To ensure successful usage of the VPN, kindly enter {account}, which serve as your service credentials for NordVPN.",
+        "to_setup_guide_tips": "If you don't know how to get it, please see {guide}.",
+        "accurate_account_label": "the accurate NordVPN username and password",
+        "wg_guide_disabled_tips": "OpenVPN is connected, turn off OpenVPN if you need to use Wireguard VPN.",
+        "manual_upload_tips": "Please visit {page} to view {type} compatible VPN service providers and learn about the benefits of using VPN.",
+        "on_router_label": "VPN on Router"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -327,6 +333,8 @@
         "invalid_username_msg": "the username may only contain letters and numbers",
         "register_account_fail_msg": "register new account failed",
         "vpn_client_connect_fail_msg": "vpn client failed to connect to server",
-        "connect_server_fail_msg": "get information from provider server failed"
+        "connect_server_fail_msg": "get information from provider server failed",
+        "network_abnormal_msg": "Network may be abnormal",
+        "api_limit_triggered_msg": "Frequent operation, please try again later."
     }
 }

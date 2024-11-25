@@ -1,7 +1,10 @@
 {
     "advanced": {
         "note_one": "Jūs galite redaguoti pažangius nustatymus su „LuCI“, numatytąją tinklo tarpuvartę, kurią naudoja „OpenWrt“. „LuCI“ yra atviro ir nepriklausomo kodo projektas kurį prižiūri „OpenWrt“.",
-        "note_two": "Šis yra pateiktas toks, koks yra. „GL.iNet“ neprisiima atsakomybės (nevaldo) už „LuCI“ išlaikymą/pagalbą."
+        "note_two": "Šis yra pateiktas toks, koks yra. „GL.iNet“ neprisiima atsakomybės (nevaldo) už „LuCI“ išlaikymą/pagalbą.",
+        "go_to_luci_btn": "Eiti į „LuCI“",
+        "luci_security_tips": "Skirta „LuCI“ saugumui; jeigu Jums reikia nuotoliniu būdu pasiekti „LuCI“, tada prašome atidaryti „LuCI“ prievadą rankiniu būdu.",
+        "luci_rtty_tips": "Jeigu Jums reikia nuotoliniu būdu pasiekti „LuCI“ naudojant „rtty“, tada „LuCI“ prieigą gausite ant prievado – {port}, debesijos platformoje."
     },
     "menu_advanced": "Pažangūs nustatymai"
 }

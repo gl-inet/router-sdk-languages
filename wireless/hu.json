@@ -28,6 +28,9 @@
         "dsf_conflict": "A 5GHz-es Wi-Fi ideiglenesen nem elérhető, mert a radar használja a csatornát, amit a router jelenleg használ.",
         "channel_auto_dfs_tips": "Amikor a sávszélessége 160 MHz-re van beállítva, a Wi-Fi mindig a DFS csatornát fogja használni, még akkor is, ha Ön egy nem-DFS csatornát vagy a \"$$$$\" opciót választja.",
         "channel_auto_tips": "Amikor kiválasztja a \"$$$$\" opciót, a Wi-Fi nem fog automatikusan átváltani a DFS csatornára.",
-        "lan_guest_conflict_tips": "A vendég Wi-Fi nem engedélyezhető, mert {guest} ütközik a {lan}-nel."
+        "lan_guest_conflict_tips": "A vendég Wi-Fi nem engedélyezhető, mert {guest} ütközik a {lan}-nel.",
+        "radio_bands": "Rádiósávok",
+        "mlo_wifi_security_tips": "WPA3-SAE a legtöbb, MLO-t támogató eszközhöz megfelelő, és ezt a protokollt ajánljuk.",
+        "radio_bands_tips": "Kérjük, válasszon ki legalább két rádiósávot."
     }
 }

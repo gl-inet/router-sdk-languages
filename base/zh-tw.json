@@ -38,7 +38,7 @@
         "please_choose": "請選擇",
         "delete_caution": "您確認要刪除該項配置嗎？",
         "delete_all_caution": "您確認要刪除所有的配置項嗎？",
-        "password_tips": "最少 $$$$ 字元和最大 $$$$ 字元",
+        "password_tips": "至少需要 $$$$ 位，至多 $$$$ 位",
         "back": "返回",
         "use_weak_tips": "弱密碼很容易被猜到，並且還會使您的網絡面臨潛在的攻擊。",
         "disable": "禁用",
@@ -112,7 +112,9 @@
         "agree_terms_and_privacy_tips": "我已閱讀並同意{terms}與{privacy}。",
         "detect_btn": "檢測",
         "switch_btn": "切換",
-        "exit_btn": "退出"
+        "exit_btn": "退出",
+        "setp_label": "步驟 {num}：",
+        "join_btn": "加入"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -129,7 +131,8 @@
         "processing": "正在處理……",
         "send_success_tips": "發送成功！",
         "sign_up_success": "註冊成功！",
-        "successfully_badge_tips": "成功！"
+        "successfully_badge_tips": "成功！",
+        "lack_of_memory_tips": "由於內存不足，如果要升級固件，可以嘗試重啓設備。"
     },
     "internet": {
         "lan_ip_tips": "LAN子網與WAN子網衝突，請$$$$修改LAN IP地址$$$$。",
@@ -152,7 +155,7 @@
         "current_client_label": "當前用戶",
         "clone_mac_label": "克隆的 MAC 地址",
         "hl_tips": "HL（Hop Limit），在IPv6中，該字段用於限制數據包在網絡中的傳輸跳數，相當於IPv4的TTL。",
-        "net_trouble_guide_link": "網絡故障排除指南",
+        "net_trouble_guide_link": "網絡故障處理指南",
         "disguise_mac_label": "偽裝的 MAC 地址",
         "random_mac_label": "隨機的 MAC 地址",
         "wan_lan_label": "WAN/LAN 埠",
@@ -176,7 +179,8 @@
         "mac_replacement_label": "MAC地址更換週期",
         "mac_replacement_tips": "MAC地址可以在更新時間點進行更新，如果該時間點MAC地址仍在使用中，則會在下次重新連接網絡後更新。",
         "duplex_half_label": "{speed} Mbps 半雙工",
-        "recheck_btn": "重新檢測"
+        "recheck_btn": "重新檢測",
+        "address_label": "地址"
     },
     "date": {
         "day": "天",
@@ -208,7 +212,7 @@
         "firmware_format_error": "固件格式錯誤!",
         "error": "文件上載失敗。",
         "format_error": "數據格式錯誤!",
-        "too_large_tips": "上傳的文件太大，請上傳 $$$$ 的文件。",
+        "too_large_tips": "上傳的文件太大，請上傳 $$$$ 以內的文件。",
         "lass_than_tips": "（少於 $$$$）"
     },
     "system": {
@@ -219,19 +223,23 @@
         "forget_password_btn": "忘記密碼？",
         "lost_account_btn": "遺失帳戶？"
     },
-    "vaildate": {
-        "only_letters_num_allowd_tips": "只允許輸入字母和數字",
-        "invalid_line_label": "無效行號:{num}",
-        "only_allowd_input_tips": "僅允許輸入 {limit}。",
-        "only_num_letter_symbol_tips": "只允許字母、數字和符號{symbol}",
-        "min_max_length_tips": "{min} - {max} 個字符"
-    },
     "err": {
         "abnormal_operation_msg": "操作異常",
-        "network_not_reachable_msg": "網絡無法連接"
+        "network_not_reachable_msg": "網絡無法連接",
+        "param_illegal_msg": "參數非法，操作失敗。"
     },
     "subscription": {
         "url_label": "訂閱URL",
-        "manual_label": "手動"
+        "manual_label": "手動",
+        "url_err_tips": "請輸入正確的URL連結。"
+    },
+    "validate": {
+        "not_allowed_only_spaces": "不允許僅使用空格。",
+        "only_allow_letter_num_start_tip": "只允許數字或字母作為開頭。",
+        "only_letters_num_allowd_tips": "只允許字母和數字。",
+        "invalid_line_label": "無效的行號：{num}",
+        "only_allowd_input_tips": "只允許輸入{limit}。",
+        "only_num_letter_symbol_tips": "只允許字母、數字和符號{symbol}。",
+        "min_max_length_tips": "{min} - {max} 個字符。"
     }
 }

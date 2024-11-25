@@ -44,7 +44,8 @@
         "duplex_full_label": "{speed} Мбит/с полный дуплекс",
         "duplex_half_label": "{speed} Мбит/с полудуплекс",
         "auto_update_mac_tips": "Если эта опция включена, MAC-адрес может обновляться автоматически.",
-        "auto_update_mac_strategy_label": "Стратегия автообновления MAC"
+        "auto_update_mac_strategy_label": "Стратегия автообновления MAC",
+        "address_label": "Адрес"
     },
     "core": {
         "protocol": "Протокол",
@@ -159,7 +160,9 @@
         "switch_btn": "Переключить",
         "exit_btn": "Выход",
         "done_btn": "Готово",
-        "upgrade_btn": "Обновление"
+        "upgrade_btn": "Обновление",
+        "setp_label": "Шаг {num} :",
+        "join_btn": "Присоединиться"
     },
     "msg": {
         "access_denied": "Неверный пользователь, доступ запрещен или не выполнен вход!",
@@ -176,7 +179,8 @@
         "getting": "Получение данных, пожалуйста, подождите…",
         "send_success_tips": "Отправлено успешно!",
         "sign_up_success": "Успешная регистрация!",
-        "successfully_badge_tips": "Успешно!"
+        "successfully_badge_tips": "Успешно!",
+        "lack_of_memory_tips": "Из-за недостатка памяти, если вы хотите обновить прошивку, вы можете попробовать перезагрузить устройство."
     },
     "date": {
         "thursday": "Чт | Четверг",
@@ -221,17 +225,21 @@
     },
     "err": {
         "abnormal_operation_msg": "Операционное исключение",
-        "network_not_reachable_msg": "Сеть недоступна"
+        "network_not_reachable_msg": "Сеть недоступна",
+        "param_illegal_msg": "Недопустимый параметр, операция не удалась."
     },
     "subscription": {
         "url_label": "URL подписки",
-        "manual_label": "Руководство"
+        "manual_label": "Руководство",
+        "url_err_tips": "Пожалуйста, введите правильную ссылку URL."
     },
-    "vaildate": {
-        "only_allowd_input_tips": "Разрешено вводить только {limit}.",
-        "only_letters_num_allowd_tips": "Разрешены только буквы и цифры",
+    "validate": {
+        "not_allowed_only_spaces": "Использование только пробелов не допускается.",
+        "only_allow_letter_num_start_tip": "Только цифры или буквы могут быть в начале.",
+        "only_letters_num_allowd_tips": "Только буквы и цифры разрешены.",
         "invalid_line_label": "Неверный номер строки: {num}",
-        "only_num_letter_symbol_tips": "Только буквы, цифры и символы {symbol} разрешены",
-        "min_max_length_tips": "От {min} до {max} символов"
+        "only_allowd_input_tips": "Ввод разрешен только до {limit}.",
+        "only_num_letter_symbol_tips": "Только буквы, цифры и символы {symbol} разрешены.",
+        "min_max_length_tips": "{min} - {max} символов."
     }
 }

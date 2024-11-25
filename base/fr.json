@@ -112,7 +112,9 @@
         "switch_btn": "Basculer",
         "exit_btn": "Quitter",
         "done_btn": "Terminé",
-        "upgrade_btn": "Mettre à niveau"
+        "upgrade_btn": "Mettre à niveau",
+        "setp_label": "Étape {num} :",
+        "join_btn": "Rejoindre"
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -129,7 +131,8 @@
         "port_occupied": "{name} port occupé",
         "send_success_tips": "Envoyé avec succès !",
         "sign_up_success": "Enregistré avec succès !",
-        "successfully_badge_tips": "Avec succès !"
+        "successfully_badge_tips": "Avec succès !",
+        "lack_of_memory_tips": "En raison d'un manque de mémoire, si vous souhaitez mettre à jour le firmware, vous pouvez essayer de redémarrer l'appareil."
     },
     "date": {
         "day": "jour(s)",
@@ -198,7 +201,8 @@
         "mac_replacement_tips": "L'adresse MAC peut se mettre à jour au moment du point de mise à jour, et si l'adresse MAC est encore en utilisation à ce moment, elle se mettra à jour après la prochaine reconnexion au réseau.",
         "duplex_full_label": "{speed} Mbps en duplex intégral",
         "duplex_half_label": "{speed} Mbps en duplex partiel",
-        "recheck_btn": "Redétecter"
+        "recheck_btn": "Redétecter",
+        "address_label": "Adresse"
     },
     "upload": {
         "select_or_drag": "Sélectionnez un fichier ou déposez-le ici",
@@ -221,17 +225,21 @@
     },
     "subscription": {
         "url_label": "URL d'abonnement",
-        "manual_label": "Manuel"
+        "manual_label": "Manuel",
+        "url_err_tips": "Veuillez saisir le lien URL correct."
     },
     "err": {
         "network_not_reachable_msg": "Réseau non accessible",
-        "abnormal_operation_msg": "Exception opérationnelle"
+        "abnormal_operation_msg": "Exception opérationnelle",
+        "param_illegal_msg": "Paramètre illégal, l'opération a échoué."
     },
-    "vaildate": {
-        "only_allowd_input_tips": "Seul {limit} est autorisé à être saisi.",
-        "only_letters_num_allowd_tips": "Seules les lettres et les chiffres sont autorisés",
+    "validate": {
+        "not_allowed_only_spaces": "Il n'est pas permis d'utiliser uniquement des espaces.",
+        "only_allow_letter_num_start_tip": "Seuls les chiffres ou les lettres sont autorisés en début.",
+        "only_letters_num_allowd_tips": "Seules les lettres et les chiffres sont autorisés.",
         "invalid_line_label": "Numéro de ligne invalide : {num}",
-        "only_num_letter_symbol_tips": "Seuls les lettres, les chiffres et les symboles {symbol} sont autorisés.",
-        "min_max_length_tips": "{min} - {max} caractères"
+        "only_allowd_input_tips": "Seulement {limit} est autorisé à être saisi.",
+        "only_num_letter_symbol_tips": "Seules les lettres, les chiffres et les symboles {symbol} sont autorisés.",
+        "min_max_length_tips": "{min} - {max} caractères."
     }
 }

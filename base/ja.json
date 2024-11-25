@@ -112,7 +112,9 @@
         "switch_btn": "スイッチ",
         "exit_btn": "終了",
         "done_btn": "完了",
-        "upgrade_btn": "アップグレード"
+        "upgrade_btn": "アップグレード",
+        "setp_label": "ステップ{num}：",
+        "join_btn": "加入"
     },
     "msg": {
         "access_denied": "無効なユーザーか、承認されていないか、もしくはログインしていません！",
@@ -129,7 +131,8 @@
         "port_occupied": "{name} ポートが占有されています",
         "send_success_tips": "正常に送信されました!",
         "sign_up_success": "登録に成功しました！",
-        "successfully_badge_tips": "成功しました！"
+        "successfully_badge_tips": "成功しました！",
+        "lack_of_memory_tips": "メモリ不足のため、ファームウェアをアップグレードする場合は、デバイスをリブートしてみてください。"
     },
     "internet": {
         "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。$$$$Change LAN Subnet$$$$で別のアドレスにしてください。",
@@ -176,7 +179,8 @@
         "duplex_full_label": "{speed} Mbps フルデュプレックス",
         "duplex_half_label": "{speed} Mbps ハーフデュプレックス",
         "auto_update_mac_strategy_label": "MACアドレス自動更新戦略",
-        "mac_replacement_label": "MACアドレス交換周期"
+        "mac_replacement_label": "MACアドレス交換周期",
+        "address_label": "住所"
     },
     "date": {
         "day": "日",
@@ -216,22 +220,26 @@
         "feature_unusable_tips": "{feature}が有効になっているため、この機能は動作しません。",
         "no_internet_base_tips": "インターネット環境を確認して、再試行してください。",
         "limit_tips": "データは{count}エントリを超えてはなりません。",
-        "lost_account_btn": "アカウントを失いましたか？",
+        "lost_account_btn": "アカウントをなくしましたか？",
         "forget_password_btn": "パスワードを忘れましたか？"
     },
     "err": {
         "network_not_reachable_msg": "ネットワークに接続できません",
-        "abnormal_operation_msg": "操作に例外が発生しました"
+        "abnormal_operation_msg": "操作に例外が発生しました",
+        "param_illegal_msg": "不正なパラメータです、操作に失敗しました。"
     },
     "subscription": {
         "url_label": "サブスクリプションURL",
-        "manual_label": "マニュアル"
+        "manual_label": "マニュアル",
+        "url_err_tips": "正しいURLリンクを入力してください。"
     },
-    "vaildate": {
-        "only_allowd_input_tips": "入力可能なのは{limit}のみです。",
+    "validate": {
+        "not_allowed_only_spaces": "不允许仅使用空格。",
+        "only_allow_letter_num_start_tip": "開始時には数字または文字のみが許可されます。",
+        "only_letters_num_allowd_tips": "無効な行番号：{num}",
+        "invalid_line_label": "無効な行番号：{num}",
+        "only_allowd_input_tips": "入力できるのは{limit}までです。",
         "only_num_letter_symbol_tips": "文字、数字、および記号{symbol}のみが許可されています。",
-        "only_letters_num_allowd_tips": "文字と数字のみが許可されています",
-        "min_max_length_tips": "{min} - {max} 文字",
-        "invalid_line_label": "無効な行番号：{num}"
+        "min_max_length_tips": "{min} - {max} 文字。"
     }
 }

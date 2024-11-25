@@ -44,7 +44,8 @@
         "mac_replacement_tips": "A MAC cím a frissítési időpontban frissülhet, és ha a MAC cím ekkor még használatban van, akkor a következő hálózathoz való újracsatlakozás után frissül.",
         "recheck_btn": "Újra-érzékelés",
         "duplex_full_label": "{speed} Mbps teljes duplex",
-        "duplex_half_label": "{speed} Mbps fél duplex"
+        "duplex_half_label": "{speed} Mbps fél duplex",
+        "address_label": "Cím"
     },
     "core": {
         "click here_btn": "Kattintson ide",
@@ -159,7 +160,9 @@
         "switch_btn": "Kapcsoló",
         "exit_btn": "Kilépés",
         "done_btn": "Kész",
-        "upgrade_btn": "Frissítés"
+        "upgrade_btn": "Frissítés",
+        "setp_label": "\"{num}. lépés :\"",
+        "join_btn": "Csatlakozás"
     },
     "msg": {
         "success": "Teljesítve!",
@@ -176,7 +179,8 @@
         "port_occupied": "A(z) {name} port foglalt",
         "send_success_tips": "Sikeres küldés!",
         "sign_up_success": "Sikeres regisztráció!",
-        "successfully_badge_tips": "Sikeresen!"
+        "successfully_badge_tips": "Sikeresen!",
+        "lack_of_memory_tips": "A memória hiánya miatt, ha frissíteni szeretné a firmware-t, próbálja meg újraindítani az eszközt."
     },
     "date": {
         "day": "nap",
@@ -221,17 +225,21 @@
     },
     "err": {
         "network_not_reachable_msg": "A hálózat nem elérhető",
-        "abnormal_operation_msg": "Működési kivétel"
+        "abnormal_operation_msg": "Működési kivétel",
+        "param_illegal_msg": "Érvénytelen paraméter, a művelet sikertelen."
     },
     "subscription": {
         "url_label": "Előfizetési URL",
-        "manual_label": "Kézi"
+        "manual_label": "Kézi",
+        "url_err_tips": "Kérjük, adja meg a helyes URL-címet."
     },
-    "vaildate": {
+    "validate": {
+        "not_allowed_only_spaces": "Nem megengedett, hogy csak szóközöket használjon.",
+        "only_allow_letter_num_start_tip": "Csak számokkal vagy betűkkel szabad kezdeni.",
+        "only_letters_num_allowd_tips": "Érvénytelen sor szám: {num}",
+        "invalid_line_label": "Érvénytelen sor szám: {num}",
         "only_allowd_input_tips": "Csak {limit} adható meg.",
-        "only_num_letter_symbol_tips": "Csak betűk, számok és {symbol} szimbólumok engedélyezettek.",
-        "min_max_length_tips": "{min} - {max} karakter",
-        "only_letters_num_allowd_tips": "Csak betűk és számok engedélyezettek",
-        "invalid_line_label": "Érvénytelen sor szám: {num}"
+        "min_max_length_tips": "{min} - {max} karakter.",
+        "only_num_letter_symbol_tips": "Csak betűk, számok és {symbol} szimbólumok engedélyezettek."
     }
 }

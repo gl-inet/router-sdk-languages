@@ -46,7 +46,29 @@
         "preview_version_title": "Version non finalisé",
         "accept_preview_label": "Accepter le plan des versions non finalisées",
         "new_rc_firmware_title": "Micrologiciel RC",
-        "check_online_err_msg": "{code}，la mise à jour en ligne est anormale."
+        "check_online_err_msg": "{code}，la mise à jour en ligne est anormale.",
+        "firmware_local_title": "Mise à niveau locale du firmware",
+        "firmware_online_title": "Mise à niveau en ligne du firmware"
     },
-    "menu_upgrade": "Mise à jour"
+    "menu_upgrade": "Mise à jour",
+    "cellular": {
+        "online_upgrade_title": "Mise à niveau en ligne du module",
+        "is_update_tips": "Le module est à jour.",
+        "local_upgrade_title": "Mise à niveau locale du module",
+        "new_label": "Nouvelle version",
+        "downloading_tips": "Téléchargement du module en cours......",
+        "installing_tips": "Installation du module en cours......",
+        "install_success_tips": "Module installé avec succès, l'appareil va redémarrer.",
+        "upgrading_title": "Mise à niveau du module",
+        "upgrade_tips": "Veuillez ne pas éteindre pendant le processus de mise à niveau du module. L'appareil redémarrera automatiquement après la mise à niveau du module, ce qui peut prendre quelques secondes.",
+        "go_download_btn": "Aller télécharger",
+        "unzip_failed_tips": "Échec de décompression",
+        "verify_failed_tips": "Échec de vérification",
+        "local_install_fail_tips": "Échec de l'installation de la mise à niveau locale du module, veuillez téléverser à nouveau",
+        "local_upgrade_tips": "Lorsque la connexion mobile échoue, vous pouvez essayer de mettre à niveau le module cellulaire pour résoudre le problème.",
+        "current_label": "Version actuelle",
+        "verification_title": "Vérification",
+        "not_gl_tips": "Fichier non officiel détecté, veuillez procéder avec prudence.",
+        "verify_fail_tips": "Échec de la validation du fichier, veuillez téléverser à nouveau."
+    }
 }

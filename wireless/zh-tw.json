@@ -27,7 +27,10 @@
         "lan_guest_conflict_tips": "由於 {lan} 與 {guest} 沖突，訪客 Wi-Fi 無法啟動。",
         "random_bssid_enabled_tips": "若此選項啟用，設備會使用一個隨機生成的 BSSID，並在每次重啟時更新它。",
         "random_bssid_disabled_tips": "使用固定的 BSSID 可能導致您被追蹤。如果您的客戶端設備需要使用固定的 BSSID，建議您將 SSID 設為隱藏。{more}",
-        "enable_random_bssid_label": "啟用隨機化的 BSSID"
+        "enable_random_bssid_label": "啟用隨機化的 BSSID",
+        "radio_bands": "無線電頻段",
+        "mlo_wifi_security_tips": "WPA3-SAE適用於大多數支援MLO的設備，並推薦使用此協議。",
+        "radio_bands_tips": "請至少選擇兩個無線電頻段。"
     },
     "menu_wireless": "無線"
 }

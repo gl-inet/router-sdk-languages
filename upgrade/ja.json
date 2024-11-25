@@ -1,7 +1,7 @@
 {
     "upgrade": {
         "online": "オンラインアップグレード",
-        "compile_time": "コンパイル時間",
+        "compile_time": "更新時間",
         "keep_setting": "設定を保持する",
         "keep_installed": "インストールしたパッケージを保存する",
         "local": "ローカルアップグレード",
@@ -63,6 +63,12 @@
         "upgrading_title": "モジュールをアップグレードしています",
         "go_download_btn": "ダウンロードへ移動",
         "installing_tips": "モジュールをインストールしています。",
-        "current_label": "現在のバージョン"
+        "current_label": "現在のバージョン",
+        "verify_failed_tips": "検証に失敗しました",
+        "local_install_fail_tips": "モジュールのローカルアップグレードのインストールに失敗しました。再アップロードしてください",
+        "local_upgrade_tips": "セルラーネットワークが失敗した場合、セルラーモジュールをアップグレードして問題を解決することができます。",
+        "verification_title": "検証",
+        "not_gl_tips": "非公式のファイルが検出されました。注意して進めてください。",
+        "verify_fail_tips": "ファイルの検証に失敗しました。再アップロードしてください。"
     }
 }

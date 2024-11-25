@@ -95,7 +95,19 @@
         "local_version_title": "Lokale versie",
         "local_version_desc": "De lokale versie wordt geleverd door GL.iNet. Het is momenteel in bèta, dus er zijn geen extra kosten. Als u in deze versie toepassingen wilt filteren, moet u het domein van de toepassing handmatig invoeren.",
         "bark_version_desc": "De Bark-versie, die wordt aangeboden en beheerd door $$$$Bark$$$$ op hun eigen platform, biedt de mogelijkheid om met één klik applicaties en websites te filteren en de aanvraaggeschiedenis te monitoren. Houd er rekening mee dat voor deze service een extra abonnementsprijs rechtstreeks aan Bark moet worden betaald.",
-        "bark_version_title": "Bark-versie"
+        "bark_version_title": "Bark-versie",
+        "blocklist_input_mode_label": "Invoermodus voor blokkeerlijst",
+        "blocklist_input_mode_tooltip": "U kunt de zwarte lijst handmatig instellen of door te abonneren op de URL. Na het abonneren op de URL wordt de zwarte lijst elke dag automatisch bijgewerkt.",
+        "domain_detect_failed_tips": "{count} domeinnamen konden niet worden gedetecteerd.",
+        "manual_label": "Handmatig",
+        "subscription_url_label": "Abonnements-URL",
+        "domain_detect_success_tips": "{count} domeinnamen zijn succesvol gedetecteerd.",
+        "input_url_link_tips": "Voer de juiste URL in. De URL-detectie zal de juistheid van de domeinnaam vaststellen.",
+        "success_and_fail_domain_tip": "{success} domeinnamen of IP-adressen zijn succesvol gedetecteerd, en {failed} domeinnamen of IP-adressen konden niet worden gedetecteerd.",
+        "input_url_link_label": "URL-link invoeren",
+        "detect_button": "Detecteren",
+        "detecting_message": "Een moment geduld alstublieft, detectie is bezig.",
+        "ssid_or_password_is_error": "SSID of wachtwoord is onjuist."
     },
     "bark": {
         "unbound_tips": "De Bark-service is ingeschakeld, maar dit apparaat is nog niet aan een account gekoppeld. Gebruik de $$$$apparaatkoppelingslink$$$$ om dit apparaat te koppelen met uw Bark-account.",

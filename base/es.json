@@ -112,7 +112,9 @@
         "switch_btn": "Cambiar",
         "exit_btn": "Salir",
         "done_btn": "Hecho",
-        "upgrade_btn": "Actualizar"
+        "upgrade_btn": "Actualizar",
+        "setp_label": "Paso {num} :",
+        "join_btn": "Unirse"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -129,7 +131,8 @@
         "processing": "Procesando...",
         "send_success_tips": "Enviado exitosamente",
         "successfully_badge_tips": "¡Con éxito!",
-        "sign_up_success": "¡Registrado con éxito!"
+        "sign_up_success": "¡Registrado con éxito!",
+        "lack_of_memory_tips": "Debido a la falta de memoria, si desea actualizar el firmware, puede intentar reiniciar el dispositivo."
     },
     "date": {
         "sunday": "Dom|Domingo",
@@ -198,7 +201,8 @@
         "mac_replacement_tips": "La dirección MAC se puede actualizar en el momento que se ha selectionado, y si se encuentra en uso en dicho momento, se actualizará la próxima vez que se conecte a la red.",
         "duplex_full_label": "{speed} Mbps full duplex (simultáneo en ambos sentidos)",
         "duplex_half_label": "{speed} Mbps half duplex (un solo sentido a la vez)",
-        "auto_update_mac_time_label": "Por Tiempo"
+        "auto_update_mac_time_label": "Por Tiempo",
+        "address_label": "Dirección"
     },
     "upload": {
         "select_or_drag": "Seleccione un archivo o arrástrelo aquí",
@@ -221,17 +225,21 @@
     },
     "err": {
         "network_not_reachable_msg": "La red no es alcanzable",
-        "abnormal_operation_msg": "Excepción operativa"
+        "abnormal_operation_msg": "Excepción operativa",
+        "param_illegal_msg": "Parámetro ilegal, operación fallida."
     },
     "subscription": {
         "url_label": "URL de suscripción",
-        "manual_label": "Manual"
+        "manual_label": "Manual",
+        "url_err_tips": "Por favor, ingrese el enlace URL correcto."
     },
-    "vaildate": {
+    "validate": {
+        "not_allowed_only_spaces": "No se permite el uso exclusivo de espacios.",
+        "only_allow_letter_num_start_tip": "Solo se permite comenzar con números o letras.",
+        "only_letters_num_allowd_tips": "Solo se permiten letras y números.",
+        "invalid_line_label": "Número de línea inválido: {num}",
         "only_allowd_input_tips": "Solo se permite ingresar {limit}.",
-        "only_num_letter_symbol_tips": "Solo se permiten letras, números y símbolos {symbol}",
-        "only_letters_num_allowd_tips": "Solo se permiten letras y números",
-        "min_max_length_tips": "{min} - {max} caracteres",
-        "invalid_line_label": "Número de línea inválido: {num}"
+        "min_max_length_tips": "{min} - {max} caracteres.",
+        "only_num_letter_symbol_tips": "Solo se permiten letras, números y símbolos {symbol}."
     }
 }

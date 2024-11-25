@@ -46,7 +46,29 @@
         "available_update_title": "Bijwerkingsherrinnering",
         "accepted_rc_tips": "U heeft er voor gekozen om de ontwikkelingsfirmware te ontvangen. Neem contact met ons op als u problemen ondervindt.",
         "accept_preview_label": "Ontwikkelingsfirmware ingeschakeld",
-        "check_online_err_msg": "{code}, het online bijwerken is mislukt."
+        "check_online_err_msg": "{code}, het online bijwerken is mislukt.",
+        "firmware_local_title": "Firmware Lokale Upgrade",
+        "firmware_online_title": "Firmware Online Upgrade"
     },
-    "menu_upgrade": "Bijwerken"
+    "menu_upgrade": "Bijwerken",
+    "cellular": {
+        "upgrade_tips": "Zet het apparaat niet uit tijdens het upgradeproces van de module. Het apparaat zal automatisch herstarten nadat de module is geüpgraded, wat enkele seconden kan duren.",
+        "online_upgrade_title": "Module Online Upgrade",
+        "is_update_tips": "Module is up-to-date.",
+        "installing_tips": "Module wordt geïnstalleerd......",
+        "install_success_tips": "Module succesvol geïnstalleerd, het apparaat zal zo dadelijk herstarten.",
+        "unzip_failed_tips": "Decompressiefout",
+        "local_install_fail_tips": "Installatie van lokale upgrade van de module mislukt, gelieve opnieuw te uploaden",
+        "local_upgrade_tips": "Wanneer mobiel netwerken faalt, kunt u proberen de mobiele module te upgraden om het probleem op te lossen.",
+        "new_label": "Nieuwe Versie",
+        "downloading_tips": "Module wordt gedownload......",
+        "upgrading_title": "Module Upgrading",
+        "local_upgrade_title": "Module Lokale Upgrade",
+        "go_download_btn": "Ga Downloaden",
+        "verify_failed_tips": "Verificatiefout",
+        "current_label": "Huidige Versie",
+        "verification_title": "Verificatie",
+        "not_gl_tips": "Niet-officieel bestand gedetecteerd, ga voorzichtig te werk.",
+        "verify_fail_tips": "Bestandsvalidatie mislukt, gelieve opnieuw te uploaden."
+    }
 }

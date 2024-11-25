@@ -112,7 +112,9 @@
         "switch_btn": "Schakelaar",
         "exit_btn": "Afsluiten",
         "done_btn": "Voltooid",
-        "upgrade_btn": "Ongeldig regelnummer: {num}"
+        "upgrade_btn": "Ongeldig regelnummer: {num}",
+        "setp_label": "Stap {num} :",
+        "join_btn": "Aansluiten"
     },
     "msg": {
         "success": "Toegepast!",
@@ -129,7 +131,8 @@
         "port_occupied": "{name} netwerkpoort is al in gebruik",
         "send_success_tips": "Succesvol verzonden!",
         "sign_up_success": "Succesvol geregistreerd!",
-        "successfully_badge_tips": "Succesvol!"
+        "successfully_badge_tips": "Succesvol!",
+        "lack_of_memory_tips": "Wegens onvoldoende geheugen, als u de firmware wilt upgraden, kunt u proberen het apparaat te herstarten."
     },
     "date": {
         "day": "dag(en)",
@@ -198,7 +201,8 @@
         "duplex_full_label": "{speed} Mbps full duplex",
         "duplex_half_label": "{speed} Mbps half duplex",
         "mac_replacement_tips": "De MAC kan bijwerken op het update tijdstip, en als de MAC op dit moment nog in gebruik is, zal het bijwerken na de volgende keer dat u opnieuw verbinding maakt met het netwerk.",
-        "recheck_btn": "Opnieuw detecteren"
+        "recheck_btn": "Opnieuw detecteren",
+        "address_label": "Adres"
     },
     "system": {
         "battery_err_tips": "De batterijmodule kon niet worden gevonden, controleer de stroomverbinding of op mogelijke batterijschade.",
@@ -221,17 +225,21 @@
     },
     "err": {
         "abnormal_operation_msg": "Operationele uitzondering",
-        "network_not_reachable_msg": "Netwerk niet bereikbaar"
+        "network_not_reachable_msg": "Netwerk niet bereikbaar",
+        "param_illegal_msg": "Ongeldige parameter, bewerking mislukt."
     },
     "subscription": {
         "url_label": "Abonnement URL",
-        "manual_label": "Handleiding"
+        "manual_label": "Handleiding",
+        "url_err_tips": "Voer de juiste URL-link in."
     },
-    "vaildate": {
-        "only_allowd_input_tips": "Alleen {limit} mag worden ingevoerd.",
-        "only_num_letter_symbol_tips": "Alleen letters, cijfers en symbolen {symbol} zijn toegestaan",
-        "only_letters_num_allowd_tips": "Alleen letters en cijfers zijn toegestaan",
-        "min_max_length_tips": "{min} - {max} tekens",
-        "invalid_line_label": "Ongeldig regelnummer: {num}"
+    "validate": {
+        "not_allowed_only_spaces": "Het is niet toegestaan om alleen spaties te gebruiken.",
+        "only_allow_letter_num_start_tip": "Alleen cijfers of letters zijn toegestaan aan het begin.",
+        "only_letters_num_allowd_tips": "Alleen letters en cijfers zijn toegestaan.",
+        "invalid_line_label": "Ongeldig regelnummer: {num}",
+        "only_allowd_input_tips": "Er mag slechts {limit} worden ingevoerd.",
+        "only_num_letter_symbol_tips": "Alleen letters, cijfers en symbolen {symbol} zijn toegestaan.",
+        "min_max_length_tips": "{min} - {max} tekens."
     }
 }

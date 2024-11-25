@@ -112,7 +112,9 @@
         "switch_btn": "전환",
         "exit_btn": "종료",
         "done_btn": "완료",
-        "upgrade_btn": "업그레이드"
+        "upgrade_btn": "업그레이드",
+        "setp_label": "단계 {num} :",
+        "join_btn": "加入"
     },
     "msg": {
         "success": "적용!",
@@ -129,7 +131,8 @@
         "unknown_err": "알 수 없는 오류가 발생했습니다. 네트워크 환경을 확인하시거나 기기를 재부팅해주세요.",
         "send_success_tips": "성공적으로 전송되었습니다!",
         "sign_up_success": "성공적으로 등록되었습니다!",
-        "successfully_badge_tips": "성공적으로!"
+        "successfully_badge_tips": "성공적으로!",
+        "lack_of_memory_tips": "메모리가 부족하여 펌웨어를 업그레이드하려면 장치를 리부팅해 보십시오."
     },
     "date": {
         "day": "날",
@@ -198,7 +201,8 @@
         "mode_label": "{tab} 모드",
         "auto_update_mac_time_label": "시간별로",
         "auto_update_mac_label": "MAC 자동 업데이트",
-        "auto_update_mac_tips": "이 옵션을 활성화하면 MAC 주소가 자동으로 업데이트됩니다."
+        "auto_update_mac_tips": "이 옵션을 활성화하면 MAC 주소가 자동으로 업데이트됩니다.",
+        "address_label": "地址"
     },
     "upload": {
         "file_include": "파일 형식에는 다음이 포함됩니다",
@@ -221,17 +225,21 @@
     },
     "err": {
         "abnormal_operation_msg": "작동 예외",
-        "network_not_reachable_msg": "네트워크에 연결할 수 없습니다"
+        "network_not_reachable_msg": "네트워크에 연결할 수 없습니다",
+        "param_illegal_msg": "잘못된 매개변수, 작업 실패."
     },
     "subscription": {
         "url_label": "구독 URL",
-        "manual_label": "수동"
+        "manual_label": "수동",
+        "url_err_tips": "정확한 URL 링크를 입력해 주세요."
     },
-    "vaildate": {
-        "only_allowd_input_tips": "{limit}만 입력할 수 있습니다.",
-        "only_num_letter_symbol_tips": "只允许字母、数字和符号{symbol}",
-        "only_letters_num_allowd_tips": "문자와 숫자만 허용됩니다",
-        "min_max_length_tips": "{min} - {max}个字符",
-        "invalid_line_label": "유효하지 않은 줄 번호: {num}"
+    "validate": {
+        "not_allowed_only_spaces": "공백만 사용하는 것은 허용되지 않습니다.",
+        "only_allow_letter_num_start_tip": "시작은 숫자나 문자만 허용됩니다.",
+        "only_letters_num_allowd_tips": "문자와 숫자만 허용됩니다.",
+        "invalid_line_label": "유효하지 않은 줄 번호: {num}",
+        "only_allowd_input_tips": "입력할 수 있는 것은 {limit}만 허용됩니다.",
+        "only_num_letter_symbol_tips": "문자, 숫자 및 기호 {symbol}만 허용됩니다.",
+        "min_max_length_tips": "{min} - {max}자."
     }
 }
