@@ -240,6 +240,8 @@
     },
     "validate": {
         "not_allowed_only_spaces": "不允许仅使用空格。",
-        "only_allow_letter_num_start_tip": "開始時には数字または文字のみが許可されます。"
+        "only_allow_letter_num_start_tip": "開始時には数字または文字のみが許可されます。",
+        "only_letters_num_allowd_tips": "無効な行番号：{num}",
+        "invalid_line_label": "無効な行番号：{num}"
     }
 }
