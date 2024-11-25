@@ -42,6 +42,7 @@
         "override_vpn_tips": "このオプションを有効にすると、カスタムDNSを設定した場合、VPNトンネルを通じて送信されるパケットは、VPN接続からのDNSサーバー設定ではなく、カスタムDNSの上書きを使用して解決されます。",
         "invalid_resolver_id_tips": "無効なリゾルバID",
         "controld_plan_label": "プラン",
-        "controld_plan_tips": "二つのプランがあります。無料プランとプレミアムプランですが、どちらか一方のみを選択できます。"
+        "controld_plan_tips": "二つのプランがあります。無料プランとプレミアムプランですが、どちらか一方のみを選択できます。",
+        "at_least_one_ipv4_tip": "DNSサーバーには少なくとも1つのIPv4アドレスが必要です。"
     }
 }

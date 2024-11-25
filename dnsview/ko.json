@@ -42,6 +42,7 @@
         "override_vpn_tips": "이 옵션을 활성화하면, 사용자 정의 DNS를 설정하고 나면 VPN 터널을 통해 전송되는 패킷은 VPN 연결에서 온 DNS 서버 설정 대신 사용자 정의 DNS 덮어쓰기를 사용하여 해결됩니다.",
         "invalid_resolver_id_tips": "无效的解析器ID",
         "controld_plan_tips": "두 가지 요금제가 있으며, 무료와 프리미엄 중 하나만 선택할 수 있습니다.",
-        "controld_plan_label": "计划"
+        "controld_plan_label": "计划",
+        "at_least_one_ipv4_tip": "DNS 서버는 최소한 하나의 ipv4 주소가 필요합니다."
     }
 }
