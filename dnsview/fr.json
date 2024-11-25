@@ -42,6 +42,7 @@
         "override_vpn_tips": "Si cette option est activée, une fois que vous avez défini un DNS personnalisé, les paquets transmis via le tunnel VPN seront résolus en utilisant la substitution du DNS personnalisé au lieu des paramètres du serveur DNS des connexions VPN.",
         "invalid_resolver_id_tips": "Identifiant de résolveur non valide",
         "controld_plan_label": "Planifier",
-        "controld_plan_tips": "Il existe deux formules, gratuite et premium, et vous ne pouvez en choisir qu'une seule."
+        "controld_plan_tips": "Il existe deux formules, gratuite et premium, et vous ne pouvez en choisir qu'une seule.",
+        "at_least_one_ipv4_tip": "Les serveurs DNS nécessitent au moins une adresse ipv4."
     }
 }
