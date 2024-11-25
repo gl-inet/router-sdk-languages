@@ -42,6 +42,7 @@
         "override_vpn_tips": "Se questa opzione è abilitata, una volta impostato un DNS personalizzato, i pacchetti trasmessi attraverso il tunnel VPN verranno risolti utilizzando la sovrascrittura del DNS personalizzato anziché le impostazioni del server DNS delle connessioni VPN.",
         "invalid_resolver_id_tips": "ID del Resolver non valido",
         "controld_plan_tips": "Ci sono due piani, gratuito e premium, e puoi sceglierne solo uno.",
-        "controld_plan_label": "Piano"
+        "controld_plan_label": "Piano",
+        "at_least_one_ipv4_tip": "I server DNS richiedono almeno un indirizzo ipv4."
     }
 }
