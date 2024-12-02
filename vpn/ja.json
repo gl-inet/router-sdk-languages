@@ -264,7 +264,7 @@
         "domain_url_tips": "正しいURLを入力してください。URL検出はドメイン名またはIPアドレスの正しさを識別します。",
         "domain_input_mode_label": "入力モード",
         "wg_mullvad_limit_tips": "WireGuardキーの生成に失敗しました。Mullvadアカウントごとに同時に最大5つのキーを持つことができます。キーを取り消すには{provider}にアクセスしてください。",
-        "domain_input_mode_tips": "ドメイン名またはIPを手動または自動で入力することができます。購読URLを選択した場合、URL内のドメイン名またはIPは毎日自動的に更新されます。",
+        "domain_input_mode_tips": "購読URLを選択した場合、URL内のドメイン名またはIPは毎日自動的に更新されます。",
         "wg_self_public_key_tips": "あなた側の公開鍵",
         "go_renew_btn": "更新する",
         "expires_at_tips": "{time}に有効期限が切れます",
@@ -283,7 +283,7 @@
         "guide_sign_up_title": "{provider}のアカウントを登録する",
         "wg_not_subscription_tips": "このアカウントにはサブスクリプションがない可能性があります。",
         "wg_subscription_expired_tips": "このアカウントのサブスクリプションは期限切れになっている可能性があります。",
-        "wg_guide_tips": "VPNガイドは、WireGuard VPNを迅速に使用するのに役立ちます。これはAzireVPN、Mullvad、PIA、Surfshark、NordVPN、Hideme、IPVanish専用です。他のVPNサービスについてはスキップしてください。VPNの設定には数分かかる場合があります。",
+        "wg_guide_tips": "VPNガイドは、WireGuard VPNを迅速に使用するのに役立ちます。これはAzireVPN、Mullvad、PIA、Surfshark、NordVPN、Hide.me、IPVanish専用です。他のVPNサービスについてはスキップしてください。VPNの設定には数分かかる場合があります。",
         "wg_azirevpn_limit_tips": "AzireVPNアカウントは同時に10台のデバイスでのみ使用できます。アカウントのデバイス最大数に達しましたので、{provider}にアクセスし、使用していないデバイスを削除してから再試行してください。",
         "wg_nordvpn_tips": "NordVPNトークンはNordVPNにログインするための認証情報です。まずNordVPNの公式ウェブサイトにログインし、その後手動でトークンを取得する必要があります。",
         "server_select_label": "サーバー選択",
@@ -335,6 +335,6 @@
         "invalid_ip_addr_msg": "無効なIPアドレスです",
         "password_too_short_msg": "パスワードは少なくとも8文字でなければなりません",
         "network_abnormal_msg": "ネットワークが異常かもしれません",
-        "api_limit_triggered_msg": "頻繁に操作してください。"
+        "api_limit_triggered_msg": "頻繁な操作です。後ほど再試行してください。"
     }
 }
