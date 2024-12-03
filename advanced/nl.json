@@ -2,6 +2,9 @@
     "menu_advanced": "Geavanceerde instelingen",
     "advanced": {
         "note_two": "Het wordt geleverd zoals het is. GL.iNet is niet verantwoordelijk voor het onderhouden van LuCI.",
-        "note_one": "Met LuCI, het standaard webgebruikersinterface van OpenWRT, is het mogelijk om geavanceerde instellingen aan te passen. LuCI is een open en onafhankelijk project dat wordt onderhouden door OpenWRT."
+        "note_one": "Met LuCI, het standaard webgebruikersinterface van OpenWRT, is het mogelijk om geavanceerde instellingen aan te passen. LuCI is een open en onafhankelijk project dat wordt onderhouden door OpenWRT.",
+        "go_to_luci_btn": "Ga naar LuCI",
+        "luci_rtty_tips": "Als u LuCI op afstand wilt benaderen via rtty, ga dan naar LuCI op poort {port} op het cloudplatform.",
+        "luci_security_tips": "Voor de beveiliging van LuCI, als u LuCI op afstand wilt benaderen, open dan handmatig de LuCI-poort."
     }
 }
