@@ -2,6 +2,9 @@
     "menu_advanced": "Configuración Avanzada",
     "advanced": {
         "note_two": "Éste enlace lleva a la página nativa de inicio de LuCI. GL.iNet no es responsable del mantenimiento ni del desarrollo continuo de dicho sistema.",
-        "note_one": "Puede modificar ajustes avanzados a través de LuCI, la interfaz de usuario por defecto de OpenWrt. LuCI es un proyecto independiente de código abierto mantenido por OpenWrt."
+        "note_one": "Puede modificar ajustes avanzados a través de LuCI, la interfaz de usuario por defecto de OpenWrt. LuCI es un proyecto independiente de código abierto mantenido por OpenWrt.",
+        "go_to_luci_btn": "Ir a LuCI",
+        "luci_rtty_tips": "Si necesita acceder a LuCI de forma remota a través de rtty, acceda a LuCI en el puerto {port} en la plataforma en la nube.",
+        "luci_security_tips": "Para la seguridad de LuCI, si necesita acceder a LuCI de forma remota, abra manualmente el puerto de LuCI."
     }
 }
