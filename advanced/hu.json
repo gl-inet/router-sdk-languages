@@ -2,6 +2,9 @@
     "menu_advanced": "Haladó beállítások",
     "advanced": {
         "note_two": "A LuCI kizárólagos fejlesztője az OpenWRT projekt. A GL.iNet nem vállal érte semmilyen felelősséget.",
-        "note_one": "LuCI-n keresztül lehetősége van további konfigurálásra. A LuCI a független, nyílt forráskódú OpenWRT operációs rendszer konfigurációs felülete."
+        "note_one": "LuCI-n keresztül lehetősége van további konfigurálásra. A LuCI a független, nyílt forráskódú OpenWRT operációs rendszer konfigurációs felülete.",
+        "go_to_luci_btn": "Menjen a LuCI-ra",
+        "luci_rtty_tips": "Ha távolról szeretné elérni a LuCI-t rtty-n keresztül, kérem, a felhőplatformon a {port} porton érje el a LuCI-t.",
+        "luci_security_tips": "A LuCI biztonsága érdekében, ha távolról szeretné elérni a LuCI-t, kérem, nyissa meg manuálisan a LuCI portját."
     }
 }
