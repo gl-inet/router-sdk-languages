@@ -1,6 +1,6 @@
 {
     "igmp": {
-        "desc": "„IGMP“ vientisinio adresinio sluoksnio protokolas – „Snooping“ laukia prisijungimo/jungties ryšio ir ištraukia informaciją iš „IGMP“ protokolo paketo, sudaro ir palaiko 2-ių sluoksnių daugiaadresinio transliavimo persiuntimo skelbimo publikaciją; ir tada persiunčia daugiaadresinio transliavimo grupių duomenis į bet kurį skleidėją/vedėją, kuris prisijungia prie daugiaadresinio transliavimo grupės, tuo tarpu, kiti skleidėjai/vedėjai negali gauti daugiaadresinio transliavimo grupės duomenų.",
+        "desc": "„IGMP“ vientisinio adresinio sluoksnio protokolas – „Snooping“ laukia prisijungimo/jungties ryšio ir ištraukia informaciją iš „IGMP“ protokolo paketo. Sudaro ir palaiko 2-ių sluoksnių daugiaadresinio transliavimo persiuntimo skelbimo publikaciją; ir tada persiunčia daugiaadresinio transliavimo grupių duomenis į bet kurį skleidėją/vedėją, kuris prisijungia prie daugiaadresinio transliavimo grupės, tuo tarpu, kiti skleidėjai/vedėjai negali gauti daugiaadresinio transliavimo grupės duomenų.",
         "note": "„IGMPv3“ yra suderinamas su v1 ir v2. Numatytai naudokite – v3; ir jei patiriate problemą/-ų, perjunkite į Jums palankesnes versijas.",
         "version": "Versija"
     }
