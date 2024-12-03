@@ -24,7 +24,7 @@
         "dsf_conflict": "5GHz „Wi-Fi“ laikinai nepasiekiamas, nes radaras naudoja kanalą, kurį šiuo metu naudoja maršrutizatorius.",
         "channel_auto_dfs_tips": "Kai Jūsų duomenų siuntimo ir perdavimo srauto pralaidumas nustatytas į – 160 MHz, tada „Wi-Fi“ visada naudos „DFS“ kanalą, net jei pasirinksite ne-„DFS“ kanalą ar – „$$$$“ parinktį.",
         "channel_auto_tips": "Kai pasirenkate – „$$$$“ parinktį, tada „Wi-Fi“ automatiškai nepersijungs į „DFS“ kanalą.",
-        "lan_guest_conflict_tips": "Svečio „Wi-Fi“ negali būti įjungtas/įgalintas, nes „{guest}“ yra konflikte su – „{lan}“.",
+        "lan_guest_conflict_tips": "Siekiant išvengti konflikto tarp – {lan} ir – {guest}, svečio/-ų „Wi-Fi“ tinklas nebus galimas aktyvuoti.",
         "enable_random_bssid_label": "Įgalinti atsitiktinį „BSSID“",
         "random_bssid_enabled_tips": "Jei ši parinktis – įgalinta, tada įrenginys naudos atsitiktinai sugeneruotą „BSSID“ ir atnaujins jį kiekvieną kartą, po paleidimo iš naujo.",
         "random_bssid_disabled_tips": "Naudojant nekintantį „BSSID“ galite būti sekamas. Jei Jūsų kliento įrenginys reikalauja naudoti nekintamą „BSSID“, rekomenduojama nustatyti „SSID“ kaip – paslėptą. „{more}“",

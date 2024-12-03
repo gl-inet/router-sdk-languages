@@ -5,7 +5,7 @@
         "form_ovpn_label": "„DNS“ iš „OpenVPN“",
         "form_wg_label": "„DNS“ iš „WireGuard“",
         "provider": "„DNS“ teikėjas",
-        "desc": "Kai nustatote pasirinktinius „DNS“ serverius, visos „DNS“ užklausos bus išspręstos per juos (vietoj „DNS“ serverių, gautų per „eternetą“, kartotuvą, mobilųjį ryšį ar saitvietę, kurią teikią Jūsų interneto teikėjas). Priešingu atveju, naudosite kiekvienai sąsajai ir/ar sietuvui sukonfigūruotus „DNS“ nustatymus.",
+        "desc": "Kai nustatote pasirinktinius „DNS“ serverius, visos „DNS“ užklausos bus išspręstos per juos (vietoj „DNS“ serverių, gautų per „eternetą“, kartotuvą, mobilųjį ryšį ar saitvietę, kurią teikią Jūsų interneto teikėjas (t.y. einantis ryšis per sąsają ir/arba sietuvą)). Priešingu atveju, naudosite kiekvienai sąsajai ir/ar sietuvui sukonfigūruotus „DNS“ nustatymus.",
         "rebinding_label": "„DNS“ pervaldymo domenui-saitui, atakos apsauga",
         "rebinding_tips": "Įjungus/Įgalinus šią parinktį, gali kilti privačių „DNS“ pasirinkimų trikdys. Jei Jūsų tinklas turi perimančios prieigos pagal paskirtį portalą, prašome išjungti/neįgalinti šią parinktį.",
         "override_label": "Perkeisti/Perrašyti (priverstinai) visų klientų „DNS“ nustatymus",
@@ -43,6 +43,6 @@
         "invalid_resolver_id_tips": "Negalimas sprendiklio ID",
         "controld_plan_tips": "Yra du planai: nemokamas ir „premium“, galite pasirinkti tik vieną iš jų.",
         "controld_plan_label": "Planas",
-        "at_least_one_ipv4_tip": "DNS serveriams reikia bent vieno IPv4 adreso."
+        "at_least_one_ipv4_tip": "„DNS“ serveriams reikia bent vieno IPv4 adreso."
     }
 }
