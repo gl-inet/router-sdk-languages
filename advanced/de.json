@@ -2,6 +2,9 @@
     "menu_advanced": "Erweiterte Einstellungen",
     "advanced": {
         "note_two": "LuCI wird bereitgestellt, wie es ist. GL.iNet ist nicht für die Wartung verantwortlich.",
-        "note_one": "Sie können erweiterte Einstellungen mit LuCI vornehmen, der Standard-Benutzeroberfläche von OpenWrt. LuCI ist ein quelloffenes und unabhängiges Projekt, das von OpenWrt gepflegt wird."
+        "note_one": "Sie können erweiterte Einstellungen mit LuCI vornehmen, der Standard-Benutzeroberfläche von OpenWrt. LuCI ist ein quelloffenes und unabhängiges Projekt, das von OpenWrt gepflegt wird.",
+        "go_to_luci_btn": "Zu LuCI gehen",
+        "luci_rtty_tips": "Wenn Sie LuCI über rtty aus der Ferne zugreifen müssen, greifen Sie bitte über den Port {port} auf der Cloud-Plattform auf LuCI zu.",
+        "luci_security_tips": "Für die LuCI-Sicherheit, wenn Sie LuCI aus der Ferne zugreifen müssen, öffnen Sie bitte den LuCI-Port manuell."
     }
 }
