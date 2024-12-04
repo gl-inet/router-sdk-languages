@@ -289,7 +289,14 @@
         "wg_surfshark_not_connet_tips": "Если сервер VPN не может быть подключен, открытый ключ может быть истекшим. Вы можете обновить открытый ключ.",
         "account_name_tips": "Имя учетной записи {name}",
         "guide_login_title": "Вход {provider}",
-        "guide_restart_tips": "3.Перезагрузите роутер."
+        "guide_restart_tips": "3.Перезагрузите роутер.",
+        "ovpn_nordvpn_tips": "Для успешного использования VPN, пожалуйста, введите {account}, который является вашими учетными данными для сервиса NordVPN.",
+        "to_setup_guide_tips": "Если вы не знаете, как это получить, пожалуйста, смотрите {guide}.",
+        "accurate_account_label": "точные имя пользователя и пароль NordVPN",
+        "wg_guide_disabled_tips": "OpenVPN подключен, отключите OpenVPN, если вам нужно использовать VPN WireGuard.",
+        "manual_upload_tips": "Пожалуйста, посетите {page}, чтобы просмотреть VPN-сервисы, совместимые с {type}, и узнать о преимуществах использования VPN.",
+        "on_router_label": "VPN на роутере",
+        "disable_vpn_for_services_no_enterprise_name_label": "Сервисы от собственного использования VPN"
     },
     "menu_wgserver": "Сервер WireGuard",
     "menu_ovpnserver": "Сервер OpenVPN",
@@ -328,6 +335,7 @@
         "invalid_username_msg": "имя пользователя может содержать только буквы и цифры",
         "register_account_fail_msg": "не удалось зарегистрировать новую учетную запись",
         "connect_server_fail_msg": "Не удалось получить информацию от сервера провайдера",
-        "network_abnormal_msg": "Сеть может быть нестабильной"
+        "network_abnormal_msg": "Сеть может быть нестабильной",
+        "api_limit_triggered_msg": "Частые операции, пожалуйста, попробуйте позже."
     }
 }
