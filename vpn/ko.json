@@ -289,7 +289,14 @@
         "domain_url_tips": "올바른 URL을 입력하십시오. URL 감지는 도메인 이름 또는 IP 주소의 정확성을 확인합니다.",
         "domain_input_mode_tips": "도메인 이름이나 IP를 수동 또는 자동으로 입력할 수 있으며, 구독 URL을 선택하면 URL에 있는 도메인 이름이나 IP가 매일 자동으로 업데이트됩니다.",
         "wg_nordvpn_tips": "NordVPN 토큰은 NordVPN에 로그인하는 데 필요한 자격증명입니다. 먼저 NordVPN 공식 웹사이트에 로그인한 후, 수동으로 토큰을 가져와야 합니다.",
-        "guide_restart_tips": "3.라우터를 재시작하세요."
+        "guide_restart_tips": "3.라우터를 재시작하세요.",
+        "on_router_label": "라우터의 VPN",
+        "ovpn_nordvpn_tips": "VPN 사용이 성공적으로 이루어지려면 NordVPN 서비스 자격 증명으로 사용되는 {account}을 입력해 주십시오.",
+        "to_setup_guide_tips": "어떻게 가져오는지 모르시면 {guide}를 참조해 주세요.",
+        "accurate_account_label": "정확한 NordVPN 사용자 이름과 비밀번호",
+        "wg_guide_disabled_tips": "OpenVPN이 연결되어 있습니다. WireGuard VPN을 사용해야 하는 경우 OpenVPN을 끄십시오.",
+        "manual_upload_tips": "VPN 서비스 제공업체와 VPN 사용의 이점에 대해 알아보려면 {page}를 방문하여 {type}과 호환되는 서비스 제공업체를 확인하십시오.",
+        "disable_vpn_for_services_no_enterprise_name_label": "자체 사용 VPN 서비스"
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",
@@ -328,6 +335,7 @@
         "password_too_short_msg": "비밀번호는 최소 8자 이상이어야 합니다",
         "invalid_username_msg": "사용자 이름은 문자와 숫자만 포함할 수 있습니다",
         "register_account_fail_msg": "새 계정 등록에 실패했습니다",
-        "network_abnormal_msg": "网络可能异常"
+        "network_abnormal_msg": "网络可能异常",
+        "api_limit_triggered_msg": "정확한 NordVPN 사용자 이름과 비밀번호"
     }
 }
