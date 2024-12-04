@@ -289,7 +289,14 @@
         "wg_nordvpn_tips": "Токен NordVPN - це дані для входу в NordVPN, вам потрібно спочатку увійти на офіційний вебсайт NordVPN, а потім вручну отримати його токен.",
         "guide_done_tips": "{provider} успішно підключено, тепер ви можете користуватися VPN.",
         "guide_restart_tips": "3.Перезавантажте роутер.",
-        "wg_subscription_expired_tips": "Термін дії підписки цього облікового запису може бути завершено."
+        "wg_subscription_expired_tips": "Термін дії підписки цього облікового запису може бути завершено.",
+        "ovpn_nordvpn_tips": "Щоб успішно використовувати VPN, будь ласка, введіть {account}, які слугують вашими обліковими даними для сервісу NordVPN.",
+        "to_setup_guide_tips": "Якщо ви не знаєте, як це отримати, будь ласка, перегляньте {guide}.",
+        "accurate_account_label": "точні ім'я користувача та пароль NordVPN",
+        "wg_guide_disabled_tips": "OpenVPN підключено, вимкніть OpenVPN, якщо вам потрібно використовувати VPN Wireguard.",
+        "manual_upload_tips": "Будь ласка, відвідайте {page}, щоб переглянути {type} провайдерів VPN-сервісів, сумісних з VPN, та дізнатися про переваги використання VPN.",
+        "on_router_label": "VPN на роутері",
+        "disable_vpn_for_services_no_enterprise_name_label": "Сервіси від власного використання VPN"
     },
     "menu_wgserver": "WireGuard сервер",
     "menu_ovpnserver": "OpenVPN-сервер",
@@ -328,6 +335,7 @@
         "password_too_short_msg": "пароль має бути не менше 8 символів",
         "invalid_username_msg": "ім'я користувача може містити лише літери та цифри",
         "register_account_fail_msg": "реєстрація нового облікового запису не вдалася",
-        "network_abnormal_msg": "Мережа може працювати ненормально"
+        "network_abnormal_msg": "Мережа може працювати ненормально",
+        "api_limit_triggered_msg": "Часте використання, будь ласка, спробуйте пізніше."
     }
 }
