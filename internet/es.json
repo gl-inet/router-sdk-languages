@@ -96,7 +96,7 @@
         "manage": "Gestionar",
         "name": "Nombre del módem",
         "phone_num": "Número de Teléfono",
-        "operator": "Operador de servicios de telefonía móvil",
+        "operator": "Operador de red",
         "signal": "Señal",
         "upload": "Cargar",
         "download": "Descargar",
@@ -129,7 +129,7 @@
         "clear_traffic_tips": "Si la opción está activada, el sistema no guardará automáticamente las estadísticas de tráfico.",
         "not_compatible": "Módem Incompatible",
         "connecting_tips": "Algunas tarjetas SIM pueden tener restricciones especiales de uso, por ejemplo, la necesidad de utilizar un APN específico. Si su tarjeta SIM no puede registrarse, consulte con su operador de red para ver si su tarjeta SIM restricciones especiales.",
-        "set_detection_tips": "El estado de Internet es detectado de la misma manera que la configuración de la página $$$$Multi-WAN$$$$.",
+        "set_detection_tips": "El método de detección del estado de la red es el mismo que el configurado en la página $$$$Multi-WAN$$$$.",
         "data_roaming_label": "Roaming de datos internacional",
         "band_masking_label": "Bloqueo",
         "band_only_label": "Abierto",
@@ -199,8 +199,8 @@
         "last_pin_tips": "Queda un último intento para desbloquear el código PIN de esta tarjeta SIM, si no se puede ingresar nuevamente, deberá usar el código PUK para desbloquearlo. Para evitar que su tarjeta SIM quede bloqueada, el dispositivo no volverá a marcar, así que use su teléfono para desbloquearla.",
         "need_pin_tips": "La tarjeta SIM está bloqueada, verifique si se introduzco un código PIN o si el código PIN introducido es correcto.",
         "region_code_label": "Código de país / región",
-        "band_block_warning": "Por favor, no bloquees todas las bandas.",
-        "traffic_days_tips": "El número máximo de días toma el valor del número máximo real de días en el mes actual."
+        "band_block_warning": "Por favor, no bloquee todas las bandas.",
+        "traffic_days_tips": "El número máximo de días toma el valor del número máximo real de días del mes actual."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
