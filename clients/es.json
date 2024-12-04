@@ -17,7 +17,7 @@
         "upload": "Subir",
         "download": "Descargar",
         "delete_all_caution": "¿Está seguro de que quiere quitar todos los clientes de la lista?\nEsta acción no impide que los clientes se vuelvan a conectar al enrutador, sin embargo, los ajustes de dichos clientes sí serán eliminados.",
-        "delete_caution": "¿Está seguro de que quiere eliminar el cliente de la lista?\nÉsta acción no impide que el cliente se vuelva a conectar al enrutador, y además se eliminarán todos los ajustes del cliente.",
+        "delete_caution": "¿Estás seguro de que deseas eliminar al cliente de la lista?\nEsta acción no impedirá que el cliente se reconecte al router posteriormente, pero se eliminarán todas las configuraciones del cliente.",
         "random_mac_warning_tips": "Su configuración para el cliente puede quedar invalidada debido al cambio en la dirección MAC del dispositivo.",
         "random_mac_tips": "Se trata de una dirección MAC aleatoria.",
         "unlimited_hint": "Ilimitado",
@@ -67,7 +67,7 @@
         "details_title": "Detalles del Cliente",
         "link_method_label": "Método de Conexión",
         "server": "Servidor",
-        "switch": "Interruptor"
+        "switch": "Cambiar"
     },
     "menu_clients": "Clientes"
 }
