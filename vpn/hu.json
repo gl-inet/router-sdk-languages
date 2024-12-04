@@ -289,7 +289,14 @@
         "only_show_selected_label": "Csak a kiválasztott elemek megjelenítése",
         "guide_switch_another_server_tips": "Váltson egy másik VPN szerverre.",
         "guide_done_tips": "{provider} sikeresen csatlakoztatva, mostantól élvezheti a VPN szolgáltatást.",
-        "wg_subscription_expired_tips": "Ez a fiók előfizetése lehet, hogy lejárt."
+        "wg_subscription_expired_tips": "Ez a fiók előfizetése lehet, hogy lejárt.",
+        "ovpn_nordvpn_tips": "A VPN sikeres használatához kérem, adja meg a {account} adatokat, amelyek a NordVPN szolgáltatás hitelesítő adataiként szolgálnak.",
+        "to_setup_guide_tips": "Ha nem tudja, hogyan szerezheti be, kérjük, tekintse meg a {guide} útmutatót.",
+        "accurate_account_label": "a pontos NordVPN felhasználónév és jelszó",
+        "wg_guide_disabled_tips": "Az OpenVPN csatlakoztatva van, kapcsolja ki az OpenVPN-t, ha Wireguard VPN-t szeretne használni.",
+        "manual_upload_tips": "Kérjük, látogasson el a {page} oldalra, hogy megtekinthesse a {type} kompatibilis VPN-szolgáltatókat és tájékozódjon a VPN használatának előnyeiről.",
+        "on_router_label": "VPN a routeren",
+        "disable_vpn_for_services_no_enterprise_name_label": "Saját használatra szánt VPN szolgáltatások"
     },
     "menu_wgserver": "WireGuard Szerver",
     "menu_ovpnserver": "OpenVPN Szerver",
@@ -328,6 +335,7 @@
         "invalid_private_wg_key_msg": "érvénytelen privát kulcs",
         "no_passwd_msg": "a fiókhoz nincs jelszó",
         "group_auth_conflict_with_users_msg": "a csoportos hitelesítés ütközik a felhasználóéval",
-        "network_abnormal_msg": "A hálózat lehet, hogy nem működik rendesen."
+        "network_abnormal_msg": "A hálózat lehet, hogy nem működik rendesen.",
+        "api_limit_triggered_msg": "Gyakori művelet, kérjük, próbálja meg később."
     }
 }
