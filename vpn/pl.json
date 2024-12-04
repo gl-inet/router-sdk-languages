@@ -289,7 +289,14 @@
         "wg_not_subscription_tips": "To konto może nie mieć subskrypcji.",
         "wg_subscription_expired_tips": "Subskrypcja tego konta może być wygasła.",
         "wg_guide_tips": "Przewodnik VPN pomoże Ci szybko korzystać z VPN WireGuard. Jest przeznaczony tylko dla AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme i IPVanish. Dla innych można pominąć. Konfiguracja VPN może zająć kilka minut.",
-        "domain_url_tips": "Proszę wprowadzić poprawny URL. Wykrywanie URL zweryfikuje poprawność nazwy domeny lub adresu IP."
+        "domain_url_tips": "Proszę wprowadzić poprawny URL. Wykrywanie URL zweryfikuje poprawność nazwy domeny lub adresu IP.",
+        "ovpn_nordvpn_tips": "Aby zapewnić pomyślne korzystanie z VPN, prosimy wprowadzić {account}, które służą jako dane uwierzytelniające do usługi NordVPN.",
+        "to_setup_guide_tips": "Jeśli nie wiesz, jak to uzyskać, proszę zobacz {guide}.",
+        "accurate_account_label": "dokładna nazwa użytkownika i hasło NordVPN",
+        "wg_guide_disabled_tips": "OpenVPN jest połączony, wyłącz OpenVPN, jeśli potrzebujesz użyć VPN Wireguard.",
+        "manual_upload_tips": "Proszę odwiedzić {page}, aby zobaczyć dostawców usług VPN kompatybilnych z {type} i dowiedzieć się o korzyściach z używania VPN.",
+        "on_router_label": "VPN na Routerze",
+        "disable_vpn_for_services_no_enterprise_name_label": "Usługi z własnego użytku VPN"
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
@@ -328,6 +335,7 @@
         "to_many_conf_item_msg": "zbyt wiele elementów konfiguracji",
         "invalid_login_info_msg": "nieprawidłowe informacje logowania",
         "port_be_used_msg": "port jest już zajęty",
-        "network_abnormal_msg": "Sieć może być niestabilna."
+        "network_abnormal_msg": "Sieć może być niestabilna.",
+        "api_limit_triggered_msg": "Częste operacje, proszę spróbować ponownie później."
     }
 }
