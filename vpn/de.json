@@ -289,7 +289,14 @@
         "wg_mullvad_limit_tips": "Erzeugung eines WireGuard-Schlüssels fehlgeschlagen. Sie können pro Mullvad-Konto gleichzeitig nur bis zu fünf Schlüssel haben. Bitte gehen Sie zu {provider}, um einen Schlüssel zu widerrufen.",
         "wg_surfshark_not_connet_tips": "Wenn der VPN-Server nicht verbunden werden kann, ist der öffentliche Schlüssel möglicherweise abgelaufen. Sie können den öffentlichen Schlüssel aktualisieren.",
         "guide_switch_another_server_tips": "Wechseln Sie zu einem anderen VPN-Server.",
-        "guide_done_tips": "{provider} wurde erfolgreich verbunden und Sie können das VPN jetzt genießen."
+        "guide_done_tips": "{provider} wurde erfolgreich verbunden und Sie können das VPN jetzt genießen.",
+        "ovpn_nordvpn_tips": "Um die erfolgreiche Nutzung des VPN zu gewährleisten, geben Sie bitte {account} ein, die als Ihre Dienstzugangsdaten für NordVPN dienen.",
+        "wg_guide_disabled_tips": "OpenVPN ist verbunden, schalten Sie OpenVPN aus, wenn Sie Wireguard VPN verwenden möchten.",
+        "to_setup_guide_tips": "Wenn Sie nicht wissen, wie Sie es erhalten, sehen Sie bitte {guide}.",
+        "accurate_account_label": "der genaue NordVPN-Benutzername und das Kennwort",
+        "manual_upload_tips": "Bitte besuchen Sie {page}, um VPN-Dienstanbieter zu sehen, die mit {type} kompatibel sind, und um mehr über die Vorteile der Nutzung eines VPN zu erfahren.",
+        "on_router_label": "VPN auf Router",
+        "disable_vpn_for_services_no_enterprise_name_label": "Dienste von eigenem Gebrauch VPN"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -328,6 +335,7 @@
         "invalid_ip_addr_msg": "Ungültige IP-Adresse",
         "download_conf_fail_msg": "Konfigurationsdatei konnte nicht heruntergeladen werden",
         "invalid_username_msg": "Der Benutzername darf nur Buchstaben und Zahlen enthalten",
-        "network_abnormal_msg": "Das Netzwerk könnte ungewöhnlich sein."
+        "network_abnormal_msg": "Das Netzwerk könnte ungewöhnlich sein.",
+        "api_limit_triggered_msg": "Häufige Operation, bitte versuchen Sie es später noch einmal."
     }
 }
