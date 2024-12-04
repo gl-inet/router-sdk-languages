@@ -129,8 +129,8 @@
         "port_occupied": "{name} puerto ocupado",
         "please_note": "Por favor, ten en cuenta:",
         "processing": "Procesando...",
-        "send_success_tips": "Enviado exitosamente",
-        "successfully_badge_tips": "¡Con éxito!",
+        "send_success_tips": "¡Enviado con éxito!",
+        "successfully_badge_tips": "¡Operación completada con éxito!",
         "sign_up_success": "¡Registrado con éxito!",
         "lack_of_memory_tips": "Debido a la falta de memoria, si desea actualizar el firmware, puede intentar reiniciar el dispositivo."
     },
@@ -192,20 +192,20 @@
         "mtu_ipv6_warning_tips": "IPv6 no puede funcionar cuando la MTU es menor que 1280.",
         "illegal_subnet_tips": "Subredes ilegales, los últimos tres bits deben ser 0.",
         "illegal_subnet_mask_tips": "Máscara ilegal. Debido a que la subred es {subnet}, la máscara no puede ser inferior a {min}.",
-        "recheck_btn": "detectar nuevamente",
+        "recheck_btn": "Volver a detectar",
         "mode_label": "Modo {tab}",
         "auto_update_mac_label": "Actualizar la dirección MAC de forma automática",
         "auto_update_mac_tips": "Si esta opción se encuentra habilitada, la dirección MAC se puede actualizar de forma automática.",
         "auto_update_mac_strategy_label": "Estrategia de actualización automática de la dirección MAC",
         "mac_replacement_label": "Ciclo de reemplazo de la dirección MAC",
-        "mac_replacement_tips": "La dirección MAC se puede actualizar en el momento que se ha selectionado, y si se encuentra en uso en dicho momento, se actualizará la próxima vez que se conecte a la red.",
+        "mac_replacement_tips": "La MAC puede actualizarse en el momento de la actualización y, si está en uso en ese momento, se actualizará la próxima vez que te conectes a la red.",
         "duplex_full_label": "{speed} Mbps full duplex (simultáneo en ambos sentidos)",
         "duplex_half_label": "{speed} Mbps half duplex (un solo sentido a la vez)",
         "auto_update_mac_time_label": "Por Tiempo",
         "address_label": "Dirección"
     },
     "upload": {
-        "select_or_drag": "Seleccione un archivo o arrástrelo aquí",
+        "select_or_drag": "Selecciona un archivo para subir o arrástralo aquí",
         "file_include": "Tipos de archivo incluyen",
         "success": "Carga del archivo exitosa",
         "reupload": "Vuelva a subir el archivo",
@@ -220,8 +220,8 @@
         "feature_unusable_tips": "Esta función no funciona porque {feature} esta habilitada.",
         "limit_tips": "Los datos no deben exceder {count} entradas.",
         "no_internet_base_tips": "Por favor, verifique su entorno de internet y vuelva a intentarlo.",
-        "lost_account_btn": "¿Cuenta perdida?",
-        "forget_password_btn": "¿Olvidó la contraseña?"
+        "lost_account_btn": "¿Has perdido tu cuenta?",
+        "forget_password_btn": "¿Olvidó su contraseña?"
     },
     "err": {
         "network_not_reachable_msg": "La red no es alcanzable",
@@ -229,17 +229,17 @@
         "param_illegal_msg": "Parámetro ilegal, operación fallida."
     },
     "subscription": {
-        "url_label": "URL de suscripción",
+        "url_label": "URL de Suscripción",
         "manual_label": "Manual",
         "url_err_tips": "Por favor, ingrese el enlace URL correcto."
     },
     "validate": {
-        "not_allowed_only_spaces": "No se permite el uso exclusivo de espacios.",
-        "only_allow_letter_num_start_tip": "Solo se permite comenzar con números o letras.",
+        "not_allowed_only_spaces": "No se permite usar solo espacios.",
+        "only_allow_letter_num_start_tip": "Solo se permiten números o letras al inicio.",
         "only_letters_num_allowd_tips": "Solo se permiten letras y números.",
         "invalid_line_label": "Número de línea inválido: {num}",
         "only_allowd_input_tips": "Solo se permite ingresar {limit}.",
         "min_max_length_tips": "{min} - {max} caracteres.",
-        "only_num_letter_symbol_tips": "Solo se permiten letras, números y símbolos {symbol}."
+        "only_num_letter_symbol_tips": "Solo se permiten letras, números y los símbolos {symbol}."
     }
 }
