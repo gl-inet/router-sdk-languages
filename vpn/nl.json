@@ -289,7 +289,14 @@
         "domain_detect_success_tips": "{count} domeinnamen of IP-adressen zijn succesvol gedetecteerd.",
         "expires_at_tips": "Verloopt op {time}",
         "server_select_label": "Server Selecteren",
-        "guide_done_tips": "{provider} is succesvol verbonden en u kunt nu van VPN genieten."
+        "guide_done_tips": "{provider} is succesvol verbonden en u kunt nu van VPN genieten.",
+        "ovpn_nordvpn_tips": "Om het succesvol gebruik van de VPN te garanderen, voer alstublieft {account} in, die dienen als uw servicegegevens voor NordVPN.",
+        "to_setup_guide_tips": "Als u niet weet hoe u dit moet krijgen, raadpleeg dan {guide}.",
+        "accurate_account_label": "de juiste NordVPN gebruikersnaam en wachtwoord",
+        "wg_guide_disabled_tips": "OpenVPN is verbonden, schakel OpenVPN uit als u WireGuard VPN wilt gebruiken.",
+        "manual_upload_tips": "Bezoek {page} om VPN-serviceproviders te bekijken die compatibel zijn met {type} en leer over de voordelen van het gebruik van een VPN.",
+        "on_router_label": "VPN op Router",
+        "disable_vpn_for_services_no_enterprise_name_label": "Diensten Van Eigen Gebruik VPN"
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
@@ -328,6 +335,7 @@
         "country_count_zero_msg": "het aantal servers in het geselecteerde land is nul",
         "invalid_username_msg": "de gebruikersnaam mag alleen letters en cijfers bevatten",
         "register_account_fail_msg": "registratie van nieuw account mislukt",
-        "network_abnormal_msg": "Het netwerk kan abnormaal zijn"
+        "network_abnormal_msg": "Het netwerk kan abnormaal zijn",
+        "api_limit_triggered_msg": "Frequente bediening, probeer het later opnieuw."
     }
 }
