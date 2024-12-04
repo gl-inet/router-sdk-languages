@@ -38,6 +38,13 @@
         "memory_used_label": "Używane",
         "memory_cache_label": "Pamięć podręczna",
         "cpu_num": "Pojedynczy rdzeń | {count} rdzenie",
-        "device_info_title": "Informacje o urządzeniu"
+        "device_info_title": "Informacje o urządzeniu",
+        "switching_to_usb3_tips": "Po przełączeniu na USB3.0, proszę ponownie podłączyć pendrive USB.",
+        "switching_warning_tips": "Upewnij się, że pendrive USB nie jest używany; w przeciwnym razie dane na pendrive'ie USB mogą zostać uszkodzone.",
+        "switching_to_usb2_tips": "Po przełączeniu z USB3.0 na USB2.0, wszystkie podłączone urządzenia USB zostaną ponownie zamontowane.",
+        "battery_label": "Bateria",
+        "usb_switch_from_to_tips": "Czy na pewno chcesz przełączyć z {usb1} na {usb2}?",
+        "usb3_switching_tips": "Ta funkcja obsługuje przełączanie protokołów USB 2.0 i USB 3.0.",
+        "usb_switch_label": "Przełącznik protokołu USB"
     }
 }
