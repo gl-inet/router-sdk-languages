@@ -289,7 +289,14 @@
         "guide_login_title": "Accedi {provider}",
         "guide_sign_up_title": "Registra un account di {provider}",
         "wg_subscription_expired_tips": "L'abbonamento di questo account potrebbe essere scaduto.",
-        "wg_guide_tips": "La guida VPN può aiutarti ad utilizzare rapidamente la VPN WireGuard. È valida solo per AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme e IPVanish. Per gli altri, puoi ignorarla. Configurare la VPN potrebbe richiedere alcuni minuti."
+        "wg_guide_tips": "La guida VPN può aiutarti ad utilizzare rapidamente la VPN WireGuard. È valida solo per AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme e IPVanish. Per gli altri, puoi ignorarla. Configurare la VPN potrebbe richiedere alcuni minuti.",
+        "ovpn_nordvpn_tips": "Per garantire un utilizzo corretto della VPN, si prega di inserire {account}, che fungerà da credenziali di servizio per NordVPN.",
+        "to_setup_guide_tips": "Se non sai come ottenerlo, consulta {guide}.",
+        "accurate_account_label": "il nome utente e la password esatti di NordVPN",
+        "wg_guide_disabled_tips": "OpenVPN è connesso, disattiva OpenVPN se devi utilizzare la VPN Wireguard.",
+        "manual_upload_tips": "Si prega di visitare {page} per visualizzare i fornitori di servizi VPN compatibili con {type} e conoscere i vantaggi dell'utilizzo di una VPN.",
+        "on_router_label": "VPN sul Router",
+        "disable_vpn_for_services_no_enterprise_name_label": "Servizi Da Propria VPN D'Uso"
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -328,6 +335,7 @@
         "download_conf_fail_msg": "scaricamento del file di configurazione fallito",
         "password_too_short_msg": "la password deve essere lunga almeno 8 caratteri",
         "register_account_fail_msg": "registrazione del nuovo account fallita",
-        "network_abnormal_msg": "La rete potrebbe essere anormale"
+        "network_abnormal_msg": "La rete potrebbe essere anormale",
+        "api_limit_triggered_msg": "Operazione frequente, si prega di riprovare più tardi."
     }
 }
