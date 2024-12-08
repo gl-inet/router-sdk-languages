@@ -21,7 +21,7 @@
         "memory_tips": "A grafikon a rendszer számára elérhető memória mennyiségét mutatja. Ez kevesebb a valós mennyiségnél, mert a rendszer a működéséhez fenntart és lefoglal némi memóriát.",
         "fan_setting_tips": "A ventilátor bekapcsolásának CPU hőmérsékleti küszöbértéke $$$$ ~ $$$$ .",
         "temperature_threshold_label": "Hőmérsékleti küszöbérték",
-        "temperature_threshold_warning": "Ezen a küszöbértéken a ventilátor folyamatosan működhet.",
+        "temperature_threshold_warning": "Ezen a küszöbértéken lehetséges, hogy folyamatosan hűteni fog a ventilátor.",
         "fan_setting_title": "Ventilátor beállítások",
         "memory_used_label": "Használatban:",
         "memory_cache_label": "Gyorsítótárazott:",
@@ -37,14 +37,14 @@
         "flash_title": "Beépített tárhely",
         "total": "össz.",
         "availabel_label": "Szabad",
-        "device_info_title": "Eszközinformáció",
-        "switching_to_usb3_tips": "USB3.0-ra váltáskor, kérjük, csatlakoztassa újra az USB flash meghajtót.",
+        "device_info_title": "Eszközadatok",
+        "switching_to_usb3_tips": "Protokollváltást követően az USB-eszközök újracsatlakoztatása szükséges.",
         "battery_label": "Akkumulátor",
-        "usb3_switching_tips": "Ez a funkció támogatja az USB 2.0 és USB 3.0 protokollok közötti váltást.",
-        "usb_switch_from_to_tips": "Biztosan meg akarja változtatni {usb1}-ről {usb2}-re?",
-        "usb_switch_label": "USB Protokoll Váltás",
-        "switching_warning_tips": "Győződjön meg róla, hogy az USB flash meghajtó nincs használatban; ellenkező esetben az USB flash meghajtón lévő adatok sérülhetnek.",
-        "switching_to_usb2_tips": "USB3.0-ról USB2.0-ra váltáskor minden csatlakoztatott USB-eszköz újra lesz csatlakoztatva."
+        "usb3_switching_tips": "Ezzel a beállítással válthat USB 2.0 és USB 3.0 protokollok között.",
+        "usb_switch_from_to_tips": "Valóban átvált {usb1} protokollról {usb2} protokollra?",
+        "usb_switch_label": "USB-protokollváltás",
+        "switching_warning_tips": "Győződjön meg róla, hogy az USB-meghajtók nincsenek jelenleg használatban, mert a művelet adatvesztéssel járhat!",
+        "switching_to_usb2_tips": "Protokollváltást követően az USB-eszközök újracsatlakoznak."
     },
     "menu_overview": "Áttekintés"
 }
