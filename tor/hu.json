@@ -1,11 +1,11 @@
 {
     "tor": {
-        "desc": "A Tor (amely a \"The Onion Router\" kifejezésből származik) egy ingyenes, nyílt forráskódú szoftver, amely az anonim kommunikációt teszi lehetővé. Segíti a felhasználókat az interneten való privát böngészésben.",
-        "matter_tips": "Ez a funkció jelenleg béta verzióban van, és egyes országokban problémákat okozhat.",
-        "manual_label": "Egyéni Kilépési Csompópont",
-        "exit_node_label": "Kilépési Csompópont",
-        "exit_node_tips": "Választhat egy egyéni helyszínt, amely megjelenik a követők számára.",
-        "log_title": "Tor Napló",
-        "use_tips": "Amikor a Tor engedélyezve van, a következő funkciók nem fognak megfelelően működni: VPN, DNS, IPv6 és az Adguard Home."
+        "desc": "A Tor (azaz „The Onion Router”) egy ingyenes, nyílt forráskódú szoftver, amely névtelen kommunikációt tesz lehetővé. Segít az internet használatában az adatvédelem szem előtt tartása mellett.",
+        "matter_tips": "Ez a funkció jelenleg kísérleti fázisban van. Egyes országokban nem elérhető.",
+        "manual_label": "Egyedi kilépési csompópont",
+        "exit_node_label": "Kilépési csompópont",
+        "exit_node_tips": "Kiválaszthatja mely helyszín jelenjen meg a nyomkövetők számára.",
+        "log_title": "Napló",
+        "use_tips": "A Tor használata során a következő szolgáltatások nem működnek megfelelően: VPN, DNS, IPv6 és az AdGuard Home."
     }
 }
