@@ -1,10 +1,10 @@
 {
-    "menu_netnat": "Hálózati Gyorsítás",
+    "menu_netnat": "Címfordítás (NAT) gyorsítása",
     "netnat": {
-        "desc": "A hálózati gyorsítás csökkenti a CPU terhelését és felgyorsítja a forgalmi csomagok továbbítását, de néhány funkcióval ütközhet.",
-        "tips": "Amikor a hálózati gyorsítás engedélyezve van, a következő funkciók nem fognak megfelelően működni: Kliens sebesség és forgalmi statisztikák, Kliens sebességkorlátozás, Szülői felügyelet.",
-        "hwnat_label": "Hardveres Gyorsítás",
-        "swnat_label": "Szoftveres Gyorsítás",
-        "wifi_reload_tips": "A hardveres gyorsítás be- vagy kikapcsolása a WIFI modul újratöltését igényli, ami 10 másodperctől 1 percig tartó várakozási időt jelent."
+        "desc": "A hálózati címfordítás gyorsítása csökkenti az útválasztó processzorára jutó terhelést és növeli a hálózat terhelhetőségét, ugyanakkor ütközhet egyes funkciókkal.",
+        "tips": "A beállítás engedélyezése ütközhet egyes forgalomszabályozó funkciókkal.",
+        "hwnat_label": "Hardveres gyorsítás",
+        "swnat_label": "Szoftveres gyorsítás",
+        "wifi_reload_tips": "A gyorsítási eljárás módosítása a vezeték nélküli hálózat újraindításával jár. Ez a művelet nagyjából 1 percet vesz igénybe."
     }
 }
