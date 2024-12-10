@@ -34,7 +34,8 @@
         "passthrough_secondwan_warning": "IP Passthrough 模式需要且只能有一个 WAN 口。请前往$$$$页面修改，取消将 WAN 口作为 LAN 口使用或取消将 LAN 作为 WAN 口使用。",
         "tips_two": "当您使用 $$$$ 模式时，将无法再次连接到此用户界面。您可以按住重置按钮 4 秒钟来恢复路由器模式。",
         "tips_one": "更改路由器的网络模式时，可能需要重新连接所有客户端设备。",
-        "set_up_bridge_tips": "要设置成网桥模式，必须在WAN口插入网线。"
+        "set_up_bridge_tips": "要设置成网桥模式，必须在WAN口插入网线。",
+        "passthrough_enable_warning": "如果您切换到此模式，{feature} 将被禁用。"
     },
     "menu_bridge": "网络模式"
 }
