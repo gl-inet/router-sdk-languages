@@ -34,7 +34,8 @@
         "passthrough_conflict_warning": "Ez a mód nem működhet, ha bármelyik következő beállítás engedélyezve van: Tethering, Drop-In Gateway mód, IPv6, kézzel beállított DNS, Multi-WAN beállítva terheléselosztó módba, WAN port beállítva LAN-ként, VPN szabályzat használata, bármilyen tűzfal beállítás hozzáadva, MAC-cím kézzel beállítva.",
         "passthrough_conflict_2b_warning": "Ez a mód nem működhet, ha a következő beállítások vannak engedélyezve: engedélyezett drop-in gateway mód, engedélyezett IPv6, manuálisan beállított DNS, Multi-WAN beállítva terheléselosztó módba, WAN port beállítva LAN-ként, használt VPN szabályzat, tűzfal beállítás hozzáadva, manuálisan beállított MAC-cím.",
         "passthrough_secondwan_warning": "Az IP átengedő módhoz szükség van és csak egy WAN portot használhat. Kérjük, menjen a $$$$ oldalra a módosításhoz, hogy megszüntesse a WAN port használatát LAN portként vagy a LAN használatát WAN portként.",
-        "set_up_bridge_tips": "A Híd mód beállításához először csatlakoztatnia kell egy Ethernet kábelt a WAN portba."
+        "set_up_bridge_tips": "A Híd mód beállításához először csatlakoztatnia kell egy Ethernet kábelt a WAN portba.",
+        "passthrough_enable_warning": "Ha erre a módba vált, a(z) {feature} funkció le lesz tiltva."
     },
     "menu_bridge": "Üzemmód"
 }
