@@ -34,7 +34,8 @@
         "access_router_ext_tips": "Nadat het inschakelen van de bridge-modus is gelukt, moet u, als u toegang wilt krijgen tot de gebruikersinterface van deze router, uw pc/mobiele telefoon handmatig configureren op een statisch IP-adres in hetzelfde adresbereik als de router. Als u nog steeds geen toegang heeft tot de gebruikersinterface, kunt u de routeringsmodus herstellen door de resetknop vier seconden ingedrukt te houden.",
         "passthrough_desc": "Als IP Passthrough is ingeschakeld, geeft de router het IP-adres van de provider door aan de LAN-poort.",
         "passthrough_conflict_warning": "Deze modus werkt mogelijk niet als een van de volgende instellingen is ingeschakeld Tethering, de plaatsvervangende gatewaymodus, IPv6, handmatig ingestelde DNS, Multi-WAN ingesteld op load-balanced-modus, WAN-poort ingesteld als LAN, VPN-beleiden die gebruikt wordt, iedere firewall instelling en ieder handmatig ingestelde MAC-adres.",
-        "passthrough_secondwan_warning": "De IP Passthrough-modus vereist en kan slechts één WAN-poort hebben. Ga naar de $$$$-pagina om deze te wijzigen en het gebruik van de WAN-poort als LAN-poort te annuleren of om het gebruik van de LAN als WAN-poort te annuleren."
+        "passthrough_secondwan_warning": "De IP Passthrough-modus vereist en kan slechts één WAN-poort hebben. Ga naar de $$$$-pagina om deze te wijzigen en het gebruik van de WAN-poort als LAN-poort te annuleren of om het gebruik van de LAN als WAN-poort te annuleren.",
+        "passthrough_enable_warning": "Als u overschakelt naar deze modus, wordt {feature} uitgeschakeld."
     },
     "menu_bridge": "Netwerkmodus"
 }
