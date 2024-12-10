@@ -34,7 +34,8 @@
         "passthrough_secondwan_warning": "Le mode IP Passthrough nécessite et ne peut avoir qu'un seul port WAN. Veuillez consulter la page $$$$ pour la modifier afin d'annuler l'utilisation du port WAN en tant que port LAN ou d'annuler l'utilisation du LAN en tant que port WAN.",
         "passthrough_close_warning": "Si vous passez à ce mode, les fonctions Répéteur, Sans fil, Clients, VPN et AdGuard Home seront désactivées.",
         "passthrough_conflict_2b_warning": "Ce mode peut ne pas fonctionner si vous avez les paramètres suivants : activé le mode passerelle d'insertion, activé IPv6, défini manuellement le DNS, défini le Multi-WAN en mode équilibré, défini le port WAN comme LAN, utilisé la politique VPN, ajouté un paramètre de pare-feu, défini manuellement l'adresse MAC.",
-        "set_up_bridge_tips": "Pour configurer le mode Pont, vous devez d'abord connecter un câble Ethernet au port WAN."
+        "set_up_bridge_tips": "Pour configurer le mode Pont, vous devez d'abord connecter un câble Ethernet au port WAN.",
+        "passthrough_enable_warning": "Si vous passez à ce mode, {feature} sera désactivé."
     },
     "menu_bridge": "Comportement"
 }
