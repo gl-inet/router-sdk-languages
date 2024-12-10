@@ -34,7 +34,8 @@
         "passthrough_conflict_warning": "Este modo puede ser que no funcione si tú tienes la siguiente configuración: Tethering activado, modo drop-in gateway activado, IPv6 activada, DNS configurada en modo manual, Multi-WAN en modo balance de carga, puerto WAN como LAN, uso de políticas VPN, algún ajuste añadido al firewall, MAC address configurada en modo manual.",
         "passthrough_secondwan_warning": "El modo IP Passthrough requiere que solo se pueda tener un puerto WAN. Por favor vaya a la página $$$$ para modificarlo y cancelar el uso del puerto WAN como un puerto LAN o cancele el uso de la LAN como puerto WAN.",
         "set_up_bridge_tips": "Para configurar el modo Bridge, necesita primero conectar un cable Ethernet al puerto WAN.",
-        "passthrough_conflict_2b_warning": "Este modo puede no funcionar si tiene las siguientes configuraciones: modo de puerta de enlace drop-in habilitado, IPv6 habilitado, DNS configurado manualmente, Multi-WAN configurado en modo balanceo de carga, puerto WAN configurado como LAN, política de VPN utilizada, cualquier configuración de firewall añadida, dirección MAC configurada manualmente."
+        "passthrough_conflict_2b_warning": "Este modo puede no funcionar si tiene las siguientes configuraciones: modo de puerta de enlace drop-in habilitado, IPv6 habilitado, DNS configurado manualmente, Multi-WAN configurado en modo balanceo de carga, puerto WAN configurado como LAN, política de VPN utilizada, cualquier configuración de firewall añadida, dirección MAC configurada manualmente.",
+        "passthrough_enable_warning": "Si activa este modo, {feature} se desactivará."
     },
     "menu_bridge": "Modo de Red"
 }
