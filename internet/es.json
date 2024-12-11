@@ -26,7 +26,8 @@
         "revert_port_btn": "Restaurar a {port}",
         "use_as_port_btn": "Cambiar el {silkprint} por {port}",
         "revert_wan_tips": "Después de que restaure el puerto WAN",
-        "use_as_wan_silkprint_tips": "Una vez que el {silkprint} se utiliza como puerto WAN"
+        "use_as_wan_silkprint_tips": "Una vez que el {silkprint} se utiliza como puerto WAN",
+        "vlan_id_conflict_tips": "El ID de VLAN de Ethernet1 entra en conflicto con el ID de VLAN de Ethernet2."
     },
     "tethering": {
         "title": "Uso compartido (Tethering)",
