@@ -26,7 +26,8 @@
         "use_as_wan_tips": "{asWan}、ポートに接続されたデバイスは管理パネルにアクセスできなくなります。Wi-Fiまたは他のLANポートに接続する必要があります。",
         "using_tips": "{silkprint} ステータス：{port}として使用中。{changePort}",
         "use_as_port_btn": "{silkprint}を{port}に変更する",
-        "revert_as_lan_tips": "LANポート（デフォルト）に{silkprint}を復元してもよろしいですか？"
+        "revert_as_lan_tips": "LANポート（デフォルト）に{silkprint}を復元してもよろしいですか？",
+        "vlan_id_conflict_tips": "Ethernet1のVLAN IDがEthernet2のVLAN IDと衝突しています。"
     },
     "tethering": {
         "title": "テザリング",
