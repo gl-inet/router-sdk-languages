@@ -26,7 +26,8 @@
         "use_as_wan_tips": "{asWan}, устройство, подключенное к порту, больше не сможет получить доступ к панели администратора. Вам придется подключить его к Wi-Fi или другим LAN-портам.",
         "revert_as_lan_tips": "Вы уверены, что хотите восстановить {silkprint} как LAN-порт (по умолчанию)?",
         "use_as_wan_silkprint_tips": "Как только {silkprint} используется как WAN-порт",
-        "using_tips": "Статус {silkprint}: Используется как {port}. {changePort}"
+        "using_tips": "Статус {silkprint}: Используется как {port}. {changePort}",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID совпадает с VLAN ID Ethernet2."
     },
     "tethering": {
         "title": "Тетеринг",
