@@ -26,7 +26,8 @@
         "change_port_btn": "{port}로 변경",
         "revert_port_btn": "{port}로 복원",
         "revert_wan_tips": "WAN 포트를 복원한 후에",
-        "no_wan_tips": "케이블이 감지되지 않았습니다."
+        "no_wan_tips": "케이블이 감지되지 않았습니다.",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID가 Ethernet2 VLAN ID와 충돌합니다."
     },
     "tethering": {
         "title": "테더링",
