@@ -26,7 +26,8 @@
         "change_port_btn": "切换至 {port}",
         "use_as_wan_silkprint_tips": "一旦 {silkprint}作为 WAN 口使用",
         "use_as_port_btn": "将 {silkprint}切换至作为 {port}使用",
-        "using_tips": "{silkprint} 状态：正在作为 {port} 使用。{changePort}"
+        "using_tips": "{silkprint} 状态：正在作为 {port} 使用。{changePort}",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID与Ethernet2 VLAN ID冲突。"
     },
     "tethering": {
         "title": "热点共享",
