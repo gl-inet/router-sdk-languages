@@ -89,7 +89,8 @@
         "to_auth_btn": "Ir a Iniciar Sesión",
         "entered_portal_tips": "Éste router se encuentra en el Modo de Inicio de Sesión para Hotspots Públicos. Las VPN y el DNS personalizado han sido pausados, lo que puede causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial). Después de iniciar sesión correctamente, saldrá automáticamente de este modo. {exit}.",
         "cannot_accessed_portal_url_tips": "Si no puede acceder a la página de inicio de sesión, intente desactivar otras conexiones a Internet (por ejemplo, ethernet, movil).",
-        "quit_btn": "Salir del Modo de Inicio de Sesión"
+        "quit_btn": "Salir del Modo de Inicio de Sesión",
+        "entry_again_tips": "Si vuelve a ingresar dentro de los 10 segundos, se extraerá directamente del caché en lugar de volver a escanear."
     },
     "modem": {
         "title": "Móvil",
