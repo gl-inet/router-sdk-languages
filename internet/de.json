@@ -89,7 +89,8 @@
         "portal_auth_mode_btn": "Login Modus für öffentliche Hotspots",
         "entered_portal_tips": "Das Gerät befindet sich im Anmeldemodus für öffentliche Hotspots. VPNs und benutzerdefinierte DNS wurden pausiert, was zu Datenlecks beim Anbieter des Hotspots (z. B. Hotels) führen kann. Nach erfolgreicher Anmeldung verlässt der Router diesen Modus automatisch. {exit}.",
         "cannot_accessed_portal_url_tips": "Wenn Sie nicht auf die Anmeldeseite zugreifen können, versuchen Sie, andere Internetverbindungen zu deaktivieren (z. B. Ethernet, Mobilfunk).",
-        "quit_btn": "Login-Modus beenden"
+        "quit_btn": "Login-Modus beenden",
+        "entry_again_tips": "Wenn Sie innerhalb von 10 Sekunden erneut eintreten, wird direkt aus dem Cache gezogen, anstatt erneut zu scannen."
     },
     "modem": {
         "title": "Mobilfunknetz",
