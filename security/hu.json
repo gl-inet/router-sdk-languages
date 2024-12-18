@@ -11,23 +11,23 @@
         "title": "Felügyeleti jelszó"
     },
     "security": {
-        "ipaddr_list_label": "IP-cím lista",
-        "no_ipaddr_list_label": "Nincs IP-cím",
+        "ipaddr_list_label": "Engedélyezett IP-címek",
+        "no_ipaddr_list_label": "Nincs hozzáadva IP-cím",
         "add_ipaddr_btn": "IP-cím hozzáadása",
-        "port_disabled_tips": "Ez a port tiltva van a böngésző által",
-        "add_ipaddr_tips": "Az Ön által bevihető IP-cím stílusának egy példája (IPv6 formátumot is támogat), pl. 192.168.8.1.",
-        "session_timeout_tips": "Az időintervallum a böngészőoldal bezárása vagy alvó állapotba helyezése és a kijelentkezés között.",
-        "port_conflict_tips": "Ez a port már használatban van.",
-        "local_access_title": "Helyi hozzáférés-vezérlés",
-        "redirect_https_label": "HTTPS kényszerítése",
-        "session_timeout_label": "Automatikus kijelentkezési idő",
-        "apply_success_tips": "Sikeres alkalmazás; várakozás a webszerver újraindítására.",
-        "remote_access_title": "Távoli hozzáférés-vezérlés",
-        "enable_ping_label": "Ping engedélyezése a WAN felől",
-        "enable_https_label": "HTTPS távoli hozzáférés",
-        "enable_ssh_label": "SSH távoli hozzáférés",
-        "enable_ipaddr_label": "Csak meghatározott IP-címekről engedélyezett távoli hozzáférés",
-        "enable_ipaddr_tips": "Adjon hozzá több meghatározott IP-címet a router kezeléséhez erről az eszközről."
+        "port_disabled_tips": "Ennek a portnak a használatát tiltja a böngésző",
+        "add_ipaddr_tips": "IPv4 és IPv6 címek megadása egyaránt lehetséges.",
+        "session_timeout_tips": "A felület automatikusan kijelentkezteti a megadott idő után, ha tétlen.",
+        "port_conflict_tips": "Ez a port foglalt.",
+        "local_access_title": "Helyi hozzáférés",
+        "redirect_https_label": "HTTPS protokoll használata",
+        "session_timeout_label": "Automatikus kijelentkeztetés",
+        "apply_success_tips": "Végrehajtva! A felület most újraindul.",
+        "remote_access_title": "Távoli hozzáférés",
+        "enable_ping_label": "Ping csomagok fogadása az internet felől",
+        "enable_https_label": "HTTPS protokoll használata",
+        "enable_ssh_label": "SSH hozzáférés engedélyezése",
+        "enable_ipaddr_label": "Távoli hozzáférés korlátozása",
+        "enable_ipaddr_tips": "Távoli hozzáférés engedélyezése kizárólag megadott IP-címekről."
     },
-    "menu_security": "Ez a port már használatban van."
+    "menu_security": "Biztonság"
 }
