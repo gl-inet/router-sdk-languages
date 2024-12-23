@@ -30,7 +30,9 @@
         "random_bssid_enabled_tips": "このオプションを有効にすると、デバイスはランダムに生成されたBSSIDを使用し、再起動するたびに再生成されます。",
         "radio_bands": "無線周波数帯",
         "mlo_wifi_security_tips": "WPA3-SAEは、MLOをサポートするほとんどのデバイスに適しており、このプロトコルは推奨されます。",
-        "radio_bands_tips": "少なくとも2つの無線帯域を選択してください。"
+        "radio_bands_tips": "少なくとも2つの無線帯域を選択してください。",
+        "enable_psc_label": "启用PSC",
+        "enable_psc_tips": "PSC（優先スキャンチャンネル）が有効になっている場合、6GHzデバイスの接続を確保するために、より高い接続性を持つチャンネルのみが予約されます。"
     },
     "menu_wireless": "無線"
 }
