@@ -30,7 +30,9 @@
         "random_bssid_enabled_tips": "Se questa opzione è abilitata, il dispositivo utilizza un BSSID generato casualmente e lo rinnova ad ogni riavvio.",
         "radio_bands": "Bande Radio",
         "mlo_wifi_security_tips": "WPA3-SAE è adatto per la maggior parte dei dispositivi che supportano MLO, e si raccomanda l'utilizzo di questo protocollo.",
-        "radio_bands_tips": "Si prega di selezionare almeno due bande radio."
+        "radio_bands_tips": "Si prega di selezionare almeno due bande radio.",
+        "enable_psc_label": "Abilita PSC",
+        "enable_psc_tips": "Quando è attivato il PSC (Canale di Scansione Preferito), verranno riservati solo i canali con maggiore connettività per garantire le connessioni dei dispositivi a 6GHz."
     },
     "menu_wireless": "Wireless"
 }
