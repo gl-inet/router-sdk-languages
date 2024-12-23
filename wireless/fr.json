@@ -30,7 +30,9 @@
         "random_bssid_disabled_tips": "L'utilisation d'un BSSID statique peut vous exposer à un pistage. Si votre appareil client nécessite l'utilisation d'un BSSID statique, il est recommandé de définir le SSID comme étant caché. {more}",
         "radio_bands": "Bandes radio",
         "mlo_wifi_security_tips": "WPA3-SAE convient à la plupart des appareils prenant en charge MLO, et ce protocole est recommandé.",
-        "radio_bands_tips": "Veuillez sélectionner au moins deux bandes radio."
+        "radio_bands_tips": "Veuillez sélectionner au moins deux bandes radio.",
+        "enable_psc_label": "Activer le PSC",
+        "enable_psc_tips": "Lorsque le PSC (Canal de Balayage Préféré) est activé, seuls les canaux offrant une meilleure connectivité seront réservés pour garantir les connexions des appareils 6GHz."
     },
     "menu_wireless": "Réseau sans-fil"
 }
