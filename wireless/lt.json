@@ -30,7 +30,9 @@
         "random_bssid_disabled_tips": "Naudojant nekintantį „BSSID“ galite būti sekamas. Jei Jūsų kliento įrenginys reikalauja naudoti nekintamą „BSSID“, rekomenduojama nustatyti „SSID“ kaip – paslėptą. „{more}“",
         "radio_bands": "Radijo juostos",
         "mlo_wifi_security_tips": "„WPA3-SAE“ yra tinkamas daugumai įrenginių, kurie palaiko „MLO“ ir šis protokolas yra rekomenduojamas.",
-        "radio_bands_tips": "Prašome pasirinkti bent du – radijo dažnių juostas."
+        "radio_bands_tips": "Prašome pasirinkti bent du – radijo dažnių juostas.",
+        "enable_psc_label": "Įjungti PSC",
+        "enable_psc_tips": "Kai įjungtas PSC (pageidaujamas skenavimo kanalas), bus rezervuojami tik tie kanalai, kurie užtikrina geresnį ryšį, siekiant garantuoti 6 GHz įrenginių prisijungimus."
     },
     "menu_wireless": "Belaidis/Bevielis"
 }
