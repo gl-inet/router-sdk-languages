@@ -30,7 +30,9 @@
         "random_bssid_disabled_tips": "Die Verwendung einer statischen BSSID kann dazu führen, dass Sie verfolgt werden. Wenn Ihr Client-Gerät die Verwendung einer statischen BSSID erfordert, wird empfohlen, die SSID auf versteckt zu setzen. {more}",
         "mlo_wifi_security_tips": "WPA3-SAE eignet sich für die meisten Geräte, die MLO unterstützen, und dieses Protokoll wird empfohlen.",
         "radio_bands": "Funkbänder",
-        "radio_bands_tips": "Bitte wählen Sie mindestens zwei Funkbänder aus."
+        "radio_bands_tips": "Bitte wählen Sie mindestens zwei Funkbänder aus.",
+        "enable_psc_label": "Aktivieren Sie PSC",
+        "enable_psc_tips": "Wenn PSC (Preferred Scanning Channel) aktiviert ist, werden nur Kanäle mit besserer Verbindung reserviert, um die Verbindungen von 6-GHz-Geräten zu gewährleisten."
     },
     "menu_wireless": "WLAN"
 }
