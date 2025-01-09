@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "Editer les Hôtes",
-        "desc": "Si vous définissez des serveurs DNS personnalisés, tous les noms de domaines seront résolus par les serveurs DNS définis ici au lieu de ceux obtenus à partir de votre connexion Ethernet, répéteur, cellulaire, téthering ou de la configuration VPN.",
+        "desc": "Si vous définissez des serveurs DNS personnalisés, tous les noms de domaines seront résolus par les serveurs DNS définis ici au lieu de ceux obtenus à partir de votre interface réseau. Sinon, vous utiliserez les paramètres DNS configurés pour chaque interface.",
         "rebinding_label": "Protection contre les attaques de DNS rebinding",
         "rebinding_tips": "L'activation de cette option peut entraîner l'échec de resolutions de DNS privés. Si votre réseau dispose d'un portail captif, veuillez désactiver cette option.",
         "override_label": "Remplacer les paramètres DNS pour tous les clients",
