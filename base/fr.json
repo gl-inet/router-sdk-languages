@@ -15,7 +15,7 @@
         "modify": "Modifier",
         "cancel": "Annuler",
         "apply": "Appliquer",
-        "install": "installer",
+        "install": "Installer",
         "connect": "Connecter",
         "disconnect": "Déconnecter",
         "abort": "Abandonner",
@@ -112,7 +112,7 @@
         "switch_btn": "Basculer",
         "exit_btn": "Quitter",
         "done_btn": "Terminé",
-        "upgrade_btn": "Mettre à niveau",
+        "upgrade_btn": "Mettre à jour",
         "setp_label": "Étape {num} :",
         "join_btn": "Rejoindre",
         "search": "Recherche"
@@ -154,8 +154,8 @@
         "quarter": "Trimestre",
         "week": "{count} semaine | {count} semaines",
         "month": "{count} mois | {count} mois",
-        "year": "{count} an | {count} ans",
-        "month_list": "Janvier|Février|Mars|Avril|Mai|Juin|Juillet| Août|Septembre|Octobre|Novembre|Décembre"
+        "year": "{count} an| {count} ans",
+        "month_list": "janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre"
     },
     "internet": {
         "connected": "Connecté",
@@ -190,7 +190,7 @@
         "mtu_general_tips": "Si vous définissez une valeur supérieure/inférieure à la plage prise en charge par l'appareil, l'appareil utilise la valeur maximale/minimale prise en charge.",
         "illegal_subnet_mask_tips": "Masque illégal, étant donné que le sous-réseau est {subnet}, le masque ne peut pas être inférieur à {min}.",
         "mac_real_label": "Usine",
-        "mac_format_tips": "le bit le moins significatif du premier octet ne doit pas être réglé sur 1 (c'est-à-dire que le deuxième chiffre hexadécimal ne doit pas être impair).",
+        "mac_format_tips": "le bit le moins significatif du premier octet ne doit pas être mis à 1 (c'est-à-dire que le deuxième chiffre hexadécimal ne doit pas être impair).",
         "mtu_ipv6_warning_tips": "IPv6 ne peut pas fonctionner lorsque le MTU est inférieur à 1280.",
         "illegal_subnet_tips": "Sous-réseaux illégaux, les trois derniers bits doivent être 0.",
         "mode_label": "Mode {tab}",
