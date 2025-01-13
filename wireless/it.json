@@ -32,7 +32,8 @@
         "mlo_wifi_security_tips": "WPA3-SAE è adatto per la maggior parte dei dispositivi che supportano MLO, e si raccomanda l'utilizzo di questo protocollo.",
         "radio_bands_tips": "Si prega di selezionare almeno due bande radio.",
         "enable_psc_label": "Abilita PSC",
-        "enable_psc_tips": "Quando è attivato il PSC (Canale di Scansione Preferito), verranno riservati solo i canali con maggiore connettività per garantire le connessioni dei dispositivi a 6GHz."
+        "enable_psc_tips": "Quando è attivato il PSC (Canale di Scansione Preferito), verranno riservati solo i canali con maggiore connettività per garantire le connessioni dei dispositivi a 6GHz.",
+        "mlo_6g_bssid_tips": "Se le bande radio Wi-Fi MLO includono i 6 GHz, il BSSID Wi-Fi MLO si sincronizzerà quando il BSSID Wi-Fi a 6 GHz cambia."
     },
     "menu_wireless": "Wireless"
 }
