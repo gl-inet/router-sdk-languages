@@ -32,7 +32,8 @@
         "mlo_wifi_security_tips": "WPA3-SAE는 MLO를 지원하는 대부분의 장치에 적합하며, 이 프로토콜을 권장합니다.",
         "radio_bands_tips": "적어도 두 개의 무선 주파수 대역을 선택해 주세요.",
         "enable_psc_label": "启用PSC",
-        "enable_psc_tips": "PSC(선호 스캔 채널) 기능이 활성화되면, 6GHz 장치 연결을 보장하기 위해 연결성이 높은 채널만이 예약됩니다."
+        "enable_psc_tips": "PSC(선호 스캔 채널) 기능이 활성화되면, 6GHz 장치 연결을 보장하기 위해 연결성이 높은 채널만이 예약됩니다.",
+        "mlo_6g_bssid_tips": "MLO Wi-Fi 라디오 밴드에 6GHz가 포함되어 있으면, 6GHz Wi-Fi BSSID가 변경될 때 MLO Wi-Fi BSSID도 동기화됩니다."
     },
     "menu_wireless": "무선"
 }
