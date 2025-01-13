@@ -32,7 +32,8 @@
         "radio_bands": "Radio Bands",
         "radio_bands_tips": "Please select at least two radio bands.",
         "enable_psc_label": "Enable PSC",
-        "enable_psc_tips": "When PSC (Preferred Scanning Channel) is enabled, only channels with higher connectivity will be reserved to ensure 6GHz device connections."
+        "enable_psc_tips": "When PSC (Preferred Scanning Channel) is enabled, only channels with higher connectivity will be reserved to ensure 6GHz device connections.",
+        "mlo_6g_bssid_tips": "If the MLO Wi-Fi radio bands include 6 GHz, the MLO Wi-Fi BSSID will synchronize when the 6GHz Wi-Fi BSSID changes."
     },
     "menu_wireless": "Wireless"
 }
