@@ -32,7 +32,8 @@
         "mlo_wifi_security_tips": "WPA3-SAE适用于大多数支持MLO的设备，推荐使用此协议。",
         "radio_bands_tips": "请选择至少两个无线电频段。",
         "enable_psc_label": "启用PSC",
-        "enable_psc_tips": "启用PSC（首选扫描频道）后，只有连接性更高的频道会被保留，以确保6GHz设备的连接。"
+        "enable_psc_tips": "启用PSC（首选扫描频道）后，只有连接性更高的频道会被保留，以确保6GHz设备的连接。",
+        "mlo_6g_bssid_tips": "如果MLO Wi-Fi无线频段包括6 GHz，则当6GHz Wi-Fi BSSID发生变化时，MLO Wi-Fi BSSID将会同步。"
     },
     "menu_wireless": "无线"
 }
