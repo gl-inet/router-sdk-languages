@@ -18,7 +18,7 @@
         "custom_exit_node_tips": "如果啟用此選項，設備將所有請求都轉發至退出節點。在啟用之前，您需要在$$$$Tailscale管理控制台$$$$中啟用此設備的子網路路由{subnet}，以便Tailscale轉發客戶端請求；否則，您的客戶端將無法訪問互聯網。",
         "exit_node_label": "出口節點",
         "current_ip_tips": "Tailscale 使用 100.64.0.0/10 子網，這可能和 ISP 分配的地址或 VPN 客戶端地址衝突。若您的 WAN IP 或 VPN 使用了此子網內地址，請禁用 Tailscale。",
-        "custom_exit_node_warning": "啟用自訂退出節點後，設備將所有請求都轉發至退出節點。在啟用之前，您必須在$$$$Tailscale管理控制台$$$$中啟用此設備的子網路路由{subnet}，以便Tailscale轉發客戶端請求；否則，您的客戶端將無法訪問互聯網。",
+        "custom_exit_node_warning": "如果您啟用自定義出口節點，設備將把所有請求轉發至出口節點。在啟用之前，您必須在$$$$Tailscale管理控制臺$$$$中啟用此設備的子網路由{subnet}，以便Tailscale轉發客戶端請求；否則，您的客戶端將無法訪問互聯網。",
         "dns_warning_tips": "使用內網IP位址作為DNS時，可能無法訪問DNS伺服器。"
     }
 }
