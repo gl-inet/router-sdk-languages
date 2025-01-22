@@ -260,7 +260,7 @@
         "forward_no_encryp_label": "Aucun",
         "forward_tips": "Pour éviter tous risques de boucle, le transfert de SMS ne sera pas exécuté lorsque le numéro local est saisi ici. De même, si le modem ne lit pas le numéro de votre carte SIM, le transfert de SMS ne sera pas exécuté.",
         "forward_sms_title": "Transmettre par SMS",
-        "forward_email_title": "Transmettre par courriel"
+        "forward_email_title": "Transmettre par email"
     },
     "modemmanage": {
         "title": "Gérer",
@@ -373,7 +373,7 @@
         "tethering_connecting_note": "Remarque :",
         "network_connection_exception": "Exception de connexion réseau",
         "wifi_not_found": "La connexion a échoué. Le SSID ou le mot de passe est incorrect, veuillez réessayer.",
-        "repeater_concat_us": "3. Si le problème n'a pas été résolu, vous pouvez également envoyer un courriel à {supportEmail}.",
+        "repeater_concat_us": "3. Si le problème n'a pas été résolu, vous pouvez également envoyer un email à {supportEmail}.",
         "password_is_wrong": "La connexion a échoué. Le mot de passe est incorrect, veuillez réessayer.",
         "no_available_ap_tips": "Aucun réseau disponible n'est actuellement scanné, vous pouvez {toDo}.",
         "attention_label": "Attention !",
@@ -387,7 +387,7 @@
         "repeater_need_enable_auth_tips": "Si le Wi-Fi relayé nécessite une authentification, veuillez activer le mode d'authentification.",
         "restart_router_tips": "Redémarrer le routeur.",
         "fail_public_tips": "Le réseau ne peut pas être connecté, veuillez essayer les méthodes suivantes.",
-        "fail_contact_tips": "Si le problème n'a pas été résolu, vous pouvez également envoyer un courriel à {addr}.",
+        "fail_contact_tips": "Si le problème n'a pas été résolu, vous pouvez également envoyer un email à {addr}.",
         "tethering_fail_restart_tips": "Redémarrer votre téléphone et votre routeur.",
         "tethering_fail_check_phone_tips": "Assurez-vous que votre téléphone est autorisé et que le réseau téléphonique est disponible.",
         "tethering_fail_check_usb_tips": "Vérifiez la connexion du câble USB et rebranchez-le ou remplacez-le.",
