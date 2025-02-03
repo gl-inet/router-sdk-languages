@@ -40,7 +40,7 @@
         "no_account_tips": "アカウントをお持ちでないですか？",
         "enabled_tips": "クラウドサービスは現在有効です。",
         "device_be_bound_by_other_title": "デバイスはバインドされています",
-        "contact_other_user_tips": "{user}に連絡してデバイスのバインド解除を依頼するか、プラットフォームのメッセージを使ってこのアカウントに対してバインド解除のリクエストを開始する必要があります。",
+        "contact_other_user_tips": "{user}に連絡してデバイスのバインド解除を依頼するか、プラットフォームのメッセージを使ってそのアカウントに対してバインド解除のリクエストを開始する必要があります。",
         "not_support_change_bind_tips": "申し訳ありませんが、このデバイスはバインドされたアカウントを変更する機能をサポートしていません。詳細についてはデバイス提供者に連絡してください。",
         "back_login_btn": "ログインに戻る",
         "reset_pawd_title": "パスワードをリセットする",
@@ -70,12 +70,12 @@
         "two_factor_auth_title": "二要素認証",
         "app_auth_tips": "二要素認証アプリで生成されたワンタイムパスワードを入力してください。",
         "sms_auth_tips": "安全な電話{phone}で受け取った認証コードを入力してください。",
-        "login_side_title": "ご利用ください、あなたのGL.iNetアカウントを",
+        "login_side_title": "あなたのGL.iNetアカウントをご利用ください",
         "sign_up_title": "GL.iNetアカウントを作成する"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
-        "server_busy_msg": "サーバーが忙しい状態です。後ほど再試行してください。",
+        "server_busy_msg": "サーバーがビジーです。後ほど再試行してください。",
         "username_already_exist_msg": "ユーザー名は既に存在しています。",
         "phone_verify_code_invalid_msg": "電話認証コードが期限切れです。",
         "send_verify_code_err_msg": "メール認証コードの送信に失敗しました。",
