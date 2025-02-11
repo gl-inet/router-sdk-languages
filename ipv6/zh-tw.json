@@ -1,7 +1,7 @@
 {
     "ipv6": {
         "tips": "啟用 IPv6 後，以太網等 WAN 接口將通過 DHCPv6 獲取其 IPv6 地址。 您還可以在以太網設置頁面中手動修改 IPv6 地址。 某些功能（防火牆、VPN、GoodCloud）尚不支持 IPv6。",
-        "note": "注意:如果同時使用VPN和IPv6的功能，很可能會導致IPv6數據洩漏。",
+        "note": "",
         "enable": "啟用",
         "mode": "模式",
         "addr": "IPv6地址",
