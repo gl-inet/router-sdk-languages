@@ -28,5 +28,16 @@
         "your_feedback": "Your Feedback",
         "restricted_file_format_msg": "Supported file types JPEG or PNG",
         "limit_total_file_size_msg": "All images must not exceed 10MB in size"
+    },
+    "log_err": {
+        "no_enough_space": "there is not enough space left",
+        "file_recv_failed": "file acceptance failed",
+        "email_param_invalied": "mailbox format error",
+        "send_to_server_failed": "failed to send to server",
+        "send_too_many_times": "send too many times",
+        "image_too_big": "images is too big",
+        "mail_server_error": "mail server error",
+        "network_connection_failed": "network connection issues",
+        "system_error": "system error"
     }
 }
