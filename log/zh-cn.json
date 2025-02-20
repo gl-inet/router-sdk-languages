@@ -30,9 +30,9 @@
         "restricted_file_format_msg": "支持的文件类型为JPEG或PNG"
     },
     "log_err": {
-        "file_recv_failed_msg": "文件接受失败",
+        "file_recv_failed_msg": "文件读取失败",
         "send_to_server_failed_msg": "发送到服务器失败",
-        "image_too_big_msg": "图片太大",
+        "image_too_big_msg": "上传图片过大",
         "no_enough_space_msg": "剩余空间不足",
         "email_param_invalied_msg": "邮箱格式错误",
         "network_connection_failed_msg": "网络连接问题",
