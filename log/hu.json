@@ -26,6 +26,18 @@
         "export_log_tips": "Szeretné exportálni a hibakeresési információkat a naplókkal együtt?",
         "your_feedback": "Az Ön visszajelzése",
         "restricted_file_format_msg": "Támogatott fájltípusok: JPEG vagy PNG",
-        "limit_total_file_size_msg": "Minden kép mérete nem haladhatja meg a 10 MB-ot."
+        "limit_total_file_size_msg": "Minden kép mérete nem haladhatja meg a 10 MB-ot.",
+        "got_it": "Támogatott fájltípusok: JPEG vagy PNG"
+    },
+    "log_err": {
+        "no_enough_space": "nincs elég hely",
+        "file_recv_failed": "a fájl elfogadása sikertelen",
+        "email_param_invalied": "postaformátum-hiba",
+        "send_to_server_failed": "a szerverre küldés sikertelen",
+        "send_too_many_times": "túl sokszor küldött",
+        "image_too_big": "a kép túl nagy",
+        "mail_server_error": "levélkiszolgáló hiba",
+        "network_connection_failed": "hálózati kapcsolati problémák",
+        "system_error": "rendszerhiba"
     }
 }
