@@ -28,5 +28,16 @@
         "restricted_file_format_msg": "Unterstützte Dateitypen: JPEG oder PNG",
         "limit_total_file_size_msg": "Alle Bilder dürfen nicht größer als 10 MB sein."
     },
-    "menu_logview": "Protokoll"
+    "menu_logview": "Protokoll",
+    "log_err": {
+        "no_enough_space": "Es ist nicht genügend Speicherplatz vorhanden.",
+        "file_recv_failed": "Dateiannahme fehlgeschlagen",
+        "email_param_invalied": "Postfachformatfehler",
+        "send_to_server_failed": "Übertragung an den Server fehlgeschlagen",
+        "send_too_many_times": "zu oft gesendet",
+        "image_too_big": "Das Bild ist zu groß.",
+        "mail_server_error": "Mailserver-Fehler",
+        "network_connection_failed": "Netzwerkverbindungsprobleme",
+        "system_error": "Systemfehler"
+    }
 }
