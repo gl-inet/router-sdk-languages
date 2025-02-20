@@ -26,6 +26,18 @@
         "export_log_tips": "Wilt u debug-informatie samen met de logbestanden exporteren?",
         "your_feedback": "Uw feedback",
         "restricted_file_format_msg": "Ondersteunde bestandstypen JPEG of PNG",
-        "limit_total_file_size_msg": "Alle afbeeldingen mogen niet groter zijn dan 10MB."
+        "limit_total_file_size_msg": "Alle afbeeldingen mogen niet groter zijn dan 10MB.",
+        "got_it": "Ondersteunde bestandstypen JPEG of PNG"
+    },
+    "log_err": {
+        "file_recv_failed": "bestand acceptatie mislukt",
+        "email_param_invalied": "mailboxformaatfout",
+        "send_to_server_failed": "verzenden naar server mislukt",
+        "send_too_many_times": "te vaak verzonden",
+        "image_too_big": "de afbeelding is te groot",
+        "mail_server_error": "mailserverfout",
+        "no_enough_space": "er is niet genoeg ruimte over",
+        "network_connection_failed": "netwerkverbinding problemen",
+        "system_error": "systeemfout"
     }
 }
