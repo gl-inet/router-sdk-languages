@@ -28,5 +28,16 @@
         "your_feedback": "Il vostro feedback",
         "limit_total_file_size_msg": "Tutte le immagini non devono superare i 10MB di dimensione.",
         "restricted_file_format_msg": "Tipi di file supportati: JPEG o PNG"
+    },
+    "log_err": {
+        "no_enough_space": "non c'è abbastanza spazio disponibile",
+        "file_recv_failed": "il caricamento del file non è riuscito",
+        "email_param_invalied": "formato della casella di posta non valido",
+        "send_to_server_failed": "impossibile inviare al server",
+        "send_too_many_times": "inviate troppe volte",
+        "image_too_big": "l'immagine è troppo grande",
+        "mail_server_error": "errore del server di posta",
+        "network_connection_failed": "problemi di connessione di rete",
+        "system_error": "errore di sistema"
     }
 }
