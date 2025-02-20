@@ -26,6 +26,18 @@
         "export_log_tips": "로그와 함께 디버그 정보를 내보내시겠습니까?",
         "your_feedback": "귀하의 피드백",
         "restricted_file_format_msg": "지원되는 파일 유형: JPEG 또는 PNG",
-        "limit_total_file_size_msg": "모든 이미지의 크기는 10MB를 초과해서는 안 됩니다."
+        "limit_total_file_size_msg": "모든 이미지의 크기는 10MB를 초과해서는 안 됩니다.",
+        "got_it": "지원되는 파일 유형: JPEG 또는 PNG"
+    },
+    "log_err": {
+        "no_enough_space": "남은 공간이 부족합니다",
+        "file_recv_failed": "文件接受失败",
+        "email_param_invalied": "邮箱格式错误",
+        "send_to_server_failed": "서버로 전송 실패",
+        "send_too_many_times": "发送次数过多",
+        "image_too_big": "이미지가 너무 큽니다.",
+        "mail_server_error": "메일 서버 오류",
+        "network_connection_failed": "네트워크 연결 문제",
+        "system_error": "시스템 오류"
     }
 }
