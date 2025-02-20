@@ -28,5 +28,16 @@
         "limit_total_file_size_msg": "所有圖片的大小不得超過10MB。",
         "restricted_file_format_msg": "支援的檔案類型為JPEG或PNG"
     },
-    "menu_logview": "日誌"
+    "menu_logview": "日誌",
+    "log_err": {
+        "file_recv_failed": "文件接受失敗",
+        "email_param_invalied": "郵箱格式錯誤",
+        "send_to_server_failed": "發送至伺服器失敗",
+        "send_too_many_times": "發送次數過多",
+        "image_too_big": "圖片過大",
+        "mail_server_error": "郵件伺服器錯誤",
+        "no_enough_space": "剩餘空間不足",
+        "network_connection_failed": "網絡連接問題",
+        "system_error": "系統錯誤"
+    }
 }
