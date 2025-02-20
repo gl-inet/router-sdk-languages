@@ -26,6 +26,18 @@
         "export_log_tips": "Вы хотите экспортировать информацию для отладки вместе с журналами?",
         "your_feedback": "Ваш отзыв",
         "limit_total_file_size_msg": "Все изображения не должны превышать размер в 10 МБ.",
-        "restricted_file_format_msg": "Поддерживаемые типы файлов: JPEG или PNG"
+        "restricted_file_format_msg": "Поддерживаемые типы файлов: JPEG или PNG",
+        "got_it": "Поддерживаемые типы файлов: JPEG или PNG"
+    },
+    "log_err": {
+        "file_recv_failed": "прием файла не удался",
+        "email_param_invalied": "формат почтового ящика неверен",
+        "send_to_server_failed": "не удалось отправить на сервер",
+        "send_too_many_times": "отправлено слишком много раз",
+        "image_too_big": "изображение слишком велико",
+        "mail_server_error": "ошибка почтового сервера",
+        "no_enough_space": "недостаточно свободного места",
+        "network_connection_failed": "сетевые проблемы подключения",
+        "system_error": "системная ошибка"
     }
 }
