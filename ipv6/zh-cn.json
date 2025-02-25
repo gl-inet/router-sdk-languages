@@ -9,7 +9,8 @@
         "dns_server": "DNS 服务器",
         "invalid_parameter": "您输入的内容格式不正确！",
         "dns_server_empty": "至少输入一个 DNS 服务器",
-        "native_tips": "此模式仅针对私有网络生效，访客网络始终使用 NAT6 模式。"
+        "native_tips": "此模式仅针对私有网络生效，访客网络始终使用 NAT6 模式。",
+        "use_tip": "启用 IPv6 后，以太网等 WAN 接口将通过 DHCPv6 获取分配的 IPv6 地址。您也可以在以太网配置页面中手动修改 IPv6 地址。部分功能（{features}）尚未支持 IPv6。"
     },
     "menu_ipv6": "IPv6"
 }
