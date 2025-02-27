@@ -92,7 +92,8 @@
         "entered_portal_tips": "Het apparaat bevindt zich in de Login Modus voor Openbare Hotspots. VPN's en aangepaste DNS zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum). Na succesvolle aanmelding verlaat de router automatisch deze modus. {exit}.",
         "entry_again_tips": "Als u binnen 10 seconden opnieuw invoert, wordt er direct uit de cache gehaald in plaats van opnieuw te scannen.",
         "unable_scan_channel_tips": "Bij het reizen door het land is het mogelijk dat het scannen naar Wi-Fi op bepaalde kanalen niet toegestaan is vanwege regelgeving.",
-        "scan_wifi_fail_detection_channel_tips": "Het apparaat scant momenteel naar het optimale kanaal, Wi-Fi-scannen is niet beschikbaar tijdens dit proces. Wacht alstublieft geduldig tot de scan voltooid is."
+        "scan_wifi_fail_detection_channel_tips": "Het apparaat scant momenteel naar het optimale kanaal, Wi-Fi-scannen is niet beschikbaar tijdens dit proces. Wacht alstublieft geduldig tot de scan voltooid is.",
+        "cannot_find_ssid": "Kunt u uw SSID niet vinden?"
     },
     "modem": {
         "title": "Mobiel",
@@ -475,6 +476,16 @@
         "manual_auto_lock_operator_label": "Handmatig-Automatisch",
         "sim_info_title": "SIM-kaart",
         "internet_info_title": "Internet",
-        "cell_info_title": "Cellen"
+        "cell_info_title": "Cellen",
+        "set_sim_config_warning_tips": "Het wijzigen van de configuratie zal resulteren in het opnieuw kiezen.",
+        "sim_settings_title": "SIM-kaartinstellingen",
+        "not_use_special_label": "Niet gebruiken",
+        "special_apns_label": "Speciale APN's",
+        "use_special_apn_warning_tips": "De speciale APN die u momenteel selecteert, is alleen beschikbaar voor specifieke telefoonkaarten. Als de APN niet correct is ingesteld, kan dit leiden tot afwijkend kiesgedrag, netwerkverbinding mislukkingen en andere communicatieproblemen. Controleer alstublieft dubbel of uw telefoonkaart deze APN ondersteunt. Weet u zeker dat u wilt overschakelen naar de huidige APN?",
+        "pin_code_tips": "PIN-code lengte 4-8 cijfers",
+        "sim_switch_title": "SIM-kaart wissel",
+        "view_information_btn": "Bekijk meer informatie",
+        "information_title": "Mobiele Informatie",
+        "special_apns_tips": "Selecteer de APN-instellingen die voor specifieke providers zijn opgegeven, op basis van de daadwerkelijke situatie van uw SIM-kaart."
     }
 }
