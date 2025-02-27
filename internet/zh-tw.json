@@ -461,6 +461,10 @@
         "operator_locked_label": "{sim} 運營商已被鎖定",
         "lock_operator_btn": "鎖定運營商",
         "lock_tower_disabled_tip": "由於當前卡槽已鎖定運營商，因此當前鎖定基站功能的卡槽被禁用。",
-        "scan_tower_warning_tips": "掃描塔樓將需要幾分鐘時間。您確定要繼續嗎？"
+        "scan_tower_warning_tips": "掃描塔樓將需要幾分鐘時間。您確定要繼續嗎？",
+        "lock_tower_tips": "掃描基站可以快速識別高品質的信號源，以確保穩定通訊。鎖定基站需要匹配運營商和設備支持的頻段；否則，可能會影響撥號。請確認基站信息，以避免潛在問題。",
+        "reflash_warning_msg": "請勿刷新頁面。",
+        "lock_operation_mode_label": "鎖定模式",
+        "lock_operation_mode_tip": "操作員鎖定功能支持三種模式：自動連接到可用的操作員網絡、手動鎖定到特定操作員，或者如果手動鎖定失敗，則自動切換到可用的操作員網絡。"
     }
 }
