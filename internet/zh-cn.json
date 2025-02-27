@@ -92,7 +92,8 @@
         "quit_btn": "退出认证模式",
         "entry_again_tips": "如果你10s内再次进入，将直接拉取缓存，而不是重新扫描。",
         "unable_scan_channel_tips": "跨国旅行时可能因为法规原因无法扫描到某些信道的Wi-Fi。",
-        "scan_wifi_fail_detection_channel_tips": "设备正在检测最佳信道，期间无法扫描周边Wi-Fi，请您耐心等待检测完成。"
+        "scan_wifi_fail_detection_channel_tips": "设备正在检测最佳信道，期间无法扫描周边Wi-Fi，请您耐心等待检测完成。",
+        "cannot_find_ssid": "找不到您的SSID？"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -475,6 +476,16 @@
         "manual_auto_lock_operator_label": "手动-自动",
         "sim_info_title": "SIM卡",
         "internet_info_title": "互联网",
-        "cell_info_title": "小区"
+        "cell_info_title": "小区",
+        "set_sim_config_warning_tips": "更改配置将导致重新拨号。",
+        "sim_settings_title": "SIM卡设置",
+        "not_use_special_label": "不使用",
+        "special_apns_label": "特殊APN设置",
+        "use_special_apn_warning_tips": "您当前选择的特殊APN仅适用于特定的电话卡。如果APN设置不正确，可能会导致拨号异常、网络连接失败以及其他通信问题。请仔细检查您的电话卡是否支持此APN。您确定需要切换到当前APN吗？",
+        "pin_code_tips": "PIN码长度为4-8位数字",
+        "sim_switch_title": "SIM卡切换",
+        "view_information_btn": "查看更多信息",
+        "information_title": "蜂窝网络信息",
+        "special_apns_tips": "请选择基于您SIM卡的实际情况为特定运营商提供的APN设置。"
     }
 }
