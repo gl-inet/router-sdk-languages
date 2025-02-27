@@ -69,6 +69,10 @@
         "link_method_label": "Connection Method",
         "server": "Server",
         "switch": "Switch",
-        "speed_limit_label": "Clients speed limit"
+        "speed_limit_label": "Clients speed limit",
+        "reserved_ip_tips": "When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router's DHCP server. You can assign reserved IP addresses to computers or servers that require permanent IP settings.",
+        "reserve_ip_only_ipv4_tips": "Only LAN segment IPv4 address reservation can be configured.",
+        "reserved_ip_label": "Reserved IP",
+        "next_connect_effect_tips": "The current configuration requires the next connection to take effect."
     }
 }
