@@ -337,5 +337,10 @@
         "connect_server_fail_msg": "从供应商服务器获取信息失败",
         "network_abnormal_msg": "网络可能异常",
         "api_limit_triggered_msg": "操作频繁，请稍后再试。"
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_tips": "将客户端添加到VPN策略基础的隧道列表中。如果您想对隧道进行更详细的更改，请前往{page}管理隧道。",
+        "use_vpn_tunnel_btn": "使用VPN隧道",
+        "traffic_origination_label": "隧道流量发起"
     }
 }
