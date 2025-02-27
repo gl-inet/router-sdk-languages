@@ -486,6 +486,7 @@
         "use_special_apn_warning_tips": "The special APN you are currently selecting is only available for specific phone cards. If the APN is not set correctly, it may cause dialing abnormalities, network connection failure and other communication problems. Please double check whether your phone card supports this APN. are you sure you need to switch to the current APN?",
         "pin_code_tips": "PIN code length 4-8 digits",
         "information_title": "Cellular Information",
-        "special_apns_tips": "For APNs provided by special operators, please choose according to the actual situation of your SIM card."
+        "special_apns_tips": "For APNs provided by special operators, please choose according to the actual situation of your SIM card.",
+        "pin_code_last_unlock_tips": "The SIM card has been locked and needs to be unlocked by PIN code, there is one last chance left to try to unlock it, if the unlocking fails, you need to use your phone to unlock it by entering the PUK code."
     }
 }
