@@ -467,6 +467,14 @@
         "reflash_warning_msg": "Bitte aktualisieren Sie die Seite nicht.",
         "lock_operation_mode_tip": "Die Funktion der Betreibersperre unterstützt drei Modi: automatisches Verbinden mit einem verfügbaren Betreibernetzwerk, manuelles Sperren auf einen bestimmten Betreiber oder automatisches Umschalten auf ein verfügbares Betreibernetzwerk, falls die manuelle Sperre fehlschlägt.",
         "scan_operator_warning_tips": "Das Scannen des Betreibers wird einige Minuten in Anspruch nehmen, und während dieser Zeit wird Ihre Netzwerkverbindung vorübergehend unterbrochen. Sind Sie sicher, dass Sie fortfahren möchten?",
-        "available_operator_title": "Verfügbare Betreiber"
+        "available_operator_title": "Verfügbare Betreiber",
+        "manual_lock_operator_label": "Bedienungsanleitung",
+        "manual_select_operator_tips": "Die aktuelle Betreiberliste dient nur zur Referenz. Sollte die manuelle Auswahl fehlschlagen, beziehen Sie sich bitte auf die Liste der vom aktuellen SIM-Karte unterstützten Betreiber oder konsultieren Sie den Kundendienst des Betreibers für genaue Informationen.",
+        "lock_operator_fail_msg": "Der aktuelle Betreiber ist gesperrt, aber aufgrund von Karten- oder Betreibereinschränkungen tatsächlich nicht verfügbar. Wenn Sie das Netzwerk wiederherstellen müssen, führen Sie bitte eine manuelle Entsperrungsoperation durch.",
+        "lock_operator_warning_tips": "Wenn der gesperrte Betreiber nicht mit der Bandmaskierung oder den APN-Parametern in den Mobilfunkeinstellungen übereinstimmt, wird die Mobilfunkschnittstelle keine Verbindung zum Internet herstellen können.",
+        "internet_info_title": "Internet",
+        "manual_auto_lock_operator_label": "Manuell-Automatisch",
+        "sim_info_title": "SIM-Karte",
+        "cell_info_title": "Zellen"
     }
 }
