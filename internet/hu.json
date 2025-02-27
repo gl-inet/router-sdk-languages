@@ -467,6 +467,14 @@
         "lock_operation_mode_label": "Zárolási mód",
         "lock_operation_mode_tip": "Az operátorzár funkció három módot támogat: automatikus csatlakozás egy elérhető operátori hálózathoz, kézi zárás egy adott operátorra, vagy automatikus váltás egy elérhető operátori hálózatra, ha a kézi zár nem sikerül.",
         "available_operator_title": "Elérhető operátorok",
-        "scan_operator_warning_tips": "Az operátor beolvasása néhány percet vesz igénybe, és ez idő alatt átmenetileg megszakad a hálózati kapcsolat. Biztosan folytatni szeretné?"
+        "scan_operator_warning_tips": "Az operátor beolvasása néhány percet vesz igénybe, és ez idő alatt átmenetileg megszakad a hálózati kapcsolat. Biztosan folytatni szeretné?",
+        "manual_lock_operator_label": "Kézikönyv",
+        "manual_select_operator_tips": "Az aktuális operátorlista csak tájékoztató jellegű. Ha a kézi kiválasztás nem sikerül, kérjük, tekintse meg az aktuális SIM-kártya által támogatott operátorok listáját, vagy forduljon az operátor ügyfélszolgálatához pontos információért.",
+        "lock_operator_fail_msg": "Az aktuális operátor zárolva van, de valójában nem érhető el kártya vagy operátori korlátozások miatt. Ha helyre szeretné állítani a hálózatot, kérjük, végezzen el egy kézi feloldási műveletet.",
+        "lock_operator_warning_tips": "Ha a zárolt operátor nem egyezik meg a mobil beállításokban megadott sávmaszkolási vagy APN paraméterekkel, akkor a mobil interfész nem lesz képes csatlakozni az internetre.",
+        "manual_auto_lock_operator_label": "Kézi-Automata",
+        "sim_info_title": "SIM-kártya",
+        "cell_info_title": "Sejtek",
+        "internet_info_title": "Internet"
     }
 }
