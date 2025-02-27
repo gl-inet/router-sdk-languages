@@ -488,6 +488,7 @@
         "information_title": "셀룰러 정보",
         "special_apns_tips": "특별한 운영자가 제공하는 APN은 귀하의 SIM 카드의 실제 상황에 따라 선택하십시오.",
         "pin_code_last_unlock_tips": "SIM 카드가 잠겨 있으며 PIN 코드를 입력하여 잠금을 해제해야 합니다. 마지막 기회가 남아 있으니 잠금 해제를 시도해 보십시오. 만약 실패한다면 PUK 코드를 입력하여 휴대폰으로 잠금 해제를 해야 합니다.",
-        "need_pin_code_tips": "SIM 카드가 잠겨 있으며 PIN 코드를 통해 잠금 해제해야 합니다. {count}번의 기회가 더 있습니다."
+        "need_pin_code_tips": "SIM 카드가 잠겨 있으며 PIN 코드를 통해 잠금 해제해야 합니다. {count}번의 기회가 더 있습니다.",
+        "pin_code_last_input_unlock_tips": "PIN 코드 {code}가 잘못되었습니다. 잠금을 해제할 마지막 기회가 남아 있습니다. 다시 실패하면 휴대폰을 사용하여 PUK 코드를 입력하여 잠금을 해제해야 합니다."
     }
 }
