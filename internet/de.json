@@ -457,6 +457,7 @@
         "disabled_sim_auto_switch_tips": "Die SIM wird bei Erreichen des Datenlimits nicht wechseln, da {handler} nicht aktiviert ist. Und die SIM wird deaktiviert, wenn das Datenlimit erreicht ist."
     },
     "cellular": {
-        "tower_locked_label": "{sim} Turm gesperrt"
+        "tower_locked_label": "{sim} Turm gesperrt",
+        "operator_locked_label": "{sim} Betreiber gesperrt"
     }
 }
