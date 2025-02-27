@@ -254,6 +254,9 @@
         "not_applicale_add_mac_only_tips": "La fuente de tráfico se basa únicamente en el dispositivo actual, por lo que el cliente no puede ser eliminado de este túnel VPN.",
         "all_clients_label": "Todos los Clientes",
         "exclude_device_label": "Excluir Dispositivos Especificados",
-        "start_title": "Configuración de VPN"
+        "start_title": "Configuración de VPN",
+        "start_tips": "Por favor, seleccione un Túnel para comenzar la configuración actual. Si desea seleccionar múltiples túneles, visite la {page} para su gestión.",
+        "stop_confirm_tips": "¿Está seguro de que desea detener esta configuración?",
+        "stop_tips": "Detener esta configuración deshabilitará todos los túneles que la utilizan. Para gestionar túneles individuales, por favor visite la {page}."
     }
 }
