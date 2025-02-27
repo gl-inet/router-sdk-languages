@@ -70,5 +70,8 @@
         "switch": "Cambiar",
         "speed_limit_label": "Límite de velocidad para clientes"
     },
-    "menu_clients": "Clientes"
+    "menu_clients": "Clientes",
+    "cellular": {
+        "pin_code_last_input_unlock_tips": "El código PIN {code} es incorrecto, queda un último intento para desbloquearlo, si vuelve a fallar, necesitará usar su teléfono para ingresar el código PUK y desbloquearlo."
+    }
 }
