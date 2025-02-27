@@ -337,5 +337,10 @@
         "connect_server_fail_msg": "get information from provider server failed",
         "network_abnormal_msg": "Network may be abnormal",
         "api_limit_triggered_msg": "Frequent operation, please try again later."
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_btn": "Use VPN Tunnel",
+        "use_vpn_tunnel_tips": "Add client to VPN policy based tunnel list. If you want to make more detailed changes to the tunnels, please go to the {page} to manage tunnels.",
+        "traffic_origination_label": "Tunnel Traffic Origination"
     }
 }
