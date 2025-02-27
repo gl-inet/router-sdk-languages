@@ -459,6 +459,7 @@
     "cellular": {
         "tower_locked_label": "{sim} Tour verrouillée",
         "operator_locked_label": "{sim} Verrouillé par l'opérateur",
-        "lock_operator_btn": "Opérateur de verrouillage"
+        "lock_operator_btn": "Opérateur de verrouillage",
+        "lock_tower_disabled_tip": "Étant donné que l'emplacement de carte actuel est verrouillé par l'opérateur, la fonction de verrouillage de l'emplacement de carte actuel sur la station de base est désactivée."
     }
 }
