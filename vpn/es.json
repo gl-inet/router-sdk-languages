@@ -337,5 +337,10 @@
         "connect_server_fail_msg": "Error al obtener información del servidor del proveedor",
         "network_abnormal_msg": "La Red puede estar experimentando problemas",
         "api_limit_triggered_msg": "Operación frecuente, por favor inténtelo de nuevo más tarde."
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_tips": "Agregue el cliente a la lista de túneles basada en políticas VPN. Si desea realizar cambios más detallados en los túneles, vaya a la {page} para gestionar los túneles.",
+        "use_vpn_tunnel_btn": "Utilice el túnel VPN",
+        "traffic_origination_label": "Origen del Tráfico del Túnel"
     }
 }
