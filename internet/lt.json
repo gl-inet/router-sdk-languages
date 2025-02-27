@@ -461,6 +461,10 @@
         "operator_locked_label": "{sim} Operatorius užblokavo",
         "lock_operator_btn": "Užrakto operatorius",
         "lock_tower_disabled_tip": "Kadangi dabartinis kortelių lizdas yra užrakintas operatoriui, dabartinio kortelių lizdo užraktas į bazinę stotį funkcija yra išjungta.",
-        "scan_tower_warning_tips": "Ar tai užtruks keletą minučių. Ar tikrai norite tęsti?"
+        "scan_tower_warning_tips": "Ar tai užtruks keletą minučių. Ar tikrai norite tęsti?",
+        "lock_tower_tips": "Nuskaitymas bazinių stočių gali greitai identifikuoti aukštos kokybės signalo šaltinius, kad užtikrintų stabilų ryšį. Užrakinimas į bazinę stotį reikalauja atitikimo tarp nešėjo ir įrenginio palaikomų dažnių juostų; priešingu atveju tai gali paveikti skambučių vykdymą. Prašome patvirtinti bazinės stoties informaciją, kad išvengtumėte galimų problemų.",
+        "reflash_warning_msg": "Neatnaujinkite puslapio.",
+        "lock_operation_mode_label": "Užrakinimo veiksena",
+        "lock_operation_mode_tip": "Operatoriaus užrakto funkcija palaiko tris režimus: automatinį prisijungimą prie prieinamo operatoriaus tinklo, rankinį užraktą į konkretų operatorių arba automatinį perjungimą į prieinamą operatoriaus tinklą, jei rankinis užraktas nepavyksta."
     }
 }
