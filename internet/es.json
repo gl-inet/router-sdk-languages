@@ -467,6 +467,14 @@
         "reflash_warning_msg": "No actualice la página.",
         "lock_operation_mode_tip": "La función de bloqueo del operador admite tres modos: conexión automática a una red de operador disponible, bloqueo manual a un operador específico o cambio automático a una red de operador disponible si el bloqueo manual falla.",
         "scan_operator_warning_tips": "El escaneo del operador tomará unos minutos y perderá temporalmente su conexión de red durante este tiempo. ¿Está seguro de que desea continuar?",
-        "available_operator_title": "Operadores Disponibles"
+        "available_operator_title": "Operadores Disponibles",
+        "manual_select_operator_tips": "La lista actual de operadores es solo para referencia. Si la selección manual falla, consulte la lista de operadores compatibles con la tarjeta SIM actual o comuníquese con el servicio al cliente del operador para obtener información precisa.",
+        "lock_operator_fail_msg": "El operador actual está bloqueado, pero en realidad no está disponible debido a restricciones de la tarjeta o del operador, si necesita restaurar la red, por favor realice una operación de desbloqueo manual.",
+        "lock_operator_warning_tips": "Si el operador bloqueado no coincide con la configuración de la máscara de banda o los parámetros APN en los ajustes móviles, la interfaz móvil no podrá conectarse a Internet.",
+        "internet_info_title": "Internet",
+        "manual_lock_operator_label": "Manual de usuario",
+        "manual_auto_lock_operator_label": "Manual-Auto",
+        "sim_info_title": "Tarjeta SIM",
+        "cell_info_title": "Células"
     }
 }
