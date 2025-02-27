@@ -206,7 +206,8 @@
         "setp_label": "Крок {num} :",
         "join_btn": "Приєднатися",
         "search": "Пошук",
-        "scan_btn": "Сканувати"
+        "scan_btn": "Сканувати",
+        "revoke_btn": "Відкликати"
     },
     "msg": {
         "access_denied": "Недійсний користувач, доступ заборонено або не виконано вхід!",
@@ -244,5 +245,15 @@
         "only_allowd_input_tips": "Введення дозволяється лише до {limit}.",
         "only_num_letter_symbol_tips": "Лише літери, цифри та символи {symbol} дозволені.",
         "min_max_length_tips": "{min} - {max} символів."
+    },
+    "vpn_tunnel": {
+        "not_applicale_add_mac_mode_tips": "Джерело трафіку не базується на вказаних пристроях або не включає вказані пристрої, тому клієнт не може бути доданий до цього VPN-тунелю.",
+        "device_label": "Вказані пристрої",
+        "not_applicale_add_mac_label": "Не застосовно",
+        "not_applicale_add_mac_only_tips": "Джерело трафіку базується виключно на поточному пристрої, тому клієнт не може бути вилучений з цього VPN-тунелю.",
+        "all_clients_label": "Усі клієнти",
+        "connect_methods_label": "Визначені методи підключення",
+        "exclude_device_label": "Виключити Вказані Пристрої",
+        "start_title": "Запустити налаштування VPN"
     }
 }
