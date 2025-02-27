@@ -490,5 +490,8 @@
         "pin_code_last_unlock_tips": "SIM卡已锁定，需要通过PIN码解锁，只剩最后一次尝试机会，如果解锁失败，您需要使用手机输入PUK码来解锁。",
         "need_pin_code_tips": "SIM卡已锁定，需要通过PIN码解锁，还有{count}次机会。",
         "pin_code_last_input_unlock_tips": "PIN码{code}不正确，这是最后一次尝试解锁的机会，如果再次解锁失败，您需要使用手机输入PUK码进行解锁。"
+    },
+    "sim": {
+        "sender_label": "发件人"
     }
 }
