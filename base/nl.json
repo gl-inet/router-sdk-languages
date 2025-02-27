@@ -116,7 +116,8 @@
         "setp_label": "Stap {num} :",
         "join_btn": "Aansluiten",
         "search": "Zoeken",
-        "scan_btn": "Scannen"
+        "scan_btn": "Scannen",
+        "revoke_btn": "Intrekken"
     },
     "msg": {
         "success": "Toegepast!",
@@ -244,5 +245,15 @@
         "only_allowd_input_tips": "Er mag slechts {limit} worden ingevoerd.",
         "only_num_letter_symbol_tips": "Alleen letters, cijfers en symbolen {symbol} zijn toegestaan.",
         "min_max_length_tips": "{min} - {max} tekens."
+    },
+    "vpn_tunnel": {
+        "not_applicale_add_mac_mode_tips": "De verkeersbron is niet gebaseerd op Gespecificeerde Apparaten of Uitsluiten van Gespecificeerde Apparaten, dus de client kan niet aan deze VPN-tunnel worden toegevoegd.",
+        "device_label": "Specifieke Apparaten",
+        "connect_methods_label": "Gespecificeerde Verbindingsmethoden",
+        "not_applicale_add_mac_label": "Niet van toepassing",
+        "not_applicale_add_mac_only_tips": "De verkeersbron is uitsluitend gebaseerd op het huidige apparaat, dus de client kan niet uit deze VPN-tunnel worden verwijderd.",
+        "all_clients_label": "Alle Klanten",
+        "exclude_device_label": "Uitgesloten Apparaten",
+        "start_title": "VPN-configuratie starten"
     }
 }
