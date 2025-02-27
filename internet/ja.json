@@ -455,5 +455,8 @@
         "sim_threshold_dual_tips": "現在の{currentSim}データキャップ量が設定され、SIMカードスロット{handler}が有効になっている場合、データがデータキャップ量を超えると{currentSim}は自動的に{otherSim}に切り替わり、{currentSim}は無効になります。",
         "disabled_sim_auto_switch_tips": "SIMカードはデータ上限に達しても{handler}が有効になっていないため切り替わりません。また、データ上限に達するとSIMカードは無効になります。",
         "enabled_sim_auto_switch_tips": "SIMカードはデータ上限に達した時に切り替わります。"
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} タワーがロックされました"
     }
 }
