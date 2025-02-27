@@ -461,6 +461,11 @@
         "operator_locked_label": "{sim} Bloqueado por el operador",
         "lock_operator_btn": "Operador de Bloqueo",
         "lock_tower_disabled_tip": "Debido a que la ranura de tarjeta actual está bloqueada por el operador, la función de bloqueo de la ranura de tarjeta actual a la estación base está desactivada.",
-        "scan_tower_warning_tips": "¿Está seguro de que desea continuar? Tomará unos minutos escanear la torre."
+        "scan_tower_warning_tips": "¿Está seguro de que desea continuar? Tomará unos minutos escanear la torre.",
+        "lock_operation_mode_label": "Modo de bloqueo",
+        "lock_tower_tips": "El escaneo de estaciones base puede identificar rápidamente fuentes de señal de alta calidad para asegurar una comunicación estable. Bloquear una estación base requiere que coincida el operador y las bandas de frecuencia soportadas por el dispositivo; de lo contrario, puede afectar el marcado. Por favor, confirme la información de la estación base para evitar posibles problemas.",
+        "reflash_warning_msg": "No actualice la página.",
+        "lock_operation_mode_tip": "La función de bloqueo del operador admite tres modos: conexión automática a una red de operador disponible, bloqueo manual a un operador específico o cambio automático a una red de operador disponible si el bloqueo manual falla.",
+        "scan_operator_warning_tips": "El escaneo del operador tomará unos minutos y perderá temporalmente su conexión de red durante este tiempo. ¿Está seguro de que desea continuar?  "
     }
 }
