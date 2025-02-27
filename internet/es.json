@@ -92,7 +92,8 @@
         "quit_btn": "Salir del Modo de Inicio de Sesión",
         "entry_again_tips": "Si vuelve a ingresar dentro de los 10 segundos, se extraerá directamente del caché en lugar de volver a escanear.",
         "unable_scan_channel_tips": "Al viajar a través del país, puede que no sea posible escanear Wi-Fi en ciertos canales debido a razones regulatorias.",
-        "scan_wifi_fail_detection_channel_tips": "El dispositivo está escaneando actualmente para encontrar el canal óptimo, la búsqueda de Wi-Fi no está disponible durante este proceso. Por favor, espere pacientemente a que se complete el escaneo."
+        "scan_wifi_fail_detection_channel_tips": "El dispositivo está escaneando actualmente para encontrar el canal óptimo, la búsqueda de Wi-Fi no está disponible durante este proceso. Por favor, espere pacientemente a que se complete el escaneo.",
+        "cannot_find_ssid": "¿No encuentra su SSID?"
     },
     "modem": {
         "title": "Móvil",
@@ -475,6 +476,16 @@
         "manual_lock_operator_label": "Manual de usuario",
         "manual_auto_lock_operator_label": "Manual-Auto",
         "sim_info_title": "Tarjeta SIM",
-        "cell_info_title": "Células"
+        "cell_info_title": "Células",
+        "set_sim_config_warning_tips": "Cambiar la configuración resultará en un nuevo marcado.",
+        "not_use_special_label": "No utilizar",
+        "sim_settings_title": "Configuración de la tarjeta SIM",
+        "special_apns_label": "APN Especiales",
+        "view_information_btn": "Ver más información",
+        "pin_code_tips": "Longitud del código PIN de 4 a 8 dígitos",
+        "use_special_apn_warning_tips": "El APN especial que está seleccionando actualmente solo está disponible para tarjetas telefónicas específicas. Si el APN no se configura correctamente, puede causar anomalías en la marcación, fallas en la conexión de red y otros problemas de comunicación. Por favor, verifique nuevamente si su tarjeta telefónica es compatible con este APN. ¿Está seguro de que necesita cambiar al APN actual?",
+        "sim_switch_title": "Cambio de Tarjeta SIM",
+        "information_title": "Información móvil",
+        "special_apns_tips": "Por favor, seleccione la configuración de APN proporcionada para operadores específicos basándose en la situación real de su tarjeta SIM."
     }
 }
