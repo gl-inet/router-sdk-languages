@@ -337,5 +337,10 @@
         "password_too_short_msg": "le mot de passe doit comporter au moins 8 caractères",
         "network_abnormal_msg": "Le réseau peut être anormal",
         "api_limit_triggered_msg": "Opération fréquente, veuillez réessayer plus tard."
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_tips": "Ajoutez un client à la liste des tunnels basés sur la politique VPN. Si vous souhaitez apporter des modifications plus détaillées aux tunnels, veuillez vous rendre sur la {page} pour gérer les tunnels.",
+        "use_vpn_tunnel_btn": "Utilisez le tunnel VPN",
+        "traffic_origination_label": "Origine du Trafic du Tunnel"
     }
 }
