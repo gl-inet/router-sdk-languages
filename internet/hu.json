@@ -461,6 +461,10 @@
         "operator_locked_label": "{sim} Operátor által lezárva",
         "lock_operator_btn": "Zároló Operátor",
         "lock_tower_disabled_tip": "Mivel a jelenlegi kártyafoglalat az operátorhoz van zárva, a jelenlegi kártyafoglalatot a bázisállomáshoz záró funkció le van tiltva.",
-        "scan_tower_warning_tips": "Néhány percet vesz igénybe a torony beolvasása. Biztosan folytatni szeretné?"
+        "scan_tower_warning_tips": "Néhány percet vesz igénybe a torony beolvasása. Biztosan folytatni szeretné?",
+        "lock_tower_tips": "Az alapállomások pásztázása gyorsan azonosítja a magas minőségű jelforrásokat a stabil kommunikáció biztosítása érdekében. Egy alapállomásra való rögzítéshez össze kell hangolni a hordozót és az eszköz által támogatott frekvenciasávokat; ellenkező esetben ez befolyásolhatja a tárcsázást. Kérjük, ellenőrizze az alapállomás információit a lehetséges problémák elkerülése érdekében.",
+        "reflash_warning_msg": "Ne frissítse az oldalt.",
+        "lock_operation_mode_label": "Zárolási mód",
+        "lock_operation_mode_tip": "Az operátorzár funkció három módot támogat: automatikus csatlakozás egy elérhető operátori hálózathoz, kézi zárás egy adott operátorra, vagy automatikus váltás egy elérhető operátori hálózatra, ha a kézi zár nem sikerül."
     }
 }
