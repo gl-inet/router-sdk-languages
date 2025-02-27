@@ -455,5 +455,8 @@
         "sim_threshold_dual_tips": "Jeśli ustawiono limit danych dla {currentSim} i włączono slot karty SIM {handler}, {currentSim} automatycznie przełączy się na {otherSim}, gdy przekroczy ustawiony limit danych, a {currentSim} zostanie wyłączony.",
         "disabled_sim_auto_switch_tips": "SIM nie przełączy się po osiągnięciu limitu danych, ponieważ {handler} nie jest włączony. Po osiągnięciu limitu danych, karta SIM zostanie wyłączona.",
         "enabled_sim_auto_switch_tips": "Po osiągnięciu limitu danych nastąpi zmiana karty SIM."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Wieża zablokowana"
     }
 }
