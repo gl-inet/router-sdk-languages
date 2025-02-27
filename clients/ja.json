@@ -68,7 +68,11 @@
         "details_title": "クライアント詳細",
         "server": "サーバー",
         "switch": "スイッチ",
-        "speed_limit_label": "クライアントの速度制限"
+        "speed_limit_label": "クライアントの速度制限",
+        "reserved_ip_tips": "クライアントにLAN内で予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに同じIPアドレスを受け取ります。永続的なIP設定が必要なコンピューターやサーバーに予約IPアドレスを割り当てることができます。",
+        "reserved_ip_label": "予約済みIP",
+        "next_connect_effect_tips": "現在の設定は、次の接続が有効になるまで適用されます。",
+        "reserve_ip_only_ipv4_tips": "IPv4アドレスの予約はLANセグメントのみで設定できます。"
     },
     "menu_clients": "クライアント"
 }
