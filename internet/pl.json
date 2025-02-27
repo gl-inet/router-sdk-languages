@@ -57,7 +57,8 @@
         "lock_bssid_tips": "Jeśli ta opcja jest włączona, router będzie łączył się tylko z AP odpowiadającym wybranemu BSSID, gdy przełącza się na sieć z tym SSID.",
         "entry_again_tips": "Jeśli ponownie wejdziesz w ciągu 10 sekund, zostanie użyta pamięć podręczna zamiast ponownego skanowania.",
         "unable_scan_channel_tips": "Podczas podróży międzykrajowej może nie być możliwe skanowanie Wi-Fi na niektórych kanałach z powodów regulacyjnych.",
-        "scan_wifi_fail_detection_channel_tips": "Urządzenie obecnie skanuje w poszukiwaniu optymalnego kanału, skanowanie Wi-Fi jest niedostępne podczas tego procesu. Proszę cierpliwie czekać na zakończenie skanowania."
+        "scan_wifi_fail_detection_channel_tips": "Urządzenie obecnie skanuje w poszukiwaniu optymalnego kanału, skanowanie Wi-Fi jest niedostępne podczas tego procesu. Proszę cierpliwie czekać na zakończenie skanowania.",
+        "cannot_find_ssid": "Nie możesz znaleźć swojego SSID?"
     },
     "cable": {
         "title": "Ethernet",
@@ -475,6 +476,16 @@
         "manual_auto_lock_operator_label": "Ręczny-Automatyczny",
         "sim_info_title": "Karta SIM",
         "internet_info_title": "Internet",
-        "cell_info_title": "Komórki"
+        "cell_info_title": "Komórki",
+        "set_sim_config_warning_tips": "Zmiana konfiguracji spowoduje ponowne wybieranie numeru.",
+        "sim_settings_title": "Ustawienia karty SIM",
+        "not_use_special_label": "Nie używać",
+        "special_apns_label": "Specjalne APN-uri",
+        "use_special_apn_warning_tips": "Aktualnie wybrany specjalny APN jest dostępny tylko dla określonych kart telefonicznych. Jeśli APN nie jest ustawiony poprawnie, może to spowodować nieprawidłowości w wybieraniu numerów, awarie połączenia sieciowego oraz inne problemy komunikacyjne. Proszę dwukrotnie sprawdzić, czy Państwa karta telefoniczna obsługuje ten APN. Czy na pewno chcą Państwo przełączyć się na bieżący APN?",
+        "pin_code_tips": "Długość kodu PIN 4-8 cyfr",
+        "sim_switch_title": "Przełącznik karty SIM",
+        "view_information_btn": "Zobacz więcej informacji",
+        "information_title": "Informacje o sieci komórkowej",
+        "special_apns_tips": "Proszę wybrać ustawienia APN dostarczone dla konkretnych operatorów, w oparciu o rzeczywistą sytuację związaną z kartą SIM."
     }
 }
