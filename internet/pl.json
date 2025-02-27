@@ -461,6 +461,10 @@
         "operator_locked_label": "{sim} Zablokowany przez operatora",
         "lock_operator_btn": "Operator blokady",
         "lock_tower_disabled_tip": "Ponieważ obecny slot karty jest zablokowany dla operatora, funkcja blokady slotu karty do stacji bazowej jest wyłączona.",
-        "scan_tower_warning_tips": "Potrzeba kilku minut na przeskanowanie wieży. Czy na pewno chcesz kontynuować?"
+        "scan_tower_warning_tips": "Potrzeba kilku minut na przeskanowanie wieży. Czy na pewno chcesz kontynuować?",
+        "lock_tower_tips": "Skanowanie stacji bazowych może szybko zidentyfikować źródła sygnału wysokiej jakości, aby zapewnić stabilną komunikację. Zablokowanie na stacji bazowej wymaga dopasowania operatora i obsługiwanych przez urządzenie pasm częstotliwości; w przeciwnym razie może to wpłynąć na wybieranie numerów. Proszę potwierdzić informacje o stacji bazowej, aby uniknąć potencjalnych problemów.",
+        "reflash_warning_msg": "Nie odświeżaj strony.",
+        "lock_operation_mode_label": "Tryb blokady",
+        "lock_operation_mode_tip": "Funkcja blokady operatora obsługuje trzy tryby: automatyczne łączenie się z dostępną siecią operatora, ręczne blokowanie określonego operatora lub automatyczne przełączanie się na dostępną sieć operatora, jeśli ręczne blokowanie nie powiedzie się."
     }
 }
