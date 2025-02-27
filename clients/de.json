@@ -68,7 +68,11 @@
         "details_title": "Client Details",
         "server": "Server",
         "switch": "Schalter",
-        "speed_limit_label": "Kundengeschwindigkeitsbegrenzung"
+        "speed_limit_label": "Kundengeschwindigkeitsbegrenzung",
+        "reserved_ip_tips": "Wenn Sie innerhalb des LANs eine reservierte IP-Adresse für einen Client festlegen, erhält der Client jedes Mal dieselbe IP-Adresse, wenn er auf den DHCP-Server des Routers zugreift. Sie können reservierte IP-Adressen Computern oder Servern zuweisen, die permanente IP-Einstellungen benötigen.",
+        "reserve_ip_only_ipv4_tips": "Es können nur IPv4-Adressreservierungen für das LAN-Segment konfiguriert werden.",
+        "reserved_ip_label": "Reservierte IP",
+        "next_connect_effect_tips": "Die aktuelle Konfiguration erfordert, dass die nächste Verbindung wirksam wird."
     },
     "menu_clients": "Clients"
 }
