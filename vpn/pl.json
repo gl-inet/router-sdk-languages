@@ -337,5 +337,10 @@
         "port_be_used_msg": "port jest już zajęty",
         "network_abnormal_msg": "Sieć może być niestabilna.",
         "api_limit_triggered_msg": "Częste operacje, proszę spróbować ponownie później."
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_tips": "Dodaj klienta do listy tuneli zasad polityki VPN. Jeśli chcesz dokonać bardziej szczegółowych zmian w tunelach, przejdź do {page}, aby zarządzać tunelami.",
+        "use_vpn_tunnel_btn": "Użyj tunelu VPN",
+        "traffic_origination_label": "Pochodzenie Ruchu w Tunelu"
     }
 }
