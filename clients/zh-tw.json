@@ -68,7 +68,11 @@
         "details_title": "客戶端詳情",
         "server": "伺服器",
         "switch": "交換機",
-        "speed_limit_label": "客戶端速度限制"
+        "speed_limit_label": "客戶端速度限制",
+        "reserved_ip_label": "保留 IP",
+        "reserved_ip_tips": "當您為區域網路(LAN)內的客戶端指定一個保留的IP地址時，該客戶端每次訪問路由器的DHCP伺服器時都會收到相同的IP地址。您可以為需要固定IP設置的電腦或伺服器分配保留IP地址。",
+        "next_connect_effect_tips": "當前配置需要下一次連接才能生效。",
+        "reserve_ip_only_ipv4_tips": "只能配置局域網段IPv4地址保留。"
     },
     "menu_clients": "客戶端"
 }
