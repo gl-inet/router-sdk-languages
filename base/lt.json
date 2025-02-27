@@ -116,7 +116,8 @@
         "setp_label": "{num} žingsnis:",
         "join_btn": "Prisijungti",
         "search": "Paieška",
-        "scan_btn": "Skenavimas"
+        "scan_btn": "Skenavimas",
+        "revoke_btn": "Atšaukti"
     },
     "msg": {
         "being_process": "Apdorojama, prašome palaukti…",
@@ -244,5 +245,15 @@
         "only_allowd_input_tips": "Leidžiama įvesti tik – {limit}.",
         "only_num_letter_symbol_tips": "Leidžiamos tik raidės, skaičiai ir rašmenys: {symbol}.",
         "min_max_length_tips": "{min} - {max} rašmenų."
+    },
+    "vpn_tunnel": {
+        "not_applicale_add_mac_mode_tips": "Šaltinis nėra pagrįstas nurodytais įrenginiais arba neįtraukti nurodyti įrenginiai, todėl klientas negali būti pridėtas prie šio „VPN“ tunelio.",
+        "device_label": "Nurodyti įrenginiai",
+        "connect_methods_label": "Nurodyti ryšio būdai",
+        "not_applicale_add_mac_label": "Netaikoma",
+        "not_applicale_add_mac_only_tips": "Šio VPN tunelio srauto šaltinis yra pagrįstas tik esamu įrenginiu, todėl klientas negali būti pašalintas iš šio VPN tunelio.",
+        "all_clients_label": "Visi klientai",
+        "exclude_device_label": "Neįtraukti nurodytų įrenginių",
+        "start_title": "Pradėti VPN konfigūraciją"
     }
 }
