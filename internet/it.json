@@ -467,6 +467,14 @@
         "lock_operation_mode_label": "Modalità di Blocco",
         "lock_operation_mode_tip": "La funzione di blocco operatore supporta tre modalità: connessione automatica a una rete operatore disponibile, blocco manuale su un operatore specifico o passaggio automatico a una rete operatore disponibile in caso di fallimento del blocco manuale.",
         "available_operator_title": "Operatori Disponibili",
-        "scan_operator_warning_tips": "La scansione dell'operatore richiederà alcuni minuti e durante questo tempo perderai temporaneamente la connessione di rete. Sei sicuro di voler continuare?"
+        "scan_operator_warning_tips": "La scansione dell'operatore richiederà alcuni minuti e durante questo tempo perderai temporaneamente la connessione di rete. Sei sicuro di voler continuare?",
+        "manual_lock_operator_label": "Manuale",
+        "manual_select_operator_tips": "L'elenco degli operatori attuali è fornito solo a scopo di riferimento. Se la selezione manuale non riesce, si prega di fare riferimento all'elenco degli operatori supportati dalla SIM card corrente, oppure consultare il servizio clienti dell'operatore per informazioni accurate.",
+        "lock_operator_fail_msg": "L'operatore attuale è bloccato, ma in realtà non disponibile a causa di restrizioni della carta o dell'operatore; se è necessario ripristinare la rete, si prega di eseguire un'operazione di sblocco manuale.",
+        "lock_operator_warning_tips": "Se l'operatore bloccato non corrisponde alla mascheratura della banda o ai parametri APN nelle impostazioni cellulari, l'interfaccia cellulare non sarà in grado di connettersi a Internet.",
+        "manual_auto_lock_operator_label": "Manuale-Automatico",
+        "sim_info_title": "Scheda SIM",
+        "cell_info_title": "Cellule",
+        "internet_info_title": "Internet"
     }
 }
