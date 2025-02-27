@@ -461,6 +461,10 @@
         "operator_locked_label": "{sim} Verrouillé par l'opérateur",
         "lock_operator_btn": "Opérateur de verrouillage",
         "lock_tower_disabled_tip": "Étant donné que l'emplacement de carte actuel est verrouillé par l'opérateur, la fonction de verrouillage de l'emplacement de carte actuel sur la station de base est désactivée.",
-        "scan_tower_warning_tips": "Cela prendra quelques minutes pour scanner la tour. Êtes-vous sûr de vouloir continuer ?"
+        "scan_tower_warning_tips": "Cela prendra quelques minutes pour scanner la tour. Êtes-vous sûr de vouloir continuer ?",
+        "lock_tower_tips": "La numérisation des stations de base peut rapidement identifier des sources de signal de haute qualité pour garantir une communication stable. Se verrouiller sur une station de base nécessite de correspondre au transporteur et aux bandes de fréquences prises en charge par l'appareil ; sinon, cela peut affecter la numérotation. Veuillez confirmer les informations de la station de base pour éviter d'éventuels problèmes.",
+        "reflash_warning_msg": "Ne rafraîchissez pas la page.",
+        "lock_operation_mode_label": "Mode Verrouillage",
+        "lock_operation_mode_tip": "La fonction de verrouillage de l'opérateur prend en charge trois modes : connexion automatique à un réseau d'opérateur disponible, verrouillage manuel sur un opérateur spécifique ou basculement automatique vers un réseau d'opérateur disponible si le verrouillage manuel échoue."
     }
 }
