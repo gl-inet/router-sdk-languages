@@ -461,6 +461,11 @@
         "operator_locked_label": "{sim} Betreiber gesperrt",
         "lock_operator_btn": "Bediener sperren",
         "lock_tower_disabled_tip": "Da der aktuelle Kartenschlitz an den Betreiber gesperrt ist, ist die Funktion, die den aktuellen Kartenschlitz an die Basisstation sperrt, deaktiviert.",
-        "scan_tower_warning_tips": "Es wird einige Minuten dauern, den Turm zu scannen. Sind Sie sicher, dass Sie fortfahren möchten?"
+        "scan_tower_warning_tips": "Es wird einige Minuten dauern, den Turm zu scannen. Sind Sie sicher, dass Sie fortfahren möchten?",
+        "lock_operation_mode_label": "Sperrmodus",
+        "lock_tower_tips": "Das Scannen von Basisstationen kann schnell hochwertige Signalquellen identifizieren, um eine stabile Kommunikation zu gewährleisten. Das Einrasten auf eine Basisstation erfordert die Übereinstimmung des Trägers und der vom Gerät unterstützten Frequenzbänder; andernfalls kann dies das Wählen beeinträchtigen. Bitte bestätigen Sie die Informationen der Basisstation, um mögliche Probleme zu vermeiden.",
+        "reflash_warning_msg": "Bitte aktualisieren Sie die Seite nicht.",
+        "lock_operation_mode_tip": "Die Funktion der Betreibersperre unterstützt drei Modi: automatisches Verbinden mit einem verfügbaren Betreibernetzwerk, manuelles Sperren auf einen bestimmten Betreiber oder automatisches Umschalten auf ein verfügbares Betreibernetzwerk, falls die manuelle Sperre fehlschlägt.",
+        "scan_operator_warning_tips": "Das Scannen des Betreibers wird einige Minuten in Anspruch nehmen, und während dieser Zeit wird Ihre Netzwerkverbindung vorübergehend unterbrochen. Sind Sie sicher, dass Sie fortfahren möchten?  "
     }
 }
