@@ -467,6 +467,14 @@
         "lock_operation_mode_label": "Vergrendelingsmodus",
         "lock_operation_mode_tip": "De functie voor operatorvergrendeling ondersteunt drie modi: automatisch verbinden met een beschikbaar operatornetwerk, handmatig vergrendelen op een specifieke operator, of automatisch overschakelen naar een beschikbaar operatornetwerk als de handmatige vergrendeling mislukt.",
         "available_operator_title": "Beschikbare Operatoren",
-        "scan_operator_warning_tips": "Het scannen van de operator duurt enkele minuten, en u zult tijdelijk uw netwerkverbinding verliezen gedurende deze tijd. Weet u zeker dat u wilt doorgaan?"
+        "scan_operator_warning_tips": "Het scannen van de operator duurt enkele minuten, en u zult tijdelijk uw netwerkverbinding verliezen gedurende deze tijd. Weet u zeker dat u wilt doorgaan?",
+        "manual_lock_operator_label": "Handleiding",
+        "manual_select_operator_tips": "De huidige lijst van operators is slechts ter referentie. Als handmatige selectie niet lukt, raadpleeg dan de lijst van door de huidige SIM-kaart ondersteunde operators, of neem contact op met de klantenservice van de operator voor nauwkeurige informatie.",
+        "lock_operator_fail_msg": "De huidige operator is vergrendeld, maar feitelijk niet beschikbaar vanwege kaart- of operatorbeperkingen. Als u het netwerk wilt herstellen, voer dan een handmatige ontgrendelingsoperatie uit.",
+        "lock_operator_warning_tips": "Als de vergrendelde operator niet overeenkomt met de bandmaskering of APN-parameters in de mobiele instellingen, zal de mobiele interface geen verbinding kunnen maken met het internet.",
+        "manual_auto_lock_operator_label": "Handmatig-Automatisch",
+        "sim_info_title": "SIM-kaart",
+        "internet_info_title": "Internet",
+        "cell_info_title": "Cellen"
     }
 }
