@@ -459,6 +459,7 @@
     "cellular": {
         "tower_locked_label": "{sim} Torre bloqueada",
         "operator_locked_label": "{sim} Bloqueado por el operador",
-        "lock_operator_btn": "Operador de Bloqueo"
+        "lock_operator_btn": "Operador de Bloqueo",
+        "lock_tower_disabled_tip": "Debido a que la ranura de tarjeta actual está bloqueada por el operador, la función de bloqueo de la ranura de tarjeta actual a la estación base está desactivada."
     }
 }
