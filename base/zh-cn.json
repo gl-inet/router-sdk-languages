@@ -254,6 +254,9 @@
         "all_clients_label": "所有客户端",
         "connect_methods_label": "指定连接方式",
         "exclude_device_label": "排除指定设备",
-        "start_title": "启动VPN配置"
+        "start_title": "启动VPN配置",
+        "start_tips": "请选择一个隧道以开始当前配置。如果您希望选择多个隧道，请访问{page}进行管理。",
+        "stop_confirm_tips": "您确定要停止此配置吗？",
+        "stop_tips": "停止此配置将禁用使用它的所有隧道。要管理单个隧道，请访问{page}。"
     }
 }
