@@ -68,7 +68,11 @@
         "link_method_label": "连接方式",
         "server": "服务器",
         "switch": "交换机",
-        "speed_limit_label": "客户端速度限制"
+        "speed_limit_label": "客户端速度限制",
+        "reserved_ip_tips": "当您为局域网内的客户端指定一个保留IP地址时，该客户端每次访问路由器的DHCP服务器时都会收到相同的IP地址。您可以为需要永久IP设置的计算机或服务器分配保留IP地址。",
+        "reserved_ip_label": "保留IP",
+        "next_connect_effect_tips": "当前配置需要下一次连接才能生效。",
+        "reserve_ip_only_ipv4_tips": "只能配置局域网段IPv4地址预留。"
     },
     "menu_clients": "客户端"
 }
