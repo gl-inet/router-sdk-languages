@@ -337,5 +337,10 @@
         "register_account_fail_msg": "새 계정 등록에 실패했습니다",
         "network_abnormal_msg": "网络可能异常",
         "api_limit_triggered_msg": "정확한 NordVPN 사용자 이름과 비밀번호"
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_tips": "VPN 정책 기반 터널 목록에 클라이언트를 추가하십시오. 터널에 대한 더 자세한 변경을 하고 싶다면 {page}로 이동하여 터널을 관리하십시오.",
+        "use_vpn_tunnel_btn": "VPN 터널 사용",
+        "traffic_origination_label": "터널 트래픽 발생"
     }
 }
