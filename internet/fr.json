@@ -92,7 +92,8 @@
         "cannot_accessed_portal_url_tips": "Si vous ne pouvez pas accéder à la page de connexion, essayez de désactiver les autres connexions Internet (par exemple, ethernet, connexion mobile).",
         "entry_again_tips": "Si vous vous reconnectez dans les 10 secondes, cela tirera directement du cache au lieu de relancer une analyse.",
         "unable_scan_channel_tips": "Lors de voyages dans plusieurs pays, il se peut qu'il ne soit pas possible de scanner les réseaux Wi-Fi sur certains canaux pour des raisons réglementaires.",
-        "scan_wifi_fail_detection_channel_tips": "L'appareil effectue actuellement une analyse pour trouver le canal optimal, la recherche Wi-Fi n'est pas disponible pendant ce processus, veuillez patienter jusqu'à la fin de l'analyse."
+        "scan_wifi_fail_detection_channel_tips": "L'appareil effectue actuellement une analyse pour trouver le canal optimal, la recherche Wi-Fi n'est pas disponible pendant ce processus, veuillez patienter jusqu'à la fin de l'analyse.",
+        "cannot_find_ssid": "Vous ne trouvez pas votre SSID ?"
     },
     "modem": {
         "title": "Cellulaire",
@@ -475,6 +476,16 @@
         "internet_info_title": "internet",
         "manual_auto_lock_operator_label": "Manuel-Automatique",
         "sim_info_title": "Carte SIM",
-        "cell_info_title": "Cellules"
+        "cell_info_title": "Cellules",
+        "sim_settings_title": "Paramètres de la carte SIM",
+        "set_sim_config_warning_tips": "La modification de la configuration entraînera une recomposition.",
+        "not_use_special_label": "Ne pas utiliser",
+        "special_apns_label": "APN spéciaux",
+        "view_information_btn": "Afficher plus d'informations",
+        "use_special_apn_warning_tips": "L'APN spécial que vous sélectionnez actuellement n'est disponible que pour certaines cartes téléphoniques. Si l'APN n'est pas correctement configuré, cela peut entraîner des anomalies de numérotation, des échecs de connexion réseau et d'autres problèmes de communication. Veuillez vérifier à nouveau si votre carte téléphonique prend en charge cet APN. Êtes-vous sûr de vouloir basculer vers l'APN actuel ?",
+        "pin_code_tips": "Longueur du code PIN de 4 à 8 chiffres",
+        "sim_switch_title": "Commutateur de carte SIM",
+        "information_title": "Informations sur la connexion mobile",
+        "special_apns_tips": "Veuillez sélectionner les paramètres APN fournis pour les opérateurs spécifiques en fonction de la situation réelle de votre carte SIM."
     }
 }
