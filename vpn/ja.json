@@ -337,5 +337,10 @@
         "password_too_short_msg": "パスワードは少なくとも8文字でなければなりません",
         "network_abnormal_msg": "ネットワークが異常かもしれません",
         "api_limit_triggered_msg": "頻繁な操作です。後ほど再試行してください。"
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_tips": "VPNポリシーベースのトンネルリストにクライアントを追加してください。トンネルに対してより詳細な変更を行いたい場合は、{page}にアクセスしてトンネルを管理してください。",
+        "use_vpn_tunnel_btn": "VPNトンネルを使用する",
+        "traffic_origination_label": "トンネルトラフィック発信"
     }
 }
