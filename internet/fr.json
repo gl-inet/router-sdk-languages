@@ -467,6 +467,14 @@
         "lock_operation_mode_label": "Mode Verrouillage",
         "lock_operation_mode_tip": "La fonction de verrouillage de l'opérateur prend en charge trois modes : connexion automatique à un réseau d'opérateur disponible, verrouillage manuel sur un opérateur spécifique ou basculement automatique vers un réseau d'opérateur disponible si le verrouillage manuel échoue.",
         "available_operator_title": "Opérateurs disponibles",
-        "scan_operator_warning_tips": "L'analyse de l'opérateur prendra quelques minutes, et vous perdrez temporairement votre connexion réseau pendant cette période. Êtes-vous sûr de vouloir continuer ?"
+        "scan_operator_warning_tips": "L'analyse de l'opérateur prendra quelques minutes, et vous perdrez temporairement votre connexion réseau pendant cette période. Êtes-vous sûr de vouloir continuer ?",
+        "manual_lock_operator_label": "Manuel",
+        "manual_select_operator_tips": "La liste actuelle des opérateurs est fournie à titre indicatif uniquement. En cas d'échec de la sélection manuelle, veuillez vous référer à la liste des opérateurs pris en charge par la carte SIM actuelle, ou consulter le service client de l'opérateur pour obtenir des informations précises.",
+        "lock_operator_fail_msg": "L'opérateur actuel est verrouillé, mais en réalité indisponible en raison de restrictions de la carte ou de l'opérateur, si vous devez rétablir le réseau, veuillez effectuer une opération de déverrouillage manuel.",
+        "lock_operator_warning_tips": "Si l'opérateur verrouillé ne correspond pas au masquage de bande ou aux paramètres APN dans les paramètres de connexion mobile, l'interface mobile ne pourra pas se connecter à Internet.",
+        "internet_info_title": "internet",
+        "manual_auto_lock_operator_label": "Manuel-Automatique",
+        "sim_info_title": "Carte SIM",
+        "cell_info_title": "Cellules"
     }
 }
