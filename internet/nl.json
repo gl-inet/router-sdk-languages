@@ -459,6 +459,7 @@
     "cellular": {
         "tower_locked_label": "{sim} Toren vergrendeld",
         "operator_locked_label": "{sim} Operator Vergrendeld",
-        "lock_operator_btn": "Slot Operator"
+        "lock_operator_btn": "Slot Operator",
+        "lock_tower_disabled_tip": "Omdat de huidige kaartsleuf vergrendeld is voor de operator, is de functie die de huidige kaartsleuf vergrendelt op de basisstation uitgeschakeld."
     }
 }
