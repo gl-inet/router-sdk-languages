@@ -459,6 +459,7 @@
     "cellular": {
         "tower_locked_label": "{sim} Torre bloccata",
         "operator_locked_label": "Operatore bloccato {sim}",
-        "lock_operator_btn": "Operatore di Blocco"
+        "lock_operator_btn": "Operatore di Blocco",
+        "lock_tower_disabled_tip": "Poiché l'attuale slot per la scheda è bloccato dall'operatore, la funzione di blocco dello slot per la scheda alla stazione base è disabilitata."
     }
 }
