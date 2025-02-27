@@ -466,6 +466,7 @@
         "lock_tower_tips": "Scanning base stations can quickly identify high-quality signal sources to ensure stable communication. Locking onto a base station requires matching the carrier and the device's supported frequency bands; otherwise, it may affect dialing. Please confirm the base station information to avoid potential issues.",
         "lock_operation_mode_label": "Lock Mode",
         "lock_operation_mode_tip": "The operator lock function supports three modes: automatically connecting to an available operator network, manually locking to a specific operator, or automatically switching to an available operator network if the manual lock fails.",
-        "scan_operator_warning_tips": "Scanning the operator will take a few minutes, and you will temporarily lose your network connection during this time. Are you sure you want to continue?"
+        "scan_operator_warning_tips": "Scanning the operator will take a few minutes, and you will temporarily lose your network connection during this time. Are you sure you want to continue?",
+        "available_operator_title": "Available Operators"
     }
 }
