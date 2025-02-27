@@ -467,6 +467,14 @@
         "lock_operation_mode_label": "Užrakinimo veiksena",
         "lock_operation_mode_tip": "Operatoriaus užrakto funkcija palaiko tris režimus: automatinį prisijungimą prie prieinamo operatoriaus tinklo, rankinį užraktą į konkretų operatorių arba automatinį perjungimą į prieinamą operatoriaus tinklą, jei rankinis užraktas nepavyksta.",
         "available_operator_title": "Galimi operatoriai",
-        "scan_operator_warning_tips": "Nuskaitymas operatoriui užtruks kelias minutes, ir šiuo metu laikinai prarasite tinklo ryšį. Ar tikrai norite tęsti?"
+        "scan_operator_warning_tips": "Nuskaitymas operatoriui užtruks kelias minutes, ir šiuo metu laikinai prarasite tinklo ryšį. Ar tikrai norite tęsti?",
+        "manual_lock_operator_label": "Vadovas",
+        "manual_select_operator_tips": "Dabartinis operatorių sąrašas yra tik pamatinis. Jei rankinis pasirinkimas nepavyksta, prašome kreiptis į sąrašą, kuriame pateikiami šiuo metu SIM kortelę palaikantys operatoriai, arba pasitarti su operatoriaus klientų aptarnavimo tarnyba dėl tikslios informacijos.",
+        "lock_operator_fail_msg": "Dabartinis operatorius užblokuotas, tačiau iš tikrųjų nepasiekiamas dėl kortelės ar operatoriaus apribojimų, jei reikia atkurti tinklą, atlikite rankinę atrakinimo operaciją.",
+        "lock_operator_warning_tips": "Jei užrakintas operatorius neatitinka juostos kaukės arba APN parametrų mobiliojo ryšio nustatymuose, mobilusis sąsają nebus galės prisijungti prie interneto.",
+        "manual_auto_lock_operator_label": "Rankinis-Automatinis",
+        "sim_info_title": "SIM kortelė",
+        "internet_info_title": "Internetas",
+        "cell_info_title": "Ląstelės"
     }
 }
