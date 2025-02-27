@@ -116,7 +116,8 @@
         "setp_label": "Passaggio {num} :",
         "join_btn": "Unisciti",
         "search": "Ricerca",
-        "scan_btn": "Scansione"
+        "scan_btn": "Scansione",
+        "revoke_btn": "Revocare"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -244,5 +245,15 @@
         "only_allowd_input_tips": "È consentito inserire solo {limit}.",
         "only_num_letter_symbol_tips": "Sono consentiti solo lettere, numeri e simboli {symbol}.",
         "min_max_length_tips": "{min} - {max} caratteri."
+    },
+    "vpn_tunnel": {
+        "not_applicale_add_mac_mode_tips": "La fonte del traffico non si basa su Dispositivi Specificati o Esclusione di Dispositivi Specificati, quindi il client non può essere aggiunto a questo tunnel VPN.",
+        "device_label": "Dispositivi Specificati",
+        "connect_methods_label": "Metodi di Connessione Specificati",
+        "not_applicale_add_mac_label": "Non applicabile",
+        "not_applicale_add_mac_only_tips": "La fonte del traffico si basa esclusivamente sul dispositivo attuale, quindi il client non può essere rimosso da questo tunnel VPN.",
+        "all_clients_label": "Tutti i Clienti",
+        "exclude_device_label": "Escludere Dispositivi Specifici",
+        "start_title": "Avvia Configurazione VPN"
     }
 }
