@@ -92,7 +92,8 @@
         "quit_btn": "Login-Modus beenden",
         "entry_again_tips": "Wenn Sie innerhalb von 10 Sekunden erneut eintreten, wird direkt aus dem Cache gezogen, anstatt erneut zu scannen.",
         "unable_scan_channel_tips": "Beim Reisen durch verschiedene Länder kann es aus regulatorischen Gründen nicht möglich sein, auf bestimmten Kanälen nach WLAN zu suchen.",
-        "scan_wifi_fail_detection_channel_tips": "Das Gerät sucht derzeit nach dem optimalen Kanal, die WLAN-Suche ist während dieses Vorgangs nicht verfügbar. Bitte warten Sie geduldig, bis der Scan abgeschlossen ist."
+        "scan_wifi_fail_detection_channel_tips": "Das Gerät sucht derzeit nach dem optimalen Kanal, die WLAN-Suche ist während dieses Vorgangs nicht verfügbar. Bitte warten Sie geduldig, bis der Scan abgeschlossen ist.",
+        "cannot_find_ssid": "Finden Sie Ihr SSID nicht?"
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -475,6 +476,16 @@
         "internet_info_title": "Internet",
         "manual_auto_lock_operator_label": "Manuell-Automatisch",
         "sim_info_title": "SIM-Karte",
-        "cell_info_title": "Zellen"
+        "cell_info_title": "Zellen",
+        "sim_settings_title": "SIM-Karteneinstellungen",
+        "special_apns_label": "Spezielle APNs",
+        "set_sim_config_warning_tips": "Die Änderung der Konfiguration wird zu einer Neueinwahl führen.",
+        "not_use_special_label": "Nicht verwenden",
+        "view_information_btn": "Weitere Informationen anzeigen",
+        "use_special_apn_warning_tips": "Das von Ihnen derzeit ausgewählte spezielle APN ist nur für bestimmte Telefonkarten verfügbar. Wenn das APN nicht korrekt eingestellt ist, kann dies zu Wählproblemen, Netzwerkverbindungsfehlern und anderen Kommunikationsproblemen führen. Bitte überprüfen Sie nochmals, ob Ihre Telefonkarte dieses APN unterstützt. Sind Sie sicher, dass Sie zu dem aktuellen APN wechseln möchten?",
+        "pin_code_tips": "PIN-Code Länge 4-8 Ziffern",
+        "sim_switch_title": "SIM-Kartenwechsel",
+        "information_title": "Mobilfunkinformationen",
+        "special_apns_tips": "Bitte wählen Sie die APN-Einstellungen, die für bestimmte Anbieter bereitgestellt werden, basierend auf der tatsächlichen Situation Ihrer SIM-Karte aus."
     }
 }
