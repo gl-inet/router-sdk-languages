@@ -69,6 +69,10 @@
         "details_title": "Ügyfél részletei",
         "server": "Szerver",
         "switch": "Kapcsoló",
-        "speed_limit_label": "Ügyfelek sebességkorlátozása"
+        "speed_limit_label": "Ügyfelek sebességkorlátozása",
+        "reserved_ip_tips": "Amikor egy kliens számára fenntartott IP-címet ad meg a LAN-on belül, a kliens mindig ugyanazt az IP-címet kapja meg, amikor hozzáfér a router DHCP szerveréhez. Fenntartott IP-címeket rendelhet olyan számítógépekhez vagy szerverekhez, amelyek állandó IP-beállításokat igényelnek.",
+        "reserved_ip_label": "Fenntartott IP cím",
+        "next_connect_effect_tips": "Az aktuális konfiguráció a következő kapcsolódás alkalmával lép érvénybe.",
+        "reserve_ip_only_ipv4_tips": "Csak a LAN szegmens IPv4-cím foglalása konfigurálható."
     }
 }
