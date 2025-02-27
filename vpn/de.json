@@ -337,5 +337,10 @@
         "invalid_username_msg": "Der Benutzername darf nur Buchstaben und Zahlen enthalten",
         "network_abnormal_msg": "Das Netzwerk könnte ungewöhnlich sein.",
         "api_limit_triggered_msg": "Häufige Operation, bitte versuchen Sie es später noch einmal."
+    },
+    "vpn_tunnel": {
+        "use_vpn_tunnel_btn": "Verwenden Sie den VPN-Tunnel",
+        "use_vpn_tunnel_tips": "Fügen Sie einen Client zur VPN-Richtlinien-basierten Tunnel-Liste hinzu. Wenn Sie detailliertere Änderungen an den Tunneln vornehmen möchten, gehen Sie bitte zur {page}, um die Tunnel zu verwalten.",
+        "traffic_origination_label": "Tunnelverkehr-Ursprung"
     }
 }
