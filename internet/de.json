@@ -490,5 +490,8 @@
         "pin_code_last_unlock_tips": "Die SIM-Karte ist gesperrt und muss mit dem PIN-Code entsperrt werden. Es gibt nur noch einen letzten Versuch, sie zu entsperren. Sollte dies fehlschlagen, müssen Sie Ihr Telefon verwenden, um sie durch Eingabe des PUK-Codes zu entsperren.",
         "need_pin_code_tips": "Die SIM-Karte ist gesperrt und muss mit dem PIN-Code entsperrt werden, es gibt noch {count} weitere Versuche.",
         "pin_code_last_input_unlock_tips": "PIN-Code {code} ist falsch, es bleibt nur noch eine letzte Chance, um ihn zu entsperren. Sollte die Entsperrung erneut fehlschlagen, müssen Sie Ihren PUK-Code über Ihr Telefon eingeben, um die Entsperrung vorzunehmen."
+    },
+    "sim": {
+        "sender_label": "Absender"
     }
 }
