@@ -455,5 +455,8 @@
         "sim_threshold_dual_tips": "Ha a(z) {currentSim} adatforgalmi korlátja be van állítva, és a SIM-kártya foglalat {handler} engedélyezve van, akkor a(z) {currentSim} automatikusan átvált a(z) {otherSim}-re, ha az adatforgalma meghaladja az adatforgalmi korlátot, és a(z) {currentSim} le lesz tiltva.",
         "disabled_sim_auto_switch_tips": "A SIM nem vált adatkorlátnál, mert a {handler} nincs engedélyezve. És a SIM le lesz tiltva, amikor eléri az adatkorlátot.",
         "enabled_sim_auto_switch_tips": "A SIM-kártya váltásra kerül, amikor az adatkeret elérésre kerül."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Torony zárolva"
     }
 }
