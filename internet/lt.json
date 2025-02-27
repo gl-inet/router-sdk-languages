@@ -199,7 +199,8 @@
         "to_auth_btn": "Eiti į – prisijungimą",
         "entry_again_tips": "Jei prisijungsite per 10 sekundžių, bus tiesiogiai naudojama talpykla, o ne atliekamas iš naujo nuskaitymas.",
         "unable_scan_channel_tips": "Kelionėje per šalį gali būti neįmanoma skenuoti „Wi-Fi“ tam tikruose kanaluose dėl reguliavimo priežasčių.",
-        "scan_wifi_fail_detection_channel_tips": "Įrenginys šiuo metu skenuoja optimalų kanalą, „Wi-Fi“ skenavimas šio proceso metu yra nepasiekiamas. Prašome palaukti, kol skenavimas bus baigtas."
+        "scan_wifi_fail_detection_channel_tips": "Įrenginys šiuo metu skenuoja optimalų kanalą, „Wi-Fi“ skenavimas šio proceso metu yra nepasiekiamas. Prašome palaukti, kol skenavimas bus baigtas.",
+        "cannot_find_ssid": "Nerandate savo SSID?"
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
@@ -475,6 +476,16 @@
         "manual_auto_lock_operator_label": "Rankinis-Automatinis",
         "sim_info_title": "SIM kortelė",
         "internet_info_title": "Internetas",
-        "cell_info_title": "Ląstelės"
+        "cell_info_title": "Ląstelės",
+        "set_sim_config_warning_tips": "Pakeitus konfigūraciją bus atliekamas pernumatymas.",
+        "sim_settings_title": "SIM kortelės nustatymai",
+        "not_use_special_label": "Nenaudoti",
+        "special_apns_label": "Specialieji APN (Access Point Names)",
+        "use_special_apn_warning_tips": "Jūsų pasirinktas specialusis APN yra prieinamas tik tam tikroms telefono kortelėms. Jei APN nustatytas neteisingai, tai gali sukelti skambučių anomalijas, tinklo ryšio triktis ir kitas ryšio problemas. Prašome dar kartą patikrinti, ar Jūsų telefono kortelė palaiko šį APN. Ar tikrai norite perjungti į dabartinį APN?",
+        "pin_code_tips": "PIN kodo ilgis 4-8 skaitmenys",
+        "sim_switch_title": "SIM kortelės komutatorius",
+        "view_information_btn": "Peržiūrėti daugiau informacijos",
+        "information_title": "Mobilusis ryšio informacija",
+        "special_apns_tips": "Pasirinkite APN nustatymus, skirtus konkrečių operatorių SIM kortelėms, atsižvelgdami į jūsų SIM kortelės faktinę situaciją."
     }
 }
