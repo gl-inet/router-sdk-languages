@@ -455,5 +455,8 @@
         "sim_threshold_dual_tips": "If the {currentSim} Data Cap Amount is set and the SIM Card Slot {handler} is enabled, {currentSim} will automatically switch to {otherSim} when it's data exceeds the Data Cap Amount and {currentSim} will be disabled.",
         "disabled_sim_auto_switch_tips": "The SIM will not switch at data cap because {handler} is not enable. And the SIM will be disabled when data cap is reached.",
         "enabled_sim_auto_switch_tips": "The SIM will switch when data cap is reached."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Tower Locked"
     }
 }
