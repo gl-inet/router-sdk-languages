@@ -116,7 +116,8 @@
         "setp_label": "Step {num}:",
         "join_btn": "Join",
         "search": "Search",
-        "scan_btn": "Scan"
+        "scan_btn": "Scan",
+        "revoke_btn": "Revoke"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -244,5 +245,15 @@
         "only_allowd_input_tips": "Only {limit} is allowed to be entered.",
         "only_num_letter_symbol_tips": "Only letters, numbers and symbols {symbol} are allowed.",
         "min_max_length_tips": "{min} - {max} characters."
+    },
+    "vpn_tunnel": {
+        "not_applicale_add_mac_mode_tips": "The traffic source is not based on Specified Devices or Exclude Specified Devices, so the client cannot be added to this VPN tunnel.",
+        "all_clients_label": "All Clients",
+        "device_label": "Specified Devices",
+        "connect_methods_label": "Specified Connection Methods",
+        "not_applicale_add_mac_label": "Not Applicable",
+        "not_applicale_add_mac_only_tips": "The traffic source is based solely on the current device, so the client cannot be removed from this VPN tunnel.",
+        "exclude_device_label": "Exclude Specified Devices",
+        "start_title": "Start VPN Configuration"
     }
 }
