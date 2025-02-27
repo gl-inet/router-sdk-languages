@@ -182,7 +182,7 @@
         "name_already_exist_tips": "This name already exists.",
         "history_signal_title": "Historical Signal Record",
         "lock_tower_title": "Lock Tower",
-        "available_tower_title": "Available Tower",
+        "available_tower_title": "Available Towers",
         "locked_tower_tips": "If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.",
         "device_may_not_b_tips": "The device may not be able to scan all towers when the Cellular interface is enabled.",
         "cellular_desc": "The Cellular interface will reconnect to switch to the locked tower.",
@@ -461,6 +461,11 @@
         "operator_locked_label": "{sim} Operator Locked",
         "lock_operator_btn": "Lock Operator",
         "lock_tower_disabled_tip": "Because the current card slot is locked to the operator, the current card slot locked to the base station feature is disabled.",
-        "scan_tower_warning_tips": "It will take about a few minutes to scan the tower. Are you sure you want to continue?"
+        "scan_tower_warning_tips": "It will take about a few minutes to scan the tower. Are you sure you want to continue?",
+        "reflash_warning_msg": "Do not refresh the page.",
+        "lock_tower_tips": "Scanning base stations can quickly identify high-quality signal sources to ensure stable communication. Locking onto a base station requires matching the carrier and the device's supported frequency bands; otherwise, it may affect dialing. Please confirm the base station information to avoid potential issues.",
+        "lock_operation_mode_label": "Lock Mode",
+        "lock_operation_mode_tip": "The operator lock function supports three modes: automatically connecting to an available operator network, manually locking to a specific operator, or automatically switching to an available operator network if the manual lock fails.",
+        "scan_operator_warning_tips": "Scanning the operator will take a few minutes, and you will temporarily lose your network connection during this time. Are you sure you want to continue?"
     }
 }
