@@ -467,6 +467,14 @@
         "lock_operation_mode_label": "Tryb blokady",
         "lock_operation_mode_tip": "Funkcja blokady operatora obsługuje trzy tryby: automatyczne łączenie się z dostępną siecią operatora, ręczne blokowanie określonego operatora lub automatyczne przełączanie się na dostępną sieć operatora, jeśli ręczne blokowanie nie powiedzie się.",
         "available_operator_title": "Dostępni Operatorzy",
-        "scan_operator_warning_tips": "Skanowanie operatora zajmie kilka minut i w tym czasie tymczasowo utracisz połączenie z siecią. Czy na pewno chcesz kontynuować?"
+        "scan_operator_warning_tips": "Skanowanie operatora zajmie kilka minut i w tym czasie tymczasowo utracisz połączenie z siecią. Czy na pewno chcesz kontynuować?",
+        "manual_lock_operator_label": "Instrukcja",
+        "manual_select_operator_tips": "Aktualna lista operatorów ma charakter wyłącznie informacyjny. W przypadku niepowodzenia ręcznego wyboru, proszę zapoznać się z listą operatorów obsługiwanych przez obecną kartę SIM lub skonsultować się z obsługą klienta operatora w celu uzyskania dokładnych informacji.",
+        "lock_operator_fail_msg": "Aktualny operator jest zablokowany, ale faktycznie niedostępny z powodu ograniczeń karty lub operatora. Jeśli potrzebujesz przywrócić sieć, wykonaj ręczną operację odblokowania.",
+        "lock_operator_warning_tips": "Jeśli zablokowany operator nie odpowiada maskowaniu pasma lub parametrom APN w ustawieniach komórkowych, interfejs komórkowy nie będzie mógł połączyć się z Internetem.",
+        "manual_auto_lock_operator_label": "Ręczny-Automatyczny",
+        "sim_info_title": "Karta SIM",
+        "internet_info_title": "Internet",
+        "cell_info_title": "Komórki"
     }
 }
