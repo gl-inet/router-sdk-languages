@@ -92,7 +92,8 @@
         "allow_auto_portal_tips": "Se questa opzione è abilitata, questo router entrerà automaticamente in Modalità Login per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. Questa modalità metterà in pausa VPN e DNS personalizzati fino all'uscita, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale).",
         "entry_again_tips": "Se si rientra entro 10 secondi, verrà estratta direttamente la cache anziché eseguire una nuova scansione.",
         "unable_scan_channel_tips": "Quando si viaggia attraverso il paese, potrebbe non essere possibile eseguire la scansione del Wi-Fi su determinati canali a causa di motivi normativi.",
-        "scan_wifi_fail_detection_channel_tips": "Il dispositivo sta attualmente cercando il canale ottimale, la scansione Wi-Fi non è disponibile durante questo processo. Si prega di attendere pazientemente il completamento della scansione."
+        "scan_wifi_fail_detection_channel_tips": "Il dispositivo sta attualmente cercando il canale ottimale, la scansione Wi-Fi non è disponibile durante questo processo. Si prega di attendere pazientemente il completamento della scansione.",
+        "cannot_find_ssid": "Non riesci a trovare il tuo SSID?"
     },
     "modem": {
         "title": "Cellulare",
@@ -475,6 +476,16 @@
         "manual_auto_lock_operator_label": "Manuale-Automatico",
         "sim_info_title": "Scheda SIM",
         "cell_info_title": "Cellule",
-        "internet_info_title": "Internet"
+        "internet_info_title": "Internet",
+        "sim_settings_title": "Impostazioni della scheda SIM",
+        "set_sim_config_warning_tips": "La modifica della configurazione comporterà una nuova composizione del numero.",
+        "not_use_special_label": "Non utilizzare",
+        "special_apns_label": "APN Speciali",
+        "use_special_apn_warning_tips": "L'APN speciale che stai selezionando è disponibile solo per specifiche schede telefoniche. Se l'APN non è impostato correttamente, potrebbe causare anomalie nella composizione dei numeri, fallimento della connessione di rete e altri problemi di comunicazione. Si prega di verificare nuovamente se la tua scheda telefonica supporta questo APN. Sei sicuro di voler passare all'APN attuale?",
+        "pin_code_tips": "Lunghezza del codice PIN da 4 a 8 cifre",
+        "sim_switch_title": "Cambio della SIM Card",
+        "view_information_btn": "Visualizza più informazioni",
+        "information_title": "Informazioni Cellulari",
+        "special_apns_tips": "Si prega di selezionare le impostazioni APN fornite per specifici operatori in base alla situazione effettiva della propria scheda SIM."
     }
 }
