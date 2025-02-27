@@ -487,6 +487,7 @@
         "pin_code_tips": "PIN code length 4-8 digits",
         "information_title": "Cellular Information",
         "special_apns_tips": "For APNs provided by special operators, please choose according to the actual situation of your SIM card.",
-        "pin_code_last_unlock_tips": "SIM card is locked and needs to be unlocked by PIN code, there is last chance left to try to unlock it, if it fails, you need to use your phone to unlock it by entering PUK code."
+        "pin_code_last_unlock_tips": "SIM card is locked and needs to be unlocked by PIN code, there is last chance left to try to unlock it, if it fails, you need to use your phone to unlock it by entering PUK code.",
+        "need_pin_code_tips": "The SIM card is locked and needs to be unlocked by PIN code, there are {count} more chances."
     }
 }
