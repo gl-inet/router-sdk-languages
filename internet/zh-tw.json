@@ -459,6 +459,7 @@
     "cellular": {
         "tower_locked_label": "{sim} 基站已被鎖定",
         "operator_locked_label": "{sim} 運營商已被鎖定",
-        "lock_operator_btn": "鎖定運營商"
+        "lock_operator_btn": "鎖定運營商",
+        "lock_tower_disabled_tip": "由於當前卡槽已鎖定至運營商，因此當前鎖定至基站功能的卡槽已被禁用。"
     }
 }
