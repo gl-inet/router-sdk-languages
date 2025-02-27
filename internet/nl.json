@@ -461,6 +461,10 @@
         "operator_locked_label": "{sim} Operator Vergrendeld",
         "lock_operator_btn": "Slot Operator",
         "lock_tower_disabled_tip": "Omdat de huidige kaartsleuf vergrendeld is voor de operator, is de functie die de huidige kaartsleuf vergrendelt op de basisstation uitgeschakeld.",
-        "scan_tower_warning_tips": "Het scannen van de toren duurt enkele minuten. Weet u zeker dat u wilt doorgaan?"
+        "scan_tower_warning_tips": "Het scannen van de toren duurt enkele minuten. Weet u zeker dat u wilt doorgaan?",
+        "lock_tower_tips": "Het scannen van basisstations kan snel hoogwaardige signaalbronnen identificeren om stabiele communicatie te waarborgen. Het vastleggen op een basisstation vereist het overeenkomen van de drager en de door het apparaat ondersteunde frequentiebanden; anders kan dit het kiezen beïnvloeden. Gelieve de informatie van het basisstation te bevestigen om mogelijke problemen te vermijden.",
+        "reflash_warning_msg": "Niet de pagina verversen.",
+        "lock_operation_mode_label": "Vergrendelingsmodus",
+        "lock_operation_mode_tip": "De functie voor operatorvergrendeling ondersteunt drie modi: automatisch verbinden met een beschikbaar operatornetwerk, handmatig vergrendelen op een specifieke operator, of automatisch overschakelen naar een beschikbaar operatornetwerk als de handmatige vergrendeling mislukt."
     }
 }
