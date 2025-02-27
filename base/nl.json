@@ -254,6 +254,9 @@
         "not_applicale_add_mac_only_tips": "De verkeersbron is uitsluitend gebaseerd op het huidige apparaat, dus de client kan niet uit deze VPN-tunnel worden verwijderd.",
         "all_clients_label": "Alle Klanten",
         "exclude_device_label": "Uitgesloten Apparaten",
-        "start_title": "VPN-configuratie starten"
+        "start_title": "VPN-configuratie starten",
+        "stop_confirm_tips": "Weet u zeker dat u deze configuratie wilt stoppen?",
+        "start_tips": "Selecteer één tunnel om de huidige configuratie te starten. Als u meerdere tunnels wilt selecteren, bezoek dan de {page} voor beheer.",
+        "stop_tips": "Het stoppen van deze configuratie zal alle tunnels die ervan gebruikmaken uitschakelen. Om individuele tunnels te beheren, bezoek de {page}."
     }
 }
