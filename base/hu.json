@@ -165,7 +165,8 @@
         "setp_label": "{num}. lépés:",
         "join_btn": "Csatlakozás",
         "search": "Keresés",
-        "scan_btn": "Szkennelés"
+        "scan_btn": "Szkennelés",
+        "revoke_btn": "Visszavonás"
     },
     "msg": {
         "success": "Végrehajtva!",
@@ -244,5 +245,15 @@
         "min_max_length_tips": "{min} - {max} karakter.",
         "only_num_letter_symbol_tips": "Csak betűk, számok és {symbol} szimbólumok engedélyezettek.",
         "only_letters_num_allowd_tips": "Érvénytelen sor szám: {num}"
+    },
+    "vpn_tunnel": {
+        "not_applicale_add_mac_mode_tips": "A forgalomforrás nem az Meghatározott Eszközökön vagy a Kizárt Meghatározott Eszközökön alapul, így az ügyfél nem adható hozzá ehhez a VPN-alagúthoz.",
+        "device_label": "Meghatározott eszközök",
+        "connect_methods_label": "Meghatározott Csatlakozási Módok",
+        "not_applicale_add_mac_label": "Nem alkalmazható",
+        "not_applicale_add_mac_only_tips": "Az adatforgalom forrása kizárólag az aktuális eszközön alapul, így a kliens nem távolítható el ebből a VPN alagútból.",
+        "all_clients_label": "Összes kliens",
+        "exclude_device_label": "Kizárt Meghatározott Eszközök",
+        "start_title": "VPN-konfiguráció indítása"
     }
 }
