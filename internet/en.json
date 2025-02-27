@@ -459,6 +459,7 @@
     "cellular": {
         "tower_locked_label": "{sim} Tower Locked",
         "operator_locked_label": "{sim} Operator Locked",
-        "lock_operator_btn": "Lock Operator"
+        "lock_operator_btn": "Lock Operator",
+        "lock_tower_disabled_tip": "Because the current card slot is locked to the operator, the current card slot locked to the base station feature is disabled."
     }
 }
