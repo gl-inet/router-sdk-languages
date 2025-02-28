@@ -168,7 +168,8 @@
         "scan_btn": "Сканирование",
         "revoke_btn": "Отозвать",
         "manual_add_mac_btn": "Вручную добавить устройство",
-        "got_it": "прием файла не удался"
+        "got_it": "прием файла не удался",
+        "attention_title": "Внимание"
     },
     "msg": {
         "access_denied": "Неверный пользователь, доступ запрещен или не выполнен вход!",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "Ввод разрешен только до {limit}.",
         "only_num_letter_symbol_tips": "Только буквы, цифры и символы {symbol} разрешены.",
         "min_max_length_tips": "{min} - {max} символов."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "Настройка VPN-туннеля"
     }
 }
