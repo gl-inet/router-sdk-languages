@@ -377,6 +377,11 @@
         "not_use_vpn_label": "不使用VPN",
         "all_target_label": "所有目標",
         "domain_target_label": "指定的域名/IP列表",
-        "exclude_domain_target_label": "排除指定的域名/IP列表"
+        "exclude_domain_target_label": "排除指定的域名/IP列表",
+        "killswitch_common_tips": "如果VPN狀態波動，符合規則的流量將會被攔截。",
+        "add_tunnel_title": "添加隧道",
+        "edit_tunnel_title": "修改隧道",
+        "name_already_exists_msg": "此隧道名稱已存在。",
+        "current_option_not_force_tips": "當多個隧道使用相同的VPN配置時，'遠端存取區域網路'、'IP偽裝'、'MTU' 將按隧道優先級應用。優先級較高的隧道配置將覆蓋優先級較低的隧道設置。"
     }
 }
