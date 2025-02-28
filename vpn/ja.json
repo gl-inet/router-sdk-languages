@@ -426,6 +426,8 @@
     },
     "vpn_taps2s": {
         "start_not_available_tips": "多くのルーティング機能が利用できなくなります。",
-        "start_common_tips": "TAP-S2Sクライアントを起動すると、ダッシュボードがTAP-S2Sモードを有効にし、以下の影響が生じます："
+        "start_common_tips": "TAP-S2Sクライアントを起動すると、ダッシュボードがTAP-S2Sモードを有効にし、以下の影響が生じます：",
+        "exit_title": "注意：退出TAP-S2S",
+        "exit_tips": "TAP-S2Sクライアントを終了すると、TAP-S2Sモードが無効になり、トンネルモードに戻ります。OpenVPNクライアントも元のIPアドレスに戻ります。"
     }
 }
