@@ -377,6 +377,11 @@
         "not_use_vpn_label": "VPNを使用しない",
         "all_target_label": "全ての対象",
         "domain_target_label": "指定されたドメイン/IPリスト",
-        "exclude_domain_target_label": "指定されたドメイン/IPリストを除外"
+        "exclude_domain_target_label": "指定されたドメイン/IPリストを除外",
+        "killswitch_common_tips": "VPNのステータスが変動する場合、ルールに準拠したトラフィックは傍受されます。",
+        "add_tunnel_title": "トンネルを追加",
+        "edit_tunnel_title": "トンネルの変更",
+        "name_already_exists_msg": "このトンネルの名前は既に存在しています。",
+        "current_option_not_force_tips": "複数のトンネルが同じVPN設定を使用する場合、「リモートアクセスLAN」、「IPマスカレード」、「MTU」はトンネルの優先度によって適用されます。優先度の高いトンネルの設定が、優先度の低いトンネルの設定を上書きします。"
     }
 }
