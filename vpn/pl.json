@@ -382,6 +382,25 @@
         "add_tunnel_title": "Dodaj Tunel",
         "edit_tunnel_title": "Modyfikuj Tunel",
         "name_already_exists_msg": "Nazwa tego tunelu już istnieje.",
-        "current_option_not_force_tips": "Gdy wiele tuneli korzysta z tej samej konfiguracji VPN, opcje 'Dostęp zdalny do LAN', 'Maskarada IP', 'MTU' są stosowane zgodnie z priorytetem tunelu. Konfiguracja tunelu o wyższym priorytecie zastąpi ustawienia tunelu o niższym priorytecie."
+        "current_option_not_force_tips": "Gdy wiele tuneli korzysta z tej samej konfiguracji VPN, opcje 'Dostęp zdalny do LAN', 'Maskarada IP', 'MTU' są stosowane zgodnie z priorytetem tunelu. Konfiguracja tunelu o wyższym priorytecie zastąpi ustawienia tunelu o niższym priorytecie.",
+        "exit_tap_s2s_btn": "Wyjście TAP-S2S",
+        "guide_set_tunnel_tips": "Czy chcesz kontynuować i zakończyć konfigurację reguł dla tego tunelu?",
+        "using_options_tunnel_tips": "Aktualnie używana konfiguracja tunelu to: {name}.",
+        "tap_s2s_title": "Tryb TAP-S2S",
+        "default_tunnel_label": "Tunel bez VPN",
+        "priority_title": "Priorytet tuneli",
+        "guide_icon_tips": "Jeśli nie wiesz, jak skonfigurować VPN lub dodać tunel, możesz kliknąć tutaj.",
+        "priority_btn": "Priorytet",
+        "from_ovpnserver_desc": "klienci pod OpenVPN Serwer",
+        "set_custom_success_tips": "Tunel VPN został pomyślnie skonfigurowany.",
+        "guide_set_from_tips": "Ustaw źródła danych, które mają korzystać z VPN",
+        "guide_set_to_tips": "Ustaw ograniczenia przepływu danych, który chcesz ograniczyć",
+        "traffics_common_tips": "Ruch sieciowy z {name}",
+        "lan_desc": "Przewodowa sieć LAN i główne Wi-Fi",
+        "from_wgserver_desc": "klienci pod Serwerem WireGuard",
+        "from_to_common_label": "{exclude} {type}",
+        "rename_label": "Zmień nazwę",
+        "disable_default_tunnel_warning_tips": "Tunelowanie bez VPN zapewnia, że ruch sieciowy nieprzechodzący przez powyższe tunele nadal może łączyć się z Internetem. Jeśli zostanie wyłączone, cały pozostały ruch sieciowy zostanie zablokowany.",
+        "disable_default_tunnel_confirm_tips": "Czy na pewno chcesz wyłączyć aktualny tunel?"
     }
 }
