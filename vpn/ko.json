@@ -401,6 +401,29 @@
         "from_to_common_label": "{exclude} {type}",
         "rename_label": "重命名",
         "disable_default_tunnel_warning_tips": "VPN 터널링을 사용하지 않으면 위의 터널을 통과하지 않는 트래픽도 인터넷에 연결할 수 있습니다. 비활성화하면 나머지 트래픽은 모두 차단됩니다.",
-        "disable_default_tunnel_confirm_tips": "현재 터널을 비활성화하시겠습니까?"
+        "disable_default_tunnel_confirm_tips": "현재 터널을 비활성화하시겠습니까?",
+        "not_use_vpn_via_tips": "현재 터널은 VPN 사용으로 설정되어 있지 않습니다.",
+        "subcription_url_label": "订阅网址",
+        "exclude_label": "排除",
+        "address_count_label": "{count}개 주소|{count}개 주소",
+        "to_all_taget_tips": "현재 터널을 사용하여 모든 목적지로의 트래픽이 지원됩니다.",
+        "form_default_tips": "현재 규칙을 사용하여 모든 장치의 트래픽이 지원됩니다.",
+        "via_connecting_killswitch_tips": "Kill Switch 기능을 활성화하면, 현재 터널과 일치하는 모든 트래픽은 전달되지 않습니다.",
+        "via_not_enabled_tips": "현재 터널이 활성화되어 있지 않습니다.",
+        "via_try_connecting_label": "연결을 시도 중...",
+        "via_connecting_tips": "터널이 실행 중이지만 VPN 활성화에 실패했습니다.",
+        "remove_confirm_tips": "이 터널을 삭제하시겠습니까?",
+        "subcription_url_tips": "URL의 도메인 이름 또는 IP는 매일 자동으로 업데이트됩니다.",
+        "device_count_label": "{count} 대의 기기|{count} 대의 기기",
+        "method_count_label": "{count} 가지 방법|{count} 가지 방법"
+    },
+    "vpn_server": {
+        "off_title": "{type} 서버가 현재 꺼져 있습니다.",
+        "starting_label": "{type} 서버가 시작 중입니다...",
+        "connected_dev_label": "연결된 장치",
+        "on_label": "{type} 서버가 현재 켜져 있습니다."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "많은 라우팅 기능을 사용할 수 없게 됩니다."
     }
 }
