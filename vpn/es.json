@@ -415,7 +415,8 @@
         "remove_confirm_tips": "¿Está seguro de que desea eliminar este túnel?",
         "subcription_url_tips": "El nombre de dominio o IP en la URL se actualiza automáticamente todos los días.",
         "device_count_label": "{count} dispositivo|{count} dispositivos",
-        "method_count_label": "{count} método|{count} métodos"
+        "method_count_label": "{count} método|{count} métodos",
+        "custom_tunnel_title": "Personalizar túnel VPN"
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
@@ -424,6 +425,7 @@
         "on_label": "El servidor {type} está actualmente ENCENDIDO."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Muchas funciones de enrutamiento no estarán disponibles."
+        "start_not_available_tips": "Muchas funciones de enrutamiento no estarán disponibles.",
+        "start_common_tips": "Iniciar el cliente TAP-S2S provocará que el panel de control active el modo TAP-S2S, lo cual tendrá los siguientes efectos:"
     }
 }
