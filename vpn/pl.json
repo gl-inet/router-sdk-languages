@@ -377,6 +377,11 @@
         "not_use_vpn_label": "Nie używaj VPN",
         "all_target_label": "Wszystkie cele",
         "domain_target_label": "Określona lista domen / adresów IP",
-        "exclude_domain_target_label": "Wyklucz określoną listę domen / adresów IP"
+        "exclude_domain_target_label": "Wyklucz określoną listę domen / adresów IP",
+        "killswitch_common_tips": "Jeśli status VPN ulega wahaniom, ruch sieciowy zgodny z zasadami zostanie przechwycony.",
+        "add_tunnel_title": "Dodaj Tunel",
+        "edit_tunnel_title": "Modyfikuj Tunel",
+        "name_already_exists_msg": "Nazwa tego tunelu już istnieje.",
+        "current_option_not_force_tips": "Gdy wiele tuneli korzysta z tej samej konfiguracji VPN, opcje 'Dostęp zdalny do LAN', 'Maskarada IP', 'MTU' są stosowane zgodnie z priorytetem tunelu. Konfiguracja tunelu o wyższym priorytecie zastąpi ustawienia tunelu o niższym priorytecie."
     }
 }
