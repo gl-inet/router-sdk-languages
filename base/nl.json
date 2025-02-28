@@ -119,7 +119,8 @@
         "scan_btn": "Scannen",
         "revoke_btn": "Intrekken",
         "manual_add_mac_btn": "Handmatig apparaat toevoegen",
-        "got_it": "bestand acceptatie mislukt"
+        "got_it": "bestand acceptatie mislukt",
+        "attention_title": "Let op"
     },
     "msg": {
         "success": "Toegepast!",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "Er mag slechts {limit} worden ingevoerd.",
         "only_num_letter_symbol_tips": "Alleen letters, cijfers en symbolen {symbol} zijn toegestaan.",
         "min_max_length_tips": "{min} - {max} tekens."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "Aanpassen VPN-tunnel"
     }
 }
