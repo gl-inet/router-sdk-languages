@@ -349,6 +349,7 @@
         "connect_methods_label": "Specified Connection Methods",
         "not_applicale_add_mac_only_tips": "The traffic source is based solely on the current device, so the client cannot be removed from this VPN tunnel.",
         "exclude_device_label": "Exclude Specified Devices",
-        "start_title": "Start VPN Configuration"
+        "start_title": "Start VPN Configuration",
+        "stop_tips": "Stopping this configuration will disabled all tunnels using it. To manage individual tunnels, please visit the {page}."
     }
 }
