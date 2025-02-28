@@ -359,6 +359,17 @@
         "client_type_label": "Kunden",
         "method_type_label": "Methoden",
         "at_least_one_method_msg": "Bitte wählen Sie mindestens eine Verbindungsmethode aus.",
-        "at_least_one_mac_msg": "Bitte wählen Sie mindestens ein Gerät aus."
+        "at_least_one_mac_msg": "Bitte wählen Sie mindestens ein Gerät aus.",
+        "to_title": "Reisen nach",
+        "via_title": "Ausführen",
+        "killswitch_label": "Kill Switch",
+        "auto_vpn_label": "Automatische Auswahlkonfiguration",
+        "auto_vpn_tips": "Wenn diese Option aktiviert ist, wählt der Tunnel automatisch verfügbare Profile zur Verbindung aus.",
+        "killswitch_tips": "Aktivieren Sie diese Funktion, um den Datenverkehr zu blockieren, der dieser Regel entspricht, aber nicht getunnelt wird, mit höherer Priorität als andere VPN-Tunnelregeln.",
+        "switch_to_btn": "Wechseln zu {type}",
+        "go_to_guide_tips": "Gehen Sie zu {view}, um die Konfiguration schnell abzuschließen.",
+        "do_not_want_use_tips": "Möchten Sie Ihren aktuellen VPN nicht verwenden?",
+        "no_vpn_config_tips": "Sie haben derzeit keine VPN-Konfigurationen eingerichtet, um die aktuellen Optionen zu nutzen.",
+        "vpn_guide_btn": "VPN Einsteigerleitfaden"
     }
 }
