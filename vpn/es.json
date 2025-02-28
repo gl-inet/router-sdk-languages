@@ -401,6 +401,29 @@
         "rename_label": "Renombrar",
         "from_to_common_label": "{exclude} {type}",
         "disable_default_tunnel_warning_tips": "El túnel no VPN garantiza que el tráfico que no pasa por los túneles anteriores aún pueda conectarse a Internet. Si se desactiva, se bloqueará cualquier tráfico restante.",
-        "disable_default_tunnel_confirm_tips": "¿Está seguro de que desea desactivar el túnel actual?"
+        "disable_default_tunnel_confirm_tips": "¿Está seguro de que desea desactivar el túnel actual?",
+        "not_use_vpn_via_tips": "El túnel actual no está configurado para usar una VPN.",
+        "subcription_url_label": "URL de suscripción",
+        "exclude_label": "Excluir",
+        "address_count_label": "{count} dirección|{count} direcciones",
+        "via_not_enabled_tips": "Actualmente el Túnel no está habilitado",
+        "to_all_taget_tips": "El tráfico hacia todos los destinos es compatible utilizando el túnel actual.",
+        "form_default_tips": "El tráfico de todos los dispositivos es compatible utilizando la regla actual.",
+        "via_connecting_killswitch_tips": "Si activa el Kill Switch, todo el tráfico que coincida con el túnel actual no será reenviado.",
+        "via_try_connecting_label": "Intentando conectar...",
+        "via_connecting_tips": "El túnel está en ejecución, pero la activación de la VPN falló.",
+        "remove_confirm_tips": "¿Está seguro de que desea eliminar este túnel?",
+        "subcription_url_tips": "El nombre de dominio o IP en la URL se actualiza automáticamente todos los días.",
+        "device_count_label": "{count} dispositivo|{count} dispositivos",
+        "method_count_label": "{count} método|{count} métodos"
+    },
+    "vpn_server": {
+        "starting_label": "El servidor {type} está iniciando...",
+        "off_title": "El servidor {type} está actualmente APAGADO.",
+        "connected_dev_label": "Dispositivos conectados",
+        "on_label": "El servidor {type} está actualmente ENCENDIDO."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Muchas funciones de enrutamiento no estarán disponibles."
     }
 }
