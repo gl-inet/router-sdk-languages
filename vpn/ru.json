@@ -415,7 +415,8 @@
         "subcription_url_label": "Подписка URL",
         "subcription_url_tips": "Доменное имя или IP-адрес в URL автоматически обновляются каждый день.",
         "device_count_label": "{count} устройство|{count} устройства|{count} устройств",
-        "method_count_label": "{count} метод|{count} метода|{count} методов"
+        "method_count_label": "{count} метод|{count} метода|{count} методов",
+        "custom_tunnel_title": "Настройка VPN-туннеля"
     },
     "vpn_server": {
         "connected_dev_label": "Подключенные устройства",
@@ -424,6 +425,7 @@
         "on_label": "{type} сервер в настоящее время включен."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Многие функции маршрутизации будут недоступны."
+        "start_not_available_tips": "Многие функции маршрутизации будут недоступны.",
+        "start_common_tips": "Запуск клиента TAP-S2S приведет к активации режима TAP-S2S на панели управления, что повлечет за собой следующие изменения:"
     }
 }
