@@ -209,7 +209,8 @@
         "scan_btn": "Сканувати",
         "revoke_btn": "Відкликати",
         "manual_add_mac_btn": "Вручну додати пристрій",
-        "got_it": "прийняття файлу не вдалося"
+        "got_it": "прийняття файлу не вдалося",
+        "attention_title": "Увага"
     },
     "msg": {
         "access_denied": "Недійсний користувач, доступ заборонено або не виконано вхід!",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "Введення дозволяється лише до {limit}.",
         "only_num_letter_symbol_tips": "Лише літери, цифри та символи {symbol} дозволені.",
         "min_max_length_tips": "{min} - {max} символів."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "Настроїти VPN-тунель"
     }
 }
