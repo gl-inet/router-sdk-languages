@@ -429,6 +429,7 @@
         "start_common_tips": "TAP-S2Sクライアントを起動すると、ダッシュボードがTAP-S2Sモードを有効にし、以下の影響が生じます：",
         "exit_title": "注意：退出TAP-S2S",
         "exit_tips": "TAP-S2Sクライアントを終了すると、TAP-S2Sモードが無効になり、トンネルモードに戻ります。OpenVPNクライアントも元のIPアドレスに戻ります。",
-        "start_title": "注意：TAP-S2Sクライアントを起動"
+        "start_title": "注意：TAP-S2Sクライアントを起動",
+        "start_disable_tips": "現在有効なトンネルはすべて無効になり、非表示になります。"
     }
 }
