@@ -415,7 +415,8 @@
         "remove_confirm_tips": "Ar tikrai norite ištrinti šį tunelį?",
         "subcription_url_tips": "Domeno pavadinimas arba IP adresas URL saite automatiškai atnaujinamas kasdien.",
         "device_count_label": "{count} įrenginys|{count} įrenginiai",
-        "method_count_label": "{count} metodas|{count} metodai"
+        "method_count_label": "{count} metodas|{count} metodai",
+        "custom_tunnel_title": "Prisitaikyti VPN tunelį"
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
@@ -424,6 +425,7 @@
         "on_label": "{type} serveris šiuo metu įjungtas."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos."
+        "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos.",
+        "start_common_tips": "Paleidus TAP-S2S klientą, ataskaitų skydelis įjungs TAP-S2S veikseną, kuri turės šiuos efektus:"
     }
 }
