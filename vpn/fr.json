@@ -377,6 +377,11 @@
         "go_to_page_btn": "Allez à {page}",
         "not_use_vpn_label": "Ne pas utiliser de VPN",
         "exclude_domain_target_label": "Exclure la liste des domaines / IP spécifiés",
-        "domain_target_label": "Liste des domaines / IP spécifiés"
+        "domain_target_label": "Liste des domaines / IP spécifiés",
+        "killswitch_common_tips": "Si le statut du VPN fluctue, le trafic conforme aux règles sera intercepté.",
+        "add_tunnel_title": "Ajouter un tunnel",
+        "edit_tunnel_title": "Modifier le Tunnel",
+        "name_already_exists_msg": "Le nom de ce tunnel existe déjà.",
+        "current_option_not_force_tips": "Lorsque plusieurs tunnels utilisent la même configuration VPN, 'Accès à distance au LAN', 'IP Masqué' et 'MTU' sont appliqués selon la priorité du tunnel. La configuration d'un tunnel avec une priorité plus élevée remplacera les paramètres d'un tunnel de priorité inférieure."
     }
 }
