@@ -426,6 +426,8 @@
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych.",
-        "start_common_tips": "Uruchomienie klienta TAP-S2S spowoduje włączenie trybu TAP-S2S w panelu sterowania, co będzie miało następujące skutki:"
+        "start_common_tips": "Uruchomienie klienta TAP-S2S spowoduje włączenie trybu TAP-S2S w panelu sterowania, co będzie miało następujące skutki:",
+        "exit_title": "Uwaga: Wyjście TAP-S2S",
+        "exit_tips": "Wyjście z klienta TAP-S2S spowoduje wyłączenie trybu TAP-S2S i powrót do trybu tunelowego. Klient OpenVPN również powróci do swojego pierwotnego adresu IP."
     }
 }
