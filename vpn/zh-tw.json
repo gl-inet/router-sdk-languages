@@ -349,6 +349,7 @@
         "connect_methods_label": "指定連接方法",
         "not_applicale_add_mac_only_tips": "流量來源完全基於當前設備，因此客戶端無法從此VPN隧道中移除。",
         "exclude_device_label": "排除指定設備",
-        "start_title": "啟動 VPN 配置"
+        "start_title": "啟動 VPN 配置",
+        "stop_tips": "停止此配置將禁用使用它的所有隧道。要管理個別隧道，請訪問{page}。"
     }
 }
