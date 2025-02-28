@@ -119,7 +119,8 @@
         "scan_btn": "스캔",
         "revoke_btn": "취소",
         "manual_add_mac_btn": "수동으로 장치 추가",
-        "got_it": "文件接受失败"
+        "got_it": "文件接受失败",
+        "attention_title": "주의"
     },
     "msg": {
         "success": "적용!",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "입력할 수 있는 것은 {limit}만 허용됩니다.",
         "only_num_letter_symbol_tips": "문자, 숫자 및 기호 {symbol}만 허용됩니다.",
         "min_max_length_tips": "{min} - {max}자."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "VPN 터널 사용자 정의"
     }
 }
