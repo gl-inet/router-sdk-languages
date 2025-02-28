@@ -415,7 +415,8 @@
         "subcription_url_label": "Abonnement URL",
         "subcription_url_tips": "De domeinnaam of het IP in de URL wordt automatisch elke dag bijgewerkt.",
         "device_count_label": "{count} apparaat|{count} apparaten",
-        "method_count_label": "{count} methode|{count} methoden"
+        "method_count_label": "{count} methode|{count} methoden",
+        "custom_tunnel_title": "Aanpassen VPN-tunnel"
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
@@ -424,6 +425,7 @@
         "on_label": "De {type} server is momenteel AAN."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Veel routeringsfuncties zullen niet beschikbaar zijn."
+        "start_not_available_tips": "Veel routeringsfuncties zullen niet beschikbaar zijn.",
+        "start_common_tips": "Het starten van de TAP-S2S-client zal ervoor zorgen dat het dashboard de TAP-S2S-modus activeert, wat de volgende effecten zal hebben:"
     }
 }
