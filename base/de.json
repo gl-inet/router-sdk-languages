@@ -119,7 +119,8 @@
         "scan_btn": "Scannen",
         "revoke_btn": "Widerrufen",
         "manual_add_mac_btn": "Manuelles Hinzufügen eines Geräts",
-        "got_it": "Verstanden."
+        "got_it": "Verstanden.",
+        "attention_title": "Achtung"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "Es dürfen nur {limit} eingegeben werden.",
         "only_num_letter_symbol_tips": "Nur Buchstaben, Zahlen und Symbole {symbol} sind erlaubt.",
         "min_max_length_tips": "{min} - {max} Zeichen."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "VPN-Tunnel anpassen"
     }
 }
