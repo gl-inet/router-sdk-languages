@@ -251,5 +251,13 @@
     },
     "vpn_tunnel": {
         "custom_tunnel_title": "Aanpassen VPN-tunnel"
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Veel routeringsfuncties zullen niet beschikbaar zijn.",
+        "exit_title": "Let op: Exit TAP-S2S",
+        "exit_tips": "Het afsluiten van de TAP-S2S-client zal de TAP-S2S-modus uitschakelen en terugkeren naar Tunnelmodus. De OpenVPN-client zal ook terugkeren naar zijn oorspronkelijke IP-adres.",
+        "start_title": "Let op: Start TAP-S2S-client",
+        "start_common_tips": "Het starten van de TAP-S2S-client zal ervoor zorgen dat het dashboard de TAP-S2S-modus activeert, wat de volgende effecten zal hebben:",
+        "start_disable_tips": "Alle huidige tunnels worden uitgeschakeld en verborgen."
     }
 }
