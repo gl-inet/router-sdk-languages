@@ -415,7 +415,8 @@
         "via_connecting_killswitch_tips": "キルスイッチを有効にすると、現在のトンネルに一致するすべてのトラフィックは転送されません。",
         "subcription_url_tips": "URL内のドメイン名またはIPは毎日自動的に更新されます。",
         "device_count_label": "{count}台のデバイス|{count}台のデバイス",
-        "method_count_label": "{count} 方法|{count} 方法"
+        "method_count_label": "{count} 方法|{count} 方法",
+        "custom_tunnel_title": "VPNトンネルのカスタマイズ"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
@@ -424,6 +425,7 @@
         "on_label": "{type}サーバーは現在稼働中です。"
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "多くのルーティング機能が利用できなくなります。"
+        "start_not_available_tips": "多くのルーティング機能が利用できなくなります。",
+        "start_common_tips": "TAP-S2Sクライアントを起動すると、ダッシュボードがTAP-S2Sモードを有効にし、以下の影響が生じます："
     }
 }
