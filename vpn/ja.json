@@ -401,6 +401,29 @@
         "from_to_common_label": "{exclude} {type}",
         "rename_label": "改名",
         "disable_default_tunnel_warning_tips": "VPNトンネリングを使用しない場合、上記のトンネルを通過しないトラフィックもインターネットに接続できます。無効にすると、残りのトラフィックはドロップされます。",
-        "disable_default_tunnel_confirm_tips": "現在のトンネルを無効にしてもよろしいですか？"
+        "disable_default_tunnel_confirm_tips": "現在のトンネルを無効にしてもよろしいですか？",
+        "not_use_vpn_via_tips": "現在のトンネルはVPNを使用するように設定されていません。",
+        "subcription_url_label": "サブスクリプションURL",
+        "exclude_label": "除外",
+        "address_count_label": "{count} 件のアドレス|{count} 件のアドレス",
+        "to_all_taget_tips": "現在のトンネルを使用して、すべての宛先へのトラフィックがサポートされています。",
+        "form_default_tips": "現在のルールを使用して、すべてのデバイスからのトラフィックがサポートされています。",
+        "via_not_enabled_tips": "現在トンネルは有効になっていません",
+        "via_try_connecting_label": "接続を試みています...",
+        "via_connecting_tips": "トンネルは実行中ですが、VPNの有効化に失敗しました。",
+        "remove_confirm_tips": "このトンネルを削除してもよろしいですか？",
+        "via_connecting_killswitch_tips": "キルスイッチを有効にすると、現在のトンネルに一致するすべてのトラフィックは転送されません。",
+        "subcription_url_tips": "URL内のドメイン名またはIPは毎日自動的に更新されます。",
+        "device_count_label": "{count}台のデバイス|{count}台のデバイス",
+        "method_count_label": "{count} 方法|{count} 方法"
+    },
+    "vpn_server": {
+        "off_title": "{type}サーバーは現在停止しています。",
+        "starting_label": "{type}サーバーが起動しています...",
+        "connected_dev_label": "接続されたデバイス",
+        "on_label": "{type}サーバーは現在稼働中です。"
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "多くのルーティング機能が利用できなくなります。"
     }
 }
