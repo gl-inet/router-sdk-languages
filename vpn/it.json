@@ -342,6 +342,7 @@
         "use_vpn_tunnel_tips": "Aggiungi il client all'elenco dei tunnel basati sulla politica VPN. Se desideri apportare modifiche più dettagliate ai tunnel, vai alla {page} per gestire i tunnel.",
         "use_vpn_tunnel_btn": "Utilizzare il tunnel VPN",
         "traffic_origination_label": "Origine del Traffico del Tunnel",
-        "not_applicale_add_mac_label": "Non applicabile"
+        "not_applicale_add_mac_label": "Non applicabile",
+        "not_applicale_add_mac_mode_tips": "La fonte del traffico non si basa su Dispositivi Specificati o Esclusione di Dispositivi Specificati, quindi il client non può essere aggiunto a questo tunnel VPN."
     }
 }
