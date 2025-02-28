@@ -382,6 +382,25 @@
         "add_tunnel_title": "Tunnel toevoegen",
         "edit_tunnel_title": "Wijzig Tunnel",
         "name_already_exists_msg": "Deze tunnelnaam bestaat al.",
-        "current_option_not_force_tips": "Wanneer meerdere tunnels dezelfde VPN-configuratie gebruiken, worden 'Remote Access LAN', 'IP-Masquerading', 'MTU' toegepast op basis van tunnel prioriteit. De configuratie van een tunnel met een hogere prioriteit zal de instellingen van een tunnel met een lagere prioriteit overschrijven."
+        "current_option_not_force_tips": "Wanneer meerdere tunnels dezelfde VPN-configuratie gebruiken, worden 'Remote Access LAN', 'IP-Masquerading', 'MTU' toegepast op basis van tunnel prioriteit. De configuratie van een tunnel met een hogere prioriteit zal de instellingen van een tunnel met een lagere prioriteit overschrijven.",
+        "exit_tap_s2s_btn": "Verlaat TAP-S2S",
+        "guide_set_tunnel_tips": "Wilt u doorgaan en de instellingen voor deze tunnel voltooien?",
+        "using_options_tunnel_tips": "De momenteel gebruikte tunnelconfiguratie is: {name}.",
+        "tap_s2s_title": "TAP-S2S-modus",
+        "default_tunnel_label": "Niet-VPN Tunnel",
+        "priority_title": "Tunnels Prioriteit",
+        "set_custom_success_tips": "De aangepaste VPN-tunnel is succesvol ingesteld.",
+        "guide_icon_tips": "Als u niet weet hoe u een VPN moet configureren of een tunnel moet toevoegen, kunt u hier klikken.",
+        "priority_btn": "Prioriteit",
+        "from_ovpnserver_desc": "clients onder OpenVPN Server",
+        "guide_set_from_tips": "Stel de gegevensbronnen in die u wilt gebruiken voor VPN",
+        "guide_set_to_tips": "Stel de gegevensstroom in die u wilt beperken",
+        "traffics_common_tips": "Verkeer van {name}",
+        "lan_desc": "Bekabeld LAN en primaire Wi-Fi",
+        "from_wgserver_desc": "clients onder WireGuard Server",
+        "from_to_common_label": "{exclude} {type}",
+        "rename_label": "Hernoemen",
+        "disable_default_tunnel_warning_tips": "Niet-VPN-tunneling zorgt ervoor dat verkeer dat niet door de bovenstaande tunnels gaat, toch verbinding kan maken met het internet. Indien uitgeschakeld, zal het alle overige verkeer blokkeren.",
+        "disable_default_tunnel_confirm_tips": "Weet u zeker dat u de huidige tunnel wilt uitschakelen?"
     }
 }
