@@ -401,6 +401,29 @@
         "from_to_common_label": "{exclude} {type}",
         "rename_label": "Zmień nazwę",
         "disable_default_tunnel_warning_tips": "Tunelowanie bez VPN zapewnia, że ruch sieciowy nieprzechodzący przez powyższe tunele nadal może łączyć się z Internetem. Jeśli zostanie wyłączone, cały pozostały ruch sieciowy zostanie zablokowany.",
-        "disable_default_tunnel_confirm_tips": "Czy na pewno chcesz wyłączyć aktualny tunel?"
+        "disable_default_tunnel_confirm_tips": "Czy na pewno chcesz wyłączyć aktualny tunel?",
+        "not_use_vpn_via_tips": "Aktualny tunel nie jest skonfigurowany do korzystania z VPN.",
+        "exclude_label": "Wykluczyć",
+        "address_count_label": "{count} adres|{count} adresów",
+        "to_all_taget_tips": "Ruch do wszystkich miejsc docelowych jest obsługiwany przy użyciu obecnego tunelu.",
+        "form_default_tips": "Ruch z wszystkich urządzeń jest obsługiwany przy użyciu obecnej reguły.",
+        "via_not_enabled_tips": "Aktualnie tunel nie jest włączony",
+        "via_try_connecting_label": "Próbuję połączyć...",
+        "via_connecting_tips": "Tunel jest uruchomiony, ale włączenie VPN nie powiodło się.",
+        "remove_confirm_tips": "Czy na pewno chcesz usunąć ten tunel?",
+        "via_connecting_killswitch_tips": "Jeśli włączysz Kill Switch, cały ruch pasujący do aktualnego tunelu nie będzie przekazywany.",
+        "subcription_url_label": "Adres URL subskrypcji",
+        "subcription_url_tips": "Nazwa domeny lub adres IP w adresie URL jest automatycznie aktualizowana każdego dnia.",
+        "device_count_label": "{count} urządzenie|{count} urządzenia|{count} urządzeń",
+        "method_count_label": "{count} metoda|{count} metody|{count} metod"
+    },
+    "vpn_server": {
+        "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
+        "starting_label": "Serwer {type} jest uruchamiany...",
+        "connected_dev_label": "Podłączone urządzenia",
+        "on_label": "Serwer {type} jest obecnie WŁĄCZONY."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych."
     }
 }
