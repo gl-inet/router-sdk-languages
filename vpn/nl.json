@@ -359,6 +359,17 @@
         "client_type_label": "Klanten",
         "method_type_label": "Methoden",
         "at_least_one_method_msg": "Selecteer ten minste één verbindingsmethode.",
-        "at_least_one_mac_msg": "Selecteer ten minste één apparaat."
+        "at_least_one_mac_msg": "Selecteer ten minste één apparaat.",
+        "to_title": "Reizen naar",
+        "via_title": "Uitvoeren",
+        "killswitch_label": "Kill Switch",
+        "auto_vpn_label": "Automatische selectieconfiguratie",
+        "killswitch_tips": "Schakel deze functie in om verkeer dat overeenkomt met deze regel te blokkeren, maar niet getunneld is, met een hogere prioriteit dan andere VPN-tunnelregels.",
+        "auto_vpn_tips": "Wanneer deze optie is ingeschakeld, selecteert de tunnel automatisch beschikbare profielen om verbinding te maken.",
+        "switch_to_btn": "Overschakelen naar {type}",
+        "do_not_want_use_tips": "Wilt u uw huidige VPN niet gebruiken?",
+        "no_vpn_config_tips": "U heeft momenteel geen VPN-configuraties ingesteld om de huidige opties te gebruiken.",
+        "go_to_guide_tips": "Ga naar {view} om de configuratie snel te voltooien.",
+        "vpn_guide_btn": "VPN-beginnershandleiding"
     }
 }
