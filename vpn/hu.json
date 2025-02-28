@@ -426,6 +426,8 @@
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Sok útválasztási funkció nem lesz elérhető.",
-        "start_common_tips": "A TAP-S2S kliens elindítása aktiválja a műszerfal TAP-S2S módját, aminek a következő hatásai lesznek:"
+        "start_common_tips": "A TAP-S2S kliens elindítása aktiválja a műszerfal TAP-S2S módját, aminek a következő hatásai lesznek:",
+        "exit_title": "Figyelem: Kilépés TAP-S2S",
+        "exit_tips": "Kilépve a TAP-S2S kliensből, a rendszer visszaáll a Tunel módba. Az OpenVPN kliens is visszatér az eredeti IP-címére."
     }
 }
