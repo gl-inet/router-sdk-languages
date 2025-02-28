@@ -377,6 +377,11 @@
         "not_use_vpn_label": "VPN 사용 안 함",
         "exclude_domain_target_label": "지정된 도메인 / IP 목록 제외",
         "all_target_label": "모든 대상",
-        "domain_target_label": "지정된 도메인 / IP 목록"
+        "domain_target_label": "지정된 도메인 / IP 목록",
+        "killswitch_common_tips": "VPN 상태가 변동될 경우, 규칙에 부합하는 트래픽은 가로채질 것입니다.",
+        "add_tunnel_title": "터널 추가",
+        "edit_tunnel_title": "修改隧道",
+        "name_already_exists_msg": "이 터널의 이름이 이미 존재합니다.",
+        "current_option_not_force_tips": "여러 터널이 동일한 VPN 구성을 사용할 때 '원격 액세스 LAN', 'IP Masquerading', 'MTU'는 터널 우선순위에 따라 적용됩니다. 더 높은 우선순위의 터널 구성이 낮은 우선순위 터널의 설정을 덮어씁니다."
     }
 }
