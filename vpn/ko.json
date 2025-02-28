@@ -415,7 +415,8 @@
         "remove_confirm_tips": "이 터널을 삭제하시겠습니까?",
         "subcription_url_tips": "URL의 도메인 이름 또는 IP는 매일 자동으로 업데이트됩니다.",
         "device_count_label": "{count} 대의 기기|{count} 대의 기기",
-        "method_count_label": "{count} 가지 방법|{count} 가지 방법"
+        "method_count_label": "{count} 가지 방법|{count} 가지 방법",
+        "custom_tunnel_title": "VPN 터널 사용자 정의"
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
@@ -424,6 +425,7 @@
         "on_label": "{type} 서버가 현재 켜져 있습니다."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "많은 라우팅 기능을 사용할 수 없게 됩니다."
+        "start_not_available_tips": "많은 라우팅 기능을 사용할 수 없게 됩니다.",
+        "start_common_tips": "TAP-S2S 클라이언트를 시작하면 대시보드에서 TAP-S2S 모드가 활성화되며, 다음과 같은 효과가 발생합니다:"
     }
 }
