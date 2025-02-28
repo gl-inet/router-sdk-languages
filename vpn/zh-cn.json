@@ -382,6 +382,25 @@
         "add_tunnel_title": "添加隧道",
         "edit_tunnel_title": "修改隧道",
         "name_already_exists_msg": "此隧道名称已存在。",
-        "current_option_not_force_tips": "当多个隧道使用相同的VPN配置时，“远程访问局域网”、“IP 动态伪装”、“MTU”将按隧道优先级应用。具有较高优先级的隧道配置将覆盖较低优先级隧道的设置。"
+        "current_option_not_force_tips": "当多个隧道使用相同的VPN配置时，“远程访问局域网”、“IP 动态伪装”、“MTU”将按隧道优先级应用。具有较高优先级的隧道配置将覆盖较低优先级隧道的设置。",
+        "exit_tap_s2s_btn": "退出TAP-S2S",
+        "using_options_tunnel_tips": "当前使用的隧道配置为：{name}。",
+        "tap_s2s_title": "TAP-S2S模式",
+        "default_tunnel_label": "非VPN隧道",
+        "priority_title": "隧道优先级",
+        "guide_set_tunnel_tips": "您是否想要继续完成此隧道的规则设置？",
+        "guide_icon_tips": "如果您不知道如何配置VPN或添加隧道，您可以点击这里。",
+        "priority_btn": "优先级",
+        "set_custom_success_tips": "自定义VPN隧道已成功设置。",
+        "guide_set_from_tips": "设置您希望使用VPN的数据源",
+        "guide_set_to_tips": "设置您想要限制的数据流量",
+        "traffics_common_tips": "来自{name}的流量",
+        "lan_desc": "有线局域网和主要无线网络",
+        "from_wgserver_desc": "WireGuard服务器下的客户端",
+        "from_ovpnserver_desc": "OpenVPN服务器下的客户端",
+        "from_to_common_label": "{exclude} {type}",
+        "rename_label": "重命名",
+        "disable_default_tunnel_warning_tips": "非VPN隧道确保未通过上述隧道的流量仍可连接到互网。如果禁用，它将丢弃所有剩余流量。",
+        "disable_default_tunnel_confirm_tips": "您确定要禁用当前的隧道吗？"
     }
 }
