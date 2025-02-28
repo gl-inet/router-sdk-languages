@@ -415,7 +415,8 @@
         "subcription_url_tips": "Il nome di dominio o l'IP nell'URL viene aggiornato automaticamente ogni giorno.",
         "device_count_label": "{count} Dispositivo|{count} Dispositivi",
         "subcription_url_label": "URL dell'abbonamento",
-        "method_count_label": "{count} Metodo|{count} Metodi"
+        "method_count_label": "{count} Metodo|{count} Metodi",
+        "custom_tunnel_title": "Personalizza il tunnel VPN"
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
@@ -424,6 +425,7 @@
         "on_label": "Il server {type} è attualmente ACCESO."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Molte funzioni di instradamento non saranno disponibili."
+        "start_not_available_tips": "Molte funzioni di instradamento non saranno disponibili.",
+        "start_common_tips": "L'avvio del client TAP-S2S causerà l'attivazione della modalità TAP-S2S nel pannello di controllo, che avrà i seguenti effetti:"
     }
 }
