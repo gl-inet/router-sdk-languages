@@ -119,7 +119,8 @@
         "scan_btn": "Scan",
         "revoke_btn": "Revoke",
         "manual_add_mac_btn": "Manually Add Device",
-        "got_it": "Got it"
+        "got_it": "Got it",
+        "attention_title": "Attention"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "Only {limit} is allowed to be entered.",
         "only_num_letter_symbol_tips": "Only letters, numbers and symbols {symbol} are allowed.",
         "min_max_length_tips": "{min} - {max} characters."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "Customise VPN tunnel"
     }
 }
