@@ -415,7 +415,8 @@
         "subcription_url_label": "訂閱網址",
         "subcription_url_tips": "URL 中的域名或 IP 地址會自動每天更新。",
         "device_count_label": "{count} 台設備|{count} 台設備",
-        "method_count_label": "{count} 種方法|{count} 種方法"
+        "method_count_label": "{count} 種方法|{count} 種方法",
+        "custom_tunnel_title": "自訂 VPN 隧道"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
@@ -424,6 +425,7 @@
         "on_label": "{type} 伺服器目前處於開啟狀態。"
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "許多路由功能將無法使用。"
+        "start_not_available_tips": "許多路由功能將無法使用。",
+        "start_common_tips": "啟動TAP-S2S客戶端將導致儀表板啟用TAP-S2S模式，這將產生以下影響："
     }
 }
