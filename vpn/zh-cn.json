@@ -401,6 +401,29 @@
         "from_to_common_label": "{exclude} {type}",
         "rename_label": "重命名",
         "disable_default_tunnel_warning_tips": "非VPN隧道确保未通过上述隧道的流量仍可连接到互网。如果禁用，它将丢弃所有剩余流量。",
-        "disable_default_tunnel_confirm_tips": "您确定要禁用当前的隧道吗？"
+        "disable_default_tunnel_confirm_tips": "您确定要禁用当前的隧道吗？",
+        "not_use_vpn_via_tips": "当前隧道未设置为使用VPN。",
+        "exclude_label": "排除",
+        "address_count_label": "{count}个地址|{count}个地址",
+        "to_all_taget_tips": "当前隧道支持到所有目的地的流量。",
+        "form_default_tips": "当前规则支持来自所有设备的流量。",
+        "via_not_enabled_tips": "当前Tunnel未启用",
+        "via_try_connecting_label": "尝试连接中...",
+        "via_connecting_tips": "隧道正在执行，但VPN启用失败。",
+        "remove_confirm_tips": "您确定要删除这个隧道吗？",
+        "via_connecting_killswitch_tips": "如果启用Kill Switch，所有匹配当前隧道的流量将不会被转发。",
+        "subcription_url_label": "订阅链接",
+        "subcription_url_tips": "URL中的域名或IP地址会自动每天更新。",
+        "device_count_label": "{count} 设备|{count} 设备",
+        "method_count_label": "{count} 种方法|{count} 种方法"
+    },
+    "vpn_server": {
+        "connected_dev_label": "已连接的设备",
+        "off_title": "{type}服务器当前处于关闭状态。",
+        "starting_label": "{type}服务器正在启动...",
+        "on_label": "{type}服务器目前处于开启状态。"
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "许多路由功能将无法使用。"
     }
 }
