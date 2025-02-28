@@ -377,6 +377,11 @@
         "not_use_vpn_label": "Nenaudoti „VPN“",
         "exclude_domain_target_label": "Neįtraukti nurodyto domeno / IP sąrašo",
         "all_target_label": "Visi taikomoji",
-        "domain_target_label": "Nurodytas domenas / IP sąrašas"
+        "domain_target_label": "Nurodytas domenas / IP sąrašas",
+        "killswitch_common_tips": "Jei „VPN“ būsena svyruoja, bus perimtas srautas, atitinkantis taisykles.",
+        "add_tunnel_title": "Pridėti tunelį",
+        "edit_tunnel_title": "Redaguoti tunelį",
+        "name_already_exists_msg": "Šio tunelio pavadinimas jau egzistuoja.",
+        "current_option_not_force_tips": "Kai keli tuneliai naudoja tą pačią VPN konfigūraciją, „Remote Access LAN“, „IP Masquerading“, „MTU“ yra taikomi pagal tunelio prioritetą. Aukštesnio prioriteto tunelio konfigūracija perkeis žemesnio prioriteto tunelio nustatymus."
     }
 }
