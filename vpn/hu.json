@@ -415,7 +415,8 @@
         "remove_confirm_tips": "Biztosan törölni szeretné ezt az alagutat?",
         "subcription_url_tips": "A URL-ben található domainnév vagy IP-cím automatikusan frissül minden nap.",
         "device_count_label": "{count} eszköz|{count} eszközök",
-        "method_count_label": "{count} módszer|{count} módszerek"
+        "method_count_label": "{count} módszer|{count} módszerek",
+        "custom_tunnel_title": "VPN-alagút testreszabása"
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
@@ -424,6 +425,7 @@
         "on_label": "A {type} szerver jelenleg BE van kapcsolva."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Sok útválasztási funkció nem lesz elérhető."
+        "start_not_available_tips": "Sok útválasztási funkció nem lesz elérhető.",
+        "start_common_tips": "A TAP-S2S kliens elindítása aktiválja a műszerfal TAP-S2S módját, aminek a következő hatásai lesznek:"
     }
 }
