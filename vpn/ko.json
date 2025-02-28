@@ -359,6 +359,17 @@
         "client_type_label": "고객님",
         "method_type_label": "方法",
         "at_least_one_mac_msg": "적어도 하나의 장치를 선택해 주세요.",
-        "at_least_one_method_msg": "적어도 하나의 연결 방법을 선택해 주세요."
+        "at_least_one_method_msg": "적어도 하나의 연결 방법을 선택해 주세요.",
+        "to_title": "여행지",
+        "via_title": "执行",
+        "killswitch_label": "Kill Switch",
+        "auto_vpn_label": "自动选择配置",
+        "killswitch_tips": "이 기능을 활성화하면 다른 VPN 터널 규칙보다 높은 우선 순위로 이 규칙과 일치하는 트래픽을 차단하지만 터널링되지 않습니다.",
+        "auto_vpn_tips": "이 옵션을 활성화하면 터널이 사용 가능한 프로필을 자동으로 선택하여 연결합니다.",
+        "switch_to_btn": "切换到{type}",
+        "do_not_want_use_tips": "현재 VPN을 사용하고 싶지 않으신가요?",
+        "no_vpn_config_tips": "현재 옵션을 사용하기 위한 VPN 구성이 설정되어 있지 않습니다.",
+        "go_to_guide_tips": "{view}로 이동하여 구성을 빠르게 완료하십시오.",
+        "vpn_guide_btn": "VPN 초보자 가이드"
     }
 }
