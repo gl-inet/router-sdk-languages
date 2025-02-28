@@ -383,6 +383,24 @@
         "edit_tunnel_title": "Tunnel bearbeiten",
         "using_options_tunnel_tips": "Die derzeit verwendete Tunnelkonfiguration ist: {name}",
         "name_already_exists_msg": "Dieser Tunnelname existiert bereits.",
-        "current_option_not_force_tips": "Wenn mehrere Tunnel dieselbe VPN-Konfiguration verwenden, werden 'Remote Access LAN', 'IP Masquerading' und 'MTU' nach der Priorität des Tunnels angewendet. Die Konfiguration eines Tunnels mit höherer Priorität wird die Einstellungen eines Tunnels mit niedrigerer Priorität überschreiben."
+        "current_option_not_force_tips": "Wenn mehrere Tunnel dieselbe VPN-Konfiguration verwenden, werden 'Remote Access LAN', 'IP Masquerading' und 'MTU' nach der Priorität des Tunnels angewendet. Die Konfiguration eines Tunnels mit höherer Priorität wird die Einstellungen eines Tunnels mit niedrigerer Priorität überschreiben.",
+        "exit_tap_s2s_btn": "Verlassen Sie TAP-S2S",
+        "guide_set_tunnel_tips": "Möchten Sie die Einrichtung der Regeln für diesen Tunnel abschließen?",
+        "default_tunnel_label": "Nicht-VPN-Tunnel",
+        "traffics_common_tips": "Von {name} stammender Verkehr",
+        "tap_s2s_title": "TAP-S2S-Modus",
+        "guide_icon_tips": "Wenn Sie nicht wissen, wie Sie ein VPN konfigurieren oder einen Tunnel hinzufügen können, können Sie hier klicken.",
+        "priority_title": "Tunnel-Priorität",
+        "set_custom_success_tips": "Der benutzerdefinierte VPN-Tunnel wurde erfolgreich eingerichtet.",
+        "priority_btn": "Priorität",
+        "guide_set_from_tips": "Legen Sie die Datenquellen fest, die Sie für VPN verwenden möchten",
+        "from_ovpnserver_desc": "Clients unter OpenVPN Server",
+        "guide_set_to_tips": "Legen Sie den Datenfluss fest, den Sie beschränken möchten",
+        "lan_desc": "Verkabeltes LAN und primäres WLAN",
+        "disable_default_tunnel_warning_tips": "Nicht-VPN-Tunneling stellt sicher, dass Datenverkehr, der nicht durch die oben genannten Tunnel geleitet wird, dennoch eine Verbindung zum Internet herstellen kann. Wenn es deaktiviert ist, wird jeglicher verbleibender Datenverkehr verworfen.",
+        "from_wgserver_desc": "Kunden unter WireGuard Server",
+        "rename_label": "Umbenennen",
+        "from_to_common_label": "{exclude} {type}",
+        "disable_default_tunnel_confirm_tips": "Möchten Sie den aktuellen Tunnel wirklich deaktivieren?"
     }
 }
