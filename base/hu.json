@@ -168,7 +168,8 @@
         "scan_btn": "Szkennelés",
         "revoke_btn": "Visszavonás",
         "manual_add_mac_btn": "Kézi eszköz hozzáadása",
-        "got_it": "a fájl elfogadása sikertelen"
+        "got_it": "a fájl elfogadása sikertelen",
+        "attention_title": "Figyelem"
     },
     "msg": {
         "success": "Végrehajtva!",
@@ -247,5 +248,8 @@
         "min_max_length_tips": "{min} - {max} karakter.",
         "only_num_letter_symbol_tips": "Csak betűk, számok és {symbol} szimbólumok engedélyezettek.",
         "only_letters_num_allowd_tips": "Érvénytelen sor szám: {num}"
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "VPN-alagút testreszabása"
     }
 }
