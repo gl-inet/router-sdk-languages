@@ -415,7 +415,8 @@
         "via_connecting_killswitch_tips": "Si vous activez le Kill Switch, tout le trafic correspondant au tunnel actuel ne sera pas transmis.",
         "subcription_url_tips": "Le nom de domaine ou l'IP dans l'URL est mis à jour automatiquement tous les jours.",
         "device_count_label": "{count} appareil|{count} appareils",
-        "method_count_label": "{count} méthode|{count} méthodes"
+        "method_count_label": "{count} méthode|{count} méthodes",
+        "custom_tunnel_title": "Personnaliser le tunnel VPN"
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",
@@ -424,6 +425,7 @@
         "on_label": "Le serveur {type} est actuellement ACTIF."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "De nombreuses fonctions de routage ne seront pas disponibles."
+        "start_not_available_tips": "De nombreuses fonctions de routage ne seront pas disponibles.",
+        "start_common_tips": "La mise en marche du client TAP-S2S entraînera l'activation du mode TAP-S2S sur le tableau de bord, ce qui aura les effets suivants :"
     }
 }
