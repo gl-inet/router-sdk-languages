@@ -377,6 +377,11 @@
         "not_use_vpn_label": "不使用VPN",
         "all_target_label": "全部目标",
         "domain_target_label": "指定域名/IP列表",
-        "exclude_domain_target_label": "排除指定域名/IP列表"
+        "exclude_domain_target_label": "排除指定域名/IP列表",
+        "killswitch_common_tips": "如果VPN状态波动，符合规则的流量将被拦截。",
+        "add_tunnel_title": "添加隧道",
+        "edit_tunnel_title": "修改隧道",
+        "name_already_exists_msg": "此隧道名称已存在。",
+        "current_option_not_force_tips": "当多个隧道使用相同的VPN配置时，“远程访问局域网”、“IP 动态伪装”、“MTU”将按隧道优先级应用。具有较高优先级的隧道配置将覆盖较低优先级隧道的设置。"
     }
 }
