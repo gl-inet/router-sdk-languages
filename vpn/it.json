@@ -401,6 +401,29 @@
         "from_ovpnserver_desc": "clienti sotto il server OpenVPN",
         "rename_label": "Rinomina",
         "disable_default_tunnel_warning_tips": "Il tunneling non-VPN garantisce che il traffico che non passa attraverso i tunnel sopra menzionati possa comunque connettersi a Internet. Se disabilitato, interromperà qualsiasi traffico residuo.",
-        "disable_default_tunnel_confirm_tips": "Sei sicuro di voler disabilitare il tunnel corrente?"
+        "disable_default_tunnel_confirm_tips": "Sei sicuro di voler disabilitare il tunnel corrente?",
+        "not_use_vpn_via_tips": "L'attuale tunnel non è impostato per utilizzare una VPN.",
+        "exclude_label": "Escludere",
+        "address_count_label": "{count} Indirizzo|{count} Indirizzi",
+        "to_all_taget_tips": "Il traffico verso tutte le destinazioni è supportato utilizzando l'attuale tunnel.",
+        "form_default_tips": "Il traffico da tutti i dispositivi è supportato utilizzando la regola corrente.",
+        "via_connecting_killswitch_tips": "Se attivi il Kill Switch, tutto il traffico che corrisponde al tunnel attuale non verrà inoltrato.",
+        "via_not_enabled_tips": "Attualmente il Tunnel non è abilitato",
+        "via_try_connecting_label": "Tentativo di connessione in corso...",
+        "via_connecting_tips": "Il tunnel è in esecuzione, ma l'attivazione della VPN è fallita.",
+        "remove_confirm_tips": "Sei sicuro di voler eliminare questo tunnel?",
+        "subcription_url_tips": "Il nome di dominio o l'IP nell'URL viene aggiornato automaticamente ogni giorno.",
+        "device_count_label": "{count} Dispositivo|{count} Dispositivi",
+        "subcription_url_label": "URL dell'abbonamento",
+        "method_count_label": "{count} Metodo|{count} Metodi"
+    },
+    "vpn_server": {
+        "connected_dev_label": "Dispositivi connessi",
+        "off_title": "Il server {type} è attualmente SPENTO.",
+        "starting_label": "Il server {type} è in avviamento...",
+        "on_label": "Il server {type} è attualmente ACCESO."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Molte funzioni di instradamento non saranno disponibili."
     }
 }
