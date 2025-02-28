@@ -359,6 +359,17 @@
         "client_type_label": "クライアント",
         "method_type_label": "方法",
         "at_least_one_method_msg": "少なくとも1つの接続方法を選択してください。",
-        "at_least_one_mac_msg": "少なくとも1台のデバイスを選択してください。"
+        "at_least_one_mac_msg": "少なくとも1台のデバイスを選択してください。",
+        "to_title": "旅行先",
+        "via_title": "実行",
+        "killswitch_label": "Kill Switch",
+        "auto_vpn_label": "自動選択設定",
+        "killswitch_tips": "この機能を有効にすると、このルールに一致するがトンネルされていないトラフィックをブロックし、他のVPNトンネルルールよりも優先度が高くなります。",
+        "auto_vpn_tips": "このオプションを有効にすると、トンネルは利用可能なプロファイルを自動的に選択して接続します。",
+        "switch_to_btn": "切换到{type}",
+        "go_to_guide_tips": "{view}にアクセスして、設定を迅速に完了してください。",
+        "do_not_want_use_tips": "現在使用しているVPNを使用したくないですか？",
+        "no_vpn_config_tips": "現在のオプションを使用するVPN設定はまだ設定されていません。",
+        "vpn_guide_btn": "VPN 初心者ガイド"
     }
 }
