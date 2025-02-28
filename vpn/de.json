@@ -415,7 +415,8 @@
         "via_connecting_tips": "Der Tunnel wird ausgeführt, aber die VPN-Aktivierung ist fehlgeschlagen.",
         "remove_confirm_tips": "Sind Sie sicher, dass Sie diesen Tunnel löschen möchten?",
         "subcription_url_tips": "Die Domain-Adresse oder IP in der URL wird automatisch jeden Tag aktualisiert.",
-        "device_count_label": "{count} Gerät|{count} Geräte"
+        "device_count_label": "{count} Gerät|{count} Geräte",
+        "custom_tunnel_title": "VPN-Tunnel anpassen"
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
@@ -424,6 +425,7 @@
         "on_label": "Der {type} Server ist derzeit EINGESCHALTET."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein."
+        "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein.",
+        "start_common_tips": "Das Starten des TAP-S2S-Clients wird dazu führen, dass das Dashboard in den TAP-S2S-Modus wechselt, was folgende Auswirkungen hat:"
     }
 }
