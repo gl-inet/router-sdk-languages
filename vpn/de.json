@@ -377,6 +377,12 @@
         "go_to_page_btn": "Gehen Sie zu {page}",
         "not_use_vpn_label": "Nicht VPN verwenden",
         "domain_target_label": "Spezifizierte Domain-/IP-Liste",
-        "exclude_domain_target_label": "Ausgeschlossene spezifizierte Domain-/IP-Liste"
+        "exclude_domain_target_label": "Ausgeschlossene spezifizierte Domain-/IP-Liste",
+        "killswitch_common_tips": "Wenn der VPN-Status schwankt, wird der Verkehr, der den Regeln entspricht, abgefangen.",
+        "add_tunnel_title": "Tunnel hinzufügen",
+        "edit_tunnel_title": "Tunnel bearbeiten",
+        "using_options_tunnel_tips": "Die derzeit verwendete Tunnelkonfiguration ist: {name}",
+        "name_already_exists_msg": "Dieser Tunnelname existiert bereits.",
+        "current_option_not_force_tips": "Wenn mehrere Tunnel dieselbe VPN-Konfiguration verwenden, werden 'Remote Access LAN', 'IP Masquerading' und 'MTU' nach der Priorität des Tunnels angewendet. Die Konfiguration eines Tunnels mit höherer Priorität wird die Einstellungen eines Tunnels mit niedrigerer Priorität überschreiben."
     }
 }
