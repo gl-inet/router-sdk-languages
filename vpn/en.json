@@ -373,7 +373,7 @@
         "vpn_guide_btn": "VPN Beginner's Guide",
         "or_self_configuration_tips": "Or self-configuration {type}.",
         "use_vpn_label": "Use VPN",
-        "all_target_label": "All target",
+        "all_target_label": "All targets",
         "go_to_page_btn": "Go to {page}",
         "not_use_vpn_label": "Not Use VPN",
         "domain_target_label": "Specified Domain / IP List",
@@ -401,6 +401,29 @@
         "disable_default_tunnel_warning_tips": "Non-VPN tunnelling ensures that traffic not passing through the above tunnels can still connect to the Internet. If disabled it will drop any remaining traffic.",
         "rename_label": "Rename",
         "from_to_common_label": "{exclude} {type}",
-        "disable_default_tunnel_confirm_tips": "Are you sure you want to disable the current tunnel?"
+        "disable_default_tunnel_confirm_tips": "Are you sure you want to disable the current tunnel?",
+        "not_use_vpn_via_tips": "The current tunnel is not set to use a VPN.",
+        "subcription_url_label": "Subcription URL",
+        "form_default_tips": "Traffic from all devices is supported using the current rule.",
+        "exclude_label": "Exclude",
+        "address_count_label": "{count} Address|{count} Addresses",
+        "via_not_enabled_tips": "Currently Tunnel is not enabled",
+        "to_all_taget_tips": "Traffics to all destinations is supported using the current tunnel.",
+        "method_count_label": "{count} Method|{count} Methods",
+        "via_connecting_killswitch_tips": "If you enable kill switch, all traffic that matches the current tunnel will not be forwarded.",
+        "via_try_connecting_label": "Try Connecting...",
+        "via_connecting_tips": "The tunnel is executing, but VPN enablement failed.",
+        "remove_confirm_tips": "Are you sure you want to delete this tunnel?",
+        "subcription_url_tips": "*The domain name or IP in the URL is automatically updated every day.",
+        "device_count_label": "{count} Device|{count} Devices"
+    },
+    "vpn_server": {
+        "starting_label": "The {type} server is starting...",
+        "off_title": "The {type} server is currently OFF.",
+        "connected_dev_label": "Connected devices",
+        "on_label": "The {type} server is currently ON."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Many routing functions will not be available."
     }
 }
