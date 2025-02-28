@@ -382,6 +382,25 @@
         "add_tunnel_title": "トンネルを追加",
         "edit_tunnel_title": "トンネルの変更",
         "name_already_exists_msg": "このトンネルの名前は既に存在しています。",
-        "current_option_not_force_tips": "複数のトンネルが同じVPN設定を使用する場合、「リモートアクセスLAN」、「IPマスカレード」、「MTU」はトンネルの優先度によって適用されます。優先度の高いトンネルの設定が、優先度の低いトンネルの設定を上書きします。"
+        "current_option_not_force_tips": "複数のトンネルが同じVPN設定を使用する場合、「リモートアクセスLAN」、「IPマスカレード」、「MTU」はトンネルの優先度によって適用されます。優先度の高いトンネルの設定が、優先度の低いトンネルの設定を上書きします。",
+        "exit_tap_s2s_btn": "TAP-S2Sを終了",
+        "guide_set_tunnel_tips": "このトンネルの設定ルールを完成させますか？",
+        "default_tunnel_label": "非VPNトンネル",
+        "using_options_tunnel_tips": "現在使用中のトンネル設定は：{name}です。",
+        "tap_s2s_title": "TAP-S2Sモード",
+        "guide_icon_tips": "VPNの設定方法やトンネルの追加方法がわからない場合は、こちらをクリックしてください。",
+        "priority_title": "トンネル優先度",
+        "priority_btn": "優先度",
+        "from_ovpnserver_desc": "OpenVPNサーバー下のクライアント",
+        "set_custom_success_tips": "カスタムVPNトンネルが正常に設定されました。",
+        "guide_set_from_tips": "使用するVPNのデータソースを設定",
+        "guide_set_to_tips": "制限したいデータフローを設定",
+        "traffics_common_tips": "{name}からのトラフィック",
+        "lan_desc": "有線LANとプライマリWi-Fi",
+        "from_wgserver_desc": "WireGuardサーバー下のクライアント",
+        "from_to_common_label": "{exclude} {type}",
+        "rename_label": "改名",
+        "disable_default_tunnel_warning_tips": "VPNトンネリングを使用しない場合、上記のトンネルを通過しないトラフィックもインターネットに接続できます。無効にすると、残りのトラフィックはドロップされます。",
+        "disable_default_tunnel_confirm_tips": "現在のトンネルを無効にしてもよろしいですか？"
     }
 }
