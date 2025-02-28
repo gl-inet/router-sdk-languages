@@ -359,6 +359,17 @@
         "client_type_label": "Clients",
         "method_type_label": "Methods",
         "at_least_one_method_msg": "Please select at least one connection method.",
-        "at_least_one_mac_msg": "Please select at least one device."
+        "at_least_one_mac_msg": "Please select at least one device.",
+        "to_title": "Travelling To",
+        "via_title": "Execute",
+        "killswitch_label": "Kill Switch",
+        "auto_vpn_label": "Auto-select Configuration",
+        "auto_vpn_tips": "When this option is enabled, the tunnel automatically selects available profiles to connect.",
+        "killswitch_tips": "Enable this feature to block traffic that matches this rule but is not tunneled, with higher priority than other VPN tunnel rules.",
+        "switch_to_btn": "Switch To {type}",
+        "go_to_guide_tips": "Go to {view} to quickly complete the configuration.",
+        "do_not_want_use_tips": "Don't want to use your current VPN?",
+        "no_vpn_config_tips": "You do not currently have any VPN configurations set up to use the current options.",
+        "vpn_guide_btn": "VPN Beginner's Guide"
     }
 }
