@@ -415,7 +415,8 @@
         "subcription_url_label": "Adres URL subskrypcji",
         "subcription_url_tips": "Nazwa domeny lub adres IP w adresie URL jest automatycznie aktualizowana każdego dnia.",
         "device_count_label": "{count} urządzenie|{count} urządzenia|{count} urządzeń",
-        "method_count_label": "{count} metoda|{count} metody|{count} metod"
+        "method_count_label": "{count} metoda|{count} metody|{count} metod",
+        "custom_tunnel_title": "Dostosuj tunel VPN"
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
@@ -424,6 +425,7 @@
         "on_label": "Serwer {type} jest obecnie WŁĄCZONY."
     },
     "vpn_taps2s": {
-        "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych."
+        "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych.",
+        "start_common_tips": "Uruchomienie klienta TAP-S2S spowoduje włączenie trybu TAP-S2S w panelu sterowania, co będzie miało następujące skutki:"
     }
 }
