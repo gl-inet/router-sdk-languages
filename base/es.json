@@ -119,7 +119,8 @@
         "scan_btn": "Escaneo",
         "revoke_btn": "Revocar",
         "manual_add_mac_btn": "Agregar Dispositivo Manualmente",
-        "got_it": "Entendido."
+        "got_it": "Entendido.",
+        "attention_title": "Atención"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "Solo se permite ingresar {limit}.",
         "min_max_length_tips": "{min} - {max} caracteres.",
         "only_num_letter_symbol_tips": "Solo se permiten letras, números y los símbolos {symbol}."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "Personalizar túnel VPN"
     }
 }
