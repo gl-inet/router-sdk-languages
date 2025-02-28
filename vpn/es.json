@@ -383,6 +383,24 @@
         "using_options_tunnel_tips": "La configuración del túnel actualmente en uso es: {name}",
         "name_already_exists_msg": "El nombre de este túnel ya existe.",
         "current_option_not_force_tips": "Cuando múltiples túneles utilizan la misma configuración VPN, 'Acceso Remoto a LAN', 'Enmascaramiento de IP' y 'MTU' se aplican según la prioridad del túnel. La configuración de un túnel con una prioridad más alta anulará la configuración de un túnel de menor prioridad.",
-        "all_target_label": "Si el estado de la VPN fluctúa, el tráfico que cumple con las reglas será interceptado."
+        "all_target_label": "Si el estado de la VPN fluctúa, el tráfico que cumple con las reglas será interceptado.",
+        "exit_tap_s2s_btn": "Salir de TAP-S2S",
+        "guide_set_tunnel_tips": "¿Desea continuar y finalizar la configuración de las reglas para este túnel?",
+        "default_tunnel_label": "Túnel sin VPN",
+        "tap_s2s_title": "Modo TAP-S2S",
+        "priority_title": "Prioridad de Túneles",
+        "priority_btn": "Prioridad",
+        "guide_icon_tips": "Si no sabe cómo configurar una VPN o añadir un Túnel, puede hacer clic aquí.",
+        "from_ovpnserver_desc": "clientes bajo el servidor OpenVPN",
+        "set_custom_success_tips": "Se ha configurado con éxito el túnel VPN personalizado.",
+        "guide_set_from_tips": "Establezca las fuentes de datos que desea utilizar con VPN",
+        "guide_set_to_tips": "Establezca el flujo de datos que desea restringir",
+        "traffics_common_tips": "El tráfico desde {name}",
+        "lan_desc": "Red LAN por cable y Wi-Fi primario",
+        "from_wgserver_desc": "clientes bajo el servidor WireGuard",
+        "rename_label": "Renombrar",
+        "from_to_common_label": "{exclude} {type}",
+        "disable_default_tunnel_warning_tips": "El túnel no VPN garantiza que el tráfico que no pasa por los túneles anteriores aún pueda conectarse a Internet. Si se desactiva, se bloqueará cualquier tráfico restante.",
+        "disable_default_tunnel_confirm_tips": "¿Está seguro de que desea desactivar el túnel actual?"
     }
 }
