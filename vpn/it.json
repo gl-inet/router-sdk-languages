@@ -382,6 +382,25 @@
         "edit_tunnel_title": "Modifica Tunnel",
         "name_already_exists_msg": "Il nome di questo tunnel esiste già.",
         "current_option_not_force_tips": "Quando più tunnel utilizzano la stessa configurazione VPN, 'Accesso Remoto LAN', 'IP Masquerading', 'MTU' vengono applicati in base alla priorità del tunnel. La configurazione di un tunnel con priorità più alta sovrascriverà le impostazioni di un tunnel con priorità inferiore.",
-        "all_target_label": "Se lo stato della VPN fluttua, il traffico che rispetta le regole verrà intercettato."
+        "all_target_label": "Se lo stato della VPN fluttua, il traffico che rispetta le regole verrà intercettato.",
+        "using_options_tunnel_tips": "La configurazione del tunnel attualmente in uso è: {name}.",
+        "exit_tap_s2s_btn": "Uscita TAP-S2S",
+        "guide_set_tunnel_tips": "Desidera procedere e completare la configurazione delle regole per questo tunnel?",
+        "default_tunnel_label": "Tunnel non-VPN",
+        "tap_s2s_title": "Modalità TAP-S2S",
+        "priority_title": "Priorità dei Tunnel",
+        "set_custom_success_tips": "Il tunnel VPN personalizzato è stato configurato con successo.",
+        "guide_icon_tips": "Se non sai come configurare una VPN o aggiungere un Tunnel, puoi fare clic qui.",
+        "priority_btn": "Priorità",
+        "guide_set_from_tips": "Imposta le fonti di dati che desideri utilizzare con la VPN",
+        "guide_set_to_tips": "Imposta il flusso di dati che desideri limitare",
+        "traffics_common_tips": "Il traffico da {name}",
+        "lan_desc": "LAN cablato e Wi-Fi primario",
+        "from_wgserver_desc": "clienti sotto il Server WireGuard",
+        "from_to_common_label": "{exclude} {type}",
+        "from_ovpnserver_desc": "clienti sotto il server OpenVPN",
+        "rename_label": "Rinomina",
+        "disable_default_tunnel_warning_tips": "Il tunneling non-VPN garantisce che il traffico che non passa attraverso i tunnel sopra menzionati possa comunque connettersi a Internet. Se disabilitato, interromperà qualsiasi traffico residuo.",
+        "disable_default_tunnel_confirm_tips": "Sei sicuro di voler disabilitare il tunnel corrente?"
     }
 }
