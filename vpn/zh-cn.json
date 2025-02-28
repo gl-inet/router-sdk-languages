@@ -359,6 +359,17 @@
         "client_type_label": "客户端",
         "method_type_label": "方法",
         "at_least_one_mac_msg": "请选择至少一台设备。",
-        "at_least_one_method_msg": "请选择至少一种连接方式。"
+        "at_least_one_method_msg": "请选择至少一种连接方式。",
+        "to_title": "前往",
+        "via_title": "执行",
+        "killswitch_label": "Kill Switch",
+        "auto_vpn_label": "自动选择配置",
+        "killswitch_tips": "启用此功能可阻止与此规则匹配但未通过隧道传输的流量，其优先级高于其他VPN隧道规则。",
+        "auto_vpn_tips": "启用此选项后，隧道会自动选择可用的配置文件进行连接。",
+        "switch_to_btn": "切换到{type}",
+        "do_not_want_use_tips": "不想使用您当前的VPN吗？",
+        "no_vpn_config_tips": "您当前没有设置任何VPN配置来使用这些选项。",
+        "go_to_guide_tips": "前往{view}以快速完成配置。",
+        "vpn_guide_btn": "VPN 新手指南"
     }
 }
