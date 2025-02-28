@@ -382,6 +382,25 @@
         "add_tunnel_title": "Ajouter un tunnel",
         "edit_tunnel_title": "Modifier le Tunnel",
         "name_already_exists_msg": "Le nom de ce tunnel existe déjà.",
-        "current_option_not_force_tips": "Lorsque plusieurs tunnels utilisent la même configuration VPN, 'Accès à distance au LAN', 'IP Masqué' et 'MTU' sont appliqués selon la priorité du tunnel. La configuration d'un tunnel avec une priorité plus élevée remplacera les paramètres d'un tunnel de priorité inférieure."
+        "current_option_not_force_tips": "Lorsque plusieurs tunnels utilisent la même configuration VPN, 'Accès à distance au LAN', 'IP Masqué' et 'MTU' sont appliqués selon la priorité du tunnel. La configuration d'un tunnel avec une priorité plus élevée remplacera les paramètres d'un tunnel de priorité inférieure.",
+        "using_options_tunnel_tips": "La configuration du tunnel actuellement utilisée est : {name}",
+        "exit_tap_s2s_btn": "Quitter TAP-S2S",
+        "default_tunnel_label": "Tunnel non-VPN",
+        "guide_icon_tips": "Si vous ne savez pas comment configurer un VPN ou ajouter un Tunnel, vous pouvez cliquer ici.",
+        "tap_s2s_title": "Mode TAP-S2S",
+        "priority_title": "Priorité des Tunnels",
+        "set_custom_success_tips": "Le tunnel VPN personnalisé a été configuré avec succès.",
+        "priority_btn": "Priorité",
+        "guide_set_tunnel_tips": "Voulez-vous procéder et terminer la configuration des règles pour ce tunnel ?",
+        "from_ovpnserver_desc": "clients sous le serveur OpenVPN",
+        "guide_set_from_tips": "Définissez les sources de données que vous souhaitez utiliser avec le VPN",
+        "guide_set_to_tips": "Définissez le flux de données que vous souhaitez restreindre",
+        "traffics_common_tips": "Le trafic provenant de {name}",
+        "lan_desc": "Réseau local filaire et Wi-Fi principal",
+        "from_wgserver_desc": "clients sous le serveur WireGuard",
+        "rename_label": "Renommer",
+        "from_to_common_label": "{exclude} {type}",
+        "disable_default_tunnel_warning_tips": "Le tunneling non-VPN garantit que le trafic ne passant pas par les tunnels ci-dessus peut toujours se connecter à Internet. S'il est désactivé, tout trafic restant sera bloqué.",
+        "disable_default_tunnel_confirm_tips": "Êtes-vous sûr de vouloir désactiver le tunnel actuel ?"
     }
 }
