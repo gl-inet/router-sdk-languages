@@ -377,6 +377,11 @@
         "not_use_vpn_label": "Niet VPN gebruiken",
         "exclude_domain_target_label": "Uitsluiten van specifieke domein-/IP-lijst",
         "all_target_label": "Alle doelen",
-        "domain_target_label": "Specifieke domein-/IP-lijst"
+        "domain_target_label": "Specifieke domein-/IP-lijst",
+        "killswitch_common_tips": "Als de VPN-status fluctueert, wordt verkeer dat voldoet aan de regels onderschept.",
+        "add_tunnel_title": "Tunnel toevoegen",
+        "edit_tunnel_title": "Wijzig Tunnel",
+        "name_already_exists_msg": "Deze tunnelnaam bestaat al.",
+        "current_option_not_force_tips": "Wanneer meerdere tunnels dezelfde VPN-configuratie gebruiken, worden 'Remote Access LAN', 'IP-Masquerading', 'MTU' toegepast op basis van tunnel prioriteit. De configuratie van een tunnel met een hogere prioriteit zal de instellingen van een tunnel met een lagere prioriteit overschrijven."
     }
 }
