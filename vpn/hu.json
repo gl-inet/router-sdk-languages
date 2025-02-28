@@ -401,6 +401,29 @@
         "rename_label": "Átnevezés",
         "from_to_common_label": "{kizár} {típus}",
         "disable_default_tunnel_warning_tips": "A VPN-nélküli alagutazás biztosítja, hogy az említett alagutakon keresztül nem haladó forgalom továbbra is csatlakozhasson az internethez. Ha le van tiltva, akkor eldob minden egyéb forgalmat.",
-        "disable_default_tunnel_confirm_tips": "Biztosan ki szeretné kapcsolni az aktuális alagutat?"
+        "disable_default_tunnel_confirm_tips": "Biztosan ki szeretné kapcsolni az aktuális alagutat?",
+        "not_use_vpn_via_tips": "Az aktuális alagút nincs VPN használatra beállítva.",
+        "subcription_url_label": "Előfizetési URL",
+        "exclude_label": "Kizárás",
+        "via_not_enabled_tips": "Jelenleg a Tunnel nincs engedélyezve.",
+        "address_count_label": "{count} cím|{count} címek",
+        "to_all_taget_tips": "Az aktuális alagúton keresztül minden célállomásra irányuló forgalom támogatott.",
+        "form_default_tips": "Az aktuális szabály szerint minden eszköz forgalma támogatott.",
+        "via_connecting_killswitch_tips": "Ha engedélyezi a Kill Switch funkciót, akkor a jelenlegi alagúttal megegyező összes forgalom nem lesz továbbítva.",
+        "via_try_connecting_label": "Próbálja meg csatlakoztatni...",
+        "via_connecting_tips": "A tunel működik, de a VPN engedélyezése nem sikerült.",
+        "remove_confirm_tips": "Biztosan törölni szeretné ezt az alagutat?",
+        "subcription_url_tips": "A URL-ben található domainnév vagy IP-cím automatikusan frissül minden nap.",
+        "device_count_label": "{count} eszköz|{count} eszközök",
+        "method_count_label": "{count} módszer|{count} módszerek"
+    },
+    "vpn_server": {
+        "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
+        "starting_label": "A {type} szerver indítása folyamatban...",
+        "connected_dev_label": "Csatlakoztatott eszközök",
+        "on_label": "A {type} szerver jelenleg BE van kapcsolva."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Sok útválasztási funkció nem lesz elérhető."
     }
 }
