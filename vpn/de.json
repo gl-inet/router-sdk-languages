@@ -349,6 +349,7 @@
         "connect_methods_label": "Bestimmte Verbindungsmethoden",
         "not_applicale_add_mac_only_tips": "Der Datenverkehrsursprung basiert ausschließlich auf dem aktuellen Gerät, daher kann der Client nicht aus diesem VPN-Tunnel entfernt werden.",
         "exclude_device_label": "Ausgeschlossene Geräte",
-        "start_title": "VPN-Konfiguration starten"
+        "start_title": "VPN-Konfiguration starten",
+        "stop_tips": "Das Stoppen dieser Konfiguration wird alle Tunnel, die sie verwenden, deaktivieren. Um einzelne Tunnel zu verwalten, besuchen Sie bitte die {page}."
     }
 }
