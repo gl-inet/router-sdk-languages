@@ -359,6 +359,17 @@
         "client_type_label": "Klientai",
         "method_type_label": "Metodai",
         "at_least_one_method_msg": "Prašome pasirinkti bent vieną ryšio metodą.",
-        "at_least_one_mac_msg": "Prašome pasirinkti bent vieną įrenginį."
+        "at_least_one_mac_msg": "Prašome pasirinkti bent vieną įrenginį.",
+        "to_title": "Kelionė į",
+        "via_title": "Vykdyti",
+        "killswitch_label": "Kill Switch",
+        "auto_vpn_label": "Automatinis pasirinkimas konfigūracija",
+        "killswitch_tips": "Įjunkite šią funkciją, kad blokuotumėte srautą, kuris atitinka šią taisyklę, bet nėra nukreiptas per tunelį, turintį aukštesnį prioritetą nei kitos „VPN“ tunelio taisyklės.",
+        "auto_vpn_tips": "Kai ši funkcija įjungta, tunelis automatiškai pasirenka galimus profilius prisijungimui.",
+        "switch_to_btn": "Pereiti į {type}",
+        "do_not_want_use_tips": "Nenori naudoti savo dabartinio „VPN“?",
+        "no_vpn_config_tips": "Šiuo metu neturite sukonfigūravę jokių VPN konfigūracijų, kurią naudoti su esamomis parinktimis.",
+        "go_to_guide_tips": "Eikite į {view}, kad greitai užbaigtumėte konfigūraciją.",
+        "vpn_guide_btn": "„VPN“ pradedančiųjų vadovas"
     }
 }
