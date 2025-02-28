@@ -118,7 +118,9 @@
         "search": "Recherche",
         "scan_btn": "Numériser",
         "revoke_btn": "Révoquer",
-        "manual_add_mac_btn": "Ajouter un appareil manuellement"
+        "manual_add_mac_btn": "Ajouter un appareil manuellement",
+        "attention_title": "Attention",
+        "got_it": "Attention"
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -246,5 +248,8 @@
         "only_allowd_input_tips": "Seulement {limit} est autorisé à être saisi.",
         "only_num_letter_symbol_tips": "Seules les lettres, les chiffres et les symboles {symbol} sont autorisés.",
         "min_max_length_tips": "{min} - {max} caractères."
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "Personnaliser le tunnel VPN"
     }
 }
