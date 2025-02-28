@@ -426,6 +426,8 @@
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos.",
-        "start_common_tips": "Paleidus TAP-S2S klientą, ataskaitų skydelis įjungs TAP-S2S veikseną, kuri turės šiuos efektus:"
+        "start_common_tips": "Paleidus TAP-S2S klientą, ataskaitų skydelis įjungs TAP-S2S veikseną, kuri turės šiuos efektus:",
+        "exit_title": "Dėmesio: Išėjimas TAP-S2S",
+        "exit_tips": "Išėjus iš TAP-S2S kliento, bus išjungta TAP-S2S veiksena ir grįžta prie Tunelio veiksenos. OpenVPN klientas taip pat grįš prie savo pradinio IP adreso."
     }
 }
