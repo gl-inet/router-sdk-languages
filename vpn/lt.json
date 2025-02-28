@@ -382,6 +382,25 @@
         "add_tunnel_title": "Pridėti tunelį",
         "edit_tunnel_title": "Redaguoti tunelį",
         "name_already_exists_msg": "Šio tunelio pavadinimas jau egzistuoja.",
-        "current_option_not_force_tips": "Kai keli tuneliai naudoja tą pačią VPN konfigūraciją, „Remote Access LAN“, „IP Masquerading“, „MTU“ yra taikomi pagal tunelio prioritetą. Aukštesnio prioriteto tunelio konfigūracija perkeis žemesnio prioriteto tunelio nustatymus."
+        "current_option_not_force_tips": "Kai keli tuneliai naudoja tą pačią VPN konfigūraciją, „Remote Access LAN“, „IP Masquerading“, „MTU“ yra taikomi pagal tunelio prioritetą. Aukštesnio prioriteto tunelio konfigūracija perkeis žemesnio prioriteto tunelio nustatymus.",
+        "exit_tap_s2s_btn": "Išjungti TAP-S2S",
+        "guide_set_tunnel_tips": "Ar norite tęsti ir užbaigti šio tunelio taisyklių nustatymą?",
+        "using_options_tunnel_tips": "Šiuo metu naudojama tunelio konfigūracija yra: {name}.",
+        "tap_s2s_title": "TAP-S2S veiksena",
+        "default_tunnel_label": "Ne-VPN tunelis",
+        "priority_title": "Tunelių prioritetas",
+        "set_custom_success_tips": "Pasirinktinės „VPN“ tunelio nustatymas sėkmingai atliktas.",
+        "guide_icon_tips": "Jei nežinote, kaip sukonfigūruoti VPN arba pridėti tunelį, galite spustelėti čia.",
+        "from_ovpnserver_desc": "OpenVPN serverio klientai",
+        "priority_btn": "Prioritetas",
+        "guide_set_from_tips": "Nustatykite duomenų šaltinius, kuriuos norite naudoti per „VPN“",
+        "guide_set_to_tips": "Nustatykite duomenų srautą, kurį norite apriboti",
+        "traffics_common_tips": "Eismas iš {name}",
+        "lan_desc": "Laidinis vietinis tinklas („LAN“) ir pagrindinis „Wi-Fi“",
+        "from_wgserver_desc": "klientai po „WireGuard“ serveriu",
+        "from_to_common_label": "{exclude} {type}",
+        "rename_label": "Pervadinti",
+        "disable_default_tunnel_warning_tips": "Ne „VPN“ tuneliavimas užtikrina, kad srautas, nepraeinantis per aukščiau nurodytus tunelius, vis tiek galėtų prisijungti prie interneto. Jei išjungta, tai šalins bet kokį likusį srautą.",
+        "disable_default_tunnel_confirm_tips": "Ar tikrai norite išjungti esamą tunelį?"
     }
 }
