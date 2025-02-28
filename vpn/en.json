@@ -383,6 +383,24 @@
         "edit_tunnel_title": "Modify Tunnel",
         "using_options_tunnel_tips": "The tunnel configuration currently in use is: {name}.",
         "name_already_exists_msg": "This tunnel's name already exists.",
-        "current_option_not_force_tips": "When multiple tunnels use the same VPN configuration, 'Remote Access LAN', 'IP Masquerading', 'MTU' are applied by tunnel priority. The configuration of a tunnel with a higher priority will override the settings of a lower priority tunnel."
+        "current_option_not_force_tips": "When multiple tunnels use the same VPN configuration, 'Remote Access LAN', 'IP Masquerading', 'MTU' are applied by tunnel priority. The configuration of a tunnel with a higher priority will override the settings of a lower priority tunnel.",
+        "exit_tap_s2s_btn": "Exit TAP-S2S",
+        "guide_set_tunnel_tips": "Do you want to go ahead and finish setting up the rules for this tunnel?",
+        "default_tunnel_label": "Non-VPN Tunnel",
+        "traffics_common_tips": "Traffics from {name}",
+        "tap_s2s_title": "TAP-S2S Mode",
+        "guide_icon_tips": "If you don't know how to configure a VPN or add a Tunnel, you can click here.",
+        "priority_title": "Tunnels Priority",
+        "set_custom_success_tips": "The custom VPN tunnel was set successfully.",
+        "priority_btn": "Priority",
+        "guide_set_from_tips": "Set The Data Sources You Want To Use VPN",
+        "from_ovpnserver_desc": "clients under OpenVPN Server",
+        "from_wgserver_desc": "clients under WireGuard Server",
+        "guide_set_to_tips": "Set The Data Flow You Want To Restrict",
+        "lan_desc": "Wired LAN and Primary Wi-Fi",
+        "disable_default_tunnel_warning_tips": "Non-VPN tunnelling ensures that traffic not passing through the above tunnels can still connect to the Internet. If disabled it will drop any remaining traffic.",
+        "rename_label": "Rename",
+        "from_to_common_label": "{exclude} {type}",
+        "disable_default_tunnel_confirm_tips": "Are you sure you want to disable the current tunnel?"
     }
 }
