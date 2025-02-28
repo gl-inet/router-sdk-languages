@@ -426,6 +426,8 @@
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Molte funzioni di instradamento non saranno disponibili.",
-        "start_common_tips": "L'avvio del client TAP-S2S causerà l'attivazione della modalità TAP-S2S nel pannello di controllo, che avrà i seguenti effetti:"
+        "start_common_tips": "L'avvio del client TAP-S2S causerà l'attivazione della modalità TAP-S2S nel pannello di controllo, che avrà i seguenti effetti:",
+        "exit_title": "Attenzione: Uscita TAP-S2S",
+        "exit_tips": "Uscendo dal client TAP-S2S verrà disabilitata la modalità TAP-S2S e si ritornerà alla modalità Tunnel. Anche il client OpenVPN tornerà al suo indirizzo IP originale."
     }
 }
