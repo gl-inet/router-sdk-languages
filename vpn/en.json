@@ -377,6 +377,12 @@
         "go_to_page_btn": "Go to {page}",
         "not_use_vpn_label": "Not Use VPN",
         "domain_target_label": "Specified Domain / IP List",
-        "exclude_domain_target_label": "Exclude specified Domain / IP List"
+        "exclude_domain_target_label": "Exclude specified Domain / IP List",
+        "killswitch_common_tips": "If the VPN status fluctuates, traffic that complies with the rules will be intercepted.",
+        "add_tunnel_title": "Add Tunnel",
+        "edit_tunnel_title": "Modify Tunnel",
+        "using_options_tunnel_tips": "The tunnel configuration currently in use is: {name}.",
+        "name_already_exists_msg": "This tunnel's name already exists.",
+        "current_option_not_force_tips": "When multiple tunnels use the same VPN configuration, 'Remote Access LAN', 'IP Masquerading', 'MTU' are applied by tunnel priority. The configuration of a tunnel with a higher priority will override the settings of a lower priority tunnel."
     }
 }
