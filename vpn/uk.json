@@ -401,6 +401,29 @@
         "from_to_common_label": "{exclude} {type}",
         "rename_label": "Перейменувати",
         "disable_default_tunnel_warning_tips": "Не-VPN тунелювання забезпечує підключення до Інтернету трафіку, який не проходить через вищезазначені тунелі. Якщо вимкнути, будь-який інший трафік буде заблокований.",
-        "disable_default_tunnel_confirm_tips": "Ви впевнені, що хочете вимкнути поточний тунель?"
+        "disable_default_tunnel_confirm_tips": "Ви впевнені, що хочете вимкнути поточний тунель?",
+        "not_use_vpn_via_tips": "Поточний тунель не налаштований на використання VPN.",
+        "exclude_label": "Виключити",
+        "address_count_label": "{count} адреса|{count} адресів",
+        "to_all_taget_tips": "Трафік до всіх пунктів призначення підтримується за допомогою поточного тунелю.",
+        "form_default_tips": "Трафік з усіх пристроїв підтримується за діючим правилом.",
+        "via_not_enabled_tips": "Наразі тунель не активовано",
+        "via_try_connecting_label": "Спробуйте підключитися...",
+        "via_connecting_tips": "Тунель запущено, але активація VPN не вдалася.",
+        "remove_confirm_tips": "Ви впевнені, що хочете видалити цей тунель?",
+        "via_connecting_killswitch_tips": "Якщо ви активуєте Kill Switch, увесь трафік, який відповідає поточному тунелю, не буде переспрямовуватися.",
+        "subcription_url_label": "Підписка URL",
+        "subcription_url_tips": "Доменне ім'я або IP-адреса в URL автоматично оновлюються щодня.",
+        "device_count_label": "{count} пристрій|{count} пристроїв",
+        "method_count_label": "{count} метод|{count} методи"
+    },
+    "vpn_server": {
+        "connected_dev_label": "Підключені пристрої",
+        "off_title": "{type} сервер зараз ВИМКНЕНО.",
+        "starting_label": "Сервер {type} запускається...",
+        "on_label": "Сервер {type} зараз увімкнено."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Багато функцій маршрутизації не будуть доступні."
     }
 }
