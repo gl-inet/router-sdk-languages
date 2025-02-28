@@ -119,7 +119,8 @@
         "scan_btn": "扫描",
         "revoke_btn": "撤销",
         "manual_add_mac_btn": "手动添加设备",
-        "got_it": "明白了"
+        "got_it": "明白了",
+        "attention_title": "注意"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -247,5 +248,8 @@
         "only_allowd_input_tips": "只允许输入{limit}。",
         "only_num_letter_symbol_tips": "只允许使用字母、数字和符号{symbol}。",
         "min_max_length_tips": "{min} - {max}个字符。"
+    },
+    "vpn_tunnel": {
+        "custom_tunnel_title": "自定义VPN隧道"
     }
 }
