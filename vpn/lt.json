@@ -401,6 +401,29 @@
         "from_to_common_label": "{exclude} {type}",
         "rename_label": "Pervadinti",
         "disable_default_tunnel_warning_tips": "Ne „VPN“ tuneliavimas užtikrina, kad srautas, nepraeinantis per aukščiau nurodytus tunelius, vis tiek galėtų prisijungti prie interneto. Jei išjungta, tai šalins bet kokį likusį srautą.",
-        "disable_default_tunnel_confirm_tips": "Ar tikrai norite išjungti esamą tunelį?"
+        "disable_default_tunnel_confirm_tips": "Ar tikrai norite išjungti esamą tunelį?",
+        "not_use_vpn_via_tips": "Dabartinis tunelis nėra nustatytas naudoti „VPN“.",
+        "subcription_url_label": "Prenumeratos URL",
+        "exclude_label": "Neįtraukti",
+        "address_count_label": "{count} adresas|{count} adresai",
+        "to_all_taget_tips": "Visas eismas į visus galutinius taškus palaikomas naudojant esamą tunelį.",
+        "form_default_tips": "Visų įrenginių srautas yra palaikomas naudojant esamą taisyklę.",
+        "via_connecting_killswitch_tips": "Jei įjungsite \"Kill Switch\", visas srautas, atitinkantis esamą tunelį, nebus perduodamas.",
+        "via_not_enabled_tips": "Šiuo metu tunelis nįjungtas",
+        "via_try_connecting_label": "Bandykitės jungtis...",
+        "via_connecting_tips": "Tunelis vykdomas, bet VPN įgalinimas nepavyko.",
+        "remove_confirm_tips": "Ar tikrai norite ištrinti šį tunelį?",
+        "subcription_url_tips": "Domeno pavadinimas arba IP adresas URL saite automatiškai atnaujinamas kasdien.",
+        "device_count_label": "{count} įrenginys|{count} įrenginiai",
+        "method_count_label": "{count} metodas|{count} metodai"
+    },
+    "vpn_server": {
+        "off_title": "{type} serveris šiuo metu išjungtas.",
+        "starting_label": "{type} serveris paleidžiamas...",
+        "connected_dev_label": "Pri(si)jungti įrenginiai",
+        "on_label": "{type} serveris šiuo metu įjungtas."
+    },
+    "vpn_taps2s": {
+        "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos."
     }
 }
