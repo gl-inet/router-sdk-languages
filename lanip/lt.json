@@ -44,5 +44,11 @@
         "set_data": "Keisti/Redaguoti rezervacijos įrašą",
         "confirm_delete_all": "Ar tikrai norite ištrinti visus adresų rezervacijos įrašus?"
     },
-    "menu_guestip": "Svečio/-ų tinklas"
+    "menu_guestip": "Svečio/-ų tinklas",
+    "lanip": {
+        "block_wan_label": "Blokuoti WAN potinklius",
+        "block_wan_tips": "Jei ši funkcija įjungta, svečių tinklas negali pasiekti pagrindinio tinklo, ir svečių tinklas blokuos tinklo segmentą, kuriame yra pagrindinis tinklas.",
+        "not_asscess_tips": "Šiuo metu svečio tinklas negali pasiekti tinklo segmentų {net}.",
+        "enable_block_wan_warning_tips": "Jei ši funkcija įjungta, svečių tinklas negali pasiekti pagrindinio tinklo, ir svečių tinklas blokuos tinklo segmentą, kuriame yra pagrindinis tinklas."
+    }
 }
