@@ -396,8 +396,8 @@
         "guide_set_to_tips": "設定您想要限制的數據流量",
         "traffics_common_tips": "來自{name}的流量",
         "lan_desc": "有線區域網路和主要 Wi-Fi",
-        "from_wgserver_desc": "WireGuard 伺服器下的客戶端",
-        "from_ovpnserver_desc": "OpenVPN伺服器下的客戶端",
+        "from_wgserver_desc": "WireGuard 服務器下的客戶端",
+        "from_ovpnserver_desc": "OpenVPN服務器下的客戶端",
         "from_to_common_label": "{exclude} {type}",
         "rename_label": "重新命名",
         "disable_default_tunnel_warning_tips": "非VPN隧道確保未通過上述隧道的流量仍可連接到互聯網。如果禁用，則會丟棄任何剩餘流量。",
@@ -420,10 +420,10 @@
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
-        "off_title": "{type} 伺服器目前處於關閉狀態。",
-        "starting_label": "{type} 伺服器正在啟動中...",
-        "on_label": "{type} 伺服器目前處於開啟狀態。",
-        "off_label": "{type} 伺服器目前處於關閉狀態。"
+        "off_title": "{type} 服務器目前處於關閉狀態。",
+        "starting_label": "{type} 服務器正在啟動中...",
+        "on_label": "{type} 服務器目前處於開啟狀態。",
+        "off_label": "{type} 服務器目前處於關閉狀態。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "許多路由功能將無法使用。",
