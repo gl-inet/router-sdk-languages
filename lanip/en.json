@@ -44,5 +44,11 @@
         "ip_existed": "IP Existed",
         "desc_label": "Description"
     },
-    "menu_guestip": "Guest Network"
+    "menu_guestip": "Guest Network",
+    "lanip": {
+        "not_asscess_tips": "Currently the guest network cannot access the network segments {net}.",
+        "block_wan_label": "Block WAN Subnets",
+        "block_wan_tips": "If this function is enabled, the guest network cannot access the parent network, and the guest network will block the network segment where the parent network is located.",
+        "enable_block_wan_warning_tips": "If this function is enabled, the guest network cannot access the parent network, and the guest network will block the network segment where the parent network is located."
+    }
 }
