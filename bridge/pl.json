@@ -35,7 +35,8 @@
         "access_router_wds_tips": "Po pomyślnym wykonaniu mostu router automatycznie uzyska adres IP z routera głównego. Jeśli chcesz uzyskać dostęp do interfejsu użytkownika tego routera, musisz połączyć się przy użyciu adresu IP wysłanego przez główny router. Aby uzyskać ten adres IP, sprawdź listę podłączonych klientów w interfejsie użytkownika głównego routera. Jeśli nie masz dostępu do interfejsu użytkownika głównego routera, możesz przywrócić tryb routingu, przytrzymując przycisk resetowania przez 4 sekundy.",
         "lan_conflict_msg": "Podsieć LAN powoduje konflikt z podsiecią Wi-Fi, z którą chcesz się połączyć. Ustaw inną podsieć.",
         "passthrough_close_warning": "Jeśli przełączysz się na ten tryb, Repeater, Wireless, Clients, VPN i AdGuard Home zostaną wyłączone.",
-        "passthrough_enable_warning": "Jeśli przełączysz się w ten tryb, {feature} zostanie wyłączona."
+        "passthrough_enable_warning": "Jeśli przełączysz się w ten tryb, {feature} zostanie wyłączona.",
+        "passthrough_mac_tips": "To jest używane do uzyskania adresu MAC publicznego IP."
     },
     "menu_bridge": "Tryb sieciowy"
 }
