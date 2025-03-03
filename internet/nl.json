@@ -26,7 +26,8 @@
         "use_as_wan_tips": "{asWan}, het apparaat dat op de poort is aangesloten, kan niet meer toegang krijgen tot het beheerderspaneel. U moet het verbinden met Wi-Fi of een van de andere LAN-poorten.",
         "revert_as_lan_tips": "Weet u zeker dat u de {silkprint} wilt herstellen naar LAN-poort (standaard)?",
         "revert_port_btn": "Terug zetten naar {port}",
-        "revert_wan_tips": "Nadat u de WAN-poort hebt terug gezet"
+        "revert_wan_tips": "Nadat u de WAN-poort hebt terug gezet",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID komt in conflict met Ethernet2 VLAN ID."
     },
     "tethering": {
         "title": "Tetheren",
@@ -88,7 +89,11 @@
         "enable_disguise_label": "Camouflage inschakelen",
         "enable_disguise_tips": "Als deze optie is ingeschakeld, vermomt de router zich als het apparaat die het clientapparaat momenteel gebruikt.",
         "need_enter_portal_tips": "Kan niet via de gerepeatte hotspot toegang krijgen tot het internet. Probeer {portal} te betreden om het probleem op te lossen. Let op dat deze modus VPN's en aangepaste DNS zal pauzeren totdat het verlaten wordt, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum).",
-        "entered_portal_tips": "Het apparaat bevindt zich in de Login Modus voor Openbare Hotspots. VPN's en aangepaste DNS zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum). Na succesvolle aanmelding verlaat de router automatisch deze modus. {exit}."
+        "entered_portal_tips": "Het apparaat bevindt zich in de Login Modus voor Openbare Hotspots. VPN's en aangepaste DNS zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum). Na succesvolle aanmelding verlaat de router automatisch deze modus. {exit}.",
+        "entry_again_tips": "Als u binnen 10 seconden opnieuw invoert, wordt er direct uit de cache gehaald in plaats van opnieuw te scannen.",
+        "unable_scan_channel_tips": "Bij het reizen door het land is het mogelijk dat het scannen naar Wi-Fi op bepaalde kanalen niet toegestaan is vanwege regelgeving.",
+        "scan_wifi_fail_detection_channel_tips": "Het apparaat scant momenteel naar het optimale kanaal, Wi-Fi-scannen is niet beschikbaar tijdens dit proces. Wacht alstublieft geduldig tot de scan voltooid is.",
+        "cannot_find_ssid": "Kunt u uw SSID niet vinden?"
     },
     "modem": {
         "title": "Mobiel",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "Als de datalimiet voor {currentSim} is ingesteld en de SIM-kaartsleuf {handler} is ingeschakeld, zal {currentSim} automatisch overschakelen naar {otherSim} wanneer het datagebruik de datalimiet overschrijdt en zal {currentSim} worden uitgeschakeld.",
         "disabled_sim_auto_switch_tips": "De SIM zal niet overschakelen bij het bereiken van de datalimiet omdat {handler} niet is ingeschakeld. En de SIM zal worden uitgeschakeld wanneer de datalimiet is bereikt.",
         "enabled_sim_auto_switch_tips": "De SIM zal overschakelen wanneer de datalimiet is bereikt."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Toren vergrendeld",
+        "operator_locked_label": "{sim} Operator Vergrendeld",
+        "lock_operator_btn": "Slot Operator",
+        "lock_tower_disabled_tip": "Omdat de huidige kaartsleuf vergrendeld is voor de operator, is de functie die de huidige kaartsleuf vergrendelt op de basisstation uitgeschakeld.",
+        "scan_tower_warning_tips": "Het scannen van de toren duurt enkele minuten. Weet u zeker dat u wilt doorgaan?",
+        "lock_tower_tips": "Het scannen van basisstations kan snel hoogwaardige signaalbronnen identificeren om stabiele communicatie te waarborgen. Het vastleggen op een basisstation vereist het overeenkomen van de drager en de door het apparaat ondersteunde frequentiebanden; anders kan dit het kiezen beïnvloeden. Gelieve de informatie van het basisstation te bevestigen om mogelijke problemen te vermijden.",
+        "reflash_warning_msg": "Niet de pagina verversen.",
+        "lock_operation_mode_label": "Vergrendelingsmodus",
+        "lock_operation_mode_tip": "De functie voor operatorvergrendeling ondersteunt drie modi: automatisch verbinden met een beschikbaar operatornetwerk, handmatig vergrendelen op een specifieke operator, of automatisch overschakelen naar een beschikbaar operatornetwerk als de handmatige vergrendeling mislukt.",
+        "available_operator_title": "Beschikbare Operatoren",
+        "scan_operator_warning_tips": "Het scannen van de operator duurt enkele minuten, en u zult tijdelijk uw netwerkverbinding verliezen gedurende deze tijd. Weet u zeker dat u wilt doorgaan?",
+        "manual_lock_operator_label": "Handleiding",
+        "manual_select_operator_tips": "De huidige lijst van operators is slechts ter referentie. Als handmatige selectie niet lukt, raadpleeg dan de lijst van door de huidige SIM-kaart ondersteunde operators, of neem contact op met de klantenservice van de operator voor nauwkeurige informatie.",
+        "lock_operator_fail_msg": "De huidige operator is vergrendeld, maar feitelijk niet beschikbaar vanwege kaart- of operatorbeperkingen. Als u het netwerk wilt herstellen, voer dan een handmatige ontgrendelingsoperatie uit.",
+        "lock_operator_warning_tips": "Als de vergrendelde operator niet overeenkomt met de bandmaskering of APN-parameters in de mobiele instellingen, zal de mobiele interface geen verbinding kunnen maken met het internet.",
+        "manual_auto_lock_operator_label": "Handmatig-Automatisch",
+        "sim_info_title": "SIM-kaart",
+        "internet_info_title": "Internet",
+        "cell_info_title": "Cellen",
+        "set_sim_config_warning_tips": "Het wijzigen van de configuratie zal resulteren in het opnieuw kiezen.",
+        "sim_settings_title": "SIM-kaartinstellingen",
+        "not_use_special_label": "Niet gebruiken",
+        "special_apns_label": "Speciale APN's",
+        "use_special_apn_warning_tips": "De speciale APN die u momenteel selecteert, is alleen beschikbaar voor specifieke telefoonkaarten. Als de APN niet correct is ingesteld, kan dit leiden tot afwijkend kiesgedrag, netwerkverbinding mislukkingen en andere communicatieproblemen. Controleer alstublieft dubbel of uw telefoonkaart deze APN ondersteunt. Weet u zeker dat u wilt overschakelen naar de huidige APN?",
+        "pin_code_tips": "PIN-code lengte 4-8 cijfers",
+        "sim_switch_title": "SIM-kaart wissel",
+        "view_information_btn": "Bekijk meer informatie",
+        "information_title": "Mobiele Informatie",
+        "special_apns_tips": "Voor APN's die door speciale operators worden aangeboden, kies alstublieft volgens de daadwerkelijke situatie van uw SIM-kaart.",
+        "pin_code_last_unlock_tips": "De SIM-kaart is vergrendeld en moet ontgrendeld worden met een PIN-code, er is nog één laatste poging over om het te proberen, als dit niet lukt, moet u uw telefoon gebruiken om het te ontgrendelen door de PUK-code in te voeren.",
+        "need_pin_code_tips": "De SIM-kaart is vergrendeld en moet worden ontgrendeld met een PIN-code, er zijn nog {count} pogingen over.",
+        "pin_code_last_input_unlock_tips": "PIN-code {code} is onjuist, er is nog één laatste kans om het te proberen te ontgrendelen, als het opnieuw mislukt, moet u uw telefoon gebruiken om de PUK-code in te voeren om te ontgrendelen."
+    },
+    "sim": {
+        "sender_label": "Afzender"
     }
 }

@@ -138,7 +138,8 @@
         "revert_port_btn": "Visszaállítás {port}-ra",
         "use_as_port_btn": "A {silkprint} átváltása {port}-ra",
         "revert_wan_tips": "Miután visszaállította a WAN portot",
-        "use_as_wan_silkprint_tips": "Amint a {silkprint} WAN portként van használva"
+        "use_as_wan_silkprint_tips": "Amint a {silkprint} WAN portként van használva",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID ütközik az Ethernet2 VLAN ID-jével."
     },
     "sms": {
         "confirm_del": "Törlés megerősítése",
@@ -265,7 +266,11 @@
         "auto_go_auth_tips": "Automatikusan {auth} a {count} után",
         "allow_auto_portal_label": "Automatikus bejelentkezési mód engedélyezése nyilvános hálózatokhoz",
         "to_auth_btn": "Ugrás a bejelentkezésre",
-        "need_enter_portal_tips": "Nem lehet internetet elérni az ismételt hotspoton keresztül. Próbálja megadni a {portal} a probléma megoldásához. Vegye figyelembe, hogy ez a mód szünetelteti a VPN-eket és az egyéni DNS-eket, amíg ki nem lép, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/mall)."
+        "need_enter_portal_tips": "Nem lehet internetet elérni az ismételt hotspoton keresztül. Próbálja megadni a {portal} a probléma megoldásához. Vegye figyelembe, hogy ez a mód szünetelteti a VPN-eket és az egyéni DNS-eket, amíg ki nem lép, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/mall).",
+        "entry_again_tips": "Ha 10 másodpercen belül újra belép, akkor közvetlenül a gyorsítótárból húzza be az adatokat, ahelyett, hogy újraellenőrizné.",
+        "unable_scan_channel_tips": "Utazás közben előfordulhat, hogy szabályozási okok miatt bizonyos csatornákon nem lehetséges Wi-Fi hálózatokat keresni.",
+        "scan_wifi_fail_detection_channel_tips": "Az eszköz jelenleg az optimális csatorna keresését végzi, a Wi-Fi keresés e folyamat alatt nem elérhető. Kérem, türelmesen várja meg a keresés befejezését.",
+        "cannot_find_ssid": "Nem találja a SSID-t?"
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "Ha a(z) {currentSim} adatforgalmi korlátja be van állítva, és a SIM-kártya foglalat {handler} engedélyezve van, akkor a(z) {currentSim} automatikusan átvált a(z) {otherSim}-re, ha az adatforgalma meghaladja az adatforgalmi korlátot, és a(z) {currentSim} le lesz tiltva.",
         "disabled_sim_auto_switch_tips": "A SIM nem vált adatkorlátnál, mert a {handler} nincs engedélyezve. És a SIM le lesz tiltva, amikor eléri az adatkorlátot.",
         "enabled_sim_auto_switch_tips": "A SIM-kártya váltásra kerül, amikor az adatkeret elérésre kerül."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Torony zárolva",
+        "operator_locked_label": "{sim} Operátor által lezárva",
+        "lock_operator_btn": "Zároló Operátor",
+        "lock_tower_disabled_tip": "Mivel a jelenlegi kártyafoglalat az operátorhoz van zárva, a jelenlegi kártyafoglalatot a bázisállomáshoz záró funkció le van tiltva.",
+        "scan_tower_warning_tips": "Néhány percet vesz igénybe a torony beolvasása. Biztosan folytatni szeretné?",
+        "lock_tower_tips": "Az alapállomások pásztázása gyorsan azonosítja a magas minőségű jelforrásokat a stabil kommunikáció biztosítása érdekében. Egy alapállomásra való rögzítéshez össze kell hangolni a hordozót és az eszköz által támogatott frekvenciasávokat; ellenkező esetben ez befolyásolhatja a tárcsázást. Kérjük, ellenőrizze az alapállomás információit a lehetséges problémák elkerülése érdekében.",
+        "reflash_warning_msg": "Ne frissítse az oldalt.",
+        "lock_operation_mode_label": "Zárolási mód",
+        "lock_operation_mode_tip": "Az operátorzár funkció három módot támogat: automatikus csatlakozás egy elérhető operátori hálózathoz, kézi zárás egy adott operátorra, vagy automatikus váltás egy elérhető operátori hálózatra, ha a kézi zár nem sikerül.",
+        "available_operator_title": "Elérhető operátorok",
+        "scan_operator_warning_tips": "Az operátor beolvasása néhány percet vesz igénybe, és ez idő alatt átmenetileg megszakad a hálózati kapcsolat. Biztosan folytatni szeretné?",
+        "manual_lock_operator_label": "Kézikönyv",
+        "manual_select_operator_tips": "Az aktuális operátorlista csak tájékoztató jellegű. Ha a kézi kiválasztás nem sikerül, kérjük, tekintse meg az aktuális SIM-kártya által támogatott operátorok listáját, vagy forduljon az operátor ügyfélszolgálatához pontos információért.",
+        "lock_operator_fail_msg": "Az aktuális operátor zárolva van, de valójában nem érhető el kártya vagy operátori korlátozások miatt. Ha helyre szeretné állítani a hálózatot, kérjük, végezzen el egy kézi feloldási műveletet.",
+        "lock_operator_warning_tips": "Ha a zárolt operátor nem egyezik meg a mobil beállításokban megadott sávmaszkolási vagy APN paraméterekkel, akkor a mobil interfész nem lesz képes csatlakozni az internetre.",
+        "manual_auto_lock_operator_label": "Kézi-Automata",
+        "sim_info_title": "SIM-kártya",
+        "cell_info_title": "Sejtek",
+        "internet_info_title": "Internet",
+        "sim_settings_title": "SIM-kártya beállítások",
+        "set_sim_config_warning_tips": "A konfiguráció megváltoztatása újratakarítást eredményez.",
+        "not_use_special_label": "Nem használható",
+        "special_apns_label": "Speciális APN-ek",
+        "view_information_btn": "További információk megtekintése",
+        "pin_code_tips": "PIN kód hossza 4-8 számjegy",
+        "use_special_apn_warning_tips": "Az Ön által jelenleg kiválasztott speciális APN csak bizonyos telefonkártyákhoz érhető el. Ha az APN nincs helyesen beállítva, ez hívási rendellenességeket, hálózati kapcsolat megszakadását és egyéb kommunikációs problémákat okozhat. Kérjük, ellenőrizze kétszer, hogy a telefonkártyája támogatja-e ezt az APN-t. Biztosan át szeretne váltani az aktuális APN-re?",
+        "sim_switch_title": "SIM-kártya váltás",
+        "information_title": "Mobilinformáció",
+        "special_apns_tips": "Különleges szolgáltatók által biztosított APN-ek esetén, kérjük, válasszon a SIM-kártyája tényleges helyzetének megfelelően.",
+        "pin_code_last_unlock_tips": "A SIM-kártya zárolva van, és PIN-kóddal kell feloldani. Már csak egy próbálkozási lehetőség maradt, ha ez sem sikerül, akkor a telefonon kell megadni a PUK kódot a feloldáshoz.",
+        "need_pin_code_tips": "A SIM-kártya zárolva van, és PIN-kóddal kell feloldani, még {count} próbálkozás van hátra.",
+        "pin_code_last_input_unlock_tips": "A PIN kód {code} helytelen, ez az utolsó próbálkozási lehetőség a feloldáshoz, ha ismét sikertelen a feloldás, akkor a telefonját kell használnia a PUK kód megadásához a feloldáshoz."
+    },
+    "sim": {
+        "sender_label": "Feladó"
     }
 }

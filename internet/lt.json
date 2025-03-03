@@ -138,7 +138,8 @@
         "pppoe_log": "„PPPoE“ ryšio prisijungimo žurnalas",
         "change_to_wan_tips2": "Galite atstatyti „LAN“ prievado veikimą (, kad jis nebūtų naudojamas kaip „WAN“ prievadas), paspausdami ir laikydami įrenginio atstatymo mygtuką keturioms (4) sekundėms.",
         "no_wan_tips": "Lai̇̃das neaptiktas.",
-        "change_port_btn": "Pakeisti į – {port}"
+        "change_port_btn": "Pakeisti į – {port}",
+        "vlan_id_conflict_tips": "„Ethernet1“ VLAN identifikatorius koliduoja su „Ethernet2“ VLAN identifikatoriumi."
     },
     "repeater": {
         "change_wifi": "Pakeisti tinklą",
@@ -195,7 +196,11 @@
         "allow_dfs_tips2": "Jei ši parinktis išjungta/neįgalinta, tada maršrutizatorius nesijungs prie jokio „Wi-Fi“, naudojančio „DFS“ kanalus.",
         "retry_disable_guest_tips": "Bandant atkurti ryšį, Jūsų maršrutizatorius periodiškai skenuos „Wi-Fi“ tinklus ir Jūsų svečių „Wi-Fi“ tinklas bus laikinai nepasiekiamas, šio skenavimo metu.",
         "fail_eap_key_tips": "Neteisingas naudotojo/vartotojo vardas (t.y. slapyvardis) arba slaptažodis.",
-        "to_auth_btn": "Eiti į – prisijungimą"
+        "to_auth_btn": "Eiti į – prisijungimą",
+        "entry_again_tips": "Jei prisijungsite per 10 sekundžių, bus tiesiogiai naudojama talpykla, o ne atliekamas iš naujo nuskaitymas.",
+        "unable_scan_channel_tips": "Kelionėje per šalį gali būti neįmanoma skenuoti „Wi-Fi“ tam tikruose kanaluose dėl reguliavimo priežasčių.",
+        "scan_wifi_fail_detection_channel_tips": "Įrenginys šiuo metu skenuoja optimalų kanalą, „Wi-Fi“ skenavimas šio proceso metu yra nepasiekiamas. Prašome palaukti, kol skenavimas bus baigtas.",
+        "cannot_find_ssid": "Nerandate savo SSID?"
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "Jei nustatytas {currentSim} duomenų ribos kiekis ir SIM kortelės lizdas {handler} įgalintas, {currentSim} automatiškai perjungs į {otherSim}, kai jo duomenų kiekis viršys duomenų ribos kiekį ir {currentSim} bus išjungtas.",
         "disabled_sim_auto_switch_tips": "SIM kortelė nebus perjungta pasiekus duomenų limitą, nes {handler} nėra įjungtas. Pasiekus duomenų limitą, SIM kortelė bus išjungta.",
         "enabled_sim_auto_switch_tips": "SIM kortelė bus pakeista, kai bus pasiektas duomenų limitas."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Bokštas užrakintas",
+        "operator_locked_label": "{sim} Operatorius užblokavo",
+        "lock_operator_btn": "Užrakto operatorius",
+        "lock_tower_disabled_tip": "Kadangi dabartinis kortelių lizdas yra užrakintas operatoriui, dabartinio kortelių lizdo užraktas į bazinę stotį funkcija yra išjungta.",
+        "scan_tower_warning_tips": "Ar tai užtruks keletą minučių. Ar tikrai norite tęsti?",
+        "lock_tower_tips": "Nuskaitymas bazinių stočių gali greitai identifikuoti aukštos kokybės signalo šaltinius, kad užtikrintų stabilų ryšį. Užrakinimas į bazinę stotį reikalauja atitikimo tarp nešėjo ir įrenginio palaikomų dažnių juostų; priešingu atveju tai gali paveikti skambučių vykdymą. Prašome patvirtinti bazinės stoties informaciją, kad išvengtumėte galimų problemų.",
+        "reflash_warning_msg": "Neatnaujinkite puslapio.",
+        "lock_operation_mode_label": "Užrakinimo veiksena",
+        "lock_operation_mode_tip": "Operatoriaus užrakto funkcija palaiko tris režimus: automatinį prisijungimą prie prieinamo operatoriaus tinklo, rankinį užraktą į konkretų operatorių arba automatinį perjungimą į prieinamą operatoriaus tinklą, jei rankinis užraktas nepavyksta.",
+        "available_operator_title": "Galimi operatoriai",
+        "scan_operator_warning_tips": "Nuskaitymas operatoriui užtruks kelias minutes, ir šiuo metu laikinai prarasite tinklo ryšį. Ar tikrai norite tęsti?",
+        "manual_lock_operator_label": "Vadovas",
+        "manual_select_operator_tips": "Dabartinis operatorių sąrašas yra tik pamatinis. Jei rankinis pasirinkimas nepavyksta, prašome kreiptis į sąrašą, kuriame pateikiami šiuo metu SIM kortelę palaikantys operatoriai, arba pasitarti su operatoriaus klientų aptarnavimo tarnyba dėl tikslios informacijos.",
+        "lock_operator_fail_msg": "Dabartinis operatorius užblokuotas, tačiau iš tikrųjų nepasiekiamas dėl kortelės ar operatoriaus apribojimų, jei reikia atkurti tinklą, atlikite rankinę atrakinimo operaciją.",
+        "lock_operator_warning_tips": "Jei užrakintas operatorius neatitinka juostos kaukės arba APN parametrų mobiliojo ryšio nustatymuose, mobilusis sąsają nebus galės prisijungti prie interneto.",
+        "manual_auto_lock_operator_label": "Rankinis-Automatinis",
+        "sim_info_title": "SIM kortelė",
+        "internet_info_title": "Internetas",
+        "cell_info_title": "Ląstelės",
+        "set_sim_config_warning_tips": "Pakeitus konfigūraciją bus atliekamas pernumatymas.",
+        "sim_settings_title": "SIM kortelės nustatymai",
+        "not_use_special_label": "Nenaudoti",
+        "special_apns_label": "Specialieji APN (Access Point Names)",
+        "use_special_apn_warning_tips": "Jūsų pasirinktas specialusis APN yra prieinamas tik tam tikroms telefono kortelėms. Jei APN nustatytas neteisingai, tai gali sukelti skambučių anomalijas, tinklo ryšio triktis ir kitas ryšio problemas. Prašome dar kartą patikrinti, ar Jūsų telefono kortelė palaiko šį APN. Ar tikrai norite perjungti į dabartinį APN?",
+        "pin_code_tips": "PIN kodo ilgis 4-8 skaitmenys",
+        "sim_switch_title": "SIM kortelės komutatorius",
+        "view_information_btn": "Peržiūrėti daugiau informacijos",
+        "information_title": "Mobilusis ryšio informacija",
+        "special_apns_tips": "Specialių operatorių teikiamoms APN, prašome pasirinkti pagal jūsų SIM kortelės faktinę situaciją.",
+        "pin_code_last_unlock_tips": "SIM kortelė užrakinta ir ją reikia atrakinti PIN kodu, liko paskutinė bandymo galimybė ją atrakinti, jei nepavyks, reikės naudoti telefoną, kad ją atrakintumėte įvedant PUK kodą.",
+        "need_pin_code_tips": "SIM kortelė užrakinta ir ją reikia atrakinti PIN kodu, liko dar {count} bandymai.",
+        "pin_code_last_input_unlock_tips": "PIN kodas {code} yra neteisingas, liko paskutinė bandymo galimybė atrakinti, jei atrakinimas vėl nepavyks, turėsite naudoti savo telefoną, kad įvestumėte PUK kodą atrakinimui."
+    },
+    "sim": {
+        "sender_label": "Siuntėjas"
     }
 }

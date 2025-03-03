@@ -26,7 +26,8 @@
         "change_port_btn": "切换至 {port}",
         "use_as_wan_silkprint_tips": "一旦 {silkprint}作为 WAN 口使用",
         "use_as_port_btn": "将 {silkprint}切换至作为 {port}使用",
-        "using_tips": "{silkprint} 状态：正在作为 {port} 使用。{changePort}"
+        "using_tips": "{silkprint} 状态：正在作为 {port} 使用。{changePort}",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID与Ethernet2 VLAN ID冲突。"
     },
     "tethering": {
         "title": "热点共享",
@@ -88,7 +89,11 @@
         "auto_go_auth_tips": "{count}之后自动{auth}",
         "going_to_auth_tips": "跳转到认证页面：",
         "cannot_accessed_portal_url_tips": "如果无法访问认证页面，请尝试禁用其它联网方式（如有线、蜂窝网络）。",
-        "quit_btn": "退出认证模式"
+        "quit_btn": "退出认证模式",
+        "entry_again_tips": "如果你10s内再次进入，将直接拉取缓存，而不是重新扫描。",
+        "unable_scan_channel_tips": "跨国旅行时可能因为法规原因无法扫描到某些信道的Wi-Fi。",
+        "scan_wifi_fail_detection_channel_tips": "设备正在检测最佳信道，期间无法扫描周边Wi-Fi，请您耐心等待检测完成。",
+        "cannot_find_ssid": "找不到您的SSID？"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "如果设置了{currentSim}的数据上限额度，并且启用了SIM卡槽{handler}，当其数据超出上限额度时，{currentSim}将自动切换到{otherSim}，并且{currentSim}将被禁用。",
         "disabled_sim_auto_switch_tips": "达到数据上限时，SIM卡不会切换，因为{handler}未启用。并且当达到数据上限时，SIM卡将被禁用。",
         "enabled_sim_auto_switch_tips": "SIM卡将在达到数据上限时切换。"
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} 基站已被锁定",
+        "operator_locked_label": "{sim} 运营商已被锁定",
+        "lock_operator_btn": "锁定运营商",
+        "lock_tower_disabled_tip": "由于当前卡槽已锁定运营商，当前卡槽锁定基站功能被禁用。",
+        "scan_tower_warning_tips": "扫描塔楼大约需要几分钟时间。您确定要继续吗？",
+        "lock_tower_tips": "扫描基站可以快速识别高质量信号源，以确保稳定通信。锁定基站需要匹配运营商和设备支持的频段；否则，可能会影响拨号。请确认基站信息，以避免潜在问题。",
+        "reflash_warning_msg": "请勿刷新页面。",
+        "lock_operation_mode_label": "锁定模式",
+        "lock_operation_mode_tip": "运营商锁定功能支持三种模式：自动连接到可用运营商网络，手动锁定特定运营商，或手动锁定失败后自动切换到可用运营商网络。",
+        "scan_operator_warning_tips": "扫描运营商将需要几分钟时间，在此期间您的网络连接将会暂时中断。您确定要继续吗？",
+        "available_operator_title": "可用运营商",
+        "manual_select_operator_tips": "当前运营商列表仅供参考。如果手动选择失败，请参考当前SIM卡支持的运营商列表，或咨询运营商客服以获取准确信息。",
+        "lock_operator_fail_msg": "当前操作员已锁定，但由于卡片或操作员限制，实际上无法使用，如果您需要恢复网络，请执行手动解锁操作。",
+        "lock_operator_warning_tips": "如果锁定的运营商不符合蜂窝网络设置中的频段屏蔽或APN参数，蜂窝网络接口将无法连接到互联网。",
+        "manual_lock_operator_label": "手动",
+        "manual_auto_lock_operator_label": "手动-自动",
+        "sim_info_title": "SIM卡",
+        "internet_info_title": "互联网",
+        "cell_info_title": "小区",
+        "set_sim_config_warning_tips": "更改配置将导致重新拨号。",
+        "sim_settings_title": "SIM卡设置",
+        "not_use_special_label": "不使用",
+        "special_apns_label": "特殊APN设置",
+        "use_special_apn_warning_tips": "您当前选择的特殊APN仅适用于特定的电话卡。如果APN设置不正确，可能会导致拨号异常、网络连接失败以及其他通信问题。请仔细检查您的电话卡是否支持此APN。您确定需要切换到当前APN吗？",
+        "pin_code_tips": "PIN码长度为4-8位数字",
+        "sim_switch_title": "SIM卡切换",
+        "view_information_btn": "查看更多信息",
+        "information_title": "蜂窝网络信息",
+        "special_apns_tips": "对于特殊运营商提供的APN，请根据您SIM卡的实际情况进行选择。",
+        "pin_code_last_unlock_tips": "SIM卡已锁定，需要通过PIN码解锁，只剩最后一次尝试机会，如果解锁失败，您需要使用手机输入PUK码来解锁。",
+        "need_pin_code_tips": "SIM卡已锁定，需要通过PIN码解锁，还有{count}次机会。",
+        "pin_code_last_input_unlock_tips": "PIN码{code}不正确，这是最后一次尝试解锁的机会，如果再次解锁失败，您需要使用手机输入PUK码进行解锁。"
+    },
+    "sim": {
+        "sender_label": "发件人"
     }
 }

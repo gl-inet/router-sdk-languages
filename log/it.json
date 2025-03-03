@@ -8,6 +8,37 @@
         "save_crash_log": "Salva Crash Log",
         "system_log_title": "Log di Sistema",
         "kernel_log_title": "Log del Kernel",
-        "crash_log_title": "Crash Log"
+        "crash_log_title": "Crash Log",
+        "level": "Livello",
+        "module": "Modulo",
+        "key_word": "Parola chiave",
+        "subject": "Oggetto",
+        "all": "Fare clic qui per inviare il log al team di assistenza.",
+        "your_contact_email": "Il tuo indirizzo email di contatto",
+        "description": "Descrizione",
+        "upload_picture_tips": "È possibile caricare fino a 5 immagini. I tipi di file supportati sono jpg e png. La dimensione dell'immagine caricata non deve superare i 10 M.",
+        "upload_picture_label": "Carica Immagine (Opzionale)",
+        "upload_system_log": "Carica Registro di Sistema",
+        "upload_debug_info": "Caricare Informazioni di Debug",
+        "privacy": "Politica sulla Privacy",
+        "agree_privacy_tips": "Ho letto e accetto {privacy}",
+        "export_log_tips": "Desidera esportare le informazioni di debug insieme ai log?",
+        "your_feedback": "Il vostro feedback",
+        "limit_total_file_size_msg": "Tutte le immagini non devono superare i 10MB di dimensione.",
+        "restricted_file_format_msg": "Tipi di file supportati: JPEG o PNG",
+        "limit_total_pic_quantity_msg": "Carica fino a 5 immagini",
+        "feedback_tips": "Fare clic qui per inviare il log al team di assistenza.",
+        "invalid_email_tips": "Formato dell'indirizzo email non valido. Si prega di reinserire."
+    },
+    "log_err": {
+        "file_recv_failed_msg": "il caricamento del file non è riuscito",
+        "send_to_server_failed_msg": "impossibile inviare al server",
+        "image_too_big_msg": "l'immagine è troppo grande",
+        "no_enough_space_msg": "non c'è abbastanza spazio disponibile",
+        "email_param_invalied_msg": "formato della casella di posta non valido",
+        "network_connection_failed_msg": "problemi di connessione di rete",
+        "mail_server_error_msg": "errore del server di posta",
+        "system_error_msg": "errore di sistema",
+        "send_too_many_times_msg": "inviate troppe volte"
     }
 }

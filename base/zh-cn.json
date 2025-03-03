@@ -114,7 +114,13 @@
         "done_btn": "已完成",
         "upgrade_btn": "升级",
         "setp_label": "步骤 {num}：",
-        "join_btn": "加入"
+        "join_btn": "加入",
+        "search": "搜索",
+        "scan_btn": "扫描",
+        "revoke_btn": "撤销",
+        "manual_add_mac_btn": "手动添加设备",
+        "got_it": "明白了",
+        "attention_title": "注意"
     },
     "msg": {
         "access_denied": "无效用户，没有权限或未登录！",
@@ -202,7 +208,8 @@
         "duplex_full_label": "{speed} Mbps全双工",
         "duplex_half_label": "{speed} Mbps半双工",
         "recheck_btn": "重新检测",
-        "address_label": "地址"
+        "address_label": "地址",
+        "mtu_common_tip": "请根据使用场景设置MTU值，设置不当可能导致无法上网。"
     },
     "upload": {
         "file_include": "文件类型包括",

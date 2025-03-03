@@ -8,6 +8,37 @@
         "cloud_log_title": "Rapport Goodcloud",
         "no_log": "Pas de rapport",
         "remove_crash_log": "Supprimer le rapport du crash",
-        "save_crash_log": "Sauvegarder le rapport du crash"
+        "save_crash_log": "Sauvegarder le rapport du crash",
+        "level": "Niveau",
+        "module": "Module",
+        "key_word": "Mot-clé",
+        "all": "Tous",
+        "subject": "Objet",
+        "your_contact_email": "Votre adresse email de contact",
+        "upload_picture_tips": "Vous pouvez uploader jusqu'à 5 photos au format JPEG ou PNG. La taille de la photo uploadée ne doit pas dépasser 10 Mo.",
+        "description": "Description",
+        "upload_picture_label": "Télécharger une photo (facultatif)",
+        "upload_system_log": "Uploader le journal système",
+        "upload_debug_info": "Uploader les informations de débogage",
+        "agree_privacy_tips": "J'ai lu et j'accepte {privacy}",
+        "privacy": "Politique de confidentialité",
+        "export_log_tips": "Souhaitez-vous exporter les informations de débogage avec les journaux ?",
+        "your_feedback": "Votre retour d'information",
+        "restricted_file_format_msg": "Types de fichiers pris en charge : JPEG ou PNG",
+        "limit_total_file_size_msg": "Toutes les images ne doivent pas dépasser 10 Mo en taille.",
+        "limit_total_pic_quantity_msg": "Téléchargez jusqu'à 5 photos",
+        "feedback_tips": "Cliquez ici pour envoyer votre journal à l'équipe d'assistance.",
+        "invalid_email_tips": "Format d'adresse e-mail invalide. Veuillez saisir à nouveau."
+    },
+    "log_err": {
+        "file_recv_failed_msg": "le fichier n'a pas été accepté",
+        "send_to_server_failed_msg": "échec de l'envoi au serveur",
+        "image_too_big_msg": "l'image est trop grande",
+        "no_enough_space_msg": "il n'y a pas assez d'espace disponible",
+        "email_param_invalied_msg": "format de boîte aux lettres incorrect",
+        "network_connection_failed_msg": "problèmes de connexion réseau",
+        "mail_server_error_msg": "erreur du serveur de messagerie",
+        "system_error_msg": "erreur système",
+        "send_too_many_times_msg": "envoyé trop de fois"
     }
 }

@@ -7,7 +7,38 @@
         "export_log_btn": "導出日誌",
         "system_log_title": "系統日誌",
         "kernel_log_title": "核心日誌",
-        "crash_log_title": "崩潰日誌"
+        "crash_log_title": "崩潰日誌",
+        "level": "級別",
+        "module": "模組",
+        "key_word": "\"關鍵字\"",
+        "all": "全部",
+        "subject": "主題",
+        "your_contact_email": "您的聯絡電子郵件",
+        "description": "描述",
+        "upload_picture_tips": "您最多可以上傳 5 張 JPEG 或 PNG 格式的圖片，所有圖片的大小不得超過 10MB。",
+        "upload_picture_label": "上傳圖片（選填）",
+        "upload_system_log": "上傳系統日誌",
+        "upload_debug_info": "上傳除錯資訊",
+        "agree_privacy_tips": "我已閱讀並同意{privacy}",
+        "privacy": "隱私政策",
+        "export_log_tips": "您是否希望將除錯資訊與日誌一同匯出？",
+        "your_feedback": "您的反饋",
+        "limit_total_file_size_msg": "所有圖片的大小不得超過10MB。",
+        "restricted_file_format_msg": "支援的檔案類型為JPEG或PNG",
+        "limit_total_pic_quantity_msg": "最多上傳5張圖片",
+        "feedback_tips": "點擊此處將日誌發送給支持團隊以獲取幫助。",
+        "invalid_email_tips": "郵寄地址格式有誤，請重新輸入。"
     },
-    "menu_logview": "日誌"
+    "menu_logview": "日誌",
+    "log_err": {
+        "file_recv_failed_msg": "文件讀取失敗",
+        "send_to_server_failed_msg": "發送到服務器失敗",
+        "image_too_big_msg": "上傳圖片過大",
+        "no_enough_space_msg": "剩餘空間不足",
+        "email_param_invalied_msg": "郵箱格式錯誤",
+        "network_connection_failed_msg": "網絡連接問題",
+        "mail_server_error_msg": "郵件伺服器錯誤",
+        "system_error_msg": "系統錯誤",
+        "send_too_many_times_msg": "發送次數過多"
+    }
 }

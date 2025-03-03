@@ -8,6 +8,37 @@
         "cloud_log_title": "Felhő",
         "no_log": "Nincs adat",
         "remove_crash_log": "Hibanapló törlése",
-        "save_crash_log": "Hibanapló mentése"
+        "save_crash_log": "Hibanapló mentése",
+        "level": "Szint",
+        "module": "Modul",
+        "key_word": "Kulcsszó",
+        "all": "Kattintson ide a napló támogatási csapatnak történő elküldéséhez.",
+        "subject": "Tárgy",
+        "your_contact_email": "Az Ön kapcsolattartó e-mail címe",
+        "upload_picture_tips": "Ön legfeljebb 5 képet tölthet fel. A támogatott fájltípusok: jpg és png. A feltöltött kép mérete nem haladhatja meg a 10 MB-ot.",
+        "description": "Leírás",
+        "upload_picture_label": "Feltöltés kép (opcionális)",
+        "upload_system_log": "Feltöltési rendszer napló",
+        "upload_debug_info": "Feltöltési hibakeresési információ",
+        "privacy": "Adatvédelmi Szabályzat",
+        "agree_privacy_tips": "Én elolvastam és elfogadom a {privacy}",
+        "export_log_tips": "Szeretné exportálni a hibakeresési információkat a naplókkal együtt?",
+        "your_feedback": "Az Ön visszajelzése",
+        "restricted_file_format_msg": "Támogatott fájltípusok: JPEG vagy PNG",
+        "limit_total_file_size_msg": "Minden kép mérete nem haladhatja meg a 10 MB-ot.",
+        "limit_total_pic_quantity_msg": "Töltsön fel legfeljebb 5 képet.",
+        "feedback_tips": "Kattintson ide a napló támogató csapatnak való elküldéséhez.",
+        "invalid_email_tips": "Érvénytelen e-mail cím formátum. Kérem, írja be újra."
+    },
+    "log_err": {
+        "file_recv_failed_msg": "a fájl elfogadása sikertelen",
+        "send_to_server_failed_msg": "a szerverre küldés sikertelen",
+        "image_too_big_msg": "a kép túl nagy",
+        "no_enough_space_msg": "nincs elég hely",
+        "email_param_invalied_msg": "postaformátum-hiba",
+        "network_connection_failed_msg": "hálózati kapcsolati problémák",
+        "mail_server_error_msg": "levélkiszolgáló hiba",
+        "system_error_msg": "rendszerhiba",
+        "send_too_many_times_msg": "túl sokszor küldött"
     }
 }

@@ -11,7 +11,7 @@
         "holder_choose": "Por favor elija",
         "access_router": "Accediendo a su router",
         "access_router_wds_tips": "Una vez que el modo de puente se haya activado exitosamente, éste router obtendrá automáticamente una dirección IP del router principal. Si en el futuro es necesario acceder a la Interfaz de Usuario (UI) de éste router, será necesario utilizar la dirección IP asignada por el router principal. Para obtener dicha dirección IP se puede examinar la lista de clientes conectados al router principal a través de su Interfaz de Usuario (UI). Si no es posible obtener dicha lista de Clientes del router principal, se puede volver al modo de enrutamiento en éste router manteniendo pulsado el botón de reinicio durante 4 segundos.",
-        "access_router_ext_tips": "Después de que el modo puente se haya activado con éxito, para acceder a la Interfaz de Usuario (UI) de éste enrutador es necesario configurar manualmente una dirección IP estática en el PC/teléfono móvil desde el cual se va a acceder a éste enrutador. Dicha dirección debe estar en el mismo rango que éste enrutador. Si aún así no puede acceder a ella, se puede restaurar el modo de enrutamiento manteniendo pulsado el botón de reinicio durante 4 segundos.",
+        "access_router_ext_tips": "Después de un puenteo exitoso, si necesitas acceder a la interfaz web de este router, puedes hacerlo a través de la puerta de enlace del mismo. Si no puedes acceder, puedes restaurar el modo de enrutamiento manteniendo presionado el botón de reinicio durante 4 segundos.",
         "reset_mac_tips": "Por favor, reinicie su MAC a la MAC asignada de fábrica a través de la sección Clon de MAC.",
         "set_up_ap_tips": "Para configurar el modo Punto de Acceso, primero debe conectarse un cable Ethernet al puerto WAN.",
         "remove_wan_tips": "Retire el cable Ethernet del puerto WAN.",
@@ -34,7 +34,9 @@
         "passthrough_conflict_warning": "Este modo puede ser que no funcione si tú tienes la siguiente configuración: Tethering activado, modo drop-in gateway activado, IPv6 activada, DNS configurada en modo manual, Multi-WAN en modo balance de carga, puerto WAN como LAN, uso de políticas VPN, algún ajuste añadido al firewall, MAC address configurada en modo manual.",
         "passthrough_secondwan_warning": "El modo IP Passthrough requiere que solo se pueda tener un puerto WAN. Por favor vaya a la página $$$$ para modificarlo y cancelar el uso del puerto WAN como un puerto LAN o cancele el uso de la LAN como puerto WAN.",
         "set_up_bridge_tips": "Para configurar el modo Bridge, necesita primero conectar un cable Ethernet al puerto WAN.",
-        "passthrough_conflict_2b_warning": "Este modo puede no funcionar si tiene las siguientes configuraciones: modo de puerta de enlace drop-in habilitado, IPv6 habilitado, DNS configurado manualmente, Multi-WAN configurado en modo balanceo de carga, puerto WAN configurado como LAN, política de VPN utilizada, cualquier configuración de firewall añadida, dirección MAC configurada manualmente."
+        "passthrough_conflict_2b_warning": "Este modo puede no funcionar si tiene las siguientes configuraciones: modo de puerta de enlace drop-in habilitado, IPv6 habilitado, DNS configurado manualmente, Multi-WAN configurado en modo balanceo de carga, puerto WAN configurado como LAN, política de VPN utilizada, cualquier configuración de firewall añadida, dirección MAC configurada manualmente.",
+        "passthrough_enable_warning": "Si activa este modo, {feature} se desactivará.",
+        "passthrough_mac_tips": "Esto se utiliza para obtener la dirección MAC de una IP pública."
     },
     "menu_bridge": "Modo de Red"
 }

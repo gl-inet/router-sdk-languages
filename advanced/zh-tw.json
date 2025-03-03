@@ -4,6 +4,7 @@
         "note_two": "點擊此按鈕能進入原生的 LuCI 頁面，GL.iNet 不對 LuCI 頁面的維護跟持續開發負責。",
         "note_one": "您可以使用 OpenWrt 默認的用戶界面 LuCI 來修改進階設置。 LuCI 是一個由 OpenWrt 官方維護的開放源碼的獨立項目。",
         "luci_security_tips": "為了 LuCI 的安全性，如果您需要遠端存取 LuCI，請手動開啟 LuCI 連接埠。",
-        "luci_rtty_tips": "如果需要通過 rtty 遠程訪問 LuCI，請通過雲平臺上的端口 {port} 訪問 LuCI。"
+        "luci_rtty_tips": "如果需要通過 rtty 遠程訪問 LuCI，請通過雲平臺上的端口 {port} 訪問 LuCI。",
+        "go_to_luci_btn": "前往 LuCI"
     }
 }

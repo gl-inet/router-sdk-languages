@@ -8,6 +8,37 @@
         "no_log": "Nėra žurnalo",
         "remove_crash_log": "Pašalinti užlūžimo žurnalą",
         "save_crash_log": "Išsaugoti užlūžimo žurnalą",
-        "cloud_log_title": "Debesijos žurnalas"
+        "cloud_log_title": "Debesijos žurnalas",
+        "level": "Lygis",
+        "module": "Modulis",
+        "key_word": "Raktinis žodis",
+        "subject": "Tema",
+        "all": "Spustelėkite čia, kad išsiųstumėte savo žurnalą pagalbos komandai.",
+        "your_contact_email": "Jūsų kontaktinis el. paštas",
+        "description": "Aprašymas",
+        "upload_picture_tips": "Galite įkelti iki 5 nuotraukų. Palaikomi failų tipai yra jpg ir png. Įkeltos nuotraukos dydis neturi viršyti 10 MB.",
+        "upload_picture_label": "Įkelti nuotrauką (pasirinktinai)",
+        "upload_system_log": "Įkelti sistemos žurnalą",
+        "upload_debug_info": "Įkelti derinimo informaciją",
+        "agree_privacy_tips": "Aš perskaičiau ir sutinku {privacy}",
+        "privacy": "Privatumo politika",
+        "export_log_tips": "Ar norėtumėte eksportuoti derinimo informaciją kartu su žurnalais?",
+        "your_feedback": "Jūsų atsiliepimas",
+        "restricted_file_format_msg": "Palaikomi failų tipai: JPEG arba PNG.",
+        "limit_total_file_size_msg": "Visi vaizdai negali viršyti 10 MB dydžio.",
+        "limit_total_pic_quantity_msg": "Įkelkite iki 5 nuotraukų",
+        "feedback_tips": "Spustelėkite čia, kad išsiųstumėte savo žurnalą pagalbos komandai.",
+        "invalid_email_tips": "Netinkamas el. pašto adreso formatas. Prašome įvesti iš naujo."
+    },
+    "log_err": {
+        "file_recv_failed_msg": "failo priėmimas nepavyko",
+        "send_to_server_failed_msg": "nepavyko išsiųsti į serverį",
+        "image_too_big_msg": "paveikslėlis yra per didelis",
+        "no_enough_space_msg": "nėra pakankamai vietos",
+        "email_param_invalied_msg": "pašto dėžutės formato klaida",
+        "network_connection_failed_msg": "tinklo ryšio problemos",
+        "mail_server_error_msg": "pašto serverio klaida",
+        "system_error_msg": "sistemos klaida",
+        "send_too_many_times_msg": "siųsti per daug kartų"
     }
 }

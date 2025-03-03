@@ -26,7 +26,8 @@
         "revert_port_btn": "Restore to {port}",
         "use_as_port_btn": "Change the {silkprint} to {port}",
         "revert_wan_tips": "After you restore the WAN port",
-        "use_as_wan_silkprint_tips": "Once the {silkprint} is used as a WAN port"
+        "use_as_wan_silkprint_tips": "Once the {silkprint} is used as a WAN port",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID conflicts with Ethernet2 VLAN ID."
     },
     "tethering": {
         "title": "Tethering",
@@ -88,7 +89,11 @@
         "portal_auth_mode_btn": "Login Mode for Public Hotspots",
         "going_to_auth_tips": "Redirecting to the login page:",
         "cannot_accessed_portal_url_tips": "If you cannot access the login page, try disabling other Internet connections (e.g., ethernet, cellular).",
-        "quit_btn": "Quit Login Mode"
+        "quit_btn": "Quit Login Mode",
+        "entry_again_tips": "If you re-enter within 10s, it will pull the cache directly instead of rescanning.",
+        "unable_scan_channel_tips": "When travelling cross-country it may not be possible to scan for Wi-Fi on certain channels due to regulatory reasons.",
+        "scan_wifi_fail_detection_channel_tips": "The device is currently scanning for the optimal channel. Wi-Fi scanning is unavailable during this process. Please wait patiently for the scan to complete.",
+        "cannot_find_ssid": "Cannot Find Your SSID?"
     },
     "modem": {
         "title": "Cellular",
@@ -178,7 +183,7 @@
         "name_already_exist_tips": "This name already exists.",
         "history_signal_title": "Historical Signal Record",
         "lock_tower_title": "Lock Tower",
-        "available_tower_title": "Available Tower",
+        "available_tower_title": "Available Towers",
         "locked_tower_tips": "If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.",
         "device_may_not_b_tips": "The device may not be able to scan all towers when the Cellular interface is enabled.",
         "cellular_desc": "The Cellular interface will reconnect to switch to the locked tower.",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "If the {currentSim} Data Cap Amount is set and the SIM Card Slot {handler} is enabled, {currentSim} will automatically switch to {otherSim} when it's data exceeds the Data Cap Amount and {currentSim} will be disabled.",
         "disabled_sim_auto_switch_tips": "The SIM will not switch at data cap because {handler} is not enable. And the SIM will be disabled when data cap is reached.",
         "enabled_sim_auto_switch_tips": "The SIM will switch when data cap is reached."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Tower Locked",
+        "operator_locked_label": "{sim} Operator Locked",
+        "lock_operator_btn": "Lock Operator",
+        "lock_tower_disabled_tip": "Because the current card slot is locked to the operator, the current card slot locked to the base station feature is disabled.",
+        "scan_tower_warning_tips": "It will take about a few minutes to scan the tower. Are you sure you want to continue?",
+        "reflash_warning_msg": "Do not refresh the page.",
+        "lock_tower_tips": "Scanning base stations can quickly identify high-quality signal sources to ensure stable communication. Locking onto a base station requires matching the carrier and the device's supported frequency bands; otherwise, it may affect dialing. Please confirm the base station information to avoid potential issues.",
+        "lock_operation_mode_label": "Lock Mode",
+        "lock_operation_mode_tip": "The operator lock function supports three modes: automatically connecting to an available operator network, manually locking to a specific operator, or automatically switching to an available operator network if the manual lock fails.",
+        "scan_operator_warning_tips": "Scanning the operator will take a few minutes, and you will temporarily lose your network connection during this time. Are you sure you want to continue?",
+        "available_operator_title": "Available Operators",
+        "manual_lock_operator_label": "Manual",
+        "manual_select_operator_tips": "The current operator list is for reference only. If manual selection fails, please refer to the list of operators supported by the current SIM card, or consult the operator's customer service for accurate information.",
+        "lock_operator_fail_msg": "The current operator is locked, but actually unavailable due to card or operator restrictions, if you need to restore the network, please perform a manual unlock operation.",
+        "lock_operator_warning_tips": "If the locked operator does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.",
+        "internet_info_title": "Internet",
+        "manual_auto_lock_operator_label": "Manual-Auto",
+        "sim_info_title": "SIM Card",
+        "cell_info_title": "Cells",
+        "sim_settings_title": "SIM Card Settings",
+        "special_apns_label": "Special APNs",
+        "set_sim_config_warning_tips": "Changing the configuration will result in redialing.",
+        "sim_switch_title": "SIM Card Switch",
+        "not_use_special_label": "Not Use",
+        "view_information_btn": "View More Information",
+        "use_special_apn_warning_tips": "The special APN you are currently selecting is only available for specific phone cards. If the APN is not set correctly, it may cause dialing abnormalities, network connection failure and other communication problems. Please double check whether your phone card supports this APN. are you sure you need to switch to the current APN?",
+        "pin_code_tips": "PIN code length 4-8 digits",
+        "information_title": "Cellular Information",
+        "special_apns_tips": "For APNs provided by special operators, please choose according to the actual situation of your SIM card.",
+        "pin_code_last_unlock_tips": "SIM card is locked and needs to be unlocked by PIN code, there is last chance left to try to unlock it, if it fails, you need to use your phone to unlock it by entering PUK code.",
+        "need_pin_code_tips": "The SIM card is locked and needs to be unlocked by PIN code, there are {count} more chances.",
+        "pin_code_last_input_unlock_tips": "PIN code {code} is incorrect, there is last chance left to try to unlock it, if unlocking fails again, you need to use your phone to enter the PUK code to unlock."
+    },
+    "sim": {
+        "sender_label": "Sender"
     }
 }

@@ -26,7 +26,8 @@
         "revert_port_btn": "恢復至 {port}",
         "use_as_port_btn": "將 {silkprint}切換至作為 {port}使用",
         "revert_wan_tips": "恢復為 WAN 埠後",
-        "use_as_wan_silkprint_tips": "一旦 {silkprint}作為 WAN 埠使用"
+        "use_as_wan_silkprint_tips": "一旦 {silkprint}作為 WAN 埠使用",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID 與 Ethernet2 VLAN ID 衝突。"
     },
     "tethering": {
         "title": "熱點分享",
@@ -88,7 +89,11 @@
         "portal_auth_mode_btn": "公共熱點認證模式",
         "enable_disguise_tips": "若此選項啟用，路由器偽裝成您目前使用的客戶端設備的同款設備。",
         "cannot_accessed_portal_url_tips": "如果無法訪問認證頁面，請嘗試禁用其它聯網方式（如有線、行動網絡）。",
-        "quit_btn": "退出認證模式"
+        "quit_btn": "退出認證模式",
+        "entry_again_tips": "如果你10s內再次進入，將直接拉取緩存，而不是重新掃描。",
+        "unable_scan_channel_tips": "跨國旅行時可能因為法規原因無法掃描到某些通道的Wi-Fi。",
+        "scan_wifi_fail_detection_channel_tips": "設備正在檢測最佳通道，期間無法掃描周邊Wi-Fi，請您耐心等待檢測完成。",
+        "cannot_find_ssid": "找不到您的SSID？"
     },
     "modem": {
         "title": "行動網絡",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "如果設定了{currentSim}數據上限並啟用了SIM卡插槽{handler}，當數據超出上限時，{currentSim}將自動切換到{otherSim}，並將{currentSim}禁用。",
         "disabled_sim_auto_switch_tips": "SIM卡在達到數據上限時不會切換，因為{handler}未啟用。而且當數據上限達到時，SIM卡將被禁用。",
         "enabled_sim_auto_switch_tips": "SIM卡將在達到數據上限時切換。"
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} 基站已被鎖定",
+        "operator_locked_label": "{sim} 運營商已被鎖定",
+        "lock_operator_btn": "鎖定運營商",
+        "lock_tower_disabled_tip": "由於當前卡槽已鎖定運營商，因此當前鎖定基站功能的卡槽被禁用。",
+        "scan_tower_warning_tips": "掃描塔樓將需要幾分鐘時間。您確定要繼續嗎？",
+        "lock_tower_tips": "掃描基站可以快速識別高品質的信號源，以確保穩定通訊。鎖定基站需要匹配運營商和設備支持的頻段；否則，可能會影響撥號。請確認基站信息，以避免潛在問題。",
+        "reflash_warning_msg": "請勿刷新頁面。",
+        "lock_operation_mode_label": "鎖定模式",
+        "lock_operation_mode_tip": "操作員鎖定功能支持三種模式：自動連接到可用的操作員網絡、手動鎖定到特定操作員，或者如果手動鎖定失敗，則自動切換到可用的操作員網絡。",
+        "scan_operator_warning_tips": "掃描運營商將需要幾分鐘時間，在此期間您將暫時失去網絡連接。您確定要繼續嗎？",
+        "available_operator_title": "可用運營商",
+        "manual_select_operator_tips": "當前運營商列表僅供參考。如果手動選擇失敗，請參考當前SIM卡支持的運營商列表，或咨詢運營商客服以獲取準確資訊。",
+        "lock_operator_fail_msg": "當前操作者已被鎖定，但由於卡片或運營商限制，實際上無法使用，如果您需要恢復網絡，請執行手動解鎖操作。",
+        "lock_operator_warning_tips": "如果鎖定的運營商不符合行動網絡設置中的頻段屏蔽或APN參數，則行動網絡介面將無法連接到互聯網。",
+        "manual_lock_operator_label": "手動",
+        "manual_auto_lock_operator_label": "手動-自動",
+        "sim_info_title": "SIM卡",
+        "internet_info_title": "互聯網",
+        "cell_info_title": "小区",
+        "set_sim_config_warning_tips": "更改配置將導致重新撥號。",
+        "sim_settings_title": "SIM卡設置",
+        "not_use_special_label": "不使用",
+        "special_apns_label": "特殊APN設定",
+        "use_special_apn_warning_tips": "您目前選擇的特殊APN僅適用於特定的電話卡。如果APN設置不正確，可能會導致撥號異常、網絡連接失敗以及其他通訊問題。請再次確認您的電話卡是否支援此APN。您確定需要切換到當前的APN嗎？",
+        "pin_code_tips": "PIN 碼長度為 4-8 位數字",
+        "sim_switch_title": "SIM卡切換",
+        "view_information_btn": "查看更多資訊",
+        "information_title": "行動網絡資訊",
+        "special_apns_tips": "對於特殊運營商提供的APN，請根據您SIM卡的實際情況進行選擇。",
+        "pin_code_last_unlock_tips": "SIM卡已鎖定，需要PIN碼解鎖，只剩最後一次嘗試機會，若嘗試失敗，則需使用手機輸入PUK碼進行解鎖。",
+        "need_pin_code_tips": "SIM卡已鎖定，需要PIN碼解鎖，還有{count}次機會。",
+        "pin_code_last_input_unlock_tips": "PIN碼{code}不正確，這是最後一次嘗試解鎖的機會，如果再次解鎖失敗，您需要使用手機輸入PUK碼進行解鎖。"
+    },
+    "sim": {
+        "sender_label": "發件人"
     }
 }

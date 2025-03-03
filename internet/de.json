@@ -26,7 +26,8 @@
         "revert_as_lan_tips": "{silkprint} wiederherstellen zu LAN (default)?",
         "revert_wan_tips": "Nachdem der WAN Port wiederhergestellt wurde",
         "use_as_wan_silkprint_tips": "Wenn der {silkprint} als WAN Port genutzt wird",
-        "use_as_port_btn": "Ändere {silkprint} auf {port}"
+        "use_as_port_btn": "Ändere {silkprint} auf {port}",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN-ID steht in Konflikt mit Ethernet2 VLAN-ID."
     },
     "tethering": {
         "title": "Tethering",
@@ -88,7 +89,11 @@
         "portal_auth_mode_btn": "Login Modus für öffentliche Hotspots",
         "entered_portal_tips": "Das Gerät befindet sich im Anmeldemodus für öffentliche Hotspots. VPNs und benutzerdefinierte DNS wurden pausiert, was zu Datenlecks beim Anbieter des Hotspots (z. B. Hotels) führen kann. Nach erfolgreicher Anmeldung verlässt der Router diesen Modus automatisch. {exit}.",
         "cannot_accessed_portal_url_tips": "Wenn Sie nicht auf die Anmeldeseite zugreifen können, versuchen Sie, andere Internetverbindungen zu deaktivieren (z. B. Ethernet, Mobilfunk).",
-        "quit_btn": "Login-Modus beenden"
+        "quit_btn": "Login-Modus beenden",
+        "entry_again_tips": "Wenn Sie innerhalb von 10 Sekunden erneut eintreten, wird direkt aus dem Cache gezogen, anstatt erneut zu scannen.",
+        "unable_scan_channel_tips": "Beim Reisen durch verschiedene Länder kann es aus regulatorischen Gründen nicht möglich sein, auf bestimmten Kanälen nach WLAN zu suchen.",
+        "scan_wifi_fail_detection_channel_tips": "Das Gerät sucht derzeit nach dem optimalen Kanal, die WLAN-Suche ist während dieses Vorgangs nicht verfügbar. Bitte warten Sie geduldig, bis der Scan abgeschlossen ist.",
+        "cannot_find_ssid": "Finden Sie Ihr SSID nicht?"
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "Wenn das Datenvolumen für {currentSim} festgelegt ist und der SIM-Karten-Slot {handler} aktiviert ist, wird {currentSim} automatisch auf {otherSim} umschalten, wenn das Datenvolumen überschritten wird, und {currentSim} wird deaktiviert.",
         "enabled_sim_auto_switch_tips": "Die SIM wird gewechselt, wenn das Datenvolumen erreicht ist.",
         "disabled_sim_auto_switch_tips": "Die SIM wird bei Erreichen des Datenlimits nicht wechseln, da {handler} nicht aktiviert ist. Und die SIM wird deaktiviert, wenn das Datenlimit erreicht ist."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Turm gesperrt",
+        "operator_locked_label": "{sim} Betreiber gesperrt",
+        "lock_operator_btn": "Bediener sperren",
+        "lock_tower_disabled_tip": "Da der aktuelle Kartenschlitz an den Betreiber gesperrt ist, ist die Funktion, die den aktuellen Kartenschlitz an die Basisstation sperrt, deaktiviert.",
+        "scan_tower_warning_tips": "Es wird einige Minuten dauern, den Turm zu scannen. Sind Sie sicher, dass Sie fortfahren möchten?",
+        "lock_operation_mode_label": "Sperrmodus",
+        "lock_tower_tips": "Das Scannen von Basisstationen kann schnell hochwertige Signalquellen identifizieren, um eine stabile Kommunikation zu gewährleisten. Das Einrasten auf eine Basisstation erfordert die Übereinstimmung des Trägers und der vom Gerät unterstützten Frequenzbänder; andernfalls kann dies das Wählen beeinträchtigen. Bitte bestätigen Sie die Informationen der Basisstation, um mögliche Probleme zu vermeiden.",
+        "reflash_warning_msg": "Bitte aktualisieren Sie die Seite nicht.",
+        "lock_operation_mode_tip": "Die Funktion der Betreibersperre unterstützt drei Modi: automatisches Verbinden mit einem verfügbaren Betreibernetzwerk, manuelles Sperren auf einen bestimmten Betreiber oder automatisches Umschalten auf ein verfügbares Betreibernetzwerk, falls die manuelle Sperre fehlschlägt.",
+        "scan_operator_warning_tips": "Das Scannen des Betreibers wird einige Minuten in Anspruch nehmen, und während dieser Zeit wird Ihre Netzwerkverbindung vorübergehend unterbrochen. Sind Sie sicher, dass Sie fortfahren möchten?",
+        "available_operator_title": "Verfügbare Betreiber",
+        "manual_lock_operator_label": "Bedienungsanleitung",
+        "manual_select_operator_tips": "Die aktuelle Betreiberliste dient nur zur Referenz. Sollte die manuelle Auswahl fehlschlagen, beziehen Sie sich bitte auf die Liste der vom aktuellen SIM-Karte unterstützten Betreiber oder konsultieren Sie den Kundendienst des Betreibers für genaue Informationen.",
+        "lock_operator_fail_msg": "Der aktuelle Betreiber ist gesperrt, aber aufgrund von Karten- oder Betreibereinschränkungen tatsächlich nicht verfügbar. Wenn Sie das Netzwerk wiederherstellen müssen, führen Sie bitte eine manuelle Entsperrungsoperation durch.",
+        "lock_operator_warning_tips": "Wenn der gesperrte Betreiber nicht mit der Bandmaskierung oder den APN-Parametern in den Mobilfunkeinstellungen übereinstimmt, wird die Mobilfunkschnittstelle keine Verbindung zum Internet herstellen können.",
+        "internet_info_title": "Internet",
+        "manual_auto_lock_operator_label": "Manuell-Automatisch",
+        "sim_info_title": "SIM-Karte",
+        "cell_info_title": "Zellen",
+        "sim_settings_title": "SIM-Karteneinstellungen",
+        "special_apns_label": "Spezielle APNs",
+        "set_sim_config_warning_tips": "Die Änderung der Konfiguration wird zu einer Neueinwahl führen.",
+        "not_use_special_label": "Nicht verwenden",
+        "view_information_btn": "Weitere Informationen anzeigen",
+        "use_special_apn_warning_tips": "Das von Ihnen derzeit ausgewählte spezielle APN ist nur für bestimmte Telefonkarten verfügbar. Wenn das APN nicht korrekt eingestellt ist, kann dies zu Wählproblemen, Netzwerkverbindungsfehlern und anderen Kommunikationsproblemen führen. Bitte überprüfen Sie nochmals, ob Ihre Telefonkarte dieses APN unterstützt. Sind Sie sicher, dass Sie zu dem aktuellen APN wechseln möchten?",
+        "pin_code_tips": "PIN-Code Länge 4-8 Ziffern",
+        "sim_switch_title": "SIM-Kartenwechsel",
+        "information_title": "Mobilfunkinformationen",
+        "special_apns_tips": "Für APNs, die von speziellen Betreibern bereitgestellt werden, wählen Sie bitte entsprechend der tatsächlichen Situation Ihrer SIM-Karte.",
+        "pin_code_last_unlock_tips": "Die SIM-Karte ist gesperrt und muss mit dem PIN-Code entsperrt werden. Es gibt nur noch einen letzten Versuch, sie zu entsperren. Sollte dies fehlschlagen, müssen Sie Ihr Telefon verwenden, um sie durch Eingabe des PUK-Codes zu entsperren.",
+        "need_pin_code_tips": "Die SIM-Karte ist gesperrt und muss mit dem PIN-Code entsperrt werden, es gibt noch {count} weitere Versuche.",
+        "pin_code_last_input_unlock_tips": "PIN-Code {code} ist falsch, es bleibt nur noch eine letzte Chance, um ihn zu entsperren. Sollte die Entsperrung erneut fehlschlagen, müssen Sie Ihren PUK-Code über Ihr Telefon eingeben, um die Entsperrung vorzunehmen."
+    },
+    "sim": {
+        "sender_label": "Absender"
     }
 }

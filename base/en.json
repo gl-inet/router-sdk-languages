@@ -15,7 +15,7 @@
         "modify": "Modify",
         "cancel": "Cancel",
         "apply": "Apply",
-        "install": "install",
+        "install": "Install",
         "connect": "Connect",
         "disconnect": "Disconnect",
         "abort": "Abort",
@@ -114,7 +114,13 @@
         "done_btn": "Done",
         "upgrade_btn": "Upgrade",
         "setp_label": "Step {num}:",
-        "join_btn": "Join"
+        "join_btn": "Join",
+        "search": "Search",
+        "scan_btn": "Scan",
+        "revoke_btn": "Revoke",
+        "manual_add_mac_btn": "Manually Add Device",
+        "got_it": "Got it",
+        "attention_title": "Attention"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -202,7 +208,8 @@
         "recheck_btn": "Re-detect",
         "duplex_full_label": "{speed} Mbps full duplex",
         "duplex_half_label": "{speed} Mbps half duplex",
-        "address_label": "Addres"
+        "address_label": "Addres",
+        "mtu_common_tip": "Set the MTU value according to your usage scenario .Incorrect settings may cause internet disconnection."
     },
     "upload": {
         "select_or_drag": "Select a file to upload or drag it here",

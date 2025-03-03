@@ -8,6 +8,37 @@
         "cloud_log_title": "云平台日志",
         "no_log": "无日志",
         "remove_crash_log": "删除崩溃日志",
-        "save_crash_log": "记录崩溃日志"
+        "save_crash_log": "记录崩溃日志",
+        "level": "级别",
+        "module": "模块",
+        "key_word": "关键词",
+        "all": "全部",
+        "subject": "主题",
+        "your_contact_email": "您的联系邮箱",
+        "description": "描述",
+        "upload_picture_tips": "您最多可以上传 5 张 JPEG 或 PNG 格式的图片，所有图片的大小不得超过 10MB。",
+        "upload_picture_label": "上传图片（可选）",
+        "upload_system_log": "上传系统日志",
+        "upload_debug_info": "上传调试信息",
+        "agree_privacy_tips": "我已阅读并同意{privacy}",
+        "privacy": "隐私政策",
+        "export_log_tips": "您是否希望将调试信息与日志一起导出？",
+        "your_feedback": "您的反馈",
+        "limit_total_file_size_msg": "所有图片的大小不得超过10MB。",
+        "restricted_file_format_msg": "支持的文件类型为JPEG或PNG",
+        "limit_total_pic_quantity_msg": "最多上传5张图片",
+        "feedback_tips": "点击此处将日志发送给支持团队以获取帮助。",
+        "invalid_email_tips": "邮件地址格式有误，请重新输入。"
+    },
+    "log_err": {
+        "file_recv_failed_msg": "文件读取失败",
+        "send_to_server_failed_msg": "发送到服务器失败",
+        "image_too_big_msg": "上传图片过大",
+        "no_enough_space_msg": "剩余空间不足",
+        "email_param_invalied_msg": "邮箱格式错误",
+        "network_connection_failed_msg": "网络连接问题",
+        "mail_server_error_msg": "邮件服务器错误",
+        "system_error_msg": "系统错误",
+        "send_too_many_times_msg": "发送次数过多"
     }
 }

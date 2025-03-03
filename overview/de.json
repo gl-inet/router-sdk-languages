@@ -38,6 +38,13 @@
         "fan_setting_title": "Lüftereinstellungen",
         "cpu_status_title": "Durchschnittliche CPU-Last",
         "cpu_num": "Ein Kern | {count} Kerne",
-        "device_info_title": "Geräteinformationen"
+        "device_info_title": "Geräteinformationen",
+        "switching_to_usb2_tips": "Nach dem Wechsel von USB3.0 zu USB2.0 werden alle verbundenen USB-Geräte neu eingebunden.",
+        "switching_warning_tips": "Stellen Sie sicher, dass der USB-Stick nicht in Gebrauch ist; andernfalls können die Daten auf dem USB-Stick beschädigt werden.",
+        "battery_label": "Batterie",
+        "usb3_switching_tips": "Diese Funktion unterstützt das Umschalten zwischen USB 2.0 und USB 3.0 Protokollen.",
+        "switching_to_usb3_tips": "Bitte stecken Sie den USB-Stick erneut ein, wenn Sie auf USB3.0 umschalten.",
+        "usb_switch_from_to_tips": "Sind Sie sicher, dass Sie von {usb1} auf {usb2} wechseln möchten?",
+        "usb_switch_label": "USB-Protokollumschaltung"
     }
 }

@@ -8,6 +8,37 @@
         "cloud_log_title": "Cloud Log",
         "no_log": "No Log",
         "remove_crash_log": "Remove Crash Log",
-        "save_crash_log": "Save Crash Log"
+        "save_crash_log": "Save Crash Log",
+        "level": "Level",
+        "module": "Module",
+        "key_word": "Key word",
+        "all": "All",
+        "subject": "Subject",
+        "upload_system_log": "Upload System Log",
+        "your_contact_email": "Your Contact Email",
+        "upload_picture_tips": "You can upload up to 5 pictures in JPEG or PNG format, all of which must not exceed 10MB in size.",
+        "description": "Description",
+        "upload_picture_label": "Upload Picture (Optional)",
+        "upload_debug_info": "Upload Debug Info",
+        "privacy": "Privacy Policy",
+        "agree_privacy_tips": "I have read and agree {privacy}",
+        "export_log_tips": "Would you like to export debug info along with the logs?",
+        "your_feedback": "Your Feedback",
+        "restricted_file_format_msg": "Supported file types JPEG or PNG",
+        "limit_total_file_size_msg": "All images must not exceed 10MB in size",
+        "limit_total_pic_quantity_msg": "Upload up to 5 pictures",
+        "feedback_tips": "Click here to send your log for support team assistance.",
+        "invalid_email_tips": "Invalid email address format. Please re-enter."
+    },
+    "log_err": {
+        "file_recv_failed_msg": "file acceptance failed",
+        "send_to_server_failed_msg": "failed to send to server",
+        "image_too_big_msg": "images is too big",
+        "no_enough_space_msg": "there is not enough space left",
+        "email_param_invalied_msg": "mailbox format error",
+        "network_connection_failed_msg": "network connection issues",
+        "mail_server_error_msg": "mail server error",
+        "system_error_msg": "system error",
+        "send_too_many_times_msg": "send too many times"
     }
 }

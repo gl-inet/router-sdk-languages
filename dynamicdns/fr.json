@@ -15,7 +15,7 @@
         "host_name": "Nom d'hôte",
         "parsing_success_tips": "Le domaine DDNS renvoie à l'IP publique du routeur.",
         "parsing_error_tips": "L'enregistrement pour ce domaine DDNS n'est présent dans les serveurs DNS. Vérifiez que le routeur est bien connecté à Internet.",
-        "parsing_warning_tips": "L'adresse IP obtenue par la résolution de domaine DDNS n'est pas la même que l'adresse IP WAN de l'appareil. Vous avez besoin d'une adresse IP publique Internet pour utiliser le DNS dynamique. Si ce routeur est derrière un NAT, vous devrez peut-être configurer la redirection de port sur votre routeur ISP. Si vous avez activé le Client VPN, veuillez désactiver l'option \"Les services de GL.iNet utilisent le VPN\" dans les options globales.",
+        "parsing_warning_tips": "L'adresse IP obtenue par la résolution de domaine DDNS n'est pas la même que l'adresse IP WAN de l'appareil. Vous avez besoin d'une adresse IP publique internet pour utiliser le DNS dynamique. Si ce routeur est derrière un NAT, vous devrez peut-être configurer la redirection de port sur le routeur de votre fournisseur d'accès internet. Si vous avez activé le Client VPN, veuillez désactiver l'option \"Les services de GL.iNet utilisent le VPN\" dans les options globales.",
         "parsing_label": "IP liée au domaine DDNS",
         "parsing_interface_title": "IP Publique",
         "sevices_warning_tips": "Si vous avez activé le Client VPN, veuillez désactiver \"Services from GL.iNet Use VPN\" dans les options globales.",

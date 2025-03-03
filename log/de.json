@@ -7,7 +7,38 @@
         "crash_log_title": "Absturzprotokoll",
         "no_log": "Kein Protokoll",
         "remove_crash_log": "Absturzprotokoll löschen",
-        "save_crash_log": "Absturzprotokoll speichern"
+        "save_crash_log": "Absturzprotokoll speichern",
+        "level": "Stufe",
+        "module": "Modul",
+        "key_word": "\"Schlüsselwort\"",
+        "all": "Klicken Sie hier, um Ihr Protokoll zur Unterstützung an das Support-Team zu senden.",
+        "subject": "Betreff",
+        "your_contact_email": "Ihre Kontakt-E-Mail",
+        "upload_picture_tips": "Sie können bis zu 5 Bilder hochladen. Die unterstützten Dateitypen sind jpg und png. Die Größe des hochgeladenen Bildes darf 10 MB nicht überschreiten.",
+        "description": "Beschreibung",
+        "upload_picture_label": "Bild hochladen (optional)",
+        "upload_system_log": "Systemprotokoll hochladen",
+        "upload_debug_info": "Hochladen von Debug-Informationen",
+        "privacy": "Datenschutzrichtlinie",
+        "agree_privacy_tips": "Ich habe gelesen und stimme {privacy} zu.",
+        "export_log_tips": "Möchten Sie die Debug-Informationen zusammen mit den Protokollen exportieren?",
+        "your_feedback": "Ihr Feedback",
+        "restricted_file_format_msg": "Unterstützte Dateitypen: JPEG oder PNG",
+        "limit_total_file_size_msg": "Alle Bilder dürfen nicht größer als 10 MB sein.",
+        "limit_total_pic_quantity_msg": "Laden Sie bis zu 5 Bilder hoch",
+        "feedback_tips": "Klicken Sie hier, um Ihr Protokoll an das Support-Team zu senden.",
+        "invalid_email_tips": "Ungültiges E-Mail-Adressformat. Bitte geben Sie es erneut ein."
     },
-    "menu_logview": "Protokoll"
+    "menu_logview": "Protokoll",
+    "log_err": {
+        "file_recv_failed_msg": "Dateiannahme fehlgeschlagen",
+        "send_to_server_failed_msg": "Übertragung an den Server fehlgeschlagen",
+        "image_too_big_msg": "Das Bild ist zu groß.",
+        "no_enough_space_msg": "Es ist nicht genügend Speicherplatz vorhanden.",
+        "email_param_invalied_msg": "Postfachformatfehler",
+        "network_connection_failed_msg": "Netzwerkverbindungsprobleme",
+        "mail_server_error_msg": "Mailserver-Fehler",
+        "system_error_msg": "Systemfehler",
+        "send_too_many_times_msg": "zu oft gesendet"
+    }
 }

@@ -54,7 +54,11 @@
         "title": "Powtarzacz",
         "known_net": "Znane sieci",
         "retry_connet_tips": "Połączenie nieudane, nastąpi ponowna próba później…",
-        "lock_bssid_tips": "Jeśli ta opcja jest włączona, router będzie łączył się tylko z AP odpowiadającym wybranemu BSSID, gdy przełącza się na sieć z tym SSID."
+        "lock_bssid_tips": "Jeśli ta opcja jest włączona, router będzie łączył się tylko z AP odpowiadającym wybranemu BSSID, gdy przełącza się na sieć z tym SSID.",
+        "entry_again_tips": "Jeśli ponownie wejdziesz w ciągu 10 sekund, zostanie użyta pamięć podręczna zamiast ponownego skanowania.",
+        "unable_scan_channel_tips": "Podczas podróży międzykrajowej może nie być możliwe skanowanie Wi-Fi na niektórych kanałach z powodów regulacyjnych.",
+        "scan_wifi_fail_detection_channel_tips": "Urządzenie obecnie skanuje w poszukiwaniu optymalnego kanału, skanowanie Wi-Fi jest niedostępne podczas tego procesu. Proszę cierpliwie czekać na zakończenie skanowania.",
+        "cannot_find_ssid": "Nie możesz znaleźć swojego SSID?"
     },
     "cable": {
         "title": "Ethernet",
@@ -83,7 +87,8 @@
         "revert_port_btn": "Przywróć do {port}",
         "use_as_port_btn": "Zmień {silkprint} na {port}",
         "no_wan_tips": "Nie wykryto kabla.",
-        "use_as_wan_silkprint_tips": "Gdy {silkprint} jest używany jako port WAN"
+        "use_as_wan_silkprint_tips": "Gdy {silkprint} jest używany jako port WAN",
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID koliduje z VLAN ID Ethernet2."
     },
     "sms": {
         "send_modem": "Z modemu (SIM)",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "Jeśli ustawiono limit danych dla {currentSim} i włączono slot karty SIM {handler}, {currentSim} automatycznie przełączy się na {otherSim}, gdy przekroczy ustawiony limit danych, a {currentSim} zostanie wyłączony.",
         "disabled_sim_auto_switch_tips": "SIM nie przełączy się po osiągnięciu limitu danych, ponieważ {handler} nie jest włączony. Po osiągnięciu limitu danych, karta SIM zostanie wyłączona.",
         "enabled_sim_auto_switch_tips": "Po osiągnięciu limitu danych nastąpi zmiana karty SIM."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Wieża zablokowana",
+        "operator_locked_label": "{sim} Zablokowany przez operatora",
+        "lock_operator_btn": "Operator blokady",
+        "lock_tower_disabled_tip": "Ponieważ obecny slot karty jest zablokowany dla operatora, funkcja blokady slotu karty do stacji bazowej jest wyłączona.",
+        "scan_tower_warning_tips": "Potrzeba kilku minut na przeskanowanie wieży. Czy na pewno chcesz kontynuować?",
+        "lock_tower_tips": "Skanowanie stacji bazowych może szybko zidentyfikować źródła sygnału wysokiej jakości, aby zapewnić stabilną komunikację. Zablokowanie na stacji bazowej wymaga dopasowania operatora i obsługiwanych przez urządzenie pasm częstotliwości; w przeciwnym razie może to wpłynąć na wybieranie numerów. Proszę potwierdzić informacje o stacji bazowej, aby uniknąć potencjalnych problemów.",
+        "reflash_warning_msg": "Nie odświeżaj strony.",
+        "lock_operation_mode_label": "Tryb blokady",
+        "lock_operation_mode_tip": "Funkcja blokady operatora obsługuje trzy tryby: automatyczne łączenie się z dostępną siecią operatora, ręczne blokowanie określonego operatora lub automatyczne przełączanie się na dostępną sieć operatora, jeśli ręczne blokowanie nie powiedzie się.",
+        "available_operator_title": "Dostępni Operatorzy",
+        "scan_operator_warning_tips": "Skanowanie operatora zajmie kilka minut i w tym czasie tymczasowo utracisz połączenie z siecią. Czy na pewno chcesz kontynuować?",
+        "manual_lock_operator_label": "Instrukcja",
+        "manual_select_operator_tips": "Aktualna lista operatorów ma charakter wyłącznie informacyjny. W przypadku niepowodzenia ręcznego wyboru, proszę zapoznać się z listą operatorów obsługiwanych przez obecną kartę SIM lub skonsultować się z obsługą klienta operatora w celu uzyskania dokładnych informacji.",
+        "lock_operator_fail_msg": "Aktualny operator jest zablokowany, ale faktycznie niedostępny z powodu ograniczeń karty lub operatora. Jeśli potrzebujesz przywrócić sieć, wykonaj ręczną operację odblokowania.",
+        "lock_operator_warning_tips": "Jeśli zablokowany operator nie odpowiada maskowaniu pasma lub parametrom APN w ustawieniach komórkowych, interfejs komórkowy nie będzie mógł połączyć się z Internetem.",
+        "manual_auto_lock_operator_label": "Ręczny-Automatyczny",
+        "sim_info_title": "Karta SIM",
+        "internet_info_title": "Internet",
+        "cell_info_title": "Komórki",
+        "set_sim_config_warning_tips": "Zmiana konfiguracji spowoduje ponowne wybieranie numeru.",
+        "sim_settings_title": "Ustawienia karty SIM",
+        "not_use_special_label": "Nie używać",
+        "special_apns_label": "Specjalne APN-uri",
+        "use_special_apn_warning_tips": "Aktualnie wybrany specjalny APN jest dostępny tylko dla określonych kart telefonicznych. Jeśli APN nie jest ustawiony poprawnie, może to spowodować nieprawidłowości w wybieraniu numerów, awarie połączenia sieciowego oraz inne problemy komunikacyjne. Proszę dwukrotnie sprawdzić, czy Państwa karta telefoniczna obsługuje ten APN. Czy na pewno chcą Państwo przełączyć się na bieżący APN?",
+        "pin_code_tips": "Długość kodu PIN 4-8 cyfr",
+        "sim_switch_title": "Przełącznik karty SIM",
+        "view_information_btn": "Zobacz więcej informacji",
+        "information_title": "Informacje o sieci komórkowej",
+        "special_apns_tips": "Dla APN-ów dostarczanych przez specjalnych operatorów, proszę wybrać zgodnie z rzeczywistym stanem Państwa karty SIM.",
+        "pin_code_last_unlock_tips": "Karta SIM jest zablokowana i wymaga odblokowania za pomocą kodu PIN, pozostała ostatnia szansa na jej odblokowanie, jeśli się nie powiedzie, należy użyć telefonu do odblokowania jej, wprowadzając kod PUK.",
+        "need_pin_code_tips": "Karta SIM jest zablokowana i wymaga odblokowania za pomocą kodu PIN, pozostało {count} prób.",
+        "pin_code_last_input_unlock_tips": "Kod PIN {code} jest nieprawidłowy, pozostała ostatnia szansa na jego odblokowanie. Jeśli ponowna próba się nie powiedzie, należy użyć telefonu do wprowadzenia kodu PUK w celu odblokowania."
+    },
+    "sim": {
+        "sender_label": "Nadawca"
     }
 }

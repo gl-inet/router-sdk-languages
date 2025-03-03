@@ -40,8 +40,8 @@
         "strict_mode_label": "Modo estricto",
         "normal_label": "Normal",
         "strict _label": "Estricto",
-        "det_mode_tips": "El modo normal es el que se utiliza por defecto; el modo de pocos-datos solamente traza cuando hay un error en alguna conexión de red; y el modo estricto determina el estado de la conexión basándose exclusivamente en si un comando de detección a una red IP externa es exitoso.",
-        "low_data_label": "Pocos-datos"
+        "det_mode_tips": "El modo normal se utiliza por defecto, el modo de datos reducidos rastrea solo cuando ocurre un error de red en una interfaz, y el modo estricto determina el estado de la interfaz únicamente en función de los resultados de un comando de detección desde una IP pública.",
+        "low_data_label": "Pocos datos"
     },
     "menu_multiwan": "WAN Multiple"
 }

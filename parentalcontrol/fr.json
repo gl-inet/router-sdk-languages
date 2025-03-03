@@ -101,7 +101,7 @@
         "domain_detect_failed_tips": "{count} noms de domaine n'ont pas pu être détectés.",
         "domain_detect_success_tips": "{count} noms de domaine ont été détectés avec succès.",
         "input_url_link_tips": "Veuillez saisir l'URL correcte. La détection d'URL identifiera la validité du nom de domaine.",
-        "blocklist_input_mode_tooltip": "Vous pouvez définir la liste noire manuellement ou en vous abonnant à l'URL. Après vous être abonné à l'URL, la liste noire sera mise à jour automatiquement chaque jour.",
+        "blocklist_input_mode_tooltip": "Vous pouvez définir la liste d'exclusion manuellement ou en vous abonnant à l'URL. Après vous être abonné à l'URL, la liste d'exclusion sera mise à jour automatiquement chaque jour.",
         "success_and_fail_domain_tip": "{success} noms de domaine ou adresses IP ont été détectés avec succès, et {failed} noms de domaine ou adresses IP n'ont pas pu être détectés.",
         "manual_label": "Manuel",
         "subscription_url_label": "URL d'abonnement",
@@ -117,13 +117,13 @@
         "unbound_tips": "Le service Bark est activé, mais cet appareil n'est pas encore associé à un compte. Veuillez utiliser le lien $$$$Device Pairing Link$$$$ pour associer cet appareil à votre compte Bark.",
         "enable_ipv6_label": "Activer IPv6",
         "force_dns_enable_tips": "Bark bloque presque toutes les requêtes DNS des clients envoyées à l'Internet. Veuillez $$$$ Aller à la page DNS$$$$ désactiver l'option {label} pour éviter que vos clients ne puissent accéder à Internet.",
-        "visit_tips": "Visitez $$$$bark us$$$$pour en savoir plus et vous inscrire dès aujourd'hui pour un essai gratuit d'une semaine.",
         "feature_tips1": "Mettez en place un contrôle parental sur tous les appareils connectés à Internet dans votre maison.",
         "feature_tips2": "Fixez des heures de coucher et d'aller à l'école pour tous les appareils de votre enfant afin de limiter les distractions en ligne",
         "feature_tips3": "Choisir les sites web et les applications autorisés/bloqués sur tous les appareils",
         "feature_tips4": "Surveillez les stexts, les courriels et plus de 30 plateformes de médias sociaux et d'applications de votre enfant pour détecter les signes de dangers numériques",
         "pairing_code_label": "Code d'appairage",
         "unbind_btn": "Re-appairer",
-        "unbind_tips": "Êtes-vous sûr de vouloir réinitialiser le code d'appairage pour appairer à nouveau l'appareil à un autre compte ? Notez que cette action ne supprimera pas l'appareil du compte actuellement apparié."
+        "unbind_tips": "Êtes-vous sûr de vouloir réinitialiser le code d'appairage pour appairer à nouveau l'appareil à un autre compte ? Notez que cette action ne supprimera pas l'appareil du compte actuellement apparié.",
+        "visit_tips": "Visitez la $$$$page$$$$ pour en savoir plus et c'est gratuit à vie."
     }
 }

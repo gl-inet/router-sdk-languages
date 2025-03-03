@@ -1,18 +1,18 @@
 {
     "sdwan": {
         "nodes_title": "Topologia di rete",
-        "download_data_title": "Dati del traffico in download",
+        "download_data_title": "Dati di traffico in download",
         "real_time_data_tips": "Include solo i dati del dispositivo che sono passati attraverso il Gateway; questi possono differire dal totale riportato dai tuoi dati di fatturazione.",
-        "upload_data_title": "Dati del traffico in upload",
+        "upload_data_title": "Dati di traffico in upload",
         "interface_title": "Interfacce",
-        "interface_tips": "Puoi disabilitare specifiche interfacce dall'unirsi a questa rete virtuale.",
+        "interface_tips": "Puoi disabilitare specifiche interfacce dall'unirsi all'aggregazione della connessione.",
         "no_device_tips": "Devi aggiungere il dispositivo a una delle reti virtuali in {cloud} per utilizzare questa funzione.",
         "device_tips": "Sei stato aggiunto alla rete virtuale {network}. Vai su {cloud} per modificare le impostazioni.",
         "real_time_data_title": "Dati in tempo reale",
-        "use_tips": "AstroWarp è una piattaforma SD-WAN avanzata progettata per fornire networking remoto senza interruzioni, aggregazione del traffico e gestione remota dei dispositivi.",
-        "get_start_title": "Servizi Cloud Abilitati",
+        "use_tips": "AstroWarp è una piattaforma SD-WAN avanzata progettata per fornire una rete remota senza interruzioni, aggregazione del traffico e gestione remota dei dispositivi.",
+        "get_start_title": "Servizi Cloud Attivati",
         "get_start_tips": "Clicca per iniziare con AstroWarp!",
-        "enable_tips": "Quando AstroWarp è attivo, {feature} non può essere utilizzato."
+        "enable_tips": "Quando AstroWarp è attivato, {feature} non può essere utilizzato."
     },
     "menu_sdwan": "AstroWarp"
 }

@@ -114,7 +114,13 @@
         "done_btn": "Gotowe",
         "upgrade_btn": "Aktualizacja",
         "setp_label": "Krok {num} :",
-        "join_btn": "Dołącz"
+        "join_btn": "Dołącz",
+        "search": "Szukaj",
+        "scan_btn": "Skanowanie",
+        "revoke_btn": "Odwołać",
+        "manual_add_mac_btn": "Ręczne dodawanie urządzenia",
+        "got_it": "Rozumiem.",
+        "attention_title": "Uwaga"
     },
     "msg": {
         "port_occupied": "{nazwa} zajęty port",
@@ -199,7 +205,8 @@
         "duplex_full_label": "{speed} Mbps pełny dupleks",
         "duplex_half_label": "{speed} Mbps półdupleks",
         "auto_update_mac_time_label": "Według czasu",
-        "address_label": "Adres"
+        "address_label": "Adres",
+        "mtu_common_tip": "Ustaw wartość MTU zgodnie z Twoim scenariuszem użycia. Nieprawidłowe ustawienia mogą spowodować rozłączenie z internetem."
     },
     "date": {
         "day": "dzień(dni)",

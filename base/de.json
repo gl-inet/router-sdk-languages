@@ -114,7 +114,13 @@
         "done_btn": "Erledigt",
         "upgrade_btn": "Firmware Aktualisieren",
         "setp_label": "Schritt {num} :",
-        "join_btn": "Beitreten"
+        "join_btn": "Beitreten",
+        "search": "Suche",
+        "scan_btn": "Scannen",
+        "revoke_btn": "Widerrufen",
+        "manual_add_mac_btn": "Manuelles Hinzufügen eines Geräts",
+        "got_it": "Verstanden.",
+        "attention_title": "Achtung"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -180,7 +186,8 @@
         "duplex_half_label": "{speed} MBit/s Halb-Duplex",
         "duplex_full_label": "{speed} MBit/s Voll-Duplex",
         "mode_label": "{tab} Modus",
-        "address_label": "Adresse"
+        "address_label": "Adresse",
+        "mtu_common_tip": "Legen Sie den MTU-Wert gemäß Ihrem Nutzungsszenario fest. Falsche Einstellungen können zu einer Internetunterbrechung führen."
     },
     "date": {
         "wednesday": "Mi | Mittwoch",

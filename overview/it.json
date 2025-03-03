@@ -37,7 +37,14 @@
         "fan_setting_title": "Impostazioni della Ventola",
         "cpu_num": "Core Singolo | {count} Core",
         "memory_tips": "La memoria mostrata è quella disponibile per il sistema Linux. La memoria totale sarà inferiore alla memoria fisica perché una parte di essa sarà allocata al sottosistema Wi-Fi o ad altre aree di avvio.",
-        "device_info_title": "Informazioni sul dispositivo"
+        "device_info_title": "Informazioni sul dispositivo",
+        "switching_to_usb3_tips": "Quando si passa a USB3.0, si prega di reinserire la chiavetta USB.",
+        "battery_label": "Batteria",
+        "usb3_switching_tips": "Questa funzione supporta la commutazione del protocollo USB 2.0 e USB 3.0.",
+        "usb_switch_from_to_tips": "Sei sicuro di voler passare da {usb1} a {usb2}?",
+        "usb_switch_label": "Cambio Protocollo USB",
+        "switching_warning_tips": "Assicurarsi che la chiavetta USB non sia in uso; in caso contrario, i dati sulla chiavetta USB potrebbero essere danneggiati.",
+        "switching_to_usb2_tips": "Dopo il passaggio da USB3.0 a USB2.0, tutti i dispositivi USB connessi verranno rimontati."
     },
     "menu_overview": "Panoramica"
 }

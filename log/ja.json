@@ -1,13 +1,44 @@
 {
     "log": {
-        "no_log": "ログなし",
+        "no_log": "ログがありません",
         "remove_crash_log": "クラッシュログを削除する",
         "save_crash_log": "クラッシュログを保存する",
         "export_log_btn": "ログをエクスポートする",
-        "system_log_title": "システムのログ",
-        "kernel_log_title": "カーネルのログ",
+        "system_log_title": "システムログ",
+        "kernel_log_title": "カーネルログ",
         "crash_log_title": "クラッシュログ",
-        "cloud_log_title": "クラウドのログ"
+        "cloud_log_title": "クラウドログ",
+        "level": "レベル",
+        "module": "モジュール",
+        "key_word": "キーワード",
+        "all": "すべて",
+        "subject": "件名",
+        "your_contact_email": "お問い合わせメールアドレス",
+        "description": "説明",
+        "upload_picture_tips": "アップロードできる画像は最大5枚までです。対応しているファイルタイプはjpgとpngです。アップロードされた画像のサイズは10MBを超えてはいけません。",
+        "upload_picture_label": "アップロード画像（任意）",
+        "upload_system_log": "システムログをアップロード",
+        "upload_debug_info": "アップロードデバッグ情報",
+        "agree_privacy_tips": "私は{privacy}に同意し、読みました。",
+        "privacy": "プライバシーポリシー",
+        "export_log_tips": "ログと一緒にデバッグ情報をエクスポートしますか？",
+        "your_feedback": "ご意見・ご感想",
+        "restricted_file_format_msg": "サポートされているファイルタイプ：JPEGまたはPNG",
+        "limit_total_file_size_msg": "すべての画像のサイズは10MBを超えてはなりません。",
+        "limit_total_pic_quantity_msg": "最大5枚の写真をアップロードしてください。",
+        "feedback_tips": "サポートチームのアシスタントのためにログを送信するにはこちらをクリックしてください。",
+        "invalid_email_tips": "無効なメールアドレス形式です。再入力してください。"
     },
-    "menu_logview": "ログ"
+    "menu_logview": "ログ",
+    "log_err": {
+        "file_recv_failed_msg": "ファイル受理に失敗しました",
+        "send_to_server_failed_msg": "サーバーへの送信に失敗しました",
+        "image_too_big_msg": "画像が大きすぎます",
+        "no_enough_space_msg": "空き容量が不足しています",
+        "email_param_invalied_msg": "メールボックスの形式エラー",
+        "network_connection_failed_msg": "ネットワーク接続の問題",
+        "mail_server_error_msg": "メールサーバーエラー",
+        "system_error_msg": "システムエラー",
+        "send_too_many_times_msg": "发送次数过多"
+    }
 }

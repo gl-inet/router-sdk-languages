@@ -114,7 +114,13 @@
         "done_btn": "完了",
         "upgrade_btn": "アップグレード",
         "setp_label": "ステップ{num}：",
-        "join_btn": "加入"
+        "join_btn": "加入",
+        "search": "検索",
+        "scan_btn": "スキャン",
+        "revoke_btn": "取り消す",
+        "manual_add_mac_btn": "手動でデバイスを追加",
+        "got_it": "ファイル受理に失敗しました",
+        "attention_title": "注意"
     },
     "msg": {
         "access_denied": "無効なユーザーか、承認されていないか、もしくはログインしていません！",
@@ -180,7 +186,8 @@
         "duplex_half_label": "{speed} Mbps ハーフデュプレックス",
         "auto_update_mac_strategy_label": "MACアドレス自動更新戦略",
         "mac_replacement_label": "MACアドレス交換周期",
-        "address_label": "住所"
+        "address_label": "住所",
+        "mtu_common_tip": "ご利用シナリオに応じてMTU値を設定してください。設定が正しくない場合、インターネット接続が切断される可能性があります。"
     },
     "date": {
         "day": "日",
@@ -234,7 +241,7 @@
         "url_err_tips": "正しいURLリンクを入力してください。"
     },
     "validate": {
-        "not_allowed_only_spaces": "不允许仅使用空格。",
+        "not_allowed_only_spaces": "スペースのみの使用は許可されていません。",
         "only_allow_letter_num_start_tip": "開始時には数字または文字のみが許可されます。",
         "invalid_line_label": "無効な行番号：{num}",
         "only_allowd_input_tips": "入力できるのは{limit}までです。",

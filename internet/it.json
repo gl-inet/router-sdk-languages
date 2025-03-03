@@ -26,7 +26,8 @@
         "no_wan_tips": "Nessun cavo rilevato.",
         "use_as_port_btn": "Cambia la {silkprint} in {port}",
         "reset_port_tips": "Puoi ripristinare {silkprint} premendo e tenendo premuto il pulsante di reset del dispositivo per 4 secondi.",
-        "revert_as_lan_tips": "Sei sicuro di voler ripristinare la {silkprint} alla porta LAN (impostazione predefinita)?"
+        "revert_as_lan_tips": "Sei sicuro di voler ripristinare la {silkprint} alla porta LAN (impostazione predefinita)?",
+        "vlan_id_conflict_tips": "L'ID VLAN di Ethernet1 è in conflitto con l'ID VLAN di Ethernet2."
     },
     "tethering": {
         "title": "Tethering",
@@ -88,7 +89,11 @@
         "entered_portal_tips": "Il dispositivo è in Modalità di Accesso per Hotspot Pubblici. VPN e DNS personalizzati sono stati messi in pausa, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale). Dopo il login riuscito, questo router esce automaticamente da questa modalità. {exit}.",
         "to_auth_btn": "Vai al Login",
         "modify_wifi_tips": "Le modifiche nelle impostazioni di rete faranno riconnettere il ripetitore.",
-        "allow_auto_portal_tips": "Se questa opzione è abilitata, questo router entrerà automaticamente in Modalità Login per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. Questa modalità metterà in pausa VPN e DNS personalizzati fino all'uscita, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale)."
+        "allow_auto_portal_tips": "Se questa opzione è abilitata, questo router entrerà automaticamente in Modalità Login per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. Questa modalità metterà in pausa VPN e DNS personalizzati fino all'uscita, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale).",
+        "entry_again_tips": "Se si rientra entro 10 secondi, verrà estratta direttamente la cache anziché eseguire una nuova scansione.",
+        "unable_scan_channel_tips": "Quando si viaggia attraverso il paese, potrebbe non essere possibile eseguire la scansione del Wi-Fi su determinati canali a causa di motivi normativi.",
+        "scan_wifi_fail_detection_channel_tips": "Il dispositivo sta attualmente cercando il canale ottimale, la scansione Wi-Fi non è disponibile durante questo processo. Si prega di attendere pazientemente il completamento della scansione.",
+        "cannot_find_ssid": "Non riesci a trovare il tuo SSID?"
     },
     "modem": {
         "title": "Cellulare",
@@ -451,5 +456,42 @@
         "sim_threshold_dual_tips": "Se l'importo del limite di dati di {currentSim} è impostato e lo slot della SIM Card {handler} è attivato, {currentSim} passerà automaticamente a {otherSim} quando i suoi dati superano l'importo del limite di dati e {currentSim} verrà disabilitato.",
         "disabled_sim_auto_switch_tips": "La SIM non effettuerà il cambio al raggiungimento del limite di dati perché {handler} non è attivo. E la SIM verrà disabilitata quando si raggiunge il limite di dati.",
         "enabled_sim_auto_switch_tips": "La SIM verrà sostituita al raggiungimento del limite di dati."
+    },
+    "cellular": {
+        "tower_locked_label": "{sim} Torre bloccata",
+        "operator_locked_label": "Operatore bloccato {sim}",
+        "lock_operator_btn": "Operatore di Blocco",
+        "lock_tower_disabled_tip": "Poiché l'attuale slot per la scheda è bloccato dall'operatore, la funzione di blocco dello slot per la scheda alla stazione base è disabilitata.",
+        "scan_tower_warning_tips": "Ci vorranno alcuni minuti per eseguire la scansione della torre. Sei sicuro di voler continuare?",
+        "lock_tower_tips": "La scansione delle stazioni base può identificare rapidamente fonti di segnale di alta qualità per garantire una comunicazione stabile. Il blocco su una stazione base richiede la corrispondenza tra l'operatore e le bande di frequenza supportate dal dispositivo; in caso contrario, potrebbe influenzare la composizione dei numeri. Si prega di confermare le informazioni della stazione base per evitare potenziali problemi.",
+        "reflash_warning_msg": "Non aggiornare la pagina.",
+        "lock_operation_mode_label": "Modalità di Blocco",
+        "lock_operation_mode_tip": "La funzione di blocco operatore supporta tre modalità: connessione automatica a una rete operatore disponibile, blocco manuale su un operatore specifico o passaggio automatico a una rete operatore disponibile in caso di fallimento del blocco manuale.",
+        "available_operator_title": "Operatori Disponibili",
+        "scan_operator_warning_tips": "La scansione dell'operatore richiederà alcuni minuti e durante questo tempo perderai temporaneamente la connessione di rete. Sei sicuro di voler continuare?",
+        "manual_lock_operator_label": "Manuale",
+        "manual_select_operator_tips": "L'elenco degli operatori attuali è fornito solo a scopo di riferimento. Se la selezione manuale non riesce, si prega di fare riferimento all'elenco degli operatori supportati dalla SIM card corrente, oppure consultare il servizio clienti dell'operatore per informazioni accurate.",
+        "lock_operator_fail_msg": "L'operatore attuale è bloccato, ma in realtà non disponibile a causa di restrizioni della carta o dell'operatore; se è necessario ripristinare la rete, si prega di eseguire un'operazione di sblocco manuale.",
+        "lock_operator_warning_tips": "Se l'operatore bloccato non corrisponde alla mascheratura della banda o ai parametri APN nelle impostazioni cellulari, l'interfaccia cellulare non sarà in grado di connettersi a Internet.",
+        "manual_auto_lock_operator_label": "Manuale-Automatico",
+        "sim_info_title": "Scheda SIM",
+        "cell_info_title": "Cellule",
+        "internet_info_title": "Internet",
+        "sim_settings_title": "Impostazioni della scheda SIM",
+        "set_sim_config_warning_tips": "La modifica della configurazione comporterà una nuova composizione del numero.",
+        "not_use_special_label": "Non utilizzare",
+        "special_apns_label": "APN Speciali",
+        "use_special_apn_warning_tips": "L'APN speciale che stai selezionando è disponibile solo per specifiche schede telefoniche. Se l'APN non è impostato correttamente, potrebbe causare anomalie nella composizione dei numeri, fallimento della connessione di rete e altri problemi di comunicazione. Si prega di verificare nuovamente se la tua scheda telefonica supporta questo APN. Sei sicuro di voler passare all'APN attuale?",
+        "pin_code_tips": "Lunghezza del codice PIN da 4 a 8 cifre",
+        "sim_switch_title": "Cambio della SIM Card",
+        "view_information_btn": "Visualizza più informazioni",
+        "information_title": "Informazioni Cellulari",
+        "special_apns_tips": "Per gli APN forniti dagli operatori speciali, si prega di scegliere in base alla situazione effettiva della propria SIM card.",
+        "pin_code_last_unlock_tips": "La scheda SIM è bloccata e deve essere sbloccata tramite codice PIN, rimane un ultimo tentativo per provare a sbloccarla; in caso di fallimento, sarà necessario utilizzare il telefono per sbloccarla inserendo il codice PUK.",
+        "need_pin_code_tips": "La SIM è bloccata e deve essere sbloccata tramite codice PIN, ci sono ancora {count} tentativi disponibili.",
+        "pin_code_last_input_unlock_tips": "Il codice PIN {code} non è corretto, rimane un ultimo tentativo per sbloccarlo; se anche questo tentativo fallisce, sarà necessario utilizzare il telefono per inserire il codice PUK per lo sblocco."
+    },
+    "sim": {
+        "sender_label": "Mittente"
     }
 }

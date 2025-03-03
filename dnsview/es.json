@@ -6,7 +6,7 @@
         "override_label": "Anular Configuraciones DNS de Todos los Clientes",
         "override_tips": "Si se activa, el enrutador anulará y reemplazará la configuración de DNS no encriptada para todos los clientes.",
         "edit_host_btn": "Editar Hosts",
-        "desc": "Cuando configure servidores DNS personalizados, cualquier consulta DNS se resolverá a través de ellos en lugar de los servidores DNS obtenidos a través de Ethernet, Repetidor, Móvil o Tethering. De lo contrario, se utilizarán las configuraciones DNS configuradas para cada interfaz.",
+        "desc": "Cuando configures servidores DNS personalizados, cualquier consulta DNS se resolverá a través de ellos (en lugar de los servidores DNS obtenidos a través de la interfaz de red). De lo contrario, se utilizarán las configuraciones de DNS configuradas para cada interfaz.",
         "form_wwan_label": "DNS desde Repetidor",
         "mode": "Modo",
         "proxy_addr_label": "Dirección del Servidor Proxy",
@@ -42,7 +42,7 @@
         "override_vpn_tips": "Si esta opción está habilitada, una vez que haya establecido un DNS personalizado, los paquetes transmitidos a través del túnel VPN se resolverán utilizando la DNS personalizada en lugar de las configuraciones de servidor DNS de las conexiones VPN.",
         "invalid_resolver_id_tips": "ID del Resolvedor no válido",
         "controld_plan_tips": "Existen dos planes: Gratuito y Prémium y solo se puede elegir uno de ellos.",
-        "controld_plan_label": "Plan de acción",
-        "at_least_one_ipv4_tip": "Los servidores DNS requieren al menos una dirección ipv4."
+        "controld_plan_label": "Plan",
+        "at_least_one_ipv4_tip": "Los servidores DNS requieren al menos una dirección IPv4."
     }
 }
