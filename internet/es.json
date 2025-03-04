@@ -493,5 +493,11 @@
     },
     "sim": {
         "sender_label": "Remitente"
+    },
+    "simo": {
+        "sim_type_label": "Tipo de tarjeta SIM",
+        "switch_to_label": "Cambiar a {slot}",
+        "vsim_switch_to_physical_tips": "Cambiará de una tarjeta SIM virtual (vSIM) a una tarjeta SIM física. Necesitará insertar su tarjeta SIM física en la ranura del dispositivo para conectarse a Internet. Por favor, confirme que la tarjeta SIM física ha sido insertada.",
+        "physical_switch_to_vsim_tips": "Usted cambiará de la tarjeta SIM física a la tarjeta SIM virtual (vSIM) del módulo. Deberá confirmar que ha comprado un plan de datos en el sitio web de simo (escanee el código QR en el dispositivo para comprarlo). Luego podrá retirar la tarjeta SIM física del dispositivo."
     }
 }
