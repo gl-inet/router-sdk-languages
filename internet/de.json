@@ -493,5 +493,11 @@
     },
     "sim": {
         "sender_label": "Absender"
+    },
+    "simo": {
+        "switch_to_label": "Wechseln zu {slot}",
+        "vsim_switch_to_physical_tips": "Sie wechseln von einer virtuellen SIM-Karte (vSIM) zu einer physischen SIM-Karte. Sie müssen Ihre physische SIM-Karte in den Geräteschacht einlegen, um eine Verbindung zum Internet herzustellen. Bitte bestätigen Sie, dass die physische SIM-Karte eingelegt wurde.",
+        "sim_type_label": "SIM-Kartentyp",
+        "physical_switch_to_vsim_tips": "Sie wechseln von der physischen SIM-Karte zur virtuellen SIM-Karte (vSIM) des Moduls. Sie müssen bestätigen, dass Sie einen Datentarif auf der simo-Website erworben haben (Scannen Sie den QR-Code auf dem Gerät, um ihn zu erwerben). Anschließend können Sie die physische SIM-Karte aus dem Gerät entfernen."
     }
 }
