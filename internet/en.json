@@ -493,5 +493,11 @@
     },
     "sim": {
         "sender_label": "Sender"
+    },
+    "simo": {
+        "switch_to_label": "Switch to {slot}",
+        "vsim_switch_to_physical_tips": "You will switch from a virtual SIM card(vSIM) to physical SIM card. You will need to insert your physical SIM card into the device slot to connect to the Internet. Please confirm that the physical SIM card has been inserted.",
+        "sim_type_label": "SIM Card Type",
+        "physical_switch_to_vsim_tips": "You will switch from physical SIM card to virtual SIM card(vSIM) of the module. You will need to confirm that you have purchased a data plan on the simo website(Scan the QR code on the device to purchase it). You can then remove the physical SIM card from the device."
     }
 }
