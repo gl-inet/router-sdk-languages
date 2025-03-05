@@ -92,7 +92,8 @@
         "entry_again_tips": "如果你10s內再次進入，將直接拉取緩存，而不是重新掃描。",
         "unable_scan_channel_tips": "跨國旅行時可能因為法規原因無法掃描到某些通道的Wi-Fi。",
         "scan_wifi_fail_detection_channel_tips": "設備正在檢測最佳通道，期間無法掃描周邊Wi-Fi，請您耐心等待檢測完成。",
-        "cannot_find_ssid": "找不到您的SSID？"
+        "cannot_find_ssid": "找不到您的SSID？",
+        "allow_auto_portal_tips": "啟用此選項後，當路由器成功連接到熱點但未連接到互聯網時，將自動進入公共熱點的登錄模式。在此模式下，部分服務將被暫停，同時DNS模式將切換為自動，這可能會將您的網絡活動信息洩露給熱點提供者（例如酒店或購物中心）。"
     },
     "modem": {
         "title": "行動網絡",
