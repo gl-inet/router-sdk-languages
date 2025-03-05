@@ -199,7 +199,8 @@
         "scan_wifi_fail_detection_channel_tips": "Įrenginys šiuo metu skenuoja optimalų kanalą, „Wi-Fi“ skenavimas šio proceso metu yra nepasiekiamas. Prašome palaukti, kol skenavimas bus baigtas.",
         "cannot_find_ssid": "Nerandate savo SSID?",
         "allow_auto_portal_tips": "Jei ši funkcija įjungta, maršrutizatorius automatiškai pereis į viešųjų prieigos taškų prisijungimo veikseną, kai sėkmingai prisijungs prie prieigos taško, bet ne prie interneto. Šioje veiksenoje kai kurios paslaugos bus sustabdytos, o DNS veiksena bus pakeista į automatinę, dėl ko gali būti atskleista jūsų tinklo veiklos informacija prieigos taško teikėjui (pvz., viešbučiui ar prekybos centrui).",
-        "need_enter_portal_tips": "Negalima prisijungti prie interneto per pakartotą karštąjį tašką. Pabandykite įvesti {portal}, kad išspręstumėte problemą. Atkreipkite dėmesį, kad ši veiksena sustabdys kai kuriuos paslaugas ir pasirinktines DNS, kol ji nebus išjungta, o tai gali sukelti duomenų nutekėjimą į karštojo taško teikėją (pvz., viešbutį/prekybos centrą)."
+        "need_enter_portal_tips": "Negalima prisijungti prie interneto per pakartotą karštąjį tašką. Pabandykite įvesti {portal}, kad išspręstumėte problemą. Atkreipkite dėmesį, kad ši veiksena sustabdys kai kuriuos paslaugas ir pasirinktines DNS, kol ji nebus išjungta, o tai gali sukelti duomenų nutekėjimą į karštojo taško teikėją (pvz., viešbutį/prekybos centrą).",
+        "entered_portal_tips": "Įrenginys yra viešųjų prieigos taškų prisijungimo veiksenoje. Kai kurios paslaugos buvo pristabdytos, kas gali sukelti duomenų nutekėjimą prieigos taško teikėjui (pvz., viešbutis/prekybos centras). Po sėkmingo prisijungimo, šis maršrutizatorius automatiškai išeina iš šios veiksenos. {exit}."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
