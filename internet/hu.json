@@ -270,7 +270,13 @@
         "cannot_find_ssid": "Nem találja a SSID-t?",
         "allow_auto_portal_tips": "Ha ez az opció engedélyezve van, a router automatikusan Belépési Módra vált Nyilvános Hálózati Pontok esetén, amikor sikeresen csatlakozik egy hotspot-hoz, de nem az internethez. Ebben a módban néhány szolgáltatás felfüggesztésre kerül, míg a DNS mód automatikusra vált, ami esetlegesen kiadhatja a hálózati tevékenység információit a hotspot szolgáltatójának (pl. hotel vagy bevásárlóközpont).",
         "need_enter_portal_tips": "Az ismételt hotspoton keresztül nem lehet hozzáférni az internethez. Próbálja meg belépni a {portal} oldalra a probléma megoldásához. Vegye figyelembe, hogy ez a mód szünetelteti egyes szolgáltatásokat és az egyéni DNS-t, amíg ki nem lép belőle, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/bevásárlóközpont).",
-        "entered_portal_tips": "Az eszköz Nyilvános Hotspotokhoz való Bejelentkezési Módban van. Néhány szolgáltatás szünetel, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/bevásárlóközpont). Sikeres bejelentkezés után a router automatikusan kilép ebből a módból. {exit}."
+        "entered_portal_tips": "Az eszköz Nyilvános Hotspotokhoz való Bejelentkezési Módban van. Néhány szolgáltatás szünetel, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/bevásárlóközpont). Sikeres bejelentkezés után a router automatikusan kilép ebből a módból. {exit}.",
+        "router_support_channel_tips": "Ellenőrizze az SSID működési csatornáját, ez a router támogatja:",
+        "channel": "{band} csatornák",
+        "cannot_find_wifi": "Nem találja a Wi-Fi hálózatot?",
+        "ssid_not_hidden_tips": "Győződjön meg róla, hogy az SSID nem rejtett.",
+        "make_sure_works_tips": "Mobiltelefonjával próbálja ki, és győződjön meg róla, hogy működik.",
+        "support_tips": "Forduljon hozzánk további segítségért a {addr} címen."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
