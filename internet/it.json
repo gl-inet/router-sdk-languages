@@ -93,7 +93,13 @@
         "cannot_find_ssid": "Non riesci a trovare il tuo SSID?",
         "allow_auto_portal_tips": "Se questa opzione è attivata, il router entrerà automaticamente in Modalità di Accesso per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. In questa modalità, alcuni servizi saranno sospesi mentre la modalità DNS verrà impostata su automatica, il che potrebbe rivelare le informazioni relative alle attività di rete al fornitore dell'hotspot (ad esempio, hotel o centro commerciale).",
         "need_enter_portal_tips": "Non è possibile accedere a Internet tramite l'hotspot ripetuto. Provare ad accedere a {portal} per risolvere il problema. Si noti che questa modalità metterà in pausa alcuni servizi e il DNS personalizzato fino alla sua disattivazione, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale).",
-        "entered_portal_tips": "Il dispositivo è in Modalità di Accesso per Hotspot Pubblici. Alcuni servizi sono stati messi in pausa, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale). Dopo l'accesso riuscito, questo router uscirà automaticamente da questa modalità. {exit}."
+        "entered_portal_tips": "Il dispositivo è in Modalità di Accesso per Hotspot Pubblici. Alcuni servizi sono stati messi in pausa, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale). Dopo l'accesso riuscito, questo router uscirà automaticamente da questa modalità. {exit}.",
+        "router_support_channel_tips": "Verifica il canale di lavoro del tuo SSID, questo router supporta:",
+        "channel": "Canali {band}",
+        "cannot_find_wifi": "Non riesco a trovare il mio Wi-Fi?",
+        "ssid_not_hidden_tips": "Assicurati che il tuo SSID non sia nascosto.",
+        "make_sure_works_tips": "Prova con il tuo telefono cellulare e assicurati che funzioni.",
+        "support_tips": "Contattateci per ulteriore assistenza all'indirizzo {addr}."
     },
     "modem": {
         "title": "Cellulare",
