@@ -76,7 +76,6 @@
         "connet_dfs_tips": "Wenn der Router als Repeater für ein WLAN mit DFS Kanal eingerichtet ist, und das WLAN erreichbar ist, wird dieser Kanal genutzt. Wenn das WLAN nicht verfügbar ist, wird es zu einem kurzen Verbindungsabbruch kommen. Manche Geräte werden dies nicht bemerken, manche müssen manuell erneut verbunden werden.",
         "scan_wifi_fail_dfs_tips": "Die DFS (Dynamische Frequenzwahl) Prüfung läuft, es kann gerade nicht nach WLAN Netzwerken gesucht werden. Bitte warten Sie bis die Prüfung abgeschlossen ist.",
         "enable_disguise_tips": "Wenn diese Option eingeschaltet ist, tarnt sich der Router als dasselbe Gerät, welches jetzt gerade verbunden ist.",
-        "allow_auto_portal_tips": "Wenn diese Option aktiviert ist, wechselt der Router automatisch in den Anmeldemodus für öffentliche Hotspots, wenn er erfolgreich mit einem Hotspot, aber nicht mit dem Internet verbunden ist. Dieser Modus unterbricht VPNs und benutzerdefinierte DNS bis zum Verlassen des Hotspots, was zu Datenlecks beim Hotspot-Anbieter (z. B. Hotel/Einkaufszentrum) führen kann.",
         "allow_auto_portal_label": "Aktiviere automatischen Login Modus für öffentliche Hotspots",
         "enable_disguise_label": "Tarnmodus aktivieren",
         "modify_wifi_tips": "Änderungen an den Netzwerkeinstellungen führen zu einem Neustart des Repeater.",
