@@ -93,7 +93,13 @@
         "cannot_find_ssid": "找不到您的SSID？",
         "allow_auto_portal_tips": "啟用此選項後，當路由器成功連接到熱點但未連接到互聯網時，將自動進入公共熱點的登錄模式。在此模式下，部分服務將被暫停，同時DNS模式將切換為自動，這可能會將您的網絡活動信息洩露給熱點提供者（例如酒店或購物中心）。",
         "need_enter_portal_tips": "無法透過重複的熱點訪問互聯網。嘗試進入{portal}以解決問題。請注意，此模式將暫停某些服務和自定義DNS，直到它離開，這可能會導致數據洩露給熱點提供者（例如，酒店/商場）。",
-        "entered_portal_tips": "該設備處於公共熱點的登錄模式。部分服務已暫停，可能導致數據洩露給熱點提供者（例如酒店/商場）。登錄成功後，此路由器將自動退出此模式。{exit}。"
+        "entered_portal_tips": "該設備處於公共熱點的登錄模式。部分服務已暫停，可能導致數據洩露給熱點提供者（例如酒店/商場）。登錄成功後，此路由器將自動退出此模式。{exit}。",
+        "router_support_channel_tips": "檢查您的 SSID 工作頻道，此路由器支援：",
+        "channel": "{band} 頻道",
+        "cannot_find_wifi": "找不到我的Wi-Fi？",
+        "ssid_not_hidden_tips": "確保您的SSID未被隱藏。",
+        "make_sure_works_tips": "使用您的手機嘗試，確保其正常工作。",
+        "support_tips": "如需進一步協助，請聯繫我們的地址 {addr}。"
     },
     "modem": {
         "title": "行動網絡",
