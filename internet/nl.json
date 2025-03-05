@@ -93,7 +93,13 @@
         "cannot_find_ssid": "Kunt u uw SSID niet vinden?",
         "allow_auto_portal_tips": "Als deze optie is ingeschakeld, zal deze router automatisch de Inlogmodus voor Openbare Hotspots activeren wanneer hij succesvol verbinding maakt met een hotspot, maar niet met het internet. In deze modus worden sommige diensten opgeschort terwijl de DNS-modus wordt overgeschakeld naar automatisch, wat kan leiden tot het lekken van uw netwerkactiviteiteninformatie aan de hotspotprovider (bijvoorbeeld een hotel of winkelcentrum).",
         "need_enter_portal_tips": "Kan niet via de herhaalde hotspot toegang krijgen tot het internet. Probeer {portal} in te voeren om het probleem op te lossen. Let op: deze modus zal sommige diensten en aangepaste DNS pauzeren totdat deze wordt verlaten, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijvoorbeeld hotel/winkelcentrum).",
-        "entered_portal_tips": "Het apparaat bevindt zich in de inlogmodus voor openbare hotspots. Sommige diensten zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijvoorbeeld hotel/winkelcentrum). Na succesvolle aanmelding verlaat deze router automatisch deze modus. {exit}."
+        "entered_portal_tips": "Het apparaat bevindt zich in de inlogmodus voor openbare hotspots. Sommige diensten zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijvoorbeeld hotel/winkelcentrum). Na succesvolle aanmelding verlaat deze router automatisch deze modus. {exit}.",
+        "router_support_channel_tips": "Controleer het werkingskanaal van uw SSID, deze router ondersteunt:",
+        "channel": "{band} kanalen",
+        "cannot_find_wifi": "Kan mijn Wi-Fi niet vinden?",
+        "ssid_not_hidden_tips": "Zorg ervoor dat uw SSID niet verborgen is.",
+        "make_sure_works_tips": "Probeer het met uw mobiele telefoon en zorg ervoor dat het werkt.",
+        "support_tips": "Neem voor verdere hulp contact met ons op via {addr}."
     },
     "modem": {
         "title": "Mobiel",
