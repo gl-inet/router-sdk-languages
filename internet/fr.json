@@ -93,7 +93,13 @@
         "cannot_find_ssid": "Vous ne trouvez pas votre SSID ?",
         "allow_auto_portal_tips": "Si cette option est activée, ce routeur entrera automatiquement en mode de connexion pour les points d'accès publics lorsqu'il sera connecté avec succès à un point d'accès mais pas à internet. Dans ce mode, certains services seront suspendus tandis que le mode DNS sera basculé sur automatique, ce qui peut divulguer les informations de votre activité réseau au fournisseur du point d'accès (par exemple, un hôtel ou un centre commercial).",
         "need_enter_portal_tips": "Impossible d'accéder à internet via le hotspot répété. Essayez d'entrer dans {portal} pour résoudre le problème. Notez que ce mode mettra en pause certains services et le DNS personnalisé jusqu'à ce qu'il soit quitté, ce qui peut entraîner des fuites de données vers le fournisseur du hotspot (par exemple, hôtel/centre commercial).",
-        "entered_portal_tips": "L'appareil est en mode de connexion pour les points d'accès publics. Certains services ont été mis en pause, ce qui peut entraîner des fuites de données vers le fournisseur du point d'accès (par exemple, hôtel/centre commercial). Après une connexion réussie, ce routeur quitte automatiquement ce mode. {exit}."
+        "entered_portal_tips": "L'appareil est en mode de connexion pour les points d'accès publics. Certains services ont été mis en pause, ce qui peut entraîner des fuites de données vers le fournisseur du point d'accès (par exemple, hôtel/centre commercial). Après une connexion réussie, ce routeur quitte automatiquement ce mode. {exit}.",
+        "router_support_channel_tips": "Vérifiez le canal de travail de votre SSID, ce routeur prend en charge :",
+        "channel": "Canaux {band}",
+        "cannot_find_wifi": "Impossible de trouver mon Wi-Fi ?",
+        "ssid_not_hidden_tips": "Assurez-vous que votre SSID n'est pas caché.",
+        "make_sure_works_tips": "Essayez avec votre téléphone portable et assurez-vous que cela fonctionne.",
+        "support_tips": "Contactez-nous pour obtenir de l'aide supplémentaire à {addr}."
     },
     "modem": {
         "title": "Cellulaire",
