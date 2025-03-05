@@ -92,7 +92,8 @@
         "scan_wifi_fail_detection_channel_tips": "The device is currently scanning for the optimal channel. Wi-Fi scanning is unavailable during this process. Please wait patiently for the scan to complete.",
         "cannot_find_ssid": "Cannot Find Your SSID?",
         "allow_auto_portal_tips": "If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. In this mode, some services will be suspended while the DNS mode will be switched to automatic, which may leak your network activity information to the hotspot provider (e.g. hotel or shopping mall).",
-        "need_enter_portal_tips": "Can't access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause some services and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall)."
+        "need_enter_portal_tips": "Can't access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause some services and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
+        "entered_portal_tips": "The device is in Login Mode for Public Hotspots. Some services have been paused, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall). After successful login, this router automatically quit this mode. {exit}."
     },
     "modem": {
         "title": "Cellular",
