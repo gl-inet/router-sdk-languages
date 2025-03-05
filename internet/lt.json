@@ -200,7 +200,13 @@
         "cannot_find_ssid": "Nerandate savo SSID?",
         "allow_auto_portal_tips": "Jei ši funkcija įjungta, maršrutizatorius automatiškai pereis į viešųjų prieigos taškų prisijungimo veikseną, kai sėkmingai prisijungs prie prieigos taško, bet ne prie interneto. Šioje veiksenoje kai kurios paslaugos bus sustabdytos, o DNS veiksena bus pakeista į automatinę, dėl ko gali būti atskleista jūsų tinklo veiklos informacija prieigos taško teikėjui (pvz., viešbučiui ar prekybos centrui).",
         "need_enter_portal_tips": "Negalima prisijungti prie interneto per pakartotą karštąjį tašką. Pabandykite įvesti {portal}, kad išspręstumėte problemą. Atkreipkite dėmesį, kad ši veiksena sustabdys kai kuriuos paslaugas ir pasirinktines DNS, kol ji nebus išjungta, o tai gali sukelti duomenų nutekėjimą į karštojo taško teikėją (pvz., viešbutį/prekybos centrą).",
-        "entered_portal_tips": "Įrenginys yra viešųjų prieigos taškų prisijungimo veiksenoje. Kai kurios paslaugos buvo pristabdytos, kas gali sukelti duomenų nutekėjimą prieigos taško teikėjui (pvz., viešbutis/prekybos centras). Po sėkmingo prisijungimo, šis maršrutizatorius automatiškai išeina iš šios veiksenos. {exit}."
+        "entered_portal_tips": "Įrenginys yra viešųjų prieigos taškų prisijungimo veiksenoje. Kai kurios paslaugos buvo pristabdytos, kas gali sukelti duomenų nutekėjimą prieigos taško teikėjui (pvz., viešbutis/prekybos centras). Po sėkmingo prisijungimo, šis maršrutizatorius automatiškai išeina iš šios veiksenos. {exit}.",
+        "router_support_channel_tips": "Patikrinkite savo SSID darbo kanalą, šis maršrutizatorius palaiko:",
+        "channel": "{band} kanalai",
+        "cannot_find_wifi": "Nerandate savo „Wi-Fi“?",
+        "ssid_not_hidden_tips": "Įsitikinkite, kad jūsų „SSID“ nėra paslėptas.",
+        "make_sure_works_tips": "Pabandykite su savo mobiliuoju telefonu ir įsitikinkite, kad veikia.",
+        "support_tips": "Susisiekite su mumis dėl tolesnės pagalbos adresu {addr}."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
