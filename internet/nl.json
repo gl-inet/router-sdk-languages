@@ -91,7 +91,9 @@
         "unable_scan_channel_tips": "Bij het reizen door het land is het mogelijk dat het scannen naar Wi-Fi op bepaalde kanalen niet toegestaan is vanwege regelgeving.",
         "scan_wifi_fail_detection_channel_tips": "Het apparaat scant momenteel naar het optimale kanaal, Wi-Fi-scannen is niet beschikbaar tijdens dit proces. Wacht alstublieft geduldig tot de scan voltooid is.",
         "cannot_find_ssid": "Kunt u uw SSID niet vinden?",
-        "allow_auto_portal_tips": "Als deze optie is ingeschakeld, zal deze router automatisch de Inlogmodus voor Openbare Hotspots activeren wanneer hij succesvol verbinding maakt met een hotspot, maar niet met het internet. In deze modus worden sommige diensten opgeschort terwijl de DNS-modus wordt overgeschakeld naar automatisch, wat kan leiden tot het lekken van uw netwerkactiviteiteninformatie aan de hotspotprovider (bijvoorbeeld een hotel of winkelcentrum)."
+        "allow_auto_portal_tips": "Als deze optie is ingeschakeld, zal deze router automatisch de Inlogmodus voor Openbare Hotspots activeren wanneer hij succesvol verbinding maakt met een hotspot, maar niet met het internet. In deze modus worden sommige diensten opgeschort terwijl de DNS-modus wordt overgeschakeld naar automatisch, wat kan leiden tot het lekken van uw netwerkactiviteiteninformatie aan de hotspotprovider (bijvoorbeeld een hotel of winkelcentrum).",
+        "need_enter_portal_tips": "Kan niet via de herhaalde hotspot toegang krijgen tot het internet. Probeer {portal} in te voeren om het probleem op te lossen. Let op: deze modus zal sommige diensten en aangepaste DNS pauzeren totdat deze wordt verlaten, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijvoorbeeld hotel/winkelcentrum).",
+        "entered_portal_tips": "Het apparaat bevindt zich in de inlogmodus voor openbare hotspots. Sommige diensten zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijvoorbeeld hotel/winkelcentrum). Na succesvolle aanmelding verlaat deze router automatisch deze modus. {exit}."
     },
     "modem": {
         "title": "Mobiel",
