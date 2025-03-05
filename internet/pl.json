@@ -58,7 +58,13 @@
         "cannot_find_ssid": "Nie możesz znaleźć swojego SSID?",
         "allow_auto_portal_tips": "Jeśli ta opcja jest włączona, router automatycznie przejdzie w tryb logowania do publicznych hotspotów, gdy połączy się z hotspotem, ale nie z Internetem. W tym trybie niektóre usługi zostaną zawieszone, a tryb DNS zostanie przełączony na automatyczny, co może spowodować przeciek informacji o aktywności sieciowej do dostawcy hotspotu (np. hotelu lub centrum handlowego).",
         "need_enter_portal_tips": "Nie można uzyskać dostępu do Internetu przez powtórzone hotspoty. Spróbuj wejść na {portal}, aby rozwiązać problem. Należy zauważyć, że ten tryb wstrzyma niektóre usługi i niestandardowe DNS do czasu jego zakończenia, co może spowodować wyciek danych do dostawcy hotspotu (np. hotelu/centrum handlowego).",
-        "entered_portal_tips": "Urządzenie jest w trybie logowania dla publicznych hotspotów. Niektóre usługi zostały wstrzymane, co może spowodować wyciek danych do dostawcy hotspotu (np. hotelu/centrum handlowego). Po pomyślnym zalogowaniu, router automatycznie opuści ten tryb. {exit}."
+        "entered_portal_tips": "Urządzenie jest w trybie logowania dla publicznych hotspotów. Niektóre usługi zostały wstrzymane, co może spowodować wyciek danych do dostawcy hotspotu (np. hotelu/centrum handlowego). Po pomyślnym zalogowaniu, router automatycznie opuści ten tryb. {exit}.",
+        "router_support_channel_tips": "Sprawdź kanał roboczy swojego SSID, ten router obsługuje:",
+        "channel": "{kanały} {band}",
+        "cannot_find_wifi": "Nie można znaleźć mojego Wi-Fi?",
+        "ssid_not_hidden_tips": "Upewnij się, że twoje SSID nie jest ukryte.",
+        "make_sure_works_tips": "Spróbuj użyć swojego telefonu komórkowego i upewnij się, że działa.",
+        "support_tips": "Skontaktuj się z nami, aby uzyskać dalszą pomoc pod adresem {addr}."
     },
     "cable": {
         "title": "Ethernet",
