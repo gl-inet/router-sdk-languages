@@ -92,7 +92,8 @@
         "scan_wifi_fail_detection_channel_tips": "El dispositivo está escaneando actualmente para encontrar el canal óptimo, la búsqueda de Wi-Fi no está disponible durante este proceso. Por favor, espere pacientemente a que se complete el escaneo.",
         "cannot_find_ssid": "¿No encuentra su SSID?",
         "allow_auto_portal_tips": "Si esta opción está habilitada, el router entrará automáticamente en Modo de Inicio de Sesión para Puntos de Acceso Públicos cuando se conecte exitosamente a un punto de acceso pero no a Internet. En este modo, algunos servicios se suspenderán mientras que el modo DNS cambiará a automático, lo que podría revelar información de su actividad en la red al proveedor del punto de acceso (por ejemplo, hotel o centro comercial).",
-        "need_enter_portal_tips": "No se puede acceder a internet a través del punto de acceso repetido. Intente ingresar a {portal} para solucionar el problema. Tenga en cuenta que este modo pausará algunos servicios y DNS personalizados hasta que se salga del mismo, lo que podría causar filtraciones de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial)."
+        "need_enter_portal_tips": "No se puede acceder a internet a través del punto de acceso repetido. Intente ingresar a {portal} para solucionar el problema. Tenga en cuenta que este modo pausará algunos servicios y DNS personalizados hasta que se salga del mismo, lo que podría causar filtraciones de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial).",
+        "entered_portal_tips": "El dispositivo está en Modo de Inicio de Sesión para Hotspots Públicos. Algunos servicios se han pausado, lo que puede provocar filtraciones de datos al proveedor del hotspot (por ejemplo, hotel/centro comercial). Después de un inicio de sesión exitoso, este router saldrá automáticamente de este modo. {exit}."
     },
     "modem": {
         "title": "Móvil",
