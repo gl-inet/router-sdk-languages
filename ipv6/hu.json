@@ -10,7 +10,8 @@
         "dns_acq": "DNS szerzési módszer",
         "dns_tips": "A DNS-t arra használják, hogy megtalálják a domain névnek megfelelő IP címet. A DNS szerver kézi beállítása DNS keresési hibát okozhat. Kérjük, óvatosan használja.",
         "dns_server": "DNS-kiszolgáló",
-        "invalid_parameter": "A megadott formátum helytelen!"
+        "invalid_parameter": "A megadott formátum helytelen!",
+        "use_tip": "Amikor az IPv6 engedélyezve van, a WAN interfészek, mint például az Ethernet, DHCPv6 segítségével kapják meg az IPv6 címüket. Az IPv6 címet kézzel is módosíthatja az Ethernet beállítások oldalán. Néhány funkció ({features}) még nem támogatja az IPv6-ot."
     },
     "menu_ipv6": "IPv6"
 }
