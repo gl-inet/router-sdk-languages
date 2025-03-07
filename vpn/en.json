@@ -296,7 +296,12 @@
         "wg_guide_disabled_tips": "OpenVPN is connected, turn off OpenVPN if you need to use Wireguard VPN.",
         "manual_upload_tips": "Please visit {page} to view {type} compatible VPN service providers and learn about the benefits of using VPN.",
         "on_router_label": "VPN on Router",
-        "own_services_use_vpn_label": "Use of VPN for private services"
+        "own_services_use_vpn_label": "Use of VPN for private services",
+        "sevice_credential_label": "Service Credential",
+        "ovpn_nordvpn_account_label": "NordVPN account's service credentials",
+        "credential_pwd_label": "Credential Password",
+        "ovpn_nordvpn_account_tips": "To ensure successful use of the VPN, please input your {label} (Note: {not} the login account email/password).",
+        "ovpn_nordvpn_not_label": "Not"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -425,7 +430,13 @@
         "on_label": "The {type} server is currently ON.",
         "off_label": "The {type} server is currently OFF.",
         "modify_route_rule_title": "Modify Route Rule",
-        "added_route_rule_title": "Add New Route Rule"
+        "added_route_rule_title": "Add New Route Rule",
+        "enable_ipv6_btn": "Enabled IPv6",
+        "route_rule_dest_already_exists_msg": "Cannot enter a destination address that already exists.",
+        "enable_ipv6_tips": "If IPv6 is not enabled, the IPv6 address will not take effect. If you want to use IPv6 address, please {todo} on your router.",
+        "route_rules_title": "Route Rules",
+        "want_use_ipv6_tips": "If you want to use IPv6 address, please {todo} on your router.",
+        "export_addr_tips": "You can enter an IP address or domain name. Address is the {label} address in the VPN configuration."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Many routing functions will not be available.",
