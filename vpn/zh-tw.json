@@ -297,7 +297,11 @@
         "on_router_label": "VPN on Router",
         "wg_guide_disabled_tips": "OpenVPN已連接，如果您需要使用Wireguard VPN，請關閉OpenVPN。",
         "own_services_use_vpn_label": "自有服務使用 VPN",
-        "ovpn_nordvpn_not_label": "非"
+        "ovpn_nordvpn_not_label": "非",
+        "ovpn_nordvpn_account_tips": "為了確保VPN的成功使用，請輸入您的{label}（注意：{not}登錄帳戶電子郵件/密碼）。",
+        "credential_pwd_label": "憑證密碼",
+        "sevice_credential_label": "服務憑證",
+        "ovpn_nordvpn_account_label": "NordVPN帳戶的服務憑證"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -417,7 +421,8 @@
         "subcription_url_tips": "URL 中的域名或 IP 地址會自動每天更新。",
         "device_count_label": "{count} 台設備|{count} 台設備",
         "method_count_label": "{count} 種方法|{count} 種方法",
-        "custom_tunnel_title": "自訂 VPN 隧道"
+        "custom_tunnel_title": "自訂 VPN 隧道",
+        "stop_title": "停止VPN配置"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
@@ -427,7 +432,12 @@
         "off_label": "{type} 服務器目前處於關閉狀態。",
         "modify_route_rule_title": "修改路由規則",
         "added_route_rule_title": "添加路由規則",
-        "route_rule_dest_already_exists_msg": "不能輸入已存在的目的地址。"
+        "route_rule_dest_already_exists_msg": "不能輸入已存在的目的地址。",
+        "enable_ipv6_btn": "啟用IPv6",
+        "route_rules_title": "路由規則",
+        "enable_ipv6_tips": "如果未啟用IPv6，則IPv6地址將不會生效。如果您想使用IPv6地址，請在您的路由器上{todo}。",
+        "want_use_ipv6_tips": "如果您想使用IPv6地址，請在您的路由器上{todo}。",
+        "export_addr_tips": "您可以輸入IP地址或域名。地址是VPN配置中的{label}地址。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "許多路由功能將無法使用。",
