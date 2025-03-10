@@ -74,5 +74,10 @@
         "reserved_ip_label": "Reservierte IP",
         "next_connect_effect_tips": "Die aktuelle Konfiguration erfordert, dass die nächste Verbindung wirksam wird."
     },
-    "menu_clients": "Clients"
+    "menu_clients": "Clients",
+    "vpn_tunnel": {
+        "mac_using_tips": "Das VPN ist verbunden.",
+        "mac_not_effect_tips": "Das VPN ist nicht in Betrieb.",
+        "mac_connecting_tips": "Das VPN verbindet sich."
+    }
 }
