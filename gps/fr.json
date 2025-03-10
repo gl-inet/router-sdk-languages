@@ -1,1 +1,24 @@
-{}
+{
+    "gps": {
+        "gps_tips": "Il peut s'écouler quelques minutes avant que les données de localisation soient acquises après l'activation du GPS. Si aucun signal n'est reçu, essayez de placer l'appareil ou l'antenne GPS à l'extérieur dans un espace dégagé.",
+        "title": "GPS",
+        "tracking_server": "Serveur de suivi",
+        "data_format": "Format des données",
+        "intervals": "Intervales",
+        "gnss_mode": "Mode GNSS",
+        "altitude": "Altitude",
+        "report": "Rapport",
+        "update_time": "Heure de mise à jour",
+        "longitude": "Longitude",
+        "speed": "Vitesse",
+        "traccar": "Traccar",
+        "latitude": "Latitude",
+        "custom": "Personnalisé",
+        "address": "Adresse",
+        "report_battery_status": "Signaler l'état de la batterie",
+        "device_id": "Identifiant de l'appareil",
+        "report_cell": "Signaler la cellule",
+        "report_repeated_wifi": "Signaler le Wi-Fi répété"
+    },
+    "menu_gps": "GPS"
+}
