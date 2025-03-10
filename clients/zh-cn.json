@@ -74,5 +74,10 @@
         "next_connect_effect_tips": "当前配置需要下一次连接才能生效。",
         "reserve_ip_only_ipv4_tips": "只能配置局域网段IPv4地址预留。"
     },
-    "menu_clients": "客户端"
+    "menu_clients": "客户端",
+    "vpn_tunnel": {
+        "mac_using_tips": "VPN已连接。",
+        "mac_not_effect_tips": "VPN未生效。",
+        "mac_connecting_tips": "VPN正在连接。"
+    }
 }
