@@ -296,7 +296,12 @@
         "ovpn_nordvpn_tips": "VPNの使用を成功させるために、NordVPNのサービス認証情報として機能する{account}を入力してください。",
         "to_setup_guide_tips": "ご不明な点がある場合は、{guide}をご覧ください。",
         "accurate_account_label": "正確なNordVPNユーザー名とパスワード",
-        "own_services_use_vpn_label": "個人利用のためのVPNの使用"
+        "own_services_use_vpn_label": "個人利用のためのVPNの使用",
+        "sevice_credential_label": "サービス認証情報",
+        "ovpn_nordvpn_account_label": "NordVPNアカウントのサービス認証情報",
+        "credential_pwd_label": "認証パスワード",
+        "ovpn_nordvpn_account_tips": "VPNの成功した使用を保証するために、{label}を入力してください（注：{not}ログインアカウントのメール/パスワードではありません）。",
+        "ovpn_nordvpn_not_label": "なし"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバ",
@@ -416,14 +421,23 @@
         "subcription_url_tips": "URL内のドメイン名またはIPは毎日自動的に更新されます。",
         "device_count_label": "{count}台のデバイス|{count}台のデバイス",
         "method_count_label": "{count} 方法|{count} 方法",
-        "custom_tunnel_title": "VPNトンネルのカスタマイズ"
+        "custom_tunnel_title": "VPNトンネルのカスタマイズ",
+        "stop_title": "VPN設定を停止する"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
         "starting_label": "{type}サーバーが起動しています...",
         "connected_dev_label": "接続されたデバイス",
         "on_label": "{type}サーバーは現在稼働中です。",
-        "off_label": "{type}サーバーは現在停止しています。"
+        "off_label": "{type}サーバーは現在停止しています。",
+        "enable_ipv6_tips": "IPv6が有効になっていない場合、IPv6アドレスは有効になりません。IPv6アドレスを使用する場合は、ルーターで{todo}を行ってください。",
+        "export_addr_tips": "IPアドレスまたはドメイン名を入力できます。アドレスはVPN設定内の{label}アドレスです。",
+        "modify_route_rule_title": "ルートルールの変更",
+        "added_route_rule_title": "新しいルートルールの追加",
+        "enable_ipv6_btn": "IPv6を有効にする",
+        "route_rule_dest_already_exists_msg": "既に存在する宛先アドレスを入力することはできません。",
+        "route_rules_title": "ルートルール",
+        "want_use_ipv6_tips": "IPv6アドレスを使用する場合は、ルーターで{todo}を行ってください。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "多くのルーティング機能が利用できなくなります。",
