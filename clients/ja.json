@@ -74,5 +74,10 @@
         "next_connect_effect_tips": "現在の設定は、次の接続が有効になるまで適用されます。",
         "reserve_ip_only_ipv4_tips": "IPv4アドレスの予約はLANセグメントのみで設定できます。"
     },
-    "menu_clients": "クライアント"
+    "menu_clients": "クライアント",
+    "vpn_tunnel": {
+        "mac_using_tips": "VPNが接続されました。",
+        "mac_not_effect_tips": "VPNは有効ではありません。",
+        "mac_connecting_tips": "VPNが接続中です。"
+    }
 }
