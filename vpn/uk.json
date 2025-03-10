@@ -296,7 +296,12 @@
         "wg_guide_disabled_tips": "OpenVPN підключено, вимкніть OpenVPN, якщо вам потрібно використовувати VPN Wireguard.",
         "manual_upload_tips": "Будь ласка, відвідайте {page}, щоб переглянути {type} провайдерів VPN-сервісів, сумісних з VPN, та дізнатися про переваги використання VPN.",
         "on_router_label": "VPN на роутері",
-        "own_services_use_vpn_label": "Використання VPN для приватних сервісів"
+        "own_services_use_vpn_label": "Використання VPN для приватних сервісів",
+        "credential_pwd_label": "Пароль для авторизації",
+        "ovpn_nordvpn_account_tips": "Щоб забезпечити успішне використання VPN, будь ласка, введіть ваш {label} (Примітка: {not} електронна пошта/пароль облікового запису для входу).",
+        "sevice_credential_label": "Дані для авторизації сервісу",
+        "ovpn_nordvpn_account_label": "Службові дані облікового запису NordVPN",
+        "ovpn_nordvpn_not_label": "Не"
     },
     "menu_wgserver": "WireGuard сервер",
     "menu_ovpnserver": "OpenVPN-сервер",
@@ -416,14 +421,23 @@
         "subcription_url_tips": "Доменне ім'я або IP-адреса в URL автоматично оновлюються щодня.",
         "device_count_label": "{count} пристрій|{count} пристроїв",
         "method_count_label": "{count} метод|{count} методи",
-        "custom_tunnel_title": "Настроїти VPN-тунель"
+        "custom_tunnel_title": "Настроїти VPN-тунель",
+        "stop_title": "Зупинити конфігурацію VPN"
     },
     "vpn_server": {
         "connected_dev_label": "Підключені пристрої",
         "off_title": "{type} сервер зараз ВИМКНЕНО.",
         "starting_label": "Сервер {type} запускається...",
         "on_label": "Сервер {type} зараз увімкнено.",
-        "off_label": "{type} сервер зараз ВИМКНЕНО."
+        "off_label": "{type} сервер зараз ВИМКНЕНО.",
+        "modify_route_rule_title": "Змінити правило маршрутизації",
+        "enable_ipv6_tips": "Якщо IPv6 не увімкнено, адреса IPv6 не буде діяти. Якщо ви хочете використовувати адресу IPv6, будь ласка, {todo} на вашому маршрутизаторі.",
+        "want_use_ipv6_tips": "Якщо ви хочете використовувати адресу IPv6, будь ласка, {todo} на вашому маршрутизаторі.",
+        "added_route_rule_title": "Додати нове правило маршрутизації",
+        "enable_ipv6_btn": "Увімкнено IPv6",
+        "route_rule_dest_already_exists_msg": "Не можна ввести адресу призначення, яка вже існує.",
+        "route_rules_title": "Правила маршрутизації",
+        "export_addr_tips": "Ви можете ввести IP-адресу або доменне ім'я. Адреса є {label} адресою у конфігурації VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Багато функцій маршрутизації не будуть доступні.",
