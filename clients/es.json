@@ -74,5 +74,10 @@
         "next_connect_effect_tips": "La configuración actual requiere que la próxima conexión surta efecto.",
         "reserve_ip_only_ipv4_tips": "Solo se puede configurar la reserva de dirección IPv4 del segmento LAN."
     },
-    "menu_clients": "Clientes"
+    "menu_clients": "Clientes",
+    "vpn_tunnel": {
+        "mac_using_tips": "La VPN está conectada.",
+        "mac_not_effect_tips": "La VPN no está en funcionamiento.",
+        "mac_connecting_tips": "La VPN se está conectando."
+    }
 }
