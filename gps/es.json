@@ -18,7 +18,9 @@
         "address": "Dirección",
         "device_id": "ID del dispositivo",
         "report_cell": "Informe de celda",
-        "gps_tips": "Puede tardar unos minutos en adquirirse los datos de ubicación después de activar el GPS. Si no hay señal en absoluto, intente colocar el dispositivo o la antena GPS al aire libre en un área abierta."
+        "gps_tips": "Puede tardar unos minutos en adquirirse los datos de ubicación después de activar el GPS. Si no hay señal en absoluto, intente colocar el dispositivo o la antena GPS al aire libre en un área abierta.",
+        "report_repeated_wifi_tips": "Si esta opción está habilitada, el dispositivo informa el SSID del repetidor actual.",
+        "data_format_tips": "¿Qué formato de datos utiliza el dispositivo para los informes?"
     },
     "menu_gps": "GPS"
 }
