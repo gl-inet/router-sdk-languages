@@ -18,7 +18,9 @@
         "report_battery_status": "Report Battery Status",
         "device_id": "Device ID",
         "report_cell": "Report Cell",
-        "gps_tips": "It may take a few minutes for location data to be acquired after GPS is enabled. If there is no signal at all, try placing the device or GPS antenna outside in an open area."
+        "gps_tips": "It may take a few minutes for location data to be acquired after GPS is enabled. If there is no signal at all, try placing the device or GPS antenna outside in an open area.",
+        "report_repeated_wifi_tips": "If this option is enabled, the device reports the SSID of the current repeater.",
+        "data_format_tips": "What format of data the device uses for reporting."
     },
     "menu_gps": "GPS"
 }
