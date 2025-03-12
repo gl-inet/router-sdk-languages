@@ -18,7 +18,9 @@
         "device_id": "设备 ID",
         "report_cell": "上报蜂窝",
         "report_repeated_wifi": "上报中继 Wi-Fi",
-        "gps_tips": "启用 GPS 后，可能需要几分钟时间才能获取位置数据。如果完全没有信号，请尝试将设备或 GPS 天线放置在室外开阔地带。"
+        "gps_tips": "启用 GPS 后，可能需要几分钟时间才能获取位置数据。如果完全没有信号，请尝试将设备或 GPS 天线放置在室外开阔地带。",
+        "report_repeated_wifi_tips": "如果启用此选项，设备将报告当前中继器的SSID。",
+        "data_format_tips": "设备报告使用的数据格式是什么？"
     },
     "menu_gps": "GPS"
 }
