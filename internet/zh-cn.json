@@ -75,15 +75,12 @@
         "fail_mac_tips": "路由器的 MAC 地址不能与 Wi-Fi 客户端相同，请$$$$修改克隆的 MAC$$$$或在该客户端上修改 MAC。",
         "scan_wifi_fail_dfs_tips": "设备正在进行 DFS 信道可用性检测，无法扫描周边 Wi-Fi。请等待检测结束。",
         "connet_dfs_tips": "路由器中继DFS信道的WiFi时，如果此WiFi可用，路由器将使用选择的DFS信道，需要注意的是，如果此WiFi不可用，将会切换信道，此时会导致通过WiFi连接的客户端短暂断开，有些设备会无感重连，有些需要手动重连。",
-        "allow_auto_portal_tips": "若此选项启用，此路由器会在连接热点成功但无法连接到互联网时自动进入公共热点认证模式。此模式会暂停 VPN 和自定义 DNS 直到其退出为止，这可能导致信息泄露给热点的提供方（如酒店、商场）。",
         "allow_auto_portal_label": "自动启用公共热点认证模式",
-        "need_enter_portal_tips": "无法通过已中继的热点访问互联网，您可以尝试进入{portal}来解决问题。注意，此模式会暂停 VPN 和自定义 DNS 直到其退出为止，这可能导致信息泄露给热点的提供方（如酒店、商场）。",
         "portal_auth_mode_btn": "公共热点认证模式",
         "modify_wifi_tips": "更改任何网络设置都会导致中继重新连接。",
         "enable_disguise_tips": "若此选项启用，路由器伪装成您目前使用的客户端设备的同款设备。",
         "auto_portal_tips": "此设备已自动进入公共热点验证模式以访问热点的 Captive Portal。认证成功后，设备将自动退出该模式。",
         "to_auth_btn": "前往登录",
-        "entered_portal_tips": "设备处于公共热点认证模式中。VPN 和自定义 DNS 已被暂时停用，这可能导致信息泄露给热点的提供方（如酒店、商场）。认证成功后设备会自动退出该模式。{exit}。",
         "enable_disguise_label": "启用伪装",
         "modify_wifi_title": "修改网络配置",
         "auto_go_auth_tips": "{count}之后自动{auth}",
@@ -91,9 +88,24 @@
         "cannot_accessed_portal_url_tips": "如果无法访问认证页面，请尝试禁用其它联网方式（如有线、蜂窝网络）。",
         "quit_btn": "退出认证模式",
         "entry_again_tips": "如果你10s内再次进入，将直接拉取缓存，而不是重新扫描。",
-        "unable_scan_channel_tips": "跨国旅行时可能因为法规原因无法扫描到某些信道的Wi-Fi。",
         "scan_wifi_fail_detection_channel_tips": "设备正在检测最佳信道，期间无法扫描周边Wi-Fi，请您耐心等待检测完成。",
-        "cannot_find_ssid": "找不到您的SSID？"
+        "cannot_find_ssid": "找不到您的SSID？",
+        "allow_auto_portal_tips": "如果启用此选项，当路由器成功连接到热点但未连接到互联网时，将自动进入公共热点的登录模式。在此模式下，部分服务将被暂停，同时DNS模式将切换为自动，这可能会向热点提供商（例如酒店或购物中心）泄露您的网络活动信息。",
+        "need_enter_portal_tips": "无法通过重复的热点访问互联网。尝试进入{portal}来解决问题。请注意，此模式将暂停某些服务和自定义DNS，直到它退出，这可能会导致数据泄露给热点提供者（例如，酒店/商场）。",
+        "entered_portal_tips": "设备处于公共热点的登录模式。部分服务已暂停，可能会导致数据泄露给热点提供者（例如，酒店/商场）。登录成功后，路由器将自动退出此模式。{exit}。",
+        "router_support_channel_tips": "检查您的SSID工作频道，此路由器支持：",
+        "channel": "{band} 信道",
+        "cannot_find_wifi": "找不到无线网络？",
+        "ssid_not_hidden_tips": "确保您的SSID没有被隐藏。",
+        "make_sure_works_tips": "使用您的手机尝试，确保它能正常工作。",
+        "support_tips": "如需进一步帮助，请联系我们：{addr}。",
+        "allow_other_mode_change": "允许切换到其他网络模式",
+        "no_switching": "不切换",
+        "auto_switching": "自动切换",
+        "auto_switching_without_network": "仅没网自动切换",
+        "no_switching_tips": "启用不切换模式后，当前 Wi-Fi 断开时不连接其他已保存网络。",
+        "auto_switching_tips": "启用自动切换模式后，当前 Wi-Fi 断开时会连接其他已保存网络。",
+        "auto_switching_without_network_tips": "启用仅没网自动切换模式后，路由器非中继方式正常联网时，不进行网络扫描操作，仅没网时切换网络，可避免通信丢包。"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "发件人"
+    },
+    "simo": {
+        "sim_type_label": "SIM卡类型",
+        "switch_to_label": "切换到{slot}",
+        "vsim_switch_to_physical_tips": "您将从虚拟SIM卡（vSIM）切换到实体SIM卡。您需要将实体SIM卡插入设备插槽以连接到互联网。请确认实体SIM卡已经插入。",
+        "physical_switch_to_vsim_tips": "您将从模块的实体SIM卡切换到虚拟SIM卡（vSIM）。您需要确认已经在simo网站上购买了数据套餐（扫描设备上的二维码进行购买）。然后，您可以从设备中取出实体SIM卡。"
     }
 }

@@ -296,7 +296,12 @@
         "accurate_account_label": "정확한 NordVPN 사용자 이름과 비밀번호",
         "wg_guide_disabled_tips": "OpenVPN이 연결되어 있습니다. WireGuard VPN을 사용해야 하는 경우 OpenVPN을 끄십시오.",
         "manual_upload_tips": "VPN 서비스 제공업체와 VPN 사용의 이점에 대해 알아보려면 {page}를 방문하여 {type}과 호환되는 서비스 제공업체를 확인하십시오.",
-        "own_services_use_vpn_label": "私人服务的VPN使用"
+        "own_services_use_vpn_label": "私人服务的VPN使用",
+        "ovpn_nordvpn_account_tips": "VPN 사용이 성공적이기 위해서는 {label}을 입력해 주세요 (참고: {not} 로그인 계정 이메일/비밀번호가 아닙니다).",
+        "ovpn_nordvpn_account_label": "NordVPN 계정의 서비스 자격 증명",
+        "credential_pwd_label": "자격 증명 비밀번호",
+        "sevice_credential_label": "서비스 자격 증명",
+        "ovpn_nordvpn_not_label": "아님"
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",
@@ -416,14 +421,24 @@
         "subcription_url_tips": "URL의 도메인 이름 또는 IP는 매일 자동으로 업데이트됩니다.",
         "device_count_label": "{count} 대의 기기|{count} 대의 기기",
         "method_count_label": "{count} 가지 방법|{count} 가지 방법",
-        "custom_tunnel_title": "VPN 터널 사용자 정의"
+        "custom_tunnel_title": "VPN 터널 사용자 정의",
+        "stop_title": "VPN 구성 중지",
+        "default_tunnel_tip": "변경할 수 없는 내장 터널."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
         "starting_label": "{type} 서버가 시작 중입니다...",
         "connected_dev_label": "연결된 장치",
         "on_label": "{type} 서버가 현재 켜져 있습니다.",
-        "off_label": "{type} 서버가 현재 꺼져 있습니다."
+        "off_label": "{type} 서버가 현재 꺼져 있습니다.",
+        "modify_route_rule_title": "경로 규칙 수정",
+        "added_route_rule_title": "새 경로 규칙 추가",
+        "enable_ipv6_btn": "IPv6 활성화",
+        "route_rule_dest_already_exists_msg": "이미 존재하는 목적지 주소를 입력할 수 없습니다.",
+        "route_rules_title": "경로 규칙",
+        "enable_ipv6_tips": "IPv6가 활성화되지 않은 경우 IPv6 주소는 적용되지 않습니다. IPv6 주소를 사용하려면 라우터에서 {todo}를 해주세요.",
+        "want_use_ipv6_tips": "IPv6 주소를 사용하려면 라우터에서 {todo}를 해주세요.",
+        "export_addr_tips": "IP 주소 또는 도메인 이름을 입력할 수 있습니다. 주소는 VPN 구성에서 {label} 주소입니다."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "많은 라우팅 기능을 사용할 수 없게 됩니다.",

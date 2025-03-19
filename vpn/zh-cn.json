@@ -296,7 +296,12 @@
         "manual_upload_tips": "请在 {page} 上了解兼容的 {type} 服务提供商和 VPN 的用途。",
         "on_router_label": "VPN on Router",
         "wg_guide_disabled_tips": "OpenVPN已连接，如果需要使用WireGuard VPN，请关闭OpenVPN。",
-        "own_services_use_vpn_label": "自有服务使用 VPN"
+        "own_services_use_vpn_label": "自有服务使用 VPN",
+        "ovpn_nordvpn_not_label": "不是",
+        "ovpn_nordvpn_account_tips": "为确保VPN的成功使用，请输入您的{label}（注意：{not}登录账户邮箱/密码）。",
+        "credential_pwd_label": "凭证密码",
+        "sevice_credential_label": "服务凭证",
+        "ovpn_nordvpn_account_label": "NordVPN账户的服务凭证"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -416,14 +421,24 @@
         "subcription_url_tips": "URL中的域名或IP地址会自动每天更新。",
         "device_count_label": "{count} 设备|{count} 设备",
         "method_count_label": "{count} 种方法|{count} 种方法",
-        "custom_tunnel_title": "自定义VPN隧道"
+        "custom_tunnel_title": "自定义VPN隧道",
+        "stop_title": "停止VPN配置",
+        "default_tunnel_tip": "不可更改的内置隧道。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
         "off_title": "{type}服务器当前处于关闭状态。",
         "starting_label": "{type}服务器正在启动...",
         "on_label": "{type}服务器目前处于开启状态。",
-        "off_label": "{type}服务器当前处于关闭状态。"
+        "off_label": "{type}服务器当前处于关闭状态。",
+        "added_route_rule_title": "添加路由规则",
+        "modify_route_rule_title": "修改路由规则",
+        "route_rule_dest_already_exists_msg": "不能输入已存在的目的地址。",
+        "export_addr_tips": "您可以输入 IP 地址或域名。相当于 VPN 配置中的 {label} 地址。",
+        "enable_ipv6_btn": "已启用IPv6",
+        "route_rules_title": "路由规则",
+        "enable_ipv6_tips": "如果未启用IPv6，IPv6地址将不会生效。如果您想使用IPv6地址，请在您的路由器上{todo}。",
+        "want_use_ipv6_tips": "如果您想使用IPv6地址，请在您的路由器上{todo}。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "许多路由功能将无法使用。",

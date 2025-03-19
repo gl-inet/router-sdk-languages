@@ -72,7 +72,13 @@
         "reserved_ip_label": "保留 IP",
         "reserved_ip_tips": "當您為區域網路(LAN)內的客戶端指定一個保留的IP地址時，該客戶端每次訪問路由器的DHCP伺服器時都會收到相同的IP地址。您可以為需要固定IP設置的電腦或伺服器分配保留IP地址。",
         "next_connect_effect_tips": "當前配置需要下一次連接才能生效。",
-        "reserve_ip_only_ipv4_tips": "只能配置局域網段IPv4地址保留。"
+        "reserve_ip_only_ipv4_tips": "只能配置局域網段IPv4地址保留。",
+        "host_guest_label": "主/訪客網路"
     },
-    "menu_clients": "客戶端"
+    "menu_clients": "客戶端",
+    "vpn_tunnel": {
+        "mac_using_tips": "VPN已連接。",
+        "mac_not_effect_tips": "VPN尚未生效。",
+        "mac_connecting_tips": "VPN正在連接中。"
+    }
 }

@@ -296,7 +296,12 @@
         "wg_guide_disabled_tips": "Az OpenVPN csatlakoztatva van, kapcsolja ki az OpenVPN-t, ha Wireguard VPN-t szeretne használni.",
         "manual_upload_tips": "Kérjük, látogasson el a {page} oldalra, hogy megtekinthesse a {type} kompatibilis VPN-szolgáltatókat és tájékozódjon a VPN használatának előnyeiről.",
         "on_router_label": "VPN a routeren",
-        "own_services_use_vpn_label": "Az VPN használata privát szolgáltatásokhoz"
+        "own_services_use_vpn_label": "Az VPN használata privát szolgáltatásokhoz",
+        "sevice_credential_label": "Szolgáltatási hitelesítő adat",
+        "ovpn_nordvpn_account_label": "NordVPN fiók szolgáltatási hitelesítő adatai",
+        "credential_pwd_label": "Hitelesítő adat jelszava",
+        "ovpn_nordvpn_account_tips": "A VPN sikeres használatának biztosítása érdekében kérjük, adja meg a {label} (Megjegyzés: {not} a bejelentkezési fiók e-mail címét/jelszavát).",
+        "ovpn_nordvpn_not_label": "Nem"
     },
     "menu_wgserver": "WireGuard Szerver",
     "menu_ovpnserver": "OpenVPN Szerver",
@@ -416,14 +421,24 @@
         "subcription_url_tips": "A URL-ben található domainnév vagy IP-cím automatikusan frissül minden nap.",
         "device_count_label": "{count} eszköz|{count} eszközök",
         "method_count_label": "{count} módszer|{count} módszerek",
-        "custom_tunnel_title": "VPN-alagút testreszabása"
+        "custom_tunnel_title": "VPN-alagút testreszabása",
+        "stop_title": "VPN-konfiguráció leállítása",
+        "default_tunnel_tip": "Változtathatatlan beépített alagút."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
         "starting_label": "A {type} szerver indítása folyamatban...",
         "connected_dev_label": "Csatlakoztatott eszközök",
         "on_label": "A {type} szerver jelenleg BE van kapcsolva.",
-        "off_label": "A {type} szerver jelenleg KIKAPCSOLT állapotban van."
+        "off_label": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
+        "enable_ipv6_tips": "Ha az IPv6 nincs engedélyezve, az IPv6 cím nem lesz érvényes. Ha IPv6 címet szeretne használni, kérjük, {todo} a routerén.",
+        "modify_route_rule_title": "Útvonal szabály módosítása",
+        "added_route_rule_title": "Új útvonal szabály hozzáadása",
+        "enable_ipv6_btn": "IPv6 engedélyezése",
+        "route_rule_dest_already_exists_msg": "Nem lehet olyan célcímet megadni, amely már létezik.",
+        "route_rules_title": "Útvonal szabályok",
+        "want_use_ipv6_tips": "Ha IPv6 címet szeretne használni, kérjük, {todo} a routerén.",
+        "export_addr_tips": "IP-címet vagy domain nevet adhat meg. A cím a VPN-konfigurációban a {label} cím."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Sok útválasztási funkció nem lesz elérhető.",

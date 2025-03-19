@@ -63,7 +63,7 @@
         "current_sim_badge_label": "Aktyvus: „SIM“ – {sim}",
         "excellent_singal_label": "Puikus",
         "good_singal_label": "Geras",
-        "fair_singal_label": "Vidutinis",
+        "fair_singal_label": "Patenkinama/-s",
         "poor_singal_label": "Blogas",
         "no_sim_tips2": "Jūsų „SIM“ kortelė neaptikta. Prašome patikrinti, ar kortelė teisingai įdėta ir ar kontaktai yra švarūs.",
         "manage_profiles_btn": "Tvarkyti profilius",
@@ -161,12 +161,9 @@
         "modify_wifi_title": "Keisti/Redaguoti tinklo nustatymus",
         "enable_disguise_label": "Įgalinti maskuotes veikimą",
         "enable_disguise_tips": "Jei ši parinktis – įgalinta, tada šis maršrutizatorius maskuosis save kaip tokiu pat kliento įrenginiu, kurį dabar naudojate (t.y. apsimesdamas save išvesties įrenginiams).",
-        "allow_auto_portal_tips": "Jei ši parinktis yra – įjungta/įgalinta, tada šis maršrutizatorius automatiškai įeis į viešųjų „Wi-Fi“ viešaviečių prisijungimo veikseną, kai jis sėkmingai prisijungia prie „Wi-Fi“ viešavietes, bet ne prie interneto. Ši veiksena sustabdys „VPN“ ir pasirinktinius „DNS“ iki šios veiksenos išėjimo, dėl kurio, gali atsirasti duomenų nutekėjimas „Wi-Fi“ viešavietės teikėjui (pvz., viešbučiui/prekybos centrui).",
         "allow_auto_portal_label": "Automatiškai įjungti/įgalinti prisijungimo veikseną viešosioms „Wi-Fi“ viešavietėms",
         "auto_portal_tips": "Įrenginys įėjo į prisijungimo veikseną viešiosioms „Wi-Fi“ viešavietėms, kad galėtų pasiekti šios perimančios prieigos pagal paskirtį portalą. Po sėkmingo prisijungimo, jis automatiškai išeis iš šios veiksenos.",
-        "entered_portal_tips": "Įrenginys yra prisijungimo veiksenoje viešiosioms „Wi-Fi“ viešavietėms. „VPN“ ir pasirinktiniai „DNS“ buvo sustabdyti, dėl kurio, gali atsirasti duomenų nutekėjimas „Wi-Fi“ viešavietės teikėjui (pvz., viešbučiui/prekybos centrui). Po sėkmingo prisijungimo, šis maršrutizatorius automatiškai išeis iš šios veiksenos. {exit}.",
         "auto_go_auth_tips": "Automatiškai – {auth}, po – {count}",
-        "need_enter_portal_tips": "Negalima pasiekti interneto per kartotinę „Wi-Fi“ viešavietę. Pabandykite patekti į – {portal}, kad išspręstumėte problemą. Atkreipkite dėmesį, kad ši veiksena sustabdys „VPN“ ir pasirinktinius „DNS“ kol iš jo neišeisite, o tai gali sukelti duomenų nutekėjimą „Wi-Fi“ viešavietės teikėjui (pvz., viešbutis/prekybos centras).",
         "portal_auth_mode_btn": "Prisijungimo veiksena „Wi-Fi“ viešavietėms",
         "going_to_auth_tips": "Nukreipiama į prisijungimo puslapį:",
         "cannot_accessed_portal_url_tips": "Jei Jūs negalite pasiekti prisijungimo puslapio, pabandykite išjungti kitus interneto ryšius (pvz., „eternetą“, mobilųjį).",
@@ -198,9 +195,24 @@
         "fail_eap_key_tips": "Neteisingas naudotojo/vartotojo vardas (t.y. slapyvardis) arba slaptažodis.",
         "to_auth_btn": "Eiti į – prisijungimą",
         "entry_again_tips": "Jei prisijungsite per 10 sekundžių, bus tiesiogiai naudojama talpykla, o ne atliekamas iš naujo nuskaitymas.",
-        "unable_scan_channel_tips": "Kelionėje per šalį gali būti neįmanoma skenuoti „Wi-Fi“ tam tikruose kanaluose dėl reguliavimo priežasčių.",
         "scan_wifi_fail_detection_channel_tips": "Įrenginys šiuo metu skenuoja optimalų kanalą, „Wi-Fi“ skenavimas šio proceso metu yra nepasiekiamas. Prašome palaukti, kol skenavimas bus baigtas.",
-        "cannot_find_ssid": "Nerandate savo SSID?"
+        "cannot_find_ssid": "Nerandate savo SSID?",
+        "allow_auto_portal_tips": "Jei ši funkcija įjungta, maršrutizatorius automatiškai pereis į viešųjų prieigos taškų prisijungimo veikseną, kai sėkmingai prisijungs prie prieigos taško, bet ne prie interneto. Šioje veiksenoje kai kurios paslaugos bus sustabdytos, o DNS veiksena bus pakeista į automatinę, dėl ko gali būti atskleista jūsų tinklo veiklos informacija prieigos taško teikėjui (pvz., viešbučiui ar prekybos centrui).",
+        "need_enter_portal_tips": "Negalima prisijungti prie interneto per pakartotą karštąjį tašką. Pabandykite įvesti {portal}, kad išspręstumėte problemą. Atkreipkite dėmesį, kad ši veiksena sustabdys kai kuriuos paslaugas ir pasirinktines DNS, kol ji nebus išjungta, o tai gali sukelti duomenų nutekėjimą į karštojo taško teikėją (pvz., viešbutį/prekybos centrą).",
+        "entered_portal_tips": "Įrenginys yra viešųjų prieigos taškų prisijungimo veiksenoje. Kai kurios paslaugos buvo pristabdytos, kas gali sukelti duomenų nutekėjimą prieigos taško teikėjui (pvz., viešbutis/prekybos centras). Po sėkmingo prisijungimo, šis maršrutizatorius automatiškai išeina iš šios veiksenos. {exit}.",
+        "router_support_channel_tips": "Patikrinkite savo SSID darbo kanalą, šis maršrutizatorius palaiko:",
+        "channel": "{band} kanalai",
+        "cannot_find_wifi": "Nerandate savo „Wi-Fi“?",
+        "ssid_not_hidden_tips": "Įsitikinkite, kad jūsų „SSID“ nėra paslėptas.",
+        "make_sure_works_tips": "Pabandykite su savo mobiliuoju telefonu ir įsitikinkite, kad veikia.",
+        "support_tips": "Susisiekite su mumis dėl tolesnės pagalbos adresu {addr}.",
+        "allow_other_mode_change": "Leisti perjungti į kitų tinklų veikseną",
+        "no_switching": "Nepereinama",
+        "auto_switching": "Automatinis perjungimas",
+        "auto_switching_without_network": "Automatinis perjungimas be tinklo",
+        "no_switching_tips": "Kai įjungta neperjungimo veiksena, esant atjungtam dabartiniam „Wi-Fi“, neprisijungia jokie kiti išsaugoti tinklai.",
+        "auto_switching_tips": "Kai automatinio perjungimo veiksena įjungta, atsijungus dabartiniam „Wi-Fi“ tinklui bus prisijungta prie kitų išsaugotų tinklų.",
+        "auto_switching_without_network_tips": "Kai įgalinta automatinio perjungimo be tinklo veiksena, maršrutizatorius neatlieka tinklo skenavimo, kai jis įprastai prijungtas prie tinklo ne kartotuvo veiksenoje, ir perjungia tinklą tik tada, kai tinklo nėra, kas gali išvengti duomenų paketų praradimo."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "Siuntėjas"
+    },
+    "simo": {
+        "sim_type_label": "SIM kortelės tipas",
+        "switch_to_label": "Pereiti į {slot}",
+        "vsim_switch_to_physical_tips": "Jūs perjungsite iš virtualios SIM kortelės (vSIM) į fizinę SIM kortelę. Turėsite įterpti savo fizinę SIM kortelę į įrenginio lizdą, kad galėtumėte prisijungti prie interneto. Prašome patvirtinti, kad fizinė SIM kortelė įdėta.",
+        "physical_switch_to_vsim_tips": "Jūs pereisite nuo fizinės SIM kortelės prie modulio virtualios SIM kortelės (vSIM). Jums reikės patvirtinti, kad įsigijote duomenų planą simo svetainėje (nuskaitykite įrenginio QR kodą, kad jį įsigytumėte). Tada galite išimti fizinę SIM kortelę iš įrenginio."
     }
 }

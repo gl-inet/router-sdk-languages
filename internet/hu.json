@@ -212,14 +212,12 @@
         "hardware_reset": "Kemény újraindítás"
     },
     "repeater": {
-        "allow_auto_portal_tips": "Ha ez az opció be van kapcsolva, a router automatikusan Belépési Módra vált Nyilvános Hotspotok esetén, amikor sikeresen csatlakozik egy hotspot-hoz, de nem az internethez. Ez a mód szünetelteti a VPN-eket és az egyéni DNS-eket, amíg ki nem lép belőle, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/mall).",
         "detail_title": "Hálózat tulajdonságai",
         "ssid": "Hálózat neve (SSID)",
         "encryption": "Titkosítás",
         "identity": "Felhasználónév",
         "key": "Jelszó",
         "going_to_auth_tips": "Átirányítás a bejelentkezési oldalra:",
-        "entered_portal_tips": "Az eszköz Nyilvános Hálózati Bejelentkezési Módban van. A VPN-ek és az egyéni DNS-ek szüneteltetve vannak, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/mall). Sikeres bejelentkezés után a router automatikusan kilép ebből a módból. {exit}.",
         "cannot_accessed_portal_url_tips": "Ha nem tudja elérni a bejelentkezési oldalt, próbálja meg kikapcsolni az egyéb internetkapcsolatokat (pl. Ethernet, mobilhálózat).",
         "quit_btn": "Kilépés a bejelentkezési módból",
         "auto_portal_tips": "A készülék nyilvános hotspotokhoz való bejelentkezési módba lépett a fogadó portál hotspotjának eléréséhez. Sikeres bejelentkezés után automatikusan kilép ebből a módból.",
@@ -266,11 +264,25 @@
         "auto_go_auth_tips": "Automatikusan {auth} a {count} után",
         "allow_auto_portal_label": "Automatikus bejelentkezési mód engedélyezése nyilvános hálózatokhoz",
         "to_auth_btn": "Ugrás a bejelentkezésre",
-        "need_enter_portal_tips": "Nem lehet internetet elérni az ismételt hotspoton keresztül. Próbálja megadni a {portal} a probléma megoldásához. Vegye figyelembe, hogy ez a mód szünetelteti a VPN-eket és az egyéni DNS-eket, amíg ki nem lép, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/mall).",
         "entry_again_tips": "Ha 10 másodpercen belül újra belép, akkor közvetlenül a gyorsítótárból húzza be az adatokat, ahelyett, hogy újraellenőrizné.",
-        "unable_scan_channel_tips": "Utazás közben előfordulhat, hogy szabályozási okok miatt bizonyos csatornákon nem lehetséges Wi-Fi hálózatokat keresni.",
         "scan_wifi_fail_detection_channel_tips": "Az eszköz jelenleg az optimális csatorna keresését végzi, a Wi-Fi keresés e folyamat alatt nem elérhető. Kérem, türelmesen várja meg a keresés befejezését.",
-        "cannot_find_ssid": "Nem találja a SSID-t?"
+        "cannot_find_ssid": "Nem találja a SSID-t?",
+        "allow_auto_portal_tips": "Ha ez az opció engedélyezve van, a router automatikusan Belépési Módra vált Nyilvános Hálózati Pontok esetén, amikor sikeresen csatlakozik egy hotspot-hoz, de nem az internethez. Ebben a módban néhány szolgáltatás felfüggesztésre kerül, míg a DNS mód automatikusra vált, ami esetlegesen kiadhatja a hálózati tevékenység információit a hotspot szolgáltatójának (pl. hotel vagy bevásárlóközpont).",
+        "need_enter_portal_tips": "Az ismételt hotspoton keresztül nem lehet hozzáférni az internethez. Próbálja meg belépni a {portal} oldalra a probléma megoldásához. Vegye figyelembe, hogy ez a mód szünetelteti egyes szolgáltatásokat és az egyéni DNS-t, amíg ki nem lép belőle, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/bevásárlóközpont).",
+        "entered_portal_tips": "Az eszköz Nyilvános Hotspotokhoz való Bejelentkezési Módban van. Néhány szolgáltatás szünetel, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. hotel/bevásárlóközpont). Sikeres bejelentkezés után a router automatikusan kilép ebből a módból. {exit}.",
+        "router_support_channel_tips": "Ellenőrizze az SSID működési csatornáját, ez a router támogatja:",
+        "channel": "{band} csatornák",
+        "cannot_find_wifi": "Nem találja a Wi-Fi hálózatot?",
+        "ssid_not_hidden_tips": "Győződjön meg róla, hogy az SSID nem rejtett.",
+        "make_sure_works_tips": "Mobiltelefonjával próbálja ki, és győződjön meg róla, hogy működik.",
+        "support_tips": "Forduljon hozzánk további segítségért a {addr} címen.",
+        "allow_other_mode_change": "Engedélyezze az átváltást más hálózati módokra",
+        "no_switching": "Nincs váltás",
+        "auto_switching": "Automatikus váltás",
+        "no_switching_tips": "Amikor a Váltás nélküli mód engedélyezve van, a jelenlegi Wi-Fi kapcsolat megszakadása esetén nem csatlakozik más mentett hálózatokhoz.",
+        "auto_switching_without_network": "Hálózat nélküli automatikus váltás",
+        "auto_switching_tips": "Amikor az automatikus váltási mód engedélyezett, a jelenlegi Wi-Fi kapcsolat megszakadása esetén más mentett hálózatokhoz csatlakozik a rendszer.",
+        "auto_switching_without_network_tips": "Amikor az Automatikus váltás Hálózat nélküli módban engedélyezve van, a router nem hajt végre hálózati beolvasást, amikor normál hálózati módban van és nem ismétlő módban, és csak akkor vált hálózatot, ha nincs hálózat, ami elkerülheti a kommunikációs csomagvesztést."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "Feladó"
+    },
+    "simo": {
+        "sim_type_label": "SIM-kártya típusa",
+        "switch_to_label": "Váltás a(z) {slot} helyre",
+        "vsim_switch_to_physical_tips": "Ön virtuális SIM kártyáról (vSIM) fizikai SIM kártyára fog váltani. A fizikai SIM kártyát be kell helyeznie az eszköz nyílásába az internethez való csatlakozáshoz. Kérjük, erősítse meg, hogy a fizikai SIM kártya be van helyezve.",
+        "physical_switch_to_vsim_tips": "Az átváltás a fizikai SIM kártyáról a modul virtuális SIM kártyájára (vSIM) történik. Meg kell erősítenie, hogy vásárolt adatcsomagot a simo weboldalon (a készüléken található QR-kód beolvasásával vásárolhatja meg). Ezután eltávolíthatja a fizikai SIM kártyát a készülékből."
     }
 }

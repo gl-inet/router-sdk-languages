@@ -1,0 +1,26 @@
+{
+    "gps": {
+        "title": "GPS",
+        "update_time": "Update Time",
+        "tracking_server": "Tracking Server",
+        "data_format": "Data Format",
+        "intervals": "Intervals",
+        "gnss_mode": "GNSS Mode",
+        "altitude": "Altitude",
+        "report": "Report",
+        "longitude": "Longitude",
+        "speed": "Speed",
+        "traccar": "Traccar",
+        "latitude": "Latitude",
+        "custom": "Custom",
+        "report_repeated_wifi": "Report Repeated Wi-Fi",
+        "address": "Address",
+        "report_battery_status": "Report Battery Status",
+        "device_id": "Device ID",
+        "report_cell": "Report Cell",
+        "gps_tips": "It may take a few minutes for location data to be acquired after GPS is enabled. If there is no signal at all, try placing the device or GPS antenna outside in an open area.",
+        "report_repeated_wifi_tips": "If this option is enabled, the device reports the SSID of the current repeater.",
+        "data_format_tips": "What format of data the device uses for reporting."
+    },
+    "menu_gps": "GPS"
+}

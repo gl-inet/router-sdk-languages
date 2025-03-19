@@ -75,25 +75,37 @@
         "fail_mac_tips": "路由器的MAC不能與任何Wi-Fi客戶端相同，請$$$$修改clone的MAC$$$$或修改該客戶端的MAC。",
         "scan_wifi_fail_dfs_tips": "設備正在執行 DFS 通道可用性檢查，無法掃描附近的 Wi-Fi。請等待檢查完成。",
         "connet_dfs_tips": "路由器中繼DFS信道的WiFi時，如果此WiFi可用，路由器將使用選擇的DFS信道，需要注意的是，如果此WiFi不可用，將會切換信道，此時會導致通過WiFi連接的客戶端短暫斷開，有些設備會無感重連，有些需要手動重連。",
-        "allow_auto_portal_tips": "若此選項啟用，此路由器會在連接熱點成功但無法連接到互聯網時自動進入公共熱點認證模式。 此模式會暫停 VPN 和自定義 DNS 直到其退出為止，這可能導致信息洩露給熱點的提供方（如酒店、商場）。",
         "allow_auto_portal_label": "自動啟用公共熱點認證模式",
         "modify_wifi_title": "修改網絡配置",
         "enable_disguise_label": "啟用偽裝",
-        "need_enter_portal_tips": "無法通過已中繼的熱點訪問互聯網，您可以嘗試進入{portal}來解決問題。注意，此模式會暫停 VPN 和自定義 DNS 直到其退出為止，這可能導致信息洩露給熱點的提供方（如酒店、商場）。",
         "modify_wifi_tips": "更改任何網絡設置都會導致中繼重新連接。",
         "going_to_auth_tips": "跳轉到認證頁面：",
         "auto_portal_tips": "此設備已自動進入公共熱點驗證模式以訪問熱點的 Captive Portal。 認證成功後，設備將自動退出該模式。",
         "to_auth_btn": "前往登錄",
-        "entered_portal_tips": "設備處於公共熱點認證模式中。 VPN 和自定義 DNS 已被暫時停用，這可能導致信息洩露給熱點的提供方（如酒店、商場）。 認證成功後設備會自動退出該模式。 {exit}。",
         "auto_go_auth_tips": "{count}之後自動{auth}",
         "portal_auth_mode_btn": "公共熱點認證模式",
         "enable_disguise_tips": "若此選項啟用，路由器偽裝成您目前使用的客戶端設備的同款設備。",
         "cannot_accessed_portal_url_tips": "如果無法訪問認證頁面，請嘗試禁用其它聯網方式（如有線、行動網絡）。",
         "quit_btn": "退出認證模式",
         "entry_again_tips": "如果你10s內再次進入，將直接拉取緩存，而不是重新掃描。",
-        "unable_scan_channel_tips": "跨國旅行時可能因為法規原因無法掃描到某些通道的Wi-Fi。",
         "scan_wifi_fail_detection_channel_tips": "設備正在檢測最佳通道，期間無法掃描周邊Wi-Fi，請您耐心等待檢測完成。",
-        "cannot_find_ssid": "找不到您的SSID？"
+        "cannot_find_ssid": "找不到您的SSID？",
+        "allow_auto_portal_tips": "啟用此選項後，當路由器成功連接到熱點但未連接到互聯網時，將自動進入公共熱點的登錄模式。在此模式下，部分服務將被暫停，同時DNS模式將切換為自動，這可能會將您的網絡活動信息洩露給熱點提供者（例如酒店或購物中心）。",
+        "need_enter_portal_tips": "無法透過重複的熱點訪問互聯網。嘗試進入{portal}以解決問題。請注意，此模式將暫停某些服務和自定義DNS，直到它離開，這可能會導致數據洩露給熱點提供者（例如，酒店/商場）。",
+        "entered_portal_tips": "該設備處於公共熱點的登錄模式。部分服務已暫停，可能導致數據洩露給熱點提供者（例如酒店/商場）。登錄成功後，此路由器將自動退出此模式。{exit}。",
+        "router_support_channel_tips": "檢查您的 SSID 工作頻道，此路由器支援：",
+        "channel": "{band} 信道",
+        "cannot_find_wifi": "找不到您的 Wi-Fi？",
+        "ssid_not_hidden_tips": "確保您的SSID未被隱藏。",
+        "make_sure_works_tips": "使用您的手機嘗試，確保其正常工作。",
+        "support_tips": "如需進一步協助，請聯繫我們的地址 {addr}。",
+        "allow_other_mode_change": "允許切換至其他網絡模式",
+        "no_switching": "不切換",
+        "auto_switching": "自動切換",
+        "auto_switching_without_network": "僅沒網自動切換",
+        "no_switching_tips": "啟用不切換模式後，當前Wi-Fi斷開時不連接其他已保存網絡。",
+        "auto_switching_tips": "啟用自動切換模式後，當前Wi-Fi斷開時會連接其他已保存網絡。",
+        "auto_switching_without_network_tips": "啟用僅沒網自動切換模式後，路由器非中繼管道正常聯網時，不進行網絡掃描操作，僅沒網時切換網絡，可避免通信丟包。"
     },
     "modem": {
         "title": "行動網絡",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "發件人"
+    },
+    "simo": {
+        "sim_type_label": "SIM卡類型",
+        "switch_to_label": "切換至 {slot}",
+        "vsim_switch_to_physical_tips": "您將從虛擬SIM卡（vSIM）切換到實體SIM卡。您需要將實體SIM卡插入設備插槽以連接到互聯網。請確認實體SIM卡已經插入。",
+        "physical_switch_to_vsim_tips": "您將從模組的實體SIM卡切換到虛擬SIM卡(vSIM)。您需要確認已經在simo網站上購買了數據計劃（掃描設備上的QR碼進行購買）。然後，您可以從設備中取出實體SIM卡。"
     }
 }

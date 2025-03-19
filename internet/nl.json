@@ -84,16 +84,28 @@
         "to_auth_btn": "Ga naar Login",
         "auto_portal_tips": "Het apparaat is overgegaan naar Loginmodus voor openbare hotspots om toegang te krijgen tot de Captive portal-hotspot. Na succesvolle aanmelding zal het automatisch deze modus verlaten.",
         "portal_auth_mode_btn": "Loginmodus voor openbare hotspots",
-        "allow_auto_portal_tips": "Als deze optie is ingeschakeld, zal deze router automatisch de Login Modus voor Openbare Hotspots activeren wanneer het succesvol verbonden is met een hotspot maar niet met het internet. Deze modus zal VPN's en aangepaste DNS pauzeren totdat het verlaten wordt, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum).",
         "modify_wifi_tips": "Wijzigingen in de netwerkinstellingen zullen de repeater opnieuw laten verbinden.",
         "enable_disguise_label": "Camouflage inschakelen",
         "enable_disguise_tips": "Als deze optie is ingeschakeld, vermomt de router zich als het apparaat die het clientapparaat momenteel gebruikt.",
-        "need_enter_portal_tips": "Kan niet via de gerepeatte hotspot toegang krijgen tot het internet. Probeer {portal} te betreden om het probleem op te lossen. Let op dat deze modus VPN's en aangepaste DNS zal pauzeren totdat het verlaten wordt, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum).",
-        "entered_portal_tips": "Het apparaat bevindt zich in de Login Modus voor Openbare Hotspots. VPN's en aangepaste DNS zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijv. hotel/winkelcentrum). Na succesvolle aanmelding verlaat de router automatisch deze modus. {exit}.",
         "entry_again_tips": "Als u binnen 10 seconden opnieuw invoert, wordt er direct uit de cache gehaald in plaats van opnieuw te scannen.",
-        "unable_scan_channel_tips": "Bij het reizen door het land is het mogelijk dat het scannen naar Wi-Fi op bepaalde kanalen niet toegestaan is vanwege regelgeving.",
         "scan_wifi_fail_detection_channel_tips": "Het apparaat scant momenteel naar het optimale kanaal, Wi-Fi-scannen is niet beschikbaar tijdens dit proces. Wacht alstublieft geduldig tot de scan voltooid is.",
-        "cannot_find_ssid": "Kunt u uw SSID niet vinden?"
+        "cannot_find_ssid": "Kunt u uw SSID niet vinden?",
+        "allow_auto_portal_tips": "Als deze optie is ingeschakeld, zal deze router automatisch de Inlogmodus voor Openbare Hotspots activeren wanneer hij succesvol verbinding maakt met een hotspot, maar niet met het internet. In deze modus worden sommige diensten opgeschort terwijl de DNS-modus wordt overgeschakeld naar automatisch, wat kan leiden tot het lekken van uw netwerkactiviteiteninformatie aan de hotspotprovider (bijvoorbeeld een hotel of winkelcentrum).",
+        "need_enter_portal_tips": "Kan niet via de herhaalde hotspot toegang krijgen tot het internet. Probeer {portal} in te voeren om het probleem op te lossen. Let op: deze modus zal sommige diensten en aangepaste DNS pauzeren totdat deze wordt verlaten, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijvoorbeeld hotel/winkelcentrum).",
+        "entered_portal_tips": "Het apparaat bevindt zich in de inlogmodus voor openbare hotspots. Sommige diensten zijn gepauzeerd, wat kan leiden tot datalekken naar de aanbieder van de hotspot (bijvoorbeeld hotel/winkelcentrum). Na succesvolle aanmelding verlaat deze router automatisch deze modus. {exit}.",
+        "router_support_channel_tips": "Controleer het werkingskanaal van uw SSID, deze router ondersteunt:",
+        "channel": "{band} kanalen",
+        "cannot_find_wifi": "Kan mijn Wi-Fi niet vinden?",
+        "ssid_not_hidden_tips": "Zorg ervoor dat uw SSID niet verborgen is.",
+        "make_sure_works_tips": "Probeer het met uw mobiele telefoon en zorg ervoor dat het werkt.",
+        "support_tips": "Neem voor verdere hulp contact met ons op via {addr}.",
+        "allow_other_mode_change": "Toestaan om over te schakelen naar andere netwerkmodi",
+        "no_switching": "Geen omschakeling",
+        "auto_switching": "Automatisch schakelen",
+        "auto_switching_without_network": "Automatisch overschakelen zonder netwerk",
+        "no_switching_tips": "Wanneer de modus 'Geen overschakeling' is ingeschakeld, worden geen andere opgeslagen netwerken verbonden wanneer de huidige Wi-Fi wordt verbroken.",
+        "auto_switching_tips": "Wanneer de modus voor automatisch overschakelen is ingeschakeld, worden andere opgeslagen netwerken verbonden wanneer de huidige Wi-Fi wordt verbroken.",
+        "auto_switching_without_network_tips": "Wanneer de modus Automatisch overschakelen zonder netwerk is ingeschakeld, voert de router geen netwerkscanning uit wanneer deze normaal is genetwerkt in niet-repeatermodus, en schakelt alleen over naar een ander netwerk wanneer er geen netwerk is, wat communicatiepakketverlies kan voorkomen."
     },
     "modem": {
         "title": "Mobiel",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "Afzender"
+    },
+    "simo": {
+        "sim_type_label": "SIM-kaarttype",
+        "switch_to_label": "Schakel over naar {slot}",
+        "vsim_switch_to_physical_tips": "U schakelt over van een virtuele SIM-kaart (vSIM) naar een fysieke SIM-kaart. U moet uw fysieke SIM-kaart in de sleuf van het apparaat plaatsen om verbinding te maken met het internet. Bevestig alstublieft dat de fysieke SIM-kaart is ingevoerd.",
+        "physical_switch_to_vsim_tips": "U schakelt over van fysieke SIM-kaart naar virtuele SIM-kaart (vSIM) van het module. U moet bevestigen dat u een databundel hebt gekocht op de simo-website (scan de QR-code op het apparaat om deze te kopen). Daarna kunt u de fysieke SIM-kaart uit het apparaat verwijderen."
     }
 }

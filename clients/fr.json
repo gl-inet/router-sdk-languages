@@ -73,6 +73,12 @@
         "reserved_ip_label": "Adresse IP réservée",
         "reserved_ip_tips": "Lorsque vous spécifiez une adresse IP réservée pour un client au sein du LAN, le client reçoit toujours la même adresse IP à chaque fois qu'il accède au serveur DHCP du routeur. Vous pouvez attribuer des adresses IP réservées à des ordinateurs ou des serveurs nécessitant des paramètres IP permanents.",
         "next_connect_effect_tips": "La configuration actuelle nécessite que la prochaine connexion prenne effet.",
-        "reserve_ip_only_ipv4_tips": "Seule la réservation d'adresse IPv4 de segment LAN peut être configurée."
+        "reserve_ip_only_ipv4_tips": "Seule la réservation d'adresse IPv4 de segment LAN peut être configurée.",
+        "host_guest_label": "Réseau Hôte/Invité"
+    },
+    "vpn_tunnel": {
+        "mac_using_tips": "Le VPN est connecté.",
+        "mac_not_effect_tips": "Le VPN n'est pas en vigueur.",
+        "mac_connecting_tips": "La connexion VPN est en cours."
     }
 }

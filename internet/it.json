@@ -82,18 +82,30 @@
         "auto_go_auth_tips": "Autenticazione automatica dopo {count}",
         "portal_auth_mode_btn": "Modalità di Accesso per Hotspot Pubblici",
         "going_to_auth_tips": "Reindirizzamento alla pagina di login:",
-        "need_enter_portal_tips": "Non è possibile accedere a internet tramite l'hotspot ripetuto. Prova ad entrare in {portal} per risolvere il problema. Nota che questa modalità metterà in pausa VPN e DNS personalizzati fino all'uscita, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale).",
         "cannot_accessed_portal_url_tips": "Se non riesci ad accedere alla pagina di login, prova a disabilitare altre connessioni Internet (ad esempio, ethernet, cellulare).",
         "auto_portal_tips": "Il dispositivo è entrato in Modalità Login per Hotspot Pubblici per accedere all'hotspot del Captive Portal. Dopo il login riuscito, uscirà automaticamente da questa modalità.",
         "enable_disguise_label": "Abilita Camuffamento",
-        "entered_portal_tips": "Il dispositivo è in Modalità di Accesso per Hotspot Pubblici. VPN e DNS personalizzati sono stati messi in pausa, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale). Dopo il login riuscito, questo router esce automaticamente da questa modalità. {exit}.",
         "to_auth_btn": "Vai al Login",
         "modify_wifi_tips": "Le modifiche nelle impostazioni di rete faranno riconnettere il ripetitore.",
-        "allow_auto_portal_tips": "Se questa opzione è abilitata, questo router entrerà automaticamente in Modalità Login per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. Questa modalità metterà in pausa VPN e DNS personalizzati fino all'uscita, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale).",
         "entry_again_tips": "Se si rientra entro 10 secondi, verrà estratta direttamente la cache anziché eseguire una nuova scansione.",
-        "unable_scan_channel_tips": "Quando si viaggia attraverso il paese, potrebbe non essere possibile eseguire la scansione del Wi-Fi su determinati canali a causa di motivi normativi.",
         "scan_wifi_fail_detection_channel_tips": "Il dispositivo sta attualmente cercando il canale ottimale, la scansione Wi-Fi non è disponibile durante questo processo. Si prega di attendere pazientemente il completamento della scansione.",
-        "cannot_find_ssid": "Non riesci a trovare il tuo SSID?"
+        "cannot_find_ssid": "Non riesci a trovare il tuo SSID?",
+        "allow_auto_portal_tips": "Se questa opzione è attivata, il router entrerà automaticamente in Modalità di Accesso per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. In questa modalità, alcuni servizi saranno sospesi mentre la modalità DNS verrà impostata su automatica, il che potrebbe rivelare le informazioni relative alle attività di rete al fornitore dell'hotspot (ad esempio, hotel o centro commerciale).",
+        "need_enter_portal_tips": "Non è possibile accedere a Internet tramite l'hotspot ripetuto. Provare ad accedere a {portal} per risolvere il problema. Si noti che questa modalità metterà in pausa alcuni servizi e il DNS personalizzato fino alla sua disattivazione, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale).",
+        "entered_portal_tips": "Il dispositivo è in Modalità di Accesso per Hotspot Pubblici. Alcuni servizi sono stati messi in pausa, il che potrebbe causare perdite di dati al fornitore dell'hotspot (ad esempio, hotel/centro commerciale). Dopo l'accesso riuscito, questo router uscirà automaticamente da questa modalità. {exit}.",
+        "router_support_channel_tips": "Verifica il canale di lavoro del tuo SSID, questo router supporta:",
+        "channel": "Canali {band}",
+        "cannot_find_wifi": "Non riesco a trovare il mio Wi-Fi?",
+        "ssid_not_hidden_tips": "Assicurati che il tuo SSID non sia nascosto.",
+        "make_sure_works_tips": "Prova con il tuo telefono cellulare e assicurati che funzioni.",
+        "support_tips": "Contattateci per ulteriore assistenza all'indirizzo {addr}.",
+        "allow_other_mode_change": "Consenti il passaggio ad altre modalità di rete",
+        "no_switching": "Nessun Cambio",
+        "auto_switching": "Commutazione automatica",
+        "auto_switching_without_network": "Commutazione automatica senza rete",
+        "no_switching_tips": "Quando la modalità Senza Cambio è attivata, nessuna delle altre reti salvate viene connessa quando l'attuale Wi-Fi si disconnette.",
+        "auto_switching_tips": "Quando la modalità di commutazione automatica è attivata, verranno connessi altri network salvati quando l'attuale Wi-Fi si disconnette.",
+        "auto_switching_without_network_tips": "Quando è attivata la modalità di commutazione automatica senza rete, il router non esegue la scansione della rete quando è connesso normalmente in modalità non ripetitore e cambia rete solo in assenza di connessione, il che può evitare la perdita di pacchetti di comunicazione."
     },
     "modem": {
         "title": "Cellulare",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "Mittente"
+    },
+    "simo": {
+        "vsim_switch_to_physical_tips": "Passerai da una scheda SIM virtuale (vSIM) a una scheda SIM fisica. Dovrai inserire la tua scheda SIM fisica nello slot del dispositivo per connetterti a Internet. Si prega di confermare che la scheda SIM fisica sia stata inserita.",
+        "sim_type_label": "Tipo di SIM Card",
+        "switch_to_label": "Passa allo {slot}",
+        "physical_switch_to_vsim_tips": "Passerete dalla scheda SIM fisica alla scheda SIM virtuale (vSIM) del modulo. Dovrete confermare di aver acquistato un piano dati sul sito web simo (scansionate il codice QR sul dispositivo per acquistarlo). Potrete quindi rimuovere la scheda SIM fisica dal dispositivo."
     }
 }

@@ -78,22 +78,34 @@
         "allow_auto_portal_label": "Activar automáticamente el Modo de Inicio de Sesión para Hotspots Públicos",
         "auto_portal_tips": "El dispositivo ha entrado en el Modo de Inicio de Sesión para Hotspots Públicos para acceder al hotspot del Portal Cautivo. Después de iniciar sesión correctamente, saldrá automáticamente de este modo.",
         "auto_go_auth_tips": "Automáticamente {auth} después de {count}",
-        "need_enter_portal_tips": "No se puede acceder a Internet a través del hotspot repetido. Intenta ingresar {portal} para solucionar el problema. Tenga en cuenta que este modo pausará las VPN y el DNS personalizado hasta que se desconecte, lo que podría causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial).",
         "portal_auth_mode_btn": "Modo de Inicio de Sesión para Hotspots Públicos",
         "going_to_auth_tips": "Redirigiendo a la página de inicio de sesión:",
         "modify_wifi_tips": "Los cambios en la configuración de red harán que el repetidor se reconecte.",
         "modify_wifi_title": "Modificar la configuración de red",
         "enable_disguise_label": "Activar el Camuflaje",
-        "allow_auto_portal_tips": "Si esta opción se encuentra activada, este router entrará automáticamente en el Modo de Inicio de Sesión para Hotspots Públicos cuando se conecte correctamente a un hotspot pero no tenga acceso a Internet. Dicho modo pausará las VPN y el DNS personalizado hasta que se desconecte, lo que podría causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial).",
         "enable_disguise_tips": "Si esta opción está habilitada, este router se camuflará como el mismo dispositivo que el dispositivo cliente que se encuentra utilizando actualmente.",
         "to_auth_btn": "Ir a Iniciar Sesión",
-        "entered_portal_tips": "Éste router se encuentra en el Modo de Inicio de Sesión para Hotspots Públicos. Las VPN y el DNS personalizado han sido pausados, lo que puede causar filtraciones de datos al proveedor del hotspot (por ejemplo un hotel/centro comercial). Después de iniciar sesión correctamente, saldrá automáticamente de este modo. {exit}.",
         "cannot_accessed_portal_url_tips": "Si no puede acceder a la página de inicio de sesión, intente desactivar otras conexiones a Internet (por ejemplo, ethernet, movil).",
         "quit_btn": "Salir del Modo de Inicio de Sesión",
         "entry_again_tips": "Si vuelve a ingresar dentro de los 10 segundos, se extraerá directamente del caché en lugar de volver a escanear.",
-        "unable_scan_channel_tips": "Al viajar a través del país, puede que no sea posible escanear Wi-Fi en ciertos canales debido a razones regulatorias.",
         "scan_wifi_fail_detection_channel_tips": "El dispositivo está escaneando actualmente para encontrar el canal óptimo, la búsqueda de Wi-Fi no está disponible durante este proceso. Por favor, espere pacientemente a que se complete el escaneo.",
-        "cannot_find_ssid": "¿No encuentra su SSID?"
+        "cannot_find_ssid": "¿No encuentra su SSID?",
+        "allow_auto_portal_tips": "Si esta opción está habilitada, el router entrará automáticamente en Modo de Inicio de Sesión para Puntos de Acceso Públicos cuando se conecte exitosamente a un punto de acceso pero no a Internet. En este modo, algunos servicios se suspenderán mientras que el modo DNS cambiará a automático, lo que podría revelar información de su actividad en la red al proveedor del punto de acceso (por ejemplo, hotel o centro comercial).",
+        "need_enter_portal_tips": "No se puede acceder a internet a través del punto de acceso repetido. Intente ingresar a {portal} para solucionar el problema. Tenga en cuenta que este modo pausará algunos servicios y DNS personalizados hasta que se salga del mismo, lo que podría causar filtraciones de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial).",
+        "entered_portal_tips": "El dispositivo está en Modo de Inicio de Sesión para Hotspots Públicos. Algunos servicios se han pausado, lo que puede provocar filtraciones de datos al proveedor del hotspot (por ejemplo, hotel/centro comercial). Después de un inicio de sesión exitoso, este router saldrá automáticamente de este modo. {exit}.",
+        "router_support_channel_tips": "Verifique el canal de trabajo de su SSID, este router admite:",
+        "channel": "Canales {band}",
+        "cannot_find_wifi": "¿No puede encontrar mi Wi-Fi?",
+        "ssid_not_hidden_tips": "Asegúrese de que su SSID no esté oculto.",
+        "make_sure_works_tips": "Pruebe con su teléfono móvil y asegúrese de que funciona.",
+        "support_tips": "Póngase en contacto con nosotros para obtener más ayuda en {addr}.",
+        "allow_other_mode_change": "Permitir el cambio al modo de otras redes",
+        "no_switching": "Sin alternancia",
+        "auto_switching": "Cambio Automático",
+        "no_switching_tips": "Cuando el modo Sin Cambio está activado, no se conectan otras redes guardadas cuando el Wi-Fi actual se desconecta.",
+        "auto_switching_without_network": "Cambio automático sin red",
+        "auto_switching_tips": "Cuando el modo de cambio automático está activado, se conectarán otras redes guardadas cuando la Wi-Fi actual se desconecte.",
+        "auto_switching_without_network_tips": "Cuando el modo de cambio automático sin red está activado, el router no realiza escaneo de red cuando está conectado normalmente en modo no repetidor, y cambia de red solo cuando no hay conexión, lo que puede evitar la pérdida de paquetes de comunicación."
     },
     "modem": {
         "title": "Móvil",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "Remitente"
+    },
+    "simo": {
+        "sim_type_label": "Tipo de tarjeta SIM",
+        "switch_to_label": "Cambiar a {slot}",
+        "vsim_switch_to_physical_tips": "Cambiará de una tarjeta SIM virtual (vSIM) a una tarjeta SIM física. Necesitará insertar su tarjeta SIM física en la ranura del dispositivo para conectarse a Internet. Por favor, confirme que la tarjeta SIM física ha sido insertada.",
+        "physical_switch_to_vsim_tips": "Usted cambiará de la tarjeta SIM física a la tarjeta SIM virtual (vSIM) del módulo. Deberá confirmar que ha comprado un plan de datos en el sitio web de simo (escanee el código QR en el dispositivo para comprarlo). Luego podrá retirar la tarjeta SIM física del dispositivo."
     }
 }

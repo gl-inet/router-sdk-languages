@@ -10,7 +10,8 @@
         "dns_server": "DNS-server",
         "invalid_parameter": "Het door u ingevoerde formaat is onjuist!",
         "dns_server_empty": "Voer minimaal één DNS-server in",
-        "native_tips": "Deze optie is alleen beschikbaar voor privénetwerken; gastnetwerken gebruiken altijd de NAT6-modus."
+        "native_tips": "Deze optie is alleen beschikbaar voor privénetwerken; gastnetwerken gebruiken altijd de NAT6-modus.",
+        "use_tip": "Wanneer IPv6 is ingeschakeld, krijgen WAN-interfaces zoals Ethernet hun IPv6-adressen via DHCPv6. U kunt ook handmatig het IPv6-adres wijzigen op de Ethernet-instellingenpagina. Sommige functies ({features}) ondersteunen nog geen IPv6."
     },
     "menu_ipv6": "IPv6"
 }

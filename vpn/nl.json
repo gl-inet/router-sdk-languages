@@ -296,7 +296,12 @@
         "wg_guide_disabled_tips": "OpenVPN is verbonden, schakel OpenVPN uit als u WireGuard VPN wilt gebruiken.",
         "manual_upload_tips": "Bezoek {page} om VPN-serviceproviders te bekijken die compatibel zijn met {type} en leer over de voordelen van het gebruik van een VPN.",
         "on_router_label": "VPN op Router",
-        "own_services_use_vpn_label": "Gebruik van VPN voor privédiensten"
+        "own_services_use_vpn_label": "Gebruik van VPN voor privédiensten",
+        "credential_pwd_label": "Wachtwoord voor inloggegevens",
+        "ovpn_nordvpn_account_label": "Servicegegevens van NordVPN-account",
+        "ovpn_nordvpn_account_tips": "Om het succesvol gebruik van de VPN te garanderen, voer uw {label} in (Opmerking: {not} het inlogaccount e-mail/wachtwoord).",
+        "sevice_credential_label": "Service inloggegevens",
+        "ovpn_nordvpn_not_label": "Niet"
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
@@ -416,14 +421,24 @@
         "subcription_url_tips": "De domeinnaam of het IP in de URL wordt automatisch elke dag bijgewerkt.",
         "device_count_label": "{count} apparaat|{count} apparaten",
         "method_count_label": "{count} methode|{count} methoden",
-        "custom_tunnel_title": "Aanpassen VPN-tunnel"
+        "custom_tunnel_title": "Aanpassen VPN-tunnel",
+        "stop_title": "Stop VPN-configuratie",
+        "default_tunnel_tip": "Onveranderbare ingebouwde tunnel."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
         "starting_label": "De {type} server start op...",
         "connected_dev_label": "Aangesloten apparaten",
         "on_label": "De {type} server is momenteel AAN.",
-        "off_label": "De {type} server is momenteel UIT."
+        "off_label": "De {type} server is momenteel UIT.",
+        "added_route_rule_title": "Voeg nieuwe route regel toe",
+        "export_addr_tips": "U kunt een IP-adres of domeinnaam invoeren. Adres is het {label} adres in de VPN-configuratie.",
+        "modify_route_rule_title": "Wijzig route regel",
+        "enable_ipv6_btn": "IPv6 ingeschakeld",
+        "route_rule_dest_already_exists_msg": "U kunt geen bestemmingsadres invoeren dat al bestaat.",
+        "route_rules_title": "Route regels",
+        "enable_ipv6_tips": "Als IPv6 niet is ingeschakeld, zal het IPv6-adres niet van kracht worden. Als u een IPv6-adres wilt gebruiken, schakel dan {todo} in op uw router.",
+        "want_use_ipv6_tips": "Als u een IPv6-adres wilt gebruiken, schakel dan {todo} in op uw router."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Veel routeringsfuncties zullen niet beschikbaar zijn.",

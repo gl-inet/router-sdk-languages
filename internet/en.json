@@ -79,21 +79,33 @@
         "modify_wifi_title": "Modify Network Settings",
         "enable_disguise_label": "Enable Camouflage",
         "enable_disguise_tips": "If this option is enabled, this router camouflage itself as the same device as the client device you are now using.",
-        "allow_auto_portal_tips": "If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. This mode will pause VPNs and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
         "allow_auto_portal_label": "Auto-Enable Login Mode for Public Hotspots",
         "auto_portal_tips": "The device has entered Login Mode for Public Hotspots to access the Captive Portal's hotspot. After successful login, it will automatically leave this mode.",
         "to_auth_btn": "Go to Login",
-        "entered_portal_tips": "The device is in Login Mode for Public Hotspots. VPNs and custom DNS has been paused, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall). After successful login, this router automatically quit this mode. {exit}.",
         "auto_go_auth_tips": "Automatically {auth} after {count}",
-        "need_enter_portal_tips": "Can’t access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause VPNs and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
         "portal_auth_mode_btn": "Login Mode for Public Hotspots",
         "going_to_auth_tips": "Redirecting to the login page:",
         "cannot_accessed_portal_url_tips": "If you cannot access the login page, try disabling other Internet connections (e.g., ethernet, cellular).",
         "quit_btn": "Quit Login Mode",
         "entry_again_tips": "If you re-enter within 10s, it will pull the cache directly instead of rescanning.",
-        "unable_scan_channel_tips": "When travelling cross-country it may not be possible to scan for Wi-Fi on certain channels due to regulatory reasons.",
         "scan_wifi_fail_detection_channel_tips": "The device is currently scanning for the optimal channel. Wi-Fi scanning is unavailable during this process. Please wait patiently for the scan to complete.",
-        "cannot_find_ssid": "Cannot Find Your SSID?"
+        "cannot_find_ssid": "Cannot Find Your SSID?",
+        "allow_auto_portal_tips": "If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. In this mode, some services will be suspended while the DNS mode will be switched to automatic, which may leak your network activity information to the hotspot provider (e.g. hotel or shopping mall).",
+        "need_enter_portal_tips": "Can't access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause some services and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
+        "entered_portal_tips": "The device is in Login Mode for Public Hotspots. Some services have been paused, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall). After successful login, this router automatically quit this mode. {exit}.",
+        "router_support_channel_tips": "Check your SSID working channel, this router support:",
+        "channel": "{band} Channels",
+        "cannot_find_wifi": "Cannot find your Wi-Fi?",
+        "ssid_not_hidden_tips": "Ensure your SSID is not hidden.",
+        "make_sure_works_tips": "Try with your mobile phone and make sure it works.",
+        "support_tips": "Reach us for the further help at {addr}.",
+        "allow_other_mode_change": "Allow Switching to Other Networks Mode",
+        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router does not carry out network scanning when it is normally networked in non-repeater mode, and switches the network only when there is no network, which can avoid communication packet loss.",
+        "no_switching": "No Switching",
+        "auto_switching": "Auto Switching",
+        "auto_switching_without_network": "Auto-switching Without Network",
+        "no_switching_tips": "When No Switching mode is enabled, no other saved networks are connected when the current Wi-Fi is disconnected.",
+        "auto_switching_tips": "When Auto Switching mode is enabled, other saved networks will be connected when the current Wi-Fi is disconnected."
     },
     "modem": {
         "title": "Cellular",
@@ -493,5 +505,11 @@
     },
     "sim": {
         "sender_label": "Sender"
+    },
+    "simo": {
+        "switch_to_label": "Switch to {slot}",
+        "vsim_switch_to_physical_tips": "You will switch from a virtual SIM card(vSIM) to physical SIM card. You will need to insert your physical SIM card into the device slot to connect to the Internet. Please confirm that the physical SIM card has been inserted.",
+        "sim_type_label": "SIM Card Type",
+        "physical_switch_to_vsim_tips": "You will switch from physical SIM card to virtual SIM card(vSIM) of the module. You will need to confirm that you have purchased a data plan on the simo website(Scan the QR code on the device to purchase it). You can then remove the physical SIM card from the device."
     }
 }

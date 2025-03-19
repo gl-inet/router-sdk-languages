@@ -72,7 +72,13 @@
         "reserved_ip_tips": "クライアントにLAN内で予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに同じIPアドレスを受け取ります。永続的なIP設定が必要なコンピューターやサーバーに予約IPアドレスを割り当てることができます。",
         "reserved_ip_label": "予約済みIP",
         "next_connect_effect_tips": "現在の設定は、次の接続が有効になるまで適用されます。",
-        "reserve_ip_only_ipv4_tips": "IPv4アドレスの予約はLANセグメントのみで設定できます。"
+        "reserve_ip_only_ipv4_tips": "IPv4アドレスの予約はLANセグメントのみで設定できます。",
+        "host_guest_label": "ホスト/ゲストネットワーク"
     },
-    "menu_clients": "クライアント"
+    "menu_clients": "クライアント",
+    "vpn_tunnel": {
+        "mac_using_tips": "VPNが接続されました。",
+        "mac_not_effect_tips": "VPNは有効ではありません。",
+        "mac_connecting_tips": "VPNが接続中です。"
+    }
 }
