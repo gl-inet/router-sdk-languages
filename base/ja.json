@@ -185,9 +185,9 @@
         "mac_replacement_tips": "指定した更新時刻にMACは更新されますが、その時点でMACがまだ使用中の場合は、次にネットワークに再接続した後に更新されます。",
         "duplex_full_label": "{speed} Mbps フルデュプレックス",
         "duplex_half_label": "{speed} Mbps ハーフデュプレックス",
-        "auto_update_mac_strategy_label": "MACアドレス自動更新戦略",
+        "auto_update_mac_strategy_label": "MACアドレス自動更新方法",
         "mac_replacement_label": "MACアドレス変更周期",
-        "address_label": "住所",
+        "address_label": "アドレス",
         "mtu_common_tip": "ご利用状況に応じてMTU値を設定してください。設定に誤りがあると、インターネット接続が切断される可能性があります。"
     },
     "date": {
@@ -216,7 +216,7 @@
         "select_or_drag": "アップロードするファイルを選択するか、こちらにドラッグしてください",
         "file_include": "ファイルタイプ",
         "success": "アップロード成功",
-        "reupload": "ファイルを再アップロードする",
+        "reupload": "ファイルを再アップロード",
         "firmware_format_error": "ファームウェアのフォーマットが不正です！",
         "error": "ファイルのアップロードに失敗しました。",
         "format_error": "データフォーマットエラー！",
@@ -228,13 +228,13 @@
         "feature_unusable_tips": "{feature}が有効になっているため、この機能は動作しません。",
         "no_internet_base_tips": "インターネット環境を確認して、再試行してください。",
         "limit_tips": "データは{count}エントリを超えてはなりません。",
-        "lost_account_btn": "アカウントをなくしましたか？",
+        "lost_account_btn": "アカウントが見つかりませんか？",
         "forget_password_btn": "パスワードを忘れましたか？"
     },
     "err": {
         "network_not_reachable_msg": "ネットワークに接続できません",
         "abnormal_operation_msg": "操作に例外が発生しました",
-        "param_illegal_msg": "不正なパラメータです、操作に失敗しました。"
+        "param_illegal_msg": "不正なパラメータのため、操作に失敗しました。"
     },
     "subscription": {
         "url_label": "サブスクリプションURL",
@@ -243,7 +243,7 @@
     },
     "validate": {
         "not_allowed_only_spaces": "スペースのみの使用は許可されていません。",
-        "only_allow_letter_num_start_tip": "開始時には数字または文字のみが許可されます。",
+        "only_allow_letter_num_start_tip": "開始時の入力は英数字のみが許可されています。",
         "invalid_line_label": "無効な行番号：{num}",
         "only_allowd_input_tips": "入力できるのは{limit}までです。",
         "only_num_letter_symbol_tips": "文字、数字、および記号{symbol}のみが許可されています。",
