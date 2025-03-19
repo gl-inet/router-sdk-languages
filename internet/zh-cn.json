@@ -100,12 +100,12 @@
         "make_sure_works_tips": "使用您的手机尝试，确保它能正常工作。",
         "support_tips": "如需进一步帮助，请联系我们：{addr}。",
         "allow_other_mode_change": "允许切换到其他网络模式",
-        "no_switching": "无需切换",
+        "no_switching": "不切换",
         "auto_switching": "自动切换",
-        "auto_switching_without_network": "网络断开时自动切换",
-        "no_switching_tips": "启用“无切换模式”时，当前Wi-Fi断开连接后，不会连接其他已保存的网络。",
-        "auto_switching_tips": "启用自动切换模式后，当前Wi-Fi断开连接时，将会连接到其他已保存的网络。",
-        "auto_switching_without_network_tips": "启用无网络自动切换模式时，路由器在非中继模式下正常联网时不进行网络扫描，仅在无网络时切换网络，这可以避免通信数据包丢失。"
+        "auto_switching_without_network": "仅没网自动切换",
+        "no_switching_tips": "启用不切换模式后，当前 Wi-Fi 断开时不连接其他已保存网络。",
+        "auto_switching_tips": "启用自动切换模式后，当前 Wi-Fi 断开时会连接其他已保存网络。",
+        "auto_switching_without_network_tips": "启用仅没网自动切换模式后，路由器非中继方式正常联网时，不进行网络扫描操作，仅没网时切换网络，可避免通信丢包。"
     },
     "modem": {
         "title": "蜂窝网络",
