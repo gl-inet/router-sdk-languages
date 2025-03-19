@@ -98,7 +98,14 @@
         "cannot_find_wifi": "Cannot find your Wi-Fi?",
         "ssid_not_hidden_tips": "Ensure your SSID is not hidden.",
         "make_sure_works_tips": "Try with your mobile phone and make sure it works.",
-        "support_tips": "Reach us for the further help at {addr}."
+        "support_tips": "Reach us for the further help at {addr}.",
+        "allow_other_mode_change": "Allow Switching to Other Networks Mode",
+        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router does not carry out network scanning when it is normally networked in non-repeater mode, and switches the network only when there is no network, which can avoid communication packet loss.",
+        "no_switching": "No Switching",
+        "auto_switching": "Auto Switching",
+        "auto_switching_without_network": "Auto-switching Without Network",
+        "no_switching_tips": "When No Switching mode is enabled, no other saved networks are connected when the current Wi-Fi is disconnected.",
+        "auto_switching_tips": "When Auto Switching mode is enabled, other saved networks will be connected when the current Wi-Fi is disconnected."
     },
     "modem": {
         "title": "Cellular",
