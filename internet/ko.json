@@ -98,7 +98,14 @@
         "cannot_find_wifi": "내 Wi-Fi를 찾을 수 없습니다?",
         "ssid_not_hidden_tips": "SSID가 숨겨져 있지 않은지 확인하십시오.",
         "make_sure_works_tips": "모바일 폰으로 시도해 보시고 정상 작동하는지 확인해 주세요.",
-        "support_tips": "문의사항이 있으시면 {addr}로 연락주시기 바랍니다."
+        "support_tips": "문의사항이 있으시면 {addr}로 연락주시기 바랍니다.",
+        "allow_other_mode_change": "다른 네트워크 모드로 전환 허용",
+        "no_switching": "전환 없음",
+        "auto_switching": "自动切换",
+        "auto_switching_without_network": "네트워크 없이 자동 전환",
+        "no_switching_tips": "전환 모드가 비활성화되면 현재 Wi-Fi 연결이 끊어졌을 때 다른 저장된 네트워크에 연결되지 않습니다.",
+        "auto_switching_tips": "자동 전환 모드가 활성화되면 현재 Wi-Fi 연결이 끊어지면 다른 저장된 네트워크에 연결됩니다.",
+        "auto_switching_without_network_tips": "네트워크 없이 자동 전환 모드가 활성화되면, 라우터는 비-리피터 모드에서 정상적으로 네트워크에 연결되어 있을 때 네트워크 스캔을 수행하지 않으며, 네트워크가 없을 때만 네트워크를 전환하여 통신 패킷 손실을 방지할 수 있습니다."
     },
     "modem": {
         "title": "셀룰러",
