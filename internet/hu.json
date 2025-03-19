@@ -275,7 +275,14 @@
         "cannot_find_wifi": "Nem találja a Wi-Fi hálózatot?",
         "ssid_not_hidden_tips": "Győződjön meg róla, hogy az SSID nem rejtett.",
         "make_sure_works_tips": "Mobiltelefonjával próbálja ki, és győződjön meg róla, hogy működik.",
-        "support_tips": "Forduljon hozzánk további segítségért a {addr} címen."
+        "support_tips": "Forduljon hozzánk további segítségért a {addr} címen.",
+        "allow_other_mode_change": "Engedélyezze az átváltást más hálózati módokra",
+        "no_switching": "Nincs váltás",
+        "auto_switching": "Automatikus váltás",
+        "no_switching_tips": "Amikor a Váltás nélküli mód engedélyezve van, a jelenlegi Wi-Fi kapcsolat megszakadása esetén nem csatlakozik más mentett hálózatokhoz.",
+        "auto_switching_without_network": "Hálózat nélküli automatikus váltás",
+        "auto_switching_tips": "Amikor az automatikus váltási mód engedélyezett, a jelenlegi Wi-Fi kapcsolat megszakadása esetén más mentett hálózatokhoz csatlakozik a rendszer.",
+        "auto_switching_without_network_tips": "Amikor az Automatikus váltás Hálózat nélküli módban engedélyezve van, a router nem hajt végre hálózati beolvasást, amikor normál hálózati módban van és nem ismétlő módban, és csak akkor vált hálózatot, ha nincs hálózat, ami elkerülheti a kommunikációs csomagvesztést."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
