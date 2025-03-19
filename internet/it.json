@@ -98,7 +98,14 @@
         "cannot_find_wifi": "Non riesco a trovare il mio Wi-Fi?",
         "ssid_not_hidden_tips": "Assicurati che il tuo SSID non sia nascosto.",
         "make_sure_works_tips": "Prova con il tuo telefono cellulare e assicurati che funzioni.",
-        "support_tips": "Contattateci per ulteriore assistenza all'indirizzo {addr}."
+        "support_tips": "Contattateci per ulteriore assistenza all'indirizzo {addr}.",
+        "allow_other_mode_change": "Consenti il passaggio ad altre modalità di rete",
+        "no_switching": "Nessun Cambio",
+        "auto_switching": "Commutazione automatica",
+        "auto_switching_without_network": "Commutazione automatica senza rete",
+        "no_switching_tips": "Quando la modalità Senza Cambio è attivata, nessuna delle altre reti salvate viene connessa quando l'attuale Wi-Fi si disconnette.",
+        "auto_switching_tips": "Quando la modalità di commutazione automatica è attivata, verranno connessi altri network salvati quando l'attuale Wi-Fi si disconnette.",
+        "auto_switching_without_network_tips": "Quando è attivata la modalità di commutazione automatica senza rete, il router non esegue la scansione della rete quando è connesso normalmente in modalità non ripetitore e cambia rete solo in assenza di connessione, il che può evitare la perdita di pacchetti di comunicazione."
     },
     "modem": {
         "title": "Cellulare",
