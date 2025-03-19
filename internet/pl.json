@@ -63,7 +63,14 @@
         "cannot_find_wifi": "Nie można znaleźć mojego Wi-Fi?",
         "ssid_not_hidden_tips": "Upewnij się, że twoje SSID nie jest ukryte.",
         "make_sure_works_tips": "Spróbuj użyć swojego telefonu komórkowego i upewnij się, że działa.",
-        "support_tips": "Skontaktuj się z nami, aby uzyskać dalszą pomoc pod adresem {addr}."
+        "support_tips": "Skontaktuj się z nami, aby uzyskać dalszą pomoc pod adresem {addr}.",
+        "allow_other_mode_change": "Zezwalaj na przełączanie do trybu innych sieci",
+        "no_switching": "Brak przełączania",
+        "auto_switching": "Automatyczne przełączanie",
+        "auto_switching_without_network": "Automatyczne przełączanie bez sieci",
+        "no_switching_tips": "Gdy włączony jest tryb Bez przełączania, żadne inne zapisane sieci nie są łączone, gdy obecne Wi-Fi zostanie rozłączone.",
+        "auto_switching_tips": "Gdy włączony jest tryb automatycznego przełączania, inne zapisane sieci zostaną połączone, gdy aktualne Wi-Fi zostanie rozłączone.",
+        "auto_switching_without_network_tips": "Gdy włączony jest tryb automatycznego przełączania bez sieci, router nie wykonuje skanowania sieci, gdy jest normalnie podłączony w trybie innym niż repeater, i przełącza sieć tylko wtedy, gdy nie ma dostępu do sieci, co może zapobiec utracie pakietów komunikacyjnych."
     },
     "cable": {
         "title": "Ethernet",
