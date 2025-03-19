@@ -102,10 +102,10 @@
         "allow_other_mode_change": "允許切換至其他網絡模式",
         "no_switching": "不切換",
         "auto_switching": "自動切換",
-        "auto_switching_without_network": "網絡無連接時自動切換",
-        "no_switching_tips": "當啟用「無切換模式」時，當前Wi-Fi斷開連接後，將不會連接其他已保存的網絡。",
-        "auto_switching_tips": "當啟用自動切換模式時，當前Wi-Fi斷開連接後，將會連接到其他已保存的網絡。",
-        "auto_switching_without_network_tips": "當啟用無網絡自動切換模式時，路由器在非中繼模式下正常聯網時不進行網絡掃描，並且僅在無網絡時切換網絡，這樣可以避免通信封包丟失。"
+        "auto_switching_without_network": "僅沒網自動切換",
+        "no_switching_tips": "啟用不切換模式後，當前Wi-Fi斷開時不連接其他已保存網絡。",
+        "auto_switching_tips": "啟用自動切換模式後，當前Wi-Fi斷開時會連接其他已保存網絡。",
+        "auto_switching_without_network_tips": "啟用僅沒網自動切換模式後，路由器非中繼管道正常聯網時，不進行網絡掃描操作，僅沒網時切換網絡，可避免通信丟包。"
     },
     "modem": {
         "title": "行動網絡",
