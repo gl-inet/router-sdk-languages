@@ -98,7 +98,14 @@
         "cannot_find_wifi": "Impossible de trouver mon Wi-Fi ?",
         "ssid_not_hidden_tips": "Assurez-vous que votre SSID n'est pas caché.",
         "make_sure_works_tips": "Essayez avec votre téléphone portable et assurez-vous que cela fonctionne.",
-        "support_tips": "Contactez-nous pour obtenir de l'aide supplémentaire à {addr}."
+        "support_tips": "Contactez-nous pour obtenir de l'aide supplémentaire à {addr}.",
+        "allow_other_mode_change": "Autoriser le basculement vers d'autres modes de réseau",
+        "no_switching": "Pas de commutation",
+        "auto_switching": "Commutation automatique",
+        "no_switching_tips": "Lorsque le mode Sans basculement est activé, aucun autre réseau enregistré n'est connecté lorsque le Wi-Fi actuel est déconnecté.",
+        "auto_switching_without_network": "Commutation automatique sans réseau",
+        "auto_switching_tips": "Lorsque le mode de basculement automatique est activé, d'autres réseaux enregistrés seront connectés lorsque le Wi-Fi actuel est déconnecté.",
+        "auto_switching_without_network_tips": "Lorsque le mode de basculement automatique sans réseau est activé, le routeur n'effectue pas de balayage réseau lorsqu'il est normalement connecté en mode non répéteur, et ne bascule le réseau que lorsqu'il n'y a pas de réseau, ce qui peut éviter la perte de paquets de communication."
     },
     "modem": {
         "title": "Cellulaire",
