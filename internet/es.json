@@ -98,7 +98,14 @@
         "cannot_find_wifi": "¿No puede encontrar mi Wi-Fi?",
         "ssid_not_hidden_tips": "Asegúrese de que su SSID no esté oculto.",
         "make_sure_works_tips": "Pruebe con su teléfono móvil y asegúrese de que funciona.",
-        "support_tips": "Póngase en contacto con nosotros para obtener más ayuda en {addr}."
+        "support_tips": "Póngase en contacto con nosotros para obtener más ayuda en {addr}.",
+        "allow_other_mode_change": "Permitir el cambio al modo de otras redes",
+        "no_switching": "Sin alternancia",
+        "auto_switching": "Cambio Automático",
+        "no_switching_tips": "Cuando el modo Sin Cambio está activado, no se conectan otras redes guardadas cuando el Wi-Fi actual se desconecta.",
+        "auto_switching_without_network": "Cambio automático sin red",
+        "auto_switching_tips": "Cuando el modo de cambio automático está activado, se conectarán otras redes guardadas cuando la Wi-Fi actual se desconecte.",
+        "auto_switching_without_network_tips": "Cuando el modo de cambio automático sin red está activado, el router no realiza escaneo de red cuando está conectado normalmente en modo no repetidor, y cambia de red solo cuando no hay conexión, lo que puede evitar la pérdida de paquetes de comunicación."
     },
     "modem": {
         "title": "Móvil",
