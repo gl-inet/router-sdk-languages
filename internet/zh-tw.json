@@ -98,7 +98,14 @@
         "cannot_find_wifi": "找不到您的 Wi-Fi？",
         "ssid_not_hidden_tips": "確保您的SSID未被隱藏。",
         "make_sure_works_tips": "使用您的手機嘗試，確保其正常工作。",
-        "support_tips": "如需進一步協助，請聯繫我們的地址 {addr}。"
+        "support_tips": "如需進一步協助，請聯繫我們的地址 {addr}。",
+        "allow_other_mode_change": "允許切換至其他網絡模式",
+        "no_switching": "不切換",
+        "auto_switching": "自動切換",
+        "auto_switching_without_network": "網絡無連接時自動切換",
+        "no_switching_tips": "當啟用「無切換模式」時，當前Wi-Fi斷開連接後，將不會連接其他已保存的網絡。",
+        "auto_switching_tips": "當啟用自動切換模式時，當前Wi-Fi斷開連接後，將會連接到其他已保存的網絡。",
+        "auto_switching_without_network_tips": "當啟用無網絡自動切換模式時，路由器在非中繼模式下正常聯網時不進行網絡掃描，並且僅在無網絡時切換網絡，這樣可以避免通信封包丟失。"
     },
     "modem": {
         "title": "行動網絡",
