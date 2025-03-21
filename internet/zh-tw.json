@@ -105,7 +105,8 @@
         "auto_switching_without_network": "僅沒網自動切換",
         "no_switching_tips": "啟用不切換模式後，當前Wi-Fi斷開時不連接其他已保存網絡。",
         "auto_switching_tips": "啟用自動切換模式後，當前Wi-Fi斷開時會連接其他已保存網絡。",
-        "auto_switching_without_network_tips": "啟用僅沒網自動切換模式後，路由器非中繼管道正常聯網時，不進行網絡掃描操作，僅沒網時切換網絡，可避免通信丟包。"
+        "auto_switching_without_network_tips": "啟用僅沒網自動切換模式後，路由器非中繼管道正常聯網時，不進行網絡掃描操作，僅沒網時切換網絡，可避免通信丟包。",
+        "repeater_not_auto_scan_tips": "{mode}模式目前已啟用。路由器在非中繼模式下成功連接到互聯網，中繼器將不會自動執行網絡掃描。"
     },
     "modem": {
         "title": "行動網絡",
