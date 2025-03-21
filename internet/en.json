@@ -100,7 +100,7 @@
         "make_sure_works_tips": "Try with your mobile phone and make sure it works.",
         "support_tips": "Reach us for the further help at {addr}.",
         "allow_other_mode_change": "Allow Switching to Other Networks Mode",
-        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router does not carry out network scanning when it is normally networked in non-repeater mode, and switches the network only when there is no network, which can avoid communication packet loss.",
+        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router will not perform automatic network scanning when it successfully connects to the Internet in non-repeater mode. Network switching will only occur when the router is disconnected from the network, which can prevent packet loss in communication.",
         "no_switching": "No Switching",
         "auto_switching": "Auto Switching",
         "auto_switching_without_network": "Auto-switching Without Network",
