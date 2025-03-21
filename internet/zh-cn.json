@@ -105,7 +105,8 @@
         "auto_switching_without_network": "仅没网自动切换",
         "no_switching_tips": "启用不切换模式后，当前 Wi-Fi 断开时不连接其他已保存网络。",
         "auto_switching_tips": "启用自动切换模式后，当前 Wi-Fi 断开时会连接其他已保存网络。",
-        "auto_switching_without_network_tips": "启用仅没网自动切换模式后，路由器非中继方式正常联网时，不进行网络扫描操作，仅没网时切换网络，可避免通信丢包。"
+        "auto_switching_without_network_tips": "启用仅没网自动切换模式后，路由器非中继方式正常联网时，不进行网络扫描操作，仅没网时切换网络，可避免通信丢包。",
+        "repeater_not_auto_scan_tips": "当前已启用无网络自动切换模式。当路由器在非中继模式下成功连接到互联网时，中继器将不会自动执行网络扫描。"
     },
     "modem": {
         "title": "蜂窝网络",
