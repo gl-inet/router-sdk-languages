@@ -27,7 +27,7 @@
         "using_tips": "{silkprint} ステータス：{port}として使用中。{changePort}",
         "use_as_port_btn": "{silkprint}を{port}に変更する",
         "revert_as_lan_tips": "LANポート（デフォルト）に{silkprint}を復元してもよろしいですか？",
-        "vlan_id_conflict_tips": "Ethernet1のVLAN IDがEthernet2のVLAN IDと衝突しています。"
+        "vlan_id_conflict_tips": "Ethernet1のVLAN IDとEthernet2のVLAN IDが衝突しています。"
     },
     "tethering": {
         "title": "テザリング",
@@ -77,8 +77,8 @@
         "connet_dfs_tips": "ルーターがDFSチャネルのWiFiをリピートする場合、このWiFiが利用可能であれば、選択されたDFSチャネルを使用します。ただし、このWiFiが利用不可能な場合は、チャネルが切り替わり、WiFiを介して接続されたクライアントの接続が一時的に切断され、一部のデバイスは感知せずに再接続され、一部は手動で再接続する必要があります。",
         "quit_btn": "ログインモードを終了",
         "auto_go_auth_tips": "自動で{auth}する {count}",
-        "enable_disguise_label": "カモフラージュを有効にする",
-        "allow_auto_portal_label": "公共ホットスポットのログインモードを自動有効化",
+        "enable_disguise_label": "カモフラージュを有効化",
+        "allow_auto_portal_label": "公共ホットスポットのログインモードを自動的に有効化",
         "modify_wifi_title": "ネットワーク設定を変更する",
         "cannot_accessed_portal_url_tips": "ログインページにアクセスできない場合は、他のインターネット接続（例：イーサネット、セルラーネットワーク）を無効にしてみてください。",
         "auto_portal_tips": "デバイスはキャプティブポータルのホットスポットにアクセスするために公共ホットスポットのログインモードに入りました。ログインに成功すると、自動的にこのモードを離れます。",
