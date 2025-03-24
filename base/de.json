@@ -239,11 +239,11 @@
     "subscription": {
         "url_label": "Abonnement URL",
         "manual_label": "Anleitung",
-        "url_err_tips": "Bitte geben Sie einen korrekten Link ein."
+        "url_err_tips": "Bitte geben Sie die richtige URL ein."
     },
     "validate": {
-        "not_allowed_only_spaces": "Die Verwendung von nur Leerzeichen ist nicht erlaubt.",
-        "only_allow_letter_num_start_tip": "Nur Zahlen oder Buchstaben dürfen am Anfang stehen.",
+        "not_allowed_only_spaces": "Es ist nicht erlaubt, nur Leerzeichen zu verwenden.",
+        "only_allow_letter_num_start_tip": "Es dürfen nur Zahlen oder Buchstaben am Anfang stehen.",
         "only_letters_num_allowd_tips": "Nur Buchstaben und Zahlen sind erlaubt.",
         "invalid_line_label": "Ungültige Zeilennummer: {num}",
         "only_allowd_input_tips": "Es dürfen nur {limit} Zeichen eingegeben werden.",
