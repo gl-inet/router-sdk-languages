@@ -100,12 +100,12 @@
         "make_sure_works_tips": "Try with your mobile phone and make sure it works.",
         "support_tips": "Reach us for the further help at {addr}.",
         "allow_other_mode_change": "Allow Switching to Other Networks Mode",
-        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router will not perform automatic network scanning when it successfully connects to the Internet in non-repeater mode. Network switching will only occur when the router is disconnected from the network, which can prevent packet loss in communication.",
+        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss.",
         "no_switching": "No Switching",
         "auto_switching": "Auto Switching",
         "auto_switching_without_network": "Auto-switching Without Network",
-        "no_switching_tips": "When No Switching mode is enabled, no other saved networks are connected when the current Wi-Fi is disconnected.",
-        "auto_switching_tips": "When Auto Switching mode is enabled, other saved networks will be connected when the current Wi-Fi is disconnected.",
+        "no_switching_tips": "When No Switching mode is enabled, other saved networks will not be automatically connected when the current Wi-Fi is disconnected.",
+        "auto_switching_tips": "When Auto Switching mode is enabled, the router will try to connect to other saved networks when the current Wi-Fi is disconnected.",
         "repeater_not_auto_scan_tips": "The {mode} mode is currently enabled. and the router successfully connects to the internet in non-repeater mode, the repeater will not automatically perform network scanning."
     },
     "modem": {
