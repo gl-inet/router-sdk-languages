@@ -16,7 +16,7 @@
         "modify": "Anpassen",
         "cancel": "Abbrechen",
         "apply": "Anwenden",
-        "install": "installieren",
+        "install": "Installieren",
         "connect": "Verbinden",
         "disconnect": "Trennen",
         "abort": "Abbruch",
@@ -118,8 +118,8 @@
         "search": "Suche",
         "scan_btn": "Scannen",
         "revoke_btn": "Widerrufen",
-        "manual_add_mac_btn": "Manuelles Hinzufügen eines Geräts",
-        "got_it": "Verstanden.",
+        "manual_add_mac_btn": "Gerät manuell hinzufügen",
+        "got_it": "Verstanden",
         "attention_title": "Achtung",
         "remove_btn": "Entfernen"
     },
@@ -139,7 +139,7 @@
         "send_success_tips": "Erfolgreich gesendet!",
         "sign_up_success": "Erfolgreich registriert!",
         "successfully_badge_tips": "Erfolgreich!",
-        "lack_of_memory_tips": "Aufgrund von Speichermangel, wenn Sie die Firmware aktualisieren möchten, können Sie versuchen, das Gerät neu zu starten."
+        "lack_of_memory_tips": "Geringer Speicherplatz verfügbar. Um die Firmware zu aktualisieren, können Sie versuchen das Gerät neu zu starten."
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",
@@ -188,7 +188,7 @@
         "duplex_full_label": "{speed} MBit/s Voll-Duplex",
         "mode_label": "{tab} Modus",
         "address_label": "Adresse",
-        "mtu_common_tip": "Legen Sie den MTU-Wert gemäß Ihrem Nutzungsszenario fest. Falsche Einstellungen können zu einer Internetunterbrechung führen."
+        "mtu_common_tip": "Legen Sie den MTU-Wert gemäß Ihrer Anwendung fest. Falsche Einstellungen können zu einer Unterbrechung des Netzwerks führen."
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
@@ -234,20 +234,20 @@
     "err": {
         "abnormal_operation_msg": "Unerwarteter Fehler",
         "network_not_reachable_msg": "Netzwerk nicht erreichbar",
-        "param_illegal_msg": "Ungültiger Parameter, Vorgang fehlgeschlagen."
+        "param_illegal_msg": "Ungültiger Parameter. Vorgang fehlgeschlagen."
     },
     "subscription": {
         "url_label": "Abonnement URL",
         "manual_label": "Anleitung",
-        "url_err_tips": "Bitte geben Sie den korrekten URL-Link ein."
+        "url_err_tips": "Bitte geben Sie einen korrekten Link ein."
     },
     "validate": {
-        "not_allowed_only_spaces": "Die Verwendung von ausschließlich Leerzeichen ist nicht erlaubt.",
+        "not_allowed_only_spaces": "Die Verwendung von nur Leerzeichen ist nicht erlaubt.",
         "only_allow_letter_num_start_tip": "Nur Zahlen oder Buchstaben dürfen am Anfang stehen.",
         "only_letters_num_allowd_tips": "Nur Buchstaben und Zahlen sind erlaubt.",
         "invalid_line_label": "Ungültige Zeilennummer: {num}",
-        "only_allowd_input_tips": "Es dürfen nur {limit} eingegeben werden.",
-        "only_num_letter_symbol_tips": "Nur Buchstaben, Zahlen und Symbole {symbol} sind erlaubt.",
+        "only_allowd_input_tips": "Es dürfen nur {limit} Zeichen eingegeben werden.",
+        "only_num_letter_symbol_tips": "Nur Buchstaben, Zahlen und die Symbole {symbol} sind erlaubt.",
         "min_max_length_tips": "{min} - {max} Zeichen."
     }
 }
