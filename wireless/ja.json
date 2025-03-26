@@ -1,12 +1,12 @@
 {
     "wireless": {
-        "ssid": "無線ネットワーク名（SSID）",
-        "encryption": "無線ネットワークセキュリティ",
+        "ssid": "Wi-Fi名（SSID）",
+        "encryption": "Wi-Fiセキュリティ",
         "key": "Wi-Fiパスワード",
         "ssid_visibility": "SSIDの可視性",
         "mode": "Wi-Fiモード",
         "band_width": "帯域幅",
-        "channel": "チャンネル",
+        "channel": "チャネル",
         "tx_power": "送信電力",
         "shown": "表示",
         "hidden": "非表示",
@@ -15,8 +15,8 @@
         "medium": "中",
         "low": "低",
         "guest": "ゲスト",
-        "channel_optimization": "チャンネル最適化",
-        "enable": "Wi-Fiを有効にする",
+        "channel_optimization": "チャネル最適化",
+        "enable": "Wi-Fiを有効化",
         "repeater_using_tips": "中継器の動作中はエントリを変更できません。",
         "enable_dfs_tips": "ルーターがDFSチャネルを使用するように割り当てられている場合、Wi-Fiを有効にするたびにチャネルを利用可能かチェックが必要です。この間、5GHz信号は接続に利用できません。この処理には$$$$がかかります。ルーターが現在のチャネルでレーダーを検出した場合、クライアントから一時的に切断し、利用可能な別のチャネルに切り替えます。さらに、ルーターが近隣の利用可能なネットワークをスキャンしている間は、5GHz Wi-Fiが一時的にオフになります。",
         "enable_dfs": "DFSチャネルを許可する",
@@ -32,7 +32,7 @@
         "mlo_wifi_security_tips": "WPA3-SAEは、MLOをサポートするほとんどのデバイスに適しており、このプロトコルは推奨されます。",
         "radio_bands_tips": "少なくとも2つの無線帯域を選択してください。",
         "enable_psc_label": "PSCを有効化",
-        "enable_psc_tips": "PSC（優先スキャンチャンネル）が有効になっている場合、6GHzデバイスの接続を確保するために、より高い接続性を持つチャンネルのみが予約されます。",
+        "enable_psc_tips": "PSC（優先スキャンチャネル）が有効になっている場合、6GHzデバイスの接続を確保するために、より高い接続性を持つチャネルのみが予約されます。",
         "mlo_6g_bssid_tips": "MLO Wi-Fiの無線帯域に6 GHzが含まれている場合、6GHz Wi-FiのBSSIDが変更されると、MLO Wi-FiのBSSIDも同期します。"
     },
     "menu_wireless": "無線"
