@@ -221,25 +221,25 @@
         "reupload": "ファイルを再アップロード",
         "firmware_format_error": "ファームウェアのフォーマットが不正です！",
         "error": "ファイルのアップロードに失敗しました。",
-        "format_error": "データフォーマットエラー！",
+        "format_error": "データ形式エラー！",
         "too_large_tips": "アップロードされたファイルが大きすぎます。$$$$バイト以下のファイルをアップロードしてください。",
         "lass_than_tips": "($$$$未満)"
     },
     "system": {
-        "battery_err_tips": "システムがバッテリー モジュールを検出しません。電源接続またはバッテリーに損傷がないかご確認ください。",
+        "battery_err_tips": "バッテリー モジュールが検出されていません。電源接続またはバッテリーに損傷がないかご確認ください。",
         "feature_unusable_tips": "{feature}が有効になっているため、この機能は動作しません。",
         "no_internet_base_tips": "インターネット環境を確認して、再試行してください。",
-        "limit_tips": "データは{count}エントリを超えてはなりません。",
+        "limit_tips": "データは{count}エントリーを超えてはなりません。",
         "lost_account_btn": "アカウントが見つかりませんか？",
         "forget_password_btn": "パスワードを忘れましたか？"
     },
     "err": {
-        "network_not_reachable_msg": "ネットワークに接続できません",
-        "abnormal_operation_msg": "操作に例外が発生しました",
-        "param_illegal_msg": "不正なパラメータのため、操作に失敗しました。"
+        "network_not_reachable_msg": "ネットワークに到達できません",
+        "abnormal_operation_msg": "操作上の例外が発生",
+        "param_illegal_msg": "不正なパラメーターのため、操作に失敗しました。"
     },
     "subscription": {
-        "url_label": "サブスクリプションURL",
+        "url_label": "購読URL",
         "manual_label": "マニュアル",
         "url_err_tips": "正しいURLリンクを入力してください。"
     },
