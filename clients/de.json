@@ -73,7 +73,8 @@
         "reserve_ip_only_ipv4_tips": "Es können nur IPv4-Adressreservierungen für das LAN-Segment konfiguriert werden.",
         "reserved_ip_label": "Reservierte IP",
         "next_connect_effect_tips": "Die aktuelle Konfiguration erfordert, dass die nächste Verbindung wirksam wird.",
-        "host_guest_label": "Host-/Gastnetzwerk"
+        "host_guest_label": "Host-/Gastnetzwerk",
+        "reserve_ip_different_lan_tips": "Die reservierte IP befindet sich nicht im selben Netzwerksegment wie die aktuelle IP, die Konfiguration wird nicht wirksam."
     },
     "menu_clients": "Clients",
     "vpn_tunnel": {
