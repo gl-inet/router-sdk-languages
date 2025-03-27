@@ -73,7 +73,8 @@
         "reserved_ip_tips": "Gdy przypiszesz zarezerwowany adres IP dla klienta w sieci LAN, klient zawsze otrzymuje ten sam adres IP za każdym razem, gdy uzyskuje dostęp do serwera DHCP routera. Możesz przypisać zarezerwowane adresy IP komputerom lub serwerom, które wymagają stałych ustawień IP.",
         "next_connect_effect_tips": "Bieżąca konfiguracja wymaga ponownego połączenia, aby została zastosowana.",
         "reserve_ip_only_ipv4_tips": "Można skonfigurować tylko rezerwację adresów IPv4 w segmencie LAN.",
-        "host_guest_label": "Sieć Hosta/Gościa"
+        "host_guest_label": "Sieć Hosta/Gościa",
+        "reserve_ip_different_lan_tips": "Zarezerwowany adres IP nie znajduje się w tej samej podsieci co bieżący adres IP, konfiguracja nie zostanie zastosowana."
     },
     "menu_clients": "Klienci",
     "vpn_tunnel": {
