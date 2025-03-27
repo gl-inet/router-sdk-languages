@@ -74,7 +74,8 @@
         "reserved_ip_label": "Fenntartott IP cím",
         "next_connect_effect_tips": "Az aktuális konfiguráció a következő kapcsolódás alkalmával lép érvénybe.",
         "reserve_ip_only_ipv4_tips": "Csak a LAN szegmens IPv4-cím foglalása konfigurálható.",
-        "host_guest_label": "Hálózat gazda/vendég"
+        "host_guest_label": "Hálózat gazda/vendég",
+        "reserve_ip_different_lan_tips": "A fenntartott IP nem ugyanabban a hálózati szegmensben van, mint a jelenlegi IP, a konfiguráció nem lép érvénybe."
     },
     "vpn_tunnel": {
         "mac_using_tips": "A VPN kapcsolódva van.",
