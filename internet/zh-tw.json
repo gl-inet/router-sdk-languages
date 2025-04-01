@@ -502,7 +502,9 @@
         "special_apns_tips": "對於特殊運營商提供的APN，請根據您SIM卡的實際情況進行選擇。",
         "pin_code_last_unlock_tips": "SIM卡已鎖定，需要PIN碼解鎖，只剩最後一次嘗試機會，若嘗試失敗，則需使用手機輸入PUK碼進行解鎖。",
         "need_pin_code_tips": "SIM卡已鎖定，需要PIN碼解鎖，還有{count}次機會。",
-        "pin_code_last_input_unlock_tips": "PIN碼{code}不正確，這是最後一次嘗試解鎖的機會，如果再次解鎖失敗，您需要使用手機輸入PUK碼進行解鎖。"
+        "pin_code_last_input_unlock_tips": "PIN碼{code}不正確，這是最後一次嘗試解鎖的機會，如果再次解鎖失敗，您需要使用手機輸入PUK碼進行解鎖。",
+        "ip_type_tips": "如果SIM卡不支持當前的IP類型設置，或者選擇了IPv6但{ipv6}全局開關未打開，可能會導致撥號異常。",
+        "ip_type_label": "IP類型"
     },
     "sim": {
         "sender_label": "發件人"
