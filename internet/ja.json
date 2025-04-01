@@ -502,7 +502,9 @@
         "pin_code_last_unlock_tips": "SIMカードはロックされており、PINコードによるロック解除が必要です。ロック解除の試行回数は最後の1回のみです。もし失敗すると、PUKコードを入力して携帯電話でロック解除する必要があります。",
         "need_pin_code_tips": "SIMカードはロックされており、PINコードでロック解除する必要があります。あと{count}回のチャンスがあります。",
         "pin_code_last_input_unlock_tips": "PINコード{code}が間違っています。ロックを解除する最後のチャンスです。もう一度解除に失敗した場合は、携帯電話でPUKコードを入力してロック解除する必要があります。",
-        "manual_lock_operator_label": "マニュアル"
+        "manual_lock_operator_label": "マニュアル",
+        "ip_type_tips": "SIMカードが現在のIPタイプ設定をサポートしていない場合、またはIPv6が選択されているが{ipv6}グローバルスイッチがオンになっていない場合、ダイヤル異常が発生する可能性があります。",
+        "ip_type_label": "IPタイプ"
     },
     "sim": {
         "sender_label": "送信者"
