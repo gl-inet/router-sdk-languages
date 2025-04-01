@@ -502,7 +502,9 @@
         "special_apns_tips": "Voor APN's die door speciale operators worden aangeboden, kies alstublieft volgens de daadwerkelijke situatie van uw SIM-kaart.",
         "pin_code_last_unlock_tips": "De SIM-kaart is vergrendeld en moet ontgrendeld worden met een PIN-code, er is nog één laatste poging over om het te proberen, als dit niet lukt, moet u uw telefoon gebruiken om het te ontgrendelen door de PUK-code in te voeren.",
         "need_pin_code_tips": "De SIM-kaart is vergrendeld en moet worden ontgrendeld met een PIN-code, er zijn nog {count} pogingen over.",
-        "pin_code_last_input_unlock_tips": "PIN-code {code} is onjuist, er is nog één laatste kans om het te proberen te ontgrendelen, als het opnieuw mislukt, moet u uw telefoon gebruiken om de PUK-code in te voeren om te ontgrendelen."
+        "pin_code_last_input_unlock_tips": "PIN-code {code} is onjuist, er is nog één laatste kans om het te proberen te ontgrendelen, als het opnieuw mislukt, moet u uw telefoon gebruiken om de PUK-code in te voeren om te ontgrendelen.",
+        "ip_type_tips": "Als de simkaart de huidige IP-type-instelling niet ondersteunt, of wanneer IPv6 is geselecteerd maar de {ipv6} globale schakelaar niet is ingeschakeld, kan dit resulteren in kiesafwijkingen.",
+        "ip_type_label": "IP-type"
     },
     "sim": {
         "sender_label": "Afzender"
