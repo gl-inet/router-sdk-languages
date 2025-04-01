@@ -502,7 +502,9 @@
         "special_apns_tips": "Pour les APN fournis par des opérateurs spéciaux, veuillez choisir en fonction de la situation réelle de votre carte SIM.",
         "pin_code_last_unlock_tips": "La carte SIM est verrouillée et doit être débloquée par le code PIN, il reste une dernière tentative pour essayer de la déverrouiller, si cela échoue, vous devrez utiliser votre téléphone pour la débloquer en saisissant le code PUK.",
         "need_pin_code_tips": "La carte SIM est verrouillée et doit être débloquée par le code PIN, il reste {count} tentatives.",
-        "pin_code_last_input_unlock_tips": "Le code PIN {code} est incorrect, il reste une dernière tentative pour le déverrouiller, si l'échec persiste, vous devrez utiliser votre téléphone pour saisir le code PUK afin de le déverrouiller."
+        "pin_code_last_input_unlock_tips": "Le code PIN {code} est incorrect, il reste une dernière tentative pour le déverrouiller, si l'échec persiste, vous devrez utiliser votre téléphone pour saisir le code PUK afin de le déverrouiller.",
+        "ip_type_tips": "Si la carte SIM ne prend pas en charge le réglage actuel du type d'IP, ou lorsque l'IPv6 est sélectionné mais que le switch global {ipv6} n'est pas activé, cela peut entraîner des anomalies de numérotation.",
+        "ip_type_label": "Type IP"
     },
     "sim": {
         "sender_label": "Expéditeur"
