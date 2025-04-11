@@ -40,7 +40,9 @@
         "only_support_self_tips": "AstroWarpはSelf viewでのみサポートされています。",
         "operate_config_tips": "設定を変更する必要がある場合は、{page}にログインしてください。",
         "exit_node_label": "出口ノード",
-        "add_client_limit_tips": "このルーターにアクセスしているクライアント数が上限に達しました。ネットワークプランのアップグレードについては、AstroWarpをご覧ください。"
+        "add_client_limit_tips": "このルーターにアクセスしているクライアント数が上限に達しました。ネットワークプランのアップグレードについては、AstroWarpをご覧ください。",
+        "add_router_limit_tips": "このネットワークにアクセスしているルーターの数が上限に達しました。AstroWarpにアクセスしてネットワークを編集してください。",
+        "network_plan_expired_tips": "このネットワークは期限切れです。AstroWarpにアクセスしてネットワークプランをアップグレード/更新してください。"
     },
     "aw_err": {
         "not_joined_network_msg": "このネットワークに参加していません。"
