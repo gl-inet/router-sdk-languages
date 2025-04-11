@@ -514,5 +514,10 @@
         "switch_to_label": "Pereiti į {slot}",
         "vsim_switch_to_physical_tips": "Jūs perjungsite iš virtualios SIM kortelės (vSIM) į fizinę SIM kortelę. Turėsite įterpti savo fizinę SIM kortelę į įrenginio lizdą, kad galėtumėte prisijungti prie interneto. Prašome patvirtinti, kad fizinė SIM kortelė įdėta.",
         "physical_switch_to_vsim_tips": "Jūs pereisite nuo fizinės SIM kortelės prie modulio virtualios SIM kortelės (vSIM). Jums reikės patvirtinti, kad įsigijote duomenų planą simo svetainėje (nuskaitykite įrenginio QR kodą, kad jį įsigytumėte). Tada galite išimti fizinę SIM kortelę iš įrenginio."
+    },
+    "apn": {
+        "enable_polling_label": "Įgalinti apklausą",
+        "polling_control_title": "APN apklausos valdymas",
+        "enable_polling_tips": "Jei įrenginyje naudojama Verizon SIM kortelė ir ši funkcija įjungta, įrenginys nuolat tikrins APN iki 12 minučių po paleidimo iš naujo, kol tinklo ryšys bus normalus. Ši funkcija galioja tik Verizon SIM kortelėms."
     }
 }
