@@ -39,7 +39,9 @@
         "bind_not_self_tips": "Przed użyciem AstroWarp proszę powiązać swoje konto z widokiem Self; obecnie nie obsługuje on użycia w widoku organizacji ani VAR.",
         "only_support_self_tips": "AstroWarp jest obsługiwany tylko w widoku własnym.",
         "operate_config_tips": "Jeśli potrzebujesz zmodyfikować konfigurację, zaloguj się na {page}.",
-        "exit_node_label": "Węzeł wyjściowy"
+        "exit_node_label": "Węzeł wyjściowy",
+        "add_client_limit_tips": "Liczba klientów uzyskujących dostęp do tego routera osiągnęła limit. Odwiedź AstroWarp, aby zaktualizować swój plan sieciowy.",
+        "add_router_limit_tips": "Liczba routerów uzyskujących dostęp do tej sieci osiągnęła limit. Odwiedź AstroWarp, aby edytować swoją sieć."
     },
     "aw_err": {
         "not_joined_network_msg": "Nie dołączono do tej sieci."
