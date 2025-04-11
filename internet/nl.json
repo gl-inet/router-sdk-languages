@@ -514,5 +514,10 @@
         "switch_to_label": "Schakel over naar {slot}",
         "vsim_switch_to_physical_tips": "U schakelt over van een virtuele SIM-kaart (vSIM) naar een fysieke SIM-kaart. U moet uw fysieke SIM-kaart in de sleuf van het apparaat plaatsen om verbinding te maken met het internet. Bevestig alstublieft dat de fysieke SIM-kaart is ingevoerd.",
         "physical_switch_to_vsim_tips": "U schakelt over van fysieke SIM-kaart naar virtuele SIM-kaart (vSIM) van het module. U moet bevestigen dat u een databundel hebt gekocht op de simo-website (scan de QR-code op het apparaat om deze te kopen). Daarna kunt u de fysieke SIM-kaart uit het apparaat verwijderen."
+    },
+    "apn": {
+        "enable_polling_label": "Polling inschakelen",
+        "polling_control_title": "APN Polling Controle",
+        "enable_polling_tips": "Als het apparaat een Verizon SIM-kaart gebruikt en deze functie is ingeschakeld, zal het apparaat continu de APN controleren gedurende maximaal 12 minuten na het herstarten totdat de netwerkverbinding normaal is. Deze functie is alleen geldig voor Verizon SIM-kaarten."
     }
 }
