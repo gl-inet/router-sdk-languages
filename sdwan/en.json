@@ -39,7 +39,10 @@
         "bind_not_self_tips": "Please bind your account to the Self view before using AstroWarp; it currently does not support use in the organization or VAR view.",
         "only_support_self_tips": "AstroWarp is only supported on Self view.",
         "operate_config_tips": "If you need to modify the configuration, please log in to {page}.",
-        "exit_node_label": "Exit Node"
+        "exit_node_label": "Exit Node",
+        "add_client_limit_tips": "The number of clients accessing this router has reached the upper limit. Please visit the AstroWarp to upgrade your network plan.",
+        "add_router_limit_tips": "The number of routers accessing in this network has reached the upper limit. Please visit the AstroWarp to edit your network.",
+        "network_plan_expired_tips": "This network is expired. Please visit the AstroWarp to upgrade/renew your network plan."
     },
     "aw_err": {
         "not_joined_network_msg": "Not joined this network."
