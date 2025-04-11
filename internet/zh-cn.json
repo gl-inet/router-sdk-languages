@@ -514,5 +514,10 @@
         "switch_to_label": "切换到{slot}",
         "vsim_switch_to_physical_tips": "您将从虚拟SIM卡（vSIM）切换到实体SIM卡。您需要将实体SIM卡插入设备插槽以连接到互联网。请确认实体SIM卡已经插入。",
         "physical_switch_to_vsim_tips": "您将从模块的实体SIM卡切换到虚拟SIM卡（vSIM）。您需要确认已经在simo网站上购买了数据套餐（扫描设备上的二维码进行购买）。然后，您可以从设备中取出实体SIM卡。"
+    },
+    "apn": {
+        "enable_polling_label": "启用轮询",
+        "polling_control_title": "APN轮询控制",
+        "enable_polling_tips": "若设备使用Verizon SIM卡且启用此功能，设备将在重启后持续轮询APN最长12分钟，直至网络连接恢复正常。此功能仅对Verizon SIM卡有效。"
     }
 }
