@@ -514,5 +514,10 @@
         "sim_type_label": "SIMカードタイプ",
         "switch_to_label": "{slot}に切り替え",
         "physical_switch_to_vsim_tips": "モジュールの物理SIMカードからバーチャルSIMカード(vSIM)への切り替えを行います。simoウェブサイトでデータプランを購入済みであることを確認してください（デバイス上のQRコードをスキャンして購入します）。その後、デバイスから物理SIMカードを取り外すことができます。"
+    },
+    "apn": {
+        "enable_polling_label": "ポーリングを有効にする",
+        "polling_control_title": "APNポーリング制御",
+        "enable_polling_tips": "デバイスがVerizon SIMカードを使用しており、この機能が有効になっている場合、デバイスはリブート後、ネットワーク接続が正常になるまで最大12分間APNを継続的にポーリングします。この機能はVerizon SIMカードでのみ有効です。"
     }
 }
