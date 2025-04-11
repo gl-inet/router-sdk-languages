@@ -39,7 +39,9 @@
         "bind_not_self_tips": "在使用AstroWarp之前，请将您的账户绑定到Self视图；目前不支持在组织或VAR视图中使用。",
         "only_support_self_tips": "AstroWarp仅支持自我视图。",
         "operate_config_tips": "如果您需要修改配置，请登录{page}。",
-        "exit_node_label": "出口节点"
+        "exit_node_label": "出口节点",
+        "add_client_limit_tips": "接入此路由器的客户端数量已达上限。请访问AstroWarp以升级您的网络套餐。",
+        "add_router_limit_tips": "当前网络中接入的路由器数量已达上限。请访问AstroWarp以编辑您的网络。"
     },
     "aw_err": {
         "not_joined_network_msg": "未加入此网络。"
