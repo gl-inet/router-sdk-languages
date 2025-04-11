@@ -282,7 +282,8 @@
         "no_switching_tips": "Amikor a Váltás nélküli mód engedélyezve van, a jelenlegi Wi-Fi kapcsolat megszakadása esetén nem csatlakozik más mentett hálózatokhoz.",
         "auto_switching_without_network": "Hálózat nélküli automatikus váltás",
         "auto_switching_tips": "Amikor az automatikus váltási mód engedélyezett, a jelenlegi Wi-Fi kapcsolat megszakadása esetén más mentett hálózatokhoz csatlakozik a rendszer.",
-        "auto_switching_without_network_tips": "Amikor az Automatikus váltás Hálózat nélküli módban engedélyezve van, a router nem hajt végre hálózati beolvasást, amikor normál hálózati módban van és nem ismétlő módban, és csak akkor vált hálózatot, ha nincs hálózat, ami elkerülheti a kommunikációs csomagvesztést."
+        "auto_switching_without_network_tips": "Amikor az Automatikus váltás Hálózat nélküli módban engedélyezve van, a router nem hajt végre hálózati beolvasást, amikor normál hálózati módban van és nem ismétlő módban, és csak akkor vált hálózatot, ha nincs hálózat, ami elkerülheti a kommunikációs csomagvesztést.",
+        "repeater_not_auto_scan_tips": "A(z) {mode} mód jelenleg engedélyezve van. és az útválasztó sikeresen csatlakozik az internethez nem ismétlő módban, az ismétlő nem fog automatikusan hálózati keresést végezni."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
@@ -501,7 +502,9 @@
         "special_apns_tips": "Különleges szolgáltatók által biztosított APN-ek esetén, kérjük, válasszon a SIM-kártyája tényleges helyzetének megfelelően.",
         "pin_code_last_unlock_tips": "A SIM-kártya zárolva van, és PIN-kóddal kell feloldani. Már csak egy próbálkozási lehetőség maradt, ha ez sem sikerül, akkor a telefonon kell megadni a PUK kódot a feloldáshoz.",
         "need_pin_code_tips": "A SIM-kártya zárolva van, és PIN-kóddal kell feloldani, még {count} próbálkozás van hátra.",
-        "pin_code_last_input_unlock_tips": "A PIN kód {code} helytelen, ez az utolsó próbálkozási lehetőség a feloldáshoz, ha ismét sikertelen a feloldás, akkor a telefonját kell használnia a PUK kód megadásához a feloldáshoz."
+        "pin_code_last_input_unlock_tips": "A PIN kód {code} helytelen, ez az utolsó próbálkozási lehetőség a feloldáshoz, ha ismét sikertelen a feloldás, akkor a telefonját kell használnia a PUK kód megadásához a feloldáshoz.",
+        "ip_type_tips": "Ha a SIM-kártya nem támogatja az aktuális IP-típus beállítást, vagy ha az IPv6 van kiválasztva, de a {ipv6} globális kapcsoló nincs bekapcsolva, az tárcsázási rendellenességeket okozhat.",
+        "ip_type_label": "IP típus"
     },
     "sim": {
         "sender_label": "Feladó"
@@ -511,5 +514,10 @@
         "switch_to_label": "Váltás a(z) {slot} helyre",
         "vsim_switch_to_physical_tips": "Ön virtuális SIM kártyáról (vSIM) fizikai SIM kártyára fog váltani. A fizikai SIM kártyát be kell helyeznie az eszköz nyílásába az internethez való csatlakozáshoz. Kérjük, erősítse meg, hogy a fizikai SIM kártya be van helyezve.",
         "physical_switch_to_vsim_tips": "Az átváltás a fizikai SIM kártyáról a modul virtuális SIM kártyájára (vSIM) történik. Meg kell erősítenie, hogy vásárolt adatcsomagot a simo weboldalon (a készüléken található QR-kód beolvasásával vásárolhatja meg). Ezután eltávolíthatja a fizikai SIM kártyát a készülékből."
+    },
+    "apn": {
+        "enable_polling_label": "Lekérdezés engedélyezése",
+        "polling_control_title": "APN lekérdezés vezérlés",
+        "enable_polling_tips": "Ha az eszköz Verizon SIM-kártyát használ és ez a funkció engedélyezve van, az eszköz újraindítás után akár 12 percig is folyamatosan lekérdezi az APN-t, amíg a hálózati kapcsolat helyre nem áll. Ez a funkció csak Verizon SIM-kártyák esetén érvényes."
     }
 }

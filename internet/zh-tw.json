@@ -103,9 +103,10 @@
         "no_switching": "不切換",
         "auto_switching": "自動切換",
         "auto_switching_without_network": "僅沒網自動切換",
-        "no_switching_tips": "啟用不切換模式後，當前Wi-Fi斷開時不連接其他已保存網絡。",
-        "auto_switching_tips": "啟用自動切換模式後，當前Wi-Fi斷開時會連接其他已保存網絡。",
-        "auto_switching_without_network_tips": "啟用僅沒網自動切換模式後，路由器非中繼管道正常聯網時，不進行網絡掃描操作，僅沒網時切換網絡，可避免通信丟包。"
+        "no_switching_tips": "啓用不切換模式後，當前 Wi-Fi 斷開時不會自動連接其他已保存的網絡。",
+        "auto_switching_tips": "啓用自動切換模式後，當前 Wi-Fi 斷開時，路由器會嘗試連接其他已保存的網絡。",
+        "auto_switching_without_network_tips": "啓用 “無網絡自動切換 ”模式後，路由器在非中繼模式下聯網成功後不會自動掃描網絡，只會在無網絡時嘗試自動切換到其他保存的網絡，這樣可以避免通信數據包丟失。",
+        "repeater_not_auto_scan_tips": "當前{mode}模式已啟用，路由器非中繼管道聯網成功，中繼不會自動進行網絡掃描。"
     },
     "modem": {
         "title": "行動網絡",
@@ -451,7 +452,7 @@
         "start_hour_label": "開始時間點",
         "start_day_label": "開始日期",
         "modify_data_used_tips": "資料統計僅供參考。實際流量由網路業者決定，並會顯示在網路業者提供的帳單上。",
-        "clear_warning_tips": "修改任何流量數據限制配置後，流量數據將被清清零。您需要清零流量數據嗎？",
+        "clear_warning_tips": "修改任何流量數據限制配置後，流量數據將被清零。您需要清零流量數據嗎？",
         "sim_limit_title": "{sim}限制設置",
         "modify_data_used_title": "修改{sim}數據",
         "save_to_flash_label": "關機時保存數據",
@@ -501,7 +502,9 @@
         "special_apns_tips": "對於特殊運營商提供的APN，請根據您SIM卡的實際情況進行選擇。",
         "pin_code_last_unlock_tips": "SIM卡已鎖定，需要PIN碼解鎖，只剩最後一次嘗試機會，若嘗試失敗，則需使用手機輸入PUK碼進行解鎖。",
         "need_pin_code_tips": "SIM卡已鎖定，需要PIN碼解鎖，還有{count}次機會。",
-        "pin_code_last_input_unlock_tips": "PIN碼{code}不正確，這是最後一次嘗試解鎖的機會，如果再次解鎖失敗，您需要使用手機輸入PUK碼進行解鎖。"
+        "pin_code_last_input_unlock_tips": "PIN碼{code}不正確，這是最後一次嘗試解鎖的機會，如果再次解鎖失敗，您需要使用手機輸入PUK碼進行解鎖。",
+        "ip_type_tips": "如果SIM卡不支持當前的IP類型設置，或者選擇了IPv6但{ipv6}全局開關未打開，可能會導致撥號異常。",
+        "ip_type_label": "IP類型"
     },
     "sim": {
         "sender_label": "發件人"
@@ -511,5 +514,10 @@
         "switch_to_label": "切換至 {slot}",
         "vsim_switch_to_physical_tips": "您將從虛擬SIM卡（vSIM）切換到實體SIM卡。您需要將實體SIM卡插入設備插槽以連接到互聯網。請確認實體SIM卡已經插入。",
         "physical_switch_to_vsim_tips": "您將從模組的實體SIM卡切換到虛擬SIM卡(vSIM)。您需要確認已經在simo網站上購買了數據計劃（掃描設備上的QR碼進行購買）。然後，您可以從設備中取出實體SIM卡。"
+    },
+    "apn": {
+        "enable_polling_label": "啟用輪詢",
+        "polling_control_title": "APN輪詢控制",
+        "enable_polling_tips": "若設備使用Verizon SIM卡且啟用此功能，裝置將在重啟後持續輪詢APN長達12分鐘，直至網路連線恢復正常。此功能僅適用於Verizon SIM卡。"
     }
 }

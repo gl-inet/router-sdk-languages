@@ -47,7 +47,7 @@
         "clear_traffic_caution": "您确认要清空所有的流量统计数据吗？",
         "hardware_acceleration_warning": "$$$$硬件加速$$$$已启用，客户端速度和流量统计数据异常，客户端限速无法正常工作。",
         "network_acceleration_warning": "$$$$网络加速$$$$已启用，客户端速度和流量统计数据异常，客户端限速无法正常工作。",
-        "block_label": "阻止入网",
+        "block_label": "一键拉黑",
         "access_label": "允许入网",
         "access_control_label": "访问控制",
         "import_mac_label": "导入客户端",
@@ -55,7 +55,7 @@
         "parse_mac_error_tips": "解析 MAC 地址失败，请检查该文件并重新上传。",
         "parse_mac_success_tips": "已解析出 1 个有效的 MAC 地址。| 已解析出 {count} 个有效的 MAC 地址。",
         "parse_mac_warning_tips": "1 条数据不是有效的 MAC 地址，它们将会在确认导入后被丢弃。 | {count} 条数据不是有效的 MAC 地址，它们将会在确认导入后被丢弃。",
-        "blacklist_self_error_tips": "禁止将本机 MAC 添加到黑名单。",
+        "blacklist_self_error_tips": "禁止將自身 MAC 添加到阻止列表。",
         "access_control_tips": "访问控制允许或阻止特定客户设备访问你的网络。",
         "access_control_black_tips": "当一台客户端设备被阻止时，它将无法访问内网与外网。",
         "access_control_white_tips": "只有当一台设备被允许访问时，它才可以连接到内网与外网。",
@@ -73,7 +73,8 @@
         "reserved_ip_label": "保留IP",
         "next_connect_effect_tips": "当前配置需要下一次连接才能生效。",
         "reserve_ip_only_ipv4_tips": "只能配置局域网段IPv4地址预留。",
-        "host_guest_label": "主/访客网络"
+        "host_guest_label": "主/访客网络",
+        "reserve_ip_different_lan_tips": "预留的IP与当前IP不在同一网段，该配置不生效。"
     },
     "menu_clients": "客户端",
     "vpn_tunnel": {

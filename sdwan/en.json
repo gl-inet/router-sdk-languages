@@ -14,5 +14,37 @@
         "get_start_tips": "Click to get started with AstroWarp!",
         "enable_tips": "When AstroWarp is enabled, {feature} cannot be used."
     },
-    "menu_sdwan": "AstroWarp"
+    "menu_sdwan": "AstroWarp",
+    "aw": {
+        "first_get_start_step1_tips": "By using AstroWarp with this router, download app first then connect to this router and access the internet via it.",
+        "go_to_aw_web_btn": "Go To Astrowarp Website",
+        "data_usage_title": "Data Usage",
+        "first_get_start_step2_tips": "Click start we will create a free AstroNet for you. And this router will be set as the internet exit.",
+        "vaild_only_once_label": "Valid Only Once:",
+        "join_network_btn": "Join The Network",
+        "usage_total_label": "Usage / Total",
+        "add_client_btn": "Add Client",
+        "more_operation_tips": "All clients and routers using internet exit access the internet via this router. If you need to modify the configuration, please log in to {page}.",
+        "join_network_tips": "Get start using AstroWarp for work from home anywhere. You can join a network to use it. Or you can login AstroWarp website to use it with more features.",
+        "use_as_internet_exit_tips": "This router has been set as internet exit.",
+        "link_life_time_label": "Link Lifetime:",
+        "use_internet_exit_label": "Use Internet Exit",
+        "share_use_internet_exit_label": "Use Internet Exit:",
+        "copy_link_btn": "Copy Link",
+        "to_download_app_btn": "Click Here To Download App",
+        "qrcode_use_tips": "Use the app to scan the QR code or enter the URL to access the router and use the Internet exit it belongs to.",
+        "share_more_operation_tips": "Using more settings, please login {page}.",
+        "go_to_aw_btn": "Go To AstroWarp",
+        "get_start_btn": "Get Start For Work From Anywhere",
+        "bind_not_self_tips": "Please bind your account to the Self view before using AstroWarp; it currently does not support use in the organization or VAR view.",
+        "only_support_self_tips": "AstroWarp is only supported on Self view.",
+        "operate_config_tips": "If you need to modify the configuration, please log in to {page}.",
+        "exit_node_label": "Exit Node",
+        "add_client_limit_tips": "The number of clients accessing this router has reached the upper limit. Please visit the AstroWarp to upgrade your network plan.",
+        "add_router_limit_tips": "The number of routers accessing in this network has reached the upper limit. Please visit the AstroWarp to edit your network.",
+        "network_plan_expired_tips": "This network is expired. Please visit the AstroWarp to upgrade/renew your network plan."
+    },
+    "aw_err": {
+        "not_joined_network_msg": "Not joined this network."
+    }
 }

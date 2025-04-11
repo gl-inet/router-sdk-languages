@@ -105,7 +105,8 @@
         "no_switching_tips": "Lorsque le mode Sans basculement est activé, aucun autre réseau enregistré n'est connecté lorsque le Wi-Fi actuel est déconnecté.",
         "auto_switching_without_network": "Commutation automatique sans réseau",
         "auto_switching_tips": "Lorsque le mode de basculement automatique est activé, d'autres réseaux enregistrés seront connectés lorsque le Wi-Fi actuel est déconnecté.",
-        "auto_switching_without_network_tips": "Lorsque le mode de basculement automatique sans réseau est activé, le routeur n'effectue pas de balayage réseau lorsqu'il est normalement connecté en mode non répéteur, et ne bascule le réseau que lorsqu'il n'y a pas de réseau, ce qui peut éviter la perte de paquets de communication."
+        "auto_switching_without_network_tips": "Lorsque le mode de basculement automatique sans réseau est activé, le routeur n'effectue pas de balayage réseau lorsqu'il est normalement connecté en mode non répéteur, et ne bascule le réseau que lorsqu'il n'y a pas de réseau, ce qui peut éviter la perte de paquets de communication.",
+        "repeater_not_auto_scan_tips": "Le mode {mode} est actuellement activé. et le routeur se connecte avec succès à l'internet en mode non-répéteur, le répéteur ne procédera pas automatiquement à la recherche de réseau."
     },
     "modem": {
         "title": "Cellulaire",
@@ -501,7 +502,9 @@
         "special_apns_tips": "Pour les APN fournis par des opérateurs spéciaux, veuillez choisir en fonction de la situation réelle de votre carte SIM.",
         "pin_code_last_unlock_tips": "La carte SIM est verrouillée et doit être débloquée par le code PIN, il reste une dernière tentative pour essayer de la déverrouiller, si cela échoue, vous devrez utiliser votre téléphone pour la débloquer en saisissant le code PUK.",
         "need_pin_code_tips": "La carte SIM est verrouillée et doit être débloquée par le code PIN, il reste {count} tentatives.",
-        "pin_code_last_input_unlock_tips": "Le code PIN {code} est incorrect, il reste une dernière tentative pour le déverrouiller, si l'échec persiste, vous devrez utiliser votre téléphone pour saisir le code PUK afin de le déverrouiller."
+        "pin_code_last_input_unlock_tips": "Le code PIN {code} est incorrect, il reste une dernière tentative pour le déverrouiller, si l'échec persiste, vous devrez utiliser votre téléphone pour saisir le code PUK afin de le déverrouiller.",
+        "ip_type_tips": "Si la carte SIM ne prend pas en charge le réglage actuel du type d'IP, ou lorsque l'IPv6 est sélectionné mais que le switch global {ipv6} n'est pas activé, cela peut entraîner des anomalies de numérotation.",
+        "ip_type_label": "Type IP"
     },
     "sim": {
         "sender_label": "Expéditeur"
@@ -511,5 +514,10 @@
         "sim_type_label": "Type de carte SIM",
         "switch_to_label": "Basculer sur {slot}",
         "physical_switch_to_vsim_tips": "Vous passerez de la carte SIM physique à la carte SIM virtuelle (vSIM) du module. Vous devrez confirmer que vous avez acheté un forfait de données sur le site web simo (Scannez le code QR sur l'appareil pour l'acheter). Vous pourrez ensuite retirer la carte SIM physique de l'appareil."
+    },
+    "apn": {
+        "enable_polling_label": "Activer l'interrogation",
+        "polling_control_title": "Contrôle d'interrogation APN",
+        "enable_polling_tips": "Si l'appareil utilise une carte SIM Verizon et que cette fonctionnalité est activée, l'appareil interrogera continuellement l'APN pendant jusqu'à 12 minutes après le redémarrage jusqu'à ce que la connexion réseau soit normale. Cette fonctionnalité n'est valable que pour les cartes SIM Verizon."
     }
 }

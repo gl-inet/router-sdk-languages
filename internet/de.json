@@ -105,7 +105,8 @@
         "auto_switching": "Automatisches Umschalten",
         "no_switching_tips": "Wenn der Modus \"Kein Wechseln\" aktiviert ist, werden keine anderen gespeicherten Netzwerke verbunden, wenn das aktuelle WLAN getrennt wird.",
         "auto_switching_without_network": "Automatisches Umschalten ohne Netzwerk",
-        "auto_switching_tips": "Wenn der Automatische Wechselmodus aktiviert ist, werden andere gespeicherte Netzwerke verbunden, wenn das aktuelle WLAN getrennt wird."
+        "auto_switching_tips": "Wenn der Automatische Wechselmodus aktiviert ist, werden andere gespeicherte Netzwerke verbunden, wenn das aktuelle WLAN getrennt wird.",
+        "repeater_not_auto_scan_tips": "Der {mode}-Modus ist derzeit aktiviert. und der Router verbindet sich erfolgreich mit dem Internet im Nicht-Repeater-Modus, der Repeater führt keine automatische Netzwerksuche durch."
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -501,7 +502,9 @@
         "special_apns_tips": "Für APNs, die von speziellen Betreibern bereitgestellt werden, wählen Sie bitte entsprechend der tatsächlichen Situation Ihrer SIM-Karte.",
         "pin_code_last_unlock_tips": "Die SIM-Karte ist gesperrt und muss mit dem PIN-Code entsperrt werden. Es gibt nur noch einen letzten Versuch, sie zu entsperren. Sollte dies fehlschlagen, müssen Sie Ihr Telefon verwenden, um sie durch Eingabe des PUK-Codes zu entsperren.",
         "need_pin_code_tips": "Die SIM-Karte ist gesperrt und muss mit dem PIN-Code entsperrt werden, es gibt noch {count} weitere Versuche.",
-        "pin_code_last_input_unlock_tips": "PIN-Code {code} ist falsch, es bleibt nur noch eine letzte Chance, um ihn zu entsperren. Sollte die Entsperrung erneut fehlschlagen, müssen Sie Ihren PUK-Code über Ihr Telefon eingeben, um die Entsperrung vorzunehmen."
+        "pin_code_last_input_unlock_tips": "PIN-Code {code} ist falsch, es bleibt nur noch eine letzte Chance, um ihn zu entsperren. Sollte die Entsperrung erneut fehlschlagen, müssen Sie Ihren PUK-Code über Ihr Telefon eingeben, um die Entsperrung vorzunehmen.",
+        "ip_type_tips": "Wenn die SIM-Karte die aktuelle IP-Typ-Einstellung nicht unterstützt oder wenn IPv6 ausgewählt ist, aber der {ipv6} globale Schalter nicht eingeschaltet ist, kann dies zu Wählanomalien führen.",
+        "ip_type_label": "IP-Typ"
     },
     "sim": {
         "sender_label": "Absender"
@@ -511,5 +514,10 @@
         "vsim_switch_to_physical_tips": "Sie wechseln von einer virtuellen SIM-Karte (vSIM) zu einer physischen SIM-Karte. Sie müssen Ihre physische SIM-Karte in den Geräteschacht einlegen, um eine Verbindung zum Internet herzustellen. Bitte bestätigen Sie, dass die physische SIM-Karte eingelegt wurde.",
         "sim_type_label": "SIM-Kartentyp",
         "physical_switch_to_vsim_tips": "Sie wechseln von der physischen SIM-Karte zur virtuellen SIM-Karte (vSIM) des Moduls. Sie müssen bestätigen, dass Sie einen Datentarif auf der simo-Website erworben haben (Scannen Sie den QR-Code auf dem Gerät, um ihn zu erwerben). Anschließend können Sie die physische SIM-Karte aus dem Gerät entfernen."
+    },
+    "apn": {
+        "enable_polling_tips": "Falls das Gerät eine Verizon-SIM-Karte verwendet und diese Funktion aktiviert ist, wird das Gerät nach einem Neustart bis zu 12 Minuten lang kontinuierlich das APN abfragen, bis die Netzwerkverbindung normal ist. Diese Funktion gilt nur für Verizon-SIM-Karten.",
+        "enable_polling_label": "Abfrage aktivieren",
+        "polling_control_title": "APN-Abrufsteuerung"
     }
 }

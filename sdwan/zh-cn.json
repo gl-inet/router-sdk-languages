@@ -14,5 +14,37 @@
         "get_start_tips": "点击开始使用 AstroWarp！",
         "enable_tips": "启用AstroWarp时，无法使用 {feature}。"
     },
-    "menu_sdwan": "AstroWarp"
+    "menu_sdwan": "AstroWarp",
+    "aw": {
+        "go_to_aw_web_btn": "访问AstroWarp网站",
+        "data_usage_title": "数据使用情况",
+        "vaild_only_once_label": "仅限一次：",
+        "first_get_start_step1_tips": "通过在此路由器上使用AstroWarp，首先下载应用程序，然后连接到此路由器并通过其访问互联网。",
+        "join_network_btn": "加入网络",
+        "first_get_start_step2_tips": "点击开始，我们将为您创建一个免费的AstroNet，并将此路由器设置为互联网出口。",
+        "add_client_btn": "添加客户端",
+        "join_network_tips": "开始使用AstroWarp进行远程办公。您可以加入一个网络来使用它。或者您可以登录AstroWarp网站以使用更多功能。",
+        "link_life_time_label": "链接有效期：",
+        "usage_total_label": "使用 / 总计",
+        "use_as_internet_exit_tips": "该路由器已被设置为互联网出口。",
+        "use_internet_exit_label": "使用互联网出口",
+        "more_operation_tips": "所有使用互联网出口的客户端和路由器均通过此路由器访问互联网。如需修改配置，请登录{page}。",
+        "share_use_internet_exit_label": "使用互联网出口",
+        "copy_link_btn": "复制链接",
+        "to_download_app_btn": "点击此处下载应用程序",
+        "qrcode_use_tips": "使用应用程序扫描二维码或输入URL以访问路由器，并使用其所属的互联网出口。",
+        "share_more_operation_tips": "使用更多设置，请登录{page}。",
+        "go_to_aw_btn": "前往AstroWarp",
+        "get_start_btn": "一键开启远程工作",
+        "bind_not_self_tips": "在使用AstroWarp之前，请将您的账户绑定到Self视图；目前不支持在组织或VAR视图中使用。",
+        "only_support_self_tips": "AstroWarp仅支持自我视图。",
+        "operate_config_tips": "如果您需要修改配置，请登录{page}。",
+        "exit_node_label": "出口节点",
+        "add_client_limit_tips": "接入此路由器的客户端数量已达上限。请访问AstroWarp以升级您的网络套餐。",
+        "add_router_limit_tips": "当前网络中接入的路由器数量已达上限。请访问AstroWarp以编辑您的网络。",
+        "network_plan_expired_tips": "该网络已过期。请访问AstroWarp以升级/续订您的网络套餐。"
+    },
+    "aw_err": {
+        "not_joined_network_msg": "未加入此网络。"
+    }
 }

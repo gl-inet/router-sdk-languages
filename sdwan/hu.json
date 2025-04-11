@@ -14,5 +14,37 @@
         "use_tips": "Az AstroWarp egy fejlett SD-WAN platform, amely zökkenőmentes távoli hálózatépítést, forgalomaggregációt és távoli eszközkezelést biztosít.",
         "enable_tips": "Amikor az AstroWarp engedélyezve van, a(z) {feature} nem használható."
     },
-    "menu_sdwan": "AstroWarp"
+    "menu_sdwan": "AstroWarp",
+    "aw": {
+        "go_to_aw_web_btn": "Látogasson el az AstroWarp weboldalára",
+        "data_usage_title": "Adathasználat",
+        "vaild_only_once_label": "Csak egyszer érvényes:",
+        "join_network_btn": "Csatlakozzon a hálózathoz",
+        "first_get_start_step1_tips": "Az AstroWarp használatával ennél a router-nél először töltse le az alkalmazást, majd csatlakozzon ehhez a router-hez, és ezen keresztül érje el az internetet.",
+        "first_get_start_step2_tips": "Kattintson a start gombra, és létrehozunk egy ingyenes AstroNetet Önnek. Ez az útválasztó lesz beállítva az internet kimenetként.",
+        "add_client_btn": "Ügyfél hozzáadása",
+        "join_network_tips": "Kezdje el használni az AstroWarp-ot otthoni munkavégzéshez bárhonnan. Csatlakozhat egy hálózathoz, hogy használhassa. Vagy bejelentkezhet az AstroWarp weboldalára, hogy több funkcióval használhassa.",
+        "link_life_time_label": "Link élettartama:",
+        "usage_total_label": "Használat / Összesen",
+        "use_internet_exit_label": "Internet kilépési pont használata",
+        "use_as_internet_exit_tips": "Ez az útválasztó internetes kilépési pontként lett beállítva.",
+        "more_operation_tips": "Minden kliens és router, amely internetes kilépési hozzáférést használ, ezen a routeren keresztül éri el az internetet. Ha módosítani szeretné a konfigurációt, kérjük, jelentkezzen be a {page} oldalra.",
+        "share_use_internet_exit_label": "Internet kilépési pont használata",
+        "copy_link_btn": "Link másolása",
+        "to_download_app_btn": "Kattintson ide az alkalmazás letöltéséhez",
+        "qrcode_use_tips": "Használja az alkalmazást a QR-kód beolvasásához, vagy adja meg az URL-t a router eléréséhez és az ahhoz tartozó internetkapcsolat használatához.",
+        "share_more_operation_tips": "További beállítások használatához kérjük, jelentkezzen be a {page} oldalon.",
+        "go_to_aw_btn": "Menjen az AstroWarp oldalra",
+        "get_start_btn": "Kezdje el a munkát bárhonnan",
+        "bind_not_self_tips": "Kérjük, kösse össze fiókját a Self nézettel, mielőtt az AstroWarpot használná; jelenleg nem támogatja a használatot a szervezeti vagy VAR nézetben.",
+        "only_support_self_tips": "Az AstroWarp csak az Önkiszolgáló nézetben támogatott.",
+        "operate_config_tips": "Ha módosítania kell a konfigurációt, kérjük, jelentkezzen be a {page} oldalra.",
+        "exit_node_label": "Kilépési csompópont",
+        "add_client_limit_tips": "Az ehhez az útválasztóhoz csatlakozó ügyfelek száma elérte a felső határt. Kérjük, látogasson el az AstroWarp oldalára a hálózati csomag frissítéséhez.",
+        "add_router_limit_tips": "Az ehhez a hálózathoz csatlakozó routerek száma elérte a felső határt. Kérjük, látogasson el az AstroWarp oldalra a hálózat szerkesztéséhez.",
+        "network_plan_expired_tips": "Ez a hálózat lejárt. Kérjük, látogasson el az AstroWarp oldalra a hálózati csomag frissítéséhez/megújításához."
+    },
+    "aw_err": {
+        "not_joined_network_msg": "Nem csatlakozott ehhez a hálózathoz."
+    }
 }

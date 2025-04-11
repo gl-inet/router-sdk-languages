@@ -14,5 +14,37 @@
         "get_start_tips": "Presione para comenzar con AstroWarp",
         "use_tips": "AstroWarp es una plataforma avanzada de SD-WAN diseñada para proporcionar una red remota sin interrupciones, agregación de tráfico y gestión remota de dispositivos.",
         "enable_tips": "Cuando AstroWarp está habilitado, {feature} no se puede utilizar."
+    },
+    "aw": {
+        "go_to_aw_web_btn": "Ir al sitio web de AstroWarp",
+        "data_usage_title": "Uso de Datos",
+        "vaild_only_once_label": "Válido solo una vez:",
+        "join_network_btn": "Unirse a la red",
+        "first_get_start_step1_tips": "Al usar AstroWarp con este router, primero descarga la aplicación, luego conéctate a este router y accede a internet a través de él.",
+        "add_client_btn": "Agregar Cliente",
+        "first_get_start_step2_tips": "Haga clic en iniciar, crearemos un AstroNet gratuito para usted. Y este router se configurará como la salida de internet.",
+        "link_life_time_label": "Duración del enlace:",
+        "usage_total_label": "Uso / Total",
+        "use_internet_exit_label": "Usar salida de Internet",
+        "join_network_tips": "Comience a usar AstroWarp para trabajar desde casa en cualquier lugar. Puede unirse a una red para usarlo. O puede iniciar sesión en el sitio web de AstroWarp para usarlo con más funciones.",
+        "use_as_internet_exit_tips": "Este router ha sido configurado como salida de internet.",
+        "share_use_internet_exit_label": "Usar salida de Internet",
+        "more_operation_tips": "Todos los clientes y enrutadores que utilizan la salida de internet acceden a internet a través de este enrutador. Si necesita modificar la configuración, inicie sesión en {page}.",
+        "copy_link_btn": "Copiar enlace",
+        "to_download_app_btn": "Haga clic aquí para descargar la aplicación",
+        "qrcode_use_tips": "Utilice la aplicación para escanear el código QR o ingrese la URL para acceder al router y utilizar la salida de Internet a la que pertenece.",
+        "share_more_operation_tips": "Usando más configuraciones, por favor inicie sesión en {page}.",
+        "go_to_aw_btn": "Ir a AstroWarp",
+        "get_start_btn": "Comienza a trabajar desde cualquier lugar",
+        "bind_not_self_tips": "Antes de usar AstroWarp, vincule su cuenta a la vista Self; actualmente no admite el uso en la vista de organización o VAR.",
+        "only_support_self_tips": "AstroWarp solo es compatible con la vista propia.",
+        "operate_config_tips": "Si necesita modificar la configuración, inicie sesión en {page}.",
+        "exit_node_label": "Nodo de salida",
+        "add_client_limit_tips": "El número de clientes que acceden a este router ha alcanzado el límite máximo. Por favor, visite AstroWarp para actualizar su plan de red.",
+        "add_router_limit_tips": "El número de routers accediendo a esta red ha alcanzado el límite máximo. Por favor, visite AstroWarp para editar su red.",
+        "network_plan_expired_tips": "Esta red ha expirado. Por favor, visite AstroWarp para actualizar/renovar su plan de red."
+    },
+    "aw_err": {
+        "not_joined_network_msg": "No unido a esta red."
     }
 }
