@@ -39,7 +39,10 @@
         "bind_not_self_tips": "Bitte binden Sie Ihr Konto an die Selbstansicht, bevor Sie AstroWarp verwenden; es wird derzeit nicht in der Organisations- oder VAR-Ansicht unterstützt.",
         "only_support_self_tips": "AstroWarp wird nur in der Selbstansicht unterstützt.",
         "operate_config_tips": "Wenn Sie die Konfiguration ändern müssen, melden Sie sich bitte bei {page} an.",
-        "exit_node_label": "Ausgang"
+        "exit_node_label": "Ausgang",
+        "add_client_limit_tips": "Die maximale Anzahl an Clients, die auf diesen Router zugreifen können, wurde erreicht. Bitte besuchen Sie AstroWarp, um Ihren Netzwerkplan zu upgraden.",
+        "add_router_limit_tips": "Die Anzahl der Router, die in diesem Netzwerk zugreifen, hat das Limit erreicht. Bitte besuchen Sie AstroWarp, um Ihr Netzwerk zu bearbeiten.",
+        "network_plan_expired_tips": "Dieses Netzwerk ist abgelaufen. Bitte besuchen Sie AstroWarp, um Ihren Netzwerkplan zu aktualisieren/zu verlängern."
     },
     "aw_err": {
         "not_joined_network_msg": "Diesem Netzwerk nicht beigetreten."
