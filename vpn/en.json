@@ -302,7 +302,8 @@
         "credential_pwd_label": "Credential Password",
         "ovpn_nordvpn_account_tips": "To ensure successful use of the VPN, please input your {label} (Note: {not} the login account email/password).",
         "ovpn_nordvpn_not_label": "Not",
-        "auto_gen_hint": "Auto Generate"
+        "auto_gen_hint": "Auto Generate",
+        "wg_urbanshield_limit_tips": "Binding failed, please visit {provider} to unbind other device."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
