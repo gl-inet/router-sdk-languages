@@ -250,6 +250,7 @@
         "invalid_line_label": "Неверный номер строки: {num}",
         "only_allowd_input_tips": "Ввод разрешен только до {limit}.",
         "only_num_letter_symbol_tips": "Только буквы, цифры и символы {symbol} разрешены.",
-        "min_max_length_tips": "{min} - {max} символов."
+        "min_max_length_tips": "{min} - {max} символов.",
+        "ipv6_limit_start_end_tips": "Оно должно начинаться с {start} и заканчиваться корректным IPv6-адресом {end}."
     }
 }
