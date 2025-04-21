@@ -504,7 +504,8 @@
         "need_pin_code_tips": "Karta SIM jest zablokowana i wymaga odblokowania za pomocą kodu PIN, pozostało {count} prób.",
         "pin_code_last_input_unlock_tips": "Kod PIN {code} jest nieprawidłowy, pozostała ostatnia szansa na jego odblokowanie. Jeśli ponowna próba się nie powiedzie, należy użyć telefonu do wprowadzenia kodu PUK w celu odblokowania.",
         "ip_type_tips": "Jeśli karta SIM nie obsługuje bieżącego ustawienia typu IP lub gdy wybrano IPv6, ale globalny przełącznik {ipv6} nie jest włączony, może to spowodować nieprawidłowości w wybieraniu numeru.",
-        "ip_type_label": "Typ IP"
+        "ip_type_label": "Typ IP",
+        "initializing_tips": "Modem jest inicjalizowany……"
     },
     "sim": {
         "sender_label": "Nadawca"
