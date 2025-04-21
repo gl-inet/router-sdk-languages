@@ -47,8 +47,7 @@
     "menu_guestip": "訪客網絡",
     "lanip": {
         "block_wan_label": "阻擋WAN子網路",
-        "block_wan_tips": "啟用此功能後，訪客網絡將無法訪問母網絡，並且會阻止訪客網絡訪問母網絡所在的網段。",
-        "not_asscess_tips": "目前訪客網絡無法訪問網段 {net}。",
-        "enable_block_wan_warning_tips": "啟用此功能後，訪客網絡將無法訪問母網絡，並且會阻止訪客網絡訪問母網絡所在的網段。"
+        "block_wan_tips": "如果啓用此功能，訪客網絡將無法訪問上級網絡和上級網絡所在的網絡段。",
+        "not_asscess_tips": "目前訪客網絡無法訪問網段 {net}。"
     }
 }

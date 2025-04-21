@@ -296,7 +296,14 @@
         "wg_guide_disabled_tips": "OpenVPN está conectado, desactive OpenVPN si necesita usar Wireguard VPN.",
         "manual_upload_tips": "Por favor visite {page} para ver los proveedores de servicios VPN compatibles con {type} y conocer los beneficios de usar una VPN.",
         "on_router_label": "VPN en el Router",
-        "own_services_use_vpn_label": "Uso de VPN para servicios privados"
+        "own_services_use_vpn_label": "Uso de VPN para servicios privados",
+        "sevice_credential_label": "Credencial de servicio",
+        "ovpn_nordvpn_account_label": "Credenciales de servicio de la cuenta NordVPN",
+        "credential_pwd_label": "Contraseña de credencial",
+        "ovpn_nordvpn_account_tips": "Para asegurar el uso exitoso de la VPN, por favor ingrese su {label} (Nota: {not} el correo electrónico/contraseña de la cuenta de inicio de sesión).",
+        "ovpn_nordvpn_not_label": "No",
+        "auto_gen_hint": "Generar automáticamente",
+        "wg_urbanshield_limit_tips": "No se pudo realizar la vinculación, por favor visite {provider} para desvincular otro dispositivo."
     },
     "menu_ovpnclient": "Cliente OpenVPN",
     "menu_wgclient": "Cliente WireGuard",
@@ -416,14 +423,24 @@
         "subcription_url_tips": "El nombre de dominio o IP en la URL se actualiza automáticamente todos los días.",
         "device_count_label": "{count} dispositivo|{count} dispositivos",
         "method_count_label": "{count} método|{count} métodos",
-        "custom_tunnel_title": "Personalizar túnel VPN"
+        "custom_tunnel_title": "Personalizar túnel VPN",
+        "stop_title": "Detener configuración de VPN",
+        "default_tunnel_tip": "Túnel incorporado inalterable."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
         "off_title": "El servidor {type} está actualmente APAGADO.",
         "connected_dev_label": "Dispositivos conectados",
         "on_label": "El servidor {type} está actualmente ENCENDIDO.",
-        "off_label": "El servidor {type} está actualmente APAGADO."
+        "off_label": "El servidor {type} está actualmente APAGADO.",
+        "enable_ipv6_tips": "Si IPv6 no está habilitado, la dirección IPv6 no tendrá efecto. Si desea utilizar una dirección IPv6, por favor {todo} en su router.",
+        "export_addr_tips": "Puede ingresar una dirección IP o nombre de dominio. La dirección es la dirección {label} en la configuración de la VPN.",
+        "modify_route_rule_title": "Modificar regla de ruta",
+        "added_route_rule_title": "Agregar nueva regla de ruta",
+        "enable_ipv6_btn": "Habilitado IPv6",
+        "route_rule_dest_already_exists_msg": "No se puede ingresar una dirección de destino que ya existe.",
+        "route_rules_title": "Reglas de ruta",
+        "want_use_ipv6_tips": "Si desea utilizar una dirección IPv6, por favor {todo} en su router."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Muchas funciones de enrutamiento no estarán disponibles.",

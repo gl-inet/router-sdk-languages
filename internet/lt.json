@@ -63,7 +63,7 @@
         "current_sim_badge_label": "Aktyvus: „SIM“ – {sim}",
         "excellent_singal_label": "Puikus",
         "good_singal_label": "Geras",
-        "fair_singal_label": "Vidutinis",
+        "fair_singal_label": "Patenkinama/-s",
         "poor_singal_label": "Blogas",
         "no_sim_tips2": "Jūsų „SIM“ kortelė neaptikta. Prašome patikrinti, ar kortelė teisingai įdėta ir ar kontaktai yra švarūs.",
         "manage_profiles_btn": "Tvarkyti profilius",
@@ -195,7 +195,6 @@
         "fail_eap_key_tips": "Neteisingas naudotojo/vartotojo vardas (t.y. slapyvardis) arba slaptažodis.",
         "to_auth_btn": "Eiti į – prisijungimą",
         "entry_again_tips": "Jei prisijungsite per 10 sekundžių, bus tiesiogiai naudojama talpykla, o ne atliekamas iš naujo nuskaitymas.",
-        "unable_scan_channel_tips": "Kelionėje per šalį gali būti neįmanoma skenuoti „Wi-Fi“ tam tikruose kanaluose dėl reguliavimo priežasčių.",
         "scan_wifi_fail_detection_channel_tips": "Įrenginys šiuo metu skenuoja optimalų kanalą, „Wi-Fi“ skenavimas šio proceso metu yra nepasiekiamas. Prašome palaukti, kol skenavimas bus baigtas.",
         "cannot_find_ssid": "Nerandate savo SSID?",
         "allow_auto_portal_tips": "Jei ši funkcija įjungta, maršrutizatorius automatiškai pereis į viešųjų prieigos taškų prisijungimo veikseną, kai sėkmingai prisijungs prie prieigos taško, bet ne prie interneto. Šioje veiksenoje kai kurios paslaugos bus sustabdytos, o DNS veiksena bus pakeista į automatinę, dėl ko gali būti atskleista jūsų tinklo veiklos informacija prieigos taško teikėjui (pvz., viešbučiui ar prekybos centrui).",
@@ -206,7 +205,15 @@
         "cannot_find_wifi": "Nerandate savo „Wi-Fi“?",
         "ssid_not_hidden_tips": "Įsitikinkite, kad jūsų „SSID“ nėra paslėptas.",
         "make_sure_works_tips": "Pabandykite su savo mobiliuoju telefonu ir įsitikinkite, kad veikia.",
-        "support_tips": "Susisiekite su mumis dėl tolesnės pagalbos adresu {addr}."
+        "support_tips": "Susisiekite su mumis dėl tolesnės pagalbos adresu {addr}.",
+        "allow_other_mode_change": "Leisti perjungti į kitų tinklų veikseną",
+        "no_switching": "Nepereinama",
+        "auto_switching": "Automatinis perjungimas",
+        "auto_switching_without_network": "Automatinis perjungimas be tinklo",
+        "no_switching_tips": "Kai įjungta neperjungimo veiksena, esant atjungtam dabartiniam „Wi-Fi“, neprisijungia jokie kiti išsaugoti tinklai.",
+        "auto_switching_tips": "Kai automatinio perjungimo veiksena įjungta, atsijungus dabartiniam „Wi-Fi“ tinklui bus prisijungta prie kitų išsaugotų tinklų.",
+        "auto_switching_without_network_tips": "Kai įgalinta automatinio perjungimo be tinklo veiksena, maršrutizatorius neatlieka tinklo skenavimo, kai jis įprastai prijungtas prie tinklo ne kartotuvo veiksenoje, ir perjungia tinklą tik tada, kai tinklo nėra, kas gali išvengti duomenų paketų praradimo.",
+        "repeater_not_auto_scan_tips": "{mode} veiksena šiuo metu yra įjungta. ir maršrutizatorius sėkmingai prisijungia prie interneto ne kartotuvo veiksenoje, kartotuvas automatiškai neatliks tinklo nuskaitymo."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
@@ -495,7 +502,10 @@
         "special_apns_tips": "Specialių operatorių teikiamoms APN, prašome pasirinkti pagal jūsų SIM kortelės faktinę situaciją.",
         "pin_code_last_unlock_tips": "SIM kortelė užrakinta ir ją reikia atrakinti PIN kodu, liko paskutinė bandymo galimybė ją atrakinti, jei nepavyks, reikės naudoti telefoną, kad ją atrakintumėte įvedant PUK kodą.",
         "need_pin_code_tips": "SIM kortelė užrakinta ir ją reikia atrakinti PIN kodu, liko dar {count} bandymai.",
-        "pin_code_last_input_unlock_tips": "PIN kodas {code} yra neteisingas, liko paskutinė bandymo galimybė atrakinti, jei atrakinimas vėl nepavyks, turėsite naudoti savo telefoną, kad įvestumėte PUK kodą atrakinimui."
+        "pin_code_last_input_unlock_tips": "PIN kodas {code} yra neteisingas, liko paskutinė bandymo galimybė atrakinti, jei atrakinimas vėl nepavyks, turėsite naudoti savo telefoną, kad įvestumėte PUK kodą atrakinimui.",
+        "ip_type_tips": "Jei SIM kortelė nepalaiko dabartinio IP tipo nustatymo arba kai pasirenkamas IPv6, bet {ipv6} visuotinis komutatorius nėra įjungtas, tai gali sukelti skambinimo sutrikimus.",
+        "ip_type_label": "IP tipas",
+        "initializing_tips": "Modemas yra inicijuojamas……"
     },
     "sim": {
         "sender_label": "Siuntėjas"
@@ -505,5 +515,10 @@
         "switch_to_label": "Pereiti į {slot}",
         "vsim_switch_to_physical_tips": "Jūs perjungsite iš virtualios SIM kortelės (vSIM) į fizinę SIM kortelę. Turėsite įterpti savo fizinę SIM kortelę į įrenginio lizdą, kad galėtumėte prisijungti prie interneto. Prašome patvirtinti, kad fizinė SIM kortelė įdėta.",
         "physical_switch_to_vsim_tips": "Jūs pereisite nuo fizinės SIM kortelės prie modulio virtualios SIM kortelės (vSIM). Jums reikės patvirtinti, kad įsigijote duomenų planą simo svetainėje (nuskaitykite įrenginio QR kodą, kad jį įsigytumėte). Tada galite išimti fizinę SIM kortelę iš įrenginio."
+    },
+    "apn": {
+        "enable_polling_label": "Įgalinti apklausą",
+        "polling_control_title": "APN apklausos valdymas",
+        "enable_polling_tips": "Jei įrenginyje naudojama Verizon SIM kortelė ir ši funkcija įjungta, įrenginys nuolat tikrins APN iki 12 minučių po paleidimo iš naujo, kol tinklo ryšys bus normalus. Ši funkcija galioja tik Verizon SIM kortelėms."
     }
 }

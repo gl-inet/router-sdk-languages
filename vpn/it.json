@@ -296,7 +296,14 @@
         "wg_guide_disabled_tips": "OpenVPN è connesso, disattiva OpenVPN se devi utilizzare la VPN Wireguard.",
         "manual_upload_tips": "Si prega di visitare {page} per visualizzare i fornitori di servizi VPN compatibili con {type} e conoscere i vantaggi dell'utilizzo di una VPN.",
         "on_router_label": "VPN sul Router",
-        "own_services_use_vpn_label": "Uso di VPN per servizi privati"
+        "own_services_use_vpn_label": "Uso di VPN per servizi privati",
+        "ovpn_nordvpn_account_tips": "Per garantire l'uso corretto della VPN, per favore inserisci il tuo {label} (Nota: {not} l'email/password dell'account di accesso).",
+        "sevice_credential_label": "Credenziali di Servizio",
+        "ovpn_nordvpn_account_label": "Credenziali di servizio dell'account NordVPN",
+        "credential_pwd_label": "Password delle Credenziali",
+        "ovpn_nordvpn_not_label": "Non",
+        "auto_gen_hint": "Genera automaticamente",
+        "wg_urbanshield_limit_tips": "Binding fallito, si prega di visitare {provider} per rimuovere il binding da altri dispositivi."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -416,14 +423,24 @@
         "device_count_label": "{count} Dispositivo|{count} Dispositivi",
         "subcription_url_label": "URL dell'abbonamento",
         "method_count_label": "{count} Metodo|{count} Metodi",
-        "custom_tunnel_title": "Personalizza il tunnel VPN"
+        "custom_tunnel_title": "Personalizza il tunnel VPN",
+        "stop_title": "Interrompi Configurazione VPN",
+        "default_tunnel_tip": "Tunnel integrato immutabile."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
         "off_title": "Il server {type} è attualmente SPENTO.",
         "starting_label": "Il server {type} è in avviamento...",
         "on_label": "Il server {type} è attualmente ACCESO.",
-        "off_label": "Il server {type} è attualmente SPENTO."
+        "off_label": "Il server {type} è attualmente SPENTO.",
+        "route_rules_title": "Regole di Instradamento",
+        "modify_route_rule_title": "Modifica Regola di Instradamento",
+        "added_route_rule_title": "Aggiungi Nuova Regola di Instradamento",
+        "enable_ipv6_btn": "Abilitato IPv6",
+        "route_rule_dest_already_exists_msg": "Non è possibile inserire un indirizzo di destinazione che esiste già.",
+        "enable_ipv6_tips": "Se IPv6 non è abilitato, l'indirizzo IPv6 non avrà effetto. Se vuoi utilizzare un indirizzo IPv6, per favore {todo} sul tuo router.",
+        "want_use_ipv6_tips": "Se vuoi utilizzare un indirizzo IPv6, per favore {todo} sul tuo router.",
+        "export_addr_tips": "Puoi inserire un indirizzo IP o un nome di dominio. L'indirizzo è l'indirizzo {label} nella configurazione VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Molte funzioni di instradamento non saranno disponibili.",

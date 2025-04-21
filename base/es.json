@@ -120,7 +120,9 @@
         "revoke_btn": "Revocar",
         "manual_add_mac_btn": "Agregar Dispositivo Manualmente",
         "got_it": "Entendido.",
-        "attention_title": "Atención"
+        "attention_title": "Atención",
+        "remove_btn": "Eliminar",
+        "notice_title": "Aviso"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -138,7 +140,8 @@
         "send_success_tips": "¡Enviado con éxito!",
         "successfully_badge_tips": "¡Operación completada con éxito!",
         "sign_up_success": "¡Registrado con éxito!",
-        "lack_of_memory_tips": "Debido a la falta de memoria, si desea actualizar el firmware, puede intentar reiniciar el dispositivo."
+        "lack_of_memory_tips": "Debido a la falta de memoria, si desea actualizar el firmware, puede intentar reiniciar el dispositivo.",
+        "copy_success": "Copia exitosa"
     },
     "date": {
         "sunday": "Dom|Domingo",
@@ -247,6 +250,7 @@
         "invalid_line_label": "Número de línea inválido: {num}",
         "only_allowd_input_tips": "Solo se permite ingresar {limit}.",
         "min_max_length_tips": "{min} - {max} caracteres.",
-        "only_num_letter_symbol_tips": "Solo se permiten letras, números y los símbolos {symbol}."
+        "only_num_letter_symbol_tips": "Solo se permiten letras, números y los símbolos {symbol}.",
+        "ipv6_limit_start_end_tips": "Debe comenzar con {start} y terminar con una dirección IPv6 correcta de {end}."
     }
 }

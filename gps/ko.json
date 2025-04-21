@@ -1,1 +1,26 @@
-{}
+{
+    "gps": {
+        "traccar": "Traccar",
+        "title": "GPS",
+        "tracking_server": "추적 서버",
+        "intervals": "간격",
+        "altitude": "고도",
+        "report": "보고",
+        "update_time": "업데이트 시간",
+        "longitude": "경도",
+        "speed": "속도",
+        "latitude": "위도",
+        "custom": "사용자 정의",
+        "gnss_mode": "GNSS 모드",
+        "address": "주소",
+        "report_battery_status": "배터리 상태 보고",
+        "data_format": "데이터 형식",
+        "device_id": "장치 ID",
+        "report_cell": "셀 보고",
+        "report_repeated_wifi": "Wi-Fi 반복 보고",
+        "gps_tips": "GPS가 활성화된 후 위치 데이터가 수집되기까지 몇 분 정도 걸릴 수 있습니다. 신호가 전혀 없는 경우, 장치나 GPS 안테나를 실외 개방된 곳에 두어 보십시오.",
+        "report_repeated_wifi_tips": "이 옵션을 활성화하면, 장치가 현재 리피터의 SSID를 보고합니다.",
+        "data_format_tips": "设备报告使用的数据格式是什么？"
+    },
+    "menu_gps": "GPS"
+}

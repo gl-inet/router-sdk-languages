@@ -72,7 +72,14 @@
         "reserved_ip_tips": "Cuando especifica una dirección IP reservada para un cliente dentro de la LAN, el cliente siempre recibe la misma dirección IP cada vez que accede al servidor DHCP del enrutador. Puede asignar direcciones IP reservadas a computadoras o servidores que requieren configuraciones IP permanentes.",
         "reserved_ip_label": "IP reservada",
         "next_connect_effect_tips": "La configuración actual requiere que la próxima conexión surta efecto.",
-        "reserve_ip_only_ipv4_tips": "Solo se puede configurar la reserva de dirección IPv4 del segmento LAN."
+        "reserve_ip_only_ipv4_tips": "Solo se puede configurar la reserva de dirección IPv4 del segmento LAN.",
+        "host_guest_label": "Red de Host/Invitado",
+        "reserve_ip_different_lan_tips": "La IP reservada no está en el mismo segmento de red que la IP actual, la configuración no surte efecto."
     },
-    "menu_clients": "Clientes"
+    "menu_clients": "Clientes",
+    "vpn_tunnel": {
+        "mac_using_tips": "La VPN está conectada.",
+        "mac_not_effect_tips": "La VPN no está en funcionamiento.",
+        "mac_connecting_tips": "La VPN se está conectando."
+    }
 }

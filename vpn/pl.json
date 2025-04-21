@@ -296,7 +296,14 @@
         "wg_guide_disabled_tips": "OpenVPN jest połączony, wyłącz OpenVPN, jeśli potrzebujesz użyć VPN Wireguard.",
         "manual_upload_tips": "Proszę odwiedzić {page}, aby zobaczyć dostawców usług VPN kompatybilnych z {type} i dowiedzieć się o korzyściach z używania VPN.",
         "on_router_label": "VPN na Routerze",
-        "own_services_use_vpn_label": "Użycie VPN dla prywatnych usług"
+        "own_services_use_vpn_label": "Użycie VPN dla prywatnych usług",
+        "ovpn_nordvpn_account_tips": "Aby zapewnić pomyślne korzystanie z VPN, proszę wprowadzić swoje {label} (Uwaga: {not} email/hasło konta logowania).",
+        "ovpn_nordvpn_account_label": "Poświadczenia usługi konta NordVPN",
+        "credential_pwd_label": "Hasło poświadczenia",
+        "sevice_credential_label": "Poświadczenie usługi",
+        "ovpn_nordvpn_not_label": "Nie",
+        "auto_gen_hint": "Automatyczne generowanie",
+        "wg_urbanshield_limit_tips": "Powiązanie nie powiodło się, odwiedź {provider}, aby odłączyć inne urządzenie."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
@@ -416,14 +423,24 @@
         "subcription_url_tips": "Nazwa domeny lub adres IP w adresie URL jest automatycznie aktualizowana każdego dnia.",
         "device_count_label": "{count} urządzenie|{count} urządzenia|{count} urządzeń",
         "method_count_label": "{count} metoda|{count} metody|{count} metod",
-        "custom_tunnel_title": "Dostosuj tunel VPN"
+        "custom_tunnel_title": "Dostosuj tunel VPN",
+        "stop_title": "Zatrzymaj konfigurację VPN",
+        "default_tunnel_tip": "Niezmienialny wbudowany tunel."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
         "starting_label": "Serwer {type} jest uruchamiany...",
         "connected_dev_label": "Podłączone urządzenia",
         "on_label": "Serwer {type} jest obecnie WŁĄCZONY.",
-        "off_label": "Serwer {type} jest obecnie WYŁĄCZONY."
+        "off_label": "Serwer {type} jest obecnie WYŁĄCZONY.",
+        "enable_ipv6_tips": "Jeśli IPv6 nie jest włączone, adres IPv6 nie będzie działał. Jeśli chcesz używać adresu IPv6, proszę {todo} w routerze.",
+        "modify_route_rule_title": "Modyfikuj regułę trasy",
+        "added_route_rule_title": "Dodaj nową regułę trasy",
+        "enable_ipv6_btn": "Włącz IPv6",
+        "route_rule_dest_already_exists_msg": "Nie można wprowadzić adresu docelowego, który już istnieje.",
+        "route_rules_title": "Reguły trasowania",
+        "want_use_ipv6_tips": "Jeśli chcesz używać adresu IPv6, proszę {todo} w routerze.",
+        "export_addr_tips": "Możesz wprowadzić adres IP lub nazwę domeny. Adres jest {label} adres w konfiguracji VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych.",

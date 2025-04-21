@@ -265,7 +265,6 @@
         "allow_auto_portal_label": "Automatikus bejelentkezési mód engedélyezése nyilvános hálózatokhoz",
         "to_auth_btn": "Ugrás a bejelentkezésre",
         "entry_again_tips": "Ha 10 másodpercen belül újra belép, akkor közvetlenül a gyorsítótárból húzza be az adatokat, ahelyett, hogy újraellenőrizné.",
-        "unable_scan_channel_tips": "Utazás közben előfordulhat, hogy szabályozási okok miatt bizonyos csatornákon nem lehetséges Wi-Fi hálózatokat keresni.",
         "scan_wifi_fail_detection_channel_tips": "Az eszköz jelenleg az optimális csatorna keresését végzi, a Wi-Fi keresés e folyamat alatt nem elérhető. Kérem, türelmesen várja meg a keresés befejezését.",
         "cannot_find_ssid": "Nem találja a SSID-t?",
         "allow_auto_portal_tips": "Ha ez az opció engedélyezve van, a router automatikusan Belépési Módra vált Nyilvános Hálózati Pontok esetén, amikor sikeresen csatlakozik egy hotspot-hoz, de nem az internethez. Ebben a módban néhány szolgáltatás felfüggesztésre kerül, míg a DNS mód automatikusra vált, ami esetlegesen kiadhatja a hálózati tevékenység információit a hotspot szolgáltatójának (pl. hotel vagy bevásárlóközpont).",
@@ -276,7 +275,15 @@
         "cannot_find_wifi": "Nem találja a Wi-Fi hálózatot?",
         "ssid_not_hidden_tips": "Győződjön meg róla, hogy az SSID nem rejtett.",
         "make_sure_works_tips": "Mobiltelefonjával próbálja ki, és győződjön meg róla, hogy működik.",
-        "support_tips": "Forduljon hozzánk további segítségért a {addr} címen."
+        "support_tips": "Forduljon hozzánk további segítségért a {addr} címen.",
+        "allow_other_mode_change": "Engedélyezze az átváltást más hálózati módokra",
+        "no_switching": "Nincs váltás",
+        "auto_switching": "Automatikus váltás",
+        "no_switching_tips": "Amikor a Váltás nélküli mód engedélyezve van, a jelenlegi Wi-Fi kapcsolat megszakadása esetén nem csatlakozik más mentett hálózatokhoz.",
+        "auto_switching_without_network": "Hálózat nélküli automatikus váltás",
+        "auto_switching_tips": "Amikor az automatikus váltási mód engedélyezett, a jelenlegi Wi-Fi kapcsolat megszakadása esetén más mentett hálózatokhoz csatlakozik a rendszer.",
+        "auto_switching_without_network_tips": "Amikor az Automatikus váltás Hálózat nélküli módban engedélyezve van, a router nem hajt végre hálózati beolvasást, amikor normál hálózati módban van és nem ismétlő módban, és csak akkor vált hálózatot, ha nincs hálózat, ami elkerülheti a kommunikációs csomagvesztést.",
+        "repeater_not_auto_scan_tips": "A(z) {mode} mód jelenleg engedélyezve van. és az útválasztó sikeresen csatlakozik az internethez nem ismétlő módban, az ismétlő nem fog automatikusan hálózati keresést végezni."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
@@ -495,7 +502,10 @@
         "special_apns_tips": "Különleges szolgáltatók által biztosított APN-ek esetén, kérjük, válasszon a SIM-kártyája tényleges helyzetének megfelelően.",
         "pin_code_last_unlock_tips": "A SIM-kártya zárolva van, és PIN-kóddal kell feloldani. Már csak egy próbálkozási lehetőség maradt, ha ez sem sikerül, akkor a telefonon kell megadni a PUK kódot a feloldáshoz.",
         "need_pin_code_tips": "A SIM-kártya zárolva van, és PIN-kóddal kell feloldani, még {count} próbálkozás van hátra.",
-        "pin_code_last_input_unlock_tips": "A PIN kód {code} helytelen, ez az utolsó próbálkozási lehetőség a feloldáshoz, ha ismét sikertelen a feloldás, akkor a telefonját kell használnia a PUK kód megadásához a feloldáshoz."
+        "pin_code_last_input_unlock_tips": "A PIN kód {code} helytelen, ez az utolsó próbálkozási lehetőség a feloldáshoz, ha ismét sikertelen a feloldás, akkor a telefonját kell használnia a PUK kód megadásához a feloldáshoz.",
+        "ip_type_tips": "Ha a SIM-kártya nem támogatja az aktuális IP-típus beállítást, vagy ha az IPv6 van kiválasztva, de a {ipv6} globális kapcsoló nincs bekapcsolva, az tárcsázási rendellenességeket okozhat.",
+        "ip_type_label": "IP típus",
+        "initializing_tips": "A modem inicializálása folyamatban van……"
     },
     "sim": {
         "sender_label": "Feladó"
@@ -505,5 +515,10 @@
         "switch_to_label": "Váltás a(z) {slot} helyre",
         "vsim_switch_to_physical_tips": "Ön virtuális SIM kártyáról (vSIM) fizikai SIM kártyára fog váltani. A fizikai SIM kártyát be kell helyeznie az eszköz nyílásába az internethez való csatlakozáshoz. Kérjük, erősítse meg, hogy a fizikai SIM kártya be van helyezve.",
         "physical_switch_to_vsim_tips": "Az átváltás a fizikai SIM kártyáról a modul virtuális SIM kártyájára (vSIM) történik. Meg kell erősítenie, hogy vásárolt adatcsomagot a simo weboldalon (a készüléken található QR-kód beolvasásával vásárolhatja meg). Ezután eltávolíthatja a fizikai SIM kártyát a készülékből."
+    },
+    "apn": {
+        "enable_polling_label": "Lekérdezés engedélyezése",
+        "polling_control_title": "APN lekérdezés vezérlés",
+        "enable_polling_tips": "Ha az eszköz Verizon SIM-kártyát használ és ez a funkció engedélyezve van, az eszköz újraindítás után akár 12 percig is folyamatosan lekérdezi az APN-t, amíg a hálózati kapcsolat helyre nem áll. Ez a funkció csak Verizon SIM-kártyák esetén érvényes."
     }
 }

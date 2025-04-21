@@ -296,7 +296,14 @@
         "accurate_account_label": "der genaue NordVPN-Benutzername und das Kennwort",
         "manual_upload_tips": "Bitte besuchen Sie {page}, um VPN-Dienstanbieter zu sehen, die mit {type} kompatibel sind, und um mehr über die Vorteile der Nutzung eines VPN zu erfahren.",
         "on_router_label": "VPN auf Router",
-        "own_services_use_vpn_label": "Nutzung von VPN für private Dienste"
+        "own_services_use_vpn_label": "Nutzung von VPN für private Dienste",
+        "sevice_credential_label": "Dienstzugangsdaten",
+        "ovpn_nordvpn_account_label": "Service-Zugangsdaten des NordVPN-Kontos",
+        "credential_pwd_label": "Zugangskennwort",
+        "ovpn_nordvpn_account_tips": "Um die erfolgreiche Nutzung des VPNs zu gewährleisten, geben Sie bitte Ihr {label} ein (Hinweis: {not} die E-Mail/Passwort des Anmeldekontos).",
+        "ovpn_nordvpn_not_label": "Nicht",
+        "auto_gen_hint": "Automatisch generieren",
+        "wg_urbanshield_limit_tips": "Bindung fehlgeschlagen, bitte besuchen Sie {provider}, um andere Geräte zu entbinden."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -416,14 +423,24 @@
         "remove_confirm_tips": "Sind Sie sicher, dass Sie diesen Tunnel löschen möchten?",
         "subcription_url_tips": "Die Domain-Adresse oder IP in der URL wird automatisch jeden Tag aktualisiert.",
         "device_count_label": "{count} Gerät|{count} Geräte",
-        "custom_tunnel_title": "VPN-Tunnel anpassen"
+        "custom_tunnel_title": "VPN-Tunnel anpassen",
+        "stop_title": "VPN-Konfiguration stoppen",
+        "default_tunnel_tip": "Unveränderlicher eingebauter Tunnel."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
         "off_title": "Der {type} Server ist derzeit AUSGESCHALTET.",
         "connected_dev_label": "Verbundene Geräte",
         "on_label": "Der {type} Server ist derzeit EINGESCHALTET.",
-        "off_label": "Der {type} Server ist derzeit AUSGESCHALTET."
+        "off_label": "Der {type} Server ist derzeit AUSGESCHALTET.",
+        "modify_route_rule_title": "Routenregel ändern",
+        "added_route_rule_title": "Neue Routenregel hinzufügen",
+        "enable_ipv6_btn": "IPv6 aktiviert",
+        "route_rule_dest_already_exists_msg": "Es kann keine Zieladresse eingegeben werden, die bereits existiert.",
+        "enable_ipv6_tips": "Wenn IPv6 nicht aktiviert ist, wird die IPv6-Adresse nicht wirksam. Wenn Sie eine IPv6-Adresse verwenden möchten, aktivieren Sie bitte {todo} auf Ihrem Router.",
+        "route_rules_title": "Routenregeln",
+        "want_use_ipv6_tips": "Wenn Sie eine IPv6-Adresse verwenden möchten, aktivieren Sie bitte {todo} auf Ihrem Router.",
+        "export_addr_tips": "Sie können eine IP-Adresse oder einen Domainnamen eingeben. Adresse ist die {label} Adresse in der VPN-Konfiguration."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein.",

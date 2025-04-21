@@ -49,7 +49,7 @@
         "limit_speed": "Apriboti greitį",
         "clear_traffic_label": "Išvalyti srauto statistiką",
         "whitelist_self_error_tips": "Leidimų sąraše privalote įtraukti savo „MAC“ adresą.",
-        "self": "savo",
+        "self": "Jūs",
         "limit_speed_title": "Greičio ribojimo nustatymai",
         "descending": "Mažėjančia tvarka",
         "random_mac_tips": "Tai/Šis yra atsitiktinis „MAC“ adresas.",
@@ -72,7 +72,14 @@
         "reserved_ip_label": "Rezervuotas IP",
         "reserved_ip_tips": "Kai nustatote rezervuotą IP adresą klientui vietiniame tinkle („LAN“), klientas visada gauna tą patį IP adresą kiekvieną kartą, kai jis prisijungia prie maršrutizatoriaus DHCP serverio. Galite priskirti rezervuotus IP adresus kompiuteriams ar serveriams, kuriems reikalingi nuolatiniai IP nustatymai.",
         "next_connect_effect_tips": "Dabartinė konfigūracija reikalauja, kad įsigaliotų tolimesnis ryšys.",
-        "reserve_ip_only_ipv4_tips": "Galima konfigūruoti tik vietinio tinklo („LAN“) segmento IPv4 adreso rezervaciją."
+        "reserve_ip_only_ipv4_tips": "Galima konfigūruoti tik vietinio tinklo („LAN“) segmento IPv4 adreso rezervaciją.",
+        "host_guest_label": "Skleidėjas/Svečio Tinklas",
+        "reserve_ip_different_lan_tips": "Rezervuotas IP nėra tame pačiame tinklo segmente kaip dabartinis IP, konfigūracija neveikia."
     },
-    "menu_clients": "Klientai"
+    "menu_clients": "Klientai",
+    "vpn_tunnel": {
+        "mac_using_tips": "„VPN“ yra prisijungtas.",
+        "mac_not_effect_tips": "„VPN“ neveikia.",
+        "mac_connecting_tips": "„VPN“ jungiasi."
+    }
 }

@@ -88,7 +88,6 @@
         "enable_disguise_label": "Camouflage inschakelen",
         "enable_disguise_tips": "Als deze optie is ingeschakeld, vermomt de router zich als het apparaat die het clientapparaat momenteel gebruikt.",
         "entry_again_tips": "Als u binnen 10 seconden opnieuw invoert, wordt er direct uit de cache gehaald in plaats van opnieuw te scannen.",
-        "unable_scan_channel_tips": "Bij het reizen door het land is het mogelijk dat het scannen naar Wi-Fi op bepaalde kanalen niet toegestaan is vanwege regelgeving.",
         "scan_wifi_fail_detection_channel_tips": "Het apparaat scant momenteel naar het optimale kanaal, Wi-Fi-scannen is niet beschikbaar tijdens dit proces. Wacht alstublieft geduldig tot de scan voltooid is.",
         "cannot_find_ssid": "Kunt u uw SSID niet vinden?",
         "allow_auto_portal_tips": "Als deze optie is ingeschakeld, zal deze router automatisch de Inlogmodus voor Openbare Hotspots activeren wanneer hij succesvol verbinding maakt met een hotspot, maar niet met het internet. In deze modus worden sommige diensten opgeschort terwijl de DNS-modus wordt overgeschakeld naar automatisch, wat kan leiden tot het lekken van uw netwerkactiviteiteninformatie aan de hotspotprovider (bijvoorbeeld een hotel of winkelcentrum).",
@@ -99,7 +98,15 @@
         "cannot_find_wifi": "Kan mijn Wi-Fi niet vinden?",
         "ssid_not_hidden_tips": "Zorg ervoor dat uw SSID niet verborgen is.",
         "make_sure_works_tips": "Probeer het met uw mobiele telefoon en zorg ervoor dat het werkt.",
-        "support_tips": "Neem voor verdere hulp contact met ons op via {addr}."
+        "support_tips": "Neem voor verdere hulp contact met ons op via {addr}.",
+        "allow_other_mode_change": "Toestaan om over te schakelen naar andere netwerkmodi",
+        "no_switching": "Geen omschakeling",
+        "auto_switching": "Automatisch schakelen",
+        "auto_switching_without_network": "Automatisch overschakelen zonder netwerk",
+        "no_switching_tips": "Wanneer de modus 'Geen overschakeling' is ingeschakeld, worden geen andere opgeslagen netwerken verbonden wanneer de huidige Wi-Fi wordt verbroken.",
+        "auto_switching_tips": "Wanneer de modus voor automatisch overschakelen is ingeschakeld, worden andere opgeslagen netwerken verbonden wanneer de huidige Wi-Fi wordt verbroken.",
+        "auto_switching_without_network_tips": "Wanneer de modus Automatisch overschakelen zonder netwerk is ingeschakeld, voert de router geen netwerkscanning uit wanneer deze normaal is genetwerkt in niet-repeatermodus, en schakelt alleen over naar een ander netwerk wanneer er geen netwerk is, wat communicatiepakketverlies kan voorkomen.",
+        "repeater_not_auto_scan_tips": "De {mode} modus is momenteel ingeschakeld. en de router maakt succesvol verbinding met het internet in niet-repeater modus, de repeater zal niet automatisch netwerkscans uitvoeren."
     },
     "modem": {
         "title": "Mobiel",
@@ -495,7 +502,10 @@
         "special_apns_tips": "Voor APN's die door speciale operators worden aangeboden, kies alstublieft volgens de daadwerkelijke situatie van uw SIM-kaart.",
         "pin_code_last_unlock_tips": "De SIM-kaart is vergrendeld en moet ontgrendeld worden met een PIN-code, er is nog één laatste poging over om het te proberen, als dit niet lukt, moet u uw telefoon gebruiken om het te ontgrendelen door de PUK-code in te voeren.",
         "need_pin_code_tips": "De SIM-kaart is vergrendeld en moet worden ontgrendeld met een PIN-code, er zijn nog {count} pogingen over.",
-        "pin_code_last_input_unlock_tips": "PIN-code {code} is onjuist, er is nog één laatste kans om het te proberen te ontgrendelen, als het opnieuw mislukt, moet u uw telefoon gebruiken om de PUK-code in te voeren om te ontgrendelen."
+        "pin_code_last_input_unlock_tips": "PIN-code {code} is onjuist, er is nog één laatste kans om het te proberen te ontgrendelen, als het opnieuw mislukt, moet u uw telefoon gebruiken om de PUK-code in te voeren om te ontgrendelen.",
+        "ip_type_tips": "Als de simkaart de huidige IP-type-instelling niet ondersteunt, of wanneer IPv6 is geselecteerd maar de {ipv6} globale schakelaar niet is ingeschakeld, kan dit resulteren in kiesafwijkingen.",
+        "ip_type_label": "IP-type",
+        "initializing_tips": "De modem wordt geïnitialiseerd……"
     },
     "sim": {
         "sender_label": "Afzender"
@@ -505,5 +515,10 @@
         "switch_to_label": "Schakel over naar {slot}",
         "vsim_switch_to_physical_tips": "U schakelt over van een virtuele SIM-kaart (vSIM) naar een fysieke SIM-kaart. U moet uw fysieke SIM-kaart in de sleuf van het apparaat plaatsen om verbinding te maken met het internet. Bevestig alstublieft dat de fysieke SIM-kaart is ingevoerd.",
         "physical_switch_to_vsim_tips": "U schakelt over van fysieke SIM-kaart naar virtuele SIM-kaart (vSIM) van het module. U moet bevestigen dat u een databundel hebt gekocht op de simo-website (scan de QR-code op het apparaat om deze te kopen). Daarna kunt u de fysieke SIM-kaart uit het apparaat verwijderen."
+    },
+    "apn": {
+        "enable_polling_label": "Polling inschakelen",
+        "polling_control_title": "APN Polling Controle",
+        "enable_polling_tips": "Als het apparaat een Verizon SIM-kaart gebruikt en deze functie is ingeschakeld, zal het apparaat continu de APN controleren gedurende maximaal 12 minuten na het herstarten totdat de netwerkverbinding normaal is. Deze functie is alleen geldig voor Verizon SIM-kaarten."
     }
 }

@@ -53,7 +53,6 @@
         "retry_connet_tips": "Połączenie nieudane, nastąpi ponowna próba później…",
         "lock_bssid_tips": "Jeśli ta opcja jest włączona, router będzie łączył się tylko z AP odpowiadającym wybranemu BSSID, gdy przełącza się na sieć z tym SSID.",
         "entry_again_tips": "Jeśli ponownie wejdziesz w ciągu 10 sekund, zostanie użyta pamięć podręczna zamiast ponownego skanowania.",
-        "unable_scan_channel_tips": "Podczas podróży międzykrajowej może nie być możliwe skanowanie Wi-Fi na niektórych kanałach z powodów regulacyjnych.",
         "scan_wifi_fail_detection_channel_tips": "Urządzenie obecnie skanuje w poszukiwaniu optymalnego kanału, skanowanie Wi-Fi jest niedostępne podczas tego procesu. Proszę cierpliwie czekać na zakończenie skanowania.",
         "cannot_find_ssid": "Nie możesz znaleźć swojego SSID?",
         "allow_auto_portal_tips": "Jeśli ta opcja jest włączona, router automatycznie przejdzie w tryb logowania do publicznych hotspotów, gdy połączy się z hotspotem, ale nie z Internetem. W tym trybie niektóre usługi zostaną zawieszone, a tryb DNS zostanie przełączony na automatyczny, co może spowodować przeciek informacji o aktywności sieciowej do dostawcy hotspotu (np. hotelu lub centrum handlowego).",
@@ -64,7 +63,15 @@
         "cannot_find_wifi": "Nie można znaleźć mojego Wi-Fi?",
         "ssid_not_hidden_tips": "Upewnij się, że twoje SSID nie jest ukryte.",
         "make_sure_works_tips": "Spróbuj użyć swojego telefonu komórkowego i upewnij się, że działa.",
-        "support_tips": "Skontaktuj się z nami, aby uzyskać dalszą pomoc pod adresem {addr}."
+        "support_tips": "Skontaktuj się z nami, aby uzyskać dalszą pomoc pod adresem {addr}.",
+        "allow_other_mode_change": "Zezwalaj na przełączanie do trybu innych sieci",
+        "no_switching": "Brak przełączania",
+        "auto_switching": "Automatyczne przełączanie",
+        "auto_switching_without_network": "Automatyczne przełączanie bez sieci",
+        "no_switching_tips": "Gdy włączony jest tryb Bez przełączania, żadne inne zapisane sieci nie są łączone, gdy obecne Wi-Fi zostanie rozłączone.",
+        "auto_switching_tips": "Gdy włączony jest tryb automatycznego przełączania, inne zapisane sieci zostaną połączone, gdy aktualne Wi-Fi zostanie rozłączone.",
+        "auto_switching_without_network_tips": "Gdy włączony jest tryb automatycznego przełączania bez sieci, router nie wykonuje skanowania sieci, gdy jest normalnie podłączony w trybie innym niż repeater, i przełącza sieć tylko wtedy, gdy nie ma dostępu do sieci, co może zapobiec utracie pakietów komunikacyjnych.",
+        "repeater_not_auto_scan_tips": "Tryb {mode} jest obecnie włączony. a router pomyślnie łączy się z internetem w trybie innym niż repeater, repeater nie będzie automatycznie wykonywał skanowania sieci."
     },
     "cable": {
         "title": "Ethernet",
@@ -495,7 +502,10 @@
         "special_apns_tips": "Dla APN-ów dostarczanych przez specjalnych operatorów, proszę wybrać zgodnie z rzeczywistym stanem Państwa karty SIM.",
         "pin_code_last_unlock_tips": "Karta SIM jest zablokowana i wymaga odblokowania za pomocą kodu PIN, pozostała ostatnia szansa na jej odblokowanie, jeśli się nie powiedzie, należy użyć telefonu do odblokowania jej, wprowadzając kod PUK.",
         "need_pin_code_tips": "Karta SIM jest zablokowana i wymaga odblokowania za pomocą kodu PIN, pozostało {count} prób.",
-        "pin_code_last_input_unlock_tips": "Kod PIN {code} jest nieprawidłowy, pozostała ostatnia szansa na jego odblokowanie. Jeśli ponowna próba się nie powiedzie, należy użyć telefonu do wprowadzenia kodu PUK w celu odblokowania."
+        "pin_code_last_input_unlock_tips": "Kod PIN {code} jest nieprawidłowy, pozostała ostatnia szansa na jego odblokowanie. Jeśli ponowna próba się nie powiedzie, należy użyć telefonu do wprowadzenia kodu PUK w celu odblokowania.",
+        "ip_type_tips": "Jeśli karta SIM nie obsługuje bieżącego ustawienia typu IP lub gdy wybrano IPv6, ale globalny przełącznik {ipv6} nie jest włączony, może to spowodować nieprawidłowości w wybieraniu numeru.",
+        "ip_type_label": "Typ IP",
+        "initializing_tips": "Modem jest inicjalizowany……"
     },
     "sim": {
         "sender_label": "Nadawca"
@@ -505,5 +515,10 @@
         "switch_to_label": "Przełącz na {slot}",
         "vsim_switch_to_physical_tips": "Przełączysz się z wirtualnej karty SIM (vSIM) na fizyczną kartę SIM. Musisz włożyć fizyczną kartę SIM do gniazda urządzenia, aby połączyć się z Internetem. Proszę potwierdzić, że fizyczna karta SIM została włożona.",
         "physical_switch_to_vsim_tips": "Przełączysz się z fizycznej karty SIM na wirtualną kartę SIM (vSIM) modułu. Musisz potwierdzić, że zakupiłeś plan danych na stronie simo (zeskanuj kod QR na urządzeniu, aby go zakupić). Następnie możesz usunąć fizyczną kartę SIM z urządzenia."
+    },
+    "apn": {
+        "enable_polling_label": "Włączanie sondowania",
+        "polling_control_title": "Kontrola sondowania APN",
+        "enable_polling_tips": "Jeśli urządzenie korzysta z karty SIM Verizon i ta funkcja jest włączona, urządzenie będzie ciągle sondować APN przez maksymalnie 12 minut po ponownym uruchomieniu, aż połączenie sieciowe będzie normalne. Ta funkcja jest ważna tylko dla kart SIM Verizon."
     }
 }

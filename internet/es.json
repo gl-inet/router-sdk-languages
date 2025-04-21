@@ -88,7 +88,6 @@
         "cannot_accessed_portal_url_tips": "Si no puede acceder a la página de inicio de sesión, intente desactivar otras conexiones a Internet (por ejemplo, ethernet, movil).",
         "quit_btn": "Salir del Modo de Inicio de Sesión",
         "entry_again_tips": "Si vuelve a ingresar dentro de los 10 segundos, se extraerá directamente del caché en lugar de volver a escanear.",
-        "unable_scan_channel_tips": "Al viajar a través del país, puede que no sea posible escanear Wi-Fi en ciertos canales debido a razones regulatorias.",
         "scan_wifi_fail_detection_channel_tips": "El dispositivo está escaneando actualmente para encontrar el canal óptimo, la búsqueda de Wi-Fi no está disponible durante este proceso. Por favor, espere pacientemente a que se complete el escaneo.",
         "cannot_find_ssid": "¿No encuentra su SSID?",
         "allow_auto_portal_tips": "Si esta opción está habilitada, el router entrará automáticamente en Modo de Inicio de Sesión para Puntos de Acceso Públicos cuando se conecte exitosamente a un punto de acceso pero no a Internet. En este modo, algunos servicios se suspenderán mientras que el modo DNS cambiará a automático, lo que podría revelar información de su actividad en la red al proveedor del punto de acceso (por ejemplo, hotel o centro comercial).",
@@ -99,7 +98,15 @@
         "cannot_find_wifi": "¿No puede encontrar mi Wi-Fi?",
         "ssid_not_hidden_tips": "Asegúrese de que su SSID no esté oculto.",
         "make_sure_works_tips": "Pruebe con su teléfono móvil y asegúrese de que funciona.",
-        "support_tips": "Póngase en contacto con nosotros para obtener más ayuda en {addr}."
+        "support_tips": "Póngase en contacto con nosotros para obtener más ayuda en {addr}.",
+        "allow_other_mode_change": "Permitir el cambio al modo de otras redes",
+        "no_switching": "Sin alternancia",
+        "auto_switching": "Cambio Automático",
+        "no_switching_tips": "Cuando el modo Sin Cambio está activado, no se conectan otras redes guardadas cuando el Wi-Fi actual se desconecta.",
+        "auto_switching_without_network": "Cambio automático sin red",
+        "auto_switching_tips": "Cuando el modo de cambio automático está activado, se conectarán otras redes guardadas cuando la Wi-Fi actual se desconecte.",
+        "auto_switching_without_network_tips": "Cuando el modo de cambio automático sin red está activado, el router no realiza escaneo de red cuando está conectado normalmente en modo no repetidor, y cambia de red solo cuando no hay conexión, lo que puede evitar la pérdida de paquetes de comunicación.",
+        "repeater_not_auto_scan_tips": "El modo {mode} está actualmente habilitado. y el router se conecta con éxito a internet en modo no repetidor, el repetidor no realizará automáticamente el escaneo de red."
     },
     "modem": {
         "title": "Móvil",
@@ -495,7 +502,10 @@
         "special_apns_tips": "Para APN proporcionados por operadores especiales, por favor elija de acuerdo con la situación real de su tarjeta SIM.",
         "pin_code_last_unlock_tips": "La tarjeta SIM está bloqueada y necesita ser desbloqueada mediante el código PIN, queda un último intento para desbloquearla, si falla, necesitará usar su teléfono para desbloquearla ingresando el código PUK.",
         "need_pin_code_tips": "La tarjeta SIM está bloqueada y necesita ser desbloqueada con el código PIN, quedan {count} oportunidades más.",
-        "pin_code_last_input_unlock_tips": "El código PIN {code} es incorrecto, queda un último intento para desbloquearlo, si vuelve a fallar, necesitará usar su teléfono para ingresar el código PUK y desbloquearlo."
+        "pin_code_last_input_unlock_tips": "El código PIN {code} es incorrecto, queda un último intento para desbloquearlo, si vuelve a fallar, necesitará usar su teléfono para ingresar el código PUK y desbloquearlo.",
+        "ip_type_tips": "Si la tarjeta SIM no admite la configuración de tipo de IP actual, o cuando se selecciona IPv6 pero el interruptor global {ipv6} no está activado, puede resultar en anomalías de marcación.",
+        "ip_type_label": "Tipo de IP",
+        "initializing_tips": "El módem se está inicializando…"
     },
     "sim": {
         "sender_label": "Remitente"
@@ -505,5 +515,10 @@
         "switch_to_label": "Cambiar a {slot}",
         "vsim_switch_to_physical_tips": "Cambiará de una tarjeta SIM virtual (vSIM) a una tarjeta SIM física. Necesitará insertar su tarjeta SIM física en la ranura del dispositivo para conectarse a Internet. Por favor, confirme que la tarjeta SIM física ha sido insertada.",
         "physical_switch_to_vsim_tips": "Usted cambiará de la tarjeta SIM física a la tarjeta SIM virtual (vSIM) del módulo. Deberá confirmar que ha comprado un plan de datos en el sitio web de simo (escanee el código QR en el dispositivo para comprarlo). Luego podrá retirar la tarjeta SIM física del dispositivo."
+    },
+    "apn": {
+        "enable_polling_label": "Habilitar sondeo",
+        "polling_control_title": "Control de sondeo APN",
+        "enable_polling_tips": "Si el dispositivo utiliza una tarjeta SIM de Verizon y esta función está habilitada, el dispositivo sondeará continuamente el APN durante hasta 12 minutos después de reiniciar hasta que la conexión de red sea normal. Esta función solo es válida para tarjetas SIM de Verizon."
     }
 }

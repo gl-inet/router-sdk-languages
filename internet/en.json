@@ -88,7 +88,6 @@
         "cannot_accessed_portal_url_tips": "If you cannot access the login page, try disabling other Internet connections (e.g., ethernet, cellular).",
         "quit_btn": "Quit Login Mode",
         "entry_again_tips": "If you re-enter within 10s, it will pull the cache directly instead of rescanning.",
-        "unable_scan_channel_tips": "When travelling cross-country it may not be possible to scan for Wi-Fi on certain channels due to regulatory reasons.",
         "scan_wifi_fail_detection_channel_tips": "The device is currently scanning for the optimal channel. Wi-Fi scanning is unavailable during this process. Please wait patiently for the scan to complete.",
         "cannot_find_ssid": "Cannot Find Your SSID?",
         "allow_auto_portal_tips": "If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. In this mode, some services will be suspended while the DNS mode will be switched to automatic, which may leak your network activity information to the hotspot provider (e.g. hotel or shopping mall).",
@@ -99,7 +98,15 @@
         "cannot_find_wifi": "Cannot find your Wi-Fi?",
         "ssid_not_hidden_tips": "Ensure your SSID is not hidden.",
         "make_sure_works_tips": "Try with your mobile phone and make sure it works.",
-        "support_tips": "Reach us for the further help at {addr}."
+        "support_tips": "Reach us for the further help at {addr}.",
+        "allow_other_mode_change": "Allow Switching to Other Networks Mode",
+        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss.",
+        "no_switching": "No Switching",
+        "auto_switching": "Auto Switching",
+        "auto_switching_without_network": "Auto-switching Without Network",
+        "no_switching_tips": "When No Switching mode is enabled, other saved networks will not be automatically connected when the current Wi-Fi is disconnected.",
+        "auto_switching_tips": "When Auto Switching mode is enabled, the router will try to connect to other saved networks when the current Wi-Fi is disconnected.",
+        "repeater_not_auto_scan_tips": "The {mode} mode is currently enabled. and the router successfully connects to the internet in non-repeater mode, the repeater will not automatically perform network scanning."
     },
     "modem": {
         "title": "Cellular",
@@ -495,7 +502,10 @@
         "special_apns_tips": "For APNs provided by special operators, please choose according to the actual situation of your SIM card.",
         "pin_code_last_unlock_tips": "SIM card is locked and needs to be unlocked by PIN code, there is last chance left to try to unlock it, if it fails, you need to use your phone to unlock it by entering PUK code.",
         "need_pin_code_tips": "The SIM card is locked and needs to be unlocked by PIN code, there are {count} more chances.",
-        "pin_code_last_input_unlock_tips": "PIN code {code} is incorrect, there is last chance left to try to unlock it, if unlocking fails again, you need to use your phone to enter the PUK code to unlock."
+        "pin_code_last_input_unlock_tips": "PIN code {code} is incorrect, there is last chance left to try to unlock it, if unlocking fails again, you need to use your phone to enter the PUK code to unlock.",
+        "ip_type_tips": "If the SIM card does not support the current IP Type setting, or when IPv6 is selected but the {ipv6} global switch is not turned on, it may result in dialling abnormalities.",
+        "ip_type_label": "IP Type",
+        "initializing_tips": "The modem is initializing……"
     },
     "sim": {
         "sender_label": "Sender"
@@ -505,5 +515,10 @@
         "vsim_switch_to_physical_tips": "You will switch from a virtual SIM card(vSIM) to physical SIM card. You will need to insert your physical SIM card into the device slot to connect to the Internet. Please confirm that the physical SIM card has been inserted.",
         "sim_type_label": "SIM Card Type",
         "physical_switch_to_vsim_tips": "You will switch from physical SIM card to virtual SIM card(vSIM) of the module. You will need to confirm that you have purchased a data plan on the simo website(Scan the QR code on the device to purchase it). You can then remove the physical SIM card from the device."
+    },
+    "apn": {
+        "enable_polling_tips": "If the device is using a Verizon SIM card and this feature is enabled, the device will continuously poll the APN for up to 12 minutes after reboot until the network connection is normal. This feature is only valid for Verizon SIM cards.",
+        "enable_polling_label": "Enable Polling",
+        "polling_control_title": "APN Polling Control"
     }
 }

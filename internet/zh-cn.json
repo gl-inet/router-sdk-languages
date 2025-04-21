@@ -88,7 +88,6 @@
         "cannot_accessed_portal_url_tips": "如果无法访问认证页面，请尝试禁用其它联网方式（如有线、蜂窝网络）。",
         "quit_btn": "退出认证模式",
         "entry_again_tips": "如果你10s内再次进入，将直接拉取缓存，而不是重新扫描。",
-        "unable_scan_channel_tips": "跨国旅行时可能因为法规原因无法扫描到某些信道的Wi-Fi。",
         "scan_wifi_fail_detection_channel_tips": "设备正在检测最佳信道，期间无法扫描周边Wi-Fi，请您耐心等待检测完成。",
         "cannot_find_ssid": "找不到您的SSID？",
         "allow_auto_portal_tips": "如果启用此选项，当路由器成功连接到热点但未连接到互联网时，将自动进入公共热点的登录模式。在此模式下，部分服务将被暂停，同时DNS模式将切换为自动，这可能会向热点提供商（例如酒店或购物中心）泄露您的网络活动信息。",
@@ -99,7 +98,15 @@
         "cannot_find_wifi": "找不到无线网络？",
         "ssid_not_hidden_tips": "确保您的SSID没有被隐藏。",
         "make_sure_works_tips": "使用您的手机尝试，确保它能正常工作。",
-        "support_tips": "如需进一步帮助，请联系我们：{addr}。"
+        "support_tips": "如需进一步帮助，请联系我们：{addr}。",
+        "allow_other_mode_change": "允许切换到其他网络模式",
+        "no_switching": "不切换",
+        "auto_switching": "自动切换",
+        "auto_switching_without_network": "仅没网自动切换",
+        "no_switching_tips": "启用不切换模式后，当前 Wi-Fi 断开时不会自动连接其他已保存的网络。",
+        "auto_switching_tips": "启用自动切换模式后，当前 Wi-Fi 断开时，路由器会尝试连接其他已保存的网络。",
+        "auto_switching_without_network_tips": "启用 “无网络自动切换 ”模式后，路由器在非中继模式下联网成功后不会自动扫描网络，只会在无网络时尝试自动切换到其他保存的网络，这样可以避免通信数据包丢失。",
+        "repeater_not_auto_scan_tips": "当前{mode}模式已启用，路由器非中继方式联网成功，中继不会自动进行网络扫描。"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -445,7 +452,7 @@
         "start_hour_label": "开始时间点",
         "start_day_label": "开始日期",
         "modify_data_used_tips": "数据统计仅供参考。实际流量由网络运营商决定，并将显示在网络运营商提供的账单上。",
-        "clear_warning_tips": "修改任何流量数据限制配置后，流量数据将被清清零。您需要清零流量数据吗？",
+        "clear_warning_tips": "修改任何流量数据限制配置后，流量数据将被清零。您需要清零流量数据吗？",
         "sim_limit_title": "{sim}限制设置",
         "modify_data_used_title": "修改{sim}数据",
         "save_to_flash_label": "关机时保存数据",
@@ -495,7 +502,10 @@
         "special_apns_tips": "对于特殊运营商提供的APN，请根据您SIM卡的实际情况进行选择。",
         "pin_code_last_unlock_tips": "SIM卡已锁定，需要通过PIN码解锁，只剩最后一次尝试机会，如果解锁失败，您需要使用手机输入PUK码来解锁。",
         "need_pin_code_tips": "SIM卡已锁定，需要通过PIN码解锁，还有{count}次机会。",
-        "pin_code_last_input_unlock_tips": "PIN码{code}不正确，这是最后一次尝试解锁的机会，如果再次解锁失败，您需要使用手机输入PUK码进行解锁。"
+        "pin_code_last_input_unlock_tips": "PIN码{code}不正确，这是最后一次尝试解锁的机会，如果再次解锁失败，您需要使用手机输入PUK码进行解锁。",
+        "ip_type_tips": "如果SIM卡不支持当前的IP类型设置，或者选择了IPv6但未开启{ipv6}全局开关，可能会导致拨号异常。",
+        "ip_type_label": "IP类型",
+        "initializing_tips": "调制解调器正在初始化……"
     },
     "sim": {
         "sender_label": "发件人"
@@ -505,5 +515,10 @@
         "switch_to_label": "切换到{slot}",
         "vsim_switch_to_physical_tips": "您将从虚拟SIM卡（vSIM）切换到实体SIM卡。您需要将实体SIM卡插入设备插槽以连接到互联网。请确认实体SIM卡已经插入。",
         "physical_switch_to_vsim_tips": "您将从模块的实体SIM卡切换到虚拟SIM卡（vSIM）。您需要确认已经在simo网站上购买了数据套餐（扫描设备上的二维码进行购买）。然后，您可以从设备中取出实体SIM卡。"
+    },
+    "apn": {
+        "enable_polling_label": "启用轮询",
+        "polling_control_title": "APN轮询控制",
+        "enable_polling_tips": "若设备使用Verizon SIM卡且启用此功能，设备将在重启后持续轮询APN最长12分钟，直至网络连接恢复正常。此功能仅对Verizon SIM卡有效。"
     }
 }

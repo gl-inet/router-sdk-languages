@@ -88,7 +88,6 @@
         "auto_portal_tips": "장치가 Captive Portal의 핫스팟에 접속하기 위해 공용 핫스팟 로그인 모드로 진입했습니다. 로그인에 성공하면 자동으로 이 모드를 벗어납니다.",
         "enable_disguise_tips": "이 옵션을 활성화하면, 이 라우터는 현재 사용 중인 클라이언트 기기와 동일한 기기로 위장합니다.",
         "entry_again_tips": "10초 이내에 다시 입력하면 재스캔하는 대신 캐시를 직접 불러옵니다.",
-        "unable_scan_channel_tips": "여행 중 국가 규제로 인해 특정 채널에서 Wi-Fi를 스캔할 수 없을 수 있습니다.",
         "scan_wifi_fail_detection_channel_tips": "장치가 최적의 채널을 스캔 중입니다. 이 과정에서 Wi-Fi 스캔을 사용할 수 없습니다. 스캔이 완료될 때까지 기다려 주십시오.",
         "cannot_find_ssid": "SSID를 찾을 수 없습니까?",
         "allow_auto_portal_tips": "이 옵션을 활성화하면, 라우터가 핫스팟에는 연결되었지만 인터넷에는 연결되지 않은 경우 자동으로 공용 핫스팟 로그인 모드로 전환됩니다. 이 모드에서는 일부 서비스가 중단되며 DNS 모드가 자동으로 전환되어 네트워크 활동 정보가 핫스팟 제공업체(예: 호텔 또는 쇼핑몰)에 유출될 수 있습니다.",
@@ -99,7 +98,15 @@
         "cannot_find_wifi": "내 Wi-Fi를 찾을 수 없습니다?",
         "ssid_not_hidden_tips": "SSID가 숨겨져 있지 않은지 확인하십시오.",
         "make_sure_works_tips": "모바일 폰으로 시도해 보시고 정상 작동하는지 확인해 주세요.",
-        "support_tips": "문의사항이 있으시면 {addr}로 연락주시기 바랍니다."
+        "support_tips": "문의사항이 있으시면 {addr}로 연락주시기 바랍니다.",
+        "allow_other_mode_change": "다른 네트워크 모드로 전환 허용",
+        "no_switching": "전환 없음",
+        "auto_switching": "自动切换",
+        "auto_switching_without_network": "네트워크 없이 자동 전환",
+        "no_switching_tips": "전환 모드가 비활성화되면 현재 Wi-Fi 연결이 끊어졌을 때 다른 저장된 네트워크에 연결되지 않습니다.",
+        "auto_switching_tips": "자동 전환 모드가 활성화되면 현재 Wi-Fi 연결이 끊어지면 다른 저장된 네트워크에 연결됩니다.",
+        "auto_switching_without_network_tips": "네트워크 없이 자동 전환 모드가 활성화되면, 라우터는 비-리피터 모드에서 정상적으로 네트워크에 연결되어 있을 때 네트워크 스캔을 수행하지 않으며, 네트워크가 없을 때만 네트워크를 전환하여 통신 패킷 손실을 방지할 수 있습니다.",
+        "repeater_not_auto_scan_tips": "현재 {mode} 모드가 활성화되어 있습니다. 라우터가 비반복기 모드에서 인터넷에 성공적으로 연결되면, 반복기는 자동으로 네트워크 스캔을 수행하지 않습니다."
     },
     "modem": {
         "title": "셀룰러",
@@ -495,7 +502,10 @@
         "pin_code_last_unlock_tips": "SIM 카드가 잠겨 있으며 PIN 코드를 입력하여 잠금을 해제해야 합니다. 마지막 기회가 남아 있으니 잠금 해제를 시도해 보십시오. 만약 실패한다면 PUK 코드를 입력하여 휴대폰으로 잠금 해제를 해야 합니다.",
         "need_pin_code_tips": "SIM 카드가 잠겨 있으며 PIN 코드를 통해 잠금 해제해야 합니다. {count}번의 기회가 더 있습니다.",
         "pin_code_last_input_unlock_tips": "PIN 코드 {code}가 잘못되었습니다. 잠금을 해제할 마지막 기회가 남아 있습니다. 다시 실패하면 휴대폰을 사용하여 PUK 코드를 입력하여 잠금을 해제해야 합니다.",
-        "manual_lock_operator_label": "手册"
+        "manual_lock_operator_label": "手册",
+        "ip_type_tips": "SIM 카드가 현재 IP 유형 설정을 지원하지 않거나, IPv6가 선택되었지만 {ipv6} 글로벌 스위치가 켜져 있지 않은 경우, 연결 이상이 발생할 수 있습니다.",
+        "ip_type_label": "IP 유형",
+        "initializing_tips": "모뎀이 초기화 중입니다……"
     },
     "sim": {
         "sender_label": "발신자"
@@ -505,5 +515,10 @@
         "switch_to_label": "{slot}로 전환",
         "vsim_switch_to_physical_tips": "가상 SIM 카드(vSIM)에서 물리적 SIM 카드로 전환하게 됩니다. 인터넷에 연결하려면 물리적 SIM 카드를 기기 슬롯에 삽입해야 합니다. 물리적 SIM 카드가 삽입되었는지 확인해 주십시오.",
         "physical_switch_to_vsim_tips": "모듈의 물리적 SIM 카드에서 가상 SIM 카드(vSIM)로 전환하게 됩니다. simo 웹사이트에서 데이터 플랜을 구매하였는지 확인해야 합니다(장치에 있는 QR 코드를 스캔하여 구매하세요). 그런 다음 장치에서 물리적 SIM 카드를 제거할 수 있습니다."
+    },
+    "apn": {
+        "enable_polling_label": "폴링 활성화",
+        "polling_control_title": "APN 폴링 제어",
+        "enable_polling_tips": "장치가 Verizon SIM 카드를 사용하고 이 기능이 활성화된 경우, 장치는 리부팅 후 최대 12분 동안 네트워크 연결이 정상화될 때까지 APN을 지속적으로 폴링합니다. 이 기능은 Verizon SIM 카드에서만 유효합니다."
     }
 }

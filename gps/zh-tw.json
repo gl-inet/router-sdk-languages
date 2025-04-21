@@ -1,1 +1,26 @@
-{}
+{
+    "gps": {
+        "report_cell": "上報基站",
+        "title": "GPS",
+        "tracking_server": "追踪伺服器",
+        "intervals": "間隔",
+        "altitude": "高度",
+        "report": "上報",
+        "update_time": "更新時間",
+        "longitude": "經度",
+        "speed": "速度",
+        "latitude": "緯度",
+        "custom": "自定義",
+        "gnss_mode": "GNSS 模式",
+        "traccar": "Traccar",
+        "address": "地址",
+        "report_battery_status": "上報電池狀態",
+        "data_format": "數據格式",
+        "device_id": "設備 ID",
+        "report_repeated_wifi": "上報中繼 Wi-Fi",
+        "gps_tips": "開啟 GPS 後，可能需要幾分鐘時間才能獲取位置數據。如果完全沒有信號，請嘗試將設備或 GPS 天線放置在室外開闊地帶。",
+        "report_repeated_wifi_tips": "若此選項啟用，設備會上報當前中繼的SSID。",
+        "data_format_tips": "設備使用什麼格式的數據上報。"
+    },
+    "menu_gps": "GPS"
+}

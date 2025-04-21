@@ -1,1 +1,26 @@
-{}
+{
+    "gps": {
+        "report_battery_status": "Meld batterijstatus",
+        "title": "GPS",
+        "tracking_server": "Tracking Server",
+        "intervals": "Intervallen",
+        "altitude": "Hoogte",
+        "report": "Melden",
+        "update_time": "Update Tijd",
+        "longitude": "Lengtegraad",
+        "speed": "Snelheid",
+        "latitude": "Breedtegraad",
+        "custom": "Aangepast",
+        "gnss_mode": "GNSS-modus",
+        "traccar": "Traccar",
+        "address": "Adres",
+        "data_format": "Gegevensformaat",
+        "device_id": "Apparaat-ID",
+        "report_cell": "Meld cel",
+        "report_repeated_wifi": "Meld herhaalde Wi-Fi",
+        "gps_tips": "Het kan enkele minuten duren voordat locatiegegevens worden verkregen nadat GPS is ingeschakeld. Als er helemaal geen signaal is, probeer dan het apparaat of de GPS-antenne buiten in een open gebied te plaatsen.",
+        "report_repeated_wifi_tips": "Als deze optie is ingeschakeld, rapporteert het apparaat de SSID van de huidige repeater.",
+        "data_format_tips": "Welk gegevensformaat het apparaat gebruikt voor rapportage."
+    },
+    "menu_gps": "GPS"
+}

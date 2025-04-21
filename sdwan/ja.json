@@ -14,5 +14,37 @@
         "get_start_tips": "クリックしてAstroWarpを始めましょう！",
         "enable_tips": "AstroWarpが有効になっている場合、{feature}は使用できません。"
     },
-    "menu_sdwan": "AstroWarp"
+    "menu_sdwan": "AstroWarp",
+    "aw": {
+        "go_to_aw_web_btn": "Astrowarpのウェブサイトに移動",
+        "data_usage_title": "データ使用量",
+        "vaild_only_once_label": "有効期限は一度のみ:",
+        "first_get_start_step1_tips": "このルーターでAstroWarpを使用するには、まずアプリをダウンロードし、このルーターに接続してインターネットにアクセスしてください。",
+        "join_network_btn": "ネットワークに参加する",
+        "first_get_start_step2_tips": "開始をクリックすると、無料のAstroNetを作成します。このルーターはインターネットの出口として設定されます。",
+        "add_client_btn": "クライアントを追加",
+        "join_network_tips": "AstroWarpを使用して、どこからでも在宅勤務を始めましょう。ネットワークに参加して使用することができます。または、AstroWarpのウェブサイトにログインして、より多くの機能を利用することもできます。",
+        "link_life_time_label": "リンク有効期間:",
+        "usage_total_label": "使用量 / 总量",
+        "use_internet_exit_label": "インターネット出口を使用",
+        "use_as_internet_exit_tips": "このルーターはインターネット出口として設定されています。",
+        "more_operation_tips": "すべてのクライアントとルーターは、このルーターを介してインターネットにアクセスします。設定を変更する必要がある場合は、{page}にログインしてください。",
+        "share_use_internet_exit_label": "インターネット出口を使用：",
+        "copy_link_btn": "リンクをコピー",
+        "to_download_app_btn": "ここをクリックしてアプリをダウンロード",
+        "qrcode_use_tips": "アプリを使用してQRコードをスキャンするか、URLを入力してルーターにアクセスし、それに属するインターネット出口を使用してください。",
+        "share_more_operation_tips": "詳細設定を使用するには、{page}にログインしてください。",
+        "go_to_aw_btn": "AstroWarpに移動",
+        "get_start_btn": "どこからでも仕事を始める",
+        "bind_not_self_tips": "AstroWarpを使用する前に、アカウントをSelfビューにバインドしてください。現在、組織またはVARビューでの使用はサポートされていません。",
+        "only_support_self_tips": "AstroWarpはSelf viewでのみサポートされています。",
+        "operate_config_tips": "設定を変更する必要がある場合は、{page}にログインしてください。",
+        "exit_node_label": "出口ノード",
+        "add_client_limit_tips": "このルーターにアクセスしているクライアント数が上限に達しました。ネットワークプランのアップグレードについては、AstroWarpをご覧ください。",
+        "add_router_limit_tips": "このネットワークにアクセスしているルーターの数が上限に達しました。AstroWarpにアクセスしてネットワークを編集してください。",
+        "network_plan_expired_tips": "このネットワークは期限切れです。AstroWarpにアクセスしてネットワークプランをアップグレード/更新してください。"
+    },
+    "aw_err": {
+        "not_joined_network_msg": "このネットワークに参加していません。"
+    }
 }

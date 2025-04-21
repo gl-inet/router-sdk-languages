@@ -14,5 +14,37 @@
         "use_tips": "AstroWarp is een geavanceerd SD-WAN-platform ontworpen om naadloze externe netwerken, verkeersaggregatie en beheer van externe apparaten te bieden.",
         "enable_tips": "Wanneer AstroWarp is ingeschakeld, kan {feature} niet worden gebruikt."
     },
-    "menu_sdwan": "AstroWarp"
+    "menu_sdwan": "AstroWarp",
+    "aw": {
+        "go_to_aw_web_btn": "Ga naar de Astrowarp-website",
+        "data_usage_title": "Gegevensgebruik",
+        "vaild_only_once_label": "Alleen geldig één keer:",
+        "first_get_start_step1_tips": "Door AstroWarp met deze router te gebruiken, download eerst de app, verbind vervolgens met deze router en krijg toegang tot het internet via deze.",
+        "join_network_btn": "Word lid van het netwerk",
+        "first_get_start_step2_tips": "Klik op start en we maken een gratis AstroNet voor je aan. En deze router zal worden ingesteld als de internetuitgang.",
+        "add_client_btn": "Client toevoegen",
+        "join_network_tips": "Begin met het gebruik van AstroWarp om overal vanuit huis te werken. Je kunt lid worden van een netwerk om het te gebruiken. Of je kunt inloggen op de AstroWarp-website om het met meer functies te gebruiken.",
+        "link_life_time_label": "Levensduur van de link:",
+        "usage_total_label": "Gebruik / Totaal",
+        "use_as_internet_exit_tips": "Deze router is ingesteld als internetuitgang.",
+        "use_internet_exit_label": "Gebruik Internet Exit",
+        "more_operation_tips": "Alle clients en routers die internettoegang gebruiken, krijgen toegang tot het internet via deze router. Als u de configuratie wilt wijzigen, log dan in op {page}.",
+        "share_use_internet_exit_label": "Gebruik Internet Exit",
+        "copy_link_btn": "Kopieer link",
+        "to_download_app_btn": "Klik hier om de app te downloaden",
+        "qrcode_use_tips": "Gebruik de app om de QR-code te scannen of voer de URL in om toegang te krijgen tot de router en gebruik de bijbehorende internetuitgang.",
+        "share_more_operation_tips": "Gebruik meer instellingen, log in op {page}.",
+        "go_to_aw_btn": "Ga naar AstroWarp",
+        "get_start_btn": "Begin met werken vanaf elke locatie",
+        "bind_not_self_tips": "Bind uw account aan de Self view voordat u AstroWarp gebruikt; het ondersteunt momenteel geen gebruik in de organisatie- of VAR-weergave.",
+        "only_support_self_tips": "AstroWarp wordt alleen ondersteund in de Zelfweergave.",
+        "operate_config_tips": "Als u de configuratie moet wijzigen, log dan in op {page}.",
+        "exit_node_label": "Uitgangsknooppunt",
+        "add_client_limit_tips": "Het aantal clients dat toegang heeft tot deze router heeft de bovengrens bereikt. Bezoek de AstroWarp om uw netwerkabonnement te upgraden.",
+        "add_router_limit_tips": "Het aantal routers dat toegang heeft tot dit netwerk heeft de bovengrens bereikt. Bezoek AstroWarp om uw netwerk te bewerken.",
+        "network_plan_expired_tips": "Dit netwerk is verlopen. Bezoek AstroWarp om uw netwerkabonnement te upgraden/vernieuwen."
+    },
+    "aw_err": {
+        "not_joined_network_msg": "Niet verbonden met dit netwerk."
+    }
 }

@@ -169,7 +169,9 @@
         "revoke_btn": "Visszavonás",
         "manual_add_mac_btn": "Kézi eszköz hozzáadása",
         "got_it": "a fájl elfogadása sikertelen",
-        "attention_title": "Figyelem"
+        "attention_title": "Figyelem",
+        "remove_btn": "Eltávolítás",
+        "notice_title": "Értesítés"
     },
     "msg": {
         "success": "Végrehajtva!",
@@ -187,7 +189,8 @@
         "send_success_tips": "Sikeres küldés!",
         "sign_up_success": "Sikeres regisztráció!",
         "successfully_badge_tips": "Sikeresen!",
-        "lack_of_memory_tips": "Nincs elég szabad memória a frissítés végrehajtásához. Indítsa újra az eszközt és próbálja meg ismét!"
+        "lack_of_memory_tips": "Nincs elég szabad memória a frissítés végrehajtásához. Indítsa újra az eszközt és próbálja meg ismét!",
+        "copy_success": "Másolás sikeres"
     },
     "date": {
         "day": "nap",
@@ -247,6 +250,7 @@
         "only_allowd_input_tips": "Csak {limit} adható meg.",
         "min_max_length_tips": "{min} - {max} karakter.",
         "only_num_letter_symbol_tips": "Csak betűk, számok és {symbol} szimbólumok engedélyezettek.",
-        "only_letters_num_allowd_tips": "Érvénytelen sor szám: {num}"
+        "only_letters_num_allowd_tips": "Érvénytelen sor szám: {num}",
+        "ipv6_limit_start_end_tips": "{start}-val kell kezdődnie és {end} helyes IPv6-címmel kell végződnie."
     }
 }

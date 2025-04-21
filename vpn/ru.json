@@ -296,7 +296,14 @@
         "wg_guide_disabled_tips": "OpenVPN подключен, отключите OpenVPN, если вам нужно использовать VPN WireGuard.",
         "manual_upload_tips": "Пожалуйста, посетите {page}, чтобы просмотреть VPN-сервисы, совместимые с {type}, и узнать о преимуществах использования VPN.",
         "on_router_label": "VPN на роутере",
-        "own_services_use_vpn_label": "Использование VPN для частных сервисов"
+        "own_services_use_vpn_label": "Использование VPN для частных сервисов",
+        "ovpn_nordvpn_account_tips": "Для успешного использования VPN, пожалуйста, введите ваш {label} (Примечание: {not} логин и пароль учетной записи электронной почты).",
+        "ovpn_nordvpn_account_label": "Учетные данные сервиса NordVPN",
+        "credential_pwd_label": "Пароль учетных данных",
+        "sevice_credential_label": "Учетные данные сервиса",
+        "ovpn_nordvpn_not_label": "Не",
+        "auto_gen_hint": "Автоматическая генерация",
+        "wg_urbanshield_limit_tips": "Не удалось выполнить привязку, пожалуйста, посетите {provider} для отмены привязки другого устройства."
     },
     "menu_wgserver": "Сервер WireGuard",
     "menu_ovpnserver": "Сервер OpenVPN",
@@ -416,14 +423,24 @@
         "subcription_url_tips": "Доменное имя или IP-адрес в URL автоматически обновляются каждый день.",
         "device_count_label": "{count} устройство|{count} устройства|{count} устройств",
         "method_count_label": "{count} метод|{count} метода|{count} методов",
-        "custom_tunnel_title": "Настройка VPN-туннеля"
+        "custom_tunnel_title": "Настройка VPN-туннеля",
+        "stop_title": "Остановить конфигурацию VPN",
+        "default_tunnel_tip": "Неизменяемый встроенный туннель."
     },
     "vpn_server": {
         "connected_dev_label": "Подключенные устройства",
         "off_title": "{type} сервер в настоящее время ВЫКЛЮЧЕН.",
         "starting_label": "Сервер {type} запускается...",
         "on_label": "{type} сервер в настоящее время включен.",
-        "off_label": "{type} сервер в настоящее время ВЫКЛЮЧЕН."
+        "off_label": "{type} сервер в настоящее время ВЫКЛЮЧЕН.",
+        "modify_route_rule_title": "Изменить правило маршрутизации",
+        "route_rule_dest_already_exists_msg": "Нельзя вводить адрес назначения, который уже существует.",
+        "export_addr_tips": "Вы можете ввести IP-адрес или доменное имя. Адрес является {label} адресом в конфигурации VPN.",
+        "added_route_rule_title": "Добавить новое правило маршрутизации",
+        "enable_ipv6_btn": "Включить IPv6",
+        "route_rules_title": "Правила маршрутизации",
+        "enable_ipv6_tips": "Если IPv6 не включен, адрес IPv6 не будет работать. Если вы хотите использовать адрес IPv6, пожалуйста, {todo} на вашем роутере.",
+        "want_use_ipv6_tips": "Если вы хотите использовать адрес IPv6, пожалуйста, {todo} на вашем роутере."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Многие функции маршрутизации будут недоступны.",

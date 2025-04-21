@@ -1,1 +1,26 @@
-{}
+{
+    "gps": {
+        "speed": "速度",
+        "report_battery_status": "上报电池状态",
+        "title": "GPS",
+        "tracking_server": "追踪服务器",
+        "intervals": "间隔",
+        "altitude": "海拔",
+        "report": "上报",
+        "update_time": "更新时间",
+        "longitude": "经度",
+        "latitude": "纬度",
+        "custom": "自定义",
+        "gnss_mode": "GNSS 模式",
+        "traccar": "Traccar",
+        "address": "地址",
+        "data_format": "数据格式",
+        "device_id": "设备 ID",
+        "report_cell": "上报蜂窝",
+        "report_repeated_wifi": "上报中继 Wi-Fi",
+        "gps_tips": "启用 GPS 后，可能需要几分钟时间才能获取位置数据。如果完全没有信号，请尝试将设备或 GPS 天线放置在室外开阔地带。",
+        "report_repeated_wifi_tips": "若此选项启用，设备会上报当前中继的 SSID。",
+        "data_format_tips": "设备使用什么格式的数据上报。"
+    },
+    "menu_gps": "GPS"
+}

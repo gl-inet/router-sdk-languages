@@ -88,7 +88,6 @@
         "to_auth_btn": "Vai al Login",
         "modify_wifi_tips": "Le modifiche nelle impostazioni di rete faranno riconnettere il ripetitore.",
         "entry_again_tips": "Se si rientra entro 10 secondi, verrà estratta direttamente la cache anziché eseguire una nuova scansione.",
-        "unable_scan_channel_tips": "Quando si viaggia attraverso il paese, potrebbe non essere possibile eseguire la scansione del Wi-Fi su determinati canali a causa di motivi normativi.",
         "scan_wifi_fail_detection_channel_tips": "Il dispositivo sta attualmente cercando il canale ottimale, la scansione Wi-Fi non è disponibile durante questo processo. Si prega di attendere pazientemente il completamento della scansione.",
         "cannot_find_ssid": "Non riesci a trovare il tuo SSID?",
         "allow_auto_portal_tips": "Se questa opzione è attivata, il router entrerà automaticamente in Modalità di Accesso per Hotspot Pubblici quando si connette con successo a un hotspot ma non a Internet. In questa modalità, alcuni servizi saranno sospesi mentre la modalità DNS verrà impostata su automatica, il che potrebbe rivelare le informazioni relative alle attività di rete al fornitore dell'hotspot (ad esempio, hotel o centro commerciale).",
@@ -99,7 +98,15 @@
         "cannot_find_wifi": "Non riesco a trovare il mio Wi-Fi?",
         "ssid_not_hidden_tips": "Assicurati che il tuo SSID non sia nascosto.",
         "make_sure_works_tips": "Prova con il tuo telefono cellulare e assicurati che funzioni.",
-        "support_tips": "Contattateci per ulteriore assistenza all'indirizzo {addr}."
+        "support_tips": "Contattateci per ulteriore assistenza all'indirizzo {addr}.",
+        "allow_other_mode_change": "Consenti il passaggio ad altre modalità di rete",
+        "no_switching": "Nessun Cambio",
+        "auto_switching": "Commutazione automatica",
+        "auto_switching_without_network": "Commutazione automatica senza rete",
+        "no_switching_tips": "Quando la modalità Senza Cambio è attivata, nessuna delle altre reti salvate viene connessa quando l'attuale Wi-Fi si disconnette.",
+        "auto_switching_tips": "Quando la modalità di commutazione automatica è attivata, verranno connessi altri network salvati quando l'attuale Wi-Fi si disconnette.",
+        "auto_switching_without_network_tips": "Quando è attivata la modalità di commutazione automatica senza rete, il router non esegue la scansione della rete quando è connesso normalmente in modalità non ripetitore e cambia rete solo in assenza di connessione, il che può evitare la perdita di pacchetti di comunicazione.",
+        "repeater_not_auto_scan_tips": "La modalità {mode} è attualmente abilitata e il router si connette con successo a Internet in modalità non ripetitore, il ripetitore non eseguirà automaticamente la scansione della rete."
     },
     "modem": {
         "title": "Cellulare",
@@ -495,7 +502,10 @@
         "special_apns_tips": "Per gli APN forniti dagli operatori speciali, si prega di scegliere in base alla situazione effettiva della propria SIM card.",
         "pin_code_last_unlock_tips": "La scheda SIM è bloccata e deve essere sbloccata tramite codice PIN, rimane un ultimo tentativo per provare a sbloccarla; in caso di fallimento, sarà necessario utilizzare il telefono per sbloccarla inserendo il codice PUK.",
         "need_pin_code_tips": "La SIM è bloccata e deve essere sbloccata tramite codice PIN, ci sono ancora {count} tentativi disponibili.",
-        "pin_code_last_input_unlock_tips": "Il codice PIN {code} non è corretto, rimane un ultimo tentativo per sbloccarlo; se anche questo tentativo fallisce, sarà necessario utilizzare il telefono per inserire il codice PUK per lo sblocco."
+        "pin_code_last_input_unlock_tips": "Il codice PIN {code} non è corretto, rimane un ultimo tentativo per sbloccarlo; se anche questo tentativo fallisce, sarà necessario utilizzare il telefono per inserire il codice PUK per lo sblocco.",
+        "ip_type_tips": "Se la scheda SIM non supporta l'attuale impostazione del tipo di IP, o quando è selezionato IPv6 ma l'interruttore globale {ipv6} non è attivato, potrebbero verificarsi anomalie di connessione.",
+        "ip_type_label": "Tipo di IP",
+        "initializing_tips": "Il modem si sta inizializzando……"
     },
     "sim": {
         "sender_label": "Mittente"
@@ -505,5 +515,10 @@
         "sim_type_label": "Tipo di SIM Card",
         "switch_to_label": "Passa allo {slot}",
         "physical_switch_to_vsim_tips": "Passerete dalla scheda SIM fisica alla scheda SIM virtuale (vSIM) del modulo. Dovrete confermare di aver acquistato un piano dati sul sito web simo (scansionate il codice QR sul dispositivo per acquistarlo). Potrete quindi rimuovere la scheda SIM fisica dal dispositivo."
+    },
+    "apn": {
+        "enable_polling_label": "Abilita il polling",
+        "polling_control_title": "Controllo del Polling APN",
+        "enable_polling_tips": "Se il dispositivo utilizza una scheda SIM Verizon e questa funzione è abilitata, il dispositivo continuerà a interrogare l'APN per un massimo di 12 minuti dopo il riavvio fino a quando la connessione di rete non sarà normale. Questa funzione è valida solo per le schede SIM Verizon."
     }
 }

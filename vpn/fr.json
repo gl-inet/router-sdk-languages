@@ -296,7 +296,14 @@
         "ovpn_nordvpn_tips": "Pour garantir l'utilisation réussie du VPN, veuillez saisir {account}, qui servent d'identifiants pour le service NordVPN.",
         "to_setup_guide_tips": "Si vous ne savez pas comment l'obtenir, veuillez consulter {guide}.",
         "manual_upload_tips": "Veuillez visiter {page} pour voir les fournisseurs de services VPN compatibles avec {type} et découvrir les avantages de l'utilisation d'un VPN.",
-        "own_services_use_vpn_label": "Utilisation de VPN pour des services privés"
+        "own_services_use_vpn_label": "Utilisation de VPN pour des services privés",
+        "ovpn_nordvpn_account_label": "Identifiants de service du compte NordVPN",
+        "ovpn_nordvpn_account_tips": "Pour garantir l'utilisation réussie du VPN, veuillez saisir votre {label} (Remarque : {not} l'email/mot de passe du compte de connexion).",
+        "sevice_credential_label": "Identifiant de service",
+        "credential_pwd_label": "Mot de passe d'identification",
+        "ovpn_nordvpn_not_label": "Non",
+        "auto_gen_hint": "Génération automatique",
+        "wg_urbanshield_limit_tips": "Échec de la liaison, veuillez visiter {provider} pour dissocier un autre appareil."
     },
     "menu_wgserver": "Serveur Wireguard",
     "menu_ovpnserver": "Serveur OpenVPN",
@@ -416,14 +423,24 @@
         "subcription_url_tips": "Le nom de domaine ou l'IP dans l'URL est mis à jour automatiquement tous les jours.",
         "device_count_label": "{count} appareil|{count} appareils",
         "method_count_label": "{count} méthode|{count} méthodes",
-        "custom_tunnel_title": "Personnaliser le tunnel VPN"
+        "custom_tunnel_title": "Personnaliser le tunnel VPN",
+        "stop_title": "Arrêter la configuration VPN",
+        "default_tunnel_tip": "Tunnel intégré inchangeable."
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",
         "starting_label": "Le serveur {type} est en cours de démarrage...",
         "connected_dev_label": "Appareils connectés",
         "on_label": "Le serveur {type} est actuellement ACTIF.",
-        "off_label": "Le serveur {type} est actuellement ÉTEINT."
+        "off_label": "Le serveur {type} est actuellement ÉTEINT.",
+        "enable_ipv6_btn": "IPv6 activé",
+        "want_use_ipv6_tips": "Si vous souhaitez utiliser une adresse IPv6, veuillez {todo} sur votre routeur.",
+        "modify_route_rule_title": "Modifier la règle de routage",
+        "added_route_rule_title": "Ajouter une nouvelle règle de routage",
+        "route_rule_dest_already_exists_msg": "Il est impossible de saisir une adresse de destination qui existe déjà.",
+        "enable_ipv6_tips": "Si l'IPv6 n'est pas activé, l'adresse IPv6 ne sera pas effective. Si vous souhaitez utiliser une adresse IPv6, veuillez {todo} sur votre routeur.",
+        "route_rules_title": "Règles de routage",
+        "export_addr_tips": "Vous pouvez saisir une adresse IP ou un nom de domaine. L'adresse est l'adresse {label} dans la configuration VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "De nombreuses fonctions de routage ne seront pas disponibles.",

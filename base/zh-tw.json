@@ -5,7 +5,7 @@
         "ipv6": "IPv6地址",
         "gateway": "網關",
         "dns": "DNS伺服器",
-        "netmask": "子網絡遮罩",
+        "netmask": "子網掩碼",
         "username": "帳號名稱",
         "password": "密碼",
         "ssid": "無線網絡名稱（SSID）",
@@ -60,7 +60,7 @@
         "edit": "修改",
         "characters_hint": "$$$$ 字符",
         "maximum_byte_tips": "最大 {count} 字節",
-        "begin_not_allow_tips": "不能以字符開頭 {char}",
+        "begin_not_allow_tips": "不能以{char}字符開頭",
         "not_allow_use_tips": "此字符 {char} 並不允許使用",
         "has_been_used_tips": "不允許相同 {label}",
         "view": "瀏覽",
@@ -120,7 +120,9 @@
         "revoke_btn": "撤銷",
         "manual_add_mac_btn": "手動添加設備",
         "got_it": "明白了",
-        "attention_title": "注意"
+        "attention_title": "注意",
+        "remove_btn": "移除",
+        "notice_title": "通知"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -138,7 +140,8 @@
         "send_success_tips": "發送成功！",
         "sign_up_success": "註冊成功！",
         "successfully_badge_tips": "成功！",
-        "lack_of_memory_tips": "由於內存不足，如果要升級固件，可以嘗試重啓設備。"
+        "lack_of_memory_tips": "由於內存不足，如果要升級固件，可以嘗試重啓設備。",
+        "copy_success": "複製成功"
     },
     "internet": {
         "lan_ip_tips": "LAN子網與WAN子網衝突，請$$$$修改LAN IP地址$$$$。",
@@ -247,6 +250,7 @@
         "invalid_line_label": "無效的行號：{num}",
         "only_allowd_input_tips": "只允許輸入{limit}。",
         "only_num_letter_symbol_tips": "只允許字母、數字和符號{symbol}。",
-        "min_max_length_tips": "{min} - {max} 個字符。"
+        "min_max_length_tips": "{min} - {max} 個字符。",
+        "ipv6_limit_start_end_tips": "必須以{start}開頭，並以正確的IPv6地址{end}結尾。"
     }
 }
