@@ -36,7 +36,8 @@
         "lan_conflict_msg": "Podsieć LAN powoduje konflikt z podsiecią Wi-Fi, z którą chcesz się połączyć. Ustaw inną podsieć.",
         "passthrough_close_warning": "Jeśli przełączysz się na ten tryb, Repeater, Wireless, Clients, VPN i AdGuard Home zostaną wyłączone.",
         "passthrough_enable_warning": "Jeśli przełączysz się w ten tryb, {feature} zostanie wyłączona.",
-        "passthrough_mac_tips": "To jest używane do uzyskania adresu MAC publicznego IP."
+        "passthrough_mac_tips": "To jest używane do uzyskania adresu MAC publicznego IP.",
+        "passthrough_only_one_wan_tips": "Tryb IP Passthrough wymaga i może mieć tylko jeden port WAN. Proszę przejść do {page}, aby zmodyfikować ustawienia i anulować użycie portu WAN jako portu LAN lub anulować użycie portu LAN jako portu WAN."
     },
     "menu_bridge": "Tryb sieciowy"
 }
