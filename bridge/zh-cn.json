@@ -36,7 +36,9 @@
         "tips_one": "更改路由器的网络模式时，可能需要重新连接所有客户端设备。",
         "set_up_bridge_tips": "要设置成网桥模式，必须在WAN口插入网线。",
         "passthrough_enable_warning": "如果您切换到此模式，{feature} 将被禁用。",
-        "passthrough_mac_tips": "这用于获取公共IP的MAC地址。"
+        "passthrough_mac_tips": "这用于获取公共IP的MAC地址。",
+        "passthrough_only_one_wan_tips": "要切换到IP Passthrough模式，请前往{page}并关闭WAN as LAN或LAN as WAN功能。",
+        "passthrough_close_edge_tips": "要切换到IP Passthrough，请关闭{page}。"
     },
     "menu_bridge": "网络模式"
 }
