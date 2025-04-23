@@ -36,7 +36,8 @@
         "passthrough_secondwan_warning": "IP perėjimo veiksena reikalauja, kad būtų tik vienas „WAN“ prievadas. Prašome eiti į – $$$$ puslapį, kad pakeistumėte/redaguotumėte nustatymus ir atšauktumėte „WAN“ prievado naudojimą kaip „LAN“ prievadą arba, kad atšauktumėte „LAN“ prievado naudojimą kaip „WAN“ prievadą.",
         "set_up_bridge_tips": "Norėdami nustatyti „tinklo tiltą“ – jungimo veikseną, pirmiausia turite prijungti „eterneto“ laidą prie „WAN“ prievado.",
         "passthrough_enable_warning": "Jei perjungsite į šią veikseną, {feature} bus išjungta.",
-        "passthrough_mac_tips": "Tai naudojama viešojo IP MAC adreso gavimui."
+        "passthrough_mac_tips": "Tai naudojama viešojo IP MAC adreso gavimui.",
+        "passthrough_only_one_wan_tips": "IP perleidimo veiksena reikalauja ir gali turėti tik vieną WAN prievadą. Prašome eiti į {page}, kad pakeistumėte ir atšauktumėte WAN prievado naudojimą kaip LAN prievado arba atšauktumėte LAN naudojimą kaip WAN prievado."
     },
     "menu_bridge": "Tinklo veiksena"
 }
