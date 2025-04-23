@@ -36,8 +36,7 @@
         "passthrough_conflict_2b_warning": "Dieser Modus funktioniert nicht, wen die folgenden Einstellungen aktiviert sind: Drop-In Gateway, IPv6, manuell gesetzte DNS, Multi-WAN mit 'Load Balance', WAN Port als LAN, VPN policy, hinzugefügte Firewall Einstellungen, manuell gesetzte MAC Adresse.",
         "set_up_bridge_tips": "Um die Bridge zu aktivieren, muss ein Netzwerkkabel an dem WAN Port angeschlossen sein.",
         "passthrough_enable_warning": "Wenn Sie in diesen Modus wechseln, wird {feature} deaktiviert.",
-        "passthrough_mac_tips": "Dies wird verwendet, um die MAC-Adresse einer öffentlichen IP zu erhalten.",
-        "passthrough_only_one_wan_tips": "Der IP-Passthrough-Modus erfordert und kann nur einen WAN-Port haben. Bitte gehen Sie zu {page}, um die Nutzung des WAN-Ports als LAN-Port oder die Nutzung des LAN als WAN-Port zu deaktivieren."
+        "passthrough_mac_tips": "Dies wird verwendet, um die MAC-Adresse einer öffentlichen IP zu erhalten."
     },
     "menu_bridge": "Netzwerkmodus"
 }
