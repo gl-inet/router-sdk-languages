@@ -36,7 +36,8 @@
         "set_up_bridge_tips": "Para configurar el modo Bridge, necesita primero conectar un cable Ethernet al puerto WAN.",
         "passthrough_conflict_2b_warning": "Este modo puede no funcionar si tiene las siguientes configuraciones: modo de puerta de enlace drop-in habilitado, IPv6 habilitado, DNS configurado manualmente, Multi-WAN configurado en modo balanceo de carga, puerto WAN configurado como LAN, política de VPN utilizada, cualquier configuración de firewall añadida, dirección MAC configurada manualmente.",
         "passthrough_enable_warning": "Si activa este modo, {feature} se desactivará.",
-        "passthrough_mac_tips": "Esto se utiliza para obtener la dirección MAC de una IP pública."
+        "passthrough_mac_tips": "Esto se utiliza para obtener la dirección MAC de una IP pública.",
+        "passthrough_only_one_wan_tips": "El modo IP Passthrough requiere y solo puede tener un puerto WAN. Por favor, diríjase a la {page} para modificarlo y cancelar el uso del puerto WAN como puerto LAN o para cancelar el uso del puerto LAN como WAN."
     },
     "menu_bridge": "Modo de Red"
 }
