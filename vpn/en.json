@@ -440,7 +440,8 @@
         "enable_ipv6_tips": "If IPv6 is not enabled, the IPv6 address will not take effect. If you want to use IPv6 address, please {todo} on your router.",
         "route_rules_title": "Route Rules",
         "want_use_ipv6_tips": "If you want to use IPv6 address, please {todo} on your router.",
-        "export_addr_tips": "You can enter an IP address or domain name. Address is the {label} address in the VPN configuration."
+        "export_addr_tips": "You can enter an IP address or domain name. Address is the {label} address in the VPN configuration.",
+        "route_rule_tips": "A VPN Server custom routing rule can specify that certain network traffic is transmitted through the VPN encryption, while other traffic normally goes through the local network."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Many routing functions will not be available.",
