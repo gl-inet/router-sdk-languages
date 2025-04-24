@@ -440,7 +440,8 @@
         "enable_ipv6_tips": "Wenn IPv6 nicht aktiviert ist, wird die IPv6-Adresse nicht wirksam. Wenn Sie eine IPv6-Adresse verwenden möchten, aktivieren Sie bitte {todo} auf Ihrem Router.",
         "route_rules_title": "Routenregeln",
         "want_use_ipv6_tips": "Wenn Sie eine IPv6-Adresse verwenden möchten, aktivieren Sie bitte {todo} auf Ihrem Router.",
-        "export_addr_tips": "Sie können eine IP-Adresse oder einen Domainnamen eingeben. Adresse ist die {label} Adresse in der VPN-Konfiguration."
+        "export_addr_tips": "Sie können eine IP-Adresse oder einen Domainnamen eingeben. Adresse ist die {label} Adresse in der VPN-Konfiguration.",
+        "route_rule_tips": "Eine benutzerdefinierte Routing-Regel für den VPN-Server kann festlegen, dass bestimmter Netzwerkverkehr über die VPN-Verschlüsselung übertragen wird, während anderer Verkehr normalerweise über das lokale Netzwerk läuft."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein.",
