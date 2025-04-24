@@ -440,7 +440,8 @@
         "enable_ipv6_btn": "IPv6を有効化",
         "route_rule_dest_already_exists_msg": "既に存在する宛先アドレスを入力することはできません。",
         "route_rules_title": "ルート規則",
-        "want_use_ipv6_tips": "IPv6アドレスを使用する場合は、ルーターで{todo}を行ってください。"
+        "want_use_ipv6_tips": "IPv6アドレスを使用する場合は、ルーターで{todo}を行ってください。",
+        "route_rule_tips": "VPNサーバーのカスタムルーティングルールでは、特定のネットワークトラフィックをVPN暗号化経由で送信するように指定でき、他のトラフィックは通常通りローカルネットワークを通過します。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "多くのルーティング機能が利用できなくなります。",
