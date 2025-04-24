@@ -440,7 +440,8 @@
         "route_rule_dest_already_exists_msg": "Nem lehet olyan célcímet megadni, amely már létezik.",
         "route_rules_title": "Útvonal szabályok",
         "want_use_ipv6_tips": "Ha IPv6 címet szeretne használni, kérjük, {todo} a routerén.",
-        "export_addr_tips": "IP-címet vagy domain nevet adhat meg. A cím a VPN-konfigurációban a {label} cím."
+        "export_addr_tips": "IP-címet vagy domain nevet adhat meg. A cím a VPN-konfigurációban a {label} cím.",
+        "route_rule_tips": "A VPN szerver egyéni útválasztási szabálya meghatározhatja, hogy bizonyos hálózati forgalom a VPN-en keresztül történő titkosításon haladjon át, míg más forgalom a helyi hálózaton keresztül zajlik normálisan."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Sok útválasztási funkció nem lesz elérhető.",
