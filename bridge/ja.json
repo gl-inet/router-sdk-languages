@@ -36,7 +36,9 @@
         "passthrough_conflict_2b_warning": "ドロップイン・ゲートウェイ・モードを有効にしている、IPv6を有効にしている、TAP-S2Sモードを有効にしている、DNSを手動で設定している、マルチWANをロードバランスモードに設定している、WANポートをLANに設定している、VPNポリシーを使用している、ファイアウォール設定を追加している、MACアドレスを手動で設定している、などの設定がある場合、このモードは機能しないことがあります。",
         "set_up_bridge_tips": "ブリッジ モードを設定するには、まずイーサネット ケーブルを WAN ポートに接続する必要があります。",
         "passthrough_enable_warning": "このモードに切り替えると、{feature}は無効になります。",
-        "passthrough_mac_tips": "これはパブリックIPのMACアドレス取得に使用されます。"
+        "passthrough_mac_tips": "これはパブリックIPのMACアドレス取得に使用されます。",
+        "passthrough_close_edge_tips": "IPパススルーに切り替えるには、{page}をオフにしてください。",
+        "passthrough_only_one_wan_tips": "IPパススルーに切り替えるには、{page}に移動して、WAN as LANまたはLAN as WANをオフにしてください。"
     },
     "menu_bridge": "ネットワークモード"
 }

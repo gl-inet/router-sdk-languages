@@ -36,7 +36,9 @@
         "passthrough_secondwan_warning": "Az IP átengedő módhoz szükség van és csak egy WAN portot használhat. Kérjük, menjen a $$$$ oldalra a módosításhoz, hogy megszüntesse a WAN port használatát LAN portként vagy a LAN használatát WAN portként.",
         "set_up_bridge_tips": "A Híd mód beállításához először csatlakoztatnia kell egy Ethernet kábelt a WAN portba.",
         "passthrough_enable_warning": "Ha erre a módba vált, a(z) {feature} funkció le lesz tiltva.",
-        "passthrough_mac_tips": "Ez használatos a nyilvános IP-cím MAC-címének megszerzésére."
+        "passthrough_mac_tips": "Ez használatos a nyilvános IP-cím MAC-címének megszerzésére.",
+        "passthrough_close_edge_tips": "Az IP Passthrough-ra váltáshoz kapcsolja ki a {page} oldalt.",
+        "passthrough_only_one_wan_tips": "Az IP-passthrough módba való váltáshoz lépjen a {page} oldalra, és kapcsolja ki a WAN as LAN vagy LAN as WAN funkciót."
     },
     "menu_bridge": "Üzemmód"
 }

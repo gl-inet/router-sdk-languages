@@ -32,7 +32,8 @@
         "dmz_tips": "Jeśli włączysz DMZ, twoje reguły przekierowania portów i otwierania portów nie będą miały efektu.",
         "dmz_desc": "DMZ pozwala na wystawienie jednego lokalnego komputera do Internetu, wszystkie przychodzące pakiety będą przekierowane do tego komputera.",
         "dmz_host_ip": "IP hosta DMZ",
-        "port_range_tips": "{exPort} nie pasuje do zakresu {inPort}."
+        "port_range_tips": "{exPort} nie pasuje do zakresu {inPort}.",
+        "vpnclient_zone_tips": "Tunele VPN o tej samej konfiguracji będą korzystać z tej samej strefy, a modyfikacja konfiguracji tunelu może wpłynąć na przekierowanie portów."
     },
     "menu_firewallview": "Zapora Sieciowa"
 }

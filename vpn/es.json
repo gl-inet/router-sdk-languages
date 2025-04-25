@@ -302,7 +302,8 @@
         "credential_pwd_label": "Contraseña de credencial",
         "ovpn_nordvpn_account_tips": "Para asegurar el uso exitoso de la VPN, por favor ingrese su {label} (Nota: {not} el correo electrónico/contraseña de la cuenta de inicio de sesión).",
         "ovpn_nordvpn_not_label": "No",
-        "auto_gen_hint": "Generar automáticamente"
+        "auto_gen_hint": "Generar automáticamente",
+        "wg_urbanshield_limit_tips": "No se pudo realizar la vinculación, por favor visite {provider} para desvincular otro dispositivo."
     },
     "menu_ovpnclient": "Cliente OpenVPN",
     "menu_wgclient": "Cliente WireGuard",
@@ -439,7 +440,8 @@
         "enable_ipv6_btn": "Habilitado IPv6",
         "route_rule_dest_already_exists_msg": "No se puede ingresar una dirección de destino que ya existe.",
         "route_rules_title": "Reglas de ruta",
-        "want_use_ipv6_tips": "Si desea utilizar una dirección IPv6, por favor {todo} en su router."
+        "want_use_ipv6_tips": "Si desea utilizar una dirección IPv6, por favor {todo} en su router.",
+        "route_rule_tips": "Una regla de enrutamiento personalizado del servidor VPN puede especificar que cierto tráfico de red se transmita a través del cifrado VPN, mientras que otro tráfico pasa normalmente por la red local."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Muchas funciones de enrutamiento no estarán disponibles.",

@@ -32,7 +32,8 @@
         "dmz_priority_higher_label": "最高",
         "port_value_tips": "端口号范围为 1 到 65535，可以设置单个端口号或通过 - 符号连接首尾端口号来设置端口范围（如 501-510）。",
         "port_range_tips": "{exPort}与{inPort}范围不一致",
-        "adjust _priority_btn": "调整优先级"
+        "adjust _priority_btn": "调整优先级",
+        "vpnclient_zone_tips": "采用相同配置的VPN隧道将使用同一区域，修改隧道配置可能会影响端口转发功能。"
     },
     "menu_firewallview": "防火墙"
 }

@@ -36,7 +36,9 @@
         "passthrough_secondwan_warning": "La modalità Passthrough IP richiede e può avere solo una porta WAN. Andare alla pagina $$$$ per modificarla per annullare l'uso della porta WAN come porta LAN o per annullare l'uso della LAN come porta WAN.",
         "set_up_bridge_tips": "Per impostare la modalità Bridge, è necessario prima collegare un cavo Ethernet alla porta WAN.",
         "passthrough_enable_warning": "Se passi a questa modalità, {feature} verrà disabilitato.",
-        "passthrough_mac_tips": "Questo serve per ottenere l'indirizzo MAC di un IP pubblico."
+        "passthrough_mac_tips": "Questo serve per ottenere l'indirizzo MAC di un IP pubblico.",
+        "passthrough_close_edge_tips": "Per passare alla modalità IP Passthrough, disattivare {page}.",
+        "passthrough_only_one_wan_tips": "Per passare alla modalità IP passthrough, vai a {page} e disattiva WAN come LAN o LAN come WAN."
     },
     "menu_bridge": "Modalità di rete"
 }

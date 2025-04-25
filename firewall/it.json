@@ -32,7 +32,8 @@
         "priority_label": "Priorità",
         "adjust _priority_btn": "Regola Priorità",
         "port_range_tips": "{exPort} non corrisponde all'intervallo di {inPort}.",
-        "port_value_tips": "L'intervallo delle porte è da 1 a 65535. È possibile impostare una singola porta o definire l'intervallo di porte concatenando il primo e l'ultimo numero di porta con il simbolo - (ad esempio 501-510)."
+        "port_value_tips": "L'intervallo delle porte è da 1 a 65535. È possibile impostare una singola porta o definire l'intervallo di porte concatenando il primo e l'ultimo numero di porta con il simbolo - (ad esempio 501-510).",
+        "vpnclient_zone_tips": "I tunnel VPN con la stessa configurazione utilizzeranno la stessa Zona e la modifica della configurazione del tunnel potrebbe influire sul port forwarding."
     },
     "menu_firewallview": "Firewall"
 }

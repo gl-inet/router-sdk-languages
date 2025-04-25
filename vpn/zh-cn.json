@@ -302,7 +302,8 @@
         "credential_pwd_label": "凭证密码",
         "sevice_credential_label": "服务凭证",
         "ovpn_nordvpn_account_label": "NordVPN账户的服务凭证",
-        "auto_gen_hint": "自动生成"
+        "auto_gen_hint": "自动生成",
+        "wg_urbanshield_limit_tips": "绑定失败，请访问{provider}解绑其他设备。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -439,7 +440,8 @@
         "enable_ipv6_btn": "已启用IPv6",
         "route_rules_title": "路由规则",
         "enable_ipv6_tips": "如果未启用IPv6，IPv6地址将不会生效。如果您想使用IPv6地址，请在您的路由器上{todo}。",
-        "want_use_ipv6_tips": "如果您想使用IPv6地址，请在您的路由器上{todo}。"
+        "want_use_ipv6_tips": "如果您想使用IPv6地址，请在您的路由器上{todo}。",
+        "route_rule_tips": "VPN服务器自定义路由规则可指定特定网络流量通过VPN加密传输，而其他流量则正常经由本地网络传输。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "许多路由功能将无法使用。",

@@ -302,7 +302,8 @@
         "ovpn_nordvpn_account_label": "Credenziali di servizio dell'account NordVPN",
         "credential_pwd_label": "Password delle Credenziali",
         "ovpn_nordvpn_not_label": "Non",
-        "auto_gen_hint": "Genera automaticamente"
+        "auto_gen_hint": "Genera automaticamente",
+        "wg_urbanshield_limit_tips": "Binding fallito, si prega di visitare {provider} per rimuovere il binding da altri dispositivi."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -439,7 +440,8 @@
         "route_rule_dest_already_exists_msg": "Non è possibile inserire un indirizzo di destinazione che esiste già.",
         "enable_ipv6_tips": "Se IPv6 non è abilitato, l'indirizzo IPv6 non avrà effetto. Se vuoi utilizzare un indirizzo IPv6, per favore {todo} sul tuo router.",
         "want_use_ipv6_tips": "Se vuoi utilizzare un indirizzo IPv6, per favore {todo} sul tuo router.",
-        "export_addr_tips": "Puoi inserire un indirizzo IP o un nome di dominio. L'indirizzo è l'indirizzo {label} nella configurazione VPN."
+        "export_addr_tips": "Puoi inserire un indirizzo IP o un nome di dominio. L'indirizzo è l'indirizzo {label} nella configurazione VPN.",
+        "route_rule_tips": "Una regola di routing personalizzata del server VPN può specificare che determinati traffici di rete vengano trasmessi attraverso la crittografia VPN, mentre altri traffici passino normalmente attraverso la rete locale."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Molte funzioni di instradamento non saranno disponibili.",

@@ -302,7 +302,8 @@
         "credential_pwd_label": "자격 증명 비밀번호",
         "sevice_credential_label": "서비스 자격 증명",
         "ovpn_nordvpn_not_label": "아님",
-        "auto_gen_hint": "자동 생성"
+        "auto_gen_hint": "자동 생성",
+        "wg_urbanshield_limit_tips": "바인딩에 실패했습니다. {provider}에서 다른 장치의 바인딩을 해제해 주세요."
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",
@@ -439,7 +440,8 @@
         "route_rules_title": "경로 규칙",
         "enable_ipv6_tips": "IPv6가 활성화되지 않은 경우 IPv6 주소는 적용되지 않습니다. IPv6 주소를 사용하려면 라우터에서 {todo}를 해주세요.",
         "want_use_ipv6_tips": "IPv6 주소를 사용하려면 라우터에서 {todo}를 해주세요.",
-        "export_addr_tips": "IP 주소 또는 도메인 이름을 입력할 수 있습니다. 주소는 VPN 구성에서 {label} 주소입니다."
+        "export_addr_tips": "IP 주소 또는 도메인 이름을 입력할 수 있습니다. 주소는 VPN 구성에서 {label} 주소입니다.",
+        "route_rule_tips": "VPN 서버 사용자 지정 라우팅 규칙을 통해 특정 네트워크 트래픽은 VPN 암호화를 통해 전송되도록 지정할 수 있으며, 다른 트래픽은 로컬 네트워크를 통해 정상적으로 전송됩니다."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "많은 라우팅 기능을 사용할 수 없게 됩니다.",

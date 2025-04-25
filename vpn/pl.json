@@ -302,7 +302,8 @@
         "credential_pwd_label": "Hasło poświadczenia",
         "sevice_credential_label": "Poświadczenie usługi",
         "ovpn_nordvpn_not_label": "Nie",
-        "auto_gen_hint": "Automatyczne generowanie"
+        "auto_gen_hint": "Automatyczne generowanie",
+        "wg_urbanshield_limit_tips": "Powiązanie nie powiodło się, odwiedź {provider}, aby odłączyć inne urządzenie."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
@@ -439,7 +440,8 @@
         "route_rule_dest_already_exists_msg": "Nie można wprowadzić adresu docelowego, który już istnieje.",
         "route_rules_title": "Reguły trasowania",
         "want_use_ipv6_tips": "Jeśli chcesz używać adresu IPv6, proszę {todo} w routerze.",
-        "export_addr_tips": "Możesz wprowadzić adres IP lub nazwę domeny. Adres jest {label} adres w konfiguracji VPN."
+        "export_addr_tips": "Możesz wprowadzić adres IP lub nazwę domeny. Adres jest {label} adres w konfiguracji VPN.",
+        "route_rule_tips": "Reguła niestandardowego routingu serwera VPN może określać, że określony ruch sieciowy jest przesyłany przez szyfrowanie VPN, podczas gdy pozostały ruch normalnie przechodzi przez lokalną sieć."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych.",

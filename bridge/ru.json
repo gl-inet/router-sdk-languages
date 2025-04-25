@@ -36,7 +36,9 @@
         "ap": "Точка доступа",
         "wds": "WDS",
         "passthrough_enable_warning": "Если вы переключитесь в этот режим, {feature} будет отключена.",
-        "passthrough_mac_tips": "Это используется для получения MAC-адреса публичного IP."
+        "passthrough_mac_tips": "Это используется для получения MAC-адреса публичного IP.",
+        "passthrough_only_one_wan_tips": "Для переключения в режим IP passthrough перейдите на страницу {page} и отключите функцию WAN as LAN или LAN as WAN.",
+        "passthrough_close_edge_tips": "Для переключения в режим IP Passthrough отключите {page}."
     },
     "menu_bridge": "Сетевой режим"
 }

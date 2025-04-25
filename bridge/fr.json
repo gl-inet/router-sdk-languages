@@ -36,7 +36,9 @@
         "passthrough_conflict_2b_warning": "Ce mode peut ne pas fonctionner si vous avez les paramètres suivants : activé le mode passerelle d'insertion, activé IPv6, défini manuellement le DNS, défini le Multi-WAN en mode équilibré, défini le port WAN comme LAN, utilisé la politique VPN, ajouté un paramètre de pare-feu, défini manuellement l'adresse MAC.",
         "set_up_bridge_tips": "Pour configurer le mode Pont, vous devez d'abord connecter un câble Ethernet au port WAN.",
         "passthrough_enable_warning": "Si vous passez à ce mode, {feature} sera désactivé.",
-        "passthrough_mac_tips": "Ceci est utilisé pour obtenir l'adresse MAC d'une IP publique."
+        "passthrough_mac_tips": "Ceci est utilisé pour obtenir l'adresse MAC d'une IP publique.",
+        "passthrough_only_one_wan_tips": "Pour passer en mode IP passthrough, rendez-vous sur {page} et désactivez WAN as LAN ou LAN as WAN.",
+        "passthrough_close_edge_tips": "Pour passer en mode IP Passthrough, éteignez {page}."
     },
     "menu_bridge": "Comportement"
 }

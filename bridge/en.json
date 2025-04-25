@@ -36,7 +36,9 @@
         "passthrough_secondwan_warning": "IP Passthrough mode requires and can only have one WAN port. Please go to the $$$$ page to modify it to cancel the use of the WAN port as a LAN port or to cancel the use of the LAN as a WAN port.",
         "set_up_bridge_tips": "To set up Bridge mode, you need to connect an Ethernet cable to the WAN port first.",
         "passthrough_enable_warning": "If you switch to this mode, {feature} will be disabled.",
-        "passthrough_mac_tips": "This is used to obtain the MAC address of a public IP."
+        "passthrough_mac_tips": "This is used to obtain the MAC address of a public IP.",
+        "passthrough_only_one_wan_tips": "To switch to IP passthrough, go to {page} and turn off WAN as LAN or LAN as WAN.",
+        "passthrough_close_edge_tips": "To switch to IP Passthrough, turn off {page}."
     },
     "menu_bridge": "Network Mode"
 }
