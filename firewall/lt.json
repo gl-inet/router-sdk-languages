@@ -32,7 +32,8 @@
         "dmz_priority_lower_label": "Žemiausias",
         "adjust _priority_btn": "Reguliuoti prioritetą",
         "port_value_tips": "Prievadų diapazonas yra nuo 1-o iki 65535-iu. Jūs galite nustatyti vieną prievadą arba prievadų diapazoną, sujungiant/surišant pirmojo ir paskutiniojo prievado numerius su simboliu – „-“ (pavyzdžiui, 501-510).",
-        "port_range_tips": "„{exPort}“ neatitinka „{inPort}“ diapazonui."
+        "port_range_tips": "„{exPort}“ neatitinka „{inPort}“ diapazonui.",
+        "vpnclient_zone_tips": "VPN tuneliai su ta pačia konfigūracija naudos tą pačią zoną, o tunelio konfigūracijos keitimas gali turėti įtakos prievadų („Port'ų“) persiuntimui."
     },
     "menu_firewallview": "Užkarda"
 }
