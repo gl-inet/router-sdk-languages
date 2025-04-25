@@ -32,7 +32,8 @@
         "port_range_tips": "{exPort} ist nicht gleich, wie {inPort}.",
         "priority_label": "Priorität",
         "adjust _priority_btn": "Priorität anpassen",
-        "port_value_tips": "Die verfügbaren Ports gehen von 1 bis 65535. Es kann ein einzelner Port angegeben werden oder ein Bereich, mit einem - (zum Beispiel 501-510)."
+        "port_value_tips": "Die verfügbaren Ports gehen von 1 bis 65535. Es kann ein einzelner Port angegeben werden oder ein Bereich, mit einem - (zum Beispiel 501-510).",
+        "vpnclient_zone_tips": "VPN-Tunnel mit derselben Konfiguration verwenden dieselbe Zone, und die Änderung der Tunnelkonfiguration kann die Portweiterleitung beeinflussen."
     },
     "menu_firewallview": "Firewall"
 }
