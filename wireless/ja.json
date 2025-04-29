@@ -33,7 +33,8 @@
         "radio_bands_tips": "少なくとも2つの無線帯域を選択してください。",
         "enable_psc_label": "PSCを有効化",
         "enable_psc_tips": "PSC（優先スキャンチャネル）が有効になっている場合、6GHzデバイスの接続を確保するために、より高い接続性を持つチャネルのみが予約されます。",
-        "mlo_6g_bssid_tips": "MLO Wi-Fiの無線帯域に6 GHzが含まれている場合、6GHz Wi-FiのBSSIDが変更されると、MLO Wi-FiのBSSIDも同期します。"
+        "mlo_6g_bssid_tips": "MLO Wi-Fiの無線帯域に6 GHzが含まれている場合、6GHz Wi-FiのBSSIDが変更されると、MLO Wi-FiのBSSIDも同期します。",
+        "mlo_network_tips": "Wi-Fi 7クライアントはMLO Wi-Fiとの接続が推奨されます。マルチバンド接続により、ネットワーク伝送速度と信頼性が大幅に向上します。"
     },
     "menu_wireless": "無線"
 }
