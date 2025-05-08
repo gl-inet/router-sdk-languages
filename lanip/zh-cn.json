@@ -46,7 +46,7 @@
     "menu_lanip": "内部网络",
     "menu_guestip": "访客网络",
     "lanip": {
-        "block_wan_label": "阻止WAN子网",
+        "block_wan_label": "禁止访问 WAN 子网",
         "block_wan_tips": "如果启用此功能，访客网络将无法访问上级网络和上级网络所在的网络段。",
         "not_asscess_tips": "当前访客网络无法访问网络段{net}。"
     }
