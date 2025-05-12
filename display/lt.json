@@ -1,14 +1,14 @@
 {
     "menu_display": "Rodymo valdymas",
     "display": {
-        "security_title": "Sauga",
-        "personalization_title": "Personalizavimas",
+        "security_title": "Saugumas",
+        "personalization_title": "Suasmeninimas",
         "function_management": "Funkcijų valdymas",
         "enable_screen_passcode": "Įjungti ekrano slaptažodį",
-        "wallpaper": "Fonas",
+        "wallpaper": "Darbalaukio fonas (ekránvaizdis)",
         "auto_lock": "Automatinis užraktas",
-        "supportable_functions_title": "Palaikomos funkcijos",
-        "brightness": "Ryškumas",
+        "supportable_functions_title": "Palaikomosios funkcijos",
+        "brightness": "Skaistis",
         "displaying_functions_title": "Rodomųjų funkcijų rodymas",
         "lock_screen": "Ekrano užraktas",
         "clients_speed": "Klientų greitis",
@@ -25,11 +25,11 @@
         "customize": "Tinkinti",
         "re_upload_image": "Perkelti laikmeną",
         "upload_image": "Įkelti laikmeną",
-        "upload_image_size_tips": "Laikmena Dydis 5MB, Rekomenduojamas Santykis 4:1",
-        "upload_image_supported_tips": "Palaikomi failų tipai apima .png .jpg.",
+        "upload_image_supported_tips": "Palaikomi failų tipai apima: „*.png“, „*.jpg“",
         "example_pic_display_tips": "*Paveikslėliai yra ekranų pavyzdžiai",
         "edit_phot_title": "Redaguoti nuotrauką",
         "limit_image_size_msg": "Laikmenos dydis negali viršyti 5MB",
-        "number_only_tips": "Tik 4 skaitmenų skaičiai"
+        "number_only_tips": "Tik 4-ių skaitmenų skaičiai",
+        "upload_image_size_tips": "Laikmena Dydis < 5MB; Rekomenduojamas Santykis 4:1"
     }
 }
