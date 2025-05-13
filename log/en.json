@@ -39,6 +39,8 @@
         "email_param_invalied_msg": "mailbox format error",
         "network_connection_failed_msg": "network connection issues",
         "mail_server_error_msg": "mail server error",
-        "system_error_msg": "system error"
+        "system_error_msg": "system error",
+        "frequent_operation_msg": "Frequent operation, please try again after {time} seconds.",
+        "send_too_many_times_msg": "Daily limit reached. Try again tomorrow."
     }
 }
