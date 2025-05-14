@@ -283,7 +283,6 @@
         "guide_sign_up_title": "Enregistrez un compte du {provider}",
         "wg_subscription_expired_tips": "L'abonnement de ce compte a peut-être expiré.",
         "wg_not_subscription_tips": "Ce compte peut ne pas avoir d'abonnement.",
-        "wg_guide_tips": "Le guide VPN peut vous aider à utiliser rapidement le VPN WireGuard. Il est uniquement pour AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme et IPVanish. Pour les autres, vous pouvez ignorer. La configuration du VPN peut prendre quelques minutes.",
         "inp_domain_url_label": "Saisir le lien URL",
         "wg_mullvad_limit_tips": "Échec de la génération d'une clé WireGuard. Vous ne pouvez avoir que cinq clés au maximum en même temps par compte Mullvad. Veuillez aller sur {provider} pour révoquer une clé.",
         "expires_at_tips": "Expire à {time}",
@@ -304,7 +303,8 @@
         "ovpn_nordvpn_not_label": "Non",
         "auto_gen_hint": "Génération automatique",
         "wg_urbanshield_limit_tips": "Échec de la liaison, veuillez visiter {provider} pour dissocier un autre appareil.",
-        "delete_all_config_tips": "Supprimer définitivement toutes vos configurations. Cette action est irréversible. Souhaitez-vous continuer ?"
+        "delete_all_config_tips": "Supprimer définitivement toutes vos configurations. Cette action est irréversible. Souhaitez-vous continuer ?",
+        "wg_guide_tips": "En utilisant l'assistant VPN, vous pouvez compléter la configuration du VPN en quelques étapes seulement et profiter rapidement d'une expérience réseau sécurisée !"
     },
     "menu_wgserver": "Serveur Wireguard",
     "menu_ovpnserver": "Serveur OpenVPN",

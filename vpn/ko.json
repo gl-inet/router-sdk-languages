@@ -284,7 +284,6 @@
         "guide_sign_up_title": "{provider} 계정 등록",
         "wg_not_subscription_tips": "이 계정은 구독이 없을 수 있습니다.",
         "wg_subscription_expired_tips": "이 계정의 구독이 만료되었을 수 있습니다.",
-        "wg_guide_tips": "VPN 가이드는 AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme 및 IPVanish를 사용하는 WireGuard VPN을 빠르게 사용하는 데 도움이 됩니다. 다른 VPN 서비스는 건너뛰어도 됩니다. VPN 구성에는 몇 분 정도 걸릴 수 있습니다.",
         "inp_domain_url_label": "URL 링크 입력",
         "domain_url_tips": "올바른 URL을 입력하십시오. URL 감지는 도메인 이름 또는 IP 주소의 정확성을 확인합니다.",
         "domain_input_mode_tips": "도메인 이름이나 IP를 수동 또는 자동으로 입력할 수 있으며, 구독 URL을 선택하면 URL에 있는 도메인 이름이나 IP가 매일 자동으로 업데이트됩니다.",
@@ -304,7 +303,8 @@
         "ovpn_nordvpn_not_label": "아님",
         "auto_gen_hint": "자동 생성",
         "wg_urbanshield_limit_tips": "바인딩에 실패했습니다. {provider}에서 다른 장치의 바인딩을 해제해 주세요.",
-        "delete_all_config_tips": "모든 설정을 영구적으로 삭제합니다. 이 작업은 취소할 수 없습니다. 계속 진행하시겠습니까?"
+        "delete_all_config_tips": "모든 설정을 영구적으로 삭제합니다. 이 작업은 취소할 수 없습니다. 계속 진행하시겠습니까?",
+        "wg_guide_tips": "VPN 마법사를 사용하면 몇 단계만으로 VPN 설정을 완료하고 빠르게 안전한 네트워크 환경을 즐길 수 있습니다!"
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",

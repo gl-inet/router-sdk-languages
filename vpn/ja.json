@@ -283,7 +283,6 @@
         "guide_sign_up_title": "{provider}のアカウントを登録する",
         "wg_not_subscription_tips": "このアカウントにはサブスクリプションがない可能性があります。",
         "wg_subscription_expired_tips": "このアカウントのサブスクリプションは期限切れになっている可能性があります。",
-        "wg_guide_tips": "VPNガイドは、WireGuard VPNを迅速に使用するのに役立ちます。これはAzireVPN、Mullvad、PIA、Surfshark、NordVPN、Hide.me、IPVanish専用です。他のVPNサービスについてはスキップしてください。VPNの設定には数分かかる場合があります。",
         "wg_azirevpn_limit_tips": "AzireVPNアカウントは同時に10台のデバイスでのみ使用できます。アカウントのデバイス最大数に達しましたので、{provider}にアクセスし、使用していないデバイスを削除してから再試行してください。",
         "wg_nordvpn_tips": "NordVPNトークンはNordVPNにログインするための認証情報です。まずNordVPNの公式ウェブサイトにログインし、その後手動でトークンを取得する必要があります。",
         "server_select_label": "サーバー選択",
@@ -304,7 +303,8 @@
         "ovpn_nordvpn_not_label": "なし",
         "auto_gen_hint": "自動生成",
         "wg_urbanshield_limit_tips": "バインドに失敗しました。他のデバイスのバインドを解除するには、{provider}にアクセスしてください。",
-        "delete_all_config_tips": "すべての設定を完全に削除します。この操作は取り消せません。続行しますか？"
+        "delete_all_config_tips": "すべての設定を完全に削除します。この操作は取り消せません。続行しますか？",
+        "wg_guide_tips": "VPNウィザードを使用すると、わずか数ステップでVPN設定を完了し、迅速に安全なネットワーク体験を楽しむことができます！"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",

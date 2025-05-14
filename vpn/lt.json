@@ -289,7 +289,6 @@
         "wg_mullvad_limit_tips": "Nepavyko sukurti „WireGuard“ rakto. Vienam „Mullvad“ paskyros vartotojui vienu metu galima turėti iki penkių raktų. Prašome eiti į {provider}, kad panaikintumėte raktą.",
         "domain_input_mode_tips": "Jei pasirinksite – „Prenumeruoti“ „URL“ – saitą, domeno-srities pavadinimą ar IP, randamąjį „URL“ – saite; tai jis yra automatiškai atnaujinamas kasdien.",
         "guide_contact_us_tips": "4.Jei problema neišspręsta, taip pat galite siųsti el. laišką – {email}.",
-        "wg_guide_tips": "„VPN“ vadovas/gidas padės Jums greitai naudotis „WireGuard VPN“. Šis skirtas tik „AzireVPN“, „Mullvad“, „PIA“, „Surfshark“, „NordVPN“, „Hideme“ ir „IPVanish“. Kitiems galite praleisti. „VPN“ konfigūravimas gali užtrukti kelias minutes.",
         "wg_guide_disabled_tips": "„OpenVPN“ yra prijungtas, išjunkite „OpenVPN“, jeigu Jums reikia naudoti „WireGuard VPN“.",
         "on_router_label": "„VPN“ maršrutizatoriuje",
         "manual_upload_tips": "Prašome apsilankyti – {page}, norint peržiūrėti – {type} palaikomus „VPN“ paslaugų teikėjus ir sužinokite apie „VPN“ naudojimosi/vartojimosi naudas.",
@@ -304,7 +303,8 @@
         "ovpn_nordvpn_not_label": "Ne",
         "auto_gen_hint": "Automatiškai generuoti",
         "wg_urbanshield_limit_tips": "Susiejimas nepavyko, apsilankykite {provider}, kad atjungtumėte kitą įrenginį.",
-        "delete_all_config_tips": "Visamai pašalinti visas jūsų konfigūracijas. Šis veiksmas negali būti anuliuotas. Ar norite tęsti?"
+        "delete_all_config_tips": "Visamai pašalinti visas jūsų konfigūracijas. Šis veiksmas negali būti anuliuotas. Ar norite tęsti?",
+        "wg_guide_tips": "Naudodamiesi „VPN“ vedliu, galite užbaigti „VPN“ konfigūraciją vos per kelis žingsnius ir greitai mėgautis saugiu tinklo patyrimu!"
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",

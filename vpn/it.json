@@ -289,7 +289,6 @@
         "guide_login_title": "Accedi {provider}",
         "guide_sign_up_title": "Registra un account di {provider}",
         "wg_subscription_expired_tips": "L'abbonamento di questo account potrebbe essere scaduto.",
-        "wg_guide_tips": "La guida VPN può aiutarti ad utilizzare rapidamente la VPN WireGuard. È valida solo per AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme e IPVanish. Per gli altri, puoi ignorarla. Configurare la VPN potrebbe richiedere alcuni minuti.",
         "ovpn_nordvpn_tips": "Per garantire un utilizzo corretto della VPN, si prega di inserire {account}, che fungerà da credenziali di servizio per NordVPN.",
         "to_setup_guide_tips": "Se non sai come ottenerlo, consulta {guide}.",
         "accurate_account_label": "il nome utente e la password esatti di NordVPN",
@@ -304,7 +303,8 @@
         "ovpn_nordvpn_not_label": "Non",
         "auto_gen_hint": "Genera automaticamente",
         "wg_urbanshield_limit_tips": "Binding fallito, si prega di visitare {provider} per rimuovere il binding da altri dispositivi.",
-        "delete_all_config_tips": "Eliminare definitivamente tutte le configurazioni. Questa operazione non può essere annullata. Si desidera procedere?"
+        "delete_all_config_tips": "Eliminare definitivamente tutte le configurazioni. Questa operazione non può essere annullata. Si desidera procedere?",
+        "wg_guide_tips": "Utilizzando la procedura guidata VPN, puoi completare la configurazione VPN in pochi passaggi e goderti rapidamente un'esperienza di rete sicura!"
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",

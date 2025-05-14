@@ -275,7 +275,6 @@
         "guide_login_title": "Anmelden bei {provider}",
         "guide_done_title": "Erfolgreiches Netzwerken",
         "guide_pull_title": "{provider} Serverauswahl",
-        "wg_guide_tips": "Die VPN-Anleitung kann Ihnen helfen, das WireGuard VPN schnell zu nutzen. Sie gilt nur für AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme und IPVanish. Für andere können Sie diesen Schritt überspringen. Die Konfiguration des VPNs kann einige Minuten dauern.",
         "guide_make_sure_available_tips": "1.Stellen Sie sicher, dass das VPN-Konto verfügbar ist.",
         "guide_cannot_work_tips": "Derzeit funktioniert das VPN nicht ordnungsgemäß, bitte versuchen Sie folgende Schritte.",
         "guide_restart_tips": "3.Starten Sie den Router neu.",
@@ -304,7 +303,8 @@
         "ovpn_nordvpn_not_label": "Nicht",
         "auto_gen_hint": "Automatisch generieren",
         "wg_urbanshield_limit_tips": "Bindung fehlgeschlagen, bitte besuchen Sie {provider}, um andere Geräte zu entbinden.",
-        "delete_all_config_tips": "Alle Ihre Konfigurationen dauerhaft löschen. Dieser Vorgang kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?"
+        "delete_all_config_tips": "Alle Ihre Konfigurationen dauerhaft löschen. Dieser Vorgang kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?",
+        "wg_guide_tips": "Mit dem VPN-Assistenten können Sie die VPN-Konfiguration in nur wenigen Schritten abschließen und schnell ein sicheres Netzwerkerlebnis genießen!"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",

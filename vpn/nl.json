@@ -285,7 +285,6 @@
         "guide_sign_up_title": "Registreer account van de {provider}",
         "wg_not_subscription_tips": "Dit account heeft mogelijk geen abonnement.",
         "wg_subscription_expired_tips": "Het abonnement van dit account is mogelijk verlopen.",
-        "wg_guide_tips": "De VPN-gids kan u helpen snel de WireGuard VPN te gebruiken. Het is alleen voor AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hideme en IPVanish. Voor anderen kunt u overslaan. Het configureren van de VPN kan enkele minuten duren.",
         "domain_detect_success_tips": "{count} domeinnamen of IP-adressen zijn succesvol gedetecteerd.",
         "expires_at_tips": "Verloopt op {time}",
         "server_select_label": "Server Selecteren",
@@ -304,7 +303,8 @@
         "ovpn_nordvpn_not_label": "Niet",
         "auto_gen_hint": "Automatisch genereren",
         "wg_urbanshield_limit_tips": "Binding mislukt, ga naar {provider} om andere apparaten los te koppelen.",
-        "delete_all_config_tips": "Permanente verwijdering van al uw configuraties. Dit kan niet ongedaan worden gemaakt. Wilt u doorgaan?"
+        "delete_all_config_tips": "Permanente verwijdering van al uw configuraties. Dit kan niet ongedaan worden gemaakt. Wilt u doorgaan?",
+        "wg_guide_tips": "Met de VPN-wizard kunt u in slechts enkele stappen de VPN-configuratie voltooien en snel genieten van een veilige netwerkervaring!"
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
