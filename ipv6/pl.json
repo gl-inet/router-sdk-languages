@@ -11,7 +11,8 @@
         "dns_server_empty": "Wprowadź przynajmniej jeden serwer DNS",
         "native_tips": "Ta opcja jest dostępna tylko dla sieci prywatnej, sieć gościnna zawsze używa trybu NAT6.",
         "tips": "Po włączeniu IPv6, interfejsy WAN takie jak Ethernet otrzymają swoje adresy IPv6 za pośrednictwem DHCPv6. Możesz również ręcznie zmodyfikować adres IPv6 na stronie ustawień Ethernetu. Niektóre funkcje (zapora sieciowa, VPN, GoodCloud) jeszcze nie obsługują IPv6.",
-        "use_tip": "Gdy IPv6 jest włączone, interfejsy WAN, takie jak Ethernet, otrzymają swoje adresy IPv6 za pośrednictwem DHCPv6. Możesz również ręcznie zmodyfikować adres IPv6 na stronie ustawień Ethernetu. Niektóre funkcje ({features}) jeszcze nie obsługują IPv6."
+        "use_tip": "Gdy IPv6 jest włączone, interfejsy WAN, takie jak Ethernet, otrzymają swoje adresy IPv6 za pośrednictwem DHCPv6. Możesz również ręcznie zmodyfikować adres IPv6 na stronie ustawień Ethernetu. Niektóre funkcje ({features}) jeszcze nie obsługują IPv6.",
+        "disable_dns_tips": "Jeśli chcesz wyłączyć IPv6, strona {page} powinna korzystać z adresu IPv4, w przeciwnym razie urządzenie może nie być w stanie połączyć się z siecią."
     },
     "menu_ipv6": "IPv6"
 }
