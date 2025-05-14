@@ -40,6 +40,7 @@
         "network_connection_failed_msg": "network connection issues",
         "mail_server_error_msg": "mail server error",
         "system_error_msg": "system error",
-        "send_too_many_times_msg": "send too many times"
+        "frequent_operation_msg": "Frequent operation, please try again after {time} seconds.",
+        "send_too_many_times_msg": "Daily limit reached. Try again tomorrow."
     }
 }

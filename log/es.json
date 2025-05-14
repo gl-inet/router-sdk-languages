@@ -40,6 +40,7 @@
         "network_connection_failed_msg": "problemas de conexión a la red",
         "mail_server_error_msg": "error del servidor de correo",
         "system_error_msg": "error del sistema",
-        "send_too_many_times_msg": "enviar demasiadas veces"
+        "frequent_operation_msg": "Operación frecuente, por favor intente nuevamente después de {time} segundos.",
+        "send_too_many_times_msg": "Límite diario alcanzado. Inténtalo de nuevo mañana."
     }
 }
