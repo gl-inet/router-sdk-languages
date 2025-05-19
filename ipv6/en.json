@@ -11,7 +11,8 @@
         "invalid_parameter": "The format you entered is incorrect!",
         "dns_server_empty": "Enter at least one DNS server",
         "native_tips": "This option is only available for private network, guest network always use NAT6 mode.",
-        "use_tip": "When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addresses via DHCPv6. You can also modify the IPv6 address manually in the Ethernet settings page. Some features ({features}) do not yet support IPv6."
+        "use_tip": "When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addresses via DHCPv6. You can also modify the IPv6 address manually in the Ethernet settings page. Some features ({features}) do not yet support IPv6.",
+        "disable_dns_tips": "If you want to disable IPv6, the {page} should use an IPv4 address, otherwise the device may not be able to connect to the network."
     },
     "menu_ipv6": "IPv6"
 }

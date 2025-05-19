@@ -11,7 +11,8 @@
         "invalid_parameter": "Le format d'adresse que vous avez entré est incorrect !",
         "dns_server_empty": "Entrer au moins un serveur DNS",
         "native_tips": "Cette option n'est disponible que pour le réseau privé, le réseau invité utilise toujours le mode NAT6.",
-        "use_tip": "Lorsque IPv6 est activé, les interfaces WAN telles que l'Ethernet obtiendront leurs adresses IPv6 via DHCPv6. Vous pouvez également modifier manuellement l'adresse IPv6 dans la page de paramètres Ethernet. Certaines fonctionnalités ({features}) ne prennent pas encore en charge IPv6."
+        "use_tip": "Lorsque IPv6 est activé, les interfaces WAN telles que l'Ethernet obtiendront leurs adresses IPv6 via DHCPv6. Vous pouvez également modifier manuellement l'adresse IPv6 dans la page de paramètres Ethernet. Certaines fonctionnalités ({features}) ne prennent pas encore en charge IPv6.",
+        "disable_dns_tips": "Si vous souhaitez désactiver IPv6, la {page} doit utiliser une adresse IPv4, sinon l'appareil pourrait ne pas être en mesure de se connecter au réseau."
     },
     "menu_ipv6": "IPv6"
 }
