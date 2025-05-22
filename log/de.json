@@ -41,6 +41,7 @@
         "mail_server_error_msg": "Mailserver-Fehler",
         "system_error_msg": "Systemfehler",
         "frequent_operation_msg": "Häufige Operation, bitte versuchen Sie es nach {time} Sekunden erneut.",
-        "send_too_many_times_msg": "Tageslimit erreicht. Versuchen Sie es morgen erneut."
+        "send_too_many_times_msg": "Tageslimit erreicht. Versuchen Sie es morgen erneut.",
+        "xss_attack_msg": "Die Beschreibung enthält HTML-Tags (wie < tag >), bitte ändern Sie diese und versuchen Sie es erneut."
     }
 }
