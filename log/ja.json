@@ -41,6 +41,7 @@
         "mail_server_error_msg": "メールサーバーエラー",
         "system_error_msg": "システムエラー",
         "frequent_operation_msg": "操作が頻繁なため、{time}秒後にもう一度お試しください。",
-        "send_too_many_times_msg": "1日の制限に達しました。明日、再度お試しください。"
+        "send_too_many_times_msg": "1日の制限に達しました。明日、再度お試しください。",
+        "xss_attack_msg": "説明文にHTMLタグ（例：<tag>）が含まれています。修正して再度お試しください。"
     }
 }
