@@ -41,6 +41,7 @@
         "mail_server_error_msg": "mail server error",
         "system_error_msg": "system error",
         "frequent_operation_msg": "Frequent operation, please try again after {time} seconds.",
-        "send_too_many_times_msg": "Daily limit reached. Try again tomorrow."
+        "send_too_many_times_msg": "Daily limit reached. Try again tomorrow.",
+        "xss_attack_msg": "The description contains HTML tags (such as < tag >), please modify it and try again."
     }
 }

@@ -41,6 +41,7 @@
         "mail_server_error_msg": "błąd serwera pocztowego",
         "system_error_msg": "błąd systemu",
         "frequent_operation_msg": "Częsta operacja, spróbuj ponownie za {time} sekund.",
-        "send_too_many_times_msg": "Osiągnięto dzienny limit. Spróbuj ponownie jutro."
+        "send_too_many_times_msg": "Osiągnięto dzienny limit. Spróbuj ponownie jutro.",
+        "xss_attack_msg": "Opis zawiera znaczniki HTML (takie jak <tag>), proszę je zmodyfikować i spróbować ponownie."
     }
 }

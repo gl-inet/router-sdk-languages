@@ -41,6 +41,7 @@
         "mail_server_error_msg": "메일 서버 오류",
         "system_error_msg": "시스템 오류",
         "frequent_operation_msg": "빈번한 작업으로, {time}초 후에 다시 시도해 주세요.",
-        "send_too_many_times_msg": "일일 한도에 도달했습니다. 내일 다시 시도해 주세요."
+        "send_too_many_times_msg": "일일 한도에 도달했습니다. 내일 다시 시도해 주세요.",
+        "xss_attack_msg": "설명에 HTML 태그(예: <tag>)가 포함되어 있습니다. 수정 후 다시 시도해 주세요."
     }
 }

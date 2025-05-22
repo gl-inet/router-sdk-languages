@@ -41,6 +41,7 @@
         "mail_server_error_msg": "error del servidor de correo",
         "system_error_msg": "error del sistema",
         "frequent_operation_msg": "Operación frecuente, por favor intente nuevamente después de {time} segundos.",
-        "send_too_many_times_msg": "Límite diario alcanzado. Inténtalo de nuevo mañana."
+        "send_too_many_times_msg": "Límite diario alcanzado. Inténtalo de nuevo mañana.",
+        "xss_attack_msg": "La descripción contiene etiquetas HTML (como < tag >), por favor modifíquela e inténtelo de nuevo."
     }
 }
