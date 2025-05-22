@@ -41,6 +41,7 @@
         "mail_server_error_msg": "erreur du serveur de messagerie",
         "system_error_msg": "erreur système",
         "frequent_operation_msg": "Opération fréquente, veuillez réessayer après {time} secondes.",
-        "send_too_many_times_msg": "Limite quotidienne atteinte. Réessayez demain."
+        "send_too_many_times_msg": "Limite quotidienne atteinte. Réessayez demain.",
+        "xss_attack_msg": "La description contient des balises HTML (comme < tag >), veuillez les modifier et réessayer."
     }
 }
