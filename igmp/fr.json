@@ -1,6 +1,6 @@
 {
     "igmp": {
-        "desc": "IGMP Snooping lis les paquets du protocole IGMP, extrait les informations correspondantes, établit et maintient la publication de transfert de multidiffusion de couche 2, puis transmet les données du groupe de multidiffusion à l'hôte qui rejoint le groupe de multidiffusion, tandis que les autres hôtes ne peuvent pas recevoir les données du groupe de multidiffusion.",
+        "desc": "L’IGMP Snooping écoute et extrait les informations des paquets du protocole IGMP, établit et maintient la table de commutation multicast de niveau 2, puis transfère les données du groupe multicast uniquement aux hôtes ayant rejoint ce groupe, tandis que les autres hôtes ne reçoivent pas ces données.",
         "note": "IGMPv3 est compatible avec la version 1 et 2 du protocole, la version 3 est utilisé par default, vous pouvez changer de version si vous rencontrez des problèmes.",
         "version": "Version"
     }
