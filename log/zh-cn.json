@@ -41,6 +41,7 @@
         "mail_server_error_msg": "邮件服务器错误",
         "system_error_msg": "系统错误",
         "frequent_operation_msg": "操作频繁，请{time}秒后重试。",
-        "send_too_many_times_msg": "已达到每日上限，请明天再试。"
+        "send_too_many_times_msg": "已达到每日上限，请明天再试。",
+        "xss_attack_msg": "描述中包含HTML标签（如< tag >），请修改后重试。"
     }
 }
