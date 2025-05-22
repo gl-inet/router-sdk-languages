@@ -41,6 +41,7 @@
         "mail_server_error_msg": "mailserverfout",
         "system_error_msg": "systeemfout",
         "frequent_operation_msg": "Frequente handeling, probeer het opnieuw over {time} seconden.",
-        "send_too_many_times_msg": "Dagelijkse limiet bereikt. Probeer het morgen opnieuw."
+        "send_too_many_times_msg": "Dagelijkse limiet bereikt. Probeer het morgen opnieuw.",
+        "xss_attack_msg": "De beschrijving bevat HTML-tags (zoals < tag >), pas deze aan en probeer het opnieuw."
     }
 }
