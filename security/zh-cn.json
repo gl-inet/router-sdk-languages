@@ -29,7 +29,8 @@
         "session_timeout_tips": "浏览器页面关闭或者休眠状态到登出的间隔时间。",
         "port_conflict_tips": "不能设置相同的端口。",
         "access_title": "访问控制",
-        "access_enable_ssh_label": "启用SSH"
+        "access_enable_ssh_label": "启用SSH",
+        "ssh_need_strong_pwd_tips": "在启用SSH功能之前，您需要先启用\"{label}\"。"
     },
     "menu_security": "安全"
 }
