@@ -6,5 +6,14 @@
         "go_to_luci_btn": "LuCIへ移動する",
         "luci_security_tips": "LuCIのセキュリティのため、リモートからLuCIにアクセスする必要がある場合は、LuCIポートを手動で開くようにしてください。",
         "luci_rtty_tips": "rttyを経由してLuCIにリモートアクセスする必要がある場合は、クラウドプラットフォーム上で{port}ポートでLuCIにアクセスしてください。"
+    },
+    "luci": {
+        "install_tips": "LuCIで詳細設定を変更する",
+        "install_power_by_tips": "LuCIはOpenWrtによってメンテナンスされているオープンで独立したプロジェクトです。",
+        "install_btn": "今すぐインストール",
+        "insatlling_tips": "インストール中...",
+        "install_fail_tips": "インストールに失敗しました",
+        "check_network_tips": "ネットワーク接続を確認してください。",
+        "re_install_btn": "再インストール"
     }
 }
