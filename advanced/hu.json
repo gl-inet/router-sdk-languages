@@ -6,5 +6,14 @@
         "go_to_luci_btn": "LuCI megnyitása",
         "luci_rtty_tips": "Ha távolról szeretné elérni a LuCI-t rtty-n keresztül, kérem, a felhőplatformon a {port} porton érje el a LuCI-t.",
         "luci_security_tips": "Biztonsági okokból a LuCI távoli elérése nem engedélyezett. Távoli eléréshez szükséges lesz a megfelelő port kinyitására."
+    },
+    "luci": {
+        "install_tips": "Speciális beállítások módosítása LuCI-val",
+        "install_power_by_tips": "A LuCI egy nyílt és független projekt, amelyet az OpenWrt tart karban.",
+        "install_btn": "Telepítés most",
+        "insatlling_tips": "Telepítés folyamatban...",
+        "install_fail_tips": "A telepítés sikertelen",
+        "check_network_tips": "Kérjük, ellenőrizze a hálózati kapcsolatát.",
+        "re_install_btn": "Újratelepítés"
     }
 }
