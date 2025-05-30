@@ -428,7 +428,14 @@
         "method_count_label": "{count} 가지 방법|{count} 가지 방법",
         "custom_tunnel_title": "VPN 터널 사용자 정의",
         "stop_title": "VPN 구성 중지",
-        "default_tunnel_tip": "변경할 수 없는 내장 터널."
+        "default_tunnel_tip": "변경할 수 없는 내장 터널.",
+        "switch_mode_title": "VPN 모드 전환",
+        "global_mode_label": "글로벌 모드",
+        "global_mode_desc": "VPN이 연결되면 모든 트래픽이 VPN을 통해 라우팅됩니다. 하나의 VPN 클라이언트 인스턴스만 활성화할 수 있습니다.",
+        "policy_mode_label": "정책 모드",
+        "policy_mode_desc": "이 모드는 고급 사용자 지정을 지원하며, 단일 장치에서 여러 VPN 서버 구성 및 활성화와 복잡한 정책 로직 실행이 가능합니다.",
+        "switch_global_mode_tips": "글로벌 모드로 전환하기 전에 최대 하나의 VPN 터널만 유지하고 나머지는 모두 삭제하십시오. 유지된 터널의 정책은 자동으로 초기화됩니다.",
+        "switch_mode_has_been_using_tips": "현재 모드가 적용되었습니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
