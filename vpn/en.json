@@ -436,7 +436,8 @@
         "policy_mode_label": "Policy Mode",
         "policy_mode_desc": "This mode supports advanced customization, enabling the configuration and activation of multiple VPN servers on a single device, along with the execution of complex policy logic.",
         "switch_global_mode_tips": "Before switching to Global Mode, please keep at most one VPN tunnel and delete all others. The policy of the retained tunnel will be automatically cleared.",
-        "select_config_tip_label": "Please select a configuration file"
+        "select_config_tip_label": "Please select a configuration file",
+        "select_config_title": "Select Configuration"
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
