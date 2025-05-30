@@ -428,7 +428,14 @@
         "method_count_label": "{count} método|{count} métodos",
         "custom_tunnel_title": "Personalizar túnel VPN",
         "stop_title": "Detener configuración de VPN",
-        "default_tunnel_tip": "Túnel incorporado inalterable."
+        "default_tunnel_tip": "Túnel incorporado inalterable.",
+        "switch_mode_title": "Cambiar modo VPN",
+        "global_mode_label": "Modo Global",
+        "global_mode_desc": "Si la VPN está conectada, todo el tráfico se enrutará a través de la VPN. Solo se puede activar una instancia de cliente VPN.",
+        "policy_mode_label": "Modo de política",
+        "policy_mode_desc": "Este modo permite personalización avanzada, posibilitando la configuración y activación de múltiples servidores VPN en un solo dispositivo, así como la ejecución de lógicas de políticas complejas.",
+        "switch_global_mode_tips": "Antes de cambiar al Modo Global, por favor mantenga como máximo un túnel VPN y elimine los demás. La política del túnel retenido se borrará automáticamente.",
+        "switch_mode_has_been_using_tips": "El modo actual ha sido aplicado."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
@@ -453,5 +460,8 @@
         "exit_tips": "Salir del cliente TAP-S2S desactivará el modo TAP-S2S y volverá al modo Túnel. El cliente OpenVPN también volverá a su dirección IP original.",
         "start_title": "Atención: Iniciar Cliente TAP-S2S",
         "start_disable_tips": "Todos los túneles actuales se desactivarán y ocultarán."
+    },
+    "vpn_tunne": {
+        "select_config_title": "Seleccionar Configuración"
     }
 }
