@@ -428,7 +428,14 @@
         "method_count_label": "{count} 件の方法|{count} 件の方法",
         "custom_tunnel_title": "VPNトンネルのカスタマイズ",
         "stop_title": "VPN設定を中止",
-        "default_tunnel_tip": "変更不可の内蔵トンネル。"
+        "default_tunnel_tip": "変更不可の内蔵トンネル。",
+        "switch_mode_title": "VPNモードの切り替え",
+        "global_mode_label": "グローバルモード",
+        "policy_mode_label": "ポリシーモード",
+        "global_mode_desc": "VPNが接続されている場合、すべてのトラフィックはVPNを経由します。VPNクライアントインスタンスは1つしか有効化できません。",
+        "switch_global_mode_tips": "グローバルモードに切り替える前に、最大1つのVPNトンネルを残し、他のすべてを削除してください。保持されたトンネルのポリシーは自動的にクリアされます。",
+        "policy_mode_desc": "このモードは高度なカスタマイズをサポートし、単一デバイス上で複数のVPNサーバーの設定と有効化、および複雑なポリシーロジックの実行を可能にします。",
+        "switch_mode_has_been_using_tips": "現在のモードが適用されました。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
@@ -453,5 +460,8 @@
         "exit_tips": "TAP-S2Sクライアントを終了すると、TAP-S2Sモードが無効になり、トンネルモードに戻ります。OpenVPNクライアントも元のIPアドレスに戻ります。",
         "start_title": "注意：TAP-S2Sクライアントを起動",
         "start_disable_tips": "現在有効なトンネルはすべて無効化され、非表示になります。"
+    },
+    "vpn_tunne": {
+        "select_config_title": "設定を選択"
     }
 }
