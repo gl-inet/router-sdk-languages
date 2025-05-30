@@ -435,7 +435,8 @@
         "policy_mode_label": "정책 모드",
         "policy_mode_desc": "이 모드는 고급 사용자 지정을 지원하며, 단일 장치에서 여러 VPN 서버 구성 및 활성화와 복잡한 정책 로직 실행이 가능합니다.",
         "switch_global_mode_tips": "글로벌 모드로 전환하기 전에 최대 하나의 VPN 터널만 유지하고 나머지는 모두 삭제하십시오. 유지된 터널의 정책은 자동으로 초기화됩니다.",
-        "switch_mode_has_been_using_tips": "현재 모드가 적용되었습니다."
+        "switch_mode_has_been_using_tips": "현재 모드가 적용되었습니다.",
+        "select_config_tip_label": "구성 파일을 선택해 주세요."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
