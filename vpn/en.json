@@ -428,7 +428,14 @@
         "device_count_label": "{count} Device|{count} Devices",
         "custom_tunnel_title": "Customise VPN tunnel",
         "stop_title": "Stop VPN Configuration",
-        "default_tunnel_tip": "Unchangeable inbuilt tunnel."
+        "default_tunnel_tip": "Unchangeable inbuilt tunnel.",
+        "switch_mode_title": "Switch VPN Mode",
+        "switch_mode_has_been_using_tips": "The current mode has been applied.",
+        "global_mode_label": "Global Mode",
+        "global_mode_desc": "If the VPN is connected, all traffic will be routed through the VPN. Only one VPN client instance can be activated.",
+        "policy_mode_label": "Policy Mode",
+        "policy_mode_desc": "This mode supports advanced customization, enabling the configuration and activation of multiple VPN servers on a single device, along with the execution of complex policy logic.",
+        "switch_global_mode_tips": "Before switching to Global Mode, please keep at most one VPN tunnel and delete all others. The policy of the retained tunnel will be automatically cleared."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
@@ -453,5 +460,8 @@
         "exit_tips": "Exiting the TAP-S2S client will disable TAP-S2S mode and revert to Tunnel mode. The OpenVPN client will also revert to its original IP address.",
         "start_title": "Attention: Start TAP-S2S Client",
         "start_disable_tips": "All current Tunnels will be disabled and hidden."
+    },
+    "vpn_tunne": {
+        "select_config_title": "Select Configuration"
     }
 }
