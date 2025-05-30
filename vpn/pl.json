@@ -428,7 +428,14 @@
         "method_count_label": "{count} metoda|{count} metody|{count} metod",
         "custom_tunnel_title": "Dostosuj tunel VPN",
         "stop_title": "Zatrzymaj konfigurację VPN",
-        "default_tunnel_tip": "Niezmienialny wbudowany tunel."
+        "default_tunnel_tip": "Niezmienialny wbudowany tunel.",
+        "switch_mode_title": "Przełącz tryb VPN",
+        "global_mode_label": "Tryb Globalny",
+        "global_mode_desc": "Jeśli VPN jest połączony, cały ruch będzie kierowany przez VPN. Można aktywować tylko jedną instancję klienta VPN.",
+        "policy_mode_label": "Tryb polityki",
+        "policy_mode_desc": "Ten tryb obsługuje zaawansowane dostosowywanie, umożliwiając konfigurację i aktywację wielu serwerów VPN na jednym urządzeniu, a także wykonywanie złożonej logiki polityki.",
+        "switch_global_mode_tips": "Przed przełączeniem w tryb Globalny, proszę pozostawić maksymalnie jeden tunel VPN i usunąć wszystkie pozostałe. Zasady zachowanego tunelu zostaną automatycznie wyczyszczone.",
+        "switch_mode_has_been_using_tips": "Obecny tryb został zastosowany."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
