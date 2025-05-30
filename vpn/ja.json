@@ -435,7 +435,8 @@
         "global_mode_desc": "VPNが接続されている場合、すべてのトラフィックはVPNを経由します。VPNクライアントインスタンスは1つしか有効化できません。",
         "switch_global_mode_tips": "グローバルモードに切り替える前に、最大1つのVPNトンネルを残し、他のすべてを削除してください。保持されたトンネルのポリシーは自動的にクリアされます。",
         "policy_mode_desc": "このモードは高度なカスタマイズをサポートし、単一デバイス上で複数のVPNサーバーの設定と有効化、および複雑なポリシーロジックの実行を可能にします。",
-        "switch_mode_has_been_using_tips": "現在のモードが適用されました。"
+        "switch_mode_has_been_using_tips": "現在のモードが適用されました。",
+        "select_config_tip_label": "設定ファイルを選択してください"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
