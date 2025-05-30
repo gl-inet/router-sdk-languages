@@ -428,7 +428,14 @@
         "method_count_label": "{count} 種方法|{count} 種方法",
         "custom_tunnel_title": "自訂 VPN 隧道",
         "stop_title": "停止VPN配置",
-        "default_tunnel_tip": "不可更改的内置隧道。"
+        "default_tunnel_tip": "不可更改的内置隧道。",
+        "switch_mode_title": "切換VPN模式",
+        "global_mode_label": "全域模式",
+        "global_mode_desc": "若VPN已連接，所有流量將通過VPN路由。僅能啟用一個VPN客戶端實例。",
+        "policy_mode_label": "策略模式",
+        "policy_mode_desc": "此模式支援進階自訂功能，可於單一裝置上配置並啟用多個VPN伺服器，同時執行複雜的策略邏輯。",
+        "switch_global_mode_tips": "在切換至全域模式前，請確保僅保留一條VPN通道並刪除其餘所有通道。所保留通道的策略設定將自動清除。",
+        "switch_mode_has_been_using_tips": "当前模式已应用。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
