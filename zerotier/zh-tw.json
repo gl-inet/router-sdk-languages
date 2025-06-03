@@ -4,14 +4,14 @@
         "unauthorized_tips": "設備已加入到 ZeroTier，請前往$$$$ZeroTier Central$$$$授權本設備連接到您的虛擬網路。",
         "authorized_tips": "設備已連接到您的 ZeroTier 虛擬網路。",
         "auto_nat_label": "允許遠程訪問LAN&WAN",
-        "auto_nat_tips": "如果啟用此選項，則可以通過 ZeroTier 虛擬網絡訪問 LAN 子網和 WAN 端內部的資源。",
+        "auto_nat_tips": "如果啟用此選項，則可以通過 ZeroTier 虛擬網路訪問 LAN 子網和 WAN 端內部的資源。",
         "current_ip_label": "路由器虛擬 IP",
         "allow_lan_label": "允許遠程訪問 LAN",
         "allow_wan_label": "允許遠程訪問WAN",
-        "allow_lan_tips": "如果啟用此選項，將允許通過 Zerotier 虛擬網絡訪問設備 LAN 內的資源。",
-        "allow_wan_tips": "如果啟用此選項，將允許通過 Zerotier 虛擬網絡訪問設備 WAN 端的資源。",
+        "allow_lan_tips": "若此選項啟用，本設備 LAN 側資源將允許通過 Zerotier 虛擬網路訪問。",
+        "allow_wan_tips": "若此選項啟用，本設備 WAN 側的資源將允許通過 Zerotier 虛擬網路訪問。",
         "desc": "$$$$ZeroTier$$$$ 能創建安全的、可在任何地方工作的點對點虛擬網路，並支持對電話、PC等設備的接入。您可以用它來遠端存取您的設備或區域網路。",
-        "enable_nat_tips": "該設備已經允許 ZeroTier 客戶端訪問 WAN 或 LAN 上的資源。但是需要在$$$$ZeroTier Central$$$$設置路由規則，客戶端請求通過ZeroTier虛擬網絡轉發到設備：",
+        "enable_nat_tips": "設備已允許 ZeroTier 用戶端訪問 WAN 或 LAN 的資源。但您需要在 $$$$ZeroTier Central$$$$ 中配置路由規則，用戶端的請求才會被 ZeroTier 虛擬網路轉發到設備：",
         "not_found_tips": "ZeroTier 未找到網絡 ID，請檢查您的輸入。"
     }
 }
