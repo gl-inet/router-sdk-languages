@@ -301,7 +301,7 @@
         "network_loading_tip": "网络指南可以帮助您在几分钟内配置路由器并将其连接到互联网。",
         "repeater_join_success_tip": "中继配置完成。",
         "scan_nearby_wifi": "扫描附近的 Wi-Fi 网络",
-        "scan_wifi_title": "扫描附近的Wi-Fi网络",
+        "scan_wifi_title": "扫描附近的 Wi-Fi 网络",
         "tethering_device_connect_title": "热点共享设备检测",
         "tethering_description_option": "通过 USB 连接到互联网。",
         "ethernet_description_option": "通过以太网连接到互联网。",
@@ -347,7 +347,7 @@
         "wifi_scanning_tip": "正在扫描 Wi-Fi ，请稍候。",
         "step_three": "步骤 3",
         "completed": "已完成！",
-        "wan_status_checking": "正在检查WAN口网络状态，请稍候。",
+        "wan_status_checking": "正在检查 WAN 口网络状态，请稍候。",
         "ethernet_connected_tip": "以太网配置完成。",
         "can_enjoy_the_internet": "您现在可以尽情享受互联网的乐趣了。",
         "operate_according_to_your_mobile_phone": "不同版本的系统和手机型号可能会导致界面略有不同，请根据您手机的相应界面进行操作。",
@@ -463,7 +463,7 @@
         "data_used_total_tips": "已用数据是当前SIM卡卡槽的数据。",
         "sim_data_limit_common_tips": "如果使用的数据量超过了数据上限，请手动修改数据上限或已使用的数据量。",
         "sim_data_limit_single_tips": "否则，SIM卡将被禁用。",
-        "sim_data_limit_dual_tips": "否则，网络可能会断开连接或SIM卡可能会{do}。",
+        "sim_data_limit_dual_tips": "否则，网络可能会断开连接或 SIM 卡可能会{do}。",
         "over_limit_common_tips": "您的数据使用量已超出数据上限，请手动修改数据上限或已使用的数据量。",
         "sim_threshold_single_tips": "如果设置了SIM数据上限，当数据使用量超过该上限时，SIM将被禁用。",
         "sim_threshold_dual_tips": "如果设置了{currentSim}的数据上限额度，并且启用了SIM卡槽{handler}，当其数据超出上限额度时，{currentSim}将自动切换到{otherSim}，并且{currentSim}将被禁用。",
@@ -484,7 +484,7 @@
         "available_operator_title": "可用运营商",
         "manual_select_operator_tips": "当前运营商列表仅供参考。如果手动选择失败，请参考当前SIM卡支持的运营商列表，或咨询运营商客服以获取准确信息。",
         "lock_operator_fail_msg": "当前操作员已锁定，但由于卡片或操作员限制，实际上无法使用，如果您需要恢复网络，请执行手动解锁操作。",
-        "lock_operator_warning_tips": "如果锁定的运营商不符合蜂窝网络设置中的频段屏蔽或APN参数，蜂窝网络接口将无法连接到互联网。",
+        "lock_operator_warning_tips": "如果锁定的运营商不符合蜂窝网络设置中的频段屏蔽或 APN 参数，蜂窝网络接口将无法连接到互联网。",
         "manual_lock_operator_label": "手动",
         "manual_auto_lock_operator_label": "手动-自动",
         "sim_info_title": "SIM卡",
@@ -494,7 +494,7 @@
         "sim_settings_title": "SIM卡设置",
         "not_use_special_label": "不使用",
         "special_apns_label": "特殊APN设置",
-        "use_special_apn_warning_tips": "您当前选择的特殊APN仅适用于特定的电话卡。如果APN设置不正确，可能会导致拨号异常、网络连接失败以及其他通信问题。请仔细检查您的电话卡是否支持此APN。您确定需要切换到当前APN吗？",
+        "use_special_apn_warning_tips": "您当前选择的特殊 APN 仅适用于特定的电话卡。如果 APN 设置不正确，可能会导致拨号异常、网络连接失败以及其他通信问题。请仔细检查您的电话卡是否支持此 APN。您确定需要切换到当前 APN 吗？",
         "pin_code_tips": "PIN码长度为4-8位数字",
         "sim_switch_title": "SIM卡切换",
         "view_information_btn": "查看更多信息",
@@ -519,6 +519,6 @@
     "apn": {
         "enable_polling_label": "启用轮询",
         "polling_control_title": "APN轮询控制",
-        "enable_polling_tips": "若设备使用Verizon SIM卡且启用此功能，设备将在重启后持续轮询APN最长12分钟，直至网络连接恢复正常。此功能仅对Verizon SIM卡有效。"
+        "enable_polling_tips": "若设备使用 Verizon SIM 卡且启用此功能，设备将在重启后持续轮询 APN 最长12分钟，直至网络连接恢复正常。此功能仅对 Verizon SIM 卡有效。"
     }
 }
