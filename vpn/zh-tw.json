@@ -349,7 +349,7 @@
         "api_limit_triggered_msg": "操作頻繁，請稍後再嘗試。"
     },
     "vpn_tunnel": {
-        "use_vpn_tunnel_btn": "使用VPN隧道",
+        "use_vpn_tunnel_btn": "使用 VPN 隧道",
         "use_vpn_tunnel_tips": "將客戶端添加到VPN策略基礎的隧道列表中。如果您想對隧道進行更詳細的更改，請前往{page}管理隧道。",
         "traffic_origination_label": "隧道流量起源",
         "not_applicale_add_mac_label": "不適用",
@@ -412,7 +412,7 @@
         "rename_label": "重新命名",
         "disable_default_tunnel_warning_tips": "非VPN隧道確保未通過上述隧道的流量仍可連接到互聯網。如果禁用，則會丟棄任何剩餘流量。",
         "disable_default_tunnel_confirm_tips": "您確定要停用目前的隧道嗎？",
-        "not_use_vpn_via_tips": "當前隧道未設置為使用VPN。",
+        "not_use_vpn_via_tips": "當前隧道未設置為使用 VPN。",
         "exclude_label": "排除",
         "address_count_label": "{count} 個地址|{count} 個地址",
         "to_all_taget_tips": "當前隧道支援前往所有目的地的流量。",
