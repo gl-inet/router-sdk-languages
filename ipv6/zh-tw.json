@@ -9,10 +9,10 @@
         "dns_server": "DNS伺服器",
         "invalid_parameter": "你輸入的格式不正確！",
         "dns_server_empty": "至少輸入一個 DNS 服務器",
-        "native_tips": "此選項僅適用於私有網絡，訪客網絡並始終使用 NAT6 模式。",
+        "native_tips": "此模式僅針對私有網路生效，訪客網路始終使用 NAT6 模式。",
         "note": "注意:如果同時使用 VPN 和 IPv6 的功能，很可能會導致 IPv6 數據洩漏。",
         "use_tip": "啟用 IPv6 後，以太網等 WAN 接口將通過 DHCPv6 獲取其 IPv6 地址。 您還可以在以太網設置頁面中手動修改 IPv6 地址。 某些功能（{features}）尚不支持 IPv6。",
-        "disable_dns_tips": "若需停用IPv6，{page}應使用IPv4位址，否則裝置可能無法連接網路。"
+        "disable_dns_tips": "如需禁用 IPv6，{page}應使用 IPv4 地址，否則設備可能無法連接網路。"
     },
     "menu_ipv6": "IPv6"
 }
