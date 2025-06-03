@@ -27,7 +27,7 @@
         "form_wan_label": "來自以太網的 DNS",
         "form_wwan_label": "來自中繼的 DNS",
         "form_tethering_label": "來自熱點共享的 DNS",
-        "form_modem_label": "來自行動網絡的 DNS",
+        "form_modem_label": "來自蜂窩網路的 DNS",
         "form_ovpn_label": "來自 OpenVPN 的 DNS",
         "form_wg_label": "來自 WireGuard 的 DNS",
         "desc": "如果您在此處設置了自訂的 DNS 伺服器，任何域名都將優先通過此處設置的 DNS 伺服器進行解析，而非從網路介面中獲取的 DNS 伺服器。否則，每個介面預設使用自己的 DNS。",
