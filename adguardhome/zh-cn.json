@@ -15,6 +15,6 @@
 "request_th": "请求数",
 "no_data": "无数据",
 "process_req_label": "AdGuard Home 直接处理客户端请求",
-"process_req_tips": "如果启用此选项，来自客户端的请求将不再由路由器转发到 AdGuard Home，导致基于域名的 VPN 策略和家长控制规则失效。"
+"process_req_tips": "如果启用此选项，来自用户端设备的 DNS 查询将由 AdGuard Home 直接处理，这将导致基于域的 VPN 策略和家长控制规则失效。"
 }
 }
