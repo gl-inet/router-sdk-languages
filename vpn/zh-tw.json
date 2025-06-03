@@ -100,8 +100,8 @@
         "only_user": "僅用戶名/密碼",
         "cert_and_user": "同時使用用戶名/密碼與證書",
         "access_lan_wan": "訪問內部網路(LAN)與外部網路(WAN)",
-        "access_lan": "僅訪問內部網絡(LAN)",
-        "access_wan": "僅訪問外部網絡(WAN)",
+        "access_lan": "僅訪問內部網路(LAN)",
+        "access_wan": "僅訪問外部網路(WAN)",
         "no_auth_tips": "用戶名密碼驗證尚未啟用，配置的用戶名密碼將不會生效。",
         "add_new_user_title": "添加一個新用戶",
         "duplicate_user_name": "用戶名已被佔用",
@@ -112,7 +112,7 @@
         "generate_peer_tips1": "請在 Google Play 或者 APP Store 中下載WireGuard® App，然後使用 App 掃描此二維碼以連接到您的服務器。",
         "kill_switch_tips": "啟用此選項可阻止來自 VPN 隧道外部的用戶端裝置嘗試傳送至 VPN 隧道外部的所有流量，從而防止 DNS 設定、連線問題或發出 IP 要求的應用程式洩漏。這會覆蓋其他 VPN 策略和規則。",
         "filter_rule": "過濾規則",
-        "policy_nav_title": "當設備通過您的路由器訪問網絡時$$$$您希望路由器如何區分流量是否使用 VPN 隧道傳輸？",
+        "policy_nav_title": "當設備通過您的路由器訪問網路時$$$$您希望路由器如何區分流量是否使用 VPN 隧道傳輸？",
         "all_dev": "所有客戶端",
         "access_by_sites": "通過訪問的站點來區分",
         "access_by_sites_desc": "在域名/IP 模式下，您可以設置使用或不使用 VPN 訪問哪些網站。",
@@ -159,8 +159,8 @@
         "peer_addr": "對端",
         "keep_alive": "Keepalive",
         "config": "配置",
-        "guest_use_vpn": "在訪客網絡中使用 VPN",
-        "access_by_dev": "通過訪問網絡的客戶端來區分",
+        "guest_use_vpn": "在訪客網路中使用 VPN",
+        "access_by_dev": "通過訪問網路的客戶端來區分",
         "access_by_dev_desc": "在MAC過濾模式下，您可以通過指定客戶端的MAC地址來判斷您局域網內的客戶端是否可以通過VPN訪問Internet。",
         "global_policy_btn": "全局選項",
         "policy_base_on": "基於 $$$$VLAN$$$$的 VPN 策略",
@@ -345,7 +345,7 @@
         "register_account_fail_msg": "註冊新帳戶失敗",
         "get_provider_token_fail_msg": "獲取第三方提供商令牌失敗",
         "connect_server_fail_msg": "從供應商服務器獲取信息失敗",
-        "network_abnormal_msg": "網絡可能異常",
+        "network_abnormal_msg": "網路可能異常",
         "api_limit_triggered_msg": "操作頻繁，請稍後再嘗試。"
     },
     "vpn_tunnel": {
@@ -454,7 +454,7 @@
         "enable_ipv6_tips": "如果未啟用IPv6，則IPv6地址將不會生效。如果您想使用IPv6地址，請在您的路由器上{todo}。",
         "want_use_ipv6_tips": "如果您想使用IPv6地址，請在您的路由器上{todo}。",
         "export_addr_tips": "您可以輸入IP地址或域名。地址是VPN配置中的{label}地址。",
-        "route_rule_tips": "VPN伺服器的自訂路由規則可指定特定網路流量透過VPN加密傳輸，其餘流量則正常透過本地網路傳送。"
+        "route_rule_tips": "VPN 伺服器的自訂路由規則可指定特定網路流量透過 VPN 加密傳輸，其餘流量則正常透過本地網路傳送。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "許多路由功能將無法使用。",
