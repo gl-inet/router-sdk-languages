@@ -1,6 +1,6 @@
 {
     "igmp": {
-        "desc": "IGMP Snooping nasłuchuje i wydobywa informacje z pakietu protokołu IGMP, tworzy i utrzymuje warstwę 2 publikacji przekierowań multicastowych, a następnie przekazuje dane grupy multicastowej do każdego hosta, który dołączył do grupy multicastowej, podczas gdy inni hostowie nie mogą odbierać danych grupy multicastowej.",
+        "desc": "IGMP Snooping nasłuchuje i pobiera informacje z pakietu protokołu IGMP, ustanawia i utrzymuje publikację przekazywania multicast warstwy 2, a następnie przekazuje dane grupy multicast do dowolnego hosta, który do niej dołącza, podczas gdy inne hosty nie mogą otrzymać tych danych.",
         "note": "IGMPv3 jest kompatybilny z wersjami v1 i v2. Domyślnie używaj v3 i przełącz się, jeśli napotkasz problem.",
         "version": "Wersja"
     }
