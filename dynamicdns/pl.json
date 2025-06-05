@@ -2,7 +2,7 @@
     "ddns": {
         "test": "Test DDNS",
         "enable_http": "Włącz zdalny dostęp HTTP",
-        "desc": "Możesz włączyć Dynamiczny DNS (DDNS) dla tego routera i uzyskać do niego dostęp zdalnie. Synchronizacja rekordów między serwerami DNS może potrwać do dziesięciu minut. Może to skutkować tym, że dostęp przez domeny DDNS nie będzie natychmiast dostępny po jego aktywowaniu lub jeśli Twój publiczny adres IP niedawno się zmienił.",
+        "desc": "Możesz włączyć Dynamiczny DNS (DDNS) dla tego routera i uzyskać do niego dostęp zdalny. Może wystąpić opóźnienie do dziesięciu minut w synchronizacji rekordów między serwerami DNS. Może to skutkować tym, że dostęp za pośrednictwem domen DDNS nie będzie natychmiast dostępny po włączeniu tej funkcji lub jeśli Twój publiczny adres IP niedawno się zmienił.",
         "enable_https": "Włącz zdalny dostęp HTTPS",
         "enable_ssh": "Włącz zdalny dostęp SSH",
         "read_and_agree": "Przeczytałem i zgadzam się",
