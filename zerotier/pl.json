@@ -2,7 +2,7 @@
     "zerotier": {
         "desc": "$$$$ZeroTier$$$$ tworzy bezpieczną, wirtualną sieć Ethernet typu peer-to-peer dostępną z dowolnego miejsca; obsługuje dostęp do urządzeń takich jak telefony, komputery itp. Możesz użyć go do zdalnego dostępu do swoich urządzeń lub sieci LAN.",
         "first_use_tips": "ZeroTier łączy się z Twoją wirtualną siecią za pomocą identyfikatora sieci, który tworzysz w $$$$ZeroTier Central$$$$.",
-        "unauthorized_tips": "Urządzenie zostało dodane do ZeroTier. Proszę przejść do $$$$ZeroTier Central$$$$, aby autoryzować urządzenie do połączenia z twoją wirtualną siecią.",
+        "unauthorized_tips": "Urządzenie zostało dodane do ZeroTier. Proszę przejść do $$$$ZeroTier Central$$$$, aby autoryzować urządzenie w celu połączenia z twoją wirtualną siecią.",
         "authorized_tips": "Urządzenie jest połączone z wirtualną siecią ZeroTier.",
         "enable_nat_tips": "Urządzenie już pozwala klientom ZeroTier na dostęp do zasobów WAN lub LAN. Musisz ustawić reguły routingu w $$$$ZeroTier Central$$$$, aby umożliwić przekazywanie żądań klientów przez wirtualną sieć ZeroTier:",
         "auto_nat_label": "Zezwalaj na zdalny dostęp do LAN&WAN",
