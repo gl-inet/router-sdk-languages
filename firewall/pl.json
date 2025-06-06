@@ -22,7 +22,7 @@
         "source": "Źródło (strefa, port)",
         "dest": "Cel (strefa, IP, port)",
         "enable": "Włącz",
-        "port_forwards_desc": "Jeśli masz serwery w podsieci LAN i chcesz, aby były dostępne z zewnątrz, musisz ustawić przekierowanie portów do tych serwerów, identyfikowane przez adresy IP i porty. Urządzenie przyzna wyższy priorytet regule o wyższym priorytecie, jeśli wystąpi konflikt między {external_ports} dwóch włączonych reguł.",
+        "port_forwards_desc": "Jeśli masz serwery w swojej podsieci LAN i chcesz, aby były dostępne ze strony WAN, musisz skonfigurować przekierowanie portów do tych serwerów, identyfikowanych przez adresy IP i porty. Urządzenie nada priorytet regule o wyższym priorytecie, jeśli wystąpi konflikt między {external_ports} dwóch włączonych reguł.",
         "dmz_priority_lower_label": "Najniższy",
         "open_dmz": "Włącz DMZ",
         "dmz_priority_higher_label": "Najwyższy",
