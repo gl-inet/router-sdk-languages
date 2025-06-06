@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "Edytuj Hosty",
-        "desc": "Gdy ustawisz niestandardowe serwery DNS, wszystkie zapytania DNS będą rozwiązywane przez nie (zamiast serwerów DNS uzyskanych przez Ethernet, Repeater, Cellular, Tethering). W przeciwnym razie będziesz używać ustawień DNS skonfigurowanych dla każdego interfejsu.",
+        "desc": "Gdy ustawisz niestandardowe serwery DNS, wszystkie zapytania DNS będą rozwiązywane przez nie (zamiast przez serwery DNS uzyskane z interfejsu sieciowego). W przeciwnym razie zostaną użyte ustawienia DNS skonfigurowane dla każdego interfejsu.",
         "override_vpn_label": "Zezwól Niestandardowemu DNS na Zastąpienie DNS VPN",
         "rebinding_label": "Ochrona przed Atakiem DNS Rebinding",
         "rebinding_tips": "Włączenie tej opcji może spowodować niepowodzenie prywatnego wyszukiwania DNS. Jeśli Twoja sieć ma portal uwierzytelniający, proszę wyłączyć tę opcję.",
