@@ -59,7 +59,11 @@
         "confirm_node_tips": "确认已开始通过安全访问互联网",
         "select_node_tips": "选择一个出口节点以通过其安全访问互联网。",
         "start_btn": "启动",
-        "start_process_checking_tips": "正在检查网络状态..."
+        "start_process_checking_tips": "正在检查网络状态...",
+        "start_process_connecting_tips": "正在连接服务器...",
+        "start_process_starting_tips": "正在启动AstroWarp服务...",
+        "start_process_success_tips": "设置成功！",
+        "start_process_error_common_tips": "连接失败。发生未知错误。请检查您的网络或稍后重试。如果问题持续存在，请联系支持或提交反馈。"
     },
     "aw_err": {
         "not_joined_network_msg": "未加入此网络。"
