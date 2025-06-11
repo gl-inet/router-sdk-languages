@@ -58,7 +58,12 @@
         "confirm_node_tips": "インターネットへの安全なアクセスが開始されました",
         "start_btn": "開始",
         "select_node_tips": "インターネットに安全にアクセスするための出口ノードを選択してください。",
-        "get_start_step_title": "開始する"
+        "get_start_step_title": "開始する",
+        "start_process_checking_tips": "ネットワークステータスを確認中...",
+        "start_process_connecting_tips": "サーバーに接続中...",
+        "start_process_starting_tips": "AstroWarpサービスを開始しています...",
+        "start_process_success_tips": "設定成功！",
+        "start_process_error_common_tips": "接続に失敗しました。不明なエラーが発生しました。ネットワークを確認するか、後ほど再度お試しください。問題が解決しない場合は、サポートにお問い合わせいただくか、フィードバックを送信してください。"
     },
     "aw_err": {
         "not_joined_network_msg": "このネットワークに参加していません。"
