@@ -58,7 +58,12 @@
         "confirm_node_tips": "Bevestig gestart veilig toegang tot het internet via",
         "no_available_node_tips": "Er zijn geen beschikbare uitgangsknooppunten onder uw account. Klik op de AstroWarp-knop om naar het beheerpaneel te gaan en uw uitgangsknooppunt te configureren.",
         "select_node_tips": "Kies een uitgangsknooppunt om veilig toegang te krijgen tot het internet via dit knooppunt.",
-        "start_btn": "Start"
+        "start_btn": "Start",
+        "start_process_checking_tips": "Netwerkstatus wordt gecontroleerd...",
+        "start_process_starting_tips": "AstroWarp-service wordt gestart...",
+        "start_process_success_tips": "Succesvolle instelling!",
+        "start_process_error_common_tips": "Verbinding mislukt. Er is een onbekende fout opgetreden. Controleer uw netwerk of probeer het later opnieuw. Als het probleem aanhoudt, neem dan contact op met ondersteuning of dien feedback in.",
+        "start_process_connecting_tips": "Verbinding maken met server..."
     },
     "aw_err": {
         "not_joined_network_msg": "Niet verbonden met dit netwerk."
