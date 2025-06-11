@@ -58,7 +58,12 @@
         "no_available_node_tips": "귀하의 계정에는 사용 가능한 출구 노드가 없습니다. AstroWarp 버튼을 클릭하여 관리자 패널로 이동하여 출구 노드를 구성하십시오.",
         "confirm_node_tips": "안전한 인터넷 접속 시작 확인",
         "select_node_tips": "인터넷에 안전하게 접속하기 위해 출구 노드를 선택하세요.",
-        "start_btn": "시작"
+        "start_btn": "시작",
+        "start_process_success_tips": "성공적으로 설정되었습니다!",
+        "start_process_error_common_tips": "연결에 실패했습니다. 알 수 없는 오류가 발생했습니다. 네트워크를 확인하거나 나중에 다시 시도해 주세요. 문제가 지속되면 지원팀에 문의하거나 피드백을 제출해 주세요.",
+        "start_process_connecting_tips": "서버에 연결 중...",
+        "start_process_starting_tips": "AstroWarp 서비스 시작 중...",
+        "start_process_checking_tips": "네트워크 상태 확인 중..."
     },
     "aw_err": {
         "not_joined_network_msg": "이 네트워크에 연결되지 않았습니다."
