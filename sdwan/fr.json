@@ -58,7 +58,12 @@
         "no_available_node_tips": "Aucun nœud de sortie n'est disponible sous votre compte. Veuillez cliquer sur le bouton AstroWarp pour accéder au panneau d'administration afin de configurer votre nœud de sortie.",
         "confirm_node_tips": "Confirmer l'accès sécurisé à internet via",
         "start_btn": "Start",
-        "get_start_step_title": "Commencer"
+        "get_start_step_title": "Commencer",
+        "start_process_connecting_tips": "Connexion au serveur...",
+        "start_process_starting_tips": "Démarrage du service AstroWarp...",
+        "start_process_checking_tips": "Vérification de l'état du réseau...",
+        "start_process_success_tips": "Paramétrage réussi !",
+        "start_process_error_common_tips": "Échec de la connexion. Une erreur inconnue s'est produite. Veuillez vérifier votre réseau ou réessayer ultérieurement. Si le problème persiste, contactez le support ou soumettez un retour."
     },
     "aw_err": {
         "not_joined_network_msg": "Non connecté à ce réseau."
