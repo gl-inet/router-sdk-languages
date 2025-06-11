@@ -43,7 +43,10 @@
         "add_client_limit_tips": "このルーターにアクセスしているクライアント数が上限に達しました。ネットワークプランのアップグレードについては、AstroWarpをご覧ください。",
         "add_router_limit_tips": "このネットワークにアクセスしているルーターの数が上限に達しました。AstroWarpにアクセスしてネットワークを編集してください。",
         "network_plan_expired_tips": "このネットワークは期限切れです。AstroWarpにアクセスしてネットワークプランをアップグレード/更新してください。",
-        "unlimit_label": "無制限"
+        "unlimit_label": "無制限",
+        "web_title": "AstroWarp 管理パネル",
+        "get_start_common_tips": "このルーターをインターネット出口として使用し、WAN IPを介してどこからでもインターネットやサーバーにアクセスできる、リモートワーク向けの設定を開始します。",
+        "get_start_has_networks_tips": "ボタンをクリックし、使用する出口ノードルーターを選択して、インターネットやサーバーにアクセスしてください。"
     },
     "aw_err": {
         "not_joined_network_msg": "このネットワークに参加していません。"
