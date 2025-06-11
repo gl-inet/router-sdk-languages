@@ -59,7 +59,11 @@
         "confirm_node_tips": "確認已開始安全地透過出口節點存取網際網路",
         "select_node_tips": "選擇一個出口節點以安全地透過它存取網際網路。",
         "start_btn": "開始",
-        "start_process_checking_tips": "正在檢查網路狀態..."
+        "start_process_checking_tips": "正在檢查網路狀態...",
+        "start_process_connecting_tips": "正在連接伺服器...",
+        "start_process_starting_tips": "正在啟動AstroWarp服務...",
+        "start_process_success_tips": "設定成功！",
+        "start_process_error_common_tips": "連接失敗。發生未知錯誤。請檢查您的網路或稍後再試。如果問題持續存在，請聯繫支援或提交反饋。"
     },
     "aw_err": {
         "not_joined_network_msg": "未加入此網路。"
