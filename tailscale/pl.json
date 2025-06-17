@@ -3,7 +3,7 @@
         "desc": "$$$$Tailscale$$$$ umożliwia bezpieczny i bezproblemowy dostęp do Twoich urządzeń z dowolnego miejsca na świecie. Umożliwia szyfrowane połączenia punkt-punkt, co oznacza, że tylko urządzenia w Twojej prywatnej sieci mogą ze sobą komunikować. Możesz używać go do zdalnego dostępu do swoich urządzeń lub sieci LAN.",
         "need_login_tips": "Usługa Tailscale jest włączona, ale urządzenie nie jest jeszcze powiązane. Proszę powiązać to urządzenie z Twoim kontem Tailscale używając $$$$Linku do Powiązania Urządzenia$$$$.",
         "need_mandate_tips": "To urządzenie jest powiązane z kontem Tailscale, ale nie zostało jeszcze autoryzowane do dostępu do sieci. Proszę przejść do $$$$Konsoli Administracyjnej Tailscale$$$$, aby autoryzować urządzenie w celu połączenia z twoją wirtualną siecią. Jeśli to nie jest twoje konto, najpierw je odłącz.",
-        "enable_lan_tips": "Urządzenie już pozwala klientom Tailscale na dostęp do zasobów w sieci LAN lub WAN. Ale musisz edytować ustawienia trasowania w $$$$Konsoli Administracyjnej Tailscale$$$$, aby żądania klientów były przekazywane do urządzenia przez wirtualną sieć Tailscale.",
+        "enable_lan_tips": "Urządzenie już pozwala klientom Tailscale na dostęp do zasobów w sieci LAN lub WAN. Jednakże, aby żądania klientów były przekazywane do urządzenia przez wirtualną sieć Tailscale, musisz edytować ustawienia trasowania w $$$$Konsoli Administracyjnej Tailscale$$$$.",
         "ready_tips": "Urządzenie jest połączone z Twoją wirtualną siecią Tailscale.",
         "enable_lan_label": "Zezwól na zdalny dostęp do sieci LAN",
         "account_label": "Powiąż konto",
