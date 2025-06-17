@@ -71,12 +71,13 @@
         "no_switching_tips": "Gdy włączony jest tryb Bez przełączania, żadne inne zapisane sieci nie są łączone, gdy obecne Wi-Fi zostanie rozłączone.",
         "auto_switching_tips": "Gdy włączony jest tryb automatycznego przełączania, inne zapisane sieci zostaną połączone, gdy aktualne Wi-Fi zostanie rozłączone.",
         "auto_switching_without_network_tips": "Gdy włączony jest tryb automatycznego przełączania bez sieci, router nie wykonuje skanowania sieci, gdy jest normalnie podłączony w trybie innym niż repeater, i przełącza sieć tylko wtedy, gdy nie ma dostępu do sieci, co może zapobiec utracie pakietów komunikacyjnych.",
-        "repeater_not_auto_scan_tips": "Tryb {mode} jest obecnie włączony. a router pomyślnie łączy się z internetem w trybie innym niż repeater, repeater nie będzie automatycznie wykonywał skanowania sieci."
+        "repeater_not_auto_scan_tips": "Tryb {mode} jest obecnie włączony. a router pomyślnie łączy się z internetem w trybie innym niż repeater, repeater nie będzie automatycznie wykonywał skanowania sieci.",
+        "portal_go_to_auth_page_tips": "Połączono z {ssid}. Aby uzyskać dostęp do internetu, zaloguj się na stronie uwierzytelniania."
     },
     "cable": {
         "title": "Ethernet",
-        "no_wan": "Nie wykryto kabla w porcie WAN. Proszę włożyć kabel ethernetowy.",
-        "rm_wan_cable": "Proszę odłączyć kabel ethernetowy od portu WAN.",
+        "no_wan": "Nie wykryto kabla w porcie WAN. Proszę podłączyć kabel Ethernet.",
+        "rm_wan_cable": "Proszę odłączyć kabel Ethernet od portu WAN.",
         "wan_been_lan": "Port WAN został użyty jako LAN. Możesz go poniżej przywrócić do funkcji WAN.",
         "confirm_to_lan": "Czy na pewno chcesz użyć portu WAN jako LAN?",
         "confirm_to_wan": "Czy na pewno chcesz zmienić port LAN z powrotem na WAN?",

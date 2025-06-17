@@ -1,7 +1,7 @@
 {
     "dns": {
         "edit_host_btn": "Edytuj Hosty",
-        "desc": "Gdy ustawisz niestandardowe serwery DNS, wszystkie zapytania DNS będą rozwiązywane przez nie (zamiast serwerów DNS uzyskanych przez Ethernet, Repeater, Cellular, Tethering). W przeciwnym razie będziesz używać ustawień DNS skonfigurowanych dla każdego interfejsu.",
+        "desc": "Gdy ustawisz niestandardowe serwery DNS, wszystkie zapytania DNS będą rozwiązywane przez nie (zamiast przez serwery DNS uzyskane z interfejsu sieciowego). W przeciwnym razie zostaną użyte ustawienia DNS skonfigurowane dla każdego interfejsu.",
         "override_vpn_label": "Zezwól Niestandardowemu DNS na Zastąpienie DNS VPN",
         "rebinding_label": "Ochrona przed Atakiem DNS Rebinding",
         "rebinding_tips": "Włączenie tej opcji może spowodować niepowodzenie prywatnego wyszukiwania DNS. Jeśli Twoja sieć ma portal uwierzytelniający, proszę wyłączyć tę opcję.",
@@ -43,6 +43,15 @@
         "invalid_resolver_id_tips": "Nieprawidłowy identyfikator resolvera",
         "controld_plan_label": "Plan\ntłumaczenie: Plan",
         "controld_plan_tips": "Istnieją dwa plany, darmowy i premium, i można wybrać tylko jeden z nich.",
-        "at_least_one_ipv4_tip": "Serwery DNS wymagają co najmniej jednego adresu ipv4."
+        "at_least_one_ipv4_tip": "Serwery DNS wymagają co najmniej jednego adresu ipv4.",
+        "public_servers_refer_tips": "Aby zapoznać się z listą publicznych serwerów, proszę odnieść się do {link}",
+        "add_server": "Dodaj serwer",
+        "dns_server_list": "Lista serwerów DNS",
+        "least_one_server_tips": "Proszę dodać co najmniej jeden serwer.",
+        "select_dns_servers": "Wybierz serwery DNS",
+        "dns_servers": "Serwery DNS",
+        "encrypted_dns_url_tips": "Możesz bezpośrednio wprowadzić link URL lub link w formacie stempla zaszyfrowanego DNS:",
+        "encryption_conflicting_msg": "Konfliktujące formy szyfrowania, proszę używać łączy z tą samą formą szyfrowania.",
+        "modify_server": "Zmodyfikuj serwer"
     }
 }

@@ -306,7 +306,7 @@
         "delete_all_config_tips": "すべての設定を完全に削除します。この操作は取り消せません。続行しますか？",
         "wg_guide_tips": "VPNウィザードを使用すると、わずか数ステップでVPN設定が完了し、安全なネットワーク体験を手早くお楽しみいただけます！",
         "provider_unbind_tips": "デバイスは認証されていません。",
-        "wg_urbanshield_dev_limit_tips": "デバイス制限に達しました。続行するには1台ログアウトしてください。"
+        "wg_urbanshield_dev_limit_tips": "デバイスの制限に達しました。続行するには1台ログアウトしてください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
@@ -428,7 +428,17 @@
         "method_count_label": "{count} 件の方法|{count} 件の方法",
         "custom_tunnel_title": "VPNトンネルのカスタマイズ",
         "stop_title": "VPN設定を中止",
-        "default_tunnel_tip": "変更不可の内蔵トンネル。"
+        "default_tunnel_tip": "変更不可の内蔵トンネル。",
+        "switch_mode_title": "VPNモードの切り替え",
+        "global_mode_label": "グローバルモード",
+        "policy_mode_label": "ポリシーモード",
+        "global_mode_desc": "VPNが接続されている場合、すべてのトラフィックはVPNを経由します。VPNクライアントインスタンスは1つしか有効化できません。",
+        "switch_global_mode_tips": "グローバルモードに切り替える前に、最大1つのVPNトンネルを残し、他のすべてを削除してください。保持されたトンネルのポリシーは自動的にクリアされます。",
+        "policy_mode_desc": "このモードは高度なカスタマイズをサポートし、単一デバイス上で複数のVPNサーバーの設定と有効化、および複雑なポリシーロジックの実行を可能にします。",
+        "switch_mode_has_been_using_tips": "現在のモードが適用されました。",
+        "select_config_tip_label": "設定ファイルを選択してください",
+        "select_config_title": "設定を選択",
+        "vpn_client_title": "VPNクライアント"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",

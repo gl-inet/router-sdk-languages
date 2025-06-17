@@ -18,7 +18,7 @@
         "channel_optimization": "信道優化",
         "enable": "啟動Wi-Fi",
         "repeater_using_tips": "啟用中繼模式時無法修改條目",
-        "enable_dfs_tips": "如果路由器被指定使用DFS頻道，則每次啟用Wi-Fi時都需要進行頻道可用性檢查，在此期間5GHz信號將無法用於連接，此過程需要一段時間。如果路由器檢測到雷達正在使用當前頻道，它將暫時與客戶端斷開連接，並切換到另一個可用頻道；此外，在路由器掃描附近可用網絡時，5GHz Wi-Fi將暫時關閉。",
+        "enable_dfs_tips": "如果路由器被指定使用 DFS 頻道，則每次啟用 Wi-Fi 時都需要進行頻道可用性檢查，在此期間 5GHz 信號將無法用於連接，此過程需要一段時間。如果路由器檢測到雷達正在使用當前頻道，它將暫時與用戶端斷開連接，並切換到另一個可用頻道；此外，在路由器掃描附近可用網路時，5GHz Wi-Fi 將暫時關閉。",
         "dsf_starting": "正在進行信道可用性檢查，此過程需要 $$$$，請稍候……",
         "dsf_conflict": "檢測到有雷達正在使用路由器當前使用的信道，5GHz Wi-Fi 將暫時無法連接。",
         "enable_dfs": "允許使用 DFS 信道",
@@ -34,7 +34,8 @@
         "enable_psc_label": "啟用 PSC",
         "enable_psc_tips": "啟用PSC（首選掃描頻道）時，只有連接性較高的頻道會被保留，以確保6GHz設備的連接。",
         "mlo_6g_bssid_tips": "若MLO Wi-Fi頻段含6G頻段，6GHz Wi-Fi BSSID變動時，MLO Wi-Fi BSSID亦隨之同步。",
-        "mlo_network_tips": "Wi-Fi 7用戶端推薦連接MLO Wi-Fi，通過多頻段連接可以大大提高網絡傳輸速率和可靠性。"
+        "mlo_network_tips": "Wi-Fi 7 用戶端推薦連接 MLO Wi-Fi，透過多頻段連接可以大大提高網路傳輸速率和可靠性。",
+        "open_wifi_security_tips": "\"開放WiFi\"存在安全風險，請謹慎使用。"
     },
     "menu_wireless": "無線"
 }

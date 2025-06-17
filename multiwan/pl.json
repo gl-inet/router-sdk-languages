@@ -1,8 +1,8 @@
 {
-    "menu_multiwan": "Multi-WAN",
+    "menu_multiwan": "Wielo-WAN",
     "multiwan": {
         "tips": "Router obsługuje jednoczesne połączenia z wieloma interfejsami sieciowymi. Możesz skonfigurować sposób wykorzystania tych wielu sieci.",
-        "failover_desc": "Failover: Jeśli aktualne, aktywne połączenie zawiedzie, router automatycznie przełączy się na inny interfejs sieciowy.",
+        "failover_desc": "Failover: Jeśli aktywne połączenie ulegnie awarii, router automatycznie przełączy się na inny interfejs sieciowy.",
         "mode_label": "Tryb",
         "mode_failover_tips": "Router automatycznie wybiera następny dostępny interfejs o najwyższym priorytecie.",
         "mode_balancing_tips": "System przydzieli interfejsy do nowych połączeń na podstawie stosunku obciążenia.",

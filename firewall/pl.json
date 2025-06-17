@@ -1,7 +1,7 @@
 {
     "firewall": {
         "open_ports_on_router": "Otwarte Porty na Routerze",
-        "port_forwards": "Dostosuj priorytet",
+        "port_forwards": "Przekierowanie portów",
         "open_port_on_router_dest": "Dla celów bezpieczeństwa usługi, które zainstalujesz na urządzeniu są jedynie otwarte dla sieci LAN. Jeśli chcesz, żeby były dostępne z sieci WAN musisz otworzyć porty dla tych usług po stronie WAN.",
         "name": "Nazwa",
         "protocol": "Protokół",
@@ -22,7 +22,7 @@
         "source": "Źródło (strefa, port)",
         "dest": "Cel (strefa, IP, port)",
         "enable": "Włącz",
-        "port_forwards_desc": "Jeśli masz serwery w podsieci LAN i chcesz, aby były dostępne z zewnątrz, musisz ustawić przekierowanie portów do tych serwerów, identyfikowane przez adresy IP i porty. Urządzenie przyzna wyższy priorytet regule o wyższym priorytecie, jeśli wystąpi konflikt między {external_ports} dwóch włączonych reguł.",
+        "port_forwards_desc": "Jeśli masz serwery w swojej podsieci LAN i chcesz, aby były dostępne ze strony WAN, musisz skonfigurować przekierowanie portów do tych serwerów, identyfikowanych przez adresy IP i porty. Urządzenie nada priorytet regule o wyższym priorytecie, jeśli wystąpi konflikt między {external_ports} dwóch włączonych reguł.",
         "dmz_priority_lower_label": "Najniższy",
         "open_dmz": "Włącz DMZ",
         "dmz_priority_higher_label": "Najwyższy",

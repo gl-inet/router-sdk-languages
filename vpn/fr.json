@@ -428,7 +428,17 @@
         "method_count_label": "{count} méthode|{count} méthodes",
         "custom_tunnel_title": "Personnaliser le tunnel VPN",
         "stop_title": "Arrêter la configuration VPN",
-        "default_tunnel_tip": "Tunnel intégré inchangeable."
+        "default_tunnel_tip": "Tunnel intégré inchangeable.",
+        "switch_mode_title": "Mode VPN Switch",
+        "global_mode_label": "Mode Global",
+        "global_mode_desc": "Si le VPN est connecté, tout le trafic sera acheminé via le VPN. Une seule instance de client VPN peut être activée.",
+        "policy_mode_label": "Mode de stratégie",
+        "policy_mode_desc": "Ce mode permet une personnalisation avancée, autorisant la configuration et l'activation de plusieurs serveurs VPN sur un seul appareil, ainsi que l'exécution de logiques de politiques complexes.",
+        "switch_global_mode_tips": "Avant de basculer en Mode Global, veuillez conserver au maximum un tunnel VPN et supprimer tous les autres. La politique du tunnel conservé sera automatiquement réinitialisée.",
+        "switch_mode_has_been_using_tips": "Le mode actuel a été appliqué.",
+        "select_config_tip_label": "Veuillez sélectionner un fichier de configuration.",
+        "select_config_title": "Sélectionner la configuration",
+        "vpn_client_title": "Client VPN"
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",

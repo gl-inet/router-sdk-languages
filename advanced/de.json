@@ -6,5 +6,15 @@
         "go_to_luci_btn": "Zur LuCI Webseite gehen",
         "luci_rtty_tips": "Um die LuCI Webseite über rtty aus der Ferne zu erreichen, bitte den Port {port} auf der Cloud-Plattform ansprechen.",
         "luci_security_tips": "Um die LuCI Webseite aus der Ferne zuzugreifen, öffnen Sie bitte den LuCI-Port manuell."
+    },
+    "luci": {
+        "install_tips": "Erweiterte Einstellungen mit LuCI anpassen",
+        "install_power_by_tips": "LuCI ist ein offenes und unabhängiges Projekt, das von OpenWrt gepflegt wird.",
+        "install_btn": "Jetzt installieren",
+        "install_fail_tips": "Installation fehlgeschlagen",
+        "insatlling_tips": "Installation läuft...",
+        "re_install_btn": "Neuinstallation",
+        "check_network_tips": "Bitte überprüfen Sie Ihre Netzwerkverbindung.",
+        "out_of_memory_tips": "Es ist nicht genügend Speicherplatz für die Installation vorhanden."
     }
 }

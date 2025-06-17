@@ -8,8 +8,8 @@
         "redirect_to": "你正被重定向到新IP",
         "lan_or_guest_model_setting": "進階設置",
         "ip_outside_tips": "IP 地址在子網範圍外",
-        "lan_tab": "私人網絡",
-        "guest_tab": "訪客網絡",
+        "lan_tab": "私有網路",
+        "guest_tab": "訪客網路",
         "lan_or_guest_senior_tip": "您可以在 IPv4 私人地址範圍內設置子網: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "ip_easy_tip": "路由器 IP 地址是你進入路由器管理頁面的瀏覽器訪問地址。",
         "guest_conflict_tips": "與訪客 IP 衝突",
@@ -23,10 +23,10 @@
         "lpr_serve_label": "LPR 服務器",
         "security_title": "安全設定",
         "ap_isolate_label": "AP 隔離",
-        "ap_isolate_tips": "您可以將網絡的客戶端設備隔離到一個單獨的網絡區域中。這些設備無法與網絡上的其他設備通信。",
+        "ap_isolate_tips": "可以將您網路的用戶端設備隔離到一個單獨的網路區域。這些設備無法與網路中的其他設備進行通信。",
         "lpr_tips": "可填入多個印表機 LPR 連接埠。",
         "dhcp_disable_warning_tips": "如果停用 DHCP，您可能無法連接互聯網，請小心。",
-        "guest_disabel_tips": "由於 {guest} 處於禁用狀態，因此訪客網絡目前不可用。"
+        "guest_disabel_tips": "由於 {guest} 處於禁用狀態，因此訪客網路目前不可用。"
     },
     "address_reservation": {
         "note": "注意，被配置的客戶端必須重新連接路由器才能生效。",
@@ -43,11 +43,11 @@
         "confirm_delete_all": "您確認要刪除所有的地址預留配置嗎？",
         "desc_label": "描述"
     },
-    "menu_lanip": "LAN",
-    "menu_guestip": "訪客網絡",
+    "menu_lanip": "區域網路",
+    "menu_guestip": "訪客網路",
     "lanip": {
         "block_wan_label": "禁止訪問 WAN 子網",
-        "block_wan_tips": "如果啓用此功能，訪客網絡將無法訪問上級網絡和上級網絡所在的網絡段。",
-        "not_asscess_tips": "目前訪客網絡無法訪問網段 {net}。"
+        "block_wan_tips": "如果啟用此功能，訪客網路將無法訪問上級網路和上級網路所在的網路段。",
+        "not_asscess_tips": "當前訪客網路無法訪問網路段{net}。"
     }
 }

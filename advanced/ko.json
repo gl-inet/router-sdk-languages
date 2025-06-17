@@ -6,5 +6,15 @@
         "go_to_luci_btn": "LuCI로 이동",
         "luci_security_tips": "LuCI 보안을 위해 원격으로 LuCI에 접속해야 하는 경우, LuCI 포트를 수동으로 열어 주십시오.",
         "luci_rtty_tips": "rtty를 통해 원격으로 LuCI에 접속해야 하는 경우, 클라우드 플랫폼에서 {port} 포트로 LuCI에 접속하십시오."
+    },
+    "luci": {
+        "install_tips": "LuCI로 고급 설정 수정",
+        "install_power_by_tips": "LuCI는 OpenWrt에서 유지 관리하는 개방적이고 독립적인 프로젝트입니다.",
+        "install_btn": "지금 설치",
+        "insatlling_tips": "설치 중...",
+        "install_fail_tips": "설치 실패",
+        "check_network_tips": "네트워크 연결을 확인해 주세요.",
+        "re_install_btn": "재설치",
+        "out_of_memory_tips": "설치할 공간이 부족합니다."
     }
 }

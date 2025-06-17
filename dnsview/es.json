@@ -43,6 +43,15 @@
         "invalid_resolver_id_tips": "ID del Resolvedor no válido",
         "controld_plan_tips": "Existen dos planes: Gratuito y Prémium y solo se puede elegir uno de ellos.",
         "controld_plan_label": "Plan",
-        "at_least_one_ipv4_tip": "Los servidores DNS requieren al menos una dirección IPv4."
+        "at_least_one_ipv4_tip": "Los servidores DNS requieren al menos una dirección IPv4.",
+        "public_servers_refer_tips": "Para una lista de servidores públicos, consulte {link}",
+        "dns_servers": "Servidores DNS",
+        "add_server": "Agregar un Servidor",
+        "dns_server_list": "Lista de Servidores DNS",
+        "least_one_server_tips": "Por favor, agregue al menos un servidor.",
+        "select_dns_servers": "Seleccionar servidores DNS",
+        "encrypted_dns_url_tips": "Puede ingresar directamente el enlace URL o el formato de enlace de sello del DNS cifrado:",
+        "encryption_conflicting_msg": "Formas de encriptación en conflicto, por favor utilice enlaces con la misma forma de encriptación.",
+        "modify_server": "Modificar un Servidor"
     }
 }

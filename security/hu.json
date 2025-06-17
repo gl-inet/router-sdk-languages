@@ -27,7 +27,10 @@
         "enable_https_label": "HTTPS protokoll kényszerítése",
         "enable_ssh_label": "SSH hozzáférés engedélyezése",
         "enable_ipaddr_label": "Távoli hozzáférés korlátozása",
-        "enable_ipaddr_tips": "Távoli hozzáférés engedélyezése kizárólag megadott IP-címekről."
+        "enable_ipaddr_tips": "Távoli hozzáférés engedélyezése kizárólag megadott IP-címekről.",
+        "access_title": "Hozzáférés-vezérlés",
+        "access_enable_ssh_label": "SSH engedélyezése",
+        "ssh_need_strong_pwd_tips": "Engedélyeznie kell a(z) \"{label}\" funkciót, mielőtt bekapcsolná az SSH szolgáltatást."
     },
     "menu_security": "Biztonság"
 }

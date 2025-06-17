@@ -16,14 +16,14 @@
         "enter_pwd_tips": "請輸入密碼",
         "choose_ssid_tips": "請選擇SSID",
         "relay": "無線擴展模式",
-        "router_desc": "創建您自己的私人網絡。本路由器將作為 NAT、防火牆和 DHCP 服務器。",
-        "ap_desc": "通過有線連接到上級網絡並擴展無線網絡。",
-        "relay_desc": "擴展現有無線網絡的 Wi-Fi 覆蓋範圍。",
+        "router_desc": "創建您自己的私有網路。本路由器將充當 NAT、防火牆和 DHCP 伺服器。",
+        "ap_desc": "透過有線連接到上級網路並擴展無線網路。",
+        "relay_desc": "擴展現有無線網路的 Wi-Fi 覆蓋範圍。",
         "wds_desc": "與 Extender 類似，如果您的主路由器支持 WDS 模式，請選擇 WDS。",
         "connet_fail_msg": "連接失敗。",
         "lan_conflict_msg": "LAN子網與要連接的Wifi子網衝突，請設置不同的子網。",
         "get_ip_fail_msg": "獲取IP失敗。",
-        "bridge_pattern_desc": "通過有線連接到上級網絡。",
+        "bridge_pattern_desc": "透過有線連接到上級網路。",
         "bridge_pattern_label": "橋接",
         "subnet_mode_bable": "子網模式",
         "passthrough_desc": "如果啟用 IP Passthrough，路由器會將運營商 IP 地址傳遞給 LAN 端口。",
@@ -33,12 +33,12 @@
         "passthrough_conflict_2b_warning": "此模式可能無法工作如您有以下設置：啟用 Drop-in gateway (旁路由) 模式、啟用 IPv6、啟用TAP-S2S模式、手動設置 DNS、將多 WAN 設置為負載平衡模式、將 WAN 端口設置為 LAN、使用 VPN 策略、添加任何 防火牆設置，手動設置MAC地址。",
         "passthrough_secondwan_warning": "IP Passthrough 模式需要且只能有一個 WAN 口。請前往$$$$頁面修改，取消將 WAN 口作為 LAN 口使用或取消將 LAN 作為 WAN 口使用。",
         "set_up_bridge_tips": "要設置成橋接模式，必須在WAN埠插入網線。",
-        "tips_one": "當您變更路由器的網絡模式時，您可能需要重新連接所有用戶端裝置。",
+        "tips_one": "更改路由器的網路模式時，可能需要重新連接所有用戶端設備。",
         "tips_two": "當您使用 $$$$ 模式時，您將無法再次連接到此 UI。您可以按住重設按鈕 4 秒鐘以恢復到路由器模式。",
         "passthrough_enable_warning": "如果您切換到此模式，{feature}將被禁用。",
         "passthrough_mac_tips": "這用於獲取公共IP的MAC地址。",
         "passthrough_only_one_wan_tips": "如果要切換至IP Passthrough模式，請前往{page}並關閉「WAN作為LAN」或「LAN作為WAN」功能。",
         "passthrough_close_edge_tips": "如果要切換至IP Passthrough模式，請關閉{page}。"
     },
-    "menu_bridge": "網絡模式"
+    "menu_bridge": "網路模式"
 }

@@ -350,7 +350,7 @@
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "将客户端添加到VPN策略基础的隧道列表中。如果您想对隧道进行更详细的更改，请前往{page}管理隧道。",
-        "use_vpn_tunnel_btn": "使用VPN隧道",
+        "use_vpn_tunnel_btn": "使用 VPN 隧道",
         "traffic_origination_label": "隧道流量发起",
         "not_applicale_add_mac_label": "不适用",
         "not_applicale_add_mac_mode_tips": "流量来源不是基于指定设备或排除指定设备，因此客户端无法添加到此VPN隧道中。",
@@ -412,7 +412,7 @@
         "rename_label": "重命名",
         "disable_default_tunnel_warning_tips": "非VPN隧道确保未通过上述隧道的流量仍可连接到互网。如果禁用，它将丢弃所有剩余流量。",
         "disable_default_tunnel_confirm_tips": "您确定要禁用当前的隧道吗？",
-        "not_use_vpn_via_tips": "当前隧道未设置为使用VPN。",
+        "not_use_vpn_via_tips": "当前隧道未设置为使用 VPN。",
         "exclude_label": "排除",
         "address_count_label": "{count}个地址|{count}个地址",
         "to_all_taget_tips": "当前隧道支持到所有目的地的流量。",
@@ -428,7 +428,17 @@
         "method_count_label": "{count} 种方法|{count} 种方法",
         "custom_tunnel_title": "自定义VPN隧道",
         "stop_title": "停止VPN配置",
-        "default_tunnel_tip": "不可更改的内置隧道。"
+        "default_tunnel_tip": "不可更改的内置隧道。",
+        "switch_mode_title": "切换VPN模式",
+        "global_mode_label": "全局模式",
+        "global_mode_desc": "若VPN已连接，所有流量将通过VPN路由。仅可激活一个VPN客户端实例。",
+        "policy_mode_label": "策略模式",
+        "policy_mode_desc": "此模式支持高级定制，可在单台设备上配置并启用多个VPN服务器，同时执行复杂的策略逻辑。",
+        "switch_global_mode_tips": "在切换至全局模式前，请确保仅保留一条VPN隧道并删除其余所有隧道。所保留隧道的策略将自动清空。",
+        "switch_mode_has_been_using_tips": "当前模式已应用。",
+        "select_config_tip_label": "请选择一个配置文件",
+        "select_config_title": "选择配置",
+        "vpn_client_title": "VPN客户端"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
@@ -444,7 +454,7 @@
         "route_rules_title": "路由规则",
         "enable_ipv6_tips": "如果未启用IPv6，IPv6地址将不会生效。如果您想使用IPv6地址，请在您的路由器上{todo}。",
         "want_use_ipv6_tips": "如果您想使用IPv6地址，请在您的路由器上{todo}。",
-        "route_rule_tips": "VPN服务器自定义路由规则可指定特定网络流量通过VPN加密传输，而其他流量则正常经由本地网络传输。"
+        "route_rule_tips": "VPN 服务器自定义路由规则可指定特定网络流量通过 VPN 加密传输，而其他流量则正常经由本地网络传输。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "许多路由功能将无法使用。",

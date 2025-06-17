@@ -6,5 +6,15 @@
         "go_to_luci_btn": "前往 LuCI",
         "luci_security_tips": "考虑到 LuCI 安全性，如果您需要远程访问 LuCI，请手动开放 LuCI 端口。",
         "luci_rtty_tips": "如果需要通过 rtty 远程访问 LuCI，请通过云平台上的端口 {port} 访问 LuCI。"
+    },
+    "luci": {
+        "install_tips": "通过LuCI修改高级设置",
+        "install_power_by_tips": "LuCI是由OpenWrt维护的一个开放且独立的项目。",
+        "install_btn": "立即安装",
+        "insatlling_tips": "安装中...",
+        "install_fail_tips": "安装失败",
+        "check_network_tips": "请检查您的网络连接。",
+        "re_install_btn": "重新安装",
+        "out_of_memory_tips": "空间不足，无法安装。"
     }
 }

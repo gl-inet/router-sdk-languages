@@ -6,5 +6,15 @@
         "luci_security_tips": "為了 LuCI 的安全性，如果您需要遠端存取 LuCI，請手動開啟 LuCI 連接埠。",
         "luci_rtty_tips": "如果需要通過 rtty 遠程訪問 LuCI，請通過雲平臺上的端口 {port} 訪問 LuCI。",
         "go_to_luci_btn": "前往 LuCI"
+    },
+    "luci": {
+        "install_tips": "使用LuCI修改進階設定",
+        "install_power_by_tips": "LuCI是由OpenWrt維護的開放獨立專案",
+        "install_btn": "立即安裝",
+        "insatlling_tips": "安裝中...",
+        "install_fail_tips": "安裝失敗",
+        "check_network_tips": "請檢查您的網路連接。",
+        "re_install_btn": "重新安裝",
+        "out_of_memory_tips": "空間不足，無法安裝。"
     }
 }

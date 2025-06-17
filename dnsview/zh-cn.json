@@ -43,6 +43,15 @@
         "invalid_resolver_id_tips": "无效的解析器ID",
         "controld_plan_tips": "有两种计划，免费和高级，您只能选择其中一个。",
         "controld_plan_label": "计划",
-        "at_least_one_ipv4_tip": "DNS服务器至少需要一个IPv4地址。"
+        "at_least_one_ipv4_tip": "DNS服务器至少需要一个IPv4地址。",
+        "add_server": "添加服务器",
+        "dns_server_list": "DNS服务器列表",
+        "public_servers_refer_tips": "有关公共服务器列表，请参阅{link}",
+        "least_one_server_tips": "请至少添加一个服务器",
+        "select_dns_servers": "选择DNS服务器",
+        "dns_servers": "DNS服务器",
+        "encrypted_dns_url_tips": "您可以直接输入加密DNS的URL链接或Stamp链接格式：",
+        "encryption_conflicting_msg": "加密形式冲突，请使用相同加密形式的链接。",
+        "modify_server": "修改服务器"
     }
 }

@@ -1,7 +1,7 @@
 {
     "core": {
-        "ip": "IP Adres",
-        "ipv6": "IPv6 Adres",
+        "ip": "Adres IP",
+        "ipv6": "Adres IPv6",
         "protocol": "Protokół",
         "netmask": "Maska sieci",
         "username": "Nazwa użytkownika",
@@ -122,7 +122,8 @@
         "got_it": "Rozumiem.",
         "attention_title": "Uwaga",
         "remove_btn": "Usuń",
-        "notice_title": "Powiadomienie"
+        "notice_title": "Powiadomienie",
+        "use_weak_disabled_ssh_tips": "Użycie słabego hasła spowoduje wyłączenie SSH i wprowadzania danych przez port szeregowy."
     },
     "msg": {
         "port_occupied": "{nazwa} zajęty port",
