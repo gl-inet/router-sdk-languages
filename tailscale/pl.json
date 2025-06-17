@@ -11,13 +11,13 @@
         "current_ip_label": "Wirtualny adres IP routera",
         "get_url_err_msg": "Nie udało się uzyskać linku do powiązania urządzenia.",
         "enable_wan_label": "Zezwól na zdalny dostęp do sieci WAN",
-        "allow_lan_tips": "Jeśli ta opcja jest włączona, zasoby w sieci LAN urządzenia będą mogły być dostępne przez wirtualną sieć Tailscale.",
-        "allow_wan_tips": "Jeśli ta opcja jest włączona, zasoby po stronie WAN urządzenia będą mogły być dostępne przez wirtualną sieć Tailscale.",
+        "allow_lan_tips": "Jeśli ta opcja jest włączona, zasoby wewnątrz sieci LAN urządzenia będą mogły być dostępne za pośrednictwem wirtualnej sieci Tailscale.",
+        "allow_wan_tips": "Jeśli ta opcja jest włączona, zasoby po stronie WAN urządzenia będą mogły być dostępne za pośrednictwem wirtualnej sieci Tailscale.",
         "exit_node_label": "Węzeł wyjściowy",
-        "current_ip_tips": "Tailscale używa podsieci 100.64.0.0/10, co może powodować konflikt z adresem przydzielonym przez dostawcę internetu lub adresem klienta VPN. Jeśli twój adres WAN lub adres VPN znajduje się w tej podsieci, wyłącz Tailscale, aby uniknąć problemów z siecią.",
+        "current_ip_tips": "Tailscale używa podsieci 100.64.0.0/10, co może kolidować z adresem przydzielonym przez dostawcę usług internetowych lub adresem klienta VPN. Jeśli Twój adres IP WAN lub VPN znajduje się w tej podsieci, wyłącz Tailscale, aby uniknąć problemów z siecią.",
         "dns_warning_tips": "Podczas używania adresu IP intranetu jako DNS, możesz nie być w stanie uzyskać dostępu do serwera DNS.",
         "manual_node_label": "Niestandardowy węzeł wyjściowy",
-        "exit_node_tips": "Jeśli wybrany węzeł wyjściowy nie jest dostępny lub nie może uzyskać dostępu do Internetu, urządzenie nie będzie mogło zsynchronizować ustawień z Tailscale.",
+        "exit_node_tips": "Jeśli wybrany przez Ciebie węzeł wyjściowy nie jest dostępny lub nie może uzyskać dostępu do Internetu, urządzenie nie będzie mogło zsynchronizować ustawień z Tailscale.",
         "custom_exit_node_warning": "Jeśli włączysz Niestandardowy węzeł wyjściowy, urządzenie będzie przekazywać wszystkie żądania do węzła wyjściowego. Przed włączeniem, musisz włączyć trasy podsieci {subnet} tego urządzenia w $$$$Konsoli Administracyjnej Tailscale$$$$, aby Tailscale mógł przekazywać żądania klientów; w przeciwnym razie klienci nie będą mogli uzyskać dostępu do Internetu.",
         "custom_exit_node_tips": "Jeśli ta opcja jest włączona, urządzenie będzie przekazywać wszystkie żądania do węzła wyjściowego. Przed włączeniem, musisz włączyć trasy podsieci {subnet} tego urządzenia w $$$$Konsoli Administracyjnej Tailscale$$$$, aby Tailscale mógł przekazywać żądania klientów; w przeciwnym razie klienci nie będą mogli uzyskać dostępu do Internetu."
     }
