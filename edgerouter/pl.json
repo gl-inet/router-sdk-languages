@@ -8,13 +8,13 @@
         "dhcp_on_tips": "Usługa DHCP jest nadal włączona na głównym routerze. Tryb Drop-in Gateway może nie działać poprawnie. Proszę przejść do $$$$panelu administracyjnego głównego routera$$$$, aby wyłączyć usługę DHCP lub ustawić jego bramę na {ip}.",
         "enable_tips": "Gdy tryb Drop-in Gateway jest włączony, ustawienia DNS tego routera są używane zamiast ustawień głównego routera.",
         "dhcp_on_warning_tips": "Brama Drop-in jest włączona.",
-        "dhcp_set_gateway_tips": "Usługa DHCP na głównym routerze poprawnie ustawiła bramę na {ip}, brama typu Drop-in działa.",
-        "auto_set_tips": "Ustawienia DHCP głównego routera wydają się być zmienione i router może nie być w stanie poprawnie połączyć się z siecią. Proszę zsynchronizować ustawienia z DHCP lub zmodyfikować ustawienia ręcznie.",
-        "desc_vpn": "Należy pamiętać, że w trybie bramy typu Drop-in, polityka VPN tego urządzenia nie będzie działać dla klientów z portu WAN.",
-        "cable_not_connected_tips": "Nie wykryto kabla w porcie WAN. Proszę włożyć kabel ethernetowy.",
-        "modify_superior_router_label": "Wszystkie urządzenia są połączone przez sieć za pomocą bramy typu Drop-in",
-        "modify_superior_router_desc": "Musisz przejść do modyfikacji konfiguracji głównej trasy, która musi być skonfigurowana przez użytkownika mającego dostęp do głównej trasy.",
+        "dhcp_set_gateway_tips": "Usługa DHCP na głównym routerze poprawnie ustawiła bramę na {ip}, tryb Drop-in Gateway działa prawidłowo.",
+        "auto_set_tips": "Ustawienia DHCP nadrzędnego routera wydają się zmienione, co może uniemożliwić prawidłowe połączenie z siecią. Proszę $$$$zsynchronizować ustawienia DHCP$$$$ lub zmodyfikować je ręcznie",
+        "desc_vpn": "Należy pamiętać, że w trybie Drop-in Gateway polityka VPN tego urządzenia nie będzie działać dla klientów podłączonych przez port WAN.",
+        "cable_not_connected_tips": "Nie wykryto kabla w porcie WAN. Proszę podłączyć kabel Ethernet.",
+        "modify_superior_router_label": "Wszystkie urządzenia są połączone w sieć poprzez Bramę Drop-in.",
+        "modify_superior_router_desc": "Musisz przejść do modyfikacji konfiguracji głównej trasy, którą może skonfigurować tylko użytkownik mający dostęp do głównej trasy",
         "modify_self_router_label": "Niektóre urządzenia wybierają własną bramę sieciową",
-        "modify_self_router_desc": "Musisz ręcznie zmienić adres bramy na adres IP bramy typu Drop-in na niektórych urządzeniach, które potrzebują używać bramy typu Drop-in."
+        "modify_self_router_desc": "Musisz ręcznie zmienić adres bramy na adres IP Bramy Drop-in na niektórych urządzeniach, które muszą korzystać z tego trybu."
     }
 }
