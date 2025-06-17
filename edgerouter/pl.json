@@ -2,10 +2,10 @@
     "menu_edgerouter": "Brama Wkraplająca",
     "edgerouter": {
         "desc": "Gdy włączony jest tryb drop-in gateway, cały ruch od klientów w sieci jest najpierw przetwarzany przez ten router. Możesz użyć tego trybu, aby rozszerzyć funkcjonalność swojego głównego routera.",
-        "enable_label": "Włącz tryb bramy typu Drop-in",
+        "enable_label": "Włącz tryb Bramy Drop-in",
         "configuration_method_label": "Metoda konfiguracji",
-        "dhcp_closed_tips": "Usługa DHCP na głównym routerze jest wyłączona, brama typu Drop-in działa.",
-        "dhcp_on_tips": "Usługa DHCP jest nadal włączona na głównym routerze. Brama typu Drop-in może nie działać poprawnie. Proszę przejść do panelu administracyjnego głównego routera, aby wyłączyć usługę DHCP lub ustawić jego bramę na {ip}.",
+        "dhcp_closed_tips": "Usługa DHCP na głównym routerze jest wyłączona, tryb Drop-in Gateway działa poprawnie.",
+        "dhcp_on_tips": "Usługa DHCP jest nadal włączona na głównym routerze. Tryb Drop-in Gateway może nie działać poprawnie. Proszę przejść do $$$$panelu administracyjnego głównego routera$$$$, aby wyłączyć usługę DHCP lub ustawić jego bramę na {ip}.",
         "enable_tips": "Gdy tryb bramy typu Drop-in jest włączony, ustawienia DNS tego routera są używane zamiast tych z głównego routera.",
         "dhcp_on_warning_tips": "Brama typu Drop-in jest włączona.",
         "dhcp_set_gateway_tips": "Usługa DHCP na głównym routerze poprawnie ustawiła bramę na {ip}, brama typu Drop-in działa.",
