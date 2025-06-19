@@ -437,7 +437,10 @@
         "switch_mode_has_been_using_tips": "Поточний режим було застосовано.",
         "select_config_tip_label": "Будь ласка, оберіть файл конфігурації.",
         "select_config_title": "Вибір конфігурації",
-        "vpn_client_title": "VPN-клієнт"
+        "vpn_client_title": "VPN-клієнт",
+        "disable_default_tunnel_confirm_tips": "Ви впевнені, що хочете вимкнути поточну функцію?",
+        "all_other_traffic_label": "Весь інший трафік",
+        "all_other_traffic_tips": "Визначає, чи дозволено доступ до Інтернету для трафіку, який не відповідає жодному VPN-тунелю, а також для трафіку зі збійних VPN-тунелів, у яких не ввімкнено Kill Switch."
     },
     "vpn_server": {
         "connected_dev_label": "Підключені пристрої",
