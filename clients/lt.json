@@ -70,17 +70,17 @@
         "switch": "Pakeisti/-imas",
         "speed_limit_label": "Klientų greičio ribojimas",
         "reserved_ip_label": "Rezervuotas IP",
-        "reserved_ip_tips": "Kai nustatote rezervuotą IP adresą klientui vietiniame tinkle („LAN“), klientas visada gauna tą patį IP adresą kiekvieną kartą, kai jis prisijungia prie maršrutizatoriaus DHCP serverio. Galite priskirti rezervuotus IP adresus kompiuteriams ar serveriams, kuriems reikalingi nuolatiniai IP nustatymai.",
+        "reserved_ip_tips": "Kai nustatote nurodytą rezervuotą IP adresą klientui vietiniame tinkle („LAN“), klientas visada gauna tą patį IP adresą kiekvieną kartą, kai jis prisijungia prie maršrutizatoriaus „DHCP“ serverio. Galite priskirti rezervuotus IP adresus kompiuteriams ar serveriams, kuriems reikalingi nuolatiniai IP nustatymai.",
         "next_connect_effect_tips": "Dabartinė konfigūracija reikalauja, kad įsigaliotų tolimesnis ryšys.",
         "reserve_ip_only_ipv4_tips": "Galima konfigūruoti tik vietinio tinklo („LAN“) segmento IPv4 adreso rezervaciją.",
-        "host_guest_label": "Skleidėjas/Svečio Tinklas",
-        "reserve_ip_different_lan_tips": "Rezervuotas IP nėra tame pačiame tinklo segmente kaip dabartinis IP, konfigūracija neveikia.",
-        "access_control_overlimit_tips": "Sąrašas {list} yra pilnas. Prašome jį tvarkyti {option}."
+        "host_guest_label": "Skleidėjas-Vedėjas/Svečio (-ių) tinklas",
+        "reserve_ip_different_lan_tips": "Rezervuotas IP nėra tame pačiame tinklo segmente kaip dabartinis IP, konfigūracija neveikia/neturės poveikio.",
+        "access_control_overlimit_tips": "Sąrašas – {list} yra pilnas. Prašome jį tvarkyti – {option}."
     },
     "menu_clients": "Klientai",
     "vpn_tunnel": {
-        "mac_using_tips": "„VPN“ yra prisijungtas.",
-        "mac_not_effect_tips": "„VPN“ neveikia.",
-        "mac_connecting_tips": "„VPN“ jungiasi."
+        "mac_using_tips": "„VPN“ yra prijungtas ir veikiantis.",
+        "mac_not_effect_tips": "„VPN“ neveikia/neturi veiksnumo.",
+        "mac_connecting_tips": "„VPN“ jungiasi/susijungia."
     }
 }
