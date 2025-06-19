@@ -437,7 +437,10 @@
         "switch_mode_has_been_using_tips": "La modalità corrente è stata applicata.",
         "select_config_tip_label": "Si prega di selezionare un file di configurazione.",
         "select_config_title": "Seleziona Configurazione",
-        "vpn_client_title": "Client VPN"
+        "vpn_client_title": "Client VPN",
+        "disable_default_tunnel_confirm_tips": "Sei sicuro di voler disabilitare la funzione corrente?",
+        "all_other_traffic_label": "Tutto il traffico rimanente",
+        "all_other_traffic_tips": "Controlla se il traffico che non corrisponde a nessun tunnel VPN, così come il traffico proveniente da tunnel VPN falliti senza Kill Switch abilitato, è consentito accedere a Internet."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
