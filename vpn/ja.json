@@ -437,7 +437,10 @@
         "switch_mode_has_been_using_tips": "現在のモードが適用されました。",
         "select_config_tip_label": "設定ファイルを選択してください",
         "select_config_title": "設定を選択",
-        "vpn_client_title": "VPNクライアント"
+        "vpn_client_title": "VPNクライアント",
+        "disable_default_tunnel_confirm_tips": "現在の機能を無効にしてもよろしいですか？",
+        "all_other_traffic_label": "その他のすべてのトラフィック",
+        "all_other_traffic_tips": "いかなるVPNトンネルにもマッチしないトラフィック、およびKill Switchが有効でない失敗したVPNトンネルからのトラフィックがインターネットにアクセスすることを許可するかどうかを制御します。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
