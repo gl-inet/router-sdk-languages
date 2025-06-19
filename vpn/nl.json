@@ -437,7 +437,10 @@
         "switch_mode_has_been_using_tips": "De huidige modus is toegepast.",
         "select_config_tip_label": "Selecteer een configuratiebestand",
         "select_config_title": "Configuratie selecteren",
-        "vpn_client_title": "VPN-client"
+        "vpn_client_title": "VPN-client",
+        "disable_default_tunnel_confirm_tips": "Weet u zeker dat u de huidige functie wilt uitschakelen?",
+        "all_other_traffic_label": "Al het andere verkeer",
+        "all_other_traffic_tips": "Bepaalt of verkeer dat niet overeenkomt met een VPN-tunnel, evenals verkeer van mislukte VPN-tunnels zonder Kill Switch ingeschakeld, toegang heeft tot het internet."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
