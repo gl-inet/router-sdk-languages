@@ -437,7 +437,10 @@
         "switch_mode_has_been_using_tips": "Dabartinė veiksena buvo pritaikyta.",
         "select_config_tip_label": "Prašome pasirinkti konfigūracijos failą",
         "select_config_title": "Pasirinkti konfigūraciją",
-        "vpn_client_title": "„VPN“ klientas"
+        "vpn_client_title": "„VPN“ klientas",
+        "disable_default_tunnel_confirm_tips": "Ar tikrai norite išjungti šią funkciją?",
+        "all_other_traffic_label": "Visas Kitas Srautas",
+        "all_other_traffic_tips": "Kontroliuoja, ar srautas, kuris neatitinka jokio VPN tunelio, taip pat srautas iš nepavykusių VPN tunelių be įjungto „Kill Switch“, yra leidžiamas pasiekti internetą."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
