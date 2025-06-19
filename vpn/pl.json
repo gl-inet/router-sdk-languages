@@ -437,7 +437,10 @@
         "switch_mode_has_been_using_tips": "Obecny tryb został zastosowany.",
         "select_config_tip_label": "Proszę wybrać plik konfiguracyjny.",
         "select_config_title": "Wybierz Konfigurację",
-        "vpn_client_title": "Klient VPN"
+        "vpn_client_title": "Klient VPN",
+        "disable_default_tunnel_confirm_tips": "Czy na pewno chcesz wyłączyć obecną funkcję?",
+        "all_other_traffic_label": "Cały pozostały ruch",
+        "all_other_traffic_tips": "Kontroluje, czy ruch niepasujący do żadnego tunelu VPN, a także ruch z nieudanych tuneli VPN bez włączonego Kill Switch, jest dopuszczany do dostępu do Internetu."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
