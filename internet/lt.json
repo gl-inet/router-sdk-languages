@@ -139,7 +139,7 @@
         "change_to_wan_tips2": "Galite atstatyti „LAN“ prievado veikimą (, kad jis nebūtų naudojamas kaip „WAN“ prievadas), paspausdami ir laikydami įrenginio atstatymo mygtuką keturioms (4) sekundėms.",
         "no_wan_tips": "Lai̇̃das neaptiktas.",
         "change_port_btn": "Pakeisti į – {port}",
-        "vlan_id_conflict_tips": "„Ethernet1“ VLAN identifikatorius koliduoja su „Ethernet2“ VLAN identifikatoriumi."
+        "vlan_id_conflict_tips": "„Ethernet1“, „VLAN“ identifikatorius konfliktuoja/nesusiderina su „Ethernet2“ „VLAN“ identifikatoriumi."
     },
     "repeater": {
         "change_wifi": "Pakeisti tinklą",
@@ -196,14 +196,14 @@
         "to_auth_btn": "Eiti į – prisijungimą",
         "entry_again_tips": "Jei prisijungsite per 10 sekundžių, bus tiesiogiai naudojama talpykla, o ne atliekamas iš naujo nuskaitymas.",
         "scan_wifi_fail_detection_channel_tips": "Įrenginys šiuo metu skenuoja optimalų kanalą, „Wi-Fi“ skenavimas šio proceso metu yra nepasiekiamas. Prašome palaukti, kol skenavimas bus baigtas.",
-        "cannot_find_ssid": "Nerandate savo SSID?",
+        "cannot_find_ssid": "Nerandate savo „SSID“?",
         "allow_auto_portal_tips": "Jei ši funkcija įjungta, maršrutizatorius automatiškai pereis į viešųjų prieigos taškų prisijungimo veikseną, kai sėkmingai prisijungs prie prieigos taško, bet ne prie interneto. Šioje veiksenoje kai kurios paslaugos bus sustabdytos, o DNS veiksena bus pakeista į automatinę, dėl ko gali būti atskleista jūsų tinklo veiklos informacija prieigos taško teikėjui (pvz., viešbučiui ar prekybos centrui).",
         "need_enter_portal_tips": "Negalima prisijungti prie interneto per pakartotą karštąjį tašką. Pabandykite įvesti {portal}, kad išspręstumėte problemą. Atkreipkite dėmesį, kad ši veiksena sustabdys kai kuriuos paslaugas ir pasirinktines DNS, kol ji nebus išjungta, o tai gali sukelti duomenų nutekėjimą į karštojo taško teikėją (pvz., viešbutį/prekybos centrą).",
         "entered_portal_tips": "Įrenginys yra viešųjų prieigos taškų prisijungimo veiksenoje. Kai kurios paslaugos buvo pristabdytos, kas gali sukelti duomenų nutekėjimą prieigos taško teikėjui (pvz., viešbutis/prekybos centras). Po sėkmingo prisijungimo, šis maršrutizatorius automatiškai išeina iš šios veiksenos. {exit}.",
-        "router_support_channel_tips": "Patikrinkite savo SSID darbo kanalą, šis maršrutizatorius palaiko:",
+        "router_support_channel_tips": "Patikrinkite savo „SSID“ veikimo kanalą, šis maršrutizatorius palaiko:",
         "channel": "{band} kanalai",
         "cannot_find_wifi": "Nerandate savo „Wi-Fi“?",
-        "ssid_not_hidden_tips": "Įsitikinkite, kad jūsų „SSID“ nėra paslėptas.",
+        "ssid_not_hidden_tips": "Įsitikinkite, kad Jūsų „SSID“ nėra paslėptas.",
         "make_sure_works_tips": "Pabandykite su savo mobiliuoju telefonu ir įsitikinkite, kad veikia.",
         "support_tips": "Susisiekite su mumis dėl tolesnės pagalbos adresu {addr}.",
         "allow_other_mode_change": "Leisti perjungti į kitų tinklų veikseną",
