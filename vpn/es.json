@@ -437,7 +437,10 @@
         "switch_mode_has_been_using_tips": "El modo actual ha sido aplicado.",
         "select_config_tip_label": "Por favor, seleccione un archivo de configuración.",
         "select_config_title": "Seleccionar Configuración",
-        "vpn_client_title": "Cliente VPN"
+        "vpn_client_title": "Cliente VPN",
+        "disable_default_tunnel_confirm_tips": "¿Está seguro de que desea desactivar la función actual?",
+        "all_other_traffic_label": "Todo el otro tráfico",
+        "all_other_traffic_tips": "Controla si se permite el acceso a Internet al tráfico que no coincide con ningún túnel VPN, así como al tráfico de túneles VPN fallidos sin Kill Switch activado."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
