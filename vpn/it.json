@@ -392,7 +392,7 @@
         "edit_tunnel_title": "Modifica Tunnel",
         "name_already_exists_msg": "Il nome di questo tunnel esiste già.",
         "current_option_not_force_tips": "Quando più tunnel utilizzano la stessa configurazione VPN, 'Accesso Remoto LAN', 'IP Masquerading', 'MTU' vengono applicati in base alla priorità del tunnel. La configurazione di un tunnel con priorità più alta sovrascriverà le impostazioni di un tunnel con priorità inferiore.",
-        "all_target_label": "Se lo stato della VPN fluttua, il traffico che rispetta le regole verrà intercettato.",
+        "all_target_label": "",
         "using_options_tunnel_tips": "La configurazione del tunnel attualmente in uso è: {name}.",
         "exit_tap_s2s_btn": "Uscita TAP-S2S",
         "guide_set_tunnel_tips": "Desidera procedere e completare la configurazione delle regole per questo tunnel?",
