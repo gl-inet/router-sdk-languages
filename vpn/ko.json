@@ -439,7 +439,10 @@
         "vpn_client_title": "VPN 클라이언트",
         "disable_default_tunnel_confirm_tips": "현재 기능을 비활성화하시겠습니까?",
         "all_other_traffic_label": "기타 모든 트래픽",
-        "all_other_traffic_tips": "모든 VPN 터널과 일치하지 않는 트래픽 및 Kill Switch가 활성화되지 않은 실패한 VPN 터널의 트래픽이 인터넷에 액세스할 수 있는지 여부를 제어합니다."
+        "all_other_traffic_tips": "모든 VPN 터널과 일치하지 않는 트래픽 및 Kill Switch가 활성화되지 않은 실패한 VPN 터널의 트래픽이 인터넷에 액세스할 수 있는지 여부를 제어합니다.",
+        "sort_btn": "정렬",
+        "priority_label": "우선순위 {idx}",
+        "killswitch_off_tips": "Off는 Failover가 사용 중임을 의미합니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
