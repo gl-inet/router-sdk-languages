@@ -439,7 +439,10 @@
         "vpn_client_title": "VPN客戶端",
         "disable_default_tunnel_confirm_tips": "您確定要停用當前功能嗎？",
         "all_other_traffic_label": "所有其他流量",
-        "all_other_traffic_tips": "控制是否允許未匹配任何VPN隧道的流量，以及未啟用Kill Switch的失敗VPN隧道流量訪問互聯網。"
+        "all_other_traffic_tips": "控制是否允許未匹配任何VPN隧道的流量，以及未啟用Kill Switch的失敗VPN隧道流量訪問互聯網。",
+        "sort_btn": "排序",
+        "priority_label": "優先級 {idx}",
+        "killswitch_off_tips": "關閉表示使用故障轉移。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
