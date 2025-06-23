@@ -438,7 +438,11 @@
         "vpn_client_title": "Client VPN",
         "disable_default_tunnel_confirm_tips": "Sei sicuro di voler disabilitare la funzione corrente?",
         "all_other_traffic_label": "Tutto il traffico rimanente",
-        "all_other_traffic_tips": "Controlla se il traffico che non corrisponde a nessun tunnel VPN, così come il traffico proveniente da tunnel VPN falliti senza Kill Switch abilitato, è consentito accedere a Internet."
+        "all_other_traffic_tips": "Controlla se il traffico che non corrisponde a nessun tunnel VPN, così come il traffico proveniente da tunnel VPN falliti senza Kill Switch abilitato, è consentito accedere a Internet.",
+        "sort_btn": "Ordina",
+        "priority_label": "Priorità {idx}",
+        "killswitch_off_tips": "Off significa che viene utilizzato il Failover.",
+        "all_target_label": "Tutti i target"
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
