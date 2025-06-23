@@ -439,7 +439,10 @@
         "vpn_client_title": "VPN Client",
         "disable_default_tunnel_confirm_tips": "Are you sure you want to disable the current function?",
         "all_other_traffic_label": "All Other Traffic",
-        "all_other_traffic_tips": "Controls whether traffic that is not matched by any VPN tunnel, as well as traffic from failed VPN tunnels without Kill Switch enabled, is allowed to access the Internet."
+        "all_other_traffic_tips": "Controls whether traffic that is not matched by any VPN tunnel, as well as traffic from failed VPN tunnels without Kill Switch enabled, is allowed to access the Internet.",
+        "sort_btn": "Sort",
+        "priority_label": "Priority {idx}",
+        "killswitch_off_tips": "Off means Failover is used."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
