@@ -438,7 +438,11 @@
         "vpn_client_title": "Cliente VPN",
         "disable_default_tunnel_confirm_tips": "¿Está seguro de que desea desactivar la función actual?",
         "all_other_traffic_label": "Todo el otro tráfico",
-        "all_other_traffic_tips": "Controla si se permite el acceso a Internet al tráfico que no coincide con ningún túnel VPN, así como al tráfico de túneles VPN fallidos sin Kill Switch activado."
+        "all_other_traffic_tips": "Controla si se permite el acceso a Internet al tráfico que no coincide con ningún túnel VPN, así como al tráfico de túneles VPN fallidos sin Kill Switch activado.",
+        "sort_btn": "Ordenar",
+        "priority_label": "Prioridad {idx}",
+        "killswitch_off_tips": "Apagado significa que se utiliza Tolerancia a fallos.",
+        "all_target_label": "Todos los destinos"
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
