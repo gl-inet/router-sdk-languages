@@ -439,7 +439,10 @@
         "vpn_client_title": "VPN客户端",
         "disable_default_tunnel_confirm_tips": "您确定要禁用当前功能吗？",
         "all_other_traffic_label": "其他所有流量",
-        "all_other_traffic_tips": "控制是否允许未匹配任何VPN隧道的流量，以及未启用Kill Switch的故障VPN隧道流量访问互联网。"
+        "all_other_traffic_tips": "控制是否允许未匹配任何VPN隧道的流量，以及未启用Kill Switch的故障VPN隧道流量访问互联网。",
+        "sort_btn": "排序",
+        "priority_label": "优先级 {idx}",
+        "killswitch_off_tips": "关闭表示使用故障转移。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
