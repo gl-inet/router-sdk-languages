@@ -441,7 +441,11 @@
         "all_other_traffic_tips": "Steuert, ob Datenverkehr, der von keinem VPN-Tunnel erfasst wird, sowie Datenverkehr aus fehlgeschlagenen VPN-Tunneln ohne aktivierten Kill Switch, auf das Internet zugreifen darf.",
         "sort_btn": "Sortieren",
         "priority_label": "Priorität {idx}",
-        "killswitch_off_tips": "Aus bedeutet, dass Ausfallsicherung verwendet wird."
+        "killswitch_off_tips": "Aus bedeutet, dass Ausfallsicherung verwendet wird.",
+        "switch_global_mode_before_tips": "Vor der Aktivierung des Globalmodus:",
+        "switch_global_mode_auto_clear_tips": "2. Die Richtlinie des beibehaltenen Tunnels wird automatisch gelöscht.",
+        "switch_global_mode_only_one_tunnel_tips": "1. Nur einen VPN-Tunnel beibehalten (alle anderen löschen).",
+        "switch_global_mode_important_tips": "3.{important}: Das System wird die Funktion \"{func}\" standardmäßig nach dem Wechsel aktivieren."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
