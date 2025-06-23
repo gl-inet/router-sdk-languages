@@ -444,7 +444,11 @@
         "killswitch_off_tips": "Uit betekent dat Failover wordt gebruikt.",
         "switch_global_mode_before_tips": "Voordat u de globale modus inschakelt:",
         "switch_global_mode_auto_clear_tips": "2. Het beleid van de behouden tunnel wordt automatisch gewist.",
-        "switch_global_mode_only_one_tunnel_tips": "1. Behoud slechts één VPN-tunnel (verwijder alle andere)."
+        "switch_global_mode_only_one_tunnel_tips": "1. Behoud slechts één VPN-tunnel (verwijder alle andere).",
+        "modify_priority_btn": "Prioriteit aanpassen",
+        "guide_done_tips": "Nu regels instellen voor deze tunnel?",
+        "switch_global_mode_important_tips": "3. {important}: Het systeem zal de \"{func}\"-functie standaard inschakelen na het overschakelen.",
+        "priority_tips": "Tunnels hebben prioriteit, en verschillende tunnels kunnen dezelfde client en regels instellen."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
