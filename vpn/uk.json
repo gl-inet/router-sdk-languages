@@ -444,7 +444,11 @@
         "killswitch_off_tips": "Вимкнено означає, що використовується резервний канал (Failover).",
         "switch_global_mode_before_tips": "Перед увімкненням глобального режиму:",
         "switch_global_mode_auto_clear_tips": "2. Політика збереженого тунелю буде автоматично очищена.",
-        "switch_global_mode_only_one_tunnel_tips": "1. Залиште лише один VPN-тунель (видаліть усі інші)."
+        "switch_global_mode_only_one_tunnel_tips": "1. Залиште лише один VPN-тунель (видаліть усі інші).",
+        "modify_priority_btn": "Змінити пріоритет",
+        "guide_done_tips": "Налаштувати правила для цього тунелю зараз?",
+        "switch_global_mode_important_tips": "3. {important}: Система автоматично активує функцію \"{func}\" після перемикання.",
+        "priority_tips": "Тунелі мають пріоритет, і різні тунелі можуть мати однакового клієнта та правила."
     },
     "vpn_server": {
         "connected_dev_label": "Підключені пристрої",
