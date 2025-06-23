@@ -93,7 +93,7 @@
         "allow_auto_portal_tips": "如果启用此选项，当路由器成功连接到热点但未连接到互联网时，将自动进入公共热点的登录模式。在此模式下，部分服务将被暂停，同时 DNS 模式将切换为自动，这可能会向热点提供商（例如酒店或购物中心）泄露您的网络活动信息。",
         "need_enter_portal_tips": "无法通过中继的热点访问互联网。尝试进入{portal}来解决问题。请注意，此模式将暂停某些服务和自定义DNS，直到它退出，这可能会导致数据泄露给热点提供者（例如，酒店/商场）。",
         "entered_portal_tips": "设备处于公共热点的登录模式。部分服务已暂停，可能会导致数据泄露给热点提供者（例如，酒店/商场）。登录成功后，路由器将自动退出此模式。{exit}。",
-        "router_support_channel_tips": "检查您的SSID工作频道，此路由器支持：",
+        "router_support_channel_tips": "检查您的 SSID 工作频道，此路由器支持：",
         "channel": "{band} 信道",
         "cannot_find_wifi": "找不到无线网络？",
         "ssid_not_hidden_tips": "确保您的SSID没有被隐藏。",
@@ -108,7 +108,7 @@
         "auto_switching_without_network_tips": "启用 “无网络自动切换 ”模式后，路由器在非中继模式下联网成功后不会自动扫描网络，只会在无网络时尝试自动切换到其他保存的网络，这样可以避免通信数据包丢失。",
         "repeater_not_auto_scan_tips": "当前{mode}模式已启用，路由器非中继方式联网成功，中继不会自动进行网络扫描。",
         "portal_go_to_auth_page_tips": "已连接至{ssid}。请前往认证页面登录以访问互联网。",
-        "regionally_allowed_channel_tips": "本路由器仅能搜索当前区域允许的Wi-Fi信道信号。",
+        "regionally_allowed_channel_tips": "本路由器仅能搜索当前区域允许的 Wi-Fi 信道信号。",
         "tap_icon_tips": "点击图标可重新打开此提示。"
     },
     "modem": {
