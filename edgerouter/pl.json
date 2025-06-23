@@ -2,7 +2,7 @@
     "menu_edgerouter": "Brama Wkraplająca",
     "edgerouter": {
         "desc": "Gdy włączony jest tryb Bramy Wkraplającej, cały ruch od klientów w sieci jest najpierw przetwarzany przez ten router. Możesz użyć tego trybu, aby rozszerzyć funkcjonalność Twojego głównego routera.",
-        "enable_label": "Włącz tryb Bramy Drop-in",
+        "enable_label": "Włącz tryb Drop-in Gateway",
         "configuration_method_label": "Metoda konfiguracji",
         "dhcp_closed_tips": "Usługa DHCP na głównym routerze jest wyłączona, brama wkraplająca działa.",
         "dhcp_on_tips": "Usługa DHCP jest nadal włączona na głównym routerze. Brama wkraplająca może nie działać prawidłowo. Proszę przejść do $$$$panelu administracyjnego głównego routera$$$$, aby wyłączyć usługę DHCP lub ustawić jej bramę na {ip}.",
