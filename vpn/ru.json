@@ -441,7 +441,11 @@
         "all_other_traffic_tips": "Определяет, разрешается ли доступ в Интернет для трафика, который не соответствует ни одному VPN-туннелю, а также для трафика из неработающих VPN-туннелей без включенного Kill Switch.",
         "sort_btn": "Сортировать",
         "priority_label": "Приоритет {idx}",
-        "killswitch_off_tips": "Выключено означает, что используется Failover."
+        "killswitch_off_tips": "Выключено означает, что используется Failover.",
+        "switch_global_mode_before_tips": "Перед включением глобального режима:",
+        "switch_global_mode_only_one_tunnel_tips": "1. Оставьте только один VPN-туннель (удалите все остальные).",
+        "switch_global_mode_auto_clear_tips": "2. Политика сохраненного туннеля будет автоматически очищена.",
+        "switch_global_mode_important_tips": "3.{important}: Система автоматически активирует функцию \"{func}\" после переключения."
     },
     "vpn_server": {
         "connected_dev_label": "Подключенные устройства",
