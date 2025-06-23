@@ -432,7 +432,6 @@
         "global_mode_desc": "若VPN已连接，所有流量将通过VPN路由。仅可激活一个VPN客户端实例。",
         "policy_mode_label": "策略模式",
         "policy_mode_desc": "此模式支持高级定制，可在单台设备上配置并启用多个VPN服务器，同时执行复杂的策略逻辑。",
-        "switch_global_mode_tips": "在切换至全局模式前，请确保仅保留一条VPN隧道并删除其余所有隧道。所保留隧道的策略将自动清空。",
         "switch_mode_has_been_using_tips": "当前模式已应用。",
         "select_config_tip_label": "请选择一个配置文件",
         "select_config_title": "选择配置",
