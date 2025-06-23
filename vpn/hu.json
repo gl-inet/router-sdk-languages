@@ -438,7 +438,11 @@
         "vpn_client_title": "VPN Kliens",
         "disable_default_tunnel_confirm_tips": "Biztosan le szeretné tiltani az aktuális funkciót?",
         "all_other_traffic_label": "Az összes egyéb forgalom",
-        "all_other_traffic_tips": "Azt szabályozza, hogy a forgalom, amely nem illeszkedik egyetlen VPN-alagúthoz sem, valamint a meghiúsult VPN-alagutak forgalma, amelyeken nincs engedélyezve a Kill Switch, hozzáférhet-e az internethez."
+        "all_other_traffic_tips": "Azt szabályozza, hogy a forgalom, amely nem illeszkedik egyetlen VPN-alagúthoz sem, valamint a meghiúsult VPN-alagutak forgalma, amelyeken nincs engedélyezve a Kill Switch, hozzáférhet-e az internethez.",
+        "sort_btn": "Rendezés",
+        "priority_label": "Prioritás {idx}",
+        "killswitch_off_tips": "A Kikapcsolás azt jelenti, hogy a Failover használatban van.",
+        "all_target_label": "Összes cél"
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
