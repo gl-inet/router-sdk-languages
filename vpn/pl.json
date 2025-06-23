@@ -444,7 +444,11 @@
         "killswitch_off_tips": "Wyłączone oznacza, że używane jest przełączanie awaryjne.",
         "switch_global_mode_before_tips": "Przed włączeniem trybu globalnego:",
         "switch_global_mode_auto_clear_tips": "2. Zasady zachowanego tunelu zostaną automatycznie wyczyszczone.",
-        "switch_global_mode_only_one_tunnel_tips": "1. Zachowaj tylko jeden tunel VPN (usuń wszystkie pozostałe)."
+        "switch_global_mode_only_one_tunnel_tips": "1. Zachowaj tylko jeden tunel VPN (usuń wszystkie pozostałe).",
+        "modify_priority_btn": "Zmodyfikuj priorytet",
+        "guide_done_tips": "Skonfigurować teraz zasady dla tego tunelu?",
+        "switch_global_mode_important_tips": "3. {important}: System domyślnie włączy funkcję \"{func}\" po przełączeniu.",
+        "priority_tips": "Tunele mają priorytet, a różne tunele mogą ustawić tego samego klienta i reguły."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
