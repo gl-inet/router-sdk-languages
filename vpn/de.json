@@ -444,7 +444,11 @@
         "killswitch_off_tips": "Aus bedeutet, dass Ausfallsicherung verwendet wird.",
         "switch_global_mode_before_tips": "Vor der Aktivierung des Globalmodus:",
         "switch_global_mode_auto_clear_tips": "2. Die Richtlinie des beibehaltenen Tunnels wird automatisch gelöscht.",
-        "switch_global_mode_only_one_tunnel_tips": "1. Nur einen VPN-Tunnel beibehalten (alle anderen löschen)."
+        "switch_global_mode_only_one_tunnel_tips": "1. Nur einen VPN-Tunnel beibehalten (alle anderen löschen).",
+        "guide_done_tips": "Jetzt Regeln für diesen Tunnel einrichten?",
+        "switch_global_mode_important_tips": "3. {important}: Das System wird die Funktion \"{func}\" standardmäßig nach dem Wechsel aktivieren.",
+        "modify_priority_btn": "Priorität ändern",
+        "priority_tips": "Tunnel haben Priorität, und verschiedene Tunnel können denselben Client und dieselben Regeln festlegen."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
