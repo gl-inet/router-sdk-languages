@@ -441,7 +441,11 @@
         "all_other_traffic_tips": "Bepaalt of verkeer dat niet overeenkomt met een VPN-tunnel, evenals verkeer van mislukte VPN-tunnels zonder Kill Switch ingeschakeld, toegang heeft tot het internet.",
         "sort_btn": "Sorteren",
         "priority_label": "Prioriteit {idx}",
-        "killswitch_off_tips": "Uit betekent dat Failover wordt gebruikt."
+        "killswitch_off_tips": "Uit betekent dat Failover wordt gebruikt.",
+        "switch_global_mode_before_tips": "Voordat u de globale modus inschakelt:",
+        "switch_global_mode_auto_clear_tips": "2. Het beleid van de behouden tunnel wordt automatisch gewist.",
+        "switch_global_mode_only_one_tunnel_tips": "1. Behoud slechts één VPN-tunnel (verwijder alle andere).",
+        "switch_global_mode_important_tips": "3.{important}: Het systeem zal de \"{func}\"-functie standaard inschakelen na het overschakelen."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
