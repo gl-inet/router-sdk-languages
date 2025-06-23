@@ -439,7 +439,10 @@
         "vpn_client_title": "VPN-Client",
         "disable_default_tunnel_confirm_tips": "Sind Sie sicher, dass Sie die aktuelle Funktion deaktivieren möchten?",
         "all_other_traffic_label": "Alle anderen Datenverkehr",
-        "all_other_traffic_tips": "Steuert, ob Datenverkehr, der von keinem VPN-Tunnel erfasst wird, sowie Datenverkehr aus fehlgeschlagenen VPN-Tunneln ohne aktivierten Kill Switch, auf das Internet zugreifen darf."
+        "all_other_traffic_tips": "Steuert, ob Datenverkehr, der von keinem VPN-Tunnel erfasst wird, sowie Datenverkehr aus fehlgeschlagenen VPN-Tunneln ohne aktivierten Kill Switch, auf das Internet zugreifen darf.",
+        "sort_btn": "Sortieren",
+        "priority_label": "Priorität {idx}",
+        "killswitch_off_tips": "Aus bedeutet, dass Ausfallsicherung verwendet wird."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
