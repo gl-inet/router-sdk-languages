@@ -441,7 +441,11 @@
         "all_other_traffic_tips": "どのVPNトンネルにもマッチしないトラフィックや、キル・スイッチが有効になっていない失敗したVPNトンネルからのトラフィックをインターネットにアクセスさせるかどうかを制御します。",
         "sort_btn": "並べ替え",
         "priority_label": "優先度 {idx}",
-        "killswitch_off_tips": "オフはフェイルオーバーが使用されていることを意味します。"
+        "killswitch_off_tips": "オフはフェイルオーバーが使用されていることを意味します。",
+        "switch_global_mode_before_tips": "グローバルモードを有効にする前に：",
+        "switch_global_mode_only_one_tunnel_tips": "1. VPNトンネルを1つのみ保持（他はすべて削除）。",
+        "switch_global_mode_auto_clear_tips": "2. 保持されたトンネルのポリシーは自動的にクリアされます。",
+        "switch_global_mode_important_tips": "3.{important}: システムは切り替え後に「{func}」機能をデフォルトで有効にします。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
