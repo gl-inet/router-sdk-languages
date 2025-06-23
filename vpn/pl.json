@@ -439,7 +439,10 @@
         "vpn_client_title": "Klient VPN",
         "disable_default_tunnel_confirm_tips": "Czy na pewno chcesz wyłączyć obecną funkcję?",
         "all_other_traffic_label": "Cały pozostały ruch",
-        "all_other_traffic_tips": "Kontroluje, czy ruch niepasujący do żadnego tunelu VPN, a także ruch z nieudanych tuneli VPN bez włączonego Kill Switch, jest dopuszczany do dostępu do Internetu."
+        "all_other_traffic_tips": "Kontroluje, czy ruch niepasujący do żadnego tunelu VPN, a także ruch z nieudanych tuneli VPN bez włączonego Kill Switch, jest dopuszczany do dostępu do Internetu.",
+        "sort_btn": "Sortuj",
+        "priority_label": "Priorytet {idx}",
+        "killswitch_off_tips": "Wyłączone oznacza, że używane jest przełączanie awaryjne."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
