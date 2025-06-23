@@ -441,7 +441,11 @@
         "all_other_traffic_tips": "Визначає, чи дозволено доступ до Інтернету для трафіку, який не відповідає жодному VPN-тунелю, а також для трафіку зі збійних VPN-тунелів, у яких не ввімкнено Kill Switch.",
         "sort_btn": "Сортувати",
         "priority_label": "Пріоритет {idx}",
-        "killswitch_off_tips": "Вимкнено означає, що використовується резервний канал (Failover)."
+        "killswitch_off_tips": "Вимкнено означає, що використовується резервний канал (Failover).",
+        "switch_global_mode_before_tips": "Перед увімкненням глобального режиму:",
+        "switch_global_mode_auto_clear_tips": "2. Політика збереженого тунелю буде автоматично очищена.",
+        "switch_global_mode_only_one_tunnel_tips": "1. Залиште лише один VPN-тунель (видаліть усі інші).",
+        "switch_global_mode_important_tips": "3.{important}: Після перемикання система за замовчуванням відкриє функцію \"{func}\"."
     },
     "vpn_server": {
         "connected_dev_label": "Підключені пристрої",
