@@ -439,7 +439,10 @@
         "vpn_client_title": "„VPN“ klientas",
         "disable_default_tunnel_confirm_tips": "Ar tikrai norite išjungti šią funkciją?",
         "all_other_traffic_label": "Visas Kitas Srautas",
-        "all_other_traffic_tips": "Kontroliuoja, ar srautas, kuris neatitinka jokio VPN tunelio, taip pat srautas iš nepavykusių VPN tunelių be įjungto „Kill Switch“, yra leidžiamas pasiekti internetą."
+        "all_other_traffic_tips": "Kontroliuoja, ar srautas, kuris neatitinka jokio VPN tunelio, taip pat srautas iš nepavykusių VPN tunelių be įjungto „Kill Switch“, yra leidžiamas pasiekti internetą.",
+        "sort_btn": "(su)rūšiuoti",
+        "priority_label": "Prioritetas {idx}",
+        "killswitch_off_tips": "Išjungta reiškia, kad naudojamas nesėkmingumo (įvykio) mechanizmas."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
