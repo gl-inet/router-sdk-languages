@@ -444,7 +444,11 @@
         "killswitch_off_tips": "Off는 Failover가 사용 중임을 의미합니다.",
         "switch_global_mode_before_tips": "글로벌 모드 활성화 전에:",
         "switch_global_mode_auto_clear_tips": "2. 보존된 터널의 정책은 자동으로 삭제됩니다.",
-        "switch_global_mode_only_one_tunnel_tips": "1. 하나의 VPN 터널만 유지합니다(다른 모든 터널은 삭제)."
+        "switch_global_mode_only_one_tunnel_tips": "1. 하나의 VPN 터널만 유지합니다(다른 모든 터널은 삭제).",
+        "modify_priority_btn": "우선순위 수정",
+        "guide_done_tips": "이 터널에 대한 규칙을 지금 설정하시겠습니까?",
+        "switch_global_mode_important_tips": "3. {important}: 시스템은 전환 후 \"{func}\" 기능을 기본적으로 활성화합니다.",
+        "priority_tips": "터널에는 우선순위가 있으며, 서로 다른 터널이 동일한 클라이언트와 규칙을 설정할 수 있습니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
