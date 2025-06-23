@@ -439,7 +439,10 @@
         "vpn_client_title": "VPNクライアント",
         "disable_default_tunnel_confirm_tips": "本当に現在の機能を無効にしますか？",
         "all_other_traffic_label": "その他すべてのトラフィック",
-        "all_other_traffic_tips": "どのVPNトンネルにもマッチしないトラフィックや、キル・スイッチが有効になっていない失敗したVPNトンネルからのトラフィックをインターネットにアクセスさせるかどうかを制御します。"
+        "all_other_traffic_tips": "どのVPNトンネルにもマッチしないトラフィックや、キル・スイッチが有効になっていない失敗したVPNトンネルからのトラフィックをインターネットにアクセスさせるかどうかを制御します。",
+        "sort_btn": "並べ替え",
+        "priority_label": "優先度 {idx}",
+        "killswitch_off_tips": "オフはフェイルオーバーが使用されていることを意味します。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
