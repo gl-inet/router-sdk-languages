@@ -439,7 +439,10 @@
         "vpn_client_title": "VPN-client",
         "disable_default_tunnel_confirm_tips": "Weet u zeker dat u de huidige functie wilt uitschakelen?",
         "all_other_traffic_label": "Al het andere verkeer",
-        "all_other_traffic_tips": "Bepaalt of verkeer dat niet overeenkomt met een VPN-tunnel, evenals verkeer van mislukte VPN-tunnels zonder Kill Switch ingeschakeld, toegang heeft tot het internet."
+        "all_other_traffic_tips": "Bepaalt of verkeer dat niet overeenkomt met een VPN-tunnel, evenals verkeer van mislukte VPN-tunnels zonder Kill Switch ingeschakeld, toegang heeft tot het internet.",
+        "sort_btn": "Sorteren",
+        "priority_label": "Prioriteit {idx}",
+        "killswitch_off_tips": "Uit betekent dat Failover wordt gebruikt."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
