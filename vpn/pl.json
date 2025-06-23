@@ -441,7 +441,11 @@
         "all_other_traffic_tips": "Kontroluje, czy ruch niepasujący do żadnego tunelu VPN, a także ruch z nieudanych tuneli VPN bez włączonego Kill Switch, jest dopuszczany do dostępu do Internetu.",
         "sort_btn": "Sortuj",
         "priority_label": "Priorytet {idx}",
-        "killswitch_off_tips": "Wyłączone oznacza, że używane jest przełączanie awaryjne."
+        "killswitch_off_tips": "Wyłączone oznacza, że używane jest przełączanie awaryjne.",
+        "switch_global_mode_before_tips": "Przed włączeniem trybu globalnego:",
+        "switch_global_mode_auto_clear_tips": "2. Zasady zachowanego tunelu zostaną automatycznie wyczyszczone.",
+        "switch_global_mode_only_one_tunnel_tips": "1. Zachowaj tylko jeden tunel VPN (usuń wszystkie pozostałe).",
+        "switch_global_mode_important_tips": "3.{important}: System domyślnie włączy funkcję \"{func}\" po przełączeniu."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
