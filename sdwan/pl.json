@@ -2,13 +2,13 @@
     "sdwan": {
         "no_device_tips": "Musisz dodać urządzenie do jednej z sieci wirtualnych w {cloud}, aby użyć tej funkcji.",
         "real_time_data_title": "Dane w czasie rzeczywistym",
-        "download_data_title": "Pobierane dane ruchu",
-        "real_time_data_tips": "Zawiera tylko dane urządzenia, które przeszły przez Bramę; może się to różnić od całkowitej ilości danych zgłaszanych przez dane rozliczeniowe.",
+        "download_data_title": "Pobieranie danych o ruchu",
+        "real_time_data_tips": "Zawiera tylko dane urządzenia, które przeszły przez Bramę; może się to różnić od całkowitej ilości danych zgłaszanych przez Twoje rozliczenia.",
         "nodes_title": "Topologia sieci",
         "interface_title": "Interfejsy",
-        "interface_tips": "Możesz wyłączyć konkretne interfejsy z udziału w agregacji połączenia.",
-        "upload_data_title": "Przesyłane dane ruchu",
-        "device_tips": "Zostałeś dodany do sieci wirtualnej {network}. Przejdź do {cloud}, aby zmodyfikować ustawienia.",
+        "interface_tips": "Możesz wyłączyć określone interfejsy z dołączania do tej sieci wirtualnej.",
+        "upload_data_title": "Wysyłanie danych o ruchu",
+        "device_tips": "Zostałeś dodany do sieci wirtualnej {network}. Proszę przejdź do {cloud}, aby zmodyfikować ustawienia.",
         "get_start_title": "Usługi chmurowe włączone",
         "get_start_tips": "Kliknij, aby rozpocząć korzystanie z AstroWarp!",
         "use_tips": "AstroWarp to innowacyjna platforma VPN zaprojektowana dla routerów GL.iNet, która umożliwia łatwą konfigurację węzła wyjściowego oraz łączenie wielu zdalnych urządzeń w ramach jednolitej, bezpiecznej sieci, zapewniając bezproblemowy dostęp zdalny z dowolnego miejsca.",
@@ -64,7 +64,9 @@
         "start_process_starting_tips": "Uruchamianie usługi AstroWarp...",
         "start_process_success_tips": "Sukces Konfiguracji!",
         "start_process_error_common_tips": "Połączenie nie powiodło się. Wystąpił nieznany błąd. Sprawdź swoje połączenie sieciowe lub spróbuj ponownie później. Jeśli problem będzie się powtarzał, skontaktuj się z pomocą techniczną lub prześlij opinię.",
-        "exit_network_btn": "Wyjdź z AstroWrap"
+        "exit_network_btn": "Wyjdź z AstroWrap",
+        "exit_ip_label": "Wyjście IP",
+        "exit_network_tips": "Zamknięcie spowoduje usunięcie wszystkich wcześniej dodanych klientów. Aby ponownie użyć Astrowrap, konieczne będzie ich ponowne dodanie. Czy na pewno chcesz kontynuować?"
     },
     "aw_err": {
         "not_joined_network_msg": "Nie dołączono do tej sieci."

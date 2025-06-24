@@ -107,7 +107,9 @@
         "auto_switching_tips": "Wanneer de modus voor automatisch overschakelen is ingeschakeld, worden andere opgeslagen netwerken verbonden wanneer de huidige Wi-Fi wordt verbroken.",
         "auto_switching_without_network_tips": "Wanneer de modus Automatisch overschakelen zonder netwerk is ingeschakeld, voert de router geen netwerkscanning uit wanneer deze normaal is genetwerkt in niet-repeatermodus, en schakelt alleen over naar een ander netwerk wanneer er geen netwerk is, wat communicatiepakketverlies kan voorkomen.",
         "repeater_not_auto_scan_tips": "De {mode} modus is momenteel ingeschakeld. en de router maakt succesvol verbinding met het internet in niet-repeater modus, de repeater zal niet automatisch netwerkscans uitvoeren.",
-        "portal_go_to_auth_page_tips": "Verbonden met {ssid}. Log in op de authenticatiepagina om toegang te krijgen tot het internet."
+        "portal_go_to_auth_page_tips": "Verbonden met {ssid}. Log in op de authenticatiepagina om toegang te krijgen tot het internet.",
+        "regionally_allowed_channel_tips": "Deze router kan alleen zoeken naar Wi-Fi-kanaalsignalen die zijn toegestaan in de huidige regio.",
+        "tap_icon_tips": "Tik op het pictogram om deze prompt opnieuw te openen."
     },
     "modem": {
         "title": "Mobiel",
@@ -515,7 +517,8 @@
         "sim_type_label": "SIM-kaarttype",
         "switch_to_label": "Schakel over naar {slot}",
         "vsim_switch_to_physical_tips": "U schakelt over van een virtuele SIM-kaart (vSIM) naar een fysieke SIM-kaart. U moet uw fysieke SIM-kaart in de sleuf van het apparaat plaatsen om verbinding te maken met het internet. Bevestig alstublieft dat de fysieke SIM-kaart is ingevoerd.",
-        "physical_switch_to_vsim_tips": "U schakelt over van fysieke SIM-kaart naar virtuele SIM-kaart (vSIM) van het module. U moet bevestigen dat u een databundel hebt gekocht op de simo-website (scan de QR-code op het apparaat om deze te kopen). Daarna kunt u de fysieke SIM-kaart uit het apparaat verwijderen."
+        "physical_switch_to_vsim_tips": "U schakelt over van fysieke SIM-kaart naar virtuele SIM-kaart (vSIM) van het module. U moet bevestigen dat u een databundel hebt gekocht op de simo-website (scan de QR-code op het apparaat om deze te kopen). Daarna kunt u de fysieke SIM-kaart uit het apparaat verwijderen.",
+        "modem_name_label": "Modemnaam"
     },
     "apn": {
         "enable_polling_label": "Polling inschakelen",

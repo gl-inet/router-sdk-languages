@@ -107,7 +107,9 @@
         "auto_switching_tips": "자동 전환 모드가 활성화되면 현재 Wi-Fi 연결이 끊어지면 다른 저장된 네트워크에 연결됩니다.",
         "auto_switching_without_network_tips": "네트워크 없이 자동 전환 모드가 활성화되면, 라우터는 비-리피터 모드에서 정상적으로 네트워크에 연결되어 있을 때 네트워크 스캔을 수행하지 않으며, 네트워크가 없을 때만 네트워크를 전환하여 통신 패킷 손실을 방지할 수 있습니다.",
         "repeater_not_auto_scan_tips": "현재 {mode} 모드가 활성화되어 있습니다. 라우터가 비반복기 모드에서 인터넷에 성공적으로 연결되면, 반복기는 자동으로 네트워크 스캔을 수행하지 않습니다.",
-        "portal_go_to_auth_page_tips": "{ssid}에 연결되었습니다. 인터넷 접속을 위해 인증 페이지에서 로그인해 주세요."
+        "portal_go_to_auth_page_tips": "{ssid}에 연결되었습니다. 인터넷 접속을 위해 인증 페이지에서 로그인해 주세요.",
+        "regionally_allowed_channel_tips": "이 라우터는 현재 지역에서 허용된 Wi-Fi 채널 신호만 검색할 수 있습니다.",
+        "tap_icon_tips": "아이콘을 탭하여 이 프롬프트를 다시 엽니다."
     },
     "modem": {
         "title": "셀룰러",
@@ -515,7 +517,8 @@
         "sim_type_label": "SIM 카드 유형",
         "switch_to_label": "{slot}로 전환",
         "vsim_switch_to_physical_tips": "가상 SIM 카드(vSIM)에서 물리적 SIM 카드로 전환하게 됩니다. 인터넷에 연결하려면 물리적 SIM 카드를 기기 슬롯에 삽입해야 합니다. 물리적 SIM 카드가 삽입되었는지 확인해 주십시오.",
-        "physical_switch_to_vsim_tips": "모듈의 물리적 SIM 카드에서 가상 SIM 카드(vSIM)로 전환하게 됩니다. simo 웹사이트에서 데이터 플랜을 구매하였는지 확인해야 합니다(장치에 있는 QR 코드를 스캔하여 구매하세요). 그런 다음 장치에서 물리적 SIM 카드를 제거할 수 있습니다."
+        "physical_switch_to_vsim_tips": "모듈의 물리적 SIM 카드에서 가상 SIM 카드(vSIM)로 전환하게 됩니다. simo 웹사이트에서 데이터 플랜을 구매하였는지 확인해야 합니다(장치에 있는 QR 코드를 스캔하여 구매하세요). 그런 다음 장치에서 물리적 SIM 카드를 제거할 수 있습니다.",
+        "modem_name_label": "모뎀 이름"
     },
     "apn": {
         "enable_polling_label": "폴링 활성화",

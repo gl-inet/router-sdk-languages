@@ -107,7 +107,9 @@
         "auto_switching_tips": "Quando la modalità di commutazione automatica è attivata, verranno connessi altri network salvati quando l'attuale Wi-Fi si disconnette.",
         "auto_switching_without_network_tips": "Quando è attivata la modalità di commutazione automatica senza rete, il router non esegue la scansione della rete quando è connesso normalmente in modalità non ripetitore e cambia rete solo in assenza di connessione, il che può evitare la perdita di pacchetti di comunicazione.",
         "repeater_not_auto_scan_tips": "La modalità {mode} è attualmente abilitata e il router si connette con successo a Internet in modalità non ripetitore, il ripetitore non eseguirà automaticamente la scansione della rete.",
-        "portal_go_to_auth_page_tips": "Connesso a {ssid}. Effettua l'accesso nella pagina di Autenticazione per accedere a internet."
+        "portal_go_to_auth_page_tips": "Connesso a {ssid}. Effettua l'accesso nella pagina di Autenticazione per accedere a internet.",
+        "regionally_allowed_channel_tips": "Questo router può solo cercare i segnali del canale Wi-Fi consentiti dalla regione corrente.",
+        "tap_icon_tips": "Tocca l'icona per riaprire questo prompt."
     },
     "modem": {
         "title": "Cellulare",
@@ -515,7 +517,8 @@
         "vsim_switch_to_physical_tips": "Passerai da una scheda SIM virtuale (vSIM) a una scheda SIM fisica. Dovrai inserire la tua scheda SIM fisica nello slot del dispositivo per connetterti a Internet. Si prega di confermare che la scheda SIM fisica sia stata inserita.",
         "sim_type_label": "Tipo di SIM Card",
         "switch_to_label": "Passa allo {slot}",
-        "physical_switch_to_vsim_tips": "Passerete dalla scheda SIM fisica alla scheda SIM virtuale (vSIM) del modulo. Dovrete confermare di aver acquistato un piano dati sul sito web simo (scansionate il codice QR sul dispositivo per acquistarlo). Potrete quindi rimuovere la scheda SIM fisica dal dispositivo."
+        "physical_switch_to_vsim_tips": "Passerete dalla scheda SIM fisica alla scheda SIM virtuale (vSIM) del modulo. Dovrete confermare di aver acquistato un piano dati sul sito web simo (scansionate il codice QR sul dispositivo per acquistarlo). Potrete quindi rimuovere la scheda SIM fisica dal dispositivo.",
+        "modem_name_label": "Nome del Modem"
     },
     "apn": {
         "enable_polling_label": "Abilita il polling",

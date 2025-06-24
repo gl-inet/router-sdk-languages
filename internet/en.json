@@ -107,7 +107,9 @@
         "no_switching_tips": "When No Switching mode is enabled, other saved networks will not be automatically connected when the current Wi-Fi is disconnected.",
         "auto_switching_tips": "When Auto Switching mode is enabled, the router will try to connect to other saved networks when the current Wi-Fi is disconnected.",
         "repeater_not_auto_scan_tips": "The {mode} mode is currently enabled. and the router successfully connects to the internet in non-repeater mode, the repeater will not automatically perform network scanning.",
-        "portal_go_to_auth_page_tips": "Connected to {ssid}. Please log in on the Authentication page to access the internet."
+        "portal_go_to_auth_page_tips": "Connected to {ssid}. Please log in on the Authentication page to access the internet.",
+        "regionally_allowed_channel_tips": "This router can only search for Wi-Fi channel signals allowed by the current region.",
+        "tap_icon_tips": "Tap the icon to reopen this prompt."
     },
     "modem": {
         "title": "Cellular",
@@ -515,7 +517,8 @@
         "switch_to_label": "Switch to {slot}",
         "vsim_switch_to_physical_tips": "You will switch from a virtual SIM card(vSIM) to physical SIM card. You will need to insert your physical SIM card into the device slot to connect to the Internet. Please confirm that the physical SIM card has been inserted.",
         "sim_type_label": "SIM Card Type",
-        "physical_switch_to_vsim_tips": "You will switch from physical SIM card to virtual SIM card(vSIM) of the module. You will need to confirm that you have purchased a data plan on the simo website(Scan the QR code on the device to purchase it). You can then remove the physical SIM card from the device."
+        "physical_switch_to_vsim_tips": "You will switch from physical SIM card to virtual SIM card(vSIM) of the module. You will need to confirm that you have purchased a data plan on the simo website(Scan the QR code on the device to purchase it). You can then remove the physical SIM card from the device.",
+        "modem_name_label": "Modem Name"
     },
     "apn": {
         "enable_polling_tips": "If the device is using a Verizon SIM card and this feature is enabled, the device will continuously poll the APN for up to 12 minutes after reboot until the network connection is normal. This feature is only valid for Verizon SIM cards.",

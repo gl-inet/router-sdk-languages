@@ -29,7 +29,7 @@
         "use_as_internet_exit_tips": "Šis maršrutizatorius buvo nustatytas kaip interneto išėjimas.",
         "use_internet_exit_label": "Naudoti interneto išėjimą",
         "more_operation_tips": "Visi klientai ir maršrutizatoriai, naudojantys interneto išėjimo prieigą, pasiekia internetą per šį maršrutizatorių. Jei reikia keisti konfigūraciją, prašome prisijungti prie {page}.",
-        "share_use_internet_exit_label": "Naudoti interneto išėjimą",
+        "share_use_internet_exit_label": "Naudoti interneto išėjimą:",
         "to_download_app_btn": "Spustelėkite čia, kad atsisiųstumėte programėlę",
         "qrcode_use_tips": "Naudokite programėlę, kad nuskaitytumėte QR kodą arba įvestumėte „URL – Saitas“, kad pasiektumėte maršrutizatorių ir naudotumėte jam priklausantį interneto išėjimą.",
         "share_more_operation_tips": "Naudodami daugiau nustatymų, prašome prisijungti {page}.",
@@ -64,7 +64,9 @@
         "start_process_success_tips": "Sėkmingai nustatyta!",
         "start_process_error_common_tips": "Prisijungti nepavyko. Įvyko nežinoma klaida. Patikrinkite savo tinklą arba bandykite vėliau. Jei problema išlieka, susisiekite su palaikymo tarnyba arba pateikite atsiliepimą.",
         "start_process_checking_tips": "Tikrinama tinklo būsena...",
-        "exit_network_btn": "Išeiti iš AstroWrap"
+        "exit_network_btn": "Išeiti iš AstroWrap",
+        "exit_ip_label": "Išeigos IP",
+        "exit_network_tips": "Išėjimas pašalins visus anksčiau pridėtus klientus. Norint vėl naudoti Astrowrap, juos reikės iš naujo pridėti. Ar tikrai norite tęsti?"
     },
     "aw_err": {
         "not_joined_network_msg": "Neprisijungta prie šio tinklo."

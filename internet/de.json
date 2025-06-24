@@ -107,7 +107,9 @@
         "auto_switching_without_network": "Automatisches Umschalten ohne Netzwerk",
         "auto_switching_tips": "Wenn der Automatische Wechselmodus aktiviert ist, werden andere gespeicherte Netzwerke verbunden, wenn das aktuelle WLAN getrennt wird.",
         "repeater_not_auto_scan_tips": "Der {mode}-Modus ist derzeit aktiviert. und der Router verbindet sich erfolgreich mit dem Internet im Nicht-Repeater-Modus, der Repeater führt keine automatische Netzwerksuche durch.",
-        "portal_go_to_auth_page_tips": "Mit {ssid} verbunden. Bitte melden Sie sich auf der Authentifizierungsseite an, um auf das Internet zuzugreifen."
+        "portal_go_to_auth_page_tips": "Mit {ssid} verbunden. Bitte melden Sie sich auf der Authentifizierungsseite an, um auf das Internet zuzugreifen.",
+        "regionally_allowed_channel_tips": "Dieser Router kann nur nach WLAN-Kanalsignalen suchen, die in der aktuellen Region zulässig sind.",
+        "tap_icon_tips": "Tippen Sie auf das Symbol, um diese Eingabeaufforderung erneut zu öffnen."
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -515,7 +517,8 @@
         "switch_to_label": "Wechseln zu {slot}",
         "vsim_switch_to_physical_tips": "Sie wechseln von einer virtuellen SIM-Karte (vSIM) zu einer physischen SIM-Karte. Sie müssen Ihre physische SIM-Karte in den Geräteschacht einlegen, um eine Verbindung zum Internet herzustellen. Bitte bestätigen Sie, dass die physische SIM-Karte eingelegt wurde.",
         "sim_type_label": "SIM-Kartentyp",
-        "physical_switch_to_vsim_tips": "Sie wechseln von der physischen SIM-Karte zur virtuellen SIM-Karte (vSIM) des Moduls. Sie müssen bestätigen, dass Sie einen Datentarif auf der simo-Website erworben haben (Scannen Sie den QR-Code auf dem Gerät, um ihn zu erwerben). Anschließend können Sie die physische SIM-Karte aus dem Gerät entfernen."
+        "physical_switch_to_vsim_tips": "Sie wechseln von der physischen SIM-Karte zur virtuellen SIM-Karte (vSIM) des Moduls. Sie müssen bestätigen, dass Sie einen Datentarif auf der simo-Website erworben haben (Scannen Sie den QR-Code auf dem Gerät, um ihn zu erwerben). Anschließend können Sie die physische SIM-Karte aus dem Gerät entfernen.",
+        "modem_name_label": "Modem-Name"
     },
     "apn": {
         "enable_polling_tips": "Falls das Gerät eine Verizon-SIM-Karte verwendet und diese Funktion aktiviert ist, wird das Gerät nach einem Neustart bis zu 12 Minuten lang kontinuierlich das APN abfragen, bis die Netzwerkverbindung normal ist. Diese Funktion gilt nur für Verizon-SIM-Karten.",
