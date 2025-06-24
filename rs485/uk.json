@@ -17,7 +17,7 @@
         "tcps_running_tips": "TCP-сервер працює.",
         "tcpc_connected_tips": "TCP-клієнт підключений.",
         "mqtt_connected_tips": "MQTT підключено.",
-        "mqtt_connecting_tips": "MQTT з'єднується...",
+        "mqtt_connecting_tips": "MQTT підключається...",
         "target_client_label": "Цільовий клієнт",
         "target_addr_label": "Цільова адреса",
         "starting_data_addr_label": "Початкова адреса даних",
@@ -44,13 +44,13 @@
         "server_addr_label": "Адреса сервера",
         "server_port_label": "Порт сервера",
         "local_port_label": "Локальний порт",
-        "ca_cert_label": "Сертифікат CA",
-        "client_cert_label": "Сертифікат клієнта",
+        "ca_cert_label": "Сертифікат ЦС",
+        "client_cert_label": "Клієнтський сертифікат",
         "client_key_label": "Приватний ключ клієнта",
         "password_key_label": "Пароль ключа",
         "command_tips": "Шлюз підпишеться на тему для отримання команд керування, відправлених платформою.",
-        "response_label": "Шлюз підпишеться на тему для отримання команд керування, що видаються платформою.",
-        "response_tips": "Шлюз використовуватиме тему для відправлення результату прийому або виконання команди у відповідь на керування.",
+        "response_label": "Відповідь",
+        "response_tips": "Шлюз використовуватиме тему для надсилання результату прийому або виконання команди у відповідь на керування.",
         "tcps_starting_tips": "TCP-сервер запускається...",
         "tcpc_connecting_tips": "TCP-клієнт підключається...",
         "udp_running_tips": "UDP працює.",
@@ -58,6 +58,6 @@
         "target_port_label": "Цільовий порт",
         "write_status_label": "Статус запису",
         "write_data_label": "Дані для запису",
-        "device_busy_msg": "Початкова адреса даних"
+        "device_busy_msg": "{code}, серійний номер, встановлений на серійному порту, зайнятий."
     }
 }
