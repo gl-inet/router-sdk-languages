@@ -437,7 +437,7 @@
         "all_other_traffic_tips": "控制是否允许未匹配任何VPN隧道的流量，以及未启用Kill Switch的故障VPN隧道流量访问互联网。",
         "sort_btn": "排序",
         "priority_label": "优先级 {idx}",
-        "killswitch_off_tips": "关闭表示使用故障转移。",
+        "killswitch_off_tips": "关闭表示使用 Failover (故障转移)。",
         "switch_global_mode_before_tips": "在启用全局模式前：",
         "switch_global_mode_auto_clear_tips": "2. 保留隧道的策略将被自动清除。",
         "switch_global_mode_only_one_tunnel_tips": "1. 仅保留一条VPN隧道（删除其他所有隧道）。",
