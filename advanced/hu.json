@@ -18,6 +18,11 @@
         "out_of_memory_tips": "Nincs elég hely a telepítéshez.",
         "uninsatlling_tips": "Eltávolítás folyamatban...",
         "need_uninstall_tips": "Ha nem szükséges, akkor {do}.",
-        "uninstall_luci_btn": "LuCI eltávolítása"
+        "uninstall_luci_btn": "LuCI eltávolítása",
+        "uninstall_done_tips": "Eltávolítás befejezve",
+        "uninstall_wraning_tips": "Biztosan eltávolítja a LuCI-t?",
+        "uninstall_wraning_remove_dep_tips": "Ez eltávolítja a LuCI-t és az összes kapcsolódó függőséget.",
+        "uninstall_btn": "Eltávolítás",
+        "uninstall_done_desc": "Bármikor újratelepítheti."
     }
 }
