@@ -18,6 +18,11 @@
         "out_of_memory_tips": "Spazio insufficiente per l'installazione.",
         "uninsatlling_tips": "Disinstallazione in corso...",
         "need_uninstall_tips": "Se non ne hai bisogno, puoi {do}.",
-        "uninstall_luci_btn": "Disinstalla LuCI"
+        "uninstall_luci_btn": "Disinstalla LuCI",
+        "uninstall_done_tips": "Disinstallazione completata",
+        "uninstall_wraning_tips": "Sei sicuro di voler disinstallare LuCI?",
+        "uninstall_wraning_remove_dep_tips": "Questo rimuoverà LuCI e tutte le dipendenze correlate.",
+        "uninstall_btn": "Disinstalla",
+        "uninstall_done_desc": "Puoi reinstallarlo in qualsiasi momento."
     }
 }
