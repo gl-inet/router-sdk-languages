@@ -18,6 +18,11 @@
         "out_of_memory_tips": "Недостаточно места для установки.",
         "uninsatlling_tips": "Удаление...",
         "need_uninstall_tips": "Если вам это не нужно, вы можете {do}.",
-        "uninstall_luci_btn": "Удалить LuCI"
+        "uninstall_luci_btn": "Удалить LuCI",
+        "uninstall_wraning_tips": "Вы уверены, что хотите удалить LuCI?",
+        "uninstall_wraning_remove_dep_tips": "Это приведёт к удалению LuCI и всех связанных зависимостей.",
+        "uninstall_btn": "Удалить",
+        "uninstall_done_tips": "Удаление завершено",
+        "uninstall_done_desc": "Вы можете переустановить его в любое время."
     }
 }
