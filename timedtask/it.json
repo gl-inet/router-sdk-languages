@@ -21,5 +21,19 @@
         "led_title": "Schedulazione del Display LED",
         "lcd_title": "Programmazione Display LCD"
     },
-    "menu_timedtask": "Attività Schedulate"
+    "menu_timedtask": "Attività Schedulate",
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Commuta Potenza di Trasmissione",
+        "off_on_label": "{offTime} Spento, {onTime} Acceso",
+        "schedule_settings_title": "Impostazioni di Programmazione",
+        "add_schedule_title": "Aggiungi pianificazione",
+        "set_schedule_title": "Modifica Programma",
+        "off_common_title": "{label} Disattivato",
+        "schedule_title": "Programmazione Wi-Fi",
+        "off_time_info_tip": "Wi-Fi Disattivato: {start} - {end}",
+        "off_time_label": "Tempo di spegnimento Wi-Fi",
+        "on_time_label": "Wi-Fi a Orario",
+        "on_off_task_enabled_tips": "La pianificazione Wi-Fi per {label} è abilitata. Gestisci gli orari in {page}.",
+        "main_and_guest_wifi_label": "Wi-Fi principale e Guest"
+    }
 }

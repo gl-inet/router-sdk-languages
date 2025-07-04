@@ -163,7 +163,8 @@
         "limit_tips": "Dane nie mogą przekraczać {count} wpisów.",
         "lost_account_btn": "Utracone konto?",
         "forget_password_btn": "Zapomniałeś hasła?",
-        "usb_power_limit_tips": "(Proszę upewnić się, że napięcie zasilania przekracza {power})"
+        "usb_power_limit_tips": "(Proszę upewnić się, że napięcie zasilania przekracza {power})",
+        "current_time_label": "Aktualny czas"
     },
     "internet": {
         "guest_ip_tips": "Konflikt podsieci gościa z podsiecią WAN. Proszę $$$$zmienić podsieć gościa$$$$ na inny adres.",
@@ -236,7 +237,10 @@
         "year": "{count} Rok | {count} Lat",
         "day_var": "Dzień {count}",
         "am": "AM",
-        "pm": "Po Południu"
+        "pm": "Po Południu",
+        "weekend": "Weekend",
+        "weekdays": "Dni tygodnia",
+        "every_day": "Codziennie"
     },
     "err": {
         "abnormal_operation_msg": "Wyjątek operacyjny",

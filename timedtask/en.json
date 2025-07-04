@@ -21,5 +21,19 @@
         "led_title": "LED Display Schedule",
         "wifi_title": "$$$$ Wi-Fi Status Schedule",
         "lcd_title": "LCD Display Schedule"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Switch Tx Power",
+        "off_on_label": "{offTime} Off, {onTime} On",
+        "schedule_settings_title": "Schedule Settings",
+        "add_schedule_title": "Add Schedule",
+        "set_schedule_title": "Modify Schedule",
+        "off_common_title": "{label} Off",
+        "on_time_label": "Wi-Fi On Time",
+        "off_time_info_tip": "Wi-Fi Off: {start} - {end}",
+        "schedule_title": "Wi-Fi Schedule",
+        "off_time_label": "Wi-Fi Off Time",
+        "on_off_task_enabled_tips": "Wi-Fi scheduling for {label} is enabled. Manage schedules in {page}.",
+        "main_and_guest_wifi_label": "Main and Guest Wi-Fi"
     }
 }

@@ -15,6 +15,14 @@
         "install_fail_tips": "Échec de l'installation",
         "re_install_btn": "Réinstaller",
         "check_network_tips": "Veuillez vérifier votre connexion réseau.",
-        "out_of_memory_tips": "Il n'y a pas assez d'espace pour l'installation."
+        "out_of_memory_tips": "Il n'y a pas assez d'espace pour l'installation.",
+        "uninsatlling_tips": "Désinstallation en cours...",
+        "uninstall_luci_btn": "Désinstaller LuCI",
+        "need_uninstall_tips": "Si vous n'en avez pas besoin, vous pouvez {do}.",
+        "uninstall_wraning_tips": "Êtes-vous sûr de vouloir désinstaller LuCI ?",
+        "uninstall_wraning_remove_dep_tips": "Cela supprimera LuCI et toutes les dépendances associées.",
+        "uninstall_btn": "Désinstaller",
+        "uninstall_done_desc": "Vous pouvez le réinstaller à tout moment.",
+        "uninstall_done_tips": "Désinstallation terminée"
     }
 }

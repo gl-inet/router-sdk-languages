@@ -15,6 +15,14 @@
         "install_fail_tips": "Installation failed",
         "check_network_tips": "Please check your network connection.",
         "re_install_btn": "Reinstall",
-        "out_of_memory_tips": "There is not enough space to install."
+        "out_of_memory_tips": "There is not enough space to install.",
+        "uninsatlling_tips": "Uninstalling...",
+        "uninstall_luci_btn": "Uninstall LuCI",
+        "need_uninstall_tips": "If you don't need it, you can {do}.",
+        "uninstall_btn": "Uninstall",
+        "uninstall_done_tips": "Uninstallation Complete",
+        "uninstall_wraning_tips": "Are you sure you want to uninstall LuCI?",
+        "uninstall_wraning_remove_dep_tips": "This will remove LuCI and all related dependencies.",
+        "uninstall_done_desc": "You can reinstall it anytime."
     }
 }

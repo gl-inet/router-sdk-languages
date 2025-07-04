@@ -21,5 +21,19 @@
         "led_title": "LED 표시 일정",
         "wifi_title": "$$$$ Wi-Fi 상태 예약",
         "lcd_title": "LCD 디스플레이 일정"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi 전송 전력 스위치",
+        "schedule_settings_title": "일정 설정",
+        "off_on_label": "{offTime} 꺼짐, {onTime} 켜짐",
+        "add_schedule_title": "일정 추가",
+        "set_schedule_title": "일정 수정",
+        "off_common_title": "{label} 끄기",
+        "on_time_label": "Wi-Fi 예약 설정",
+        "schedule_title": "Wi-Fi 스케줄",
+        "off_time_info_tip": "Wi-Fi 끄기: {start} - {end}",
+        "off_time_label": "Wi-Fi 종료 시간",
+        "on_off_task_enabled_tips": "{label}의 Wi-Fi 스케줄링이 활성화되었습니다. {page}에서 스케줄을 관리하세요.",
+        "main_and_guest_wifi_label": "메인 및 게스트 Wi-Fi"
     }
 }

@@ -21,5 +21,19 @@
         "restore_label": "Установить в",
         "led_title": "Расписание работы индикаторов",
         "lcd_title": "График работы LCD-дисплея"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Переключатель мощности передачи беспроводной сети",
+        "schedule_settings_title": "Настройки расписания",
+        "off_on_label": "{offTime} Выкл, {onTime} Вкл",
+        "add_schedule_title": "Добавить расписание",
+        "set_schedule_title": "Изменить расписание",
+        "off_common_title": "{label} Выкл.",
+        "on_time_label": "Беспроводной сети Время включения",
+        "schedule_title": "Расписание беспроводной сети",
+        "off_time_info_tip": "Wi-Fi выключен: {start} - {end}",
+        "off_time_label": "Беспроводной сети Время выключения",
+        "on_off_task_enabled_tips": "Расписание работы беспроводной сети для {label} включено. Управление расписанием доступно на странице {page}.",
+        "main_and_guest_wifi_label": "Основная и гостевая беспроводная сети"
     }
 }

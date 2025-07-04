@@ -216,7 +216,10 @@
         "year": "{count} év | {count} év",
         "month_list": "január|február|március|április|május|június|július|augusztus|szeptember|október|november|december",
         "am": "DE",
-        "pm": "DU"
+        "pm": "DU",
+        "weekend": "Hétvége",
+        "weekdays": "Hétköznapok",
+        "every_day": "Minden nap"
     },
     "upload": {
         "select_or_drag": "Vontassa ide a fájlt vagy kattintson a kiválasztáshoz",
@@ -236,7 +239,8 @@
         "no_internet_base_tips": "Kérem, ellenőrizze az internetkapcsolatot, majd próbálja meg ismét!",
         "forget_password_btn": "Elfelejtett jelszó?",
         "lost_account_btn": "Elveszett fiók?",
-        "usb_power_limit_tips": "(Kérjük, győződjön meg arról, hogy a tápfeszültség meghaladja a {power} értéket)"
+        "usb_power_limit_tips": "(Kérjük, győződjön meg arról, hogy a tápfeszültség meghaladja a {power} értéket)",
+        "current_time_label": "Jelenlegi idő"
     },
     "err": {
         "network_not_reachable_msg": "Hálózat nem elérhető",

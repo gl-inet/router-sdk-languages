@@ -167,7 +167,10 @@
         "day_var": "Día {count}",
         "year": "{count} año | {count} años",
         "am": "AM",
-        "pm": "PM"
+        "pm": "PM",
+        "weekend": "Fin de semana",
+        "weekdays": "Días de la semana",
+        "every_day": "Todos los días"
     },
     "internet": {
         "lan_ip_tips": "La subred de LAN está en conflicto con la subred de WAN, por favor $$$$Cambie la subred de LAN$$$$ a una dirección diferente.",
@@ -236,7 +239,8 @@
         "no_internet_base_tips": "Por favor, verifique su entorno de internet y vuelva a intentarlo.",
         "lost_account_btn": "¿Has perdido tu cuenta?",
         "forget_password_btn": "¿Olvidó su contraseña?",
-        "usb_power_limit_tips": "(Asegúrese de que el voltaje de la fuente de alimentación supere {power})"
+        "usb_power_limit_tips": "(Asegúrese de que el voltaje de la fuente de alimentación supere {power})",
+        "current_time_label": "Hora actual"
     },
     "err": {
         "network_not_reachable_msg": "La red no es alcanzable",

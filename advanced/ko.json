@@ -15,6 +15,14 @@
         "install_fail_tips": "설치 실패",
         "check_network_tips": "네트워크 연결을 확인해 주세요.",
         "re_install_btn": "재설치",
-        "out_of_memory_tips": "설치할 공간이 부족합니다."
+        "out_of_memory_tips": "설치할 공간이 부족합니다.",
+        "uninsatlling_tips": "제거 중...",
+        "need_uninstall_tips": "필요하지 않다면 {do}할 수 있습니다.",
+        "uninstall_luci_btn": "LuCI 제거",
+        "uninstall_wraning_tips": "LuCI을 제거하시겠습니까?",
+        "uninstall_wraning_remove_dep_tips": "이 작업은 LuCI 및 관련된 모든 종속성을 제거합니다.",
+        "uninstall_btn": "제거",
+        "uninstall_done_tips": "제거 완료",
+        "uninstall_done_desc": "언제든지 다시 설치할 수 있습니다."
     }
 }

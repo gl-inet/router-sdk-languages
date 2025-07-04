@@ -216,7 +216,10 @@
         "month_list": "1月|2月|3月|4月|5月|6月|7月|8月|9月|10月|11月|12月",
         "quarter": "四半期",
         "am": "AM",
-        "pm": "PM"
+        "pm": "PM",
+        "weekend": "週末",
+        "weekdays": "平日",
+        "every_day": "毎日"
     },
     "upload": {
         "select_or_drag": "アップロードするファイルを選択するか、こちらにドラッグしてください",
@@ -236,7 +239,8 @@
         "limit_tips": "データは{count}エントリーを超えてはなりません。",
         "lost_account_btn": "アカウントが見つかりませんか？",
         "forget_password_btn": "パスワードを忘れましたか？",
-        "usb_power_limit_tips": "（供給電圧が{power}を超えていることを確認してください）"
+        "usb_power_limit_tips": "（供給電圧が{power}を超えていることを確認してください）",
+        "current_time_label": "現在時刻"
     },
     "err": {
         "network_not_reachable_msg": "ネットワークに到達できません",

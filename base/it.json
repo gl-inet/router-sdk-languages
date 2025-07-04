@@ -167,7 +167,10 @@
         "day_var": "Giorno {count}",
         "month_list": "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre",
         "am": "AM",
-        "pm": "PM"
+        "pm": "PM",
+        "weekend": "Fine settimana",
+        "weekdays": "Giorni feriali",
+        "every_day": "Ogni giorno"
     },
     "internet": {
         "lan_ip_tips": "La sottorete LAN è in conflitto con la sottorete WAN, si prega di $$$$ modificare la sottorete LAN$$$$ con un altro indirizzo.",
@@ -236,7 +239,8 @@
         "feature_unusable_tips": "Questa funzionalità non funziona perché {feature} è attivato.",
         "lost_account_btn": "Hai perso l'account?",
         "forget_password_btn": "Hai dimenticato la password?",
-        "usb_power_limit_tips": "(Assicurarsi che la tensione di alimentazione superi {power})"
+        "usb_power_limit_tips": "(Assicurarsi che la tensione di alimentazione superi {power})",
+        "current_time_label": "Ora corrente"
     },
     "subscription": {
         "url_label": "URL di sottoscrizione",

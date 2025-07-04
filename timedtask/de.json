@@ -21,5 +21,19 @@
         "wifi_mode_label": "WLAN-Option",
         "wifi_turn_onoff_label": "Einschalten / Ausschalten",
         "lcd_title": "LCD-Anzeigeplan"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} WLAN Sendeleistung umschalten",
+        "off_on_label": "{offTime} Aus, {onTime} An",
+        "schedule_settings_title": "Zeitplaneinstellungen",
+        "add_schedule_title": "Zeitplan hinzufügen",
+        "set_schedule_title": "Zeitplan ändern",
+        "off_common_title": "{label} Aus",
+        "on_time_label": "WLAN-Zeitplan",
+        "off_time_info_tip": "WLAN Aus: {start} - {end}",
+        "schedule_title": "WLAN-Zeitplan",
+        "off_time_label": "WLAN-Ausschaltzeit",
+        "on_off_task_enabled_tips": "Die WLAN-Zeitplanung für {label} ist aktiviert. Verwalten Sie Zeitpläne in {page}.",
+        "main_and_guest_wifi_label": "Haupt- und Gast-WLAN"
     }
 }

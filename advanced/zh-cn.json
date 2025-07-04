@@ -15,6 +15,14 @@
         "install_fail_tips": "安装失败",
         "check_network_tips": "请检查您的网络连接。",
         "re_install_btn": "重新安装",
-        "out_of_memory_tips": "空间不足，无法安装。"
+        "out_of_memory_tips": "空间不足，无法安装。",
+        "uninsatlling_tips": "卸载中...",
+        "need_uninstall_tips": "如果不需要，您可以{do}。",
+        "uninstall_luci_btn": "卸载LuCI",
+        "uninstall_wraning_tips": "您确定要卸载LuCI吗？",
+        "uninstall_wraning_remove_dep_tips": "此操作将移除LuCI及其所有相关依赖项。",
+        "uninstall_btn": "卸载",
+        "uninstall_done_tips": "卸载完成",
+        "uninstall_done_desc": "您随时可以重新安装。"
     }
 }

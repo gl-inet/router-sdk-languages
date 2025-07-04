@@ -21,5 +21,19 @@
         "led_title": "定時切換 LED 開關",
         "lcd_title": "定時切換 LCD 開關"
     },
-    "menu_timedtask": "計劃任務"
+    "menu_timedtask": "計劃任務",
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi 切換發射功率",
+        "schedule_settings_title": "排程設定",
+        "off_on_label": "{offTime} 關閉, {onTime} 開啟",
+        "add_schedule_title": "添加排程",
+        "set_schedule_title": "修改排程",
+        "off_common_title": "{label} 關閉",
+        "on_time_label": "Wi-Fi 開啟時間",
+        "schedule_title": "Wi-Fi排程",
+        "off_time_info_tip": "Wi-Fi 關閉時間：{start} - {end}",
+        "off_time_label": "Wi-Fi 關閉時間",
+        "on_off_task_enabled_tips": "{label}的Wi-Fi排程已啟用。請至{page}管理排程。",
+        "main_and_guest_wifi_label": "主Wi-Fi與訪客Wi-Fi"
+    }
 }

@@ -21,7 +21,10 @@
         "week": "{count} тиждень | {count} тижнів",
         "year": "{count} рік | {count} років",
         "am": "AM",
-        "pm": "PM"
+        "pm": "PM",
+        "weekend": "Вихідні",
+        "weekdays": "Будні дні",
+        "every_day": "Щодня"
     },
     "internet": {
         "connected": "Підключено",
@@ -90,7 +93,8 @@
         "no_internet_base_tips": "Будь ласка, перевірте ваше інтернет-з'єднання та спробуйте ще раз.",
         "forget_password_btn": "Забули пароль?",
         "lost_account_btn": "Втратили обліковий запис?",
-        "usb_power_limit_tips": "(Будь ласка, переконайтеся, що напруга живлення перевищує {power})"
+        "usb_power_limit_tips": "(Будь ласка, переконайтеся, що напруга живлення перевищує {power})",
+        "current_time_label": "Поточний час"
     },
     "core": {
         "netmask": "Маска підмережі",

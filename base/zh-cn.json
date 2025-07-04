@@ -167,7 +167,10 @@
         "month_list": "一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月",
         "day_var": "第{count}天",
         "am": "上午",
-        "pm": "下午"
+        "pm": "下午",
+        "weekend": "周末",
+        "weekdays": "工作日",
+        "every_day": "每天"
     },
     "internet": {
         "connected": "已连接",
@@ -236,7 +239,8 @@
         "no_internet_base_tips": "请您检查网络环境后重试。",
         "forget_password_btn": "忘记密码？",
         "lost_account_btn": "丢失账户？",
-        "usb_power_limit_tips": "（请确保使用{power}以上电源）"
+        "usb_power_limit_tips": "（请确保使用{power}以上电源）",
+        "current_time_label": "当前时间"
     },
     "err": {
         "abnormal_operation_msg": "操作异常",

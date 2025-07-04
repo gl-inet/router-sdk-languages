@@ -21,5 +21,19 @@
         "led_title": "LED-tijdsschema",
         "wifi_title": "$$$$ Wi-Fi-statusschema",
         "lcd_title": "LCD-weergaveplanning"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Tx-vermogen schakelen",
+        "schedule_settings_title": "Schema-instellingen",
+        "off_on_label": "{offTime} Uit, {onTime} Aan",
+        "add_schedule_title": "Schema toevoegen",
+        "set_schedule_title": "Schema aanpassen",
+        "off_common_title": "{label} Uit",
+        "on_time_label": "Wi-Fi Aan-tijd",
+        "schedule_title": "Wi-Fi Schema",
+        "off_time_info_tip": "Wi-Fi Uit: {start} - {end}",
+        "off_time_label": "Wi-Fi Uit-tijd",
+        "on_off_task_enabled_tips": "Wi-Fi-planning voor {label} is ingeschakeld. Beheer schema's in {page}.",
+        "main_and_guest_wifi_label": "Hoofd- en gast-Wi-Fi"
     }
 }

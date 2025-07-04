@@ -21,5 +21,19 @@
         "led_title": "Affichage LED de l'horraire",
         "wifi_title": "Plages horraires du réseau WiFi $$$$",
         "lcd_title": "Programmation de l'affichage LCD"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Switch Tx Power",
+        "off_on_label": "{offTime} Désactivé, {onTime} Activé",
+        "schedule_settings_title": "Paramètres de planification",
+        "add_schedule_title": "Ajouter un planning",
+        "set_schedule_title": "Modifier le planning",
+        "off_common_title": "{label} Désactivé",
+        "on_time_label": "Wi-Fi à heure programmée",
+        "schedule_title": "Planification Wi-Fi",
+        "off_time_info_tip": "Wi-Fi désactivé : {start} - {end}",
+        "off_time_label": "Heure d'arrêt du Wi-Fi",
+        "on_off_task_enabled_tips": "La planification Wi-Fi pour {label} est activée. Gérez les plannings dans {page}.",
+        "main_and_guest_wifi_label": "Wi-Fi principal et invité"
     }
 }
