@@ -4,7 +4,7 @@
         "need_mandate_tips": "Bu cihaz bir Tailscale hesabına bağlı, ancak henüz ağa erişim için yetkilendirilmemiş. Lütfen cihazın sanal ağınıza bağlanmasını yetkilendirmek için $$$$Tailscale Admin Console$$$$'a gidin. Bu sizin hesabınız değilse, lütfen önce bağlantıyı kaldırın.",
         "enable_lan_tips": "Cihaz, Tailscale istemcilerinin LAN veya WAN'daki kaynaklara erişmesine zaten izin veriyor. Ancak, istemci isteklerinin Tailscale sanal ağı üzerinden cihaza iletilmesi için $$$$Tailscale Admin Console$$$$'da rota ayarlarını düzenlemeniz gerekiyor.",
         "desc": "$$$$Tailscale$$$$, sahip olduğunuz cihazlara dünyanın her yerinden güvenli ve zahmetsiz bir şekilde erişmenizi sağlar. Şifreli noktadan noktaya bağlantılar sunar, bu da yalnızca özel ağınızdaki cihazların birbirleriyle iletişim kurabileceği anlamına gelir. Cihazlarınıza veya LAN'a uzaktan erişmek için kullanabilirsiniz.",
-        "custom_exit_node_tips": "Bu seçenek etkinleştirilirse, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, istemci isteklerinin iletilebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Yönetim Konsolu$$$$'nda etkinleştirmeniz gerekir; aksi takdirde istemcileriniz internete erişemez.",
+        "custom_exit_node_tips": "Bu seçenek etkinleştirilirse, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, Tailscale'ın istemci isteklerini iletebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Admin Console$$$$'da etkinleştirmeniz gerekiyor; aksi takdirde istemcileriniz internete erişemeyecektir.",
         "manual_node_label": "Özel Çıkış Düğümü",
         "exit_node_label": "Çıkış Düğümü",
         "ready_tips": "Cihazınız Tailscale sanal ağına bağlı.",
