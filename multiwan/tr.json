@@ -9,7 +9,7 @@
         "failover_label": "Yük Devretme",
         "balancing_label": "Yük Dengeleme",
         "track_title": "Arayüz Durum Takibi",
-        "physical_state_monitor": "Arayüz bağlı olduğunda İnternet her zaman kullanılabilir",
+        "physical_state_monitor": "Arayüz bağlıyken internet her zaman kullanılabilir",
         "ratio_title": "Yük Oranı",
         "track_desc": "Yönlendirici, arayüzün kullanılabilir olup olmadığını belirlemek için hedef IP'ye bağlantı durumunu takip eder.",
         "track_enable_tips": "Takip devre dışı bırakılırsa, cihaz arayüz bağlı olduğunda (örneğin bir kablo takılıysa ve bir IP adresi alınmışsa) arayüzün İnternet'e bağlı olduğunu varsayacaktır.",
@@ -25,6 +25,7 @@
         "det_mode_label": "Tespit Modu",
         "failover_desc": "Yük Devretme: Mevcut, aktif bağlantı başarısız olursa, yönlendirici otomatik olarak başka bir ağ arayüzüne geçecektir.",
         "balancing_desc": "Yük Dengeleme: Yönlendiricinin toplam bant genişliğini artırmak için aynı anda birden fazla ağ arayüzü kullanır. Aynı uygulamaya veya siteye bağlantıların genellikle yalnızca bir arayüz kullanacağını unutmayın.",
-        "mode_balancing_note": "Not: Aktif bağlantılar veya trafik, yük oranını eşleştirmek için yeniden yönlendirilmez."
+        "mode_balancing_note": "Not: Aktif bağlantılar veya trafik, yük oranını eşleştirmek için yeniden yönlendirilmez.",
+        "priority_title": "Arayüz Önceliği"
     }
 }
