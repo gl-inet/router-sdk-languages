@@ -13,7 +13,7 @@
         "enable_label": "Aracısız Ağ Geçidi Modunu Etkinleştir",
         "dhcp_closed_tips": "Ana yönlendiricide DHCP hizmeti devre dışı bırakıldı, aracısız ağ geçidi çalışıyor.",
         "dhcp_on_tips": "Ana yönlendiricide DHCP hizmeti hala etkin. Aracısız ağ geçidi düzgün çalışmayabilir. Lütfen $$$$ana yönlendirici yönetici paneline$$$$ gidin ve DHCP hizmetini devre dışı bırakın veya ağ geçidini {ip} olarak ayarlayın.",
-        "enable_tips": "Drop-in gateway modu etkinleştirildiğinde, bu yönlendiricinin DNS ayarları ana yönlendiriciden gelenler yerine kullanılır.",
+        "enable_tips": "Aracısız ağ geçidi modu etkinleştirildiğinde, ana yönlendiriciden gelen DNS ayarları yerine bu yönlendiricinin DNS ayarları kullanılır.",
         "dhcp_on_warning_tips": "Drop-in gateway etkinleştirildi.",
         "dhcp_set_gateway_tips": "Ana yönlendiricideki DHCP servisi ağ geçidini {ip} olarak doğru şekilde ayarladı, drop-in gateway çalışıyor."
     }
