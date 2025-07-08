@@ -16,7 +16,7 @@
         "fault_condition_label": "Arıza Durumuna Değiştir",
         "available_condition_label": "Kullanılabilir Duruma Değiştir",
         "fault_count": "$$$$ kez başarısız",
-        "track_addr_label": "IP Takibi",
+        "track_addr_label": "IP'yi Takip Et",
         "flush_track_label": "Zorla Akışları Yenile",
         "interface_state_label": "Ağ Durumu",
         "passive_label": "Düşük Veri Modu",
@@ -29,6 +29,12 @@
         "priority_title": "Arayüz Önceliği",
         "track_method_label": "Takip Komutu",
         "interval_label": "Takip Aralığı",
-        "success_count": "$$$$ kez başarılı"
+        "success_count": "$$$$ kez başarılı",
+        "both_label": "Her İkisi",
+        "flush_track_tips": "Bu seçenek etkinleştirilirse ve ağ arayüzü değişirse, yönlendirici tüm mevcut veri akışlarını en yüksek öncelikli arayüzü kullandığından emin olmak için yenileyecektir. Bu, gereksiz trafik kaybını önler, ancak ağ değişkenliğinde bir artışa neden olabilir (örneğin, bazı VPN'ler hemen yeniden bağlanmayabilir).",
+        "enable_check_label": "Arayüz Durum Takibini Etkinleştir",
+        "balancing_warning_tips": "Dengeli yükün düzgün çalışması için sıfır olmayan yük oranlarına sahip en az iki arayüz yapılandırılmalıdır. Sıfır olmayan yük oranına sahip bağlanabilir bir İnternet arayüzü yoksa, cihaz İnternet'e bağlanamayacaktır.",
+        "track_mode_label": "Düşük Veri Modu",
+        "sensitivity_label": "Hassasiyet"
     }
 }
