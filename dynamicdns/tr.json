@@ -19,7 +19,7 @@
         "host_name": "Ana Bilgisayar Adı",
         "parsing_success_tips": "DDNS alan adı, bu cihazın genel IP adresine doğru şekilde çözümlendi.",
         "parsing_error_tips": "DNS sunucusu tarafından bu DDNS alan adı için DNS kaydı bulunamadı. Lütfen cihazın internet bağlantısını kontrol edin.",
-        "parsing_warning_tips": "DDNS alan adı çözümlemesinden elde edilen IP adresi, cihazın WAN IP'siyle aynı değil. Dinamik DNS kullanmak için bir Genel İnternet IP adresine ihtiyacınız var. Bu yönlendirici NAT arkasındaysa, ISS yönlendiricinizde port yönlendirme ayarlamanız gerekebilir. VPN İstemcisi etkinse, lütfen genel seçeneklerde \"GL.iNet Servisleri VPN Kullanır\" seçeneğini devre dışı bırakın.",
+        "parsing_warning_tips": "DDNS alan adı çözümlemesinden elde edilen IP adresi, cihazın WAN IP adresi ile aynı değil. Dinamik DNS kullanmak için bir İnternet Genel IP adresine ihtiyacınız var. Bu yönlendirici NAT arkasındaysa, ISP yönlendiricinizde port yönlendirme ayarlamanız gerekebilir. VPN İstemcisi etkinse, lütfen genel seçeneklerde \"GL.iNet Hizmetleri VPN Kullan\"ı devre dışı bırakın.",
         "parsing_label": "DDNS Alan Adı Çözümlemesinden IP adresi",
         "parsing_interface_title": "WAN Arayüzü IP adresi",
         "remote_access_tips": "Cihaza uzaktan erişmek istiyorsanız, lütfen ayarlamak için $$$$Güvenlik Sayfasına Gidin$$$$.",
