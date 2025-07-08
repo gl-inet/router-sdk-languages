@@ -1,1 +1,27 @@
-{}
+{
+    "menu_multiwan": "Çoklu WAN",
+    "multiwan": {
+        "track_proto_label": "Protokolü İzle",
+        "mode_label": "Mod",
+        "tips": "Router, aynı anda birden fazla ağ arayüzüne bağlantıyı destekler. Bu çoklu ağların nasıl kullanılacağını yapılandırabilirsiniz.",
+        "mode_failover_tips": "Yönlendirici, en yüksek önceliğe sahip bir sonraki kullanılabilir arayüzü otomatik olarak seçer.",
+        "mode_balancing_tips": "Sistem, yeni bağlantılar için arayüzleri yük oranına göre atayacaktır.",
+        "failover_label": "Yedekleme",
+        "balancing_label": "Yük Dengeleme",
+        "track_title": "Arayüz Durum Takibi",
+        "physical_state_monitor": "Arayüz bağlı olduğunda İnternet her zaman kullanılabilir",
+        "ratio_title": "Yük Oranı",
+        "track_desc": "Yönlendirici, arayüzün kullanılabilir olup olmadığını belirlemek için hedef IP'ye bağlantı durumunu takip eder.",
+        "track_enable_tips": "Takip devre dışı bırakılırsa, cihaz arayüz bağlı olduğunda (örneğin bir kablo takılıysa ve bir IP adresi alınmışsa) arayüzün İnternet'e bağlı olduğunu varsayacaktır.",
+        "fault_condition_label": "Başarısızlık Durumuna Geç",
+        "available_condition_label": "Kullanılabilir Duruma Geç",
+        "fault_count": "$$$$ kez başarısız ol",
+        "track_addr_label": "IP Takibi",
+        "flush_track_label": "Zorla Akışları Yenile",
+        "interface_state_label": "Ağ Durumu",
+        "passive_label": "Düşük Veri Modu",
+        "sensitivity_tips": "Bu hassasiyet, İnternet durum tespiti için zaman aralığını belirler. İnternet erişimi dengesiz olduğunda sık ağ geçişlerini önlemek için düşük hassasiyet kullanılması önerilir; video veya canlı yayın yaparken hızlı İnternet erişimi geçişi sağlamak için yüksek hassasiyet kullanılması önerilir; yüksek hassasiyete geçmek ağ bağlantısının kesilmesine neden olabilir. Dikkatli ayarlayınız.",
+        "sensitivity_options_label": "Hassasiyet Seçenekleri",
+        "det_mode_label": "Tespit Modu"
+    }
+}
