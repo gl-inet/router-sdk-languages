@@ -1,6 +1,6 @@
 {
     "igmp": {
-        "desc": "IGMP Snooping, IGMP protokol paketinden bilgi dinler ve çıkarır, katman 2 çok noktaya yayın iletim yayınını oluşturur ve sürdürür, ardından çok noktaya yayın grubu verilerini çok noktaya yayın grubuna katılan herhangi bir ana bilgisayara iletirken diğer ana bilgisayarlar çok noktaya yayın grubu verilerini alamaz.",
+        "desc": "IGMP Snooping, IGMP protokol paketinden bilgi dinler ve çıkarır, katman 2 çok noktaya yayın iletim yayınını oluşturur ve sürdürür, ardından çok noktaya yayın grup verilerini çok noktaya yayın grubuna katılan herhangi bir ana bilgisayara iletir, diğer ana bilgisayarlar ise çok noktaya yayın grup verilerini alamaz.",
         "note": "IGMPv3, v1 ve v2 ile uyumludur. Varsayılan olarak v3 kullanın ve bir sorun yaşarsanız geçiş yapın.",
         "version": "Sürüm"
     }
