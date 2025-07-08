@@ -35,7 +35,7 @@
         "parse_method_tips": "Bu seçenek, cihazın ağdan gelen baytları nasıl ayrıştıracağını belirler.",
         "parse_binary_tips": "\"Binary\" yöntemi, ham ikili veriyi doğrudan iletir, örn. ağdan gelen \"5F7D\" dizesi, ACSII kodu 0x35463744 ile seri porta iletilir.",
         "parse_hexstr_tips": "\"Hex String\" yöntemi, veriyi Hex dizesi olarak iletir, örn. \"5F7D\" dizesi 0x5F7D olarak ayrıştırılır ve ardından seri porta iletilir.",
-        "parse_method_response_tips": "Seri porttan gelen yanıt, karşılık gelen yöntemle ağa gönderilecektir.",
+        "parse_method_response_tips": "Seri porttan gelen yanıt, ilgili yöntem kullanılarak ağa gönderilecektir.",
         "server_addr_label": "Sunucu Adresi",
         "server_port_label": "Sunucu Portu",
         "local_port_label": "Yerel Port",
