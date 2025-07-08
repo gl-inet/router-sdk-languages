@@ -1,1 +1,15 @@
-{}
+{
+    "process": {
+        "installing": "Yükseltme ve yeniden başlatma",
+        "upgrading": "Yükseltiliyor",
+        "rebooting": "Yeniden başlatılıyor",
+        "reverting": "Geri dönme",
+        "upgrade_tips": "Firmware yükseltmesinden sonra yönlendiricinizin web paneline erişemiyorsanız, lütfen tarayıcı önbelleğini temizlemeyi deneyin.",
+        "install_tips": "Yazılım yükseltmeleri ve yeniden başlatmalar birkaç dakika sürer. İşlem tamamlanana kadar lütfen sayfayı yenilemeyin.",
+        "reboot_tips": "Yönlendirici yeniden başlatma yaklaşık $$$$ sürer. İşlem tamamlanana kadar lütfen sayfayı yenilemeyin.",
+        "revert_tips": "Firmware sıfırlama yaklaşık $$$$ sürer. Mevcut tüm ayarlarınız, uygulamalarınız ve verileriniz silinecektir. İşlem tamamlanana kadar lütfen sayfayı yenilemeyin.",
+        "wait_tips": "Bu işlemin tamamlanması çok uzun sürüyorsa, lütfen sorun giderme kılavuzlarını takip edin",
+        "restore": "Geri yükleme",
+        "restore_tips": "Yedekleme geri yükleme yaklaşık $$$$ sürer. İşlem tamamlanana kadar lütfen sayfayı yenilemeyin."
+    }
+}
