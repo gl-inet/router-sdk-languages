@@ -22,7 +22,7 @@
         "passive_label": "Düşük Veri Modu",
         "sensitivity_tips": "Bu hassasiyet, İnternet durumu algılaması için zaman aralığını belirler. İnternet erişimi kararsız olduğunda sık ağ geçişini önlemek için düşük hassasiyet kullanılması tavsiye edilir; video veya canlı yayın yaparken İnternet erişimini hızlı bir şekilde değiştirebildiğinizden emin olmak için yüksek hassasiyet kullanılması tavsiye edilir; yüksek hassasiyete geçiş ağ bağlantısının kesilmesine neden olabilir. Lütfen dikkatli ayarlayın.",
         "sensitivity_options_label": "Hassasiyet Seçenekleri",
-        "det_mode_label": "Tespit Modu",
+        "det_mode_label": "Algılama Modu",
         "failover_desc": "Yük Devretme: Mevcut, aktif bağlantı başarısız olursa, yönlendirici otomatik olarak başka bir ağ arayüzüne geçecektir.",
         "balancing_desc": "Yük Dengeleme: Yönlendiricinin toplam bant genişliğini artırmak için aynı anda birden fazla ağ arayüzü kullanır. Aynı uygulamaya veya siteye bağlantıların genellikle yalnızca bir arayüz kullanacağını unutmayın.",
         "mode_balancing_note": "Not: Aktif bağlantılar veya trafik, yük oranını eşleştirmek için yeniden yönlendirilmez.",
@@ -37,6 +37,11 @@
         "track_mode_label": "Düşük Veri Modu",
         "sensitivity_label": "Hassasiyet",
         "track_mode_tips": "Bu seçenek etkinleştirilirse, yalnızca bir arayüz ağ hatası olduğunda takip edecektir. Veri trafiği faturalandırması kullanan arayüzler için etkinleştirilmesi tavsiye edilir.",
-        "network_tracking_title": "{interface} Durum Takibi"
+        "network_tracking_title": "{interface} Durum Takibi",
+        "det_mode_tips": "Normal mod varsayılan olarak kullanılır, düşük veri modu yalnızca bir arayüz ağ hatası oluştuğunda izler ve katı mod, arayüz durumunu yalnızca genel bir IP'den algılama komutunun sonuçlarına göre belirler.",
+        "strict_mode_label": "Katı Mod",
+        "low_data_label": "Düşük veri",
+        "normal_label": "Normal",
+        "strict _label": "Katı"
     }
 }
