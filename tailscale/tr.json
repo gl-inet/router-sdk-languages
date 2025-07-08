@@ -18,7 +18,7 @@
         "allow_wan_tips": "Bu seçenek etkinleştirilirse, cihazın WAN tarafındaki kaynaklara Tailscale sanal ağı üzerinden erişime izin verilecektir.",
         "exit_node_tips": "Seçtiğiniz Çıkış Düğümü kullanılamıyorsa veya internete erişemiyorsa, cihaz ayarları Tailscale'a senkronize edemeyecektir.",
         "current_ip_tips": "Tailscale, 100.64.0.0/10 alt ağını kullanır ve bu, bir ISP tarafından atanmış bir adres veya VPN istemci adresi ile çakışabilir. WAN IP'niz veya VPN IP'niz bu alt ağ içinde bir adres ise, ağa bağlanamama sorununu önlemek için Tailscale'ı devre dışı bırakın.",
-        "custom_exit_node_warning": "Özel Çıkış Düğümü'nü etkinleştirirseniz, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, istemci isteklerinin iletilebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Yönetim Konsolu$$$$'nda etkinleştirmeniz gerekir; aksi takdirde istemcileriniz internete erişemez.",
+        "custom_exit_node_warning": "Özel Çıkış Düğümünü etkinleştirirseniz, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, Tailscale'ın istemci isteklerini iletebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Admin Console$$$$'da etkinleştirmelisiniz; aksi takdirde istemcileriniz internete erişemeyecektir.",
         "dns_warning_tips": "Yerel ağ IP adresi DNS olarak kullanıldığında, DNS sunucusuna erişemeyebilirsiniz."
     }
 }
