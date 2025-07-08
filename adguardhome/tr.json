@@ -1,1 +1,20 @@
-{}
+{
+"adguardhome": {
+"request_th": "İstek Sayısı",
+"no_data": "Veri Yok",
+"desc": "AdGuard Home, reklamları ve izlemeleri engelleyen ağ genelinde bir yazılımdır. Kurulduğunda, ev ağınızdaki TÜM cihazları kapsar, herhangi bir ek istemci tarafı yazılıma ihtiyaç yoktur. Bu sayfa, AdGuard Home tarafından sağlanan API üzerinden istatistikleri alır. AdGuard Home etkinleştirildiğinde, yönlendirici AdGuard Home tarafından sağlanan DNS sunucularının kullanımını zorunlu kılar.",
+"tips": "Lütfen Adguard Home'ın gelişmiş yapılandırmasını gerçekleştirmek için $$$$Ayarlar Sayfası$$$$'na gidin.",
+"top_queried_domain": "En çok sorgulanan alan adları",
+"top_blocked_domain": "En çok engellenen alan adları",
+"dns_querie_title": "DNS Sorguları",
+"blocked_filtering_title": "Filtrelerle Engellenen",
+"replaced_safebrowsing_title": "Engellenen kötü amaçlı yazılım/phishing",
+"replaced_parental_title": "Engellenen yetişkin siteleri",
+"for_last_one_day": "Son 24 saatte",
+"for_last_days": "Son $$$$ günde",
+"not_disabled_dns_msg": "Başka bir DNS devre dışı bırakılmadı",
+"domain_th": "Alan Adı",
+"process_req_label": "AdGuard Home İstemci İsteklerini İşle",
+"process_req_tips": "Bu seçenek etkinleştirilirse, istemci cihazlardan gelen DNS sorguları doğrudan AdGuard Home tarafından işlenecek ve bu da alan adı tabanlı VPN politikasını ve ebeveyn kontrol kurallarını geçersiz kılacaktır."
+}
+}
