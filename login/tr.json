@@ -1,1 +1,17 @@
-{}
+{
+    "login": {
+        "login": "Giriş Yap",
+        "admin_password": "Yönetici Şifresi",
+        "password_hint": {
+            "placeholder": "Lütfen şifre girin",
+            "null": "UYARI: Boş bırakılamaz!"
+        },
+        "forgot_password": {
+            "title": "Şifremi Unuttum",
+            "desc": "\"Reset\" düğmesini 10 saniye boyunca basılı tutun ve ardından bırakın. LED ışıklarının yanıp söndüğünü göreceksiniz. Yönlendiricinin yeniden başlamasını bekleyin ve ardından tekrar başlayın.",
+            "online_docs": "Çevrimiçi Dokümanlar"
+        },
+        "err_msg": "Hatalı Kullanıcı Adı veya Şifre!",
+        "retry_after": "Çok fazla başarısız giriş denemesi, lütfen $$$$ saniye sonra tekrar deneyin."
+    }
+}
