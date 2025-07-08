@@ -3,7 +3,7 @@
     "multiwan": {
         "track_proto_label": "Protokolü İzle",
         "mode_label": "Mod",
-        "tips": "Router, aynı anda birden fazla ağ arayüzüne bağlantıyı destekler. Bu çoklu ağların nasıl kullanılacağını yapılandırabilirsiniz.",
+        "tips": "Yönlendirici aynı anda birden fazla ağ arayüzüne bağlantıyı destekler. Bu çoklu ağların nasıl kullanılacağını yapılandırabilirsiniz.",
         "mode_failover_tips": "Yönlendirici, en yüksek önceliğe sahip bir sonraki kullanılabilir arayüzü otomatik olarak seçer.",
         "mode_balancing_tips": "Sistem, yeni bağlantılar için arayüzleri yük oranına göre atayacaktır.",
         "failover_label": "Yedekleme",
@@ -22,6 +22,8 @@
         "passive_label": "Düşük Veri Modu",
         "sensitivity_tips": "Bu hassasiyet, İnternet durum tespiti için zaman aralığını belirler. İnternet erişimi dengesiz olduğunda sık ağ geçişlerini önlemek için düşük hassasiyet kullanılması önerilir; video veya canlı yayın yaparken hızlı İnternet erişimi geçişi sağlamak için yüksek hassasiyet kullanılması önerilir; yüksek hassasiyete geçmek ağ bağlantısının kesilmesine neden olabilir. Dikkatli ayarlayınız.",
         "sensitivity_options_label": "Hassasiyet Seçenekleri",
-        "det_mode_label": "Tespit Modu"
+        "det_mode_label": "Tespit Modu",
+        "failover_desc": "Yük Devretme: Mevcut, aktif bağlantı başarısız olursa, yönlendirici otomatik olarak başka bir ağ arayüzüne geçecektir.",
+        "balancing_desc": "Yük Dengeleme: Yönlendiricinin toplam bant genişliğini artırmak için aynı anda birden fazla ağ arayüzü kullanır. Aynı uygulamaya veya siteye bağlantıların genellikle yalnızca bir arayüz kullanacağını unutmayın."
     }
 }
