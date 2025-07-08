@@ -1,1 +1,10 @@
-{}
+{
+    "menu_netnat": "Ağ Hızlandırma",
+    "netnat": {
+        "tips": "Ağ hızlandırma etkinleştirildiğinde, aşağıdaki işlevler düzgün çalışmayacaktır: İstemci Hızı ve Trafik İstatistikleri, İstemci Hız Sınırı, Ebeveyn Kontrolü.",
+        "hwnat_label": "Donanım Hızlandırma",
+        "swnat_label": "Yazılım Hızlandırma",
+        "wifi_reload_tips": "Donanım hızlandırmanın açılıp kapatılması WIFI modülünün yeniden yüklenmesini gerektirir ve 10 saniye ile 1 dakika arasında bekleme süresi olabilir.",
+        "desc": "Ağ hızlandırma, CPU yükünü azaltır ve trafik paketlerinin iletilme hızını artırır, ancak bazı özelliklerle çakışabilir."
+    }
+}
