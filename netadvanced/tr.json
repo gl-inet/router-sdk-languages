@@ -1,6 +1,6 @@
 {
     "netadvanced": {
-        "full_cone_nat_tips": "Tam Koni NAT, oyun gecikmesini azaltmak için kullanılabilir, ancak Tam Koni NAT'ı etkinleştirmek daha az güvenli olabilir.",
+        "full_cone_nat_tips": "Full Cone NAT, oyun gecikmesini azaltmak için kullanılabilir, ancak etkinleştirildiğinde güvenlik azalabilir.",
         "sip_alg_tips": "SIP ALG, çoklu NAT'ların etkilerini hafifletmek için kullanılabilir, ancak çoğu durumda yardımcı olmaz. SIP ALG'yi etkinleştirmek, tek yönlü ses (sadece bir tarafın diğerini duyabilmesi), görüşme sırasında telefonların çalmaması, bağlıyken telefonların düşmesi ve çağrıların doğrudan sesli mesaja gitmesi gibi VoIP çağrılarını etkileyebilir."
     },
     "menu_netadvanced": "NAT Ayarları"
