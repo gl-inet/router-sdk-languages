@@ -1,0 +1,17 @@
+{
+    "menu_netport": "Port Yönetimi",
+    "netport": {
+        "set_as_wan_tips": "{silkprint} portu WAN portu olarak kullanıldığında",
+        "as_wan_tips": "{asWan}, bu porta bağlı cihaz artık yönetim paneline erişemez. Wi-Fi veya diğer LAN portlarına bağlanmanız gerekecektir.",
+        "reset_as_wan_tips": "{silkprint} portunu WAN portu olarak geri yükle.",
+        "reset_as_lan_tips": "{silkprint} portunu LAN portuna (varsayılan) geri yüklemek istediğinizden emin misiniz?",
+        "set_as_lan_tips": "{silkprint} portunu LAN portuna geçirmek istediğinizden emin misiniz?",
+        "no_wan_tips": "{silkprint} portu LAN (Yerel Ağ) olarak kullanılıyor. {view} içinden WAN (Geniş Alan Ağı) olarak geri ayarlayabilirsiniz.",
+        "two_port_label": "{port1} ve {port2}",
+        "rate_label": "Anlaşmalı Ağ Port Hızı",
+        "unplug_cable_tips": "Öncelikle, {silkprint} portuna takılı olan Ethernet kablosunu çıkarın.",
+        "as_label": "{port} olarak",
+        "wan_lan_change_tips": "WAN portunu LAN portu olarak kullanabilirsiniz.",
+        "reset_port_tips": "Cihazın reset butonunu 4 saniye basılı tutarak {silkprint} portunu {port} moduna geri yükleyebilirsiniz."
+    }
+}

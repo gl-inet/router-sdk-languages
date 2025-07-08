@@ -1,0 +1,20 @@
+{
+    "menu_edgerouter": "Aracısız Ağ Geçidi",
+    "edgerouter": {
+        "auto_set_tips": "Üst yönlendiricinin DHCP ayarları değişmiş gibi görünüyor ve yönlendirici ağa düzgün bağlanamayabilir. Lütfen $$$$Ayarları DHCP'den Senkronize Et$$$$ veya ayarlarınızı manuel olarak değiştirin.",
+        "desc_vpn": "Lütfen unutmayın ki Aracısız Ağ Geçidi modunda, bu cihazın VPN politikası WAN portundan gelen istemciler için çalışmayacaktır.",
+        "cable_not_connected_tips": "WAN portunda kablo algılanmadı. Lütfen bir ethernet kablosu takın.",
+        "modify_superior_router_label": "Tüm cihazlar aracısız ağ geçidi aracılığıyla ağa bağlıdır",
+        "modify_superior_router_desc": "Birincil rota yapılandırmasını değiştirmeniz gerekir, bu, birincil rotaya erişimi olan bir kullanıcı tarafından yapılandırılmalıdır.",
+        "modify_self_router_label": "Bazı cihazlar kendi ağ geçitlerini seçer",
+        "modify_self_router_desc": "Aracısız ağ geçidini kullanması gereken bazı cihazlarda ağ geçidi adresini aracısız ağ geçidinin IP adresine manuel olarak değiştirmeniz gerekir.",
+        "configuration_method_label": "Yapılandırma yöntemi",
+        "desc": "Aracısız ağ geçidi modu etkinleştirildiğinde, ağdaki istemcilerden gelen tüm trafik önce bu yönlendirici tarafından işlenir. Bu modu birincil yönlendiricinizin işlevselliğini genişletmek için kullanabilirsiniz.",
+        "enable_label": "Aracısız Ağ Geçidi Modunu Etkinleştir",
+        "dhcp_closed_tips": "Ana yönlendiricide DHCP hizmeti devre dışı bırakıldı, aracısız ağ geçidi çalışıyor.",
+        "dhcp_on_tips": "Ana yönlendiricide DHCP hizmeti hala etkin. Aracısız ağ geçidi düzgün çalışmayabilir. Lütfen $$$$ana yönlendirici yönetici paneline$$$$ gidin ve DHCP hizmetini devre dışı bırakın veya ağ geçidini {ip} olarak ayarlayın.",
+        "enable_tips": "Aracısız ağ geçidi modu etkinleştirildiğinde, ana yönlendiriciden gelen DNS ayarları yerine bu yönlendiricinin DNS ayarları kullanılır.",
+        "dhcp_on_warning_tips": "Aracısız ağ geçidi etkinleştirildi.",
+        "dhcp_set_gateway_tips": "Ana yönlendiricide DHCP hizmeti ağ geçidini {ip} olarak doğru bir şekilde ayarladı, aracısız ağ geçidi çalışıyor."
+    }
+}

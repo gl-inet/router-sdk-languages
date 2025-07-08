@@ -6,10 +6,11 @@
     },
     "menu_timezone": "タイムゾーン",
     "time": {
-        "sync_with_brower_btn": "ブラウザと同期",
+        "sync_with_brower_btn": "ブラウザーと同期",
         "sync_with_ntp_btn": "NTPサーバーと同期",
-        "time_format_label": "時刻フォーマット",
+        "time_format_label": "時刻形式",
         "sync_title": "時刻同期",
-        "setting_title": "時間設定"
+        "setting_title": "時間設定",
+        "ntp_sync_failed_msg": "NTPサーバーとの同期に失敗しました。"
     }
 }

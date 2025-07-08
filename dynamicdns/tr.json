@@ -1,0 +1,33 @@
+{
+    "ddns": {
+        "test": "DDNS Testi",
+        "enabled_tips": "DNS sunucuları arasında kayıt senkronizasyonunda 10 dakikaya kadar gecikme olabilir. Bu, DDNS alan adıyla hemen erişememenize neden olabilir.",
+        "security_settings_btn": "Güvenlik Ayarları",
+        "security_settings_tips": "\"Sistem-Güvenlik\" Uzaktan Erişim Kontrolü'nde, uzaktan erişimi kısıtlamak için iki seçeneği değiştirebilirsiniz.",
+        "to_security_btn": "Güvenliğe Git",
+        "desc": "Bu yönlendirici için Dinamik DNS (DDNS) etkinleştirebilir ve bu yönlendiriciye uzaktan erişebilirsiniz. DNS sunucuları arasında kayıtların senkronizasyonunda on dakikaya kadar gecikme olabilir. Bu, DDNS alan adlarıyla erişimin hemen etkinleştirilmesinden veya genel IP'niz yakın zamanda değiştiyse hemen kullanılamamasına neden olabilir.",
+        "enable_http": "HTTP Uzaktan Erişimi Etkinleştir",
+        "enable_https": "HTTPS Uzaktan Erişimi Etkinleştir",
+        "enable_ssh": "SSH Uzaktan Erişimi Etkinleştir",
+        "read_and_agree": "Okudum ve kabul ediyorum",
+        "terms_service": "Hizmet Şartları",
+        "privacy_policy": "Gizlilik Politikası",
+        "detecting": "Algılanıyor, lütfen bekleyin…",
+        "working": "DDNS servisiniz çalışıyor.",
+        "not_effective": "DDNS'iniz henüz etkin değil. Lütfen daha sonra tekrar deneyin.",
+        "enable_http_tip": "HTTP şifrelenmemiş bir protokoldür. Lütfen dikkatli kullanın.",
+        "host_name": "Ana Bilgisayar Adı",
+        "parsing_success_tips": "DDNS alan adı, bu cihazın genel IP'sine doğru şekilde çözümlendi.",
+        "parsing_error_tips": "DNS sunucusu tarafından bu DDNS alan adı için DNS kaydı bulunamadı. Lütfen cihazın internet bağlantısını kontrol edin.",
+        "parsing_warning_tips": "DDNS alan adı çözümlemesinden elde edilen IP adresi, cihazın WAN IP'siyle aynı değil. Dinamik DNS kullanmak için bir Genel İnternet IP adresine ihtiyacınız var. Bu yönlendirici NAT arkasındaysa, ISS yönlendiricinizde port yönlendirme ayarlamanız gerekebilir. VPN İstemcisi etkinse, lütfen genel seçeneklerde \"GL.iNet Servisleri VPN Kullanır\" seçeneğini devre dışı bırakın.",
+        "parsing_label": "DDNS Alan Adı Çözümlemesinden IP adresi",
+        "parsing_interface_title": "WAN Arayüzü IP adresi",
+        "remote_access_tips": "Cihaza uzaktan erişmek istiyorsanız, lütfen ayarlamak için $$$$Güvenlik Sayfasına Gidin$$$$.",
+        "parsing_ip_warning_tips": "DDNS alan adı çözümlemesinden elde edilen IP adresi, cihazın WAN IP'siyle aynı değil.",
+        "need_pubilc_ip_tips": "Dinamik DNS kullanmak için bir Genel İnternet IP adresine ihtiyacınız var.",
+        "sevices_warning_tips": "VPN İstemcisi etkinse, lütfen genel seçeneklerde \"GL.iNet Servisleri VPN Kullanır\" seçeneğini devre dışı bırakın.",
+        "nat_warning_tips": "Bu yönlendirici NAT arkasındaysa, ISS yönlendiricinizde port yönlendirme ayarlamanız gerekebilir.",
+        "use_desc": "Bu yönlendirici için Dinamik DNS (DDNS) etkinleştirebilir ve bu yönlendiriciye uzaktan erişebilirsiniz."
+    },
+    "menu_dynamicdns": "Dinamik DNS"
+}

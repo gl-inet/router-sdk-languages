@@ -1,0 +1,53 @@
+{
+    "menu_lanip": "Yerel Ağ (LAN)",
+    "lan_ip": {
+        "lan": "Yönlendirici IP Adresi",
+        "guest": "Varsayılan Ağ Geçidi",
+        "start_ip": "Başlangıç IP Adresi",
+        "end_ip": "Bitiş IP Adresi",
+        "change_to": "Yönlendiricinin IP adresi başarıyla şu şekilde değiştirildi:",
+        "redirect_to": "Yeni IP'ye yönlendiriliyorsunuz",
+        "guest_conflict_tips": "Misafir IP ile çakışıyor",
+        "lan_conflict_tips": "LAN IP ile çakışıyor",
+        "ip_outside_tips": "IP adresi alt ağ aralığının dışında",
+        "cannot_contain_ip_tips": "Adres aralığı yönlendiricinin IP adresini içeremez",
+        "end_smaller_tips": "Bitiş adresi başlangıç adresinden büyük olmalıdır.",
+        "lan_or_guest_senior_tip": "IPv4 özel adres aralıklarında alt ağ ayarlayabilirsiniz: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "lan_or_guest_model_setting": "Gelişmiş",
+        "user_count_max": "Maksimum Kullanıcı Sayısı",
+        "lan_tab": "Özel Ağ",
+        "guest_tab": "Misafir Ağı",
+        "ip_easy_tip": "Yönlendirici IP Adresi, yönlendiricinin yönetim sayfasına erişmek için tarayıcınızın adres çubuğuna gireceğiniz adrestir.",
+        "dhcp_serve_title": "DHCP Sunucusu",
+        "enable_dhcp_tips": "DHCP sunucusu, istemci cihazlara otomatik olarak IP adresleri ve diğer iletişim parametrelerini atar. DHCP sunucusu devre dışı bırakılırsa, istemci cihaz ağ ayarlarının manuel olarak yapılandırılması gerekecektir.",
+        "dhcp_charter_label": "Kira Süresi",
+        "lpr_serve_label": "LPR Sunucusu",
+        "security_title": "Güvenlik Ayarları",
+        "ap_isolate_label": "AP İzolasyonu",
+        "ap_isolate_tips": "Ağınızdaki istemci cihazlarını ayrı bir ağ alanına izole edebilirsiniz. Bu cihazlar ağdaki diğer cihazlarla iletişim kuramaz.",
+        "dhcp_disable_warning_tips": "DHCP'yi devre dışı bırakırsanız, internete bağlanamayabilirsiniz, bu nedenle lütfen dikkatli olun.",
+        "lpr_tips": "Birden fazla yazıcı LPR bağlantı noktası doldurulabilir.",
+        "guest_disabel_tips": "Misafir ağı şu anda kullanılamıyor çünkü {guest} devre dışı bırakıldı."
+    },
+    "address_reservation": {
+        "title": "Adres Rezervasyonu",
+        "tips": "Bir LAN istemcisi için ayrılmış bir IP adresi belirlediğinizde, istemci yönlendiricinin DHCP sunucusundan bir IP adresi talep ettiğinde her zaman aynı IP adresini alacaktır. Kalıcı IP ayarları gerektiren bilgisayarlara veya sunuculara ayrılmış IP adresleri atayabilirsiniz.",
+        "note": "Not: Yapılandırılmış istemcilerin etkinleştirilmesi için yönlendiriciye yeniden bağlanması gerekir.",
+        "name": "Ad",
+        "action": "Eylem",
+        "no_data": "Tabloda veri bulunmamaktadır.",
+        "add_new": "Yeni Bir Rezervasyon Girişi Ekle",
+        "set_data": "Rezervasyon Girişini Değiştir",
+        "confirm_delete_all": "Tüm ayrılmış adres girişlerini silmek istediğinizden emin misiniz?",
+        "confirm_delete": "Ayrılmış adres girişini silmek istediğinizden emin misiniz?",
+        "mac_existed": "MAC Adresi Mevcut",
+        "ip_existed": "IP Mevcut",
+        "desc_label": "Açıklama"
+    },
+    "menu_guestip": "Misafir Ağı",
+    "lanip": {
+        "not_asscess_tips": "Şu anda misafir ağı {net} ağ segmentlerine erişemiyor.",
+        "block_wan_label": "WAN Alt Ağlarını Engelle",
+        "block_wan_tips": "Bu işlev etkinleştirilirse, misafir ağı üst ağa ve üst ağın bulunduğu ağ segmentine erişemeyecektir."
+    }
+}

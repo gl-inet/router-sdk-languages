@@ -1,0 +1,17 @@
+{
+    "zerotier": {
+        "desc": "$$$$ZeroTier$$$$ her yerden erişilebilen güvenli, sanal bir eşler arası Ethernet ağı oluşturur; telefonlar, bilgisayarlar vb. cihazlara erişimi destekler. Cihazlarınıza veya LAN'ınıza uzaktan erişmek için kullanabilirsiniz.",
+        "authorized_tips": "Cihazınız ZeroTier sanal ağınıza bağlı.",
+        "first_use_tips": "ZeroTier, $$$$ZeroTier Central$$$$ üzerinde oluşturduğunuz Ağ Kimliğini kullanarak sanal ağınıza bağlanır.",
+        "unauthorized_tips": "Cihaz ZeroTier'a eklendi. Cihazın sanal ağınıza bağlanmasına izin vermek için lütfen $$$$ZeroTier Central$$$$ adresine gidin.",
+        "enable_nat_tips": "Cihaz zaten ZeroTier istemcilerinin WAN veya LAN'daki kaynaklara erişmesine izin veriyor. İstemci isteklerinin ZeroTier sanal ağı üzerinden iletilmesine izin vermek için $$$$ZeroTier Central$$$$ içinde yönlendirme kuralları ayarlamanız gerekir:",
+        "auto_nat_label": "Uzak Erişim LAN&WAN'a İzin Ver",
+        "auto_nat_tips": "Bu seçenek etkinleştirilirse, LAN alt ağı ve WAN içindeki kaynaklara ZeroTier sanal ağı üzerinden erişilebilir.",
+        "current_ip_label": "Yönlendirici Sanal IP",
+        "not_found_tips": "ZeroTier Ağ Kimliğini bulamadı, lütfen girilen değeri kontrol edin.",
+        "allow_lan_label": "Uzak Erişim LAN'a İzin Ver",
+        "allow_wan_label": "Uzak Erişim WAN'a İzin Ver",
+        "allow_lan_tips": "Bu seçenek etkinleştirilirse, cihaz LAN'ı içindeki kaynaklara ZeroTier sanal ağı üzerinden erişilebilecektir.",
+        "allow_wan_tips": "Bu seçenek etkinleştirilirse, cihazın WAN tarafındaki kaynaklara ZeroTier sanal ağı üzerinden erişilebilecektir."
+    }
+}

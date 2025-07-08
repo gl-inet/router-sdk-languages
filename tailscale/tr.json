@@ -1,0 +1,24 @@
+{
+    "tailscale": {
+        "need_login_tips": "Tailscale hizmeti etkinleştirildi, ancak cihaz henüz bağlı değil. Lütfen bu cihazı Tailscale hesabınıza bağlamak için $$$$The Device Bind Link$$$$ kullanın.",
+        "need_mandate_tips": "Bu cihaz bir Tailscale hesabına bağlı, ancak henüz ağa erişim için yetkilendirilmemiş. Lütfen cihazın sanal ağınıza bağlanmasını yetkilendirmek için $$$$Tailscale Admin Console$$$$'a gidin. Bu sizin hesabınız değilse, lütfen önce bağlantıyı kaldırın.",
+        "enable_lan_tips": "Cihaz, Tailscale istemcilerinin LAN veya WAN'daki kaynaklara erişmesine zaten izin veriyor. Ancak, istemci isteklerinin Tailscale sanal ağı üzerinden cihaza iletilmesi için $$$$Tailscale Admin Console$$$$'da rota ayarlarını düzenlemeniz gerekiyor.",
+        "desc": "$$$$Tailscale$$$$, sahip olduğunuz cihazlara dünyanın her yerinden güvenli ve zahmetsiz bir şekilde erişmenizi sağlar. Şifreli noktadan noktaya bağlantılar sunar, bu da yalnızca özel ağınızdaki cihazların birbirleriyle iletişim kurabileceği anlamına gelir. Cihazlarınıza veya LAN'a uzaktan erişmek için kullanabilirsiniz.",
+        "custom_exit_node_tips": "Bu seçenek etkinleştirilirse, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, Tailscale'ın istemci isteklerini iletebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Admin Console$$$$'da etkinleştirmeniz gerekiyor; aksi takdirde istemcileriniz internete erişemeyecektir.",
+        "manual_node_label": "Özel Çıkış Düğümü",
+        "exit_node_label": "Çıkış Düğümü",
+        "ready_tips": "Cihaz, Tailscale sanal ağınıza bağlı.",
+        "enable_lan_label": "Uzaktan LAN Erişimine İzin Ver",
+        "account_label": "Hesabı Bağla",
+        "logout_btn": "Bağlantıyı Kes",
+        "current_ip_label": "Yönlendirici Sanal IP",
+        "get_url_err_msg": "Cihaz bağlama bağlantısı alınamadı.",
+        "enable_wan_label": "Uzaktan WAN Erişimine İzin Ver",
+        "allow_lan_tips": "Bu seçenek etkinleştirilirse, cihazın LAN içindeki kaynaklara Tailscale sanal ağı üzerinden erişime izin verilecektir.",
+        "allow_wan_tips": "Bu seçenek etkinleştirilirse, cihazın WAN tarafındaki kaynaklara Tailscale sanal ağı üzerinden erişime izin verilecektir.",
+        "exit_node_tips": "Seçtiğiniz Çıkış Düğümü kullanılamıyorsa veya internete erişemiyorsa, cihaz ayarları Tailscale'a senkronize edemeyecektir.",
+        "current_ip_tips": "Tailscale, 100.64.0.0/10 alt ağını kullanır ve bu, bir ISP tarafından atanmış bir adres veya VPN istemci adresi ile çakışabilir. WAN IP'niz veya VPN IP'niz bu alt ağ içinde bir adres ise, ağa bağlanamama sorununu önlemek için Tailscale'ı devre dışı bırakın.",
+        "custom_exit_node_warning": "Özel Çıkış Düğümünü etkinleştirirseniz, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, Tailscale'ın istemci isteklerini iletebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Admin Console$$$$'da etkinleştirmelisiniz; aksi takdirde istemcileriniz internete erişemeyecektir.",
+        "dns_warning_tips": "Bir intranet IP adresini DNS olarak kullanırken, DNS sunucusuna erişemeyebilirsiniz."
+    }
+}

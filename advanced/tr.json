@@ -1,0 +1,28 @@
+{
+    "luci": {
+        "uninstall_wraning_remove_dep_tips": "Bu işlem LuCI ve tüm bağımlılıklarını kaldıracaktır.",
+        "uninstall_done_desc": "İstediğiniz zaman yeniden yükleyebilirsiniz.",
+        "install_tips": "Gelişmiş Ayarları LuCI ile Değiştir",
+        "install_power_by_tips": "LuCI, OpenWrt tarafından sürdürülen açık ve bağımsız bir projedir.",
+        "install_btn": "Şimdi Yükle",
+        "insatlling_tips": "Yükleniyor...",
+        "install_fail_tips": "Kurulum başarısız oldu",
+        "check_network_tips": "Lütfen ağ bağlantınızı kontrol edin.",
+        "re_install_btn": "Yeniden Yükle",
+        "out_of_memory_tips": "Yeterli alan yok.",
+        "uninsatlling_tips": "Kaldırılıyor...",
+        "uninstall_luci_btn": "LuCI'yi kaldır",
+        "need_uninstall_tips": "Eğer ihtiyacınız yoksa, {do} yapabilirsiniz.",
+        "uninstall_btn": "Kaldır",
+        "uninstall_done_tips": "Kaldırma Tamamlandı",
+        "uninstall_wraning_tips": "LuCI'yi kaldırmak istediğinizden emin misiniz?"
+    },
+    "menu_advanced": "Gelişmiş Ayarlar",
+    "advanced": {
+        "note_two": "Bu düğmeye tıklamak sizi yerel LuCI sayfasına götürür. GL.iNet, LuCI bakımından sorumlu değildir.",
+        "note_one": "Gelişmiş ayarları, OpenWrt'nin varsayılan web kullanıcı arayüzü olan LuCI ile değiştirebilirsiniz. LuCI, OpenWrt tarafından sürdürülen açık ve bağımsız bir projedir.",
+        "go_to_luci_btn": "LuCI'ye Git",
+        "luci_security_tips": "LuCI güvenliği için, LuCI'ye uzaktan erişmeniz gerekiyorsa, lütfen LuCI portunu manuel olarak açın.",
+        "luci_rtty_tips": "LuCI'ye rtty aracılığıyla uzaktan erişmeniz gerekiyorsa, lütfen bulut platformundaki {port} portundan LuCI'ye erişin."
+    }
+}
