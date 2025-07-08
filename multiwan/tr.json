@@ -14,7 +14,7 @@
         "track_desc": "Yönlendirici, arayüzün kullanılabilir olup olmadığını belirlemek için hedef IP'ye bağlantının durumunu izler.",
         "track_enable_tips": "Takip devre dışı bırakılırsa, cihaz, arayüz bağlı olduğunda (örn. bir kablo takılıysa ve bir IP adresi alınmışsa) arayüzün İnternet'e bağlı olduğunu varsayacaktır.",
         "fault_condition_label": "Arıza Durumuna Değiştir",
-        "available_condition_label": "Kullanılabilir Duruma Geç",
+        "available_condition_label": "Kullanılabilir Duruma Değiştir",
         "fault_count": "$$$$ kez başarısız ol",
         "track_addr_label": "IP Takibi",
         "flush_track_label": "Zorla Akışları Yenile",
@@ -28,6 +28,7 @@
         "mode_balancing_note": "Not: Aktif bağlantılar veya trafik, yük oranını eşleştirmek için yeniden yönlendirilmez.",
         "priority_title": "Arayüz Önceliği",
         "track_method_label": "Takip Komutu",
-        "interval_label": "Takip Aralığı"
+        "interval_label": "Takip Aralığı",
+        "success_count": "$$$$ kez başarılı"
     }
 }
