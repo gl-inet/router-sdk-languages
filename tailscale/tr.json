@@ -15,7 +15,7 @@
         "get_url_err_msg": "Cihaz bağlama bağlantısı alınamadı.",
         "enable_wan_label": "Uzaktan WAN Erişimine İzin Ver",
         "allow_lan_tips": "Bu seçenek etkinleştirilirse, cihazın LAN içindeki kaynaklara Tailscale sanal ağı üzerinden erişime izin verilecektir.",
-        "allow_wan_tips": "Bu seçenek etkinleştirilirse, cihazın WAN tarafındaki kaynaklara Tailscale sanal ağı üzerinden erişilebilir.",
+        "allow_wan_tips": "Bu seçenek etkinleştirilirse, cihazın WAN tarafındaki kaynaklara Tailscale sanal ağı üzerinden erişime izin verilecektir.",
         "exit_node_tips": "Seçtiğiniz Çıkış Düğümü mevcut değilse veya internete erişemiyorsa, cihaz ayarları Tailscale'e senkronize edilemez.",
         "current_ip_tips": "Tailscale, 100.64.0.0/10 alt ağını kullanır; bu, ISS tarafından atanan bir adres veya VPN istemci adresiyle çakışabilir. WAN IP'niz veya VPN IP'niz bu alt ağdaysa, ağ bağlantısı sorunlarını önlemek için Tailscale'i devre dışı bırakın.",
         "custom_exit_node_warning": "Özel Çıkış Düğümü'nü etkinleştirirseniz, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, istemci isteklerinin iletilebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Yönetim Konsolu$$$$'nda etkinleştirmeniz gerekir; aksi takdirde istemcileriniz internete erişemez.",
