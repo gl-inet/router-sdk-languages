@@ -5,7 +5,7 @@
         "mode_label": "Mod",
         "tips": "Yönlendirici aynı anda birden fazla ağ arayüzüne bağlantıyı destekler. Bu çoklu ağların nasıl kullanılacağını yapılandırabilirsiniz.",
         "mode_failover_tips": "Yönlendirici otomatik olarak en yüksek öncelikli bir sonraki kullanılabilir arayüzü seçer.",
-        "mode_balancing_tips": "Sistem, yeni bağlantılar için arayüzleri yük oranına göre atayacaktır.",
+        "mode_balancing_tips": "Sistem, yük oranına göre yeni bağlantılara arayüzler atayacaktır.",
         "failover_label": "Yedekleme",
         "balancing_label": "Yük Dengeleme",
         "track_title": "Arayüz Durum Takibi",
@@ -24,6 +24,7 @@
         "sensitivity_options_label": "Hassasiyet Seçenekleri",
         "det_mode_label": "Tespit Modu",
         "failover_desc": "Yük Devretme: Mevcut, aktif bağlantı başarısız olursa, yönlendirici otomatik olarak başka bir ağ arayüzüne geçecektir.",
-        "balancing_desc": "Yük Dengeleme: Yönlendiricinin toplam bant genişliğini artırmak için aynı anda birden fazla ağ arayüzü kullanır. Aynı uygulamaya veya siteye bağlantıların genellikle yalnızca bir arayüz kullanacağını unutmayın."
+        "balancing_desc": "Yük Dengeleme: Yönlendiricinin toplam bant genişliğini artırmak için aynı anda birden fazla ağ arayüzü kullanır. Aynı uygulamaya veya siteye bağlantıların genellikle yalnızca bir arayüz kullanacağını unutmayın.",
+        "mode_balancing_note": "Not: Aktif bağlantılar veya trafik, yük oranını eşleştirmek için yeniden yönlendirilmez."
     }
 }
