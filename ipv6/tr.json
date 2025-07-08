@@ -9,7 +9,7 @@
         "dns_server": "DNS Sunucusu",
         "invalid_parameter": "Girdiğiniz format hatalı!",
         "dns_server_empty": "En az bir DNS sunucusu girin",
-        "tips": "IPv6 etkinleştirildiğinde, Ethernet gibi WAN arayüzleri IPv6 adreslerini DHCPv6 üzerinden alacaktır. Ayrıca IPv6 adresini Ethernet ayarları sayfasında manuel olarak değiştirebilirsiniz. Bazı özellikler (güvenlik duvarı, VPN, GoodCloud) henüz IPv6'yı desteklememektedir.",
+        "tips": "IPv6 etkinleştirildiğinde, Ethernet gibi WAN arayüzleri IPv6 adreslerini DHCPv6 aracılığıyla alacaktır. IPv6 adresini Ethernet ayarları sayfasından manuel olarak da değiştirebilirsiniz. Bazı özellikler (güvenlik duvarı, VPN, GoodCloud) henüz IPv6'yı desteklememektedir.",
         "native_tips": "Bu seçenek yalnızca özel ağlar için kullanılabilir, misafir ağı her zaman NAT6 modunu kullanır.",
         "use_tip": "IPv6 etkinleştirildiğinde, Ethernet gibi WAN arayüzleri IPv6 adreslerini DHCPv6 üzerinden alacaktır. Ayrıca IPv6 adresini Ethernet ayarları sayfasında manuel olarak değiştirebilirsiniz. Bazı özellikler ({features}) henüz IPv6'yı desteklememektedir.",
         "disable_dns_tips": "IPv6'yı devre dışı bırakmak istiyorsanız, {page} bir IPv4 adresi kullanmalıdır, aksi takdirde cihaz ağa bağlanamayabilir."
