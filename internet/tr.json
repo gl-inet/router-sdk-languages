@@ -320,7 +320,8 @@
         "physical_switch_to_vsim_tips": "Fiziksel SIM karttan modülün sanal SIM kartına (vSIM) geçeceksiniz. simo web sitesinden bir veri paketi satın aldığınızdan emin olmanız gerekir (Satın almak için cihazdaki QR kodunu tarayın). Ardından fiziksel SIM kartı cihazdan çıkarabilirsiniz.",
         "switch_to_label": "{slot}'a Geç",
         "vsim_switch_to_physical_tips": "Sanal SIM karttan (vSIM) fiziksel SIM karta geçeceksiniz. İnternete bağlanmak için fiziksel SIM kartınızı cihaz yuvasına takmanız gerekecek. Lütfen fiziksel SIM kartın takılı olduğundan emin olun.",
-        "sim_type_label": "SIM Kart Türü"
+        "sim_type_label": "SIM Kart Türü",
+        "modem_name_label": "Modem Adı"
     },
     "apn": {
         "enable_polling_tips": "Cihaz bir Verizon SIM kartı kullanıyorsa ve bu özellik etkinse, cihaz yeniden başlatıldıktan sonra ağ bağlantısı normal olana kadar 12 dakikaya kadar sürekli olarak APN'yi yoklayacaktır. Bu özellik yalnızca Verizon SIM kartları için geçerlidir.",
@@ -405,7 +406,8 @@
         "no_switching_tips": "Geçiş Yok modu etkinleştirildiğinde, mevcut Wi-Fi bağlantısı kesildiğinde diğer kaydedilmiş ağlar otomatik olarak bağlanmayacaktır.",
         "auto_switching_tips": "Otomatik Geçiş modu etkinleştirildiğinde, yönlendirici mevcut Wi-Fi bağlantısı kesildiğinde diğer kaydedilmiş ağlara bağlanmaya çalışacaktır.",
         "repeater_not_auto_scan_tips": "{mode} modu şu anda etkin. Ve yönlendirici tekrarlayıcı olmayan modda internete başarıyla bağlanırsa, tekrarlayıcı otomatik olarak ağ taraması yapmayacaktır.",
-        "portal_go_to_auth_page_tips": "{ssid}'ye bağlandı. İnternete erişmek için lütfen Kimlik Doğrulama sayfasında oturum açın."
+        "portal_go_to_auth_page_tips": "{ssid}'ye bağlandı. İnternete erişmek için lütfen Kimlik Doğrulama sayfasında oturum açın.",
+        "tap_icon_tips": "Simgeye tıklayarak Wi-Fi kanalı ipucunu tekrar gösterin."
     },
     "router_visual": {
         "wlan_client": "WLAN İstemcileri",
