@@ -1,1 +1,37 @@
-{}
+{
+    "plugins": {
+        "update": "Güncelle",
+        "install": "Yükle",
+        "uninstall": "Kaldır",
+        "no_packages": "Yazılım paketi yok",
+        "free_space": "Boş alan:",
+        "filter": "Filtrele",
+        "search_package": "Paket Ara",
+        "name": "Ad",
+        "version": "Sürüm",
+        "size": "Boyut",
+        "action": "Eylem",
+        "confirm_uninsatll_dependency": "Bağımlılıkları Kaldır",
+        "no_install": "Yüklenmedi",
+        "installed": "Yüklü",
+        "available_update": "Mevcut Güncelleme",
+        "user_retention": "Ayrılmış",
+        "all": "Tümü",
+        "system_tip": "Yazılım paketi yönlendiricinin temel sisteminin bir parçasıdır ve kaldırılamaz.",
+        "time_last_update": "Son Yenileme Zamanı:",
+        "loading_tips": "Liste Yenileniyor, lütfen bekleyin...",
+        "edit_sources_btn": "Kaynakları Yönet",
+        "add_sources_tips": "Tüm yazılım kaynaklarının sıkıştırılmış formatı src/gz'dir.",
+        "add_sources_title": "Özel Yazılım Kaynağı Ekle",
+        "install_success": "Kurulum başarılı",
+        "install_faile": "Kurulum başarısız oldu",
+        "uninstall_success": "Kaldırma başarılı",
+        "uninstall_faile": "Kaldırma başarısız oldu",
+        "package_info": "Paket Bilgisi",
+        "go": "Git",
+        "uninstall_caution": "Kaldırmak istediğinizden emin misiniz?",
+        "tips": "Depo listesi güncellenemedi, lütfen ağınızı kontrol edin ve tekrar deneyin.",
+        "system": "Sistem"
+    },
+    "menu_plugins": "Eklentiler"
+}
