@@ -20,7 +20,7 @@
         "flush_track_label": "Zorla Akışları Yenile",
         "interface_state_label": "Ağ Durumu",
         "passive_label": "Düşük Veri Modu",
-        "sensitivity_tips": "Bu hassasiyet, İnternet durum tespiti için zaman aralığını belirler. İnternet erişimi dengesiz olduğunda sık ağ geçişlerini önlemek için düşük hassasiyet kullanılması önerilir; video veya canlı yayın yaparken hızlı İnternet erişimi geçişi sağlamak için yüksek hassasiyet kullanılması önerilir; yüksek hassasiyete geçmek ağ bağlantısının kesilmesine neden olabilir. Dikkatli ayarlayınız.",
+        "sensitivity_tips": "Bu hassasiyet, İnternet durumu algılaması için zaman aralığını belirler. İnternet erişimi kararsız olduğunda sık ağ geçişini önlemek için düşük hassasiyet kullanılması tavsiye edilir; video veya canlı yayın yaparken İnternet erişimini hızlı bir şekilde değiştirebildiğinizden emin olmak için yüksek hassasiyet kullanılması tavsiye edilir; yüksek hassasiyete geçiş ağ bağlantısının kesilmesine neden olabilir. Lütfen dikkatli ayarlayın.",
         "sensitivity_options_label": "Hassasiyet Seçenekleri",
         "det_mode_label": "Tespit Modu",
         "failover_desc": "Yük Devretme: Mevcut, aktif bağlantı başarısız olursa, yönlendirici otomatik olarak başka bir ağ arayüzüne geçecektir.",
@@ -35,6 +35,8 @@
         "enable_check_label": "Arayüz Durum Takibini Etkinleştir",
         "balancing_warning_tips": "Dengeli yükün düzgün çalışması için sıfır olmayan yük oranlarına sahip en az iki arayüz yapılandırılmalıdır. Sıfır olmayan yük oranına sahip bağlanabilir bir İnternet arayüzü yoksa, cihaz İnternet'e bağlanamayacaktır.",
         "track_mode_label": "Düşük Veri Modu",
-        "sensitivity_label": "Hassasiyet"
+        "sensitivity_label": "Hassasiyet",
+        "track_mode_tips": "Bu seçenek etkinleştirilirse, yalnızca bir arayüz ağ hatası olduğunda takip edecektir. Veri trafiği faturalandırması kullanan arayüzler için etkinleştirilmesi tavsiye edilir.",
+        "network_tracking_title": "{interface} Durum Takibi"
     }
 }
