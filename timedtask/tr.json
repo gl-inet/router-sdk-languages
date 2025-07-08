@@ -1,1 +1,39 @@
-{}
+{
+    "menu_timedtask": "Zamanlanmış Görevler",
+    "timedtask": {
+        "desc": "Cihaz belirlenen zamanda kapatılırsa, görev yürütülmeyecektir.",
+        "on_time_label": "Zaman Açma",
+        "off_time_label": "Zaman Kapatma",
+        "reboot_title": "Zamanlanmış Yeniden Başlatma",
+        "reboot_time_label": "Yeniden Başlatma Zamanı",
+        "wifi_mode_label": "Wi-Fi Zamanlanmış Mod",
+        "wifi_turn_onoff_label": "Aç/Kapat",
+        "wifi_power_switch_label": "TX Gücünü Değiştir",
+        "enable_wifi_label": "Ana Wi-Fi Zamanlamasını Etkinleştir",
+        "enable_guest_wifi_label": "Misafir Wi-Fi Zamanlamasını Etkinleştir",
+        "host_wifi_title": "Ana Wi-Fi",
+        "guest_wifi_title": "Misafir Wi-Fi",
+        "switch_label": "Ayarla",
+        "switch_time_label": "Anahtar",
+        "restore_label": "Ayarla",
+        "restore_time_label": "Geri Yükle",
+        "enable_scheduled_label": "Zamanlanmış Etkinleştir",
+        "led_title": "LED Görüntüleme Zamanlaması",
+        "wifi_title": "$$$$ Wi-Fi Durum Zamanlaması",
+        "lcd_title": "LCD Ekran Zamanlaması"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Anahtar Tx Gücü",
+        "off_on_label": "{offTime} Kapalı, {onTime} Açık",
+        "schedule_settings_title": "Zamanlama Ayarları",
+        "add_schedule_title": "Zamanlama Ekle",
+        "set_schedule_title": "Zamanlamayı Düzenle",
+        "off_common_title": "{label} Kapalı",
+        "on_time_label": "Wi-Fi Açılma Zamanı",
+        "off_time_info_tip": "Wi-Fi Kapalı: {start} - {end}",
+        "schedule_title": "Wi-Fi Zamanlaması",
+        "off_time_label": "Wi-Fi Kapatma Süresi",
+        "on_off_task_enabled_tips": "{label} için Wi-Fi zamanlaması etkinleştirildi. Zamanlamaları {page} üzerinden yönetin.",
+        "main_and_guest_wifi_label": "Ana ve Misafir Wi-Fi"
+    }
+}
