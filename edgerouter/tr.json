@@ -10,7 +10,7 @@
         "modify_self_router_desc": "Drop-in gateway kullanması gereken bazı cihazlarda ağ geçidi adresini drop-in gateway'in IP adresine manuel olarak değiştirmeniz gerekir.",
         "configuration_method_label": "Yapılandırma yöntemi",
         "desc": "Aracısız ağ geçidi modu etkinleştirildiğinde, ağdaki istemcilerden gelen tüm trafik önce bu yönlendirici tarafından işlenir. Bu modu birincil yönlendiricinizin işlevselliğini genişletmek için kullanabilirsiniz.",
-        "enable_label": "Drop-in Gateway Modunu Etkinleştir",
+        "enable_label": "Aracısız Ağ Geçidi Modunu Etkinleştir",
         "dhcp_closed_tips": "Ana yönlendiricideki DHCP servisi devre dışı bırakıldı, drop-in gateway çalışıyor.",
         "dhcp_on_tips": "Ana yönlendiricide DHCP servisi hala etkin. Drop-in gateway düzgün çalışmayabilir. Lütfen $$$$ana yönlendirici yönetim paneli$$$$ üzerinden DHCP servisini devre dışı bırakın veya ağ geçidini {ip} olarak ayarlayın.",
         "enable_tips": "Drop-in gateway modu etkinleştirildiğinde, bu yönlendiricinin DNS ayarları ana yönlendiriciden gelenler yerine kullanılır.",
