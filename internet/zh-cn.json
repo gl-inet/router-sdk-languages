@@ -113,7 +113,9 @@
         "portal_entered_bare_mode_tips": "设备处于公共热点登录模式。成功登录后，此路由器将自动退出该模式。{exit}",
         "portal_need_enter_bare_mode_tip": "无法通过此Wi-Fi热点访问互联网。点击{portal}以继续访问互联网。",
         "portal_need_click_next_tips": "无法通过此Wi-Fi热点访问互联网。点击“{btn}”按钮进入公共热点登录模式以继续访问互联网。",
-        "portal_show_disable_detail_btn": "此模式禁用的详细说明"
+        "portal_show_disable_detail_btn": "此模式禁用的详细说明",
+        "portal_disable_vpn_tips": "同时，设备在退出该模式前将不经由VPN路由流量，可能导致数据泄露给热点提供商（如酒店/商场）。",
+        "portal_disable_feature_tips": "此模式将自动临时禁用{feature}。"
     },
     "modem": {
         "title": "蜂窝网络",
