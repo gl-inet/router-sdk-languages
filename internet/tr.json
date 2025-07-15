@@ -407,7 +407,12 @@
         "auto_switching_tips": "Otomatik Geçiş modu etkinleştirildiğinde, yönlendirici mevcut Wi-Fi bağlantısı kesildiğinde diğer kaydedilmiş ağlara bağlanmaya çalışacaktır.",
         "repeater_not_auto_scan_tips": "{mode} modu şu anda etkin. Ve yönlendirici tekrarlayıcı olmayan modda internete başarıyla bağlanırsa, tekrarlayıcı otomatik olarak ağ taraması yapmayacaktır.",
         "portal_go_to_auth_page_tips": "{ssid}'ye bağlandı. İnternete erişmek için lütfen Kimlik Doğrulama sayfasında oturum açın.",
-        "tap_icon_tips": "Simgeye tıklayarak Wi-Fi kanalı ipucunu tekrar gösterin."
+        "tap_icon_tips": "Simgeye tıklayarak Wi-Fi kanalı ipucunu tekrar gösterin.",
+        "portal_entered_bare_mode_tips": "Cihaz, Halka Açık Hotspot'lar için Giriş Modunda. Başarılı giriş sonrasında bu yönlendirici otomatik olarak bu moddan çıkacaktır. {exit}",
+        "portal_need_enter_bare_mode_tip": "Bu Wi-Fi erişim noktası üzerinden internete erişilemiyor. İnternete erişmeye devam etmek için {portal} üzerine tıklayın.",
+        "portal_need_click_next_tips": "Bu Wi-Fi erişim noktası üzerinden internete erişilemiyor. İnternete erişmeye devam etmek için \"{btn}\" düğmesine tıklayarak Halka Açık Erişim Noktası Giriş Modu'na girin.",
+        "portal_show_disable_detail_btn": "Bu modunun devre dışı bıraktığı özellikler hakkında detaylar",
+        "regionally_allowed_channel_tips": "Bu yönlendirici yalnızca mevcut bölge tarafından izin verilen Wi-Fi kanal sinyallerini arayabilir."
     },
     "router_visual": {
         "wlan_client": "WLAN İstemcileri",
