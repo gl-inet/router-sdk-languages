@@ -290,7 +290,9 @@
         "portal_entered_bare_mode_tips": "Az eszköz nyilvános hotspotok bejelentkezési módjában van. A sikeres bejelentkezés után a router automatikusan kilép ebből a módból. {exit}",
         "portal_need_enter_bare_mode_tip": "Nem lehet elérni az internetet ezen a Wi-Fi hotspoton keresztül. Kattintson a {portal} gombra az internet további eléréséhez.",
         "portal_need_click_next_tips": "Nem lehet internethez csatlakozni ezen a Wi-Fi hotspoton keresztül. Kattintson a \"{btn}\" gombra a Nyilvános Hotspot Bejelentkezési Módba lépéshez az internet további használatához.",
-        "portal_show_disable_detail_btn": "A mód által letiltott funkciók részletes leírása"
+        "portal_show_disable_detail_btn": "A mód által letiltott funkciók részletes leírása",
+        "portal_disable_vpn_tips": "Egyidejűleg az eszköz VPN nélkül irányítja a forgalmat, amíg a mód nem szűnik meg, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. szálloda/bevásárlóközpont).",
+        "portal_disable_feature_tips": "Ez a mód automatikusan és ideiglenesen letiltja a {feature} funkciót."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
