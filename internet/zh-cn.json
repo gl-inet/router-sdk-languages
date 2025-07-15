@@ -109,7 +109,11 @@
         "repeater_not_auto_scan_tips": "当前{mode}模式已启用，路由器非中继方式联网成功，中继不会自动进行网络扫描。",
         "portal_go_to_auth_page_tips": "已连接至{ssid}。请前往认证页面登录以访问互联网。",
         "regionally_allowed_channel_tips": "本路由器仅能搜索当前区域允许的 Wi-Fi 信道信号。",
-        "tap_icon_tips": "点击图标可再次显示 Wi-Fi 信道提示。"
+        "tap_icon_tips": "点击图标可再次显示 Wi-Fi 信道提示。",
+        "portal_entered_bare_mode_tips": "设备处于公共热点登录模式。成功登录后，此路由器将自动退出该模式。{exit}",
+        "portal_need_enter_bare_mode_tip": "无法通过此Wi-Fi热点访问互联网。点击{portal}以继续访问互联网。",
+        "portal_need_click_next_tips": "无法通过此Wi-Fi热点访问互联网。点击“{btn}”按钮进入公共热点登录模式以继续访问互联网。",
+        "portal_show_disable_detail_btn": "此模式禁用的详细说明"
     },
     "modem": {
         "title": "蜂窝网络",
