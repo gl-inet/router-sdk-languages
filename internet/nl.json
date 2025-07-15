@@ -113,7 +113,9 @@
         "portal_entered_bare_mode_tips": "Het apparaat bevindt zich in de aanmeldmodus voor openbare hotspots. Na succesvolle aanmelding verlaat deze router automatisch deze modus. {exit}",
         "portal_need_enter_bare_mode_tip": "Kan niet via dit Wi-Fi-hotspot toegang krijgen tot het internet. Klik op {portal} om door te gaan met internettoegang.",
         "portal_need_click_next_tips": "Kan niet via dit Wi-Fi-hotspot toegang krijgen tot het internet. Klik op de knop \"{btn}\" om naar de Openbare Hotspot Login-modus te gaan om verder toegang te krijgen tot het internet.",
-        "portal_show_disable_detail_btn": "Details over wat deze modus uitschakelt"
+        "portal_show_disable_detail_btn": "Details over wat deze modus uitschakelt",
+        "portal_disable_vpn_tips": "Tegelijkertijd zal het apparaat verkeer routeren zonder VPN totdat de modus wordt verlaten, wat kan leiden tot gegevenslekken naar de aanbieder van het hotspotnetwerk (bijv. hotel/winkelcentrum).",
+        "portal_disable_feature_tips": "Deze modus zal {feature} automatisch en tijdelijk uitschakelen."
     },
     "modem": {
         "title": "Mobiel",
