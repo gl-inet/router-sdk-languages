@@ -216,7 +216,11 @@
         "repeater_not_auto_scan_tips": "{mode} veiksena šiuo metu yra įjungta. ir maršrutizatorius sėkmingai prisijungia prie interneto ne kartotuvo veiksenoje, kartotuvas automatiškai neatliks tinklo nuskaitymo.",
         "portal_go_to_auth_page_tips": "Pri(si)jungta prie {ssid}. Norėdami pasinaudoti internetu, prisijunkite $$$$Autentifikacijos puslapyje$$$$.",
         "regionally_allowed_channel_tips": "Šis maršrutizatorius gali ieškoti tik „Wi-Fi“ kanalų signalų, kuriuos leidžia dabartinis regionas.",
-        "tap_icon_tips": "Spustelėkite piktogramą, kad vėl parodytumėte „Wi-Fi“ kanalo patarimą."
+        "tap_icon_tips": "Spustelėkite piktogramą, kad vėl parodytumėte „Wi-Fi“ kanalo patarimą.",
+        "portal_entered_bare_mode_tips": "Įrenginys yra Viešųjų prieigos taškų prisijungimo veiksenoje. Sėkmingai prisijungus, šis maršrutizatorius automatiškai išeina iš šios veiksenos. {exit}",
+        "portal_need_enter_bare_mode_tip": "Nepavyksta pasiekti interneto per šią „Wi-Fi“ prieigos tašką. Spustelėkite {portal}, kad tęstumėte interneto naudojimą.",
+        "portal_need_click_next_tips": "Nepavyksta pasiekti interneto per šią „Wi-Fi“ prieigos tašką. Spustelėkite mygtuką „{btn}“, kad įvestumėte Viešojo prieigos taško prisijungimo veikseną ir tęstumėte naudotis internetu.",
+        "portal_show_disable_detail_btn": "Išsamesnės informacijos apie tai, ką ši veiksena išjungia"
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
