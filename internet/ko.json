@@ -113,7 +113,9 @@
         "portal_entered_bare_mode_tips": "이 장치는 공용 핫스팟을 위한 로그인 모드입니다. 로그인에 성공하면 이 라우터는 자동으로 이 모드를 종료합니다. {exit}",
         "portal_need_enter_bare_mode_tip": "이 Wi-Fi 핫스팟을 통해 인터넷에 접속할 수 없습니다. 인터넷 계속 사용을 원하시면 {portal}을 클릭하세요.",
         "portal_need_click_next_tips": "이 Wi-Fi 핫스팟을 통해 인터넷에 접속할 수 없습니다. \"{btn}\" 버튼을 클릭하여 공공 핫스팟 로그인 모드로 진입하여 인터넷 접속을 계속하세요.",
-        "portal_show_disable_detail_btn": "이 모드에서 비활성화되는 기능에 대한 상세 정보"
+        "portal_show_disable_detail_btn": "이 모드에서 비활성화되는 기능에 대한 상세 정보",
+        "portal_disable_vpn_tips": "동시에, 이 모드가 종료될 때까지 장치는 VPN 없이 트래픽을 라우팅하며, 이는 핫스팟 제공자(예: 호텔/쇼핑몰)에게 데이터가 유출될 수 있음을 의미합니다.",
+        "portal_disable_feature_tips": "이 모드는 {feature}을(를) 자동으로 일시적으로 비활성화합니다."
     },
     "modem": {
         "title": "셀룰러",
