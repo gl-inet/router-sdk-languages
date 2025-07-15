@@ -110,13 +110,13 @@
         "portal_go_to_auth_page_tips": "{ssid}に接続しました。インターネットにアクセスするには、認証ページでログインしてください。",
         "regionally_allowed_channel_tips": "このルーターは現在の地域で許可されているWi-Fiチャンネル信号のみを検索できます。",
         "tap_icon_tips": "Wi-Fiチャンネルのヒントを再度表示させるにはアイコンをクリックします。",
-        "portal_entered_bare_mode_tips": "このデバイスは公共ホットスポット用のログインモードです。ログインに成功すると、このルーターは自動的にこのモードを終了します。{exit}",
+        "portal_entered_bare_mode_tips": "デバイスは公共ホットスポット用のログインモードになっています。ログインに成功すると、このモードは自動的に終了します。{exit}",
         "portal_need_enter_bare_mode_tip": "このWi-Fiホットスポット経由でインターネットにアクセスできません。インターネット接続を続けるには{portal}をクリックしてください。",
-        "portal_need_click_next_tips": "このWi-Fiホットスポット経由でインターネットにアクセスできません。「{btn}」ボタンをクリックして、パブリックホットスポットログインモードに入り、インターネットへのアクセスを続行してください。",
+        "portal_need_click_next_tips": "このWi-Fiホットスポット経由でインターネットにアクセスできません。\"{btn}\"ボタンをクリックして、公共ホットスポット用ログインモードに入り、インターネットへのアクセスを続行してください。",
         "portal_show_disable_detail_btn": "このモードで無効化される内容の詳細",
-        "portal_disable_vpn_tips": "同時に、デバイスはこのモードを終了するまでVPNなしでトラフィックをルーティングするため、ホットスポットの提供者（例：ホテル/ショッピングモール）へのデータ漏洩が発生する可能性があります。",
-        "portal_disable_feature_tips": "このモードは自動的に一時的に{feature}を無効にします。",
-        "portal_auth_required_title": "ポータル認証が必要です"
+        "portal_disable_vpn_tips": "同時に、デバイスはこのモードを終了するまでVPNなしでトラフィックをルーティングするため、ホットスポットの提供者（例：ホテルやショッピングモール）へのデータ漏洩が発生する可能性があります。",
+        "portal_disable_feature_tips": "このモードは自動的かつ一時的に{feature}を無効にします。",
+        "portal_auth_required_title": "ポータル認証が必要"
     },
     "modem": {
         "title": "セルラー",
