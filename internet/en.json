@@ -113,7 +113,9 @@
         "portal_entered_bare_mode_tips": "The device is in Login Mode for Public Hotspots. After successful login, this router automatically quit this mode. {exit}",
         "portal_need_enter_bare_mode_tip": "Can't access the internet via this Wi-Fi hotspot. Click {portal} to continue accessing the internet.",
         "portal_need_click_next_tips": "Can't access the internet via this Wi-Fi hotspot. Click the \"{btn}\" button to enter Public Hotspot Login Mode to continue accessing the internet.",
-        "portal_show_disable_detail_btn": "Details about what this mode disables"
+        "portal_show_disable_detail_btn": "Details about what this mode disables",
+        "portal_disable_vpn_tips": "Concurrently, the device will route traffic without VPN until the mode is exited, which may cause data leak to the provider of the hotspot (e.g., hotel/mall).",
+        "portal_disable_feature_tips": "This mode will automatically and temporarily disable {feature}."
     },
     "modem": {
         "title": "Cellular",
