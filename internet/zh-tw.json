@@ -113,7 +113,9 @@
         "portal_entered_bare_mode_tips": "設備處於公共熱點登入模式。登入成功後，此路由器將自動退出此模式。{exit}",
         "portal_need_enter_bare_mode_tip": "無法透過此Wi-Fi熱點訪問互聯網。點擊{portal}以繼續訪問互聯網。",
         "portal_need_click_next_tips": "無法透過此Wi-Fi熱點訪問互聯網。點擊「{btn}」按鈕進入公共熱點登錄模式以繼續訪問互聯網。",
-        "portal_show_disable_detail_btn": "此模式所禁用的详细内容"
+        "portal_show_disable_detail_btn": "此模式所禁用的详细内容",
+        "portal_disable_vpn_tips": "同時，裝置將在未啟用VPN的情況下路由流量，直到退出該模式為止，這可能導致數據洩露給熱點提供者（例如酒店/商場）。",
+        "portal_disable_feature_tips": "此模式將自動且暫時停用{feature}。"
     },
     "modem": {
         "title": "行動網路",
