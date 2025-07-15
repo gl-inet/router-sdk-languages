@@ -109,7 +109,11 @@
         "repeater_not_auto_scan_tips": "La modalità {mode} è attualmente abilitata e il router si connette con successo a Internet in modalità non ripetitore, il ripetitore non eseguirà automaticamente la scansione della rete.",
         "portal_go_to_auth_page_tips": "Connesso a {ssid}. Effettua l'accesso nella pagina di Autenticazione per accedere a internet.",
         "regionally_allowed_channel_tips": "Questo router può solo cercare i segnali del canale Wi-Fi consentiti dalla regione corrente.",
-        "tap_icon_tips": "Fare clic sull'icona per mostrare nuovamente il suggerimento sul canale Wi-Fi."
+        "tap_icon_tips": "Fare clic sull'icona per mostrare nuovamente il suggerimento sul canale Wi-Fi.",
+        "portal_entered_bare_mode_tips": "Il dispositivo è in Modalità di Accesso per Hotspot Pubblici. Dopo il login avvenuto con successo, questo router uscirà automaticamente da questa modalità. {exit}",
+        "portal_need_enter_bare_mode_tip": "Non è possibile accedere a Internet tramite questo hotspot Wi-Fi. Fare clic su {portal} per continuare a navigare su Internet.",
+        "portal_need_click_next_tips": "Non è possibile accedere a Internet tramite questo hotspot Wi-Fi. Fare clic sul pulsante \"{btn}\" per entrare nella Modalità di Accesso Hotspot Pubblico e continuare a navigare su Internet.",
+        "portal_show_disable_detail_btn": "Dettagli su cosa disattiva questa modalità."
     },
     "modem": {
         "title": "Cellulare",
