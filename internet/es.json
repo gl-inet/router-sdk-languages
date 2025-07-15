@@ -113,7 +113,9 @@
         "portal_entered_bare_mode_tips": "El dispositivo está en Modo de Inicio de Sesión para Puntos de Acceso Públicos. Después de un inicio de sesión exitoso, este router saldrá automáticamente de este modo. {exit}",
         "portal_need_enter_bare_mode_tip": "No se puede acceder a Internet a través de este punto de acceso Wi-Fi. Haga clic en {portal} para continuar accediendo a Internet.",
         "portal_need_click_next_tips": "No se puede acceder a Internet a través de este punto de acceso Wi-Fi. Haga clic en el botón \"{btn}\" para ingresar al Modo de Inicio de Sesión de Punto de Acceso Público y continuar con el acceso a Internet.",
-        "portal_show_disable_detail_btn": "Detalles sobre lo que este modo desactiva."
+        "portal_show_disable_detail_btn": "Detalles sobre lo que este modo desactiva.",
+        "portal_disable_vpn_tips": "Al mismo tiempo, el dispositivo enrutará el tráfico sin VPN hasta que se salga del modo, lo que puede provocar una fuga de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial).",
+        "portal_disable_feature_tips": "Este modo desactivará automática y temporalmente {feature}."
     },
     "modem": {
         "title": "Móvil",
