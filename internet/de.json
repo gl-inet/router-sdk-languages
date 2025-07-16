@@ -109,7 +109,14 @@
         "repeater_not_auto_scan_tips": "Der {mode}-Modus ist derzeit aktiviert. und der Router verbindet sich erfolgreich mit dem Internet im Nicht-Repeater-Modus, der Repeater führt keine automatische Netzwerksuche durch.",
         "portal_go_to_auth_page_tips": "Mit {ssid} verbunden. Bitte melden Sie sich auf der Authentifizierungsseite an, um auf das Internet zuzugreifen.",
         "regionally_allowed_channel_tips": "Dieser Router kann nur nach WLAN-Kanalsignalen suchen, die in der aktuellen Region zulässig sind.",
-        "tap_icon_tips": "Klicken Sie auf das Symbol, um den WLAN-Kanalhinweis erneut anzuzeigen."
+        "tap_icon_tips": "Klicken Sie auf das Symbol, um den WLAN-Kanalhinweis erneut anzuzeigen.",
+        "portal_entered_bare_mode_tips": "Das Gerät befindet sich im Anmeldemodus für öffentliche Hotspots. Nach erfolgreicher Anmeldung verlässt dieser Router automatisch diesen Modus. {exit}",
+        "portal_need_enter_bare_mode_tip": "Über diesen WLAN-Hotspot kann nicht auf das Internet zugegriffen werden. Klicken Sie auf {portal}, um den Internetzugang fortzusetzen.",
+        "portal_need_click_next_tips": "Kann nicht über diesen WLAN-Hotspot auf das Internet zugreifen. Klicken Sie auf die Schaltfläche \"{btn}\", um den Public Hotspot Login Mode zu aktivieren und weiterhin auf das Internet zuzugreifen.",
+        "portal_show_disable_detail_btn": "Einzelheiten darüber, was dieser Modus deaktiviert",
+        "portal_disable_vpn_tips": "Gleichzeitig wird das Gerät den Datenverkehr ohne VPN weiterleiten, bis der Modus beendet wird, was zu Datenlecks beim Anbieter des Hotspots (z. B. Hotel/Einkaufszentrum) führen kann.",
+        "portal_disable_feature_tips": "Dieser Modus wird {feature} automatisch und vorübergehend deaktivieren.",
+        "portal_auth_required_title": "Portal-Authentifizierung erforderlich"
     },
     "modem": {
         "title": "Mobilfunknetz",

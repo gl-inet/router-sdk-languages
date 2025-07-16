@@ -109,7 +109,14 @@
         "repeater_not_auto_scan_tips": "當前{mode}模式已啟用，路由器非中繼管道聯網成功，中繼不會自動進行網路掃描。",
         "portal_go_to_auth_page_tips": "已連接至{ssid}。請登入認證頁面以存取網際網路。",
         "regionally_allowed_channel_tips": "此路由器僅能搜尋當前區域允許的 Wi-Fi 信道信號。",
-        "tap_icon_tips": "點擊圖標可再次顯示 Wi-Fi 信道提示。"
+        "tap_icon_tips": "點擊圖標可再次顯示 Wi-Fi 信道提示。",
+        "portal_entered_bare_mode_tips": "設備處於公共熱點登入模式。登入成功後，此路由器將自動退出此模式。{exit}",
+        "portal_need_enter_bare_mode_tip": "無法透過此Wi-Fi熱點訪問互聯網。點擊{portal}以繼續訪問互聯網。",
+        "portal_need_click_next_tips": "無法透過此Wi-Fi熱點訪問互聯網。點擊「{btn}」按鈕進入公共熱點登錄模式以繼續訪問互聯網。",
+        "portal_show_disable_detail_btn": "此模式所禁用的详细内容",
+        "portal_disable_vpn_tips": "同時，裝置將在未啟用VPN的情況下路由流量，直到退出該模式為止，這可能導致數據洩露給熱點提供者（例如酒店/商場）。",
+        "portal_disable_feature_tips": "此模式將自動且暫時停用{feature}。",
+        "portal_auth_required_title": "需要進行入口認證"
     },
     "modem": {
         "title": "行動網路",

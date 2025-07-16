@@ -34,6 +34,11 @@
         "schedule_title": "Wi-Fi Schedule",
         "off_time_label": "Wi-Fi Off Time",
         "on_off_task_enabled_tips": "Wi-Fi scheduling for {label} is enabled. Manage schedules in {page}.",
-        "main_and_guest_wifi_label": "Main and Guest Wi-Fi"
+        "main_and_guest_wifi_label": "Main and Guest Wi-Fi",
+        "off_next_on_label": "{offTime} Off, Next Day {onTime} On"
+    },
+    "time": {
+        "next_day_label": "Next Day",
+        "on_off_run_tips": "Wi-Fi status changes only at the start and end of the schedule."
     }
 }

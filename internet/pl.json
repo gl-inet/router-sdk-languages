@@ -74,7 +74,14 @@
         "repeater_not_auto_scan_tips": "Tryb {mode} jest obecnie włączony. a router pomyślnie łączy się z internetem w trybie innym niż repeater, repeater nie będzie automatycznie wykonywał skanowania sieci.",
         "portal_go_to_auth_page_tips": "Połączono z {ssid}. Aby uzyskać dostęp do internetu, zaloguj się na stronie uwierzytelniania.",
         "regionally_allowed_channel_tips": "Ten router może wyszukiwać tylko sygnały kanałów Wi-Fi dozwolone w bieżącym regionie.",
-        "tap_icon_tips": "Kliknij ikonę, aby ponownie wyświetlić podpowiedź dotyczącą kanału Wi-Fi."
+        "tap_icon_tips": "Kliknij ikonę, aby ponownie wyświetlić podpowiedź dotyczącą kanału Wi-Fi.",
+        "portal_entered_bare_mode_tips": "Urządzenie jest w trybie logowania dla publicznych hotspotów. Po pomyślnym zalogowaniu router automatycznie opuści ten tryb. {exit}",
+        "portal_need_enter_bare_mode_tip": "Nie można uzyskać dostępu do internetu za pośrednictwem tego hotspotu Wi-Fi. Kliknij {portal}, aby kontynuować korzystanie z internetu.",
+        "portal_need_click_next_tips": "Nie można uzyskać dostępu do internetu za pośrednictwem tego hotspotu Wi-Fi. Kliknij przycisk \"{btn}\", aby przejść do trybu logowania do publicznego hotspotu i kontynuować korzystanie z internetu.",
+        "portal_show_disable_detail_btn": "Szczegóły dotyczące tego, co ten tryb wyłącza.",
+        "portal_disable_vpn_tips": "Jednocześnie urządzenie będzie kierować ruchem bez użycia VPN do momentu wyjścia z trybu, co może spowodować wyciek danych do dostawcy hotspotu (np. hotel/centrum handlowe).",
+        "portal_disable_feature_tips": "Ten tryb automatycznie i tymczasowo wyłączy funkcję {feature}.",
+        "portal_auth_required_title": "Wymagane uwierzytelnienie portalu"
     },
     "cable": {
         "title": "Ethernet",

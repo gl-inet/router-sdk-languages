@@ -109,7 +109,14 @@
         "repeater_not_auto_scan_tips": "El modo {mode} está actualmente habilitado. y el router se conecta con éxito a internet en modo no repetidor, el repetidor no realizará automáticamente el escaneo de red.",
         "portal_go_to_auth_page_tips": "Conectado a {ssid}. Por favor, inicie sesión en la página de Autenticación para acceder a internet.",
         "regionally_allowed_channel_tips": "Este router solo puede buscar señales de canal Wi-Fi permitidas por la región actual.",
-        "tap_icon_tips": "Haga clic en el icono para mostrar nuevamente el consejo del canal Wi-Fi."
+        "tap_icon_tips": "Haga clic en el icono para mostrar nuevamente el consejo del canal Wi-Fi.",
+        "portal_entered_bare_mode_tips": "El dispositivo está en Modo de Inicio de Sesión para Puntos de Acceso Públicos. Después de un inicio de sesión exitoso, este router saldrá automáticamente de este modo. {exit}",
+        "portal_need_enter_bare_mode_tip": "No se puede acceder a Internet a través de este punto de acceso Wi-Fi. Haga clic en {portal} para continuar accediendo a Internet.",
+        "portal_need_click_next_tips": "No se puede acceder a Internet a través de este punto de acceso Wi-Fi. Haga clic en el botón \"{btn}\" para ingresar al Modo de Inicio de Sesión de Punto de Acceso Público y continuar con el acceso a Internet.",
+        "portal_show_disable_detail_btn": "Detalles sobre lo que este modo desactiva.",
+        "portal_disable_vpn_tips": "Al mismo tiempo, el dispositivo enrutará el tráfico sin VPN hasta que se salga del modo, lo que puede provocar una fuga de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial).",
+        "portal_disable_feature_tips": "Este modo desactivará automática y temporalmente {feature}.",
+        "portal_auth_required_title": "Autenticación de Portal Requerida"
     },
     "modem": {
         "title": "Móvil",

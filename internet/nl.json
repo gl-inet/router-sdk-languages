@@ -109,7 +109,14 @@
         "repeater_not_auto_scan_tips": "De {mode} modus is momenteel ingeschakeld. en de router maakt succesvol verbinding met het internet in niet-repeater modus, de repeater zal niet automatisch netwerkscans uitvoeren.",
         "portal_go_to_auth_page_tips": "Verbonden met {ssid}. Log in op de authenticatiepagina om toegang te krijgen tot het internet.",
         "regionally_allowed_channel_tips": "Deze router kan alleen zoeken naar Wi-Fi-kanaalsignalen die zijn toegestaan in de huidige regio.",
-        "tap_icon_tips": "Klik op het pictogram om de Wi-Fi-kanaaltip opnieuw te tonen."
+        "tap_icon_tips": "Klik op het pictogram om de Wi-Fi-kanaaltip opnieuw te tonen.",
+        "portal_entered_bare_mode_tips": "Het apparaat bevindt zich in de aanmeldmodus voor openbare hotspots. Na succesvolle aanmelding verlaat deze router automatisch deze modus. {exit}",
+        "portal_need_enter_bare_mode_tip": "Kan niet via dit Wi-Fi-hotspot toegang krijgen tot het internet. Klik op {portal} om door te gaan met internettoegang.",
+        "portal_need_click_next_tips": "Kan niet via dit Wi-Fi-hotspot toegang krijgen tot het internet. Klik op de knop \"{btn}\" om naar de Openbare Hotspot Login-modus te gaan om verder toegang te krijgen tot het internet.",
+        "portal_show_disable_detail_btn": "Details over wat deze modus uitschakelt",
+        "portal_disable_vpn_tips": "Tegelijkertijd zal het apparaat verkeer routeren zonder VPN totdat de modus wordt verlaten, wat kan leiden tot gegevenslekken naar de aanbieder van het hotspotnetwerk (bijv. hotel/winkelcentrum).",
+        "portal_disable_feature_tips": "Deze modus zal {feature} automatisch en tijdelijk uitschakelen.",
+        "portal_auth_required_title": "Portaalauthenticatie vereist"
     },
     "modem": {
         "title": "Mobiel",

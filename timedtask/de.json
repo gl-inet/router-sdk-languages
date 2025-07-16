@@ -34,6 +34,11 @@
         "schedule_title": "WLAN-Zeitplan",
         "off_time_label": "WLAN-Ausschaltzeit",
         "on_off_task_enabled_tips": "Die WLAN-Zeitplanung für {label} ist aktiviert. Verwalten Sie Zeitpläne in {page}.",
-        "main_and_guest_wifi_label": "Haupt- und Gast-WLAN"
+        "main_and_guest_wifi_label": "Haupt- und Gast-WLAN",
+        "off_next_on_label": "{offTime} Aus, Nächster Tag {onTime} An"
+    },
+    "time": {
+        "next_day_label": "Nächster Tag",
+        "on_off_run_tips": "Der WLAN-Status ändert sich nur zu Beginn und am Ende des Zeitplans."
     }
 }

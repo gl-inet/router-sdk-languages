@@ -34,6 +34,11 @@
         "off_time_info_tip": "Wi-Fi Uit: {start} - {end}",
         "off_time_label": "Wi-Fi Uit-tijd",
         "on_off_task_enabled_tips": "Wi-Fi-planning voor {label} is ingeschakeld. Beheer schema's in {page}.",
-        "main_and_guest_wifi_label": "Hoofd- en gast-Wi-Fi"
+        "main_and_guest_wifi_label": "Hoofd- en gast-Wi-Fi",
+        "off_next_on_label": "{offTime} Uit, Volgende Dag {onTime} Aan"
+    },
+    "time": {
+        "next_day_label": "Volgende dag",
+        "on_off_run_tips": "De Wi-Fi-status verandert alleen aan het begin en het einde van het schema."
     }
 }

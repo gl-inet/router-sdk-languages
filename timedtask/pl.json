@@ -34,6 +34,11 @@
         "off_time_info_tip": "Wi-Fi wyłączony: {start} - {end}",
         "off_time_label": "Wi-Fi Wyłączony o określonej godzinie",
         "on_off_task_enabled_tips": "Planowanie Wi-Fi dla {label} jest włączone. Zarządzaj harmonogramami w {page}.",
-        "main_and_guest_wifi_label": "Główne i Gościnne Wi-Fi"
+        "main_and_guest_wifi_label": "Główne i Gościnne Wi-Fi",
+        "off_next_on_label": "{offTime} Wyłączone, Następnego Dnia {onTime} Włączone"
+    },
+    "time": {
+        "next_day_label": "Następny dzień",
+        "on_off_run_tips": "Status Wi-Fi zmienia się tylko na początku i na końcu harmonogramu."
     }
 }
