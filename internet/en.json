@@ -93,7 +93,7 @@
         "allow_auto_portal_tips": "If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. In this mode, some services will be suspended while the DNS mode will be switched to automatic, which may leak your network activity information to the hotspot provider (e.g. hotel or shopping mall).",
         "need_enter_portal_tips": "Can't access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause some services and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
         "entered_portal_tips": "The device is in Login Mode for Public Hotspots. Some services have been paused, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall). After successful login, this router automatically quit this mode. {exit}.",
-        "router_support_channel_tips": "Check your SSID working channel, this router support:",
+        "router_support_channel_tips": "Please ensure that the Wi-Fi network you're connecting to uses one of them.",
         "channel": "{band} Channels",
         "cannot_find_wifi": "Cannot find your Wi-Fi?",
         "ssid_not_hidden_tips": "Ensure your SSID is not hidden.",
