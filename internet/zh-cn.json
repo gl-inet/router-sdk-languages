@@ -93,7 +93,7 @@
         "allow_auto_portal_tips": "如果启用此选项，当路由器成功连接到热点但未连接到互联网时，将自动进入公共热点的登录模式。在此模式下，部分服务将被暂停，同时 DNS 模式将切换为自动，这可能会向热点提供商（例如酒店或购物中心）泄露您的网络活动信息。",
         "need_enter_portal_tips": "无法通过中继的热点访问互联网。尝试进入{portal}来解决问题。请注意，此模式将暂停某些服务和自定义DNS，直到它退出，这可能会导致数据泄露给热点提供者（例如，酒店/商场）。",
         "entered_portal_tips": "设备处于公共热点的登录模式。部分服务已暂停，可能会导致数据泄露给热点提供者（例如，酒店/商场）。登录成功后，路由器将自动退出此模式。{exit}。",
-        "router_support_channel_tips": "检查您的 SSID 工作信道，此路由器支持：",
+        "router_support_channel_tips": "请确保您所连接的无线网络使用的是其中之一。",
         "channel": "{band} 信道",
         "cannot_find_wifi": "找不到无线网络？",
         "ssid_not_hidden_tips": "确保您的SSID没有被隐藏。",
