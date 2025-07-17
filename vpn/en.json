@@ -209,7 +209,7 @@
         "upload_file_btn": "Upload File",
         "manual_inp_btn": "Manual Input",
         "wg_revoke_key_tips": "Failed to generate a WireGuard key. You can only have up to five keys at the same time per Mullvad account. Please go to $$$$Mullvad$$$$ to revoke a key.",
-        "local_access_tips": "If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel. However you still need to set up Port Forward manually.",
+        "local_access_tips": "If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel. However you still need to set up Port Forwarding manually.",
         "masq_tips": "IP Masquerading allows your router to replace the IP addresses of devices on your network with its own public IP before sending data to the internet. This is important for regular internet access. You should only consider turning it off if you're setting up a Site-to-Site VPN.",
         "use_vpn_only_tips": "If this option is enabled, while the VPN is connected, client devices will still be able to access WAN services, e.g. accessing your printer, NAS etc. in the upper subnet.",
         "disable_vpn_for_services": "Services from GL.iNet Use VPN",
