@@ -371,7 +371,7 @@
         "at_least_one_method_msg": "請至少選擇一種連接方式。",
         "killswitch_label": "Kill Switch",
         "auto_vpn_label": "自動選擇配置",
-        "killswitch_tips": "當「Kill Switch」開啟時，如果連線意外斷開，它會阻止與已指派的 VPN 隧道相符的流量；否則，它會故障轉移到其他隧道或 WAN。",
+        "killswitch_tips": "啟用「Kill Switch」後，如果連線意外斷開，則與指定 VPN 隧道相符的流量將被封鎖；否則，它將故障轉移到其他隧道或 WAN。",
         "auto_vpn_tips": "啟用此選項時，隧道會自動選擇可用的配置檔案進行連接。",
         "switch_to_btn": "切換至 {type}",
         "do_not_want_use_tips": "不想使用您目前的VPN嗎？",
