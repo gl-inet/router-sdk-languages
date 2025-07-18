@@ -38,7 +38,8 @@
         "passthrough_enable_warning": "Si activa este modo, {feature} se desactivará.",
         "passthrough_mac_tips": "Esto se utiliza para obtener la dirección MAC de una IP pública.",
         "passthrough_only_one_wan_tips": "Para cambiar a IP passthrough, vaya a {page} y desactive WAN como LAN o LAN como WAN.",
-        "passthrough_close_edge_tips": "Para cambiar a IP Passthrough, apague {page}."
+        "passthrough_close_edge_tips": "Para cambiar a IP Passthrough, apague {page}.",
+        "sub_tips": "Cuando utiliza {mode}, no podrá conectarse a esta interfaz de usuario nuevamente. Puede mantener presionado el botón de reinicio durante 4 segundos para volver al modo router."
     },
     "menu_bridge": "Modo de Red"
 }
