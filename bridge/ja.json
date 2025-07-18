@@ -38,7 +38,8 @@
         "passthrough_enable_warning": "このモードに切り替えると、{feature}は無効になります。",
         "passthrough_mac_tips": "これはパブリックIPのMACアドレス取得に使用されます。",
         "passthrough_close_edge_tips": "IPパススルーに切り替えるには、{page}をオフにしてください。",
-        "passthrough_only_one_wan_tips": "IPパススルーに切り替えるには、{page}に移動して、WAN as LANまたはLAN as WANをオフにしてください。"
+        "passthrough_only_one_wan_tips": "IPパススルーに切り替えるには、{page}に移動して、WAN as LANまたはLAN as WANをオフにしてください。",
+        "sub_tips": "{mode}を使用すると、このUIに再度接続できなくなります。リセットボタンを4秒間押し続けることで、ルーターモードに戻すことができます。"
     },
     "menu_bridge": "ネットワークモード"
 }
