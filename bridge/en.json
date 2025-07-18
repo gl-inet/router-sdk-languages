@@ -38,7 +38,8 @@
         "passthrough_enable_warning": "If you switch to this mode, {feature} will be disabled.",
         "passthrough_mac_tips": "This is used to obtain the MAC address of a public IP.",
         "passthrough_only_one_wan_tips": "To switch to IP passthrough, go to {page} and turn off WAN as LAN or LAN as WAN.",
-        "passthrough_close_edge_tips": "To switch to IP Passthrough, turn off {page}."
+        "passthrough_close_edge_tips": "To switch to IP Passthrough, turn off {page}.",
+        "sub_tips": "When you use {mode}, you will not be able to connect to this UI again. You can press and hold the reset button for 4 seconds to revert to router mode."
     },
     "menu_bridge": "Network Mode"
 }
