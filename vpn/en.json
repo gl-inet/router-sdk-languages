@@ -372,7 +372,7 @@
         "killswitch_label": "Kill Switch",
         "auto_vpn_label": "Auto-select Configuration",
         "auto_vpn_tips": "When this option is enabled, the tunnel automatically selects available profiles to connect.",
-        "killswitch_tips": "When 'Kill Switch' is enabled, traffic matching the assigned VPN tunnel is blocked if the connection drops unexpectedly; otherwise, it will failover to other tunnels or WAN.",
+        "killswitch_tips": "When \"Kill Switch\" is enabled, traffic matching the assigned VPN tunnel is blocked if the connection drops unexpectedly; otherwise, it will failover to other tunnels or WAN.",
         "switch_to_btn": "Switch To {type}",
         "go_to_guide_tips": "Go to {view} to quickly complete the configuration.",
         "do_not_want_use_tips": "Don't want to use your current VPN?",
@@ -450,7 +450,7 @@
         "via_title": "Via",
         "from_title": "From",
         "to_title": "To",
-        "all_other_traffic_sub_tips": "Turning this off will enhance Kill Switch and blocks regular Internet access."
+        "all_other_traffic_sub_tips": "Turning this off will enhance Kill Switch and block regular Internet access."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
