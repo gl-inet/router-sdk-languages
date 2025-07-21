@@ -93,7 +93,7 @@
         "allow_auto_portal_tips": "If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. In this mode, some services will be suspended while the DNS mode will be switched to automatic, which may leak your network activity information to the hotspot provider (e.g. hotel or shopping mall).",
         "need_enter_portal_tips": "Can't access the internet via the repeated hotspot. Try to enter {portal} to fix the issue. Note this mode will pause some services and custom DNS until it leave, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).",
         "entered_portal_tips": "The device is in Login Mode for Public Hotspots. Some services have been paused, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall). After successful login, this router automatically quit this mode. {exit}.",
-        "router_support_channel_tips": "Check your SSID working channel, this router support:",
+        "router_support_channel_tips": "Please ensure that the Wi-Fi network you're connecting to uses one of them.",
         "channel": "{band} Channels",
         "cannot_find_wifi": "Cannot find your Wi-Fi?",
         "ssid_not_hidden_tips": "Ensure your SSID is not hidden.",
@@ -116,7 +116,8 @@
         "portal_show_disable_detail_btn": "Details about what this mode disables",
         "portal_disable_vpn_tips": "Concurrently, the device will route traffic without VPN until the mode is exited, which may cause data leak to the provider of the hotspot (e.g., hotel/mall).",
         "portal_disable_feature_tips": "This mode will automatically and temporarily disable {feature}.",
-        "portal_auth_required_title": "Portal Authentication Required"
+        "portal_auth_required_title": "Portal Authentication Required",
+        "support_channel_tips": "The following Wi-Fi channels are supported. Please ensure that the Wi-Fi network you're connecting to uses one of them."
     },
     "modem": {
         "title": "Cellular",
@@ -381,7 +382,6 @@
         "failure_auto_obtain_data": "Failure To Automatically Obtain Data",
         "can_choose_to_continue_the_process": "You can choose to continue the process below manually or reboot the modem.",
         "phone_is_connected": "is connected",
-        "can_not_access_the_internet_hotspot": "Can't access the internet via the repeated hotspot. Try to enter Login Mode for Public Hotspots to fix the issue.",
         "android_device": "Android Device",
         "step_one": "Step1",
         "step_two": "Step2",

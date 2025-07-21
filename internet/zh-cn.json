@@ -93,7 +93,7 @@
         "allow_auto_portal_tips": "如果启用此选项，当路由器成功连接到热点但未连接到互联网时，将自动进入公共热点的登录模式。在此模式下，部分服务将被暂停，同时 DNS 模式将切换为自动，这可能会向热点提供商（例如酒店或购物中心）泄露您的网络活动信息。",
         "need_enter_portal_tips": "无法通过中继的热点访问互联网。尝试进入{portal}来解决问题。请注意，此模式将暂停某些服务和自定义DNS，直到它退出，这可能会导致数据泄露给热点提供者（例如，酒店/商场）。",
         "entered_portal_tips": "设备处于公共热点的登录模式。部分服务已暂停，可能会导致数据泄露给热点提供者（例如，酒店/商场）。登录成功后，路由器将自动退出此模式。{exit}。",
-        "router_support_channel_tips": "检查您的 SSID 工作信道，此路由器支持：",
+        "router_support_channel_tips": "请确保您所连接的无线网络使用的是其中之一。",
         "channel": "{band} 信道",
         "cannot_find_wifi": "找不到无线网络？",
         "ssid_not_hidden_tips": "确保您的SSID没有被隐藏。",
@@ -116,7 +116,8 @@
         "portal_show_disable_detail_btn": "此模式禁用的详细说明",
         "portal_disable_vpn_tips": "同时，设备在退出该模式前将不经由VPN路由流量，可能导致数据泄露给热点提供商（如酒店/商场）。",
         "portal_disable_feature_tips": "此模式将自动临时禁用{feature}。",
-        "portal_auth_required_title": "需要门户认证"
+        "portal_auth_required_title": "需要门户认证",
+        "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -392,7 +393,6 @@
         "enter_the_information": "输入信息",
         "more_advanced_options": "更多高级选项可以在主界面编辑。",
         "failure_auto_obtain_data": "无法自动获取数据",
-        "can_not_access_the_internet_hotspot": "无法通过中继热点上网，请尝试进入公共热点认证模式来解决这个问题。",
         "repeater_configuration": "中继配置",
         "proto_connecting": "{proto}连接中",
         "unknow_device": "未知设备",
@@ -404,7 +404,7 @@
         "attention_label": "注意！",
         "network_connection_feedback_title": "网络连接反馈",
         "portal_login_mode_tips": "设备处于公共热点的登录模式。您可以手动进行登录认证。",
-        "enter_login_mode_tips": "无法通过重复的热点访问互联网。尝试进入公共热点的登录模式以解决问题。",
+        "enter_login_mode_tips": "无法通过中继热点访问互联网。尝试进入公共热点的登录模式以解决问题。",
         "click_to_enter_login_mode_tips": "点击“下一步”按钮进入公共热点的登录模式。",
         "repeater_warning_connected_tips": "您选择的网络{failedSsid}连接失败。系统已自动切换到已保存的网络{connectedSsid}并成功连接。",
         "repeater_warning_sub_tips": "如果您不想使用当前网络，请返回选择另一个网络。",

@@ -38,7 +38,8 @@
         "passthrough_enable_warning": "이 모드로 전환하면 {feature}가 비활성화됩니다.",
         "passthrough_mac_tips": "이것은 공용 IP의 MAC 주소를 얻는 데 사용됩니다.",
         "passthrough_only_one_wan_tips": "IP 패스스루로 전환하려면 {page}로 이동하여 WAN as LAN 또는 LAN as WAN을 끄십시오.",
-        "passthrough_close_edge_tips": "IP Passthrough로 전환하려면 {page}를 끄십시오."
+        "passthrough_close_edge_tips": "IP Passthrough로 전환하려면 {page}를 끄십시오.",
+        "sub_tips": "{mode}를 사용할 경우, 이 UI에 다시 연결할 수 없게 됩니다. 라우터 모드로 되돌리려면 리셋 버튼을 4초간 길게 누르세요."
     },
     "menu_bridge": "네트워크 모드"
 }
