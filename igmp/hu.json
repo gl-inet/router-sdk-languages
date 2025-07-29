@@ -2,6 +2,6 @@
     "igmp": {
         "desc": "IGMP Snooping az IGMP protokollcsomagokat figyeli és információkat nyer ki belőlük, létrehoz és karbantart egy réteg 2-es multicast továbbítási táblát, majd továbbítja a multicast csoport adatait bármelyik hosztnak, amely csatlakozik a multicast csoporthoz, miközben más hosztok nem kapják meg a multicast csoport adatait.",
         "note": "Az IGMPv3 kompatibilis a korábbi verziókkal. Amennyiben problémát tapasztal használja a korábbi verziók valamelyikét!",
-        "version": "Az IGMPv3 kompatibilis az v1-gyel és v2-vel. Alapértelmezés szerint v3-at használjon, és váltson, ha problémát tapasztal."
+        "version": "Verzió"
     }
 }
