@@ -1,1 +1,33 @@
-{}
+{
+    "menu_dynamicdns": "DNS Dinimiciúil",
+    "ddns": {
+        "desc": "Is féidir leat DNS Dinimiciúil (DDNS) a chumasú don ródaire seo agus rochtain a fháil air ó chian. Beidh moill suas le deich nóiméad i gcomhtháthú na dtaifead idir freastalaithe DNS. D’fhéadfadh sé seo a bheith ina chúis nach mbeidh rochtain trí fhearainn DDNS ar fáil láithreach tar éis duit iad a chumasú nó má athraíodh do sheoladh IP poiblí le déanaí.",
+        "test": "Tástáil DDNS",
+        "enable_http": "Cumasaigh Rochtana HTTP Cianach",
+        "enable_https": "Cumasaigh Rochtain Chianda HTTPS",
+        "enable_ssh": "Cumasaigh Rochtain Chianda SSH",
+        "read_and_agree": "Tá léite agus aontaithe agam",
+        "terms_service": "Téarmaí Seirbhíse",
+        "privacy_policy": "Polasaí Príobháideachta",
+        "detecting": "Ag baint amach, fan le do thoil…",
+        "working": "Tá do sheirbhís DDNS ag obair.",
+        "not_effective": "Níl do DDNS éifeachtach fós. Bain triail as arís níos déanaí.",
+        "enable_http_tip": "Is prótacal neamhchriptithe é HTTP. Úsáid go cúramach é.",
+        "host_name": "Ainm Ósta",
+        "parsing_success_tips": "Tá an fearann DDNS réitithe go ceart chuig an seoladh IP poiblí atá ag an bhfeiste seo.",
+        "parsing_error_tips": "Níorbh fhéidir leis an bhfreastalaí DNS an taifead DNS don fhearann DDNS seo a aimsiú. Seiceáil an nasc Idirlín atá ag an bhfeiste.",
+        "parsing_warning_tips": "Níl an seoladh IP ó réiteach fearainn DDNS mar an gcéanna le seoladh IP WAN an fheiste. Teastaíonn seolaíocht phoiblí Idirlín uait chun DNS Dinimiciúil a úsáid. Má tá an ródaire seo taobh thiar de NAT, b’fhéidir go gcaithfidh tú seoladh calafoirt a shocrú ar do ródaire ISP. Má tá Cliant VPN cumasaithe agat, díchumasaigh \"Seirbhísí ó GL.iNet Úsáid VPN\" sna roghanna domhanda.",
+        "parsing_label": "Seoladh IP ó Réiteach Fearainn DDNS",
+        "parsing_interface_title": "Seoladh IP Comhéadan WAN",
+        "remote_access_tips": "Má tá tú ag iarraidh rochtain a fháil ar an bhfeiste go cianda, téigh go dtí $$$$An Leathanach Slándála$$$$ chun é a shocrú.",
+        "parsing_ip_warning_tips": "Níl an seoladh IP ó réiteach fearainn DDNS mar an gcéanna le seoladh IP WAN an fheiste.",
+        "need_pubilc_ip_tips": "Teastaíonn seolaíocht phoiblí Idirlín ort chun DNS Dinimiciúil a úsáid.",
+        "sevices_warning_tips": "Má tá Cliant VPN cumasaithe agat, díchumasaigh \"Seirbhísí ó GL.iNet Úsáid VPN\" sna roghanna domhanda.",
+        "nat_warning_tips": "Má tá an ródaire seo taobh thiar de NAT, b’fhéidir go gcaithfidh tú seoladh calafoirt a shocrú ar do ródaire ISP.",
+        "use_desc": "Is féidir leat DNS Dinimiciúil (DDNS) a chumasú don ródaire seo agus rochtain a fháil air ó chian.",
+        "enabled_tips": "D’fhéadfadh moill suas le 10 nóiméad a bheith ann maidir le sioncrónú taifead idir freastalaithe DNS. D’fhéadfadh sé seo a bheith ina chúis nach mbeidh tú in ann rochtain a fháil trí ainm fearainn DDNS díreach tar éis duit é a chumasú nó tar éis do sheoladh IP poiblí a athrú.",
+        "security_settings_btn": "Socruithe Slándála",
+        "security_settings_tips": "I \"Córas-Slándáil\" Rialú Rochtain Chianda, is féidir leat dhá rogha a mhodhnú chun rochtain chianda a shrianadh.",
+        "to_security_btn": "Téigh go Slándáil"
+    }
+}
