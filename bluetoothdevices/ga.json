@@ -92,7 +92,15 @@
         "CompleteLocalName": "Ainm Áitiúil Iomlán",
         "ad_data_tip_one": "Tacaíonn an modh scagtha seo le gach slonn rialta. Cuir isteach na sonraí le meaitseáil i bhformáid heicsidheachúlach.",
         "SimplePairingRandomizerR192": "Randamóir Páiréalaigh Simplí R-192",
-        "SlaveConnectionIntervalRange": "Raon Eatramh Ceangail Sclábhaí"
+        "SlaveConnectionIntervalRange": "Raon Eatramh Ceangail Sclábhaí",
+        "synchronize_mode_set": "Socrú Mód Sioncronaithe",
+        "mac_filters": "Scagairí MAC",
+        "ad_type": "Cineál AD",
+        "raw_data": "Sonraí Amh",
+        "TxPowerLevel": "Leibhéal Cumhachta Tx",
+        "ServiceDataUUID": "UUID Sonraí Seirbhíse",
+        "ManufacturerSpecificData": "Sonraí Saincheaptha ón Monaróir",
+        "mac_check_tip_five": "4. Comhoiriúnacht iomlán"
     },
     "bluetooth_devices": {
         "ClassOfDevice": "Aicmi Gléas",
@@ -136,7 +144,12 @@
         "raw_data": "Sonraí Amh",
         "scan_window_time_tips": "Má roghnaítear phy códaithe, ní féidir pacáistí craolta traidisiúnta a scanadh",
         "active": "Gníomhach",
-        "scan_type": "Cineál Scanadh"
+        "scan_type": "Cineál Scanadh",
+        "mac": "MAC",
+        "broadcast_data": "Sonraí Craolta",
+        "CompleteLocalName": "Ainm Áitiúil Iomlán",
+        "TxPowerLevel": "Leibhéal Cumhachta Tx",
+        "advanced_setting": "Socrú Casta"
     },
     "bluetooth_remote_manage": {
         "advance": "Cinn",
@@ -174,7 +187,10 @@
         "basic": "Bunúsach",
         "password": "Pasfhocal",
         "response_tips": "Úsáidfidh an geata an topaic chun freagra a thabhairt ar ghlacadh nó ar thoradh feidhmithe an ordaithe.",
-        "client_cerificate": "Teastas Cliant"
+        "client_cerificate": "Teastas Cliant",
+        "tips_connecting": "MQTT ag nascadh...",
+        "client_private_key": "Eochair Phríobháideach an Chliant",
+        "report_url": "URL Tuairisce"
     },
     "bluetooth_settings": {
         "include_certificate": "Cuir Teastas TLS san áireamh",
@@ -197,11 +213,15 @@
         "report_broadcast_data": "Tuairisc Sonraí Craolta",
         "raw_data_filters": "Scagairí Sonraí Amh",
         "report_gateway_status": "Cumasach Tuarascáil Stádas an Gheata",
-        "report_interval": "Eatramh Tuarascála"
+        "report_interval": "Eatramh Tuarascála",
+        "base": "Bunús",
+        "enable_raw_data_filters": "Cumasaigh Scagairí Sonraí Amh",
+        "rssi_threshold_tips": "Má shocraíonn tú an tairseach, ní thuairiscíonn an geata ach sonraí ó ghléasanna a bhfuil neart comhartha níos láidre ná an luach acu."
     },
     "menu_bluetoothdevices": "Cumraíocht Bluetooth",
     "menu_bluetoothsettings": "Cúltaca/Scaoileadh Socruithe",
     "menu_bluetoothremotemanage": "Bainistíocht Chianach Bluetooth",
     "menu_bluetooth": "Bluetooth",
-    "menu_bluetoothreport": "Tuarascáil Bluetooth"
+    "menu_bluetoothreport": "Tuarascáil Bluetooth",
+    "menu_bluetoothscanningmode": "Mód Scanadh Bluetooth"
 }
