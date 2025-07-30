@@ -474,6 +474,7 @@
         "exit_title": "注意：TAP-S2S終了",
         "exit_tips": "TAP-S2Sクライアントを終了すると、TAP-S2Sモードが無効になり、トンネルモードに戻ります。OpenVPNクライアントも元のIPアドレスに戻ります。",
         "start_title": "注意：TAP-S2Sクライアントを起動",
-        "start_disable_tips": "現在有効なトンネルはすべて無効化され、非表示になります。"
+        "start_disable_tips": "現在有効なトンネルはすべて無効化され、非表示になります。",
+        "astrowarp_up_tips": "AstrowarpとTAP-S2Sクライアントは同時に動作できません。手動でAstrowarpを無効にしてください。"
     }
 }
