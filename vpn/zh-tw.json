@@ -474,6 +474,7 @@
         "exit_title": "注意：退出TAP-S2S",
         "exit_tips": "退出TAP-S2S客戶端將停用TAP-S2S模式並恢復到隧道模式。OpenVPN客戶端也將恢復到其原始IP地址。",
         "start_title": "注意：啟動TAP-S2S客戶端",
-        "start_disable_tips": "所有現有的隧道將被禁用並隱藏。"
+        "start_disable_tips": "所有現有的隧道將被禁用並隱藏。",
+        "astrowarp_up_tips": "Astrowarp與TAP-S2S客戶端無法同時運作。請手動停用Astrowarp。"
     }
 }
