@@ -1,1 +1,28 @@
-{}
+{
+    "advanced": {
+        "luci_security_tips": "Ar mhaithe le slándáil LuCI, más gá duit LuCI a rochtain go cianda, oscail an port LuCI de láimh.",
+        "note_two": "Má chliceálann tú an cnaipe seo, tabharfar thú chuig leathanach dúchais LuCI. Níl GL.iNet freagrach as cothabháil LuCI.",
+        "note_one": "Is féidir leat socruithe casta a mhodhnú le LuCI, an príomhchlár idirlín úsáideora de chuid OpenWrt. Is tionscadal oscailte neamhspleách é LuCI atá á chothabháil ag OpenWrt.",
+        "go_to_luci_btn": "Téigh Go LuCI",
+        "luci_rtty_tips": "Má theastaíonn uait LuCI a rochtain go cianda trí rtty, rochtaigh LuCI ar an bport {port} ar an ardán scamall."
+    },
+    "menu_advanced": "Socruithe Casta",
+    "luci": {
+        "install_tips": "Modhnigh Socruithe Casta le LuCI",
+        "install_power_by_tips": "Is tionscadal oscailte neamhspleách é LuCI atá á chothabháil ag OpenWrt.",
+        "install_btn": "Suiteáil Anois",
+        "insatlling_tips": "Á shuiteáil...",
+        "install_fail_tips": "Teip éirí leis an suiteáil",
+        "check_network_tips": "Seiceáil do nasc líonra le do thoil.",
+        "re_install_btn": "Atáirgeáil",
+        "out_of_memory_tips": "Níl go leor spás ann chun suiteáil.",
+        "uninsatlling_tips": "Á dhíshuiteáil...",
+        "uninstall_luci_btn": "Díshuiteáil LuCI",
+        "need_uninstall_tips": "Mura bhfuil sé de dhíth ort, is féidir leat {do}.",
+        "uninstall_btn": "Díshuiteáil",
+        "uninstall_done_tips": "Díshuiteáil Críochnaithe",
+        "uninstall_wraning_tips": "An bhfuil tú cinnte gur mhaith leat LuCI a dhíshuiteáil?",
+        "uninstall_wraning_remove_dep_tips": "Bainfidh sé seo LuCI agus na spleáchais uile a bhaineann leis.",
+        "uninstall_done_desc": "Is féidir leat é a atáirgeáil am ar bith."
+    }
+}
