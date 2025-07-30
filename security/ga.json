@@ -1,1 +1,36 @@
-{}
+{
+    "security": {
+        "ipaddr_list_label": "Liosta Seoladh IP",
+        "local_access_title": "Rialú Rochtana Logánta",
+        "redirect_https_label": "Fórsáil HTTPS",
+        "session_timeout_label": "Am Uath-Logála Amach",
+        "apply_success_tips": "Curtha i bhfeidhm go Rathúil; ag fanacht ar an bhfreastalaí gréasáin atosú.",
+        "remote_access_title": "Rialú Rochtana i gCéin",
+        "enable_ping_label": "Ceadaigh Ping ón WAN",
+        "enable_https_label": "Rochtain Chianda HTTPS",
+        "enable_ssh_label": "Rochtana i gCéin SSH",
+        "enable_ipaddr_label": "Ceadaigh Rochtana i gCéin ach ó Sheoltaí IP Shonracha",
+        "enable_ipaddr_tips": "Cuir seoltaí IP shonracha iolracha leis chun an ródaire a bhainistiú ón bhfeiste seo.",
+        "no_ipaddr_list_label": "Gan Seoladh IP",
+        "add_ipaddr_btn": "Cuir Seoladh IP leis",
+        "port_disabled_tips": "Tá an calafoirt seo toirmiscthe ag an mbrabhsálaí",
+        "add_ipaddr_tips": "Sampla de stíl seoladh IP is féidir leat a chur isteach (tacaíonn sé le formáid IPv6 freisin) m.sh. 192.168.8.1.",
+        "session_timeout_tips": "Eatramh idir an leathanach brabhsálaí a dhúnadh nó a chur i dtaisce agus logáil amach.",
+        "port_conflict_tips": "Tá an calafoirt sin in úsáid cheana féin.",
+        "access_title": "Rialú Rochtain",
+        "access_enable_ssh_label": "Cumasaigh SSH",
+        "ssh_need_strong_pwd_tips": "Ní mór duit \"{label}\" a chumasú sular féidir leat an fheidhm SSH a chur ar siúl."
+    },
+    "adminpw": {
+        "title": "Focal Faire an Riaracháin",
+        "old_pwd": "Seanfhocal Faire",
+        "new_pwd": "Focal Faire Nua",
+        "confirm_pwd": "Deimhnigh an Focal Faire",
+        "warning": "Ní féidir le do fhocal faire nua a bheith mar an gcéanna le do sheanfhocal faire",
+        "confirm_pwd_tips": "Cuir isteach an focal faire nua arís",
+        "old_pwd_tips": "Cuir isteach an seanfhocal faire",
+        "new_pwd_tips": "Cuir isteach focal faire nua",
+        "old_pwd_error": "Tá an seanfhocal faire mícheart!"
+    },
+    "menu_security": "Slándáil"
+}
