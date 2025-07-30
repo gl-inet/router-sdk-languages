@@ -1,1 +1,24 @@
-{}
+{
+    "tailscale": {
+        "desc": "$$$$Tailscale$$$$ déanann na feistí atá faoi do sheilbh inrochtana in áit ar bith ar domhan, go slán agus gan stró. Cuireann sé ceangail phointe-go-pointe criptithe ar fáil, rud a chiallaíonn nach féidir ach le feistí ar do líonra príobháideach cumarsáid a dhéanamh lena chéile. Is féidir leat é a úsáid chun rochtain a fháil ar do chuid feistí nó ar do LAN i gcéin.",
+        "need_login_tips": "Tá an tseirbhís Tailscale cumasaithe, ach níl an gléas nasctha fós. Nasctar an gléas seo le do chuntas Tailscale ag úsáid $$$$The Device Bind Link$$$$.",
+        "need_mandate_tips": "Tá an gléas seo nasctha le cuntas Tailscale, ach níl cead rochtana ar an líonra fós aige. Téigh go $$$$Tailscale Admin Console$$$$ chun cead a thabhairt don ghléas ceangal a dhéanamh le do líonra fíorúil. Mura bhfuil sé seo mar do chuntas féin, scaoil an nasc ar dtús.",
+        "enable_lan_tips": "Tugann an gléas cead cheana féin do chliaint Tailscale rochtain a fháil ar acmhainní ar an LAN nó ar an WAN. Ach ní mór duit socruithe bealaigh a chur in eagar i $$$$Tailscale Admin Console$$$$ chun go dtabharfar iarratais ó chliaint ar aghaidh chuig an gléas trí líonra fíorúil Tailscale.",
+        "ready_tips": "Tá an gléas ceangailte le do líonra fíorúil Tailscale.",
+        "enable_lan_label": "Ceadú Rochtana Céin LAN",
+        "account_label": "Cuntas Nasctha",
+        "logout_btn": "Dícheangail",
+        "current_ip_label": "IP Fíorúil an Ródaire",
+        "get_url_err_msg": "Theip ar an nasc nasctha gléas a fháil.",
+        "enable_wan_label": "Ceadú Rochtana Céin WAN",
+        "allow_lan_tips": "Má chuirtear an rogha seo i bhfeidhm, beidh cead ag acmhainní taobh istigh de LAN an ghléis rochtain a fháil trí líonra fíorúil Tailscale.",
+        "allow_wan_tips": "Má chuirtear an rogha seo i bhfeidhm, beidh cead ag acmhainní ar thaobh WAN an ghléis rochtain a fháil trí líonra fíorúil Tailscale.",
+        "exit_node_tips": "Mura bhfuil an Nód Scoite atá roghnaithe agat ar fáil nó nach féidir leis rochtain a fháil ar an Idirlíon, ní bheidh an gléas in ann na socruithe a shioncrónú le Tailscale.",
+        "custom_exit_node_tips": "Má chuirtear an rogha seo i bhfeidhm, tabharfaidh an gléas gach iarratas ar aghaidh chuig an Nód Scoite. Sula gcuirfidh tú i bhfeidhm é, ní mór duit bealaigh fho-líonra {subnet} an ghléis seo a chumasú i $$$$Tailscale Admin Console$$$$ chun go dtabharfaidh Tailscale iarratais ó chliaint ar aghaidh; mura ndéanfaidh tú sin, ní bheidh do chliaint in ann rochtain a fháil ar an Idirlíon.",
+        "manual_node_label": "Nód Scoite Saincheaptha",
+        "exit_node_label": "Nód Scoite",
+        "current_ip_tips": "Úsáideann Tailscale an fho-líonra 100.64.0.0/10, a d’fhéadfadh teacht salach ar sheoladh a shannadh an tSoláthraí Seirbhíse nó ar sheoladh cliant VPN. Má tá do IP WAN nó IP VPN laistigh den fho-líonra seo, díchumasaigh Tailscale chun nach mbeidh tú gan líonra.",
+        "custom_exit_node_warning": "Má chuirtear Nód Scoite Saincheaptha i bhfeidhm, tabharfaidh an gléas gach iarratas ar aghaidh chuig an Nód Scoite. Sula gcuirfidh tú i bhfeidhm é, ní mór duit bealaigh fho-líonra {subnet} an ghléis seo a chumasú i $$$$Tailscale Admin Console$$$$ chun go dtabharfaidh Tailscale iarratais ó chliaint ar aghaidh; mura ndéanfaidh tú sin, ní bheidh do chliaint in ann rochtain a fháil ar an Idirlíon.",
+        "dns_warning_tips": "Nuair a úsáideann tú seoladh IP intrach mar DNS, b’fhéidir nach mbeidh tú in ann rochtain a fháil ar an bhfreastalaí DNS."
+    }
+}
