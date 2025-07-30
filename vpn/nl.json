@@ -474,6 +474,7 @@
         "exit_title": "Let op: Exit TAP-S2S",
         "exit_tips": "Het afsluiten van de TAP-S2S-client zal de TAP-S2S-modus uitschakelen en terugkeren naar Tunnelmodus. De OpenVPN-client zal ook terugkeren naar zijn oorspronkelijke IP-adres.",
         "start_title": "Let op: Start TAP-S2S-client",
-        "start_disable_tips": "Alle huidige tunnels worden uitgeschakeld en verborgen."
+        "start_disable_tips": "Alle huidige tunnels worden uitgeschakeld en verborgen.",
+        "astrowarp_up_tips": "Astrowarp en TAP-S2S Client kunnen niet tegelijkertijd werken. Schakel Astrowarp handmatig uit."
     }
 }
