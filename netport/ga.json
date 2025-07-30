@@ -1,1 +1,17 @@
-{}
+{
+    "netport": {
+        "as_label": "Mar {port}",
+        "wan_lan_change_tips": "Is féidir leat port WAN a úsáid mar phort LAN.",
+        "reset_port_tips": "Is féidir leat {silkprint} a athchóiriú chuig modh {port} trí chnaipe athshocraithe an fheiste a choinneáil síos ar feadh 4 soicind.",
+        "set_as_wan_tips": "Nuair a úsáidtear an {silkprint} mar phort WAN",
+        "rate_label": "Ráta Port Líonra Idirbheartaíochta",
+        "unplug_cable_tips": "Ar dtús, bain an cábla Ethernet atá plugáilte isteach sa {silkprint}.",
+        "as_wan_tips": "{asWan}, ní bheidh rochtain ag an bhfeiste atá ceangailte leis an bport ar an bpainéal riaracháin a thuilleadh. Beidh ort é a cheangal le Wi-Fi nó le port LAN eile.",
+        "reset_as_wan_tips": "Athchóirigh {silkprint} mar phort WAN.",
+        "reset_as_lan_tips": "An bhfuil tú cinnte {silkprint} a athchóiriú chuig port LAN (réamhshocrú)?",
+        "set_as_lan_tips": "An bhfuil tú cinnte gur mian leat {silkprint} a athrú chuig port LAN?",
+        "no_wan_tips": "Tá {silkprint} in úsáid mar LAN (Líonra Logánta). Is féidir leat é a athshocrú chuig WAN (Líonra Leathan) i {view}",
+        "two_port_label": "{port1} agus {port2}"
+    },
+    "menu_netport": "Bainistíocht Port"
+}
