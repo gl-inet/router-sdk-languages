@@ -1,1 +1,44 @@
-{}
+{
+    "menu_timedtask": "Tascanna Sceidealta",
+    "timedtask": {
+        "desc": "Má tá an gléas múchta ag an am socraithe, ní dhéanfar an tasc a chur i gcrích.",
+        "on_time_label": "Am Casadh Ar",
+        "off_time_label": "Am Casadh As",
+        "reboot_title": "Sceidealú Atosú",
+        "reboot_time_label": "Am Atosaithe",
+        "wifi_mode_label": "Mód Sceidealta Wi-Fi",
+        "wifi_turn_onoff_label": "Cas Ar/As",
+        "wifi_power_switch_label": "Cumhacht Aistrithe Athraigh",
+        "enable_wifi_label": "Cumasaigh Sceideal Wi-Fi Príomhúil",
+        "enable_guest_wifi_label": "Cumasaigh Sceideal Wi-Fi Aoi",
+        "host_wifi_title": "Príomh Wi-Fi",
+        "guest_wifi_title": "Wi-Fi Aoi",
+        "switch_label": "Socraigh go",
+        "switch_time_label": "Lasctha",
+        "restore_label": "Socraigh go",
+        "restore_time_label": "Athchóirigh",
+        "enable_scheduled_label": "Cumasaigh Scéidealaithe",
+        "led_title": "Sceideal Taispeána LED",
+        "wifi_title": "$$$$ Sceideal Stádas Wi-Fi",
+        "lcd_title": "Sceideal Taispeána LCD"
+    },
+    "wifi": {
+        "switch_tx_power_label": "Cumhacht Aistrithe Wi-Fi {band}",
+        "off_on_label": "{offTime} Aschuir, {onTime} Ar siúl",
+        "schedule_settings_title": "Socruithe Sceideil",
+        "add_schedule_title": "Cuir Sceideal Leis",
+        "set_schedule_title": "Modhnigh Sceideal",
+        "off_common_title": "{label} Aschuir",
+        "on_time_label": "Am Wi-Fi Ar",
+        "off_time_info_tip": "Wi-Fi Aschuir: {start} - {end}",
+        "schedule_title": "Sceideal Wi-Fi",
+        "off_time_label": "Am Aschuir Wi-Fi",
+        "on_off_task_enabled_tips": "Tá sceidealú Wi-Fi cumasaithe do {label}. Bainistigh sceideil i {page}.",
+        "main_and_guest_wifi_label": "Wi-Fi Príomhúil agus Aoi",
+        "off_next_on_label": "{offTime} Aschuir, An Lá Dar gCionn {onTime} Ar siúl"
+    },
+    "time": {
+        "next_day_label": "An Lá Dar gCionn",
+        "on_off_run_tips": "Ní athraíonn stádas Wi-Fi ach ag tús agus deireadh an sceidil."
+    }
+}
