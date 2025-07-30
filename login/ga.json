@@ -1,1 +1,17 @@
-{}
+{
+    "login": {
+        "login": "Logáil isteach",
+        "admin_password": "Focal Faire an Riaracháin",
+        "password_hint": {
+            "placeholder": "Cuir isteach do phasfhocal",
+            "null": "RABHADH: Ní féidir é a fhágáil folamh!"
+        },
+        "forgot_password": {
+            "title": "Focal faire dearmadta",
+            "desc": "Bain triail as an cnaipe 'Athshocraigh' a bhrú síos ar feadh 10 soicind, ansin scaoil é. Feicfidh tú na soilse LED ag caochadh. Fan go dtí go dtosóidh an ródaire arís.",
+            "online_docs": "Doiciméid ar líne"
+        },
+        "err_msg": "Ainm úsáideora nó focal faire mícheart!",
+        "retry_after": "An iomarca iarrachtaí logála teipthe, déan iarracht arís i $$$$ soicind."
+    }
+}
