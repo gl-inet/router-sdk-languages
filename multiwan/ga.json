@@ -1,1 +1,27 @@
-{}
+{
+    "multiwan": {
+        "available_condition_label": "Athraigh go Coinníoll Inrochtana",
+        "fault_count": "Teip $$$$ uair",
+        "track_addr_label": "IP a Thrácáil",
+        "tips": "Tacaíonn an ródaire le ceangail le hidirphléacsanna líonra iolracha ag an am céanna. Is féidir leat cumrú conas ba chóir na líonraí iolracha seo a úsáid.",
+        "mode_label": "Modh",
+        "mode_failover_tips": "Roghnaíonn an ródaire go huathoibríoch an chéad chomhéadan eile atá ar fáil leis an tosaíocht is airde.",
+        "flush_track_label": "Sruthanna Athnuachana Fórsáilte",
+        "interface_state_label": "Stádas Líonra",
+        "passive_label": "Mód Sonraí Íseal",
+        "sensitivity_tips": "Cinntíonn an íogaireacht seo an t-eatramh ama le haghaidh braite stádas an Idirlín. Moltar íogaireacht íseal a úsáid nuair a bhíonn rochtain ar an Idirlín éagobhsaí chun athrú líonra a sheachaint go minic; moltar íogaireacht ard a úsáid le linn físe nó sruthú beo chun a chinntiú gur féidir rochtain ar an Idirlín a athrú go tapa; d’fhéadfadh easpa líonra a bheith mar thoradh ar athrú go híogaireacht ard. Déan é a choigeartú go cúramach.",
+        "sensitivity_options_label": "Roghanna Íogaireachta",
+        "det_mode_label": "Modh Braite",
+        "mode_balancing_tips": "Sannfaidh an córas comhéadain do naisc nua bunaithe ar an gcóimheas ualaigh.",
+        "failover_label": "Teip-thar",
+        "balancing_label": "Cothromú Ualaigh",
+        "track_title": "Stádas Comhéadan a Thrácáil",
+        "physical_state_monitor": "Idirlín ar fáil i gcónaí nuair a bhíonn an comhéadan nasctha",
+        "ratio_title": "Cóimheas Ualaigh",
+        "track_desc": "Tá sé ar eolas ag an ródaire stádas an nasca chuig an IP scríbe chun a chinneadh an bhfuil an comhéadan ar fáil.",
+        "track_enable_tips": "Má dhíchumasaítear an trácáil, glacfaidh an gléas leis go bhfuil an comhéadan nasctha leis an Idirlín nuair a bhíonn an comhéadan nasctha (m.sh. má tá cábla plugáilte isteach agus seoladh IP faighte).",
+        "track_proto_label": "Prótacal Tracaíochta",
+        "fault_condition_label": "Athraigh go Coinníoll Teip"
+    },
+    "menu_multiwan": "Il-WAN"
+}
