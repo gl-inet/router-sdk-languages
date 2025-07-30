@@ -1,1 +1,17 @@
-{}
+{
+    "zerotier": {
+        "desc": "Cruthaíonn $$$$ZeroTier$$$$ líonra Ethernet slán, fíorúil comhpháirtí go comhpháirtí inrochtana ó áit ar bith; tacaíonn sé le rochtain ar ghléasanna ar nós fóin, ríomhairí srl. Is féidir leat é a úsáid chun rochtain a fháil ar do ghléasanna nó ar do LÁN go cianda.",
+        "first_use_tips": "Ceanglaíonn ZeroTier le do líonra fíorúil ag úsáid an ID Líonra, a chruthaíonn tú ar $$$$ZeroTier Central$$$$.",
+        "unauthorized_tips": "Tá an gléas curtha leis an ZeroTier. Téigh chuig $$$$ZeroTier Central$$$$ chun an gléas a údarú le ceangal le do líonra fíorúil.",
+        "authorized_tips": "Tá an gléas ceangailte le do líonra fíorúil ZeroTier.",
+        "enable_nat_tips": "Tá an gléas cheana féin ag ceadú do chliaint ZeroTier rochtain a fháil ar acmhainní ar an WAN nó ar an LÁN. Ní mór duit rialacha ródaithe a shocrú i $$$$ZeroTier Central$$$$ chun cead a thabhairt d'iarratais chliaint a chur ar aghaidh tríd an líonra fíorúil ZeroTier:",
+        "auto_nat_label": "Ceadaigh Rochtain Chianda LÁN&WAN",
+        "auto_nat_tips": "Má chumasaítear an rogha seo, is féidir rochtain a fháil ar acmhainní laistigh den fholíon LÁN agus WAN tríd an líonra fíorúil ZeroTier.",
+        "current_ip_label": "IP Fíorúil an Ródaire",
+        "not_found_tips": "Níor aimsigh ZeroTier an t-aitheantas Líonra, seiceáil an luach a iontráladh.",
+        "allow_lan_label": "Ceadú Rochtana Céin LAN",
+        "allow_wan_label": "Ceadú Rochtana Céin WAN",
+        "allow_lan_tips": "Má chumasaítear an rogha seo, beidh rochtain ar acmhainní laistigh de LÁN an ghléis tríd an líonra fíorúil ZeroTier.",
+        "allow_wan_tips": "Má chumasaítear an rogha seo, beidh rochtain ar acmhainní ar thaobh WAN an ghléis tríd an líonra fíorúil ZeroTier."
+    }
+}
