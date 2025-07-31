@@ -5,6 +5,10 @@
         "tips": "Quando l'accelerazione di rete è attivata, le seguenti funzioni non funzionano correttamente: Statistiche di velocità e traffico del client, Limite di velocità del client, Controllo genitori.",
         "hwnat_label": "L'accelerazione del hardware",
         "swnat_label": "L'accelerazione del software",
-        "wifi_reload_tips": "La commutazione o l'attivazione dell'accelerazione hardware richiede il ricaricamento del modulo WiFi, con tempi di attesa da 10 secondi a 1 minuto."
+        "wifi_reload_tips": "La commutazione o l'attivazione dell'accelerazione hardware richiede il ricaricamento del modulo WiFi, con tempi di attesa da 10 secondi a 1 minuto.",
+        "disabled_tips": "Quando l'accelerazione di rete è abilitata, le seguenti funzioni non funzioneranno correttamente: {feature}.",
+        "disabled_client_label": "Statistiche della Velocità e del Traffico del Client",
+        "disabled_speed_limit_label": "Limite velocità client",
+        "disabled_vpn_ipv6_label": "VPN con IPv6"
     }
 }
