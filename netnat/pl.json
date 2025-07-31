@@ -4,7 +4,11 @@
         "desc": "Przyspieszenie sieci zmniejsza obciążenie procesora i przyspiesza przekazywanie pakietów danych, ale może kolidować z niektórymi funkcjami.",
         "hwnat_label": "Przyspieszenie sprzętowe",
         "swnat_label": "Przyspieszenie programowe",
-        "tips": "Gdy przyspieszenie sieci jest włączone, następujące funkcje nie będą działać poprawnie: Prędkość klienta i statystyki ruchu, Limit prędkości klienta, Kontrola rodzicielska."
+        "tips": "Gdy przyspieszenie sieci jest włączone, następujące funkcje nie będą działać poprawnie: Prędkość klienta i statystyki ruchu, Limit prędkości klienta, Kontrola rodzicielska.",
+        "disabled_tips": "Gdy przyspieszenie sieci jest włączone, następujące funkcje nie będą działać prawidłowo: {feature}.",
+        "disabled_client_label": "Statystyki prędkości i ruchu klienta",
+        "disabled_speed_limit_label": "Limit prędkości klienta",
+        "disabled_vpn_ipv6_label": "VPN z IPv6"
     },
     "menu_netnat": "Przyspieszenie sieciowe"
 }
