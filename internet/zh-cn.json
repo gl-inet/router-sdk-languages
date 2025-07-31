@@ -117,7 +117,7 @@
         "portal_disable_feature_tips": "此模式将自动临时禁用{feature}。",
         "portal_auth_required_title": "需要门户认证",
         "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。",
-        "auto_switching_without_network_tips": "当启用{mode}模式时，路由器在非中继模式下成功联网后将不会自动扫描网络，仅在路由器无网络连接时尝试自动切换至其他已保存的网络，此举可避免通信数据包丢失。"
+        "auto_switching_without_network_tips": "启用“{mode}”模式后，路由器在非中继模式下联网成功后不会自动扫描网络，只会在无网络时尝试自动切换到其他保存的网络，这样可以避免通信数据包丢失。"
     },
     "modem": {
         "title": "蜂窝网络",
