@@ -116,7 +116,8 @@
         "portal_disable_vpn_tips": "Tegelijkertijd zal het apparaat verkeer routeren zonder VPN totdat de modus wordt verlaten, wat kan leiden tot gegevenslekken naar de aanbieder van het hotspotnetwerk (bijv. hotel/winkelcentrum).",
         "portal_disable_feature_tips": "Deze modus zal {feature} automatisch en tijdelijk uitschakelen.",
         "portal_auth_required_title": "Portaalauthenticatie vereist",
-        "support_channel_tips": "De volgende Wi-Fi-kanalen worden ondersteund. Zorg ervoor dat het Wi-Fi-netwerk waarmee u verbinding maakt een van deze kanalen gebruikt."
+        "support_channel_tips": "De volgende Wi-Fi-kanalen worden ondersteund. Zorg ervoor dat het Wi-Fi-netwerk waarmee u verbinding maakt een van deze kanalen gebruikt.",
+        "auto_switching_without_network_tips": "Wanneer de {mode}-modus is ingeschakeld, zal de router niet automatisch netwerken scannen wanneer deze succesvol is aangesloten in de niet-repeatermodus, en zal alleen proberen automatisch over te schakelen naar andere opgeslagen netwerken wanneer de router geen verbinding heeft. Dit kan communicatiepakketverlies voorkomen."
     },
     "modem": {
         "title": "Mobiel",
