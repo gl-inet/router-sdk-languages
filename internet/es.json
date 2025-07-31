@@ -116,7 +116,8 @@
         "portal_disable_vpn_tips": "Al mismo tiempo, el dispositivo enrutará el tráfico sin VPN hasta que se salga del modo, lo que puede provocar una fuga de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial).",
         "portal_disable_feature_tips": "Este modo desactivará automática y temporalmente {feature}.",
         "portal_auth_required_title": "Autenticación de Portal Requerida",
-        "support_channel_tips": "Los siguientes canales de Wi-Fi son compatibles. Asegúrese de que la red Wi-Fi a la que se conecta utilice uno de ellos."
+        "support_channel_tips": "Los siguientes canales de Wi-Fi son compatibles. Asegúrese de que la red Wi-Fi a la que se conecta utilice uno de ellos.",
+        "auto_switching_without_network_tips": "Cuando el modo {mode} está habilitado, el router no escaneará automáticamente redes cuando esté conectado exitosamente en modo no repetidor, y solo intentará cambiar automáticamente a otras redes guardadas cuando el router no tenga conexión, lo que puede evitar la pérdida de paquetes de comunicación."
     },
     "modem": {
         "title": "Móvil",
