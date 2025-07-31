@@ -223,7 +223,8 @@
         "portal_disable_vpn_tips": "Tuo pačiu metu įrenginys nukreips srautą be „VPN“, kol nebus išeita iš veiksenos, kas gali sukelti duomenų nutekėjimą prieigos taško (pvz., viešbučio/prekybos centro) tiekėjui.",
         "portal_disable_feature_tips": "Ši veiksena automatiškai ir laikinai išjungs {feature}.",
         "portal_auth_required_title": "Reikalingas portalo autentifikavimas",
-        "support_channel_tips": "Šie „Wi-Fi“ kanalai yra palaikomi. Įsitikinkite, kad prie kurio nors iš jų prisijungiate."
+        "support_channel_tips": "Šie „Wi-Fi“ kanalai yra palaikomi. Įsitikinkite, kad prie kurio nors iš jų prisijungiate.",
+        "auto_switching_without_network_tips": "Kai {mode} veiksena yra įjungta, maršrutizatorius automatiškai neskaitys tinklų, kai jis sėkmingai prisijungia prie tinklo ne kartotuvo veiksenoje, ir bandys automatiškai perjungti tik į kitus išsaugotus tinklus, kai maršrutizatorius neturi ryšio, kas gali išvengti (duomenų) paketų praradimo."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
