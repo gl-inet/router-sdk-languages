@@ -5,6 +5,10 @@
         "tips": "When Network acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit, Parental Control, VPN with IPv6.",
         "hwnat_label": "Hardware Acceleration",
         "swnat_label": "Software Acceleration",
-        "wifi_reload_tips": "Switching or toggling hardware acceleration requires WIFI module reload, with wait times of 10 seconds to 1 minute."
+        "wifi_reload_tips": "Switching or toggling hardware acceleration requires WIFI module reload, with wait times of 10 seconds to 1 minute.",
+        "disabled_client_label": "Client Speed and Traffic Statistics",
+        "disabled_tips": "When Network acceleration is enabled, the following functions will not work properly: {feature}.",
+        "disabled_speed_limit_label": "Client Speed Limit",
+        "disabled_vpn_ipv6_label": "VPN with IPv6"
     }
 }
