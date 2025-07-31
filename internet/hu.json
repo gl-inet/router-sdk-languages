@@ -293,7 +293,8 @@
         "portal_disable_vpn_tips": "Egyidejűleg az eszköz VPN nélkül irányítja a forgalmat, amíg a mód nem szűnik meg, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. szálloda/bevásárlóközpont).",
         "portal_disable_feature_tips": "Ez a mód automatikusan és ideiglenesen letiltja a {feature} funkciót.",
         "portal_auth_required_title": "Portálos hitelesítés szükséges",
-        "support_channel_tips": "A következő Wi-Fi csatornák támogatottak. Kérjük, győződjön meg róla, hogy a csatlakozni kívánt Wi-Fi hálózat ezek egyikét használja."
+        "support_channel_tips": "A következő Wi-Fi csatornák támogatottak. Kérjük, győződjön meg róla, hogy a csatlakozni kívánt Wi-Fi hálózat ezek egyikét használja.",
+        "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
