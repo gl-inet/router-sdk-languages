@@ -116,7 +116,8 @@
         "portal_disable_vpn_tips": "同时，设备在退出该模式前将不经由VPN路由流量，可能导致数据泄露给热点提供商（如酒店/商场）。",
         "portal_disable_feature_tips": "此模式将自动临时禁用{feature}。",
         "portal_auth_required_title": "需要门户认证",
-        "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。"
+        "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。",
+        "auto_switching_without_network_tips": "当启用{mode}模式时，路由器在非中继模式下成功联网后将不会自动扫描网络，仅在路由器无网络连接时尝试自动切换至其他已保存的网络，此举可避免通信数据包丢失。"
     },
     "modem": {
         "title": "蜂窝网络",
