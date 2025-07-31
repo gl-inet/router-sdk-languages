@@ -414,7 +414,8 @@
         "portal_disable_vpn_tips": "Aynı zamanda, cihaz moddan çıkana kadar VPN olmadan trafiği yönlendirecektir, bu da veri sızıntısına (örneğin otel/alışveriş merkezi) erişim sağlayıcısına neden olabilir.",
         "portal_disable_feature_tips": "Bu mod, {feature} özelliğini otomatik ve geçici olarak devre dışı bırakacaktır.",
         "portal_auth_required_title": "Portal Kimlik Doğrulaması Gereklidir",
-        "support_channel_tips": "Aşağıdaki Wi-Fi kanalları desteklenmektedir. Bağlanmak istediğiniz Wi-Fi ağının bunlardan birini kullandığından emin olun."
+        "support_channel_tips": "Aşağıdaki Wi-Fi kanalları desteklenmektedir. Bağlanmak istediğiniz Wi-Fi ağının bunlardan birini kullandığından emin olun.",
+        "auto_switching_without_network_tips": "{mode} modu etkinleştirildiğinde, yönlendirici tekrarlayıcı modu dışında başarıyla ağa bağlandığında otomatik olarak ağları taramayacak ve yalnızca ağ bağlantısı olmadığında kayıtlı diğer ağlara otomatik olarak geçmeye çalışacaktır. Bu, iletişim paket kaybını önleyebilir."
     },
     "router_visual": {
         "wlan_client": "WLAN İstemcileri",
