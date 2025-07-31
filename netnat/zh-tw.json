@@ -5,6 +5,10 @@
         "tips": "網路加速處於啟用狀態時，以下功能將無法正常使用：用戶端速率及流量統計、用戶端限速、家長控制、用IPv6的VPN。",
         "hwnat_label": "硬件加速",
         "swnat_label": "軟件加速",
-        "wifi_reload_tips": "開關和切換硬件加速模式時，Wi-Fi 模塊需重新加載，等待時長約 10 秒至 1 分鐘。"
+        "wifi_reload_tips": "開關和切換硬件加速模式時，Wi-Fi 模塊需重新加載，等待時長約 10 秒至 1 分鐘。",
+        "disabled_tips": "啟用網路加速時，以下功能將無法正常運作：{feature}。",
+        "disabled_client_label": "用戶端速度與流量統計",
+        "disabled_speed_limit_label": "用戶端速度限制",
+        "disabled_vpn_ipv6_label": "支持IPv6的VPN"
     }
 }
