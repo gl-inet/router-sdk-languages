@@ -13,7 +13,8 @@
         "export_debug_info": "Easpórtáil Faisnéis Dífhabhtaithe",
         "port": "Port",
         "send": "Seol",
-        "cell_info": "Eolas na gCillíní"
+        "cell_info": "Eolas na gCillíní",
+        "hardware_reset": "Atosú Crua"
     },
     "cellular": {
         "cell_info_title": "Cealla",
@@ -47,7 +48,10 @@
         "scan_tower_warning_tips": "Tógfaidh sé thart ar cúpla nóiméad an túr a scanadh. An bhfuil tú cinnte gur mhaith leat leanúint ar aghaidh?",
         "pin_code_last_unlock_tips": "Tá an cárta SIM faoi ghlas agus ní mór é a dhíghlasáil le cód PIN, níl ach seans amháin fágtha chun iarracht a dhéanamh é a dhíghlasáil, má theipeann air, beidh ort do ghuthán a úsáid chun é a dhíghlasáil trí chód PUK a iontráil.",
         "pin_code_last_input_unlock_tips": "Tá an cód PIN {code} mícheart, níl ach seans amháin fágtha chun iarracht a dhéanamh é a dhíghlasáil, má theipeann ar an díghlasáil arís, beidh ort do ghuthán a úsáid chun an cód PUK a iontráil chun é a dhíghlasáil.",
-        "manual_lock_operator_label": "Lámhleabhar"
+        "manual_lock_operator_label": "Lámhleabhar",
+        "reflash_warning_msg": "Ná athnuaigh an leathanach.",
+        "not_use_special_label": "Ná hÚsáid",
+        "manual_auto_lock_operator_label": "Lámhaigh-Uathoibríoch"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -92,7 +96,15 @@
         "to": "Seol Chuig",
         "invalid_dial_num": "Uimhir Dhiail Neamhbhailí",
         "forward_sms_title": "Seachad trí SMS",
-        "resend": "Athsheol"
+        "resend": "Athsheol",
+        "all_read": "Gach Léamh",
+        "no_sms": "Gan teachtaireacht",
+        "forward_email_subject_label": "Ábhar",
+        "forward_encryp_label": "Modh Criptithe",
+        "forward_email_subject_tips": "Is féidir leat an t-ábhar a mhodhnú ionas gur féidir leat aithint cén uimhir fóin ar a bhfuarthas an SMS.",
+        "from": "Ó",
+        "sent": "Seolta",
+        "sending": "Seoladh"
     },
     "cable": {
         "title": "Ethernet",
@@ -116,7 +128,13 @@
         "using_tips": "Stádas {silkprint}: Á úsáid mar {port}. {changePort}",
         "dhcp_tips": "Tá seoladh IP bronnta ag meaisín líonra níos airde.",
         "revert_port_btn": "Athchóirigh go {port}",
-        "change_to_wan_tips": "Nuair a úsáidtear an port LAN mar phort WAN, ní bheidh tú in ann rochtain a fháil ar an bpainéal riarthóra tríd an bport Ethernet seo atá ceangailte leis an bport LAN. Bí cinnte go bhfuil do chliant in ann ceangal le Wi-Fi nó port LAN eile."
+        "change_to_wan_tips": "Nuair a úsáidtear an port LAN mar phort WAN, ní bheidh tú in ann rochtain a fháil ar an bpainéal riarthóra tríd an bport Ethernet seo atá ceangailte leis an bport LAN. Bí cinnte go bhfuil do chliant in ann ceangal le Wi-Fi nó port LAN eile.",
+        "using_as_wan": "Ag úsáid mar WAN, $$$$Athraigh go LAN$$$$",
+        "repeated": "Déanta ceangal go rathúil gan gá le hathcheangal",
+        "change_to_lan_check_tips": "Ar dtús, bain an cábla Ethernet atá plugáilte isteach sa chuan WAN. $$$$ath-bhrath$$$$",
+        "use_as_wan_silkprint_tips": "Nuair a úsáidtear an {silkprint} mar phort WAN",
+        "revert_wan_tips": "Tar éis duit an calafán WAN a athchóiriú",
+        "vlan_id_conflict_tips": "Tá idirghéaráil idir ID VLAN Ethernet1 agus ID VLAN Ethernet2."
     },
     "repeater": {
         "identity": "Ainm Úsáideora",
@@ -190,7 +208,18 @@
         "no_switching_tips": "Nuair a chur mód Athraithe ar siúl, ní nascfar le líonraí sábháilte eile go huathoibríoch nuair a bhíonn an Wi-Fi reatha díchonactaithe.",
         "ssid": "SSID",
         "no_switching": "Gan Athrú",
-        "enable_disguise_tips": "Má chumasaítear an rogha seo, déanann an ródaire seo é féin a cheilt mar an gcéanna leis an ngléas cliant atá á úsáid agat faoi láthair."
+        "enable_disguise_tips": "Má chumasaítear an rogha seo, déanann an ródaire seo é féin a cheilt mar an gcéanna leis an ngléas cliant atá á úsáid agat faoi láthair.",
+        "title": "Atheachtaire",
+        "lock_bssid": "Glasáil BSSID",
+        "allow_change_tips": "Má chumasaítear an rogha, déanfaidh an ródaire ceangal go huathoibríoch le líonraí sábháilte eile nuair nach féidir leis ceangal a dhéanamh leis an líonra Wi-Fi reatha.",
+        "lock_band": "Roghnú Band",
+        "unusable_eap_tips": "Ní thacaíonn an ródaire seo le líonraí atheachtaire a úsáideann EAP.",
+        "modify_wifi_tips": "Cuirfidh athruithe i socruithe an líonra an t-athsheoladóir ar athcheangal.",
+        "portal_auth_mode_btn": "Modh Logála isteach do Phointe Teasa Poiblí",
+        "portal_go_to_auth_page_tips": "Ceangailte le {ssid}. Logáil isteach ar an leathanach Fíordheimhnithe chun rochtain a fháil ar an idirlíon.",
+        "regionally_allowed_channel_tips": "Ní féidir leis an ródaire seo ach comharthaí cainéal Wi-Fi a chuardach atá ceadaithe ag an réigiún reatha.",
+        "portal_auth_required_title": "Fíordheimhniú Poirtéil ag Teastáil",
+        "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint."
     },
     "modem": {
         "manually_tips": "Ionchur Lámhach",
@@ -289,7 +318,20 @@
         "remove_profile_warning": "An bhfuil tú cinnte gur mhaith leat an próifíl a scriosadh? Ní féidir an próifíl a aisghabháil tar éis a scriosta.",
         "main_slot_label": "Sliotán Cárta SIM is Fearr Leis",
         "connecting_tips": "Tá srianta úsáide speisialta ag roinnt cártaí SIM, mar shampla, an gá le APN ar leith a úsáid. Mura bhfuil do chárta SIM in ann clárú, seiceáil le do sholáthraí líonra an bhfuil aon srianta speisialta ar do chárta SIM.",
-        "cellular_desc": "Déanfaidh an Comhéadan Guthán athnascadh chun athrú chuig an túr faoi ghlas."
+        "cellular_desc": "Déanfaidh an Comhéadan Guthán athnascadh chun athrú chuig an túr faoi ghlas.",
+        "user_name": "Ainm Úsáideora",
+        "traffic": "Staitisticí Tráchta",
+        "sim_slot_switching_tips": "Athrú sliotán cárta SIM…",
+        "save_config_label": "Sábháil Socruithe",
+        "sim_failover_interval_label": "Eatramh Teip",
+        "lock_tower_title": "Túr Glais",
+        "available_tower_title": "Túir atá ar Fáil",
+        "reboot_buildin_modem_btn": "Atosú an Mhóideim Innéalta",
+        "sim_slot_pin_mark_tips": "Tá an sliotán cárta SIM marcáilte agus ní féidir é a athrú go huathoibríoch.",
+        "traffic_days_tips": "Tógann an líon uasta laethanta luach an líon uasta iarbhír laethanta sa mhí reatha.",
+        "plug_in_tips": "Níor aimsíodh gléas Modem. Plugáil isteach do mhodem USB chun tosú.",
+        "title": "Guthán Póca",
+        "download": "Íoslódáil"
     },
     "guide": {
         "tethering_device_connect_title": "Braitheann Gléas Tethéireachta",
@@ -422,7 +464,22 @@
         "modem_pin_title": "Iontráil Cód Pin",
         "ios_device": "Gléas iOS",
         "suggest": "Moladh",
-        "configure_router_tip": "Cuidíonn an treoir Líonra leat do líonra ródaire a chumrú chun rochtain ar an Idirlíon a fháil go tapa gan mhoill."
+        "configure_router_tip": "Cuidíonn an treoir Líonra leat do líonra ródaire a chumrú chun rochtain ar an Idirlíon a fháil go tapa gan mhoill.",
+        "wan_interface_detect_title": "Braitheann Comhéadan WAN",
+        "tethering_connecting_note": "Nóta:",
+        "turn_on_cellular_and_tap_on_personal_hotspot": "Téigh go dtí Socruithe, déan cinnte go bhfuil Sonraí Gutháin cumhdaithe, agus tapaigh ar Póca Pearsanta.",
+        "available_networks": "Líonraí atá ar Fáil",
+        "got_it": "Tuigim",
+        "network_guide_title": "Treoir Líonra",
+        "completed": "Críochnaithe!",
+        "operate_according_to_your_mobile_phone": "D’fhéadfadh go mbeadh difríochtaí beaga idir leaganacha éagsúla córais agus samhlacha guthán. Oibrigh de réir an chomhéadain a fhreagraíonn do ghuthán.",
+        "attention_label": "Aird!",
+        "tethering_fail_check_usb_tips": "Seiceáil go bhfuil an cábla USB ceangailte i gceart agus ath-phlugáil nó athsholáthar an cábla USB más gá.",
+        "cable_wan_checking_tips": "Seiceáil stádas WAN, fan nóiméad le do thoil.",
+        "modem_pin_tips": "Ní féidir cód PIN an chárta SIM a iontráil ach suas le 3 uair, má iontráiltear é mícheart trí huaire, glasálfar an cárta SIM, sa chás seo, bain úsáid as do ghuthán chun an cárta SIM a dhíghlasáil. Mura bhfuil a fhios agat cód PIN an chárta SIM seo, déan teagmháil le do sholáthraí seirbhíse.",
+        "cable_detect_title": "Braitheann comhéadan WAN",
+        "failure_auto_obtain_data": "Teip ar Shonraí a Fháil go Huathoibríoch",
+        "iphone_for_demonstration": "Úsáidtear iPhone12 (leagan iOS: 17.5.1) mar thaispeántas. Déan oibríocht de réir an chomhéidín a fhreagraíonn do do ghuthán."
     },
     "traffic": {
         "third_month_label": "An Tríú Mí",
@@ -446,7 +503,9 @@
         "clear_warning_tips": "Tar éis aon chumraíocht teorannaithe sonraí a mhodhnú, glanfar na sonraí. An bhfuil gá agat na sonraí a ghlanadh?",
         "sim_threshold_dual_tips": "Má tá Méid Teorainn Sonraí {currentSim} socraithe agus Sliotán Cárta SIM {handler} cumasaithe, athróidh {currentSim} go huathoibríoch go {otherSim} nuair a sháraíonn a shonraí an Méid Teorainn Sonraí agus díchumasófar {currentSim}.",
         "sim_limit_title": "{sim} Socruithe Teorainn",
-        "first_month_label": "An Chéad Mhí"
+        "first_month_label": "An Chéad Mhí",
+        "data_cap_amout_label": "Méid Teorainn Sonraí",
+        "enabled_sim_auto_switch_tips": "Athróidh an SIM nuair a shroicheann sé an teorainn sonraí."
     },
     "simo": {
         "physical_switch_to_vsim_tips": "Athróidh tú ó chárta SIM fisiceach go cárta SIM fíorúil (vSIM) an mhodúil. Beidh ort a dheimhniú go bhfuil plean sonraí ceannaithe agat ar shuíomh gréasáin simo (Scan an cód QR ar an bhfeiste chun é a cheannach). Ansin is féidir leat an cárta SIM fisiceach a bhaint as an bhfeiste.",
@@ -457,7 +516,8 @@
     },
     "apn": {
         "enable_polling_label": "Cumasaigh Pobalú",
-        "enable_polling_tips": "Má tá cárta SIM Verizon á úsáid ag an gléas agus an ghné seo cumasaithe, déanfaidh an gléas monatóireacht leanúnach ar an APN ar feadh suas le 12 nóiméad tar éis atosú go dtí go mbeidh an ceangal líonra gnáth. Tá an ghné seo bailí ach amháin do chártaí SIM Verizon."
+        "enable_polling_tips": "Má tá cárta SIM Verizon á úsáid ag an gléas agus an ghné seo cumasaithe, déanfaidh an gléas monatóireacht leanúnach ar an APN ar feadh suas le 12 nóiméad tar éis atosú go dtí go mbeidh an ceangal líonra gnáth. Tá an ghné seo bailí ach amháin do chártaí SIM Verizon.",
+        "polling_control_title": "Rialú Pollála APN"
     },
     "sim": {
         "sender_label": "Seoltóir"
@@ -468,7 +528,8 @@
     },
     "tethering": {
         "no_device_tips": "Níor aimsíodh gléas Tethering, Cuir isteach do ghuthán cliste nó Modem USB chun tosú.",
-        "title": "Tethering"
+        "title": "Tethering",
+        "device": "Gléas"
     },
     "menu_internet": "Idirlíon"
 }
