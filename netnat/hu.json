@@ -5,6 +5,10 @@
         "tips": "A beállítás engedélyezése ütközhet egyes forgalomszabályozó funkciókkal.",
         "hwnat_label": "Hardveres gyorsítás",
         "swnat_label": "Szoftveres gyorsítás",
-        "wifi_reload_tips": "A gyorsítási eljárás módosítása a vezeték nélküli hálózat újraindításával jár. Ez a művelet nagyjából 1 percet vesz igénybe."
+        "wifi_reload_tips": "A gyorsítási eljárás módosítása a vezeték nélküli hálózat újraindításával jár. Ez a művelet nagyjából 1 percet vesz igénybe.",
+        "disabled_tips": "Ha a hálózati gyorsítás engedélyezve van, a következő funkciók nem fognak megfelelően működni: {feature}.",
+        "disabled_client_label": "Ügyfél sebesség- és forgalomstatisztika",
+        "disabled_speed_limit_label": "Ügyfél sebességkorlát",
+        "disabled_vpn_ipv6_label": "IPv6-os VPN"
     }
 }

@@ -100,7 +100,6 @@
         "make_sure_works_tips": "Try with your mobile phone and make sure it works.",
         "support_tips": "Reach us for the further help at {addr}.",
         "allow_other_mode_change": "Allow Switching to Other Networks Mode",
-        "auto_switching_without_network_tips": "When Auto-switching Without Network mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss.",
         "no_switching": "No Switching",
         "auto_switching": "Auto Switching",
         "auto_switching_without_network": "Auto-switching Without Network",
@@ -117,7 +116,8 @@
         "portal_disable_vpn_tips": "Concurrently, the device will route traffic without VPN until the mode is exited, which may cause data leak to the provider of the hotspot (e.g., hotel/mall).",
         "portal_disable_feature_tips": "This mode will automatically and temporarily disable {feature}.",
         "portal_auth_required_title": "Portal Authentication Required",
-        "support_channel_tips": "The following Wi-Fi channels are supported. Please ensure that the Wi-Fi network you're connecting to uses one of them."
+        "support_channel_tips": "The following Wi-Fi channels are supported. Please ensure that the Wi-Fi network you're connecting to uses one of them.",
+        "auto_switching_without_network_tips": "When {mode} mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss."
     },
     "modem": {
         "title": "Cellular",

@@ -212,7 +212,6 @@
         "auto_switching_without_network": "Automatinis perjungimas be tinklo",
         "no_switching_tips": "Kai įjungta neperjungimo veiksena, esant atjungtam dabartiniam „Wi-Fi“, neprisijungia jokie kiti išsaugoti tinklai.",
         "auto_switching_tips": "Kai automatinio perjungimo veiksena įjungta, atsijungus dabartiniam „Wi-Fi“ tinklui bus prisijungta prie kitų išsaugotų tinklų.",
-        "auto_switching_without_network_tips": "Kai įgalinta automatinio perjungimo be tinklo veiksena, maršrutizatorius neatlieka tinklo skenavimo, kai jis įprastai prijungtas prie tinklo ne kartotuvo veiksenoje, ir perjungia tinklą tik tada, kai tinklo nėra, kas gali išvengti duomenų paketų praradimo.",
         "repeater_not_auto_scan_tips": "{mode} veiksena šiuo metu yra įjungta. ir maršrutizatorius sėkmingai prisijungia prie interneto ne kartotuvo veiksenoje, kartotuvas automatiškai neatliks tinklo nuskaitymo.",
         "portal_go_to_auth_page_tips": "Pri(si)jungta prie {ssid}. Norėdami pasinaudoti internetu, prisijunkite $$$$Autentifikacijos puslapyje$$$$.",
         "regionally_allowed_channel_tips": "Šis maršrutizatorius gali ieškoti tik „Wi-Fi“ kanalų signalų, kuriuos leidžia dabartinis regionas.",
@@ -224,7 +223,8 @@
         "portal_disable_vpn_tips": "Tuo pačiu metu įrenginys nukreips srautą be „VPN“, kol nebus išeita iš veiksenos, kas gali sukelti duomenų nutekėjimą prieigos taško (pvz., viešbučio/prekybos centro) tiekėjui.",
         "portal_disable_feature_tips": "Ši veiksena automatiškai ir laikinai išjungs {feature}.",
         "portal_auth_required_title": "Reikalingas portalo autentifikavimas",
-        "support_channel_tips": "Šie „Wi-Fi“ kanalai yra palaikomi. Įsitikinkite, kad prie kurio nors iš jų prisijungiate."
+        "support_channel_tips": "Šie „Wi-Fi“ kanalai yra palaikomi. Įsitikinkite, kad prie kurio nors iš jų prisijungiate.",
+        "auto_switching_without_network_tips": "Kai {mode} veiksena yra įjungta, maršrutizatorius automatiškai neskaitys tinklų, kai jis sėkmingai prisijungia prie tinklo ne kartotuvo veiksenoje, ir bandys automatiškai perjungti tik į kitus išsaugotus tinklus, kai maršrutizatorius neturi ryšio, kas gali išvengti (duomenų) paketų praradimo."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",

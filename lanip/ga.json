@@ -1,0 +1,53 @@
+{
+    "lan_ip": {
+        "cannot_contain_ip_tips": "Ní féidir le raon na seoladh seoladh IP an ródaire a áireamh",
+        "dhcp_serve_title": "Freastalaí DHCP",
+        "guest_conflict_tips": "Tá sé i gcoimhlint le IP an Aoi",
+        "ap_isolate_label": "AP Isceltú",
+        "change_to": "Tá seoladh IP an ródaire athraithe go rathúil go",
+        "lan_tab": "Líonra Príobháideach",
+        "ap_isolate_tips": "Is féidir leat gléasanna cliant do líonra a leithlisiú i limistéar líonra ar leith. Ní féidir leis na gléasanna seo cumarsáid a dhéanamh le gléasanna eile ar an líonra.",
+        "lpr_serve_label": "Freastalaí LPR",
+        "start_ip": "Seoladh IP Tosaigh",
+        "end_ip": "Seoladh IP Deiridh",
+        "dhcp_disable_warning_tips": "Má dhíchumasaíonn tú DHCP, b’fhéidir nach mbeidh tú in ann ceangal leis an Idirlíon, mar sin bí cúramach.",
+        "redirect_to": "Tá tú á atreorú chuig an IP nua",
+        "enable_dhcp_tips": "Sannann an freastalaí DHCP seoltaí IP agus paraiméadair chumarsáide eile do ghléasanna cliant go huathoibríoch. Má dhíchumasaítear an freastalaí DHCP, beidh ort socruithe líonra an ghléis chliant a chumrú de láimh.",
+        "end_smaller_tips": "Ba chóir go mbeadh an seoladh deiridh níos mó ná an seoladh tosaigh.",
+        "guest": "Geata Réamhshocraithe",
+        "lan_conflict_tips": "Tá sé i gcoimhlint le IP an LAN",
+        "lan_or_guest_senior_tip": "Is féidir leat fo-líonra a shocrú laistigh de raonta seoltaí príobháideacha IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "guest_tab": "Líonra Aoi",
+        "lan": "Seoladh IP an Ródaire",
+        "dhcp_charter_label": "Am Léasaithe",
+        "user_count_max": "Uasmhéid Úsáideoirí",
+        "security_title": "Socruithe Slándála",
+        "guest_disabel_tips": "Tá an líonra aoi neamh-infheidhme mar gheall go bhfuil {guest} díchumasaithe.",
+        "lpr_tips": "Is féidir ilphort LPR printéir a líonadh.",
+        "lan_or_guest_model_setting": "Casta",
+        "ip_outside_tips": "Tá an seoladh IP lasmuigh den raon fo-líonra",
+        "ip_easy_tip": "Is é seoladh IP an ródaire an seoladh a chuirfeadh tú isteach i mbarr seoladh do bhrabhsálaí chun rochtain a fháil ar leathanach riaracháin an ródaire."
+    },
+    "address_reservation": {
+        "desc_label": "Cur Síos",
+        "mac_existed": "MAC Ann",
+        "no_data": "Níl aon sonraí sa tábla.",
+        "tips": "Nuair a shonraíonn tú seoladh IP cúlghafa do chliant LAN, gheobhaidh an cliant an seoladh IP céanna i gcónaí nuair a iarrann sé seoladh IP ó fhreastalaí DHCP an ródaire. Is féidir leat seoltaí IP cúlghafa a shannadh do ríomhairí nó do fhreastalaithe a éilíonn socruithe IP buan.",
+        "confirm_delete_all": "An bhfuil tú cinnte gur mhaith leat na cúlghabhálacha seoltaí go léir a scriosadh?",
+        "title": "Cúlghabháil Seoltaí",
+        "confirm_delete": "An bhfuil tú cinnte gur mhaith leat an iontráil seoltaí cúlghafa a scriosadh?",
+        "note": "Tabhairt: Caithfidh cliaint chumraithe athcheangal a dhéanamh leis an ródaire chun gníomhachtú.",
+        "ip_existed": "IP Ann",
+        "action": "Gníomh",
+        "name": "Ainm",
+        "set_data": "Modhnaigh an Iontráil Taisce",
+        "add_new": "Cuir Iontráil Taisce Nua leis"
+    },
+    "menu_lanip": "LAN",
+    "lanip": {
+        "block_wan_label": "Blocáil Fo-líonraí WAN",
+        "block_wan_tips": "Má chumasaítear an fheidhm seo, ní bheidh an líonra aoi in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleog líonra ina bhfuil an líonra uachtarach lonnaithe.",
+        "not_asscess_tips": "Faoi láthair, ní féidir leis an líonra aoi rochtain a fháil ar na deighleoga líonra {net}."
+    },
+    "menu_guestip": "Líonra Aoi"
+}

@@ -434,7 +434,7 @@
         "vpn_client_title": "VPN客戶端",
         "disable_default_tunnel_confirm_tips": "您確定要停用當前功能嗎？",
         "all_other_traffic_label": "所有其他流量",
-        "all_other_traffic_tips": "此設定控制是否允許不經過 VPN 隧道的流量或從 VPN 連線故障轉移的資料流量存取網際網路。",
+        "all_other_traffic_tips": "此設定控制是否允許不經過 VPN 隧道的流量或從 VPN 連線故障轉移的數據流量訪問Internet。",
         "sort_btn": "排序",
         "priority_label": "優先級 {idx}",
         "killswitch_off_tips": "關閉時使用故障轉移。",
@@ -450,7 +450,7 @@
         "via_title": "经由",
         "from_title": "自",
         "to_title": "至",
-        "all_other_traffic_sub_tips": "關閉此功能將增強 Kill Switch 功能並阻止常規網路存取。"
+        "all_other_traffic_sub_tips": "關閉此功能將增強 Kill Switch 功能並阻止常規Internet訪問。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
@@ -474,6 +474,7 @@
         "exit_title": "注意：退出TAP-S2S",
         "exit_tips": "退出TAP-S2S客戶端將停用TAP-S2S模式並恢復到隧道模式。OpenVPN客戶端也將恢復到其原始IP地址。",
         "start_title": "注意：啟動TAP-S2S客戶端",
-        "start_disable_tips": "所有現有的隧道將被禁用並隱藏。"
+        "start_disable_tips": "所有現有的隧道將被禁用並隱藏。",
+        "astrowarp_up_tips": "Astrowarp與TAP-S2S客戶端無法同時運作。請手動停用Astrowarp。"
     }
 }

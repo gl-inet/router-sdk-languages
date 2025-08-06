@@ -105,7 +105,6 @@
         "no_switching_tips": "Lorsque le mode Sans basculement est activé, aucun autre réseau enregistré n'est connecté lorsque le Wi-Fi actuel est déconnecté.",
         "auto_switching_without_network": "Commutation automatique sans réseau",
         "auto_switching_tips": "Lorsque le mode de basculement automatique est activé, d'autres réseaux enregistrés seront connectés lorsque le Wi-Fi actuel est déconnecté.",
-        "auto_switching_without_network_tips": "Lorsque le mode de basculement automatique sans réseau est activé, le routeur n'effectue pas de balayage réseau lorsqu'il est normalement connecté en mode non répéteur, et ne bascule le réseau que lorsqu'il n'y a pas de réseau, ce qui peut éviter la perte de paquets de communication.",
         "repeater_not_auto_scan_tips": "Le mode {mode} est actuellement activé. et le routeur se connecte avec succès à l'internet en mode non-répéteur, le répéteur ne procédera pas automatiquement à la recherche de réseau.",
         "portal_go_to_auth_page_tips": "Connecté à {ssid}. Veuillez vous connecter sur la page d'authentification pour accéder à internet.",
         "regionally_allowed_channel_tips": "Ce routeur ne peut rechercher que les signaux de canaux Wi-Fi autorisés par la région actuelle.",
@@ -117,7 +116,8 @@
         "portal_disable_vpn_tips": "Simultanément, l'appareil acheminera le trafic sans VPN jusqu'à la sortie de ce mode, ce qui peut entraîner une fuite de données vers le fournisseur du point d'accès (par exemple, hôtel/centre commercial).",
         "portal_disable_feature_tips": "Ce mode désactivera automatiquement et temporairement {feature}.",
         "portal_auth_required_title": "Authentification par portail requise",
-        "support_channel_tips": "Les canaux Wi-Fi suivants sont pris en charge. Veuillez vous assurer que le réseau Wi-Fi auquel vous vous connectez utilise l'un d'entre eux."
+        "support_channel_tips": "Les canaux Wi-Fi suivants sont pris en charge. Veuillez vous assurer que le réseau Wi-Fi auquel vous vous connectez utilise l'un d'entre eux.",
+        "auto_switching_without_network_tips": "Lorsque le mode {mode} est activé, le routeur ne scanne pas automatiquement les réseaux lorsqu'il est connecté avec succès en mode non-répéteur, et ne tente de basculer automatiquement vers d'autres réseaux enregistrés que lorsque le routeur est sans réseau, ce qui permet d'éviter la perte de paquets de communication."
     },
     "modem": {
         "title": "Cellulaire",

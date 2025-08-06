@@ -105,7 +105,6 @@
         "no_switching_tips": "Cuando el modo Sin Cambio está activado, no se conectan otras redes guardadas cuando el Wi-Fi actual se desconecta.",
         "auto_switching_without_network": "Cambio automático sin red",
         "auto_switching_tips": "Cuando el modo de cambio automático está activado, se conectarán otras redes guardadas cuando la Wi-Fi actual se desconecte.",
-        "auto_switching_without_network_tips": "Cuando el modo de cambio automático sin red está activado, el router no realiza escaneo de red cuando está conectado normalmente en modo no repetidor, y cambia de red solo cuando no hay conexión, lo que puede evitar la pérdida de paquetes de comunicación.",
         "repeater_not_auto_scan_tips": "El modo {mode} está actualmente habilitado. y el router se conecta con éxito a internet en modo no repetidor, el repetidor no realizará automáticamente el escaneo de red.",
         "portal_go_to_auth_page_tips": "Conectado a {ssid}. Por favor, inicie sesión en la página de Autenticación para acceder a internet.",
         "regionally_allowed_channel_tips": "Este router solo puede buscar señales de canal Wi-Fi permitidas por la región actual.",
@@ -117,7 +116,8 @@
         "portal_disable_vpn_tips": "Al mismo tiempo, el dispositivo enrutará el tráfico sin VPN hasta que se salga del modo, lo que puede provocar una fuga de datos al proveedor del punto de acceso (por ejemplo, hotel/centro comercial).",
         "portal_disable_feature_tips": "Este modo desactivará automática y temporalmente {feature}.",
         "portal_auth_required_title": "Autenticación de Portal Requerida",
-        "support_channel_tips": "Los siguientes canales de Wi-Fi son compatibles. Asegúrese de que la red Wi-Fi a la que se conecta utilice uno de ellos."
+        "support_channel_tips": "Los siguientes canales de Wi-Fi son compatibles. Asegúrese de que la red Wi-Fi a la que se conecta utilice uno de ellos.",
+        "auto_switching_without_network_tips": "Cuando el modo {mode} está habilitado, el router no escaneará automáticamente redes cuando esté conectado exitosamente en modo no repetidor, y solo intentará cambiar automáticamente a otras redes guardadas cuando el router no tenga conexión, lo que puede evitar la pérdida de paquetes de comunicación."
     },
     "modem": {
         "title": "Móvil",

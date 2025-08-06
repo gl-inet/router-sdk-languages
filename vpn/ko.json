@@ -474,6 +474,7 @@
         "exit_title": "주의: Exit TAP-S2S",
         "exit_tips": "TAP-S2S 클라이언트를 종료하면 TAP-S2S 모드가 비활성화되고 터널 모드로 복귀합니다. OpenVPN 클라이언트도 원래의 IP 주소로 복귀하게 됩니다.",
         "start_title": "주의: TAP-S2S 클라이언트 시작",
-        "start_disable_tips": "모든 현재 터널이 비활성화되고 숨겨집니다."
+        "start_disable_tips": "모든 현재 터널이 비활성화되고 숨겨집니다.",
+        "astrowarp_up_tips": "Astrowarp과 TAP-S2S 클라이언트는 동시에 작동할 수 없습니다. Astrowarp을 수동으로 비활성화해 주세요."
     }
 }

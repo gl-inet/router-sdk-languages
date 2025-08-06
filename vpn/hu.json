@@ -474,6 +474,7 @@
         "exit_title": "Figyelem: Kilépés TAP-S2S",
         "exit_tips": "Kilépve a TAP-S2S kliensből, a rendszer visszaáll a Tunel módba. Az OpenVPN kliens is visszatér az eredeti IP-címére.",
         "start_title": "Figyelem: Indítsa el a TAP-S2S Klienst",
-        "start_disable_tips": "Az összes jelenlegi alagút le lesz tiltva és el lesz rejtve."
+        "start_disable_tips": "Az összes jelenlegi alagút le lesz tiltva és el lesz rejtve.",
+        "astrowarp_up_tips": "Az Astrowarp és a TAP-S2S kliens nem működhet egyszerre. Kérjük, kapcsolja ki manuálisan az Astrowarp-et."
     }
 }

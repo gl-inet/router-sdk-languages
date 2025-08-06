@@ -5,6 +5,10 @@
         "tips": "Quand l'accélération matérielle est activé, les fonctions suivantes peuvent ne pas fonctionner correctement : Débit du client, Statistiques du traffic, Limite de débit du client .",
         "hwnat_label": "Accélération matérielle",
         "swnat_label": "Accélération logicielle",
-        "wifi_reload_tips": "L'activation de l'accélération matérielle requiert de recharger le module WIFI, cela provoque une coupure de 10 secondes à 1 minute."
+        "wifi_reload_tips": "L'activation de l'accélération matérielle requiert de recharger le module WIFI, cela provoque une coupure de 10 secondes à 1 minute.",
+        "disabled_tips": "Lorsque l'accélération réseau est activée, les fonctions suivantes ne fonctionneront pas correctement : {feature}.",
+        "disabled_client_label": "Statistiques de vitesse et de trafic du client",
+        "disabled_speed_limit_label": "Limitation de vitesse du client",
+        "disabled_vpn_ipv6_label": "VPN avec IPv6"
     }
 }

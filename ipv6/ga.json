@@ -1,0 +1,18 @@
+{
+    "ipv6": {
+        "enable": "Cumasaithe",
+        "tips": "Nuair a bhíonn IPv6 cumasaithe, gheobhaidh comhéadain WAN ar nós Ethernet a seoltaí IPv6 trí DHCPv6. Is féidir leat an seoladh IPv6 a mhodhnú de láimh freisin ar an leathanach socruithe Ethernet. Ní thacaíonn roinnt gnéithe (balla dóiteáin, VPN, GoodCloud) le IPv6 go fóill.",
+        "note": "Nóta: Má úsáideann tú feidhmeanna VPN agus IPv6 ag an am céanna, d’fhéadfadh sé sin a bheith ina chúis le sceitheadh sonraí IPv6.",
+        "mode": "Modh",
+        "addr": "Seoladh IPv6",
+        "dns_acq": "Modh fála DNS",
+        "dns_tips": "Úsáidtear DNS chun an seoladh IP a fhreagraíonn d’ainm fearainn a aimsiú. D’fhéadfadh teip ar lorg DNS a bheith mar thoradh ar fhreastalaí DNS a shocrú de láimh. Úsáid go cúramach é.",
+        "dns_server": "Freastalaí DNS",
+        "invalid_parameter": "Tá an fhormáid a iontráladh mícheart!",
+        "dns_server_empty": "Cuir isteach ar a laghad freastalaí DNS amháin",
+        "native_tips": "Tá an rogha seo ar fáil ach amháin do líonra príobháideach, úsáideann an líonra aoiad modh NAT6 i gcónaí.",
+        "use_tip": "Nuair a bhíonn IPv6 cumasaithe, gheobhaidh comhéadain WAN ar nós Ethernet a seoltaí IPv6 trí DHCPv6. Is féidir leat an seoladh IPv6 a mhodhnú de láimh freisin ar an leathanach socruithe Ethernet. Ní thacaíonn roinnt gnéithe ({features}) le IPv6 go fóill.",
+        "disable_dns_tips": "Más mian leat IPv6 a dhíchumasú, ba chóir go n-úsáidfeadh an {page} seoladh IPv4, ar shlí eile b’fhéidir nach mbeadh an gléas in ann ceangal leis an líonra."
+    },
+    "menu_ipv6": "IPv6"
+}

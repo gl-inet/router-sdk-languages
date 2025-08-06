@@ -282,7 +282,6 @@
         "no_switching_tips": "Amikor a Váltás nélküli mód engedélyezve van, a jelenlegi Wi-Fi kapcsolat megszakadása esetén nem csatlakozik más mentett hálózatokhoz.",
         "auto_switching_without_network": "Hálózat nélküli automatikus váltás",
         "auto_switching_tips": "Amikor az automatikus váltási mód engedélyezett, a jelenlegi Wi-Fi kapcsolat megszakadása esetén más mentett hálózatokhoz csatlakozik a rendszer.",
-        "auto_switching_without_network_tips": "Amikor az Automatikus váltás Hálózat nélküli módban engedélyezve van, a router nem hajt végre hálózati beolvasást, amikor normál hálózati módban van és nem ismétlő módban, és csak akkor vált hálózatot, ha nincs hálózat, ami elkerülheti a kommunikációs csomagvesztést.",
         "repeater_not_auto_scan_tips": "A(z) {mode} mód jelenleg engedélyezve van. és az útválasztó sikeresen csatlakozik az internethez nem ismétlő módban, az ismétlő nem fog automatikusan hálózati keresést végezni.",
         "portal_go_to_auth_page_tips": "Csatlakozva a(z) {ssid} hálózathoz. Kérjük, jelentkezzen be a Hitelesítés oldalon az internet eléréséhez.",
         "regionally_allowed_channel_tips": "Ez a router csak az aktuális régió által engedélyezett Wi-Fi csatornajelzéseket képes keresni.",
@@ -294,7 +293,8 @@
         "portal_disable_vpn_tips": "Egyidejűleg az eszköz VPN nélkül irányítja a forgalmat, amíg a mód nem szűnik meg, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. szálloda/bevásárlóközpont).",
         "portal_disable_feature_tips": "Ez a mód automatikusan és ideiglenesen letiltja a {feature} funkciót.",
         "portal_auth_required_title": "Portálos hitelesítés szükséges",
-        "support_channel_tips": "A következő Wi-Fi csatornák támogatottak. Kérjük, győződjön meg róla, hogy a csatlakozni kívánt Wi-Fi hálózat ezek egyikét használja."
+        "support_channel_tips": "A következő Wi-Fi csatornák támogatottak. Kérjük, győződjön meg róla, hogy a csatlakozni kívánt Wi-Fi hálózat ezek egyikét használja.",
+        "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
