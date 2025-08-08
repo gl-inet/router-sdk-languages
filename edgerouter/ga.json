@@ -1,20 +1,20 @@
 {
     "edgerouter": {
         "configuration_method_label": "Modh cumraíochta",
-        "desc": "Nuair a bhíonn modh geata iontrálacha cumasaithe, déantar an trácht uile ó chliaint ar an líonra a phróiseáil ar dtús ag an ródaire seo. Is féidir leat an modh seo a úsáid chun feidhmiúlacht do phríomh ródaire a leathnú.",
-        "enable_label": "Cumasaigh Modiú Geata Iontrálacha",
+        "desc": "Nuair atá mód an gheata buail isteach cumasaithe, is é an ródaire seo a phróiseálann an trácht ar fad ó chliaint ar an líonra ar dtús. Is féidir leat an mód seo a úsáid chun feidhmiúlacht do phríomhródaire a leathnú.",
+        "enable_label": "Cumasaigh Mód Geata Buail Isteach",
         "dhcp_closed_tips": "Tá an tseirbhís DHCP ar an bpríomh ródaire díchumasaithe, tá an geata iontrálacha ag obair.",
         "dhcp_on_tips": "Tá an tseirbhís DHCP fós cumasaithe ar an bpríomh ródaire. B’fhéidir nach n-oibreoidh an geata iontrálacha i gceart. Téigh go dtí $$$$painéal riaracháin an phríomh ródaire$$$$ chun an tseirbhís DHCP a dhíchumasú nó a gheata a shocrú go {ip}.",
         "enable_tips": "Nuair a bhíonn modh geata iontrálacha cumasaithe, úsáidtear socruithe DNS an ródaire seo in ionad na socruithe ón bpríomh ródaire.",
-        "dhcp_on_warning_tips": "Tá an geata iontrálacha cumasaithe.",
+        "dhcp_on_warning_tips": "Tá geata buail isteach cumasaithe.",
         "dhcp_set_gateway_tips": "Tá an tseirbhís DHCP ar an bpríomh ródaire socraithe go ceart chun an geata a shocrú go {ip}, tá an geata iontrálacha ag obair.",
         "auto_set_tips": "Is cosúil go bhfuil athrú tagtha ar shocruithe DHCP an ródaire tuismitheora agus b’fhéidir nach mbeidh an ródaire in ann ceangal leis an líonra i gceart. $$$$Sioncronaigh na Socruithe ó DHCP$$$$ nó modhnaigh do chuid socruithe de láimh.",
-        "desc_vpn": "Tabhair faoi deara i Modiú Geata Iontrálacha, ní oibreoidh beartas VPN an ghléis seo do chliaint ón gcuan WAN.",
-        "cable_not_connected_tips": "Ní bhfuarthas cábla sa chuan WAN. Cuir cábla ethernet isteach.",
-        "modify_superior_router_label": "Tá gach gléas líonraithe trí gheata iontrálacha",
+        "desc_vpn": "Tabhair faoi deara, le do thoil, nach mbeidh polasaí VPN an ghléis seo i bhfeidhm ar chliaint ag teacht isteach tríd an bport WAN nuair atá an gléas i mód Buail Isteach (Gateway).",
+        "cable_not_connected_tips": "Ní bhfuarthas cábla sa chuan WAN. Cuir cábla ethernet isteach le do thoil.",
+        "modify_superior_router_label": "Tá gach gléas líonraithe trí gheata buail isteach",
         "modify_superior_router_desc": "Ní mór duit dul chun cumraíocht an phríomh ródaire a mhodhnú, ní mór é a chumrú ag úsáideoir a bhfuil rochtain aige ar an bpríomh ródaire.",
         "modify_self_router_label": "Roghnaíonn roinnt gléasanna a ngeata líonraithe féin",
-        "modify_self_router_desc": "Ní mór duit seoladh an gheata a athrú de láimh go seoladh IP an gheata iontrálacha ar roinnt de na gléasanna a bhfuil gá acu leis an ngeata iontrálacha a úsáid."
+        "modify_self_router_desc": "Ní mór duit seoladh an gheata a athrú de láimh go seoladh IP an gheata buail isteach ar roinnt de na gléasanna a gcaithfidh é a úsáid."
     },
-    "menu_edgerouter": "Geata Iontrálacha"
+    "menu_edgerouter": "Geata Buail Isteach"
 }
