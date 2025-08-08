@@ -117,13 +117,13 @@
         "join_btn": "Prisijungti",
         "search": "Paieška",
         "scan_btn": "Skenuoti",
-        "revoke_btn": "Atšaukti",
-        "manual_add_mac_btn": "Rankiniu būdu pridėti įrenginį",
-        "got_it": "Suprantu.",
+        "revoke_btn": "Sustabdyti galiojimą",
+        "manual_add_mac_btn": "Pridėti įrenginį",
+        "got_it": "Supratau",
         "attention_title": "Dėmesio",
         "remove_btn": "Pašalinti",
-        "notice_title": "Pranešimas",
-        "use_weak_disabled_ssh_tips": "Naudojant silpną slaptažodį bus išjungta SSH ir serijinė įvestis.",
+        "notice_title": "Skelbimas/Pranešimas",
+        "use_weak_disabled_ssh_tips": "Naudojant silpną slaptažodį, bus išjungiamas „SSH“ ir serijinė įvestis.",
         "important_note": "Svarbu"
     },
     "msg": {
@@ -167,10 +167,10 @@
         "year": "{count} Metas/-ai | {count} Metai/-ų",
         "day_var": "Diena {count}",
         "month_list": "Sausis|Vasaris|Kovas|Balandis|Gegužė|Birželis|Liepa|Rugpjūtis|Rugsėjis|Spalis|Lapkritis|Gruodis",
-        "am": "AM",
-        "pm": "PM",
+        "am": "priešpiet",
+        "pm": "po pusiaudienio",
         "weekend": "Savaitgalis",
-        "weekdays": "Darbo dienos",
+        "weekdays": "Šiokiadieniai",
         "every_day": "Kiekvieną dieną",
         "hour_system": "{label} H"
     },
@@ -221,7 +221,7 @@
         "duplex_full_label": "(dvi-/abi-)pusis – {speed} Mbps",
         "duplex_half_label": "vienpusis/pakaitinis – {speed} Mbps",
         "mtu_common_tip": "Nustatykite MTU reikšmę pagal jūsų naudojimo scenarijų. Netinkami nustatymai gali sukelti interneto ryšio nutrūkimą.",
-        "custom_dns_setting_label": "Pasirinktiniai DNS nustatymai",
+        "custom_dns_setting_label": "Pasirinktiniai „DNS“ nustatymai",
         "address_label": "Adresas"
     },
     "upload": {
