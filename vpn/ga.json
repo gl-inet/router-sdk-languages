@@ -290,7 +290,23 @@
         "wg_self_public_key_tips": "Eochair phoiblí ó do thaobh",
         "new_provider": "Soláthraí Nua",
         "name": "Ainm",
-        "domain_input_mode_tips": "Má roghnaíonn tú URL Síntiúis, nuashonrófar an fearann nó an IP sa URL go huathoibríoch gach lá."
+        "domain_input_mode_tips": "Má roghnaíonn tú URL Síntiúis, nuashonrófar an fearann nó an IP sa URL go huathoibríoch gach lá.",
+        "needinfo_tips": "$$$$ tá comhaid chumraíochta bailí ag teastáil go gcuirfear an askpass ar fáil, Déan cinnte go n-úsáideann na cumraíochtaí seo go léir an askpass céanna:",
+        "update_third": "Seirbhísí Nuashonraithe",
+        "ipv6_addr": "Seoladh IPv6",
+        "file_oversize_tips": "Ní féidir níos mó ná 1,000 comhad cumraíochta a bheith sa chomhad comhbhrúite uaslódáilte.",
+        "own_services_use_vpn_label": "Úsáid VPN do sheirbhísí príobháideacha",
+        "auto_gen_hint": "Uathghiniúint",
+        "wg_urbanshield_limit_tips": "Theip ar an gceangal, tabhair cuairt ar {provider} chun gléas eile a scaoileadh.",
+        "wg_urbanshield_dev_limit_tips": "Teorainn Gléas Bainte Amach. Logáil Amach Ceann Chun Leanúint Ar Aghaidh.",
+        "ovpn_step_tip2": "2. Modhnú an chumraíochta réamhshocraithe, ansin sábháil;",
+        "server": "Freastalaí",
+        "dh_param": "Paraiméadar Diffie Hellman",
+        "init_server": "Giniúint Cumraíochta",
+        "access_wan": "Rochtain WAN Amháin",
+        "traffic_use_vpn_label": "An Trácht ó Ghléasanna Cliant",
+        "ie_without_vpn": "(i.e. gan VPN)",
+        "base_on_strategy": "Bunaithe ar an $$$$VLAN$$$$"
     },
     "vpn_taps2s": {
         "start_title": "Aird: Tosaigh Cliant TAP-S2S",
@@ -332,7 +348,9 @@
         "conflicts_with_local_addr_v4_msg": "tá an seoladh sprioc i gcoimhlint le seoladh IPv4 áitiúil",
         "password_too_short_msg": "ní mór don phasfhocal a bheith ar a laghad 8 gcarachtar",
         "client_if_conflict_msg": "tá cliant VPN eile ag rith",
-        "network_abnormal_msg": "D’fhéadfadh go mbeadh neamhghnáthacht sa Líonra"
+        "network_abnormal_msg": "D’fhéadfadh go mbeadh neamhghnáthacht sa Líonra",
+        "get_local_ipv6_net_fail_msg": "theip ar sheoladh IPv6 áitiúil a fháil",
+        "api_limit_triggered_msg": "Oibríocht mhinic, déan iarracht arís níos déanaí le do thoil."
     },
     "vpn_tunnel": {
         "not_applicale_add_mac_label": "Ní Infheidhme",
@@ -435,7 +453,8 @@
         "rename_label": "Athainmnigh",
         "vpn_client_title": "Cliant VPN",
         "global_mode_desc": "Má tá an VPN ceangailte, déanfar an trácht ar fad a ródú tríd an VPN. Ní féidir ach aon chás cliant VPN amháin a ghníomhachtú.",
-        "all_other_traffic_sub_tips": "Má mhúchann tú é seo, feabhsófar an Kill Switch agus cuirfear cosc ar rochtain rialta ar an Idirlíon."
+        "all_other_traffic_sub_tips": "Má mhúchann tú é seo, feabhsófar an Kill Switch agus cuirfear cosc ar rochtain rialta ar an Idirlíon.",
+        "auto_vpn_label": "Uathroghnú Cumraíochta"
     },
     "vpn_server": {
         "want_use_ipv6_tips": "Más mian leat seoladh IPv6 a úsáid, {todo} ar do ródaire.",
@@ -450,7 +469,8 @@
         "route_rules_title": "Rialacha Bealaigh",
         "enable_ipv6_tips": "Mura nach bhfuil IPv6 cumasaithe, ní bheidh an seoladh IPv6 i bhfeidhm. Más mian leat seoladh IPv6 a úsáid, déan {todo} ar do ródaire.",
         "export_addr_tips": "Is féidir leat seoladh IP nó ainm fearainn a chur isteach. Is é an seoladh an seoladh {label} sa chumraíocht VPN.",
-        "starting_label": "Tá an freastalaí {type} ag tosú..."
+        "starting_label": "Tá an freastalaí {type} ag tosú...",
+        "modify_route_rule_title": "Modhnú Riail Bealaigh"
     },
     "menu_vpndashboard": "Deais VPN",
     "menu_wgserver": "Freastalaí WireGuard",
