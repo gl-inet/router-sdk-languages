@@ -3,7 +3,7 @@
         "available_condition_label": "Athraigh go Coinníoll Inrochtana",
         "fault_count": "Teip $$$$ uair",
         "track_addr_label": "IP a Thrácáil",
-        "tips": "Tacaíonn an ródaire le ceangail le hidirphléacsanna líonra iolracha ag an am céanna. Is féidir leat cumrú conas ba chóir na líonraí iolracha seo a úsáid.",
+        "tips": "Tacaíonn an ródaire le naisc le comhéadain líonra iolracha ag an am céanna. Is féidir leat a chumrú conas ba chóir na líonraí iolracha seo a úsáid.",
         "mode_label": "Modh",
         "mode_failover_tips": "Roghnaíonn an ródaire go huathoibríoch an chéad chomhéadan eile atá ar fáil leis an tosaíocht is airde.",
         "flush_track_label": "Sruthanna Athnuachana Fórsáilte",
@@ -21,7 +21,9 @@
         "track_desc": "Tá sé ar eolas ag an ródaire stádas an nasca chuig an IP scríbe chun a chinneadh an bhfuil an comhéadan ar fáil.",
         "track_enable_tips": "Má dhíchumasaítear an trácáil, glacfaidh an gléas leis go bhfuil an comhéadan nasctha leis an Idirlín nuair a bhíonn an comhéadan nasctha (m.sh. má tá cábla plugáilte isteach agus seoladh IP faighte).",
         "track_proto_label": "Prótacal Tracaíochta",
-        "fault_condition_label": "Athraigh go Coinníoll Teip"
+        "fault_condition_label": "Athraigh go Coinníoll Teip",
+        "failover_desc": "Teip Thar Maoil: Má theipeann ar an nasc gníomhach reatha, aistreoidh an ródaire go huathoibríoch chuig comhéadan líonra eile.",
+        "balancing_desc": "Cothromaíocht Ualaigh: Úsáideann sé il-chomhéadain líonra ag an am céanna chun bandaleithead iomlán an ródaire a mhéadú. Tabhair faoi deara nach n-úsáidfidh naisc leis an bhfeidhmchlár nó leis an suíomh céanna ach comhéadan amháin de ghnáth."
     },
     "menu_multiwan": "Il-WAN"
 }
