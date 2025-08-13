@@ -35,7 +35,8 @@
         "enable_psc_tips": "When PSC (Preferred Scanning Channel) is enabled, only channels with higher connectivity will be reserved to ensure 6GHz device connections.",
         "mlo_6g_bssid_tips": "If the MLO Wi-Fi radio bands include 6 GHz, the MLO Wi-Fi BSSID will synchronize when the 6GHz Wi-Fi BSSID changes.",
         "mlo_network_tips": "Wi-Fi 7 clients are recommended to connect with MLO Wi-Fi, which can greatly improve the network transmission rate and reliability through multi-band connection.",
-        "open_wifi_security_tips": "\"Open WiFi\" has security risks. Use with caution."
+        "open_wifi_security_tips": "\"Open WiFi\" has security risks. Use with caution.",
+        "guest_wifi_unavailable_tips": "Guest Wi-Fi is unavailable because {repeater} is enabled."
     },
     "menu_wireless": "Wireless"
 }
