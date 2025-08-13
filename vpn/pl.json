@@ -450,7 +450,10 @@
         "via_title": "Przez",
         "from_title": "Z",
         "to_title": "Do",
-        "all_other_traffic_sub_tips": "Wyłączenie tej opcji wzmocni działanie Kill Switch i zablokuje regularny dostęp do Internetu."
+        "all_other_traffic_sub_tips": "Wyłączenie tej opcji wzmocni działanie Kill Switch i zablokuje regularny dostęp do Internetu.",
+        "default_tunnel_allow_label": "Zezwalaj na ruch poza VPN",
+        "default_tunnel_kill_switch_label": "Rozszerzony Kill Switch",
+        "default_tunnel_allow_tips": "{label}: Po włączeniu, będziesz miał normalny dostęp do Internetu, jeśli Twoje dane nie pasują do żadnej z powyższych zasad."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
