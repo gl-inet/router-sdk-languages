@@ -450,7 +450,12 @@
         "via_title": "Keresztül",
         "from_title": "From",
         "to_title": "A",
-        "all_other_traffic_sub_tips": "Ennek kikapcsolása fokozza a Kill Switch hatékonyságát és blokkolja a szokásos internetes hozzáférést."
+        "all_other_traffic_sub_tips": "Ennek kikapcsolása fokozza a Kill Switch hatékonyságát és blokkolja a szokásos internetes hozzáférést.",
+        "default_tunnel_allow_label": "Nem VPN-forgalom engedélyezése",
+        "default_tunnel_kill_switch_label": "Továbbfejlesztett Kill Switch",
+        "default_tunnel_common_tips": "Az összes olyan internetes forgalom esetében, amely nem illeszkedik a fenti VPN-alagutakhoz és szabályzatokhoz, ez az opció szabályozza, hogy szeretné-e, hogy az internetre kerüljenek. Ez az opció alapértelmezés szerint engedélyezve lesz, így a VPN-adatok mellett normális internet-hozzáféréssel is rendelkezhet.",
+        "default_tunnel_allow_tips": "{label}: Ha engedélyezve van, normális internetkapcsolattal rendelkezhet, ha az adatai nem egyeznek a fenti szabályzatok egyikével sem.",
+        "default_tunnel_kill_switch_tips": "{label}: Ha letiltva van, VPN és szabályzatok használatára kényszerül az interneteléréshez. Az össze nem illő adat nem jut át. Ez az opció nem írja felül az egyes szabályzatokhoz tartozó Kill Switch funkciót."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
