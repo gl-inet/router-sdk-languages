@@ -35,7 +35,8 @@
         "enable_psc_tips": "PSC（優先スキャンチャネル）が有効になっている場合、6GHzデバイスの接続を確保するために、より高い接続性を持つチャネルのみが予約されます。",
         "mlo_6g_bssid_tips": "MLO Wi-Fiの無線帯域に6 GHzが含まれている場合、6GHz Wi-FiのBSSIDが変更されると、MLO Wi-FiのBSSIDも同期します。",
         "mlo_network_tips": "Wi-Fi 7クライアントはMLO Wi-Fiとの接続が推奨されます。マルチバンド接続により、ネットワーク伝送速度と信頼性が大幅に向上します。",
-        "open_wifi_security_tips": "「Open WiFi」にはセキュリティリスクがあります。ご注意ください。"
+        "open_wifi_security_tips": "「Open WiFi」にはセキュリティリスクがあります。ご注意ください。",
+        "guest_wifi_unavailable_tips": "ゲストWi-Fiは利用できません。{repeater}が有効になっているためです。"
     },
     "menu_wireless": "無線"
 }
