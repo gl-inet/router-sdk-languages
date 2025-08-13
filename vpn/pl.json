@@ -453,7 +453,9 @@
         "all_other_traffic_sub_tips": "Wyłączenie tej opcji wzmocni działanie Kill Switch i zablokuje regularny dostęp do Internetu.",
         "default_tunnel_allow_label": "Zezwalaj na ruch poza VPN",
         "default_tunnel_kill_switch_label": "Rozszerzony Kill Switch",
-        "default_tunnel_allow_tips": "{label}: Po włączeniu, będziesz miał normalny dostęp do Internetu, jeśli Twoje dane nie pasują do żadnej z powyższych zasad."
+        "default_tunnel_allow_tips": "{label}: Po włączeniu, będziesz miał normalny dostęp do Internetu, jeśli Twoje dane nie pasują do żadnej z powyższych zasad.",
+        "default_tunnel_kill_switch_tips": "{label}: Po wyłączeniu, wymuszane jest korzystanie z VPN i zasad w celu dostępu do Internetu. Wszystkie niezgodne dane nie zostaną przepuszczone. Ta opcja nie zastąpi indywidualnego Kill Switch dla każdej z zasad.",
+        "default_tunnel_common_tips": "Dla całego pozostałego ruchu internetowego, który nie jest dopasowany przez żadne tunele VPN i powyższe zasady, ta opcja kontroluje, czy mają one trafiać do Internetu. Opcja ta jest domyślnie włączona, aby zapewnić normalny dostęp do Internetu oprócz danych VPN."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
