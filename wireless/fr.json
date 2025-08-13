@@ -35,7 +35,8 @@
         "enable_psc_tips": "Lorsque le PSC (Canal de Balayage Préféré) est activé, seuls les canaux offrant une meilleure connectivité seront réservés pour garantir les connexions des appareils à 6 GHz.",
         "mlo_6g_bssid_tips": "Si les bandes radio Wi-Fi MLO incluent 6 GHz, le BSSID Wi-Fi MLO se synchronisera lorsque le BSSID Wi-Fi 6 GHz changera.",
         "mlo_network_tips": "Il est recommandé que les clients Wi-Fi 7 se connectent via le Wi-Fi MLO, ce qui peut considérablement améliorer le débit de transmission réseau et la fiabilité grâce à une connexion multibande.",
-        "open_wifi_security_tips": "\"Open WiFi\" présente des risques de sécurité. À utiliser avec prudence."
+        "open_wifi_security_tips": "\"Open WiFi\" présente des risques de sécurité. À utiliser avec prudence.",
+        "guest_wifi_unavailable_tips": "Le Wi-Fi invité est indisponible car {repeater} est activé."
     },
     "menu_wireless": "Réseau sans-fil"
 }
