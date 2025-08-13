@@ -450,7 +450,12 @@
         "via_title": "経由",
         "from_title": "発信元",
         "to_title": "宛先",
-        "all_other_traffic_sub_tips": "これをオフにするとキル・スイッチが強化され、通常のインターネットアクセスがブロックされます。"
+        "all_other_traffic_sub_tips": "これをオフにするとキル・スイッチが強化され、通常のインターネットアクセスがブロックされます。",
+        "default_tunnel_allow_label": "非VPNトラフィックを許可",
+        "default_tunnel_kill_switch_label": "強化Kill Switch",
+        "default_tunnel_allow_tips": "{label}: 有効にすると、上記のポリシーに一致しないデータがある場合でも通常のインターネット接続が可能になります。",
+        "default_tunnel_common_tips": "上記のVPNトンネルやポリシーに一致しない他のすべてのインターネットトラフィックについて、このオプションはそれらをインターネットに送信するかどうかを制御します。このオプションはデフォルトで有効になっており、VPNデータ以外でも通常のインターネットアクセスが可能です。",
+        "default_tunnel_kill_switch_tips": "{label}: 無効にすると、VPNとポリシーを使用してインターネットにアクセスするように強制されます。一致しないデータはすべて通過しません。このオプションは、各ポリシーに対する個別のKill Switchを上書きしません。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
