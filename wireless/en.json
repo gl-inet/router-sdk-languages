@@ -36,7 +36,8 @@
         "mlo_6g_bssid_tips": "If the MLO Wi-Fi radio bands include 6 GHz, the MLO Wi-Fi BSSID will synchronize when the 6GHz Wi-Fi BSSID changes.",
         "mlo_network_tips": "Wi-Fi 7 clients are recommended to connect with MLO Wi-Fi, which can greatly improve the network transmission rate and reliability through multi-band connection.",
         "open_wifi_security_tips": "\"Open WiFi\" has security risks. Use with caution.",
-        "guest_wifi_unavailable_tips": "Guest Wi-Fi is unavailable because {repeater} is enabled."
+        "guest_wifi_unavailable_tips": "Guest Wi-Fi is unavailable because {repeater} is enabled.",
+        "cannot_detect_6g_network_tips": "If your device cannot detect the 6GHz network, try enabling both 6GHz and 2.4GHz Wi-Fi to improve compatibility."
     },
     "menu_wireless": "Wireless"
 }
