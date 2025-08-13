@@ -450,7 +450,10 @@
         "from_title": "自",
         "via_title": "通过",
         "to_title": "至",
-        "all_other_traffic_sub_tips": "关闭此功能将增强 Kill Switch 功能并阻止常规互联网访问。"
+        "all_other_traffic_sub_tips": "关闭此功能将增强 Kill Switch 功能并阻止常规互联网访问。",
+        "default_tunnel_allow_label": "允许非VPN流量",
+        "default_tunnel_kill_switch_label": "增强型Kill Switch",
+        "default_tunnel_allow_tips": "{label}: 启用后，若您的数据不符合上述任何策略，仍可正常访问互联网。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
