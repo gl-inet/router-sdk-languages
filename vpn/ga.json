@@ -454,7 +454,12 @@
         "vpn_client_title": "Cliant VPN",
         "global_mode_desc": "Má tá an VPN ceangailte, déanfar an trácht ar fad a ródú tríd an VPN. Ní féidir ach aon chás cliant VPN amháin a ghníomhachtú.",
         "all_other_traffic_sub_tips": "Má mhúchann tú é seo, feabhsófar an Kill Switch agus cuirfear cosc ar rochtain rialta ar an Idirlíon.",
-        "auto_vpn_label": "Uathroghnú Cumraíochta"
+        "auto_vpn_label": "Uathroghnú Cumraíochta",
+        "default_tunnel_allow_label": "Ceadaigh Trácht Neamh-VPN",
+        "default_tunnel_kill_switch_label": "Kill Switch Feabhsaithe",
+        "default_tunnel_kill_switch_tips": "{label}: Nuair a bhíonn sé Díchumasaithe, tá tú á iallach VPN agus beartais a úsáid chun rochtain a fháil ar an Idirlíon. Ní rachaidh aon sonraí nach gcloíonn leis na beartais tríd. Ní sháróidh an rogha seo an Kill Switch aonair do gach beartas.",
+        "default_tunnel_allow_tips": "{label}: Nuair a bhíonn sé Cumasaithe, beidh tú ag fáil rochtana ar an Idirlíon mar is gnách mura gcloíonn do chuid sonraí le haon cheann de na beartais thuas.",
+        "default_tunnel_common_tips": "Maidir leis an trácht Idirlín eile nach gcloíonn le haon tolláin VPN nó beartais thuas, rialaíonn an rogha seo an bhfuil tú ag iarraidh iad a sheoladh chuig an Idirlíon nó nach bhfuil. Beidh an rogha seo cumasaithe de réir réamhshocraithe ionas go mbeidh rochtain ghnáth Idirlín agat seachas do chuid sonraí VPN."
     },
     "vpn_server": {
         "want_use_ipv6_tips": "Más mian leat seoladh IPv6 a úsáid, {todo} ar do ródaire.",
