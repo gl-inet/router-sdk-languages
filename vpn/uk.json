@@ -450,7 +450,10 @@
         "from_title": "Від",
         "via_title": "Через",
         "to_title": "До",
-        "all_other_traffic_sub_tips": "Вимкнення цього параметра посилить Kill Switch та заблокує звичайний доступ до Інтернету."
+        "all_other_traffic_sub_tips": "Вимкнення цього параметра посилить Kill Switch та заблокує звичайний доступ до Інтернету.",
+        "default_tunnel_allow_label": "Дозволити трафік поза VPN",
+        "default_tunnel_kill_switch_label": "Розширений Kill Switch",
+        "default_tunnel_allow_tips": "{label}: Якщо увімкнено, ви матимете звичайний доступ до Інтернету, якщо ваші дані не відповідають жодній із вищезазначених політик."
     },
     "vpn_server": {
         "connected_dev_label": "Підключені пристрої",
