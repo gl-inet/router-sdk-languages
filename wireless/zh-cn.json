@@ -36,7 +36,8 @@
         "mlo_6g_bssid_tips": "若MLO Wi-Fi频段含6G频段，6GHz Wi-Fi BSSID变动时，MLO Wi-Fi BSSID亦随之同步。",
         "mlo_network_tips": "Wi-Fi 7 客户端推荐连接 MLO Wi-Fi，通过多频段连接可以大大提高网络传输速率和可靠性。",
         "open_wifi_security_tips": "\"开放WiFi\"存在安全风险，请谨慎使用。",
-        "guest_wifi_unavailable_tips": "由于已启用{repeater}，访客 Wi-Fi 不可用。"
+        "guest_wifi_unavailable_tips": "由于已启用{repeater}，访客 Wi-Fi 不可用。",
+        "cannot_detect_6g_network_tips": "如果您的设备无法检测到6GHz网络，请尝试同时启用6GHz和2.4GHz Wi-Fi以提高兼容性。"
     },
     "menu_wireless": "无线"
 }
