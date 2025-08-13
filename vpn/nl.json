@@ -450,7 +450,10 @@
         "via_title": "Via",
         "from_title": "Van",
         "to_title": "Naar",
-        "all_other_traffic_sub_tips": "Dit uitschakelen versterkt de Kill Switch en blokkeert reguliere internettoegang."
+        "all_other_traffic_sub_tips": "Dit uitschakelen versterkt de Kill Switch en blokkeert reguliere internettoegang.",
+        "default_tunnel_allow_label": "Niet-VPN-verkeer toestaan",
+        "default_tunnel_kill_switch_label": "Verbeterde Kill Switch",
+        "default_tunnel_allow_tips": "{label}: Wanneer ingeschakeld, heeft u normaal internet als uw gegevens niet overeenkomen met een van de bovenstaande beleidsregels."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
