@@ -12,7 +12,7 @@
         "invalid_parameter": "Įvestas formatas yra neteisingas!",
         "dns_server_empty": "Įveskite bent vieną „DNS“ serverį",
         "native_tips": "Ši parinktis galima tik – privačiame tinkle, svečių tinklas visada naudoja „NAT6“ veiksena.",
-        "use_tip": "Kai IPv6 yra įjungtas, WAN sąsajos, tokios kaip „eternetas“, gaus savo IPv6 adresus per DHCPv6. Taip pat galite rankiniu būdu keisti IPv6 adresą „eterneto“ nustatymų puslapyje. Kai kurios funkcijos ({features}) dar nepalaiko IPv6.",
-        "disable_dns_tips": "Jei norite išjungti IPv6, {page} turi naudoti IPv4 adresą, kitaip įrenginys gali neprisijungti prie tinklo."
+        "use_tip": "Kai IPv6 yra įjungtas/įgalintas, „WAN“ sąsajos, tokios kaip „eternetas“, gaus savo IPv6 adresus per „DHCPv6“. Taip pat galite rankiniu būdu keisti IPv6 adresą „eterneto“ nustatymų puslapyje. Kai kurios funkcijos (pvz.: {features}) dar nepalaiko IPv6.",
+        "disable_dns_tips": "Jei norite išjungti/išgalinti IPv6, tada – {page} turi naudoti IPv4 adresą, kitaip įrenginys negalės prisijungti prie tinklo."
     }
 }
