@@ -23,10 +23,10 @@
         "need_pubilc_ip_tips": "Aby korzystać z Dynamicznego DNS, potrzebny jest publiczny adres IP w Internecie.",
         "sevices_warning_tips": "Jeśli masz włączony klient VPN, proszę wyłączyć opcję \"Usługi od GL.iNet korzystają z VPN\" w opcjach globalnych.",
         "nat_warning_tips": "Jeśli ten router znajduje się za NAT-em, może być konieczne ustawienie przekierowania portów na routerze dostawcy internetu.",
-        "use_desc": "Możesz włączyć Dynamiczny DNS (DDNS) dla tego routera i uzyskać do niego dostęp zdalnie.",
-        "enabled_tips": "Może wystąpić opóźnienie do 10 minut w synchronizacji rekordów między serwerami DNS. Może to spowodować brak dostępu do domeny DDNS bezpośrednio po jej włączeniu lub po zmianie publicznego adresu IP.",
-        "security_settings_btn": "Ustawienia Bezpieczeństwa",
-        "security_settings_tips": "W sekcji „System-Security” Kontrola Dostępu Zdalnego możesz zmodyfikować dwie opcje, aby ograniczyć dostęp zdalny.",
+        "use_desc": "Możesz włączyć Dynamiczny DNS (DDNS) dla tego routera i uzyskać do niego zdalny dostęp.",
+        "enabled_tips": "Może wystąpić opóźnienie do 10 minut w synchronizacji rekordów między serwerami DNS. Może to spowodować, że nie będziesz mógł natychmiast uzyskać dostępu przez nazwę domeny DDNS zaraz po jej włączeniu lub gdy Twój publiczny adres IP ulegnie zmianie.",
+        "security_settings_btn": "Ustawienia bezpieczeństwa",
+        "security_settings_tips": "W sekcji \"System-Bezpieczeństwo\" Kontrola dostępu zdalnego możesz zmodyfikować dwie opcje, aby ograniczyć zdalny dostęp.",
         "to_security_btn": "Przejdź do Bezpieczeństwa"
     },
     "menu_dynamicdns": "Dynamiczny DNS"
