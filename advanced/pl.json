@@ -1,20 +1,20 @@
 {
-    "menu_advanced": "Ustawienia zaawansowane",
+    "menu_advanced": "Ustawienia Zaawansowane",
     "advanced": {
         "note_two": "Naciśnięcie tego przycisku przenosi cię to natywnej strony LuCI. GL.iNet nie jest odpowiedzialny za utrzymanie LuCI.",
-        "note_one": "Możesz modyfikować zaawansowane ustawienia za pomocą LuCI, domyślnego internetowego interfejsu użytkownika OpenWrt. LuCI to otwarty i niezależny projekt prowadzony przez OpenWrt.",
+        "note_one": "Możesz modyfikować zaawansowane ustawienia za pomocą LuCI, domyślnego interfejsu użytkownika OpenWrt. LuCI to otwarty i niezależny projekt prowadzony przez OpenWrt.",
         "go_to_luci_btn": "Przejdź do LuCI",
-        "luci_rtty_tips": "Jeśli potrzebujesz zdalnego dostępu do LuCI za pomocą rtty, proszę uzyskać dostęp do LuCI na porcie {port} na platformie chmurowej.",
-        "luci_security_tips": "Dla bezpieczeństwa LuCI, jeśli potrzebujesz zdalnego dostępu do LuCI, proszę ręcznie otworzyć port LuCI."
+        "luci_rtty_tips": "Aby uzyskać zdalny dostęp do LuCI przez rtty, użyj portu {port} na platformie chmurowej.",
+        "luci_security_tips": "Ze względów bezpieczeństwa, aby uzyskać zdalny dostęp do interfejsu LuCI, należy ręcznie otworzyć odpowiedni port."
     },
     "luci": {
-        "install_tips": "Zmodyfikuj zaawansowane ustawienia za pomocą LuCI",
+        "install_tips": "Edytuj ustawienia zaawansowane przez LuCI",
         "install_power_by_tips": "LuCI to otwarty i niezależny projekt utrzymywany przez OpenWrt.",
-        "install_btn": "Zainstaluj teraz",
+        "install_btn": "Instaluj teraz",
         "insatlling_tips": "Instalacja...",
         "install_fail_tips": "Instalacja nie powiodła się",
         "check_network_tips": "Proszę sprawdzić połączenie sieciowe.",
-        "re_install_btn": "Zainstaluj ponownie",
+        "re_install_btn": "Instaluj ponownie",
         "out_of_memory_tips": "Nie ma wystarczającej ilości miejsca do zainstalowania.",
         "uninsatlling_tips": "Odinstalowywanie...",
         "need_uninstall_tips": "Jeśli nie jest to potrzebne, możesz {do}.",
