@@ -1,7 +1,7 @@
 {
     "firewall": {
         "open_ports_on_router": "Otwarte Porty na Routerze",
-        "port_forwards": "Przekierowanie portów",
+        "port_forwards": "Przekierowanie Portów",
         "open_port_on_router_dest": "Dla celów bezpieczeństwa usługi, które zainstalujesz na urządzeniu są jedynie otwarte dla sieci LAN. Jeśli chcesz, żeby były dostępne z sieci WAN musisz otworzyć porty dla tych usług po stronie WAN.",
         "name": "Nazwa",
         "protocol": "Protokół",
@@ -13,8 +13,8 @@
         "port": "Port",
         "action": "Akcja",
         "no_data": "Brak danych w tabeli",
-        "add_port_forwards_title": "Dodaj nową regułę przekierowania portów",
-        "edit_port_forwards_title": "Modyfikuj regułę przekierowania portów",
+        "add_port_forwards_title": "Dodaj Nową Regułę Przekierowania Portów",
+        "edit_port_forwards_title": "Modyfikuj Regułę Przekierowania Portów",
         "add_router_prot_title": "Otwórz Nowy Port",
         "edit_router_prot_title": "Modyfikuj Otwarty Port",
         "delete_all_port_tips": "Czy jesteś pewien, że chcesz usunąć wszystkie wpisy?",
@@ -27,7 +27,7 @@
         "open_dmz": "Włącz DMZ",
         "dmz_priority_higher_label": "Najwyższy",
         "priority_label": "Priorytet",
-        "adjust _priority_btn": "Dostosuj priorytet",
+        "adjust _priority_btn": "Dostosuj Priorytet",
         "port_value_tips": "Zakres portów to od 1 do 65535. Możesz ustawić pojedynczy port lub zakres portów, łącząc pierwszy i ostatni numer portu symbolem - (tak jak 501-510).",
         "dmz_tips": "Jeśli włączysz DMZ, twoje reguły przekierowania portów oraz reguły otwierania portów nie będą miały efektu.",
         "dmz_desc": "DMZ pozwala na wystawienie jednego lokalnego komputera do Internetu, wszystkie przychodzące pakiety będą przekierowane do tego komputera.",
