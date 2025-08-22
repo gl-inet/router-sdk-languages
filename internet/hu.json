@@ -293,7 +293,7 @@
         "portal_disable_vpn_tips": "Egyidejűleg az eszköz VPN nélkül irányítja a forgalmat, amíg a mód nem szűnik meg, ami adatszivárgást okozhat a hotspot szolgáltatójának (pl. szálloda/bevásárlóközpont).",
         "portal_disable_feature_tips": "Ez a mód automatikusan és ideiglenesen letiltja a {feature} funkciót.",
         "portal_auth_required_title": "Portálos hitelesítés szükséges",
-        "support_channel_tips": "A következő Wi-Fi csatornák támogatottak. Kérjük, győződjön meg róla, hogy a csatlakozni kívánt Wi-Fi hálózat ezek egyikét használja.",
+        "support_channel_tips": "Az alábbi csatornák használata lehetséges. Kérem, olyan hálózatra csatlakozzon, amely engedélyezi a felsorolt csatornák használatát!",
         "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését."
     },
     "router_visual": {
@@ -307,7 +307,7 @@
         "no_device_tips": "Nincs Tethering eszköz észlelve, csatlakoztasson okostelefont vagy USB Modemet a használathoz."
     },
     "guide": {
-        "configure_router_tip": "A hálózati útmutató segítségével pillanatok alatt beállíthatja az internetkapcsolatot.",
+        "configure_router_tip": "A hálózati útmutató segítségével pillanatok alatt beállíthatja az útválasztót az internetkapcsolat eléréséhez.",
         "got_it": "Értem",
         "can_enjoy_the_internet": "Most már élvezheti az internetet.",
         "successful_networking": "Sikeres hálózatépítés",
@@ -316,13 +316,13 @@
         "step_one": "1. lépés",
         "step_two": "2. lépés",
         "step_three": "3. lépés",
-        "wifi_scanning_tip": "WiFi-szkennelés folyamatban, kérem várjon egy pillanatot.",
+        "wifi_scanning_tip": "Hálózatok keresése folyamatban. Kérem, várjon!",
         "repeater_configuration": "Ismétlő konfiguráció",
         "select_network_mode_tip": "Üzemmód kiválasztása",
         "wan_interface_detect_title": "WAN interfész észlelése",
         "scan_wifi_title": "A közeli Wi-Fi hálózatok keresése",
-        "ethernet_description_option": "Csatlakozás az internethez Ethernet kábelen keresztül.",
-        "repeater_description_option": "Csatlakozás az internethez egy meglévő Wi-Fi-n keresztül.",
+        "ethernet_description_option": "Csatlakozás az internethez vezetéken keresztül.",
+        "repeater_description_option": "Csatlakozás az internethez egy meglévő hálózaton keresztül.",
         "repeater_join_success_tip": "Az ismétlő konfigurációja befejeződött.",
         "login_mode_for_public_hotspots": "Bejelentkezési mód nyilvános hotspotokhoz",
         "ethernet_connected_tip": "Az Ethernet konfigurációja befejeződött.",
@@ -332,7 +332,7 @@
         "enter_info_by_isp_tip": "Adja meg az internetszolgáltató által biztosított információkat.",
         "connection_is_normal": "A jelenlegi hálózati kapcsolat típusa {type} és a hálózati állapot normális.",
         "pppoe_is_normal": "A jelenlegi hálózati kapcsolat típusa PPPoE, és a hálózati állapot normális.",
-        "detecting_loading": "Érzékelés…",
+        "detecting_loading": "Észlelés…",
         "enter_to_guide": {
             "tip": "Kattintson ide, hogy újra belépjen a kezdő útmutatóba."
         },
@@ -421,8 +421,8 @@
         "fail_reboot_gateway_tips": "Újraindítsa a fő átjárót.",
         "contact_isp_tips": "Lépjen kapcsolatba az internetszolgáltatójával segítségért.",
         "cable_success_tips": "Az aktuális hálózati kapcsolat típusa {type}, és a hálózati állapot normális.",
-        "detecting_title": "Érzékelés",
-        "cable_no_wan_tips": "Nincs érzékelhető kábel. Kérjük, csatlakoztassa a hálózati kábelt a WAN portra.",
+        "detecting_title": "Észlelés folyamatban",
+        "cable_no_wan_tips": "Nem észlelhető csatlakoztatott vezeték. Kérem, csatlakoztassa a vezetéket a WAN-portba!",
         "cable_no_wan_lan_tips": "LAN port érzékeli a hálózati kábelt, kérjük, győződjön meg arról, hogy a kábel a helyes pozícióba van behelyezve.",
         "cable_wan_checking_tips": "WAN állapot ellenőrzése, kérem várjon egy pillanatot.",
         "cable_pppoe_tips": "Adja meg az internetszolgáltatója által biztosított információkat. Kérjük, győződjön meg arról, hogy a szélessávú fiók jelszava helyes, ha elfelejtette, lépjen kapcsolatba az üzemeltetővel.",
