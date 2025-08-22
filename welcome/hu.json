@@ -10,18 +10,19 @@
         "confirm_pwd": "Jelszó ismét",
         "unknown_err_msg": "Az útválasztó beüzemelése során megszakadt a kapcsolat a géppel/eszközzel. Kérem, ellenőrizze a gép/eszköz kapcsolatát!",
         "confirm_pwd_placeholder": "Jelszó megismétlése",
-        "ssid": "Wi-Fi név (SSID)",
-        "key": "Wi-Fi jelszó",
+        "ssid": "Hálózat neve (SSID)",
+        "key": "Jelszó",
         "wifi_code_text": "Csatlakozás szkenneléssel",
-        "welcome_slogan": "Üdvözöljük a GL.iNet-nél!",
+        "welcome_slogan": "Üdvözli a GL.iNet!",
         "set_wifi_title": "Wi-Fi beállítása",
         "htmode_160_label": "160MHz dinamikus sávszélesség",
-        "pwd_inconsistencies": "Jelszó eltérések",
+        "pwd_inconsistencies": "A jelszó nem egyezik",
         "wifi_restart_loading_text": "Ez néhány másodpercet igénybe vehet, kérem várjon.",
         "reconnected_wifi_loading_text": "Győződjön meg arról, hogy az eszköz újra csatlakozott a következő Wi-Fi hálózathoz.",
         "htmode_160_tips": "A 160MHz dinamikus sávszélesség nagyobb átviteli sebességet és jobb jel lefedettséget biztosít, ennek a funkció bekapcsolása után egy ideig várnia kell a radarjel szkennelésére.",
         "wifi_scan_code_tips": "A WiFi jelszó egyedileg módosítható az Adminisztrációs Panelen.",
-        "not_collect_any_personal_data_tips": "A GL.iNet nem gyűjt felhasználói személyes adatokat, kivéve, ha a GL.iNet felhőszolgáltatás engedélyezve van.",
-        "prevent_weak_pwd_tips": "A \"Gyenge jelszavak megakadályozása\" engedélyezése bekapcsolja az SSH funkciót, míg letiltása kikapcsolja azt."
+        "not_collect_any_personal_data_tips": "A GL.iNet nem gyűjt személyes adatokat. A felhőszolgáltatás kizárólag az eszközök beállításaihoz fér hozzá távoli elérés céljából.",
+        "prevent_weak_pwd_tips": "A \"Gyenge jelszavak megakadályozása\" engedélyezése bekapcsolja az SSH funkciót, míg letiltása kikapcsolja azt.",
+        "enable_wifi": "Engedélyezze a(z) {band} Wi-Fi-t"
     }
 }

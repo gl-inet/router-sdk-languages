@@ -450,7 +450,12 @@
         "via_title": "Via",
         "from_title": "From",
         "to_title": "To",
-        "all_other_traffic_sub_tips": "Turning this off will enhance Kill Switch and block regular Internet access."
+        "all_other_traffic_sub_tips": "Turning this off will enhance Kill Switch and block regular Internet access.",
+        "default_tunnel_allow_tips": "{label}: When Enabled, you will have normal Internet if your data do not match any of the policies above.",
+        "default_tunnel_allow_label": "Allow Non-VPN traffic",
+        "default_tunnel_kill_switch_tips": "{label}: When Disabled, you are forced to use VPN and polices to access the Internet. All unmatched data will not go through. This option will not override the individual Kill Switch for each policies.",
+        "default_tunnel_kill_switch_label": "Enhanced Kill Switch",
+        "default_tunnel_common_tips": "For all other Internet traffic that not matched by any VPN tunnels and policies above, this option controls whether or not you want them goes to the Internet. This option will be enabled by default so that you have normal Internet access besides your VPN data."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",

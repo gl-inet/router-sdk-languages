@@ -33,13 +33,13 @@
         "passthrough_close_warning": "Jei perjungsite į šią veikseną, tada kartotùvas, belaidis/bevielis, klientai ir „AdGuard Home“ bus išjungti.",
         "passthrough_conflict_warning": "Ši veiksena gali neveikti, jei įjungti/įgalinti šie nustatymai: „Saitvietė“, „Apdorojanti tinklo tarpuvartė“, „IPv6“, „„TAP-S2S“ veiksena“, „Rankiniu būdu nustatytas „DNS““, „Daugiasąsajinis („Multi-WAN“) nustatytas į apkrovos balansavimo veikseną“, „„WAN“ prievadas nustatytas kaip „LAN““, „Naudojama „VPN“ politika“, „Pridėtas bet koks užkardos nustatymas“ ar „Rankiniu būdu nustatytas „MAC“ adresas“.",
         "passthrough_conflict_2b_warning": "Ši veiksena gali neveikti, jei įjungti/įgalinti šie nustatymai: „Apdorojanti tinklo tarpuvartė“, „IPv6“, „Įjungta/Įgalinta „TAP-S2S“ veiksena“, „Rankiniu būdu nustatytas „DNS““, „Daugiasąsajinis („Multi-WAN“) nustatytas į apkrovos balansavimo veikseną“, „„WAN“ prievadas nustatytas kaip „LAN““, „Naudojama „VPN“ politika“, „Pridėtas bet koks užkardos nustatymas“ ar „Rankiniu būdu nustatytas „MAC“ adresas“.",
-        "passthrough_secondwan_warning": "IP perėjimo veiksena reikalauja, kad būtų tik vienas „WAN“ prievadas. Prašome eiti į – $$$$ puslapį, kad pakeistumėte/redaguotumėte nustatymus ir atšauktumėte „WAN“ prievado naudojimą kaip „LAN“ prievadą arba, kad atšauktumėte „LAN“ prievado naudojimą kaip „WAN“ prievadą.",
+        "passthrough_secondwan_warning": "IP pérdavos veiksena reikalauja, kad būtų tik vienas „WAN“ prievadas. Prašome eiti į – $$$$ puslapį, kad pakeistumėte/redaguotumėte nustatymus ir atšauktumėte „WAN“ prievado naudojimą kaip „LAN“ prievadą arba, kad atšauktumėte „LAN“ prievado naudojimą kaip „WAN“ prievadą.",
         "set_up_bridge_tips": "Norėdami nustatyti „tinklo tiltą“ – jungimo veikseną, pirmiausia turite prijungti „eterneto“ laidą prie „WAN“ prievado.",
         "passthrough_enable_warning": "Jeigu persijungsite į šią veikseną, tada „{feature}“ – bus išjungta/išgalinta (-s).",
         "passthrough_mac_tips": "Šis yra naudojamas gauti viešojo IP „MAC“ adresą.",
-        "passthrough_close_edge_tips": "Norėdami perjungti į IP perleidimo režimą, išjunkite {page}.",
-        "passthrough_only_one_wan_tips": "Norėdami perjungti į IP praleidimo režimą, eikite į {page} ir išjunkite WAN kaip LAN arba LAN kaip WAN.",
-        "sub_tips": "Kai naudojate {mode}, nebegalėsite prisijungti prie šio sąsajos vartotojo sąsajos. Galite paspausti ir laikyti atstatymo mygtuką 4 sekundes, kad grąžintumėte į maršrutizatoriaus veikseną."
+        "passthrough_close_edge_tips": "Norėdami perjungti į IP pérdavos veikseną, išjunkite – {page}.",
+        "passthrough_only_one_wan_tips": "Norėdami perjungti į IP pérdavos veikseną, eikite į – {page} ir išjunkite „WAN“ veikimą kaip „LAN“ arba „LAN“ veikimą kaip „WAN“.",
+        "sub_tips": "Kai naudojate – {mode}; nebegalėsite prisijungti prie šios naudotojo/vartotojo grafinės sąsajos. Galėsite paspausti ir laikyti atstatymo mygtuką maršrutizatoriuje 4-iom sekundėm, kad grąžintumėte veikimą į maršrutizatoriaus veikseną."
     },
     "menu_bridge": "Tinklo veiksena"
 }

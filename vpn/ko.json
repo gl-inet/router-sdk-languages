@@ -450,7 +450,12 @@
         "from_title": "보내는 사람",
         "via_title": "경유",
         "to_title": "받는 사람",
-        "all_other_traffic_sub_tips": "이 기능을 끄면 Kill Switch가 강화되어 일반 인터넷 접근이 차단됩니다."
+        "all_other_traffic_sub_tips": "이 기능을 끄면 Kill Switch가 강화되어 일반 인터넷 접근이 차단됩니다.",
+        "default_tunnel_allow_label": "VPN이 아닌 트래�릭 허용",
+        "default_tunnel_kill_switch_label": "향상된 Kill Switch",
+        "default_tunnel_allow_tips": "{label}: 활성화 시, 위의 정책과 일치하지 않는 데이터가 있는 경우에도 정상적인 인터넷을 이용할 수 있습니다.",
+        "default_tunnel_kill_switch_tips": "{label}: 비활성화 시, VPN 및 정책을 통해서만 인터넷에 접근할 수 있습니다. 일치하지 않는 모든 데이터는 전송되지 않습니다. 이 옵션은 각 정책별 Kill Switch 설정을 재정의하지 않습니다.",
+        "default_tunnel_common_tips": "위의 VPN 터널 및 정책과 일치하지 않는 기타 모든 인터넷 트래픽에 대해, 이 옵션은 해당 트래픽을 인터넷으로 전송할지 여부를 제어합니다. 이 옵션은 기본적으로 활성화되어 있어 VPN 데이터 외에도 정상적인 인터넷 접근이 가능합니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",

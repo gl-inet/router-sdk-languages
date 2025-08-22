@@ -450,7 +450,12 @@
         "via_title": "per",
         "from_title": "iš",
         "to_title": "į",
-        "all_other_traffic_sub_tips": "Išjungus tai sustiprins Kill Switch ir blokuos įprastą interneto prieigą."
+        "all_other_traffic_sub_tips": "Išjungus tai sustiprins Kill Switch ir blokuos įprastą interneto prieigą.",
+        "default_tunnel_allow_label": "Leisti ne „VPN“ srautą",
+        "default_tunnel_kill_switch_label": "Patobulintas Kill Switch",
+        "default_tunnel_allow_tips": "{label}: Kai įjungta, turėsite įprastą interneto ryšį, jei jūsų duomenys neatitinka nė vienos iš aukščiau nurodytų taisyklių.",
+        "default_tunnel_kill_switch_tips": "{label}: Kai išjungta, esate priverstas naudoti VPN ir taisykles, kad pasiektumėte internetą. Visi neatitinkantys duomenys nebus perduodami. Ši parinktis nepakeis individualaus „Kill Switch“ kiekvienai taisyklei.",
+        "default_tunnel_common_tips": "Visam kitam interneto srautui, kuris neatitinka nė vieno iš aukščiau nurodytų VPN tunelių ir taisyklių, ši parinktis kontroliuoja, ar norite, kad jis pasiektų internetą. Ši parinktis bus įjungta pagal numatytuosius nustatymus, kad turėtumėte įprastą interneto prieigą be savo VPN duomenų."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",

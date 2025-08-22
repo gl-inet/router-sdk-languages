@@ -35,7 +35,10 @@
         "enable_psc_tips": "Cuando se activa el PSC (Canal de Escaneo Preferido), solo se reservarán los canales con mayor conectividad para garantizar las conexiones de dispositivos de 6GHz.",
         "mlo_6g_bssid_tips": "Si las bandas de radio Wi-Fi MLO incluyen 6 GHz, el BSSID de Wi-Fi MLO se sincronizará cuando cambie el BSSID de Wi-Fi de 6 GHz.",
         "mlo_network_tips": "Se recomienda que los clientes Wi-Fi 7 se conecten mediante Wi-Fi MLO, lo que puede mejorar significativamente la tasa de transmisión de red y la confiabilidad a través de una conexión multibanda.",
-        "open_wifi_security_tips": "\"WiFi abierta\" tiene riesgos de seguridad. Utilícela con precaución."
+        "open_wifi_security_tips": "\"WiFi abierta\" tiene riesgos de seguridad. Utilícela con precaución.",
+        "guest_wifi_unavailable_tips": "La Wi-Fi para invitados no está disponible porque {repeater} está activado.",
+        "cannot_detect_6g_network_tips": "Si su dispositivo no puede detectar la red de 6GHz, intente habilitar tanto la Wi-Fi de 6GHz como la de 2.4GHz para mejorar la compatibilidad.",
+        "band_6g_bandwidth_limit_160mhz_tips": "Cuando están habilitadas tanto la Wi-Fi de 2.4GHz como la de 6GHz, la banda de 6GHz está limitada a un ancho de banda máximo de 160MHz."
     },
     "menu_wireless": "Inalámbrica"
 }

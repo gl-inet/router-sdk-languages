@@ -445,7 +445,12 @@
         "modify_priority_btn": "Önceliği Değiştir",
         "switch_global_mode_important_tips": "3. {important}: Sistem, geçiş yaptıktan sonra varsayılan olarak \"{func}\" işlevini açacaktır.",
         "priority_tips": "Tüneller önceliklidir ve farklı tüneller aynı istemci ve kuralları ayarlayabilir.",
-        "all_other_traffic_sub_tips": "Bunu kapatmak, Kill Switch'i güçlendirir ve normal internet erişimini engeller."
+        "all_other_traffic_sub_tips": "Bunu kapatmak, Kill Switch'i güçlendirir ve normal internet erişimini engeller.",
+        "default_tunnel_allow_label": "VPN Olmayan Trafiğe İzin Ver",
+        "default_tunnel_kill_switch_label": "Gelişmiş Kill Switch",
+        "default_tunnel_allow_tips": "{label}: Etkinleştirildiğinde, verileriniz yukarıdaki politikaların hiçbiriyle eşleşmiyorsa normal İnternet erişiminiz olacaktır.",
+        "default_tunnel_kill_switch_tips": "{label}: Devre Dışı bırakıldığında, internete erişmek için VPN ve politikalar kullanmaya zorlanırsınız. Eşleşmeyen tüm veriler geçmeyecektir. Bu seçenek, her bir politika için ayrı olan Kill Switch'i geçersiz kılmayacaktır.",
+        "default_tunnel_common_tips": "Yukarıdaki VPN tünelleri ve politikaları tarafından eşleşmeyen diğer tüm internet trafiği için, bu seçenek onların internete gitmesini isteyip istemediğinizi kontrol eder. Bu seçenek varsayılan olarak etkinleştirilmiştir, böylece VPN verilerinizin yanı sıra normal internet erişiminiz de olur."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",

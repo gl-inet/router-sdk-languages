@@ -1,6 +1,6 @@
 {
     "cloud": {
-        "title": "Weryfikacja klucza bezpieczeństwa urządzenia nie powiodła się, proszę $$$$Przypisz ponownie urządzenie$$$$, aby połączyć się z {cloud}.",
+        "title": "GoodCloud",
         "bound_by": "Urządzenie jest związane z",
         "on": "włączony",
         "tips": "Dzięki GoodCloud możesz zarządzać grupami routerów, sprawdzać ich status w czasie rzeczywistym, konfigurować routery zdalnie, obsługiwać routery zbiorczo oraz monitorować podłączonych klientów itp.",
@@ -31,7 +31,7 @@
         "china_label": "Chiny",
         "unbound_tips": "Urządzenie nie jest przypisane do żadnego konta w chmurze.",
         "token_invalid_tips": "Weryfikacja klucza zabezpieczeń urządzenia nie powiodła się. Proszę $$$$ponownie powiązać urządzenie$$$$, aby połączyć się z {cloud}.",
-        "service_label": "Usługi w Chmurze",
+        "service_label": "ZDALNY DOSTĘP",
         "bind_ready_tips": "Urządzenie zostało powiązane przez {user} o {time}",
         "info_title": "Informacje o Urządzeniu",
         "remote_access_titel": "Metody Dostępu Zdalnego",
@@ -67,13 +67,13 @@
         "email_auth_tips": "Proszę wprowadzić kod weryfikacyjny otrzymany na Twój zabezpieczony adres e-mail ({email}).",
         "service_desc": "Dzięki {service} możesz zarządzać grupami routerów, sprawdzać ich status w czasie rzeczywistym, konfigurować je zdalnie, wykonywać operacje na wielu urządzeniach jednocześnie oraz monitorować podłączonych klientów itp.",
         "no_account_tips": "Nie masz konta?",
-        "req_unbind_sms_btn": "Wyślij żądanie odłączenia urządzenia.",
+        "req_unbind_sms_btn": "Wyślij Żądanie Odłączenia Urządzenia",
         "service_disable_tips": "Usługa w Chmurze jest obecnie wyłączona.",
         "app_auth_tips": "Proszę wprowadzić jednorazowe hasło wygenerowane przez aplikację uwierzytelniającą dwuskładnikowo.",
         "login_side_title": "Użyj swojego konta glinet",
         "sign_up_title": "Utwórz Swoje Konto glinet"
     },
-    "menu_cloud": "Weryfikacja klucza bezpieczeństwa urządzenia nie powiodła się, proszę $$$$Przypisz ponownie urządzenie$$$$, aby połączyć się z {cloud}.",
+    "menu_cloud": "GoodCloud",
     "cloud_err": {
         "email_verify_code_invalid_msg": "Kod weryfikacyjny e-mail wygasł.",
         "server_busy_msg": "Serwer jest zajęty, proszę spróbować później.",
@@ -84,7 +84,7 @@
         "account_incorrect_msg": "Nazwa użytkownika lub hasło jest nieprawidłowe.",
         "email_verify_code_err_msg": "Kod weryfikacyjny e-mail jest nieprawidłowy.",
         "phone_verify_code_invalid_msg": "Kod weryfikacyjny telefonu wygasł.",
-        "server_abnormal_msg": "Wyjątek serwera",
+        "server_abnormal_msg": "Wyjątek Serwera",
         "token_invalid_msg": "Unieważnienie tokenu",
         "username_already_exist_msg": "Nazwa użytkownika już istnieje.",
         "email_already_exist_msg": "Skrzynka pocztowa już istnieje.",
@@ -96,7 +96,7 @@
         "frequent_operation_msg": "Częste operacje, proszę spróbować ponownie później.",
         "email_incorrect_msg": "Adres e-mail użytkownika jest nieprawidłowy.",
         "validate_password_error_msg": "Walidacja hasła nie powiodła się",
-        "sms_sending_failed_msg": "Nie udało się wysłać SMS.",
+        "sms_sending_failed_msg": "Nie udało się wysłać SMS",
         "verify_code_err_over_limit_msg": "Liczba błędów kodu weryfikacyjnego przekroczyła limit."
     }
 }

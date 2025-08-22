@@ -450,7 +450,12 @@
         "via_title": "经由",
         "from_title": "自",
         "to_title": "至",
-        "all_other_traffic_sub_tips": "關閉此功能將增強 Kill Switch 功能並阻止常規Internet訪問。"
+        "all_other_traffic_sub_tips": "關閉此功能將增強 Kill Switch 功能並阻止常規Internet訪問。",
+        "default_tunnel_allow_label": "允許非VPN流量",
+        "default_tunnel_kill_switch_label": "增強型Kill Switch",
+        "default_tunnel_allow_tips": "{label}：啟用時，若您的資料不符合上述任何政策，您將能正常使用網際網路。",
+        "default_tunnel_kill_switch_tips": "{label}：停用時，您將被迫使用VPN及政策來存取網際網路。所有不符合的資料將無法通過。此選項不會覆寫各政策中的個別Kill Switch功能。",
+        "default_tunnel_common_tips": "對於上述任何VPN隧道及策略均未匹配的其他互聯網流量，此選項控制您是否希望其連接到互聯網。此選項預設為啟用，以便您在VPN數據之外仍能正常訪問互聯網。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",

@@ -450,7 +450,12 @@
         "from_title": "Da",
         "via_title": "Attraverso",
         "to_title": "A",
-        "all_other_traffic_sub_tips": "Disattivando questa opzione si potenzierà il Kill Switch e verrà bloccato l'accesso regolare a Internet."
+        "all_other_traffic_sub_tips": "Disattivando questa opzione si potenzierà il Kill Switch e verrà bloccato l'accesso regolare a Internet.",
+        "default_tunnel_allow_label": "Consenti traffico non VPN",
+        "default_tunnel_kill_switch_label": "Kill Switch Avanzato",
+        "default_tunnel_allow_tips": "{label}: Quando abilitato, avrai una connessione Internet normale se i tuoi dati non corrispondono a nessuna delle policy sopra indicate.",
+        "default_tunnel_kill_switch_tips": "{label}: Quando disabilitato, sei costretto a utilizzare la VPN e le policy per accedere a Internet. Tutti i dati non corrispondenti non passeranno. Questa opzione non sovrascriverà il Kill Switch individuale per ogni policy.",
+        "default_tunnel_common_tips": "Per tutto il traffico Internet che non corrisponde a nessuno dei tunnel VPN e alle policy sopra indicate, questa opzione controlla se desideri che vada su Internet o meno. Questa opzione sarà abilitata per impostazione predefinita in modo da avere accesso normale a Internet oltre ai dati della VPN."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",

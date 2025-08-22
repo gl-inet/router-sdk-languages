@@ -45,7 +45,7 @@
         "recheck_btn": "Újra-érzékelés",
         "duplex_full_label": "{speed} Mbps teljes duplex",
         "duplex_half_label": "{speed} Mbps félduplex",
-        "mtu_common_tip": "Állítsa be az MTU értéket a használati forgatókönyvnek megfelelően. A helytelen beállítások internetkapcsolat megszakadását okozhatják.",
+        "mtu_common_tip": "Adja meg az MTU-csomagméret értékét a használati szándéknak megfelelően! A nem megfelelő érték a kapcsolat szakadozását eredményezheti.",
         "custom_dns_setting_label": "Egyéni DNS beállítások",
         "address_label": "Cím"
     },
@@ -66,7 +66,7 @@
         "modify": "Módosítás",
         "cancel": "Mégse",
         "apply": "Alkalmazás",
-        "install": "telepítés",
+        "install": "Telepítés",
         "connect": "Csatlakozás",
         "disconnect": "Szétkapcsolás",
         "abort": "Megszakítás",
@@ -111,7 +111,7 @@
         "view": "Megtekintés",
         "description": "Leírás",
         "all_select_btn": "Összes kiválasztása",
-        "select_none_btn": "Összes kiválasztásának megszüntetése",
+        "select_none_btn": "Kijelölés törlése",
         "blacklist": "Blokklista",
         "mode": "Mód",
         "advanced": "Haladó",
@@ -169,11 +169,11 @@
         "scan_btn": "Szkennelés",
         "revoke_btn": "Visszavonás",
         "manual_add_mac_btn": "Kézi eszköz hozzáadása",
-        "got_it": "a fájl elfogadása sikertelen",
+        "got_it": "Megértettem",
         "attention_title": "Figyelem",
         "remove_btn": "Eltávolítás",
         "notice_title": "Értesítés",
-        "use_weak_disabled_ssh_tips": "Gyenge jelszó használata letiltja az SSH és a soros bevitelt.",
+        "use_weak_disabled_ssh_tips": "Gyenge jelszó használata az SSH-hozzáférés és a soros kapcsolat korlátozásával jár.",
         "important_note": "Fontos"
     },
     "msg": {
@@ -217,15 +217,15 @@
         "month": "{count} hónap | {count} hónap",
         "year": "{count} év | {count} év",
         "month_list": "január|február|március|április|május|június|július|augusztus|szeptember|október|november|december",
-        "am": "DE",
-        "pm": "DU",
+        "am": "de.",
+        "pm": "du.",
         "weekend": "Hétvége",
-        "weekdays": "Hétköznapok",
+        "weekdays": "Hétköznap",
         "every_day": "Minden nap",
-        "hour_system": "{label} H"
+        "hour_system": "{label} ó"
     },
     "upload": {
-        "select_or_drag": "Vontassa ide a fájlt vagy kattintson a kiválasztáshoz",
+        "select_or_drag": "Vontassa ide a fájlt, vagy kattintson a kiválasztáshoz",
         "file_include": "Támogatott fájltípusok",
         "success": "Feltöltés sikeres",
         "reupload": "Feltöltés ismét",
@@ -242,8 +242,8 @@
         "no_internet_base_tips": "Kérem, ellenőrizze az internetkapcsolatot, majd próbálja meg ismét!",
         "forget_password_btn": "Elfelejtett jelszó?",
         "lost_account_btn": "Elveszett fiók?",
-        "usb_power_limit_tips": "(Kérjük, győződjön meg arról, hogy a tápfeszültség meghaladja a {power} értéket)",
-        "current_time_label": "Jelenlegi idő"
+        "usb_power_limit_tips": "(Kérem, győződjön meg róla, hogy a tápellátás meghaladja a(z) {power} értéket)",
+        "current_time_label": "Jelenlegi idö"
     },
     "err": {
         "network_not_reachable_msg": "Hálózat nem elérhető",

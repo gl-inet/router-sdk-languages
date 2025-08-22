@@ -1,6 +1,6 @@
 {
     "wireless": {
-        "ssid": "Nazwa sieci Wi-Fi (SSID)",
+        "ssid": "Nazwa Sieci Wi-Fi (SSID)",
         "encryption": "Zabezpieczenia Wi-Fi",
         "shown": "Widoczny",
         "hidden": "Ukryty",
@@ -8,7 +8,7 @@
         "high": "Wysoka",
         "medium": "Średnia",
         "enable": "Włącz Wi-Fi",
-        "enable_dfs": "Zezwól na kanał DFS",
+        "enable_dfs": "Zezwól na Kanał DFS",
         "dsf_starting": "Trwa sprawdzanie dostępności kanału. Proces ten zajmie $$$$. Proszę czekać……",
         "key": "Hasło Wi-Fi",
         "ssid_visibility": "Widoczność SSID",
@@ -18,24 +18,27 @@
         "tx_power": "Moc TX",
         "low": "Niska",
         "guest": "Gość",
-        "channel_optimization": "Optymalizacja kanału",
+        "channel_optimization": "Optymalizacja Kanału",
         "repeater_using_tips": "Wpis nie może być zmodyfikowany, gdy włączony jest tryb wzmacniacza.",
         "enable_dfs_tips": "Jeśli router jest przypisany do korzystania z kanału DFS, wtedy za każdym razem, gdy Wi-Fi jest włączane, wymagane jest sprawdzenie dostępności kanału, podczas tego czasu sygnał 5GHz nie będzie dostępny do połączeń, ten proces trwa $$$$. Jeśli router wykryje, że radar korzysta z aktualnego kanału, tymczasowo rozłączy się z klientem i przełączy na inny dostępny kanał; dodatkowo, 5GHz Wi-Fi zostanie tymczasowo wyłączone podczas skanowania przez router dostępnych, pobliskich sieci.",
         "dsf_conflict": "5GHz Wi-Fi jest tymczasowo niedostępne, ponieważ radar używa kanału, którego obecnie używa router.",
         "channel_auto_dfs_tips": "Gdy twoja przepustowość jest ustawiona na 160 MHz, Wi-Fi zawsze będzie używać kanału DFS, nawet jeśli wybierzesz kanał nie-DFS lub opcję \"$$$$\".",
         "channel_auto_tips": "Kiedy wybierzesz opcję \"$$$$\", Wi-Fi nie przełączy się automatycznie na kanał DFS.",
         "lan_guest_conflict_tips": "Gościnne Wi-Fi nie może być włączone, ponieważ {guest} jest w konflikcie z {lan}.",
-        "enable_random_bssid_label": "Włącz losowe BSSID",
+        "enable_random_bssid_label": "Włącz Losowe BSSID",
         "random_bssid_disabled_tips": "Używanie statycznego BSSID może spowodować śledzenie. Jeśli urządzenie klienta wymaga użycia statycznego BSSID, zaleca się ustawienie SSID jako ukryte. {more}",
         "random_bssid_enabled_tips": "Jeśli ta opcja jest włączona, urządzenie używa losowo wygenerowanego BSSID i odnawia go przy każdym ponownym uruchomieniu.",
-        "radio_bands": "Pasmo radiowe",
+        "radio_bands": "Pasmo Radiowe",
         "mlo_wifi_security_tips": "WPA3-SAE jest odpowiedni dla większości urządzeń obsługujących MLO i ten protokół jest zalecany.",
         "radio_bands_tips": "Proszę wybrać przynajmniej dwie pasma radiowe.",
         "enable_psc_label": "Włącz PSC",
         "enable_psc_tips": "Gdy włączony jest PSC (Preferowany Kanał Skanowania), zarezerwowane zostaną tylko kanały o wyższej łączności, aby zapewnić połączenia urządzeń 6GHz.",
         "mlo_6g_bssid_tips": "Jeśli pasma radiowe Wi-Fi MLO obejmują 6 GHz, identyfikator BSSID Wi-Fi MLO zostanie zsynchronizowany, gdy zmieni się identyfikator BSSID Wi-Fi 6 GHz.",
         "mlo_network_tips": "Klientom Wi-Fi 7 zaleca się łączenie z siecią MLO Wi-Fi, co może znacznie poprawić szybkość transmisji danych i niezawodność połączenia dzięki wykorzystaniu wielu pasm.",
-        "open_wifi_security_tips": "\"Open WiFi\" wiąże się z ryzykiem bezpieczeństwa. Używaj ostrożnie."
+        "open_wifi_security_tips": "\"Otwarte WiFi\" wiąże się z ryzykiem bezpieczeństwa. Używaj ostrożnie.",
+        "guest_wifi_unavailable_tips": "Gościnne Wi-Fi jest niedostępne, ponieważ włączono {repeater}.",
+        "cannot_detect_6g_network_tips": "Jeśli Twoje urządzenie nie może wykryć sieci 6GHz, spróbuj włączyć zarówno 6GHz, jak i 2.4GHz Wi-Fi, aby poprawić kompatybilność.",
+        "band_6g_bandwidth_limit_160mhz_tips": "Gdy włączone są zarówno pasmo 2,4 GHz, jak i 6 GHz Wi-Fi, pasmo 6 GHz jest ograniczone do maksymalnej przepustowości 160 MHz."
     },
-    "menu_wireless": "Bezprzewodowy"
+    "menu_wireless": "WI-FI"
 }

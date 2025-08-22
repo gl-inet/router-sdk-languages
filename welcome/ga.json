@@ -1,27 +1,28 @@
 {
     "welcome": {
         "submit": "Cuir isteach",
-        "set_pwd": "Socraigh Do Focal Faire Riaracháin",
-        "new_pwd": "Focal Faire Nua",
+        "set_pwd": "Socraigh Do Phasfhocal Riarthóra",
+        "new_pwd": "Pasfhocal Nua",
         "choose_lang": "Roghnaigh Do Theanga",
         "next": "Ar Aghaidh",
         "back": "Ar Ais",
-        "new_pwd_placeholder": "Cuir isteach do phasfhocal",
-        "confirm_pwd": "Deimhnigh an Focal Faire",
+        "new_pwd_placeholder": "Cuir isteach pasfhocal le do thoil",
+        "confirm_pwd": "Deimhnigh Pasfhocal",
         "confirm_pwd_placeholder": "Ní mór a bheith comhionann leis an méid thuas",
         "unknown_err_msg": "Tá Wi-Fi múchta le linn tosaithe an ródaire, déan cinnte go bhfuil do ghléas cliant athcheangailte leis an ródaire.",
         "wifi_code_text": "Scan chun Ceangal",
         "welcome_slogan": "Fáilte go GL.iNet!",
         "set_wifi_title": "Socraigh Wi-Fi",
-        "htmode_160_label": "Bandwidth Dinimiciúil 160MHz",
-        "htmode_160_tips": "Tá déine níos airde agus clúdach comhartha níos fearr ag baint le bandwidth dinimiciúil 160MHz, tar éis an fheidhm seo a chur ar siúl, ní mór fanacht ar feadh tamaill chun comhartha radar a scanadh.",
+        "htmode_160_label": "Bandaleithead Dinimiciúil 160MHz",
+        "htmode_160_tips": "Tá tréchur níos airde agus clúdach comhartha níos fearr ag bandaleithead dinimiciúil 160MHz, tar éis an fheidhm seo a chumasú, ní mór duit fanacht tamaill chun an comhartha radair a scanadh.",
         "wifi_restart_loading_text": "D’fhéadfadh sé cúpla soicind a thógáil, fan go fóill.",
-        "pwd_inconsistencies": "Éagrúchtaí Focal Faire",
+        "pwd_inconsistencies": "Neamhréireachtaí pasfhocail",
         "reconnected_wifi_loading_text": "Bí cinnte go bhfuil an gléas athnasctha leis an WiFi seo a leanas.",
         "ssid": "Ainm Wi-Fi (SSID)",
-        "key": "Focal Faire Wi-Fi",
+        "key": "Pasfhocal Wi-Fi",
         "wifi_scan_code_tips": "Is féidir focal faire WiFi a mhodhnú go haonarach sa Phainéal Riaracháin.",
         "not_collect_any_personal_data_tips": "Ní bhailíonn GL.iNet sonraí pearsanta. Nuair a chuirtear seirbhísí scamall ar siúl, ní bhailítear ach suíomhanna riachtanacha ródaire chun tacú le bainistíocht chianach.",
-        "prevent_weak_pwd_tips": "Nuair a chuirtear \"Cosc ar Fhocal Faire Lag\" ar siúl, cuirfear feidhmiúlacht SSH ar siúl, agus nuair a dhíchuirtear é, múchfar feidhmiúlacht SSH."
+        "prevent_weak_pwd_tips": "Nuair a chuirtear \"Cosc ar Fhocal Faire Lag\" ar siúl, cuirfear feidhmiúlacht SSH ar siúl, agus nuair a dhíchuirtear é, múchfar feidhmiúlacht SSH.",
+        "enable_wifi": "Cumasaigh Wi-Fi {band}"
     }
 }

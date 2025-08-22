@@ -2,14 +2,14 @@
     "btnsettings": {
         "fun_label": "Funkcja przycisku przełączania",
         "no_config_tips": "Przycisk przełączania nie zadziała, jeśli konfiguracja klienta $$$$ nie zostanie dodana.",
-        "no_func_babel": "Brak funkcji",
-        "vpn_client_tips": "Musisz ustawić konfigurację {vpnType} w {meunKey}, aby przełącznik mógł działać.",
-        "auto_sync_tips": "Czy {func} jest natychmiast włączane/wyłączane w zależności od stanu Przełącznika?",
-        "startup_tips": "Uwaga: Po ponownym uruchomieniu urządzenia, {func} zostanie włączone, jeśli przełącznik jest aktywny, w przeciwnym razie zostanie wyłączone.",
-        "main_wifi": "Główne Wi-Fi",
-        "guest_wifi": "Gość Wi-Fi",
-        "repeater_tips": "Funkcja wzmacniacza sygnału nie może być aktywowana bez zapisanych sieci. Aby użyć tej funkcji, najpierw ręcznie przekaż sygnał sieci.",
+        "no_func_babel": "Brak Funkcji",
+        "vpn_client_tips": "Aby przełącznik działał poprawnie, należy skonfigurować typ VPN ({vpnType}) w sekcji {meunKey}.",
+        "auto_sync_tips": "Czy funkcja {func} jest włączana/wyłączana natychmiast po zmianie stanu przycisku przełączającego?",
+        "startup_tips": "Uwaga: Po ponownym uruchomieniu urządzenia funkcja {func} zostanie włączona, jeśli przełącznik jest ustawiony na „Włączony”. W przeciwnym razie funkcja pozostanie wyłączona.",
+        "main_wifi": "Wi-Fi",
+        "guest_wifi": "Wi-Fi Gościa",
+        "repeater_tips": "Funkcja repeatera nie może zostać aktywowana bez zapisanych sieci. Aby skorzystać z tej funkcji, najpierw ręcznie przekaż wybraną sieć.",
         "tor_tips": "Ta funkcja nie działa, ponieważ włączono AstroWarp."
     },
-    "menu_btnsettings": "Ustawienia przycisku przełączania"
+    "menu_btnsettings": "Ustawienia Przycisku Przełączania"
 }

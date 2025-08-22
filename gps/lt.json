@@ -2,16 +2,16 @@
     "gps": {
         "custom": "Pasirinktinės",
         "report_battery_status": "Atskaitas Baterijos būklė",
-        "gps_tips": "Po „GPS“ įjungimo gali praeiti keletas minučių, kol bus gauti vietos duomenys. Jei visiškai nėra signalo, pabandykite įrenginį arba GPS anteną išnešti į lauką atvirą vietą.",
+        "gps_tips": "Po „GPS“ įjungimo gali praeiti keletas minučių, kol bus gauti vietos duomenys. Jei visiškai nėra signalo, pabandykite įrenginį arba „GPS“ anteną išnešti į lauką (t.y. atvirą vietą).",
         "title": "GPS",
         "tracking_server": "Stebėjimo serveris",
         "intervals": "Intervalai",
         "altitude": "Altitudė/Aukštuma",
-        "report": "Atskaitas",
+        "report": "Atskaitas/-os",
         "update_time": "Atnaujinimo laikas",
         "longitude": "Ilguma",
         "speed": "Greitis",
-        "traccar": "Traccar",
+        "traccar": "„Traccar“",
         "latitude": "Platuma",
         "gnss_mode": "„GNSS“ veiksena",
         "address": "Adresas",
@@ -19,7 +19,7 @@
         "device_id": "Įrenginio ID",
         "report_cell": "Atskaitas Mobilusis ryšys",
         "report_repeated_wifi": "Atskaitas Pasikartojantis „Wi-Fi“",
-        "report_repeated_wifi_tips": "Jei ši funkcija įjungta, įrenginys praneša dabartinio kartotuvo „SSID“.",
+        "report_repeated_wifi_tips": "Jei ši funkcija – įjungta/įgalinta, tada įrenginys praneš dabartinio kartotuvo „SSID“.",
         "data_format_tips": "Kokio formato duomenys įrenginys naudoja ataskaitoms."
     },
     "menu_gps": "GPS"

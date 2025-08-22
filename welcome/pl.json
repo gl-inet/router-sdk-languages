@@ -4,16 +4,16 @@
         "next": "Dalej",
         "back": "Wstecz",
         "submit": "Zatwierdź",
-        "set_pwd": "Ustaw swoje hasło administratora",
-        "new_pwd": "Nowe hasło",
+        "set_pwd": "Ustaw Hasło Administratora",
+        "new_pwd": "Nowe Hasło",
         "new_pwd_placeholder": "Proszę wprowadzić hasło",
-        "confirm_pwd": "Potwierdź hasło",
+        "confirm_pwd": "Potwierdź Hasło",
         "confirm_pwd_placeholder": "Musi być identyczne jak powyżej",
         "unknown_err_msg": "Wi-Fi jest wyłączone podczas inicjalizacji routera, proszę sprawdzić, czy urządzenie klienta ponownie połączyło się z routerem.",
         "ssid": "Nazwa Wi-Fi (SSID)",
         "key": "Hasło Wi-Fi",
         "welcome_slogan": "Witamy w GL.iNet!",
-        "wifi_code_text": "Skanuj, aby połączyć",
+        "wifi_code_text": "Skanuj, aby Połączyć",
         "set_wifi_title": "Konfiguracja Wi-Fi",
         "htmode_160_label": "Dynamiczne pasmo 160MHz",
         "pwd_inconsistencies": "Niespójności haseł",
@@ -22,6 +22,7 @@
         "htmode_160_tips": "Dynamiczne pasmo 160MHz zapewnia wyższą przepustowość i lepsze pokrycie sygnałem, po włączeniu tej funkcji należy odczekać chwilę na skanowanie sygnału radarowego.",
         "wifi_scan_code_tips": "Hasło WiFi można zmodyfikować indywidualnie w Panelu Administracyjnym.",
         "not_collect_any_personal_data_tips": "GL.iNet nie zbiera żadnych danych osobowych użytkowników, chyba że usługa chmurowa GL.iNet jest włączona.",
-        "prevent_weak_pwd_tips": "Włączenie opcji \"Zapobiegaj słabym hasłom\" aktywuje funkcjonalność SSH, natomiast jej wyłączenie spowoduje dezaktywację funkcji SSH."
+        "prevent_weak_pwd_tips": "Włączenie opcji \"Zapobiegaj słabym hasłom\" aktywuje funkcjonalność SSH, natomiast jej wyłączenie spowoduje dezaktywację funkcji SSH.",
+        "enable_wifi": "Włącz {band} Wi-Fi"
     }
 }

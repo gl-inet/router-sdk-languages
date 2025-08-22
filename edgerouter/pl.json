@@ -1,20 +1,20 @@
 {
-    "menu_edgerouter": "Brama Wkraplająca",
+    "menu_edgerouter": "Brama typu Drop-in",
     "edgerouter": {
-        "desc": "Gdy włączony jest tryb Bramy Wkraplającej, cały ruch od klientów w sieci jest najpierw przetwarzany przez ten router. Możesz użyć tego trybu, aby rozszerzyć funkcjonalność Twojego głównego routera.",
-        "enable_label": "Włącz Tryb Bramy Wkraplającej",
+        "desc": "Gdy włączony jest tryb Bramy Drop-in, cały ruch od klientów w sieci jest najpierw przetwarzany przez ten router. Możesz użyć tego trybu, aby rozszerzyć funkcjonalność Twojego głównego routera.",
+        "enable_label": "Włącz Tryb Bramy Drop-in",
         "configuration_method_label": "Metoda konfiguracji",
-        "dhcp_closed_tips": "Usługa DHCP na głównym routerze jest wyłączona, brama wkraplająca działa.",
+        "dhcp_closed_tips": "Usługa DHCP na głównym routerze jest wyłączona, brama Drop-in działa.",
         "dhcp_on_tips": "Usługa DHCP jest nadal włączona na głównym routerze. Brama wkraplająca może nie działać prawidłowo. Proszę przejść do $$$$panelu administracyjnego głównego routera$$$$, aby wyłączyć usługę DHCP lub ustawić jej bramę na {ip}.",
-        "enable_tips": "Gdy włączony jest tryb Bramy Wkraplającej, ustawienia DNS tego routera są używane zamiast tych z głównego routera.",
-        "dhcp_on_warning_tips": "Brama Wkraplająca jest włączona.",
-        "dhcp_set_gateway_tips": "Usługa DHCP na głównym routerze poprawnie ustawiła bramę na {ip}, brama wkraplająca działa.",
+        "enable_tips": "Gdy włączony jest tryb Bramy Drop-in, ustawienia DNS tego routera są używane zamiast tych z głównego routera.",
+        "dhcp_on_warning_tips": "Brama Drop-in jest włączona.",
+        "dhcp_set_gateway_tips": "Usługa DHCP na głównym routerze poprawnie ustawiła bramę na {ip}, brama Drop-in działa.",
         "auto_set_tips": "Ustawienia DHCP głównego routera wydają się być zmienione i router może nie być w stanie prawidłowo połączyć się z siecią. Proszę $$$$Synchronizować Ustawienia z DHCP$$$$ lub zmodyfikować ustawienia ręcznie.",
-        "desc_vpn": "Proszę zauważyć, że w trybie Bramy Wkraplającej, polityka VPN tego urządzenia nie będzie działać dla klientów z portu WAN.",
-        "cable_not_connected_tips": "Nie wykryto kabla w porcie WAN. Proszę włożyć kabel ethernetowy.",
-        "modify_superior_router_label": "Wszystkie urządzenia są połączone przez bramę wkraplającą",
-        "modify_superior_router_desc": "Musisz przejść do modyfikacji konfiguracji głównego routera, która musi być skonfigurowana przez użytkownika mającego dostęp do głównego routera.",
+        "desc_vpn": "Proszę zauważyć, że w trybie Bramy Drop-in, polityka VPN tego urządzenia nie będzie działać dla klientów z portu WAN.",
+        "cable_not_connected_tips": "Nie wykryto kabla w porcie WAN. Proszę podłączyć kabel ethernetowy.",
+        "modify_superior_router_label": "Wszystkie urządzenia są połączone przez bramę Drop-in",
+        "modify_superior_router_desc": "Musisz przejść do modyfikacji konfiguracji głównej trasy, która musi być ustawiona przez użytkownika mającego dostęp do tej trasy.",
         "modify_self_router_label": "Niektóre urządzenia wybierają własną bramę sieciową",
-        "modify_self_router_desc": "Musisz ręcznie zmienić adres bramy na adres IP bramy wkraplającej na niektórych urządzeniach, które potrzebują używać bramy wkraplającej."
+        "modify_self_router_desc": "Musisz ręcznie zmienić adres bramy na adres IP bramy drop-in na niektórych urządzeniach, które potrzebują używać bramy drop-in."
     }
 }

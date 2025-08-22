@@ -115,15 +115,15 @@
         "upgrade_btn": "Aukštutinis atnaujinimas",
         "setp_label": "{num} žingsnis:",
         "join_btn": "Prisijungti",
-        "search": "Paieška",
-        "scan_btn": "Skenavimas",
-        "revoke_btn": "Atšaukti",
-        "manual_add_mac_btn": "Rankiniu būdu pridėti įrenginį",
-        "got_it": "Suprantu.",
-        "attention_title": "Dėmesio",
+        "search": "(Pa-)Ieška",
+        "scan_btn": "Skenuoti",
+        "revoke_btn": "Sustabdyti galiojimą",
+        "manual_add_mac_btn": "Pridėti įrenginį",
+        "got_it": "Supratau",
+        "attention_title": "Dėmesio!",
         "remove_btn": "Pašalinti",
-        "notice_title": "Pranešimas",
-        "use_weak_disabled_ssh_tips": "Naudojant silpną slaptažodį bus išjungta SSH ir serijinė įvestis.",
+        "notice_title": "Skelbimas/Pranešimas",
+        "use_weak_disabled_ssh_tips": "Naudojant silpną slaptažodį, bus išjungiamas „SSH“ ir serijinė įvestis.",
         "important_note": "Svarbu"
     },
     "msg": {
@@ -144,7 +144,7 @@
         "successfully_badge_tips": "Sėkmingai!",
         "lack_of_memory_tips": "Dėl atminties trūkumo, galite bandyti paleisti iš naujo įrenginį, kad aukštutiniškai atnaujintumėte programinę įrangą.",
         "copy_success": "Kopijavimas sėkmingas",
-        "request_timeout_tip": "Užklausa baigėsi. Įsitikinkite, kad esate prijungtas prie šio maršrutizatoriaus ir atnaujinkite puslapį."
+        "request_timeout_tip": "Užklausa baigėsi. Įsitikinkite, kad esate prisijungę/-usi prie šio maršrutizatoriaus ir atnaujinkite/įkelkite puslapį iš naujo."
     },
     "date": {
         "thursday": "Kt | Ketvirtadienis",
@@ -167,12 +167,12 @@
         "year": "{count} Metas/-ai | {count} Metai/-ų",
         "day_var": "Diena {count}",
         "month_list": "Sausis|Vasaris|Kovas|Balandis|Gegužė|Birželis|Liepa|Rugpjūtis|Rugsėjis|Spalis|Lapkritis|Gruodis",
-        "am": "AM",
-        "pm": "PM",
+        "am": "priešpiet",
+        "pm": "po pusiaudienio",
         "weekend": "Savaitgalis",
-        "weekdays": "Darbo dienos",
+        "weekdays": "Šiokiadieniai",
         "every_day": "Kiekvieną dieną",
-        "hour_system": "{label} H"
+        "hour_system": "{label} val."
     },
     "internet": {
         "getting": "Gaunama/-s…",
@@ -220,8 +220,8 @@
         "recheck_btn": "Iš naujo aptikti",
         "duplex_full_label": "(dvi-/abi-)pusis – {speed} Mbps",
         "duplex_half_label": "vienpusis/pakaitinis – {speed} Mbps",
-        "mtu_common_tip": "Nustatykite MTU reikšmę pagal jūsų naudojimo scenarijų. Netinkami nustatymai gali sukelti interneto ryšio nutrūkimą.",
-        "custom_dns_setting_label": "Pasirinktiniai DNS nustatymai",
+        "mtu_common_tip": "Nustatykite „MTU“ reikšmę pagal Jūsų naudojimą. Netinkami nustatymai gali sukelti interneto ryšio nutrūkimą.",
+        "custom_dns_setting_label": "Pasirinktiniai „DNS“ nustatymai",
         "address_label": "Adresas"
     },
     "upload": {
@@ -242,7 +242,7 @@
         "no_internet_base_tips": "Prašome patikrinti interneto aplinką ir bandyti dar kartą.",
         "lost_account_btn": "Praradote paskyrą?",
         "forget_password_btn": "Pamiršote slaptažodį?",
-        "usb_power_limit_tips": "(Prašome įsitikinti, kad maitinimo įtampa viršija {power})",
+        "usb_power_limit_tips": "(Prašome įsitikinti, kad maitinimo šaltinio įtampa viršija: {power})",
         "current_time_label": "Dabartinis laikas"
     },
     "err": {
@@ -263,6 +263,6 @@
         "only_allowd_input_tips": "Leidžiama įvesti tik – {limit}.",
         "only_num_letter_symbol_tips": "Leidžiamos tik raidės, skaičiai ir rašmenys: {symbol}.",
         "min_max_length_tips": "{min} - {max} rašmenų.",
-        "ipv6_limit_start_end_tips": "Jis turi prasidėti {start} ir baigtis teisingu IPv6 adresu {end}."
+        "ipv6_limit_start_end_tips": "Jis turi prasidėti su – {start} ir baigtis su teisingu IPv6 adresu – {end}."
     }
 }
