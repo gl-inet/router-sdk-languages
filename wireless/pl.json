@@ -20,7 +20,7 @@
         "guest": "Gość",
         "channel_optimization": "Optymalizacja Kanału",
         "repeater_using_tips": "Wpis nie może być zmodyfikowany, gdy włączony jest tryb wzmacniacza.",
-        "enable_dfs_tips": "Jeśli router jest przypisany do korzystania z kanału DFS, wtedy za każdym razem, gdy Wi-Fi jest włączane, wymagane jest sprawdzenie dostępności kanału, podczas tego czasu sygnał 5GHz nie będzie dostępny do połączeń, ten proces trwa $$$$. Jeśli router wykryje, że radar korzysta z aktualnego kanału, tymczasowo rozłączy się z klientem i przełączy na inny dostępny kanał; dodatkowo, 5GHz Wi-Fi zostanie tymczasowo wyłączone podczas skanowania przez router dostępnych, pobliskich sieci.",
+        "enable_dfs_tips": "Uwaga: kanał DFS Router korzysta z kanału DFS, dlatego przy każdym włączeniu Wi-Fi wymagane jest sprawdzenie dostępności kanału. Podczas tego procesu (ok. $$$$) pasmo 5 GHz jest tymczasowo niedostępne. Jeśli wykryto aktywność radaru, router rozłączy klientów i przełączy się na inny dostępny kanał. W trakcie skanowania pobliskich sieci pasmo 5 GHz pozostaje wyłączone.",
         "dsf_conflict": "5GHz Wi-Fi jest tymczasowo niedostępne, ponieważ radar używa kanału, którego obecnie używa router.",
         "channel_auto_dfs_tips": "Gdy twoja przepustowość jest ustawiona na 160 MHz, Wi-Fi zawsze będzie używać kanału DFS, nawet jeśli wybierzesz kanał nie-DFS lub opcję \"$$$$\".",
         "channel_auto_tips": "Kiedy wybierzesz opcję \"$$$$\", Wi-Fi nie przełączy się automatycznie na kanał DFS.",
