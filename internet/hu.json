@@ -52,7 +52,7 @@
         "fair_singal_label": "Elégséges",
         "poor_singal_label": "Gyenge",
         "no_sim_tips2": "Nem található SIM-kártya. Kérem, ellenőrizze, hogy a kártyát megfelelően helyezte a foglalatba és hogy a felülete nem szennyeződött!",
-        "manage_profiles_btn": "Hozzáférési pontok (APN) kezelése",
+        "manage_profiles_btn": "Hozzáférési pontok kezelése",
         "add_new_profile_title": "Új hozzáférési pont",
         "select_profile_title": "Profil kiválasztása",
         "has_been_choose_profile_desc": "A {profileName} tartalmát másolta. $$$$ Másik profil másolása$$$$",
@@ -379,7 +379,7 @@
         "restart_router_tip": "2.Indítsa újra a routert.",
         "static_ip_config": "Statikus IP konfiguráció",
         "preset_static_ip": "Statikus IP mód használata",
-        "reboot_modem": "Kérjük, indítsa újra a modemet.",
+        "reboot_modem": "Kérem, indítsa újra a modemet",
         "enter_login_mode_for_public_hotspots_tip": "Kattintson a Tovább gombra a Nyilvános Hotspotok Bejelentkezési Módjába való belépéshez.",
         "enter_to_guide_no_internet_tip": "Ha nem tudja, hogyan kell konfigurálni a hálózatot, kattintson ide a kezdő útmutató megnyitásához.",
         "network_guide_title": "Hálózati útmutató",
@@ -515,7 +515,7 @@
         "pin_code_last_input_unlock_tips": "A PIN kód {code} helytelen, ez az utolsó próbálkozási lehetőség a feloldáshoz, ha ismét sikertelen a feloldás, akkor a telefonját kell használnia a PUK kód megadásához a feloldáshoz.",
         "ip_type_tips": "Ha a SIM-kártya nem támogatja az aktuális IP-típus beállítást, vagy ha az IPv6 van kiválasztva, de a {ipv6} globális kapcsoló nincs bekapcsolva, az tárcsázási rendellenességeket okozhat.",
         "ip_type_label": "IP típus",
-        "initializing_tips": "A modem inicializálása folyamatban van……"
+        "initializing_tips": "Modem indítása folyamatban……"
     },
     "sim": {
         "sender_label": "Feladó"
