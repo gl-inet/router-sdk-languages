@@ -455,7 +455,8 @@
         "default_tunnel_kill_switch_label": "Rozszerzony Kill Switch",
         "default_tunnel_allow_tips": "{label}: Po włączeniu, będziesz miał normalny dostęp do Internetu, jeśli Twoje dane nie pasują do żadnej z powyższych zasad.",
         "default_tunnel_kill_switch_tips": "{label}: Po wyłączeniu, wymuszane jest korzystanie z VPN i zasad w celu dostępu do Internetu. Wszystkie niezgodne dane nie zostaną przepuszczone. Ta opcja nie zastąpi indywidualnego Kill Switch dla każdej z zasad.",
-        "default_tunnel_common_tips": "Dla całego pozostałego ruchu internetowego, który nie jest dopasowany przez żadne tunele VPN i powyższe zasady, ta opcja kontroluje, czy mają one trafiać do Internetu. Opcja ta jest domyślnie włączona, aby zapewnić normalny dostęp do Internetu oprócz danych VPN."
+        "default_tunnel_common_tips": "Dla całego pozostałego ruchu internetowego, który nie jest dopasowany przez żadne tunele VPN i powyższe zasady, ta opcja kontroluje, czy mają one trafiać do Internetu. Opcja ta jest domyślnie włączona, aby zapewnić normalny dostęp do Internetu oprócz danych VPN.",
+        "local_access_tips": "Umożliwia zdalny dostęp do routera (adres IP tunelu) i zasobów sieci LAN za pośrednictwem sieci VPN (serwer VPN musi ogłaszać trasy sieci LAN, aby umożliwić dostęp do sieci LAN)."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
@@ -471,7 +472,8 @@
         "route_rules_title": "Reguły trasowania",
         "want_use_ipv6_tips": "Jeśli chcesz używać adresu IPv6, proszę {todo} w routerze.",
         "export_addr_tips": "Możesz wprowadzić adres IP lub nazwę domeny. Adres jest {label} adres w konfiguracji VPN.",
-        "route_rule_tips": "Reguła niestandardowego routingu serwera VPN może określać, że określony ruch sieciowy jest przesyłany przez szyfrowanie VPN, podczas gdy pozostały ruch normalnie przechodzi przez lokalną sieć."
+        "route_rule_tips": "Reguła niestandardowego routingu serwera VPN może określać, że określony ruch sieciowy jest przesyłany przez szyfrowanie VPN, podczas gdy pozostały ruch normalnie przechodzi przez lokalną sieć.",
+        "local_access_tips": "Umożliwia zdalny dostęp do routera (adres IP tunelu) i zasobów sieci LAN za pośrednictwem sieci VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych.",
