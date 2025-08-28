@@ -450,7 +450,8 @@
         "default_tunnel_kill_switch_label": "Gelişmiş Kill Switch",
         "default_tunnel_allow_tips": "{label}: Etkinleştirildiğinde, verileriniz yukarıdaki politikaların hiçbiriyle eşleşmiyorsa normal İnternet erişiminiz olacaktır.",
         "default_tunnel_kill_switch_tips": "{label}: Devre Dışı bırakıldığında, internete erişmek için VPN ve politikalar kullanmaya zorlanırsınız. Eşleşmeyen tüm veriler geçmeyecektir. Bu seçenek, her bir politika için ayrı olan Kill Switch'i geçersiz kılmayacaktır.",
-        "default_tunnel_common_tips": "Yukarıdaki VPN tünelleri ve politikaları tarafından eşleşmeyen diğer tüm internet trafiği için, bu seçenek onların internete gitmesini isteyip istemediğinizi kontrol eder. Bu seçenek varsayılan olarak etkinleştirilmiştir, böylece VPN verilerinizin yanı sıra normal internet erişiminiz de olur."
+        "default_tunnel_common_tips": "Yukarıdaki VPN tünelleri ve politikaları tarafından eşleşmeyen diğer tüm internet trafiği için, bu seçenek onların internete gitmesini isteyip istemediğinizi kontrol eder. Bu seçenek varsayılan olarak etkinleştirilmiştir, böylece VPN verilerinizin yanı sıra normal internet erişiminiz de olur.",
+        "local_access_tips": "VPN aracılığıyla yönlendiriciye (tünel IP) ve LAN kaynaklarına uzaktan erişime izin verir (LAN'a erişmek için VPN sunucusunun LAN rotalarını duyurması gerekir)."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
@@ -466,7 +467,8 @@
         "route_rules_title": "Yönlendirme Kuralları",
         "want_use_ipv6_tips": "IPv6 adresi kullanmak istiyorsanız, lütfen yönlendiricinizde {todo} yapın.",
         "export_addr_tips": "Bir IP adresi veya alan adı girebilirsiniz. Adres, VPN yapılandırmasındaki {label} adresidir.",
-        "route_rule_tips": "Bir VPN Sunucusu özel yönlendirme kuralı, belirli ağ trafiğinin VPN şifrelemesi üzerinden iletilmesini, diğer trafiğin ise normal yerel ağdan gitmesini belirtebilir."
+        "route_rule_tips": "Bir VPN Sunucusu özel yönlendirme kuralı, belirli ağ trafiğinin VPN şifrelemesi üzerinden iletilmesini, diğer trafiğin ise normal yerel ağdan gitmesini belirtebilir.",
+        "local_access_tips": "VPN aracılığıyla yönlendiriciye (tünel IP) ve LAN kaynaklarına uzaktan erişime izin verir."
     },
     "menu_wgserver": "WireGuard Sunucusu",
     "menu_ovpnserver": "OpenVPN Sunucusu",
