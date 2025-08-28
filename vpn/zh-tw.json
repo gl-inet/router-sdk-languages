@@ -455,7 +455,8 @@
         "default_tunnel_kill_switch_label": "增強型Kill Switch",
         "default_tunnel_allow_tips": "{label}：啟用時，若您的資料不符合上述任何政策，您將能正常使用網際網路。",
         "default_tunnel_kill_switch_tips": "{label}：停用時，您將被迫使用VPN及政策來存取網際網路。所有不符合的資料將無法通過。此選項不會覆寫各政策中的個別Kill Switch功能。",
-        "default_tunnel_common_tips": "對於上述任何VPN隧道及策略均未匹配的其他互聯網流量，此選項控制您是否希望其連接到互聯網。此選項預設為啟用，以便您在VPN數據之外仍能正常訪問互聯網。"
+        "default_tunnel_common_tips": "對於上述任何VPN隧道及策略均未匹配的其他互聯網流量，此選項控制您是否希望其連接到互聯網。此選項預設為啟用，以便您在VPN數據之外仍能正常訪問互聯網。",
+        "local_access_tips": "允許透過VPN遠端存取路由器（通道IP）和LAN資源（VPN伺服器必須通告LAN路由以存取LAN）。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
@@ -471,7 +472,8 @@
         "enable_ipv6_tips": "如果未啟用IPv6，則IPv6地址將不會生效。如果您想使用IPv6地址，請在您的路由器上{todo}。",
         "want_use_ipv6_tips": "如果您想使用IPv6地址，請在您的路由器上{todo}。",
         "export_addr_tips": "您可以輸入IP地址或域名。地址是VPN配置中的{label}地址。",
-        "route_rule_tips": "VPN 伺服器的自訂路由規則可指定特定網路流量透過 VPN 加密傳輸，其餘流量則正常透過本地網路傳送。"
+        "route_rule_tips": "VPN 伺服器的自訂路由規則可指定特定網路流量透過 VPN 加密傳輸，其餘流量則正常透過本地網路傳送。",
+        "local_access_tips": "允許透過VPN遠端存取路由器（通道IP）和LAN資源。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "許多路由功能將無法使用。",
