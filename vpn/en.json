@@ -455,7 +455,8 @@
         "default_tunnel_allow_label": "Allow Non-VPN traffic",
         "default_tunnel_kill_switch_tips": "{label}: When Disabled, you are forced to use VPN and polices to access the Internet. All unmatched data will not go through. This option will not override the individual Kill Switch for each policies.",
         "default_tunnel_kill_switch_label": "Enhanced Kill Switch",
-        "default_tunnel_common_tips": "For all other Internet traffic that not matched by any VPN tunnels and policies above, this option controls whether or not you want them goes to the Internet. This option will be enabled by default so that you have normal Internet access besides your VPN data."
+        "default_tunnel_common_tips": "For all other Internet traffic that not matched by any VPN tunnels and policies above, this option controls whether or not you want them goes to the Internet. This option will be enabled by default so that you have normal Internet access besides your VPN data.",
+        "local_access_tips": "Allows remote access to the router (tunnel IP) and LAN resources via VPN (VPN server must advertise LAN routes to access LAN)."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
@@ -471,7 +472,8 @@
         "route_rules_title": "Route Rules",
         "want_use_ipv6_tips": "If you want to use IPv6 address, please {todo} on your router.",
         "export_addr_tips": "You can enter an IP address or domain name. Address is the {label} address in the VPN configuration.",
-        "route_rule_tips": "A VPN Server custom routing rule can specify that certain network traffic is transmitted through the VPN encryption, while other traffic normally goes through the local network."
+        "route_rule_tips": "A VPN Server custom routing rule can specify that certain network traffic is transmitted through the VPN encryption, while other traffic normally goes through the local network.",
+        "local_access_tips": "Allows remote access to the router (tunnel IP) and LAN resources via VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Many routing functions will not be available.",
