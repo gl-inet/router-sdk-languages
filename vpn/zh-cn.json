@@ -455,7 +455,8 @@
         "default_tunnel_kill_switch_label": "增强型Kill Switch",
         "default_tunnel_allow_tips": "{label}: 启用后，若您的数据不符合上述任何策略，仍可正常访问互联网。",
         "default_tunnel_kill_switch_tips": "{label}: 禁用时，您将被强制使用VPN及策略访问互联网。所有未匹配的数据将无法通过。此选项不会覆盖各策略的单独Kill Switch设置。",
-        "default_tunnel_common_tips": "对于未被上述任何VPN隧道及策略匹配的其他互联网流量，此选项控制是否允许其访问互联网。默认启用此选项，以便您在VPN数据之外仍能正常访问互联网。"
+        "default_tunnel_common_tips": "对于未被上述任何VPN隧道及策略匹配的其他互联网流量，此选项控制是否允许其访问互联网。默认启用此选项，以便您在VPN数据之外仍能正常访问互联网。",
+        "local_access_tips": "允许通过VPN远程访问路由器（隧道IP）和局域网资源（VPN服务器必须通告局域网路由以访问局域网）。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
@@ -471,7 +472,8 @@
         "route_rules_title": "路由规则",
         "enable_ipv6_tips": "如果未启用IPv6，IPv6地址将不会生效。如果您想使用IPv6地址，请在您的路由器上{todo}。",
         "want_use_ipv6_tips": "如果您想使用IPv6地址，请在您的路由器上{todo}。",
-        "route_rule_tips": "VPN 服务器自定义路由规则可指定特定网络流量通过 VPN 加密传输，而其他流量则正常经由本地网络传输。"
+        "route_rule_tips": "VPN 服务器自定义路由规则可指定特定网络流量通过 VPN 加密传输，而其他流量则正常经由本地网络传输。",
+        "local_access_tips": "允许通过VPN远程访问路由器（隧道IP）和局域网资源。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "许多路由功能将无法使用。",
