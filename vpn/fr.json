@@ -455,7 +455,8 @@
         "default_tunnel_kill_switch_label": "Kill Switch Amélioré",
         "default_tunnel_allow_tips": "{label} : Lorsqu'il est activé, vous aurez un accès normal à Internet si vos données ne correspondent à aucune des politiques ci-dessus.",
         "default_tunnel_kill_switch_tips": "{label} : Lorsqu'il est désactivé, vous êtes forcé d'utiliser le VPN et les politiques pour accéder à Internet. Toutes les données non correspondantes ne passeront pas. Cette option ne remplacera pas le Kill Switch individuel pour chaque politique.",
-        "default_tunnel_common_tips": "Pour tout autre trafic Internet qui ne correspond à aucun des tunnels VPN et politiques ci-dessus, cette option contrôle si vous souhaitez ou non qu'il aille sur Internet. Cette option sera activée par défaut afin que vous ayez un accès normal à Internet en plus de vos données VPN."
+        "default_tunnel_common_tips": "Pour tout autre trafic Internet qui ne correspond à aucun des tunnels VPN et politiques ci-dessus, cette option contrôle si vous souhaitez ou non qu'il aille sur Internet. Cette option sera activée par défaut afin que vous ayez un accès normal à Internet en plus de vos données VPN.",
+        "local_access_tips": "Permet un accès à distance au routeur (IP du tunnel) et aux ressources du LAN via un VPN (le serveur VPN doit annoncer les routes LAN pour accéder au LAN)."
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",
@@ -471,7 +472,8 @@
         "enable_ipv6_tips": "Si l'IPv6 n'est pas activé, l'adresse IPv6 ne sera pas effective. Si vous souhaitez utiliser une adresse IPv6, veuillez {todo} sur votre routeur.",
         "route_rules_title": "Règles de routage",
         "export_addr_tips": "Vous pouvez saisir une adresse IP ou un nom de domaine. L'adresse est l'adresse {label} dans la configuration VPN.",
-        "route_rule_tips": "Une règle de routage personnalisée pour un serveur VPN peut spécifier que certains trafics réseau sont transmis via le chiffrement VPN, tandis que les autres trafics passent normalement par le réseau local."
+        "route_rule_tips": "Une règle de routage personnalisée pour un serveur VPN peut spécifier que certains trafics réseau sont transmis via le chiffrement VPN, tandis que les autres trafics passent normalement par le réseau local.",
+        "local_access_tips": "Permet un accès à distance au routeur (IP du tunnel) et aux ressources du LAN via un VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "De nombreuses fonctions de routage ne seront pas disponibles.",
