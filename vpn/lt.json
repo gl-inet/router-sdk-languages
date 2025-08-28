@@ -455,7 +455,8 @@
         "default_tunnel_kill_switch_label": "Patobulintas Kill Switch",
         "default_tunnel_allow_tips": "{label}: Kai įjungta, turėsite įprastą interneto ryšį, jei jūsų duomenys neatitinka nė vienos iš aukščiau nurodytų taisyklių.",
         "default_tunnel_kill_switch_tips": "{label}: Kai išjungta, esate priverstas naudoti VPN ir taisykles, kad pasiektumėte internetą. Visi neatitinkantys duomenys nebus perduodami. Ši parinktis nepakeis individualaus „Kill Switch“ kiekvienai taisyklei.",
-        "default_tunnel_common_tips": "Visam kitam interneto srautui, kuris neatitinka nė vieno iš aukščiau nurodytų VPN tunelių ir taisyklių, ši parinktis kontroliuoja, ar norite, kad jis pasiektų internetą. Ši parinktis bus įjungta pagal numatytuosius nustatymus, kad turėtumėte įprastą interneto prieigą be savo VPN duomenų."
+        "default_tunnel_common_tips": "Visam kitam interneto srautui, kuris neatitinka nė vieno iš aukščiau nurodytų VPN tunelių ir taisyklių, ši parinktis kontroliuoja, ar norite, kad jis pasiektų internetą. Ši parinktis bus įjungta pagal numatytuosius nustatymus, kad turėtumėte įprastą interneto prieigą be savo VPN duomenų.",
+        "local_access_tips": "Leidžia nuotoliniu būdu pasiekti maršrutizatorių (tunelio IP) ir vietinio tinklo išteklius per VPN (VPN serveris turi skelbti vietinio tinklo maršrutus, kad būtų pasiekiamas vietinis tinklas)."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
@@ -471,7 +472,8 @@
         "route_rules_title": "Maršruto taisyklės",
         "want_use_ipv6_tips": "Jei norite naudoti IPv6 adresą, prašome {todo} savo maršrutytoje.",
         "export_addr_tips": "Galite įvesti IP adresą arba domeno pavadinimą. Adresas yra {label} adresas VPN konfigūracijoje.",
-        "route_rule_tips": "„VPN“ serverio pasirinktinė kelvados taisyklė gali nurodyti, kad tam tikras tinklo srautas yra perduodamas per „VPN“ šifravimą, o kitas srautas įprastai eina per vietinį tinklą."
+        "route_rule_tips": "„VPN“ serverio pasirinktinė kelvados taisyklė gali nurodyti, kad tam tikras tinklo srautas yra perduodamas per „VPN“ šifravimą, o kitas srautas įprastai eina per vietinį tinklą.",
+        "local_access_tips": "Leidžia nuotoliniu būdu pasiekti maršrutizatorių (tunelio IP) ir vietinio tinklo išteklius per VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos.",
