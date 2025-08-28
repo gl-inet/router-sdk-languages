@@ -455,7 +455,8 @@
         "default_tunnel_allow_label": "Nicht-VPN-Datenverkehr zulassen",
         "default_tunnel_kill_switch_label": "Erweiterter Kill Switch",
         "default_tunnel_kill_switch_tips": "{label}: Wenn deaktiviert, werden Sie gezwungen, VPN und Richtlinien für den Internetzugang zu verwenden. Alle nicht übereinstimmenden Daten werden nicht durchgelassen. Diese Option überschreibt nicht den individuellen Kill Switch für jede Richtlinie.",
-        "default_tunnel_common_tips": "Für allen anderen Internetverkehr, der von keinen VPN-Tunneln und Richtlinien oben erfasst wird, steuert diese Option, ob Sie ihn ins Internet lassen möchten oder nicht. Diese Option ist standardmäßig aktiviert, damit Sie neben Ihren VPN-Daten normalen Internetzugang haben."
+        "default_tunnel_common_tips": "Für allen anderen Internetverkehr, der von keinen VPN-Tunneln und Richtlinien oben erfasst wird, steuert diese Option, ob Sie ihn ins Internet lassen möchten oder nicht. Diese Option ist standardmäßig aktiviert, damit Sie neben Ihren VPN-Daten normalen Internetzugang haben.",
+        "local_access_tips": "Ermöglicht den Fernzugriff auf den Router (Tunnel-IP) und LAN-Ressourcen über VPN (VPN-Server muss LAN-Routen für den LAN-Zugriff ankündigen)."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
@@ -471,7 +472,8 @@
         "route_rules_title": "Routenregeln",
         "want_use_ipv6_tips": "Wenn Sie eine IPv6-Adresse verwenden möchten, aktivieren Sie bitte {todo} auf Ihrem Router.",
         "export_addr_tips": "Sie können eine IP-Adresse oder einen Domainnamen eingeben. Adresse ist die {label} Adresse in der VPN-Konfiguration.",
-        "route_rule_tips": "Eine benutzerdefinierte Routing-Regel für den VPN-Server kann festlegen, dass bestimmter Netzwerkverkehr über die VPN-Verschlüsselung übertragen wird, während anderer Verkehr normalerweise über das lokale Netzwerk läuft."
+        "route_rule_tips": "Eine benutzerdefinierte Routing-Regel für den VPN-Server kann festlegen, dass bestimmter Netzwerkverkehr über die VPN-Verschlüsselung übertragen wird, während anderer Verkehr normalerweise über das lokale Netzwerk läuft.",
+        "local_access_tips": "Ermöglicht den Fernzugriff auf den Router (Tunnel-IP) und LAN-Ressourcen über VPN."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein.",
