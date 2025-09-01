@@ -455,7 +455,7 @@
         "default_tunnel_allow_label": "Allow Non-VPN traffic",
         "default_tunnel_kill_switch_tips": "{label}: When Disabled, you are forced to use VPN and polices to access the Internet. All unmatched data will not go through. This option will not override the individual Kill Switch for each policies.",
         "default_tunnel_kill_switch_label": "Enhanced Kill Switch",
-        "default_tunnel_common_tips": "For all other Internet traffic that not matched by any VPN tunnels and policies above, this option controls whether or not you want them goes to the Internet. This option will be enabled by default so that you have normal Internet access besides your VPN data.",
+        "default_tunnel_common_tips": "For all other Internet traffic that is not matched by any of the VPN tunnels and policies above, this option controls whether you want it to go to the Internet. This option is enabled by default to ensure you have normal Internet access besides your VPN traffic.",
         "local_access_tips": "Allows remote access to the router (tunnel IP) and LAN resources via VPN (VPN server must advertise LAN routes to access LAN)."
     },
     "vpn_server": {
