@@ -474,7 +474,16 @@
         "want_use_ipv6_tips": "如果您想使用IPv6地址，請在您的路由器上{todo}。",
         "export_addr_tips": "您可以輸入IP地址或域名。地址是VPN配置中的{label}地址。",
         "route_rule_tips": "VPN 伺服器的自訂路由規則可指定特定網路流量透過 VPN 加密傳輸，其餘流量則正常透過本地網路傳送。",
-        "local_access_tips": "允許透過VPN遠端存取路由器（通道IP）和LAN資源。"
+        "local_access_tips": "允許透過VPN遠端存取路由器（通道IP）和LAN資源。",
+        "init_start_server_common_tips": "{idx}. 啟動VPN伺服器。",
+        "init_ovpn_step_tip_1": "1. 生成 OpenVPN 配置文件。",
+        "init_ovpn_step_tip_2": "2. 如有需要，修改預設配置後儲存。",
+        "init_ovpn_step_tip_3": "3. 將客戶端配置文件匯出至您的裝置。",
+        "init_wg_step_tip_1": "1. 生成 WireGuard® 配置文件。",
+        "init_wg_step_tip_3": "3. 將節點資訊匯出至客戶端。",
+        "init_wg_add_peer_tip": "您目前尚未設定任何節點配置。請先新增節點配置以開始使用。",
+        "init_wg_desc": "WireGuard® 是一款採用尖端加密技術、極簡易且高速的現代化VPN。請遵循以下步驟：",
+        "init_wg_step_tip_2": "2. 新增節點配置。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "許多路由功能將無法使用。",
