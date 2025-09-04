@@ -474,7 +474,16 @@
         "want_use_ipv6_tips": "Jei norite naudoti IPv6 adresą, prašome {todo} savo maršrutytoje.",
         "export_addr_tips": "Galite įvesti IP adresą arba domeno pavadinimą. Adresas yra {label} adresas VPN konfigūracijoje.",
         "route_rule_tips": "„VPN“ serverio pasirinktinė kelvados taisyklė gali nurodyti, kad tam tikras tinklo srautas yra perduodamas per „VPN“ šifravimą, o kitas srautas įprastai eina per vietinį tinklą.",
-        "local_access_tips": "Leidžia nuotoliniu būdu pasiekti maršrutizatorių (tunelio IP) ir vietinio tinklo išteklius per VPN."
+        "local_access_tips": "Leidžia nuotoliniu būdu pasiekti maršrutizatorių (tunelio IP) ir vietinio tinklo išteklius per VPN.",
+        "init_start_server_common_tips": "{idx}. Paleiskite „VPN“ serverį.",
+        "init_ovpn_step_tip_1": "1. Sugeneruokite „OpenVPN“ konfigūracijos failą.",
+        "init_ovpn_step_tip_2": "2. Jei reikia, modifikuokite numatytąją konfigūraciją, tada ją išsaugokite.",
+        "init_ovpn_step_tip_3": "3. Eksportuokite kliento konfigūracijos failą į savo įrenginį.",
+        "init_wg_desc": "„WireGuard®“ yra itin paprastas, greitas ir modernus „VPN“, naudojantis pažangiausią kriptografiją. Norėdami tęsti, atlikite toliau nurodytus veiksmus:",
+        "init_wg_step_tip_1": "1. Sugeneruokite „WireGuard®“ konfigūracijos failą.",
+        "init_wg_step_tip_2": "2. Pridėkite lygiaraščio konfigūraciją.",
+        "init_wg_step_tip_3": "3. Eksportuokite lygiaraščio informaciją į klientą.",
+        "init_wg_add_peer_tip": "Jūs dar neturite jokios lygiaraščio konfigūracijos. Norėdami pradėti, pridėkite lygiaraščio konfigūraciją."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos.",
