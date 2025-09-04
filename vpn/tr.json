@@ -469,7 +469,16 @@
         "want_use_ipv6_tips": "IPv6 adresi kullanmak istiyorsanız, lütfen yönlendiricinizde {todo} yapın.",
         "export_addr_tips": "Bir IP adresi veya alan adı girebilirsiniz. Adres, VPN yapılandırmasındaki {label} adresidir.",
         "route_rule_tips": "Bir VPN Sunucusu özel yönlendirme kuralı, belirli ağ trafiğinin VPN şifrelemesi üzerinden iletilmesini, diğer trafiğin ise normal yerel ağdan gitmesini belirtebilir.",
-        "local_access_tips": "VPN aracılığıyla yönlendiriciye (tünel IP) ve LAN kaynaklarına uzaktan erişime izin verir."
+        "local_access_tips": "VPN aracılığıyla yönlendiriciye (tünel IP) ve LAN kaynaklarına uzaktan erişime izin verir.",
+        "init_start_server_common_tips": "{idx}. VPN sunucusunu başlatın.",
+        "init_ovpn_step_tip_1": "1. Bir OpenVPN yapılandırma dosyası oluşturun.",
+        "init_ovpn_step_tip_2": "2. Gerekirse varsayılan yapılandırmayı değiştirin ve kaydedin.",
+        "init_ovpn_step_tip_3": "3. İstemci yapılandırma dosyasını cihazınıza aktarın.",
+        "init_wg_desc": "WireGuard®, en son kriptografi teknolojisini kullanan son derece basit, hızlı ve modern bir VPN'dir. Lütfen aşağıdaki adımları izleyin:",
+        "init_wg_step_tip_1": "1. Bir WireGuard® yapılandırma dosyası oluşturun.",
+        "init_wg_step_tip_2": "2. Bir eş yapılandırması ekleyin.",
+        "init_wg_step_tip_3": "3. Eş bilgilerini istemciye aktarın.",
+        "init_wg_add_peer_tip": "Henüz herhangi bir eş yapılandırmanız bulunmuyor. Başlamak için bir eş yapılandırması ekleyin."
     },
     "menu_wgserver": "WireGuard Sunucusu",
     "menu_ovpnserver": "OpenVPN Sunucusu",
