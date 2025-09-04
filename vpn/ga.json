@@ -478,7 +478,16 @@
         "export_addr_tips": "Is féidir leat seoladh IP nó ainm fearainn a iontráil. Is é an seoladh {label} sa chumraíocht VPN an seoladh.",
         "starting_label": "Tá an freastalaí {type} ag tosú...",
         "modify_route_rule_title": "Modhnaigh Riail an Bhealaigh",
-        "local_access_tips": "Ceadaíonn sé rochtain iargúlta ar an ródaire (IP tolláin) agus ar acmhainní LAN trí VPN."
+        "local_access_tips": "Ceadaíonn sé rochtain iargúlta ar an ródaire (IP tolláin) agus ar acmhainní LAN trí VPN.",
+        "init_start_server_common_tips": "{idx}. Tosaigh an freastalaí VPN.",
+        "init_ovpn_step_tip_1": "1. Giniúnaigh comhad cumraíochta OpenVPN.",
+        "init_ovpn_step_tip_2": "2. Modhnaigh an cumraíocht réamhshocraithe más gá, agus sábháil é.",
+        "init_wg_desc": "Is VPN an-simplí, tapa agus nua-aimseartha é WireGuard® a úsáideann cripteagrafaíocht den scoth. Lean na céimeanna seo a leanas:",
+        "init_wg_step_tip_2": "2. Cuir cumraíocht piaraí leis.",
+        "init_ovpn_step_tip_3": "3. Easpórtáil an comhad cumraíochta cliant chuig do ghléas.",
+        "init_wg_step_tip_1": "1. Giniúnaigh comhad cumraíochta WireGuard®.",
+        "init_wg_step_tip_3": "3. Easpórtáil an t-eolas piaraí chuig an gcliant.",
+        "init_wg_add_peer_tip": "Níl aon chumraíocht piaraí agat fós. Chun tosú, cuir cumraíocht piaraí leis."
     },
     "menu_vpndashboard": "Deais VPN",
     "menu_wgserver": "Freastalaí WireGuard",
