@@ -474,7 +474,16 @@
         "want_use_ipv6_tips": "IPv6 주소를 사용하려면 라우터에서 {todo}를 해주세요.",
         "export_addr_tips": "IP 주소 또는 도메인 이름을 입력할 수 있습니다. 주소는 VPN 구성에서 {label} 주소입니다.",
         "route_rule_tips": "VPN 서버 사용자 지정 라우팅 규칙을 통해 특정 네트워크 트래픽은 VPN 암호화를 통해 전송되도록 지정할 수 있으며, 다른 트래픽은 로컬 네트워크를 통해 정상적으로 전송됩니다.",
-        "local_access_tips": "VPN을 통해 라우터(터널 IP) 및 LAN 리소스에 원격으로 액세스할 수 있습니다."
+        "local_access_tips": "VPN을 통해 라우터(터널 IP) 및 LAN 리소스에 원격으로 액세스할 수 있습니다.",
+        "init_start_server_common_tips": "{idx}. VPN 서버 시작하기.",
+        "init_ovpn_step_tip_1": "1. OpenVPN 구성 파일 생성하기.",
+        "init_ovpn_step_tip_2": "2. 필요 시 기본 구성을 수정한 후 저장하기.",
+        "init_wg_step_tip_1": "1. WireGuard® 구성 파일 생성하기.",
+        "init_wg_step_tip_2": "2. 피어 구성 추가하기.",
+        "init_wg_add_peer_tip": "아직 피어 구성이 없습니다. 시작하려면 피어 구성을 추가하세요.",
+        "init_ovpn_step_tip_3": "3. 클라이언트 구성 파일을 기기로 내보내기.",
+        "init_wg_desc": "WireGuard®는 최신 암호화 기술을 활용한 매우 간단하고 빠르며 현대적인 VPN입니다. 다음 단계를 따라 진행하세요:",
+        "init_wg_step_tip_3": "3. 피어 정보를 클라이언트로 내보내기."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "많은 라우팅 기능을 사용할 수 없게 됩니다.",
