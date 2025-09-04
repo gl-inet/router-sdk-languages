@@ -474,7 +474,16 @@
         "want_use_ipv6_tips": "Wenn Sie eine IPv6-Adresse verwenden möchten, aktivieren Sie bitte {todo} auf Ihrem Router.",
         "export_addr_tips": "Sie können eine IP-Adresse oder einen Domainnamen eingeben. Adresse ist die {label} Adresse in der VPN-Konfiguration.",
         "route_rule_tips": "Eine benutzerdefinierte Routing-Regel für den VPN-Server kann festlegen, dass bestimmter Netzwerkverkehr über die VPN-Verschlüsselung übertragen wird, während anderer Verkehr normalerweise über das lokale Netzwerk läuft.",
-        "local_access_tips": "Ermöglicht den Fernzugriff auf den Router (Tunnel-IP) und LAN-Ressourcen über VPN."
+        "local_access_tips": "Ermöglicht den Fernzugriff auf den Router (Tunnel-IP) und LAN-Ressourcen über VPN.",
+        "init_start_server_common_tips": "{idx}. Starten Sie den VPN-Server.",
+        "init_ovpn_step_tip_1": "1. Generieren Sie eine OpenVPN-Konfigurationsdatei.",
+        "init_ovpn_step_tip_2": "2. Ändern Sie bei Bedarf die Standardkonfiguration und speichern Sie sie.",
+        "init_ovpn_step_tip_3": "3. Exportieren Sie die Client-Konfigurationsdatei auf Ihr Gerät.",
+        "init_wg_desc": "WireGuard® ist ein äußerst einfacher, schneller und moderner VPN-Dienst, der modernste Kryptografie nutzt. Bitte folgen Sie den nachstehenden Schritten:",
+        "init_wg_step_tip_1": "1. Generieren Sie eine WireGuard®-Konfigurationsdatei.",
+        "init_wg_step_tip_2": "2. Fügen Sie eine Peer-Konfiguration hinzu.",
+        "init_wg_step_tip_3": "3. Exportieren Sie die Peer-Informationen an den Client.",
+        "init_wg_add_peer_tip": "Sie haben noch keine Peer-Konfiguration. Um zu beginnen, fügen Sie eine Peer-Konfiguration hinzu."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein.",
