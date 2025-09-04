@@ -474,7 +474,16 @@
         "want_use_ipv6_tips": "Jeśli chcesz używać adresu IPv6, proszę {todo} w routerze.",
         "export_addr_tips": "Możesz wprowadzić adres IP lub nazwę domeny. Adres jest {label} adres w konfiguracji VPN.",
         "route_rule_tips": "Reguła niestandardowego routingu serwera VPN może określać, że określony ruch sieciowy jest przesyłany przez szyfrowanie VPN, podczas gdy pozostały ruch normalnie przechodzi przez lokalną sieć.",
-        "local_access_tips": "Umożliwia zdalny dostęp do routera (adres IP tunelu) i zasobów sieci LAN za pośrednictwem sieci VPN."
+        "local_access_tips": "Umożliwia zdalny dostęp do routera (adres IP tunelu) i zasobów sieci LAN za pośrednictwem sieci VPN.",
+        "init_start_server_common_tips": "{idx}. Uruchom serwer VPN.",
+        "init_ovpn_step_tip_1": "1. Wygeneruj plik konfiguracyjny OpenVPN.",
+        "init_ovpn_step_tip_2": "2. W razie potrzeby zmodyfikuj domyślną konfigurację, a następnie ją zapisz.",
+        "init_wg_step_tip_1": "1. Wygeneruj plik konfiguracyjny WireGuard®.",
+        "init_wg_step_tip_2": "2. Dodaj konfigurację peera.",
+        "init_wg_step_tip_3": "3. Eksportuj informacje o peera do klienta.",
+        "init_wg_add_peer_tip": "Nie masz jeszcze żadnej konfiguracji peer. Aby rozpocząć, dodaj konfigurację peer.",
+        "init_ovpn_step_tip_3": "3. Eksportuj plik konfiguracyjny klienta na swoje urządzenie.",
+        "init_wg_desc": "WireGuard® to niezwykle prosty, szybki i nowoczesny VPN wykorzystujący najnowocześniejsze techniki kryptograficzne. Wykonaj poniższe kroki:"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych.",
