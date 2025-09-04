@@ -306,13 +306,14 @@
         "delete_all_config_tips": "Trwale usunąć wszystkie konfiguracje. Tej operacji nie można cofnąć. Czy chcesz kontynuować?",
         "wg_guide_tips": "Korzystając z kreatora VPN, możesz w kilku prostych krokach zakończyć konfigurację VPN i szybko cieszyć się bezpiecznym doświadczeniem sieciowym!",
         "provider_unbind_tips": "Urządzenie nie jest uwierzytelnione.",
-        "wg_urbanshield_dev_limit_tips": "Osiągnięto limit urządzeń. Wyloguj jedno, aby kontynuować."
+        "wg_urbanshield_dev_limit_tips": "Osiągnięto limit urządzeń. Wyloguj jedno, aby kontynuować.",
+        "expired_at_tips": "Wygasło o {time}"
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
     "menu_ovpnclient": "Klient OpenVPN",
     "menu_wgserver": "Serwer WireGuard",
-    "menu_vpndashboard": "Panel Zarządzania VPN",
+    "menu_vpndashboard": "Zarządzanie VPN",
     "vpn_err": {
         "param_has_rce_risk_msg": "parametr ma ryzyko RCE",
         "get_conf_fail_msg": "pobranie danych konfiguracyjnych nie powiodło się",
@@ -455,7 +456,8 @@
         "default_tunnel_kill_switch_label": "Rozszerzony Kill Switch",
         "default_tunnel_allow_tips": "{label}: Po włączeniu, będziesz miał normalny dostęp do Internetu, jeśli Twoje dane nie pasują do żadnej z powyższych zasad.",
         "default_tunnel_kill_switch_tips": "{label}: Po wyłączeniu, wymuszane jest korzystanie z VPN i zasad w celu dostępu do Internetu. Wszystkie niezgodne dane nie zostaną przepuszczone. Ta opcja nie zastąpi indywidualnego Kill Switch dla każdej z zasad.",
-        "default_tunnel_common_tips": "Dla całego pozostałego ruchu internetowego, który nie jest dopasowany przez żadne tunele VPN i powyższe zasady, ta opcja kontroluje, czy mają one trafiać do Internetu. Opcja ta jest domyślnie włączona, aby zapewnić normalny dostęp do Internetu oprócz danych VPN."
+        "default_tunnel_common_tips": "Dla całego pozostałego ruchu internetowego, który nie jest dopasowany przez żadne tunele VPN i powyższe zasady, ta opcja kontroluje, czy mają one trafiać do Internetu. Opcja ta jest domyślnie włączona, aby zapewnić normalny dostęp do Internetu oprócz danych VPN.",
+        "local_access_tips": "Umożliwia zdalny dostęp do routera (adres IP tunelu) i zasobów sieci LAN za pośrednictwem sieci VPN (serwer VPN musi ogłaszać trasy sieci LAN, aby umożliwić dostęp do sieci LAN)."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
@@ -471,7 +473,17 @@
         "route_rules_title": "Reguły trasowania",
         "want_use_ipv6_tips": "Jeśli chcesz używać adresu IPv6, proszę {todo} w routerze.",
         "export_addr_tips": "Możesz wprowadzić adres IP lub nazwę domeny. Adres jest {label} adres w konfiguracji VPN.",
-        "route_rule_tips": "Reguła niestandardowego routingu serwera VPN może określać, że określony ruch sieciowy jest przesyłany przez szyfrowanie VPN, podczas gdy pozostały ruch normalnie przechodzi przez lokalną sieć."
+        "route_rule_tips": "Reguła niestandardowego routingu serwera VPN może określać, że określony ruch sieciowy jest przesyłany przez szyfrowanie VPN, podczas gdy pozostały ruch normalnie przechodzi przez lokalną sieć.",
+        "local_access_tips": "Umożliwia zdalny dostęp do routera (adres IP tunelu) i zasobów sieci LAN za pośrednictwem sieci VPN.",
+        "init_start_server_common_tips": "{idx}. Uruchom serwer VPN.",
+        "init_ovpn_step_tip_1": "1. Wygeneruj plik konfiguracyjny OpenVPN.",
+        "init_ovpn_step_tip_2": "2. W razie potrzeby zmodyfikuj domyślną konfigurację, a następnie ją zapisz.",
+        "init_wg_step_tip_1": "1. Wygeneruj plik konfiguracyjny WireGuard®.",
+        "init_wg_step_tip_2": "2. Dodaj konfigurację peera.",
+        "init_wg_step_tip_3": "3. Eksportuj informacje o peera do klienta.",
+        "init_wg_add_peer_tip": "Nie masz jeszcze żadnej konfiguracji peer. Aby rozpocząć, dodaj konfigurację peer.",
+        "init_ovpn_step_tip_3": "3. Eksportuj plik konfiguracyjny klienta na swoje urządzenie.",
+        "init_wg_desc": "WireGuard® to niezwykle prosty, szybki i nowoczesny VPN wykorzystujący najnowocześniejsze techniki kryptograficzne. Wykonaj poniższe kroki:"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Wiele funkcji routingu nie będzie dostępnych.",

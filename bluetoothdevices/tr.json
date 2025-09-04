@@ -39,7 +39,14 @@
         "scan_type": "Tarama Türü",
         "device_name": "Cihaz Adı",
         "title": "Bluetooth Yapılandırması",
-        "SimplePairingHashC192": "Basit Eşleştirme Hash C-192"
+        "SimplePairingHashC192": "Basit Eşleştirme Hash C-192",
+        "scan_title": "Tarama Ayarları",
+        "phy_tip": "Kodlanmış fizik seçilirse, geleneksel yayın paketleri taranamaz",
+        "rssi": "RSSI",
+        "scan_response_package": "Taramayı Yanıtla",
+        "ServiceClassUUIDs": "Hizmet Sınıfı UUID'leri",
+        "SlaveConnectionIntervalRange": "Bağlı Cihaz Aralık Aralığı",
+        "Appearance": "Görünüm"
     },
     "bluetooth_scanning_mode": {
         "rssi_threshold": "RSSI Eşiği",
@@ -134,7 +141,15 @@
         "CompleteLocalName": "Tam Yerel Ad",
         "ad_data_tip_one": "Bu filtre modu tüm düzenli ifadeleri destekler. Eşleştirilecek verileri onaltılık formatta giriniz.",
         "SimplePairingRandomizerR192": "Basit Eşleştirme Rastgeleleştirici R-192",
-        "SlaveConnectionIntervalRange": "Bağlantı Aralığı Aralığı"
+        "SlaveConnectionIntervalRange": "Bağlantı Aralığı Aralığı",
+        "title": "Bluetooth Tarama Modu",
+        "synchronize_mode": "Senkronizasyon Modu",
+        "enable_mac_filters": "MAC Filtresini Etkinleştir",
+        "raw_data_filters": "Ham Veri Filtreleri",
+        "synchronize_local_setting": "Periyodik Reklamı Senkronize Et",
+        "tx_power_level": "Tx Güç Seviyesi",
+        "ClassOfDevice": "Cihaz Sınıfı",
+        "mac_check_tip_three": "2. Son ek eşleştirme ($ ile bitmeli, ardından 1~12 onaltılık karakter gelmeli)"
     },
     "bluetooth_remote_manage": {
         "enable_tls": "TLS'yi Etkinleştir",
@@ -172,7 +187,10 @@
         "password": "Şifre",
         "response_tips": "Ağ geçidi, kontrol yanıtı olarak komutun alınmasını veya yürütme sonucunu göndermek için konuyu kullanacaktır.",
         "client_cerificate": "İstemci Sertifikası",
-        "none": "Hiçbiri"
+        "none": "Hiçbiri",
+        "advance_settings": "Gelişmiş Ayarlar",
+        "enable_control": "Kontrolü Etkinleştir",
+        "report_tips": "Ağ geçidi, taranan Bluetooth verilerini MQTT Broker'a göndermek için bu konuyu kullanacaktır."
     },
     "bluetooth_report": {
         "base": "Temel",
@@ -187,7 +205,9 @@
         "report_broadcast_data_tips": "Bu seçenek etkinleştirilirse, her raporlanan veri tam yayın paketi verisini içerecektir; aksi takdirde, her raporlanan veri yalnızca cihaz MAC adresini ve RSSI'yi içerecektir.",
         "report_gateway_status": "Ağ Geçidi Durum Raporunu Etkinleştir",
         "report_interval": "Rapor Aralığı",
-        "data_format": "Veri Formatı"
+        "data_format": "Veri Formatı",
+        "raw_data_filters": "Ham Veri Filtreleri",
+        "report_broadcast_data": "Yayın Verilerini Raporla"
     },
     "bluetooth_settings": {
         "include_certificate": "TLS Sertifikasını Dahil Et",

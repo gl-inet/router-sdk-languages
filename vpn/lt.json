@@ -306,7 +306,8 @@
         "delete_all_config_tips": "Visamai pašalinti visas jūsų konfigūracijas. Šis veiksmas negali būti anuliuotas. Ar norite tęsti?",
         "wg_guide_tips": "Naudodamiesi „VPN“ vedliu, galite užbaigti „VPN“ konfigūraciją vos per kelis žingsnius ir greitai mėgautis saugiu tinklo patyrimu!",
         "provider_unbind_tips": "Įrenginys yra neautentifikuotas.",
-        "wg_urbanshield_dev_limit_tips": "Pasiektas įrenginių limitas. Norėdami tęsti, atsijunkite vieną."
+        "wg_urbanshield_dev_limit_tips": "Pasiektas įrenginių limitas. Norėdami tęsti, atsijunkite vieną.",
+        "expired_at_tips": "Baigėsi {time}"
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -424,7 +425,7 @@
         "custom_tunnel_title": "Prisitaikyti VPN tunelį",
         "stop_title": "Stabdyti VPN konfigūraciją",
         "switch_mode_title": "Perjungti VPN veikseną",
-        "global_mode_label": "Visuotinis režimas",
+        "global_mode_label": "Visuotinė veiksena",
         "global_mode_desc": "Jei „VPN“ yra prijungta, visas srautas bus maršrutizuojamas per „VPN“. Galima aktyvuoti tik vieną „VPN“ kliento egzempliorių.",
         "policy_mode_label": "Strategijos veiksena",
         "policy_mode_desc": "Ši veiksena palaiko pažangų tinkinimą, leidžiantį konfigūruoti ir aktyvuoti kelis „VPN“ serverius viename įrenginyje, taip pat vykdyti sudėtingą strategijos logiką.",
@@ -455,7 +456,8 @@
         "default_tunnel_kill_switch_label": "Patobulintas Kill Switch",
         "default_tunnel_allow_tips": "{label}: Kai įjungta, turėsite įprastą interneto ryšį, jei jūsų duomenys neatitinka nė vienos iš aukščiau nurodytų taisyklių.",
         "default_tunnel_kill_switch_tips": "{label}: Kai išjungta, esate priverstas naudoti VPN ir taisykles, kad pasiektumėte internetą. Visi neatitinkantys duomenys nebus perduodami. Ši parinktis nepakeis individualaus „Kill Switch“ kiekvienai taisyklei.",
-        "default_tunnel_common_tips": "Visam kitam interneto srautui, kuris neatitinka nė vieno iš aukščiau nurodytų VPN tunelių ir taisyklių, ši parinktis kontroliuoja, ar norite, kad jis pasiektų internetą. Ši parinktis bus įjungta pagal numatytuosius nustatymus, kad turėtumėte įprastą interneto prieigą be savo VPN duomenų."
+        "default_tunnel_common_tips": "Visam kitam interneto srautui, kuris neatitinka nė vieno iš aukščiau nurodytų VPN tunelių ir taisyklių, ši parinktis kontroliuoja, ar norite, kad jis pasiektų internetą. Ši parinktis bus įjungta pagal numatytuosius nustatymus, kad turėtumėte įprastą interneto prieigą be savo VPN duomenų.",
+        "local_access_tips": "Leidžia nuotoliniu būdu pasiekti maršrutizatorių (tunelio IP) ir vietinio tinklo išteklius per VPN (VPN serveris turi skelbti vietinio tinklo maršrutus, kad būtų pasiekiamas vietinis tinklas)."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
@@ -471,7 +473,17 @@
         "route_rules_title": "Maršruto taisyklės",
         "want_use_ipv6_tips": "Jei norite naudoti IPv6 adresą, prašome {todo} savo maršrutytoje.",
         "export_addr_tips": "Galite įvesti IP adresą arba domeno pavadinimą. Adresas yra {label} adresas VPN konfigūracijoje.",
-        "route_rule_tips": "„VPN“ serverio pasirinktinė kelvados taisyklė gali nurodyti, kad tam tikras tinklo srautas yra perduodamas per „VPN“ šifravimą, o kitas srautas įprastai eina per vietinį tinklą."
+        "route_rule_tips": "„VPN“ serverio pasirinktinė kelvados taisyklė gali nurodyti, kad tam tikras tinklo srautas yra perduodamas per „VPN“ šifravimą, o kitas srautas įprastai eina per vietinį tinklą.",
+        "local_access_tips": "Leidžia nuotoliniu būdu pasiekti maršrutizatorių (tunelio IP) ir vietinio tinklo išteklius per VPN.",
+        "init_start_server_common_tips": "{idx}. Paleiskite „VPN“ serverį.",
+        "init_ovpn_step_tip_1": "1. Sugeneruokite „OpenVPN“ konfigūracijos failą.",
+        "init_ovpn_step_tip_2": "2. Jei reikia, modifikuokite numatytąją konfigūraciją, tada ją išsaugokite.",
+        "init_ovpn_step_tip_3": "3. Eksportuokite kliento konfigūracijos failą į savo įrenginį.",
+        "init_wg_desc": "„WireGuard®“ yra itin paprastas, greitas ir modernus „VPN“, naudojantis pažangiausią kriptografiją. Norėdami tęsti, atlikite toliau nurodytus veiksmus:",
+        "init_wg_step_tip_1": "1. Sugeneruokite „WireGuard®“ konfigūracijos failą.",
+        "init_wg_step_tip_2": "2. Pridėkite lygiaraščio konfigūraciją.",
+        "init_wg_step_tip_3": "3. Eksportuokite lygiaraščio informaciją į klientą.",
+        "init_wg_add_peer_tip": "Jūs dar neturite jokios lygiaraščio konfigūracijos. Norėdami pradėti, pridėkite lygiaraščio konfigūraciją."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos.",

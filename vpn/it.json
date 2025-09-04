@@ -306,7 +306,8 @@
         "delete_all_config_tips": "Eliminare definitivamente tutte le configurazioni. Questa operazione non può essere annullata. Si desidera procedere?",
         "wg_guide_tips": "Utilizzando la procedura guidata VPN, puoi completare la configurazione VPN in pochi passaggi e goderti rapidamente un'esperienza di rete sicura!",
         "provider_unbind_tips": "Il dispositivo non è autenticato.",
-        "wg_urbanshield_dev_limit_tips": "Limite dispositivo raggiunto. Effettua il logout da uno per continuare."
+        "wg_urbanshield_dev_limit_tips": "Limite dispositivo raggiunto. Effettua il logout da uno per continuare.",
+        "expired_at_tips": "Scaduto alle {time}"
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -455,7 +456,8 @@
         "default_tunnel_kill_switch_label": "Kill Switch Avanzato",
         "default_tunnel_allow_tips": "{label}: Quando abilitato, avrai una connessione Internet normale se i tuoi dati non corrispondono a nessuna delle policy sopra indicate.",
         "default_tunnel_kill_switch_tips": "{label}: Quando disabilitato, sei costretto a utilizzare la VPN e le policy per accedere a Internet. Tutti i dati non corrispondenti non passeranno. Questa opzione non sovrascriverà il Kill Switch individuale per ogni policy.",
-        "default_tunnel_common_tips": "Per tutto il traffico Internet che non corrisponde a nessuno dei tunnel VPN e alle policy sopra indicate, questa opzione controlla se desideri che vada su Internet o meno. Questa opzione sarà abilitata per impostazione predefinita in modo da avere accesso normale a Internet oltre ai dati della VPN."
+        "default_tunnel_common_tips": "Per tutto il traffico Internet che non corrisponde a nessuno dei tunnel VPN e alle policy sopra indicate, questa opzione controlla se desideri che vada su Internet o meno. Questa opzione sarà abilitata per impostazione predefinita in modo da avere accesso normale a Internet oltre ai dati della VPN.",
+        "local_access_tips": "Consente l'accesso remoto al router (IP tunnel) e alle risorse LAN tramite VPN (il server VPN deve annunciare le rotte LAN per accedere alla LAN)."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
@@ -471,7 +473,17 @@
         "enable_ipv6_tips": "Se IPv6 non è abilitato, l'indirizzo IPv6 non avrà effetto. Se vuoi utilizzare un indirizzo IPv6, per favore {todo} sul tuo router.",
         "want_use_ipv6_tips": "Se vuoi utilizzare un indirizzo IPv6, per favore {todo} sul tuo router.",
         "export_addr_tips": "Puoi inserire un indirizzo IP o un nome di dominio. L'indirizzo è l'indirizzo {label} nella configurazione VPN.",
-        "route_rule_tips": "Una regola di routing personalizzata del server VPN può specificare che determinati traffici di rete vengano trasmessi attraverso la crittografia VPN, mentre altri traffici passino normalmente attraverso la rete locale."
+        "route_rule_tips": "Una regola di routing personalizzata del server VPN può specificare che determinati traffici di rete vengano trasmessi attraverso la crittografia VPN, mentre altri traffici passino normalmente attraverso la rete locale.",
+        "local_access_tips": "Consente l'accesso remoto al router (IP tunnel) e alle risorse LAN tramite VPN.",
+        "init_start_server_common_tips": "{idx}. Avvia il server VPN.",
+        "init_ovpn_step_tip_1": "1. Genera un file di configurazione OpenVPN.",
+        "init_ovpn_step_tip_2": "2. Modifica la configurazione predefinita se necessario, quindi salvala.",
+        "init_wg_desc": "WireGuard® è una VPN estremamente semplice, veloce e moderna che utilizza crittografia all'avanguardia. Segui i passaggi seguenti:",
+        "init_wg_step_tip_1": "1. Genera un file di configurazione WireGuard®.",
+        "init_wg_step_tip_2": "2. Aggiungi una configurazione peer.",
+        "init_wg_step_tip_3": "3. Esporta le informazioni del peer al client.",
+        "init_ovpn_step_tip_3": "3. Esporta il file di configurazione del client sul tuo dispositivo.",
+        "init_wg_add_peer_tip": "Non hai ancora alcuna configurazione peer. Per iniziare, aggiungi una configurazione peer."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Molte funzioni di instradamento non saranno disponibili.",

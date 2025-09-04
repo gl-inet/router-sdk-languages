@@ -98,8 +98,8 @@
         "options": "Opciók",
         "admin_panel": "Irányítópult",
         "refresh": "Frissítés",
-        "start": "Indítás",
-        "stop": "Leállítás",
+        "start": "Kapcsolódás",
+        "stop": "Lekapcsolódás",
         "type": "Típus",
         "enable": "Engedélyezés",
         "port": "Port",
@@ -174,7 +174,8 @@
         "remove_btn": "Eltávolítás",
         "notice_title": "Értesítés",
         "use_weak_disabled_ssh_tips": "Gyenge jelszó használata az SSH-hozzáférés és a soros kapcsolat korlátozásával jár.",
-        "important_note": "Fontos"
+        "important_note": "Fontos",
+        "export_btn": "Exportálás"
     },
     "msg": {
         "success": "Végrehajtva!",
@@ -187,14 +188,14 @@
         "unknown_err": "Ismeretlen hiba történt. Ellenőrizze a hálózati beállításokat, vagy indítsa újra az eszközt!",
         "interface_timeout": "A művelet időtúllépés miatt meghiúsult. Kérem, ellenőrizze az eszközt és a hálózatot!",
         "processing": "Feldolgozás...",
-        "please_note": "Kérem, vegye figyelembe:",
+        "please_note": "Megjegyzés:",
         "port_occupied": "A(z) {name} port foglalt",
         "send_success_tips": "Sikeres küldés!",
         "sign_up_success": "Sikeres regisztráció!",
         "successfully_badge_tips": "Sikeresen!",
         "lack_of_memory_tips": "Nincs elég szabad memória a frissítés végrehajtásához. Indítsa újra az eszközt és próbálja meg ismét!",
         "copy_success": "Másolás sikeres",
-        "request_timeout_tip": "A kérés időtúllépést szenvedett. Kérjük, győződjön meg arról, hogy csatlakozik ehhez az útválasztóhoz, és frissítse az oldalt."
+        "request_timeout_tip": "Kérés időtúllépés miatt meghiúsult. Kérem, ellenőrizze a kapcsolatot és frissítse a lapot!"
     },
     "date": {
         "day": "nap",

@@ -306,7 +306,8 @@
         "delete_all_config_tips": "Permanente verwijdering van al uw configuraties. Dit kan niet ongedaan worden gemaakt. Wilt u doorgaan?",
         "wg_guide_tips": "Met de VPN-wizard kunt u in slechts enkele stappen de VPN-configuratie voltooien en snel genieten van een veilige netwerkervaring!",
         "provider_unbind_tips": "Het apparaat is niet geverifieerd.",
-        "wg_urbanshield_dev_limit_tips": "Apparaatslimiet bereikt. Meld één apparaat af om door te gaan."
+        "wg_urbanshield_dev_limit_tips": "Apparaatslimiet bereikt. Meld één apparaat af om door te gaan.",
+        "expired_at_tips": "Verlopen op {time}"
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
@@ -455,7 +456,8 @@
         "default_tunnel_kill_switch_label": "Verbeterde Kill Switch",
         "default_tunnel_allow_tips": "{label}: Wanneer ingeschakeld, heeft u normaal internet als uw gegevens niet overeenkomen met een van de bovenstaande beleidsregels.",
         "default_tunnel_kill_switch_tips": "{label}: Wanneer uitgeschakeld, wordt u gedwongen om VPN en beleid te gebruiken om toegang te krijgen tot het internet. Alle niet-overeenkomende gegevens zullen niet doorgaan. Deze optie overschrijft niet de individuele Kill Switch voor elk beleid.",
-        "default_tunnel_common_tips": "Voor al het andere internetverkeer dat niet overeenkomt met bovenstaande VPN-tunnels en beleidsregels, bepaalt deze optie of u dit verkeer naar het internet wilt laten gaan. Deze optie is standaard ingeschakeld, zodat u naast uw VPN-gegevens normaal internettoegang heeft."
+        "default_tunnel_common_tips": "Voor al het andere internetverkeer dat niet overeenkomt met bovenstaande VPN-tunnels en beleidsregels, bepaalt deze optie of u dit verkeer naar het internet wilt laten gaan. Deze optie is standaard ingeschakeld, zodat u naast uw VPN-gegevens normaal internettoegang heeft.",
+        "local_access_tips": "Maakt externe toegang tot de router (tunnel-IP) en LAN-bronnen mogelijk via VPN (VPN-server moet LAN-routes adverteren om toegang tot LAN te krijgen)."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
@@ -471,7 +473,17 @@
         "route_rules_title": "Route regels",
         "enable_ipv6_tips": "Als IPv6 niet is ingeschakeld, zal het IPv6-adres niet van kracht worden. Als u een IPv6-adres wilt gebruiken, schakel dan {todo} in op uw router.",
         "want_use_ipv6_tips": "Als u een IPv6-adres wilt gebruiken, schakel dan {todo} in op uw router.",
-        "route_rule_tips": "Een aangepaste routeringsregel voor een VPN-server kan specificeren dat bepaald netwerkverkeer via de VPN-versleuteling wordt verzonden, terwijl ander verkeer normaal via het lokale netwerk verloopt."
+        "route_rule_tips": "Een aangepaste routeringsregel voor een VPN-server kan specificeren dat bepaald netwerkverkeer via de VPN-versleuteling wordt verzonden, terwijl ander verkeer normaal via het lokale netwerk verloopt.",
+        "local_access_tips": "Maakt externe toegang tot de router (tunnel-IP) en LAN-bronnen mogelijk via VPN.",
+        "init_start_server_common_tips": "{idx}. Start de VPN-server.",
+        "init_ovpn_step_tip_2": "2. Wijzig indien nodig de standaardconfiguratie en sla deze op.",
+        "init_wg_desc": "WireGuard® is een uiterst eenvoudige, snelle en moderne VPN die gebruikmaakt van geavanceerde cryptografie. Volg de onderstaande stappen:",
+        "init_wg_step_tip_1": "1. Genereer een WireGuard®-configuratiebestand.",
+        "init_wg_step_tip_2": "2. Voeg een peerconfiguratie toe.",
+        "init_wg_add_peer_tip": "U heeft nog geen peerconfiguratie. Voeg een peerconfiguratie toe om te beginnen.",
+        "init_ovpn_step_tip_1": "1. Genereer een OpenVPN-configuratiebestand.",
+        "init_ovpn_step_tip_3": "3. Exporteer het clientconfiguratiebestand naar uw apparaat.",
+        "init_wg_step_tip_3": "3. Exporteer de peerinformatie naar de client."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Veel routeringsfuncties zullen niet beschikbaar zijn.",

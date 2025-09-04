@@ -260,13 +260,13 @@
         "guide_done_title": "成功聯網",
         "domain_detect_failed_tips": "{count} 域名或 IP 地址檢測失敗。",
         "domain_detect_success_tips": "成功檢測到 {count} 域名或 IP 地址。",
-        "inp_domain_url_label": "輸入 URL 鏈接",
-        "domain_url_tips": "請輸入正確的 URL 鏈接，URL 檢測將識別域名或 IP 地址的正確性。",
+        "inp_domain_url_label": "輸入 URL 連結",
+        "domain_url_tips": "請輸入正確的 URL 連結，URL 檢測將識別域名或 IP 地址的正確性。",
         "wg_azirevpn_limit_tips": "一個AzireVPN賬號只能同時在10臺設備上使用，您的帳戶已達到設備的最大數量，請到{provider}刪除未使用的設備，然後再試一次。",
         "wg_surfshark_limit_tips": "您已達到最大連接數，請到{provider}刪除未使用的連接。",
         "domain_input_mode_label": "輸入模式",
         "wg_mullvad_limit_tips": "生成 WireGuard 密鑰失敗，每個 Mullvad 賬戶最多隻能同時擁有五個密鑰，請訪問 {provider} 撤銷密鑰。",
-        "domain_input_mode_tips": "如果選擇訂閱 URL，URL 鏈接中的域名或 IP 將每天自動更新。",
+        "domain_input_mode_tips": "如果選擇訂閱 URL，URL 連結中的域名或 IP 將每天自動更新。",
         "wg_self_public_key_tips": "你方的公鑰",
         "go_renew_btn": "去更新",
         "number_allocated_ips_label": "已分配 IP 的數量",
@@ -306,7 +306,8 @@
         "delete_all_config_tips": "永久刪除所有配置。此操作無法撤銷。您確定要繼續嗎？",
         "wg_guide_tips": "通過 VPN 嚮導，您只需幾個步驟即可完成 VPN 配置，快速享受安全的網路體驗！",
         "provider_unbind_tips": "該設備未經認證。",
-        "wg_urbanshield_dev_limit_tips": "設備數量已達上限。請登出一個裝置以繼續。"
+        "wg_urbanshield_dev_limit_tips": "設備數量已達上限。請登出一個裝置以繼續。",
+        "expired_at_tips": "已於 {time} 過期"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -453,9 +454,10 @@
         "all_other_traffic_sub_tips": "關閉此功能將增強 Kill Switch 功能並阻止常規Internet訪問。",
         "default_tunnel_allow_label": "允許非VPN流量",
         "default_tunnel_kill_switch_label": "增強型Kill Switch",
-        "default_tunnel_allow_tips": "{label}：啟用時，若您的資料不符合上述任何政策，您將能正常使用網際網路。",
-        "default_tunnel_kill_switch_tips": "{label}：停用時，您將被迫使用VPN及政策來存取網際網路。所有不符合的資料將無法通過。此選項不會覆寫各政策中的個別Kill Switch功能。",
-        "default_tunnel_common_tips": "對於上述任何VPN隧道及策略均未匹配的其他互聯網流量，此選項控制您是否希望其連接到互聯網。此選項預設為啟用，以便您在VPN數據之外仍能正常訪問互聯網。"
+        "default_tunnel_allow_tips": "{label}：啟用時，若您的流量不符合上述任何策略，您將能正常使用網際網路。",
+        "default_tunnel_kill_switch_tips": "{label}：停用時，您將被迫使用VPN及策略來訪問網際網路。所有不匹配的流量都將被阻止。此選項不會覆蓋每個策略的獨立 Kill Switch。",
+        "default_tunnel_common_tips": "對於上述任何VPN隧道及策略均未匹配的其他互聯網流量，此選項控制您是否希望其連接到互聯網。此選項預設為啟用，以便您在VPN數據之外仍能正常訪問互聯網。",
+        "local_access_tips": "允許透過VPN遠端存取路由器（通道IP）和LAN資源（VPN伺服器必須通告LAN路由以存取LAN）。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
@@ -471,7 +473,17 @@
         "enable_ipv6_tips": "如果未啟用IPv6，則IPv6地址將不會生效。如果您想使用IPv6地址，請在您的路由器上{todo}。",
         "want_use_ipv6_tips": "如果您想使用IPv6地址，請在您的路由器上{todo}。",
         "export_addr_tips": "您可以輸入IP地址或域名。地址是VPN配置中的{label}地址。",
-        "route_rule_tips": "VPN 伺服器的自訂路由規則可指定特定網路流量透過 VPN 加密傳輸，其餘流量則正常透過本地網路傳送。"
+        "route_rule_tips": "VPN 伺服器的自訂路由規則可指定特定網路流量透過 VPN 加密傳輸，其餘流量則正常透過本地網路傳送。",
+        "local_access_tips": "允許透過VPN遠端存取路由器（通道IP）和LAN資源。",
+        "init_start_server_common_tips": "{idx}. 啟動VPN伺服器。",
+        "init_ovpn_step_tip_1": "1. 生成 OpenVPN 配置文件。",
+        "init_ovpn_step_tip_2": "2. 如有需要，修改預設配置後儲存。",
+        "init_ovpn_step_tip_3": "3. 將客戶端配置文件匯出至您的裝置。",
+        "init_wg_step_tip_1": "1. 生成 WireGuard® 配置文件。",
+        "init_wg_step_tip_3": "3. 將節點資訊匯出至客戶端。",
+        "init_wg_add_peer_tip": "您目前尚未設定任何節點配置。請先新增節點配置以開始使用。",
+        "init_wg_desc": "WireGuard® 是一款採用尖端加密技術、極簡易且高速的現代化VPN。請遵循以下步驟：",
+        "init_wg_step_tip_2": "2. 新增節點配置。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "許多路由功能將無法使用。",

@@ -306,7 +306,8 @@
         "delete_all_config_tips": "Alle Ihre Konfigurationen dauerhaft löschen. Dieser Vorgang kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?",
         "wg_guide_tips": "Mit dem VPN-Assistenten können Sie die VPN-Konfiguration in nur wenigen Schritten abschließen und schnell ein sicheres Netzwerkerlebnis genießen!",
         "provider_unbind_tips": "Das Gerät ist nicht authentifiziert.",
-        "wg_urbanshield_dev_limit_tips": "Geräte-Limit erreicht. Bitte melden Sie ein Gerät ab, um fortzufahren."
+        "wg_urbanshield_dev_limit_tips": "Geräte-Limit erreicht. Bitte melden Sie ein Gerät ab, um fortzufahren.",
+        "expired_at_tips": "Abgelaufen am {time}"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -455,7 +456,8 @@
         "default_tunnel_allow_label": "Nicht-VPN-Datenverkehr zulassen",
         "default_tunnel_kill_switch_label": "Erweiterter Kill Switch",
         "default_tunnel_kill_switch_tips": "{label}: Wenn deaktiviert, werden Sie gezwungen, VPN und Richtlinien für den Internetzugang zu verwenden. Alle nicht übereinstimmenden Daten werden nicht durchgelassen. Diese Option überschreibt nicht den individuellen Kill Switch für jede Richtlinie.",
-        "default_tunnel_common_tips": "Für allen anderen Internetverkehr, der von keinen VPN-Tunneln und Richtlinien oben erfasst wird, steuert diese Option, ob Sie ihn ins Internet lassen möchten oder nicht. Diese Option ist standardmäßig aktiviert, damit Sie neben Ihren VPN-Daten normalen Internetzugang haben."
+        "default_tunnel_common_tips": "Für allen anderen Internetverkehr, der von keinen VPN-Tunneln und Richtlinien oben erfasst wird, steuert diese Option, ob Sie ihn ins Internet lassen möchten oder nicht. Diese Option ist standardmäßig aktiviert, damit Sie neben Ihren VPN-Daten normalen Internetzugang haben.",
+        "local_access_tips": "Ermöglicht den Fernzugriff auf den Router (Tunnel-IP) und LAN-Ressourcen über VPN (VPN-Server muss LAN-Routen für den LAN-Zugriff ankündigen)."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
@@ -471,7 +473,17 @@
         "route_rules_title": "Routenregeln",
         "want_use_ipv6_tips": "Wenn Sie eine IPv6-Adresse verwenden möchten, aktivieren Sie bitte {todo} auf Ihrem Router.",
         "export_addr_tips": "Sie können eine IP-Adresse oder einen Domainnamen eingeben. Adresse ist die {label} Adresse in der VPN-Konfiguration.",
-        "route_rule_tips": "Eine benutzerdefinierte Routing-Regel für den VPN-Server kann festlegen, dass bestimmter Netzwerkverkehr über die VPN-Verschlüsselung übertragen wird, während anderer Verkehr normalerweise über das lokale Netzwerk läuft."
+        "route_rule_tips": "Eine benutzerdefinierte Routing-Regel für den VPN-Server kann festlegen, dass bestimmter Netzwerkverkehr über die VPN-Verschlüsselung übertragen wird, während anderer Verkehr normalerweise über das lokale Netzwerk läuft.",
+        "local_access_tips": "Ermöglicht den Fernzugriff auf den Router (Tunnel-IP) und LAN-Ressourcen über VPN.",
+        "init_start_server_common_tips": "{idx}. Starten Sie den VPN-Server.",
+        "init_ovpn_step_tip_1": "1. Generieren Sie eine OpenVPN-Konfigurationsdatei.",
+        "init_ovpn_step_tip_2": "2. Ändern Sie bei Bedarf die Standardkonfiguration und speichern Sie sie.",
+        "init_ovpn_step_tip_3": "3. Exportieren Sie die Client-Konfigurationsdatei auf Ihr Gerät.",
+        "init_wg_desc": "WireGuard® ist ein äußerst einfacher, schneller und moderner VPN-Dienst, der modernste Kryptografie nutzt. Bitte folgen Sie den nachstehenden Schritten:",
+        "init_wg_step_tip_1": "1. Generieren Sie eine WireGuard®-Konfigurationsdatei.",
+        "init_wg_step_tip_2": "2. Fügen Sie eine Peer-Konfiguration hinzu.",
+        "init_wg_step_tip_3": "3. Exportieren Sie die Peer-Informationen an den Client.",
+        "init_wg_add_peer_tip": "Sie haben noch keine Peer-Konfiguration. Um zu beginnen, fügen Sie eine Peer-Konfiguration hinzu."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein.",

@@ -84,7 +84,23 @@
         "CompleteLocalName": "Повна локальна назва",
         "ad_data_tip_one": "Цей режим фільтрації підтримує всі регулярні вирази. Будь ласка, введіть дані для зіставлення у шістнадцятковому форматі.",
         "SimplePairingRandomizerR192": "Генератор випадкових чисел для простого парного зв'язку R-192",
-        "SlaveConnectionIntervalRange": "Діапазон інтервалу підключення підлеглого пристрою"
+        "SlaveConnectionIntervalRange": "Діапазон інтервалу підключення підлеглого пристрою",
+        "synchronize_mode_set": "Налаштування режиму синхронізації",
+        "title": "Режим сканування Bluetooth",
+        "mac_check_tip_five": "4. Повне співпадіння",
+        "mac_check_tip_three": "2. Збіг за суфіксом (має закінчуватися на $, за яким слідують 1~12 шістнадцяткових символів)",
+        "TxPowerLevel": "Рівень потужності передачі",
+        "ServiceDataUUID": "Ідентифікатор UUID сервісних даних",
+        "ManufacturerSpecificData": "Дані виробника",
+        "synchronize_mode": "Режим синхронізації",
+        "ClassOfDevice": "Клас пристрою",
+        "raw_data": "Необроблені дані",
+        "mac_filters": "Фільтри MAC",
+        "ad_type": "Тип AD",
+        "enable_mac_filters": "Увімкнути фільтри MAC",
+        "raw_data_filters": "Фільтри необроблених даних",
+        "tx_power_level": "Рівень потужності передачі",
+        "synchronize_local_setting": "Синхронізувати періодичну рекламу"
     },
     "bluetooth_remote_manage": {
         "tips_connected": "MQTT підключено",
@@ -119,7 +135,13 @@
         "password": "Пароль",
         "response_tips": "Шлюз використовуватиме тему для надсилання результату отримання або виконання команди у відповідь на керування.",
         "client_cerificate": "Сертифікат клієнта",
-        "none": "Немає"
+        "none": "Немає",
+        "tips_connecting": "Підключення MQTT...",
+        "client_private_key": "Приватний ключ клієнта",
+        "report_tips": "Шлюз використовуватиме тему для надсилання відсканованих даних Bluetooth до MQTT Broker.",
+        "report_url": "URL звіту",
+        "advance_settings": "Розширені налаштування",
+        "enable_control": "Увімкнути керування"
     },
     "bluetooth_devices": {
         "no_data": "Немає даних",
@@ -156,7 +178,19 @@
         "scan_type": "Тип сканування",
         "device_name": "Назва пристрою",
         "title": "Конфігурація Bluetooth",
-        "SimplePairingHashC192": "Просте парне хешування C-192"
+        "SimplePairingHashC192": "Просте парне хешування C-192",
+        "Appearance": "Зовнішній вигляд",
+        "CompleteLocalName": "Повна локальна назва",
+        "TxPowerLevel": "Рівень потужності передачі",
+        "mac": "MAC",
+        "advanced_setting": "Розширені налаштування",
+        "broadcast_data": "Трансляція даних",
+        "rssi": "RSSI",
+        "scan_response_package": "Сканування відповіді",
+        "SlaveConnectionIntervalRange": "Діапазон інтервалу підключення підлеглого пристрою",
+        "scan_title": "Налаштування сканування",
+        "phy_tip": "Якщо обрано coded phy, традиційні широкомовні пакети не можуть бути проскановані",
+        "ServiceClassUUIDs": "UUID сервісних класів"
     },
     "bluetooth_settings": {
         "include_certificate": "Включити сертифікат TLS",
@@ -178,10 +212,16 @@
         "report_broadcast_data_tips": "Якщо опція увімкнена, кожні повідомлені дані включатимуть повні дані широкомовного пакету; інакше кожні повідомлені дані включатимуть лише MAC-адресу пристрою та RSSI.",
         "report_gateway_status": "Увімкнути звіт про стан шлюзу",
         "report_interval": "Інтервал звітування",
-        "data_format": "Формат даних"
+        "data_format": "Формат даних",
+        "base": "Основа",
+        "rssi_threshold_tips": "Якщо ви встановите поріг, шлюз буде передавати дані лише від пристроїв, чия сила сигналу перевищує вказане значення.",
+        "enable_raw_data_filters": "Увімкнути фільтри необроблених даних",
+        "report_broadcast_data": "Звіт про трансляцію даних",
+        "raw_data_filters": "Фільтри необроблених даних"
     },
     "menu_bluetoothsettings": "Резервне копіювання/відновлення налаштувань",
     "menu_bluetoothremotemanage": "Віддалене керування Bluetooth",
     "menu_bluetooth": "Bluetooth",
-    "menu_bluetoothreport": "Звіт Bluetooth"
+    "menu_bluetoothreport": "Звіт Bluetooth",
+    "menu_bluetoothscanningmode": "Режим сканування Bluetooth"
 }

@@ -25,7 +25,7 @@
         "parse_binary_tips": "A \"Bináris\" módszer közvetlenül továbbítja a nyers bináris adatokat, például a hálózatról érkező \"5F7D\" sztringet az ACSII kódja 0x35463744 szerint továbbítja a soros portra.",
         "parse_hexstr_tips": "A \"Hexa sztring\" módszer adatait hexadecimális sztringként továbbítja, például a hálózatról érkező \"5F7D\" sztringet 0x5F7D-ként értelmezi, majd továbbítja a soros portra.",
         "parse_method_response_tips": "A soros portról érkező válasz a megfelelő módszerrel kerül továbbításra a hálózatra.",
-        "server_addr_label": "Szerver címe",
+        "server_addr_label": "Kiszolgáló címe",
         "server_port_label": "Szerver port",
         "local_port_label": "Helyi port",
         "timeout_label": "Időtúllépés",

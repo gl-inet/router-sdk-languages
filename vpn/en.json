@@ -306,7 +306,8 @@
         "delete_all_config_tips": "Permanently delete all your configurations. This cannot be undone. Do you wish to proceed?",
         "wg_guide_tips": "Using VPN wizard, you can complete VPN configuration in just a few steps and enjoy a safe network experience quickly!",
         "provider_unbind_tips": "The device is unauthenticated.",
-        "wg_urbanshield_dev_limit_tips": "Device Limit Reached. Please Log out One to Continue."
+        "wg_urbanshield_dev_limit_tips": "Device Limit Reached. Please Log out One to Continue.",
+        "expired_at_tips": "Expired at {time}"
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -451,11 +452,12 @@
         "from_title": "From",
         "to_title": "To",
         "all_other_traffic_sub_tips": "Turning this off will enhance Kill Switch and block regular Internet access.",
-        "default_tunnel_allow_tips": "{label}: When Enabled, you will have normal Internet if your data do not match any of the policies above.",
+        "default_tunnel_allow_tips": "{label}: When Enabled, you will have normal Internet access if your traffic does not match any of the policies above.",
         "default_tunnel_allow_label": "Allow Non-VPN traffic",
-        "default_tunnel_kill_switch_tips": "{label}: When Disabled, you are forced to use VPN and polices to access the Internet. All unmatched data will not go through. This option will not override the individual Kill Switch for each policies.",
+        "default_tunnel_kill_switch_tips": "{label}: When Disabled, you are forced to use VPN and policies to access the Internet. All unmatched traffic will be blocked. This option does not override the individual Kill Switch for each policy.",
         "default_tunnel_kill_switch_label": "Enhanced Kill Switch",
-        "default_tunnel_common_tips": "For all other Internet traffic that not matched by any VPN tunnels and policies above, this option controls whether or not you want them goes to the Internet. This option will be enabled by default so that you have normal Internet access besides your VPN data."
+        "default_tunnel_common_tips": "For all other Internet traffic that is not matched by any of the VPN tunnels and policies above, this option controls whether you want it to go to the Internet. This option is enabled by default to ensure you have normal Internet access besides your VPN traffic.",
+        "local_access_tips": "Allows remote access to the router (tunnel IP) and LAN resources via VPN (VPN server must advertise LAN routes to access LAN)."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
@@ -471,7 +473,17 @@
         "route_rules_title": "Route Rules",
         "want_use_ipv6_tips": "If you want to use IPv6 address, please {todo} on your router.",
         "export_addr_tips": "You can enter an IP address or domain name. Address is the {label} address in the VPN configuration.",
-        "route_rule_tips": "A VPN Server custom routing rule can specify that certain network traffic is transmitted through the VPN encryption, while other traffic normally goes through the local network."
+        "route_rule_tips": "A VPN Server custom routing rule can specify that certain network traffic is transmitted through the VPN encryption, while other traffic normally goes through the local network.",
+        "local_access_tips": "Allows remote access to the router (tunnel IP) and LAN resources via VPN.",
+        "init_start_server_common_tips": "{idx}. Start the VPN server.",
+        "init_ovpn_step_tip_1": "1. Generate an OpenVPN configuration file.",
+        "init_ovpn_step_tip_2": "2. Modify the default configuration if needed, then save it.",
+        "init_ovpn_step_tip_3": "3. Export the client configuration file to your device.",
+        "init_wg_desc": "WireGuard® is an extremely simple, fast and modern VPN that utilizes state-of-the-art cryptography. Please follow the steps below:",
+        "init_wg_step_tip_1": "1. Generate a WireGuard® configuration file.",
+        "init_wg_step_tip_2": "2. Add a peer configuration.",
+        "init_wg_step_tip_3": "3. Export the peer information to the client.",
+        "init_wg_add_peer_tip": "You don't have any peer configuration yet. To get started, add a peer configuration."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Many routing functions will not be available.",
