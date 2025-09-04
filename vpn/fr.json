@@ -474,7 +474,16 @@
         "route_rules_title": "Règles de routage",
         "export_addr_tips": "Vous pouvez saisir une adresse IP ou un nom de domaine. L'adresse est l'adresse {label} dans la configuration VPN.",
         "route_rule_tips": "Une règle de routage personnalisée pour un serveur VPN peut spécifier que certains trafics réseau sont transmis via le chiffrement VPN, tandis que les autres trafics passent normalement par le réseau local.",
-        "local_access_tips": "Permet un accès à distance au routeur (IP du tunnel) et aux ressources du LAN via un VPN."
+        "local_access_tips": "Permet un accès à distance au routeur (IP du tunnel) et aux ressources du LAN via un VPN.",
+        "init_start_server_common_tips": "{idx}. Démarrez le serveur VPN.",
+        "init_ovpn_step_tip_1": "1. Générez un fichier de configuration OpenVPN.",
+        "init_ovpn_step_tip_2": "2. Modifiez la configuration par défaut si nécessaire, puis enregistrez-la.",
+        "init_ovpn_step_tip_3": "3. Exportez le fichier de configuration client vers votre appareil.",
+        "init_wg_desc": "WireGuard® est un VPN extrêmement simple, rapide et moderne qui utilise une cryptographie de pointe. Veuillez suivre les étapes ci-dessous :",
+        "init_wg_step_tip_2": "2. Ajoutez une configuration d'appairage.",
+        "init_wg_step_tip_3": "3. Exportez les informations d'appairage vers le client.",
+        "init_wg_step_tip_1": "1. Générez un fichier de configuration WireGuard®.",
+        "init_wg_add_peer_tip": "Vous n'avez encore aucune configuration d'appairage. Pour commencer, ajoutez une configuration d'appairage."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "De nombreuses fonctions de routage ne seront pas disponibles.",
