@@ -474,7 +474,16 @@
         "want_use_ipv6_tips": "Ha IPv6 címet szeretne használni, kérjük, {todo} a routerén.",
         "export_addr_tips": "IP-címet vagy domain nevet adhat meg. A cím a VPN-konfigurációban a {label} cím.",
         "route_rule_tips": "A VPN szerver egyéni útválasztási szabálya meghatározhatja, hogy bizonyos hálózati forgalom a VPN-en keresztül történő titkosításon haladjon át, míg más forgalom a helyi hálózaton keresztül zajlik normálisan.",
-        "local_access_tips": "Lehetővé teszi a router (alagút IP) és a LAN erőforrások távoli elérését VPN-en keresztül."
+        "local_access_tips": "Lehetővé teszi a router (alagút IP) és a LAN erőforrások távoli elérését VPN-en keresztül.",
+        "init_start_server_common_tips": "{idx}. Indítsa el a VPN szervert.",
+        "init_ovpn_step_tip_1": "1. Hozzon létre egy OpenVPN konfigurációs fájlt.",
+        "init_ovpn_step_tip_2": "2. Szükség esetén módosítsa az alapértelmezett konfigurációt, majd mentse el.",
+        "init_ovpn_step_tip_3": "3. Exportálja a kliens konfigurációs fájlt az eszközére.",
+        "init_wg_desc": "A WireGuard® egy rendkívül egyszerű, gyors és modern VPN, amely korszerű titkosítást használ. Kérjük, kövesse az alábbi lépéseket:",
+        "init_wg_step_tip_2": "2. Adjon hozzá egy megfelelő konfigurációt.",
+        "init_wg_step_tip_3": "3. Exportálja a megfelelő információkat a klienshez.",
+        "init_wg_step_tip_1": "1. Hozzon létre egy WireGuard® konfigurációs fájlt.",
+        "init_wg_add_peer_tip": "Még nincs megfelelő konfigurációja. A kezdéshez adjon hozzá egy megfelelő konfigurációt."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Sok útválasztási funkció nem lesz elérhető.",
