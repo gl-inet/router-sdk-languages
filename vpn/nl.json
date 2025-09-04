@@ -474,7 +474,16 @@
         "enable_ipv6_tips": "Als IPv6 niet is ingeschakeld, zal het IPv6-adres niet van kracht worden. Als u een IPv6-adres wilt gebruiken, schakel dan {todo} in op uw router.",
         "want_use_ipv6_tips": "Als u een IPv6-adres wilt gebruiken, schakel dan {todo} in op uw router.",
         "route_rule_tips": "Een aangepaste routeringsregel voor een VPN-server kan specificeren dat bepaald netwerkverkeer via de VPN-versleuteling wordt verzonden, terwijl ander verkeer normaal via het lokale netwerk verloopt.",
-        "local_access_tips": "Maakt externe toegang tot de router (tunnel-IP) en LAN-bronnen mogelijk via VPN."
+        "local_access_tips": "Maakt externe toegang tot de router (tunnel-IP) en LAN-bronnen mogelijk via VPN.",
+        "init_start_server_common_tips": "{idx}. Start de VPN-server.",
+        "init_ovpn_step_tip_2": "2. Wijzig indien nodig de standaardconfiguratie en sla deze op.",
+        "init_wg_desc": "WireGuard® is een uiterst eenvoudige, snelle en moderne VPN die gebruikmaakt van geavanceerde cryptografie. Volg de onderstaande stappen:",
+        "init_wg_step_tip_1": "1. Genereer een WireGuard®-configuratiebestand.",
+        "init_wg_step_tip_2": "2. Voeg een peerconfiguratie toe.",
+        "init_wg_add_peer_tip": "U heeft nog geen peerconfiguratie. Voeg een peerconfiguratie toe om te beginnen.",
+        "init_ovpn_step_tip_1": "1. Genereer een OpenVPN-configuratiebestand.",
+        "init_ovpn_step_tip_3": "3. Exporteer het clientconfiguratiebestand naar uw apparaat.",
+        "init_wg_step_tip_3": "3. Exporteer de peerinformatie naar de client."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Veel routeringsfuncties zullen niet beschikbaar zijn.",
