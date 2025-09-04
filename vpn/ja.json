@@ -474,7 +474,16 @@
         "route_rules_title": "ルート規則",
         "want_use_ipv6_tips": "IPv6アドレスを使用する場合は、ルーターで{todo}を行ってください。",
         "route_rule_tips": "VPNサーバーのカスタムルーティングルールでは、特定のネットワークトラフィックをVPN暗号化経由で送信するように指定でき、他のトラフィックは通常通りローカルネットワークを通過します。",
-        "local_access_tips": "VPN経由でルーター（トンネルIP）およびLANリソースへのリモートアクセスを許可します。"
+        "local_access_tips": "VPN経由でルーター（トンネルIP）およびLANリソースへのリモートアクセスを許可します。",
+        "init_start_server_common_tips": "{idx}. VPNサーバーを起動します。",
+        "init_ovpn_step_tip_2": "2. 必要に応じてデフォルト設定を変更し、保存します。",
+        "init_ovpn_step_tip_3": "3. クライアント設定ファイルをデバイスにエクスポートします。",
+        "init_wg_desc": "WireGuard®は、最先端の暗号技術を利用した非常にシンプルで高速なモダンなVPNです。以下の手順に従ってください：",
+        "init_wg_step_tip_1": "1. WireGuard®設定ファイルを生成します。",
+        "init_ovpn_step_tip_1": "1. OpenVPN設定ファイルを生成します。",
+        "init_wg_step_tip_2": "2. ピア設定を追加します。",
+        "init_wg_step_tip_3": "3. ピア情報をクライアントにエクスポートします。",
+        "init_wg_add_peer_tip": "ピア設定がまだありません。開始するには、ピア設定を追加してください。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "多くのルーティング機能が利用できなくなります。",
