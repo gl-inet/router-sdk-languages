@@ -474,7 +474,16 @@
         "enable_ipv6_tips": "如果未启用IPv6，IPv6地址将不会生效。如果您想使用IPv6地址，请在您的路由器上{todo}。",
         "want_use_ipv6_tips": "如果您想使用IPv6地址，请在您的路由器上{todo}。",
         "route_rule_tips": "VPN 服务器自定义路由规则可指定特定网络流量通过 VPN 加密传输，而其他流量则正常经由本地网络传输。",
-        "local_access_tips": "允许通过VPN远程访问路由器（隧道IP）和局域网资源。"
+        "local_access_tips": "允许通过VPN远程访问路由器（隧道IP）和局域网资源。",
+        "init_start_server_common_tips": "{idx}. 启动VPN服务器。",
+        "init_ovpn_step_tip_1": "1. 生成 OpenVPN 配置文件。",
+        "init_ovpn_step_tip_2": "2. 如需修改默认配置，请调整后保存。",
+        "init_ovpn_step_tip_3": "3. 将客户端配置文件导出至您的设备。",
+        "init_wg_desc": "WireGuard® 是一款采用尖端加密技术的极简、高速现代VPN。请按以下步骤操作：",
+        "init_wg_step_tip_1": "1. 生成 WireGuard® 配置文件。",
+        "init_wg_step_tip_2": "2. 添加对等节点配置。",
+        "init_wg_step_tip_3": "3. 将对等节点信息导出至客户端。",
+        "init_wg_add_peer_tip": "当前无对等节点配置。请先添加对等节点配置以开始使用。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "许多路由功能将无法使用。",
