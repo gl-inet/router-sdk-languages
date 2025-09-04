@@ -474,7 +474,16 @@
         "want_use_ipv6_tips": "If you want to use IPv6 address, please {todo} on your router.",
         "export_addr_tips": "You can enter an IP address or domain name. Address is the {label} address in the VPN configuration.",
         "route_rule_tips": "A VPN Server custom routing rule can specify that certain network traffic is transmitted through the VPN encryption, while other traffic normally goes through the local network.",
-        "local_access_tips": "Allows remote access to the router (tunnel IP) and LAN resources via VPN."
+        "local_access_tips": "Allows remote access to the router (tunnel IP) and LAN resources via VPN.",
+        "init_start_server_common_tips": "{idx}. Start the VPN server.",
+        "init_ovpn_step_tip_1": "1. Generate an OpenVPN configuration file.",
+        "init_ovpn_step_tip_2": "2. Modify the default configuration if needed, then save it.",
+        "init_ovpn_step_tip_3": "3. Export the client configuration file to your device.",
+        "init_wg_desc": "WireGuard® is an extremely simple, fast and modern VPN that utilizes state-of-the-art cryptography. Please follow the steps below:",
+        "init_wg_step_tip_1": "1. Generate a WireGuard® configuration file.",
+        "init_wg_step_tip_2": "2. Add a peer configuration.",
+        "init_wg_step_tip_3": "3. Export the peer information to the client.",
+        "init_wg_add_peer_tip": "You don't have any peer configuration yet. To get started, add a peer configuration."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Many routing functions will not be available.",
