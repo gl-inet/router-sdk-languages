@@ -3,7 +3,7 @@
         "desc": "Engedélyezheti a Dinamikus DNS (DDNS) szolgáltatást erre a routerre, és távolról hozzáférhet a routerhez. Akár tíz perc késleltetés is előfordulhat a DNS szerverek közötti rekordok szinkronizálásában. Ez azt eredményezheti, hogy a DDNS domaineken keresztüli hozzáférés nem azonnal elérhető, miután éppen engedélyezte, vagy ha a nyilvános IP-címe nemrég megváltozott.",
         "test": "DDNS Teszt",
         "enable_http": "Távoli HTTP hozzáférés engedélyezése",
-        "enable_https": "Távoli HTTPS hozzáférés engedélyezése",
+        "enable_https": "Távoli HTTPS-hozzáférés engedélyezése",
         "enable_ssh": "Távoli SSH hozzáférés engedélyezése",
         "read_and_agree": "Elolvastam és elfogadom a(z)",
         "terms_service": "felhasználási feltételeket",
