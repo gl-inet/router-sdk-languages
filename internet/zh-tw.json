@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "此模式將自動且暫時停用{feature}。",
         "portal_auth_required_title": "需要進行入口認證",
         "support_channel_tips": "以下為支持的 Wi-Fi 通道，請確保您所連接的 Wi-Fi 網絡使用的通道是其中之一。",
-        "auto_switching_without_network_tips": "啓用“{mode}”模式後，路由器在非中繼模式下聯網成功後不會自動掃描網路，只會在無網路時嘗試自動切換到其他保存的網路，這樣可以避免通信數據包丟失。"
+        "auto_switching_without_network_tips": "啓用“{mode}”模式後，路由器在非中繼模式下聯網成功後不會自動掃描網路，只會在無網路時嘗試自動切換到其他保存的網路，這樣可以避免通信數據包丟失。",
+        "band_conflict_tips": "为确保稳定连接，启用中继模式时，访客Wi-Fi将自动关闭，且5GHz/6GHz频段将自动匹配中继信号。若设备未自动重连，请手动重新连接Wi-Fi网络。"
     },
     "modem": {
         "title": "行動網路",
