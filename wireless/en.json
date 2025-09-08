@@ -41,7 +41,8 @@
         "cannot_detect_6g_network_tips": "Some devices may not detect 6GHz Wi-Fi. You can enable both 2.4GHz and 6GHz for better compatibility.",
         "wifi_band_mutex_tips": "5GHz Wi-Fi is enabled by default. If it conflicts with repeater, the Wi-Fi band will be automatically switched to Auto.",
         "wifi_band": "Wi-Fi Band",
-        "wifi_sleep_tips": "Wi-Fi is currently in sleep mode and not visible. To wake it up, you can go to Energy Management to disable sleep mode."
+        "wifi_sleep_tips": "Wi-Fi is currently in sleep mode and not visible. To wake it up, you can go to Energy Management to disable sleep mode.",
+        "repeater_band_conflict_tips": "The band that conflicts with repeater will be disabled."
     },
     "menu_wireless": "Wireless"
 }
