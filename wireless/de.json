@@ -40,7 +40,8 @@
         "band_6g_bandwidth_limit_160mhz_tips": "Wenn sowohl das 2,4-GHz- als auch das 6-GHz-WLAN aktiviert sind, ist das 6-GHz-Band auf eine maximale Bandbreite von 160 MHz begrenzt.",
         "cannot_detect_6g_network_tips": "Einige Geräte erkennen möglicherweise kein 6-GHz-WLAN. Sie können sowohl 2,4 GHz als auch 6 GHz aktivieren, um eine bessere Kompatibilität zu gewährleisten.",
         "wifi_band_mutex_tips": "5-GHz-WLAN ist standardmäßig aktiviert. Falls es zu Konflikten mit dem Repeater kommt, wird das WLAN-Band automatisch auf Automatik umgeschaltet.",
-        "wifi_band": "WLAN-Band"
+        "wifi_band": "WLAN-Band",
+        "band_conflict_tips": "Für eine stabile Verbindung wird, wenn der Repeater aktiviert ist, das Gast-WLAN deaktiviert und das 5-GHz-/6-GHz-WLAN-Band automatisch an den Repeater angepasst. Sollte Ihr Gerät sich nicht automatisch neu verbinden, verbinden Sie sich bitte manuell mit dem WLAN."
     },
     "menu_wireless": "WLAN"
 }
