@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "Dieser Modus wird {feature} automatisch und vorübergehend deaktivieren.",
         "portal_auth_required_title": "Portal-Authentifizierung erforderlich",
         "support_channel_tips": "Folgende WLAN-Kanäle werden unterstützt. Bitte stellen Sie sicher, dass das WLAN-Netzwerk, mit dem Sie sich verbinden, einen davon verwendet.",
-        "auto_switching_without_network_tips": "Wenn der {mode}-Modus aktiviert ist, wird der Router im Nicht-Repeater-Modus keine automatische Netzwerksuche durchführen, nachdem er erfolgreich vernetzt wurde. Er versucht nur dann, automatisch auf andere gespeicherte Netzwerke umzuschalten, wenn keine Netzwerkverbindung besteht. Dies kann Paketverluste in der Kommunikation vermeiden."
+        "auto_switching_without_network_tips": "Wenn der {mode}-Modus aktiviert ist, wird der Router im Nicht-Repeater-Modus keine automatische Netzwerksuche durchführen, nachdem er erfolgreich vernetzt wurde. Er versucht nur dann, automatisch auf andere gespeicherte Netzwerke umzuschalten, wenn keine Netzwerkverbindung besteht. Dies kann Paketverluste in der Kommunikation vermeiden.",
+        "band_conflict_tips": "Für eine stabile Verbindung wird, wenn der Repeater aktiviert ist, das Gast-WLAN deaktiviert und das 5-GHz-/6-GHz-WLAN-Band automatisch an den Repeater angepasst. Sollte Ihr Gerät sich nicht automatisch neu verbinden, verbinden Sie sich bitte manuell mit dem WLAN."
     },
     "modem": {
         "title": "Mobilfunknetz",
