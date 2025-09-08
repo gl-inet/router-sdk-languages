@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "Este modo desactivará automática y temporalmente {feature}.",
         "portal_auth_required_title": "Autenticación de Portal Requerida",
         "support_channel_tips": "Los siguientes canales de Wi-Fi son compatibles. Asegúrese de que la red Wi-Fi a la que se conecta utilice uno de ellos.",
-        "auto_switching_without_network_tips": "Cuando el modo {mode} está habilitado, el router no escaneará automáticamente redes cuando esté conectado exitosamente en modo no repetidor, y solo intentará cambiar automáticamente a otras redes guardadas cuando el router no tenga conexión, lo que puede evitar la pérdida de paquetes de comunicación."
+        "auto_switching_without_network_tips": "Cuando el modo {mode} está habilitado, el router no escaneará automáticamente redes cuando esté conectado exitosamente en modo no repetidor, y solo intentará cambiar automáticamente a otras redes guardadas cuando el router no tenga conexión, lo que puede evitar la pérdida de paquetes de comunicación.",
+        "band_conflict_tips": "Para una conexión estable, cuando el repetidor está activado, la Wi-Fi de invitados se desactivará y la banda de 5GHz/6GHz se ajustará automáticamente al repetidor. Si tu dispositivo no se reconecta automáticamente, por favor conéctate a la Wi-Fi manualmente."
     },
     "modem": {
         "title": "Móvil",
