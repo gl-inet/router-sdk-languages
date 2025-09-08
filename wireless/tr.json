@@ -40,7 +40,8 @@
         "band_6g_bandwidth_limit_160mhz_tips": "2.4GHz ve 6GHz Wi-Fi bantları aynı anda etkinleştirildiğinde, 6GHz bandı maksimum 160MHz bant genişliği ile sınırlıdır.",
         "cannot_detect_6g_network_tips": "Bazı cihazlar 6GHz Wi-Fi'yi algılayamayabilir. Daha iyi uyumluluk için hem 2.4GHz hem de 6GHz'i etkinleştirebilirsiniz.",
         "wifi_band_mutex_tips": "5GHz Wi-Fi varsayılan olarak etkindir. Tekrarlayıcı ile çakışması durumunda, Wi-Fi bandı otomatik olarak Otomatik moduna geçecektir.",
-        "wifi_band": "Wi-Fi Bandı"
+        "wifi_band": "Wi-Fi Bandı",
+        "band_conflict_tips": "Bağlantı istikrarı için, tekrarlayıcı etkinleştirildiğinde, Misafir Wi-Fi devre dışı bırakılacak ve 5GHz/6GHz Wi-Fi bandı otomatik olarak tekrarlayıcı ile eşleşecektir. Cihazınız otomatik olarak yeniden bağlanmazsa, lütfen Wi-Fi'ye manuel olarak bağlanın."
     },
     "menu_wireless": "Kablosuz"
 }
