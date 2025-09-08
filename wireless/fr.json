@@ -38,7 +38,8 @@
         "open_wifi_security_tips": "\"Open WiFi\" présente des risques de sécurité. À utiliser avec prudence.",
         "guest_wifi_unavailable_tips": "Le Wi-Fi invité est indisponible car {repeater} est activé.",
         "band_6g_bandwidth_limit_160mhz_tips": "Lorsque les Wi-Fi 2,4 GHz et 6 GHz sont tous deux activés, la bande 6 GHz est limitée à une bande passante maximale de 160 MHz.",
-        "cannot_detect_6g_network_tips": "Certains appareils peuvent ne pas détecter le Wi-Fi 6 GHz. Vous pouvez activer à la fois le 2,4 GHz et le 6 GHz pour une meilleure compatibilité."
+        "cannot_detect_6g_network_tips": "Certains appareils peuvent ne pas détecter le Wi-Fi 6 GHz. Vous pouvez activer à la fois le 2,4 GHz et le 6 GHz pour une meilleure compatibilité.",
+        "wifi_band_mutex_tips": "Le Wi-Fi 5 GHz est activé par défaut. S'il entre en conflit avec un répéteur, la bande Wi-Fi sera automatiquement basculée en mode Auto."
     },
     "menu_wireless": "Réseau sans-fil"
 }
