@@ -118,7 +118,7 @@
         "portal_auth_required_title": "需要门户认证",
         "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。",
         "auto_switching_without_network_tips": "启用“{mode}”模式后，路由器在非中继模式下联网成功后不会自动扫描网络，只会在无网络时尝试自动切换到其他保存的网络，这样可以避免通信数据包丢失。",
-        "band_conflict_tips": "为确保连接稳定，启用中继模式后，访客Wi-Fi将被禁用，且5GHz/6GHz频段将自动匹配中继设置。若设备未自动重连，请手动连接至Wi-Fi网络。"
+        "band_conflict_tips": "为保证网络连接稳定性，中继启用时，访客网络将禁用，且 5GHz/6GHz Wi-Fi 频段跟随中继网络。若设备未能自动连接，请手动选择该 Wi-Fi 网络。"
     },
     "modem": {
         "title": "蜂窝网络",
