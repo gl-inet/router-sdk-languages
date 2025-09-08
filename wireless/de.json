@@ -38,7 +38,8 @@
         "open_wifi_security_tips": "\"Offenes WLAN\" birgt Sicherheitsrisiken. Mit Vorsicht verwenden.",
         "guest_wifi_unavailable_tips": "Gast-WLAN ist nicht verfügbar, da {repeater} aktiviert ist.",
         "band_6g_bandwidth_limit_160mhz_tips": "Wenn sowohl das 2,4-GHz- als auch das 6-GHz-WLAN aktiviert sind, ist das 6-GHz-Band auf eine maximale Bandbreite von 160 MHz begrenzt.",
-        "cannot_detect_6g_network_tips": "Einige Geräte erkennen möglicherweise kein 6-GHz-WLAN. Sie können sowohl 2,4 GHz als auch 6 GHz aktivieren, um eine bessere Kompatibilität zu gewährleisten."
+        "cannot_detect_6g_network_tips": "Einige Geräte erkennen möglicherweise kein 6-GHz-WLAN. Sie können sowohl 2,4 GHz als auch 6 GHz aktivieren, um eine bessere Kompatibilität zu gewährleisten.",
+        "wifi_band_mutex_tips": "5-GHz-WLAN ist standardmäßig aktiviert. Falls es zu Konflikten mit dem Repeater kommt, wird das WLAN-Band automatisch auf Automatik umgeschaltet."
     },
     "menu_wireless": "WLAN"
 }
