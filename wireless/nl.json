@@ -40,7 +40,8 @@
         "band_6g_bandwidth_limit_160mhz_tips": "Wanneer zowel 2,4GHz- als 6GHz-Wi-Fi zijn ingeschakeld, is de 6GHz-band beperkt tot een maximale bandbreedte van 160MHz.",
         "cannot_detect_6g_network_tips": "Sommige apparaten detecteren mogelijk geen 6GHz Wi-Fi. U kunt zowel 2.4GHz als 6GHz inschakelen voor betere compatibiliteit.",
         "wifi_band_mutex_tips": "5GHz Wi-Fi is standaard ingeschakeld. Als dit conflicteert met de repeater, wordt de Wi-Fi-band automatisch overgeschakeld naar Auto.",
-        "wifi_band": "Wi-Fi-band"
+        "wifi_band": "Wi-Fi-band",
+        "band_conflict_tips": "为了确保连接稳定，启用中继模式时，访客Wi-Fi将被禁用，且5GHz/6GHz频段将自动匹配中继器。若设备未自动重新连接，请手动连接至Wi-Fi。"
     },
     "menu_wireless": "Draadloos"
 }
