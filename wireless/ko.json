@@ -37,8 +37,10 @@
         "mlo_network_tips": "Wi-Fi 7 클라이언트는 MLO Wi-Fi에 연결하는 것이 권장되며, 다중 대역 연결을 통해 네트워크 전송 속도와 안정성을 크게 향상시킬 수 있습니다.",
         "open_wifi_security_tips": "\"Open WiFi\"는 보안 위험이 있습니다. 주의하여 사용하십시오.",
         "guest_wifi_unavailable_tips": "게스트 Wi-Fi는 {repeater}가 활성화되어 있기 때문에 사용할 수 없습니다.",
-        "cannot_detect_6g_network_tips": "귀하의 기기가 6GHz 네트워크를 감지하지 못하는 경우, 호환성 향상을 위해 6GHz와 2.4GHz Wi-Fi를 모두 활성화해 보십시오.",
-        "band_6g_bandwidth_limit_160mhz_tips": "2.4GHz와 6GHz Wi-Fi가 모두 활성화된 경우, 6GHz 대역은 최대 160MHz 대역폭으로 제한됩니다."
+        "band_6g_bandwidth_limit_160mhz_tips": "2.4GHz와 6GHz Wi-Fi가 모두 활성화된 경우, 6GHz 대역은 최대 160MHz 대역폭으로 제한됩니다.",
+        "cannot_detect_6g_network_tips": "일부 기기는 6GHz Wi-Fi를 감지하지 못할 수 있습니다. 더 나은 호환성을 위해 2.4GHz와 6GHz를 모두 활성화할 수 있습니다.",
+        "wifi_band_mutex_tips": "5GHz Wi-Fi는 기본적으로 활성화되어 있습니다. 리피터와 충돌할 경우 Wi-Fi 대역이 자동으로 Auto로 전환됩니다.",
+        "wifi_band": "Wi-Fi 대역"
     },
     "menu_wireless": "무선"
 }

@@ -3,7 +3,7 @@
         "usage": "Felhasználás",
         "supplier": "Szolgáltató",
         "name": "Név",
-        "store": "Áruház",
+        "store": "áruház",
         "top_up_title": "Feltöltéshez olvassa be a QR-kódot",
         "upload": "Feltöltés",
         "delete_esim_profile": "Törli az eSIM-profilt?",
@@ -26,18 +26,19 @@
         "activation_code": "Aktiválási kód",
         "confirmation_code": "Megerősítő kód",
         "seed_profile_tips": "A kezdő profilokat a GL.iNet ingyenes szolgáltatásként biztosítja. Használhatja a kezdő profil adatát más profilok letöltéséhez vagy kezdeti tesztek elvégzéséhez, és láthatja, mennyi adat maradt és mikor jár le. Ha a kezdő profil ingyenes adatkerete elfogy vagy lejár, akkor Ethernet vagy Repeater kapcsolaton keresztül is letölthet további profilokat az internetről.",
-        "remain_memory": "marad",
-        "total_memory": "összesen",
+        "remain_memory": "fennmaradó",
+        "total_memory": "keret",
         "no_detected_tips": "Nem található eSIM-kártya",
         "insert_physical_card_tips": "Kérem, helyezze be a kártyát az ábrának megfelelően!",
         "support_tips": "További segítségnyújtásért vegye fel velünk a kapcsolatot a {addr} címen!",
         "invalid_activation_code_msg": "Hibás QR-kód vagy hitelesítőkód",
         "order_physical_card_tips": "eSIM beszerzéséhez látogassa meg a(z) {link} oldalt!",
         "here_btn": "Itt",
-        "global_store": "Globális Áruház",
+        "global_store": "Nemzetközi áruház",
         "check_insert_physical_esim_card_tips": "Kérem, helyezze be a kártyát az ábrának megfelelően!",
-        "get_card_tips": "Nincs még? Válassza ki az alábbi régiót egy kompatibilis kártya beszerzéséhez.",
-        "contact_support_tips": "Segítségért forduljon hozzánk a következő címen: {addr}."
+        "get_card_tips": "Nincs még kártyája? Beszerzéséhez látogassa meg áruházaink valamelyikét!",
+        "contact_support_tips": "További segítségnyújtásért vegye fel velünk a kapcsolatot a {addr} címen!",
+        "delete_esim_profile_tips": "Ha törli az eSIM profilt, az nem tölthető le újra. Biztosan törölni szeretné?"
     },
     "menu_esim": "eSIM-kezelés"
 }
