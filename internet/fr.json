@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "Ce mode désactivera automatiquement et temporairement {feature}.",
         "portal_auth_required_title": "Authentification par portail requise",
         "support_channel_tips": "Les canaux Wi-Fi suivants sont pris en charge. Veuillez vous assurer que le réseau Wi-Fi auquel vous vous connectez utilise l'un d'entre eux.",
-        "auto_switching_without_network_tips": "Lorsque le mode {mode} est activé, le routeur ne scanne pas automatiquement les réseaux lorsqu'il est connecté avec succès en mode non-répéteur, et ne tente de basculer automatiquement vers d'autres réseaux enregistrés que lorsque le routeur est sans réseau, ce qui permet d'éviter la perte de paquets de communication."
+        "auto_switching_without_network_tips": "Lorsque le mode {mode} est activé, le routeur ne scanne pas automatiquement les réseaux lorsqu'il est connecté avec succès en mode non-répéteur, et ne tente de basculer automatiquement vers d'autres réseaux enregistrés que lorsque le routeur est sans réseau, ce qui permet d'éviter la perte de paquets de communication.",
+        "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, le Wi-Fi invité sera désactivé et la bande Wi-Fi 5 GHz/6 GHz s'alignera automatiquement sur celle du répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi."
     },
     "modem": {
         "title": "Cellulaire",
