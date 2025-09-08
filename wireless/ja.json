@@ -40,7 +40,8 @@
         "band_6g_bandwidth_limit_160mhz_tips": "2.4GHzと6GHzのWi-Fiが両方有効になっている場合、6GHz帯域の最大帯域幅は160MHzに制限されます。",
         "cannot_detect_6g_network_tips": "一部のデバイスは6GHz Wi-Fiを検出できない場合があります。互換性を高めるために、2.4GHzと6GHzの両方を有効にすることができます。",
         "wifi_band_mutex_tips": "5GHz Wi-Fiはデフォルトで有効になっています。中継機と競合する場合、Wi-Fi帯域は自動的にAutoに切り替わります。",
-        "wifi_band": "Wi-Fi バンド"
+        "wifi_band": "Wi-Fi バンド",
+        "band_conflict_tips": "安定した接続を維持するため、リピーター機能が有効になると、ゲストWi-Fiは無効化され、5GHz/6GHz Wi-Fiバンドは自動的にリピーター設定に合わせられます。お使いの端末が自動的に再接続しない場合は、手動でWi-Fiに接続してください。"
     },
     "menu_wireless": "無線"
 }
