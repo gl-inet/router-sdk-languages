@@ -39,7 +39,8 @@
         "guest_wifi_unavailable_tips": "访客 Wi-Fi 不可用，因为{repeater}已启用。",
         "band_6g_bandwidth_limit_160mhz_tips": "当同时启用 2.4GHz 和 6GHz Wi-Fi 时，6GHz 频段的最大带宽限制为160MHz。",
         "cannot_detect_6g_network_tips": "部分设备可能无法识别 6GHz Wi-Fi，建议同时开启 2.4GHz 和 6GHz 以提升兼容性。",
-        "wifi_band_mutex_tips": "Wi-Fi 默认启用 5GHz 频段，如检测到与中继网络冲突，频段将会自动切换至 Auto。"
+        "wifi_band_mutex_tips": "Wi-Fi 默认启用 5GHz 频段，如检测到与中继网络冲突，频段将会自动切换至 Auto。",
+        "wifi_band": "Wi-Fi频段"
     },
     "menu_wireless": "无线"
 }
