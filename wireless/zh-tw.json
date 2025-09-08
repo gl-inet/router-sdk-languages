@@ -40,7 +40,8 @@
         "band_6g_bandwidth_limit_160mhz_tips": "當 2.4GHz 和 6GHz Wi-Fi 同時啟用時，6GHz 頻段的最大頻寬限制為160MHz。",
         "cannot_detect_6g_network_tips": "部分設備可能無法識別 6GHz Wi-Fi，建議同時開啟 2.4GHz 和 6GHz 以提升相容性。",
         "wifi_band_mutex_tips": "Wi-Fi 默認啟用 5GHz 頻段，如檢測到與中繼網絡衝突，頻段將會自動切換至 Auto。",
-        "wifi_band": "Wi-Fi 频段"
+        "wifi_band": "Wi-Fi 频段",
+        "band_conflict_tips": "为确保稳定连接，启用中继模式时，访客Wi-Fi将自动关闭，且5GHz/6GHz频段将自动匹配中继信号。若设备未自动重连，请手动重新连接Wi-Fi网络。"
     },
     "menu_wireless": "無線"
 }
