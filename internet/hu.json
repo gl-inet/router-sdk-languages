@@ -294,7 +294,8 @@
         "portal_disable_feature_tips": "Ez a mód automatikusan és ideiglenesen letiltja a {feature} funkciót.",
         "portal_auth_required_title": "Portálos hitelesítés szükséges",
         "support_channel_tips": "Az alábbi csatornák használata lehetséges. Kérem, olyan hálózatra csatlakozzon, amely engedélyezi a felsorolt csatornák használatát!",
-        "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését."
+        "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését.",
+        "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, a Vendég Wi-Fi letiltásra kerül, és az 5GHz/6GHz Wi-Fi sáv automatikusan igazodik a repeaterhez. Ha az eszköz nem kapcsolódik újra automatikusan, kérem, kapcsolódjon manuálisan a Wi-Fi hálózathoz."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
