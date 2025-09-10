@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "ask_me_label": "Klausti Manęs",
+        "tethring_label": "Saitvietė",
+        "usb_host_label": "USB Saitvietė (Vedėjas)",
+        "input_label": "Įvesties Prioritetas",
+        "output_label": "Išvesties Prioritetas",
+        "protocol_label": "USB Protokolo Perjungimas",
+        "usb_mode_label": "Dvigubos Paskirties USB Veiksena",
+        "power_direction_label": "Energijos Kryptis",
+        "power_threshold_label": "Energijos Slenkstis"
+    },
+    "power": {
+        "ethernet_idle_timeout_label": "„Eterneto“ Budėjimo Laikas",
+        "power_off_timeout_label": "Išjungimo Laikas",
+        "never_label": "niekada",
+        "power_title": "Energija",
+        "wifi_sleep_time_label": "„Wi-Fi“ Budėjimo Laikas",
+        "power_charger_label": "Įjungti su Įkrovikliu",
+        "auto_system_standby_tips": "Įjungus, jei tinklai yra budimi ir nėra prijungto USB bei nenaudojamas kartotuvas, sistema automatiškai pereis į budėjimo režimą.",
+        "auto_system_standby_label": "Automatinis Sistemos Budėjimas"
+    },
+    "menu_usbpower": "USB ir Energija"
+}
