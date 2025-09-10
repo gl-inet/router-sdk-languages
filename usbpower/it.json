@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "protocol_label": "Cambio Protocollo USB",
+        "usb_mode_label": "Modalità USB Doppio Ruolo",
+        "tethring_label": "Tethering",
+        "power_direction_label": "Direzione Alimentazione",
+        "power_threshold_label": "Soglia di Potenza",
+        "ask_me_label": "Chiedimi",
+        "usb_host_label": "Tethering USB (Host)",
+        "input_label": "Priorità Ingresso",
+        "output_label": "Priorità Uscita"
+    },
+    "power": {
+        "power_title": "Alimentazione",
+        "ethernet_idle_timeout_label": "Timeout Inattività Ethernet",
+        "power_off_timeout_label": "Timeout Spegnimento",
+        "auto_system_standby_tips": "Quando abilitato, se le reti sono inattive, nessun USB è connesso e il Ripetitore non è in uso, il sistema entrerà automaticamente in standby.",
+        "never_label": "mai",
+        "wifi_sleep_time_label": "Timeout Inattività Wi-Fi",
+        "power_charger_label": "Accensione con Alimentatore",
+        "auto_system_standby_label": "Standby Automatico Sistema"
+    },
+    "menu_usbpower": "USB e Alimentazione"
+}
