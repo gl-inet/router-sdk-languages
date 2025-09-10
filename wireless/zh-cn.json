@@ -43,7 +43,7 @@
         "repeater_band_conflict_tips": "与中继网络冲突的频段会被禁用。",
         "using_band": "使用 {band}",
         "wifi_sleep_tips": "Wi-Fi 当前处于休眠状态，网络不可见，您可以前往{management}关闭 Wi-Fi 休眠去唤醒它。",
-        "wifi_band_mutex_tips": "5GHz Wi-Fi 默认已启用。若与中继器发生冲突，Wi-Fi频段将自动切换至{auto}。"
+        "wifi_band_mutex_tips": "Wi-Fi 默认启用 5GHz 频段，如检测到与中继网络冲突，频段将会自动切换至{auto}。"
     },
     "menu_wireless": "无线"
 }
