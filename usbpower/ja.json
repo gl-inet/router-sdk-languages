@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "power_direction_label": "給電方向",
+        "power_threshold_label": "電力しきい値",
+        "ask_me_label": "確認する",
+        "tethring_label": "テザリング",
+        "usb_host_label": "USBテザリング（ホスト）",
+        "input_label": "入力優先順位",
+        "protocol_label": "USBプロトコル切替",
+        "usb_mode_label": "デュアルロールUSBモード",
+        "output_label": "出力優先順位"
+    },
+    "power": {
+        "power_title": "電源",
+        "wifi_sleep_time_label": "Wi-Fiアイドルタイムアウト",
+        "power_charger_label": "充電器接続時電源オン",
+        "never_label": "無効",
+        "ethernet_idle_timeout_label": "イーサネットアイドルタイムアウト",
+        "power_off_timeout_label": "電源オフタイムアウト",
+        "auto_system_standby_tips": "有効時、ネットワークがアイドル状態でUSBが接続されておらず、リピーターが使用されていない場合、システムは自動的にスタンバイ状態になります。",
+        "auto_system_standby_label": "自動システムスタンバイ"
+    },
+    "menu_usbpower": "USBと電源"
+}
