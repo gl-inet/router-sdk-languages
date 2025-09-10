@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "usb_mode_label": "雙重角色 USB 模式",
+        "power_direction_label": "電源方向",
+        "power_threshold_label": "電源閾值",
+        "ask_me_label": "詢問我",
+        "usb_host_label": "USB 網路共享（主機模式）",
+        "protocol_label": "USB 協議切換",
+        "tethring_label": "網路共享",
+        "input_label": "輸入優先級",
+        "output_label": "輸出優先級"
+    },
+    "power": {
+        "power_title": "電源",
+        "ethernet_idle_timeout_label": "乙太網路閒置超時",
+        "power_off_timeout_label": "斷電超時",
+        "auto_system_standby_tips": "啟用後，若網路閒置、未連接 USB 且未使用中繼模式，系統將自動進入待命狀態。",
+        "never_label": "永不",
+        "wifi_sleep_time_label": "Wi-Fi 閒置超時",
+        "power_charger_label": "充電器通電啟動",
+        "auto_system_standby_label": "自動系統待命"
+    },
+    "menu_usbpower": "USB 與電源"
+}
