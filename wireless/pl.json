@@ -42,7 +42,8 @@
         "wifi_band": "Pasmo Wi-Fi",
         "repeater_band_conflict_tips": "Pasmo, które koliduje z repeaterem, zostanie wyłączone.",
         "using_band": "Używając {band}",
-        "wifi_sleep_tips": "Wi-Fi jest obecnie w trybie uśpienia i niewidoczny. Aby go obudzić, możesz przejść do {management}, aby wyłączyć tryb uśpienia."
+        "wifi_sleep_tips": "Wi-Fi jest obecnie w trybie uśpienia i niewidoczny. Aby go obudzić, możesz przejść do {management}, aby wyłączyć tryb uśpienia.",
+        "wifi_band_mutex_tips": "5 GHz Wi-Fi jest domyślnie włączone. W przypadku konfliktu z repeaterem, pasmo Wi-Fi zostanie automatycznie przełączone na {auto}."
     },
     "menu_wireless": "WI-FI"
 }
