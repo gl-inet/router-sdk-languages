@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "protocol_label": "USB Protokol Anahtarı",
+        "power_threshold_label": "Güç Eşiği",
+        "ask_me_label": "Bana Sor",
+        "output_label": "Çıkış Önceliği",
+        "usb_mode_label": "Çift Rol USB Modu",
+        "power_direction_label": "Güç Yönü",
+        "tethring_label": "Tethering",
+        "usb_host_label": "USB Tethering (Ana Bilgisayar)",
+        "input_label": "Giriş Önceliği"
+    },
+    "power": {
+        "power_title": "Güç",
+        "wifi_sleep_time_label": "Wi-Fi Boşta Kalma Zaman Aşımı",
+        "ethernet_idle_timeout_label": "Ethernet Boşta Kalma Zaman Aşımı",
+        "never_label": "asla",
+        "power_off_timeout_label": "Güç Kapatma Zaman Aşımı",
+        "power_charger_label": "Şarj Cihazı ile Açma",
+        "auto_system_standby_tips": "Etkinleştirildiğinde, ağlar boştaysa ve USB bağlı değilse ve Repeater kullanılmıyorsa, sistem otomatik olarak bekleme moduna geçer.",
+        "auto_system_standby_label": "Otomatik Sistem Bekleme"
+    },
+    "menu_usbpower": "USB ve Güç"
+}
