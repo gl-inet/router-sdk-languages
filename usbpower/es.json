@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "protocol_label": "Cambio de Protocolo USB",
+        "ask_me_label": "Preguntarme",
+        "input_label": "Prioridad de Entrada",
+        "output_label": "Prioridad de Salida",
+        "usb_mode_label": "Modo USB de Doble Función",
+        "power_direction_label": "Dirección de Energía",
+        "power_threshold_label": "Umbral de Energía",
+        "tethring_label": "Anclaje",
+        "usb_host_label": "Anclaje USB (Host)"
+    },
+    "power": {
+        "wifi_sleep_time_label": "Tiempo de Inactividad de Wi-Fi",
+        "never_label": "nunca",
+        "power_title": "Energía",
+        "ethernet_idle_timeout_label": "Tiempo de Inactividad de Ethernet",
+        "power_off_timeout_label": "Tiempo de Apagado",
+        "power_charger_label": "Encender con Cargador",
+        "auto_system_standby_label": "Suspensión Automática del Sistema ",
+        "auto_system_standby_tips": "Cuando está habilitado, si las redes están inactivas, no hay USB conectado y el Repetidor no está en uso, el sistema entrará automáticamente en suspensión."
+    },
+    "menu_usbpower": "USB y Energía"
+}
