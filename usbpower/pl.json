@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "power_direction_label": "Kierunek zasilania",
+        "ask_me_label": "Zapytaj mnie",
+        "input_label": "Priorytet wejścia",
+        "output_label": "Priorytet wyjścia",
+        "protocol_label": "Przełącznik protokołu USB",
+        "usb_mode_label": "Tryb podwójnej roli USB",
+        "power_threshold_label": "Próg zasilania",
+        "tethring_label": "Udostępnianie",
+        "usb_host_label": "Udostępnianie przez USB (Host)"
+    },
+    "power": {
+        "wifi_sleep_time_label": "Limit czasu bezczynności Wi-Fi",
+        "ethernet_idle_timeout_label": "Limit czasu bezczynności Ethernet",
+        "power_charger_label": "Włączanie z ładowarką",
+        "auto_system_standby_label": "Automatyczny tryb gotowości systemu",
+        "power_title": "Zasilanie",
+        "power_off_timeout_label": "Limit czasu wyłączenia zasilania",
+        "auto_system_standby_tips": "Po włączeniu, jeśli sieci są bezczynne, nie podłączono USB i nie używany jest repeater, system automatycznie przejdzie w tryb gotowości.",
+        "never_label": "nigdy"
+    },
+    "menu_usbpower": "USB i zasilanie"
+}
