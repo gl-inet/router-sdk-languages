@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "usb_mode_label": "Duális Szerep USB Mód",
+        "power_threshold_label": "Energiaküszöb",
+        "tethring_label": "Tethering",
+        "input_label": "Bemeneti Prioritás",
+        "protocol_label": "USB Protokoll Váltás",
+        "power_direction_label": "Energiairány",
+        "ask_me_label": "Kérdezz Meg",
+        "usb_host_label": "USB Tethering (Gazdagép)",
+        "output_label": "Kimeneti Prioritás"
+    },
+    "power": {
+        "power_title": "Energia",
+        "power_charger_label": "Bekapcsolás töltővel",
+        "auto_system_standby_label": "Automatikus Rendszer Készenlét ",
+        "never_label": "soha",
+        "wifi_sleep_time_label": "Wi-Fi Tétlenségi Időtúllépés",
+        "ethernet_idle_timeout_label": "Ethernet Tétlenségi Időtúllépés",
+        "power_off_timeout_label": "Kikapcsolási Időtúllépés",
+        "auto_system_standby_tips": "Ha engedélyezve van, ha a hálózatok tétlenek, nincs USB csatlakoztatva és a Repeater nincs használatban, a rendszer automatikusan készenléti állapotba lép."
+    },
+    "menu_usbpower": "USB és Energia"
+}
