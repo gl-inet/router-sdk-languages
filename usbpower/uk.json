@@ -1,1 +1,24 @@
-{}
+{
+    "usb": {
+        "protocol_label": "Перемикач протоколу USB",
+        "usb_mode_label": "Двосторонній режим USB",
+        "power_direction_label": "Напрямок живлення",
+        "power_threshold_label": "Поріг живлення",
+        "ask_me_label": "Запитати мене",
+        "tethring_label": "Модем",
+        "input_label": "Пріоритет входу",
+        "output_label": "Пріоритет виходу",
+        "usb_host_label": "USB-модем (Хост)"
+    },
+    "power": {
+        "power_title": "Живлення",
+        "wifi_sleep_time_label": "Тайм-аут бездіяльності Wi-Fi",
+        "power_off_timeout_label": "Тайм-аут вимкнення живлення",
+        "never_label": "ніколи",
+        "ethernet_idle_timeout_label": "Тайм-аут бездіяльності Ethernet",
+        "power_charger_label": "Увімкнення при підключенні зарядного пристрою",
+        "auto_system_standby_tips": "Якщо увімкнено, коли мережі бездіяльні, USB не підключено та ретранслятор не використовується, система автоматично перейде в режим очікування.",
+        "auto_system_standby_label": "Автоматичний режим очікування системи"
+    },
+    "menu_usbpower": "USB та живлення"
+}
