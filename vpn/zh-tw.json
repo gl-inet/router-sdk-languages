@@ -493,5 +493,14 @@
         "start_title": "注意：啟動TAP-S2S客戶端",
         "start_disable_tips": "所有現有的隧道將被禁用並隱藏。",
         "astrowarp_up_tips": "Astrowarp與TAP-S2S客戶端無法同時運作。請手動停用Astrowarp。"
+    },
+    "vpn_obfuscation": {
+        "enable_label": "啟用混淆功能",
+        "enable_tips": "啟用後，VPN 伺服器將使用 AmneziaWG 混淆協議來偽裝 VPN 流量。",
+        "parameters_label": "混淆參數",
+        "set_parameters_btn": "設定混淆參數",
+        "set_parameters_tips_1": "路由器會自動生成混淆參數。",
+        "set_parameters_tips_2": "若您熟悉 AmneziaWG 混淆協議，可手動編輯參數，或直接使用自動生成的設定。",
+        "wg_client_parameters_tips": "混淆參數由伺服器端決定，導入設定檔後無需更改。"
     }
 }
