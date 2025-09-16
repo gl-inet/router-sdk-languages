@@ -493,5 +493,14 @@
         "start_title": "Let op: Start TAP-S2S-client",
         "start_disable_tips": "Alle huidige tunnels worden uitgeschakeld en verborgen.",
         "astrowarp_up_tips": "Astrowarp en TAP-S2S Client kunnen niet tegelijkertijd werken. Schakel Astrowarp handmatig uit."
+    },
+    "vpn_obfuscation": {
+        "enable_label": "Obfuscatie inschakelen",
+        "parameters_label": "Obfuscatieparameters",
+        "set_parameters_btn": "Obfuscatieparameters instellen",
+        "set_parameters_tips_1": "De router genereert automatisch obfuscatieparameters.",
+        "enable_tips": "Wanneer ingeschakeld, gebruikt de VPN-server het AmneziaWG-obfuscatieprotocol om VPN-verkeer te maskeren.",
+        "set_parameters_tips_2": "U kunt deze handmatig bewerken als u bekend bent met AmneziaWG-obfuscatie, of de automatisch gegenereerde gebruiken.",
+        "wg_client_parameters_tips": "De obfuscatieparameters worden bepaald door de server. Het is niet nodig deze te wijzigen na het importeren van het configuratiebestand."
     }
 }
