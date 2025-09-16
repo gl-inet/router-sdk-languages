@@ -493,5 +493,14 @@
     "menu_wgserver": "Freastalaí WireGuard",
     "menu_wgclient": "Cliant WireGuard",
     "menu_ovpnserver": "Freastalaí OpenVPN",
-    "menu_ovpnclient": "Cliant OpenVPN"
+    "menu_ovpnclient": "Cliant OpenVPN",
+    "vpn_obfuscation": {
+        "enable_label": "Cumasaigh Doiléiriú",
+        "enable_tips": "Nuair a chumasaítear é, úsáideann an Freastalaí VPN prótacal doiléirithe AmneziaWG chun trácht VPN a cheilt.",
+        "parameters_label": "Paraiméadair Doiléirithe",
+        "set_parameters_btn": "Socraigh Paraiméadair Doiléirithe",
+        "set_parameters_tips_1": "Gineann an ródaire na paraiméadair doiléirithe go huathoibríoch.",
+        "set_parameters_tips_2": "Féadfaidh tú iad a eagarthóireacht de láimh má tá tú eolach ar dhoiléiriú AmneziaWG, nó úsáid na cinn a ghintear go huathoibríoch.",
+        "wg_client_parameters_tips": "Is ag an bhfreastalaí a shocraítear na paraiméadair doiléirithe. Ní gá iad a athrú tar éis an chomhaid chumraíochta a allmhairiú."
+    }
 }
