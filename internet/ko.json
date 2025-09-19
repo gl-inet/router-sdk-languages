@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "이 모드는 {feature}을(를) 자동으로 일시적으로 비활성화합니다.",
         "portal_auth_required_title": "포털 인증이 필요합니다.",
         "support_channel_tips": "다음 Wi-Fi 채널이 지원됩니다. 연결하려는 Wi-Fi 네트워크가 이 중 하나를 사용하는지 확인하세요.",
-        "auto_switching_without_network_tips": "{mode} 모드가 활성화되면, 라우터는 비-리피터 모드에서 네트워크 연결에 성공했을 때 자동으로 네트워크를 스캔하지 않으며, 네트워크 연결이 끊겼을 때만 저장된 다른 네트워크로 자동 전환을 시도합니다. 이는 통신 패킷 손실을 방지할 수 있습니다."
+        "auto_switching_without_network_tips": "{mode} 모드가 활성화되면, 라우터는 비-리피터 모드에서 네트워크 연결에 성공했을 때 자동으로 네트워크를 스캔하지 않으며, 네트워크 연결이 끊겼을 때만 저장된 다른 네트워크로 자동 전환을 시도합니다. 이는 통신 패킷 손실을 방지할 수 있습니다.",
+        "band_conflict_tips": "안정적인 연결을 위해 리피터가 활성화되면 게스트 Wi-Fi가 비활성화되고 5GHz/6GHz Wi-Fi 대역이 자동으로 리피터와 일치합니다. 기기가 자동으로 재연결되지 않으면 수동으로 Wi-Fi에 연결해 주세요."
     },
     "modem": {
         "title": "셀룰러",
@@ -233,7 +234,8 @@
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
-        "lan_Client": "LAN 클라이언트"
+        "lan_Client": "LAN 클라이언트",
+        "usb_client": "USB 클라이언트"
     },
     "sms": {
         "title": "문자 메시지",
@@ -303,7 +305,8 @@
         "export_debug_info": "디버그 정보 내보내기",
         "hardware_reset": "하드 재부팅",
         "success_copy": "복사 완료",
-        "reboot_sucess": "성공했습니다, $$$$ 초간 기다려주세요."
+        "reboot_sucess": "성공했습니다, $$$$ 초간 기다려주세요.",
+        "unknown_command_msg": "알 수 없는 명령입니다"
     },
     "menu_internet": "인터넷",
     "guide": {

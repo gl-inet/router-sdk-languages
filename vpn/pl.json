@@ -493,5 +493,14 @@
         "start_title": "Uwaga: Uruchom klienta TAP-S2S",
         "start_disable_tips": "Wszystkie obecne tunele zostaną wyłączone i ukryte.",
         "astrowarp_up_tips": "Astrowarp i TAP-S2S Client nie mogą działać jednocześnie. Proszę wyłączyć Astrowarp ręcznie."
+    },
+    "vpn_obfuscation": {
+        "enable_label": "Włącz zaciemnianie",
+        "enable_tips": "Po włączeniu, serwer VPN używa protokołu zaciemniania AmneziaWG do maskowania ruchu VPN.",
+        "parameters_label": "Parametry zaciemniania",
+        "set_parameters_btn": "Ustaw parametry zaciemniania",
+        "set_parameters_tips_2": "Możesz je edytować ręcznie, jeśli znasz zaciemnianie AmneziaWG, lub użyć automatycznie wygenerowanych.",
+        "set_parameters_tips_1": "Router automatycznie generuje parametry zaciemniania.",
+        "wg_client_parameters_tips": "Parametry zaciemniania są określane przez serwer. Nie ma potrzeby ich zmiany po zaimportowaniu pliku konfiguracyjnego."
     }
 }

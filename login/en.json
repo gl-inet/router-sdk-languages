@@ -9,7 +9,8 @@
         "forgot_password": {
             "title": "Forgot Password",
             "desc": "Try to press and hold the 'Reset' button for 10 seconds, then release. You will see the LED lights blink. Wait for the router to reboot and then start again.",
-            "online_docs": "Online docs"
+            "online_docs": "Online docs",
+            "screen_check_admin_password_tips": "Please check the admin password on the device screen. If you forget the password, follow the steps below."
         },
         "err_msg": "Incorrect Username or password!",
         "retry_after": "Too many failed login attempts, please try again in $$$$ seconds."

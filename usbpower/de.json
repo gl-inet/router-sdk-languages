@@ -1,0 +1,24 @@
+{
+    "usb": {
+        "power_threshold_label": "Stromschwelle",
+        "tethring_label": "Tethering",
+        "usb_host_label": "USB-Tethering (Host)",
+        "protocol_label": "USB-Protokollumschaltung",
+        "usb_mode_label": "Dual-Role-USB-Modus",
+        "power_direction_label": "Stromrichtung",
+        "ask_me_label": "Nachfragen",
+        "input_label": "Eingabepriorität",
+        "output_label": "Ausgabepriorität"
+    },
+    "menu_usbpower": "USB & Strom",
+    "power": {
+        "power_title": "Strom",
+        "wifi_sleep_time_label": "WLAN-Leerlaufzeitüberschreitung",
+        "ethernet_idle_timeout_label": "Ethernet-Leerlaufzeitüberschreitung",
+        "power_off_timeout_label": "Ausschaltverzögerung",
+        "power_charger_label": "Einschalten mit Ladegerät",
+        "auto_system_standby_label": "Automatischer Systemstandby ",
+        "auto_system_standby_tips": "Wenn aktiviert, geht das System automatisch in den Standby-Modus, wenn Netzwerke im Leerlauf sind, kein USB angeschlossen ist und der Repeater nicht verwendet wird.",
+        "never_label": "niemals"
+    }
+}

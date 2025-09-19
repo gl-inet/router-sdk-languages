@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "Mise à jour",
     "cellular": {
-        "online_upgrade_title": "Mise à jour en ligne du module",
-        "is_update_tips": "Le module est à jour.",
-        "local_upgrade_title": "Mise à jour locale du module",
         "new_label": "Nouvelle version",
-        "downloading_tips": "Téléchargement du module en cours......",
-        "installing_tips": "Installation du module en cours......",
-        "install_success_tips": "Module installé avec succès, l'appareil va redémarrer.",
-        "upgrading_title": "Mise à jour du module",
-        "upgrade_tips": "Veuillez ne pas éteindre durant le processus de mise à jour du module. L'appareil redémarrera automatiquement après la mise à jour du module, ce qui peut prendre quelques secondes.",
         "go_download_btn": "Télécharger",
         "unzip_failed_tips": "Échec de décompression",
         "verify_failed_tips": "Échec de vérification",
-        "local_install_fail_tips": "Échec de l'installation de la mise à jour locale du module, veuillez uploader à nouveau",
-        "local_upgrade_tips": "Lorsque la connexion mobile échoue, vous pouvez essayer de mettre à jour le module cellulaire pour résoudre le problème.",
         "current_label": "Version actuelle",
         "verification_title": "Vérification",
         "not_gl_tips": "Fichier non officiel détecté, veuillez procéder avec prudence.",
-        "verify_fail_tips": "Échec de la validation du fichier, veuillez uploader à nouveau."
+        "verify_fail_tips": "Échec de la validation du fichier, veuillez uploader à nouveau.",
+        "online_upgrade_title": "Modem 在线升级",
+        "local_install_fail_tips": "本地调制解调器升级安装失败，请重新上传。",
+        "local_upgrade_title": "Mise à niveau locale du modem",
+        "is_update_tips": "Le modem est à jour.",
+        "upgrading_title": "Modem Mise à niveau",
+        "downloading_tips": "Modem en cours de téléchargement......",
+        "install_success_tips": "Modem installé avec succès, l'appareil va redémarrer.",
+        "local_upgrade_tips": "Vous pouvez mettre à jour le firmware du modem pour bénéficier des derniers correctifs de bogues.",
+        "upgrade_tips": "Veuillez ne pas éteindre l'appareil pendant la mise à niveau. Le processus peut prendre quelques minutes, et l'appareil redémarrera automatiquement une fois la mise à niveau terminée."
     }
 }

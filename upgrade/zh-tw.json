@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "升級",
     "cellular": {
-        "install_success_tips": "模組安裝成功，裝置即將重新開機。",
-        "installing_tips": "模塊正在安裝......",
         "unzip_failed_tips": "解壓失敗",
         "verify_failed_tips": "驗證失敗",
-        "online_upgrade_title": "模塊在線升級",
         "current_label": "當前版本",
-        "local_install_fail_tips": "模組本機升級安裝失敗，請重新上傳",
-        "is_update_tips": "模組為最新版本。",
         "new_label": "新版本",
-        "downloading_tips": "模塊正在下載......",
-        "upgrading_title": "模組升級",
-        "upgrade_tips": "模組升級過程中請勿關機。模組升級後，裝置會自動重新開機，這可能需要幾秒鐘的時間。",
-        "local_upgrade_title": "模塊本地升級",
-        "local_upgrade_tips": "當蜂窩網路出現故障時，可以嘗試升級蜂窩模組來解決問題。",
         "go_download_btn": "去下載",
         "verification_title": "驗證",
         "not_gl_tips": "檢測到非官方文件，請謹慎操作。",
-        "verify_fail_tips": "文件校驗失敗，請重新上傳。"
+        "verify_fail_tips": "文件校驗失敗，請重新上傳。",
+        "online_upgrade_title": "调制解调器在线升级",
+        "local_install_fail_tips": "调制解调器本地升级安装失败，请重新上传。",
+        "local_upgrade_title": "调制解调器本地升级",
+        "is_update_tips": "數據機已是最新版本。",
+        "upgrading_title": "调制解调器升级",
+        "downloading_tips": "數據機下載中......",
+        "install_success_tips": "數據機安裝成功，設備即將重新啟動。",
+        "local_upgrade_tips": "您可以更新调制解调器固件以获取最新的错误修复。",
+        "upgrade_tips": "升级过程中请勿关闭设备电源。此过程可能需要几分钟时间，升级完成后设备将自动重启。"
     }
 }

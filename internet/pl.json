@@ -82,7 +82,8 @@
         "portal_disable_feature_tips": "Ten tryb automatycznie i tymczasowo wyłączy funkcję {feature}.",
         "portal_auth_required_title": "Wymagane uwierzytelnienie portalu",
         "support_channel_tips": "Obsługiwane są następujące kanały Wi-Fi. Upewnij się, że sieć Wi-Fi, z którą się łączysz, korzysta z jednego z nich.",
-        "auto_switching_without_network_tips": "Gdy tryb {mode} jest włączony, router nie będzie automatycznie skanował sieci, gdy zostanie pomyślnie połączony w trybie innym niż repeater, i będzie próbował automatycznie przełączyć się na inne zapisane sieci tylko wtedy, gdy router nie będzie miał połączenia, co pozwala uniknąć utraty pakietów komunikacyjnych."
+        "auto_switching_without_network_tips": "Gdy tryb {mode} jest włączony, router nie będzie automatycznie skanował sieci, gdy zostanie pomyślnie połączony w trybie innym niż repeater, i będzie próbował automatycznie przełączyć się na inne zapisane sieci tylko wtedy, gdy router nie będzie miał połączenia, co pozwala uniknąć utraty pakietów komunikacyjnych.",
+        "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy wzmacniacz jest włączony, sieć Wi-Fi dla gości zostanie wyłączona, a pasmo 5 GHz/6 GHz automatycznie dostosuje się do wzmacniacza. Jeśli twoje urządzenie nie połączy się automatycznie, proszę połączyć się z Wi-Fi ręcznie."
     },
     "cable": {
         "title": "Ethernet",
@@ -182,7 +183,8 @@
         "reboot_sucess": "Sukces, proszę czekać $$$$ sekund.",
         "export_debug_info": "Eksportuj informacje do debugowania",
         "hardware_reset": "Twardy Restart",
-        "title": "Zarządzanie"
+        "title": "Zarządzanie",
+        "unknown_command_msg": "Nieznane polecenie"
     },
     "modem": {
         "user_name": "Nazwa Użytkownika",
@@ -298,7 +300,8 @@
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
-        "lan_Client": "Klienci LAN"
+        "lan_Client": "Klienci LAN",
+        "usb_client": "Klient USB"
     },
     "menu_internet": "INTERNET",
     "tethering": {

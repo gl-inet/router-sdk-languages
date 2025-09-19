@@ -1,0 +1,24 @@
+{
+    "usb": {
+        "protocol_label": "Commutateur de protocole USB",
+        "usb_mode_label": "Mode USB double rôle",
+        "power_threshold_label": "Seuil d'alimentation",
+        "ask_me_label": "Me demander",
+        "tethring_label": "Partage de connexion",
+        "usb_host_label": "Partage de connexion USB (Hôte)",
+        "output_label": "Priorité de sortie",
+        "power_direction_label": "Sens de l'alimentation",
+        "input_label": "Priorité d'entrée"
+    },
+    "power": {
+        "power_title": "Alimentation",
+        "power_charger_label": "Allumage avec chargeur",
+        "wifi_sleep_time_label": "Délai d'inactivité Wi-Fi",
+        "ethernet_idle_timeout_label": "Délai d'inactivité Ethernet",
+        "power_off_timeout_label": "Délai d'extinction",
+        "auto_system_standby_label": "Mise en veille automatique du système ",
+        "auto_system_standby_tips": "Lorsqu'il est activé, si les réseaux sont inactifs, qu'aucun USB n'est connecté et que le répéteur n'est pas utilisé, le système passera automatiquement en veille.",
+        "never_label": "jamais"
+    },
+    "menu_usbpower": "USB et alimentation"
+}

@@ -1,0 +1,24 @@
+{
+    "usb": {
+        "power_direction_label": "Направление питания",
+        "power_threshold_label": "Порог питания",
+        "tethring_label": "Модем",
+        "usb_host_label": "USB-модем (Хост)",
+        "input_label": "Приоритет ввода",
+        "protocol_label": "Переключение USB-протокола",
+        "usb_mode_label": "Двухрежимный USB",
+        "ask_me_label": "Спросить меня",
+        "output_label": "Приоритет вывода"
+    },
+    "power": {
+        "ethernet_idle_timeout_label": "Таймаут бездействия Ethernet",
+        "power_off_timeout_label": "Таймаут отключения питания",
+        "auto_system_standby_label": "Автономный режим системы",
+        "power_title": "Питание",
+        "wifi_sleep_time_label": "Таймаут бездействия Wi-Fi",
+        "power_charger_label": "Включение при подключении зарядного устройства",
+        "auto_system_standby_tips": "При включении, если сети неактивны, USB не подключен и ретранслятор не используется, система автоматически перейдет в автономный режим.",
+        "never_label": "никогда"
+    },
+    "menu_usbpower": "USB и питание"
+}

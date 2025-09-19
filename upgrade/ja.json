@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "アップグレード",
     "cellular": {
-        "is_update_tips": "モジュールは最新です。",
-        "online_upgrade_title": "モジュールオンラインアップグレード",
-        "local_upgrade_title": "モジュールローカルアップグレード",
-        "upgrade_tips": "モジュールアップデート処理中は電源を切らないでください。モジュールアップデート完了後、デバイスは自動的に再起動します。この処理には数秒かかります。",
-        "install_success_tips": "モジュールのインストールに成功しました。デバイスはまもなく再起動します。",
         "unzip_failed_tips": "展開に失敗しました",
         "new_label": "新しいバージョン",
-        "downloading_tips": "モジュールをダウンロードしています。",
-        "upgrading_title": "モジュールをアップグレードしています",
         "go_download_btn": "ダウンロードへ移動",
-        "installing_tips": "モジュールをインストールしています。",
         "current_label": "現在のバージョン",
         "verify_failed_tips": "検証に失敗しました",
-        "local_install_fail_tips": "モジュールのローカルアップグレードのインストールに失敗しました。再アップロードしてください",
-        "local_upgrade_tips": "セルラーネットワークが失敗した場合、セルラーモジュールをアップグレードして問題を解決することができます。",
         "verification_title": "検証",
         "not_gl_tips": "非公式のファイルが検出されました。注意して進めてください。",
-        "verify_fail_tips": "ファイルの検証に失敗しました。再アップロードしてください。"
+        "verify_fail_tips": "ファイルの検証に失敗しました。再アップロードしてください。",
+        "online_upgrade_title": "モデムのオンラインアップグレード",
+        "local_install_fail_tips": "モデムのローカルアップグレードのインストールに失敗しました。再度アップロードしてください。",
+        "local_upgrade_title": "モデムのローカルアップグレード",
+        "is_update_tips": "モデムは最新です。",
+        "upgrading_title": "モデムアップグレード",
+        "downloading_tips": "モデムダウンロード中......",
+        "install_success_tips": "モデムが正常にインストールされました。デバイスはまもなくリブートします。",
+        "local_upgrade_tips": "モデムファームウェアを更新して最新のバグ修正を取得できます。",
+        "upgrade_tips": "アップグレード中はデバイスの電源を切らないでください。処理には数分かかる場合があり、アップグレードが完了するとデバイスは自動的にリブートします。"
     }
 }

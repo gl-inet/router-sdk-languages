@@ -415,11 +415,13 @@
         "portal_disable_feature_tips": "Bu mod, {feature} özelliğini otomatik ve geçici olarak devre dışı bırakacaktır.",
         "portal_auth_required_title": "Portal Kimlik Doğrulaması Gereklidir",
         "support_channel_tips": "Aşağıdaki Wi-Fi kanalları desteklenmektedir. Bağlanmak istediğiniz Wi-Fi ağının bunlardan birini kullandığından emin olun.",
-        "auto_switching_without_network_tips": "{mode} modu etkinleştirildiğinde, yönlendirici tekrarlayıcı modu dışında başarıyla ağa bağlandığında otomatik olarak ağları taramayacak ve yalnızca ağ bağlantısı olmadığında kayıtlı diğer ağlara otomatik olarak geçmeye çalışacaktır. Bu, iletişim paket kaybını önleyebilir."
+        "auto_switching_without_network_tips": "{mode} modu etkinleştirildiğinde, yönlendirici tekrarlayıcı modu dışında başarıyla ağa bağlandığında otomatik olarak ağları taramayacak ve yalnızca ağ bağlantısı olmadığında kayıtlı diğer ağlara otomatik olarak geçmeye çalışacaktır. Bu, iletişim paket kaybını önleyebilir.",
+        "band_conflict_tips": "Bağlantı istikrarı için, tekrarlayıcı etkinleştirildiğinde, Misafir Wi-Fi devre dışı bırakılacak ve 5GHz/6GHz Wi-Fi bandı otomatik olarak tekrarlayıcı ile eşleşecektir. Cihazınız otomatik olarak yeniden bağlanmazsa, lütfen Wi-Fi'ye manuel olarak bağlanın."
     },
     "router_visual": {
         "wlan_client": "WLAN İstemcileri",
-        "lan_Client": "LAN İstemcileri"
+        "lan_Client": "LAN İstemcileri",
+        "usb_client": "USB İstemci"
     },
     "sms": {
         "title": "SMS",
@@ -489,7 +491,8 @@
         "success_copy": "Kopyalama başarılı",
         "reboot_sucess": "Başarılı, lütfen $$$$ saniye bekleyin.",
         "export_debug_info": "Hata Ayıklama Bilgisi Dışa Aktar",
-        "hardware_reset": "Donanımsal Yeniden Başlat"
+        "hardware_reset": "Donanımsal Yeniden Başlat",
+        "unknown_command_msg": "Bilinmeyen komut"
     },
     "menu_internet": "İnternet",
     "cellular": {

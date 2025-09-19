@@ -1,0 +1,24 @@
+{
+    "usb": {
+        "power_threshold_label": "功率阈值",
+        "ask_me_label": "询问我",
+        "tethring_label": "网络共享",
+        "usb_host_label": "USB网络共享（主机模式）",
+        "input_label": "输入优先级",
+        "protocol_label": "USB协议切换",
+        "usb_mode_label": "双角色USB模式",
+        "power_direction_label": "电源方向",
+        "output_label": "输出优先级"
+    },
+    "power": {
+        "power_title": "电源",
+        "ethernet_idle_timeout_label": "以太网闲置超时",
+        "power_off_timeout_label": "关机超时",
+        "never_label": "从不",
+        "wifi_sleep_time_label": "Wi-Fi闲置超时",
+        "power_charger_label": "充电器开机",
+        "auto_system_standby_tips": "启用后，当网络处于闲置状态、未连接USB且未使用中继模式时，系统将自动进入待机状态。",
+        "auto_system_standby_label": "自动系统待机"
+    },
+    "menu_usbpower": "USB与电源"
+}

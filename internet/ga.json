@@ -14,7 +14,8 @@
         "port": "Port",
         "send": "Seol",
         "cell_info": "Eolas Cealla",
-        "hardware_reset": "Athbhútáil Crua"
+        "hardware_reset": "Athbhútáil Crua",
+        "unknown_command_msg": "Ainm ordú anaithnid"
     },
     "cellular": {
         "cell_info_title": "Cealla",
@@ -219,7 +220,8 @@
         "portal_go_to_auth_page_tips": "Ceangailte le {ssid}. Logáil isteach ar an leathanach Fíordheimhnithe chun rochtain a fháil ar an idirlíon.",
         "regionally_allowed_channel_tips": "Ní féidir leis an ródaire seo ach comharthaí cainéil Wi-Fi a chuardach a cheadaítear sa réigiún reatha.",
         "portal_auth_required_title": "Fíordheimhniú Tairseach Riachtanach",
-        "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint."
+        "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint.",
+        "band_conflict_tips": "Chun nascadh cobhsaí, nuair a chuirtear an athsheachadán i bhfeidhm, díchumasaítear an Wi-Fi Aoi agus déanfaidh an mhuinchille Wi-Fi 5GHz/6GHz meaitseáil go huathoibríoch leis an athsheachadán. Mura ndéanann do ghléas athenascadh go huathoibríoch, déan ceangal le Wi-Fi de láimh."
     },
     "modem": {
         "manually_tips": "Ionchur Láimhe",
@@ -524,7 +526,8 @@
     },
     "router_visual": {
         "lan_Client": "Cliant LAN",
-        "wlan_client": "Cliant WLAN"
+        "wlan_client": "Cliant WLAN",
+        "usb_client": "Cliant USB"
     },
     "tethering": {
         "no_device_tips": "Níor aimsíodh aon ghléas ceangail idirlín. Cuir do ghuthán cliste nó do mhóidim USB isteach chun tosú.",

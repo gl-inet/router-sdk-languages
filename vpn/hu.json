@@ -493,5 +493,14 @@
         "start_title": "Figyelem: Indítsa el a TAP-S2S Klienst",
         "start_disable_tips": "Az összes jelenlegi alagút le lesz tiltva és el lesz rejtve.",
         "astrowarp_up_tips": "Az Astrowarp és a TAP-S2S kliens nem működhet egyszerre. Kérjük, kapcsolja ki manuálisan az Astrowarp-et."
+    },
+    "vpn_obfuscation": {
+        "enable_label": "Obfuskáció Engedélyezése",
+        "parameters_label": "Obfuskációs Paraméterek",
+        "set_parameters_btn": "Obfuskációs Paraméterek Beállítása",
+        "set_parameters_tips_1": "Az útválasztó automatikusan generálja az obfuszkációs paramétereket.",
+        "set_parameters_tips_2": "Manuálisan is szerkesztheti őket, ha ismeri az AmneziaWG obfuszkációt, vagy használhatja az automatikusan generáltakat.",
+        "wg_client_parameters_tips": "Az obfuszkációs paramétereket a szerver határozza meg. A konfigurációs fájl importálása után nem szükséges megváltoztatni.",
+        "enable_tips": "Ha engedélyezve van, a VPN szerver az AmneziaWG obfuszkációs protokollt használja a VPN forgalom álcázására."
     }
 }

@@ -1,0 +1,24 @@
+{
+    "usb": {
+        "protocol_label": "USB Protocol Switch",
+        "usb_mode_label": "Dual Role USB Mode",
+        "power_direction_label": "Power Direction",
+        "power_threshold_label": "Power Threshold",
+        "ask_me_label": "Ask Me",
+        "tethring_label": "Tethering",
+        "usb_host_label": "USB Tethering (Host)",
+        "input_label": "Input Priority",
+        "output_label": "Output Priority"
+    },
+    "power": {
+        "power_title": "Power",
+        "wifi_sleep_time_label": "Wi-Fi Idle Timeout",
+        "ethernet_idle_timeout_label": "Ethernet Idle Timeout",
+        "power_off_timeout_label": "Power Off Timeout",
+        "power_charger_label": "Power On with Charger",
+        "auto_system_standby_label": "Auto System Standby",
+        "auto_system_standby_tips": "When enabled, if networks are idle and no USB is connected and Repeater is not in use, the system will automatically enter standby.",
+        "never_label": "never"
+    },
+    "menu_usbpower": "USB & Power"
+}

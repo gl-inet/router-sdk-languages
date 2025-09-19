@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "Aktualisierung",
     "cellular": {
-        "is_update_tips": "Modul hat die aktuelle Firmware.",
-        "local_upgrade_title": "Modul Lokales Upgrade",
         "go_download_btn": "Download starten",
-        "local_upgrade_tips": "Wenn die Mobilfunkverbindung fehlschlägt, können Sie versuchen, das Mobilfunkmodul zu aktualisieren, um das Problem zu lösen.",
-        "online_upgrade_title": "Modul Online-Upgrade",
         "current_label": "Aktuelle Version",
         "new_label": "Neue Version",
-        "downloading_tips": "Modul wird heruntergeladen......",
-        "installing_tips": "Modul wird installiert......",
-        "install_success_tips": "Modul erfolgreich installiert, das Gerät wird gleich neu gestartet.",
         "unzip_failed_tips": "Dekomprimierungsfehler",
-        "upgrading_title": "Modul-Upgrade wird durchgeführt",
         "verify_failed_tips": "Verifizierungsfehler",
-        "local_install_fail_tips": "Installation des lokalen Modul-Upgrades fehlgeschlagen, bitte erneut hochladen",
-        "upgrade_tips": "Bitte schalten Sie während des Modul-Upgrade-Prozesses nicht aus. Das Gerät wird nach dem Upgrade des Moduls automatisch neu gestartet, was einige Sekunden dauern kann.",
         "not_gl_tips": "Es wurde eine inoffizielle Datei erkannt, bitte seien Sie vorsichtig.",
         "verify_fail_tips": "Dateiüberprüfung fehlgeschlagen, bitte laden Sie die Datei erneut hoch.",
-        "verification_title": "Verifizierung"
+        "verification_title": "Verifizierung",
+        "online_upgrade_title": "Modem Online-Upgrade",
+        "local_install_fail_tips": "Modem-Lokale Upgrade-Installation fehlgeschlagen, bitte erneut hochladen.",
+        "local_upgrade_title": "Modem Lokales Upgrade",
+        "is_update_tips": "Modem ist auf dem neuesten Stand.",
+        "upgrading_title": "Modem-Aktualisierung",
+        "downloading_tips": "Modem wird heruntergeladen......",
+        "install_success_tips": "Modem erfolgreich installiert, das Gerät startet gleich neu.",
+        "local_upgrade_tips": "Sie können die Modem-Firmware aktualisieren, um die neuesten Fehlerbehebungen zu erhalten.",
+        "upgrade_tips": "Bitte schalten Sie das Gerät während des Upgrades nicht aus. Der Vorgang kann einige Minuten dauern, und das Gerät startet nach Abschluss des Upgrades automatisch neu."
     }
 }

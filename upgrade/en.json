@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "Upgrade",
     "cellular": {
-        "upgrade_tips": "Please do not power off during the module upgrade process. The device will automatically reboot after the module is upgraded, which may take a few seconds.",
-        "online_upgrade_title": "Module Online Upgrade",
-        "local_upgrade_tips": "When cellular networking fails, you can try to upgrade the cellular module to solve the problem.",
-        "is_update_tips": "Module is up-to-date.",
-        "local_upgrade_title": "Module Local Upgrade",
         "go_download_btn": "Go Download",
         "current_label": "Current Version",
         "new_label": "New Version",
-        "downloading_tips": "Module downloading......",
-        "installing_tips": "Module installing......",
-        "install_success_tips": "Module installed successfully, device is about to reboot.",
         "unzip_failed_tips": "Decompression failure",
         "verify_failed_tips": "Verify failure",
-        "upgrading_title": "Module Upgrading",
-        "local_install_fail_tips": "Module local upgrade installation failed, please re-upload",
         "not_gl_tips": "Unofficial file detected, please proceed with caution.",
         "verification_title": "Verification",
-        "verify_fail_tips": "File validation failed, please re-upload."
+        "verify_fail_tips": "File validation failed, please re-upload.",
+        "online_upgrade_title": "Modem Online Upgrade",
+        "local_install_fail_tips": "Modem local upgrade installation failed, please re-upload",
+        "local_upgrade_title": "Modem Local Upgrade",
+        "is_update_tips": "Modem is up-to-date.",
+        "upgrading_title": "Modem Upgrading",
+        "downloading_tips": "Modem downloading......",
+        "install_success_tips": "Modem installed successfully, device is about to reboot.",
+        "local_upgrade_tips": "You can update the modem firmware to get the latest bug fixes.",
+        "upgrade_tips": "Please do not power off the device during the upgrade. The process may take a few minutes, and the device will reboot automatically once the upgrade is completed."
     }
 }

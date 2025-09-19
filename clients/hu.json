@@ -20,7 +20,7 @@
         "random_mac_tips": "Ez egy véletlenszerűen létrehozott MAC-cím.",
         "link_method_label": "Kapcsolódás módja",
         "delete_all_caution": "Valóban törli az összes ügyfelet a listáról?\nEz a művelet nem akadályozza meg, hogy az ügyfelek ismét csatlakozni tudjanak az útválasztóhoz, de törli a már tárolt beállításaikat.",
-        "delete_caution": "Valóban törli az ügyfelet a listáról?\nEz a művelet nem akadályozza meg, hogy az ügyfél ismét csatlakozni tudjon az útválasztóhoz, de törli a már tárolt beállításait.",
+        "delete_caution": "Biztosan szeretné törölni az ügyfelet a listáról?\nEz a művelet nem akadályozza meg, hogy az ügyfél ismét csatlakozni tudjon az útválasztóhoz, de törli a már tárolt beállításait.",
         "random_mac_warning_tips": "A kliens beállításai érvénytelenek lehetnek a készülék MAC-címének megváltozása miatt.",
         "unlimited_hint": "Korlátlan",
         "sort_by": "Rendezés: $$$$",
@@ -72,11 +72,12 @@
         "speed_limit_label": "Ügyfelek sebességkorlátozása",
         "reserved_ip_tips": "Amikor egy kliens számára fenntartott IP-címet ad meg a LAN-on belül, a kliens mindig ugyanazt az IP-címet kapja meg, amikor hozzáfér a router DHCP szerveréhez. Fenntartott IP-címeket rendelhet olyan számítógépekhez vagy szerverekhez, amelyek állandó IP-beállításokat igényelnek.",
         "reserved_ip_label": "Fenntartott IP cím",
-        "next_connect_effect_tips": "Az aktuális konfiguráció a következő kapcsolódás alkalmával lép érvénybe.",
+        "next_connect_effect_tips": "Az újabb beállítások újracsatlakozást követően lépnek érvénybe.",
         "reserve_ip_only_ipv4_tips": "Csak a LAN szegmens IPv4-cím foglalása konfigurálható.",
         "host_guest_label": "Hálózat gazda/vendég",
         "reserve_ip_different_lan_tips": "A fenntartott IP nem ugyanabban a hálózati szegmensben van, mint a jelenlegi IP, a konfiguráció nem lép érvénybe.",
-        "access_control_overlimit_tips": "A(z) {list} tele van. Kérjük, kezelje a(z) {option} menüpontban."
+        "access_control_overlimit_tips": "A(z) {list} tele van. Kérjük, kezelje a(z) {option} menüpontban.",
+        "usb_tethering": "USB-tethering"
     },
     "vpn_tunnel": {
         "mac_using_tips": "A VPN kapcsolódva van.",

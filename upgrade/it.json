@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "Aggiornamento",
     "cellular": {
-        "online_upgrade_title": "Aggiornamento Modulo Online",
-        "local_upgrade_title": "Aggiornamento Modulo Locale",
         "go_download_btn": "Vai al Download",
-        "install_success_tips": "Modulo installato con successo, il dispositivo sta per riavviarsi.",
         "unzip_failed_tips": "Errore di decompressione",
         "current_label": "Versione Corrente",
-        "local_install_fail_tips": "Installazione dell'aggiornamento locale del modulo fallita, si prega di ricaricare",
-        "local_upgrade_tips": "Quando la rete cellulare non funziona, puoi provare ad aggiornare il modulo cellulare per risolvere il problema.",
         "new_label": "Nuova Versione",
-        "downloading_tips": "Download del modulo in corso......",
-        "installing_tips": "Installazione del modulo in corso......",
-        "upgrading_title": "Aggiornamento Modulo",
-        "upgrade_tips": "Si prega di non spegnere durante il processo di aggiornamento del modulo. Il dispositivo si riavvierà automaticamente dopo l'aggiornamento del modulo, il che potrebbe richiedere alcuni secondi.",
-        "is_update_tips": "Il modulo è aggiornato.",
         "verify_failed_tips": "Errore di verifica",
         "verification_title": "Verifica",
         "not_gl_tips": "Rilevato file non ufficiale, procedere con cautela.",
-        "verify_fail_tips": "Validazione del file fallita, si prega di ricaricare."
+        "verify_fail_tips": "Validazione del file fallita, si prega di ricaricare.",
+        "online_upgrade_title": "调制解调器在线升级",
+        "local_install_fail_tips": "升级本地调制解调器失败，请重新上传。",
+        "local_upgrade_title": "Modem 本地升级",
+        "is_update_tips": "Il modem è aggiornato.",
+        "upgrading_title": "调制解调器升级",
+        "downloading_tips": "Modem in download......",
+        "install_success_tips": "Modem installato con successo, il dispositivo sta per riavviarsi.",
+        "local_upgrade_tips": "您可以更新调制解调器固件以获取最新的错误修复。",
+        "upgrade_tips": "请勿在升级过程中关闭设备电源。此过程可能需要几分钟时间，升级完成后设备将自动重新启动。"
     }
 }

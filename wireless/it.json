@@ -38,9 +38,12 @@
         "open_wifi_security_tips": "\"Open WiFi\" presenta rischi per la sicurezza. Utilizzare con cautela.",
         "guest_wifi_unavailable_tips": "La Wi-Fi per ospiti non è disponibile perché {repeater} è abilitato.",
         "band_6g_bandwidth_limit_160mhz_tips": "Quando sono abilitati sia il Wi-Fi a 2,4 GHz che a 6 GHz, la banda a 6 GHz è limitata a una larghezza di banda massima di 160 MHz.",
+        "wifi_band": "Banda Wi-Fi",
+        "using_band": "Utilizzando {band}",
+        "wifi_band_mutex_tips": "5GHz Wi-Fi 默认启用。若与中继器发生冲突，Wi-Fi 频段将自动切换至 {auto}。",
         "cannot_detect_6g_network_tips": "某些设备可能无法检测到6GHz Wi-Fi。您可以同时启用2.4GHz和6GHz以获得更好的兼容性。",
-        "wifi_band_mutex_tips": "5GHz Wi-Fi 默认处于启用状态。若与中继器发生冲突，Wi-Fi 频段将自动切换至“自动”模式。",
-        "wifi_band": "Banda Wi-Fi"
+        "repeater_band_conflict_tips": "与中继器冲突的频段将被禁用。",
+        "wifi_sleep_tips": "Wi-Fi 目前处于睡眠模式且不可见。要唤醒它，您可以前往 {management} 禁用睡眠模式。"
     },
     "menu_wireless": "Wireless"
 }

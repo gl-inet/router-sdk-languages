@@ -493,5 +493,14 @@
         "start_title": "Attention : Démarrer le client TAP-S2S",
         "start_disable_tips": "Tous les tunnels actuels seront désactivés et masqués.",
         "astrowarp_up_tips": "AstroWarp et TAP-S2S Client ne peuvent pas fonctionner simultanément. Veuillez désactiver AstroWarp manuellement."
+    },
+    "vpn_obfuscation": {
+        "enable_label": "Activer l'obfuscation",
+        "parameters_label": "Paramètres d'obfuscation",
+        "set_parameters_tips_1": "Le routeur génère automatiquement les paramètres d'obfuscation.",
+        "set_parameters_tips_2": "Vous pouvez les modifier manuellement si vous êtes familier avec l'obfuscation AmneziaWG, ou utiliser ceux générés automatiquement.",
+        "enable_tips": "Lorsqu'il est activé, le serveur VPN utilise le protocole d'obfuscation AmneziaWG pour masquer le trafic VPN.",
+        "set_parameters_btn": "Définir les paramètres d'obfuscation",
+        "wg_client_parameters_tips": "Les paramètres d'obfuscation sont déterminés par le serveur. Aucun besoin de les modifier après l'importation du fichier de configuration."
     }
 }

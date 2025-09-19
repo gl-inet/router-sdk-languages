@@ -493,5 +493,14 @@
         "start_title": "Dikkat: TAP-S2S İstemcisini Başlat",
         "start_disable_tips": "Mevcut tüm Tüneller devre dışı bırakılacak ve gizlenecek.",
         "astrowarp_up_tips": "Astrowarp ve TAP-S2S İstemci aynı anda çalışamaz. Lütfen Astrowarp'i manuel olarak devre dışı bırakın."
+    },
+    "vpn_obfuscation": {
+        "enable_label": "Karıştırmayı Etkinleştir",
+        "parameters_label": "Karıştırma Parametreleri",
+        "set_parameters_btn": "Karıştırma Parametrelerini Ayarla",
+        "set_parameters_tips_1": "Yönlendirici otomatik olarak karıştırma parametreleri oluşturur.",
+        "set_parameters_tips_2": "AmneziaWG karıştırmasına aşinaysanız bunları manuel olarak düzenleyebilir veya otomatik oluşturulanları kullanabilirsiniz.",
+        "enable_tips": "Etkinleştirildiğinde, VPN Sunucusu VPN trafiğini gizlemek için AmneziaWG karıştırma protokolünü kullanır.",
+        "wg_client_parameters_tips": "Karıştırma parametreleri sunucu tarafından belirlenir. Yapılandırma dosyasını içe aktardıktan sonra değiştirmeniz gerekmez."
     }
 }

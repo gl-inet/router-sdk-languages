@@ -39,8 +39,11 @@
         "guest_wifi_unavailable_tips": "Misafir Wi-Fi kullanılamıyor çünkü {repeater} etkinleştirilmiş durumda.",
         "band_6g_bandwidth_limit_160mhz_tips": "2.4GHz ve 6GHz Wi-Fi bantları aynı anda etkinleştirildiğinde, 6GHz bandı maksimum 160MHz bant genişliği ile sınırlıdır.",
         "cannot_detect_6g_network_tips": "Bazı cihazlar 6GHz Wi-Fi'yi algılayamayabilir. Daha iyi uyumluluk için hem 2.4GHz hem de 6GHz'i etkinleştirebilirsiniz.",
-        "wifi_band_mutex_tips": "5GHz Wi-Fi varsayılan olarak etkindir. Tekrarlayıcı ile çakışması durumunda, Wi-Fi bandı otomatik olarak Otomatik moduna geçecektir.",
-        "wifi_band": "Wi-Fi Bandı"
+        "wifi_band": "Wi-Fi Bandı",
+        "repeater_band_conflict_tips": "Tekrarlayıcı ile çakışan bant devre dışı bırakılacaktır.",
+        "using_band": "{band} kullanarak",
+        "wifi_sleep_tips": "Wi-Fi şu anda uyku modunda ve görünür değil. Uyandırmak için {management} bölümüne giderek uyku modunu devre dışı bırakabilirsiniz.",
+        "wifi_band_mutex_tips": "5GHz Wi-Fi varsayılan olarak etkindir. Tekrarlayıcı ile çakışırsa, Wi-Fi bandı otomatik olarak {auto} olarak değiştirilecektir."
     },
     "menu_wireless": "Kablosuz"
 }

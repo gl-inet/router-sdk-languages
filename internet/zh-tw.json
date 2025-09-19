@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "此模式將自動且暫時停用{feature}。",
         "portal_auth_required_title": "需要進行入口認證",
         "support_channel_tips": "以下為支持的 Wi-Fi 通道，請確保您所連接的 Wi-Fi 網絡使用的通道是其中之一。",
-        "auto_switching_without_network_tips": "啓用“{mode}”模式後，路由器在非中繼模式下聯網成功後不會自動掃描網路，只會在無網路時嘗試自動切換到其他保存的網路，這樣可以避免通信數據包丟失。"
+        "auto_switching_without_network_tips": "啓用“{mode}”模式後，路由器在非中繼模式下聯網成功後不會自動掃描網路，只會在無網路時嘗試自動切換到其他保存的網路，這樣可以避免通信數據包丟失。",
+        "band_conflict_tips": "為保證網絡連接穩定性，中繼啟用時，訪客網絡將禁用，且 5GHz/6GHz Wi-Fi 頻段跟隨中繼網絡。 若設備未能自動連接，請手動選擇該 Wi-Fi 網絡。"
     },
     "modem": {
         "title": "行動網路",
@@ -233,7 +234,8 @@
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
-        "lan_Client": "LAN客戶端"
+        "lan_Client": "LAN 客戶端",
+        "usb_client": "USB 客戶端"
     },
     "modemmanage": {
         "title": "管理",
@@ -250,7 +252,8 @@
         "soft_reset": "軟重啟",
         "reboot_sucess": "成功，請等待$$$$秒。",
         "export_debug_info": "匯出調試信息",
-        "hardware_reset": "強制重啟"
+        "hardware_reset": "強制重啟",
+        "unknown_command_msg": "未知指令"
     },
     "sms": {
         "title": "短訊",

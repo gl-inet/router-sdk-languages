@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "Aukštutinis atnaujinimas",
     "cellular": {
-        "upgrade_tips": "Prašome neišjungti įrenginio, kai vyksta aukštutinis modulio atnaujinimo vyksmas. Įrenginys automatiškai pasileis iš naujo, po to, kai modulis atsinaujina. Šis vyksmas gali užtrukti keletą sekundžių.",
-        "online_upgrade_title": "Internetinis modulio aukštutinis atnaujinimas",
-        "is_update_tips": "Modulis yra atnaujintas.",
-        "local_upgrade_tips": "Kai mobilusis tinklas patiria klaidą, Jūs galite pabandyti atlikti aukštutinį modulio atnaujinimą, siekiant išspręsti problemą.",
-        "local_upgrade_title": "Vietinis modulio aukštutinis atnaujinimas",
         "go_download_btn": "Eiti atsisiųsti",
         "current_label": "Dabartinė versija",
-        "installing_tips": "Modulis įdiegiamas...",
-        "install_success_tips": "Modulis įdiegtas sėkmingai, įrenginys neužtrukus pasileis iš naujo.",
         "verify_failed_tips": "Nesėkmingas patikrinimas",
         "unzip_failed_tips": "Nesėkmingas išskleidimas",
-        "local_install_fail_tips": "Vietinis modulio aukštutinis atnaujinimas nepavyko, prašome iš naujo įkelti",
         "new_label": "Nauja versija",
-        "downloading_tips": "Modulis atsisiunčiamas...",
-        "upgrading_title": "Modulis aukštutiniškai atsinaujina",
         "verification_title": "(Pa-)Tikrinimas",
         "verify_fail_tips": "Failo (pa-)tikrinimas nepavyko, prašome įkelti failą iš naujo.",
-        "not_gl_tips": "Aptiktas neoficialus failas, tęskite atsargiai su nuožiūra."
+        "not_gl_tips": "Aptiktas neoficialus failas, tęskite atsargiai su nuožiūra.",
+        "online_upgrade_title": "Modemo internetinis atnaujinimas",
+        "local_install_fail_tips": "Vietinio modemo atnaujinimo diegimas nepavyko, prašome iš naujo įkelti",
+        "local_upgrade_title": "Vietinis modemo atnaujinimas",
+        "is_update_tips": "Modemas yra atnaujintas.",
+        "upgrading_title": "Modemo atnaujinimas",
+        "downloading_tips": "Modemas atsisiunčiamas......",
+        "install_success_tips": "Modemas sėkmingai įdiegtas, įrenginys ruošiasi paleisti iš naujo.",
+        "local_upgrade_tips": "Galite atnaujinti modemo programinę įrangą, kad gautumėte naujausias klaidų pataisas.",
+        "upgrade_tips": "Nepalikite įrenginio maitinimo atnaujinimo metu. Procesas gali užtrukti kelias minutes, o atnaujinimo pabaigoje įrenginys bus automatiškai paleistas iš naujo."
     }
 }

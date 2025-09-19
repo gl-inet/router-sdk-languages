@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "This mode will automatically and temporarily disable {feature}.",
         "portal_auth_required_title": "Portal Authentication Required",
         "support_channel_tips": "The following Wi-Fi channels are supported. Please ensure that the Wi-Fi network you're connecting to uses one of them.",
-        "auto_switching_without_network_tips": "When {mode} mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss."
+        "auto_switching_without_network_tips": "When {mode} mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss.",
+        "band_conflict_tips": "For stable connection, when repeater is enabled, Guest Wi-Fi will be disabled and the 5GHz/6GHz Wi-Fi band will automatically match repeater. If your device does not reconnect automatically, please connect to Wi-Fi manually."
     },
     "modem": {
         "title": "Cellular",
@@ -233,7 +234,8 @@
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
-        "lan_Client": "LAN Clients"
+        "lan_Client": "LAN Clients",
+        "usb_client": "USB Client"
     },
     "sms": {
         "title": "SMS",
@@ -303,7 +305,8 @@
         "success_copy": "Copy successful",
         "reboot_sucess": "Success, please wait for $$$$ seconds.",
         "export_debug_info": "Export Debug Info",
-        "hardware_reset": "Hard Reboot"
+        "hardware_reset": "Hard Reboot",
+        "unknown_command_msg": "Unknown command"
     },
     "menu_internet": "Internet",
     "guide": {

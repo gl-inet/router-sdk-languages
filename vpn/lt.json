@@ -493,5 +493,14 @@
         "start_title": "Dėmesio: Paleisti TAP-S2S klientą",
         "start_disable_tips": "Visi esami tuneliai bus išjungti ir paslėpti.",
         "astrowarp_up_tips": "Astrowarp ir TAP-S2S klientas negali veikti vienu metu. Prašome rankiniu būdu išjungti Astrowarp."
+    },
+    "vpn_obfuscation": {
+        "enable_label": "Įjungti slėpimą",
+        "parameters_label": "Slėpimo parametrai",
+        "set_parameters_tips_2": "Galite juos redaguoti rankiniu būdu, jei esate susipažinę su AmneziaWG slėpimu, arba naudoti automatiškai sugeneruotus.",
+        "enable_tips": "Įjungus, VPN serveris naudoja AmneziaWG slėpimo protokolą, kad užmaskuotų VPN srautą.",
+        "set_parameters_btn": "Nustatyti slėpimo parametrus",
+        "set_parameters_tips_1": "Maršrutizatorius automatiškai generuoja slėpimo parametrus.",
+        "wg_client_parameters_tips": "Slėpimo parametrus nustato serveris. Nereikia jų keisti po konfigūracijos failo importavimo."
     }
 }

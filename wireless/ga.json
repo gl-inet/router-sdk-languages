@@ -39,8 +39,11 @@
         "guest_wifi_unavailable_tips": "Níl Wi-Fi Aíonna ar fáil mar go bhfuil {repeater} cumasaithe.",
         "band_6g_bandwidth_limit_160mhz_tips": "Nuair a bhíonn Wi-Fi 2.4GHz agus 6GHz araon cumasaithe, tá an banda 6GHz teoranta go bandaleithead uasta de 160MHz.",
         "cannot_detect_6g_network_tips": "D'fhéadfadh sé nach mbeadh roinnt gléasanna in ann Wi-Fi 6GHz a bhrath. Is féidir leat 2.4GHz agus 6GHz a chumasú araon chun comhoiriúnacht níos fearr a fháil.",
-        "wifi_band_mutex_tips": "Tá Wi-Fi 5GHz cumasaithe de réir réamhshocraithe. Má tharlaíonn sé i gcoimhlint leis an athsheoladán, déanfar an banda Wi-Fi a aistriú go huathoibríoch chuig Uathoibrithe.",
-        "wifi_band": "Band Wi-Fi"
+        "wifi_band": "Band Wi-Fi",
+        "repeater_band_conflict_tips": "Díchumasófar an banna a théann i gcoinne an athsheachadáin.",
+        "using_band": "Ag baint úsáide as {band}",
+        "wifi_sleep_tips": "Tá Wi-Fi faoi mhodh codlata faoi láthair agus nach bhfuil sé le feiceáil. Chun é a dhúiseacht, is féidir leat dul chuig {management} chun an modh codlata a dhíchumasú.",
+        "wifi_band_mutex_tips": "Tá Wi-Fi 5GHz cumasaithe de réir réamhshocraithe. Má bhíonn coimhlint ann leis an athsheoltóir, aistreofar an banda Wi-Fi go huathoibríoch go {auto}."
     },
     "menu_wireless": "Gan Sreang"
 }

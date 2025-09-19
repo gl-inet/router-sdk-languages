@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "Yükseltme",
     "cellular": {
-        "upgrade_tips": "Modül yükseltme işlemi sırasında lütfen gücü kapatmayın. Modül yükseltildikten sonra cihaz otomatik olarak yeniden başlayacak ve bu birkaç saniye sürebilir.",
-        "online_upgrade_title": "Modül Çevrimiçi Yükseltme",
-        "local_upgrade_tips": "Hücresel ağ bağlantısı başarısız olduğunda, sorunu çözmek için hücresel modülü yükseltmeyi deneyebilirsiniz.",
-        "is_update_tips": "Modül güncel.",
-        "local_upgrade_title": "Modül Yerel Yükseltme",
         "go_download_btn": "İndir",
         "current_label": "Mevcut Sürüm",
         "new_label": "Yeni Sürüm",
-        "downloading_tips": "Modül indiriliyor......",
-        "installing_tips": "Modül yükleniyor......",
-        "install_success_tips": "Modül başarıyla yüklendi, cihaz yeniden başlatılıyor.",
         "unzip_failed_tips": "Sıkıştırma başarısız",
         "verify_failed_tips": "Doğrulama başarısız",
-        "upgrading_title": "Modül Yükseltiliyor",
-        "local_install_fail_tips": "Modül yerel yükseltme kurulumu başarısız oldu, lütfen yeniden yükleyin",
         "not_gl_tips": "Resmi olmayan dosya algılandı, lütfen dikkatli devam edin.",
         "verification_title": "Doğrulama",
-        "verify_fail_tips": "Dosya doğrulama başarısız oldu, lütfen yeniden yükleyin."
+        "verify_fail_tips": "Dosya doğrulama başarısız oldu, lütfen yeniden yükleyin.",
+        "online_upgrade_title": "调制解调器在线升级",
+        "local_install_fail_tips": "Modem yerel yükseltme kurulumu başarısız oldu, lütfen tekrar yükleyin.",
+        "local_upgrade_title": "Modem Yerel Yükseltme",
+        "is_update_tips": "Modem güncel.",
+        "upgrading_title": "Modem Güncelleme",
+        "downloading_tips": "Modem indiriliyor......",
+        "install_success_tips": "Modem başarıyla kuruldu, cihaz yeniden başlatılacak.",
+        "local_upgrade_tips": "Modem yazılımını en son hata düzeltmelerini almak için güncelleyebilirsiniz.",
+        "upgrade_tips": "Lütfen yükseltme sırasında cihazın gücünü kesmeyin. İşlem birkaç dakika sürebilir ve yükseltme tamamlandığında cihaz otomatik olarak yeniden başlayacaktır."
     }
 }

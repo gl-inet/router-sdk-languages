@@ -39,8 +39,11 @@
         "guest_wifi_unavailable_tips": "게스트 Wi-Fi는 {repeater}가 활성화되어 있기 때문에 사용할 수 없습니다.",
         "band_6g_bandwidth_limit_160mhz_tips": "2.4GHz와 6GHz Wi-Fi가 모두 활성화된 경우, 6GHz 대역은 최대 160MHz 대역폭으로 제한됩니다.",
         "cannot_detect_6g_network_tips": "일부 기기는 6GHz Wi-Fi를 감지하지 못할 수 있습니다. 더 나은 호환성을 위해 2.4GHz와 6GHz를 모두 활성화할 수 있습니다.",
-        "wifi_band_mutex_tips": "5GHz Wi-Fi는 기본적으로 활성화되어 있습니다. 리피터와 충돌할 경우 Wi-Fi 대역이 자동으로 Auto로 전환됩니다.",
-        "wifi_band": "Wi-Fi 대역"
+        "wifi_band": "Wi-Fi 대역",
+        "repeater_band_conflict_tips": "중계기와 충돌하는 대역은 비활성화됩니다.",
+        "using_band": "{band} 사용",
+        "wifi_sleep_tips": "Wi-Fi가 현재 절전 모드로 설정되어 표시되지 않습니다. 절전 모드를 해제하려면 {management}로 이동하여 설정을 변경하세요.",
+        "wifi_band_mutex_tips": "5GHz Wi-Fi는 기본적으로 활성화되어 있습니다. 리피터와 충돌하는 경우 Wi-Fi 대역이 자동으로 {auto}로 전환됩니다."
     },
     "menu_wireless": "무선"
 }

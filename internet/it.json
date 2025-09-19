@@ -117,7 +117,8 @@
         "portal_disable_feature_tips": "Questa modalità disabiliterà automaticamente e temporaneamente {feature}.",
         "portal_auth_required_title": "Autenticazione Portale Richiesta",
         "support_channel_tips": "Sono supportati i seguenti canali Wi-Fi. Assicurati che la rete Wi-Fi a cui ti connetti ne utilizzi uno.",
-        "auto_switching_without_network_tips": "Quando la modalità {mode} è abilitata, il router non eseguirà automaticamente la scansione delle reti quando è connesso con successo in modalità non ripetitore, e proverà a passare automaticamente ad altre reti salvate solo quando il router è senza connessione, evitando così la perdita di pacchetti di comunicazione."
+        "auto_switching_without_network_tips": "Quando la modalità {mode} è abilitata, il router non eseguirà automaticamente la scansione delle reti quando è connesso con successo in modalità non ripetitore, e proverà a passare automaticamente ad altre reti salvate solo quando il router è senza connessione, evitando così la perdita di pacchetti di comunicazione.",
+        "band_conflict_tips": "Per garantire una connessione stabile, quando il ripetitore è attivato, il Wi-Fi Guest verrà disabilitato e la banda Wi-Fi a 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il dispositivo non si riconnette automaticamente, si prega di connettersi manualmente alla rete Wi-Fi."
     },
     "modem": {
         "title": "Cellulare",
@@ -233,7 +234,8 @@
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
-        "lan_Client": "Client LAN"
+        "lan_Client": "Client LAN",
+        "usb_client": "Client USB"
     },
     "sms": {
         "title": "SMS",
@@ -303,7 +305,8 @@
         "info": "Informazioni sul Modem",
         "soft_reset": "Riavvio soft",
         "export_debug_info": "Esporta informazioni di debug",
-        "hardware_reset": "Riavvio forzato"
+        "hardware_reset": "Riavvio forzato",
+        "unknown_command_msg": "Comando sconosciuto"
     },
     "menu_internet": "Internet",
     "guide": {

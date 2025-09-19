@@ -52,23 +52,22 @@
     },
     "menu_upgrade": "Aktualizacja",
     "cellular": {
-        "online_upgrade_title": "Aktualizacja Modułu Online",
-        "local_upgrade_title": "Lokalna Aktualizacja Modułu",
-        "local_install_fail_tips": "Instalacja lokalnej aktualizacji modułu nie powiodła się, proszę ponownie przesłać plik",
-        "is_update_tips": "Moduł jest aktualny.",
-        "upgrade_tips": "Proszę nie wyłączać zasilania podczas procesu aktualizacji modułu. Urządzenie automatycznie uruchomi się ponownie po aktualizacji modułu, co może zająć kilka sekund.",
         "go_download_btn": "Pobierz",
-        "installing_tips": "Instalacja modułu......",
         "unzip_failed_tips": "Błąd dekompresji",
         "verify_failed_tips": "Błąd weryfikacji",
         "current_label": "Aktualna Wersja",
-        "local_upgrade_tips": "Gdy sieć komórkowa zawiedzie, można spróbować zaktualizować moduł komórkowy, aby rozwiązać problem.",
         "new_label": "Nowa Wersja",
-        "downloading_tips": "Pobieranie modułu......",
-        "upgrading_title": "Aktualizacja Modułu",
-        "install_success_tips": "Moduł zainstalowany pomyślnie, urządzenie zaraz zostanie ponownie uruchomione.",
         "verification_title": "Weryfikacja",
         "verify_fail_tips": "Walidacja pliku nie powiodła się, proszę przesłać ponownie.",
-        "not_gl_tips": "Wykryto nieoficjalny plik, proszę postępować ostrożnie."
+        "not_gl_tips": "Wykryto nieoficjalny plik, proszę postępować ostrożnie.",
+        "online_upgrade_title": "Modem在线升级",
+        "local_install_fail_tips": "本地升级调制解调器安装失败，请重新上传。",
+        "local_upgrade_title": "Modem 本地升级",
+        "is_update_tips": "Modem jest aktualny.",
+        "upgrading_title": "调制解调器升级",
+        "downloading_tips": "Modem pobiera......",
+        "install_success_tips": "Modem został pomyślnie zainstalowany, urządzenie zaraz się zrestartuje.",
+        "local_upgrade_tips": "Możesz zaktualizować oprogramowanie modemu, aby uzyskać najnowsze poprawki błędów.",
+        "upgrade_tips": "Proszę nie wyłączać urządzenia podczas aktualizacji. Proces może potrwać kilka minut, a urządzenie uruchomi się ponownie automatycznie po zakończeniu aktualizacji."
     }
 }
