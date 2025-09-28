@@ -139,7 +139,11 @@
         "need_pin_tips": "SIM kart kilitli, lütfen bir PIN kodu girilip girilmediğini veya girilen PIN kodunun doğru olup olmadığını kontrol edin.",
         "region_code_label": "Ülke / Bölge Kodu",
         "band_block_warning": "Lütfen tüm bantları engellemeyin.",
-        "traffic_days_tips": "Maksimum gün sayısı, mevcut aydaki gerçek maksimum gün sayısını alır."
+        "traffic_days_tips": "Maksimum gün sayısı, mevcut aydaki gerçek maksimum gün sayısını alır.",
+        "network_type": "Ağ Türü",
+        "lock_pin_tips1": "{sim} kilitli. Lütfen {unlock}'a tıklayın ve kilidini açmak için PIN'i girin.",
+        "lock_pin_tips2": "{sim1} ve {sim2} kilitli. Lütfen her bir SIM'i kilidini açmak için {unlock1} veya {unlock2}'ye tıklayın ve ilgili PIN'i girin.",
+        "sim_unlock": "{sim} Kilidini Aç"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
