@@ -109,7 +109,11 @@
         "current_sim_badge_label": "Aktív: SIM {sim}",
         "good_singal_label": "Jó",
         "band_block_warning": "Kérjük, ne blokkolja az összes sávot.",
-        "traffic_days_tips": "A napok maximális száma az aktuális hónap tényleges maximális napjainak értékét veszi fel."
+        "traffic_days_tips": "A napok maximális száma az aktuális hónap tényleges maximális napjainak értékét veszi fel.",
+        "network_type": "Hálózati típus",
+        "lock_pin_tips1": "{sim} zárolva van. Kérjük, kattintson a {unlock} gombra, és adja meg a PIN-kódot a zárolás feloldásához.",
+        "sim_unlock": "{sim} Feloldás",
+        "lock_pin_tips2": "{sim1} és {sim2} zárolva van. Kérjük, kattintson a {unlock1} vagy {unlock2} elemre, és adja meg a megfelelő PIN-kódot az egyes SIM-ek feloldásához."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
