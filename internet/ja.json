@@ -230,7 +230,11 @@
         "need_pin_no_history_tips": "PINコードを入力する必要があり、残り{count}回の試行が可能です。",
         "region_code_label": "国/地域コード",
         "band_block_warning": "すべてのバンドをブロックしないでください。",
-        "traffic_days_tips": "最大日数は、当月の実際の最大日数の値が採用されます。"
+        "traffic_days_tips": "最大日数は、当月の実際の最大日数の値が採用されます。",
+        "network_type": "ネットワークタイプ",
+        "lock_pin_tips1": "{sim}はロックされています。{unlock}をクリックしてPINを入力し、ロックを解除してください。",
+        "sim_unlock": "{sim} アンロック",
+        "lock_pin_tips2": "{sim1}と{sim2}はロックされています。各SIMをアンロックするには、{unlock1}または{unlock2}をクリックし、対応するPINを入力してください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
