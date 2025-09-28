@@ -76,7 +76,9 @@
         "host_guest_label": "主/访客网络",
         "reserve_ip_different_lan_tips": "预留的IP与当前IP不在同一网段，该配置不生效。",
         "access_control_overlimit_tips": "{list} 已满。请在 {option} 中进行管理。",
-        "usb_tethering": "USB 网络共享"
+        "usb_tethering": "USB 网络共享",
+        "qos_warning": "客户端速度限制不可用，因为已启用$$$$QoS$$$$。",
+        "sqm_warning": "客户端速度限制不可用，因为已启用$$$$SQM$$$$。"
     },
     "menu_clients": "客户端",
     "vpn_tunnel": {
