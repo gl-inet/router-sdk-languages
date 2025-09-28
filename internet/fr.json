@@ -230,7 +230,11 @@
         "last_pin_tips": "Il reste un dernier essai pour déverrouiller le code PIN de cette carte SIM, si la saisie échoue à nouveau, vous devrez utiliser le code PUK pour la déverrouiller. Pour éviter que votre carte SIM ne soit bloquée, l'appareil ne numérotera plus, veuillez donc utiliser votre téléphone pour la déverrouiller.",
         "region_code_label": "Code du pays / région",
         "band_block_warning": "Veuillez ne pas bloquer toutes les bandes.",
-        "traffic_days_tips": "Le nombre maximum de jours prend la valeur du nombre maximum réel de jours dans le mois en cours."
+        "traffic_days_tips": "Le nombre maximum de jours prend la valeur du nombre maximum réel de jours dans le mois en cours.",
+        "network_type": "Type de réseau",
+        "lock_pin_tips1": "{sim} est verrouillé. Veuillez cliquer sur {unlock} et saisir le code PIN pour le déverrouiller.",
+        "sim_unlock": "{sim} Déverrouiller",
+        "lock_pin_tips2": "{sim1} et {sim2} sont verrouillés. Veuillez cliquer sur {unlock1} ou {unlock2} et saisir le code PIN correspondant pour déverrouiller chaque carte SIM."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
