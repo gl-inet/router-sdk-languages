@@ -85,5 +85,8 @@
         "mac_using_tips": "Le VPN est connecté.",
         "mac_not_effect_tips": "Le VPN n'est pas en vigueur.",
         "mac_connecting_tips": "La connexion VPN est en cours."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "Cette fonctionnalité n'est pas disponible car {flowstatistics}, {safeguard}, {qos} ou {sqm} est activé."
     }
 }
