@@ -230,7 +230,11 @@
         "need_pin_tips": "SIM-kaart is geblokkeerd, controleer of er een PIN-code is ingevoerd of dat de ingevoerde PIN-code correct is.",
         "region_code_label": "Landcode / Regiocode",
         "band_block_warning": "Blokkeer alstublieft niet alle banden.",
-        "traffic_days_tips": "Het maximale aantal dagen neemt de waarde aan van het werkelijke maximale aantal dagen in de huidige maand."
+        "traffic_days_tips": "Het maximale aantal dagen neemt de waarde aan van het werkelijke maximale aantal dagen in de huidige maand.",
+        "network_type": "Netwerktype",
+        "lock_pin_tips1": "{sim} is vergrendeld. Klik op {unlock} en voer de PIN in om deze te ontgrendelen.",
+        "sim_unlock": "{sim} Ontgrendelen",
+        "lock_pin_tips2": "{sim1} en {sim2} zijn vergrendeld. Klik op {unlock1} of {unlock2} en voer de bijbehorende PIN in om elke SIM te ontgrendelen."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
