@@ -296,7 +296,11 @@
         "auto_switch_label": "Automatyczne Przełączanie",
         "region_code_label": "Kod Kraju/Regionu",
         "band_block_warning": "Proszę nie blokować wszystkich pasm.",
-        "traffic_days_tips": "Maksymalna liczba dni przyjmuje wartość rzeczywistej maksymalnej liczby dni w bieżącym miesiącu."
+        "traffic_days_tips": "Maksymalna liczba dni przyjmuje wartość rzeczywistej maksymalnej liczby dni w bieżącym miesiącu.",
+        "network_type": "Typ sieci",
+        "lock_pin_tips1": "{sim} jest zablokowana. Kliknij {unlock} i wprowadź kod PIN, aby ją odblokować.",
+        "lock_pin_tips2": "{sim1} i {sim2} są zablokowane. Kliknij {unlock1} lub {unlock2} i wprowadź odpowiedni kod PIN, aby odblokować każdą kartę SIM.",
+        "sim_unlock": "Odblokuj {sim}"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
