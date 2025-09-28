@@ -85,5 +85,8 @@
         "mac_using_tips": "VPN已連接。",
         "mac_not_effect_tips": "VPN尚未生效。",
         "mac_connecting_tips": "VPN正在連接中。"
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "此功能不可用，因為已啟用 {flowstatistics}、{safeguard}、{qos} 或 {sqm}。"
     }
 }
