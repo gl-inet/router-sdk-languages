@@ -230,7 +230,11 @@
         "last_pin_tips": "Noch ein letzter Versuch ist offen, die PIN zum entsperren der SIM Karte einzugeben. Wenn diese falsch ist, wird der PUK Code benötigt um sie zu entsperren. Um eine Sperrung zu vermeiden wird sich der Router nicht mehr einwählen, bitte verwenden Sie die SIM Karte in einem Mobiltelefon zum entsperren.",
         "region_code_label": "Land-/Regionscode",
         "band_block_warning": "Bitte blockieren Sie nicht alle Bänder.",
-        "traffic_days_tips": "Die maximale Anzahl von Tagen entspricht dem tatsächlichen Höchstwert der Tage im aktuellen Monat."
+        "traffic_days_tips": "Die maximale Anzahl von Tagen entspricht dem tatsächlichen Höchstwert der Tage im aktuellen Monat.",
+        "network_type": "Netzwerktyp",
+        "lock_pin_tips2": "{sim1} und {sim2} sind gesperrt. Bitte klicken Sie auf {unlock1} oder {unlock2} und geben Sie die entsprechende PIN ein, um jede SIM-Karte zu entsperren.",
+        "lock_pin_tips1": "{sim} ist gesperrt. Bitte klicken Sie auf {unlock} und geben Sie die PIN ein, um sie zu entsperren.",
+        "sim_unlock": "{sim} entsperren"
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
