@@ -85,5 +85,8 @@
         "mac_using_tips": "VPN подключен.",
         "mac_not_effect_tips": "VPN не активирован.",
         "mac_connecting_tips": "VPN подключается."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "Эта функция недоступна, так как включены {flowstatistics}, {safeguard}, {qos} или {sqm}."
     }
 }
