@@ -230,7 +230,11 @@
         "need_pin_tips": "La tarjeta SIM está bloqueada, verifique si se introduzco un código PIN o si el código PIN introducido es correcto.",
         "region_code_label": "Código de país / región",
         "band_block_warning": "Por favor, no bloquee todas las bandas.",
-        "traffic_days_tips": "El número máximo de días toma el valor del número máximo real de días del mes actual."
+        "traffic_days_tips": "El número máximo de días toma el valor del número máximo real de días del mes actual.",
+        "network_type": "Tipo de Red",
+        "lock_pin_tips2": "{sim1} y {sim2} están bloqueadas. Haga clic en {unlock1} o {unlock2} e introduzca el PIN correspondiente para desbloquear cada SIM.",
+        "lock_pin_tips1": "{sim} está bloqueada. Haga clic en {unlock} e introduzca el PIN para desbloquearla.",
+        "sim_unlock": "Desbloquear {sim}"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
