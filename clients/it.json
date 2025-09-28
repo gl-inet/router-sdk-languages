@@ -76,7 +76,9 @@
         "host_guest_label": "Rete Host/Ospite",
         "reserve_ip_different_lan_tips": "L'IP riservato non è nello stesso segmento di rete dell'IP attuale, la configurazione non ha effetto.",
         "access_control_overlimit_tips": "L'elenco {list} è pieno. Gestiscilo in {option}.",
-        "usb_tethering": "USB Tethering"
+        "usb_tethering": "USB Tethering",
+        "sqm_warning": "La limitazione della velocità del client non è disponibile perché $$$$SQM$$$$ è abilitato.",
+        "qos_warning": "La limitazione della velocità del client non è disponibile perché $$$$QoS$$$$ è abilitato."
     },
     "menu_clients": "Client",
     "vpn_tunnel": {
