@@ -76,7 +76,9 @@
         "host_guest_label": "Gastnetwerk/Hostnetwerk",
         "reserve_ip_different_lan_tips": "Het gereserveerde IP bevindt zich niet in hetzelfde netwerksegment als het huidige IP, de configuratie wordt niet toegepast.",
         "access_control_overlimit_tips": "De {list} is vol. Beheer deze in {option}.",
-        "usb_tethering": "USB Tethering"
+        "usb_tethering": "USB Tethering",
+        "qos_warning": "Client Speed Limit is niet beschikbaar omdat $$$$QoS$$$$ is ingeschakeld.",
+        "sqm_warning": "Client Speed Limit is niet beschikbaar omdat $$$$SQM$$$$ is ingeschakeld."
     },
     "menu_clients": "Apparaten",
     "vpn_tunnel": {
