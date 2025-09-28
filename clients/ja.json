@@ -76,7 +76,9 @@
         "host_guest_label": "ホスト/ゲストネットワーク",
         "reserve_ip_different_lan_tips": "予約済みIPは現在のIPと同じネットワークセグメントにないため、設定は有効になりません。",
         "access_control_overlimit_tips": "{list} がフルです。{option} で管理してください。",
-        "usb_tethering": "USBテザリング"
+        "usb_tethering": "USBテザリング",
+        "qos_warning": "クライアント速度制限は$$$$QoS$$$$が有効になっているため利用できません。",
+        "sqm_warning": "クライアント速度制限は$$$$SQM$$$$が有効になっているため利用できません。"
     },
     "menu_clients": "クライアント",
     "vpn_tunnel": {
