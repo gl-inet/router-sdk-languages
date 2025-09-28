@@ -230,7 +230,11 @@
         "need_pin_tips": "SIM card is locked, please check if there is a PIN code entered or if the PIN code entered is correct.",
         "region_code_label": "Country / Region Code",
         "band_block_warning": "Please do not block all bands.",
-        "traffic_days_tips": "The maximum number of days takes the value of the actual maximum number of days in the current month."
+        "traffic_days_tips": "The maximum number of days takes the value of the actual maximum number of days in the current month.",
+        "network_type": "Network Type",
+        "lock_pin_tips2": "{sim1} and {sim2} are locked. Please click {unlock1} or {unlock2} and enter the corresponding PIN to unlock each SIM.",
+        "lock_pin_tips1": "{sim} is locked. Please click {unlock} and enter the PIN to unlock it.",
+        "sim_unlock": "{sim} Unlock"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
