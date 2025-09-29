@@ -239,7 +239,9 @@
         "select_active_sim_card": "Виберіть активну SIM-карту",
         "locked": "Заблоковано",
         "no_sim_card": "Немає SIM-карти",
-        "sim_info_label": "{sim} Інформація"
+        "sim_info_label": "{sim} Інформація",
+        "airplane_mode_tips": "Режим польоту увімкнено, мобільна мережа вимкнена.",
+        "dialing_exception_tips": "Будь ласка, перевірте конфігурацію вашого eSIM у {management}, щоб {topUp} дані. Якщо проблема не зникне, перевірте налаштування SIM-карти або зверніться до {addr}."
     },
     "sms": {
         "all_read": "Всі прочитані",
