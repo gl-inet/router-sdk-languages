@@ -244,7 +244,9 @@
         "select_active_sim_card": "Выбор активной SIM-карты",
         "locked": "Заблокировано",
         "no_sim_card": "Нет SIM-карты",
-        "sim_info_label": "{sim} Информация"
+        "sim_info_label": "{sim} Информация",
+        "airplane_mode_tips": "Режим полета включен, и сотовая сеть отключена.",
+        "dialing_exception_tips": "Пожалуйста, проверьте конфигурацию вашего eSIM в {management}, чтобы {topUp} данные. Если проблема сохраняется, проверьте настройки SIM-карты или обратитесь в {addr}."
     },
     "sms": {
         "forward_encryp_label": "Включить маскировку",
