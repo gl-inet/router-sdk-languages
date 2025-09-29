@@ -247,7 +247,9 @@
         "no_sim_card": "Aucune carte SIM",
         "airplane_mode_tips": "Le mode avion est activé et la connexion mobile est désactivée.",
         "dialing_exception_tips": "Veuillez vérifier votre configuration eSIM dans le {management} pour {topUp} les données. Si le problème persiste, vérifiez vos paramètres de carte SIM ou contactez {addr}.",
-        "download_esim_config_tips": "Veuillez vous connecter à internet pour télécharger le fichier de configuration eSIM."
+        "download_esim_config_tips": "Veuillez vous connecter à internet pour télécharger le fichier de configuration eSIM.",
+        "network_type_conflicts_tips": "La carte SIM actuelle utilise le réseau 5G, ce qui entre en conflit avec le type de réseau de la Tour. Veuillez vous rendre dans {settings} pour modifier d'abord le type de réseau, puis réessayer le verrouillage.",
+        "unlock_pin_count_tips": "Entrez le code PIN pour déverrouiller la carte SIM. {count} tentatives restantes."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
