@@ -155,7 +155,8 @@
         "no_sim_card": "SIM Kartı Yok",
         "sim_info_label": "{sim} Bilgileri",
         "airplane_mode_tips": "Uçak Modu açık ve hücresel ağ devre dışı bırakıldı.",
-        "dialing_exception_tips": "{management} üzerinden eSIM yapılandırmanızı kontrol ederek veri {topUp} yapın. Sorun devam ederse, SIM Kart Ayarlarınızı kontrol edin veya {addr} ile iletişime geçin."
+        "dialing_exception_tips": "{management} üzerinden eSIM yapılandırmanızı kontrol ederek veri {topUp} yapın. Sorun devam ederse, SIM Kart Ayarlarınızı kontrol edin veya {addr} ile iletişime geçin.",
+        "download_esim_config_tips": "Lütfen eSIM yapılandırma dosyasını indirmek için internete bağlanın."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -546,7 +547,8 @@
         "pin_code_last_input_unlock_tips": "PIN kodu {code} yanlış, kilidi açmak için son bir şans kaldı, yeniden başarısız olursa, PUK kodunu girmek için telefonunuzu kullanmanız gerekecek.",
         "ip_type_tips": "SIM kart mevcut IP Türü ayarını desteklemiyorsa veya IPv6 seçildiğinde {ipv6} genel anahtarı açık değilse, arama anormalliklerine neden olabilir.",
         "ip_type_label": "IP Türü",
-        "initializing_tips": "Modem başlatılıyor……"
+        "initializing_tips": "Modem başlatılıyor……",
+        "connecting_tips": "Bazı SIM kartların özel kullanım kısıtlamaları bulunur, örneğin belirli bir APN gerektirebilir. SIM kartınız kaydedilemiyorsa, özel kısıtlama olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin. {guide} \nSorun devam ederse, lütfen {log} oluşturun ve {addr} adresine gönderin."
     },
     "sim": {
         "sender_label": "Gönderen"
