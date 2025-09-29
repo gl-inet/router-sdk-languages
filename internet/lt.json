@@ -126,7 +126,9 @@
         "sim_info_label": "{sim} informacija",
         "airplane_mode_tips": "Lėktuvo režimas įjungtas, o mobilusis tinklas išjungtas.",
         "dialing_exception_tips": "Patikrinkite savo eSIM konfigūraciją {management}, kad {topUp} duomenis. Jei problema išlieka, patikrinkite SIM kortelės nustatymus arba susisiekite su {addr}.",
-        "download_esim_config_tips": "Prisijunkite prie interneto, kad atsisiųstumėte eSIM konfigūracijos failą."
+        "download_esim_config_tips": "Prisijunkite prie interneto, kad atsisiųstumėte eSIM konfigūracijos failą.",
+        "unlock_pin_count_tips": "Įveskite PIN, kad atrakintumėte SIM kortelę. Liko {count} bandymai.",
+        "network_type_conflicts_tips": "Dabartinis SIM kortelės tinklo tipas yra 5G, kuris prieštarauja bokšto tinklo tipui. Prašome eiti į {settings}, kad pirmiausia pakeistumėte tinklo tipą, tada bandykite užrakinti dar kartą."
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
