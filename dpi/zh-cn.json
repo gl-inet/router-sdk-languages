@@ -80,5 +80,16 @@
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
-    "menu_flowstatistics": "数据统计"
+    "menu_flowstatistics": "数据统计",
+    "menu_contentprotection": "内容保护",
+    "contentprotection": {
+        "contentprotection_tips": "启用后，您的路由器将自动屏蔽成人、赌博和恶意网站，为您的家人营造清洁安全的网络环境。",
+        "blocking_list_title": "拦截应用列表 ({applength})",
+        "add_app_btn": "添加应用",
+        "blocking_domain_list_title": "拦截域名/IP列表 ({count})",
+        "apps_drawer_title": "指定应用",
+        "apps_search_placeholder": "应用名称",
+        "show_only_selected_label": "仅显示选中项",
+        "no_app_tips": "无受限应用"
+    }
 }
