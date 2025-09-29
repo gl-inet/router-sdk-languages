@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Statistiche dei Dati"
+    "menu_flowstatistics": "Statistiche dei Dati",
+    "menu_contentprotection": "Protezione Contenuti",
+    "contentprotection": {
+        "blocking_list_title": "Lista Blocco APP ({applength})",
+        "add_app_btn": "Aggiungi APP",
+        "blocking_domain_list_title": "Lista Blocco Dominio / IP ({count})",
+        "apps_drawer_title": "App Specificate",
+        "apps_search_placeholder": "Nome App",
+        "show_only_selected_label": "Mostra solo l'elemento selezionato",
+        "contentprotection_tips": "Quando abilitata, il tuo router blocca automaticamente siti web per adulti, di gioco d'azzardo e dannosi, creando un ambiente online pulito e sicuro per la tua famiglia.",
+        "no_app_tips": "Nessuna App Limitata"
+    }
 }
