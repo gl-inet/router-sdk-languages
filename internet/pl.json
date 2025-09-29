@@ -184,7 +184,8 @@
         "export_debug_info": "Eksportuj informacje do debugowania",
         "hardware_reset": "Twardy Restart",
         "title": "Zarządzanie",
-        "unknown_command_msg": "Nieznane polecenie"
+        "unknown_command_msg": "Nieznane polecenie",
+        "sim_slot": "Gniazdo karty SIM"
     },
     "modem": {
         "user_name": "Nazwa Użytkownika",
@@ -315,7 +316,8 @@
         "dialing_exception_tips": "Sprawdź konfigurację eSIM w {management}, aby {topUp} dane. Jeśli problem nadal występuje, sprawdź ustawienia karty SIM lub skontaktuj się z {addr}.",
         "download_esim_config_tips": "Proszę połączyć się z internetem, aby pobrać plik konfiguracyjny eSIM.",
         "unlock_pin_count_tips": "Wprowadź PIN, aby odblokować kartę SIM. Pozostało {count} prób.",
-        "network_type_conflicts_tips": "Obecny typ sieci karty SIM to 5G, co jest niezgodne z typem sieci Tower. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować."
+        "network_type_conflicts_tips": "Obecny typ sieci karty SIM to 5G, co jest niezgodne z typem sieci Tower. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować.",
+        "network_type_tips": "Wybierz 5G dla szybszej prędkości (wymaga sygnału 5G) lub 4G dla stabilności."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
