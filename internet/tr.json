@@ -156,7 +156,9 @@
         "sim_info_label": "{sim} Bilgileri",
         "airplane_mode_tips": "Uçak Modu açık ve hücresel ağ devre dışı bırakıldı.",
         "dialing_exception_tips": "{management} üzerinden eSIM yapılandırmanızı kontrol ederek veri {topUp} yapın. Sorun devam ederse, SIM Kart Ayarlarınızı kontrol edin veya {addr} ile iletişime geçin.",
-        "download_esim_config_tips": "Lütfen eSIM yapılandırma dosyasını indirmek için internete bağlanın."
+        "download_esim_config_tips": "Lütfen eSIM yapılandırma dosyasını indirmek için internete bağlanın.",
+        "unlock_pin_count_tips": "SIM'i açmak için PIN girin. {count} deneme hakkı kaldı.",
+        "network_type_conflicts_tips": "Mevcut SIM kart ağ türü 5G'dir ve Kulenin ağ türüyle çakışmaktadır. Lütfen önce ağ türünü değiştirmek için {settings} bölümüne gidin, ardından tekrar kilitlemeyi deneyin."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
