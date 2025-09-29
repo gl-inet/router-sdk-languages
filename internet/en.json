@@ -247,7 +247,9 @@
         "sim_info_label": "{sim} Information",
         "airplane_mode_tips": "Airplane Mode is on, and cellular network is disabled.",
         "dialing_exception_tips": "Please check your eSIM configuration in the {management} to {topUp} data. If the issue persists, check your SIM Card Settings or contact {addr}.",
-        "download_esim_config_tips": "Please connect to the internet to download the eSIM configuration file."
+        "download_esim_config_tips": "Please connect to the internet to download the eSIM configuration file.",
+        "network_type_conflicts_tips": "The current SIM card network type is 5G, which conflicts with the Tower's network type. Please go to {settings} to modify the network type first, then try locking again.",
+        "unlock_pin_count_tips": "Enter PIN to unlock SIM. {count} attempts remaining."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
