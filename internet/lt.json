@@ -125,7 +125,8 @@
         "no_sim_card": "Nėra SIM kortelės",
         "sim_info_label": "{sim} informacija",
         "airplane_mode_tips": "Lėktuvo režimas įjungtas, o mobilusis tinklas išjungtas.",
-        "dialing_exception_tips": "Patikrinkite savo eSIM konfigūraciją {management}, kad {topUp} duomenis. Jei problema išlieka, patikrinkite SIM kortelės nustatymus arba susisiekite su {addr}."
+        "dialing_exception_tips": "Patikrinkite savo eSIM konfigūraciją {management}, kad {topUp} duomenis. Jei problema išlieka, patikrinkite SIM kortelės nustatymus arba susisiekite su {addr}.",
+        "download_esim_config_tips": "Prisijunkite prie interneto, kad atsisiųstumėte eSIM konfigūracijos failą."
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "PIN kodas {code} yra neteisingas, liko paskutinė bandymo galimybė atrakinti, jei atrakinimas vėl nepavyks, turėsite naudoti savo telefoną, kad įvestumėte PUK kodą atrakinimui.",
         "ip_type_tips": "Jei SIM kortelė nepalaiko dabartinio IP tipo nustatymo arba kai pasirenkamas IPv6, bet {ipv6} visuotinis komutatorius nėra įjungtas, tai gali sukelti skambinimo sutrikimus.",
         "ip_type_label": "IP tipas",
-        "initializing_tips": "Modemas yra inicijuojamas……"
+        "initializing_tips": "Modemas yra inicijuojamas……",
+        "connecting_tips": "Kai kurios SIM kortelės turi specialius naudojimo apribojimus, pavyzdžiui, reikalauja konkretaus APN. Jei jūsų SIM kortelė negali būti užregistruota, susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus. {guide} \nJei problema išlieka, prašome {log} ir atsiųskite jį {addr}."
     },
     "sim": {
         "sender_label": "Siuntėjas"
