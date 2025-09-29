@@ -246,7 +246,8 @@
         "locked": "Bloqueado",
         "no_sim_card": "Sin tarjeta SIM",
         "airplane_mode_tips": "El modo avión está activado y la red móvil está deshabilitada.",
-        "dialing_exception_tips": "Por favor, verifique su configuración eSIM en {management} para {topUp} datos. Si el problema persiste, revise su Configuración de Tarjeta SIM o contacte a {addr}."
+        "dialing_exception_tips": "Por favor, verifique su configuración eSIM en {management} para {topUp} datos. Si el problema persiste, revise su Configuración de Tarjeta SIM o contacte a {addr}.",
+        "download_esim_config_tips": "Por favor, conéctese a internet para descargar el archivo de configuración de eSIM."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "El código PIN {code} es incorrecto, queda un último intento para desbloquearlo, si vuelve a fallar, necesitará usar su teléfono para ingresar el código PUK y desbloquearlo.",
         "ip_type_tips": "Si la tarjeta SIM no admite la configuración de tipo de IP actual, o cuando se selecciona IPv6 pero el interruptor global {ipv6} no está activado, puede resultar en anomalías de marcación.",
         "ip_type_label": "Tipo de IP",
-        "initializing_tips": "El módem se está inicializando…"
+        "initializing_tips": "El módem se está inicializando…",
+        "connecting_tips": "Algunas tarjetas SIM tienen restricciones de uso especiales, como requerir un APN específico. Si su tarjeta SIM no puede registrarse, contacte a su operador de red para verificar si existen restricciones especiales. {guide} \nSi el problema persiste, por favor {log} y envíelo a {addr}."
     },
     "sim": {
         "sender_label": "Remitente"
