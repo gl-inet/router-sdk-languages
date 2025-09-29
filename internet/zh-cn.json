@@ -244,7 +244,9 @@
         "select_active_sim_card": "选择活动SIM卡",
         "locked": "已锁定",
         "no_sim_card": "无SIM卡",
-        "sim_info_label": "{sim} 信息"
+        "sim_info_label": "{sim} 信息",
+        "airplane_mode_tips": "飞行模式已开启，蜂窝网络已禁用。",
+        "dialing_exception_tips": "请前往{management}检查您的eSIM配置以{topUp}数据。如果问题仍然存在，请检查您的SIM卡设置或联系{addr}。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
