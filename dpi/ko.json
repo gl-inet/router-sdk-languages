@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "데이터 통계"
+    "menu_flowstatistics": "데이터 통계",
+    "menu_contentprotection": "콘텐츠 보호",
+    "contentprotection": {
+        "contentprotection_tips": "활성화 시 라우터가 성인, 도박 및 악성 웹사이트를 자동으로 차단하여 가족을 위한 깨끗하고 안전한 온라인 환경을 조성합니다.",
+        "blocking_list_title": "차단 앱 목록 ({applength})",
+        "add_app_btn": "앱 추가",
+        "blocking_domain_list_title": "차단 도메인 / IP 목록 ({count})",
+        "apps_drawer_title": "지정된 앱",
+        "apps_search_placeholder": "앱 이름",
+        "show_only_selected_label": "선택된 항목만 표시",
+        "no_app_tips": "제한된 앱 없음"
+    }
 }
