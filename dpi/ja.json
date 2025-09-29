@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "データ統計"
+    "menu_flowstatistics": "データ統計",
+    "contentprotection": {
+        "blocking_list_title": "ブロックアプリリスト ({applength})",
+        "add_app_btn": "アプリ追加",
+        "no_app_tips": "制限アプリなし",
+        "blocking_domain_list_title": "ブロックドメイン/IPリスト ({count})",
+        "apps_drawer_title": "指定アプリ",
+        "apps_search_placeholder": "アプリ名",
+        "show_only_selected_label": "選択項目のみ表示",
+        "contentprotection_tips": "有効にすると、ルーターが自動的にアダルトサイト、ギャンブルサイト、悪意のあるウェブサイトをブロックし、家族のための清潔で安全なオンライン環境を作り出します。"
+    },
+    "menu_contentprotection": "コンテンツ保護"
 }
