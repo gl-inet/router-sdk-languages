@@ -247,7 +247,9 @@
         "sim_info_label": "{sim} 信息",
         "airplane_mode_tips": "La modalità aereo è attiva e la rete cellulare è disabilitata.",
         "dialing_exception_tips": "Verifica la configurazione del tuo eSIM in {management} per {topUp} i dati. Se il problema persiste, controlla le impostazioni della scheda SIM o contatta {addr}.",
-        "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM."
+        "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM.",
+        "unlock_pin_count_tips": "Inserire il PIN per sbloccare la SIM. {count} tentativi rimanenti.",
+        "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è 5G, che è in conflitto con la tipologia di rete della Torre. Si prega di andare su {settings} per modificare prima la tipologia di rete, quindi provare a bloccare nuovamente."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
