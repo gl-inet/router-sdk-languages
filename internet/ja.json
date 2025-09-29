@@ -249,7 +249,8 @@
         "dialing_exception_tips": "{management}でeSIMの設定を確認し、データを{topUp}してください。問題が解決しない場合は、SIMカード設定を確認するか、{addr}にお問い合わせください。",
         "download_esim_config_tips": "インターネットに接続してeSIM設定ファイルをダウンロードしてください。",
         "unlock_pin_count_tips": "SIMをアンロックするにはPINを入力してください。残り{count}回試行できます。",
-        "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは5Gですが、タワーのネットワークタイプと競合しています。まず{settings}でネットワークタイプを変更してから、再度ロックを試みてください。"
+        "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは5Gですが、タワーのネットワークタイプと競合しています。まず{settings}でネットワークタイプを変更してから、再度ロックを試みてください。",
+        "network_type_tips": "高速通信のため5Gを選択（5G信号が必要）、または安定性のため4Gを選択してください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -272,7 +273,8 @@
         "info": "Modem情報",
         "soft_reset": "ソフトリブート",
         "hardware_reset": "ハードリブート",
-        "unknown_command_msg": "不明なコマンド"
+        "unknown_command_msg": "不明なコマンド",
+        "sim_slot": "SIMスロット"
     },
     "sms": {
         "title": "メッセージ",
