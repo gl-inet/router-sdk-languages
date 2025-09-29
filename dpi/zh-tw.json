@@ -80,5 +80,16 @@
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
-    "menu_flowstatistics": "數據統計"
+    "menu_flowstatistics": "數據統計",
+    "menu_contentprotection": "內容保護",
+    "contentprotection": {
+        "blocking_list_title": "封鎖應用程式清單 ({applength})",
+        "add_app_btn": "新增應用程式",
+        "no_app_tips": "無限制應用程式",
+        "blocking_domain_list_title": "封鎖網域/IP清單 ({count})",
+        "apps_drawer_title": "指定應用程式",
+        "apps_search_placeholder": "應用程式名稱",
+        "show_only_selected_label": "僅顯示已選項目",
+        "contentprotection_tips": "啟用後，您的路由器將自動封鎖成人、賭博及惡意網站，為您的家庭營造純淨安全的網路環境。"
+    }
 }
