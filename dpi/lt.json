@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Duomenų statistika"
+    "menu_flowstatistics": "Duomenų statistika",
+    "menu_contentprotection": "Turinio apsauga",
+    "contentprotection": {
+        "contentprotection_tips": "Įjungus, jūsų maršrutizatorius automatiškai blokuoja suaugusiųjų, lošimų ir kenkėjiškų svetainių turinį, sukurdamas švarią ir saugią interneto aplinką jūsų šeimai.",
+        "blocking_list_title": "Blokuojamų programų sąrašas ({applength})",
+        "add_app_btn": "Pridėti programą",
+        "no_app_tips": "Nėra apribotų programų",
+        "apps_drawer_title": "Nurodytos programos",
+        "apps_search_placeholder": "Programos pavadinimas",
+        "show_only_selected_label": "Rodyti tik pasirinktą elementą",
+        "blocking_domain_list_title": "Blokuojamų domenų / IP sąrašas ({count})"
+    }
 }
