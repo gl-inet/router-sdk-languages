@@ -247,7 +247,9 @@
         "sim_info_label": "{sim} 資訊",
         "airplane_mode_tips": "飛行模式已開啟，蜂窩網路已停用。",
         "dialing_exception_tips": "請在{management}中檢查您的eSIM配置以{topUp}數據。若問題持續存在，請檢查您的SIM卡設定或聯繫{addr}。",
-        "download_esim_config_tips": "請連接網際網路以下載eSIM設定檔。"
+        "download_esim_config_tips": "請連接網際網路以下載eSIM設定檔。",
+        "unlock_pin_count_tips": "輸入PIN碼以解鎖SIM卡。剩餘{count}次嘗試。",
+        "network_type_conflicts_tips": "目前SIM卡網路類型為5G，與基地台的網路類型衝突。請前往{settings}修改網路類型後，再嘗試鎖定。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
