@@ -244,7 +244,9 @@
         "select_active_sim_card": "활성 SIM 카드 선택",
         "no_sim_card": "SIM 카드 없음",
         "locked": "잠김",
-        "sim_info_label": "{sim} 정보"
+        "sim_info_label": "{sim} 정보",
+        "airplane_mode_tips": "비행기 모드가 켜져 있으며, 셀룰러 네트워크가 비활성화되었습니다.",
+        "dialing_exception_tips": "{management}에서 eSIM 구성을 확인하여 데이터를 {topUp}하세요. 문제가 지속되면 SIM 카드 설정을 확인하거나 {addr}에 문의하십시오."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
