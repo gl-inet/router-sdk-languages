@@ -244,7 +244,9 @@
         "select_active_sim_card": "Select Active SIM Card",
         "locked": "Locked",
         "no_sim_card": "No SIM Card",
-        "sim_info_label": "{sim} Information"
+        "sim_info_label": "{sim} Information",
+        "airplane_mode_tips": "Airplane Mode is on, and cellular network is disabled.",
+        "dialing_exception_tips": "Please check your eSIM configuration in the {management} to {topUp} data. If the issue persists, check your SIM Card Settings or contact {addr}."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
