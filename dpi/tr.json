@@ -80,5 +80,16 @@
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
-    "menu_flowstatistics": "Veri İstatistikleri"
+    "menu_flowstatistics": "Veri İstatistikleri",
+    "menu_contentprotection": "İçerik Koruması",
+    "contentprotection": {
+        "blocking_list_title": "Engellenen Uygulama Listesi ({applength})",
+        "add_app_btn": "Uygulama Ekle",
+        "blocking_domain_list_title": "Engellenen Alan Adı / IP Listesi ({count})",
+        "apps_drawer_title": "Belirtilen Uygulamalar",
+        "apps_search_placeholder": "Uygulama Adı",
+        "show_only_selected_label": "Yalnızca seçili öğeyi göster",
+        "contentprotection_tips": "Etkinleştirildiğinde, yönlendiriciniz yetişkinlere yönelik, kumar ve kötü amaçlı web sitelerini otomatik olarak engelleyerek aileniz için temiz, güvenli bir çevrimiçi ortam oluşturur.",
+        "no_app_tips": "Kısıtlanmış Uygulama Yok"
+    }
 }
