@@ -246,7 +246,8 @@
         "no_sim_card": "SIMカードがありません",
         "sim_info_label": "{sim}情報",
         "airplane_mode_tips": "機内モードがオンになっており、セルラーネットワークは無効になっています。",
-        "dialing_exception_tips": "{management}でeSIMの設定を確認し、データを{topUp}してください。問題が解決しない場合は、SIMカード設定を確認するか、{addr}にお問い合わせください。"
+        "dialing_exception_tips": "{management}でeSIMの設定を確認し、データを{topUp}してください。問題が解決しない場合は、SIMカード設定を確認するか、{addr}にお問い合わせください。",
+        "download_esim_config_tips": "インターネットに接続してeSIM設定ファイルをダウンロードしてください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -534,7 +535,8 @@
         "manual_lock_operator_label": "マニュアル",
         "ip_type_tips": "SIMカードがご利用のIPタイプ設定をサポートしていない場合、またはIPv6が選択されているのに{ipv6}グローバルスイッチがオンになっていない場合、ダイヤル異常が発生する可能性があります。",
         "ip_type_label": "IPタイプ",
-        "initializing_tips": "モデムの初期化中……"
+        "initializing_tips": "モデムの初期化中……",
+        "connecting_tips": "一部のSIMカードには、特定のAPNの使用など特別な利用制限があります。SIMカードが登録できない場合は、ネットワーク事業者に連絡して特別な制限がないか確認してください。{guide}\n問題が解決しない場合は、{log}を取得し、{addr}に送信してください。"
     },
     "sim": {
         "sender_label": "送信者"
