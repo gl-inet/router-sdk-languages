@@ -246,7 +246,8 @@
         "no_sim_card": "無SIM卡",
         "sim_info_label": "{sim} 資訊",
         "airplane_mode_tips": "飛行模式已開啟，蜂窩網路已停用。",
-        "dialing_exception_tips": "請在{management}中檢查您的eSIM配置以{topUp}數據。若問題持續存在，請檢查您的SIM卡設定或聯繫{addr}。"
+        "dialing_exception_tips": "請在{management}中檢查您的eSIM配置以{topUp}數據。若問題持續存在，請檢查您的SIM卡設定或聯繫{addr}。",
+        "download_esim_config_tips": "請連接網際網路以下載eSIM設定檔。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "PIN碼{code}不正確，這是最後一次嘗試解鎖的機會，如果再次解鎖失敗，您需要使用手機輸入PUK碼進行解鎖。",
         "ip_type_tips": "如果SIM卡不支持當前的IP類型設置，或者選擇了IPv6但{ipv6}全局開關未打開，可能會導致撥號異常。",
         "ip_type_label": "IP類型",
-        "initializing_tips": "调制解调器正在初始化中……"
+        "initializing_tips": "调制解调器正在初始化中……",
+        "connecting_tips": "某些SIM卡有特殊的使用限制，例如需要特定的APN。若您的SIM卡無法註冊，請聯繫您的網路運營商檢查是否有特殊限制。{guide} \n若問題持續存在，請{log}並將其發送至{addr}。"
     },
     "sim": {
         "sender_label": "發件人"
