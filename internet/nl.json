@@ -247,7 +247,9 @@
         "sim_info_label": "{sim}-informatie",
         "airplane_mode_tips": "Vliegtuigmodus is ingeschakeld en het mobiele netwerk is uitgeschakeld.",
         "dialing_exception_tips": "Controleer uw eSIM-configuratie in de {management} om data {topUp}. Als het probleem aanhoudt, controleer uw SIM-kaartinstellingen of neem contact op met {addr}.",
-        "download_esim_config_tips": "Verbind u met internet om het eSIM-configuratiebestand te downloaden."
+        "download_esim_config_tips": "Verbind u met internet om het eSIM-configuratiebestand te downloaden.",
+        "unlock_pin_count_tips": "Voer PIN in om SIM te ontgrendelen. {count} pogingen resterend.",
+        "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is 5G, wat conflicteert met het netwerktype van de toren. Ga naar {settings} om eerst het netwerktype aan te passen en probeer dan opnieuw te vergrendelen."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
