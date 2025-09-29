@@ -5,7 +5,10 @@
         "queue_label": "Riail Scuaine",
         "upload_tips": "Socraigh do luasanna uaslódála agus íoslódála uasta ar dtús (raon ionchuir: 1–10000) le haghaidh sceidealú tráchta. Oir iad do do leithead banda idirlín iarbhír chun na torthaí is fearr a fháil.",
         "upload_label": "Uaslódáil",
-        "tips": "Nuair a chuirtear ar siúl é, bainistíonn do ródaire trácht an líonra go cliste chun cosc a chur ar aon ghléas nó feidhmchlár amháin an iomarca bandaleithid a úsáid. Laghdaíonn sé seo moill agus maolánú le haghaidh brabhsála níos tapúla, glaonna níos soiléire, agus cluichí níos réidhe."
+        "tips": "Nuair a chuirtear ar siúl é, bainistíonn do ródaire trácht an líonra go cliste chun cosc a chur ar aon ghléas nó feidhmchlár amháin an iomarca bandaleithid a úsáid. Laghdaíonn sé seo moill agus maolánú le haghaidh brabhsála níos tapúla, glaonna níos soiléire, agus cluichí níos réidhe.",
+        "title": "SQM",
+        "qos_enable_warning": "Tá SQM neamh-infheidhme toisc go bhfuil $$$$QoS$$$$ cumasaithe.",
+        "network_acceleration_warning": "Ní féidir leis an ngné seo oibriú le chéile le {network}. Má chuirtear ar siúl é, díchumasaíonn sé Luathú Líonra go huathoibríoch chun oibriú ceart a chinntiú."
     },
     "qos": {
         "mode_title": "Leithdháil bandaleithead bunaithe ar thosaíocht an fheidhmchláir.",
@@ -40,7 +43,16 @@
         "other_description": "Ag san áireamh ciberslándáil, gléas-iot, rialtas, teicneolaíocht, teileachumarsáide, ciberslándáil, vpn-agus-seachfhreastalaí, neamhaicmithe",
         "meeting_priority": "Tosaíocht Cruinnithe",
         "tips": "Nuair a bhíonn sé cumasaithe, tugann do ródaire tosaíocht do leithead banda le haghaidh feidhmchláir ríthábhachtacha (e.g., glaonna físe, ranganna ar líne, cluichí), ag cinntiú go n-oibríonn sé go réidh fiú le linn úsáid bhuaic an líonra.",
-        "title": "QoS"
+        "title": "QoS",
+        "quality_title": "Cumasaigh QoS",
+        "customize_priority": "Saincheap",
+        "high_label": "Ardtosaíocht",
+        "education_description": "Lena n-áirítear ardáin foghlama ar líne, acmhainní acadúla",
+        "work_name": "Obair",
+        "work_description": "Lena n-áirítear voip, cian-deasc, comhroinnt comhad, post, airgeadais, tagairt",
+        "advertisement_name": "Fógraíocht",
+        "advertisement_description": "Lena n-áirítear líonraí fógraíochta, ardáin rianúcháin, ábair fógraíochta",
+        "custom_drawer_tips_two": "Nóta: Seoltar an trácht tosaíochta níos airde ar dtús, agus an trácht tosaíochta níos ísle ina dhiaidh sin."
     },
     "flowstatistics": {
         "application_label": "Feidhmchlár",
@@ -57,8 +69,27 @@
         "upload_label": "Uaslódáil",
         "flowstatistics_tips": "Nuair a bhíonn Staitisticí Sonraí cumasaithe, rianaíonn sé trácht feidhmchláir ar an ródaire agus ar chliant a bhfuil nasc leis, ag taispeáint feidhmchláir in ord íslitheach d'úsáid iomlán. Is féidir leat sonraí mionsonraithe a fheiceáil do gach feidhmchlár agus feidhmchláir aonair a bhac más gá.",
         "card_title": "Sonraí Iomlána Feidhmchláir",
-        "total_label": "Bandaleithead Iomlán"
+        "total_label": "Bandaleithead Iomlán",
+        "echarts_title": "Na 10 nAip is Mó a Úsáidtear le Bandaleithead",
+        "table_title": "Staitisticí Tráchta Aip",
+        "past_day_label": "An lá atá thart",
+        "page_warning": "Cuir isteach uimhir leathanach bailí (1-{totalPage})",
+        "block_label": "Bloc",
+        "client_port_label": "Port Cliant",
+        "to_safeGuard_btn": "Téigh go SafeGuard"
     },
     "menu_qos": "QoS",
-    "menu_flowstatistics": "Staitisticí Sonraí"
+    "menu_flowstatistics": "Staitisticí Sonraí",
+    "menu_sqm": "SQM",
+    "menu_contentprotection": "Cosaint Ábhair",
+    "contentprotection": {
+        "blocking_list_title": "Liosta APPeanna a Bhacann ({applength})",
+        "add_app_btn": "Cuir Aip Leis",
+        "no_app_tips": "Gan Aipeanna Srianaithe",
+        "blocking_domain_list_title": "Liosta Fearainn / IP a Bhacadh ({count})",
+        "apps_drawer_title": "Aipeanna Sonraithe",
+        "apps_search_placeholder": "Ainm an Aip",
+        "show_only_selected_label": "Ná taispeáin ach an mír roghnaithe",
+        "contentprotection_tips": "Nuair a chuirtear ar siúl é, bacann do ródaire láithreáin ghréasáin aosaigh, cearrbhachais agus mailíseacha go huathoibríoch, ag cruthú timpeallacht ar líne glan, shábháilte do do theaghlach."
+    }
 }
