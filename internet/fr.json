@@ -237,7 +237,9 @@
         "lock_pin_tips2": "{sim1} et {sim2} sont verrouillés. Veuillez cliquer sur {unlock1} ou {unlock2} et saisir le code PIN correspondant pour déverrouiller chaque carte SIM.",
         "sim_card_switch": "Commutateur de carte SIM",
         "sim_slot_type": "{sim} Type d'emplacement",
-        "sim_card_priority_title": "Priorité de la carte SIM"
+        "sim_card_priority_title": "Priorité de la carte SIM",
+        "sim_card_failover_title": "Redondance de carte SIM",
+        "scheduled_switch_preferred_sim_label": "Commutation programmée vers la carte SIM préférée"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
