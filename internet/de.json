@@ -247,7 +247,9 @@
         "no_sim_card": "Keine SIM-Karte",
         "airplane_mode_tips": "Der Flugmodus ist aktiviert und das Mobilfunknetz ist deaktiviert.",
         "dialing_exception_tips": "Bitte überprüfen Sie Ihre eSIM-Konfiguration im {management}, um Daten {topUp}. Wenn das Problem weiterhin besteht, überprüfen Sie Ihre SIM-Karten-Einstellungen oder kontaktieren Sie {addr}.",
-        "download_esim_config_tips": "Bitte verbinden Sie sich mit dem Internet, um die eSIM-Konfigurationsdatei herunterzuladen."
+        "download_esim_config_tips": "Bitte verbinden Sie sich mit dem Internet, um die eSIM-Konfigurationsdatei herunterzuladen.",
+        "network_type_conflicts_tips": "Die aktuelle SIM-Karten-Netzwerkart ist 5G, was mit der Netzwerkart des Turms in Konflikt steht. Bitte gehen Sie zu {settings}, um die Netzwerkart zuerst zu ändern, und versuchen Sie dann erneut, die Sperre durchzuführen.",
+        "unlock_pin_count_tips": "Geben Sie die PIN ein, um die SIM-Karte zu entsperren. Noch {count} Versuche verbleibend."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
