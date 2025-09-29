@@ -246,7 +246,8 @@
         "no_sim_card": "无SIM卡",
         "sim_info_label": "{sim} 信息",
         "airplane_mode_tips": "La modalità aereo è attiva e la rete cellulare è disabilitata.",
-        "dialing_exception_tips": "Verifica la configurazione del tuo eSIM in {management} per {topUp} i dati. Se il problema persiste, controlla le impostazioni della scheda SIM o contatta {addr}."
+        "dialing_exception_tips": "Verifica la configurazione del tuo eSIM in {management} per {topUp} i dati. Se il problema persiste, controlla le impostazioni della scheda SIM o contatta {addr}.",
+        "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "Il codice PIN {code} non è corretto, rimane un ultimo tentativo per sbloccarlo; se anche questo tentativo fallisce, sarà necessario utilizzare il telefono per inserire il codice PUK per lo sblocco.",
         "ip_type_tips": "Se la scheda SIM non supporta l'attuale impostazione del tipo di IP, o quando è selezionato IPv6 ma l'interruttore globale {ipv6} non è attivato, potrebbero verificarsi anomalie di connessione.",
         "ip_type_label": "Tipo di IP",
-        "initializing_tips": "Il modem si sta inizializzando……"
+        "initializing_tips": "Il modem si sta inizializzando……",
+        "connecting_tips": "Alcune schede SIM hanno restrizioni d'uso particolari, come la necessità di un APN specifico. Se la tua scheda SIM non può essere registrata, contatta il tuo operatore di rete per verificare eventuali restrizioni speciali. {guide} \nSe il problema persiste, {log} e invialo a {addr}."
     },
     "sim": {
         "sender_label": "Mittente"
