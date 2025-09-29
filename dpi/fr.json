@@ -6,7 +6,9 @@
         "client_speed_limit_warning_tips": "Cette fonctionnalité ne peut pas fonctionner avec la limitation de vitesse client. Son activation supprimera automatiquement toutes les limites de vitesse client.",
         "network_acceleration_warning": "Cette fonction ne peut pas fonctionner avec {network}. Son activation désactivera automatiquement l'Accélération Réseau pour garantir un fonctionnement correct.",
         "qos_enable_warning": "SQM n'est pas disponible car $$$$QoS$$$$ est activé.",
-        "tips": "Lorsqu'il est activé, votre routeur gère intelligemment le trafic réseau pour empêcher tout appareil ou application d'utiliser trop de bande passante. Cela réduit la latence et la mise en mémoire tampon pour une navigation plus rapide, des appels plus clairs et un jeu plus fluide."
+        "tips": "Lorsqu'il est activé, votre routeur gère intelligemment le trafic réseau pour empêcher tout appareil ou application d'utiliser trop de bande passante. Cela réduit la latence et la mise en mémoire tampon pour une navigation plus rapide, des appels plus clairs et un jeu plus fluide.",
+        "upload_tips": "Définissez d'abord vos vitesses de téléchargement et d'upload maximales (plage de saisie : 1–10000) pour la planification du trafic. Ajustez-les à votre bande passante internet réelle pour des résultats optimaux.",
+        "upload_label": "Uploader"
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
@@ -38,7 +40,19 @@
         "mode_title": "Allouer la bande passante en fonction de la priorité des applications.",
         "title": "QoS",
         "gaming_priority_desc": "Prioriser les jeux en ligne pour éviter les retards et la perte de paquets.",
-        "low_label": "Priorité Faible"
+        "low_label": "Priorité Faible",
+        "sqm_enable_warning": "La QoS n'est pas disponible car $$$$SQM$$$$ est activé.",
+        "meeting_priority": "Priorité des réunions",
+        "meeting_priority_desc": "Priorisez les conférences vidéo pour une expérience fluide et ininterrompue.",
+        "web_browing_priority": "Priorité de Navigation Web",
+        "none_label": "Aucun",
+        "webpage_name": "Page Web",
+        "game_name": "Jeu",
+        "shopping_name": "Shopping",
+        "other_name": "Autre",
+        "other_description": "Incluant cybersécurité, appareils-iot, gouvernement, technologie, télécom, cybersécurité, vpn-et-proxy, non classifié",
+        "tips": "Lorsqu'activé, votre routeur priorise la bande passante pour les applications critiques (ex: appels vidéo, cours en ligne, jeux), garantissant des performances fluides même pendant les périodes de forte utilisation du réseau.",
+        "custom_drawer_tips_one": "Glissez pour ajuster la priorité."
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
@@ -57,8 +71,25 @@
         "data_usage_title": "Consommation de données",
         "app_block_tips": "Le blocage d'applications est alimenté par SafeGuard.",
         "table_title": "Statistiques de trafic des applications",
-        "page_warning": "Veuillez saisir un numéro de page valide (1-{totalPage})"
+        "page_warning": "Veuillez saisir un numéro de page valide (1-{totalPage})",
+        "card_title": "Données totales de l'application",
+        "flowstatistics_tips": "Lorsque les Statistiques de Données sont activées, elles suivent le trafic des applications sur le routeur et les clients connectés, affichant les applications par ordre décroissant d'utilisation totale. Vous pouvez consulter les données détaillées pour chaque application et bloquer des applications individuelles si nécessaire.",
+        "upload_label": "Uploader",
+        "past_week_label": "Semaine dernière",
+        "mac_label": "MAC"
     },
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Statistiques des Données"
+    "menu_flowstatistics": "Statistiques des Données",
+    "menu_qos": "QoS",
+    "menu_contentprotection": "Protection de Contenu",
+    "contentprotection": {
+        "blocking_list_title": "Liste d'applications bloquées ({applength})",
+        "add_app_btn": "Ajouter une Application",
+        "apps_drawer_title": "Applications spécifiées",
+        "apps_search_placeholder": "Nom de l'Application",
+        "show_only_selected_label": "Afficher uniquement l'élément sélectionné",
+        "contentprotection_tips": "Lorsqu'elle est activée, votre routeur bloque automatiquement les sites web pour adultes, de jeux d'argent et malveillants, créant un environnement en ligne propre et sécurisé pour votre famille.",
+        "no_app_tips": "Aucune Application Restreinte",
+        "blocking_domain_list_title": "Liste de domaines/IP bloqués ({count})"
+    }
 }
