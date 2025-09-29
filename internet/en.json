@@ -246,7 +246,8 @@
         "no_sim_card": "No SIM Card",
         "sim_info_label": "{sim} Information",
         "airplane_mode_tips": "Airplane Mode is on, and cellular network is disabled.",
-        "dialing_exception_tips": "Please check your eSIM configuration in the {management} to {topUp} data. If the issue persists, check your SIM Card Settings or contact {addr}."
+        "dialing_exception_tips": "Please check your eSIM configuration in the {management} to {topUp} data. If the issue persists, check your SIM Card Settings or contact {addr}.",
+        "download_esim_config_tips": "Please connect to the internet to download the eSIM configuration file."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "PIN code {code} is incorrect, there is last chance left to try to unlock it, if unlocking fails again, you need to use your phone to enter the PUK code to unlock.",
         "ip_type_tips": "If the SIM card does not support the current IP Type setting, or when IPv6 is selected but the {ipv6} global switch is not turned on, it may result in dialling abnormalities.",
         "ip_type_label": "IP Type",
-        "initializing_tips": "The modem is initializing……"
+        "initializing_tips": "The modem is initializing……",
+        "connecting_tips": "Some SIM cards have special usage restrictions, such as requiring a specific APN. If your SIM card cannot be registered, please contact your network operator to check for any special restrictions. {guide} \nIf the issue persists, please {log} and send it to {addr}."
     },
     "sim": {
         "sender_label": "Sender"
