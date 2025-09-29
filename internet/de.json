@@ -246,7 +246,8 @@
         "locked": "Gesperrt",
         "no_sim_card": "Keine SIM-Karte",
         "airplane_mode_tips": "Der Flugmodus ist aktiviert und das Mobilfunknetz ist deaktiviert.",
-        "dialing_exception_tips": "Bitte überprüfen Sie Ihre eSIM-Konfiguration im {management}, um Daten {topUp}. Wenn das Problem weiterhin besteht, überprüfen Sie Ihre SIM-Karten-Einstellungen oder kontaktieren Sie {addr}."
+        "dialing_exception_tips": "Bitte überprüfen Sie Ihre eSIM-Konfiguration im {management}, um Daten {topUp}. Wenn das Problem weiterhin besteht, überprüfen Sie Ihre SIM-Karten-Einstellungen oder kontaktieren Sie {addr}.",
+        "download_esim_config_tips": "Bitte verbinden Sie sich mit dem Internet, um die eSIM-Konfigurationsdatei herunterzuladen."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "PIN-Code {code} ist falsch, es bleibt nur noch eine letzte Chance, um ihn zu entsperren. Sollte die Entsperrung erneut fehlschlagen, müssen Sie Ihren PUK-Code über Ihr Telefon eingeben, um die Entsperrung vorzunehmen.",
         "ip_type_tips": "Wenn die SIM-Karte die aktuelle IP-Typ-Einstellung nicht unterstützt oder wenn IPv6 ausgewählt ist, aber der {ipv6} globale Schalter nicht eingeschaltet ist, kann dies zu Wählanomalien führen.",
         "ip_type_label": "IP-Typ",
-        "initializing_tips": "Das Modem wird initialisiert……"
+        "initializing_tips": "Das Modem wird initialisiert……",
+        "connecting_tips": "Einige SIM-Karten unterliegen besonderen Nutzungseinschränkungen, wie z.B. der Verwendung eines bestimmten APN. Falls Ihre SIM-Karte keine Netzregistrierung durchführen kann, wenden Sie sich bitte an Ihren Netzbetreiber, um mögliche besondere Einschränkungen zu überprüfen. {guide} \nWenn das Problem weiterhin besteht, erstellen Sie bitte {log} und senden Sie es an {addr}."
     },
     "sim": {
         "sender_label": "Absender"
