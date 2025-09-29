@@ -246,7 +246,8 @@
         "locked": "잠김",
         "sim_info_label": "{sim} 정보",
         "airplane_mode_tips": "비행기 모드가 켜져 있으며, 셀룰러 네트워크가 비활성화되었습니다.",
-        "dialing_exception_tips": "{management}에서 eSIM 구성을 확인하여 데이터를 {topUp}하세요. 문제가 지속되면 SIM 카드 설정을 확인하거나 {addr}에 문의하십시오."
+        "dialing_exception_tips": "{management}에서 eSIM 구성을 확인하여 데이터를 {topUp}하세요. 문제가 지속되면 SIM 카드 설정을 확인하거나 {addr}에 문의하십시오.",
+        "download_esim_config_tips": "인터넷에 연결하여 eSIM 구성 파일을 다운로드하십시오."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -534,7 +535,8 @@
         "manual_lock_operator_label": "手册",
         "ip_type_tips": "SIM 카드가 현재 IP 유형 설정을 지원하지 않거나, IPv6가 선택되었지만 {ipv6} 글로벌 스위치가 켜져 있지 않은 경우, 연결 이상이 발생할 수 있습니다.",
         "ip_type_label": "IP 유형",
-        "initializing_tips": "모뎀이 초기화 중입니다……"
+        "initializing_tips": "모뎀이 초기화 중입니다……",
+        "connecting_tips": "일부 SIM 카드에는 특정 APN을 요구하는 등 특별한 사용 제한이 있을 수 있습니다. SIM 카드가 등록되지 않는 경우 네트워크 사업자에게 문의하여 특별 제한 사항을 확인하십시오. {guide} \n문제가 지속되면 {log}을(를) 생성하여 {addr}로 보내주십시오."
     },
     "sim": {
         "sender_label": "발신자"
