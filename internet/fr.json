@@ -246,7 +246,8 @@
         "locked": "Verrouillé",
         "no_sim_card": "Aucune carte SIM",
         "airplane_mode_tips": "Le mode avion est activé et la connexion mobile est désactivée.",
-        "dialing_exception_tips": "Veuillez vérifier votre configuration eSIM dans le {management} pour {topUp} les données. Si le problème persiste, vérifiez vos paramètres de carte SIM ou contactez {addr}."
+        "dialing_exception_tips": "Veuillez vérifier votre configuration eSIM dans le {management} pour {topUp} les données. Si le problème persiste, vérifiez vos paramètres de carte SIM ou contactez {addr}.",
+        "download_esim_config_tips": "Veuillez vous connecter à internet pour télécharger le fichier de configuration eSIM."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "Le code PIN {code} est incorrect, il reste une dernière tentative pour le déverrouiller, si l'échec persiste, vous devrez utiliser votre téléphone pour saisir le code PUK afin de le déverrouiller.",
         "ip_type_tips": "Si la carte SIM ne prend pas en charge le réglage actuel du type d'IP, ou lorsque l'IPv6 est sélectionné mais que le switch global {ipv6} n'est pas activé, cela peut entraîner des anomalies de numérotation.",
         "ip_type_label": "Type IP",
-        "initializing_tips": "Le modem est en cours d'initialisation……"
+        "initializing_tips": "Le modem est en cours d'initialisation……",
+        "connecting_tips": "Certaines cartes SIM ont des restrictions d'utilisation particulières, comme l'exigence d'un APN spécifique. Si votre carte SIM ne peut pas être enregistrée, veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions spéciales. {guide}\nSi le problème persiste, veuillez {log} et l'envoyer à {addr}."
     },
     "sim": {
         "sender_label": "Expéditeur"
