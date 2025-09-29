@@ -249,7 +249,8 @@
         "dialing_exception_tips": "Controleer uw eSIM-configuratie in de {management} om data {topUp}. Als het probleem aanhoudt, controleer uw SIM-kaartinstellingen of neem contact op met {addr}.",
         "download_esim_config_tips": "Verbind u met internet om het eSIM-configuratiebestand te downloaden.",
         "unlock_pin_count_tips": "Voer PIN in om SIM te ontgrendelen. {count} pogingen resterend.",
-        "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is 5G, wat conflicteert met het netwerktype van de toren. Ga naar {settings} om eerst het netwerktype aan te passen en probeer dan opnieuw te vergrendelen."
+        "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is 5G, wat conflicteert met het netwerktype van de toren. Ga naar {settings} om eerst het netwerktype aan te passen en probeer dan opnieuw te vergrendelen.",
+        "network_type_tips": "Selecteer 5G voor hogere snelheid (vereist 5G-signaal) of 4G voor stabiliteit."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -325,7 +326,8 @@
         "reboot_sucess": "Succes, wacht alstublieft voor $$$$ seconden.",
         "export_debug_info": "Debuginformatie exporteren",
         "hardware_reset": "Hardwarematig herstarten",
-        "unknown_command_msg": "Onbekend commando"
+        "unknown_command_msg": "Onbekend commando",
+        "sim_slot": "SIM-kaartslot"
     },
     "menu_internet": "Internet",
     "guide": {
