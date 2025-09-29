@@ -15,7 +15,8 @@
         "send": "Seol",
         "cell_info": "Eolas Cealla",
         "hardware_reset": "Athbhútáil Crua",
-        "unknown_command_msg": "Ainm ordú anaithnid"
+        "unknown_command_msg": "Ainm ordú anaithnid",
+        "sim_slot": "Sliotán SIM"
     },
     "cellular": {
         "cell_info_title": "Cealla",
@@ -354,7 +355,8 @@
         "dialing_exception_tips": "Seiceáil do chumraíocht eSIM sa {management} chun sonraí a {topUp}. Má leanann an fhadhb ort, seiceáil do Shocruithe Cárta SIM nó déan teagmháil le {addr}.",
         "download_esim_config_tips": "Déan ceangal leis an idirlíon chun an comhad cumraíochta eSIM a íoslódáil.",
         "unlock_pin_count_tips": "Iontráil an PIN chun an SIM a dhíghlasáil. {count} iarrachtaí fágtha.",
-        "network_type_conflicts_tips": "Is éard atá i gceist leis an gcineál líonra SIM reatha ná 5G, a théann salach ar chineál líonra an Túir. Tabhair cuairt ar {settings} chun an cineál líonra a mhodhnú ar dtús, agus déan iarracht glasáil a chur air arís."
+        "network_type_conflicts_tips": "Is éard atá i gceist leis an gcineál líonra SIM reatha ná 5G, a théann salach ar chineál líonra an Túir. Tabhair cuairt ar {settings} chun an cineál líonra a mhodhnú ar dtús, agus déan iarracht glasáil a chur air arís.",
+        "network_type_tips": "Roghnaigh 5G le haghaidh luas níos tapúla (teastaíonn comhartha 5G) nó 4G le haghaidh cobhsaíochta."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
