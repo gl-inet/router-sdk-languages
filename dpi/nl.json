@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Gegevensstatistieken"
+    "menu_flowstatistics": "Gegevensstatistieken",
+    "contentprotection": {
+        "blocking_list_title": "Blokkerende app-lijst ({applength})",
+        "add_app_btn": "App toevoegen",
+        "blocking_domain_list_title": "Blokkerende domein-/IP-lijst ({count})",
+        "apps_search_placeholder": "App-naam",
+        "show_only_selected_label": "Alleen geselecteerd item tonen",
+        "contentprotection_tips": "Wanneer ingeschakeld, blokkeert uw router automatisch volwassen, gok- en kwaadaardige websites, waardoor een schone, veilige online omgeving voor uw gezin wordt gecreëerd.",
+        "no_app_tips": "Geen apps beperkt",
+        "apps_drawer_title": "Gespecificeerde apps"
+    },
+    "menu_contentprotection": "Contentbeveiliging"
 }
