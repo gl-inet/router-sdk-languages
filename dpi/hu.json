@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Adatstatisztika"
+    "menu_flowstatistics": "Adatstatisztika",
+    "menu_contentprotection": "Tartalomvédelem",
+    "contentprotection": {
+        "contentprotection_tips": "Ha engedélyezve van, az útválasztó automatikusan blokkolja a felnőtt tartalmú, szerencsejátékos és rosszindulatú weboldalakat, így tiszta és biztonságos online környezetet teremtve a családja számára.",
+        "blocking_list_title": "Blokkolt alkalmazáslista ({applength})",
+        "add_app_btn": "Alkalmazás hozzáadása",
+        "blocking_domain_list_title": "Blokkolt domain / IP lista ({count})",
+        "apps_drawer_title": "Meghatározott alkalmazások",
+        "apps_search_placeholder": "Alkalmazás neve",
+        "show_only_selected_label": "Csak a kiválasztott elemek megjelenítése",
+        "no_app_tips": "Nincsenek korlátozott alkalmazások"
+    }
 }
