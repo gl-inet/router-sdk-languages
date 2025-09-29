@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Datenstatistik"
+    "menu_flowstatistics": "Datenstatistik",
+    "menu_contentprotection": "Inhaltsschutz",
+    "contentprotection": {
+        "blocking_list_title": "Blockierte App-Liste ({applength})",
+        "add_app_btn": "App hinzufügen",
+        "no_app_tips": "Keine Apps eingeschränkt",
+        "blocking_domain_list_title": "Blockierte Domain-/IP-Liste ({count})",
+        "apps_drawer_title": "Spezifizierte Apps",
+        "show_only_selected_label": "Nur ausgewählte Elemente anzeigen",
+        "contentprotection_tips": "Wenn aktiviert, blockiert Ihr Router automatisch Erwachsenen-, Glücksspiel- und bösartige Websites und schafft so eine saubere, sichere Online-Umgebung für Ihre Familie.",
+        "apps_search_placeholder": "App-Name"
+    }
 }
