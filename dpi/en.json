@@ -80,5 +80,16 @@
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
-    "menu_flowstatistics": "Data Statistics"
+    "menu_flowstatistics": "Data Statistics",
+    "menu_contentprotection": "Content Protection",
+    "contentprotection": {
+        "contentprotection_tips": "When enabled, your router automatically blocks adult, gambling, and malicious websites, creating a clean, safe online environment for your family.",
+        "blocking_list_title": "Blocking APP List ({applength})",
+        "add_app_btn": "Add APP",
+        "no_app_tips": "No Apps Restricted",
+        "blocking_domain_list_title": "Bocking Domain / IP List ({count})",
+        "apps_drawer_title": "Specified Apps",
+        "apps_search_placeholder": "App Name",
+        "show_only_selected_label": "Show only selected item"
+    }
 }
