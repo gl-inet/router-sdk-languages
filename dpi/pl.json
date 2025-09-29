@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Statystyki Danych"
+    "menu_flowstatistics": "Statystyki Danych",
+    "menu_contentprotection": "Ochrona treści",
+    "contentprotection": {
+        "blocking_list_title": "Lista blokowanych aplikacji ({applength})",
+        "add_app_btn": "Dodaj aplikację",
+        "no_app_tips": "Brak zablokowanych aplikacji",
+        "blocking_domain_list_title": "Lista blokowanych domen/IP ({count})",
+        "apps_search_placeholder": "Nazwa aplikacji",
+        "show_only_selected_label": "Pokaż tylko wybrane elementy",
+        "contentprotection_tips": "Po włączeniu, router automatycznie blokuje strony dla dorosłych, hazardowe i złośliwe, tworząc czyste, bezpieczne środowisko online dla Twojej rodziny.",
+        "apps_drawer_title": "Określone aplikacje"
+    }
 }
