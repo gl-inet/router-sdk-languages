@@ -80,5 +80,16 @@
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
-    "menu_flowstatistics": "Статистика даних"
+    "menu_flowstatistics": "Статистика даних",
+    "menu_contentprotection": "Захист вмісту",
+    "contentprotection": {
+        "contentprotection_tips": "Коли функція увімкнена, ваш маршрутизатор автоматично блокує дорослі, азартні та шкідливі веб-сайти, створюючи чисте та безпечне онлайн-середовище для вашої родини.",
+        "blocking_list_title": "Список блокування програм ({applength})",
+        "add_app_btn": "Додати програму",
+        "no_app_tips": "Жодних обмежень для програм",
+        "blocking_domain_list_title": "Список блокування доменів / IP ({count})",
+        "apps_search_placeholder": "Назва програми",
+        "show_only_selected_label": "Показувати лише вибрані елементи",
+        "apps_drawer_title": "Вказані програми"
+    }
 }
