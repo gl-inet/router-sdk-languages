@@ -80,5 +80,16 @@
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
-    "menu_flowstatistics": "Статистика данных"
+    "menu_flowstatistics": "Статистика данных",
+    "menu_contentprotection": "Защита контента",
+    "contentprotection": {
+        "contentprotection_tips": "При включении ваш маршрутизатор автоматически блокирует взрослые, азартные и вредоносные веб-сайты, создавая чистую и безопасную онлайн-среду для вашей семьи.",
+        "blocking_list_title": "Список блокируемых приложений ({applength})",
+        "add_app_btn": "Добавить приложение",
+        "no_app_tips": "Нет ограниченных приложений",
+        "blocking_domain_list_title": "Список блокируемых доменов / IP ({count})",
+        "apps_drawer_title": "Указанные приложения",
+        "apps_search_placeholder": "Название приложения",
+        "show_only_selected_label": "Показывать только выбранные элементы"
+    }
 }
