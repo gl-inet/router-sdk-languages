@@ -249,7 +249,8 @@
         "dialing_exception_tips": "Veuillez vérifier votre configuration eSIM dans le {management} pour {topUp} les données. Si le problème persiste, vérifiez vos paramètres de carte SIM ou contactez {addr}.",
         "download_esim_config_tips": "Veuillez vous connecter à internet pour télécharger le fichier de configuration eSIM.",
         "network_type_conflicts_tips": "La carte SIM actuelle utilise le réseau 5G, ce qui entre en conflit avec le type de réseau de la Tour. Veuillez vous rendre dans {settings} pour modifier d'abord le type de réseau, puis réessayer le verrouillage.",
-        "unlock_pin_count_tips": "Entrez le code PIN pour déverrouiller la carte SIM. {count} tentatives restantes."
+        "unlock_pin_count_tips": "Entrez le code PIN pour déverrouiller la carte SIM. {count} tentatives restantes.",
+        "network_type_tips": "Sélectionnez 5G pour une vitesse plus rapide (nécessite un signal 5G) ou 4G pour une meilleure stabilité."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -325,7 +326,8 @@
         "reboot_sucess": "Succès, veuillez attendre $$$$ secondes.",
         "export_debug_info": "Exporter les infos de débogage",
         "hardware_reset": "Redémarrage matériel",
-        "unknown_command_msg": "Commande inconnue"
+        "unknown_command_msg": "Commande inconnue",
+        "sim_slot": "Emplacement de carte SIM"
     },
     "menu_internet": "Internet",
     "guide": {
