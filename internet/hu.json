@@ -125,7 +125,8 @@
         "no_sim_card": "Nincs SIM-kártya",
         "sim_info_label": "{sim} információ",
         "airplane_mode_tips": "Repülőgép mód bekapcsolva, mobilhálózat letiltva.",
-        "dialing_exception_tips": "Kérjük, ellenőrizze eSIM konfigurációját a {management} felületen az adatfeltöltés ({topUp}) érdekében. Ha a probléma továbbra is fennáll, ellenőrizze SIM-kártya beállításait vagy lépjen kapcsolatba a {addr} szolgáltatással."
+        "dialing_exception_tips": "Kérjük, ellenőrizze eSIM konfigurációját a {management} felületen az adatfeltöltés ({topUp}) érdekében. Ha a probléma továbbra is fennáll, ellenőrizze SIM-kártya beállításait vagy lépjen kapcsolatba a {addr} szolgáltatással.",
+        "download_esim_config_tips": "Kérjük, csatlakozzon az internethez az eSIM konfigurációs fájl letöltéséhez."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -534,7 +535,8 @@
         "pin_code_last_input_unlock_tips": "A PIN kód {code} helytelen, ez az utolsó próbálkozási lehetőség a feloldáshoz, ha ismét sikertelen a feloldás, akkor a telefonját kell használnia a PUK kód megadásához a feloldáshoz.",
         "ip_type_tips": "Ha a SIM-kártya nem támogatja az aktuális IP-típus beállítást, vagy ha az IPv6 van kiválasztva, de a {ipv6} globális kapcsoló nincs bekapcsolva, az tárcsázási rendellenességeket okozhat.",
         "ip_type_label": "Internetprotokoll",
-        "initializing_tips": "Modem indítása folyamatban……"
+        "initializing_tips": "Modem indítása folyamatban……",
+        "connecting_tips": "Néhány SIM-kártya speciális használati korlátozásokkal rendelkezik, például egy adott APN megkövetelésével. Ha a SIM-kártyája nem regisztrálható, kérjük, forduljon hálózati szolgáltatójához, hogy ellenőrizze az esetleges speciális korlátozásokat. {guide} \nHa a probléma továbbra is fennáll, kérjük, {log} és küldje el a {addr} címre."
     },
     "sim": {
         "sender_label": "Feladó"
