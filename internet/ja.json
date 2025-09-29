@@ -244,7 +244,9 @@
         "select_active_sim_card": "アクティブSIMカードを選択",
         "locked": "ロック済み",
         "no_sim_card": "SIMカードがありません",
-        "sim_info_label": "{sim}情報"
+        "sim_info_label": "{sim}情報",
+        "airplane_mode_tips": "機内モードがオンになっており、セルラーネットワークは無効になっています。",
+        "dialing_exception_tips": "{management}でeSIMの設定を確認し、データを{topUp}してください。問題が解決しない場合は、SIMカード設定を確認するか、{addr}にお問い合わせください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
