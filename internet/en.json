@@ -517,7 +517,7 @@
         "scan_operator_warning_tips": "Scanning the operator will take a few minutes, and you will temporarily lose your network connection during this time. Are you sure you want to continue?",
         "available_operator_title": "Available Operators",
         "manual_lock_operator_label": "Manual",
-        "manual_select_operator_tips": "The current operator list is for reference only. If manual selection fails, please refer to the list of operators supported by the current SIM card, or consult the operator's customer service for accurate information.",
+        "manual_select_operator_tips": "The current operator list is for reference only. When locking the operator, ensure it matches the current SIM card operator to avoid network issues.",
         "lock_operator_fail_msg": "The current operator is locked, but actually unavailable due to card or operator restrictions, if you need to restore the network, please perform a manual unlock operation.",
         "lock_operator_warning_tips": "If the locked operator does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.",
         "internet_info_title": "Internet",
