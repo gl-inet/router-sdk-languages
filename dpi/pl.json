@@ -13,7 +13,7 @@
     "qos": {
         "title": "QoS",
         "quality_title": "Włącz QoS",
-        "meeting_priority": "Priorytet spotkań",
+        "meeting_priority": "Priorytet Spotkań",
         "gaming_priority": "Priorytet Gier",
         "gaming_priority_desc": "Priorytetyzuj gry online, aby uniknąć opóźnień i utraty pakietów.",
         "video_priority": "Priorytet Strumieniowania Wideo",
@@ -22,7 +22,7 @@
         "customize_priority_desc": "Dostosuj priorytet aplikacji.",
         "none_label": "Brak",
         "custom_drawer_tips_two": "Uwaga: Ruch o wyższym priorytecie jest przekazywany jako pierwszy, a następnie ruch o niższym priorytecie.",
-        "high_label": "Wysoki priorytet",
+        "high_label": "Wysoki Priorytet",
         "medium_label": "Średni Priorytet",
         "low_label": "Niski Priorytet",
         "dangerous_website_name": "Niebezpieczna Strona Internetowa",
@@ -33,7 +33,7 @@
         "meeting_description": "W tym voip",
         "work_name": "Praca",
         "work_description": "W tym VoIP, zdalny pulpit, udostępnianie plików, poczta, finanse, informacje",
-        "webpage_name": "Strona internetowa",
+        "webpage_name": "Strona Internetowa",
         "webpage_description": "W tym portal, biznes",
         "game_name": "Gra",
         "game_description": "W tym gry online, platformy gamingowe",
@@ -55,9 +55,9 @@
         "mode_title": "Przydziel przepustowość na podstawie priorytetu aplikacji."
     },
     "flowstatistics": {
-        "card_title": "Całkowite dane aplikacji",
-        "echarts_title": "Top 10 aplikacji według wykorzystania pasma",
-        "table_title": "Statystyki ruchu aplikacji",
+        "card_title": "Całkowite Dane Aplikacji",
+        "echarts_title": "Top 10 Aplikacji Według Wykorzystania Pasma",
+        "table_title": "Statystyki Ruchu Aplikacji",
         "application_label": "Aplikacja",
         "download_label": "Pobieranie",
         "upload_label": "Wysyłanie",
@@ -71,25 +71,25 @@
         "block_label": "Blokuj",
         "client_name_label": "Nazwa Klienta",
         "mac_label": "MAC",
-        "client_port_label": "Port klienta",
+        "client_port_label": "Port Klienta",
         "last_seen_label": "Ostatnio Widziany",
         "to_safeGuard_alert": "Proszę najpierw włączyć SafeGuard.",
         "to_safeGuard_btn": "Przejdź do SafeGuard",
-        "data_usage_title": "Zużycie danych",
+        "data_usage_title": "Zużycie Danych",
         "flowstatistics_tips": "Gdy Statystyki Danych są włączone, śledzą one ruch aplikacji na routerze i podłączonych klientach, wyświetlając aplikacje w kolejności malejącego całkowitego użycia. Możesz przeglądać szczegółowe dane dla każdej aplikacji i w razie potrzeby blokować poszczególne aplikacje."
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
     "menu_flowstatistics": "Statystyki Danych",
-    "menu_contentprotection": "Ochrona treści",
+    "menu_contentprotection": "Ochrona Treści",
     "contentprotection": {
         "blocking_list_title": "Lista blokowanych aplikacji ({applength})",
-        "add_app_btn": "Dodaj aplikację",
-        "no_app_tips": "Brak zablokowanych aplikacji",
-        "blocking_domain_list_title": "Lista blokowanych domen/IP ({count})",
-        "apps_search_placeholder": "Nazwa aplikacji",
+        "add_app_btn": "Dodaj Aplikację",
+        "no_app_tips": "Brak Zablokowanych Aplikacji",
+        "blocking_domain_list_title": "Lista blokowanych Domen / IP ({count})",
+        "apps_search_placeholder": "Nazwa Aplikacji",
         "show_only_selected_label": "Pokaż tylko wybrane elementy",
         "contentprotection_tips": "Po włączeniu, router automatycznie blokuje strony dla dorosłych, hazardowe i złośliwe, tworząc czyste, bezpieczne środowisko online dla Twojej rodziny.",
-        "apps_drawer_title": "Określone aplikacje"
+        "apps_drawer_title": "Określone Aplikacje"
     }
 }
