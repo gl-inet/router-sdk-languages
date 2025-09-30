@@ -516,7 +516,7 @@
         "lock_operation_mode_tip": "运营商锁定功能支持三种模式：自动连接到可用运营商网络，手动锁定特定运营商，或手动锁定失败后自动切换到可用运营商网络。",
         "scan_operator_warning_tips": "扫描运营商将需要几分钟时间，在此期间您的网络连接将会暂时中断。您确定要继续吗？",
         "available_operator_title": "可用运营商",
-        "manual_select_operator_tips": "当前运营商列表仅供参考。如果手动选择失败，请参考当前SIM卡支持的运营商列表，或咨询运营商客服以获取准确信息。",
+        "manual_select_operator_tips": "当前运营商列表仅供参考，锁定时请确保与当前 SIM 卡所用运营商一致，避免无法上网。",
         "lock_operator_fail_msg": "当前操作员已锁定，但由于卡片或操作员限制，实际上无法使用，如果您需要恢复网络，请执行手动解锁操作。",
         "lock_operator_warning_tips": "如果锁定的运营商不符合蜂窝网络设置中的频段屏蔽或 APN 参数，蜂窝网络接口将无法连接到互联网。",
         "manual_lock_operator_label": "手动",
