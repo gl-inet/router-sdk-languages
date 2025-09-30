@@ -516,7 +516,7 @@
         "lock_operation_mode_tip": "操作員鎖定功能支持三種模式：自動連接到可用的操作員網路、手動鎖定到特定操作員，或者如果手動鎖定失敗，則自動切換到可用的操作員網路。",
         "scan_operator_warning_tips": "掃描運營商將需要幾分鐘時間，在此期間您將暫時失去網路連接。您確定要繼續嗎？",
         "available_operator_title": "可用運營商",
-        "manual_select_operator_tips": "當前運營商列表僅供參考。如果手動選擇失敗，請參考當前SIM卡支持的運營商列表，或咨詢運營商客服以獲取準確資訊。",
+        "manual_select_operator_tips": "當前運營商列表僅供參考，鎖定時請確保與當前 SIM 卡所用運營商一致，避免無法上網。",
         "lock_operator_fail_msg": "當前操作者已被鎖定，但由於卡片或運營商限制，實際上無法使用，如果您需要恢復網路，請執行手動解鎖操作。",
         "lock_operator_warning_tips": "如果鎖定的運營商不符合行動網路設置中的頻段屏蔽或APN參數，則行動網路介面將無法連接到互聯網。",
         "manual_lock_operator_label": "手動",
