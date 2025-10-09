@@ -76,9 +76,9 @@
         "host_guest_label": "Skleidėjas-Vedėjas/Svečio (-ių) tinklas",
         "reserve_ip_different_lan_tips": "Rezervuotas IP nėra tame pačiame tinklo segmente kaip dabartinis IP, konfigūracija neveikia/neturės poveikio.",
         "access_control_overlimit_tips": "Sąrašas – {list} yra pilnas. Prašome jį tvarkyti – {option}.",
-        "usb_tethering": "USB Saitvietė",
-        "qos_warning": "Kliento greičio apribojimas nepasiekiamas, nes $$$$QoS$$$$ yra įjungtas.",
-        "sqm_warning": "Kliento greičio apribojimas nepasiekiamas, nes $$$$SQM$$$$ yra įjungtas."
+        "usb_tethering": "„USB“ saitvietė",
+        "qos_warning": "Kliento greičio apribojimas nepasiekiamas, nes – $$$$„QoS“$$$$ yra įjungtas/įgalintas.",
+        "sqm_warning": "Kliento greičio apribojimas yra nepasiekiamas, nes – $$$$„SQM“$$$$ yra įjungtas/įgalintas."
     },
     "menu_clients": "Klientai",
     "vpn_tunnel": {
@@ -87,6 +87,6 @@
         "mac_connecting_tips": "„VPN“ jungiasi/susijungia."
     },
     "netnat": {
-        "qos_sqm_safeguard_data_tips": "Ši funkcija yra neprieinama, nes įjungta {flowstatistics}, {safeguard}, {qos} arba {sqm}."
+        "qos_sqm_safeguard_data_tips": "Ši funkcija yra neprieinama, nes – „{flowstatistics}“, „{safeguard}“, „{qos}“ ir/arba „{sqm}“ yra įjungti/įgalinti."
     }
 }
