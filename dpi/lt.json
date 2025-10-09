@@ -1,13 +1,13 @@
 {
     "sqm": {
         "title": "SQM",
-        "tips": "Įjungus, jūsų maršrutizatorius išmaniai valdo tinklo srautą, kad išvengtų per didelio duomenų siuntimo srauto pralaidumo naudojimo vienu įrenginiu ar programa. Tai sumažina delsą ir buferizavimą, užtikrinant greitesnį naršymą, aiškesnius skambučius ir sklandesnį žaidimą.",
+        "tips": "Įjungus/Įgalinus, Jūsų maršrutizatorius išmaniai valdys tinklo srautą, kad išvengtų per didelio duomenų siuntimo srauto pralaidumo naudojimo vienu įrenginiu ar programa. Tai sumažina delsą ir buferizavimą, užtikrinant greitesnį naršymą, aiškesnius skambučius ir sklandesnę žaidybą.",
         "upload_label": "Įkelti",
         "download_label": "Atsisiuntimas",
         "queue_label": "Eilės taisyklė",
         "upload_tips": "Pirmiausia nustatykite maksimalų įkėlimo ir atsisiuntimo greitį (įvesties diapazonas: 1–10000) srauto planavimui. Norėdami gauti geriausius rezultatus, priderinkite juos prie tikrojo interneto duomenų siuntimo srauto pralaidumo.",
-        "client_speed_limit_warning_tips": "Ši funkcija negali veikti kartu su kliento greičio apribojimu. Įjungus ją automatiškai bus pašalinti visi kliento greičio apribojimai.",
-        "network_acceleration_warning": "Ši funkcija negali veikti kartu su {network}. Įjungus ją automatiškai bus išjungtas tinklo pagreitinimas, kad būtų užtikrintas tinkamas veikimas.",
+        "client_speed_limit_warning_tips": "Ši funkcija negali veikti kartu su kliento greičio apribojimu. Įjungus/Įgalinus ją, automatiškai bus pašalinti visi kliento greičio apribojimai.",
+        "network_acceleration_warning": "Ši funkcija negali veikti kartu su – {network}. Įjungus/Įgalinus ją, automatiškai bus išjungtas tinklo pagreitinimas, kad būtų užtikrintas tinkamas veikimas.",
         "qos_enable_warning": "SQM neprieinamas, nes $$$$QoS$$$$ yra įjungtas."
     },
     "qos": {
