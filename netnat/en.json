@@ -9,6 +9,7 @@
         "disabled_client_label": "Client Speed and Traffic Statistics",
         "disabled_tips": "When Network acceleration is enabled, the following functions will not work properly: {feature}.",
         "disabled_speed_limit_label": "Client Speed Limit",
-        "disabled_vpn_ipv6_label": "VPN with IPv6"
+        "disabled_vpn_ipv6_label": "VPN with IPv6",
+        "qos_sqm_safeguard_data_tips": "This feature is unavailable because {flowstatistics}, {safeguard}, {qos} or {sqm} is enabled."
     }
 }

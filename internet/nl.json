@@ -230,7 +230,27 @@
         "need_pin_tips": "SIM-kaart is geblokkeerd, controleer of er een PIN-code is ingevoerd of dat de ingevoerde PIN-code correct is.",
         "region_code_label": "Landcode / Regiocode",
         "band_block_warning": "Blokkeer alstublieft niet alle banden.",
-        "traffic_days_tips": "Het maximale aantal dagen neemt de waarde aan van het werkelijke maximale aantal dagen in de huidige maand."
+        "traffic_days_tips": "Het maximale aantal dagen neemt de waarde aan van het werkelijke maximale aantal dagen in de huidige maand.",
+        "network_type": "Netwerktype",
+        "lock_pin_tips1": "{sim} is vergrendeld. Klik op {unlock} en voer de PIN in om deze te ontgrendelen.",
+        "sim_unlock": "{sim} Ontgrendelen",
+        "lock_pin_tips2": "{sim1} en {sim2} zijn vergrendeld. Klik op {unlock1} of {unlock2} en voer de bijbehorende PIN in om elke SIM te ontgrendelen.",
+        "sim_card_switch": "SIM-kaartschakelaar",
+        "sim_slot_type": "{sim} Slot Type",
+        "sim_card_priority_title": "SIM-kaartprioriteit",
+        "sim_card_failover_title": "SIM-kaart Failover",
+        "scheduled_switch_preferred_sim_label": "Geplande Overschakeling naar Voorkeur-SIM",
+        "execution_time_label": "Uitvoeringstijd",
+        "select_active_sim_card": "Selecteer Actieve SIM-kaart",
+        "locked": "Vergrendeld",
+        "no_sim_card": "Geen SIM-kaart",
+        "sim_info_label": "{sim}-informatie",
+        "airplane_mode_tips": "Vliegtuigmodus is ingeschakeld en het mobiele netwerk is uitgeschakeld.",
+        "dialing_exception_tips": "Controleer uw eSIM-configuratie in de {management} om data {topUp}. Als het probleem aanhoudt, controleer uw SIM-kaartinstellingen of neem contact op met {addr}.",
+        "download_esim_config_tips": "Verbind u met internet om het eSIM-configuratiebestand te downloaden.",
+        "unlock_pin_count_tips": "Voer PIN in om SIM te ontgrendelen. {count} pogingen resterend.",
+        "network_type_tips": "Selecteer 5G voor hogere snelheid (vereist 5G-signaal) of 4G voor stabiliteit.",
+        "unavailable_tower_title": "Niet beschikbare toren"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -306,7 +326,8 @@
         "reboot_sucess": "Succes, wacht alstublieft voor $$$$ seconden.",
         "export_debug_info": "Debuginformatie exporteren",
         "hardware_reset": "Hardwarematig herstarten",
-        "unknown_command_msg": "Onbekend commando"
+        "unknown_command_msg": "Onbekend commando",
+        "sim_slot": "SIM-kaartslot"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -518,7 +539,13 @@
         "pin_code_last_input_unlock_tips": "PIN-code {code} is onjuist, er is nog één laatste kans om het te proberen te ontgrendelen, als het opnieuw mislukt, moet u uw telefoon gebruiken om de PUK-code in te voeren om te ontgrendelen.",
         "ip_type_tips": "Als de simkaart de huidige IP-type-instelling niet ondersteunt, of wanneer IPv6 is geselecteerd maar de {ipv6} globale schakelaar niet is ingeschakeld, kan dit resulteren in kiesafwijkingen.",
         "ip_type_label": "IP-type",
-        "initializing_tips": "De modem wordt geïnitialiseerd……"
+        "initializing_tips": "De modem wordt geïnitialiseerd……",
+        "connecting_tips": "Sommige SIM-kaarten hebben specifieke gebruiksbeperkingen, zoals een vereiste voor een specifieke APN. Als uw SIM-kaart niet kan worden geregistreerd, neem dan contact op met uw netwerkoperator om te controleren op speciale beperkingen. {guide} \nAls het probleem zich blijft voordoen, {log} en stuur deze naar {addr}.",
+        "download_log": "Log downloaden",
+        "unavailable_operator_title": "Niet-beschikbare operators",
+        "operator": "Operator",
+        "tower": "Toren",
+        "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is {networkType}, wat conflicteert met het netwerktype van {feature}. Ga naar {settings} om eerst het netwerktype aan te passen en probeer daarna opnieuw te vergrendelen."
     },
     "sim": {
         "sender_label": "Afzender"

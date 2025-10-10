@@ -1,24 +1,24 @@
 {
     "usb": {
-        "ask_me_label": "Klausti Manęs",
+        "ask_me_label": "Klausti manęs",
         "tethring_label": "Saitvietė",
-        "usb_host_label": "USB Saitvietė (Vedėjas)",
-        "input_label": "Įvesties Prioritetas",
-        "output_label": "Išvesties Prioritetas",
-        "protocol_label": "USB Protokolo Perjungimas",
-        "usb_mode_label": "Dvigubos Paskirties USB Veiksena",
-        "power_direction_label": "Energijos Kryptis",
-        "power_threshold_label": "Energijos Slenkstis"
+        "usb_host_label": "„USB“ saitvietė (skleidėjas/vedėjas)",
+        "input_label": "Įvesties pirmenybė",
+        "output_label": "Išvesties pirmenybė",
+        "protocol_label": "„USB“ protokolo perjungimas",
+        "usb_mode_label": "Dvigubos paskirties „USB“ veiksena",
+        "power_direction_label": "Maitinimo kryptis",
+        "power_threshold_label": "Maitinimo slenkstis"
     },
     "power": {
-        "ethernet_idle_timeout_label": "„Eterneto“ Budėjimo Laikas",
-        "power_off_timeout_label": "Išjungimo Laikas",
+        "ethernet_idle_timeout_label": "„Eterneto“ budėjimo, užklausos laiko pasibaigimas",
+        "power_off_timeout_label": "Išjungimo užklausos laiko pasibaigimas",
         "never_label": "niekada",
-        "power_title": "Energija",
-        "wifi_sleep_time_label": "„Wi-Fi“ Budėjimo Laikas",
-        "power_charger_label": "Įjungti su Įkrovikliu",
-        "auto_system_standby_tips": "Įjungus, jei tinklai yra budimi ir nėra prijungto USB bei nenaudojamas kartotuvas, sistema automatiškai pereis į budėjimo režimą.",
-        "auto_system_standby_label": "Automatinis Sistemos Budėjimas"
+        "power_title": "Maitinimas",
+        "wifi_sleep_time_label": "„Wi-Fi“ budėjimo, užklausos laiko pasibaigimas",
+        "power_charger_label": "Įjungti su įkrovikliu",
+        "auto_system_standby_tips": "Įjungus/Įgalinus, jei tinklai budi ir nėra prijungtų „USB“, bei nenaudojamas kartotuvas, sistema automatiškai pereis į budėjimo būsenos veikseną.",
+        "auto_system_standby_label": "Automatinis sistemos maitinimo budėjimas"
     },
-    "menu_usbpower": "USB ir Energija"
+    "menu_usbpower": "„USB“ ir maitinimas"
 }

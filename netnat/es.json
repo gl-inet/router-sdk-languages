@@ -9,6 +9,7 @@
         "disabled_client_label": "Estadísticas de Velocidad y Tráfico del Cliente",
         "disabled_tips": "Cuando la aceleración de red está habilitada, las siguientes funciones no funcionarán correctamente: {feature}.",
         "disabled_speed_limit_label": "Límite de velocidad del cliente",
-        "disabled_vpn_ipv6_label": "VPN con IPv6"
+        "disabled_vpn_ipv6_label": "VPN con IPv6",
+        "qos_sqm_safeguard_data_tips": "Esta función no está disponible porque {flowstatistics}, {safeguard}, {qos} o {sqm} están habilitados."
     }
 }

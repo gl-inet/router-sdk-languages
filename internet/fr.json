@@ -230,7 +230,27 @@
         "last_pin_tips": "Il reste un dernier essai pour déverrouiller le code PIN de cette carte SIM, si la saisie échoue à nouveau, vous devrez utiliser le code PUK pour la déverrouiller. Pour éviter que votre carte SIM ne soit bloquée, l'appareil ne numérotera plus, veuillez donc utiliser votre téléphone pour la déverrouiller.",
         "region_code_label": "Code du pays / région",
         "band_block_warning": "Veuillez ne pas bloquer toutes les bandes.",
-        "traffic_days_tips": "Le nombre maximum de jours prend la valeur du nombre maximum réel de jours dans le mois en cours."
+        "traffic_days_tips": "Le nombre maximum de jours prend la valeur du nombre maximum réel de jours dans le mois en cours.",
+        "network_type": "Type de réseau",
+        "lock_pin_tips1": "{sim} est verrouillé. Veuillez cliquer sur {unlock} et saisir le code PIN pour le déverrouiller.",
+        "sim_unlock": "{sim} Déverrouiller",
+        "lock_pin_tips2": "{sim1} et {sim2} sont verrouillés. Veuillez cliquer sur {unlock1} ou {unlock2} et saisir le code PIN correspondant pour déverrouiller chaque carte SIM.",
+        "sim_card_switch": "Commutateur de carte SIM",
+        "sim_slot_type": "{sim} Type d'emplacement",
+        "sim_card_priority_title": "Priorité de la carte SIM",
+        "sim_card_failover_title": "Redondance de carte SIM",
+        "scheduled_switch_preferred_sim_label": "Commutation programmée vers la carte SIM préférée",
+        "execution_time_label": "Heure d'exécution",
+        "select_active_sim_card": "Sélectionner la carte SIM active",
+        "sim_info_label": "Informations de la carte SIM",
+        "locked": "Verrouillé",
+        "no_sim_card": "Aucune carte SIM",
+        "airplane_mode_tips": "Le mode avion est activé et la connexion mobile est désactivée.",
+        "dialing_exception_tips": "Veuillez vérifier votre configuration eSIM dans le {management} pour {topUp} les données. Si le problème persiste, vérifiez vos paramètres de carte SIM ou contactez {addr}.",
+        "download_esim_config_tips": "Veuillez vous connecter à internet pour télécharger le fichier de configuration eSIM.",
+        "unlock_pin_count_tips": "Entrez le code PIN pour déverrouiller la carte SIM. {count} tentatives restantes.",
+        "network_type_tips": "Sélectionnez 5G pour une vitesse plus rapide (nécessite un signal 5G) ou 4G pour une meilleure stabilité.",
+        "unavailable_tower_title": "Tour indisponible"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -306,7 +326,8 @@
         "reboot_sucess": "Succès, veuillez attendre $$$$ secondes.",
         "export_debug_info": "Exporter les infos de débogage",
         "hardware_reset": "Redémarrage matériel",
-        "unknown_command_msg": "Commande inconnue"
+        "unknown_command_msg": "Commande inconnue",
+        "sim_slot": "Emplacement de carte SIM"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -518,7 +539,13 @@
         "pin_code_last_input_unlock_tips": "Le code PIN {code} est incorrect, il reste une dernière tentative pour le déverrouiller, si l'échec persiste, vous devrez utiliser votre téléphone pour saisir le code PUK afin de le déverrouiller.",
         "ip_type_tips": "Si la carte SIM ne prend pas en charge le réglage actuel du type d'IP, ou lorsque l'IPv6 est sélectionné mais que le switch global {ipv6} n'est pas activé, cela peut entraîner des anomalies de numérotation.",
         "ip_type_label": "Type IP",
-        "initializing_tips": "Le modem est en cours d'initialisation……"
+        "initializing_tips": "Le modem est en cours d'initialisation……",
+        "connecting_tips": "Certaines cartes SIM ont des restrictions d'utilisation particulières, comme l'exigence d'un APN spécifique. Si votre carte SIM ne peut pas être enregistrée, veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions spéciales. {guide}\nSi le problème persiste, veuillez {log} et l'envoyer à {addr}.",
+        "download_log": "Télécharger le journal",
+        "unavailable_operator_title": "Opérateurs non disponibles",
+        "operator": "Opérateur",
+        "tower": "Tour",
+        "network_type_conflicts_tips": "Le type de réseau actuel de la carte SIM est {networkType}, ce qui entre en conflit avec le type de réseau de {feature}. Veuillez vous rendre dans {settings} pour modifier d'abord le type de réseau, puis réessayer le verrouillage."
     },
     "sim": {
         "sender_label": "Expéditeur"

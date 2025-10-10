@@ -8,7 +8,8 @@
         "disabled_tips": "Gdy przyspieszenie sieci jest włączone, następujące funkcje nie będą działać prawidłowo: {feature}.",
         "disabled_client_label": "Statystyki Prędkości i Ruchu Klienta",
         "disabled_speed_limit_label": "Limit Prędkości Klienta",
-        "disabled_vpn_ipv6_label": "VPN z IPv6"
+        "disabled_vpn_ipv6_label": "VPN z IPv6",
+        "qos_sqm_safeguard_data_tips": "Ta funkcja jest niedostępna, ponieważ włączono {flowstatistics}, {safeguard}, {qos} lub {sqm}."
     },
     "menu_netnat": "Przyspieszenie Sieci"
 }

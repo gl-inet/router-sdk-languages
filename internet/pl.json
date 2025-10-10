@@ -184,7 +184,8 @@
         "export_debug_info": "Eksportuj informacje do debugowania",
         "hardware_reset": "Twardy Restart",
         "title": "Zarządzanie",
-        "unknown_command_msg": "Nieznane polecenie"
+        "unknown_command_msg": "Nieznane polecenie",
+        "sim_slot": "Gniazdo Karty SIM"
     },
     "modem": {
         "user_name": "Nazwa Użytkownika",
@@ -296,7 +297,27 @@
         "auto_switch_label": "Automatyczne Przełączanie",
         "region_code_label": "Kod Kraju/Regionu",
         "band_block_warning": "Proszę nie blokować wszystkich pasm.",
-        "traffic_days_tips": "Maksymalna liczba dni przyjmuje wartość rzeczywistej maksymalnej liczby dni w bieżącym miesiącu."
+        "traffic_days_tips": "Maksymalna liczba dni przyjmuje wartość rzeczywistej maksymalnej liczby dni w bieżącym miesiącu.",
+        "network_type": "Typ Sieci",
+        "lock_pin_tips1": "{sim} jest zablokowana. Kliknij {unlock} i wprowadź kod PIN, aby ją odblokować.",
+        "lock_pin_tips2": "{sim1} i {sim2} są zablokowane. Kliknij {unlock1} lub {unlock2} i wprowadź odpowiedni kod PIN, aby odblokować każdą kartę SIM.",
+        "sim_unlock": "Odblokuj {sim}",
+        "sim_card_switch": "Przełącznik Karty SIM",
+        "sim_slot_type": "{sim} Typ gniazda",
+        "sim_card_priority_title": "Priorytet karty SIM",
+        "sim_card_failover_title": "Awaryjność Karty SIM",
+        "scheduled_switch_preferred_sim_label": "Zaplanowane przełączenie na preferowaną kartę SIM",
+        "execution_time_label": "Czas Wykonania",
+        "select_active_sim_card": "Wybierz Aktywną Kartę SIM",
+        "locked": "Zablokowany",
+        "no_sim_card": "Brak Karty SIM",
+        "sim_info_label": "Informacje o {sim}",
+        "airplane_mode_tips": "Tryb Samolotowy jest włączony, a sieć komórkowa jest wyłączona.",
+        "dialing_exception_tips": "Sprawdź konfigurację eSIM w {management}, aby {topUp} dane. Jeśli problem nadal występuje, sprawdź ustawienia karty SIM lub skontaktuj się z {addr}.",
+        "download_esim_config_tips": "Proszę połączyć się z internetem, aby pobrać plik konfiguracyjny eSIM.",
+        "unlock_pin_count_tips": "Wprowadź PIN, aby odblokować kartę SIM. Pozostało {count} prób.",
+        "network_type_tips": "Wybierz 5G dla szybszej prędkości (wymaga sygnału 5G) lub 4G dla stabilności.",
+        "unavailable_tower_title": "Niedostępna Wieża"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -489,14 +510,14 @@
         "lock_operator_btn": "Operator blokady",
         "lock_tower_disabled_tip": "Ponieważ obecny slot karty jest zablokowany dla operatora, funkcja blokady slotu karty do stacji bazowej jest wyłączona.",
         "scan_tower_warning_tips": "Potrzeba kilku minut na przeskanowanie wieży. Czy na pewno chcesz kontynuować?",
-        "lock_tower_tips": "Skanowanie stacji bazowych może szybko zidentyfikować źródła sygnału wysokiej jakości, aby zapewnić stabilną komunikację. Zablokowanie na stacji bazowej wymaga dopasowania operatora i obsługiwanych przez urządzenie pasm częstotliwości; w przeciwnym razie może to wpłynąć na wybieranie numerów. Proszę potwierdzić informacje o stacji bazowej, aby uniknąć potencjalnych problemów.",
+        "lock_tower_tips": "Skanuj wieże, aby znaleźć najlepszy sygnał i zapewnić stabilne połączenie. Możesz zablokować wybraną wieżę, jeśli obsługuje pasma zgodne z Twoim operatorem i urządzeniem. W przeciwnym razie połączenia komórkowe mogą działać niestabilnie.",
         "reflash_warning_msg": "Nie odświeżaj strony.",
         "lock_operation_mode_label": "Tryb blokady",
         "lock_operation_mode_tip": "Funkcja blokady operatora obsługuje trzy tryby: automatyczne łączenie się z dostępną siecią operatora, ręczne blokowanie określonego operatora lub automatyczne przełączanie się na dostępną sieć operatora, jeśli ręczne blokowanie nie powiedzie się.",
         "available_operator_title": "Dostępni Operatorzy",
         "scan_operator_warning_tips": "Skanowanie operatora zajmie kilka minut i w tym czasie tymczasowo utracisz połączenie z siecią. Czy na pewno chcesz kontynuować?",
         "manual_lock_operator_label": "Instrukcja",
-        "manual_select_operator_tips": "Aktualna lista operatorów ma charakter wyłącznie informacyjny. W przypadku niepowodzenia ręcznego wyboru, proszę zapoznać się z listą operatorów obsługiwanych przez obecną kartę SIM lub skonsultować się z obsługą klienta operatora w celu uzyskania dokładnych informacji.",
+        "manual_select_operator_tips": "Lista operatorów służy tylko jako podgląd. Wybierz operatora zgodnego z Twoją kartą SIM, aby zapewnić prawidłowe działanie sieci.",
         "lock_operator_fail_msg": "Aktualny operator jest zablokowany, ale faktycznie niedostępny z powodu ograniczeń karty lub operatora. Jeśli potrzebujesz przywrócić sieć, wykonaj ręczną operację odblokowania.",
         "lock_operator_warning_tips": "Jeśli zablokowany operator nie odpowiada maskowaniu pasma lub parametrom APN w ustawieniach komórkowych, interfejs komórkowy nie będzie mógł połączyć się z Internetem.",
         "manual_auto_lock_operator_label": "Ręczny-Automatyczny",
@@ -518,7 +539,13 @@
         "pin_code_last_input_unlock_tips": "Kod PIN {code} jest nieprawidłowy, pozostała ostatnia szansa na jego odblokowanie. Jeśli ponowna próba się nie powiedzie, należy użyć telefonu do wprowadzenia kodu PUK w celu odblokowania.",
         "ip_type_tips": "Jeśli karta SIM nie obsługuje bieżącego ustawienia typu IP lub gdy wybrano IPv6, ale globalny przełącznik {ipv6} nie jest włączony, może to spowodować nieprawidłowości w wybieraniu numeru.",
         "ip_type_label": "Typ IP",
-        "initializing_tips": "Modem jest inicjalizowany……"
+        "initializing_tips": "Modem jest inicjalizowany……",
+        "connecting_tips": "Niektóre karty SIM mają specjalne ograniczenia użytkowania, takie jak wymaganie określonego APN. Jeśli Twoja karta SIM nie może zostać zarejestrowana, skontaktuj się z operatorem sieci, aby sprawdzić, czy istnieją specjalne ograniczenia. {guide} \nJeśli problem nadal występuje, proszę {log} i wyślij go na adres {addr}.",
+        "download_log": "Pobierz Dziennik",
+        "unavailable_operator_title": "Niedostępni operatorzy",
+        "operator": "Operator",
+        "tower": "Wieża",
+        "network_type_conflicts_tips": "Obecny typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci {feature}. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować."
     },
     "sim": {
         "sender_label": "Nadawca"

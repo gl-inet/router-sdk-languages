@@ -76,12 +76,17 @@
         "host_guest_label": "主/訪客網路",
         "reserve_ip_different_lan_tips": "保留的IP与当前IP不在同一网段，配置未生效。",
         "access_control_overlimit_tips": "{list} 已滿。請在 {option} 中進行管理。",
-        "usb_tethering": "USB 網路共用"
+        "usb_tethering": "USB 網路共用",
+        "qos_warning": "用戶端速度限制不可用，因為已啟用$$$$QoS$$$$。",
+        "sqm_warning": "用戶端速度限制不可用，因為已啟用$$$$SQM$$$$。"
     },
     "menu_clients": "客戶端",
     "vpn_tunnel": {
         "mac_using_tips": "VPN已連接。",
         "mac_not_effect_tips": "VPN尚未生效。",
         "mac_connecting_tips": "VPN正在連接中。"
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "此功能不可用，因為已啟用 {flowstatistics}、{safeguard}、{qos} 或 {sqm}。"
     }
 }

@@ -139,7 +139,27 @@
         "need_pin_tips": "SIM kart kilitli, lütfen bir PIN kodu girilip girilmediğini veya girilen PIN kodunun doğru olup olmadığını kontrol edin.",
         "region_code_label": "Ülke / Bölge Kodu",
         "band_block_warning": "Lütfen tüm bantları engellemeyin.",
-        "traffic_days_tips": "Maksimum gün sayısı, mevcut aydaki gerçek maksimum gün sayısını alır."
+        "traffic_days_tips": "Maksimum gün sayısı, mevcut aydaki gerçek maksimum gün sayısını alır.",
+        "network_type": "Ağ Türü",
+        "lock_pin_tips1": "{sim} kilitli. Lütfen {unlock}'a tıklayın ve kilidini açmak için PIN'i girin.",
+        "lock_pin_tips2": "{sim1} ve {sim2} kilitli. Lütfen her bir SIM'i kilidini açmak için {unlock1} veya {unlock2}'ye tıklayın ve ilgili PIN'i girin.",
+        "sim_unlock": "{sim} Kilidini Aç",
+        "sim_card_switch": "SIM Kart Anahtarı",
+        "sim_slot_type": "{sim} Yuva Türü",
+        "sim_card_priority_title": "SIM Kart Önceliği",
+        "sim_card_failover_title": "SIM Kartı Yedekleme",
+        "scheduled_switch_preferred_sim_label": "Tercih Edilen SIM'e Zamanlanmış Geçiş",
+        "execution_time_label": "Yürütme Zamanı",
+        "select_active_sim_card": "Aktif SIM Kartını Seçin",
+        "locked": "Kilitli",
+        "no_sim_card": "SIM Kartı Yok",
+        "sim_info_label": "{sim} Bilgileri",
+        "airplane_mode_tips": "Uçak Modu açık ve hücresel ağ devre dışı bırakıldı.",
+        "dialing_exception_tips": "{management} üzerinden eSIM yapılandırmanızı kontrol ederek veri {topUp} yapın. Sorun devam ederse, SIM Kart Ayarlarınızı kontrol edin veya {addr} ile iletişime geçin.",
+        "download_esim_config_tips": "Lütfen eSIM yapılandırma dosyasını indirmek için internete bağlanın.",
+        "unlock_pin_count_tips": "SIM'i açmak için PIN girin. {count} deneme hakkı kaldı.",
+        "network_type_tips": "Daha hızlı hız için 5G'yi (5G sinyali gerektirir) veya kararlılık için 4G'yi seçin.",
+        "unavailable_tower_title": "Kullanılamayan Kule"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -492,7 +512,8 @@
         "reboot_sucess": "Başarılı, lütfen $$$$ saniye bekleyin.",
         "export_debug_info": "Hata Ayıklama Bilgisi Dışa Aktar",
         "hardware_reset": "Donanımsal Yeniden Başlat",
-        "unknown_command_msg": "Bilinmeyen komut"
+        "unknown_command_msg": "Bilinmeyen komut",
+        "sim_slot": "SIM Yuvası"
     },
     "menu_internet": "İnternet",
     "cellular": {
@@ -530,7 +551,13 @@
         "pin_code_last_input_unlock_tips": "PIN kodu {code} yanlış, kilidi açmak için son bir şans kaldı, yeniden başarısız olursa, PUK kodunu girmek için telefonunuzu kullanmanız gerekecek.",
         "ip_type_tips": "SIM kart mevcut IP Türü ayarını desteklemiyorsa veya IPv6 seçildiğinde {ipv6} genel anahtarı açık değilse, arama anormalliklerine neden olabilir.",
         "ip_type_label": "IP Türü",
-        "initializing_tips": "Modem başlatılıyor……"
+        "initializing_tips": "Modem başlatılıyor……",
+        "connecting_tips": "Bazı SIM kartların özel kullanım kısıtlamaları bulunur, örneğin belirli bir APN gerektirebilir. SIM kartınız kaydedilemiyorsa, özel kısıtlama olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin. {guide} \nSorun devam ederse, lütfen {log} oluşturun ve {addr} adresine gönderin.",
+        "download_log": "Günlük İndir",
+        "unavailable_operator_title": "Kullanılamayan Operatörler",
+        "operator": "Operatör",
+        "tower": "Kule",
+        "network_type_conflicts_tips": "Mevcut SIM kart ağ türü {networkType} olup, {feature}'ın ağ türüyle çakışmaktadır. Lütfen önce ağ türünü değiştirmek için {settings}'e gidin, ardından tekrar kilitlemeyi deneyin."
     },
     "sim": {
         "sender_label": "Gönderen"

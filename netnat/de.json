@@ -9,6 +9,7 @@
         "disabled_tips": "Wenn die Netzwerkbeschleunigung aktiviert ist, funktionieren die folgenden Funktionen nicht ordnungsgemäß: {feature}.",
         "disabled_client_label": "Client-Geschwindigkeits- und Datenverkehrsstatistiken",
         "disabled_speed_limit_label": "Client-Geschwindigkeitsbegrenzung",
-        "disabled_vpn_ipv6_label": "VPN mit IPv6"
+        "disabled_vpn_ipv6_label": "VPN mit IPv6",
+        "qos_sqm_safeguard_data_tips": "Diese Funktion ist nicht verfügbar, da {flowstatistics}, {safeguard}, {qos} oder {sqm} aktiviert ist."
     }
 }

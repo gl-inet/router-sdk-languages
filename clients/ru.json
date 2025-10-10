@@ -76,12 +76,17 @@
         "host_guest_label": "Хост/Гостевая сеть",
         "reserve_ip_different_lan_tips": "Зарезервированный IP-адрес не находится в том же сетевом сегменте, что и текущий IP-адрес, конфигурация не вступает в силу.",
         "access_control_overlimit_tips": "Список {list} заполнен. Управляйте им в разделе {option}.",
-        "usb_tethering": "USB-модем"
+        "usb_tethering": "USB-модем",
+        "qos_warning": "Ограничение скорости клиента недоступно, так как включен $$$$QoS$$$$.",
+        "sqm_warning": "Ограничение скорости клиента недоступно, так как включен $$$$SQM$$$$."
     },
     "menu_clients": "Клиенты",
     "vpn_tunnel": {
         "mac_using_tips": "VPN подключен.",
         "mac_not_effect_tips": "VPN не активирован.",
         "mac_connecting_tips": "VPN подключается."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "Эта функция недоступна, так как включены {flowstatistics}, {safeguard}, {qos} или {sqm}."
     }
 }

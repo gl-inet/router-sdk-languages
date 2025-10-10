@@ -230,7 +230,27 @@
         "need_pin_tips": "La tarjeta SIM está bloqueada, verifique si se introduzco un código PIN o si el código PIN introducido es correcto.",
         "region_code_label": "Código de país / región",
         "band_block_warning": "Por favor, no bloquee todas las bandas.",
-        "traffic_days_tips": "El número máximo de días toma el valor del número máximo real de días del mes actual."
+        "traffic_days_tips": "El número máximo de días toma el valor del número máximo real de días del mes actual.",
+        "network_type": "Tipo de Red",
+        "lock_pin_tips2": "{sim1} y {sim2} están bloqueadas. Haga clic en {unlock1} o {unlock2} e introduzca el PIN correspondiente para desbloquear cada SIM.",
+        "lock_pin_tips1": "{sim} está bloqueada. Haga clic en {unlock} e introduzca el PIN para desbloquearla.",
+        "sim_unlock": "Desbloquear {sim}",
+        "sim_card_switch": "Cambio de Tarjeta SIM",
+        "sim_slot_type": "{sim} Tipo de Ranura",
+        "sim_card_priority_title": "Prioridad de Tarjeta SIM",
+        "sim_card_failover_title": "Conmutación por Error de Tarjeta SIM",
+        "scheduled_switch_preferred_sim_label": "Cambio Programado a SIM Preferido",
+        "execution_time_label": "Tiempo de Ejecución",
+        "select_active_sim_card": "Seleccionar tarjeta SIM activa",
+        "sim_info_label": "Información de {sim}",
+        "locked": "Bloqueado",
+        "no_sim_card": "Sin tarjeta SIM",
+        "airplane_mode_tips": "El modo avión está activado y la red móvil está deshabilitada.",
+        "dialing_exception_tips": "Por favor, verifique su configuración eSIM en {management} para {topUp} datos. Si el problema persiste, revise su Configuración de Tarjeta SIM o contacte a {addr}.",
+        "download_esim_config_tips": "Por favor, conéctese a internet para descargar el archivo de configuración de eSIM.",
+        "unlock_pin_count_tips": "Ingrese el PIN para desbloquear la SIM. Quedan {count} intentos.",
+        "network_type_tips": "Seleccione 5G para mayor velocidad (requiere señal 5G) o 4G para mayor estabilidad.",
+        "unavailable_tower_title": "Torre No Disponible"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -306,7 +326,8 @@
         "reboot_sucess": "Operación exitosa, por favor espere $$$$ segundos.",
         "export_debug_info": "Exportar información de depuración",
         "hardware_reset": "Reinicio completo (hard reboot)",
-        "unknown_command_msg": "Comando desconocido"
+        "unknown_command_msg": "Comando desconocido",
+        "sim_slot": "Ranura para tarjeta SIM"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -518,7 +539,13 @@
         "pin_code_last_input_unlock_tips": "El código PIN {code} es incorrecto, queda un último intento para desbloquearlo, si vuelve a fallar, necesitará usar su teléfono para ingresar el código PUK y desbloquearlo.",
         "ip_type_tips": "Si la tarjeta SIM no admite la configuración de tipo de IP actual, o cuando se selecciona IPv6 pero el interruptor global {ipv6} no está activado, puede resultar en anomalías de marcación.",
         "ip_type_label": "Tipo de IP",
-        "initializing_tips": "El módem se está inicializando…"
+        "initializing_tips": "El módem se está inicializando…",
+        "connecting_tips": "Algunas tarjetas SIM tienen restricciones de uso especiales, como requerir un APN específico. Si su tarjeta SIM no puede registrarse, contacte a su operador de red para verificar si existen restricciones especiales. {guide} \nSi el problema persiste, por favor {log} y envíelo a {addr}.",
+        "download_log": "Descargar registro",
+        "unavailable_operator_title": "Operadores no disponibles",
+        "operator": "Operador",
+        "tower": "Torre",
+        "network_type_conflicts_tips": "El tipo de red actual de la tarjeta SIM es {networkType}, el cual entra en conflicto con el tipo de red de {feature}. Por favor, diríjase a {settings} para modificar primero el tipo de red y luego intente bloquear nuevamente."
     },
     "sim": {
         "sender_label": "Remitente"

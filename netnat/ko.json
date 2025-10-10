@@ -9,6 +9,7 @@
         "disabled_tips": "네트워크 가속이 활성화되면 다음 기능이 정상적으로 작동하지 않습니다: {feature}.",
         "disabled_client_label": "클라이언트 속도 및 트래픽 통계",
         "disabled_speed_limit_label": "클라이언트 속도 제한",
-        "disabled_vpn_ipv6_label": "IPv6 지원 VPN"
+        "disabled_vpn_ipv6_label": "IPv6 지원 VPN",
+        "qos_sqm_safeguard_data_tips": "이 기능은 {flowstatistics}, {safeguard}, {qos} 또는 {sqm}이 활성화되어 있기 때문에 사용할 수 없습니다."
     }
 }

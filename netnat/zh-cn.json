@@ -9,6 +9,7 @@
         "disabled_tips": "启用网络加速时，以下功能将无法正常工作：{feature}。",
         "disabled_client_label": "客户端速度与流量统计",
         "disabled_speed_limit_label": "客户端速率限制",
-        "disabled_vpn_ipv6_label": "使用IPv6的VPN"
+        "disabled_vpn_ipv6_label": "使用IPv6的VPN",
+        "qos_sqm_safeguard_data_tips": "此功能不可用，因为已启用{flowstatistics}、{safeguard}、{qos}或{sqm}。"
     }
 }

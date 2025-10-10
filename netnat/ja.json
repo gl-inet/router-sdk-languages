@@ -9,6 +9,7 @@
         "disabled_tips": "ネットワーク・アクセラレーションが有効になっている場合、以下の機能は正常に動作しません: {feature}。",
         "disabled_client_label": "クライアント速度とトラフィック統計",
         "disabled_speed_limit_label": "クライアント速度制限",
-        "disabled_vpn_ipv6_label": "IPv6環境下のVPN"
+        "disabled_vpn_ipv6_label": "IPv6環境下のVPN",
+        "qos_sqm_safeguard_data_tips": "この機能は、{flowstatistics}、{safeguard}、{qos}、または{sqm}が有効になっているため利用できません。"
     }
 }

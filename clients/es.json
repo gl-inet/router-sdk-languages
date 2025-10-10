@@ -76,12 +76,17 @@
         "host_guest_label": "Red de Host/Invitado",
         "reserve_ip_different_lan_tips": "La IP reservada no está en el mismo segmento de red que la IP actual, la configuración no surte efecto.",
         "access_control_overlimit_tips": "La {list} está llena. Por favor, adminístrela en {option}.",
-        "usb_tethering": "Conectividad USB"
+        "usb_tethering": "Conectividad USB",
+        "qos_warning": "La limitación de velocidad del cliente no está disponible porque $$$$QoS$$$$ está habilitado.",
+        "sqm_warning": "La limitación de velocidad del cliente no está disponible porque $$$$SQM$$$$ está habilitado."
     },
     "menu_clients": "Clientes",
     "vpn_tunnel": {
         "mac_using_tips": "La VPN está conectada.",
         "mac_not_effect_tips": "La VPN no está en funcionamiento.",
         "mac_connecting_tips": "La VPN se está conectando."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "Esta función no está disponible porque {flowstatistics}, {safeguard}, {qos} o {sqm} están habilitados."
     }
 }

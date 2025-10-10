@@ -15,11 +15,12 @@
         "send": "Seol",
         "cell_info": "Eolas Cealla",
         "hardware_reset": "Athbhútáil Crua",
-        "unknown_command_msg": "Ainm ordú anaithnid"
+        "unknown_command_msg": "Ainm ordú anaithnid",
+        "sim_slot": "Sliotán SIM"
     },
     "cellular": {
         "cell_info_title": "Cealla",
-        "lock_tower_tips": "Is féidir le scanadh stáisiún bonn foinsí comhartha ardchaighdeáin a aithint go tapa chun cumarsáid chobhsaí a chinntiú. Chun glasáil ar stáisiún bonn, ní mór an t-iompróir agus na bandaí minicíochta a dtacaítear leo ag an bhfeiste a mheaitseáil; nó d'fhéadfadh sé seo difear a dhéanamh don dhiailiú. Deimhnigh faisnéis an stáisiúin bhunáite le do thoil chun fadhbanna féideartha a sheachaint.",
+        "lock_tower_tips": "Scan an túr chun foinsí comhartha ardchaighdeáin a aithint go tapa agus ceann amháin a ghlasáil le haghaidh cumarsáide cobhsaí. Chun túr a ghlasáil, ní mór dó a bheith ag teacht leis na bandaí minicíochta a dtacaíonn d'oibreoir agus do ghléas leo; nó d'fhéadfadh sé difear a dhéanamh do dhiailiú ceallach.",
         "special_apns_tips": "I gcás APNanna arna soláthar ag oibreoirí speisialta, roghnaigh de réir staid iarbhír do chárta SIM.",
         "information_title": "Faisnéis Cheallach",
         "operator_locked_label": "{sim} Oibreoir Faoi Ghlas",
@@ -44,7 +45,7 @@
         "view_information_btn": "Féach Tuilleadh Eolais",
         "sim_info_title": "Cárta SIM",
         "lock_operation_mode_label": "Mód Glasála",
-        "manual_select_operator_tips": "Níl an liosta oibreoirí reatha ach mar thagairt. Má theipeann ar roghnú láimhe, féach ar liosta na n-oibreoirí a dtacaíonn an cárta SIM reatha leo, nó déan teagmháil le seirbhís do chustaiméirí an oibreora chun faisnéis chruinn a fháil.",
+        "manual_select_operator_tips": "Is le haghaidh tagartha amháin atá an liosta oibreoirí reatha. Agus an t-oibreoir á ghlasáil, cinntigh go bhfuil sé ag teacht leis an oibreoir cárta SIM reatha chun fadhbanna líonra a sheachaint.",
         "lock_operator_warning_tips": "Mura bhfuil an t-oibreoir faoi ghlas ag teacht leis na paraiméadair mascála banda ná APN sna socruithe ceallacha, ní bheidh an comhéadan ceallach in ann ceangal leis an Idirlíon.",
         "scan_tower_warning_tips": "Tógfaidh sé thart ar cúpla nóiméad an túr a scanadh. An bhfuil tú cinnte gur mhaith leat leanúint ar aghaidh?",
         "pin_code_last_unlock_tips": "Tá an cárta SIM faoi ghlas agus ní mór é a dhíghlasáil le cód PIN, níl ach seans amháin fágtha chun iarracht a dhéanamh é a dhíghlasáil, má theipeann air, beidh ort do ghuthán a úsáid chun é a dhíghlasáil trí chód PUK a iontráil.",
@@ -52,7 +53,13 @@
         "manual_lock_operator_label": "Lámhleabhar",
         "reflash_warning_msg": "Ná hathnuaigh an leathanach.",
         "not_use_special_label": "Ná hÚsáid",
-        "manual_auto_lock_operator_label": "Lámhaigh-Uathoibríoch"
+        "manual_auto_lock_operator_label": "Lámhaigh-Uathoibríoch",
+        "connecting_tips": "Tá srianta úsáide speisialta ag baint le roinnt cártaí SIM, amhail APN ar leith a éileamh. Mura féidir do chárta SIM a chlárú, déan teagmháil le d’oibreoir líonra le seiceáil an bhfuil aon srianta speisialta ann. {guide}\nMá leanann an fhadhb ar aghaidh, {log} agus seol chuig {addr} í.",
+        "download_log": "íoslódáil Loga",
+        "unavailable_operator_title": "Oibreoirí Neamh-infheidhme",
+        "operator": "Oibreoir",
+        "tower": "Túr",
+        "network_type_conflicts_tips": "Is éard atá i gceist le cineál líonra an chárta SIM reatha ná {networkType}, a thagann salach ar chineál líonra {feature}. Téigh chuig {settings} chun an cineál líonra a mhodhnú ar dtús, agus déan iarracht glasáil a chur leis arís."
     },
     "sms": {
         "del_sms": "Scrios",
@@ -333,7 +340,27 @@
         "traffic_days_tips": "Glacann an líon uasta laethanta luach an líon uasta iarbhír laethanta sa mhí reatha.",
         "plug_in_tips": "Níor aimsíodh aon ghléas Móideim. Breiseán isteach do mhóidim USB le tosú.",
         "title": "Ceallach",
-        "download": "Íoslódáil"
+        "download": "Íoslódáil",
+        "network_type": "Cineál Líonra",
+        "lock_pin_tips2": "Tá {sim1} agus {sim2} faoi ghlas. Cliceáil {unlock1} nó {unlock2} agus cuir isteach an PIN comhfhreagrach chun gach SIM a dhíghlasáil.",
+        "lock_pin_tips1": "Tá {sim} faoi ghlas. Cliceáil {unlock} agus cuir isteach an PIN chun é a dhíghlasáil.",
+        "sim_unlock": "{sim} Díghlasáil",
+        "sim_card_switch": "Athrú Cárta SIM",
+        "sim_slot_type": "{sim} Cineál Sliotán",
+        "sim_card_priority_title": "Tosaíocht Cárta SIM",
+        "sim_card_failover_title": "Teip-thar Cárta SIM",
+        "scheduled_switch_preferred_sim_label": "Athraigh Sceidealta go Rogha SIM",
+        "execution_time_label": "Am Forghníomhaithe",
+        "select_active_sim_card": "Roghnaigh Cárta SIM Gníomhach",
+        "sim_info_label": "{sim} Eolas",
+        "locked": "Faoi ghlas",
+        "no_sim_card": "Gan Cárta SIM",
+        "airplane_mode_tips": "Tá Mód Eitleáin ar siúl, agus tá an líonra ceallach díchumasaithe.",
+        "dialing_exception_tips": "Seiceáil cumraíocht do chárta eSIM sna sonraí {management} go {topUp}. Má leanann an fhadhb, seiceáil Socruithe do Chárta SIM nó déan teagmháil le {addr}.",
+        "download_esim_config_tips": "Déan ceangal leis an idirlíon chun an comhad cumraíochta eSIM a íoslódáil.",
+        "unlock_pin_count_tips": "Iontráil an PIN chun an SIM a dhíghlasáil. {count} iarrachtaí fágtha.",
+        "network_type_tips": "Roghnaigh 5G le haghaidh luas níos tapúla (tá comhartha 5G ag teastáil) nó 4G le haghaidh cobhsaíochta.",
+        "unavailable_tower_title": "Túr Neamh-infheidhme"
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",

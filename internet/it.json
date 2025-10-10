@@ -230,7 +230,27 @@
         "last_pin_tips": "Se non si riesce ad accedere alla pagina di login, provare a disabilitare altre connessioni Internet (ad esempio, ethernet, cellulare).",
         "region_code_label": "Codice Paese / Regione",
         "band_block_warning": "Si prega di non bloccare tutte le bande.",
-        "traffic_days_tips": "Il numero massimo di giorni assume il valore del numero massimo effettivo di giorni nel mese corrente."
+        "traffic_days_tips": "Il numero massimo di giorni assume il valore del numero massimo effettivo di giorni nel mese corrente.",
+        "network_type": "Tipo di rete",
+        "lock_pin_tips2": "{sim1} e {sim2} sono bloccati. Fare clic su {unlock1} o {unlock2} e inserire il PIN corrispondente per sbloccare ciascuna SIM.",
+        "lock_pin_tips1": "{sim} è bloccata. Fare clic su {unlock} e inserire il PIN per sbloccarla.",
+        "sim_unlock": "Sblocca {sim}",
+        "sim_card_switch": "切换SIM卡",
+        "sim_slot_type": "{sim} Tipo di Slot",
+        "sim_card_priority_title": "Priorità della Carta SIM",
+        "sim_card_failover_title": "SIM卡故障转移",
+        "execution_time_label": "执行时间",
+        "scheduled_switch_preferred_sim_label": "定时切换至首选SIM卡",
+        "select_active_sim_card": "Seleziona la scheda SIM attiva",
+        "locked": "Bloccato",
+        "no_sim_card": "无SIM卡",
+        "sim_info_label": "{sim} 信息",
+        "airplane_mode_tips": "La modalità aereo è attiva e la rete cellulare è disabilitata.",
+        "dialing_exception_tips": "Verifica la configurazione del tuo eSIM in {management} per {topUp} i dati. Se il problema persiste, controlla le impostazioni della scheda SIM o contatta {addr}.",
+        "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM.",
+        "unlock_pin_count_tips": "Inserire il PIN per sbloccare la SIM. {count} tentativi rimanenti.",
+        "network_type_tips": "Selezionare 5G per una velocità maggiore (richiede segnale 5G) o 4G per una maggiore stabilità.",
+        "unavailable_tower_title": "Torre non disponibile"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -306,7 +326,8 @@
         "soft_reset": "Riavvio soft",
         "export_debug_info": "Esporta informazioni di debug",
         "hardware_reset": "Riavvio forzato",
-        "unknown_command_msg": "Comando sconosciuto"
+        "unknown_command_msg": "Comando sconosciuto",
+        "sim_slot": "Scheda SIM"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -518,7 +539,13 @@
         "pin_code_last_input_unlock_tips": "Il codice PIN {code} non è corretto, rimane un ultimo tentativo per sbloccarlo; se anche questo tentativo fallisce, sarà necessario utilizzare il telefono per inserire il codice PUK per lo sblocco.",
         "ip_type_tips": "Se la scheda SIM non supporta l'attuale impostazione del tipo di IP, o quando è selezionato IPv6 ma l'interruttore globale {ipv6} non è attivato, potrebbero verificarsi anomalie di connessione.",
         "ip_type_label": "Tipo di IP",
-        "initializing_tips": "Il modem si sta inizializzando……"
+        "initializing_tips": "Il modem si sta inizializzando……",
+        "connecting_tips": "Alcune schede SIM hanno restrizioni d'uso particolari, come la necessità di un APN specifico. Se la tua scheda SIM non può essere registrata, contatta il tuo operatore di rete per verificare eventuali restrizioni speciali. {guide} \nSe il problema persiste, {log} e invialo a {addr}.",
+        "download_log": "下载日志",
+        "unavailable_operator_title": "运营商不可用",
+        "operator": "Operatore",
+        "tower": "Torre",
+        "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è {networkType}, che è in conflitto con la tipologia di rete di {feature}. Si prega di accedere a {settings} per modificare la tipologia di rete prima, quindi provare a bloccare nuovamente."
     },
     "sim": {
         "sender_label": "Mittente"

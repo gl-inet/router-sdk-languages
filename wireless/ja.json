@@ -43,7 +43,11 @@
         "repeater_band_conflict_tips": "リピーターと競合するバンドは無効になります。",
         "using_band": "{band}を使用して",
         "wifi_sleep_tips": "Wi-Fiは現在スリープモード中で表示されていません。スリープモードを解除するには、{management}にアクセスしてスリープモードを無効にしてください。",
-        "wifi_band_mutex_tips": "5GHz Wi-Fiはデフォルトで有効になっています。中継機と競合する場合、Wi-Fi帯域は自動的に{auto}に切り替わります。"
+        "wifi_band_mutex_tips": "5GHz Wi-Fiはデフォルトで有効になっています。中継機と競合する場合、Wi-Fi帯域は自動的に{auto}に切り替わります。",
+        "usage_environment_title": "使用環境",
+        "indoor_label": "屋内",
+        "outdoor_label": "屋外",
+        "environment_tips": "規制により、屋外でWi-Fiを使用する場合は「屋外」モードに切り替える必要があります。これにより、カバレッジ範囲が縮小する可能性があります。"
     },
     "menu_wireless": "無線"
 }

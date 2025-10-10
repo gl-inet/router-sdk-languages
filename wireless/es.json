@@ -43,7 +43,11 @@
         "repeater_band_conflict_tips": "La banda que entra en conflicto con el repetidor se desactivará.",
         "using_band": "Usando {band}",
         "wifi_sleep_tips": "El Wi-Fi está actualmente en modo de suspensión y no es visible. Para activarlo, puede ir a {management} para deshabilitar el modo de suspensión.",
-        "wifi_band_mutex_tips": "La Wi-Fi de 5 GHz está habilitada por defecto. Si entra en conflicto con el repetidor, la banda Wi-Fi se cambiará automáticamente a {auto}."
+        "wifi_band_mutex_tips": "La Wi-Fi de 5 GHz está habilitada por defecto. Si entra en conflicto con el repetidor, la banda Wi-Fi se cambiará automáticamente a {auto}.",
+        "usage_environment_title": "Entorno de Uso",
+        "indoor_label": "Interior",
+        "outdoor_label": "Exterior",
+        "environment_tips": "Según lo requerido por las regulaciones, el Wi-Fi debe cambiar al modo \"Exterior\" cuando se utiliza en exteriores. Esto puede reducir el alcance de cobertura."
     },
     "menu_wireless": "Inalámbrica"
 }

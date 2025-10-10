@@ -9,6 +9,7 @@
         "disabled_tips": "Ha a hálózati gyorsítás engedélyezve van, a következő funkciók nem fognak megfelelően működni: {feature}.",
         "disabled_client_label": "Ügyfél sebesség- és forgalomstatisztika",
         "disabled_speed_limit_label": "Ügyfél sebességkorlát",
-        "disabled_vpn_ipv6_label": "IPv6-os VPN"
+        "disabled_vpn_ipv6_label": "IPv6-os VPN",
+        "qos_sqm_safeguard_data_tips": "Ez a funkció nem érhető el, mert a(z) {flowstatistics}, {safeguard}, {qos} vagy {sqm} engedélyezve van."
     }
 }

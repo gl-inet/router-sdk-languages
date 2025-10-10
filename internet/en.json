@@ -230,7 +230,27 @@
         "need_pin_tips": "SIM card is locked, please check if there is a PIN code entered or if the PIN code entered is correct.",
         "region_code_label": "Country / Region Code",
         "band_block_warning": "Please do not block all bands.",
-        "traffic_days_tips": "The maximum number of days takes the value of the actual maximum number of days in the current month."
+        "traffic_days_tips": "The maximum number of days takes the value of the actual maximum number of days in the current month.",
+        "network_type": "Network Type",
+        "lock_pin_tips2": "{sim1} and {sim2} are locked. Please click {unlock1} or {unlock2} and enter the corresponding PIN to unlock each SIM.",
+        "lock_pin_tips1": "{sim} is locked. Please click {unlock} and enter the PIN to unlock it.",
+        "sim_unlock": "{sim} Unlock",
+        "sim_card_priority_title": "SIM Card Priority",
+        "sim_card_switch": "SIM Card Switch",
+        "sim_slot_type": "{sim} Slot Type",
+        "execution_time_label": "Execution Time",
+        "scheduled_switch_preferred_sim_label": "Scheduled Switch to Preferred SIM",
+        "sim_card_failover_title": "SIM Card Failover",
+        "select_active_sim_card": "Select Active SIM Card",
+        "locked": "Locked",
+        "no_sim_card": "No SIM Card",
+        "sim_info_label": "{sim} Information",
+        "airplane_mode_tips": "Airplane Mode is on, and cellular network is disabled.",
+        "dialing_exception_tips": "Please check your eSIM configuration in the {management} to {topUp} data. If the issue persists, check your SIM Card Settings or contact {addr}.",
+        "download_esim_config_tips": "Please connect to the internet to download the eSIM configuration file.",
+        "unlock_pin_count_tips": "Enter PIN to unlock SIM. {count} attempts remaining.",
+        "network_type_tips": "Select 5G for faster speed (requires 5G signal) or 4G for stability.",
+        "unavailable_tower_title": "Unavailable Tower"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -306,7 +326,8 @@
         "reboot_sucess": "Success, please wait for $$$$ seconds.",
         "export_debug_info": "Export Debug Info",
         "hardware_reset": "Hard Reboot",
-        "unknown_command_msg": "Unknown command"
+        "unknown_command_msg": "Unknown command",
+        "sim_slot": "SIM Slot"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -490,13 +511,13 @@
         "lock_tower_disabled_tip": "Because the current card slot is locked to the operator, the current card slot locked to the base station feature is disabled.",
         "scan_tower_warning_tips": "It will take about a few minutes to scan the tower. Are you sure you want to continue?",
         "reflash_warning_msg": "Do not refresh the page.",
-        "lock_tower_tips": "Scanning base stations can quickly identify high-quality signal sources to ensure stable communication. Locking onto a base station requires matching the carrier and the device's supported frequency bands; otherwise, it may affect dialing. Please confirm the base station information to avoid potential issues.",
+        "lock_tower_tips": "Scan tower to quickly identify high-quality signal sources and lock one for stable communication. To lock a tower, it must match the frequency bands supported by your operator and device; otherwise, it may affect cellular dial-up.",
         "lock_operation_mode_label": "Lock Mode",
         "lock_operation_mode_tip": "The operator lock function supports three modes: automatically connecting to an available operator network, manually locking to a specific operator, or automatically switching to an available operator network if the manual lock fails.",
         "scan_operator_warning_tips": "Scanning the operator will take a few minutes, and you will temporarily lose your network connection during this time. Are you sure you want to continue?",
         "available_operator_title": "Available Operators",
         "manual_lock_operator_label": "Manual",
-        "manual_select_operator_tips": "The current operator list is for reference only. If manual selection fails, please refer to the list of operators supported by the current SIM card, or consult the operator's customer service for accurate information.",
+        "manual_select_operator_tips": "The current operator list is for reference only. When locking the operator, ensure it matches the current SIM card operator to avoid network issues.",
         "lock_operator_fail_msg": "The current operator is locked, but actually unavailable due to card or operator restrictions, if you need to restore the network, please perform a manual unlock operation.",
         "lock_operator_warning_tips": "If the locked operator does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.",
         "internet_info_title": "Internet",
@@ -518,7 +539,13 @@
         "pin_code_last_input_unlock_tips": "PIN code {code} is incorrect, there is last chance left to try to unlock it, if unlocking fails again, you need to use your phone to enter the PUK code to unlock.",
         "ip_type_tips": "If the SIM card does not support the current IP Type setting, or when IPv6 is selected but the {ipv6} global switch is not turned on, it may result in dialling abnormalities.",
         "ip_type_label": "IP Type",
-        "initializing_tips": "The modem is initializing……"
+        "initializing_tips": "The modem is initializing……",
+        "connecting_tips": "Some SIM cards have special usage restrictions, such as requiring a specific APN. If your SIM card cannot be registered, please contact your network operator to check for any special restrictions. {guide} \nIf the issue persists, please {log} and send it to {addr}.",
+        "download_log": "download Log",
+        "unavailable_operator_title": "Unavailable Operators",
+        "operator": "Operator",
+        "tower": "Tower",
+        "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type. Please go to {settings} to modify the network type first, then try locking again."
     },
     "sim": {
         "sender_label": "Sender"

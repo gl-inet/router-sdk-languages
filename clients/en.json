@@ -77,11 +77,16 @@
         "host_guest_label": "Host/Guest Network",
         "reserve_ip_different_lan_tips": "The reserved IP is not in the same network segment as the current IP, the configuration does not take effect.",
         "access_control_overlimit_tips": "The {list} is full. Please manage it in {option}.",
-        "usb_tethering": "USB Tethering"
+        "usb_tethering": "USB Tethering",
+        "qos_warning": "Client Speed Limit is unavailable because $$$$QoS$$$$ is enabled.",
+        "sqm_warning": "Client Speed Limit is unavailable because $$$$SQM$$$$ is enabled."
     },
     "vpn_tunnel": {
         "mac_using_tips": "The VPN is connected.",
         "mac_not_effect_tips": "The VPN is not in effect.",
         "mac_connecting_tips": "The VPN is connecting."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "This feature is unavailable because {flowstatistics}, {safeguard}, {qos} or {sqm} is enabled."
     }
 }

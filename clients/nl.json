@@ -76,12 +76,17 @@
         "host_guest_label": "Gastnetwerk/Hostnetwerk",
         "reserve_ip_different_lan_tips": "Het gereserveerde IP bevindt zich niet in hetzelfde netwerksegment als het huidige IP, de configuratie wordt niet toegepast.",
         "access_control_overlimit_tips": "De {list} is vol. Beheer deze in {option}.",
-        "usb_tethering": "USB Tethering"
+        "usb_tethering": "USB Tethering",
+        "qos_warning": "Client Speed Limit is niet beschikbaar omdat $$$$QoS$$$$ is ingeschakeld.",
+        "sqm_warning": "Client Speed Limit is niet beschikbaar omdat $$$$SQM$$$$ is ingeschakeld."
     },
     "menu_clients": "Apparaten",
     "vpn_tunnel": {
         "mac_using_tips": "De VPN is verbonden.",
         "mac_not_effect_tips": "De VPN is niet actief.",
         "mac_connecting_tips": "De VPN maakt verbinding."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "Deze functie is niet beschikbaar omdat {flowstatistics}, {safeguard}, {qos} of {sqm} is ingeschakeld."
     }
 }

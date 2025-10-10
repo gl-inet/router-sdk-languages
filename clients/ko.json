@@ -77,11 +77,16 @@
         "host_guest_label": "호스트/게스트 네트워크",
         "reserve_ip_different_lan_tips": "예약된 IP가 현재 IP와 동일한 네트워크 세그먼트에 있지 않으므로 구성이 적용되지 않습니다.",
         "access_control_overlimit_tips": "{list}이(가) 가득 찼습니다. {option}에서 관리해 주세요.",
-        "usb_tethering": "USB 테더링"
+        "usb_tethering": "USB 테더링",
+        "sqm_warning": "클라이언트 속도 제한은 $$$$SQM$$$$이 활성화되어 있기 때문에 사용할 수 없습니다.",
+        "qos_warning": "클라이언트 속도 제한은 $$$$QoS$$$$이 활성화되어 있기 때문에 사용할 수 없습니다."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN이 연결되었습니다.",
         "mac_not_effect_tips": "VPN이 적용되지 않았습니다.",
         "mac_connecting_tips": "VPN이 연결 중입니다."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "이 기능은 {flowstatistics}, {safeguard}, {qos} 또는 {sqm}이 활성화되어 있기 때문에 사용할 수 없습니다."
     }
 }

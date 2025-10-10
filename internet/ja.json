@@ -230,7 +230,27 @@
         "need_pin_no_history_tips": "PINコードを入力する必要があり、残り{count}回の試行が可能です。",
         "region_code_label": "国/地域コード",
         "band_block_warning": "すべてのバンドをブロックしないでください。",
-        "traffic_days_tips": "最大日数は、当月の実際の最大日数の値が採用されます。"
+        "traffic_days_tips": "最大日数は、当月の実際の最大日数の値が採用されます。",
+        "network_type": "ネットワークタイプ",
+        "lock_pin_tips1": "{sim}はロックされています。{unlock}をクリックしてPINを入力し、ロックを解除してください。",
+        "sim_unlock": "{sim} アンロック",
+        "lock_pin_tips2": "{sim1}と{sim2}はロックされています。各SIMをアンロックするには、{unlock1}または{unlock2}をクリックし、対応するPINを入力してください。",
+        "sim_card_switch": "SIMカード切り替え",
+        "sim_slot_type": "{sim} スロットタイプ",
+        "sim_card_priority_title": "SIMカード優先順位",
+        "sim_card_failover_title": "SIMカードフェイルオーバー",
+        "scheduled_switch_preferred_sim_label": "優先SIMへのスケジュール切り替え",
+        "execution_time_label": "実行時間",
+        "select_active_sim_card": "アクティブSIMカードを選択",
+        "locked": "ロック済み",
+        "no_sim_card": "SIMカードがありません",
+        "sim_info_label": "{sim}情報",
+        "airplane_mode_tips": "機内モードがオンになっており、セルラーネットワークは無効になっています。",
+        "dialing_exception_tips": "{management}でeSIMの設定を確認し、データを{topUp}してください。問題が解決しない場合は、SIMカード設定を確認するか、{addr}にお問い合わせください。",
+        "download_esim_config_tips": "インターネットに接続してeSIM設定ファイルをダウンロードしてください。",
+        "unlock_pin_count_tips": "SIMをアンロックするにはPINを入力してください。残り{count}回試行できます。",
+        "network_type_tips": "高速通信のため5Gを選択（5G信号が必要）、または安定性のため4Gを選択してください。",
+        "unavailable_tower_title": "利用不可タワー"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -253,7 +273,8 @@
         "info": "Modem情報",
         "soft_reset": "ソフトリブート",
         "hardware_reset": "ハードリブート",
-        "unknown_command_msg": "不明なコマンド"
+        "unknown_command_msg": "不明なコマンド",
+        "sim_slot": "SIMスロット"
     },
     "sms": {
         "title": "メッセージ",
@@ -518,7 +539,13 @@
         "manual_lock_operator_label": "マニュアル",
         "ip_type_tips": "SIMカードがご利用のIPタイプ設定をサポートしていない場合、またはIPv6が選択されているのに{ipv6}グローバルスイッチがオンになっていない場合、ダイヤル異常が発生する可能性があります。",
         "ip_type_label": "IPタイプ",
-        "initializing_tips": "モデムの初期化中……"
+        "initializing_tips": "モデムの初期化中……",
+        "connecting_tips": "一部のSIMカードには、特定のAPNの使用など特別な利用制限があります。SIMカードが登録できない場合は、ネットワーク事業者に連絡して特別な制限がないか確認してください。{guide}\n問題が解決しない場合は、{log}を取得し、{addr}に送信してください。",
+        "download_log": "ログをダウンロード",
+        "unavailable_operator_title": "利用不可な事業者",
+        "operator": "事業者",
+        "tower": "タワー",
+        "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは{networkType}で、{feature}のネットワークタイプと競合しています。まず{settings}でネットワークタイプを変更してから、再度ロックを試みてください。"
     },
     "sim": {
         "sender_label": "送信者"

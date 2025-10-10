@@ -77,11 +77,16 @@
         "host_guest_label": "Хост/Гостьова мережа",
         "reserve_ip_different_lan_tips": "Зарезервована IP-адреса не знаходиться в тому ж мережевому сегменті, що й поточна IP-адреса, конфігурація не набуває чинності.",
         "access_control_overlimit_tips": "Список {list} заповнений. Будь ласка, керуйте ним у {option}.",
-        "usb_tethering": "USB-модем"
+        "usb_tethering": "USB-модем",
+        "qos_warning": "Обмеження швидкості клієнта недоступне, оскільки ввімкнено $$$$QoS$$$$.",
+        "sqm_warning": "Обмеження швидкості клієнта недоступне, оскільки ввімкнено $$$$SQM$$$$."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN підключено.",
         "mac_not_effect_tips": "VPN не діє.",
         "mac_connecting_tips": "VPN підключається."
+    },
+    "netnat": {
+        "qos_sqm_safeguard_data_tips": "Ця функція недоступна, оскільки увімкнено {flowstatistics}, {safeguard}, {qos} або {sqm}."
     }
 }
