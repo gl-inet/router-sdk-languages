@@ -453,7 +453,7 @@
         "to_title": "To",
         "all_other_traffic_sub_tips": "Turning this off will enhance Kill Switch and block regular Internet access.",
         "default_tunnel_allow_tips": "{label}: When Enabled, you will have normal Internet access if your traffic does not match any of the policies above.",
-        "default_tunnel_allow_label": "Allow Non-VPN traffic",
+        "default_tunnel_allow_label": "Allow Non-VPN Traffic",
         "default_tunnel_kill_switch_tips": "{label}: When Disabled, you are forced to use VPN and policies to access the Internet. All unmatched traffic will be blocked. This option does not override the individual Kill Switch for each policy.",
         "default_tunnel_kill_switch_label": "Enhanced Kill Switch",
         "default_tunnel_common_tips": "For all other Internet traffic that is not matched by any of the VPN tunnels and policies above, this option controls whether you want it to go to the Internet. This option is enabled by default to ensure you have normal Internet access besides your VPN traffic.",
