@@ -56,10 +56,10 @@
         "manual_auto_lock_operator_label": "Lámhaigh-Uathoibríoch",
         "connecting_tips": "Tá srianta úsáide speisialta ag baint le roinnt cártaí SIM, amhail APN ar leith a éileamh. Mura féidir do chárta SIM a chlárú, déan teagmháil le d’oibreoir líonra le seiceáil an bhfuil aon srianta speisialta ann. {guide}\nMá leanann an fhadhb ar aghaidh, {log} agus seol chuig {addr} í.",
         "download_log": "íoslódáil Loga",
-        "unavailable_operator_title": "Oibreoirí Neamh-infheidhme",
+        "unavailable_operator_title": "Oibreoirí Gan Fáil",
         "operator": "Oibreoir",
         "tower": "Túr",
-        "network_type_conflicts_tips": "Is éard atá i gceist le cineál líonra an chárta SIM reatha ná {networkType}, a thagann salach ar chineál líonra {feature}. Téigh chuig {settings} chun an cineál líonra a mhodhnú ar dtús, agus déan iarracht glasáil a chur leis arís."
+        "network_type_conflicts_tips": "Is é {networkType} an cineál líonra cárta SIM reatha, rud a thagann salach ar chineál líonra {feature}. Téigh go {settings} chun an cineál líonra a mhodhnú ar dtús, agus ansin déan iarracht glasáil arís."
     },
     "sms": {
         "del_sms": "Scrios",
@@ -360,7 +360,7 @@
         "download_esim_config_tips": "Déan ceangal leis an idirlíon chun an comhad cumraíochta eSIM a íoslódáil.",
         "unlock_pin_count_tips": "Iontráil an PIN chun an SIM a dhíghlasáil. {count} iarrachtaí fágtha.",
         "network_type_tips": "Roghnaigh 5G le haghaidh luas níos tapúla (tá comhartha 5G ag teastáil) nó 4G le haghaidh cobhsaíochta.",
-        "unavailable_tower_title": "Túr Neamh-infheidhme"
+        "unavailable_tower_title": "Túr Gan Fáil"
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
