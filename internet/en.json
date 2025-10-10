@@ -545,7 +545,8 @@
         "download_log": "download Log",
         "unavailable_operator_title": "Unavailable Operators",
         "operator": "Operator",
-        "tower": "Tower"
+        "tower": "Tower",
+        "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type. Please go to {settings} to modify the network type first, then try locking again."
     },
     "sim": {
         "sender_label": "Sender"
