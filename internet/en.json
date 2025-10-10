@@ -250,7 +250,8 @@
         "download_esim_config_tips": "Please connect to the internet to download the eSIM configuration file.",
         "unlock_pin_count_tips": "Enter PIN to unlock SIM. {count} attempts remaining.",
         "network_type_tips": "Select 5G for faster speed (requires 5G signal) or 4G for stability.",
-        "unavailable_tower_title": "Unavailable Tower"
+        "unavailable_tower_title": "Unavailable Tower",
+        "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type. Please go to {settings} to modify the network type first, then try locking again."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
