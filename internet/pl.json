@@ -544,7 +544,8 @@
         "download_log": "Pobierz Dziennik",
         "unavailable_operator_title": "Niedostępni operatorzy",
         "operator": "Operator",
-        "tower": "Wieża"
+        "tower": "Wieża",
+        "network_type_conflicts_tips": "Obecny typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci {feature}. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować."
     },
     "sim": {
         "sender_label": "Nadawca"
