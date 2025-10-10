@@ -542,7 +542,10 @@
         "ip_type_label": "Type IP",
         "initializing_tips": "Le modem est en cours d'initialisation……",
         "connecting_tips": "Certaines cartes SIM ont des restrictions d'utilisation particulières, comme l'exigence d'un APN spécifique. Si votre carte SIM ne peut pas être enregistrée, veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions spéciales. {guide}\nSi le problème persiste, veuillez {log} et l'envoyer à {addr}.",
-        "download_log": "Télécharger le journal"
+        "download_log": "Télécharger le journal",
+        "unavailable_operator_title": "Opérateurs non disponibles",
+        "operator": "Opérateur",
+        "tower": "Tour"
     },
     "sim": {
         "sender_label": "Expéditeur"
