@@ -542,7 +542,10 @@
         "ip_type_label": "IPタイプ",
         "initializing_tips": "モデムの初期化中……",
         "connecting_tips": "一部のSIMカードには、特定のAPNの使用など特別な利用制限があります。SIMカードが登録できない場合は、ネットワーク事業者に連絡して特別な制限がないか確認してください。{guide}\n問題が解決しない場合は、{log}を取得し、{addr}に送信してください。",
-        "download_log": "ログをダウンロード"
+        "download_log": "ログをダウンロード",
+        "unavailable_operator_title": "利用不可な事業者",
+        "operator": "事業者",
+        "tower": "タワー"
     },
     "sim": {
         "sender_label": "送信者"
