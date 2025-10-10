@@ -542,7 +542,10 @@
         "ip_type_label": "Tipo de IP",
         "initializing_tips": "El módem se está inicializando…",
         "connecting_tips": "Algunas tarjetas SIM tienen restricciones de uso especiales, como requerir un APN específico. Si su tarjeta SIM no puede registrarse, contacte a su operador de red para verificar si existen restricciones especiales. {guide} \nSi el problema persiste, por favor {log} y envíelo a {addr}.",
-        "download_log": "Descargar registro"
+        "download_log": "Descargar registro",
+        "unavailable_operator_title": "Operadores no disponibles",
+        "operator": "Operador",
+        "tower": "Torre"
     },
     "sim": {
         "sender_label": "Remitente"
