@@ -43,7 +43,11 @@
         "repeater_band_conflict_tips": "Der mit dem Repeater in Konflikt stehende Frequenzbereich wird deaktiviert.",
         "using_band": "Verwenden von {band}",
         "wifi_sleep_tips": "Das WLAN befindet sich derzeit im Ruhemodus und ist nicht sichtbar. Um es zu aktivieren, können Sie zu {management} gehen, um den Ruhemodus zu deaktivieren.",
-        "wifi_band_mutex_tips": "5-GHz-WLAN ist standardmäßig aktiviert. Falls es zu Konflikten mit dem Repeater kommt, wird das WLAN-Band automatisch auf {auto} umgeschaltet."
+        "wifi_band_mutex_tips": "5-GHz-WLAN ist standardmäßig aktiviert. Falls es zu Konflikten mit dem Repeater kommt, wird das WLAN-Band automatisch auf {auto} umgeschaltet.",
+        "usage_environment_title": "Verwendungsumgebung",
+        "indoor_label": "Innenbereich",
+        "outdoor_label": "Außenbereich",
+        "environment_tips": "Gemäß den Vorschriften muss das WLAN im Außenbereich auf den \"Outdoor\"-Modus umgeschaltet werden. Dies kann die Reichweite verringern."
     },
     "menu_wireless": "WLAN"
 }
