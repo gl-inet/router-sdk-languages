@@ -329,7 +329,9 @@
         "hardware_reset": "Riavvio forzato",
         "unknown_command_msg": "Comando sconosciuto",
         "sim_slot": "Scheda SIM",
-        "ims_tips": "Per {status} IMS, si prega di riavviare il dispositivo affinché abbia effetto."
+        "ims_tips": "Per {status} IMS, si prega di riavviare il dispositivo affinché abbia effetto.",
+        "disable": "禁用",
+        "enable": "启用"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -547,7 +549,8 @@
         "unavailable_operator_title": "运营商不可用",
         "operator": "Operatore",
         "tower": "Torre",
-        "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è {networkType}, che è in conflitto con la tipologia di rete di {feature}. Si prega di accedere a {settings} per modificare la tipologia di rete prima, quindi provare a bloccare nuovamente."
+        "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è {networkType}, che è in conflitto con la tipologia di rete di {feature}. Si prega di accedere a {settings} per modificare la tipologia di rete prima, quindi provare a bloccare nuovamente.",
+        "current_sim_badge_label": "Attivo: {sim}"
     },
     "sim": {
         "sender_label": "Mittente"
