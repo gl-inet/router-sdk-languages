@@ -549,7 +549,8 @@
         "unavailable_operator_title": "Unavailable Operators",
         "operator": "Operator",
         "tower": "Tower",
-        "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type. Please go to {settings} to modify the network type first, then try locking again."
+        "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type. Please go to {settings} to modify the network type first, then try locking again.",
+        "current_sim_badge_label": "Active: {sim}"
     },
     "sim": {
         "sender_label": "Sender"
