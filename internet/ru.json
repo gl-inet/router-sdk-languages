@@ -325,7 +325,8 @@
         "unknown_command_msg": "Неизвестная команда",
         "sim_slot": "Слот для SIM-карты",
         "ims_tips": "Чтобы {status} IMS, перезагрузите устройство для вступления изменений в силу.",
-        "disable": "Отключить"
+        "disable": "Отключить",
+        "enable": "启用"
     },
     "menu_internet": "Интернет",
     "router_visual": {
@@ -548,7 +549,8 @@
         "unavailable_operator_title": "不可用运营商",
         "operator": "Оператор",
         "tower": "塔楼",
-        "network_type_conflicts_tips": "Текущий тип сети SIM-карты - {networkType}, что конфликтует с сетевым типом функции {feature}. Пожалуйста, перейдите в {settings}, чтобы сначала изменить тип сети, а затем повторите попытку блокировки."
+        "network_type_conflicts_tips": "Текущий тип сети SIM-карты - {networkType}, что конфликтует с сетевым типом функции {feature}. Пожалуйста, перейдите в {settings}, чтобы сначала изменить тип сети, а затем повторите попытку блокировки.",
+        "current_sim_badge_label": "Активен: {sim}"
     },
     "sim": {
         "sender_label": "Отправитель"
