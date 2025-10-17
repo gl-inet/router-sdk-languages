@@ -78,7 +78,8 @@
         "access_control_overlimit_tips": "{list} 已满。请在 {option} 中进行管理。",
         "usb_tethering": "USB 网络共享",
         "qos_warning": "客户端速度限制不可用，因为已启用$$$$QoS$$$$。",
-        "sqm_warning": "客户端速度限制不可用，因为已启用$$$$SQM$$$$。"
+        "sqm_warning": "客户端速度限制不可用，因为已启用$$$$SQM$$$$。",
+        "enable_conflict_warning": "客户端速度限制不可用，因为 {other} 已启用。"
     },
     "menu_clients": "客户端",
     "vpn_tunnel": {
