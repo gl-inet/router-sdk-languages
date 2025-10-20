@@ -17,9 +17,9 @@
         "hardware_reset": "Athbhútáil Crua",
         "unknown_command_msg": "Ainm ordú anaithnid",
         "sim_slot": "Sliotán SIM",
-        "ims_tips": "Chun IMS a {status}, déan an gléas a athbhútáil chun go dtiocfaidh sé i bhfeidhm.",
-        "disable": "díchumas",
-        "enable": "Cumasaigh"
+        "ims_tips": "Chun IMS {status} a úsáid, atosaigh an gléas le go dtiocfaidh sé i bhfeidhm.",
+        "disable": "díchumasaigh",
+        "enable": "cumasaigh"
     },
     "cellular": {
         "cell_info_title": "Cealla",
@@ -64,7 +64,7 @@
         "tower": "Túr",
         "network_type_conflicts_tips": "Is é {networkType} an cineál líonra cárta SIM reatha, rud a thagann salach ar chineál líonra {feature}. Téigh go {settings} chun an cineál líonra a mhodhnú ar dtús, agus ansin déan iarracht glasáil arís.",
         "current_sim_badge_label": "Gníomhach: {sim}",
-        "connection_failed": "Ceangal Teipthe"
+        "connection_failed": "Theip ar an gCeangal"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -366,7 +366,7 @@
         "unlock_pin_count_tips": "Iontráil an PIN chun an SIM a dhíghlasáil. {count} iarrachtaí fágtha.",
         "network_type_tips": "Roghnaigh 5G le haghaidh luas níos tapúla (tá comhartha 5G ag teastáil) nó 4G le haghaidh cobhsaíochta.",
         "unavailable_tower_title": "Túr Gan Fáil",
-        "lock_puk_tips": "Tá an cárta {sim} faoi ghlas mar gheall ar thrí ionchur mícheart cód PIN. Cuir isteach an cód PUK ar do ghuthán chun é a dhíghlasáil."
+        "lock_puk_tips": "Tá an cárta {sim} glasáilte mar gheall ar thrí ionchur míchearta ar an gcód PIN. Cuir isteach an cód PUK ar do ghuthán le do thoil chun é a dhíghlasáil."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
