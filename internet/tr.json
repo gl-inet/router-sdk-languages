@@ -159,7 +159,8 @@
         "download_esim_config_tips": "Lütfen eSIM yapılandırma dosyasını indirmek için internete bağlanın.",
         "unlock_pin_count_tips": "SIM'i açmak için PIN girin. {count} deneme hakkı kaldı.",
         "network_type_tips": "Daha hızlı hız için 5G'yi (5G sinyali gerektirir) veya kararlılık için 4G'yi seçin.",
-        "unavailable_tower_title": "Kullanılamayan Kule"
+        "unavailable_tower_title": "Kullanılamayan Kule",
+        "lock_puk_tips": "{sim} kartı üç yanlış PIN kodu girişi nedeniyle kilitlenmiştir. Lütfen kilidini açmak için telefonunuzda PUK kodunu girin."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -513,7 +514,10 @@
         "export_debug_info": "Hata Ayıklama Bilgisi Dışa Aktar",
         "hardware_reset": "Donanımsal Yeniden Başlat",
         "unknown_command_msg": "Bilinmeyen komut",
-        "sim_slot": "SIM Yuvası"
+        "sim_slot": "SIM Yuvası",
+        "ims_tips": "{status} IMS'yi etkinleştirmek için lütfen cihazı yeniden başlatın.",
+        "disable": "devre dışı bırak",
+        "enable": "Etkinleştir"
     },
     "menu_internet": "İnternet",
     "cellular": {
@@ -557,7 +561,9 @@
         "unavailable_operator_title": "Kullanılamayan Operatörler",
         "operator": "Operatör",
         "tower": "Kule",
-        "network_type_conflicts_tips": "Mevcut SIM kart ağ türü {networkType} olup, {feature}'ın ağ türüyle çakışmaktadır. Lütfen önce ağ türünü değiştirmek için {settings}'e gidin, ardından tekrar kilitlemeyi deneyin."
+        "network_type_conflicts_tips": "Mevcut SIM kart ağ türü {networkType} olup, {feature}'ın ağ türüyle çakışmaktadır. Lütfen önce ağ türünü değiştirmek için {settings}'e gidin, ardından tekrar kilitlemeyi deneyin.",
+        "current_sim_badge_label": "Aktif: {sim}",
+        "connection_failed": "Bağlantı Başarısız"
     },
     "sim": {
         "sender_label": "Gönderen"

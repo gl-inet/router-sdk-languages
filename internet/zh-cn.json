@@ -250,7 +250,8 @@
         "download_esim_config_tips": "请连接互联网以下载eSIM配置文件。",
         "unlock_pin_count_tips": "输入PIN码解锁SIM卡。剩余{count}次尝试。",
         "network_type_tips": "选择5G以获得更快的速度（需5G信号覆盖），或选择4G以获得更稳定的连接。",
-        "unavailable_tower_title": "不可用基站"
+        "unavailable_tower_title": "不可用基站",
+        "lock_puk_tips": "PIN 码输入错误 3 次，{sim} 卡已被锁定，请在您的手机上输入 PUK 码解锁。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -327,7 +328,10 @@
         "export_debug_info": "导出调试信息",
         "hardware_reset": "硬重启",
         "unknown_command_msg": "未知指令",
-        "sim_slot": "SIM 卡槽"
+        "sim_slot": "SIM 卡槽",
+        "ims_tips": "要{status} IMS，请重启设备使其生效。",
+        "disable": "禁用",
+        "enable": "启用"
     },
     "menu_internet": "互联网",
     "guide": {
@@ -539,13 +543,15 @@
         "pin_code_last_input_unlock_tips": "PIN码{code}不正确，这是最后一次尝试解锁的机会，如果再次解锁失败，您需要使用手机输入PUK码进行解锁。",
         "ip_type_tips": "如果SIM卡不支持当前的IP类型设置，或者选择了IPv6但未开启{ipv6}全局开关，可能会导致拨号异常。",
         "ip_type_label": "IP类型",
-        "initializing_tips": "调制解调器正在初始化……",
+        "initializing_tips": "蜂窝模组正在初始化……",
         "connecting_tips": "某些SIM卡有特殊使用限制，例如需要特定APN。若您的SIM卡无法注册，请联系网络运营商检查是否存在特殊限制。{guide} \n若问题仍然存在，请{log}并发送至{addr}。",
         "download_log": "下载日志",
         "unavailable_operator_title": "不可用运营商",
         "operator": "运营商",
         "tower": "基站",
-        "network_type_conflicts_tips": "当前 SIM 卡网络类型为{networkType}，与此{feature}网络类型冲突。请先请前往 {settings}中修改网络类型，再尝试锁定。"
+        "network_type_conflicts_tips": "当前 SIM 卡网络类型为{networkType}，与此{feature}网络类型冲突。请先请前往 {settings}中修改网络类型，再尝试锁定。",
+        "current_sim_badge_label": "正在使用 {sim}",
+        "connection_failed": "连接失败"
     },
     "sim": {
         "sender_label": "发件人"

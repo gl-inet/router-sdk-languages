@@ -185,7 +185,10 @@
         "hardware_reset": "Twardy Restart",
         "title": "Zarządzanie",
         "unknown_command_msg": "Nieznane polecenie",
-        "sim_slot": "Gniazdo Karty SIM"
+        "sim_slot": "Gniazdo Karty SIM",
+        "ims_tips": "Aby {status} IMS, uruchom ponownie urządzenie, aby zmiany zostały zastosowane.",
+        "disable": "wyłącz",
+        "enable": "włącz"
     },
     "modem": {
         "user_name": "Nazwa Użytkownika",
@@ -317,7 +320,8 @@
         "download_esim_config_tips": "Proszę połączyć się z internetem, aby pobrać plik konfiguracyjny eSIM.",
         "unlock_pin_count_tips": "Wprowadź PIN, aby odblokować kartę SIM. Pozostało {count} prób.",
         "network_type_tips": "Wybierz 5G dla szybszej prędkości (wymaga sygnału 5G) lub 4G dla stabilności.",
-        "unavailable_tower_title": "Niedostępna Wieża"
+        "unavailable_tower_title": "Niedostępna Wieża",
+        "lock_puk_tips": "Karta {sim} została zablokowana z powodu trzykrotnego wprowadzenia nieprawidłowego kodu PIN. Aby ją odblokować, wprowadź kod PUK w telefonie."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -542,10 +546,12 @@
         "initializing_tips": "Modem jest inicjalizowany……",
         "connecting_tips": "Niektóre karty SIM mają specjalne ograniczenia użytkowania, takie jak wymaganie określonego APN. Jeśli Twoja karta SIM nie może zostać zarejestrowana, skontaktuj się z operatorem sieci, aby sprawdzić, czy istnieją specjalne ograniczenia. {guide} \nJeśli problem nadal występuje, proszę {log} i wyślij go na adres {addr}.",
         "download_log": "Pobierz Dziennik",
-        "unavailable_operator_title": "Niedostępni operatorzy",
+        "unavailable_operator_title": "Niedostępni Operatorzy",
         "operator": "Operator",
         "tower": "Wieża",
-        "network_type_conflicts_tips": "Obecny typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci {feature}. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować."
+        "network_type_conflicts_tips": "Obecny typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci {feature}. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować.",
+        "current_sim_badge_label": "Aktywna: {sim}",
+        "connection_failed": "Połączenie nie powiodło się"
     },
     "sim": {
         "sender_label": "Nadawca"

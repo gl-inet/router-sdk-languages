@@ -5,10 +5,10 @@
         "queue_label": "Règle de File d'Attente",
         "client_speed_limit_warning_tips": "Cette fonctionnalité ne peut pas fonctionner avec la limitation de vitesse client. Son activation supprimera automatiquement toutes les limites de vitesse client.",
         "network_acceleration_warning": "Cette fonction ne peut pas fonctionner avec {network}. Son activation désactivera automatiquement l'Accélération Réseau pour garantir un fonctionnement correct.",
-        "qos_enable_warning": "SQM n'est pas disponible car $$$$QoS$$$$ est activé.",
         "tips": "Lorsqu'il est activé, votre routeur gère intelligemment le trafic réseau pour empêcher tout appareil ou application d'utiliser trop de bande passante. Cela réduit la latence et la mise en mémoire tampon pour une navigation plus rapide, des appels plus clairs et un jeu plus fluide.",
         "upload_tips": "Définissez d'abord vos vitesses de téléchargement et d'upload maximales (plage de saisie : 1–10000) pour la planification du trafic. Ajustez-les à votre bande passante internet réelle pour des résultats optimaux.",
-        "upload_label": "Uploader"
+        "upload_label": "Uploader",
+        "full_name": "Gestion intelligente de la file d'attente"
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",

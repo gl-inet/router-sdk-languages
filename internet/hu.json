@@ -129,7 +129,8 @@
         "download_esim_config_tips": "Kérjük, csatlakozzon az internethez az eSIM konfigurációs fájl letöltéséhez.",
         "unlock_pin_count_tips": "Adja meg a PIN-kódot a SIM-kártya feloldásához. {count} próbálkozás maradt.",
         "network_type_tips": "Válassza az 5G-t a nagyobb sebességért (5G jel szükséges) vagy a 4G-t a stabilitásért.",
-        "unavailable_tower_title": "Nem elérhető torony"
+        "unavailable_tower_title": "Nem elérhető torony",
+        "lock_puk_tips": "A(z) {sim} kártya háromszori hibás PIN-kód megadás miatt zárolva lett. Kérjük, adja meg a PUK kódot telefonján a feloldáshoz."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -231,7 +232,10 @@
         "reboot_sucess": "Végrehajtva. Kérem, várjon $$$$ másodpercet!",
         "hardware_reset": "Kemény újraindítás",
         "unknown_command_msg": "Ismeretlen parancs",
-        "sim_slot": "SIM foglalat"
+        "sim_slot": "SIM foglalat",
+        "ims_tips": "A(z) {status} IMS engedélyezéséhez kérjük, indítsa újra az eszközt a hatályba lépéshez.",
+        "disable": "letiltás",
+        "enable": "engedélyezés"
     },
     "repeater": {
         "detail_title": "Hálózat tulajdonságai",
@@ -545,7 +549,9 @@
         "unavailable_operator_title": "不可用运营商",
         "operator": "运营商",
         "tower": "Tower",
-        "network_type_conflicts_tips": "Az aktuális SIM-kártya hálózati típusa {networkType}, amely ütközik a(z) {feature} hálózati típusával. Kérjük, először a(z) {settings} oldalon módosítsa a hálózati típust, majd próbálja meg újra a zárolást."
+        "network_type_conflicts_tips": "Az aktuális SIM-kártya hálózati típusa {networkType}, amely ütközik a(z) {feature} hálózati típusával. Kérjük, először a(z) {settings} oldalon módosítsa a hálózati típust, majd próbálja meg újra a zárolást.",
+        "current_sim_badge_label": "Aktív: {sim}",
+        "connection_failed": "Kapcsolat sikertelen"
     },
     "sim": {
         "sender_label": "Feladó"

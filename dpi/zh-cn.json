@@ -2,13 +2,13 @@
     "sqm": {
         "title": "SQM",
         "tips": "启用后，您的路由器将智能管理网络流量，防止任何单个设备或应用程序占用过多带宽。这有助于降低延迟和缓冲，实现更快的浏览、更清晰的通话和更流畅的游戏体验。",
-        "qos_enable_warning": "由于已启用$$$$QoS$$$$，SQM不可用。",
         "upload_label": "上传",
         "download_label": "下载",
         "queue_label": "队列规则",
         "upload_tips": "请先设置最大上传和下载速度（输入范围：1–10000）以进行流量调度。将其与您的实际互联网带宽匹配以获得最佳效果。",
         "client_speed_limit_warning_tips": "此功能无法与客户端限速同时使用。启用后将自动移除所有客户端限速设置。",
-        "network_acceleration_warning": "此功能无法与{network}同时使用。启用后将自动关闭网络加速功能以确保正常运行。"
+        "network_acceleration_warning": "此功能无法与{network}同时使用。启用后将自动关闭网络加速功能以确保正常运行。",
+        "full_name": "智能队列管理"
     },
     "qos": {
         "title": "QoS",

@@ -250,7 +250,8 @@
         "download_esim_config_tips": "Verbind u met internet om het eSIM-configuratiebestand te downloaden.",
         "unlock_pin_count_tips": "Voer PIN in om SIM te ontgrendelen. {count} pogingen resterend.",
         "network_type_tips": "Selecteer 5G voor hogere snelheid (vereist 5G-signaal) of 4G voor stabiliteit.",
-        "unavailable_tower_title": "Niet beschikbare toren"
+        "unavailable_tower_title": "Niet beschikbare toren",
+        "lock_puk_tips": "De {sim}-kaart is geblokkeerd vanwege drie onjuiste PIN-code invoeren. Voer de PUK-code in op uw telefoon om deze te ontgrendelen."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -327,7 +328,10 @@
         "export_debug_info": "Debuginformatie exporteren",
         "hardware_reset": "Hardwarematig herstarten",
         "unknown_command_msg": "Onbekend commando",
-        "sim_slot": "SIM-kaartslot"
+        "sim_slot": "SIM-kaartslot",
+        "ims_tips": "Om IMS naar {status} te brengen, herstart u het apparaat om dit van kracht te laten worden.",
+        "disable": "uitschakelen",
+        "enable": "inschakelen"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -545,7 +549,9 @@
         "unavailable_operator_title": "Niet-beschikbare operators",
         "operator": "Operator",
         "tower": "Toren",
-        "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is {networkType}, wat conflicteert met het netwerktype van {feature}. Ga naar {settings} om eerst het netwerktype aan te passen en probeer daarna opnieuw te vergrendelen."
+        "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is {networkType}, wat conflicteert met het netwerktype van {feature}. Ga naar {settings} om eerst het netwerktype aan te passen en probeer daarna opnieuw te vergrendelen.",
+        "current_sim_badge_label": "Actief: {sim}",
+        "connection_failed": "Verbinding mislukt"
     },
     "sim": {
         "sender_label": "Afzender"

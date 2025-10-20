@@ -2,13 +2,13 @@
     "sqm": {
         "title": "SQM",
         "tips": "When enabled, your router intelligently manages network traffic to prevent any single device or application from using too much bandwidth. This reduces latency and buffering for faster browsing, clearer calls, and smoother gaming.",
-        "qos_enable_warning": "SQM is unavailable because $$$$QoS$$$$ is enabled.",
         "upload_label": "Upload",
         "download_label": "Download",
         "queue_label": "Queue Rule",
         "upload_tips": "Set your maximum upload and download speeds first (input range: 1–10000) for traffic scheduling. Match them to your actual internet bandwidth for the best results.",
         "network_acceleration_warning": "This feature cannot work together with {network}. Enabling it will automatically disable Network Acceleration to ensure proper operation.",
-        "client_speed_limit_warning_tips": "This feature cannot work together with Client Speed Limit. Enabling it will automatically remove all client speed limits."
+        "client_speed_limit_warning_tips": "This feature cannot work together with Client Speed Limit. Enabling it will automatically remove all client speed limits.",
+        "full_name": "Smart Queue Management"
     },
     "qos": {
         "title": "QoS",
@@ -74,12 +74,12 @@
         "mac_label": "MAC",
         "client_port_label": "Client Port",
         "last_seen_label": "Last Seen",
-        "to_safeGuard_alert": "Please enable SafeGuard first.",
-        "to_safeGuard_btn": "Go To SafeGuard",
+        "to_safeGuard_alert": "Please enable Content Protection first.",
+        "to_safeGuard_btn": "Go To Content Protection",
         "data_usage_title": "Data Usage"
     },
     "menu_sqm": "SQM",
-    "menu_qos": "QOS",
+    "menu_qos": "QoS",
     "menu_flowstatistics": "Data Statistics",
     "menu_contentprotection": "Content Protection",
     "contentprotection": {

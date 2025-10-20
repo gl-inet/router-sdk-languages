@@ -250,7 +250,8 @@
         "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM.",
         "unlock_pin_count_tips": "Inserire il PIN per sbloccare la SIM. {count} tentativi rimanenti.",
         "network_type_tips": "Selezionare 5G per una velocità maggiore (richiede segnale 5G) o 4G per una maggiore stabilità.",
-        "unavailable_tower_title": "Torre non disponibile"
+        "unavailable_tower_title": "Torre non disponibile",
+        "lock_puk_tips": "La scheda {sim} è stata bloccata a causa di tre inserimenti errati del codice PIN. Inserisci il codice PUK sul tuo telefono per sbloccarla."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -327,7 +328,10 @@
         "export_debug_info": "Esporta informazioni di debug",
         "hardware_reset": "Riavvio forzato",
         "unknown_command_msg": "Comando sconosciuto",
-        "sim_slot": "Scheda SIM"
+        "sim_slot": "Scheda SIM",
+        "ims_tips": "Per {status} IMS, si prega di riavviare il dispositivo affinché abbia effetto.",
+        "disable": "禁用",
+        "enable": "启用"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -545,7 +549,9 @@
         "unavailable_operator_title": "运营商不可用",
         "operator": "Operatore",
         "tower": "Torre",
-        "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è {networkType}, che è in conflitto con la tipologia di rete di {feature}. Si prega di accedere a {settings} per modificare la tipologia di rete prima, quindi provare a bloccare nuovamente."
+        "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è {networkType}, che è in conflitto con la tipologia di rete di {feature}. Si prega di accedere a {settings} per modificare la tipologia di rete prima, quindi provare a bloccare nuovamente.",
+        "current_sim_badge_label": "Attivo: {sim}",
+        "connection_failed": "Connessione Fallita"
     },
     "sim": {
         "sender_label": "Mittente"

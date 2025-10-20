@@ -250,7 +250,8 @@
         "download_esim_config_tips": "インターネットに接続してeSIM設定ファイルをダウンロードしてください。",
         "unlock_pin_count_tips": "SIMをアンロックするにはPINを入力してください。残り{count}回試行できます。",
         "network_type_tips": "高速通信のため5Gを選択（5G信号が必要）、または安定性のため4Gを選択してください。",
-        "unavailable_tower_title": "利用不可タワー"
+        "unavailable_tower_title": "利用不可タワー",
+        "lock_puk_tips": "{PUK}コードを3回間違えて入力したため、{sim}カードがロックされました。携帯電話でPUKコードを入力してロックを解除してください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -274,7 +275,10 @@
         "soft_reset": "ソフトリブート",
         "hardware_reset": "ハードリブート",
         "unknown_command_msg": "不明なコマンド",
-        "sim_slot": "SIMスロット"
+        "sim_slot": "SIMスロット",
+        "ims_tips": "IMSを{status}するには、デバイスをリブートして有効にしてください。",
+        "disable": "無効にする",
+        "enable": "有効にする"
     },
     "sms": {
         "title": "メッセージ",
@@ -545,7 +549,9 @@
         "unavailable_operator_title": "利用不可な事業者",
         "operator": "事業者",
         "tower": "タワー",
-        "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは{networkType}で、{feature}のネットワークタイプと競合しています。まず{settings}でネットワークタイプを変更してから、再度ロックを試みてください。"
+        "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは{networkType}で、{feature}のネットワークタイプと競合しています。まず{settings}でネットワークタイプを変更してから、再度ロックを試みてください。",
+        "current_sim_badge_label": "アクティブ: {sim}",
+        "connection_failed": "接続に失敗しました"
     },
     "sim": {
         "sender_label": "送信者"
