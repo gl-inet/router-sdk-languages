@@ -550,7 +550,8 @@
         "operator": "运营商",
         "tower": "基站",
         "network_type_conflicts_tips": "当前 SIM 卡网络类型为{networkType}，与此{feature}网络类型冲突。请先请前往 {settings}中修改网络类型，再尝试锁定。",
-        "current_sim_badge_label": "正在使用 {sim}"
+        "current_sim_badge_label": "正在使用 {sim}",
+        "connection_failed": "连接失败"
     },
     "sim": {
         "sender_label": "发件人"
