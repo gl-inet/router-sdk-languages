@@ -502,5 +502,8 @@
         "set_parameters_tips_2": "如果您熟悉AmneziaWG混淆协议，可以手动编辑这些参数，或使用自动生成的参数。",
         "wg_client_parameters_tips": "混淆参数由服务器确定。导入配置文件后无需更改。",
         "enable_tips": "启用后，VPN服务器将使用AmneziaWG混淆协议来伪装VPN流量。"
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "上传文件过大。因存储空间不足，解压失败。"
     }
 }
