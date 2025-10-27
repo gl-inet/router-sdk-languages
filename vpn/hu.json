@@ -456,7 +456,8 @@
         "default_tunnel_common_tips": "Az összes olyan internetes forgalom esetében, amely nem illeszkedik a fenti VPN-alagutakhoz és szabályzatokhoz, ez az opció szabályozza, hogy szeretné-e, hogy az internetre kerüljenek. Ez az opció alapértelmezés szerint engedélyezve lesz, így a VPN-adatok mellett normális internet-hozzáféréssel is rendelkezhet.",
         "default_tunnel_allow_tips": "{label}: Ha engedélyezve van, normális internetkapcsolattal rendelkezhet, ha az adatai nem egyeznek a fenti szabályzatok egyikével sem.",
         "default_tunnel_kill_switch_tips": "{label}: Ha letiltva van, VPN és szabályzatok használatára kényszerül az interneteléréshez. Az össze nem illő adat nem jut át. Ez az opció nem írja felül az egyes szabályzatokhoz tartozó Kill Switch funkciót.",
-        "local_access_tips": "Lehetővé teszi a router (alagút IP) és a LAN erőforrások távoli elérését VPN-en keresztül (a VPN szervernek hirdetnie kell a LAN útvonalakat a LAN eléréséhez)."
+        "local_access_tips": "Lehetővé teszi a router (alagút IP) és a LAN erőforrások távoli elérését VPN-en keresztül (a VPN szervernek hirdetnie kell a LAN útvonalakat a LAN eléréséhez).",
+        "all_target_label": "Minden cél"
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
@@ -501,5 +502,8 @@
         "set_parameters_tips_2": "Manuálisan is szerkesztheti őket, ha ismeri az AmneziaWG obfuszkációt, vagy használhatja az automatikusan generáltakat.",
         "wg_client_parameters_tips": "Az obfuszkációs paramétereket a szerver határozza meg. A konfigurációs fájl importálása után nem szükséges megváltoztatni.",
         "enable_tips": "Ha engedélyezve van, a VPN szerver az AmneziaWG obfuszkációs protokollt használja a VPN forgalom álcázására."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "A feltöltött fájl túl nagy. A kibontás a tárhely hiánya miatt sikertelen."
     }
 }
