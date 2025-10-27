@@ -502,5 +502,8 @@
         "enable_tips": "Lorsqu'il est activé, le serveur VPN utilise le protocole d'obfuscation AmneziaWG pour masquer le trafic VPN.",
         "set_parameters_btn": "Définir les paramètres d'obfuscation",
         "wg_client_parameters_tips": "Les paramètres d'obfuscation sont déterminés par le serveur. Aucun besoin de les modifier après l'importation du fichier de configuration."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Fichier téléchargé trop volumineux. La décompression a échoué en raison d'un espace de stockage insuffisant."
     }
 }
