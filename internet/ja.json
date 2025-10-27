@@ -552,7 +552,8 @@
         "tower": "タワー",
         "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは{networkType}で、{feature}のネットワークタイプと競合しています。まず{settings}でネットワークタイプを変更してから、再度ロックを試みてください。",
         "current_sim_badge_label": "アクティブ: {sim}",
-        "connection_failed": "接続に失敗しました"
+        "connection_failed": "接続に失敗しました",
+        "sim_operator": "{sim} 事業者"
     },
     "sim": {
         "sender_label": "送信者"
