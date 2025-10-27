@@ -502,5 +502,8 @@
         "enable_tips": "Quando abilitato, il server VPN utilizza il protocollo di offuscamento AmneziaWG per mascherare il traffico VPN.",
         "set_parameters_tips_2": "È possibile modificarli manualmente se si ha familiarità con l'offuscamento AmneziaWG, oppure utilizzare quelli generati automaticamente.",
         "wg_client_parameters_tips": "I parametri di offuscamento sono determinati dal server. Non è necessario modificarli dopo l'importazione del file di configurazione."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "File caricato troppo grande. Decompressione fallita a causa di spazio di archiviazione insufficiente."
     }
 }
