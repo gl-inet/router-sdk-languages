@@ -502,5 +502,8 @@
         "set_parameters_tips_1": "The router automatically generates obfuscation parameters.",
         "set_parameters_tips_2": "You may edit them manually if you are familiar with AmneziaWG obfuscation, or use the auto-generated ones.",
         "wg_client_parameters_tips": "The obfuscation parameters are determined by the server. No need to change it after importing the configuration file."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Uploaded file too large. Decompression failed due to insufficient storage."
     }
 }
