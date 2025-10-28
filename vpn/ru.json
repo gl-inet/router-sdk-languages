@@ -307,7 +307,8 @@
         "wg_guide_tips": "Используя мастер VPN, вы можете завершить настройку VPN всего за несколько шагов и быстро насладиться безопасным сетевым опытом!",
         "provider_unbind_tips": "Устройство не аутентифицировано.",
         "wg_urbanshield_dev_limit_tips": "Достигнут лимит устройств. Пожалуйста, выйдите из системы на одном из них, чтобы продолжить.",
-        "expired_at_tips": "Истек в {time}"
+        "expired_at_tips": "Истек в {time}",
+        "wg_common_not_connet_tips": "Если VPN-сервер не удается подключить, возможно, истек срок действия ключа WireGuard. Вы можете обновить ключ WireGuard."
     },
     "menu_wgserver": "Сервер WireGuard",
     "menu_ovpnserver": "Сервер OpenVPN",
