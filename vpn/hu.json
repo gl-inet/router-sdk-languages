@@ -307,7 +307,8 @@
         "wg_guide_tips": "A VPN varázsló segítségével néhány egyszerű lépésben befejezheti a VPN konfigurálását, és gyorsan élvezheti a biztonságos hálózati élményt!",
         "provider_unbind_tips": "Az eszköz nincs hitelesítve.",
         "wg_urbanshield_dev_limit_tips": "Elérte az eszközlimitet. A folytatáshoz jelentkezzen ki egy eszközről.",
-        "expired_at_tips": "Lejárt ekkor: {time}"
+        "expired_at_tips": "Lejárt ekkor: {time}",
+        "wg_common_not_connet_tips": "Ha a VPN szerver nem érhető el, a WireGuard kulcs lejárt lehet. Frissítheti a WireGuard kulcsot."
     },
     "menu_wgserver": "WireGuard-kiszolgáló",
     "menu_ovpnserver": "OpenVPN-kiszolgáló",
