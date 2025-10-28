@@ -307,7 +307,8 @@
         "wg_guide_tips": "Using VPN wizard, you can complete VPN configuration in just a few steps and enjoy a safe network experience quickly!",
         "provider_unbind_tips": "The device is unauthenticated.",
         "wg_urbanshield_dev_limit_tips": "Device Limit Reached. Please Log out One to Continue.",
-        "expired_at_tips": "Expired at {time}"
+        "expired_at_tips": "Expired at {time}",
+        "wg_common_not_connet_tips": "If the VPN server cannot be connected, the WireGuard key may have expired. You can update the WireGuard key."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
