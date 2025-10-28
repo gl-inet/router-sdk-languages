@@ -307,7 +307,8 @@
         "wg_guide_tips": "VPNウィザードを使用すると、わずか数ステップでVPN設定が完了し、安全なネットワーク体験を手早くお楽しみいただけます！",
         "provider_unbind_tips": "デバイスは認証されていません。",
         "wg_urbanshield_dev_limit_tips": "デバイスの制限に達しました。続行するには1台ログアウトしてください。",
-        "expired_at_tips": "{time}に期限切れ"
+        "expired_at_tips": "{time}に期限切れ",
+        "wg_common_not_connet_tips": "VPNサーバーに接続できない場合、WireGuardキーが期限切れの可能性があります。WireGuardキーを更新してください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
