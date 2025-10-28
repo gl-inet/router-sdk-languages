@@ -308,7 +308,9 @@
         "provider_unbind_tips": "該設備未經認證。",
         "wg_urbanshield_dev_limit_tips": "設備數量已達上限。請登出一個裝置以繼續。",
         "expired_at_tips": "已於 {time} 過期",
-        "wg_common_not_connet_tips": "若VPN伺服器無法連接，可能是WireGuard金鑰已過期。您可以更新WireGuard金鑰。"
+        "wg_common_not_connet_tips": "若VPN伺服器無法連接，可能是WireGuard金鑰已過期。您可以更新WireGuard金鑰。",
+        "wg_windcribe_limit_tips": "無法生成 WireGuard 金鑰。每個 Windscribe 帳戶最多可同時擁有五組金鑰。請前往 {provider} 刪除一組憑證。",
+        "wg_api_request_too_frequent_tips": "API 請求過於頻繁，已被 {provider} 限制。請稍後再試。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
