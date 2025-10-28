@@ -310,7 +310,7 @@
         "expired_at_tips": "Истек в {time}",
         "wg_common_not_connet_tips": "Если VPN-сервер не удается подключить, возможно, истек срок действия ключа WireGuard. Вы можете обновить ключ WireGuard.",
         "wg_windcribe_limit_tips": "Не удалось сгенерировать ключ WireGuard. Каждый аккаунт Windscribe может иметь не более пяти ключей одновременно. Перейдите в {provider}, чтобы удалить учетные данные.",
-        "wg_api_request_too_frequent_tips": "API请求过于频繁，已被{provider}限制。请稍后再试。"
+        "wg_api_request_too_frequent_tips": ""
     },
     "menu_wgserver": "Сервер WireGuard",
     "menu_ovpnserver": "Сервер OpenVPN",
