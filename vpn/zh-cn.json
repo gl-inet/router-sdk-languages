@@ -307,7 +307,8 @@
         "wg_guide_tips": "通过 VPN 向导，您只需几个步骤即可完成 VPN 配置，快速享受安全的网络体验！",
         "provider_unbind_tips": "该设备未经认证。",
         "wg_urbanshield_dev_limit_tips": "设备数量已达上限。请注销一台设备以继续。",
-        "expired_at_tips": "已于 {time} 过期"
+        "expired_at_tips": "已于 {time} 过期",
+        "wg_common_not_connet_tips": "如果无法连接VPN服务器，可能是WireGuard密钥已过期。您可以更新WireGuard密钥。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
