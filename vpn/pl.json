@@ -307,7 +307,8 @@
         "wg_guide_tips": "Korzystając z kreatora VPN, możesz w kilku prostych krokach zakończyć konfigurację VPN i szybko cieszyć się bezpiecznym doświadczeniem sieciowym!",
         "provider_unbind_tips": "Urządzenie nie jest uwierzytelnione.",
         "wg_urbanshield_dev_limit_tips": "Osiągnięto limit urządzeń. Wyloguj jedno, aby kontynuować.",
-        "expired_at_tips": "Wygasło o {time}"
+        "expired_at_tips": "Wygasło o {time}",
+        "wg_common_not_connet_tips": "Jeśli serwer VPN nie może zostać połączony, klucz WireGuard mógł wygasnąć. Możesz zaktualizować klucz WireGuard."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
