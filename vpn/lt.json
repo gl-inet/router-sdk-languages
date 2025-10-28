@@ -308,7 +308,9 @@
         "provider_unbind_tips": "Įrenginys yra neautentifikuotas.",
         "wg_urbanshield_dev_limit_tips": "Pasiektas įrenginių limitas. Norėdami tęsti, atsijunkite vieną.",
         "expired_at_tips": "Baigėsi {time}",
-        "wg_common_not_connet_tips": "Jei negalima prisijungti prie „VPN“ serverio, „WireGuard“ raktas gali būti pasibaigęs. Galite atnaujinti „WireGuard“ raktą."
+        "wg_common_not_connet_tips": "Jei negalima prisijungti prie „VPN“ serverio, „WireGuard“ raktas gali būti pasibaigęs. Galite atnaujinti „WireGuard“ raktą.",
+        "wg_windcribe_limit_tips": "Nepavyko sugeneruoti „WireGuard“ rakto. Kiekvienoje „Windscribe“ paskyroje vienu metu gali būti daugiausia penki raktai. Eikite į {provider}, kad ištrintumėte kredencialą.",
+        "wg_api_request_too_frequent_tips": "API užklausos yra per dažnos ir buvo apribotos {provider}. Pabandykite dar kartą vėliau."
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
