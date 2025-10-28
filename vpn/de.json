@@ -308,7 +308,9 @@
         "provider_unbind_tips": "Das Gerät ist nicht authentifiziert.",
         "wg_urbanshield_dev_limit_tips": "Geräte-Limit erreicht. Bitte melden Sie ein Gerät ab, um fortzufahren.",
         "expired_at_tips": "Abgelaufen am {time}",
-        "wg_common_not_connet_tips": "Wenn der VPN-Server nicht verbunden werden kann, ist der WireGuard-Schlüssel möglicherweise abgelaufen. Sie können den WireGuard-Schlüssel aktualisieren."
+        "wg_common_not_connet_tips": "Wenn der VPN-Server nicht verbunden werden kann, ist der WireGuard-Schlüssel möglicherweise abgelaufen. Sie können den WireGuard-Schlüssel aktualisieren.",
+        "wg_windcribe_limit_tips": "Fehler beim Erstellen eines WireGuard-Schlüssels. Jedes Windscribe-Konto kann maximal fünf Schlüssel gleichzeitig verwenden. Bitte gehen Sie zu {provider}, um einen Zugangsdatensatz zu löschen.",
+        "wg_api_request_too_frequent_tips": "API-Anfragen sind zu häufig und wurden von {provider} eingeschränkt. Bitte versuchen Sie es später erneut."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
