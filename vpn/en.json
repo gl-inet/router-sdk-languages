@@ -265,7 +265,7 @@
         "wg_azirevpn_limit_tips": "An AzireVPN account may only be used on 10 devices at the same time. You have reached the maximum number of devices for your account, please go to {provider}, delete any devices that you are not using and try again.",
         "domain_input_mode_tips": "If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day.",
         "domain_input_mode_label": "Input Mode",
-        "wg_mullvad_limit_tips": "Failed to generate a WireGuard key. You can only have up to five keys at the same time per Mullvad account. Please go to {provider} to revoke a key.",
+        "wg_mullvad_limit_tips": "Failed to generate a WireGuard key. Each Mullvad account can have a maximum of five keys at the same time. Please go to {provider} to revoke a key.",
         "wg_self_public_key_tips": "Public key from your side",
         "go_renew_btn": "Go Renew",
         "wg_nordvpn_tips": "NordVPN token is the credentials to login to NordVPN, you need to login to the NordVPN official website first, and then manually get its token.",
@@ -308,7 +308,9 @@
         "provider_unbind_tips": "The device is unauthenticated.",
         "wg_urbanshield_dev_limit_tips": "Device Limit Reached. Please Log out One to Continue.",
         "expired_at_tips": "Expired at {time}",
-        "wg_common_not_connet_tips": "If the VPN server cannot be connected, the WireGuard key may have expired. You can update the WireGuard key."
+        "wg_common_not_connet_tips": "If the VPN server cannot be connected, the WireGuard key may have expired. You can update the WireGuard key.",
+        "wg_windcribe_limit_tips": "Failed to generate a WireGuard key. Each Windscribe account can have a maximum of five keys at the same time. Please go to {provider} to delete a credential.",
+        "wg_api_request_too_frequent_tips": "API requests are too frequent and have been restricted by {provider}. Please try again later."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
