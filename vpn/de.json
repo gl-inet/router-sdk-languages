@@ -307,7 +307,8 @@
         "wg_guide_tips": "Mit dem VPN-Assistenten können Sie die VPN-Konfiguration in nur wenigen Schritten abschließen und schnell ein sicheres Netzwerkerlebnis genießen!",
         "provider_unbind_tips": "Das Gerät ist nicht authentifiziert.",
         "wg_urbanshield_dev_limit_tips": "Geräte-Limit erreicht. Bitte melden Sie ein Gerät ab, um fortzufahren.",
-        "expired_at_tips": "Abgelaufen am {time}"
+        "expired_at_tips": "Abgelaufen am {time}",
+        "wg_common_not_connet_tips": "Wenn der VPN-Server nicht verbunden werden kann, ist der WireGuard-Schlüssel möglicherweise abgelaufen. Sie können den WireGuard-Schlüssel aktualisieren."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
