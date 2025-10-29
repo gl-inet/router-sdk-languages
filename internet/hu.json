@@ -214,7 +214,8 @@
         "forward_smtp_server_label": "SMTP-kiszolgáló",
         "forward_encryp_label": "Titkosítás",
         "forward_email_account_label": "Felhasználónév",
-        "forward_email_subject_label": "Tárgy"
+        "forward_email_subject_label": "Tárgy",
+        "received": "已接收"
     },
     "modemmanage": {
         "export_debug_info": "Hibakeresési napló letöltése",
@@ -322,7 +323,8 @@
         "portal_auth_required_title": "Portálos hitelesítés szükséges",
         "support_channel_tips": "Az alábbi csatornák használata lehetséges. Kérem, olyan hálózatra csatlakozzon, amely engedélyezi a felsorolt csatornák használatát!",
         "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését.",
-        "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, a Vendég Wi-Fi letiltásra kerül, és az 5GHz/6GHz Wi-Fi sáv automatikusan igazodik a repeaterhez. Ha az eszköz nem kapcsolódik újra automatikusan, kérem, kapcsolódjon manuálisan a Wi-Fi hálózathoz."
+        "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, a Vendég Wi-Fi letiltásra kerül, és az 5GHz/6GHz Wi-Fi sáv automatikusan igazodik a repeaterhez. Ha az eszköz nem kapcsolódik újra automatikusan, kérem, kapcsolódjon manuálisan a Wi-Fi hálózathoz.",
+        "auto_resume_scan_tips": "Az internet kapcsolat aktív. A vezeték nélküli kommunikáció minőségének biztosítása érdekében a közvetítő nem fogja szkennelni az elérhető hálózatokat; az internetkapcsolat megszakadása után automatikusan folytatja a szkennelést. Kézzel is újracsatlakozhat vagy váltathat Wi-Fi hálózatra."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
