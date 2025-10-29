@@ -307,7 +307,10 @@
         "wg_guide_tips": "VPNウィザードを使用すると、わずか数ステップでVPN設定が完了し、安全なネットワーク体験を手早くお楽しみいただけます！",
         "provider_unbind_tips": "デバイスは認証されていません。",
         "wg_urbanshield_dev_limit_tips": "デバイスの制限に達しました。続行するには1台ログアウトしてください。",
-        "expired_at_tips": "{time}に期限切れ"
+        "expired_at_tips": "{time}に期限切れ",
+        "wg_common_not_connet_tips": "VPNサーバーに接続できない場合、WireGuardキーが期限切れの可能性があります。WireGuardキーを更新してください。",
+        "wg_windcribe_limit_tips": "WireGuardキーの生成に失敗しました。各Windscribeアカウントは同時に最大5つのキーを持つことができます。{provider}に移動して資格情報を削除してください。",
+        "wg_api_request_too_frequent_tips": "APIリクエストが頻繁すぎて、{provider}によって制限されました。後ほどもう一度お試しください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
@@ -502,5 +505,8 @@
         "set_parameters_tips_1": "ルーターは難読化パラメータを自動生成します。",
         "set_parameters_tips_2": "AmneziaWG難読化に精通している場合は手動で編集するか、自動生成されたものを使用できます。",
         "wg_client_parameters_tips": "難読化パラメータはサーバー側で決定されます。設定ファイルをインポート後は変更する必要はありません。"
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "アップロードされたファイルが大きすぎます。ストレージ不足のため解凍に失敗しました。"
     }
 }

@@ -307,7 +307,10 @@
         "wg_guide_tips": "Naudodamiesi „VPN“ vedliu, galite užbaigti „VPN“ konfigūraciją vos per kelis žingsnius ir greitai mėgautis saugiu tinklo patyrimu!",
         "provider_unbind_tips": "Įrenginys yra neautentifikuotas.",
         "wg_urbanshield_dev_limit_tips": "Pasiektas įrenginių limitas. Norėdami tęsti, atsijunkite vieną.",
-        "expired_at_tips": "Baigėsi {time}"
+        "expired_at_tips": "Baigėsi {time}",
+        "wg_common_not_connet_tips": "Jei negalima prisijungti prie „VPN“ serverio, „WireGuard“ raktas gali būti pasibaigęs. Galite atnaujinti „WireGuard“ raktą.",
+        "wg_windcribe_limit_tips": "Nepavyko sugeneruoti „WireGuard“ rakto. Kiekvienoje „Windscribe“ paskyroje vienu metu gali būti daugiausia penki raktai. Eikite į {provider}, kad ištrintumėte kredencialą.",
+        "wg_api_request_too_frequent_tips": "API užklausos yra per dažnos ir buvo apribotos {provider}. Pabandykite dar kartą vėliau."
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -502,5 +505,8 @@
         "set_parameters_btn": "Nustatyti slėpimo parametrus",
         "set_parameters_tips_1": "Maršrutizatorius automatiškai generuoja slėpimo parametrus.",
         "wg_client_parameters_tips": "Slėpimo parametrus nustato serveris. Nereikia jų keisti po konfigūracijos failo importavimo."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Įkeltas failas per didelis. Išskleidimas nepavyko dėl nepakankamos saugyklos vietos."
     }
 }

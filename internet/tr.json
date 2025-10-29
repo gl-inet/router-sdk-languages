@@ -160,7 +160,8 @@
         "unlock_pin_count_tips": "SIM'i açmak için PIN girin. {count} deneme hakkı kaldı.",
         "network_type_tips": "Daha hızlı hız için 5G'yi (5G sinyali gerektirir) veya kararlılık için 4G'yi seçin.",
         "unavailable_tower_title": "Kullanılamayan Kule",
-        "lock_puk_tips": "{sim} kartı üç yanlış PIN kodu girişi nedeniyle kilitlenmiştir. Lütfen kilidini açmak için telefonunuzda PUK kodunu girin."
+        "lock_puk_tips": "{sim} kartı üç yanlış PIN kodu girişi nedeniyle kilitlenmiştir. Lütfen kilidini açmak için telefonunuzda PUK kodunu girin.",
+        "network_type_tips2": "Kule/Operatörü kilitlerseniz, ağ türü sabitlenir ve değiştirilemez."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -495,7 +496,8 @@
         "forward_no_encryp_label": "Yok",
         "forward_tips": "Döngüyü önlemek için, yerel numara buraya girildiğinde SMS yönlendirmeye izin verilmez. Ayrıca, Modem SIM kartınızın numarasını okumazsa, SMS yönlendirme yapılmaz.",
         "forward_email_title": "E-posta ile Yönlendir",
-        "forward_sms_title": "SMS ile Yönlendir"
+        "forward_sms_title": "SMS ile Yönlendir",
+        "received": "Alındı"
     },
     "modemmanage": {
         "title": "Yönetim",
@@ -563,7 +565,10 @@
         "tower": "Kule",
         "network_type_conflicts_tips": "Mevcut SIM kart ağ türü {networkType} olup, {feature}'ın ağ türüyle çakışmaktadır. Lütfen önce ağ türünü değiştirmek için {settings}'e gidin, ardından tekrar kilitlemeyi deneyin.",
         "current_sim_badge_label": "Aktif: {sim}",
-        "connection_failed": "Bağlantı Başarısız"
+        "connection_failed": "Bağlantı Başarısız",
+        "sim_operator": "{sim} Operatör",
+        "sim_tower": "{sim} Kulesi",
+        "sim_unlock": "{sim} Kilidini Aç"
     },
     "sim": {
         "sender_label": "Gönderen"

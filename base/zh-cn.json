@@ -234,7 +234,8 @@
         "format_error": "数据格式错误！",
         "error": "文件上传失败。",
         "too_large_tips": "上传文件过大，请上传 $$$$ 以内的文件。",
-        "lass_than_tips": "（小于 $$$$）"
+        "lass_than_tips": "（小于 $$$$）",
+        "too_large_normal_msg": "上传的文件过大。请减小文件大小后重新上传。"
     },
     "system": {
         "battery_err_tips": "检测不到电池模块，请检查电源连接或电池是否已损坏。",
@@ -243,7 +244,7 @@
         "no_internet_base_tips": "请您检查网络环境后重试。",
         "forget_password_btn": "忘记密码？",
         "lost_account_btn": "丢失账户？",
-        "usb_power_limit_tips": "（请确保使用{power}以上电源）",
+        "usb_power_limit_tips": "（ 请确保使用{power}以上电源 ）",
         "current_time_label": "当前时间",
         "enable_conflict_warning": "{self} 不可用，因为 {other} 已启用。"
     },

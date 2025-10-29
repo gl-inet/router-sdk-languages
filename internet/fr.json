@@ -251,7 +251,8 @@
         "unlock_pin_count_tips": "Entrez le code PIN pour déverrouiller la carte SIM. {count} tentatives restantes.",
         "network_type_tips": "Sélectionnez 5G pour une vitesse plus rapide (nécessite un signal 5G) ou 4G pour une meilleure stabilité.",
         "unavailable_tower_title": "Tour indisponible",
-        "lock_puk_tips": "La carte {sim} a été verrouillée suite à trois saisies incorrectes du code PIN. Veuillez saisir le code PUK sur votre téléphone pour la déverrouiller."
+        "lock_puk_tips": "La carte {sim} a été verrouillée suite à trois saisies incorrectes du code PIN. Veuillez saisir le code PUK sur votre téléphone pour la déverrouiller.",
+        "network_type_tips2": "Si vous verrouillez la Tour/Opérateur, le type de réseau sera fixé et ne pourra pas être modifié."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -309,7 +310,8 @@
         "forward_no_encryp_label": "Aucun",
         "forward_tips": "Pour éviter tous risques de boucle, le transfert de SMS ne sera pas exécuté lorsque le numéro local est saisi ici. De même, si le modem ne lit pas le numéro de votre carte SIM, le transfert de SMS ne sera pas exécuté.",
         "forward_sms_title": "Transmettre par SMS",
-        "forward_email_title": "Transmettre par email"
+        "forward_email_title": "Transmettre par email",
+        "received": "Reçu"
     },
     "modemmanage": {
         "title": "Gérer",
@@ -551,7 +553,10 @@
         "tower": "Tour",
         "network_type_conflicts_tips": "Le type de réseau actuel de la carte SIM est {networkType}, ce qui entre en conflit avec le type de réseau de {feature}. Veuillez vous rendre dans {settings} pour modifier d'abord le type de réseau, puis réessayer le verrouillage.",
         "current_sim_badge_label": "Actif : {sim}",
-        "connection_failed": "Connexion échouée"
+        "connection_failed": "Connexion échouée",
+        "sim_operator": "{sim} Opérateur",
+        "sim_tower": "{sim} Tour",
+        "sim_unlock": "{sim} Déverrouiller"
     },
     "sim": {
         "sender_label": "Expéditeur"

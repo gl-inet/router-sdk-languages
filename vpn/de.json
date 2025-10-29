@@ -307,7 +307,10 @@
         "wg_guide_tips": "Mit dem VPN-Assistenten können Sie die VPN-Konfiguration in nur wenigen Schritten abschließen und schnell ein sicheres Netzwerkerlebnis genießen!",
         "provider_unbind_tips": "Das Gerät ist nicht authentifiziert.",
         "wg_urbanshield_dev_limit_tips": "Geräte-Limit erreicht. Bitte melden Sie ein Gerät ab, um fortzufahren.",
-        "expired_at_tips": "Abgelaufen am {time}"
+        "expired_at_tips": "Abgelaufen am {time}",
+        "wg_common_not_connet_tips": "Wenn der VPN-Server nicht verbunden werden kann, ist der WireGuard-Schlüssel möglicherweise abgelaufen. Sie können den WireGuard-Schlüssel aktualisieren.",
+        "wg_windcribe_limit_tips": "Fehler beim Erstellen eines WireGuard-Schlüssels. Jedes Windscribe-Konto kann maximal fünf Schlüssel gleichzeitig verwenden. Bitte gehen Sie zu {provider}, um einen Zugangsdatensatz zu löschen.",
+        "wg_api_request_too_frequent_tips": "API-Anfragen sind zu häufig und wurden von {provider} eingeschränkt. Bitte versuchen Sie es später erneut."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -502,5 +505,8 @@
         "parameters_label": "Verschleierungsparameter",
         "set_parameters_btn": "Verschleierungsparameter festlegen",
         "wg_client_parameters_tips": "Die Verschleierungsparameter werden vom Server bestimmt. Es ist nicht notwendig, sie nach dem Import der Konfigurationsdatei zu ändern."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Hochgeladene Datei zu groß. Dekomprimierung aufgrund unzureichenden Speicherplatzes fehlgeschlagen."
     }
 }

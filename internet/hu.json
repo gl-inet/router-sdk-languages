@@ -130,7 +130,8 @@
         "unlock_pin_count_tips": "Adja meg a PIN-kódot a SIM-kártya feloldásához. {count} próbálkozás maradt.",
         "network_type_tips": "Válassza az 5G-t a nagyobb sebességért (5G jel szükséges) vagy a 4G-t a stabilitásért.",
         "unavailable_tower_title": "Nem elérhető torony",
-        "lock_puk_tips": "A(z) {sim} kártya háromszori hibás PIN-kód megadás miatt zárolva lett. Kérjük, adja meg a PUK kódot telefonján a feloldáshoz."
+        "lock_puk_tips": "A(z) {sim} kártya háromszori hibás PIN-kód megadás miatt zárolva lett. Kérjük, adja meg a PUK kódot telefonján a feloldáshoz.",
+        "network_type_tips2": "Ha lezárja a Tornyot/Operátort, a hálózati típus rögzítésre kerül és nem módosítható."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -551,7 +552,10 @@
         "tower": "Tower",
         "network_type_conflicts_tips": "Az aktuális SIM-kártya hálózati típusa {networkType}, amely ütközik a(z) {feature} hálózati típusával. Kérjük, először a(z) {settings} oldalon módosítsa a hálózati típust, majd próbálja meg újra a zárolást.",
         "current_sim_badge_label": "Aktív: {sim}",
-        "connection_failed": "Kapcsolat sikertelen"
+        "connection_failed": "Kapcsolat sikertelen",
+        "sim_operator": "{sim} Operátor",
+        "sim_tower": "{sim} torony",
+        "sim_unlock": "{sim} Feloldás"
     },
     "sim": {
         "sender_label": "Feladó"

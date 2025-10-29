@@ -307,7 +307,10 @@
         "wg_guide_tips": "VPN sihirbazını kullanarak, sadece birkaç adımda VPN yapılandırmasını tamamlayabilir ve hızlıca güvenli bir ağ deneyimi yaşayabilirsiniz!",
         "provider_unbind_tips": "Cihaz kimlik doğrulaması yapılmadı.",
         "wg_urbanshield_dev_limit_tips": "Cihaz Sınırına Ulaşıldı. Devam etmek için birini çıkış yapın.",
-        "expired_at_tips": "{time} tarihinde sona erdi"
+        "expired_at_tips": "{time} tarihinde sona erdi",
+        "wg_common_not_connet_tips": "VPN sunucusuna bağlanılamıyorsa, WireGuard anahtarının süresi dolmuş olabilir. WireGuard anahtarını güncelleyebilirsiniz.",
+        "wg_windcribe_limit_tips": "WireGuard anahtarı oluşturulamadı. Her Windscribe hesabı aynı anda en fazla beş anahtara sahip olabilir. Lütfen bir kimlik bilgisini silmek için {provider} adresine gidin.",
+        "wg_api_request_too_frequent_tips": "API istekleri çok sık ve {provider} tarafından kısıtlandı. Lütfen daha sonra tekrar deneyin."
     },
     "vpn_err": {
         "no_passwd_msg": "Hesabın şifresi yok",
@@ -502,5 +505,8 @@
         "set_parameters_tips_2": "AmneziaWG karıştırmasına aşinaysanız bunları manuel olarak düzenleyebilir veya otomatik oluşturulanları kullanabilirsiniz.",
         "enable_tips": "Etkinleştirildiğinde, VPN Sunucusu VPN trafiğini gizlemek için AmneziaWG karıştırma protokolünü kullanır.",
         "wg_client_parameters_tips": "Karıştırma parametreleri sunucu tarafından belirlenir. Yapılandırma dosyasını içe aktardıktan sonra değiştirmeniz gerekmez."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Yüklenen dosya çok büyük. Yetersiz depolama alanı nedeniyle açma işlemi başarısız oldu."
     }
 }

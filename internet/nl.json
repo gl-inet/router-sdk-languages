@@ -251,7 +251,8 @@
         "unlock_pin_count_tips": "Voer PIN in om SIM te ontgrendelen. {count} pogingen resterend.",
         "network_type_tips": "Selecteer 5G voor hogere snelheid (vereist 5G-signaal) of 4G voor stabiliteit.",
         "unavailable_tower_title": "Niet beschikbare toren",
-        "lock_puk_tips": "De {sim}-kaart is geblokkeerd vanwege drie onjuiste PIN-code invoeren. Voer de PUK-code in op uw telefoon om deze te ontgrendelen."
+        "lock_puk_tips": "De {sim}-kaart is geblokkeerd vanwege drie onjuiste PIN-code invoeren. Voer de PUK-code in op uw telefoon om deze te ontgrendelen.",
+        "network_type_tips2": "Als u de toren/operator vergrendelt, wordt het netwerktype vastgezet en kan het niet worden gewijzigd."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -304,7 +305,8 @@
         "forward_sms_title": "Doorsturen via SMS",
         "forward_email_title": "Doorsturen via e-mail",
         "forward_tips": "Om circulariteit te voorkomen is het doorsturen van SMS niet toegestaan als hier het lokale nummer wordt ingevuld. Bovendien wordt het doorsturen van SMS-berichten niet uitgevoerd als de modem het nummer van uw SIM-kaart niet leest.",
-        "forward_phone_tips": "Als u wilt dat de router SMS-berichten doorstuurt naar uw mobiele telefoon, zorg er dan voor dat uw mobiele netwerk beschikbaar is en het verzenden van SMS-berichten ondersteunt."
+        "forward_phone_tips": "Als u wilt dat de router SMS-berichten doorstuurt naar uw mobiele telefoon, zorg er dan voor dat uw mobiele netwerk beschikbaar is en het verzenden van SMS-berichten ondersteunt.",
+        "received": "Ontvangen"
     },
     "router_visual": {
         "wlan_client": "WLAN-cliënten",
@@ -551,7 +553,10 @@
         "tower": "Toren",
         "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is {networkType}, wat conflicteert met het netwerktype van {feature}. Ga naar {settings} om eerst het netwerktype aan te passen en probeer daarna opnieuw te vergrendelen.",
         "current_sim_badge_label": "Actief: {sim}",
-        "connection_failed": "Verbinding mislukt"
+        "connection_failed": "Verbinding mislukt",
+        "sim_operator": "{sim} Operator",
+        "sim_tower": "{sim} Toren",
+        "sim_unlock": "{sim} Ontgrendelen"
     },
     "sim": {
         "sender_label": "Afzender"

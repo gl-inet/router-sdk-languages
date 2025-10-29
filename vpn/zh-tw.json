@@ -307,7 +307,10 @@
         "wg_guide_tips": "通過 VPN 嚮導，您只需幾個步驟即可完成 VPN 配置，快速享受安全的網路體驗！",
         "provider_unbind_tips": "該設備未經認證。",
         "wg_urbanshield_dev_limit_tips": "設備數量已達上限。請登出一個裝置以繼續。",
-        "expired_at_tips": "已於 {time} 過期"
+        "expired_at_tips": "已於 {time} 過期",
+        "wg_common_not_connet_tips": "若VPN伺服器無法連接，可能是WireGuard金鑰已過期。您可以更新WireGuard金鑰。",
+        "wg_windcribe_limit_tips": "無法生成 WireGuard 金鑰。每個 Windscribe 帳戶最多可同時擁有五組金鑰。請前往 {provider} 刪除一組憑證。",
+        "wg_api_request_too_frequent_tips": "API 請求過於頻繁，已被 {provider} 限制。請稍後再試。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -502,5 +505,8 @@
         "set_parameters_tips_1": "路由器會自動生成混淆參數。",
         "set_parameters_tips_2": "若您熟悉 AmneziaWG 混淆協議，可手動編輯參數，或直接使用自動生成的設定。",
         "wg_client_parameters_tips": "混淆參數由伺服器端決定，導入設定檔後無需更改。"
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "上傳檔案過大。因儲存空間不足，解壓縮失敗。"
     }
 }

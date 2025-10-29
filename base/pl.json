@@ -156,7 +156,8 @@
         "format_error": "Błąd formatu danych!",
         "too_large_tips": "Przesłany plik jest zbyt duży. Proszę przesłać plik o rozmiarze mniejszym niż $$$$ bajtów.",
         "lass_than_tips": "(Mniej niż $$$$)",
-        "select_or_drag": "Wybierz plik do przesłania lub przeciągnij go tutaj"
+        "select_or_drag": "Wybierz plik do przesłania lub przeciągnij go tutaj",
+        "too_large_normal_msg": "Przesłany plik jest zbyt duży. Zmniejsz rozmiar pliku i prześlij ponownie."
     },
     "system": {
         "battery_err_tips": "System nie wykrywa modułu baterii. Sprawdź połączenie zasilania lub stan baterii pod kątem uszkodzeń.",
@@ -165,7 +166,7 @@
         "limit_tips": "Dane nie mogą przekraczać {count} wpisów.",
         "lost_account_btn": "Utracone konto?",
         "forget_password_btn": "Zapomniałeś hasła?",
-        "usb_power_limit_tips": "(Proszę upewnić się, że napięcie zasilania przekracza {power})",
+        "usb_power_limit_tips": "( Zasilacz musi mieć napięcie wyższe niż {power} )",
         "current_time_label": "Aktualny Czas",
         "enable_conflict_warning": "{self} jest niedostępne, ponieważ {other} jest włączone."
     },

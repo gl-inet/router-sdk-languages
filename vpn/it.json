@@ -307,7 +307,10 @@
         "wg_guide_tips": "Utilizzando la procedura guidata VPN, puoi completare la configurazione VPN in pochi passaggi e goderti rapidamente un'esperienza di rete sicura!",
         "provider_unbind_tips": "Il dispositivo non è autenticato.",
         "wg_urbanshield_dev_limit_tips": "Limite dispositivo raggiunto. Effettua il logout da uno per continuare.",
-        "expired_at_tips": "Scaduto alle {time}"
+        "expired_at_tips": "Scaduto alle {time}",
+        "wg_common_not_connet_tips": "Se il server VPN non può essere connesso, la chiave WireGuard potrebbe essere scaduta. È possibile aggiornare la chiave WireGuard.",
+        "wg_windcribe_limit_tips": "Impossibile generare una chiave WireGuard. Ogni account Windscribe può avere un massimo di cinque chiavi contemporaneamente. Si prega di andare su {provider} per eliminare una credenziale.",
+        "wg_api_request_too_frequent_tips": "Le richieste API sono troppo frequenti e sono state limitate da {provider}. Riprova più tardi."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -502,5 +505,8 @@
         "enable_tips": "Quando abilitato, il server VPN utilizza il protocollo di offuscamento AmneziaWG per mascherare il traffico VPN.",
         "set_parameters_tips_2": "È possibile modificarli manualmente se si ha familiarità con l'offuscamento AmneziaWG, oppure utilizzare quelli generati automaticamente.",
         "wg_client_parameters_tips": "I parametri di offuscamento sono determinati dal server. Non è necessario modificarli dopo l'importazione del file di configurazione."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "File caricato troppo grande. Decompressione fallita a causa di spazio di archiviazione insufficiente."
     }
 }

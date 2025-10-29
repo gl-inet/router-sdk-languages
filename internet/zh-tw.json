@@ -251,7 +251,8 @@
         "unlock_pin_count_tips": "輸入PIN碼以解鎖SIM卡。剩餘{count}次嘗試。",
         "network_type_tips": "選擇5G以獲得較快速度（需5G信號）或選擇4G以確保穩定性。",
         "unavailable_tower_title": "不可用基站",
-        "lock_puk_tips": "PIN 碼輸入錯誤 3 次，{sim} 卡已被鎖定，請在您的手機上輸入 PUK 碼解鎖。"
+        "lock_puk_tips": "PIN 碼輸入錯誤 3 次，{sim} 卡已被鎖定，請在您的手機上輸入 PUK 碼解鎖。",
+        "network_type_tips2": "若鎖定基站/運營商，網絡類型將被固定且無法更改。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -331,7 +332,8 @@
         "forward_phone_tips": "如果您希望使用路由器將短信轉發到您的手機，請確保您的移動網路可用並支持發送短信。",
         "forward_tips": "為避免循環發送，此處填寫本機號碼時不會執行短信轉發。此外，若 Modem 讀不到您的 SIM 卡的號碼，也不會執行短信轉發。",
         "forward_email_title": "通過電子郵件轉發",
-        "forward_sms_title": "通過短信轉發"
+        "forward_sms_title": "通過短信轉發",
+        "received": "已接收"
     },
     "menu_internet": "網絡",
     "guide": {
@@ -551,7 +553,10 @@
         "tower": "基站",
         "network_type_conflicts_tips": "當前 SIM 卡網絡類型為{networkType}，與此{feature}網絡類型衝突。 請先請前往 {settings}中修改網絡類型，再嘗試鎖定。",
         "current_sim_badge_label": "當前：{sim}",
-        "connection_failed": "連接失敗"
+        "connection_failed": "連接失敗",
+        "sim_operator": "{sim} 运营商",
+        "sim_tower": "{sim} 基站",
+        "sim_unlock": "{sim} 解鎖"
     },
     "sim": {
         "sender_label": "發件人"

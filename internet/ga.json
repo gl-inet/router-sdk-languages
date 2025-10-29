@@ -64,7 +64,10 @@
         "tower": "Túr",
         "network_type_conflicts_tips": "Is é {networkType} an cineál líonra cárta SIM reatha, rud a thagann salach ar chineál líonra {feature}. Téigh go {settings} chun an cineál líonra a mhodhnú ar dtús, agus ansin déan iarracht glasáil arís.",
         "current_sim_badge_label": "Gníomhach: {sim}",
-        "connection_failed": "Theip ar an gCeangal"
+        "connection_failed": "Theip ar an gCeangal",
+        "sim_operator": "{sim} Oibreoir",
+        "sim_tower": "{sim} Túr",
+        "sim_unlock": "{sim} Díghlasáil"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -117,7 +120,8 @@
         "forward_email_subject_tips": "Is féidir leat an t-ábhar a mhodhnú ionas gur féidir leat a aithint cén uimhir theileafóin a fuair an SMS uaithi.",
         "from": "Ó",
         "sent": "Seolta",
-        "sending": "Ag seoladh"
+        "sending": "Ag seoladh",
+        "received": "Faightear"
     },
     "cable": {
         "title": "Ethernet",
@@ -366,7 +370,8 @@
         "unlock_pin_count_tips": "Iontráil an PIN chun an SIM a dhíghlasáil. {count} iarrachtaí fágtha.",
         "network_type_tips": "Roghnaigh 5G le haghaidh luas níos tapúla (tá comhartha 5G ag teastáil) nó 4G le haghaidh cobhsaíochta.",
         "unavailable_tower_title": "Túr Gan Fáil",
-        "lock_puk_tips": "Tá an cárta {sim} glasáilte mar gheall ar thrí ionchur míchearta ar an gcód PIN. Cuir isteach an cód PUK ar do ghuthán le do thoil chun é a dhíghlasáil."
+        "lock_puk_tips": "Tá an cárta {sim} glasáilte mar gheall ar thrí ionchur míchearta ar an gcód PIN. Cuir isteach an cód PUK ar do ghuthán le do thoil chun é a dhíghlasáil.",
+        "network_type_tips2": "Má ghlasálann tú an Túr/Oibreoir, socrófar an cineál líonra agus ní féidir é a athrú."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",

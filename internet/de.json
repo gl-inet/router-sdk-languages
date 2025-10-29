@@ -251,7 +251,8 @@
         "unlock_pin_count_tips": "Geben Sie die PIN ein, um die SIM-Karte zu entsperren. Noch {count} Versuche verbleibend.",
         "network_type_tips": "Wählen Sie 5G für höhere Geschwindigkeit (erfordert 5G-Signal) oder 4G für Stabilität.",
         "unavailable_tower_title": "Nicht verfügbarer Turm",
-        "lock_puk_tips": "Die {sim}-Karte wurde aufgrund von drei falschen PIN-Eingaben gesperrt. Bitte geben Sie den PUK-Code auf Ihrem Telefon ein, um sie zu entsperren."
+        "lock_puk_tips": "Die {sim}-Karte wurde aufgrund von drei falschen PIN-Eingaben gesperrt. Bitte geben Sie den PUK-Code auf Ihrem Telefon ein, um sie zu entsperren.",
+        "network_type_tips2": "Wenn Sie den Turm/Operator sperren, wird der Netzwerktyp festgelegt und kann nicht geändert werden."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -331,7 +332,8 @@
         "forward_phone_tips": "Wenn der Router SMS an Ihr Mobiltelefon weiterleiten soll, stellen Sie sicher, dass eine Mobilfunkverbindung besteht, die das Versenden von SMS unterstützt.",
         "forward_tips": "Um eine Schleife zu vermeiden, wird die SMS-Weiterleitung nicht ausgeführt, wenn die lokale Nummer hier eingegeben wird. Auch wenn das Modem die Nummer Ihrer SIM-Karte nicht liest, wird die SMS-Weiterleitung nicht ausgeführt.",
         "forward_email_title": "Weiterleiten an E-Mail",
-        "forward_sms_title": "Weiterleiten als SMS"
+        "forward_sms_title": "Weiterleiten als SMS",
+        "received": "Empfangen"
     },
     "menu_internet": "Internet",
     "guide": {
@@ -551,7 +553,10 @@
         "tower": "Turm",
         "network_type_conflicts_tips": "Die aktuelle SIM-Karten-Netzwerkart ist {networkType}, was mit der Netzwerkart von {feature} in Konflikt steht. Bitte gehen Sie zu {settings}, um die Netzwerkart zuerst zu ändern, und versuchen Sie dann erneut, die Sperre durchzuführen.",
         "current_sim_badge_label": "Aktiv: {sim}",
-        "connection_failed": "Verbindung fehlgeschlagen"
+        "connection_failed": "Verbindung fehlgeschlagen",
+        "sim_operator": "{sim} Betreiber",
+        "sim_tower": "{sim} Turm",
+        "sim_unlock": "{sim} entsperren"
     },
     "sim": {
         "sender_label": "Absender"

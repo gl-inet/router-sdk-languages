@@ -307,7 +307,10 @@
         "wg_guide_tips": "Met de VPN-wizard kunt u in slechts enkele stappen de VPN-configuratie voltooien en snel genieten van een veilige netwerkervaring!",
         "provider_unbind_tips": "Het apparaat is niet geverifieerd.",
         "wg_urbanshield_dev_limit_tips": "Apparaatslimiet bereikt. Meld één apparaat af om door te gaan.",
-        "expired_at_tips": "Verlopen op {time}"
+        "expired_at_tips": "Verlopen op {time}",
+        "wg_common_not_connet_tips": "Als de VPN-server niet kan worden verbonden, is de WireGuard-sleutel mogelijk verlopen. U kunt de WireGuard-sleutel bijwerken.",
+        "wg_windcribe_limit_tips": "Kan geen WireGuard-sleutel genereren. Elk Windscribe-account kan maximaal vijf sleutels tegelijkertijd hebben. Ga naar {provider} om een inloggegevens te verwijderen.",
+        "wg_api_request_too_frequent_tips": "API-aanvragen zijn te frequent en zijn beperkt door {provider}. Probeer het later opnieuw."
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
@@ -502,5 +505,8 @@
         "enable_tips": "Wanneer ingeschakeld, gebruikt de VPN-server het AmneziaWG-obfuscatieprotocol om VPN-verkeer te maskeren.",
         "set_parameters_tips_2": "U kunt deze handmatig bewerken als u bekend bent met AmneziaWG-obfuscatie, of de automatisch gegenereerde gebruiken.",
         "wg_client_parameters_tips": "De obfuscatieparameters worden bepaald door de server. Het is niet nodig deze te wijzigen na het importeren van het configuratiebestand."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Geüploade bestand te groot. Uitpakken mislukt door onvoldoende opslagruimte."
     }
 }

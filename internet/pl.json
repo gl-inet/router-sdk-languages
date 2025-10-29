@@ -321,7 +321,8 @@
         "unlock_pin_count_tips": "Wprowadź PIN, aby odblokować kartę SIM. Pozostało {count} prób.",
         "network_type_tips": "Wybierz 5G dla szybszej prędkości (wymaga sygnału 5G) lub 4G dla stabilności.",
         "unavailable_tower_title": "Niedostępna Wieża",
-        "lock_puk_tips": "Karta {sim} została zablokowana z powodu trzykrotnego wprowadzenia nieprawidłowego kodu PIN. Aby ją odblokować, wprowadź kod PUK w telefonie."
+        "lock_puk_tips": "Karta {sim} została zablokowana z powodu trzykrotnego wprowadzenia nieprawidłowego kodu PIN. Aby ją odblokować, wprowadź kod PUK w telefonie.",
+        "network_type_tips2": "Jeśli zablokujesz Wieżę/Operatora, typ sieci zostanie ustalony i nie będzie można go zmienić."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -551,7 +552,10 @@
         "tower": "Wieża",
         "network_type_conflicts_tips": "Obecny typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci {feature}. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować.",
         "current_sim_badge_label": "Aktywna: {sim}",
-        "connection_failed": "Połączenie nie powiodło się"
+        "connection_failed": "Połączenie nie powiodło się",
+        "sim_operator": "{sim} Operator",
+        "sim_tower": "{sim} Wieża",
+        "sim_unlock": "Odblokuj {sim}"
     },
     "sim": {
         "sender_label": "Nadawca"

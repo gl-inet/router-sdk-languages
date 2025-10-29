@@ -307,7 +307,10 @@
         "wg_guide_tips": "Con el asistente de VPN, puede completar la configuración de VPN en solo unos pasos y disfrutar rápidamente de una experiencia de red segura.",
         "provider_unbind_tips": "El dispositivo no está autenticado.",
         "wg_urbanshield_dev_limit_tips": "Límite de dispositivos alcanzado. Por favor, cierre sesión en uno para continuar.",
-        "expired_at_tips": "Caducado el {time}"
+        "expired_at_tips": "Caducado el {time}",
+        "wg_common_not_connet_tips": "Si el servidor VPN no se puede conectar, es posible que la clave de WireGuard haya caducado. Puede actualizar la clave de WireGuard.",
+        "wg_windcribe_limit_tips": "Error al generar una clave de WireGuard. Cada cuenta de Windscribe puede tener un máximo de cinco claves simultáneamente. Por favor, diríjase a {provider} para eliminar una credencial.",
+        "wg_api_request_too_frequent_tips": "Las solicitudes de la API son demasiado frecuentes y han sido restringidas por {provider}. Por favor, inténtelo de nuevo más tarde."
     },
     "menu_ovpnclient": "Cliente OpenVPN",
     "menu_wgclient": "Cliente WireGuard",
@@ -502,5 +505,8 @@
         "set_parameters_tips_1": "El router genera automáticamente los parámetros de ofuscación.",
         "set_parameters_tips_2": "Puede editarlos manualmente si está familiarizado con la ofuscación de AmneziaWG, o utilizar los generados automáticamente.",
         "wg_client_parameters_tips": "Los parámetros de ofuscación son determinados por el servidor. No es necesario cambiarlos después de importar el archivo de configuración."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Archivo subido demasiado grande. La descompresión falló debido a almacenamiento insuficiente."
     }
 }

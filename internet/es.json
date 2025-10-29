@@ -251,7 +251,8 @@
         "unlock_pin_count_tips": "Ingrese el PIN para desbloquear la SIM. Quedan {count} intentos.",
         "network_type_tips": "Seleccione 5G para mayor velocidad (requiere señal 5G) o 4G para mayor estabilidad.",
         "unavailable_tower_title": "Torre No Disponible",
-        "lock_puk_tips": "La tarjeta {sim} ha sido bloqueada debido a tres intentos incorrectos de código PIN. Por favor, ingrese el código PUK en su teléfono para desbloquearla."
+        "lock_puk_tips": "La tarjeta {sim} ha sido bloqueada debido a tres intentos incorrectos de código PIN. Por favor, ingrese el código PUK en su teléfono para desbloquearla.",
+        "network_type_tips2": "Si bloquea la Torre/Operador, el tipo de red se fijará y no podrá cambiarse."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -309,7 +310,8 @@
         "forward_add_email_btn": "Añadir Email",
         "forward_tips": "Para evitar la circularidad, el reenvio de SMS no se ejecutará cuando ingrese un número local. Además, si el Modem no lee el número de su tarjeta SIM, el reenvio de SMS no será ejecutado.",
         "forward_email_title": "Reenviar por Correo Electrónico",
-        "forward_sms_title": "Reenviar por SMS"
+        "forward_sms_title": "Reenviar por SMS",
+        "received": "Recibido"
     },
     "modemmanage": {
         "title": "Administración",
@@ -551,7 +553,10 @@
         "tower": "Torre",
         "network_type_conflicts_tips": "El tipo de red actual de la tarjeta SIM es {networkType}, el cual entra en conflicto con el tipo de red de {feature}. Por favor, diríjase a {settings} para modificar primero el tipo de red y luego intente bloquear nuevamente.",
         "current_sim_badge_label": "Activo: {sim}",
-        "connection_failed": "Conexión fallida"
+        "connection_failed": "Conexión fallida",
+        "sim_operator": "{sim} Operador",
+        "sim_tower": "{sim} Torre",
+        "sim_unlock": "Desbloquear {sim}"
     },
     "sim": {
         "sender_label": "Remitente"

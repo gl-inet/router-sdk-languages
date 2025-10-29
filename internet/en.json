@@ -251,7 +251,8 @@
         "unlock_pin_count_tips": "Enter PIN to unlock SIM. {count} attempts remaining.",
         "network_type_tips": "Select 5G for faster speed (requires 5G signal) or 4G for stability.",
         "unavailable_tower_title": "Unavailable Tower",
-        "lock_puk_tips": "The {sim} card has been locked due to three incorrect PIN code inputs. Please enter the PUK code on your phone to unlock it."
+        "lock_puk_tips": "The {sim} card has been locked due to three incorrect PIN code inputs. Please enter the PUK code on your phone to unlock it.",
+        "network_type_tips2": "If you lock the Tower/Operator, the network type will be fixed and cannot be changed."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -309,7 +310,8 @@
         "forward_no_encryp_label": "None",
         "forward_tips": "To prevent circularity, SMS forwarding will not be allowed when the local number is entered here. Additionally, if the Modem does not read the number of your SIM card, SMS forwarding will not be executed.",
         "forward_email_title": "Forward via Email",
-        "forward_sms_title": "Forward via SMS"
+        "forward_sms_title": "Forward via SMS",
+        "received": "Received"
     },
     "modemmanage": {
         "title": "Management",
@@ -551,7 +553,10 @@
         "tower": "Tower",
         "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type. Please go to {settings} to modify the network type first, then try locking again.",
         "current_sim_badge_label": "Active: {sim}",
-        "connection_failed": "Connection Failed"
+        "connection_failed": "Connection Failed",
+        "sim_operator": "{sim} Operator",
+        "sim_tower": "{sim} Tower",
+        "sim_unlock": "{sim} Unlock"
     },
     "sim": {
         "sender_label": "Sender"

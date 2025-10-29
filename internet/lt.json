@@ -130,7 +130,8 @@
         "unlock_pin_count_tips": "Įveskite PIN, kad atrakintumėte SIM kortelę. Liko {count} bandymai.",
         "network_type_tips": "Pasirinkite 5G, kad pasiektumėte didesnį greitį (reikalingas 5G signalas), arba 4G, kad užtikrintumėte stabilumą.",
         "unavailable_tower_title": "Nepasiekiamos bokštas",
-        "lock_puk_tips": "{sim} kortelė buvo užrakinta dėl trijų neteisingų PIN kodo įvedimų. Norėdami ją atrakinti, įveskite PUK kodą savo telefone."
+        "lock_puk_tips": "{sim} kortelė buvo užrakinta dėl trijų neteisingų PIN kodo įvedimų. Norėdami ją atrakinti, įveskite PUK kodą savo telefone.",
+        "network_type_tips2": "Jei užrakinsite bokštą/operatorių, tinklo tipas bus fiksuotas ir negalės būti keičiamas."
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -309,7 +310,8 @@
         "forward_phone_tips": "Jei norite, kad maršrutizatorius persiųstų „SMS“ į Jūsų mobilųjį telefoną, tada įsitikinkite, kad Jūsų mobiliojo ryšio tinklas yra pasiekiamas ir palaiko „SMS“ siuntimą.",
         "forward_tips": "Kad išvengtumėte cikliškumo, „SMS“ peradresavimas nebus leidžiamas, kai čia įvestas vietinis numeris. Be to, jei modemui nepavyksta nuskaityti Jūsų „SIM“ kortelės numerio, „SMS“ peradresavimas tai pat, nebus vykdomas.",
         "forward_email_title": "Persiųsti el. paštu",
-        "forward_sms_title": "Persiųsti „SMS“ žinutę"
+        "forward_sms_title": "Persiųsti „SMS“ žinutę",
+        "received": "Gauta"
     },
     "modemmanage": {
         "title": "Valdymas",
@@ -551,7 +553,10 @@
         "tower": "Tower",
         "network_type_conflicts_tips": "Dabartinis SIM kortelės tinklo tipas yra {networkType}, kuris prieštarauja {feature} tinklo tipui. Prašome eiti į {settings}, kad pirmiausia pakeistumėte tinklo tipą, tada bandykite užrakinti dar kartą.",
         "current_sim_badge_label": "Aktyvus: {sim}",
-        "connection_failed": "Ryšys nepavyko"
+        "connection_failed": "Ryšys nepavyko",
+        "sim_operator": "{sim} operatorius",
+        "sim_tower": "{sim} bokštas",
+        "sim_unlock": "{sim} Atrakinti"
     },
     "sim": {
         "sender_label": "Siuntėjas"

@@ -251,7 +251,8 @@
         "unlock_pin_count_tips": "SIM 잠금 해제를 위해 PIN을 입력하세요. {count}회 남았습니다.",
         "network_type_tips": "더 빠른 속도를 위해 5G를 선택하거나(5G 신호 필요) 안정성을 위해 4G를 선택하세요.",
         "unavailable_tower_title": "사용 불가 타워",
-        "lock_puk_tips": "{sim} 카드가 PIN 코드를 세 번 잘못 입력하여 잠겼습니다. 휴대폰에서 PUK 코드를 입력하여 잠금을 해제하세요."
+        "lock_puk_tips": "{sim} 카드가 PIN 코드를 세 번 잘못 입력하여 잠겼습니다. 휴대폰에서 PUK 코드를 입력하여 잠금을 해제하세요.",
+        "network_type_tips2": "타워/운영자를 잠그면 네트워크 유형이 고정되어 변경할 수 없습니다."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -309,7 +310,8 @@
         "send_error_msg1": "모뎀이 감지되지 않았습니다.",
         "send_error_msg3": "전송 실패.",
         "send_error_msg5": "장치가 SMS 기능을 지원하지 않습니다.",
-        "forward_email_tips": "SMS를 이메일로 전달하려면 먼저 발신자 이메일을 설정하세요. SMS가 전송될 이메일 주소입니다."
+        "forward_email_tips": "SMS를 이메일로 전달하려면 먼저 발신자 이메일을 설정하세요. SMS가 전송될 이메일 주소입니다.",
+        "received": "수신됨"
     },
     "modemmanage": {
         "title": "관리",
@@ -551,7 +553,10 @@
         "tower": "타워",
         "network_type_conflicts_tips": "현재 SIM 카드 네트워크 유형은 {networkType}이며, {feature}의 네트워크 유형과 충돌합니다. 먼저 {settings}로 이동하여 네트워크 유형을 수정한 후 다시 잠금을 시도해 주세요.",
         "current_sim_badge_label": "활성: {sim}",
-        "connection_failed": "연결 실패"
+        "connection_failed": "연결 실패",
+        "sim_operator": "{sim} 사업자",
+        "sim_tower": "{sim} 타워",
+        "sim_unlock": "{sim} 잠금 해제"
     },
     "sim": {
         "sender_label": "발신자"

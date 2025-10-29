@@ -234,7 +234,8 @@
         "error": "文件上載失敗。",
         "format_error": "數據格式錯誤!",
         "too_large_tips": "上傳的文件太大，請上傳 $$$$ 以內的文件。",
-        "lass_than_tips": "（少於 $$$$）"
+        "lass_than_tips": "（少於 $$$$）",
+        "too_large_normal_msg": "上傳的檔案過大。請縮小檔案大小後重新上傳。"
     },
     "system": {
         "battery_err_tips": "系統未偵測到電池模組，請檢查電源連接或電池是否損壞。",
@@ -243,7 +244,7 @@
         "limit_tips": "數據不能超過 {count} 條。",
         "forget_password_btn": "忘記密碼？",
         "lost_account_btn": "遺失帳戶？",
-        "usb_power_limit_tips": "(請確保使用 {power}以上電源)",
+        "usb_power_limit_tips": "( 請確保使用 {power}以上電源 )",
         "current_time_label": "目前時間",
         "enable_conflict_warning": "{self} 不可用，因為 {other} 已啟用。"
     },

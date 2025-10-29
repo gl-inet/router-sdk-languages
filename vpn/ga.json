@@ -307,7 +307,10 @@
         "traffic_use_vpn_label": "An Trácht ó Ghléasanna Cliant",
         "ie_without_vpn": "(i.e. gan VPN)",
         "base_on_strategy": "Bunaithe ar an $$$$VLAN$$$$",
-        "expired_at_tips": "D'éag sé ag {time}"
+        "expired_at_tips": "D'éag sé ag {time}",
+        "wg_common_not_connet_tips": "Mura ndéanfar an freastalaí VPN a nascadh, d'fhéadfadh go mbeadh eochair WireGuard éirithe as feidhm. Is féidir leat eochair WireGuard a nuashonrú.",
+        "wg_windcribe_limit_tips": "Theip teaghdh a ghiniúint do WireGuard. Is féidir le gach cuntas Windscribe cúig eochair a bheith aige ar an am céanna. Téigh chuig {provider} chun dintiúir a scriosadh.",
+        "wg_api_request_too_frequent_tips": "Tá na hiarratais API ró-mhinic agus tá siad srianta ag {provider}. Bain triail eile as níos déanaí."
     },
     "vpn_taps2s": {
         "start_title": "Aird: Tosaigh Cliant TAP-S2S",
@@ -502,5 +505,8 @@
         "set_parameters_tips_1": "Gineann an ródaire na paraiméadair doiléirithe go huathoibríoch.",
         "set_parameters_tips_2": "Féadfaidh tú iad a eagarthóireacht de láimh má tá tú eolach ar dhoiléiriú AmneziaWG, nó úsáid na cinn a ghintear go huathoibríoch.",
         "wg_client_parameters_tips": "Is ag an bhfreastalaí a shocraítear na paraiméadair doiléirithe. Ní gá iad a athrú tar éis an chomhaid chumraíochta a allmhairiú."
+    },
+    "vpn_client": {
+        "too_large_unzip_fail_tips": "Comhad a uaslódáil ró-mhór. Theip ar dhíchóimeáil mar gheall ar easpa stórála."
     }
 }
