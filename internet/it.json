@@ -118,7 +118,8 @@
         "portal_auth_required_title": "Autenticazione Portale Richiesta",
         "support_channel_tips": "Sono supportati i seguenti canali Wi-Fi. Assicurati che la rete Wi-Fi a cui ti connetti ne utilizzi uno.",
         "auto_switching_without_network_tips": "Quando la modalità {mode} è abilitata, il router non eseguirà automaticamente la scansione delle reti quando è connesso con successo in modalità non ripetitore, e proverà a passare automaticamente ad altre reti salvate solo quando il router è senza connessione, evitando così la perdita di pacchetti di comunicazione.",
-        "band_conflict_tips": "Per garantire una connessione stabile, quando il ripetitore è attivato, il Wi-Fi Guest verrà disabilitato e la banda Wi-Fi a 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il dispositivo non si riconnette automaticamente, si prega di connettersi manualmente alla rete Wi-Fi."
+        "band_conflict_tips": "Per garantire una connessione stabile, quando il ripetitore è attivato, il Wi-Fi Guest verrà disabilitato e la banda Wi-Fi a 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il dispositivo non si riconnette automaticamente, si prega di connettersi manualmente alla rete Wi-Fi.",
+        "auto_resume_scan_tips": "Internet connesso. Per garantire la qualità della comunicazione wireless, il Repeater non eseguirà la scansione delle reti disponibili; riprenderà automaticamente la scansione una volta che Internet verrà disconnesso. È possibile riconnettersi o passare manualmente alla rete Wi-Fi."
     },
     "modem": {
         "title": "Cellulare",
@@ -310,7 +311,8 @@
         "forward_email_tips": "Se vuoi inoltrare SMS via email, per favore imposta prima l'indirizzo email mittente; questo sarà l'indirizzo email da cui sarà spedito l'SMS.",
         "forward_tips": "Per evitare circolarità, l'inoltro SMS non verrà consentito quando il numero locale viene inserito qui. Inoltre, se il Modem non legge il numero della tua scheda SIM, l'inoltro SMS non verrà eseguito.",
         "forward_email_title": "Inoltra via Email",
-        "forward_sms_title": "inoltra via SMS"
+        "forward_sms_title": "inoltra via SMS",
+        "received": "已接收"
     },
     "modemmanage": {
         "title": "Gestione",
