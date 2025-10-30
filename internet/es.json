@@ -556,7 +556,8 @@
         "connection_failed": "Conexión fallida",
         "sim_operator": "{sim} Operador",
         "sim_tower": "{sim} Torre",
-        "sim_unlock": "Desbloquear {sim}"
+        "sim_unlock": "Desbloquear {sim}",
+        "connecting_tips": "Algunas tarjetas SIM tienen restricciones de uso especiales, como requerir un APN específico. Si su tarjeta SIM no se registra, contacte a su operador de red para verificar posibles restricciones especiales; también compruebe si la tarjeta SIM tiene datos disponibles. {guide} Si el problema persiste, por favor {log} y envíelos a {addr}."
     },
     "sim": {
         "sender_label": "Remitente"
