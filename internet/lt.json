@@ -555,7 +555,9 @@
         "connection_failed": "Ryšys nepavyko",
         "sim_operator": "{sim} operatorius",
         "sim_tower": "{sim} bokštas",
-        "sim_unlock": "{sim} Atrakinti"
+        "sim_unlock": "{sim} Atrakinti",
+        "connecting_tips": "Kai kurios SIM kortelės turi specialius naudojimo apribojimus, pavyzdžiui, reikalauja konkretaus APN. Jei jūsų SIM kortelė nepavyksta registruoti, susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus; taip pat patikrinkite, ar SIM kortelėje yra prieinamų duomenų. {guide} Jei problema išlieka, prašome {log} ir atsiųskite juos {addr}.",
+        "download_log": "atsisiųsti žurnalus"
     },
     "sim": {
         "sender_label": "Siuntėjas"
