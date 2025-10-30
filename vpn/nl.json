@@ -309,7 +309,9 @@
         "wg_urbanshield_dev_limit_tips": "Apparaatslimiet bereikt. Meld één apparaat af om door te gaan.",
         "expired_at_tips": "Verlopen op {time}",
         "wg_common_not_connet_tips": "Als de VPN-server niet kan worden verbonden, is de WireGuard-sleutel mogelijk verlopen. U kunt de WireGuard-sleutel bijwerken.",
-        "wg_api_request_too_frequent_tips": "API-aanvragen zijn te frequent en zijn beperkt door {provider}. Probeer het later opnieuw."
+        "wg_api_request_too_frequent_tips": "API-aanvragen zijn te frequent en zijn beperkt door {provider}. Probeer het later opnieuw.",
+        "wg_windcribe_limit_tips": "Kan geen WireGuard-sleutel genereren. Elk Windscribe-account kan maximaal vijf sleutels tegelijkertijd hebben. Ga naar {provider} om een inloggegevens te verwijderen.",
+        "wg_windscribe_limit_tips": "Kan geen WireGuard-sleutel genereren. Elk Windscribe-account kan maximaal vijf sleutels tegelijkertijd hebben. Ga naar {provider} om een inloggegevens te verwijderen."
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
