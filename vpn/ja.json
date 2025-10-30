@@ -309,7 +309,9 @@
         "wg_urbanshield_dev_limit_tips": "デバイスの制限に達しました。続行するには1台ログアウトしてください。",
         "expired_at_tips": "{time}に期限切れ",
         "wg_common_not_connet_tips": "VPNサーバーに接続できない場合、WireGuardキーが期限切れの可能性があります。WireGuardキーを更新してください。",
-        "wg_api_request_too_frequent_tips": "APIリクエストが頻繁すぎて、{provider}によって制限されました。後ほどもう一度お試しください。"
+        "wg_api_request_too_frequent_tips": "APIリクエストが頻繁すぎて、{provider}によって制限されました。後ほどもう一度お試しください。",
+        "wg_windcribe_limit_tips": "WireGuardキーの生成に失敗しました。各Windscribeアカウントは同時に最大5つのキーを持つことができます。{provider}に移動して資格情報を削除してください。",
+        "wg_windscribe_limit_tips": "WireGuardキーの生成に失敗しました。各Windscribeアカウントは同時に最大5つのキーを持つことができます。{provider}に移動して資格情報を削除してください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
