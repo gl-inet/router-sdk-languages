@@ -310,7 +310,6 @@
         "expired_at_tips": "Expired at {time}",
         "wg_common_not_connet_tips": "If the VPN server cannot be connected, the WireGuard key may have expired. You can update the WireGuard key.",
         "wg_api_request_too_frequent_tips": "API requests are too frequent and have been restricted by {provider}. Please try again later.",
-        "wg_windcribe_limit_tips": "Failed to generate a WireGuard key. Each Windscribe account can have a maximum of five keys at the same time. Please go to {provider} to delete a credential.",
         "wg_windscribe_limit_tips": "Failed to generate a WireGuard key. Each Windscribe account can have a maximum of five keys at the same time. Please go to {provider} to delete a credential."
     },
     "menu_wgserver": "WireGuard Server",
