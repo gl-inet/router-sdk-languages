@@ -567,7 +567,9 @@
         "connection_failed": "Bağlantı Başarısız",
         "sim_operator": "{sim} Operatör",
         "sim_tower": "{sim} Kulesi",
-        "sim_unlock": "{sim} Kilidini Aç"
+        "sim_unlock": "{sim} Kilidini Aç",
+        "connecting_tips": "Bazı SIM kartların özel kullanım kısıtlamaları bulunur, örneğin belirli bir APN gerektirebilir. SIM kartınız kayıt işlemini gerçekleştiremezse, özel kısıtlamalar olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin; ayrıca SIM kartın kullanılabilir verisi olup olmadığını kontrol edin. {guide} Sorun devam ederse, lütfen {log} ve bunları {addr} adresine gönderin.",
+        "download_log": "günlükleri indir"
     },
     "sim": {
         "sender_label": "Gönderen"
