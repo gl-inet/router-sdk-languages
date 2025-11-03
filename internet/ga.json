@@ -66,10 +66,10 @@
         "sim_operator": "{sim} Oibreoir",
         "sim_tower": "{sim} Túr",
         "sim_unlock": "{sim} Díghlasáil",
-        "connecting_tips": "Tá srianta úsáide speisialta ar roinnt cártaí SIM, amhail APN sonrach a bheith ag teastáil. Mura n-éiríonn le do chárta SIM clárú, déan teagmháil le do sholáthraí líonra chun aon srianta speisialta a sheiceáil; seiceáil freisin an bhfuil sonraí ar fáil ag an gcárta SIM. {guide} Má leanann an fhadhb, déan {log} agus seol iad chuig {addr}.",
+        "connecting_tips": "Tá srianta úsáide speisialta ag baint le roinnt cártaí SIM, amhail APN ar leith a éileamh. Mura n-éiríonn le do chárta SIM clárú, déan teagmháil le d’oibreoir líonra le seiceáil an bhfuil aon srianta speisialta ann; seiceáil freisin an bhfuil sonraí ar fáil ar an gcárta SIM. {guide} Má leanann an fhadhb ar aghaidh, {log} agus seol chuig {addr} iad.",
         "download_log": "íoslódáil na logaí",
-        "lock_tower_fail_msg": "Thep ar theip a ghlasadh",
-        "unlock_tower_fail_msg": "Theplaigh an túr a dhíghlasáil"
+        "lock_tower_fail_msg": "Theip ar an túr a ghlasáil",
+        "unlock_tower_fail_msg": "Theip ar an túr a dhíghlasáil"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -123,7 +123,7 @@
         "from": "Ó",
         "sent": "Seolta",
         "sending": "Ag seoladh",
-        "received": "Faightear"
+        "received": "Faighte"
     },
     "cable": {
         "title": "Ethernet",
@@ -240,7 +240,7 @@
         "portal_auth_required_title": "Fíordheimhniú Tairseach Riachtanach",
         "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint.",
         "band_conflict_tips": "Chun nascadh cobhsaí, nuair a chuirtear an athsheachadán i bhfeidhm, díchumasaítear an Wi-Fi Aoi agus déanfaidh an mhuinchille Wi-Fi 5GHz/6GHz meaitseáil go huathoibríoch leis an athsheachadán. Mura ndéanann do ghléas athenascadh go huathoibríoch, déan ceangal le Wi-Fi de láimh.",
-        "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheachadán scanadh ar líonraí atá ar fáil; tosóidh sé ag scanadh go huathoibríoch arís nuair a dhícheanglaítear an tIdirlíon. Is féidir leat ceangal arís nó aistriú go líonra Wi-Fi de láimh."
+        "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht na cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheoltóir scanadh le haghaidh líonraí atá ar fáil; leanfaidh sé ar aghaidh ag scanadh go huathoibríoch a luaithe a dhícheanglaítear an tIdirlíon. Is féidir leat athcheangal nó aistriú chuig líonra Wi-Fi de láimh."
     },
     "modem": {
         "manually_tips": "Ionchur Láimhe",
@@ -374,8 +374,8 @@
         "unavailable_tower_title": "Túr Gan Fáil",
         "lock_puk_tips": "Tá an cárta {sim} glasáilte mar gheall ar thrí ionchur míchearta ar an gcód PIN. Cuir isteach an cód PUK ar do ghuthán le do thoil chun é a dhíghlasáil.",
         "network_type_tips2": "Má ghlasálann tú an Túr/Oibreoir, socrófar an cineál líonra agus ní féidir é a athrú.",
-        "lock_operator_fail_msg": "Thep ar oibrí a ghlasáil",
-        "unlock_operator_fail_msg": "Thep ar oibrí a dhíghlasáil"
+        "lock_operator_fail_msg": "Theip ar an oibreoir a ghlasáil",
+        "unlock_operator_fail_msg": "Theip ar an oibreoir a dhíghlasáil"
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
