@@ -557,7 +557,8 @@
         "sim_unlock": "Sblocca {sim}",
         "connecting_tips": "Alcune SIM hanno restrizioni d'uso particolari, come la necessità di un APN specifico. Se la tua SIM non riesce a registrarsi, contatta il tuo operatore di rete per verificare eventuali restrizioni speciali; controlla anche se la SIM ha dati disponibili. {guide} Se il problema persiste, {log} e inviali a {addr}.",
         "download_log": "下载日志",
-        "lock_tower_fail_msg": "Impossibile bloccare la torre"
+        "lock_tower_fail_msg": "Impossibile bloccare la torre",
+        "unlock_tower_fail_msg": "Impossibile sbloccare la torre"
     },
     "sim": {
         "sender_label": "Mittente"
