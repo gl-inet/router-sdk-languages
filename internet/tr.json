@@ -569,7 +569,8 @@
         "sim_unlock": "{sim} Kilidini Aç",
         "connecting_tips": "Bazı SIM kartların özel kullanım kısıtlamaları bulunur, örneğin belirli bir APN gerektirebilir. SIM kartınız kayıt işlemini gerçekleştiremezse, özel kısıtlamalar olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin; ayrıca SIM kartın kullanılabilir verisi olup olmadığını kontrol edin. {guide} Sorun devam ederse, lütfen {log} ve bunları {addr} adresine gönderin.",
         "download_log": "günlükleri indir",
-        "lock_tower_fail_msg": "Kule kilitlenemedi"
+        "lock_tower_fail_msg": "Kule kilitlenemedi",
+        "unlock_tower_fail_msg": "Kule açılamadı"
     },
     "sim": {
         "sender_label": "Gönderen"
