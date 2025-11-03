@@ -557,7 +557,8 @@
         "sim_unlock": "{sim} 解锁",
         "connecting_tips": "某些 SIM 卡有特殊使用限制，例如需要特定 APN。若您的 SIM 卡无法注册，请联系网络运营商检查是否存在特殊限制；同时请检查 SIM 卡是否有可用流量。{guide} 若问题仍然存在，请{log}并发送至{addr}。",
         "download_log": "下载日志",
-        "lock_tower_fail_msg": "锁定基站失败"
+        "lock_tower_fail_msg": "锁定基站失败",
+        "unlock_tower_fail_msg": "无法解锁塔"
     },
     "sim": {
         "sender_label": "发件人"
