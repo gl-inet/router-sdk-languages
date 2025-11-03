@@ -252,7 +252,8 @@
         "network_type_tips": "Select 5G for faster speed (requires 5G signal) or 4G for stability.",
         "unavailable_tower_title": "Unavailable Tower",
         "lock_puk_tips": "The {sim} card has been locked due to three incorrect PIN code inputs. Please enter the PUK code on your phone to unlock it.",
-        "network_type_tips2": "If you lock the Tower/Operator, the network type will be fixed and cannot be changed."
+        "network_type_tips2": "If you lock the Tower/Operator, the network type will be fixed and cannot be changed.",
+        "lock_operator_fail_msg": "Failed to lock operator"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
