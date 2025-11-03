@@ -557,7 +557,8 @@
         "sim_unlock": "{sim} Unlock",
         "connecting_tips": "Some SIM cards have special usage restrictions, such as requiring a specific APN. If your SIM card fails to register, please contact your network operator to check for any special restrictions; also check if the SIM card has available data. {guide} If the issue persists, please {log} and send them to {addr}.",
         "download_log": "download the logs",
-        "lock_tower_fail_msg": "Failed to lock tower"
+        "lock_tower_fail_msg": "Failed to lock tower",
+        "unlock_tower_fail_msg": "Failed to unlock tower"
     },
     "sim": {
         "sender_label": "Sender"
