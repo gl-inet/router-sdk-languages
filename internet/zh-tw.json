@@ -560,7 +560,9 @@
         "connecting_tips": "某些 SIM 卡有特殊使用限制，例如需要特定 APN。若您的 SIM 卡無法註冊，請聯繫網路運營商檢查是否有特殊限制；同時請檢查 SIM 卡是否有可用流量。{guide} 若問題仍然存在，請{log}並發送至{addr}。",
         "download_log": "下載日誌",
         "lock_tower_fail_msg": "鎖定基站失敗",
-        "unlock_tower_fail_msg": "解鎖基站失敗"
+        "unlock_tower_fail_msg": "解鎖基站失敗",
+        "modified_mtu_reboot_tips2": "MTU 已修改，請重啟設備以使其生效。",
+        "modified_mtu_reboot_tips": "如果修改了MTU，請重啟設備使其生效。"
     },
     "sim": {
         "sender_label": "發件人"
