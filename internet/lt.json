@@ -560,7 +560,8 @@
         "connecting_tips": "Kai kurios SIM kortelės turi specialius naudojimo apribojimus, pavyzdžiui, reikalauja konkretaus APN. Jei jūsų SIM kortelė nepavyksta registruoti, susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus; taip pat patikrinkite, ar SIM kortelėje yra prieinamų duomenų. {guide} Jei problema išlieka, prašome {log} ir atsiųskite juos {addr}.",
         "download_log": "atsisiųsti žurnalus",
         "lock_tower_fail_msg": "Nepavydo užrakinti bokšto",
-        "unlock_tower_fail_msg": "Nepavyko atrakinti bokšto"
+        "unlock_tower_fail_msg": "Nepavyko atrakinti bokšto",
+        "modified_mtu_reboot_tips": "Jei „MTU“ yra modifikuotas, prašome paleisti įrenginį iš naujo, kad jis įsigaliotų."
     },
     "sim": {
         "sender_label": "Siuntėjas"
