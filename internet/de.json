@@ -560,7 +560,8 @@
         "connecting_tips": "Einige SIM-Karten unterliegen besonderen Nutzungseinschränkungen, wie etwa der Anforderung eines bestimmten APN. Falls Ihre SIM-Karte keine Verbindung herstellen kann, wenden Sie sich bitte an Ihren Netzbetreiber, um mögliche besondere Einschränkungen zu prüfen; überprüfen Sie außerdem, ob die SIM-Karte über verfügbare Daten verfügt. {guide} Sollte das Problem weiterhin bestehen, erstellen Sie bitte {log} und senden Sie diese an {addr}.",
         "download_log": "Laden Sie die Protokolle herunter",
         "lock_tower_fail_msg": "Fehler beim Sperren des Turms",
-        "unlock_tower_fail_msg": "Fehler beim Entsperren des Turms"
+        "unlock_tower_fail_msg": "Fehler beim Entsperren des Turms",
+        "modified_mtu_reboot_tips": "Wenn die MTU geändert wird, starten Sie das Gerät bitte neu, damit die Änderung wirksam wird."
     },
     "sim": {
         "sender_label": "Absender"
