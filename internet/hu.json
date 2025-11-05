@@ -560,7 +560,8 @@
         "download_log": "naplók letöltése",
         "connecting_tips": "某些SIM卡有特殊的使用限制，例如需要特定的APN。如果您的SIM卡无法注册，请联系您的网络运营商检查是否有特殊限制；同时检查SIM卡是否有可用数据。{guide} 如果问题仍然存在，请{log}并将其发送至{addr}。",
         "lock_tower_fail_msg": "Nem sikerült a torony zárolása",
-        "unlock_tower_fail_msg": "A torony feloldása sikertelen"
+        "unlock_tower_fail_msg": "A torony feloldása sikertelen",
+        "modified_mtu_reboot_tips": "Ha az MTU módosításra kerül, kérjük indítsa újra az eszközt a hatályba lépés érdekében."
     },
     "sim": {
         "sender_label": "Feladó"
