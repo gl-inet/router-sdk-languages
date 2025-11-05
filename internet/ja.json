@@ -560,7 +560,8 @@
         "connecting_tips": "一部のSIMカードには特定のAPNの設定が必要など、特別な使用制限があります。SIMカードの登録に失敗した場合は、ネットワーク事業者に連絡して特別な制限がないか確認してください。また、SIMカードに利用可能なデータが残っているかも確認してください。{guide} 問題が解決しない場合は、{log}を取得して{addr}に送信してください。",
         "download_log": "ログをダウンロード",
         "lock_tower_fail_msg": "タワーのロックに失敗しました",
-        "unlock_tower_fail_msg": "タワーのロック解除に失敗しました"
+        "unlock_tower_fail_msg": "タワーのロック解除に失敗しました",
+        "modified_mtu_reboot_tips": "MTUを変更した場合は、デバイスをリブートして変更を有効にしてください。"
     },
     "sim": {
         "sender_label": "送信者"
