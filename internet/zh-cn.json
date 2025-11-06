@@ -118,7 +118,8 @@
         "portal_auth_required_title": "需要门户认证",
         "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。",
         "auto_switching_without_network_tips": "启用“{mode}”模式后，路由器在非中继模式下联网成功后不会自动扫描网络，只会在无网络时尝试自动切换到其他保存的网络，这样可以避免通信数据包丢失。",
-        "band_conflict_tips": "为保证网络连接稳定性，中继启用时，访客网络将禁用，且 5GHz/6GHz Wi-Fi 频段跟随中继网络。若设备未能自动连接，请手动选择该 Wi-Fi 网络。"
+        "band_conflict_tips": "为保证网络连接稳定性，中继启用时，访客网络将禁用，且 5GHz/6GHz Wi-Fi 频段跟随中继网络。若设备未能自动连接，请手动选择该 Wi-Fi 网络。",
+        "auto_resume_scan_tips": "互联网已连接，为了确保无线通信质量，中继将暂停扫描可用网络；一旦互联网断开，它将自动恢复扫描。您可以手动重连或切换Wi-Fi网络。"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -246,13 +247,14 @@
         "no_sim_card": "无SIM卡",
         "sim_info_label": "{sim} 信息",
         "airplane_mode_tips": "飞行模式已开启，蜂窝网络已禁用。",
-        "dialing_exception_tips": "请前往{management}检查您的eSIM配置以{topUp}数据。如果问题仍然存在，请检查您的SIM卡设置或联系{addr}。",
-        "download_esim_config_tips": "请连接互联网以下载eSIM配置文件。",
+        "download_esim_config_tips": "请连接互联网下载 eSIM 配置文件。",
         "unlock_pin_count_tips": "输入PIN码解锁SIM卡。剩余{count}次尝试。",
         "network_type_tips": "选择5G以获得更快的速度（需5G信号覆盖），或选择4G以获得更稳定的连接。",
         "unavailable_tower_title": "不可用基站",
         "lock_puk_tips": "PIN 码输入错误 3 次，{sim} 卡已被锁定，请在您的手机上输入 PUK 码解锁。",
-        "network_type_tips2": "若锁定基站/运营商，网络类型将被固定且无法更改。"
+        "network_type_tips2": "若锁定基站/运营商，网络类型将被固定且无法更改。",
+        "lock_operator_fail_msg": "锁定运营商失败",
+        "unlock_operator_fail_msg": "解锁运营商失败"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -546,8 +548,6 @@
         "ip_type_tips": "如果SIM卡不支持当前的IP类型设置，或者选择了IPv6但未开启{ipv6}全局开关，可能会导致拨号异常。",
         "ip_type_label": "IP类型",
         "initializing_tips": "蜂窝模组正在初始化……",
-        "connecting_tips": "某些SIM卡有特殊使用限制，例如需要特定APN。若您的SIM卡无法注册，请联系网络运营商检查是否存在特殊限制。{guide} \n若问题仍然存在，请{log}并发送至{addr}。",
-        "download_log": "下载日志",
         "unavailable_operator_title": "不可用运营商",
         "operator": "运营商",
         "tower": "基站",
@@ -556,7 +556,13 @@
         "connection_failed": "连接失败",
         "sim_operator": "{sim} 运营商",
         "sim_tower": "{sim} 基站",
-        "sim_unlock": "{sim} 解锁"
+        "sim_unlock": "{sim} 解锁",
+        "connecting_tips": "某些 SIM 卡有特殊使用限制，例如需要特定 APN。若您的 SIM 卡无法注册，请联系网络运营商检查是否存在特殊限制；同时请检查 SIM 卡是否有可用流量。{guide} 若问题仍然存在，请{log}并发送至{addr}。",
+        "download_log": "下载日志",
+        "lock_tower_fail_msg": "锁定基站失败",
+        "unlock_tower_fail_msg": "解锁基站失败",
+        "modified_mtu_reboot_tips2": "MTU 已修改，请重启设备使其生效。",
+        "modified_mtu_reboot_tips": "如果修改了MTU，请重启设备使其生效。"
     },
     "sim": {
         "sender_label": "发件人"

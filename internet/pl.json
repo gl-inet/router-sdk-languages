@@ -83,7 +83,8 @@
         "portal_auth_required_title": "Wymagane uwierzytelnienie portalu",
         "support_channel_tips": "Obsługiwane są następujące kanały Wi-Fi. Upewnij się, że sieć Wi-Fi, z którą się łączysz, korzysta z jednego z nich.",
         "auto_switching_without_network_tips": "Gdy tryb {mode} jest włączony, router nie będzie automatycznie skanował sieci, gdy zostanie pomyślnie połączony w trybie innym niż repeater, i będzie próbował automatycznie przełączyć się na inne zapisane sieci tylko wtedy, gdy router nie będzie miał połączenia, co pozwala uniknąć utraty pakietów komunikacyjnych.",
-        "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy wzmacniacz jest włączony, sieć Wi-Fi dla gości zostanie wyłączona, a pasmo 5 GHz/6 GHz automatycznie dostosuje się do wzmacniacza. Jeśli twoje urządzenie nie połączy się automatycznie, proszę połączyć się z Wi-Fi ręcznie."
+        "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy wzmacniacz jest włączony, sieć Wi-Fi dla gości zostanie wyłączona, a pasmo 5 GHz/6 GHz automatycznie dostosuje się do wzmacniacza. Jeśli twoje urządzenie nie połączy się automatycznie, proszę połączyć się z Wi-Fi ręcznie.",
+        "auto_resume_scan_tips": "Internet jest podłączony. Aby zapewnić jakość komunikacji bezprzewodowej, Repeater nie będzie skanował dostępnych sieci; automatycznie wznowi skanowanie po rozłączeniu z Internetem. Możesz ręcznie ponownie połączyć się lub przełączyć na sieć Wi-Fi."
     },
     "cable": {
         "title": "Ethernet",
@@ -166,7 +167,8 @@
         "forward_encryp_label": "Metoda Szyfrowania",
         "forward_email_account_label": "Nazwa Użytkownika",
         "forward_email_subject_label": "Wątek",
-        "receive": "Otrzymać"
+        "receive": "Otrzymać",
+        "received": "Odebrano"
     },
     "modemmanage": {
         "success_copy": "Kopiowanie powiodło się",
@@ -316,13 +318,14 @@
         "no_sim_card": "Brak Karty SIM",
         "sim_info_label": "Informacje o {sim}",
         "airplane_mode_tips": "Tryb Samolotowy jest włączony, a sieć komórkowa jest wyłączona.",
-        "dialing_exception_tips": "Sprawdź konfigurację eSIM w {management}, aby {topUp} dane. Jeśli problem nadal występuje, sprawdź ustawienia karty SIM lub skontaktuj się z {addr}.",
         "download_esim_config_tips": "Proszę połączyć się z internetem, aby pobrać plik konfiguracyjny eSIM.",
         "unlock_pin_count_tips": "Wprowadź PIN, aby odblokować kartę SIM. Pozostało {count} prób.",
         "network_type_tips": "Wybierz 5G dla szybszej prędkości (wymaga sygnału 5G) lub 4G dla stabilności.",
         "unavailable_tower_title": "Niedostępna Wieża",
         "lock_puk_tips": "Karta {sim} została zablokowana z powodu trzykrotnego wprowadzenia nieprawidłowego kodu PIN. Aby ją odblokować, wprowadź kod PUK w telefonie.",
-        "network_type_tips2": "Jeśli zablokujesz Wieżę/Operatora, typ sieci zostanie ustalony i nie będzie można go zmienić."
+        "network_type_tips2": "Jeśli zablokujesz Wieżę/Operatora, typ sieci zostanie ustalony i nie będzie można go zmienić.",
+        "lock_operator_fail_msg": "Nie udało się zablokować operatora",
+        "unlock_operator_fail_msg": "Nie udało się odblokować operatora"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -545,8 +548,6 @@
         "ip_type_tips": "Jeśli karta SIM nie obsługuje bieżącego ustawienia typu IP lub gdy wybrano IPv6, ale globalny przełącznik {ipv6} nie jest włączony, może to spowodować nieprawidłowości w wybieraniu numeru.",
         "ip_type_label": "Typ IP",
         "initializing_tips": "Modem jest inicjalizowany……",
-        "connecting_tips": "Niektóre karty SIM mają specjalne ograniczenia użytkowania, takie jak wymaganie określonego APN. Jeśli Twoja karta SIM nie może zostać zarejestrowana, skontaktuj się z operatorem sieci, aby sprawdzić, czy istnieją specjalne ograniczenia. {guide} \nJeśli problem nadal występuje, proszę {log} i wyślij go na adres {addr}.",
-        "download_log": "Pobierz Dziennik",
         "unavailable_operator_title": "Niedostępni Operatorzy",
         "operator": "Operator",
         "tower": "Wieża",
@@ -555,7 +556,13 @@
         "connection_failed": "Połączenie nie powiodło się",
         "sim_operator": "{sim} Operator",
         "sim_tower": "{sim} Wieża",
-        "sim_unlock": "Odblokuj {sim}"
+        "sim_unlock": "Odblokuj {sim}",
+        "connecting_tips": "Niektóre karty SIM mają specjalne ograniczenia użytkowania, takie jak wymaganie konkretnego APN. Jeśli Twoja karta SIM nie może się zarejestrować, skontaktuj się z operatorem sieci, aby sprawdzić, czy nie ma specjalnych ograniczeń; sprawdź również, czy karta SIM ma dostępne dane. {guide} Jeśli problem nadal występuje, proszę {log} i wyślij je na adres {addr}.",
+        "download_log": "Pobierz dzienniki",
+        "lock_tower_fail_msg": "Nie udało się zablokować wieży",
+        "unlock_tower_fail_msg": "Nie udało się odblokować wieży",
+        "modified_mtu_reboot_tips2": "MTU zostało zmodyfikowane. Należy zrestartować urządzenie, aby zmiany zaczęły obowiązywać.",
+        "modified_mtu_reboot_tips": "Jeśli MTU zostało zmodyfikowane, należy zrestartować urządzenie, aby zmiany zaczęły obowiązywać."
     },
     "sim": {
         "sender_label": "Nadawca"

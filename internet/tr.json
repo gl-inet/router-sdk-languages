@@ -155,13 +155,14 @@
         "no_sim_card": "SIM Kartı Yok",
         "sim_info_label": "{sim} Bilgileri",
         "airplane_mode_tips": "Uçak Modu açık ve hücresel ağ devre dışı bırakıldı.",
-        "dialing_exception_tips": "{management} üzerinden eSIM yapılandırmanızı kontrol ederek veri {topUp} yapın. Sorun devam ederse, SIM Kart Ayarlarınızı kontrol edin veya {addr} ile iletişime geçin.",
         "download_esim_config_tips": "Lütfen eSIM yapılandırma dosyasını indirmek için internete bağlanın.",
         "unlock_pin_count_tips": "SIM'i açmak için PIN girin. {count} deneme hakkı kaldı.",
         "network_type_tips": "Daha hızlı hız için 5G'yi (5G sinyali gerektirir) veya kararlılık için 4G'yi seçin.",
         "unavailable_tower_title": "Kullanılamayan Kule",
         "lock_puk_tips": "{sim} kartı üç yanlış PIN kodu girişi nedeniyle kilitlenmiştir. Lütfen kilidini açmak için telefonunuzda PUK kodunu girin.",
-        "network_type_tips2": "Kule/Operatörü kilitlerseniz, ağ türü sabitlenir ve değiştirilemez."
+        "network_type_tips2": "Kule/Operatörü kilitlerseniz, ağ türü sabitlenir ve değiştirilemez.",
+        "lock_operator_fail_msg": "Operatör kilitlenemedi",
+        "unlock_operator_fail_msg": "Operatör kilidi açılamadı"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -438,7 +439,8 @@
         "portal_auth_required_title": "Portal Kimlik Doğrulaması Gereklidir",
         "support_channel_tips": "Aşağıdaki Wi-Fi kanalları desteklenmektedir. Bağlanmak istediğiniz Wi-Fi ağının bunlardan birini kullandığından emin olun.",
         "auto_switching_without_network_tips": "{mode} modu etkinleştirildiğinde, yönlendirici tekrarlayıcı modu dışında başarıyla ağa bağlandığında otomatik olarak ağları taramayacak ve yalnızca ağ bağlantısı olmadığında kayıtlı diğer ağlara otomatik olarak geçmeye çalışacaktır. Bu, iletişim paket kaybını önleyebilir.",
-        "band_conflict_tips": "Bağlantı istikrarı için, tekrarlayıcı etkinleştirildiğinde, Misafir Wi-Fi devre dışı bırakılacak ve 5GHz/6GHz Wi-Fi bandı otomatik olarak tekrarlayıcı ile eşleşecektir. Cihazınız otomatik olarak yeniden bağlanmazsa, lütfen Wi-Fi'ye manuel olarak bağlanın."
+        "band_conflict_tips": "Bağlantı istikrarı için, tekrarlayıcı etkinleştirildiğinde, Misafir Wi-Fi devre dışı bırakılacak ve 5GHz/6GHz Wi-Fi bandı otomatik olarak tekrarlayıcı ile eşleşecektir. Cihazınız otomatik olarak yeniden bağlanmazsa, lütfen Wi-Fi'ye manuel olarak bağlanın.",
+        "auto_resume_scan_tips": "İnternet bağlı. Kablosuz iletişim kalitesini sağlamak için Tekrarlayıcı mevcut ağları taramayacaktır; İnternet bağlantısı kesildiğinde otomatik olarak taramaya devam edecektir. Wi-Fi ağına manuel olarak yeniden bağlanabilir veya geçiş yapabilirsiniz."
     },
     "router_visual": {
         "wlan_client": "WLAN İstemcileri",
@@ -558,8 +560,6 @@
         "ip_type_tips": "SIM kart mevcut IP Türü ayarını desteklemiyorsa veya IPv6 seçildiğinde {ipv6} genel anahtarı açık değilse, arama anormalliklerine neden olabilir.",
         "ip_type_label": "IP Türü",
         "initializing_tips": "Modem başlatılıyor……",
-        "connecting_tips": "Bazı SIM kartların özel kullanım kısıtlamaları bulunur, örneğin belirli bir APN gerektirebilir. SIM kartınız kaydedilemiyorsa, özel kısıtlama olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin. {guide} \nSorun devam ederse, lütfen {log} oluşturun ve {addr} adresine gönderin.",
-        "download_log": "Günlük İndir",
         "unavailable_operator_title": "Kullanılamayan Operatörler",
         "operator": "Operatör",
         "tower": "Kule",
@@ -568,7 +568,13 @@
         "connection_failed": "Bağlantı Başarısız",
         "sim_operator": "{sim} Operatör",
         "sim_tower": "{sim} Kulesi",
-        "sim_unlock": "{sim} Kilidini Aç"
+        "sim_unlock": "{sim} Kilidini Aç",
+        "connecting_tips": "Bazı SIM kartların özel kullanım kısıtlamaları bulunur, örneğin belirli bir APN gerektirebilir. SIM kartınız kayıt işlemini gerçekleştiremezse, özel kısıtlamalar olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin; ayrıca SIM kartın kullanılabilir verisi olup olmadığını kontrol edin. {guide} Sorun devam ederse, lütfen {log} ve bunları {addr} adresine gönderin.",
+        "download_log": "günlükleri indir",
+        "lock_tower_fail_msg": "Kule kilitlenemedi",
+        "unlock_tower_fail_msg": "Kule açılamadı",
+        "modified_mtu_reboot_tips2": "MTU değiştirildi. Etkili olması için lütfen cihazı yeniden başlatın.",
+        "modified_mtu_reboot_tips": "MTU değiştirilirse, etkili olması için lütfen cihazı yeniden başlatın."
     },
     "sim": {
         "sender_label": "Gönderen"

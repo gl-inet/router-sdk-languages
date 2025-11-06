@@ -39,7 +39,11 @@
         "get_card_tips": "없으신가요? 아래에서 지역을 선택하여 호환 가능한 카드를 받으세요.",
         "contact_support_tips": "도움이 필요하시면 {addr}로 문의해 주세요.",
         "delete_esim_profile_tips": "eSIM 프로필을 삭제하면 다시 다운로드할 수 없을 수 있습니다. 삭제하시겠습니까?",
-        "esim_os_version": "eSIM OS 버전"
+        "esim_os_version": "eSIM OS 버전",
+        "disable_fail_msg": "비활성화에 실패했습니다. 일시적으로 작업이 지원되지 않습니다.",
+        "delete_fail_msg": "삭제에 실패했습니다. 일시적으로 작업이 지원되지 않습니다.",
+        "enable_fail_msg": "활성화하지 못했습니다. 일시적으로 작업이 지원되지 않습니다.",
+        "system_busy_msg": "시스템이 바쁩니다. 나중에 다시 시도해 주세요."
     },
     "menu_esim": "eSIM 관리"
 }

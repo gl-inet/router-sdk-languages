@@ -40,7 +40,7 @@
         "meeting_name": "Meeting",
         "meeting_description": "Including voip",
         "work_name": "Work",
-        "work_description": "Including voip, remote-desktop, file-sharing, mail, financial, reference",
+        "work_description": "Including remote-desktop, file-sharing, mail, financial, reference",
         "webpage_name": "Webpage",
         "webpage_description": "Including portal, business",
         "game_name": "Game",
@@ -84,10 +84,10 @@
     "menu_contentprotection": "Content Protection",
     "contentprotection": {
         "contentprotection_tips": "When enabled, your router automatically blocks adult, gambling, and malicious websites, creating a clean, safe online environment for your family.",
-        "blocking_list_title": "Blocking APP List ({applength})",
-        "add_app_btn": "Add APP",
+        "blocking_list_title": "Blocked Apps List ({applength})",
+        "add_app_btn": "Add App",
         "no_app_tips": "No Apps Restricted",
-        "blocking_domain_list_title": "Bocking Domain / IP List ({count})",
+        "blocking_domain_list_title": "Blocked Domain / IP List ({count})",
         "apps_drawer_title": "Specified Apps",
         "apps_search_placeholder": "App Name",
         "show_only_selected_label": "Show only selected item"
@@ -164,8 +164,9 @@
         "premium_features_third_text": "Shield your family with advanced online protection.",
         "all_in_one_subscriptio_label": "Smarter, faster, safer — all in one subscription！",
         "networking_btn": "Waiting for networking",
-        "synchronization_btn": "Waiting time synchronization"
+        "synchronization_btn": "Waiting time synchronization",
+        "expired_tips": "Expired on {time}"
     },
-    "menu_dpifeatures": "DPI Features",
+    "menu_dpifeatures": "DPI License",
     "menu_networkcontrol": "Net Controller"
 }

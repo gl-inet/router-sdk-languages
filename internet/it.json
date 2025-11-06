@@ -118,7 +118,8 @@
         "portal_auth_required_title": "Autenticazione Portale Richiesta",
         "support_channel_tips": "Sono supportati i seguenti canali Wi-Fi. Assicurati che la rete Wi-Fi a cui ti connetti ne utilizzi uno.",
         "auto_switching_without_network_tips": "Quando la modalità {mode} è abilitata, il router non eseguirà automaticamente la scansione delle reti quando è connesso con successo in modalità non ripetitore, e proverà a passare automaticamente ad altre reti salvate solo quando il router è senza connessione, evitando così la perdita di pacchetti di comunicazione.",
-        "band_conflict_tips": "Per garantire una connessione stabile, quando il ripetitore è attivato, il Wi-Fi Guest verrà disabilitato e la banda Wi-Fi a 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il dispositivo non si riconnette automaticamente, si prega di connettersi manualmente alla rete Wi-Fi."
+        "band_conflict_tips": "Per garantire una connessione stabile, quando il ripetitore è attivato, il Wi-Fi Guest verrà disabilitato e la banda Wi-Fi a 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il dispositivo non si riconnette automaticamente, si prega di connettersi manualmente alla rete Wi-Fi.",
+        "auto_resume_scan_tips": "Internet connesso. Per garantire la qualità della comunicazione wireless, il Repeater non eseguirà la scansione delle reti disponibili; riprenderà automaticamente la scansione una volta che Internet verrà disconnesso. È possibile riconnettersi o passare manualmente alla rete Wi-Fi."
     },
     "modem": {
         "title": "Cellulare",
@@ -246,13 +247,14 @@
         "no_sim_card": "无SIM卡",
         "sim_info_label": "{sim} 信息",
         "airplane_mode_tips": "La modalità aereo è attiva e la rete cellulare è disabilitata.",
-        "dialing_exception_tips": "Verifica la configurazione del tuo eSIM in {management} per {topUp} i dati. Se il problema persiste, controlla le impostazioni della scheda SIM o contatta {addr}.",
         "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM.",
         "unlock_pin_count_tips": "Inserire il PIN per sbloccare la SIM. {count} tentativi rimanenti.",
         "network_type_tips": "Selezionare 5G per una velocità maggiore (richiede segnale 5G) o 4G per una maggiore stabilità.",
         "unavailable_tower_title": "Torre non disponibile",
         "lock_puk_tips": "La scheda {sim} è stata bloccata a causa di tre inserimenti errati del codice PIN. Inserisci il codice PUK sul tuo telefono per sbloccarla.",
-        "network_type_tips2": "Se blocchi la Torre/Operatore, il tipo di rete verrà fissato e non potrà essere modificato."
+        "network_type_tips2": "Se blocchi la Torre/Operatore, il tipo di rete verrà fissato e non potrà essere modificato.",
+        "lock_operator_fail_msg": "Impossibile bloccare l'operatore",
+        "unlock_operator_fail_msg": "Impossibile sbloccare l'operatore"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -310,7 +312,8 @@
         "forward_email_tips": "Se vuoi inoltrare SMS via email, per favore imposta prima l'indirizzo email mittente; questo sarà l'indirizzo email da cui sarà spedito l'SMS.",
         "forward_tips": "Per evitare circolarità, l'inoltro SMS non verrà consentito quando il numero locale viene inserito qui. Inoltre, se il Modem non legge il numero della tua scheda SIM, l'inoltro SMS non verrà eseguito.",
         "forward_email_title": "Inoltra via Email",
-        "forward_sms_title": "inoltra via SMS"
+        "forward_sms_title": "inoltra via SMS",
+        "received": "已接收"
     },
     "modemmanage": {
         "title": "Gestione",
@@ -545,8 +548,6 @@
         "ip_type_tips": "Se la scheda SIM non supporta l'attuale impostazione del tipo di IP, o quando è selezionato IPv6 ma l'interruttore globale {ipv6} non è attivato, potrebbero verificarsi anomalie di connessione.",
         "ip_type_label": "Tipo di IP",
         "initializing_tips": "Il modem si sta inizializzando……",
-        "connecting_tips": "Alcune schede SIM hanno restrizioni d'uso particolari, come la necessità di un APN specifico. Se la tua scheda SIM non può essere registrata, contatta il tuo operatore di rete per verificare eventuali restrizioni speciali. {guide} \nSe il problema persiste, {log} e invialo a {addr}.",
-        "download_log": "下载日志",
         "unavailable_operator_title": "运营商不可用",
         "operator": "Operatore",
         "tower": "Torre",
@@ -555,7 +556,13 @@
         "connection_failed": "Connessione Fallita",
         "sim_operator": "{sim} Operatore",
         "sim_tower": "{sim} Torre",
-        "sim_unlock": "Sblocca {sim}"
+        "sim_unlock": "Sblocca {sim}",
+        "connecting_tips": "Alcune SIM hanno restrizioni d'uso particolari, come la necessità di un APN specifico. Se la tua SIM non riesce a registrarsi, contatta il tuo operatore di rete per verificare eventuali restrizioni speciali; controlla anche se la SIM ha dati disponibili. {guide} Se il problema persiste, {log} e inviali a {addr}.",
+        "download_log": "下载日志",
+        "lock_tower_fail_msg": "Impossibile bloccare la torre",
+        "unlock_tower_fail_msg": "Impossibile sbloccare la torre",
+        "modified_mtu_reboot_tips2": "MTU è stata modificata. Si prega di riavviare il dispositivo per renderla effettiva.",
+        "modified_mtu_reboot_tips": "Se viene modificato l'MTU, si prega di riavviare il dispositivo per rendere effettiva la modifica."
     },
     "sim": {
         "sender_label": "Mittente"

@@ -118,7 +118,8 @@
         "portal_auth_required_title": "Portal Authentication Required",
         "support_channel_tips": "The following Wi-Fi channels are supported. Please ensure that the Wi-Fi network you're connecting to uses one of them.",
         "auto_switching_without_network_tips": "When {mode} mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss.",
-        "band_conflict_tips": "For stable connection, when repeater is enabled, Guest Wi-Fi will be disabled and the 5GHz/6GHz Wi-Fi band will automatically match repeater. If your device does not reconnect automatically, please connect to Wi-Fi manually."
+        "band_conflict_tips": "For stable connection, when repeater is enabled, Guest Wi-Fi will be disabled and the 5GHz/6GHz Wi-Fi band will automatically match repeater. If your device does not reconnect automatically, please connect to Wi-Fi manually.",
+        "auto_resume_scan_tips": "The Internet is connected. To ensure wireless communication quality, the Repeater will not scan for available networks; it will automatically resume scanning once the Internet is disconnected. You can reconnect or switch to Wi-Fi network manually."
     },
     "modem": {
         "title": "Cellular",
@@ -246,13 +247,14 @@
         "no_sim_card": "No SIM Card",
         "sim_info_label": "{sim} Information",
         "airplane_mode_tips": "Airplane Mode is on, and cellular network is disabled.",
-        "dialing_exception_tips": "Please check your eSIM configuration in the {management} to {topUp} data. If the issue persists, check your SIM Card Settings or contact {addr}.",
         "download_esim_config_tips": "Please connect to the internet to download the eSIM configuration file.",
         "unlock_pin_count_tips": "Enter PIN to unlock SIM. {count} attempts remaining.",
         "network_type_tips": "Select 5G for faster speed (requires 5G signal) or 4G for stability.",
         "unavailable_tower_title": "Unavailable Tower",
         "lock_puk_tips": "The {sim} card has been locked due to three incorrect PIN code inputs. Please enter the PUK code on your phone to unlock it.",
-        "network_type_tips2": "If you lock the Tower/Operator, the network type will be fixed and cannot be changed."
+        "network_type_tips2": "If you lock the Tower/Operator, the network type will be fixed and cannot be changed.",
+        "lock_operator_fail_msg": "Failed to lock operator",
+        "unlock_operator_fail_msg": "Failed to unlock operator"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -546,8 +548,6 @@
         "ip_type_tips": "If the SIM card does not support the current IP Type setting, or when IPv6 is selected but the {ipv6} global switch is not turned on, it may result in dialling abnormalities.",
         "ip_type_label": "IP Type",
         "initializing_tips": "The modem is initializing……",
-        "connecting_tips": "Some SIM cards have special usage restrictions, such as requiring a specific APN. If your SIM card cannot be registered, please contact your network operator to check for any special restrictions. {guide} \nIf the issue persists, please {log} and send it to {addr}.",
-        "download_log": "download Log",
         "unavailable_operator_title": "Unavailable Operators",
         "operator": "Operator",
         "tower": "Tower",
@@ -556,7 +556,13 @@
         "connection_failed": "Connection Failed",
         "sim_operator": "{sim} Operator",
         "sim_tower": "{sim} Tower",
-        "sim_unlock": "{sim} Unlock"
+        "sim_unlock": "{sim} Unlock",
+        "connecting_tips": "Some SIM cards have special usage restrictions, such as requiring a specific APN. If your SIM card fails to register, please contact your network operator to check for any special restrictions; also check if the SIM card has available data. {guide} If the issue persists, please {log} and send them to {addr}.",
+        "download_log": "download the logs",
+        "lock_tower_fail_msg": "Failed to lock tower",
+        "unlock_tower_fail_msg": "Failed to unlock tower",
+        "modified_mtu_reboot_tips2": "MTU has been modified. Please reboot the device for it to take effect.",
+        "modified_mtu_reboot_tips": "If MTU is modified, please reboot the device for it to take effect."
     },
     "sim": {
         "sender_label": "Sender"

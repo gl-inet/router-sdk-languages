@@ -118,7 +118,8 @@
         "portal_auth_required_title": "需要進行入口認證",
         "support_channel_tips": "以下為支持的 Wi-Fi 通道，請確保您所連接的 Wi-Fi 網絡使用的通道是其中之一。",
         "auto_switching_without_network_tips": "啓用“{mode}”模式後，路由器在非中繼模式下聯網成功後不會自動掃描網路，只會在無網路時嘗試自動切換到其他保存的網路，這樣可以避免通信數據包丟失。",
-        "band_conflict_tips": "為保證網絡連接穩定性，中繼啟用時，訪客網絡將禁用，且 5GHz/6GHz Wi-Fi 頻段跟隨中繼網絡。 若設備未能自動連接，請手動選擇該 Wi-Fi 網絡。"
+        "band_conflict_tips": "為保證網絡連接穩定性，中繼啟用時，訪客網絡將禁用，且 5GHz/6GHz Wi-Fi 頻段跟隨中繼網絡。 若設備未能自動連接，請手動選擇該 Wi-Fi 網絡。",
+        "auto_resume_scan_tips": "互聯網已連接，為了確保無線通訊質量，中繼將暫停掃描可用網絡； 一旦互聯網斷開，它將自動恢復掃描。 您可以手動重連或切換Wi-Fi網絡。"
     },
     "modem": {
         "title": "行動網路",
@@ -246,13 +247,14 @@
         "no_sim_card": "無SIM卡",
         "sim_info_label": "{sim} 資訊",
         "airplane_mode_tips": "飛行模式已開啟，蜂窩網路已停用。",
-        "dialing_exception_tips": "請在{management}中檢查您的eSIM配置以{topUp}數據。若問題持續存在，請檢查您的SIM卡設定或聯繫{addr}。",
-        "download_esim_config_tips": "請連接網際網路以下載eSIM設定檔。",
+        "download_esim_config_tips": "請連接網際網路下載 eSIM 設定檔。",
         "unlock_pin_count_tips": "輸入PIN碼以解鎖SIM卡。剩餘{count}次嘗試。",
         "network_type_tips": "選擇5G以獲得較快速度（需5G信號）或選擇4G以確保穩定性。",
         "unavailable_tower_title": "不可用基站",
         "lock_puk_tips": "PIN 碼輸入錯誤 3 次，{sim} 卡已被鎖定，請在您的手機上輸入 PUK 碼解鎖。",
-        "network_type_tips2": "若鎖定基站/運營商，網絡類型將被固定且無法更改。"
+        "network_type_tips2": "若鎖定基站/運營商，網絡類型將被固定且無法更改。",
+        "lock_operator_fail_msg": "鎖定運營商失敗",
+        "unlock_operator_fail_msg": "解鎖運營商失敗"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -546,8 +548,6 @@
         "ip_type_tips": "如果SIM卡不支持當前的IP類型設置，或者選擇了IPv6但{ipv6}全局開關未打開，可能會導致撥號異常。",
         "ip_type_label": "IP類型",
         "initializing_tips": "蜂窩模組正在初始化……",
-        "connecting_tips": "某些SIM卡有特殊的使用限制，例如需要特定的APN。若您的SIM卡無法註冊，請聯繫您的網路運營商檢查是否有特殊限制。{guide} \n若問題持續存在，請{log}並將其發送至{addr}。",
-        "download_log": "下載日誌",
         "unavailable_operator_title": "不可用運營商",
         "operator": "运营商",
         "tower": "基站",
@@ -556,7 +556,13 @@
         "connection_failed": "連接失敗",
         "sim_operator": "{sim} 运营商",
         "sim_tower": "{sim} 基站",
-        "sim_unlock": "{sim} 解鎖"
+        "sim_unlock": "{sim} 解鎖",
+        "connecting_tips": "某些 SIM 卡有特殊使用限制，例如需要特定 APN。若您的 SIM 卡無法註冊，請聯繫網路運營商檢查是否有特殊限制；同時請檢查 SIM 卡是否有可用流量。{guide} 若問題仍然存在，請{log}並發送至{addr}。",
+        "download_log": "下載日誌",
+        "lock_tower_fail_msg": "鎖定基站失敗",
+        "unlock_tower_fail_msg": "解鎖基站失敗",
+        "modified_mtu_reboot_tips2": "MTU 已修改，請重啟設備以使其生效。",
+        "modified_mtu_reboot_tips": "如果修改了MTU，請重啟設備使其生效。"
     },
     "sim": {
         "sender_label": "發件人"

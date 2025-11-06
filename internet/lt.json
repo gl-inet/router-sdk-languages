@@ -125,13 +125,14 @@
         "no_sim_card": "Nėra SIM kortelės",
         "sim_info_label": "{sim} informacija",
         "airplane_mode_tips": "Lėktuvo režimas įjungtas, o mobilusis tinklas išjungtas.",
-        "dialing_exception_tips": "Patikrinkite savo eSIM konfigūraciją {management}, kad {topUp} duomenis. Jei problema išlieka, patikrinkite SIM kortelės nustatymus arba susisiekite su {addr}.",
         "download_esim_config_tips": "Prisijunkite prie interneto, kad atsisiųstumėte eSIM konfigūracijos failą.",
         "unlock_pin_count_tips": "Įveskite PIN, kad atrakintumėte SIM kortelę. Liko {count} bandymai.",
         "network_type_tips": "Pasirinkite 5G, kad pasiektumėte didesnį greitį (reikalingas 5G signalas), arba 4G, kad užtikrintumėte stabilumą.",
         "unavailable_tower_title": "Nepasiekiamos bokštas",
         "lock_puk_tips": "{sim} kortelė buvo užrakinta dėl trijų neteisingų PIN kodo įvedimų. Norėdami ją atrakinti, įveskite PUK kodą savo telefone.",
-        "network_type_tips2": "Jei užrakinsite bokštą/operatorių, tinklo tipas bus fiksuotas ir negalės būti keičiamas."
+        "network_type_tips2": "Jei užrakinsite bokštą/operatorių, tinklo tipas bus fiksuotas ir negalės būti keičiamas.",
+        "lock_operator_fail_msg": "Nepavyko užrakinti operatoriaus",
+        "unlock_operator_fail_msg": "Nepavyko atblokuoti operatoriaus"
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -247,7 +248,8 @@
         "portal_auth_required_title": "Reikalingas portalo autentifikavimas",
         "support_channel_tips": "Šie „Wi-Fi“ kanalai yra palaikomi. Įsitikinkite, kad „Wi-Fi“ tinklas prie kurio Jūs jungiatės, naudoja vieną iš jų.",
         "auto_switching_without_network_tips": "Kai {mode} veiksena yra įjungta, maršrutizatorius automatiškai neskaitys tinklų, kai jis sėkmingai prisijungia prie tinklo ne kartotuvo veiksenoje, ir bandys automatiškai perjungti tik į kitus išsaugotus tinklus, kai maršrutizatorius neturi ryšio, kas gali išvengti (duomenų) paketų praradimo.",
-        "band_conflict_tips": "Siekiant stabilaus ryšio, kai kartotuvas yra įjungtas, svečių „Wi-Fi“ bus išjungtas, o 5 GHz/6 GHz „Wi-Fi“ juosta automatiškai atitiks kartotuvo dažnį. Jei jūsų įrenginys neprisijungia automatiškai, prisijunkite prie „Wi-Fi“ rankiniu būdu."
+        "band_conflict_tips": "Siekiant stabilaus ryšio, kai kartotuvas yra įjungtas, svečių „Wi-Fi“ bus išjungtas, o 5 GHz/6 GHz „Wi-Fi“ juosta automatiškai atitiks kartotuvo dažnį. Jei jūsų įrenginys neprisijungia automatiškai, prisijunkite prie „Wi-Fi“ rankiniu būdu.",
+        "auto_resume_scan_tips": "Internetas yra prijungtas. Siekiant užtikrinti belaidio ryšio kokybę, kartotuvas neskaitys prieinamų tinklų; jis automatiškai atnaujins skenavimą, kai interneto ryšys bus nutrauktas. Galite iš naujo prisijungti arba rankiniu būdu perjungti į „Wi-Fi“ tinklą."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
@@ -546,8 +548,6 @@
         "ip_type_tips": "Jei SIM kortelė nepalaiko dabartinio IP tipo nustatymo arba kai pasirenkamas IPv6, bet {ipv6} visuotinis komutatorius nėra įjungtas, tai gali sukelti skambinimo sutrikimus.",
         "ip_type_label": "IP tipas",
         "initializing_tips": "Modemas yra inicijuojamas……",
-        "connecting_tips": "Kai kurios SIM kortelės turi specialius naudojimo apribojimus, pavyzdžiui, reikalauja konkretaus APN. Jei jūsų SIM kortelė negali būti užregistruota, susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus. {guide} \nJei problema išlieka, prašome {log} ir atsiųskite jį {addr}.",
-        "download_log": "Atsisiųsti žurnalą",
         "unavailable_operator_title": "Nepasiekiamos operatoriai",
         "operator": "Operator",
         "tower": "Tower",
@@ -556,7 +556,13 @@
         "connection_failed": "Ryšys nepavyko",
         "sim_operator": "{sim} operatorius",
         "sim_tower": "{sim} bokštas",
-        "sim_unlock": "{sim} Atrakinti"
+        "sim_unlock": "{sim} Atrakinti",
+        "connecting_tips": "Kai kurios SIM kortelės turi specialius naudojimo apribojimus, pavyzdžiui, reikalauja konkretaus APN. Jei jūsų SIM kortelė nepavyksta registruoti, susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus; taip pat patikrinkite, ar SIM kortelėje yra prieinamų duomenų. {guide} Jei problema išlieka, prašome {log} ir atsiųskite juos {addr}.",
+        "download_log": "atsisiųsti žurnalus",
+        "lock_tower_fail_msg": "Nepavydo užrakinti bokšto",
+        "unlock_tower_fail_msg": "Nepavyko atrakinti bokšto",
+        "modified_mtu_reboot_tips2": "MTU buvo pakeistas. Norint, kad pakeitimai įsigaliotų, reikia paleisti įrenginį iš naujo.",
+        "modified_mtu_reboot_tips": "Jei „MTU“ yra modifikuotas, prašome paleisti įrenginį iš naujo, kad jis įsigaliotų."
     },
     "sim": {
         "sender_label": "Siuntėjas"

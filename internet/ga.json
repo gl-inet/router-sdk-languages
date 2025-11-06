@@ -57,8 +57,6 @@
         "reflash_warning_msg": "Ná hathnuaigh an leathanach.",
         "not_use_special_label": "Ná hÚsáid",
         "manual_auto_lock_operator_label": "Lámhaigh-Uathoibríoch",
-        "connecting_tips": "Tá srianta úsáide speisialta ag baint le roinnt cártaí SIM, amhail APN ar leith a éileamh. Mura féidir do chárta SIM a chlárú, déan teagmháil le d’oibreoir líonra le seiceáil an bhfuil aon srianta speisialta ann. {guide}\nMá leanann an fhadhb ar aghaidh, {log} agus seol chuig {addr} í.",
-        "download_log": "íoslódáil Loga",
         "unavailable_operator_title": "Oibreoirí Gan Fáil",
         "operator": "Oibreoir",
         "tower": "Túr",
@@ -67,7 +65,13 @@
         "connection_failed": "Theip ar an gCeangal",
         "sim_operator": "{sim} Oibreoir",
         "sim_tower": "{sim} Túr",
-        "sim_unlock": "{sim} Díghlasáil"
+        "sim_unlock": "{sim} Díghlasáil",
+        "connecting_tips": "Tá srianta úsáide speisialta ag baint le roinnt cártaí SIM, amhail APN ar leith a éileamh. Mura n-éiríonn le do chárta SIM clárú, déan teagmháil le d’oibreoir líonra le seiceáil an bhfuil aon srianta speisialta ann; seiceáil freisin an bhfuil sonraí ar fáil ar an gcárta SIM. {guide} Má leanann an fhadhb ar aghaidh, {log} agus seol chuig {addr} iad.",
+        "download_log": "íoslódáil na logaí",
+        "lock_tower_fail_msg": "Theip ar an túr a ghlasáil",
+        "unlock_tower_fail_msg": "Theip ar an túr a dhíghlasáil",
+        "modified_mtu_reboot_tips2": "Tá MTU modhnaithe. Déan an gléas a atosú chun go n-éireoidh leis.",
+        "modified_mtu_reboot_tips": "Má athraítear MTU, athbhútáil an gléas le go dtiocfaidh sé i bhfeidhm."
     },
     "sms": {
         "del_sms": "Scrios",
@@ -121,7 +125,7 @@
         "from": "Ó",
         "sent": "Seolta",
         "sending": "Ag seoladh",
-        "received": "Faightear"
+        "received": "Faighte"
     },
     "cable": {
         "title": "Ethernet",
@@ -237,7 +241,8 @@
         "regionally_allowed_channel_tips": "Ní féidir leis an ródaire seo ach comharthaí cainéil Wi-Fi a chuardach a cheadaítear sa réigiún reatha.",
         "portal_auth_required_title": "Fíordheimhniú Tairseach Riachtanach",
         "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint.",
-        "band_conflict_tips": "Chun nascadh cobhsaí, nuair a chuirtear an athsheachadán i bhfeidhm, díchumasaítear an Wi-Fi Aoi agus déanfaidh an mhuinchille Wi-Fi 5GHz/6GHz meaitseáil go huathoibríoch leis an athsheachadán. Mura ndéanann do ghléas athenascadh go huathoibríoch, déan ceangal le Wi-Fi de láimh."
+        "band_conflict_tips": "Chun nascadh cobhsaí, nuair a chuirtear an athsheachadán i bhfeidhm, díchumasaítear an Wi-Fi Aoi agus déanfaidh an mhuinchille Wi-Fi 5GHz/6GHz meaitseáil go huathoibríoch leis an athsheachadán. Mura ndéanann do ghléas athenascadh go huathoibríoch, déan ceangal le Wi-Fi de láimh.",
+        "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht na cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheoltóir scanadh le haghaidh líonraí atá ar fáil; leanfaidh sé ar aghaidh ag scanadh go huathoibríoch a luaithe a dhícheanglaítear an tIdirlíon. Is féidir leat athcheangal nó aistriú chuig líonra Wi-Fi de láimh."
     },
     "modem": {
         "manually_tips": "Ionchur Láimhe",
@@ -365,13 +370,14 @@
         "locked": "Faoi ghlas",
         "no_sim_card": "Gan Cárta SIM",
         "airplane_mode_tips": "Tá Mód Eitleáin ar siúl, agus tá an líonra ceallach díchumasaithe.",
-        "dialing_exception_tips": "Seiceáil cumraíocht do chárta eSIM sna sonraí {management} go {topUp}. Má leanann an fhadhb, seiceáil Socruithe do Chárta SIM nó déan teagmháil le {addr}.",
         "download_esim_config_tips": "Déan ceangal leis an idirlíon chun an comhad cumraíochta eSIM a íoslódáil.",
         "unlock_pin_count_tips": "Iontráil an PIN chun an SIM a dhíghlasáil. {count} iarrachtaí fágtha.",
         "network_type_tips": "Roghnaigh 5G le haghaidh luas níos tapúla (tá comhartha 5G ag teastáil) nó 4G le haghaidh cobhsaíochta.",
         "unavailable_tower_title": "Túr Gan Fáil",
         "lock_puk_tips": "Tá an cárta {sim} glasáilte mar gheall ar thrí ionchur míchearta ar an gcód PIN. Cuir isteach an cód PUK ar do ghuthán le do thoil chun é a dhíghlasáil.",
-        "network_type_tips2": "Má ghlasálann tú an Túr/Oibreoir, socrófar an cineál líonra agus ní féidir é a athrú."
+        "network_type_tips2": "Má ghlasálann tú an Túr/Oibreoir, socrófar an cineál líonra agus ní féidir é a athrú.",
+        "lock_operator_fail_msg": "Theip ar an oibreoir a ghlasáil",
+        "unlock_operator_fail_msg": "Theip ar an oibreoir a dhíghlasáil"
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",

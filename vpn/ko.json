@@ -309,8 +309,8 @@
         "wg_urbanshield_dev_limit_tips": "장치 제한에 도달했습니다. 계속하려면 하나의 장치에서 로그아웃하세요.",
         "expired_at_tips": "만료일: {time}",
         "wg_common_not_connet_tips": "VPN 서버에 연결할 수 없는 경우 WireGuard 키가 만료되었을 수 있습니다. WireGuard 키를 업데이트할 수 있습니다.",
-        "wg_windcribe_limit_tips": "WireGuard 키 생성에 실패했습니다. 각 Windscribe 계정은 동시에 최대 5개의 키를 보유할 수 있습니다. {provider}로 이동하여 자격 증명을 삭제해 주세요.",
-        "wg_api_request_too_frequent_tips": "API 요청이 너무 빈번하여 {provider}에 의해 제한되었습니다. 나중에 다시 시도해 주세요."
+        "wg_api_request_too_frequent_tips": "API 요청이 너무 빈번하여 {provider}에 의해 제한되었습니다. 나중에 다시 시도해 주세요.",
+        "wg_windscribe_limit_tips": "WireGuard 키 생성에 실패했습니다. 각 Windscribe 계정은 동시에 최대 5개의 키를 보유할 수 있습니다. {provider}로 이동하여 자격 증명을 삭제해 주세요."
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",

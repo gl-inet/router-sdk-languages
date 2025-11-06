@@ -6,6 +6,7 @@
         "exit_node_label": "出口ノード",
         "log_title": "Torログ",
         "manual_label": "カスタム出口ノード",
-        "use_tips": "Torが有効化されている場合、VPN、DNS、IPv6、ADGuard Homeの機能は正しく動作しません。"
+        "use_tips": "Torが有効化されている場合、VPN、DNS、IPv6、ADGuard Homeの機能は正しく動作しません。",
+        "use_install_tips": "Torが有効になっている場合、以下の機能は正常に動作しません：{feature}。"
     }
 }

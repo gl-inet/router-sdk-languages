@@ -309,8 +309,8 @@
         "wg_urbanshield_dev_limit_tips": "Досягнуто ліміт пристроїв. Будь ласка, вийдіть з одного, щоб продовжити.",
         "expired_at_tips": "Термін дії закінчився {time}",
         "wg_common_not_connet_tips": "Якщо не вдається підключитися до VPN-сервера, ключ WireGuard, можливо, закінчився. Ви можете оновити ключ WireGuard.",
-        "wg_windcribe_limit_tips": "Не вдалося згенерувати ключ WireGuard. Кожен обліковий запис Windscribe може мати максимум п'ять ключів одночасно. Будь ласка, перейдіть до {provider}, щоб видалити облікові дані.",
-        "wg_api_request_too_frequent_tips": "Запити API надто часті та обмежені постачальником {provider}. Будь ласка, спробуйте пізніше."
+        "wg_api_request_too_frequent_tips": "Запити API надто часті та обмежені постачальником {provider}. Будь ласка, спробуйте пізніше.",
+        "wg_windscribe_limit_tips": "Не вдалося згенерувати ключ WireGuard. Кожен обліковий запис Windscribe може мати максимум п'ять ключів одночасно. Будь ласка, перейдіть до {provider}, щоб видалити облікові дані."
     },
     "menu_wgserver": "WireGuard сервер",
     "menu_ovpnserver": "OpenVPN-сервер",

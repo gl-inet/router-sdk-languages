@@ -118,7 +118,8 @@
         "portal_auth_required_title": "Authentification par portail requise",
         "support_channel_tips": "Les canaux Wi-Fi suivants sont pris en charge. Veuillez vous assurer que le réseau Wi-Fi auquel vous vous connectez utilise l'un d'entre eux.",
         "auto_switching_without_network_tips": "Lorsque le mode {mode} est activé, le routeur ne scanne pas automatiquement les réseaux lorsqu'il est connecté avec succès en mode non-répéteur, et ne tente de basculer automatiquement vers d'autres réseaux enregistrés que lorsque le routeur est sans réseau, ce qui permet d'éviter la perte de paquets de communication.",
-        "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, le Wi-Fi invité sera désactivé et la bande Wi-Fi 5 GHz/6 GHz s'alignera automatiquement sur celle du répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi."
+        "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, le Wi-Fi invité sera désactivé et la bande Wi-Fi 5 GHz/6 GHz s'alignera automatiquement sur celle du répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi.",
+        "auto_resume_scan_tips": "L'Internet est connecté. Pour garantir la qualité de la communication sans fil, le Répéteur ne scannera pas les réseaux disponibles ; il reprendra automatiquement le scan une fois l'Internet déconnecté. Vous pouvez vous reconnecter ou passer manuellement au réseau Wi-Fi."
     },
     "modem": {
         "title": "Cellulaire",
@@ -246,13 +247,14 @@
         "locked": "Verrouillé",
         "no_sim_card": "Aucune carte SIM",
         "airplane_mode_tips": "Le mode avion est activé et la connexion mobile est désactivée.",
-        "dialing_exception_tips": "Veuillez vérifier votre configuration eSIM dans le {management} pour {topUp} les données. Si le problème persiste, vérifiez vos paramètres de carte SIM ou contactez {addr}.",
         "download_esim_config_tips": "Veuillez vous connecter à internet pour télécharger le fichier de configuration eSIM.",
         "unlock_pin_count_tips": "Entrez le code PIN pour déverrouiller la carte SIM. {count} tentatives restantes.",
         "network_type_tips": "Sélectionnez 5G pour une vitesse plus rapide (nécessite un signal 5G) ou 4G pour une meilleure stabilité.",
         "unavailable_tower_title": "Tour indisponible",
         "lock_puk_tips": "La carte {sim} a été verrouillée suite à trois saisies incorrectes du code PIN. Veuillez saisir le code PUK sur votre téléphone pour la déverrouiller.",
-        "network_type_tips2": "Si vous verrouillez la Tour/Opérateur, le type de réseau sera fixé et ne pourra pas être modifié."
+        "network_type_tips2": "Si vous verrouillez la Tour/Opérateur, le type de réseau sera fixé et ne pourra pas être modifié.",
+        "lock_operator_fail_msg": "Échec du verrouillage de l'opérateur",
+        "unlock_operator_fail_msg": "Échec du déverrouillage de l'opérateur"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -546,8 +548,6 @@
         "ip_type_tips": "Si la carte SIM ne prend pas en charge le réglage actuel du type d'IP, ou lorsque l'IPv6 est sélectionné mais que le switch global {ipv6} n'est pas activé, cela peut entraîner des anomalies de numérotation.",
         "ip_type_label": "Type IP",
         "initializing_tips": "Le modem est en cours d'initialisation……",
-        "connecting_tips": "Certaines cartes SIM ont des restrictions d'utilisation particulières, comme l'exigence d'un APN spécifique. Si votre carte SIM ne peut pas être enregistrée, veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions spéciales. {guide}\nSi le problème persiste, veuillez {log} et l'envoyer à {addr}.",
-        "download_log": "Télécharger le journal",
         "unavailable_operator_title": "Opérateurs non disponibles",
         "operator": "Opérateur",
         "tower": "Tour",
@@ -556,7 +556,13 @@
         "connection_failed": "Connexion échouée",
         "sim_operator": "{sim} Opérateur",
         "sim_tower": "{sim} Tour",
-        "sim_unlock": "{sim} Déverrouiller"
+        "sim_unlock": "{sim} Déverrouiller",
+        "connecting_tips": "Certaines cartes SIM ont des restrictions d'utilisation particulières, comme l'exigence d'un APN spécifique. Si votre carte SIM ne parvient pas à s'enregistrer, veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions spéciales ; vérifiez également si la carte SIM dispose de données disponibles. {guide} Si le problème persiste, veuillez {log} et les envoyer à {addr}.",
+        "download_log": "télécharger les journaux",
+        "lock_tower_fail_msg": "Échec du verrouillage de la tour",
+        "unlock_tower_fail_msg": "Échec du déverrouillage de la tour",
+        "modified_mtu_reboot_tips2": "La MTU a été modifiée. Veuillez redémarrer l'appareil pour qu'elle prenne effet.",
+        "modified_mtu_reboot_tips": "Si le MTU est modifié, veuillez redémarrer l'appareil pour qu'il prenne effet."
     },
     "sim": {
         "sender_label": "Expéditeur"

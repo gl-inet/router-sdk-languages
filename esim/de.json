@@ -39,7 +39,11 @@
         "get_card_tips": "Keine vorhanden? Wählen Sie unten Ihre Region aus, um eine kompatible Karte zu erhalten.",
         "contact_support_tips": "Für Hilfe kontaktieren Sie uns unter {addr}.",
         "delete_esim_profile_tips": "Wenn Sie das eSIM-Profil löschen, kann es möglicherweise nicht erneut heruntergeladen werden. Sind Sie sicher, dass Sie es löschen möchten?",
-        "esim_os_version": "eSIM-Betriebssystemversion"
+        "esim_os_version": "eSIM-Betriebssystemversion",
+        "disable_fail_msg": "Fehler beim Deaktivieren. Vorgang wird vorübergehend nicht unterstützt.",
+        "delete_fail_msg": "Löschen fehlgeschlagen. Vorgang wird vorübergehend nicht unterstützt.",
+        "enable_fail_msg": "Fehler beim Aktivieren. Vorgang wird vorübergehend nicht unterstützt.",
+        "system_busy_msg": "System ist beschäftigt. Bitte versuchen Sie es später erneut."
     },
     "menu_esim": "eSIM-Verwaltung"
 }

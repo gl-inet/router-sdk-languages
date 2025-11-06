@@ -118,7 +118,8 @@
         "portal_auth_required_title": "Portal-Authentifizierung erforderlich",
         "support_channel_tips": "Folgende WLAN-Kanäle werden unterstützt. Bitte stellen Sie sicher, dass das WLAN-Netzwerk, mit dem Sie sich verbinden, einen davon verwendet.",
         "auto_switching_without_network_tips": "Wenn der {mode}-Modus aktiviert ist, wird der Router im Nicht-Repeater-Modus keine automatische Netzwerksuche durchführen, nachdem er erfolgreich vernetzt wurde. Er versucht nur dann, automatisch auf andere gespeicherte Netzwerke umzuschalten, wenn keine Netzwerkverbindung besteht. Dies kann Paketverluste in der Kommunikation vermeiden.",
-        "band_conflict_tips": "Für eine stabile Verbindung wird, wenn der Repeater aktiviert ist, das Gast-WLAN deaktiviert und das 5-GHz-/6-GHz-WLAN-Band automatisch an den Repeater angepasst. Sollte Ihr Gerät sich nicht automatisch neu verbinden, verbinden Sie sich bitte manuell mit dem WLAN."
+        "band_conflict_tips": "Für eine stabile Verbindung wird, wenn der Repeater aktiviert ist, das Gast-WLAN deaktiviert und das 5-GHz-/6-GHz-WLAN-Band automatisch an den Repeater angepasst. Sollte Ihr Gerät sich nicht automatisch neu verbinden, verbinden Sie sich bitte manuell mit dem WLAN.",
+        "auto_resume_scan_tips": "Das Internet ist verbunden. Um die Qualität der drahtlosen Kommunikation zu gewährleisten, wird der Repeater keine verfügbaren Netzwerke scannen; die Suche wird automatisch fortgesetzt, sobald die Internetverbindung unterbrochen wird. Sie können sich manuell erneut verbinden oder zu einem anderen WLAN-Netzwerk wechseln."
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -212,7 +213,7 @@
         "cellular_desc": "Die mobile Schnittstelle wird sich erneut verbinden, um auf den gesperrten Funkmast zu wechseln.",
         "tower_locked_tips": "Funkmast gesperrt",
         "reboot_buildin_modem_btn": "Eingebautes Modem neu starten",
-        "lock_tower_title": "Funkmast sperren",
+        "lock_tower_title": "Funkmast fixieren",
         "history_signal_title": "Historische Signalaufzeichnung",
         "scan_tower_msg": "Es kann ein paar Minuten dauern. Bitte warten...",
         "available_tower_title": "Verfügbare Funkmasten",
@@ -246,13 +247,14 @@
         "locked": "Gesperrt",
         "no_sim_card": "Keine SIM-Karte",
         "airplane_mode_tips": "Der Flugmodus ist aktiviert und das Mobilfunknetz ist deaktiviert.",
-        "dialing_exception_tips": "Bitte überprüfen Sie Ihre eSIM-Konfiguration im {management}, um Daten {topUp}. Wenn das Problem weiterhin besteht, überprüfen Sie Ihre SIM-Karten-Einstellungen oder kontaktieren Sie {addr}.",
         "download_esim_config_tips": "Bitte verbinden Sie sich mit dem Internet, um die eSIM-Konfigurationsdatei herunterzuladen.",
         "unlock_pin_count_tips": "Geben Sie die PIN ein, um die SIM-Karte zu entsperren. Noch {count} Versuche verbleibend.",
         "network_type_tips": "Wählen Sie 5G für höhere Geschwindigkeit (erfordert 5G-Signal) oder 4G für Stabilität.",
         "unavailable_tower_title": "Nicht verfügbarer Turm",
         "lock_puk_tips": "Die {sim}-Karte wurde aufgrund von drei falschen PIN-Eingaben gesperrt. Bitte geben Sie den PUK-Code auf Ihrem Telefon ein, um sie zu entsperren.",
-        "network_type_tips2": "Wenn Sie den Turm/Operator sperren, wird der Netzwerktyp festgelegt und kann nicht geändert werden."
+        "network_type_tips2": "Wenn Sie den Turm/Operator sperren, wird der Netzwerktyp festgelegt und kann nicht geändert werden.",
+        "lock_operator_fail_msg": "Fehler beim Sperren des Betreibers",
+        "unlock_operator_fail_msg": "Fehler beim Entsperren des Betreibers"
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -513,7 +515,7 @@
     "cellular": {
         "tower_locked_label": "{sim} Turm gesperrt",
         "operator_locked_label": "{sim} Betreiber gesperrt",
-        "lock_operator_btn": "Bediener sperren",
+        "lock_operator_btn": "Anbieter fixieren",
         "lock_tower_disabled_tip": "Da der aktuelle Kartenschlitz an den Betreiber gesperrt ist, ist die Funktion, die den aktuellen Kartenschlitz an die Basisstation sperrt, deaktiviert.",
         "scan_tower_warning_tips": "Es wird einige Minuten dauern, den Turm zu scannen. Sind Sie sicher, dass Sie fortfahren möchten?",
         "lock_operation_mode_label": "Sperrmodus",
@@ -546,8 +548,6 @@
         "ip_type_tips": "Wenn die SIM-Karte die aktuelle IP-Typ-Einstellung nicht unterstützt oder wenn IPv6 ausgewählt ist, aber der {ipv6} globale Schalter nicht eingeschaltet ist, kann dies zu Wählanomalien führen.",
         "ip_type_label": "IP-Typ",
         "initializing_tips": "Das Modem wird initialisiert……",
-        "connecting_tips": "Einige SIM-Karten unterliegen besonderen Nutzungseinschränkungen, wie z.B. der Verwendung eines bestimmten APN. Falls Ihre SIM-Karte keine Netzregistrierung durchführen kann, wenden Sie sich bitte an Ihren Netzbetreiber, um mögliche besondere Einschränkungen zu überprüfen. {guide} \nWenn das Problem weiterhin besteht, erstellen Sie bitte {log} und senden Sie es an {addr}.",
-        "download_log": "Log herunterladen",
         "unavailable_operator_title": "Nicht verfügbare Betreiber",
         "operator": "Betreiber",
         "tower": "Turm",
@@ -556,7 +556,13 @@
         "connection_failed": "Verbindung fehlgeschlagen",
         "sim_operator": "{sim} Betreiber",
         "sim_tower": "{sim} Turm",
-        "sim_unlock": "{sim} entsperren"
+        "sim_unlock": "{sim} entsperren",
+        "connecting_tips": "Einige SIM-Karten unterliegen besonderen Nutzungseinschränkungen, wie etwa der Anforderung eines bestimmten APN. Falls Ihre SIM-Karte keine Verbindung herstellen kann, wenden Sie sich bitte an Ihren Netzbetreiber, um mögliche besondere Einschränkungen zu prüfen; überprüfen Sie außerdem, ob die SIM-Karte über verfügbare Daten verfügt. {guide} Sollte das Problem weiterhin bestehen, erstellen Sie bitte {log} und senden Sie diese an {addr}.",
+        "download_log": "Laden Sie die Protokolle herunter",
+        "lock_tower_fail_msg": "Fehler beim Sperren des Turms",
+        "unlock_tower_fail_msg": "Fehler beim Entsperren des Turms",
+        "modified_mtu_reboot_tips2": "MTU wurde geändert. Bitte starten Sie das Gerät neu, damit die Änderung wirksam wird.",
+        "modified_mtu_reboot_tips": "Wenn die MTU geändert wird, starten Sie das Gerät bitte neu, damit die Änderung wirksam wird."
     },
     "sim": {
         "sender_label": "Absender"

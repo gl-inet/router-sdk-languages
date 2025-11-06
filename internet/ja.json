@@ -118,7 +118,8 @@
         "portal_auth_required_title": "ポータル認証が必要",
         "support_channel_tips": "以下のWi-Fiチャンネルがサポートされています。接続するWi-Fiネットワークがこれらのいずれかを使用しているか確認してください。",
         "auto_switching_without_network_tips": "{mode}モードが有効になっている場合、ルーターは非リピーターモードでネットワークに正常に接続すると、自動的にネットワークをスキャンしません。ルーターがネットワークに接続されていない場合にのみ、保存されている他のネットワークへの自動切り替えを試みます。これにより、通信パケットの損失を防ぐことができます。",
-        "band_conflict_tips": "安定した接続を維持するため、リピーター機能が有効になると、ゲストWi-Fiは無効化され、5GHz/6GHz Wi-Fiバンドは自動的にリピーター設定に合わせられます。お使いの端末が自動的に再接続しない場合は、手動でWi-Fiに接続してください。"
+        "band_conflict_tips": "安定した接続を維持するため、リピーター機能が有効になると、ゲストWi-Fiは無効化され、5GHz/6GHz Wi-Fiバンドは自動的にリピーター設定に合わせられます。お使いの端末が自動的に再接続しない場合は、手動でWi-Fiに接続してください。",
+        "auto_resume_scan_tips": "インターネットに接続されています。無線通信の品質を確保するため、リピーターは利用可能なネットワークのスキャンを停止します。インターネット接続が切断されると自動的にスキャンを再開します。手動で再接続するか、Wi-Fiネットワークに切り替えることができます。"
     },
     "modem": {
         "title": "セルラー",
@@ -246,13 +247,14 @@
         "no_sim_card": "SIMカードがありません",
         "sim_info_label": "{sim}情報",
         "airplane_mode_tips": "機内モードがオンになっており、セルラーネットワークは無効になっています。",
-        "dialing_exception_tips": "{management}でeSIMの設定を確認し、データを{topUp}してください。問題が解決しない場合は、SIMカード設定を確認するか、{addr}にお問い合わせください。",
         "download_esim_config_tips": "インターネットに接続してeSIM設定ファイルをダウンロードしてください。",
         "unlock_pin_count_tips": "SIMをアンロックするにはPINを入力してください。残り{count}回試行できます。",
         "network_type_tips": "高速通信のため5Gを選択（5G信号が必要）、または安定性のため4Gを選択してください。",
         "unavailable_tower_title": "利用不可タワー",
         "lock_puk_tips": "{PUK}コードを3回間違えて入力したため、{sim}カードがロックされました。携帯電話でPUKコードを入力してロックを解除してください。",
-        "network_type_tips2": "タワー/オペレーターをロックすると、ネットワークタイプが固定され、変更できなくなります。"
+        "network_type_tips2": "タワー/オペレーターをロックすると、ネットワークタイプが固定され、変更できなくなります。",
+        "lock_operator_fail_msg": "オペレータのロックに失敗しました",
+        "unlock_operator_fail_msg": "オペレーターのロック解除に失敗しました"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -546,8 +548,6 @@
         "ip_type_tips": "SIMカードがご利用のIPタイプ設定をサポートしていない場合、またはIPv6が選択されているのに{ipv6}グローバルスイッチがオンになっていない場合、ダイヤル異常が発生する可能性があります。",
         "ip_type_label": "IPタイプ",
         "initializing_tips": "モデムの初期化中……",
-        "connecting_tips": "一部のSIMカードには、特定のAPNの使用など特別な利用制限があります。SIMカードが登録できない場合は、ネットワーク事業者に連絡して特別な制限がないか確認してください。{guide}\n問題が解決しない場合は、{log}を取得し、{addr}に送信してください。",
-        "download_log": "ログをダウンロード",
         "unavailable_operator_title": "利用不可な事業者",
         "operator": "事業者",
         "tower": "タワー",
@@ -556,7 +556,13 @@
         "connection_failed": "接続に失敗しました",
         "sim_operator": "{sim} 事業者",
         "sim_tower": "{sim} タワー",
-        "sim_unlock": "{sim} アンロック"
+        "sim_unlock": "{sim} アンロック",
+        "connecting_tips": "一部のSIMカードには特定のAPNの設定が必要など、特別な使用制限があります。SIMカードの登録に失敗した場合は、ネットワーク事業者に連絡して特別な制限がないか確認してください。また、SIMカードに利用可能なデータが残っているかも確認してください。{guide} 問題が解決しない場合は、{log}を取得して{addr}に送信してください。",
+        "download_log": "ログをダウンロード",
+        "lock_tower_fail_msg": "タワーのロックに失敗しました",
+        "unlock_tower_fail_msg": "タワーのロック解除に失敗しました",
+        "modified_mtu_reboot_tips2": "MTUが変更されました。有効にするにはデバイスをリブートしてください。",
+        "modified_mtu_reboot_tips": "MTUを変更した場合は、デバイスをリブートして変更を有効にしてください。"
     },
     "sim": {
         "sender_label": "送信者"

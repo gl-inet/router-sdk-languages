@@ -18,7 +18,7 @@
         "wg_surfshark_limit_tips": "Tá an líon uasta naisc sroichte agat, téigh chuig {provider} le do thoil chun na naisc nach bhfuil á n-úsáid agat a scriosadh.",
         "inp_domain_url_label": "Ionchur Nasc URL",
         "domain_input_mode_label": "Modh Ionchuir",
-        "wg_mullvad_limit_tips": "Theip ar eochair WireGuard a ghiniúint. Ní féidir ach suas le cúig eochair a bheith agat ag an am céanna in aghaidh an chuntais Mullvad. Téigh chuig {provider} le heochair a chúlghairm.",
+        "wg_mullvad_limit_tips": "Theip ar eochair WireGuard a ghiniúint. Is féidir uasmhéid de chúig eochair a bheith ag gach cuntas Mullvad ag an am céanna. Téigh chuig {provider} le heochair a chúlghairm.",
         "only_show_selected_label": "Taispeáin mír roghnaithe amháin",
         "guide_done_tips": "Tá {provider} ceangailte go rathúil agus is féidir leat VPN a úsáid anois.",
         "guide_cannot_work_tips": "Anois, ní féidir leis an VPN oibriú i gceart, déan iarracht na bealaí seo a leanas.",
@@ -308,9 +308,9 @@
         "ie_without_vpn": "(i.e. gan VPN)",
         "base_on_strategy": "Bunaithe ar an $$$$VLAN$$$$",
         "expired_at_tips": "D'éag sé ag {time}",
-        "wg_common_not_connet_tips": "Mura ndéanfar an freastalaí VPN a nascadh, d'fhéadfadh go mbeadh eochair WireGuard éirithe as feidhm. Is féidir leat eochair WireGuard a nuashonrú.",
-        "wg_windcribe_limit_tips": "Theip teaghdh a ghiniúint do WireGuard. Is féidir le gach cuntas Windscribe cúig eochair a bheith aige ar an am céanna. Téigh chuig {provider} chun dintiúir a scriosadh.",
-        "wg_api_request_too_frequent_tips": "Tá na hiarratais API ró-mhinic agus tá siad srianta ag {provider}. Bain triail eile as níos déanaí."
+        "wg_common_not_connet_tips": "Mura féidir ceangal leis an bhfreastalaí VPN, seans go bhfuil eochair WireGuard imithe in éag. Is féidir leat eochair WireGuard a nuashonrú.",
+        "wg_api_request_too_frequent_tips": "Tá iarratais API rómhinic agus tá srian curtha orthu ag {provider}. Déan iarracht arís ar ball.",
+        "wg_windscribe_limit_tips": "Theip ar eochair WireGuard a ghiniúint. Is féidir uasmhéid de chúig eochair a bheith ag gach cuntas Windscribe ag an am céanna. Téigh chuig {provider} le dintiúir a scriosadh."
     },
     "vpn_taps2s": {
         "start_title": "Aird: Tosaigh Cliant TAP-S2S",
@@ -507,6 +507,6 @@
         "wg_client_parameters_tips": "Is ag an bhfreastalaí a shocraítear na paraiméadair doiléirithe. Ní gá iad a athrú tar éis an chomhaid chumraíochta a allmhairiú."
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "Comhad a uaslódáil ró-mhór. Theip ar dhíchóimeáil mar gheall ar easpa stórála."
+        "too_large_unzip_fail_tips": "Comhad uaslódáilte ró-mhór. Theip ar dhí-chomhbhrú mar gheall ar easpa stórála."
     }
 }

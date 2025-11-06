@@ -309,8 +309,8 @@
         "wg_urbanshield_dev_limit_tips": "Limite dispositivo raggiunto. Effettua il logout da uno per continuare.",
         "expired_at_tips": "Scaduto alle {time}",
         "wg_common_not_connet_tips": "Se il server VPN non può essere connesso, la chiave WireGuard potrebbe essere scaduta. È possibile aggiornare la chiave WireGuard.",
-        "wg_windcribe_limit_tips": "Impossibile generare una chiave WireGuard. Ogni account Windscribe può avere un massimo di cinque chiavi contemporaneamente. Si prega di andare su {provider} per eliminare una credenziale.",
-        "wg_api_request_too_frequent_tips": "Le richieste API sono troppo frequenti e sono state limitate da {provider}. Riprova più tardi."
+        "wg_api_request_too_frequent_tips": "Le richieste API sono troppo frequenti e sono state limitate da {provider}. Riprova più tardi.",
+        "wg_windscribe_limit_tips": "Impossibile generare una chiave WireGuard. Ogni account Windscribe può avere un massimo di cinque chiavi contemporaneamente. Si prega di andare su {provider} per eliminare una credenziale."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",

@@ -309,8 +309,8 @@
         "wg_urbanshield_dev_limit_tips": "设备数量已达上限。请注销一台设备以继续。",
         "expired_at_tips": "已于 {time} 过期",
         "wg_common_not_connet_tips": "如果无法连接VPN服务器，可能是WireGuard密钥已过期。您可以更新WireGuard密钥。",
-        "wg_windcribe_limit_tips": "无法生成WireGuard密钥。每个Windscribe账户最多可同时拥有五个密钥。请前往{provider}删除凭据。",
-        "wg_api_request_too_frequent_tips": "API请求过于频繁，已被 {provider} 限制。请稍后再试。"
+        "wg_api_request_too_frequent_tips": "API请求过于频繁，已被 {provider} 限制。请稍后再试。",
+        "wg_windscribe_limit_tips": "无法生成WireGuard密钥。每个Windscribe账户最多可同时拥有五个密钥。请前往{provider}删除凭据。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",

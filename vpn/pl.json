@@ -309,8 +309,8 @@
         "wg_urbanshield_dev_limit_tips": "Osiągnięto limit urządzeń. Wyloguj jedno, aby kontynuować.",
         "expired_at_tips": "Wygasło o {time}",
         "wg_common_not_connet_tips": "Jeśli serwer VPN nie może zostać połączony, klucz WireGuard mógł wygasnąć. Możesz zaktualizować klucz WireGuard.",
-        "wg_windcribe_limit_tips": "Nie udało się wygenerować klucza WireGuard. Każde konto Windscribe może mieć maksymalnie pięć kluczy jednocześnie. Przejdź do {provider}, aby usunąć poświadczenie.",
-        "wg_api_request_too_frequent_tips": "Zbyt częste żądania API zostały ograniczone przez {provider}. Spróbuj ponownie później."
+        "wg_api_request_too_frequent_tips": "Zbyt częste żądania API zostały ograniczone przez {provider}. Spróbuj ponownie później.",
+        "wg_windscribe_limit_tips": "Nie udało się wygenerować klucza WireGuard. Każde konto Windscribe może mieć maksymalnie pięć kluczy jednocześnie. Przejdź do {provider}, aby usunąć poświadczenie."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",

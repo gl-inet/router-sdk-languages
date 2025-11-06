@@ -88,6 +88,6 @@
         "mac_connecting_tips": "The VPN is connecting."
     },
     "netnat": {
-        "qos_sqm_safeguard_data_tips": "This feature is unavailable because {flowstatistics}, {safeguard}, {qos} or {sqm} is enabled."
+        "qos_sqm_safeguard_data_tips": "This feature is unavailable as it conflicts with the following features: {features}."
     }
 }
