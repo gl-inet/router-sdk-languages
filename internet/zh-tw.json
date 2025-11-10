@@ -563,7 +563,8 @@
         "unlock_tower_fail_msg": "解鎖基站失敗",
         "modified_mtu_reboot_tips2": "MTU 已修改，請重啟設備以使其生效。",
         "modified_mtu_reboot_tips": "如果修改了MTU，請重啟設備使其生效。",
-        "connection_failed_contact_support_tips": "如果問題持續存在，請{log}並將其發送至{addr}。"
+        "connection_failed_contact_support_tips": "如果問題持續存在，請{log}並將其發送至{addr}。",
+        "sim_not_registered_connection_failed_tips": "SIM卡註冊失敗。請聯繫您的網路營運商檢查是否有特殊限制。{guide}"
     },
     "sim": {
         "sender_label": "發件人"
