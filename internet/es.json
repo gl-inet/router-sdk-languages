@@ -563,7 +563,8 @@
         "unlock_tower_fail_msg": "No se pudo desbloquear la torre",
         "modified_mtu_reboot_tips2": "Se ha modificado el MTU. Por favor, reinicie el dispositivo para que surta efecto.",
         "modified_mtu_reboot_tips": "Si se modifica el MTU, reinicie el dispositivo para que surta efecto.",
-        "connection_failed_contact_support_tips": "Si el problema persiste, por favor {log} y envíelos a {addr}."
+        "connection_failed_contact_support_tips": "Si el problema persiste, por favor {log} y envíelos a {addr}.",
+        "sim_not_registered_connection_failed_tips": "La tarjeta SIM no pudo registrarse. Por favor, contacte a su operador de red para verificar si existen restricciones especiales. {guide}"
     },
     "sim": {
         "sender_label": "Remitente"
