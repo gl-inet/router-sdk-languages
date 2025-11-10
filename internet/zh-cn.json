@@ -563,7 +563,8 @@
         "unlock_tower_fail_msg": "解锁基站失败",
         "modified_mtu_reboot_tips2": "MTU 已修改，请重启设备使其生效。",
         "modified_mtu_reboot_tips": "如果修改了MTU，请重启设备使其生效。",
-        "sim_not_registered_connection_failed_tips1": "SIM 卡未注册。请联系网络运营商确认是否存在特殊限制。{guide}"
+        "sim_not_registered_connection_failed_tips1": "SIM 卡未注册。请联系网络运营商确认是否存在特殊限制。{guide}",
+        "sim_not_registered_connection_failed_tips2": "如果问题仍然存在，请{log}并将其发送至{addr}。"
     },
     "sim": {
         "sender_label": "发件人"
