@@ -563,7 +563,8 @@
         "unlock_tower_fail_msg": "타워 잠금 해제 실패",
         "modified_mtu_reboot_tips2": "MTU가 수정되었습니다. 적용을 위해 장치를 리부팅하십시오.",
         "modified_mtu_reboot_tips": "MTU가 수정된 경우, 적용을 위해 장치를 재부팅하십시오.",
-        "sim_not_registered_connection_failed_tips1": "SIM 카드 등록에 실패했습니다. 네트워크 사업자에게 특별 제한 사항이 있는지 확인하시기 바랍니다. {guide}"
+        "sim_not_registered_connection_failed_tips1": "SIM 카드 등록에 실패했습니다. 네트워크 사업자에게 특별 제한 사항이 있는지 확인하시기 바랍니다. {guide}",
+        "sim_not_registered_connection_failed_tips2": "문제가 지속되면 {log}를 생성하여 {addr}로 보내주십시오."
     },
     "sim": {
         "sender_label": "발신자"
