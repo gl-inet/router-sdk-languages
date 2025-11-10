@@ -564,7 +564,8 @@
         "modified_mtu_reboot_tips2": "MTU wurde geändert. Bitte starten Sie das Gerät neu, damit die Änderung wirksam wird.",
         "modified_mtu_reboot_tips": "Wenn die MTU geändert wird, starten Sie das Gerät bitte neu, damit die Änderung wirksam wird.",
         "connection_failed_contact_support_tips": "Wenn das Problem weiterhin besteht, bitte {log} und senden Sie diese an {addr}.",
-        "sim_not_registered_connection_failed_tips": "SIM-Karte konnte nicht registriert werden. Bitte wenden Sie sich an Ihren Netzbetreiber, um mögliche spezielle Einschränkungen zu überprüfen. {guide}"
+        "sim_not_registered_connection_failed_tips": "SIM-Karte konnte nicht registriert werden. Bitte wenden Sie sich an Ihren Netzbetreiber, um mögliche spezielle Einschränkungen zu überprüfen. {guide}",
+        "sim_registered_connection_failed_tips": "Bitte überprüfen Sie, ob die SIM-Karte über verfügbare Daten verfügt und ob die APN-Einstellungen korrekt sind. Aktueller APN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "Absender"
