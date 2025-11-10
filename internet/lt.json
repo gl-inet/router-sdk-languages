@@ -564,7 +564,8 @@
         "modified_mtu_reboot_tips2": "MTU buvo pakeistas. Norint, kad pakeitimai įsigaliotų, reikia paleisti įrenginį iš naujo.",
         "modified_mtu_reboot_tips": "Jei „MTU“ yra modifikuotas, prašome paleisti įrenginį iš naujo, kad jis įsigaliotų.",
         "connection_failed_contact_support_tips": "Jei problema išlieka, prašome {log} ir išsiųskite juos į {addr}.",
-        "sim_not_registered_connection_failed_tips": "SIM kortelė nepavyko užregistruoti. Susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus. {guide}"
+        "sim_not_registered_connection_failed_tips": "SIM kortelė nepavyko užregistruoti. Susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus. {guide}",
+        "sim_registered_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra duomenų ir ar teisingi APN nustatymai. Dabartinis APN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "Siuntėjas"
