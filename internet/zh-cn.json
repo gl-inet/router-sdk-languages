@@ -565,7 +565,8 @@
         "modified_mtu_reboot_tips": "如果修改了MTU，请重启设备使其生效。",
         "connection_failed_contact_support_tips": "若问题依旧，请{log}并发送至{addr}。",
         "sim_not_registered_connection_failed_tips": "SIM 卡未注册。请联系网络运营商确认是否存在特殊限制。{guide}",
-        "sim_registered_connection_failed_tips": "請檢查 SIM 卡是否有可用流量，以及 APN 設定是否正確，當前 APN：{apn} {guide}"
+        "sim_registered_connection_failed_tips": "請檢查 SIM 卡是否有可用流量，以及 APN 設定是否正確，當前 APN：{apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "请检查SIM卡是否有可用数据以及APN设置是否正确。当前APN为空{guide}"
     },
     "sim": {
         "sender_label": "发件人"
