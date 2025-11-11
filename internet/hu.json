@@ -565,7 +565,8 @@
         "modified_mtu_reboot_tips": "Ha az MTU módosításra kerül, kérjük indítsa újra az eszközt a hatályba lépés érdekében.",
         "connection_failed_contact_support_tips": "Ha a probléma továbbra is fennáll, kérjük {log} és küldje el őket a {addr} címre.",
         "sim_not_registered_connection_failed_tips": "A SIM-kártya nem sikerült regisztrálni. Kérjük, lépjen kapcsolatba a hálózati szolgáltatójával, hogy ellenőrizze az esetleges speciális korlátozásokat. {guide}",
-        "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}"
+        "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Kérjük, ellenőrizze, hogy az SIM-kártyának van-e rendelkezésre álló adatforgalma, és hogy a {apnBtn} beállítások helyesek-e. A jelenlegi APN érték üres {guide}"
     },
     "sim": {
         "sender_label": "Feladó"
