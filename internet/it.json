@@ -565,7 +565,8 @@
         "modified_mtu_reboot_tips": "Se viene modificato l'MTU, si prega di riavviare il dispositivo per rendere effettiva la modifica.",
         "connection_failed_contact_support_tips": "Se il problema persiste, si prega di {log} e inviarli a {addr}.",
         "sim_not_registered_connection_failed_tips": "La scheda SIM non è riuscita a registrarsi. Contatta il tuo operatore di rete per verificare eventuali restrizioni speciali. {guide}",
-        "sim_registered_apn_is_empty_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni APN sono corrette. L'APN attuale è vuoto {guide}"
+        "sim_registered_apn_is_empty_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni APN sono corrette. L'APN attuale è vuoto {guide}",
+        "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. APN attuale: {apn} {guide}"
     },
     "sim": {
         "sender_label": "Mittente"
