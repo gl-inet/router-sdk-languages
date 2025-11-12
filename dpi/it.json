@@ -90,7 +90,9 @@
         "apps_search_placeholder": "Nome App",
         "show_only_selected_label": "Mostra solo l'elemento selezionato",
         "contentprotection_tips": "Quando abilitata, il tuo router blocca automaticamente siti web per adulti, di gioco d'azzardo e dannosi, creando un ambiente online pulito e sicuro per la tua famiglia.",
-        "no_app_tips": "Nessuna App Limitata"
+        "no_app_tips": "Nessuna App Limitata",
+        "blocked_total_title": "TOTALE BLOCCATO",
+        "blocked_today_title": "BLOCCATI OGGI"
     },
     "dpifeatures": {
         "renew_btn": "Rinnova",
@@ -203,7 +205,24 @@
         "contentprotection_descriptionn_text": "Content Protection è una funzionalità intelligente di sicurezza online alimentata dalla classificazione DPI che blocca automaticamente siti web dannosi o malevoli, aiuta a mantenere un ambiente di rete pulito e sicuro e supporta regole personalizzate per bloccare app, domini o indirizzi IP specifici.",
         "trial_activation_first_title": "Verifica disponibilità dispositivo",
         "additional_notes_third_text": "Poiché la funzionalità DPI è in conflitto con l'Accelerazione di rete, entrambe non possono essere abilitate simultaneamente. Quando il DPI è abilitato, il sistema disabiliterà automaticamente l'Accelerazione di rete per garantire un funzionamento stabile e corretto.",
-        "flowstatistics_card_text": "Le Statistiche Dati offrono una dashboard intelligente di analisi del traffico che categorizza e visualizza l'utilizzo della rete per applicazioni, aiutandoti a monitorare il traffico in tempo reale e storico per una migliore consapevolezza e controllo della rete."
+        "flowstatistics_card_text": "Le Statistiche Dati offrono una dashboard intelligente di analisi del traffico che categorizza e visualizza l'utilizzo della rete per applicazioni, aiutandoti a monitorare il traffico in tempo reale e storico per una migliore consapevolezza e controllo della rete.",
+        "flowstatistics_notstart_label": "Una dashboard di analisi del traffico che identifica e categorizza l'utilizzo della rete per applicazioni",
+        "flowstatistics_notstart_description_second_text": "Opzioni filtro temporale: 1 ora / 1 giorno / 7 giorni",
+        "flowstatistics_notstart_description_fifth_text": "Blocco con un clic per qualsiasi applicazione",
+        "about_title": "Informazioni su {title}",
+        "flowstatistics_notstart_description_first_text": "Visualizza il traffico in tempo reale e storico fino a 7 giorni",
+        "flowstatistics_notstart_description_third_text": "Statistiche dettagliate a livello applicativo classificate per utilizzo totale",
+        "flowstatistics_notstart_description_fourth_text": "Visualizza la quantità di traffico utilizzata da ogni dispositivo per ogni applicazione",
+        "contentprotection_notstart_label": "Una funzionalità intelligente di sicurezza online alimentata dalla classificazione DPI",
+        "contentprotection_notstart_description_first_text": "Blocca automaticamente siti web dannosi o malevoli",
+        "contentprotection_notstart_description_second_text": "Aiuta a fornire un ambiente di rete pulito e sicuro",
+        "contentprotection_notstart_description_third_text": "Supporta regole personalizzate per bloccare applicazioni, domini o indirizzi IP specifici",
+        "qos_notstart_label": "Ottimizza l'utilizzo della banda quando la rete è congestionata",
+        "qos_notstart_description_first_text": "Dà priorità al traffico di applicazioni critiche come videochiamate e giochi",
+        "qos_notstart_description_second_text": "Riduce la latenza in condizioni di banda limitata",
+        "qos_notstart_description_third_text": "Migliora la reattività complessiva della rete",
+        "more_information_about_dpi_label": "Ulteriori informazioni su dpi:",
+        "go_to_btn": "Vai a {title}"
     },
     "menu_dpifeatures": "Funzionalità DPI"
 }
