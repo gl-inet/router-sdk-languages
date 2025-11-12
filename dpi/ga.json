@@ -90,7 +90,9 @@
         "apps_drawer_title": "Aipeanna Sonraithe",
         "apps_search_placeholder": "Ainm an Aip",
         "show_only_selected_label": "Taispeáin an mhír roghnaithe amháin",
-        "contentprotection_tips": "Nuair a bhíonn sé cumasaithe, cuireann do ródaire bac go huathoibríoch ar shuíomhanna gréasáin do dhaoine fásta, do chearrbhachas agus do shuíomhanna gréasáin mailíseacha, rud a chruthaíonn timpeallacht ghlan, shábháilte ar líne le haghaidh do theaghlach."
+        "contentprotection_tips": "Nuair a bhíonn sé cumasaithe, cuireann do ródaire bac go huathoibríoch ar shuíomhanna gréasáin do dhaoine fásta, do chearrbhachas agus do shuíomhanna gréasáin mailíseacha, rud a chruthaíonn timpeallacht ghlan, shábháilte ar líne le haghaidh do theaghlach.",
+        "blocked_total_title": "IOMLÁN CURTHA I LEATAOBH",
+        "blocked_today_title": "BACTA INNIU"
     },
     "dpifeatures": {
         "renew_btn": "Athnuachan",
@@ -203,7 +205,24 @@
         "additional_notes_title": "Nótaí Breise",
         "qos_description_card_text": "Feabhsaíonn QoS (Cáilíocht Seirbhíse) leithdháileadh bandaleithead trí thosaíocht a thabhairt d’fheidhmchláir ríthábhachtacha amhail glaonna físe agus cearrbhachas, ag laghdú moille agus ag feabhsú feidhmíocht iomlán an líonra.",
         "additional_notes_first_text": "Tar éis duit an triail a ghníomhachtú, beidh rochtain iomlán ar ghnéithe ar fáil duit ar feadh 30 lá. Nuair a thagann an triail chun deiridh, díchumasófar an ghné DPI go huathoibríoch, ach coinneofar do chumraíochtaí go hiomlán. Nuair a bheidh sintíús déanta agat, is féidir leat leanúint ar aghaidh gan athchumrú.",
-        "flowstatistics_description_text": "Soláthraíonn Staitisticí Sonraí deais shoiléir a aithníonn úsáid líonra de réir feidhmchláir agus prótacal, ligeann sé duit stair tráchta a fheiceáil ar feadh 1 uair, 1 lá, nó 7 lá, ranguithe úsáide mionsonraithe a fheiceáil, trácht in aghaidh an ghléas a sheiceáil, agus aipeanna nach dteastaíonn a bhac le cliceáil amháin."
+        "flowstatistics_description_text": "Soláthraíonn Staitisticí Sonraí deais shoiléir a aithníonn úsáid líonra de réir feidhmchláir agus prótacal, ligeann sé duit stair tráchta a fheiceáil ar feadh 1 uair, 1 lá, nó 7 lá, ranguithe úsáide mionsonraithe a fheiceáil, trácht in aghaidh an ghléas a sheiceáil, agus aipeanna nach dteastaíonn a bhac le cliceáil amháin.",
+        "flowstatistics_notstart_description_fifth_text": "Blocáil aon fheidhmchlár le cliceáil amháin",
+        "qos_notstart_label": "Uasálann sé úsáid an leithbhandaidh nuair a bhíonn an líonra plódaithe.",
+        "qos_notstart_description_first_text": "Tugann sé tosaíocht do thrácht feidhmchláir ríthábhachtaí cosúil le fíonglaonna agus cearrbhachas",
+        "about_title": "Faoi {title}",
+        "flowstatistics_notstart_label": "Deais fiosrachais tráchta a aithníonn agus a chatagóiríonn úsáid an líonra de réir feidhmchlár.",
+        "flowstatistics_notstart_description_first_text": "Féach ar an trácht fíor-ama agus stairiúil suas le 7 lá",
+        "flowstatistics_notstart_description_second_text": "Roghanna scagaire ama: 1 uair an chloig / 1 lá / 7 lá",
+        "flowstatistics_notstart_description_third_text": "Staitisticí mionsonraithe ar leibhéal an fheidhmchláir rangaithe de réir an úsáid iomláin",
+        "flowstatistics_notstart_description_fourth_text": "Féach ar an méid tráchta a úsáideann gach gléas le haghaidh gach feidhmchláir",
+        "contentprotection_notstart_label": "Gné chliste sábháilteachta ar líne atá faoi thiomáint ag aicmiú DPI.",
+        "contentprotection_notstart_description_first_text": "Cuireann sé bac ar shuíomhanna Gréasáin dhochracha nó mailíseacha go huathoibríoch",
+        "contentprotection_notstart_description_second_text": "Cuidíonn sé le timpeallacht líonra glan agus slán a sholáthar",
+        "contentprotection_notstart_description_third_text": "Tacaíonn sé le rialacha saincheaptha chun feidhmchláir, fearainn nó seoltaí IP ar leith a chur i leataobh",
+        "qos_notstart_description_second_text": "Laghdaíonn sé moill faoi choinníollacha leithbhandaidh theoranta",
+        "qos_notstart_description_third_text": "Feabhsaíonn sé freagracht iomlán an líonra",
+        "more_information_about_dpi_label": "Tuilleadh eolais faoi dpi:",
+        "go_to_btn": "Téigh go {title}"
     },
     "menu_dpifeatures": "Ceadúnas DPI"
 }
