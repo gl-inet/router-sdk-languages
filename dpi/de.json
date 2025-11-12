@@ -90,7 +90,9 @@
         "apps_drawer_title": "Spezifizierte Apps",
         "show_only_selected_label": "Nur ausgewählte Elemente anzeigen",
         "contentprotection_tips": "Wenn aktiviert, blockiert Ihr Router automatisch Erwachsenen-, Glücksspiel- und bösartige Websites und schafft so eine saubere, sichere Online-Umgebung für Ihre Familie.",
-        "apps_search_placeholder": "App-Name"
+        "apps_search_placeholder": "App-Name",
+        "blocked_total_title": "GESPERRT GESAMT",
+        "blocked_today_title": "HEUTE GEBLOCKT"
     },
     "dpifeatures": {
         "update_btn": "Aktualisieren",
@@ -203,7 +205,24 @@
         "qos_description_text": "QoS (Quality of Service) optimiert intelligent die Bandbreitennutzung bei Netzwerküberlastung durch Priorisierung kritischer Anwendungsdatenverkehre wie Videoanrufe und Gaming, reduziert Latenzzeiten unter begrenzten Bandbreitenbedingungen und verbessert die allgemeine Netzwerkreaktionsfähigkeit.",
         "additional_notes_title": "Zusätzliche Hinweise",
         "additional_notes_first_text": "Nach Aktivierung der Testversion genießen Sie 30 Tage vollen Funktionszugriff. Wenn die Testversion endet, wird die DPI-Funktion automatisch deaktiviert, aber Ihre Konfigurationen bleiben vollständig erhalten. Sobald Sie abonniert haben, können Sie ohne Neukonfiguration fortfahren.",
-        "qos_description_card_text": "QoS (Quality of Service) optimiert die Bandbreitenzuweisung durch Priorisierung kritischer Anwendungen wie Videoanrufe und Gaming, reduziert Latenzzeiten und verbessert die allgemeine Netzwerkleistung."
+        "qos_description_card_text": "QoS (Quality of Service) optimiert die Bandbreitenzuweisung durch Priorisierung kritischer Anwendungen wie Videoanrufe und Gaming, reduziert Latenzzeiten und verbessert die allgemeine Netzwerkleistung.",
+        "qos_notstart_description_first_text": "Priorisiert kritischen Anwendungsverkehr wie Videoanrufe und Gaming",
+        "about_title": "Über {title}",
+        "flowstatistics_notstart_label": "Ein Traffic-Insight-Dashboard, das die Netzwerknutzung nach Anwendungen identifiziert und kategorisiert.",
+        "flowstatistics_notstart_description_first_text": "Echtzeit- und historischen Datenverkehr für bis zu 7 Tage anzeigen",
+        "flowstatistics_notstart_description_second_text": "Zeitfilteroptionen: 1 Stunde / 1 Tag / 7 Tage",
+        "flowstatistics_notstart_description_third_text": "Detaillierte anwendungsbezogene Statistiken nach Gesamtnutzung sortiert",
+        "flowstatistics_notstart_description_fourth_text": "Anzeige des Datenverkehrs jedes Geräts für jede Anwendung",
+        "flowstatistics_notstart_description_fifth_text": "Ein-Klick-Sperre für jede Anwendung",
+        "contentprotection_notstart_label": "Eine intelligente Online-Sicherheitsfunktion mit DPI-Klassifizierung.",
+        "contentprotection_notstart_description_first_text": "Automatische Blockierung schädlicher oder bösartiger Websites",
+        "contentprotection_notstart_description_second_text": "Bietet eine saubere und sichere Netzwerkumgebung",
+        "contentprotection_notstart_description_third_text": "Unterstützt benutzerdefinierte Regeln zum Blockieren bestimmter Apps, Domänen oder IP-Adressen",
+        "qos_notstart_label": "Optimiert die Bandbreitennutzung bei Netzwerküberlastung.",
+        "qos_notstart_description_second_text": "Reduziert Latenz bei begrenzter Bandbreite",
+        "qos_notstart_description_third_text": "Verbessert die allgemeine Netzwerkreaktionsfähigkeit",
+        "more_information_about_dpi_label": "Weitere Informationen zu DPI:",
+        "go_to_btn": "Zu {title} gehen"
     },
     "menu_dpifeatures": "DPI-Funktionen"
 }
