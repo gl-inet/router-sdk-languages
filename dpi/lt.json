@@ -90,7 +90,9 @@
         "apps_drawer_title": "Nurodytos programos",
         "apps_search_placeholder": "Programos pavadinimas",
         "show_only_selected_label": "Rodyti tik pasirinktą elementą",
-        "blocking_domain_list_title": "Blokuojamų domenų / IP sąrašas ({count})"
+        "blocking_domain_list_title": "Blokuojamų domenų / IP sąrašas ({count})",
+        "blocked_total_title": "IŠ VISO BLOKUOTA",
+        "blocked_today_title": "ŠIANDIEN BLOKUOTA"
     },
     "dpifeatures": {
         "renew_btn": "Atnaujinti",
@@ -203,7 +205,24 @@
         "reactivation_guide_first_description": "Norėdami pradėti procesą, spustelėkite mygtuką „Aktyvuoti prenumeratą dabar“ aukščiau.",
         "additional_notes_first_text": "Aktyvavus bandomąją versiją, naudositės 30 dienų pilnos prieigos teisėmis. Pasibaigus bandomajam laikotarpiui, DPI funkcija bus automatiškai išjungta, tačiau jūsų konfigūracijos bus visiškai išsaugotos. Užsiprenumeravę galėsite tęsti be pakartotinio konfigūravimo.",
         "thousand_unit": "K",
-        "trial_activation": "Bandomasis aktyvinimas"
+        "trial_activation": "Bandomasis aktyvinimas",
+        "flowstatistics_notstart_label": "Srauto analizės ataskaitų skydelis, kuris nustato ir kategorizuoja tinklo naudojimą pagal programas.",
+        "flowstatistics_notstart_description_second_text": "Laiko filtro parinktys: 1 valanda / 1 diena / 7 dienos",
+        "flowstatistics_notstart_description_third_text": "Išsamios programų lygio statistikos, surikiuotos pagal bendrą naudojimą",
+        "about_title": "Apie {title}",
+        "flowstatistics_notstart_description_first_text": "Peržiūrėti realaus laiko ir istorinį srautą iki 7 dienų",
+        "flowstatistics_notstart_description_fourth_text": "Peržiūrėkite, kiek srauto kiekvienas įrenginys naudoja kiekvienai programai",
+        "flowstatistics_notstart_description_fifth_text": "Vieno paspaudimo blokavimas bet kuriai programai",
+        "contentprotection_notstart_label": "Išmanioji internetinio saugumo funkcija, veikianti DPI klasifikavimo pagrindu.",
+        "contentprotection_notstart_description_first_text": "Automatiškai blokuoja kenksmingas arba piktavališkas svetaines",
+        "contentprotection_notstart_description_second_text": "Padeda užtikrinti švarų ir saugų tinklo aplinką",
+        "contentprotection_notstart_description_third_text": "Palaiko pasirinktines taisykles konkrečioms programoms, domenams ar IP adresams blokuoti",
+        "qos_notstart_label": "Optimizuoja duomenų siuntimo srauto pralaidumą, kai tinklas yra perkrautas.",
+        "qos_notstart_description_first_text": "Suteikia pirmenybę kritiniam programų srautui, pvz., vaizdo skambučiams ir žaidimams",
+        "qos_notstart_description_second_text": "Sumažina delsą riboto duomenų siuntimo srauto pralaidumo sąlygomis",
+        "qos_notstart_description_third_text": "Pagerina bendrą tinklo atsakomąją gebą",
+        "more_information_about_dpi_label": "Daugiau informacijos apie dpi:",
+        "go_to_btn": "Eiti į {title}"
     },
     "menu_dpifeatures": "DPI funkcijos"
 }
