@@ -89,7 +89,9 @@
         "show_only_selected_label": "Alleen geselecteerd item tonen",
         "contentprotection_tips": "Wanneer ingeschakeld, blokkeert uw router automatisch volwassen, gok- en kwaadaardige websites, waardoor een schone, veilige online omgeving voor uw gezin wordt gecreëerd.",
         "no_app_tips": "Geen apps beperkt",
-        "apps_drawer_title": "Gespecificeerde apps"
+        "apps_drawer_title": "Gespecificeerde apps",
+        "blocked_total_title": "TOTAAL GEBLOKKEERD",
+        "blocked_today_title": "VANDAAG GEBLOKKEERD"
     },
     "menu_contentprotection": "Contentbeveiliging",
     "dpifeatures": {
@@ -203,7 +205,24 @@
         "reactivation_guide_second_title": "Doorverwijzen naar GoodCloud",
         "qos_description_card_text": "QoS (Quality of Service) optimaliseert de bandbreedte-toewijzing door kritieke toepassingen zoals videogesprekken en gaming te prioriteren, vermindert latentie en verbetert de algehele netwerkprestaties.",
         "qos_description_text": "QoS (Quality of Service) optimaliseert intelligent het bandbreedtegebruik tijdens netwerkcongestie door kritieke toepassingsverkeer zoals videogesprekken en gaming te prioriteren, vermindert latentie onder beperkte bandbreedte-omstandigheden en verbetert de algehele netwerkresponsiviteit.",
-        "trial_activation_fourth_title": "Data Statistieken en Content Protection inschakelen"
+        "trial_activation_fourth_title": "Data Statistieken en Content Protection inschakelen",
+        "about_title": "Over {title}",
+        "contentprotection_notstart_description_second_text": "Helpt bij het bieden van een schone en veilige netwerkomgeving",
+        "flowstatistics_notstart_label": "Een verkeersinzichtendashboard dat netwerkgebruik identificeert en categoriseert op toepassingen",
+        "flowstatistics_notstart_description_first_text": "Bekijk real-time en historisch verkeer tot 7 dagen terug",
+        "flowstatistics_notstart_description_second_text": "Tijdfilteropties: 1 uur / 1 dag / 7 dagen",
+        "flowstatistics_notstart_description_third_text": "Gedetailleerde toepassingsniveau-statistieken gerangschikt op totaal gebruik",
+        "flowstatistics_notstart_description_fourth_text": "Bekijk hoeveel verkeer elk apparaat gebruikt voor elke toepassing",
+        "flowstatistics_notstart_description_fifth_text": "Eénkliksblokkering voor elke toepassing",
+        "contentprotection_notstart_label": "Een slimme online veiligheidsfunctie aangedreven door DPI-classificatie",
+        "contentprotection_notstart_description_first_text": "Blokkeert automatisch schadelijke of kwaadaardige websites",
+        "contentprotection_notstart_description_third_text": "Ondersteunt aangepaste regels voor het blokkeren van specifieke apps, domeinen of IP-adressen",
+        "qos_notstart_label": "Optimaliseert bandbreedtegebruik bij netwerkcongestie",
+        "qos_notstart_description_first_text": "Geeft voorrang aan kritiek toepassingsverkeer zoals videogesprekken en gaming",
+        "qos_notstart_description_second_text": "Vermindert latentie bij beperkte bandbreedteomstandigheden",
+        "qos_notstart_description_third_text": "Verbeterde algehele netwerkresponsiviteit",
+        "more_information_about_dpi_label": "Meer informatie over dpi:",
+        "go_to_btn": "Ga naar {title}"
     },
     "menu_dpifeatures": "DPI-functies"
 }
