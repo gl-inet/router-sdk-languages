@@ -90,7 +90,9 @@
         "show_only_selected_label": "Afficher uniquement l'élément sélectionné",
         "contentprotection_tips": "Lorsqu'elle est activée, votre routeur bloque automatiquement les sites web pour adultes, de jeux d'argent et malveillants, créant un environnement en ligne propre et sécurisé pour votre famille.",
         "no_app_tips": "Aucune Application Restreinte",
-        "blocking_domain_list_title": "Liste de domaines/IP bloqués ({count})"
+        "blocking_domain_list_title": "Liste de domaines/IP bloqués ({count})",
+        "blocked_total_title": "TOTAL BLOQUÉ",
+        "blocked_today_title": "BLOQUÉ AUJOURD'HUI"
     },
     "dpifeatures": {
         "renew_btn": "Renouveler",
@@ -203,7 +205,24 @@
         "flowstatistics_description_text": "Les statistiques de données offrent un tableau de bord clair qui identifie l'utilisation du réseau par applications et protocoles, vous permet de consulter l'historique du trafic pendant 1 heure, 1 jour ou 7 jours, voir les classements d'utilisation détaillés, vérifier le trafic par appareil et bloquer les applications indésirables en un clic.",
         "contentprotection_descriptionn_text": "La Protection de Contenu est une fonctionnalité de sécurité en ligne intelligente alimentée par la classification DPI qui bloque automatiquement les sites web nuisibles ou malveillants, aide à maintenir un environnement réseau propre et sécurisé, et prend en charge des règles personnalisées pour bloquer des applications, domaines ou adresses IP spécifiques.",
         "additional_notes_title": "Remarques supplémentaires",
-        "additional_notes_first_text": "Après activation de l'essai, vous bénéficierez de 30 jours d'accès complet aux fonctionnalités. À la fin de l'essai, la fonction DPI sera automatiquement désactivée, mais vos configurations seront entièrement conservées. Une fois abonné, vous pourrez continuer sans reconfiguration."
+        "additional_notes_first_text": "Après activation de l'essai, vous bénéficierez de 30 jours d'accès complet aux fonctionnalités. À la fin de l'essai, la fonction DPI sera automatiquement désactivée, mais vos configurations seront entièrement conservées. Une fois abonné, vous pourrez continuer sans reconfiguration.",
+        "flowstatistics_notstart_description_second_text": "Options de filtre temporel : 1 heure / 1 jour / 7 jours",
+        "flowstatistics_notstart_description_fourth_text": "Visualisez le trafic utilisé par chaque appareil pour chaque application",
+        "contentprotection_notstart_description_third_text": "Prend en charge des règles personnalisées pour bloquer des applications, domaines ou adresses IP spécifiques",
+        "qos_notstart_description_first_text": "Priorise le trafic des applications critiques telles que les appels vidéo et les jeux",
+        "about_title": "À propos de {title}",
+        "flowstatistics_notstart_label": "Un tableau de bord d'analyse du trafic qui identifie et catégorise l'utilisation du réseau par applications.",
+        "flowstatistics_notstart_description_first_text": "Visualisez le trafic en temps réel et historique jusqu'à 7 jours",
+        "flowstatistics_notstart_description_third_text": "Statistiques détaillées au niveau des applications classées par utilisation totale",
+        "flowstatistics_notstart_description_fifth_text": "Blocage en un clic pour toute application",
+        "contentprotection_notstart_label": "Une fonctionnalité intelligente de sécurité en ligne alimentée par la classification DPI.",
+        "contentprotection_notstart_description_first_text": "Bloque automatiquement les sites web nuisibles ou malveillants",
+        "contentprotection_notstart_description_second_text": "Contribue à fournir un environnement réseau propre et sécurisé",
+        "qos_notstart_label": "Optimise l'utilisation de la bande passante en cas de congestion du réseau.",
+        "qos_notstart_description_second_text": "Réduit la latence dans des conditions de bande passante limitée",
+        "qos_notstart_description_third_text": "Améliore la réactivité globale du réseau",
+        "more_information_about_dpi_label": "Plus d'informations sur dpi :",
+        "go_to_btn": "Aller à {title}"
     },
     "menu_dpifeatures": "Fonctionnalités DPI"
 }
