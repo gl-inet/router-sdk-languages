@@ -90,7 +90,9 @@
         "apps_drawer_title": "指定应用",
         "apps_search_placeholder": "应用名称",
         "show_only_selected_label": "仅显示选中项",
-        "no_app_tips": "无受限应用"
+        "no_app_tips": "无受限应用",
+        "blocked_total_title": "已阻止总数",
+        "blocked_today_title": "今日已拦截"
     },
     "dpifeatures": {
         "update_btn": "更新",
@@ -203,7 +205,24 @@
         "contentprotection_descriptionn_text": "内容保护是基于DPI分类技术的智能在线安全功能，可自动拦截有害或恶意网站，帮助维护清洁安全的网络环境，并支持自定义规则以阻止特定应用、域名或IP地址。",
         "qos_description_text": "QoS（服务质量）在网络拥塞时智能优化带宽使用，通过优先处理视频通话和游戏等关键应用流量，在有限带宽条件下降低延迟，提升整体网络响应能力。",
         "additional_notes_title": "附加说明",
-        "additional_notes_first_text": "激活试用后，您将享受30天全功能访问权限。试用期结束后，DPI功能将自动停用，但您的配置将完全保留。订阅后无需重新配置即可继续使用。"
+        "additional_notes_first_text": "激活试用后，您将享受30天全功能访问权限。试用期结束后，DPI功能将自动停用，但您的配置将完全保留。订阅后无需重新配置即可继续使用。",
+        "flowstatistics_notstart_label": "流量洞察仪表板，按应用程序识别和分类网络使用情况",
+        "qos_notstart_label": "在网络拥塞时优化带宽使用",
+        "about_title": "关于{title}",
+        "flowstatistics_notstart_description_first_text": "查看最长7天的实时和历史流量",
+        "flowstatistics_notstart_description_second_text": "时间筛选选项：1小时/1天/7天",
+        "flowstatistics_notstart_description_third_text": "按总使用量排名的详细应用程序级统计",
+        "flowstatistics_notstart_description_fourth_text": "查看每台设备上每个应用程序使用的流量",
+        "flowstatistics_notstart_description_fifth_text": "一键阻止任何应用程序",
+        "contentprotection_notstart_label": "由DPI分类驱动的智能在线安全功能",
+        "contentprotection_notstart_description_first_text": "自动阻止有害或恶意网站",
+        "contentprotection_notstart_description_second_text": "有助于提供干净安全的网络环境",
+        "contentprotection_notstart_description_third_text": "支持自定义规则以阻止特定应用程序、域名或IP地址",
+        "qos_notstart_description_first_text": "优先处理关键应用程序流量，如视频通话和游戏",
+        "qos_notstart_description_second_text": "在带宽受限条件下减少延迟",
+        "qos_notstart_description_third_text": "提高整体网络响应能力",
+        "more_information_about_dpi_label": "关于DPI的更多信息：",
+        "go_to_btn": "前往{title}"
     },
     "menu_dpifeatures": "DPI功能"
 }
