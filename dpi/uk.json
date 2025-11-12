@@ -90,7 +90,9 @@
         "blocking_domain_list_title": "Список блокування доменів / IP ({count})",
         "apps_search_placeholder": "Назва програми",
         "show_only_selected_label": "Показувати лише вибрані елементи",
-        "apps_drawer_title": "Вказані програми"
+        "apps_drawer_title": "Вказані програми",
+        "blocked_total_title": "ЗАГАЛЬНО ЗАБЛОКОВАНО",
+        "blocked_today_title": "ЗАБЛОКОВАНО СЬОГОДНІ"
     },
     "dpifeatures": {
         "renew_btn": "Поновлення",
@@ -203,7 +205,24 @@
         "flowstatistics_description_text": "Статистика даних пропонує зрозумілу панель моніторингу, яка ідентифікує використання мережі за додатками та протоколами, дозволяє переглядати історію трафіку за 1 годину, 1 день або 7 днів, бачити детальні рейтинги використання, перевіряти трафік на пристрій та блокувати небажані додатки одним клацанням.",
         "contentprotection_descriptionn_text": "Content Protection - це інтелектуальна функція онлайн-безпеки на основі DPI-класифікації, яка автоматично блокує шкідливі або зловмисні веб-сайти, допомагає підтримувати чисте та безпечне мережеве середовище та підтримує власні правила для блокування певних додатків, доменів або IP-адрес.",
         "additional_notes_title": "Додаткові примітки",
-        "contentprotection_descriptionn_card_text": "Захист контенту забезпечує розумну онлайн-безпеку за допомогою класифікації DPI, автоматично блокуючи шкідливі або зловмисні веб-сайти для підтримки чистоти та безпеки вашої мережі."
+        "contentprotection_descriptionn_card_text": "Захист контенту забезпечує розумну онлайн-безпеку за допомогою класифікації DPI, автоматично блокуючи шкідливі або зловмисні веб-сайти для підтримки чистоти та безпеки вашої мережі.",
+        "about_title": "Про {title}",
+        "flowstatistics_notstart_description_first_text": "Перегляд поточного та історичного трафіку протягом до 7 днів",
+        "flowstatistics_notstart_description_third_text": "Детальна статистика на рівні додатків, відсортована за загальним використанням",
+        "flowstatistics_notstart_description_fourth_text": "Перегляд обсягу трафіку, який використовує кожен пристрій для кожного додатку",
+        "contentprotection_notstart_description_second_text": "Сприяє забезпеченню чистого та безпечного мережевого середовища",
+        "qos_notstart_label": "Оптимізує використання пропускної здатності при перевантаженні мережі",
+        "qos_notstart_description_first_text": "Пріоритизує критичний трафік додатків, таких як відеодзвінки та ігри",
+        "qos_notstart_description_third_text": "Покращує загальну реакційну здатність мережі",
+        "flowstatistics_notstart_label": "Панель моніторингу трафіку, яка ідентифікує та категоризує використання мережі за додатками",
+        "flowstatistics_notstart_description_second_text": "Опції фільтрації за часом: 1 година / 1 день / 7 днів",
+        "flowstatistics_notstart_description_fifth_text": "Одноклапкове блокування для будь-якого додатку",
+        "contentprotection_notstart_label": "Розумна функція онлайн-безпеки на основі класифікації DPI",
+        "contentprotection_notstart_description_first_text": "Автоматичне блокування шкідливих або зловмисних веб-сайтів",
+        "contentprotection_notstart_description_third_text": "Підтримує власні правила для блокування конкретних додатків, доменів або IP-адрес",
+        "qos_notstart_description_second_text": "Зменшує затримку в умовах обмеженої пропускної здатності",
+        "more_information_about_dpi_label": "Додаткова інформація про DPI:",
+        "go_to_btn": "Перейти до {title}"
     },
     "menu_dpifeatures": "Функції DPI"
 }
