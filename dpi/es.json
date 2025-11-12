@@ -90,7 +90,9 @@
         "blocking_domain_list_title": "Lista de Dominios/IP Bloqueados ({count})",
         "apps_drawer_title": "Aplicaciones Especificadas",
         "apps_search_placeholder": "Nombre de la Aplicación",
-        "show_only_selected_label": "Mostrar solo el elemento seleccionado"
+        "show_only_selected_label": "Mostrar solo el elemento seleccionado",
+        "blocked_total_title": "TOTAL BLOQUEADO",
+        "blocked_today_title": "BLOQUEADOS HOY"
     },
     "dpifeatures": {
         "update_btn": "Actualizar",
@@ -203,7 +205,24 @@
         "contentprotection_descriptionn_text": "La Protección de Contenido es una función inteligente de seguridad en línea impulsada por clasificación DPI que bloquea automáticamente sitios web dañinos o maliciosos, ayuda a mantener un entorno de red limpio y seguro, y admite reglas personalizadas para bloquear aplicaciones, dominios o direcciones IP específicas.",
         "additional_notes_title": "Notas Adicionales",
         "additional_notes_first_text": "Después de activar la prueba, disfrutará de 30 días de acceso completo a las funciones. Cuando finalice la prueba, la función DPI se desactivará automáticamente, pero sus configuraciones se conservarán completamente. Una vez suscrito, puede continuar sin necesidad de reconfigurar.",
-        "qos_description_card_text": "QoS (Calidad de Servicio) optimiza la asignación de ancho de banda priorizando aplicaciones críticas como videollamadas y juegos, reduciendo la latencia y mejorando el rendimiento general de la red."
+        "qos_description_card_text": "QoS (Calidad de Servicio) optimiza la asignación de ancho de banda priorizando aplicaciones críticas como videollamadas y juegos, reduciendo la latencia y mejorando el rendimiento general de la red.",
+        "contentprotection_notstart_description_third_text": "Admite reglas personalizadas para bloquear aplicaciones, dominios o direcciones IP específicas",
+        "qos_notstart_description_first_text": "Prioriza el tráfico de aplicaciones críticas como videollamadas y juegos",
+        "qos_notstart_description_third_text": "Mejora la capacidad de respuesta general de la red",
+        "about_title": "Acerca de {title}",
+        "flowstatistics_notstart_label": "Un panel de información de tráfico que identifica y categoriza el uso de la red por aplicaciones",
+        "flowstatistics_notstart_description_first_text": "Ver tráfico en tiempo real e histórico de hasta 7 días",
+        "flowstatistics_notstart_description_second_text": "Opciones de filtro de tiempo: 1 hora / 1 día / 7 días",
+        "flowstatistics_notstart_description_third_text": "Estadísticas detalladas a nivel de aplicación clasificadas por uso total",
+        "flowstatistics_notstart_description_fourth_text": "Ver cuánto tráfico utiliza cada dispositivo para cada aplicación",
+        "flowstatistics_notstart_description_fifth_text": "Bloqueo con un clic para cualquier aplicación",
+        "contentprotection_notstart_label": "Una función inteligente de seguridad en línea impulsada por clasificación DPI",
+        "contentprotection_notstart_description_first_text": "Bloquea automáticamente sitios web dañinos o maliciosos",
+        "contentprotection_notstart_description_second_text": "Ayuda a proporcionar un entorno de red limpio y seguro",
+        "qos_notstart_label": "Optimiza el uso del ancho de banda cuando la red está congestionada",
+        "qos_notstart_description_second_text": "Reduce la latencia en condiciones de ancho de banda limitado",
+        "more_information_about_dpi_label": "Más información sobre dpi:",
+        "go_to_btn": "Ir a {title}"
     },
     "menu_dpifeatures": "Funciones DPI"
 }
