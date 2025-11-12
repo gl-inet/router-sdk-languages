@@ -90,7 +90,9 @@
         "blocking_domain_list_title": "Blocked Domain / IP List ({count})",
         "apps_drawer_title": "Specified Apps",
         "apps_search_placeholder": "App Name",
-        "show_only_selected_label": "Show only selected item"
+        "show_only_selected_label": "Show only selected item",
+        "blocked_total_title": "BLOCKED TOTAL",
+        "blocked_today_title": "BLOCKED TODAY"
     },
     "dpifeatures": {
         "renew_btn": "Renew",
@@ -203,7 +205,24 @@
         "qos_description_text": "QoS (Quality of Service) intelligently optimizes bandwidth usage during network congestion by prioritizing critical application traffic such as video calls and gaming, reducing latency under limited bandwidth conditions, and enhancing overall network responsiveness.",
         "additional_notes_title": "Additional Notes",
         "additional_notes_first_text": "After activating the trial, you will enjoy 30 days of full-feature access. When the trial ends, the DPI feature will be automatically deactivated, but your configurations will be fully retained. Once subscribed, you can continue without reconfiguration.",
-        "qos_description_card_text": "QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical applications such as video calls and gaming, reducing latency, and improving overall network performance."
+        "qos_description_card_text": "QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical applications such as video calls and gaming, reducing latency, and improving overall network performance.",
+        "about_title": "About {title}",
+        "flowstatistics_notstart_label": "A traffic insight dashboard that identifies and categorizes network usage by applications.",
+        "flowstatistics_notstart_description_first_text": "View real-time and historical traffic for up to 7 days",
+        "flowstatistics_notstart_description_second_text": "Time filter options: 1 hour / 1 day / 7 days",
+        "flowstatistics_notstart_description_third_text": "Detailed application-level statistics ranked by total usage",
+        "flowstatistics_notstart_description_fourth_text": "View how much traffic each device uses for each application",
+        "flowstatistics_notstart_description_fifth_text": "One-click block for any application",
+        "contentprotection_notstart_label": "A smart online safety feature powered by DPI classification.",
+        "contentprotection_notstart_description_first_text": "Automatically blocks harmful or malicious websites",
+        "contentprotection_notstart_description_second_text": "Helps provide a clean and secure network environment",
+        "contentprotection_notstart_description_third_text": "Supports custom rules for blocking specific apps, domains, or IP addresses",
+        "qos_notstart_label": "Optimizes bandwidth usage when the network is congested.",
+        "qos_notstart_description_first_text": "Prioritizes critical application traffic such as video calls and gaming",
+        "qos_notstart_description_second_text": "Reduces latency during limited bandwidth conditions",
+        "qos_notstart_description_third_text": "Improves overall network responsiveness",
+        "more_information_about_dpi_label": "More information about dpi:",
+        "go_to_btn": "Go to {title}"
     },
     "menu_dpifeatures": "DPI License"
 }
