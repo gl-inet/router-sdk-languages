@@ -90,7 +90,9 @@
         "apps_search_placeholder": "Uygulama Adı",
         "show_only_selected_label": "Yalnızca seçili öğeyi göster",
         "contentprotection_tips": "Etkinleştirildiğinde, yönlendiriciniz yetişkinlere yönelik, kumar ve kötü amaçlı web sitelerini otomatik olarak engelleyerek aileniz için temiz, güvenli bir çevrimiçi ortam oluşturur.",
-        "no_app_tips": "Kısıtlanmış Uygulama Yok"
+        "no_app_tips": "Kısıtlanmış Uygulama Yok",
+        "blocked_total_title": "TOPLAM ENGELLENEN",
+        "blocked_today_title": "BUGÜN ENGELLENDİ"
     },
     "dpifeatures": {
         "expires_tips": "{time} tarihinde sona eriyor",
@@ -203,7 +205,24 @@
         "dpi_text_subtitle": "Deneme Nasıl Başlatılır?",
         "qos_description_text": "QoS (Hizmet Kalitesi), ağ tıkanıklığı sırasında video görüşmeleri ve oyunlar gibi kritik uygulama trafiğine öncelik vererek bant genişliği kullanımını akıllıca optimize eder, sınırlı bant genişliği koşullarında gecikmeyi azaltır ve genel ağ yanıt hızını artırır.",
         "additional_notes_title": "Ek Notlar",
-        "additional_notes_first_text": "Deneme sürümünü etkinleştirdikten sonra 30 gün boyunca tam özellikli erişimden yararlanacaksınız. Deneme süresi sona erdiğinde, DPI özelliği otomatik olarak devre dışı bırakılacak ancak yapılandırmalarınız tamamen korunacaktır. Abone olduktan sonra yeniden yapılandırma yapmadan devam edebilirsiniz."
+        "additional_notes_first_text": "Deneme sürümünü etkinleştirdikten sonra 30 gün boyunca tam özellikli erişimden yararlanacaksınız. Deneme süresi sona erdiğinde, DPI özelliği otomatik olarak devre dışı bırakılacak ancak yapılandırmalarınız tamamen korunacaktır. Abone olduktan sonra yeniden yapılandırma yapmadan devam edebilirsiniz.",
+        "flowstatistics_notstart_label": "Uygulamalara göre ağ kullanımını tanımlayan ve kategorilere ayıran bir trafik öngörü panosu.",
+        "flowstatistics_notstart_description_third_text": "Toplam kullanıma göre sıralanmış ayrıntılı uygulama düzeyinde istatistikler",
+        "qos_notstart_label": "Ağ tıkandığında bant genişliği kullanımını optimize eder.",
+        "qos_notstart_description_second_text": "Sınırlı bant genişliği koşullarında gecikmeyi azaltır",
+        "about_title": "{title} Hakkında",
+        "flowstatistics_notstart_description_first_text": "7 güne kadar gerçek zamanlı ve geçmiş trafiği görüntüleyin",
+        "flowstatistics_notstart_description_second_text": "Zaman filtre seçenekleri: 1 saat / 1 gün / 7 gün",
+        "flowstatistics_notstart_description_fourth_text": "Her cihazın her uygulama için ne kadar trafik kullandığını görüntüleyin",
+        "flowstatistics_notstart_description_fifth_text": "Herhangi bir uygulama için tek tıkla engelleme",
+        "contentprotection_notstart_label": "DPI sınıflandırması tarafından desteklenen akıllı bir çevrimiçi güvenlik özelliği.",
+        "contentprotection_notstart_description_first_text": "Zararlı veya kötü amaçlı web sitelerini otomatik olarak engeller",
+        "contentprotection_notstart_description_second_text": "Temiz ve güvenli bir ağ ortamı sağlamaya yardımcı olur",
+        "contentprotection_notstart_description_third_text": "Belirli uygulamaları, alan adlarını veya IP adreslerini engellemek için özel kuralları destekler",
+        "qos_notstart_description_first_text": "Video görüşmeleri ve oyunlar gibi kritik uygulama trafiğine öncelik verir",
+        "qos_notstart_description_third_text": "Genel ağ yanıt süresini iyileştirir",
+        "more_information_about_dpi_label": "DPI hakkında daha fazla bilgi:",
+        "go_to_btn": "{title}'a Git"
     },
     "menu_dpifeatures": "DPI Özellikleri"
 }
