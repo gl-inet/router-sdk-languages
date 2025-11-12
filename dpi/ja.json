@@ -89,7 +89,9 @@
         "apps_drawer_title": "指定アプリ",
         "apps_search_placeholder": "アプリ名",
         "show_only_selected_label": "選択項目のみ表示",
-        "contentprotection_tips": "有効にすると、ルーターが自動的にアダルトサイト、ギャンブルサイト、悪意のあるウェブサイトをブロックし、家族のための清潔で安全なオンライン環境を作り出します。"
+        "contentprotection_tips": "有効にすると、ルーターが自動的にアダルトサイト、ギャンブルサイト、悪意のあるウェブサイトをブロックし、家族のための清潔で安全なオンライン環境を作り出します。",
+        "blocked_total_title": "ブロック合計",
+        "blocked_today_title": "本日のブロック数"
     },
     "menu_contentprotection": "コンテンツ保護",
     "dpifeatures": {
@@ -203,7 +205,24 @@
         "contentprotection_descriptionn_text": "コンテンツ保護は、DPI分類技術を活用したインテリジェントなオンラインセキュリティ機能です。有害または悪意のあるウェブサイトを自動的にブロックし、クリーンで安全なネットワーク環境を維持するのに役立ちます。また、特定のアプリケーション、ドメイン、またはIPアドレスをブロックするカスタムルールもサポートしています。",
         "qos_description_text": "QoS（サービス品質）は、ネットワーク輻輳時に重要なアプリケーショントラフィックを優先的に処理することで帯域幅使用をインテリジェントに最適化し、限られた帯域幅条件下での遅延を低減し、ネットワーク応答性全体を向上させます。",
         "additional_notes_title": "追加注意事項",
-        "additional_notes_first_text": "トライアルを有効化後、30日間全機能にアクセスできます。トライアル終了時、DPI機能は自動的に無効化されますが、設定は完全に保持されます。サブスクリプション後、再設定なしで継続利用可能です。"
+        "additional_notes_first_text": "トライアルを有効化後、30日間全機能にアクセスできます。トライアル終了時、DPI機能は自動的に無効化されますが、設定は完全に保持されます。サブスクリプション後、再設定なしで継続利用可能です。",
+        "about_title": "{title}について",
+        "contentprotection_notstart_description_first_text": "有害または悪意のあるウェブサイトを自動的にブロック",
+        "flowstatistics_notstart_label": "アプリケーション別にネットワーク使用量を識別・分類するトラフィック分析ダッシュボード",
+        "flowstatistics_notstart_description_first_text": "最大7日間のリアルタイムおよび履歴トラフィックを表示",
+        "flowstatistics_notstart_description_second_text": "時間フィルターオプション：1時間 / 1日 / 7日間",
+        "flowstatistics_notstart_description_third_text": "総使用量でランク付けされた詳細なアプリケーションレベルの統計",
+        "flowstatistics_notstart_description_fourth_text": "各デバイスにおけるアプリケーション別のトラフィック使用量を表示",
+        "flowstatistics_notstart_description_fifth_text": "アプリケーションのワンクリックブロック",
+        "contentprotection_notstart_label": "DPI分類技術によるスマートなオンライン安全機能",
+        "contentprotection_notstart_description_second_text": "清潔で安全なネットワーク環境の提供を支援",
+        "contentprotection_notstart_description_third_text": "特定のアプリ、ドメイン、IPアドレスのブロックに対応したカスタムルールをサポート",
+        "qos_notstart_label": "ネットワークが混雑している際の帯域幅使用を最適化",
+        "qos_notstart_description_first_text": "ビデオ通話やゲームなどの重要なアプリケーショントラフィックを優先化",
+        "qos_notstart_description_second_text": "帯域幅制限時の遅延を低減",
+        "qos_notstart_description_third_text": "ネットワーク全体の応答性を向上",
+        "more_information_about_dpi_label": "DPIの詳細情報：",
+        "go_to_btn": "{title}に移動"
     },
     "menu_dpifeatures": "DPI機能"
 }
