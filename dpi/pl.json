@@ -90,7 +90,9 @@
         "apps_search_placeholder": "Nazwa Aplikacji",
         "show_only_selected_label": "Pokaż tylko wybrane elementy",
         "contentprotection_tips": "Po włączeniu, router automatycznie blokuje strony dla dorosłych, hazardowe i złośliwe, tworząc czyste, bezpieczne środowisko online dla Twojej rodziny.",
-        "apps_drawer_title": "Określone Aplikacje"
+        "apps_drawer_title": "Określone Aplikacje",
+        "blocked_total_title": "ŁĄCZNIE ZABLOKOWANE",
+        "blocked_today_title": "ZABLOKOWANE DZISIAJ"
     },
     "dpifeatures": {
         "renew_btn": "Odnów",
@@ -203,7 +205,24 @@
         "qos_description_text": "QoS (Quality of Service) inteligentnie optymalizuje wykorzystanie przepustowości podczas przeciążenia sieci poprzez priorytetyzację ruchu krytycznych aplikacji, takich jak wideorozmowy i gry, zmniejszając opóźnienia w warunkach ograniczonej przepustowości i poprawiając ogólną responsywność sieci.",
         "additional_notes_title": "Dodatkowe uwagi",
         "additional_notes_first_text": "Po aktywacji wersji próbnej będziesz cieszyć się 30-dniowym dostępem do wszystkich funkcji. Po zakończeniu okresu próbnego funkcja DPI zostanie automatycznie dezaktywowana, ale Twoje konfiguracje zostaną w pełni zachowane. Po wykupieniu subskrypcji możesz kontynuować bez ponownej konfiguracji.",
-        "contentprotection_descriptionn_card_text": "Ochrona treści zapewnia inteligentne bezpieczeństwo online dzięki klasyfikacji DPI, automatycznie blokując szkodliwe lub złośliwe strony internetowe, aby utrzymać Twoją sieć czystą i bezpieczną."
+        "contentprotection_descriptionn_card_text": "Ochrona treści zapewnia inteligentne bezpieczeństwo online dzięki klasyfikacji DPI, automatycznie blokując szkodliwe lub złośliwe strony internetowe, aby utrzymać Twoją sieć czystą i bezpieczną.",
+        "flowstatistics_notstart_label": "Pulpit nawigacyjny analizy ruchu, który identyfikuje i kategoryzuje wykorzystanie sieci według aplikacji.",
+        "flowstatistics_notstart_description_third_text": "Szczegółowe statystyki na poziomie aplikacji uszeregowane według całkowitego wykorzystania",
+        "flowstatistics_notstart_description_fifth_text": "Jednoklikowe blokowanie dla dowolnej aplikacji",
+        "qos_notstart_label": "Optymalizuje wykorzystanie przepustowości podczas przeciążenia sieci.",
+        "about_title": "O {title}",
+        "flowstatistics_notstart_description_first_text": "Wyświetlanie ruchu w czasie rzeczywistym i historycznego do 7 dni",
+        "flowstatistics_notstart_description_second_text": "Opcje filtrowania czasu: 1 godzina / 1 dzień / 7 dni",
+        "flowstatistics_notstart_description_fourth_text": "Wyświetlanie ilości ruchu wykorzystywanego przez każde urządzenie dla każdej aplikacji",
+        "contentprotection_notstart_label": "Inteligentna funkcja bezpieczeństwa online zasilana klasyfikacją DPI.",
+        "contentprotection_notstart_description_first_text": "Automatyczne blokowanie szkodliwych lub złośliwych witryn",
+        "contentprotection_notstart_description_second_text": "Pomaga zapewnić czyste i bezpieczne środowisko sieciowe",
+        "contentprotection_notstart_description_third_text": "Obsługuje niestandardowe reguły blokowania określonych aplikacji, domen lub adresów IP",
+        "qos_notstart_description_first_text": "Priorytetyzuje krytyczny ruch aplikacji, taki jak wideorozmowy i gry",
+        "qos_notstart_description_second_text": "Zmniejsza opóźnienia w warunkach ograniczonej przepustowości",
+        "qos_notstart_description_third_text": "Poprawia ogólną responsywność sieci",
+        "more_information_about_dpi_label": "Więcej informacji o dpi:",
+        "go_to_btn": "Przejdź do {title}"
     },
     "menu_dpifeatures": "Funkcje DPI"
 }
