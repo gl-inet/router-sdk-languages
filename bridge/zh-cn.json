@@ -39,7 +39,8 @@
         "passthrough_mac_tips": "这用于获取公共IP的MAC地址。",
         "passthrough_only_one_wan_tips": "如果要切换到IP Passthrough模式，请前往{page}并关闭WAN as LAN或LAN as WAN功能。",
         "passthrough_close_edge_tips": "如果要切换到IP Passthrough，请关闭{page}。",
-        "sub_tips": "使用{mode}时，您将无法再次连接到此用户界面。按住复位按钮4秒可恢复至路由器模式。"
+        "sub_tips": "使用{mode}时，您将无法再次连接到此用户界面。按住复位按钮4秒可恢复至路由器模式。",
+        "reset_wan_port_msg": "请将{port}配置为WAN端口，并仅将以太网电缆插入{port}。"
     },
     "menu_bridge": "网络模式"
 }
