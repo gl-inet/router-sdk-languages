@@ -40,7 +40,8 @@
         "passthrough_only_one_wan_tips": "To switch to IP passthrough, go to {page} and turn off WAN as LAN or LAN as WAN.",
         "passthrough_close_edge_tips": "To switch to IP Passthrough, turn off {page}.",
         "sub_tips": "When you use {mode}, you will not be able to connect to this UI again. You can press and hold the reset button for 4 seconds to revert to router mode.",
-        "reset_wan_port_msg": "Please configure {port} as a WAN port and only plug an Ethernet cable into {port}."
+        "reset_wan_port_msg": "Please configure {port} as a WAN port and only plug an Ethernet cable into {port}.",
+        "unplug_cable_msg": "Please unplug the Ethernet cable from {port}."
     },
     "menu_bridge": "Network Mode"
 }
