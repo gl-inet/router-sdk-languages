@@ -39,7 +39,8 @@
         "passthrough_mac_tips": "Esto se utiliza para obtener la dirección MAC de una IP pública.",
         "passthrough_only_one_wan_tips": "Para cambiar a IP passthrough, vaya a {page} y desactive WAN como LAN o LAN como WAN.",
         "passthrough_close_edge_tips": "Para cambiar a IP Passthrough, apague {page}.",
-        "sub_tips": "Cuando utiliza {mode}, no podrá conectarse a esta interfaz de usuario nuevamente. Puede mantener presionado el botón de reinicio durante 4 segundos para volver al modo router."
+        "sub_tips": "Cuando utiliza {mode}, no podrá conectarse a esta interfaz de usuario nuevamente. Puede mantener presionado el botón de reinicio durante 4 segundos para volver al modo router.",
+        "reset_wan_port_msg": "Por favor, configure {port} como puerto WAN y solo conecte un cable Ethernet en {port}."
     },
     "menu_bridge": "Modo de Red"
 }
