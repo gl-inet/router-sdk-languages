@@ -40,7 +40,8 @@
         "passthrough_only_one_wan_tips": "Для переключения в режим IP passthrough перейдите на страницу {page} и отключите функцию WAN as LAN или LAN as WAN.",
         "passthrough_close_edge_tips": "Для переключения в режим IP Passthrough отключите {page}.",
         "sub_tips": "При использовании режима {mode} вы больше не сможете подключиться к этому интерфейсу. Для возврата в режим маршрутизатора удерживайте кнопку сброса в течение 4 секунд.",
-        "reset_wan_port_msg": "Настройте {port} в качестве WAN-порта и подключайте Ethernet-кабель только к {port}."
+        "reset_wan_port_msg": "Настройте {port} в качестве WAN-порта и подключайте Ethernet-кабель только к {port}.",
+        "unplug_cable_msg": "Отключите кабель Ethernet от порта {port}."
     },
     "menu_bridge": "Сетевой режим"
 }
