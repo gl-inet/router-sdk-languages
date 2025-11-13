@@ -40,7 +40,8 @@
         "passthrough_close_edge_tips": "Per passare alla modalità IP Passthrough, disattivare {page}.",
         "passthrough_only_one_wan_tips": "Per passare alla modalità IP passthrough, vai a {page} e disattiva WAN come LAN o LAN come WAN.",
         "sub_tips": "Quando utilizzi {mode}, non sarai più in grado di connetterti a questa interfaccia utente. Puoi premere e tenere premuto il pulsante di reset per 4 secondi per tornare alla modalità router.",
-        "reset_wan_port_msg": "Configura {port} come porta WAN e collega solo un cavo Ethernet a {port}."
+        "reset_wan_port_msg": "Configura {port} come porta WAN e collega solo un cavo Ethernet a {port}.",
+        "unplug_cable_msg": "Si prega di scollegare il cavo Ethernet dalla porta {port}."
     },
     "menu_bridge": "Modalità di rete"
 }
