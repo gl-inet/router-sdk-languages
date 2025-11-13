@@ -40,7 +40,8 @@
         "passthrough_only_one_wan_tips": "如果要切換至IP Passthrough模式，請前往{page}並關閉「WAN作為LAN」或「LAN作為WAN」功能。",
         "passthrough_close_edge_tips": "如果要切換至IP Passthrough模式，請關閉{page}。",
         "sub_tips": "當您使用{mode}時，將無法再次連接此用戶界面。您可以按住重置按鈕4秒以恢復至路由器模式。",
-        "reset_wan_port_msg": "請將 {port} 配置為 WAN 口，並僅將乙太網路線插入 {port}。"
+        "reset_wan_port_msg": "請將 {port} 配置為 WAN 口，並僅將乙太網路線插入 {port}。",
+        "unplug_cable_msg": "請從{port}拔下乙太網路線。"
     },
     "menu_bridge": "網路模式"
 }
