@@ -251,7 +251,8 @@
     "err": {
         "abnormal_operation_msg": "操作异常",
         "network_not_reachable_msg": "无法连接网络",
-        "param_illegal_msg": "参数非法，操作失败。"
+        "param_illegal_msg": "参数非法，操作失败。",
+        "connection_failed_msg": "连接失败，请稍后重试。"
     },
     "subscription": {
         "url_label": "订阅URL",
