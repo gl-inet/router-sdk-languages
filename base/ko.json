@@ -251,7 +251,8 @@
     "err": {
         "abnormal_operation_msg": "작동 예외",
         "network_not_reachable_msg": "네트워크에 연결할 수 없습니다",
-        "param_illegal_msg": "잘못된 매개변수, 작업 실패."
+        "param_illegal_msg": "잘못된 매개변수, 작업 실패.",
+        "connection_failed_msg": "연결에 실패했습니다. 나중에 다시 시도해 주세요."
     },
     "subscription": {
         "url_label": "구독 URL",
