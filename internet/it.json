@@ -553,16 +553,19 @@
         "tower": "Torre",
         "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è {networkType}, che è in conflitto con la tipologia di rete di {feature}. Si prega di accedere a {settings} per modificare la tipologia di rete prima, quindi provare a bloccare nuovamente.",
         "current_sim_badge_label": "Attivo: {sim}",
-        "connection_failed": "Connessione Fallita",
         "sim_operator": "{sim} Operatore",
         "sim_tower": "{sim} Torre",
         "sim_unlock": "Sblocca {sim}",
-        "connecting_tips": "Alcune SIM hanno restrizioni d'uso particolari, come la necessità di un APN specifico. Se la tua SIM non riesce a registrarsi, contatta il tuo operatore di rete per verificare eventuali restrizioni speciali; controlla anche se la SIM ha dati disponibili. {guide} Se il problema persiste, {log} e inviali a {addr}.",
         "download_log": "下载日志",
         "lock_tower_fail_msg": "Impossibile bloccare la torre",
         "unlock_tower_fail_msg": "Impossibile sbloccare la torre",
         "modified_mtu_reboot_tips2": "MTU è stata modificata. Si prega di riavviare il dispositivo per renderla effettiva.",
-        "modified_mtu_reboot_tips": "Se viene modificato l'MTU, si prega di riavviare il dispositivo per rendere effettiva la modifica."
+        "modified_mtu_reboot_tips": "Se viene modificato l'MTU, si prega di riavviare il dispositivo per rendere effettiva la modifica.",
+        "connection_failed_contact_support_tips": "Se il problema persiste, si prega di {log} e inviarli a {addr}.",
+        "sim_not_registered_connection_failed_tips": "La scheda SIM non è riuscita a registrarsi. Contatta il tuo operatore di rete per verificare eventuali restrizioni speciali. {guide}",
+        "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. APN attuale: {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. L'APN attuale è vuoto {guide}",
+        "connection_failed": "Connessione fallita..."
     },
     "sim": {
         "sender_label": "Mittente"

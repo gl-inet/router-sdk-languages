@@ -553,16 +553,19 @@
         "tower": "Wieża",
         "network_type_conflicts_tips": "Obecny typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci {feature}. Przejdź do {settings}, aby najpierw zmodyfikować typ sieci, a następnie spróbuj ponownie zablokować.",
         "current_sim_badge_label": "Aktywna: {sim}",
-        "connection_failed": "Połączenie nie powiodło się",
         "sim_operator": "{sim} Operator",
         "sim_tower": "{sim} Wieża",
         "sim_unlock": "Odblokuj {sim}",
-        "connecting_tips": "Niektóre karty SIM mają specjalne ograniczenia użytkowania, takie jak wymaganie konkretnego APN. Jeśli Twoja karta SIM nie może się zarejestrować, skontaktuj się z operatorem sieci, aby sprawdzić, czy nie ma specjalnych ograniczeń; sprawdź również, czy karta SIM ma dostępne dane. {guide} Jeśli problem nadal występuje, proszę {log} i wyślij je na adres {addr}.",
         "download_log": "Pobierz dzienniki",
         "lock_tower_fail_msg": "Nie udało się zablokować wieży",
         "unlock_tower_fail_msg": "Nie udało się odblokować wieży",
         "modified_mtu_reboot_tips2": "MTU zostało zmodyfikowane. Należy zrestartować urządzenie, aby zmiany zaczęły obowiązywać.",
-        "modified_mtu_reboot_tips": "Jeśli MTU zostało zmodyfikowane, należy zrestartować urządzenie, aby zmiany zaczęły obowiązywać."
+        "modified_mtu_reboot_tips": "Jeśli MTU zostało zmodyfikowane, należy zrestartować urządzenie, aby zmiany zaczęły obowiązywać.",
+        "connection_failed_contact_support_tips": "Jeśli problem będzie się powtarzał, proszę {log} i wyślij je na adres {addr}.",
+        "sim_not_registered_connection_failed_tips": "Karta SIM nie mogła się zarejestrować. Skontaktuj się z operatorem sieci, aby sprawdzić, czy istnieją specjalne ograniczenia. {guide}",
+        "sim_registered_connection_failed_tips": "Sprawdź, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. Bieżący APN: {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Proszę sprawdzić, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. Bieżący APN jest pusty {guide}",
+        "connection_failed": "Połączenie nie powiodło się..."
     },
     "sim": {
         "sender_label": "Nadawca"

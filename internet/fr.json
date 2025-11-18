@@ -553,16 +553,19 @@
         "tower": "Tour",
         "network_type_conflicts_tips": "Le type de réseau actuel de la carte SIM est {networkType}, ce qui entre en conflit avec le type de réseau de {feature}. Veuillez vous rendre dans {settings} pour modifier d'abord le type de réseau, puis réessayer le verrouillage.",
         "current_sim_badge_label": "Actif : {sim}",
-        "connection_failed": "Connexion échouée",
         "sim_operator": "{sim} Opérateur",
         "sim_tower": "{sim} Tour",
         "sim_unlock": "{sim} Déverrouiller",
-        "connecting_tips": "Certaines cartes SIM ont des restrictions d'utilisation particulières, comme l'exigence d'un APN spécifique. Si votre carte SIM ne parvient pas à s'enregistrer, veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions spéciales ; vérifiez également si la carte SIM dispose de données disponibles. {guide} Si le problème persiste, veuillez {log} et les envoyer à {addr}.",
         "download_log": "télécharger les journaux",
         "lock_tower_fail_msg": "Échec du verrouillage de la tour",
         "unlock_tower_fail_msg": "Échec du déverrouillage de la tour",
         "modified_mtu_reboot_tips2": "La MTU a été modifiée. Veuillez redémarrer l'appareil pour qu'elle prenne effet.",
-        "modified_mtu_reboot_tips": "Si le MTU est modifié, veuillez redémarrer l'appareil pour qu'il prenne effet."
+        "modified_mtu_reboot_tips": "Si le MTU est modifié, veuillez redémarrer l'appareil pour qu'il prenne effet.",
+        "connection_failed_contact_support_tips": "Si le problème persiste, veuillez {log} et les envoyer à {addr}.",
+        "sim_not_registered_connection_failed_tips": "La carte SIM n'a pas pu s'enregistrer. Veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions particulières. {guide}",
+        "sim_registered_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. APN actuel : {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. L'APN actuel est vide {guide}",
+        "connection_failed": "Connexion échouée..."
     },
     "sim": {
         "sender_label": "Expéditeur"

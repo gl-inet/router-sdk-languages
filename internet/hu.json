@@ -553,16 +553,19 @@
         "tower": "Tower",
         "network_type_conflicts_tips": "Az aktuális SIM-kártya hálózati típusa {networkType}, amely ütközik a(z) {feature} hálózati típusával. Kérjük, először a(z) {settings} oldalon módosítsa a hálózati típust, majd próbálja meg újra a zárolást.",
         "current_sim_badge_label": "Aktív: {sim}",
-        "connection_failed": "Kapcsolat sikertelen",
         "sim_operator": "{sim} Operátor",
         "sim_tower": "{sim} torony",
         "sim_unlock": "{sim} Feloldás",
         "download_log": "naplók letöltése",
-        "connecting_tips": "某些SIM卡有特殊的使用限制，例如需要特定的APN。如果您的SIM卡无法注册，请联系您的网络运营商检查是否有特殊限制；同时检查SIM卡是否有可用数据。{guide} 如果问题仍然存在，请{log}并将其发送至{addr}。",
         "lock_tower_fail_msg": "Nem sikerült a torony zárolása",
         "unlock_tower_fail_msg": "A torony feloldása sikertelen",
         "modified_mtu_reboot_tips2": "Az MTU módosítva lett. Kérjük, indítsa újra az eszközt a változás érvényesítéséhez.",
-        "modified_mtu_reboot_tips": "Ha az MTU módosításra kerül, kérjük indítsa újra az eszközt a hatályba lépés érdekében."
+        "modified_mtu_reboot_tips": "Ha az MTU módosításra kerül, kérjük indítsa újra az eszközt a hatályba lépés érdekében.",
+        "connection_failed_contact_support_tips": "Ha a probléma továbbra is fennáll, kérjük {log} és küldje el őket a {addr} címre.",
+        "sim_not_registered_connection_failed_tips": "A SIM-kártya nem sikerült regisztrálni. Kérjük, lépjen kapcsolatba a hálózati szolgáltatójával, hogy ellenőrizze az esetleges speciális korlátozásokat. {guide}",
+        "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Kérjük, ellenőrizze, hogy az SIM-kártyának van-e rendelkezésre álló adatforgalma, és hogy a {apnBtn} beállítások helyesek-e. A jelenlegi APN érték üres {guide}",
+        "connection_failed": "Kapcsolat sikertelen..."
     },
     "sim": {
         "sender_label": "Feladó"

@@ -553,16 +553,19 @@
         "tower": "基站",
         "network_type_conflicts_tips": "当前 SIM 卡网络类型为{networkType}，与此{feature}网络类型冲突。请先请前往 {settings}中修改网络类型，再尝试锁定。",
         "current_sim_badge_label": "正在使用 {sim}",
-        "connection_failed": "连接失败",
         "sim_operator": "{sim} 运营商",
         "sim_tower": "{sim} 基站",
         "sim_unlock": "{sim} 解锁",
-        "connecting_tips": "某些 SIM 卡有特殊使用限制，例如需要特定 APN。若您的 SIM 卡无法注册，请联系网络运营商检查是否存在特殊限制；同时请检查 SIM 卡是否有可用流量。{guide} 若问题仍然存在，请{log}并发送至{addr}。",
         "download_log": "下载日志",
         "lock_tower_fail_msg": "锁定基站失败",
         "unlock_tower_fail_msg": "解锁基站失败",
         "modified_mtu_reboot_tips2": "MTU 已修改，请重启设备使其生效。",
-        "modified_mtu_reboot_tips": "如果修改了MTU，请重启设备使其生效。"
+        "modified_mtu_reboot_tips": "如果修改了MTU，请重启设备使其生效。",
+        "connection_failed_contact_support_tips": "若问题依旧，请{log}并发送至{addr}。",
+        "sim_not_registered_connection_failed_tips": "SIM 卡未注册。请联系网络运营商确认是否存在特殊限制。{guide}",
+        "sim_registered_connection_failed_tips": "请检查 SIM 卡是否有可用流量，以及 {apnBtn} 设置是否正确，当前 APN：{apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "请检查 SIM 卡是否有可用流量，以及 {apnBtn} 设置是否正确，当前 APN 值为空 {guide}",
+        "connection_failed": "连接失败..."
     },
     "sim": {
         "sender_label": "发件人"

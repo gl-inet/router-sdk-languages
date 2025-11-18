@@ -39,7 +39,9 @@
         "passthrough_mac_tips": "Ceci est utilisé pour obtenir l'adresse MAC d'une IP publique.",
         "passthrough_only_one_wan_tips": "Pour passer en mode IP passthrough, rendez-vous sur {page} et désactivez WAN as LAN ou LAN as WAN.",
         "passthrough_close_edge_tips": "Pour passer en mode IP Passthrough, éteignez {page}.",
-        "sub_tips": "Lorsque vous utilisez {mode}, vous ne pourrez plus vous connecter à cette interface. Vous pouvez maintenir enfoncé le bouton de réinitialisation pendant 4 secondes pour revenir au mode routeur."
+        "sub_tips": "Lorsque vous utilisez {mode}, vous ne pourrez plus vous connecter à cette interface. Vous pouvez maintenir enfoncé le bouton de réinitialisation pendant 4 secondes pour revenir au mode routeur.",
+        "reset_wan_port_msg": "Veuillez configurer {port} en tant que port WAN et ne branchez qu'un câble Ethernet dans {port}.",
+        "unplug_cable_msg": "Veuillez débrancher le câble Ethernet du port {port}."
     },
     "menu_bridge": "Comportement"
 }

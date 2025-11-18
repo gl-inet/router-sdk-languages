@@ -39,7 +39,9 @@
         "passthrough_mac_tips": "Bu, genel bir IP'nin MAC adresini almak için kullanılır.",
         "passthrough_only_one_wan_tips": "IP passthrough'a geçmek için {page} sayfasına gidin ve WAN as LAN veya LAN as WAN'ı kapatın.",
         "passthrough_close_edge_tips": "IP Passthrough'a geçmek için {page} kapatın.",
-        "sub_tips": "{mode} kullanırken bu arayüze tekrar bağlanamayacaksınız. Yönlendirici moduna dönmek için sıfırlama düğmesini 4 saniye basılı tutabilirsiniz."
+        "sub_tips": "{mode} kullanırken bu arayüze tekrar bağlanamayacaksınız. Yönlendirici moduna dönmek için sıfırlama düğmesini 4 saniye basılı tutabilirsiniz.",
+        "reset_wan_port_msg": "Lütfen {port}'u bir WAN bağlantı noktası olarak yapılandırın ve yalnızca bir Ethernet kablosunu {port}'a takın.",
+        "unplug_cable_msg": "Lütfen Ethernet kablosunu {port} bağlantı noktasından çıkarın."
     },
     "menu_bridge": "Ağ Modu"
 }

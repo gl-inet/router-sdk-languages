@@ -39,7 +39,9 @@
         "passthrough_mac_tips": "Šis yra naudojamas gauti viešojo IP „MAC“ adresą.",
         "passthrough_close_edge_tips": "Norėdami perjungti į IP pérdavos veikseną, išjunkite – {page}.",
         "passthrough_only_one_wan_tips": "Norėdami perjungti į IP pérdavos veikseną, eikite į – {page} ir išjunkite „WAN“ veikimą kaip „LAN“ arba „LAN“ veikimą kaip „WAN“.",
-        "sub_tips": "Kai naudojate – {mode}; nebegalėsite prisijungti prie šios naudotojo/vartotojo grafinės sąsajos. Galėsite paspausti ir laikyti atstatymo mygtuką maršrutizatoriuje 4-iom sekundėm, kad grąžintumėte veikimą į maršrutizatoriaus veikseną."
+        "sub_tips": "Kai naudojate – {mode}; nebegalėsite prisijungti prie šios naudotojo/vartotojo grafinės sąsajos. Galėsite paspausti ir laikyti atstatymo mygtuką maršrutizatoriuje 4-iom sekundėm, kad grąžintumėte veikimą į maršrutizatoriaus veikseną.",
+        "reset_wan_port_msg": "Prašome sukonfigūruoti {port} kaip WAN prievadą ir prijungti tik „Ethernet“ laidą prie {port}.",
+        "unplug_cable_msg": "Atjunkite „ethernet“ laidą iš {port}."
     },
     "menu_bridge": "Tinklo veiksena"
 }

@@ -565,16 +565,19 @@
         "tower": "Kule",
         "network_type_conflicts_tips": "Mevcut SIM kart ağ türü {networkType} olup, {feature}'ın ağ türüyle çakışmaktadır. Lütfen önce ağ türünü değiştirmek için {settings}'e gidin, ardından tekrar kilitlemeyi deneyin.",
         "current_sim_badge_label": "Aktif: {sim}",
-        "connection_failed": "Bağlantı Başarısız",
         "sim_operator": "{sim} Operatör",
         "sim_tower": "{sim} Kulesi",
         "sim_unlock": "{sim} Kilidini Aç",
-        "connecting_tips": "Bazı SIM kartların özel kullanım kısıtlamaları bulunur, örneğin belirli bir APN gerektirebilir. SIM kartınız kayıt işlemini gerçekleştiremezse, özel kısıtlamalar olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin; ayrıca SIM kartın kullanılabilir verisi olup olmadığını kontrol edin. {guide} Sorun devam ederse, lütfen {log} ve bunları {addr} adresine gönderin.",
         "download_log": "günlükleri indir",
         "lock_tower_fail_msg": "Kule kilitlenemedi",
         "unlock_tower_fail_msg": "Kule açılamadı",
         "modified_mtu_reboot_tips2": "MTU değiştirildi. Etkili olması için lütfen cihazı yeniden başlatın.",
-        "modified_mtu_reboot_tips": "MTU değiştirilirse, etkili olması için lütfen cihazı yeniden başlatın."
+        "modified_mtu_reboot_tips": "MTU değiştirilirse, etkili olması için lütfen cihazı yeniden başlatın.",
+        "connection_failed_contact_support_tips": "Sorun devam ederse, lütfen {log} kayıtlarını {addr} adresine gönderin.",
+        "sim_not_registered_connection_failed_tips": "SIM kartı kaydı başarısız oldu. Lütfen herhangi bir özel kısıtlama olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin. {guide}",
+        "sim_registered_connection_failed_tips": "Lütfen SIM kartın kullanılabilir verisi olup olmadığını ve {apnBtn} ayarlarının doğru olup olmadığını kontrol edin. Mevcut APN: {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Lütfen SIM kartın kullanılabilir verisi olup olmadığını ve {apnBtn} ayarlarının doğru olup olmadığını kontrol edin. Mevcut APN boş {guide}",
+        "connection_failed": "Bağlantı başarısız..."
     },
     "sim": {
         "sender_label": "Gönderen"

@@ -553,16 +553,19 @@
         "tower": "Toren",
         "network_type_conflicts_tips": "Het huidige SIM-kaartnetwerktype is {networkType}, wat conflicteert met het netwerktype van {feature}. Ga naar {settings} om eerst het netwerktype aan te passen en probeer daarna opnieuw te vergrendelen.",
         "current_sim_badge_label": "Actief: {sim}",
-        "connection_failed": "Verbinding mislukt",
         "sim_operator": "{sim} Operator",
         "sim_tower": "{sim} Toren",
         "sim_unlock": "{sim} Ontgrendelen",
-        "connecting_tips": "Sommige SIM-kaarten hebben speciale gebruiksbeperkingen, zoals een specifieke APN. Als uw SIM-kaart niet kan registreren, neem dan contact op met uw netwerkoperator om te controleren op speciale beperkingen; controleer ook of de SIM-kaart beschikbare data heeft. {guide} Als het probleem aanhoudt, {log} en stuur deze naar {addr}.",
         "download_log": "download de logs",
         "lock_tower_fail_msg": "Torenvergrendeling mislukt",
         "unlock_tower_fail_msg": "Toren ontgrendelen mislukt",
         "modified_mtu_reboot_tips2": "MTU is gewijzigd. Gelieve het apparaat opnieuw op te starten om de wijziging door te voeren.",
-        "modified_mtu_reboot_tips": "Als MTU wordt gewijzigd, gelieve het apparaat opnieuw op te starten om de wijziging door te voeren."
+        "modified_mtu_reboot_tips": "Als MTU wordt gewijzigd, gelieve het apparaat opnieuw op te starten om de wijziging door te voeren.",
+        "connection_failed_contact_support_tips": "Als het probleem aanhoudt, {log} en stuur ze naar {addr}.",
+        "sim_not_registered_connection_failed_tips": "SIM-kaart kon niet worden geregistreerd. Neem contact op met uw netwerkoperator om te controleren op speciale beperkingen. {guide}",
+        "sim_registered_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. Huidige APN is leeg {guide}.",
+        "connection_failed": "Verbinding mislukt..."
     },
     "sim": {
         "sender_label": "Afzender"

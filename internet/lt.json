@@ -553,16 +553,19 @@
         "tower": "Tower",
         "network_type_conflicts_tips": "Dabartinis SIM kortelės tinklo tipas yra {networkType}, kuris prieštarauja {feature} tinklo tipui. Prašome eiti į {settings}, kad pirmiausia pakeistumėte tinklo tipą, tada bandykite užrakinti dar kartą.",
         "current_sim_badge_label": "Aktyvus: {sim}",
-        "connection_failed": "Ryšys nepavyko",
         "sim_operator": "{sim} operatorius",
         "sim_tower": "{sim} bokštas",
         "sim_unlock": "{sim} Atrakinti",
-        "connecting_tips": "Kai kurios SIM kortelės turi specialius naudojimo apribojimus, pavyzdžiui, reikalauja konkretaus APN. Jei jūsų SIM kortelė nepavyksta registruoti, susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus; taip pat patikrinkite, ar SIM kortelėje yra prieinamų duomenų. {guide} Jei problema išlieka, prašome {log} ir atsiųskite juos {addr}.",
         "download_log": "atsisiųsti žurnalus",
         "lock_tower_fail_msg": "Nepavydo užrakinti bokšto",
         "unlock_tower_fail_msg": "Nepavyko atrakinti bokšto",
         "modified_mtu_reboot_tips2": "MTU buvo pakeistas. Norint, kad pakeitimai įsigaliotų, reikia paleisti įrenginį iš naujo.",
-        "modified_mtu_reboot_tips": "Jei „MTU“ yra modifikuotas, prašome paleisti įrenginį iš naujo, kad jis įsigaliotų."
+        "modified_mtu_reboot_tips": "Jei „MTU“ yra modifikuotas, prašome paleisti įrenginį iš naujo, kad jis įsigaliotų.",
+        "connection_failed_contact_support_tips": "Jei problema išlieka, prašome {log} ir išsiųskite juos į {addr}.",
+        "sim_not_registered_connection_failed_tips": "SIM kortelė nepavyko užregistruoti. Susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus. {guide}",
+        "sim_registered_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar teisingi {apnBtn} nustatymai. Dabartinis APN: {apn} {guide}",
+        "sim_registered_apn_is_empty_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar {apnBtn} nustatymai yra teisingi. Dabartinis APN yra tuščias {guide}",
+        "connection_failed": "Ryšys nepavyko..."
     },
     "sim": {
         "sender_label": "Siuntėjas"

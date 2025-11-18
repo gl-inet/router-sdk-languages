@@ -251,7 +251,8 @@
     "err": {
         "network_not_reachable_msg": "ネットワークに到達できません",
         "abnormal_operation_msg": "操作上の例外が発生",
-        "param_illegal_msg": "不正なパラメーターのため、操作に失敗しました。"
+        "param_illegal_msg": "不正なパラメーターのため、操作に失敗しました。",
+        "connection_failed_msg": "接続に失敗しました。後でもう一度お試しください。"
     },
     "subscription": {
         "url_label": "購読URL",
