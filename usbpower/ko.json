@@ -1,24 +1,24 @@
 {
     "usb": {
-        "power_direction_label": "电源方向",
-        "power_threshold_label": "电源阈值",
-        "tethring_label": "网络共享",
-        "usb_host_label": "USB网络共享（主机模式）",
-        "output_label": "输出优先级",
-        "protocol_label": "USB协议切换",
-        "usb_mode_label": "双角色USB模式",
-        "ask_me_label": "询问我",
-        "input_label": "输入优先级"
+        "power_direction_label": "전원 방향",
+        "power_threshold_label": "전원 임계값",
+        "tethring_label": "네트워크 공유",
+        "usb_host_label": "USB 네트워크 공유 (호스트 모드)",
+        "output_label": "출력 우선순위",
+        "protocol_label": "USB 프로토콜 전환",
+        "usb_mode_label": "이중 역할 USB 모드",
+        "ask_me_label": "나에게 묻다",
+        "input_label": "입력 우선순위"
     },
     "power": {
-        "ethernet_idle_timeout_label": "以太网闲置超时",
-        "power_off_timeout_label": "关机超时",
-        "power_title": "电源",
-        "wifi_sleep_time_label": "Wi-Fi闲置超时",
-        "power_charger_label": "充电时开机",
-        "auto_system_standby_tips": "启用后，当网络处于闲置状态、未连接USB且未使用中继模式时，系统将自动进入待机状态。",
-        "never_label": "从不",
-        "auto_system_standby_label": "自动系统待机"
+        "ethernet_idle_timeout_label": "이더넷 유휴 시간 초과",
+        "power_off_timeout_label": "종료 시간 초과",
+        "power_title": "전원",
+        "wifi_sleep_time_label": "Wi-Fi 유휴 시간 초과",
+        "power_charger_label": "충전 시 기기 켜기",
+        "auto_system_standby_tips": "활성화하면 네트워크가 유휴 상태이고 USB가 연결되지 않으며 리피터를 사용하지 않는 경우 시스템이 자동으로 대기 모드에 진입합니다.",
+        "never_label": "절대",
+        "auto_system_standby_label": "자동 시스템 대기 모드"
     },
-    "menu_usbpower": "USB与电源"
+    "menu_usbpower": "USB와 전원"
 }
