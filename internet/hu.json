@@ -565,7 +565,8 @@
         "sim_not_registered_connection_failed_tips": "A SIM-kártya nem sikerült regisztrálni. Kérjük, lépjen kapcsolatba a hálózati szolgáltatójával, hogy ellenőrizze az esetleges speciális korlátozásokat. {guide}",
         "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Kérjük, ellenőrizze, hogy az SIM-kártyának van-e rendelkezésre álló adatforgalma, és hogy a {apnBtn} beállítások helyesek-e. A jelenlegi APN érték üres {guide}",
-        "connection_failed": "Kapcsolat sikertelen..."
+        "connection_failed": "Kapcsolat sikertelen...",
+        "save_tower_config_fail_msg": "Nem sikerült menteni a torony konfigurációt"
     },
     "sim": {
         "sender_label": "Feladó"
