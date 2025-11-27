@@ -52,7 +52,13 @@
         "custom_drawer_tips_one": "Önceliği ayarlamak için sürükleyin.",
         "other_description": "Siber güvenlik, cihaz-iot, devlet, teknoloji, telekom, siber güvenlik, vpn-ve-proxy, sınıflandırılmamış dahil",
         "tips": "Etkinleştirildiğinde, yönlendiriciniz kritik uygulamalar (örneğin, video görüşmeleri, çevrimiçi dersler, oyunlar) için bant genişliğine öncelik vererek, yoğun ağ kullanımı sırasında bile sorunsuz performans sağlar.",
-        "education_description": "Çevrimiçi öğrenme platformları, akademik kaynaklar dahil"
+        "education_description": "Çevrimiçi öğrenme platformları, akademik kaynaklar dahil",
+        "gambling_name": "Kumar",
+        "gambling_description": "Çevrimiçi kumar web siteleri ve uygulamalarını içerir",
+        "malware_name": "Kötü Amaçlı Yazılım",
+        "adult_description": "Yetişkin içerikli web siteleri ve hizmetlerini içerir",
+        "malware_description": "Güvenlik tehdidi oluşturan kötü amaçlı alan adları veya hizmetleri içerir",
+        "adult_name": "Yetişkin"
     },
     "flowstatistics": {
         "card_title": "Uygulama Toplam Verisi",
@@ -76,7 +82,9 @@
         "app_block_tips": "Uygulama engelleme SafeGuard tarafından desteklenmektedir.",
         "mac_label": "MAC",
         "flowstatistics_tips": "Veri İstatistikleri etkinleştirildiğinde, yönlendiricideki ve bağlı istemcilerdeki uygulama trafiğini izler ve uygulamaları toplam kullanıma göre azalan sırada görüntüler. Her uygulama için ayrıntılı verileri görüntüleyebilir ve gerektiğinde tek tek uygulamaları engelleyebilirsiniz.",
-        "to_safeGuard_btn": "SafeGuard'a Git"
+        "to_safeGuard_btn": "SafeGuard'a Git",
+        "clear_statistical_label": "Mevcut sayfanın tüm istatistiksel verilerini temizlemek istiyor musunuz?",
+        "search_app_input_placeholder": "Lütfen aramak için uygulama adını girin"
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
