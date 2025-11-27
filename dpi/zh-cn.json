@@ -52,7 +52,13 @@
         "other_description": "包括网络安全、物联网设备、政府、技术、电信、网络安全、VPN和代理、未分类",
         "tips": "启用后，您的路由器会优先为关键应用程序（如视频通话、在线课程、游戏）分配带宽，确保即使在网络使用高峰期也能保持流畅性能。",
         "advertisement_description": "包括广告网络、追踪平台、推广内容",
-        "dangerous_website_name": "危险网站"
+        "dangerous_website_name": "危险网站",
+        "gambling_name": "赌博",
+        "gambling_description": "包含在线赌博网站和应用程序",
+        "adult_description": "包含与成人内容相关的网站和服务",
+        "malware_description": "包含构成安全威胁的恶意域名或服务",
+        "adult_name": "成人内容",
+        "malware_name": "恶意软件"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
@@ -76,7 +82,9 @@
         "to_safeGuard_alert": "请先启用安全防护。",
         "data_usage_title": "数据使用情况",
         "to_safeGuard_btn": "前往安全防护",
-        "page_warning": "请输入有效页码(1-{totalPage})"
+        "page_warning": "请输入有效页码(1-{totalPage})",
+        "clear_statistical_label": "是否清除当前页面的所有统计数据？",
+        "search_app_input_placeholder": "请输入应用名称进行搜索"
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
