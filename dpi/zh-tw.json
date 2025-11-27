@@ -52,7 +52,13 @@
         "tips": "啟用後，路由器將優先分配頻寬給關鍵應用程式（例如：視訊通話、線上課程、遊戲），確保即使在網路使用高峰期間也能保持流暢效能。",
         "work_description": "包括VoIP、遠端桌面、檔案共享、郵件、金融、參考資源",
         "custom_drawer_tips_two": "注意：較高優先級的流量將優先轉發，其次為較低優先級流量。",
-        "meeting_name": "會議"
+        "meeting_name": "會議",
+        "gambling_name": "賭博",
+        "malware_name": "惡意軟體",
+        "adult_description": "包含與成人內容相關的網站和服務",
+        "malware_description": "包含構成安全威脅的惡意網域或服務",
+        "gambling_description": "包含線上賭博網站和應用程式",
+        "adult_name": "成人"
     },
     "flowstatistics": {
         "card_title": "應用程式總數據量",
@@ -76,7 +82,9 @@
         "last_seen_label": "最後出現時間",
         "app_block_tips": "應用程式封鎖功能由內容保護提供支援。",
         "past_week_label": "過去一週",
-        "past_day_label": "過去一天"
+        "past_day_label": "過去一天",
+        "search_app_input_placeholder": "請輸入應用程式名稱進行搜尋",
+        "clear_statistical_label": "清除當前頁面的所有統計數據？"
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
