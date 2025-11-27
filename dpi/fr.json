@@ -52,7 +52,13 @@
         "other_name": "Autre",
         "other_description": "Incluant cybersécurité, appareils-iot, gouvernement, technologie, télécom, cybersécurité, vpn-et-proxy, non classifié",
         "tips": "Lorsqu'activé, votre routeur priorise la bande passante pour les applications critiques (ex: appels vidéo, cours en ligne, jeux), garantissant des performances fluides même pendant les périodes de forte utilisation du réseau.",
-        "custom_drawer_tips_one": "Glissez pour ajuster la priorité."
+        "custom_drawer_tips_one": "Glissez pour ajuster la priorité.",
+        "gambling_description": "Inclut les sites web et applications de jeux d'argent en ligne",
+        "malware_name": "Logiciels malveillants",
+        "gambling_name": "Jeux d'argent",
+        "malware_description": "Inclut les domaines malveillants ou services présentant des menaces de sécurité",
+        "adult_name": "Contenu pour adultes",
+        "adult_description": "Inclut les sites web et services liés au contenu pour adultes"
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
@@ -76,7 +82,9 @@
         "flowstatistics_tips": "Lorsque les Statistiques de Données sont activées, elles suivent le trafic des applications sur le routeur et les clients connectés, affichant les applications par ordre décroissant d'utilisation totale. Vous pouvez consulter les données détaillées pour chaque application et bloquer des applications individuelles si nécessaire.",
         "upload_label": "Uploader",
         "past_week_label": "Semaine dernière",
-        "mac_label": "MAC"
+        "mac_label": "MAC",
+        "search_app_input_placeholder": "Veuillez saisir le nom de l'application à rechercher",
+        "clear_statistical_label": "Effacer toutes les données statistiques de la page actuelle ?"
     },
     "menu_sqm": "SQM",
     "menu_flowstatistics": "Statistiques des Données",
