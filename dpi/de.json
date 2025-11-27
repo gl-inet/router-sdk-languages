@@ -52,7 +52,13 @@
         "video_priority_desc": "Priorisieren Sie Video-Streaming für unterbrechungsfreie Wiedergabe und HD-Qualität.",
         "webpage_name": "Webseite",
         "custom_drawer_tips_two": "Hinweis: Verkehr mit höherer Priorität wird zuerst weitergeleitet, gefolgt von Verkehr mit niedrigerer Priorität.",
-        "quality_title": "QoS aktivieren"
+        "quality_title": "QoS aktivieren",
+        "malware_name": "Schadsoftware",
+        "gambling_name": "Glücksspiel",
+        "gambling_description": "Einschließlich Online-Glücksspiel-Websites und Anwendungen",
+        "adult_name": "Erwachseneninhalte",
+        "adult_description": "Einschließlich Websites und Dienste mit Inhalten für Erwachsene",
+        "malware_description": "Einschließlich bösartiger Domains oder Dienste, die Sicherheitsbedrohungen darstellen"
     },
     "flowstatistics": {
         "card_title": "Anwendungsgesamt-Daten",
@@ -76,7 +82,9 @@
         "application_label": "Anwendung",
         "app_block_tips": "App-Blockierung wird von SafeGuard bereitgestellt.",
         "to_safeGuard_btn": "Zu SafeGuard gehen",
-        "table_title": "App-Datenverkehrsstatistiken"
+        "table_title": "App-Datenverkehrsstatistiken",
+        "search_app_input_placeholder": "Bitte geben Sie den App-Namen zur Suche ein",
+        "clear_statistical_label": "Alle statistischen Daten der aktuellen Seite löschen?"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
