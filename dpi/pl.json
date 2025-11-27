@@ -52,7 +52,13 @@
         "web_browing_priority": "Priorytet przeglądania internetu",
         "other_description": "W tym cyberbezpieczeństwo, urządzenia-iot, rząd, technologia, telekomunikacja, cyberbezpieczeństwo, vpn-i-proxy, niesklasyfikowane",
         "tips": "Po włączeniu router priorytetyzuje przepustowość dla krytycznych aplikacji (np. wideorozmowy, lekcje online, gry), zapewniając płynną wydajność nawet podczas szczytowego wykorzystania sieci.",
-        "mode_title": "Przydziel przepustowość na podstawie priorytetu aplikacji."
+        "mode_title": "Przydziel przepustowość na podstawie priorytetu aplikacji.",
+        "gambling_name": "Hazard",
+        "gambling_description": "Obejmuje witryny hazardowe i aplikacje online",
+        "malware_name": "Złośliwe oprogramowanie",
+        "adult_description": "Obejmuje witryny i usługi związane z treściami dla dorosłych",
+        "malware_description": "Obejmuje złośliwe domeny lub usługi stanowiące zagrożenie bezpieczeństwa",
+        "adult_name": "Dla dorosłych"
     },
     "flowstatistics": {
         "card_title": "Całkowite Dane Aplikacji",
@@ -76,7 +82,9 @@
         "to_safeGuard_alert": "Proszę najpierw włączyć SafeGuard.",
         "to_safeGuard_btn": "Przejdź do SafeGuard",
         "data_usage_title": "Zużycie Danych",
-        "flowstatistics_tips": "Gdy Statystyki Danych są włączone, śledzą one ruch aplikacji na routerze i podłączonych klientach, wyświetlając aplikacje w kolejności malejącego całkowitego użycia. Możesz przeglądać szczegółowe dane dla każdej aplikacji i w razie potrzeby blokować poszczególne aplikacje."
+        "flowstatistics_tips": "Gdy Statystyki Danych są włączone, śledzą one ruch aplikacji na routerze i podłączonych klientach, wyświetlając aplikacje w kolejności malejącego całkowitego użycia. Możesz przeglądać szczegółowe dane dla każdej aplikacji i w razie potrzeby blokować poszczególne aplikacje.",
+        "search_app_input_placeholder": "Wprowadź nazwę aplikacji do wyszukania",
+        "clear_statistical_label": "Czy wyczyścić wszystkie dane statystyczne bieżącej strony?"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
