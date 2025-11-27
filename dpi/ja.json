@@ -52,7 +52,13 @@
         "quality_title": "QoSを有効にする",
         "mode_title": "アプリケーションの優先度に基づいて帯域幅を割り当てます。",
         "customize_priority_desc": "アプリケーションの優先度をカスタマイズします。",
-        "gaming_priority_desc": "オンラインゲームを優先し、ラグやパケットロスを回避します。"
+        "gaming_priority_desc": "オンラインゲームを優先し、ラグやパケットロスを回避します。",
+        "gambling_name": "ギャンブル",
+        "gambling_description": "オンラインギャンブルのウェブサイトとアプリケーションを含む",
+        "malware_name": "マルウェア",
+        "malware_description": "セキュリティ上の脅威をもたらす悪意のあるドメインまたはサービスを含む",
+        "adult_name": "アダルト",
+        "adult_description": "アダルトコンテンツに関連するウェブサイトとサービスを含む"
     },
     "flowstatistics": {
         "card_title": "アプリケーション総データ量",
@@ -76,7 +82,9 @@
         "page_warning": "有効なページ番号を入力してください(1-{totalPage})",
         "past_day_label": "過去1日間",
         "to_safeGuard_alert": "まずSafeGuardを有効にしてください。",
-        "total_label": "総帯域幅"
+        "total_label": "総帯域幅",
+        "search_app_input_placeholder": "アプリ名を入力して検索してください",
+        "clear_statistical_label": "現在のページの統計データをすべてクリアしますか？"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
