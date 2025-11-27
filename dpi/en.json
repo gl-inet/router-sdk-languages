@@ -52,7 +52,13 @@
         "advertisement_name": "Advertisement",
         "advertisement_description": "Including advertising networks, tracking platforms, promotional content",
         "other_name": "Other",
-        "other_description": "Including cybersecurity, device-iot, government, technology, telco, cybersecurity, vpn-and-proxy, unclassified"
+        "other_description": "Including cybersecurity, device-iot, government, technology, telco, cybersecurity, vpn-and-proxy, unclassified",
+        "gambling_name": "Gambling",
+        "gambling_description": "Including online gambling websites and applications",
+        "malware_name": "Malware",
+        "malware_description": "Including malicious domains or services that pose security threats",
+        "adult_name": "Adult",
+        "adult_description": "Including websites and services related to adult content"
     },
     "flowstatistics": {
         "card_title": "Application Total Data",
@@ -76,7 +82,9 @@
         "last_seen_label": "Last Seen",
         "to_safeGuard_alert": "Please enable Content Protection first.",
         "to_safeGuard_btn": "Go To Content Protection",
-        "data_usage_title": "Data Usage"
+        "data_usage_title": "Data Usage",
+        "search_app_input_placeholder": "Please enter the app name to search",
+        "clear_statistical_label": "Clear all statistical data of the current page?"
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",
