@@ -577,7 +577,8 @@
         "sim_not_registered_connection_failed_tips": "SIM kartı kaydı başarısız oldu. Lütfen herhangi bir özel kısıtlama olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin. {guide}",
         "sim_registered_connection_failed_tips": "Lütfen SIM kartın kullanılabilir verisi olup olmadığını ve {apnBtn} ayarlarının doğru olup olmadığını kontrol edin. Mevcut APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Lütfen SIM kartın kullanılabilir verisi olup olmadığını ve {apnBtn} ayarlarının doğru olup olmadığını kontrol edin. Mevcut APN boş {guide}",
-        "connection_failed": "Bağlantı başarısız..."
+        "connection_failed": "Bağlantı başarısız...",
+        "save_tower_config_fail_msg": "Kule yapılandırması kaydedilemedi"
     },
     "sim": {
         "sender_label": "Gönderen"
