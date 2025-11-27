@@ -565,7 +565,8 @@
         "sim_not_registered_connection_failed_tips": "Не вдалося зареєструвати SIM-карту. Будь ласка, зверніться до вашого мережевого оператора для перевірки наявності спеціальних обмежень. {guide}",
         "sim_registered_connection_failed_tips": "Будь ласка, перевірте, чи має SIM-карта доступні дані та чи правильні налаштування {apnBtn}. Поточний APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Будь ласка, перевірте, чи має SIM-карта доступні дані та чи правильні налаштування {apnBtn}. Поточний APN порожній {guide}.",
-        "connection_failed": "З'єднання не вдалося..."
+        "connection_failed": "З'єднання не вдалося...",
+        "save_tower_config_fail_msg": "Не вдалося зберегти конфігурацію вежі"
     },
     "sim": {
         "sender_label": "Відправник"
