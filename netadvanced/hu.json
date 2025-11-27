@@ -3,5 +3,6 @@
         "full_cone_nat_tips": "Full Cone NAT, azaz közvetlen címfordítás segítségével csökkenthető a válaszidő, ugyanakkor kevésbé biztonságos.",
         "sip_alg_tips": "A SIP ALG használható a többszörös NAT-ok hatásainak mérséklésére, de a legtöbb esetben nem segít. A SIP ALG engedélyezése befolyásolhatja a VoIP hívásokat, mint például az egyirányú hangátvitelt (csak az egyik fél hallja a másikat), a telefonok nem csörögnek hívás közben, a telefonok lekapcsolódnak kapcsolat közben, és a hívások közvetlenül a hangpostára mennek."
     },
-    "menu_netadvanced": "Címfordítás (NAT)"
+    "menu_netadvanced": "Címfordítás (NAT)",
+    "menu_natmode": "NAT mód"
 }
