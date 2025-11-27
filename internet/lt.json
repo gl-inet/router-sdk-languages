@@ -565,7 +565,8 @@
         "sim_not_registered_connection_failed_tips": "SIM kortelė nepavyko užregistruoti. Susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus. {guide}",
         "sim_registered_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar teisingi {apnBtn} nustatymai. Dabartinis APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar {apnBtn} nustatymai yra teisingi. Dabartinis APN yra tuščias {guide}",
-        "connection_failed": "Ryšys nepavyko..."
+        "connection_failed": "Ryšys nepavyko...",
+        "save_tower_config_fail_msg": "Nepavyko išsaugoti bokšto konfigūracijos"
     },
     "sim": {
         "sender_label": "Siuntėjas"
