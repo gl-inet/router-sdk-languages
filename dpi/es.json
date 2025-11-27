@@ -52,7 +52,13 @@
         "shopping_name": "Compras",
         "tips": "Cuando está habilitado, su router prioriza el ancho de banda para aplicaciones críticas (por ejemplo, videollamadas, clases en línea, juegos), garantizando un rendimiento fluido incluso durante el uso máximo de la red.",
         "advertisement_description": "Incluyendo redes publicitarias, plataformas de seguimiento, contenido promocional",
-        "custom_drawer_tips_two": "Nota: El tráfico de mayor prioridad se reenvía primero, seguido del tráfico de menor prioridad."
+        "custom_drawer_tips_two": "Nota: El tráfico de mayor prioridad se reenvía primero, seguido del tráfico de menor prioridad.",
+        "gambling_description": "Incluye sitios web y aplicaciones de juego en línea",
+        "gambling_name": "Juego de azar",
+        "malware_name": "Software malicioso",
+        "malware_description": "Incluye dominios maliciosos o servicios que representan amenazas de seguridad",
+        "adult_name": "Adultos",
+        "adult_description": "Incluye sitios web y servicios relacionados con contenido para adultos"
     },
     "flowstatistics": {
         "card_title": "Datos Totales de Aplicación",
@@ -76,7 +82,9 @@
         "page_warning": "Por favor ingrese un número de página válido (1-{totalPage})",
         "client_port_label": "Puerto del Cliente",
         "to_safeGuard_alert": "Por favor, active primero SafeGuard.",
-        "total_label": "Ancho de banda total"
+        "total_label": "Ancho de banda total",
+        "search_app_input_placeholder": "Ingrese el nombre de la aplicación para buscar",
+        "clear_statistical_label": "¿Borrar todos los datos estadísticos de la página actual?"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
