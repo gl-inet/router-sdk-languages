@@ -565,7 +565,8 @@
         "sim_not_registered_connection_failed_tips": "La scheda SIM non è riuscita a registrarsi. Contatta il tuo operatore di rete per verificare eventuali restrizioni speciali. {guide}",
         "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. APN attuale: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. L'APN attuale è vuoto {guide}",
-        "connection_failed": "Connessione fallita..."
+        "connection_failed": "Connessione fallita...",
+        "save_tower_config_fail_msg": "Impossibile salvare la configurazione della torre"
     },
     "sim": {
         "sender_label": "Mittente"
