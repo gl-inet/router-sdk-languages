@@ -52,7 +52,13 @@
         "custom_drawer_tips_two": "Megjegyzés: A magasabb prioritású forgalom kerül először továbbításra, majd az alacsonyabb prioritású forgalom.",
         "customize_priority_desc": "Alkalmazás prioritások testreszabása.",
         "webpage_description": "Beleértve a portált, üzleti",
-        "meeting_description": "Beleértve a voip"
+        "meeting_description": "Beleértve a voip",
+        "malware_name": "Kártevő szoftver",
+        "gambling_name": "Szerencsejáték",
+        "gambling_description": "Online szerencsejáték weboldalakat és alkalmazásokat tartalmaz",
+        "malware_description": "Biztonsági fenyegetést jelentő kártékony domaineket vagy szolgáltatásokat tartalmaz",
+        "adult_name": "Felnőtt tartalom",
+        "adult_description": "Felnőtt tartalommal kapcsolatos weboldalakat és szolgáltatásokat tartalmaz"
     },
     "flowstatistics": {
         "card_title": "Alkalmazás teljes adatmennyisége",
@@ -76,7 +82,9 @@
         "flowstatistics_tips": "Ha az Adatstatisztika engedélyezve van, nyomon követi az alkalmazások forgalmát az útválasztón és a csatlakoztatott klienseken, és az alkalmazásokat a teljes használat szerinti csökkenő sorrendben jeleníti meg. Megtekintheti az egyes alkalmazások részletes adatait, és szükség esetén letilthatja az egyes alkalmazásokat.",
         "to_safeGuard_btn": "Ugrás a SafeGuard-hez",
         "client_port_label": "Kliens port",
-        "past_hour_label": "Elmúlt óra"
+        "past_hour_label": "Elmúlt óra",
+        "search_app_input_placeholder": "Kérjük, adja meg az alkalmazás nevét a kereséshez",
+        "clear_statistical_label": "Törli az aktuális oldal összes statisztikai adatát?"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
