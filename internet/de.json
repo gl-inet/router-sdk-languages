@@ -565,7 +565,8 @@
         "sim_not_registered_connection_failed_tips": "SIM-Karte konnte nicht registriert werden. Bitte wenden Sie sich an Ihren Netzbetreiber, um mögliche spezielle Einschränkungen zu überprüfen. {guide}",
         "sim_registered_connection_failed_tips": "Bitte überprüfen Sie, ob die SIM-Karte über verfügbare Daten verfügt und ob die {apnBtn}-Einstellungen korrekt sind. Aktueller APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Bitte überprüfen Sie, ob die SIM-Karte verfügbare Daten hat und ob die {apnBtn}-Einstellungen korrekt sind. Der aktuelle APN ist leer {guide}.",
-        "connection_failed": "Verbindung fehlgeschlagen..."
+        "connection_failed": "Verbindung fehlgeschlagen...",
+        "save_tower_config_fail_msg": "Fehler beim Speichern der Turmkonfiguration"
     },
     "sim": {
         "sender_label": "Absender"
