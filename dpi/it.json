@@ -52,7 +52,13 @@
         "education_description": "Inclusi piattaforme di apprendimento online, risorse accademiche",
         "advertisement_description": "Inclusi network pubblicitari, piattaforme di tracciamento, contenuti promozionali",
         "gaming_priority_desc": "Dai priorità ai giochi online per evitare lag e perdita di pacchetti.",
-        "meeting_description": "Inclusi voip"
+        "meeting_description": "Inclusi voip",
+        "gambling_description": "Include siti web e applicazioni di gioco d'azzardo online",
+        "malware_name": "Malware",
+        "malware_description": "Include domini o servizi dannosi che rappresentano minacce alla sicurezza",
+        "adult_name": "Contenuti per adulti",
+        "adult_description": "Include siti web e servizi relativi a contenuti per adulti",
+        "gambling_name": "Gioco d'azzardo"
     },
     "flowstatistics": {
         "card_title": "Dati totali applicazione",
@@ -76,7 +82,9 @@
         "to_safeGuard_btn": "Vai a SafeGuard",
         "data_usage_title": "Utilizzo dei dati",
         "client_name_label": "Nome Client",
-        "flowstatistics_tips": "Quando Statistiche dati è abilitato, tiene traccia del traffico delle applicazioni sul router e sui client connessi, visualizzando le app in ordine decrescente di utilizzo totale. È possibile visualizzare i dati dettagliati per ogni app e bloccare singole app se necessario."
+        "flowstatistics_tips": "Quando Statistiche dati è abilitato, tiene traccia del traffico delle applicazioni sul router e sui client connessi, visualizzando le app in ordine decrescente di utilizzo totale. È possibile visualizzare i dati dettagliati per ogni app e bloccare singole app se necessario.",
+        "search_app_input_placeholder": "Inserire il nome dell'app per la ricerca",
+        "clear_statistical_label": "Cancellare tutti i dati statistici della pagina corrente?"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
