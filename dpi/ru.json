@@ -52,7 +52,13 @@
         "mode_title": "Распределение пропускной способности на основе приоритета приложений.",
         "meeting_name": "Совещание",
         "low_label": "Низкий приоритет",
-        "meeting_description": "Включая voip"
+        "meeting_description": "Включая voip",
+        "gambling_name": "Азартные игры",
+        "malware_name": "Вредоносное ПО",
+        "adult_description": "Включая веб-сайты и сервисы, связанные с контентом для взрослых",
+        "malware_description": "Включая вредоносные домены или сервисы, представляющие угрозу безопасности",
+        "gambling_description": "Включая сайты онлайн-казино и приложения для азартных игр",
+        "adult_name": "Для взрослых"
     },
     "flowstatistics": {
         "card_title": "Общие данные приложения",
@@ -76,7 +82,9 @@
         "echarts_title": "Топ-10 приложений по использованию пропускной способности",
         "page_warning": "Пожалуйста, введите действительный номер страницы (1-{totalPage})",
         "to_safeGuard_alert": "Сначала включите SafeGuard.",
-        "download_label": "Скачивание"
+        "download_label": "Скачивание",
+        "clear_statistical_label": "Очистить все статистические данные текущей страницы?",
+        "search_app_input_placeholder": "Введите название приложения для поиска"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
