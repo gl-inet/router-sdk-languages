@@ -9,7 +9,8 @@
         "forgot_password": {
             "title": "忘记密码",
             "desc": "尝试按住＂重置＂按钮 10 秒钟后松开手指，你会看到 LED 灯有规律地闪烁。待路由器重新启动后，可重新开始设置。",
-            "online_docs": "在线文档"
+            "online_docs": "在线文档",
+            "screen_check_admin_password_tips": "默认密码为设备序列号的后9位字符，末尾添加“#”（例如：A1B2C3D45#）。您可以在屏幕上查看序列号。"
         },
         "err_msg": "用户名或密码不正确！",
         "retry_after": "登录失败的次数过多，请您等待 $$$$ 秒之后重试。"
