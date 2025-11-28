@@ -10,7 +10,8 @@
             "title": "Recuperar Contraseña",
             "desc": "Intente mantener pulsado el botón de 'Reset' durante 10 segundos y luego suéltelo. Verá que las luces LED parpadean. Espere a que el router reinicie y vuelva a empezar.",
             "online_docs": "Documentos online",
-            "screen_check_admin_password_tips": "La contraseña predeterminada son los últimos 9 caracteres del S/N del dispositivo, con un \"#\" añadido al final (por ejemplo, A1B2C3D45#). Puede verificar el S/N en la pantalla."
+            "screen_check_admin_password_tips": "La contraseña predeterminada son los últimos 9 caracteres del S/N del dispositivo, con un \"#\" añadido al final (por ejemplo, A1B2C3D45#). Puede verificar el S/N en la pantalla.",
+            "resetDesc": "Si cambiaste la contraseña y la olvidaste, mantén presionado el botón de Reinicio durante 10 segundos y luego suéltalo. Espera a que el router se reinicie y luego comienza de nuevo."
         },
         "err_msg": "¡Nombre de usuario o contraseña incorrectos!",
         "retry_after": "Muchos intentos fallidos de inicio de sesión, por favor, inténtelo de nuevo en $$$$ segundos."
