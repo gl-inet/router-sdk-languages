@@ -75,7 +75,7 @@
         "sim_registered_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. APN reatha: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. Tá an APN reatha folamh {guide}",
         "connection_failed": "Theip ar an nasc...",
-        "save_tower_config_fail_msg": "Thep ar chumraí an túir a shábháil"
+        "save_tower_config_fail_msg": "Theip ar chumraíocht an túir a shábháil"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -247,7 +247,7 @@
         "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint.",
         "band_conflict_tips": "Chun nascadh cobhsaí, nuair a chuirtear an athsheachadán i bhfeidhm, díchumasaítear an Wi-Fi Aoi agus déanfaidh an mhuinchille Wi-Fi 5GHz/6GHz meaitseáil go huathoibríoch leis an athsheachadán. Mura ndéanann do ghléas athenascadh go huathoibríoch, déan ceangal le Wi-Fi de láimh.",
         "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht na cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheoltóir scanadh le haghaidh líonraí atá ar fáil; leanfaidh sé ar aghaidh ag scanadh go huathoibríoch a luaithe a dhícheanglaítear an tIdirlíon. Is féidir leat athcheangal nó aistriú chuig líonra Wi-Fi de láimh.",
-        "initializing_tips": "Tá an athsheachadán á thúsú..."
+        "initializing_tips": "Tá an t-athsheoltóir ag tosú..."
     },
     "modem": {
         "manually_tips": "Ionchur Láimhe",
@@ -369,7 +369,7 @@
         "sim_card_priority_title": "Tosaíocht Cárta SIM",
         "sim_card_failover_title": "Teip-thar Cárta SIM",
         "scheduled_switch_preferred_sim_label": "Athraigh Sceidealta go Rogha SIM",
-        "execution_time_label": "Am Forghníomhaithe",
+        "execution_time_label": "Am Forghníomhaithe Laethúil",
         "select_active_sim_card": "Roghnaigh Cárta SIM Gníomhach",
         "sim_info_label": "{sim} Eolas",
         "locked": "Faoi ghlas",
@@ -382,8 +382,8 @@
         "network_type_tips2": "Má ghlasálann tú an Túr/Oibreoir, socrófar an cineál líonra agus ní féidir é a athrú.",
         "lock_operator_fail_msg": "Theip ar an oibreoir a ghlasáil",
         "unlock_operator_fail_msg": "Theip ar an oibreoir a dhíghlasáil",
-        "airplane_mode_tips": "Díchumasaíodh an ceallach mar gheall ar Mhód Eitlíochta. Chun é a chumasú, cas Mód Eitlíochta as ar scáileán an ghléas.",
-        "save_operator_config_fail_msg": "Thep ar theacht cumraíocht an oibreora"
+        "airplane_mode_tips": "Tá an fón póca díchumasaithe mar gheall ar Mhód Eitleáin. Chun é a chumasú, múch Mód Eitleáin ar scáileán an ghléis le do thoil.",
+        "save_operator_config_fail_msg": "Theip ar chumraíocht an oibreora a shábháil"
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
