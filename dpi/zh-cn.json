@@ -230,7 +230,14 @@
         "link_cloud_account_btn": "绑定云账户",
         "link_cloud_account_label": "试用状态不支持更新。请绑定GoodCloud后更新。",
         "open_cloud_service_label": "请启动云服务。",
-        "additional_item_notes_first_text": "设备绑定后，只要设备保持与您的GoodCloud账户关联，DPI功能将始终保持激活状态。"
+        "additional_item_notes_first_text": "设备绑定后，只要设备保持与您的GoodCloud账户关联，DPI功能将始终保持激活状态。",
+        "status_code_request_failed": "请求失败",
+        "status_code_http_no_data": "HTTP无数据体",
+        "status_code_json_error": "JSON解析失败",
+        "status_code_no_license": "数据体中无许可证",
+        "status_code_no_configuration": "无最新配置",
+        "status_code_no_info": "数据体中无信息字段",
+        "status_code_network_timeout": "网络连接超时"
     },
     "menu_dpifeatures": "DPI许可证"
 }
