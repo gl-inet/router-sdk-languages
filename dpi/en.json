@@ -230,7 +230,14 @@
         "features_laebl": "What Features Are Included?",
         "link_cloud_account_btn": "Link Cloud Account",
         "link_cloud_account_label": "The trial status does not support updating. Please bind Goodcloud and update.",
-        "open_cloud_service_label": "Please start the cloud service."
+        "open_cloud_service_label": "Please start the cloud service.",
+        "status_code_request_failed": "Request failed",
+        "status_code_http_no_data": "HTTP has no data body",
+        "status_code_json_error": "JSON parsing failed",
+        "status_code_no_license": "No license in the body",
+        "status_code_no_configuration": "No latest configuration",
+        "status_code_no_info": "No info field in the body",
+        "status_code_network_timeout": "Network Connection Timeout"
     },
     "menu_dpifeatures": "DPI License"
 }
