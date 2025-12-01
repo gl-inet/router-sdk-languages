@@ -230,7 +230,14 @@
         "link_cloud_account_btn": "連結雲端帳戶",
         "link_cloud_account_label": "試用狀態不支援更新。請綁定GoodCloud後進行更新。",
         "open_cloud_service_label": "請啟動雲端服務。",
-        "additional_item_notes_first_text": "裝置綁定後，只要裝置保持與您的GoodCloud帳戶連結，DPI功能將持續啟用。"
+        "additional_item_notes_first_text": "裝置綁定後，只要裝置保持與您的GoodCloud帳戶連結，DPI功能將持續啟用。",
+        "status_code_request_failed": "請求失敗",
+        "status_code_http_no_data": "HTTP無資料主體",
+        "status_code_json_error": "JSON解析失敗",
+        "status_code_no_license": "主體中無授權資訊",
+        "status_code_no_configuration": "無最新配置",
+        "status_code_no_info": "主體中無資訊欄位",
+        "status_code_network_timeout": "網路連線逾時"
     },
     "menu_dpifeatures": "DPI許可證"
 }
