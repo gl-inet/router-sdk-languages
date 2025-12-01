@@ -230,7 +230,14 @@
         "link_cloud_account_label": "Der Teststatus unterstützt keine Aktualisierung. Bitte binden Sie Goodcloud und führen Sie die Aktualisierung durch.",
         "open_cloud_service_label": "Bitte starten Sie den Cloud-Dienst.",
         "additional_notes_fourth_text": "Da DPI mit Netzwerkbeschleunigung in Konflikt steht, können beide Funktionen nicht gleichzeitig aktiviert werden. Wenn DPI aktiviert ist, wird das System die Netzwerkbeschleunigung automatisch deaktivieren, um einen stabilen Betrieb zu gewährleisten.",
-        "additional_item_notes_second_text": "Es ist kein zusätzliches Abonnement oder keine zusätzliche Zahlung erforderlich."
+        "additional_item_notes_second_text": "Es ist kein zusätzliches Abonnement oder keine zusätzliche Zahlung erforderlich.",
+        "status_code_request_failed": "Anfrage fehlgeschlagen",
+        "status_code_http_no_data": "HTTP hat keinen Datenkörper",
+        "status_code_no_license": "Keine Lizenz im Körper",
+        "status_code_no_configuration": "Keine aktuelle Konfiguration",
+        "status_code_no_info": "Kein Info-Feld im Körper",
+        "status_code_network_timeout": "Netzwerkverbindungs-Timeout",
+        "status_code_json_error": "JSON-Parsing fehlgeschlagen"
     },
     "menu_dpifeatures": "DPI-Funktionen"
 }
