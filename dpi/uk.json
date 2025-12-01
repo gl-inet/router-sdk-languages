@@ -230,7 +230,14 @@
         "additional_item_notes_first_text": "Після прив'язки пристрою функції DPI залишаються активними, доки пристрій залишається прив'язаним до вашого облікового запису GoodCloud.",
         "trial_valid_second_description": "Прив'яжіть свій пристрій до свого облікового запису GoodCloud у будь-який час, щоб продовжити безкоштовне використання цих функцій.",
         "features_laebl": "Які функції включено?",
-        "link_cloud_account_btn": "Прив'язати обліковий запис хмари"
+        "link_cloud_account_btn": "Прив'язати обліковий запис хмари",
+        "status_code_request_failed": "Не вдалося виконати запит",
+        "status_code_json_error": "Не вдалося розпізнати JSON",
+        "status_code_no_info": "Відсутнє поле інформації в тілі запиту",
+        "status_code_network_timeout": "Тайм-аут підключення до мережі",
+        "status_code_http_no_data": "HTTP-запит не містить тіла даних",
+        "status_code_no_license": "Відсутня ліцензія в тілі запиту",
+        "status_code_no_configuration": "Немає останньої конфігурації"
     },
     "menu_dpifeatures": "Функції DPI"
 }
