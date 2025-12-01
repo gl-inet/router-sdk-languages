@@ -246,7 +246,6 @@
         "locked": "Bloccato",
         "no_sim_card": "无SIM卡",
         "sim_info_label": "{sim} 信息",
-        "airplane_mode_tips": "La modalità aereo è attiva e la rete cellulare è disabilitata.",
         "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM.",
         "unlock_pin_count_tips": "Inserire il PIN per sbloccare la SIM. {count} tentativi rimanenti.",
         "network_type_tips": "Selezionare 5G per una velocità maggiore (richiede segnale 5G) o 4G per una maggiore stabilità.",
@@ -254,7 +253,9 @@
         "lock_puk_tips": "La scheda {sim} è stata bloccata a causa di tre inserimenti errati del codice PIN. Inserisci il codice PUK sul tuo telefono per sbloccarla.",
         "network_type_tips2": "Se blocchi la Torre/Operatore, il tipo di rete verrà fissato e non potrà essere modificato.",
         "lock_operator_fail_msg": "Impossibile bloccare l'operatore",
-        "unlock_operator_fail_msg": "Impossibile sbloccare l'operatore"
+        "unlock_operator_fail_msg": "Impossibile sbloccare l'operatore",
+        "airplane_mode_tips": "Il cellulare è stato disabilitato a causa della Modalità Aereo. Per abilitarlo, disattivare la Modalità Aereo sullo schermo del dispositivo.",
+        "save_operator_config_fail_msg": "Impossibile salvare la configurazione dell'operatore"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "La scheda SIM non è riuscita a registrarsi. Contatta il tuo operatore di rete per verificare eventuali restrizioni speciali. {guide}",
         "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. APN attuale: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. L'APN attuale è vuoto {guide}",
-        "connection_failed": "Connessione fallita..."
+        "connection_failed": "Connessione fallita...",
+        "save_tower_config_fail_msg": "Impossibile salvare la configurazione della torre"
     },
     "sim": {
         "sender_label": "Mittente"

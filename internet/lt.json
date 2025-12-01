@@ -124,7 +124,6 @@
         "locked": "Užrakinta",
         "no_sim_card": "Nėra SIM kortelės",
         "sim_info_label": "{sim} informacija",
-        "airplane_mode_tips": "Lėktuvo režimas įjungtas, o mobilusis tinklas išjungtas.",
         "download_esim_config_tips": "Prisijunkite prie interneto, kad atsisiųstumėte eSIM konfigūracijos failą.",
         "unlock_pin_count_tips": "Įveskite PIN, kad atrakintumėte SIM kortelę. Liko {count} bandymai.",
         "network_type_tips": "Pasirinkite 5G, kad pasiektumėte didesnį greitį (reikalingas 5G signalas), arba 4G, kad užtikrintumėte stabilumą.",
@@ -132,7 +131,9 @@
         "lock_puk_tips": "{sim} kortelė buvo užrakinta dėl trijų neteisingų PIN kodo įvedimų. Norėdami ją atrakinti, įveskite PUK kodą savo telefone.",
         "network_type_tips2": "Jei užrakinsite bokštą/operatorių, tinklo tipas bus fiksuotas ir negalės būti keičiamas.",
         "lock_operator_fail_msg": "Nepavyko užrakinti operatoriaus",
-        "unlock_operator_fail_msg": "Nepavyko atblokuoti operatoriaus"
+        "unlock_operator_fail_msg": "Nepavyko atblokuoti operatoriaus",
+        "airplane_mode_tips": "Mobilusis ryšys išjungtas dėl lėktuvo veiksenos. Norėdami jį įjungti, išjunkite lėktuvo veikseną įrenginio ekrane.",
+        "save_operator_config_fail_msg": "Nepavyko išsaugoti operatoriaus konfigūracijos"
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "SIM kortelė nepavyko užregistruoti. Susisiekite su savo tinklo operatoriumi, kad patikrintumėte galimus specialius apribojimus. {guide}",
         "sim_registered_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar teisingi {apnBtn} nustatymai. Dabartinis APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar {apnBtn} nustatymai yra teisingi. Dabartinis APN yra tuščias {guide}",
-        "connection_failed": "Ryšys nepavyko..."
+        "connection_failed": "Ryšys nepavyko...",
+        "save_tower_config_fail_msg": "Nepavyko išsaugoti bokšto konfigūracijos"
     },
     "sim": {
         "sender_label": "Siuntėjas"

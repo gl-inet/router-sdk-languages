@@ -317,7 +317,6 @@
         "locked": "Zablokowany",
         "no_sim_card": "Brak Karty SIM",
         "sim_info_label": "Informacje o {sim}",
-        "airplane_mode_tips": "Tryb Samolotowy jest włączony, a sieć komórkowa jest wyłączona.",
         "download_esim_config_tips": "Proszę połączyć się z internetem, aby pobrać plik konfiguracyjny eSIM.",
         "unlock_pin_count_tips": "Wprowadź PIN, aby odblokować kartę SIM. Pozostało {count} prób.",
         "network_type_tips": "Wybierz 5G dla szybszej prędkości (wymaga sygnału 5G) lub 4G dla stabilności.",
@@ -325,7 +324,9 @@
         "lock_puk_tips": "Karta {sim} została zablokowana z powodu trzykrotnego wprowadzenia nieprawidłowego kodu PIN. Aby ją odblokować, wprowadź kod PUK w telefonie.",
         "network_type_tips2": "Jeśli zablokujesz Wieżę/Operatora, typ sieci zostanie ustalony i nie będzie można go zmienić.",
         "lock_operator_fail_msg": "Nie udało się zablokować operatora",
-        "unlock_operator_fail_msg": "Nie udało się odblokować operatora"
+        "unlock_operator_fail_msg": "Nie udało się odblokować operatora",
+        "airplane_mode_tips": "Tryb komórkowy został wyłączony z powodu trybu samolotowego. Aby go włączyć, wyłącz tryb samolotowy na ekranie urządzenia.",
+        "save_operator_config_fail_msg": "Nie udało się zapisać konfiguracji operatora"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "Karta SIM nie mogła się zarejestrować. Skontaktuj się z operatorem sieci, aby sprawdzić, czy istnieją specjalne ograniczenia. {guide}",
         "sim_registered_connection_failed_tips": "Sprawdź, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. Bieżący APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Proszę sprawdzić, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. Bieżący APN jest pusty {guide}",
-        "connection_failed": "Połączenie nie powiodło się..."
+        "connection_failed": "Połączenie nie powiodło się...",
+        "save_tower_config_fail_msg": "Nie udało się zapisać konfiguracji wieży"
     },
     "sim": {
         "sender_label": "Nadawca"

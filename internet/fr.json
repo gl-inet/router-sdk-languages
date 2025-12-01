@@ -246,7 +246,6 @@
         "sim_info_label": "Informations de la carte SIM",
         "locked": "Verrouillé",
         "no_sim_card": "Aucune carte SIM",
-        "airplane_mode_tips": "Le mode avion est activé et la connexion mobile est désactivée.",
         "download_esim_config_tips": "Veuillez vous connecter à internet pour télécharger le fichier de configuration eSIM.",
         "unlock_pin_count_tips": "Entrez le code PIN pour déverrouiller la carte SIM. {count} tentatives restantes.",
         "network_type_tips": "Sélectionnez 5G pour une vitesse plus rapide (nécessite un signal 5G) ou 4G pour une meilleure stabilité.",
@@ -254,7 +253,9 @@
         "lock_puk_tips": "La carte {sim} a été verrouillée suite à trois saisies incorrectes du code PIN. Veuillez saisir le code PUK sur votre téléphone pour la déverrouiller.",
         "network_type_tips2": "Si vous verrouillez la Tour/Opérateur, le type de réseau sera fixé et ne pourra pas être modifié.",
         "lock_operator_fail_msg": "Échec du verrouillage de l'opérateur",
-        "unlock_operator_fail_msg": "Échec du déverrouillage de l'opérateur"
+        "unlock_operator_fail_msg": "Échec du déverrouillage de l'opérateur",
+        "airplane_mode_tips": "La connexion mobile a été désactivée en raison du mode Avion. Pour la réactiver, veuillez désactiver le mode Avion sur l'écran de l'appareil.",
+        "save_operator_config_fail_msg": "Échec de l'enregistrement de la configuration de l'opérateur"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "La carte SIM n'a pas pu s'enregistrer. Veuillez contacter votre opérateur de réseau pour vérifier d'éventuelles restrictions particulières. {guide}",
         "sim_registered_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. APN actuel : {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. L'APN actuel est vide {guide}",
-        "connection_failed": "Connexion échouée..."
+        "connection_failed": "Connexion échouée...",
+        "save_tower_config_fail_msg": "Échec de l'enregistrement de la configuration de la tour"
     },
     "sim": {
         "sender_label": "Expéditeur"

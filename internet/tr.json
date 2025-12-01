@@ -154,7 +154,6 @@
         "locked": "Kilitli",
         "no_sim_card": "SIM Kartı Yok",
         "sim_info_label": "{sim} Bilgileri",
-        "airplane_mode_tips": "Uçak Modu açık ve hücresel ağ devre dışı bırakıldı.",
         "download_esim_config_tips": "Lütfen eSIM yapılandırma dosyasını indirmek için internete bağlanın.",
         "unlock_pin_count_tips": "SIM'i açmak için PIN girin. {count} deneme hakkı kaldı.",
         "network_type_tips": "Daha hızlı hız için 5G'yi (5G sinyali gerektirir) veya kararlılık için 4G'yi seçin.",
@@ -162,7 +161,9 @@
         "lock_puk_tips": "{sim} kartı üç yanlış PIN kodu girişi nedeniyle kilitlenmiştir. Lütfen kilidini açmak için telefonunuzda PUK kodunu girin.",
         "network_type_tips2": "Kule/Operatörü kilitlerseniz, ağ türü sabitlenir ve değiştirilemez.",
         "lock_operator_fail_msg": "Operatör kilitlenemedi",
-        "unlock_operator_fail_msg": "Operatör kilidi açılamadı"
+        "unlock_operator_fail_msg": "Operatör kilidi açılamadı",
+        "airplane_mode_tips": "Uçak Modu nedeniyle Hücresel Bağlantı devre dışı bırakıldı. Etkinleştirmek için lütfen cihaz ekranından Uçak Modu'nu kapatın.",
+        "save_operator_config_fail_msg": "Operatör yapılandırması kaydedilemedi"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -577,7 +578,8 @@
         "sim_not_registered_connection_failed_tips": "SIM kartı kaydı başarısız oldu. Lütfen herhangi bir özel kısıtlama olup olmadığını kontrol etmek için ağ operatörünüzle iletişime geçin. {guide}",
         "sim_registered_connection_failed_tips": "Lütfen SIM kartın kullanılabilir verisi olup olmadığını ve {apnBtn} ayarlarının doğru olup olmadığını kontrol edin. Mevcut APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Lütfen SIM kartın kullanılabilir verisi olup olmadığını ve {apnBtn} ayarlarının doğru olup olmadığını kontrol edin. Mevcut APN boş {guide}",
-        "connection_failed": "Bağlantı başarısız..."
+        "connection_failed": "Bağlantı başarısız...",
+        "save_tower_config_fail_msg": "Kule yapılandırması kaydedilemedi"
     },
     "sim": {
         "sender_label": "Gönderen"

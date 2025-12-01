@@ -74,7 +74,8 @@
         "sim_not_registered_connection_failed_tips": "Theip ar chlárú an chárta SIM. Téigh i dteagmháil le d’oibreoir líonra le seiceáil an bhfuil aon srianta speisialta ann. {guide}",
         "sim_registered_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. APN reatha: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. Tá an APN reatha folamh {guide}",
-        "connection_failed": "Theip ar an nasc..."
+        "connection_failed": "Theip ar an nasc...",
+        "save_tower_config_fail_msg": "Thep ar chumraí an túir a shábháil"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -372,7 +373,6 @@
         "sim_info_label": "{sim} Eolas",
         "locked": "Faoi ghlas",
         "no_sim_card": "Gan Cárta SIM",
-        "airplane_mode_tips": "Tá Mód Eitleáin ar siúl, agus tá an líonra ceallach díchumasaithe.",
         "download_esim_config_tips": "Déan ceangal leis an idirlíon chun an comhad cumraíochta eSIM a íoslódáil.",
         "unlock_pin_count_tips": "Iontráil an PIN chun an SIM a dhíghlasáil. {count} iarrachtaí fágtha.",
         "network_type_tips": "Roghnaigh 5G le haghaidh luas níos tapúla (tá comhartha 5G ag teastáil) nó 4G le haghaidh cobhsaíochta.",
@@ -380,7 +380,9 @@
         "lock_puk_tips": "Tá an cárta {sim} glasáilte mar gheall ar thrí ionchur míchearta ar an gcód PIN. Cuir isteach an cód PUK ar do ghuthán le do thoil chun é a dhíghlasáil.",
         "network_type_tips2": "Má ghlasálann tú an Túr/Oibreoir, socrófar an cineál líonra agus ní féidir é a athrú.",
         "lock_operator_fail_msg": "Theip ar an oibreoir a ghlasáil",
-        "unlock_operator_fail_msg": "Theip ar an oibreoir a dhíghlasáil"
+        "unlock_operator_fail_msg": "Theip ar an oibreoir a dhíghlasáil",
+        "airplane_mode_tips": "Díchumasaíodh an ceallach mar gheall ar Mhód Eitlíochta. Chun é a chumasú, cas Mód Eitlíochta as ar scáileán an ghléas.",
+        "save_operator_config_fail_msg": "Thep ar theacht cumraíocht an oibreora"
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",

@@ -246,7 +246,6 @@
         "locked": "Vergrendeld",
         "no_sim_card": "Geen SIM-kaart",
         "sim_info_label": "{sim}-informatie",
-        "airplane_mode_tips": "Vliegtuigmodus is ingeschakeld en het mobiele netwerk is uitgeschakeld.",
         "download_esim_config_tips": "Verbind u met internet om het eSIM-configuratiebestand te downloaden.",
         "unlock_pin_count_tips": "Voer PIN in om SIM te ontgrendelen. {count} pogingen resterend.",
         "network_type_tips": "Selecteer 5G voor hogere snelheid (vereist 5G-signaal) of 4G voor stabiliteit.",
@@ -254,7 +253,9 @@
         "lock_puk_tips": "De {sim}-kaart is geblokkeerd vanwege drie onjuiste PIN-code invoeren. Voer de PUK-code in op uw telefoon om deze te ontgrendelen.",
         "network_type_tips2": "Als u de toren/operator vergrendelt, wordt het netwerktype vastgezet en kan het niet worden gewijzigd.",
         "lock_operator_fail_msg": "Kan de operator niet vergrendelen",
-        "unlock_operator_fail_msg": "Kan de operator niet ontgrendelen"
+        "unlock_operator_fail_msg": "Kan de operator niet ontgrendelen",
+        "airplane_mode_tips": "Mobiel is uitgeschakeld vanwege de vliegtuigmodus. Schakel de vliegtuigmodus uit op het apparaatscherm om deze in te schakelen.",
+        "save_operator_config_fail_msg": "Kan de operatorconfiguratie niet opslaan"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "SIM-kaart kon niet worden geregistreerd. Neem contact op met uw netwerkoperator om te controleren op speciale beperkingen. {guide}",
         "sim_registered_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. Huidige APN is leeg {guide}.",
-        "connection_failed": "Verbinding mislukt..."
+        "connection_failed": "Verbinding mislukt...",
+        "save_tower_config_fail_msg": "Torenconfiguratie opslaan mislukt"
     },
     "sim": {
         "sender_label": "Afzender"

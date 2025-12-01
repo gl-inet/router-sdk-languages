@@ -10,7 +10,8 @@
             "title": "Wachtwoord resetten",
             "desc": "Hou de 'Reset'-knop voor tien seconden ingedrukt, laat vervolgens de knop los. U zult zien dat de LED-lampen beginnen te knipperen. Wacht totdat de router is herstart en begin vervolgens opnieuw.",
             "online_docs": "Online documentatie",
-            "screen_check_admin_password_tips": "Controleer het beheerderswachtwoord op het apparaatscherm. Als u het wachtwoord bent vergeten, volg dan de onderstaande stappen."
+            "screen_check_admin_password_tips": "Het standaardwachtwoord bestaat uit de laatste 9 tekens van het serienummer van het apparaat, met een \"#\" toegevoegd aan het einde (bijv. A1B2C3D45#). U kunt het serienummer op het scherm controleren.",
+            "resetTips": "Als u het wachtwoord heeft gewijzigd en het bent vergeten, houdt u de Reset-knop 10 seconden ingedrukt en laat u deze los. Wacht tot de router opnieuw is opgestart en start dan opnieuw."
         },
         "err_msg": "Incorrecte gebruikersnaam en/of wachtwoord!",
         "retry_after": "Te veel login pogingen, probeer het opnieuw na $$$$ seconden."

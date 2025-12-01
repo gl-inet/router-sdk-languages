@@ -246,7 +246,6 @@
         "sim_info_label": "{sim}-Informationen",
         "locked": "Gesperrt",
         "no_sim_card": "Keine SIM-Karte",
-        "airplane_mode_tips": "Der Flugmodus ist aktiviert und das Mobilfunknetz ist deaktiviert.",
         "download_esim_config_tips": "Bitte verbinden Sie sich mit dem Internet, um die eSIM-Konfigurationsdatei herunterzuladen.",
         "unlock_pin_count_tips": "Geben Sie die PIN ein, um die SIM-Karte zu entsperren. Noch {count} Versuche verbleibend.",
         "network_type_tips": "Wählen Sie 5G für höhere Geschwindigkeit (erfordert 5G-Signal) oder 4G für Stabilität.",
@@ -254,7 +253,9 @@
         "lock_puk_tips": "Die {sim}-Karte wurde aufgrund von drei falschen PIN-Eingaben gesperrt. Bitte geben Sie den PUK-Code auf Ihrem Telefon ein, um sie zu entsperren.",
         "network_type_tips2": "Wenn Sie den Turm/Operator sperren, wird der Netzwerktyp festgelegt und kann nicht geändert werden.",
         "lock_operator_fail_msg": "Fehler beim Sperren des Betreibers",
-        "unlock_operator_fail_msg": "Fehler beim Entsperren des Betreibers"
+        "unlock_operator_fail_msg": "Fehler beim Entsperren des Betreibers",
+        "airplane_mode_tips": "Der Mobilfunk wurde aufgrund des Flugmodus deaktiviert. Um ihn zu aktivieren, schalten Sie bitte den Flugmodus auf dem Gerätebildschirm aus.",
+        "save_operator_config_fail_msg": "Fehler beim Speichern der Betriebskonfiguration"
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "SIM-Karte konnte nicht registriert werden. Bitte wenden Sie sich an Ihren Netzbetreiber, um mögliche spezielle Einschränkungen zu überprüfen. {guide}",
         "sim_registered_connection_failed_tips": "Bitte überprüfen Sie, ob die SIM-Karte über verfügbare Daten verfügt und ob die {apnBtn}-Einstellungen korrekt sind. Aktueller APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Bitte überprüfen Sie, ob die SIM-Karte verfügbare Daten hat und ob die {apnBtn}-Einstellungen korrekt sind. Der aktuelle APN ist leer {guide}.",
-        "connection_failed": "Verbindung fehlgeschlagen..."
+        "connection_failed": "Verbindung fehlgeschlagen...",
+        "save_tower_config_fail_msg": "Fehler beim Speichern der Turmkonfiguration"
     },
     "sim": {
         "sender_label": "Absender"

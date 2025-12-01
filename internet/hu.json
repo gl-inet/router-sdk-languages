@@ -124,7 +124,6 @@
         "locked": "Zárolva",
         "no_sim_card": "Nincs SIM-kártya",
         "sim_info_label": "{sim} információ",
-        "airplane_mode_tips": "Repülőgép mód bekapcsolva, mobilhálózat letiltva.",
         "download_esim_config_tips": "Kérjük, csatlakozzon az internethez az eSIM konfigurációs fájl letöltéséhez.",
         "unlock_pin_count_tips": "Adja meg a PIN-kódot a SIM-kártya feloldásához. {count} próbálkozás maradt.",
         "network_type_tips": "Válassza az 5G-t a nagyobb sebességért (5G jel szükséges) vagy a 4G-t a stabilitásért.",
@@ -132,7 +131,9 @@
         "lock_puk_tips": "A(z) {sim} kártya háromszori hibás PIN-kód megadás miatt zárolva lett. Kérjük, adja meg a PUK kódot telefonján a feloldáshoz.",
         "network_type_tips2": "Ha lezárja a Tornyot/Operátort, a hálózati típus rögzítésre kerül és nem módosítható.",
         "lock_operator_fail_msg": "Nem sikerült zárolni az operátort",
-        "unlock_operator_fail_msg": "Nem sikerült feloldani az operátort"
+        "unlock_operator_fail_msg": "Nem sikerült feloldani az operátort",
+        "airplane_mode_tips": "A mobilhálózat letiltásra került a repülőgép mód miatt. A bekapcsoláshoz kérjük, kapcsolja ki a repülőgép módot a készülék képernyőjén.",
+        "save_operator_config_fail_msg": "Nem sikerült menteni az operátor konfigurációt"
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "A SIM-kártya nem sikerült regisztrálni. Kérjük, lépjen kapcsolatba a hálózati szolgáltatójával, hogy ellenőrizze az esetleges speciális korlátozásokat. {guide}",
         "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Kérjük, ellenőrizze, hogy az SIM-kártyának van-e rendelkezésre álló adatforgalma, és hogy a {apnBtn} beállítások helyesek-e. A jelenlegi APN érték üres {guide}",
-        "connection_failed": "Kapcsolat sikertelen..."
+        "connection_failed": "Kapcsolat sikertelen...",
+        "save_tower_config_fail_msg": "Nem sikerült menteni a torony konfigurációt"
     },
     "sim": {
         "sender_label": "Feladó"

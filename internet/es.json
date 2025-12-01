@@ -246,7 +246,6 @@
         "sim_info_label": "Información de {sim}",
         "locked": "Bloqueado",
         "no_sim_card": "Sin tarjeta SIM",
-        "airplane_mode_tips": "El modo avión está activado y la red móvil está deshabilitada.",
         "download_esim_config_tips": "Por favor, conéctese a internet para descargar el archivo de configuración de eSIM.",
         "unlock_pin_count_tips": "Ingrese el PIN para desbloquear la SIM. Quedan {count} intentos.",
         "network_type_tips": "Seleccione 5G para mayor velocidad (requiere señal 5G) o 4G para mayor estabilidad.",
@@ -254,7 +253,9 @@
         "lock_puk_tips": "La tarjeta {sim} ha sido bloqueada debido a tres intentos incorrectos de código PIN. Por favor, ingrese el código PUK en su teléfono para desbloquearla.",
         "network_type_tips2": "Si bloquea la Torre/Operador, el tipo de red se fijará y no podrá cambiarse.",
         "lock_operator_fail_msg": "No se pudo bloquear el operador",
-        "unlock_operator_fail_msg": "No se pudo desbloquear el operador"
+        "unlock_operator_fail_msg": "No se pudo desbloquear el operador",
+        "airplane_mode_tips": "La conexión móvil se ha deshabilitado debido al Modo Avión. Para activarla, por favor desactive el Modo Avión en la pantalla del dispositivo.",
+        "save_operator_config_fail_msg": "No se pudo guardar la configuración del operador"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -565,7 +566,8 @@
         "sim_not_registered_connection_failed_tips": "La tarjeta SIM no pudo registrarse. Por favor, contacte a su operador de red para verificar si existen restricciones especiales. {guide}",
         "sim_registered_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. APN actual: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. El APN actual está vacío {guide}",
-        "connection_failed": "Conexión fallida..."
+        "connection_failed": "Conexión fallida...",
+        "save_tower_config_fail_msg": "No se pudo guardar la configuración de la torre"
     },
     "sim": {
         "sender_label": "Remitente"
