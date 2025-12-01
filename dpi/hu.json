@@ -230,7 +230,14 @@
         "link_cloud_account_label": "A próbaverziós állapot nem támogatja a frissítést. Kérjük, kösse össze a Goodcloud-ot és frissítsen.",
         "additional_notes_fourth_text": "Mivel a DPI ütközik a Hálózati Gyorsítással, mindkét funkció nem engedélyezhető egyszerre. Amikor a DPI engedélyezve van, a rendszer automatikusan letiltja a Hálózati Gyorsítást a stabil működés biztosítása érdekében.",
         "trial_expired_second_description": "Kösse össze eszközét GoodCloud fiókjával, hogy azonnal újraaktiválja az összes DPI funkciót, és továbbra is állandóan ingyenesen használhassa azokat.",
-        "open_cloud_service_label": "Kérjük, indítsa el a felhőszolgáltatást."
+        "open_cloud_service_label": "Kérjük, indítsa el a felhőszolgáltatást.",
+        "status_code_request_failed": "Kérés sikertelen",
+        "status_code_http_no_data": "HTTP-nak nincs adattörzse",
+        "status_code_json_error": "JSON elemzés sikertelen",
+        "status_code_no_license": "Nincs licenc a törzsben",
+        "status_code_no_configuration": "Nincs legújabb konfiguráció",
+        "status_code_no_info": "Nincs info mező a törzsben",
+        "status_code_network_timeout": "Hálózati kapcsolat időtúllépés"
     },
     "menu_dpifeatures": "DPI funkciók"
 }
