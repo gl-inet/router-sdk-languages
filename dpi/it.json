@@ -230,7 +230,14 @@
         "link_cloud_account_label": "Lo stato di prova non supporta l'aggiornamento. Si prega di associare Goodcloud e aggiornare.",
         "open_cloud_service_label": "Si prega di avviare il servizio cloud.",
         "trial_expired_second_description": "Associa il tuo dispositivo al tuo account GoodCloud per riattivare immediatamente tutte le funzionalità DPI e continuare a utilizzarle permanentemente gratuitamente.",
-        "link_cloud_account_btn": "Collega Account Cloud"
+        "link_cloud_account_btn": "Collega Account Cloud",
+        "status_code_request_failed": "Richiesta fallita",
+        "status_code_http_no_data": "HTTP non ha corpo dati",
+        "status_code_json_error": "Analisi JSON non riuscita",
+        "status_code_no_license": "Nessuna licenza nel corpo",
+        "status_code_no_configuration": "Nessuna configurazione recente",
+        "status_code_no_info": "Nessun campo info nel corpo",
+        "status_code_network_timeout": "Timeout connessione di rete"
     },
     "menu_dpifeatures": "Funzionalità DPI"
 }
