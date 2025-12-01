@@ -230,7 +230,14 @@
         "additional_notes_fourth_text": "DPIはネットワークアクセラレーションと競合するため、両方の機能を同時に有効にすることはできません。DPIが有効になると、システムは安定した動作を確保するためにネットワークアクセラレーションを自動的に無効にします。",
         "additional_item_notes_first_text": "デバイスがバインドされると、デバイスがGoodCloudアカウントにリンクされている限り、DPI機能はアクティブな状態を維持します。",
         "trial_valid_second_description": "いつでもデバイスをGoodCloudアカウントにバインドして、これらの機能を無料で継続してご利用いただけます。",
-        "open_cloud_service_label": "クラウドサービスを開始してください。"
+        "open_cloud_service_label": "クラウドサービスを開始してください。",
+        "status_code_request_failed": "リクエストが失敗しました",
+        "status_code_http_no_data": "HTTPにデータボディがありません",
+        "status_code_json_error": "JSON解析に失敗しました",
+        "status_code_no_license": "ボディにライセンスがありません",
+        "status_code_no_configuration": "最新の設定がありません",
+        "status_code_no_info": "ボディに情報フィールドがありません",
+        "status_code_network_timeout": "ネットワーク接続タイムアウト"
     },
     "menu_dpifeatures": "DPI機能"
 }
