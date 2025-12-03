@@ -230,7 +230,14 @@
         "link_cloud_account_btn": "Powiąż konto w chmurze",
         "link_cloud_account_label": "Status próbny nie obsługuje aktualizacji. Proszę powiązać Goodcloud i zaktualizować.",
         "open_cloud_service_label": "Proszę uruchomić usługę chmurową.",
-        "additional_item_notes_first_text": "Po powiązaniu urządzenia funkcje DPI pozostają aktywne, dopóki urządzenie jest połączone z Twoim kontem GoodCloud."
+        "additional_item_notes_first_text": "Po powiązaniu urządzenia funkcje DPI pozostają aktywne, dopóki urządzenie jest połączone z Twoim kontem GoodCloud.",
+        "status_code_request_failed": "Żądanie nie powiodło się",
+        "status_code_http_no_data": "HTTP nie ma treści danych",
+        "status_code_json_error": "Parsowanie JSON nie powiodło się",
+        "status_code_no_license": "Brak licencji w treści",
+        "status_code_no_configuration": "Brak najnowszej konfiguracji",
+        "status_code_no_info": "Brak pola informacyjnego w treści",
+        "status_code_network_timeout": "Przekroczenie limitu czasu połączenia sieciowego"
     },
     "menu_dpifeatures": "Funkcje DPI"
 }

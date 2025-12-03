@@ -230,7 +230,14 @@
         "features_laebl": "Kokios funkcijos yra įtrauktos?",
         "link_cloud_account_label": "Bandomosios būsenos metu atnaujinti negalima. Prašome susieti su „Goodcloud“ ir atnaujinti.",
         "open_cloud_service_label": "Prašome paleisti debesijos tarnybą.",
-        "link_cloud_account_btn": "Susieti debesijos paskyrą"
+        "link_cloud_account_btn": "Susieti debesijos paskyrą",
+        "status_code_request_failed": "Užklausa nepavyko",
+        "status_code_http_no_data": "HTTP neturi duomenų kūno",
+        "status_code_json_error": "JSON analizė nepavyko",
+        "status_code_no_license": "Nėra licencijos kūne",
+        "status_code_no_configuration": "Nėra naujausios konfigūracijos",
+        "status_code_no_info": "Nėra informacijos lauko kūne",
+        "status_code_network_timeout": "Tinklo ryšio užklausos laikas pasibaigė"
     },
     "menu_dpifeatures": "DPI funkcijos"
 }

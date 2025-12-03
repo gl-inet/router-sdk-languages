@@ -230,7 +230,14 @@
         "link_cloud_account_label": "체험 상태에서는 업데이트를 지원하지 않습니다. Goodcloud를 바인딩하고 업데이트하십시오.",
         "additional_item_notes_second_text": "추가 구독 또는 결제가 필요하지 않습니다.",
         "trial_expired_second_description": "기기를 귀하의 GoodCloud 계정에 바인딩하여 모든 DPI 기능을 즉시 재활성화하고 영구적으로 무료로 계속 사용하십시오.",
-        "open_cloud_service_label": "클라우드 서비스를 시작해 주십시오."
+        "open_cloud_service_label": "클라우드 서비스를 시작해 주십시오.",
+        "status_code_request_failed": "요청 실패",
+        "status_code_json_error": "JSON 구문 분석 실패",
+        "status_code_no_license": "본문에 라이선스가 없음",
+        "status_code_no_configuration": "최신 구성 없음",
+        "status_code_no_info": "본문에 정보 필드가 없음",
+        "status_code_network_timeout": "네트워크 연결 시간 초과",
+        "status_code_http_no_data": "HTTP에 데이터 본문이 없음"
     },
     "menu_dpifeatures": "DPI 기능"
 }

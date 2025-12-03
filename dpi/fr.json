@@ -230,7 +230,14 @@
         "link_cloud_account_label": "Le statut d'essai ne prend pas en charge la mise à jour. Veuillez lier GoodCloud et mettre à jour.",
         "open_cloud_service_label": "Veuillez démarrer le service cloud.",
         "subscription_valid_second_description": "Profitez de statistiques de données ininterrompues, de la protection du contenu et de la QoS.",
-        "trial_expired_second_description": "Lie votre appareil à votre compte GoodCloud pour réactiver instantanément toutes les fonctionnalités DPI et continuer à les utiliser gratuitement de façon permanente."
+        "trial_expired_second_description": "Lie votre appareil à votre compte GoodCloud pour réactiver instantanément toutes les fonctionnalités DPI et continuer à les utiliser gratuitement de façon permanente.",
+        "status_code_request_failed": "Échec de la requête",
+        "status_code_http_no_data": "HTTP n'a pas de corps de données",
+        "status_code_json_error": "Échec de l'analyse JSON",
+        "status_code_no_license": "Aucune licence dans le corps",
+        "status_code_no_configuration": "Aucune configuration récente",
+        "status_code_no_info": "Aucun champ d'information dans le corps",
+        "status_code_network_timeout": "Délai de connexion réseau expiré"
     },
     "menu_dpifeatures": "Fonctionnalités DPI"
 }

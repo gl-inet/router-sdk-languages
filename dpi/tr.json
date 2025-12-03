@@ -230,7 +230,14 @@
         "link_cloud_account_label": "Deneme durumu güncellemeyi desteklemez. Lütfen Goodcloud'u bağlayın ve güncelleyin.",
         "open_cloud_service_label": "Lütfen bulut hizmetini başlatın.",
         "additional_item_notes_first_text": "Cihaz bağlandıktan sonra, DPI özellikleri cihazınız GoodCloud hesabınıza bağlı kaldığı sürece aktif kalır.",
-        "link_cloud_account_btn": "Bulut Hesabını Bağla"
+        "link_cloud_account_btn": "Bulut Hesabını Bağla",
+        "status_code_request_failed": "İstek başarısız oldu",
+        "status_code_http_no_data": "HTTP veri gövdesi yok",
+        "status_code_json_error": "JSON ayrıştırma başarısız",
+        "status_code_no_license": "Gövdede lisans yok",
+        "status_code_no_configuration": "Son yapılandırma yok",
+        "status_code_no_info": "Gövdede bilgi alanı yok",
+        "status_code_network_timeout": "Ağ Bağlantı Zaman Aşımı"
     },
     "menu_dpifeatures": "DPI Özellikleri"
 }

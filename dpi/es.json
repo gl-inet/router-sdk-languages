@@ -230,7 +230,14 @@
         "additional_notes_fourth_text": "Dado que DPI entra en conflicto con la Aceleración de Red, ambas funciones no pueden estar habilitadas al mismo tiempo. Cuando DPI está habilitado, el sistema desactivará automáticamente la Aceleración de Red para garantizar un funcionamiento estable.",
         "subscription_valid_second_description": "Disfrute de Estadísticas de Datos, Protección de Contenido y QoS ininterrumpidos.",
         "link_cloud_account_label": "El estado de prueba no admite actualizaciones. Por favor, vincule Goodcloud y actualice.",
-        "open_cloud_service_label": "Por favor, inicie el servicio en la nube."
+        "open_cloud_service_label": "Por favor, inicie el servicio en la nube.",
+        "status_code_request_failed": "Solicitud fallida",
+        "status_code_http_no_data": "HTTP no tiene cuerpo de datos",
+        "status_code_json_error": "Error de análisis JSON",
+        "status_code_no_license": "No hay licencia en el cuerpo",
+        "status_code_no_configuration": "No hay configuración más reciente",
+        "status_code_no_info": "No hay campo de información en el cuerpo",
+        "status_code_network_timeout": "Tiempo de espera de conexión de red agotado"
     },
     "menu_dpifeatures": "Funciones DPI"
 }

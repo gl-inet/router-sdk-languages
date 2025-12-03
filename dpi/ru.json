@@ -230,7 +230,14 @@
         "trial_valid_second_description": "Привяжите ваше устройство к учетной записи GoodCloud в любое время, чтобы продолжить бесплатное использование этих функций.",
         "trial_expired_second_description": "Привяжите ваше устройство к учетной записи GoodCloud, чтобы мгновенно активировать все функции DPI и продолжить их постоянное бесплатное использование.",
         "link_cloud_account_btn": "Привязать облачную учетную запись",
-        "link_cloud_account_label": "Пробный статус не поддерживает обновление. Пожалуйста, привяжите Goodcloud и обновите."
+        "link_cloud_account_label": "Пробный статус не поддерживает обновление. Пожалуйста, привяжите Goodcloud и обновите.",
+        "status_code_request_failed": "Сбой запроса",
+        "status_code_json_error": "Ошибка парсинга JSON",
+        "status_code_no_license": "Отсутствует лицензия в теле",
+        "status_code_no_configuration": "Нет последней конфигурации",
+        "status_code_no_info": "Отсутствует поле info в теле",
+        "status_code_network_timeout": "Таймаут сетевого подключения",
+        "status_code_http_no_data": "HTTP не содержит тела данных"
     },
     "menu_dpifeatures": "Функции DPI"
 }
