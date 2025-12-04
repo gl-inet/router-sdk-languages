@@ -584,5 +584,8 @@
         "enable_polling_tips": "If the device is using a Verizon SIM card and this feature is enabled, the device will continuously poll the APN for up to 12 minutes after reboot until the network connection is normal. This feature is only valid for Verizon SIM cards.",
         "enable_polling_label": "Enable Polling",
         "polling_control_title": "APN Polling Control"
+    },
+    "internet": {
+        "manual_label": "Manual"
     }
 }
