@@ -1,1 +1,22 @@
-{}
+{
+    "menu_acl": "ACL",
+    "acl": {
+        "add_rule_btn": "新增規則",
+        "Family_label": "系列",
+        "protocol_label": "協議",
+        "match_label": "匹配",
+        "name_label": "名稱",
+        "ip_type_label": "IP 類型",
+        "souce_zoon_label": "來源區域",
+        "source_address_label": "來源地址",
+        "source_port_label": "來源端口",
+        "dest_zone_label": "目標區域",
+        "dest_address_label": "目標地址",
+        "dest_port_label": "目標端口",
+        "action_label": "操作",
+        "edit_acl_dialog_title": "修改 ACL 規則",
+        "acl_desc": "{acl} 可以根據協議、目標 IP 地址、來源 IP 地址和端口號等規則控制網路流量。如果兩個已啟用的 {acl} 規則之間存在衝突，設備將優先執行優先級較高的規則。",
+        "any_not_allowed_with_multiple_ips": "當有多個 IP 地址時，不能包含「任意」選項",
+        "add_acl_dialog_title": "新增 ACL 規則"
+    }
+}
