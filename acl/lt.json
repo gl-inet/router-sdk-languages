@@ -1,1 +1,22 @@
-{}
+{
+    "menu_acl": "ACL",
+    "acl": {
+        "add_rule_btn": "Pridėti taisyklę",
+        "Family_label": "Šeima",
+        "protocol_label": "Protokolas",
+        "match_label": "Atitikti",
+        "name_label": "Pavadinimas",
+        "ip_type_label": "IP tipas",
+        "souce_zoon_label": "Šaltinio zona",
+        "source_address_label": "Šaltinio adresas",
+        "source_port_label": "Šaltinio prievadas",
+        "dest_zone_label": "Paskirties zona",
+        "dest_address_label": "Paskirties adresas",
+        "dest_port_label": "Paskirties prievadas",
+        "action_label": "Veiksmas",
+        "edit_acl_dialog_title": "Keisti ACL taisyklę",
+        "any_not_allowed_with_multiple_ips": "Kai yra keli IP adresai, parinktis „Bet kuris“ negali būti įtraukta",
+        "acl_desc": "{acl} gali valdyti tinklo srautą pagal tokias taisykles kaip protokolas, paskirties IP adresas, šaltinio IP adresas ir prievado numeris. Jei tarp dviejų įjungtų {acl} taisyklių yra konfliktas, įrenginys suteiks pirmenybę aukštesnio prioriteto taisyklei.",
+        "add_acl_dialog_title": "Pridėti ACL taisyklę"
+    }
+}
