@@ -1,1 +1,22 @@
-{}
+{
+    "acl": {
+        "add_rule_btn": "ルールを追加",
+        "Family_label": "ファミリー",
+        "protocol_label": "プロトコル",
+        "match_label": "一致",
+        "name_label": "名前",
+        "ip_type_label": "IPタイプ",
+        "souce_zoon_label": "送信元ゾーン",
+        "source_address_label": "送信元アドレス",
+        "source_port_label": "送信元ポート",
+        "dest_zone_label": "宛先ゾーン",
+        "dest_address_label": "宛先アドレス",
+        "dest_port_label": "宛先ポート",
+        "action_label": "アクション",
+        "edit_acl_dialog_title": "ACLルールを変更",
+        "any_not_allowed_with_multiple_ips": "複数のIPアドレスがある場合、「Any」オプションは含めることができません",
+        "acl_desc": "{acl}は、プロトコル、宛先IPアドレス、送信元IPアドレス、ポート番号などのルールに基づいてネットワークトラフィックを制御できます。有効になっている2つの{acl}ルール間に競合がある場合、デバイスは優先度の高いルールを優先します。",
+        "add_acl_dialog_title": "ACLルールを追加"
+    },
+    "menu_acl": "ACL"
+}
