@@ -10,12 +10,12 @@
         "source_address_label": "Adres źródłowy",
         "source_port_label": "Port źródłowy",
         "dest_zone_label": "Strefa docelowa",
-        "dest_address_label": "Adres docelowy",
-        "dest_port_label": "Port docelowy",
+        "dest_address_label": "Adres Docelowy",
+        "dest_port_label": "Port Docelowy",
         "action_label": "Akcja",
         "edit_acl_dialog_title": "Modyfikuj regułę ACL",
         "any_not_allowed_with_multiple_ips": "Gdy istnieje wiele adresów IP, opcja 'Dowolny' nie może być uwzględniona",
-        "add_rule_btn": "Dodaj regułę",
+        "add_rule_btn": "Dodaj Regułę",
         "acl_desc": "{acl} może kontrolować ruch sieciowy na podstawie reguł takich jak protokół, docelowy adres IP, źródłowy adres IP i numer portu. Jeśli istnieje konflikt między dwiema włączonymi regułami {acl}, urządzenie nada priorytet regule o wyższym priorytecie.",
         "add_acl_dialog_title": "Dodaj regułę ACL"
     }
