@@ -1,1 +1,22 @@
-{}
+{
+    "acl": {
+        "add_rule_btn": "Додати правило",
+        "Family_label": "Сімейство",
+        "protocol_label": "Протокол",
+        "match_label": "Відповідність",
+        "name_label": "Назва",
+        "ip_type_label": "Тип IP",
+        "souce_zoon_label": "Вихідна зона",
+        "source_address_label": "Вихідна адреса",
+        "source_port_label": "Вихідний порт",
+        "dest_zone_label": "Зона призначення",
+        "dest_address_label": "Адреса призначення",
+        "dest_port_label": "Порт призначення",
+        "action_label": "Дія",
+        "edit_acl_dialog_title": "Змінити правило ACL",
+        "acl_desc": "{acl} може контролювати мережевий трафік на основі правил, таких як протокол, IP-адреса призначення, вихідна IP-адреса та номер порту. Якщо є конфлікт між двома активованими правилами {acl}, пристрій віддасть пріоритет правилу з вищим пріоритетом.",
+        "any_not_allowed_with_multiple_ips": "Коли є кілька IP-адрес, опцію 'Будь-яка' не можна включати",
+        "add_acl_dialog_title": "Додати правило ACL"
+    },
+    "menu_acl": "ACL"
+}
