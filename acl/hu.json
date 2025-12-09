@@ -1,1 +1,22 @@
-{}
+{
+    "acl": {
+        "Family_label": "Család",
+        "protocol_label": "Protokoll",
+        "match_label": "Egyezés",
+        "name_label": "Név",
+        "ip_type_label": "IP típus",
+        "souce_zoon_label": "Forrászóna",
+        "source_address_label": "Forráscím",
+        "source_port_label": "Forrásport",
+        "dest_zone_label": "Célzóna",
+        "action_label": "Művelet",
+        "dest_address_label": "Célcím",
+        "dest_port_label": "Célport",
+        "edit_acl_dialog_title": "ACL szabály módosítása",
+        "add_rule_btn": "Szabály hozzáadása",
+        "acl_desc": "Az {acl} szabályok segítségével szabályozható a hálózati forgalom protokoll, cél IP-cím, forrás IP-cím és portszám alapján. Ha két engedélyezett {acl} szabály ütközik, az eszköz a magasabb prioritású szabályt alkalmazza.",
+        "any_not_allowed_with_multiple_ips": "Több IP-cím esetén az 'Any' lehetőség nem választható",
+        "add_acl_dialog_title": "ACL szabály hozzáadása"
+    },
+    "menu_acl": "ACL"
+}
