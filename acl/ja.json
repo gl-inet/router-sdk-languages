@@ -15,7 +15,8 @@
         "edit_acl_dialog_title": "ACLルールを変更",
         "any_not_allowed_with_multiple_ips": "複数のIPアドレスがある場合、「Any」オプションは含めることができません",
         "acl_desc": "{acl}は、プロトコル、宛先IPアドレス、送信元IPアドレス、ポート番号などのルールに基づいてネットワークトラフィックを制御できます。有効になっている2つの{acl}ルール間に競合がある場合、デバイスは優先度の高いルールを優先します。",
-        "add_acl_dialog_title": "ACLルールを追加"
+        "add_acl_dialog_title": "ACLルールを追加",
+        "name_already_exist_msg": "名前は既に存在します。"
     },
     "menu_acl": "ACL"
 }
