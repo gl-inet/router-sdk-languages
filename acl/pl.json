@@ -16,6 +16,7 @@
         "any_not_allowed_with_multiple_ips": "Gdy istnieje wiele adresów IP, opcja 'Dowolny' nie może być uwzględniona",
         "add_rule_btn": "Dodaj Regułę",
         "acl_desc": "{acl} może kontrolować ruch sieciowy na podstawie reguł takich jak protokół, docelowy adres IP, źródłowy adres IP i numer portu. Jeśli istnieje konflikt między dwiema włączonymi regułami {acl}, urządzenie nada priorytet regule o wyższym priorytecie.",
-        "add_acl_dialog_title": "Dodaj regułę ACL"
+        "add_acl_dialog_title": "Dodaj regułę ACL",
+        "name_already_exist_msg": "Nazwa już istnieje."
     }
 }
