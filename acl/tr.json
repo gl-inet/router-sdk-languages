@@ -16,6 +16,7 @@
         "any_not_allowed_with_multiple_ips": "Birden fazla IP adresi olduğunda, 'Herhangi' seçeneği dahil edilemez",
         "add_acl_dialog_title": "Bir ACL kuralı ekle",
         "dest_port_label": "Hedef Port",
-        "acl_desc": "{acl}, protokol, hedef IP adresi, kaynak IP adresi ve port numarası gibi kurallara dayalı olarak ağ trafiğini kontrol edebilir. Etkinleştirilmiş iki {acl} kuralı arasında bir çakışma olursa, cihaz daha yüksek öncelikli kurala öncelik verecektir."
+        "acl_desc": "{acl}, protokol, hedef IP adresi, kaynak IP adresi ve port numarası gibi kurallara dayalı olarak ağ trafiğini kontrol edebilir. Etkinleştirilmiş iki {acl} kuralı arasında bir çakışma olursa, cihaz daha yüksek öncelikli kurala öncelik verecektir.",
+        "name_already_exist_msg": "İsim zaten mevcut."
     }
 }
