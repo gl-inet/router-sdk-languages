@@ -16,6 +16,7 @@
         "edit_acl_dialog_title": "修改 ACL 規則",
         "acl_desc": "{acl} 可以根據協議、目標 IP 地址、來源 IP 地址和端口號等規則控制網路流量。如果兩個已啟用的 {acl} 規則之間存在衝突，設備將優先執行優先級較高的規則。",
         "any_not_allowed_with_multiple_ips": "當有多個 IP 地址時，不能包含「任意」選項",
-        "add_acl_dialog_title": "新增 ACL 規則"
+        "add_acl_dialog_title": "新增 ACL 規則",
+        "name_already_exist_msg": "名稱已存在。"
     }
 }
