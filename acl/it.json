@@ -15,7 +15,8 @@
         "action_label": "Azione",
         "acl_desc": "{acl} può controllare il traffico di rete in base a regole come protocollo, indirizzo IP di destinazione, indirizzo IP di origine e numero di porta. Se c'è un conflitto tra due regole {acl} abilitate, il dispositivo darà priorità alla regola con priorità più alta.",
         "any_not_allowed_with_multiple_ips": "Quando sono presenti più indirizzi IP, l'opzione 'Qualsiasi' non può essere inclusa",
-        "add_acl_dialog_title": "Aggiungi una regola ACL"
+        "add_acl_dialog_title": "Aggiungi una regola ACL",
+        "name_already_exist_msg": "Il nome esiste già."
     },
     "menu_acl": "ACL"
 }
