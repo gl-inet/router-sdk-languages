@@ -15,7 +15,8 @@
         "acl_desc": "{acl} peut contrôler le trafic réseau en fonction de règles telles que le protocole, l'adresse IP de destination, l'adresse IP source et le numéro de port. S'il y a un conflit entre deux règles {acl} activées, l'appareil donnera la priorité à la règle de priorité supérieure.",
         "add_rule_btn": "Ajouter une règle",
         "any_not_allowed_with_multiple_ips": "Lorsqu'il y a plusieurs adresses IP, l'option 'Toute' ne peut pas être incluse",
-        "add_acl_dialog_title": "Ajouter une règle ACL"
+        "add_acl_dialog_title": "Ajouter une règle ACL",
+        "name_already_exist_msg": "Le nom existe déjà."
     },
     "menu_acl": "ACL"
 }
