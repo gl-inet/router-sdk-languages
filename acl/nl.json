@@ -16,6 +16,7 @@
         "acl_desc": "{acl} kan netwerkverkeer beheren op basis van regels zoals protocol, bestemmings-IP-adres, bron-IP-adres en poortnummer. Als er een conflict is tussen twee ingeschakelde {acl}-regels, geeft het apparaat voorrang aan de regel met de hogere prioriteit.",
         "any_not_allowed_with_multiple_ips": "Wanneer er meerdere IP-adressen zijn, kan de optie 'Alle' niet worden opgenomen",
         "add_acl_dialog_title": "Een ACL-regel toevoegen",
-        "action_label": "Actie"
+        "action_label": "Actie",
+        "name_already_exist_msg": "De naam bestaat al."
     }
 }
