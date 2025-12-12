@@ -164,6 +164,10 @@
         "pay_code_title": "Escanee el código QR para comprar un plan",
         "pay_code_tips": "Será redirigido a un sitio web legal para renovar el plan de este router:",
         "purchase_tips": "Comprar plan para activar el servicio.",
-        "package_expired_tips": "Su plan ha expirado. Servicio terminado. Haga clic para comprar y activar el servicio AstroWarp."
+        "package_expired_tips": "Su plan ha expirado. Servicio terminado. Haga clic para comprar y activar el servicio AstroWarp.",
+        "time_label": "Tiempo"
+    },
+    "astrowarp_err": {
+        "timestamp_invalid_msg": "Solicitud fallida: La marca de tiempo no es válida. Por favor, sincronice la hora del router."
     }
 }
