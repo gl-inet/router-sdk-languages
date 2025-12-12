@@ -164,6 +164,10 @@
         "pay_code_title": "Scan QR code to purchase a plan",
         "pay_code_tips": "You will be redirected to a legal website to renew the plan for this router:",
         "purchase_tips": "Purchase plan to activate service.",
-        "package_expired_tips": "Your plan has expired. Service terminated. Click to purchase to activate AstroWarp service."
+        "package_expired_tips": "Your plan has expired. Service terminated. Click to purchase to activate AstroWarp service.",
+        "time_label": "Time"
+    },
+    "astrowarp_err": {
+        "timestamp_invalid_msg": "Request failed: Timestamp is invalid. Please synchronize the router's time."
     }
 }
