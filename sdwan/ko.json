@@ -164,6 +164,10 @@
         "pay_code_title": "플랜을 구매하려면 QR 코드를 스캔하세요",
         "pay_code_tips": "이 라우터의 요금제를 갱신하기 위해 법적 웹사이트로 리디렉션됩니다:",
         "purchase_tips": "서비스 활성화를 위한 구독 플랜 구매.",
-        "package_expired_tips": "귀하의 요금제가 만료되었습니다. 서비스가 중단되었습니다. AstroWarp 서비스를 활성화하려면 구매를 클릭하세요."
+        "package_expired_tips": "귀하의 요금제가 만료되었습니다. 서비스가 중단되었습니다. AstroWarp 서비스를 활성화하려면 구매를 클릭하세요.",
+        "time_label": "시간"
+    },
+    "astrowarp_err": {
+        "timestamp_invalid_msg": "요청 실패: 타임스탬프가 유효하지 않습니다. 라우터 시간을 동기화하십시오."
     }
 }
