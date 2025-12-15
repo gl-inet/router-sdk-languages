@@ -5,12 +5,12 @@
         "upload_data_title": "Hochgeladene Verkehrsdaten",
         "download_data_title": "Heruntergeladene Daten",
         "interface_title": "Schnittstellen",
-        "real_time_data_tips": "Enthält nur die Daten von Geräten, die durch das Gateway geleitet wurden; diese können sich von den in Ihrer Abrechnung angegebenen Gesamtdaten unterscheiden.",
+        "real_time_data_tips": "Enthält nur die Daten von Geräten, die durch das Gateway geleitet wurden; dies kann sich von den in Ihrer Abrechnung angegebenen Gesamtdaten unterscheiden.",
         "nodes_title": "Netzwerktopologie",
         "no_device_tips": "Um diese Funktion zu nutzen, müssen Sie das Gerät zu einem der virtuellen Netzwerke in {cloud} hinzufügen.",
         "interface_tips": "Sie können bestimmte Schnittstellen deaktivieren, die sich an der Verbindungsaggregation beteiligen.",
         "get_start_title": "Cloud-Dienste aktiviert",
-        "get_start_tips": "Klicken Sie hier, um mit AstroWarp zu starten!",
+        "get_start_tips": "Klicken Sie hier, um mit AstroWarp zu beginnen!",
         "use_tips": "AstroWarp ist eine innovative VPN-Plattform, die speziell für GL.iNet-Router entwickelt wurde und das Einrichten von Exit-Nodes sowie die Verbindung mehrerer entfernter Geräte innerhalb eines einheitlichen, sicheren Netzwerks erleichtert, wodurch ein müheloser Fernzugriff von überall ermöglicht wird.",
         "enable_tips": "Wenn AstroWarp aktiviert ist, können Funktionen wie {feature} nicht verwendet werden.",
         "use_2b_tips": "AstroWarp ist eine innovative VPN-Plattform für Router, die das Einrichten von Ausgangsknoten und die Verbindung mehrerer entfernter Geräte innerhalb eines einheitlichen, sicheren Netzwerks erleichtert und so einen mühelosen Fernzugriff von überall ermöglicht."
@@ -53,7 +53,7 @@
         "install_app_title": "Installieren Sie die App, um loszulegen",
         "first_get_start_use_app_tips": "3. Verwenden Sie die App zum Scannen oder geben Sie den Code auf der Exit-Node-Seite ein.",
         "scan_qrcode_tips": "Scannen Sie den QR-Code oder geben Sie den Code in der AstroWarp-App ein, um sicher über diesen Router auf das Internet und Server zuzugreifen.",
-        "copy_link_btn": "Copy Code",
+        "copy_link_btn": "Kopiere Code",
         "select_node_tips": "Wählen Sie einen Ausgangsknoten aus, um sicher über ihn auf das Internet zuzugreifen.",
         "download_app_titile": "App herunterladen",
         "get_start_step_title": "Erste Schritte",
@@ -61,12 +61,12 @@
         "start_process_checking_tips": "Netzwerkstatus wird überprüft...",
         "no_available_node_tips": "Unter Ihrem Konto sind keine verfügbaren Exit-Nodes vorhanden. Bitte klicken Sie auf die AstroWarp-Schaltfläche, um zum Admin-Panel zu gelangen und Ihren Exit-Node zu konfigurieren.",
         "start_btn": "Start",
-        "start_process_connecting_tips": "Verbindung zum Server wird eingerichtet...",
+        "start_process_connecting_tips": "Verbindung zum Server wird hergestellt...",
         "start_process_starting_tips": "AstroWarp-Dienst wird gestartet...",
         "start_process_success_tips": "Erfolgreiche Einstellung!",
         "start_process_error_common_tips": "Verbindung fehlgeschlagen. Ein unbekannter Fehler ist aufgetreten. Bitte überprüfen Sie Ihr Netzwerk oder versuchen Sie es später erneut. Falls das Problem weiterhin besteht, wenden Sie sich an den Support oder senden Sie Feedback.",
         "exit_network_btn": "Beenden Sie AstroWrap",
-        "exit_ip_label": "Beenden IP",
+        "exit_ip_label": "Exit-IP",
         "exit_network_tips": "Ein Beenden entfernt alle zuvor hinzugefügten Clients. Um Astrowrap erneut zu nutzen, müssen Sie diese erneut hinzufügen. Sind Sie sicher, dass Sie fortfahren möchten?",
         "exit_btn": "Beenden"
     },
@@ -165,7 +165,8 @@
         "purchase_tips": "Kaufplan zur Aktivierung des Dienstes.",
         "package_expired_tips": "Ihr Plan ist abgelaufen. Dienst beendet. Klicken Sie zum Kauf, um den AstroWarp-Dienst zu aktivieren.",
         "time_label": "Zeit",
-        "remove_dev_tips": "Nach der Entfernung kann dieses Gerät nicht mehr auf Ihr Heimnetzwerk zugreifen."
+        "remove_dev_tips": "Nach der Entfernung kann dieses Gerät nicht mehr auf Ihr Heimnetzwerk zugreifen.",
+        "pay_to_gen_access_code_btn": "Klicken Sie hier, um ein Paket zu kaufen und einen Zugangscode zu generieren"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Anfrage fehlgeschlagen: Zeitstempel ungültig. Bitte synchronisieren Sie die Zeit des Routers."
