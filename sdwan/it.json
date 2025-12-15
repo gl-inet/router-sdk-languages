@@ -3,7 +3,7 @@
         "nodes_title": "Topologia di rete",
         "download_data_title": "Dati di traffico in download",
         "real_time_data_tips": "Include solo i dati del dispositivo che sono transitati attraverso il Gateway; questo potrebbe differire dal totale riportato dai tuoi dati di fatturazione.",
-        "upload_data_title": "Dati di traffico in caricamento",
+        "upload_data_title": "Carica Dati di Traffico",
         "interface_title": "Interfacce",
         "interface_tips": "Puoi disabilitare interfacce specifiche dall'unirsi all'aggregazione della connessione.",
         "no_device_tips": "Per utilizzare questa funzione, è necessario aggiungere il dispositivo a una delle reti virtuali in {cloud}.",
@@ -36,7 +36,7 @@
         "share_more_operation_tips": "Per utilizzare più impostazioni, accedi a {page}.",
         "go_to_aw_btn": "Vai a AstroWarp",
         "bind_not_self_tips": "Prima di utilizzare AstroWarp, si prega di collegare il proprio account alla vista Self; attualmente non è supportato l'utilizzo nella vista organizzazione o VAR.",
-        "only_support_self_tips": "AstroWarp è supportato solo in modalità Self view.",
+        "only_support_self_tips": "AstroWarp è supportato solo nella visualizzazione Self.",
         "operate_config_tips": "Se è necessario modificare la configurazione, accedi a {page}.",
         "exit_node_label": "Nodo di Uscita",
         "add_client_limit_tips": "Il numero di client che accedono a questo router ha raggiunto il limite massimo. Si prega di visitare AstroWarp per aggiornare il piano di rete.",
@@ -55,7 +55,7 @@
         "scan_qrcode_tips": "Scansiona il codice QR o inserisci il codice nell'app AstroWarp per accedere in modo sicuro a Internet e ai server tramite questo router.",
         "download_app_titile": "Scarica l'App",
         "get_start_step_title": "Inizia",
-        "copy_link_btn": "==WEBLATE_PART==\nCopia Codice",
+        "copy_link_btn": "Copia Codice",
         "no_available_node_tips": "Non ci sono nodi di uscita disponibili nel tuo account. Fai clic sul pulsante AstroWarp per accedere al pannello di amministrazione e configurare il tuo nodo di uscita.",
         "confirm_node_tips": "Conferma avviato l'accesso sicuro a Internet tramite",
         "select_node_tips": "Seleziona un nodo di uscita per accedere a Internet in modo sicuro tramite esso.",
@@ -64,7 +64,7 @@
         "start_process_starting_tips": "Avvio del servizio AstroWarp...",
         "start_process_success_tips": "Impostazione riuscita!",
         "start_process_error_common_tips": "Connessione fallita. Si è verificato un errore sconosciuto. Si prega di verificare la connessione di rete o riprovare più tardi. Se il problema persiste, contattare l'assistenza o inviare un feedback.",
-        "start_btn": "Avvia",
+        "start_btn": "Start",
         "exit_network_btn": "Uscita da AstroWrap",
         "exit_ip_label": "IP di uscita",
         "exit_network_tips": "Uscire rimuoverà tutti i client aggiunti in precedenza. Per utilizzare nuovamente Astrowrap, sarà necessario riaggiungerli. Sei sicuro di voler procedere?",
@@ -165,7 +165,8 @@
         "purchase_tips": "Acquista il piano per attivare il servizio.",
         "package_expired_tips": "Il tuo piano è scaduto. Servizio terminato. Clicca per acquistare e attivare il servizio AstroWarp.",
         "time_label": "时间",
-        "remove_dev_tips": "Dopo la rimozione, questo dispositivo non potrà più accedere alla tua rete domestica."
+        "remove_dev_tips": "Dopo la rimozione, questo dispositivo non potrà più accedere alla tua rete domestica.",
+        "pay_to_gen_access_code_btn": "点击购买套餐以生成访问码"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Richiesta fallita: Il timestamp non è valido. Sincronizza l'ora del router."
