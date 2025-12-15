@@ -13,7 +13,7 @@
         "get_start_tips": "Klik om te beginnen met AstroWarp!",
         "use_tips": "AstroWarp is een innovatief VPN-platform ontworpen voor GL.iNet-routers waarmee het eenvoudig is om een uitgangsknooppunt in te stellen en meerdere externe apparaten te verbinden binnen een uniform, beveiligd netwerk, waardoor moeiteloze externe toegang vanaf elke locatie mogelijk is.",
         "enable_tips": "Wanneer AstroWarp is ingeschakeld, kunnen functies zoals {feature} niet worden gebruikt.",
-        "use_2b_tips": "AstroWarp is een innovatief VPN-platform ontworpen voor routers waarmee u eenvoudig een uitgangsknooppunt kunt instellen en meerdere externe apparaten kunt verbinden binnen een uniform, beveiligd netwerk, waardoor naadloze externe toegang vanaf elke locatie mogelijk wordt."
+        "use_2b_tips": "AstroWarp is een innovatief VPN-platform ontworpen voor routers waarmee u eenvoudig een uitgangsknooppunt kunt instellen en meerdere externe apparaten kunt verbinden binnen een uniform, beveiligd netwerk, waardoor moeiteloze externe toegang vanaf elke locatie mogelijk wordt."
     },
     "menu_sdwan": "AstroWarp",
     "aw": {
@@ -37,7 +37,7 @@
         "go_to_aw_btn": "Ga naar AstroWarp",
         "bind_not_self_tips": "Koppel uw account aan de Self-weergave voordat u AstroWarp gebruikt; het ondersteunt momenteel geen gebruik in de organisatie- of VAR-weergave.",
         "only_support_self_tips": "AstroWarp wordt alleen ondersteund in de Zelfweergave.",
-        "operate_config_tips": "Als u de configuratie moet wijzigen, meld u dan aan op {page}.",
+        "operate_config_tips": "Als u de configuratie moet wijzigen, log dan in op {page}.",
         "exit_node_label": "Uitgangsknooppunt",
         "add_client_limit_tips": "Het aantal clients dat toegang heeft tot deze router heeft de bovengrens bereikt. Bezoek de AstroWarp om uw netwerkplan te upgraden.",
         "add_router_limit_tips": "Het aantal routers dat toegang heeft tot dit netwerk heeft de bovengrens bereikt. Bezoek de AstroWarp om uw netwerk te bewerken.",
@@ -53,7 +53,7 @@
         "first_get_start_click_tips": "2. Klik op de knop om deze router als uw internetuitgangsknooppunt in te stellen.",
         "first_get_start_use_app_tips": "3. Gebruik de app om te scannen of voer de code in op de uitgangsknooppuntpagina.",
         "scan_qrcode_tips": "Scan de QR-code of voer de code in de AstroWarp-app in om veilig toegang te krijgen tot het internet en servers via deze router.",
-        "copy_link_btn": "==WEBLATE_PART==\nCode kopiëren",
+        "copy_link_btn": "Kopieer code",
         "download_app_titile": "App downloaden",
         "get_start_step_title": "Aan de slag",
         "confirm_node_tips": "Bevestig gestart veilige toegang tot het internet via",
@@ -165,7 +165,8 @@
         "purchase_tips": "Aankoopplan om service te activeren.",
         "package_expired_tips": "Uw abonnement is verlopen. Dienst beëindigd. Klik om te kopen om de AstroWarp-service te activeren.",
         "time_label": "Tijd",
-        "remove_dev_tips": "Na verwijdering kan dit apparaat niet langer toegang krijgen tot uw thuisnetwerk."
+        "remove_dev_tips": "Na verwijdering kan dit apparaat niet langer toegang krijgen tot uw thuisnetwerk.",
+        "pay_to_gen_access_code_btn": "Klik om pakket te kopen en toegangscode te genereren"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Verzoek mislukt: Tijdstempel is ongeldig. Synchroniseer de tijd van de router."
