@@ -1,18 +1,18 @@
 {
     "sdwan": {
         "no_device_tips": "Jūs turite pridėti įrenginį prie vieno iš virtualių tinklų {cloud}, kad galėtumėte naudoti šią funkciją.",
-        "real_time_data_tips": "Įtraukia tik per tinklo tarpuvartę praėjusius įrenginio duomenis; tai gali skirtis nuo Jūsų sąskaitos duomenyse nurodyto bendro kiekio.",
+        "real_time_data_tips": "Įtraukiami tik įrenginio duomenys, kurie praėjo per tinklo tarpuvartę; tai gali skirtis nuo bendro kiekio, nurodyto Jūsų sąskaitos duomenyse.",
         "upload_data_title": "Įkelti srauto duomenis",
         "download_data_title": "Atsisiųsti srauto duomenis",
         "interface_title": "Sąsajos ir Sietuvai",
-        "device_tips": "Jūs buvote pridėtas prie virtualaus tinklo {network}. Prašome eiti į {cloud}, kad pakeistumėte nustatymus.",
+        "device_tips": "Jūs buvote pridėtas prie virtualaus tinklo {network}. Prašome eiti į {cloud}, kad keistumėte nustatymus.",
         "nodes_title": "Tinklo topologija",
         "real_time_data_title": "Realiojo laiko duomenys",
         "interface_tips": "Galite išjungti tam tikras sąsajas, neleidžiančias prisijungti prie ryšio agregavimo.",
         "get_start_title": "Debesijos paslaugos įjungtos",
-        "get_start_tips": "Spauskite, norint pradėti su „AstroWarp“!",
+        "get_start_tips": "Spauskite, norint pradėti naudoti „AstroWarp“!",
         "use_tips": "„AstroWarp“ yra inovatyvi „VPN“ platforma, skirta „GL.iNet“ maršrutizatoriams, kuri leidžia lengvai nustatyti išėjimo mazgą ir prijungti kelis nuotolinius įrenginius viename saugiame tinkle, suteikiant lengvą nuotolinę prieigą iš bet kur.",
-        "enable_tips": "Kai įjungtas „AstroWarp“, {feature} negali būti naudojama/-s.",
+        "enable_tips": "Kai įjungtas „AstroWarp“, tokios funkcijos kaip {feature} negali būti naudojamos.",
         "use_2b_tips": "„AstroWarp“ yra inovatyvi „VPN“ platforma, skirta maršrutizatoriams, kuri leidžia lengvai nustatyti išėjimo mazgą ir sujungti kelis nuotolinius įrenginius viename saugiame tinkle, užtikrinant lengvą nuotolinę prieigą iš bet kur."
     },
     "menu_sdwan": "„AstroWarp“",
@@ -31,9 +31,9 @@
         "use_internet_exit_label": "Naudoti interneto išėjimą",
         "more_operation_tips": "Visi klientai ir maršrutizatoriai, naudojantys interneto išėjimo prieigą, pasiekia internetą per šį maršrutizatorių. Jei reikia keisti konfigūraciją, prašome prisijungti prie {page}.",
         "share_use_internet_exit_label": "Naudoti interneto išėjimą:",
-        "to_download_app_btn": "Spustelėkite čia, kad atsisiųstumėte programinę įrangą",
+        "to_download_app_btn": "Spustelėkite čia, kad atsisiųstumėte programą",
         "qrcode_use_tips": "Naudokite programėlę, kad nuskaitytumėte QR kodą arba įvestumėte URL, kad pasiektumėte maršrutizatorių ir naudotumėte jam priklausantį interneto išėjimą.",
-        "share_more_operation_tips": "Naudodami daugiau nustatymų, prašome prisijungti {page}.",
+        "share_more_operation_tips": "Norėdami naudoti daugiau nustatymų, prisijunkite prie {page}.",
         "go_to_aw_btn": "Eiti į AstroWarp",
         "bind_not_self_tips": "Prieš naudodami AstroWarp, pririškite savo paskyrą prie Self view; šiuo metu jis nepalaiko naudojimo organizacijos ar VAR view.",
         "only_support_self_tips": "AstroWarp palaikomas tik savarankiškame rodinyje.",
@@ -62,7 +62,7 @@
         "get_start_step_title": "Pradėkite",
         "start_process_connecting_tips": "Jungiamasi prie serverio...",
         "start_process_starting_tips": "Paleidžiama AstroWarp tarnyba...",
-        "start_process_success_tips": "Sėkmingai nustatymas!",
+        "start_process_success_tips": "Sėkmingas nustatymas!",
         "start_process_error_common_tips": "Prisijungti nepavyko. Įvyko nežinoma klaida. Patikrinkite savo tinklą arba bandykite vėliau. Jei problema išlieka, susisiekite su palaikymo tarnyba arba pateikite atsiliepimą.",
         "start_process_checking_tips": "Tikrinama tinklo būsena...",
         "exit_network_btn": "Išeiti iš AstroWrap",
@@ -165,7 +165,8 @@
         "purchase_tips": "Pirkite planą, kad suaktyvintumėte paslaugą.",
         "package_expired_tips": "Jūsų planas baigėsi. Tarnyba nutraukta. Spustelėkite, kad įsigytumėte ir suaktyvintumėte AstroWarp paslaugą.",
         "time_label": "Laikas",
-        "remove_dev_tips": "Pašalinus šis įrenginys nebegalės pasiekti jūsų namų tinklo."
+        "remove_dev_tips": "Pašalinus šis įrenginys nebegalės pasiekti jūsų namų tinklo.",
+        "pay_to_gen_access_code_btn": "Spustelėkite, kad įsigytumėte paketą ir sugeneruotumėte prieigos kodą"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Užklausa nepavyko: Laiko žymė negalima. Sinchronizuokite maršrutizatoriaus laiką."
