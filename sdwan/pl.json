@@ -3,7 +3,7 @@
         "no_device_tips": "Aby korzystać z tej funkcji, musisz dodać urządzenie do jednej z sieci wirtualnych w {cloud}.",
         "real_time_data_title": "Dane w czasie rzeczywistym",
         "download_data_title": "Pobieranie danych o ruchu pobierania",
-        "real_time_data_tips": "Obejmuje tylko dane urządzenia, które przeszły przez Bramę; może się to różnić od całkowitej ilości danych zgłaszanych przez Twoje rozliczenia.",
+        "real_time_data_tips": "Obejmuje tylko dane urządzenia, które przeszły przez Bramę; może się to różnić od całkowitej ilości danych zgłaszanych przez Twoje dane rozliczeniowe.",
         "nodes_title": "Topologia sieci",
         "interface_title": "Interfejsy",
         "interface_tips": "Możesz wyłączyć określone interfejsy z dołączania do agregacji połączeń.",
@@ -11,7 +11,7 @@
         "device_tips": "Zostałeś dodany do sieci wirtualnej {network}. Proszę przejdź do {cloud}, aby zmodyfikować ustawienia.",
         "get_start_title": "Usługi chmurowe włączone",
         "get_start_tips": "Kliknij, aby rozpocząć korzystanie z AstroWarp!",
-        "use_tips": "AstroWarp to innowacyjna platforma VPN zaprojektowana dla routerów GL.iNet, która umożliwia łatwą konfigurację węzła wyjściowego oraz łączenie wielu zdalnych urządzeń w ramach jednolitej, bezpiecznej sieci, zapewniając bezproblemowy dostęp zdalny z dowolnego miejsca.",
+        "use_tips": "AstroWarp to innowacyjna platforma VPN zaprojektowana dla routerów GL.iNet, która ułatwia konfigurację węzła wyjściowego oraz łączenie wielu zdalnych urządzeń w ramach jednolitej, bezpiecznej sieci, umożliwiając bezproblemowy dostęp zdalny z dowolnego miejsca.",
         "enable_tips": "Gdy AstroWarp jest włączony, funkcje takie jak {feature} nie mogą być używane.",
         "use_2b_tips": "AstroWarp to innowacyjna platforma VPN zaprojektowana dla routerów, która ułatwia konfigurację węzła wyjściowego oraz łączenie wielu zdalnych urządzeń w ramach jednolitej, bezpiecznej sieci, umożliwiając bezproblemowy dostęp zdalny z dowolnego miejsca."
     },
@@ -53,7 +53,7 @@
         "first_get_start_click_tips": "2. Kliknij przycisk, aby ustawić ten router jako węzeł wyjściowy Twojego internetu.",
         "first_get_start_use_app_tips": "3. Użyj aplikacji, aby zeskanować lub wprowadzić kod na stronie węzła wyjściowego.",
         "scan_qrcode_tips": "Zeskanuj kod QR lub wprowadź kod w aplikacji AstroWarp, aby bezpiecznie uzyskać dostęp do internetu i serwerów przez ten router.",
-        "copy_link_btn": "Kopiuj kod",
+        "copy_link_btn": "Copy Code",
         "download_app_titile": "Pobierz aplikację",
         "get_start_step_title": "Rozpocznij",
         "no_available_node_tips": "W Twoim koncie nie ma dostępnych węzłów wyjściowych. Kliknij przycisk AstroWarp, aby przejść do panelu administracyjnego i skonfigurować węzeł wyjściowy.",
@@ -165,7 +165,8 @@
         "pay_code_tips": "Zostaniesz przekierowany na oficjalną stronę internetową w celu odnowienia planu dla tego routera:",
         "package_expired_tips": "Twój plan wygasł. Usługa została zakończona. Kliknij, aby zakupić i aktywować usługę AstroWarp.",
         "time_label": "Czas",
-        "remove_dev_tips": "Po usunięciu to urządzenie nie będzie już miało dostępu do Twojej sieci domowej."
+        "remove_dev_tips": "Po usunięciu to urządzenie nie będzie już miało dostępu do Twojej sieci domowej.",
+        "pay_to_gen_access_code_btn": "Kliknij, aby zakupić pakiet i wygenerować kod dostępu"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Żądanie nie powiodło się: Sygnatura czasowa jest nieprawidłowa. Proszę zsynchronizować czas routera."
