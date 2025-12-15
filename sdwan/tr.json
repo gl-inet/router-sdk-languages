@@ -4,20 +4,20 @@
         "device_tips": "{network} sanal ağına eklendiniz. Ayarları değiştirmek için lütfen {cloud}'a gidin.",
         "nodes_title": "Ağ Topolojisi",
         "real_time_data_title": "Gerçek Zamanlı Veri",
-        "real_time_data_tips": "Yalnızca Gateway üzerinden geçen cihaz verilerini içerir; bu, faturalama verilerinizde gösterilen toplamdan farklı olabilir.",
+        "real_time_data_tips": "Yalnızca Gateway üzerinden geçen cihaz verilerini içerir; bu, faturalama verilerinizde rapor edilen toplamdan farklı olabilir.",
         "upload_data_title": "Yükleme Trafik Verileri",
         "download_data_title": "İndirme Trafik Verisi",
         "interface_title": "Arayüzler",
         "interface_tips": "Belirli arayüzlerin bağlantı toplamına katılmasını devre dışı bırakabilirsiniz.",
-        "use_tips": "AstroWarp, GL.Routers ile kullanılmak üzere tasarlanmış, çıkış düğümü ayarlamayı ve birden fazla uzak cihazı birleşik bir güvenli ağ içinde bağlamayı kolaylaştıran, her yerden zahmetsiz uzaktan erişim sağlayan yenilikçi bir VPN platformudur.",
+        "use_tips": "AstroWarp, GL.Routers ile kullanılmak üzere tasarlanmış, çıkış düğümü ayarlamayı ve birden fazla uzak cihazı birleşik, güvenli bir ağ içinde bağlamayı kolaylaştıran, her yerden zahmetsiz uzaktan erişim sağlayan yenilikçi bir VPN platformudur.",
         "get_start_title": "Bulut Hizmetleri Etkinleştirildi",
         "get_start_tips": "AstroWarp'a başlamak için tıklayın!",
         "enable_tips": "AstroWarp etkinleştirildiğinde, {feature} gibi işlevler kullanılamaz.",
-        "use_2b_tips": "AstroWarp, router'lar için tasarlanmış yenilikçi bir VPN platformudur; çıkış düğümü kurmayı kolaylaştırır ve birden fazla uzak cihazı tek bir güvenli ağ içinde bağlayarak, her yerden zahmetsiz uzaktan erişim imkanı sunar."
+        "use_2b_tips": "AstroWarp, router'lar için tasarlanmış yenilikçi bir VPN platformudur; çıkış düğümü kurmayı kolaylaştırır ve birden fazla uzak cihazı tek bir güvenli ağ içinde bağlayarak, her yerden zahmetsiz uzaktan erişim sağlar."
     },
     "aw": {
         "vaild_only_once_label": "Yalnızca Bir Kez Geçerli:",
-        "copy_link_btn": "Copy Code",
+        "copy_link_btn": "Kodu Kopyala",
         "no_available_node_tips": "Hesabınız altında kullanılabilir çıkış düğümü bulunmamaktadır. Çıkış düğümünüzü yapılandırmak için AstroWarp düğmesine tıklayarak yönetici paneline gidin.",
         "download_app_titile": "Uygulamayı İndir",
         "get_start_step_title": "Başlayın",
@@ -27,7 +27,7 @@
         "start_btn": "Başlat",
         "start_process_checking_tips": "Ağ durumu kontrol ediliyor...",
         "start_process_connecting_tips": "Sunucuya bağlanılıyor...",
-        "first_get_start_step1_tips": "Bu yönletici ile AstroWarp kullanmak için önce uygulamayı indirin, ardından bu yönlendiriciye bağlanın ve internet üzerinden erişim sağlayın.",
+        "first_get_start_step1_tips": "Bu yönlendirici ile AstroWarp kullanmak için önce uygulamayı indirin, ardından bu yönlendiriciye bağlanın ve internet üzerinden erişim sağlayın.",
         "go_to_aw_web_btn": "Astrowarp Web Sitesine Git",
         "data_usage_title": "Veri Kullanımı",
         "first_get_start_step2_tips": "Başlat'a tıklayın, sizin için ücretsiz bir AstroNet oluşturacağız. Ve bu yönlendirici internet çıkışı olarak ayarlanacaktır.",
@@ -48,7 +48,7 @@
         "only_support_self_tips": "AstroWarp yalnızca Self görünümde desteklenmektedir.",
         "operate_config_tips": "Yapılandırmayı değiştirmeniz gerekiyorsa, lütfen {page} sayfasına giriş yapın.",
         "exit_node_label": "Çıkış Düğümü",
-        "add_client_limit_tips": "Bu yönlendiriciye erişen istemci sayısı üst sınıra ulaştı. Ağ planınızı yükseltmek için lütfen AstroWarp'a gidin.",
+        "add_client_limit_tips": "Bu yönlendiriciye erişen istemci sayısı üst sınıra ulaştı. Ağ planınızı yükseltmek için lütfen AstroWarp'ı ziyaret edin.",
         "add_router_limit_tips": "Bu ağa erişen yönlendirici sayısı üst sınıra ulaştı. Ağınızı düzenlemek için lütfen AstroWarp'ı ziyaret edin.",
         "network_plan_expired_tips": "Bu ağın süresi doldu. Ağ planınızı yükseltmek/yenilemek için lütfen AstroWarp'a gidin.",
         "unlimit_label": "Sınırsız",
@@ -61,7 +61,7 @@
         "first_get_start_use_app_tips": "3. Çıkış düğümü sayfasında kodu taramak veya girmek için uygulamayı kullanın.",
         "get_start_btn": "Başlayın",
         "install_app_title": "Başlamak için uygulamayı yükleyin",
-        "scan_qrcode_tips": "Bu yönletici üzerinden güvenli bir şekilde internete ve sunuculara erişmek için QR kodunu tarayın veya kodu AstroWarp uygulamasına girin.",
+        "scan_qrcode_tips": "Bu yönlendirici üzerinden güvenli bir şekilde internete ve sunuculara erişmek için QR kodunu tarayın veya kodu AstroWarp uygulamasına girin.",
         "start_process_success_tips": "Başarılı Ayarlama!",
         "start_process_error_common_tips": "Bağlantı başarısız oldu. Bilinmeyen bir hata oluştu. Lütfen ağınızı kontrol edin veya daha sonra tekrar deneyin. Sorun devam ederse, destekle iletişime geçin veya geri bildirim gönderin.",
         "exit_network_btn": "AstroWrap'tan Çık",
@@ -165,7 +165,8 @@
         "pay_code_tips": "Bu yönlendirileceğiniz yasal web sitesinde bu yönlendirici için plan yenileme işlemi yapılacaktır:",
         "package_expired_tips": "Planınızın süresi doldu. Hizmet sonlandırıldı. AstroWarp hizmetini etkinleştirmek için satın almak için tıklayın.",
         "time_label": "Zaman",
-        "remove_dev_tips": "Kaldırıldıktan sonra, bu cihaz artık ev ağınıza erişemez."
+        "remove_dev_tips": "Kaldırıldıktan sonra, bu cihaz artık ev ağınıza erişemez.",
+        "pay_to_gen_access_code_btn": "Paketi Satın Alarak Erişim Kodu Oluşturmak İçin Tıklayın"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "İstek başarısız oldu: Zaman damgası geçersiz. Lütfen yönlendiricinin zamanını senkronize edin."
