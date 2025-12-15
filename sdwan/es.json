@@ -2,12 +2,12 @@
     "menu_sdwan": "AstroWarp",
     "sdwan": {
         "nodes_title": "Topología de Red",
-        "upload_data_title": "Datos de Tráfico de Carga",
+        "upload_data_title": "Datos de Tráfico de Subida",
         "real_time_data_title": "Datos en Tiempo Real",
         "interface_tips": "Puedes deshabilitar interfaces específicas para que no participen en la agregación de conexión.",
         "no_device_tips": "Debes agregar el dispositivo a una de las redes virtuales en {cloud} para utilizar esta función.",
         "device_tips": "Ha sido agregado a la red virtual {network}. Por favor, diríjase a {cloud} para modificar la configuración.",
-        "real_time_data_tips": "Incluye solo los datos del dispositivo que han pasado a través de la Puerta de Enlace; esto puede ser diferente al total reportado por sus datos de facturación.",
+        "real_time_data_tips": "Incluye solo los datos del dispositivo que han pasado a través de la Puerta de Enlace; esto puede diferir del total reportado por sus datos de facturación.",
         "download_data_title": "Tráfico de Descarga de Datos",
         "interface_title": "Interfaces",
         "get_start_title": "Servicios en la Nube Habilitados",
@@ -35,9 +35,9 @@
         "qrcode_use_tips": "Utilice la aplicación para escanear el código QR o ingrese la URL para acceder al router y utilizar la salida de Internet a la que pertenece.",
         "share_more_operation_tips": "Para utilizar más configuraciones, por favor inicie sesión en {page}.",
         "go_to_aw_btn": "Ir a AstroWarp",
-        "bind_not_self_tips": "Antes de utilizar AstroWarp, vincule su cuenta a la vista Self; actualmente no admite el uso en la vista de organización o VAR.",
+        "bind_not_self_tips": "Antes de utilizar AstroWarp, vincule su cuenta a la vista Self; actualmente no admite su uso en la vista de organización o VAR.",
         "only_support_self_tips": "AstroWarp solo es compatible con la vista propia.",
-        "operate_config_tips": "Si necesita modificar la configuración, acceda a {page}.",
+        "operate_config_tips": "Si necesita modificar la configuración, inicie sesión en {page}.",
         "exit_node_label": "Nodo de salida",
         "add_client_limit_tips": "El número de clientes que acceden a este router ha alcanzado el límite máximo. Por favor, visite AstroWarp para actualizar su plan de red.",
         "add_router_limit_tips": "El número de routers accediendo a esta red ha alcanzado el límite máximo. Por favor, visite AstroWarp para editar su red.",
@@ -64,7 +64,7 @@
         "start_process_checking_tips": "Verificando estado de la red...",
         "start_process_success_tips": "¡Configuración exitosa!",
         "start_process_starting_tips": "Iniciando servicio AstroWarp...",
-        "start_process_error_common_tips": "Conexión fallida. Se presentó un error desconocido. Por favor, verifique su red o intente de nuevo más tarde. Si el problema persiste, contacte al soporte técnico o envíe sus comentarios.",
+        "start_process_error_common_tips": "Conexión fallida. Se produjo un error desconocido. Por favor, verifique su red o intente de nuevo más tarde. Si el problema persiste, contacte al soporte técnico o envíe sus comentarios.",
         "exit_network_btn": "Salir de AstroWrap",
         "exit_ip_label": "IP de salida",
         "exit_network_tips": "Salir eliminará todos los clientes previamente agregados. Para usar Astrowrap nuevamente, deberá volver a agregarlos. ¿Está seguro de que desea continuar?",
@@ -165,7 +165,8 @@
         "purchase_tips": "Comprar plan para activar el servicio.",
         "package_expired_tips": "Su plan ha expirado. Servicio terminado. Haga clic para comprar y activar el servicio AstroWarp.",
         "time_label": "Tiempo",
-        "remove_dev_tips": "Después de la eliminación, este dispositivo ya no podrá acceder a su red doméstica."
+        "remove_dev_tips": "Después de la eliminación, este dispositivo ya no podrá acceder a su red doméstica.",
+        "pay_to_gen_access_code_btn": "Haga clic para Comprar Paquete y Generar Código de Acceso"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Solicitud fallida: La marca de tiempo no es válida. Por favor, sincronice la hora del router."
