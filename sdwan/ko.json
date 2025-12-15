@@ -29,7 +29,7 @@
         "usage_total_label": "사용량 / 총계",
         "use_internet_exit_label": "인터넷 출구 사용",
         "use_as_internet_exit_tips": "이 라우터는 인터넷 출구로 설정되었습니다.",
-        "more_operation_tips": "모든 클라이언트와 라우터는 인터넷 출구 접속 시 이 라우터를 통해 인터넷에 접속합니다. 구성을 수정하려면 {page}에 로그인하십시오.",
+        "more_operation_tips": "모든 클라이언트와 라우터는 인터넷 출구 접속 시 이 라우터를 통해 인터넷에 접속합니다. 설정을 수정하려면 {page}에 로그인하십시오.",
         "share_use_internet_exit_label": "인터넷 출구 사용:",
         "to_download_app_btn": "앱 다운로드를 위해 여기를 클릭하세요",
         "qrcode_use_tips": "앱을 사용하여 QR 코드를 스캔하거나 URL을 입력하여 라우터에 접속하고 해당 라우터의 인터넷 출구를 사용하세요.",
@@ -43,7 +43,7 @@
         "add_router_limit_tips": "이 네트워크에 접속 중인 라우터 수가 상한에 도달했습니다. 네트워크를 편집하려면 $$$$AstroWarp$$$$을 방문하십시오.",
         "network_plan_expired_tips": "이 네트워크는 만료되었습니다. 네트워크 플랜을 업그레이드/갱신하려면 $$$$AstroWarp$$$$을 방문하십시오.",
         "unlimit_label": "무제한",
-        "web_title": "아스트로워프 관리자 패널",
+        "web_title": "AstroWarp 관리자 패널",
         "get_start_common_tips": "어디에 있든 이 라우터의 WAN IP를 통해 인터넷 출구로 사용하여 인터넷과 서버에 접근할 수 있는 재택근무를 시작하세요.",
         "get_start_has_networks_tips": "버튼을 클릭하고, 사용할 출구 노드 라우터를 선택하여 인터넷 및 서버에 접속하세요.",
         "first_get_start_download_app_tips": "1. 모바일 기기 또는 PC에서 AstroWarp 앱을 다운로드하세요.",
@@ -53,7 +53,7 @@
         "install_app_title": "앱을 설치하여 시작하세요",
         "get_start_btn": "시작하기",
         "scan_qrcode_tips": "QR 코드를 스캔하거나 AstroWarp 앱에 코드를 입력하여 이 라우터를 통해 안전하게 인터넷 및 서버에 접속하세요.",
-        "copy_link_btn": "==WEBLATE_PART==\n복사 코드",
+        "copy_link_btn": "Copy Code",
         "download_app_titile": "앱 다운로드",
         "get_start_step_title": "시작하기",
         "no_available_node_tips": "귀하의 계정에는 사용 가능한 출구 노드가 없습니다. AstroWarp 버튼을 클릭하여 관리자 패널로 이동하여 출구 노드를 구성하십시오.",
@@ -165,7 +165,8 @@
         "purchase_tips": "서비스 활성화를 위한 구독 플랜 구매.",
         "package_expired_tips": "귀하의 요금제가 만료되었습니다. 서비스가 중단되었습니다. AstroWarp 서비스를 활성화하려면 구매를 클릭하세요.",
         "time_label": "시간",
-        "remove_dev_tips": "제거 후 이 장치는 더 이상 홈 네트워크에 접근할 수 없습니다."
+        "remove_dev_tips": "제거 후 이 장치는 더 이상 홈 네트워크에 접근할 수 없습니다.",
+        "pay_to_gen_access_code_btn": "패키지 구매를 클릭하여 액세스 코드 생성"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "요청 실패: 타임스탬프가 유효하지 않습니다. 라우터 시간을 동기화하십시오."
