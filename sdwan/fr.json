@@ -8,7 +8,7 @@
         "device_tips": "Vous avez été ajouté au réseau virtuel {network}. Veuillez vous rendre sur {cloud} pour modifier les paramètres.",
         "real_time_data_tips": "Inclut uniquement les données de l'appareil qui ont transité par la passerelle ; cela peut différer du total rapporté par vos données de facturation.",
         "upload_data_title": "Données de trafic uploadées",
-        "interface_tips": "Vous pouvez désactiver des interfaces spécifiques rejoignant l'agrégation de connexion.",
+        "interface_tips": "Vous pouvez désactiver des interfaces spécifiques participant à l'agrégation de connexion.",
         "get_start_title": "Services cloud activés",
         "get_start_tips": "Cliquez pour commencer avec AstroWarp !",
         "use_tips": "AstroWarp est une plateforme VPN innovante conçue pour les routeurs GL.iNet qui facilite la configuration des nœuds de sortie et la connexion de plusieurs appareils distants au sein d'un réseau unifié et sécurisé, permettant un accès à distance sans effort depuis n'importe où.",
@@ -17,8 +17,8 @@
     },
     "menu_sdwan": "AstroWarp",
     "aw": {
-        "first_get_start_step1_tips": "Pour utiliser AstroWarp avec ce routeur, téléchargez d'abord l'application, puis connectez-vous à ce routeur et accédez à l'internet via celui-ci.",
-        "go_to_aw_web_btn": "Aller sur le site web d'AstroWarp",
+        "first_get_start_step1_tips": "Pour utiliser AstroWarp avec ce routeur, téléchargez d'abord l'application, puis connectez-vous à ce routeur et accédez à internet via celui-ci.",
+        "go_to_aw_web_btn": "Accéder au site web d'AstroWarp",
         "data_usage_title": "Utilisation des données",
         "vaild_only_once_label": "Valable une seule fois :",
         "join_network_btn": "Rejoindre le réseau",
@@ -30,7 +30,7 @@
         "use_internet_exit_label": "Utiliser la sortie Internet",
         "use_as_internet_exit_tips": "Ce routeur a été configuré comme sortie internet.",
         "more_operation_tips": "Tous les clients et routeurs utilisant la sortie internet accèdent à l'internet via ce routeur. Si vous devez modifier la configuration, veuillez vous connecter à {page}.",
-        "share_use_internet_exit_label": "Utiliser la sortie Internet",
+        "share_use_internet_exit_label": "Utiliser la sortie Internet :",
         "to_download_app_btn": "Cliquez ici pour télécharger l'application",
         "qrcode_use_tips": "Utilisez l'application pour scanner le code QR ou saisissez l'URL pour accéder au routeur et utiliser la sortie Internet à laquelle il appartient.",
         "share_more_operation_tips": "Pour utiliser davantage de paramètres, veuillez vous connecter à {page}.",
@@ -53,7 +53,7 @@
         "get_start_btn": "Commencer",
         "install_app_title": "Installez l'application pour commencer",
         "scan_qrcode_tips": "Scannez le code QR ou saisissez le code dans l'application AstroWarp pour accéder de manière sécurisée à internet et aux serveurs via ce routeur.",
-        "copy_link_btn": "==WEBLATE_PART==\nCopier le code",
+        "copy_link_btn": "Copier le code",
         "download_app_titile": "Télécharger l'application",
         "select_node_tips": "Choisissez un nœud de sortie pour accéder à internet de manière sécurisée via celui-ci.",
         "no_available_node_tips": "Aucun nœud de sortie n'est disponible sous votre compte. Veuillez cliquer sur le bouton AstroWarp pour accéder au panneau d'administration afin de configurer votre nœud de sortie.",
@@ -165,7 +165,8 @@
         "purchase_tips": "Achetez un plan pour activer le service.",
         "package_expired_tips": "Votre plan a expiré. Service interrompu. Cliquez pour acheter afin d'activer le service AstroWarp.",
         "time_label": "Temps",
-        "remove_dev_tips": "Après suppression, cet appareil ne pourra plus accéder à votre réseau domestique."
+        "remove_dev_tips": "Après suppression, cet appareil ne pourra plus accéder à votre réseau domestique.",
+        "pay_to_gen_access_code_btn": "Cliquez pour acheter le forfait et générer un code d'accès"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Échec de la requête : L'horodatage est invalide. Veuillez synchroniser l'heure du routeur."
