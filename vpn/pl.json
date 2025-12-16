@@ -510,6 +510,11 @@
         "too_large_unzip_fail_tips": "Przesłany plik jest zbyt duży. Dekompresja nie powiodła się z powodu niewystarczającej przestrzeni dyskowej."
     },
     "ovpnclient": {
-        "legacy_label": "Starsze"
+        "legacy_label": "Starsze",
+        "modern_title": "Nowoczesny (zalecany):",
+        "legacy_desc": "Ma wyższą kompatybilność konfiguracji. Jeśli połączenie się nie powiedzie, możesz spróbować przełączyć się na tę opcję.",
+        "legacy_title": "Legacy:",
+        "modern_label": "Nowoczesny",
+        "modern_desc": "Odpowiedni dla większości usług VPN, oferujący lepszą wydajność i bezpieczeństwo."
     }
 }
