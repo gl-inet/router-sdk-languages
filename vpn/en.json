@@ -510,6 +510,11 @@
         "too_large_unzip_fail_tips": "Uploaded file too large. Decompression failed due to insufficient storage."
     },
     "ovpnclient": {
-        "legacy_label": "Legacy"
+        "legacy_label": "Legacy",
+        "modern_title": "Modern (Recommended):",
+        "legacy_title": "Legacy:",
+        "legacy_desc": "It has higher configuration compatibility. If connection fails, you can try switching to this option.",
+        "modern_label": "Modern",
+        "modern_desc": "Suitable for most VPN services, offering better performance and security."
     }
 }
