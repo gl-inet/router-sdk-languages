@@ -510,6 +510,11 @@
         "too_large_unzip_fail_tips": "上传文件过大。因存储空间不足，解压失败。"
     },
     "ovpnclient": {
-        "legacy_label": "旧版"
+        "legacy_label": "旧版",
+        "legacy_title": "旧版：",
+        "modern_title": "现代（推荐）：",
+        "legacy_desc": "它具有更高的配置兼容性。如果连接失败，您可以尝试切换到此选项。",
+        "modern_label": "现代",
+        "modern_desc": "适用于大多数VPN服务，提供更好的性能和安全性。"
     }
 }
