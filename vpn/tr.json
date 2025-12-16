@@ -510,6 +510,11 @@
         "too_large_unzip_fail_tips": "Yüklenen dosya çok büyük. Yetersiz depolama alanı nedeniyle açma işlemi başarısız oldu."
     },
     "ovpnclient": {
-        "legacy_label": "Eski"
+        "legacy_label": "Eski",
+        "legacy_title": "Eski:",
+        "modern_title": "Modern (Önerilen):",
+        "legacy_desc": "Daha yüksek yapılandırma uyumluluğuna sahiptir. Bağlantı başarısız olursa, bu seçeneğe geçmeyi deneyebilirsiniz.",
+        "modern_label": "Modern",
+        "modern_desc": "Çoğu VPN hizmeti için uygundur, daha iyi performans ve güvenlik sunar."
     }
 }
