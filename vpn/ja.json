@@ -510,6 +510,11 @@
         "too_large_unzip_fail_tips": "アップロードされたファイルが大きすぎます。ストレージ不足のため解凍に失敗しました。"
     },
     "ovpnclient": {
-        "legacy_label": "レガシー"
+        "legacy_label": "レガシー",
+        "modern_title": "モダン（推奨）：",
+        "legacy_title": "レガシー:",
+        "legacy_desc": "より高い設定互換性を備えています。接続に失敗した場合は、このオプションに切り替えて試してみてください。",
+        "modern_label": "モダン",
+        "modern_desc": "ほとんどのVPNサービスに適しており、より優れたパフォーマンスとセキュリティを提供します。"
     }
 }
