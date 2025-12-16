@@ -510,6 +510,11 @@
         "too_large_unzip_fail_tips": "Geüploade bestand te groot. Uitpakken mislukt door onvoldoende opslagruimte."
     },
     "ovpnclient": {
-        "legacy_label": "Verouderd"
+        "legacy_label": "Verouderd",
+        "legacy_title": "Verouderd:",
+        "legacy_desc": "Het heeft een hogere configuratiecompatibiliteit. Als de verbinding mislukt, kunt u proberen over te schakelen naar deze optie.",
+        "modern_label": "Modern",
+        "modern_title": "Modern (Aanbevolen):",
+        "modern_desc": "Geschikt voor de meeste VPN-diensten, biedt betere prestaties en beveiliging."
     }
 }
