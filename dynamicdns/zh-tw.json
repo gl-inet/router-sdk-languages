@@ -27,7 +27,9 @@
         "enabled_tips": "DNS 服務器之間的記錄同步最多會有 10 分鐘的延遲。在剛剛啟用或者更改您的公共 IP 後，可能會導致您無法立即通過 DDNS 域訪問。",
         "to_security_btn": "前往安全部門",
         "security_settings_tips": "在「系統-安全性」遠端訪問控制中，可以修改兩個選項來限制遠端存取。",
-        "security_settings_btn": "安全設定"
+        "security_settings_btn": "安全設定",
+        "to_management_control_btn": "前往 {name}",
+        "security_management_control_settings_tips": "在 {name} 遠端存取控制中，您可以修改兩個選項來限制遠端存取。"
     },
     "menu_dynamicdns": "動態 DNS"
 }
