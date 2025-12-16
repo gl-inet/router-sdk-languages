@@ -27,7 +27,9 @@
         "enabled_tips": "There may be a delay of up to 10 minutes in record synchronization between DNS servers. This may cause you to be unable to access through the DDNS domain name immediately after you have just enabled it or your public IP has changed.",
         "security_settings_btn": "Security Settings",
         "security_settings_tips": "In \"System-Security\" Remote Access Control, you can modify two options to restrict remote access.",
-        "to_security_btn": "Go To Security"
+        "to_security_btn": "Go To Security",
+        "security_management_control_settings_tips": "In {name} Remote Access Control, you can modify two options to restrict remote access.",
+        "to_management_control_btn": "Go To {name}"
     },
     "menu_dynamicdns": "Dynamic DNS"
 }
