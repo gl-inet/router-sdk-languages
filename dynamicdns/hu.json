@@ -27,7 +27,9 @@
         "enabled_tips": "Akár 10 perc késleltetés is előfordulhat a DNS szerverek közötti rekord szinkronizálásban. Ez azt eredményezheti, hogy nem tud hozzáférni a DDNS domain néven keresztül azonnal, miután éppen engedélyezte, vagy ha a nyilvános IP-címe megváltozott.",
         "security_settings_btn": "Biztonsági beállítások",
         "security_settings_tips": "A \"Rendszer-Biztonság\" Távoli hozzáférés-vezérlésben módosíthat két beállítást a távoli hozzáférés korlátozásához.",
-        "to_security_btn": "Ugrás a biztonsági beállításokhoz"
+        "to_security_btn": "Ugrás a biztonsági beállításokhoz",
+        "security_management_control_settings_tips": "A {name} Távoli Hozzáférés-vezérlésben két lehetőséget módosíthat a távoli hozzáférés korlátozásához.",
+        "to_management_control_btn": "Ugrás a {name} oldalra"
     },
     "menu_dynamicdns": "Dinamikus DNS"
 }
