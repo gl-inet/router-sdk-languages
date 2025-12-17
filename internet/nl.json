@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "Kan de operator niet vergrendelen",
         "unlock_operator_fail_msg": "Kan de operator niet ontgrendelen",
         "airplane_mode_tips": "Mobiel is uitgeschakeld vanwege de vliegtuigmodus. Schakel de vliegtuigmodus uit op het apparaatscherm om deze in te schakelen.",
-        "save_operator_config_fail_msg": "Kan de operatorconfiguratie niet opslaan"
+        "save_operator_config_fail_msg": "Kan de operatorconfiguratie niet opslaan",
+        "lock_operation_mode_tip": "U kunt ervoor kiezen om een specifieke operator handmatig te vergrendelen, of automatisch over te schakelen naar een beschikbaar operatornetwerk wanneer handmatige vergrendeling mislukt."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -584,5 +585,9 @@
         "enable_polling_label": "Polling inschakelen",
         "polling_control_title": "APN Polling Controle",
         "enable_polling_tips": "Als het apparaat een Verizon SIM-kaart gebruikt en deze functie is ingeschakeld, zal het apparaat continu de APN controleren gedurende maximaal 12 minuten na het herstarten totdat de netwerkverbinding normaal is. Deze functie is alleen geldig voor Verizon SIM-kaarten."
+    },
+    "internet": {
+        "manual_label": "Handleiding",
+        "manual_mac_label": "Handmatig MAC-adres"
     }
 }

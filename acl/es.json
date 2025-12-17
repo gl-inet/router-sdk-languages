@@ -1,0 +1,22 @@
+{
+    "acl": {
+        "protocol_label": "Protocolo",
+        "match_label": "Coincidencia",
+        "name_label": "Nombre",
+        "ip_type_label": "Tipo de IP",
+        "souce_zoon_label": "Zona de origen",
+        "source_address_label": "Dirección de origen",
+        "source_port_label": "Puerto de origen",
+        "dest_zone_label": "Zona de destino",
+        "action_label": "Acción",
+        "dest_address_label": "Dirección de destino",
+        "dest_port_label": "Puerto de destino",
+        "acl_desc": "{acl} puede controlar el tráfico de red basándose en reglas como protocolo, dirección IP de destino, dirección IP de origen y número de puerto. Si hay un conflicto entre dos reglas de {acl} habilitadas, el dispositivo priorizará la regla de mayor prioridad.",
+        "add_rule_btn": "Agregar regla",
+        "any_not_allowed_with_multiple_ips": "Cuando hay múltiples direcciones IP, la opción 'Cualquiera' no puede incluirse",
+        "add_acl_dialog_title": "Agregar una regla de ACL",
+        "edit_acl_dialog_title": "Modificar regla de ACL",
+        "name_already_exist_msg": "El nombre ya existe."
+    },
+    "menu_acl": "ACL"
+}

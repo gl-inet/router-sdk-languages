@@ -1,0 +1,22 @@
+{
+    "acl": {
+        "protocol_label": "Protokoll",
+        "match_label": "Übereinstimmung",
+        "name_label": "Name",
+        "souce_zoon_label": "Quellzone",
+        "source_address_label": "Quelladresse",
+        "source_port_label": "Quellport",
+        "dest_zone_label": "Zielzone",
+        "action_label": "Aktion",
+        "dest_address_label": "Zieladresse",
+        "dest_port_label": "Zielport",
+        "ip_type_label": "IP-Typ",
+        "acl_desc": "{acl} kann Netzwerkverkehr basierend auf Regeln wie Protokoll, Ziel-IP-Adresse, Quell-IP-Adresse und Portnummer steuern. Bei einem Konflikt zwischen zwei aktivierten {acl}-Regeln priorisiert das Gerät die Regel mit höherer Priorität.",
+        "add_rule_btn": "Regel hinzufügen",
+        "any_not_allowed_with_multiple_ips": "Bei mehreren IP-Adressen kann die Option 'Beliebig' nicht enthalten sein",
+        "add_acl_dialog_title": "Eine ACL-Regel hinzufügen",
+        "edit_acl_dialog_title": "ACL-Regel ändern",
+        "name_already_exist_msg": "Der Name existiert bereits."
+    },
+    "menu_acl": "ACL"
+}

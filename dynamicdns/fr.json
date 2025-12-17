@@ -27,7 +27,9 @@
         "to_security_btn": "Aller dans les paramètres de sécurité",
         "security_settings_btn": "Paramètres de sécurité",
         "security_settings_tips": "Dans les \"paramètres de sécurité\" Contrôle à distance, Vous pouvez modifier 2 deux options pour limiter l'accès a distance.",
-        "enabled_tips": "La synchronisation des enregistrements entre les serveurs DNS peut prendre jusqu'à 10 minutes. Il se peut donc que vous ne puissiez pas accéder au nom de domaine DDNS immédiatement après l'avoir activé ou que votre adresse IP publique ait changé."
+        "enabled_tips": "La synchronisation des enregistrements entre les serveurs DNS peut prendre jusqu'à 10 minutes. Il se peut donc que vous ne puissiez pas accéder au nom de domaine DDNS immédiatement après l'avoir activé ou que votre adresse IP publique ait changé.",
+        "security_management_control_settings_tips": "Dans {name} Contrôle d'accès à distance, vous pouvez modifier deux options pour restreindre l'accès à distance.",
+        "to_management_control_btn": "Aller à {name}"
     },
     "menu_dynamicdns": "DNS Dynamique"
 }

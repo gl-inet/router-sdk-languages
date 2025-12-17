@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "鎖定運營商失敗",
         "unlock_operator_fail_msg": "解鎖運營商失敗",
         "airplane_mode_tips": "蜂巢式網絡已因飛行模式被禁用。如需啟用，請前往設備屏幕端關閉飛行模式。",
-        "save_operator_config_fail_msg": "保存運營商配寘失敗"
+        "save_operator_config_fail_msg": "保存運營商配寘失敗",
+        "lock_operation_mode_tip": "您可選擇手動鎖定特定運營商，或者在手動鎖定失敗時自動切換到可用的運營商網絡。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -504,7 +505,7 @@
         "second_month_label": "第二個月",
         "third_month_label": "第三個月",
         "save_to_flash_tips": "如果打開這個開關，即使設備關機，數據也能保存。",
-        "data_used_total_tips": "已用數據是當前SIM卡卡槽的數據。",
+        "data_used_total_tips": "已用數據是當前SIM卡槽的數據。",
         "sim_data_limit_common_tips": "如果使用的數據量超過數據上限，請手動修改數據上限或已使用的數據量。",
         "sim_data_limit_single_tips": "否則，SIM卡將被停用。",
         "sim_data_limit_dual_tips": "否則，網路可能會斷開，或者 SIM 卡可能會{do}。",
@@ -584,5 +585,9 @@
         "enable_polling_label": "啟用輪詢",
         "polling_control_title": "APN輪詢控制",
         "enable_polling_tips": "若設備使用 Verizon SIM 卡且啟用此功能，裝置將在重啟後持續輪詢 APN 長達12分鐘，直至網路連線恢復正常。此功能僅適用於 Verizon SIM 卡。"
+    },
+    "internet": {
+        "manual_label": "手動",
+        "manual_mac_label": "手動輸入的 MAC 地址"
     }
 }

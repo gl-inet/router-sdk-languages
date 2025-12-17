@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "Fehler beim Sperren des Betreibers",
         "unlock_operator_fail_msg": "Fehler beim Entsperren des Betreibers",
         "airplane_mode_tips": "Der Mobilfunk wurde aufgrund des Flugmodus deaktiviert. Um ihn zu aktivieren, schalten Sie bitte den Flugmodus auf dem Gerätebildschirm aus.",
-        "save_operator_config_fail_msg": "Fehler beim Speichern der Betriebskonfiguration"
+        "save_operator_config_fail_msg": "Fehler beim Speichern der Betriebskonfiguration",
+        "lock_operation_mode_tip": "Sie können wählen, einen bestimmten Betreiber manuell zu sperren oder automatisch zu einem verfügbaren Betreibernetz zu wechseln, wenn die manuelle Sperrung fehlschlägt."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -584,5 +585,9 @@
         "enable_polling_tips": "Falls das Gerät eine Verizon-SIM-Karte verwendet und diese Funktion aktiviert ist, wird das Gerät nach einem Neustart bis zu 12 Minuten lang kontinuierlich das APN abfragen, bis die Netzwerkverbindung normal ist. Diese Funktion gilt nur für Verizon-SIM-Karten.",
         "enable_polling_label": "Abfrage aktivieren",
         "polling_control_title": "APN-Abrufsteuerung"
+    },
+    "internet": {
+        "manual_label": "Handbuch",
+        "manual_mac_label": "Manuelle MAC-Adresse"
     }
 }

@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "운영자 잠금 실패",
         "unlock_operator_fail_msg": "운영자 잠금 해제 실패",
         "airplane_mode_tips": "셀룰러가 비행기 모드로 인해 비활성화되었습니다. 활성화하려면 기기 화면에서 비행기 모드를 끄십시오.",
-        "save_operator_config_fail_msg": "운영자 구성 저장에 실패했습니다"
+        "save_operator_config_fail_msg": "운영자 구성 저장에 실패했습니다",
+        "lock_operation_mode_tip": "특정 운영자를 수동으로 잠글 수 있으며, 수동 잠금이 실패할 경우 사용 가능한 운영자 네트워크로 자동 전환할 수 있습니다."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -584,5 +585,9 @@
         "enable_polling_label": "폴링 활성화",
         "polling_control_title": "APN 폴링 제어",
         "enable_polling_tips": "장치가 Verizon SIM 카드를 사용하고 이 기능이 활성화된 경우, 장치는 리부팅 후 최대 12분 동안 네트워크 연결이 정상화될 때까지 APN을 지속적으로 폴링합니다. 이 기능은 Verizon SIM 카드에서만 유효합니다."
+    },
+    "internet": {
+        "manual_label": "수동",
+        "manual_mac_label": "수동 MAC 주소"
     }
 }

@@ -243,7 +243,7 @@
         "rootcert_duplicate_tips": "Wykryto plik certyfikatu, proszę odbudować grupę.",
         "azirevpn_account_limit_tips": "Konto AzireVPN może być używane jednocześnie tylko na 10 urządzeniach. Osiągnięto maksymalną liczbę urządzeń dla Twojego konta, proszę przejść do $$$$AzireVPN$$$$, usunąć urządzenia, których nie używasz i spróbować ponownie.",
         "remvove_public_key_label": "Usuń klucz publiczny i klucz prywatny jednocześnie",
-        "wgclient_clear_account_warning": "Czy na pewno chcesz usunąć dane uwierzytelniające konta, powiązany klucz publiczny, klucz prywatny oraz pliki konfiguracyjne w routerze?",
+        "wgclient_clear_account_warning": "Czy na pewno chcesz usunąć dane logowania, powiązany klucz publiczny, klucz prywatny oraz pliki konfiguracyjne w routerze?",
         "ovpnclient_clear_account_warning": "Czy na pewno chcesz usunąć to konto i profil wewnątrz routera?",
         "needauth_needinfo_tips": "$$$$ prawidłowe pliki konfiguracyjne wymagają podania nazwy użytkownika, hasła oraz askpass. Proszę upewnić się, że wszystkie te konfiguracje używają tych samych informacji uwierzytelniających:",
         "del_account_btn": "Usuń informacje o koncie",
@@ -508,5 +508,13 @@
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Przesłany plik jest zbyt duży. Dekompresja nie powiodła się z powodu niewystarczającej przestrzeni dyskowej."
+    },
+    "ovpnclient": {
+        "legacy_label": "Starsze",
+        "modern_title": "Nowoczesny (zalecany):",
+        "legacy_desc": "Ma wyższą kompatybilność konfiguracji. Jeśli połączenie się nie powiedzie, możesz spróbować przełączyć się na tę opcję.",
+        "legacy_title": "Legacy:",
+        "modern_label": "Nowoczesny",
+        "modern_desc": "Odpowiedni dla większości usług VPN, oferujący lepszą wydajność i bezpieczeństwo."
     }
 }

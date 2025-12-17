@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "Failed to lock operator",
         "unlock_operator_fail_msg": "Failed to unlock operator",
         "airplane_mode_tips": "Cellular has been disabled due to Airplane Mode. To enable it, please turn off Airplane Mode on the device screen.",
-        "save_operator_config_fail_msg": "Failed to save operator configuration"
+        "save_operator_config_fail_msg": "Failed to save operator configuration",
+        "lock_operation_mode_tip": "You can choose to manually lock a specific operator, or automatically switch to an available operator network when manual locking fails."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -584,5 +585,9 @@
         "enable_polling_tips": "If the device is using a Verizon SIM card and this feature is enabled, the device will continuously poll the APN for up to 12 minutes after reboot until the network connection is normal. This feature is only valid for Verizon SIM cards.",
         "enable_polling_label": "Enable Polling",
         "polling_control_title": "APN Polling Control"
+    },
+    "internet": {
+        "manual_label": "Manual",
+        "manual_mac_label": "Manual MAC address"
     }
 }

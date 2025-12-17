@@ -1,0 +1,22 @@
+{
+    "acl": {
+        "protocol_label": "Prótacal",
+        "match_label": "Meaitseáil",
+        "name_label": "Ainm",
+        "ip_type_label": "Cineál IP",
+        "souce_zoon_label": "Crios Foinse",
+        "source_address_label": "Seoladh Foinse",
+        "source_port_label": "Port Foinse",
+        "dest_zone_label": "Crios Ceann Scríbe",
+        "action_label": "Gníomh",
+        "dest_address_label": "Seoladh Ceann Scríbe",
+        "dest_port_label": "Port Ceann Scríbe",
+        "acl_desc": "Is féidir le {acl} trácht líonra a rialú bunaithe ar rialacha cosúil le prótacal, seoladh IP cinn, seoladh IP foinse, agus uimhir an phoirt. Má tá coinbhleacht idir dhá riail {acl} cumasaithe, tabharfaidh an gléas tosaíocht don riail níos airde.",
+        "edit_acl_dialog_title": "Athraigh Riail ACL",
+        "add_rule_btn": "Cuir Riail leis",
+        "any_not_allowed_with_multiple_ips": "Nuair a bhíonn il-seoltaí IP ann, ní féidir an rogha 'Aon cheann' a áireamh",
+        "add_acl_dialog_title": "Cuir riail ACL leis",
+        "name_already_exist_msg": "Tá an t-ainm ann cheana."
+    },
+    "menu_acl": "ACL"
+}

@@ -508,5 +508,13 @@
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "A feltöltött fájl túl nagy. A kibontás a tárhely hiánya miatt sikertelen."
+    },
+    "ovpnclient": {
+        "legacy_label": "Örökölt",
+        "modern_title": "Modern (Ajánlott):",
+        "legacy_title": "Örökölt:",
+        "legacy_desc": "Magasabb konfigurációs kompatibilitással rendelkezik. Ha a kapcsolat meghiúsul, megpróbálhat erre az opcióra váltani.",
+        "modern_label": "Modern",
+        "modern_desc": "A legtöbb VPN szolgáltatáshoz ideális, jobb teljesítményt és biztonságot nyújt."
     }
 }

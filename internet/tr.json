@@ -163,7 +163,8 @@
         "lock_operator_fail_msg": "Operatör kilitlenemedi",
         "unlock_operator_fail_msg": "Operatör kilidi açılamadı",
         "airplane_mode_tips": "Uçak Modu nedeniyle Hücresel Bağlantı devre dışı bırakıldı. Etkinleştirmek için lütfen cihaz ekranından Uçak Modu'nu kapatın.",
-        "save_operator_config_fail_msg": "Operatör yapılandırması kaydedilemedi"
+        "save_operator_config_fail_msg": "Operatör yapılandırması kaydedilemedi",
+        "lock_operation_mode_tip": "Belirli bir operatörü manuel olarak kilitlemeyi seçebilir veya manuel kilitleme başarısız olduğunda otomatik olarak mevcut bir operatör ağına geçiş yapabilirsiniz."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -584,5 +585,9 @@
     },
     "sim": {
         "sender_label": "Gönderen"
+    },
+    "internet": {
+        "manual_label": "El Kitabı",
+        "manual_mac_label": "Manuel MAC Adresi"
     }
 }

@@ -119,7 +119,7 @@
         "sim_card_priority_title": "SIM-kártya prioritás",
         "sim_card_failover_title": "SIM-kártya feladatátvétel",
         "scheduled_switch_preferred_sim_label": "Ütemezett váltás előnyben részesített SIM-re",
-        "execution_time_label": "执行时间",
+        "execution_time_label": "Napi végrehajtási idő",
         "select_active_sim_card": "Válasszon aktív SIM-kártyát",
         "locked": "Zárolva",
         "no_sim_card": "Nincs SIM-kártya",
@@ -133,7 +133,8 @@
         "lock_operator_fail_msg": "Nem sikerült zárolni az operátort",
         "unlock_operator_fail_msg": "Nem sikerült feloldani az operátort",
         "airplane_mode_tips": "A mobilhálózat letiltásra került a repülőgép mód miatt. A bekapcsoláshoz kérjük, kapcsolja ki a repülőgép módot a készülék képernyőjén.",
-        "save_operator_config_fail_msg": "Nem sikerült menteni az operátor konfigurációt"
+        "save_operator_config_fail_msg": "Nem sikerült menteni az operátor konfigurációt",
+        "lock_operation_mode_tip": "Kiválaszthatja, hogy manuálisan zároljon egy adott szolgáltatót, vagy automatikusan vált egy elérhető szolgáltatói hálózatra, ha a manuális zárolás sikertelen."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -217,7 +218,7 @@
         "forward_encryp_label": "Titkosítás",
         "forward_email_account_label": "Felhasználónév",
         "forward_email_subject_label": "Tárgy",
-        "received": "已接收"
+        "received": "Fogadott"
     },
     "modemmanage": {
         "export_debug_info": "Hibakeresési napló letöltése",
@@ -584,5 +585,9 @@
         "enable_polling_label": "Lekérdezés engedélyezése",
         "polling_control_title": "APN lekérdezés vezérlés",
         "enable_polling_tips": "Ha az eszköz Verizon SIM-kártyát használ és ez a funkció engedélyezve van, az eszköz újraindítás után akár 12 percig is folyamatosan lekérdezi az APN-t, amíg a hálózati kapcsolat helyre nem áll. Ez a funkció csak Verizon SIM-kártyák esetén érvényes."
+    },
+    "internet": {
+        "manual_label": "Kézikönyv",
+        "manual_mac_label": "Manuális MAC-cím"
     }
 }

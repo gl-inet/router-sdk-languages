@@ -27,7 +27,9 @@
         "security_settings_btn": "Impostazioni di Sicurezza",
         "to_security_btn": "Vai a Sicurezza",
         "security_settings_tips": "Nel controllo dell'accesso remoto \"Sicurezza del sistema\", è possibile modificare due opzioni per limitare l'accesso remoto.",
-        "enabled_tips": "La sincronizzazione dei record tra i server DNS può subire un ritardo fino a 10 minuti. Ciò può causare l'impossibilità di accedere al nome di dominio DDNS subito dopo averlo attivato o dopo che il vostro IP pubblico è cambiato."
+        "enabled_tips": "La sincronizzazione dei record tra i server DNS può subire un ritardo fino a 10 minuti. Ciò può causare l'impossibilità di accedere al nome di dominio DDNS subito dopo averlo attivato o dopo che il vostro IP pubblico è cambiato.",
+        "security_management_control_settings_tips": "在 {name} 远程访问控制中，您可以修改两个选项以限制远程访问。",
+        "to_management_control_btn": "转到 {name}"
     },
     "menu_dynamicdns": "DNS Dinamico"
 }

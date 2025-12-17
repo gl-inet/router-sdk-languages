@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "No se pudo bloquear el operador",
         "unlock_operator_fail_msg": "No se pudo desbloquear el operador",
         "airplane_mode_tips": "La conexión móvil se ha deshabilitado debido al Modo Avión. Para activarla, por favor desactive el Modo Avión en la pantalla del dispositivo.",
-        "save_operator_config_fail_msg": "No se pudo guardar la configuración del operador"
+        "save_operator_config_fail_msg": "No se pudo guardar la configuración del operador",
+        "lock_operation_mode_tip": "Puedes elegir bloquear manualmente un operador específico, o cambiar automáticamente a una red de operador disponible cuando el bloqueo manual falle."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -584,5 +585,9 @@
         "enable_polling_label": "Habilitar sondeo",
         "polling_control_title": "Control de sondeo APN",
         "enable_polling_tips": "Si el dispositivo utiliza una tarjeta SIM de Verizon y esta función está habilitada, el dispositivo sondeará continuamente el APN durante hasta 12 minutos después de reiniciar hasta que la conexión de red sea normal. Esta función solo es válida para tarjetas SIM de Verizon."
+    },
+    "internet": {
+        "manual_label": "Manual",
+        "manual_mac_label": "Dirección MAC manual"
     }
 }

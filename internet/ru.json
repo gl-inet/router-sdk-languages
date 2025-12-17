@@ -241,8 +241,8 @@
         "sim_slot_type": "{sim} Тип слота",
         "sim_card_priority_title": "Приоритет SIM-карты",
         "sim_card_failover_title": "SIM-карта Failover",
-        "scheduled_switch_preferred_sim_label": "定时切换至首选SIM卡",
-        "execution_time_label": "执行时间",
+        "scheduled_switch_preferred_sim_label": "Запланированное переключение на предпочтительную SIM-карту",
+        "execution_time_label": "Ежедневное время выполнения",
         "select_active_sim_card": "Выбор активной SIM-карты",
         "locked": "Заблокировано",
         "no_sim_card": "Нет SIM-карты",
@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "Не удалось заблокировать оператора",
         "unlock_operator_fail_msg": "Не удалось разблокировать оператора",
         "airplane_mode_tips": "Сотовый режим отключен из-за режима полета. Чтобы включить его, пожалуйста, отключите режим полета на экране устройства.",
-        "save_operator_config_fail_msg": "Не удалось сохранить конфигурацию оператора"
+        "save_operator_config_fail_msg": "Не удалось сохранить конфигурацию оператора",
+        "lock_operation_mode_tip": "Вы можете выбрать ручную блокировку определенного оператора или автоматическое переключение на доступную сеть оператора при неудачной ручной блокировке."
     },
     "sms": {
         "forward_encryp_label": "Включить маскировку",
@@ -310,7 +311,7 @@
         "send_new": "Создать новое сообщение",
         "resend_sms": "Повторно отправить SMS",
         "forward_email_subject_tips": "Вы можете изменить тему, чтобы вы могли идентифицировать, с какого номера телефона было получено SMS.",
-        "received": "已接收"
+        "received": "Получено"
     },
     "modemmanage": {
         "success_copy": "Копирование успешно",
@@ -558,7 +559,7 @@
         "sim_operator": "{sim} Оператор",
         "sim_tower": "{sim} Вышка",
         "sim_unlock": "Разблокировка {sim}",
-        "download_log": "下载日志",
+        "download_log": "Скачать логи",
         "lock_tower_fail_msg": "Не удалось заблокировать башню",
         "unlock_tower_fail_msg": "Не удалось разблокировать башню",
         "modified_mtu_reboot_tips2": "MTU был изменен. Пожалуйста, перезагрузите устройство, чтобы изменения вступили в силу.",
@@ -584,5 +585,9 @@
         "enable_polling_label": "Включить опрос",
         "polling_control_title": "Управление опросом APN",
         "enable_polling_tips": "Если устройство использует SIM-карту Verizon и эта функция включена, устройство будет непрерывно опрашивать APN в течение 12 минут после перезагрузки до восстановления нормального сетевого подключения. Функция действительна только для SIM-карт Verizon."
+    },
+    "internet": {
+        "manual_label": "Руководство",
+        "manual_mac_label": "Ручной MAC-адрес"
     }
 }

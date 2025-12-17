@@ -327,7 +327,8 @@
         "lock_operator_fail_msg": "Nie udało się zablokować operatora",
         "unlock_operator_fail_msg": "Nie udało się odblokować operatora",
         "airplane_mode_tips": "Tryb komórkowy został wyłączony z powodu trybu samolotowego. Aby go włączyć, wyłącz tryb samolotowy na ekranie urządzenia.",
-        "save_operator_config_fail_msg": "Nie udało się zapisać konfiguracji operatora"
+        "save_operator_config_fail_msg": "Nie udało się zapisać konfiguracji operatora",
+        "lock_operation_mode_tip": "Możesz wybrać ręczne zablokowanie konkretnego operatora lub automatyczne przełączenie na dostępną sieć operatora, gdy ręczne blokowanie nie powiedzie się."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -584,5 +585,9 @@
         "enable_polling_label": "Włączanie sondowania",
         "polling_control_title": "Kontrola sondowania APN",
         "enable_polling_tips": "Jeśli urządzenie korzysta z karty SIM Verizon i ta funkcja jest włączona, urządzenie będzie ciągle sondować APN przez maksymalnie 12 minut po ponownym uruchomieniu, aż połączenie sieciowe będzie normalne. Ta funkcja jest ważna tylko dla kart SIM Verizon."
+    },
+    "internet": {
+        "manual_label": "Instrukcja",
+        "manual_mac_label": "Ręczne ustawienie adresu MAC"
     }
 }

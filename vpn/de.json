@@ -508,5 +508,13 @@
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Hochgeladene Datei zu groß. Dekomprimierung aufgrund unzureichenden Speicherplatzes fehlgeschlagen."
+    },
+    "ovpnclient": {
+        "legacy_label": "Legacy",
+        "modern_title": "Modern (Empfohlen):",
+        "legacy_title": "Legacy:",
+        "legacy_desc": "Es bietet eine höhere Konfigurationskompatibilität. Bei Verbindungsproblemen können Sie versuchen, zu dieser Option zu wechseln.",
+        "modern_label": "Modern",
+        "modern_desc": "Geeignet für die meisten VPN-Dienste, bietet bessere Leistung und Sicherheit."
     }
 }

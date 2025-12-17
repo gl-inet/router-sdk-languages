@@ -1,0 +1,22 @@
+{
+    "menu_acl": "ACL",
+    "acl": {
+        "add_rule_btn": "Regel toevoegen",
+        "protocol_label": "Protocol",
+        "match_label": "Overeenkomst",
+        "name_label": "Naam",
+        "ip_type_label": "IP-type",
+        "souce_zoon_label": "Bronzone",
+        "source_address_label": "Bronadres",
+        "source_port_label": "Bronpoort",
+        "dest_zone_label": "Bestemmingszone",
+        "dest_address_label": "Bestemmingsadres",
+        "dest_port_label": "Bestemmingspoort",
+        "edit_acl_dialog_title": "ACL-regel wijzigen",
+        "acl_desc": "{acl} kan netwerkverkeer beheren op basis van regels zoals protocol, bestemmings-IP-adres, bron-IP-adres en poortnummer. Als er een conflict is tussen twee ingeschakelde {acl}-regels, geeft het apparaat voorrang aan de regel met de hogere prioriteit.",
+        "any_not_allowed_with_multiple_ips": "Wanneer er meerdere IP-adressen zijn, kan de optie 'Alle' niet worden opgenomen",
+        "add_acl_dialog_title": "Een ACL-regel toevoegen",
+        "action_label": "Actie",
+        "name_already_exist_msg": "De naam bestaat al."
+    }
+}

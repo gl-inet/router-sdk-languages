@@ -27,7 +27,9 @@
         "enabled_tips": "Es kann bis zu 10 Minuten dauern, bis der Eintrag zwischen den DNS Servern synchronisiert ist. In diesem Zeitraum kann der Router nicht per DDNS erreicht werden, direkt nachdem der Dienst aktiviert oder die öffentliche IP geändert wurde.",
         "to_security_btn": "Gehe zu Sicherheit",
         "use_desc": "Sie können Dynamic DNS (DDNS) für diesen Router aktivieren und ihn aus der Ferne erreichen.",
-        "security_settings_btn": "Sicherheitseinstellungen"
+        "security_settings_btn": "Sicherheitseinstellungen",
+        "security_management_control_settings_tips": "In {name} Remote Access Control können Sie zwei Optionen ändern, um den Fernzugriff einzuschränken.",
+        "to_management_control_btn": "Zu {name} gehen"
     },
     "menu_dynamicdns": "Dynamisches DNS"
 }

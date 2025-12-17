@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "锁定运营商失败",
         "unlock_operator_fail_msg": "解锁运营商失败",
         "airplane_mode_tips": "蜂窝网络已因飞行模式被禁用。如需启用，请前往设备屏幕端关闭飞行模式。",
-        "save_operator_config_fail_msg": "保存运营商配置失败"
+        "save_operator_config_fail_msg": "保存运营商配置失败",
+        "lock_operation_mode_tip": "您可选择手动锁定特定运营商，或者在手动锁定失败时自动切换到可用的运营商网络。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -504,7 +505,7 @@
         "second_month_label": "第二个月",
         "third_month_label": "第三个月",
         "save_to_flash_tips": "如果打开这个开关，即使设备关机，数据也能保存。",
-        "data_used_total_tips": "已用数据是当前SIM卡卡槽的数据。",
+        "data_used_total_tips": "已用数据是当前SIM卡槽的数据。",
         "sim_data_limit_common_tips": "如果使用的数据量超过了数据上限，请手动修改数据上限或已使用的数据量。",
         "sim_data_limit_single_tips": "否则，SIM卡将被禁用。",
         "sim_data_limit_dual_tips": "否则，网络可能会断开连接或 SIM 卡可能会{do}。",
@@ -584,5 +585,9 @@
         "enable_polling_label": "启用轮询",
         "polling_control_title": "APN轮询控制",
         "enable_polling_tips": "若设备使用 Verizon SIM 卡且启用此功能，设备将在重启后持续轮询 APN 最长12分钟，直至网络连接恢复正常。此功能仅对 Verizon SIM 卡有效。"
+    },
+    "internet": {
+        "manual_label": "手动",
+        "manual_mac_label": "手动输入的 MAC 地址"
     }
 }

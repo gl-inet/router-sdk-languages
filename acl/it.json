@@ -1,0 +1,22 @@
+{
+    "acl": {
+        "add_rule_btn": "Aggiungi regola",
+        "protocol_label": "Protocollo",
+        "match_label": "Corrispondenza",
+        "name_label": "Nome",
+        "ip_type_label": "Tipo IP",
+        "souce_zoon_label": "Zona di origine",
+        "source_address_label": "Indirizzo di origine",
+        "source_port_label": "Porta di origine",
+        "dest_zone_label": "Zona di destinazione",
+        "dest_address_label": "Indirizzo di destinazione",
+        "dest_port_label": "Porta di destinazione",
+        "edit_acl_dialog_title": "Modifica regola ACL",
+        "action_label": "Azione",
+        "acl_desc": "{acl} può controllare il traffico di rete in base a regole come protocollo, indirizzo IP di destinazione, indirizzo IP di origine e numero di porta. Se c'è un conflitto tra due regole {acl} abilitate, il dispositivo darà priorità alla regola con priorità più alta.",
+        "any_not_allowed_with_multiple_ips": "Quando sono presenti più indirizzi IP, l'opzione 'Qualsiasi' non può essere inclusa",
+        "add_acl_dialog_title": "Aggiungi una regola ACL",
+        "name_already_exist_msg": "Il nome esiste già."
+    },
+    "menu_acl": "ACL"
+}

@@ -508,5 +508,13 @@
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Įkeltas failas per didelis. Išskleidimas nepavyko dėl nepakankamos saugyklos vietos."
+    },
+    "ovpnclient": {
+        "legacy_label": "Pasenusio/-s standarto/įrangos",
+        "modern_title": "Modernus (Rekomenduojama):",
+        "legacy_title": "Pasenusio/-s standarto/įrangos:",
+        "legacy_desc": "Jis turi didesnę konfigūracijos suderinamumą. Jei prisijungimas nepavyksta, galite pabandyti perjungti į šią parinktį.",
+        "modern_label": "Šiuolaikiškas",
+        "modern_desc": "Tinka daugumai VPN paslaugų, siūlantis geresnį našumą ir saugumą."
     }
 }

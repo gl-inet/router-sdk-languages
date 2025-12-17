@@ -256,7 +256,8 @@
         "lock_operator_fail_msg": "オペレータのロックに失敗しました",
         "unlock_operator_fail_msg": "オペレーターのロック解除に失敗しました",
         "airplane_mode_tips": "機内モードが有効になっているため、セルラーネットワークは無効になっています。有効にするには、デバイス画面で機内モードをオフにしてください。",
-        "save_operator_config_fail_msg": "オペレータ設定の保存に失敗しました"
+        "save_operator_config_fail_msg": "オペレータ設定の保存に失敗しました",
+        "lock_operation_mode_tip": "特定のオペレータを手動でロックするか、手動ロックが失敗した場合に利用可能なオペレータネットワークに自動的に切り替えるかを選択できます。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -584,5 +585,9 @@
         "enable_polling_label": "ポーリングを有効化",
         "polling_control_title": "APNポーリング制御",
         "enable_polling_tips": "デバイスでベライゾンのSIMカードを使用しており、この機能が有効になっていると、デバイスはリブート後、ネットワーク接続が正常になるまで最大12分間APNを継続的にポーリングします。この機能はベライゾンのSIMカードでのみ有効です。"
+    },
+    "internet": {
+        "manual_label": "マニュアル",
+        "manual_mac_label": "手動MACアドレス"
     }
 }

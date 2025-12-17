@@ -27,7 +27,9 @@
         "parsing_ip_warning_tips": "Het IP-adres dat de DNS-server retourneert is niet gelijk aan het WAN-IP-adres van de router.",
         "nat_warning_tips": "Als deze router zich achter NAT bevindt, moet u mogelijk poort-forwarding instellen op uw ISP-router.",
         "use_desc": "U kunt dynamische DNS (DDNS) voor deze router inschakelen en op afstand toegang krijgen tot deze router.",
-        "security_settings_tips": "In \"Systeembeveiliging > Toegangsbeheer op afstand\" kunt u twee opties wijzigen om de toegang op afstand te beperken."
+        "security_settings_tips": "In \"Systeembeveiliging > Toegangsbeheer op afstand\" kunt u twee opties wijzigen om de toegang op afstand te beperken.",
+        "to_management_control_btn": "Ga naar {name}",
+        "security_management_control_settings_tips": "In {name} Remote Access Control kunt u twee opties wijzigen om externe toegang te beperken."
     },
     "menu_dynamicdns": "Dynamische DNS"
 }
