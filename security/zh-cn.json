@@ -30,7 +30,8 @@
         "port_conflict_tips": "不能设置相同的端口。",
         "access_title": "访问控制",
         "access_enable_ssh_label": "启用SSH",
-        "ssh_need_strong_pwd_tips": "在启用SSH功能之前，您需要先启用\"{label}\"。"
+        "ssh_need_strong_pwd_tips": "在启用SSH功能之前，您需要先启用\"{label}\"。",
+        "disabled_ssh_tips": "SSH远程访问不可用，因为SSH已禁用。请先启用SSH。"
     },
     "menu_security": "安全",
     "menu_admin-password": "管理员密码",
