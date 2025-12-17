@@ -30,7 +30,8 @@
         "add_ipaddr_tips": "Exemple d'adresses IP que vous pouvez entrez (Les adresses ipv6 sont aussi acceptées) ex : 192.168.8.1.",
         "access_title": "Contrôle d'accès",
         "access_enable_ssh_label": "Activer SSH",
-        "ssh_need_strong_pwd_tips": "Vous devez activer \"{label}\" avant de pouvoir activer la fonction SSH."
+        "ssh_need_strong_pwd_tips": "Vous devez activer \"{label}\" avant de pouvoir activer la fonction SSH.",
+        "disabled_ssh_tips": "L'accès SSH à distance n'est pas disponible car SSH est désactivé. Veuillez d'abord activer SSH."
     },
     "menu_security": "Sécurité",
     "menu_management-control": "Contrôle de gestion",
