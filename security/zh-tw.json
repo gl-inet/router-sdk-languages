@@ -30,7 +30,8 @@
         "session_timeout_tips": "關閉或休眠瀏覽器頁面與登出之間的時間間隔。",
         "access_title": "訪問控制",
         "access_enable_ssh_label": "啟用SSH",
-        "ssh_need_strong_pwd_tips": "您需要先啟用「{label}」才能開啟SSH功能。"
+        "ssh_need_strong_pwd_tips": "您需要先啟用「{label}」才能開啟SSH功能。",
+        "disabled_ssh_tips": "SSH遠端存取不可用，因為SSH已停用。請先啟用SSH。"
     },
     "menu_security": "安全",
     "menu_management-control": "管理控制",
