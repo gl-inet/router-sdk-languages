@@ -10,7 +10,8 @@
             "title": "Elfelejtett jelszó",
             "desc": "Tartsa nyomva a „Reset” gombot 10 másodpercig, majd engedje el! Ezt követően a lámpák villogni kezdenek. Várja meg, míg az útválasztó befejezi a visszaállítást!",
             "online_docs": "Online kézikönyv",
-            "resetTips": "Ha megváltoztatta a jelszót és elfelejtette, nyomja le tíz másodpercig a Reset gombot, majd engedje el. Várja meg, amíg az útválasztó újraindul, majd kezdje újra."
+            "resetTips": "Ha megváltoztatta a jelszót és elfelejtette, nyomja le tíz másodpercig a Reset gombot, majd engedje el. Várja meg, amíg az útválasztó újraindul, majd kezdje újra.",
+            "screen_check_admin_password_tips": "Az alapértelmezett jelszó az eszköz S/N-jének utolsó 9 karaktere, amelyek végére egy \"#\" kerül (pl. a1b2c3d45#). Az S/N-t a képernyőn ellenőrizheti."
         },
         "err_msg": "Hibás jelszó vagy felhasználónév!",
         "retry_after": "Túl sokszor próbált meg sikertelenül bejelentkezni. Próbálja meg újra $$$$ másodperc múlva!"
