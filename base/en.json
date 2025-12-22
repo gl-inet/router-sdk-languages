@@ -252,7 +252,8 @@
         "network_not_reachable_msg": "Network not reachable",
         "abnormal_operation_msg": "Operational exception",
         "param_illegal_msg": "Illegal parameter, operation failed.",
-        "connection_failed_msg": "Connection failed. Please try again later."
+        "connection_failed_msg": "Connection failed. Please try again later.",
+        "port_occupied_msg": "Port {port} is occupied."
     },
     "subscription": {
         "url_label": "Subscription URL",
