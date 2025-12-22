@@ -257,7 +257,8 @@
         "network_not_reachable_msg": "Réseau non accessible",
         "abnormal_operation_msg": "Exception opérationnelle",
         "param_illegal_msg": "Paramètre illégal, l'opération a échoué.",
-        "connection_failed_msg": "Connexion échouée. Veuillez réessayer ultérieurement."
+        "connection_failed_msg": "Connexion échouée. Veuillez réessayer ultérieurement.",
+        "port_occupied_msg": "Le port {port} est occupé."
     },
     "validate": {
         "not_allowed_only_spaces": "Il n'est pas permis d'utiliser uniquement des espaces.",
