@@ -571,7 +571,8 @@
         "sim_registered_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. Huidige APN is leeg {guide}.",
         "connection_failed": "Verbinding mislukt...",
-        "save_tower_config_fail_msg": "Torenconfiguratie opslaan mislukt"
+        "save_tower_config_fail_msg": "Torenconfiguratie opslaan mislukt",
+        "esim_not_registered_connection_failed_tips": "eSIM niet geregistreerd. Neem contact op met uw eSIM-provider om te controleren op speciale beperkingen. {guide}"
     },
     "sim": {
         "sender_label": "Afzender"
