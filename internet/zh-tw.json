@@ -575,7 +575,7 @@
         "save_tower_config_fail_msg": "保存基站配寘失敗",
         "esim_not_registered_connection_failed_tips": "eSIM 未注册，請聯系 eSIM 廠商確認是否存在特殊限制。{guide}",
         "esim_registered_connection_failed_tips": "請檢查 {esimManage}中是否啟用了 eSIM profile 或需要充值，然後請確認 {apnBtn} 設定是否正確。 當前APN：{apn} {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips": "請檢查{eSIM管理}中的eSIM設定檔是否啟用或是否需要充值，然後確認{APN按鈕}設定是否正確。目前APN為空{指南}"
+        "esim_registered_apn_is_empty_connection_failed_tips": "請檢查 {esimManage}中是否啟用了eSIM profile 或需要充值，然後請確認 {apnBtn} 設定是否正確，當前 APN 值為空 {guide}"
     },
     "sim": {
         "sender_label": "發件人"
