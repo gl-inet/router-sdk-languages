@@ -571,7 +571,8 @@
         "sim_registered_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. APN actual: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. El APN actual está vacío {guide}",
         "connection_failed": "Conexión fallida...",
-        "save_tower_config_fail_msg": "No se pudo guardar la configuración de la torre"
+        "save_tower_config_fail_msg": "No se pudo guardar la configuración de la torre",
+        "esim_not_registered_connection_failed_tips": "eSIM no registrado. Por favor, contacte a su proveedor de eSIM para verificar si existen restricciones especiales. {guide}"
     },
     "sim": {
         "sender_label": "Remitente"
