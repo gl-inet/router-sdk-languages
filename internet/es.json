@@ -573,7 +573,8 @@
         "connection_failed": "Conexión fallida...",
         "save_tower_config_fail_msg": "No se pudo guardar la configuración de la torre",
         "esim_not_registered_connection_failed_tips": "eSIM no registrado. Por favor, contacte a su proveedor de eSIM para verificar si existen restricciones especiales. {guide}",
-        "esim_registered_connection_failed_tips": "Verifique si el perfil eSIM está habilitado o si se requiere Recarga en {esimManage}, luego confirme que la configuración de {apnBtn} sea correcta. APN actual: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "Verifique si el perfil eSIM está habilitado o si se requiere Recarga en {esimManage}, luego confirme que la configuración de {apnBtn} sea correcta. APN actual: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "Verifique si el perfil eSIM está habilitado o si se requiere Recarga en {esimManage}, luego confirme que la configuración de {apnBtn} sea correcta. El APN actual está vacío {guide}"
     },
     "sim": {
         "sender_label": "Remitente"
