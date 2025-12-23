@@ -30,7 +30,8 @@
         "enable_ipaddr_tips": "Távoli hozzáférés engedélyezése kizárólag megadott IP-címekről.",
         "access_title": "Hozzáférés-vezérlés",
         "access_enable_ssh_label": "SSH-hozzáférés engedélyezése",
-        "ssh_need_strong_pwd_tips": "Engedélyeznie kell a(z) \"{label}\" funkciót, mielőtt bekapcsolná az SSH szolgáltatást."
+        "ssh_need_strong_pwd_tips": "Engedélyeznie kell a(z) \"{label}\" funkciót, mielőtt bekapcsolná az SSH szolgáltatást.",
+        "disabled_ssh_tips": "Az SSH távoli hozzáférés nem érhető el, mivel az SSH le van tiltva. Kérjük, először engedélyezze az SSH-t."
     },
     "menu_security": "Biztonság",
     "menu_management-control": "Felügyeleti vezérlés",

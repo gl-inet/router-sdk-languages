@@ -257,7 +257,9 @@
         "unlock_operator_fail_msg": "Failed to unlock operator",
         "airplane_mode_tips": "Cellular has been disabled due to Airplane Mode. To enable it, please turn off Airplane Mode on the device screen.",
         "save_operator_config_fail_msg": "Failed to save operator configuration",
-        "lock_operation_mode_tip": "You can choose to manually lock a specific operator, or automatically switch to an available operator network when manual locking fails."
+        "lock_operation_mode_tip": "You can choose to manually lock a specific operator, or automatically switch to an available operator network when manual locking fails.",
+        "slot2_enabled_esim_tips": "If enabled, SIM 2 Slot will switch to eSIM and the physical SIM card will be unavailable. Do you want to continue?",
+        "slot2_switch_esim_tips": "If enabled, SIM 2 Slot will switch to eSIM and the physical SIM card will be unavailable."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -569,7 +571,9 @@
         "sim_registered_connection_failed_tips": "Please check if the SIM card has available data and if the {apnBtn} settings are correct. Current APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Please check if the SIM card has available data and if the {apnBtn} settings are correct. Current APN is empty {guide}",
         "connection_failed": "Connection failed...",
-        "save_tower_config_fail_msg": "Failed to save tower configuration"
+        "save_tower_config_fail_msg": "Failed to save tower configuration",
+        "esim_not_registered_connection_failed_tips": "eSIM unregistered. Please contact your eSIM provider to check for any special restrictions. {guide}",
+        "esim_registered_connection_failed_tips": "Please check whether the eSIM profile is enabled or if Top-up is required in {esimManage}, then verify the {apnBtn} settings are correct. Current APN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "Sender"

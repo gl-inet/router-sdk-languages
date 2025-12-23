@@ -252,7 +252,8 @@
         "abnormal_operation_msg": "Операционное исключение",
         "network_not_reachable_msg": "Сеть недоступна",
         "param_illegal_msg": "Недопустимый параметр, операция не удалась.",
-        "connection_failed_msg": "Соединение не удалось. Пожалуйста, попробуйте позже."
+        "connection_failed_msg": "Соединение не удалось. Пожалуйста, попробуйте позже.",
+        "port_occupied_msg": "Порт {port} занят."
     },
     "subscription": {
         "url_label": "URL подписки",

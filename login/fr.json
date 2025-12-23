@@ -10,8 +10,8 @@
             "title": "J'ai oublié mon mot de passe",
             "desc": "Essayez d'appuyer sur le bouton \"Reset\" pendant 10 secondes, puis relâchez-le. Les voyants lumineux clignotent. Attendez que le routeur redémarre, puis recommencez.",
             "online_docs": "Documentation en ligne",
-            "screen_check_admin_password_tips": "Le mot de passe par défaut correspond aux 9 derniers caractères du S/N de l'appareil, suivi d'un \"#\" (par exemple, A1B2C3D45#). Vous pouvez vérifier le S/N sur l'écran.",
-            "resetTips": "Si vous avez modifié le mot de passe et l'avez oublié, maintenez enfoncé le bouton de réinitialisation pendant 10 secondes puis relâchez. Attendez que le routeur redémarre et recommencez."
+            "resetTips": "Si vous avez modifié le mot de passe et l'avez oublié, maintenez enfoncé le bouton de réinitialisation pendant 10 secondes puis relâchez. Attendez que le routeur redémarre et recommencez.",
+            "screen_check_admin_password_tips": "Le mot de passe par défaut correspond aux 9 derniers caractères du S/N de l'appareil, suivi d'un \"#\" à la fin (par exemple, a1b2c3d45#). Vous pouvez vérifier le S/N sur l'écran."
         },
         "err_msg": "Mauvais nom d'utilisateur ou mauvais mot de passe !",
         "retry_after": "Trop de tentative de connexions, réessayez dans $$$$ seconds."

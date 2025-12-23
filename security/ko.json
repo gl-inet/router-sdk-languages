@@ -30,7 +30,8 @@
         "port_conflict_tips": "이 포트는 이미 사용 중입니다.",
         "access_title": "접근 제어",
         "access_enable_ssh_label": "SSH 활성화",
-        "ssh_need_strong_pwd_tips": "SSH 기능을 켜기 전에 \"{label}\"을(를) 활성화해야 합니다."
+        "ssh_need_strong_pwd_tips": "SSH 기능을 켜기 전에 \"{label}\"을(를) 활성화해야 합니다.",
+        "disabled_ssh_tips": "SSH가 비활성화되어 있어 SSH 원격 접속을 사용할 수 없습니다. 먼저 SSH를 활성화해 주세요."
     },
     "menu_security": "보안",
     "menu_management-control": "관리 제어",

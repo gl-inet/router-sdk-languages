@@ -257,7 +257,9 @@
         "unlock_operator_fail_msg": "Échec du déverrouillage de l'opérateur",
         "airplane_mode_tips": "La connexion mobile a été désactivée en raison du mode Avion. Pour la réactiver, veuillez désactiver le mode Avion sur l'écran de l'appareil.",
         "save_operator_config_fail_msg": "Échec de l'enregistrement de la configuration de l'opérateur",
-        "lock_operation_mode_tip": "Vous pouvez choisir de verrouiller manuellement un opérateur spécifique, ou de basculer automatiquement vers un réseau d'opérateur disponible en cas d'échec du verrouillage manuel."
+        "lock_operation_mode_tip": "Vous pouvez choisir de verrouiller manuellement un opérateur spécifique, ou de basculer automatiquement vers un réseau d'opérateur disponible en cas d'échec du verrouillage manuel.",
+        "slot2_switch_esim_tips": "Si activé, le Slot SIM 2 basculera en eSIM et la carte SIM physique ne sera plus disponible.",
+        "slot2_enabled_esim_tips": "Si activé, le Slot SIM 2 passera en eSIM et la carte SIM physique ne sera plus disponible. Voulez-vous continuer ?"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -569,7 +571,9 @@
         "sim_registered_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. APN actuel : {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. L'APN actuel est vide {guide}",
         "connection_failed": "Connexion échouée...",
-        "save_tower_config_fail_msg": "Échec de l'enregistrement de la configuration de la tour"
+        "save_tower_config_fail_msg": "Échec de l'enregistrement de la configuration de la tour",
+        "esim_not_registered_connection_failed_tips": "eSIM non enregistré. Veuillez contacter votre fournisseur eSIM pour vérifier d'éventuelles restrictions particulières. {guide}",
+        "esim_registered_connection_failed_tips": "Veuillez vérifier si le profil eSIM est activé ou si un rechargement est requis dans {esimManage}, puis vérifiez que les paramètres {apnBtn} sont corrects. APN actuel : {apn} {guide}"
     },
     "sim": {
         "sender_label": "Expéditeur"

@@ -30,7 +30,8 @@
         "port_conflict_tips": "That port is already in use.",
         "access_title": "Access Control",
         "access_enable_ssh_label": "Enable SSH",
-        "ssh_need_strong_pwd_tips": "You need to enable \"{label}\" before you can turn on the SSH function."
+        "ssh_need_strong_pwd_tips": "You need to enable \"{label}\" before you can turn on the SSH function.",
+        "disabled_ssh_tips": "SSH remote access is unavailable as SSH is disabled. Please enable SSH first."
     },
     "menu_security": "Security",
     "menu_management-control": "Management Control",

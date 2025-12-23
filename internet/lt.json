@@ -134,7 +134,9 @@
         "unlock_operator_fail_msg": "Nepavyko atblokuoti operatoriaus",
         "airplane_mode_tips": "Mobilusis ryšys išjungtas dėl lėktuvo veiksenos. Norėdami jį įjungti, išjunkite lėktuvo veikseną įrenginio ekrane.",
         "save_operator_config_fail_msg": "Nepavyko išsaugoti operatoriaus konfigūracijos",
-        "lock_operation_mode_tip": "Galite pasirinkti rankiniu būdu užrakinti konkretų operatorių arba automatiškai perjungti į prieinamą operatoriaus tinklą, kai rankinis užrakinti nepavyksta."
+        "lock_operation_mode_tip": "Galite pasirinkti rankiniu būdu užrakinti konkretų operatorių arba automatiškai perjungti į prieinamą operatoriaus tinklą, kai rankinis užrakinti nepavyksta.",
+        "slot2_switch_esim_tips": "Jei įjungta, SIM 2 lizdas pereis į eSIM, o fizinė SIM kortelė taps neprieinama.",
+        "slot2_enabled_esim_tips": "Jei įjungta, SIM 2 lizdas pereis į eSIM, o fizinė SIM kortelė taps neprieinama. Ar norite tęsti?"
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -569,7 +571,9 @@
         "sim_registered_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar teisingi {apnBtn} nustatymai. Dabartinis APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Patikrinkite, ar SIM kortelėje yra prieinamų duomenų ir ar {apnBtn} nustatymai yra teisingi. Dabartinis APN yra tuščias {guide}",
         "connection_failed": "Ryšys nepavyko...",
-        "save_tower_config_fail_msg": "Nepavyko išsaugoti bokšto konfigūracijos"
+        "save_tower_config_fail_msg": "Nepavyko išsaugoti bokšto konfigūracijos",
+        "esim_not_registered_connection_failed_tips": "eSIM neregistruotas. Susisiekite su savo eSIM teikėju, kad patikrintumėte galimus specialius apribojimus. {guide}",
+        "esim_registered_connection_failed_tips": "Patikrinkite, ar eSIM profilis yra įjungtas arba ar reikalingas papildymas {esimManage}, tada patikrinkite, ar {apnBtn} nustatymai yra teisingi. Dabartinis APN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "Siuntėjas"

@@ -245,7 +245,7 @@
         "scheduled_switch_preferred_sim_label": "Switch Programmato alla Scheda SIM Preferita",
         "select_active_sim_card": "Seleziona la scheda SIM attiva",
         "locked": "Bloccato",
-        "no_sim_card": "无SIM卡",
+        "no_sim_card": "Nessuna SIM",
         "sim_info_label": "{sim} Informazioni",
         "download_esim_config_tips": "Si prega di connettersi a Internet per scaricare il file di configurazione eSIM.",
         "unlock_pin_count_tips": "Inserire il PIN per sbloccare la SIM. {count} tentativi rimanenti.",
@@ -257,7 +257,9 @@
         "unlock_operator_fail_msg": "Impossibile sbloccare l'operatore",
         "airplane_mode_tips": "Il cellulare è stato disabilitato a causa della Modalità Aereo. Per abilitarlo, disattivare la Modalità Aereo sullo schermo del dispositivo.",
         "save_operator_config_fail_msg": "Impossibile salvare la configurazione dell'operatore",
-        "lock_operation_mode_tip": "Puoi scegliere di bloccare manualmente un operatore specifico o passare automaticamente a una rete operativa disponibile quando il blocco manuale fallisce."
+        "lock_operation_mode_tip": "Puoi scegliere di bloccare manualmente un operatore specifico o passare automaticamente a una rete operativa disponibile quando il blocco manuale fallisce.",
+        "slot2_switch_esim_tips": "Se abilitato, lo slot SIM 2 passerà a eSIM e la scheda SIM fisica non sarà disponibile.",
+        "slot2_enabled_esim_tips": "Se abilitato, lo slot SIM 2 passerà a eSIM e la scheda SIM fisica non sarà disponibile. Vuoi continuare?"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -551,7 +553,7 @@
         "ip_type_tips": "Se la scheda SIM non supporta l'attuale impostazione del tipo di IP, o quando è selezionato IPv6 ma l'interruttore globale {ipv6} non è attivato, potrebbero verificarsi anomalie di connessione.",
         "ip_type_label": "Tipo di IP",
         "initializing_tips": "Il modem si sta inizializzando……",
-        "unavailable_operator_title": "运营商不可用",
+        "unavailable_operator_title": "Operatori non disponibili",
         "operator": "Operatore",
         "tower": "Torre",
         "network_type_conflicts_tips": "La tipologia di rete della SIM attuale è {networkType}, che è in conflitto con la tipologia di rete di {feature}. Si prega di accedere a {settings} per modificare la tipologia di rete prima, quindi provare a bloccare nuovamente.",
@@ -569,7 +571,9 @@
         "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. APN attuale: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. L'APN attuale è vuoto {guide}",
         "connection_failed": "Connessione fallita...",
-        "save_tower_config_fail_msg": "Impossibile salvare la configurazione della torre"
+        "save_tower_config_fail_msg": "Impossibile salvare la configurazione della torre",
+        "esim_not_registered_connection_failed_tips": "eSIM non registrato. Contatta il tuo provider eSIM per verificare eventuali restrizioni speciali. {guide}",
+        "esim_registered_connection_failed_tips": "请检查eSIM配置文件是否已启用或是否需要充值，然后验证APN设置是否正确。当前APN：{apn} {guide}"
     },
     "sim": {
         "sender_label": "Mittente"

@@ -30,7 +30,8 @@
         "add_ipaddr_tips": "Beispiele für das Format der Eingabe einer IP oder eines Netzwerks (auch IPv6): 192.168.8.1.",
         "access_title": "Zugriffskontrolle",
         "access_enable_ssh_label": "SSH aktivieren",
-        "ssh_need_strong_pwd_tips": "Sie müssen \"{label}\" aktivieren, bevor Sie die SSH-Funktion einschalten können."
+        "ssh_need_strong_pwd_tips": "Sie müssen \"{label}\" aktivieren, bevor Sie die SSH-Funktion einschalten können.",
+        "disabled_ssh_tips": "Der Fernzugriff per SSH ist nicht verfügbar, da SSH deaktiviert ist. Bitte aktivieren Sie zuerst SSH."
     },
     "menu_security": "Sicherheit",
     "menu_management-control": "Verwaltungssteuerung",
