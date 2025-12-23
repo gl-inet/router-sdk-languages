@@ -571,7 +571,8 @@
         "sim_registered_connection_failed_tips": "Please check if the SIM card has available data and if the {apnBtn} settings are correct. Current APN: {apn} {guide}",
         "sim_registered_apn_is_empty_connection_failed_tips": "Please check if the SIM card has available data and if the {apnBtn} settings are correct. Current APN is empty {guide}",
         "connection_failed": "Connection failed...",
-        "save_tower_config_fail_msg": "Failed to save tower configuration"
+        "save_tower_config_fail_msg": "Failed to save tower configuration",
+        "esim_not_registered_connection_failed_tips": "eSIM unregistered. Please contact your eSIM provider to check for any special restrictions. {guide}"
     },
     "sim": {
         "sender_label": "Sender"
