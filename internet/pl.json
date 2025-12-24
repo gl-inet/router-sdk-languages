@@ -572,7 +572,8 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "Proszę sprawdzić, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. Bieżący APN jest pusty {guide}",
         "connection_failed": "Połączenie nie powiodło się...",
         "save_tower_config_fail_msg": "Nie udało się zapisać konfiguracji wieży",
-        "esim_registered_connection_failed_tips": "Proszę sprawdzić, czy profil eSIM jest włączony lub czy wymagane jest {topUp} w {esimManage}, a następnie zweryfikować, czy ustawienia {apnBtn} są poprawne. Bieżący APN: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "Proszę sprawdzić, czy profil eSIM jest włączony lub czy wymagane jest {topUp} w {esimManage}, a następnie zweryfikować, czy ustawienia {apnBtn} są poprawne. Bieżący APN: {apn} {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM niezarejestrowany. Sprawdź, czy profil eSIM jest włączony w {esimManage}, lub skontaktuj się z dostawcą eSIM, aby potwierdzić ewentualne specjalne ograniczenia. {guide}"
     },
     "sim": {
         "sender_label": "Nadawca"
