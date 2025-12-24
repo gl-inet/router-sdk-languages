@@ -575,7 +575,8 @@
         "esim_not_registered_connection_failed_tips": "eSIM이 등록되지 않았습니다. {esimManage}에서 eSIM 프로필이 활성화되어 있는지 확인하거나, 특별한 제한 사항이 있는지 확인하기 위해 eSIM 제공업체에 문의하세요. {guide}",
         "esim_registered_connection_failed_tips": "{topUp}이 {esimManage}에서 필요한지 확인하거나, eSIM 제공업체에 문의하여 특별한 제한 사항이 있는지 확인한 다음 {apnBtn} 설정이 올바른지 확인하세요. 현재 APN: {apn} {guide}",
         "esim_registered_apn_is_empty_connection_failed_tips": "{topUp}이 {esimManage}에서 필요한지 확인하거나, eSIM 제공업체에 문의하여 특별한 제한 사항이 있는지 확인한 다음, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN은 비어 있습니다 {guide}",
-        "esim_registered_connection_failed_tips2": "eSIM 제공업체에 문의하여 특별한 제한 사항을 확인한 다음, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN: {apn} {guide}"
+        "esim_registered_connection_failed_tips2": "eSIM 제공업체에 문의하여 특별한 제한 사항을 확인한 다음, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips2": "eSIM 제공업체에 문의하여 특별한 제한 사항을 확인한 다음, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN이 비어 있습니다 {guide}"
     },
     "sim": {
         "sender_label": "발신자"
