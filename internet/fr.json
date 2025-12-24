@@ -573,7 +573,8 @@
         "connection_failed": "Connexion échouée...",
         "save_tower_config_fail_msg": "Échec de l'enregistrement de la configuration de la tour",
         "esim_not_registered_connection_failed_tips": "eSIM non enregistré. Veuillez contacter votre fournisseur eSIM pour vérifier d'éventuelles restrictions particulières. {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips": "Veuillez vérifier si le profil eSIM est activé ou si un rechargement est nécessaire dans {esimManage}, puis vérifiez que les paramètres {apnBtn} sont corrects. L'APN actuel est vide {guide}."
+        "esim_registered_apn_is_empty_connection_failed_tips": "Veuillez vérifier si le profil eSIM est activé ou si un rechargement est nécessaire dans {esimManage}, puis vérifiez que les paramètres {apnBtn} sont corrects. L'APN actuel est vide {guide}.",
+        "esim_registered_connection_failed_tips": "Veuillez vérifier si le profil eSIM est activé ou si un {topUp} est nécessaire dans {esimManage}, puis vérifiez que les paramètres {apnBtn} sont corrects. APN actuel : {apn} {guide}"
     },
     "sim": {
         "sender_label": "Expéditeur"
