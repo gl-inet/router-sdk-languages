@@ -573,7 +573,8 @@
         "connection_failed": "连接失败...",
         "save_tower_config_fail_msg": "保存基站配置失败",
         "esim_not_registered_connection_failed_tips": "eSIM 未注册，请联系 eSIM 厂商确认是否存在特殊限制。{guide}",
-        "esim_registered_connection_failed_tips": "请检查 {esimManage}中是否启用了eSIM profile 或需要{topUp}，然后请确认 {apnBtn} 设置是否正确。当前APN：{apn} {guide}"
+        "esim_registered_connection_failed_tips": "请检查 {esimManage}中是否启用了eSIM profile 或需要{topUp}，然后请确认 {apnBtn} 设置是否正确。当前APN：{apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "请检查eSIM配置文件是否已启用，或是否需要{topUp}，然后验证{apnBtn}设置是否正确。当前APN为空{guide}"
     },
     "sim": {
         "sender_label": "发件人"
