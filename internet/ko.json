@@ -573,7 +573,8 @@
         "connection_failed": "연결 실패...",
         "save_tower_config_fail_msg": "타워 구성 저장 실패",
         "esim_not_registered_connection_failed_tips": "eSIM이 등록되지 않았습니다. eSIM 제공업체에 문의하여 특별한 제한 사항이 있는지 확인하세요. {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips": "eSIM 프로필이 활성화되었는지 또는 {esimManage}에서 충전이 필요한지 확인한 다음, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN이 비어 있습니다 {guide}"
+        "esim_registered_apn_is_empty_connection_failed_tips": "eSIM 프로필이 활성화되었는지 또는 {esimManage}에서 충전이 필요한지 확인한 다음, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN이 비어 있습니다 {guide}",
+        "esim_registered_connection_failed_tips": "eSIM 프로필이 활성화되었는지 또는 {esimManage}에서 {topUp}이 필요한지 확인한 다음 {apnBtn} 설정이 올바른지 확인하세요. 현재 APN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "발신자"
