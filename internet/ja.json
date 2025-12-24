@@ -573,7 +573,8 @@
         "connection_failed": "接続に失敗しました...",
         "save_tower_config_fail_msg": "タワー設定の保存に失敗しました",
         "esim_not_registered_connection_failed_tips": "eSIMが登録されていません。eSIMプロバイダーに連絡して、特別な制限がないか確認してください。{guide}",
-        "esim_registered_connection_failed_tips": "eSIMプロファイルが有効になっているか、または{esimManage}で{topUp}が必要かどうかを確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "eSIMプロファイルが有効になっているか、または{esimManage}で{topUp}が必要かどうかを確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "eSIMプロファイルが有効になっているか、または{esimManage}で{topUp}が必要かどうかを確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です{guide}"
     },
     "sim": {
         "sender_label": "送信者"
