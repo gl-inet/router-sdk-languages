@@ -573,7 +573,8 @@
         "connection_failed": "Соединение не установлено...",
         "save_tower_config_fail_msg": "Не удалось сохранить конфигурацию башни",
         "esim_not_registered_connection_failed_tips": "eSIM не зарегистрирован. Пожалуйста, свяжитесь с вашим провайдером eSIM, чтобы проверить наличие специальных ограничений. {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips": "Пожалуйста, проверьте, включен ли профиль eSIM или требуется пополнение в {esimManage}, а затем убедитесь, что настройки {apnBtn} верны. Текущий APN пуст {guide}."
+        "esim_registered_apn_is_empty_connection_failed_tips": "Пожалуйста, проверьте, включен ли профиль eSIM или требуется пополнение в {esimManage}, а затем убедитесь, что настройки {apnBtn} верны. Текущий APN пуст {guide}.",
+        "esim_registered_connection_failed_tips": "Пожалуйста, проверьте, активирован ли профиль eSIM или требуется ли {topUp} в {esimManage}, а затем убедитесь, что настройки {apnBtn} верны. Текущий APN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "Отправитель"
