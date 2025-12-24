@@ -572,7 +572,6 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "请检查 SIM 卡是否有可用流量，以及 {apnBtn} 设置是否正确，当前 APN 值为空 {guide}",
         "connection_failed": "连接失败...",
         "save_tower_config_fail_msg": "保存基站配置失败",
-        "esim_registered_connection_failed_tips": "请检查 {esimManage}中是否启用了eSIM profile 或需要{topUp}，然后请确认 {apnBtn} 设置是否正确。当前APN：{apn} {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM 未注册，请检查 {esimManage}中是否已启用对应 eSIM profile 或联系 eSIM 厂商确认是否存在特殊限制。{guide}"
     },
     "sim": {
