@@ -586,7 +586,8 @@
         "save_tower_config_fail_msg": "Kule yapılandırması kaydedilemedi",
         "esim_not_registered_connection_failed_tips": "eSIM kayıtlı değil. Lütfen eSIM profilinin {esimManage} içinde etkin olup olmadığını kontrol edin veya herhangi bir özel kısıtlama olup olmadığını teyit etmek için eSIM sağlayıcınızla iletişime geçin. {guide}",
         "esim_registered_connection_failed_tips": "Lütfen {esimManage} içinde {topUp} gerekip gerekmediğini kontrol edin veya herhangi bir özel kısıtlama olup olmadığını teyit etmek için eSIM sağlayıcınızla iletişime geçin, ardından {apnBtn} ayarlarının doğru olduğunu doğrulayın. Mevcut APN: {apn} {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips": "Lütfen {esimManage} içinde {topUp} gerekip gerekmediğini kontrol edin veya herhangi bir özel kısıtlama olup olmadığını teyit etmek için eSIM sağlayıcınızla iletişime geçin, ardından {apnBtn} ayarlarının doğru olduğunu doğrulayın. Mevcut APN boş {guide}"
+        "esim_registered_apn_is_empty_connection_failed_tips": "Lütfen {esimManage} içinde {topUp} gerekip gerekmediğini kontrol edin veya herhangi bir özel kısıtlama olup olmadığını teyit etmek için eSIM sağlayıcınızla iletişime geçin, ardından {apnBtn} ayarlarının doğru olduğunu doğrulayın. Mevcut APN boş {guide}",
+        "esim_registered_connection_failed_tips2": "Lütfen herhangi bir özel kısıtlamayı onaylamak için eSIM sağlayıcınızla iletişime geçin, ardından {apnBtn} ayarlarının doğru olduğunu doğrulayın. Mevcut APN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "Gönderen"
