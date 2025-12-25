@@ -574,7 +574,8 @@
         "esim_not_registered_connection_failed_tips": "eSIMが登録されていません。{esimManage}でeSIMプロファイルが有効になっているか確認するか、eSIMプロバイダーに連絡して特別な制限を確認してください。{guide}",
         "esim_registered_apn_is_empty_connection_failed_tips": "{topUp}が{esimManage}で必要かどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です{guide}",
         "esim_registered_connection_failed_tips2": "eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips2": "eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です {guide}"
+        "esim_registered_apn_is_empty_connection_failed_tips2": "eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です {guide}",
+        "esim_registered_connection_failed_tips": "{esimManage}のプロファイルが{topUp}を必要とするかどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}"
     },
     "sim": {
         "sender_label": "送信者"
