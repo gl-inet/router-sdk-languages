@@ -574,7 +574,8 @@
         "esim_registered_connection_failed_tips2": "请联系 eSIM 厂商确认是否存在特殊限制，然后请确认 {apnBtn} 设置是否正确，当前 APN：{apn} {guide}",
         "esim_registered_apn_is_empty_connection_failed_tips2": "请联系 eSIM 厂商确认是否存在特殊限制，然后请确认 {apnBtn} 设置是否正确，当前 APN 为空 {guide}",
         "esim_registered_connection_failed_tips": "请检查 {esimManage}中对应 Profile 是否需要{topUp}，或联系 eSIM 厂商确认是否有特殊限制，再确认 {apnBtn} 设置是否正确，当前APN：{apn} {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips": "请检查 {esimManage}中对应 Profile 是否需要{topUp}，或联系 eSIM 厂商确认是否有特殊限制，再确认 {apnBtn} 设置是否正确，当前 APN 为空{guide}"
+        "esim_registered_apn_is_empty_connection_failed_tips": "请检查 {esimManage}中对应 Profile 是否需要{topUp}，或联系 eSIM 厂商确认是否有特殊限制，再确认 {apnBtn} 设置是否正确，当前 APN 为空{guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM未注册。请在{esimManage}中检查eSIM配置文件是否已启用或需要充值，或联系您的eSIM提供商确认是否有特殊限制，并验证{apnBtn}设置是否正确。当前APN：{apn} {guide}"
     },
     "sim": {
         "sender_label": "发件人"
