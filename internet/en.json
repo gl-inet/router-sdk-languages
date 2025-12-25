@@ -574,7 +574,9 @@
         "esim_registered_connection_failed_tips2": "Please contact your eSIM provider to confirm any special restrictions, then verify the {apnBtn} settings are correct. Current APN: {apn} {guide}",
         "esim_registered_apn_is_empty_connection_failed_tips2": "Please contact your eSIM provider to confirm any special restrictions, then verify the {apnBtn} settings are correct. Current APN is empty {guide}",
         "esim_registered_connection_failed_tips": "Please check if the Profile in {esimManage} requires {topUp}, or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN: {apn} {guide}",
-        "esim_registered_apn_is_empty_connection_failed_tips": "Please check if the Profile in {esimManage} requires {topUp}, or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN is empty {guide}"
+        "esim_registered_apn_is_empty_connection_failed_tips": "Please check if the Profile in {esimManage} requires {topUp}, or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN is empty {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM unregistered. Please check in {esimManage} whether the eSIM profile is enabled or requires Top-up , or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN: {apn} {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM unregistered. Please check in {esimManage} whether the eSIM profile is enabled or requires Top-up , or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN is empty {guide}"
     },
     "sim": {
         "sender_label": "Sender"
