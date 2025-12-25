@@ -575,7 +575,8 @@
         "esim_registered_apn_is_empty_connection_failed_tips2": "請聯系 eSIM 廠商確認是否存在特殊限制，然後請確認 {apnBtn} 設定是否正確，當前 APN 為空 {guide}",
         "esim_registered_apn_is_empty_connection_failed_tips": "請檢查 {esimManage}中對應 Profile 是否需要{topUp}，或聯繫 eSIM 廠商確認是否有特殊限制，再確認 {apnBtn} 設置是否正確，當前 APN 值為空 {guide}",
         "esim_registered_connection_failed_tips": "請檢查 {esimManage}中對應 Profile 是否需要{topUp}，或聯繫 eSIM 廠商確認是否有特殊限制，再確認 {apnBtn} 設置是否正確，當前APN：{apn} {guide}",
-        "esim_not_registered_connection_failed_tips": "eSIM未註冊。請在{esimManage}中檢查eSIM配置檔案是否已啟用或需要充值，或聯繫您的eSIM提供商確認是否有特殊限制，並驗證{apnBtn}設定是否正確。當前APN：{apn} {guide}"
+        "esim_not_registered_connection_failed_tips": "eSIM未註冊。請在{esimManage}中檢查eSIM配置檔案是否已啟用或需要充值，或聯繫您的eSIM提供商確認是否有特殊限制，並驗證{apnBtn}設定是否正確。當前APN：{apn} {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM未註冊。請在{esimManage}中檢查eSIM配置文件是否已啟用或需要充值，或聯繫您的eSIM提供商確認是否有特殊限制，並驗證{apnBtn}設置是否正確。當前APN為空{guide}"
     },
     "sim": {
         "sender_label": "發件人"
