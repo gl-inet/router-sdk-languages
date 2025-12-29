@@ -8,7 +8,9 @@
         "title": "SQM",
         "network_acceleration_warning": "Deze functie kan niet samenwerken met {network}. Inschakelen ervan zal Netwerkversnelling automatisch uitschakelen om een goede werking te garanderen.",
         "tips": "Wanneer ingeschakeld, beheert uw router op intelligente wijze het netwerkverkeer om te voorkomen dat één enkel apparaat of applicatie te veel bandbreedte gebruikt. Dit vermindert latentie en buffering voor sneller browsen, helderdere gesprekken en soepeler gamen.",
-        "full_name": "Slimme Wachtrijbeheer"
+        "full_name": "Slimme Wachtrijbeheer",
+        "qdisc_cake_tips": "cake: Slimme, automatische verkeersvorming met de beste algehele latentiecontrole (aanbevolen).",
+        "qdisc_fq_codel_tips": "fq_codel: Eenvoudige en efficiënte fair-queueing met basis latentiereductie."
     },
     "qos": {
         "title": "QoS",
