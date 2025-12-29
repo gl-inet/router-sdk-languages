@@ -8,7 +8,9 @@
         "network_acceleration_warning": "Bu özellik {network} ile birlikte çalışamaz. Etkinleştirilmesi, düzgün çalışmayı sağlamak için Ağ Hızlandırmayı otomatik olarak devre dışı bırakacaktır.",
         "tips": "Etkinleştirildiğinde, yönlendiriciniz ağ trafiğini akıllıca yöneterek herhangi bir cihazın veya uygulamanın çok fazla bant genişliği kullanmasını önler. Bu, daha hızlı tarama, daha net aramalar ve daha akıcı oyun deneyimi için gecikmeyi ve arabelleğe almayı azaltır.",
         "download_label": "İndirme",
-        "full_name": "Akıllı Kuyruk Yönetimi"
+        "full_name": "Akıllı Kuyruk Yönetimi",
+        "qdisc_cake_tips": "cake: Akıllı, otomatik trafik şekillendirme ile en iyi genel gecikme kontrolü (önerilir).",
+        "qdisc_fq_codel_tips": "fq_codel: Temel gecikme azaltma ile basit ve verimli adil kuyruklama."
     },
     "qos": {
         "title": "QoS",
