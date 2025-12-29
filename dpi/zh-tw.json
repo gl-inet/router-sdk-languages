@@ -8,7 +8,9 @@
         "network_acceleration_warning": "此功能無法與{network}同時運作。啟用後將自動停用網路加速以確保正常運作。",
         "client_speed_limit_warning_tips": "此功能無法與用戶端速度限制同時使用。啟用後將自動移除所有用戶端速度限制。",
         "tips": "啟用後，您的路由器將智慧管理網路流量，防止任何單一裝置或應用程式佔用過多頻寬。這可降低延遲和緩衝，實現更快的瀏覽、更清晰的通話和更流暢的遊戲體驗。",
-        "full_name": "智能队列管理"
+        "full_name": "智能队列管理",
+        "qdisc_cake_tips": "cake: 智能、自動流量整形，提供最佳整體延遲控制（推薦）。",
+        "qdisc_fq_codel_tips": "fq_codel: 簡單高效的公平佇列，可基本降低延遲。"
     },
     "qos": {
         "title": "QoS",
