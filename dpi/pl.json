@@ -8,7 +8,9 @@
         "client_speed_limit_warning_tips": "Ta funkcja nie może działać razem z Ograniczeniem Prędkości Klienta. Włączenie jej automatycznie usunie wszystkie ograniczenia prędkości klientów.",
         "network_acceleration_warning": "Ta funkcja nie może działać razem z {network}. Włączenie jej automatycznie wyłączy przyspieszanie sieci, aby zapewnić prawidłowe działanie.",
         "tips": "Po włączeniu, router inteligentnie zarządza ruchem sieciowym, aby zapobiec wykorzystaniu zbyt dużej przepustowości przez pojedyncze urządzenie lub aplikację. Zmniejsza to opóźnienia i buforowanie, zapewniając szybsze przeglądanie, wyraźniejsze połączenia i płynniejsze granie.",
-        "full_name": "Inteligentne Zarządzanie Kolejką"
+        "full_name": "Inteligentne Zarządzanie Kolejką",
+        "qdisc_cake_tips": "cake: Inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień (zalecane).",
+        "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień."
     },
     "qos": {
         "title": "QoS",
