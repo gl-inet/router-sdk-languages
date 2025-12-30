@@ -238,7 +238,6 @@
         "sim_unlock": "{sim} アンロック",
         "lock_pin_tips2": "{sim1}と{sim2}はロックされています。各SIMをアンロックするには、{unlock1}または{unlock2}をクリックし、対応するPINを入力してください。",
         "sim_card_switch": "SIMカード切り替え",
-        "sim_slot_type": "{sim} スロットタイプ",
         "sim_card_priority_title": "SIMカード優先順位",
         "sim_card_failover_title": "SIMカードフェイルオーバー",
         "scheduled_switch_preferred_sim_label": "優先SIMへのスケジュール切り替え",
@@ -258,8 +257,7 @@
         "airplane_mode_tips": "機内モードが有効になっているため、セルラーネットワークは無効になっています。有効にするには、デバイス画面で機内モードをオフにしてください。",
         "save_operator_config_fail_msg": "オペレータ設定の保存に失敗しました",
         "lock_operation_mode_tip": "特定のオペレータを手動でロックするか、手動ロックが失敗した場合に利用可能なオペレータネットワークに自動的に切り替えるかを選択できます。",
-        "slot2_enabled_esim_tips": "有効にすると、SIM 2スロットはeSIMに切り替わり、物理SIMカードは使用できなくなります。続行しますか？",
-        "slot2_switch_esim_tips": "有効にすると、SIM 2スロットはeSIMに切り替わり、物理SIMカードは使用できなくなります。"
+        "slot_switch_esim_tips": "有効にすると、{sim}はeSIMに切り替わり、物理SIMカードは使用できなくなります。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -572,8 +570,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。現在のAPNは空です{guide}",
         "connection_failed": "接続に失敗しました...",
         "save_tower_config_fail_msg": "タワー設定の保存に失敗しました",
-        "esim_not_registered_connection_failed_tips": "eSIMが登録されていません。eSIMプロバイダーに連絡して、特別な制限がないか確認してください。{guide}",
-        "esim_registered_connection_failed_tips": "{eSIMプロファイルが有効になっているか、または{esimManage}でトップアップが必要かどうかを確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "{esimManage}のプロファイルが{topUp}を必要とするかどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "{esimManage}のプロファイルが{topUp}を必要とするかどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です{guide}",
+        "esim_not_registered_connection_failed_tips": "eSIMが登録されていません。{esimManage}でeSIMプロファイルが有効になっているか、またはトップアップが必要かどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIMが登録されていません。{esimManage}でeSIMプロファイルが有効になっているか、またはトップアップが必要かどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です{guide}",
+        "ul_bandwidth": "アップリンク帯域幅",
+        "dl_bandwidth": "ダウンリンク帯域幅"
     },
     "sim": {
         "sender_label": "送信者"

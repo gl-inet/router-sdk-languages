@@ -238,7 +238,6 @@
         "sim_unlock": "{sim} Ontgrendelen",
         "lock_pin_tips2": "{sim1} en {sim2} zijn vergrendeld. Klik op {unlock1} of {unlock2} en voer de bijbehorende PIN in om elke SIM te ontgrendelen.",
         "sim_card_switch": "SIM-kaartschakelaar",
-        "sim_slot_type": "{sim} Slot Type",
         "sim_card_priority_title": "SIM-kaartprioriteit",
         "sim_card_failover_title": "SIM-kaart Failover",
         "scheduled_switch_preferred_sim_label": "Geplande Overschakeling naar Voorkeur-SIM",
@@ -258,8 +257,7 @@
         "airplane_mode_tips": "Mobiel is uitgeschakeld vanwege de vliegtuigmodus. Schakel de vliegtuigmodus uit op het apparaatscherm om deze in te schakelen.",
         "save_operator_config_fail_msg": "Kan de operatorconfiguratie niet opslaan",
         "lock_operation_mode_tip": "U kunt ervoor kiezen om een specifieke operator handmatig te vergrendelen, of automatisch over te schakelen naar een beschikbaar operatornetwerk wanneer handmatige vergrendeling mislukt.",
-        "slot2_enabled_esim_tips": "Indien ingeschakeld, schakelt SIM 2-sleuf over naar eSIM en is de fysieke SIM-kaart niet meer beschikbaar. Wilt u doorgaan?",
-        "slot2_switch_esim_tips": "Indien ingeschakeld, zal SIM 2-sleuf overschakelen naar eSIM en de fysieke SIM-kaart wordt niet beschikbaar."
+        "slot_switch_esim_tips": "Indien ingeschakeld, zal {sim} overschakelen naar eSIM en de fysieke SIM-kaart zal niet beschikbaar zijn."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -572,8 +570,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. Huidige APN is leeg {guide}.",
         "connection_failed": "Verbinding mislukt...",
         "save_tower_config_fail_msg": "Torenconfiguratie opslaan mislukt",
-        "esim_not_registered_connection_failed_tips": "eSIM niet geregistreerd. Neem contact op met uw eSIM-provider om te controleren op speciale beperkingen. {guide}",
-        "esim_registered_connection_failed_tips": "Controleer of het eSIM-profiel is ingeschakeld of of er een Top-up nodig is in {esimManage}, en controleer vervolgens of de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "Controleer of het profiel in {esimManage} {topUp} vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en controleer of de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "Controleer of het profiel in {esimManage} {topUp} vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en verifieer of de {apnBtn}-instellingen correct zijn. Huidige APN is leeg {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM niet geregistreerd. Controleer in {esimManage} of het eSIM-profiel is ingeschakeld of opwaardering vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en verifieer dat de {apnBtn} instellingen correct zijn. Huidige APN is leeg {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM niet geregistreerd. Controleer in {esimManage} of het eSIM-profiel is ingeschakeld of opwaardering vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en verifieer dat de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}",
+        "ul_bandwidth": "Uplink-bandbreedte",
+        "dl_bandwidth": "Downlink Bandbreedte"
     },
     "sim": {
         "sender_label": "Afzender"

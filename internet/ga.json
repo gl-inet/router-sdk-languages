@@ -76,8 +76,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. Tá an APN reatha folamh {guide}",
         "connection_failed": "Theip ar an nasc...",
         "save_tower_config_fail_msg": "Theip ar chumraíocht an túir a shábháil",
-        "esim_not_registered_connection_failed_tips": "eSIM gan chlárú. Déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a sheiceáil. {guide}",
-        "esim_registered_connection_failed_tips": "Seiceáil an bhfuil an próifíl eSIM cumasaithe nó an bhfuil Top-up ag teastáil i {esimManage}, ansin deimhnigh go bhfuil na socruithe {apnBtn} ceart. APN reatha: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "Seiceáil an bhfuil gá le {topUp} don Phróifíl i {esimManage}, nó déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a dheimhniú, agus deimhnigh go bhfuil na socruithe {apnBtn} ceart. APN reatha: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "Seiceáil an t-íomhá próifíle i {esimManage} an bhfuil {topUp} ag teastáil, nó déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a dheimhniú, agus deimhnigh go bhfuil na socruithe {apnBtn} ceart. Tá an APN reatha folamh {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM gan chlárú. Seiceáil i {esimManage} an bhfuil an próifíl eSIM cumasaithe nó an bhfuil Top-up ag teastáil, nó déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a dheimhniú, agus deimhnigh go bhfuil na socruithe {apnBtn} ceart. APN reatha: {apn} {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "Tá eSIM gan chlárú. Seiceáil i {esimManage} an bhfuil an próifíl eSIM cumasaithe nó an bhfuil Top-up ag teastáil, nó déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a dheimhniú, agus deimhnigh go bhfuil na socruithe {apnBtn} ceart. Tá APN reatha folamh {guide}",
+        "ul_bandwidth": "Bandaleit Uas",
+        "dl_bandwidth": "Bandaleithead Íoslódála"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -367,7 +371,6 @@
         "lock_pin_tips1": "Tá {sim} faoi ghlas. Cliceáil {unlock} agus cuir isteach an PIN chun é a dhíghlasáil.",
         "sim_unlock": "{sim} Díghlasáil",
         "sim_card_switch": "Athrú Cárta SIM",
-        "sim_slot_type": "{sim} Cineál Sliotán",
         "sim_card_priority_title": "Tosaíocht Cárta SIM",
         "sim_card_failover_title": "Teip-thar Cárta SIM",
         "scheduled_switch_preferred_sim_label": "Athraigh Sceidealta go Rogha SIM",
@@ -387,8 +390,7 @@
         "airplane_mode_tips": "Tá an fón póca díchumasaithe mar gheall ar Mhód Eitleáin. Chun é a chumasú, múch Mód Eitleáin ar scáileán an ghléis le do thoil.",
         "save_operator_config_fail_msg": "Theip ar chumraíocht an oibreora a shábháil",
         "lock_operation_mode_tip": "Is féidir leat oibreoir sonrach a ghlasáil de láimh, nó aistriú go huathoibríoch chuig líonra oibreoir atá ar fáil nuair a theipeann ar an nglasáil de láimh.",
-        "slot2_enabled_esim_tips": "Má tá sé cumasaithe, aistreofar Sliotán SIM 2 go eSIM agus ní bheidh an cárta SIM fisiceach ar fáil. Ar mhaith leat leanúint ar aghaidh?",
-        "slot2_switch_esim_tips": "Má tá sé cumasaithe, aistreoidh Sliotán SIM 2 go eSIM agus ní bheidh an cárta SIM fisiceach ar fáil."
+        "slot_switch_esim_tips": "Má chuirtear ar siúl é, athróidh {sim} go eSIM agus ní bheidh an cárta SIM fisiceach ar fáil."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",

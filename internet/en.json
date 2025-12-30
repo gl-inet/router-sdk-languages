@@ -239,7 +239,6 @@
         "sim_unlock": "{sim} Unlock",
         "sim_card_priority_title": "SIM Card Priority",
         "sim_card_switch": "SIM Card Switch",
-        "sim_slot_type": "{sim} Slot Type",
         "execution_time_label": "Daily Execution Time",
         "scheduled_switch_preferred_sim_label": "Scheduled Switch to Preferred SIM",
         "sim_card_failover_title": "SIM Card Failover",
@@ -258,8 +257,7 @@
         "airplane_mode_tips": "Cellular has been disabled due to Airplane Mode. To enable it, please turn off Airplane Mode on the device screen.",
         "save_operator_config_fail_msg": "Failed to save operator configuration",
         "lock_operation_mode_tip": "You can choose to manually lock a specific operator, or automatically switch to an available operator network when manual locking fails.",
-        "slot2_enabled_esim_tips": "If enabled, SIM 2 Slot will switch to eSIM and the physical SIM card will be unavailable. Do you want to continue?",
-        "slot2_switch_esim_tips": "If enabled, SIM 2 Slot will switch to eSIM and the physical SIM card will be unavailable."
+        "slot_switch_esim_tips": "If enabled, {sim} will switch to eSIM and the physical SIM card will be unavailable."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -344,7 +342,7 @@
     },
     "menu_internet": "Internet",
     "guide": {
-        "configure_router_tip": "The Network guide helps you configure your router network for fast Internet access in no time.",
+        "configure_router_tip": "The Network Guide helps you configure your router network for fast Internet access in no time.",
         "select_network_mode_tip": "Select Network Mode",
         "wan_interface_detect_title": "Detect WAN Interface",
         "scan_wifi_title": "Scanning nearby Wi-Fi networks",
@@ -572,8 +570,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "Please check if the SIM card has available data and if the {apnBtn} settings are correct. Current APN is empty {guide}",
         "connection_failed": "Connection failed...",
         "save_tower_config_fail_msg": "Failed to save tower configuration",
-        "esim_not_registered_connection_failed_tips": "eSIM unregistered. Please contact your eSIM provider to check for any special restrictions. {guide}",
-        "esim_registered_connection_failed_tips": "Please check whether the eSIM profile is enabled or if Top-up is required in {esimManage}, then verify the {apnBtn} settings are correct. Current APN: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "Please check if the Profile in {esimManage} requires {topUp}, or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "Please check if the Profile in {esimManage} requires {topUp}, or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN is empty {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM unregistered. Please check in {esimManage} whether the eSIM profile is enabled or requires Top-up , or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN: {apn} {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM unregistered. Please check in {esimManage} whether the eSIM profile is enabled or requires Top-up , or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN is empty {guide}",
+        "ul_bandwidth": "Uplink Bandwidth",
+        "dl_bandwidth": "Downlink Bandwidth"
     },
     "sim": {
         "sender_label": "Sender"

@@ -8,7 +8,9 @@
         "network_acceleration_warning": "Esta función no puede funcionar junto con {network}. Activarla deshabilitará automáticamente la Aceleración de Red para garantizar un funcionamiento adecuado.",
         "client_speed_limit_warning_tips": "Esta función no puede funcionar junto con el Límite de Velocidad del Cliente. Al activarla, se eliminarán automáticamente todos los límites de velocidad del cliente.",
         "tips": "Cuando está activado, su router gestiona inteligentemente el tráfico de red para evitar que cualquier dispositivo o aplicación individual utilice demasiado ancho de banda. Esto reduce la latencia y el almacenamiento en búfer para una navegación más rápida, llamadas más claras y juegos más fluidos.",
-        "full_name": "Gestión Inteligente de Colas"
+        "full_name": "Gestión Inteligente de Colas",
+        "qdisc_cake_tips": "cake: Control inteligente y automático del tráfico con el mejor control general de latencia (recomendado).",
+        "qdisc_fq_codel_tips": "fq_codel: Cola justa simple y eficiente con reducción básica de latencia."
     },
     "qos": {
         "title": "QoS",

@@ -8,7 +8,9 @@
         "upload_tips": "请先设置最大上传和下载速度（输入范围：1–10000）以进行流量调度。将其与您的实际互联网带宽匹配以获得最佳效果。",
         "client_speed_limit_warning_tips": "此功能无法与客户端限速同时使用。启用后将自动移除所有客户端限速设置。",
         "network_acceleration_warning": "此功能无法与{network}同时使用。启用后将自动关闭网络加速功能以确保正常运行。",
-        "full_name": "智能队列管理"
+        "full_name": "智能队列管理",
+        "qdisc_cake_tips": "cake：智能、自动的流量整形，提供最佳的整体延迟控制（推荐）。",
+        "qdisc_fq_codel_tips": "fq_codel：简单高效的公平队列，可基本降低延迟。"
     },
     "qos": {
         "title": "QoS",
@@ -26,7 +28,7 @@
         "customize_priority_desc": "自定义应用程序优先级。",
         "custom_drawer_title": "自定义",
         "custom_drawer_tips_one": "拖动以调整优先级。",
-        "custom_drawer_tips_two": "注意：高优先级流量优先转发，随后转发低优先级流量。",
+        "custom_drawer_tips_two": "注意：较高优先级的流量将优先转发，其次为较低优先级流量。",
         "none_label": "无",
         "high_label": "高优先级",
         "medium_label": "中等优先级",
@@ -151,7 +153,7 @@
         "subscription_expired_status": "已过期",
         "configuration_update_time_label": "特征库版本",
         "trial_expiring_soon_second_text": "想继续享受所有功能吗？立即{btn}。",
-        "feedback_description_tips": "请详细描述您遇到的具体问题，这将有助于合理解决。",
+        "feedback_description_tips": "请详细描述您遇到的问题，包括您访问了哪些应用或网站，以及它们被错误识别为哪个应用。清晰完整的描述将有助于我们更有效地解决问题。",
         "premium_features_label": "功能",
         "premium_features_first_text": "追踪哪些应用正在占用您的带宽。",
         "premium_features_third_text": "通过高级在线防护为家人提供全面保护。",

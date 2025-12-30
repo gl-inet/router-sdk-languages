@@ -113,7 +113,7 @@
         "portal_need_enter_bare_mode_tip": "无法通过此Wi-Fi热点访问互联网。点击{portal}以继续访问互联网。",
         "portal_need_click_next_tips": "无法通过此Wi-Fi热点访问互联网。点击“{btn}”按钮进入公共热点登录模式以继续访问互联网。",
         "portal_show_disable_detail_btn": "此模式禁用的详细说明",
-        "portal_disable_vpn_tips": "同时，设备在退出该模式前将不经由VPN路由流量，可能导致数据泄露给热点提供商（如酒店/商场）。",
+        "portal_disable_vpn_tips": "同时，设备在退出该模式前将不经由VPN转发流量，可能导致数据泄露给热点提供商（如酒店/商场）。",
         "portal_disable_feature_tips": "此模式将自动临时禁用{feature}。",
         "portal_auth_required_title": "需要门户认证",
         "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。",
@@ -238,7 +238,6 @@
         "lock_pin_tips2": "{sim1} 和 {sim2} 已锁定。请点击 {unlock1} 或 {unlock2} 并输入对应的 PIN 码解锁各 SIM 卡。",
         "sim_unlock": "{sim} 解锁",
         "sim_card_switch": "SIM卡切换",
-        "sim_slot_type": "{sim} 卡槽类型",
         "sim_card_priority_title": "SIM 卡优先级",
         "sim_card_failover_title": "SIM 卡故障转移",
         "scheduled_switch_preferred_sim_label": "定时切换首选卡",
@@ -258,8 +257,7 @@
         "airplane_mode_tips": "蜂窝网络已因飞行模式被禁用。如需启用，请前往设备屏幕端关闭飞行模式。",
         "save_operator_config_fail_msg": "保存运营商配置失败",
         "lock_operation_mode_tip": "您可选择手动锁定特定运营商，或者在手动锁定失败时自动切换到可用的运营商网络。",
-        "slot2_enabled_esim_tips": "如果启用，SIM 2插槽将切换到eSIM，实体SIM卡将无法使用。你想继续吗？",
-        "slot2_switch_esim_tips": "如果启用，SIM 2 卡槽将切换为 eSIM，物理 SIM 卡将不可用。"
+        "slot_switch_esim_tips": "如果启用，{sim}将切换到eSIM，实体SIM卡将无法使用。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -572,8 +570,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "请检查 SIM 卡是否有可用流量，以及 {apnBtn} 设置是否正确，当前 APN 值为空 {guide}",
         "connection_failed": "连接失败...",
         "save_tower_config_fail_msg": "保存基站配置失败",
-        "esim_not_registered_connection_failed_tips": "eSIM 未注册，请联系 eSIM 厂商确认是否存在特殊限制。{guide}",
-        "esim_registered_connection_failed_tips": "请检查{eSIM管理}中的eSIM配置文件是否已启用或是否需要充值，然后验证{APN按钮}设置是否正确。当前APN：{apn} {指南}"
+        "esim_registered_connection_failed_tips": "请检查 {esimManage}中对应 Profile 是否需要{topUp}，或联系 eSIM 厂商确认是否有特殊限制，再确认 {apnBtn} 设置是否正确，当前APN：{apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "请检查 {esimManage}中对应 Profile 是否需要{topUp}，或联系 eSIM 厂商确认是否有特殊限制，再确认 {apnBtn} 设置是否正确，当前 APN 为空{guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM 未注册，请检查 {esimManage}中对应 Profile 是否已启用或需充值，或联系 eSIM 厂商确认是否存在特殊限制，再确认 {apnBtn} 设置是否正确，当前APN：{apn} {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM 未注册，请检查 {esimManage}中对应 Profile 是否已启用或需充值，或联系 eSIM 厂商确认是否存在特殊限制，再确认 {apnBtn} 设置是否正确，当前 APN 值为空 {guide}",
+        "ul_bandwidth": "上行带宽",
+        "dl_bandwidth": "下行带宽"
     },
     "sim": {
         "sender_label": "发件人"

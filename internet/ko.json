@@ -238,7 +238,6 @@
         "sim_unlock": "{sim} 잠금 해제",
         "lock_pin_tips2": "{sim1} 및 {sim2}가 잠겨 있습니다. 각 SIM을 잠금 해제하려면 {unlock1} 또는 {unlock2}를 클릭하고 해당 PIN을 입력하십시오.",
         "sim_card_switch": "SIM 카드 전환",
-        "sim_slot_type": "{sim} 슬롯 유형",
         "sim_card_priority_title": "SIM 카드 우선순위",
         "sim_card_failover_title": "SIM 카드 페일오버",
         "scheduled_switch_preferred_sim_label": "예약된 선호 SIM 전환",
@@ -258,8 +257,7 @@
         "airplane_mode_tips": "셀룰러가 비행기 모드로 인해 비활성화되었습니다. 활성화하려면 기기 화면에서 비행기 모드를 끄십시오.",
         "save_operator_config_fail_msg": "운영자 구성 저장에 실패했습니다",
         "lock_operation_mode_tip": "특정 운영자를 수동으로 잠글 수 있으며, 수동 잠금이 실패할 경우 사용 가능한 운영자 네트워크로 자동 전환할 수 있습니다.",
-        "slot2_enabled_esim_tips": "활성화하면 SIM 2 슬롯이 eSIM으로 전환되고 물리적 SIM 카드를 사용할 수 없게 됩니다. 계속하시겠습니까?",
-        "slot2_switch_esim_tips": "활성화하면 SIM 2 슬롯이 eSIM으로 전환되고 물리적 SIM 카드를 사용할 수 없게 됩니다."
+        "slot_switch_esim_tips": "활성화하면 {sim}이 eSIM으로 전환되고 물리적 SIM 카드를 사용할 수 없게 됩니다."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -572,8 +570,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "SIM 카드에 사용 가능한 데이터가 있는지 확인하고 {apnBtn} 설정이 올바른지 확인하십시오. 현재 APN이 비어 있습니다 {guide}",
         "connection_failed": "연결 실패...",
         "save_tower_config_fail_msg": "타워 구성 저장 실패",
-        "esim_not_registered_connection_failed_tips": "eSIM이 등록되지 않았습니다. eSIM 제공업체에 문의하여 특별한 제한 사항이 있는지 확인하세요. {guide}",
-        "esim_registered_connection_failed_tips": "eSIM 프로필이 활성화되었는지 또는 {esimManage}에서 충전이 필요한지 확인한 다음, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "{esimManage}의 프로필에 {topUp}이 필요한지 확인하거나, eSIM 제공업체에 문의하여 특별한 제한 사항이 있는지 확인하고, {apnBtn} 설정이 올바른지 확인하세요. 현재 APN: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "{esimManage}의 프로필에 {topUp}이 필요한지 확인하거나, eSIM 제공업체에 문의하여 특별한 제한 사항이 있는지 확인하고, {apnBtn} 설정이 올바른지 확인하십시오. 현재 APN은 비어 있습니다 {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM이 등록되지 않았습니다. {esimManage}에서 eSIM 프로필이 활성화되었는지 또는 충전이 필요한지 확인하거나, eSIM 제공업체에 문의하여 특별한 제한 사항이 있는지 확인하고, {apnBtn} 설정이 올바른지 확인하십시오. 현재 APN이 비어 있습니다 {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM이 등록되지 않았습니다. {esimManage}에서 eSIM 프로필이 활성화되었는지 또는 충전이 필요한지 확인하거나, eSIM 제공업체에 연락하여 특별한 제한 사항이 있는지 확인하고 {apnBtn} 설정이 올바른지 확인하세요. 현재 APN: {apn} {guide}",
+        "ul_bandwidth": "업링크 대역폭",
+        "dl_bandwidth": "다운링크 대역폭"
     },
     "sim": {
         "sender_label": "발신자"

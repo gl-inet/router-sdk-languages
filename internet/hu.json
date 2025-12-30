@@ -115,7 +115,6 @@
         "sim_unlock": "{sim} Feloldás",
         "lock_pin_tips2": "{sim1} és {sim2} zárolva van. Kérjük, kattintson a {unlock1} vagy {unlock2} elemre, és adja meg a megfelelő PIN-kódot az egyes SIM-ek feloldásához.",
         "sim_card_switch": "SIM-kártya kapcsoló",
-        "sim_slot_type": "{sim} Helytípus",
         "sim_card_priority_title": "SIM-kártya prioritás",
         "sim_card_failover_title": "SIM-kártya feladatátvétel",
         "scheduled_switch_preferred_sim_label": "Ütemezett váltás előnyben részesített SIM-re",
@@ -135,8 +134,7 @@
         "airplane_mode_tips": "A mobilhálózat letiltásra került a repülőgép mód miatt. A bekapcsoláshoz kérjük, kapcsolja ki a repülőgép módot a készülék képernyőjén.",
         "save_operator_config_fail_msg": "Nem sikerült menteni az operátor konfigurációt",
         "lock_operation_mode_tip": "Kiválaszthatja, hogy manuálisan zároljon egy adott szolgáltatót, vagy automatikusan vált egy elérhető szolgáltatói hálózatra, ha a manuális zárolás sikertelen.",
-        "slot2_enabled_esim_tips": "Ha engedélyezve van, a SIM 2 hely eSIM-re vált, és a fizikai SIM-kártya nem lesz elérhető. Szeretné folytatni?",
-        "slot2_switch_esim_tips": "Ha engedélyezve van, a SIM 2 hely eSIM-re vált, és a fizikai SIM-kártya nem lesz elérhető."
+        "slot_switch_esim_tips": "Ha engedélyezve van, a {sim} eSIM-re vált, és a fizikai SIM-kártya nem lesz elérhető."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -572,8 +570,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "Kérjük, ellenőrizze, hogy az SIM-kártyának van-e rendelkezésre álló adatforgalma, és hogy a {apnBtn} beállítások helyesek-e. A jelenlegi APN érték üres {guide}",
         "connection_failed": "Kapcsolat sikertelen...",
         "save_tower_config_fail_msg": "Nem sikerült menteni a torony konfigurációt",
-        "esim_not_registered_connection_failed_tips": "eSIM nincs regisztrálva. Kérjük, lépjen kapcsolatba eSIM szolgáltatójával, hogy ellenőrizze az esetleges speciális korlátozásokat. {guide}",
-        "esim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy az eSIM profil engedélyezve van-e, vagy szükséges-e feltöltés a(z) {esimManage} oldalon, majd ellenőrizze, hogy a(z) {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a(z) {esimManage} profilja igényel-e {topUp}-ot, vagy lépjen kapcsolatba eSIM szolgáltatójával, hogy megerősítse az esetleges speciális korlátozásokat, és ellenőrizze, hogy a(z) {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "Kérjük, ellenőrizze, hogy a(z) {esimManage} profilja igényel-e {topUp}-t, vagy lépjen kapcsolatba eSIM szolgáltatójával, hogy megerősítse az esetleges speciális korlátozásokat, és ellenőrizze, hogy a(z) {apnBtn} beállítások helyesek-e. A jelenlegi APN üres {guide}.",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM nincs regisztrálva. Kérjük, ellenőrizze az {esimManage} oldalon, hogy az eSIM profil engedélyezve van-e vagy feltöltést igényel, vagy lépjen kapcsolatba eSIM szolgáltatójával, hogy megerősítse a speciális korlátozásokat, és ellenőrizze, hogy az {apnBtn} beállítások helyesek-e. A jelenlegi APN üres {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM nincs regisztrálva. Kérjük, ellenőrizze az {esimManage} oldalon, hogy az eSIM profil engedélyezve van-e vagy feltöltést igényel, vagy lépjen kapcsolatba eSIM szolgáltatójával, hogy megerősítse a speciális korlátozásokat, és ellenőrizze, hogy az {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
+        "ul_bandwidth": "Feljövő sávszélesség",
+        "dl_bandwidth": "Lefelé irányuló sávszélesség"
     },
     "sim": {
         "sender_label": "Feladó"

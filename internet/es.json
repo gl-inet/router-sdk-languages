@@ -238,7 +238,6 @@
         "lock_pin_tips1": "{sim} está bloqueada. Haga clic en {unlock} e introduzca el PIN para desbloquearla.",
         "sim_unlock": "Desbloquear {sim}",
         "sim_card_switch": "Cambio de Tarjeta SIM",
-        "sim_slot_type": "{sim} Tipo de Ranura",
         "sim_card_priority_title": "Prioridad de Tarjeta SIM",
         "sim_card_failover_title": "Conmutación por Error de Tarjeta SIM",
         "scheduled_switch_preferred_sim_label": "Cambio Programado a SIM Preferido",
@@ -258,8 +257,7 @@
         "airplane_mode_tips": "La conexión móvil se ha deshabilitado debido al Modo Avión. Para activarla, por favor desactive el Modo Avión en la pantalla del dispositivo.",
         "save_operator_config_fail_msg": "No se pudo guardar la configuración del operador",
         "lock_operation_mode_tip": "Puedes elegir bloquear manualmente un operador específico, o cambiar automáticamente a una red de operador disponible cuando el bloqueo manual falle.",
-        "slot2_enabled_esim_tips": "Si se habilita, la ranura SIM 2 cambiará a eSIM y la tarjeta SIM física no estará disponible. ¿Desea continuar?",
-        "slot2_switch_esim_tips": "Si está habilitado, la ranura SIM 2 cambiará a eSIM y la tarjeta SIM física no estará disponible."
+        "slot_switch_esim_tips": "Si está habilitado, {sim} cambiará a eSIM y la tarjeta SIM física no estará disponible."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -572,8 +570,12 @@
         "sim_registered_apn_is_empty_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. El APN actual está vacío {guide}",
         "connection_failed": "Conexión fallida...",
         "save_tower_config_fail_msg": "No se pudo guardar la configuración de la torre",
-        "esim_not_registered_connection_failed_tips": "eSIM no registrado. Por favor, contacte a su proveedor de eSIM para verificar si existen restricciones especiales. {guide}",
-        "esim_registered_connection_failed_tips": "Verifique si el perfil eSIM está habilitado o si se requiere Recarga en {esimManage}, luego confirme que la configuración de {apnBtn} sea correcta. APN actual: {apn} {guide}"
+        "esim_registered_connection_failed_tips": "Verifique si el Perfil en {esimManage} requiere {topUp}, o contacte a su proveedor de eSIM para confirmar cualquier restricción especial, y verifique que la configuración de {apnBtn} sea correcta. APN actual: {apn} {guide}",
+        "esim_registered_apn_is_empty_connection_failed_tips": "Verifique si el Perfil en {esimManage} requiere {topUp}, o contacte a su proveedor de eSIM para confirmar cualquier restricción especial, y verifique que la configuración de {apnBtn} sea correcta. El APN actual está vacío {guide}",
+        "esim_not_registered_connection_failed_tips": "eSIM no registrado. Por favor, verifique en {esimManage} si el perfil eSIM está habilitado o requiere Recarga, o contacte a su proveedor de eSIM para confirmar cualquier restricción especial, y verifique que la configuración de {apnBtn} sea correcta. APN actual: {apn} {guide}",
+        "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM no registrado. Por favor, verifique en {esimManage} si el perfil eSIM está habilitado o requiere Recarga, o contacte a su proveedor de eSIM para confirmar cualquier restricción especial, y verifique que la configuración de {apnBtn} sea correcta. El APN actual está vacío {guide}",
+        "ul_bandwidth": "Ancho de banda de enlace ascendente",
+        "dl_bandwidth": "Ancho de banda de bajada"
     },
     "sim": {
         "sender_label": "Remitente"
