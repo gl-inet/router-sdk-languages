@@ -79,7 +79,8 @@
         "usb_tethering": "USB 網路共用",
         "qos_warning": "用戶端速度限制不可用，因為已啟用$$$$QoS$$$$。",
         "sqm_warning": "用戶端速度限制不可用，因為已啟用$$$$SQM$$$$。",
-        "enable_conflict_warning": "用戶端速度限制不可用，因為已啟用{other}。"
+        "enable_conflict_warning": "用戶端速度限制不可用，因為已啟用{other}。",
+        "network_acceleration_warning_tips": "{feature} 已啟用，用戶端速度與流量統計異常，用戶端速度限制功能失效。"
     },
     "menu_clients": "客戶端",
     "vpn_tunnel": {
