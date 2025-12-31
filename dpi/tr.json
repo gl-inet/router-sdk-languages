@@ -10,7 +10,8 @@
         "download_label": "İndirme",
         "full_name": "Akıllı Kuyruk Yönetimi",
         "qdisc_cake_tips": "cake: Akıllı, otomatik trafik şekillendirme ile en iyi genel gecikme kontrolü (önerilir).",
-        "qdisc_fq_codel_tips": "fq_codel: Temel gecikme azaltma ile basit ve verimli adil kuyruklama."
+        "qdisc_fq_codel_tips": "fq_codel: Temel gecikme azaltma ile basit ve verimli adil kuyruklama.",
+        "tips_second": "SQM, yönlendiriciyi bir ağ geçidi olarak kullanan trafiği etkiler, VPN İstemci trafiği dahil, ancak yönlendirici VPN Sunucusu olarak çalışırken gelen trafiği etkilemez."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "malware_name": "Kötü Amaçlı Yazılım",
         "adult_description": "Yetişkin içerikli web siteleri ve hizmetlerini içerir",
         "malware_description": "Güvenlik tehdidi oluşturan kötü amaçlı alan adları veya hizmetleri içerir",
-        "adult_name": "Yetişkin"
+        "adult_name": "Yetişkin",
+        "tips_second": "Bu, yerel istemci trafiği ve VPN İstemci tünelleri üzerinden yönlendirilen trafik için geçerlidir, ancak yönlendirici VPN Sunucusu olarak hareket ederken alınan trafik için geçerli değildir."
     },
     "flowstatistics": {
         "card_title": "Uygulama Toplam Verisi",
