@@ -79,7 +79,8 @@
         "usb_tethering": "USB-Tethering",
         "sqm_warning": "Client Speed Limit ist nicht verfügbar, da $$$$SQM$$$$ aktiviert ist.",
         "qos_warning": "Client Speed Limit ist nicht verfügbar, da $$$$QoS$$$$ aktiviert ist.",
-        "enable_conflict_warning": "Client-Geschwindigkeitsbegrenzung ist nicht verfügbar, da {other} aktiviert ist."
+        "enable_conflict_warning": "Client-Geschwindigkeitsbegrenzung ist nicht verfügbar, da {other} aktiviert ist.",
+        "network_acceleration_warning_tips": "{feature} ist aktiviert, Client-Geschwindigkeit und Verkehrsstatistiken sind abnormal, Client-Geschwindigkeitsbegrenzung funktioniert nicht."
     },
     "menu_clients": "Clients",
     "vpn_tunnel": {
