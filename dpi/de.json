@@ -10,7 +10,8 @@
         "network_acceleration_warning": "Diese Funktion kann nicht zusammen mit {network} arbeiten. Die Aktivierung deaktiviert automatisch die Netzwerkbeschleunigung, um einen ordnungsgemäßen Betrieb zu gewährleisten.",
         "full_name": "Intelligente Warteschlangenverwaltung",
         "qdisc_cake_tips": "cake: Intelligente, automatische Verkehrsformung mit der besten Gesamtlatenzkontrolle (empfohlen).",
-        "qdisc_fq_codel_tips": "fq_codel: Einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung."
+        "qdisc_fq_codel_tips": "fq_codel: Einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung.",
+        "tips_second": "SQM beeinflusst den Datenverkehr, der den Router als Gateway passiert, einschließlich VPN-Client-Verkehr, aber nicht den eingehenden Verkehr, wenn der Router als VPN-Server arbeitet."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "gambling_description": "Einschließlich Online-Glücksspiel-Websites und Anwendungen",
         "adult_name": "Erwachseneninhalte",
         "adult_description": "Einschließlich Websites und Dienste mit Inhalten für Erwachsene",
-        "malware_description": "Einschließlich bösartiger Domains oder Dienste, die Sicherheitsbedrohungen darstellen"
+        "malware_description": "Einschließlich bösartiger Domains oder Dienste, die Sicherheitsbedrohungen darstellen",
+        "tips_second": "Dies gilt für lokalen Client-Verkehr und Verkehr, der über VPN-Client-Tunnel geleitet wird, aber nicht für Verkehr, der empfangen wird, wenn der Router als VPN-Server fungiert."
     },
     "flowstatistics": {
         "card_title": "Anwendungsgesamt-Daten",
