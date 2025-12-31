@@ -10,7 +10,8 @@
         "network_acceleration_warning": "Ši funkcija negali veikti kartu su – {network}. Įjungus/Įgalinus ją, automatiškai bus išjungtas tinklo pagreitinimas, kad būtų užtikrintas tinkamas veikimas.",
         "full_name": "Išmanusis eilių valdymas",
         "qdisc_cake_tips": "cake: Išmanus, automatinis srauto formavimas su geriausiu bendru delsos valdymu (rekomenduojama).",
-        "qdisc_fq_codel_tips": "fq_codel: Paprastas ir efektyvus teisingas eilių formavimas su pagrindiniu delsos mažinimu."
+        "qdisc_fq_codel_tips": "fq_codel: Paprastas ir efektyvus teisingas eilių formavimas su pagrindiniu delsos mažinimu.",
+        "tips_second": "SQM paveikia srautą, einantį per maršrutizatorių kaip tinklo tarpuvartę, įskaitant „VPN“ kliento srautą, bet nepaveikia gaunamo srauto, kai maršrutizatorius veikia kaip „VPN“ serveris."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "adult_description": "Įskaitant svetaines ir paslaugas, susijusias su suaugusiųjų turiniu",
         "malware_description": "Įskaitant kenksmingus domenus ar paslaugas, keliančius saugos grėsmę",
         "adult_name": "Suaugusiems",
-        "malware_name": "Kenkėjiška programinė įranga"
+        "malware_name": "Kenkėjiška programinė įranga",
+        "tips_second": "Tai taikoma vietiniam kliento srautui ir srautui, maršrutizuotam per „VPN“ kliento tunelius, bet netaikoma srautui, gautam, kai maršrutizatorius veikia kaip „VPN“ serveris."
     },
     "flowstatistics": {
         "echarts_title": "10 populiariausių programų pagal duomenų siuntimo srauto pralaidumą",
