@@ -10,7 +10,8 @@
         "tips": "Wanneer ingeschakeld, beheert uw router op intelligente wijze het netwerkverkeer om te voorkomen dat één enkel apparaat of applicatie te veel bandbreedte gebruikt. Dit vermindert latentie en buffering voor sneller browsen, helderdere gesprekken en soepeler gamen.",
         "full_name": "Slimme Wachtrijbeheer",
         "qdisc_cake_tips": "cake: Slimme, automatische verkeersvorming met de beste algehele latentiecontrole (aanbevolen).",
-        "qdisc_fq_codel_tips": "fq_codel: Eenvoudige en efficiënte fair-queueing met basis latentiereductie."
+        "qdisc_fq_codel_tips": "fq_codel: Eenvoudige en efficiënte fair-queueing met basis latentiereductie.",
+        "tips_second": "SQM beïnvloedt het verkeer dat via de router als gateway passeert, inclusief VPN Client-verkeer, maar heeft geen invloed op inkomend verkeer wanneer de router functioneert als een VPN Server."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "malware_name": "Schadelijke software",
         "adult_description": "Inclusief websites en diensten gerelateerd aan inhoud voor volwassenen",
         "malware_description": "Inclusief kwaadaardige domeinen of diensten die een beveiligingsrisico vormen",
-        "adult_name": "Volwassenen"
+        "adult_name": "Volwassenen",
+        "tips_second": "Dit geldt voor lokaal clientverkeer en verkeer dat via VPN Client-tunnels wordt gerouteerd, maar is niet van toepassing op verkeer dat wordt ontvangen wanneer de router als een VPN Server fungeert."
     },
     "flowstatistics": {
         "card_title": "Applicatie Totale Gegevens",
