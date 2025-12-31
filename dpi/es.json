@@ -10,7 +10,8 @@
         "tips": "Cuando está activado, su router gestiona inteligentemente el tráfico de red para evitar que cualquier dispositivo o aplicación individual utilice demasiado ancho de banda. Esto reduce la latencia y el almacenamiento en búfer para una navegación más rápida, llamadas más claras y juegos más fluidos.",
         "full_name": "Gestión Inteligente de Colas",
         "qdisc_cake_tips": "cake: Control inteligente y automático del tráfico con el mejor control general de latencia (recomendado).",
-        "qdisc_fq_codel_tips": "fq_codel: Cola justa simple y eficiente con reducción básica de latencia."
+        "qdisc_fq_codel_tips": "fq_codel: Cola justa simple y eficiente con reducción básica de latencia.",
+        "tips_second": "SQM afecta el tráfico que pasa a través del router como puerta de enlace, incluyendo el tráfico del Cliente VPN, pero no afecta al tráfico entrante cuando el router opera como Servidor VPN."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "malware_name": "Software malicioso",
         "malware_description": "Incluye dominios maliciosos o servicios que representan amenazas de seguridad",
         "adult_name": "Adultos",
-        "adult_description": "Incluye sitios web y servicios relacionados con contenido para adultos"
+        "adult_description": "Incluye sitios web y servicios relacionados con contenido para adultos",
+        "tips_second": "Esto se aplica al tráfico de clientes locales y al tráfico enrutado a través de túneles del Cliente VPN, pero no se aplica al tráfico recibido cuando el router actúa como Servidor VPN."
     },
     "flowstatistics": {
         "card_title": "Datos Totales de Aplicación",
