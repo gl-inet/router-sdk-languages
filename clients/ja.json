@@ -79,7 +79,8 @@
         "usb_tethering": "USBテザリング",
         "qos_warning": "クライアント速度制限は$$$$QoS$$$$が有効になっているため利用できません。",
         "sqm_warning": "クライアント速度制限は$$$$SQM$$$$が有効になっているため利用できません。",
-        "enable_conflict_warning": "クライアント速度制限は{other}が有効になっているため利用できません。"
+        "enable_conflict_warning": "クライアント速度制限は{other}が有効になっているため利用できません。",
+        "network_acceleration_warning_tips": "{feature}が有効になっています。クライアントの速度とトラフィック統計が異常です。クライアントの速度制限が機能していません。"
     },
     "menu_clients": "クライアント",
     "vpn_tunnel": {
