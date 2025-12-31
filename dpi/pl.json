@@ -10,7 +10,8 @@
         "tips": "Po włączeniu, router inteligentnie zarządza ruchem sieciowym, aby zapobiec wykorzystaniu zbyt dużej przepustowości przez pojedyncze urządzenie lub aplikację. Zmniejsza to opóźnienia i buforowanie, zapewniając szybsze przeglądanie, wyraźniejsze połączenia i płynniejsze granie.",
         "full_name": "Inteligentne Zarządzanie Kolejką",
         "qdisc_cake_tips": "cake: Inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień (zalecane).",
-        "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień."
+        "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.",
+        "tips_second": "SQM wpływa na ruch przechodzący przez router jako bramę, w tym na ruch klienta VPN, ale nie wpływa na ruch przychodzący, gdy router działa jako serwer VPN."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "malware_name": "Złośliwe Oprogramowanie",
         "adult_description": "Obejmuje witryny i usługi związane z treściami dla dorosłych",
         "malware_description": "Obejmuje złośliwe domeny lub usługi stanowiące zagrożenie bezpieczeństwa",
-        "adult_name": "Dla Dorosłych"
+        "adult_name": "Dla Dorosłych",
+        "tips_second": "Dotyczy to ruchu lokalnych klientów oraz ruchu kierowanego przez tunele klienta VPN, ale nie dotyczy ruchu odbieranego, gdy router działa jako serwer VPN."
     },
     "flowstatistics": {
         "card_title": "Całkowite Dane Aplikacji",
