@@ -80,7 +80,8 @@
         "usb_tethering": "USB Tethering",
         "qos_warning": "Client Speed Limit is unavailable because $$$$QoS$$$$ is enabled.",
         "sqm_warning": "Client Speed Limit is unavailable because $$$$SQM$$$$ is enabled.",
-        "enable_conflict_warning": "Client Speed Limit is unavailable because {other} is enabled."
+        "enable_conflict_warning": "Client Speed Limit is unavailable because {other} is enabled.",
+        "network_acceleration_warning_tips": "{feature} is enabled, Client Speed and Traffic Statistics are abnormal, Client Speed Limit is not working."
     },
     "vpn_tunnel": {
         "mac_using_tips": "The VPN is connected.",
