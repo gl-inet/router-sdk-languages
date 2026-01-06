@@ -175,7 +175,8 @@
         "secondary_disabled_tips": "You have terminated the connection. Your device will now access the internet through your local network.",
         "secondary_connected_tips": "Connected successfully. Now you can access the internet through your home network.",
         "secondary_disabled_access_tips": "Disconnect from the current service to switch to your local network.",
-        "secondary_enabled_access_tips": "Once connected, your devices will be able to access the internet through your home network."
+        "secondary_enabled_access_tips": "Once connected, your devices will be able to access the internet through your home network.",
+        "primary_stop_tips": "Service terminated on the home router. Network connection failed."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Request failed: Timestamp is invalid. Please synchronize the router's time."
