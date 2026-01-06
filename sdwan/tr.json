@@ -175,7 +175,9 @@
         "secondary_connected_tips": "Başarıyla bağlandı. Artık ev ağınız üzerinden internete erişebilirsiniz.",
         "secondary_disabled_access_tips": "Mevcut hizmetten bağlantıyı keserek yerel ağınıza geçiş yapın.",
         "secondary_enabled_access_tips": "Bağlandıktan sonra, cihazlarınız ev ağınız üzerinden internete erişebilecektir.",
-        "primary_stop_tips": "Ana yönlendiricide hizmet sonlandırıldı. Ağ bağlantısı başarısız oldu."
+        "primary_stop_tips": "Ana yönlendiricide hizmet sonlandırıldı. Ağ bağlantısı başarısız oldu.",
+        "primary_reset_tips": "Ana yönlendirici sıfırlandığında, bağlı cihazlar kaldırılacak ve yerel ağları üzerinden internete erişmeye geri dönecektir.",
+        "primary_reset_tips2": "AstroWarp bağlantısını yeniden oluşturmanız gerekiyor."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "İstek başarısız oldu: Zaman damgası geçersiz. Lütfen yönlendiricinin zamanını senkronize edin."
