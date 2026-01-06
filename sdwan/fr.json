@@ -175,7 +175,9 @@
         "secondary_disabled_access_tips": "Déconnectez-vous du service actuel pour passer à votre réseau local.",
         "secondary_enabled_access_tips": "Une fois connectés, vos appareils pourront accéder à internet via votre réseau domestique.",
         "primary_stop_tips": "Service terminé sur le routeur domestique. Échec de la connexion réseau.",
-        "primary_reset_tips": "Une fois le routeur domestique réinitialisé, les appareils connectés seront supprimés et reviendront à l'accès à internet via leur réseau local."
+        "primary_reset_tips": "Une fois le routeur domestique réinitialisé, les appareils connectés seront supprimés et reviendront à l'accès à internet via leur réseau local.",
+        "primary_reset_tips2": "Vous devez recréer la connexion AstroWarp.",
+        "remove_dev_tips": "Après suppression, cet appareil reviendra à l'accès à internet via son réseau local."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Échec de la requête : L'horodatage est invalide. Veuillez synchroniser l'heure du routeur."
