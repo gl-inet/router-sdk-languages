@@ -88,14 +88,14 @@
         "connect_for_label": "Verbonden voor: {time}",
         "last_connection_label": "Laatst verbonden: {time}",
         "use_app_tips_2": "2. Voer de toegangscode in.",
-        "use_secondary_router_tips_1": "1. Log in op het beheerpaneel van een andere router;",
+        "use_secondary_router_tips_1": "1. Meld u aan bij het beheerpaneel van een andere router;",
         "use_secondary_router_tips_2": "2. Navigeer naar CLOUD SERVICES > AstroWarp;",
-        "use_primary_router_tips_1": "1. Log in op het beheerpaneel van een andere router;",
+        "use_primary_router_tips_1": "1. Meld u aan bij het beheerpaneel van een andere router;",
         "use_primary_router_tips_2": "2. Navigeer naar CLOUD SERVICES > AstroWarp;",
         "use_primary_router_tips_4": "4. Dan kunt u de toegangscode zien.",
         "dev_model_label": "Apparaatmodel",
         "enter_access_code_title": "Voer Toegangscode in",
-        "access_code_limit_tips": "Verbinding mislukt. Verbonden routers hebben de limiet van het netwerk bereikt.",
+        "access_code_limit_tips": "Verbinding mislukt. Verbonden routers hebben de netwerklimiet bereikt.",
         "gen_access_code_guide_title": "Toegangscode Generatie Gids",
         "kicked_out_tips": "Voer een nieuwe toegangscode in om verbinding te maken.",
         "ok_btn": "OK",
@@ -123,7 +123,7 @@
         "add_device_title": "Apparaat toevoegen",
         "sure_remove_tips": "Weet u zeker dat u dit apparaat wilt verwijderen?",
         "use_secondary_router_tips_3": "3. Selecteer het gebruik van de router als \"Carry-on\";",
-        "secondary_mode_label": "Carry-on",
+        "secondary_mode_label": "Handbagage",
         "access_code_verify_failed_tips": "Verificatie mislukt. Zorg ervoor dat u de juiste toegangscode invoert.",
         "secondary_mode_tips": "Gebruik deze router om op afstand verbinding te maken met uw thuisnetwerk wanneer u niet thuis bent.",
         "access_code_expire_tips": "Deze toegangscode verloopt over {time}.",
@@ -168,7 +168,10 @@
         "package_expired_tips": "Service beëindigd omdat uw abonnement is verlopen.",
         "free_data_limit_tips": "Service beëindigd omdat uw gratis data het gebruikslimiet heeft bereikt.",
         "purchase_tips": "Selecteer een abonnement om de service te activeren.",
-        "need_login_cloud_tips": "Log in op de Cloud Service om de binding te voltooien en door te gaan met het gebruik van de AstroWarp-service."
+        "need_login_cloud_tips": "Log in op de Cloud Service om de binding te voltooien en door te gaan met het gebruik van de AstroWarp-service.",
+        "welcome_tips": "Ervaar ware stealth en stabiele verbinding met AstroWarp.",
+        "welcome_tips2": "Het maakt gebruik van het AmneziaWG-protocol met ingebouwde verkeersvervorming. Het breidt uw thuisnetwerk veilig wereldwijd uit. Hierdoor kunt u met verbeterde privacy en beveiliging browsen - net zo naadloos alsof u thuis bent.",
+        "cloud_service_enabled_tips": "Clouddienst ingeschakeld."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Verzoek mislukt: Tijdstempel is ongeldig. Synchroniseer de tijd van de router."
