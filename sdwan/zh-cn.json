@@ -175,7 +175,9 @@
         "secondary_connected_tips": "连接成功。现在您可以通过家庭网络访问互联网。",
         "secondary_disabled_access_tips": "断开当前服务以切换到本地网络。",
         "secondary_enabled_access_tips": "连接后，您的设备将能够通过家庭网络访问互联网。",
-        "primary_stop_tips": "家庭路由器上的服务已终止。网络连接失败。"
+        "primary_stop_tips": "家庭路由器上的服务已终止。网络连接失败。",
+        "primary_reset_tips": "家庭路由器重置后，已连接的设备将被移除，并恢复通过本地网络访问互联网。",
+        "primary_reset_tips2": "您需要重新创建AstroWarp连接。"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "请求失败：时间戳无效。请同步路由器的时间。"
