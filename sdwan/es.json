@@ -175,7 +175,9 @@
         "secondary_disabled_access_tips": "Desconéctese del servicio actual para cambiar a su red local.",
         "secondary_enabled_access_tips": "Una vez conectados, tus dispositivos podrán acceder a internet a través de tu red doméstica.",
         "primary_stop_tips": "Servicio terminado en el router doméstico. Fallo de conexión de red.",
-        "primary_reset_tips": "Una vez que se restablezca el router doméstico, los dispositivos conectados serán eliminados y volverán a acceder a Internet a través de su red local."
+        "primary_reset_tips": "Una vez que se restablezca el router doméstico, los dispositivos conectados serán eliminados y volverán a acceder a Internet a través de su red local.",
+        "remove_dev_tips": "Después de la eliminación, este dispositivo volverá a acceder a Internet a través de su red local.",
+        "primary_reset_tips2": "Necesita recrear la conexión AstroWarp."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Solicitud fallida: La marca de tiempo no es válida. Por favor, sincronice la hora del router."
