@@ -10,11 +10,12 @@
         "tips": "啟用後，您的路由器將智慧管理網路流量，防止任何單一裝置或應用程式佔用過多頻寬。這可降低延遲和緩衝，實現更快的瀏覽、更清晰的通話和更流暢的遊戲體驗。",
         "full_name": "智能队列管理",
         "qdisc_cake_tips": "cake: 智能、自動流量整形，提供最佳整體延遲控制（推薦）。",
-        "qdisc_fq_codel_tips": "fq_codel: 簡單高效的公平佇列，可基本降低延遲。"
+        "qdisc_fq_codel_tips": "fq_codel: 簡單高效的公平佇列，可基本降低延遲。",
+        "tips_second": "SQM會影響通過路由器作為閘道的流量，包括VPN客戶端流量，但不會影響路由器作為VPN伺服器時的傳入流量。"
     },
     "qos": {
         "title": "QoS",
-        "quality_title": "啟用QoS",
+        "quality_title": "服务质量",
         "sqm_enable_warning": "由於已啟用$$$$SQM$$$$，QoS功能無法使用。",
         "mode_title": "根據應用程式優先級分配頻寬。",
         "meeting_priority": "會議優先級",
@@ -41,7 +42,7 @@
         "webpage_name": "網頁",
         "webpage_description": "包含入口網站、商業",
         "game_name": "遊戲",
-        "social_entertainment_name": "社交、娛樂",
+        "social_entertainment_name": "社交、影片、娛樂",
         "social_entertainment_description": "包含新聞、即時通訊、社交媒體、娛樂、休閒、體育、串流媒體",
         "shopping_name": "購物",
         "shopping_description": "包含電子商務、線上購物、支付、社交媒體、購物",
@@ -60,7 +61,8 @@
         "adult_description": "包含與成人內容相關的網站和服務",
         "malware_description": "包含構成安全威脅的惡意網域或服務",
         "gambling_description": "包含線上賭博網站和應用程式",
-        "adult_name": "成人"
+        "adult_name": "成人",
+        "tips_second": "這適用於本地客戶端流量和通過VPN客戶端通道路由的流量，但不適用於路由器作為VPN伺服器時接收的流量。"
     },
     "flowstatistics": {
         "card_title": "應用程式總數據量",
@@ -94,7 +96,7 @@
     "menu_contentprotection": "內容過濾",
     "contentprotection": {
         "blocking_list_title": "封鎖應用程式清單 ({applength})",
-        "add_app_btn": "新增應用程式",
+        "add_app_btn": "編輯應用程序",
         "no_app_tips": "無限制應用程式",
         "blocking_domain_list_title": "封鎖網域/IP清單 ({count})",
         "apps_drawer_title": "指定應用程式",
@@ -239,7 +241,8 @@
         "status_code_no_license": "主體中無授權資訊",
         "status_code_no_configuration": "無最新配置",
         "status_code_no_info": "主體中無資訊欄位",
-        "status_code_network_timeout": "網路連線逾時"
+        "status_code_network_timeout": "網路連線逾時",
+        "new_version_tips": "新版本 {version} 可用"
     },
     "menu_dpifeatures": "DPI許可證"
 }

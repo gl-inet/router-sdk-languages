@@ -9,8 +9,9 @@
         "title": "SQM",
         "network_acceleration_warning": "Ní féidir leis an ngné seo oibriú le chéile le {network}. Má chuirtear ar siúl é, díchumasaíonn sé Luathú Líonra go huathoibríoch chun oibriú ceart a chinntiú.",
         "full_name": "Bainistíocht Chliste ar an gCiú",
-        "qdisc_cake_tips": "cáca: Riachtanas tráchta cliste, uathoibríoch leis an rialú moille foriomlán is fearr (molta).",
-        "qdisc_fq_codel_tips": "fq_codel: Córas cothrom cúla uathúil agus éifeachtach le laghdú bunúsach moille."
+        "qdisc_cake_tips": "císte: Múnlú tráchta cliste, uathoibríoch leis an rialú latency foriomlán is fearr (molta).",
+        "qdisc_fq_codel_tips": "fq_codel: Scuaineáil chóir shimplí agus éifeachtach le laghdú bunúsach ar mhoille.",
+        "tips_second": "Bíonn tionchar ag SQM ar thrácht a théann tríd an ródaire mar gheata, lena n-áirítear trácht Cliant VPN, ach ní bhíonn tionchar aige ar thrácht isteach nuair a bhíonn an ródaire ag feidhmiú mar Fhreastalaí VPN."
     },
     "qos": {
         "mode_title": "Leithdháil bandaleithead bunaithe ar thosaíocht an fheidhmchláir.",
@@ -32,7 +33,7 @@
         "webpage_description": "Lena n-áirítear tairseach, gnó",
         "game_name": "Cluiche",
         "game_description": "Lena n-áirítear cluichí ar líne, ardáin cearrbhachais",
-        "social_entertainment_name": "Sóisialta、Siamsaíocht",
+        "social_entertainment_name": "Sóisialta, Físeán, Siamsaíocht",
         "shopping_name": "Siopadóireacht",
         "other_name": "Eile",
         "gaming_priority": "Tosaíocht Chearrbhachais",
@@ -46,7 +47,7 @@
         "meeting_priority": "Tosaíocht Cruinnithe",
         "tips": "Nuair a bhíonn sé cumasaithe, tugann do ródaire tosaíocht do leithead banda le haghaidh feidhmchláir ríthábhachtacha (m.sh., glaonna físe, ranganna ar líne, cluichí), ag cinntiú go n-oibríonn sé go réidh fiú le linn úsáid bhuaic an líonra.",
         "title": "QoS",
-        "quality_title": "Cumasaigh QoS",
+        "quality_title": "Cáilíocht na Seirbhíse",
         "customize_priority": "Saincheap",
         "high_label": "Tosaíocht Ard",
         "education_description": "Lena n-áirítear ardáin foghlama ar líne, acmhainní acadúla",
@@ -60,7 +61,8 @@
         "malware_name": "Bogearraí mailíseacha",
         "malware_description": "Lena n-áirítear fearainn nó seirbhísí mailíseacha a chruthaíonn bagairtí slándála",
         "adult_name": "Aosach",
-        "adult_description": "Lena n-áirítear suíomhanna gréasáin agus seirbhísí a bhaineann le hábhar do dhaoine fásta"
+        "adult_description": "Lena n-áirítear suíomhanna gréasáin agus seirbhísí a bhaineann le hábhar do dhaoine fásta",
+        "tips_second": "Baineann sé seo le trácht cliant áitiúil agus trácht a ródaítear trí tholláin Cliant VPN, ach ní bhaineann sé le trácht a fhaightear nuair a bhíonn an ródaire ag gníomhú mar Fhreastalaí VPN."
     },
     "flowstatistics": {
         "application_label": "Feidhmchlár",
@@ -94,7 +96,7 @@
     "menu_contentprotection": "Scagaire Ábhair",
     "contentprotection": {
         "blocking_list_title": "Liosta Aipeanna Blocáilte ({applength})",
-        "add_app_btn": "Cuir Aip leis",
+        "add_app_btn": "Cuir an Aip in Eagar",
         "no_app_tips": "Gan aon Aipeanna Srianta",
         "blocking_domain_list_title": "Liosta Fearainn / IP Blocáilte ({count})",
         "apps_drawer_title": "Aipeanna Sonraithe",
@@ -151,7 +153,7 @@
         "trial_expiring_first_text": "Tá do thriail imithe in éag.",
         "configuration_update_time_label": "Leagan Bunachar Sonraí",
         "trial_expiring_soon_second_text": "Ar mhaith leat leanúint ar aghaidh ag baint taitneamh as na gnéithe go léir? {btn} anois.",
-        "feedback_description_tips": "Déan cur síos mionsonraithe ar na fadhbanna sonracha a bhfuil tú orthu, cabhróidh sé seo leat iad a réiteach go réasúnta.",
+        "feedback_description_tips": "Déan cur síos mionsonraithe ar an gceist, lena n-áirítear cé na haipeanna nó na suíomhanna gréasáin ar thug tú cuairt orthu agus cén aip a aithníodh go mícheart mar iad. Cabhróidh cur síos soiléir agus iomlán linn an fhadhb a réiteach ar bhealach níos éifeachtaí.",
         "update_btn": "Nuashonrú",
         "not_accurate_tips": "Aithint aip mícheart?",
         "premium_features_label": "Gnéithe",
@@ -239,7 +241,8 @@
         "status_code_no_license": "Gan ceadúnas sa chomhlacht",
         "status_code_no_configuration": "Gan aon chumraíocht is déanaí",
         "status_code_no_info": "Gan aon réimse eolais sa chorp",
-        "status_code_network_timeout": "Am Teorannú Ceangal Líonra"
+        "status_code_network_timeout": "Am Teorannú Ceangal Líonra",
+        "new_version_tips": "Leagan nua {version} ar fáil"
     },
     "menu_dpifeatures": "Ceadúnas DPI"
 }

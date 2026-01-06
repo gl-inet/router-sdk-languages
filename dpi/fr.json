@@ -10,7 +10,8 @@
         "upload_label": "Uploader",
         "full_name": "Gestion intelligente de la file d'attente",
         "qdisc_cake_tips": "cake : Gestion intelligente et automatique du trafic avec le meilleur contrôle de latence global (recommandé).",
-        "qdisc_fq_codel_tips": "fq_codel : File d'attente équitable simple et efficace avec réduction de latence de base."
+        "qdisc_fq_codel_tips": "fq_codel : File d'attente équitable simple et efficace avec réduction de latence de base.",
+        "tips_second": "Le SQM affecte le trafic passant par le routeur en tant que passerelle, y compris le trafic du client VPN, mais n'affecte pas le trafic entrant lorsque le routeur fonctionne en tant que serveur VPN."
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
@@ -60,7 +61,8 @@
         "gambling_name": "Jeux d'argent",
         "malware_description": "Inclut les domaines malveillants ou services présentant des menaces de sécurité",
         "adult_name": "Contenu pour adultes",
-        "adult_description": "Inclut les sites web et services liés au contenu pour adultes"
+        "adult_description": "Inclut les sites web et services liés au contenu pour adultes",
+        "tips_second": "Cela s'applique au trafic des clients locaux et au trafic acheminé via les tunnels du client VPN, mais ne s'applique pas au trafic reçu lorsque le routeur agit en tant que serveur VPN."
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
@@ -239,7 +241,8 @@
         "status_code_no_license": "Aucune licence dans le corps",
         "status_code_no_configuration": "Aucune configuration récente",
         "status_code_no_info": "Aucun champ d'information dans le corps",
-        "status_code_network_timeout": "Délai de connexion réseau expiré"
+        "status_code_network_timeout": "Délai de connexion réseau expiré",
+        "new_version_tips": "Nouvelle version {version} disponible"
     },
     "menu_dpifeatures": "Fonctionnalités DPI"
 }

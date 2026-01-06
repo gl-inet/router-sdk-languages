@@ -10,7 +10,8 @@
         "tips": "Ha engedélyezve van, az útválasztó intelligens módon kezeli a hálózati forgalmat, hogy megakadályozza, hogy bármely egyetlen eszköz vagy alkalmazás túl sok sávszélességet használjon. Ez csökkenti a késleltetést és a pufferelést, gyorsabb böngészést, tisztább hívásokat és zökkenőmentesebb játékélményt biztosít.",
         "full_name": "Intelligens sorvezérlés",
         "qdisc_cake_tips": "cake: Intelligens, automatikus forgalomformálás a legjobb teljesítményű késleltetés-vezérléssel (ajánlott).",
-        "qdisc_fq_codel_tips": "fq_codel: Egyszerű és hatékony fair-queueing alapvető késleltetéscsökkentéssel."
+        "qdisc_fq_codel_tips": "fq_codel: Egyszerű és hatékony fair-queueing alapvető késleltetéscsökkentéssel.",
+        "tips_second": "Az SQM hatással van az útválasztón, mint átjárón áthaladó forgalomra, beleértve a VPN-kliens forgalmát is, de nem befolyásolja a bejövő forgalmat, amikor az útválasztó VPN-szerverként működik."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "gambling_description": "Online szerencsejáték weboldalakat és alkalmazásokat tartalmaz",
         "malware_description": "Biztonsági fenyegetést jelentő kártékony domaineket vagy szolgáltatásokat tartalmaz",
         "adult_name": "Felnőtt tartalom",
-        "adult_description": "Felnőtt tartalommal kapcsolatos weboldalakat és szolgáltatásokat tartalmaz"
+        "adult_description": "Felnőtt tartalommal kapcsolatos weboldalakat és szolgáltatásokat tartalmaz",
+        "tips_second": "Ez a helyi kliensforgalomra és a VPN-kliens alagutakon átirányított forgalomra vonatkozik, de nem alkalmazható az útválasztó VPN-szerverként működésekor fogadott forgalomra."
     },
     "flowstatistics": {
         "card_title": "Alkalmazás teljes adatmennyisége",
@@ -239,7 +241,8 @@
         "status_code_no_license": "Nincs licenc a törzsben",
         "status_code_no_configuration": "Nincs legújabb konfiguráció",
         "status_code_no_info": "Nincs info mező a törzsben",
-        "status_code_network_timeout": "Hálózati kapcsolat időtúllépés"
+        "status_code_network_timeout": "Hálózati kapcsolat időtúllépés",
+        "new_version_tips": "Új verzió {version} elérhető"
     },
     "menu_dpifeatures": "DPI funkciók"
 }

@@ -10,11 +10,12 @@
         "tips": "Po włączeniu, router inteligentnie zarządza ruchem sieciowym, aby zapobiec wykorzystaniu zbyt dużej przepustowości przez pojedyncze urządzenie lub aplikację. Zmniejsza to opóźnienia i buforowanie, zapewniając szybsze przeglądanie, wyraźniejsze połączenia i płynniejsze granie.",
         "full_name": "Inteligentne Zarządzanie Kolejką",
         "qdisc_cake_tips": "cake: Inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień (zalecane).",
-        "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień."
+        "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.",
+        "tips_second": "SQM wpływa na ruch przechodzący przez router jako bramę, w tym na ruch klienta VPN, ale nie wpływa na ruch przychodzący, gdy router działa jako serwer VPN."
     },
     "qos": {
         "title": "QoS",
-        "quality_title": "Włącz QoS",
+        "quality_title": "QoS",
         "meeting_priority": "Priorytet Spotkań",
         "gaming_priority": "Priorytet Gier",
         "gaming_priority_desc": "Priorytetyzuj gry online, aby uniknąć opóźnień i utraty pakietów.",
@@ -60,7 +61,8 @@
         "malware_name": "Złośliwe Oprogramowanie",
         "adult_description": "Obejmuje witryny i usługi związane z treściami dla dorosłych",
         "malware_description": "Obejmuje złośliwe domeny lub usługi stanowiące zagrożenie bezpieczeństwa",
-        "adult_name": "Dla Dorosłych"
+        "adult_name": "Dla Dorosłych",
+        "tips_second": "Dotyczy to ruchu lokalnych klientów oraz ruchu kierowanego przez tunele klienta VPN, ale nie dotyczy ruchu odbieranego, gdy router działa jako serwer VPN."
     },
     "flowstatistics": {
         "card_title": "Całkowite Dane Aplikacji",
@@ -94,7 +96,7 @@
     "menu_contentprotection": "Ochrona Treści",
     "contentprotection": {
         "blocking_list_title": "Lista blokowanych aplikacji ({applength})",
-        "add_app_btn": "Dodaj Aplikację",
+        "add_app_btn": "Edytuj Aplikację",
         "no_app_tips": "Brak Zablokowanych Aplikacji",
         "blocking_domain_list_title": "Lista blokowanych Domen / IP ({count})",
         "apps_search_placeholder": "Nazwa Aplikacji",
@@ -152,7 +154,7 @@
         "trial_expiring_soon_title": "Okres Próbny Wkrótce Wygaśnie",
         "subscription_expired_status": "Wygasła",
         "trial_expiring_soon_second_text": "Chcesz nadal korzystać ze wszystkich funkcji? {btn} teraz.",
-        "feedback_description_tips": "Opisz szczegółowo konkretne problemy, które napotkałeś, co pomoże w ich rozsądnym rozwiązaniu.",
+        "feedback_description_tips": "Prosimy o szczegółowy opis problemu, w tym wskazanie aplikacji lub stron internetowych, z których korzystałeś/aś, oraz aplikacji, które zostały błędnie zidentyfikowane. Jasny i kompletny opis pomoże nam skuteczniej rozwiązać problem.",
         "not_accurate_tips": "Błędne rozpoznanie aplikacji ?",
         "premium_features_label": "Funkcje",
         "premium_features_third_text": "Chroń swoją rodzinę dzięki zaawansowanej ochronie online.",
@@ -239,7 +241,8 @@
         "status_code_no_license": "Brak licencji w treści",
         "status_code_no_configuration": "Brak najnowszej konfiguracji",
         "status_code_no_info": "Brak pola informacyjnego w treści",
-        "status_code_network_timeout": "Przekroczenie limitu czasu połączenia sieciowego"
+        "status_code_network_timeout": "Przekroczenie limitu czasu połączenia sieciowego",
+        "new_version_tips": "Nowa wersja {version} dostępna"
     },
     "menu_dpifeatures": "Funkcje DPI"
 }

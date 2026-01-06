@@ -10,11 +10,12 @@
         "network_acceleration_warning": "此功能无法与{network}同时使用。启用后将自动关闭网络加速功能以确保正常运行。",
         "full_name": "智能队列管理",
         "qdisc_cake_tips": "cake：智能、自动的流量整形，提供最佳的整体延迟控制（推荐）。",
-        "qdisc_fq_codel_tips": "fq_codel：简单高效的公平队列，可基本降低延迟。"
+        "qdisc_fq_codel_tips": "fq_codel：简单高效的公平队列，可基本降低延迟。",
+        "tips_second": "SQM会影响通过路由器作为网关的流量，包括VPN客户端流量，但当路由器作为VPN服务器运行时，不会影响传入流量。"
     },
     "qos": {
         "title": "QoS",
-        "quality_title": "启用QoS",
+        "quality_title": "服務品質",
         "sqm_enable_warning": "由于$$$$SQM$$$$已启用，QoS不可用。",
         "mode_title": "根据应用程序优先级分配带宽。",
         "meeting_priority": "会议优先级",
@@ -43,7 +44,7 @@
         "webpage_description": "包括门户网站、商业网站",
         "game_name": "游戏",
         "game_description": "包括在线游戏、游戏平台",
-        "social_entertainment_name": "社交、娱乐",
+        "social_entertainment_name": "社交、视频、娱乐",
         "shopping_name": "购物",
         "advertisement_name": "广告",
         "other_name": "其他",
@@ -60,7 +61,8 @@
         "adult_description": "包含与成人内容相关的网站和服务",
         "malware_description": "包含构成安全威胁的恶意域名或服务",
         "adult_name": "成人内容",
-        "malware_name": "恶意软件"
+        "malware_name": "恶意软件",
+        "tips_second": "这适用于本地客户端流量和通过VPN客户端隧道路由的流量，但当路由器作为VPN服务器运行时，不适用于接收到的流量。"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
@@ -95,7 +97,7 @@
     "contentprotection": {
         "contentprotection_tips": "启用后，您的路由器将自动屏蔽成人、赌博和恶意网站，为您的家人营造清洁安全的网络环境。",
         "blocking_list_title": "拦截应用列表 ({applength})",
-        "add_app_btn": "添加应用",
+        "add_app_btn": "编辑应用",
         "blocking_domain_list_title": "拦截域名/IP列表 ({count})",
         "apps_drawer_title": "指定应用",
         "apps_search_placeholder": "应用名称",
@@ -239,7 +241,8 @@
         "status_code_no_license": "数据体中无许可证",
         "status_code_no_configuration": "无最新配置",
         "status_code_no_info": "数据体中无信息字段",
-        "status_code_network_timeout": "网络连接超时"
+        "status_code_network_timeout": "网络连接超时",
+        "new_version_tips": "新版本 {version} 可用"
     },
     "menu_dpifeatures": "DPI许可证"
 }

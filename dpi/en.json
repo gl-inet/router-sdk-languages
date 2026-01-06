@@ -10,11 +10,12 @@
         "client_speed_limit_warning_tips": "This feature cannot work together with Client Speed Limit. Enabling it will automatically remove all client speed limits.",
         "full_name": "Smart Queue Management",
         "qdisc_cake_tips": "cake: Smart, automatic traffic shaping with the best overall latency control (recommended).",
-        "qdisc_fq_codel_tips": "fq_codel: Simple and efficient fair-queueing with basic latency reduction."
+        "qdisc_fq_codel_tips": "fq_codel: Simple and efficient fair-queueing with basic latency reduction.",
+        "tips_second": "SQM affects traffic passing through the router as a gateway, including VPN Client traffic, but does not affect incoming traffic when the router is operating as a VPN Server."
     },
     "qos": {
         "title": "QoS",
-        "quality_title": "Enable QoS",
+        "quality_title": "Quality of Service",
         "tips": "When enabled, your router prioritizes bandwidth for critical applications (e.g., video calls, online classes, gaming), ensuring smooth performance even during peak network usage.",
         "sqm_enable_warning": "QoS is unavailable because $$$$SQM$$$$ is enabled.",
         "mode_title": "Allocate bandwidth based on application priority.",
@@ -47,7 +48,7 @@
         "webpage_description": "Including portal, business",
         "game_name": "Game",
         "game_description": "Including online games, gaming platforms",
-        "social_entertainment_name": "Social、Entertainment",
+        "social_entertainment_name": "Social、Video、Entertainment",
         "social_entertainment_description": "Including news, messaging, social-media, entertainment, recreation, sports, streaming-media",
         "shopping_name": "Shopping",
         "shopping_description": "Including e-commerce, online shopping, payment, social-media, shopping",
@@ -60,7 +61,8 @@
         "malware_name": "Malware",
         "malware_description": "Including malicious domains or services that pose security threats",
         "adult_name": "Adult",
-        "adult_description": "Including websites and services related to adult content"
+        "adult_description": "Including websites and services related to adult content",
+        "tips_second": "This applies to local client traffic and traffic routed through VPN Client tunnels, but does not apply to traffic received when the router is acting as a VPN Server."
     },
     "flowstatistics": {
         "card_title": "Application Total Data",
@@ -95,7 +97,7 @@
     "contentprotection": {
         "contentprotection_tips": "When enabled, your router automatically blocks adult, gambling, and malware, creating a clean, safe online environment for your family.",
         "blocking_list_title": "Blocked Apps List ({applength})",
-        "add_app_btn": "Add App",
+        "add_app_btn": "Edit App",
         "no_app_tips": "No Apps Restricted",
         "blocking_domain_list_title": "Blocked Domain / IP List ({count})",
         "apps_drawer_title": "Specified Apps",
@@ -239,7 +241,8 @@
         "status_code_no_license": "No license in the body",
         "status_code_no_configuration": "No latest configuration",
         "status_code_no_info": "No info field in the body",
-        "status_code_network_timeout": "Network Connection Timeout"
+        "status_code_network_timeout": "Network Connection Timeout",
+        "new_version_tips": "New version {version} available"
     },
     "menu_dpifeatures": "DPI License"
 }

@@ -78,7 +78,6 @@
         "add_device_title": "Add Device",
         "connection_managment_title": "Connection Management",
         "welcome_title": "Welcome to AstroWarp!",
-        "welcome_tips": "AstroWarp is an advanced platform for seamless remote networking and device management on GL.iNet routers. With AstroWarp, you can access your home network no matter where you are.",
         "connect_for_label": "Connected for: {time}",
         "dev_state": "State",
         "use_app_tips_1": "1. Install AstroWarp APP;",
@@ -169,7 +168,10 @@
         "package_expired_tips": "Service terminated as your plan has expired.",
         "free_data_limit_tips": "Service terminated as your free data has reached the usage limit.",
         "purchase_tips": "Please select a plan to activate service.",
-        "need_login_cloud_tips": "Please login to the Cloud Sevice to complete the binding to continue using AstroWarp service."
+        "need_login_cloud_tips": "Please login to the Cloud Sevice to complete the binding to continue using AstroWarp service.",
+        "welcome_tips": "Experience true stealth and stable connection with AstroWarp.",
+        "welcome_tips2": "It adopts the AmneziaWG protocol with built-in traffic obfuscation.Securely extends your home network globally. This allows you to browse with enhanced privacy and security — as seamlessly as if you were right at home.",
+        "cloud_service_enabled_tips": "Cloud service enabled."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Request failed: Timestamp is invalid. Please synchronize the router's time."

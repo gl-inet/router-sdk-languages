@@ -79,7 +79,8 @@
         "usb_tethering": "Conectividad USB",
         "qos_warning": "La limitación de velocidad del cliente no está disponible porque $$$$QoS$$$$ está habilitado.",
         "sqm_warning": "La limitación de velocidad del cliente no está disponible porque $$$$SQM$$$$ está habilitado.",
-        "enable_conflict_warning": "La limitación de velocidad del cliente no está disponible porque {other} está habilitado."
+        "enable_conflict_warning": "La limitación de velocidad del cliente no está disponible porque {other} está habilitado.",
+        "network_acceleration_warning_tips": "{feature} está habilitada, las estadísticas de velocidad y tráfico del cliente son anormales, el límite de velocidad del cliente no funciona."
     },
     "menu_clients": "Clientes",
     "vpn_tunnel": {

@@ -10,7 +10,8 @@
         "download_label": "Download",
         "full_name": "Gestione Intelligente della Coda",
         "qdisc_cake_tips": "cake: Gestione intelligente e automatica del traffico con il miglior controllo complessivo della latenza (consigliato).",
-        "qdisc_fq_codel_tips": "fq_codel: Coda equa semplice ed efficiente con riduzione di base della latenza."
+        "qdisc_fq_codel_tips": "fq_codel: Coda equa semplice ed efficiente con riduzione di base della latenza.",
+        "tips_second": "SQM influisce sul traffico che passa attraverso il router come gateway, incluso il traffico del client VPN, ma non influisce sul traffico in entrata quando il router opera come server VPN."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "malware_description": "Include domini o servizi dannosi che rappresentano minacce alla sicurezza",
         "adult_name": "Contenuti per adulti",
         "adult_description": "Include siti web e servizi relativi a contenuti per adulti",
-        "gambling_name": "Gioco d'azzardo"
+        "gambling_name": "Gioco d'azzardo",
+        "tips_second": "Ciò si applica al traffico dei client locali e al traffico instradato attraverso i tunnel del client VPN, ma non si applica al traffico ricevuto quando il router funge da server VPN."
     },
     "flowstatistics": {
         "card_title": "Dati totali applicazione",
@@ -239,7 +241,8 @@
         "status_code_no_license": "Nessuna licenza nel corpo",
         "status_code_no_configuration": "Nessuna configurazione recente",
         "status_code_no_info": "Nessun campo info nel corpo",
-        "status_code_network_timeout": "Timeout connessione di rete"
+        "status_code_network_timeout": "Timeout connessione di rete",
+        "new_version_tips": "Nuova versione {version} disponibile"
     },
     "menu_dpifeatures": "Funzionalità DPI"
 }

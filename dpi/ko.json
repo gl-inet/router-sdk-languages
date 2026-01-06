@@ -10,7 +10,8 @@
         "tips": "활성화하면 라우터가 네트워크 트래픽을 지능적으로 관리하여 단일 장치나 애플리케이션이 너무 많은 대역폭을 사용하는 것을 방지합니다. 이를 통해 지연 시간과 버퍼링이 줄어들어 더 빠른 브라우징, 선명한 통화, 부드러운 게임 환경을 제공합니다.",
         "full_name": "스마트 큐 관리",
         "qdisc_cake_tips": "cake: 스마트하고 자동적인 트래픽 형상화로 최고의 전반적인 지연 제어를 제공합니다(권장).",
-        "qdisc_fq_codel_tips": "fq_codel: 기본적인 지연 감소와 함께 간단하고 효율적인 공정 대기열을 제공합니다."
+        "qdisc_fq_codel_tips": "fq_codel: 기본적인 지연 감소와 함께 간단하고 효율적인 공정 대기열을 제공합니다.",
+        "tips_second": "SQM은 VPN 클라이언트 트래픽을 포함하여 게이트웨이로 작동하는 라우터를 통과하는 트래픽에 영향을 미치지만, 라우터가 VPN 서버로 작동할 때 들어오는 트래픽에는 영향을 미치지 않습니다."
     },
     "qos": {
         "title": "QoS",
@@ -60,7 +61,8 @@
         "adult_description": "성인 콘텐츠 관련 웹사이트 및 서비스 포함",
         "malware_description": "보안 위협을 일으키는 악성 도메인 또는 서비스 포함",
         "adult_name": "성인",
-        "gambling_description": "온라인 도박 웹사이트 및 애플리케이션 포함"
+        "gambling_description": "온라인 도박 웹사이트 및 애플리케이션 포함",
+        "tips_second": "이는 로컬 클라이언트 트래픽과 VPN 클라이언트 터널을 통해 라우팅된 트래픽에 적용되지만, 라우터가 VPN 서버로 작동할 때 수신되는 트래픽에는 적용되지 않습니다."
     },
     "flowstatistics": {
         "card_title": "애플리케이션 총 데이터",
@@ -239,7 +241,8 @@
         "status_code_no_configuration": "최신 구성 없음",
         "status_code_no_info": "본문에 정보 필드가 없음",
         "status_code_network_timeout": "네트워크 연결 시간 초과",
-        "status_code_http_no_data": "HTTP에 데이터 본문이 없음"
+        "status_code_http_no_data": "HTTP에 데이터 본문이 없음",
+        "new_version_tips": "새 버전 {version} 사용 가능"
     },
     "menu_dpifeatures": "DPI 기능"
 }
