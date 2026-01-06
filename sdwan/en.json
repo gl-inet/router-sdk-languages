@@ -176,7 +176,8 @@
         "primary_stop_tips": "Service terminated on the home router. Network connection failed.",
         "primary_reset_tips": "Once the home router is reset, the connected devices will be removed and revert to accessing the internet through their local network.",
         "primary_reset_tips2": "You need to recreate the AstroWarp connection.",
-        "remove_dev_tips": "After removal, this device will revert to accessing the internet through its local network."
+        "remove_dev_tips": "After removal, this device will revert to accessing the internet through its local network.",
+        "access_network_tips": "After verification, your devices will be able to access the internet through your home network."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Request failed: Timestamp is invalid. Please synchronize the router's time."
