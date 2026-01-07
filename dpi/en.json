@@ -1,7 +1,7 @@
 {
     "sqm": {
         "title": "SQM",
-        "tips": "When enabled, your router intelligently manages network traffic to prevent any single device from monopolizing bandwidth, reducing latency and \"bufferbloat\" for smoother gaming and calls. Note: If your bandwidth exceeds 300Mbps, it is recommended to keep this feature disabled to maintain maximum throughput.",
+        "tips": "When enabled, your router intelligently manages traffic to minimize latency and \"bufferbloat\" for smoother gaming and calls. Since SQM is resource-intensive, it is best suited for low-bandwidth or congested networks; on high-speed connections, enabling this may lead to a reduction in peak throughput performance.",
         "upload_label": "Upload",
         "download_label": "Download",
         "queue_label": "Queue Rule",
@@ -16,7 +16,7 @@
     "qos": {
         "title": "QoS",
         "quality_title": "Quality of Service",
-        "tips": "When enabled, your router prioritizes bandwidth for critical applications (e.g., video calls, online classes, gaming), ensuring smooth performance even during peak network usage. Note: If your bandwidth exceeds 300Mbps, it is recommended to keep this feature disabled to maintain maximum throughput.",
+        "tips": "When enabled, your router prioritizes bandwidth for critical applications (e.g., video calls, online classes, gaming) during network congestion, ensuring smooth performance even during peak network usage.",
         "sqm_enable_warning": "QoS is unavailable because $$$$SQM$$$$ is enabled.",
         "mode_title": "Allocate bandwidth based on application priority.",
         "meeting_priority": "Meeting Priority",
