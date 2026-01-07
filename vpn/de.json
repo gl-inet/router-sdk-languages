@@ -504,7 +504,8 @@
         "enable_tips": "Wenn aktiviert, verwendet der VPN-Server das AmneziaWG-Verschleierungsprotokoll, um VPN-Datenverkehr zu verschleiern.",
         "parameters_label": "Verschleierungsparameter",
         "set_parameters_btn": "Verschleierungsparameter festlegen",
-        "wg_client_parameters_tips": "Die Verschleierungsparameter werden vom Server bestimmt. Es ist nicht notwendig, sie nach dem Import der Konfigurationsdatei zu ändern."
+        "wg_client_parameters_tips": "Die Verschleierungsparameter werden vom Server bestimmt. Es ist nicht notwendig, sie nach dem Import der Konfigurationsdatei zu ändern.",
+        "conneted_tips": "Verschleierung ist aktiviert. Wir empfehlen, sich über die AmneziaWG-App oder einen GL.iNet-Router mit Firmware zu verbinden, die AmneziaWG-Verschleierung unterstützt. Clients, die AmneziaWG-Verschleierung nicht unterstützen, können keine Verbindung herstellen."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Hochgeladene Datei zu groß. Dekomprimierung aufgrund unzureichenden Speicherplatzes fehlgeschlagen."
