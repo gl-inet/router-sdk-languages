@@ -504,7 +504,8 @@
         "enable_tips": "Įjungus, VPN serveris naudoja AmneziaWG slėpimo protokolą, kad užmaskuotų VPN srautą.",
         "set_parameters_btn": "Nustatyti slėpimo parametrus",
         "set_parameters_tips_1": "Maršrutizatorius automatiškai generuoja slėpimo parametrus.",
-        "wg_client_parameters_tips": "Slėpimo parametrus nustato serveris. Nereikia jų keisti po konfigūracijos failo importavimo."
+        "wg_client_parameters_tips": "Slėpimo parametrus nustato serveris. Nereikia jų keisti po konfigūracijos failo importavimo.",
+        "conneted_tips": "Obfuscation yra įjungta. Rekomenduojame prisijungti per AmneziaWG programą arba GL.iNet maršrutizatorių, kurio programinė įranga palaiko AmneziaWG obfuscation. Klientai, kurie nepalaiko AmneziaWG obfuscation, negalės prisijungti."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Įkeltas failas per didelis. Išskleidimas nepavyko dėl nepakankamos saugyklos vietos."
