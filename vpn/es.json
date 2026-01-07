@@ -504,7 +504,8 @@
         "set_parameters_btn": "Configurar Parámetros de Ofuscación",
         "set_parameters_tips_1": "El router genera automáticamente los parámetros de ofuscación.",
         "set_parameters_tips_2": "Puede editarlos manualmente si está familiarizado con la ofuscación de AmneziaWG, o utilizar los generados automáticamente.",
-        "wg_client_parameters_tips": "Los parámetros de ofuscación son determinados por el servidor. No es necesario cambiarlos después de importar el archivo de configuración."
+        "wg_client_parameters_tips": "Los parámetros de ofuscación son determinados por el servidor. No es necesario cambiarlos después de importar el archivo de configuración.",
+        "conneted_tips": "La ofuscación está habilitada. Recomendamos conectarse a través de la aplicación AmneziaWG o un router GL.iNet con firmware que admita la ofuscación AmneziaWG. Los clientes que no admitan la ofuscación AmneziaWG no podrán conectarse."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Archivo subido demasiado grande. La descompresión falló debido a almacenamiento insuficiente."
