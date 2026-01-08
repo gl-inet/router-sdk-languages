@@ -576,7 +576,8 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM non enregistré. Veuillez vérifier dans {esimManage} si le profil eSIM est activé ou nécessite un rechargement, ou contactez votre fournisseur eSIM pour confirmer d'éventuelles restrictions particulières, et vérifiez que les paramètres {apnBtn} sont corrects. L'APN actuel est vide {guide}.",
         "ul_bandwidth": "Bande passante montante",
         "dl_bandwidth": "Bande passante descendante",
-        "data_traffic_cap_tips": "La carte SIM actuelle a dépassé le {dataCapAmount}."
+        "data_traffic_cap_tips": "La carte SIM actuelle a dépassé le {dataCapAmount}.",
+        "data_cap_amount": "Plafond de données"
     },
     "sim": {
         "sender_label": "Expéditeur"
