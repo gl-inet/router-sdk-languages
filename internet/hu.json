@@ -576,7 +576,8 @@
         "esim_not_registered_connection_failed_tips": "eSIM nincs regisztrálva. Kérjük, ellenőrizze az {esimManage} oldalon, hogy az eSIM profil engedélyezve van-e vagy feltöltést igényel, vagy lépjen kapcsolatba eSIM szolgáltatójával, hogy megerősítse a speciális korlátozásokat, és ellenőrizze, hogy az {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
         "ul_bandwidth": "Feljövő sávszélesség",
         "dl_bandwidth": "Lefelé irányuló sávszélesség",
-        "data_traffic_cap_tips": "Az aktuális SIM-kártya meghaladta a {dataCapAmount} értéket."
+        "data_traffic_cap_tips": "Az aktuális SIM-kártya meghaladta a {dataCapAmount} értéket.",
+        "data_cap_amount": "Adatkorlát összege"
     },
     "sim": {
         "sender_label": "Feladó"
