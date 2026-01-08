@@ -576,7 +576,8 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIMが登録されていません。{esimManage}でeSIMプロファイルが有効になっているか、またはトップアップが必要かどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です{guide}",
         "ul_bandwidth": "アップリンク帯域幅",
         "dl_bandwidth": "ダウンリンク帯域幅",
-        "data_traffic_cap_tips": "現在のSIMカードは{dataCapAmount}を超えています。"
+        "data_traffic_cap_tips": "現在のSIMカードは{dataCapAmount}を超えています。",
+        "data_cap_amount": "データ上限額"
     },
     "sim": {
         "sender_label": "送信者"
