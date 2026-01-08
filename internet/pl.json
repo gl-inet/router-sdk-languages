@@ -575,7 +575,8 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM niezarejestrowany. Sprawdź w {esimManage}, czy profil eSIM jest włączony lub wymaga doładowania, lub skontaktuj się z dostawcą eSIM, aby potwierdzić ewentualne specjalne ograniczenia, i sprawdź, czy ustawienia {apnBtn} są poprawne. Bieżący APN jest pusty {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM niezarejestrowany. Sprawdź w {esimManage}, czy profil eSIM jest włączony lub wymaga doładowania, lub skontaktuj się z dostawcą eSIM, aby potwierdzić ewentualne specjalne ograniczenia, i sprawdź, czy ustawienia {apnBtn} są poprawne. Bieżący APN: {apn} {guide}",
         "ul_bandwidth": "Przepustowość Łącza Nadrzędnego",
-        "dl_bandwidth": "Przepustowość Łącza w Dół"
+        "dl_bandwidth": "Przepustowość Łącza w Dół",
+        "data_traffic_cap_tips": "Obecna karta SIM przekroczyła limit {dataCapAmount}."
     },
     "sim": {
         "sender_label": "Nadawca"
