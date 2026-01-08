@@ -575,7 +575,8 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM niet geregistreerd. Controleer in {esimManage} of het eSIM-profiel is ingeschakeld of opwaardering vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en verifieer dat de {apnBtn} instellingen correct zijn. Huidige APN is leeg {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM niet geregistreerd. Controleer in {esimManage} of het eSIM-profiel is ingeschakeld of opwaardering vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en verifieer dat de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}",
         "ul_bandwidth": "Uplink-bandbreedte",
-        "dl_bandwidth": "Downlink Bandbreedte"
+        "dl_bandwidth": "Downlink Bandbreedte",
+        "data_traffic_cap_tips": "De huidige SIM-kaart heeft de {dataCapAmount} overschreden."
     },
     "sim": {
         "sender_label": "Afzender"
