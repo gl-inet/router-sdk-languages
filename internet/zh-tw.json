@@ -576,7 +576,8 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM未註冊，請檢查 {esimManage}中對應 Profile 是否已啟用或需充值，或聯繫 eSIM 廠商確認是否存在特殊限制，再確認 {apnBtn} 設置是否正確，當前 APN 值為空 {guide}",
         "ul_bandwidth": "上行頻寬",
         "dl_bandwidth": "下行頻寬",
-        "data_traffic_cap_tips": "當前 SIM 卡已超出{dataCapAmount}。"
+        "data_traffic_cap_tips": "當前 SIM 卡已超出{dataCapAmount}。",
+        "data_cap_amount": "數據上限金額"
     },
     "sim": {
         "sender_label": "發件人"
