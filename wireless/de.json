@@ -48,7 +48,11 @@
         "indoor_label": "Innenbereich",
         "outdoor_label": "Außenbereich",
         "environment_tips": "Gemäß den Vorschriften muss das WLAN im Außenbereich auf den \"Outdoor\"-Modus umgeschaltet werden. Dies kann die Reichweite verringern.",
-        "guest_6g_bandwidth_limit_160mhz_tips": "Wenn sowohl das 6-GHz-Haupt-WLAN als auch das 6-GHz-Gast-WLAN aktiviert sind, ist das 6-GHz-Band auf eine maximale Bandbreite von 160 MHz beschränkt."
+        "guest_6g_bandwidth_limit_160mhz_tips": "Wenn sowohl das 6-GHz-Haupt-WLAN als auch das 6-GHz-Gast-WLAN aktiviert sind, ist das 6-GHz-Band auf eine maximale Bandbreite von 160 MHz beschränkt.",
+        "guest_network_tips": "Bieten Sie Besuchern dedizierte Netzwerke für einen bequemen und sicheren Internetzugang.",
+        "iot_network_tips": "Bieten Sie dedizierte Netzwerke für IoT-Geräte. Es wird empfohlen, IoT-Geräte mit dem 2,4-GHz-Band zu verbinden, um eine bessere Kompatibilität zu gewährleisten.",
+        "network_title": "{type} Netzwerk",
+        "mlo_network_title": "Multi-Link Operation (MLO)"
     },
     "menu_wireless": "WLAN"
 }
