@@ -27,7 +27,8 @@
         "enable_dhcp_tips": "DHCP 서버는 클라이언트 장치에 자동으로 IP 주소와 다른 통신 매개변수를 할당합니다. DHCP 서버가 비활성화되면, 클라이언트 장치의 네트워크 설정을 수동으로 구성해야 합니다.",
         "dhcp_disable_warning_tips": "DHCP를 비활성화하면 인터넷에 연결하지 못할 수 있으니 주의하세요.",
         "lpr_tips": "여러 프린터 LPR 포트를 넣을 수 있습니다.",
-        "guest_disabel_tips": "{guest} 기능이 비활성화되어 게스트 네트워크가 작동하지 않습니다."
+        "guest_disabel_tips": "{guest} 기능이 비활성화되어 게스트 네트워크가 작동하지 않습니다.",
+        "iot_conflict_tips": "IoT IP와 충돌합니다."
     },
     "menu_guestip": "게스트 네트워크",
     "address_reservation": {
