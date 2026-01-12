@@ -50,5 +50,8 @@
         "block_wan_tips": "Ha ez a funkció engedélyezve van, a vendéghálózat nem férhet hozzá a szülőhálózathoz, és a vendéghálózat blokkolni fogja azt a hálózati szegmenst, ahol a szülőhálózat található.",
         "not_asscess_tips": "Jelenleg a vendéghálózat nem fér hozzá a {net} hálózati szegmensekhez."
     },
-    "menu_iotip": "IoT Hálózat"
+    "menu_iotip": "IoT Hálózat",
+    "iot_ip": {
+        "iot_disabel_tips": "Az IoT hálózat jelenleg nem elérhető, mert az {iot} le van tiltva."
+    }
 }
