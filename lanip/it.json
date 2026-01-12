@@ -50,5 +50,8 @@
         "block_wan_tips": "Se questa funzione è attivata, la rete degli ospiti non può accedere alla rete principale e la rete degli ospiti bloccherà il segmento di rete in cui si trova la rete principale.",
         "not_asscess_tips": "Attualmente la rete ospite non può accedere ai segmenti di rete {net}."
     },
-    "menu_iotip": "Rete IoT"
+    "menu_iotip": "Rete IoT",
+    "iot_ip": {
+        "iot_disabel_tips": "La rete IoT è attualmente non disponibile perché {iot} è disabilitato."
+    }
 }
