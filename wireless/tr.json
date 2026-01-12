@@ -48,7 +48,11 @@
         "indoor_label": "İç Mekan",
         "outdoor_label": "Dış Mekan",
         "environment_tips": "Yönetmelik gereği, Wi-Fi açık alanda kullanıldığında \"Açık Hava\" moduna geçmelidir. Bu, kapsama alanını azaltabilir.",
-        "guest_6g_bandwidth_limit_160mhz_tips": "6GHz Ana ve Misafir Wi-Fi ağları aynı anda etkinleştirildiğinde, 6GHz bandı maksimum 160MHz bant genişliği ile sınırlıdır."
+        "guest_6g_bandwidth_limit_160mhz_tips": "6GHz Ana ve Misafir Wi-Fi ağları aynı anda etkinleştirildiğinde, 6GHz bandı maksimum 160MHz bant genişliği ile sınırlıdır.",
+        "guest_network_tips": "Ziyaretçiler için özel ağlar sağlayarak kullanışlı ve güvenli internet erişimi sağlayın.",
+        "iot_network_tips": "IoT cihazları için özel ağlar sağlayın. Daha iyi uyumluluk için IoT cihazlarının 2.4GHz bandına bağlanması önerilir.",
+        "network_title": "{type} Ağı",
+        "mlo_network_title": "Çoklu Bağlantı İşlemi (MLO)"
     },
     "menu_wireless": "Kablosuz"
 }
