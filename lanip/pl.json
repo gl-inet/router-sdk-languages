@@ -50,5 +50,8 @@
         "block_wan_tips": "Jeśli ta funkcja jest włączona, sieć gościnna nie może uzyskać dostępu do sieci nadrzędnej, a sieć gościnna zablokuje segment sieci, w którym znajduje się sieć nadrzędna.",
         "not_asscess_tips": "Aktualnie sieć gościnna nie może uzyskać dostępu do segmentów sieciowych {net}."
     },
-    "menu_iotip": "Sieć IoT"
+    "menu_iotip": "Sieć IoT",
+    "iot_ip": {
+        "iot_disabel_tips": "Sieć IoT jest obecnie niedostępna, ponieważ {iot} jest wyłączona."
+    }
 }
