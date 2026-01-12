@@ -48,7 +48,11 @@
         "indoor_label": "Intérieur",
         "outdoor_label": "Extérieur",
         "environment_tips": "Conformément aux réglementations, le Wi-Fi doit passer en mode \"Extérieur\" lors d'une utilisation en extérieur. Cela peut réduire la portée de couverture.",
-        "guest_6g_bandwidth_limit_160mhz_tips": "Lorsque le Wi-Fi principal 6GHz et le Wi-Fi invité 6GHz sont tous deux activés, la bande 6GHz est limitée à une bande passante maximale de 160MHz."
+        "guest_6g_bandwidth_limit_160mhz_tips": "Lorsque le Wi-Fi principal 6GHz et le Wi-Fi invité 6GHz sont tous deux activés, la bande 6GHz est limitée à une bande passante maximale de 160MHz.",
+        "guest_network_tips": "Fournissez des réseaux dédiés aux visiteurs pour garantir un accès à Internet pratique et sécurisé.",
+        "iot_network_tips": "Fournissez des réseaux dédiés pour les appareils IoT. Il est recommandé de connecter les appareils IoT à la bande 2,4 GHz pour une meilleure compatibilité.",
+        "network_title": "Réseau {type}",
+        "mlo_network_title": "Opération Multi-Lien (MLO)"
     },
     "menu_wireless": "Réseau sans-fil"
 }
