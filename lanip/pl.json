@@ -54,5 +54,8 @@
     "menu_iotip": "Sieć IoT",
     "iot_ip": {
         "iot_disabel_tips": "Sieć IoT jest obecnie niedostępna, ponieważ {iot} jest wyłączona."
+    },
+    "iotip": {
+        "block_wan_tips": "Jeśli ta funkcja jest włączona, sieć IoT nie będzie mogła uzyskać dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna."
     }
 }
