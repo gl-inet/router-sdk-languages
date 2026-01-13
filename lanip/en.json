@@ -54,6 +54,7 @@
     "menu_iotip": "IoT Network",
     "iotip": {
         "block_wan_tips": "If this function is enabled, the iot network will not be able to access the upper network and the network segment where the upper network is located.",
-        "iot_disabel_tips": "IoT network is currently unavailable because {iot} is disabled."
+        "iot_disabel_tips": "IoT network is currently unavailable because {iot} is disabled.",
+        "not_asscess_tips": "Currently the iot network cannot access the network segments {net}."
     }
 }
