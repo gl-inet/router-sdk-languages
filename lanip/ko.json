@@ -54,6 +54,7 @@
     "menu_iotip": "IoT 네트워크",
     "iotip": {
         "block_wan_tips": "이 기능이 활성화되면 IoT 네트워크는 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 접근할 수 없게 됩니다.",
-        "iot_disabel_tips": "IoT 네트워크는 현재 {iot}가 비활성화되어 사용할 수 없습니다."
+        "iot_disabel_tips": "IoT 네트워크는 현재 {iot}가 비활성화되어 사용할 수 없습니다.",
+        "not_asscess_tips": "현재 IoT 네트워크는 네트워크 세그먼트 {net}에 접근할 수 없습니다."
     }
 }
