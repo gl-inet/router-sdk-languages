@@ -54,5 +54,8 @@
     "menu_iotip": "Red IoT",
     "iot_ip": {
         "iot_disabel_tips": "La red IoT no está disponible actualmente porque {iot} está deshabilitado."
+    },
+    "iotip": {
+        "block_wan_tips": "Si esta función está habilitada, la red IoT no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior."
     }
 }
