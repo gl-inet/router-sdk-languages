@@ -54,6 +54,7 @@
     "menu_iotip": "Red IoT",
     "iotip": {
         "block_wan_tips": "Si esta función está habilitada, la red IoT no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
-        "iot_disabel_tips": "La red IoT no está disponible actualmente porque {iot} está deshabilitado."
+        "iot_disabel_tips": "La red IoT no está disponible actualmente porque {iot} está deshabilitado.",
+        "not_asscess_tips": "Actualmente, la red IoT no puede acceder a los segmentos de red {net}."
     }
 }
