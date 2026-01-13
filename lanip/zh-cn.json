@@ -54,6 +54,7 @@
     "menu_iotip": "IoT 网络",
     "iotip": {
         "block_wan_tips": "如果启用此功能，IoT 网络将无法访问上级网络和上级网络所在的网络段。",
-        "iot_disabel_tips": "由于 {iot} 处于禁用状态，因此 IoT 网络目前不可用。"
+        "iot_disabel_tips": "由于 {iot} 处于禁用状态，因此 IoT 网络目前不可用。",
+        "not_asscess_tips": "目前物联网网络无法访问网段 {net}。"
     }
 }
