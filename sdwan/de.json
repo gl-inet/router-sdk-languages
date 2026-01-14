@@ -2,7 +2,7 @@
     "sdwan": {
         "device_tips": "Sie wurden dem virtuellen Netzwerk {network} hinzugefügt. Bitte gehen Sie zu {cloud}, um die Einstellungen zu ändern.",
         "real_time_data_title": "Echtzeitdaten",
-        "upload_data_title": "Hochgeladene Verkehrsdaten",
+        "upload_data_title": "Verkehrsdaten hochladen",
         "download_data_title": "Heruntergeladene Daten",
         "interface_title": "Schnittstellen",
         "real_time_data_tips": "Enthält nur die Daten von Geräten, die durch das Gateway geleitet wurden; dies kann sich von den in Ihrer Abrechnung angegebenen Gesamtdaten unterscheiden.",
@@ -28,7 +28,7 @@
         "usage_total_label": "Verwendung / Gesamt",
         "use_internet_exit_label": "Internet-Ausgang verwenden",
         "go_to_aw_web_btn": "Zur AstroWarp-Website gehen",
-        "data_usage_title": "Datennutzung",
+        "data_usage_title": "Datenverbrauch",
         "share_use_internet_exit_label": "Internet-Ausgang verwenden:",
         "more_operation_tips": "Alle Clients und Router mit Internetzugang greifen über diesen Router auf das Internet zu. Wenn Sie die Konfiguration ändern müssen, melden Sie sich bitte bei {page} an.",
         "to_download_app_btn": "Hier klicken, um die App herunterzuladen",
@@ -53,7 +53,7 @@
         "install_app_title": "Installieren Sie die App, um loszulegen",
         "first_get_start_use_app_tips": "3. Verwenden Sie die App zum Scannen oder geben Sie den Code auf der Exit-Node-Seite ein.",
         "scan_qrcode_tips": "Scannen Sie den QR-Code oder geben Sie den Code in der AstroWarp-App ein, um sicher über diesen Router auf das Internet und Server zuzugreifen.",
-        "copy_link_btn": "Kopiere Code",
+        "copy_link_btn": "==WEBLATE_PART==\nKopiere Code",
         "select_node_tips": "Wählen Sie einen Ausgangsknoten aus, um sicher über ihn auf das Internet zuzugreifen.",
         "download_app_titile": "App herunterladen",
         "get_start_step_title": "Erste Schritte",
@@ -178,7 +178,8 @@
         "pay_code_title": "Upgrade-Plan",
         "purchase_btn": "Upgrade-Plan",
         "secondary_p2p_connected_tips": "Herzlichen Glückwunsch! Die P2P-Verbindung wurde hergestellt. Sie sind jetzt auf einer direkten, ungemessenen Verbindung. Viel Spaß!",
-        "secondary_plan_limit_tips": "Plan-Limit erreicht. Bitte beenden Sie die Verbindung und wählen Sie einen Tarif aus, um den Dienst zu aktivieren."
+        "secondary_plan_limit_tips": "Plan-Limit erreicht. Bitte beenden Sie die Verbindung und wählen Sie einen Tarif aus, um den Dienst zu aktivieren.",
+        "token_not_found_tips": "Wir bearbeiten die Gerätebindung. Dies kann einige Minuten dauern. Bitte warten Sie…"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Anfrage fehlgeschlagen: Zeitstempel ungültig. Bitte synchronisieren Sie die Zeit des Routers."
