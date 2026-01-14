@@ -11,7 +11,7 @@
         "interface_tips": "您可以停用特定介面加入連線聚合。",
         "get_start_tips": "點擊開始使用 AstroWarp！",
         "get_start_title": "雲端服務已啟用",
-        "use_tips": "AstroWarp 是一款創新型的 VPN 平台，專為 GL.iNet 路由器而設計，它可以輕鬆設置出口節點並連接多個遠端設備到統一的虛擬網路中，從而能夠實現從任何地方進行輕鬆的遠端存取。",
+        "use_tips": "AstroWarp 是一款創新型的 VPN 平台，專為 GL.iNet 路由器而設計，可輕鬆設置出口節點並連接多個遠端設備至統一的虛擬網路中，從而實現從任何地方進行便捷的遠端存取。",
         "enable_tips": "啟用AstroWarp時，無法使用 {feature} 等功能。",
         "use_2b_tips": "AstroWarp是一款專為路由器設計的創新VPN平台，可輕鬆設置出口節點並在統一安全的網絡中連接多個遠程設備，實現隨時隨地的無縫遠程訪問。"
     },
@@ -53,7 +53,7 @@
         "first_get_start_connected_tips": "4. 您已連接！",
         "first_get_start_click_tips": "2. 點擊按鈕將此路由器設為您的網際網路出口節點。",
         "scan_qrcode_tips": "掃描二維碼或在AstroWarp應用中輸入代碼，即可通過此路由器安全存取網際網路及伺服器。",
-        "copy_link_btn": "複製代碼",
+        "copy_link_btn": "Copy Code",
         "download_app_titile": "下載應用程式",
         "get_start_step_title": "开始使用",
         "no_available_node_tips": "您的帳戶下沒有可用的出口節點。請點擊AstroWarp按鈕前往管理面板配置您的出口節點。",
@@ -148,7 +148,7 @@
         "add_dev_not_normal_tips": "無法新增裝置：無可用資料。",
         "no_internet_tips": "請檢查網路環境。",
         "please_enter_access_code_tips": "請輸入您家用路由器產生的存取碼。",
-        "pay_code_tips": "您將被重新導向至合法網站以續訂此路由器的方案：",
+        "pay_code_tips": "您將被重新導向至法律網站以續訂此路由器的方案：",
         "time_label": "时间",
         "inp_access_code_wait_tips": "嘗試次數過多。請在 {time} 後重試。",
         "pay_to_gen_access_code_btn": "點擊購買方案以生成訪問代碼",
@@ -178,7 +178,8 @@
         "pay_code_title": "升級方案",
         "purchase_btn": "升級方案",
         "secondary_plan_limit_tips": "计划限制已達。請終止連線並選擇一個方案以啟用服務。",
-        "secondary_p2p_connected_tips": "恭喜！P2P 連接已建立。您現在正處於一條直接、無計量的鏈路上。請盡情享受！"
+        "secondary_p2p_connected_tips": "恭喜！P2P 連接已建立。您現在正處於一條直接、無計量的鏈路上。請盡情享受！",
+        "token_not_found_tips": "我們正在處理裝置綁定。這可能需要幾分鐘時間，請稍候…"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "請求失敗：時間戳無效。請同步路由器的時間。"
