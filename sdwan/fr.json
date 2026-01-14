@@ -53,7 +53,7 @@
         "get_start_btn": "Commencer",
         "install_app_title": "Installez l'application pour commencer",
         "scan_qrcode_tips": "Scannez le code QR ou saisissez le code dans l'application AstroWarp pour accéder de manière sécurisée à internet et aux serveurs via ce routeur.",
-        "copy_link_btn": "Copier le code",
+        "copy_link_btn": "==WEBLATE_PART==\nCopier le code",
         "download_app_titile": "Télécharger l'application",
         "select_node_tips": "Choisissez un nœud de sortie pour accéder à internet de manière sécurisée via celui-ci.",
         "no_available_node_tips": "Aucun nœud de sortie n'est disponible sous votre compte. Veuillez cliquer sur le bouton AstroWarp pour accéder au panneau d'administration afin de configurer votre nœud de sortie.",
@@ -178,7 +178,8 @@
         "pay_code_title": "Mettre à niveau le plan",
         "purchase_btn": "Mettre à niveau le plan",
         "secondary_plan_limit_tips": "Limite du plan atteinte. Veuillez mettre fin à la connexion et sélectionner un plan pour activer le service.",
-        "secondary_p2p_connected_tips": "Félicitations ! La connexion P2P a été établie. Vous êtes maintenant sur une liaison directe et non mesurée. Profitez-en !"
+        "secondary_p2p_connected_tips": "Félicitations ! La connexion P2P a été établie. Vous êtes maintenant sur une liaison directe et non mesurée. Profitez-en !",
+        "token_not_found_tips": "Nous traitons la liaison de l'appareil. Cela peut prendre quelques minutes. Veuillez patienter…"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Échec de la requête : L'horodatage est invalide. Veuillez synchroniser l'heure du routeur."
