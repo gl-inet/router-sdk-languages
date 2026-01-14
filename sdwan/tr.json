@@ -10,7 +10,7 @@
         "interface_title": "Arayüzler",
         "interface_tips": "Belirli arayüzlerin bağlantı toplamına katılmasını devre dışı bırakabilirsiniz.",
         "use_tips": "AstroWarp, GL.Routers ile kullanılmak üzere tasarlanmış, çıkış düğümü ayarlamayı ve birden fazla uzak cihazı birleşik, güvenli bir ağ içinde bağlamayı kolaylaştıran, her yerden zahmetsiz uzaktan erişim sağlayan yenilikçi bir VPN platformudur.",
-        "get_start_title": "Bulut Hizmetleri Etkinleştirildi",
+        "get_start_title": "Bulut Hizmetleri Etkin",
         "get_start_tips": "AstroWarp'a başlamak için tıklayın!",
         "enable_tips": "AstroWarp etkinleştirildiğinde, {feature} gibi işlevler kullanılamaz.",
         "use_2b_tips": "AstroWarp, router'lar için tasarlanmış yenilikçi bir VPN platformudur; çıkış düğümü kurmayı kolaylaştırır ve birden fazla uzak cihazı tek bir güvenli ağ içinde bağlayarak, her yerden zahmetsiz uzaktan erişim sağlar."
@@ -178,7 +178,8 @@
         "enter_access_code_tips": "Doğrulama sonrasında, bu yönlendirici ve ona bağlı cihazlar ev ağınız üzerinden internete erişebilecek.",
         "purchase_btn": "Planı Yükselt",
         "secondary_plan_limit_tips": "Plan limit reached. Please terminate the connection and select a plan to activate service.",
-        "secondary_p2p_connected_tips": "Tebrikler! P2P bağlantısı kuruldu. Artık doğrudan, ölçüsüz bir bağlantı üzerindesiniz. Keyfini çıkarın!"
+        "secondary_p2p_connected_tips": "Tebrikler! P2P bağlantısı kuruldu. Artık doğrudan, ölçüsüz bir bağlantı üzerindesiniz. Keyfini çıkarın!",
+        "token_not_found_tips": "Cihaz bağlama işlemi devam ediyor. Bu birkaç dakika sürebilir. Lütfen bekleyin…"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "İstek başarısız oldu: Zaman damgası geçersiz. Lütfen yönlendiricinin zamanını senkronize edin."
