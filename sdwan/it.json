@@ -35,7 +35,7 @@
         "qrcode_use_tips": "Utilizza l'app per scansionare il codice QR o inserire l'URL per accedere al router e utilizzare l'uscita Internet a cui appartiene.",
         "share_more_operation_tips": "Per utilizzare più impostazioni, accedi a {page}.",
         "go_to_aw_btn": "Vai a AstroWarp",
-        "bind_not_self_tips": "Prima di utilizzare AstroWarp, si prega di collegare il proprio account alla vista Self; attualmente non è supportato l'utilizzo nella vista organizzazione o VAR.",
+        "bind_not_self_tips": "Prima di utilizzare AstroWarp, si prega di associare il proprio account alla vista Self; attualmente non è supportato l'utilizzo nella vista organizzazione o VAR.",
         "only_support_self_tips": "AstroWarp è supportato solo nella visualizzazione Self.",
         "operate_config_tips": "Se è necessario modificare la configurazione, accedi a {page}.",
         "exit_node_label": "Nodo di Uscita",
@@ -55,7 +55,7 @@
         "scan_qrcode_tips": "Scansiona il codice QR o inserisci il codice nell'app AstroWarp per accedere in modo sicuro a Internet e ai server tramite questo router.",
         "download_app_titile": "Scarica l'App",
         "get_start_step_title": "Inizia",
-        "copy_link_btn": "Copia Codice",
+        "copy_link_btn": "==WEBLATE_PART==\nCopia Codice",
         "no_available_node_tips": "Non ci sono nodi di uscita disponibili nel tuo account. Fai clic sul pulsante AstroWarp per accedere al pannello di amministrazione e configurare il tuo nodo di uscita.",
         "confirm_node_tips": "Conferma avviato l'accesso sicuro a Internet tramite",
         "select_node_tips": "Seleziona un nodo di uscita per accedere a Internet in modo sicuro tramite esso.",
@@ -64,7 +64,7 @@
         "start_process_starting_tips": "Avvio del servizio AstroWarp...",
         "start_process_success_tips": "Impostazione riuscita!",
         "start_process_error_common_tips": "Connessione fallita. Si è verificato un errore sconosciuto. Si prega di verificare la connessione di rete o riprovare più tardi. Se il problema persiste, contattare l'assistenza o inviare un feedback.",
-        "start_btn": "Start",
+        "start_btn": "Avvia",
         "exit_network_btn": "Uscita da AstroWrap",
         "exit_ip_label": "IP di uscita",
         "exit_network_tips": "Uscire rimuoverà tutti i client aggiunti in precedenza. Per utilizzare nuovamente Astrowrap, sarà necessario riaggiungerli. Sei sicuro di voler procedere?",
@@ -178,7 +178,8 @@
         "pay_code_title": "Aggiorna Piano",
         "purchase_btn": "Aggiorna Piano",
         "secondary_plan_limit_tips": "Limite del piano raggiunto. Termina la connessione e seleziona un piano per attivare il servizio.",
-        "secondary_p2p_connected_tips": "Congratulazioni! La connessione P2P è stata stabilita. Ora sei su un collegamento diretto e senza limiti. Buon divertimento!"
+        "secondary_p2p_connected_tips": "Congratulazioni! La connessione P2P è stata stabilita. Ora sei su un collegamento diretto e senza limiti. Buon divertimento!",
+        "token_not_found_tips": "Stiamo elaborando l'associazione del dispositivo. Potrebbero volerci alcuni minuti. Attendi…"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Richiesta fallita: Il timestamp non è valido. Sincronizza l'ora del router."
