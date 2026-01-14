@@ -33,7 +33,7 @@
         "share_use_internet_exit_label": "인터넷 출구 사용:",
         "to_download_app_btn": "앱 다운로드를 위해 여기를 클릭하세요",
         "qrcode_use_tips": "앱을 사용하여 QR 코드를 스캔하거나 URL을 입력하여 라우터에 접속하고 해당 라우터의 인터넷 출구를 사용하세요.",
-        "share_more_operation_tips": "더 많은 설정을 사용하려면 {page}에 로그인하십시오.",
+        "share_more_operation_tips": "더 많은 설정을 사용하려면 {page}에 로그인하세요.",
         "go_to_aw_btn": "AstroWarp로 이동",
         "bind_not_self_tips": "AstroWarp를 사용하기 전에 계정을 Self 뷰에 바인딩하십시오. 현재 조직 또는 VAR 뷰에서 사용을 지원하지 않습니다.",
         "only_support_self_tips": "AstroWarp는 Self 보기에서만 지원됩니다.",
@@ -53,7 +53,7 @@
         "install_app_title": "앱을 설치하여 시작하세요",
         "get_start_btn": "시작하기",
         "scan_qrcode_tips": "QR 코드를 스캔하거나 AstroWarp 앱에 코드를 입력하여 이 라우터를 통해 안전하게 인터넷 및 서버에 접속하세요.",
-        "copy_link_btn": "Copy Code",
+        "copy_link_btn": "==WEBLATE_PART==\n코드 복사",
         "download_app_titile": "앱 다운로드",
         "get_start_step_title": "시작하기",
         "no_available_node_tips": "귀하의 계정에는 사용 가능한 출구 노드가 없습니다. AstroWarp 버튼을 클릭하여 관리자 패널로 이동하여 출구 노드를 구성하십시오.",
@@ -71,7 +71,7 @@
         "exit_btn": "종료"
     },
     "aw_err": {
-        "not_joined_network_msg": "이 네트워크에 가입되지 않았습니다."
+        "not_joined_network_msg": "이 네트워크에 연결되지 않았습니다."
     },
     "astrowarp": {
         "access_code_expire_tips": "이 접속 코드는 {time} 후에 만료됩니다.",
@@ -178,7 +178,8 @@
         "pay_code_title": "업그레이드 계획",
         "purchase_btn": "업그레이드 계획",
         "secondary_plan_limit_tips": "계획 한도에 도달했습니다. 연결을 종료하고 서비스를 활성화할 계획을 선택하세요.",
-        "secondary_p2p_connected_tips": "축하합니다! P2P 연결이 설정되었습니다. 이제 직접적이고 무제한 링크에 연결되었습니다. 즐거운 시간 보내세요!"
+        "secondary_p2p_connected_tips": "축하합니다! P2P 연결이 설정되었습니다. 이제 직접적이고 무제한 링크에 연결되었습니다. 즐거운 시간 보내세요!",
+        "token_not_found_tips": "기기 바인딩을 처리 중입니다. 몇 분 정도 걸릴 수 있습니다. 잠시만 기다려 주세요…"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "요청 실패: 타임스탬프가 유효하지 않습니다. 라우터의 시간을 동기화하십시오."
