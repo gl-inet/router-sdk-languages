@@ -195,7 +195,9 @@
         "mac_replacement_label": "MACアドレス変更周期",
         "mtu_common_tip": "ご利用状況に応じてMTU値を設定してください。設定に誤りがあると、インターネット接続が切断される可能性があります。",
         "custom_dns_setting_label": "カスタムDNS設定",
-        "address_label": "アドレス"
+        "address_label": "アドレス",
+        "iot_ip_tips": "IoTサブネットはWANサブネットと競合しています。{iotSubnet}を別のアドレスに変更してください。",
+        "change_guest_subnet": "ゲストサブネットの変更"
     },
     "date": {
         "day": "日",
