@@ -218,7 +218,9 @@
         "auto_update_mac_time_label": "Według Czasu",
         "mtu_common_tip": "Ustaw wartość MTU zgodnie ze swoim scenariuszem użytkowania. Nieprawidłowe ustawienia mogą spowodować utratę połączenia z internetem.",
         "custom_dns_setting_label": "Niestandardowe Ustawienia DNS",
-        "address_label": "Adres"
+        "address_label": "Adres",
+        "iot_ip_tips": "Podsieć IoT jest w konflikcie z podsiecią WAN, proszę zmienić {iotSubnet} na inny adres.",
+        "change_guest_subnet": "Zmień podsieć gościa"
     },
     "date": {
         "day": "dzień(dni)",
