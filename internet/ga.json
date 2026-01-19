@@ -82,7 +82,7 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "Tá eSIM gan chlárú. Seiceáil i {esimManage} an bhfuil an próifíl eSIM cumasaithe nó an bhfuil Top-up ag teastáil, nó déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a dheimhniú, agus deimhnigh go bhfuil na socruithe {apnBtn} ceart. Tá APN reatha folamh {guide}",
         "ul_bandwidth": "Bandaleithead Nasc suas",
         "dl_bandwidth": "Bandaleithead Nasc síos",
-        "data_traffic_cap_tips": "Tá an cárta SIM reatha tar éis an {dataCapAmount} a shárú.",
+        "data_traffic_cap_tips": "Tá an {dataCapAmount} sáraithe ag an gcárta SIM reatha.",
         "data_cap_amount": "Méid an Teorainn Sonraí"
     },
     "sms": {
@@ -256,7 +256,7 @@
         "band_conflict_tips": "Chun nascadh cobhsaí, nuair a chuirtear an athsheachadán i bhfeidhm, díchumasaítear an Wi-Fi Aoi agus déanfaidh an mhuinchille Wi-Fi 5GHz/6GHz meaitseáil go huathoibríoch leis an athsheachadán. Mura ndéanann do ghléas athenascadh go huathoibríoch, déan ceangal le Wi-Fi de láimh.",
         "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht na cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheoltóir scanadh le haghaidh líonraí atá ar fáil; leanfaidh sé ar aghaidh ag scanadh go huathoibríoch a luaithe a dhícheanglaítear an tIdirlíon. Is féidir leat athcheangal nó aistriú chuig líonra Wi-Fi de láimh.",
         "initializing_tips": "Tá an t-athsheoltóir ag tosú...",
-        "band_6g_bandwidth_limit_160mhz_tips": "Nuair a bhíonn an Wi-Fi 6GHz cumasaithe, agus é ag athrá Wi-Fi 6GHz nó 2.4GHz, tá an banna 6GHz teoranta d'uasmhéid bandaleithead 160MHz."
+        "band_6g_bandwidth_limit_160mhz_tips": "Nuair a bhíonn an Wi-Fi 6GHz cumasaithe, agus Wi-Fi 6GHz nó 2.4GHz á athdhéanamh, tá an banda 6GHz teoranta do bandaleithead uasta de 160MHz."
     },
     "modem": {
         "manually_tips": "Ionchur Láimhe",
