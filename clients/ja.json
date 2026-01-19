@@ -80,7 +80,9 @@
         "qos_warning": "クライアント速度制限は$$$$QoS$$$$が有効になっているため利用できません。",
         "sqm_warning": "クライアント速度制限は$$$$SQM$$$$が有効になっているため利用できません。",
         "enable_conflict_warning": "クライアント速度制限は{other}が有効になっているため利用できません。",
-        "network_acceleration_warning_tips": "{feature}が有効になっています。クライアントの速度とトラフィック統計が異常です。クライアントの速度制限が機能していません。"
+        "network_acceleration_warning_tips": "{feature}が有効になっています。クライアントの速度とトラフィック統計が異常です。クライアントの速度制限が機能していません。",
+        "auto_remove_offline_clients": "オフラインクライアントの自動削除",
+        "auto_remove_offline_clients_tips": "オフラインクライアントの自動削除が現在オンになっています"
     },
     "menu_clients": "クライアント",
     "vpn_tunnel": {
