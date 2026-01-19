@@ -27,7 +27,7 @@
         "lan_or_guest_model_setting": "Casta",
         "ip_outside_tips": "Tá an seoladh IP lasmuigh den raon fo-líonra",
         "ip_easy_tip": "Is é seoladh IP an ródaire an seoladh a chuirfeadh tú isteach i mbarr seoladh do bhrabhsálaí chun rochtain a fháil ar leathanach riaracháin an ródaire.",
-        "iot_conflict_tips": "Tá sé i gcoimhlint le IP IoT"
+        "iot_conflict_tips": "Tá sé i gcoimhlint le IP Idirlín na Rudaí"
     },
     "address_reservation": {
         "desc_label": "Cur síos",
@@ -51,10 +51,10 @@
         "not_asscess_tips": "Faoi láthair, ní féidir leis an líonra aoi rochtain a fháil ar na deighleoga líonra {net}."
     },
     "menu_guestip": "Líonra Aoi",
-    "menu_iotip": "Líonra IoT",
+    "menu_iotip": "Líonra Idirlín na Rudaí",
     "iotip": {
-        "block_wan_tips": "Má tá an fheidhm seo cumasaithe, ní bheidh an líonra iot in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleán líonra ina bhfuil an líonra uachtarach suite.",
-        "iot_disabel_tips": "Tá an líonra IoT neamh-infheidhme faoi láthair toisc go bhfuil {iot} díchumasaithe.",
-        "not_asscess_tips": "Faoi láthair, ní féidir leis an líonra iot rochtain a fháil ar na deighleoga líonra {net}."
+        "block_wan_tips": "Mura bhfuil an fheidhm seo cumasaithe, ní bheidh an líonra IoT in ann rochtain a fháil ar an líonra uachtarach ná ar an deighleog líonra ina bhfuil an líonra uachtarach suite.",
+        "iot_disabel_tips": "Níl líonra IoT ar fáil faoi láthair mar go bhfuil {iot} díchumasaithe.",
+        "not_asscess_tips": "Faoi láthair ní féidir leis an líonra iot rochtain a fháil ar na codanna líonra {net}."
     }
 }
