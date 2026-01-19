@@ -81,7 +81,9 @@
         "qos_warning": "Client Speed Limit is unavailable because $$$$QoS$$$$ is enabled.",
         "sqm_warning": "Client Speed Limit is unavailable because $$$$SQM$$$$ is enabled.",
         "enable_conflict_warning": "Client Speed Limit is unavailable because {other} is enabled.",
-        "network_acceleration_warning_tips": "{feature} is enabled, Client Speed and Traffic Statistics are abnormal, Client Speed Limit is not working."
+        "network_acceleration_warning_tips": "{feature} is enabled, Client Speed and Traffic Statistics are abnormal, Client Speed Limit is not working.",
+        "auto_remove_offline_clients": "Auto Remove Offline Clients",
+        "auto_remove_offline_clients_tips": "Auto Remove Offline Clients is currently ON"
     },
     "vpn_tunnel": {
         "mac_using_tips": "The VPN is connected.",
