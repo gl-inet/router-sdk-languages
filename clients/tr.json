@@ -81,7 +81,9 @@
         "qos_warning": "İstemci Hız Sınırı, $$$$QoS$$$$ etkin olduğu için kullanılamaz.",
         "sqm_warning": "İstemci Hız Sınırı, $$$$SQM$$$$ etkin olduğu için kullanılamaz.",
         "enable_conflict_warning": "İstemci Hız Sınırı kullanılamıyor çünkü {other} etkinleştirilmiş.",
-        "network_acceleration_warning_tips": "{feature} etkinleştirildi, İstemci Hızı ve Trafik İstatistikleri anormal, İstemci Hız Sınırı çalışmıyor."
+        "network_acceleration_warning_tips": "{feature} etkinleştirildi, İstemci Hızı ve Trafik İstatistikleri anormal, İstemci Hız Sınırı çalışmıyor.",
+        "auto_remove_offline_clients": "Çevrimdışı İstemcileri Otomatik Kaldır",
+        "auto_remove_offline_clients_tips": "Çevrimdışı İstemcileri Otomatik Kaldır şu anda AÇIK"
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN bağlı.",
