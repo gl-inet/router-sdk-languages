@@ -148,7 +148,7 @@
         "add_dev_not_normal_tips": "Impossible d'ajouter l'appareil : Aucune donnée disponible.",
         "no_internet_tips": "Veuillez vérifier l'environnement réseau.",
         "please_enter_access_code_tips": "Veuillez saisir le code d'accès généré par votre routeur domestique.",
-        "pay_code_tips": "Vous serez redirigé vers un site web légal pour renouveler le plan de ce routeur :",
+        "pay_code_tips": "Vous serez redirigé vers notre boutique officielle sécurisée pour mettre à niveau le plan de ce routeur :",
         "time_label": "Temps",
         "inp_access_code_wait_tips": "Trop de tentatives. Veuillez réessayer dans {time}.",
         "pay_to_gen_access_code_btn": "Cliquez pour acheter un plan et générer un code d'accès",
@@ -163,8 +163,8 @@
         "welcome_tips2": "AstroWarp utilise le protocole AmneziaWG avec un brouillage de trafic intégré pour garantir que votre connexion reste stable et indétectable. En étendant de manière sécurisée votre réseau domestique à l'échelle mondiale, vous pouvez naviguer en utilisant votre adresse IP domestique avec une confidentialité totale, aussi facilement que si vous étiez chez vous.",
         "cloud_service_enabled_tips": "Service cloud activé.",
         "plan_expiry_date_label": "Date d'expiration",
-        "scan_to_upgrade_tips": "Mettez à niveau votre plan pour profiter d'une navigation illimitée dès maintenant !",
-        "scan_to_upgrade_method_tips": "Scannez le code QR ou ouvrez le lien pour choisir votre durée parfaite et débloquez des données illimitées instantanément.",
+        "scan_to_upgrade_tips": "Passez à un plan supérieur pour obtenir un accès illimité à domicile !",
+        "scan_to_upgrade_method_tips": "Scannez le code QR ou suivez le lien pour choisir le forfait.",
         "secondary_disabled_tips": "Vous avez interrompu la connexion. Vos appareils accéderont désormais à internet via votre réseau local.",
         "secondary_connected_tips": "Connexion réussie. Vous pouvez maintenant accéder à internet via votre réseau domestique.",
         "secondary_disabled_access_tips": "Déconnectez-vous du service actuel pour passer à votre réseau local.",
@@ -182,9 +182,16 @@
         "token_not_found_tips": "Nous traitons la liaison de l'appareil. Veuillez patienter quelques minutes...",
         "order_comfirmed_tips": "Commande confirmée ! AstroWarp+ pour {time} est maintenant actif. Profitez des données illimitées !",
         "extend_plan_btn": "Prolonger le plan",
-        "extend_plan_tips": "Étendez votre plan pour profiter d'une navigation illimitée à plus long terme !",
+        "extend_plan_tips": "Étendez votre plan pour profiter d'un accès ininterrompu à votre réseau domestique !",
         "order_list_help_tips": "Besoin d'aide pour une commande ? Accédez à la page d'achat, puis recherchez l'icône du service client pour obtenir de l'aide.",
-        "order_list_title": "Historique des commandes"
+        "order_list_title": "Historique des commandes",
+        "order_payment_time_label": "Heure de paiement",
+        "order_sub_period_label": "Période de validité",
+        "order_status_label": "Statut",
+        "order_amount_label": "Montant ($)",
+        "order_id_label": "N° de reçu",
+        "order_status_refunded_label": "Remboursé",
+        "order_status_success_label": "Succès"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Échec de la requête : L'horodatage est invalide. Veuillez synchroniser l'heure du routeur."
