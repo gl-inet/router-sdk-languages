@@ -17,6 +17,10 @@
         "any_not_allowed_with_multiple_ips": "Kai yra keli IP adresai, parinktis „Bet kuris“ negali būti įtraukta",
         "acl_desc": "{acl} gali valdyti tinklo srautą pagal tokias taisykles kaip protokolas, paskirties IP adresas, šaltinio IP adresas ir prievado numeris. Jei tarp dviejų įjungtų {acl} taisyklių yra konfliktas, įrenginys suteiks pirmenybę aukštesnio prioriteto taisyklei.",
         "add_acl_dialog_title": "Pridėti ACL taisyklę",
-        "name_already_exist_msg": "Pavadinimas jau egzistuoja."
+        "name_already_exist_msg": "Pavadinimas jau egzistuoja.",
+        "accept_label": "Priimti",
+        "drop_label": "Mesti/Šalinti",
+        "reject_label": "Atmesti",
+        "add_new_btn": "Pridėti naują"
     }
 }
