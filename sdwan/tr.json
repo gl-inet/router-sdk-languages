@@ -84,7 +84,7 @@
         "ready_tips": "Bulut hizmeti etkinleştirildi. Artık AstroWarp hizmetine erişebilirsiniz.",
         "primary_mode_label": "Evde Kullan",
         "primary_mode_tips": "Bu yönlendiriciyi, diğer cihazların bağlanması için ev ağına erişim sağlayan sabit bir ev yönlendiricisi olarak kullanın.",
-        "secondary_mode_label": "Taşınabilir",
+        "secondary_mode_label": "Seyahat Ederken Kullan",
         "gen_access_code_title": "Erişim Kodu Oluştur",
         "app_label": "AstroWarp Uygulaması",
         "use_access_code_tips": "Lütfen bu erişim kodunu {app} veya {secondary} uygulamasına girin.",
@@ -92,9 +92,9 @@
         "connected_label": "Bağlı",
         "disconnected_label": "Bağlantı Kesildi",
         "connect_for_label": "Bağlantı süresi: {time}",
-        "last_connection_label": "Son bağlantı: {time}",
+        "last_connection_label": "Son bağlantı tarihi: {time}",
         "dev_name": "Cihaz Adı",
-        "use_app_tips_2": "2. Erişim kodunu girin.",
+        "use_app_tips_2": "2. Bağlantıyı kurmak için erişim kodunu girin.",
         "use_secondary_router_tips_2": "2. BULUT HİZMETLERİ > AstroWarp bölümüne gidin;",
         "use_secondary_router_tips_3": "3. Yönlendiricinin kullanımını \"Taşınabilir\" olarak seçin;",
         "use_secondary_router_tips_4": "4. Erişim kodunu girin.",
@@ -135,7 +135,7 @@
         "primary_tap_enable_tips": "Bağlantı hizmetini etkinleştirmek için dokunun",
         "use_primary_router_tips_4": "4. Ardından erişim kodunu görebilirsiniz.",
         "secondary_reset_tips": "Mevcut tüm bağlantı ayarları korunmayacaktır.",
-        "use_secondary_router_tips_1": "1. Başka bir yönlendiricinin yönetim paneline giriş yapın;",
+        "use_secondary_router_tips_1": "1. Yanınızda seyahat ettiğiniz yönlendiricinin yönetim paneline giriş yapın;",
         "secondary_mode_tips": "Evden uzaktayken, bu yönlendiriciyi ev ağınıza uzaktan bağlanmak için kullanın.",
         "internet_access_when_enabled_tips": "Etkinleştirildiğinde, bu bağlantı üzerinden hem ev ağınızın yerel kaynaklarına hem de İnternet'e erişebilirsiniz.",
         "primary_connected_tips": "Bağlantı başarıyla kuruldu.",
@@ -184,7 +184,12 @@
         "extend_plan_btn": "Planı Uzat",
         "extend_plan_tips": "Planı uzatın, daha uzun süreli sınırsız tarama keyfini yaşayın!",
         "order_amount_label": "Tutar($)",
-        "order_sub_period_label": "Geçerlilik Süresi"
+        "order_sub_period_label": "Geçerlilik Süresi",
+        "order_payment_time_label": "Ödeme Zamanı",
+        "order_status_label": "Durum",
+        "order_list_help_tips": "Bir siparişle ilgili yardıma mı ihtiyacınız var? Satın alma sayfasına gidin, ardından destek için müşteri hizmetleri simgesini bulun.",
+        "order_list_title": "Sipariş Geçmişi",
+        "order_id_label": "Makbuz No."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "İstek başarısız oldu: Zaman damgası geçersiz. Lütfen yönlendiricinin zamanını senkronize edin."
