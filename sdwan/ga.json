@@ -148,7 +148,7 @@
         "add_dev_not_normal_tips": "Ní féidir gléas a chur leis: Níl aon sonraí ar fáil.",
         "no_internet_tips": "Seiceáil an timpeallacht líonra.",
         "please_enter_access_code_tips": "Cuir isteach an cód rochtana a ghineann do ródaire baile.",
-        "pay_code_tips": "Beidh tú á atreorú chuig suíomh Gréasáin dlíthiúil chun an plean a athnuachan don ródaire seo:",
+        "pay_code_tips": "Déanfar do atreorú chuig ár siopa oifigiúil slán chun an plean a uasghrádú don ródaire seo:",
         "time_label": "Am",
         "inp_access_code_wait_tips": "An iomarca iarrachtaí. Bain triail eile as i gceann {time}.",
         "pay_to_gen_access_code_btn": "Cliceáil chun Plean a Cheannach chun Cód Rochtana a Ghiniúint",
@@ -163,8 +163,8 @@
         "welcome_tips2": "Úsáideann AstroWarp an prótacal AmneziaWG le do-chumhdach tráchta tógtha isteach chun a chinntiú go bhfanann do nasc seasta agus gan a bhrath. Trí do líonra baile a leathnú go daingean go domhanda, is féidir leat brabhsáil ag baint úsáide as do sheoladh IP baile le príobháideacht iomlán - chomh réidh agus a bheadh tú sa bhaile.",
         "cloud_service_enabled_tips": "Seirbhís scamall cumasaithe.",
         "plan_expiry_date_label": "Dáta Éaga",
-        "scan_to_upgrade_tips": "Uasachtar an plean chun brabhsáil gan teorainn a bhaint amach anois!",
-        "scan_to_upgrade_method_tips": "Scan an cód QR nó oscail an nasc chun do fhad idéalach a roghnú agus sonraí gan teorainn a dhíghlasáil láithreach.",
+        "scan_to_upgrade_tips": "Uas a phlean a uasachtú chun rochtain gan teorainn a fháil sa bhaile!",
+        "scan_to_upgrade_method_tips": "Scan an cód QR nó lean an nasc chun an plean a roghnú.",
         "secondary_disabled_tips": "Tá an nasc deireadh curtha agat. Beidh rochtain ag do ghléasanna ar an idirlíon anois trí do líonra áitiúil.",
         "secondary_connected_tips": "Ceangailte go rathúil. Anois is féidir leat rochtain a fháil ar an idirlíon trí do líonra baile.",
         "secondary_disabled_access_tips": "Dícheangail ón tseirbhís reatha chun athrú go dtí do líonra áitiúil.",
@@ -182,9 +182,16 @@
         "token_not_found_tips": "Táimid ag próiseáil an cheangail gléas. Fan cúpla nóiméad le do thoil...",
         "order_comfirmed_tips": "Ordú Deimhnithe! Tá AstroWarp+ do {time} i bhfeidhm anois. Bain sult as sonraí gan teorainn!",
         "extend_plan_btn": "Leathan Amach an Phlean",
-        "extend_plan_tips": "Leathan do do phlean chun brabhsáil neamhtheoranta fadtéarmach a bhaint amach!",
+        "extend_plan_tips": "Leathan do do phlean chun rochtain gan bhriseadh a fháil ar do líonra baile!",
         "order_list_help_tips": "An bhfuil cabhair uait le haghaidh ordú? Téigh chuig an leathanach ceannaigh, ansin aimsigh an deilbhín seirbhíse do chustaiméara le haghaidh tacaíochta.",
-        "order_list_title": "Stair na nOrduithe"
+        "order_list_title": "Stair na nOrduithe",
+        "order_payment_time_label": "Am Íocaíochta",
+        "order_status_label": "Stádas",
+        "order_amount_label": "Méid($)",
+        "order_id_label": "Uimhir Adhmaid",
+        "order_status_refunded_label": "Aisíoctha",
+        "order_status_success_label": "Rath",
+        "order_sub_period_label": "Tréimhse Bhaldraithe"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Theip ar an iarratas: Tá an stampa ama neamhbhailí. Sioncronaigh am an ródaire, le do thoil."
