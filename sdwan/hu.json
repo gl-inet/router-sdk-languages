@@ -148,7 +148,7 @@
         "add_dev_not_normal_tips": "Nem lehet eszközt hozzáadni: Nincs elérhető adat.",
         "no_internet_tips": "Kérjük, ellenőrizze a hálózati környezetet.",
         "please_enter_access_code_tips": "Kérjük, adja meg az otthoni router által generált hozzáférési kódot.",
-        "pay_code_tips": "Átirányítva lesz egy jogi weboldalra, hogy megújítsa a csomagot ehhez az útválasztóhoz:",
+        "pay_code_tips": "Átirányítjuk Önt biztonságos hivatalos áruházunkba, hogy frissítse a csomagot ehhez az útválasztóhoz:",
         "time_label": "Idő",
         "inp_access_code_wait_tips": "Túl sok próbálkozás. Kérjük, próbálja újra {time} múlva.",
         "pay_to_gen_access_code_btn": "Kattintson a csomag megvásárlásához a hozzáférési kód generálásához",
@@ -163,8 +163,8 @@
         "welcome_tips2": "Az AstroWarp az AmneziaWG protokollt használja beépített forgalomeltakaró funkcióval, hogy biztosítsa a kapcsolat stabilitását és észrevétlenségét. A hazai hálózat biztonságos globális kiterjesztésével böngészhet otthoni IP-címével teljes adatvédelem mellett – olyan zökkenőmentesen, mintha otthon lenne.",
         "cloud_service_enabled_tips": "Felhőszolgáltatás engedélyezve.",
         "plan_expiry_date_label": "Lejárati dátum",
-        "scan_to_upgrade_tips": "Frissítsd a csomagodat, hogy mostantól korlátlan böngészést élvezhess!",
-        "scan_to_upgrade_method_tips": "Olvassa be a QR-kódot, vagy nyissa meg a linket, hogy kiválassza a tökéletes időtartamot, és azonnal korlátlan adatforgalmat kapjon.",
+        "scan_to_upgrade_tips": "Frissítsd a csomagot, hogy korlátlan otthoni hozzáférést kapj!",
+        "scan_to_upgrade_method_tips": "Olvassa be a QR-kódot vagy kövesse a linket a csomag kiválasztásához.",
         "secondary_disabled_tips": "A kapcsolatot megszakítottad. Az eszközeid mostantól a helyi hálózaton keresztül férnek hozzá az internethez.",
         "secondary_connected_tips": "Sikeresen csatlakozva. Most már hozzáférhet az internethez otthoni hálózatán keresztül.",
         "secondary_disabled_access_tips": "Kapcsolat bontása a jelenlegi szolgáltatással a helyi hálózatra való váltáshoz.",
@@ -182,9 +182,16 @@
         "token_not_found_tips": "Feldolgozzuk az eszköz kötését. Kérjük, várjon néhány percet...",
         "order_comfirmed_tips": "Megrendelés megerősítve! Az AstroWarp+ {time} ideig érvényben van. Élvezze a korlátlan adatforgalmat!",
         "extend_plan_btn": "Bővítési Terv",
-        "extend_plan_tips": "Bővítsd a csomagodat, hogy hosszabb távon korlátlan böngészést élvezhess!",
+        "extend_plan_tips": "Bővítsd csomagodat, hogy megszakítás nélkül élvezd otthoni hálózatod elérését!",
         "order_list_help_tips": "Segítségre van szüksége a rendeléssel kapcsolatban? Látogasson el a vásárlási oldalra, majd keresse meg az ügyfélszolgálati ikont a támogatáshoz.",
-        "order_list_title": "Rendelési előzmények"
+        "order_list_title": "Rendelési előzmények",
+        "order_payment_time_label": "Fizetési idő",
+        "order_sub_period_label": "Érvényességi időszak",
+        "order_status_label": "Állapot",
+        "order_amount_label": "Összeg ($)",
+        "order_id_label": "Nyugta száma",
+        "order_status_refunded_label": "Visszatérítve",
+        "order_status_success_label": "Sikeres"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Kérés sikertelen: Az időbélyeg érvénytelen. Kérjük, szinkronizálja az útválasztó idejét."
