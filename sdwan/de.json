@@ -148,7 +148,7 @@
         "add_dev_not_normal_tips": "Gerät kann nicht hinzugefügt werden: Keine verfügbaren Daten.",
         "no_internet_tips": "Bitte überprüfen Sie die Netzwerkumgebung.",
         "please_enter_access_code_tips": "Bitte geben Sie den Zugangscode ein, der von Ihrem Heimrouter generiert wurde.",
-        "pay_code_tips": "Sie werden zu einer offiziellen Website weitergeleitet, um den Tarif für diesen Router zu verlängern:",
+        "pay_code_tips": "Sie werden zu unserem sicheren offiziellen Shop weitergeleitet, um den Tarif für diesen Router zu aktualisieren:",
         "time_label": "Zeit",
         "inp_access_code_wait_tips": "Zu viele Versuche. Bitte versuchen Sie es in {time} erneut.",
         "pay_to_gen_access_code_btn": "Klicken Sie hier, um einen Plan zu kaufen und einen Zugangscode zu generieren",
@@ -163,8 +163,8 @@
         "welcome_tips2": "AstroWarp nutzt das AmneziaWG-Protokoll mit integrierter Verkehrsverschleierung, um eine stabile und unauffällige Verbindung zu gewährleisten. Durch die sichere globale Erweiterung Ihres Heimnetzwerks können Sie mit Ihrer privaten Heim-IP-Adresse surfen – so nahtlos, als wären Sie zu Hause.",
         "cloud_service_enabled_tips": "Cloud-Dienst aktiviert.",
         "plan_expiry_date_label": "Ablaufdatum",
-        "scan_to_upgrade_tips": "Upgrade jetzt Ihren Plan, um unbegrenztes Surfen zu genießen!",
-        "scan_to_upgrade_method_tips": "Scannen Sie den QR-Code oder öffnen Sie den Link, um Ihre perfekte Dauer auszuwählen und sofort unbegrenzte Daten freizuschalten.",
+        "scan_to_upgrade_tips": "Upgrade-Plan für unbegrenzten Heimzugang!",
+        "scan_to_upgrade_method_tips": "Scannen Sie den QR-Code oder folgen Sie dem Link, um den Tarif auszuwählen.",
         "secondary_disabled_tips": "Sie haben die Verbindung beendet. Ihre Geräte greifen nun über Ihr lokales Netzwerk auf das Internet zu.",
         "secondary_connected_tips": "Erfolgreich verbunden. Jetzt können Sie über Ihr Heimnetzwerk auf das Internet zugreifen.",
         "secondary_disabled_access_tips": "Trennen Sie sich vom aktuellen Dienst, um zu Ihrem lokalen Netzwerk zu wechseln.",
@@ -182,8 +182,16 @@
         "token_not_found_tips": "Wir verarbeiten die Gerätebindung. Bitte warten Sie einige Minuten...",
         "order_comfirmed_tips": "Bestellung bestätigt! AstroWarp+ für {time} ist jetzt aktiv. Bitte genießen Sie unbegrenzte Daten!",
         "extend_plan_btn": "Plan verlängern",
-        "extend_plan_tips": "Erweitern Sie Ihren Plan, um längerfristig unbegrenztes Surfen zu genießen!",
-        "order_list_title": "Bestellverlauf"
+        "extend_plan_tips": "Erweitern Sie Ihren Plan, um ununterbrochenen Zugang zu Ihrem Heimnetzwerk zu genießen!",
+        "order_list_title": "Bestellverlauf",
+        "order_payment_time_label": "Zahlungszeitpunkt",
+        "order_sub_period_label": "Gültigkeitsdauer",
+        "order_status_label": "Status",
+        "order_amount_label": "Betrag ($)",
+        "order_list_help_tips": "Benötigen Sie Hilfe zu einer Bestellung? Rufen Sie die Kaufseite auf und suchen Sie dann das Kundenservice-Symbol, um Unterstützung zu erhalten.",
+        "order_id_label": "Belegnummer",
+        "order_status_refunded_label": "Erstattet",
+        "order_status_success_label": "Erfolg"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Anfrage fehlgeschlagen: Zeitstempel ungültig. Bitte synchronisieren Sie die Zeit des Routers."
