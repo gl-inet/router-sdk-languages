@@ -93,10 +93,10 @@
         "connected_label": "已連線",
         "disconnected_label": "已斷開連接",
         "connect_for_label": "連線時間：{time}",
-        "last_connection_label": "上次連接時間：{time}",
+        "last_connection_label": "上次連線時間：{time}",
         "dev_name": "裝置名稱",
         "use_app_tips_2": "2. 輸入訪問代碼以建立連接。",
-        "use_secondary_router_tips_1": "1. 登入另一台路由器的管理面板；",
+        "use_secondary_router_tips_1": "1. 登入您隨身攜帶的路由器管理面板；",
         "use_secondary_router_tips_2": "2. 導航至 CLOUD SERVICES > AstroWarp；",
         "use_secondary_router_tips_4": "4. 輸入存取碼。",
         "use_primary_router_tips_1": "1. 登入另一台路由器的管理面板；",
@@ -190,7 +190,8 @@
         "order_status_refunded_label": "已退款",
         "order_sub_period_label": "有效期",
         "order_status_success_label": "成功",
-        "order_amount_label": "金額($)"
+        "order_amount_label": "金額($)",
+        "order_id_label": "收據編號"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "請求失敗：時間戳無效。請同步路由器的時間。"
