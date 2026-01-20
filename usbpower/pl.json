@@ -9,7 +9,10 @@
         "power_threshold_label": "Próg Zasilania",
         "tethring_label": "Udostępnianie",
         "usb_host_label": "Udostępnianie Przez USB (Host)",
-        "interface_tips": "Ustawienia USB dotyczą tylko portu danych i nie wpływają na port zasilający."
+        "interface_tips": "Ustawienia USB dotyczą tylko portu danych i nie wpływają na port zasilający.",
+        "ask_me_tips": "Pytaj za każdym razem (nie wymuszaj roli)",
+        "usb_host_tips": "Działa jako host USB (obsługuje kompatybilne urządzenia USB)",
+        "usb_tethering_tips": "Działa jako Urządzenie Tetheringowe USB (widoczne dla hosta jako adapter sieciowy USB)"
     },
     "power": {
         "wifi_sleep_time_label": "Limit Czasu Bezczynności Wi-Fi",
