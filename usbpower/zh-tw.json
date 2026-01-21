@@ -9,7 +9,12 @@
         "tethring_label": "Device（USB 網路共享）",
         "input_label": "輸入優先",
         "output_label": "輸出優先",
-        "interface_tips": "USB配寘僅對資料介面生效，對電源介面不生效。"
+        "interface_tips": "USB配寘僅對資料介面生效，對電源介面不生效。",
+        "ask_me_tips": "每次提示（不強制角色）",
+        "usb_tethering_tips": "作為USB網路共享裝置（以USB網路適配器形式呈現給主機）",
+        "power_data_direction_label": "電源方向（數據端口）",
+        "power_power_direction_label": "電源方向（電源端口）",
+        "usb_host_tips": "作為USB主機（接受相容的USB周邊設備）"
     },
     "power": {
         "power_title": "電源",
