@@ -9,7 +9,12 @@
         "output_label": "Priorité de sortie",
         "power_direction_label": "Sens de l'alimentation",
         "input_label": "Priorité d'entrée",
-        "interface_tips": "Les paramètres USB s'appliquent uniquement au port de données et n'affectent pas le port d'alimentation uniquement."
+        "interface_tips": "Les paramètres USB s'appliquent uniquement au port de données et n'affectent pas le port d'alimentation uniquement.",
+        "ask_me_tips": "Demander à chaque fois (ne pas imposer un rôle)",
+        "usb_host_tips": "Fonctionne en hôte USB (accepte les périphériques USB compatibles)",
+        "power_power_direction_label": "Direction de l'alimentation (Port d'alimentation)",
+        "usb_tethering_tips": "Fonctionne en appareil de partage de connexion USB (se présente comme un adaptateur réseau USB pour un hôte)",
+        "power_data_direction_label": "Direction de l'alimentation (Port de données)"
     },
     "power": {
         "power_title": "Alimentation",
