@@ -9,7 +9,12 @@
         "usb_mode_label": "이중 역할 USB 모드",
         "ask_me_label": "나에게 묻다",
         "input_label": "입력 우선순위",
-        "interface_tips": "USB 설정은 데이터 포트에만 적용되며 전원 전용 포트에는 영향을 미치지 않습니다."
+        "interface_tips": "USB 설정은 데이터 포트에만 적용되며 전원 전용 포트에는 영향을 미치지 않습니다.",
+        "ask_me_tips": "매번 확인 (역할 강제 안 함)",
+        "usb_host_tips": "USB 호스트 역할 (호환 가능한 USB 주변 장치 수용)",
+        "usb_tethering_tips": "USB 테더링 장치 역할 (호스트에 USB 네트워크 어댑터로 표시)",
+        "power_power_direction_label": "전원 방향 (전원 포트)",
+        "power_data_direction_label": "전원 방향 (데이터 포트)"
     },
     "power": {
         "ethernet_idle_timeout_label": "이더넷 유휴 시간 초과",
