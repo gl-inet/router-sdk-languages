@@ -9,7 +9,12 @@
         "usb_host_label": "Tethering USB (Host)",
         "input_label": "Priorità Ingresso",
         "output_label": "Priorità Uscita",
-        "interface_tips": "Le impostazioni USB si applicano solo alla porta dati e non influenzano la porta di sola alimentazione."
+        "interface_tips": "Le impostazioni USB si applicano solo alla porta dati e non influenzano la porta di sola alimentazione.",
+        "ask_me_tips": "Chiedi ogni volta (non forzare un ruolo)",
+        "usb_host_tips": "Funziona come Host USB (accetta periferiche USB compatibili)",
+        "power_power_direction_label": "Direzione dell'alimentazione (Porta di alimentazione)",
+        "usb_tethering_tips": "Funziona come Dispositivo di Tethering USB (si presenta come un adattatore di rete USB a un host)",
+        "power_data_direction_label": "Direzione dell'alimentazione (Porta dati)"
     },
     "power": {
         "power_title": "Alimentazione",
