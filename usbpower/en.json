@@ -12,7 +12,9 @@
         "interface_tips": "USB settings apply only to the data port and do not affect the power-only port.",
         "ask_me_tips": "Prompt each time (don't force a role)",
         "usb_host_tips": "Acts as USB Host (accepts compatible USB Peripherals)",
-        "usb_tethering_tips": "Acts as USB Tether Device (presents as a USB network adapter to a host)"
+        "usb_tethering_tips": "Acts as USB Tether Device (presents as a USB network adapter to a host)",
+        "power_power_direction_label": "Power Direction (Power Port)",
+        "power_data_direction_label": "Power Direction (Data Port)"
     },
     "power": {
         "power_title": "Power",
