@@ -9,7 +9,12 @@
         "protocol_label": "USB Protocol Schakelaar",
         "power_direction_label": "Stroomrichting",
         "input_label": "Ingangsprioriteit",
-        "interface_tips": "USB-instellingen zijn alleen van toepassing op de datapoort en hebben geen invloed op de alleen-stroompoort."
+        "interface_tips": "USB-instellingen zijn alleen van toepassing op de datapoort en hebben geen invloed op de alleen-stroompoort.",
+        "ask_me_tips": "Elke keer vragen (geen rol forceren)",
+        "usb_host_tips": "Fungeren als USB-host (accepteert compatibele USB-periferie)",
+        "usb_tethering_tips": "Fungeren als USB-tether-apparaat (presenteert zich als een USB-netwerkadapter voor een host)",
+        "power_power_direction_label": "Stroomrichting (Stroompoort)",
+        "power_data_direction_label": "Stroomrichting (Datapoort)"
     },
     "power": {
         "ethernet_idle_timeout_label": "Ethernet Inactiviteit Time-out",
