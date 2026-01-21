@@ -9,7 +9,12 @@
         "ask_me_label": "Nachfragen",
         "input_label": "Eingabepriorität",
         "output_label": "Ausgabepriorität",
-        "interface_tips": "USB-Einstellungen gelten nur für den Datenanschluss und beeinflussen nicht den reinen Stromanschluss."
+        "interface_tips": "USB-Einstellungen gelten nur für den Datenanschluss und beeinflussen nicht den reinen Stromanschluss.",
+        "ask_me_tips": "Jedes Mal abfragen (Rolle nicht erzwingen)",
+        "usb_tethering_tips": "Fungiert als USB-Tethering-Gerät (erscheint gegenüber einem Host als USB-Netzwerkadapter)",
+        "power_power_direction_label": "Leistungsrichtung (Stromanschluss)",
+        "usb_host_tips": "Fungiert als USB-Host (akzeptiert kompatible USB-Peripheriegeräte)",
+        "power_data_direction_label": "Leistungsrichtung (Datenanschluss)"
     },
     "menu_usbpower": "USB & Strom",
     "power": {
