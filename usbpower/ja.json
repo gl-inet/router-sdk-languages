@@ -9,7 +9,12 @@
         "protocol_label": "USBプロトコル切替",
         "usb_mode_label": "デュアルロールUSBモード",
         "output_label": "出力優先順位",
-        "interface_tips": "USB設定はデータポートにのみ適用され、電源専用ポートには影響しません。"
+        "interface_tips": "USB設定はデータポートにのみ適用され、電源専用ポートには影響しません。",
+        "ask_me_tips": "毎回プロンプトを表示（役割を強制しない）",
+        "usb_host_tips": "USBホストとして動作（互換性のあるUSB周辺機器を受け入れる）",
+        "power_power_direction_label": "パワーディレクション（電源ポート）",
+        "usb_tethering_tips": "USBテザリングデバイスとして動作（ホストに対してUSBネットワークアダプタとして表示される）",
+        "power_data_direction_label": "パワーディレクション（データポート）"
     },
     "power": {
         "power_title": "電源",
