@@ -9,7 +9,12 @@
         "power_threshold_label": "Umbral de Energía",
         "tethring_label": "Anclaje",
         "usb_host_label": "Anclaje USB (Host)",
-        "interface_tips": "La configuración del USB solo se aplica al puerto de datos y no afecta al puerto de solo alimentación."
+        "interface_tips": "La configuración del USB solo se aplica al puerto de datos y no afecta al puerto de solo alimentación.",
+        "usb_host_tips": "Actúa como Host USB (acepta periféricos USB compatibles)",
+        "power_power_direction_label": "Dirección de Potencia (Puerto de Alimentación)",
+        "ask_me_tips": "Preguntar cada vez (no forzar un rol)",
+        "usb_tethering_tips": "Actúa como Dispositivo de Anclaje USB (se presenta como un adaptador de red USB a un host)",
+        "power_data_direction_label": "Dirección de Potencia (Puerto de Datos)"
     },
     "power": {
         "wifi_sleep_time_label": "Tiempo de Inactividad de Wi-Fi",
