@@ -135,7 +135,8 @@
         "save_operator_config_fail_msg": "Nem sikerült menteni az operátor konfigurációt",
         "lock_operation_mode_tip": "Kiválaszthatja, hogy manuálisan zároljon egy adott szolgáltatót, vagy automatikusan vált egy elérhető szolgáltatói hálózatra, ha a manuális zárolás sikertelen.",
         "slot_switch_esim_tips": "Ha engedélyezve van, a {sim} eSIM-re vált, és a fizikai SIM-kártya nem lesz elérhető.",
-        "unlock_pin_tips": "Írja be a PIN-kódot a SIM-kártya feloldásához."
+        "unlock_pin_tips": "Írja be a PIN-kódot a SIM-kártya feloldásához.",
+        "unlock_pin_err_tips": "A PIN kód {code} hibás. Kérjük, adja meg a helyes PIN kódot."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
