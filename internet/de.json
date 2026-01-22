@@ -259,7 +259,8 @@
         "save_operator_config_fail_msg": "Fehler beim Speichern der Betriebskonfiguration",
         "lock_operation_mode_tip": "Sie können wählen, einen bestimmten Betreiber manuell zu sperren oder automatisch zu einem verfügbaren Betreibernetz zu wechseln, wenn die manuelle Sperrung fehlschlägt.",
         "slot_switch_esim_tips": "Wenn aktiviert, wechselt {sim} zu eSIM und die physische SIM-Karte ist nicht verfügbar.",
-        "unlock_pin_tips": "Geben Sie die PIN ein, um die SIM-Karte zu entsperren."
+        "unlock_pin_tips": "Geben Sie die PIN ein, um die SIM-Karte zu entsperren.",
+        "unlock_pin_err_tips": "PIN-Code {code} ist falsch. Bitte geben Sie den korrekten PIN ein."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
