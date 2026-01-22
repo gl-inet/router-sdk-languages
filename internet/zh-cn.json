@@ -259,7 +259,8 @@
         "save_operator_config_fail_msg": "保存运营商配置失败",
         "lock_operation_mode_tip": "您可选择手动锁定特定运营商，或者在手动锁定失败时自动切换到可用的运营商网络。",
         "slot_switch_esim_tips": "如果启用，{sim}将切换到eSIM，实体SIM卡将无法使用。",
-        "unlock_pin_tips": "输入PIN码解锁SIM卡。"
+        "unlock_pin_tips": "输入PIN码解锁SIM卡。",
+        "unlock_pin_err_tips": "PIN码{code}错误。请输入正确的PIN码。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
