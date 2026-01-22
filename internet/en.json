@@ -259,7 +259,8 @@
         "save_operator_config_fail_msg": "Failed to save operator configuration",
         "lock_operation_mode_tip": "You can choose to manually lock a specific operator, or automatically switch to an available operator network when manual locking fails.",
         "slot_switch_esim_tips": "If enabled, {sim} will switch to eSIM and the physical SIM card will be unavailable.",
-        "unlock_pin_tips": "Enter PIN to unlock SIM."
+        "unlock_pin_tips": "Enter PIN to unlock SIM.",
+        "unlock_pin_err_tips": "PIN code {code} is wrong. Please enter the correct PIN."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
