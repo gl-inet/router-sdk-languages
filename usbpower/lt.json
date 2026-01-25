@@ -1,20 +1,20 @@
 {
     "usb": {
         "ask_me_label": "Klausti manęs",
-        "tethring_label": "Saitvietė",
-        "usb_host_label": "„USB“ saitvietė (skleidėjas/vedėjas)",
+        "tethring_label": "Įrenginys („USB“ saitvietė)",
+        "usb_host_label": "Skleidėjas/Vedėjas („USB OTG“)",
         "input_label": "Įvesties pirmenybė",
         "output_label": "Išvesties pirmenybė",
         "protocol_label": "„USB“ protokolo perjungimas",
         "usb_mode_label": "Dvigubos paskirties „USB“ veiksena",
         "power_direction_label": "Maitinimo kryptis",
         "power_threshold_label": "Maitinimo slenkstis",
-        "interface_tips": "USB nustatymai taikomi tik duomenų prievadui ir neturi įtakos tik maitinimo prievadui.",
-        "usb_host_tips": "Veikia kaip USB skleidėjas/vedėjas (priima suderinamus USB periferinius įrenginius)",
-        "power_power_direction_label": "Energijos kryptis (Energijos prievadas)",
-        "ask_me_tips": "Kiekvieną kartą i̇̀škvieta (nepriverskite vaidmens)",
-        "usb_tethering_tips": "Veikia kaip USB tether įrenginys (pateikiamas kaip USB tinklo pritaikytojas/-oja skleidėjui/vedėjui)",
-        "power_data_direction_label": "Energijos kryptis (Duomenų prievadas)"
+        "interface_tips": "„USB“ nustatymai taikomi tik duomenų skirtam prievadui ir neturi įtakos tik maitinimui skirtam prievadui.",
+        "usb_host_tips": "Veikia kaip „USB“ skleidėjas/vedėjas (priima suderinamus „USB“ išorinius (t.y. periferinius) įrenginius)",
+        "power_power_direction_label": "Maitinimo kryptis (Maitinimo prievadas)",
+        "ask_me_tips": "Klauskite kiekvieną kartą (nepriverskite vaidmens (t.y. rolės))",
+        "usb_tethering_tips": "Veikia kaip „USB“ saitvietės įrenginys (pateikiamas kaip „USB“ tinklo pritaikytoja (-s) skleidėjui/vedėjui)",
+        "power_data_direction_label": "Maitinimo kryptis (duomenų prievadas)"
     },
     "power": {
         "ethernet_idle_timeout_label": "„Eterneto“ budėjimo, užklausos laiko pasibaigimas",
