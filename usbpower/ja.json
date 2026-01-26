@@ -3,8 +3,8 @@
         "power_direction_label": "給電方向",
         "power_threshold_label": "電力しきい値",
         "ask_me_label": "確認する",
-        "tethring_label": "テザリング",
-        "usb_host_label": "USBテザリング（ホスト）",
+        "tethring_label": "デバイス（USBテザリング）",
+        "usb_host_label": "ホスト（USB OTG）",
         "input_label": "入力優先順位",
         "protocol_label": "USBプロトコル切替",
         "usb_mode_label": "デュアルロールUSBモード",
@@ -12,14 +12,14 @@
         "interface_tips": "USB設定はデータポートにのみ適用され、電源専用ポートには影響しません。",
         "ask_me_tips": "毎回プロンプトを表示（役割を強制しない）",
         "usb_host_tips": "USBホストとして動作（互換性のあるUSB周辺機器を受け入れる）",
-        "power_power_direction_label": "パワーディレクション（電源ポート）",
+        "power_power_direction_label": "給電方向（電源ポート）",
         "usb_tethering_tips": "USBテザリングデバイスとして動作（ホストに対してUSBネットワークアダプタとして表示される）",
-        "power_data_direction_label": "パワーディレクション（データポート）"
+        "power_data_direction_label": "給電方向（データポート）"
     },
     "power": {
         "power_title": "電源",
         "wifi_sleep_time_label": "Wi-Fiアイドルタイムアウト",
-        "power_charger_label": "充電器接続時電源オン",
+        "power_charger_label": "充電器接続時に電源オン",
         "never_label": "無効",
         "ethernet_idle_timeout_label": "イーサネットアイドルタイムアウト",
         "power_off_timeout_label": "電源オフタイムアウト",
