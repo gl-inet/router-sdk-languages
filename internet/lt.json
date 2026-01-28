@@ -254,7 +254,8 @@
         "auto_switching_without_network_tips": "Kai {mode} veiksena yra įjungta, maršrutizatorius automatiškai neskaitys tinklų, kai jis sėkmingai prisijungia prie tinklo ne kartotuvo veiksenoje, ir bandys automatiškai perjungti tik į kitus išsaugotus tinklus, kai maršrutizatorius neturi ryšio, kas gali išvengti (duomenų) paketų praradimo.",
         "auto_resume_scan_tips": "Internetas yra prijungtas. Siekiant užtikrinti belaidio ryšio kokybę, kartotuvas neskaitys prieinamų tinklų; jis automatiškai atnaujins skenavimą, kai interneto ryšys bus nutrauktas. Galite iš naujo prisijungti arba rankiniu būdu perjungti į „Wi-Fi“ tinklą.",
         "initializing_tips": "Kartotuvas yra inicijuojamas...",
-        "band_6g_bandwidth_limit_160mhz_tips": "6 GHz „Wi-Fi“ palaiko iki 160 MHz duomenų siuntimo srauto pralaidumą."
+        "band_6g_bandwidth_limit_160mhz_tips": "6 GHz „Wi-Fi“ palaiko iki 160 MHz duomenų siuntimo srauto pralaidumą.",
+        "band_conflict_tips": "Siekiant stabilaus ryšio, kai kartotuvas yra įjungtas, 5 GHz/6 GHz „Wi-Fi“ juosta automatiškai suderinama su kartotuvu. Jei jūsų įrenginys neprisijungia automatiškai, prisijunkite prie „Wi-Fi“ rankiniu būdu."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
