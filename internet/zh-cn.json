@@ -120,8 +120,7 @@
         "auto_switching_without_network_tips": "启用“{mode}”模式后，路由器在非中继模式下联网成功后不会自动扫描网络，只会在无网络时尝试自动切换到其他保存的网络，这样可以避免通信数据包丢失。",
         "auto_resume_scan_tips": "互联网已连接，为了确保无线通信质量，中继将暂停扫描可用网络；一旦互联网断开，它将自动恢复扫描。您可以手动重连或切换Wi-Fi网络。",
         "initializing_tips": "中继正在初始化...",
-        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi 最高支持 160MHz 带宽。",
-        "band_conflict_tips": "为了确保连接稳定，当启用中继模式时，5GHz/6GHz Wi-Fi频段将自动匹配中继器。如果您的设备未能自动重新连接，请手动连接至Wi-Fi。"
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi 最高支持 160MHz 带宽。"
     },
     "modem": {
         "title": "蜂窝网络",
