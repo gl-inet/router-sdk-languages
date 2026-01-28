@@ -330,8 +330,7 @@
         "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését.",
         "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, a Vendég Wi-Fi letiltásra kerül, és az 5GHz/6GHz Wi-Fi sáv automatikusan igazodik a repeaterhez. Ha az eszköz nem kapcsolódik újra automatikusan, kérem, kapcsolódjon manuálisan a Wi-Fi hálózathoz.",
         "auto_resume_scan_tips": "Az internet kapcsolat aktív. A vezeték nélküli kommunikáció minőségének biztosítása érdekében a közvetítő nem fogja szkennelni az elérhető hálózatokat; az internetkapcsolat megszakadása után automatikusan folytatja a szkennelést. Kézzel is újracsatlakozhat vagy váltathat Wi-Fi hálózatra.",
-        "initializing_tips": "A repeater inicializálása folyamatban van...",
-        "band_6g_bandwidth_limit_160mhz_tips": "Ha a 6GHz Wi-Fi engedélyezve van, és egy 6GHz vagy 2.4GHz Wi-Fi-t ismétel, akkor a 6GHz sáv sávszélessége legfeljebb 160MHz lehet."
+        "initializing_tips": "A repeater inicializálása folyamatban van..."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
