@@ -120,8 +120,7 @@
         "auto_switching_without_network_tips": "When {mode} mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss.",
         "band_conflict_tips": "For stable connection, when repeater is enabled, Guest Wi-Fi will be disabled and the 5GHz/6GHz Wi-Fi band will automatically match repeater. If your device does not reconnect automatically, please connect to Wi-Fi manually.",
         "auto_resume_scan_tips": "The Internet is connected. To ensure wireless communication quality, the Repeater will not scan for available networks; it will automatically resume scanning once the Internet is disconnected. You can reconnect or switch to Wi-Fi network manually.",
-        "initializing_tips": "The repeater is initializing...",
-        "band_6g_bandwidth_limit_160mhz_tips": "When the 6GHz Wi-Fi is enabled, and is repeating a 6GHz or 2.4GHz Wi-Fi, the 6GHz band is limited to a maximum bandwidth of 160MHz."
+        "initializing_tips": "The repeater is initializing..."
     },
     "modem": {
         "title": "Cellular",
