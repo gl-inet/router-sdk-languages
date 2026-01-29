@@ -14,7 +14,8 @@
         "usb_host_tips": "USBホストとして動作（互換性のあるUSB周辺機器を受け入れる）",
         "power_power_direction_label": "給電方向（電源ポート）",
         "usb_tethering_tips": "USBテザリングデバイスとして動作（ホストに対してUSBネットワークアダプタとして表示される）",
-        "power_data_direction_label": "給電方向（データポート）"
+        "power_data_direction_label": "給電方向（データポート）",
+        "power_threshold_tips": "外部電源出力の最小バッテリー閾値（このレベルを下回るとUSBデバイスが使用不可になります）"
     },
     "power": {
         "power_title": "電源",
