@@ -21,7 +21,6 @@
         "custom_exit_node_warning": "Si habilita la función Nodo de Salida Personalizado, el dispositivo reenviará todas las solicitudes al Nodo de Salida. Antes de habilitarla sin embargo, debe activar las rutas de subred {subnet} de éste dispositivo en la $$$$Tailscale Admin Console$$$$ de forma que Tailscale pueda reenviar las solicitudes de los clientes; de lo contrario sus clientes no podrán acceder al Internet.",
         "dns_warning_tips": "Cuando se utiliza una dirección IP de la intranet como DNS, es posible que no se pueda acceder al servidor DNS.",
         "exit_node_title": "Nodo de salida",
-        "subnet_routes_title": "Rutas de Subred",
-        "nat_title": "NAT"
+        "subnet_routes_title": "Rutas de Subred"
     }
 }
