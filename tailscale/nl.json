@@ -22,6 +22,9 @@
         "custom_exit_node_warning": "Als u de aangepaste Exit Node inschakelt, zal het apparaat alle verzoeken doorsturen naar de Exit Node. Voordat u dit inschakelt, moet u de subnetroutes {subnet} van dit apparaat in $$$$Tailscale Admin Console$$$$ inschakelen zodat Tailscale de verzoeken van de cliënt kan doorsturen; anders kunnen uw cliënten geen toegang krijgen tot het internet.",
         "exit_node_title": "Uitgangsknooppunt",
         "subnet_routes_title": "Subnet Routes",
-        "ip_masquerading_label": "IP-Masquerading"
+        "ip_masquerading_label": "IP-Masquerading",
+        "run_exit_node_label": "Uitvoeringsknooppunt uitvoeren",
+        "run_exit_node_tips": "Een exit node uitvoeren betekent dat andere apparaten in uw tailnet al hun verkeer via het IP-adres van deze router kunnen sturen.",
+        "ip_masquerading_tips": "Herschrijft LAN-clientbron-IP's naar het IP-adres van de Tailscale-interface."
     }
 }
