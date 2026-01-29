@@ -27,7 +27,8 @@
         "dhcp_disable_warning_tips": "DHCPを無効にすると、インターネットに接続できなくなる場合がありますので、ご注意ください。",
         "lpr_tips": "複数のプリンタLPRポートを埋めることができます。",
         "guest_disabel_tips": "{guest}は無効になっているため、ゲストネットワークは機能しません。",
-        "iot_conflict_tips": "IoT IPと競合しています"
+        "iot_conflict_tips": "IoT IPと競合しています",
+        "host_name_tips": "2〜63文字、英数字またはハイフンのみ使用可能で、先頭または末尾にハイフンを使用することはできません。"
     },
     "address_reservation": {
         "note": "注：設定を有効化するため、クライアントをルータに再接続する必要があります。",
