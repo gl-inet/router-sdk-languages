@@ -21,7 +21,6 @@
         "custom_exit_node_warning": "Ha engedélyezi az Egyéni Exit Node opciót, a készülék az összes kérést az Exit Node-ra továbbítja. Engedélyezés előtt szükséges a készülék alhálózati útvonalainak {subnet} engedélyezése a $$$$Tailscale Admin Console$$$$ oldalon a Tailscale klienskérések továbbításához; ellenkező esetben a kliensek nem fognak tudni internetezni.",
         "dns_warning_tips": "Amikor belső hálózati IP-címet használ DNS-ként, előfordulhat, hogy nem tud hozzáférni a DNS-szerverhez.",
         "exit_node_title": "Exit Node",
-        "subnet_routes_title": "Alhálózati útvonalak",
-        "nat_title": "NAT"
+        "subnet_routes_title": "Alhálózati útvonalak"
     }
 }
