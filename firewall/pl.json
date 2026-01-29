@@ -33,7 +33,9 @@
         "dmz_desc": "DMZ pozwala na wystawienie jednego lokalnego komputera do Internetu, wszystkie przychodzące pakiety będą przekierowane do tego komputera.",
         "dmz_host_ip": "IP hosta DMZ",
         "port_range_tips": "{exPort} nie pasuje do zakresu {inPort}.",
-        "vpnclient_zone_tips": "Tunele VPN o tej samej konfiguracji będą korzystać z tej samej strefy, a modyfikacja konfiguracji tunelu może wpłynąć na przekierowanie portów."
+        "vpnclient_zone_tips": "Tunele VPN o tej samej konfiguracji będą korzystać z tej samej strefy, a modyfikacja konfiguracji tunelu może wpłynąć na przekierowanie portów.",
+        "firewallview_port_tips": "Zakres portów wynosi od 1 do 65535. Możesz ustawić pojedynczy port lub zakres portów, łącząc pierwszy i ostatni numer portu myślnikiem (np. 501-510), z maksymalnie 100 portami na zakres.",
+        "firewallview_port_range_message": "Przekierowanie z jednego portu zewnętrznego na wiele portów wewnętrznych nie jest obsługiwane."
     },
     "menu_firewallview": "Zapora Sieciowa"
 }
