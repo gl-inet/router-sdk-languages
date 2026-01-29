@@ -22,6 +22,9 @@
         "dns_warning_tips": "Quando si utilizza un indirizzo IP Intranet come DNS, potrebbe non essere possibile accedere al server DNS.",
         "exit_node_title": "Nodo di Uscita",
         "subnet_routes_title": "Subnet Routes",
-        "ip_masquerading_label": "IP Masquerading"
+        "ip_masquerading_label": "IP Masquerading",
+        "run_exit_node_label": "运行出口节点",
+        "run_exit_node_tips": "Gestire un nodo di uscita significa che gli altri dispositivi nella tua tailnet possono inviare tutto il loro traffico attraverso l'indirizzo IP di questo router.",
+        "ip_masquerading_tips": "Rewrites LAN client source IPs to the IP address of tailscale interface."
     }
 }
