@@ -22,6 +22,9 @@
         "dns_warning_tips": "イントラネットのIPアドレスをDNSとして使用する場合、DNSサーバーにアクセスできないことがあります。",
         "exit_node_title": "出口ノード",
         "subnet_routes_title": "サブネットルート",
-        "ip_masquerading_label": "IPマスカレード"
+        "ip_masquerading_label": "IPマスカレード",
+        "run_exit_node_label": "Exit Nodeを実行",
+        "run_exit_node_tips": "出口ノードを実行すると、Tailnet内の他のデバイスがすべてのトラフィックをこのルーターのIPアドレス経由で送信できるようになります。",
+        "ip_masquerading_tips": "TailscaleインターフェースのIPアドレスにLANクライアントの送信元IPを書き換えます。"
     }
 }
