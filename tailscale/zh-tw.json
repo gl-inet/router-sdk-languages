@@ -22,6 +22,9 @@
         "dns_warning_tips": "使用內網IP位址作為DNS時，可能無法訪問DNS伺服器。",
         "exit_node_title": "出口節點",
         "subnet_routes_title": "子網路由",
-        "ip_masquerading_label": "IP偽裝"
+        "ip_masquerading_label": "IP偽裝",
+        "run_exit_node_label": "運行出口節點",
+        "run_exit_node_tips": "運行退出節點意味著您tailnet中的其他設備可以透過此路由器的IP地址發送所有流量。",
+        "ip_masquerading_tips": "將 LAN 客戶端的來源 IP 重寫為 Tailscale 介面的 IP 位址。"
     }
 }
