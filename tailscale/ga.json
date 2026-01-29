@@ -19,6 +19,9 @@
         "exit_node_label": "Nód Scoir",
         "current_ip_tips": "Úsáideann Tailscale an fho-líonra 100.64.0.0/10, a d’fhéadfadh teacht salach ar sheoladh a shannadh an tSoláthraí Seirbhíse nó ar sheoladh cliant VPN. Má tá do IP WAN nó IP VPN laistigh den fho-líonra seo, díchumasaigh Tailscale chun nach mbeidh tú gan líonra.",
         "custom_exit_node_warning": "Má chuirtear Nód Scoite Saincheaptha i bhfeidhm, tabharfaidh an gléas gach iarratas ar aghaidh chuig an Nód Scoite. Sula gcuirfidh tú i bhfeidhm é, ní mór duit bealaigh fho-líonra {subnet} an ghléis seo a chumasú i $$$$Tailscale Admin Console$$$$ chun go dtabharfaidh Tailscale iarratais ó chliaint ar aghaidh; mura ndéanfaidh tú sin, ní bheidh do chliaint in ann rochtain a fháil ar an Idirlíon.",
-        "dns_warning_tips": "Agus seoladh IP inlíon in úsáid mar DNS, b'fhéidir nach mbeidh tú in ann rochtain a fháil ar an bhfreastalaí DNS."
+        "dns_warning_tips": "Agus seoladh IP inlíon in úsáid mar DNS, b'fhéidir nach mbeidh tú in ann rochtain a fháil ar an bhfreastalaí DNS.",
+        "exit_node_title": "Nód Scoir",
+        "subnet_routes_title": "Fo-réasú Fo-líonra",
+        "nat_title": "NAT"
     }
 }
