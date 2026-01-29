@@ -33,7 +33,9 @@
         "priority_label": "Priorität",
         "adjust _priority_btn": "Priorität anpassen",
         "port_value_tips": "Die verfügbaren Ports gehen von 1 bis 65535. Es kann ein einzelner Port angegeben werden oder ein Bereich, mit einem - (zum Beispiel 501-510).",
-        "vpnclient_zone_tips": "VPN-Tunnel mit derselben Konfiguration verwenden dieselbe Zone, und die Änderung der Tunnelkonfiguration kann die Portweiterleitung beeinflussen."
+        "vpnclient_zone_tips": "VPN-Tunnel mit derselben Konfiguration verwenden dieselbe Zone, und die Änderung der Tunnelkonfiguration kann die Portweiterleitung beeinflussen.",
+        "firewallview_port_tips": "Der Portbereich liegt zwischen 1 und 65535. Sie können einen einzelnen Port oder einen Portbereich festlegen, indem Sie die erste und letzte Portnummer mit einem Bindestrich verbinden (z. B. 501-510), wobei maximal 100 Ports pro Bereich erlaubt sind.",
+        "firewallview_port_range_message": "Die Weiterleitung von einem externen Port zu mehreren internen Ports wird nicht unterstützt."
     },
     "menu_firewallview": "Firewall"
 }
