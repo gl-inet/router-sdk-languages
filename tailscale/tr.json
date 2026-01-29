@@ -25,6 +25,9 @@
         "ip_masquerading_label": "IP Masquerading",
         "run_exit_node_label": "Çıkış Düğümünü Çalıştır",
         "run_exit_node_tips": "Bir çıkış düğümü çalıştırmak, tailnet'inizdeki diğer cihazların tüm trafiğini bu yönlendiricinin IP adresi üzerinden gönderebileceği anlamına gelir.",
-        "ip_masquerading_tips": "Tailscale arayüzünün IP adresine LAN istemci kaynak IP'lerini yeniden yazar."
+        "ip_masquerading_tips": "Tailscale arayüzünün IP adresine LAN istemci kaynak IP'lerini yeniden yazar.",
+        "advertise_wan_subnets_label": "WAN Alt Ağlarını Duyur",
+        "advertise_wan_subnets_tips": "Bu seçenek etkinleştirildiğinde, WAN alt ağ rotaları Tailscale tailnet'ine duyurulacaktır. Rotalar yalnızca Tailscale Yönetici Konsolu'nda onaylandıktan sonra geçerli olacaktır.",
+        "advertise_lan_subnets_label": "Bu seçenek etkinleştirildiğinde, LAN alt ağ rotaları Tailscale tailnet'ine duyurulacaktır. Rotalar yalnızca Tailscale Yönetici Konsolu'nda onaylandıktan sonra geçerli olacaktır."
     }
 }
