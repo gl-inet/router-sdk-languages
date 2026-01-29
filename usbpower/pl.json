@@ -14,7 +14,8 @@
         "usb_host_tips": "Działa jako host USB (obsługuje kompatybilne urządzenia USB)",
         "usb_tethering_tips": "Działa jako Urządzenie Tetheringowe USB (widoczne dla hosta jako adapter sieciowy USB)",
         "power_power_direction_label": "Kierunek Zasilania (Port Zasilania)",
-        "power_data_direction_label": "Kierunek Zasilania (Port Danych)"
+        "power_data_direction_label": "Kierunek Zasilania (Port Danych)",
+        "power_threshold_tips": "Minimalny próg naładowania baterii dla zewnętrznego zasilania (urządzenia USB będą niedostępne poniżej tego poziomu)"
     },
     "power": {
         "wifi_sleep_time_label": "Limit Czasu Bezczynności Wi-Fi",
