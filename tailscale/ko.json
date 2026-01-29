@@ -19,6 +19,9 @@
         "allow_wan_tips": "이 옵션을 사용하도록 설정하면 장치의 WAN 측 리소스에 Tailscale 가상 네트워크를 통해 액세스할 수 있습니다.",
         "exit_node_tips": "선택한 종료 노드를 사용할 수 없거나 인터넷에 액세스할 수 없는 경우 장치에서 설정을 Tailscale로 동기화할 수 없습니다.",
         "manual_node_label": "사용자 정의 종료 노드",
-        "exit_node_label": "종료 노드"
+        "exit_node_label": "종료 노드",
+        "exit_node_title": "종료 노드",
+        "subnet_routes_title": "서브넷 경로",
+        "nat_title": "NAT"
     }
 }
