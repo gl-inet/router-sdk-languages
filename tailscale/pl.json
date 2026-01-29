@@ -21,7 +21,6 @@
         "custom_exit_node_warning": "Jeśli włączysz Niestandardowy węzeł wyjściowy, urządzenie będzie przekazywać wszystkie żądania do węzła wyjściowego. Przed włączeniem, musisz włączyć trasy podsieci {subnet} tego urządzenia w $$$$Konsoli Administracyjnej Tailscale$$$$, aby Tailscale mógł przekazywać żądania klientów; w przeciwnym razie klienci nie będą mogli uzyskać dostępu do Internetu.",
         "custom_exit_node_tips": "Jeśli ta opcja jest włączona, urządzenie będzie przekazywać wszystkie żądania do węzła wyjściowego. Przed włączeniem, musisz włączyć trasy podsieci {subnet} tego urządzenia w $$$$Konsoli Administracyjnej Tailscale$$$$, aby Tailscale mógł przekazywać żądania klientów; w przeciwnym razie klienci nie będą mogli uzyskać dostępu do Internetu.",
         "exit_node_title": "Węzeł wyjściowy",
-        "subnet_routes_title": "Podsieci Trasy",
-        "nat_title": "NAT"
+        "subnet_routes_title": "Podsieci Trasy"
     }
 }
