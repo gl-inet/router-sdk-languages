@@ -28,7 +28,7 @@
         "lpr_tips": "可填写多个打印机LPR端口。",
         "guest_disabel_tips": "由于 {guest} 处于禁用状态，因此访客网络目前不可用。",
         "iot_conflict_tips": "与 IoT IP 冲突",
-        "host_name_tips": "2-63个字符，仅允许字母、数字或连字符，且不能以连字符开头或结尾。"
+        "host_name_tips": "2-63 个字符，仅支持字母、数字或连字符，且首尾不可为连字符。"
     },
     "address_reservation": {
         "title": "地址预留",
