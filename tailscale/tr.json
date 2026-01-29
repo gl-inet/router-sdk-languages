@@ -21,7 +21,6 @@
         "custom_exit_node_warning": "Özel Çıkış Düğümünü etkinleştirirseniz, cihaz tüm istekleri Çıkış Düğümüne iletecektir. Etkinleştirmeden önce, Tailscale'ın istemci isteklerini iletebilmesi için bu cihazın {subnet} alt ağ rotalarını $$$$Tailscale Admin Console$$$$'da etkinleştirmelisiniz; aksi takdirde istemcileriniz internete erişemeyecektir.",
         "dns_warning_tips": "Bir intranet IP adresini DNS olarak kullanırken, DNS sunucusuna erişemeyebilirsiniz.",
         "exit_node_title": "Çıkış Düğümü",
-        "subnet_routes_title": "Alt Ağ Yolları",
-        "nat_title": "NAT"
+        "subnet_routes_title": "Alt Ağ Yolları"
     }
 }
