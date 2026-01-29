@@ -22,6 +22,9 @@
         "custom_exit_node_tips": "Jeśli ta opcja jest włączona, urządzenie będzie przekazywać wszystkie żądania do węzła wyjściowego. Przed włączeniem, musisz włączyć trasy podsieci {subnet} tego urządzenia w $$$$Konsoli Administracyjnej Tailscale$$$$, aby Tailscale mógł przekazywać żądania klientów; w przeciwnym razie klienci nie będą mogli uzyskać dostępu do Internetu.",
         "exit_node_title": "Węzeł wyjściowy",
         "subnet_routes_title": "Podsieci Trasy",
-        "ip_masquerading_label": "Maskarada IP"
+        "ip_masquerading_label": "Maskarada IP",
+        "run_exit_node_label": "Uruchom węzeł wyjściowy",
+        "run_exit_node_tips": "Uruchomienie węzła wyjściowego oznacza, że inne urządzenia w twojej sieci tailnet mogą przesyłać cały swój ruch przez adres IP tego routera.",
+        "ip_masquerading_tips": "Przepisuje źródłowe adresy IP klientów LAN na adres IP interfejsu Tailscale."
     }
 }
