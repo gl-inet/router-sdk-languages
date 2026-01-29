@@ -27,8 +27,8 @@
         "run_exit_node_tips": "运行出口节点意味着您的 tailnet 中的其他设备可以通过该路由器的 IP 地址发送所有流量。",
         "ip_masquerading_tips": "将 LAN 客户端来源 IP 改写为路由器的 tailscale 接口 IP。",
         "advertise_wan_subnets_label": "通告WAN子网",
-        "advertise_wan_subnets_tips": "如果启用此选项，WAN子网路由将被通告到Tailscale tailnet。路由只有在Tailscale管理控制台中批准后才会生效。",
+        "advertise_wan_subnets_tips": "开启该选项后，将把 WAN 网段路由发布到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台进行批准后才能生效。",
         "advertise_lan_subnets_label": "通告局域网子网",
-        "advertise_lan_subnets_tips": "如果启用此选项，LAN子网路由将被通告到Tailscale tailnet。路由只有在Tailscale管理控制台中批准后才会生效。"
+        "advertise_lan_subnets_tips": "开启该选项后，将把 LAN 网段路由发布到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台进行批准后才能生效。"
     }
 }
