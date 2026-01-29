@@ -27,6 +27,8 @@
         "run_exit_node_tips": "出口ノードを実行すると、Tailnet内の他のデバイスがすべてのトラフィックをこのルーターのIPアドレス経由で送信できるようになります。",
         "ip_masquerading_tips": "TailscaleインターフェースのIPアドレスにLANクライアントの送信元IPを書き換えます。",
         "advertise_wan_subnets_label": "WANサブネットをアドバタイズ",
-        "advertise_wan_subnets_tips": "このオプションが有効になっている場合、WANサブネットルートがTailscale tailnetにアドバタイズされます。ルートはTailscale Admin Consoleで承認された後にのみ有効になります。"
+        "advertise_wan_subnets_tips": "このオプションが有効になっている場合、WANサブネットルートがTailscale tailnetにアドバタイズされます。ルートはTailscale Admin Consoleで承認された後にのみ有効になります。",
+        "advertise_lan_subnets_label": "LANサブネットをアドバタイズ",
+        "advertise_lan_subnets_tips": "このオプションが有効になっている場合、LANサブネットルートがTailscale tailnetにアドバタイズされます。ルートはTailscale Admin Consoleで承認された後にのみ有効になります。"
     }
 }
