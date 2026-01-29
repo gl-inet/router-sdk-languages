@@ -19,6 +19,9 @@
         "custom_exit_node_tips": "Se questa opzione è abilitata, il dispositivo inoltrerà tutte le richieste al Nodo di Uscita. Prima di abilitare, è necessario abilitare le rotte di subnet {subnet} di questo dispositivo nella $$$$Console di Amministrazione Tailscale$$$$ affinché Tailscale possa inoltrare le richieste dei client; in caso contrario, i vostri client non saranno in grado di accedere a Internet.",
         "current_ip_tips": "Tailscale usa la sottorete 100.64.0.0/10, che può entrare in conflitto con un indirizzo assegnato dall'ISP o da un Client VPN. Se il tuo indirizzo WAN o l'IP della VPN appartengono a tale sottorete, disabilita Tailscale per evitare di non poter navigare.",
         "custom_exit_node_warning": "Se si abilita il Nodo di Uscita Personalizzato, il dispositivo inoltrerà tutte le richieste al Nodo di Uscita. Prima di abilitare, è necessario abilitare le rotte di subnet {subnet} di questo dispositivo nella $$$$Console di Amministrazione Tailscale$$$$ affinché Tailscale possa inoltrare le richieste dei client; in caso contrario, i vostri client non saranno in grado di accedere a Internet.",
-        "dns_warning_tips": "Quando si utilizza un indirizzo IP Intranet come DNS, potrebbe non essere possibile accedere al server DNS."
+        "dns_warning_tips": "Quando si utilizza un indirizzo IP Intranet come DNS, potrebbe non essere possibile accedere al server DNS.",
+        "exit_node_title": "Nodo di Uscita",
+        "subnet_routes_title": "Subnet Routes",
+        "nat_title": "NAT"
     }
 }
