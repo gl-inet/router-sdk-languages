@@ -19,6 +19,9 @@
         "exit_node_label": "出口节点",
         "current_ip_tips": "Tailscale 使用 100.64.0.0/10 子网，这可能和 ISP 分配的地址或 VPN 客户端地址冲突。若您的 WAN IP 或 VPN 使用了此子网内地址，请禁用 Tailscale。",
         "custom_exit_node_warning": "如果您启用自定义出口节点，设备将把所有请求转发至出口节点。在启用之前，您必须在$$$$Tailscale管理控制台$$$$中启用此设备的子网路由{subnet}，以便Tailscale转发客户端请求；否则，您的客户端将无法访问互联网。",
-        "dns_warning_tips": "使用内网 IP 地址作为 DNS 时，您可能会无法访问 DNS 服务器。"
+        "dns_warning_tips": "使用内网 IP 地址作为 DNS 时，您可能会无法访问 DNS 服务器。",
+        "exit_node_title": "出口节点",
+        "subnet_routes_title": "子网路由",
+        "nat_title": "NAT"
     }
 }
