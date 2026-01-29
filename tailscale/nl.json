@@ -27,7 +27,6 @@
         "run_exit_node_tips": "Een exit node uitvoeren betekent dat andere apparaten in uw tailnet al hun verkeer via het IP-adres van deze router kunnen sturen.",
         "ip_masquerading_tips": "Herschrijft LAN-clientbron-IP's naar het IP-adres van de Tailscale-interface.",
         "advertise_wan_subnets_label": "Adverteer WAN-subnetten",
-        "advertise_wan_subnets_tips": "Als deze optie is ingeschakeld, worden de WAN-subnetroutes geadverteerd naar het Tailscale-tailnet. Routes worden alleen van kracht nadat ze zijn goedgekeurd in de Tailscale Admin Console.",
-        "advertise_lan_subnets_label": "Als deze optie is ingeschakeld, worden de LAN-subnetroutes geadverteerd naar het Tailscale-tailnet. Routes worden alleen van kracht na goedkeuring in de Tailscale Admin Console."
+        "advertise_wan_subnets_tips": "Als deze optie is ingeschakeld, worden de WAN-subnetroutes geadverteerd naar het Tailscale-tailnet. Routes worden alleen van kracht nadat ze zijn goedgekeurd in de Tailscale Admin Console."
     }
 }
