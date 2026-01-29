@@ -27,7 +27,8 @@
         "dhcp_disable_warning_tips": "Se disabiliti DHCP, potresti non essere in grado di connetterti a Internet, quindi fai attenzione.",
         "lpr_tips": "È possibile riempire più porte LPR della stampante.",
         "guest_disabel_tips": "{guest} è disabilitato, quindi la rete degli ospiti non funziona.",
-        "iot_conflict_tips": "È in conflitto con l'IP IoT"
+        "iot_conflict_tips": "È in conflitto con l'IP IoT",
+        "host_name_tips": "2-63 caratteri, sono consentite solo lettere, cifre o trattini, e non deve iniziare o terminare con un trattino."
     },
     "address_reservation": {
         "note": "Nota: Il client configurato deve riconnettersi al router per far sì che le impostazioni abbiano effetto.",
