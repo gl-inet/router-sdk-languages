@@ -22,6 +22,9 @@
         "current_ip_tips": "„Tailscale“ naudoja – 100.64.0.0/10 potinklį, kuris gali konfliktuoti su interneto paslaugų teikėjo paskirtu adresu arba „VPN“ kliento adresu. Jei Jūsų plačiajame tinkle („WAN“) esantis IP arba „VPN“ IP yra šiame potinklyje, išjunkite „Tailscale“, kad išvengtumėte tinklo neprieinamumo problemų.",
         "exit_node_title": "Išeiti iš tinklo mazgo",
         "subnet_routes_title": "Potinklių maršrutai",
-        "ip_masquerading_label": "Privataus IP į viešojo IP konvertavimas"
+        "ip_masquerading_label": "Privataus IP į viešojo IP konvertavimas",
+        "run_exit_node_label": "Vykdyti išėjimo mazgą",
+        "run_exit_node_tips": "Veikiantis išėjimo mazgas reiškia, kad kiti jūsų „tailnet“ tinkle esantys įrenginiai gali siųsti visą savo srautą per šio maršrutizatoriaus IP adresą.",
+        "ip_masquerading_tips": "Perrašo vietinio tinklo kliento šaltinio IP adresus į Tailscale sąsajos IP adresą."
     }
 }
