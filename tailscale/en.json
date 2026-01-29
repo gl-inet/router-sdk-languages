@@ -20,7 +20,6 @@
         "current_ip_tips": "Tailscale uses the 100.64.0.0/10 subnet, which may conflict with an ISP-assigned address or VPN client address. If your WAN IP or VPN IP is an address within this subnet, disable Tailscale to avoid being unable to network.",
         "custom_exit_node_warning": "If you enable Custom Exit Node, the device will forward all requests to the Exit Node. Before enabling, you must enable subnet routes {subnet} of this device in $$$$Tailscale Admin Console$$$$ for Tailscale to forward client requests; otherwise, your clients will not be able to access the Internet.",
         "dns_warning_tips": "When using an intranet IP address as DNS, you may not be able to access the DNS server.",
-        "nat_title": "NAT",
         "exit_node_title": "Exit Node",
         "subnet_routes_title": "Subnet Routes"
     }
