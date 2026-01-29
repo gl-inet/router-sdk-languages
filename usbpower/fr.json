@@ -14,7 +14,8 @@
         "usb_host_tips": "Fonctionne en hôte USB (accepte les périphériques USB compatibles)",
         "power_power_direction_label": "Direction de l'alimentation (Port d'alimentation)",
         "usb_tethering_tips": "Fonctionne en appareil de partage de connexion USB (se présente comme un adaptateur réseau USB pour un hôte)",
-        "power_data_direction_label": "Direction de l'alimentation (Port de données)"
+        "power_data_direction_label": "Direction de l'alimentation (Port de données)",
+        "power_threshold_tips": "Seuil minimum de batterie pour la sortie d'alimentation externe (les périphériques USB seront indisponibles en dessous de ce niveau)"
     },
     "power": {
         "power_title": "Alimentation",
