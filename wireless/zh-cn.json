@@ -37,7 +37,6 @@
         "mlo_network_tips": "Wi-Fi 7 客户端推荐连接 MLO Wi-Fi，通过多频段连接可以大大提高网络传输速率和可靠性。",
         "open_wifi_security_tips": "\"开放WiFi\"存在安全风险，请谨慎使用。",
         "guest_wifi_unavailable_tips": "访客 Wi-Fi 不可用，因为{repeater}已启用。",
-        "band_6g_bandwidth_limit_160mhz_tips": "当同时启用 2.4GHz 和 6GHz Wi-Fi 时，6GHz 频段的最大带宽限制为160MHz。",
         "cannot_detect_6g_network_tips": "部分设备可能无法识别 6GHz Wi-Fi，建议同时开启 2.4GHz 和 6GHz 以提升兼容性。",
         "wifi_band": "Wi-Fi 频段",
         "repeater_band_conflict_tips": "与中继网络冲突的频段会被禁用。",
@@ -47,7 +46,20 @@
         "usage_environment_title": "使用环境",
         "indoor_label": "室内",
         "outdoor_label": "户外",
-        "environment_tips": "根据规定，在户外使用时，Wi-Fi必须切换至“户外”模式。这可能会缩小覆盖范围。"
+        "environment_tips": "根据规定，在户外使用时，Wi-Fi必须切换至“户外”模式。这可能会缩小覆盖范围。",
+        "guest_6g_bandwidth_limit_160mhz_tips": "当 6GHz 主网络与访客网络同时开启时，该 6GHz 频段的最大带宽将被限制为 160MHz。",
+        "guest_network_tips": "为访客提供专属网络，确保便捷安全的互联网接入。",
+        "iot_network_tips": "为 IoT 设备提供专属网络。建议将 IoT 设备连接到 2.4GHz 频段以确保最佳兼容性。",
+        "mlo_network_title": "多链路操作 (MLO)",
+        "guest_network_title": "访客网络",
+        "main_network_title": "主网络",
+        "iot_network_title": "IoT 网络",
+        "add_network_title": "添加{networkTitle}",
+        "modify_network_title": "修改 {networkTitle}",
+        "radio_configuration_title": "无线配置",
+        "delete_network_confirm_tips": "您确定要删除此网络吗？此操作无法撤销，所有相关配置将被清除。",
+        "radio_configuration_tips": "以下配置将应用到所有 {band} 频段的网络。",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi 最高支持 160MHz 带宽。"
     },
     "menu_wireless": "无线"
 }

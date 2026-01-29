@@ -81,7 +81,15 @@
         "qos_warning": "Az ügyfél sebességkorlátozása nem érhető el, mert a $$$$QoS$$$$ engedélyezve van.",
         "sqm_warning": "Az ügyfél sebességkorlátozása nem érhető el, mert a $$$$SQM$$$$ engedélyezve van.",
         "enable_conflict_warning": "Az ügyfél sebességkorlátozás nem érhető el, mert a(z) {other} engedélyezve van.",
-        "network_acceleration_warning_tips": "{feature} engedélyezve van, az ügyfél sebesség- és forgalomstatisztikái rendellenesek, az ügyfél sebességkorlátozása nem működik."
+        "network_acceleration_warning_tips": "{feature} engedélyezve van, az ügyfél sebesség- és forgalomstatisztikái rendellenesek, az ügyfél sebességkorlátozása nem működik.",
+        "auto_remove_offline_clients": "Automatikus offline kliensek eltávolítása",
+        "auto_remove_offline_clients_tips": "Automatikus offline kliensek eltávolítása jelenleg BEKAPCSOLVA",
+        "host_network_label": "Hálózati gazdagép",
+        "settings": "Beállítások",
+        "auto_remove_offline_clients_confirm_tips": "Biztosan engedélyezi az offline kliensek automatikus eltávolítását? Az offline kliensek azonnal megtisztításra kerülnek, miután ez a funkció engedélyezve lesz.",
+        "remove_offline_clients_confirm_tips": "Biztosan el szeretné távolítani ezt a klienst a listáról? Ez a művelet eltávolítja a nevét és a sebességkorlátozási beállításait is.",
+        "remove_all_offline_clients_confirm_tips": "Biztosan el szeretné távolítani az összes klienst a listáról? Ez a művelet eltávolítja a nevüket és a sebességkorlátozási beállításaikat is.",
+        "client_speed_limit_tips": "{name} engedélyezve van, az Ügyfél Sebességkorlát nem működik."
     },
     "vpn_tunnel": {
         "mac_using_tips": "A VPN kapcsolódva van.",

@@ -125,7 +125,9 @@
         "notice_title": "通知",
         "use_weak_disabled_ssh_tips": "使用弱密碼將禁用SSH與串行輸入功能。",
         "important_note": "重要",
-        "export_btn": "导出"
+        "export_btn": "导出",
+        "example_label": "例如 {content}",
+        "share": "分享"
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -195,7 +197,9 @@
         "recheck_btn": "重新檢測",
         "mtu_common_tip": "請根據您的使用情況設定 MTU 值。不正確的設定可能會導致網路斷線。",
         "custom_dns_setting_label": "自訂DNS設定",
-        "address_label": "地址"
+        "address_label": "地址",
+        "iot_ip_tips": "IoT 子網與 WAN 子網衝突，請 {iotSubnet} 為不同的地址。",
+        "change_iot_subnet": "更改 IoT 子網"
     },
     "date": {
         "day": "天",
@@ -246,7 +250,8 @@
         "lost_account_btn": "遺失帳戶？",
         "usb_power_limit_tips": "(請確保使用 {power}以上電源)",
         "current_time_label": "目前時間",
-        "enable_conflict_warning": "{self} 不可用，因為 {other} 已啟用。"
+        "enable_conflict_warning": "{self} 不可用，因為 {other} 已啟用。",
+        "no_battery_charging_tips": "目前未侦測到電池模组，装置正在使用外部電源供電。"
     },
     "err": {
         "abnormal_operation_msg": "操作異常",

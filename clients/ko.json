@@ -81,7 +81,15 @@
         "sqm_warning": "클라이언트 속도 제한은 $$$$SQM$$$$이 활성화되어 있기 때문에 사용할 수 없습니다.",
         "qos_warning": "클라이언트 속도 제한은 $$$$QoS$$$$이 활성화되어 있기 때문에 사용할 수 없습니다.",
         "enable_conflict_warning": "클라이언트 속도 제한을 사용할 수 없습니다. {other}이(가) 활성화되어 있습니다.",
-        "network_acceleration_warning_tips": "{feature}가 활성화되어 있으면 클라이언트 속도 및 트래픽 통계가 비정상적이며, 클라이언트 속도 제한이 작동하지 않습니다."
+        "network_acceleration_warning_tips": "{feature}가 활성화되어 있으면 클라이언트 속도 및 트래픽 통계가 비정상적이며, 클라이언트 속도 제한이 작동하지 않습니다.",
+        "auto_remove_offline_clients": "오프라인 클라이언트 자동 제거",
+        "auto_remove_offline_clients_tips": "오프라인 클라이언트 자동 제거가 현재 켜져 있습니다",
+        "host_network_label": "호스트 네트워크",
+        "settings": "설정",
+        "auto_remove_offline_clients_confirm_tips": "자동으로 오프라인 클라이언트를 제거하도록 설정하시겠습니까? 이 기능을 활성화하면 모든 오프라인 클라이언트가 즉시 정리됩니다.",
+        "remove_offline_clients_confirm_tips": "이 클라이언트를 목록에서 제거하시겠습니까? 이 작업은 해당 클라이언트의 이름과 속도 제한 설정도 함께 제거합니다.",
+        "remove_all_offline_clients_confirm_tips": "목록에서 모든 클라이언트를 제거하시겠습니까? 이 작업은 클라이언트의 이름과 속도 제한 설정도 함께 제거합니다.",
+        "client_speed_limit_tips": "{name}이 활성화되어 있어 클라이언트 속도 제한이 작동하지 않습니다."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN이 연결되었습니다.",

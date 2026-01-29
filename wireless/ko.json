@@ -37,7 +37,6 @@
         "mlo_network_tips": "Wi-Fi 7 클라이언트는 MLO Wi-Fi에 연결하는 것이 권장되며, 다중 대역 연결을 통해 네트워크 전송 속도와 안정성을 크게 향상시킬 수 있습니다.",
         "open_wifi_security_tips": "\"Open WiFi\"는 보안 위험이 있습니다. 주의하여 사용하십시오.",
         "guest_wifi_unavailable_tips": "게스트 Wi-Fi는 {repeater}가 활성화되어 있기 때문에 사용할 수 없습니다.",
-        "band_6g_bandwidth_limit_160mhz_tips": "2.4GHz와 6GHz Wi-Fi가 모두 활성화된 경우, 6GHz 대역은 최대 160MHz 대역폭으로 제한됩니다.",
         "cannot_detect_6g_network_tips": "일부 기기는 6GHz Wi-Fi를 감지하지 못할 수 있습니다. 더 나은 호환성을 위해 2.4GHz와 6GHz를 모두 활성화할 수 있습니다.",
         "wifi_band": "Wi-Fi 대역",
         "repeater_band_conflict_tips": "중계기와 충돌하는 대역은 비활성화됩니다.",
@@ -47,7 +46,20 @@
         "usage_environment_title": "사용 환경",
         "indoor_label": "실내",
         "outdoor_label": "야외",
-        "environment_tips": "규정에 따라 실외에서 Wi-Fi를 사용할 경우 \"실외\" 모드로 전환해야 합니다. 이로 인해 커버리지 범위가 감소할 수 있습니다."
+        "environment_tips": "규정에 따라 실외에서 Wi-Fi를 사용할 경우 \"실외\" 모드로 전환해야 합니다. 이로 인해 커버리지 범위가 감소할 수 있습니다.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "6GHz 메인 및 게스트 Wi-Fi가 모두 활성화된 경우, 6GHz 대역의 최대 대역폭은 160MHz로 제한됩니다.",
+        "guest_network_tips": "방문객을 위한 전용 네트워크를 제공하여 편리하고 안전한 인터넷 접속을 보장합니다.",
+        "iot_network_tips": "IoT 기기에 전용 네트워크를 제공하세요. 더 나은 호환성을 위해 IoT 기기를 2.4GHz 대역에 연결하는 것이 권장됩니다.",
+        "mlo_network_title": "다중 링크 운영 (MLO)",
+        "guest_network_title": "게스트 네트워크",
+        "main_network_title": "메인 네트워크",
+        "iot_network_title": "IoT 네트워크",
+        "add_network_title": "{networkTitle} 추가",
+        "modify_network_title": "{networkTitle} 수정",
+        "radio_configuration_title": "라디오 구성",
+        "delete_network_confirm_tips": "이 네트워크를 삭제하시겠습니까? 이 작업은 취소할 수 없으며, 관련된 모든 설정이 삭제됩니다.",
+        "radio_configuration_tips": "다음 구성은 모든 {band} 네트워크에 적용됩니다.",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi는 최대 160MHz 대역폭을 지원합니다."
     },
     "menu_wireless": "무선"
 }

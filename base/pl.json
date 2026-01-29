@@ -125,7 +125,9 @@
         "notice_title": "Powiadomienie",
         "use_weak_disabled_ssh_tips": "Użycie słabego hasła blokuje SSH i wejście szeregowe.",
         "important_note": "Ważne",
-        "export_btn": "Eksportuj"
+        "export_btn": "Eksportuj",
+        "example_label": "np. {content}",
+        "share": "Udostępnij"
     },
     "msg": {
         "port_occupied": "{nazwa} port zajęty",
@@ -168,7 +170,8 @@
         "forget_password_btn": "Zapomniałeś hasła?",
         "usb_power_limit_tips": "(Zasilacz musi mieć napięcie wyższe niż {power})",
         "current_time_label": "Aktualny Czas",
-        "enable_conflict_warning": "{self} jest niedostępne, ponieważ {other} jest włączone."
+        "enable_conflict_warning": "{self} jest niedostępne, ponieważ {other} jest włączone.",
+        "no_battery_charging_tips": "Nie wykryto modułu baterii. Urządzenie jest obecnie zasilane z zewnętrznego źródła zasilania."
     },
     "internet": {
         "guest_ip_tips": "Konflikt podsieci gościa z podsiecią WAN. Proszę $$$$zmienić podsieć gościa$$$$ na inny adres.",
@@ -218,7 +221,9 @@
         "auto_update_mac_time_label": "Według Czasu",
         "mtu_common_tip": "Ustaw wartość MTU zgodnie ze swoim scenariuszem użytkowania. Nieprawidłowe ustawienia mogą spowodować utratę połączenia z internetem.",
         "custom_dns_setting_label": "Niestandardowe Ustawienia DNS",
-        "address_label": "Adres"
+        "address_label": "Adres",
+        "iot_ip_tips": "Podsieć IoT jest w konflikcie z podsiecią WAN, proszę zmienić {iotSubnet} na inny adres.",
+        "change_iot_subnet": "Zmień Podsieć IoT"
     },
     "date": {
         "day": "dzień(dni)",

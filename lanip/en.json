@@ -27,7 +27,9 @@
         "ap_isolate_tips": "You can isolate your network's client devices into a separate network area. These devices cannot communicate with other devices on the network.",
         "dhcp_disable_warning_tips": "If you disable DHCP, you may not be able to connect to the Internet, so please be careful.",
         "lpr_tips": "Multiple printer LPR ports can be filled.",
-        "guest_disabel_tips": "Guest network is currently unavailable because {guest} is disabled."
+        "guest_disabel_tips": "Guest network is currently unavailable because {guest} is disabled.",
+        "iot_conflict_tips": "It is in conflict with IoT IP",
+        "host_name_tips": "2-63 characters, only letters, digits or hyphens are allowed, and must not start or end with a hyphen."
     },
     "address_reservation": {
         "title": "Address Reservation",
@@ -49,5 +51,11 @@
         "not_asscess_tips": "Currently the guest network cannot access the network segments {net}.",
         "block_wan_label": "Block WAN Subnets",
         "block_wan_tips": "If this function is enabled, the guest network will not be able to access the upper network and the network segment where the upper network is located."
+    },
+    "menu_iotip": "IoT Network",
+    "iotip": {
+        "block_wan_tips": "If this function is enabled, the iot network will not be able to access the upper network and the network segment where the upper network is located.",
+        "iot_disabel_tips": "IoT network is currently unavailable because {iot} is disabled.",
+        "not_asscess_tips": "Currently the iot network cannot access the network segments {net}."
     }
 }

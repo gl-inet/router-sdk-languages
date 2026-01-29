@@ -33,7 +33,9 @@
         "adjust _priority_btn": "Ajuster la priorité",
         "priority_label": "Priorité",
         "port_value_tips": "La plage des ports est de 1 à 65535. Vous pouvez définir un seul port ou définir la plage de ports en concaténant le premier et le dernier numéro de port avec le symbole - (comme 501-510).",
-        "vpnclient_zone_tips": "Les tunnels VPN avec la même configuration utiliseront la même Zone, et la modification de la configuration du tunnel peut affecter le transfert de ports."
+        "vpnclient_zone_tips": "Les tunnels VPN avec la même configuration utiliseront la même Zone, et la modification de la configuration du tunnel peut affecter le transfert de ports.",
+        "firewallview_port_range_message": "La redirection d'un port externe vers plusieurs ports internes n'est pas prise en charge.",
+        "firewallview_port_tips": "La plage de ports va de 1 à 65535. Vous pouvez définir un port unique ou une plage de ports en reliant le premier et le dernier numéro de port par un trait d'union (par exemple, 501-510), avec un maximum de 100 ports par plage."
     },
     "menu_firewallview": "Pare-feu"
 }

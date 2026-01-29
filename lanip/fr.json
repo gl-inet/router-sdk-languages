@@ -27,7 +27,9 @@
         "lpr_serve_label": "Serveur LPR",
         "dhcp_serve_title": "Serveur DHCP",
         "enable_dhcp_tips": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication à chaque appareil client. Si le serveur DHCP est désactivé, vous devrez les configurer manuellement pour chaque client.",
-        "guest_disabel_tips": "Le réseau invité n'est pas disponible actuellement car {guest} est désactivé."
+        "guest_disabel_tips": "Le réseau invité n'est pas disponible actuellement car {guest} est désactivé.",
+        "iot_conflict_tips": "Il est en conflit avec l'IP IoT",
+        "host_name_tips": "2 à 63 caractères, seules les lettres, les chiffres ou les traits d'union sont autorisés, et ne doivent pas commencer ou se terminer par un trait d'union."
     },
     "address_reservation": {
         "title": "Adresses Reservées",
@@ -49,5 +51,11 @@
         "block_wan_label": "Bloquer les sous-réseaux WAN",
         "block_wan_tips": "Si cette fonction est activée, le réseau invité ne pourra pas accéder au réseau principal, et le réseau invité bloquera le segment réseau où se trouve le réseau principal.",
         "not_asscess_tips": "Actuellement, le réseau invité ne peut pas accéder aux segments de réseau {net}."
+    },
+    "menu_iotip": "Réseau IoT",
+    "iotip": {
+        "block_wan_tips": "Si cette fonction est activée, le réseau IoT ne pourra pas accéder au réseau supérieur ni au segment de réseau où se trouve le réseau supérieur.",
+        "iot_disabel_tips": "Le réseau IoT est actuellement indisponible car {iot} est désactivé.",
+        "not_asscess_tips": "Actuellement, le réseau IoT ne peut pas accéder aux segments de réseau {net}."
     }
 }

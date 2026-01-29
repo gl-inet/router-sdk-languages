@@ -19,6 +19,16 @@
         "exit_node_label": "Nœuds de sortie",
         "current_ip_tips": "Tailscale utilise le sous-réseau 100.64.0.0/10, qui peut entrer en conflit avec une adresse attribuée par un FAI ou une adresse de client VPN. Si votre IP WAN ou VPN est une adresse dans ce sous-réseau, désactivez Tailscale pour éviter des conflits réseaux.",
         "custom_exit_node_warning": "Si vous activez le Nœud de Sortie personnalisé, l'appareil redirigera toutes les requêtes vers le Nœud de Sortie. Avant d'activer, vous devez activer les routes de sous-réseau {subnet} de cet appareil dans la $$$$Console d'administration Tailscale$$$$ pour que Tailscale puisse rediriger les requêtes des clients ; sinon, vos clients ne pourront pas accéder à Internet.",
-        "dns_warning_tips": "Lorsque vous utilisez une adresse IP intranet comme DNS, il se peut que vous ne puissiez pas accéder au serveur DNS."
+        "dns_warning_tips": "Lorsque vous utilisez une adresse IP intranet comme DNS, il se peut que vous ne puissiez pas accéder au serveur DNS.",
+        "exit_node_title": "Noeuds de sortie",
+        "subnet_routes_title": "Sous-réseaux Routés",
+        "ip_masquerading_label": "IP Masqué",
+        "run_exit_node_label": "Exécuter le nœud de sortie",
+        "run_exit_node_tips": "Exécuter un nœud de sortie signifie que les autres appareils de votre tailnet peuvent envoyer tout leur trafic via l'adresse IP de ce routeur.",
+        "ip_masquerading_tips": "Réécrit les adresses IP source des clients LAN en l'adresse IP de l'interface Tailscale.",
+        "advertise_wan_subnets_label": "Annoncer les sous-réseaux WAN",
+        "advertise_wan_subnets_tips": "Si cette option est activée, les routes du sous-réseau WAN seront annoncées au réseau Tailscale. Les routes ne prendront effet qu'après avoir été approuvées dans la console d'administration Tailscale.",
+        "advertise_lan_subnets_label": "Annoncer les sous-réseaux LAN",
+        "advertise_lan_subnets_tips": "Si cette option est activée, les sous-réseaux LAN seront annoncés au réseau Tailscale. Les routes ne prendront effet qu'après avoir été approuvées dans la console d'administration Tailscale."
     }
 }

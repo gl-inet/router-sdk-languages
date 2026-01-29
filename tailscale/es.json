@@ -19,6 +19,16 @@
         "custom_exit_node_tips": "Si ésta opción se encuentra activada, el dispositivo reenviará todas las solicitudes al Nodo de Salida. Antes de habilitarla sin embargo, necesita activar las rutas de subred {subnet} de éste dispositivo en la $$$$Tailscale Admin Console$$$$ para que Tailscale pueda reenviar las solicitudes de los clientes; de lo contrario sus clientes no podrán acceder al Internet.",
         "current_ip_tips": "Tailscale utiliza la subred 100.64.0.0/10, que podría entrar en conflicto con una dirección asignada por el proveedor de servicios de Internet (ISP) o una dirección de cliente VPN. Si la dirección IP de WAN o dirección IP de VPN se encuentra dentro de dicha subred, es necesario desactivar Tailscale para evitar problemas de conectividad en la red.",
         "custom_exit_node_warning": "Si habilita la función Nodo de Salida Personalizado, el dispositivo reenviará todas las solicitudes al Nodo de Salida. Antes de habilitarla sin embargo, debe activar las rutas de subred {subnet} de éste dispositivo en la $$$$Tailscale Admin Console$$$$ de forma que Tailscale pueda reenviar las solicitudes de los clientes; de lo contrario sus clientes no podrán acceder al Internet.",
-        "dns_warning_tips": "Cuando se utiliza una dirección IP de la intranet como DNS, es posible que no se pueda acceder al servidor DNS."
+        "dns_warning_tips": "Cuando se utiliza una dirección IP de la intranet como DNS, es posible que no se pueda acceder al servidor DNS.",
+        "exit_node_title": "Nodo de salida",
+        "subnet_routes_title": "Rutas de Subred",
+        "ip_masquerading_label": "Enmascaramiento de IP",
+        "run_exit_node_label": "Ejecutar Nodo de Salida",
+        "run_exit_node_tips": "Ejecutar un nodo de salida significa que otros dispositivos en tu tailnet pueden enviar todo su tráfico a través de la dirección IP de este router.",
+        "ip_masquerading_tips": "Reescribe las IPs de origen de los clientes de la LAN a la dirección IP de la interfaz de Tailscale.",
+        "advertise_wan_subnets_label": "Anunciar subredes WAN",
+        "advertise_wan_subnets_tips": "Si esta opción está habilitada, las rutas de la subred WAN se anunciarán a la red Tailscale. Las rutas solo tendrán efecto después de ser aprobadas en la Consola de Administración de Tailscale.",
+        "advertise_lan_subnets_label": "Anunciar subredes LAN",
+        "advertise_lan_subnets_tips": "Si esta opción está habilitada, las rutas de la subred LAN se anunciarán a la red Tailscale. Las rutas solo entrarán en vigor después de ser aprobadas en la Consola de Administración de Tailscale."
     }
 }

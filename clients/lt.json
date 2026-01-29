@@ -79,8 +79,16 @@
         "usb_tethering": "„USB“ saitvietė",
         "qos_warning": "Kliento greičio apribojimas nepasiekiamas, nes – $$$$„QoS“$$$$ yra įjungtas/įgalintas.",
         "sqm_warning": "Kliento greičio apribojimas yra nepasiekiamas, nes – $$$$„SQM“$$$$ yra įjungtas/įgalintas.",
-        "enable_conflict_warning": "Kliento greičio ribojimas neprieinamas, nes {other} yra įjungtas.",
-        "network_acceleration_warning_tips": "{feature} yra įjungta, Kliento greitis ir srauto statistika yra nenormalūs, Kliento greičio apribojimas neveikia."
+        "enable_conflict_warning": "Kliento greičio ribojimas yra neprieinamas/nepasiekiamas, nes – {other} yra įjungta/įgalinta (-s/-i).",
+        "network_acceleration_warning_tips": "{feature} – yra įjungta/įgalinta (-s/-i), klientų greičio ir srauto statistika yra netiksli, klientų greičio ribojimas neveikia.",
+        "auto_remove_offline_clients": "Automatiškai pašalinti neprisijungusius klientus",
+        "auto_remove_offline_clients_tips": "Automatinis neprisijungusių klientų pašalinimas šiuo metu yra – įjungtas/įgalintas.",
+        "host_network_label": "Skleidėjo/Vedėjo tinklas",
+        "settings": "Nustatymai",
+        "auto_remove_offline_clients_confirm_tips": "Ar tikrai norite įjungti automatinį neprisijungusių klientų pašalinimą? Visi neprisijungę klientai bus išvalyti iš karto įjungus šią funkciją.",
+        "remove_offline_clients_confirm_tips": "Ar tikrai norite pašalinti šį klientą iš sąrašo? Šis veiksmas taip pat pašalins jo pavadinimą ir greičio ribojimo nustatymus.",
+        "remove_all_offline_clients_confirm_tips": "Ar tikrai norite pašalinti visus klientus iš sąrašo? Šis veiksmas taip pat pašalins jų pavadinimus ir greičio ribojimo nustatymus.",
+        "client_speed_limit_tips": "{name} yra įjungtas, Kliento greičio apribojimas neveikia."
     },
     "menu_clients": "Klientai",
     "vpn_tunnel": {

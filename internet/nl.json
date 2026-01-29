@@ -118,9 +118,10 @@
         "portal_auth_required_title": "Portaalauthenticatie vereist",
         "support_channel_tips": "De volgende Wi-Fi-kanalen worden ondersteund. Zorg ervoor dat het Wi-Fi-netwerk waarmee u verbinding maakt een van deze kanalen gebruikt.",
         "auto_switching_without_network_tips": "Wanneer de {mode}-modus is ingeschakeld, zal de router niet automatisch netwerken scannen wanneer deze succesvol is aangesloten in de niet-repeatermodus, en zal alleen proberen automatisch over te schakelen naar andere opgeslagen netwerken wanneer de router geen verbinding heeft. Dit kan communicatiepakketverlies voorkomen.",
-        "band_conflict_tips": "为了确保连接稳定，启用中继模式时，访客Wi-Fi将被禁用，且5GHz/6GHz频段将自动匹配中继器。若设备未自动重新连接，请手动连接至Wi-Fi。",
         "auto_resume_scan_tips": "Het internet is verbonden. Om de draadloze communicatiekwaliteit te waarborgen, zal de Repeater niet scannen naar beschikbare netwerken; het scannen wordt automatisch hervat zodra de internetverbinding wordt verbroken. U kunt handmatig opnieuw verbinding maken of overschakelen naar een Wi-Fi-netwerk.",
-        "initializing_tips": "De repeater wordt geïnitialiseerd..."
+        "initializing_tips": "De repeater wordt geïnitialiseerd...",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi ondersteunt een bandbreedte tot 160MHz.",
+        "band_conflict_tips": "Voor een stabiele verbinding, wanneer de repeater is ingeschakeld, zal de 5GHz/6GHz Wi-Fi-band automatisch overeenkomen met de repeater. Als uw apparaat niet automatisch opnieuw verbindt, verbind dan handmatig met Wi-Fi."
     },
     "modem": {
         "title": "Mobiel",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "Mobiel is uitgeschakeld vanwege de vliegtuigmodus. Schakel de vliegtuigmodus uit op het apparaatscherm om deze in te schakelen.",
         "save_operator_config_fail_msg": "Kan de operatorconfiguratie niet opslaan",
         "lock_operation_mode_tip": "U kunt ervoor kiezen om een specifieke operator handmatig te vergrendelen, of automatisch over te schakelen naar een beschikbaar operatornetwerk wanneer handmatige vergrendeling mislukt.",
-        "slot_switch_esim_tips": "Indien ingeschakeld, zal {sim} overschakelen naar eSIM en de fysieke SIM-kaart zal niet beschikbaar zijn."
+        "slot_switch_esim_tips": "Indien ingeschakeld, zal {sim} overschakelen naar eSIM en de fysieke SIM-kaart zal niet beschikbaar zijn.",
+        "unlock_pin_tips": "Voer de PIN in om de SIM te ontgrendelen.",
+        "unlock_pin_err_tips": "PIN-code {code} is onjuist. Voer de juiste PIN in."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -575,7 +578,9 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM niet geregistreerd. Controleer in {esimManage} of het eSIM-profiel is ingeschakeld of opwaardering vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en verifieer dat de {apnBtn} instellingen correct zijn. Huidige APN is leeg {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM niet geregistreerd. Controleer in {esimManage} of het eSIM-profiel is ingeschakeld of opwaardering vereist, of neem contact op met uw eSIM-provider om eventuele speciale beperkingen te bevestigen, en verifieer dat de {apnBtn}-instellingen correct zijn. Huidige APN: {apn} {guide}",
         "ul_bandwidth": "Uplink-bandbreedte",
-        "dl_bandwidth": "Downlink Bandbreedte"
+        "dl_bandwidth": "Downlink Bandbreedte",
+        "data_traffic_cap_tips": "De huidige SIM-kaart heeft de {dataCapAmount} overschreden.",
+        "data_cap_amount": "Datacap-bedrag"
     },
     "sim": {
         "sender_label": "Afzender"

@@ -33,7 +33,9 @@
         "priority_label": "Prioriteit",
         "port_value_tips": "Het poortbereik is van 1 tot 65535. U kunt een enkele poort instellen of het poortbereik instellen door het eerste en laatste poortnummer te verbinden met het - symbool (zoals 501-510).",
         "adjust _priority_btn": "Prioriteit Aanpassen",
-        "vpnclient_zone_tips": "VPN-tunnels met dezelfde configuratie gebruiken dezelfde Zone, en het aanpassen van de tunnelconfiguratie kan invloed hebben op port forwarding."
+        "vpnclient_zone_tips": "VPN-tunnels met dezelfde configuratie gebruiken dezelfde Zone, en het aanpassen van de tunnelconfiguratie kan invloed hebben op port forwarding.",
+        "firewallview_port_tips": "Het poortbereik loopt van 1 tot 65535. U kunt een enkele poort of een poortbereik instellen door het eerste en laatste poortnummer met een koppelteken te verbinden (bijv. 501-510), met een maximum van 100 poorten per bereik.",
+        "firewallview_port_range_message": "Doorsturen van één externe poort naar meerdere interne poorten wordt niet ondersteund."
     },
     "menu_firewallview": "Firewall"
 }

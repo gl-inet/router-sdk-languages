@@ -37,7 +37,6 @@
         "mlo_network_tips": "„Wi-Fi 7“ įrenginiams rekomenduojama prisijungti naudojant „MLO Wi-Fi“, kuris žymiai pagerina tinklo perdavimo spartą ir patikimumą, naudojant daugiajuostį ryšį.",
         "open_wifi_security_tips": "„Atviras WiFi“ turi saugumo rizikų. Naudokitės atsargiai.",
         "guest_wifi_unavailable_tips": "Svečių „Wi-Fi“ yra nepasiekiamas, nes – {repeater} yra įjungtas/įgalintas.",
-        "band_6g_bandwidth_limit_160mhz_tips": "Kai įjungtos/įgalintos abi; 2,4 GHz ir 6 GHz „Wi-Fi“ dažnių juostos, tada 6 GHz dažnių juosta yra apribota iki maksimalaus 160 MHz duomenų siuntimo srauto pralaidumo.",
         "cannot_detect_6g_network_tips": "Kai kurie įrenginiai gali neaptikti 6 GHz „Wi-Fi“. Galite įjungti/įgalinti ir 2,4 GHz, ir 6 GHz dažnių juostas, kad užtikrintumėte geresnį suderinamumą.",
         "wifi_band": "„Wi-Fi“ dažnių juosta",
         "repeater_band_conflict_tips": "Dažnių juosta, kuri konfliktuoja su kartotuvu, bus išjungta.",
@@ -45,9 +44,22 @@
         "wifi_sleep_tips": "„Wi-Fi“ šiuo metu yra sulaikytojoje veiksenoje ir nematoma. Norėdami ją padaryti veikiančią, galite eiti į – {management}, kad išjungtumėte sulaikytinamąja veikseną.",
         "wifi_band_mutex_tips": "5 GHz „Wi-Fi“ yra įjungtas/įgalintas numatytai. Jei jis konfliktuoja su kartotuvu, šio „Wi-Fi“ dažnių juosta bus automatiškai perjungta į – {auto}.",
         "usage_environment_title": "Naudojimo aplinka",
-        "indoor_label": "Vidaus",
+        "indoor_label": "Viduje",
         "outdoor_label": "Lauke",
-        "environment_tips": "Pagal reglamentus, „Wi-Fi“ turi būti perjungtas į „Outdoor“ veikseną, kai naudojamas lauke. Tai gali sumažinti aprėpties diapazoną."
+        "environment_tips": "Pagal reglamentus, „Wi-Fi“ turi būti perjungtas į lauko veikseną, kai naudojamas lauke (savaime aišku). Šios veiksenos poveikis gali sumažinti aprėpties diapazoną.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "Kai įjungtos 6 GHz ir svečio/-ų „Wi-Fi“ juostos, 6 GHz juosta bus ribojama iki maksimalaus 160 MHz dažnių diapazono, duomenų siuntimo srauto pralaidumo.",
+        "guest_network_tips": "Suteikite priskirtus tinklus lankytojams, užtikrinant patogią ir saugią interneto prieigą.",
+        "iot_network_tips": "Suteikite priskirtus tinklus „IoT“ – daiktų interneto įrenginiams. Rekomenduojama prijungti „IoT“ – daiktų interneto įrenginius prie 2,4 GHz dažnių juostos, siekiant geresnio suderinamumo ir atstumo.",
+        "mlo_network_title": "Daugia-sujungimo operacija („MLO“)",
+        "guest_network_title": "Svečio/-ų tinklas",
+        "main_network_title": "Pagrindinis tinklas",
+        "iot_network_title": "„IoT“ – Daiktų interneto tinklas",
+        "add_network_title": "Pridėti – {networkTitle}",
+        "modify_network_title": "Keisti/Redaguoti – {networkTitle}",
+        "radio_configuration_title": "Radijo konfigūracija",
+        "delete_network_confirm_tips": "Ar tikrai norite ištrinti šį tinklą? Šis veiksmas negali būti anuliuotas, ir visa susijusi konfigūracija bus išvalyta.",
+        "radio_configuration_tips": "Ši konfigūracija bus taikoma visoms/-iems – {band} tinklams.",
+        "band_6g_bandwidth_limit_160mhz_tips": "6 GHz „Wi-Fi“ palaiko iki 160 MHz duomenų siuntimo srauto pralaidumą."
     },
     "menu_wireless": "Belaidis/Bevielis"
 }

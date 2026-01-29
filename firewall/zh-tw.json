@@ -33,7 +33,9 @@
         "port_value_tips": "端口號範圍為 1 到 65535，可以設置單個端口號或通過 - 符號連接首尾端口號來設置端口範圍（如 501-510）。",
         "port_range_tips": "{exPort}與{inPort}範圍不一致。",
         "priority_label": "優先級",
-        "vpnclient_zone_tips": "具有相同配置的VPN隧道將使用相同的區域，修改隧道配置可能會影響端口轉發。"
+        "vpnclient_zone_tips": "具有相同配置的VPN隧道將使用相同的區域，修改隧道配置可能會影響端口轉發。",
+        "firewallview_port_range_message": "不支援將一個外部端口轉發至多個內部端口。",
+        "firewallview_port_tips": "端口範圍為 1 到 65535。您可以設定單一端口或端口範圍，方法是使用連字號連接起始與結束端口號碼（例如 501-510），每個範圍最多包含 100 個端口。"
     },
     "menu_firewallview": "防火牆"
 }

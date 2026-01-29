@@ -1,14 +1,21 @@
 {
     "usb": {
-        "protocol_label": "Перемикач протоколу USB",
-        "usb_mode_label": "Двосторонній режим USB",
+        "protocol_label": "Перемикач USB протоколу",
+        "usb_mode_label": "Двонаправлений режим USB",
         "power_direction_label": "Напрямок живлення",
         "power_threshold_label": "Поріг живлення",
         "ask_me_label": "Запитати мене",
-        "tethring_label": "Модем",
+        "tethring_label": "Модем (USB Tethering)",
         "input_label": "Пріоритет входу",
         "output_label": "Пріоритет виходу",
-        "usb_host_label": "USB-модем (Хост)"
+        "usb_host_label": "USB-модем (Хост)",
+        "interface_tips": "Налаштування USB застосовуються лише до порту даних і не впливають на порт лише для живлення.",
+        "usb_host_tips": "Працює в режимі USB-хоста (підтримує сумісну USB-периферію)",
+        "usb_tethering_tips": "Виконує функції USB-модема (визначається хостом як мережевий USB-адаптер)",
+        "ask_me_tips": "Запит при кожному підключенні (не закріплювати роль)",
+        "power_data_direction_label": "Напрямок живлення (Порт даних)",
+        "power_power_direction_label": "Напрямок живлення (Порт живлення)",
+        "power_threshold_tips": "Мінімальний поріг заряду батареї для зовнішнього живлення (USB-пристрої будуть недоступні нижче цього рівня)"
     },
     "power": {
         "power_title": "Живлення",

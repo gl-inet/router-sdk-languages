@@ -125,7 +125,9 @@
         "notice_title": "Avis",
         "use_weak_disabled_ssh_tips": "L'utilisation d'un mot de passe faible désactivera l'accès SSH et l'entrée série.",
         "important_note": "Important",
-        "export_btn": "Exporter"
+        "export_btn": "Exporter",
+        "example_label": "par ex. {content}",
+        "share": "Partager"
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -223,7 +225,9 @@
         "recheck_btn": "Redétecter",
         "mtu_common_tip": "Définissez la valeur MTU en fonction de votre scénario d'utilisation. Des paramètres incorrects peuvent entraîner une déconnexion d'internet.",
         "custom_dns_setting_label": "Paramètres DNS personnalisés",
-        "address_label": "Adresse"
+        "address_label": "Adresse",
+        "iot_ip_tips": "Le sous-réseau IoT est en conflit avec le sous-réseau WAN, veuillez modifier {iotSubnet} vers une adresse différente.",
+        "change_iot_subnet": "Modifier le sous-réseau IoT"
     },
     "upload": {
         "select_or_drag": "Sélectionnez un fichier ou déposez-le ici",
@@ -246,7 +250,8 @@
         "forget_password_btn": "Mot de passe oublié ?",
         "usb_power_limit_tips": "(Veuillez vous assurer que la tension d'alimentation dépasse {power})",
         "current_time_label": "Heure actuelle",
-        "enable_conflict_warning": "{self} n'est pas disponible car {other} est activé."
+        "enable_conflict_warning": "{self} n'est pas disponible car {other} est activé.",
+        "no_battery_charging_tips": "Aucun module de batterie détecté. L'appareil est actuellement alimenté par une source d'alimentation externe."
     },
     "subscription": {
         "url_label": "URL d'abonnement",

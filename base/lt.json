@@ -125,7 +125,9 @@
         "notice_title": "Skelbimas/Pranešimas",
         "use_weak_disabled_ssh_tips": "Naudojant silpną slaptažodį, bus išjungiamas „SSH“ ir serijinė įvestis.",
         "important_note": "Svarbu",
-        "export_btn": "Eksportuoti"
+        "export_btn": "Eksportuoti",
+        "example_label": "pvz. {content}",
+        "share": "Dalintis"
     },
     "msg": {
         "being_process": "Apdorojama, prašome palaukti…",
@@ -223,7 +225,9 @@
         "duplex_half_label": "vienpusis/pakaitinis – {speed} Mbps",
         "mtu_common_tip": "Nustatykite „MTU“ reikšmę pagal Jūsų naudojimą. Netinkami nustatymai gali sukelti interneto ryšio nutrūkimą.",
         "custom_dns_setting_label": "Pasirinktiniai „DNS“ nustatymai",
-        "address_label": "Adresas"
+        "address_label": "Adresas",
+        "iot_ip_tips": "„IoT“ – Daiktų interneto potinklis yra konflikte su „WAN“ potinkliu, prašome pakeisti – {iotSubnet} į kitą/-okį adresą.",
+        "change_iot_subnet": "Pakeisti „IoT“ – daiktų interneto potinklį"
     },
     "upload": {
         "lass_than_tips": "(Mažiau nei – $$$$)",
@@ -246,14 +250,15 @@
         "forget_password_btn": "Pamiršote slaptažodį?",
         "usb_power_limit_tips": "(Prašome įsitikinti, kad maitinimo šaltinio įtampa viršija: {power})",
         "current_time_label": "Dabartinis laikas",
-        "enable_conflict_warning": "{self} yra neprieinamas, nes {other} yra įjungtas."
+        "enable_conflict_warning": "{self} – yra neprieinama/nepasiekiama (-s), nes – {other} yra įjungta/įgalinta (-s).",
+        "no_battery_charging_tips": "Baterijos modulis neaptiktas. Įrenginys šiuo metu maitinamas iš išorinio maitinimo šaltinio."
     },
     "err": {
         "abnormal_operation_msg": "Operacinė išimtis",
         "network_not_reachable_msg": "Tinklas nepasiekiamas",
         "param_illegal_msg": "Neteisėtas parametras, operacija nepavyko.",
-        "connection_failed_msg": "Ryšys nepavyko. Bandykite dar kartą vėliau.",
-        "port_occupied_msg": "Prievadas {port} yra užimtas."
+        "connection_failed_msg": "Ryšio susiejimas nepavyko. Bandykite dar kartą vėliau.",
+        "port_occupied_msg": "Prievadas – {port} yra užimtas."
     },
     "subscription": {
         "url_label": "Prenumerato „URL“ – saitas",

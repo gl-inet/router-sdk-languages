@@ -125,7 +125,9 @@
         "notice_title": "Avviso",
         "use_weak_disabled_ssh_tips": "L'utilizzo di una password debole disabiliterà l'accesso SSH e l'input seriale.",
         "important_note": "Importante",
-        "export_btn": "Esporta"
+        "export_btn": "Esporta",
+        "example_label": "ad esempio {content}",
+        "share": "Condividi"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -223,7 +225,9 @@
         "duplex_half_label": "{speed} Mbps half duplex",
         "mtu_common_tip": "Impostare il valore MTU in base al proprio scenario di utilizzo. Impostazioni errate possono causare la disconnessione da Internet.",
         "custom_dns_setting_label": "Impostazioni DNS Personalizzate",
-        "address_label": "Indirizzo"
+        "address_label": "Indirizzo",
+        "iot_ip_tips": "La sottorete IoT è in conflitto con la sottorete WAN, si prega di modificare {iotSubnet} a un indirizzo diverso.",
+        "change_iot_subnet": "更改物联网子网"
     },
     "upload": {
         "select_or_drag": "Seleziona un file o trascinalo qui",
@@ -246,7 +250,8 @@
         "forget_password_btn": "Hai dimenticato la password?",
         "usb_power_limit_tips": "(Assicurarsi che la tensione di alimentazione superi {power})",
         "current_time_label": "Ora corrente",
-        "enable_conflict_warning": "{self} non è disponibile perché {other} è abilitato."
+        "enable_conflict_warning": "{self} non è disponibile perché {other} è abilitato.",
+        "no_battery_charging_tips": "Nessun modulo batteria rilevato. Il dispositivo è attualmente alimentato da una fonte di alimentazione esterna."
     },
     "subscription": {
         "url_label": "URL di sottoscrizione",

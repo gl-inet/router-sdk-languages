@@ -16,7 +16,11 @@
         "any_not_allowed_with_multiple_ips": "When there are multiple IP addresses, the 'Any' option cannot be included",
         "add_acl_dialog_title": "Add an ACL rule",
         "edit_acl_dialog_title": "Modify ACL rule",
-        "name_already_exist_msg": "The name already exists."
+        "name_already_exist_msg": "The name already exists.",
+        "accept_label": "Accept",
+        "drop_label": "Drop",
+        "reject_label": "Reject",
+        "add_new_btn": "Add New"
     },
     "menu_acl": "ACL"
 }

@@ -118,9 +118,10 @@
         "portal_auth_required_title": "Autenticación de Portal Requerida",
         "support_channel_tips": "Los siguientes canales de Wi-Fi son compatibles. Asegúrese de que la red Wi-Fi a la que se conecta utilice uno de ellos.",
         "auto_switching_without_network_tips": "Cuando el modo {mode} está habilitado, el router no escaneará automáticamente redes cuando esté conectado exitosamente en modo no repetidor, y solo intentará cambiar automáticamente a otras redes guardadas cuando el router no tenga conexión, lo que puede evitar la pérdida de paquetes de comunicación.",
-        "band_conflict_tips": "Para una conexión estable, cuando el repetidor está activado, la Wi-Fi de invitados se desactivará y la banda de 5GHz/6GHz se ajustará automáticamente al repetidor. Si tu dispositivo no se reconecta automáticamente, por favor conéctate a la Wi-Fi manualmente.",
         "auto_resume_scan_tips": "Internet está conectado. Para garantizar la calidad de la comunicación inalámbrica, el Repetidor no escaneará redes disponibles; reanudará automáticamente el escaneo una vez que se desconecte Internet. Puede reconectarse o cambiar a la red Wi-Fi manualmente.",
-        "initializing_tips": "El repetidor se está inicializando..."
+        "initializing_tips": "El repetidor se está inicializando...",
+        "band_6g_bandwidth_limit_160mhz_tips": "La Wi-Fi de 6 GHz admite un ancho de banda de hasta 160 MHz.",
+        "band_conflict_tips": "Para una conexión estable, cuando el repetidor está habilitado, la banda Wi-Fi de 5GHz/6GHz coincidirá automáticamente con el repetidor. Si tu dispositivo no se reconecta automáticamente, por favor conéctate al Wi-Fi manualmente."
     },
     "modem": {
         "title": "Móvil",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "La conexión móvil se ha deshabilitado debido al Modo Avión. Para activarla, por favor desactive el Modo Avión en la pantalla del dispositivo.",
         "save_operator_config_fail_msg": "No se pudo guardar la configuración del operador",
         "lock_operation_mode_tip": "Puedes elegir bloquear manualmente un operador específico, o cambiar automáticamente a una red de operador disponible cuando el bloqueo manual falle.",
-        "slot_switch_esim_tips": "Si está habilitado, {sim} cambiará a eSIM y la tarjeta SIM física no estará disponible."
+        "slot_switch_esim_tips": "Si está habilitado, {sim} cambiará a eSIM y la tarjeta SIM física no estará disponible.",
+        "unlock_pin_tips": "Ingrese el PIN para desbloquear la SIM.",
+        "unlock_pin_err_tips": "El código PIN {code} es incorrecto. Por favor, introduzca el PIN correcto."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -575,7 +578,9 @@
         "esim_not_registered_connection_failed_tips": "eSIM no registrado. Por favor, verifique en {esimManage} si el perfil eSIM está habilitado o requiere Recarga, o contacte a su proveedor de eSIM para confirmar cualquier restricción especial, y verifique que la configuración de {apnBtn} sea correcta. APN actual: {apn} {guide}",
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM no registrado. Por favor, verifique en {esimManage} si el perfil eSIM está habilitado o requiere Recarga, o contacte a su proveedor de eSIM para confirmar cualquier restricción especial, y verifique que la configuración de {apnBtn} sea correcta. El APN actual está vacío {guide}",
         "ul_bandwidth": "Ancho de banda de enlace ascendente",
-        "dl_bandwidth": "Ancho de banda de bajada"
+        "dl_bandwidth": "Ancho de banda de bajada",
+        "data_traffic_cap_tips": "La tarjeta SIM actual ha superado los {dataCapAmount}.",
+        "data_cap_amount": "Límite de Datos"
     },
     "sim": {
         "sender_label": "Remitente"

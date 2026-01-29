@@ -118,9 +118,10 @@
         "portal_auth_required_title": "Authentification par portail requise",
         "support_channel_tips": "Les canaux Wi-Fi suivants sont pris en charge. Veuillez vous assurer que le réseau Wi-Fi auquel vous vous connectez utilise l'un d'entre eux.",
         "auto_switching_without_network_tips": "Lorsque le mode {mode} est activé, le routeur ne scanne pas automatiquement les réseaux lorsqu'il est connecté avec succès en mode non-répéteur, et ne tente de basculer automatiquement vers d'autres réseaux enregistrés que lorsque le routeur est sans réseau, ce qui permet d'éviter la perte de paquets de communication.",
-        "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, le Wi-Fi invité sera désactivé et la bande Wi-Fi 5 GHz/6 GHz s'alignera automatiquement sur celle du répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi.",
         "auto_resume_scan_tips": "L'Internet est connecté. Pour garantir la qualité de la communication sans fil, le Répéteur ne scannera pas les réseaux disponibles ; il reprendra automatiquement le scan une fois l'Internet déconnecté. Vous pouvez vous reconnecter ou passer manuellement au réseau Wi-Fi.",
-        "initializing_tips": "Le répéteur est en cours d'initialisation..."
+        "initializing_tips": "Le répéteur est en cours d'initialisation...",
+        "band_6g_bandwidth_limit_160mhz_tips": "Le Wi-Fi 6 GHz prend en charge une bande passante allant jusqu'à 160 MHz.",
+        "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, la bande Wi-Fi 5 GHz/6 GHz correspondra automatiquement au répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi."
     },
     "modem": {
         "title": "Cellulaire",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "La connexion mobile a été désactivée en raison du mode Avion. Pour la réactiver, veuillez désactiver le mode Avion sur l'écran de l'appareil.",
         "save_operator_config_fail_msg": "Échec de l'enregistrement de la configuration de l'opérateur",
         "lock_operation_mode_tip": "Vous pouvez choisir de verrouiller manuellement un opérateur spécifique, ou de basculer automatiquement vers un réseau d'opérateur disponible en cas d'échec du verrouillage manuel.",
-        "slot_switch_esim_tips": "Si activé, {sim} basculera vers eSIM et la carte SIM physique ne sera plus disponible."
+        "slot_switch_esim_tips": "Si activé, {sim} basculera vers eSIM et la carte SIM physique ne sera plus disponible.",
+        "unlock_pin_tips": "Entrez le code PIN pour déverrouiller la carte SIM.",
+        "unlock_pin_err_tips": "Le code PIN {code} est incorrect. Veuillez entrer le code PIN correct."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -575,7 +578,9 @@
         "esim_not_registered_connection_failed_tips": "eSIM non enregistré. Veuillez vérifier dans {esimManage} si le profil eSIM est activé ou nécessite un rechargement, ou contactez votre fournisseur eSIM pour confirmer toute restriction particulière, et vérifiez que les paramètres {apnBtn} sont corrects. APN actuel : {apn} {guide}",
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM non enregistré. Veuillez vérifier dans {esimManage} si le profil eSIM est activé ou nécessite un rechargement, ou contactez votre fournisseur eSIM pour confirmer d'éventuelles restrictions particulières, et vérifiez que les paramètres {apnBtn} sont corrects. L'APN actuel est vide {guide}.",
         "ul_bandwidth": "Bande passante montante",
-        "dl_bandwidth": "Bande passante descendante"
+        "dl_bandwidth": "Bande passante descendante",
+        "data_traffic_cap_tips": "La carte SIM actuelle a dépassé le {dataCapAmount}.",
+        "data_cap_amount": "Plafond de données"
     },
     "sim": {
         "sender_label": "Expéditeur"

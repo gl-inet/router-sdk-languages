@@ -26,7 +26,9 @@
         "ap_isolate_label": "Aislamiento de Punto de Acceso",
         "ap_isolate_tips": "Puedes aislar los dispositivos de tus clientes en una red separada. Estos dispositivos no pueden comunicarse con otros dispositivos en la red.",
         "dhcp_disable_warning_tips": "Si deshabilitas el DHCP, es posible que no puedas conectarte a Internet, ten cuidado.",
-        "guest_disabel_tips": "La red de invitados no está disponible actualmente porque {guest} está deshabilitada."
+        "guest_disabel_tips": "La red de invitados no está disponible actualmente porque {guest} está deshabilitada.",
+        "iot_conflict_tips": "Está en conflicto con la IP de IoT.",
+        "host_name_tips": "2-63 caracteres, solo se permiten letras, dígitos o guiones, y no debe comenzar ni terminar con un guion."
     },
     "address_reservation": {
         "note": "Tenga en cuenta que el cliente configurado tiene que reconectar el router para entrar en vigor.",
@@ -49,5 +51,11 @@
         "not_asscess_tips": "Actualmente, la red de invitados no puede acceder a los segmentos de red {net}.",
         "block_wan_label": "Bloquear subredes WAN",
         "block_wan_tips": "Si esta función está habilitada, la red de invitados no podrá acceder a la red principal, y la red de invitados bloqueará el segmento de red donde se encuentra la red principal."
+    },
+    "menu_iotip": "Red IoT",
+    "iotip": {
+        "block_wan_tips": "Si esta función está habilitada, la red IoT no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
+        "iot_disabel_tips": "La red IoT no está disponible actualmente porque {iot} está deshabilitado.",
+        "not_asscess_tips": "Actualmente, la red IoT no puede acceder a los segmentos de red {net}."
     }
 }

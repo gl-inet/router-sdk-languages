@@ -134,7 +134,9 @@
         "airplane_mode_tips": "A mobilhálózat letiltásra került a repülőgép mód miatt. A bekapcsoláshoz kérjük, kapcsolja ki a repülőgép módot a készülék képernyőjén.",
         "save_operator_config_fail_msg": "Nem sikerült menteni az operátor konfigurációt",
         "lock_operation_mode_tip": "Kiválaszthatja, hogy manuálisan zároljon egy adott szolgáltatót, vagy automatikusan vált egy elérhető szolgáltatói hálózatra, ha a manuális zárolás sikertelen.",
-        "slot_switch_esim_tips": "Ha engedélyezve van, a {sim} eSIM-re vált, és a fizikai SIM-kártya nem lesz elérhető."
+        "slot_switch_esim_tips": "Ha engedélyezve van, a {sim} eSIM-re vált, és a fizikai SIM-kártya nem lesz elérhető.",
+        "unlock_pin_tips": "Írja be a PIN-kódot a SIM-kártya feloldásához.",
+        "unlock_pin_err_tips": "A PIN kód {code} hibás. Kérjük, adja meg a helyes PIN kódot."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -326,9 +328,10 @@
         "portal_auth_required_title": "Portálos hitelesítés szükséges",
         "support_channel_tips": "Az alábbi csatornák használata lehetséges. Kérem, olyan hálózatra csatlakozzon, amely engedélyezi a felsorolt csatornák használatát!",
         "auto_switching_without_network_tips": "Ha a {mode} mód engedélyezve van, az útválasztó nem fog automatikusan hálózatokat keresni, amikor sikeresen csatlakozik a nem ismétlő módban, és csak akkor próbál meg automatikusan más mentett hálózatokra váltani, ha az útválasztó nincs hálózati kapcsolatban, ami elkerülheti a kommunikációs csomagok elvesztését.",
-        "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, a Vendég Wi-Fi letiltásra kerül, és az 5GHz/6GHz Wi-Fi sáv automatikusan igazodik a repeaterhez. Ha az eszköz nem kapcsolódik újra automatikusan, kérem, kapcsolódjon manuálisan a Wi-Fi hálózathoz.",
         "auto_resume_scan_tips": "Az internet kapcsolat aktív. A vezeték nélküli kommunikáció minőségének biztosítása érdekében a közvetítő nem fogja szkennelni az elérhető hálózatokat; az internetkapcsolat megszakadása után automatikusan folytatja a szkennelést. Kézzel is újracsatlakozhat vagy váltathat Wi-Fi hálózatra.",
-        "initializing_tips": "A repeater inicializálása folyamatban van..."
+        "initializing_tips": "A repeater inicializálása folyamatban van...",
+        "band_6g_bandwidth_limit_160mhz_tips": "A 6 GHz-es Wi-Fi akár 160 MHz-es sávszélességet is támogat.",
+        "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, az 5 GHz/6 GHz Wi-Fi sáv automatikusan illeszkedik a repeaterhez. Ha az eszköz nem csatlakozik újra automatikusan, kérjük, csatlakozzon manuálisan a Wi-Fi hálózathoz."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
@@ -575,7 +578,9 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM nincs regisztrálva. Kérjük, ellenőrizze az {esimManage} oldalon, hogy az eSIM profil engedélyezve van-e vagy feltöltést igényel, vagy lépjen kapcsolatba eSIM szolgáltatójával, hogy megerősítse a speciális korlátozásokat, és ellenőrizze, hogy az {apnBtn} beállítások helyesek-e. A jelenlegi APN üres {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM nincs regisztrálva. Kérjük, ellenőrizze az {esimManage} oldalon, hogy az eSIM profil engedélyezve van-e vagy feltöltést igényel, vagy lépjen kapcsolatba eSIM szolgáltatójával, hogy megerősítse a speciális korlátozásokat, és ellenőrizze, hogy az {apnBtn} beállítások helyesek-e. Jelenlegi APN: {apn} {guide}",
         "ul_bandwidth": "Feljövő sávszélesség",
-        "dl_bandwidth": "Lefelé irányuló sávszélesség"
+        "dl_bandwidth": "Lefelé irányuló sávszélesség",
+        "data_traffic_cap_tips": "Az aktuális SIM-kártya meghaladta a {dataCapAmount} értéket.",
+        "data_cap_amount": "Adatkorlát összege"
     },
     "sim": {
         "sender_label": "Feladó"

@@ -125,7 +125,9 @@
         "manual_add_mac_btn": "Cihazı Manuel Ekle",
         "got_it": "Anladım",
         "important_note": "Önemli",
-        "export_btn": "Dışa Aktar"
+        "export_btn": "Dışa Aktar",
+        "example_label": "örneğin {content}",
+        "share": "Paylaş"
     },
     "internet": {
         "locked": "Kilitli",
@@ -175,7 +177,9 @@
         "duplex_half_label": "{speed} Mbps yarı çift yönlü",
         "mtu_common_tip": "Kullanım senaryonuza göre MTU değerini ayarlayın. Yanlış ayarlar internet bağlantısının kesilmesine neden olabilir.",
         "custom_dns_setting_label": "Özel DNS Ayarları",
-        "address_label": "Adres"
+        "address_label": "Adres",
+        "iot_ip_tips": "Iot alt ağı, WAN alt ağı ile çakışıyor, lütfen {iotSubnet} farklı bir adrese ayarlayın.",
+        "change_iot_subnet": "IoT Alt Ağı Değiştir"
     },
     "system": {
         "lost_account_btn": "Hesap Kayıp mı?",
@@ -186,7 +190,8 @@
         "feature_unusable_tips": "Bu özellik çalışmıyor çünkü {feature} etkinleştirilmiş durumda.",
         "no_internet_base_tips": "Lütfen internet bağlantınızı kontrol edip tekrar deneyin.",
         "current_time_label": "Şu Anki Zaman",
-        "enable_conflict_warning": "{self} kullanılamıyor çünkü {other} etkinleştirilmiş durumda."
+        "enable_conflict_warning": "{self} kullanılamıyor çünkü {other} etkinleştirilmiş durumda.",
+        "no_battery_charging_tips": "Pil modülü tespit edilmedi. Cihaz şu anda harici bir güç kaynağı tarafından çalıştırılıyor."
     },
     "err": {
         "network_not_reachable_msg": "Ağ erişilebilir değil",

@@ -156,7 +156,13 @@
         "set_downtime_tips": "お子様のスケジュールに合わせてインターネット遮断時間を設定できます。この期間中、お子様のデバイスのインターネットは自動的に切断され、安らかな睡眠を守ります。",
         "day_schedule_label": "日",
         "delete_wraning_tips": "このプロファイルを削除してもよろしいですか？",
-        "feature_unusable_tips": "この機能は {feature} と競合するため利用できません。"
+        "feature_unusable_tips": "この機能は {feature} と競合するため利用できません。",
+        "downtime_disabled_text": "ダウンタイムは無効です。お子様のデバイスには現在、インターネットアクセス時間の制限がありません。",
+        "no_content_filtering_text": "コンテンツフィルタリングなし",
+        "content_filtering_disabled_text": "コンテンツフィルタリングなし。お子様のデバイスには現在、インターネットコンテンツの制限がありません。",
+        "not_scheduled_label": "スケジュールなし",
+        "show_only_selected_label": "選択した項目のみ表示",
+        "parental_control_back_desc": "より多様なインターネット管理には、サードパーティサービス{feature}もご利用いただけます。"
     },
     "bark": {
         "online_tips": "デバイスはBarkクラウドサービスに接続され、アカウントとペアリングされています。$$$$Go to Bark$$$$にアクセスし、ペアリングされたアカウントにログインしてアクセスを制御してください。",

@@ -17,6 +17,10 @@
         "add_acl_dialog_title": "Bir ACL kuralı ekle",
         "dest_port_label": "Hedef Port",
         "acl_desc": "{acl}, protokol, hedef IP adresi, kaynak IP adresi ve port numarası gibi kurallara dayalı olarak ağ trafiğini kontrol edebilir. Etkinleştirilmiş iki {acl} kuralı arasında bir çakışma olursa, cihaz daha yüksek öncelikli kurala öncelik verecektir.",
-        "name_already_exist_msg": "İsim zaten mevcut."
+        "name_already_exist_msg": "İsim zaten mevcut.",
+        "accept_label": "Kabul Et",
+        "drop_label": "Düşür",
+        "reject_label": "Reddet",
+        "add_new_btn": "Yeni Ekle"
     }
 }

@@ -81,7 +81,15 @@
         "qos_warning": "La limitation de vitesse du client n'est pas disponible car $$$$QoS$$$$ est activé.",
         "sqm_warning": "La limitation de vitesse du client n'est pas disponible car $$$$SQM$$$$ est activé.",
         "enable_conflict_warning": "La limitation de vitesse du client est indisponible car {other} est activé.",
-        "network_acceleration_warning_tips": "{feature} est activé, les statistiques de vitesse et de trafic du client sont anormales, la limitation de vitesse du client ne fonctionne pas."
+        "network_acceleration_warning_tips": "{feature} est activé, les statistiques de vitesse et de trafic du client sont anormales, la limitation de vitesse du client ne fonctionne pas.",
+        "auto_remove_offline_clients": "Suppression automatique des clients hors ligne",
+        "auto_remove_offline_clients_tips": "La suppression automatique des clients hors ligne est actuellement activée.",
+        "host_network_label": "Réseau hôte",
+        "settings": "Paramètres",
+        "auto_remove_offline_clients_confirm_tips": "Êtes-vous sûr de vouloir activer la suppression automatique des clients hors ligne ? Tous les clients hors ligne seront nettoyés immédiatement après l'activation de cette fonction.",
+        "remove_offline_clients_confirm_tips": "Êtes-vous sûr de vouloir supprimer ce client de la liste ? Cette action supprimera également son nom et ses paramètres de limitation de vitesse.",
+        "remove_all_offline_clients_confirm_tips": "Êtes-vous sûr de vouloir supprimer tous les clients de la liste ? Cette action supprimera également leurs noms et leurs paramètres de limitation de vitesse.",
+        "client_speed_limit_tips": "{name} est activé, la limitation de vitesse du client ne fonctionne pas."
     },
     "vpn_tunnel": {
         "mac_using_tips": "Le VPN est connecté.",

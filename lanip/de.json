@@ -26,7 +26,9 @@
         "security_title": "Sicherheitseinstellungen",
         "ap_isolate_label": "AP Isolation",
         "ap_isolate_tips": "Die Clients können in einem eigenen Netzwerkbereich isoliert werden. Diese Geräte können nicht mit anderen Geräten im Netzwerk kommunizieren.",
-        "guest_disabel_tips": "{guest} ist deaktiviert, daher wird das Gastnetzwerk nicht funktionieren."
+        "guest_disabel_tips": "{guest} ist deaktiviert, daher wird das Gastnetzwerk nicht funktionieren.",
+        "iot_conflict_tips": "Es steht in Konflikt mit der IoT-IP.",
+        "host_name_tips": "2-63 Zeichen, nur Buchstaben, Ziffern oder Bindestriche sind erlaubt, und es darf nicht mit einem Bindestrich beginnen oder enden."
     },
     "address_reservation": {
         "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",
@@ -49,5 +51,11 @@
         "not_asscess_tips": "Derzeit kann das Gastnetzwerk nicht auf die Netzwerksegmente {net} zugreifen.",
         "block_wan_label": "Blockieren von WAN-Subnetzen",
         "block_wan_tips": "Wenn diese Funktion aktiviert ist, kann das Gastnetzwerk nicht auf das übergeordnete Netzwerk zugreifen, und das Gastnetzwerk wird das Netzwerksegment blockieren, in dem sich das übergeordnete Netzwerk befindet."
+    },
+    "menu_iotip": "IoT-Netzwerk",
+    "iotip": {
+        "block_wan_tips": "Wenn diese Funktion aktiviert ist, kann das IoT-Netzwerk nicht auf das übergeordnete Netzwerk und das Netzsegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen.",
+        "iot_disabel_tips": "Das IoT-Netzwerk ist derzeit nicht verfügbar, da {iot} deaktiviert ist.",
+        "not_asscess_tips": "Derzeit kann das IoT-Netzwerk nicht auf die Netzwerksegmente {net} zugreifen."
     }
 }

@@ -37,7 +37,6 @@
         "mlo_network_tips": "Se recomienda que los clientes Wi-Fi 7 se conecten mediante Wi-Fi MLO, lo que puede mejorar significativamente la tasa de transmisión de red y la confiabilidad a través de una conexión multibanda.",
         "open_wifi_security_tips": "\"WiFi abierta\" tiene riesgos de seguridad. Utilícela con precaución.",
         "guest_wifi_unavailable_tips": "La Wi-Fi para invitados no está disponible porque {repeater} está activado.",
-        "band_6g_bandwidth_limit_160mhz_tips": "Cuando están habilitadas tanto la Wi-Fi de 2.4GHz como la de 6GHz, la banda de 6GHz está limitada a un ancho de banda máximo de 160MHz.",
         "cannot_detect_6g_network_tips": "Algunos dispositivos pueden no detectar la Wi-Fi de 6GHz. Puede habilitar tanto la banda de 2.4GHz como la de 6GHz para una mejor compatibilidad.",
         "wifi_band": "Banda de Wi-Fi",
         "repeater_band_conflict_tips": "La banda que entra en conflicto con el repetidor se desactivará.",
@@ -47,7 +46,20 @@
         "usage_environment_title": "Entorno de Uso",
         "indoor_label": "Interior",
         "outdoor_label": "Exterior",
-        "environment_tips": "Según lo requerido por las regulaciones, el Wi-Fi debe cambiar al modo \"Exterior\" cuando se utiliza en exteriores. Esto puede reducir el alcance de cobertura."
+        "environment_tips": "Según lo requerido por las regulaciones, el Wi-Fi debe cambiar al modo \"Exterior\" cuando se utiliza en exteriores. Esto puede reducir el alcance de cobertura.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "Cuando tanto la Wi-Fi principal de 6GHz como la Wi-Fi de invitados están habilitadas, la banda de 6GHz está limitada a un ancho de banda máximo de 160MHz.",
+        "guest_network_tips": "Proporcione redes dedicadas para visitantes para garantizar un acceso a Internet conveniente y seguro.",
+        "iot_network_tips": "Proporcione redes dedicadas para dispositivos IoT. Se recomienda conectar los dispositivos IoT a la banda de 2.4 GHz para una mejor compatibilidad.",
+        "mlo_network_title": "Operación de Enlace Múltiple (MLO)",
+        "guest_network_title": "Red de invitados",
+        "main_network_title": "Red Principal",
+        "iot_network_title": "Red IoT",
+        "add_network_title": "Agregar {networkTitle}",
+        "modify_network_title": "Modificar {networkTitle}",
+        "radio_configuration_title": "Configuración de Radio",
+        "delete_network_confirm_tips": "¿Está seguro de que desea eliminar esta red? Esta acción no se puede deshacer y toda la configuración relacionada se borrará.",
+        "radio_configuration_tips": "La siguiente configuración se aplicará a todas las redes {band}.",
+        "band_6g_bandwidth_limit_160mhz_tips": "La Wi-Fi de 6 GHz admite un ancho de banda de hasta 160 MHz."
     },
     "menu_wireless": "Inalámbrica"
 }

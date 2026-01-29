@@ -113,7 +113,7 @@
         "day_schedule_label": "执行日期",
         "blocked_items_count": "已屏蔽 {count} 个项目",
         "select_device_label": "选择设备",
-        "set_content_filter_label": "设置内容过滤器",
+        "set_content_filter_label": "设置内容过滤器（可选）",
         "set_downtime_label": "设置停机时间",
         "next_day_label": "次日",
         "customize_days_label": "自定义日期",
@@ -132,7 +132,7 @@
         "get_start_btn": "开始使用",
         "select_device_subtitle": "选择您孩子的设备",
         "create_profile_subtitle": "为您的孩子创建配置文件",
-        "set_content_filter_subtitle": "为孩子设备设置内容过滤器（可选）",
+        "set_content_filter_subtitle": "为孩子设备设置内容过滤器",
         "set_downtime_subtitle": "为孩子设备设置停机时间",
         "select_device_invalid_tips": "请至少选择一台设备进行管理。",
         "selected_label": "已选择 {count}",
@@ -156,7 +156,13 @@
         "delete_wraning_remove_dep_tips": "此操作无法撤销。",
         "feature_unusable_tips": "此功能不可用，因为它与 {feature} 冲突。",
         "bark_feature_unusable_tips": "此功能不可用，因为它与第三方家长控制服务 {feature} 冲突。",
-        "parental_control_desc": "通过家长控制功能，您可以为孩子常用的设备（如智能手机和平板电脑）设置专属的断网时段，屏蔽不合适的应用和网站，全面保障孩子的睡眠质量和健康的网络环境。您还可以使用第三方服务 {feature} 进行更多样化的网络管理。"
+        "parental_control_desc": "通过家长控制功能，您可以为孩子常用的设备（如智能手机和平板电脑）设置专属的断网时段，屏蔽不合适的应用和网站，全面保障孩子的睡眠质量和健康的网络环境。",
+        "downtime_disabled_text": "停机时间已禁用。您孩子的设备目前没有互联网访问时间限制。",
+        "no_content_filtering_text": "无内容过滤",
+        "content_filtering_disabled_text": "无内容过滤。您孩子的设备目前没有互联网内容限制。",
+        "not_scheduled_label": "未计划",
+        "show_only_selected_label": "仅显示所选项目",
+        "parental_control_back_desc": "您也可以使用第三方服务{feature}进行更多样化的互联网管理。"
     },
     "bark": {
         "desc": "根据您的订阅方案（Bark 或 BarkJr），您将能够：",

@@ -80,7 +80,15 @@
         "qos_warning": "Client Speed Limit is niet beschikbaar omdat $$$$QoS$$$$ is ingeschakeld.",
         "sqm_warning": "Client Speed Limit is niet beschikbaar omdat $$$$SQM$$$$ is ingeschakeld.",
         "enable_conflict_warning": "Client Speed Limit is niet beschikbaar omdat {other} is ingeschakeld.",
-        "network_acceleration_warning_tips": "{feature} is ingeschakeld, Client Speed en Traffic Statistics zijn abnormaal, Client Speed Limit werkt niet."
+        "network_acceleration_warning_tips": "{feature} is ingeschakeld, Client Speed en Traffic Statistics zijn abnormaal, Client Speed Limit werkt niet.",
+        "auto_remove_offline_clients": "Automatisch offline clients verwijderen",
+        "auto_remove_offline_clients_tips": "Automatisch offline clients verwijderen is momenteel AAN",
+        "host_network_label": "Hostnetwerk",
+        "settings": "Instellingen",
+        "auto_remove_offline_clients_confirm_tips": "Weet u zeker dat u automatisch offline clients wilt verwijderen? Alle offline clients worden onmiddellijk opgeruimd nadat deze functie is ingeschakeld.",
+        "remove_offline_clients_confirm_tips": "Weet u zeker dat u deze client van de lijst wilt verwijderen? Deze actie verwijdert ook de naam en snelheidslimietinstellingen.",
+        "remove_all_offline_clients_confirm_tips": "Weet u zeker dat u alle clients van de lijst wilt verwijderen? Deze actie verwijdert ook hun naam- en snelheidslimietinstellingen.",
+        "client_speed_limit_tips": "{name} is ingeschakeld, Client Speed Limit werkt niet."
     },
     "menu_clients": "Apparaten",
     "vpn_tunnel": {

@@ -38,7 +38,6 @@
         "mlo_network_tips": "A Wi-Fi 7-es eszközöket ajánlott MLO Wi-Fi-vel összekapcsolni, amely jelentősen javíthatja a hálózati átviteli sebességet és megbízhatóságot a több sávos kapcsolat révén.",
         "open_wifi_security_tips": "\"Nyílt WiFi\" biztonsági kockázatot jelent. Óvatosan használja.",
         "guest_wifi_unavailable_tips": "A vendég Wi-Fi nem érhető el, mert a {repeater} engedélyezve van.",
-        "band_6g_bandwidth_limit_160mhz_tips": "Ha mind a 2,4 GHz-os, mind a 6 GHz-es Wi-Fi engedélyezve van, a 6 GHz-es sáv maximális sávszélessége 160 MHz-ra korlátozódik.",
         "cannot_detect_6g_network_tips": "Egyes eszközök nem érzékelik a 6 GHz-es Wi-Fi-t. A jobb kompatibilitás érdekében engedélyezheti a 2,4 GHz-es és a 6 GHz-es sávot is.",
         "wifi_band": "Wi-Fi sáv",
         "repeater_band_conflict_tips": "A megismétlővel ütköző sáv letiltásra kerül.",
@@ -48,6 +47,19 @@
         "usage_environment_title": "Használati környezet",
         "indoor_label": "Beltéri",
         "outdoor_label": "Kültéri",
-        "environment_tips": "Jogi előírások szerint a Wi-Fi-t „Outdoor” módra kell kapcsolni kultéri használat esetén. Ez csökkenthet a lefedés területét."
+        "environment_tips": "Jogi előírások szerint a Wi-Fi-t „Outdoor” módra kell kapcsolni kultéri használat esetén. Ez csökkenthet a lefedés területét.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "Ha mind a 6GHz fő és vendég Wi-Fi engedélyezve van, a 6GHz sáv maximális sávszélessége 160MHz-ra korlátozódik.",
+        "guest_network_tips": "Biztosítson dedikált hálózatokat a látogatók számára, hogy kényelmes és biztonságos internet-hozzáférést biztosítson.",
+        "iot_network_tips": "IoT eszközökhöz dedikált hálózatokat biztosít. Az IoT eszközök 2,4 GHz-es sávhoz való csatlakoztatása ajánlott a jobb kompatibilitás érdekében.",
+        "mlo_network_title": "Többláncú működés (MLO)",
+        "guest_network_title": "Vendéghálózat",
+        "main_network_title": "Fő hálózat",
+        "iot_network_title": "IoT Hálózat",
+        "add_network_title": "Hozzáadás {networkTitle}",
+        "modify_network_title": "{networkTitle} módosítása",
+        "radio_configuration_title": "Rádió konfiguráció",
+        "delete_network_confirm_tips": "Biztosan törölni szeretné ezt a hálózatot? Ez a művelet nem vonható vissza, és az összes kapcsolódó konfiguráció törlődik.",
+        "radio_configuration_tips": "A következő konfigurációt alkalmazzuk az összes {band} hálózatra.",
+        "band_6g_bandwidth_limit_160mhz_tips": "A 6 GHz-es Wi-Fi akár 160 MHz-es sávszélességet is támogat."
     }
 }

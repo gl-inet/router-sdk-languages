@@ -164,7 +164,9 @@
         "airplane_mode_tips": "Uçak Modu nedeniyle Hücresel Bağlantı devre dışı bırakıldı. Etkinleştirmek için lütfen cihaz ekranından Uçak Modu'nu kapatın.",
         "save_operator_config_fail_msg": "Operatör yapılandırması kaydedilemedi",
         "lock_operation_mode_tip": "Belirli bir operatörü manuel olarak kilitlemeyi seçebilir veya manuel kilitleme başarısız olduğunda otomatik olarak mevcut bir operatör ağına geçiş yapabilirsiniz.",
-        "slot_switch_esim_tips": "Etkinleştirilirse, {sim} eSIM'e geçecek ve fiziksel SIM kartı kullanılamaz hale gelecektir."
+        "slot_switch_esim_tips": "Etkinleştirilirse, {sim} eSIM'e geçecek ve fiziksel SIM kartı kullanılamaz hale gelecektir.",
+        "unlock_pin_tips": "SIM kilidini açmak için PIN girin.",
+        "unlock_pin_err_tips": "PIN kodu {code} yanlış. Lütfen doğru PIN'i girin."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -441,9 +443,10 @@
         "portal_auth_required_title": "Portal Kimlik Doğrulaması Gereklidir",
         "support_channel_tips": "Aşağıdaki Wi-Fi kanalları desteklenmektedir. Bağlanmak istediğiniz Wi-Fi ağının bunlardan birini kullandığından emin olun.",
         "auto_switching_without_network_tips": "{mode} modu etkinleştirildiğinde, yönlendirici tekrarlayıcı modu dışında başarıyla ağa bağlandığında otomatik olarak ağları taramayacak ve yalnızca ağ bağlantısı olmadığında kayıtlı diğer ağlara otomatik olarak geçmeye çalışacaktır. Bu, iletişim paket kaybını önleyebilir.",
-        "band_conflict_tips": "Bağlantı istikrarı için, tekrarlayıcı etkinleştirildiğinde, Misafir Wi-Fi devre dışı bırakılacak ve 5GHz/6GHz Wi-Fi bandı otomatik olarak tekrarlayıcı ile eşleşecektir. Cihazınız otomatik olarak yeniden bağlanmazsa, lütfen Wi-Fi'ye manuel olarak bağlanın.",
         "auto_resume_scan_tips": "İnternet bağlı. Kablosuz iletişim kalitesini sağlamak için Tekrarlayıcı mevcut ağları taramayacaktır; İnternet bağlantısı kesildiğinde otomatik olarak taramaya devam edecektir. Wi-Fi ağına manuel olarak yeniden bağlanabilir veya geçiş yapabilirsiniz.",
-        "initializing_tips": "Tekrarlayıcı başlatılıyor..."
+        "initializing_tips": "Tekrarlayıcı başlatılıyor...",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi, 160MHz bant genişliğine kadar destekler.",
+        "band_conflict_tips": "Kararlı bağlantı için, tekrarlayıcı etkinleştirildiğinde 5GHz/6GHz Wi-Fi bandı otomatik olarak tekrarlayıcı ile eşleşir. Cihazınız otomatik olarak yeniden bağlanmazsa, lütfen Wi-Fi'ye manuel olarak bağlanın."
     },
     "router_visual": {
         "wlan_client": "WLAN İstemcileri",
@@ -587,7 +590,9 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM kayıtlı değil. Lütfen {esimManage} içinde eSIM profilinin etkin olup olmadığını veya Yükleme gerektirip gerektirmediğini kontrol edin veya herhangi bir özel kısıtlamayı onaylamak için eSIM sağlayıcınızla iletişime geçin ve {apnBtn} ayarlarının doğru olduğunu doğrulayın. Mevcut APN boş {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM kayıtlı değil. Lütfen {esimManage} içinde eSIM profilinin etkin olup olmadığını veya Yükleme gerektirip gerektirmediğini kontrol edin veya herhangi bir özel kısıtlama olup olmadığını onaylamak için eSIM sağlayıcınızla iletişime geçin ve {apnBtn} ayarlarının doğru olduğunu doğrulayın. Mevcut APN: {apn} {guide}",
         "ul_bandwidth": "Yukarı Bağlantı Bant Genişliği",
-        "dl_bandwidth": "İndirme Bant Genişliği"
+        "dl_bandwidth": "İndirme Bant Genişliği",
+        "data_traffic_cap_tips": "Mevcut SIM kart, {dataCapAmount} kotasını aşmış durumda.",
+        "data_cap_amount": "Veri Sınırı Miktarı"
     },
     "sim": {
         "sender_label": "Gönderen"

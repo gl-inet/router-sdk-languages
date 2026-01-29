@@ -37,7 +37,6 @@
         "mlo_network_tips": "Si consiglia ai clienti Wi-Fi 7 di connettersi con la rete Wi-Fi MLO, che può migliorare notevolmente la velocità di trasmissione e l'affidabilità della rete grazie alla connessione multibanda.",
         "open_wifi_security_tips": "\"Open WiFi\" presenta rischi per la sicurezza. Utilizzare con cautela.",
         "guest_wifi_unavailable_tips": "La Wi-Fi per ospiti non è disponibile perché {repeater} è abilitato.",
-        "band_6g_bandwidth_limit_160mhz_tips": "Quando sono abilitati sia il Wi-Fi a 2,4 GHz che a 6 GHz, la banda a 6 GHz è limitata a una larghezza di banda massima di 160 MHz.",
         "wifi_band": "Banda Wi-Fi",
         "using_band": "Utilizzando {band}",
         "wifi_band_mutex_tips": "Il Wi-Fi a 5GHz è attivato di default. Se entra in conflitto con il ripetitore, la banda Wi-Fi verrà passata automaticamente a {auto}.",
@@ -47,7 +46,20 @@
         "usage_environment_title": "Ambiente di Uso",
         "indoor_label": "Interno",
         "outdoor_label": "Esterno",
-        "environment_tips": "Ai sensi del regolamento, la modalità Wi-Fi deve essere attivata in \"modalità esterna\" quando si usa all'aperto. Ciò potrebbe ridurre l'area di copertura."
+        "environment_tips": "Ai sensi del regolamento, la modalità Wi-Fi deve essere attivata in \"modalità esterna\" quando si usa all'aperto. Ciò potrebbe ridurre l'area di copertura.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "Quando sia la rete Wi-Fi principale a 6 GHz che quella per gli ospiti sono attivate, la banda a 6 GHz è limitata a una larghezza di banda massima di 160 MHz.",
+        "guest_network_tips": "Fornire reti dedicate ai visitatori per garantire un accesso a Internet comodo e sicuro.",
+        "iot_network_tips": "Fornire reti dedicate per i dispositivi IoT. Si consiglia di collegare i dispositivi IoT alla banda 2,4 GHz per una migliore compatibilità.",
+        "mlo_network_title": "Multi-Link Operation (MLO)",
+        "guest_network_title": "Rete Ospiti",
+        "main_network_title": "Rete Principale",
+        "iot_network_title": "Rete IoT",
+        "add_network_title": "Aggiungi {networkTitle}",
+        "modify_network_title": "Modifica {networkTitle}",
+        "radio_configuration_title": "Configurazione Radio",
+        "delete_network_confirm_tips": "Sei sicuro di voler eliminare questa rete? Questa azione non può essere annullata e tutte le configurazioni correlate verranno cancellate.",
+        "radio_configuration_tips": "La seguente configurazione verrà applicata a tutte le reti {band}.",
+        "band_6g_bandwidth_limit_160mhz_tips": "Il Wi-Fi a 6 GHz supporta una larghezza di banda fino a 160 MHz."
     },
     "menu_wireless": "Wireless"
 }

@@ -17,6 +17,10 @@
         "add_rule_btn": "添加规则",
         "dest_port_label": "目标端口",
         "acl_desc": "{acl} 可以根据协议、目标 IP 地址、源 IP 地址和端口号等规则控制网络流量。如果两个已启用的 {acl} 规则之间存在冲突，设备将优先执行优先级较高的规则。",
-        "name_already_exist_msg": "名称已存在。"
+        "name_already_exist_msg": "名称已存在。",
+        "accept_label": "接受",
+        "drop_label": "丢弃",
+        "reject_label": "拒绝",
+        "add_new_btn": "新增"
     }
 }

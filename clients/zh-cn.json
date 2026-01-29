@@ -80,7 +80,15 @@
         "qos_warning": "客户端速度限制不可用，因为已启用$$$$QoS$$$$。",
         "sqm_warning": "客户端速度限制不可用，因为已启用$$$$SQM$$$$。",
         "enable_conflict_warning": "客户端速度限制不可用，因为 {other} 已启用。",
-        "network_acceleration_warning_tips": "{feature}已启用，客户端速度和流量统计异常，客户端限速功能失效。"
+        "network_acceleration_warning_tips": "{feature}已启用，客户端速度和流量统计异常，客户端限速功能失效。",
+        "auto_remove_offline_clients": "自动移除离线客户端",
+        "auto_remove_offline_clients_tips": "自动移除离线客户端功能当前已开启",
+        "host_network_label": "主机网络",
+        "settings": "设置",
+        "auto_remove_offline_clients_confirm_tips": "你确定要启用自动清理离线客户端功能吗？此功能启用后将立即清理所有的离线客户端。",
+        "remove_offline_clients_confirm_tips": "您确认要从列表中移除这台客户端吗？此操作将同时删除这台客户端对应的名称及限速配置。",
+        "remove_all_offline_clients_confirm_tips": "您确认要从列表中移除所有客户端吗？ 此操作将同时删除这些客户端对应的名称及限速配置。",
+        "client_speed_limit_tips": "{name} 已启用，客户端限速无法正常工作。"
     },
     "menu_clients": "客户端",
     "vpn_tunnel": {

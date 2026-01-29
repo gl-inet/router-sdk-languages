@@ -80,7 +80,15 @@
         "qos_warning": "用戶端速度限制不可用，因為已啟用$$$$QoS$$$$。",
         "sqm_warning": "用戶端速度限制不可用，因為已啟用$$$$SQM$$$$。",
         "enable_conflict_warning": "用戶端速度限制不可用，因為已啟用{other}。",
-        "network_acceleration_warning_tips": "{feature} 已啟用，用戶端速度與流量統計異常，用戶端速度限制功能失效。"
+        "network_acceleration_warning_tips": "{feature} 已啟用，用戶端速度與流量統計異常，用戶端速度限制功能失效。",
+        "auto_remove_offline_clients": "自動移除離線客戶端",
+        "auto_remove_offline_clients_tips": "自動移除離線客戶端目前為開啟狀態",
+        "host_network_label": "主機網路",
+        "settings": "設定",
+        "auto_remove_offline_clients_confirm_tips": "你確定要啟用自動清理離線客戶端功能嗎？此功能啟用後將立即清理所有的離線客戶端。",
+        "remove_offline_clients_confirm_tips": "您確認要從清單中移除這臺用戶端嗎？ 此操作將同時删除這臺用戶端對應的名稱及限速配寘。",
+        "remove_all_offline_clients_confirm_tips": "您確認要從清單中移除所有用戶端嗎？ 此操作將同時删除這些用戶端對應的名稱及限速配寘。",
+        "client_speed_limit_tips": "{name} 已啟用，用戶端限速無法正常工作。"
     },
     "menu_clients": "客戶端",
     "vpn_tunnel": {

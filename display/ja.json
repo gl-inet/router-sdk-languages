@@ -4,7 +4,7 @@
         "security_title": "セキュリティ",
         "personalization_title": "個人設定",
         "displaying_functions_title": "表示機能",
-        "supportable_functions_title": "サポート可能な機能",
+        "supportable_functions_title": "サポート対象機能",
         "function_management": "機能管理",
         "lock_screen": "ロック画面",
         "world_clock": "世界時計",
@@ -33,17 +33,20 @@
         "file_format_msg": "サポートされているファイル形式：JPEGまたはPNG",
         "wallpaper_only": "壁紙のみ",
         "edit_phot_title": "画像を編集",
-        "upload_image_small_size_tips": "画像サイズ < 500K、比率 3:4"
+        "upload_image_small_size_tips": "画像サイズ < 500KB 、比率 3:4"
     },
     "displaymanagement": {
         "wallpaper_label": "壁紙",
-        "signature_label": "個人署名",
+        "signature_label": "パーソナライズされた署名",
         "style1": "スタイル1",
         "signature_msg": "最大80文字",
         "current_label": "現在",
         "set_as_pair_label": "壁紙ペアとして設定",
         "edit_photo_title": "写真を編集",
         "style2": "スタイル2",
-        "limit_image_size_msg": "画像サイズは500KBを超えることはできません"
+        "limit_image_size_msg": "画像サイズは500KBを超えることはできません",
+        "default_style": "壁紙のみ",
+        "upload_image_size_tips": "画像サイズ < 5MB、推奨比率 {ratio}",
+        "upload_image_small_size_tips": "画像サイズ < 5MB、比率 {ratio}"
     }
 }

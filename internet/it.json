@@ -118,9 +118,10 @@
         "portal_auth_required_title": "Autenticazione Portale Richiesta",
         "support_channel_tips": "Sono supportati i seguenti canali Wi-Fi. Assicurati che la rete Wi-Fi a cui ti connetti ne utilizzi uno.",
         "auto_switching_without_network_tips": "Quando la modalità {mode} è abilitata, il router non eseguirà automaticamente la scansione delle reti quando è connesso con successo in modalità non ripetitore, e proverà a passare automaticamente ad altre reti salvate solo quando il router è senza connessione, evitando così la perdita di pacchetti di comunicazione.",
-        "band_conflict_tips": "Per garantire una connessione stabile, quando il ripetitore è attivato, il Wi-Fi Guest verrà disabilitato e la banda Wi-Fi a 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il dispositivo non si riconnette automaticamente, si prega di connettersi manualmente alla rete Wi-Fi.",
         "auto_resume_scan_tips": "Internet connesso. Per garantire la qualità della comunicazione wireless, il Repeater non eseguirà la scansione delle reti disponibili; riprenderà automaticamente la scansione una volta che Internet verrà disconnesso. È possibile riconnettersi o passare manualmente alla rete Wi-Fi.",
-        "initializing_tips": "Il ripetitore si sta inizializzando..."
+        "initializing_tips": "Il ripetitore si sta inizializzando...",
+        "band_6g_bandwidth_limit_160mhz_tips": "Il Wi-Fi a 6 GHz supporta una larghezza di banda fino a 160 MHz.",
+        "band_conflict_tips": "Per una connessione stabile, quando il ripetitore è attivato, la banda Wi-Fi 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il tuo dispositivo non si riconnette automaticamente, connettiti manualmente al Wi-Fi."
     },
     "modem": {
         "title": "Cellulare",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "Il cellulare è stato disabilitato a causa della Modalità Aereo. Per abilitarlo, disattivare la Modalità Aereo sullo schermo del dispositivo.",
         "save_operator_config_fail_msg": "Impossibile salvare la configurazione dell'operatore",
         "lock_operation_mode_tip": "Puoi scegliere di bloccare manualmente un operatore specifico o passare automaticamente a una rete operativa disponibile quando il blocco manuale fallisce.",
-        "slot_switch_esim_tips": "Se abilitato, {sim} passerà a eSIM e la scheda SIM fisica non sarà disponibile."
+        "slot_switch_esim_tips": "Se abilitato, {sim} passerà a eSIM e la scheda SIM fisica non sarà disponibile.",
+        "unlock_pin_tips": "Inserisci il PIN per sbloccare la SIM.",
+        "unlock_pin_err_tips": "Il codice PIN {code} è errato. Inserire il codice PIN corretto."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -575,7 +578,9 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM non registrato. Verifica in {esimManage} se il profilo eSIM è abilitato o richiede una ricarica, oppure contatta il tuo provider eSIM per confermare eventuali restrizioni speciali, e verifica che le impostazioni di {apnBtn} siano corrette. L'APN attuale è vuoto {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM non registrato. Verifica in {esimManage} se il profilo eSIM è abilitato o richiede una ricarica, oppure contatta il tuo provider eSIM per confermare eventuali restrizioni speciali, e verifica che le impostazioni di {apnBtn} siano corrette. APN attuale: {apn} {guide}",
         "ul_bandwidth": "Banda in Uplink",
-        "dl_bandwidth": "Larghezza di banda in downlink"
+        "dl_bandwidth": "Larghezza di banda in downlink",
+        "data_traffic_cap_tips": "La scheda SIM attuale ha superato il {dataCapAmount}.",
+        "data_cap_amount": "Importo del limite di dati"
     },
     "sim": {
         "sender_label": "Mittente"

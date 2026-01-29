@@ -108,7 +108,7 @@
         "domain_detect_failed_tips": "{count}域名檢測失敗。",
         "input_url_link_tips": "請輸入正確的URL，URL檢測將識別域名的正確性。",
         "day_schedule_label": "執行日期",
-        "set_content_filter_label": "設定內容過濾",
+        "set_content_filter_label": "設定內容過濾（可選）",
         "apps_search_placeholder": "搜尋內容或應用程式名稱",
         "device": "{count} 個裝置 | {count} 個裝置",
         "feature_unusable_tips": "此功能無法使用，因為它與 {feature} 衝突。",
@@ -133,7 +133,7 @@
         "select_device_subtitle": "選擇您孩子的裝置",
         "selected_label": "已選取 {count}",
         "create_profile_subtitle": "為您的孩子建立設定檔",
-        "set_content_filter_subtitle": "為您孩子的裝置設定內容篩選器（可選）",
+        "set_content_filter_subtitle": "為您孩子的裝置設定內容篩選器",
         "set_downtime_subtitle": "為您孩子的裝置設定停機時間",
         "select_device_invalid_tips": "請至少選擇一個裝置進行管理。",
         "profile_name_placeholder": "建議的兒童名稱",
@@ -155,7 +155,13 @@
         "delete_wraning_tips": "您確定要刪除此設定檔嗎？",
         "delete_wraning_remove_dep_tips": "此操作無法復原。",
         "bark_feature_unusable_tips": "此功能不可用，因為它與第三方家長監護服務 {feature} 衝突。",
-        "parental_control_desc": "透過家長監護功能，您可以為孩子常用的裝置（例如智慧型手機和平板電腦）設定專屬的網路封鎖時段，封鎖不當應用程式和網站，全面保障孩子的睡眠品質與健康的網路環境。您也可以使用第三方服務 {feature} 進行更多元的網路管理。"
+        "parental_control_desc": "透過家長監護功能，您可以為孩子常用的裝置（例如智慧型手機和平板電腦）設定專屬的網路封鎖時段，封鎖不當應用程式和網站，全面保障孩子的睡眠品質與健康的網路環境。",
+        "no_content_filtering_text": "無內容過濾",
+        "content_filtering_disabled_text": "無內容過濾。您孩子的裝置目前沒有網路內容限制。",
+        "downtime_disabled_text": "停機時間已停用。您孩子的裝置目前沒有網路存取時間限制。",
+        "not_scheduled_label": "未排程",
+        "show_only_selected_label": "僅顯示所選項目",
+        "parental_control_back_desc": "您也可以使用第三方服務 {feature} 來進行更多樣化的網路管理。"
     },
     "menu_parentalcontrol": "家長控制",
     "bark": {

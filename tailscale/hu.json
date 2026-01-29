@@ -19,6 +19,16 @@
         "exit_node_label": "Exit Node",
         "current_ip_tips": "A Tailscale a 100.64.0.0/10 alhálózatot használja, ami ütközhet egy internetszolgáltató által kijelölt címmel vagy VPN-kliens címmel. Ha a WAN IP vagy VPN IP címe ebben az alhálózatban van, kapcsolja ki a Tailscale-t a hálózati problémák elkerülése érdekében.",
         "custom_exit_node_warning": "Ha engedélyezi az Egyéni Exit Node opciót, a készülék az összes kérést az Exit Node-ra továbbítja. Engedélyezés előtt szükséges a készülék alhálózati útvonalainak {subnet} engedélyezése a $$$$Tailscale Admin Console$$$$ oldalon a Tailscale klienskérések továbbításához; ellenkező esetben a kliensek nem fognak tudni internetezni.",
-        "dns_warning_tips": "Amikor belső hálózati IP-címet használ DNS-ként, előfordulhat, hogy nem tud hozzáférni a DNS-szerverhez."
+        "dns_warning_tips": "Amikor belső hálózati IP-címet használ DNS-ként, előfordulhat, hogy nem tud hozzáférni a DNS-szerverhez.",
+        "exit_node_title": "Exit Node",
+        "subnet_routes_title": "Alhálózati útvonalak",
+        "ip_masquerading_label": "IP Maszkarázás",
+        "run_exit_node_label": "Exit Node futtatása",
+        "run_exit_node_tips": "Egy kimeneti csomópont futtatása azt jelenti, hogy a tailnetedben lévő egyéb eszközök minden forgalmukat átirányíthatják a router IP-címén keresztül.",
+        "ip_masquerading_tips": "A LAN-ügyfelek forrás IP-címeit a Tailscale interfész IP-címére írja át.",
+        "advertise_wan_subnets_label": "WAN alhálózatok hirdetése",
+        "advertise_wan_subnets_tips": "Ha ez a beállítás engedélyezve van, a WAN alhálózati útvonalak hirdetve lesznek a Tailscale tailnet felé. Az útvonalak csak a Tailscale Admin Console-ban történő jóváhagyás után lépnek érvénybe.",
+        "advertise_lan_subnets_label": "Hirdetett LAN alhálózatok",
+        "advertise_lan_subnets_tips": "Ha ez a beállítás engedélyezve van, a LAN alhálózati útvonalak hirdetve lesznek a Tailscale tailnet számára. Az útvonalak csak a Tailscale Admin Console-ban történő jóváhagyás után lépnek érvénybe."
     }
 }

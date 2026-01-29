@@ -80,7 +80,15 @@
         "qos_warning": "Limitowanie prędkości klienta jest niedostępne, ponieważ włączono $$$$QoS$$$$.",
         "sqm_warning": "Limitowanie prędkości klienta jest niedostępne, ponieważ włączono $$$$SQM$$$$.",
         "enable_conflict_warning": "Limitowanie prędkości klienta jest niedostępne, ponieważ {other} jest włączone.",
-        "network_acceleration_warning_tips": "{feature} jest włączona, statystyki prędkości i ruchu klienta są nieprawidłowe, limit prędkości klienta nie działa."
+        "network_acceleration_warning_tips": "{feature} jest włączona, statystyki prędkości i ruchu klienta są nieprawidłowe, limit prędkości klienta nie działa.",
+        "auto_remove_offline_clients": "Automatyczne Usuwanie Nieaktywnych Klientów",
+        "auto_remove_offline_clients_tips": "Automatyczne Usuwanie Nieaktywnych Klientów jest obecnie WŁĄCZONE",
+        "host_network_label": "Sieć Hosta",
+        "settings": "Ustawienia",
+        "auto_remove_offline_clients_confirm_tips": "Czy na pewno chcesz włączyć automatyczne usuwanie klientów offline? Wszyscy klienci offline zostaną natychmiast wyczyszczeni po włączeniu tej funkcji.",
+        "remove_offline_clients_confirm_tips": "Czy na pewno chcesz usunąć tego klienta z listy? Ta czynność usunie również jego nazwę i ustawienia limitu prędkości.",
+        "remove_all_offline_clients_confirm_tips": "Czy na pewno chcesz usunąć wszystkich klientów z listy? Ta operacja usunie również ich nazwy oraz ustawienia limitu prędkości.",
+        "client_speed_limit_tips": "{name} jest włączony, ograniczenie prędkości klienta nie działa."
     },
     "menu_clients": "KLIENCI",
     "vpn_tunnel": {

@@ -125,7 +125,9 @@
         "exit_btn": "Scoir",
         "scan_btn": "Scanadh",
         "got_it": "Tuigim é",
-        "export_btn": "Easpórtáil"
+        "export_btn": "Easpórtáil",
+        "example_label": "m.sh. {content}",
+        "share": "Roinn"
     },
     "msg": {
         "copy_success": "Cóipeáil rathúil",
@@ -156,7 +158,8 @@
         "feature_unusable_tips": "Ní oibríonn an ghné seo toisc go bhfuil {feature} cumasaithe.",
         "usb_power_limit_tips": "(Cinntigh le do thoil go bhfuil voltas an tsoláthair chumhachta níos mó ná {power})",
         "limit_tips": "Ní mór níos mó ná {count} iontráil a bheith sa sonraí.",
-        "enable_conflict_warning": "Níl {self} ar fáil mar go bhfuil {other} cumasaithe."
+        "enable_conflict_warning": "Níl {self} ar fáil mar go bhfuil {other} cumasaithe.",
+        "no_battery_charging_tips": "Níl aon mhodúl ceallraí braite. Tá an gléas á chumhachtú faoi láthair ag foinse cumhachta seachtrach."
     },
     "err": {
         "network_not_reachable_msg": "Níl an líonra insroichte",
@@ -213,7 +216,9 @@
         "mac_format_tips": "ní cheadaítear an giotán is lú suntasaí den chéad ochtéad a shocrú go 1 (i.e. ní cheadaítear an dara digit heicsidheachúlach a bheith corr).",
         "auto_update_mac_label": "Nuashonrú Uath MAC",
         "mac_replacement_label": "Timthriall Athsholáthair MAC",
-        "mtu_common_tip": "Socraigh an luach MTU de réir do chás úsáide. D’fhéadfadh socruithe míchearta dícheangal idirlín a chur faoi deara."
+        "mtu_common_tip": "Socraigh an luach MTU de réir do chás úsáide. D’fhéadfadh socruithe míchearta dícheangal idirlín a chur faoi deara.",
+        "iot_ip_tips": "Tá fo-líonra IoT i gcoimhlint leis an bhfo-líonra WAN, aistrigh {iotSubnet} chuig seoladh difriúil le do thoil.",
+        "change_iot_subnet": "Athraigh Fo-líonra IoT"
     },
     "upload": {
         "select_or_drag": "Roghnaigh comhad le hualach nó tarraing anseo é",

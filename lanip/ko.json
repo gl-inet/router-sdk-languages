@@ -27,7 +27,9 @@
         "enable_dhcp_tips": "DHCP 서버는 클라이언트 장치에 자동으로 IP 주소와 다른 통신 매개변수를 할당합니다. DHCP 서버가 비활성화되면, 클라이언트 장치의 네트워크 설정을 수동으로 구성해야 합니다.",
         "dhcp_disable_warning_tips": "DHCP를 비활성화하면 인터넷에 연결하지 못할 수 있으니 주의하세요.",
         "lpr_tips": "여러 프린터 LPR 포트를 넣을 수 있습니다.",
-        "guest_disabel_tips": "{guest} 기능이 비활성화되어 게스트 네트워크가 작동하지 않습니다."
+        "guest_disabel_tips": "{guest} 기능이 비활성화되어 게스트 네트워크가 작동하지 않습니다.",
+        "iot_conflict_tips": "IoT IP와 충돌합니다.",
+        "host_name_tips": "2-63자, 문자, 숫자 또는 하이픈만 허용되며, 하이픈으로 시작하거나 끝날 수 없습니다."
     },
     "menu_guestip": "게스트 네트워크",
     "address_reservation": {
@@ -49,5 +51,11 @@
         "block_wan_label": "WAN 서브넷 차단",
         "block_wan_tips": "이 기능이 활성화되면 게스트 네트워크는 부모 네트워크에 접근할 수 없으며, 게스트 네트워크는 부모 네트워크가 위치한 네트워크 세그먼트를 차단할 것입니다.",
         "not_asscess_tips": "현재 게스트 네트워크는 네트워크 세그먼트 {net}에 접근할 수 없습니다."
+    },
+    "menu_iotip": "IoT 네트워크",
+    "iotip": {
+        "block_wan_tips": "이 기능이 활성화되면 IoT 네트워크는 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 접근할 수 없게 됩니다.",
+        "iot_disabel_tips": "IoT 네트워크는 현재 {iot}가 비활성화되어 사용할 수 없습니다.",
+        "not_asscess_tips": "현재 IoT 네트워크는 네트워크 세그먼트 {net}에 접근할 수 없습니다."
     }
 }

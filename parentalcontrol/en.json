@@ -110,7 +110,7 @@
         "input_url_link_tips": "Please enter the correct URL. The URL detection will identify the correctness of the domain name.",
         "select_device_label": "Select Device",
         "set_downtime_label": "Set Downtime",
-        "set_content_filter_label": "Set Content Filter",
+        "set_content_filter_label": "Set Content Filter (Optional)",
         "customize_days_label": "Customize Days",
         "gambling_name": "Gambling",
         "malicious_content_name": "Malicious Content",
@@ -129,7 +129,7 @@
         "create_profile_subtitle": "Create a profile for your child",
         "select_device_subtitle": "Select your child’s device",
         "set_downtime_subtitle": "Set downtime for your child’s device",
-        "set_content_filter_subtitle": "Set content filter for your child’s device (Optional)",
+        "set_content_filter_subtitle": "Set content filter for your child’s device",
         "profile_name_placeholder": "Child's name recommended",
         "select_device_invalid_tips": "Please select at least one device to manage.",
         "selected_label": "Selected {count}",
@@ -156,7 +156,13 @@
         "delete_wraning_remove_dep_tips": "This action cannot be undone.",
         "feature_unusable_tips": "This feature is unavailable as it conflicts with {feature}.",
         "bark_feature_unusable_tips": "This feature is unavailable as it conflicts with {feature}, a third-party parental control service.",
-        "parental_control_desc": "Through Parental Control, you can set exclusive internet-blocking time periods for your child's commonly used devices (e.g., smartphones and tablets), block inappropriate apps and websites, and fully safeguard your child's sleep quality and healthy online environment. You can also use the third-party service {feature} for more diverse internet management."
+        "parental_control_desc": "Through Parental Control, you can set exclusive internet-blocking time periods for your child's commonly used devices (e.g., smartphones and tablets), block inappropriate apps and websites, and fully safeguard your child's sleep quality and healthy online environment.",
+        "downtime_disabled_text": "Downtime is disabled. Your child’s devices currently have no internet access time restrictions.",
+        "no_content_filtering_text": "No content filtering",
+        "content_filtering_disabled_text": "No content filtering. Your child's devices currently have no internet content restrictions.",
+        "not_scheduled_label": "Not scheduled",
+        "show_only_selected_label": "Show selected item only",
+        "parental_control_back_desc": "You can also use the third-party service {feature} for more diverse internet management."
     },
     "bark": {
         "desc": "Depending on the subscription you choose (Bark or BarkJr), you'll be able to:",

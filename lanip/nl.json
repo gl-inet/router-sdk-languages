@@ -27,7 +27,9 @@
         "ap_isolate_label": "Toegangspuntisolatie",
         "dhcp_disable_warning_tips": "Als u DHCP uitschakelt, kunt u mogelijk geen verbinding maken met Internet. Wees dus voorzichtig.",
         "lpr_tips": "Er kunnen meerdere LPR-poorten worden ingevuld.",
-        "guest_disabel_tips": "{guest} is uitgeschakeld, dus gastnetwerken werken niet."
+        "guest_disabel_tips": "{guest} is uitgeschakeld, dus gastnetwerken werken niet.",
+        "iot_conflict_tips": "Het is in conflict met het IoT IP-adres.",
+        "host_name_tips": "2-63 tekens, alleen letters, cijfers of koppeltekens zijn toegestaan, en mag niet beginnen of eindigen met een koppelteken."
     },
     "address_reservation": {
         "title": "IP-adresreservering",
@@ -49,5 +51,11 @@
         "block_wan_label": "Blokkeer WAN-subnetten",
         "block_wan_tips": "Als deze functie is ingeschakeld, kan het gastnetwerk geen toegang krijgen tot het hoofdnetwerk en zal het gastnetwerk het netwerksegment blokkeren waar het hoofdnetwerk zich bevindt.",
         "not_asscess_tips": "Momenteel kan het gastnetwerk de netwerksegmenten {net} niet bereiken."
+    },
+    "menu_iotip": "IoT-netwerk",
+    "iotip": {
+        "block_wan_tips": "Als deze functie is ingeschakeld, kan het IoT-netwerk niet toegang krijgen tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt.",
+        "iot_disabel_tips": "Het IoT-netwerk is momenteel niet beschikbaar omdat {iot} is uitgeschakeld.",
+        "not_asscess_tips": "Momenteel kan het IoT-netwerk geen toegang krijgen tot de netwerksegmenten {net}."
     }
 }

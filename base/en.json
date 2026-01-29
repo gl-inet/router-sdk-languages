@@ -125,7 +125,9 @@
         "notice_title": "Notice",
         "use_weak_disabled_ssh_tips": "Using weak password will disable SSH and serial input.",
         "important_note": "Important",
-        "export_btn": "Export"
+        "export_btn": "Export",
+        "example_label": "e.g. {content}",
+        "share": "Share"
     },
     "msg": {
         "access_denied": "Invalid user, permission denied or not logged in!",
@@ -223,7 +225,9 @@
         "duplex_half_label": "{speed} Mbps half duplex",
         "mtu_common_tip": "Set the MTU value according to your usage scenario .Incorrect settings may cause internet disconnection.",
         "custom_dns_setting_label": "Custom DNS Settings",
-        "address_label": "Address"
+        "address_label": "Address",
+        "iot_ip_tips": "Iot subnet is in conflict with the WAN subnet, Please {iotSubnet} to a different address.",
+        "change_iot_subnet": "Change IoT Subnet"
     },
     "upload": {
         "select_or_drag": "Select a file to upload or drag it here",
@@ -246,7 +250,8 @@
         "forget_password_btn": "Forget Password?",
         "usb_power_limit_tips": "(Please ensure that the power supply voltage exceeds {power})",
         "current_time_label": "Current Time",
-        "enable_conflict_warning": "{self} is unavailable because {other} is enabled."
+        "enable_conflict_warning": "{self} is unavailable because {other} is enabled.",
+        "no_battery_charging_tips": "No battery module detected. The device is currently powered by an external power source."
     },
     "err": {
         "network_not_reachable_msg": "Network not reachable",

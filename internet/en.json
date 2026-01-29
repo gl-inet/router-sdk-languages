@@ -118,9 +118,10 @@
         "portal_auth_required_title": "Portal Authentication Required",
         "support_channel_tips": "The following Wi-Fi channels are supported. Please ensure that the Wi-Fi network you're connecting to uses one of them.",
         "auto_switching_without_network_tips": "When {mode} mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss.",
-        "band_conflict_tips": "For stable connection, when repeater is enabled, Guest Wi-Fi will be disabled and the 5GHz/6GHz Wi-Fi band will automatically match repeater. If your device does not reconnect automatically, please connect to Wi-Fi manually.",
         "auto_resume_scan_tips": "The Internet is connected. To ensure wireless communication quality, the Repeater will not scan for available networks; it will automatically resume scanning once the Internet is disconnected. You can reconnect or switch to Wi-Fi network manually.",
-        "initializing_tips": "The repeater is initializing..."
+        "initializing_tips": "The repeater is initializing...",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi supports up to 160MHz bandwidth.",
+        "band_conflict_tips": "For stable connection, when repeater is enabled, the 5GHz/6GHz Wi-Fi band will automatically match repeater. If your device does not reconnect automatically, please connect to Wi-Fi manually."
     },
     "modem": {
         "title": "Cellular",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "Cellular has been disabled due to Airplane Mode. To enable it, please turn off Airplane Mode on the device screen.",
         "save_operator_config_fail_msg": "Failed to save operator configuration",
         "lock_operation_mode_tip": "You can choose to manually lock a specific operator, or automatically switch to an available operator network when manual locking fails.",
-        "slot_switch_esim_tips": "If enabled, {sim} will switch to eSIM and the physical SIM card will be unavailable."
+        "slot_switch_esim_tips": "If enabled, {sim} will switch to eSIM and the physical SIM card will be unavailable.",
+        "unlock_pin_tips": "Enter PIN to unlock SIM.",
+        "unlock_pin_err_tips": "PIN code {code} is wrong. Please enter the correct PIN."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -575,7 +578,9 @@
         "esim_not_registered_connection_failed_tips": "eSIM unregistered. Please check in {esimManage} whether the eSIM profile is enabled or requires Top-up , or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN: {apn} {guide}",
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM unregistered. Please check in {esimManage} whether the eSIM profile is enabled or requires Top-up , or contact your eSIM provider to confirm any special restrictions, and verify that the {apnBtn} settings are correct. Current APN is empty {guide}",
         "ul_bandwidth": "Uplink Bandwidth",
-        "dl_bandwidth": "Downlink Bandwidth"
+        "dl_bandwidth": "Downlink Bandwidth",
+        "data_traffic_cap_tips": "The current SIM card has exceeded the {dataCapAmount}.",
+        "data_cap_amount": "Data Cap Amount"
     },
     "sim": {
         "sender_label": "Sender"

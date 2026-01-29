@@ -37,7 +37,6 @@
         "mlo_6g_bssid_tips": "Má chuimsíonn na bandaí raidió Wi-Fi MLO 6 GHz, sioncrónóidh BSSID Wi-Fi MLO nuair a athraíonn BSSID Wi-Fi 6GHz.",
         "mlo_network_tips": "Moltar do chliaint Wi-Fi 7 nascadh le Wi-Fi MLO, ar féidir leis an ráta tarchurtha líonra agus an iontaofacht a fheabhsú go mór trí nascadh ilbhanda.",
         "guest_wifi_unavailable_tips": "Níl Wi-Fi Aíonna ar fáil mar go bhfuil {repeater} cumasaithe.",
-        "band_6g_bandwidth_limit_160mhz_tips": "Nuair a bhíonn Wi-Fi 2.4GHz agus 6GHz araon cumasaithe, tá an banda 6GHz teoranta go bandaleithead uasta de 160MHz.",
         "cannot_detect_6g_network_tips": "D'fhéadfadh sé nach mbeadh roinnt gléasanna in ann Wi-Fi 6GHz a bhrath. Is féidir leat 2.4GHz agus 6GHz a chumasú araon chun comhoiriúnacht níos fearr a fháil.",
         "wifi_band": "Band Wi-Fi",
         "repeater_band_conflict_tips": "Díchumasófar an banna a théann i gcoinne an athsheachadáin.",
@@ -47,7 +46,20 @@
         "usage_environment_title": "Timpeallacht Úsáide",
         "indoor_label": "Faoi dhíon",
         "outdoor_label": "Faoin aer",
-        "environment_tips": "De réir mar a cheanglaítear leis na rialacháin, ní mór do Wi-Fi athrú go mód “Lasmuigh” nuair a úsáidtear lasmuigh é. D’fhéadfadh sé seo an raon clúdaigh a laghdú."
+        "environment_tips": "De réir mar a cheanglaítear leis na rialacháin, ní mór do Wi-Fi athrú go mód “Lasmuigh” nuair a úsáidtear lasmuigh é. D’fhéadfadh sé seo an raon clúdaigh a laghdú.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "Nuair a bhíonn an Príomh-Wi-Fi 6GHz agus an Wi-Fi Aíonna araon cumasaithe, tá an banda 6GHz teoranta go bandaleithead uasta de 160MHz.",
+        "guest_network_tips": "Líonraí tiomnaithe a chur ar fáil do chuairteoirí chun rochtain áisiúil agus slán ar an Idirlíon a chinntiú.",
+        "iot_network_tips": "Cuir líonraí tiomnaithe ar fáil do ghléasanna Idirlín na Rudaí (IoT). Moltar gléasanna Idirlín na Rudaí a nascadh leis an mbanda 2.4GHz le haghaidh comhoiriúnachta níos fearr.",
+        "mlo_network_title": "Oibríocht Il-Nasc (MLO)",
+        "guest_network_title": "Líonra Aoi",
+        "main_network_title": "Príomh-Líonra",
+        "iot_network_title": "Líonra Idirlín na Rudaí",
+        "add_network_title": "Cuir {networkTitle} leis",
+        "modify_network_title": "Athraigh {networkTitle}",
+        "radio_configuration_title": "Cumraíocht Raidió",
+        "delete_network_confirm_tips": "An bhfuil tú cinnte gur mian leat an líonra seo a scriosadh? Ní féidir an gníomh seo a chealú, agus glanfar an chumraíocht ghaolmhar go léir.",
+        "radio_configuration_tips": "Cuirfear an chumraíocht seo a leanas i bhfeidhm ar gach líonra {band}.",
+        "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz suas le 160MHz leithead banda."
     },
     "menu_wireless": "Gan Sreang"
 }

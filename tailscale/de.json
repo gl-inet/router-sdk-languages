@@ -19,6 +19,16 @@
         "exit_node_label": "Ausgangspunkt",
         "custom_exit_node_warning": "Wenn Sie den benutzerdefinierten Exit-Knoten aktivieren, wird das Gerät alle Anfragen an den Exit-Knoten weiterleiten. Bevor Sie diese Funktion aktivieren, müssen Sie die Subnetz-Routen {subnet} dieses Geräts im $$$$Tailscale Admin Console$$$$ für Tailscale aktivieren, damit Tailscale die Clientanfragen weiterleiten kann; andernfalls werden Ihre Clients keinen Zugang zum Internet haben.",
         "current_ip_tips": "Taliscale nutzt das 100.64.0.0/10 Netzwerk, welches vielleicht mit den zugewiesenen Adressen des Internetanbieters oder des VPN Client in Konflikt steht. Wenn das WAN oder VPN Adressen aus diesem Raum benutzt, deaktiviere Taliscale, um zu verhindern dass das Internet oder VPN nicht erreichbar ist.",
-        "dns_warning_tips": "Wenn eine LAN IP Adresse als DNS Server genutzt wird, kann der DNS Server vielleicht nicht erreicht werden."
+        "dns_warning_tips": "Wenn eine LAN IP Adresse als DNS Server genutzt wird, kann der DNS Server vielleicht nicht erreicht werden.",
+        "exit_node_title": "Ausgangsknoten",
+        "subnet_routes_title": "Subnet-Routen",
+        "ip_masquerading_label": "IP Masquerading",
+        "run_exit_node_label": "Exit-Knoten ausführen",
+        "run_exit_node_tips": "Das Betreiben eines Exit-Knotens bedeutet, dass andere Geräte in Ihrem Tailnet ihren gesamten Datenverkehr über die IP-Adresse dieses Routers senden können.",
+        "ip_masquerading_tips": "Überschreibt die Quell-IPs der LAN-Clients mit der IP-Adresse der Tailscale-Schnittstelle.",
+        "advertise_wan_subnets_label": "WAN-Subnetze bekanntgeben",
+        "advertise_wan_subnets_tips": "Wenn diese Option aktiviert ist, werden die WAN-Subnetz-Routen an das Tailscale-Tailnet angekündigt. Die Routen werden erst wirksam, nachdem sie in der Tailscale-Admin-Konsole genehmigt wurden.",
+        "advertise_lan_subnets_label": "LAN-Subnetze bekanntgeben",
+        "advertise_lan_subnets_tips": "Wenn diese Option aktiviert ist, werden die LAN-Subnetz-Routen an das Tailscale-Tailnet angekündigt. Die Routen werden erst nach Genehmigung in der Tailscale-Admin-Konsole wirksam."
     }
 }

@@ -37,7 +37,6 @@
         "mlo_network_tips": "Klientom Wi-Fi 7 zaleca się łączenie z siecią MLO Wi-Fi, co może znacznie poprawić szybkość transmisji danych i niezawodność połączenia dzięki wykorzystaniu wielu pasm.",
         "open_wifi_security_tips": "\"Otwarte WiFi\" wiąże się z ryzykiem bezpieczeństwa. Używaj ostrożnie.",
         "guest_wifi_unavailable_tips": "Gościnne Wi-Fi jest niedostępne, ponieważ włączono {repeater}.",
-        "band_6g_bandwidth_limit_160mhz_tips": "Gdy włączone są zarówno pasmo 2,4 GHz, jak i 6 GHz Wi-Fi, pasmo 6 GHz jest ograniczone do maksymalnej przepustowości 160 MHz.",
         "cannot_detect_6g_network_tips": "Niektóre urządzenia mogą nie wykrywać sieci Wi-Fi w paśmie 6 GHz. Aby zapewnić lepszą kompatybilność, możesz włączyć zarówno pasmo 2,4 GHz, jak i 6 GHz.",
         "wifi_band": "Pasmo Wi-Fi",
         "repeater_band_conflict_tips": "Pasmo, które koliduje z repeaterem, zostanie wyłączone.",
@@ -47,7 +46,20 @@
         "usage_environment_title": "Środowisko Użytkowania",
         "indoor_label": "Wewnątrz",
         "outdoor_label": "Na Zewnątrz",
-        "environment_tips": "Zgodnie z wymogami przepisów, Wi-Fi musi zostać przełączone w tryb „Na zewnątrz” podczas użytkowania na zewnątrz. Może to zmniejszyć zasięg sieci."
+        "environment_tips": "Zgodnie z wymogami przepisów, Wi-Fi musi zostać przełączone w tryb „Na zewnątrz” podczas użytkowania na zewnątrz. Może to zmniejszyć zasięg sieci.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "Gdy zarówno główna, jak i gościnna sieć Wi‑Fi 6GHz są włączone, pasmo 6GHz jest ograniczone do maksymalnej szerokości 160 MHz.",
+        "guest_network_tips": "Zapewnij dedykowane sieci dla gości, aby zapewnić wygodny i bezpieczny dostęp do Internetu.",
+        "iot_network_tips": "Zapewnij dedykowane sieci dla urządzeń IoT. Zaleca się podłączanie urządzeń IoT do pasma 2.4 GHz dla lepszej kompatybilności.",
+        "mlo_network_title": "Operacja wielopołączeniowa (MLO)",
+        "guest_network_title": "Sieć Gościnna",
+        "main_network_title": "Główna sieć",
+        "iot_network_title": "Sieć IoT",
+        "add_network_title": "Dodaj {networkTitle}",
+        "modify_network_title": "Modyfikuj {networkTitle}",
+        "radio_configuration_title": "Konfiguracja Radia",
+        "delete_network_confirm_tips": "Czy na pewno chcesz usunąć tę sieć? Tej operacji nie można cofnąć, a wszystkie powiązane konfiguracje zostaną usunięte.",
+        "radio_configuration_tips": "Następna konfiguracja zostanie zastosowana do wszystkich sieci {band}.",
+        "band_6g_bandwidth_limit_160mhz_tips": "Wi-Fi 6GHz obsługuje przepustowość do 160 MHz."
     },
     "menu_wireless": "WI-FI"
 }

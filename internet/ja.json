@@ -118,9 +118,10 @@
         "portal_auth_required_title": "ポータル認証が必要",
         "support_channel_tips": "以下のWi-Fiチャンネルがサポートされています。接続するWi-Fiネットワークがこれらのいずれかを使用しているか確認してください。",
         "auto_switching_without_network_tips": "{mode}モードが有効になっている場合、ルーターは非リピーターモードでネットワークに正常に接続すると、自動的にネットワークをスキャンしません。ルーターがネットワークに接続されていない場合にのみ、保存されている他のネットワークへの自動切り替えを試みます。これにより、通信パケットの損失を防ぐことができます。",
-        "band_conflict_tips": "安定した接続を維持するため、リピーター機能が有効になると、ゲストWi-Fiは無効化され、5GHz/6GHz Wi-Fiバンドは自動的にリピーター設定に合わせられます。お使いの端末が自動的に再接続しない場合は、手動でWi-Fiに接続してください。",
         "auto_resume_scan_tips": "インターネットに接続されています。無線通信の品質を確保するため、リピーターは利用可能なネットワークのスキャンを停止します。インターネット接続が切断されると自動的にスキャンを再開します。手動で再接続するか、Wi-Fiネットワークに切り替えることができます。",
-        "initializing_tips": "リピーターを初期化しています..."
+        "initializing_tips": "リピーターを初期化しています...",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fiは最大160MHzの帯域幅をサポートしています。",
+        "band_conflict_tips": "安定した接続のため、リピーターが有効になっている場合、5GHz/6GHz Wi-Fiバンドは自動的にリピーターと一致します。デバイスが自動的に再接続しない場合は、手動でWi-Fiに接続してください。"
     },
     "modem": {
         "title": "セルラー",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "機内モードが有効になっているため、セルラーネットワークは無効になっています。有効にするには、デバイス画面で機内モードをオフにしてください。",
         "save_operator_config_fail_msg": "オペレータ設定の保存に失敗しました",
         "lock_operation_mode_tip": "特定のオペレータを手動でロックするか、手動ロックが失敗した場合に利用可能なオペレータネットワークに自動的に切り替えるかを選択できます。",
-        "slot_switch_esim_tips": "有効にすると、{sim}はeSIMに切り替わり、物理SIMカードは使用できなくなります。"
+        "slot_switch_esim_tips": "有効にすると、{sim}はeSIMに切り替わり、物理SIMカードは使用できなくなります。",
+        "unlock_pin_tips": "SIMをアンロックするためのPINを入力してください。",
+        "unlock_pin_err_tips": "PINコード{code}が間違っています。正しいPINを入力してください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -575,7 +578,9 @@
         "esim_not_registered_connection_failed_tips": "eSIMが登録されていません。{esimManage}でeSIMプロファイルが有効になっているか、またはトップアップが必要かどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPN: {apn} {guide}",
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIMが登録されていません。{esimManage}でeSIMプロファイルが有効になっているか、またはトップアップが必要かどうかを確認するか、eSIMプロバイダーに連絡して特別な制限を確認し、{apnBtn}設定が正しいことを確認してください。現在のAPNは空です{guide}",
         "ul_bandwidth": "アップリンク帯域幅",
-        "dl_bandwidth": "ダウンリンク帯域幅"
+        "dl_bandwidth": "ダウンリンク帯域幅",
+        "data_traffic_cap_tips": "現在のSIMカードは{dataCapAmount}を超えています。",
+        "data_cap_amount": "データ上限額"
     },
     "sim": {
         "sender_label": "送信者"

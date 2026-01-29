@@ -8,7 +8,14 @@
         "power_direction_label": "Güç Yönü",
         "tethring_label": "Tethering",
         "usb_host_label": "USB Tethering (Ana Bilgisayar)",
-        "input_label": "Giriş Önceliği"
+        "input_label": "Giriş Önceliği",
+        "interface_tips": "USB ayarları yalnızca veri portu için geçerlidir ve yalnızca güç portunu etkilemez.",
+        "ask_me_tips": "Her seferinde sor (rolü zorlama)",
+        "usb_host_tips": "USB Ana Bilgisayar olarak davranır (uyumlu USB Çevre Birimlerini kabul eder)",
+        "usb_tethering_tips": "USB Tether Cihazı olarak davranır (ana bilgisayara bir USB ağ adaptörü olarak görünür)",
+        "power_data_direction_label": "Güç Yönü (Veri Portu)",
+        "power_power_direction_label": "Güç Yönü (Güç Portu)",
+        "power_threshold_tips": "Harici güç çıkışı için minimum pil eşiği (USB cihazları bu seviyenin altında kullanılamaz)"
     },
     "power": {
         "power_title": "Güç",

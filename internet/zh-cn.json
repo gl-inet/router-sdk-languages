@@ -118,9 +118,10 @@
         "portal_auth_required_title": "需要门户认证",
         "support_channel_tips": "以下为支持的 Wi-Fi 信道，请确保您所连接的 Wi-Fi 网络使用的信道是其中之一。",
         "auto_switching_without_network_tips": "启用“{mode}”模式后，路由器在非中继模式下联网成功后不会自动扫描网络，只会在无网络时尝试自动切换到其他保存的网络，这样可以避免通信数据包丢失。",
-        "band_conflict_tips": "为保证网络连接稳定性，中继启用时，访客网络将禁用，且 5GHz/6GHz Wi-Fi 频段跟随中继网络。若设备未能自动连接，请手动选择该 Wi-Fi 网络。",
         "auto_resume_scan_tips": "互联网已连接，为了确保无线通信质量，中继将暂停扫描可用网络；一旦互联网断开，它将自动恢复扫描。您可以手动重连或切换Wi-Fi网络。",
-        "initializing_tips": "中继正在初始化..."
+        "initializing_tips": "中继正在初始化...",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi 最高支持 160MHz 带宽。",
+        "band_conflict_tips": "为保证网络连接稳定性，中继启用时，5GHz/6GHz Wi-Fi 频段将和中继网络频段保持一致。若设备未能自动重连网络，请手动连接 Wi-Fi。"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "蜂窝网络已因飞行模式被禁用。如需启用，请前往设备屏幕端关闭飞行模式。",
         "save_operator_config_fail_msg": "保存运营商配置失败",
         "lock_operation_mode_tip": "您可选择手动锁定特定运营商，或者在手动锁定失败时自动切换到可用的运营商网络。",
-        "slot_switch_esim_tips": "如果启用，{sim}将切换到eSIM，实体SIM卡将无法使用。"
+        "slot_switch_esim_tips": "如果启用，{sim}将切换到eSIM，实体SIM卡将无法使用。",
+        "unlock_pin_tips": "输入PIN码解锁SIM卡。",
+        "unlock_pin_err_tips": "PIN 码{code}错误。请输入正确的 PIN 码。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -575,7 +578,9 @@
         "esim_not_registered_connection_failed_tips": "eSIM 未注册，请检查 {esimManage}中对应 Profile 是否已启用或需充值，或联系 eSIM 厂商确认是否存在特殊限制，再确认 {apnBtn} 设置是否正确，当前APN：{apn} {guide}",
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM 未注册，请检查 {esimManage}中对应 Profile 是否已启用或需充值，或联系 eSIM 厂商确认是否存在特殊限制，再确认 {apnBtn} 设置是否正确，当前 APN 值为空 {guide}",
         "ul_bandwidth": "上行带宽",
-        "dl_bandwidth": "下行带宽"
+        "dl_bandwidth": "下行带宽",
+        "data_traffic_cap_tips": "当前 SIM 卡已超出{dataCapAmount}。",
+        "data_cap_amount": "流量数据上限额度"
     },
     "sim": {
         "sender_label": "发件人"

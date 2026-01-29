@@ -125,7 +125,9 @@
         "notice_title": "Hinweis",
         "use_weak_disabled_ssh_tips": "Die Verwendung eines schwachen Kennworts deaktiviert SSH und serielle Eingabe.",
         "important_note": "Wichtig",
-        "export_btn": "Exportieren"
+        "export_btn": "Exportieren",
+        "example_label": "z.B. {content}",
+        "share": "Teilen"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -195,7 +197,9 @@
         "mode_label": "{tab} Modus",
         "mtu_common_tip": "Legen Sie den MTU-Wert gemäß Ihrer Anwendung fest. Falsche Einstellungen können zu einer Unterbrechung des Netzwerks führen.",
         "custom_dns_setting_label": "Benutzerdefinierte DNS-Einstellungen",
-        "address_label": "Adresse"
+        "address_label": "Adresse",
+        "iot_ip_tips": "Das IoT-Subnetz steht in Konflikt mit dem WAN-Subnetz. Bitte ändern Sie {iotSubnet} auf eine andere Adresse.",
+        "change_iot_subnet": "IoT-Subnetz ändern"
     },
     "date": {
         "wednesday": "Mi | Mittwoch",
@@ -246,7 +250,8 @@
         "forget_password_btn": "Kennwort vergessen?",
         "usb_power_limit_tips": "(Bitte stellen Sie sicher, dass die Versorgungsspannung {power} überschreitet)",
         "current_time_label": "Aktuelle Zeit",
-        "enable_conflict_warning": "{self} ist nicht verfügbar, da {other} aktiviert ist."
+        "enable_conflict_warning": "{self} ist nicht verfügbar, da {other} aktiviert ist.",
+        "no_battery_charging_tips": "Kein Batteriemodul erkannt. Das Gerät wird derzeit von einer externen Stromquelle versorgt."
     },
     "err": {
         "abnormal_operation_msg": "Unerwarteter Fehler",

@@ -27,7 +27,9 @@
         "ap_isolate_tips": "Galite izoliuoti savo tinklo klientų įrenginius į atskirą tinklo sritį. Šie įrenginiai negali bendrauti su kitais įrenginiais, tinkle.",
         "dhcp_disable_warning_tips": "Jei išjungsite „DHCP“, gali būti, kad negalėsite prisijungti prie interneto, todėl prašome būti atsargiems.",
         "lpr_tips": "Galima užpildyti kelerius „LPR“ spausdintuvo prievadus.",
-        "guest_disabel_tips": "{guest} – yra išjungta/neįgalinta (-s/-i), todėl svečių tinklas yra nepasiekiamas."
+        "guest_disabel_tips": "{guest} – yra išjungta/neįgalinta (-s/-i), todėl svečių tinklas yra nepasiekiamas.",
+        "iot_conflict_tips": "Tai yra konflikte su IoT IP",
+        "host_name_tips": "2-63 simboliai, leidžiamos tik raidės, skaitmenys arba brūkšneliai, ir negali prasidėti ar baigtis brūkšneliu."
     },
     "address_reservation": {
         "confirm_delete": "Ar tikrai norite ištrinti rezervuoto adreso įrašą?",
@@ -49,5 +51,11 @@
         "block_wan_label": "Blokuoti „WAN“ potinklius",
         "block_wan_tips": "Jei ši funkcija – įjungta/įgalinta, tada svečių tinklas negalės pasiekti pagrindinio (viršutinio) tinklo ir svečių tinklas blokuos tinklo segmentą, kuriame yra pagrindinis (viršutinis) tinklas.",
         "not_asscess_tips": "Šiuo metu, svečio tinklas negali pasiekti tinklo segmentų – {net}."
+    },
+    "menu_iotip": "„IoT“ – Daiktų interneto tinklas",
+    "iotip": {
+        "block_wan_tips": "Jei ši funkcija yra įjungta, IoT tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
+        "iot_disabel_tips": "IoT tinklas šiuo metu nepasiekiamas, nes {iot} yra išjungtas.",
+        "not_asscess_tips": "Šiuo metu IoT tinklas negali pasiekti tinklo segmentų {net}."
     }
 }

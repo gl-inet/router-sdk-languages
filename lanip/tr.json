@@ -27,7 +27,9 @@
         "ap_isolate_tips": "Ağınızdaki istemci cihazlarını ayrı bir ağ alanına izole edebilirsiniz. Bu cihazlar ağdaki diğer cihazlarla iletişim kuramaz.",
         "dhcp_disable_warning_tips": "DHCP'yi devre dışı bırakırsanız, internete bağlanamayabilirsiniz, bu nedenle lütfen dikkatli olun.",
         "lpr_tips": "Birden fazla yazıcı LPR bağlantı noktası doldurulabilir.",
-        "guest_disabel_tips": "Misafir ağı şu anda kullanılamıyor çünkü {guest} devre dışı bırakıldı."
+        "guest_disabel_tips": "Misafir ağı şu anda kullanılamıyor çünkü {guest} devre dışı bırakıldı.",
+        "iot_conflict_tips": "IoT IP ile çakışıyor",
+        "host_name_tips": "2-63 karakter, yalnızca harf, rakam veya tire içerebilir ve tire ile başlayıp bitemez."
     },
     "address_reservation": {
         "title": "Adres Rezervasyonu",
@@ -49,5 +51,11 @@
         "not_asscess_tips": "Şu anda misafir ağı {net} ağ segmentlerine erişemiyor.",
         "block_wan_label": "WAN Alt Ağlarını Engelle",
         "block_wan_tips": "Bu işlev etkinleştirilirse, misafir ağı üst ağa ve üst ağın bulunduğu ağ segmentine erişemeyecektir."
+    },
+    "menu_iotip": "IoT Ağı",
+    "iotip": {
+        "block_wan_tips": "Bu işlev etkinleştirildiğinde, IoT ağı üst ağa ve üst ağın bulunduğu ağ segmentine erişemeyecektir.",
+        "iot_disabel_tips": "IoT ağı şu anda kullanılamıyor çünkü {iot} devre dışı bırakıldı.",
+        "not_asscess_tips": "Şu anda IoT ağı {net} ağ segmentlerine erişemiyor."
     }
 }

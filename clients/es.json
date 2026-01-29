@@ -80,7 +80,15 @@
         "qos_warning": "La limitación de velocidad del cliente no está disponible porque $$$$QoS$$$$ está habilitado.",
         "sqm_warning": "La limitación de velocidad del cliente no está disponible porque $$$$SQM$$$$ está habilitado.",
         "enable_conflict_warning": "La limitación de velocidad del cliente no está disponible porque {other} está habilitado.",
-        "network_acceleration_warning_tips": "{feature} está habilitada, las estadísticas de velocidad y tráfico del cliente son anormales, el límite de velocidad del cliente no funciona."
+        "network_acceleration_warning_tips": "{feature} está habilitada, las estadísticas de velocidad y tráfico del cliente son anormales, el límite de velocidad del cliente no funciona.",
+        "auto_remove_offline_clients": "Eliminar automáticamente clientes sin conexión",
+        "auto_remove_offline_clients_tips": "La función de Eliminación Automática de Clientes Desconectados está actualmente ACTIVADA.",
+        "host_network_label": "Red de anfitrión",
+        "settings": "Configuración",
+        "auto_remove_offline_clients_confirm_tips": "¿Está seguro de que desea habilitar la eliminación automática de clientes desconectados? Todos los clientes desconectados se limpiarán inmediatamente después de habilitar esta función.",
+        "remove_offline_clients_confirm_tips": "¿Está seguro de que desea eliminar este cliente de la lista? Esta acción también eliminará su nombre y configuraciones de límite de velocidad.",
+        "remove_all_offline_clients_confirm_tips": "¿Está seguro de que desea eliminar todos los clientes de la lista? Esta acción también eliminará su nombre y configuraciones de límite de velocidad.",
+        "client_speed_limit_tips": "{name} está habilitado, el límite de velocidad del cliente no funciona."
     },
     "menu_clients": "Clientes",
     "vpn_tunnel": {

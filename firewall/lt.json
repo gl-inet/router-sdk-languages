@@ -33,7 +33,9 @@
         "adjust _priority_btn": "Reguliuoti prioritetą",
         "port_value_tips": "Prievadų diapazonas yra nuo 1-o iki 65535-iu. Jūs galite nustatyti vieną prievadą arba prievadų diapazoną, sujungiant/surišant pirmojo ir paskutiniojo prievado numerius su simboliu – „-“ (pavyzdžiui, 501-510).",
         "port_range_tips": "„{exPort}“ neatitinka „{inPort}“ diapazonui.",
-        "vpnclient_zone_tips": "„VPN“ tuneliai su ta pačia konfigūracija naudos tą pačią užkardos zoną, o tunelio konfigūracijos keitimas (redagavimas) gali turėti įtakos prievadų persiuntimui."
+        "vpnclient_zone_tips": "„VPN“ tuneliai su ta pačia konfigūracija naudos tą pačią užkardos zoną, o tunelio konfigūracijos keitimas (redagavimas) gali turėti įtakos prievadų persiuntimui.",
+        "firewallview_port_tips": "Prievadų diapazonas yra nuo 1 iki 65535. Galite nustatyti vieną prievadą arba prievadų diapazoną, sujungdami pirmąjį ir paskutinįjį prievadų numerius brūkšneliu (pvz., 501-510), su maksimaliai 100 prievadų viename diapazone.",
+        "firewallview_port_range_message": "Persiuntimas iš vieno išorinio prievado į kelis vidinius prievadus nepalaikomas."
     },
     "menu_firewallview": "Užkarda"
 }

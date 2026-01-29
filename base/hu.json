@@ -47,7 +47,9 @@
         "duplex_half_label": "{speed} Mbps félduplex",
         "mtu_common_tip": "Adja meg az MTU-csomagméret értékét a használati szándéknak megfelelően! A nem megfelelő érték a kapcsolat szakadozását eredményezheti.",
         "custom_dns_setting_label": "Egyéni DNS beállítások",
-        "address_label": "Cím"
+        "address_label": "Cím",
+        "iot_ip_tips": "Az IoT alhálózat ütközik a WAN alhálózattal, kérjük, módosítsa az {iotSubnet} címet egy másik címre.",
+        "change_iot_subnet": "IoT alhálózat módosítása"
     },
     "core": {
         "click here_btn": "Kattintson ide",
@@ -175,7 +177,9 @@
         "notice_title": "Értesítés",
         "use_weak_disabled_ssh_tips": "Gyenge jelszó használata az SSH-hozzáférés és a soros kapcsolat korlátozásával jár.",
         "important_note": "Fontos",
-        "export_btn": "Exportálás"
+        "export_btn": "Exportálás",
+        "example_label": "pl. {content}",
+        "share": "Megosztás"
     },
     "msg": {
         "success": "Végrehajtva!",
@@ -246,7 +250,8 @@
         "lost_account_btn": "Elveszett fiók?",
         "usb_power_limit_tips": "(Kérem, győződjön meg róla, hogy a tápellátás meghaladja a(z) {power} értéket)",
         "current_time_label": "Jelenlegi idö",
-        "enable_conflict_warning": "{self} 不可用，因为 {other} 已启用。"
+        "enable_conflict_warning": "{self} 不可用，因为 {other} 已启用。",
+        "no_battery_charging_tips": "Nincs akkumulátor modul észlelve. A készülék jelenleg külső áramforrásról működik."
     },
     "err": {
         "network_not_reachable_msg": "Hálózat nem elérhető",

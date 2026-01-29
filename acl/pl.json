@@ -17,6 +17,10 @@
         "add_rule_btn": "Dodaj Regułę",
         "acl_desc": "{acl} może kontrolować ruch sieciowy na podstawie reguł takich jak protokół, docelowy adres IP, źródłowy adres IP i numer portu. Jeśli istnieje konflikt między dwiema włączonymi regułami {acl}, urządzenie nada priorytet regule o wyższym priorytecie.",
         "add_acl_dialog_title": "Dodaj regułę ACL",
-        "name_already_exist_msg": "Nazwa już istnieje."
+        "name_already_exist_msg": "Nazwa już istnieje.",
+        "accept_label": "Zaakceptuj",
+        "drop_label": "Upuść",
+        "reject_label": "Odrzuć",
+        "add_new_btn": "Dodaj Nowy"
     }
 }

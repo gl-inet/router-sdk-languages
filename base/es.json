@@ -125,7 +125,9 @@
         "notice_title": "Aviso",
         "use_weak_disabled_ssh_tips": "El uso de contraseñas débiles deshabilitará el acceso SSH y la entrada por puerto serie.",
         "important_note": "Importante",
-        "export_btn": "Exportar"
+        "export_btn": "Exportar",
+        "example_label": "p. ej. {content}",
+        "share": "Compartir"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -223,7 +225,9 @@
         "auto_update_mac_time_label": "Por Tiempo",
         "mtu_common_tip": "Establezca el valor de MTU de acuerdo con su escenario de uso. Configuraciones incorrectas pueden causar desconexión de internet.",
         "custom_dns_setting_label": "Configuración de DNS Personalizada",
-        "address_label": "Dirección"
+        "address_label": "Dirección",
+        "iot_ip_tips": "La subred de IoT está en conflicto con la subred de WAN, por favor cambie {iotSubnet} a una dirección diferente.",
+        "change_iot_subnet": "Cambiar subred de IoT"
     },
     "upload": {
         "select_or_drag": "Selecciona un archivo para subir o arrástralo aquí",
@@ -246,7 +250,8 @@
         "forget_password_btn": "¿Olvidó su contraseña?",
         "usb_power_limit_tips": "(Asegúrese de que el voltaje de la fuente de alimentación supere {power})",
         "current_time_label": "Hora actual",
-        "enable_conflict_warning": "{self} no está disponible porque {other} está habilitado."
+        "enable_conflict_warning": "{self} no está disponible porque {other} está habilitado.",
+        "no_battery_charging_tips": "No se detectó ningún módulo de batería. El dispositivo está actualmente alimentado por una fuente de energía externa."
     },
     "err": {
         "network_not_reachable_msg": "La red no es alcanzable",

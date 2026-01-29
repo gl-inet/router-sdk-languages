@@ -19,6 +19,16 @@
         "exit_node_label": "Nód Scoir",
         "current_ip_tips": "Úsáideann Tailscale an fho-líonra 100.64.0.0/10, a d’fhéadfadh teacht salach ar sheoladh a shannadh an tSoláthraí Seirbhíse nó ar sheoladh cliant VPN. Má tá do IP WAN nó IP VPN laistigh den fho-líonra seo, díchumasaigh Tailscale chun nach mbeidh tú gan líonra.",
         "custom_exit_node_warning": "Má chuirtear Nód Scoite Saincheaptha i bhfeidhm, tabharfaidh an gléas gach iarratas ar aghaidh chuig an Nód Scoite. Sula gcuirfidh tú i bhfeidhm é, ní mór duit bealaigh fho-líonra {subnet} an ghléis seo a chumasú i $$$$Tailscale Admin Console$$$$ chun go dtabharfaidh Tailscale iarratais ó chliaint ar aghaidh; mura ndéanfaidh tú sin, ní bheidh do chliaint in ann rochtain a fháil ar an Idirlíon.",
-        "dns_warning_tips": "Agus seoladh IP inlíon in úsáid mar DNS, b'fhéidir nach mbeidh tú in ann rochtain a fháil ar an bhfreastalaí DNS."
+        "dns_warning_tips": "Agus seoladh IP inlíon in úsáid mar DNS, b'fhéidir nach mbeidh tú in ann rochtain a fháil ar an bhfreastalaí DNS.",
+        "exit_node_title": "Nód Scoir",
+        "subnet_routes_title": "Fo-réasú Fo-líonra",
+        "ip_masquerading_label": "Ceilt IP (IP Masquerading)",
+        "run_exit_node_label": "Rith Nóid Dúnta",
+        "run_exit_node_tips": "Ag rith le nód imeachta a chiallaíonn go bhféadfaidh gach gléas eile i do líonra eireabaill a gcuid tráchta ar fad a sheoladh trí sheoladh IP an ródaire seo.",
+        "ip_masquerading_tips": "Athshraithíonn sé seo seoltaí IP foinse cliant LAN chuig seoladh IP an chomhéadain tailscale.",
+        "advertise_wan_subnets_label": "Fógra Fo-Líonraí WAN",
+        "advertise_wan_subnets_tips": "Má tá an rogha seo cumasaithe, déanfar bealaí an fho-líonra WAN a fhógairt chuig tailnet Tailscale. Ní bheidh tionchar ag na bealaí ach tar éis iad a cheadú i gConsól Riaracháin Tailscale.",
+        "advertise_lan_subnets_label": "Fógra Fo-Líonraí LAN",
+        "advertise_lan_subnets_tips": "Má tá an rogha seo cumasaithe, déanfar na bealaí fo-líonra LAN a fhógairt chuig tailnet Tailscale. Ní bheidh tionchar ag na bealaí ach tar éis iad a cheadú i gConsól Riaracháin Tailscale."
     }
 }

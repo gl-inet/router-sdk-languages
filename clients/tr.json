@@ -81,7 +81,15 @@
         "qos_warning": "İstemci Hız Sınırı, $$$$QoS$$$$ etkin olduğu için kullanılamaz.",
         "sqm_warning": "İstemci Hız Sınırı, $$$$SQM$$$$ etkin olduğu için kullanılamaz.",
         "enable_conflict_warning": "İstemci Hız Sınırı kullanılamıyor çünkü {other} etkinleştirilmiş.",
-        "network_acceleration_warning_tips": "{feature} etkinleştirildi, İstemci Hızı ve Trafik İstatistikleri anormal, İstemci Hız Sınırı çalışmıyor."
+        "network_acceleration_warning_tips": "{feature} etkinleştirildi, İstemci Hızı ve Trafik İstatistikleri anormal, İstemci Hız Sınırı çalışmıyor.",
+        "auto_remove_offline_clients": "Çevrimdışı İstemcileri Otomatik Kaldır",
+        "auto_remove_offline_clients_tips": "Çevrimdışı İstemcileri Otomatik Kaldır şu anda AÇIK",
+        "host_network_label": "Ana Ağ",
+        "settings": "Ayarlar",
+        "auto_remove_offline_clients_confirm_tips": "Otomatik çevrimdışı istemci kaldırmayı etkinleştirmek istediğinizden emin misiniz? Bu işlev etkinleştirildikten sonra tüm çevrimdışı istemciler hemen temizlenecektir.",
+        "remove_offline_clients_confirm_tips": "Bu istemciyi listeden kaldırmak istediğinizden emin misiniz? Bu işlem aynı zamanda adını ve hız sınırı ayarlarını da kaldıracaktır.",
+        "remove_all_offline_clients_confirm_tips": "Listedeki tüm istemcileri kaldırmak istediğinizden emin misiniz? Bu işlem aynı zamanda adlarını ve hız sınırı ayarlarını da kaldıracaktır.",
+        "client_speed_limit_tips": "{name} etkinleştirildi, İstemci Hız Sınırı çalışmıyor."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN bağlı.",

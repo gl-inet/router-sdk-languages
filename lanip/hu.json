@@ -26,7 +26,9 @@
         "lpr_serve_label": "LPR Szerver",
         "security_title": "Biztonsági beállítások",
         "ap_isolate_label": "Hálózat elszigetelése",
-        "ap_isolate_tips": "Izolálhatja hálózatának klienseszközeit egy külön hálózati területre. Ezek az eszközök nem kommunikálhatnak a hálózat más eszközeivel."
+        "ap_isolate_tips": "Izolálhatja hálózatának klienseszközeit egy külön hálózati területre. Ezek az eszközök nem kommunikálhatnak a hálózat más eszközeivel.",
+        "iot_conflict_tips": "Ütközik az IoT IP-vel",
+        "host_name_tips": "2-63 karakter, csak betűk, számok vagy kötőjelek megengedettek, és nem kezdődhet vagy végződhet kötőjellel."
     },
     "address_reservation": {
         "title": "Címrezerváció",
@@ -49,5 +51,11 @@
         "block_wan_label": "WAN alhálózatok blokkolása",
         "block_wan_tips": "Ha ez a funkció engedélyezve van, a vendéghálózat nem férhet hozzá a szülőhálózathoz, és a vendéghálózat blokkolni fogja azt a hálózati szegmenst, ahol a szülőhálózat található.",
         "not_asscess_tips": "Jelenleg a vendéghálózat nem fér hozzá a {net} hálózati szegmensekhez."
+    },
+    "menu_iotip": "IoT Hálózat",
+    "iotip": {
+        "block_wan_tips": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fogja tudni elérni a felső hálózatot és annak hálózati szegmensét.",
+        "iot_disabel_tips": "Az IoT hálózat jelenleg nem elérhető, mert az {iot} le van tiltva.",
+        "not_asscess_tips": "Jelenleg az IoT hálózat nem fér hozzá a {net} hálózati szegmensekhez."
     }
 }

@@ -37,7 +37,6 @@
         "mlo_network_tips": "Wi-Fi 7 clients are recommended to connect with MLO Wi-Fi, which can greatly improve the network transmission rate and reliability through multi-band connection.",
         "open_wifi_security_tips": "\"Open WiFi\" has security risks. Use with caution.",
         "guest_wifi_unavailable_tips": "Guest Wi-Fi is unavailable because {repeater} is enabled.",
-        "band_6g_bandwidth_limit_160mhz_tips": "When both 2.4GHz and 6GHz Wi-Fi are enabled, the 6GHz band is limited to a maximum bandwidth of 160MHz.",
         "cannot_detect_6g_network_tips": "Some devices may not detect 6GHz Wi-Fi. You can enable both 2.4GHz and 6GHz for better compatibility.",
         "wifi_band": "Wi-Fi Band",
         "repeater_band_conflict_tips": "The band that conflicts with repeater will be disabled.",
@@ -47,7 +46,20 @@
         "usage_environment_title": "Usage Environment",
         "indoor_label": "Indoor",
         "outdoor_label": "Outdoor",
-        "environment_tips": "As required by regulations, Wi-Fi must switch to “Outdoor” mode when used outdoors. This may reduce coverage range."
+        "environment_tips": "As required by regulations, Wi-Fi must switch to “Outdoor” mode when used outdoors. This may reduce coverage range.",
+        "guest_6g_bandwidth_limit_160mhz_tips": "When both the 6GHz Main and Guest Wi-Fi are enabled, the 6GHz band is limited to a maximum bandwidth of 160MHz.",
+        "guest_network_tips": "Provide dedicated networks for visitors to ensure convenient and secure Internet access.",
+        "iot_network_tips": "Provide dedicated networks for IoT devices. It is recommended to connect IoT devices to the 2.4GHz band for better compatibility.",
+        "mlo_network_title": "Multi-Link Operation (MLO)",
+        "main_network_title": "Main Network",
+        "guest_network_title": "Guest Network",
+        "iot_network_title": "IoT Network",
+        "add_network_title": "Add {networkTitle}",
+        "modify_network_title": "Modify {networkTitle}",
+        "radio_configuration_title": "Radio Configuration",
+        "delete_network_confirm_tips": "Are you sure you want to delete this network? This action cannot be undone, and all related configuration will be cleared.",
+        "radio_configuration_tips": "The following configuration will be applied to all {band} networks.",
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi supports up to 160MHz bandwidth."
     },
     "menu_wireless": "Wireless"
 }

@@ -19,6 +19,16 @@
         "exit_node_label": "出口节点",
         "current_ip_tips": "Tailscale 使用 100.64.0.0/10 子网，这可能和 ISP 分配的地址或 VPN 客户端地址冲突。若您的 WAN IP 或 VPN 使用了此子网内地址，请禁用 Tailscale。",
         "custom_exit_node_warning": "如果您启用自定义出口节点，设备将把所有请求转发至出口节点。在启用之前，您必须在$$$$Tailscale管理控制台$$$$中启用此设备的子网路由{subnet}，以便Tailscale转发客户端请求；否则，您的客户端将无法访问互联网。",
-        "dns_warning_tips": "使用内网 IP 地址作为 DNS 时，您可能会无法访问 DNS 服务器。"
+        "dns_warning_tips": "使用内网 IP 地址作为 DNS 时，您可能会无法访问 DNS 服务器。",
+        "exit_node_title": "出口节点",
+        "subnet_routes_title": "子网路由",
+        "ip_masquerading_label": "IP 动态伪装",
+        "run_exit_node_label": "运行出口节点",
+        "run_exit_node_tips": "运行出口节点意味着您的 tailnet 中的其他设备可以通过该路由器的 IP 地址发送所有流量。",
+        "ip_masquerading_tips": "将 LAN 客户端来源 IP 改写为路由器的 tailscale 接口 IP。",
+        "advertise_wan_subnets_label": "通告WAN子网",
+        "advertise_wan_subnets_tips": "开启该选项后，将把 WAN 网段路由发布到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台进行批准后才能生效。",
+        "advertise_lan_subnets_label": "通告局域网子网",
+        "advertise_lan_subnets_tips": "开启该选项后，将把 LAN 网段路由发布到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台进行批准后才能生效。"
     }
 }

@@ -81,7 +81,9 @@
         "esim_not_registered_connection_failed_tips": "eSIM gan chlárú. Seiceáil i {esimManage} an bhfuil an próifíl eSIM cumasaithe nó an bhfuil Top-up ag teastáil, nó déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a dheimhniú, agus deimhnigh go bhfuil na socruithe {apnBtn} ceart. APN reatha: {apn} {guide}",
         "esim_not_registered_apn_is_empty_connection_failed_tips": "Tá eSIM gan chlárú. Seiceáil i {esimManage} an bhfuil an próifíl eSIM cumasaithe nó an bhfuil Top-up ag teastáil, nó déan teagmháil le do sholáthraí eSIM chun aon srianta speisialta a dheimhniú, agus deimhnigh go bhfuil na socruithe {apnBtn} ceart. Tá APN reatha folamh {guide}",
         "ul_bandwidth": "Bandaleithead Nasc suas",
-        "dl_bandwidth": "Bandaleithead Nasc síos"
+        "dl_bandwidth": "Bandaleithead Nasc síos",
+        "data_traffic_cap_tips": "Tá an {dataCapAmount} sáraithe ag an gcárta SIM reatha.",
+        "data_cap_amount": "Méid an Teorainn Sonraí"
     },
     "sms": {
         "del_sms": "Scrios",
@@ -251,9 +253,10 @@
         "regionally_allowed_channel_tips": "Ní féidir leis an ródaire seo ach comharthaí cainéil Wi-Fi a chuardach a cheadaítear sa réigiún reatha.",
         "portal_auth_required_title": "Fíordheimhniú Tairseach Riachtanach",
         "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint.",
-        "band_conflict_tips": "Chun nascadh cobhsaí, nuair a chuirtear an athsheachadán i bhfeidhm, díchumasaítear an Wi-Fi Aoi agus déanfaidh an mhuinchille Wi-Fi 5GHz/6GHz meaitseáil go huathoibríoch leis an athsheachadán. Mura ndéanann do ghléas athenascadh go huathoibríoch, déan ceangal le Wi-Fi de láimh.",
         "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht na cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheoltóir scanadh le haghaidh líonraí atá ar fáil; leanfaidh sé ar aghaidh ag scanadh go huathoibríoch a luaithe a dhícheanglaítear an tIdirlíon. Is féidir leat athcheangal nó aistriú chuig líonra Wi-Fi de láimh.",
-        "initializing_tips": "Tá an t-athsheoltóir ag tosú..."
+        "initializing_tips": "Tá an t-athsheoltóir ag tosú...",
+        "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz suas le 160MHz leithead banda.",
+        "band_conflict_tips": "Chun nasc a bhaint amach, nuair a bhíonn an athsheachadán cumasaithe, déanfaidh an banda Wi-Fi 5GHz/6GHz a mheaitseáil leis an athsheachadán go huathoibríoch. Mura ndéanann do ghléas athcheangal go huathoibríoch, déan ceangal leis an Wi-Fi de láimh le do thoil."
     },
     "modem": {
         "manually_tips": "Ionchur Láimhe",
@@ -390,7 +393,9 @@
         "airplane_mode_tips": "Tá an fón póca díchumasaithe mar gheall ar Mhód Eitleáin. Chun é a chumasú, múch Mód Eitleáin ar scáileán an ghléis le do thoil.",
         "save_operator_config_fail_msg": "Theip ar chumraíocht an oibreora a shábháil",
         "lock_operation_mode_tip": "Is féidir leat oibreoir sonrach a ghlasáil de láimh, nó aistriú go huathoibríoch chuig líonra oibreoir atá ar fáil nuair a theipeann ar an nglasáil de láimh.",
-        "slot_switch_esim_tips": "Má chuirtear ar siúl é, athróidh {sim} go eSIM agus ní bheidh an cárta SIM fisiceach ar fáil."
+        "slot_switch_esim_tips": "Má chuirtear ar siúl é, athróidh {sim} go eSIM agus ní bheidh an cárta SIM fisiceach ar fáil.",
+        "unlock_pin_tips": "Cuir isteach an PIN chun an SIM a dhíghlasáil.",
+        "unlock_pin_err_tips": "Tá an cód PIN {code} mícheart. Cuir isteach an cód ceart le do thoil."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",

@@ -83,9 +83,10 @@
         "portal_auth_required_title": "Wymagane uwierzytelnienie portalu",
         "support_channel_tips": "Obsługiwane są następujące kanały Wi-Fi. Upewnij się, że sieć Wi-Fi, z którą się łączysz, korzysta z jednego z nich.",
         "auto_switching_without_network_tips": "Gdy tryb {mode} jest włączony, router nie będzie automatycznie skanował sieci, gdy zostanie pomyślnie połączony w trybie innym niż repeater, i będzie próbował automatycznie przełączyć się na inne zapisane sieci tylko wtedy, gdy router nie będzie miał połączenia, co pozwala uniknąć utraty pakietów komunikacyjnych.",
-        "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy wzmacniacz jest włączony, sieć Wi-Fi dla gości zostanie wyłączona, a pasmo 5 GHz/6 GHz automatycznie dostosuje się do wzmacniacza. Jeśli twoje urządzenie nie połączy się automatycznie, proszę połączyć się z Wi-Fi ręcznie.",
         "auto_resume_scan_tips": "Internet jest podłączony. Aby zapewnić jakość komunikacji bezprzewodowej, Repeater nie będzie skanował dostępnych sieci; automatycznie wznowi skanowanie po rozłączeniu z Internetem. Możesz ręcznie ponownie połączyć się lub przełączyć na sieć Wi-Fi.",
-        "initializing_tips": "Repeater jest w trakcie inicjalizacji..."
+        "initializing_tips": "Repeater jest w trakcie inicjalizacji...",
+        "band_6g_bandwidth_limit_160mhz_tips": "Wi-Fi 6GHz obsługuje przepustowość do 160 MHz.",
+        "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy repeater jest włączony, pasmo Wi-Fi 5GHz/6GHz automatycznie dopasuje się do repeatera. Jeśli Twoje urządzenie nie połączy się ponownie automatycznie, proszę połączyć się z Wi-Fi ręcznie."
     },
     "cable": {
         "title": "Ethernet",
@@ -328,7 +329,9 @@
         "airplane_mode_tips": "Tryb komórkowy został wyłączony z powodu trybu samolotowego. Aby go włączyć, wyłącz tryb samolotowy na ekranie urządzenia.",
         "save_operator_config_fail_msg": "Nie udało się zapisać konfiguracji operatora",
         "lock_operation_mode_tip": "Możesz wybrać ręczne zablokowanie konkretnego operatora lub automatyczne przełączenie na dostępną sieć operatora, gdy ręczne blokowanie nie powiedzie się.",
-        "slot_switch_esim_tips": "Jeśli włączone, {sim} przełączy się na eSIM, a fizyczna karta SIM będzie niedostępna."
+        "slot_switch_esim_tips": "Jeśli włączone, {sim} przełączy się na eSIM, a fizyczna karta SIM będzie niedostępna.",
+        "unlock_pin_tips": "Wprowadź PIN, aby odblokować kartę SIM.",
+        "unlock_pin_err_tips": "Kod PIN {code} jest nieprawidłowy. Proszę wprowadzić poprawny kod PIN."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -575,7 +578,9 @@
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM niezarejestrowany. Sprawdź w {esimManage}, czy profil eSIM jest włączony lub wymaga doładowania, lub skontaktuj się z dostawcą eSIM, aby potwierdzić ewentualne specjalne ograniczenia, i sprawdź, czy ustawienia {apnBtn} są poprawne. Bieżący APN jest pusty {guide}",
         "esim_not_registered_connection_failed_tips": "eSIM niezarejestrowany. Sprawdź w {esimManage}, czy profil eSIM jest włączony lub wymaga doładowania, lub skontaktuj się z dostawcą eSIM, aby potwierdzić ewentualne specjalne ograniczenia, i sprawdź, czy ustawienia {apnBtn} są poprawne. Bieżący APN: {apn} {guide}",
         "ul_bandwidth": "Przepustowość Łącza Nadrzędnego",
-        "dl_bandwidth": "Przepustowość Łącza w Dół"
+        "dl_bandwidth": "Przepustowość Łącza w Dół",
+        "data_traffic_cap_tips": "Obecna karta SIM przekroczyła limit {dataCapAmount}.",
+        "data_cap_amount": "Limit Danych"
     },
     "sim": {
         "sender_label": "Nadawca"

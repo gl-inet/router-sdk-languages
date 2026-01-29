@@ -19,6 +19,16 @@
         "custom_exit_node_tips": "Se questa opzione è abilitata, il dispositivo inoltrerà tutte le richieste al Nodo di Uscita. Prima di abilitare, è necessario abilitare le rotte di subnet {subnet} di questo dispositivo nella $$$$Console di Amministrazione Tailscale$$$$ affinché Tailscale possa inoltrare le richieste dei client; in caso contrario, i vostri client non saranno in grado di accedere a Internet.",
         "current_ip_tips": "Tailscale usa la sottorete 100.64.0.0/10, che può entrare in conflitto con un indirizzo assegnato dall'ISP o da un Client VPN. Se il tuo indirizzo WAN o l'IP della VPN appartengono a tale sottorete, disabilita Tailscale per evitare di non poter navigare.",
         "custom_exit_node_warning": "Se si abilita il Nodo di Uscita Personalizzato, il dispositivo inoltrerà tutte le richieste al Nodo di Uscita. Prima di abilitare, è necessario abilitare le rotte di subnet {subnet} di questo dispositivo nella $$$$Console di Amministrazione Tailscale$$$$ affinché Tailscale possa inoltrare le richieste dei client; in caso contrario, i vostri client non saranno in grado di accedere a Internet.",
-        "dns_warning_tips": "Quando si utilizza un indirizzo IP Intranet come DNS, potrebbe non essere possibile accedere al server DNS."
+        "dns_warning_tips": "Quando si utilizza un indirizzo IP Intranet come DNS, potrebbe non essere possibile accedere al server DNS.",
+        "exit_node_title": "Nodo di Uscita",
+        "subnet_routes_title": "Subnet Routes",
+        "ip_masquerading_label": "IP Masquerading",
+        "run_exit_node_label": "运行出口节点",
+        "run_exit_node_tips": "Gestire un nodo di uscita significa che gli altri dispositivi nella tua tailnet possono inviare tutto il loro traffico attraverso l'indirizzo IP di questo router.",
+        "ip_masquerading_tips": "Rewrites LAN client source IPs to the IP address of tailscale interface.",
+        "advertise_wan_subnets_label": "Advertise WAN Subnets",
+        "advertise_wan_subnets_tips": "Se questa opzione è abilitata, le rotte della subnet WAN verranno pubblicizzate nella tailnet di Tailscale. Le rotte avranno effetto solo dopo essere state approvate nella Console di Amministrazione di Tailscale.",
+        "advertise_lan_subnets_label": "Advertise LAN Subnets",
+        "advertise_lan_subnets_tips": "Se questa opzione è abilitata, le rotte della sottorete LAN verranno pubblicizzate nella tailnet di Tailscale. Le rotte avranno effetto solo dopo essere state approvate nella Console di Amministrazione di Tailscale."
     }
 }

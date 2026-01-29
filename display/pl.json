@@ -1,7 +1,7 @@
 {
     "menu_display": "Zarządzanie Wyświetlaniem",
     "display": {
-        "security_title": "Bezpieczeństwo",
+        "security_title": "BEZPIECZEŃSTWO",
         "personalization_title": "Personalizacja",
         "function_management": "Zarządzanie Funkcjami",
         "enable_screen_passcode": "Włącz Kod Dostępu do Ekranu",
@@ -37,13 +37,16 @@
     },
     "displaymanagement": {
         "set_as_pair_label": "Ustaw jako zestaw tapet",
-        "style2": "styl2",
+        "style2": "Styl 2",
         "signature_label": "Spersonalizowany Podpis",
         "wallpaper_label": "Tapeta",
-        "style1": "styl1",
+        "style1": "Styl 1",
         "signature_msg": "Maksymalnie 80 znaków.",
         "current_label": "Aktualny",
         "edit_photo_title": "Edytuj Zdjęcie",
-        "limit_image_size_msg": "Rozmiar obrazu nie może przekraczać 500 KB"
+        "limit_image_size_msg": "Rozmiar obrazu nie może przekraczać 500 KB",
+        "default_style": "Tylko Tapeta",
+        "upload_image_size_tips": "Rozmiar obrazu < 5 MB; Zalecane proporcje {ratio}",
+        "upload_image_small_size_tips": "Rozmiar obrazu < 5 MB, Proporcje {ratio}"
     }
 }

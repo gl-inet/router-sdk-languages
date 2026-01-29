@@ -118,9 +118,10 @@
         "portal_auth_required_title": "Portal-Authentifizierung erforderlich",
         "support_channel_tips": "Folgende WLAN-Kanäle werden unterstützt. Bitte stellen Sie sicher, dass das WLAN-Netzwerk, mit dem Sie sich verbinden, einen davon verwendet.",
         "auto_switching_without_network_tips": "Wenn der {mode}-Modus aktiviert ist, wird der Router im Nicht-Repeater-Modus keine automatische Netzwerksuche durchführen, nachdem er erfolgreich vernetzt wurde. Er versucht nur dann, automatisch auf andere gespeicherte Netzwerke umzuschalten, wenn keine Netzwerkverbindung besteht. Dies kann Paketverluste in der Kommunikation vermeiden.",
-        "band_conflict_tips": "Für eine stabile Verbindung wird, wenn der Repeater aktiviert ist, das Gast-WLAN deaktiviert und das 5-GHz-/6-GHz-WLAN-Band automatisch an den Repeater angepasst. Sollte Ihr Gerät sich nicht automatisch neu verbinden, verbinden Sie sich bitte manuell mit dem WLAN.",
         "auto_resume_scan_tips": "Das Internet ist verbunden. Um die Qualität der drahtlosen Kommunikation zu gewährleisten, wird der Repeater keine verfügbaren Netzwerke scannen; die Suche wird automatisch fortgesetzt, sobald die Internetverbindung unterbrochen wird. Sie können sich manuell erneut verbinden oder zu einem anderen WLAN-Netzwerk wechseln.",
-        "initializing_tips": "Der Repeater wird initialisiert..."
+        "initializing_tips": "Der Repeater wird initialisiert...",
+        "band_6g_bandwidth_limit_160mhz_tips": "6-GHz-WLAN unterstützt eine Bandbreite von bis zu 160 MHz.",
+        "band_conflict_tips": "Für eine stabile Verbindung wird bei aktiviertem Repeater das 5-GHz/6-GHz-WLAN-Band automatisch an den Repeater angepasst. Wenn Ihr Gerät sich nicht automatisch neu verbindet, verbinden Sie sich bitte manuell mit dem WLAN."
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -257,7 +258,9 @@
         "airplane_mode_tips": "Der Mobilfunk wurde aufgrund des Flugmodus deaktiviert. Um ihn zu aktivieren, schalten Sie bitte den Flugmodus auf dem Gerätebildschirm aus.",
         "save_operator_config_fail_msg": "Fehler beim Speichern der Betriebskonfiguration",
         "lock_operation_mode_tip": "Sie können wählen, einen bestimmten Betreiber manuell zu sperren oder automatisch zu einem verfügbaren Betreibernetz zu wechseln, wenn die manuelle Sperrung fehlschlägt.",
-        "slot_switch_esim_tips": "Wenn aktiviert, wechselt {sim} zu eSIM und die physische SIM-Karte ist nicht verfügbar."
+        "slot_switch_esim_tips": "Wenn aktiviert, wechselt {sim} zu eSIM und die physische SIM-Karte ist nicht verfügbar.",
+        "unlock_pin_tips": "Geben Sie die PIN ein, um die SIM-Karte zu entsperren.",
+        "unlock_pin_err_tips": "PIN-Code {code} ist falsch. Bitte geben Sie den korrekten PIN ein."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -575,7 +578,9 @@
         "esim_not_registered_connection_failed_tips": "eSIM nicht registriert. Bitte prüfen Sie in {esimManage}, ob das eSIM-Profil aktiviert ist oder eine Aufladung benötigt, oder wenden Sie sich an Ihren eSIM-Anbieter, um eventuelle besondere Einschränkungen zu bestätigen, und verifizieren Sie, dass die {apnBtn}-Einstellungen korrekt sind. Aktueller APN: {apn} {guide}",
         "esim_not_registered_apn_is_empty_connection_failed_tips": "eSIM nicht registriert. Bitte prüfen Sie in {esimManage}, ob das eSIM-Profil aktiviert ist oder eine Aufladung benötigt, oder wenden Sie sich an Ihren eSIM-Anbieter, um eventuelle besondere Einschränkungen zu bestätigen, und verifizieren Sie, ob die {apnBtn}-Einstellungen korrekt sind. Der aktuelle APN ist leer {guide}.",
         "ul_bandwidth": "Uplink-Bandbreite",
-        "dl_bandwidth": "Downlink-Bandbreite"
+        "dl_bandwidth": "Downlink-Bandbreite",
+        "data_traffic_cap_tips": "Die aktuelle SIM-Karte hat das {dataCapAmount} überschritten.",
+        "data_cap_amount": "Datenvolumen-Betrag"
     },
     "sim": {
         "sender_label": "Absender"
