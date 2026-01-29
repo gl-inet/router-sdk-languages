@@ -22,6 +22,9 @@
         "dns_warning_tips": "Cuando se utiliza una dirección IP de la intranet como DNS, es posible que no se pueda acceder al servidor DNS.",
         "exit_node_title": "Nodo de salida",
         "subnet_routes_title": "Rutas de Subred",
-        "ip_masquerading_label": "Enmascaramiento de IP"
+        "ip_masquerading_label": "Enmascaramiento de IP",
+        "run_exit_node_label": "Ejecutar Nodo de Salida",
+        "run_exit_node_tips": "Ejecutar un nodo de salida significa que otros dispositivos en tu tailnet pueden enviar todo su tráfico a través de la dirección IP de este router.",
+        "ip_masquerading_tips": "Reescribe las IPs de origen de los clientes de la LAN a la dirección IP de la interfaz de Tailscale."
     }
 }
