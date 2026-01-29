@@ -22,6 +22,9 @@
         "dns_warning_tips": "Lorsque vous utilisez une adresse IP intranet comme DNS, il se peut que vous ne puissiez pas accéder au serveur DNS.",
         "exit_node_title": "Noeuds de sortie",
         "subnet_routes_title": "Sous-réseaux Routés",
-        "ip_masquerading_label": "IP Masqué"
+        "ip_masquerading_label": "IP Masqué",
+        "run_exit_node_label": "Exécuter le nœud de sortie",
+        "run_exit_node_tips": "Exécuter un nœud de sortie signifie que les autres appareils de votre tailnet peuvent envoyer tout leur trafic via l'adresse IP de ce routeur.",
+        "ip_masquerading_tips": "Réécrit les adresses IP source des clients LAN en l'adresse IP de l'interface Tailscale."
     }
 }
