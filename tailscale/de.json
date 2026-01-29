@@ -22,6 +22,9 @@
         "dns_warning_tips": "Wenn eine LAN IP Adresse als DNS Server genutzt wird, kann der DNS Server vielleicht nicht erreicht werden.",
         "exit_node_title": "Ausgangsknoten",
         "subnet_routes_title": "Subnet-Routen",
-        "ip_masquerading_label": "IP Masquerading"
+        "ip_masquerading_label": "IP Masquerading",
+        "run_exit_node_label": "Exit-Knoten ausführen",
+        "run_exit_node_tips": "Das Betreiben eines Exit-Knotens bedeutet, dass andere Geräte in Ihrem Tailnet ihren gesamten Datenverkehr über die IP-Adresse dieses Routers senden können.",
+        "ip_masquerading_tips": "Überschreibt die Quell-IPs der LAN-Clients mit der IP-Adresse der Tailscale-Schnittstelle."
     }
 }
