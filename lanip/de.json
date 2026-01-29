@@ -27,7 +27,8 @@
         "ap_isolate_label": "AP Isolation",
         "ap_isolate_tips": "Die Clients können in einem eigenen Netzwerkbereich isoliert werden. Diese Geräte können nicht mit anderen Geräten im Netzwerk kommunizieren.",
         "guest_disabel_tips": "{guest} ist deaktiviert, daher wird das Gastnetzwerk nicht funktionieren.",
-        "iot_conflict_tips": "Es steht in Konflikt mit der IoT-IP."
+        "iot_conflict_tips": "Es steht in Konflikt mit der IoT-IP.",
+        "host_name_tips": "2-63 Zeichen, nur Buchstaben, Ziffern oder Bindestriche sind erlaubt, und es darf nicht mit einem Bindestrich beginnen oder enden."
     },
     "address_reservation": {
         "note": "Beachten Sie, dass der konfigurierte Client sich neu verbinden muss, um aktiv zu werden.",
