@@ -28,7 +28,8 @@
         "dhcp_disable_warning_tips": "DHCP를 비활성화하면 인터넷에 연결하지 못할 수 있으니 주의하세요.",
         "lpr_tips": "여러 프린터 LPR 포트를 넣을 수 있습니다.",
         "guest_disabel_tips": "{guest} 기능이 비활성화되어 게스트 네트워크가 작동하지 않습니다.",
-        "iot_conflict_tips": "IoT IP와 충돌합니다."
+        "iot_conflict_tips": "IoT IP와 충돌합니다.",
+        "host_name_tips": "2-63자, 문자, 숫자 또는 하이픈만 허용되며, 하이픈으로 시작하거나 끝날 수 없습니다."
     },
     "menu_guestip": "게스트 네트워크",
     "address_reservation": {
