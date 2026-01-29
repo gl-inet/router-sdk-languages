@@ -27,7 +27,6 @@
         "run_exit_node_tips": "Exécuter un nœud de sortie signifie que les autres appareils de votre tailnet peuvent envoyer tout leur trafic via l'adresse IP de ce routeur.",
         "ip_masquerading_tips": "Réécrit les adresses IP source des clients LAN en l'adresse IP de l'interface Tailscale.",
         "advertise_wan_subnets_label": "Annoncer les sous-réseaux WAN",
-        "advertise_wan_subnets_tips": "Si cette option est activée, les routes du sous-réseau WAN seront annoncées au réseau Tailscale. Les routes ne prendront effet qu'après avoir été approuvées dans la console d'administration Tailscale.",
-        "advertise_lan_subnets_label": "Si cette option est activée, les sous-réseaux LAN seront annoncés au réseau Tailscale. Les routes ne prendront effet qu'après avoir été approuvées dans la console d'administration Tailscale."
+        "advertise_wan_subnets_tips": "Si cette option est activée, les routes du sous-réseau WAN seront annoncées au réseau Tailscale. Les routes ne prendront effet qu'après avoir été approuvées dans la console d'administration Tailscale."
     }
 }
