@@ -28,7 +28,8 @@
         "dhcp_serve_title": "Serveur DHCP",
         "enable_dhcp_tips": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication à chaque appareil client. Si le serveur DHCP est désactivé, vous devrez les configurer manuellement pour chaque client.",
         "guest_disabel_tips": "Le réseau invité n'est pas disponible actuellement car {guest} est désactivé.",
-        "iot_conflict_tips": "Il est en conflit avec l'IP IoT"
+        "iot_conflict_tips": "Il est en conflit avec l'IP IoT",
+        "host_name_tips": "2 à 63 caractères, seules les lettres, les chiffres ou les traits d'union sont autorisés, et ne doivent pas commencer ou se terminer par un trait d'union."
     },
     "address_reservation": {
         "title": "Adresses Reservées",
