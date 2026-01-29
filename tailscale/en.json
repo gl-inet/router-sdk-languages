@@ -25,6 +25,9 @@
         "ip_masquerading_label": "IP Masquerading",
         "run_exit_node_tips": "Running an exit node means other devices in your tailnet can send all their traffic through this router’s IP address.",
         "run_exit_node_label": "Run Exit Node",
-        "ip_masquerading_tips": "Rewrites LAN client source IPs to the IP address of tailscale interface."
+        "ip_masquerading_tips": "Rewrites LAN client source IPs to the IP address of tailscale interface.",
+        "advertise_wan_subnets_label": "Advertise WAN Subnets",
+        "advertise_wan_subnets_tips": "If this option is enabled, the WAN subnet routes will be advertised to the Tailscale tailnet. Routes will only take effect after being approved in the Tailscale Admin Console.",
+        "advertise_lan_subnets_label": "If this option is enabled, the LAN subnet routes will be advertised to the Tailscale tailnet. Routes will only take effect after being approved in the Tailscale Admin Console."
     }
 }
