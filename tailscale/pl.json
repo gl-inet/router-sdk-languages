@@ -25,6 +25,9 @@
         "ip_masquerading_label": "Maskarada IP",
         "run_exit_node_label": "Uruchom węzeł wyjściowy",
         "run_exit_node_tips": "Uruchomienie węzła wyjściowego oznacza, że inne urządzenia w twojej sieci tailnet mogą przesyłać cały swój ruch przez adres IP tego routera.",
-        "ip_masquerading_tips": "Przepisuje źródłowe adresy IP klientów LAN na adres IP interfejsu Tailscale."
+        "ip_masquerading_tips": "Przepisuje źródłowe adresy IP klientów LAN na adres IP interfejsu Tailscale.",
+        "advertise_wan_subnets_label": "Advertise WAN Subnets",
+        "advertise_wan_subnets_tips": "Jeśli ta opcja jest włączona, trasy podsieci WAN będą ogłaszane w sieci Tailscale. Trasy zaczną obowiązywać dopiero po zatwierdzeniu w Konsoli Administracyjnej Tailscale.",
+        "advertise_lan_subnets_label": "Jeśli ta opcja jest włączona, trasy podsieci LAN będą ogłaszane w sieci Tailscale. Trasy zaczną obowiązywać dopiero po zatwierdzeniu w Konsoli Administracyjnej Tailscale."
     }
 }
