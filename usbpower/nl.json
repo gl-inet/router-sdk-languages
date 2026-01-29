@@ -14,7 +14,8 @@
         "usb_host_tips": "Fungeren als USB-host (accepteert compatibele USB-periferie)",
         "usb_tethering_tips": "Fungeren als USB-tether-apparaat (presenteert zich als een USB-netwerkadapter voor een host)",
         "power_power_direction_label": "Stroomrichting (Stroompoort)",
-        "power_data_direction_label": "Stroomrichting (Datapoort)"
+        "power_data_direction_label": "Stroomrichting (Datapoort)",
+        "power_threshold_tips": "Minimale batterijdrempel voor externe stroomuitvoer (USB-apparaten zijn niet beschikbaar onder dit niveau)"
     },
     "power": {
         "ethernet_idle_timeout_label": "Ethernet Inactiviteit Time-out",
