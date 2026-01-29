@@ -22,6 +22,9 @@
         "dns_warning_tips": "Bir intranet IP adresini DNS olarak kullanırken, DNS sunucusuna erişemeyebilirsiniz.",
         "exit_node_title": "Çıkış Düğümü",
         "subnet_routes_title": "Alt Ağ Yolları",
-        "ip_masquerading_label": "IP Masquerading"
+        "ip_masquerading_label": "IP Masquerading",
+        "run_exit_node_label": "Çıkış Düğümünü Çalıştır",
+        "run_exit_node_tips": "Bir çıkış düğümü çalıştırmak, tailnet'inizdeki diğer cihazların tüm trafiğini bu yönlendiricinin IP adresi üzerinden gönderebileceği anlamına gelir.",
+        "ip_masquerading_tips": "Tailscale arayüzünün IP adresine LAN istemci kaynak IP'lerini yeniden yazar."
     }
 }
