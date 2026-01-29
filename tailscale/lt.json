@@ -19,6 +19,9 @@
         "dns_warning_tips": "Naudojant „intranet“ IP adresą kaip „DNS“; Jūs galimai negalėsite pasiekti šį „DNS“ serverį.",
         "manual_node_label": "Pasirinktinis tinklo išėjimo mazgas",
         "exit_node_label": "Tinklo išėjimo mazgas",
-        "current_ip_tips": "„Tailscale“ naudoja – 100.64.0.0/10 potinklį, kuris gali konfliktuoti su interneto paslaugų teikėjo paskirtu adresu arba „VPN“ kliento adresu. Jei Jūsų plačiajame tinkle („WAN“) esantis IP arba „VPN“ IP yra šiame potinklyje, išjunkite „Tailscale“, kad išvengtumėte tinklo neprieinamumo problemų."
+        "current_ip_tips": "„Tailscale“ naudoja – 100.64.0.0/10 potinklį, kuris gali konfliktuoti su interneto paslaugų teikėjo paskirtu adresu arba „VPN“ kliento adresu. Jei Jūsų plačiajame tinkle („WAN“) esantis IP arba „VPN“ IP yra šiame potinklyje, išjunkite „Tailscale“, kad išvengtumėte tinklo neprieinamumo problemų.",
+        "exit_node_title": "Išeiti iš tinklo mazgo",
+        "subnet_routes_title": "Potinklių maršrutai",
+        "nat_title": "NAT"
     }
 }
