@@ -25,6 +25,9 @@
         "ip_masquerading_label": "IP Maszkarázás",
         "run_exit_node_label": "Exit Node futtatása",
         "run_exit_node_tips": "Egy kimeneti csomópont futtatása azt jelenti, hogy a tailnetedben lévő egyéb eszközök minden forgalmukat átirányíthatják a router IP-címén keresztül.",
-        "ip_masquerading_tips": "A LAN-ügyfelek forrás IP-címeit a Tailscale interfész IP-címére írja át."
+        "ip_masquerading_tips": "A LAN-ügyfelek forrás IP-címeit a Tailscale interfész IP-címére írja át.",
+        "advertise_wan_subnets_label": "WAN alhálózatok hirdetése",
+        "advertise_wan_subnets_tips": "Ha ez a beállítás engedélyezve van, a WAN alhálózati útvonalak hirdetve lesznek a Tailscale tailnet felé. Az útvonalak csak a Tailscale Admin Console-ban történő jóváhagyás után lépnek érvénybe.",
+        "advertise_lan_subnets_label": "Ha ez a beállítás engedélyezve van, a LAN alhálózati útvonalak hirdetve lesznek a Tailscale tailnet számára. Az útvonalak csak a Tailscale Admin Console-ban történő jóváhagyás után lépnek érvénybe."
     }
 }
