@@ -21,7 +21,6 @@
         "custom_exit_node_warning": "カスタムExit Nodeを有効にすると、デバイスはすべてのリクエストをExit Nodeに転送します。有効にする前に、Tailscaleがクライアントのリクエストを転送できるように、$$$$Tailscale Admin Consoleサブネットルート{subnet}を有効にする必要があります。そうしないと、クライアントはインターネットにアクセスできなくなります。",
         "dns_warning_tips": "イントラネットのIPアドレスをDNSとして使用する場合、DNSサーバーにアクセスできないことがあります。",
         "exit_node_title": "出口ノード",
-        "subnet_routes_title": "サブネットルート",
-        "nat_title": "NAT"
+        "subnet_routes_title": "サブネットルート"
     }
 }
