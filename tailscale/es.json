@@ -27,6 +27,8 @@
         "run_exit_node_tips": "Ejecutar un nodo de salida significa que otros dispositivos en tu tailnet pueden enviar todo su tráfico a través de la dirección IP de este router.",
         "ip_masquerading_tips": "Reescribe las IPs de origen de los clientes de la LAN a la dirección IP de la interfaz de Tailscale.",
         "advertise_wan_subnets_label": "Anunciar subredes WAN",
-        "advertise_wan_subnets_tips": "Si esta opción está habilitada, las rutas de la subred WAN se anunciarán a la red Tailscale. Las rutas solo tendrán efecto después de ser aprobadas en la Consola de Administración de Tailscale."
+        "advertise_wan_subnets_tips": "Si esta opción está habilitada, las rutas de la subred WAN se anunciarán a la red Tailscale. Las rutas solo tendrán efecto después de ser aprobadas en la Consola de Administración de Tailscale.",
+        "advertise_lan_subnets_label": "Anunciar subredes LAN",
+        "advertise_lan_subnets_tips": "Si esta opción está habilitada, las rutas de la subred LAN se anunciarán a la red Tailscale. Las rutas solo entrarán en vigor después de ser aprobadas en la Consola de Administración de Tailscale."
     }
 }
