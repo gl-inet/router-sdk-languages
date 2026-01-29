@@ -25,6 +25,9 @@
         "ip_masquerading_label": "Privataus IP į viešojo IP konvertavimas",
         "run_exit_node_label": "Vykdyti išėjimo mazgą",
         "run_exit_node_tips": "Veikiantis išėjimo mazgas reiškia, kad kiti jūsų „tailnet“ tinkle esantys įrenginiai gali siųsti visą savo srautą per šio maršrutizatoriaus IP adresą.",
-        "ip_masquerading_tips": "Perrašo vietinio tinklo kliento šaltinio IP adresus į Tailscale sąsajos IP adresą."
+        "ip_masquerading_tips": "Perrašo vietinio tinklo kliento šaltinio IP adresus į Tailscale sąsajos IP adresą.",
+        "advertise_wan_subnets_label": "Reklamuoti WAN potinklius",
+        "advertise_wan_subnets_tips": "Jei ši parinktis įjungta, WAN potinklio maršrutai bus paskelbti Tailscale tinkle. Maršrutai įsigalios tik po patvirtinimo Tailscale administravimo konsolėje.",
+        "advertise_lan_subnets_label": "Jei ši parinktis įjungta, vietinio tinklo (LAN) potinklio maršrutai bus skelbiami Tailscale tinkle (angl. „tailnet“). Maršrutai įsigalios tik po patvirtinimo Tailscale administravimo konsolėje."
     }
 }
