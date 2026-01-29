@@ -27,7 +27,8 @@
         "change_to": "Adres IP Routera został pomyślnie zmieniony na",
         "cannot_contain_ip_tips": "Zakres adresów nie może zawierać adresu IP routera",
         "enable_dhcp_tips": "Serwer DHCP automatycznie przydziela adresy IP i inne parametry komunikacyjne urządzeniom klienta. Jeśli serwer DHCP jest wyłączony, ustawienia sieciowe urządzenia klienta będą musiały być skonfigurowane ręcznie.",
-        "iot_conflict_tips": "Jest w konflikcie z adresem IP IoT"
+        "iot_conflict_tips": "Jest w konflikcie z adresem IP IoT",
+        "host_name_tips": "2-63 znaków, dozwolone są tylko litery, cyfry lub myślniki, i nie mogą zaczynać się ani kończyć myślnikiem."
     },
     "address_reservation": {
         "title": "Rezerwacja Adresów",
