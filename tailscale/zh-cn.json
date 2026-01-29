@@ -22,6 +22,9 @@
         "dns_warning_tips": "使用内网 IP 地址作为 DNS 时，您可能会无法访问 DNS 服务器。",
         "exit_node_title": "出口节点",
         "subnet_routes_title": "子网路由",
-        "ip_masquerading_label": "IP 动态伪装"
+        "ip_masquerading_label": "IP 动态伪装",
+        "run_exit_node_label": "运行出口节点",
+        "run_exit_node_tips": "运行出口节点意味着您尾网中的其他设备可以通过此路由器的IP地址发送所有流量。",
+        "ip_masquerading_tips": "将局域网客户端源IP重写为Tailscale接口的IP地址。"
     }
 }
