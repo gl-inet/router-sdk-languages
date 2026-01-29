@@ -14,7 +14,8 @@
         "usb_host_tips": "USB 호스트 역할 (호환 가능한 USB 주변 장치 수용)",
         "usb_tethering_tips": "USB 테더링 장치 역할 (호스트에 USB 네트워크 어댑터로 표시)",
         "power_power_direction_label": "전원 방향 (전원 포트)",
-        "power_data_direction_label": "전원 방향 (데이터 포트)"
+        "power_data_direction_label": "전원 방향 (데이터 포트)",
+        "power_threshold_tips": "외부 전원 출력을 위한 최소 배터리 임계값 (이 수준 미만에서는 USB 장치를 사용할 수 없음)"
     },
     "power": {
         "ethernet_idle_timeout_label": "이더넷 유휴 시간 초과",
