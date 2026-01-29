@@ -22,6 +22,9 @@
         "dns_warning_tips": "When using an intranet IP address as DNS, you may not be able to access the DNS server.",
         "exit_node_title": "Exit Node",
         "subnet_routes_title": "Subnet Routes",
-        "ip_masquerading_label": "IP Masquerading"
+        "ip_masquerading_label": "IP Masquerading",
+        "run_exit_node_tips": "Running an exit node means other devices in your tailnet can send all their traffic through this router’s IP address.",
+        "run_exit_node_label": "Run Exit Node",
+        "ip_masquerading_tips": "Rewrites LAN client source IPs to the IP address of tailscale interface."
     }
 }
