@@ -14,7 +14,8 @@
         "usb_host_tips": "Acts as USB Host (accepts compatible USB Peripherals)",
         "usb_tethering_tips": "Acts as USB Tether Device (presents as a USB network adapter to a host)",
         "power_power_direction_label": "Power Direction (Power Port)",
-        "power_data_direction_label": "Power Direction (Data Port)"
+        "power_data_direction_label": "Power Direction (Data Port)",
+        "power_threshold_tips": "Minimum battery threshold for external power output (USB devices will be unavailable below this level)"
     },
     "power": {
         "power_title": "Power",
