@@ -21,7 +21,6 @@
         "custom_exit_node_tips": "Als deze optie is ingeschakeld, zal het apparaat alle verzoeken doorsturen naar de Exit Node. Voordat u dit inschakelt, moet u de subnetroutes {subnet} van dit apparaat in $$$$Tailscale Admin Console$$$$ inschakelen zodat Tailscale de verzoeken van de cliënt kan doorsturen; anders kunnen uw cliënten geen toegang krijgen tot het internet.",
         "custom_exit_node_warning": "Als u de aangepaste Exit Node inschakelt, zal het apparaat alle verzoeken doorsturen naar de Exit Node. Voordat u dit inschakelt, moet u de subnetroutes {subnet} van dit apparaat in $$$$Tailscale Admin Console$$$$ inschakelen zodat Tailscale de verzoeken van de cliënt kan doorsturen; anders kunnen uw cliënten geen toegang krijgen tot het internet.",
         "exit_node_title": "Uitgangsknooppunt",
-        "subnet_routes_title": "Subnet Routes",
-        "nat_title": "NAT"
+        "subnet_routes_title": "Subnet Routes"
     }
 }
