@@ -24,7 +24,7 @@
         "subnet_routes_title": "子网路由",
         "ip_masquerading_label": "IP 动态伪装",
         "run_exit_node_label": "运行出口节点",
-        "run_exit_node_tips": "运行出口节点意味着您尾网中的其他设备可以通过此路由器的IP地址发送所有流量。",
-        "ip_masquerading_tips": "将局域网客户端源IP重写为Tailscale接口的IP地址。"
+        "run_exit_node_tips": "运行出口节点意味着您的 tailnet 中的其他设备可以通过该路由器的 IP 地址发送所有流量。",
+        "ip_masquerading_tips": "将 LAN 客户端来源 IP 改写为路由器的 tailscale 接口 IP。"
     }
 }
