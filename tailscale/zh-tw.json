@@ -32,6 +32,7 @@
         "advertise_lan_subnets_tips": "開啟該選項後，將把 LAN 網段路由發佈到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台進行準予後才能生效。",
         "enabled_run_exit_node_tips1": "您確定要運行出口節點嗎？",
         "enabled_run_exit_node_tips2": "運行退出節點意味著您tailnet中的其他設備可以透過此路由器的IP地址發送所有流量。",
-        "enabled_custom_exit_node_tips": "當設定自定義出口節點後，如需讓本設備後面的 LAN 終端也能通過 Tailscale 轉發上網，可以{advertiseLanSubnet}或{ipMasquerade}。"
+        "enabled_custom_exit_node_tips": "當設定自定義出口節點後，如需讓本設備後面的 LAN 終端也能通過 Tailscale 轉發上網，可以{advertiseLanSubnet}或{ipMasquerade}。",
+        "enable_function": "啟用 {function}"
     }
 }
