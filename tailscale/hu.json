@@ -32,6 +32,7 @@
         "advertise_lan_subnets_tips": "Ha ez a beállítás engedélyezve van, a LAN alhálózati útvonalak hirdetve lesznek a Tailscale tailnet számára. Az útvonalak csak a Tailscale Admin Console-ban történő jóváhagyás után lépnek érvénybe.",
         "enabled_run_exit_node_tips1": "Biztosan futtatni szeretné egy kilépési csomópontot?",
         "enabled_run_exit_node_tips2": "Egy kimeneti csomópont futtatása azt jelenti, hogy a tailnetedben lévő egyéb eszközök minden forgalmukat átirányíthatják a router IP-címén keresztül.",
-        "enabled_custom_exit_node_tips": "Egyéni kilépési csomópont beállítása után, ha szükséges, hogy a készülék mögötti LAN terminálok is hozzáférjenek az internethez Tailscale továbbításon keresztül, használhatja a {advertiseLanSubnet} vagy {ipMasquerade} lehetőséget."
+        "enabled_custom_exit_node_tips": "Egyéni kilépési csomópont beállítása után, ha szükséges, hogy a készülék mögötti LAN terminálok is hozzáférjenek az internethez Tailscale továbbításon keresztül, használhatja a {advertiseLanSubnet} vagy {ipMasquerade} lehetőséget.",
+        "enable_function": "{function} engedélyezése"
     }
 }
