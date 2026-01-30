@@ -29,6 +29,9 @@
         "advertise_wan_subnets_label": "WAN 서브넷 광고",
         "advertise_wan_subnets_tips": "이 옵션이 활성화되면 WAN 서브넷 경로가 Tailscale tailnet에 광고됩니다. 경로는 Tailscale 관리 콘솔에서 승인된 후에만 적용됩니다.",
         "advertise_lan_subnets_label": "LAN 서브넷 광고",
-        "advertise_lan_subnets_tips": "이 옵션이 활성화되면 LAN 서브넷 경로가 Tailscale tailnet에 광고됩니다. 경로는 Tailscale 관리 콘솔에서 승인된 후에만 적용됩니다."
+        "advertise_lan_subnets_tips": "이 옵션이 활성화되면 LAN 서브넷 경로가 Tailscale tailnet에 광고됩니다. 경로는 Tailscale 관리 콘솔에서 승인된 후에만 적용됩니다.",
+        "enabled_run_exit_node_tips1": "종료 노드를 실행하시겠습니까?",
+        "enabled_run_exit_node_tips2": "종료 노드를 실행하면 테일넷의 다른 장치들이 이 라우터의 IP 주소를 통해 모든 트래픽을 전송할 수 있습니다.",
+        "enabled_custom_exit_node_tips": "사용자 정의 종료 노드를 설정한 후, 이 장치 뒤의 LAN 단말이 Tailscale 전달을 통해 인터넷에 액세스해야 하는 경우 {advertiseLanSubnet} 또는 {ipMasquerade}를 사용할 수 있습니다."
     }
 }
