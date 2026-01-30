@@ -29,6 +29,9 @@
         "advertise_wan_subnets_label": "Advertise WAN Subnets",
         "advertise_wan_subnets_tips": "If this option is enabled, the WAN subnet routes will be advertised to the Tailscale tailnet. Routes will only take effect after being approved in the Tailscale Admin Console.",
         "advertise_lan_subnets_tips": "If this option is enabled, the LAN subnet routes will be advertised to the Tailscale tailnet. Routes will only take effect after being approved in the Tailscale Admin Console.",
-        "advertise_lan_subnets_label": "Advertise LAN Subnets"
+        "advertise_lan_subnets_label": "Advertise LAN Subnets",
+        "enabled_run_exit_node_tips1": "Are you sure you want to run an exit node?",
+        "enabled_run_exit_node_tips2": "Running an exit node means other devices in your tailnet can send all their traffic through this router’s IP address.",
+        "enabled_custom_exit_node_tips": "After setting a custom exit node, if you need the LAN terminals behind this device to also access the Internet via Tailscale forwarding, you can {advertiseLanSubnet} or {ipMasquerade}."
     }
 }
