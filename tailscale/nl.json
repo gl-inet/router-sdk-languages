@@ -32,6 +32,7 @@
         "advertise_lan_subnets_tips": "Als deze optie is ingeschakeld, worden de LAN-subnetroutes geadverteerd naar het Tailscale-tailnet. Routes worden alleen van kracht na goedkeuring in de Tailscale Admin Console.",
         "enabled_run_exit_node_tips1": "Weet u zeker dat u een exit-knooppunt wilt uitvoeren?",
         "enabled_run_exit_node_tips2": "Een exit node uitvoeren betekent dat andere apparaten in uw tailnet al hun verkeer via het IP-adres van deze router kunnen sturen.",
-        "enabled_custom_exit_node_tips": "Na het instellen van een aangepaste uitgangsknooppunt, als u wilt dat de LAN-terminals achter dit apparaat ook toegang hebben tot internet via Tailscale-doorsturing, kunt u {advertiseLanSubnet} of {ipMasquerade} gebruiken."
+        "enabled_custom_exit_node_tips": "Na het instellen van een aangepaste uitgangsknooppunt, als u wilt dat de LAN-terminals achter dit apparaat ook toegang hebben tot internet via Tailscale-doorsturing, kunt u {advertiseLanSubnet} of {ipMasquerade} gebruiken.",
+        "enable_function": "{function} inschakelen"
     }
 }
