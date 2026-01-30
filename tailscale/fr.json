@@ -32,6 +32,7 @@
         "advertise_lan_subnets_tips": "Si cette option est activée, les sous-réseaux LAN seront annoncés au réseau Tailscale. Les routes ne prendront effet qu'après avoir été approuvées dans la console d'administration Tailscale.",
         "enabled_run_exit_node_tips1": "Êtes-vous sûr de vouloir exécuter un nœud de sortie ?",
         "enabled_run_exit_node_tips2": "Exécuter un nœud de sortie signifie que les autres appareils de votre tailnet peuvent envoyer tout leur trafic via l'adresse IP de ce routeur.",
-        "enabled_custom_exit_node_tips": "Après avoir configuré un nœud de sortie personnalisé, si vous avez besoin que les terminaux LAN derrière cet appareil accèdent également à Internet via le transfert Tailscale, vous pouvez {advertiseLanSubnet} ou {ipMasquerade}."
+        "enabled_custom_exit_node_tips": "Après avoir configuré un nœud de sortie personnalisé, si vous avez besoin que les terminaux LAN derrière cet appareil accèdent également à Internet via le transfert Tailscale, vous pouvez {advertiseLanSubnet} ou {ipMasquerade}.",
+        "enable_function": "activer {function}"
     }
 }
