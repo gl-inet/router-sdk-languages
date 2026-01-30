@@ -29,6 +29,9 @@
         "advertise_wan_subnets_label": "Advertise WAN Subnets",
         "advertise_wan_subnets_tips": "Se questa opzione è abilitata, le rotte della subnet WAN verranno pubblicizzate nella tailnet di Tailscale. Le rotte avranno effetto solo dopo essere state approvate nella Console di Amministrazione di Tailscale.",
         "advertise_lan_subnets_label": "Advertise LAN Subnets",
-        "advertise_lan_subnets_tips": "Se questa opzione è abilitata, le rotte della sottorete LAN verranno pubblicizzate nella tailnet di Tailscale. Le rotte avranno effetto solo dopo essere state approvate nella Console di Amministrazione di Tailscale."
+        "advertise_lan_subnets_tips": "Se questa opzione è abilitata, le rotte della sottorete LAN verranno pubblicizzate nella tailnet di Tailscale. Le rotte avranno effetto solo dopo essere state approvate nella Console di Amministrazione di Tailscale.",
+        "enabled_run_exit_node_tips1": "Sei sicuro di voler eseguire un nodo di uscita?",
+        "enabled_run_exit_node_tips2": "Gestire un nodo di uscita significa che gli altri dispositivi nella tua tailnet possono inviare tutto il loro traffico attraverso l'indirizzo IP di questo router.",
+        "enabled_custom_exit_node_tips": "Dopo aver impostato un nodo di uscita personalizzato, se è necessario che i terminali LAN dietro questo dispositivo accedano anche a Internet tramite l'inoltro Tailscale, puoi {advertiseLanSubnet} o {ipMasquerade}."
     }
 }
