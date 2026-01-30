@@ -29,6 +29,9 @@
         "advertise_wan_subnets_label": "Rozgłaszaj Podsieci WAN",
         "advertise_wan_subnets_tips": "Jeśli ta opcja jest włączona, trasy podsieci WAN będą ogłaszane w sieci Tailscale. Trasy zaczną obowiązywać dopiero po zatwierdzeniu w Konsoli Administracyjnej Tailscale.",
         "advertise_lan_subnets_label": "Rozgłaszaj Podsieci LAN",
-        "advertise_lan_subnets_tips": "Jeśli ta opcja jest włączona, trasy podsieci LAN będą ogłaszane w sieci Tailscale. Trasy zaczną obowiązywać dopiero po zatwierdzeniu w Konsoli Administracyjnej Tailscale."
+        "advertise_lan_subnets_tips": "Jeśli ta opcja jest włączona, trasy podsieci LAN będą ogłaszane w sieci Tailscale. Trasy zaczną obowiązywać dopiero po zatwierdzeniu w Konsoli Administracyjnej Tailscale.",
+        "enabled_run_exit_node_tips1": "Czy na pewno chcesz uruchomić węzeł wyjściowy?",
+        "enabled_run_exit_node_tips2": "Uruchomienie węzła wyjściowego oznacza, że inne urządzenia w twojej sieci tailnet mogą przesyłać cały swój ruch przez adres IP tego routera.",
+        "enabled_custom_exit_node_tips": "Po ustawieniu niestandardowego węzła wyjściowego, jeśli chcesz, aby urządzenia w sieci LAN za tym urządzeniem również miały dostęp do Internetu poprzez przekazywanie Tailscale, możesz {advertiseLanSubnet} lub {ipMasquerade}."
     }
 }
