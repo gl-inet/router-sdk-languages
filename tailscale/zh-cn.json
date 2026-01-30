@@ -29,6 +29,9 @@
         "advertise_wan_subnets_label": "通告WAN子网",
         "advertise_wan_subnets_tips": "开启该选项后，将把 WAN 网段路由发布到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台进行批准后才能生效。",
         "advertise_lan_subnets_label": "通告局域网子网",
-        "advertise_lan_subnets_tips": "开启该选项后，将把 LAN 网段路由发布到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台进行批准后才能生效。"
+        "advertise_lan_subnets_tips": "开启该选项后，将把 LAN 网段路由发布到 Tailscale Tailnet 中，但需前往 Tailscale 管理控制台进行批准后才能生效。",
+        "enabled_run_exit_node_tips1": "您确定要运行出口节点吗？",
+        "enabled_run_exit_node_tips2": "运行出口节点意味着您尾网中的其他设备可以通过此路由器的IP地址发送所有流量。",
+        "enabled_custom_exit_node_tips": "设置自定义出口节点后，如果您需要此设备后的局域网终端也通过Tailscale转发访问互联网，可以{advertiseLanSubnet}或{ipMasquerade}。"
     }
 }
