@@ -29,6 +29,9 @@
         "advertise_wan_subnets_label": "Reklamuoti WAN potinklius",
         "advertise_wan_subnets_tips": "Jei ši parinktis įjungta, WAN potinklio maršrutai bus paskelbti Tailscale tinkle. Maršrutai įsigalios tik po patvirtinimo Tailscale administravimo konsolėje.",
         "advertise_lan_subnets_label": "Reklamuoti vietinio tinklo (LAN) potinklius",
-        "advertise_lan_subnets_tips": "Jei ši parinktis įjungta, vietinio tinklo (LAN) potinklio maršrutai bus skelbiami Tailscale tinkle (angl. „tailnet“). Maršrutai įsigalios tik po patvirtinimo Tailscale administravimo konsolėje."
+        "advertise_lan_subnets_tips": "Jei ši parinktis įjungta, vietinio tinklo (LAN) potinklio maršrutai bus skelbiami Tailscale tinkle (angl. „tailnet“). Maršrutai įsigalios tik po patvirtinimo Tailscale administravimo konsolėje.",
+        "enabled_run_exit_node_tips1": "Ar tikrai norite vykdyti išėjimo mazgą?",
+        "enabled_run_exit_node_tips2": "Veikiantis išėjimo mazgas reiškia, kad kiti jūsų „tailnet“ tinkle esantys įrenginiai gali siųsti visą savo srautą per šio maršrutizatoriaus IP adresą.",
+        "enabled_custom_exit_node_tips": "Nustačius pasirinktinį išėjimo mazgą, jei reikia, kad šio įrenginio vietinio tinklo („LAN“) terminalai taip pat galėtų pasiekti internetą per „Tailscale“ perdavimą, galite {advertiseLanSubnet} arba {ipMasquerade}."
     }
 }
