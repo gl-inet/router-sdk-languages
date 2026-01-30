@@ -29,6 +29,9 @@
         "advertise_wan_subnets_label": "WAN Alt Ağlarını Duyur",
         "advertise_wan_subnets_tips": "Bu seçenek etkinleştirildiğinde, WAN alt ağ rotaları Tailscale tailnet'ine duyurulacaktır. Rotalar yalnızca Tailscale Yönetici Konsolu'nda onaylandıktan sonra geçerli olacaktır.",
         "advertise_lan_subnets_label": "LAN Alt Ağlarını Duyur",
-        "advertise_lan_subnets_tips": "Bu seçenek etkinleştirildiğinde, LAN alt ağ rotaları Tailscale tailnet'ine duyurulacaktır. Rotalar yalnızca Tailscale Yönetici Konsolu'nda onaylandıktan sonra geçerli olacaktır."
+        "advertise_lan_subnets_tips": "Bu seçenek etkinleştirildiğinde, LAN alt ağ rotaları Tailscale tailnet'ine duyurulacaktır. Rotalar yalnızca Tailscale Yönetici Konsolu'nda onaylandıktan sonra geçerli olacaktır.",
+        "enabled_run_exit_node_tips1": "Çıkış düğümü çalıştırmak istediğinizden emin misiniz?",
+        "enabled_run_exit_node_tips2": "Bir çıkış düğümü çalıştırmak, tailnet'inizdeki diğer cihazların tüm trafiğini bu yönlendiricinin IP adresi üzerinden gönderebileceği anlamına gelir.",
+        "enabled_custom_exit_node_tips": "Özel bir çıkış düğümü ayarladıktan sonra, bu cihazın arkasındaki LAN terminallerinin de Tailscale yönlendirmesi üzerinden internete erişmesini istiyorsanız, {advertiseLanSubnet} veya {ipMasquerade} kullanabilirsiniz."
     }
 }
