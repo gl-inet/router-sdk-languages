@@ -263,7 +263,9 @@
         "unlock_pin_err_tips": "PIN 码{code}错误。请输入正确的 PIN 码。",
         "device_may_not_b_operators_tips": "蜂窝接口已启用，部分运营商可能无法被设备扫描到。",
         "apn_update_tips": "请向您的运营商咨询。路由器联网状态下，单击{updateApn}可获取最新的 APN 配置。",
-        "update_apn_database": "更新 APN 数据库"
+        "update_apn_database": "更新 APN 数据库",
+        "select_cellular_profile_tips": "您可以{selectProfile}以将其内容复制到SIM卡使用的设置中。",
+        "select_cellular_profile": "选择蜂窝网络配置文件"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
