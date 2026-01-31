@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "出口ノードを実行してもよろしいですか？",
         "enabled_run_exit_node_tips2": "出口ノードを実行すると、Tailnet内の他のデバイスがすべてのトラフィックをこのルーターのIPアドレス経由で送信できるようになります。",
         "enabled_custom_exit_node_tips": "カスタム出口ノードを設定した後、このデバイスの背後にあるLAN端末もTailscale転送を介してインターネットにアクセスする必要がある場合は、{advertiseLanSubnet}または{ipMasquerade}を実行できます。",
-        "enable_function": "{function}を有効にする"
+        "enable_function": "{function}を有効にする",
+        "dns_serve_warning_tips": "出口ノードを使用した後、内部IPアドレスをDNSとして使用している場合、DNSサーバーにアクセスできない可能性があります（{address}）。"
     }
 }
