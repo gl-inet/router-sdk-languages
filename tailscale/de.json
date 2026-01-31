@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "Sind Sie sicher, dass Sie einen Exit-Knoten ausführen möchten?",
         "enabled_run_exit_node_tips2": "Das Betreiben eines Exit-Knotens bedeutet, dass andere Geräte in Ihrem Tailnet ihren gesamten Datenverkehr über die IP-Adresse dieses Routers senden können.",
         "enabled_custom_exit_node_tips": "Nachdem Sie einen benutzerdefinierten Exit-Knoten eingerichtet haben, können Sie, wenn Sie möchten, dass die LAN-Endgeräte hinter diesem Gerät ebenfalls über Tailscale-Weiterleitung auf das Internet zugreifen, {advertiseLanSubnet} oder {ipMasquerade} verwenden.",
-        "enable_function": "{function} aktivieren"
+        "enable_function": "{function} aktivieren",
+        "dns_serve_warning_tips": "Nach der Verwendung des Exit-Knotens können Sie möglicherweise nicht auf den DNS-Server zugreifen, wenn Sie eine interne IP-Adresse als DNS ({address}) verwenden."
     }
 }
