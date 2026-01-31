@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "An bhfuil tú cinnte gur mian leat nód scoir a rith?",
         "enabled_run_exit_node_tips2": "Ag rith le nód imeachta a chiallaíonn go bhféadfaidh gach gléas eile i do líonra eireabaill a gcuid tráchta ar fad a sheoladh trí sheoladh IP an ródaire seo.",
         "enabled_custom_exit_node_tips": "Tar éis nód imeachta saincheaptha a shocrú, más gá go mbeadh rochtain ag na críochphointí LAN taobh thiar den ghléas seo ar an Idirlíon trí sheoladh Tailscale, is féidir leat {advertiseLanSubnet} nó {ipMasquerade}.",
-        "enable_function": "cumas {function}"
+        "enable_function": "cumas {function}",
+        "dns_serve_warning_tips": "Tar éis an nód imeachta a úsáid, b'fhéidir nach mbeidh tú in ann rochtain a fháil ar an bhfreastalaí DNS má úsáideann tú seoladh IP inmheánach mar DNS ({address})."
     }
 }
