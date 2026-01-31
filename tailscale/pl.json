@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "Czy na pewno chcesz uruchomić węzeł wyjściowy?",
         "enabled_run_exit_node_tips2": "Uruchomienie węzła wyjściowego oznacza, że inne urządzenia w twojej sieci tailnet mogą przesyłać cały swój ruch przez adres IP tego routera.",
         "enabled_custom_exit_node_tips": "Po ustawieniu niestandardowego węzła wyjściowego, jeśli chcesz, aby urządzenia w sieci LAN za tym urządzeniem również miały dostęp do Internetu poprzez przekazywanie Tailscale, możesz {advertiseLanSubnet} lub {ipMasquerade}.",
-        "enable_function": "włącz {function}"
+        "enable_function": "włącz {function}",
+        "dns_serve_warning_tips": "Po użyciu węzła wyjściowego możesz nie mieć dostępu do serwera DNS, jeśli używasz wewnętrznego adresu IP jako DNS ({address})."
     }
 }
