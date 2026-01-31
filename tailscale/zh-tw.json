@@ -34,6 +34,6 @@
         "enabled_run_exit_node_tips2": "運行退出節點意味著您tailnet中的其他設備可以透過此路由器的IP地址發送所有流量。",
         "enabled_custom_exit_node_tips": "當設定自定義出口節點後，如需讓本設備後面的 LAN 終端也能通過 Tailscale 轉發上網，可以{advertiseLanSubnet}或{ipMasquerade}。",
         "enable_function": "啟用 {function}",
-        "dns_serve_warning_tips": "使用退出節點後，如果您使用內部IP地址作為DNS（{address}），可能無法訪問DNS伺服器。"
+        "dns_serve_warning_tips": "使用出口節點後，如果您使用內部IP地址作為DNS（{address}），您可能無法訪問DNS伺服器。"
     }
 }
