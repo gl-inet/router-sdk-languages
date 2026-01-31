@@ -260,7 +260,8 @@
         "lock_operation_mode_tip": "Vous pouvez choisir de verrouiller manuellement un opérateur spécifique, ou de basculer automatiquement vers un réseau d'opérateur disponible en cas d'échec du verrouillage manuel.",
         "slot_switch_esim_tips": "Si activé, {sim} basculera vers eSIM et la carte SIM physique ne sera plus disponible.",
         "unlock_pin_tips": "Entrez le code PIN pour déverrouiller la carte SIM.",
-        "unlock_pin_err_tips": "Le code PIN {code} est incorrect. Veuillez entrer le code PIN correct."
+        "unlock_pin_err_tips": "Le code PIN {code} est incorrect. Veuillez entrer le code PIN correct.",
+        "device_may_not_b_operators_tips": "L'appareil peut ne pas être en mesure de scanner tous les opérateurs lorsque l'interface mobile est activée."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
