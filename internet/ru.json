@@ -263,7 +263,9 @@
         "unlock_pin_err_tips": "PIN-код {code} неверен. Пожалуйста, введите правильный PIN-код.",
         "device_may_not_b_operators_tips": "Устройство может не сканировать всех операторов при включенном сотовом интерфейсе.",
         "apn_update_tips": "При подключении маршрутизатора к Интернету нажмите {updateApn}, чтобы получить последнюю конфигурацию APN.",
-        "update_apn_database": "Обновить базу данных APN"
+        "update_apn_database": "Обновить базу данных APN",
+        "select_cellular_profile_tips": "Вы можете {selectProfile}, чтобы скопировать его содержимое в настройки, используемые SIM-картой.",
+        "select_cellular_profile": "Выберите профиль сотовой связи"
     },
     "sms": {
         "forward_encryp_label": "Включить маскировку",
