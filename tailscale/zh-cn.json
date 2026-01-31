@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "您确定要运行出口节点吗？",
         "enabled_run_exit_node_tips2": "运行出口节点意味着您尾网中的其他设备可以通过此路由器的IP地址发送所有流量。",
         "enabled_custom_exit_node_tips": "当设置自定义出口节点后，如需让本设备后面的 LAN 终端也能通过 Tailscale 转发上网，可以{advertiseLanSubnet}或{ipMasquerade}。",
-        "enable_function": "启用 {function}"
+        "enable_function": "启用 {function}",
+        "dns_serve_warning_tips": "使用出口节点后，如果您使用内部IP地址作为DNS服务器（{address}），可能无法访问DNS服务器。"
     }
 }
