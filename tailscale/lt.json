@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "Ar tikrai norite vykdyti išėjimo mazgą?",
         "enabled_run_exit_node_tips2": "Veikiantis išėjimo mazgas reiškia, kad kiti jūsų „tailnet“ tinkle esantys įrenginiai gali siųsti visą savo srautą per šio maršrutizatoriaus IP adresą.",
         "enabled_custom_exit_node_tips": "Nustačius pasirinktinį išėjimo mazgą, jei reikia, kad šio įrenginio vietinio tinklo („LAN“) terminalai taip pat galėtų pasiekti internetą per „Tailscale“ perdavimą, galite {advertiseLanSubnet} arba {ipMasquerade}.",
-        "enable_function": "Įjungti {function}"
+        "enable_function": "Įjungti {function}",
+        "dns_serve_warning_tips": "Naudojant išėjimo mazgą, gali nepavykti pasiekti DNS serverio, jei kaip DNS naudojamas vidinis IP adresas ({address})."
     }
 }
