@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "Sei sicuro di voler eseguire un nodo di uscita?",
         "enabled_run_exit_node_tips2": "Gestire un nodo di uscita significa che gli altri dispositivi nella tua tailnet possono inviare tutto il loro traffico attraverso l'indirizzo IP di questo router.",
         "enabled_custom_exit_node_tips": "Dopo aver impostato un nodo di uscita personalizzato, se è necessario che i terminali LAN dietro questo dispositivo accedano anche a Internet tramite l'inoltro Tailscale, puoi {advertiseLanSubnet} o {ipMasquerade}.",
-        "enable_function": "abilita {function}"
+        "enable_function": "abilita {function}",
+        "dns_serve_warning_tips": "Dopo aver utilizzato il nodo di uscita, potrebbe non essere possibile accedere al server DNS se si utilizza un indirizzo IP interno come DNS ({address})."
     }
 }
