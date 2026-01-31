@@ -260,7 +260,8 @@
         "lock_operation_mode_tip": "特定のオペレータを手動でロックするか、手動ロックが失敗した場合に利用可能なオペレータネットワークに自動的に切り替えるかを選択できます。",
         "slot_switch_esim_tips": "有効にすると、{sim}はeSIMに切り替わり、物理SIMカードは使用できなくなります。",
         "unlock_pin_tips": "SIMをアンロックするためのPINを入力してください。",
-        "unlock_pin_err_tips": "PINコード{code}が間違っています。正しいPINを入力してください。"
+        "unlock_pin_err_tips": "PINコード{code}が間違っています。正しいPINを入力してください。",
+        "device_may_not_b_operators_tips": "Cellularインターフェースが有効になっている場合、デバイスはすべての通信事業者をスキャンできない可能性があります。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
