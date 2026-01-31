@@ -263,7 +263,9 @@
         "unlock_pin_err_tips": "Le code PIN {code} est incorrect. Veuillez entrer le code PIN correct.",
         "device_may_not_b_operators_tips": "L'appareil peut ne pas être en mesure de scanner tous les opérateurs lorsque l'interface mobile est activée.",
         "apn_update_tips": "Avec le routeur connecté à Internet, cliquez sur {updateApn} pour obtenir la dernière configuration APN.",
-        "update_apn_database": "Mettre à jour la base de données APN"
+        "update_apn_database": "Mettre à jour la base de données APN",
+        "select_cellular_profile_tips": "Vous pouvez {selectProfile} pour copier son contenu dans les paramètres utilisés par la carte SIM.",
+        "select_cellular_profile": "Sélectionner un profil de connexion mobile"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
