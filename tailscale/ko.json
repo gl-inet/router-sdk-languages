@@ -33,6 +33,7 @@
         "enabled_run_exit_node_tips1": "종료 노드를 실행하시겠습니까?",
         "enabled_run_exit_node_tips2": "종료 노드를 실행하면 테일넷의 다른 장치들이 이 라우터의 IP 주소를 통해 모든 트래픽을 전송할 수 있습니다.",
         "enabled_custom_exit_node_tips": "사용자 정의 종료 노드를 설정한 후, 이 장치 뒤의 LAN 단말이 Tailscale 전달을 통해 인터넷에 액세스해야 하는 경우 {advertiseLanSubnet} 또는 {ipMasquerade}를 사용할 수 있습니다.",
-        "enable_function": "{function} 활성화"
+        "enable_function": "{function} 활성화",
+        "dns_serve_warning_tips": "종료 노드를 사용한 후 내부 IP 주소를 DNS({address})로 사용하는 경우 DNS 서버에 접근하지 못할 수 있습니다."
     }
 }
