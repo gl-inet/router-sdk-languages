@@ -260,7 +260,8 @@
         "lock_operation_mode_tip": "您可選擇手動鎖定特定運營商，或者在手動鎖定失敗時自動切換到可用的運營商網絡。",
         "slot_switch_esim_tips": "如果啟用，{sim}將切換到eSIM，實體SIM卡將無法使用。",
         "unlock_pin_tips": "輸入PIN碼以解鎖SIM卡。",
-        "unlock_pin_err_tips": "PIN 碼{code}錯誤。請輸入正確的 PIN 碼。"
+        "unlock_pin_err_tips": "PIN 碼{code}錯誤。請輸入正確的 PIN 碼。",
+        "device_may_not_b_operators_tips": "當蜂窩網路介面啟用時，裝置可能無法掃描所有運營商。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
