@@ -260,7 +260,8 @@
         "lock_operation_mode_tip": "您可选择手动锁定特定运营商，或者在手动锁定失败时自动切换到可用的运营商网络。",
         "slot_switch_esim_tips": "如果启用，{sim}将切换到eSIM，实体SIM卡将无法使用。",
         "unlock_pin_tips": "输入PIN码解锁SIM卡。",
-        "unlock_pin_err_tips": "PIN 码{code}错误。请输入正确的 PIN 码。"
+        "unlock_pin_err_tips": "PIN 码{code}错误。请输入正确的 PIN 码。",
+        "device_may_not_b_operators_tips": "启用蜂窝网络接口后，设备可能无法扫描所有运营商。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
