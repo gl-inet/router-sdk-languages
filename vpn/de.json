@@ -508,7 +508,10 @@
         "conneted_tips": "Verschleierung ist aktiviert. Wir empfehlen, sich über die AmneziaWG-App oder einen GL.iNet-Router mit Firmware zu verbinden, die AmneziaWG-Verschleierung unterstützt. Clients, die AmneziaWG-Verschleierung nicht unterstützen, können keine Verbindung herstellen."
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "Hochgeladene Datei zu groß. Dekomprimierung aufgrund unzureichenden Speicherplatzes fehlgeschlagen."
+        "too_large_unzip_fail_tips": "Hochgeladene Datei zu groß. Dekomprimierung aufgrund unzureichenden Speicherplatzes fehlgeschlagen.",
+        "groups_desc": "Bevorzugen Sie die Verwendung von {provider} oder {custom}? Erstellen Sie eine neue Gruppe, um Ihre Konfigurationsdateien hinzuzufügen.",
+        "groups_other_provider_label": "andere VPN-Dienstanbieter",
+        "groups_custom_label": "Anpassen Ihres eigenen VPN-Servers"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
