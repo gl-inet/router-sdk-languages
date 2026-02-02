@@ -508,7 +508,10 @@
         "conneted_tips": "混淆功能已啟用。建議透過 AmneziaWG 應用程式或運行支援 AmneziaWG 混淆功能的 GL.iNet 路由器韌體進行連線。不支援 AmneziaWG 混淆功能的客戶端將無法連線。"
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "上傳檔案過大。因儲存空間不足，解壓縮失敗。"
+        "too_large_unzip_fail_tips": "上傳檔案過大。因儲存空間不足，解壓縮失敗。",
+        "groups_desc": "偏好使用 {provider} 還是 {custom}？建立新群組以新增您的設定檔。",
+        "groups_other_provider_label": "其他VPN服務提供商",
+        "groups_custom_label": "自訂您的VPN伺服器"
     },
     "ovpnclient": {
         "legacy_label": "兼容",
