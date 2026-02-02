@@ -508,7 +508,10 @@
         "conneted_tips": "Obfuscatie is ingeschakeld. We raden aan om verbinding te maken via de AmneziaWG-app of een GL.iNet-router met firmware die AmneziaWG-obfuscatie ondersteunt. Clients die AmneziaWG-obfuscatie niet ondersteunen, kunnen geen verbinding maken."
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "Geüploade bestand te groot. Uitpakken mislukt door onvoldoende opslagruimte."
+        "too_large_unzip_fail_tips": "Geüploade bestand te groot. Uitpakken mislukt door onvoldoende opslagruimte.",
+        "groups_desc": "Voorkeur geven aan {provider} of {custom}? Maak een nieuwe groep aan om uw configuratiebestanden toe te voegen.",
+        "groups_other_provider_label": "andere VPN-dienstverleners",
+        "groups_custom_label": "het aanpassen van uw eigen VPN-server"
     },
     "ovpnclient": {
         "legacy_label": "Verouderd",
