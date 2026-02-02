@@ -508,7 +508,10 @@
         "conneted_tips": "La ofuscación está habilitada. Recomendamos conectarse a través de la aplicación AmneziaWG o un router GL.iNet con firmware que admita la ofuscación AmneziaWG. Los clientes que no admitan la ofuscación AmneziaWG no podrán conectarse."
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "Archivo subido demasiado grande. La descompresión falló debido a almacenamiento insuficiente."
+        "too_large_unzip_fail_tips": "Archivo subido demasiado grande. La descompresión falló debido a almacenamiento insuficiente.",
+        "groups_desc": "¿Prefiere usar {provider} o {custom}? Cree un nuevo grupo para agregar sus archivos de configuración.",
+        "groups_other_provider_label": "otros proveedores de servicios VPN",
+        "groups_custom_label": "personalizando tu propio servidor VPN"
     },
     "ovpnclient": {
         "legacy_label": "Legado",
