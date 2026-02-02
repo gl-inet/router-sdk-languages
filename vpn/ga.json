@@ -256,7 +256,7 @@
         "choose_config_file": "Roghnaigh Comhad Cumraíochta",
         "enable_vpn_cascading": "Cumasaigh Cascáidiú VPN",
         "website_label": "Fearann Sprioc nó IP",
-        "local_access": "Ceadaigh Rochtain Chianda ar an LAN Subnet",
+        "local_access": "Ceadaigh Rochtain Chianda ar an bhFo-líonra LAN",
         "add_manually_btn": "Cuir leis de láimh",
         "listen_port": "Port Éisteachta",
         "base_on_vlan_tips": "Sa mhodh seo, $$$$ní bhíonn rochtain ag ach trácht áirithe VLAN$$$$ ar an VPN. Ní féidir ach aon chás VPN amháin a ghníomhachtú.",
@@ -510,8 +510,8 @@
     "vpn_client": {
         "too_large_unzip_fail_tips": "Comhad uaslódáilte ró-mhór. Theip ar dhí-chomhbhrú mar gheall ar easpa stórála.",
         "groups_desc": "An maith leat {provider} nó {custom} a úsáid? Cruthaigh grúpa nua chun do chomhaid chumraíochta a chur leis.",
-        "groups_other_provider_label": "seirbhísí VPN eile",
-        "groups_custom_label": "ag do chóir féin VPN a shaincheapadh"
+        "groups_other_provider_label": "soláthraithe seirbhíse VPN eile",
+        "groups_custom_label": "do fhreastalaí VPN féin a shaincheapadh"
     },
     "ovpnclient": {
         "legacy_label": "Oidhreacht",
@@ -521,5 +521,5 @@
         "modern_title": "Nua-aimseartha (Molta):",
         "modern_desc": "Oiriúnach don chuid is mó de sheirbhísí VPN, ag tairiscint feidhmíochta agus slándála níos fearr."
     },
-    "menu_vpn-client": "Cliant Próifíl VPN"
+    "menu_vpn-client": "Próifíl Cliant VPN"
 }
