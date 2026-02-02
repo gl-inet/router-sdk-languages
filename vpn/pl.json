@@ -508,7 +508,10 @@
         "conneted_tips": "Włączono zaciemnianie. Zalecamy łączenie za pomocą aplikacji AmneziaWG lub routera GL.iNet z oprogramowaniem układowym obsługującym zaciemnianie AmneziaWG. Klienci, którzy nie obsługują zaciemniania AmneziaWG, nie będą mogli się połączyć."
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "Przesłany plik jest zbyt duży. Dekompresja nie powiodła się z powodu niewystarczającej przestrzeni dyskowej."
+        "too_large_unzip_fail_tips": "Przesłany plik jest zbyt duży. Dekompresja nie powiodła się z powodu niewystarczającej przestrzeni dyskowej.",
+        "groups_desc": "Wolisz używać {provider} czy {custom}? Utwórz nową grupę, aby dodać swoje pliki konfiguracyjne.",
+        "groups_other_provider_label": "inni dostawcy usług VPN",
+        "groups_custom_label": "konfigurowanie własnego serwera VPN"
     },
     "ovpnclient": {
         "legacy_label": "Starsze",
