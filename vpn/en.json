@@ -508,7 +508,10 @@
         "conneted_tips": "Obfuscation is enabled. We recommend connecting via the AmneziaWG app or a GL.iNet router running firmware that supports AmneziaWG obfuscation. Clients that do not support AmneziaWG obfuscation will be unable to connect."
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "Uploaded file too large. Decompression failed due to insufficient storage."
+        "too_large_unzip_fail_tips": "Uploaded file too large. Decompression failed due to insufficient storage.",
+        "groups_desc": "Prefer using {provider} or {custom} ? Create a new group to add your configuration files.",
+        "groups_other_provider_label": "other VPN service providers",
+        "groups_custom_label": "customizing your own VPN server"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
