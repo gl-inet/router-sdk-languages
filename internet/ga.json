@@ -255,7 +255,7 @@
         "auto_switching_without_network_tips": "Nuair a chuirtear modh {mode} ar siúl, ní dhéanfaidh an ródaire scanadh go huathoibríoch do líonraí nuair a bheidh sé nasctha go rathúil sa mhodh neamh-athsheachadóra, agus ní dhéanfaidh sé iarracht aistriú go líonraí sábháilte eile go huathoibríoch ach amháin nuair a bheidh an ródaire gan líonra. Is féidir leis seo caillteachas paicéad cumarsáide a sheachaint.",
         "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht na cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheoltóir scanadh le haghaidh líonraí atá ar fáil; leanfaidh sé ar aghaidh ag scanadh go huathoibríoch a luaithe a dhícheanglaítear an tIdirlíon. Is féidir leat athcheangal nó aistriú chuig líonra Wi-Fi de láimh.",
         "initializing_tips": "Tá an t-athsheoltóir ag tosú...",
-        "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz suas le 160MHz leithead banda.",
+        "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz le bandaleithead suas le 160MHz.",
         "band_conflict_tips": "Chun nasc a bhaint amach, nuair a bhíonn an athsheachadán cumasaithe, déanfaidh an banda Wi-Fi 5GHz/6GHz a mheaitseáil leis an athsheachadán go huathoibríoch. Mura ndéanann do ghléas athcheangal go huathoibríoch, déan ceangal leis an Wi-Fi de láimh le do thoil."
     },
     "modem": {
@@ -396,7 +396,7 @@
         "slot_switch_esim_tips": "Má chuirtear ar siúl é, athróidh {sim} go eSIM agus ní bheidh an cárta SIM fisiceach ar fáil.",
         "unlock_pin_tips": "Cuir isteach an PIN chun an SIM a dhíghlasáil.",
         "unlock_pin_err_tips": "Tá an cód PIN {code} mícheart. Cuir isteach an cód ceart le do thoil.",
-        "device_may_not_b_operators_tips": "D'fhéadfadh sé nach mbeadh an gléas in ann gach oibreoir a scanadh nuair a bhíonn an comhéadan Ceallach cumasaithe.",
+        "device_may_not_b_operators_tips": "B’fhéidir nach mbeidh an gléas in ann gach oibreoir a scanadh nuair a bhíonn an comhéadan Ceallach cumasaithe.",
         "apn_update_tips": "Leis an ródaire ceangailte leis an Idirlíon, cliceáil {updateApn} chun an chumraíocht APN is déanaí a fháil.",
         "update_apn_database": "Nuashonraigh Bunachar Sonraí APN",
         "select_cellular_profile_tips": "Is féidir leat {selectProfile} chun a inneachar a chóipeáil go dtí na socruithe a úsáideann an cárta SIM.",
