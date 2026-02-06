@@ -12,7 +12,7 @@
         "setting": "イーサネット設定",
         "using_as_lan": "LANとして使用中、$$$$WANに変更する$$$$",
         "using_as_wan": "WANとして使用中、$$$$はLAN$$$$に変更する",
-        "pppoe_vlanid_tips": "この設定は、プロバイダのPPPoEサーバがタグ付きの特定のVLAN IDの使用をインターフェイスに求める場合のみ必要です。",
+        "pppoe_vlanid_tips": "この設定は、プロバイダーのPPPoEサーバがタグ付きの特定のVLAN IDの使用をインターフェイスに求める場合のみ必要です。",
         "egderouter_mode_tips": "サイドルーティングが有効になっています。イーサネット設定を変更する場合は、先に$$$$サイドルーティング$$$$を無効にしてください。",
         "change_to_wan_tips": "LAN ポートを WAN ポートとして使用すると、LAN ポートに接続されたこのイーサネット ポート経由で管理者パネルにアクセスできなくなります。 クライアントが Wi-Fi または他の LAN ポートに接続できることを確認してください。",
         "change_to_wan_tips2": "デバイスのリセットボタンを4秒間長押しすることで、LANポートを（WANポートとして使用されないように）復帰させることができます。",
@@ -27,12 +27,12 @@
         "using_tips": "{silkprint} ステータス：{port}として使用中。{changePort}",
         "use_as_port_btn": "{silkprint}を{port}に変更する",
         "revert_as_lan_tips": "LANポート（デフォルト）に{silkprint}を復元してもよろしいですか？",
-        "vlan_id_conflict_tips": "Ethernet1のVLAN IDとEthernet2のVLAN IDが衝突しています。"
+        "vlan_id_conflict_tips": "イーサネット1のVLAN IDとイーサネット2のVLAN IDが競合しています。"
     },
     "tethering": {
         "title": "テザリング",
         "device": "デバイス",
-        "no_device_tips": "テザリング機器が見つからない場合、スマートフォンやUSBモデムを挿し込んでください。"
+        "no_device_tips": "テザリングデバイスが見つかりません。スマートフォンまたはUSBモデムを接続してください。"
     },
     "repeater": {
         "title": "リピーター",
@@ -56,13 +56,13 @@
         "set_static": "手動で静的IPを設定",
         "unlock": "自動",
         "retry_connet_tips": "接続に失敗しました、後で再試行します…",
-        "lock_bssid_tips": "このオプションを有効にすると、このSSIDを使用しているネットワークに切り替えるとき、ルータは選択したBSSIDに対応するアクセスポイントにのみ接続します。",
+        "lock_bssid_tips": "このオプションを有効にすると、このSSIDを使用しているネットワークに切り替えるとき、ルーターは選択したBSSIDに対応するアクセスポイントにのみ接続します。",
         "advanced_settings": "詳細設定",
         "antijam": "2.4G帯域の帯域幅を20MHzに強制する",
         "antijam_tips": "このオプションを有効にすると、機器の接続速度が低下する代わりに接続安定性が向上します。",
         "antijam_tips_2": "このオプションは、2.4G Wi-Fiの中継時のみ機能します。",
-        "allow_change_tips": "このオプションを有効にすると、現在のWi-Fiネットワークに接続できなくなった際に、ルータは他の保存済みネットワークに接続します。",
-        "lock_band_tips": "手動で周波数帯域を選択すると、ルータは別の周波数帯域を使用するWi-Fiをスキャンしたり接続したりしません。",
+        "allow_change_tips": "このオプションを有効にすると、現在のWi-Fiネットワークに接続できなくなった際に、ルーターは他の保存済みネットワークに接続します。",
+        "lock_band_tips": "周波数帯域を手動で選択した場合、ルーターは他の周波数帯域を使用しているWi-Fiの検索や接続を行いません。",
         "allow_dfs": "DFSチャンネルの中継を許可する",
         "allow_dfs_tips2": "このオプションを無効にすると、ルーターはDFSチャンネルを使用するWi-Fiに接続されません。",
         "scan_disable_guest_tips": "Wi-Fi信号をスキャンしている間、ゲストネットワークは約 10 秒間一時的に利用できなくなります。 続行しますか?",
