@@ -508,7 +508,11 @@
         "conneted_tips": "Obfuscation etkinleştirildi. AmneziaWG uygulaması veya AmneziaWG obfuscation'ı destekleyen firmware çalıştıran bir GL.iNet yönlendirici üzerinden bağlanmanızı öneririz. AmneziaWG obfuscation'ı desteklemeyen istemciler bağlanamayacaktır."
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "Yüklenen dosya çok büyük. Yetersiz depolama alanı nedeniyle açma işlemi başarısız oldu."
+        "too_large_unzip_fail_tips": "Yüklenen dosya çok büyük. Yetersiz depolama alanı nedeniyle açma işlemi başarısız oldu.",
+        "groups_desc": "{provider} veya {custom} kullanmayı mı tercih ediyorsunuz? Yapılandırma dosyalarınızı eklemek için yeni bir grup oluşturun.",
+        "groups_other_provider_label": "diğer VPN hizmet sağlayıcıları",
+        "groups_custom_label": "kendi VPN sunucunuzu özelleştirme",
+        "select_at_least_one_msg": "En az bir sunucu seçin."
     },
     "ovpnclient": {
         "legacy_label": "Eski",
@@ -517,5 +521,6 @@
         "legacy_desc": "Daha yüksek yapılandırma uyumluluğuna sahiptir. Bağlantı başarısız olursa, bu seçeneğe geçmeyi deneyebilirsiniz.",
         "modern_label": "Modern",
         "modern_desc": "Çoğu VPN hizmeti için uygundur, daha iyi performans ve güvenlik sunar."
-    }
+    },
+    "menu_vpn-client": "VPN İstemci Profili"
 }

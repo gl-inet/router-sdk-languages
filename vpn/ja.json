@@ -508,7 +508,11 @@
         "conneted_tips": "難読化が有効になっています。AmneziaWGアプリまたはAmneziaWG難読化をサポートするファームウェアを実行しているGL.iNetルーター経由での接続を推奨します。AmneziaWG難読化をサポートしていないクライアントは接続できません。"
     },
     "vpn_client": {
-        "too_large_unzip_fail_tips": "アップロードされたファイルが大きすぎます。ストレージ不足のため解凍に失敗しました。"
+        "too_large_unzip_fail_tips": "アップロードされたファイルが大きすぎます。ストレージ不足のため解凍に失敗しました。",
+        "groups_desc": "{provider}または{custom}の使用を希望しますか？新しいグループを作成して設定ファイルを追加してください。",
+        "groups_other_provider_label": "他のVPNサービスプロバイダー",
+        "groups_custom_label": "独自のVPNサーバーをカスタマイズする",
+        "select_at_least_one_msg": "少なくとも1つのサーバーを選択してください。"
     },
     "ovpnclient": {
         "legacy_label": "レガシー",
@@ -517,5 +521,6 @@
         "legacy_desc": "より高い設定互換性を備えています。接続に失敗した場合は、このオプションに切り替えて試してみてください。",
         "modern_label": "モダン",
         "modern_desc": "ほとんどのVPNサービスに適しており、より優れたパフォーマンスとセキュリティを提供します。"
-    }
+    },
+    "menu_vpn-client": "VPNクライアントプロファイル"
 }

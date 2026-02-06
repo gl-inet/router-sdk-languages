@@ -260,7 +260,13 @@
         "lock_operation_mode_tip": "Puoi scegliere di bloccare manualmente un operatore specifico o passare automaticamente a una rete operativa disponibile quando il blocco manuale fallisce.",
         "slot_switch_esim_tips": "Se abilitato, {sim} passerà a eSIM e la scheda SIM fisica non sarà disponibile.",
         "unlock_pin_tips": "Inserisci il PIN per sbloccare la SIM.",
-        "unlock_pin_err_tips": "Il codice PIN {code} è errato. Inserire il codice PIN corretto."
+        "unlock_pin_err_tips": "Il codice PIN {code} è errato. Inserire il codice PIN corretto.",
+        "device_may_not_b_operators_tips": "Il dispositivo potrebbe non essere in grado di scansionare tutti gli operatori quando l'interfaccia cellulare è abilitata.",
+        "apn_update_tips": "Con il router connesso a Internet, clicca su {updateApn} per ottenere la configurazione APN più recente.",
+        "update_apn_database": "Aggiorna database APN",
+        "select_cellular_profile_tips": "Puoi {selectProfile} per copiare il contenuto nelle impostazioni utilizzate dalla scheda SIM.",
+        "select_cellular_profile": "Seleziona un profilo cellulare",
+        "manage_cellular_profiles": "Gestisci Profili Cellulari"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",

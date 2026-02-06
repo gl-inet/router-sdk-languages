@@ -209,7 +209,7 @@
         "select_profile_desc": "妳可以$$$$選擇配置模板$$$$來將其中的內容複制到 SIM 卡使用的配置中。",
         "has_been_choose_profile_desc": "您已經復製了 {profileName} 中的內容。$$$$復製另一個$$$$",
         "name_already_exist_tips": "此名稱已存在",
-        "device_may_not_b_tips": "蜂窩接口已啟用，部分基站可能無法被設備掃描到。",
+        "device_may_not_b_tips": "蜂窝接口已启用，可能无法扫描到基站。如果出现这种情况，请断开蜂窝连接并重新扫描。",
         "history_signal_title": "歷史信號記錄",
         "lock_tower_title": "鎖定基站",
         "available_tower_title": "可用基站",
@@ -260,7 +260,13 @@
         "lock_operation_mode_tip": "您可選擇手動鎖定特定運營商，或者在手動鎖定失敗時自動切換到可用的運營商網絡。",
         "slot_switch_esim_tips": "如果啟用，{sim}將切換到eSIM，實體SIM卡將無法使用。",
         "unlock_pin_tips": "輸入PIN碼以解鎖SIM卡。",
-        "unlock_pin_err_tips": "PIN 碼{code}錯誤。請輸入正確的 PIN 碼。"
+        "unlock_pin_err_tips": "PIN 碼{code}錯誤。請輸入正確的 PIN 碼。",
+        "device_may_not_b_operators_tips": "蜂窩接口已啟用，可能無法掃描到運營商。如果出現這種情況，請斷開蜂窩連接並重新掃描。",
+        "apn_update_tips": "請向您的運營商諮詢。 路由器聯網狀態下，按一下{updateApn}可獲取最新的 APN 配寘。",
+        "update_apn_database": "更新 APN 資料庫",
+        "select_cellular_profile_tips": "您可以{selectProfile}以将其内容复制到SIM卡使用的设置中。",
+        "select_cellular_profile": "選擇蜂窩網路設定檔",
+        "manage_cellular_profiles": "管理蜂窩網路設定檔"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",

@@ -136,7 +136,13 @@
         "lock_operation_mode_tip": "Galite pasirinkti rankiniu būdu užrakinti konkretų operatorių arba automatiškai perjungti į prieinamą operatoriaus tinklą, kai rankinis užrakinti nepavyksta.",
         "slot_switch_esim_tips": "Jei įjungta, {sim} pereis į eSIM, o fizinė SIM kortelė bus nepasiekiama.",
         "unlock_pin_tips": "Įveskite PIN kodą, kad atrakintumėte SIM kortelę.",
-        "unlock_pin_err_tips": "PIN kodas {code} yra neteisingas. Įveskite teisingą PIN."
+        "unlock_pin_err_tips": "PIN kodas {code} yra neteisingas. Įveskite teisingą PIN.",
+        "device_may_not_b_operators_tips": "Įjungus mobilųjį sąsają, įrenginys gali nepavykti nuskaityti visų operatorių.",
+        "apn_update_tips": "Kai maršrutizatorius prijungtas prie interneto, spustelėkite {updateApn}, kad gautumėte naujausią APN konfigūraciją.",
+        "update_apn_database": "Atnaujinti APN duomenų bazę",
+        "select_cellular_profile_tips": "Galite {selectProfile}, kad nukopijuotumėte jo turinį į SIM kortelės naudojamus nustatymus.",
+        "select_cellular_profile": "Pasirinkite mobiliojo ryšio profilį",
+        "manage_cellular_profiles": "Tvarkyti mobiliojo ryšio profilius"
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",

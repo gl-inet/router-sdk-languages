@@ -16,7 +16,12 @@
         "acl_desc": "Az {acl} szabályok segítségével szabályozható a hálózati forgalom protokoll, cél IP-cím, forrás IP-cím és portszám alapján. Ha két engedélyezett {acl} szabály ütközik, az eszköz a magasabb prioritású szabályt alkalmazza.",
         "any_not_allowed_with_multiple_ips": "Több IP-cím esetén az 'Any' lehetőség nem választható",
         "add_acl_dialog_title": "ACL szabály hozzáadása",
-        "name_already_exist_msg": "A név már létezik."
+        "name_already_exist_msg": "A név már létezik.",
+        "any_label": "Bármely",
+        "accept_label": "Elfogadás",
+        "drop_label": "Elvetés",
+        "reject_label": "Elutasítás",
+        "add_new_btn": "Új hozzáadása"
     },
     "menu_acl": "ACL"
 }

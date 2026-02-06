@@ -260,7 +260,13 @@
         "lock_operation_mode_tip": "U kunt ervoor kiezen om een specifieke operator handmatig te vergrendelen, of automatisch over te schakelen naar een beschikbaar operatornetwerk wanneer handmatige vergrendeling mislukt.",
         "slot_switch_esim_tips": "Indien ingeschakeld, zal {sim} overschakelen naar eSIM en de fysieke SIM-kaart zal niet beschikbaar zijn.",
         "unlock_pin_tips": "Voer de PIN in om de SIM te ontgrendelen.",
-        "unlock_pin_err_tips": "PIN-code {code} is onjuist. Voer de juiste PIN in."
+        "unlock_pin_err_tips": "PIN-code {code} is onjuist. Voer de juiste PIN in.",
+        "device_may_not_b_operators_tips": "Het apparaat is mogelijk niet in staat om alle operators te scannen wanneer de mobiele interface is ingeschakeld.",
+        "apn_update_tips": "Met de router verbonden met internet, klik op {updateApn} om de nieuwste APN-configuratie te krijgen.",
+        "update_apn_database": "APN-database bijwerken",
+        "select_cellular_profile_tips": "U kunt {selectProfile} om de inhoud ervan te kopiëren naar de instellingen die door de SIM-kaart worden gebruikt.",
+        "select_cellular_profile": "Selecteer een mobiel profiel",
+        "manage_cellular_profiles": "Beheer Mobiele Profielen"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
