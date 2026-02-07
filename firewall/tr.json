@@ -35,7 +35,8 @@
         "internal_ip": "Dahili IP",
         "priority_label": "Öncelik",
         "firewallview_port_range_message": "Bir harici porttan birden fazla dahili porta yönlendirme desteklenmemektedir.",
-        "firewallview_port_tips": "Port aralığı 1 ile 65535 arasındadır. Tek bir port veya ilk ve son port numaralarını tire ile bağlayarak bir port aralığı (örn. 501-510) ayarlayabilirsiniz; her aralıkta maksimum 100 port bulunabilir."
+        "firewallview_port_tips": "Port aralığı 1 ile 65535 arasındadır. Tek bir port veya ilk ve son port numaralarını tire ile bağlayarak bir port aralığı (örn. 501-510) ayarlayabilirsiniz; her aralıkta maksimum 100 port bulunabilir.",
+        "firewallview_port_range_inconsistent": "Harici port ve dahili port aralıkları tutarlı olmalıdır."
     },
     "menu_firewallview": "Güvenlik Duvarı"
 }
