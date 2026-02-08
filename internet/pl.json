@@ -276,7 +276,7 @@
         "history_signal_title": "Historyczny Zapis Sygnału",
         "lock_tower_title": "Zablokuj Wieżę",
         "available_tower_title": "Dostępna Wieża",
-        "device_may_not_b_tips": "Urządzenie może nie być w stanie skanować wszystkich wież, gdy interfejs komórkowy jest włączony.",
+        "device_may_not_b_tips": "Urządzenie może nie być w stanie skanować w poszukiwaniu wież, gdy interfejs komórkowy jest włączony. W takim przypadku należy rozłączyć połączenie komórkowe i ponownie przeskanować sieć.",
         "scan_tower_msg": "To może zająć kilka minut. Proszę o cierpliwość.",
         "sim_tower_title": "Wieża SIM {sim}",
         "tower_locked_tips": "Wieża Zablokowana",
@@ -334,10 +334,10 @@
         "unlock_pin_err_tips": "Kod PIN {code} jest nieprawidłowy. Proszę wprowadzić poprawny kod PIN.",
         "device_may_not_b_operators_tips": "Urządzenie może nie być w stanie zeskanować wszystkich operatorów, gdy interfejs komórkowy jest włączony.",
         "apn_update_tips": "Po podłączeniu routera do Internetu, kliknij {updateApn}, aby uzyskać najnowszą konfigurację APN.",
-        "update_apn_database": "Aktualizuj bazę danych APN",
+        "update_apn_database": "Aktualizuj Bazę Danych APN",
         "select_cellular_profile_tips": "Możesz {selectProfile}, aby skopiować jego zawartość do ustawień używanych przez kartę SIM.",
-        "select_cellular_profile": "Wybierz profil komórkowy",
-        "manage_cellular_profiles": "Zarządzaj profilami komórkowymi"
+        "select_cellular_profile": "Wybierz Profil Komórkowy",
+        "manage_cellular_profiles": "Zarządzaj Profilami Komórkowymi"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
