@@ -35,7 +35,8 @@
         "priority_label": "優先級",
         "vpnclient_zone_tips": "具有相同配置的VPN隧道將使用相同的區域，修改隧道配置可能會影響端口轉發。",
         "firewallview_port_range_message": "不支援將一個外部端口轉發至多個內部端口。",
-        "firewallview_port_tips": "端口範圍為 1 到 65535。您可以設定單一端口或端口範圍，方法是使用連字號連接起始與結束端口號碼（例如 501-510），每個範圍最多包含 100 個端口。"
+        "firewallview_port_tips": "端口範圍為 1 到 65535。您可以設定單一端口或端口範圍，方法是使用連字號連接起始與結束端口號碼（例如 501-510），每個範圍最多包含 100 個端口。",
+        "firewallview_port_range_inconsistent": "外部端口和内部端口范围必须一致。"
     },
     "menu_firewallview": "防火牆"
 }

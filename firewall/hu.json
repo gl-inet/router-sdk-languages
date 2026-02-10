@@ -35,7 +35,8 @@
         "edit_port_forwards_title": "Szabály módosítása",
         "vpnclient_zone_tips": "Az azonos konfigurációval rendelkező VPN-alagutak ugyanazt a Zónát használják, és az alagút konfigurációjának módosítása hatással lehet a porttovábbításra.",
         "firewallview_port_range_message": "Egy külső port több belső portra történő továbbítása nem támogatott.",
-        "firewallview_port_tips": "A portok tartománya 1-től 65535-ig terjed. Beállíthat egyetlen portot vagy porttartományt az első és az utolsó portszám kötőjellel történő összekapcsolásával (pl. 501-510), maximum 100 porttal egy tartományon belül."
+        "firewallview_port_tips": "A portok tartománya 1-től 65535-ig terjed. Beállíthat egyetlen portot vagy porttartományt az első és az utolsó portszám kötőjellel történő összekapcsolásával (pl. 501-510), maximum 100 porttal egy tartományon belül.",
+        "firewallview_port_range_inconsistent": "A külső és belső porttartományoknak konzisztensek kell lenniük."
     },
     "menu_firewallview": "Tűzfal"
 }

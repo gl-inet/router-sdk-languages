@@ -349,7 +349,7 @@
         "sim_not_registered": "Níl an cárta SIM cláraithe",
         "clear_traffic": "Díchumasaigh Uathshábháil Staitisticí Tráchta",
         "protocol_tips": "Tá prótacal QCM/QMI níos tapúla, agus tá comhoiriúnacht níos fearr ag an bprótacal 3G.",
-        "device_may_not_b_tips": "B’fhéidir nach mbeidh an gléas in ann scanadh a dhéanamh ar gach túr nuair a bhíonn an Comhéadan Ceallach cumasaithe.",
+        "device_may_not_b_tips": "B’fhéidir nach mbeidh an gléas in ann túir a scanadh nuair a bhíonn an comhéadan ceallach cumasaithe. Má tharlaíonn sé seo, dícheangail an nasc ceallach agus déan scanadh arís.",
         "band_masking_label": "Bloc",
         "auto_setup": "Socrú Uathoibríoch",
         "remove_profile_warning": "An bhfuil tú cinnte gur mhaith leat an próifíl a scriosadh? Ní féidir an próifíl a aisghabháil tar éis a scriosta.",
@@ -396,12 +396,13 @@
         "slot_switch_esim_tips": "Má chuirtear ar siúl é, athróidh {sim} go eSIM agus ní bheidh an cárta SIM fisiceach ar fáil.",
         "unlock_pin_tips": "Cuir isteach an PIN chun an SIM a dhíghlasáil.",
         "unlock_pin_err_tips": "Tá an cód PIN {code} mícheart. Cuir isteach an cód ceart le do thoil.",
-        "device_may_not_b_operators_tips": "B’fhéidir nach mbeidh an gléas in ann gach oibreoir a scanadh nuair a bhíonn an comhéadan Ceallach cumasaithe.",
+        "device_may_not_b_operators_tips": "B’fhéidir nach mbeidh an gléas in ann scanadh a dhéanamh le haghaidh oibreoirí nuair a bhíonn an comhéadan ceallach cumasaithe. Má tharlaíonn sé seo, dícheangail an nasc ceallach agus déan scanadh arís.",
         "apn_update_tips": "Leis an ródaire ceangailte leis an Idirlíon, cliceáil {updateApn} chun an chumraíocht APN is déanaí a fháil.",
         "update_apn_database": "Nuashonraigh Bunachar Sonraí APN",
         "select_cellular_profile_tips": "Is féidir leat {selectProfile} chun a inneachar a chóipeáil go dtí na socruithe a úsáideann an cárta SIM.",
         "select_cellular_profile": "Roghnaigh Próifíl Cheallach",
-        "manage_cellular_profiles": "Bainistigh Próifílí Ceallacha"
+        "manage_cellular_profiles": "Bainistigh Próifílí Ceallacha",
+        "low_power_mode_tips": "Tá an gléas i mód íseal cumhachta agus ní féidir leis an gcárta SIM a bhrath."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
