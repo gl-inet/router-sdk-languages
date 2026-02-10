@@ -21,7 +21,7 @@
         "power_title": "功耗",
         "ethernet_idle_timeout_label": "以太網空閒自動關閉",
         "power_off_timeout_label": "空閒自動關機",
-        "auto_system_standby_tips": "啟用後，若網路閒置、未連接 USB 且未使用中繼模式，系統將自動進入待命狀態。",
+        "auto_system_standby_tips": "啟用後，當網口、Wi-Fi 和中繼均處於閒置狀態，且未連接 USB 裝置時，裝置將進入系統待機，行動網路將進入低功耗模式，並開始關機倒數計時。",
         "never_label": "永不",
         "wifi_sleep_time_label": "Wi-Fi 空閒自動關閉",
         "power_charger_label": "插電開機",
