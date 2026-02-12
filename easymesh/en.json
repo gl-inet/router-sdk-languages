@@ -100,6 +100,9 @@
         "screen_lokced_label": "Screen Lokced",
         "unlock_device_screen_tips": "Unlock the device screen to continue.",
         "new_version_available_label": "New version {newVerion} available",
-        "offline_label": "Offline"
+        "offline_label": "Offline",
+        "wan_cable_detected_tips": "WAN cable detected.",
+        "switch_agent_mode_conflicts_router_tips": "Switching to Agent mode will convert the WAN port to LAN, which may cause network conflicts with your upstream router.",
+        "disconnect_wan_tips": "Disconnect the WAN cable to avoid issues."
     }
 }
