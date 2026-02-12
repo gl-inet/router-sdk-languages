@@ -100,6 +100,9 @@
         "current_mode_title": "当前模式：{mode}",
         "once_connected_tips": "连接后，此设备将自动从控制器获取IP地址。如需再次访问此界面，请使用新的IP地址。",
         "signal_label": "信号",
-        "all_select_no_firmware_tips": "所有选中的设备均运行最新固件。"
+        "all_select_no_firmware_tips": "所有选中的设备均运行最新固件。",
+        "wan_cable_detected_tips": "检测到WAN网线。",
+        "switch_agent_mode_conflicts_router_tips": "切换到代理模式会将WAN口转换为LAN口，这可能会与您的上游路由器产生网络冲突。",
+        "disconnect_wan_tips": "请断开WAN网线以避免问题。"
     }
 }
