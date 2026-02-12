@@ -100,6 +100,9 @@
         "verifcation_status_label": "인증",
         "add_device_operation_three_tips": "더 많은 장치를 추가하려면 {scan}을(를) 다시 클릭하세요.",
         "prepare_your_devices_one_tips": "1. 장치가 EasyMesh를 지원하는지 확인하세요. 이전 모델의 경우 펌웨어 업데이트가 필요할 수 있습니다.",
-        "all_select_no_firmware_tips": "선택한 모든 장치가 최신 펌웨어를 실행 중입니다."
+        "all_select_no_firmware_tips": "선택한 모든 장치가 최신 펌웨어를 실행 중입니다.",
+        "switch_agent_mode_conflicts_router_tips": "에이전트 모드로 전환하면 WAN 포트가 LAN으로 변환되어 업스트림 라우터와 네트워크 충돌이 발생할 수 있습니다.",
+        "wan_cable_detected_tips": "WAN 케이블이 감지되었습니다.",
+        "disconnect_wan_tips": "문제를 방지하려면 WAN 케이블을 분리하세요."
     }
 }
