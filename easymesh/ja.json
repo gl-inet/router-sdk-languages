@@ -100,6 +100,9 @@
         "exit_mesh_network_two_tips": "このデバイスはコントローラーから切断され、EasyMeshを再度使用するにはネットワークに再接続する必要があります。",
         "make_sure_the_pairing_code_tips": "ペアリングコードが正しいことを確認するか、このデバイスをコントローラーに近づけてみてください。",
         "controller_label": "コントローラー",
-        "for_centralized_management_tips": " 集中管理のため、このデバイスはコントローラーのインターフェースを通じて管理してください。"
+        "for_centralized_management_tips": " 集中管理のため、このデバイスはコントローラーのインターフェースを通じて管理してください。",
+        "wan_cable_detected_tips": "WANケーブルが検出されました。",
+        "switch_agent_mode_conflicts_router_tips": "エージェントモードに切り替えると、WANポートがLANに変換され、上流ルーターとのネットワーク競合が発生する可能性があります。",
+        "disconnect_wan_tips": "問題を回避するためにWANケーブルを切断してください。"
     }
 }
