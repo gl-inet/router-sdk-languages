@@ -12,7 +12,8 @@
         "set_as_lan_tips": "Soll {silkprint} wirklich zu LAN Port geändert werden?",
         "no_wan_tips": "{silkprint} wird als LAN (Local Area Network) Port benutzt. Der Port kann über {view} wieder zum WAN (Wide Area Network) Port konfiguriert werden",
         "two_port_label": "{port1} und {port2}",
-        "usbwan_title": "USB-Ethernet"
+        "usbwan_title": "USB-Ethernet",
+        "not_allowed_wan_lan_switching": "[Drop-in Gateway](Drop-in Gateway) 功能启用时，不允许进行 WAN/LAN 切换。"
     },
     "menu_netport": "Verwaltung der Netzwerkanschlüsse"
 }
