@@ -12,7 +12,8 @@
         "as_label": "Как {port}",
         "as_wan_tips": "{asWan}, устройство, подключенное к порту, больше не сможет получить доступ к панели администратора. Вам придется подключить его к Wi-Fi или другим LAN-портам.",
         "reset_as_wan_tips": "Восстановить {silkprint} как WAN-порт.",
-        "usbwan_title": "USB Ethernet"
+        "usbwan_title": "USB Ethernet",
+        "not_allowed_wan_lan_switching": "Переключение WAN/LAN не разрешено, пока включена функция [Drop-in Gateway](Drop-in Gateway)."
     },
     "menu_netport": "Управление сетевыми портами"
 }
