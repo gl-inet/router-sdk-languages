@@ -14,7 +14,8 @@
         "modify_self_router_desc": "ドロップイン・ゲートウェイを使用する必要がある機器の一部では、ゲートウェイアドレスをドロップイン・ゲートウェイのIPアドレスに手動で変更する必要があります。",
         "modify_superior_router_desc": "上位ルートの設定を変更するには、上位ルートにアクセスできるユーザーが設定する必要があります。",
         "configuration_method_label": "設定方法",
-        "modify_self_router_label": "一部の機器は、独自のネットワーク・ゲートウェイを選択します"
+        "modify_self_router_label": "一部の機器は、独自のネットワーク・ゲートウェイを選択します",
+        "feature_conflicts_tips": "この機能は現在利用できません。WAN/LAN切り替え機能と競合しているためです。{ethernetPort}をデフォルト設定に戻してください。"
     },
     "menu_edgerouter": "ドロップイン・ゲートウェイ"
 }
