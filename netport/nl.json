@@ -12,7 +12,8 @@
         "rate_label": "Onderhandelde netwerkpoortsnelheid",
         "no_wan_tips": "{silkprint} is gebruikt als LAN (Lokaal Netwerk). U kunt het terugzetten naar WAN (Wide Area Network) in {view}",
         "set_as_lan_tips": "Weet u zeker dat u {silkprint} wilt omschakelen naar een LAN-poort?",
-        "usbwan_title": "USB Ethernet"
+        "usbwan_title": "USB Ethernet",
+        "not_allowed_wan_lan_switching": "WAN/LAN-omschakeling is niet toegestaan terwijl de {dropInGateway}-functie is ingeschakeld."
     },
     "menu_netport": "Beheer van netwerkpoorten"
 }
