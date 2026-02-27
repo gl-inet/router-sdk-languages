@@ -15,6 +15,7 @@
         "modify_superior_router_desc": "Gelieve de configuratie van de primaire router aan te passen. Dit moet gedaan worden door iemand die toegang heeft tot de primaire router.",
         "modify_self_router_label": "Sommige apparaten kiezen zelf voor hun gateway",
         "modify_self_router_desc": "U moet op sommige apparaten handmatig het gatewayadres aanpassen naar het IP-adres van de plaatsvervangende gateway.",
-        "configuration_method_label": "Configuratiemethode"
+        "configuration_method_label": "Configuratiemethode",
+        "feature_conflicts_tips": "Deze functie is momenteel niet beschikbaar omdat deze conflicteert met de WAN/LAN-omschakelfunctie. Herstel de {ethernetPort} naar de standaardconfiguratie."
     }
 }
