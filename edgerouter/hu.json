@@ -15,6 +15,7 @@
         "modify_superior_router_desc": "Módosítania kell az elsődleges útvonal konfigurációját, amelyet csak az elsődleges útvonalhoz hozzáféréssel rendelkező felhasználó konfigurálhat.",
         "modify_self_router_label": "Néhány eszköz saját hálózati átjárót választ",
         "modify_self_router_desc": "Egyes eszközökön manuálisan kell megváltoztatni az átjáró címet a drop-in átjáró IP-címére, amelyeknek szükségük van a drop-in átjáró használatára.",
-        "configuration_method_label": "Konfigurációs módszer"
+        "configuration_method_label": "Konfigurációs módszer",
+        "feature_conflicts_tips": "Ez a funkció jelenleg nem érhető el, mert ütközik a WAN/LAN váltási funkcióval. Kérjük, állítsa vissza az {ethernetPort} alapértelmezett konfigurációját."
     }
 }
