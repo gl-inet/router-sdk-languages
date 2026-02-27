@@ -14,7 +14,8 @@
         "modify_superior_router_label": "모든 장치가 drop-in gateway를 통해 네트워크로 연결됨",
         "modify_self_router_label": "일부 디바이스는 자체 네트워킹 게이트웨이를 선택합니다",
         "modify_self_router_desc": "drop-in gateway를 사용해야 하는 일부 디바이스에서 게이트웨이 주소를 드롭인 게이트웨이의 IP 주소로 수동으로 변경해야 합니다.",
-        "configuration_method_label": "구성 방법"
+        "configuration_method_label": "구성 방법",
+        "feature_conflicts_tips": "이 기능은 현재 WAN/LAN 전환 기능과 충돌하여 사용할 수 없습니다. {ethernetPort}를 기본 구성으로 복원해 주세요."
     },
     "menu_edgerouter": "Drop-in Gateway"
 }
