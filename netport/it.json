@@ -13,6 +13,7 @@
         "no_wan_tips": "{silkprint} è stata utilizzata come LAN (Rete Locale). Puoi reimpostarla come WAN (Rete Estesa) in {view}",
         "two_port_label": "{port1} e {port2}",
         "as_wan_tips": "{asWan}, il dispositivo connesso alla porta non potrà più accedere al pannello di amministrazione. Dovrai connetterlo al Wi-Fi o ad altre porte LAN.",
-        "usbwan_title": "Ethernet USB"
+        "usbwan_title": "Ethernet USB",
+        "not_allowed_wan_lan_switching_tips": "Il passaggio WAN/LAN non è consentito mentre la funzione {dropInGateway} è abilitata."
     }
 }
