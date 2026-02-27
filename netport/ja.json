@@ -13,6 +13,7 @@
         "reset_as_lan_tips": "{silkprint} をLANポート（デフォルト）に復元してもよろしいですか？",
         "set_as_lan_tips": "{silkprint} をLANポートに切り替えてもよろしいですか？",
         "no_wan_tips": "{silkprint} はLAN（ローカルエリアネットワーク）として使用されています。{view}でWAN（ワイドエリアネットワーク）に戻すことができます",
-        "usbwan_title": "USBイーサネット"
+        "usbwan_title": "USBイーサネット",
+        "not_allowed_wan_lan_switching": "{dropInGateway}機能が有効になっている間は、WAN/LAN切り替えは許可されていません。"
     }
 }
