@@ -14,7 +14,8 @@
         "modify_superior_router_desc": "Jums reikia pakeisti pirminės kelvados konfigūraciją, kuri turi būti konfigūruota naudotojo/vartotojo. Šis turi turėti prieigos teisę, prie pirminės kelvados.",
         "modify_self_router_label": "Kai kurie įrenginiai savarankiškai pasirenka, kad naudotų savo tinklavimo tinklo tarpuvartę",
         "modify_self_router_desc": "Jums reikia rankiniu būdu pakeisti tinklo tarpuvartės adresą į apdorojančiosios tinklo tarpuvartės IP adresą. Šis reikalingas kai kuriuose įrenginiuose, kuriems reikia naudoti apdorojančia tinklo tarpuvartę.",
-        "configuration_method_label": "Konfigūracijos metodas"
+        "configuration_method_label": "Konfigūracijos metodas",
+        "feature_conflicts_tips": "Ši funkcija šiuo metu yra neprieinama, nes ji konfliktuoja su WAN/LAN perjungimo funkcija. Prašome atkurti {ethernetPort} į numatytąją konfigūraciją."
     },
     "menu_edgerouter": "Apdorojanti tinklo tarpuvartė"
 }
