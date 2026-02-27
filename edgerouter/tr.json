@@ -15,6 +15,7 @@
         "dhcp_on_tips": "Ana yönlendiricide DHCP hizmeti hala etkin. Aracısız ağ geçidi düzgün çalışmayabilir. Lütfen $$$$ana yönlendirici yönetici paneline$$$$ gidin ve DHCP hizmetini devre dışı bırakın veya ağ geçidini {ip} olarak ayarlayın.",
         "enable_tips": "Aracısız ağ geçidi modu etkinleştirildiğinde, ana yönlendiriciden gelen DNS ayarları yerine bu yönlendiricinin DNS ayarları kullanılır.",
         "dhcp_on_warning_tips": "Aracısız ağ geçidi etkinleştirildi.",
-        "dhcp_set_gateway_tips": "Ana yönlendiricide DHCP hizmeti ağ geçidini {ip} olarak doğru bir şekilde ayarladı, aracısız ağ geçidi çalışıyor."
+        "dhcp_set_gateway_tips": "Ana yönlendiricide DHCP hizmeti ağ geçidini {ip} olarak doğru bir şekilde ayarladı, aracısız ağ geçidi çalışıyor.",
+        "feature_conflicts_tips": "Bu özellik şu anda WAN/LAN anahtarlama işleviyle çakıştığı için kullanılamıyor. Lütfen {ethernetPort} bağlantı noktasını varsayılan yapılandırmasına geri yükleyin."
     }
 }
