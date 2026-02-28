@@ -606,7 +606,8 @@
     "apn": {
         "enable_polling_label": "ポーリングを有効化",
         "polling_control_title": "APNポーリング制御",
-        "enable_polling_tips": "デバイスがベライゾン SIMカードを使用しており、この機能が有効になっている場合、再起動後最大12分間、ネットワーク接続が正常になるまでAPNを継続的にポーリングします。この機能はベライゾン SIMカードでのみ有効です。"
+        "enable_polling_tips": "デバイスがベライゾン SIMカードを使用しており、この機能が有効になっている場合、再起動後最大12分間、ネットワーク接続が正常になるまでAPNを継続的にポーリングします。この機能はベライゾン SIMカードでのみ有効です。",
+        "database_update_success_msg": "APNデータベースが正常に更新されました"
     },
     "internet": {
         "manual_label": "マニュアル",
