@@ -363,7 +363,8 @@
     "apn": {
         "enable_polling_tips": "Cihaz bir Verizon SIM kartı kullanıyorsa ve bu özellik etkinse, cihaz yeniden başlatıldıktan sonra ağ bağlantısı normal olana kadar 12 dakikaya kadar sürekli olarak APN'yi yoklayacaktır. Bu özellik yalnızca Verizon SIM kartları için geçerlidir.",
         "enable_polling_label": "Yoklamayı Etkinleştir",
-        "polling_control_title": "APN Yoklama Kontrolü"
+        "polling_control_title": "APN Yoklama Kontrolü",
+        "database_update_success_msg": "APN Veritabanı başarıyla güncellendi"
     },
     "tethering": {
         "title": "USB Tethering",
