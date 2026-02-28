@@ -606,7 +606,8 @@
     "apn": {
         "enable_polling_label": "Habilitar sondeo",
         "polling_control_title": "Control de sondeo APN",
-        "enable_polling_tips": "Si el dispositivo utiliza una tarjeta SIM de Verizon y esta función está habilitada, el dispositivo sondeará continuamente el APN durante hasta 12 minutos después de reiniciar hasta que la conexión de red sea normal. Esta función solo es válida para tarjetas SIM de Verizon."
+        "enable_polling_tips": "Si el dispositivo utiliza una tarjeta SIM de Verizon y esta función está habilitada, el dispositivo sondeará continuamente el APN durante hasta 12 minutos después de reiniciar hasta que la conexión de red sea normal. Esta función solo es válida para tarjetas SIM de Verizon.",
+        "database_update_success_msg": "Base de datos APN actualizada correctamente"
     },
     "internet": {
         "manual_label": "Manual",
