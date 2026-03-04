@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Een exit node uitvoeren betekent dat andere apparaten in uw tailnet al hun verkeer via het IP-adres van deze router kunnen sturen.",
         "enable_function": "{function} inschakelen",
         "dns_serve_warning_tips": "Na gebruik van de uitgangsknooppunt, kunt u mogelijk geen toegang krijgen tot de DNS-server als u een intern IP-adres als DNS gebruikt ({address}).",
-        "mullvad_exit_node_tips": "Mullvad is geselecteerd als de Exit Node. Om LAN-apparaten toegang te geven tot internet via Tailscale, schakel {ipMasquerade} in."
+        "mullvad_exit_node_tips": "Mullvad is geselecteerd als de Exit Node. Om LAN-apparaten toegang te geven tot internet via Tailscale, schakel {ipMasquerade} in.",
+        "enabled_custom_exit_node_tips": "Er is een aangepaste Exit Node geselecteerd. Om LAN-apparaten toegang te geven tot internet via Tailscale, schakel {advertiseLanSubnet} of {ipMasquerade} in."
     }
 }
