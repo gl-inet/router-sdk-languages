@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Veikiantis išėjimo mazgas reiškia, kad kiti jūsų „tailnet“ tinkle esantys įrenginiai gali siųsti visą savo srautą per šio maršrutizatoriaus IP adresą.",
         "enable_function": "Įjungti {function}",
         "dns_serve_warning_tips": "Naudojant išėjimo mazgą, gali nepavykti pasiekti DNS serverio, jei kaip DNS naudojamas vidinis IP adresas ({address}).",
-        "mullvad_exit_node_tips": "Mullvad yra pasirinktas kaip Išėjimo mazgas. Kad vietinio tinklo („LAN“) įrenginiai galėtų pasiekti internetą per Tailscale, įjunkite {ipMasquerade}."
+        "mullvad_exit_node_tips": "Mullvad yra pasirinktas kaip Išėjimo mazgas. Kad vietinio tinklo („LAN“) įrenginiai galėtų pasiekti internetą per Tailscale, įjunkite {ipMasquerade}.",
+        "enabled_custom_exit_node_tips": "Pasirinktas pasirinktinis išėjimo mazgas. Kad vietinio tinklo („LAN“) įrenginiai galėtų pasiekti internetą per Tailscale, įjunkite {advertiseLanSubnet} arba {ipMasquerade}."
     }
 }
