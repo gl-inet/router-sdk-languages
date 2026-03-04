@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Bir çıkış düğümü çalıştırmak, tailnet'inizdeki diğer cihazların tüm trafiğini bu yönlendiricinin IP adresi üzerinden gönderebileceği anlamına gelir.",
         "enabled_custom_exit_node_tips": "Özel bir çıkış düğümü ayarladıktan sonra, bu cihazın arkasındaki LAN terminallerinin de Tailscale yönlendirmesi üzerinden internete erişmesini istiyorsanız, {advertiseLanSubnet} veya {ipMasquerade} kullanabilirsiniz.",
         "enable_function": "{function} etkinleştir",
-        "dns_serve_warning_tips": "Çıkış düğümünü kullandıktan sonra, DNS sunucusu olarak bir iç IP adresi kullanıyorsanız ({address}) DNS sunucusuna erişemeyebilirsiniz."
+        "dns_serve_warning_tips": "Çıkış düğümünü kullandıktan sonra, DNS sunucusu olarak bir iç IP adresi kullanıyorsanız ({address}) DNS sunucusuna erişemeyebilirsiniz.",
+        "mullvad_exit_node_tips": "Mullvad, Çıkış Düğümü olarak seçildi. LAN tarafındaki cihazların Tailscale üzerinden internete erişmesine izin vermek için lütfen {ipMasquerade} özelliğini etkinleştirin."
     }
 }
