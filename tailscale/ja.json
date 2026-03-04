@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "出口ノードを実行すると、Tailnet内の他のデバイスがすべてのトラフィックをこのルーターのIPアドレス経由で送信できるようになります。",
         "enable_function": "{function}を有効にする",
         "dns_serve_warning_tips": "出口ノードを使用した後、内部IPアドレスをDNSとして使用している場合、DNSサーバーにアクセスできない可能性があります（{address}）。",
-        "mullvad_exit_node_tips": "Mullvadが出口ノードとして選択されています。LAN側のデバイスがTailscale経由でインターネットにアクセスできるようにするには、{ipMasquerade}を有効にしてください。"
+        "mullvad_exit_node_tips": "Mullvadが出口ノードとして選択されています。LAN側のデバイスがTailscale経由でインターネットにアクセスできるようにするには、{ipMasquerade}を有効にしてください。",
+        "enabled_custom_exit_node_tips": "カスタム出口ノードが選択されています。LAN側のデバイスがTailscale経由でインターネットにアクセスできるようにするには、{advertiseLanSubnet}または{ipMasquerade}を有効にしてください。"
     }
 }
