@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Exécuter un nœud de sortie signifie que les autres appareils de votre tailnet peuvent envoyer tout leur trafic via l'adresse IP de ce routeur.",
         "enable_function": "activer {function}",
         "dns_serve_warning_tips": "Après avoir utilisé le nœud de sortie, vous pourriez ne pas être en mesure d'accéder au serveur DNS si vous utilisez une adresse IP interne comme DNS ({address}).",
-        "mullvad_exit_node_tips": "Mullvad est sélectionné comme nœud de sortie. Pour permettre aux appareils côté LAN d'accéder à internet via Tailscale, veuillez activer {ipMasquerade}."
+        "mullvad_exit_node_tips": "Mullvad est sélectionné comme nœud de sortie. Pour permettre aux appareils côté LAN d'accéder à internet via Tailscale, veuillez activer {ipMasquerade}.",
+        "enabled_custom_exit_node_tips": "Un nœud de sortie personnalisé est sélectionné. Pour permettre aux appareils côté LAN d'accéder à internet via Tailscale, veuillez activer {advertiseLanSubnet} ou {ipMasquerade}."
     }
 }
