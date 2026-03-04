@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Das Betreiben eines Exit-Knotens bedeutet, dass andere Geräte in Ihrem Tailnet ihren gesamten Datenverkehr über die IP-Adresse dieses Routers senden können.",
         "enable_function": "{function} aktivieren",
         "dns_serve_warning_tips": "Nach der Verwendung des Exit-Knotens können Sie möglicherweise nicht auf den DNS-Server zugreifen, wenn Sie eine interne IP-Adresse als DNS ({address}) verwenden.",
-        "mullvad_exit_node_tips": "Mullvad ist als Exit-Node ausgewählt. Um LAN-Geräten den Internetzugang über Tailscale zu ermöglichen, aktivieren Sie bitte {ipMasquerade}."
+        "mullvad_exit_node_tips": "Mullvad ist als Exit-Node ausgewählt. Um LAN-Geräten den Internetzugang über Tailscale zu ermöglichen, aktivieren Sie bitte {ipMasquerade}.",
+        "enabled_custom_exit_node_tips": "Es wurde ein benutzerdefinierter Exit-Knoten ausgewählt. Um LAN-Geräten den Internetzugang über Tailscale zu ermöglichen, aktivieren Sie bitte {advertiseLanSubnet} oder {ipMasquerade}."
     }
 }
