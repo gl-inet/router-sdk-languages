@@ -35,6 +35,6 @@
         "enable_function": "启用 {function}",
         "dns_serve_warning_tips": "使用出口节点后，如果您使用内部IP地址作为DNS（{address}），您可能无法访问DNS服务器。",
         "mullvad_exit_node_tips": "使用 Mullvad 作为 Exit Node 上网，如需让 LAN 侧设备通过 Tailscale 上网，请启用 {ipMasquerade}。",
-        "enabled_custom_exit_node_tips": "已选择自定义出口节点。要允许局域网设备通过Tailscale访问互联网，请启用{advertiseLanSubnet}或{ipMasquerade}。"
+        "enabled_custom_exit_node_tips": "使用自定义出口节点作为 Exit Node 上网，如需让 LAN 侧设备通过 Tailscale 上网，请启用 {advertiseLanSubnet} 或启用 {ipMasquerade}。"
     }
 }
