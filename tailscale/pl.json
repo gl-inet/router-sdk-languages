@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Uruchomienie węzła wyjściowego oznacza, że inne urządzenia w twojej sieci tailnet mogą przesyłać cały swój ruch przez adres IP tego routera.",
         "enable_function": "włącz {function}",
         "dns_serve_warning_tips": "Po użyciu węzła wyjściowego możesz nie mieć dostępu do serwera DNS, jeśli używasz wewnętrznego adresu IP jako DNS ({address}).",
-        "mullvad_exit_node_tips": "Mullvad został wybrany jako węzeł wyjściowy. Aby umożliwić urządzeniom po stronie LAN dostęp do internetu za pośrednictwem Tailscale, włącz {ipMasquerade}."
+        "mullvad_exit_node_tips": "Mullvad został wybrany jako węzeł wyjściowy. Aby umożliwić urządzeniom po stronie LAN dostęp do internetu za pośrednictwem Tailscale, włącz {ipMasquerade}.",
+        "enabled_custom_exit_node_tips": "Wybrano niestandardowy węzeł wyjściowy. Aby umożliwić urządzeniom po stronie LAN dostęp do internetu za pośrednictwem Tailscale, włącz {advertiseLanSubnet} lub {ipMasquerade}."
     }
 }
