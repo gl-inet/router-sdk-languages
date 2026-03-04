@@ -35,6 +35,6 @@
         "enabled_custom_exit_node_tips": "當設定自定義出口節點後，如需讓本設備後面的 LAN 終端也能通過 Tailscale 轉發上網，可以{advertiseLanSubnet}或{ipMasquerade}。",
         "enable_function": "啟用 {function}",
         "dns_serve_warning_tips": "使用出口節點後，如果您使用內部IP地址作為DNS（{address}），您可能無法訪問DNS伺服器。",
-        "mullvad_exit_node_tips": "Mullvad 被選為出口節點。要允許 LAN 端裝置透過 Tailscale 存取網際網路，請啟用 {ipMasquerade}。"
+        "mullvad_exit_node_tips": "使用 Mullvad 作為 Exit Node 上網，如需讓 LAN 側設備通過 Tailscale 上網，請啟用 {ipMasquerade}。"
     }
 }
