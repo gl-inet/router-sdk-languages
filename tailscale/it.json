@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Gestire un nodo di uscita significa che gli altri dispositivi nella tua tailnet possono inviare tutto il loro traffico attraverso l'indirizzo IP di questo router.",
         "enable_function": "abilita {function}",
         "dns_serve_warning_tips": "Dopo aver utilizzato il nodo di uscita, potrebbe non essere possibile accedere al server DNS se si utilizza un indirizzo IP interno come DNS ({address}).",
-        "mullvad_exit_node_tips": "Mullvad è selezionato come Nodo di Uscita. Per consentire ai dispositivi lato LAN di accedere a Internet tramite Tailscale, abilita {ipMasquerade}."
+        "mullvad_exit_node_tips": "Mullvad è selezionato come Nodo di Uscita. Per consentire ai dispositivi lato LAN di accedere a Internet tramite Tailscale, abilita {ipMasquerade}.",
+        "enabled_custom_exit_node_tips": "È selezionato un Exit Node personalizzato. Per consentire ai dispositivi lato LAN di accedere a Internet tramite Tailscale, abilitare {advertiseLanSubnet} o {ipMasquerade}."
     }
 }
