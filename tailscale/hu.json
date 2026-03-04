@@ -34,6 +34,7 @@
         "enabled_run_exit_node_tips2": "Egy kimeneti csomópont futtatása azt jelenti, hogy a tailnetedben lévő egyéb eszközök minden forgalmukat átirányíthatják a router IP-címén keresztül.",
         "enable_function": "{function} engedélyezése",
         "dns_serve_warning_tips": "Az exit node használata után előfordulhat, hogy nem tud hozzáférni a DNS szerverhez, ha belső IP-címet használ DNS-ként ({address}).",
-        "mullvad_exit_node_tips": "Mullvad kiválasztva kilépési csomópontként. Ahhoz, hogy a LAN oldali eszközök hozzáfussanak az internethez a Tailscale-en keresztül, kérjük, engedélyezze az {ipMasquerade} funkciót."
+        "mullvad_exit_node_tips": "Mullvad kiválasztva kilépési csomópontként. Ahhoz, hogy a LAN oldali eszközök hozzáfussanak az internethez a Tailscale-en keresztül, kérjük, engedélyezze az {ipMasquerade} funkciót.",
+        "enabled_custom_exit_node_tips": "Egyéni kilépési csomópont van kiválasztva. Ahhoz, hogy a LAN oldali eszközök hozzáfussanak az internethez a Tailscale-en keresztül, kérjük, engedélyezze a {advertiseLanSubnet} vagy {ipMasquerade} beállítást."
     }
 }
