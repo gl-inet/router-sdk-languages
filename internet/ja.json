@@ -352,7 +352,8 @@
         "forward_tips": "循環を防止するため、ここにローカル番号が入力されている場合、SMS転送は実行されません。また、モデムがSIMカードの番号を読み取らない場合、SMS転送は実行されません。",
         "forward_email_title": "メール経由で転送",
         "forward_sms_title": "SMS経由で転送",
-        "received": "受信しました"
+        "received": "受信しました",
+        "single_standby_cannot_forwarded_tips": "SMSはローカル番号に転送できません。"
     },
     "menu_internet": "インターネット",
     "guide": {
