@@ -330,7 +330,8 @@
         "forward_tips": "To prevent circularity, SMS forwarding will not be allowed when the local number is entered here. Additionally, if the Modem does not read the number of your SIM card, SMS forwarding will not be executed.",
         "forward_email_title": "Forward via Email",
         "forward_sms_title": "Forward via SMS",
-        "received": "Received"
+        "received": "Received",
+        "single_standby_cannot_forwarded_tips": "SMS cannot be forwarded to the local number."
     },
     "modemmanage": {
         "title": "Management",
