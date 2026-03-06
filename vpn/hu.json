@@ -551,7 +551,10 @@
         "groups_desc": "{provider} vagy {custom} használata előnyben? Hozzon létre egy új csoportot a konfigurációs fájljai hozzáadásához.",
         "groups_other_provider_label": "egyéb VPN szolgáltatók",
         "groups_custom_label": "saját VPN szerver testreszabása",
-        "select_at_least_one_msg": "Válasszon ki legalább egy kiszolgálót."
+        "select_at_least_one_msg": "Válasszon ki legalább egy kiszolgálót.",
+        "add_provider_btn": "Szolgáltató hozzáadása",
+        "follow_provider_guide_tips": "Kövesse VPN szolgáltatójának útmutatóját, töltse le a {type} konfigurációs fájlt, és importálja a konfigurációs fájlt az útválasztóba.",
+        "manual_group_btn": "Kézi csoport"
     },
     "ovpnclient": {
         "legacy_label": "Örökölt",
