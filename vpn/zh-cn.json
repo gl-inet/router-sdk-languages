@@ -551,7 +551,10 @@
         "groups_desc": "偏好使用 {provider} 还是 {custom}？创建一个新组来添加您的配置文件。",
         "groups_other_provider_label": "其他VPN服务提供商",
         "groups_custom_label": "自定义您自己的VPN服务器",
-        "select_at_least_one_msg": "请至少选择一个服务器。"
+        "select_at_least_one_msg": "请至少选择一个服务器。",
+        "add_provider_btn": "添加提供商",
+        "follow_provider_guide_tips": "请遵循您的VPN服务提供商的指南，下载{type}配置文件，并将其导入路由器。",
+        "manual_group_btn": "手动分组"
     },
     "ovpnclient": {
         "legacy_label": "兼容",
