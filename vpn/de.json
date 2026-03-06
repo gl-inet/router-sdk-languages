@@ -551,7 +551,10 @@
         "groups_desc": "Bevorzugen Sie die Verwendung von {provider} oder {custom}? Erstellen Sie eine neue Gruppe, um Ihre Konfigurationsdateien hinzuzufügen.",
         "groups_other_provider_label": "andere VPN-Dienstanbieter",
         "groups_custom_label": "Anpassen Ihres eigenen VPN-Servers",
-        "select_at_least_one_msg": "Wählen Sie mindestens einen Server aus."
+        "select_at_least_one_msg": "Wählen Sie mindestens einen Server aus.",
+        "add_provider_btn": "Anbieter hinzufügen",
+        "follow_provider_guide_tips": "Befolgen Sie die Anleitung Ihres VPN-Dienstanbieters, laden Sie die {type}-Konfigurationsdatei herunter und importieren Sie die Konfigurationsdatei auf den Router.",
+        "manual_group_btn": "Manuelle Gruppe"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
