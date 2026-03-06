@@ -551,7 +551,10 @@
         "groups_desc": "¿Prefiere usar {provider} o {custom}? Cree un nuevo grupo para agregar sus archivos de configuración.",
         "groups_other_provider_label": "otros proveedores de servicios VPN",
         "groups_custom_label": "personalizando tu propio servidor VPN",
-        "select_at_least_one_msg": "Seleccione al menos un servidor."
+        "select_at_least_one_msg": "Seleccione al menos un servidor.",
+        "add_provider_btn": "Agregar Proveedor",
+        "follow_provider_guide_tips": "Siga la guía de su proveedor de servicios VPN, descargue el archivo de configuración {type} e impórtelo al router.",
+        "manual_group_btn": "Grupo Manual"
     },
     "ovpnclient": {
         "legacy_label": "Legado",
