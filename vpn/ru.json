@@ -551,7 +551,10 @@
         "groups_desc": "Предпочитаете использовать {provider} или {custom}? Создайте новую группу, чтобы добавить файлы конфигурации.",
         "groups_other_provider_label": "другие поставщики VPN-услуг",
         "groups_custom_label": "настройка собственного VPN-сервера",
-        "select_at_least_one_msg": "Выберите хотя бы один сервер."
+        "select_at_least_one_msg": "Выберите хотя бы один сервер.",
+        "follow_provider_guide_tips": "Следуйте руководству вашего провайдера VPN, загрузите файл конфигурации {type} и импортируйте его в маршрутизатор.",
+        "add_provider_btn": "Добавить провайдера",
+        "manual_group_btn": "Ручная группа"
     },
     "ovpnclient": {
         "legacy_label": "Устаревшая версия",
