@@ -551,7 +551,10 @@
         "groups_desc": "{provider}または{custom}の使用を希望しますか？新しいグループを作成して設定ファイルを追加してください。",
         "groups_other_provider_label": "他のVPNサービスプロバイダー",
         "groups_custom_label": "独自のVPNサーバーをカスタマイズする",
-        "select_at_least_one_msg": "少なくとも1つのサーバーを選択してください。"
+        "select_at_least_one_msg": "少なくとも1つのサーバーを選択してください。",
+        "add_provider_btn": "プロバイダーを追加",
+        "follow_provider_guide_tips": "VPNサービスプロバイダーのガイドに従い、{type}設定ファイルをダウンロードし、ルーターに設定ファイルをインポートしてください。",
+        "manual_group_btn": "手動グループ"
     },
     "ovpnclient": {
         "legacy_label": "レガシー",
