@@ -534,7 +534,8 @@
         "exit_tips": "Exiting the TAP-S2S client will disable TAP-S2S mode and revert to Tunnel mode. The OpenVPN client will also revert to its original IP address.",
         "start_title": "Attention: Start TAP-S2S Client",
         "start_disable_tips": "All current Tunnels will be disabled and hidden.",
-        "astrowarp_up_tips": "Astrowarp and TAP-S2S Client cannot work at the same time. Please disable Astrowarp by manual."
+        "astrowarp_up_tips": "Astrowarp and TAP-S2S Client cannot work at the same time. Please disable Astrowarp by manual.",
+        "enable_not_allow_tips": "{feature} and TAP-S2S Client cannot work at the same time. Please disable {feature} by manual."
     },
     "vpn_obfuscation": {
         "enable_label": "Enable Obfuscation",
