@@ -534,7 +534,8 @@
         "exit_tips": "Вихід з клієнта TAP-S2S вимкне режим TAP-S2S та поверне до режиму тунелю. Клієнт OpenVPN також повернеться до своєї первісної IP-адреси.",
         "start_title": "Увага: Запустіть клієнт TAP-S2S",
         "start_disable_tips": "Усі поточні тунелі будуть вимкнені та приховані.",
-        "astrowarp_up_tips": "Astrowarp та TAP-S2S Client не можуть працювати одночасно. Будь ласка, вимкніть Astrowarp вручну."
+        "astrowarp_up_tips": "Astrowarp та TAP-S2S Client не можуть працювати одночасно. Будь ласка, вимкніть Astrowarp вручну.",
+        "enable_not_allow_tips": "{feature} та TAP-S2S Client не можуть працювати одночасно. Будь ласка, вимкніть {feature} вручну."
     },
     "vpn_obfuscation": {
         "enable_label": "Увімкнути обфускацію",
