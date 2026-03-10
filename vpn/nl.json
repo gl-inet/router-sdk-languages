@@ -555,7 +555,10 @@
         "select_at_least_one_msg": "Selecteer ten minste één server.",
         "add_provider_btn": "Provider toevoegen",
         "follow_provider_guide_tips": "Volg de handleiding van uw VPN-serviceprovider, download het {type}-configuratiebestand en importeer het configuratiebestand naar de router.",
-        "manual_group_btn": "Handmatige groep"
+        "manual_group_btn": "Handmatige groep",
+        "stop_config_tips": "Het stoppen van deze configuratie zal deze uit alle tunnels verwijderen.",
+        "stop_config_tunnel_stopped_tips": "Als een tunnel alleen deze configuratie bevat, wordt de tunnel gestopt.",
+        "stop_config_visit_dashboard_tips": "Om tunnels te beheren, ga naar de {page}."
     },
     "ovpnclient": {
         "legacy_label": "Verouderd",
