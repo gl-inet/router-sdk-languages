@@ -555,7 +555,10 @@
         "select_at_least_one_msg": "En az bir sunucu seçin.",
         "add_provider_btn": "Sağlayıcı Ekle",
         "manual_group_btn": "Manuel Grup",
-        "follow_provider_guide_tips": "VPN hizmet sağlayıcınızın kılavuzunu takip edin, {type} yapılandırma dosyasını indirin ve yapılandırma dosyasını yönlendiriciye aktarın."
+        "follow_provider_guide_tips": "VPN hizmet sağlayıcınızın kılavuzunu takip edin, {type} yapılandırma dosyasını indirin ve yapılandırma dosyasını yönlendiriciye aktarın.",
+        "stop_config_tips": "Bu yapılandırmayı durdurmak, tüm tünellerden kaldırılmasına neden olacaktır.",
+        "stop_config_tunnel_stopped_tips": "Eğer bir tünel yalnızca bu yapılandırmayı içeriyorsa, tünel durdurulacaktır.",
+        "stop_config_visit_dashboard_tips": "Tünelleri yönetmek için lütfen {page} sayfasını ziyaret edin."
     },
     "ovpnclient": {
         "legacy_label": "Eski",
