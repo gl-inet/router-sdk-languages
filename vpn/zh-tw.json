@@ -555,7 +555,10 @@
         "select_at_least_one_msg": "請至少選擇一個伺服器。",
         "add_provider_btn": "新增供應商",
         "manual_group_btn": "手動群組",
-        "follow_provider_guide_tips": "請遵循您的VPN服務提供商的指南，下載{type}配置文件，並將配置文件導入路由器。"
+        "follow_provider_guide_tips": "請遵循您的VPN服務提供商的指南，下載{type}配置文件，並將配置文件導入路由器。",
+        "stop_config_tips": "停止此配置將從所有隧道中移除它。",
+        "stop_config_tunnel_stopped_tips": "如果隧道仅包含此配置，隧道将被停止。",
+        "stop_config_visit_dashboard_tips": "要管理隧道，請訪問 {page}。"
     },
     "ovpnclient": {
         "legacy_label": "兼容",
