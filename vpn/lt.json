@@ -555,7 +555,10 @@
         "select_at_least_one_msg": "Pasirinkite bent vieną serverį.",
         "follow_provider_guide_tips": "Vadovaukitės savo VPN paslaugų teikėjo gidu, atsisiųskite {type} konfigūracijos failą ir importuokite konfigūracijos failą į maršrutizatorių.",
         "add_provider_btn": "Pridėti teikėją",
-        "manual_group_btn": "Rankinis grupės nustatymas"
+        "manual_group_btn": "Rankinis grupės nustatymas",
+        "stop_config_tips": "Sustabdžius šią konfigūraciją, ji bus pašalinta iš visų tunelių.",
+        "stop_config_tunnel_stopped_tips": "Jei tunelyje yra tik ši konfigūracija, tunelis bus sustabdytas.",
+        "stop_config_visit_dashboard_tips": "Norėdami tvarkyti tunelius, apsilankykite {page}."
     },
     "ovpnclient": {
         "legacy_label": "Pasenusio/-s standarto/įrangos",
