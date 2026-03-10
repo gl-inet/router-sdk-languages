@@ -555,7 +555,10 @@
         "select_at_least_one_msg": "Select at least one server.",
         "add_provider_btn": "Add Provider",
         "follow_provider_guide_tips": "Follow your VPN service provider's guide, download the {type} configuration file, and import the configuration file to the router.",
-        "manual_group_btn": "Manual Group"
+        "manual_group_btn": "Manual Group",
+        "stop_config_tips": "Stopping this configuration will remove it from all tunnels.",
+        "stop_config_tunnel_stopped_tips": "If a tunnel only contains this configuration, the tunnel will be stopped.",
+        "stop_config_visit_dashboard_tips": "To manage tunnels, please visit the {page}."
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
