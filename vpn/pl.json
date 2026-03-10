@@ -555,7 +555,10 @@
         "select_at_least_one_msg": "Wybierz co najmniej jeden serwer.",
         "add_provider_btn": "Dodaj dostawcę",
         "follow_provider_guide_tips": "Postępuj zgodnie z instrukcją dostawcy usługi VPN, pobierz plik konfiguracyjny {type} i zaimportuj go do routera.",
-        "manual_group_btn": "Grupa ręczna"
+        "manual_group_btn": "Grupa ręczna",
+        "stop_config_tips": "Zatrzymanie tej konfiguracji spowoduje jej usunięcie ze wszystkich tuneli.",
+        "stop_config_tunnel_stopped_tips": "Jeśli tunel zawiera tylko tę konfigurację, tunel zostanie zatrzymany.",
+        "stop_config_visit_dashboard_tips": "Aby zarządzać tunelami, odwiedź stronę {page}."
     },
     "ovpnclient": {
         "legacy_label": "Starsze",
