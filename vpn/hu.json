@@ -555,7 +555,10 @@
         "select_at_least_one_msg": "Válasszon ki legalább egy kiszolgálót.",
         "add_provider_btn": "Szolgáltató hozzáadása",
         "follow_provider_guide_tips": "Kövesse VPN szolgáltatójának útmutatóját, töltse le a {type} konfigurációs fájlt, és importálja a konfigurációs fájlt az útválasztóba.",
-        "manual_group_btn": "Kézi csoport"
+        "manual_group_btn": "Kézi csoport",
+        "stop_config_tips": "Ennek a konfigurációnak a leállítása eltávolítja az összes alagútból.",
+        "stop_config_tunnel_stopped_tips": "Ha egy alagút csak ezt a konfigurációt tartalmazza, az alagút leáll.",
+        "stop_config_visit_dashboard_tips": "A búrák kezeléséhez kérjük, látogasson el a {page} oldalra."
     },
     "ovpnclient": {
         "legacy_label": "Örökölt",
