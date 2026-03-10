@@ -61,7 +61,7 @@
         "radio_configuration_tips": "以下配寘將應用到所有 {band} 頻段的網絡。",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi最高支持160MHz頻寬。",
         "lan_iot_conflict_tips": "為了避免 {lan} 與 {iot} 衝突，IoT Wi-Fi 無法啟動。",
-        "enable_random_bssid_tips": "此操作將同步所有6GHz頻段的隨機BSSID設定；Wi-Fi將重新啟動以套用這些變更。"
+        "enable_random_bssid_tips": "此操作將同步修改所有 6GHz 頻段的隨機 BSSID 規則，應用後 Wi-Fi 將重啓以生效。"
     },
     "menu_wireless": "無線"
 }
