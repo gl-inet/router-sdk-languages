@@ -1,7 +1,7 @@
 {
     "vlan": {
         "name": "Nombre",
-        "namePlaceholder": "Ingrese el nombre de la red",
+        "namePlaceholder": "Introduce el nombre de la red",
         "addCustomNetwork": "Agregar una nueva red",
         "add": "Agregar",
         "advanced": "Avanzado",
@@ -73,8 +73,8 @@
         "block_wan_subnets_tip": "Si esta función está habilitada, la red de invitados no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
         "addressReservationTip": "Cuando especifica una dirección IP reservada para un cliente de la LAN, el cliente siempre recibirá la misma dirección IP cuando solicite una dirección IP del servidor DHCP del router. Puede asignar direcciones IP reservadas a computadoras o servidores que requieran configuraciones IP permanentes.",
         "apIsolationTip": "Puede aislar los dispositivos cliente de su red en un área de red separada. Estos dispositivos no pueden comunicarse con otros dispositivos en la red.",
-        "selectNetmask": "Seleccionar máscara de red",
-        "tip": "Gestione la segmentación de red con VLANs para aislar el tráfico y mejorar la seguridad."
+        "selectNetmask": "Selecciona la máscara de red",
+        "tip": "Gestiona la segmentación de la red mediante VLANs para aislar el tráfico y mejorar la seguridad."
     },
     "menu_vlan": "VLAN"
 }
