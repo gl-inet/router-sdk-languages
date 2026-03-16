@@ -59,7 +59,9 @@
         "radio_configuration_title": "Radio-configuratie",
         "delete_network_confirm_tips": "Weet u zeker dat u dit netwerk wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt en alle gerelateerde configuratie wordt gewist.",
         "radio_configuration_tips": "De volgende configuratie wordt toegepast op alle {band} netwerken.",
-        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi ondersteunt een bandbreedte tot 160MHz."
+        "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi ondersteunt een bandbreedte tot 160MHz.",
+        "lan_iot_conflict_tips": "Om conflicten tussen {lan} en {iot} te voorkomen, kan IoT Wi-Fi niet worden geactiveerd.",
+        "enable_random_bssid_tips": "Deze actie zal de instellingen voor willekeurige BSSID synchroniseren over alle 6GHz-bandbreedtes; Wi-Fi zal opnieuw opstarten om deze wijzigingen toe te passen."
     },
     "menu_wireless": "Draadloos"
 }

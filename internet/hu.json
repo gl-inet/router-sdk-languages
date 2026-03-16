@@ -143,7 +143,15 @@
         "select_cellular_profile_tips": "Kiválaszthatja a {selectProfile} lehetőséget, hogy annak tartalmát átmásolja a SIM-kártya által használt beállításokba.",
         "select_cellular_profile": "Válasszon egy mobilprofil",
         "manage_cellular_profiles": "Cellular Profilok Kezelése",
-        "low_power_mode_tips": "Az eszköz alacsony fogyasztású üzemmódban van, és nem képes érzékelni a SIM-kártyát."
+        "low_power_mode_tips": "Az eszköz alacsony fogyasztású üzemmódban van, és nem képes érzékelni a SIM-kártyát.",
+        "saved_cellular_profiles_title": "Mentett mobil profilok",
+        "save_new_cellular_profile_title": "Mentés új mobilprofilként",
+        "add_new_cellular_profile_title": "Új mobilprofil hozzáadása",
+        "modify_cellular_profile_title": "Mobilprofil módosítása",
+        "name_length_limit_tips": "A név hossza meghaladja a korlátot",
+        "name_already_taken_tips": "A(z) {name} név már foglalt",
+        "name_empty_tips": "A név nem lehet üres",
+        "auto_switch_tips": "Ez a funkció a Multi-WAN Interface Status Track nem alacsony adatforgalmú észlelési módját igényli. Ha engedélyezve van, a rendszer automatikusan átvált a megfelelő észlelési módra, és további adatforgalmi felhasználást eredményezhet."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -227,7 +235,8 @@
         "forward_encryp_label": "Titkosítás",
         "forward_email_account_label": "Felhasználónév",
         "forward_email_subject_label": "Tárgy",
-        "received": "Fogadott"
+        "received": "Fogadott",
+        "single_standby_cannot_forwarded_tips": "Az SMS nem továbbítható a helyi számra."
     },
     "modemmanage": {
         "export_debug_info": "Hibakeresési napló letöltése",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_label": "Lekérdezés engedélyezése",
         "polling_control_title": "APN lekérdezés vezérlés",
-        "enable_polling_tips": "Ha az eszköz Verizon SIM-kártyát használ és ez a funkció engedélyezve van, az eszköz újraindítás után akár 12 percig is folyamatosan lekérdezi az APN-t, amíg a hálózati kapcsolat helyre nem áll. Ez a funkció csak Verizon SIM-kártyák esetén érvényes."
+        "enable_polling_tips": "Ha az eszköz Verizon SIM-kártyát használ és ez a funkció engedélyezve van, az eszköz újraindítás után akár 12 percig is folyamatosan lekérdezi az APN-t, amíg a hálózati kapcsolat helyre nem áll. Ez a funkció csak Verizon SIM-kártyák esetén érvényes.",
+        "database_update_success_msg": "APN adatbázis sikeresen frissítve",
+        "check_internet_retry_msg": "APN adatbázis frissítése sikertelen. Ellenőrizze az internetkapcsolatot, majd próbálja újra.",
+        "try_again_later_msg": "APN adatbázis frissítése sikertelen. Kérjük, próbálja újra később."
     },
     "internet": {
         "manual_label": "Kézikönyv",

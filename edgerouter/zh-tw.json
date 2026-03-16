@@ -14,7 +14,8 @@
         "modify_self_router_label": "某些裝置選擇自己的網關",
         "modify_self_router_desc": "對於部分需要使用Drop-in閘道的設備，您需要手動將網關位址修改為Drop-in閘道的IP位址。",
         "modify_superior_router_desc": "您需要去修改主路由配置，該配置必須由具有主路由訪問權限的使用者配置。",
-        "configuration_method_label": "配置方法"
+        "configuration_method_label": "配置方法",
+        "feature_conflicts_tips": "此功能目前不可用，因為它與WAN/LAN切換功能衝突。請將{ethernetPort}恢復為其默認配置。"
     },
     "menu_edgerouter": "Drop-in Gateway (旁路由)"
 }

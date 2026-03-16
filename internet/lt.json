@@ -143,7 +143,15 @@
         "select_cellular_profile_tips": "Galite {selectProfile}, kad nukopijuotumėte jo turinį į SIM kortelės naudojamus nustatymus.",
         "select_cellular_profile": "Pasirinkite mobiliojo ryšio profilį",
         "manage_cellular_profiles": "Tvarkyti mobiliojo ryšio profilius",
-        "low_power_mode_tips": "Įrenginys yra mažos galios veiksenoje ir negali aptikti SIM kortelės."
+        "low_power_mode_tips": "Įrenginys yra mažos galios veiksenoje ir negali aptikti SIM kortelės.",
+        "saved_cellular_profiles_title": "Išsaugoti mobiliojo ryšio profiliai",
+        "save_new_cellular_profile_title": "Išsaugoti kaip naują mobiliojo ryšio profilį",
+        "add_new_cellular_profile_title": "Pridėti naują mobiliojo ryšio profilį",
+        "modify_cellular_profile_title": "Keisti mobiliojo ryšio profilį",
+        "name_length_limit_tips": "Pavadinimo ilgis viršija ribą",
+        "name_already_taken_tips": "Pavadinimas {name} jau užimtas",
+        "name_empty_tips": "Pavadinimas negali būti tuščias",
+        "auto_switch_tips": "Ši funkcija reikalauja daugiakanalio WAN sąsajos būsenos stebėjimo režimo, kuris nėra mažo duomenų kiekio aptikimo režimas. Kai įjungta, sistema automatiškai pereis į atitinkamą aptikimo režimą ir gali sukurti papildomą srauto naudojimą."
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -326,7 +334,8 @@
         "forward_tips": "Kad išvengtumėte cikliškumo, „SMS“ peradresavimas nebus leidžiamas, kai čia įvestas vietinis numeris. Be to, jei modemui nepavyksta nuskaityti Jūsų „SIM“ kortelės numerio, „SMS“ peradresavimas tai pat, nebus vykdomas.",
         "forward_email_title": "Persiųsti el. paštu",
         "forward_sms_title": "Persiųsti „SMS“ žinutę",
-        "received": "Gauta"
+        "received": "Gauta",
+        "single_standby_cannot_forwarded_tips": "SMS negali būti persiųsti į vietinį numerį."
     },
     "modemmanage": {
         "title": "Valdymas",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_label": "Įgalinti apklausą",
         "polling_control_title": "APN apklausos valdymas",
-        "enable_polling_tips": "Jei įrenginyje naudojama Verizon SIM kortelė ir ši funkcija įjungta, įrenginys nuolat tikrins APN iki 12 minučių po paleidimo iš naujo, kol tinklo ryšys bus normalus. Ši funkcija galioja tik Verizon SIM kortelėms."
+        "enable_polling_tips": "Jei įrenginyje naudojama Verizon SIM kortelė ir ši funkcija įjungta, įrenginys nuolat tikrins APN iki 12 minučių po paleidimo iš naujo, kol tinklo ryšys bus normalus. Ši funkcija galioja tik Verizon SIM kortelėms.",
+        "database_update_success_msg": "APN duomenų bazė sėkmingai atnaujinta",
+        "check_internet_retry_msg": "APN duomenų bazės atnaujinimas nepavyko. Patikrinkite interneto ryšį ir bandykite dar kartą.",
+        "try_again_later_msg": "APN duomenų bazės atnaujinimas nepavyko. Bandykite dar kartą vėliau."
     },
     "internet": {
         "manual_label": "Rankinis",

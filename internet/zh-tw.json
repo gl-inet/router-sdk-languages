@@ -262,12 +262,20 @@
         "unlock_pin_tips": "輸入PIN碼以解鎖SIM卡。",
         "unlock_pin_err_tips": "PIN 碼{code}錯誤。請輸入正確的 PIN 碼。",
         "device_may_not_b_operators_tips": "蜂窩接口已啟用，可能無法掃描到運營商。如果出現這種情況，請斷開蜂窩連接並重新掃描。",
-        "apn_update_tips": "請向您的運營商諮詢。 路由器聯網狀態下，按一下{updateApn}可獲取最新的 APN 配寘。",
+        "apn_update_tips": "路由器聯網狀態下，按一下{updateApn}可獲取最新的 APN 配寘。",
         "update_apn_database": "更新 APN 資料庫",
         "select_cellular_profile_tips": "您可以{selectProfile}以将其内容复制到SIM卡使用的设置中。",
         "select_cellular_profile": "選擇蜂窩網路設定檔",
         "manage_cellular_profiles": "管理蜂窩網路設定檔",
-        "low_power_mode_tips": "設備處於低功耗模式，無法檢測到SIM卡。"
+        "low_power_mode_tips": "設備處於低功耗模式，無法檢測到SIM卡。",
+        "saved_cellular_profiles_title": "已儲存的蜂窩網路設定檔",
+        "save_new_cellular_profile_title": "儲存為新的蜂窩網路設定檔",
+        "add_new_cellular_profile_title": "新增蜂窩網路設定檔",
+        "modify_cellular_profile_title": "修改蜂窩網路設定檔",
+        "name_length_limit_tips": "名稱長度超過限制",
+        "name_already_taken_tips": "名稱 {name} 已被使用",
+        "name_empty_tips": "名称不能为空",
+        "auto_switch_tips": "該功能依賴於多線負載介面狀態檢測的非低數據檢測模式。 啟用後，系統將自動切換到相應的檢測模式，並可能產生額外的流量消耗。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -348,9 +356,10 @@
         "forward_tips": "為避免循環發送，此處填寫本機號碼時不會執行短信轉發。此外，若 Modem 讀不到您的 SIM 卡的號碼，也不會執行短信轉發。",
         "forward_email_title": "通過電子郵件轉發",
         "forward_sms_title": "通過短信轉發",
-        "received": "已接收"
+        "received": "已接收",
+        "single_standby_cannot_forwarded_tips": "不可轉發至本機號碼"
     },
-    "menu_internet": "網絡",
+    "menu_internet": "互聯網",
     "guide": {
         "configure_router_tip": "聯網嚮導能幫助您在短時間內配置好路由器網路，以便快速上網。",
         "select_network_mode_tip": "選擇網路模式",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_label": "啟用輪詢",
         "polling_control_title": "APN輪詢控制",
-        "enable_polling_tips": "若設備使用 Verizon SIM 卡且啟用此功能，裝置將在重啟後持續輪詢 APN 長達12分鐘，直至網路連線恢復正常。此功能僅適用於 Verizon SIM 卡。"
+        "enable_polling_tips": "若設備使用 Verizon SIM 卡且啟用此功能，裝置將在重啟後持續輪詢 APN 長達12分鐘，直至網路連線恢復正常。此功能僅適用於 Verizon SIM 卡。",
+        "database_update_success_msg": "APN 數據庫更新成功",
+        "check_internet_retry_msg": "APN 資料庫更新失敗，請檢查聯網狀態後重試",
+        "try_again_later_msg": "APN 資料庫更新失敗，請稍後重試"
     },
     "internet": {
         "manual_label": "手動",

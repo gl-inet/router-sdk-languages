@@ -310,7 +310,25 @@
         "expired_at_tips": "D'éag sé ag {time}",
         "wg_common_not_connet_tips": "Mura féidir ceangal leis an bhfreastalaí VPN, seans go bhfuil eochair WireGuard imithe in éag. Is féidir leat eochair WireGuard a nuashonrú.",
         "wg_api_request_too_frequent_tips": "Tá iarratais API rómhinic agus tá srian curtha orthu ag {provider}. Déan iarracht arís ar ball.",
-        "wg_windscribe_limit_tips": "Theip ar eochair WireGuard a ghiniúint. Is féidir uasmhéid de chúig eochair a bheith ag gach cuntas Windscribe ag an am céanna. Téigh chuig {provider} le dintiúir a scriosadh."
+        "wg_windscribe_limit_tips": "Theip ar eochair WireGuard a ghiniúint. Is féidir uasmhéid de chúig eochair a bheith ag gach cuntas Windscribe ag an am céanna. Téigh chuig {provider} le dintiúir a scriosadh.",
+        "check_connectivity_btn": "Seiceáil Nascacht",
+        "vpn_server_connectivity_title": "Nascacht Freastalaí VPN",
+        "vpn_server_connectivity_tips": "Más rud é go bhfuil an ródaire seo taobh thiar de NAT, b’fhéidir go mbeidh ort atreorú calafoirt a shocrú ar ródaire do sholáthraí idirlín {gateway}.",
+        "vpn_server_gateway_label": "(Géata: {ip})",
+        "reachable_label": "Inrochtana",
+        "oops_label": "Úps...",
+        "internal_ip_label": "IP Inmheánach",
+        "external_ip_label": "IP Seachtrach",
+        "internal_port_label": "Port Inmheánach",
+        "external_port_label": "Port Seachtrach",
+        "protocol_label": "Prótacal",
+        "ipv6_label": "Ethernet IPV6",
+        "checking_loading_label": "Ag tástáil, fan nóiméad le do thoil.",
+        "refer_step_one_tips": "1. Chun a chinntiú go bhfuil socruithe cur ar aghaidh port an ghléis uisciúla ceart, féach ar an eolas sa tábla thíos le do thoil:",
+        "refer_step_three_tips": "3. {contact}",
+        "ipv4_label": "Ethernet IPV4",
+        "refer_step_two_tips": "2. Cinntigh go bhfuil socruithe an bhalla dóiteáin ar an ngléas suas an sruth ceart.",
+        "exit_ip_address_label": "Seoladh IP Scoir"
     },
     "vpn_taps2s": {
         "start_title": "Aird: Tosaigh Cliant TAP-S2S",
@@ -319,7 +337,8 @@
         "start_disable_tips": "Díchumasaítear agus cuirfear i bhfolach gach Tollán reatha.",
         "exit_title": "Aird: Scoir TAP-S2S",
         "start_common_tips": "Má thosaíonn tú an cliant TAP-S2S, cuirfidh an deais modh TAP-S2S ar siúl, a mbeidh na héifeachtaí seo aige:",
-        "start_not_available_tips": "Ní bheidh go leor feidhmeanna ródaithe ar fáil."
+        "start_not_available_tips": "Ní bheidh go leor feidhmeanna ródaithe ar fáil.",
+        "enable_not_allow_tips": "Ní féidir le {feature} agus Cliant TAP-S2S oibriú ag an am céanna. Díchumasaigh {feature} de láimh le do thoil."
     },
     "vpn_err": {
         "no_openssl_tool_msg": "gan uirlis openssl, b'fhéidir nach bhfuil suiteáilte",
@@ -464,7 +483,28 @@
         "default_tunnel_kill_switch_tips": "{label}: Nuair a bhíonn sé Díchumasaithe, ní mór duit VPN agus beartais a úsáid chun rochtain a fháil ar an Idirlíon. Cuirfear bac ar gach trácht nach bhfuil meaitseáilte. Ní sháraíonn an rogha seo an Kill Switch aonair do gach polasaí.",
         "default_tunnel_allow_tips": "{label}: Nuair a bheidh sé Cumasaithe, beidh rochtain gnáth Idirlín agat mura bhfuil do thrácht ag teacht le haon cheann de na polasaithe thuas.",
         "default_tunnel_common_tips": "I gcás gach tráchta Idirlín eile nach bhfuil comhoiriúnach le haon cheann de na tolláin agus na beartais VPN thuas, rialaíonn an rogha seo an dteastaíonn uait é a úsáid chuig an Idirlíon. Tá an rogha seo cumasaithe de réir réamhshocraithe chun a chinntiú go bhfuil rochtain gnáth Idirlín agat seachas do thrácht VPN.",
-        "local_access_tips": "Ceadaíonn sé rochtain iargúlta ar an ródaire (IP tolláin) agus ar acmhainní LAN trí VPN (ní mór do fhreastalaí VPN bealaí LAN a fhógairt chun rochtain a fháil ar LAN)."
+        "local_access_tips": "Ceadaíonn sé rochtain iargúlta ar an ródaire (IP tolláin) agus ar acmhainní LAN trí VPN (ní mór do fhreastalaí VPN bealaí LAN a fhógairt chun rochtain a fháil ar LAN).",
+        "guide_link": "Treoir",
+        "add_new_tunnel_btn": "Cuir Tollán Nua leis",
+        "add_tunnel_desc": "Cuir tollán leis chun trácht a chosaint nó rialacha bealaigh a shaincheapadh.",
+        "init_title": "Rochtain Shlán Dhomhanda",
+        "init_tip_encrypt": "Criptigh do cheangal",
+        "init_tip_privacy": "Cosain do phríobháideacht",
+        "init_tip_access": "Faigh rochtain gan srian ar ábhar domhanda",
+        "add_vpn_tunnel_btn": "Cuir Tollán VPN leis",
+        "select_client_source_title": "Roghnaigh Foinse Cliant",
+        "search_client_placeholder": "Cuardaigh de réir ainm an chliaint nó seoladh MAC",
+        "no_vpn_config_label": "Gan Cumraíocht VPN",
+        "add_new_tunnel_title": "Cuir Tollán Nua leis",
+        "use_step_label": "Úsáid",
+        "select_vpn_profile_title": "Roghnaigh Próifíl VPN le do thoil",
+        "select_at_least_one_config_msg": "Roghnaigh cumraíocht amháin ar a laghad le do thoil.",
+        "selected_profile_title": "Próifíl Roghnaithe ({count})",
+        "selected_profile_tooltip": "Teipfidh na Próifílí san ord a thaispeántar (ón mbarr anuas).",
+        "no_selected_config_label": "Gan Chumraíocht Roghnaithe",
+        "init_desc": "Tosaigh trí do chéad tollán VPN a chur leis.",
+        "select_target_destination_title": "Roghnaigh Ceann Scríbe Sprioc",
+        "apply_all_changes_btn": "Cuir Gach Athrú i bhFeidhm"
     },
     "vpn_server": {
         "want_use_ipv6_tips": "Más mian leat seoladh IPv6 a úsáid, déan {todo} ar do ródaire le do thoil.",
@@ -512,7 +552,13 @@
         "groups_desc": "An maith leat {provider} nó {custom} a úsáid? Cruthaigh grúpa nua chun do chomhaid chumraíochta a chur leis.",
         "groups_other_provider_label": "soláthraithe seirbhíse VPN eile",
         "groups_custom_label": "do fhreastalaí VPN féin a shaincheapadh",
-        "select_at_least_one_msg": "Roghnaigh ar a laghad freastalaí amháin."
+        "select_at_least_one_msg": "Roghnaigh ar a laghad freastalaí amháin.",
+        "add_provider_btn": "Cuir Soláthraí leis",
+        "follow_provider_guide_tips": "Lean ar threoir do sholáthraí VPN, íoslódáil an comhad cumraíochta {type}, agus ionchuir an comhad cumraíochta chuig an ródaire.",
+        "manual_group_btn": "Grúpa Lámhleabhar",
+        "stop_config_tips": "Ag stopadh an chumraíocht seo bainfidh sé í ó na tolláin go léir.",
+        "stop_config_tunnel_stopped_tips": "Má tá an cumra seo amháin sa tollán, stopfar an tollán.",
+        "stop_config_visit_dashboard_tips": "Chun túinéil a bhainistiú, tabhair cuairt ar an {page}."
     },
     "ovpnclient": {
         "legacy_label": "Oidhreacht",

@@ -310,7 +310,25 @@
         "expired_at_tips": "{time} tarihinde sona erdi",
         "wg_common_not_connet_tips": "VPN sunucusuna bağlanılamıyorsa, WireGuard anahtarının süresi dolmuş olabilir. WireGuard anahtarını güncelleyebilirsiniz.",
         "wg_api_request_too_frequent_tips": "API istekleri çok sık ve {provider} tarafından kısıtlandı. Lütfen daha sonra tekrar deneyin.",
-        "wg_windscribe_limit_tips": "WireGuard anahtarı oluşturulamadı. Her Windscribe hesabı aynı anda en fazla beş anahtara sahip olabilir. Lütfen bir kimlik bilgisini silmek için {provider} adresine gidin."
+        "wg_windscribe_limit_tips": "WireGuard anahtarı oluşturulamadı. Her Windscribe hesabı aynı anda en fazla beş anahtara sahip olabilir. Lütfen bir kimlik bilgisini silmek için {provider} adresine gidin.",
+        "check_connectivity_btn": "Bağlantıyı Kontrol Et",
+        "vpn_server_connectivity_title": "VPN Sunucusu Bağlantısı",
+        "vpn_server_connectivity_tips": "Bu yönlendirici NAT arkasındaysa, ISP yönlendiricinizde {gateway} bağlantı noktası yönlendirmesini ayarlamanız gerekebilir.",
+        "vpn_server_gateway_label": "(Ağ Geçidi: {ip})",
+        "oops_label": "Hata...",
+        "reachable_label": "Erişilebilir",
+        "internal_ip_label": "Dahili IP",
+        "external_ip_label": "Harici IP",
+        "internal_port_label": "Dahili Bağlantı Noktası",
+        "external_port_label": "Harici Bağlantı Noktası",
+        "protocol_label": "Protokol",
+        "ipv4_label": "Ethernet IPV4",
+        "ipv6_label": "Ethernet IPV6",
+        "checking_loading_label": "Test ediliyor, lütfen bir süre bekleyin.",
+        "refer_step_two_tips": "2. Yukarı akış cihazındaki güvenlik duvarı ayarlarının doğru olduğundan emin olun.",
+        "refer_step_three_tips": "3. {contact}",
+        "exit_ip_address_label": "Çıkış IP Adresi",
+        "refer_step_one_tips": "1. Yukarı akış cihazının bağlantı noktası yönlendirme ayarlarının doğru olduğundan emin olmak için lütfen aşağıdaki tablodaki bilgilere bakın:"
     },
     "vpn_err": {
         "no_passwd_msg": "Hesabın şifresi yok",
@@ -455,7 +473,28 @@
         "default_tunnel_allow_tips": "{label}: Etkinleştirildiğinde, verileriniz yukarıdaki politikaların hiçbiriyle eşleşmiyorsa normal İnternet erişiminiz olacaktır.",
         "default_tunnel_kill_switch_tips": "{label}: Devre Dışı bırakıldığında, internete erişmek için VPN ve politikalar kullanmaya zorlanırsınız. Eşleşmeyen tüm veriler geçmeyecektir. Bu seçenek, her bir politika için ayrı olan Kill Switch'i geçersiz kılmayacaktır.",
         "default_tunnel_common_tips": "Yukarıdaki VPN tünelleri ve politikaları tarafından eşleşmeyen diğer tüm internet trafiği için, bu seçenek onların internete gitmesini isteyip istemediğinizi kontrol eder. Bu seçenek varsayılan olarak etkinleştirilmiştir, böylece VPN verilerinizin yanı sıra normal internet erişiminiz de olur.",
-        "local_access_tips": "VPN aracılığıyla yönlendiriciye (tünel IP) ve LAN kaynaklarına uzaktan erişime izin verir (LAN'a erişmek için VPN sunucusunun LAN rotalarını duyurması gerekir)."
+        "local_access_tips": "VPN aracılığıyla yönlendiriciye (tünel IP) ve LAN kaynaklarına uzaktan erişime izin verir (LAN'a erişmek için VPN sunucusunun LAN rotalarını duyurması gerekir).",
+        "guide_link": "Kılavuz",
+        "add_new_tunnel_btn": "Yeni Tünel Ekle",
+        "add_tunnel_desc": "Trafiği korumak veya yönlendirme kurallarını özelleştirmek için bir tünel ekleyin.",
+        "init_title": "Küresel Güvenli Erişim",
+        "init_desc": "İlk VPN tünelinizi ekleyerek başlayın.",
+        "init_tip_encrypt": "Bağlantınızı şifreleyin",
+        "init_tip_privacy": "Gizliliğinizi koruyun",
+        "add_vpn_tunnel_btn": "VPN Tüneli Ekle",
+        "select_client_source_title": "İstemci Kaynağını Seçin",
+        "search_client_placeholder": "İstemci adı veya MAC adresine göre ara",
+        "select_target_destination_title": "Hedef Konumu Seçin",
+        "no_vpn_config_label": "VPN Yapılandırması Yok",
+        "add_new_tunnel_title": "Yeni Tünel Ekle",
+        "use_step_label": "Kullan",
+        "apply_all_changes_btn": "Tüm Değişiklikleri Uygula",
+        "select_vpn_profile_title": "Lütfen VPN Profili Seçin",
+        "select_at_least_one_config_msg": "Lütfen en az bir yapılandırma seçin.",
+        "selected_profile_title": "Seçilen Profil ({count})",
+        "selected_profile_tooltip": "Profiller gösterilen sıraya göre (yukarıdan aşağıya) yedeklenecektir.",
+        "no_selected_config_label": "Yapılandırma Seçilmedi",
+        "init_tip_access": "Küresel içeriğe kısıtlanmadan erişin"
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
@@ -495,7 +534,8 @@
         "exit_tips": "TAP-S2S istemcisinden çıkmak TAP-S2S modunu devre dışı bırakır ve Tünel moduna döner. OpenVPN istemcisi de orijinal IP adresine döner.",
         "start_title": "Dikkat: TAP-S2S İstemcisini Başlat",
         "start_disable_tips": "Mevcut tüm Tüneller devre dışı bırakılacak ve gizlenecek.",
-        "astrowarp_up_tips": "Astrowarp ve TAP-S2S İstemci aynı anda çalışamaz. Lütfen Astrowarp'i manuel olarak devre dışı bırakın."
+        "astrowarp_up_tips": "Astrowarp ve TAP-S2S İstemci aynı anda çalışamaz. Lütfen Astrowarp'i manuel olarak devre dışı bırakın.",
+        "enable_not_allow_tips": "{feature} ve TAP-S2S İstemcisi aynı anda çalışamaz. Lütfen {feature}'ı manuel olarak devre dışı bırakın."
     },
     "vpn_obfuscation": {
         "enable_label": "Karıştırmayı Etkinleştir",
@@ -512,7 +552,13 @@
         "groups_desc": "{provider} veya {custom} kullanmayı mı tercih ediyorsunuz? Yapılandırma dosyalarınızı eklemek için yeni bir grup oluşturun.",
         "groups_other_provider_label": "diğer VPN hizmet sağlayıcıları",
         "groups_custom_label": "kendi VPN sunucunuzu özelleştirme",
-        "select_at_least_one_msg": "En az bir sunucu seçin."
+        "select_at_least_one_msg": "En az bir sunucu seçin.",
+        "add_provider_btn": "Sağlayıcı Ekle",
+        "manual_group_btn": "Manuel Grup",
+        "follow_provider_guide_tips": "VPN hizmet sağlayıcınızın kılavuzunu takip edin, {type} yapılandırma dosyasını indirin ve yapılandırma dosyasını yönlendiriciye aktarın.",
+        "stop_config_tips": "Bu yapılandırmayı durdurmak, tüm tünellerden kaldırılmasına neden olacaktır.",
+        "stop_config_tunnel_stopped_tips": "Eğer bir tünel yalnızca bu yapılandırmayı içeriyorsa, tünel durdurulacaktır.",
+        "stop_config_visit_dashboard_tips": "Tünelleri yönetmek için lütfen {page} sayfasını ziyaret edin."
     },
     "ovpnclient": {
         "legacy_label": "Eski",

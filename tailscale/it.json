@@ -21,19 +21,20 @@
         "custom_exit_node_warning": "Se si abilita il Nodo di Uscita Personalizzato, il dispositivo inoltrerà tutte le richieste al Nodo di Uscita. Prima di abilitare, è necessario abilitare le rotte di subnet {subnet} di questo dispositivo nella $$$$Console di Amministrazione Tailscale$$$$ affinché Tailscale possa inoltrare le richieste dei client; in caso contrario, i vostri client non saranno in grado di accedere a Internet.",
         "dns_warning_tips": "Quando si utilizza un indirizzo IP Intranet come DNS, potrebbe non essere possibile accedere al server DNS.",
         "exit_node_title": "Nodo di Uscita",
-        "subnet_routes_title": "Subnet Routes",
-        "ip_masquerading_label": "IP Masquerading",
-        "run_exit_node_label": "运行出口节点",
+        "subnet_routes_title": "Percorsi di sottorete",
+        "ip_masquerading_label": "Mascheramento IP",
+        "run_exit_node_label": "Esegui nodo di uscita",
         "run_exit_node_tips": "Gestire un nodo di uscita significa che gli altri dispositivi nella tua tailnet possono inviare tutto il loro traffico attraverso l'indirizzo IP di questo router.",
-        "ip_masquerading_tips": "Rewrites LAN client source IPs to the IP address of tailscale interface.",
-        "advertise_wan_subnets_label": "Advertise WAN Subnets",
+        "ip_masquerading_tips": "Riscrive gli indirizzi IP di origine del client LAN con l'indirizzo IP dell'interfaccia tailscale.",
+        "advertise_wan_subnets_label": "Pubblicizza le sottoreti WAN",
         "advertise_wan_subnets_tips": "Se questa opzione è abilitata, le rotte della subnet WAN verranno pubblicizzate nella tailnet di Tailscale. Le rotte avranno effetto solo dopo essere state approvate nella Console di Amministrazione di Tailscale.",
-        "advertise_lan_subnets_label": "Advertise LAN Subnets",
+        "advertise_lan_subnets_label": "Pubblicizza le sottoreti LAN",
         "advertise_lan_subnets_tips": "Se questa opzione è abilitata, le rotte della sottorete LAN verranno pubblicizzate nella tailnet di Tailscale. Le rotte avranno effetto solo dopo essere state approvate nella Console di Amministrazione di Tailscale.",
         "enabled_run_exit_node_tips1": "Sei sicuro di voler eseguire un nodo di uscita?",
         "enabled_run_exit_node_tips2": "Gestire un nodo di uscita significa che gli altri dispositivi nella tua tailnet possono inviare tutto il loro traffico attraverso l'indirizzo IP di questo router.",
-        "enabled_custom_exit_node_tips": "Dopo aver impostato un nodo di uscita personalizzato, se è necessario che i terminali LAN dietro questo dispositivo accedano anche a Internet tramite l'inoltro Tailscale, puoi {advertiseLanSubnet} o {ipMasquerade}.",
         "enable_function": "abilita {function}",
-        "dns_serve_warning_tips": "Dopo aver utilizzato il nodo di uscita, potrebbe non essere possibile accedere al server DNS se si utilizza un indirizzo IP interno come DNS ({address})."
+        "dns_serve_warning_tips": "Dopo aver utilizzato il nodo di uscita, potrebbe non essere possibile accedere al server DNS se si utilizza un indirizzo IP interno come DNS ({address}).",
+        "mullvad_exit_node_tips": "Mullvad è selezionato come Nodo di Uscita. Per consentire ai dispositivi lato LAN di accedere a Internet tramite Tailscale, abilita {ipMasquerade}.",
+        "enabled_custom_exit_node_tips": "È selezionato un Exit Node personalizzato. Per consentire ai dispositivi lato LAN di accedere a Internet tramite Tailscale, abilitare {advertiseLanSubnet} o {ipMasquerade}."
     }
 }

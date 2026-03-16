@@ -109,7 +109,7 @@
     "dpifeatures": {
         "update_btn": "更新",
         "to_renew_btn": "续订",
-        "dpi_text_title": "关于 DPI",
+        "dpi_text_title": "关于DPI引擎",
         "expiration_date_label": "到期日期",
         "flowstatistics_description_fourth_text": "一键阻止特定应用程序。",
         "configuration_automatic_label": "配置自动更新",
@@ -125,7 +125,7 @@
         "trial_expiring_title": "试用期已过期",
         "trial_expiring_soon_title": "试用即将到期",
         "subscribed_btn": "订阅",
-        "dpi_descriptionn_first_text": "GL.iNet 的 DPI 功能目前处于测试阶段，提供{name1}、{name2}和 {name3} 功能。",
+        "dpi_descriptionn_first_text": "GL.iNet的DPI引擎功能仅在您的本地路由器上提供智能网络管理。完全访问{name1}、{name2}和 {name3}，享受完全隐私。",
         "trial_btn": "开始试用",
         "dpi_descriptionn_second_text": "只需单击{Trialbtn}即可立即激活所有 DPI 功能--{text}。",
         "trial_expired_text": "您的试用期已结束。请登录 GoodCloud 进行订阅",
@@ -193,8 +193,8 @@
         "qos_description_card_text": "QoS（服务质量）通过优先处理视频通话和游戏等关键应用来优化带宽分配，降低延迟，提升整体网络性能。",
         "trial_activation_fourth_title": "启用{name1}与{name2}",
         "trial_activation": "试用激活",
-        "start_day_Trial_btn": "开始30天试用",
-        "additional_notes_second_text": "试用结束后，DPI 将自动停用，但您的所有配置都将保留。",
+        "start_day_Trial_btn": "启用DPI引擎",
+        "additional_notes_second_text": "100%本地逻辑：所有数据分类和过滤都在路由器上本地进行。DNS查询或浏览历史记录不会发送到云端。",
         "lets_start_btn": "立即开始",
         "contentprotection_descriptionn_card_text": "{name}提供基于 DPI 分类的智能安全防护，可自动拦截有害或恶意网站，保障网络环境干净安全。",
         "flowstatistics_card_text": "{name}提供智能流量分析看板，通过应用程序对网络使用情况进行分类和可视化，帮助您监控实时和历史流量，实现更好的网络感知与控制。",
@@ -203,7 +203,7 @@
         "contentprotection_descriptionn_text": "由 DPI 分类提供支持的智能在线安全功能，可自动阻止有害或恶意网站，保持网络清洁和安全，并支持阻止特定应用程序、域或IP地址的自定义规则。",
         "qos_description_text": "通过优先处理关键应用程序流量（如视频通话和游戏），在网络拥塞期间智能优化带宽，在有限带宽条件下减少延迟，提高整体网络响应能力。",
         "additional_notes_title": "附加说明",
-        "additional_notes_first_text": "激活试用版后，您将在30天内完全访问所有 DPI 功能。",
+        "additional_notes_first_text": "激活后，您将永久免费完全访问所有基本DPI功能。",
         "flowstatistics_notstart_label": "流量洞察仪表板，按应用程序识别和分类网络使用情况",
         "qos_notstart_label": "在网络拥塞时优化带宽使用",
         "about_title": "关于{title}",
@@ -248,5 +248,5 @@
         "need_login_cloud_tips": "请登录云服务以完成绑定流程并继续使用DPI功能。",
         "go_to_cloud_btn": "前往云服务"
     },
-    "menu_dpifeatures": "DPI 许可证"
+    "menu_dpifeatures": "DPI引擎"
 }

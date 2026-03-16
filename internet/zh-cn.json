@@ -262,12 +262,20 @@
         "unlock_pin_tips": "输入PIN码解锁SIM卡。",
         "unlock_pin_err_tips": "PIN 码{code}错误。请输入正确的 PIN 码。",
         "device_may_not_b_operators_tips": "蜂窝接口已启用，可能无法扫描到运营商。如果出现这种情况，请断开蜂窝连接并重新扫描。",
-        "apn_update_tips": "请向您的运营商咨询。路由器联网状态下，单击{updateApn}可获取最新的 APN 配置。",
+        "apn_update_tips": "路由器联网状态下，单击{updateApn}可获取最新的 APN 配置。",
         "update_apn_database": "更新 APN 数据库",
         "select_cellular_profile_tips": "您可以{selectProfile}以将其内容复制到SIM卡使用的设置中。",
         "select_cellular_profile": "选择蜂窝网络配置文件",
         "manage_cellular_profiles": "管理蜂窝网络配置文件",
-        "low_power_mode_tips": "设备处于低功耗模式，无法检测到SIM卡。"
+        "low_power_mode_tips": "设备处于低功耗模式，无法检测到SIM卡。",
+        "saved_cellular_profiles_title": "已保存的蜂窝网络配置文件",
+        "save_new_cellular_profile_title": "保存为新蜂窝网络配置文件",
+        "add_new_cellular_profile_title": "添加新的蜂窝网络配置文件",
+        "modify_cellular_profile_title": "修改蜂窝网络配置文件",
+        "name_length_limit_tips": "名称长度超过限制",
+        "name_already_taken_tips": "名称 {name} 已被使用",
+        "name_empty_tips": "名称不能为空",
+        "auto_switch_tips": "该功能依赖于多线负载接口状态检测的非低数据检测模式。启用后，系统将自动切换到相应的检测模式，并可能产生额外的流量消耗。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -326,7 +334,8 @@
         "forward_tips": "为避免循环发送，此处填写本机号码时不会执行短信转发。此外，若 Modem 读不到您的 SIM 卡的号码，也不会执行短信转发。",
         "forward_email_title": "通过电子邮件转发",
         "forward_sms_title": "通过短信转发",
-        "received": "已接收"
+        "received": "已接收",
+        "single_standby_cannot_forwarded_tips": "不可转发至本机号码"
     },
     "modemmanage": {
         "title": "管理",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_label": "启用轮询",
         "polling_control_title": "APN轮询控制",
-        "enable_polling_tips": "若设备使用 Verizon SIM 卡且启用此功能，设备将在重启后持续轮询 APN 最长12分钟，直至网络连接恢复正常。此功能仅对 Verizon SIM 卡有效。"
+        "enable_polling_tips": "若设备使用 Verizon SIM 卡且启用此功能，设备将在重启后持续轮询 APN 最长12分钟，直至网络连接恢复正常。此功能仅对 Verizon SIM 卡有效。",
+        "database_update_success_msg": "APN 数据库更新成功",
+        "check_internet_retry_msg": "APN 数据库更新失败，请检查联网状态后重试",
+        "try_again_later_msg": "APN 数据库更新失败，请稍后重试"
     },
     "internet": {
         "manual_label": "手动",

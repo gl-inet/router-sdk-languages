@@ -110,7 +110,7 @@
         "update_btn": "更新",
         "retry_btn": "重試",
         "to_renew_btn": "續訂",
-        "dpi_text_title": "關於 DPI",
+        "dpi_text_title": "關於DPI引擎",
         "subscription_status_label": "狀態",
         "expiration_date_label": "到期日期",
         "feature_updates_label": "功能更新",
@@ -154,7 +154,7 @@
         "trial_expiring_soon_title": "試用即將到期",
         "feature__automatic_label": "功能自動更新",
         "flowstatistics_description_second_text": "依總頻寬消耗量查看應用程式排名",
-        "dpi_descriptionn_first_text": "GL.iNet的 DPI 功能目前處於測試階段，提供 {name1}、{name2}與 {name3} 功能",
+        "dpi_descriptionn_first_text": "GL.iNet的DPI引擎功能僅在您的本地路由器上提供智慧網路管理。 完全訪問{name1}、{name2}與 {name3} ，享受完全隱私。",
         "flowstatistics_description_fourth_text": "一鍵封鎖特定應用程式",
         "premium_features_label": "功能",
         "premium_features_first_text": "追蹤哪些應用程式正在使用您的頻寬。",
@@ -171,7 +171,7 @@
         "reactivation_guide": "重新啟用指南",
         "reactivation_guide_first_title": "綁定雲帳戶",
         "reactivation_guide_first_description": "點擊上面的“{btn}”按鈕，將路由器綁定到 GoodCloud 雲帳戶。",
-        "additional_notes_second_text": "試用結束後，DPI 將自動停用，但您的所有配寘都將保留。",
+        "additional_notes_second_text": "100%本地邏輯：所有數據分類和過濾都在路由器上本地進行。 DNS査詢或瀏覽歷史記錄不會發送到雲端。",
         "additional_notes_third_text": "要繼續永久使用 DPI，只需將您的設備綁定到 GoodCloud 平臺即可。",
         "trial_activation_first_title": "檢查裝置可用性",
         "trial_activation": "試用啟用",
@@ -182,7 +182,7 @@
         "trial_valid_title": "DPI 功能試用中",
         "reactivation_guide_second_description": "綁定成功後，DPI 功能將自動啟動，無需額外操作。",
         "trial_expired_title": "您的 DPI 試用期已過期",
-        "start_day_Trial_btn": "開始30天試用",
+        "start_day_Trial_btn": "啟用DPI引擎",
         "what_will_do_label": "會發生什麼事？",
         "lets_start_btn": "立即開始",
         "error_encountered_label": "遇到錯誤：{value}。 ",
@@ -202,7 +202,7 @@
         "flowstatistics_description_text": "提供一個清晰的儀錶板，按應用程序和協定標識網絡使用情况，允許查看1小時、1天或7天的流量歷史記錄，顯示詳細的使用排名，監控每臺設備的流量，並允許您一鍵封锁不需要的應用程序。",
         "contentprotection_descriptionn_text": "內容保護是一項由 DPI 分類技術驅動的智能線上安全功能，可自動封鎖有害或惡意網站，協助維護乾淨安全的網路環境，並支援自訂規則以封鎖特定應用程式、網域或IP位址。",
         "additional_notes_title": "附加說明",
-        "additional_notes_first_text": "啟動試用版後，您將在30天內完全訪問所有 DPI 功能。",
+        "additional_notes_first_text": "啟動後，您將永久免費完全訪問所有基本DPI功能。",
         "contentprotection_descriptionn_card_text": "{name}提供基於 DPI 分類的智慧安全防護，可自動攔截有害或惡意網站，確保網路環境乾淨安全。",
         "flowstatistics_notstart_description_first_text": "查看最多7天的即時與歷史流量",
         "qos_notstart_description_first_text": "優先處理關鍵應用流量（如視訊通話和遊戲）",
@@ -248,5 +248,5 @@
         "need_login_cloud_tips": "請登入雲端服務以完成綁定程序並繼續使用DPI功能。",
         "go_to_cloud_btn": "前往雲端服務"
     },
-    "menu_dpifeatures": "DPI 許可證"
+    "menu_dpifeatures": "DPI引擎"
 }

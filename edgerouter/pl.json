@@ -15,6 +15,7 @@
         "modify_superior_router_label": "Wszystkie urządzenia są połączone przez bramę Drop-in",
         "modify_superior_router_desc": "Musisz przejść do modyfikacji konfiguracji głównej trasy, która musi być ustawiona przez użytkownika mającego dostęp do tej trasy.",
         "modify_self_router_label": "Niektóre urządzenia wybierają własną bramę sieciową",
-        "modify_self_router_desc": "Musisz ręcznie zmienić adres bramy na adres IP bramy drop-in na niektórych urządzeniach, które potrzebują używać bramy drop-in."
+        "modify_self_router_desc": "Musisz ręcznie zmienić adres bramy na adres IP bramy drop-in na niektórych urządzeniach, które potrzebują używać bramy drop-in.",
+        "feature_conflicts_tips": "Ta funkcja jest obecnie niedostępna, ponieważ koliduje z funkcją przełączania WAN/LAN. Proszę przywrócić port {ethernetPort} do domyślnej konfiguracji."
     }
 }

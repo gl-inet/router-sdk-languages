@@ -267,7 +267,15 @@
         "select_cellular_profile_tips": "Vous pouvez {selectProfile} pour copier son contenu dans les paramètres utilisés par la carte SIM.",
         "select_cellular_profile": "Sélectionner un profil de connexion mobile",
         "manage_cellular_profiles": "Gérer les profils cellulaires",
-        "low_power_mode_tips": "L'appareil est en mode basse consommation et ne peut pas détecter la carte SIM."
+        "low_power_mode_tips": "L'appareil est en mode basse consommation et ne peut pas détecter la carte SIM.",
+        "saved_cellular_profiles_title": "Profils de connexion mobile enregistrés",
+        "save_new_cellular_profile_title": "Enregistrer comme un nouveau profil de connexion mobile",
+        "add_new_cellular_profile_title": "Ajouter un nouveau profil de connexion mobile",
+        "modify_cellular_profile_title": "Modifier le profil de connexion mobile",
+        "name_length_limit_tips": "Le nom dépasse la limite de longueur",
+        "name_already_taken_tips": "Le nom {name} est déjà utilisé",
+        "name_empty_tips": "Le nom ne peut pas être vide",
+        "auto_switch_tips": "Cette fonctionnalité nécessite le mode de détection non faible en données du suivi d'état de l'interface Multi-WAN. Lorsqu'elle est activée, le système basculera automatiquement vers le mode de détection correspondant et pourra générer une consommation de trafic supplémentaire."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -326,7 +334,8 @@
         "forward_tips": "Pour éviter tous risques de boucle, le transfert de SMS ne sera pas exécuté lorsque le numéro local est saisi ici. De même, si le modem ne lit pas le numéro de votre carte SIM, le transfert de SMS ne sera pas exécuté.",
         "forward_sms_title": "Transmettre par SMS",
         "forward_email_title": "Transmettre par email",
-        "received": "Reçu"
+        "received": "Reçu",
+        "single_standby_cannot_forwarded_tips": "Les SMS ne peuvent pas être transférés vers le numéro local."
     },
     "modemmanage": {
         "title": "Gérer",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_label": "Activer l'interrogation",
         "polling_control_title": "Contrôle d'interrogation APN",
-        "enable_polling_tips": "Si l'appareil utilise une carte SIM Verizon et que cette fonctionnalité est activée, l'appareil interrogera continuellement l'APN pendant jusqu'à 12 minutes après le redémarrage jusqu'à ce que la connexion réseau soit normale. Cette fonctionnalité n'est valable que pour les cartes SIM Verizon."
+        "enable_polling_tips": "Si l'appareil utilise une carte SIM Verizon et que cette fonctionnalité est activée, l'appareil interrogera continuellement l'APN pendant jusqu'à 12 minutes après le redémarrage jusqu'à ce que la connexion réseau soit normale. Cette fonctionnalité n'est valable que pour les cartes SIM Verizon.",
+        "database_update_success_msg": "Base de données APN mise à jour avec succès",
+        "check_internet_retry_msg": "Échec de la mise à jour de la base de données APN. Vérifiez la connexion internet et réessayez.",
+        "try_again_later_msg": "La mise à jour de la base de données APN a échoué. Veuillez réessayer plus tard."
     },
     "internet": {
         "manual_label": "Manuel",

@@ -267,7 +267,15 @@
         "select_cellular_profile_tips": "You can {selectProfile} to copy the contents of it to the settings used by the SIM card.",
         "select_cellular_profile": "Select a Cellular Profile",
         "manage_cellular_profiles": "Manage Cellular Profiles",
-        "low_power_mode_tips": "The device is in low power mode and cannot detect the SIM card."
+        "low_power_mode_tips": "The device is in low power mode and cannot detect the SIM card.",
+        "saved_cellular_profiles_title": "Saved Cellular Profiles",
+        "save_new_cellular_profile_title": "Save as a New Cellular Profile",
+        "add_new_cellular_profile_title": "Add a New Cellular Profile",
+        "modify_cellular_profile_title": "Modify Cellular Profile",
+        "name_length_limit_tips": "Name length exceeds limit",
+        "name_already_taken_tips": "Name {name} is already taken",
+        "name_empty_tips": "Name cannot be empty",
+        "auto_switch_tips": "This feature requires the non-low-data detection mode of Multi-WAN Interface Status Track. When enabled, the system will automatically switch to the corresponding detection mode and may generate additional traffic usage."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -326,7 +334,8 @@
         "forward_tips": "To prevent circularity, SMS forwarding will not be allowed when the local number is entered here. Additionally, if the Modem does not read the number of your SIM card, SMS forwarding will not be executed.",
         "forward_email_title": "Forward via Email",
         "forward_sms_title": "Forward via SMS",
-        "received": "Received"
+        "received": "Received",
+        "single_standby_cannot_forwarded_tips": "SMS cannot be forwarded to the local number."
     },
     "modemmanage": {
         "title": "Management",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_tips": "If the device is using a Verizon SIM card and this feature is enabled, the device will continuously poll the APN for up to 12 minutes after reboot until the network connection is normal. This feature is only valid for Verizon SIM cards.",
         "enable_polling_label": "Enable Polling",
-        "polling_control_title": "APN Polling Control"
+        "polling_control_title": "APN Polling Control",
+        "database_update_success_msg": "APN Database updated successfully",
+        "check_internet_retry_msg": "APN Database update failed. Check internet connection and retry.",
+        "try_again_later_msg": "APN Database update failed. Please try again later."
     },
     "internet": {
         "manual_label": "Manual",

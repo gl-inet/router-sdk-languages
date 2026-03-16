@@ -24,7 +24,7 @@
         "power_off_timeout_label": "Power Off Timeout",
         "power_charger_label": "Power On with Charger",
         "auto_system_standby_label": "Auto System Standby",
-        "auto_system_standby_tips": "When enabled, if networks are idle and no USB is connected and Repeater is not in use, the system will automatically enter standby.",
+        "auto_system_standby_tips": "When enabled, if Ethernet, Wi-Fi and Repeater are idle, and no USB device is connected, the device will enter system standby, Cellular will enter low power mode, and the power-off countdown will begin.",
         "never_label": "never"
     },
     "menu_usbpower": "USB & Power"

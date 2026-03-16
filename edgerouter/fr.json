@@ -15,6 +15,7 @@
         "modify_superior_router_desc": "Vous devez aller modifier la configuration de la route principale, qui doit être configurée par un utilisateur ayant accès à la route principale.",
         "modify_self_router_label": "Certains appareils sélectionnent leur propre passerelle de mise en réseau",
         "modify_self_router_desc": "Vous devez remplacer manuellement l'adresse de la passerelle par l'adresse IP de la passerelle d'insertion sur certains des appareils qui doivent utiliser la passerelle d'insertion.",
-        "configuration_method_label": "Mode de configuration"
+        "configuration_method_label": "Mode de configuration",
+        "feature_conflicts_tips": "Cette fonctionnalité est actuellement indisponible car elle entre en conflit avec la fonction de commutation WAN/LAN. Veuillez restaurer le port {ethernetPort} à sa configuration par défaut."
     }
 }

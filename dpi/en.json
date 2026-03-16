@@ -114,7 +114,7 @@
         "to_renew_btn": "To Renew",
         "trial_open_other_warning": "DPI Features conflict with {network} and cannot be used at the same time.",
         "expires_tips": "Expires on {time}",
-        "dpi_text_title": "About DPI",
+        "dpi_text_title": "About DPI Engine",
         "subscription_information_label": "Subscription Information",
         "flowstatistics_description_second_text": "View apps ranked by total bandwidth consumption.",
         "subscription_status_label": "Status",
@@ -143,7 +143,7 @@
         "privacy": "Privacy Policy",
         "trial_expiring_title": "Trial Expired",
         "subscribed_btn": "Subscribe",
-        "dpi_descriptionn_first_text": "The DPI function of GL.iNet is currently in the Beta stage, providing the functions of {name1}, {name2} and {name3}.",
+        "dpi_descriptionn_first_text": "The DPI Engine function of GL.iNet provides intelligent network management exclusively on your local router. Enjoy complete privacy with full access to {name1}, {name2} and {name3}.",
         "dpi_descriptionn_second_text": "Simply click {Trialbtn} to instantly activate all DPI features—{text}.",
         "trial_btn": "Start a Trial",
         "trial_expired_text": "Your trial period has expired. Please log in to GoodCloud to subscribe.",
@@ -172,7 +172,7 @@
         "reactivation_guide_second_title": "Automatically enable DPI function",
         "reactivation_guide_first_description": "Click the \"{btn}\" button above to bind the router to the GoodCloud cloud account.",
         "reactivation_guide_second_description": "After the binding is successful, the DPI function will be automatically activated without additional operation.",
-        "additional_notes_second_text": "When the trial ends, DPI will be automatically deactivated, but all your configurations will be preserved.",
+        "additional_notes_second_text": "100% Local Logic: All data classification and filtering happen locally on your router. No DNS queries or browsing history are sent to the cloud.",
         "additional_notes_third_text": "To continue using DPI permanently, simply bind your device to the GoodCloud platform.",
         "trial_activation": "Activate Trial",
         "trial_activation_first_title": "Checking device availability",
@@ -184,7 +184,7 @@
         "trial_valid_title": "DPI Features in Trial",
         "subscription_valid_title": "DPI Basic Package Is Active",
         "trial_expired_title": "Your DPI Trial Has Expired",
-        "start_day_Trial_btn": "Start 30-Day Trial",
+        "start_day_Trial_btn": "Enable DPI Engine",
         "what_will_do_label": "What will happen ?",
         "lets_start_btn": "Let's Start",
         "error_encountered_label": "Error encountered: {value}. ",
@@ -202,7 +202,7 @@
         "contentprotection_descriptionn_text": "An intelligent online safety feature powered by DPI classification that automatically blocks harmful or malicious websites, keeps your network clean and secure, and supports custom rules to block specific apps, domains, or IP addresses.",
         "qos_description_text": "Intelligently optimizes bandwidth during network congestion by prioritizing critical application traffic—such as video calls and gaming—reducing latency under limited bandwidth conditions and improving overall network responsiveness.",
         "additional_notes_title": "Additional Notes",
-        "additional_notes_first_text": "After activating the trial, you will enjoy full access to all DPI features for 30 days.",
+        "additional_notes_first_text": "After activation, you will enjoy full access to all basic DPI features permanently for free.",
         "qos_description_card_text": "QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical applications such as video calls and gaming, reducing latency, and improving overall network performance.",
         "about_title": "About {title}",
         "flowstatistics_notstart_label": "A traffic insight dashboard that identifies and categorizes network usage by applications.",
@@ -248,5 +248,5 @@
         "need_login_cloud_tips": "Please log in to the cloud service to complete the binding process and continue using the DPI function.",
         "go_to_cloud_btn": "Go to Cloud Sevice"
     },
-    "menu_dpifeatures": "DPI License"
+    "menu_dpifeatures": "DPI Engine"
 }

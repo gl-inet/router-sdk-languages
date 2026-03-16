@@ -267,7 +267,15 @@
         "select_cellular_profile_tips": "U kunt {selectProfile} om de inhoud ervan te kopiëren naar de instellingen die door de SIM-kaart worden gebruikt.",
         "select_cellular_profile": "Selecteer een mobiel profiel",
         "manage_cellular_profiles": "Beheer Mobiele Profielen",
-        "low_power_mode_tips": "Het apparaat bevindt zich in de energiebesparende modus en kan de SIM-kaart niet detecteren."
+        "low_power_mode_tips": "Het apparaat bevindt zich in de energiebesparende modus en kan de SIM-kaart niet detecteren.",
+        "saved_cellular_profiles_title": "Opgeslagen mobiele profielen",
+        "save_new_cellular_profile_title": "Opslaan als een nieuw mobiel profiel",
+        "add_new_cellular_profile_title": "Een nieuw mobiel profiel toevoegen",
+        "modify_cellular_profile_title": "Wijzig Mobiel Profiel",
+        "name_length_limit_tips": "Naamlengte overschrijdt limiet",
+        "name_already_taken_tips": "Naam {name} is al in gebruik",
+        "name_empty_tips": "Naam mag niet leeg zijn",
+        "auto_switch_tips": "Deze functie vereist de niet-laag-datadetectiemodus van Multi-WAN Interface Status Track. Wanneer ingeschakeld, zal het systeem automatisch overschakelen naar de bijbehorende detectiemodus en kan dit extra dataverbruik genereren."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -321,7 +329,8 @@
         "forward_email_title": "Doorsturen via e-mail",
         "forward_tips": "Om circulariteit te voorkomen is het doorsturen van SMS niet toegestaan als hier het lokale nummer wordt ingevuld. Bovendien wordt het doorsturen van SMS-berichten niet uitgevoerd als de modem het nummer van uw SIM-kaart niet leest.",
         "forward_phone_tips": "Als u wilt dat de router SMS-berichten doorstuurt naar uw mobiele telefoon, zorg er dan voor dat uw mobiele netwerk beschikbaar is en het verzenden van SMS-berichten ondersteunt.",
-        "received": "Ontvangen"
+        "received": "Ontvangen",
+        "single_standby_cannot_forwarded_tips": "SMS kan niet worden doorgestuurd naar het lokale nummer."
     },
     "router_visual": {
         "wlan_client": "WLAN-cliënten",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_label": "Polling inschakelen",
         "polling_control_title": "APN Polling Controle",
-        "enable_polling_tips": "Als het apparaat een Verizon SIM-kaart gebruikt en deze functie is ingeschakeld, zal het apparaat continu de APN controleren gedurende maximaal 12 minuten na het herstarten totdat de netwerkverbinding normaal is. Deze functie is alleen geldig voor Verizon SIM-kaarten."
+        "enable_polling_tips": "Als het apparaat een Verizon SIM-kaart gebruikt en deze functie is ingeschakeld, zal het apparaat continu de APN controleren gedurende maximaal 12 minuten na het herstarten totdat de netwerkverbinding normaal is. Deze functie is alleen geldig voor Verizon SIM-kaarten.",
+        "database_update_success_msg": "APN-database succesvol bijgewerkt",
+        "check_internet_retry_msg": "APN-database-update mislukt. Controleer de internetverbinding en probeer het opnieuw.",
+        "try_again_later_msg": "APN-database-update mislukt. Probeer het later opnieuw."
     },
     "internet": {
         "manual_label": "Handleiding",

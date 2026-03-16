@@ -34,7 +34,7 @@
         "radio_bands_tips": "Roghnaigh dhá bhand raidió ar a laghad.",
         "enable_psc_label": "Cumasaigh PSC",
         "enable_psc_tips": "Nuair a bhíonn PSC (Cainéal Scanadh Roghnach) cumasaithe, ní chuirfear ach bealaí a bhfuil nascacht níos airde acu in áirithe chun naisc gléasanna 6 GHz a chinntiú.",
-        "mlo_6g_bssid_tips": "Má chuimsíonn na bandaí raidió Wi-Fi MLO 6 GHz, sioncrónóidh BSSID Wi-Fi MLO nuair a athraíonn BSSID Wi-Fi 6GHz.",
+        "mlo_6g_bssid_tips": "Má chuimsíonn MLO Wi-Fi an banda 6 GHz, déanfar a BSSID 6 GHz a shioncrónú le BSSID 6 GHz an phríomhlíonra Wi-Fi.",
         "mlo_network_tips": "Moltar do chliaint Wi-Fi 7 nascadh le Wi-Fi MLO, ar féidir leis an ráta tarchurtha líonra agus an iontaofacht a fheabhsú go mór trí nascadh ilbhanda.",
         "guest_wifi_unavailable_tips": "Níl Wi-Fi Aíonna ar fáil mar go bhfuil {repeater} cumasaithe.",
         "cannot_detect_6g_network_tips": "D'fhéadfadh sé nach mbeadh roinnt gléasanna in ann Wi-Fi 6GHz a bhrath. Is féidir leat 2.4GHz agus 6GHz a chumasú araon chun comhoiriúnacht níos fearr a fháil.",
@@ -59,7 +59,9 @@
         "radio_configuration_title": "Cumraíocht Raidió",
         "delete_network_confirm_tips": "An bhfuil tú cinnte gur mian leat an líonra seo a scriosadh? Ní féidir an gníomh seo a chealú, agus glanfar an chumraíocht ghaolmhar go léir.",
         "radio_configuration_tips": "Cuirfear an chumraíocht seo a leanas i bhfeidhm ar gach líonra {band}.",
-        "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz suas le 160MHz leithead banda."
+        "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz suas le 160MHz leithead banda.",
+        "lan_iot_conflict_tips": "Chun coimhlint idir {lan} agus {iot} a sheachaint, ní féidir IoT Wi-Fi a ghníomhachtú.",
+        "enable_random_bssid_tips": "Beidh an gníomh seo sioncronú a dhéanamh ar shocruithe BSSID Randamach ar gach banda 6GHz; athosófar an Wi-Fi chun na hathruithe seo a chur i bhfeidhm."
     },
     "menu_wireless": "Gan Sreang"
 }

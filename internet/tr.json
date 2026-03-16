@@ -173,7 +173,15 @@
         "select_cellular_profile_tips": "{selectProfile} seçerek içeriğini SIM kartı tarafından kullanılan ayarlara kopyalayabilirsiniz.",
         "select_cellular_profile": "Hücresel Profil Seçin",
         "manage_cellular_profiles": "Hücresel Profilleri Yönet",
-        "low_power_mode_tips": "Cihaz düşük güç modunda olduğundan SIM kartı algılayamıyor."
+        "low_power_mode_tips": "Cihaz düşük güç modunda olduğundan SIM kartı algılayamıyor.",
+        "saved_cellular_profiles_title": "Kayıtlı Hücresel Profiller",
+        "save_new_cellular_profile_title": "Yeni Bir Hücresel Profil Olarak Kaydet",
+        "add_new_cellular_profile_title": "Yeni Bir Hücresel Profil Ekle",
+        "modify_cellular_profile_title": "Hücresel Profili Düzenle",
+        "name_length_limit_tips": "Ad uzunluğu sınırı aşıyor",
+        "name_already_taken_tips": "{name} adı zaten alınmış",
+        "name_empty_tips": "İsim boş olamaz",
+        "auto_switch_tips": "Bu özellik, Multi-WAN Arayüz Durumu İzleme'nin düşük olmayan veri algılama modunu gerektirir. Etkinleştirildiğinde, sistem otomatik olarak ilgili algılama moduna geçecek ve ek trafik kullanımı oluşturabilir."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -359,7 +367,10 @@
     "apn": {
         "enable_polling_tips": "Cihaz bir Verizon SIM kartı kullanıyorsa ve bu özellik etkinse, cihaz yeniden başlatıldıktan sonra ağ bağlantısı normal olana kadar 12 dakikaya kadar sürekli olarak APN'yi yoklayacaktır. Bu özellik yalnızca Verizon SIM kartları için geçerlidir.",
         "enable_polling_label": "Yoklamayı Etkinleştir",
-        "polling_control_title": "APN Yoklama Kontrolü"
+        "polling_control_title": "APN Yoklama Kontrolü",
+        "database_update_success_msg": "APN Veritabanı başarıyla güncellendi",
+        "check_internet_retry_msg": "APN Veritabanı güncellemesi başarısız oldu. İnternet bağlantınızı kontrol edip tekrar deneyin.",
+        "try_again_later_msg": "APN Veritabanı güncellemesi başarısız oldu. Lütfen daha sonra tekrar deneyin."
     },
     "tethering": {
         "title": "USB Tethering",
@@ -512,7 +523,8 @@
         "forward_tips": "Döngüyü önlemek için, yerel numara buraya girildiğinde SMS yönlendirmeye izin verilmez. Ayrıca, Modem SIM kartınızın numarasını okumazsa, SMS yönlendirme yapılmaz.",
         "forward_email_title": "E-posta ile Yönlendir",
         "forward_sms_title": "SMS ile Yönlendir",
-        "received": "Alındı"
+        "received": "Alındı",
+        "single_standby_cannot_forwarded_tips": "SMS yerel numaraya yönlendirilemez."
     },
     "modemmanage": {
         "title": "Yönetim",

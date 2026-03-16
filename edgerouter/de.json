@@ -14,7 +14,8 @@
         "modify_self_router_label": "Einige Geräte wählen ein eigenes Netzwerk Gateway",
         "configuration_method_label": "Konfigurationsweg",
         "modify_superior_router_desc": "Die primäre Route muss angepasst werden. Das kann nur ein Benutzer konfigurieren, mit Zugriff auf diese Route.",
-        "modify_self_router_desc": "Um das Drop-in Gateway zu benutzen, muss die Gateway Adresse auf manchen Geräten manuell auf die IP Adresse des Drop-In Gateway geändert werden."
+        "modify_self_router_desc": "Um das Drop-in Gateway zu benutzen, muss die Gateway Adresse auf manchen Geräten manuell auf die IP Adresse des Drop-In Gateway geändert werden.",
+        "feature_conflicts_tips": "Diese Funktion ist derzeit nicht verfügbar, da sie mit der WAN/LAN-Umschaltfunktion in Konflikt steht. Bitte stellen Sie den {ethernetPort} auf seine Standardkonfiguration zurück."
     },
     "menu_edgerouter": "Drop-in Gateway"
 }

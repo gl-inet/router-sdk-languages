@@ -47,8 +47,8 @@
         "waiting_status_label": "Очікування...",
         "downloading_status_label": "Завантаження...",
         "upgrade_status_label": "Оновлення...",
-        "no_update_available_status_label": "Оновлення недоступне",
-        "verifcation_status_label": "Перевірка",
+        "no_update_available_status_label": "Немає доступних оновлень",
+        "verifcation_status_label": "Верифікація",
         "download_fail_label": "Завантаження не вдалося",
         "verifcation_fail_label": "Перевірку не пройдено",
         "new_version_label": "Нова версія:{version}",
@@ -89,7 +89,7 @@
         "controller_tips": "Підключається до Інтернету та керує всіма пристроями-агентами.",
         "scan_nearby_agents_tips": "Скануйте навколишні пристрої-агенти, які увімкнені та готові приєднатися, щоб додати їх до вашої мережі.",
         "other_ways_to_join_title": "Інші способи приєднання",
-        "upgrade_fail_tips": "Оновлення не вдалося",
+        "upgrade_fail_tips": "Оновлення провалилося",
         "make_sure_the_pairing_code_tips": "Переконайтеся, що код парного зв’язку правильний, або спробуйте наблизити цей пристрій до Контролера.",
         "current_mode_title": "Поточний режим: {mode}",
         "controller_label": "Контролер",
@@ -100,6 +100,10 @@
         "connection_duration_title": "Тривалість з’єднання",
         "all_select_no_firmware_tips": "Усі вибрані пристрої працюють на останній версії прошивки.",
         "for_centralized_management_tips": " Для централізованого управління керуйте цим пристроєм через інтерфейс Контролера.",
-        "network_status_label": "Статус"
+        "network_status_label": "Статус",
+        "wan_cable_detected_tips": "Виявлено кабель WAN.",
+        "switch_agent_mode_conflicts_router_tips": "Перехід у режим агента перетворить порт WAN на LAN, що може спричинити конфлікти мережі з вашим основним маршрутизатором.",
+        "disconnect_wan_tips": "Від'єднайте кабель WAN, щоб уникнути проблем.",
+        "open_admin_panel_btn": "Відкрити панель адміністратора"
     }
 }

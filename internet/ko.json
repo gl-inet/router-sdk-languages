@@ -267,7 +267,15 @@
         "select_cellular_profile_tips": "{selectProfile}을 선택하여 해당 내용을 SIM 카드에서 사용하는 설정으로 복사할 수 있습니다.",
         "select_cellular_profile": "셀룰러 프로필 선택",
         "manage_cellular_profiles": "셀룰러 프로필 관리",
-        "low_power_mode_tips": "장치가 저전력 모드에 있어 SIM 카드를 감지할 수 없습니다."
+        "low_power_mode_tips": "장치가 저전력 모드에 있어 SIM 카드를 감지할 수 없습니다.",
+        "saved_cellular_profiles_title": "저장된 셀룰러 프로필",
+        "save_new_cellular_profile_title": "새로운 셀룰러 프로필로 저장",
+        "add_new_cellular_profile_title": "새로운 셀룰러 프로필 추가",
+        "modify_cellular_profile_title": "셀룰러 프로필 수정",
+        "name_length_limit_tips": "이름 길이가 제한을 초과합니다",
+        "name_already_taken_tips": "이름 {name}이(가) 이미 사용 중입니다",
+        "name_empty_tips": "이름은 비워둘 수 없습니다.",
+        "auto_switch_tips": "이 기능은 Multi-WAN 인터페이스 상태 추적의 비저데이터 감지 모드가 필요합니다. 활성화하면 시스템이 자동으로 해당 감지 모드로 전환되며 추가 트래픽 사용량이 발생할 수 있습니다."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -326,7 +334,8 @@
         "send_error_msg3": "전송 실패.",
         "send_error_msg5": "장치가 SMS 기능을 지원하지 않습니다.",
         "forward_email_tips": "SMS를 이메일로 전달하려면 먼저 발신자 이메일을 설정하세요. SMS가 전송될 이메일 주소입니다.",
-        "received": "수신됨"
+        "received": "수신됨",
+        "single_standby_cannot_forwarded_tips": "SMS는 로컬 번호로 전달될 수 없습니다."
     },
     "modemmanage": {
         "title": "관리",
@@ -602,7 +611,10 @@
     "apn": {
         "enable_polling_label": "폴링 활성화",
         "polling_control_title": "APN 폴링 제어",
-        "enable_polling_tips": "장치가 Verizon SIM 카드를 사용하고 이 기능이 활성화된 경우, 장치는 리부팅 후 최대 12분 동안 네트워크 연결이 정상화될 때까지 APN을 지속적으로 폴링합니다. 이 기능은 Verizon SIM 카드에서만 유효합니다."
+        "enable_polling_tips": "장치가 Verizon SIM 카드를 사용하고 이 기능이 활성화된 경우, 장치는 리부팅 후 최대 12분 동안 네트워크 연결이 정상화될 때까지 APN을 지속적으로 폴링합니다. 이 기능은 Verizon SIM 카드에서만 유효합니다.",
+        "database_update_success_msg": "APN 데이터베이스가 성공적으로 업데이트되었습니다",
+        "check_internet_retry_msg": "APN 데이터베이스 업데이트 실패. 인터넷 연결을 확인하고 다시 시도하세요.",
+        "try_again_later_msg": "APN 데이터베이스 업데이트에 실패했습니다. 나중에 다시 시도해 주세요."
     },
     "internet": {
         "manual_label": "수동",
