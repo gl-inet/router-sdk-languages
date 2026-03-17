@@ -112,7 +112,7 @@
         "ignore_btn": "Ignoruj",
         "to_renew_btn": "Odnów",
         "trial_open_other_warning": "Funkcje DPI kolidują z {network} i nie mogą być używane jednocześnie.",
-        "dpi_text_title": "O DPI",
+        "dpi_text_title": "Informacje o Silniku DPI",
         "flowstatistics_description_second_text": "Wyświetl aplikacje posortowane według całkowitego zużycia przepustowości.",
         "expiration_date_label": "Data Wygaśnięcia",
         "flowstatistics_description_fourth_text": "Zablokuj wybrane aplikacje jednym kliknięciem.",
@@ -132,7 +132,7 @@
         "trial_expiring_title": "Okres Próbny Wygasł",
         "update_failed_text": "Aktualizacja nie powiodła się",
         "subscribed_btn": "Subskrybuj",
-        "dpi_descriptionn_first_text": "Funkcja DPI GL.iNet jest obecnie w fazie Beta, zapewniając funkcje {name1}, {name2} oraz {name3}.",
+        "dpi_descriptionn_first_text": "Funkcja DPI Engine w GL.iNet zapewnia inteligentne zarządzanie siecią wyłącznie na lokalnym routerze. Ciesz się całkowitą prywatnością dzięki pełnemu dostępowi do {name1}, {name2} i {name3}.",
         "trial_btn": "Rozpocznij Próbę",
         "trial_expired_text": "Twój okres próbny wygasł. Zaloguj się do GoodCloud, aby wykupić subskrypcję.",
         "subscription_trial_status_tips": "Okres próbny jest aktywny. Po wygaśnięciu zostanie zsynchronizowany ze statusem subskrypcji Twojego konta w chmurze.",
@@ -173,7 +173,7 @@
         "reactivation_guide_second_title": "Automatycznie włącz funkcję DPI",
         "reactivation_guide_second_description": "Po pomyślnym powiązaniu funkcja DPI zostanie automatycznie aktywowana bez dodatkowych działań.",
         "reactivation_guide_first_description": "Kliknij przycisk „{btn}” powyżej, aby powiązać router z kontem GoodCloud.",
-        "additional_notes_second_text": "Po zakończeniu okresu próbnego funkcje DPI zostaną automatycznie dezaktywowane, ale wszystkie Twoje konfiguracje zostaną zachowane.",
+        "additional_notes_second_text": "100% Logika Lokalna: Cała klasyfikacja i filtrowanie danych odbywa się lokalnie na routerze. Żadne zapytania DNS ani historia przeglądania nie są wysyłane do chmury.",
         "trial_activation_first_title": "Sprawdzanie dostępności urządzenia",
         "trial_activation": "Aktywacja Wersji Próbnej",
         "trial_activation_second_title": "Aktualizowanie konfiguracji i licencji",
@@ -193,7 +193,7 @@
         "additional_notes_third_text": "Aby korzystać z DPI na stałe, powiąż swoje urządzenie z platformą GoodCloud.",
         "trial_activation_third_title": "Sprawdzanie i wyłączanie Przyspieszenia sieci",
         "flowstatistics_card_text": "{name} oferuje inteligentny panel analizy ruchu, który kategoryzuje i wizualizuje wykorzystanie sieci według aplikacji, umożliwiając monitorowanie ruchu w czasie rzeczywistym i historycznego dla lepszej świadomości oraz kontroli sieci.",
-        "start_day_Trial_btn": "Rozpocznij 30-dniowy okres próbny",
+        "start_day_Trial_btn": "Włącz Silnik DPI",
         "lets_start_btn": "Rozpocznijmy",
         "checking_loading_label": "Sprawdzanie i wyłączanie przyspieszania sieci...",
         "trial_expired_description": "Twój 30‑dniowy okres próbny dobiegł końca, a funkcje DPI są obecnie wyłączone.",
@@ -202,7 +202,7 @@
         "contentprotection_descriptionn_text": "Inteligentna ochrona online z DPI: automatyczne blokowanie niebezpiecznych stron, czysta i bezpieczna sieć oraz możliwość tworzenia własnych reguł blokowania aplikacji, domen i adresów IP.",
         "qos_description_text": "Inteligentnie optymalizuje przepustowość podczas przeciążenia sieci, priorytetyzując ruch krytycznych aplikacji — takich jak rozmowy wideo i gry — zmniejszając opóźnienia w warunkach ograniczonej przepustowości i poprawiając ogólną responsywność sieci.",
         "additional_notes_title": "Dodatkowe uwagi",
-        "additional_notes_first_text": "Po aktywowaniu wersji próbnej uzyskasz pełny dostęp do wszystkich funkcji DPI przez 30 dni.",
+        "additional_notes_first_text": "Po aktywacji będziesz cieszyć się pełnym dostępem do wszystkich podstawowych funkcji DPI na stałe i bezpłatnie.",
         "contentprotection_descriptionn_card_text": "{name} chroni Twoją sieć dzięki inteligentnej klasyfikacji DPI — automatycznie blokuje niebezpieczne strony, aby zapewnić czyste i bezpieczne środowisko.",
         "flowstatistics_notstart_label": "Pulpit nawigacyjny analizy ruchu, który identyfikuje i kategoryzuje wykorzystanie sieci według aplikacji.",
         "flowstatistics_notstart_description_third_text": "Szczegółowe statystyki na poziomie aplikacji uszeregowane według całkowitego wykorzystania",
@@ -248,5 +248,5 @@
         "need_login_cloud_tips": "Zaloguj się do usługi w chmurze, aby ukończyć proces wiązania i kontynuować korzystanie z funkcji DPI.",
         "go_to_cloud_btn": "Przejdź do Usługi w Chmurze"
     },
-    "menu_dpifeatures": "Funkcje DPI"
+    "menu_dpifeatures": "Silnik DPI"
 }
