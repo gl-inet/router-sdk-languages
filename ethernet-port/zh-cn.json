@@ -37,7 +37,11 @@
         "selectNetwork": "选择网络",
         "allowedTaggedNetworks": "允许的标记网络",
         "selectNetworks": "选择网络",
-        "vlanModeTips": "标准模式仅允许一个VLAN（未标记），用于连接终端设备。多VLAN模式允许在一个端口上配置多个VLAN（已标记），通常用于连接AP或其他交换机。"
+        "vlanModeTips": "标准模式仅允许一个VLAN（未标记），用于连接终端设备。多VLAN模式允许在一个端口上配置多个VLAN（已标记），通常用于连接AP或其他交换机。",
+        "link_up": "链接已建立",
+        "link_down": "链接断开",
+        "error": "错误",
+        "no_module": "无模块"
     },
     "menu_ethernet-port": "以太网端口"
 }
