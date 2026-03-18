@@ -74,7 +74,15 @@
         "lprTips": "Multiple printer LPR ports can be filled.",
         "dns": "DNS Server",
         "required": "Required",
-        "invalidFormat": "Invalid format"
+        "invalidFormat": "Invalid format",
+        "err_vlan_id_out_of_range": "VLAN ID is out of range.",
+        "err_vlan_id_in_use": "VLAN ID is already in use.",
+        "err_subnet_conflict": "Subnet address conflict.",
+        "err_subnet_bound_migrate_first": "This subnet is bound to an Ethernet port and cannot be deleted. Migrate ports first.",
+        "err_default_subnet_cannot_delete": "Default subnet cannot be deleted.",
+        "err_subnet_limit_reached": "The maximum number of custom subnets has been reached.",
+        "err_subnet_name_conflict_or_not_exist": "Display name conflict or subnet does not exist.",
+        "err_tap_s2s_mode_enabled": "TAP-S2S mode is enabled, operation is not available."
     },
     "menu_vlan": "VLAN"
 }
