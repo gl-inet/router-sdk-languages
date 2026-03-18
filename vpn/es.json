@@ -499,7 +499,9 @@
         "selected_profile_tooltip": "Los perfiles realizarán conmutación por error en el orden mostrado (de arriba a abajo).",
         "select_target_destination_title": "Seleccionar destino objetivo",
         "select_at_least_one_config_msg": "Seleccione al menos una configuración.",
-        "no_selected_config_label": "Sin configuración seleccionada"
+        "no_selected_config_label": "Sin configuración seleccionada",
+        "enable_killswitch_tips": "Cuando está habilitado, el tráfico asignado a este túnel VPN se bloqueará si el túnel se desconecta inesperadamente.",
+        "disable_killswitch_tips": "Cuando está deshabilitado, el tráfico se manejará de acuerdo con la política de Todo Otro Tráfico."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
