@@ -499,7 +499,9 @@
         "no_selected_config_label": "未選擇配置",
         "add_new_tunnel_btn": "新增通道",
         "add_vpn_tunnel_btn": "新增VPN通道",
-        "use_step_label": "使用"
+        "use_step_label": "使用",
+        "enable_killswitch_tips": "啟用後，若此VPN通道意外斷開，分配給此VPN通道的流量將被阻擋。",
+        "disable_killswitch_tips": "停用後，流量將根據「所有其他流量」策略進行處理。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
