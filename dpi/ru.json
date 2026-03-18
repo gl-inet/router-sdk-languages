@@ -242,7 +242,19 @@
         "new_version_tips": "Доступна новая версия {version}",
         "version_is_up_to_date_tips": "Версия актуальна",
         "please_start_the_cloud_tips": "Пожалуйста, запустите облачный сервис и войдите в GoodCloud.",
-        "need_login_cloud_tips": "Пожалуйста, войдите в облачный сервис, чтобы завершить процесс привязки и продолжить использование функции DPI."
+        "need_login_cloud_tips": "Пожалуйста, войдите в облачный сервис, чтобы завершить процесс привязки и продолжить использование функции DPI.",
+        "trial_dialog_title": "Активировать DPI",
+        "trial_dialog_step2_title": "{network} будет отключена для обеспечения проверки пакетов.",
+        "trial_dialog_success_text": "Теперь вы можете использовать полный набор функций DPI локально.",
+        "engine_version_center_title": "Центр версий {name}",
+        "core_services_ready_tag": "Основные службы готовы",
+        "engine_desc_text": "На этой странице отображаются только основные сигналы технического обслуживания. Обработка трафика начинается после включения каждой функции.",
+        "version_update_center_title": "Центр обновления версий",
+        "version_update_desc_text": "{name} готов. {name1}, {name2} и {name3} работают только при включении на соответствующих страницах.",
+        "latest_available_label": "Доступна последняя версия: ",
+        "upgrading_btn_text": "Обновление...",
+        "trial_dialog_success_title": "Успешно активировано!",
+        "trial_dialog_step1_title": "DPI использует локальные ресурсы для анализа и классификации пакетов."
     },
     "menu_dpifeatures": "Функции DPI"
 }
