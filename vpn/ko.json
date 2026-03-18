@@ -499,7 +499,9 @@
         "selected_profile_title": "선택된 프로필 ({count})",
         "selected_profile_tooltip": "프로필은 표시된 순서(위에서 아래로)대로 Failover됩니다.",
         "no_selected_config_label": "선택된 구성 없음",
-        "init_desc": "첫 번째 VPN 터널을 추가하여 시작하세요."
+        "init_desc": "첫 번째 VPN 터널을 추가하여 시작하세요.",
+        "enable_killswitch_tips": "활성화하면 이 VPN 터널에 할당된 트래픽은 터널이 예기치 않게 연결이 끊어질 경우 차단됩니다.",
+        "disable_killswitch_tips": "비활성화 시 트래픽은 '기타 모든 트래픽' 정책에 따라 처리됩니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
