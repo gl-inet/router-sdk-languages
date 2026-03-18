@@ -74,7 +74,15 @@
         "tip": "Gestisci la segmentazione della rete con VLAN per isolare il traffico e migliorare la sicurezza.",
         "guest_network_unavailable": "La rete ospiti è attualmente non disponibile perché ",
         "routerIpTip": "L'indirizzo IP del router su questa rete.",
-        "confirmDelete": "Sei sicuro di voler eliminare la voce di indirizzo riservato?"
+        "confirmDelete": "Sei sicuro di voler eliminare la voce di indirizzo riservato?",
+        "err_vlan_id_out_of_range": "L'ID VLAN è fuori intervallo.",
+        "err_vlan_id_in_use": "L'ID VLAN è già in uso.",
+        "err_default_subnet_cannot_delete": "La subnet predefinita non può essere eliminata.",
+        "err_subnet_limit_reached": "È stato raggiunto il numero massimo di subnet personalizzate.",
+        "err_subnet_name_conflict_or_not_exist": "Conflitto del nome visualizzato o subnet inesistente.",
+        "err_tap_s2s_mode_enabled": "La modalità TAP-S2S è abilitata, l'operazione non è disponibile.",
+        "err_subnet_conflict": "Conflitto di indirizzi di subnet.",
+        "err_subnet_bound_migrate_first": "Questa subnet è associata a una porta Ethernet e non può essere eliminata. Migra prima le porte."
     },
     "menu_vlan": "VLAN"
 }
