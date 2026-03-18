@@ -499,7 +499,9 @@
         "add_vpn_tunnel_btn": "VPNトンネルを追加",
         "select_target_destination_title": "ターゲット宛先を選択",
         "select_at_least_one_config_msg": "少なくとも1つの設定を選択してください。",
-        "selected_profile_tooltip": "プロファイルは表示されている順序（上から下へ）でフェイルオーバーします。"
+        "selected_profile_tooltip": "プロファイルは表示されている順序（上から下へ）でフェイルオーバーします。",
+        "enable_killswitch_tips": "有効にすると、このVPNトンネルに割り当てられたトラフィックは、トンネルが予期せず切断された場合にブロックされます。",
+        "disable_killswitch_tips": "無効にすると、トラフィックは「その他のすべてのトラフィック」ポリシーに従って処理されます。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
