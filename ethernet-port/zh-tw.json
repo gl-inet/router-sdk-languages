@@ -42,6 +42,20 @@
         "error": "錯誤",
         "link_up": "連線已建立",
         "link_down": "連線已中斷",
-        "no_module": "無模組"
+        "no_module": "無模組",
+        "err_invalid_param": "參數無效。請檢查VLAN、MTU或TTL範圍。",
+        "err_feature_not_supported": "功能不受支援。此裝置上沒有匹配的連接埠或secondwan受到限制。",
+        "err_port_invalid_or_unsupported": "連接埠不受支援或名稱無效。",
+        "err_mode_not_supported": "不支援的操作模式。",
+        "err_vlan_param_invalid": "VLAN參數驗證失敗。請檢查VLAN模式、PVID或允許的VLAN。",
+        "err_wan_vlan_dualwan_conflict": "WAN VLAN與雙WAN配置衝突。",
+        "err_wan_port_limit_exceeded": "已達到WAN連接埠的最大數量。",
+        "err_port_cannot_switch_to_wan": "此連接埠無法切換到WAN。",
+        "err_invalid_mac_mode": "無效的MAC模式。",
+        "err_secondwan_already_exists": "secondwan已存在。此連接埠無法配置為secondwan。",
+        "err_tap_s2s_mode_enabled": "TAP-S2S模式已啟用。此功能不可用。",
+        "err_interface_in_lan_mode": "該介面處於LAN模式，無法接受WAN配置。",
+        "err_virtual_interface_missing": "缺少對應的虛擬介面。",
+        "err_unplug_cable_before_switch_lan": "請在切換到LAN之前拔掉網線。"
     }
 }
