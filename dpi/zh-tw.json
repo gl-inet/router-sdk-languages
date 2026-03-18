@@ -242,7 +242,19 @@
         "new_version_tips": "新版本 {version} 可用",
         "version_is_up_to_date_tips": "最新",
         "please_start_the_cloud_tips": "請啟動雲端服務並登入Goodcloud。",
-        "need_login_cloud_tips": "請登入雲端服務以完成綁定程序並繼續使用DPI功能。"
+        "need_login_cloud_tips": "請登入雲端服務以完成綁定程序並繼續使用DPI功能。",
+        "trial_dialog_title": "激活DPI",
+        "trial_dialog_success_title": "激活成功！",
+        "trial_dialog_step1_title": "DPI使用本地资源分析和分类数据包。",
+        "trial_dialog_step2_title": "{network} 将被禁用以确保数据包检查。",
+        "trial_dialog_success_text": "您现在可以在本地享受完整的DPI功能套件。",
+        "engine_version_center_title": "{name} 版本中心",
+        "core_services_ready_tag": "核心服务就绪",
+        "version_update_center_title": "版本更新中心",
+        "version_update_desc_text": "{name} 已准备就绪。{name1}、{name2} 和 {name3} 仅在各自页面启用后才工作。",
+        "latest_available_label": "最新可用： ",
+        "upgrading_btn_text": "正在升级...",
+        "engine_desc_text": "此页面仅显示核心维护信号。流量处理将在每个功能启用后开始。"
     },
     "menu_dpifeatures": "DPI引擎"
 }
