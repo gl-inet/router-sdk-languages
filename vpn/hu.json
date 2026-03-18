@@ -499,7 +499,9 @@
         "no_selected_config_label": "Nincs kiválasztott konfiguráció",
         "select_target_destination_title": "Célállomás kiválasztása",
         "select_at_least_one_config_msg": "Kérjük, válasszon ki legalább egy konfigurációt.",
-        "selected_profile_tooltip": "A profilok a megjelenített sorrendben (felülről lefelé) váltanak át hibaelhárítás céljából."
+        "selected_profile_tooltip": "A profilok a megjelenített sorrendben (felülről lefelé) váltanak át hibaelhárítás céljából.",
+        "enable_killswitch_tips": "Ha engedélyezve van, az ehhez a VPN-alagúthoz rendelt forgalom le lesz tiltva, ha az alagút váratlanul megszakad.",
+        "disable_killswitch_tips": "Letiltás esetén a forgalom az \"Összes egyéb forgalom\" szabályzat szerint lesz kezelve."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
