@@ -242,7 +242,19 @@
         "new_version_tips": "새 버전 {version} 사용 가능",
         "version_is_up_to_date_tips": "버전이 최신입니다",
         "please_start_the_cloud_tips": "클라우드 서비스를 시작하고 Goodcloud에 로그인하세요.",
-        "need_login_cloud_tips": "DPI 기능을 계속 사용하려면 클라우드 서비스에 로그인하여 바인딩 프로세스를 완료하십시오."
+        "need_login_cloud_tips": "DPI 기능을 계속 사용하려면 클라우드 서비스에 로그인하여 바인딩 프로세스를 완료하십시오.",
+        "trial_dialog_success_title": "성공적으로 활성화되었습니다!",
+        "engine_version_center_title": "{name} 버전 센터",
+        "core_services_ready_tag": "핵심 서비스 준비 완료",
+        "engine_desc_text": "이 페이지는 핵심 유지 관리 신호만 표시합니다. 각 기능이 활성화된 후 트래픽 처리가 시작됩니다.",
+        "version_update_center_title": "버전 업데이트 센터",
+        "trial_dialog_title": "DPI 활성화",
+        "trial_dialog_step1_title": "DPI는 로컬 리소스를 사용하여 패킷을 분석하고 분류합니다.",
+        "trial_dialog_step2_title": "패킷 검사를 보장하기 위해 {network}이(가) 비활성화됩니다.",
+        "trial_dialog_success_text": "이제 로컬에서 DPI 기능의 전체 제품군을 즐길 수 있습니다.",
+        "version_update_desc_text": "{name}이(가) 준비되었습니다. {name1}, {name2}, {name3}은(는) 각각의 페이지에서 활성화된 경우에만 작동합니다.",
+        "latest_available_label": "최신 버전 사용 가능: ",
+        "upgrading_btn_text": "업그레이드 중..."
     },
     "menu_dpifeatures": "DPI 기능"
 }
