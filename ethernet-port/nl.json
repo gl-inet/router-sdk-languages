@@ -41,7 +41,21 @@
         "no_module": "Geen Module",
         "error": "Fout",
         "link_up": "Link Up",
-        "link_down": "Link Down"
+        "link_down": "Link Down",
+        "err_invalid_param": "Ongeldige parameter. Controleer het VLAN, MTU of TTL-bereik.",
+        "err_interface_in_lan_mode": "De interface bevindt zich in LAN-modus en kan geen WAN-configuratie accepteren.",
+        "err_feature_not_supported": "Functie niet ondersteund. Geen overeenkomende poort op dit apparaat of secondwan beperkt.",
+        "err_virtual_interface_missing": "Bijbehorende virtuele interface ontbreekt.",
+        "err_mode_not_supported": "Bedieningsmodus niet ondersteund.",
+        "err_vlan_param_invalid": "VLAN-parameter validatie mislukt. Controleer de VLAN-modus, PVID of toegestane VLAN's.",
+        "err_wan_vlan_dualwan_conflict": "WAN VLAN conflicteert met de dual WAN-configuratie.",
+        "err_wan_port_limit_exceeded": "Het maximum aantal WAN-poorten is bereikt.",
+        "err_invalid_mac_mode": "Ongeldige MAC-modus.",
+        "err_port_invalid_or_unsupported": "Poort niet ondersteund of ongeldige naam.",
+        "err_port_cannot_switch_to_wan": "Deze poort kan niet worden overgeschakeld naar WAN.",
+        "err_unplug_cable_before_switch_lan": "Trek de kabel los voordat u overschakelt naar LAN.",
+        "err_secondwan_already_exists": "secondwan bestaat al. Deze poort kan niet worden geconfigureerd als secondwan.",
+        "err_tap_s2s_mode_enabled": "TAP-S2S-modus is ingeschakeld. Deze functie is niet beschikbaar."
     },
     "menu_ethernet-port": "Ethernetpoort"
 }
