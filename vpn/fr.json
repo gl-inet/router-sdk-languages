@@ -499,7 +499,9 @@
         "no_selected_config_label": "Aucune configuration sélectionnée",
         "init_title": "Accès sécurisé global",
         "init_desc": "Commencez par ajouter votre premier tunnel VPN.",
-        "select_client_source_title": "Sélectionner la source du client"
+        "select_client_source_title": "Sélectionner la source du client",
+        "enable_killswitch_tips": "Lorsqu'il est activé, le trafic attribué à ce tunnel VPN sera bloqué si le tunnel se déconnecte de manière inattendue.",
+        "disable_killswitch_tips": "Lorsqu'il est désactivé, le trafic sera traité conformément à la politique de tout autre trafic."
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",
