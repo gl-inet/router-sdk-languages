@@ -242,7 +242,19 @@
         "new_version_tips": "New version {version} available",
         "version_is_up_to_date_tips": "Up-to-date",
         "please_start_the_cloud_tips": "Please start the cloud service and log in to Goodcloud.",
-        "need_login_cloud_tips": "Please log in to the cloud service to complete the binding process and continue using the DPI function."
+        "need_login_cloud_tips": "Please log in to the cloud service to complete the binding process and continue using the DPI function.",
+        "trial_dialog_title": "Activate DPI",
+        "trial_dialog_success_title": "Activated Successfully!",
+        "trial_dialog_step1_title": "DPI uses local resources to analyze and classify packets.",
+        "trial_dialog_step2_title": "{network} will be disabled to ensure packet inspection.",
+        "trial_dialog_success_text": "You can now enjoy the full suite of DPI features locally.",
+        "engine_version_center_title": "{name} Version Center",
+        "core_services_ready_tag": "Core Services Ready",
+        "engine_desc_text": "This page only shows core maintenance signals. Traffic processing starts after each feature is enabled.",
+        "version_update_center_title": "Version Update Center",
+        "version_update_desc_text": "{name} is ready. {name1}, {name2}, and {name3} work only when enabled in their own pages.",
+        "latest_available_label": "Latest available: ",
+        "upgrading_btn_text": "Upgrading..."
     },
     "menu_dpifeatures": "DPI Engine"
 }
