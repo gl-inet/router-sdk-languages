@@ -74,7 +74,15 @@
         "mac": "MAC位址",
         "hostnameExisted": "主機名稱已存在",
         "addReservation": "新增保留位址項目",
-        "confirmDelete": "您確定要刪除保留的位址項目嗎？"
+        "confirmDelete": "您確定要刪除保留的位址項目嗎？",
+        "err_vlan_id_out_of_range": "VLAN ID 超出範圍。",
+        "err_vlan_id_in_use": "VLAN ID 已被使用。",
+        "err_subnet_conflict": "子網位址衝突。",
+        "err_default_subnet_cannot_delete": "預設子網無法刪除。",
+        "err_subnet_limit_reached": "已達到自訂子網的最大數量。",
+        "err_subnet_name_conflict_or_not_exist": "顯示名稱衝突或子網不存在。",
+        "err_tap_s2s_mode_enabled": "TAP-S2S 模式已啟用，操作不可用。",
+        "err_subnet_bound_migrate_first": "此子網已綁定至乙太網路埠，無法刪除。請先遷移埠。"
     },
     "menu_vlan": "VLAN"
 }
