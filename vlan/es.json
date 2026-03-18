@@ -74,7 +74,15 @@
         "addressReservationTip": "Cuando especifica una dirección IP reservada para un cliente de la LAN, el cliente siempre recibirá la misma dirección IP al solicitarla al servidor DHCP del router. Puede asignar direcciones IP reservadas a equipos o servidores que requieran una configuración de IP permanente.",
         "apIsolationTip": "Puede aislar los dispositivos cliente de su red en un área de red independiente. Estos dispositivos no pueden comunicarse con otros dispositivos en la red.",
         "selectNetmask": "Selecciona la máscara de red",
-        "tip": "Gestiona la segmentación de la red mediante VLANs para aislar el tráfico y mejorar la seguridad."
+        "tip": "Gestiona la segmentación de la red mediante VLANs para aislar el tráfico y mejorar la seguridad.",
+        "err_vlan_id_out_of_range": "El ID de VLAN está fuera de rango.",
+        "err_vlan_id_in_use": "El ID de VLAN ya está en uso.",
+        "err_subnet_conflict": "Conflicto de dirección de subred.",
+        "err_subnet_bound_migrate_first": "Esta subred está vinculada a un puerto Ethernet y no se puede eliminar. Migre los puertos primero.",
+        "err_default_subnet_cannot_delete": "La subred predeterminada no se puede eliminar.",
+        "err_subnet_limit_reached": "Se ha alcanzado el número máximo de subredes personalizadas.",
+        "err_subnet_name_conflict_or_not_exist": "Conflicto de nombre para mostrar o la subred no existe.",
+        "err_tap_s2s_mode_enabled": "El modo TAP-S2S está habilitado, la operación no está disponible."
     },
     "menu_vlan": "VLAN"
 }
