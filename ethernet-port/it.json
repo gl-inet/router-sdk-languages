@@ -42,6 +42,20 @@
         "link_up": "Collegamento Attivo",
         "no_module": "Nessun Modulo",
         "error": "Errore",
-        "link_down": "Collegamento Inattivo"
+        "link_down": "Collegamento Inattivo",
+        "err_invalid_param": "Parametro non valido. Si prega di verificare la VLAN, l'MTU o l'intervallo TTL.",
+        "err_interface_in_lan_mode": "L'interfaccia è in modalità LAN e non può accettare la configurazione WAN.",
+        "err_feature_not_supported": "Funzionalità non supportata. Nessuna porta corrispondente su questo dispositivo o secondwan limitato.",
+        "err_virtual_interface_missing": "Manca l'interfaccia virtuale corrispondente.",
+        "err_mode_not_supported": "Modalità operativa non supportata.",
+        "err_wan_vlan_dualwan_conflict": "La VLAN WAN è in conflitto con la configurazione dual WAN.",
+        "err_port_cannot_switch_to_wan": "Questa porta non può essere commutata in WAN.",
+        "err_unplug_cable_before_switch_lan": "Si prega di scollegare il cavo prima di passare alla LAN.",
+        "err_invalid_mac_mode": "Modalità MAC non valida.",
+        "err_secondwan_already_exists": "secondwan esiste già. Questa porta non può essere configurata come secondwan.",
+        "err_tap_s2s_mode_enabled": "La modalità TAP-S2S è abilitata. Questa funzionalità non è disponibile.",
+        "err_port_invalid_or_unsupported": "Porta non supportata o nome non valido.",
+        "err_vlan_param_invalid": "Validazione dei parametri VLAN non riuscita. Si prega di verificare la modalità VLAN, il PVID o le VLAN consentite.",
+        "err_wan_port_limit_exceeded": "È stato raggiunto il numero massimo di porte WAN."
     }
 }
