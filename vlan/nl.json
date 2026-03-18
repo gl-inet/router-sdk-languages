@@ -74,7 +74,15 @@
         "tip": "Beheer netwerksegmentatie met VLAN's om verkeer te isoleren en de beveiliging te verbeteren.",
         "ipv4RangesTip": "Configureer IPv4-adresbereiken voor dit netwerk.",
         "addReservation": "Voeg een nieuw gereserveerd adres toe",
-        "confirmDelete": "Weet u zeker dat u het gereserveerde adres wilt verwijderen?"
+        "confirmDelete": "Weet u zeker dat u het gereserveerde adres wilt verwijderen?",
+        "err_vlan_id_out_of_range": "VLAN-ID ligt buiten het bereik.",
+        "err_subnet_conflict": "Subnetadres conflict.",
+        "err_subnet_limit_reached": "Het maximum aantal aangepaste subnetten is bereikt.",
+        "err_vlan_id_in_use": "VLAN-ID is al in gebruik.",
+        "err_subnet_bound_migrate_first": "Dit subnet is gebonden aan een Ethernet-poort en kan niet worden verwijderd. Migreer eerst de poorten.",
+        "err_default_subnet_cannot_delete": "Standaard subnet kan niet worden verwijderd.",
+        "err_subnet_name_conflict_or_not_exist": "Weergavenaam conflict of subnet bestaat niet.",
+        "err_tap_s2s_mode_enabled": "TAP-S2S-modus is ingeschakeld, bewerking is niet beschikbaar."
     },
     "menu_vlan": "VLAN"
 }
