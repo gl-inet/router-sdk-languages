@@ -74,7 +74,15 @@
         "interfaces": "Schnittstellen",
         "addReservation": "Neuen Reservierungseintrag hinzufügen",
         "confirmDelete": "Sind Sie sicher, dass Sie den reservierten Adresseintrag löschen möchten?",
-        "add": "Hinzufügen"
+        "add": "Hinzufügen",
+        "err_vlan_id_out_of_range": "VLAN-ID liegt außerhalb des gültigen Bereichs.",
+        "err_subnet_conflict": "Subnetzadresskonflikt.",
+        "err_subnet_bound_migrate_first": "Dieses Subnetz ist an einen Ethernet-Port gebunden und kann nicht gelöscht werden. Ports zuerst migrieren.",
+        "err_default_subnet_cannot_delete": "Standard-Subnetz kann nicht gelöscht werden.",
+        "err_subnet_limit_reached": "Die maximale Anzahl benutzerdefinierter Subnetze wurde erreicht.",
+        "err_subnet_name_conflict_or_not_exist": "Anzeigename in Konflikt oder Subnetz existiert nicht.",
+        "err_tap_s2s_mode_enabled": "TAP-S2S-Modus ist aktiviert, Vorgang nicht verfügbar.",
+        "err_vlan_id_in_use": "VLAN-ID wird bereits verwendet."
     },
     "menu_vlan": "VLAN"
 }
