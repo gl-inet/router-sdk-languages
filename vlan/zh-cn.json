@@ -74,7 +74,15 @@
         "dhcpServer": "DHCP服务器",
         "mac": "MAC地址",
         "hostnameExisted": "主机名已存在",
-        "interfaces": "接口"
+        "interfaces": "接口",
+        "err_vlan_id_out_of_range": "VLAN ID 超出范围。",
+        "err_vlan_id_in_use": "VLAN ID 已被使用。",
+        "err_subnet_conflict": "子网地址冲突。",
+        "err_subnet_bound_migrate_first": "此子网已绑定至以太网端口，无法删除。请先迁移端口。",
+        "err_default_subnet_cannot_delete": "默认子网无法删除。",
+        "err_subnet_limit_reached": "已达到自定义子网的最大数量。",
+        "err_subnet_name_conflict_or_not_exist": "显示名称冲突或子网不存在。",
+        "err_tap_s2s_mode_enabled": "TAP-S2S 模式已启用，操作不可用。"
     },
     "menu_vlan": "VLAN"
 }
