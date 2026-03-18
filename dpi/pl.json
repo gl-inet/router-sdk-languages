@@ -242,7 +242,19 @@
         "new_version_tips": "Nowa wersja {version} dostępna",
         "version_is_up_to_date_tips": "Wersja jest aktualna",
         "please_start_the_cloud_tips": "Proszę uruchomić usługę w chmurze i zalogować się do GoodCloud.",
-        "need_login_cloud_tips": "Zaloguj się do usługi w chmurze, aby ukończyć proces wiązania i kontynuować korzystanie z funkcji DPI."
+        "need_login_cloud_tips": "Zaloguj się do usługi w chmurze, aby ukończyć proces wiązania i kontynuować korzystanie z funkcji DPI.",
+        "trial_dialog_title": "Aktywuj DPI",
+        "trial_dialog_success_title": "Aktywowano pomyślnie!",
+        "trial_dialog_step1_title": "DPI wykorzystuje lokalne zasoby do analizy i klasyfikacji pakietów.",
+        "trial_dialog_step2_title": "{network} zostanie wyłączona, aby zapewnić inspekcję pakietów.",
+        "trial_dialog_success_text": "Możesz teraz korzystać z pełnego zestawu funkcji DPI lokalnie.",
+        "engine_version_center_title": "Centrum wersji {name}",
+        "core_services_ready_tag": "Usługi podstawowe gotowe",
+        "engine_desc_text": "Ta strona pokazuje tylko podstawowe sygnały konserwacyjne. Przetwarzanie ruchu rozpoczyna się po włączeniu każdej funkcji.",
+        "version_update_center_title": "Centrum aktualizacji wersji",
+        "version_update_desc_text": "{name} jest gotowy. {name1}, {name2} i {name3} działają tylko po włączeniu na ich własnych stronach.",
+        "latest_available_label": "Najnowsza dostępna: ",
+        "upgrading_btn_text": "Aktualizowanie..."
     },
     "menu_dpifeatures": "Silnik DPI"
 }
