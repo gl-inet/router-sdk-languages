@@ -74,7 +74,15 @@
         "guest_network_unavailable": "Misafir ağı şu anda kullanılamıyor çünkü ",
         "dhcpTip": "Bu ağdaki cihazlara otomatik olarak IP adresi atamak için DHCP'yi etkinleştirin.",
         "mac": "MAC Adresi",
-        "addReservation": "Yeni Bir Rezervasyon Girişi Ekle"
+        "addReservation": "Yeni Bir Rezervasyon Girişi Ekle",
+        "err_vlan_id_in_use": "VLAN Kimliği zaten kullanımda.",
+        "err_subnet_conflict": "Alt ağ adresi çakışması.",
+        "err_default_subnet_cannot_delete": "Varsayılan alt ağ silinemez.",
+        "err_subnet_name_conflict_or_not_exist": "Görünen ad çakışması veya alt ağ mevcut değil.",
+        "err_tap_s2s_mode_enabled": "TAP-S2S modu etkin, işlem kullanılamıyor.",
+        "err_vlan_id_out_of_range": "VLAN Kimliği aralık dışında.",
+        "err_subnet_bound_migrate_first": "Bu alt ağ bir Ethernet bağlantı noktasına bağlı olduğundan silinemez. Önce bağlantı noktalarını taşıyın.",
+        "err_subnet_limit_reached": "Özel alt ağların maksimum sayısına ulaşıldı."
     },
     "menu_vlan": "VLAN"
 }
