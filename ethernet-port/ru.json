@@ -41,7 +41,21 @@
         "link_up": "Соединение установлено",
         "link_down": "Соединение разорвано",
         "error": "Ошибка",
-        "no_module": "Нет модуля"
+        "no_module": "Нет модуля",
+        "err_invalid_param": "Недопустимый параметр. Пожалуйста, проверьте VLAN, MTU или диапазон TTL.",
+        "err_feature_not_supported": "Функция не поддерживается. На этом устройстве нет соответствующего порта или действуют ограничения для secondwan.",
+        "err_virtual_interface_missing": "Отсутствует соответствующий виртуальный интерфейс.",
+        "err_port_invalid_or_unsupported": "Порт не поддерживается или имеет недопустимое имя.",
+        "err_mode_not_supported": "Режим работы не поддерживается.",
+        "err_wan_vlan_dualwan_conflict": "VLAN WAN конфликтует с конфигурацией двойного WAN.",
+        "err_invalid_mac_mode": "Недопустимый режим MAC.",
+        "err_secondwan_already_exists": "secondwan уже существует. Этот порт не может быть настроен как secondwan.",
+        "err_tap_s2s_mode_enabled": "Режим TAP-S2S включен. Эта функция недоступна.",
+        "err_interface_in_lan_mode": "Интерфейс находится в режиме LAN и не может принимать конфигурацию WAN.",
+        "err_vlan_param_invalid": "Проверка параметров VLAN не удалась. Пожалуйста, проверьте режим VLAN, PVID или разрешенные VLAN.",
+        "err_wan_port_limit_exceeded": "Достигнуто максимальное количество портов WAN.",
+        "err_port_cannot_switch_to_wan": "Этот порт не может быть переключен в режим WAN.",
+        "err_unplug_cable_before_switch_lan": "Пожалуйста, отключите кабель перед переключением в режим LAN."
     },
     "menu_ethernet-port": "Порт Ethernet"
 }
