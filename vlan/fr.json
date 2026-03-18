@@ -74,7 +74,15 @@
         "apIsolationTip": "Vous pouvez isoler les appareils clients de votre réseau dans une zone réseau distincte. Ces appareils ne peuvent pas communiquer avec les autres appareils du réseau.",
         "edit": "Modifier",
         "tip": "Gérez la segmentation du réseau avec des VLAN pour isoler le trafic et renforcer la sécurité.",
-        "dhcpTip": "Activez le DHCP pour attribuer automatiquement des adresses IP aux appareils sur ce réseau."
+        "dhcpTip": "Activez le DHCP pour attribuer automatiquement des adresses IP aux appareils sur ce réseau.",
+        "err_vlan_id_in_use": "L'identifiant VLAN est déjà utilisé.",
+        "err_subnet_conflict": "Conflit d'adresse de sous-réseau.",
+        "err_default_subnet_cannot_delete": "Le sous-réseau par défaut ne peut pas être supprimé.",
+        "err_subnet_name_conflict_or_not_exist": "Conflit de nom d'affichage ou sous-réseau inexistant.",
+        "err_tap_s2s_mode_enabled": "Le mode TAP-S2S est activé, l'opération n'est pas disponible.",
+        "err_vlan_id_out_of_range": "L'identifiant VLAN est hors plage.",
+        "err_subnet_bound_migrate_first": "Ce sous-réseau est lié à un port Ethernet et ne peut pas être supprimé. Migrez d'abord les ports.",
+        "err_subnet_limit_reached": "Le nombre maximum de sous-réseaux personnalisés a été atteint."
     },
     "menu_vlan": "VLAN"
 }
