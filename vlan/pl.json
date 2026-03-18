@@ -74,7 +74,15 @@
         "selectNetmask": "Wybierz maskę sieci",
         "ap_isolation_tip": "Możesz odizolować urządzenia klienckie swojej sieci w oddzielnym obszarze sieciowym. Urządzenia te nie mogą komunikować się z innymi urządzeniami w sieci.",
         "iot_network_unavailable": "Sieć IoT jest obecnie niedostępna, ponieważ ",
-        "routerIpTip": "Adres IP routera w tej sieci."
+        "routerIpTip": "Adres IP routera w tej sieci.",
+        "err_vlan_id_out_of_range": "Identyfikator VLAN jest poza zakresem.",
+        "err_vlan_id_in_use": "Identyfikator VLAN jest już w użyciu.",
+        "err_subnet_conflict": "Konflikt adresów podsieci.",
+        "err_default_subnet_cannot_delete": "Domyślnej podsieci nie można usunąć.",
+        "err_subnet_limit_reached": "Osiągnięto maksymalną liczbę niestandardowych podsieci.",
+        "err_subnet_name_conflict_or_not_exist": "Konflikt nazwy wyświetlanej lub podsieć nie istnieje.",
+        "err_tap_s2s_mode_enabled": "Tryb TAP-S2S jest włączony, operacja jest niedostępna.",
+        "err_subnet_bound_migrate_first": "Ta podsieć jest przypisana do portu Ethernet i nie może zostać usunięta. Najpierw przenieś porty."
     },
     "menu_vlan": "VLAN"
 }
