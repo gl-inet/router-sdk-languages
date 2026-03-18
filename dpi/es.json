@@ -242,7 +242,19 @@
         "new_version_tips": "Nueva versión {version} disponible",
         "version_is_up_to_date_tips": "La versión está actualizada.",
         "please_start_the_cloud_tips": "Inicie el servicio en la nube e inicie sesión en Goodcloud.",
-        "need_login_cloud_tips": "Por favor, inicie sesión en el servicio en la nube para completar el proceso de vinculación y continuar utilizando la función DPI."
+        "need_login_cloud_tips": "Por favor, inicie sesión en el servicio en la nube para completar el proceso de vinculación y continuar utilizando la función DPI.",
+        "trial_dialog_title": "Activar DPI",
+        "trial_dialog_success_title": "¡Activado exitosamente!",
+        "trial_dialog_step1_title": "DPI utiliza recursos locales para analizar y clasificar paquetes.",
+        "trial_dialog_step2_title": "{network} se deshabilitará para garantizar la inspección de paquetes.",
+        "trial_dialog_success_text": "Ahora puede disfrutar de todas las funciones de DPI localmente.",
+        "engine_version_center_title": "Centro de versiones de {name}",
+        "core_services_ready_tag": "Servicios principales listos",
+        "engine_desc_text": "Esta página solo muestra las señales de mantenimiento principales. El procesamiento del tráfico comienza después de habilitar cada función.",
+        "version_update_center_title": "Centro de actualización de versiones",
+        "version_update_desc_text": "{name} está listo. {name1}, {name2} y {name3} solo funcionan cuando se habilitan en sus propias páginas.",
+        "upgrading_btn_text": "Actualizando...",
+        "latest_available_label": "Última versión disponible: "
     },
     "menu_dpifeatures": "Funciones DPI"
 }
