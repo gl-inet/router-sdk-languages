@@ -74,7 +74,15 @@
         "namePlaceholder": "ネットワーク名を入力",
         "tip": "VLANを使用してネットワークセグメンテーションを管理し、トラフィックを分離してセキュリティを強化します。",
         "iot_network_unavailable": "IoTネットワークは現在利用できません。理由: ",
-        "confirmDelete": "予約済みアドレスエントリを削除してもよろしいですか？"
+        "confirmDelete": "予約済みアドレスエントリを削除してもよろしいですか？",
+        "err_vlan_id_out_of_range": "VLAN IDが範囲外です。",
+        "err_vlan_id_in_use": "VLAN IDは既に使用されています。",
+        "err_subnet_conflict": "サブネットアドレスが競合しています。",
+        "err_default_subnet_cannot_delete": "デフォルトサブネットは削除できません。",
+        "err_subnet_limit_reached": "カスタムサブネットの最大数に達しました。",
+        "err_subnet_name_conflict_or_not_exist": "表示名が重複しているか、サブネットが存在しません。",
+        "err_subnet_bound_migrate_first": "このサブネットはイーサネットポートにバインドされているため、削除できません。まずポートを移行してください。",
+        "err_tap_s2s_mode_enabled": "TAP-S2Sモードが有効になっているため、操作は利用できません。"
     },
     "menu_vlan": "VLAN"
 }
