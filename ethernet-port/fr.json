@@ -42,6 +42,20 @@
         "link_up": "Lien établi",
         "error": "Erreur",
         "link_down": "Lien interrompu",
-        "no_module": "Aucun module"
+        "no_module": "Aucun module",
+        "err_invalid_param": "Paramètre invalide. Veuillez vérifier le VLAN, le MTU ou la plage TTL.",
+        "err_interface_in_lan_mode": "L'interface est en mode LAN et ne peut pas accepter la configuration WAN.",
+        "err_feature_not_supported": "Fonctionnalité non prise en charge. Aucun port correspondant sur cet appareil ou secondwan restreint.",
+        "err_virtual_interface_missing": "L'interface virtuelle correspondante est manquante.",
+        "err_port_invalid_or_unsupported": "Port non pris en charge ou nom invalide.",
+        "err_mode_not_supported": "Mode de fonctionnement non pris en charge.",
+        "err_wan_vlan_dualwan_conflict": "Le VLAN WAN est en conflit avec la configuration WAN double.",
+        "err_wan_port_limit_exceeded": "Le nombre maximum de ports WAN a été atteint.",
+        "err_port_cannot_switch_to_wan": "Ce port ne peut pas être basculé en WAN.",
+        "err_invalid_mac_mode": "Mode MAC invalide.",
+        "err_vlan_param_invalid": "La validation des paramètres VLAN a échoué. Veuillez vérifier le mode VLAN, le PVID ou les VLAN autorisés.",
+        "err_unplug_cable_before_switch_lan": "Veuillez débrancher le câble avant de passer en mode LAN.",
+        "err_secondwan_already_exists": "secondwan existe déjà. Ce port ne peut pas être configuré comme secondwan.",
+        "err_tap_s2s_mode_enabled": "Le mode TAP-S2S est activé. Cette fonctionnalité n'est pas disponible."
     }
 }
