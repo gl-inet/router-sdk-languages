@@ -242,7 +242,19 @@
         "new_version_tips": "Доступна нова версія {version}",
         "version_is_up_to_date_tips": "Версія актуальна",
         "please_start_the_cloud_tips": "Будь ласка, запустіть хмарну службу та увійдіть до GoodCloud.",
-        "need_login_cloud_tips": "Будь ласка, увійдіть у хмарний сервіс, щоб завершити процес прив'язки та продовжити використання функції DPI."
+        "need_login_cloud_tips": "Будь ласка, увійдіть у хмарний сервіс, щоб завершити процес прив'язки та продовжити використання функції DPI.",
+        "trial_dialog_title": "Активувати DPI",
+        "trial_dialog_success_title": "Успішно активовано!",
+        "trial_dialog_step2_title": "{network} буде вимкнено для забезпечення перевірки пакетів.",
+        "trial_dialog_success_text": "Тепер ви можете користуватися повним набором функцій DPI локально.",
+        "engine_version_center_title": "Центр версій {name}",
+        "core_services_ready_tag": "Основні служби готові",
+        "engine_desc_text": "На цій сторінці відображаються лише основні сигнали обслуговування. Обробка трафіку розпочинається після активації кожної функції.",
+        "version_update_center_title": "Центр оновлення версій",
+        "version_update_desc_text": "{name} готовий. {name1}, {name2} та {name3} працюють лише після активації на відповідних сторінках.",
+        "latest_available_label": "Остання доступна версія: ",
+        "upgrading_btn_text": "Оновлення...",
+        "trial_dialog_step1_title": "DPI використовує локальні ресурси для аналізу та класифікації пакетів."
     },
     "menu_dpifeatures": "Ліцензія DPI"
 }
