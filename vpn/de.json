@@ -501,7 +501,8 @@
         "add_tunnel_desc": "Fügen Sie einen Tunnel hinzu, um den Datenverkehr zu schützen oder Routing-Regeln anzupassen.",
         "apply_all_changes_btn": "Alle Änderungen übernehmen",
         "enable_killswitch_tips": "Wenn aktiviert, wird der Verkehr, der diesem VPN-Tunnel zugewiesen ist, blockiert, wenn der Tunnel unerwartet getrennt wird.",
-        "disable_killswitch_tips": "Wenn deaktiviert, wird der Datenverkehr gemäß der Richtlinie für den gesamten übrigen Verkehr behandelt."
+        "disable_killswitch_tips": "Wenn deaktiviert, wird der Datenverkehr gemäß der Richtlinie für den gesamten übrigen Verkehr behandelt.",
+        "not_use_killswitch_tips": "Der Datenverkehr folgt der Richtlinie \"Alle anderen Datenverkehr\", wenn er ausgeschaltet ist."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
