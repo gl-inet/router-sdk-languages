@@ -242,7 +242,19 @@
         "new_version_tips": "新しいバージョン {version} が利用可能です",
         "version_is_up_to_date_tips": "最新",
         "please_start_the_cloud_tips": "クラウドサービスを起動し、Goodcloudにログインしてください。",
-        "need_login_cloud_tips": "DPI機能を引き続き使用するには、クラウドサービスにログインしてバインディングプロセスを完了してください。"
+        "need_login_cloud_tips": "DPI機能を引き続き使用するには、クラウドサービスにログインしてバインディングプロセスを完了してください。",
+        "trial_dialog_title": "DPIをアクティベート",
+        "trial_dialog_step2_title": "パケット検査を確実にするため、{network}は無効になります。",
+        "trial_dialog_success_text": "これで、DPI機能のフルスイートをローカルでお楽しみいただけます。",
+        "core_services_ready_tag": "コアサービス準備完了",
+        "version_update_center_title": "バージョンアップデートセンター",
+        "version_update_desc_text": "{name}は準備ができています。{name1}、{name2}、および{name3}は、それぞれのページで有効にした場合にのみ機能します。",
+        "latest_available_label": "最新の利用可能: ",
+        "upgrading_btn_text": "アップグレード中...",
+        "trial_dialog_success_title": "正常にアクティベートされました！",
+        "trial_dialog_step1_title": "DPIはローカルリソースを使用してパケットを分析および分類します。",
+        "engine_version_center_title": "{name} バージョンセンター",
+        "engine_desc_text": "このページでは、コアメンテナンス信号のみを表示します。トラフィック処理は、各機能が有効になった後に開始されます。"
     },
     "menu_dpifeatures": "DPIライセンス"
 }
