@@ -499,7 +499,9 @@
         "search_client_placeholder": "Wyszukaj według nazwy klienta lub adresu MAC",
         "no_vpn_config_label": "Brak Konfiguracji VPN",
         "select_vpn_profile_title": "Wybierz Profil VPN",
-        "select_at_least_one_config_msg": "Wybierz co najmniej jedną konfigurację."
+        "select_at_least_one_config_msg": "Wybierz co najmniej jedną konfigurację.",
+        "enable_killswitch_tips": "Po włączeniu ruch przypisany do tego tunelu VPN zostanie zablokowany w przypadku nieoczekiwanego rozłączenia tunelu.",
+        "disable_killswitch_tips": "Po wyłączeniu ruch będzie obsługiwany zgodnie z polityką Wszystkiego Innego Ruchu."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
