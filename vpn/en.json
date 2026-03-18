@@ -499,7 +499,9 @@
         "select_at_least_one_config_msg": "Please select at least one configuration.",
         "selected_profile_title": "Selected Profile ({count})",
         "selected_profile_tooltip": "Profiles will failover in the order shown (top to bottom).",
-        "no_selected_config_label": "No Selected Configuration"
+        "no_selected_config_label": "No Selected Configuration",
+        "enable_killswitch_tips": "When enabled, traffic assigned to this VPN tunnel will be blocked if the tunnel disconnects unexpectedly.",
+        "disable_killswitch_tips": "When disabled, the traffic will be handled according to the All Other Traffic policy."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
