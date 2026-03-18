@@ -74,7 +74,15 @@
         "subnet_tip": "Beállíthat alhálózatot az IPv4 magáncím tartományokon belül: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "tip": "Kezelje a hálózati szegmentálást VLAN-okkal a forgalom elkülönítése és a biztonság fokozása érdekében.",
         "dhcpTip": "Engedélyezze a DHCP-t, hogy automatikusan IP-címeket rendeljen a hálózaton lévő eszközökhöz.",
-        "confirmDelete": "Biztosan törölni szeretné a fenntartott cím bejegyzést?"
+        "confirmDelete": "Biztosan törölni szeretné a fenntartott cím bejegyzést?",
+        "err_vlan_id_out_of_range": "A VLAN ID tartományon kívül esik.",
+        "err_vlan_id_in_use": "A VLAN ID már használatban van.",
+        "err_subnet_conflict": "Alhálózati cím ütközés.",
+        "err_subnet_bound_migrate_first": "Ez az alhálózat egy Ethernet-porthoz van kötve, nem törölhető. Először telepítse át a portokat.",
+        "err_subnet_limit_reached": "Elérte az egyéni alhálózatok maximális számát.",
+        "err_subnet_name_conflict_or_not_exist": "Megjelenítési név ütközés vagy az alhálózat nem létezik.",
+        "err_default_subnet_cannot_delete": "Az alapértelmezett alhálózat nem törölhető.",
+        "err_tap_s2s_mode_enabled": "A TAP-S2S mód engedélyezve van, a művelet nem érhető el."
     },
     "menu_vlan": "VLAN"
 }
