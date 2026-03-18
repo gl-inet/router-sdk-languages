@@ -74,7 +74,15 @@
         "guest_network_unavailable": "게스트 네트워크는 현재 사용할 수 없습니다. 이유: ",
         "dhcpTip": "이 네트워크의 장치에 IP 주소를 자동으로 할당하려면 DHCP를 활성화하세요.",
         "dhcpServer": "DHCP 서버",
-        "routerIpTip": "이 네트워크에서 라우터의 IP 주소입니다."
+        "routerIpTip": "이 네트워크에서 라우터의 IP 주소입니다.",
+        "err_vlan_id_out_of_range": "VLAN ID가 범위를 벗어났습니다.",
+        "err_vlan_id_in_use": "VLAN ID가 이미 사용 중입니다.",
+        "err_subnet_conflict": "서브넷 주소 충돌이 발생했습니다.",
+        "err_default_subnet_cannot_delete": "기본 서브넷은 삭제할 수 없습니다.",
+        "err_subnet_name_conflict_or_not_exist": "표시 이름 충돌 또는 서브넷이 존재하지 않습니다.",
+        "err_tap_s2s_mode_enabled": "TAP-S2S 모드가 활성화되어 있어 작업을 사용할 수 없습니다.",
+        "err_subnet_bound_migrate_first": "이 서브넷은 이더넷 포트에 바인딩되어 있어 삭제할 수 없습니다. 먼저 포트를 마이그레이션하세요.",
+        "err_subnet_limit_reached": "사용자 정의 서브넷의 최대 개수에 도달했습니다."
     },
     "menu_vlan": "VLAN"
 }
