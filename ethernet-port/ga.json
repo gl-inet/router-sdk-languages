@@ -42,6 +42,20 @@
         "link_up": "Nasc Suas",
         "link_down": "Nasc Síos",
         "no_module": "Gan Mhodúl",
-        "error": "Earráid"
+        "error": "Earráid",
+        "err_interface_in_lan_mode": "Tá an comhéadan i mód LAN agus ní féidir leo cumraíocht WAN a ghlacadh.",
+        "err_feature_not_supported": "Níl an ghné tacaíocht aige. Níl aon chalafort meaitseála ar an bhfeiste seo nó tá secondwan srianta.",
+        "err_port_invalid_or_unsupported": "Níl an calafort tacaíocht aige nó tá ainm neamhbhailí air.",
+        "err_mode_not_supported": "Níl an mód oibriúcháin tacaíocht aige.",
+        "err_vlan_param_invalid": "Theip paramadair VLAN a theip. Seiceáil an mód VLAN, an PVID nó na VLANanna ceadaithe.",
+        "err_wan_vlan_dualwan_conflict": "Tá coimhlint idir VLAN WAN agus cumraíocht dhúbailte WAN.",
+        "err_wan_port_limit_exceeded": "Tá an líon uasta de chalafoirt WAN bainte amach.",
+        "err_unplug_cable_before_switch_lan": "Dícheangail an cábla le do thoil sula n-aistríonn tú go LAN.",
+        "err_invalid_mac_mode": "Mód MAC neamhbhailí.",
+        "err_secondwan_already_exists": "Tá secondwan ann cheana féin. Ní féidir an calafort seo a chumrú mar secondwan.",
+        "err_tap_s2s_mode_enabled": "Tá mód TAP-S2S cumasaithe. Níl an ghné seo ar fáil.",
+        "err_invalid_param": "Paraiméadar neamhbhailí. Seiceáil an VLAN, an MTU nó an raon TTL le do thoil.",
+        "err_virtual_interface_missing": "Tá an comhéadan fíorúil comhfhreagrach in easnamh.",
+        "err_port_cannot_switch_to_wan": "Ní féidir an calafort seo a aistriú go WAN."
     }
 }
