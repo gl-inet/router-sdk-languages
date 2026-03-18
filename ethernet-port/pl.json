@@ -41,7 +41,21 @@
         "link_up": "Połączenie Nawiązane",
         "link_down": "Połączenie Zerwane",
         "error": "Błąd",
-        "no_module": "Brak Modułu"
+        "no_module": "Brak Modułu",
+        "err_interface_in_lan_mode": "Interfejs jest w trybie LAN i nie może przyjąć konfiguracji WAN.",
+        "err_virtual_interface_missing": "Brak odpowiadającego interfejsu wirtualnego.",
+        "err_port_invalid_or_unsupported": "Port nie jest obsługiwany lub ma nieprawidłową nazwę.",
+        "err_mode_not_supported": "Tryb pracy nie jest obsługiwany.",
+        "err_vlan_param_invalid": "Weryfikacja parametrów VLAN nie powiodła się. Sprawdź tryb VLAN, PVID lub dozwolone VLAN-y.",
+        "err_wan_vlan_dualwan_conflict": "VLAN WAN koliduje z konfiguracją podwójnego WAN.",
+        "err_wan_port_limit_exceeded": "Osiągnięto maksymalną liczbę portów WAN.",
+        "err_port_cannot_switch_to_wan": "Ten port nie może zostać przełączony na WAN.",
+        "err_invalid_mac_mode": "Nieprawidłowy tryb MAC.",
+        "err_secondwan_already_exists": "secondwan już istnieje. Ten port nie może być skonfigurowany jako secondwan.",
+        "err_tap_s2s_mode_enabled": "Włączono tryb TAP-S2S. Ta funkcja jest niedostępna.",
+        "err_invalid_param": "Nieprawidłowy parametr. Sprawdź zakres VLAN, MTU lub TTL.",
+        "err_feature_not_supported": "Funkcja nieobsługiwana. Brak pasującego portu na tym urządzeniu lub ograniczenie secondwan.",
+        "err_unplug_cable_before_switch_lan": "Odłącz kabel przed przełączeniem na LAN."
     },
     "menu_ethernet-port": "Port Ethernet"
 }
