@@ -242,7 +242,19 @@
         "new_version_tips": "Nouvelle version {version} disponible",
         "version_is_up_to_date_tips": "La version est à jour",
         "please_start_the_cloud_tips": "Veuillez démarrer le service cloud et vous connecter à GoodCloud.",
-        "need_login_cloud_tips": "Veuillez vous connecter au service cloud pour terminer le processus de liaison et continuer à utiliser la fonction DPI."
+        "need_login_cloud_tips": "Veuillez vous connecter au service cloud pour terminer le processus de liaison et continuer à utiliser la fonction DPI.",
+        "trial_dialog_step1_title": "Le DPI utilise les ressources locales pour analyser et classer les paquets.",
+        "engine_version_center_title": "Centre de version {name}",
+        "engine_desc_text": "Cette page n'affiche que les signaux de maintenance essentiels. Le traitement du trafic commence après l'activation de chaque fonctionnalité.",
+        "version_update_center_title": "Centre de mise à jour des versions",
+        "version_update_desc_text": "{name} est prêt. {name1}, {name2} et {name3} ne fonctionnent que lorsqu'ils sont activés sur leurs propres pages.",
+        "latest_available_label": "Dernière version disponible : ",
+        "upgrading_btn_text": "Mise à niveau en cours...",
+        "trial_dialog_title": "Activer le DPI",
+        "trial_dialog_success_title": "Activé avec succès !",
+        "trial_dialog_step2_title": "{network} sera désactivé pour garantir l'inspection des paquets.",
+        "trial_dialog_success_text": "Vous pouvez désormais profiter de toutes les fonctionnalités DPI localement.",
+        "core_services_ready_tag": "Services de base prêts"
     },
     "menu_dpifeatures": "Fonctionnalités DPI"
 }
