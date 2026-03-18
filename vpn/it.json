@@ -499,7 +499,9 @@
         "selected_profile_tooltip": "I profili eseguiranno il failover nell'ordine mostrato (dall'alto verso il basso).",
         "no_selected_config_label": "Nessuna Configurazione Selezionata",
         "init_desc": "Inizia aggiungendo il tuo primo tunnel VPN.",
-        "apply_all_changes_btn": "Applica Tutte le Modifiche"
+        "apply_all_changes_btn": "Applica Tutte le Modifiche",
+        "enable_killswitch_tips": "Quando abilitato, il traffico assegnato a questo tunnel VPN verrà bloccato se il tunnel si disconnette inaspettatamente.",
+        "disable_killswitch_tips": "当禁用时，流量将根据所有其他流量策略进行处理。"
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
