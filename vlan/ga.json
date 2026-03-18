@@ -74,7 +74,15 @@
         "selectNetmask": "Roghnaigh masc líonra",
         "ap_isolation_tip": "Is féidir leat gléasanna cliant do líonra a leithlisiú i limistéar líonra ar leith. Ní féidir leis na gléasanna seo cumarsáid a dhéanamh le gléasanna eile ar an líonra.",
         "dhcpTip": "Cumasaigh DHCP chun seoltaí IP a shannadh go huathoibríoch do ghléasanna ar an líonra seo.",
-        "advanced": "Casta"
+        "advanced": "Casta",
+        "err_vlan_id_out_of_range": "Tá aitheantas VLAN as raon.",
+        "err_subnet_conflict": "Coinbhleacht seoladh fobhrú.",
+        "err_subnet_bound_migrate_first": "Tá an fobhrú seo ceangailte le port Ethernet agus ní féidir é a scriosadh. Aistrigh na portanna ar dtús.",
+        "err_subnet_limit_reached": "Tá an uasmhéid fobhrú saincheaptha bainte amach.",
+        "err_subnet_name_conflict_or_not_exist": "Tá coinbhleacht ainm taispeána ann nó nach bhfuil an fobhrú ann.",
+        "err_tap_s2s_mode_enabled": "Tá mód TAP-S2S cumasaithe, níl an oibríocht ar fáil.",
+        "err_vlan_id_in_use": "Tá aitheantas VLAN in úsáid cheana féin.",
+        "err_default_subnet_cannot_delete": "Ní féidir an fobhrú réamhshocraithe a scriosadh."
     },
     "menu_vlan": "VLAN"
 }
