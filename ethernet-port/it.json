@@ -56,6 +56,7 @@
         "err_tap_s2s_mode_enabled": "La modalità TAP-S2S è abilitata. Questa funzionalità non è disponibile.",
         "err_port_invalid_or_unsupported": "Porta non supportata o nome non valido.",
         "err_vlan_param_invalid": "Validazione dei parametri VLAN non riuscita. Si prega di verificare la modalità VLAN, il PVID o le VLAN consentite.",
-        "err_wan_port_limit_exceeded": "È stato raggiunto il numero massimo di porte WAN."
+        "err_wan_port_limit_exceeded": "È stato raggiunto il numero massimo di porte WAN.",
+        "max_wan_reached": "Sono consentiti solo 2 porte WAN. Si prega di commutare prima un'altra porta in LAN."
     }
 }
