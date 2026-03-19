@@ -56,6 +56,7 @@
         "err_tap_s2s_mode_enabled": "TAP-S2S模式已啟用。此功能不可用。",
         "err_interface_in_lan_mode": "該介面處於LAN模式，無法接受WAN配置。",
         "err_virtual_interface_missing": "缺少對應的虛擬介面。",
-        "err_unplug_cable_before_switch_lan": "請在切換到LAN之前拔掉網線。"
+        "err_unplug_cable_before_switch_lan": "請在切換到LAN之前拔掉網線。",
+        "max_wan_reached": "只允許使用2個WAN端口。請先將另一個端口切換為LAN。"
     }
 }
