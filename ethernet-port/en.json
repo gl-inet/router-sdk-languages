@@ -55,7 +55,8 @@
         "err_unplug_cable_before_switch_lan": "Please unplug the cable before switching to LAN.",
         "err_invalid_mac_mode": "Invalid MAC mode.",
         "err_secondwan_already_exists": "secondwan already exists. This port cannot be configured as secondwan.",
-        "err_tap_s2s_mode_enabled": "TAP-S2S mode is enabled. This feature is not available."
+        "err_tap_s2s_mode_enabled": "TAP-S2S mode is enabled. This feature is not available.",
+        "max_wan_reached": "Only 2 WAN ports are allowed. Please switch another port to LAN first."
     },
     "menu_ethernet-port": "Ethernet Port"
 }
