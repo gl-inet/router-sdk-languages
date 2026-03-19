@@ -55,7 +55,8 @@
         "err_virtual_interface_missing": "Trūksta atitinkamos virtualiosios sąsajos.",
         "err_vlan_param_invalid": "„VLAN“ parametrų patikrinimas nepavyko. Patikrinkite „VLAN“ veikseną, „PVID“ arba leistinus „VLAN“.",
         "err_wan_vlan_dualwan_conflict": "„WAN VLAN“ prieštarauja dvigubo „WAN“ konfigūracijai.",
-        "err_wan_port_limit_exceeded": "Pasiektas maksimalus išorinių tinklų („WAN“) prievadų skaičius."
+        "err_wan_port_limit_exceeded": "Pasiektas maksimalus išorinių tinklų („WAN“) prievadų skaičius.",
+        "max_wan_reached": "Leidžiami tik 2 WAN prievadai. Pirmiausia perjunkite kitą prievadą į vietinį tinklą (LAN)."
     },
     "menu_ethernet-port": "Eterneto prievadas"
 }
