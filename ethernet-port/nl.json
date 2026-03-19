@@ -55,7 +55,8 @@
         "err_port_cannot_switch_to_wan": "Deze poort kan niet worden overgeschakeld naar WAN.",
         "err_unplug_cable_before_switch_lan": "Trek de kabel los voordat u overschakelt naar LAN.",
         "err_secondwan_already_exists": "secondwan bestaat al. Deze poort kan niet worden geconfigureerd als secondwan.",
-        "err_tap_s2s_mode_enabled": "TAP-S2S-modus is ingeschakeld. Deze functie is niet beschikbaar."
+        "err_tap_s2s_mode_enabled": "TAP-S2S-modus is ingeschakeld. Deze functie is niet beschikbaar.",
+        "max_wan_reached": "Er zijn slechts 2 WAN-poorten toegestaan. Schakel eerst een andere poort over naar LAN."
     },
     "menu_ethernet-port": "Ethernetpoort"
 }
