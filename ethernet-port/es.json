@@ -56,6 +56,7 @@
         "err_wan_vlan_dualwan_conflict": "La VLAN WAN entra en conflicto con la configuración de doble WAN.",
         "err_port_cannot_switch_to_wan": "Este puerto no puede cambiarse a WAN.",
         "err_unplug_cable_before_switch_lan": "Por favor, desconecte el cable antes de cambiar a LAN.",
-        "err_invalid_mac_mode": "Modo MAC no válido."
+        "err_invalid_mac_mode": "Modo MAC no válido.",
+        "max_wan_reached": "Solo se permiten 2 puertos WAN. Por favor, cambie primero otro puerto a LAN."
     }
 }
