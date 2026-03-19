@@ -55,7 +55,8 @@
         "err_wan_port_limit_exceeded": "Maksimum WAN portu sayısına ulaşıldı.",
         "err_port_cannot_switch_to_wan": "Bu port WAN'a geçirilemez.",
         "err_unplug_cable_before_switch_lan": "Lütfen LAN'a geçmeden önce kabloyu çıkarın.",
-        "err_secondwan_already_exists": "secondwan zaten mevcut. Bu port secondwan olarak yapılandırılamaz."
+        "err_secondwan_already_exists": "secondwan zaten mevcut. Bu port secondwan olarak yapılandırılamaz.",
+        "max_wan_reached": "Yalnızca 2 WAN bağlantı noktasına izin verilir. Lütfen önce başka bir bağlantı noktasını LAN'a geçirin."
     },
     "menu_ethernet-port": "Ethernet Bağlantı Noktası"
 }
