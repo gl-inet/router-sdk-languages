@@ -82,7 +82,9 @@
         "err_subnet_name_conflict_or_not_exist": "표시 이름 충돌 또는 서브넷이 존재하지 않습니다.",
         "err_tap_s2s_mode_enabled": "TAP-S2S 모드가 활성화되어 있어 작업을 사용할 수 없습니다.",
         "err_subnet_bound_migrate_first": "이 서브넷은 이더넷 포트에 바인딩되어 있어 삭제할 수 없습니다. 먼저 포트를 마이그레이션하세요.",
-        "err_subnet_limit_reached": "사용자 정의 서브넷의 최대 개수에 도달했습니다."
+        "err_subnet_limit_reached": "사용자 정의 서브넷의 최대 개수에 도달했습니다.",
+        "end_smaller_tips": "종료 주소는 시작 주소보다 커야 합니다.",
+        "err_display_name_conflict": "표시 이름 충돌."
     },
     "menu_vlan": "VLAN"
 }
