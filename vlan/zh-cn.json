@@ -82,7 +82,9 @@
         "err_default_subnet_cannot_delete": "默认子网无法删除。",
         "err_subnet_limit_reached": "已达到自定义子网的最大数量。",
         "err_subnet_name_conflict_or_not_exist": "显示名称冲突或子网不存在。",
-        "err_tap_s2s_mode_enabled": "TAP-S2S 模式已启用，操作不可用。"
+        "err_tap_s2s_mode_enabled": "TAP-S2S 模式已启用，操作不可用。",
+        "err_display_name_conflict": "显示名称冲突。",
+        "end_smaller_tips": "结束地址应大于起始地址。"
     },
     "menu_vlan": "VLAN"
 }
