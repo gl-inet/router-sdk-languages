@@ -82,7 +82,9 @@
         "err_subnet_limit_reached": "Досягнуто максимальну кількість користувацьких підмереж.",
         "err_default_subnet_cannot_delete": "Типову підмережу не можна видалити.",
         "err_subnet_name_conflict_or_not_exist": "Конфлікт відображуваних імен або підмережа не існує.",
-        "err_tap_s2s_mode_enabled": "Увімкнено режим TAP-S2S, операція недоступна."
+        "err_tap_s2s_mode_enabled": "Увімкнено режим TAP-S2S, операція недоступна.",
+        "err_display_name_conflict": "Конфлікт відображення імені.",
+        "end_smaller_tips": "Кінцева адреса повинна бути більшою за початкову адресу."
     },
     "menu_vlan": "VLAN"
 }
