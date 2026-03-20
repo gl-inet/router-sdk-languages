@@ -82,7 +82,9 @@
         "err_default_subnet_cannot_delete": "Default subnet cannot be deleted.",
         "err_subnet_limit_reached": "The maximum number of custom subnets has been reached.",
         "err_subnet_name_conflict_or_not_exist": "Display name conflict or subnet does not exist.",
-        "err_tap_s2s_mode_enabled": "TAP-S2S mode is enabled, operation is not available."
+        "err_tap_s2s_mode_enabled": "TAP-S2S mode is enabled, operation is not available.",
+        "err_display_name_conflict": "Display name conflict.",
+        "end_smaller_tips": "The end address should be greater than the start address."
     },
     "menu_vlan": "VLAN"
 }
