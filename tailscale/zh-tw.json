@@ -31,7 +31,7 @@
         "advertise_lan_subnets_label": "通告 LAN 子網",
         "advertise_lan_subnets_tips": "開啟該選項後，將把 LAN 網段路由發佈到 Tailscale tailnet 中，但需前往 Tailscale 管理控制台進行準予後才能生效。",
         "enabled_run_exit_node_tips1": "您確定要運行出口節點嗎？",
-        "enabled_run_exit_node_tips2": "運行退出節點意味著您 tailnet 中的其他設備可以透過此路由器的IP地址發送所有流量。",
+        "enabled_run_exit_node_tips2": "運行出口節點意味著您 tailnet 中的其他設備可以透過此路由器的IP地址發送所有流量。",
         "enable_function": "啟用 {function}",
         "dns_serve_warning_tips": "使用出口節點後，如果您使用內部IP地址作為DNS（{address}），您可能無法訪問DNS伺服器。",
         "mullvad_exit_node_tips": "使用 Mullvad 作為 Exit Node 上網，如需讓 LAN 側設備通過 Tailscale 上網，請啟用 {ipMasquerade}。",
