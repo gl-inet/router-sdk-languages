@@ -82,7 +82,9 @@
         "err_tap_s2s_mode_enabled": "TAP-S2S modu etkin, işlem kullanılamıyor.",
         "err_vlan_id_out_of_range": "VLAN Kimliği aralık dışında.",
         "err_subnet_bound_migrate_first": "Bu alt ağ bir Ethernet bağlantı noktasına bağlı olduğundan silinemez. Önce bağlantı noktalarını taşıyın.",
-        "err_subnet_limit_reached": "Özel alt ağların maksimum sayısına ulaşıldı."
+        "err_subnet_limit_reached": "Özel alt ağların maksimum sayısına ulaşıldı.",
+        "err_display_name_conflict": "Görünen ad çakışması.",
+        "end_smaller_tips": "Bitiş adresi başlangıç adresinden büyük olmalıdır."
     },
     "menu_vlan": "VLAN"
 }
