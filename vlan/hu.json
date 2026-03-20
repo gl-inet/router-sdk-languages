@@ -82,7 +82,9 @@
         "err_subnet_limit_reached": "Elérte az egyéni alhálózatok maximális számát.",
         "err_subnet_name_conflict_or_not_exist": "Megjelenítési név ütközés vagy az alhálózat nem létezik.",
         "err_default_subnet_cannot_delete": "Az alapértelmezett alhálózat nem törölhető.",
-        "err_tap_s2s_mode_enabled": "A TAP-S2S mód engedélyezve van, a művelet nem érhető el."
+        "err_tap_s2s_mode_enabled": "A TAP-S2S mód engedélyezve van, a művelet nem érhető el.",
+        "err_display_name_conflict": "Megjelenítési név ütközés.",
+        "end_smaller_tips": "A végcímnek nagyobbnak kell lennie, mint a kezdőcím."
     },
     "menu_vlan": "VLAN"
 }
