@@ -82,7 +82,9 @@
         "err_subnet_name_conflict_or_not_exist": "Conflitto del nome visualizzato o subnet inesistente.",
         "err_tap_s2s_mode_enabled": "La modalità TAP-S2S è abilitata, l'operazione non è disponibile.",
         "err_subnet_conflict": "Conflitto di indirizzi di subnet.",
-        "err_subnet_bound_migrate_first": "Questa subnet è associata a una porta Ethernet e non può essere eliminata. Migra prima le porte."
+        "err_subnet_bound_migrate_first": "Questa subnet è associata a una porta Ethernet e non può essere eliminata. Migra prima le porte.",
+        "err_display_name_conflict": "Conflitto del nome visualizzato.",
+        "end_smaller_tips": "L'indirizzo finale deve essere maggiore dell'indirizzo iniziale."
     },
     "menu_vlan": "VLAN"
 }
