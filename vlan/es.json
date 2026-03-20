@@ -82,7 +82,9 @@
         "err_default_subnet_cannot_delete": "La subred predeterminada no se puede eliminar.",
         "err_subnet_limit_reached": "Se ha alcanzado el número máximo de subredes personalizadas.",
         "err_subnet_name_conflict_or_not_exist": "Conflicto de nombre para mostrar o la subred no existe.",
-        "err_tap_s2s_mode_enabled": "El modo TAP-S2S está habilitado, la operación no está disponible."
+        "err_tap_s2s_mode_enabled": "El modo TAP-S2S está habilitado, la operación no está disponible.",
+        "err_display_name_conflict": "Conflicto de nombre de visualización.",
+        "end_smaller_tips": "La dirección final debe ser mayor que la dirección inicial."
     },
     "menu_vlan": "VLAN"
 }
