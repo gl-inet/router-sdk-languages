@@ -82,7 +82,9 @@
         "err_subnet_limit_reached": "カスタムサブネットの最大数に達しました。",
         "err_subnet_name_conflict_or_not_exist": "表示名が重複しているか、サブネットが存在しません。",
         "err_subnet_bound_migrate_first": "このサブネットはイーサネットポートにバインドされているため、削除できません。まずポートを移行してください。",
-        "err_tap_s2s_mode_enabled": "TAP-S2Sモードが有効になっているため、操作は利用できません。"
+        "err_tap_s2s_mode_enabled": "TAP-S2Sモードが有効になっているため、操作は利用できません。",
+        "err_display_name_conflict": "表示名が重複しています。",
+        "end_smaller_tips": "終了アドレスは開始アドレスより大きくなければなりません。"
     },
     "menu_vlan": "VLAN"
 }
