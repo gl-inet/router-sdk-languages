@@ -82,7 +82,9 @@
         "err_tap_s2s_mode_enabled": "Le mode TAP-S2S est activé, l'opération n'est pas disponible.",
         "err_vlan_id_out_of_range": "L'identifiant VLAN est hors plage.",
         "err_subnet_bound_migrate_first": "Ce sous-réseau est lié à un port Ethernet et ne peut pas être supprimé. Migrez d'abord les ports.",
-        "err_subnet_limit_reached": "Le nombre maximum de sous-réseaux personnalisés a été atteint."
+        "err_subnet_limit_reached": "Le nombre maximum de sous-réseaux personnalisés a été atteint.",
+        "err_display_name_conflict": "Conflit de nom d'affichage.",
+        "end_smaller_tips": "L'adresse de fin doit être supérieure à l'adresse de début."
     },
     "menu_vlan": "VLAN"
 }
