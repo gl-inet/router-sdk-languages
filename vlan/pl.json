@@ -82,7 +82,9 @@
         "err_subnet_limit_reached": "Osiągnięto maksymalną liczbę niestandardowych podsieci.",
         "err_subnet_name_conflict_or_not_exist": "Konflikt nazwy wyświetlanej lub podsieć nie istnieje.",
         "err_tap_s2s_mode_enabled": "Tryb TAP-S2S jest włączony, operacja jest niedostępna.",
-        "err_subnet_bound_migrate_first": "Ta podsieć jest przypisana do portu Ethernet i nie może zostać usunięta. Najpierw przenieś porty."
+        "err_subnet_bound_migrate_first": "Ta podsieć jest przypisana do portu Ethernet i nie może zostać usunięta. Najpierw przenieś porty.",
+        "err_display_name_conflict": "Konflikt nazw wyświetlanych.",
+        "end_smaller_tips": "Adres końcowy powinien być większy niż adres początkowy."
     },
     "menu_vlan": "VLAN"
 }
