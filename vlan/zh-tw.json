@@ -82,7 +82,9 @@
         "err_subnet_limit_reached": "已達到自訂子網的最大數量。",
         "err_subnet_name_conflict_or_not_exist": "顯示名稱衝突或子網不存在。",
         "err_tap_s2s_mode_enabled": "TAP-S2S 模式已啟用，操作不可用。",
-        "err_subnet_bound_migrate_first": "此子網已綁定至乙太網路埠，無法刪除。請先遷移埠。"
+        "err_subnet_bound_migrate_first": "此子網已綁定至乙太網路埠，無法刪除。請先遷移埠。",
+        "err_display_name_conflict": "顯示名稱衝突。",
+        "end_smaller_tips": "結束地址應大於起始地址。"
     },
     "menu_vlan": "VLAN"
 }
