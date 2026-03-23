@@ -27,7 +27,8 @@
         "using_tips": "{silkprint} ステータス：{port}として使用中。{changePort}",
         "use_as_port_btn": "{silkprint}を{port}に変更する",
         "revert_as_lan_tips": "LANポート（デフォルト）に{silkprint}を復元してもよろしいですか？",
-        "vlan_id_conflict_tips": "イーサネット1のVLAN IDとイーサネット2のVLAN IDが競合しています。"
+        "vlan_id_conflict_tips": "イーサネット1のVLAN IDとイーサネット2のVLAN IDが競合しています。",
+        "vlan_lan_subnet_conflict_tips": "WANポートで設定されたVLANがサブネットと競合しています。"
     },
     "tethering": {
         "title": "テザリング",
