@@ -27,7 +27,8 @@
         "use_as_port_btn": "{silkprint} öğesini {port} olarak değiştir",
         "revert_wan_tips": "WAN portunu geri yükledikten sonra",
         "use_as_wan_silkprint_tips": "{silkprint} WAN portu olarak kullanıldığında",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID'si Ethernet2 VLAN ID'si ile çakışıyor."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID'si Ethernet2 VLAN ID'si ile çakışıyor.",
+        "vlan_lan_subnet_conflict_tips": "WAN bağlantı noktasında yapılandırılan VLAN, alt ağ ile çakışıyor."
     },
     "modem": {
         "pin": "Pincode",
