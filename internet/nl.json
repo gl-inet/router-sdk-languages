@@ -27,7 +27,8 @@
         "revert_as_lan_tips": "Weet u zeker dat u de {silkprint} wilt herstellen naar LAN-poort (standaard)?",
         "revert_port_btn": "Terug zetten naar {port}",
         "revert_wan_tips": "Nadat u de WAN-poort hebt terug gezet",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID komt in conflict met Ethernet2 VLAN ID."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID komt in conflict met Ethernet2 VLAN ID.",
+        "vlan_lan_subnet_conflict_tips": "De op de WAN-poort geconfigureerde VLAN conflicteert met het subnet."
     },
     "tethering": {
         "title": "Tetheren",
