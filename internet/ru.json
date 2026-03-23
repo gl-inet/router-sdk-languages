@@ -27,7 +27,8 @@
         "revert_as_lan_tips": "Вы уверены, что хотите восстановить {silkprint} как LAN-порт (по умолчанию)?",
         "use_as_wan_silkprint_tips": "Как только {silkprint} используется как WAN-порт",
         "using_tips": "Статус {silkprint}: Используется как {port}. {changePort}",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID совпадает с VLAN ID Ethernet2."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID совпадает с VLAN ID Ethernet2.",
+        "vlan_lan_subnet_conflict_tips": "Настроенная на WAN-порту VLAN конфликтует с подсетью."
     },
     "tethering": {
         "title": "Тетеринг",
