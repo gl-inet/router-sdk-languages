@@ -116,7 +116,8 @@
         "use_as_port_btn": "Змінити {silkprint} на {port}",
         "revert_wan_tips": "Після відновлення WAN-порту",
         "use_as_wan_silkprint_tips": "Якщо {silkprint} використовується як WAN-порт",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID збігається з Ethernet2 VLAN ID."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID збігається з Ethernet2 VLAN ID.",
+        "vlan_lan_subnet_conflict_tips": "Налаштована на порті WAN VLAN конфліктує з підмережею."
     },
     "modem": {
         "title": "Мобільний зв'язок",
