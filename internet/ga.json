@@ -168,7 +168,8 @@
         "change_to_lan_check_tips": "Ar dtús, díphlugáil an cábla Ethernet atá breiseáilte isteach sa phort WAN. $$$$ ath-bhrath $$$$",
         "use_as_wan_silkprint_tips": "Nuair a úsáidtear an {silkprint} mar phort WAN",
         "revert_wan_tips": "Tar éis duit an port WAN a athbhunú",
-        "vlan_id_conflict_tips": "Tá coimhlint idir ID VLAN Ethernet1 agus ID VLAN Ethernet2."
+        "vlan_id_conflict_tips": "Tá coimhlint idir ID VLAN Ethernet1 agus ID VLAN Ethernet2.",
+        "vlan_lan_subnet_conflict_tips": "Tá an VLAN cumraithe ar an gcalafán WAN i gcoimhlint leis an bhfo-líonra."
     },
     "repeater": {
         "identity": "Ainm úsáideora",
