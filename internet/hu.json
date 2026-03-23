@@ -181,7 +181,8 @@
         "use_as_port_btn": "A {silkprint} átváltása {port}-ra",
         "revert_wan_tips": "Miután visszaállította a WAN portot",
         "use_as_wan_silkprint_tips": "Amint a {silkprint} WAN portként van használva",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID ütközik az Ethernet2 VLAN ID-jével."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID ütközik az Ethernet2 VLAN ID-jével.",
+        "vlan_lan_subnet_conflict_tips": "A WAN porton konfigurált VLAN ütközik az alhálózattal."
     },
     "sms": {
         "confirm_del": "Törlés megerősítése",
