@@ -27,7 +27,8 @@
         "use_as_port_btn": "Change the {silkprint} to {port}",
         "revert_wan_tips": "After you restore the WAN port",
         "use_as_wan_silkprint_tips": "Once the {silkprint} is used as a WAN port",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID conflicts with Ethernet2 VLAN ID."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID conflicts with Ethernet2 VLAN ID.",
+        "vlan_lan_subnet_conflict_tips": "The VLAN configured on the WAN port conflicts with the subnet."
     },
     "tethering": {
         "title": "Tethering",
