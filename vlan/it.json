@@ -84,7 +84,10 @@
         "err_subnet_conflict": "Conflitto di indirizzi di subnet.",
         "err_subnet_bound_migrate_first": "Questa subnet è associata a una porta Ethernet e non può essere eliminata. Migra prima le porte.",
         "err_display_name_conflict": "Conflitto del nome visualizzato.",
-        "end_smaller_tips": "L'indirizzo finale deve essere maggiore dell'indirizzo iniziale."
+        "end_smaller_tips": "L'indirizzo finale deve essere maggiore dell'indirizzo iniziale.",
+        "err_dhcp_prefix_match_gateway": "L'IP iniziale e finale devono essere nello stesso segmento di rete del gateway.",
+        "err_dhcp_range_excludes_gateway": "Il pool DHCP non deve includere l'indirizzo del gateway.",
+        "err_dhcp_outside_subnet": "Questo IP è al di fuori della subnet definita dalla netmask corrente."
     },
     "menu_vlan": "VLAN"
 }
