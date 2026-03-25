@@ -502,7 +502,8 @@
         "init_tip_privacy": "保护您的隐私",
         "enable_killswitch_tips": "启用后，如果VPN隧道意外断开，分配给该VPN隧道的流量将被阻止。",
         "disable_killswitch_tips": "禁用后，流量将按照“所有其他流量”策略进行处理。",
-        "not_use_killswitch_tips": "流量关闭时遵循所有其他流量策略。"
+        "not_use_killswitch_tips": "流量关闭时遵循所有其他流量策略。",
+        "default_tunnel_kill_switch_enabled_tips": "{label}：启用后，仅允许VPN流量访问互联网。所有非VPN流量以及策略组内失败的流量都将被阻止。此全局设置将覆盖并禁用每个策略组的独立Kill Switch。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
