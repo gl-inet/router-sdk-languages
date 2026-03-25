@@ -275,6 +275,7 @@
         "min_max_length_tips": "{min} - {max} characters.",
         "ipv6_limit_start_end_tips": "It must start with {start} and end with a correct IPv6 address of {end}.",
         "min_max_byte_tips": "{min} - {max} bytes.",
-        "not_allow_use_tips": "the character {char} is not allowed | the characters {char} are not allowed"
+        "not_allow_use_tips": "the character {char} is not allowed | the characters {char} are not allowed",
+        "begin_not_allow_tips": "Cannot start with character {char} | Cannot start with any of the characters {char}"
     }
 }
