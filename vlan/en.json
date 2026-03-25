@@ -84,7 +84,10 @@
         "err_subnet_name_conflict_or_not_exist": "Display name conflict or subnet does not exist.",
         "err_tap_s2s_mode_enabled": "TAP-S2S mode is enabled, operation is not available.",
         "err_display_name_conflict": "Display name conflict.",
-        "end_smaller_tips": "The end address should be greater than the start address."
+        "end_smaller_tips": "The end address should be greater than the start address.",
+        "err_dhcp_prefix_match_gateway": "The start and end IP must be on the same network segment as the gateway.",
+        "err_dhcp_range_excludes_gateway": "The DHCP pool must not include the gateway address.",
+        "err_dhcp_outside_subnet": "This IP is outside the subnet defined by the current netmask."
     },
     "menu_vlan": "VLAN"
 }
