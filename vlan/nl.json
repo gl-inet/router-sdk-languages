@@ -84,7 +84,10 @@
         "err_subnet_name_conflict_or_not_exist": "Weergavenaam conflict of subnet bestaat niet.",
         "err_tap_s2s_mode_enabled": "TAP-S2S-modus is ingeschakeld, bewerking is niet beschikbaar.",
         "err_display_name_conflict": "Weergavenaam conflict.",
-        "end_smaller_tips": "Het eindadres moet groter zijn dan het startadres."
+        "end_smaller_tips": "Het eindadres moet groter zijn dan het startadres.",
+        "err_dhcp_prefix_match_gateway": "Het start- en eind-IP moeten zich op hetzelfde netwerksegment bevinden als de gateway.",
+        "err_dhcp_outside_subnet": "Dit IP-adres bevindt zich buiten het subnet dat is gedefinieerd door het huidige netmasker.",
+        "err_dhcp_range_excludes_gateway": "Het DHCP-pool mag het gatewayadres niet bevatten."
     },
     "menu_vlan": "VLAN"
 }
