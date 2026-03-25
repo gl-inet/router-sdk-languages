@@ -84,7 +84,10 @@
         "err_subnet_bound_migrate_first": "このサブネットはイーサネットポートにバインドされているため、削除できません。まずポートを移行してください。",
         "err_tap_s2s_mode_enabled": "TAP-S2Sモードが有効になっているため、操作は利用できません。",
         "err_display_name_conflict": "表示名が重複しています。",
-        "end_smaller_tips": "終了アドレスは開始アドレスより大きくなければなりません。"
+        "end_smaller_tips": "終了アドレスは開始アドレスより大きくなければなりません。",
+        "err_dhcp_prefix_match_gateway": "開始IPと終了IPはゲートウェイと同じネットワークセグメント上にある必要があります。",
+        "err_dhcp_outside_subnet": "このIPは現在のネットマスクで定義されたサブネットの範囲外です。",
+        "err_dhcp_range_excludes_gateway": "DHCPプールにはゲートウェイアドレスを含めてはいけません。"
     },
     "menu_vlan": "VLAN"
 }
