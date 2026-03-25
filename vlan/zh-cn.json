@@ -84,7 +84,10 @@
         "err_subnet_name_conflict_or_not_exist": "显示名称冲突或子网不存在。",
         "err_tap_s2s_mode_enabled": "TAP-S2S 模式已启用，操作不可用。",
         "err_display_name_conflict": "显示名称冲突。",
-        "end_smaller_tips": "结束地址应大于起始地址。"
+        "end_smaller_tips": "结束地址应大于起始地址。",
+        "err_dhcp_outside_subnet": "此IP地址超出了当前子网掩码定义的子网范围。",
+        "err_dhcp_prefix_match_gateway": "起始IP和结束IP必须与网关处于同一网段。",
+        "err_dhcp_range_excludes_gateway": "DHCP地址池不能包含网关地址。"
     },
     "menu_vlan": "VLAN"
 }
