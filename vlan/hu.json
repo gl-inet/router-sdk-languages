@@ -84,7 +84,10 @@
         "err_default_subnet_cannot_delete": "Az alapértelmezett alhálózat nem törölhető.",
         "err_tap_s2s_mode_enabled": "A TAP-S2S mód engedélyezve van, a művelet nem érhető el.",
         "err_display_name_conflict": "Megjelenítési név ütközés.",
-        "end_smaller_tips": "A végcímnek nagyobbnak kell lennie, mint a kezdőcím."
+        "end_smaller_tips": "A végcímnek nagyobbnak kell lennie, mint a kezdőcím.",
+        "err_dhcp_prefix_match_gateway": "A kezdő és a záró IP-címnek ugyanazon a hálózati szegmensen kell lennie, mint az átjárónak.",
+        "err_dhcp_outside_subnet": "Ez az IP-cím a jelenlegi hálózati maszk által meghatározott alhálózaton kívül esik.",
+        "err_dhcp_range_excludes_gateway": "A DHCP-készlet nem tartalmazhatja az átjáró címét."
     },
     "menu_vlan": "VLAN"
 }
