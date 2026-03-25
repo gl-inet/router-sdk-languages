@@ -84,7 +84,10 @@
         "err_tap_s2s_mode_enabled": "Tryb TAP-S2S jest włączony, operacja jest niedostępna.",
         "err_subnet_bound_migrate_first": "Ta podsieć jest przypisana do portu Ethernet i nie może zostać usunięta. Najpierw przenieś porty.",
         "err_display_name_conflict": "Konflikt nazw wyświetlanych.",
-        "end_smaller_tips": "Adres końcowy powinien być większy niż adres początkowy."
+        "end_smaller_tips": "Adres końcowy powinien być większy niż adres początkowy.",
+        "err_dhcp_prefix_match_gateway": "Adresy IP początkowy i końcowy muszą znajdować się w tej samej sieci co brama.",
+        "err_dhcp_range_excludes_gateway": "Pula DHCP nie może zawierać adresu bramy.",
+        "err_dhcp_outside_subnet": "Ten adres IP znajduje się poza podsiecią zdefiniowaną przez aktualną maskę sieci."
     },
     "menu_vlan": "VLAN"
 }
