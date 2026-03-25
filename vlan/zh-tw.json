@@ -84,7 +84,10 @@
         "err_tap_s2s_mode_enabled": "TAP-S2S 模式已啟用，操作不可用。",
         "err_subnet_bound_migrate_first": "此子網已綁定至乙太網路埠，無法刪除。請先遷移埠。",
         "err_display_name_conflict": "顯示名稱衝突。",
-        "end_smaller_tips": "結束地址應大於起始地址。"
+        "end_smaller_tips": "結束地址應大於起始地址。",
+        "err_dhcp_prefix_match_gateway": "起始與結束 IP 必須與閘道位於同一網段。",
+        "err_dhcp_range_excludes_gateway": "DHCP 池不得包含閘道位址。",
+        "err_dhcp_outside_subnet": "此 IP 位址超出目前網路遮罩所定義的子網路範圍。"
     },
     "menu_vlan": "VLAN"
 }
