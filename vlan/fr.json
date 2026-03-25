@@ -84,7 +84,10 @@
         "err_subnet_bound_migrate_first": "Ce sous-réseau est lié à un port Ethernet et ne peut pas être supprimé. Migrez d'abord les ports.",
         "err_subnet_limit_reached": "Le nombre maximum de sous-réseaux personnalisés a été atteint.",
         "err_display_name_conflict": "Conflit de nom d'affichage.",
-        "end_smaller_tips": "L'adresse de fin doit être supérieure à l'adresse de début."
+        "end_smaller_tips": "L'adresse de fin doit être supérieure à l'adresse de début.",
+        "err_dhcp_prefix_match_gateway": "Les adresses IP de début et de fin doivent être sur le même segment de réseau que la passerelle.",
+        "err_dhcp_outside_subnet": "Cette adresse IP est en dehors du sous-réseau défini par le masque de réseau actuel.",
+        "err_dhcp_range_excludes_gateway": "Le pool DHCP ne doit pas inclure l'adresse de la passerelle."
     },
     "menu_vlan": "VLAN"
 }
