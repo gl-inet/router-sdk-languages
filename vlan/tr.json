@@ -84,7 +84,10 @@
         "err_subnet_bound_migrate_first": "Bu alt ağ bir Ethernet bağlantı noktasına bağlı olduğundan silinemez. Önce bağlantı noktalarını taşıyın.",
         "err_subnet_limit_reached": "Özel alt ağların maksimum sayısına ulaşıldı.",
         "err_display_name_conflict": "Görünen ad çakışması.",
-        "end_smaller_tips": "Bitiş adresi başlangıç adresinden büyük olmalıdır."
+        "end_smaller_tips": "Bitiş adresi başlangıç adresinden büyük olmalıdır.",
+        "err_dhcp_prefix_match_gateway": "Başlangıç ve bitiş IP adresleri, ağ geçidi ile aynı ağ segmentinde olmalıdır.",
+        "err_dhcp_range_excludes_gateway": "DHCP havuzu ağ geçidi adresini içermemelidir.",
+        "err_dhcp_outside_subnet": "Bu IP adresi, mevcut ağ maskesi tarafından tanımlanan alt ağın dışındadır."
     },
     "menu_vlan": "VLAN"
 }
