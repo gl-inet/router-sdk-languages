@@ -84,7 +84,10 @@
         "err_tap_s2s_mode_enabled": "TAP-S2S-Modus ist aktiviert, Vorgang nicht verfügbar.",
         "err_vlan_id_in_use": "VLAN-ID wird bereits verwendet.",
         "err_display_name_conflict": "Anzeigename-Konflikt.",
-        "end_smaller_tips": "Die Endadresse sollte größer als die Startadresse sein."
+        "end_smaller_tips": "Die Endadresse sollte größer als die Startadresse sein.",
+        "err_dhcp_prefix_match_gateway": "Die Start- und End-IP müssen sich im selben Netzwerksegment wie das Gateway befinden.",
+        "err_dhcp_range_excludes_gateway": "Der DHCP-Pool darf die Gateway-Adresse nicht enthalten.",
+        "err_dhcp_outside_subnet": "Diese IP-Adresse liegt außerhalb des durch die aktuelle Netzmaske definierten Subnetzes."
     },
     "menu_vlan": "VLAN"
 }
