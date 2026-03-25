@@ -502,7 +502,8 @@
         "selected_profile_tooltip": "A profilok a megjelenített sorrendben (felülről lefelé) váltanak át hibaelhárítás céljából.",
         "enable_killswitch_tips": "Ha engedélyezve van, az ehhez a VPN-alagúthoz rendelt forgalom le lesz tiltva, ha az alagút váratlanul megszakad.",
         "disable_killswitch_tips": "Letiltás esetén a forgalom az \"Összes egyéb forgalom\" szabályzat szerint lesz kezelve.",
-        "not_use_killswitch_tips": "Kikapcsolt állapotban a forgalom az \"Összes egyéb forgalom\" szabályzatot követi."
+        "not_use_killswitch_tips": "Kikapcsolt állapotban a forgalom az \"Összes egyéb forgalom\" szabályzatot követi.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Ha engedélyezve van, csak a VPN forgalom kap hozzáférést az internethez. Minden nem VPN forgalom és a szabályzatcsoportokon belüli sikertelen forgalom blokkolva lesz. Ez a globális beállítás felülírja és letiltja az egyes szabályzatcsoportok Kill Switch funkcióját."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
