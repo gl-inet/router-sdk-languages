@@ -84,7 +84,10 @@
         "err_vlan_id_in_use": "Tá aitheantas VLAN in úsáid cheana féin.",
         "err_default_subnet_cannot_delete": "Ní féidir an fobhrú réamhshocraithe a scriosadh.",
         "err_display_name_conflict": "Tá coinbhleacht i dtaispeáint ainm.",
-        "end_smaller_tips": "Ba cheart go mbeadh an seoladh deiridh níos mó ná an seoladh tosaigh."
+        "end_smaller_tips": "Ba cheart go mbeadh an seoladh deiridh níos mó ná an seoladh tosaigh.",
+        "err_dhcp_prefix_match_gateway": "Ní mór don seoladh IP tosaigh agus don cheann deiridh a bheith ar an rannán líonra céanna leis an ngeata.",
+        "err_dhcp_range_excludes_gateway": "Ní mór an seoladh geata a sheachaint i líonra DHCP.",
+        "err_dhcp_outside_subnet": "Tá an seoladh IP seo lasmuigh den fholíon a shainmhínítear ag an masc líonra reatha."
     },
     "menu_vlan": "VLAN"
 }
