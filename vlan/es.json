@@ -84,7 +84,10 @@
         "err_subnet_name_conflict_or_not_exist": "Conflicto de nombre para mostrar o la subred no existe.",
         "err_tap_s2s_mode_enabled": "El modo TAP-S2S está habilitado, la operación no está disponible.",
         "err_display_name_conflict": "Conflicto de nombre de visualización.",
-        "end_smaller_tips": "La dirección final debe ser mayor que la dirección inicial."
+        "end_smaller_tips": "La dirección final debe ser mayor que la dirección inicial.",
+        "err_dhcp_prefix_match_gateway": "Las direcciones IP de inicio y fin deben estar en el mismo segmento de red que la puerta de enlace.",
+        "err_dhcp_range_excludes_gateway": "El grupo DHCP no debe incluir la dirección de la puerta de enlace.",
+        "err_dhcp_outside_subnet": "Esta IP está fuera de la subred definida por la máscara de red actual."
     },
     "menu_vlan": "VLAN"
 }
