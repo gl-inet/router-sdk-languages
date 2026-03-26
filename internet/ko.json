@@ -276,7 +276,8 @@
         "name_length_limit_tips": "이름 길이가 제한을 초과합니다",
         "name_already_taken_tips": "이름 {name}이(가) 이미 사용 중입니다",
         "name_empty_tips": "이름은 비워둘 수 없습니다.",
-        "auto_switch_tips": "이 기능은 Multi-WAN 인터페이스 상태 추적의 비저데이터 감지 모드가 필요합니다. 활성화하면 시스템이 자동으로 해당 감지 모드로 전환되며 추가 트래픽 사용량이 발생할 수 있습니다."
+        "auto_switch_tips": "이 기능은 Multi-WAN 인터페이스 상태 추적의 비저데이터 감지 모드가 필요합니다. 활성화하면 시스템이 자동으로 해당 감지 모드로 전환되며 추가 트래픽 사용량이 발생할 수 있습니다.",
+        "sim_registered_connection_failed_tips": "SIM 카드에 사용 가능한 데이터가 있는지 확인하고 {apnBtn} 설정이 올바른지 확인하세요. {guide}"
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
