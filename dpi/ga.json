@@ -88,7 +88,8 @@
         "client_port_label": "Port Cliant",
         "to_safeGuard_btn": "Téigh go {ainm}",
         "search_app_input_placeholder": "Cuardaigh ainm an aip",
-        "clear_statistical_label": "Glan na sonraí staitistiúla go léir ón leathanach reatha?"
+        "clear_statistical_label": "Glan na sonraí staitistiúla go léir ón leathanach reatha?",
+        "all_traffic_label": "An trácht go léir"
     },
     "menu_qos": "QOS",
     "menu_flowstatistics": "Staitisticí Sonraí",
@@ -245,7 +246,16 @@
         "need_login_cloud_tips": "Logáil isteach sa tseirbhís scamall le do thoil chun an próiseas ceangailteach a chríochnú agus leanúint ar aghaidh ag baint úsáide as an bhfeidhm DPI.",
         "trial_dialog_title": "Gníomhachtaigh DPI",
         "trial_dialog_success_title": "Gníomhachtaithe go rathúil!",
-        "trial_dialog_step1_title": "Úsáideann DPI acmhainní áitiúla chun paicéid a anailísiú agus a aicmiú."
+        "trial_dialog_step1_title": "Úsáideann DPI acmhainní áitiúla chun paicéid a anailísiú agus a aicmiú.",
+        "trial_dialog_step2_title": "Díchumasófar {network} chun iniúchadh paicéad a chinntiú.",
+        "trial_dialog_success_text": "Is féidir leat taitneamh a bhaint as an tsraith iomlán de ghnéithe DPI go háitiúil anois.",
+        "engine_version_center_title": "Ionad Leagan {name}",
+        "core_services_ready_tag": "Réidh le Seirbhísí Croí",
+        "engine_desc_text": "Ní thaispeánann an leathanach seo ach táscairí stádais an chórais lárnacha. Tosófar ar phróiseáil tráchta a luaithe a bheidh na gnéithe ábhartha cumasaithe.",
+        "version_update_center_title": "Ionad Nuashonraithe Leagan",
+        "version_update_desc_text": "Tá {name} réidh. Ní oibríonn {name1}, {name2}, agus {name3} ach amháin nuair a bhíonn siad cumasaithe ina leathanaigh féin.",
+        "latest_available_label": "Is déanaí atá ar fáil: ",
+        "upgrading_btn_text": "Ag uasghrádú..."
     },
     "menu_dpifeatures": "Inneall DPI"
 }
