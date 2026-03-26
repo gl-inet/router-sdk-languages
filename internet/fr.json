@@ -276,7 +276,8 @@
         "name_length_limit_tips": "Le nom dépasse la limite de longueur",
         "name_already_taken_tips": "Le nom {name} est déjà utilisé",
         "name_empty_tips": "Le nom ne peut pas être vide",
-        "auto_switch_tips": "Cette fonctionnalité nécessite le mode de détection non faible en données du suivi d'état de l'interface Multi-WAN. Lorsqu'elle est activée, le système basculera automatiquement vers le mode de détection correspondant et pourra générer une consommation de trafic supplémentaire."
+        "auto_switch_tips": "Cette fonctionnalité nécessite le mode de détection non faible en données du suivi d'état de l'interface Multi-WAN. Lorsqu'elle est activée, le système basculera automatiquement vers le mode de détection correspondant et pourra générer une consommation de trafic supplémentaire.",
+        "sim_registered_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. {guide}"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
