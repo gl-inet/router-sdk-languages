@@ -505,10 +505,10 @@
         "init_desc": "Tosaigh trí do chéad tollán VPN a chur leis.",
         "select_target_destination_title": "Roghnaigh Ceann Scríbe Sprioc",
         "apply_all_changes_btn": "Cuir Gach Athrú i bhFeidhm",
-        "enable_killswitch_tips": "Nuair a chuirtear ar siúl é, cuirfear bac ar an trácht a shanntar don tollán VPN seo má dhícheanglaítear an tollán go neamhghnách.",
-        "disable_killswitch_tips": "Nuair a dhíchumasaítear é, déileálfar leis an trácht de réir an bheartais Trácht Eile Uile.",
-        "not_use_killswitch_tips": "Leanann an trácht an beartas \"Gach Trácht Eile\" nuair a bhíonn sé as.",
-        "default_tunnel_kill_switch_enabled_tips": "{label}: Nuair a chuirtear ar chumas é, ní cheadaítear ach trácht VPN rochtain a fháil ar an idirlíon. Cuirfear cosc ar gach trácht neamh-VPN agus ar thrácht theipthe laistigh de ghrúpaí beartais. Sáraíonn an socrú domhanda seo agus cuireann sé as feidhm an Kill Switch aonair do gach grúpa beartais."
+        "enable_killswitch_tips": "Nuair a bheidh sé cumasaithe, cuirfear bac ar thrácht atá sannta don tollán VPN seo má dhícheanglaíonn an tollán go tobann.",
+        "disable_killswitch_tips": "Nuair a bheidh sé díchumasaithe, déanfar an trácht a láimhseáil de réir na polasaí Trácht Eile Uile.",
+        "not_use_killswitch_tips": "Leanann trácht an polasaí Trácht Eile nuair a bhíonn sé múchta.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Nuair a bhíonn sé Cumasaithe, ní cheadaítear ach trácht VPN rochtain a fháil ar an idirlíon. Cuirfear bac ar gach trácht neamh-VPN agus trácht teipthe laistigh de ghrúpaí beartais. Sáraíonn an socrú domhanda seo an Lasc Maraithe aonair do gach grúpa beartais agus díchumasaíonn sé é."
     },
     "vpn_server": {
         "want_use_ipv6_tips": "Más mian leat seoladh IPv6 a úsáid, déan {todo} ar do ródaire le do thoil.",
@@ -563,8 +563,8 @@
         "stop_config_tips": "Má stopann tú an chumraíocht seo, bainfear as na tolláin uile í.",
         "stop_config_tunnel_stopped_tips": "Mura bhfuil ach an chumraíocht seo i dtollán, cuirfear stop leis an tollán.",
         "stop_config_visit_dashboard_tips": "Chun tolláin a bhainistiú, tabhair cuairt ar an {page}.",
-        "remove_config_btn": "Scrios na Cumraíochtaí",
-        "reomving_config_warning_tips": "An bhfuil tú cinnte gur mian leat a scriosadh?"
+        "remove_config_btn": "Scrios Cumraíochtaí",
+        "reomving_config_warning_tips": "An bhfuil tú cinnte gur mian leat é a scriosadh?"
     },
     "ovpnclient": {
         "legacy_label": "Oidhreacht",
