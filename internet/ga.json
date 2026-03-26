@@ -169,7 +169,7 @@
         "use_as_wan_silkprint_tips": "Nuair a úsáidtear an {silkprint} mar phort WAN",
         "revert_wan_tips": "Tar éis duit an port WAN a athbhunú",
         "vlan_id_conflict_tips": "Tá coimhlint idir ID VLAN Ethernet1 agus ID VLAN Ethernet2.",
-        "vlan_lan_subnet_conflict_tips": "Tá an VLAN cumraithe ar an gcalafán WAN i gcoimhlint leis an bhfo-líonra."
+        "vlan_lan_subnet_conflict_tips": "Tá coimhlint idir an VLAN atá cumraithe ar an gcalafort WAN agus an fholíonra."
     },
     "repeater": {
         "identity": "Ainm úsáideora",
@@ -413,7 +413,7 @@
         "name_already_taken_tips": "Tá ainm {name} tógtha cheana féin",
         "name_empty_tips": "Ní féidir an t-ainm a bheith folamh",
         "auto_switch_tips": "Éilíonn an ghné seo modh braite neamh-íseal-shonraí de Rianú Stádas Comhéadain Il-WAN. Nuair a bheidh sé cumasaithe, aistreoidh an córas go huathoibríoch chuig an modh braite comhfhreagrach agus féadfaidh sé úsáid tráchta bhreise a ghiniúint.",
-        "sim_registered_connection_failed_tips": "Seiceáil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. {guide}"
+        "sim_registered_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. {guide}"
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
