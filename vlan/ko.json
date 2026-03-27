@@ -87,7 +87,8 @@
         "err_display_name_conflict": "표시 이름 충돌.",
         "err_dhcp_prefix_match_gateway": "시작 및 종료 IP는 게이트웨이와 동일한 네트워크 세그먼트에 있어야 합니다.",
         "err_dhcp_outside_subnet": "이 IP는 현재 넷마스크로 정의된 서브넷 외부에 있습니다.",
-        "err_dhcp_range_excludes_gateway": "DHCP 풀에는 게이트웨이 주소가 포함되어서는 안 됩니다."
+        "err_dhcp_range_excludes_gateway": "DHCP 풀에는 게이트웨이 주소가 포함되어서는 안 됩니다.",
+        "change_to": "라우터의 IP 주소가 성공적으로 변경되었습니다."
     },
     "menu_vlan": "VLAN"
 }
