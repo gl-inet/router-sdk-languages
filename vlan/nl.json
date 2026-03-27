@@ -87,7 +87,8 @@
         "end_smaller_tips": "Het eindadres moet groter zijn dan het startadres.",
         "err_dhcp_prefix_match_gateway": "Het start- en eind-IP moeten zich op hetzelfde netwerksegment bevinden als de gateway.",
         "err_dhcp_outside_subnet": "Dit IP-adres bevindt zich buiten het subnet dat is gedefinieerd door het huidige netmasker.",
-        "err_dhcp_range_excludes_gateway": "Het DHCP-pool mag het gatewayadres niet bevatten."
+        "err_dhcp_range_excludes_gateway": "Het DHCP-pool mag het gatewayadres niet bevatten.",
+        "change_to": "Het IP-adres van de router is succesvol gewijzigd naar"
     },
     "menu_vlan": "VLAN"
 }
