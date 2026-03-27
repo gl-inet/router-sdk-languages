@@ -87,7 +87,8 @@
         "end_smaller_tips": "Die Endadresse sollte größer als die Startadresse sein.",
         "err_dhcp_prefix_match_gateway": "Die Start- und End-IP müssen sich im selben Netzwerksegment wie das Gateway befinden.",
         "err_dhcp_range_excludes_gateway": "Der DHCP-Pool darf die Gateway-Adresse nicht enthalten.",
-        "err_dhcp_outside_subnet": "Diese IP-Adresse liegt außerhalb des durch die aktuelle Netzmaske definierten Subnetzes."
+        "err_dhcp_outside_subnet": "Diese IP-Adresse liegt außerhalb des durch die aktuelle Netzmaske definierten Subnetzes.",
+        "change_to": "Die IP-Adresse des Routers wurde erfolgreich geändert auf"
     },
     "menu_vlan": "VLAN"
 }
