@@ -87,7 +87,8 @@
         "end_smaller_tips": "終了アドレスは開始アドレスより大きくなければなりません。",
         "err_dhcp_prefix_match_gateway": "開始IPと終了IPはゲートウェイと同じネットワークセグメント上にある必要があります。",
         "err_dhcp_outside_subnet": "このIPは現在のネットマスクで定義されたサブネットの範囲外です。",
-        "err_dhcp_range_excludes_gateway": "DHCPプールにはゲートウェイアドレスを含めてはいけません。"
+        "err_dhcp_range_excludes_gateway": "DHCPプールにはゲートウェイアドレスを含めてはいけません。",
+        "change_to": "ルーターのIPアドレスが正常に変更されました"
     },
     "menu_vlan": "VLAN"
 }
