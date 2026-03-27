@@ -87,7 +87,8 @@
         "end_smaller_tips": "L'adresse de fin doit être supérieure à l'adresse de début.",
         "err_dhcp_prefix_match_gateway": "Les adresses IP de début et de fin doivent être sur le même segment de réseau que la passerelle.",
         "err_dhcp_outside_subnet": "Cette adresse IP est en dehors du sous-réseau défini par le masque de réseau actuel.",
-        "err_dhcp_range_excludes_gateway": "Le pool DHCP ne doit pas inclure l'adresse de la passerelle."
+        "err_dhcp_range_excludes_gateway": "Le pool DHCP ne doit pas inclure l'adresse de la passerelle.",
+        "change_to": "L'adresse IP du routeur a été modifiée avec succès en"
     },
     "menu_vlan": "VLAN"
 }
