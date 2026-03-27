@@ -167,7 +167,7 @@
         "scan_to_upgrade_method_tips": "Scannez le code QR ou suivez le lien pour choisir le forfait.",
         "secondary_disabled_tips": "Vous avez interrompu la connexion. Votre appareil est revenu à l'internet local.",
         "secondary_connected_tips": "Connexion réussie ! Vous naviguez désormais sur internet via votre réseau domestique.",
-        "secondary_disabled_access_tips": "Déconnectez-vous du service actuel pour basculer vers votre réseau local.",
+        "secondary_disabled_access_tips": "Déconnectez-vous du service actuel pour passer à votre réseau local.",
         "secondary_enabled_access_tips": "Une fois connectés, vos appareils pourront accéder à internet via votre réseau domestique.",
         "primary_stop_tips": "Connexion échouée. Le service sur le routeur domestique a été déconnecté.",
         "primary_reset_tips": "Une fois le routeur domestique réinitialisé, les appareils connectés seront supprimés et reviendront à l'accès à internet via leur réseau local.",
@@ -183,7 +183,7 @@
         "order_comfirmed_tips": "Commande confirmée ! Le plan AstroWarp+ pour {time} a été activé. Profitez de la navigation avec des données illimitées !",
         "extend_plan_btn": "Prolonger le plan",
         "extend_plan_tips": "Étendez votre plan pour profiter d'un accès ininterrompu à votre réseau domestique !",
-        "order_list_help_tips": "Besoin d'aide pour une commande ? Visitez la page d'achat et cliquez sur l'icône de support pour discuter avec notre équipe.",
+        "order_list_help_tips": "Besoin d'aide pour une commande ? Visitez la page d'achat et cliquez sur l'icône d'assistance pour discuter avec notre équipe.",
         "order_list_title": "Historique des commandes",
         "order_payment_time_label": "Date de paiement",
         "order_sub_period_label": "Période de service",
@@ -191,7 +191,8 @@
         "order_amount_label": "Montant ($)",
         "order_id_label": "Numéro de commande",
         "order_status_refunded_label": "Remboursé",
-        "order_status_success_label": "Succès"
+        "order_status_success_label": "Succès",
+        "primary_data_used_card_title": "Utilisation mensuelle des données"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Échec de la requête : L'horodatage est invalide. Veuillez synchroniser l'heure du routeur."
