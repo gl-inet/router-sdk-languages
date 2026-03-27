@@ -87,7 +87,8 @@
         "end_smaller_tips": "La dirección final debe ser mayor que la dirección inicial.",
         "err_dhcp_prefix_match_gateway": "Las direcciones IP de inicio y fin deben estar en el mismo segmento de red que la puerta de enlace.",
         "err_dhcp_range_excludes_gateway": "El grupo DHCP no debe incluir la dirección de la puerta de enlace.",
-        "err_dhcp_outside_subnet": "Esta IP está fuera de la subred definida por la máscara de red actual."
+        "err_dhcp_outside_subnet": "Esta IP está fuera de la subred definida por la máscara de red actual.",
+        "change_to": "La dirección IP del router se ha cambiado exitosamente a"
     },
     "menu_vlan": "VLAN"
 }
