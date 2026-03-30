@@ -192,7 +192,17 @@
         "order_amount_label": "Amount($)",
         "order_status_refunded_label": "Refunded",
         "order_status_success_label": "Success",
-        "primary_data_used_card_title": "Monthly Data Usage"
+        "primary_data_used_card_title": "Monthly Data Usage",
+        "plus_high_speed_tip": "You can enjoy unlimited high-speed data during the service period.",
+        "standard_speed_badge_label": "Standard",
+        "plus_plan_expires_tip": "Your connection will automatically switch to standard mode when your plan expires.",
+        "high_speed_badge_label": "High-speed",
+        "plus_restore_tip": "You can upgrade plan to restore unlimited high-speed data.",
+        "free_high_speed_limit_tip": "Connection will be automatically throttled to standard mode after data usage exceeds {count} GB.",
+        "free_high_speed_tip": "Enjoy {count} GB of high-speed data each month.",
+        "free_high_speed_reset_tip": "Data usage resets each month.",
+        "free_high_speed_upgrade_tip": "You can upgrade plan to get unlimited high-speed data.",
+        "expired_label": "Expired"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Request failed: Timestamp is invalid. Please synchronize the router's time."
