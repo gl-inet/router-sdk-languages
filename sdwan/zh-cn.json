@@ -192,7 +192,17 @@
         "order_sub_period_label": "服务周期",
         "order_status_success_label": "成功",
         "order_status_refunded_label": "已退款",
-        "primary_data_used_card_title": "每月数据使用量"
+        "primary_data_used_card_title": "每月数据使用量",
+        "plus_high_speed_tip": "在服务期间，您可以享受无限高速数据。",
+        "plus_plan_expires_tip": "当您的套餐到期时，您的连接将自动切换为标准模式。",
+        "plus_restore_tip": "您可以升级套餐以恢复无限高速数据。",
+        "standard_speed_badge_label": "标准",
+        "high_speed_badge_label": "高速",
+        "free_high_speed_tip": "每月享受 {count} GB 的高速数据。",
+        "free_high_speed_limit_tip": "连接将在数据使用量超过 {count} GB 后自动降级为标准模式。",
+        "free_high_speed_reset_tip": "数据用量每月重置。",
+        "free_high_speed_upgrade_tip": "您可以升级套餐以获得无限高速数据。",
+        "expired_label": "已过期"
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "请求失败：时间戳无效。请同步路由器的时间。"
