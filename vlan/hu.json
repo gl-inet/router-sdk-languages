@@ -88,7 +88,8 @@
         "err_dhcp_prefix_match_gateway": "A kezdő és a záró IP-címnek ugyanazon a hálózati szegmensen kell lennie, mint az átjárónak.",
         "err_dhcp_outside_subnet": "Ez az IP-cím a jelenlegi hálózati maszk által meghatározott alhálózaton kívül esik.",
         "err_dhcp_range_excludes_gateway": "A DHCP-készlet nem tartalmazhatja az átjáró címét.",
-        "change_to": "A router IP-címe sikeresen megváltozott a következőre:"
+        "change_to": "A router IP-címe sikeresen megváltozott a következőre:",
+        "lpr_duplicate_tips": "Duplikált LPR bejegyzések nem engedélyezettek."
     },
     "menu_vlan": "VLAN"
 }
