@@ -88,7 +88,8 @@
         "err_dhcp_outside_subnet": "此IP地址超出了当前子网掩码定义的子网范围。",
         "err_dhcp_prefix_match_gateway": "起始IP和结束IP必须与网关处于同一网段。",
         "err_dhcp_range_excludes_gateway": "DHCP地址池不能包含网关地址。",
-        "change_to": "路由器的IP地址已成功更改为"
+        "change_to": "路由器的IP地址已成功更改为",
+        "lpr_duplicate_tips": "不允许重复的LPR条目。"
     },
     "menu_vlan": "VLAN"
 }
