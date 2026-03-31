@@ -88,7 +88,8 @@
         "err_dhcp_prefix_match_gateway": "Başlangıç ve bitiş IP adresleri, ağ geçidi ile aynı ağ segmentinde olmalıdır.",
         "err_dhcp_range_excludes_gateway": "DHCP havuzu ağ geçidi adresini içermemelidir.",
         "err_dhcp_outside_subnet": "Bu IP adresi, mevcut ağ maskesi tarafından tanımlanan alt ağın dışındadır.",
-        "change_to": "Yönlendiricinin IP adresi başarıyla şu şekilde değiştirildi:"
+        "change_to": "Yönlendiricinin IP adresi başarıyla şu şekilde değiştirildi:",
+        "lpr_duplicate_tips": "Yinelenen LPR girişlerine izin verilmez."
     },
     "menu_vlan": "VLAN"
 }
