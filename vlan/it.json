@@ -88,7 +88,8 @@
         "err_dhcp_prefix_match_gateway": "L'IP iniziale e finale devono essere nello stesso segmento di rete del gateway.",
         "err_dhcp_range_excludes_gateway": "Il pool DHCP non deve includere l'indirizzo del gateway.",
         "err_dhcp_outside_subnet": "Questo IP è al di fuori della subnet definita dalla netmask corrente.",
-        "change_to": "L'indirizzo IP del router è stato modificato con successo in"
+        "change_to": "L'indirizzo IP del router è stato modificato con successo in",
+        "lpr_duplicate_tips": "不允许重复的LPR条目。"
     },
     "menu_vlan": "VLAN"
 }
