@@ -88,7 +88,8 @@
         "err_dhcp_prefix_match_gateway": "Adresy IP początkowy i końcowy muszą znajdować się w tej samej sieci co brama.",
         "err_dhcp_range_excludes_gateway": "Pula DHCP nie może zawierać adresu bramy.",
         "err_dhcp_outside_subnet": "Ten adres IP znajduje się poza podsiecią zdefiniowaną przez aktualną maskę sieci.",
-        "change_to": "Adres IP routera został pomyślnie zmieniony na"
+        "change_to": "Adres IP routera został pomyślnie zmieniony na",
+        "lpr_duplicate_tips": "Nie można duplikować wpisów LPR."
     },
     "menu_vlan": "VLAN"
 }
