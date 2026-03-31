@@ -88,7 +88,8 @@
         "err_dhcp_prefix_match_gateway": "起始與結束 IP 必須與閘道位於同一網段。",
         "err_dhcp_range_excludes_gateway": "DHCP 池不得包含閘道位址。",
         "err_dhcp_outside_subnet": "此 IP 位址超出目前網路遮罩所定義的子網路範圍。",
-        "change_to": "路由器的IP地址已成功更改為"
+        "change_to": "路由器的IP地址已成功更改為",
+        "lpr_duplicate_tips": "不允許重複的LPR條目。"
     },
     "menu_vlan": "VLAN"
 }
