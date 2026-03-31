@@ -88,7 +88,8 @@
         "err_dhcp_prefix_match_gateway": "Las direcciones IP de inicio y fin deben estar en el mismo segmento de red que la puerta de enlace.",
         "err_dhcp_range_excludes_gateway": "El grupo DHCP no debe incluir la dirección de la puerta de enlace.",
         "err_dhcp_outside_subnet": "Esta IP está fuera de la subred definida por la máscara de red actual.",
-        "change_to": "La dirección IP del router se ha cambiado exitosamente a"
+        "change_to": "La dirección IP del router se ha cambiado exitosamente a",
+        "lpr_duplicate_tips": "No se permiten entradas LPR duplicadas."
     },
     "menu_vlan": "VLAN"
 }
