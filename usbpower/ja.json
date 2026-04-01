@@ -15,7 +15,7 @@
         "power_power_direction_label": "給電方向（電源ポート）",
         "usb_tethering_tips": "USBテザリングデバイスとして動作（ホストに対してUSBネットワークアダプタとして表示される）",
         "power_data_direction_label": "給電方向（データポート）",
-        "power_threshold_tips": "外部電源出力の最小バッテリー閾値（このレベルを下回るとUSBデバイスが使用不可になります）"
+        "power_threshold_tips": "外部電源出力の最小バッテリー残量（この値を下回るとUSBデバイスは使用できません）"
     },
     "power": {
         "power_title": "電源",
@@ -24,7 +24,7 @@
         "never_label": "無効",
         "ethernet_idle_timeout_label": "イーサネットアイドルタイムアウト",
         "power_off_timeout_label": "電源オフタイムアウト",
-        "auto_system_standby_tips": "有効時、ネットワークがアイドル状態でUSBが接続されておらず、リピーターが使用されていない場合、システムは自動的にスタンバイ状態になります。",
+        "auto_system_standby_tips": "有効時、Ethernet、Wi-Fi、およびリピーターが未使用で、かつUSBデバイスが接続されていない場合、デバイスはシステムスタンバイ状態に入り、セルラーは低消費電力モードに移行し、電源オフのカウントダウンが開始されます。",
         "auto_system_standby_label": "自動システムスタンバイ"
     },
     "menu_usbpower": "USBと電源"
