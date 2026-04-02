@@ -72,7 +72,6 @@
         "block_wan_subnets_tip": "Si esta función está activada, la red de invitados no podrá acceder a la red principal ni al segmento de red donde se encuentra.",
         "addressReservationTip": "Cuando especifica una dirección IP reservada para un cliente de la LAN, el cliente siempre recibirá la misma dirección IP al solicitarla al servidor DHCP del router. Puede asignar direcciones IP reservadas a equipos o servidores que requieran una configuración de IP permanente.",
         "apIsolationTip": "Puede aislar los dispositivos cliente de su red en un área de red independiente. Estos dispositivos no pueden comunicarse con otros dispositivos en la red.",
-        "selectNetmask": "Selecciona la máscara de red",
         "tip": "Gestiona la segmentación de la red mediante VLANs para aislar el tráfico y mejorar la seguridad.",
         "err_vlan_id_out_of_range": "El ID de VLAN está fuera de rango.",
         "err_vlan_id_in_use": "El ID de VLAN ya está en uso.",
