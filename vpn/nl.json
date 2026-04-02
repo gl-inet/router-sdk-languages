@@ -504,7 +504,14 @@
         "disable_killswitch_tips": "Wanneer uitgeschakeld, wordt het verkeer afgehandeld volgens het beleid voor al het andere verkeer.",
         "not_use_killswitch_tips": "Verkeer volgt het beleid 'Alle ander verkeer' wanneer uitgeschakeld.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Wanneer ingeschakeld, is alleen VPN-verkeer toegestaan om toegang te krijgen tot internet. Al het niet-VPN-verkeer en mislukt verkeer binnen beleidsgroepen wordt geblokkeerd. Deze globale instelling overschrijft en schakelt de individuele Kill Switch voor elke beleidsgroep uit.",
-        "all_other_traffic_setting_title": "Alle andere verkeersinstellingen"
+        "all_other_traffic_setting_title": "Alle andere verkeersinstellingen",
+        "allow_non_vpn_default_tips": "\"{label}\" is standaard ingeschakeld om normaal internettoegang voor niet-VPN-verkeer te garanderen.",
+        "enhanced_kill_switch_note_tips": "{tag} Deze algemene instelling overschrijft niet de individuele Kill Switch die binnen specifieke VPN-beleidsregels is geconfigureerd.",
+        "allow_non_vpn_traffic_sort_tips": "Niet-overeenkomend verkeer gebruikt standaard internet.",
+        "enhanced_kill_switch_sort_tips": "Niet-overeenkomend verkeer wordt expliciet geblokkeerd.",
+        "allow_non_vpn_traffic_desc": "Niet-overeenkomend verkeer heeft toegang tot internet via uw standaardverbinding.",
+        "enhanced_kill_switch_desc": "Forceer alle apparaten om een VPN te gebruiken voor internettoegang. Alle verkeer dat niet overeenkomt met een VPN-tunnel wordt geblokkeerd.",
+        "all_other_traffic_setting_tips": "Deze instelling bepaalt of verkeer dat niet overeenkomt met een actieve VPN-tunnel toegang heeft tot het internet."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
