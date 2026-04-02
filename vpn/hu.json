@@ -504,7 +504,14 @@
         "disable_killswitch_tips": "Letiltás esetén a forgalom az \"Összes egyéb forgalom\" szabályzat szerint lesz kezelve.",
         "not_use_killswitch_tips": "Kikapcsolt állapotban a forgalom az \"Összes egyéb forgalom\" szabályzatot követi.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Ha engedélyezve van, csak a VPN forgalom kap hozzáférést az internethez. Minden nem VPN forgalom és a szabályzatcsoportokon belüli sikertelen forgalom blokkolva lesz. Ez a globális beállítás felülírja és letiltja az egyes szabályzatcsoportok Kill Switch funkcióját.",
-        "all_other_traffic_setting_title": "Összes többi forgalom beállításai"
+        "all_other_traffic_setting_title": "Összes többi forgalom beállításai",
+        "all_other_traffic_setting_tips": "Ez a beállítás szabályozza, hogy a forgalom, amely nem illeszkedik egyetlen aktív VPN-alagúthoz sem, hozzáférhet-e az internethez.",
+        "allow_non_vpn_default_tips": "\"{label}\" alapértelmezés szerint engedélyezve van, hogy a nem VPN-forgalom normális internet-hozzáférést biztosítson.",
+        "enhanced_kill_switch_note_tips": "{tag} Ez a globális beállítás nem írja felül az egyes VPN-szabályzatokon belül konfigurált egyedi Kill Switch-et.",
+        "allow_non_vpn_traffic_sort_tips": "A nem illeszkedő forgalom a szabványos internetet használja.",
+        "allow_non_vpn_traffic_desc": "A nem illeszkedő forgalom a szabványos kapcsolatot használja az internet eléréséhez.",
+        "enhanced_kill_switch_sort_tips": "A nem illeszkedő forgalom kifejezetten blokkolva van.",
+        "enhanced_kill_switch_desc": "Kényszerítse az összes eszközt, hogy VPN-t használjon az internet eléréséhez. Minden olyan forgalom, amely nem illeszkedik egy VPN-alagúthoz, blokkolva lesz."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
