@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. 상위 장치의 포트 포워딩 설정이 올바른지 확인하려면 아래 표의 정보를 참조하십시오:",
         "refer_step_two_tips": "2. 상위 장치의 방화벽 설정이 올바른지 확인하십시오.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "종료 IP 주소"
+        "exit_ip_address_label": "종료 IP 주소",
+        "go_to_vpn_dashboard": "대시보드로 이동",
+        "vpn_dashboard_desc": "구성이 업로드되었습니다. VPN 터널을 생성하고 관리하려면 VPN 대시보드로 이동하세요.",
+        "vpn_dashboard_desc_provider": "{provider}에 로그인되었습니다. VPN 터널을 생성하고 관리하려면 VPN 대시보드로 이동하세요."
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",
@@ -580,7 +583,9 @@
         "legacy_title": "레거시:",
         "legacy_desc": "구성 호환성이 더 높습니다. 연결에 실패할 경우 이 옵션으로 전환해 보세요.",
         "modern_label": "Modern",
-        "modern_desc": "대부분의 VPN 서비스에 적합하며, 더 나은 성능과 보안을 제공합니다."
+        "modern_desc": "대부분의 VPN 서비스에 적합하며, 더 나은 성능과 보안을 제공합니다.",
+        "enabled_dco_tooltip": "대부분의 VPN 성능과 보안을 향상시키려면 DCO를 활성화하세요. 호환성 문제가 발생하면 비활성화하세요.",
+        "enabled_dco": "DCO 활성화됨"
     },
     "menu_vpn-client": "VPN 클라이언트 프로필",
     "internet": {
