@@ -328,7 +328,10 @@
         "refer_step_three_tips": "3. {contact}",
         "ipv4_label": "Ethernet IPV4",
         "refer_step_two_tips": "2. Cinntigh go bhfuil socruithe an bhalla dóiteáin ar an ngléas suas an sruth ceart.",
-        "exit_ip_address_label": "Seoladh IP Scoir"
+        "exit_ip_address_label": "Seoladh IP Scoir",
+        "go_to_vpn_dashboard": "Téigh go dtí an Deais",
+        "vpn_dashboard_desc": "Cumraíocht uaslódáilte. Téigh go dtí an Deais VPN chun tainéil VPN a chruthú agus a bhainistiú.",
+        "vpn_dashboard_desc_provider": "Tá tú logáilte isteach ar {provider}. Téigh go dtí an Deais VPN chun tainéil VPN a chruthú agus a bhainistiú."
     },
     "vpn_taps2s": {
         "start_title": "Aird: Tosaigh Cliant TAP-S2S",
@@ -580,7 +583,9 @@
         "legacy_desc": "Tá comhoiriúnacht cumraíochta níos airde aige. Má theipeann ar an nasc, is féidir leat iarracht a dhéanamh aistriú chuig an rogha seo.",
         "modern_label": "Nua-aimseartha",
         "modern_title": "Nua-aimseartha (Molta):",
-        "modern_desc": "Oiriúnach don chuid is mó de sheirbhísí VPN, ag tairiscint feidhmíochta agus slándála níos fearr."
+        "modern_desc": "Oiriúnach don chuid is mó de sheirbhísí VPN, ag tairiscint feidhmíochta agus slándála níos fearr.",
+        "enabled_dco_tooltip": "Cumasaigh DCO chun feidhmíocht agus slándáil a fheabhsú do fhormhór na VPNanna; díchumasaigh é má tharlaíonn saincheisteanna comhoiriúnachta.",
+        "enabled_dco": "DCO Cumasaithe"
     },
     "menu_vpn-client": "Próifíl Cliant VPN",
     "internet": {
