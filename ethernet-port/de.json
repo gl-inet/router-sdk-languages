@@ -30,6 +30,21 @@
         "err_tap_s2s_mode_enabled": "Der TAP-S2S-Modus ist aktiviert. Diese Funktion ist nicht verfügbar.",
         "err_wan_vlan_dualwan_conflict": "WAN-VLAN steht im Konflikt mit der Dual-WAN-Konfiguration.",
         "err_secondwan_already_exists": "secondwan existiert bereits. Dieser Port kann nicht als secondwan konfiguriert werden.",
-        "max_wan_reached": "Es sind nur 2 WAN-Ports erlaubt. Bitte schalten Sie zuerst einen anderen Port auf LAN um."
+        "max_wan_reached": "Es sind nur 2 WAN-Ports erlaubt. Bitte schalten Sie zuerst einen anderen Port auf LAN um.",
+        "mac_mode": "MAC-Modus",
+        "module_status": "Modulstatus",
+        "not_inserted": "Nicht eingefügt",
+        "port_mode": "Port-Modus",
+        "port_mode_tip_wan": "Der WAN-Port verbindet sich mit Ihrem Internetmodem oder dem vorgelagerten Netzwerk.",
+        "auto_update_mac": "Automatische MAC-Aktualisierung",
+        "negotiated_port_rate": "Ausgehandelte Netzwerk-Port-Rate",
+        "mac_replacement": "MAC-Ersetzungsintervall",
+        "vlan_mode_tips": "Der Standardmodus erlaubt nur ein VLAN (Ungekennzeichnet) und wird für den Anschluss von Endgeräten verwendet. Der Mehrfach-VLAN-Modus erlaubt mehrere VLANs (Gekennzeichnet) an einem Port, typischerweise für den Anschluss von APs oder anderen Switches.",
+        "network_assignment": "Natives Netzwerk (PVID / Nicht getaggt)",
+        "network_assignment_tips": "PVID ist das Standardnetzwerk für nicht getaggten Datenverkehr. Datenverkehr von nicht getaggten Geräten wird diesem Netzwerk zugewiesen.",
+        "select_network": "Netzwerk auswählen",
+        "allowed_tagged_networks": "Erlaubte getaggte Netzwerke",
+        "select_networks": "Netzwerke auswählen",
+        "port_mode_tip_lan": "Der LAN-Port verbindet lokale Geräte oder nachgeschaltete Switches."
     }
 }
