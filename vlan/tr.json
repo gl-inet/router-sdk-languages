@@ -47,7 +47,6 @@
         "name": "İsim",
         "hostnameTips": "2-63 karakter. Sadece harfler, rakamlar veya tirelere izin verilir. Tire ile başlamamalı veya bitmemeli, yalnızca rakamlardan oluşmamalıdır.",
         "lprTips": "Birden fazla yazıcı LPR bağlantı noktası doldurulabilir.",
-        "addressReservationTip": "Bir LAN istemcisi için ayrılmış bir IP adresi belirttiğinizde, istemci yönlendiricinin DHCP sunucusundan bir IP adresi talep ettiğinde her zaman aynı IP adresini alacaktır. Kalıcı IP ayarları gerektiren bilgisayarlara veya sunuculara ayrılmış IP adresleri atayabilirsiniz.",
         "subnet_tip": "IPv4 özel adres aralıkları içinde alt ağ ayarlayabilirsiniz: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "dhcpCharterLabel": "Kiralama Süresi",
         "tip": "Trafiği izole etmek ve güvenliği artırmak için VLAN'larla ağ segmentasyonunu yönetin.",
