@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. 為確保上游裝置的連接埠轉發設定正確，請參考下方表格中的資訊：",
         "refer_step_two_tips": "2. 確保上游裝置的防火牆設定正確。",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "出口 IP 位址"
+        "exit_ip_address_label": "出口 IP 位址",
+        "go_to_vpn_dashboard": "前往儀表板",
+        "vpn_dashboard_desc": "配置已上傳。請前往 VPN 儀表板以建立和管理 VPN 通道。",
+        "vpn_dashboard_desc_provider": "您已登入 {provider}。請前往 VPN 儀表板以建立和管理 VPN 通道。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -580,7 +583,9 @@
         "modern_title": "現代（推薦）：",
         "legacy_desc": "它具有更高的配置兼容性。如果连接失败，您可以尝试切换到此选项。",
         "modern_label": "現代",
-        "modern_desc": "適用於大多數VPN服務，提供更好的性能和安全性。"
+        "modern_desc": "適用於大多數VPN服務，提供更好的性能和安全性。",
+        "enabled_dco": "已啟用 DCO",
+        "enabled_dco_tooltip": "啟用 DCO 以提升大多數 VPN 的效能和安全性；若出現相容性問題，請停用它。"
     },
     "menu_vpn-client": "VPN客戶端設定檔",
     "internet": {
