@@ -29,7 +29,22 @@
         "err_invalid_mac_mode": "Invalid MAC mode.",
         "err_secondwan_already_exists": "secondwan already exists. This port cannot be configured as secondwan.",
         "err_tap_s2s_mode_enabled": "TAP-S2S mode is enabled. This feature is not available.",
-        "max_wan_reached": "Only 2 WAN ports are allowed. Please switch another port to LAN first."
+        "max_wan_reached": "Only 2 WAN ports are allowed. Please switch another port to LAN first.",
+        "mac_mode": "MAC Mode",
+        "module_status": "Module Status",
+        "not_inserted": "Not Inserted",
+        "port_mode": "Port Mode",
+        "port_mode_tip_wan": "The WAN port connects to your Internet modem or upstream network.",
+        "port_mode_tip_lan": "The LAN port connects to local devices or downstream switches.",
+        "auto_update_mac": "Auto Update MAC",
+        "negotiated_port_rate": "Negotiated Network Port Rate",
+        "mac_replacement": "MAC Replacement Interval",
+        "vlan_mode_tips": "Standard mode allows only one VLAN (Untagged), used for connecting end devices. Multiple VLANs mode allows multiple VLANs (Tagged) on one port, typically for connecting APs or other switches.",
+        "network_assignment": "Native Network (PVID / Untagged)",
+        "network_assignment_tips": "PVID is the default network for untagged traffic. Traffic from untagged devices will be assigned to this network.",
+        "select_network": "Select network",
+        "allowed_tagged_networks": "Allowed Tagged Networks",
+        "select_networks": "Select networks"
     },
     "menu_ethernet-port": "Ethernet Port"
 }
