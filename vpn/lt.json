@@ -504,7 +504,14 @@
         "disable_killswitch_tips": "Kai išjungta, srautas bus tvarkomas pagal Viso kito srauto politiką.",
         "not_use_killswitch_tips": "Srautas laikosi visų kitų srauto politikos, kai išjungta.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Kai įjungta, tik VPN srautas gali pasiekti internetą. Visas ne-VPN srautas ir nepavykęs srautas politinių grupių viduje bus blokuojamas. Šis visuotinis nustatymas perrašo ir išjungia individualų Kill Switch kiekvienai politinei grupei.",
-        "all_other_traffic_setting_title": "Visi kiti srauto nustatymai"
+        "all_other_traffic_setting_title": "Visi kiti srauto nustatymai",
+        "all_other_traffic_setting_tips": "Šis nustatymas kontroliuoja, ar srautas, neatitinkantis jokio aktyvaus „VPN“ tunelio, gali pasiekti internetą.",
+        "allow_non_vpn_default_tips": "\"{label}\" yra numatytasis įjungtas, kad užtikrintų normalų interneto prieigą ne-VPN srautui.",
+        "enhanced_kill_switch_note_tips": "{tag} Šis visuotinis nustatymas neperrašo individualaus Kill Switch, sukonfigūruoto konkrečiose VPN politikose.",
+        "allow_non_vpn_traffic_sort_tips": "Nesutampantis srautas naudoja tipinį internetą.",
+        "allow_non_vpn_traffic_desc": "Nesutampantis srautas pasieks internetą naudodamas jūsų tipinį ryšį.",
+        "enhanced_kill_switch_sort_tips": "Nesutampantis srautas yra aiškiai blokuojamas.",
+        "enhanced_kill_switch_desc": "Priversti visus įrenginius naudoti VPN, kad pasiektų internetą. Bet koks srautas, kuris neatitinka VPN tunelio, bus užblokuotas."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
