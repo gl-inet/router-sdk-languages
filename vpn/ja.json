@@ -503,7 +503,8 @@
         "enable_killswitch_tips": "有効にすると、このVPNトンネルに割り当てられたトラフィックは、トンネルが予期せず切断された場合にブロックされます。",
         "disable_killswitch_tips": "無効にすると、トラフィックは「その他のすべてのトラフィック」ポリシーに従って処理されます。",
         "not_use_killswitch_tips": "オフの場合、トラフィックは「その他のすべてのトラフィック」ポリシーに従います。",
-        "default_tunnel_kill_switch_enabled_tips": "{label}: 有効にすると、VPNトラフィックのみがインターネットへのアクセスを許可されます。VPN以外のすべてのトラフィックおよびポリシーグループ内で失敗したトラフィックはブロックされます。このグローバル設定は、各ポリシーグループの個別のKill Switchを上書きして無効にします。"
+        "default_tunnel_kill_switch_enabled_tips": "{label}: 有効にすると、VPNトラフィックのみがインターネットへのアクセスを許可されます。VPN以外のすべてのトラフィックおよびポリシーグループ内で失敗したトラフィックはブロックされます。このグローバル設定は、各ポリシーグループの個別のKill Switchを上書きして無効にします。",
+        "all_other_traffic_setting_title": "その他のトラフィック設定"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
