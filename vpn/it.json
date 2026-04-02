@@ -328,7 +328,10 @@
         "refer_step_three_tips": "3. {contact}",
         "exit_ip_address_label": "Indirizzo IP di Uscita",
         "oops_label": "Ops...",
-        "refer_step_one_tips": "1. Per assicurarsi che le impostazioni di inoltro delle porte del dispositivo a monte siano corrette, fare riferimento alle informazioni nella tabella sottostante:"
+        "refer_step_one_tips": "1. Per assicurarsi che le impostazioni di inoltro delle porte del dispositivo a monte siano corrette, fare riferimento alle informazioni nella tabella sottostante:",
+        "go_to_vpn_dashboard": "Vai alla Dashboard",
+        "vpn_dashboard_desc": "Configurazione caricata. Vai alla Dashboard VPN per creare e gestire tunnel VPN.",
+        "vpn_dashboard_desc_provider": "Hai effettuato l'accesso a {provider}. Vai alla Dashboard VPN per creare e gestire tunnel VPN."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -580,7 +583,9 @@
         "legacy_title": "Legacy:",
         "legacy_desc": "Ha una maggiore compatibilità di configurazione. Se la connessione fallisce, puoi provare a passare a questa opzione.",
         "modern_label": "Modern",
-        "modern_desc": "Adatto alla maggior parte dei servizi VPN, offre prestazioni e sicurezza migliori."
+        "modern_desc": "Adatto alla maggior parte dei servizi VPN, offre prestazioni e sicurezza migliori.",
+        "enabled_dco_tooltip": "Abilita DCO per migliorare prestazioni e sicurezza per la maggior parte delle VPN; disabilitalo in caso di problemi di compatibilità.",
+        "enabled_dco": "DCO abilitato"
     },
     "menu_vpn-client": "Profilo Client VPN",
     "internet": {
