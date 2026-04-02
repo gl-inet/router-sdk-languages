@@ -328,7 +328,10 @@
         "refer_step_three_tips": "3. {contact}",
         "vpn_server_connectivity_tips": "このルーターがNATの背後にある場合、ISPルーター{gateway}でポート転送を設定する必要があるかもしれません。",
         "protocol_label": "プロトコル",
-        "exit_ip_address_label": "出口IPアドレス"
+        "exit_ip_address_label": "出口IPアドレス",
+        "go_to_vpn_dashboard": "ダッシュボードに移動",
+        "vpn_dashboard_desc_provider": "{provider}にサインインしています。VPNトンネルを作成および管理するには、VPNダッシュボードに移動してください。",
+        "vpn_dashboard_desc": "設定がアップロードされました。VPNトンネルを作成および管理するには、VPNダッシュボードに移動してください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
@@ -580,7 +583,9 @@
         "legacy_title": "レガシー:",
         "legacy_desc": "より高い設定互換性を備えています。接続に失敗した場合は、このオプションに切り替えて試してみてください。",
         "modern_label": "モダン",
-        "modern_desc": "ほとんどのVPNサービスに適しており、より優れたパフォーマンスとセキュリティを提供します。"
+        "modern_desc": "ほとんどのVPNサービスに適しており、より優れたパフォーマンスとセキュリティを提供します。",
+        "enabled_dco_tooltip": "ほとんどのVPNのパフォーマンスとセキュリティを向上させるためにDCOを有効にします。互換性の問題が発生した場合は無効にしてください。",
+        "enabled_dco": "DCOを有効化"
     },
     "menu_vpn-client": "VPNクライアントプロファイル",
     "internet": {
