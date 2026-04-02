@@ -29,7 +29,22 @@
         "err_vlan_param_invalid": "„VLAN“ parametrų patikrinimas nepavyko. Patikrinkite „VLAN“ veikseną, „PVID“ arba leistinus „VLAN“.",
         "err_wan_vlan_dualwan_conflict": "„WAN VLAN“ prieštarauja dvigubo „WAN“ konfigūracijai.",
         "err_wan_port_limit_exceeded": "Pasiektas maksimalus išorinių tinklų („WAN“) prievadų skaičius.",
-        "max_wan_reached": "Leidžiami tik 2 WAN prievadai. Pirmiausia perjunkite kitą prievadą į vietinį tinklą (LAN)."
+        "max_wan_reached": "Leidžiami tik 2 WAN prievadai. Pirmiausia perjunkite kitą prievadą į vietinį tinklą (LAN).",
+        "mac_mode": "MAC veiksena",
+        "vlan_mode_tips": "Tipinė veiksena leidžia tik vieną VLAN (nepažymėtą), naudojamą galutiniams įrenginiams prijungti. Kelių VLAN veiksena leidžia kelis VLAN (pažymėtus) viename prievade, paprastai skirtą prieigos taškams ar kitiems jungikliams prijungti.",
+        "network_assignment": "Gimtasis tinklas (PVID / Nepažymėtas)",
+        "network_assignment_tips": "PVID yra numatytasis nepazymėto srauto tinklas. Srautas iš nepazymėtų įrenginių bus priskirtas šiam tinklui.",
+        "select_network": "Pasirinkite tinklą",
+        "select_networks": "Pasirinkite tinklus",
+        "allowed_tagged_networks": "Leidžiami pažymėti tinklai",
+        "module_status": "Modulio būklė",
+        "not_inserted": "Neįterptas",
+        "port_mode": "Prievado veiksena",
+        "port_mode_tip_wan": "WAN prievadas jungiasi prie jūsų interneto modemo arba išsiunčiamojo tinklo.",
+        "port_mode_tip_lan": "Vietinio tinklo prievadas jungiasi prie vietinių įrenginių arba žemesnio lygio jungiklių.",
+        "auto_update_mac": "Automatinis MAC atnaujinimas",
+        "negotiated_port_rate": "Suderintas tinklo prievado sparta",
+        "mac_replacement": "MAC pakeitimo intervalas"
     },
     "menu_ethernet-port": "Eterneto prievadas"
 }
