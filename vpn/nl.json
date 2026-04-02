@@ -328,7 +328,10 @@
         "refer_step_two_tips": "2. Zorg ervoor dat de firewallinstellingen op het upstream-apparaat correct zijn.",
         "refer_step_three_tips": "3. {contact}",
         "exit_ip_address_label": "Exit IP-adres",
-        "protocol_label": "Protocol"
+        "protocol_label": "Protocol",
+        "go_to_vpn_dashboard": "Ga naar Dashboard",
+        "vpn_dashboard_desc_provider": "U bent aangemeld bij {provider}. Ga naar het VPN-dashboard om VPN-tunnels aan te maken en te beheren.",
+        "vpn_dashboard_desc": "Configuratie geüpload. Ga naar het VPN-dashboard om VPN-tunnels aan te maken en te beheren."
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
@@ -580,7 +583,9 @@
         "legacy_desc": "Het heeft een hogere configuratiecompatibiliteit. Als de verbinding mislukt, kunt u proberen over te schakelen naar deze optie.",
         "modern_label": "Modern",
         "modern_title": "Modern (Aanbevolen):",
-        "modern_desc": "Geschikt voor de meeste VPN-diensten, biedt betere prestaties en beveiliging."
+        "modern_desc": "Geschikt voor de meeste VPN-diensten, biedt betere prestaties en beveiliging.",
+        "enabled_dco_tooltip": "Schakel DCO in om de prestaties en beveiliging voor de meeste VPN's te verbeteren; schakel het uit als er compatibiliteitsproblemen optreden.",
+        "enabled_dco": "DCO ingeschakeld"
     },
     "menu_vpn-client": "VPN-clientprofiel",
     "internet": {
