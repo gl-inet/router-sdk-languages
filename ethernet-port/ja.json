@@ -30,6 +30,21 @@
         "err_port_cannot_switch_to_wan": "このポートはWANに切り替えることができません。",
         "err_secondwan_already_exists": "secondwanは既に存在します。このポートをsecondwanとして設定することはできません。",
         "err_tap_s2s_mode_enabled": "TAP-S2Sモードが有効になっています。この機能は利用できません。",
-        "max_wan_reached": "WANポートは2つまでしか許可されていません。別のポートをLANに切り替えてください。"
+        "max_wan_reached": "WANポートは2つまでしか許可されていません。別のポートをLANに切り替えてください。",
+        "mac_mode": "MACモード",
+        "port_mode": "ポートモード",
+        "port_mode_tip_lan": "LANポートはローカルデバイスまたは下流スイッチに接続します。",
+        "mac_replacement": "MAC置換間隔",
+        "vlan_mode_tips": "標準モードでは、エンドデバイス接続用に1つのVLAN（Untagged）のみを許可します。複数VLANモードでは、1つのポートで複数のVLAN（Tagged）を許可し、通常はAPや他のスイッチ接続に使用します。",
+        "network_assignment": "ネイティブネットワーク (PVID / タグなし)",
+        "network_assignment_tips": "PVIDは、タグなしトラフィックのデフォルトネットワークです。タグなしデバイスからのトラフィックはこのネットワークに割り当てられます。",
+        "select_network": "ネットワークを選択",
+        "allowed_tagged_networks": "許可されたタグ付きネットワーク",
+        "module_status": "モジュールステータス",
+        "not_inserted": "未挿入",
+        "port_mode_tip_wan": "WANポートは、インターネットモデムまたは上流ネットワークに接続します。",
+        "auto_update_mac": "MAC自動更新",
+        "negotiated_port_rate": "ネゴシエートされたネットワークポートレート",
+        "select_networks": "ネットワークを選択"
     }
 }
