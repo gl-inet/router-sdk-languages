@@ -504,7 +504,14 @@
         "disable_killswitch_tips": "Cuando está deshabilitado, el tráfico se manejará de acuerdo con la política de Todo Otro Tráfico.",
         "not_use_killswitch_tips": "El tráfico sigue la política de Todo Otro Tráfico cuando está apagado.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Cuando está habilitado, solo se permite el tráfico VPN para acceder a Internet. Todo el tráfico no VPN y el tráfico fallido dentro de los grupos de políticas será bloqueado. Esta configuración global anula y desactiva el Kill Switch individual para cada grupo de políticas.",
-        "all_other_traffic_setting_title": "Configuración de Tráfico Restante"
+        "all_other_traffic_setting_title": "Configuración de Tráfico Restante",
+        "all_other_traffic_setting_tips": "Esta configuración controla si el tráfico que no coincide con ningún túnel VPN activo puede acceder a Internet.",
+        "allow_non_vpn_default_tips": "\"{label}\" está habilitado por defecto para garantizar el acceso normal a Internet para el tráfico no VPN.",
+        "enhanced_kill_switch_note_tips": "{tag} Esta configuración global no anula el Kill Switch individual configurado dentro de políticas VPN específicas.",
+        "allow_non_vpn_traffic_sort_tips": "El tráfico no coincidente utiliza Internet estándar.",
+        "allow_non_vpn_traffic_desc": "El tráfico no coincidente accederá a Internet utilizando su conexión estándar.",
+        "enhanced_kill_switch_sort_tips": "El tráfico no coincidente está explícitamente bloqueado.",
+        "enhanced_kill_switch_desc": "Forzar a todos los dispositivos a usar una VPN para acceder a Internet. Cualquier tráfico que no coincida con un túnel VPN será bloqueado."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
