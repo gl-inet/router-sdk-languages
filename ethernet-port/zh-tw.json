@@ -30,6 +30,21 @@
         "err_interface_in_lan_mode": "該介面處於LAN模式，無法接受WAN配置。",
         "err_virtual_interface_missing": "缺少對應的虛擬介面。",
         "err_unplug_cable_before_switch_lan": "請在切換到LAN之前拔掉網線。",
-        "max_wan_reached": "只允許使用2個WAN端口。請先將另一個端口切換為LAN。"
+        "max_wan_reached": "只允許使用2個WAN端口。請先將另一個端口切換為LAN。",
+        "module_status": "模組狀態",
+        "mac_mode": "MAC 模式",
+        "not_inserted": "未插入",
+        "port_mode": "埠模式",
+        "port_mode_tip_wan": "WAN 埠連接到您的網際網路數據機或上游網路。",
+        "port_mode_tip_lan": "LAN埠連接本地設備或下游交換器。",
+        "auto_update_mac": "自動更新MAC",
+        "negotiated_port_rate": "協商網路埠速率",
+        "mac_replacement": "MAC替換間隔",
+        "vlan_mode_tips": "標準模式僅允許一個VLAN（未標記），用於連接終端設備。多VLAN模式允許在一個埠上配置多個VLAN（已標記），通常用於連接AP或其他交換器。",
+        "network_assignment": "原生網路 (PVID / 未標記)",
+        "network_assignment_tips": "PVID 是未標記流量的預設網路。來自未標記裝置的流量將被分配到此網路。",
+        "select_network": "選擇網路",
+        "allowed_tagged_networks": "允許的標記網路",
+        "select_networks": "選擇網路"
     }
 }
