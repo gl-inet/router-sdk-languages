@@ -504,7 +504,14 @@
         "disable_killswitch_tips": "비활성화 시 트래픽은 '기타 모든 트래픽' 정책에 따라 처리됩니다.",
         "not_use_killswitch_tips": "꺼져 있을 때 트래픽은 다른 모든 트래픽 정책을 따릅니다.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: 활성화 시 VPN 트래픽만 인터넷에 접근할 수 있습니다. 모든 비-VPN 트래픽 및 정책 그룹 내 실패한 트래픽은 차단됩니다. 이 글로벌 설정은 각 정책 그룹의 개별 Kill Switch를 재정의하고 비활성화합니다.",
-        "all_other_traffic_setting_title": "기타 모든 트래픽 설정"
+        "all_other_traffic_setting_title": "기타 모든 트래픽 설정",
+        "all_other_traffic_setting_tips": "이 설정은 활성 VPN 터널과 일치하지 않는 트래픽이 인터넷에 접근할 수 있는지 여부를 제어합니다.",
+        "allow_non_vpn_default_tips": "\"{label}\"은(는) VPN이 아닌 트래픽의 정상적인 인터넷 접속을 보장하기 위해 기본적으로 활성화됩니다.",
+        "enhanced_kill_switch_note_tips": "{tag} 이 글로벌 설정은 특정 VPN 정책 내에서 구성된 개별 Kill Switch를 재정의하지 않습니다.",
+        "allow_non_vpn_traffic_sort_tips": "일치하지 않는 트래픽은 표준 인터넷을 사용합니다.",
+        "enhanced_kill_switch_sort_tips": "일치하지 않는 트래픽은 명시적으로 차단됩니다.",
+        "allow_non_vpn_traffic_desc": "일치하지 않는 트래픽은 표준 연결을 사용하여 인터넷에 접속합니다.",
+        "enhanced_kill_switch_desc": "모든 장치가 VPN을 사용하여 인터넷에 접속하도록 강제합니다. VPN 터널과 일치하지 않는 모든 트래픽은 차단됩니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
