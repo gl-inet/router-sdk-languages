@@ -29,7 +29,22 @@
         "err_unplug_cable_before_switch_lan": "Trek de kabel los voordat u overschakelt naar LAN.",
         "err_secondwan_already_exists": "secondwan bestaat al. Deze poort kan niet worden geconfigureerd als secondwan.",
         "err_tap_s2s_mode_enabled": "TAP-S2S-modus is ingeschakeld. Deze functie is niet beschikbaar.",
-        "max_wan_reached": "Er zijn slechts 2 WAN-poorten toegestaan. Schakel eerst een andere poort over naar LAN."
+        "max_wan_reached": "Er zijn slechts 2 WAN-poorten toegestaan. Schakel eerst een andere poort over naar LAN.",
+        "mac_mode": "MAC-modus",
+        "module_status": "Modulestatus",
+        "not_inserted": "Niet Ingevoegd",
+        "port_mode": "Poortmodus",
+        "port_mode_tip_wan": "De WAN-poort verbindt met uw internetmodem of upstream-netwerk.",
+        "port_mode_tip_lan": "De LAN-poort verbindt met lokale apparaten of downstream-switches.",
+        "auto_update_mac": "Automatische MAC-update",
+        "negotiated_port_rate": "Onderhandelde netwerkpoortsnelheid",
+        "mac_replacement": "MAC-vervangingsinterval",
+        "vlan_mode_tips": "Standaardmodus staat slechts één VLAN (Ongemarkeerd) toe, gebruikt voor het aansluiten van eindapparaten. Meerdere VLAN's-modus staat meerdere VLAN's (Gemarkeerd) toe op één poort, typisch voor het aansluiten van AP's of andere switches.",
+        "network_assignment": "Native netwerk (PVID / Ongetagd)",
+        "network_assignment_tips": "PVID is het standaardnetwerk voor ongetagd verkeer. Verkeer van ongetagde apparaten wordt aan dit netwerk toegewezen.",
+        "select_network": "Selecteer netwerk",
+        "select_networks": "Selecteer netwerken",
+        "allowed_tagged_networks": "Toegestane getagde netwerken"
     },
     "menu_ethernet-port": "Ethernetpoort"
 }
