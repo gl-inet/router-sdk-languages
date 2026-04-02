@@ -29,7 +29,22 @@
         "err_tap_s2s_mode_enabled": "TAP-S2S模式已启用。此功能不可用。",
         "err_port_cannot_switch_to_wan": "此端口无法切换到WAN。",
         "err_unplug_cable_before_switch_lan": "切换到LAN前请拔掉网线。",
-        "max_wan_reached": "仅允许使用2个WAN端口。请先将另一个端口切换为LAN。"
+        "max_wan_reached": "仅允许使用2个WAN端口。请先将另一个端口切换为LAN。",
+        "module_status": "模块状态",
+        "mac_mode": "MAC 模式",
+        "not_inserted": "未插入",
+        "port_mode": "端口模式",
+        "port_mode_tip_wan": "WAN 端口连接到您的互联网调制解调器或上游网络。",
+        "port_mode_tip_lan": "LAN端口连接到本地设备或下游交换机。",
+        "auto_update_mac": "自动更新MAC",
+        "negotiated_port_rate": "协商网络端口速率",
+        "mac_replacement": "MAC替换间隔",
+        "vlan_mode_tips": "标准模式仅允许一个VLAN（未标记），用于连接终端设备。多VLAN模式允许在一个端口上配置多个VLAN（已标记），通常用于连接AP或其他交换机。",
+        "network_assignment": "本机网络 (PVID / 未标记)",
+        "network_assignment_tips": "PVID 是未标记流量的默认网络。来自未标记设备的流量将被分配到此网络。",
+        "select_network": "选择网络",
+        "allowed_tagged_networks": "允许的标记网络",
+        "select_networks": "选择网络"
     },
     "menu_ethernet-port": "网络端口"
 }
