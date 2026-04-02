@@ -58,7 +58,6 @@
         "invalidFormat": "Netinkamas formatas",
         "addressReservationTip": "Kai nurodote rezervuotą IP adresą vietinio tinklo klientui, klientas visada gaus tą patį IP adresą, kai jis prašo IP adreso iš maršrutizatoriaus DHCP serverio. Galite priskirti rezervuotus IP adresus kompiuteriams ar serveriams, kuriems reikalingi nuolatiniai IP nustatymai.",
         "tip": "Tvarkykite tinklo segmentaciją naudodami VLAN, kad izoliuotumėte srautą ir pagerintumėte saugumą.",
-        "dhcpTip": "Įjunkite DHCP, kad automatiškai priskirtų IP adresus šio tinklo įrenginiams.",
         "err_vlan_id_in_use": "„VLAN“ ID jau yra naudojamas.",
         "err_subnet_conflict": "Potinklio adreso konfliktas.",
         "err_subnet_bound_migrate_first": "Šis potinklis yra priskirtas prie „Ethernet“ prievado ir negali būti ištrintas. Pirmiausia perkelkite prievadus.",
