@@ -328,7 +328,10 @@
         "refer_step_two_tips": "2. Upewnij się, że ustawienia zapory na urządzeniu nadrzędnym są poprawne.",
         "refer_step_three_tips": "3. {contact}",
         "reachable_label": "Osiągalny",
-        "exit_ip_address_label": "Adres IP wyjścia"
+        "exit_ip_address_label": "Adres IP wyjścia",
+        "go_to_vpn_dashboard": "Przejdź do Panelu sterowania",
+        "vpn_dashboard_desc": "Konfiguracja przesłana. Przejdź do Panelu sterowania VPN, aby tworzyć i zarządzać tunelami VPN.",
+        "vpn_dashboard_desc_provider": "Jesteś zalogowany do {provider}. Przejdź do Panelu sterowania VPN, aby tworzyć i zarządzać tunelami VPN."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
@@ -580,7 +583,9 @@
         "legacy_desc": "Ma wyższą kompatybilność konfiguracji. Jeśli połączenie się nie powiedzie, możesz spróbować przełączyć się na tę opcję.",
         "legacy_title": "Starsze:",
         "modern_label": "Nowoczesny",
-        "modern_desc": "Odpowiedni dla większości usług VPN, oferujący lepszą wydajność i bezpieczeństwo."
+        "modern_desc": "Odpowiedni dla większości usług VPN, oferujący lepszą wydajność i bezpieczeństwo.",
+        "enabled_dco_tooltip": "Włącz DCO, aby poprawić wydajność i bezpieczeństwo większości sieci VPN; wyłącz je, jeśli wystąpią problemy ze zgodnością.",
+        "enabled_dco": "Włączono DCO"
     },
     "menu_vpn-client": "Profil Klienta VPN",
     "internet": {
