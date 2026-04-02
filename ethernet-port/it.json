@@ -30,6 +30,21 @@
         "err_port_invalid_or_unsupported": "Porta non supportata o nome non valido.",
         "err_vlan_param_invalid": "Validazione dei parametri VLAN non riuscita. Si prega di verificare la modalità VLAN, il PVID o le VLAN consentite.",
         "err_wan_port_limit_exceeded": "È stato raggiunto il numero massimo di porte WAN.",
-        "max_wan_reached": "Sono consentiti solo 2 porte WAN. Si prega di commutare prima un'altra porta in LAN."
+        "max_wan_reached": "Sono consentiti solo 2 porte WAN. Si prega di commutare prima un'altra porta in LAN.",
+        "mac_mode": "Modalità MAC",
+        "module_status": "Stato del Modulo",
+        "not_inserted": "Non Inserito",
+        "port_mode": "Modalità Porta",
+        "port_mode_tip_lan": "La porta LAN si collega a dispositivi locali o switch a valle.",
+        "auto_update_mac": "Aggiornamento Automatico MAC",
+        "mac_replacement": "Intervallo di Sostituzione MAC",
+        "vlan_mode_tips": "La modalità Standard consente solo una VLAN (Non etichettata), utilizzata per collegare dispositivi finali. La modalità VLAN Multiple consente più VLAN (Etichettate) su una porta, tipicamente per collegare AP o altri switch.",
+        "network_assignment": "Rete Nativa (PVID / Senza Tag)",
+        "network_assignment_tips": "Il PVID è la rete predefinita per il traffico senza tag. Il traffico proveniente da dispositivi senza tag verrà assegnato a questa rete.",
+        "select_network": "Seleziona rete",
+        "allowed_tagged_networks": "Reti con Tag Consentite",
+        "select_networks": "Seleziona reti",
+        "port_mode_tip_wan": "La porta WAN si collega al tuo modem Internet o alla rete a monte.",
+        "negotiated_port_rate": "Velocità Porta di Rete Negoziale"
     }
 }
