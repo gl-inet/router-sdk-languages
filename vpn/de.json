@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. Um sicherzustellen, dass die Portweiterleitungseinstellungen des vorgeschalteten Geräts korrekt sind, beziehen Sie sich bitte auf die Informationen in der folgenden Tabelle:",
         "refer_step_two_tips": "2. Stellen Sie sicher, dass die Firewall-Einstellungen auf dem vorgeschalteten Gerät korrekt sind.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "Exit-IP-Adresse"
+        "exit_ip_address_label": "Exit-IP-Adresse",
+        "go_to_vpn_dashboard": "Zum Dashboard gehen",
+        "vpn_dashboard_desc": "Konfiguration hochgeladen. Gehen Sie zum VPN-Dashboard, um VPN-Tunnel zu erstellen und zu verwalten.",
+        "vpn_dashboard_desc_provider": "Sie sind bei {provider} angemeldet. Gehen Sie zum VPN-Dashboard, um VPN-Tunnel zu erstellen und zu verwalten."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -580,7 +583,9 @@
         "legacy_title": "Legacy:",
         "legacy_desc": "Es bietet eine höhere Konfigurationskompatibilität. Bei Verbindungsproblemen können Sie versuchen, zu dieser Option zu wechseln.",
         "modern_label": "Modern",
-        "modern_desc": "Geeignet für die meisten VPN-Dienste, bietet bessere Leistung und Sicherheit."
+        "modern_desc": "Geeignet für die meisten VPN-Dienste, bietet bessere Leistung und Sicherheit.",
+        "enabled_dco": "DCO aktiviert",
+        "enabled_dco_tooltip": "Aktivieren Sie DCO, um die Leistung und Sicherheit für die meisten VPNs zu verbessern; deaktivieren Sie es, wenn Kompatibilitätsprobleme auftreten."
     },
     "menu_vpn-client": "VPN-Client-Profil",
     "internet": {
