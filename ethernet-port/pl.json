@@ -29,7 +29,22 @@
         "err_tap_s2s_mode_enabled": "Włączono tryb TAP-S2S. Ta funkcja jest niedostępna.",
         "err_feature_not_supported": "Funkcja nieobsługiwana. Brak pasującego portu na tym urządzeniu lub ograniczenie secondwan.",
         "err_unplug_cable_before_switch_lan": "Odłącz kabel przed przełączeniem na LAN.",
-        "max_wan_reached": "Dozwolone są tylko 2 porty WAN. Najpierw przełącz inny port na LAN."
+        "max_wan_reached": "Dozwolone są tylko 2 porty WAN. Najpierw przełącz inny port na LAN.",
+        "mac_mode": "Tryb MAC",
+        "module_status": "Status modułu",
+        "not_inserted": "Nie wstawiono",
+        "port_mode": "Tryb portu",
+        "port_mode_tip_wan": "Port WAN łączy się z modemem internetowym lub siecią nadrzędną.",
+        "port_mode_tip_lan": "Port LAN łączy się z urządzeniami lokalnymi lub przełącznikami podrzędnymi.",
+        "auto_update_mac": "Automatyczna aktualizacja MAC",
+        "negotiated_port_rate": "Uzgodniona szybkość portu sieciowego",
+        "mac_replacement": "Interwał wymiany adresu MAC",
+        "vlan_mode_tips": "Tryb standardowy pozwala tylko na jedną sieć VLAN (nieoznakowaną), używaną do podłączania urządzeń końcowych. Tryb wielu sieci VLAN pozwala na wiele sieci VLAN (oznakowanych) na jednym porcie, zazwyczaj do podłączania punktów dostępowych lub innych przełączników.",
+        "network_assignment": "Sieć natywna (PVID / Bez tagów)",
+        "network_assignment_tips": "PVID to domyślna sieć dla ruchu bez tagów. Ruch z urządzeń bez tagów zostanie przypisany do tej sieci.",
+        "select_network": "Wybierz sieć",
+        "allowed_tagged_networks": "Dozwolone sieci z tagami",
+        "select_networks": "Wybierz sieci"
     },
     "menu_ethernet-port": "Port Ethernet"
 }
