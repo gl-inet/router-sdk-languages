@@ -504,7 +504,14 @@
         "disable_killswitch_tips": "当禁用时，流量将根据所有其他流量策略进行处理。",
         "not_use_killswitch_tips": "Il traffico segue la politica di Tutto il Resto del Traffico quando è disattivato.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Quando abilitato, solo il traffico VPN è autorizzato ad accedere a Internet. Tutto il traffico non VPN e il traffico fallito all'interno dei gruppi di policy verrà bloccato. Questa impostazione globale sostituisce e disabilita il Kill Switch individuale per ciascun gruppo di policy.",
-        "all_other_traffic_setting_title": "所有其他流量设置"
+        "all_other_traffic_setting_title": "所有其他流量设置",
+        "all_other_traffic_setting_tips": "Questa impostazione controlla se il traffico non corrispondente a nessun tunnel VPN attivo può accedere a Internet.",
+        "allow_non_vpn_default_tips": "\"{label}\" è abilitato per impostazione predefinita per garantire l'accesso normale a Internet per il traffico non-VPN.",
+        "enhanced_kill_switch_note_tips": "{tag} Questa impostazione globale non sostituisce il Kill Switch individuale configurato all'interno di specifiche politiche VPN.",
+        "allow_non_vpn_traffic_sort_tips": "Il traffico non corrispondente utilizza Internet standard.",
+        "enhanced_kill_switch_sort_tips": "Il traffico non corrispondente è esplicitamente bloccato.",
+        "enhanced_kill_switch_desc": "Forza tutti i dispositivi a utilizzare una VPN per accedere a Internet. Qualsiasi traffico che non corrisponde a un tunnel VPN verrà bloccato.",
+        "allow_non_vpn_traffic_desc": "Il traffico non corrispondente accederà a Internet utilizzando la tua connessione standard."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
