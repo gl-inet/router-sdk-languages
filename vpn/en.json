@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. To ensure the upstream device's port forwarding settings are correct, please refer to the information in the table below:",
         "refer_step_two_tips": "2. Ensure the firewall settings on the upstream device are correct.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "Exit IP address"
+        "exit_ip_address_label": "Exit IP address",
+        "vpn_dashboard_desc": "Configuration uploaded. Go to the VPN Dashboard to create and manage VPN tunnels.",
+        "go_to_vpn_dashboard": "Go to Dashboard",
+        "vpn_dashboard_desc_provider": "You're signed in to {provider}. Go to the VPN Dashboard to create and manage VPN tunnels."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -580,7 +583,9 @@
         "legacy_title": "Legacy:",
         "legacy_desc": "It has higher configuration compatibility. If connection fails, you can try switching to this option.",
         "modern_label": "Modern",
-        "modern_desc": "Suitable for most VPN services, offering better performance and security."
+        "modern_desc": "Suitable for most VPN services, offering better performance and security.",
+        "enabled_dco": "Enabled DCO",
+        "enabled_dco_tooltip": "Enable DCO to improve performance and security for most VPNs; disable it if compatibility issues occur."
     },
     "menu_vpn-client": "VPN Client Profile",
     "internet": {
