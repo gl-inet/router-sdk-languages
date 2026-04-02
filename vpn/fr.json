@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. Pour vérifier que les paramètres de transfert de ports de l'appareil en amont sont corrects, veuillez vous référer aux informations du tableau ci-dessous :",
         "refer_step_two_tips": "2. Assurez-vous que les paramètres du pare-feu sur l'appareil en amont sont corrects.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "Adresse IP de sortie"
+        "exit_ip_address_label": "Adresse IP de sortie",
+        "go_to_vpn_dashboard": "Accéder au Tableau de bord",
+        "vpn_dashboard_desc_provider": "Vous êtes connecté à {provider}. Accédez au Tableau de bord VPN pour créer et gérer les tunnels VPN.",
+        "vpn_dashboard_desc": "Configuration téléchargée. Accédez au Tableau de bord VPN pour créer et gérer les tunnels VPN."
     },
     "menu_wgserver": "Serveur Wireguard",
     "menu_ovpnserver": "Serveur OpenVPN",
@@ -580,7 +583,9 @@
         "legacy_title": "Ancien :",
         "legacy_desc": "Il offre une meilleure compatibilité de configuration. Si la connexion échoue, vous pouvez essayer de passer à cette option.",
         "modern_label": "Moderne",
-        "modern_desc": "Convient à la plupart des services VPN, offrant de meilleures performances et une meilleure sécurité."
+        "modern_desc": "Convient à la plupart des services VPN, offrant de meilleures performances et une meilleure sécurité.",
+        "enabled_dco": "DCO activé",
+        "enabled_dco_tooltip": "Activez DCO pour améliorer les performances et la sécurité de la plupart des VPN ; désactivez-le en cas de problèmes de compatibilité."
     },
     "menu_vpn-client": "Profil du client VPN",
     "internet": {
