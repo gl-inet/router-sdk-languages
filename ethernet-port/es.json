@@ -30,6 +30,21 @@
         "err_port_cannot_switch_to_wan": "Este puerto no puede cambiarse a WAN.",
         "err_unplug_cable_before_switch_lan": "Por favor, desconecte el cable antes de cambiar a LAN.",
         "err_invalid_mac_mode": "Modo MAC no válido.",
-        "max_wan_reached": "Solo se permiten 2 puertos WAN. Por favor, cambie primero otro puerto a LAN."
+        "max_wan_reached": "Solo se permiten 2 puertos WAN. Por favor, cambie primero otro puerto a LAN.",
+        "mac_mode": "Modo MAC",
+        "module_status": "Estado del Módulo",
+        "not_inserted": "No Insertado",
+        "port_mode": "Modo de Puerto",
+        "port_mode_tip_wan": "El puerto WAN se conecta a su módem de Internet o a la red ascendente.",
+        "auto_update_mac": "Actualización Automática de MAC",
+        "negotiated_port_rate": "Tasa de Puerto de Red Negociada",
+        "mac_replacement": "Intervalo de Reemplazo de MAC",
+        "vlan_mode_tips": "El modo estándar permite solo una VLAN (sin etiquetar), utilizada para conectar dispositivos finales. El modo de múltiples VLAN permite múltiples VLAN (etiquetadas) en un puerto, típicamente para conectar APs u otros switches.",
+        "network_assignment": "Red Nativa (PVID / Sin Etiquetar)",
+        "network_assignment_tips": "PVID es la red predeterminada para el tráfico sin etiquetar. El tráfico de dispositivos sin etiquetar se asignará a esta red.",
+        "select_network": "Seleccionar red",
+        "allowed_tagged_networks": "Redes Etiquetadas Permitidas",
+        "select_networks": "Seleccionar redes",
+        "port_mode_tip_lan": "El puerto LAN se conecta a dispositivos locales o switches descendentes."
     }
 }
