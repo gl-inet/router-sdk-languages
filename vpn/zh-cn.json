@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. 为确保上游设备的端口转发设置正确，请参考下表中的信息：",
         "refer_step_two_tips": "2. 确保上游设备的防火墙设置正确。",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "出口 IP 地址"
+        "exit_ip_address_label": "出口 IP 地址",
+        "go_to_vpn_dashboard": "前往控制面板",
+        "vpn_dashboard_desc": "配置已上传。请前往 VPN 控制面板以创建和管理 VPN 隧道。",
+        "vpn_dashboard_desc_provider": "您已登录到 {provider}。请前往 VPN 控制面板以创建和管理 VPN 隧道。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -580,7 +583,9 @@
         "modern_title": "现代（推荐）：",
         "legacy_desc": "它具有更高的配置兼容性。如果连接失败，您可以尝试切换到此选项。",
         "modern_label": "现代",
-        "modern_desc": "适用于大多数VPN服务，提供更好的性能和安全性。"
+        "modern_desc": "适用于大多数VPN服务，提供更好的性能和安全性。",
+        "enabled_dco": "已启用 DCO",
+        "enabled_dco_tooltip": "启用 DCO 以提高大多数 VPN 的性能和安全性；如果出现兼容性问题，请禁用它。"
     },
     "menu_vpn-client": "VPN客户端配置文件",
     "internet": {
