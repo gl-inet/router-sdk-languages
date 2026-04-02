@@ -30,6 +30,21 @@
         "err_tap_s2s_mode_enabled": "Tá mód TAP-S2S cumasaithe. Níl an ghné seo ar fáil.",
         "err_virtual_interface_missing": "Tá an comhéadan fíorúil comhfhreagrach ar iarraidh.",
         "err_port_cannot_switch_to_wan": "Ní féidir an port seo a athrú go WAN.",
-        "max_wan_reached": "Ní cheadaítear ach 2 phort WAN. Athraigh port eile go LAN ar dtús."
+        "max_wan_reached": "Ní cheadaítear ach 2 phort WAN. Athraigh port eile go LAN ar dtús.",
+        "mac_mode": "Mód MAC",
+        "module_status": "Stádas an Mhodúil",
+        "not_inserted": "Gan Ionsá",
+        "port_mode": "Modh an Chalafoirt",
+        "port_mode_tip_wan": "Ceanglaíonn an calafort WAN le do mhóideim Idirlín nó le líonra uas-abhann.",
+        "port_mode_tip_lan": "Nascann an calafort LAN gléasanna áitiúla nó lasca síosshrutha.",
+        "mac_replacement": "Eatramh Athsholáthair MAC",
+        "vlan_mode_tips": "Ceadaíonn an modh caighdeánach ach VLAN amháin (Gan Chlib), a úsáidtear chun gléasanna deiridh a nascadh. Ceadaíonn an modh VLANanna Iolracha VLANanna iolracha (Clibithe) ar chalafort amháin, go hiondúil chun APanna nó lasca eile a nascadh.",
+        "network_assignment": "Líonra Dúchais (PVID / Neamhchlibeáilte)",
+        "network_assignment_tips": "Is é PVID an líonra réamhshocraithe don trácht neamhchlibeáilte. Sanntar an trácht ó ghléasanna neamhchlibeáilte don líonra seo.",
+        "select_network": "Roghnaigh líonra",
+        "allowed_tagged_networks": "Líonraí Clibeáilte Ceadaithe",
+        "select_networks": "Roghnaigh líonraí",
+        "auto_update_mac": "MAC Nuashonrú Uathoibríoch",
+        "negotiated_port_rate": "Ráta Calafoirt Líonra Idirbheartaithe"
     }
 }
