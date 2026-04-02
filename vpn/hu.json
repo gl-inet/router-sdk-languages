@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. Annak érdekében, hogy a felsőbb szintű eszköz porttovábbítási beállításai helyesek legyenek, kérjük, tekintse meg az alábbi táblázatban található információkat:",
         "refer_step_two_tips": "2. Győződjön meg arról, hogy a felsőbb szintű eszköz tűzfalbeállításai helyesek.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "Kilépési IP-cím"
+        "exit_ip_address_label": "Kilépési IP-cím",
+        "go_to_vpn_dashboard": "Ugrás az Irányítópultra",
+        "vpn_dashboard_desc_provider": "Bejelentkezett a(z) {provider} szolgáltatásba. Lépjen a VPN Irányítópultra VPN-alagutak létrehozásához és kezeléséhez.",
+        "vpn_dashboard_desc": "A konfiguráció feltöltve. Lépjen a VPN Irányítópultra VPN-alagutak létrehozásához és kezeléséhez."
     },
     "menu_wgserver": "WireGuard-kiszolgáló",
     "menu_ovpnserver": "OpenVPN-kiszolgáló",
@@ -580,7 +583,9 @@
         "legacy_title": "Örökölt:",
         "legacy_desc": "Magasabb konfigurációs kompatibilitással rendelkezik. Ha a kapcsolat meghiúsul, megpróbálhat erre az opcióra váltani.",
         "modern_label": "Modern",
-        "modern_desc": "A legtöbb VPN szolgáltatáshoz ideális, jobb teljesítményt és biztonságot nyújt."
+        "modern_desc": "A legtöbb VPN szolgáltatáshoz ideális, jobb teljesítményt és biztonságot nyújt.",
+        "enabled_dco_tooltip": "Engedélyezze a DCO-t a legtöbb VPN teljesítményének és biztonságának javításához; tiltsa le, ha kompatibilitási problémák merülnek fel.",
+        "enabled_dco": "DCO engedélyezve"
     },
     "menu_vpn-client": "VPN Kliens Profil",
     "internet": {
