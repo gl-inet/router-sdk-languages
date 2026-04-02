@@ -499,7 +499,14 @@
         "disable_killswitch_tips": "Devre dışı bırakıldığında, trafik Tüm Diğer Trafik politikasına göre işlenecektir.",
         "not_use_killswitch_tips": "Kapalıyken trafik, Tüm Diğer Trafik politikasını izler.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Etkinleştirildiğinde, yalnızca VPN trafiğinin internete erişmesine izin verilir. VPN dışındaki tüm trafik ve politika grupları içindeki başarısız trafik engellenecektir. Bu genel ayar, her politika grubu için ayrı Kill Switch'i geçersiz kılar ve devre dışı bırakır.",
-        "all_other_traffic_setting_title": "Diğer Tüm Trafik Ayarları"
+        "all_other_traffic_setting_title": "Diğer Tüm Trafik Ayarları",
+        "all_other_traffic_setting_tips": "Bu ayar, herhangi bir aktif VPN tüneliyle eşleşmeyen trafiğin internete erişip erişemeyeceğini kontrol eder.",
+        "allow_non_vpn_traffic_sort_tips": "Eşleşmeyen trafik standart interneti kullanır.",
+        "allow_non_vpn_traffic_desc": "Eşleşmeyen trafik, standart bağlantınızı kullanarak internete erişecektir.",
+        "enhanced_kill_switch_sort_tips": "Eşleşmeyen trafik açıkça engellenir.",
+        "enhanced_kill_switch_desc": "Tüm cihazların internete erişmek için bir VPN kullanmasını zorla. Bir VPN tüneliyle eşleşmeyen herhangi bir trafik engellenecektir.",
+        "allow_non_vpn_default_tips": "\"{label}\", VPN dışı trafiğin normal internet erişimini sağlamak için varsayılan olarak etkindir.",
+        "enhanced_kill_switch_note_tips": "{tag} Bu genel ayar, belirli VPN politikaları içinde yapılandırılan bireysel Kill Switch'i geçersiz kılmaz."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
