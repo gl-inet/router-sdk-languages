@@ -504,7 +504,14 @@
         "disable_killswitch_tips": "Lorsqu'il est désactivé, le trafic sera traité conformément à la politique de tout autre trafic.",
         "not_use_killswitch_tips": "Le trafic suit la politique Tous les autres trafics lorsqu'il est désactivé.",
         "default_tunnel_kill_switch_enabled_tips": "{label} : Lorsqu'il est activé, seul le trafic VPN est autorisé à accéder à internet. Tout trafic non-VPN et tout trafic échoué au sein des groupes de politiques sera bloqué. Ce paramètre global remplace et désactive le Kill Switch individuel pour chaque groupe de politiques.",
-        "all_other_traffic_setting_title": "Paramètres de tout autre trafic"
+        "all_other_traffic_setting_title": "Paramètres de tout autre trafic",
+        "all_other_traffic_setting_tips": "Ce paramètre détermine si le trafic non associé à un tunnel VPN actif peut accéder à internet.",
+        "allow_non_vpn_default_tips": "\"{label}\" est activé par défaut pour garantir un accès internet normal pour le trafic non-VPN.",
+        "enhanced_kill_switch_note_tips": "{tag} Ce paramètre global ne remplace pas le Kill Switch individuel configuré dans des politiques VPN spécifiques.",
+        "allow_non_vpn_traffic_sort_tips": "Le trafic non correspondant utilise l'internet standard.",
+        "allow_non_vpn_traffic_desc": "Le trafic non correspondant accédera à internet en utilisant votre connexion standard.",
+        "enhanced_kill_switch_sort_tips": "Le trafic non correspondant est explicitement bloqué.",
+        "enhanced_kill_switch_desc": "Forcer tous les appareils à utiliser un VPN pour accéder à internet. Tout trafic qui ne correspond pas à un tunnel VPN sera bloqué."
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",
