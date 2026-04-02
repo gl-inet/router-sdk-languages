@@ -503,7 +503,8 @@
         "enable_killswitch_tips": "Wanneer ingeschakeld, wordt verkeer dat aan deze VPN-tunnel is toegewezen geblokkeerd als de tunnel onverwacht wordt verbroken.",
         "disable_killswitch_tips": "Wanneer uitgeschakeld, wordt het verkeer afgehandeld volgens het beleid voor al het andere verkeer.",
         "not_use_killswitch_tips": "Verkeer volgt het beleid 'Alle ander verkeer' wanneer uitgeschakeld.",
-        "default_tunnel_kill_switch_enabled_tips": "{label}: Wanneer ingeschakeld, is alleen VPN-verkeer toegestaan om toegang te krijgen tot internet. Al het niet-VPN-verkeer en mislukt verkeer binnen beleidsgroepen wordt geblokkeerd. Deze globale instelling overschrijft en schakelt de individuele Kill Switch voor elke beleidsgroep uit."
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Wanneer ingeschakeld, is alleen VPN-verkeer toegestaan om toegang te krijgen tot internet. Al het niet-VPN-verkeer en mislukt verkeer binnen beleidsgroepen wordt geblokkeerd. Deze globale instelling overschrijft en schakelt de individuele Kill Switch voor elke beleidsgroep uit.",
+        "all_other_traffic_setting_title": "Alle andere verkeersinstellingen"
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
