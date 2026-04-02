@@ -503,7 +503,8 @@
         "enable_killswitch_tips": "Lorsqu'il est activé, le trafic attribué à ce tunnel VPN sera bloqué si le tunnel se déconnecte de manière inattendue.",
         "disable_killswitch_tips": "Lorsqu'il est désactivé, le trafic sera traité conformément à la politique de tout autre trafic.",
         "not_use_killswitch_tips": "Le trafic suit la politique Tous les autres trafics lorsqu'il est désactivé.",
-        "default_tunnel_kill_switch_enabled_tips": "{label} : Lorsqu'il est activé, seul le trafic VPN est autorisé à accéder à internet. Tout trafic non-VPN et tout trafic échoué au sein des groupes de politiques sera bloqué. Ce paramètre global remplace et désactive le Kill Switch individuel pour chaque groupe de politiques."
+        "default_tunnel_kill_switch_enabled_tips": "{label} : Lorsqu'il est activé, seul le trafic VPN est autorisé à accéder à internet. Tout trafic non-VPN et tout trafic échoué au sein des groupes de politiques sera bloqué. Ce paramètre global remplace et désactive le Kill Switch individuel pour chaque groupe de politiques.",
+        "all_other_traffic_setting_title": "Paramètres de tout autre trafic"
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",
