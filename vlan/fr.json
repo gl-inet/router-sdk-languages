@@ -58,7 +58,6 @@
         "addressReservationTip": "Lorsque vous spécifiez une adresse IP réservée pour un client LAN, ce client recevra toujours la même adresse IP lorsqu'il en demandera une au serveur DHCP du routeur. Vous pouvez attribuer des adresses IP réservées aux ordinateurs ou serveurs nécessitant des paramètres IP permanents.",
         "edit": "Modifier",
         "tip": "Gérez la segmentation du réseau avec des VLAN pour isoler le trafic et renforcer la sécurité.",
-        "dhcpTip": "Activez le DHCP pour attribuer automatiquement des adresses IP aux appareils sur ce réseau.",
         "err_vlan_id_in_use": "L'identifiant VLAN est déjà utilisé.",
         "err_subnet_conflict": "Conflit d'adresse de sous-réseau.",
         "err_default_subnet_cannot_delete": "Le sous-réseau par défaut ne peut pas être supprimé.",
