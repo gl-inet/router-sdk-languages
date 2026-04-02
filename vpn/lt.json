@@ -328,7 +328,10 @@
         "refer_step_three_tips": "3. {contact}",
         "vpn_server_connectivity_tips": "Jei šis maršrutizatorius yra už NAT, galbūt jums reikės nustatyti prievadų persiuntimą savo interneto paslaugų teikėjo maršrutizatoriuje {gateway}.",
         "refer_step_one_tips": "1. Norėdami įsitikinti, kad aukštesnio lygio įrenginio prievadų persiuntimo nustatymai yra teisingi, žiūrėkite informaciją žemiau esančioje lentelėje:",
-        "exit_ip_address_label": "Išėjimo IP adresas"
+        "exit_ip_address_label": "Išėjimo IP adresas",
+        "go_to_vpn_dashboard": "Eiti į ataskaitų skydelį",
+        "vpn_dashboard_desc": "Konfigūracija įkelta. Eikite į „VPN“ ataskaitų skydelį, kad sukurtumėte ir tvarkytumėte „VPN“ tunelius.",
+        "vpn_dashboard_desc_provider": "Esate prisijungę prie {provider}. Eikite į „VPN“ ataskaitų skydelį, kad sukurtumėte ir tvarkytumėte „VPN“ tunelius."
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -580,7 +583,9 @@
         "legacy_title": "Pasenusio/-s standarto/įrangos:",
         "legacy_desc": "Jis turi didesnę konfigūracijos suderinamumą. Jei prisijungimas nepavyksta, galite pabandyti perjungti į šią parinktį.",
         "modern_label": "Šiuolaikiškas",
-        "modern_desc": "Tinka daugumai VPN paslaugų, siūlantis geresnį našumą ir saugumą."
+        "modern_desc": "Tinka daugumai VPN paslaugų, siūlantis geresnį našumą ir saugumą.",
+        "enabled_dco": "Įjungtas DCO",
+        "enabled_dco_tooltip": "Įjunkite DCO, kad pagerintumėte daugumos „VPN“ našumą ir saugumą; išjunkite jį, jei kyla suderinamumo problemų."
     },
     "menu_vpn-client": "VPN kliento profilis",
     "internet": {
