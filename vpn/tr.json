@@ -328,7 +328,10 @@
         "refer_step_two_tips": "2. Yukarı akış cihazındaki güvenlik duvarı ayarlarının doğru olduğundan emin olun.",
         "refer_step_three_tips": "3. {contact}",
         "exit_ip_address_label": "Çıkış IP Adresi",
-        "refer_step_one_tips": "1. Yukarı akış cihazının bağlantı noktası yönlendirme ayarlarının doğru olduğundan emin olmak için lütfen aşağıdaki tablodaki bilgilere bakın:"
+        "refer_step_one_tips": "1. Yukarı akış cihazının bağlantı noktası yönlendirme ayarlarının doğru olduğundan emin olmak için lütfen aşağıdaki tablodaki bilgilere bakın:",
+        "go_to_vpn_dashboard": "Panele Git",
+        "vpn_dashboard_desc": "Yapılandırma yüklendi. VPN tünelleri oluşturmak ve yönetmek için VPN Paneline gidin.",
+        "vpn_dashboard_desc_provider": "{provider} hizmetine giriş yaptınız. VPN tünelleri oluşturmak ve yönetmek için VPN Paneline gidin."
     },
     "vpn_err": {
         "no_passwd_msg": "Hesabın şifresi yok",
@@ -580,7 +583,9 @@
         "modern_title": "Modern (Önerilen):",
         "legacy_desc": "Daha yüksek yapılandırma uyumluluğuna sahiptir. Bağlantı başarısız olursa, bu seçeneğe geçmeyi deneyebilirsiniz.",
         "modern_label": "Modern",
-        "modern_desc": "Çoğu VPN hizmeti için uygundur, daha iyi performans ve güvenlik sunar."
+        "modern_desc": "Çoğu VPN hizmeti için uygundur, daha iyi performans ve güvenlik sunar.",
+        "enabled_dco": "DCO Etkinleştirildi",
+        "enabled_dco_tooltip": "Çoğu VPN için performansı ve güvenliği artırmak amacıyla DCO'yu etkinleştirin; uyumluluk sorunları oluşursa devre dışı bırakın."
     },
     "menu_vpn-client": "VPN İstemci Profili",
     "internet": {
