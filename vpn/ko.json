@@ -503,7 +503,8 @@
         "enable_killswitch_tips": "활성화하면 이 VPN 터널에 할당된 트래픽은 터널이 예기치 않게 연결이 끊어질 경우 차단됩니다.",
         "disable_killswitch_tips": "비활성화 시 트래픽은 '기타 모든 트래픽' 정책에 따라 처리됩니다.",
         "not_use_killswitch_tips": "꺼져 있을 때 트래픽은 다른 모든 트래픽 정책을 따릅니다.",
-        "default_tunnel_kill_switch_enabled_tips": "{label}: 활성화 시 VPN 트래픽만 인터넷에 접근할 수 있습니다. 모든 비-VPN 트래픽 및 정책 그룹 내 실패한 트래픽은 차단됩니다. 이 글로벌 설정은 각 정책 그룹의 개별 Kill Switch를 재정의하고 비활성화합니다."
+        "default_tunnel_kill_switch_enabled_tips": "{label}: 활성화 시 VPN 트래픽만 인터넷에 접근할 수 있습니다. 모든 비-VPN 트래픽 및 정책 그룹 내 실패한 트래픽은 차단됩니다. 이 글로벌 설정은 각 정책 그룹의 개별 Kill Switch를 재정의하고 비활성화합니다.",
+        "all_other_traffic_setting_title": "기타 모든 트래픽 설정"
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
