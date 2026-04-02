@@ -619,6 +619,7 @@
     },
     "internet": {
         "manual_label": "手動",
-        "manual_mac_label": "手動輸入的 MAC 地址"
+        "manual_mac_label": "手動輸入的 MAC 地址",
+        "no_wan_tips": "{silkprint} 已被用作 LAN（局域网）。您可以在 {view} 中将其设置回 WAN（广域网）。"
     }
 }
