@@ -81,7 +81,8 @@
         "address_reservation_tip": "Lorsque vous spécifiez une adresse IP réservée pour un client LAN, ce client recevra toujours la même adresse IP lorsqu'il demandera une adresse IP au serveur DHCP du routeur. Vous pouvez attribuer des adresses IP réservées à des ordinateurs ou serveurs nécessitant des paramètres IP permanents.",
         "confirm_delete_all": "Êtes-vous sûr de vouloir supprimer toutes les réservations d'adresses ?",
         "lpr_serve_label": "Serveur LPR",
-        "lpr_tips": "Plusieurs ports LPR d'imprimante peuvent être renseignés."
+        "lpr_tips": "Plusieurs ports LPR d'imprimante peuvent être renseignés.",
+        "err_display_name_max_length": "Le nom d'affichage doit comporter 32 caractères ou moins."
     },
     "menu_vlan": "VLAN"
 }
