@@ -82,7 +82,8 @@
         "end_ip_address": "Dirección IP final",
         "delete_all": "Eliminar todo",
         "add_reservation": "Agregar una nueva entrada de reserva",
-        "err_display_name_max_length": "El nombre para mostrar debe tener 32 caracteres o menos."
+        "err_display_name_max_length": "El nombre para mostrar debe tener 32 caracteres o menos.",
+        "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router."
     },
     "menu_vlan": "VLAN"
 }
