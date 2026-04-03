@@ -82,7 +82,8 @@
         "lpr_serve_label": "Server LPR",
         "dhcp_charter_label": "Tempo di Lease",
         "lpr_tips": "È possibile inserire più porte LPR per stampanti.",
-        "err_display_name_max_length": "Il nome visualizzato deve contenere al massimo 32 caratteri."
+        "err_display_name_max_length": "Il nome visualizzato deve contenere al massimo 32 caratteri.",
+        "err_dhcp_range_excludes_router_ip": "Il pool DHCP non deve includere l'indirizzo IP del router."
     },
     "menu_vlan": "VLAN"
 }
