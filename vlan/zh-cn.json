@@ -82,7 +82,8 @@
         "lpr_serve_label": "LPR 服务器",
         "dhcp_charter_label": "租约时间",
         "lpr_tips": "可填写多个打印机 LPR 端口。",
-        "err_display_name_max_length": "显示名称不能超过32个字符。"
+        "err_display_name_max_length": "显示名称不能超过32个字符。",
+        "err_dhcp_range_excludes_router_ip": "DHCP地址池不得包含路由器IP地址。"
     },
     "menu_vlan": "VLAN"
 }
