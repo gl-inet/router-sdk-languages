@@ -330,8 +330,8 @@
         "refer_step_two_tips": "2. Cinntigh go bhfuil socruithe an bhalla dóiteáin ar an ngléas suas an sruth ceart.",
         "exit_ip_address_label": "Seoladh IP Scoir",
         "go_to_vpn_dashboard": "Téigh go dtí an Deais",
-        "vpn_dashboard_desc": "Cumraíocht uaslódáilte. Téigh go dtí an Deais VPN chun tainéil VPN a chruthú agus a bhainistiú.",
-        "vpn_dashboard_desc_provider": "Tá tú logáilte isteach ar {provider}. Téigh go dtí an Deais VPN chun tainéil VPN a chruthú agus a bhainistiú."
+        "vpn_dashboard_desc": "Cumraíocht uaslódáilte. Téigh go dtí Painéal na VPN chun tolláin VPN a chruthú agus a bhainistiú.",
+        "vpn_dashboard_desc_provider": "Tá tú sínithe isteach chuig {provider}. Téigh go dtí Painéal na VPN chun tolláin VPN a chruthú agus a bhainistiú."
     },
     "vpn_taps2s": {
         "start_title": "Aird: Tosaigh Cliant TAP-S2S",
@@ -509,16 +509,16 @@
         "select_target_destination_title": "Roghnaigh Ceann Scríbe Sprioc",
         "apply_all_changes_btn": "Cuir Gach Athrú i bhFeidhm",
         "enable_killswitch_tips": "Nuair a bheidh sé cumasaithe, cuirfear bac ar thrácht atá sannta don tollán VPN seo má dhícheanglaíonn an tollán go tobann.",
-        "disable_killswitch_tips": "Nuair a bheidh sé díchumasaithe, déanfar an trácht a láimhseáil de réir na polasaí Trácht Eile Uile.",
+        "disable_killswitch_tips": "Nuair a bheidh sé díchumasaithe, láimhseálfar an trácht de réir an pholasaí dhomhanda maidir le trácht neamh-chomhoiriúnaithe.",
         "not_use_killswitch_tips": "Leanann trácht an polasaí Trácht Eile nuair a bhíonn sé múchta.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Nuair a bhíonn sé Cumasaithe, ní cheadaítear ach trácht VPN rochtain a fháil ar an idirlíon. Cuirfear bac ar gach trácht neamh-VPN agus trácht teipthe laistigh de ghrúpaí beartais. Sáraíonn an socrú domhanda seo an Lasc Maraithe aonair do gach grúpa beartais agus díchumasaíonn sé é.",
-        "all_other_traffic_setting_title": "Socruithe Gach Tráchta Eile",
+        "all_other_traffic_setting_title": "Gach Socrú Tráchta Eile",
         "all_other_traffic_setting_tips": "Rialaíonn an socrú seo an bhfuil rochtain ag trácht nach meaitseáiltear le haon tollán VPN gníomhach ar an idirlíon.",
         "enhanced_kill_switch_note_tips": "{tag} Ní sháraíonn an socrú domhanda seo an Kill Switch aonair atá cumraithe laistigh de bheartais VPN ar leith.",
         "allow_non_vpn_traffic_sort_tips": "Úsáideann trácht gan mheaitseáil an t-idirlíon caighdeánach.",
         "enhanced_kill_switch_sort_tips": "Cuirtear bac ar thrácht gan mheaitseáil go sainráite.",
         "enhanced_kill_switch_desc": "Cuir gach gléas faoi iallach VPN a úsáid chun rochtain a fháil ar an idirlíon. Cuirfear bac ar aon trácht nach meaitseálann le tollán VPN.",
-        "allow_non_vpn_default_tips": "Tá \"{label}\" cumasaithe de réir réamhshocraithe chun rochtain ar an idirlíon a chinntiú do thrácht neamh-VPN.",
+        "allow_non_vpn_default_tips": "Tá \"{label}\" cumasaithe de réir réamhshocraithe chun rochtain gnáth idirlín a chinntiú do thrácht neamh-VPN.",
         "allow_non_vpn_traffic_desc": "Rachaidh trácht gan mheaitseáil ar an idirlíon ag baint úsáide as do nasc caighdeánach."
     },
     "vpn_server": {
@@ -584,8 +584,8 @@
         "modern_label": "Nua-aimseartha",
         "modern_title": "Nua-aimseartha (Molta):",
         "modern_desc": "Oiriúnach don chuid is mó de sheirbhísí VPN, ag tairiscint feidhmíochta agus slándála níos fearr.",
-        "enabled_dco_tooltip": "Cumasaigh DCO chun feidhmíocht agus slándáil a fheabhsú do fhormhór na VPNanna; díchumasaigh é má tharlaíonn saincheisteanna comhoiriúnachta.",
-        "enabled_dco": "DCO Cumasaithe"
+        "enabled_dco_tooltip": "Cumasaigh DCO chun feidhmíocht agus slándáil a fheabhsú do fhormhór na VPNanna; díchumasaigh é má tharlaíonn fadhbanna comhoiriúnachta.",
+        "enabled_dco": "Cumasaigh DCO"
     },
     "menu_vpn-client": "Próifíl Cliant VPN",
     "internet": {
