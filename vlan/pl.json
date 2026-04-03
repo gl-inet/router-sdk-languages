@@ -82,7 +82,8 @@
         "lpr_serve_label": "Serwer LPR",
         "dhcp_charter_label": "Czas dzierżawy",
         "lpr_tips": "Można wypełnić wiele portów LPR drukarki.",
-        "err_display_name_max_length": "Nazwa wyświetlana musi mieć 32 znaki lub mniej."
+        "err_display_name_max_length": "Nazwa wyświetlana musi mieć 32 znaki lub mniej.",
+        "err_dhcp_range_excludes_router_ip": "Pula DHCP nie może zawierać adresu IP routera."
     },
     "menu_vlan": "VLAN"
 }
