@@ -504,7 +504,7 @@
         "selected_profile_tooltip": "Profiles will failover in the order shown (top to bottom).",
         "no_selected_config_label": "No Selected Configuration",
         "enable_killswitch_tips": "When enabled, traffic assigned to this VPN tunnel will be blocked if the tunnel disconnects unexpectedly.",
-        "disable_killswitch_tips": "When disabled, the traffic will be handled according to the All Other Traffic policy.",
+        "disable_killswitch_tips": "When disabled, the traffic will be handled according to the global policy for unmatched traffic.",
         "not_use_killswitch_tips": "Traffic follows All Other Traffic policy when off.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: When Enabled, only VPN traffic is permitted to access the internet. All non-VPN traffic and failed traffic within policy groups will be blocked. This global setting overrides and disables the individual Kill Switch for each policy group.",
         "all_other_traffic_setting_title": "All Other Traffic Settings",
