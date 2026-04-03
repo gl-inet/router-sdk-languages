@@ -82,7 +82,8 @@
         "lpr_serve_label": "LPR Server",
         "dhcp_charter_label": "Lease Time",
         "lpr_tips": "Multiple printer LPR ports can be filled.",
-        "err_display_name_max_length": "Display name must be 32 characters or fewer."
+        "err_display_name_max_length": "Display name must be 32 characters or fewer.",
+        "err_dhcp_range_excludes_router_ip": "The DHCP pool must not include the router IP address."
     },
     "menu_vlan": "VLAN"
 }
