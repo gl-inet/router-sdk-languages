@@ -82,7 +82,8 @@
         "lpr_serve_label": "LPR 伺服器",
         "dhcp_charter_label": "租用時間",
         "lpr_tips": "可填寫多個印表機 LPR 連接埠。",
-        "err_display_name_max_length": "顯示名稱必須為32個字元或更少。"
+        "err_display_name_max_length": "顯示名稱必須為32個字元或更少。",
+        "err_dhcp_range_excludes_router_ip": "DHCP 池不得包含路由器 IP 地址。"
     },
     "menu_vlan": "VLAN"
 }
