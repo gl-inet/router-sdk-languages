@@ -514,7 +514,14 @@
         "enhanced_kill_switch_sort_tips": "Niet-overeenkomend verkeer wordt expliciet geblokkeerd.",
         "allow_non_vpn_traffic_desc": "Niet-overeenkomend verkeer heeft toegang tot internet via uw standaardverbinding.",
         "enhanced_kill_switch_desc": "Forceer alle apparaten om een VPN te gebruiken voor internettoegang. Alle verkeer dat niet overeenkomt met een VPN-tunnel wordt geblokkeerd.",
-        "all_other_traffic_setting_tips": "Deze instelling bepaalt of verkeer dat niet overeenkomt met een actieve VPN-tunnel toegang heeft tot het internet."
+        "all_other_traffic_setting_tips": "Deze instelling bepaalt of verkeer dat niet overeenkomt met een actieve VPN-tunnel toegang heeft tot het internet.",
+        "all_clients_desc": "Leid al het verkeer van elk aangesloten apparaat via deze VPN-tunnel. Ideaal voor volledige netwerkprivacy.",
+        "exclude_device_desc": "Routeer standaard al het verkeer via de VPN, behalve voor de expliciet gekozen apparaten. Handig voor gameconsoles of lokale services.",
+        "all_target_desc": "Routeer al het verkeer van de geselecteerde bron(nen) via deze VPN-tunnel.",
+        "domain_target_desc": "Routeer alleen verkeer bestemd voor de vermelde domeinen of IP-adressen via deze VPN-tunnel. Verkeer naar andere bestemmingen omzeilt deze tunnel.",
+        "connect_methods_desc": "Pas VPN-regels toe op basis van de netwerkinterface, zoals alleen Guest Wi-Fi of Ethernet LAN-verkeer routeren.",
+        "device_desc": "Routeer alleen verkeer van expliciet geselecteerde apparaten. Alle andere apparaten omzeilen de VPN en gebruiken het reguliere internet.",
+        "exclude_domain_target_desc": "Routeer standaard al het verkeer via deze VPN-tunnel, behalve voor de vermelde domeinen of IP-adressen. De uitgesloten bestemmingen omzeilen deze tunnel."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
