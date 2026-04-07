@@ -520,7 +520,8 @@
         "exclude_device_desc": "Alapértelmezés szerint irányítsa át az összes forgalmat a VPN-en keresztül, kivéve a kifejezetten kiválasztott eszközöket. Hasznos játékkonzolok vagy helyi szolgáltatások esetén.",
         "domain_target_desc": "Csak a felsorolt domainekre vagy IP-címekre irányuló forgalmat irányítsa át ezen VPN-alagúton keresztül. A többi célhelyre irányuló forgalom megkerüli ezt az alagutat.",
         "all_target_desc": "Az összes forgalmat a kiválasztott forrás(ok)ról irányítsa át ezen VPN-alagúton keresztül.",
-        "exclude_domain_target_desc": "Alapértelmezés szerint irányítsa át az összes forgalmat ezen VPN-alagúton keresztül, kivéve a felsorolt domaineket vagy IP-címeket. A kizárt célhelyek megkerülik ezt az alagutat."
+        "exclude_domain_target_desc": "Alapértelmezés szerint irányítsa át az összes forgalmat ezen VPN-alagúton keresztül, kivéve a felsorolt domaineket vagy IP-címeket. A kizárt célhelyek megkerülik ezt az alagutat.",
+        "disable_killswitch_tips": "Letöltés letiltása esetén a forgalom a nem egyező forgalomra vonatkozó szabályt követi (jelenleg: {label})."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
