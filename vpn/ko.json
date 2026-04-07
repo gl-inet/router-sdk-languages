@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_sort_tips": "일치하지 않는 트래픽은 표준 인터넷을 사용합니다.",
         "enhanced_kill_switch_sort_tips": "일치하지 않는 트래픽은 명시적으로 차단됩니다.",
         "allow_non_vpn_traffic_desc": "일치하지 않는 트래픽은 표준 연결을 사용하여 인터넷에 접속합니다.",
-        "enhanced_kill_switch_desc": "모든 장치가 VPN을 사용하여 인터넷에 접속하도록 강제합니다. VPN 터널과 일치하지 않는 모든 트래픽은 차단됩니다."
+        "enhanced_kill_switch_desc": "모든 장치가 VPN을 사용하여 인터넷에 접속하도록 강제합니다. VPN 터널과 일치하지 않는 모든 트래픽은 차단됩니다.",
+        "all_clients_desc": "연결된 모든 장치의 트래픽을 이 VPN 터널을 통해 라우팅합니다. 완전한 네트워크 개인 정보 보호에 이상적입니다.",
+        "device_desc": "명시적으로 선택된 장치의 트래픽만 라우팅합니다. 다른 모든 장치는 VPN을 우회하여 일반 인터넷을 사용합니다.",
+        "exclude_device_desc": "명시적으로 선택된 장치를 제외하고 기본적으로 모든 트래픽을 VPN을 통해 라우팅합니다. 게임 콘솔이나 로컬 서비스에 유용합니다.",
+        "all_target_desc": "선택된 소스의 모든 트래픽을 이 VPN 터널을 통해 라우팅합니다.",
+        "exclude_domain_target_desc": "나열된 도메인 또는 IP 주소를 제외하고 기본적으로 모든 트래픽을 이 VPN 터널을 통해 라우팅합니다. 제외된 목적지는 이 터널을 우회합니다.",
+        "connect_methods_desc": "게스트 Wi-Fi 또는 이더넷 LAN 트래픽과 같이 네트워크 인터페이스를 기반으로 VPN 규칙을 적용합니다.",
+        "domain_target_desc": "나열된 도메인 또는 IP 주소로 향하는 트래픽만 이 VPN 터널을 통해 라우팅합니다. 다른 목적지로의 트래픽은 이 터널을 우회합니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
