@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_desc": "Niezgodny ruch będzie uzyskiwał dostęp do internetu przy użyciu standardowego połączenia.",
         "enhanced_kill_switch_sort_tips": "Niezgodny ruch jest wyraźnie blokowany.",
         "enhanced_kill_switch_desc": "Wymuś, aby wszystkie urządzenia korzystały z VPN do dostępu do internetu. Każdy ruch, który nie pasuje do tunelu VPN, zostanie zablokowany.",
-        "allow_non_vpn_default_tips": "\"{label}\" jest domyślnie włączone, aby zapewnić normalny dostęp do internetu dla ruchu spoza VPN."
+        "allow_non_vpn_default_tips": "\"{label}\" jest domyślnie włączone, aby zapewnić normalny dostęp do internetu dla ruchu spoza VPN.",
+        "all_clients_desc": "Przekieruj cały ruch z każdego podłączonego urządzenia przez ten tunel VPN. Idealne dla pełnej prywatności sieci.",
+        "connect_methods_desc": "Stosuj reguły VPN na podstawie interfejsu sieciowego, np. kieruj tylko ruch z gościnnej sieci Wi-Fi lub sieci LAN Ethernet.",
+        "device_desc": "Kieruj tylko ruch z jawnie wybranych urządzeń. Wszystkie inne urządzenia ominą VPN i będą korzystać ze zwykłego internetu.",
+        "exclude_device_desc": "Domyślnie kieruj cały ruch przez VPN, z wyjątkiem jawnie wybranych urządzeń. Przydatne dla konsol do gier lub usług lokalnych.",
+        "all_target_desc": "Kieruj cały ruch z wybranego źródła (źródeł) przez ten tunel VPN.",
+        "exclude_domain_target_desc": "Domyślnie kieruj cały ruch przez ten tunel VPN, z wyjątkiem wymienionych domen lub adresów IP. Wykluczone miejsca docelowe ominą ten tunel.",
+        "domain_target_desc": "Kieruj przez ten tunel VPN tylko ruch przeznaczony dla wymienionych domen lub adresów IP. Ruch do innych miejsc docelowych ominie ten tunel."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
