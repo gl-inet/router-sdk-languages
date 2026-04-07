@@ -520,7 +520,8 @@
         "exclude_device_desc": "Route all traffic through the VPN by default, except for the explicitly chosen devices. Useful for gaming consoles or local services.",
         "all_target_desc": "Route all traffic from the selected source(s) through this VPN tunnel.",
         "domain_target_desc": "Only route traffic destined for the listed domains or IP addresses through this VPN tunnel. Traffic to other destinations will bypass this tunnel.",
-        "exclude_domain_target_desc": "Route all traffic through this VPN tunnel by default, except for the listed domains or IP addresses. The excluded destinations will bypass this tunnel."
+        "exclude_domain_target_desc": "Route all traffic through this VPN tunnel by default, except for the listed domains or IP addresses. The excluded destinations will bypass this tunnel.",
+        "disable_killswitch_tips": "When disabled, the traffic will follow the unmatched traffic policy (currently: {label})."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
