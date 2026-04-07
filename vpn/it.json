@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_sort_tips": "Il traffico non corrispondente utilizza Internet standard.",
         "enhanced_kill_switch_sort_tips": "Il traffico non corrispondente è esplicitamente bloccato.",
         "enhanced_kill_switch_desc": "Forza tutti i dispositivi a utilizzare una VPN per accedere a Internet. Qualsiasi traffico che non corrisponde a un tunnel VPN verrà bloccato.",
-        "allow_non_vpn_traffic_desc": "Il traffico non corrispondente accederà a Internet utilizzando la tua connessione standard."
+        "allow_non_vpn_traffic_desc": "Il traffico non corrispondente accederà a Internet utilizzando la tua connessione standard.",
+        "all_clients_desc": "Instradare tutto il traffico da ogni dispositivo connesso attraverso questo tunnel VPN. Ideale per una privacy di rete completa.",
+        "device_desc": "Instradare solo il traffico dai dispositivi selezionati esplicitamente. Tutti gli altri dispositivi bypasseranno la VPN e utilizzeranno la normale connessione Internet.",
+        "exclude_device_desc": "Instradare tutto il traffico attraverso la VPN per impostazione predefinita, ad eccezione dei dispositivi scelti esplicitamente. Utile per console di gioco o servizi locali.",
+        "all_target_desc": "Instradare tutto il traffico dalla/e sorgente/i selezionata/e attraverso questo tunnel VPN.",
+        "exclude_domain_target_desc": "Instradare tutto il traffico attraverso questo tunnel VPN per impostazione predefinita, ad eccezione dei domini o degli indirizzi IP elencati. Le destinazioni escluse bypasseranno questo tunnel.",
+        "connect_methods_desc": "Applicare le regole VPN in base all'interfaccia di rete, ad esempio instradando solo il traffico della Wi-Fi Guest o della LAN Ethernet.",
+        "domain_target_desc": "Instradare solo il traffico destinato ai domini o agli indirizzi IP elencati attraverso questo tunnel VPN. Il traffico verso altre destinazioni bypasserà questo tunnel."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
