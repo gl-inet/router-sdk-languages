@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_sort_tips": "El tráfico no coincidente utiliza Internet estándar.",
         "allow_non_vpn_traffic_desc": "El tráfico no coincidente accederá a Internet utilizando su conexión estándar.",
         "enhanced_kill_switch_sort_tips": "El tráfico no coincidente está explícitamente bloqueado.",
-        "enhanced_kill_switch_desc": "Forzar a todos los dispositivos a usar una VPN para acceder a Internet. Cualquier tráfico que no coincida con un túnel VPN será bloqueado."
+        "enhanced_kill_switch_desc": "Forzar a todos los dispositivos a usar una VPN para acceder a Internet. Cualquier tráfico que no coincida con un túnel VPN será bloqueado.",
+        "all_clients_desc": "Enruta todo el tráfico de cada dispositivo conectado a través de este túnel VPN. Ideal para una privacidad de red completa.",
+        "connect_methods_desc": "Aplica reglas VPN basadas en la interfaz de red, como enrutar solo el tráfico de la Wi-Fi de invitados o de la LAN Ethernet.",
+        "exclude_device_desc": "Enruta todo el tráfico a través de la VPN por defecto, excepto los dispositivos elegidos explícitamente. Útil para consolas de juegos o servicios locales.",
+        "domain_target_desc": "Enruta solo el tráfico destinado a los dominios o direcciones IP listados a través de este túnel VPN. El tráfico a otros destinos omitirá este túnel.",
+        "device_desc": "Enruta solo el tráfico de los dispositivos seleccionados explícitamente. Todos los demás dispositivos omitirán la VPN y usarán la internet regular.",
+        "all_target_desc": "Enruta todo el tráfico desde la(s) fuente(s) seleccionada(s) a través de este túnel VPN.",
+        "exclude_domain_target_desc": "Enruta todo el tráfico a través de este túnel VPN por defecto, excepto los dominios o direcciones IP listados. Los destinos excluidos omitirán este túnel."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
