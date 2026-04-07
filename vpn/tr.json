@@ -515,7 +515,8 @@
         "all_target_desc": "Seçilen kaynak(lar)dan gelen tüm trafiği bu VPN tüneli üzerinden yönlendirin.",
         "domain_target_desc": "Yalnızca listelenen alan adlarına veya IP adreslerine yönelik trafiği bu VPN tüneli üzerinden yönlendirin. Diğer hedeflere giden trafik bu tüneli atlayacaktır.",
         "exclude_domain_target_desc": "Listelenen alan adları veya IP adresleri hariç, varsayılan olarak tüm trafiği bu VPN tüneli üzerinden yönlendirin. Hariç tutulan hedefler bu tüneli atlayacaktır.",
-        "connect_methods_desc": "VPN kurallarını ağ arayüzüne göre uygulayın, örneğin yalnızca Misafir Wi-Fi veya Ethernet LAN trafiğini yönlendirin."
+        "connect_methods_desc": "VPN kurallarını ağ arayüzüne göre uygulayın, örneğin yalnızca Misafir Wi-Fi veya Ethernet LAN trafiğini yönlendirin.",
+        "disable_killswitch_tips": "Devre dışı bırakıldığında, trafik eşleşmeyen trafik politikasını (şu anda: {label}) takip edecektir."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
