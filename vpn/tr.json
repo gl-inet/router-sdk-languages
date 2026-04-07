@@ -509,7 +509,14 @@
         "enhanced_kill_switch_sort_tips": "Eşleşmeyen trafik açıkça engellenir.",
         "enhanced_kill_switch_desc": "Tüm cihazların internete erişmek için bir VPN kullanmasını zorla. Bir VPN tüneliyle eşleşmeyen herhangi bir trafik engellenecektir.",
         "allow_non_vpn_default_tips": "\"{label}\", VPN dışı trafiğin normal internet erişimini sağlamak için varsayılan olarak etkindir.",
-        "enhanced_kill_switch_note_tips": "{tag} Bu genel ayar, belirli VPN politikaları içinde yapılandırılan bireysel Kill Switch'i geçersiz kılmaz."
+        "enhanced_kill_switch_note_tips": "{tag} Bu genel ayar, belirli VPN politikaları içinde yapılandırılan bireysel Kill Switch'i geçersiz kılmaz.",
+        "all_clients_desc": "Tüm bağlı cihazlardan gelen tüm trafiği bu VPN tüneli üzerinden yönlendirin. Tam ağ gizliliği için idealdir.",
+        "device_desc": "Yalnızca açıkça seçilen cihazlardan gelen trafiği yönlendirin. Diğer tüm cihazlar VPN'i atlayarak normal interneti kullanacaktır.",
+        "exclude_device_desc": "Açıkça seçilen cihazlar hariç, varsayılan olarak tüm trafiği VPN üzerinden yönlendirin. Oyun konsolları veya yerel hizmetler için kullanışlıdır.",
+        "all_target_desc": "Seçilen kaynak(lar)dan gelen tüm trafiği bu VPN tüneli üzerinden yönlendirin.",
+        "domain_target_desc": "Yalnızca listelenen alan adlarına veya IP adreslerine yönelik trafiği bu VPN tüneli üzerinden yönlendirin. Diğer hedeflere giden trafik bu tüneli atlayacaktır.",
+        "exclude_domain_target_desc": "Listelenen alan adları veya IP adresleri hariç, varsayılan olarak tüm trafiği bu VPN tüneli üzerinden yönlendirin. Hariç tutulan hedefler bu tüneli atlayacaktır.",
+        "connect_methods_desc": "VPN kurallarını ağ arayüzüne göre uygulayın, örneğin yalnızca Misafir Wi-Fi veya Ethernet LAN trafiğini yönlendirin."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
