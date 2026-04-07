@@ -82,7 +82,10 @@
         "lpr_tips": "複数のプリンターLPRポートを入力できます。",
         "add_reservation": "新しい予約エントリを追加",
         "err_display_name_max_length": "表示名は32文字以内でなければなりません。",
-        "err_dhcp_range_excludes_router_ip": "DHCPプールにはルーターのIPアドレスを含めてはいけません。"
+        "err_dhcp_range_excludes_router_ip": "DHCPプールにはルーターのIPアドレスを含めてはいけません。",
+        "block_wan_subnets_tip_iot": "この機能を有効にすると、IoTネットワークは上位ネットワークおよび上位ネットワークが配置されているネットワークセグメントにアクセスできなくなります。",
+        "block_wan_subnets_tip_guest": "この機能を有効にすると、ゲストネットワークは上位ネットワークおよび上位ネットワークが配置されているネットワークセグメントにアクセスできなくなります。",
+        "block_wan_subnets_tip_custom": "この機能を有効にすると、このカスタムサブネットは上位ネットワークおよび上位ネットワークが配置されているネットワークセグメントにアクセスできなくなります。"
     },
     "menu_vlan": "VLAN"
 }
