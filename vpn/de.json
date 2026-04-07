@@ -520,7 +520,8 @@
         "all_target_desc": "Leiten Sie den gesamten Datenverkehr von der/dem ausgewählten Quelle(n) durch diesen VPN-Tunnel.",
         "domain_target_desc": "Leiten Sie nur den Datenverkehr, der für die aufgeführten Domänen oder IP-Adressen bestimmt ist, durch diesen VPN-Tunnel. Datenverkehr zu anderen Zielen umgeht diesen Tunnel.",
         "exclude_domain_target_desc": "Leiten Sie standardmäßig den gesamten Datenverkehr durch diesen VPN-Tunnel, mit Ausnahme der aufgeführten Domänen oder IP-Adressen. Die ausgenommenen Ziele umgehen diesen Tunnel.",
-        "device_desc": "Leiten Sie nur den Datenverkehr von explizit ausgewählten Geräten um. Alle anderen Geräte umgehen das VPN und nutzen das reguläre Internet."
+        "device_desc": "Leiten Sie nur den Datenverkehr von explizit ausgewählten Geräten um. Alle anderen Geräte umgehen das VPN und nutzen das reguläre Internet.",
+        "disable_killswitch_tips": "Wenn deaktiviert, folgt der Datenverkehr der Richtlinie für nicht übereinstimmenden Datenverkehr (aktuell: {label})."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
