@@ -82,7 +82,10 @@
         "delete_all": "Eliminar todo",
         "add_reservation": "Agregar una nueva entrada de reserva",
         "err_display_name_max_length": "El nombre para mostrar debe tener 32 caracteres o menos.",
-        "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router."
+        "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router.",
+        "block_wan_subnets_tip_guest": "Si esta función está habilitada, la red de invitados no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
+        "block_wan_subnets_tip_iot": "Si esta función está habilitada, la red IoT no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
+        "block_wan_subnets_tip_custom": "Si esta función está habilitada, esta subred personalizada no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior."
     },
     "menu_vlan": "VLAN"
 }
