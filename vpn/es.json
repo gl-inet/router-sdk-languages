@@ -520,7 +520,8 @@
         "domain_target_desc": "Enruta solo el tráfico destinado a los dominios o direcciones IP listados a través de este túnel VPN. El tráfico a otros destinos omitirá este túnel.",
         "device_desc": "Enruta solo el tráfico de los dispositivos seleccionados explícitamente. Todos los demás dispositivos omitirán la VPN y usarán la internet regular.",
         "all_target_desc": "Enruta todo el tráfico desde la(s) fuente(s) seleccionada(s) a través de este túnel VPN.",
-        "exclude_domain_target_desc": "Enruta todo el tráfico a través de este túnel VPN por defecto, excepto los dominios o direcciones IP listados. Los destinos excluidos omitirán este túnel."
+        "exclude_domain_target_desc": "Enruta todo el tráfico a través de este túnel VPN por defecto, excepto los dominios o direcciones IP listados. Los destinos excluidos omitirán este túnel.",
+        "disable_killswitch_tips": "Cuando está deshabilitado, el tráfico seguirá la política de tráfico no coincidente (actualmente: {label})."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
