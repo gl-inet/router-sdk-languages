@@ -82,7 +82,10 @@
         "dhcp_charter_label": "Nuomos laikas",
         "lpr_tips": "Galima užpildyti kelis spausdintuvo LPR prievadus.",
         "err_display_name_max_length": "Rodomas pavadinimas turi būti ne ilgesnis nei 32 simboliai.",
-        "err_dhcp_range_excludes_router_ip": "DHCP telkinys neturi apimti maršrutizatoriaus IP adreso."
+        "err_dhcp_range_excludes_router_ip": "DHCP telkinys neturi apimti maršrutizatoriaus IP adreso.",
+        "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
+        "block_wan_subnets_tip_guest": "Jei ši funkcija įjungta, svečių tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
+        "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, šis pasirinktinis potinklis negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas."
     },
     "menu_vlan": "VLAN"
 }
