@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_sort_tips": "未匹配的流量使用标准互联网。",
         "allow_non_vpn_traffic_desc": "未匹配的流量将使用您的标准连接访问互联网。",
         "enhanced_kill_switch_sort_tips": "未匹配的流量被明确阻止。",
-        "enhanced_kill_switch_desc": "强制所有设备使用VPN访问互联网。任何不匹配VPN隧道的流量都将被阻止。"
+        "enhanced_kill_switch_desc": "强制所有设备使用VPN访问互联网。任何不匹配VPN隧道的流量都将被阻止。",
+        "all_clients_desc": "将所有已连接设备的流量都通过此VPN隧道路由。非常适合实现完整的网络隐私。",
+        "device_desc": "仅路由来自明确选定设备的流量。所有其他设备将绕过VPN并使用常规互联网。",
+        "exclude_device_desc": "默认将所有流量通过VPN路由，但明确选择的设备除外。适用于游戏机或本地服务。",
+        "all_target_desc": "将来自选定源的所有流量通过此VPN隧道路由。",
+        "domain_target_desc": "仅将目的地为所列域名或IP地址的流量通过此VPN隧道路由。前往其他目的地的流量将绕过此隧道。",
+        "exclude_domain_target_desc": "默认将所有流量通过此VPN隧道路由，但所列域名或IP地址除外。排除的目的地将绕过此隧道。",
+        "connect_methods_desc": "根据网络接口应用VPN规则，例如仅路由访客Wi-Fi或以太网LAN流量。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
