@@ -127,7 +127,8 @@
         "important_note": "Svarbu",
         "export_btn": "Eksportuoti",
         "example_label": "pvz. {content}",
-        "share": "Dalintis"
+        "share": "Dalintis",
+        "note_tag": "Pastaba:"
     },
     "msg": {
         "being_process": "Apdorojama, prašome palaukti…",
@@ -274,6 +275,8 @@
         "only_num_letter_symbol_tips": "Leidžiamos tik raidės, skaičiai ir rašmenys: {symbol}.",
         "min_max_length_tips": "{min} - {max} rašmenų.",
         "ipv6_limit_start_end_tips": "Jis turi prasidėti su – {start} ir baigtis su teisingu IPv6 adresu – {end}.",
-        "min_max_byte_tips": "{min} - {max} baitai."
+        "min_max_byte_tips": "{min} - {max} baitai.",
+        "not_allow_use_tips": "simbolis {char} neleidžiamas | simboliai {char} neleidžiami",
+        "begin_not_allow_tips": "Negali prasidėti simboliu {char} | Negali prasidėti nė vienu iš simbolių {char}"
     }
 }

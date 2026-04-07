@@ -328,7 +328,10 @@
         "refer_step_three_tips": "3. {contact}",
         "exit_ip_address_label": "Indirizzo IP di Uscita",
         "oops_label": "Ops...",
-        "refer_step_one_tips": "1. Per assicurarsi che le impostazioni di inoltro delle porte del dispositivo a monte siano corrette, fare riferimento alle informazioni nella tabella sottostante:"
+        "refer_step_one_tips": "1. Per assicurarsi che le impostazioni di inoltro delle porte del dispositivo a monte siano corrette, fare riferimento alle informazioni nella tabella sottostante:",
+        "go_to_vpn_dashboard": "Vai alla Dashboard",
+        "vpn_dashboard_desc": "Configurazione caricata. Vai alla Dashboard VPN per creare e gestire tunnel VPN.",
+        "vpn_dashboard_desc_provider": "Hai effettuato l'accesso a {provider}. Vai alla Dashboard VPN per creare e gestire tunnel VPN."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -499,7 +502,26 @@
         "selected_profile_tooltip": "I profili eseguiranno il failover nell'ordine mostrato (dall'alto verso il basso).",
         "no_selected_config_label": "Nessuna Configurazione Selezionata",
         "init_desc": "Inizia aggiungendo il tuo primo tunnel VPN.",
-        "apply_all_changes_btn": "Applica Tutte le Modifiche"
+        "apply_all_changes_btn": "Applica Tutte le Modifiche",
+        "enable_killswitch_tips": "Quando abilitato, il traffico assegnato a questo tunnel VPN verrà bloccato se il tunnel si disconnette inaspettatamente.",
+        "not_use_killswitch_tips": "Il traffico segue la politica di Tutto il Resto del Traffico quando è disattivato.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Quando abilitato, solo il traffico VPN è autorizzato ad accedere a Internet. Tutto il traffico non VPN e il traffico fallito all'interno dei gruppi di policy verrà bloccato. Questa impostazione globale sostituisce e disabilita il Kill Switch individuale per ciascun gruppo di policy.",
+        "all_other_traffic_setting_title": "所有其他流量设置",
+        "all_other_traffic_setting_tips": "Questa impostazione controlla se il traffico non corrispondente a nessun tunnel VPN attivo può accedere a Internet.",
+        "allow_non_vpn_default_tips": "\"{label}\" è abilitato per impostazione predefinita per garantire l'accesso normale a Internet per il traffico non-VPN.",
+        "enhanced_kill_switch_note_tips": "{tag} Questa impostazione globale non sostituisce il Kill Switch individuale configurato all'interno di specifiche politiche VPN.",
+        "allow_non_vpn_traffic_sort_tips": "Il traffico non corrispondente utilizza Internet standard.",
+        "enhanced_kill_switch_sort_tips": "Il traffico non corrispondente è esplicitamente bloccato.",
+        "enhanced_kill_switch_desc": "Forza tutti i dispositivi a utilizzare una VPN per accedere a Internet. Qualsiasi traffico che non corrisponde a un tunnel VPN verrà bloccato.",
+        "allow_non_vpn_traffic_desc": "Il traffico non corrispondente accederà a Internet utilizzando la tua connessione standard.",
+        "all_clients_desc": "Instradare tutto il traffico da ogni dispositivo connesso attraverso questo tunnel VPN. Ideale per una privacy di rete completa.",
+        "device_desc": "Instradare solo il traffico dai dispositivi selezionati esplicitamente. Tutti gli altri dispositivi bypasseranno la VPN e utilizzeranno la normale connessione Internet.",
+        "exclude_device_desc": "Instradare tutto il traffico attraverso la VPN per impostazione predefinita, ad eccezione dei dispositivi scelti esplicitamente. Utile per console di gioco o servizi locali.",
+        "all_target_desc": "Instradare tutto il traffico dalla/e sorgente/i selezionata/e attraverso questo tunnel VPN.",
+        "exclude_domain_target_desc": "Instradare tutto il traffico attraverso questo tunnel VPN per impostazione predefinita, ad eccezione dei domini o degli indirizzi IP elencati. Le destinazioni escluse bypasseranno questo tunnel.",
+        "connect_methods_desc": "Applicare le regole VPN in base all'interfaccia di rete, ad esempio instradando solo il traffico della Wi-Fi Guest o della LAN Ethernet.",
+        "domain_target_desc": "Instradare solo il traffico destinato ai domini o agli indirizzi IP elencati attraverso questo tunnel VPN. Il traffico verso altre destinazioni bypasserà questo tunnel.",
+        "disable_killswitch_tips": "当禁用时，流量将遵循未匹配流量的策略（当前为：{label}）。"
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
@@ -558,7 +580,9 @@
         "manual_group_btn": "Gruppo Manuale",
         "stop_config_tips": "L'arrestazione di questa configurazione la rimuoverà da tutti i tunnel.",
         "stop_config_tunnel_stopped_tips": "Se un tunnel contiene solo questa configurazione, il tunnel verrà arrestato.",
-        "stop_config_visit_dashboard_tips": "Per gestire i tunnel, si prega di visitare la {page}."
+        "stop_config_visit_dashboard_tips": "Per gestire i tunnel, si prega di visitare la {page}.",
+        "remove_config_btn": "删除配置",
+        "reomving_config_warning_tips": "Sei sicuro di voler eliminare?"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
@@ -566,7 +590,12 @@
         "legacy_title": "Legacy:",
         "legacy_desc": "Ha una maggiore compatibilità di configurazione. Se la connessione fallisce, puoi provare a passare a questa opzione.",
         "modern_label": "Modern",
-        "modern_desc": "Adatto alla maggior parte dei servizi VPN, offre prestazioni e sicurezza migliori."
+        "modern_desc": "Adatto alla maggior parte dei servizi VPN, offre prestazioni e sicurezza migliori.",
+        "enabled_dco_tooltip": "Abilita DCO per migliorare prestazioni e sicurezza per la maggior parte delle VPN; disabilitalo in caso di problemi di compatibilità.",
+        "enabled_dco": "DCO abilitato"
     },
-    "menu_vpn-client": "Profilo Client VPN"
+    "menu_vpn-client": "Profilo Client VPN",
+    "internet": {
+        "disconnected": "Disconnesso"
+    }
 }

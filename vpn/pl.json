@@ -328,7 +328,10 @@
         "refer_step_two_tips": "2. Upewnij się, że ustawienia zapory na urządzeniu nadrzędnym są poprawne.",
         "refer_step_three_tips": "3. {contact}",
         "reachable_label": "Osiągalny",
-        "exit_ip_address_label": "Adres IP wyjścia"
+        "exit_ip_address_label": "Adres IP wyjścia",
+        "go_to_vpn_dashboard": "Przejdź do Panelu sterowania",
+        "vpn_dashboard_desc": "Konfiguracja przesłana. Przejdź do Panelu sterowania VPN, aby tworzyć i zarządzać tunelami VPN.",
+        "vpn_dashboard_desc_provider": "Jesteś zalogowany do {provider}. Przejdź do Panelu sterowania VPN, aby tworzyć i zarządzać tunelami VPN."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
@@ -404,9 +407,9 @@
         "use_vpn_label": "Użyj VPN",
         "go_to_page_btn": "Przejdź do {page}",
         "not_use_vpn_label": "Nie używaj VPN",
-        "all_target_label": "Wszystkie cele",
+        "all_target_label": "Wszystkie Cele",
         "domain_target_label": "Określona lista domen / adresów IP",
-        "exclude_domain_target_label": "Wyklucz określoną listę domen / adresów IP",
+        "exclude_domain_target_label": "Wyklucz Określoną Domenę / Listę Adresów IP",
         "killswitch_common_tips": "Jeśli status VPN ulega wahaniom, ruch sieciowy zgodny z zasadami zostanie przechwycony.",
         "add_tunnel_title": "Dodaj Tunel",
         "edit_tunnel_title": "Modyfikuj Tunel",
@@ -499,7 +502,26 @@
         "search_client_placeholder": "Wyszukaj według nazwy klienta lub adresu MAC",
         "no_vpn_config_label": "Brak Konfiguracji VPN",
         "select_vpn_profile_title": "Wybierz Profil VPN",
-        "select_at_least_one_config_msg": "Wybierz co najmniej jedną konfigurację."
+        "select_at_least_one_config_msg": "Wybierz co najmniej jedną konfigurację.",
+        "enable_killswitch_tips": "Po włączeniu ruch przypisany do tego tunelu VPN zostanie zablokowany w przypadku nieoczekiwanego rozłączenia tunelu.",
+        "not_use_killswitch_tips": "Ruch jest zgodny z polityką Wszystkiego Innego Ruchu, gdy jest wyłączony.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Po włączeniu, tylko ruch VPN ma dostęp do internetu. Cały ruch spoza VPN oraz nieudany ruch w ramach grup polityk zostanie zablokowany. To ustawienie globalne zastępuje i wyłącza indywidualny Kill Switch dla każdej grupy polityk.",
+        "all_other_traffic_setting_title": "Wszystkie inne ustawienia ruchu",
+        "all_other_traffic_setting_tips": "To ustawienie kontroluje, czy ruch niepasujący do żadnego aktywnego tunelu VPN może uzyskać dostęp do internetu.",
+        "enhanced_kill_switch_note_tips": "{tag} To ustawienie globalne nie zastępuje indywidualnego Kill Switch skonfigurowanego w ramach konkretnych polityk VPN.",
+        "allow_non_vpn_traffic_sort_tips": "Niezgodny ruch korzysta ze standardowego internetu.",
+        "allow_non_vpn_traffic_desc": "Niezgodny ruch będzie uzyskiwał dostęp do internetu przy użyciu standardowego połączenia.",
+        "enhanced_kill_switch_sort_tips": "Niezgodny ruch jest wyraźnie blokowany.",
+        "enhanced_kill_switch_desc": "Wymuś, aby wszystkie urządzenia korzystały z VPN do dostępu do internetu. Każdy ruch, który nie pasuje do tunelu VPN, zostanie zablokowany.",
+        "allow_non_vpn_default_tips": "\"{label}\" jest domyślnie włączone, aby zapewnić normalny dostęp do internetu dla ruchu spoza VPN.",
+        "all_clients_desc": "Przekieruj cały ruch z każdego podłączonego urządzenia przez ten tunel VPN. Idealne dla pełnej prywatności sieci.",
+        "connect_methods_desc": "Stosuj reguły VPN na podstawie interfejsu sieciowego, np. kieruj tylko ruch z gościnnej sieci Wi-Fi lub sieci LAN Ethernet.",
+        "device_desc": "Kieruj tylko ruch z jawnie wybranych urządzeń. Wszystkie inne urządzenia ominą VPN i będą korzystać ze zwykłego internetu.",
+        "exclude_device_desc": "Domyślnie kieruj cały ruch przez VPN, z wyjątkiem jawnie wybranych urządzeń. Przydatne dla konsol do gier lub usług lokalnych.",
+        "all_target_desc": "Kieruj cały ruch z wybranego źródła (źródeł) przez ten tunel VPN.",
+        "exclude_domain_target_desc": "Domyślnie kieruj cały ruch przez ten tunel VPN, z wyjątkiem wymienionych domen lub adresów IP. Wykluczone miejsca docelowe ominą ten tunel.",
+        "domain_target_desc": "Kieruj przez ten tunel VPN tylko ruch przeznaczony dla wymienionych domen lub adresów IP. Ruch do innych miejsc docelowych ominie ten tunel.",
+        "disable_killswitch_tips": "Po wyłączeniu ruch będzie podlegał polityce niezgodnego ruchu (obecnie: {label})."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
@@ -558,7 +580,9 @@
         "manual_group_btn": "Grupa Ręczna",
         "stop_config_tips": "Zatrzymanie tej konfiguracji spowoduje jej usunięcie ze wszystkich tuneli.",
         "stop_config_tunnel_stopped_tips": "Jeśli tunel zawiera tylko tę konfigurację, tunel zostanie zatrzymany.",
-        "stop_config_visit_dashboard_tips": "Aby zarządzać tunelami, odwiedź stronę {page}."
+        "stop_config_visit_dashboard_tips": "Aby zarządzać tunelami, odwiedź stronę {page}.",
+        "remove_config_btn": "Usuń konfiguracje",
+        "reomving_config_warning_tips": "Czy na pewno chcesz usunąć?"
     },
     "ovpnclient": {
         "legacy_label": "Starsze",
@@ -566,7 +590,12 @@
         "legacy_desc": "Ma wyższą kompatybilność konfiguracji. Jeśli połączenie się nie powiedzie, możesz spróbować przełączyć się na tę opcję.",
         "legacy_title": "Starsze:",
         "modern_label": "Nowoczesny",
-        "modern_desc": "Odpowiedni dla większości usług VPN, oferujący lepszą wydajność i bezpieczeństwo."
+        "modern_desc": "Odpowiedni dla większości usług VPN, oferujący lepszą wydajność i bezpieczeństwo.",
+        "enabled_dco_tooltip": "Włącz DCO, aby poprawić wydajność i bezpieczeństwo większości sieci VPN; wyłącz je, jeśli wystąpią problemy ze zgodnością.",
+        "enabled_dco": "Włączono DCO"
     },
-    "menu_vpn-client": "Profil Klienta VPN"
+    "menu_vpn-client": "Profil Klienta VPN",
+    "internet": {
+        "disconnected": "Rozłączono"
+    }
 }

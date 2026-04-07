@@ -127,7 +127,8 @@
         "important_note": "Importante",
         "export_btn": "Esporta",
         "example_label": "ad esempio {content}",
-        "share": "Condividi"
+        "share": "Condividi",
+        "note_tag": "Nota:"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -274,6 +275,8 @@
         "only_num_letter_symbol_tips": "Sono consentiti solo lettere, numeri e simboli {symbol}.",
         "min_max_length_tips": "{min} - {max} caratteri.",
         "ipv6_limit_start_end_tips": "Deve iniziare con {start} e terminare con un indirizzo IPv6 corretto di {end}.",
-        "min_max_byte_tips": "{min} - {max} byte."
+        "min_max_byte_tips": "{min} - {max} byte.",
+        "not_allow_use_tips": "il carattere {char} non è consentito | i caratteri {char} non sono consentiti",
+        "begin_not_allow_tips": "Non può iniziare con il carattere {char} | Non può iniziare con nessuno dei caratteri {char}"
     }
 }

@@ -43,7 +43,6 @@
         "form_interface_label": "DNS ó {interface}",
         "select_nodnssec_label": "Gan DNSSEC",
         "controld_plan_label": "Plean",
-        "encryption_conflicting_msg": "Foirmí criptithe atá ag teacht salach ar a chéile, úsáid naisc leis an bhfoirm chriptithe chéanna le do thoil.",
         "server_warning_tips": "Is cosúil go bhfuil an freastalaí imithe in éag.",
         "manual_label": "DNS de Láimh",
         "override_vpn_tips": "Má chumasaítear an rogha seo, nuair a bheidh DNS saincheaptha socraithe agat, déanfar paicéid a sheoladh trí thollán VPN a réiteach ag úsáid an DNS saincheaptha forluí in ionad socruithe an fhreastalaí DNS ó na nasc VPN.",
@@ -55,6 +54,7 @@
         "least_one_server_tips": "Cuir freastalaí amháin ar a laghad leis",
         "override_priority_tips": "Tá tosaíocht níos airde ná socruithe DNS a shanntar do chliaint trí DHCP.",
         "protocol_failed_msg": "Theip ar an seiceáil, mí-oiriúnú prótacail.",
-        "manual_server_addr_msg": "Cuir isteach an nasc san fhormáid chriptithe chéanna le do thoil."
+        "manual_server_addr_msg": "Cuir isteach an nasc san fhormáid chriptithe chéanna le do thoil.",
+        "duplicate_rule_msg": "Riail dhúblach braite"
     }
 }

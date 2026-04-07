@@ -27,7 +27,8 @@
         "using_tips": "{silkprint} ステータス：{port}として使用中。{changePort}",
         "use_as_port_btn": "{silkprint}を{port}に変更する",
         "revert_as_lan_tips": "LANポート（デフォルト）に{silkprint}を復元してもよろしいですか？",
-        "vlan_id_conflict_tips": "イーサネット1のVLAN IDとイーサネット2のVLAN IDが競合しています。"
+        "vlan_id_conflict_tips": "イーサネット1のVLAN IDとイーサネット2のVLAN IDが競合しています。",
+        "vlan_lan_subnet_conflict_tips": "WANポートで設定されたVLANがサブネットと競合しています。"
     },
     "tethering": {
         "title": "テザリング",
@@ -272,10 +273,10 @@
         "save_new_cellular_profile_title": "新しいセルラープロファイルとして保存",
         "add_new_cellular_profile_title": "新しいセルラープロファイルを追加",
         "modify_cellular_profile_title": "セルラープロファイルを変更",
-        "name_length_limit_tips": "名前の長さが制限を超えています",
         "name_already_taken_tips": "名前 {name} は既に使用されています",
         "name_empty_tips": "名前を入力してください",
-        "auto_switch_tips": "この機能は、Multi-WANインターフェースステータストラックの非低データ検出モードを必要とします。有効にすると、システムは自動的に対応する検出モードに切り替わり、追加のトラフィック使用量が発生する可能性があります。"
+        "auto_switch_tips": "この機能は、Multi-WANインターフェースステータストラックの非低データ検出モードを必要とします。有効にすると、システムは自動的に対応する検出モードに切り替わり、追加のトラフィック使用量が発生する可能性があります。",
+        "sim_registered_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。{guide}"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "マニュアル",
-        "manual_mac_label": "手動MACアドレス"
+        "manual_mac_label": "手動MACアドレス",
+        "no_wan_tips": "{silkprint}はLAN（ローカルエリアネットワーク）として使用されています。{view}でWAN（ワイドエリアネットワーク）に戻すことができます。"
     }
 }

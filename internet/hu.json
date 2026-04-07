@@ -148,10 +148,10 @@
         "save_new_cellular_profile_title": "Mentés új mobilprofilként",
         "add_new_cellular_profile_title": "Új mobilprofil hozzáadása",
         "modify_cellular_profile_title": "Mobilprofil módosítása",
-        "name_length_limit_tips": "A név hossza meghaladja a korlátot",
         "name_already_taken_tips": "A(z) {name} név már foglalt",
         "name_empty_tips": "A név nem lehet üres",
-        "auto_switch_tips": "Ez a funkció a Multi-WAN Interface Status Track nem alacsony adatforgalmú észlelési módját igényli. Ha engedélyezve van, a rendszer automatikusan átvált a megfelelő észlelési módra, és további adatforgalmi felhasználást eredményezhet."
+        "auto_switch_tips": "Ez a funkció a Multi-WAN Interface Status Track nem alacsony adatforgalmú észlelési módját igényli. Ha engedélyezve van, a rendszer automatikusan átvált a megfelelő észlelési módra, és további adatforgalmi felhasználást eredményezhet.",
+        "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. {guide}"
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -181,7 +181,8 @@
         "use_as_port_btn": "A {silkprint} átváltása {port}-ra",
         "revert_wan_tips": "Miután visszaállította a WAN portot",
         "use_as_wan_silkprint_tips": "Amint a {silkprint} WAN portként van használva",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID ütközik az Ethernet2 VLAN ID-jével."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID ütközik az Ethernet2 VLAN ID-jével.",
+        "vlan_lan_subnet_conflict_tips": "A WAN porton konfigurált VLAN ütközik az alhálózattal."
     },
     "sms": {
         "confirm_del": "Törlés megerősítése",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "Kézikönyv",
-        "manual_mac_label": "Manuális MAC-cím"
+        "manual_mac_label": "Manuális MAC-cím",
+        "no_wan_tips": "{silkprint} LAN-ként (Helyi Hálózat) lett használva. Visszaállíthatja WAN-ként (Széles körű Hálózat) a {view} oldalon."
     }
 }

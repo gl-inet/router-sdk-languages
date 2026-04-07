@@ -127,7 +127,8 @@
         "important_note": "Ważne",
         "export_btn": "Eksportuj",
         "example_label": "np. {content}",
-        "share": "Udostępnij"
+        "share": "Udostępnij",
+        "note_tag": "Uwaga:"
     },
     "msg": {
         "port_occupied": "{nazwa} port zajęty",
@@ -274,6 +275,8 @@
         "min_max_length_tips": "{min} - {max} znaków.",
         "only_letters_num_allowd_tips": "Dozwolone są tylko litery i cyfry.",
         "ipv6_limit_start_end_tips": "Musi zaczynać się od {start} i kończyć poprawnym adresem IPv6 {end}.",
-        "min_max_byte_tips": "{min} - {max} bajtów."
+        "min_max_byte_tips": "{min} - {max} bajtów.",
+        "not_allow_use_tips": "znak {char} jest niedozwolony | znaki {char} są niedozwolone",
+        "begin_not_allow_tips": "Nie może zaczynać się od znaku {char} | Nie może zaczynać się od żadnego z znaków {char}"
     }
 }

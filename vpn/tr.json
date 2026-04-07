@@ -328,7 +328,10 @@
         "refer_step_two_tips": "2. Yukarı akış cihazındaki güvenlik duvarı ayarlarının doğru olduğundan emin olun.",
         "refer_step_three_tips": "3. {contact}",
         "exit_ip_address_label": "Çıkış IP Adresi",
-        "refer_step_one_tips": "1. Yukarı akış cihazının bağlantı noktası yönlendirme ayarlarının doğru olduğundan emin olmak için lütfen aşağıdaki tablodaki bilgilere bakın:"
+        "refer_step_one_tips": "1. Yukarı akış cihazının bağlantı noktası yönlendirme ayarlarının doğru olduğundan emin olmak için lütfen aşağıdaki tablodaki bilgilere bakın:",
+        "go_to_vpn_dashboard": "Panele Git",
+        "vpn_dashboard_desc": "Yapılandırma yüklendi. VPN tünelleri oluşturmak ve yönetmek için VPN Paneline gidin.",
+        "vpn_dashboard_desc_provider": "{provider} hizmetine giriş yaptınız. VPN tünelleri oluşturmak ve yönetmek için VPN Paneline gidin."
     },
     "vpn_err": {
         "no_passwd_msg": "Hesabın şifresi yok",
@@ -494,7 +497,26 @@
         "selected_profile_title": "Seçilen Profil ({count})",
         "selected_profile_tooltip": "Profiller gösterilen sıraya göre (yukarıdan aşağıya) yedeklenecektir.",
         "no_selected_config_label": "Yapılandırma Seçilmedi",
-        "init_tip_access": "Küresel içeriğe kısıtlanmadan erişin"
+        "init_tip_access": "Küresel içeriğe kısıtlanmadan erişin",
+        "enable_killswitch_tips": "Etkinleştirildiğinde, bu VPN tüneline atanan trafik, tünel beklenmedik şekilde bağlantısını keserse engellenecektir.",
+        "not_use_killswitch_tips": "Kapalıyken trafik, Tüm Diğer Trafik politikasını izler.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Etkinleştirildiğinde, yalnızca VPN trafiğinin internete erişmesine izin verilir. VPN dışındaki tüm trafik ve politika grupları içindeki başarısız trafik engellenecektir. Bu genel ayar, her politika grubu için ayrı Kill Switch'i geçersiz kılar ve devre dışı bırakır.",
+        "all_other_traffic_setting_title": "Diğer Tüm Trafik Ayarları",
+        "all_other_traffic_setting_tips": "Bu ayar, herhangi bir aktif VPN tüneliyle eşleşmeyen trafiğin internete erişip erişemeyeceğini kontrol eder.",
+        "allow_non_vpn_traffic_sort_tips": "Eşleşmeyen trafik standart interneti kullanır.",
+        "allow_non_vpn_traffic_desc": "Eşleşmeyen trafik, standart bağlantınızı kullanarak internete erişecektir.",
+        "enhanced_kill_switch_sort_tips": "Eşleşmeyen trafik açıkça engellenir.",
+        "enhanced_kill_switch_desc": "Tüm cihazların internete erişmek için bir VPN kullanmasını zorla. Bir VPN tüneliyle eşleşmeyen herhangi bir trafik engellenecektir.",
+        "allow_non_vpn_default_tips": "\"{label}\", VPN dışı trafiğin normal internet erişimini sağlamak için varsayılan olarak etkindir.",
+        "enhanced_kill_switch_note_tips": "{tag} Bu genel ayar, belirli VPN politikaları içinde yapılandırılan bireysel Kill Switch'i geçersiz kılmaz.",
+        "all_clients_desc": "Tüm bağlı cihazlardan gelen tüm trafiği bu VPN tüneli üzerinden yönlendirin. Tam ağ gizliliği için idealdir.",
+        "device_desc": "Yalnızca açıkça seçilen cihazlardan gelen trafiği yönlendirin. Diğer tüm cihazlar VPN'i atlayarak normal interneti kullanacaktır.",
+        "exclude_device_desc": "Açıkça seçilen cihazlar hariç, varsayılan olarak tüm trafiği VPN üzerinden yönlendirin. Oyun konsolları veya yerel hizmetler için kullanışlıdır.",
+        "all_target_desc": "Seçilen kaynak(lar)dan gelen tüm trafiği bu VPN tüneli üzerinden yönlendirin.",
+        "domain_target_desc": "Yalnızca listelenen alan adlarına veya IP adreslerine yönelik trafiği bu VPN tüneli üzerinden yönlendirin. Diğer hedeflere giden trafik bu tüneli atlayacaktır.",
+        "exclude_domain_target_desc": "Listelenen alan adları veya IP adresleri hariç, varsayılan olarak tüm trafiği bu VPN tüneli üzerinden yönlendirin. Hariç tutulan hedefler bu tüneli atlayacaktır.",
+        "connect_methods_desc": "VPN kurallarını ağ arayüzüne göre uygulayın, örneğin yalnızca Misafir Wi-Fi veya Ethernet LAN trafiğini yönlendirin.",
+        "disable_killswitch_tips": "Devre dışı bırakıldığında, trafik eşleşmeyen trafik politikasını (şu anda: {label}) takip edecektir."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
@@ -558,7 +580,9 @@
         "follow_provider_guide_tips": "VPN hizmet sağlayıcınızın kılavuzunu takip edin, {type} yapılandırma dosyasını indirin ve yapılandırma dosyasını yönlendiriciye aktarın.",
         "stop_config_tips": "Bu yapılandırmayı durdurmak, tüm tünellerden kaldırılmasına neden olacaktır.",
         "stop_config_tunnel_stopped_tips": "Eğer bir tünel yalnızca bu yapılandırmayı içeriyorsa, tünel durdurulacaktır.",
-        "stop_config_visit_dashboard_tips": "Tünelleri yönetmek için lütfen {page} sayfasını ziyaret edin."
+        "stop_config_visit_dashboard_tips": "Tünelleri yönetmek için lütfen {page} sayfasını ziyaret edin.",
+        "remove_config_btn": "Yapılandırmaları Sil",
+        "reomving_config_warning_tips": "Silmek istediğinizden emin misiniz?"
     },
     "ovpnclient": {
         "legacy_label": "Eski",
@@ -566,7 +590,12 @@
         "modern_title": "Modern (Önerilen):",
         "legacy_desc": "Daha yüksek yapılandırma uyumluluğuna sahiptir. Bağlantı başarısız olursa, bu seçeneğe geçmeyi deneyebilirsiniz.",
         "modern_label": "Modern",
-        "modern_desc": "Çoğu VPN hizmeti için uygundur, daha iyi performans ve güvenlik sunar."
+        "modern_desc": "Çoğu VPN hizmeti için uygundur, daha iyi performans ve güvenlik sunar.",
+        "enabled_dco": "DCO Etkinleştirildi",
+        "enabled_dco_tooltip": "Çoğu VPN için performansı ve güvenliği artırmak amacıyla DCO'yu etkinleştirin; uyumluluk sorunları oluşursa devre dışı bırakın."
     },
-    "menu_vpn-client": "VPN İstemci Profili"
+    "menu_vpn-client": "VPN İstemci Profili",
+    "internet": {
+        "disconnected": "Bağlantı Kesildi"
+    }
 }

@@ -127,7 +127,8 @@
         "important_note": "Önemli",
         "export_btn": "Dışa Aktar",
         "example_label": "örneğin {content}",
-        "share": "Paylaş"
+        "share": "Paylaş",
+        "note_tag": "Not:"
     },
     "internet": {
         "locked": "Kilitli",
@@ -214,7 +215,9 @@
         "only_num_letter_symbol_tips": "Sadece harfler, sayılar ve {sembol} sembolleri kullanılabilir.",
         "min_max_length_tips": "{min} - {max} karakter.",
         "ipv6_limit_start_end_tips": "{start} ile başlamalı ve {end} ile biten doğru bir IPv6 adresi olmalıdır.",
-        "min_max_byte_tips": "{min} - {max} bayt."
+        "min_max_byte_tips": "{min} - {max} bayt.",
+        "not_allow_use_tips": "{char} karakterine izin verilmez | {char} karakterlerine izin verilmez",
+        "begin_not_allow_tips": "{char} karakteri ile başlayamaz | {char} karakterlerinden herhangi biri ile başlayamaz"
     },
     "msg": {
         "access_denied": "Geçersiz kullanıcı, izin reddedildi veya giriş yapılmadı!",

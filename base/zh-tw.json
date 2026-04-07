@@ -127,7 +127,8 @@
         "important_note": "重要",
         "export_btn": "导出",
         "example_label": "例如 {content}",
-        "share": "分享"
+        "share": "分享",
+        "note_tag": "注意："
     },
     "msg": {
         "access_denied": "無效用戶，權限被拒絕或未登錄！",
@@ -274,6 +275,8 @@
         "only_num_letter_symbol_tips": "只允許字母、數字和符號{symbol}。",
         "min_max_length_tips": "{min} - {max} 個字符。",
         "ipv6_limit_start_end_tips": "必須以{start}開頭，並以正確的IPv6地址{end}結尾。",
-        "min_max_byte_tips": "{min} - {max} 位元組。"
+        "min_max_byte_tips": "{min} - {max} 位元組。",
+        "not_allow_use_tips": "字符 {char} 不允许使用 | 字符 {char} 不允许使用",
+        "begin_not_allow_tips": "不能以字符 {char} 开头 | 不能以任何字符 {char} 开头"
     }
 }

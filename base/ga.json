@@ -127,7 +127,8 @@
         "got_it": "Tuigim é",
         "export_btn": "Easpórtáil",
         "example_label": "m.sh. {content}",
-        "share": "Comhroinn"
+        "share": "Comhroinn",
+        "note_tag": "Nóta:"
     },
     "msg": {
         "copy_success": "Cóipeáil rathúil",
@@ -274,6 +275,8 @@
         "only_allowd_input_tips": "Ní cheadaítear ach {limit} a iontráil.",
         "not_allowed_only_spaces": "Ní cheadaítear spásanna amháin a úsáid.",
         "min_max_length_tips": "{min} - {max} carachtair.",
-        "min_max_byte_tips": "{min} - {max} beart."
+        "min_max_byte_tips": "{min} - {max} beart.",
+        "not_allow_use_tips": "ní ceadaítear an carachtar {char} | ní cheadaítear na carachtair {char}",
+        "begin_not_allow_tips": "Ní féidir tosú leis an gcarachtar {char} | Ní féidir tosú le haon cheann de na carachtair {char}"
     }
 }

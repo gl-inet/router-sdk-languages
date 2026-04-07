@@ -189,9 +189,26 @@
         "order_status_label": "Status",
         "order_amount_label": "Betrag ($)",
         "order_list_help_tips": "Benötigen Sie Hilfe mit einer Bestellung? Besuchen Sie die Kaufseite und klicken Sie auf das Support-Symbol, um mit unserem Team zu chatten.",
-        "order_id_label": "Bestellnummer",
         "order_status_refunded_label": "Erstattet",
-        "order_status_success_label": "Erfolg"
+        "order_status_success_label": "Erfolg",
+        "primary_data_used_card_title": "Monatliche Datennutzung",
+        "plus_high_speed_tip": "Während der Dienstzeit können Sie unbegrenzt Hochgeschwindigkeitsdaten nutzen.",
+        "standard_speed_badge_label": "Standard",
+        "plus_plan_expires_tip": "Ihre Verbindung wird automatisch auf den Standardmodus umgestellt, wenn Ihr Plan abläuft.",
+        "high_speed_badge_label": "Hochgeschwindigkeit",
+        "plus_restore_tip": "Sie können Ihren Tarif upgraden, um unbegrenzte Hochgeschwindigkeitsdaten wiederherzustellen.",
+        "free_high_speed_tip": "Genießen Sie jeden Monat {count} GB Hochgeschwindigkeitsdaten.",
+        "free_high_speed_reset_tip": "Die Datennutzung wird jeden Monat zurückgesetzt.",
+        "free_high_speed_limit_tip": "Die Verbindung wird automatisch auf den Standardmodus gedrosselt, nachdem die Datennutzung {count} GB überschreitet.",
+        "free_high_speed_upgrade_tip": "Sie können Ihren Tarif upgraden, um unbegrenzte Hochgeschwindigkeitsdaten zu erhalten.",
+        "expired_label": "Abgelaufen",
+        "secondary_plan_expire_tips": "Plan ist abgelaufen und Ihre Verbindung wurde gedrosselt. Upgraden Sie den Plan, um unbegrenzte Hochgeschwindigkeitsdaten zu erhalten.",
+        "primary_plan_expired_alert_tips": "Ihr Plan ist abgelaufen und Ihre Verbindung wurde auf den Standardmodus gedrosselt. Aktualisieren Sie Ihren Plan, um unbegrenzte Hochgeschwindigkeitsdaten zu erhalten.",
+        "primary_free_limit_alert_tips": "{count} GB Hochgeschwindigkeitsdaten wurden aufgebraucht und Ihre Verbindung wurde auf den Standardmodus gedrosselt. Upgraden Sie Ihren Tarif, um unbegrenzte Hochgeschwindigkeitsdaten zu erhalten.",
+        "refund_btn": "Rückerstattung",
+        "order_id_label": "Bestellnummer",
+        "action_label": "Aktion",
+        "action_tips": "Mehrmonatige Bestellungen können innerhalb von 30 Tagen nach Zahlung zurückerstattet werden."
     },
     "astrowarp_err": {
         "timestamp_invalid_msg": "Anfrage fehlgeschlagen: Zeitstempel ungültig. Bitte synchronisieren Sie die Zeit des Routers."

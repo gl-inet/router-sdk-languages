@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. To ensure the upstream device's port forwarding settings are correct, please refer to the information in the table below:",
         "refer_step_two_tips": "2. Ensure the firewall settings on the upstream device are correct.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "Exit IP address"
+        "exit_ip_address_label": "Exit IP address",
+        "vpn_dashboard_desc": "Configuration uploaded. Go to the VPN Dashboard to create and manage VPN tunnels.",
+        "go_to_vpn_dashboard": "Go to Dashboard",
+        "vpn_dashboard_desc_provider": "You're signed in to {provider}. Go to the VPN Dashboard to create and manage VPN tunnels."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -499,7 +502,26 @@
         "select_at_least_one_config_msg": "Please select at least one configuration.",
         "selected_profile_title": "Selected Profile ({count})",
         "selected_profile_tooltip": "Profiles will failover in the order shown (top to bottom).",
-        "no_selected_config_label": "No Selected Configuration"
+        "no_selected_config_label": "No Selected Configuration",
+        "enable_killswitch_tips": "When enabled, traffic assigned to this VPN tunnel will be blocked if the tunnel disconnects unexpectedly.",
+        "not_use_killswitch_tips": "Traffic follows All Other Traffic policy when off.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: When Enabled, only VPN traffic is permitted to access the internet. All non-VPN traffic and failed traffic within policy groups will be blocked. This global setting overrides and disables the individual Kill Switch for each policy group.",
+        "all_other_traffic_setting_title": "All Other Traffic Settings",
+        "all_other_traffic_setting_tips": "This setting controls whether traffic not matched to any active VPN tunnel can access the internet.",
+        "allow_non_vpn_default_tips": "\"{label}\" is enabled by default to ensure normal internet access for non-VPN traffic.",
+        "enhanced_kill_switch_note_tips": "{tag} This global setting does not override the individual Kill Switch configured within specific VPN policies.",
+        "allow_non_vpn_traffic_sort_tips": "Unmatched traffic uses standard internet.",
+        "allow_non_vpn_traffic_desc": "Unmatched traffic will access the internet using your standard connection.",
+        "enhanced_kill_switch_sort_tips": "Unmatched traffic is explicitly blocked.",
+        "enhanced_kill_switch_desc": "Force all devices to use a VPN to access the internet. Any traffic that does not match a VPN tunnel will be blocked.",
+        "all_clients_desc": "Route all traffic from every connected device through this VPN tunnel. Ideal for complete network privacy.",
+        "connect_methods_desc": "Apply VPN rules based on the network interface, such as only routing Guest Wi-Fi or Ethernet LAN traffic.",
+        "device_desc": "Only route traffic from explicitly selected devices. All other devices will bypass the VPN and use the regular internet.",
+        "exclude_device_desc": "Route all traffic through the VPN by default, except for the explicitly chosen devices. Useful for gaming consoles or local services.",
+        "all_target_desc": "Route all traffic from the selected source(s) through this VPN tunnel.",
+        "domain_target_desc": "Only route traffic destined for the listed domains or IP addresses through this VPN tunnel. Traffic to other destinations will bypass this tunnel.",
+        "exclude_domain_target_desc": "Route all traffic through this VPN tunnel by default, except for the listed domains or IP addresses. The excluded destinations will bypass this tunnel.",
+        "disable_killswitch_tips": "When disabled, the traffic will follow the unmatched traffic policy (currently: {label})."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
@@ -558,7 +580,9 @@
         "manual_group_btn": "Manual Group",
         "stop_config_tips": "Stopping this configuration will remove it from all tunnels.",
         "stop_config_tunnel_stopped_tips": "If a tunnel only contains this configuration, the tunnel will be stopped.",
-        "stop_config_visit_dashboard_tips": "To manage tunnels, please visit the {page}."
+        "stop_config_visit_dashboard_tips": "To manage tunnels, please visit the {page}.",
+        "remove_config_btn": "Delete Configurations",
+        "reomving_config_warning_tips": "Are you sure you want to delete?"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
@@ -566,7 +590,12 @@
         "legacy_title": "Legacy:",
         "legacy_desc": "It has higher configuration compatibility. If connection fails, you can try switching to this option.",
         "modern_label": "Modern",
-        "modern_desc": "Suitable for most VPN services, offering better performance and security."
+        "modern_desc": "Suitable for most VPN services, offering better performance and security.",
+        "enabled_dco": "Enable DCO",
+        "enabled_dco_tooltip": "Enable DCO to improve performance and security for most VPNs; disable it if compatibility issues occur."
     },
-    "menu_vpn-client": "VPN Client Profile"
+    "menu_vpn-client": "VPN Client Profile",
+    "internet": {
+        "disconnected": "Disconnected"
+    }
 }

@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. 상위 장치의 포트 포워딩 설정이 올바른지 확인하려면 아래 표의 정보를 참조하십시오:",
         "refer_step_two_tips": "2. 상위 장치의 방화벽 설정이 올바른지 확인하십시오.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "종료 IP 주소"
+        "exit_ip_address_label": "종료 IP 주소",
+        "go_to_vpn_dashboard": "대시보드로 이동",
+        "vpn_dashboard_desc": "구성이 업로드되었습니다. VPN 터널을 생성하고 관리하려면 VPN 대시보드로 이동하세요.",
+        "vpn_dashboard_desc_provider": "{provider}에 로그인되었습니다. VPN 터널을 생성하고 관리하려면 VPN 대시보드로 이동하세요."
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",
@@ -499,7 +502,26 @@
         "selected_profile_title": "선택된 프로필 ({count})",
         "selected_profile_tooltip": "프로필은 표시된 순서(위에서 아래로)대로 Failover됩니다.",
         "no_selected_config_label": "선택된 구성 없음",
-        "init_desc": "첫 번째 VPN 터널을 추가하여 시작하세요."
+        "init_desc": "첫 번째 VPN 터널을 추가하여 시작하세요.",
+        "enable_killswitch_tips": "활성화하면 이 VPN 터널에 할당된 트래픽은 터널이 예기치 않게 연결이 끊어질 경우 차단됩니다.",
+        "not_use_killswitch_tips": "꺼져 있을 때 트래픽은 다른 모든 트래픽 정책을 따릅니다.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: 활성화 시 VPN 트래픽만 인터넷에 접근할 수 있습니다. 모든 비-VPN 트래픽 및 정책 그룹 내 실패한 트래픽은 차단됩니다. 이 글로벌 설정은 각 정책 그룹의 개별 Kill Switch를 재정의하고 비활성화합니다.",
+        "all_other_traffic_setting_title": "기타 모든 트래픽 설정",
+        "all_other_traffic_setting_tips": "이 설정은 활성 VPN 터널과 일치하지 않는 트래픽이 인터넷에 접근할 수 있는지 여부를 제어합니다.",
+        "allow_non_vpn_default_tips": "\"{label}\"은(는) VPN이 아닌 트래픽의 정상적인 인터넷 접속을 보장하기 위해 기본적으로 활성화됩니다.",
+        "enhanced_kill_switch_note_tips": "{tag} 이 글로벌 설정은 특정 VPN 정책 내에서 구성된 개별 Kill Switch를 재정의하지 않습니다.",
+        "allow_non_vpn_traffic_sort_tips": "일치하지 않는 트래픽은 표준 인터넷을 사용합니다.",
+        "enhanced_kill_switch_sort_tips": "일치하지 않는 트래픽은 명시적으로 차단됩니다.",
+        "allow_non_vpn_traffic_desc": "일치하지 않는 트래픽은 표준 연결을 사용하여 인터넷에 접속합니다.",
+        "enhanced_kill_switch_desc": "모든 장치가 VPN을 사용하여 인터넷에 접속하도록 강제합니다. VPN 터널과 일치하지 않는 모든 트래픽은 차단됩니다.",
+        "all_clients_desc": "연결된 모든 장치의 트래픽을 이 VPN 터널을 통해 라우팅합니다. 완전한 네트워크 개인 정보 보호에 이상적입니다.",
+        "device_desc": "명시적으로 선택된 장치의 트래픽만 라우팅합니다. 다른 모든 장치는 VPN을 우회하여 일반 인터넷을 사용합니다.",
+        "exclude_device_desc": "명시적으로 선택된 장치를 제외하고 기본적으로 모든 트래픽을 VPN을 통해 라우팅합니다. 게임 콘솔이나 로컬 서비스에 유용합니다.",
+        "all_target_desc": "선택된 소스의 모든 트래픽을 이 VPN 터널을 통해 라우팅합니다.",
+        "exclude_domain_target_desc": "나열된 도메인 또는 IP 주소를 제외하고 기본적으로 모든 트래픽을 이 VPN 터널을 통해 라우팅합니다. 제외된 목적지는 이 터널을 우회합니다.",
+        "connect_methods_desc": "게스트 Wi-Fi 또는 이더넷 LAN 트래픽과 같이 네트워크 인터페이스를 기반으로 VPN 규칙을 적용합니다.",
+        "domain_target_desc": "나열된 도메인 또는 IP 주소로 향하는 트래픽만 이 VPN 터널을 통해 라우팅합니다. 다른 목적지로의 트래픽은 이 터널을 우회합니다.",
+        "disable_killswitch_tips": "비활성화 시 트래픽은 일치하지 않는 트래픽 정책(현재: {label})을 따릅니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
@@ -558,7 +580,9 @@
         "manual_group_btn": "수동 그룹",
         "stop_config_tips": "이 구성을 중지하면 모든 터널에서 제거됩니다.",
         "stop_config_tunnel_stopped_tips": "터널에 이 구성만 포함되어 있으면 터널이 중지됩니다.",
-        "stop_config_visit_dashboard_tips": "터널을 관리하려면 {page}를 방문하세요."
+        "stop_config_visit_dashboard_tips": "터널을 관리하려면 {page}를 방문하세요.",
+        "remove_config_btn": "구성 삭제",
+        "reomving_config_warning_tips": "삭제하시겠습니까?"
     },
     "ovpnclient": {
         "legacy_label": "레거시",
@@ -566,7 +590,12 @@
         "legacy_title": "레거시:",
         "legacy_desc": "구성 호환성이 더 높습니다. 연결에 실패할 경우 이 옵션으로 전환해 보세요.",
         "modern_label": "Modern",
-        "modern_desc": "대부분의 VPN 서비스에 적합하며, 더 나은 성능과 보안을 제공합니다."
+        "modern_desc": "대부분의 VPN 서비스에 적합하며, 더 나은 성능과 보안을 제공합니다.",
+        "enabled_dco_tooltip": "대부분의 VPN 성능과 보안을 향상시키려면 DCO를 활성화하세요. 호환성 문제가 발생하면 비활성화하세요.",
+        "enabled_dco": "DCO 활성화됨"
     },
-    "menu_vpn-client": "VPN 클라이언트 프로필"
+    "menu_vpn-client": "VPN 클라이언트 프로필",
+    "internet": {
+        "disconnected": "연결 끊김"
+    }
 }

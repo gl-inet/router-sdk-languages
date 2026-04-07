@@ -88,7 +88,8 @@
         "to_safeGuard_btn": "Zu SafeGuard gehen",
         "table_title": "App-Datenverkehrsstatistiken",
         "search_app_input_placeholder": "Bitte geben Sie den App-Namen zur Suche ein",
-        "clear_statistical_label": "Alle statistischen Daten der aktuellen Seite löschen?"
+        "clear_statistical_label": "Alle statistischen Daten der aktuellen Seite löschen?",
+        "all_traffic_label": "All traffic"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
@@ -128,7 +129,6 @@
         "other_label": "Andere",
         "missing_app_label": "Fehlende App",
         "subscription_trial_status": "In Testversion",
-        "retry_btn": "Wiederholen",
         "expiration_date_label": "Ablaufdatum",
         "renew_btn": "Verlängern",
         "configuration_automatic_label": "Automatische Updates konfigurieren",
@@ -173,7 +173,6 @@
         "reactivation_guide_second_description": "Sie werden zu unserem sicheren Abonnementportal, GoodCloud, weitergeleitet, um Ihre Lizenz zu verwalten.",
         "additional_notes_third_text": "Da die DPI-Funktion mit der Netzwerkbeschleunigung in Konflikt steht, können beide nicht gleichzeitig aktiviert werden. Wenn DPI aktiviert ist, wird die Netzwerkbeschleunigung automatisch deaktiviert, um einen stabilen und ordnungsgemäßen Betrieb zu gewährleisten.",
         "additional_notes_second_text": "Um die DPI-Funktion nach dem Test weiterhin zu nutzen, abonnieren Sie bitte über die GoodCloud-Plattform, die derzeit ein Ein-Klick-Abonnement für 2 Jahre unterstützt.",
-        "trial_activation": "Testaktivierung",
         "trial_activation_second_title": "Konfiguration und Lizenz werden aktualisiert",
         "trial_activation_first_title": "Geräteverfügbarkeit wird überprüft",
         "trial_activation_third_title": "Netzwerkbeschleunigung wird überprüft und deaktiviert",
@@ -185,7 +184,6 @@
         "subscription_valid_title": "Funktionsabonnement ist gültig",
         "start_day_Trial_btn": "30-Tage-Testversion starten",
         "what_will_do_label": "Funktionsumfang",
-        "lets_start_btn": "Los geht's",
         "error_encountered_label": "Fehler aufgetreten: {value}. ",
         "congratulations_label": "Herzlichen Glückwunsch!",
         "oops_label": "Hoppla...",
@@ -243,10 +241,21 @@
         "status_code_network_timeout": "Netzwerkverbindungs-Timeout",
         "status_code_json_error": "JSON-Parsing fehlgeschlagen",
         "new_version_tips": "Neue Version {version} verfügbar",
-        "version_is_up_to_date_tips": "版本是最新的",
+        "version_is_up_to_date_tips": "最新",
         "please_start_the_cloud_tips": "Bitte starten Sie den Cloud-Dienst und melden Sie sich bei Goodcloud an.",
-        "go_to_cloud_btn": "Gehen Sie zum Cloud-Dienst",
-        "need_login_cloud_tips": "Bitte melden Sie sich beim Cloud-Dienst an, um den Bindungsprozess abzuschließen und die DPI-Funktion weiterhin nutzen zu können."
+        "need_login_cloud_tips": "Bitte melden Sie sich beim Cloud-Dienst an, um den Bindungsprozess abzuschließen und die DPI-Funktion weiterhin nutzen zu können.",
+        "trial_dialog_step1_title": "DPI verwendet lokale Ressourcen, um Pakete zu analysieren und zu klassifizieren.",
+        "version_update_desc_text": "{name} ist bereit. {name1}, {name2} und {name3} funktionieren nur, wenn sie auf ihren eigenen Seiten aktiviert sind.",
+        "latest_available_label": "Aktuell verfügbar: ",
+        "upgrading_btn_text": "Aktualisierung läuft...",
+        "trial_dialog_title": "DPI aktivieren",
+        "trial_dialog_success_title": "Erfolgreich aktiviert!",
+        "trial_dialog_step2_title": "{network} wird deaktiviert, um die Paketinspektion sicherzustellen.",
+        "trial_dialog_success_text": "Sie können jetzt den vollen Funktionsumfang von DPI lokal nutzen.",
+        "engine_version_center_title": "{name} Versionszentrum",
+        "core_services_ready_tag": "Kernservices bereit",
+        "engine_desc_text": "Diese Seite zeigt nur die Kernwartungssignale. Die Verkehrsverarbeitung beginnt, nachdem jede Funktion aktiviert wurde.",
+        "version_update_center_title": "Versionsaktualisierungszentrum"
     },
     "menu_dpifeatures": "DPI-Funktionen"
 }

@@ -116,7 +116,8 @@
         "use_as_port_btn": "Zmień {silkprint} na {port}",
         "no_wan_tips": "Nie wykryto kabla.",
         "use_as_wan_silkprint_tips": "Gdy {silkprint} jest używany jako port WAN",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID koliduje z VLAN ID Ethernet2."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID koliduje z VLAN ID Ethernet2.",
+        "vlan_lan_subnet_conflict_tips": "VLAN skonfigurowany na porcie WAN powoduje konflikt z podsiecią."
     },
     "sms": {
         "send_modem": "Z Modemu (SIM)",
@@ -344,10 +345,10 @@
         "save_new_cellular_profile_title": "Zapisz jako Nowy Profil Komórkowy",
         "add_new_cellular_profile_title": "Dodaj Nowy Profil Komórkowy",
         "modify_cellular_profile_title": "Modyfikuj Profil Komórkowy",
-        "name_length_limit_tips": "Nazwa przekracza limit długości",
         "name_already_taken_tips": "Nazwa {name} jest już zajęta",
         "name_empty_tips": "Nazwa nie może być pusta",
-        "auto_switch_tips": "Ta funkcja wymaga trybu wykrywania bez niskiego zużycia danych w śledzeniu stanu interfejsu Multi-WAN. Po włączeniu system automatycznie przełączy się na odpowiedni tryb wykrywania i może generować dodatkowe zużycie ruchu."
+        "auto_switch_tips": "Ta funkcja wymaga trybu wykrywania bez niskiego zużycia danych w śledzeniu stanu interfejsu Multi-WAN. Po włączeniu system automatycznie przełączy się na odpowiedni tryb wykrywania i może generować dodatkowe zużycie ruchu.",
+        "sim_registered_connection_failed_tips": "Sprawdź, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. {guide}"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "Instrukcja",
-        "manual_mac_label": "Ręczne ustawienie adresu MAC"
+        "manual_mac_label": "Ręczne ustawienie adresu MAC",
+        "no_wan_tips": "{silkprint} został użyty jako LAN (sieć lokalna). Możesz przywrócić go do WAN (sieć rozległa) w {view}."
     }
 }

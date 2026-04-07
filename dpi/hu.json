@@ -88,7 +88,8 @@
         "client_port_label": "Kliens port",
         "past_hour_label": "Elmúlt óra",
         "search_app_input_placeholder": "Kérjük, adja meg az alkalmazás nevét a kereséshez",
-        "clear_statistical_label": "Törli az aktuális oldal összes statisztikai adatát?"
+        "clear_statistical_label": "Törli az aktuális oldal összes statisztikai adatát?",
+        "all_traffic_label": "Összes forgalom"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
@@ -140,7 +141,6 @@
         "trial_open_other_warning": "A DPI funkciók ütköznek a {network} hálózattal és nem használhatók egyszerre.",
         "inaccurate_app_classification_label": "Pontatlan alkalmazásosztályozás",
         "missing_app_label": "Hiányzó alkalmazás",
-        "retry_btn": "Újrapróbálás",
         "flowstatistics_description_third_text": "Hozzáférés az egyes alkalmazások részletes használati adataihoz.",
         "expiration_date_label": "Lejárati dátum",
         "subscribed_btn": "Előfizetés",
@@ -172,7 +172,6 @@
         "reactivation_guide_second_title": "Átirányítás a GoodCloud-ra",
         "reactivation_guide_second_description": "Átirányításra kerül a biztonságos előfizetési portálunkra, a GoodCloud-ra, ahol kezelheti licencét.",
         "additional_notes_third_text": "Mivel a DPI funkció ütközik a Hálózati Gyorsítással, mindkettő nem engedélyezhető egyszerre. Amikor a DPI engedélyezve van, a rendszer automatikusan letiltja a Hálózati Gyorsítást a stabil és megfelelő működés biztosítása érdekében.",
-        "trial_activation": "Próbaaktiválás",
         "trial_activation_second_title": "Konfiguráció és licenc frissítése",
         "trial_activation_first_title": "Eszköz elérhetőségének ellenőrzése",
         "trial_activation_third_title": "Hálózati Gyorsítás ellenőrzése és letiltása",
@@ -182,7 +181,6 @@
         "trial_expired_title": "Lejárt funkciók",
         "subscription_valid_title": "A funkció előfizetése érvényes",
         "what_will_do_label": "Mit fog tenni",
-        "lets_start_btn": "Kezdjük",
         "error_encountered_label": "Hiba történt: {value}. ",
         "oops_label": "Hoppá...",
         "please_try_again_label": "Kérjük, próbálja újra vagy lépjen kapcsolatba a technikai támogatással.",
@@ -245,8 +243,19 @@
         "new_version_tips": "Új verzió {version} elérhető",
         "version_is_up_to_date_tips": "Verzió naprakész",
         "please_start_the_cloud_tips": "Kérjük, indítsa el a felhőszolgáltatást és jelentkezzen be a Goodcloud-ba.",
-        "go_to_cloud_btn": "Ugrás a Felhőszolgáltatáshoz",
-        "need_login_cloud_tips": "Kérjük, jelentkezzen be a felhőszolgáltatásba a kötési folyamat befejezéséhez és a DPI funkció további használatához."
+        "need_login_cloud_tips": "Kérjük, jelentkezzen be a felhőszolgáltatásba a kötési folyamat befejezéséhez és a DPI funkció további használatához.",
+        "trial_dialog_title": "DPI aktiválása",
+        "trial_dialog_success_text": "Most már helyben élvezheti a DPI funkciók teljes készletét.",
+        "core_services_ready_tag": "Alapszolgáltatások készen állnak",
+        "version_update_desc_text": "A(z) {name} kész. A(z) {name1}, {name2} és {name3} csak akkor működik, ha a saját oldalukon engedélyezve vannak.",
+        "latest_available_label": "Legfrissebb elérhető: ",
+        "trial_dialog_success_title": "Sikeresen aktiválva!",
+        "trial_dialog_step1_title": "A DPI helyi erőforrásokat használ a csomagok elemzéséhez és osztályozásához.",
+        "trial_dialog_step2_title": "A(z) {network} le lesz tiltva a csomagvizsgálat biztosítása érdekében.",
+        "engine_version_center_title": "{name} Verzióközpont",
+        "engine_desc_text": "Ez az oldal csak az alapvető karbantartási jeleket mutatja. A forgalomfeldolgozás az egyes funkciók engedélyezése után kezdődik.",
+        "version_update_center_title": "Verziófrissítési központ",
+        "upgrading_btn_text": "Frissítés..."
     },
     "menu_dpifeatures": "DPI funkciók"
 }

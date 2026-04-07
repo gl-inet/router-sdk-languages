@@ -27,7 +27,8 @@
         "use_as_port_btn": "Cambiar el {silkprint} por {port}",
         "revert_wan_tips": "Después de que restaure el puerto WAN",
         "use_as_wan_silkprint_tips": "Una vez que el {silkprint} se utiliza como puerto WAN",
-        "vlan_id_conflict_tips": "El ID de VLAN de Ethernet1 entra en conflicto con el ID de VLAN de Ethernet2."
+        "vlan_id_conflict_tips": "El ID de VLAN de Ethernet1 entra en conflicto con el ID de VLAN de Ethernet2.",
+        "vlan_lan_subnet_conflict_tips": "La VLAN configurada en el puerto WAN entra en conflicto con la subred."
     },
     "tethering": {
         "title": "Uso compartido (Tethering)",
@@ -272,10 +273,10 @@
         "save_new_cellular_profile_title": "Guardar como un nuevo perfil móvil",
         "add_new_cellular_profile_title": "Agregar un nuevo perfil móvil",
         "modify_cellular_profile_title": "Modificar Perfil Móvil",
-        "name_length_limit_tips": "El nombre excede el límite de longitud",
         "name_already_taken_tips": "El nombre {name} ya está en uso",
         "name_empty_tips": "El nombre no puede estar vacío",
-        "auto_switch_tips": "Esta función requiere el modo de detección sin datos bajos del Seguimiento de Estado de Interfaz Multi-WAN. Cuando está habilitada, el sistema cambiará automáticamente al modo de detección correspondiente y puede generar un uso de tráfico adicional."
+        "auto_switch_tips": "Esta función requiere el modo de detección sin datos bajos del Seguimiento de Estado de Interfaz Multi-WAN. Cuando está habilitada, el sistema cambiará automáticamente al modo de detección correspondiente y puede generar un uso de tráfico adicional.",
+        "sim_registered_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. {guide}"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "Manual",
-        "manual_mac_label": "Dirección MAC manual"
+        "manual_mac_label": "Dirección MAC manual",
+        "no_wan_tips": "{silkprint} se ha utilizado como LAN (Red de Área Local). Puede volver a configurarlo como WAN (Red de Área Amplia) en {view}."
     }
 }

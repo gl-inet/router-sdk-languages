@@ -33,7 +33,7 @@
         "radio_bands_tips": "少なくとも2つの無線帯域を選択してください。",
         "enable_psc_label": "PSCを有効化",
         "enable_psc_tips": "PSC（優先スキャンチャネル）が有効な場合、6GHzデバイスの接続を確保するため、接続性がより高いチャネルのみが予約されます。",
-        "mlo_6g_bssid_tips": "MLO Wi-Fiの無線帯域に6GHzが含まれる場合、6GHz Wi-FiのBSSIDが変更されると、MLO Wi-FiのBSSIDも同期して変更されます。",
+        "mlo_6g_bssid_tips": "MLO Wi-Fiに6 GHz帯が含まれている場合、その6 GHz BSSIDはメインのWi-Fiネットワークの6 GHz BSSIDと同期されます。",
         "mlo_network_tips": "Wi-Fi 7クライアントはMLO Wi-Fiへの接続が推奨されます。マルチバンド接続によりネットワーク伝送速度と信頼性が大幅に向上します。",
         "open_wifi_security_tips": "「Open WiFi」にはセキュリティリスクがあります。ご利用の際はご注意ください。",
         "guest_wifi_unavailable_tips": "{repeater}が有効になっているため、ゲストWi-Fiは利用できません。",
@@ -61,7 +61,7 @@
         "radio_configuration_tips": "以下の設定は、すべての{band}ネットワークに適用されます。",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fiは最大160MHzの帯域幅をサポートしています。",
         "lan_iot_conflict_tips": "{lan}と{iot}の間の競合を避けるため、IoT Wi-Fiは有効化できません。",
-        "enable_random_bssid_tips": "この操作により、すべての6GHz帯域でランダムBSSID設定が同期されます。変更を適用するためにWi-Fiが再起動します。"
+        "enable_random_bssid_tips": "この操作により、すべての6GHz帯域でランダムBSSID設定が同期されます。変更を反映させるため、Wi-Fiが再起動します。"
     },
     "menu_wireless": "無線"
 }

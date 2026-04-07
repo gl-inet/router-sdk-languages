@@ -27,7 +27,8 @@
         "use_as_wan_silkprint_tips": "一旦 {silkprint}作为 WAN 口使用",
         "use_as_port_btn": "将 {silkprint}切换至作为 {port}使用",
         "using_tips": "{silkprint} 状态：正在作为 {port} 使用。{changePort}",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID与Ethernet2 VLAN ID冲突。"
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID与Ethernet2 VLAN ID冲突。",
+        "vlan_lan_subnet_conflict_tips": "WAN 端口上配置的 VLAN 与子网冲突。"
     },
     "tethering": {
         "title": "热点共享",
@@ -272,10 +273,10 @@
         "save_new_cellular_profile_title": "保存为新蜂窝网络配置文件",
         "add_new_cellular_profile_title": "添加新的蜂窝网络配置文件",
         "modify_cellular_profile_title": "修改蜂窝网络配置文件",
-        "name_length_limit_tips": "名称长度超过限制",
         "name_already_taken_tips": "名称 {name} 已被使用",
         "name_empty_tips": "名称不能为空",
-        "auto_switch_tips": "该功能依赖于多线负载接口状态检测的非低数据检测模式。启用后，系统将自动切换到相应的检测模式，并可能产生额外的流量消耗。"
+        "auto_switch_tips": "该功能依赖于多线负载接口状态检测的非低数据检测模式。启用后，系统将自动切换到相应的检测模式，并可能产生额外的流量消耗。",
+        "sim_registered_connection_failed_tips": "请检查 SIM 卡是否有可用流量，以及 {apnBtn} 设置是否正确。{guide}"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "手动",
-        "manual_mac_label": "手动输入的 MAC 地址"
+        "manual_mac_label": "手动输入的 MAC 地址",
+        "no_wan_tips": "{silkprint} 已被用作LAN(局域网)。您可以在{view}中将其设置回WAN(广域网)"
     }
 }

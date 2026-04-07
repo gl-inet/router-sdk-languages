@@ -179,7 +179,8 @@
         "important_note": "Важно",
         "export_btn": "Экспорт",
         "example_label": "например, {content}",
-        "share": "分享"
+        "share": "分享",
+        "note_tag": "Примечание:"
     },
     "msg": {
         "access_denied": "Неверный пользователь, доступ запрещен или не выполнен вход!",
@@ -274,6 +275,8 @@
         "only_num_letter_symbol_tips": "Только буквы, цифры и символы {symbol} разрешены.",
         "min_max_length_tips": "{min} - {max} символов.",
         "ipv6_limit_start_end_tips": "Оно должно начинаться с {start} и заканчиваться корректным IPv6-адресом {end}.",
-        "min_max_byte_tips": "{min} - {max} байт."
+        "min_max_byte_tips": "{min} - {max} байт.",
+        "not_allow_use_tips": "символ {char} не допускается | символы {char} не допускаются",
+        "begin_not_allow_tips": "Не может начинаться с символа {char} | Не может начинаться ни с одного из символов {char}"
     }
 }

@@ -328,7 +328,10 @@
         "refer_step_three_tips": "3. {contact}",
         "vpn_server_connectivity_tips": "Jei šis maršrutizatorius yra už NAT, galbūt jums reikės nustatyti prievadų persiuntimą savo interneto paslaugų teikėjo maršrutizatoriuje {gateway}.",
         "refer_step_one_tips": "1. Norėdami įsitikinti, kad aukštesnio lygio įrenginio prievadų persiuntimo nustatymai yra teisingi, žiūrėkite informaciją žemiau esančioje lentelėje:",
-        "exit_ip_address_label": "Išėjimo IP adresas"
+        "exit_ip_address_label": "Išėjimo IP adresas",
+        "go_to_vpn_dashboard": "Eiti į ataskaitų skydelį",
+        "vpn_dashboard_desc": "Konfigūracija įkelta. Eikite į „VPN“ ataskaitų skydelį, kad sukurtumėte ir tvarkytumėte „VPN“ tunelius.",
+        "vpn_dashboard_desc_provider": "Esate prisijungę prie {provider}. Eikite į „VPN“ ataskaitų skydelį, kad sukurtumėte ir tvarkytumėte „VPN“ tunelius."
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -499,7 +502,26 @@
         "add_vpn_tunnel_btn": "Pridėti „VPN“ tunelį",
         "select_target_destination_title": "Pasirinkite kelionės tikslo paskirtį",
         "apply_all_changes_btn": "Taikyti visus pakeitimus",
-        "selected_profile_tooltip": "Profiliai pereis į atsarginį režimą parodyta tvarka (iš viršaus į apačią)."
+        "selected_profile_tooltip": "Profiliai pereis į atsarginį režimą parodyta tvarka (iš viršaus į apačią).",
+        "enable_killswitch_tips": "Įjungus, srautas, priskirtas šiam „VPN“ tuneliui, bus užblokuotas, jei tunelis netikėtai atsijungs.",
+        "not_use_killswitch_tips": "Srautas laikosi visų kitų srauto politikos, kai išjungta.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Kai įjungta, tik VPN srautas gali pasiekti internetą. Visas ne-VPN srautas ir nepavykęs srautas politinių grupių viduje bus blokuojamas. Šis visuotinis nustatymas perrašo ir išjungia individualų Kill Switch kiekvienai politinei grupei.",
+        "all_other_traffic_setting_title": "Visi kiti srauto nustatymai",
+        "all_other_traffic_setting_tips": "Šis nustatymas kontroliuoja, ar srautas, neatitinkantis jokio aktyvaus „VPN“ tunelio, gali pasiekti internetą.",
+        "allow_non_vpn_default_tips": "\"{label}\" yra numatytasis įjungtas, kad užtikrintų normalų interneto prieigą ne-VPN srautui.",
+        "enhanced_kill_switch_note_tips": "{tag} Šis visuotinis nustatymas neperrašo individualaus Kill Switch, sukonfigūruoto konkrečiose VPN politikose.",
+        "allow_non_vpn_traffic_sort_tips": "Nesutampantis srautas naudoja tipinį internetą.",
+        "allow_non_vpn_traffic_desc": "Nesutampantis srautas pasieks internetą naudodamas jūsų tipinį ryšį.",
+        "enhanced_kill_switch_sort_tips": "Nesutampantis srautas yra aiškiai blokuojamas.",
+        "enhanced_kill_switch_desc": "Priversti visus įrenginius naudoti VPN, kad pasiektų internetą. Bet koks srautas, kuris neatitinka VPN tunelio, bus užblokuotas.",
+        "all_clients_desc": "Nukreipkite visą srautą iš kiekvieno prijungto įrenginio per šį „VPN“ tunelį. Idealus visiško tinklo privatumui.",
+        "device_desc": "Nukreipkite tik srautą iš aiškiai pasirinktų įrenginių. Visi kiti įrenginiai apeis „VPN“ ir naudos įprastą internetą.",
+        "all_target_desc": "Nukreipkite visą srautą iš pasirinkto(-ų) šaltinio(-ių) per šį „VPN“ tunelį.",
+        "exclude_domain_target_desc": "Numatytai nukreipkite visą srautą per šį „VPN“ tunelį, išskyrus išvardytus domenus arba IP adresus. Išskirtos paskirties vietos apeis šį tunelį.",
+        "connect_methods_desc": "Taikykite „VPN“ taisykles pagal tinklo sąsają, pavyzdžiui, nukreipdami tik svečio „Wi-Fi“ arba „ethernet“ vietinio tinklo srautą.",
+        "exclude_device_desc": "Numatytai nukreipkite visą srautą per „VPN“, išskyrus aiškiai pasirinktus įrenginius. Naudinga žaidimų konsolėms arba vietinėms paslaugoms.",
+        "domain_target_desc": "Nukreipkite tik srautą, skirtą išvardytiems domenams arba IP adresams, per šį „VPN“ tunelį. Srautas į kitas paskirties vietas apeis šį tunelį.",
+        "disable_killswitch_tips": "Kai išjungta, srautas seks nesutampančio srauto politiką (šiuo metu: {label})."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
@@ -558,7 +580,9 @@
         "manual_group_btn": "Rankinis grupės nustatymas",
         "stop_config_tips": "Sustabdžius šią konfigūraciją, ji bus pašalinta iš visų tunelių.",
         "stop_config_tunnel_stopped_tips": "Jei tunelyje yra tik ši konfigūracija, tunelis bus sustabdytas.",
-        "stop_config_visit_dashboard_tips": "Norėdami tvarkyti tunelius, apsilankykite {page}."
+        "stop_config_visit_dashboard_tips": "Norėdami tvarkyti tunelius, apsilankykite {page}.",
+        "remove_config_btn": "Konfigūracijų trynimas",
+        "reomving_config_warning_tips": "Ar tikrai norite ištrinti?"
     },
     "ovpnclient": {
         "legacy_label": "Pasenusio/-s standarto/įrangos",
@@ -566,7 +590,12 @@
         "legacy_title": "Pasenusio/-s standarto/įrangos:",
         "legacy_desc": "Jis turi didesnę konfigūracijos suderinamumą. Jei prisijungimas nepavyksta, galite pabandyti perjungti į šią parinktį.",
         "modern_label": "Šiuolaikiškas",
-        "modern_desc": "Tinka daugumai VPN paslaugų, siūlantis geresnį našumą ir saugumą."
+        "modern_desc": "Tinka daugumai VPN paslaugų, siūlantis geresnį našumą ir saugumą.",
+        "enabled_dco": "Įjungtas DCO",
+        "enabled_dco_tooltip": "Įjunkite DCO, kad pagerintumėte daugumos „VPN“ našumą ir saugumą; išjunkite jį, jei kyla suderinamumo problemų."
     },
-    "menu_vpn-client": "VPN kliento profilis"
+    "menu_vpn-client": "VPN kliento profilis",
+    "internet": {
+        "disconnected": "Atjungta"
+    }
 }

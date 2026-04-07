@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. Um sicherzustellen, dass die Portweiterleitungseinstellungen des vorgeschalteten Geräts korrekt sind, beziehen Sie sich bitte auf die Informationen in der folgenden Tabelle:",
         "refer_step_two_tips": "2. Stellen Sie sicher, dass die Firewall-Einstellungen auf dem vorgeschalteten Gerät korrekt sind.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "Exit-IP-Adresse"
+        "exit_ip_address_label": "Exit-IP-Adresse",
+        "go_to_vpn_dashboard": "Zum Dashboard gehen",
+        "vpn_dashboard_desc": "Konfiguration hochgeladen. Gehen Sie zum VPN-Dashboard, um VPN-Tunnel zu erstellen und zu verwalten.",
+        "vpn_dashboard_desc_provider": "Sie sind bei {provider} angemeldet. Gehen Sie zum VPN-Dashboard, um VPN-Tunnel zu erstellen und zu verwalten."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -499,7 +502,26 @@
         "selected_profile_tooltip": "Profile werden in der gezeigten Reihenfolge (von oben nach unten) als Ausfallsicherung verwendet.",
         "no_selected_config_label": "Keine Konfiguration ausgewählt",
         "add_tunnel_desc": "Fügen Sie einen Tunnel hinzu, um den Datenverkehr zu schützen oder Routing-Regeln anzupassen.",
-        "apply_all_changes_btn": "Alle Änderungen übernehmen"
+        "apply_all_changes_btn": "Alle Änderungen übernehmen",
+        "enable_killswitch_tips": "Wenn aktiviert, wird der Verkehr, der diesem VPN-Tunnel zugewiesen ist, blockiert, wenn der Tunnel unerwartet getrennt wird.",
+        "not_use_killswitch_tips": "Der Datenverkehr folgt der Richtlinie \"Alle anderen Datenverkehr\", wenn er ausgeschaltet ist.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Wenn aktiviert, ist nur VPN-Datenverkehr für den Internetzugang erlaubt. Alle Nicht-VPN-Datenströme und fehlgeschlagene Verbindungen innerhalb von Richtliniengruppen werden blockiert. Diese globale Einstellung überschreibt und deaktiviert den individuellen Kill Switch für jede Richtliniengruppe.",
+        "all_other_traffic_setting_title": "Alle anderen Verkehrseinstellungen",
+        "all_other_traffic_setting_tips": "Diese Einstellung steuert, ob Datenverkehr, der keinem aktiven VPN-Tunnel zugeordnet werden kann, auf das Internet zugreifen darf.",
+        "allow_non_vpn_default_tips": "\"{label}\" ist standardmäßig aktiviert, um normalen Internetzugang für Nicht-VPN-Datenverkehr zu gewährleisten.",
+        "enhanced_kill_switch_note_tips": "{tag} Diese globale Einstellung überschreibt nicht den individuellen Kill Switch, der innerhalb spezifischer VPN-Richtlinien konfiguriert ist.",
+        "allow_non_vpn_traffic_sort_tips": "Nicht übereinstimmender Datenverkehr nutzt das Standard-Internet.",
+        "allow_non_vpn_traffic_desc": "Nicht übereinstimmender Datenverkehr greift über Ihre Standardverbindung auf das Internet zu.",
+        "enhanced_kill_switch_sort_tips": "Nicht übereinstimmender Datenverkehr wird explizit blockiert.",
+        "enhanced_kill_switch_desc": "Erzwingen Sie, dass alle Geräte ein VPN nutzen, um auf das Internet zuzugreifen. Jeder Datenverkehr, der nicht mit einem VPN-Tunnel übereinstimmt, wird blockiert.",
+        "all_clients_desc": "Leiten Sie den gesamten Datenverkehr von jedem verbundenen Gerät durch diesen VPN-Tunnel. Ideal für vollständige Netzwerkprivatsphäre.",
+        "connect_methods_desc": "Wenden Sie VPN-Regeln basierend auf der Netzwerkschnittstelle an, z. B. nur für Gäste-WLAN- oder Ethernet-LAN-Datenverkehr.",
+        "exclude_device_desc": "Leiten Sie standardmäßig den gesamten Datenverkehr über das VPN, mit Ausnahme der explizit ausgewählten Geräte. Nützlich für Spielekonsolen oder lokale Dienste.",
+        "all_target_desc": "Leiten Sie den gesamten Datenverkehr von der/dem ausgewählten Quelle(n) durch diesen VPN-Tunnel.",
+        "domain_target_desc": "Leiten Sie nur den Datenverkehr, der für die aufgeführten Domänen oder IP-Adressen bestimmt ist, durch diesen VPN-Tunnel. Datenverkehr zu anderen Zielen umgeht diesen Tunnel.",
+        "exclude_domain_target_desc": "Leiten Sie standardmäßig den gesamten Datenverkehr durch diesen VPN-Tunnel, mit Ausnahme der aufgeführten Domänen oder IP-Adressen. Die ausgenommenen Ziele umgehen diesen Tunnel.",
+        "device_desc": "Leiten Sie nur den Datenverkehr von explizit ausgewählten Geräten um. Alle anderen Geräte umgehen das VPN und nutzen das reguläre Internet.",
+        "disable_killswitch_tips": "Wenn deaktiviert, folgt der Datenverkehr der Richtlinie für nicht übereinstimmenden Datenverkehr (aktuell: {label})."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
@@ -558,7 +580,9 @@
         "manual_group_btn": "Manuelle Gruppe",
         "stop_config_tips": "Das Stoppen dieser Konfiguration entfernt sie aus allen Tunneln.",
         "stop_config_tunnel_stopped_tips": "Wenn ein Tunnel nur diese Konfiguration enthält, wird der Tunnel gestoppt.",
-        "stop_config_visit_dashboard_tips": "Um Tunnel zu verwalten, besuchen Sie bitte die {page}."
+        "stop_config_visit_dashboard_tips": "Um Tunnel zu verwalten, besuchen Sie bitte die {page}.",
+        "remove_config_btn": "Konfigurationen löschen",
+        "reomving_config_warning_tips": "Sind Sie sicher, dass Sie löschen möchten?"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
@@ -566,7 +590,12 @@
         "legacy_title": "Legacy:",
         "legacy_desc": "Es bietet eine höhere Konfigurationskompatibilität. Bei Verbindungsproblemen können Sie versuchen, zu dieser Option zu wechseln.",
         "modern_label": "Modern",
-        "modern_desc": "Geeignet für die meisten VPN-Dienste, bietet bessere Leistung und Sicherheit."
+        "modern_desc": "Geeignet für die meisten VPN-Dienste, bietet bessere Leistung und Sicherheit.",
+        "enabled_dco": "DCO aktiviert",
+        "enabled_dco_tooltip": "Aktivieren Sie DCO, um die Leistung und Sicherheit für die meisten VPNs zu verbessern; deaktivieren Sie es, wenn Kompatibilitätsprobleme auftreten."
     },
-    "menu_vpn-client": "VPN-Client-Profil"
+    "menu_vpn-client": "VPN-Client-Profil",
+    "internet": {
+        "disconnected": "Getrennt"
+    }
 }

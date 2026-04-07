@@ -127,7 +127,8 @@
         "important_note": "重要",
         "export_btn": "エクスポート",
         "example_label": "例：{content}",
-        "share": "共有"
+        "share": "共有",
+        "note_tag": "注："
     },
     "msg": {
         "access_denied": "無効なユーザーであり、認証に失敗したかログインされていません！",
@@ -274,6 +275,8 @@
         "min_max_length_tips": "{min} - {max} 文字。",
         "only_letters_num_allowd_tips": "英数字のみ入力できます。",
         "ipv6_limit_start_end_tips": "{start}で始まり、{end}の正しいIPv6アドレスで終わる必要があります。",
-        "min_max_byte_tips": "{min} - {max} バイト。"
+        "min_max_byte_tips": "{min} - {max} バイト。",
+        "not_allow_use_tips": "文字{char}は使用できません｜文字{char}は使用できません",
+        "begin_not_allow_tips": "{char}で始めることはできません | {char}のいずれかの文字で始めることはできません"
     }
 }

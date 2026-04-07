@@ -27,7 +27,8 @@
         "revert_as_lan_tips": "Weet u zeker dat u de {silkprint} wilt herstellen naar LAN-poort (standaard)?",
         "revert_port_btn": "Terug zetten naar {port}",
         "revert_wan_tips": "Nadat u de WAN-poort hebt terug gezet",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID komt in conflict met Ethernet2 VLAN ID."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID komt in conflict met Ethernet2 VLAN ID.",
+        "vlan_lan_subnet_conflict_tips": "De op de WAN-poort geconfigureerde VLAN conflicteert met het subnet."
     },
     "tethering": {
         "title": "Tetheren",
@@ -272,10 +273,10 @@
         "save_new_cellular_profile_title": "Opslaan als een nieuw mobiel profiel",
         "add_new_cellular_profile_title": "Een nieuw mobiel profiel toevoegen",
         "modify_cellular_profile_title": "Wijzig Mobiel Profiel",
-        "name_length_limit_tips": "Naamlengte overschrijdt limiet",
         "name_already_taken_tips": "Naam {name} is al in gebruik",
         "name_empty_tips": "Naam mag niet leeg zijn",
-        "auto_switch_tips": "Deze functie vereist de niet-laag-datadetectiemodus van Multi-WAN Interface Status Track. Wanneer ingeschakeld, zal het systeem automatisch overschakelen naar de bijbehorende detectiemodus en kan dit extra dataverbruik genereren."
+        "auto_switch_tips": "Deze functie vereist de niet-laag-datadetectiemodus van Multi-WAN Interface Status Track. Wanneer ingeschakeld, zal het systeem automatisch overschakelen naar de bijbehorende detectiemodus en kan dit extra dataverbruik genereren.",
+        "sim_registered_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. {guide}"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "Handleiding",
-        "manual_mac_label": "Handmatig MAC-adres"
+        "manual_mac_label": "Handmatig MAC-adres",
+        "no_wan_tips": "{silkprint} is gebruikt als LAN (Local Area Network). U kunt het terugzetten naar WAN (Wide Area Network) in {view}"
     }
 }

@@ -116,7 +116,8 @@
         "use_as_port_btn": "Змінити {silkprint} на {port}",
         "revert_wan_tips": "Після відновлення WAN-порту",
         "use_as_wan_silkprint_tips": "Якщо {silkprint} використовується як WAN-порт",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID збігається з Ethernet2 VLAN ID."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID збігається з Ethernet2 VLAN ID.",
+        "vlan_lan_subnet_conflict_tips": "Налаштована на порті WAN VLAN конфліктує з підмережею."
     },
     "modem": {
         "title": "Мобільний зв'язок",
@@ -267,10 +268,10 @@
         "save_new_cellular_profile_title": "Зберегти як новий мобільний профіль",
         "add_new_cellular_profile_title": "Додати новий профіль мобільного зв'язку",
         "modify_cellular_profile_title": "Змінити профіль мобільного зв'язку",
-        "name_length_limit_tips": "Назва перевищує обмеження",
         "name_already_taken_tips": "Назва {name} вже використовується",
         "name_empty_tips": "Назва не може бути порожньою",
-        "auto_switch_tips": "Ця функція вимагає режиму відстеження статусу інтерфейсу Multi-WAN без низького споживання даних. Після ввімкнення система автоматично перейде у відповідний режим виявлення, що може призвести до додаткового використання трафіку."
+        "auto_switch_tips": "Ця функція вимагає режиму відстеження статусу інтерфейсу Multi-WAN без низького споживання даних. Після ввімкнення система автоматично перейде у відповідний режим виявлення, що може призвести до додаткового використання трафіку.",
+        "sim_registered_connection_failed_tips": "Будь ласка, перевірте, чи має SIM-карта доступні дані та чи правильні налаштування {apnBtn}. {guide}"
     },
     "sms": {
         "all_read": "Всі прочитані",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "Посібник користувача",
-        "manual_mac_label": "Ручна MAC-адреса"
+        "manual_mac_label": "Ручна MAC-адреса",
+        "no_wan_tips": "{silkprint} використовується як LAN (локальна мережа). Ви можете повернути його до WAN (глобальна мережа) в {view}"
     }
 }

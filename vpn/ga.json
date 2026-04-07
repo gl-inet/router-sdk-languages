@@ -328,7 +328,10 @@
         "refer_step_three_tips": "3. {contact}",
         "ipv4_label": "Ethernet IPV4",
         "refer_step_two_tips": "2. Cinntigh go bhfuil socruithe an bhalla dóiteáin ar an ngléas suas an sruth ceart.",
-        "exit_ip_address_label": "Seoladh IP Scoir"
+        "exit_ip_address_label": "Seoladh IP Scoir",
+        "go_to_vpn_dashboard": "Téigh go dtí an Deais",
+        "vpn_dashboard_desc": "Cumraíocht uaslódáilte. Téigh go dtí Painéal na VPN chun tolláin VPN a chruthú agus a bhainistiú.",
+        "vpn_dashboard_desc_provider": "Tá tú sínithe isteach chuig {provider}. Téigh go dtí Painéal na VPN chun tolláin VPN a chruthú agus a bhainistiú."
     },
     "vpn_taps2s": {
         "start_title": "Aird: Tosaigh Cliant TAP-S2S",
@@ -428,12 +431,12 @@
         "disable_default_tunnel_confirm_tips": "An bhfuil tú cinnte gur mhaith leat an fheidhm reatha a dhíchumasú?",
         "not_use_vpn_label": "Ná húsáid VPN",
         "start_tips": "Roghnaigh Tollán amháin chun an chumraíocht reatha a thosú. Más mian leat roghnú tolláin iolracha, tabhair cuairt ar an {page} le haghaidh bainistíochta.",
-        "all_target_label": "Gach sprioc",
+        "all_target_label": "Gach Sprioc",
         "priority_label": "Tosaíocht {idx}",
         "all_other_traffic_tips": "Rialaíonn an socrú seo an bhfuil cead rochtana ar an idirlíon ann do thrácht nach dtéann trí thollán VPN nó do thrácht sonraí a théann as feidhm ó naisc VPN.",
         "default_tunnel_label": "Tollán Neamh-VPN",
         "address_count_label": "{count} Seoladh|{count} Seoltaí",
-        "exclude_domain_target_label": "Eisiamh Liosta Fearainn/IP sonraithe",
+        "exclude_domain_target_label": "Eisiamh Liosta Fearainn/IP Sonraithe",
         "modify_priority_btn": "Tosaíocht a Mhodhnú",
         "stop_tips": "Má stopann tú an chumraíocht seo, díchumasófar na tolláin uile a úsáideann í. Chun tolláin aonair a bhainistiú, tabhair cuairt ar an {page} le do thoil.",
         "guide_set_from_tips": "Socraigh na Foinsí Sonraí ar Mhaith Leat a Úsáid VPN",
@@ -500,11 +503,30 @@
         "select_vpn_profile_title": "Roghnaigh Próifíl VPN le do thoil",
         "select_at_least_one_config_msg": "Roghnaigh cumraíocht amháin ar a laghad le do thoil.",
         "selected_profile_title": "Próifíl Roghnaithe ({count})",
-        "selected_profile_tooltip": "Teipfidh na Próifílí san ord a thaispeántar (ón mbarr anuas).",
+        "selected_profile_tooltip": "Déanfar próifílí a aistriú de réir teip-aistrithe san ord a thaispeántar (barr go bun).",
         "no_selected_config_label": "Gan Chumraíocht Roghnaithe",
         "init_desc": "Tosaigh trí do chéad tollán VPN a chur leis.",
         "select_target_destination_title": "Roghnaigh Ceann Scríbe Sprioc",
-        "apply_all_changes_btn": "Cuir Gach Athrú i bhFeidhm"
+        "apply_all_changes_btn": "Cuir Gach Athrú i bhFeidhm",
+        "enable_killswitch_tips": "Nuair a bheidh sé cumasaithe, cuirfear bac ar thrácht atá sannta don tollán VPN seo má dhícheanglaíonn an tollán go tobann.",
+        "not_use_killswitch_tips": "Leanann trácht an polasaí Trácht Eile nuair a bhíonn sé múchta.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Nuair a bhíonn sé Cumasaithe, ní cheadaítear ach trácht VPN rochtain a fháil ar an idirlíon. Cuirfear bac ar gach trácht neamh-VPN agus trácht teipthe laistigh de ghrúpaí beartais. Sáraíonn an socrú domhanda seo an Lasc Maraithe aonair do gach grúpa beartais agus díchumasaíonn sé é.",
+        "all_other_traffic_setting_title": "Gach Socrú Tráchta Eile",
+        "all_other_traffic_setting_tips": "Rialaíonn an socrú seo an bhfuil rochtain ag trácht nach meaitseáiltear le haon tollán VPN gníomhach ar an idirlíon.",
+        "enhanced_kill_switch_note_tips": "{tag} Ní sháraíonn an socrú domhanda seo an Kill Switch aonair atá cumraithe laistigh de bheartais VPN ar leith.",
+        "allow_non_vpn_traffic_sort_tips": "Úsáideann trácht gan mheaitseáil an t-idirlíon caighdeánach.",
+        "enhanced_kill_switch_sort_tips": "Cuirtear bac ar thrácht gan mheaitseáil go sainráite.",
+        "enhanced_kill_switch_desc": "Cuir gach gléas faoi iallach VPN a úsáid chun rochtain a fháil ar an idirlíon. Cuirfear bac ar aon trácht nach meaitseálann le tollán VPN.",
+        "allow_non_vpn_default_tips": "Tá \"{label}\" cumasaithe de réir réamhshocraithe chun rochtain gnáth idirlín a chinntiú do thrácht neamh-VPN.",
+        "allow_non_vpn_traffic_desc": "Rachaidh trácht gan mheaitseáil ar an idirlíon ag baint úsáide as do nasc caighdeánach.",
+        "all_clients_desc": "Treoraigh gach trácht ó gach gléas atá ceangailte tríd an tóin VPN seo. Ideálach do phríobháideacht iomlán líonra.",
+        "connect_methods_desc": "Cuir rialacha VPN i bhfeidhm bunaithe ar an comhéadan líonra, mar shampla gan ach trácht Wi-Fi Aoi nó trácht LAN Ethernet a threorú.",
+        "exclude_device_desc": "Treoraigh gach trácht tríd an VPN de réir réamhshocraithe, ach amháin na gléis atá roghnaithe go sainráite. Úsáideach le haghaidh consól cluichí nó seirbhísí áitiúla.",
+        "domain_target_desc": "Ná treoraigh ach trácht atá dírithe ar na fearainn nó seoltaí IP liostaithe tríd an tóin VPN seo. Rachaidh trácht chuig cinn scríbe eile thar an tóin seo.",
+        "exclude_domain_target_desc": "Treoraigh gach trácht tríd an tóin VPN seo de réir réamhshocraithe, ach amháis na fearainn nó seoltaí IP liostaithe. Rachaidh na cinn scríbe eisiathe thar an tóin seo.",
+        "device_desc": "Ná treoraigh ach trácht ó ghléis atá roghnaithe go sainráite. Rachaidh gach gléas eile thar an VPN agus úsáidfidh siad an t-idirlíon rialta.",
+        "all_target_desc": "Treoraigh gach trácht ón bhfoinse/foinsí roghnaithe tríd an tóin VPN seo.",
+        "disable_killswitch_tips": "Nuair a dhíchumasaítear é, leanfaidh an trácht an beartas tráchta neamh-mheaitseála (faoi láthair: {label})."
     },
     "vpn_server": {
         "want_use_ipv6_tips": "Más mian leat seoladh IPv6 a úsáid, déan {todo} ar do ródaire le do thoil.",
@@ -539,7 +561,7 @@
     "menu_ovpnclient": "Cliant OpenVPN",
     "vpn_obfuscation": {
         "enable_label": "Cumasaigh Doiléiriú",
-        "enable_tips": "Nuair a chumasaítear é, úsáideann an Freastalaí VPN prótacal doiléirithe AmneziaWG chun trácht VPN a cheilt.",
+        "enable_tips": "Nuair a bhíonn sé cumasaithe, úsáideann an Freastalaí VPN an prótacal doiléirithe AmneziaWG 2.0 chun trácht VPN a cheilt.",
         "parameters_label": "Paraiméadair Doiléirithe",
         "set_parameters_btn": "Socraigh Paraiméadair Doiléirithe",
         "set_parameters_tips_1": "Gineann an ródaire na paraiméadair doiléirithe go huathoibríoch.",
@@ -556,9 +578,11 @@
         "add_provider_btn": "Cuir Soláthraí leis",
         "follow_provider_guide_tips": "Lean ar threoir do sholáthraí VPN, íoslódáil an comhad cumraíochta {type}, agus ionchuir an comhad cumraíochta chuig an ródaire.",
         "manual_group_btn": "Grúpa Lámhleabhar",
-        "stop_config_tips": "Ag stopadh an chumraíocht seo bainfidh sé í ó na tolláin go léir.",
-        "stop_config_tunnel_stopped_tips": "Má tá an cumra seo amháin sa tollán, stopfar an tollán.",
-        "stop_config_visit_dashboard_tips": "Chun túinéil a bhainistiú, tabhair cuairt ar an {page}."
+        "stop_config_tips": "Má stopann tú an chumraíocht seo, bainfear as na tolláin uile í.",
+        "stop_config_tunnel_stopped_tips": "Mura bhfuil ach an chumraíocht seo i dtollán, cuirfear stop leis an tollán.",
+        "stop_config_visit_dashboard_tips": "Chun tolláin a bhainistiú, tabhair cuairt ar an {page}.",
+        "remove_config_btn": "Scrios Cumraíochtaí",
+        "reomving_config_warning_tips": "An bhfuil tú cinnte gur mian leat é a scriosadh?"
     },
     "ovpnclient": {
         "legacy_label": "Oidhreacht",
@@ -566,7 +590,12 @@
         "legacy_desc": "Tá comhoiriúnacht cumraíochta níos airde aige. Má theipeann ar an nasc, is féidir leat iarracht a dhéanamh aistriú chuig an rogha seo.",
         "modern_label": "Nua-aimseartha",
         "modern_title": "Nua-aimseartha (Molta):",
-        "modern_desc": "Oiriúnach don chuid is mó de sheirbhísí VPN, ag tairiscint feidhmíochta agus slándála níos fearr."
+        "modern_desc": "Oiriúnach don chuid is mó de sheirbhísí VPN, ag tairiscint feidhmíochta agus slándála níos fearr.",
+        "enabled_dco_tooltip": "Cumasaigh DCO chun feidhmíocht agus slándáil a fheabhsú do fhormhór na VPNanna; díchumasaigh é má tharlaíonn fadhbanna comhoiriúnachta.",
+        "enabled_dco": "Cumasaigh DCO"
     },
-    "menu_vpn-client": "Próifíl Cliant VPN"
+    "menu_vpn-client": "Próifíl Cliant VPN",
+    "internet": {
+        "disconnected": "Dícheangailte"
+    }
 }

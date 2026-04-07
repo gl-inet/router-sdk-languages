@@ -127,7 +127,8 @@
         "important_note": "중요",
         "export_btn": "내보내기",
         "example_label": "예: {content}",
-        "share": "공유"
+        "share": "공유",
+        "note_tag": "참고:"
     },
     "msg": {
         "success": "적용!",
@@ -274,6 +275,8 @@
         "only_num_letter_symbol_tips": "문자, 숫자 및 기호 {symbol}만 허용됩니다.",
         "min_max_length_tips": "{min} - {max}자.",
         "ipv6_limit_start_end_tips": "{start}로 시작하고 {end}의 올바른 IPv6 주소로 끝나야 합니다.",
-        "min_max_byte_tips": "{min} - {max} 바이트."
+        "min_max_byte_tips": "{min} - {max} 바이트.",
+        "not_allow_use_tips": "문자 {char}은(는) 허용되지 않습니다 | 문자 {char}은(는) 허용되지 않습니다",
+        "begin_not_allow_tips": "{char} 문자로 시작할 수 없음 | {char} 문자 중 하나로 시작할 수 없음"
     }
 }

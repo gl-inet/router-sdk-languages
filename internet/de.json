@@ -27,7 +27,8 @@
         "revert_wan_tips": "Nachdem der WAN Port wiederhergestellt wurde",
         "use_as_wan_silkprint_tips": "Wenn der {silkprint} als WAN Port genutzt wird",
         "use_as_port_btn": "Ändere {silkprint} auf {port}",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN-ID steht in Konflikt mit Ethernet2 VLAN-ID."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN-ID steht in Konflikt mit Ethernet2 VLAN-ID.",
+        "vlan_lan_subnet_conflict_tips": "Die auf dem WAN-Port konfigurierte VLAN kollidiert mit dem Subnetz."
     },
     "tethering": {
         "title": "Tethering",
@@ -272,10 +273,10 @@
         "save_new_cellular_profile_title": "Als neues Mobilfunkprofil speichern",
         "add_new_cellular_profile_title": "Neues Mobilfunkprofil hinzufügen",
         "modify_cellular_profile_title": "Mobilfunkprofil ändern",
-        "name_length_limit_tips": "Name length exceeds limit",
         "name_already_taken_tips": "Der Name {name} ist bereits vergeben",
         "name_empty_tips": "Name darf nicht leer sein",
-        "auto_switch_tips": "Diese Funktion erfordert den Nicht-Niedrigdaten-Erkennungsmodus des Multi-WAN-Schnittstellenstatus-Trackings. Wenn aktiviert, schaltet das System automatisch in den entsprechenden Erkennungsmodus um und kann zusätzlichen Datenverbrauch verursachen."
+        "auto_switch_tips": "Diese Funktion erfordert den Nicht-Niedrigdaten-Erkennungsmodus des Multi-WAN-Schnittstellenstatus-Trackings. Wenn aktiviert, schaltet das System automatisch in den entsprechenden Erkennungsmodus um und kann zusätzlichen Datenverbrauch verursachen.",
+        "sim_registered_connection_failed_tips": "Bitte überprüfen Sie, ob die SIM-Karte verfügbare Daten hat und ob die {apnBtn}-Einstellungen korrekt sind. {guide}"
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "Handbuch",
-        "manual_mac_label": "Manuelle MAC-Adresse"
+        "manual_mac_label": "Manuelle MAC-Adresse",
+        "no_wan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet. Sie können es in {view} wieder auf WAN (Wide Area Network) zurücksetzen."
     }
 }

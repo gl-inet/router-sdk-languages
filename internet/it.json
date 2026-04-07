@@ -27,7 +27,8 @@
         "use_as_port_btn": "Cambia la {silkprint} in {port}",
         "reset_port_tips": "Puoi ripristinare {silkprint} premendo e tenendo premuto il pulsante di reset del dispositivo per 4 secondi.",
         "revert_as_lan_tips": "Sei sicuro di voler ripristinare la {silkprint} alla porta LAN (impostazione predefinita)?",
-        "vlan_id_conflict_tips": "L'ID VLAN di Ethernet1 è in conflitto con l'ID VLAN di Ethernet2."
+        "vlan_id_conflict_tips": "L'ID VLAN di Ethernet1 è in conflitto con l'ID VLAN di Ethernet2.",
+        "vlan_lan_subnet_conflict_tips": "La VLAN configurata sulla porta WAN è in conflitto con la subnet."
     },
     "tethering": {
         "title": "Tethering",
@@ -272,10 +273,10 @@
         "save_new_cellular_profile_title": "Salva come Nuovo Profilo Cellulare",
         "add_new_cellular_profile_title": "Aggiungi un nuovo profilo cellulare",
         "modify_cellular_profile_title": "Modifica Profilo Cellulare",
-        "name_length_limit_tips": "Nome troppo lungo",
         "name_already_taken_tips": "Il nome {name} è già in uso",
         "name_empty_tips": "Il nome non può essere vuoto",
-        "auto_switch_tips": "Questa funzionalità richiede la modalità di rilevamento non a basso consumo dati del Monitoraggio dello Stato dell'Interfaccia Multi-WAN. Quando abilitata, il sistema passerà automaticamente alla corrispondente modalità di rilevamento e potrebbe generare un consumo di traffico aggiuntivo."
+        "auto_switch_tips": "Questa funzionalità richiede la modalità di rilevamento non a basso consumo dati del Monitoraggio dello Stato dell'Interfaccia Multi-WAN. Quando abilitata, il sistema passerà automaticamente alla corrispondente modalità di rilevamento e potrebbe generare un consumo di traffico aggiuntivo.",
+        "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. {guide}"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "Manuale",
-        "manual_mac_label": "Indirizzo MAC manuale"
+        "manual_mac_label": "Indirizzo MAC manuale",
+        "no_wan_tips": "{silkprint} è stato utilizzato come LAN (Local Area Network). Puoi reimpostarlo su WAN (Wide Area Network) in {view}"
     }
 }

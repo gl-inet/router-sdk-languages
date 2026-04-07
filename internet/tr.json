@@ -27,7 +27,8 @@
         "use_as_port_btn": "{silkprint} öğesini {port} olarak değiştir",
         "revert_wan_tips": "WAN portunu geri yükledikten sonra",
         "use_as_wan_silkprint_tips": "{silkprint} WAN portu olarak kullanıldığında",
-        "vlan_id_conflict_tips": "Ethernet1 VLAN ID'si Ethernet2 VLAN ID'si ile çakışıyor."
+        "vlan_id_conflict_tips": "Ethernet1 VLAN ID'si Ethernet2 VLAN ID'si ile çakışıyor.",
+        "vlan_lan_subnet_conflict_tips": "WAN bağlantı noktasında yapılandırılan VLAN, alt ağ ile çakışıyor."
     },
     "modem": {
         "pin": "Pincode",
@@ -178,10 +179,10 @@
         "save_new_cellular_profile_title": "Yeni Bir Hücresel Profil Olarak Kaydet",
         "add_new_cellular_profile_title": "Yeni Bir Hücresel Profil Ekle",
         "modify_cellular_profile_title": "Hücresel Profili Düzenle",
-        "name_length_limit_tips": "Ad uzunluğu sınırı aşıyor",
         "name_already_taken_tips": "{name} adı zaten alınmış",
         "name_empty_tips": "İsim boş olamaz",
-        "auto_switch_tips": "Bu özellik, Multi-WAN Arayüz Durumu İzleme'nin düşük olmayan veri algılama modunu gerektirir. Etkinleştirildiğinde, sistem otomatik olarak ilgili algılama moduna geçecek ve ek trafik kullanımı oluşturabilir."
+        "auto_switch_tips": "Bu özellik, Multi-WAN Arayüz Durumu İzleme'nin düşük olmayan veri algılama modunu gerektirir. Etkinleştirildiğinde, sistem otomatik olarak ilgili algılama moduna geçecek ve ek trafik kullanımı oluşturabilir.",
+        "sim_registered_connection_failed_tips": "Lütfen SIM kartın kullanılabilir verisi olup olmadığını ve {apnBtn} ayarlarının doğru olup olmadığını kontrol edin. {guide}"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -618,6 +619,7 @@
     },
     "internet": {
         "manual_label": "El Kitabı",
-        "manual_mac_label": "Manuel MAC Adresi"
+        "manual_mac_label": "Manuel MAC Adresi",
+        "no_wan_tips": "{silkprint} LAN (Yerel Alan Ağı) olarak kullanılmıştır. {view} içinde WAN (Geniş Alan Ağı) olarak geri ayarlayabilirsiniz."
     }
 }

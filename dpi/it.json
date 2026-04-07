@@ -88,7 +88,8 @@
         "client_name_label": "Nome Client",
         "flowstatistics_tips": "Quando Statistiche dati è abilitato, tiene traccia del traffico delle applicazioni sul router e sui client connessi, visualizzando le app in ordine decrescente di utilizzo totale. È possibile visualizzare i dati dettagliati per ogni app e bloccare singole app se necessario.",
         "search_app_input_placeholder": "Inserire il nome dell'app per la ricerca",
-        "clear_statistical_label": "Cancellare tutti i dati statistici della pagina corrente?"
+        "clear_statistical_label": "Cancellare tutti i dati statistici della pagina corrente?",
+        "all_traffic_label": "Tutto il traffico"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
@@ -109,7 +110,6 @@
     "dpifeatures": {
         "renew_btn": "Rinnova",
         "ignore_btn": "Ignora",
-        "retry_btn": "Riprova",
         "trial_open_other_warning": "Le funzionalità DPI sono in conflitto con {network} e non possono essere utilizzate contemporaneamente.",
         "flowstatistics_description_second_text": "Visualizza le app classificate per consumo totale di banda.",
         "subscription_status_label": "Stato dell'Abbonamento",
@@ -172,7 +172,6 @@
         "reactivation_guide_second_description": "Sarai reindirizzato al nostro portale di abbonamento sicuro, GoodCloud, per gestire la tua licenza.",
         "reactivation_guide_first_description": "Fare clic sul pulsante \"Attiva abbonamento ora\" sopra per avviare il processo.",
         "additional_notes_second_text": "Per continuare a utilizzare la funzionalità DPI dopo la prova, si prega di sottoscrivere un abbonamento tramite la piattaforma GoodCloud, che attualmente supporta un abbonamento biennale con un clic.",
-        "trial_activation": "Attivazione della Prova",
         "trial_activation_second_title": "Aggiornamento configurazione e licenza",
         "trial_activation_third_title": "Verifica e disabilitazione Accelerazione di rete",
         "trial_activation_fourth_title": "Attivazione delle Statistiche Dati e della Protezione Contenuti",
@@ -182,7 +181,6 @@
         "trial_expired_title": "Funzionalità Scadute",
         "subscription_valid_title": "L'abbonamento alla funzionalità è valido",
         "what_will_do_label": "Cosa farà",
-        "lets_start_btn": "Iniziamo",
         "error_encountered_label": "Errore riscontrato: {value}. ",
         "oops_label": "Ops...",
         "please_try_again_label": "Si prega di riprovare o contattare l'assistenza tecnica.",
@@ -246,7 +244,18 @@
         "version_is_up_to_date_tips": "La versione è aggiornata",
         "please_start_the_cloud_tips": "请启动云服务并登录到GoodCloud。",
         "need_login_cloud_tips": "Accedi al servizio cloud per completare il processo di associazione e continuare a utilizzare la funzione DPI.",
-        "go_to_cloud_btn": "Vai al Servizio Cloud"
+        "trial_dialog_title": "Attiva DPI",
+        "trial_dialog_success_title": "Attivato con successo!",
+        "trial_dialog_step2_title": "{network} verrà disabilitato per garantire l'ispezione dei pacchetti.",
+        "trial_dialog_success_text": "Ora puoi goderti tutte le funzionalità DPI localmente.",
+        "engine_version_center_title": "Centro versioni {name}",
+        "core_services_ready_tag": "Servizi principali pronti",
+        "version_update_center_title": "Centro aggiornamenti versione",
+        "version_update_desc_text": "{name} è pronto. {name1}, {name2} e {name3} funzionano solo quando abilitati nelle rispettive pagine.",
+        "latest_available_label": "Ultima versione disponibile: ",
+        "upgrading_btn_text": "Aggiornamento in corso...",
+        "trial_dialog_step1_title": "DPI utilizza risorse locali per analizzare e classificare i pacchetti.",
+        "engine_desc_text": "Questa pagina mostra solo i segnali di manutenzione principali. L'elaborazione del traffico inizia dopo che ogni funzionalità è stata abilitata."
     },
     "menu_dpifeatures": "Funzionalità DPI"
 }

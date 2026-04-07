@@ -328,7 +328,10 @@
         "refer_step_two_tips": "2. Zorg ervoor dat de firewallinstellingen op het upstream-apparaat correct zijn.",
         "refer_step_three_tips": "3. {contact}",
         "exit_ip_address_label": "Exit IP-adres",
-        "protocol_label": "Protocol"
+        "protocol_label": "Protocol",
+        "go_to_vpn_dashboard": "Ga naar Dashboard",
+        "vpn_dashboard_desc_provider": "U bent aangemeld bij {provider}. Ga naar het VPN-dashboard om VPN-tunnels aan te maken en te beheren.",
+        "vpn_dashboard_desc": "Configuratie geüpload. Ga naar het VPN-dashboard om VPN-tunnels aan te maken en te beheren."
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
@@ -499,7 +502,26 @@
         "select_at_least_one_config_msg": "Selecteer ten minste één configuratie.",
         "selected_profile_title": "Geselecteerd profiel ({count})",
         "selected_profile_tooltip": "Profielen zullen in de getoonde volgorde (van boven naar beneden) failover uitvoeren.",
-        "no_selected_config_label": "Geen Configuratie Geselecteerd"
+        "no_selected_config_label": "Geen Configuratie Geselecteerd",
+        "enable_killswitch_tips": "Wanneer ingeschakeld, wordt verkeer dat aan deze VPN-tunnel is toegewezen geblokkeerd als de tunnel onverwacht wordt verbroken.",
+        "not_use_killswitch_tips": "Verkeer volgt het beleid 'Alle ander verkeer' wanneer uitgeschakeld.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Wanneer ingeschakeld, is alleen VPN-verkeer toegestaan om toegang te krijgen tot internet. Al het niet-VPN-verkeer en mislukt verkeer binnen beleidsgroepen wordt geblokkeerd. Deze globale instelling overschrijft en schakelt de individuele Kill Switch voor elke beleidsgroep uit.",
+        "all_other_traffic_setting_title": "Alle andere verkeersinstellingen",
+        "allow_non_vpn_default_tips": "\"{label}\" is standaard ingeschakeld om normaal internettoegang voor niet-VPN-verkeer te garanderen.",
+        "enhanced_kill_switch_note_tips": "{tag} Deze algemene instelling overschrijft niet de individuele Kill Switch die binnen specifieke VPN-beleidsregels is geconfigureerd.",
+        "allow_non_vpn_traffic_sort_tips": "Niet-overeenkomend verkeer gebruikt standaard internet.",
+        "enhanced_kill_switch_sort_tips": "Niet-overeenkomend verkeer wordt expliciet geblokkeerd.",
+        "allow_non_vpn_traffic_desc": "Niet-overeenkomend verkeer heeft toegang tot internet via uw standaardverbinding.",
+        "enhanced_kill_switch_desc": "Forceer alle apparaten om een VPN te gebruiken voor internettoegang. Alle verkeer dat niet overeenkomt met een VPN-tunnel wordt geblokkeerd.",
+        "all_other_traffic_setting_tips": "Deze instelling bepaalt of verkeer dat niet overeenkomt met een actieve VPN-tunnel toegang heeft tot het internet.",
+        "all_clients_desc": "Leid al het verkeer van elk aangesloten apparaat via deze VPN-tunnel. Ideaal voor volledige netwerkprivacy.",
+        "exclude_device_desc": "Routeer standaard al het verkeer via de VPN, behalve voor de expliciet gekozen apparaten. Handig voor gameconsoles of lokale services.",
+        "all_target_desc": "Routeer al het verkeer van de geselecteerde bron(nen) via deze VPN-tunnel.",
+        "domain_target_desc": "Routeer alleen verkeer bestemd voor de vermelde domeinen of IP-adressen via deze VPN-tunnel. Verkeer naar andere bestemmingen omzeilt deze tunnel.",
+        "connect_methods_desc": "Pas VPN-regels toe op basis van de netwerkinterface, zoals alleen Guest Wi-Fi of Ethernet LAN-verkeer routeren.",
+        "device_desc": "Routeer alleen verkeer van expliciet geselecteerde apparaten. Alle andere apparaten omzeilen de VPN en gebruiken het reguliere internet.",
+        "exclude_domain_target_desc": "Routeer standaard al het verkeer via deze VPN-tunnel, behalve voor de vermelde domeinen of IP-adressen. De uitgesloten bestemmingen omzeilen deze tunnel.",
+        "disable_killswitch_tips": "Wanneer uitgeschakeld, volgt het verkeer het ongematcheerde verkeersbeleid (momenteel: {label})."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
@@ -558,7 +580,9 @@
         "manual_group_btn": "Handmatige groep",
         "stop_config_tips": "Het stoppen van deze configuratie zal deze uit alle tunnels verwijderen.",
         "stop_config_tunnel_stopped_tips": "Als een tunnel alleen deze configuratie bevat, wordt de tunnel gestopt.",
-        "stop_config_visit_dashboard_tips": "Om tunnels te beheren, ga naar de {page}."
+        "stop_config_visit_dashboard_tips": "Om tunnels te beheren, ga naar de {page}.",
+        "remove_config_btn": "Configuraties verwijderen",
+        "reomving_config_warning_tips": "Weet u zeker dat u wilt verwijderen?"
     },
     "ovpnclient": {
         "legacy_label": "Verouderd",
@@ -566,7 +590,12 @@
         "legacy_desc": "Het heeft een hogere configuratiecompatibiliteit. Als de verbinding mislukt, kunt u proberen over te schakelen naar deze optie.",
         "modern_label": "Modern",
         "modern_title": "Modern (Aanbevolen):",
-        "modern_desc": "Geschikt voor de meeste VPN-diensten, biedt betere prestaties en beveiliging."
+        "modern_desc": "Geschikt voor de meeste VPN-diensten, biedt betere prestaties en beveiliging.",
+        "enabled_dco_tooltip": "Schakel DCO in om de prestaties en beveiliging voor de meeste VPN's te verbeteren; schakel het uit als er compatibiliteitsproblemen optreden.",
+        "enabled_dco": "DCO ingeschakeld"
     },
-    "menu_vpn-client": "VPN-clientprofiel"
+    "menu_vpn-client": "VPN-clientprofiel",
+    "internet": {
+        "disconnected": "Verbinding verbroken"
+    }
 }

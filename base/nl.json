@@ -127,7 +127,8 @@
         "important_note": "Belangrijk",
         "export_btn": "Exporteren",
         "example_label": "bijv. {content}",
-        "share": "Delen"
+        "share": "Delen",
+        "note_tag": "Opmerking:"
     },
     "msg": {
         "success": "Toegepast!",
@@ -274,6 +275,8 @@
         "only_num_letter_symbol_tips": "Alleen letters, cijfers en symbolen {symbol} zijn toegestaan.",
         "min_max_length_tips": "{min} - {max} tekens.",
         "ipv6_limit_start_end_tips": "Het moet beginnen met {start} en eindigen met een correct IPv6-adres van {end}.",
-        "min_max_byte_tips": "{min} - {max} bytes."
+        "min_max_byte_tips": "{min} - {max} bytes.",
+        "not_allow_use_tips": "het teken {char} is niet toegestaan | de tekens {char} zijn niet toegestaan",
+        "begin_not_allow_tips": "Kan niet beginnen met het teken {char} | Kan niet beginnen met een van de tekens {char}"
     }
 }

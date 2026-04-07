@@ -88,7 +88,8 @@
         "to_safeGuard_alert": "Por favor, active primero SafeGuard.",
         "total_label": "Ancho de banda total",
         "search_app_input_placeholder": "Ingrese el nombre de la aplicación para buscar",
-        "clear_statistical_label": "¿Borrar todos los datos estadísticos de la página actual?"
+        "clear_statistical_label": "¿Borrar todos los datos estadísticos de la página actual?",
+        "all_traffic_label": "Todo el tráfico"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",
@@ -128,7 +129,6 @@
         "trial_open_other_warning": "Las funciones DPI entran en conflicto con {network} y no pueden usarse simultáneamente.",
         "other_label": "Otro",
         "missing_app_label": "Aplicación Faltante",
-        "retry_btn": "Reintentar",
         "flowstatistics_description_third_text": "Acceda a datos de uso detallados para cada aplicación.",
         "contentprotection_description_first_text": "Bloquee automáticamente sitios web para adultos, de apuestas y maliciosos.",
         "inaccurate_app_label": "Aplicación Inexacta",
@@ -175,7 +175,6 @@
         "reactivation_guide_first_description": "Haga clic en el botón 'Activar Suscripción Ahora' arriba para iniciar el proceso.",
         "reactivation_guide_second_description": "Será redirigido a nuestro portal seguro de suscripción, GoodCloud, para gestionar su licencia.",
         "additional_notes_third_text": "Dado que la función DPI entra en conflicto con la Aceleración de Red, ambas no pueden estar habilitadas simultáneamente. Cuando DPI está habilitado, el sistema desactivará automáticamente la Aceleración de Red para garantizar un funcionamiento estable y adecuado.",
-        "trial_activation": "Activación de Prueba",
         "trial_activation_second_title": "Actualizando configuración y licencia",
         "trial_activation_first_title": "Verificando disponibilidad del dispositivo",
         "trial_activation_third_title": "Verificando y deshabilitando la Aceleración de Red",
@@ -186,7 +185,6 @@
         "trial_expired_title": "Funciones Expiradas",
         "subscription_valid_title": "La suscripción a la función es válida",
         "what_will_do_label": "Qué hará",
-        "lets_start_btn": "Comencemos",
         "error_encountered_label": "Error encontrado: {value}. ",
         "congratulations_label": "¡Felicitaciones！",
         "oops_label": "Ups...",
@@ -246,7 +244,18 @@
         "version_is_up_to_date_tips": "La versión está actualizada.",
         "please_start_the_cloud_tips": "Inicie el servicio en la nube e inicie sesión en Goodcloud.",
         "need_login_cloud_tips": "Por favor, inicie sesión en el servicio en la nube para completar el proceso de vinculación y continuar utilizando la función DPI.",
-        "go_to_cloud_btn": "Ir al Servicio en la Nube"
+        "trial_dialog_title": "Activar DPI",
+        "trial_dialog_success_title": "¡Activado exitosamente!",
+        "trial_dialog_step1_title": "DPI utiliza recursos locales para analizar y clasificar paquetes.",
+        "trial_dialog_step2_title": "{network} se deshabilitará para garantizar la inspección de paquetes.",
+        "trial_dialog_success_text": "Ahora puede disfrutar de todas las funciones de DPI localmente.",
+        "engine_version_center_title": "Centro de versiones de {name}",
+        "core_services_ready_tag": "Servicios principales listos",
+        "engine_desc_text": "Esta página solo muestra las señales de mantenimiento principales. El procesamiento del tráfico comienza después de habilitar cada función.",
+        "version_update_center_title": "Centro de actualización de versiones",
+        "version_update_desc_text": "{name} está listo. {name1}, {name2} y {name3} solo funcionan cuando se habilitan en sus propias páginas.",
+        "upgrading_btn_text": "Actualizando...",
+        "latest_available_label": "Última versión disponible: "
     },
     "menu_dpifeatures": "Funciones DPI"
 }

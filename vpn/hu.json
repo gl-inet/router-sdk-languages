@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. Annak érdekében, hogy a felsőbb szintű eszköz porttovábbítási beállításai helyesek legyenek, kérjük, tekintse meg az alábbi táblázatban található információkat:",
         "refer_step_two_tips": "2. Győződjön meg arról, hogy a felsőbb szintű eszköz tűzfalbeállításai helyesek.",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "Kilépési IP-cím"
+        "exit_ip_address_label": "Kilépési IP-cím",
+        "go_to_vpn_dashboard": "Ugrás az Irányítópultra",
+        "vpn_dashboard_desc_provider": "Bejelentkezett a(z) {provider} szolgáltatásba. Lépjen a VPN Irányítópultra VPN-alagutak létrehozásához és kezeléséhez.",
+        "vpn_dashboard_desc": "A konfiguráció feltöltve. Lépjen a VPN Irányítópultra VPN-alagutak létrehozásához és kezeléséhez."
     },
     "menu_wgserver": "WireGuard-kiszolgáló",
     "menu_ovpnserver": "OpenVPN-kiszolgáló",
@@ -499,7 +502,26 @@
         "no_selected_config_label": "Nincs kiválasztott konfiguráció",
         "select_target_destination_title": "Célállomás kiválasztása",
         "select_at_least_one_config_msg": "Kérjük, válasszon ki legalább egy konfigurációt.",
-        "selected_profile_tooltip": "A profilok a megjelenített sorrendben (felülről lefelé) váltanak át hibaelhárítás céljából."
+        "selected_profile_tooltip": "A profilok a megjelenített sorrendben (felülről lefelé) váltanak át hibaelhárítás céljából.",
+        "enable_killswitch_tips": "Ha engedélyezve van, az ehhez a VPN-alagúthoz rendelt forgalom le lesz tiltva, ha az alagút váratlanul megszakad.",
+        "not_use_killswitch_tips": "Kikapcsolt állapotban a forgalom az \"Összes egyéb forgalom\" szabályzatot követi.",
+        "default_tunnel_kill_switch_enabled_tips": "{label}: Ha engedélyezve van, csak a VPN forgalom kap hozzáférést az internethez. Minden nem VPN forgalom és a szabályzatcsoportokon belüli sikertelen forgalom blokkolva lesz. Ez a globális beállítás felülírja és letiltja az egyes szabályzatcsoportok Kill Switch funkcióját.",
+        "all_other_traffic_setting_title": "Összes többi forgalom beállításai",
+        "all_other_traffic_setting_tips": "Ez a beállítás szabályozza, hogy a forgalom, amely nem illeszkedik egyetlen aktív VPN-alagúthoz sem, hozzáférhet-e az internethez.",
+        "allow_non_vpn_default_tips": "\"{label}\" alapértelmezés szerint engedélyezve van, hogy a nem VPN-forgalom normális internet-hozzáférést biztosítson.",
+        "enhanced_kill_switch_note_tips": "{tag} Ez a globális beállítás nem írja felül az egyes VPN-szabályzatokon belül konfigurált egyedi Kill Switch-et.",
+        "allow_non_vpn_traffic_sort_tips": "A nem illeszkedő forgalom a szabványos internetet használja.",
+        "allow_non_vpn_traffic_desc": "A nem illeszkedő forgalom a szabványos kapcsolatot használja az internet eléréséhez.",
+        "enhanced_kill_switch_sort_tips": "A nem illeszkedő forgalom kifejezetten blokkolva van.",
+        "enhanced_kill_switch_desc": "Kényszerítse az összes eszközt, hogy VPN-t használjon az internet eléréséhez. Minden olyan forgalom, amely nem illeszkedik egy VPN-alagúthoz, blokkolva lesz.",
+        "all_clients_desc": "Az összes forgalmat minden csatlakoztatott eszközről irányítsa át ezen VPN-alagúton keresztül. Ideális a teljes hálózati adatvédelemhez.",
+        "connect_methods_desc": "Alkalmazza a VPN-szabályokat a hálózati interfész alapján, például csak a vendég Wi-Fi vagy az Ethernet LAN forgalom átirányítására.",
+        "device_desc": "Csak a kifejezetten kiválasztott eszközök forgalmát irányítsa át. Az összes többi eszköz megkerüli a VPN-t és a rendszeres internetet használja.",
+        "exclude_device_desc": "Alapértelmezés szerint irányítsa át az összes forgalmat a VPN-en keresztül, kivéve a kifejezetten kiválasztott eszközöket. Hasznos játékkonzolok vagy helyi szolgáltatások esetén.",
+        "domain_target_desc": "Csak a felsorolt domainekre vagy IP-címekre irányuló forgalmat irányítsa át ezen VPN-alagúton keresztül. A többi célhelyre irányuló forgalom megkerüli ezt az alagutat.",
+        "all_target_desc": "Az összes forgalmat a kiválasztott forrás(ok)ról irányítsa át ezen VPN-alagúton keresztül.",
+        "exclude_domain_target_desc": "Alapértelmezés szerint irányítsa át az összes forgalmat ezen VPN-alagúton keresztül, kivéve a felsorolt domaineket vagy IP-címeket. A kizárt célhelyek megkerülik ezt az alagutat.",
+        "disable_killswitch_tips": "Letöltés letiltása esetén a forgalom a nem egyező forgalomra vonatkozó szabályt követi (jelenleg: {label})."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
@@ -558,7 +580,9 @@
         "manual_group_btn": "Kézi csoport",
         "stop_config_tips": "Ennek a konfigurációnak a leállítása eltávolítja az összes alagútból.",
         "stop_config_tunnel_stopped_tips": "Ha egy alagút csak ezt a konfigurációt tartalmazza, az alagút leáll.",
-        "stop_config_visit_dashboard_tips": "A búrák kezeléséhez kérjük, látogasson el a {page} oldalra."
+        "stop_config_visit_dashboard_tips": "A búrák kezeléséhez kérjük, látogasson el a {page} oldalra.",
+        "remove_config_btn": "Konfigurációk törlése",
+        "reomving_config_warning_tips": "Biztosan törölni szeretné?"
     },
     "ovpnclient": {
         "legacy_label": "Örökölt",
@@ -566,7 +590,12 @@
         "legacy_title": "Örökölt:",
         "legacy_desc": "Magasabb konfigurációs kompatibilitással rendelkezik. Ha a kapcsolat meghiúsul, megpróbálhat erre az opcióra váltani.",
         "modern_label": "Modern",
-        "modern_desc": "A legtöbb VPN szolgáltatáshoz ideális, jobb teljesítményt és biztonságot nyújt."
+        "modern_desc": "A legtöbb VPN szolgáltatáshoz ideális, jobb teljesítményt és biztonságot nyújt.",
+        "enabled_dco_tooltip": "Engedélyezze a DCO-t a legtöbb VPN teljesítményének és biztonságának javításához; tiltsa le, ha kompatibilitási problémák merülnek fel.",
+        "enabled_dco": "DCO engedélyezve"
     },
-    "menu_vpn-client": "VPN Kliens Profil"
+    "menu_vpn-client": "VPN Kliens Profil",
+    "internet": {
+        "disconnected": "Kapcsolat bontva"
+    }
 }

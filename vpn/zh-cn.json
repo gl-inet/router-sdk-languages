@@ -328,7 +328,10 @@
         "refer_step_one_tips": "1. 为确保上游设备的端口转发设置正确，请参考下表中的信息：",
         "refer_step_two_tips": "2. 确保上游设备的防火墙设置正确。",
         "refer_step_three_tips": "3. {contact}",
-        "exit_ip_address_label": "出口 IP 地址"
+        "exit_ip_address_label": "出口 IP 地址",
+        "go_to_vpn_dashboard": "前往控制面板",
+        "vpn_dashboard_desc": "配置已上传。请前往 VPN 控制面板以创建和管理 VPN 隧道。",
+        "vpn_dashboard_desc_provider": "您已登录到 {provider}。请前往 VPN 控制面板以创建和管理 VPN 隧道。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -499,7 +502,26 @@
         "selected_profile_tooltip": "配置文件将按所示顺序（从上到下）进行故障转移。",
         "no_selected_config_label": "未选择配置",
         "init_title": "全局安全访问",
-        "init_tip_privacy": "保护您的隐私"
+        "init_tip_privacy": "保护您的隐私",
+        "enable_killswitch_tips": "启用后，如果VPN隧道意外断开，分配给该VPN隧道的流量将被阻止。",
+        "not_use_killswitch_tips": "流量关闭时遵循所有其他流量策略。",
+        "default_tunnel_kill_switch_enabled_tips": "{label}：启用后，仅允许VPN流量访问互联网。所有非VPN流量以及策略组内失败的流量都将被阻止。此全局设置将覆盖并禁用每个策略组的独立Kill Switch。",
+        "all_other_traffic_setting_title": "所有其他流量设置",
+        "all_other_traffic_setting_tips": "此设置控制未匹配到任何活动VPN隧道的流量是否可以访问互联网。",
+        "allow_non_vpn_default_tips": "\"{label}\" 默认启用，以确保非VPN流量的正常互联网访问。",
+        "enhanced_kill_switch_note_tips": "{tag} 此全局设置不会覆盖特定VPN策略内配置的独立Kill Switch。",
+        "allow_non_vpn_traffic_sort_tips": "未匹配的流量使用标准互联网。",
+        "allow_non_vpn_traffic_desc": "未匹配的流量将使用您的标准连接访问互联网。",
+        "enhanced_kill_switch_sort_tips": "未匹配的流量被明确阻止。",
+        "enhanced_kill_switch_desc": "强制所有设备使用VPN访问互联网。任何不匹配VPN隧道的流量都将被阻止。",
+        "all_clients_desc": "将所有已连接设备的流量都通过此VPN隧道路由。非常适合实现完整的网络隐私。",
+        "device_desc": "仅路由来自明确选定设备的流量。所有其他设备将绕过VPN并使用常规互联网。",
+        "exclude_device_desc": "默认将所有流量通过VPN路由，但明确选择的设备除外。适用于游戏机或本地服务。",
+        "all_target_desc": "将来自选定源的所有流量通过此VPN隧道路由。",
+        "domain_target_desc": "仅将目的地为所列域名或IP地址的流量通过此VPN隧道路由。前往其他目的地的流量将绕过此隧道。",
+        "exclude_domain_target_desc": "默认将所有流量通过此VPN隧道路由，但所列域名或IP地址除外。排除的目的地将绕过此隧道。",
+        "connect_methods_desc": "根据网络接口应用VPN规则，例如仅路由访客Wi-Fi或以太网LAN流量。",
+        "disable_killswitch_tips": "禁用后，流量将遵循未匹配流量的策略（当前：{label}）。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
@@ -558,7 +580,9 @@
         "manual_group_btn": "手动分组",
         "stop_config_tips": "停止此配置将从所有隧道中移除它。",
         "stop_config_tunnel_stopped_tips": "如果隧道仅包含此配置，隧道将被停止。",
-        "stop_config_visit_dashboard_tips": "如需管理隧道，请访问{page}。"
+        "stop_config_visit_dashboard_tips": "如需管理隧道，请访问{page}。",
+        "remove_config_btn": "删除配置",
+        "reomving_config_warning_tips": "您确定要删除吗？"
     },
     "ovpnclient": {
         "legacy_label": "兼容",
@@ -566,7 +590,12 @@
         "modern_title": "现代（推荐）：",
         "legacy_desc": "它具有更高的配置兼容性。如果连接失败，您可以尝试切换到此选项。",
         "modern_label": "现代",
-        "modern_desc": "适用于大多数VPN服务，提供更好的性能和安全性。"
+        "modern_desc": "适用于大多数VPN服务，提供更好的性能和安全性。",
+        "enabled_dco": "启用 DCO",
+        "enabled_dco_tooltip": "启用 DCO 以提高大多数 VPN 的性能和安全性；如果出现兼容性问题，请禁用它。"
     },
-    "menu_vpn-client": "VPN客户端配置文件"
+    "menu_vpn-client": "VPN客户端配置文件",
+    "internet": {
+        "disconnected": "已断开连接"
+    }
 }

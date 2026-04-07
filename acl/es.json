@@ -11,17 +11,17 @@
         "action_label": "Acción",
         "dest_address_label": "Dirección de destino",
         "dest_port_label": "Puerto de destino",
-        "acl_desc": "{acl} puede controlar el tráfico de red basándose en reglas como protocolo, dirección IP de destino, dirección IP de origen y número de puerto. Si hay un conflicto entre dos reglas de {acl} habilitadas, el dispositivo priorizará la regla de mayor prioridad.",
+        "acl_desc": "{acl} puede controlar el tráfico de red basándose en reglas como el protocolo, la dirección IP de destino, la dirección IP de origen y número de puerto. Si hay un conflicto entre dos reglas de {acl} habilitadas, el dispositivo dará prioridad a la regla de mayor prioridad.",
         "add_rule_btn": "Agregar regla",
-        "any_not_allowed_with_multiple_ips": "Cuando hay múltiples direcciones IP, la opción 'Cualquiera' no puede incluirse",
-        "add_acl_dialog_title": "Agregar una regla de ACL",
-        "edit_acl_dialog_title": "Modificar regla de ACL",
+        "any_not_allowed_with_multiple_ips": "Cuando hay varias direcciones IP, no se puede incluir la opción 'Cualquiera'",
+        "add_acl_dialog_title": "Añadir una regla de ACL",
+        "edit_acl_dialog_title": "Modificar regla ACL",
         "name_already_exist_msg": "El nombre ya existe.",
         "accept_label": "Aceptar",
-        "drop_label": "Soltar",
+        "drop_label": "Descartar",
         "reject_label": "Rechazar",
-        "add_new_btn": "Agregar Nuevo",
-        "any_label": "Cualquier"
+        "add_new_btn": "Añadir Nuevo",
+        "any_label": "Cualquiera"
     },
     "menu_acl": "ACL"
 }
