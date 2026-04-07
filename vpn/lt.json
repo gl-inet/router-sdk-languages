@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_sort_tips": "Nesutampantis srautas naudoja tipinį internetą.",
         "allow_non_vpn_traffic_desc": "Nesutampantis srautas pasieks internetą naudodamas jūsų tipinį ryšį.",
         "enhanced_kill_switch_sort_tips": "Nesutampantis srautas yra aiškiai blokuojamas.",
-        "enhanced_kill_switch_desc": "Priversti visus įrenginius naudoti VPN, kad pasiektų internetą. Bet koks srautas, kuris neatitinka VPN tunelio, bus užblokuotas."
+        "enhanced_kill_switch_desc": "Priversti visus įrenginius naudoti VPN, kad pasiektų internetą. Bet koks srautas, kuris neatitinka VPN tunelio, bus užblokuotas.",
+        "all_clients_desc": "Nukreipkite visą srautą iš kiekvieno prijungto įrenginio per šį „VPN“ tunelį. Idealus visiško tinklo privatumui.",
+        "device_desc": "Nukreipkite tik srautą iš aiškiai pasirinktų įrenginių. Visi kiti įrenginiai apeis „VPN“ ir naudos įprastą internetą.",
+        "all_target_desc": "Nukreipkite visą srautą iš pasirinkto(-ų) šaltinio(-ių) per šį „VPN“ tunelį.",
+        "exclude_domain_target_desc": "Numatytai nukreipkite visą srautą per šį „VPN“ tunelį, išskyrus išvardytus domenus arba IP adresus. Išskirtos paskirties vietos apeis šį tunelį.",
+        "connect_methods_desc": "Taikykite „VPN“ taisykles pagal tinklo sąsają, pavyzdžiui, nukreipdami tik svečio „Wi-Fi“ arba „ethernet“ vietinio tinklo srautą.",
+        "exclude_device_desc": "Numatytai nukreipkite visą srautą per „VPN“, išskyrus aiškiai pasirinktus įrenginius. Naudinga žaidimų konsolėms arba vietinėms paslaugoms.",
+        "domain_target_desc": "Nukreipkite tik srautą, skirtą išvardytiems domenams arba IP adresams, per šį „VPN“ tunelį. Srautas į kitas paskirties vietas apeis šį tunelį."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
