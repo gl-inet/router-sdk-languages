@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_sort_tips": "Nicht übereinstimmender Datenverkehr nutzt das Standard-Internet.",
         "allow_non_vpn_traffic_desc": "Nicht übereinstimmender Datenverkehr greift über Ihre Standardverbindung auf das Internet zu.",
         "enhanced_kill_switch_sort_tips": "Nicht übereinstimmender Datenverkehr wird explizit blockiert.",
-        "enhanced_kill_switch_desc": "Erzwingen Sie, dass alle Geräte ein VPN nutzen, um auf das Internet zuzugreifen. Jeder Datenverkehr, der nicht mit einem VPN-Tunnel übereinstimmt, wird blockiert."
+        "enhanced_kill_switch_desc": "Erzwingen Sie, dass alle Geräte ein VPN nutzen, um auf das Internet zuzugreifen. Jeder Datenverkehr, der nicht mit einem VPN-Tunnel übereinstimmt, wird blockiert.",
+        "all_clients_desc": "Leiten Sie den gesamten Datenverkehr von jedem verbundenen Gerät durch diesen VPN-Tunnel. Ideal für vollständige Netzwerkprivatsphäre.",
+        "connect_methods_desc": "Wenden Sie VPN-Regeln basierend auf der Netzwerkschnittstelle an, z. B. nur für Gäste-WLAN- oder Ethernet-LAN-Datenverkehr.",
+        "exclude_device_desc": "Leiten Sie standardmäßig den gesamten Datenverkehr über das VPN, mit Ausnahme der explizit ausgewählten Geräte. Nützlich für Spielekonsolen oder lokale Dienste.",
+        "all_target_desc": "Leiten Sie den gesamten Datenverkehr von der/dem ausgewählten Quelle(n) durch diesen VPN-Tunnel.",
+        "domain_target_desc": "Leiten Sie nur den Datenverkehr, der für die aufgeführten Domänen oder IP-Adressen bestimmt ist, durch diesen VPN-Tunnel. Datenverkehr zu anderen Zielen umgeht diesen Tunnel.",
+        "exclude_domain_target_desc": "Leiten Sie standardmäßig den gesamten Datenverkehr durch diesen VPN-Tunnel, mit Ausnahme der aufgeführten Domänen oder IP-Adressen. Die ausgenommenen Ziele umgehen diesen Tunnel.",
+        "device_desc": "Leiten Sie nur den Datenverkehr von explizit ausgewählten Geräten um. Alle anderen Geräte umgehen das VPN und nutzen das reguläre Internet."
     },
     "vpn_server": {
         "starting_label": "Der {type} Server wird gestartet...",
