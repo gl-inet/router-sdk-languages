@@ -519,7 +519,14 @@
         "enhanced_kill_switch_sort_tips": "Cuirtear bac ar thrácht gan mheaitseáil go sainráite.",
         "enhanced_kill_switch_desc": "Cuir gach gléas faoi iallach VPN a úsáid chun rochtain a fháil ar an idirlíon. Cuirfear bac ar aon trácht nach meaitseálann le tollán VPN.",
         "allow_non_vpn_default_tips": "Tá \"{label}\" cumasaithe de réir réamhshocraithe chun rochtain gnáth idirlín a chinntiú do thrácht neamh-VPN.",
-        "allow_non_vpn_traffic_desc": "Rachaidh trácht gan mheaitseáil ar an idirlíon ag baint úsáide as do nasc caighdeánach."
+        "allow_non_vpn_traffic_desc": "Rachaidh trácht gan mheaitseáil ar an idirlíon ag baint úsáide as do nasc caighdeánach.",
+        "all_clients_desc": "Treoraigh gach trácht ó gach gléas atá ceangailte tríd an tóin VPN seo. Ideálach do phríobháideacht iomlán líonra.",
+        "connect_methods_desc": "Cuir rialacha VPN i bhfeidhm bunaithe ar an comhéadan líonra, mar shampla gan ach trácht Wi-Fi Aoi nó trácht LAN Ethernet a threorú.",
+        "exclude_device_desc": "Treoraigh gach trácht tríd an VPN de réir réamhshocraithe, ach amháin na gléis atá roghnaithe go sainráite. Úsáideach le haghaidh consól cluichí nó seirbhísí áitiúla.",
+        "domain_target_desc": "Ná treoraigh ach trácht atá dírithe ar na fearainn nó seoltaí IP liostaithe tríd an tóin VPN seo. Rachaidh trácht chuig cinn scríbe eile thar an tóin seo.",
+        "exclude_domain_target_desc": "Treoraigh gach trácht tríd an tóin VPN seo de réir réamhshocraithe, ach amháis na fearainn nó seoltaí IP liostaithe. Rachaidh na cinn scríbe eisiathe thar an tóin seo.",
+        "device_desc": "Ná treoraigh ach trácht ó ghléis atá roghnaithe go sainráite. Rachaidh gach gléas eile thar an VPN agus úsáidfidh siad an t-idirlíon rialta.",
+        "all_target_desc": "Treoraigh gach trácht ón bhfoinse/foinsí roghnaithe tríd an tóin VPN seo."
     },
     "vpn_server": {
         "want_use_ipv6_tips": "Más mian leat seoladh IPv6 a úsáid, déan {todo} ar do ródaire le do thoil.",
