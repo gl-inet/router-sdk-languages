@@ -514,7 +514,14 @@
         "enhanced_kill_switch_sort_tips": "未匹配的流量被明確阻擋。",
         "enhanced_kill_switch_desc": "強制所有裝置使用VPN訪問網路。任何不匹配VPN通道的流量將被阻擋。",
         "allow_non_vpn_default_tips": "\"{label}\"預設啟用，以確保非VPN流量的正常網路訪問。",
-        "all_other_traffic_setting_tips": "此設定控制未匹配到任何活動VPN隧道的流量是否可以訪問互聯網。"
+        "all_other_traffic_setting_tips": "此設定控制未匹配到任何活動VPN隧道的流量是否可以訪問互聯網。",
+        "all_clients_desc": "將所有連接裝置的流量透過此VPN通道傳輸。適合需要完整網路隱私的場景。",
+        "connect_methods_desc": "根據網路介面應用VPN規則，例如僅路由訪客Wi-Fi或乙太網路LAN流量。",
+        "device_desc": "僅路由來自明確選定裝置的流量。所有其他裝置將繞過VPN並使用常規網路。",
+        "exclude_device_desc": "預設情況下，所有流量均透過VPN傳輸，但明確選擇的裝置除外。適用於遊戲主機或本地服務。",
+        "all_target_desc": "將來自所選來源的所有流量透過此VPN通道傳輸。",
+        "exclude_domain_target_desc": "預設情況下，所有流量均透過此VPN通道傳輸，但所列網域或IP位址除外。排除的目的地將繞過此通道。",
+        "domain_target_desc": "僅將目的地為所列網域或IP位址的流量透過此VPN通道傳輸。前往其他目的地的流量將繞過此通道。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
