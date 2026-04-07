@@ -504,7 +504,6 @@
         "select_at_least_one_config_msg": "Seleccione al menos una configuración.",
         "no_selected_config_label": "Sin configuración seleccionada",
         "enable_killswitch_tips": "Cuando está habilitado, el tráfico asignado a este túnel VPN se bloqueará si el túnel se desconecta inesperadamente.",
-        "disable_killswitch_tips": "Cuando está deshabilitado, el tráfico se manejará de acuerdo con la política de Todo Otro Tráfico.",
         "not_use_killswitch_tips": "El tráfico sigue la política de Todo Otro Tráfico cuando está apagado.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Cuando está habilitado, solo se permite el tráfico VPN para acceder a Internet. Todo el tráfico no VPN y el tráfico fallido dentro de los grupos de políticas será bloqueado. Esta configuración global anula y desactiva el Kill Switch individual para cada grupo de políticas.",
         "all_other_traffic_setting_title": "Configuración de Tráfico Restante",
