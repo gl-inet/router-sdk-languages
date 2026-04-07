@@ -514,7 +514,14 @@
         "allow_non_vpn_traffic_sort_tips": "A nem illeszkedő forgalom a szabványos internetet használja.",
         "allow_non_vpn_traffic_desc": "A nem illeszkedő forgalom a szabványos kapcsolatot használja az internet eléréséhez.",
         "enhanced_kill_switch_sort_tips": "A nem illeszkedő forgalom kifejezetten blokkolva van.",
-        "enhanced_kill_switch_desc": "Kényszerítse az összes eszközt, hogy VPN-t használjon az internet eléréséhez. Minden olyan forgalom, amely nem illeszkedik egy VPN-alagúthoz, blokkolva lesz."
+        "enhanced_kill_switch_desc": "Kényszerítse az összes eszközt, hogy VPN-t használjon az internet eléréséhez. Minden olyan forgalom, amely nem illeszkedik egy VPN-alagúthoz, blokkolva lesz.",
+        "all_clients_desc": "Az összes forgalmat minden csatlakoztatott eszközről irányítsa át ezen VPN-alagúton keresztül. Ideális a teljes hálózati adatvédelemhez.",
+        "connect_methods_desc": "Alkalmazza a VPN-szabályokat a hálózati interfész alapján, például csak a vendég Wi-Fi vagy az Ethernet LAN forgalom átirányítására.",
+        "device_desc": "Csak a kifejezetten kiválasztott eszközök forgalmát irányítsa át. Az összes többi eszköz megkerüli a VPN-t és a rendszeres internetet használja.",
+        "exclude_device_desc": "Alapértelmezés szerint irányítsa át az összes forgalmat a VPN-en keresztül, kivéve a kifejezetten kiválasztott eszközöket. Hasznos játékkonzolok vagy helyi szolgáltatások esetén.",
+        "domain_target_desc": "Csak a felsorolt domainekre vagy IP-címekre irányuló forgalmat irányítsa át ezen VPN-alagúton keresztül. A többi célhelyre irányuló forgalom megkerüli ezt az alagutat.",
+        "all_target_desc": "Az összes forgalmat a kiválasztott forrás(ok)ról irányítsa át ezen VPN-alagúton keresztül.",
+        "exclude_domain_target_desc": "Alapértelmezés szerint irányítsa át az összes forgalmat ezen VPN-alagúton keresztül, kivéve a felsorolt domaineket vagy IP-címeket. A kizárt célhelyek megkerülik ezt az alagutat."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
