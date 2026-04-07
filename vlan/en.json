@@ -82,7 +82,10 @@
         "dhcp_charter_label": "Lease Time",
         "lpr_tips": "Multiple printer LPR ports can be filled.",
         "err_display_name_max_length": "Display name must be 32 characters or fewer.",
-        "err_dhcp_range_excludes_router_ip": "The DHCP pool must not include the router IP address."
+        "err_dhcp_range_excludes_router_ip": "The DHCP pool must not include the router IP address.",
+        "block_wan_subnets_tip_guest": "If this function is enabled, the guest network will not be able to access the upper-level network and the network segment where the upper-level network is located.",
+        "block_wan_subnets_tip_iot": "If this function is enabled, the IoT network will not be able to access the upper-level network and the network segment where the upper-level network is located.",
+        "block_wan_subnets_tip_custom": "If this function is enabled, this custom subnet will not be able to access the upper-level network and the network segment where the upper-level network is located."
     },
     "menu_vlan": "VLAN"
 }
