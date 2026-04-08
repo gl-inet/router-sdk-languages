@@ -15,7 +15,6 @@
         "action": "Akcja",
         "interfaces": "Interfejsy",
         "block_wan_subnets": "Blokuj Podsieci WAN",
-        "block_wan_subnets_tip": "Jeśli ta funkcja jest włączona, sieć gościnna nie będzie miała dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna.",
         "edit": "Edytuj",
         "apply": "Zastosuj",
         "cancel": "Anuluj",
@@ -83,7 +82,10 @@
         "dhcp_charter_label": "Czas dzierżawy",
         "lpr_tips": "Można wypełnić wiele portów LPR drukarki.",
         "err_display_name_max_length": "Nazwa wyświetlana musi mieć 32 znaki lub mniej.",
-        "err_dhcp_range_excludes_router_ip": "Pula DHCP nie może zawierać adresu IP routera."
+        "err_dhcp_range_excludes_router_ip": "Pula DHCP nie może zawierać adresu IP routera.",
+        "block_wan_subnets_tip_iot": "Jeśli ta funkcja jest włączona, sieć IoT nie będzie mogła uzyskać dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna.",
+        "block_wan_subnets_tip_guest": "Jeśli ta funkcja jest włączona, sieć gościnna nie będzie mogła uzyskać dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna.",
+        "block_wan_subnets_tip_custom": "Jeśli ta funkcja jest włączona, ta niestandardowa podsieć nie będzie mogła uzyskać dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna."
     },
     "menu_vlan": "VLAN"
 }

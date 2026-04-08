@@ -33,7 +33,6 @@
         "required": "Requerido",
         "enable": "Activar",
         "lan": "LAN",
-        "block_wan_subnets_tip": "Si esta función está activada, la red de invitados no podrá acceder a la red principal ni al segmento de red donde se encuentra.",
         "tip": "Gestiona la segmentación de la red mediante VLANs para aislar el tráfico y mejorar la seguridad.",
         "err_vlan_id_out_of_range": "El ID de VLAN está fuera de rango.",
         "err_vlan_id_in_use": "El ID de VLAN ya está en uso.",
@@ -83,7 +82,10 @@
         "delete_all": "Eliminar todo",
         "add_reservation": "Agregar una nueva entrada de reserva",
         "err_display_name_max_length": "El nombre para mostrar debe tener 32 caracteres o menos.",
-        "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router."
+        "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router.",
+        "block_wan_subnets_tip_guest": "Si esta función está habilitada, la red de invitados no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
+        "block_wan_subnets_tip_iot": "Si esta función está habilitada, la red IoT no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
+        "block_wan_subnets_tip_custom": "Si esta función está habilitada, esta subred personalizada no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior."
     },
     "menu_vlan": "VLAN"
 }

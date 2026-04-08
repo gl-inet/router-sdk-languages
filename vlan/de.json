@@ -13,7 +13,6 @@
         "required": "Erforderlich",
         "enable": "Aktivieren",
         "lan": "LAN",
-        "block_wan_subnets_tip": "Wenn diese Funktion aktiviert ist, kann das Gastnetzwerk nicht auf das übergeordnete Netzwerk und das Netzsegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen.",
         "modify": "Ändern",
         "is_disabled": "ist deaktiviert.",
         "vlan_id": "VLAN-ID",
@@ -83,7 +82,10 @@
         "no_interfaces": "Nicht in Verwendung",
         "delete_all": "Alle löschen",
         "err_display_name_max_length": "Anzeigename darf maximal 32 Zeichen lang sein.",
-        "err_dhcp_range_excludes_router_ip": "Der DHCP-Pool darf nicht die Router-IP-Adresse enthalten."
+        "err_dhcp_range_excludes_router_ip": "Der DHCP-Pool darf nicht die Router-IP-Adresse enthalten.",
+        "block_wan_subnets_tip_guest": "Wenn diese Funktion aktiviert ist, kann das Gastnetzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment zugreifen, in dem sich das übergeordnete Netzwerk befindet.",
+        "block_wan_subnets_tip_iot": "Wenn diese Funktion aktiviert ist, kann das IoT-Netzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment zugreifen, in dem sich das übergeordnete Netzwerk befindet.",
+        "block_wan_subnets_tip_custom": "Wenn diese Funktion aktiviert ist, kann dieses benutzerdefinierte Subnetz nicht auf das übergeordnete Netzwerk und das Netzwerksegment zugreifen, in dem sich das übergeordnete Netzwerk befindet."
     },
     "menu_vlan": "VLAN"
 }

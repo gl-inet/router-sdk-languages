@@ -29,7 +29,6 @@
         "caution": "Attenzione",
         "dns": "Server DNS",
         "required": "Obbligatorio",
-        "block_wan_subnets_tip": "Se questa funzione è abilitata, la rete ospiti non potrà accedere alla rete superiore e al segmento di rete in cui si trova la rete superiore.",
         "name": "Nome",
         "edit": "Modifica",
         "ap_isolation_tip": "Puoi isolare i dispositivi client della tua rete in un'area di rete separata. Questi dispositivi non possono comunicare con altri dispositivi sulla rete.",
@@ -83,7 +82,10 @@
         "dhcp_charter_label": "Tempo di Lease",
         "lpr_tips": "È possibile inserire più porte LPR per stampanti.",
         "err_display_name_max_length": "Il nome visualizzato deve contenere al massimo 32 caratteri.",
-        "err_dhcp_range_excludes_router_ip": "Il pool DHCP non deve includere l'indirizzo IP del router."
+        "err_dhcp_range_excludes_router_ip": "Il pool DHCP non deve includere l'indirizzo IP del router.",
+        "block_wan_subnets_tip_iot": "Se questa funzione è abilitata, la rete IoT non potrà accedere alla rete di livello superiore e al segmento di rete in cui si trova la rete di livello superiore.",
+        "block_wan_subnets_tip_guest": "Se questa funzione è abilitata, la rete guest non potrà accedere alla rete di livello superiore e al segmento di rete in cui si trova la rete di livello superiore.",
+        "block_wan_subnets_tip_custom": "Se questa funzione è abilitata, questa subnet personalizzata non potrà accedere alla rete di livello superiore e al segmento di rete in cui si trova la rete di livello superiore."
     },
     "menu_vlan": "VLAN"
 }

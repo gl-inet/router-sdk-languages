@@ -14,7 +14,6 @@
         "description": "Beschrijving",
         "action": "Actie",
         "interfaces": "Interfaces",
-        "block_wan_subnets_tip": "Als deze functie is ingeschakeld, heeft het gastnetwerk geen toegang tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt.",
         "edit": "Bewerken",
         "apply": "Toepassen",
         "cancel": "Annuleren",
@@ -83,7 +82,10 @@
         "dhcp_charter_label": "Leasetijd",
         "lpr_tips": "Meerdere LPR-poorten voor printers kunnen worden ingevuld.",
         "err_display_name_max_length": "Weergavenaam moet 32 tekens of minder zijn.",
-        "err_dhcp_range_excludes_router_ip": "Het DHCP-pool mag het router-IP-adres niet bevatten."
+        "err_dhcp_range_excludes_router_ip": "Het DHCP-pool mag het router-IP-adres niet bevatten.",
+        "block_wan_subnets_tip_iot": "Als deze functie is ingeschakeld, kan het IoT-netwerk niet toegang krijgen tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt.",
+        "block_wan_subnets_tip_guest": "Als deze functie is ingeschakeld, kan het gastnetwerk niet toegang krijgen tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt.",
+        "block_wan_subnets_tip_custom": "Als deze functie is ingeschakeld, kan dit aangepaste subnet niet toegang krijgen tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt."
     },
     "menu_vlan": "VLAN"
 }

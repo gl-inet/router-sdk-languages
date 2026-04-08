@@ -14,7 +14,6 @@
         "action": "Action",
         "interfaces": "Interfaces",
         "block_wan_subnets": "Bloquer les sous-réseaux WAN",
-        "block_wan_subnets_tip": "Si cette fonction est activée, le réseau invité ne pourra pas accéder au réseau supérieur et au segment de réseau où se trouve le réseau supérieur.",
         "apply": "Appliquer",
         "cancel": "Annuler",
         "iot_network_unavailable": "Le réseau IoT est actuellement indisponible car ",
@@ -83,7 +82,10 @@
         "lpr_serve_label": "Serveur LPR",
         "lpr_tips": "Plusieurs ports LPR d'imprimante peuvent être renseignés.",
         "err_display_name_max_length": "Le nom d'affichage doit comporter 32 caractères ou moins.",
-        "err_dhcp_range_excludes_router_ip": "Le pool DHCP ne doit pas inclure l'adresse IP du routeur."
+        "err_dhcp_range_excludes_router_ip": "Le pool DHCP ne doit pas inclure l'adresse IP du routeur.",
+        "block_wan_subnets_tip_guest": "Si cette fonction est activée, le réseau invité ne pourra pas accéder au réseau de niveau supérieur et au segment de réseau où se trouve le réseau de niveau supérieur.",
+        "block_wan_subnets_tip_iot": "Si cette fonction est activée, le réseau IoT ne pourra pas accéder au réseau de niveau supérieur et au segment de réseau où se trouve le réseau de niveau supérieur.",
+        "block_wan_subnets_tip_custom": "Si cette fonction est activée, ce sous-réseau personnalisé ne pourra pas accéder au réseau de niveau supérieur et au segment de réseau où se trouve le réseau de niveau supérieur."
     },
     "menu_vlan": "VLAN"
 }

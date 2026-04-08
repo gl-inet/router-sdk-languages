@@ -15,7 +15,6 @@
         "action": "操作",
         "interfaces": "介面",
         "block_wan_subnets": "封鎖 WAN 子網路",
-        "block_wan_subnets_tip": "若啟用此功能，訪客網路將無法存取上層網路及其所在網段。",
         "cancel": "取消",
         "apply": "套用",
         "iot_wifi": "物聯網 Wi-Fi ",
@@ -83,7 +82,10 @@
         "dhcp_charter_label": "租用時間",
         "lpr_tips": "可填寫多個印表機 LPR 連接埠。",
         "err_display_name_max_length": "顯示名稱必須為32個字元或更少。",
-        "err_dhcp_range_excludes_router_ip": "DHCP 池不得包含路由器 IP 地址。"
+        "err_dhcp_range_excludes_router_ip": "DHCP 池不得包含路由器 IP 地址。",
+        "block_wan_subnets_tip_custom": "若啟用此功能，此自訂子網路將無法訪問上層網路及其所在的網段。",
+        "block_wan_subnets_tip_iot": "若啟用此功能，物聯網網路將無法訪問上層網路及其所在的網段。",
+        "block_wan_subnets_tip_guest": "若啟用此功能，訪客網路將無法訪問上層網路及其所在的網段。"
     },
     "menu_vlan": "VLAN"
 }

@@ -32,7 +32,6 @@
         "dns": "Freastalaí DNS",
         "required": "Riachtanach",
         "lan": "LAN",
-        "block_wan_subnets_tip": "Má chumasaítear an fheidhm seo, ní bheidh an líonra aoi in ann rochtain a fháil ar an líonra uachtarach agus ar an rannán líonra ina bhfuil an líonra uachtarach suite.",
         "name": "Ainm",
         "ap_isolation_tip": "Is féidir leat gléasanna cliant do líonra a leithlisiú i limistéar líonra ar leith. Ní féidir leis na gléasanna seo cumarsáid a dhéanamh le gléasanna eile ar an líonra.",
         "err_vlan_id_out_of_range": "Tá ID VLAN lasmuigh den raon.",
@@ -83,7 +82,10 @@
         "delete_all": "Scrios Uile",
         "lpr_serve_label": "Freastalaí LPR",
         "err_display_name_max_length": "Ní mór ainm taispeána a bheith 32 carachtar nó níos lú.",
-        "err_dhcp_range_excludes_router_ip": "Ní mór nach mbeadh seoladh IP an ródaire san áireamh sa linn DHCP."
+        "err_dhcp_range_excludes_router_ip": "Ní mór nach mbeadh seoladh IP an ródaire san áireamh sa linn DHCP.",
+        "block_wan_subnets_tip_guest": "Má chuirtear an fheidhm seo i bhfeidhm, ní bheidh an líonra aoi in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleán líonra ina bhfuil an líonra uachtarach suite.",
+        "block_wan_subnets_tip_iot": "Má chuirtear an fheidhm seo i bhfeidhm, ní bheidh an líonra IoT in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleán líonra ina bhfuil an líonra uachtarach suite.",
+        "block_wan_subnets_tip_custom": "Má chuirtear an fheidhm seo i bhfeidhm, ní bheidh an fochuibhreann saincheaptha seo in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleán líonra ina bhfuil an líonra uachtarach suite."
     },
     "menu_vlan": "VLAN"
 }
