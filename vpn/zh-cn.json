@@ -509,7 +509,7 @@
         "all_other_traffic_setting_title": "所有其他流量策略",
         "all_other_traffic_setting_tips": "此设置控制未匹配到任何活动VPN隧道的流量是否可以访问互联网。",
         "allow_non_vpn_default_tips": "\"{label}\" 默认启用，以确保非VPN流量的正常互联网访问。",
-        "enhanced_kill_switch_note_tips": "{tag} 此全局设置不会覆盖特定VPN策略内配置的独立Kill Switch。",
+        "enhanced_kill_switch_note_tips": "{tag} 此全局设置不会覆盖各 VPN 隧道单独配置的 Kill Switch。",
         "allow_non_vpn_traffic_sort_tips": "未匹配的流量使用标准互联网。",
         "allow_non_vpn_traffic_desc": "未匹配的流量将使用您的标准连接访问互联网。",
         "enhanced_kill_switch_sort_tips": "未匹配的流量被明确阻止。",
