@@ -516,7 +516,7 @@
         "enhanced_kill_switch_desc": "Force all devices to use a VPN to access the internet. Any traffic that does not match a VPN tunnel will be blocked.",
         "all_clients_desc": "Route all traffic from every connected device through this VPN tunnel. Ideal for complete network privacy.",
         "connect_methods_desc": "Apply VPN rules based on the network interface, such as only routing Guest Wi-Fi or Ethernet LAN traffic.",
-        "device_desc": "Only route traffic from explicitly selected devices. All other devices will bypass the VPN and use the regular internet.",
+        "device_desc": "Only route traffic from explicitly selected devices. All other devices will bypass this VPN tunnel.",
         "exclude_device_desc": "Route all traffic through the VPN by default, except for the explicitly chosen devices. Useful for gaming consoles or local services.",
         "all_target_desc": "Route all traffic from the selected source(s) through this VPN tunnel.",
         "domain_target_desc": "Only route traffic destined for the listed domains or IP addresses through this VPN tunnel. Traffic to other destinations will bypass this tunnel.",
