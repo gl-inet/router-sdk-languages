@@ -507,7 +507,7 @@
         "not_use_killswitch_tips": "流量关闭时遵循所有其他流量策略。",
         "default_tunnel_kill_switch_enabled_tips": "{label}: 啟用後，僅允許VPN流量訪問互聯網。所有非VPN流量以及策略組內失敗的流量將被阻止。此全局設置將覆蓋並禁用每個策略組的單獨Kill Switch。",
         "all_other_traffic_setting_title": "所有其他流量策略",
-        "enhanced_kill_switch_note_tips": "{tag} 此全域設定不會覆蓋在特定VPN策略內配置的個別Kill Switch。",
+        "enhanced_kill_switch_note_tips": "{tag} 此全域設定不會覆蓋各 VPN 隧道配置的 Kill Switch。",
         "allow_non_vpn_traffic_sort_tips": "未匹配的流量使用標準網路。",
         "allow_non_vpn_traffic_desc": "未匹配的流量將使用您的標準連接訪問網路。",
         "enhanced_kill_switch_sort_tips": "未匹配的流量被明確阻擋。",
