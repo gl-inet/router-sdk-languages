@@ -509,7 +509,7 @@
         "all_other_traffic_setting_title": "All Other Traffic Policy",
         "all_other_traffic_setting_tips": "This setting controls whether traffic not matched to any active VPN tunnel can access the internet.",
         "allow_non_vpn_default_tips": "\"{label}\" is enabled by default to ensure normal internet access for non-VPN traffic.",
-        "enhanced_kill_switch_note_tips": "{tag} This global setting does not override the individual Kill Switch configured within specific VPN policies.",
+        "enhanced_kill_switch_note_tips": "{tag} This global setting does not override the Kill Switch configured for individual VPN tunnels.",
         "allow_non_vpn_traffic_sort_tips": "Unmatched traffic uses standard internet.",
         "allow_non_vpn_traffic_desc": "Unmatched traffic will access the internet using your standard connection.",
         "enhanced_kill_switch_sort_tips": "Unmatched traffic is explicitly blocked.",
@@ -521,7 +521,7 @@
         "all_target_desc": "Route all traffic from the selected source(s) through this VPN tunnel.",
         "domain_target_desc": "Only route traffic destined for the listed domains or IP addresses through this VPN tunnel. Traffic to other destinations will bypass this tunnel.",
         "exclude_domain_target_desc": "Route all traffic through this VPN tunnel by default, except for the listed domains or IP addresses. The excluded destinations will bypass this tunnel.",
-        "disable_killswitch_tips": "When disabled, the traffic will follow the unmatched traffic policy (currently: {label})."
+        "disable_killswitch_tips": "When disabled, the traffic will follow the All Other Traffic Policy (currently: {label})."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
