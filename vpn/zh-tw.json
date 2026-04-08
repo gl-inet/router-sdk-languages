@@ -516,7 +516,7 @@
         "all_other_traffic_setting_tips": "此設定控制未匹配到任何已启用VPN隧道的流量是否可以訪問互聯網。",
         "all_clients_desc": "將所有連接裝置的流量透過此VPN通道傳輸。適合需要完整網路隱私的場景。",
         "connect_methods_desc": "根據網路介面應用VPN規則，例如僅路由訪客Wi-Fi或乙太網路LAN流量。",
-        "device_desc": "僅路由來自明確選定裝置的流量。所有其他裝置將繞過VPN並使用常規網路。",
+        "device_desc": "僅路由來自明確選定裝置的流量。所有其他裝置將繞過此 VPN 隧道。",
         "exclude_device_desc": "預設情況下，所有流量均透過VPN傳輸，但明確選擇的裝置除外。適用於遊戲主機或本地服務。",
         "all_target_desc": "將來自所選來源的所有流量透過此VPN通道傳輸。",
         "exclude_domain_target_desc": "預設情況下，所有流量均透過此VPN通道傳輸，但所列網域或IP位址除外。排除的目的地將繞過此通道。",
