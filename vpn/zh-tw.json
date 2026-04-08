@@ -521,7 +521,7 @@
         "all_target_desc": "將來自所選來源的所有流量透過此VPN通道傳輸。",
         "exclude_domain_target_desc": "預設情況下，所有流量均透過此VPN通道傳輸，但所列網域或IP位址除外。排除的目的地將繞過此通道。",
         "domain_target_desc": "僅將目的地為所列網域或IP位址的流量透過此VPN通道傳輸。前往其他目的地的流量將繞過此通道。",
-        "disable_killswitch_tips": "當停用時，流量將遵循未匹配流量的策略（目前為：{label}）。"
+        "disable_killswitch_tips": "當停用時，流量將遵循所有其他流量策略。（目前為：{label}）。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
