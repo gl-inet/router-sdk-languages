@@ -43,7 +43,8 @@
         "network_assignment_tips": "PVID, etiketsiz trafik için varsayılan ağdır. Etiketsiz cihazlardan gelen trafik bu ağa atanacaktır.",
         "select_network": "Ağ seç",
         "allowed_tagged_networks": "İzin Verilen Etiketli Ağlar",
-        "select_networks": "Ağları seç"
+        "select_networks": "Ağları seç",
+        "err_interface_in_lan_mode": "WAN'dan LAN'a geçiş yaparken ağ kablosunun çıkarılması gerekir."
     },
     "menu_ethernet-port": "Ethernet Bağlantı Noktası"
 }
