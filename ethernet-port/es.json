@@ -44,6 +44,7 @@
         "select_network": "Seleccionar red",
         "allowed_tagged_networks": "Redes Etiquetadas Permitidas",
         "select_networks": "Seleccionar redes",
-        "port_mode_tip_lan": "El puerto LAN se conecta a dispositivos locales o switches descendentes."
+        "port_mode_tip_lan": "El puerto LAN se conecta a dispositivos locales o switches descendentes.",
+        "err_interface_in_lan_mode": "Al cambiar de WAN a LAN, es necesario desenchufar el cable de red."
     }
 }
