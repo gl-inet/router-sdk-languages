@@ -44,6 +44,7 @@
         "port_mode_tip_wan": "WANポートは、インターネットモデムまたは上流ネットワークに接続します。",
         "auto_update_mac": "MAC自動更新",
         "negotiated_port_rate": "ネゴシエートされたネットワークポートレート",
-        "select_networks": "ネットワークを選択"
+        "select_networks": "ネットワークを選択",
+        "err_interface_in_lan_mode": "WANからLANに切り替える際は、ネットワークケーブルを抜く必要があります。"
     }
 }
