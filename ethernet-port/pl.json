@@ -43,7 +43,8 @@
         "network_assignment_tips": "PVID to domyślna sieć dla ruchu bez tagów. Ruch z urządzeń bez tagów zostanie przypisany do tej sieci.",
         "select_network": "Wybierz sieć",
         "allowed_tagged_networks": "Dozwolone sieci z tagami",
-        "select_networks": "Wybierz sieci"
+        "select_networks": "Wybierz sieci",
+        "err_interface_in_lan_mode": "Przy przełączaniu z WAN na LAN należy odłączyć kabel sieciowy."
     },
     "menu_ethernet-port": "Port Ethernet"
 }
