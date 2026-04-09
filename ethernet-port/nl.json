@@ -43,7 +43,8 @@
         "network_assignment_tips": "PVID is het standaardnetwerk voor ongetagd verkeer. Verkeer van ongetagde apparaten wordt aan dit netwerk toegewezen.",
         "select_network": "Selecteer netwerk",
         "select_networks": "Selecteer netwerken",
-        "allowed_tagged_networks": "Toegestane getagde netwerken"
+        "allowed_tagged_networks": "Toegestane getagde netwerken",
+        "err_interface_in_lan_mode": "Bij het overschakelen van WAN naar LAN moet het netwerkkabel worden losgekoppeld."
     },
     "menu_ethernet-port": "Ethernetpoort"
 }
