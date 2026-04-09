@@ -84,7 +84,8 @@
         "err_dhcp_range_excludes_router_ip": "DHCP 池不得包含路由器 IP 地址。",
         "block_wan_subnets_tip_custom": "若啟用此功能，此自訂子網路將無法訪問上層網路及其所在的網段。",
         "block_wan_subnets_tip_iot": "若啟用此功能，物聯網網路將無法訪問上層網路及其所在的網段。",
-        "block_wan_subnets_tip_guest": "若啟用此功能，訪客網路將無法訪問上層網路及其所在的網段。"
+        "block_wan_subnets_tip_guest": "若啟用此功能，訪客網路將無法訪問上層網路及其所在的網段。",
+        "ipv4_ranges_tip": "您可以設定 IPv4 私有位址範圍內的子網路：192.168.0.0/16、172.16.0.0/12、10.0.0.0/8"
     },
     "menu_vlan": "VLAN"
 }
