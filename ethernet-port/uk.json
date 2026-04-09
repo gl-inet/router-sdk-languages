@@ -43,7 +43,8 @@
         "network_assignment_tips": "PVID — це мережа за замовчуванням для нетегованого трафіку. Трафік від нетегованих пристроїв буде призначено цій мережі.",
         "select_network": "Вибрати мережу",
         "allowed_tagged_networks": "Дозволені теговані мережі",
-        "select_networks": "Вибрати мережі"
+        "select_networks": "Вибрати мережі",
+        "err_interface_in_lan_mode": "При перемиканні з WAN на LAN необхідно від'єднати мережевий кабель."
     },
     "menu_ethernet-port": "Порт Ethernet"
 }
