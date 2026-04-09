@@ -43,7 +43,8 @@
         "network_assignment_tips": "PVID is the default network for untagged traffic. Traffic from untagged devices will be assigned to this network.",
         "select_network": "Select network",
         "allowed_tagged_networks": "Allowed Tagged Networks",
-        "select_networks": "Select networks"
+        "select_networks": "Select networks",
+        "err_interface_in_lan_mode": "When switching from WAN to LAN, the network cable needs to be unplugged."
     },
     "menu_ethernet-port": "Ethernet Port"
 }
