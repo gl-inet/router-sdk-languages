@@ -43,7 +43,8 @@
         "network_assignment_tips": "PVID 是未标记流量的默认网络。来自未标记设备的流量将被分配到此网络。",
         "select_network": "选择网络",
         "allowed_tagged_networks": "允许的标记网络",
-        "select_networks": "选择网络"
+        "select_networks": "选择网络",
+        "err_interface_in_lan_mode": "从WAN切换到LAN时，需要拔掉网线。"
     },
     "menu_ethernet-port": "网络端口"
 }
