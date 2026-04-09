@@ -44,6 +44,7 @@
         "network_assignment_tips": "PVID 是未標記流量的預設網路。來自未標記裝置的流量將被分配到此網路。",
         "select_network": "選擇網路",
         "allowed_tagged_networks": "允許的標記網路",
-        "select_networks": "選擇網路"
+        "select_networks": "選擇網路",
+        "err_interface_in_lan_mode": "从WAN切换到LAN时，需要拔掉网线。"
     }
 }
