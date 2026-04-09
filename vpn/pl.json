@@ -292,7 +292,7 @@
         "ovpn_nordvpn_tips": "Aby zapewnić pomyślne korzystanie z VPN, prosimy wprowadzić {account}, które służą jako dane uwierzytelniające do usługi NordVPN.",
         "to_setup_guide_tips": "Jeśli nie wiesz, jak to uzyskać, proszę zobacz {guide}.",
         "accurate_account_label": "dokładna nazwa użytkownika i hasło NordVPN",
-        "wg_guide_disabled_tips": "OpenVPN jest połączony, wyłącz OpenVPN, jeśli potrzebujesz użyć VPN Wireguard.",
+        "wg_guide_disabled_tips": "OpenVPN jest połączony, wyłącz OpenVPN, jeśli potrzebujesz użyć VPN WireGuard.",
         "manual_upload_tips": "Proszę odwiedzić {page}, aby zobaczyć dostawców usług VPN kompatybilnych z {type} i dowiedzieć się o korzyściach z używania VPN.",
         "on_router_label": "VPN na Routerze",
         "own_services_use_vpn_label": "Użycie VPN dla prywatnych usług",
@@ -506,7 +506,7 @@
         "enable_killswitch_tips": "Po włączeniu ruch przypisany do tego tunelu VPN zostanie zablokowany w przypadku nieoczekiwanego rozłączenia tunelu.",
         "not_use_killswitch_tips": "Ruch jest zgodny z polityką Wszystkiego Innego Ruchu, gdy jest wyłączony.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Po włączeniu, tylko ruch VPN ma dostęp do internetu. Cały ruch spoza VPN oraz nieudany ruch w ramach grup polityk zostanie zablokowany. To ustawienie globalne zastępuje i wyłącza indywidualny Kill Switch dla każdej grupy polityk.",
-        "all_other_traffic_setting_title": "Wszystkie inne ustawienia ruchu",
+        "all_other_traffic_setting_title": "Wszystkie Inne Ustawienia Ruchu",
         "all_other_traffic_setting_tips": "To ustawienie kontroluje, czy ruch niepasujący do żadnego aktywnego tunelu VPN może uzyskać dostęp do internetu.",
         "enhanced_kill_switch_note_tips": "{tag} To ustawienie globalne nie zastępuje indywidualnego Kill Switch skonfigurowanego w ramach konkretnych polityk VPN.",
         "allow_non_vpn_traffic_sort_tips": "Niezgodny ruch korzysta ze standardowego internetu.",
@@ -581,7 +581,7 @@
         "stop_config_tips": "Zatrzymanie tej konfiguracji spowoduje jej usunięcie ze wszystkich tuneli.",
         "stop_config_tunnel_stopped_tips": "Jeśli tunel zawiera tylko tę konfigurację, tunel zostanie zatrzymany.",
         "stop_config_visit_dashboard_tips": "Aby zarządzać tunelami, odwiedź stronę {page}.",
-        "remove_config_btn": "Usuń konfiguracje",
+        "remove_config_btn": "Usuń Konfiguracje",
         "reomving_config_warning_tips": "Czy na pewno chcesz usunąć?"
     },
     "ovpnclient": {
