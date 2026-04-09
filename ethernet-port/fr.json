@@ -44,6 +44,7 @@
         "select_network": "Sélectionner le réseau",
         "allowed_tagged_networks": "Réseaux étiquetés autorisés",
         "select_networks": "Sélectionner les réseaux",
-        "vlan_mode_tips": "Le mode standard n'autorise qu'un seul VLAN (non étiqueté), utilisé pour connecter des appareils finaux. Le mode VLAN multiples autorise plusieurs VLAN (étiquetés) sur un seul port, généralement pour connecter des points d'accès ou d'autres commutateurs."
+        "vlan_mode_tips": "Le mode standard n'autorise qu'un seul VLAN (non étiqueté), utilisé pour connecter des appareils finaux. Le mode VLAN multiples autorise plusieurs VLAN (étiquetés) sur un seul port, généralement pour connecter des points d'accès ou d'autres commutateurs.",
+        "err_interface_in_lan_mode": "Lors du passage de WAN à LAN, il est nécessaire de débrancher le câble réseau."
     }
 }
