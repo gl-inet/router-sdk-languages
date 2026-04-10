@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "Lorsqu'il est désactivé, le trafic suivra la politique de trafic non correspondant (actuellement : {label}).",
         "ip_assigning_label": "Affectation...",
         "select_config_btn": "Veuillez sélectionner une configuration",
-        "add_client_config_btn": "Ajouter une configuration client"
+        "add_client_config_btn": "Ajouter une configuration client",
+        "no_config_selected_line1": "Aucune configuration sélectionnée pour le tunnel actuel.",
+        "no_config_selected_line2": "Veuillez compléter la configuration du tunnel avant de l'utiliser.",
+        "no_vpn_config_line2": "Utiliser un fournisseur de services VPN ou ajouter des fichiers de configuration."
     },
     "vpn_server": {
         "off_title": "Le serveur {type} est actuellement ÉTEINT.",
