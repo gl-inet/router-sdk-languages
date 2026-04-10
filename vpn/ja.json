@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "無効にすると、トラフィックは一致しないトラフィックポリシー（現在：{label}）に従います。",
         "ip_assigning_label": "割り当て中...",
         "select_config_btn": "設定を選択してください",
-        "add_client_config_btn": "クライアント設定を追加"
+        "add_client_config_btn": "クライアント設定を追加",
+        "no_config_selected_line1": "現在のトンネルには設定が選択されていません。",
+        "no_config_selected_line2": "使用前にトンネル設定を完了してください。",
+        "no_vpn_config_line2": "VPNサービスプロバイダーを使用するか、設定ファイルを追加してください。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
