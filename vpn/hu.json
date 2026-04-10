@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "Letöltés letiltása esetén a forgalom a nem egyező forgalomra vonatkozó szabályt követi (jelenleg: {label}).",
         "ip_assigning_label": "Hozzárendelés...",
         "select_config_btn": "Kérjük, válasszon egy konfigurációt",
-        "add_client_config_btn": "Ügyfélkonfiguráció hozzáadása"
+        "add_client_config_btn": "Ügyfélkonfiguráció hozzáadása",
+        "no_config_selected_line1": "Aktuális alagúthoz nincs kiválasztott konfiguráció.",
+        "no_config_selected_line2": "Kérjük, fejezze be az alagút konfigurációját a használat előtt.",
+        "no_vpn_config_line2": "VPN szolgáltató használata vagy konfigurációs fájlok hozzáadása."
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
