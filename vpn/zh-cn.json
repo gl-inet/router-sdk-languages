@@ -313,7 +313,7 @@
         "wg_windscribe_limit_tips": "无法生成WireGuard密钥。每个Windscribe账户最多可同时拥有五个密钥。请前往{provider}删除凭据。",
         "check_connectivity_btn": "检查连通性",
         "vpn_server_connectivity_title": "VPN 服务器连通性",
-        "vpn_server_connectivity_tips": "如果此路由器位于 NAT 之后，您可能需要在您的 ISP 路由器 {gateway} 上设置端口转发。",
+        "vpn_server_connectivity_tips": "如果此路由器位于 NAT 之后，您可能需要在您的上游路由器 {gateway} 上设置端口转发。",
         "vpn_server_gateway_label": "(网关: {ip})",
         "oops_label": "哎呀...",
         "reachable_label": "可达",
