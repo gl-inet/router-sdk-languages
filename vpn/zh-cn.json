@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "禁用后，流量将遵循所有其他流量策略（当前：{label}）。",
         "ip_assigning_label": "正在分配...",
         "select_config_btn": "请选择一个配置",
-        "add_client_config_btn": "添加客户端配置"
+        "add_client_config_btn": "添加客户端配置",
+        "no_config_selected_line1": "当前隧道未选择配置。",
+        "no_config_selected_line2": "请在使用前完成隧道配置。",
+        "no_vpn_config_line2": "使用VPN服务提供商或添加配置文件。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
