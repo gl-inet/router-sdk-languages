@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "Wanneer uitgeschakeld, volgt het verkeer het ongematcheerde verkeersbeleid (momenteel: {label}).",
         "ip_assigning_label": "Toewijzen...",
         "select_config_btn": "Selecteer een configuratie",
-        "add_client_config_btn": "Clientconfiguratie toevoegen"
+        "add_client_config_btn": "Clientconfiguratie toevoegen",
+        "no_config_selected_line1": "Er is geen configuratie geselecteerd voor de huidige tunnel.",
+        "no_config_selected_line2": "Voltooi de tunnelconfiguratie voordat u deze gebruikt.",
+        "no_vpn_config_line2": "Gebruik een VPN-serviceprovider of voeg configuratiebestanden toe."
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
