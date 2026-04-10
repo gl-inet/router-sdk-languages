@@ -523,7 +523,6 @@
         "exclude_domain_target_desc": "Route all traffic through this VPN tunnel by default, except for the listed domains or IP addresses. The excluded destinations will bypass this tunnel.",
         "disable_killswitch_tips": "When disabled, the traffic will follow the All Other Traffic Policy (currently: {label}).",
         "ip_assigning_label": "Assigning...",
-        "no_config_selected_tip": "No configuration selected for the current tunnel.\nPlease complete the tunnel configuration before using it.",
         "select_config_btn": "Please select a configuration",
         "add_client_config_btn": "Add Client Configuration",
         "no_vpn_config_tip": "No VPN Configuration\nUsing VPN service provider or add configuration files."
