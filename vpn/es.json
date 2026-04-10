@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "Cuando está deshabilitado, el tráfico seguirá la política de tráfico no coincidente (actualmente: {label}).",
         "ip_assigning_label": "Asignando...",
         "select_config_btn": "Por favor, seleccione una configuración",
-        "add_client_config_btn": "Añadir Configuración de Cliente"
+        "add_client_config_btn": "Añadir Configuración de Cliente",
+        "no_config_selected_line1": "No se ha seleccionado ninguna configuración para el túnel actual.",
+        "no_vpn_config_line2": "Usando un proveedor de servicios VPN o agregando archivos de configuración.",
+        "no_config_selected_line2": "Por favor, complete la configuración del túnel antes de usarlo."
     },
     "vpn_server": {
         "starting_label": "El servidor {type} está iniciando...",
