@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "當停用時，流量將遵循所有其他流量策略。（目前為：{label}）。",
         "ip_assigning_label": "正在分配...",
         "select_config_btn": "請選擇一個配置",
-        "add_client_config_btn": "新增客戶端配置"
+        "add_client_config_btn": "新增客戶端配置",
+        "no_config_selected_line1": "當前隧道未選擇配置。",
+        "no_config_selected_line2": "請在使用前完成隧道配置。",
+        "no_vpn_config_line2": "使用VPN服務提供商或添加配置文件。"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",
