@@ -313,7 +313,7 @@
         "wg_windscribe_limit_tips": "Failed to generate a WireGuard key. Each Windscribe account can have a maximum of five keys at the same time. Please go to {provider} to delete a credential.",
         "check_connectivity_btn": "Check Connectivity",
         "vpn_server_connectivity_title": "VPN Server Connectivity",
-        "vpn_server_connectivity_tips": "If this router is behind NAT, you may need to set up port forwarding on your ISP router {gateway}.",
+        "vpn_server_connectivity_tips": "If this router is behind NAT, you may need to set up port forwarding on your upstream router {gateway}.",
         "vpn_server_gateway_label": "(Gateway: {ip})",
         "oops_label": "Oops...",
         "reachable_label": "Reachable",
