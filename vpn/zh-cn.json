@@ -521,7 +521,12 @@
         "domain_target_desc": "仅将目的地为所列域名或IP地址的流量通过此VPN隧道路由。前往其他目的地的流量将绕过此隧道。",
         "exclude_domain_target_desc": "默认将所有流量通过此VPN隧道路由，但所列域名或IP地址除外。排除的目的地将绕过此隧道。",
         "connect_methods_desc": "根据网络接口应用VPN规则，例如仅路由访客Wi-Fi或以太网LAN流量。",
-        "disable_killswitch_tips": "禁用后，流量将遵循所有其他流量策略（当前：{label}）。"
+        "disable_killswitch_tips": "禁用后，流量将遵循所有其他流量策略（当前：{label}）。",
+        "ip_assigning_label": "正在分配...",
+        "no_config_selected_tip": "当前隧道未选择任何配置。\n请在使用前完成隧道配置。",
+        "select_config_btn": "请选择一个配置",
+        "add_client_config_btn": "添加客户端配置",
+        "no_vpn_config_tip": "无VPN配置\n使用VPN服务提供商或添加配置文件。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",
