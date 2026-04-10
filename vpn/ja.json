@@ -523,7 +523,6 @@
         "exclude_domain_target_desc": "リストされたドメインまたはIPアドレスを除き、すべてのトラフィックをデフォルトでこのVPNトンネル経由でルーティングします。除外された宛先はこのトンネルをバイパスします。",
         "disable_killswitch_tips": "無効にすると、トラフィックは一致しないトラフィックポリシー（現在：{label}）に従います。",
         "ip_assigning_label": "割り当て中...",
-        "no_config_selected_tip": "現在のトンネルに設定が選択されていません。\n使用する前にトンネル設定を完了してください。",
         "select_config_btn": "設定を選択してください",
         "add_client_config_btn": "クライアント設定を追加",
         "no_vpn_config_tip": "VPN設定なし\nVPNサービスプロバイダーを使用するか、設定ファイルを追加してください。"
