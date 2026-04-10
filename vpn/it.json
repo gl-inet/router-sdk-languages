@@ -521,7 +521,12 @@
         "exclude_domain_target_desc": "Instradare tutto il traffico attraverso questo tunnel VPN per impostazione predefinita, ad eccezione dei domini o degli indirizzi IP elencati. Le destinazioni escluse bypasseranno questo tunnel.",
         "connect_methods_desc": "Applicare le regole VPN in base all'interfaccia di rete, ad esempio instradando solo il traffico della Wi-Fi Guest o della LAN Ethernet.",
         "domain_target_desc": "Instradare solo il traffico destinato ai domini o agli indirizzi IP elencati attraverso questo tunnel VPN. Il traffico verso altre destinazioni bypasserà questo tunnel.",
-        "disable_killswitch_tips": "当禁用时，流量将遵循未匹配流量的策略（当前为：{label}）。"
+        "disable_killswitch_tips": "当禁用时，流量将遵循未匹配流量的策略（当前为：{label}）。",
+        "ip_assigning_label": "Assegnazione in corso...",
+        "select_config_btn": "Selezionare una configurazione",
+        "add_client_config_btn": "Aggiungi configurazione client",
+        "no_config_selected_tip": "Nessuna configurazione selezionata per il tunnel corrente.\nCompletare la configurazione del tunnel prima di utilizzarlo.",
+        "no_vpn_config_tip": "Nessuna configurazione VPN\nUtilizza un provider di servizi VPN o aggiungi file di configurazione."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",
