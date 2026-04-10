@@ -521,7 +521,12 @@
         "all_target_desc": "Kieruj cały ruch z wybranego źródła (źródeł) przez ten tunel VPN.",
         "exclude_domain_target_desc": "Domyślnie kieruj cały ruch przez ten tunel VPN, z wyjątkiem wymienionych domen lub adresów IP. Wykluczone miejsca docelowe ominą ten tunel.",
         "domain_target_desc": "Kieruj przez ten tunel VPN tylko ruch przeznaczony dla wymienionych domen lub adresów IP. Ruch do innych miejsc docelowych ominie ten tunel.",
-        "disable_killswitch_tips": "Po wyłączeniu ruch będzie podlegał polityce niezgodnego ruchu (obecnie: {label})."
+        "disable_killswitch_tips": "Po wyłączeniu ruch będzie podlegał polityce niezgodnego ruchu (obecnie: {label}).",
+        "ip_assigning_label": "Przypisywanie...",
+        "select_config_btn": "Wybierz konfigurację",
+        "add_client_config_btn": "Dodaj konfigurację klienta",
+        "no_config_selected_tip": "Dla bieżącego tunelu nie wybrano konfiguracji.\nPrzed użyciem uzupełnij konfigurację tunelu.",
+        "no_vpn_config_tip": "Brak konfiguracji VPN\nUżyj dostawcy usług VPN lub dodaj pliki konfiguracyjne."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
