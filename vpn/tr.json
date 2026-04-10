@@ -519,7 +519,10 @@
         "disable_killswitch_tips": "Devre dışı bırakıldığında, trafik eşleşmeyen trafik politikasını (şu anda: {label}) takip edecektir.",
         "ip_assigning_label": "Atanıyor...",
         "select_config_btn": "Lütfen bir yapılandırma seçin",
-        "add_client_config_btn": "İstemci Yapılandırması Ekle"
+        "add_client_config_btn": "İstemci Yapılandırması Ekle",
+        "no_config_selected_line2": "Lütfen kullanmadan önce tünel yapılandırmasını tamamlayın.",
+        "no_vpn_config_line2": "VPN servis sağlayıcısı kullanın veya yapılandırma dosyaları ekleyin.",
+        "no_config_selected_line1": "Mevcut tünel için yapılandırma seçilmedi."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
