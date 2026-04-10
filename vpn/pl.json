@@ -313,7 +313,7 @@
         "wg_windscribe_limit_tips": "Nie udało się wygenerować klucza WireGuard. Każde konto Windscribe może mieć maksymalnie pięć kluczy jednocześnie. Przejdź do {provider}, aby usunąć poświadczenie.",
         "check_connectivity_btn": "Sprawdź Łączność",
         "vpn_server_connectivity_title": "Łączność Serwera VPN",
-        "vpn_server_connectivity_tips": "Jeśli ten router znajduje się za NAT, może być konieczne skonfigurowanie przekierowania portów na routerze dostawcy usług internetowych {gateway}.",
+        "vpn_server_connectivity_tips": "Jeśli ten router znajduje się za NAT-em, może być konieczne skonfigurowanie przekierowania portów na routerze nadrzędnym {gateway}.",
         "vpn_server_gateway_label": "(Brama: {ip})",
         "oops_label": "Ups...",
         "internal_ip_label": "Wewnętrzny Adres IP",
