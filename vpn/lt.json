@@ -521,7 +521,12 @@
         "connect_methods_desc": "Taikykite „VPN“ taisykles pagal tinklo sąsają, pavyzdžiui, nukreipdami tik svečio „Wi-Fi“ arba „ethernet“ vietinio tinklo srautą.",
         "exclude_device_desc": "Numatytai nukreipkite visą srautą per „VPN“, išskyrus aiškiai pasirinktus įrenginius. Naudinga žaidimų konsolėms arba vietinėms paslaugoms.",
         "domain_target_desc": "Nukreipkite tik srautą, skirtą išvardytiems domenams arba IP adresams, per šį „VPN“ tunelį. Srautas į kitas paskirties vietas apeis šį tunelį.",
-        "disable_killswitch_tips": "Kai išjungta, srautas seks nesutampančio srauto politiką (šiuo metu: {label})."
+        "disable_killswitch_tips": "Kai išjungta, srautas seks nesutampančio srauto politiką (šiuo metu: {label}).",
+        "ip_assigning_label": "Priskiriama...",
+        "no_config_selected_tip": "Dabartiniam tuneliui nėra parinkta konfigūracija.\nPrieš naudojant tunelį, užbaikite jo konfigūraciją.",
+        "select_config_btn": "Pasirinkite konfigūraciją",
+        "add_client_config_btn": "Pridėti kliento konfigūraciją",
+        "no_vpn_config_tip": "Nėra „VPN“ konfigūracijos\nNaudokite „VPN“ paslaugų teikėją arba pridėkite konfigūracijos failus."
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
