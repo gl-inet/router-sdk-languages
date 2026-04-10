@@ -524,7 +524,10 @@
         "disable_killswitch_tips": "Po wyłączeniu ruch będzie podlegał polityce niezgodnego ruchu (obecnie: {label}).",
         "ip_assigning_label": "Przypisywanie...",
         "select_config_btn": "Wybierz konfigurację",
-        "add_client_config_btn": "Dodaj Konfigurację Klienta"
+        "add_client_config_btn": "Dodaj Konfigurację Klienta",
+        "no_config_selected_line1": "Dla bieżącego tunelu nie wybrano konfiguracji.",
+        "no_config_selected_line2": "Przed użyciem należy uzupełnić konfigurację tunelu.",
+        "no_vpn_config_line2": "Korzystanie z usługodawcy VPN lub dodawanie plików konfiguracyjnych."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
