@@ -292,7 +292,7 @@
         "ovpn_nordvpn_tips": "Aby zapewnić pomyślne korzystanie z VPN, prosimy wprowadzić {account}, które służą jako dane uwierzytelniające do usługi NordVPN.",
         "to_setup_guide_tips": "Jeśli nie wiesz, jak to uzyskać, proszę zobacz {guide}.",
         "accurate_account_label": "dokładna nazwa użytkownika i hasło NordVPN",
-        "wg_guide_disabled_tips": "OpenVPN jest połączony, wyłącz OpenVPN, jeśli potrzebujesz użyć VPN Wireguard.",
+        "wg_guide_disabled_tips": "OpenVPN jest połączony, wyłącz OpenVPN, jeśli potrzebujesz użyć VPN WireGuard.",
         "manual_upload_tips": "Proszę odwiedzić {page}, aby zobaczyć dostawców usług VPN kompatybilnych z {type} i dowiedzieć się o korzyściach z używania VPN.",
         "on_router_label": "VPN na Routerze",
         "own_services_use_vpn_label": "Użycie VPN dla prywatnych usług",
@@ -313,7 +313,7 @@
         "wg_windscribe_limit_tips": "Nie udało się wygenerować klucza WireGuard. Każde konto Windscribe może mieć maksymalnie pięć kluczy jednocześnie. Przejdź do {provider}, aby usunąć poświadczenie.",
         "check_connectivity_btn": "Sprawdź Łączność",
         "vpn_server_connectivity_title": "Łączność Serwera VPN",
-        "vpn_server_connectivity_tips": "Jeśli ten router znajduje się za NAT, może być konieczne skonfigurowanie przekierowania portów na routerze dostawcy usług internetowych {gateway}.",
+        "vpn_server_connectivity_tips": "Jeśli ten router znajduje się za NAT-em, może być konieczne skonfigurowanie przekierowania portów na routerze nadrzędnym {gateway}.",
         "vpn_server_gateway_label": "(Brama: {ip})",
         "oops_label": "Ups...",
         "internal_ip_label": "Wewnętrzny Adres IP",
@@ -506,7 +506,7 @@
         "enable_killswitch_tips": "Po włączeniu ruch przypisany do tego tunelu VPN zostanie zablokowany w przypadku nieoczekiwanego rozłączenia tunelu.",
         "not_use_killswitch_tips": "Ruch jest zgodny z polityką Wszystkiego Innego Ruchu, gdy jest wyłączony.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Po włączeniu, tylko ruch VPN ma dostęp do internetu. Cały ruch spoza VPN oraz nieudany ruch w ramach grup polityk zostanie zablokowany. To ustawienie globalne zastępuje i wyłącza indywidualny Kill Switch dla każdej grupy polityk.",
-        "all_other_traffic_setting_title": "Wszystkie inne ustawienia ruchu",
+        "all_other_traffic_setting_title": "Wszystkie Inne Ustawienia Ruchu",
         "all_other_traffic_setting_tips": "To ustawienie kontroluje, czy ruch niepasujący do żadnego aktywnego tunelu VPN może uzyskać dostęp do internetu.",
         "enhanced_kill_switch_note_tips": "{tag} To ustawienie globalne nie zastępuje indywidualnego Kill Switch skonfigurowanego w ramach konkretnych polityk VPN.",
         "allow_non_vpn_traffic_sort_tips": "Niezgodny ruch korzysta ze standardowego internetu.",
@@ -521,7 +521,13 @@
         "all_target_desc": "Kieruj cały ruch z wybranego źródła (źródeł) przez ten tunel VPN.",
         "exclude_domain_target_desc": "Domyślnie kieruj cały ruch przez ten tunel VPN, z wyjątkiem wymienionych domen lub adresów IP. Wykluczone miejsca docelowe ominą ten tunel.",
         "domain_target_desc": "Kieruj przez ten tunel VPN tylko ruch przeznaczony dla wymienionych domen lub adresów IP. Ruch do innych miejsc docelowych ominie ten tunel.",
-        "disable_killswitch_tips": "Po wyłączeniu ruch będzie podlegał polityce niezgodnego ruchu (obecnie: {label})."
+        "disable_killswitch_tips": "Po wyłączeniu ruch będzie podlegał polityce niezgodnego ruchu (obecnie: {label}).",
+        "ip_assigning_label": "Przypisywanie...",
+        "select_config_btn": "Wybierz konfigurację",
+        "add_client_config_btn": "Dodaj Konfigurację Klienta",
+        "no_config_selected_line1": "Dla bieżącego tunelu nie wybrano konfiguracji.",
+        "no_config_selected_line2": "Przed użyciem należy uzupełnić konfigurację tunelu.",
+        "no_vpn_config_line2": "Korzystanie z usługodawcy VPN lub dodawanie plików konfiguracyjnych."
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
@@ -581,7 +587,7 @@
         "stop_config_tips": "Zatrzymanie tej konfiguracji spowoduje jej usunięcie ze wszystkich tuneli.",
         "stop_config_tunnel_stopped_tips": "Jeśli tunel zawiera tylko tę konfigurację, tunel zostanie zatrzymany.",
         "stop_config_visit_dashboard_tips": "Aby zarządzać tunelami, odwiedź stronę {page}.",
-        "remove_config_btn": "Usuń konfiguracje",
+        "remove_config_btn": "Usuń Konfiguracje",
         "reomving_config_warning_tips": "Czy na pewno chcesz usunąć?"
     },
     "ovpnclient": {

@@ -313,7 +313,7 @@
         "wg_windscribe_limit_tips": "无法生成WireGuard密钥。每个Windscribe账户最多可同时拥有五个密钥。请前往{provider}删除凭据。",
         "check_connectivity_btn": "检查连通性",
         "vpn_server_connectivity_title": "VPN 服务器连通性",
-        "vpn_server_connectivity_tips": "如果此路由器位于 NAT 之后，您可能需要在您的 ISP 路由器 {gateway} 上设置端口转发。",
+        "vpn_server_connectivity_tips": "如果此路由器位于 NAT 之后，您可能需要在您的上游路由器 {gateway} 上设置端口转发。",
         "vpn_server_gateway_label": "(网关: {ip})",
         "oops_label": "哎呀...",
         "reachable_label": "可达",
@@ -521,7 +521,13 @@
         "domain_target_desc": "仅将目的地为所列域名或IP地址的流量通过此VPN隧道路由。前往其他目的地的流量将绕过此隧道。",
         "exclude_domain_target_desc": "默认将所有流量通过此VPN隧道路由，但所列域名或IP地址除外。排除的目的地将绕过此隧道。",
         "connect_methods_desc": "根据网络接口应用VPN规则，例如仅路由访客Wi-Fi或以太网LAN流量。",
-        "disable_killswitch_tips": "禁用后，流量将遵循所有其他流量策略（当前：{label}）。"
+        "disable_killswitch_tips": "禁用后，流量将遵循所有其他流量策略（当前：{label}）。",
+        "ip_assigning_label": "正在分配...",
+        "select_config_btn": "请选择一个配置",
+        "add_client_config_btn": "添加客户端配置",
+        "no_config_selected_line1": "当前隧道未选择配置。",
+        "no_config_selected_line2": "请在使用前完成隧道配置。",
+        "no_vpn_config_line2": "使用VPN服务提供商或添加配置文件。"
     },
     "vpn_server": {
         "connected_dev_label": "已连接的设备",

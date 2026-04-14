@@ -516,7 +516,13 @@
         "domain_target_desc": "Yalnızca listelenen alan adlarına veya IP adreslerine yönelik trafiği bu VPN tüneli üzerinden yönlendirin. Diğer hedeflere giden trafik bu tüneli atlayacaktır.",
         "exclude_domain_target_desc": "Listelenen alan adları veya IP adresleri hariç, varsayılan olarak tüm trafiği bu VPN tüneli üzerinden yönlendirin. Hariç tutulan hedefler bu tüneli atlayacaktır.",
         "connect_methods_desc": "VPN kurallarını ağ arayüzüne göre uygulayın, örneğin yalnızca Misafir Wi-Fi veya Ethernet LAN trafiğini yönlendirin.",
-        "disable_killswitch_tips": "Devre dışı bırakıldığında, trafik eşleşmeyen trafik politikasını (şu anda: {label}) takip edecektir."
+        "disable_killswitch_tips": "Devre dışı bırakıldığında, trafik eşleşmeyen trafik politikasını (şu anda: {label}) takip edecektir.",
+        "ip_assigning_label": "Atanıyor...",
+        "select_config_btn": "Lütfen bir yapılandırma seçin",
+        "add_client_config_btn": "İstemci Yapılandırması Ekle",
+        "no_config_selected_line2": "Lütfen kullanmadan önce tünel yapılandırmasını tamamlayın.",
+        "no_vpn_config_line2": "VPN servis sağlayıcısı kullanın veya yapılandırma dosyaları ekleyin.",
+        "no_config_selected_line1": "Mevcut tünel için yapılandırma seçilmedi."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",

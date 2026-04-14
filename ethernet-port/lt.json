@@ -16,7 +16,6 @@
         "link_up": "Sujungimas įjungtas",
         "link_down": "Sujungimas išjungtas",
         "no_module": "Modulio nėra",
-        "err_interface_in_lan_mode": "Sąsaja yra vietinio tinklo („LAN“) veiksenoje ir negali priimti išorinio tinklo („WAN“) konfigūracijos.",
         "err_feature_not_supported": "Funkcija nepalaikoma. Šiame įrenginyje nėra atitinkamo prievado arba „secondwan“ yra apribotas.",
         "err_port_invalid_or_unsupported": "Prievadas nepalaikomas arba netinkamas pavadinimas.",
         "err_mode_not_supported": "Veiksenos rėžimas nepalaikomas.",
@@ -44,7 +43,8 @@
         "port_mode_tip_lan": "Vietinio tinklo prievadas jungiasi prie vietinių įrenginių arba žemesnio lygio jungiklių.",
         "auto_update_mac": "Automatinis MAC atnaujinimas",
         "negotiated_port_rate": "Suderintas tinklo prievado sparta",
-        "mac_replacement": "MAC pakeitimo intervalas"
+        "mac_replacement": "MAC pakeitimo intervalas",
+        "err_interface_in_lan_mode": "Perjungiant iš WAN į LAN, reikia atjungti tinklo laidą."
     },
     "menu_ethernet-port": "Eterneto prievadas"
 }

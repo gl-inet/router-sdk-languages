@@ -17,7 +17,6 @@
         "no_module": "Sin Módulo",
         "link_up": "Enlace Arriba",
         "link_down": "Enlace Abajo",
-        "err_interface_in_lan_mode": "La interfaz está en modo LAN y no puede aceptar la configuración WAN.",
         "err_feature_not_supported": "Función no compatible. No hay puerto coincidente en este dispositivo o secondwan está restringido.",
         "err_virtual_interface_missing": "Falta la interfaz virtual correspondiente.",
         "err_mode_not_supported": "Modo de operación no compatible.",
@@ -45,6 +44,7 @@
         "select_network": "Seleccionar red",
         "allowed_tagged_networks": "Redes Etiquetadas Permitidas",
         "select_networks": "Seleccionar redes",
-        "port_mode_tip_lan": "El puerto LAN se conecta a dispositivos locales o switches descendentes."
+        "port_mode_tip_lan": "El puerto LAN se conecta a dispositivos locales o switches descendentes.",
+        "err_interface_in_lan_mode": "Al cambiar de WAN a LAN, es necesario desenchufar el cable de red."
     }
 }

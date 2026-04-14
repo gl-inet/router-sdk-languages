@@ -17,7 +17,6 @@
         "link_up": "Collegamento Attivo",
         "no_module": "Nessun Modulo",
         "link_down": "Collegamento Inattivo",
-        "err_interface_in_lan_mode": "L'interfaccia è in modalità LAN e non può accettare la configurazione WAN.",
         "err_feature_not_supported": "Funzionalità non supportata. Nessuna porta corrispondente su questo dispositivo o secondwan limitato.",
         "err_virtual_interface_missing": "Manca l'interfaccia virtuale corrispondente.",
         "err_mode_not_supported": "Modalità operativa non supportata.",
@@ -45,6 +44,7 @@
         "allowed_tagged_networks": "Reti con Tag Consentite",
         "select_networks": "Seleziona reti",
         "port_mode_tip_wan": "La porta WAN si collega al tuo modem Internet o alla rete a monte.",
-        "negotiated_port_rate": "Velocità Porta di Rete Negoziale"
+        "negotiated_port_rate": "Velocità Porta di Rete Negoziale",
+        "err_interface_in_lan_mode": "Quando si passa da WAN a LAN, è necessario scollegare il cavo di rete."
     }
 }

@@ -54,7 +54,6 @@
         "main_network": "Rete Principale",
         "iot_network": "Rete IoT",
         "guest_network": "Rete Ospiti",
-        "ipv4_ranges_tip": "Configura gli intervalli di indirizzi IPv4 per questa rete.",
         "router_ip_address": "Indirizzo IP del Router",
         "router_ip": "IP del Router",
         "router_ip_tip": "L'indirizzo IP del router è l'indirizzo che si inserirebbe nella barra degli indirizzi del browser per accedere alla pagina di amministrazione del router.",
@@ -85,7 +84,8 @@
         "err_dhcp_range_excludes_router_ip": "Il pool DHCP non deve includere l'indirizzo IP del router.",
         "block_wan_subnets_tip_iot": "Se questa funzione è abilitata, la rete IoT non potrà accedere alla rete di livello superiore e al segmento di rete in cui si trova la rete di livello superiore.",
         "block_wan_subnets_tip_guest": "Se questa funzione è abilitata, la rete guest non potrà accedere alla rete di livello superiore e al segmento di rete in cui si trova la rete di livello superiore.",
-        "block_wan_subnets_tip_custom": "Se questa funzione è abilitata, questa subnet personalizzata non potrà accedere alla rete di livello superiore e al segmento di rete in cui si trova la rete di livello superiore."
+        "block_wan_subnets_tip_custom": "Se questa funzione è abilitata, questa subnet personalizzata non potrà accedere alla rete di livello superiore e al segmento di rete in cui si trova la rete di livello superiore.",
+        "ipv4_ranges_tip": "È possibile impostare una subnet all'interno degli intervalli di indirizzi IPv4 privati: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
     },
     "menu_vlan": "VLAN"
 }

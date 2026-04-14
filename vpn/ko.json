@@ -521,7 +521,13 @@
         "exclude_domain_target_desc": "나열된 도메인 또는 IP 주소를 제외하고 기본적으로 모든 트래픽을 이 VPN 터널을 통해 라우팅합니다. 제외된 목적지는 이 터널을 우회합니다.",
         "connect_methods_desc": "게스트 Wi-Fi 또는 이더넷 LAN 트래픽과 같이 네트워크 인터페이스를 기반으로 VPN 규칙을 적용합니다.",
         "domain_target_desc": "나열된 도메인 또는 IP 주소로 향하는 트래픽만 이 VPN 터널을 통해 라우팅합니다. 다른 목적지로의 트래픽은 이 터널을 우회합니다.",
-        "disable_killswitch_tips": "비활성화 시 트래픽은 일치하지 않는 트래픽 정책(현재: {label})을 따릅니다."
+        "disable_killswitch_tips": "비활성화 시 트래픽은 일치하지 않는 트래픽 정책(현재: {label})을 따릅니다.",
+        "ip_assigning_label": "할당 중...",
+        "select_config_btn": "구성을 선택하십시오",
+        "add_client_config_btn": "클라이언트 구성 추가",
+        "no_config_selected_line1": "현재 터널에 대해 선택된 구성이 없습니다.",
+        "no_config_selected_line2": "사용하기 전에 터널 구성을 완료하십시오.",
+        "no_vpn_config_line2": "VPN 서비스 공급자를 사용하거나 구성 파일을 추가하십시오."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",

@@ -16,7 +16,6 @@
         "link_up": "Bağlantı Kuruldu",
         "link_down": "Bağlantı Kesildi",
         "no_module": "Modül Yok",
-        "err_interface_in_lan_mode": "Arayüz LAN modunda ve WAN yapılandırmasını kabul edemez.",
         "err_virtual_interface_missing": "İlgili sanal arayüz eksik.",
         "err_wan_vlan_dualwan_conflict": "WAN VLAN, çift WAN yapılandırmasıyla çakışıyor.",
         "err_invalid_mac_mode": "Geçersiz MAC modu.",
@@ -44,7 +43,8 @@
         "network_assignment_tips": "PVID, etiketsiz trafik için varsayılan ağdır. Etiketsiz cihazlardan gelen trafik bu ağa atanacaktır.",
         "select_network": "Ağ seç",
         "allowed_tagged_networks": "İzin Verilen Etiketli Ağlar",
-        "select_networks": "Ağları seç"
+        "select_networks": "Ağları seç",
+        "err_interface_in_lan_mode": "WAN'dan LAN'a geçiş yaparken ağ kablosunun çıkarılması gerekir."
     },
     "menu_ethernet-port": "Ethernet Bağlantı Noktası"
 }

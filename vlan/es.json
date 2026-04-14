@@ -54,7 +54,6 @@
         "main_network": "Red principal",
         "iot_network": "Red IoT",
         "guest_network": "Red de invitados",
-        "ipv4_ranges_tip": "Configure los rangos de direcciones IPv4 para esta red.",
         "router_ip_address": "Dirección IP del router",
         "router_ip": "IP del router",
         "router_ip_tip": "La dirección IP del router es la dirección que ingresaría en la barra de direcciones de su navegador para acceder a la página de administración del router.",
@@ -85,7 +84,8 @@
         "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router.",
         "block_wan_subnets_tip_guest": "Si esta función está habilitada, la red de invitados no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
         "block_wan_subnets_tip_iot": "Si esta función está habilitada, la red IoT no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
-        "block_wan_subnets_tip_custom": "Si esta función está habilitada, esta subred personalizada no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior."
+        "block_wan_subnets_tip_custom": "Si esta función está habilitada, esta subred personalizada no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
+        "ipv4_ranges_tip": "Puede configurar subredes dentro de los rangos de direcciones privadas IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
     },
     "menu_vlan": "VLAN"
 }

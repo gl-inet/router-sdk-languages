@@ -15,7 +15,7 @@
         "modify": "Modificar",
         "cancel": "Cancelar",
         "apply": "Aplicar",
-        "install": "instalar",
+        "install": "Instalar",
         "connect": "Conectar",
         "disconnect": "Desconectar",
         "abort": "Detener y Cancelar",
@@ -100,7 +100,7 @@
         "one_click_process_btn": "one-click processing",
         "incorrect_formate_tips": "Formato incorrecto, cámbielo manualmente o {action}",
         "view_details_btn": "Ver Detalles",
-        "idx_label": "índice",
+        "idx_label": "Índice",
         "update": "Actualizar",
         "tips_ttitle": "Consejos",
         "click here_btn": "Pulse aquí",
@@ -116,14 +116,14 @@
         "setp_label": "Paso {num} :",
         "join_btn": "Unirse",
         "search": "Buscar",
-        "scan_btn": "Escaneo",
+        "scan_btn": "Escanear",
         "revoke_btn": "Revocar",
-        "manual_add_mac_btn": "Agregar Dispositivo Manualmente",
-        "got_it": "Entendido.",
+        "manual_add_mac_btn": "Añadir Dispositivo",
+        "got_it": "Entendido",
         "attention_title": "Atención",
         "remove_btn": "Eliminar",
         "notice_title": "Aviso",
-        "use_weak_disabled_ssh_tips": "El uso de contraseñas débiles deshabilitará el acceso SSH y la entrada por puerto serie.",
+        "use_weak_disabled_ssh_tips": "Usar una contraseña débil desactivará SSH y la entrada por puerto serie.",
         "important_note": "Importante",
         "export_btn": "Exportar",
         "example_label": "p. ej. {content}",
@@ -147,8 +147,8 @@
         "successfully_badge_tips": "¡Operación completada con éxito!",
         "sign_up_success": "¡Registrado con éxito!",
         "lack_of_memory_tips": "Debido a la falta de memoria, si desea actualizar el firmware, puede intentar reiniciar el dispositivo.",
-        "copy_success": "Copia exitosa",
-        "request_timeout_tip": "La solicitud ha caducado. Asegúrese de estar conectado a este enrutador y actualice la página."
+        "copy_success": "Copia realizada correctamente",
+        "request_timeout_tip": "Tiempo de espera agotado. Asegúrese de estar conectado a este router y actualiza la página."
     },
     "date": {
         "sunday": "Dom|Domingo",
@@ -224,11 +224,11 @@
         "duplex_full_label": "{speed} Mbps full duplex (simultáneo en ambos sentidos)",
         "duplex_half_label": "{speed} Mbps half duplex (un solo sentido a la vez)",
         "auto_update_mac_time_label": "Por Tiempo",
-        "mtu_common_tip": "Establezca el valor de MTU de acuerdo con su escenario de uso. Configuraciones incorrectas pueden causar desconexión de internet.",
-        "custom_dns_setting_label": "Configuración de DNS Personalizada",
+        "mtu_common_tip": "Configure el valor de MTU según su escenario de uso. Una configuración incorrecta puede provocar la desconexión de internet.",
+        "custom_dns_setting_label": "Configuración Personalizada de DNS",
         "address_label": "Dirección",
-        "iot_ip_tips": "La subred de IoT está en conflicto con la subred de WAN, por favor cambie {iotSubnet} a una dirección diferente.",
-        "change_iot_subnet": "Cambiar subred de IoT"
+        "iot_ip_tips": "La subred IoT entra en conflicto con la subred WAN, por favor cambie {iotSubnet} a una dirección diferente.",
+        "change_iot_subnet": "Cambiar la subred IoT"
     },
     "upload": {
         "select_or_drag": "Selecciona un archivo para subir o arrástralo aquí",
@@ -240,7 +240,7 @@
         "format_error": "¡Error de formato de datos!",
         "too_large_tips": "El archivo subido es demasiado grande, por favor suba un archivo que sea menor de $$$$ bytes.",
         "lass_than_tips": "(Menos que $$$$)",
-        "too_large_normal_msg": "El archivo cargado es demasiado grande. Por favor, reduzca el tamaño del archivo y vuelva a cargarlo."
+        "too_large_normal_msg": "El archivo subido es demasiado grande. Por favor, reduzca el tamaño del archivo y vuelva a subirlo."
     },
     "system": {
         "battery_err_tips": "El sistema no detecta el módulo de la batería, verifica la conexión de energía o la batería en busca de daños.",
@@ -252,13 +252,13 @@
         "usb_power_limit_tips": "(Asegúrese de que el voltaje de la fuente de alimentación supere {power})",
         "current_time_label": "Hora actual",
         "enable_conflict_warning": "{self} no está disponible porque {other} está habilitado.",
-        "no_battery_charging_tips": "No se detectó ningún módulo de batería. El dispositivo está actualmente alimentado por una fuente de energía externa."
+        "no_battery_charging_tips": "No se ha detectado ningún módulo de batería. El dispositivo está actualmente alimentado por una fuente de alimentación externa."
     },
     "err": {
         "network_not_reachable_msg": "La red no es alcanzable",
         "abnormal_operation_msg": "Excepción operativa",
         "param_illegal_msg": "Parámetro ilegal, operación fallida.",
-        "connection_failed_msg": "Conexión fallida. Por favor, inténtelo de nuevo más tarde.",
+        "connection_failed_msg": "La conexión ha fallado. Por favor, inténtelo de nuevo más tarde.",
         "port_occupied_msg": "El puerto {port} está ocupado."
     },
     "subscription": {
@@ -274,7 +274,7 @@
         "only_allowd_input_tips": "Solo se permite ingresar {limit}.",
         "min_max_length_tips": "{min} - {max} caracteres.",
         "only_num_letter_symbol_tips": "Solo se permiten letras, números y los símbolos {symbol}.",
-        "ipv6_limit_start_end_tips": "Debe comenzar con {start} y terminar con una dirección IPv6 correcta de {end}.",
+        "ipv6_limit_start_end_tips": "Debe comenzar con {start} y terminar con una dirección IPv6 válida de {end}.",
         "min_max_byte_tips": "{min} - {max} bytes.",
         "not_allow_use_tips": "el carácter {char} no está permitido | los caracteres {char} no están permitidos",
         "begin_not_allow_tips": "No puede comenzar con el carácter {char} | No puede comenzar con ninguno de los caracteres {char}"

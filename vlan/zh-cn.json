@@ -54,7 +54,6 @@
         "main_network": "主网络",
         "guest_network": "访客网络",
         "iot_network": "物联网网络",
-        "ipv4_ranges_tip": "为此网络配置IPv4地址范围。",
         "router_ip_address": "路由器IP地址",
         "router_ip": "路由器IP",
         "router_ip_tip": "路由器IP地址是您在浏览器地址栏中输入以访问路由器管理页面的地址。",
@@ -85,7 +84,8 @@
         "err_dhcp_range_excludes_router_ip": "DHCP地址池不得包含路由器IP地址。",
         "block_wan_subnets_tip_iot": "如果启用此功能，IoT 网络将无法访问上级网络和上级网络所在的网络段。",
         "block_wan_subnets_tip_guest": "如果启用此功能，访客网络将无法访问上级网络和上级网络所在的网络段。",
-        "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上级网络和上级网络所在的网络段。"
+        "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上级网络和上级网络所在的网络段。",
+        "ipv4_ranges_tip": "您可以在IPv4私有地址范围内设置子网：192.168.0.0/16、172.16.0.0/12、10.0.0.0/8"
     },
     "menu_vlan": "VLAN"
 }

@@ -16,7 +16,6 @@
         "link_up": "З'єднання встановлено",
         "link_down": "З'єднання розірвано",
         "no_module": "Модуль відсутній",
-        "err_interface_in_lan_mode": "Інтерфейс знаходиться в режимі LAN і не може приймати конфігурацію WAN.",
         "err_port_invalid_or_unsupported": "Порт не підтримується або має недійсну назву.",
         "err_mode_not_supported": "Режим роботи не підтримується.",
         "err_vlan_param_invalid": "Не вдалося перевірити параметри VLAN. Перевірте режим VLAN, PVID або дозволені VLAN.",
@@ -44,7 +43,8 @@
         "network_assignment_tips": "PVID — це мережа за замовчуванням для нетегованого трафіку. Трафік від нетегованих пристроїв буде призначено цій мережі.",
         "select_network": "Вибрати мережу",
         "allowed_tagged_networks": "Дозволені теговані мережі",
-        "select_networks": "Вибрати мережі"
+        "select_networks": "Вибрати мережі",
+        "err_interface_in_lan_mode": "При перемиканні з WAN на LAN необхідно від'єднати мережевий кабель."
     },
     "menu_ethernet-port": "Порт Ethernet"
 }

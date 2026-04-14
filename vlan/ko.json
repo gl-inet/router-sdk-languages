@@ -54,7 +54,6 @@
         "iot_network": "IoT 네트워크",
         "main_network": "메인 네트워크",
         "guest_network": "게스트 네트워크",
-        "ipv4_ranges_tip": "이 네트워크에 대한 IPv4 주소 범위를 구성하세요.",
         "router_ip_address": "라우터 IP 주소",
         "router_ip": "라우터 IP",
         "router_ip_tip": "라우터 IP 주소는 브라우저 주소 표시줄에 입력하여 라우터 관리 페이지에 접근하는 주소입니다.",
@@ -85,7 +84,8 @@
         "err_dhcp_range_excludes_router_ip": "DHCP 풀에는 라우터 IP 주소가 포함되어서는 안 됩니다.",
         "block_wan_subnets_tip_iot": "이 기능을 활성화하면 IoT 네트워크가 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 액세스할 수 없게 됩니다.",
         "block_wan_subnets_tip_guest": "이 기능을 활성화하면 게스트 네트워크가 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 액세스할 수 없게 됩니다.",
-        "block_wan_subnets_tip_custom": "이 기능을 활성화하면 이 사용자 정의 서브넷이 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 액세스할 수 없게 됩니다."
+        "block_wan_subnets_tip_custom": "이 기능을 활성화하면 이 사용자 정의 서브넷이 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 액세스할 수 없게 됩니다.",
+        "ipv4_ranges_tip": "IPv4 개인 주소 범위 내에서 서브넷을 설정할 수 있습니다: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
     },
     "menu_vlan": "VLAN"
 }

@@ -54,7 +54,6 @@
         "iot_network": "IoT tinklas",
         "main_network": "Pagrindinis tinklas",
         "guest_network": "Svečių tinklas",
-        "ipv4_ranges_tip": "Konfigūruokite IPv4 adresų diapazonus šiam tinklui.",
         "router_ip_address": "Maršrutizatoriaus IP adresas",
         "router_ip": "Maršrutizatoriaus IP",
         "router_ip_tip": "Maršrutizatoriaus IP adresas yra adresas, kurį įvestumėte į savo naršyklės adreso juostą, kad pasiektumėte maršrutizatoriaus administravimo puslapį.",
@@ -85,7 +84,8 @@
         "err_dhcp_range_excludes_router_ip": "DHCP telkinys neturi apimti maršrutizatoriaus IP adreso.",
         "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
         "block_wan_subnets_tip_guest": "Jei ši funkcija įjungta, svečių tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
-        "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, šis pasirinktinis potinklis negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas."
+        "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, šis pasirinktinis potinklis negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
+        "ipv4_ranges_tip": "Galite nustatyti potinklį IPv4 privačių adresų diapazonuose: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
     },
     "menu_vlan": "VLAN"
 }
