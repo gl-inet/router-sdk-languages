@@ -86,7 +86,8 @@
         "block_wan_subnets_tip_guest": "이 기능을 활성화하면 게스트 네트워크가 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 액세스할 수 없게 됩니다.",
         "block_wan_subnets_tip_custom": "이 기능을 활성화하면 이 사용자 정의 서브넷이 상위 네트워크 및 상위 네트워크가 위치한 네트워크 세그먼트에 액세스할 수 없게 됩니다.",
         "ipv4_ranges_tip": "IPv4 개인 주소 범위 내에서 서브넷을 설정할 수 있습니다: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
-        "err_subnet_conflict_with": "서브넷 주소가 \"{target}\"와(과) 충돌합니다."
+        "err_subnet_conflict_with": "서브넷 주소가 \"{target}\"와(과) 충돌합니다.",
+        "err_dhcp_params_invalid": "DHCP 풀, 임대 시간 또는 게이트웨이/넷마스크와 관련된 DHCP 매개변수가 유효하지 않습니다."
     },
     "menu_vlan": "VLAN"
 }
