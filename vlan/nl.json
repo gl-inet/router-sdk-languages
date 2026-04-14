@@ -85,7 +85,8 @@
         "block_wan_subnets_tip_iot": "Als deze functie is ingeschakeld, kan het IoT-netwerk niet toegang krijgen tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt.",
         "block_wan_subnets_tip_guest": "Als deze functie is ingeschakeld, kan het gastnetwerk niet toegang krijgen tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt.",
         "block_wan_subnets_tip_custom": "Als deze functie is ingeschakeld, kan dit aangepaste subnet niet toegang krijgen tot het bovenliggende netwerk en het netwerksegment waar het bovenliggende netwerk zich bevindt.",
-        "ipv4_ranges_tip": "U kunt subnetten instellen binnen de privé-IPv4-adresbereiken: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "U kunt subnetten instellen binnen de privé-IPv4-adresbereiken: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Subnetadres conflicteert met \"{target}\"."
     },
     "menu_vlan": "VLAN"
 }
