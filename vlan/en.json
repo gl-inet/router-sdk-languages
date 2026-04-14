@@ -85,7 +85,8 @@
         "block_wan_subnets_tip_guest": "If this function is enabled, the guest network will not be able to access the upper-level network and the network segment where the upper-level network is located.",
         "block_wan_subnets_tip_iot": "If this function is enabled, the IoT network will not be able to access the upper-level network and the network segment where the upper-level network is located.",
         "block_wan_subnets_tip_custom": "If this function is enabled, this custom subnet will not be able to access the upper-level network and the network segment where the upper-level network is located.",
-        "ipv4_ranges_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Subnet address conflicts with \"{target}\"."
     },
     "menu_vlan": "VLAN"
 }
