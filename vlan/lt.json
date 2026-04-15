@@ -33,7 +33,6 @@
         "dns": "DNS serveris",
         "required": "Reikalingas",
         "name": "Pavadinimas",
-        "tip": "Tvarkykite tinklo segmentaciją naudodami VLAN, kad izoliuotumėte srautą ir pagerintumėte saugumą.",
         "err_vlan_id_in_use": "„VLAN“ ID jau yra naudojamas.",
         "err_subnet_conflict": "Potinklio adreso konfliktas.",
         "err_subnet_bound_migrate_first": "Šis potinklis yra priskirtas prie „Ethernet“ prievado ir negali būti ištrintas. Pirmiausia perkelkite prievadus.",
