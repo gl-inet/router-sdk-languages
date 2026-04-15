@@ -86,7 +86,8 @@
         "ipv4_ranges_tip": "Możesz ustawić podsieć w zakresach prywatnych adresów IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Adres podsieci koliduje z \"{target}\".",
         "err_dhcp_params_invalid": "Pula DHCP, czas dzierżawy lub parametry DHCP związane z bramą/maską sieci są nieprawidłowe.",
-        "tip": "Utwórz dodatkowe sieci VLAN, aby izolować różne typy urządzeń lub ruch gości."
+        "tip": "Utwórz dodatkowe sieci VLAN, aby izolować różne typy urządzeń lub ruch gości.",
+        "dhcp_tip": "Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacyjne urządzeniom klienckim. Jeśli serwer DHCP jest wyłączony, ustawienia sieciowe urządzeń klienckich będą musiały zostać skonfigurowane ręcznie."
     },
     "menu_vlan": "VLAN"
 }
