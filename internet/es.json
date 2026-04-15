@@ -276,7 +276,8 @@
         "name_already_taken_tips": "El nombre {name} ya está en uso",
         "name_empty_tips": "El nombre no puede estar vacío",
         "auto_switch_tips": "Esta función requiere el modo de detección sin datos bajos del Seguimiento de Estado de Interfaz Multi-WAN. Cuando está habilitada, el sistema cambiará automáticamente al modo de detección correspondiente y puede generar un uso de tráfico adicional.",
-        "sim_registered_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. {guide}"
+        "sim_registered_connection_failed_tips": "Por favor, verifique si la tarjeta SIM tiene datos disponibles y si la configuración de {apnBtn} es correcta. {guide}",
+        "connection_failed_contact_support_tips": "Consulte la {guide}. Si el problema persiste, por favor {log} y envíelos a {addr}."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
