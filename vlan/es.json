@@ -86,7 +86,8 @@
         "block_wan_subnets_tip_custom": "Si esta función está habilitada, esta subred personalizada no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
         "ipv4_ranges_tip": "Puede configurar subredes dentro de los rangos de direcciones privadas IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "La dirección de subred entra en conflicto con \"{target}\".",
-        "err_dhcp_params_invalid": "El grupo DHCP, el tiempo de concesión o los parámetros DHCP relacionados con la puerta de enlace/máscara de red no son válidos."
+        "err_dhcp_params_invalid": "El grupo DHCP, el tiempo de concesión o los parámetros DHCP relacionados con la puerta de enlace/máscara de red no son válidos.",
+        "tip": "Cree redes VLAN adicionales para aislar diferentes tipos de dispositivos o tráfico de visitantes."
     },
     "menu_vlan": "VLAN"
 }
