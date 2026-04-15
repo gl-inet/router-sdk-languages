@@ -276,7 +276,8 @@
         "name_already_taken_tips": "名前 {name} は既に使用されています",
         "name_empty_tips": "名前を入力してください",
         "auto_switch_tips": "この機能は、Multi-WANインターフェースステータストラックの非低データ検出モードを必要とします。有効にすると、システムは自動的に対応する検出モードに切り替わり、追加のトラフィック使用量が発生する可能性があります。",
-        "sim_registered_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。{guide}"
+        "sim_registered_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。{guide}",
+        "connection_failed_contact_support_tips": "{guide}を参照してください。問題が解決しない場合は、{log}を取得し、{addr}に送信してください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
