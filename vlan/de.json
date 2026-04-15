@@ -86,7 +86,8 @@
         "ipv4_ranges_tip": "Sie können Subnetze innerhalb der privaten IPv4-Adressbereiche festlegen: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Subnetz-Adresse steht in Konflikt mit \"{target}\".",
         "err_dhcp_params_invalid": "Der DHCP-Pool, die Leasedauer oder die DHCP-Parameter im Zusammenhang mit Gateway/Netzmaske sind ungültig.",
-        "tip": "Erstellen Sie zusätzliche VLAN-Netzwerke, um verschiedene Gerätetypen oder Besucherverkehr zu isolieren."
+        "tip": "Erstellen Sie zusätzliche VLAN-Netzwerke, um verschiedene Gerätetypen oder Besucherverkehr zu isolieren.",
+        "dhcp_tip": "Der DHCP-Server weist Client-Geräten automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen die Netzwerkeinstellungen der Client-Geräte manuell konfiguriert werden."
     },
     "menu_vlan": "VLAN"
 }
