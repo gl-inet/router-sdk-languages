@@ -86,7 +86,8 @@
         "ipv4_ranges_tip": "IPv4 özel adres aralıkları içinde alt ağ ayarlayabilirsiniz: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Alt ağ adresi \"{target}\" ile çakışıyor.",
         "err_dhcp_params_invalid": "DHCP havuzu, kira süresi veya ağ geçidi/alt ağ maskesi ile ilgili DHCP parametreleri geçersiz.",
-        "tip": "Farklı cihaz türlerini veya ziyaretçi trafiğini izole etmek için ek VLAN ağları oluşturun."
+        "tip": "Farklı cihaz türlerini veya ziyaretçi trafiğini izole etmek için ek VLAN ağları oluşturun.",
+        "dhcp_tip": "DHCP sunucusu, istemci cihazlara IP adresleri ve diğer iletişim parametrelerini otomatik olarak atar. DHCP sunucusu devre dışı bırakılırsa, istemci cihaz ağ ayarlarının manuel olarak yapılandırılması gerekecektir."
     },
     "menu_vlan": "VLAN"
 }
