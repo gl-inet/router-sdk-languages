@@ -86,7 +86,8 @@
         "block_wan_subnets_tip_iot": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fogja tudni elérni a felső szintű hálózatot és annak hálózati szegmensét.",
         "ipv4_ranges_tip": "Beállíthat alhálózatot az IPv4 magáncím tartományokon belül: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Alhálózati cím ütközik a következővel: \"{target}\".",
-        "err_dhcp_params_invalid": "A DHCP-készlet, a bérleti idő vagy az átjáró/alhálózati maszkkal kapcsolatos DHCP-paraméterek érvénytelenek."
+        "err_dhcp_params_invalid": "A DHCP-készlet, a bérleti idő vagy az átjáró/alhálózati maszkkal kapcsolatos DHCP-paraméterek érvénytelenek.",
+        "tip": "Hozzon létre további VLAN hálózatokat a különböző típusú eszközök vagy látogatói forgalom elkülönítéséhez."
     },
     "menu_vlan": "VLAN"
 }
