@@ -86,7 +86,8 @@
         "ipv4_ranges_tip": "Vous pouvez définir un sous-réseau dans les plages d'adresses privées IPv4 : 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "L'adresse du sous-réseau est en conflit avec \"{target}\".",
         "err_dhcp_params_invalid": "Le pool DHCP, la durée de bail ou les paramètres DHCP liés à la passerelle/au masque de sous-réseau sont invalides.",
-        "tip": "Créez des réseaux VLAN supplémentaires pour isoler différents types d'appareils ou le trafic des visiteurs."
+        "tip": "Créez des réseaux VLAN supplémentaires pour isoler différents types d'appareils ou le trafic des visiteurs.",
+        "dhcp_tip": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication aux appareils clients. Si le serveur DHCP est désactivé, les paramètres réseau des appareils clients devront être configurés manuellement."
     },
     "menu_vlan": "VLAN"
 }
