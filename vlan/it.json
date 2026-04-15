@@ -86,7 +86,8 @@
         "ipv4_ranges_tip": "È possibile impostare una subnet all'interno degli intervalli di indirizzi IPv4 privati: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "L'indirizzo della subnet è in conflitto con \"{target}\".",
         "err_dhcp_params_invalid": "Il pool DHCP, il tempo di lease o i parametri DHCP relativi al gateway/netmask non sono validi.",
-        "tip": "Crea reti VLAN aggiuntive per isolare diversi tipi di dispositivi o traffico dei visitatori."
+        "tip": "Crea reti VLAN aggiuntive per isolare diversi tipi di dispositivi o traffico dei visitatori.",
+        "dhcp_tip": "Il server DHCP assegna automaticamente indirizzi IP e altri parametri di comunicazione ai dispositivi client. Se il server DHCP è disabilitato, le impostazioni di rete dei dispositivi client dovranno essere configurate manualmente."
     },
     "menu_vlan": "VLAN"
 }
