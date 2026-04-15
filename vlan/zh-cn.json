@@ -86,7 +86,8 @@
         "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上级网络和上级网络所在的网络段。",
         "ipv4_ranges_tip": "您可以在IPv4私有地址范围内设置子网：192.168.0.0/16、172.16.0.0/12、10.0.0.0/8",
         "err_subnet_conflict_with": "子网地址与\"{target}\"冲突。",
-        "err_dhcp_params_invalid": "DHCP 地址池、租期或与网关/子网掩码相关的 DHCP 参数无效。"
+        "err_dhcp_params_invalid": "DHCP 地址池、租期或与网关/子网掩码相关的 DHCP 参数无效。",
+        "tip": "创建额外的VLAN网络以隔离不同类型的设备或访客流量。"
     },
     "menu_vlan": "VLAN"
 }
