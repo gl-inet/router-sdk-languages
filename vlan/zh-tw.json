@@ -86,7 +86,8 @@
         "ipv4_ranges_tip": "您可以設定 IPv4 私有位址範圍內的子網路：192.168.0.0/16、172.16.0.0/12、10.0.0.0/8",
         "err_subnet_conflict_with": "子網地址與\"{target}\"衝突。",
         "err_dhcp_params_invalid": "DHCP 池、租用時間或與閘道/網路遮罩相關的 DHCP 參數無效。",
-        "tip": "创建额外的VLAN网络以隔离不同类型的设备或访客流量。"
+        "tip": "创建额外的VLAN网络以隔离不同类型的设备或访客流量。",
+        "dhcp_tip": "DHCP伺服器會自動為客戶端裝置分配IP位址和其他通訊參數。如果停用DHCP伺服器，則需要手動配置客戶端裝置的網路設定。"
     },
     "menu_vlan": "VLAN"
 }
