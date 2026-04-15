@@ -86,7 +86,8 @@
         "ipv4_ranges_tip": "U kunt subnetten instellen binnen de privé-IPv4-adresbereiken: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Subnetadres conflicteert met \"{target}\".",
         "err_dhcp_params_invalid": "Het DHCP-pool, de leasetijd of de DHCP-parameters gerelateerd aan de gateway/netmasker zijn ongeldig.",
-        "tip": "Creëer extra VLAN-netwerken om verschillende soorten apparaten of bezoekersverkeer te isoleren."
+        "tip": "Creëer extra VLAN-netwerken om verschillende soorten apparaten of bezoekersverkeer te isoleren.",
+        "dhcp_tip": "De DHCP-server wijst automatisch IP-adressen en andere communicatieparameters toe aan clientapparaten. Als de DHCP-server is uitgeschakeld, moeten de netwerkinstellingen van clientapparaten handmatig worden geconfigureerd."
     },
     "menu_vlan": "VLAN"
 }
