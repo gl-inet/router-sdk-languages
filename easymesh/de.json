@@ -104,7 +104,11 @@
         "switch_agent_mode_conflicts_router_tips": "Der Wechsel in den Agent-Modus wandelt den WAN-Port in einen LAN-Port um, was zu Netzwerkkonflikten mit Ihrem vorgeschalteten Router führen kann.",
         "disconnect_wan_tips": "Trennen Sie das WAN-Kabel, um Probleme zu vermeiden.",
         "open_admin_panel_btn": "Admin-Panel öffnen",
-        "get_start_tips": "Erstellen Sie ein AstroMesh-Netzwerk für nahtlose WLAN-Abdeckung zu Hause und unterwegs."
+        "get_start_tips": "Erstellen Sie ein AstroMesh-Netzwerk für nahtlose WLAN-Abdeckung zu Hause und unterwegs.",
+        "astro_node_label": "Mesh/Astro-Knoten",
+        "main_router_label": "Hauptrouter",
+        "astro_node_tips": "Dieser Modus verbindet sich mit dem Internet und verwaltet alle Mesh-Knoten. Er dient als Ausgangsknoten für alle entfernten Astro-Knoten."
     },
-    "menu_astromesh": "AstroMesh"
+    "menu_astromesh": "AstroMesh",
+    "select_router_mode_label": "Wählen Sie den Modus für diesen Router aus"
 }
