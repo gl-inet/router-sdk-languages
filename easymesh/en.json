@@ -106,7 +106,11 @@
         "open_admin_panel_btn": "Open Admin Panel",
         "get_start_tips": "Create an AstroMesh network for seamless Wi-Fi coverage at home and while traveling.",
         "astro_node_label": "Mesh/Astro Node",
-        "main_router_label": "Main Router"
+        "main_router_label": "Main Router",
+        "mesh_node_tips": "{meshNode}: this mode extends the Wi-Fi coverage of the Main Router locally using EasyMesh.",
+        "main_router_tips": "This mode connects to the Internet and manages all Mesh Nodes. It serves as the exit node for all remote Astro Nodes.",
+        "mesh_astro_node_label": "Mesh/Astro Node",
+        "astro_node_tips": "{astroNode}: this mode extends the home network to remote sites using AstroWarp."
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Select the mode for this router"
