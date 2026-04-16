@@ -104,7 +104,11 @@
         "switch_agent_mode_conflicts_router_tips": "Switching to Agent mode will convert the WAN port to LAN, which may cause network conflicts with your upstream router.",
         "disconnect_wan_tips": "Disconnect the WAN cable to avoid issues.",
         "open_admin_panel_btn": "Open Admin Panel",
-        "get_start_tips": "Create an AstroMesh network for seamless Wi-Fi coverage at home and while traveling."
+        "get_start_tips": "Create an AstroMesh network for seamless Wi-Fi coverage at home and while traveling.",
+        "astro_node_tips": "This mode connects to the Internet and manages all Mesh Nodes. It serves as the exit node for all remote Astro Nodes.",
+        "astro_node_label": "Mesh/Astro Node",
+        "main_router_label": "Main Router"
     },
-    "menu_astromesh": "AstroMesh"
+    "menu_astromesh": "AstroMesh",
+    "select_router_mode_label": "Select the mode for this router"
 }
