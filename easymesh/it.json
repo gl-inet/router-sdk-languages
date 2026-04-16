@@ -104,7 +104,11 @@
         "switch_agent_mode_conflicts_router_tips": "Il passaggio alla modalità Agente convertirà la porta WAN in LAN, il che potrebbe causare conflitti di rete con il router a monte.",
         "disconnect_wan_tips": "Disconnettere il cavo WAN per evitare problemi.",
         "open_admin_panel_btn": "Apri Pannello di Amministrazione",
-        "get_start_tips": "Crea una rete AstroMesh per una copertura Wi-Fi continua sia a casa che in viaggio."
+        "get_start_tips": "Crea una rete AstroMesh per una copertura Wi-Fi continua sia a casa che in viaggio.",
+        "astro_node_label": "Mesh/Nodo Astro",
+        "main_router_label": "Router Principale",
+        "astro_node_tips": "Questa modalità si connette a Internet e gestisce tutti i nodi Mesh. Funge da nodo di uscita per tutti i nodi Astro remoti."
     },
-    "menu_astromesh": "AstroMesh"
+    "menu_astromesh": "AstroMesh",
+    "select_router_mode_label": "Seleziona la modalità per questo router"
 }
