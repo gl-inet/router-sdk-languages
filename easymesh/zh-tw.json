@@ -106,7 +106,11 @@
         "open_admin_panel_btn": "開啟管理面板",
         "get_start_tips": "创建AstroMesh网络，实现家庭和旅行中的无缝Wi-Fi覆盖。",
         "astro_node_label": "Mesh/Astro 節點",
-        "main_router_label": "主路由器"
+        "main_router_label": "主路由器",
+        "mesh_astro_node_label": "Mesh/Astro 節點",
+        "main_router_tips": "此模式连接至互联网并管理所有Mesh节点。它作为所有远程Astro节点的出口节点。",
+        "mesh_node_tips": "{meshNode}：此模式使用EasyMesh在本地擴展主路由器的Wi-Fi覆蓋範圍。",
+        "astro_node_tips": "{astroNode}：此模式使用AstroWarp将家庭网络扩展到远程站点。"
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "選擇此路由器的模式"
