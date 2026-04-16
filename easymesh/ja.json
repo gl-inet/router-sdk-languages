@@ -104,7 +104,11 @@
         "switch_agent_mode_conflicts_router_tips": "エージェントモードに切り替えると、WANポートがLANに変換されます。これにより、上位ルーターとの間でネットワーク競合が発生する可能性があります。",
         "disconnect_wan_tips": "問題を回避するためにWANケーブルを切断してください。",
         "open_admin_panel_btn": "管理パネルを開く",
-        "get_start_tips": "自宅や旅行先でもシームレスなWi-Fiカバレッジを実現するAstroMeshネットワークを作成します。"
+        "get_start_tips": "自宅や旅行先でもシームレスなWi-Fiカバレッジを実現するAstroMeshネットワークを作成します。",
+        "astro_node_label": "Mesh/Astroノード",
+        "main_router_label": "メインルーター",
+        "astro_node_tips": "このモードはインターネットに接続し、すべてのメッシュノードを管理します。すべてのリモートAstroノードの出口ノードとして機能します。"
     },
-    "menu_astromesh": "AstroMesh"
+    "menu_astromesh": "AstroMesh",
+    "select_router_mode_label": "このルーターのモードを選択してください"
 }
