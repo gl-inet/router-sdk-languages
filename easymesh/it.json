@@ -106,7 +106,11 @@
         "open_admin_panel_btn": "Apri Pannello di Amministrazione",
         "get_start_tips": "Crea una rete AstroMesh per una copertura Wi-Fi continua sia a casa che in viaggio.",
         "astro_node_label": "Mesh/Nodo Astro",
-        "main_router_label": "Router Principale"
+        "main_router_label": "Router Principale",
+        "main_router_tips": "Questa modalità si connette a Internet e gestisce tutti i nodi Mesh. Funge da nodo di uscita per tutti i nodi Astro remoti.",
+        "mesh_astro_node_label": "Mesh/Nodo Astro",
+        "mesh_node_tips": "{meshNode}: questa modalità estende localmente la copertura Wi-Fi del Router Principale utilizzando EasyMesh.",
+        "astro_node_tips": "{astroNode}: questa modalità estende la rete domestica a siti remoti utilizzando AstroWarp."
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Seleziona la modalità per questo router"
