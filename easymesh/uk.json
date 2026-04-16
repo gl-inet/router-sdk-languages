@@ -106,7 +106,11 @@
         "open_admin_panel_btn": "Відкрити панель адміністратора",
         "get_start_tips": "Створіть мережу AstroMesh для безперебійного покриття Wi-Fi вдома та під час подорожей.",
         "astro_node_label": "Mesh/Astro Node",
-        "main_router_label": "Головний маршрутизатор"
+        "main_router_label": "Головний маршрутизатор",
+        "mesh_astro_node_label": "Mesh/Astro Node",
+        "main_router_tips": "Цей режим підключається до Інтернету та керує всіма Mesh-вузлами. Він служить вихідним вузлом для всіх віддалених Astro-вузлів.",
+        "mesh_node_tips": "{meshNode}: цей режим розширює покриття Wi-Fi Головного маршрутизатора локально за допомогою EasyMesh.",
+        "astro_node_tips": "{astroNode}: цей режим розширює домашню мережу на віддалені сайти за допомогою AstroWarp."
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Виберіть режим для цього маршрутизатора"
