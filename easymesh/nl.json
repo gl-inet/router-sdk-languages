@@ -106,7 +106,11 @@
         "open_admin_panel_btn": "Open Admin Paneel",
         "get_start_tips": "Creëer een AstroMesh-netwerk voor naadloze Wi-Fi-dekking thuis en tijdens het reizen.",
         "astro_node_label": "Mesh/Astro-knooppunt",
-        "main_router_label": "Hoofdrouter"
+        "main_router_label": "Hoofdrouter",
+        "mesh_astro_node_label": "Mesh/Astro-knooppunt",
+        "main_router_tips": "Deze modus verbindt met het internet en beheert alle Mesh Nodes. Het fungeert als het uitgangsknooppunt voor alle externe Astro Nodes.",
+        "mesh_node_tips": "{meshNode}: deze modus breidt de Wi-Fi-dekking van de hoofdrouter lokaal uit met EasyMesh.",
+        "astro_node_tips": "{astroNode}: deze modus breidt het thuisnetwerk uit naar externe locaties met behulp van AstroWarp."
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Selecteer de modus voor deze router"
