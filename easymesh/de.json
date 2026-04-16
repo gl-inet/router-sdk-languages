@@ -106,7 +106,11 @@
         "open_admin_panel_btn": "Admin-Panel öffnen",
         "get_start_tips": "Erstellen Sie ein AstroMesh-Netzwerk für nahtlose WLAN-Abdeckung zu Hause und unterwegs.",
         "astro_node_label": "Mesh/Astro-Knoten",
-        "main_router_label": "Hauptrouter"
+        "main_router_label": "Hauptrouter",
+        "mesh_node_tips": "{meshNode}: Dieser Modus erweitert die WLAN-Abdeckung des Hauptrouters lokal über EasyMesh.",
+        "mesh_astro_node_label": "Mesh/Astro-Knoten",
+        "main_router_tips": "Dieser Modus verbindet sich mit dem Internet und verwaltet alle Mesh-Knoten. Er dient als Ausgangsknoten für alle entfernten Astro-Knoten.",
+        "astro_node_tips": "{astroNode}: Dieser Modus erweitert das Heimnetzwerk auf entfernte Standorte mithilfe von AstroWarp."
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Wählen Sie den Modus für diesen Router aus"
