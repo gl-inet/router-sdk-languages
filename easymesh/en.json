@@ -109,7 +109,9 @@
         "mesh_node_tips": "{meshNode}: this mode extends the Wi-Fi coverage of the Main Router locally using EasyMesh.",
         "main_router_tips": "This mode connects to the Internet and manages all Mesh Nodes. It serves as the exit node for all remote Astro Nodes.",
         "mesh_astro_node_label": "Mesh/Astro Node",
-        "astro_node_tips": "{astroNode}: this mode extends the home network to remote sites using AstroWarp."
+        "astro_node_tips": "{astroNode}: this mode extends the home network to remote sites using AstroWarp.",
+        "mesh_node_label": "Mesh Node",
+        "astro_node_label": "Astro Node"
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Select the mode for this router"
