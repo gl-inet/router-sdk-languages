@@ -109,7 +109,9 @@
         "main_router_tips": "Ce mode se connecte à Internet et gère tous les nœuds Mesh. Il sert de nœud de sortie pour tous les nœuds Astro distants.",
         "mesh_astro_node_label": "Mesh/Nœud Astro",
         "mesh_node_tips": "{meshNode} : ce mode étend localement la couverture Wi-Fi du routeur principal en utilisant EasyMesh.",
-        "astro_node_tips": "{astroNode} : ce mode étend le réseau domestique aux sites distants en utilisant AstroWarp."
+        "astro_node_tips": "{astroNode} : ce mode étend le réseau domestique aux sites distants en utilisant AstroWarp.",
+        "mesh_node_label": "Nœud Maillage",
+        "astro_node_label": "Astro Node"
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Sélectionnez le mode pour ce routeur"
