@@ -104,7 +104,11 @@
         "wan_cable_detected_tips": "偵測到WAN線路。",
         "switch_agent_mode_conflicts_router_tips": "切換到代理模式會將WAN端口轉換為LAN，這可能與您的上游路由器產生網路衝突。",
         "open_admin_panel_btn": "開啟管理面板",
-        "get_start_tips": "创建AstroMesh网络，实现家庭和旅行中的无缝Wi-Fi覆盖。"
+        "get_start_tips": "创建AstroMesh网络，实现家庭和旅行中的无缝Wi-Fi覆盖。",
+        "astro_node_label": "Mesh/Astro 節點",
+        "main_router_label": "主路由器",
+        "astro_node_tips": "此模式连接至互联网并管理所有Mesh节点。它作为所有远程Astro节点的出口节点。"
     },
-    "menu_astromesh": "AstroMesh"
+    "menu_astromesh": "AstroMesh",
+    "select_router_mode_label": "選擇此路由器的模式"
 }
