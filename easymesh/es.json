@@ -109,7 +109,9 @@
         "main_router_tips": "Este modo se conecta a Internet y gestiona todos los nodos Mesh. Actúa como nodo de salida para todos los nodos Astro remotos.",
         "mesh_astro_node_label": "Malla/Nodo Astro",
         "mesh_node_tips": "{meshNode}: este modo extiende la cobertura Wi-Fi del Router Principal localmente mediante EasyMesh.",
-        "astro_node_tips": "{astroNode}: este modo extiende la red doméstica a sitios remotos utilizando AstroWarp."
+        "astro_node_tips": "{astroNode}: este modo extiende la red doméstica a sitios remotos utilizando AstroWarp.",
+        "mesh_node_label": "Nodo de Malla",
+        "astro_node_label": "Nodo Astro"
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "Seleccione el modo para este router"
