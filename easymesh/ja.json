@@ -106,7 +106,11 @@
         "open_admin_panel_btn": "管理パネルを開く",
         "get_start_tips": "自宅や旅行先でもシームレスなWi-Fiカバレッジを実現するAstroMeshネットワークを作成します。",
         "astro_node_label": "Mesh/Astroノード",
-        "main_router_label": "メインルーター"
+        "main_router_label": "メインルーター",
+        "mesh_astro_node_label": "Mesh/Astroノード",
+        "main_router_tips": "このモードはインターネットに接続し、すべてのメッシュノードを管理します。すべてのリモートAstroノードの出口ノードとして機能します。",
+        "mesh_node_tips": "{meshNode}: このモードは、EasyMeshを使用してメインルーターのWi-Fiカバレッジをローカルに拡張します。",
+        "astro_node_tips": "{astroNode}: このモードはAstroWarpを使用して、ホームネットワークをリモートサイトに拡張します。"
     },
     "menu_astromesh": "AstroMesh",
     "select_router_mode_label": "このルーターのモードを選択してください"
