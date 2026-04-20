@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "Naudodami „Wi-Fi“ nuskaitykite artimiausius junglumo mazgus. Įsitikinkite, kad maršrutizatoriuje yra įjungta AstroMesh ir jis veikia junglumo mazgų veiksenoje.",
         "add_mesh_nodes_tips": "Pridėkite junglusių mazgų į savo AstroMesh tinklą ir išplėskite „Wi-Fi“ aprėptį namuose bei kelionėse.",
         "this_router_mode_title": "Šio maršrutizatoriaus veiksena: {mode}",
-        "main_router_mode_tips": "Astro mazgai šiuo metu turi prieigą prie jūsų namų tinklo per šį pagrindinį maršrutizatorių, naudodami jį kaip išėjimo mazgą."
+        "main_router_mode_tips": "Astro mazgai šiuo metu turi prieigą prie jūsų namų tinklo per šį pagrindinį maršrutizatorių, naudodami jį kaip išėjimo mazgą.",
+        "astro_node_switch": "Astro Tinklo Mazgo Komutatorius",
+        "allow_astro_node_tips": "Astro mazgai šiuo metu turi prieigą prie jūsų namų tinklo per šį pagrindinį maršrutizatorių, naudodami jį kaip išėjimo mazgą.",
+        "mesh_node_only_label": "Tik Junglusis/Tankusis mazgas",
+        "allow_astro_node_label": "Leisti Astro mazgą",
+        "allow_astro_node_desc": "Ši veiksena leidžia jūsų Astro mazgams prisijungti prie namų tinklo ir naudoti jį kaip išėjimo mazgą. Tačiau tinklavimo funkcijos, tokios kaip Tailscale ir ZeroTier, šioje veiksenoje nėra prieinamos.",
+        "mesh_node_only_desc": "Šiuo veiksena visi Astro mazgai negali prisijungti prie jūsų namų tinklo. Vis tiek galite naudoti Junglusių mazgų su AstroMesh. Be to, galite naudoti kitas tinklavimo funkcijas, pvz., Tailscale ir ZeroTier.",
+        "mesh_node_only_tips": "Visi Astro mazgai šiuo metu yra užblokuoti nuo prieigos prie jūsų namų tinklo šio pagrindinio maršrutizatoriaus."
     },
     "menu_astromesh": "AstroMesh"
 }
