@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: цей режим розширює домашню мережу на віддалені сайти за допомогою AstroWarp.",
         "mesh_node_label": "Mesh Node",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Виберіть режим для цього маршрутизатора"
+        "select_router_mode_label": "Виберіть режим для цього маршрутизатора",
+        "add_nodes_via_pairing_code_label": "Додати вузли через код парного зв'язку",
+        "add_nodes_via_wifi_scan_label": "Додати вузли через сканування Wi-Fi",
+        "add_nodes_via_pairing_code_tips": "Згенеруйте код прив'язки та додайте вузли мережі, ввівши його безпосередньо на ваших пристроях AstroMesh.",
+        "add_nodes_via_wifi_scan_tips": "Скануйте ближні Mesh-вузли за допомогою Wi-Fi. Переконайтеся, що на маршрутизаторі увімкнено AstroMesh і він працює в режимі Mesh-вузлів."
     },
     "menu_astromesh": "AstroMesh"
 }
