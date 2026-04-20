@@ -126,7 +126,14 @@
         "mesh_node_only_label": "Mesh-Knoten nur",
         "allow_astro_node_label": "Astro-Knoten zulassen",
         "allow_astro_node_desc": "Dieser Modus ermöglicht es Ihren Astro Nodes, sich mit Ihrem Heimnetzwerk zu verbinden und es als Exit-Node zu nutzen. Netzwerkfunktionen wie Tailscale und ZeroTier sind in diesem Modus jedoch nicht verfügbar.",
-        "mesh_node_only_tips": "Alle Astro-Knoten sind derzeit vom Zugriff auf Ihr Heimnetzwerk dieses Hauptrouters blockiert."
+        "mesh_node_only_tips": "Alle Astro-Knoten sind derzeit vom Zugriff auf Ihr Heimnetzwerk dieses Hauptrouters blockiert.",
+        "join_by_wifi_scan_label": "Per WLAN-Scan beitreten",
+        "join_by_wifi_scan_tips": "Bitte greifen Sie auf das Admin-Panel Ihres Haupt-Routers zu und führen Sie auf der AstroMesh-Menüseite die Option \"Knoten über WLAN-Scan hinzufügen\" aus.",
+        "using_pairing_code_title": "Verwenden des Pairing-Codes",
+        "join_by_ethernet_cable_tips": "Bitte verbinden Sie den LAN-Port des Haupt-Routers mit dem LAN-Port dieses Mesh-Knotens über ein Ethernet-Kabel.",
+        "using_other_methods_title": "Verwendung anderer Methoden",
+        "join_by_ethernet_cable_label": "Mit Ethernet-Kabel verbinden",
+        "enter_main_router_pairing_code_label": "Bitte geben Sie den von Ihrem Hauptrouter generierten Pairing-Code ein."
     },
     "menu_astromesh": "AstroMesh"
 }
