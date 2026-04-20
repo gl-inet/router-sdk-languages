@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "Közeli Mesh csomópontok keresése Wi-Fi segítségével. Győződjön meg arról, hogy a routeren engedélyezve van az AstroMesh, és Mesh csomópontok módban működik.",
         "add_mesh_nodes_tips": "Adjon hozzá mesh csomópontokat az AstroMesh hálózatához, és bővítse a Wi-Fi lefedettséget otthon és utazás közben.",
         "this_router_mode_title": "A router módja: {mode}",
-        "main_router_mode_tips": "Az Astro csomópontok jelenleg hozzáférnek az otthoni hálózatához ezen Fő routeren keresztül, amelyet kilépési csomópontként használnak."
+        "main_router_mode_tips": "Az Astro csomópontok jelenleg hozzáférnek az otthoni hálózatához ezen Fő routeren keresztül, amelyet kilépési csomópontként használnak.",
+        "mesh_node_only_desc": "Ebben az üzemmódban az összes Astro Node nem tud csatlakozni az otthoni hálózatához. Továbbra is használhatja a Mesh csomópontokat az AstroMesh-szel. Emellett használhat más hálózati funkciókat is, mint például a Tailscale és a ZeroTier.",
+        "astro_node_switch": "Astro Node Switch",
+        "allow_astro_node_tips": "Az Astro csomópontok jelenleg hozzáférnek az otthoni hálózatához ezen Fő routeren keresztül, amelyet kilépési csomópontként használnak.",
+        "mesh_node_only_label": "Csomópont csak",
+        "allow_astro_node_label": "Engedélyezze az Astro Node-ot",
+        "allow_astro_node_desc": "Ez a mód lehetővé teszi, hogy az Astro csomópontjaid csatlakozzanak az otthoni hálózatodhoz, és azt használják kilépési csomópontként. Azonban ebben a módban a Tailscale és a ZeroTier hálózati funkciók nem érhetők el.",
+        "mesh_node_only_tips": "Az összes Astro Node jelenleg blokkolva van a fő router otthoni hálózatához való hozzáférés elől."
     },
     "menu_astromesh": "AstroMesh"
 }
