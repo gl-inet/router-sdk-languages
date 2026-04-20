@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: ten tryb rozszerza sieć domową na zdalne lokalizacje za pomocą AstroWarp.",
         "mesh_node_label": "Węzeł siatki",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Wybierz tryb dla tego routera"
+        "select_router_mode_label": "Wybierz tryb dla tego routera",
+        "add_nodes_via_pairing_code_label": "Dodaj węzły za pomocą kodu parowania",
+        "add_nodes_via_wifi_scan_label": "Dodaj węzły poprzez skanowanie Wi-Fi",
+        "add_nodes_via_pairing_code_tips": "Wygeneruj kod parowania i dodaj węzły siatki, wprowadzając go bezpośrednio na swoich urządzeniach AstroMesh.",
+        "add_nodes_via_wifi_scan_tips": "Skanuj w poszukiwaniu pobliskich węzłów Mesh za pomocą Wi-Fi. Upewnij się, że router ma włączoną funkcję AstroMesh i działa w trybie węzłów Mesh."
     },
     "menu_astromesh": "AstroMesh"
 }
