@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: deze modus breidt het thuisnetwerk uit naar externe locaties met behulp van AstroWarp.",
         "astro_node_label": "Astro Node",
         "mesh_node_label": "Mesh-knooppunt",
-        "select_router_mode_label": "Selecteer de modus voor deze router"
+        "select_router_mode_label": "Selecteer de modus voor deze router",
+        "add_nodes_via_pairing_code_label": "Knooppunten toevoegen via koppelingscode",
+        "add_nodes_via_wifi_scan_label": "Knooppunten toevoegen via Wi-Fi Scan",
+        "add_nodes_via_pairing_code_tips": "Genereer een koppelingscode en voeg mesh-knooppunten toe door deze rechtstreeks in te voeren op uw AstroMesh-apparaten.",
+        "add_nodes_via_wifi_scan_tips": "Scan naar nabijgelegen Mesh Nodes via Wi-Fi. Zorg ervoor dat de router AstroMesh heeft ingeschakeld en werkt in de Mesh Nodes-modus."
     },
     "menu_astromesh": "AstroMesh"
 }
