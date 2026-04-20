@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: Dieser Modus erweitert das Heimnetzwerk auf entfernte Standorte mithilfe von AstroWarp.",
         "mesh_node_label": "Mesh-Knoten",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Wählen Sie den Modus für diesen Router aus"
+        "select_router_mode_label": "Wählen Sie den Modus für diesen Router aus",
+        "add_nodes_via_pairing_code_label": "Über Pairing-Code Knoten hinzufügen",
+        "add_nodes_via_wifi_scan_label": "Knoten über WLAN-Scan hinzufügen",
+        "add_nodes_via_pairing_code_tips": "Generieren Sie einen Pairing-Code und fügen Sie Mesh-Knoten hinzu, indem Sie ihn direkt auf Ihren AstroMesh-Geräten eingeben.",
+        "add_nodes_via_wifi_scan_tips": "Scannen Sie nach nahegelegenen Mesh-Knoten über WLAN. Stellen Sie sicher, dass der Router AstroMesh aktiviert hat und im Mesh-Knoten-Modus arbeitet."
     },
     "menu_astromesh": "AstroMesh"
 }
