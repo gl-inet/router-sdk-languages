@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: Bu mod, AstroWarp kullanarak ev ağını uzak konumlara genişletir.",
         "mesh_node_label": "Mesh Düğümü",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Bu yönlendirici için modu seçin"
+        "select_router_mode_label": "Bu yönlendirici için modu seçin",
+        "add_nodes_via_pairing_code_label": "Eşleştirme Kodu ile Düğüm Ekle",
+        "add_nodes_via_wifi_scan_label": "Wi-Fi Tarama ile Düğüm Ekle",
+        "add_nodes_via_pairing_code_tips": "Bir eşleştirme kodu oluşturun ve AstroMesh cihazlarınızda doğrudan girerek mesh düğümlerini ekleyin.",
+        "add_nodes_via_wifi_scan_tips": "Yakındaki Mesh Düğümlerini Wi-Fi kullanarak tarayın. Yönlendiricinin AstroMesh'in etkin olduğundan ve Mesh Düğümleri modunda çalıştığından emin olun."
     },
     "menu_astromesh": "AstroMesh"
 }
