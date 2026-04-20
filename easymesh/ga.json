@@ -126,7 +126,14 @@
         "allow_astro_node_label": "Ceadaigh Astro Node",
         "allow_astro_node_desc": "Tugann an mód seo cead do do Nóid Astro ceangal a dhéanamh le do líonra baile agus é a úsáid mar an nód imeachta. Mar sin féin, ní bhíonn gnéithe líonrúcháin ar nós Tailscale agus ZeroTier ar fáil sa mhodh seo.",
         "mesh_node_only_desc": "Sa mhód seo, ní féidir le haon Astro Nód ceangal a dhéanamh le do líonra baile. Is féidir leat na nóid Mheis a úsáid fós le AstroMesh. Ina theannta sin, is féidir leat gnéithe líonrúcháin eile a úsáid cosúil le Tailscale agus ZeroTier.",
-        "mesh_node_only_tips": "Tá gach Nód Astro faoi bhlocadh faoi láthair ó rochtain a fháil ar do líon baile den Phríomh-Ródaire seo."
+        "mesh_node_only_tips": "Tá gach Nód Astro faoi bhlocadh faoi láthair ó rochtain a fháil ar do líon baile den Phríomh-Ródaire seo.",
+        "join_by_wifi_scan_label": "Ceangail trí Scanadh Wi-Fi",
+        "join_by_wifi_scan_tips": "Roghnaigh an painéal riaracháin do do Ródaire Príomha agus déan an \"Add nodes via Wi-Fi Scan\" ar leathanach na roghchláir AstroMesh.",
+        "using_pairing_code_title": "Ag baint úsáide as an Cód Páiréala",
+        "using_other_methods_title": "Ag Bhealaí Eile a Úsáid",
+        "join_by_ethernet_cable_label": "Ceangail le Cábla Eitearnéid",
+        "enter_main_router_pairing_code_label": "Cuir isteach an cód péireála a ghineann do Ródaire Príomhúil.",
+        "join_by_ethernet_cable_tips": "Ceangail port LAN an Ródaire Mhóir le port LAN an Nóid Mheise seo ag úsáid cábla Ethernet."
     },
     "menu_astromesh": "AstroMesh"
 }
