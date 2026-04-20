@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "Scannen Sie nach nahegelegenen Mesh-Knoten über WLAN. Stellen Sie sicher, dass der Router AstroMesh aktiviert hat und im Mesh-Knoten-Modus arbeitet.",
         "add_mesh_nodes_tips": "Fügen Sie Mesh-Knoten zu Ihrem AstroMesh-Netzwerk hinzu und erweitern Sie die WLAN-Abdeckung zu Hause und unterwegs.",
         "this_router_mode_title": "Modus dieses Routers: {mode}",
-        "main_router_mode_tips": "Astro-Nodes haben derzeit über diesen Hauptrouter Zugriff auf Ihr Heimnetzwerk und nutzen ihn als Exit-Node."
+        "main_router_mode_tips": "Astro-Nodes haben derzeit über diesen Hauptrouter Zugriff auf Ihr Heimnetzwerk und nutzen ihn als Exit-Node.",
+        "mesh_node_only_desc": "In diesem Modus können alle Astro-Knoten keine Verbindung zu Ihrem Heimnetzwerk herstellen. Sie können die Mesh-Knoten weiterhin mit AstroMesh nutzen. Zusätzlich können Sie andere Netzwerkfunktionen wie Tailscale und ZeroTier verwenden.",
+        "astro_node_switch": "Astro Node Switch",
+        "allow_astro_node_tips": "Astro-Nodes haben derzeit über diesen Hauptrouter Zugriff auf Ihr Heimnetzwerk und nutzen ihn als Exit-Node.",
+        "mesh_node_only_label": "Mesh-Knoten nur",
+        "allow_astro_node_label": "Astro-Knoten zulassen",
+        "allow_astro_node_desc": "Dieser Modus ermöglicht es Ihren Astro Nodes, sich mit Ihrem Heimnetzwerk zu verbinden und es als Exit-Node zu nutzen. Netzwerkfunktionen wie Tailscale und ZeroTier sind in diesem Modus jedoch nicht verfügbar.",
+        "mesh_node_only_tips": "Alle Astro-Knoten sind derzeit vom Zugriff auf Ihr Heimnetzwerk dieses Hauptrouters blockiert."
     },
     "menu_astromesh": "AstroMesh"
 }
