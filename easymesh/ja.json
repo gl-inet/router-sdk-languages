@@ -126,7 +126,14 @@
         "allow_astro_node_label": "Astroノードを許可",
         "allow_astro_node_desc": "このモードでは、Astroノードがホームネットワークに接続し、それを出口ノードとして使用することができます。ただし、TailscaleやZeroTierなどのネットワーク機能はこのモードでは利用できません。",
         "mesh_node_only_desc": "このモードでは、すべてのAstroノードがホームネットワークに接続できなくなります。AstroMeshを使用してメッシュノードを引き続き利用できます。さらに、TailscaleやZeroTierなどの他のネットワーク機能も使用できます。",
-        "mesh_node_only_tips": "すべてのAstroノードは現在、このメインルーターのホームネットワークへのアクセスがブロックされています。"
+        "mesh_node_only_tips": "すべてのAstroノードは現在、このメインルーターのホームネットワークへのアクセスがブロックされています。",
+        "join_by_wifi_scan_label": "Wi-Fiスキャンで参加",
+        "join_by_wifi_scan_tips": "メインルーターの管理パネルにアクセスし、AstroMeshメニューページで「Wi-Fiスキャンによるノード追加」を実行してください。",
+        "using_pairing_code_title": "ペアリングコードの使用",
+        "using_other_methods_title": "他の方法を使用する",
+        "join_by_ethernet_cable_label": "イーサネットケーブルで接続",
+        "enter_main_router_pairing_code_label": "メインルーターで生成されたペアリングコードを入力してください。",
+        "join_by_ethernet_cable_tips": "メインルーターのLANポートをイーサネットケーブルでこのメッシュノードのLANポートに接続してください。"
     },
     "menu_astromesh": "AstroMesh"
 }
