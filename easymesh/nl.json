@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "Scan naar nabijgelegen Mesh Nodes via Wi-Fi. Zorg ervoor dat de router AstroMesh heeft ingeschakeld en werkt in de Mesh Nodes-modus.",
         "add_mesh_nodes_tips": "Voeg mesh-knooppunten toe aan uw AstroMesh-netwerk en breid de Wi-Fi-dekking uit thuis en tijdens het reizen.",
         "this_router_mode_title": "Modus van deze router: {mode}",
-        "main_router_mode_tips": "Astro Nodes hebben momenteel toegang tot uw thuisnetwerk via deze Hoofdrouter, die als uitgangsknooppunt wordt gebruikt."
+        "main_router_mode_tips": "Astro Nodes hebben momenteel toegang tot uw thuisnetwerk via deze Hoofdrouter, die als uitgangsknooppunt wordt gebruikt.",
+        "astro_node_switch": "Astro Node Switch",
+        "allow_astro_node_tips": "Astro Nodes hebben momenteel toegang tot uw thuisnetwerk via deze Hoofdrouter, die als uitgangsknooppunt wordt gebruikt.",
+        "mesh_node_only_label": "Alleen Mesh-knooppunt",
+        "allow_astro_node_label": "Astro Node toestaan",
+        "allow_astro_node_desc": "Deze modus stelt uw Astro Nodes in staat om verbinding te maken met uw thuisnetwerk en dit als uitgangsknooppunt te gebruiken. Netwerkfuncties zoals Tailscale en ZeroTier zijn echter niet beschikbaar in deze modus.",
+        "mesh_node_only_desc": "In deze modus kunnen alle Astro Nodes geen verbinding maken met uw thuisnetwerk. U kunt de Mesh nodes nog steeds gebruiken met AstroMesh. Daarnaast kunt u andere netwerkfuncties zoals Tailscale en ZeroTier gebruiken.",
+        "mesh_node_only_tips": "Alle Astro Nodes zijn momenteel geblokkeerd voor toegang tot uw thuisnetwerk van deze Hoofdrouter."
     },
     "menu_astromesh": "AstroMesh"
 }
