@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: this mode extends the home network to remote sites using AstroWarp.",
         "mesh_node_label": "Mesh Node",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Select the mode for this router"
+        "select_router_mode_label": "Select the mode for this router",
+        "add_nodes_via_pairing_code_label": "Add nodes via Pairing Code",
+        "add_nodes_via_wifi_scan_label": "Add nodes via Wi-Fi Scan",
+        "add_nodes_via_pairing_code_tips": "Generate a pairing code and add mesh nodes by entering it directly on your AstroMesh devices.",
+        "add_nodes_via_wifi_scan_tips": "Scan for nearby Mesh Nodes using Wi-Fi. Make sure the router has AstroMesh enabled and is working on Mesh Nodes mode."
     },
     "menu_astromesh": "AstroMesh"
 }
