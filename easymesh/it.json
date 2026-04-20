@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "Scansiona i nodi Mesh vicini utilizzando il Wi-Fi. Assicurati che il router abbia AstroMesh abilitato e funzioni in modalità Nodi Mesh.",
         "add_mesh_nodes_tips": "Aggiungi nodi mesh alla tua rete AstroMesh ed espandi la copertura Wi-Fi a casa e in viaggio.",
         "this_router_mode_title": "Modalità di Questo Router: {mode}",
-        "main_router_mode_tips": "Gli Astro Nodes attualmente hanno accesso alla tua rete domestica tramite questo Router Principale, utilizzandolo come nodo di uscita."
+        "main_router_mode_tips": "Gli Astro Nodes attualmente hanno accesso alla tua rete domestica tramite questo Router Principale, utilizzandolo come nodo di uscita.",
+        "astro_node_switch": "Astro Node Switch",
+        "mesh_node_only_label": "Solo Nodo Mesh",
+        "allow_astro_node_label": "允许 Astro 节点",
+        "allow_astro_node_desc": "Questa modalità consente ai tuoi Astro Nodes di connettersi alla tua rete domestica e di utilizzarla come nodo di uscita. Tuttavia, funzionalità di rete come Tailscale e ZeroTier non sono disponibili in questa modalità.",
+        "mesh_node_only_desc": "In questa modalità, tutti i nodi Astro non possono connettersi alla tua rete domestica. Puoi comunque utilizzare i nodi Mesh con AstroMesh. Inoltre, puoi utilizzare altre funzionalità di rete come Tailscale e ZeroTier.",
+        "mesh_node_only_tips": "Tutti i nodi Astro sono attualmente bloccati dall'accesso alla tua rete domestica di questo Router Principale.",
+        "allow_astro_node_tips": "Gli Astro Nodes attualmente hanno accesso alla tua rete domestica tramite questo Router Principale, utilizzandolo come nodo di uscita."
     },
     "menu_astromesh": "AstroMesh"
 }
