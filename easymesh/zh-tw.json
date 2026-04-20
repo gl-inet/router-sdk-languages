@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "使用Wi-Fi掃描附近的Mesh節點。請確保路由器已啟用AstroMesh並處於Mesh節點模式運行。",
         "add_mesh_nodes_tips": "將網狀節點加入您的AstroMesh網絡，無論在家或旅行中都能擴展Wi-Fi覆蓋範圍。",
         "this_router_mode_title": "此路由器的模式：{mode}",
-        "main_router_mode_tips": "Astro Nodes 目前透過此主路由器存取您的家庭網路，將其作為出口節點。"
+        "main_router_mode_tips": "Astro Nodes 目前透過此主路由器存取您的家庭網路，將其作為出口節點。",
+        "astro_node_switch": "Astro 節點切換",
+        "allow_astro_node_tips": "Astro Nodes 目前透過此主路由器存取您的家庭網路，將其作為出口節點。",
+        "mesh_node_only_label": "僅限 Mesh 節點",
+        "allow_astro_node_label": "允許 Astro Node",
+        "allow_astro_node_desc": "此模式允許您的 Astro 節點連接到您的家庭網絡並將其用作出口節點。然而，在此模式下，Tailscale 和 ZeroTier 等網絡功能不可用。",
+        "mesh_node_only_desc": "在此模式下，所有Astro節點都無法連接到您的家庭網絡。您仍然可以使用AstroMesh的Mesh節點。此外，您還可以使用其他網絡功能，如Tailscale和ZeroTier。",
+        "mesh_node_only_tips": "所有Astro節點目前被阻止訪問此主路由器的家庭網絡。"
     },
     "menu_astromesh": "AstroMesh"
 }
