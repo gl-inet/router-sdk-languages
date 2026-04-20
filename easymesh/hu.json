@@ -126,7 +126,14 @@
         "mesh_node_only_label": "Csomópont csak",
         "allow_astro_node_label": "Engedélyezze az Astro Node-ot",
         "allow_astro_node_desc": "Ez a mód lehetővé teszi, hogy az Astro csomópontjaid csatlakozzanak az otthoni hálózatodhoz, és azt használják kilépési csomópontként. Azonban ebben a módban a Tailscale és a ZeroTier hálózati funkciók nem érhetők el.",
-        "mesh_node_only_tips": "Az összes Astro Node jelenleg blokkolva van a fő router otthoni hálózatához való hozzáférés elől."
+        "mesh_node_only_tips": "Az összes Astro Node jelenleg blokkolva van a fő router otthoni hálózatához való hozzáférés elől.",
+        "join_by_wifi_scan_label": "Wi-Fi Scan-nel való csatlakozás",
+        "join_by_wifi_scan_tips": "Kérjük, lépjen be a Fő Router admin paneljába, és végezze el a Csomópontok hozzáadása Wi-Fi szkenneléssel az AstroMesh menüoldalon.",
+        "using_pairing_code_title": "Párosítási kód használata",
+        "using_other_methods_title": "Egyéb módszerek használata",
+        "join_by_ethernet_cable_label": "Ethernet kábellel csatlakozás",
+        "enter_main_router_pairing_code_label": "Kérjük, adja meg a fő router által generált párosítási kódot.",
+        "join_by_ethernet_cable_tips": "Kérjük, csatlakoztassa a Fő Router LAN portját ehhez a Mesh Node LAN portjához egy Ethernet kábellel."
     },
     "menu_astromesh": "AstroMesh"
 }
