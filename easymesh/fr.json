@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode} : ce mode étend le réseau domestique aux sites distants en utilisant AstroWarp.",
         "mesh_node_label": "Nœud Maillage",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Sélectionnez le mode pour ce routeur"
+        "select_router_mode_label": "Sélectionnez le mode pour ce routeur",
+        "add_nodes_via_pairing_code_label": "Ajouter des nœuds via le code d'appairage",
+        "add_nodes_via_wifi_scan_label": "Ajouter des nœuds via le scan Wi-Fi",
+        "add_nodes_via_pairing_code_tips": "Générez un code d'appairage et ajoutez des nœuds maillés en le saisissant directement sur vos appareils AstroMesh.",
+        "add_nodes_via_wifi_scan_tips": "Recherchez les nœuds Mesh à proximité en utilisant le Wi-Fi. Assurez-vous que le routeur a AstroMesh activé et fonctionne en mode Nœuds Mesh."
     },
     "menu_astromesh": "AstroMesh"
 }
