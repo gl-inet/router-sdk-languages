@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: este modo extiende la red doméstica a sitios remotos utilizando AstroWarp.",
         "mesh_node_label": "Nodo de Malla",
         "astro_node_label": "Nodo Astro",
-        "select_router_mode_label": "Seleccione el modo para este router"
+        "select_router_mode_label": "Seleccione el modo para este router",
+        "add_nodes_via_pairing_code_label": "Agregar nodos mediante código de emparejamiento",
+        "add_nodes_via_wifi_scan_label": "Agregar nodos mediante escaneo Wi-Fi",
+        "add_nodes_via_pairing_code_tips": "Genera un código de emparejamiento y añade nodos de malla introduciéndolo directamente en tus dispositivos AstroMesh.",
+        "add_nodes_via_wifi_scan_tips": "Escanea los nodos Mesh cercanos utilizando Wi-Fi. Asegúrate de que el router tenga AstroMesh habilitado y esté funcionando en modo Nodos Mesh."
     },
     "menu_astromesh": "AstroMesh"
 }
