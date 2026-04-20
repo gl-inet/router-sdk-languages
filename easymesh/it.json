@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: questa modalità estende la rete domestica a siti remoti utilizzando AstroWarp.",
         "mesh_node_label": "Nodo Mesh",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Seleziona la modalità per questo router"
+        "select_router_mode_label": "Seleziona la modalità per questo router",
+        "add_nodes_via_pairing_code_label": "通过配对码添加节点",
+        "add_nodes_via_wifi_scan_label": "Aggiungi nodi tramite Scansione Wi-Fi",
+        "add_nodes_via_pairing_code_tips": "Genera un codice di abbinamento e aggiungi nodi mesh inserendolo direttamente sui tuoi dispositivi AstroMesh.",
+        "add_nodes_via_wifi_scan_tips": "Scansiona i nodi Mesh vicini utilizzando il Wi-Fi. Assicurati che il router abbia AstroMesh abilitato e funzioni in modalità Nodi Mesh."
     },
     "menu_astromesh": "AstroMesh"
 }
