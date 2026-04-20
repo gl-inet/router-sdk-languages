@@ -126,7 +126,14 @@
         "allow_astro_node_label": "Permitir Nodo Astro",
         "allow_astro_node_desc": "Este modo permite que tus Astro Nodes se conecten a tu red doméstica y la utilicen como nodo de salida. Sin embargo, las funciones de red como Tailscale y ZeroTier no están disponibles en este modo.",
         "mesh_node_only_tips": "Todos los nodos de Astro están actualmente bloqueados para acceder a su red doméstica de este Router Principal.",
-        "mesh_node_only_desc": "En este modo, todos los nodos Astro no pueden conectarse a su red doméstica. Aún puede utilizar los nodos Mesh con AstroMesh. Además, puede utilizar otras funciones de red como Tailscale y ZeroTier."
+        "mesh_node_only_desc": "En este modo, todos los nodos Astro no pueden conectarse a su red doméstica. Aún puede utilizar los nodos Mesh con AstroMesh. Además, puede utilizar otras funciones de red como Tailscale y ZeroTier.",
+        "join_by_wifi_scan_label": "Unirse mediante escaneo de Wi-Fi",
+        "join_by_wifi_scan_tips": "Acceda al panel de administración de su Router Principal y realice la opción \"Agregar nodos mediante Escaneo Wi-Fi\" en la página del menú AstroMesh.",
+        "using_pairing_code_title": "Usando el Código de Emparejamiento",
+        "using_other_methods_title": "Usando otros métodos",
+        "join_by_ethernet_cable_label": "Unirse por cable Ethernet",
+        "enter_main_router_pairing_code_label": "Por favor, ingrese el código de emparejamiento generado por su Router Principal.",
+        "join_by_ethernet_cable_tips": "Por favor, conecte el puerto LAN del Router Principal al puerto LAN de este Nodo Mesh utilizando un cable Ethernet."
     },
     "menu_astromesh": "AstroMesh"
 }
