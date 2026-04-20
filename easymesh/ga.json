@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "Scanáil do Mhóid Mheascacha in aice láimhe ag baint úsáide as Wi-Fi. Déan cinnte go bhfuil AstroMesh cumasaithe ar an ródaire agus go bhfuil sé ag obair i mód Móid Mheascacha.",
         "add_mesh_nodes_tips": "Cuir nóid mhóilín le do líonra AstroMesh, agus leathnaigh raon Wi-Fi sa bhaile agus agus tú ag taisteal.",
         "this_router_mode_title": "Mód an Ródaire Seo: {mode}",
-        "main_router_mode_tips": "Tá rochtain ag nóid Astro ar do líonra baile faoi láthair tríd an bPríomh-Ródaire seo, ag úsáid mar nód scoir é."
+        "main_router_mode_tips": "Tá rochtain ag nóid Astro ar do líonra baile faoi láthair tríd an bPríomh-Ródaire seo, ag úsáid mar nód scoir é.",
+        "astro_node_switch": "Astro Nód Aistriú",
+        "allow_astro_node_tips": "Tá rochtain ag nóid Astro ar do líonra baile faoi láthair tríd an bPríomh-Ródaire seo, ag úsáid mar nód scoir é.",
+        "mesh_node_only_label": "Nód Gréasáin Amháin",
+        "allow_astro_node_label": "Ceadaigh Astro Node",
+        "allow_astro_node_desc": "Tugann an mód seo cead do do Nóid Astro ceangal a dhéanamh le do líonra baile agus é a úsáid mar an nód imeachta. Mar sin féin, ní bhíonn gnéithe líonrúcháin ar nós Tailscale agus ZeroTier ar fáil sa mhodh seo.",
+        "mesh_node_only_desc": "Sa mhód seo, ní féidir le haon Astro Nód ceangal a dhéanamh le do líonra baile. Is féidir leat na nóid Mheis a úsáid fós le AstroMesh. Ina theannta sin, is féidir leat gnéithe líonrúcháin eile a úsáid cosúil le Tailscale agus ZeroTier.",
+        "mesh_node_only_tips": "Tá gach Nód Astro faoi bhlocadh faoi láthair ó rochtain a fháil ar do líon baile den Phríomh-Ródaire seo."
     },
     "menu_astromesh": "AstroMesh"
 }
