@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: このモードはAstroWarpを使用して、ホームネットワークをリモートサイトに拡張します。",
         "mesh_node_label": "メッシュノード",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "このルーターのモードを選択してください"
+        "select_router_mode_label": "このルーターのモードを選択してください",
+        "add_nodes_via_pairing_code_label": "ペアリングコードでノードを追加",
+        "add_nodes_via_wifi_scan_label": "Wi-Fiスキャンでノードを追加",
+        "add_nodes_via_pairing_code_tips": "ペアリングコードを生成し、AstroMeshデバイスで直接入力してメッシュノードを追加します。",
+        "add_nodes_via_wifi_scan_tips": "近くのMeshノードをWi-Fiでスキャンします。ルーターでAstroMeshが有効化され、Meshノードモードで動作していることを確認してください。"
     },
     "menu_astromesh": "AstroMesh"
 }
