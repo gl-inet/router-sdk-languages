@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}：此模式使用AstroWarp将家庭网络扩展到远程站点。",
         "mesh_node_label": "Mesh节点",
         "astro_node_label": "Astro 节点",
-        "select_router_mode_label": "选择此路由器的模式"
+        "select_router_mode_label": "选择此路由器的模式",
+        "add_nodes_via_pairing_code_label": "通过配对码添加节点",
+        "add_nodes_via_wifi_scan_label": "通过Wi-Fi扫描添加节点",
+        "add_nodes_via_pairing_code_tips": "生成配对码，并在您的AstroMesh设备上直接输入以添加网格节点。",
+        "add_nodes_via_wifi_scan_tips": "扫描附近的Mesh节点使用Wi-Fi。请确保路由器已启用AstroMesh并工作在Mesh节点模式下。"
     },
     "menu_astromesh": "AstroMesh"
 }
