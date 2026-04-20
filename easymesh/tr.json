@@ -126,7 +126,14 @@
         "allow_astro_node_desc": "Bu mod, Astro Düğümlerinizin ev ağınıza bağlanmasına ve onu çıkış düğümü olarak kullanmasına olanak tanır. Ancak, Tailscale ve ZeroTier gibi ağ özellikleri bu modda kullanılamaz.",
         "mesh_node_only_desc": "Bu modda, tüm Astro Düğümleri ev ağınıza bağlanamaz. AstroMesh ile Mesh düğümlerini kullanmaya devam edebilirsiniz. Ayrıca Tailscale ve ZeroTier gibi diğer ağ özelliklerini de kullanabilirsiniz.",
         "mesh_node_only_tips": "Tüm Astro Düğümleri şu anda bu Ana Yönlendiricinin ev ağınıza erişimden engellenmiştir.",
-        "allow_astro_node_tips": "Astro Düğümleri şu anda bu Ana Yönlendiriciyi çıkış düğümü olarak kullanarak ev ağınıza erişim sağlıyor."
+        "allow_astro_node_tips": "Astro Düğümleri şu anda bu Ana Yönlendiriciyi çıkış düğümü olarak kullanarak ev ağınıza erişim sağlıyor.",
+        "join_by_wifi_scan_label": "Wi-Fi Taraması ile Katıl",
+        "using_pairing_code_title": "Eşleştirme Kodunu Kullanma",
+        "using_other_methods_title": "Diğer Yöntemleri Kullanma",
+        "join_by_ethernet_cable_label": "Ethernet Kablosu ile Bağlan",
+        "enter_main_router_pairing_code_label": "Lütfen Ana Yönlendiriciniz tarafından oluşturulan eşleştirme kodunu girin.",
+        "join_by_wifi_scan_tips": "Lütfen Ana Yönlendiricinizin yönetim paneline erişin ve AstroMesh menü sayfasında Wi-Fi Tarama ile Düğüm Ekle işlemini gerçekleştirin.",
+        "join_by_ethernet_cable_tips": "Lütfen Ana Yönlendiricinin LAN portunu bir Ethernet kablosu kullanarak bu Mesh Düğümünün LAN portuna bağlayın."
     },
     "menu_astromesh": "AstroMesh"
 }
