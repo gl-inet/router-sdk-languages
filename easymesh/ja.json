@@ -116,7 +116,9 @@
         "add_nodes_via_pairing_code_label": "ペアリングコードでノードを追加",
         "add_nodes_via_wifi_scan_label": "Wi-Fiスキャンでノードを追加",
         "add_nodes_via_pairing_code_tips": "ペアリングコードを生成し、AstroMeshデバイスで直接入力してメッシュノードを追加します。",
-        "add_nodes_via_wifi_scan_tips": "近くのMeshノードをWi-Fiでスキャンします。ルーターでAstroMeshが有効化され、Meshノードモードで動作していることを確認してください。"
+        "add_nodes_via_wifi_scan_tips": "近くのMeshノードをWi-Fiでスキャンします。ルーターでAstroMeshが有効化され、Meshノードモードで動作していることを確認してください。",
+        "add_mesh_nodes_tips": "AstroMeshネットワークにメッシュノードを追加し、自宅や旅行中にWi-Fiカバレッジを拡大します。",
+        "this_router_mode_title": "このルーターのモード: {mode}"
     },
     "menu_astromesh": "AstroMesh"
 }
