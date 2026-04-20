@@ -126,7 +126,14 @@
         "allow_astro_node_desc": "Questa modalità consente ai tuoi Astro Nodes di connettersi alla tua rete domestica e di utilizzarla come nodo di uscita. Tuttavia, funzionalità di rete come Tailscale e ZeroTier non sono disponibili in questa modalità.",
         "mesh_node_only_desc": "In questa modalità, tutti i nodi Astro non possono connettersi alla tua rete domestica. Puoi comunque utilizzare i nodi Mesh con AstroMesh. Inoltre, puoi utilizzare altre funzionalità di rete come Tailscale e ZeroTier.",
         "mesh_node_only_tips": "Tutti i nodi Astro sono attualmente bloccati dall'accesso alla tua rete domestica di questo Router Principale.",
-        "allow_astro_node_tips": "Gli Astro Nodes attualmente hanno accesso alla tua rete domestica tramite questo Router Principale, utilizzandolo come nodo di uscita."
+        "allow_astro_node_tips": "Gli Astro Nodes attualmente hanno accesso alla tua rete domestica tramite questo Router Principale, utilizzandolo come nodo di uscita.",
+        "join_by_wifi_scan_label": "通过Wi-Fi扫描加入",
+        "using_pairing_code_title": "使用配对码",
+        "using_other_methods_title": "Utilizzo di Altri Metodi",
+        "join_by_ethernet_cable_label": "通过以太网电缆连接",
+        "enter_main_router_pairing_code_label": "Inserisci il codice di abbinamento generato dal tuo Router Principale.",
+        "join_by_wifi_scan_tips": "Accedi al pannello di amministrazione del tuo Router Principale ed esegui l'aggiunta di nodi tramite Scansione Wi-Fi nella pagina del menu AstroMesh.",
+        "join_by_ethernet_cable_tips": "Si prega di collegare la porta LAN del Router Principale alla porta LAN di questo Nodo Mesh utilizzando un cavo Ethernet."
     },
     "menu_astromesh": "AstroMesh"
 }
