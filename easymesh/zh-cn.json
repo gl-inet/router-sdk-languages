@@ -126,7 +126,14 @@
         "allow_astro_node_label": "允许 Astro Node",
         "allow_astro_node_desc": "此模式允许您的Astro节点连接到家庭网络并将其用作出口节点。然而，在此模式下，Tailscale和ZeroTier等网络功能不可用。",
         "mesh_node_only_desc": "在此模式下，所有Astro节点都无法连接到您的家庭网络。您仍然可以使用Mesh节点与AstroMesh。此外，您还可以使用其他网络功能，如Tailscale和ZeroTier。",
-        "mesh_node_only_tips": "所有Astro节点目前均被阻止访问此主路由器的家庭网络。"
+        "mesh_node_only_tips": "所有Astro节点目前均被阻止访问此主路由器的家庭网络。",
+        "join_by_wifi_scan_label": "通过Wi-Fi扫描加入",
+        "using_pairing_code_title": "使用配对码",
+        "using_other_methods_title": "使用其他方法",
+        "join_by_ethernet_cable_label": "通过以太网线连接",
+        "enter_main_router_pairing_code_label": "请输入您主路由器生成的配对码。",
+        "join_by_wifi_scan_tips": "请访问您主路由器的管理面板，并在AstroMesh菜单页面上执行“通过Wi-Fi扫描添加节点”操作。",
+        "join_by_ethernet_cable_tips": "请使用以太网电缆将主路由器的LAN端口连接到此Mesh节点的LAN端口。"
     },
     "menu_astromesh": "AstroMesh"
 }
