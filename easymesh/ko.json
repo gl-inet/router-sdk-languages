@@ -119,7 +119,14 @@
         "add_nodes_via_wifi_scan_tips": "주변의 메시 노드를 Wi-Fi로 검색합니다. 라우터에 AstroMesh가 활성화되어 있고 메시 노드 모드에서 작동 중인지 확인하세요.",
         "add_mesh_nodes_tips": "AstroMesh 네트워크에 메시 노드를 추가하여 집에서나 여행 중에도 Wi-Fi 커버리지를 확장하세요.",
         "this_router_mode_title": "이 라우터의 모드: {mode}",
-        "main_router_mode_tips": "Astro 노드는 현재 이 메인 라우터를 출구 노드로 사용하여 귀하의 홈 네트워크에 접근할 수 있습니다."
+        "main_router_mode_tips": "Astro 노드는 현재 이 메인 라우터를 출구 노드로 사용하여 귀하의 홈 네트워크에 접근할 수 있습니다.",
+        "astro_node_switch": "Astro 노드 스위치",
+        "mesh_node_only_label": "메시 노드 전용",
+        "allow_astro_node_label": "Astro 노드 허용",
+        "allow_astro_node_desc": "이 모드를 사용하면 Astro 노드가 홈 네트워크에 연결하여 이를 출구 노드로 사용할 수 있습니다. 그러나 이 모드에서는 Tailscale 및 ZeroTier와 같은 네트워킹 기능을 사용할 수 없습니다.",
+        "mesh_node_only_desc": "이 모드에서는 모든 Astro 노드가 귀하의 홈 네트워크에 연결할 수 없습니다. 여전히 AstroMesh와 함께 메시 노드를 사용할 수 있습니다. 또한 Tailscale 및 ZeroTier와 같은 다른 네트워킹 기능을 사용할 수 있습니다.",
+        "mesh_node_only_tips": "이 메인 라우터의 홈 네트워크에 대한 모든 Astro 노드의 접근이 현재 차단되었습니다.",
+        "allow_astro_node_tips": "Astro 노드는 현재 이 메인 라우터를 출구 노드로 사용하여 귀하의 홈 네트워크에 접근할 수 있습니다."
     },
     "menu_astromesh": "AstroMesh"
 }
