@@ -112,7 +112,11 @@
         "astro_node_tips": "{astroNode}: этот режим расширяет домашнюю сеть до удаленных узлов с помощью AstroWarp.",
         "mesh_node_label": "Mesh Node",
         "astro_node_label": "Astro Node",
-        "select_router_mode_label": "Выберите режим для этого маршрутизатора"
+        "select_router_mode_label": "Выберите режим для этого маршрутизатора",
+        "add_nodes_via_pairing_code_label": "通过配对码添加节点",
+        "add_nodes_via_wifi_scan_label": "Добавить узлы через сканирование Wi-Fi",
+        "add_nodes_via_pairing_code_tips": "Сгенерируйте код сопряжения и добавьте mesh-узлы, введя его непосредственно на ваших устройствах AstroMesh.",
+        "add_nodes_via_wifi_scan_tips": "Сканирование ближайших узлов Mesh с использованием Wi-Fi. Убедитесь, что на маршрутизаторе включена функция AstroMesh и он работает в режиме узлов Mesh."
     },
     "menu_astromesh": "AstroMesh"
 }
