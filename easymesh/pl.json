@@ -126,7 +126,14 @@
         "allow_astro_node_desc": "Ten tryb umożliwia Twoim węzłom Astro łączenie się z siecią domową i używanie jej jako węzła wyjściowego. Jednak funkcje sieciowe, takie jak Tailscale i ZeroTier, nie są dostępne w tym trybie.",
         "mesh_node_only_desc": "W tym trybie wszystkie węzły Astro nie mogą połączyć się z Twoją siecią domową. Nadal możesz używać węzłów Mesh z AstroMesh. Dodatkowo możesz korzystać z innych funkcji sieciowych, takich jak Tailscale i ZeroTier.",
         "mesh_node_only_tips": "Wszystkie węzły Astro są obecnie zablokowane przed dostępem do Twojej domowej sieci tego głównego routera.",
-        "allow_astro_node_tips": "Węzły Astro mają obecnie dostęp do Twojej domowej sieci za pośrednictwem tego Głównego Routera, wykorzystując go jako węzeł wyjściowy."
+        "allow_astro_node_tips": "Węzły Astro mają obecnie dostęp do Twojej domowej sieci za pośrednictwem tego Głównego Routera, wykorzystując go jako węzeł wyjściowy.",
+        "join_by_wifi_scan_label": "Dołącz przez skanowanie Wi-Fi",
+        "using_pairing_code_title": "Używając kodu parowania",
+        "using_other_methods_title": "Używanie innych metod",
+        "join_by_ethernet_cable_label": "Połączenie przez kabel Ethernet",
+        "enter_main_router_pairing_code_label": "Wprowadź kod parowania wygenerowany przez Twój główny router.",
+        "join_by_wifi_scan_tips": "Proszę uzyskać dostęp do panelu administracyjnego głównego ruteru i wykonać opcję \"Dodaj węzły poprzez skanowanie Wi-Fi\" na stronie menu AstroMesh.",
+        "join_by_ethernet_cable_tips": "Proszę podłączyć port LAN głównego routera do portu LAN tego węzła Mesh za pomocą kabla Ethernetowego."
     },
     "menu_astromesh": "AstroMesh"
 }
