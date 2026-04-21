@@ -134,7 +134,9 @@
         "enter_main_router_pairing_code_label": "Wprowadź kod parowania wygenerowany przez Twój główny router.",
         "join_by_wifi_scan_tips": "Proszę uzyskać dostęp do panelu administracyjnego głównego ruteru i wykonać opcję \"Dodaj węzły poprzez skanowanie Wi-Fi\" na stronie menu AstroMesh.",
         "join_by_ethernet_cable_tips": "Proszę podłączyć port LAN głównego routera do portu LAN tego węzła Mesh za pomocą kabla Ethernetowego.",
-        "nodes_title": "Węzły"
+        "nodes_title": "Węzły",
+        "mesh_node_mode_tips": "Urządzenie jest obecnie w trybie węzła Mesh. Możesz zalogować się do panelu administracyjnego głównego routera, aby nim zarządzać.",
+        "mesh_node_mode_tips2": "Gdy zabierzesz urządzenie poza swoją domową sieć, automatycznie przełączy się ono w tryb Astro Node."
     },
     "menu_astromesh": "AstroMesh"
 }
