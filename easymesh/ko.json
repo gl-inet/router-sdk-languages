@@ -134,7 +134,9 @@
         "enter_main_router_pairing_code_label": "메인 라우터에서 생성된 페어링 코드를 입력하세요.",
         "join_by_wifi_scan_tips": "메인 라우터의 관리 패널에 접속하여 AstroMesh 메뉴 페이지에서 Wi-Fi 스캔을 통한 노드 추가를 수행하세요.",
         "join_by_ethernet_cable_tips": "메인 라우터의 LAN 포트를 이 메시 노드의 LAN 포트에 이더넷 케이블로 연결해 주세요.",
-        "nodes_title": "노드"
+        "nodes_title": "노드",
+        "mesh_node_mode_tips": "현재 장치는 Mesh 노드 모드입니다. 메인 라우터의 관리자 패널에 로그인하여 관리할 수 있습니다.",
+        "mesh_node_mode_tips2": "장치를 가정 네트워크 외부로 가져가면 자동으로 Astro Node 모드로 전환됩니다."
     },
     "menu_astromesh": "AstroMesh"
 }
