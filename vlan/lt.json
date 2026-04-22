@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "Potinklio adresas konfliktuoja su „{target}“.",
         "err_dhcp_params_invalid": "DHCP telkinio, nuomos laiko arba su tinklo tarpuvarte/„tinklo kauke – „netmask““ susiję DHCP parametrai yra negalimi.",
         "tip": "Sukurkite papildomus „VLAN“ tinklus, kad būtų galima izoliuoti skirtingų tipų įrenginius ar svečių srautą.",
-        "dhcp_tip": "DHCP serveris automatiškai priskiria IP adresus ir kitus ryšio parametrus klientų įrenginiams. Jei DHCP serveris yra išjungtas, klientų įrenginių tinklo nustatymai turės būti konfigūruojami rankiniu būdu."
+        "dhcp_tip": "DHCP serveris automatiškai priskiria IP adresus ir kitus ryšio parametrus klientų įrenginiams. Jei DHCP serveris yra išjungtas, klientų įrenginių tinklo nustatymai turės būti konfigūruojami rankiniu būdu.",
+        "wan_access_control_label": "WAN prieigos kontrolė",
+        "wan_access_unrestricted": "Neribota",
+        "wan_access_tip_unrestricted": "Neribota: Leidžia šiam potinkliui be apribojimų pasiekti internetą ir kitus WAN pusės potinklius.",
+        "wan_access_tip_block_internet": "Blokuoti interneto prieigą: Blokuoja visą išorinę prieigą, įskaitant internetą ir WAN pusės potinklius.",
+        "wan_access_block_wan_subnet": "Blokuoti WAN potinklį",
+        "wan_access_block_internet": "Blokuoti interneto prieigą",
+        "wan_access_tip_block_wan_subnet": "Blokuoti WAN potinklį: Blokuoja prieigą prie kitų WAN pusės potinklių. Prieiga prie interneto išlieka."
     },
     "menu_vlan": "VLAN"
 }
