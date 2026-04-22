@@ -148,7 +148,9 @@
         "astro_node_switch_mode_title": "Zu {mode}-Modus wechseln",
         "exit_node_mode_selected_tips": "Derzeit verwenden Sie Ihren Hauptrouter als Exit-Knoten, was bedeutet, dass der gesamte Datenverkehr zuerst über Ihr Heimnetzwerk geleitet wird und zeigt, dass Sie Ihre Heim-IP-Adresse verwenden.",
         "traffic_split_mode_selected_tips": "Derzeit befinden Sie sich im Traffic-Split-Modus. Sie können weiterhin über das AstroMesh-Netzwerk auf Ihren Hauptrouter zugreifen, während Ihr restlicher Internetverkehr direkt über die WAN-Schnittstelle geleitet wird.",
-        "traffic_split_mode_tips": "Im Traffic-Split-Modus wird Ihr Heimverkehr zum Hauptrouter zurückgeleitet, während anderer Internetverkehr direkt über die WAN-Schnittstelle geht."
+        "traffic_split_mode_tips": "Im Traffic-Split-Modus wird Ihr Heimverkehr zum Hauptrouter zurückgeleitet, während anderer Internetverkehr direkt über die WAN-Schnittstelle geht.",
+        "enabled_s2s_mode_tips": "Diese Funktion funktioniert nicht, da der TAP-S2S-Modus aktiviert ist.",
+        "enabled_astrowrap_tips": "AstroWrap ist derzeit aktiv, was mit AstroMesh in Konflikt steht. Bitte setzen Sie das AstroWrap-Netzwerk zurück, um fortzufahren."
     },
     "menu_astromesh": "AstroMesh"
 }
