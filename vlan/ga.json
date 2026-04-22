@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "Seoladh fo-líonra ag teacht salach ar \"{target}\".",
         "err_dhcp_params_invalid": "Tá an linn DHCP, an t-am léasa, nó na paraiméadair DHCP a bhaineann leis an ngeata/an masc líonta neamhbhailí.",
         "tip": "Cruthaigh líonraí VLAN breise chun cineálacha éagsúla gléasanna nó trácht cuairteoirí a leithlisiú.",
-        "dhcp_tip": "Soláthraíonn an freastalaí DHCP seoltaí IP agus paraiméadair chumarsáide eile go huathoibríoch do ghléasanna cliant. Má dhíchumasaítear an freastalaí DHCP, beidh ort socruithe líonra an ghléis chliant a chumrú de láimh."
+        "dhcp_tip": "Soláthraíonn an freastalaí DHCP seoltaí IP agus paraiméadair chumarsáide eile go huathoibríoch do ghléasanna cliant. Má dhíchumasaítear an freastalaí DHCP, beidh ort socruithe líonra an ghléis chliant a chumrú de láimh.",
+        "wan_access_unrestricted": "无限制",
+        "wan_access_block_wan_subnet": "阻止WAN子网",
+        "wan_access_block_internet": "阻止互联网访问",
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
+        "wan_access_control_label": "WAN访问控制",
+        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。",
+        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍可用。"
     },
     "menu_vlan": "VLAN"
 }
