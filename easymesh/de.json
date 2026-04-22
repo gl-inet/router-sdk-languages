@@ -143,7 +143,12 @@
         "switch_to_traffic_split_mode_tips": "Sind Sie sicher, dass Sie in den Exit-Knoten-Modus wechseln möchten?",
         "exit_node": "Exit-Knoten",
         "switch_to_exit_node_mode_tips": "Sind Sie sicher, dass Sie in den Split-Modus wechseln möchten?",
-        "astro_node_mode_label": "{mode} Modus"
+        "astro_node_mode_label": "{mode} Modus",
+        "exit_node_mode_tips": "Im Exit-Node-Modus wird der gesamte Datenverkehr vom Astro Node über Ihr Heimnetzwerk geleitet.",
+        "astro_node_switch_mode_title": "Zu {mode}-Modus wechseln",
+        "exit_node_mode_selected_tips": "Derzeit verwenden Sie Ihren Hauptrouter als Exit-Knoten, was bedeutet, dass der gesamte Datenverkehr zuerst über Ihr Heimnetzwerk geleitet wird und zeigt, dass Sie Ihre Heim-IP-Adresse verwenden.",
+        "traffic_split_mode_selected_tips": "Derzeit befinden Sie sich im Traffic-Split-Modus. Sie können weiterhin über das AstroMesh-Netzwerk auf Ihren Hauptrouter zugreifen, während Ihr restlicher Internetverkehr direkt über die WAN-Schnittstelle geleitet wird.",
+        "traffic_split_mode_tips": "Im Traffic-Split-Modus wird Ihr Heimverkehr zum Hauptrouter zurückgeleitet, während anderer Internetverkehr direkt über die WAN-Schnittstelle geht."
     },
     "menu_astromesh": "AstroMesh"
 }
