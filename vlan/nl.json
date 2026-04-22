@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "Subnetadres conflicteert met \"{target}\".",
         "err_dhcp_params_invalid": "Het DHCP-pool, de leasetijd of de DHCP-parameters gerelateerd aan de gateway/netmasker zijn ongeldig.",
         "tip": "Creëer extra VLAN-netwerken om verschillende soorten apparaten of bezoekersverkeer te isoleren.",
-        "dhcp_tip": "De DHCP-server wijst automatisch IP-adressen en andere communicatieparameters toe aan clientapparaten. Als de DHCP-server is uitgeschakeld, moeten de netwerkinstellingen van clientapparaten handmatig worden geconfigureerd."
+        "dhcp_tip": "De DHCP-server wijst automatisch IP-adressen en andere communicatieparameters toe aan clientapparaten. Als de DHCP-server is uitgeschakeld, moeten de netwerkinstellingen van clientapparaten handmatig worden geconfigureerd.",
+        "wan_access_control_label": "WAN-toegangscontrole",
+        "wan_access_unrestricted": "Onbeperkt",
+        "wan_access_block_wan_subnet": "WAN-subnet blokkeren",
+        "wan_access_block_internet": "Internettoegang blokkeren",
+        "wan_access_tip_unrestricted": "Onbeperkt: Staat dit subnet toe om zonder beperkingen toegang te krijgen tot het internet en andere WAN-subnets.",
+        "wan_access_tip_block_wan_subnet": "WAN-subnet blokkeren: Blokkeert de toegang tot andere WAN-subnets. Internettoegang blijft beschikbaar.",
+        "wan_access_tip_block_internet": "Internettoegang blokkeren: Blokkeert alle uitgaande toegang, inclusief het internet en WAN-subnets."
     },
     "menu_vlan": "VLAN"
 }
