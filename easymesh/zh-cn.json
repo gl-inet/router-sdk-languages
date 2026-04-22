@@ -143,7 +143,12 @@
         "exit_node": "退出节点",
         "switch_to_exit_node_mode_tips": "您确定要切换到拆分模式吗？",
         "traffic_split": "流量分割",
-        "astro_node_mode_label": "{mode} 模式"
+        "astro_node_mode_label": "{mode} 模式",
+        "astro_node_switch_mode_title": "切换到 {mode} 模式",
+        "exit_node_mode_tips": "在出口节点模式下，所有来自Astro节点的流量都将通过您的家庭网络路由。",
+        "exit_node_mode_selected_tips": "目前您正在使用您的主路由器作为出口节点，这意味着所有流量都会先通过您的家庭网络路由，显示您正在使用家庭IP地址。",
+        "traffic_split_mode_tips": "在流量分流模式下，您的家庭流量将被路由回主路由器，而其他互联网流量将直接通过WAN接口传输。",
+        "traffic_split_mode_selected_tips": "当前您处于流量分流模式。您仍可通过AstroMesh网络访问您的主路由器，而其他互联网流量将直接通过WAN接口路由。"
     },
     "menu_astromesh": "AstroMesh"
 }
