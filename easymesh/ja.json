@@ -143,7 +143,12 @@
         "exit_node": "終了ノード",
         "switch_to_exit_node_mode_tips": "分割モードに切り替えてもよろしいですか？",
         "traffic_split": "トラフィック分割",
-        "astro_node_mode_label": "{mode} モード"
+        "astro_node_mode_label": "{mode} モード",
+        "astro_node_switch_mode_title": "{mode}モードに切り替え",
+        "exit_node_mode_tips": "出口ノードモードでは、Astro Nodeからのすべてのトラフィックがあなたのホームネットワークを経由してルーティングされます。",
+        "exit_node_mode_selected_tips": "現在、メインルーターを出口ノードとして使用しているため、すべてのトラフィックは最初にホームネットワークを経由し、ホームIPアドレスを使用していることが示されています。",
+        "traffic_split_mode_tips": "トラフィック分割モードでは、ホームトラフィックはメインルーターに戻され、その他のインターネットトラフィックはWANインターフェースを直接通過します。",
+        "traffic_split_mode_selected_tips": "現在、トラフィック分割モードになっています。AstroMeshネットワークを通じてメインルーターにアクセスできますが、その他のインターネットトラフィックはWANインターフェースを介して直接ルーティングされます。"
     },
     "menu_astromesh": "AstroMesh"
 }
