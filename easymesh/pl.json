@@ -143,7 +143,12 @@
         "exit_node": "Węzeł wyjściowy",
         "switch_to_exit_node_mode_tips": "Czy na pewno chcesz przełączyć się w tryb podziału?",
         "traffic_split": "Podział ruchu",
-        "astro_node_mode_label": "{mode} Tryb"
+        "astro_node_mode_label": "{mode} Tryb",
+        "astro_node_switch_mode_title": "Przełącz na tryb {mode}",
+        "exit_node_mode_tips": "W trybie węzła wyjściowego cały ruch z Astro Node jest kierowany przez Twoją sieć domową.",
+        "exit_node_mode_selected_tips": "Obecnie używasz swojego głównego routera jako węzła wyjściowego, co oznacza, że cały ruch jest najpierw kierowany przez Twoją domową sieć, pokazując, że korzystasz z domowego adresu IP.",
+        "traffic_split_mode_tips": "W trybie podziału ruchu, ruch domowy będzie kierowany z powrotem do głównego routera, a pozostały ruch internetowy będzie przechodził bezpośrednio przez interfejs WAN.",
+        "traffic_split_mode_selected_tips": "Obecnie znajdujesz się w trybie podziału ruchu. Nadal możesz uzyskać dostęp do głównego routera za pośrednictwem sieci AstroMesh, a pozostały ruch internetowy będzie kierowany bezpośrednio przez interfejs WAN."
     },
     "menu_astromesh": "AstroMesh"
 }
