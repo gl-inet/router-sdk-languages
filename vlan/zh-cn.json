@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "子网地址与\"{target}\"冲突。",
         "err_dhcp_params_invalid": "DHCP 地址池、租期或与网关/子网掩码相关的 DHCP 参数无效。",
         "tip": "创建额外的VLAN网络以隔离不同类型的设备或访客流量。",
-        "dhcp_tip": "DHCP服务器自动为客户端设备分配IP地址和其他通信参数。如果禁用DHCP服务器，则需要手动配置客户端设备的网络设置。"
+        "dhcp_tip": "DHCP服务器自动为客户端设备分配IP地址和其他通信参数。如果禁用DHCP服务器，则需要手动配置客户端设备的网络设置。",
+        "wan_access_unrestricted": "无限制",
+        "wan_access_control_label": "WAN访问控制",
+        "wan_access_block_wan_subnet": "阻止WAN子网",
+        "wan_access_block_internet": "阻止互联网访问",
+        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。",
+        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍然可用。",
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。"
     },
     "menu_vlan": "VLAN"
 }
