@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "La dirección de subred entra en conflicto con \"{target}\".",
         "err_dhcp_params_invalid": "El grupo DHCP, el tiempo de concesión o los parámetros DHCP relacionados con la puerta de enlace/máscara de red no son válidos.",
         "tip": "Cree redes VLAN adicionales para aislar diferentes tipos de dispositivos o tráfico de visitantes.",
-        "dhcp_tip": "El servidor DHCP asigna automáticamente direcciones IP y otros parámetros de comunicación a los dispositivos cliente. Si el servidor DHCP está deshabilitado, será necesario configurar manualmente los ajustes de red de los dispositivos cliente."
+        "dhcp_tip": "El servidor DHCP asigna automáticamente direcciones IP y otros parámetros de comunicación a los dispositivos cliente. Si el servidor DHCP está deshabilitado, será necesario configurar manualmente los ajustes de red de los dispositivos cliente.",
+        "wan_access_block_wan_subnet": "阻止WAN子网",
+        "wan_access_block_internet": "阻止互联网访问",
+        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网和其他WAN侧子网。",
+        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍然可用。",
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
+        "wan_access_control_label": "WAN访问控制",
+        "wan_access_unrestricted": "无限制"
     },
     "menu_vlan": "VLAN"
 }
