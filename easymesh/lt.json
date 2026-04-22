@@ -143,7 +143,12 @@
         "exit_node": "Išėjimo mazgas",
         "switch_to_exit_node_mode_tips": "Ar tikrai norite perjungti į padalintą veikseną?",
         "traffic_split": "Srauto padalijimas",
-        "astro_node_mode_label": "{veiksena} Veiksena"
+        "astro_node_mode_label": "{veiksena} Veiksena",
+        "exit_node_mode_tips": "Išeinančio mazgo veiksenoje visas srautas iš Astro mazgo yra maršrutizuojamas per jūsų namų tinklą.",
+        "astro_node_switch_mode_title": "Perjungti į {mode} veikseną",
+        "exit_node_mode_selected_tips": "Šiuo metu naudojate savo pagrindinį maršrutizatorių kaip išėjimo mazgą, o tai reiškia, kad visas srautas pirmiausia maršrutizuojamas per jūsų namų tinklą, rodant, kad naudojate savo namų IP adresą.",
+        "traffic_split_mode_tips": "Srauto padalijimo veiksenoje jūsų namų srautas bus maršrutizuojamas atgal į pagrindinį maršrutizatorių, o kitas interneto srautas eis tiesiai per WAN sąsają.",
+        "traffic_split_mode_selected_tips": "Šiuo metu esate srauto padalijimo veiksenoje. Vis tiek galite pasiekti savo pagrindinį maršrutizatorių per AstroMesh tinklą, o kitas jūsų interneto srautas bus tiesiogiai maršrutizuojamas per WAN sąsają."
     },
     "menu_astromesh": "AstroMesh"
 }
