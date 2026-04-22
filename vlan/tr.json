@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "Alt ağ adresi \"{target}\" ile çakışıyor.",
         "err_dhcp_params_invalid": "DHCP havuzu, kira süresi veya ağ geçidi/alt ağ maskesi ile ilgili DHCP parametreleri geçersiz.",
         "tip": "Farklı cihaz türlerini veya ziyaretçi trafiğini izole etmek için ek VLAN ağları oluşturun.",
-        "dhcp_tip": "DHCP sunucusu, istemci cihazlara IP adresleri ve diğer iletişim parametrelerini otomatik olarak atar. DHCP sunucusu devre dışı bırakılırsa, istemci cihaz ağ ayarlarının manuel olarak yapılandırılması gerekecektir."
+        "dhcp_tip": "DHCP sunucusu, istemci cihazlara IP adresleri ve diğer iletişim parametrelerini otomatik olarak atar. DHCP sunucusu devre dışı bırakılırsa, istemci cihaz ağ ayarlarının manuel olarak yapılandırılması gerekecektir.",
+        "wan_access_tip_unrestricted": "Sınırsız: Bu alt ağın herhangi bir kısıtlama olmaksızın internete ve diğer WAN tarafı alt ağlarına erişmesine izin verir.",
+        "wan_access_control_label": "WAN Erişim Kontrolü",
+        "wan_access_unrestricted": "Sınırsız",
+        "wan_access_block_wan_subnet": "WAN Alt Ağını Engelle",
+        "wan_access_block_internet": "İnternet Erişimini Engelle",
+        "wan_access_tip_block_wan_subnet": "WAN Alt Ağını Engelle: Diğer WAN tarafı alt ağlarına erişimi engeller. İnternet erişimi kullanılabilir durumda kalır.",
+        "wan_access_tip_block_internet": "İnternet Erişimini Engelle: İnternet ve WAN tarafı alt ağları dahil tüm giden erişimi engeller."
     },
     "menu_vlan": "VLAN"
 }
