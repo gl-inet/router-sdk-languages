@@ -60,7 +60,8 @@
         "delete_network_confirm_tips": "このネットワークを削除してもよろしいですか？この操作は元に戻せません。関連するすべての設定が消去されます。",
         "radio_configuration_tips": "以下の設定は、すべての{band}ネットワークに適用されます。",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fiは最大160MHzの帯域幅をサポートしています。",
-        "lan_iot_conflict_tips": "{lan}と{iot}の間の競合を避けるため、IoT Wi-Fiは有効化できません。"
+        "lan_iot_conflict_tips": "{lan}と{iot}の間の競合を避けるため、IoT Wi-Fiは有効化できません。",
+        "enable_random_bssid_tips": "此操作将同步所有6GHz频段的随机BSSID设置，Wi-Fi将重新启动以应用这些更改。"
     },
     "menu_wireless": "無線"
 }
