@@ -148,7 +148,9 @@
         "exit_node_mode_selected_tips": "Actualmente estás utilizando tu Router Principal como nodo de salida, lo que significa que todo el tráfico se enruta primero a través de tu red doméstica, mostrando que estás utilizando tu dirección IP de casa.",
         "exit_node_mode_tips": "En modo de nodo de salida, todo el tráfico del Astro Node se enruta a través de su red doméstica.",
         "traffic_split_mode_selected_tips": "Actualmente estás en modo de división de tráfico. Aún puedes acceder a tu Router Principal con la red AstroMesh, y el resto de tu tráfico de Internet se enrutará directamente a través de la interfaz WAN.",
-        "traffic_split_mode_tips": "En el modo de división de tráfico, el tráfico de su hogar se enrutará de vuelta al Router Principal, y el resto del tráfico de Internet pasará directamente a través de la interfaz WAN."
+        "traffic_split_mode_tips": "En el modo de división de tráfico, el tráfico de su hogar se enrutará de vuelta al Router Principal, y el resto del tráfico de Internet pasará directamente a través de la interfaz WAN.",
+        "enabled_s2s_mode_tips": "Esta función no funciona porque el modo TAP-S2S está habilitado.",
+        "enabled_astrowrap_tips": "AstroWrap está actualmente activo, lo que entra en conflicto con AstroMesh. Por favor, restablezca la red AstroWrap para continuar."
     },
     "menu_astromesh": "AstroMesh"
 }
