@@ -138,7 +138,13 @@
         "mesh_node_mode_tips": "Устройство в настоящее время находится в режиме Mesh-узла. Вы можете войти в панель администратора Главного маршрутизатора для управления им.",
         "mesh_node_mode_tips2": "Когда вы выносите устройство за пределы домашней сети, оно автоматически переключается в режим Astro Node.",
         "connection_method_label": "Способ подключения",
-        "connection_quality_label": "Качество соединения"
+        "connection_quality_label": "Качество соединения",
+        "astro_node_switch_mode_title": "Переключиться в режим {mode}",
+        "switch_to_traffic_split_mode_tips": "Вы уверены, что хотите переключиться в режим выходного узла?",
+        "exit_node": "Выходной узел",
+        "switch_to_exit_node_mode_tips": "Вы уверены, что хотите переключиться в режим разделения?",
+        "traffic_split": "流量分割",
+        "astro_node_mode_label": "{mode} Режим"
     },
     "menu_astromesh": "AstroMesh"
 }
