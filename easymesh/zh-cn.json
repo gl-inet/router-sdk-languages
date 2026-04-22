@@ -136,7 +136,10 @@
         "join_by_ethernet_cable_tips": "请使用以太网电缆将主路由器的LAN端口连接到此Mesh节点的LAN端口。",
         "nodes_title": "节点",
         "mesh_node_mode_tips": "设备当前处于Mesh节点模式。您可以登录主路由器的管理面板进行管理。",
-        "mesh_node_mode_tips2": "当您将设备带离家庭网络时，它将自动切换至Astro Node模式。"
+        "mesh_node_mode_tips2": "当您将设备带离家庭网络时，它将自动切换至Astro Node模式。",
+        "connection_method_label": "连接方式",
+        "connection_quality_label": "连接质量",
+        "traffic_split_mode_title": "切换到流量分流模式"
     },
     "menu_astromesh": "AstroMesh"
 }
