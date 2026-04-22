@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "L'indirizzo della subnet è in conflitto con \"{target}\".",
         "err_dhcp_params_invalid": "Il pool DHCP, il tempo di lease o i parametri DHCP relativi al gateway/netmask non sono validi.",
         "tip": "Crea reti VLAN aggiuntive per isolare diversi tipi di dispositivi o traffico dei visitatori.",
-        "dhcp_tip": "Il server DHCP assegna automaticamente indirizzi IP e altri parametri di comunicazione ai dispositivi client. Se il server DHCP è disabilitato, le impostazioni di rete dei dispositivi client dovranno essere configurate manualmente."
+        "dhcp_tip": "Il server DHCP assegna automaticamente indirizzi IP e altri parametri di comunicazione ai dispositivi client. Se il server DHCP è disabilitato, le impostazioni di rete dei dispositivi client dovranno essere configurate manualmente.",
+        "wan_access_control_label": "Controllo accesso WAN",
+        "wan_access_unrestricted": "Senza restrizioni",
+        "wan_access_block_internet": "Blocca accesso a Internet",
+        "wan_access_tip_block_wan_subnet": "Blocca sottorete WAN: Impedisce l'accesso ad altre sottoreti sul lato WAN. L'accesso a Internet rimane disponibile.",
+        "wan_access_block_wan_subnet": "Blocca sottorete WAN",
+        "wan_access_tip_unrestricted": "Senza restrizioni: Consente a questa sottorete di accedere a Internet e ad altre sottoreti sul lato WAN senza restrizioni.",
+        "wan_access_tip_block_internet": "Blocca accesso a Internet: Impedisce tutto l'accesso in uscita, inclusi Internet e le sottoreti sul lato WAN."
     },
     "menu_vlan": "VLAN"
 }
