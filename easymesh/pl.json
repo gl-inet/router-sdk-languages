@@ -148,7 +148,9 @@
         "exit_node_mode_tips": "W trybie węzła wyjściowego cały ruch z Astro Node jest kierowany przez Twoją sieć domową.",
         "exit_node_mode_selected_tips": "Obecnie używasz swojego głównego routera jako węzła wyjściowego, co oznacza, że cały ruch jest najpierw kierowany przez Twoją domową sieć, pokazując, że korzystasz z domowego adresu IP.",
         "traffic_split_mode_tips": "W trybie podziału ruchu, ruch domowy będzie kierowany z powrotem do głównego routera, a pozostały ruch internetowy będzie przechodził bezpośrednio przez interfejs WAN.",
-        "traffic_split_mode_selected_tips": "Obecnie znajdujesz się w trybie podziału ruchu. Nadal możesz uzyskać dostęp do głównego routera za pośrednictwem sieci AstroMesh, a pozostały ruch internetowy będzie kierowany bezpośrednio przez interfejs WAN."
+        "traffic_split_mode_selected_tips": "Obecnie znajdujesz się w trybie podziału ruchu. Nadal możesz uzyskać dostęp do głównego routera za pośrednictwem sieci AstroMesh, a pozostały ruch internetowy będzie kierowany bezpośrednio przez interfejs WAN.",
+        "enabled_s2s_mode_tips": "Ta funkcja nie działa, ponieważ tryb TAP-S2S jest włączony.",
+        "enabled_astrowrap_tips": "AstroWrap jest obecnie aktywny, co koliduje z AstroMesh. Aby kontynuować, zresetuj sieć AstroWrap."
     },
     "menu_astromesh": "AstroMesh"
 }
