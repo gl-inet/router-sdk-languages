@@ -143,7 +143,12 @@
         "exit_node": "Exit Node",
         "traffic_split": "Traffic Split",
         "switch_to_exit_node_mode_tips": "Are you sure you want to switch to split mode?",
-        "astro_node_mode_label": "{mode} Mode"
+        "astro_node_mode_label": "{mode} Mode",
+        "exit_node_mode_selected_tips": "Currently you are using your Main Router as the exit node, which means all the traffic is routed through your home network first, showing that you are using your home IP address.",
+        "exit_node_mode_tips": "In exit node mode, all traffic from the Astro Node is routed through your home network.",
+        "astro_node_switch_mode_title": "Switch to {mode} Mode",
+        "traffic_split_mode_tips": "In traffic split mode, your home traffic will be routed back to the Main Router, and other Internet traffic will go directly through the WAN interface.",
+        "traffic_split_mode_selected_tips": "Currently you are in traffic split mode. You can still access your Main Router with the AstroMesh network, and your other Internet traffic will be routed directly through the WAN interface."
     },
     "menu_astromesh": "AstroMesh"
 }
