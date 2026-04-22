@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "Alhálózati cím ütközik a következővel: \"{target}\".",
         "err_dhcp_params_invalid": "A DHCP-készlet, a bérleti idő vagy az átjáró/alhálózati maszkkal kapcsolatos DHCP-paraméterek érvénytelenek.",
         "tip": "Hozzon létre további VLAN hálózatokat a különböző típusú eszközök vagy látogatói forgalom elkülönítéséhez.",
-        "dhcp_tip": "A DHCP szerver automatikusan IP-címeket és egyéb kommunikációs paramétereket rendel az ügyféleszközökhöz. Ha a DHCP szerver ki van kapcsolva, az ügyféleszközök hálózati beállításait manuálisan kell konfigurálni."
+        "dhcp_tip": "A DHCP szerver automatikusan IP-címeket és egyéb kommunikációs paramétereket rendel az ügyféleszközökhöz. Ha a DHCP szerver ki van kapcsolva, az ügyféleszközök hálózati beállításait manuálisan kell konfigurálni.",
+        "wan_access_unrestricted": "Korlátozás nélküli",
+        "wan_access_block_wan_subnet": "WAN alhálózat blokkolása",
+        "wan_access_block_internet": "Internet-hozzáférés blokkolása",
+        "wan_access_tip_unrestricted": "Korlátozás nélküli: Lehetővé teszi, hogy ez az alhálózat korlátozások nélkül hozzáférjen az internethez és más WAN-oldali alhálózatokhoz.",
+        "wan_access_tip_block_wan_subnet": "WAN alhálózat blokkolása: Blokkolja a hozzáférést más WAN-oldali alhálózatokhoz. Az internet-hozzáférés továbbra is elérhető marad.",
+        "wan_access_tip_block_internet": "Internet-hozzáférés blokkolása: Blokkol minden kimenő hozzáférést, beleértve az internetet és a WAN-oldali alhálózatokat is.",
+        "wan_access_control_label": "WAN hozzáférés-vezérlés"
     },
     "menu_vlan": "VLAN"
 }
