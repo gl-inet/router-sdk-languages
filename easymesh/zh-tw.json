@@ -148,7 +148,9 @@
         "exit_node_mode_tips": "在退出節點模式下，所有來自 Astro 節點的流量都會通過您的家庭網路路由。",
         "exit_node_mode_selected_tips": "目前您正在使用您的主路由器作为出口節點，這意味著所有流量首先會通過您的家庭網絡路由，顯示您正在使用您的家庭IP地址。",
         "traffic_split_mode_tips": "在流量分割模式下，您的家庭流量将回传至主路由器，而其他互联网流量则直接通过WAN接口传输。",
-        "traffic_split_mode_selected_tips": "目前您處於流量分流模式。您仍可透過AstroMesh網絡存取您的主路由器，而其他互聯網流量將直接透過WAN介面路由。"
+        "traffic_split_mode_selected_tips": "目前您處於流量分流模式。您仍可透過AstroMesh網絡存取您的主路由器，而其他互聯網流量將直接透過WAN介面路由。",
+        "enabled_s2s_mode_tips": "此功能无法使用，因为已启用 TAP-S2S 模式。",
+        "enabled_astrowrap_tips": "AstroWrap 目前處於啟用狀態，這與 AstroMesh 衝突。請重置 AstroWrap 網路以繼續操作。"
     },
     "menu_astromesh": "AstroMesh"
 }
