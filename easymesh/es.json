@@ -143,7 +143,12 @@
         "switch_to_traffic_split_mode_tips": "¿Está seguro de que desea cambiar al modo de nodo de salida?",
         "exit_node": "Nodo de Salida",
         "switch_to_exit_node_mode_tips": "¿Está seguro de que desea cambiar al modo dividido?",
-        "astro_node_mode_label": "{modo} Modo"
+        "astro_node_mode_label": "{modo} Modo",
+        "astro_node_switch_mode_title": "Cambiar al modo {mode}",
+        "exit_node_mode_selected_tips": "Actualmente estás utilizando tu Router Principal como nodo de salida, lo que significa que todo el tráfico se enruta primero a través de tu red doméstica, mostrando que estás utilizando tu dirección IP de casa.",
+        "exit_node_mode_tips": "En modo de nodo de salida, todo el tráfico del Astro Node se enruta a través de su red doméstica.",
+        "traffic_split_mode_selected_tips": "Actualmente estás en modo de división de tráfico. Aún puedes acceder a tu Router Principal con la red AstroMesh, y el resto de tu tráfico de Internet se enrutará directamente a través de la interfaz WAN.",
+        "traffic_split_mode_tips": "En el modo de división de tráfico, el tráfico de su hogar se enrutará de vuelta al Router Principal, y el resto del tráfico de Internet pasará directamente a través de la interfaz WAN."
     },
     "menu_astromesh": "AstroMesh"
 }
