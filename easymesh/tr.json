@@ -143,7 +143,12 @@
         "exit_node": "Çıkış Düğümü",
         "switch_to_exit_node_mode_tips": "Bölünmüş moda geçmek istediğinizden emin misiniz?",
         "traffic_split": "Trafik Bölme",
-        "astro_node_mode_label": "{mode} Modu"
+        "astro_node_mode_label": "{mode} Modu",
+        "astro_node_switch_mode_title": "{mod} Moduna Geç",
+        "exit_node_mode_tips": "Çıkış düğümü modunda, Astro Node'dan gelen tüm trafik ev ağınız üzerinden yönlendirilir.",
+        "exit_node_mode_selected_tips": "Şu anda Ana Yönlendiricinizi çıkış düğümü olarak kullanıyorsunuz, bu da tüm trafiğin önce ev ağınızdan geçtiği ve ev IP adresinizi kullandığınız anlamına gelir.",
+        "traffic_split_mode_tips": "Trafik bölme modunda, ev trafiğiniz Ana Yönlendiriciye geri yönlendirilecek ve diğer internet trafiği doğrudan WAN arayüzü üzerinden geçecektir.",
+        "traffic_split_mode_selected_tips": "Şu anda trafik bölme modundasınız. AstroMesh ağı ile Ana Yönlendiricinize erişmeye devam edebilirsiniz ve diğer internet trafiğiniz doğrudan WAN arayüzü üzerinden yönlendirilecektir."
     },
     "menu_astromesh": "AstroMesh"
 }
