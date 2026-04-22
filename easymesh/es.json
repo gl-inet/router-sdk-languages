@@ -138,7 +138,13 @@
         "mesh_node_mode_tips2": "Cuando lleves el dispositivo fuera de tu red doméstica, cambiará automáticamente al modo Astro Node.",
         "mesh_node_mode_tips": "El dispositivo se encuentra actualmente en modo Nodo de Malla. Puede iniciar sesión en el panel de administración del Router Principal para gestionarlo.",
         "connection_method_label": "Método de conexión",
-        "connection_quality_label": "Calidad de la conexión"
+        "connection_quality_label": "Calidad de la conexión",
+        "traffic_split": "División de Tráfico",
+        "astro_node_switch_mode_title": "Cambiar a {mode}",
+        "switch_to_traffic_split_mode_tips": "¿Está seguro de que desea cambiar al modo de nodo de salida?",
+        "exit_node": "Nodo de Salida",
+        "switch_to_exit_node_mode_tips": "¿Está seguro de que desea cambiar al modo dividido?",
+        "astro_node_mode_label": "{modo} Modo"
     },
     "menu_astromesh": "AstroMesh"
 }
