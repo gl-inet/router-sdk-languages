@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "子網地址與\"{target}\"衝突。",
         "err_dhcp_params_invalid": "DHCP 池、租用時間或與閘道/網路遮罩相關的 DHCP 參數無效。",
         "tip": "创建额外的VLAN网络以隔离不同类型的设备或访客流量。",
-        "dhcp_tip": "DHCP伺服器會自動為客戶端裝置分配IP位址和其他通訊參數。如果停用DHCP伺服器，則需要手動配置客戶端裝置的網路設定。"
+        "dhcp_tip": "DHCP伺服器會自動為客戶端裝置分配IP位址和其他通訊參數。如果停用DHCP伺服器，則需要手動配置客戶端裝置的網路設定。",
+        "wan_access_control_label": "WAN 訪問控制",
+        "wan_access_unrestricted": "無限制",
+        "wan_access_block_wan_subnet": "封鎖 WAN 子網",
+        "wan_access_block_internet": "封鎖網際網路訪問",
+        "wan_access_tip_unrestricted": "無限制：允許此子網不受限制地訪問網際網路及其他 WAN 端子網。",
+        "wan_access_tip_block_wan_subnet": "封鎖 WAN 子網：封鎖對其他 WAN 端子網的訪問，但仍可訪問網際網路。",
+        "wan_access_tip_block_internet": "封鎖網際網路訪問：封鎖所有對外訪問，包括網際網路及 WAN 端子網。"
     },
     "menu_vlan": "VLAN"
 }
