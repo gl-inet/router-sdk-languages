@@ -138,7 +138,13 @@
         "mesh_node_mode_tips2": "デバイスを自宅ネットワークの外に持ち出すと、自動的にAstro Nodeモードに切り替わります。",
         "mesh_node_mode_tips": "デバイスは現在Meshノードモードです。メインルーターの管理パネルにログインして管理できます。",
         "connection_method_label": "接続方法",
-        "connection_quality_label": "接続品質"
+        "connection_quality_label": "接続品質",
+        "astro_node_switch_mode_title": "{mode}に切り替える",
+        "switch_to_traffic_split_mode_tips": "終了ノードモードに切り替えてもよろしいですか？",
+        "exit_node": "終了ノード",
+        "switch_to_exit_node_mode_tips": "分割モードに切り替えてもよろしいですか？",
+        "traffic_split": "トラフィック分割",
+        "astro_node_mode_label": "{mode} モード"
     },
     "menu_astromesh": "AstroMesh"
 }
