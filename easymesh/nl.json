@@ -143,7 +143,12 @@
         "exit_node": "Uitgangsknooppunt",
         "switch_to_exit_node_mode_tips": "Weet u zeker dat u naar de splitsmodus wilt overschakelen?",
         "traffic_split": "Verkeerssplitsing",
-        "astro_node_mode_label": "{mode} Modus"
+        "astro_node_mode_label": "{mode} Modus",
+        "exit_node_mode_tips": "In de exit node-modus wordt al het verkeer van de Astro Node via uw thuisnetwerk gerouteerd.",
+        "astro_node_switch_mode_title": "Overschakelen naar {mode} Modus",
+        "exit_node_mode_selected_tips": "Op dit moment gebruikt u uw hoofdrouter als uitgangsknooppunt, wat betekent dat al het verkeer eerst via uw thuisnetwerk wordt gerouteerd, waardoor wordt getoond dat u uw thuis-IP-adres gebruikt.",
+        "traffic_split_mode_tips": "In het verkeerssplitsingsmodus wordt uw thuistraffic teruggeleid naar de hoofdrouter, en ander internettraffic gaat rechtstreeks via de WAN-interface.",
+        "traffic_split_mode_selected_tips": "Momenteel bevindt u zich in de verkeerssplitsingsmodus. U kunt nog steeds toegang krijgen tot uw hoofdrouter via het AstroMesh-netwerk, en uw overige internetverkeer wordt rechtstreeks via de WAN-interface gerouteerd."
     },
     "menu_astromesh": "AstroMesh"
 }
