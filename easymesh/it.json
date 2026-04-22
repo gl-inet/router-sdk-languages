@@ -148,7 +148,9 @@
         "astro_node_switch_mode_title": "Passa alla modalità {mode}",
         "exit_node_mode_selected_tips": "Attualmente stai utilizzando il tuo Router Principale come nodo di uscita, il che significa che tutto il traffico viene instradato prima attraverso la tua rete domestica, mostrando che stai utilizzando il tuo indirizzo IP di casa.",
         "traffic_split_mode_tips": "In modalità di suddivisione del traffico, il traffico domestico verrà instradato nuovamente al Router Principale, mentre il resto del traffico Internet passerà direttamente attraverso l'interfaccia WAN.",
-        "traffic_split_mode_selected_tips": "Attualmente ti trovi in modalità di suddivisione del traffico. Puoi ancora accedere al tuo Router Principale tramite la rete AstroMesh, mentre il resto del traffico Internet verrà instradato direttamente attraverso l'interfaccia WAN."
+        "traffic_split_mode_selected_tips": "Attualmente ti trovi in modalità di suddivisione del traffico. Puoi ancora accedere al tuo Router Principale tramite la rete AstroMesh, mentre il resto del traffico Internet verrà instradato direttamente attraverso l'interfaccia WAN.",
+        "enabled_s2s_mode_tips": "Questa funzione non funziona perché la modalità TAP-S2S è abilitata.",
+        "enabled_astrowrap_tips": "AstroWrap è attualmente attivo, il che è in conflitto con AstroMesh. Per procedere, reimposta la rete AstroWrap."
     },
     "menu_astromesh": "AstroMesh"
 }
