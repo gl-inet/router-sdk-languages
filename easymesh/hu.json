@@ -143,7 +143,12 @@
         "switch_to_traffic_split_mode_tips": "Biztosan át szeretné váltani a kilépési csomópont módra?",
         "exit_node": "Kilépési csomópont",
         "switch_to_exit_node_mode_tips": "Biztosan át szeretné váltani a felosztott módra?",
-        "astro_node_mode_label": "{mode} Mód"
+        "astro_node_mode_label": "{mode} Mód",
+        "astro_node_switch_mode_title": "Váltás {mode} módra",
+        "exit_node_mode_tips": "Kilépési csomópont módban az Astro Node összes forgalma a hálozaton keresztül irányítható.",
+        "exit_node_mode_selected_tips": "Jelenleg a fő routeredet használod kilépési csomópontként, ami azt jelenti, hogy az összes forgalom először az otthoni hálózatodon keresztül irányul, így az otthoni IP-címed jelenik meg.",
+        "traffic_split_mode_tips": "Forgalomszétválasztó módban a házi forgalom visszairányítódik a fő routerre, míg az egyéb internetes forgalom közvetlenül a WAN interfészen keresztül halad tovább.",
+        "traffic_split_mode_selected_tips": "Jelenleg forgalomfelosztó módban vagy. Továbbra is hozzáférhet a fő routeréhez az AstroMesh hálózaton keresztül, és az egyéb internetes forgalma közvetlenül a WAN interfészen keresztül lesz irányítva."
     },
     "menu_astromesh": "AstroMesh"
 }
