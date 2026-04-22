@@ -148,7 +148,9 @@
         "astro_node_switch_mode_title": "Passer en mode {mode}",
         "exit_node_mode_selected_tips": "Actuellement, vous utilisez votre routeur principal comme nœud de sortie, ce qui signifie que tout le trafic est d'abord acheminé via votre réseau domestique, indiquant que vous utilisez l'adresse IP de votre domicile.",
         "traffic_split_mode_tips": "En mode de répartition du trafic, votre trafic domestique sera acheminé vers le routeur principal, tandis que le reste du trafic internet passera directement par l'interface WAN.",
-        "traffic_split_mode_selected_tips": "Actuellement, vous êtes en mode de répartition du trafic. Vous pouvez toujours accéder à votre routeur principal via le réseau AstroMesh, et votre autre trafic Internet sera acheminé directement via l'interface WAN."
+        "traffic_split_mode_selected_tips": "Actuellement, vous êtes en mode de répartition du trafic. Vous pouvez toujours accéder à votre routeur principal via le réseau AstroMesh, et votre autre trafic Internet sera acheminé directement via l'interface WAN.",
+        "enabled_s2s_mode_tips": "Cette fonctionnalité ne fonctionne pas car le mode TAP-S2S est activé.",
+        "enabled_astrowrap_tips": "AstroWrap 当前处于活动状态，这与 AstroMesh 存在冲突。请重置 AstroWrap 网络以继续操作。"
     },
     "menu_astromesh": "AstroMesh"
 }
