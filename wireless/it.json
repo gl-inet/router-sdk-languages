@@ -60,7 +60,8 @@
         "delete_network_confirm_tips": "Sei sicuro di voler eliminare questa rete? Questa azione non può essere annullata e tutte le configurazioni correlate verranno cancellate.",
         "radio_configuration_tips": "La seguente configurazione verrà applicata a tutte le reti {band}.",
         "band_6g_bandwidth_limit_160mhz_tips": "Il Wi-Fi a 6 GHz supporta una larghezza di banda fino a 160 MHz.",
-        "lan_iot_conflict_tips": "Per evitare conflitti tra {lan} e {iot}, il Wi-Fi IoT non può essere attivato."
+        "lan_iot_conflict_tips": "Per evitare conflitti tra {lan} e {iot}, il Wi-Fi IoT non può essere attivato.",
+        "enable_random_bssid_tips": "Questa operazione sincronizzerà le impostazioni BSSID casuali su tutte le bande a 6GHz e il Wi-Fi si riavvierà per applicare queste modifiche."
     },
     "menu_wireless": "Wireless"
 }
