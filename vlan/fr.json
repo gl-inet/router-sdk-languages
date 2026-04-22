@@ -87,7 +87,14 @@
         "err_subnet_conflict_with": "L'adresse du sous-réseau est en conflit avec \"{target}\".",
         "err_dhcp_params_invalid": "Le pool DHCP, la durée de bail ou les paramètres DHCP liés à la passerelle/au masque de sous-réseau sont invalides.",
         "tip": "Créez des réseaux VLAN supplémentaires pour isoler différents types d'appareils ou le trafic des visiteurs.",
-        "dhcp_tip": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication aux appareils clients. Si le serveur DHCP est désactivé, les paramètres réseau des appareils clients devront être configurés manuellement."
+        "dhcp_tip": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication aux appareils clients. Si le serveur DHCP est désactivé, les paramètres réseau des appareils clients devront être configurés manuellement.",
+        "wan_access_unrestricted": "无限制",
+        "wan_access_block_wan_subnet": "阻止WAN子网",
+        "wan_access_block_internet": "阻止互联网访问",
+        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍可用。",
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
+        "wan_access_control_label": "WAN Access Control",
+        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。"
     },
     "menu_vlan": "VLAN"
 }
