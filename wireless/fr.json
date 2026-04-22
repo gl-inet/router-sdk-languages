@@ -60,7 +60,8 @@
         "delete_network_confirm_tips": "Êtes-vous sûr de vouloir supprimer ce réseau ? Cette action est irréversible et toutes les configurations associées seront effacées.",
         "radio_configuration_tips": "La configuration suivante sera appliquée à tous les réseaux {band}.",
         "band_6g_bandwidth_limit_160mhz_tips": "Le Wi-Fi 6 GHz prend en charge une bande passante allant jusqu'à 160 MHz.",
-        "lan_iot_conflict_tips": "Pour éviter un conflit entre {lan} et {iot}, le Wi-Fi IoT ne peut pas être activé."
+        "lan_iot_conflict_tips": "Pour éviter un conflit entre {lan} et {iot}, le Wi-Fi IoT ne peut pas être activé.",
+        "enable_random_bssid_tips": "此操作将同步所有6GHz频段的随机BSSID设置，Wi-Fi将重启以应用这些更改。"
     },
     "menu_wireless": "Réseau sans-fil"
 }
