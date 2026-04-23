@@ -150,7 +150,8 @@
         "traffic_split_mode_tips": "在流量分流模式下，您的家庭流量将被路由回主路由器，而其他互联网流量将直接通过WAN接口传输。",
         "traffic_split_mode_selected_tips": "当前您处于流量分流模式。您仍可通过AstroMesh网络访问您的主路由器，而其他互联网流量将直接通过WAN接口路由。",
         "enabled_s2s_mode_tips": "此功能无法使用，因为已启用 TAP-S2S 模式。",
-        "enabled_astrowrap_tips": "AstroWrap 当前处于活动状态，这与 AstroMesh 存在冲突。请重置 AstroWrap 网络以继续操作。"
+        "enabled_astrowrap_tips": "AstroWrap 当前处于活动状态，这与 AstroMesh 存在冲突。请重置 AstroWrap 网络以继续操作。",
+        "connecting_tips": "正在连接..."
     },
     "menu_astromesh": "AstroMesh"
 }
