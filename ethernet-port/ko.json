@@ -44,7 +44,10 @@
         "network_assignment_tips": "PVID는 태그가 지정되지 않은 트래픽의 기본 네트워크입니다. 태그가 지정되지 않은 장치의 트래픽은 이 네트워크에 할당됩니다.",
         "select_networks": "네트워크 선택",
         "allowed_tagged_networks": "허용된 태그 지정 네트워크",
-        "err_interface_in_lan_mode": "WAN에서 LAN으로 전환할 때 네트워크 케이블을 분리해야 합니다."
+        "err_interface_in_lan_mode": "WAN에서 LAN으로 전환할 때 네트워크 케이블을 분리해야 합니다.",
+        "connection_status": "연결 상태",
+        "connection_link_up": "링크 업",
+        "connection_link_down": "링크 다운"
     },
     "menu_ethernet-port": "이더넷 포트"
 }

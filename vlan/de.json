@@ -27,7 +27,6 @@
         "subnet_tip": "Sie können Subnetze innerhalb der privaten IPv4-Adressbereiche festlegen: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "submit": "Absenden",
         "security_settings": "Sicherheitseinstellungen",
-        "tip": "Verwalten Sie die Netzwerksegmentierung mit VLANs, um den Datenverkehr zu isolieren und die Sicherheit zu erhöhen.",
         "iot_network_unavailable": "IoT-Netzwerk ist derzeit nicht verfügbar, weil ",
         "description": "Beschreibung",
         "optional": "Optional",
@@ -58,7 +57,6 @@
         "router_ip": "Router-IP",
         "router_ip_tip": "Die Router-IP-Adresse ist die Adresse, die Sie in die Adressleiste Ihres Browsers eingeben, um auf die Admin-Seite des Routers zuzugreifen.",
         "dhcp_server": "DHCP-Server",
-        "dhcp_tip": "Aktivieren Sie DHCP, um Geräten in diesem Netzwerk automatisch IP-Adressen zuzuweisen.",
         "start_ip_address": "Start-IP-Adresse",
         "end_ip_address": "End-IP-Adresse",
         "dhcp_range": "DHCP-Bereich",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_guest": "Wenn diese Funktion aktiviert ist, kann das Gastnetzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment zugreifen, in dem sich das übergeordnete Netzwerk befindet.",
         "block_wan_subnets_tip_iot": "Wenn diese Funktion aktiviert ist, kann das IoT-Netzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment zugreifen, in dem sich das übergeordnete Netzwerk befindet.",
         "block_wan_subnets_tip_custom": "Wenn diese Funktion aktiviert ist, kann dieses benutzerdefinierte Subnetz nicht auf das übergeordnete Netzwerk und das Netzwerksegment zugreifen, in dem sich das übergeordnete Netzwerk befindet.",
-        "ipv4_ranges_tip": "Sie können Subnetze innerhalb der privaten IPv4-Adressbereiche festlegen: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "Sie können Subnetze innerhalb der privaten IPv4-Adressbereiche festlegen: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Subnetz-Adresse steht in Konflikt mit \"{target}\".",
+        "err_dhcp_params_invalid": "Der DHCP-Pool, die Leasedauer oder die DHCP-Parameter im Zusammenhang mit Gateway/Netzmaske sind ungültig.",
+        "tip": "Erstellen Sie zusätzliche VLAN-Netzwerke, um verschiedene Gerätetypen oder Besucherverkehr zu isolieren.",
+        "dhcp_tip": "Der DHCP-Server weist Client-Geräten automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen die Netzwerkeinstellungen der Client-Geräte manuell konfiguriert werden.",
+        "wan_access_control_label": "WAN-Zugriffskontrolle",
+        "wan_access_unrestricted": "Uneingeschränkt",
+        "wan_access_block_wan_subnet": "WAN-Subnetz blockieren",
+        "wan_access_block_internet": "Internetzugriff blockieren",
+        "wan_access_tip_unrestricted": "Uneingeschränkt: Erlaubt diesem Subnetz den uneingeschränkten Zugriff auf das Internet und andere WAN-seitige Subnetze.",
+        "wan_access_tip_block_wan_subnet": "WAN-Subnetz blockieren: Blockiert den Zugriff auf andere WAN-seitige Subnetze. Der Internetzugang bleibt verfügbar.",
+        "wan_access_tip_block_internet": "Internetzugriff blockieren: Blockiert den gesamten ausgehenden Datenverkehr, einschließlich des Internets und WAN-seitiger Subnetze."
     },
     "menu_vlan": "VLAN"
 }

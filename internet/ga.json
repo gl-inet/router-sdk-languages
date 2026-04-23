@@ -258,7 +258,9 @@
         "auto_resume_scan_tips": "Tá an tIdirlíon ceangailte. Chun cáilíocht na cumarsáide gan sreang a chinntiú, ní dhéanfaidh an tAthsheoltóir scanadh le haghaidh líonraí atá ar fáil; leanfaidh sé ar aghaidh ag scanadh go huathoibríoch a luaithe a dhícheanglaítear an tIdirlíon. Is féidir leat athcheangal nó aistriú chuig líonra Wi-Fi de láimh.",
         "initializing_tips": "Tá an t-athsheoltóir ag tosú...",
         "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz le bandaleithead suas le 160MHz.",
-        "band_conflict_tips": "Chun nasc a bhaint amach, nuair a bhíonn an athsheachadán cumasaithe, déanfaidh an banda Wi-Fi 5GHz/6GHz a mheaitseáil leis an athsheachadán go huathoibríoch. Mura ndéanann do ghléas athcheangal go huathoibríoch, déan ceangal leis an Wi-Fi de láimh le do thoil."
+        "band_conflict_tips": "Chun nasc a bhaint amach, nuair a bhíonn an athsheachadán cumasaithe, déanfaidh an banda Wi-Fi 5GHz/6GHz a mheaitseáil leis an athsheachadán go huathoibríoch. Mura ndéanann do ghléas athcheangal go huathoibríoch, déan ceangal leis an Wi-Fi de láimh le do thoil.",
+        "saved_portal_info_title": "Faisnéis Tairseach Sábháilte",
+        "voucher_code_label": "Códón Vóchair"
     },
     "modem": {
         "manually_tips": "Ionchur Láimhe",
@@ -412,7 +414,8 @@
         "name_already_taken_tips": "Tá ainm {name} tógtha cheana féin",
         "name_empty_tips": "Ní féidir an t-ainm a bheith folamh",
         "auto_switch_tips": "Éilíonn an ghné seo modh braite neamh-íseal-shonraí de Rianú Stádas Comhéadain Il-WAN. Nuair a bheidh sé cumasaithe, aistreoidh an córas go huathoibríoch chuig an modh braite comhfhreagrach agus féadfaidh sé úsáid tráchta bhreise a ghiniúint.",
-        "sim_registered_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. {guide}"
+        "sim_registered_connection_failed_tips": "Seiceáil le do thoil an bhfuil sonraí ar fáil ar an gcárta SIM agus an bhfuil na socruithe {apnBtn} ceart. {guide}",
+        "connection_failed_contact_support_tips": "Féach ar an {guide}, Má leanann an fhadhb ar aghaidh, déan {log} agus seol iad chuig {addr}."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",

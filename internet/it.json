@@ -122,7 +122,9 @@
         "auto_resume_scan_tips": "Internet connesso. Per garantire la qualità della comunicazione wireless, il Repeater non eseguirà la scansione delle reti disponibili; riprenderà automaticamente la scansione una volta che Internet verrà disconnesso. È possibile riconnettersi o passare manualmente alla rete Wi-Fi.",
         "initializing_tips": "Il ripetitore si sta inizializzando...",
         "band_6g_bandwidth_limit_160mhz_tips": "Il Wi-Fi a 6 GHz supporta una larghezza di banda fino a 160 MHz.",
-        "band_conflict_tips": "Per una connessione stabile, quando il ripetitore è attivato, la banda Wi-Fi 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il tuo dispositivo non si riconnette automaticamente, connettiti manualmente al Wi-Fi."
+        "band_conflict_tips": "Per una connessione stabile, quando il ripetitore è attivato, la banda Wi-Fi 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il tuo dispositivo non si riconnette automaticamente, connettiti manualmente al Wi-Fi.",
+        "saved_portal_info_title": "Informazioni sul portale salvato",
+        "voucher_code_label": "Codice Voucher"
     },
     "modem": {
         "title": "Cellulare",
@@ -276,7 +278,8 @@
         "name_already_taken_tips": "Il nome {name} è già in uso",
         "name_empty_tips": "Il nome non può essere vuoto",
         "auto_switch_tips": "Questa funzionalità richiede la modalità di rilevamento non a basso consumo dati del Monitoraggio dello Stato dell'Interfaccia Multi-WAN. Quando abilitata, il sistema passerà automaticamente alla corrispondente modalità di rilevamento e potrebbe generare un consumo di traffico aggiuntivo.",
-        "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. {guide}"
+        "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. {guide}",
+        "connection_failed_contact_support_tips": "Fare riferimento alla {guide}. Se il problema persiste, si prega di {log} e inviarli a {addr}."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",

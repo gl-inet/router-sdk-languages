@@ -151,7 +151,8 @@
         "name_already_taken_tips": "A(z) {name} név már foglalt",
         "name_empty_tips": "A név nem lehet üres",
         "auto_switch_tips": "Ez a funkció a Multi-WAN Interface Status Track nem alacsony adatforgalmú észlelési módját igényli. Ha engedélyezve van, a rendszer automatikusan átvált a megfelelő észlelési módra, és további adatforgalmi felhasználást eredményezhet.",
-        "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. {guide}"
+        "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. {guide}",
+        "connection_failed_contact_support_tips": "Lásd a {guide} útmutatót. Ha a probléma továbbra is fennáll, kérjük, {log} és küldje el őket a {addr} címre."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -348,7 +349,9 @@
         "auto_resume_scan_tips": "Az internet kapcsolat aktív. A vezeték nélküli kommunikáció minőségének biztosítása érdekében a közvetítő nem fogja szkennelni az elérhető hálózatokat; az internetkapcsolat megszakadása után automatikusan folytatja a szkennelést. Kézzel is újracsatlakozhat vagy váltathat Wi-Fi hálózatra.",
         "initializing_tips": "A repeater inicializálása folyamatban van...",
         "band_6g_bandwidth_limit_160mhz_tips": "A 6 GHz-es Wi-Fi akár 160 MHz-es sávszélességet is támogat.",
-        "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, az 5 GHz/6 GHz Wi-Fi sáv automatikusan illeszkedik a repeaterhez. Ha az eszköz nem csatlakozik újra automatikusan, kérjük, csatlakozzon manuálisan a Wi-Fi hálózathoz."
+        "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, az 5 GHz/6 GHz Wi-Fi sáv automatikusan illeszkedik a repeaterhez. Ha az eszköz nem csatlakozik újra automatikusan, kérjük, csatlakozzon manuálisan a Wi-Fi hálózathoz.",
+        "saved_portal_info_title": "Mentett portál információ",
+        "voucher_code_label": "Voucher kód"
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",

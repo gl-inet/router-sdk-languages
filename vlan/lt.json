@@ -33,7 +33,6 @@
         "dns": "DNS serveris",
         "required": "Reikalingas",
         "name": "Pavadinimas",
-        "tip": "Tvarkykite tinklo segmentaciją naudodami VLAN, kad izoliuotumėte srautą ir pagerintumėte saugumą.",
         "err_vlan_id_in_use": "„VLAN“ ID jau yra naudojamas.",
         "err_subnet_conflict": "Potinklio adreso konfliktas.",
         "err_subnet_bound_migrate_first": "Šis potinklis yra priskirtas prie „Ethernet“ prievado ir negali būti ištrintas. Pirmiausia perkelkite prievadus.",
@@ -58,7 +57,6 @@
         "router_ip": "Maršrutizatoriaus IP",
         "router_ip_tip": "Maršrutizatoriaus IP adresas yra adresas, kurį įvestumėte į savo naršyklės adreso juostą, kad pasiektumėte maršrutizatoriaus administravimo puslapį.",
         "dhcp_server": "DHCP serveris",
-        "dhcp_tip": "Įjunkite DHCP, kad automatiškai priskirtų IP adresus šio tinklo įrenginiams.",
         "start_ip_address": "Pradinis IP adresas",
         "end_ip_address": "Pabaigos IP adresas",
         "dhcp_range": "DHCP diapazonas",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
         "block_wan_subnets_tip_guest": "Jei ši funkcija įjungta, svečių tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
         "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, šis pasirinktinis potinklis negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
-        "ipv4_ranges_tip": "Galite nustatyti potinklį IPv4 privačių adresų diapazonuose: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "Galite nustatyti potinklį IPv4 privačių adresų diapazonuose: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Potinklio adresas konfliktuoja su „{target}“.",
+        "err_dhcp_params_invalid": "DHCP telkinio, nuomos laiko arba su tinklo tarpuvarte/„tinklo kauke – „netmask““ susiję DHCP parametrai yra negalimi.",
+        "tip": "Sukurkite papildomus „VLAN“ tinklus, kad būtų galima izoliuoti skirtingų tipų įrenginius ar svečių srautą.",
+        "dhcp_tip": "DHCP serveris automatiškai priskiria IP adresus ir kitus ryšio parametrus klientų įrenginiams. Jei DHCP serveris yra išjungtas, klientų įrenginių tinklo nustatymai turės būti konfigūruojami rankiniu būdu.",
+        "wan_access_control_label": "WAN prieigos kontrolė",
+        "wan_access_unrestricted": "Neribota",
+        "wan_access_tip_unrestricted": "Neribota: Leidžia šiam potinkliui be apribojimų pasiekti internetą ir kitus WAN pusės potinklius.",
+        "wan_access_tip_block_internet": "Blokuoti interneto prieigą: Blokuoja visą išorinę prieigą, įskaitant internetą ir WAN pusės potinklius.",
+        "wan_access_block_wan_subnet": "Blokuoti WAN potinklį",
+        "wan_access_block_internet": "Blokuoti interneto prieigą",
+        "wan_access_tip_block_wan_subnet": "Blokuoti WAN potinklį: Blokuoja prieigą prie kitų WAN pusės potinklių. Prieiga prie interneto išlieka."
     },
     "menu_vlan": "VLAN"
 }

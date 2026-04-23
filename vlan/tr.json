@@ -31,7 +31,6 @@
         "required": "Gerekli",
         "name": "İsim",
         "subnet_tip": "IPv4 özel adres aralıkları içinde alt ağ ayarlayabilirsiniz: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
-        "tip": "Trafiği izole etmek ve güvenliği artırmak için VLAN'larla ağ segmentasyonunu yönetin.",
         "guest_network_unavailable": "Misafir ağı şu anda kullanılamıyor çünkü ",
         "mac": "MAC Adresi",
         "err_vlan_id_in_use": "VLAN Kimliği zaten kullanımda.",
@@ -58,7 +57,6 @@
         "router_ip": "Yönlendirici IP'si",
         "router_ip_tip": "Yönlendirici IP adresi, yönlendiricinin yönetim sayfasına erişmek için tarayıcınızın adres çubuğuna gireceğiniz adrestir.",
         "dhcp_server": "DHCP Sunucusu",
-        "dhcp_tip": "Bu ağdaki cihazlara otomatik olarak IP adresi atamak için DHCP'yi etkinleştirin.",
         "start_ip_address": "Başlangıç IP Adresi",
         "end_ip_address": "Bitiş IP Adresi",
         "dhcp_range": "DHCP Aralığı",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_iot": "Bu işlev etkinleştirilirse, IoT ağı üst düzey ağa ve üst düzey ağın bulunduğu ağ segmentine erişemeyecektir.",
         "block_wan_subnets_tip_guest": "Bu işlev etkinleştirilirse, misafir ağı üst düzey ağa ve üst düzey ağın bulunduğu ağ segmentine erişemeyecektir.",
         "block_wan_subnets_tip_custom": "Bu işlev etkinleştirilirse, bu özel alt ağ üst düzey ağa ve üst düzey ağın bulunduğu ağ segmentine erişemeyecektir.",
-        "ipv4_ranges_tip": "IPv4 özel adres aralıkları içinde alt ağ ayarlayabilirsiniz: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "IPv4 özel adres aralıkları içinde alt ağ ayarlayabilirsiniz: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Alt ağ adresi \"{target}\" ile çakışıyor.",
+        "err_dhcp_params_invalid": "DHCP havuzu, kira süresi veya ağ geçidi/alt ağ maskesi ile ilgili DHCP parametreleri geçersiz.",
+        "tip": "Farklı cihaz türlerini veya ziyaretçi trafiğini izole etmek için ek VLAN ağları oluşturun.",
+        "dhcp_tip": "DHCP sunucusu, istemci cihazlara IP adresleri ve diğer iletişim parametrelerini otomatik olarak atar. DHCP sunucusu devre dışı bırakılırsa, istemci cihaz ağ ayarlarının manuel olarak yapılandırılması gerekecektir.",
+        "wan_access_tip_unrestricted": "Sınırsız: Bu alt ağın herhangi bir kısıtlama olmaksızın internete ve diğer WAN tarafı alt ağlarına erişmesine izin verir.",
+        "wan_access_control_label": "WAN Erişim Kontrolü",
+        "wan_access_unrestricted": "Sınırsız",
+        "wan_access_block_wan_subnet": "WAN Alt Ağını Engelle",
+        "wan_access_block_internet": "İnternet Erişimini Engelle",
+        "wan_access_tip_block_wan_subnet": "WAN Alt Ağını Engelle: Diğer WAN tarafı alt ağlarına erişimi engeller. İnternet erişimi kullanılabilir durumda kalır.",
+        "wan_access_tip_block_internet": "İnternet Erişimini Engelle: İnternet ve WAN tarafı alt ağları dahil tüm giden erişimi engeller."
     },
     "menu_vlan": "VLAN"
 }

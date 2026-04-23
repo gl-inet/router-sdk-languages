@@ -86,7 +86,9 @@
         "auto_resume_scan_tips": "Internet jest podłączony. Aby zapewnić jakość komunikacji bezprzewodowej, Repeater nie będzie skanował dostępnych sieci; automatycznie wznowi skanowanie po rozłączeniu z Internetem. Możesz ręcznie ponownie połączyć się lub przełączyć na sieć Wi-Fi.",
         "initializing_tips": "Repeater jest w trakcie inicjalizacji...",
         "band_6g_bandwidth_limit_160mhz_tips": "Wi-Fi 6GHz obsługuje przepustowość do 160 MHz.",
-        "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy repeater jest włączony, pasmo Wi-Fi 5GHz/6GHz automatycznie dopasuje się do repeatera. Jeśli Twoje urządzenie nie połączy się ponownie automatycznie, proszę połączyć się z Wi-Fi ręcznie."
+        "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy repeater jest włączony, pasmo Wi-Fi 5GHz/6GHz automatycznie dopasuje się do repeatera. Jeśli Twoje urządzenie nie połączy się ponownie automatycznie, proszę połączyć się z Wi-Fi ręcznie.",
+        "saved_portal_info_title": "Zapisane informacje o portalu",
+        "voucher_code_label": "Kod Vouchera"
     },
     "cable": {
         "title": "Ethernet",
@@ -348,7 +350,8 @@
         "name_already_taken_tips": "Nazwa {name} jest już zajęta",
         "name_empty_tips": "Nazwa nie może być pusta",
         "auto_switch_tips": "Ta funkcja wymaga trybu wykrywania bez niskiego zużycia danych w śledzeniu stanu interfejsu Multi-WAN. Po włączeniu system automatycznie przełączy się na odpowiedni tryb wykrywania i może generować dodatkowe zużycie ruchu.",
-        "sim_registered_connection_failed_tips": "Sprawdź, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. {guide}"
+        "sim_registered_connection_failed_tips": "Sprawdź, czy karta SIM ma dostępne dane i czy ustawienia {apnBtn} są poprawne. {guide}",
+        "connection_failed_contact_support_tips": "Zapoznaj się z {guide}. Jeśli problem nadal występuje, proszę {log} i wyślij je na adres {addr}."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",

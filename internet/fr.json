@@ -122,7 +122,9 @@
         "auto_resume_scan_tips": "L'Internet est connecté. Pour garantir la qualité de la communication sans fil, le Répéteur ne scannera pas les réseaux disponibles ; il reprendra automatiquement le scan une fois l'Internet déconnecté. Vous pouvez vous reconnecter ou passer manuellement au réseau Wi-Fi.",
         "initializing_tips": "Le répéteur est en cours d'initialisation...",
         "band_6g_bandwidth_limit_160mhz_tips": "Le Wi-Fi 6 GHz prend en charge une bande passante allant jusqu'à 160 MHz.",
-        "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, la bande Wi-Fi 5 GHz/6 GHz correspondra automatiquement au répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi."
+        "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, la bande Wi-Fi 5 GHz/6 GHz correspondra automatiquement au répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi.",
+        "saved_portal_info_title": "Informations du portail enregistrées",
+        "voucher_code_label": "Code de bon"
     },
     "modem": {
         "title": "Cellulaire",
@@ -276,7 +278,8 @@
         "name_already_taken_tips": "Le nom {name} est déjà utilisé",
         "name_empty_tips": "Le nom ne peut pas être vide",
         "auto_switch_tips": "Cette fonctionnalité nécessite le mode de détection non faible en données du suivi d'état de l'interface Multi-WAN. Lorsqu'elle est activée, le système basculera automatiquement vers le mode de détection correspondant et pourra générer une consommation de trafic supplémentaire.",
-        "sim_registered_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. {guide}"
+        "sim_registered_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. {guide}",
+        "connection_failed_contact_support_tips": "Veuillez consulter le {guide}. Si le problème persiste, veuillez {log} et les envoyer à {addr}."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",

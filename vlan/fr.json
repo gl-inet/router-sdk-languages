@@ -33,7 +33,6 @@
         "enable": "Activer",
         "lan": "LAN",
         "edit": "Modifier",
-        "tip": "Gérez la segmentation du réseau avec des VLAN pour isoler le trafic et renforcer la sécurité.",
         "err_vlan_id_in_use": "L'identifiant VLAN est déjà utilisé.",
         "err_subnet_conflict": "Conflit d'adresse de sous-réseau.",
         "err_default_subnet_cannot_delete": "Le sous-réseau par défaut ne peut pas être supprimé.",
@@ -55,7 +54,6 @@
         "iot_network": "Réseau IoT",
         "guest_network": "Réseau invité",
         "router_ip_tip": "L'adresse IP du routeur est l'adresse que vous saisiriez dans la barre d'adresse de votre navigateur pour accéder à la page d'administration du routeur.",
-        "dhcp_tip": "Activez le DHCP pour attribuer automatiquement des adresses IP aux appareils sur ce réseau.",
         "start_ip_address": "Adresse IP de début",
         "dhcp_range": "Plage DHCP",
         "address_reservation": "Réservation d'adresse",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_guest": "Si cette fonction est activée, le réseau invité ne pourra pas accéder au réseau de niveau supérieur et au segment de réseau où se trouve le réseau de niveau supérieur.",
         "block_wan_subnets_tip_iot": "Si cette fonction est activée, le réseau IoT ne pourra pas accéder au réseau de niveau supérieur et au segment de réseau où se trouve le réseau de niveau supérieur.",
         "block_wan_subnets_tip_custom": "Si cette fonction est activée, ce sous-réseau personnalisé ne pourra pas accéder au réseau de niveau supérieur et au segment de réseau où se trouve le réseau de niveau supérieur.",
-        "ipv4_ranges_tip": "Vous pouvez définir un sous-réseau dans les plages d'adresses privées IPv4 : 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "Vous pouvez définir un sous-réseau dans les plages d'adresses privées IPv4 : 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "L'adresse du sous-réseau est en conflit avec \"{target}\".",
+        "err_dhcp_params_invalid": "Le pool DHCP, la durée de bail ou les paramètres DHCP liés à la passerelle/au masque de sous-réseau sont invalides.",
+        "tip": "Créez des réseaux VLAN supplémentaires pour isoler différents types d'appareils ou le trafic des visiteurs.",
+        "dhcp_tip": "Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication aux appareils clients. Si le serveur DHCP est désactivé, les paramètres réseau des appareils clients devront être configurés manuellement.",
+        "wan_access_unrestricted": "无限制",
+        "wan_access_block_wan_subnet": "阻止WAN子网",
+        "wan_access_block_internet": "阻止互联网访问",
+        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍可用。",
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
+        "wan_access_control_label": "WAN Access Control",
+        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。"
     },
     "menu_vlan": "VLAN"
 }

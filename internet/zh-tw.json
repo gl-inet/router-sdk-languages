@@ -122,7 +122,9 @@
         "auto_resume_scan_tips": "互聯網已連接，為了確保無線通訊質量，中繼將暫停掃描可用網絡； 一旦互聯網斷開，它將自動恢復掃描。 您可以手動重連或切換Wi-Fi網絡。",
         "initializing_tips": "中繼正在初始化...",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi最高支持160MHz頻寬。",
-        "band_conflict_tips": "為保證網絡連接穩定性，中繼啟用時，5GHz/6GHz Wi-Fi 頻段將和中繼網絡頻段保持一致。 若設備未能自動重連網絡，請手動連接 Wi-Fi。"
+        "band_conflict_tips": "為保證網絡連接穩定性，中繼啟用時，5GHz/6GHz Wi-Fi 頻段將和中繼網絡頻段保持一致。 若設備未能自動重連網絡，請手動連接 Wi-Fi。",
+        "saved_portal_info_title": "已保存的 Portal 信息",
+        "voucher_code_label": "憑證碼"
     },
     "modem": {
         "title": "行動網路",
@@ -276,7 +278,8 @@
         "name_already_taken_tips": "名稱 {name} 已被使用",
         "name_empty_tips": "名称不能为空",
         "auto_switch_tips": "該功能依賴於多線負載介面狀態檢測的非低數據檢測模式。 啟用後，系統將自動切換到相應的檢測模式，並可能產生額外的流量消耗。",
-        "sim_registered_connection_failed_tips": "請檢查 SIM 卡是否有可用流量，以及 {apnBtn} 設定是否正確。{guide}"
+        "sim_registered_connection_failed_tips": "請檢查 SIM 卡是否有可用流量，以及 {apnBtn} 設定是否正確。{guide}",
+        "connection_failed_contact_support_tips": "參考{guide}，若問題依舊，請{log}並發送至{addr}。"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",

@@ -122,7 +122,9 @@
         "auto_resume_scan_tips": "인터넷이 연결되었습니다. 무선 통신 품질을 보장하기 위해 리피터는 사용 가능한 네트워크를 스캔하지 않으며, 인터넷 연결이 끊긴 후 자동으로 스캔을 재개합니다. 수동으로 Wi-Fi 네트워크에 재연결하거나 전환할 수 있습니다.",
         "initializing_tips": "리피터가 초기화 중입니다...",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi는 최대 160MHz 대역폭을 지원합니다.",
-        "band_conflict_tips": "안정적인 연결을 위해 리피터가 활성화되면 5GHz/6GHz Wi-Fi 대역이 자동으로 리피터와 일치합니다. 기기가 자동으로 재연결되지 않으면 Wi-Fi에 수동으로 연결하십시오."
+        "band_conflict_tips": "안정적인 연결을 위해 리피터가 활성화되면 5GHz/6GHz Wi-Fi 대역이 자동으로 리피터와 일치합니다. 기기가 자동으로 재연결되지 않으면 Wi-Fi에 수동으로 연결하십시오.",
+        "saved_portal_info_title": "저장된 포털 정보",
+        "voucher_code_label": "바우처 코드"
     },
     "modem": {
         "title": "셀룰러",
@@ -276,7 +278,8 @@
         "name_already_taken_tips": "이름 {name}이(가) 이미 사용 중입니다",
         "name_empty_tips": "이름은 비워둘 수 없습니다.",
         "auto_switch_tips": "이 기능은 Multi-WAN 인터페이스 상태 추적의 비저데이터 감지 모드가 필요합니다. 활성화하면 시스템이 자동으로 해당 감지 모드로 전환되며 추가 트래픽 사용량이 발생할 수 있습니다.",
-        "sim_registered_connection_failed_tips": "SIM 카드에 사용 가능한 데이터가 있는지 확인하고 {apnBtn} 설정이 올바른지 확인하세요. {guide}"
+        "sim_registered_connection_failed_tips": "SIM 카드에 사용 가능한 데이터가 있는지 확인하고 {apnBtn} 설정이 올바른지 확인하세요. {guide}",
+        "connection_failed_contact_support_tips": "{guide}를 참조하십시오. 문제가 지속되면 {log}를 생성하여 {addr}로 보내주십시오."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",

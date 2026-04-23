@@ -122,7 +122,9 @@
         "auto_resume_scan_tips": "Het internet is verbonden. Om de draadloze communicatiekwaliteit te waarborgen, zal de Repeater niet scannen naar beschikbare netwerken; het scannen wordt automatisch hervat zodra de internetverbinding wordt verbroken. U kunt handmatig opnieuw verbinding maken of overschakelen naar een Wi-Fi-netwerk.",
         "initializing_tips": "De repeater wordt geïnitialiseerd...",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi ondersteunt een bandbreedte tot 160MHz.",
-        "band_conflict_tips": "Voor een stabiele verbinding, wanneer de repeater is ingeschakeld, zal de 5GHz/6GHz Wi-Fi-band automatisch overeenkomen met de repeater. Als uw apparaat niet automatisch opnieuw verbindt, verbind dan handmatig met Wi-Fi."
+        "band_conflict_tips": "Voor een stabiele verbinding, wanneer de repeater is ingeschakeld, zal de 5GHz/6GHz Wi-Fi-band automatisch overeenkomen met de repeater. Als uw apparaat niet automatisch opnieuw verbindt, verbind dan handmatig met Wi-Fi.",
+        "saved_portal_info_title": "Opgeslagen Portaal Info",
+        "voucher_code_label": "Vouchercode"
     },
     "modem": {
         "title": "Mobiel",
@@ -276,7 +278,8 @@
         "name_already_taken_tips": "Naam {name} is al in gebruik",
         "name_empty_tips": "Naam mag niet leeg zijn",
         "auto_switch_tips": "Deze functie vereist de niet-laag-datadetectiemodus van Multi-WAN Interface Status Track. Wanneer ingeschakeld, zal het systeem automatisch overschakelen naar de bijbehorende detectiemodus en kan dit extra dataverbruik genereren.",
-        "sim_registered_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. {guide}"
+        "sim_registered_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. {guide}",
+        "connection_failed_contact_support_tips": "Raadpleeg de {guide}. Als het probleem aanhoudt, {log} en stuur deze naar {addr}."
     },
     "sms": {
         "send_sms": "Bericht verzenden",

@@ -32,7 +32,6 @@
         "required": "必須",
         "is_disabled": "は無効です。",
         "name": "名前",
-        "tip": "VLANを使用してネットワークセグメンテーションを管理し、トラフィックを分離してセキュリティを強化します。",
         "iot_network_unavailable": "IoTネットワークは現在利用できません。理由: ",
         "err_vlan_id_out_of_range": "VLAN IDが範囲外です。",
         "err_vlan_id_in_use": "VLAN IDは既に使用されています。",
@@ -58,7 +57,6 @@
         "router_ip": "ルーターIP",
         "router_ip_tip": "ルーターIPアドレスは、ルーターの管理ページにアクセスするためにブラウザのアドレスバーに入力するアドレスです。",
         "dhcp_server": "DHCPサーバー",
-        "dhcp_tip": "DHCPを有効にして、このネットワーク上のデバイスにIPアドレスを自動的に割り当てます。",
         "start_ip_address": "開始IPアドレス",
         "end_ip_address": "終了IPアドレス",
         "dhcp_range": "DHCP範囲",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_iot": "この機能を有効にすると、IoTネットワークは上位ネットワークおよびそのネットワークセグメントにアクセスできなくなります。",
         "block_wan_subnets_tip_guest": "この機能を有効にすると、ゲストネットワークは上位ネットワークおよびそのネットワークセグメントにアクセスできなくなります。",
         "block_wan_subnets_tip_custom": "この機能を有効にすると、このカスタムサブネットは上位ネットワークおよびそのネットワークセグメントにアクセスできなくなります。",
-        "ipv4_ranges_tip": "IPv4プライベートアドレス範囲内でサブネットを設定できます: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "IPv4プライベートアドレス範囲内でサブネットを設定できます: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "サブネットアドレスが\"{target}\"と競合しています。",
+        "err_dhcp_params_invalid": "DHCPプール、リース時間、またはゲートウェイ/ネットマスクに関連するDHCPパラメータが無効です。",
+        "tip": "異なる種類のデバイスや訪問者トラフィックを分離するために、追加のVLANネットワークを作成します。",
+        "dhcp_tip": "DHCPサーバーは、クライアントデバイスにIPアドレスやその他の通信パラメータを自動的に割り当てます。DHCPサーバーが無効になっている場合、クライアントデバイスのネットワーク設定は手動で構成する必要があります。",
+        "wan_access_unrestricted": "无限制",
+        "wan_access_block_wan_subnet": "阻止WAN子网",
+        "wan_access_block_internet": "阻止互联网访问",
+        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。",
+        "wan_access_control_label": "WAN访问控制",
+        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍然可用。",
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。"
     },
     "menu_vlan": "VLAN"
 }

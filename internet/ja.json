@@ -122,7 +122,9 @@
         "auto_resume_scan_tips": "インターネットに接続されています。無線通信の品質を確保するため、リピーターは利用可能なネットワークのスキャンを停止します。インターネット接続が切断されると自動的にスキャンを再開します。手動で再接続するか、Wi-Fiネットワークに切り替えることができます。",
         "initializing_tips": "リピーターを初期化しています...",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fiは最大160MHzの帯域幅をサポートしています。",
-        "band_conflict_tips": "安定した接続を確保するため、リピーターを有効にすると、5GHz／6GHzのWi-Fi周波数帯域は自動的にリピーターに合わせて切り替わります。デバイスが自動的に再接続されない場合は、手動でWi-Fiに接続してください。"
+        "band_conflict_tips": "安定した接続を確保するため、リピーターを有効にすると、5GHz／6GHzのWi-Fi周波数帯域は自動的にリピーターに合わせて切り替わります。デバイスが自動的に再接続されない場合は、手動でWi-Fiに接続してください。",
+        "saved_portal_info_title": "保存されたポータル情報",
+        "voucher_code_label": "バウチャーコード"
     },
     "modem": {
         "title": "セルラー",
@@ -276,7 +278,8 @@
         "name_already_taken_tips": "名前 {name} は既に使用されています",
         "name_empty_tips": "名前を入力してください",
         "auto_switch_tips": "この機能は、Multi-WANインターフェースステータストラックの非低データ検出モードを必要とします。有効にすると、システムは自動的に対応する検出モードに切り替わり、追加のトラフィック使用量が発生する可能性があります。",
-        "sim_registered_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。{guide}"
+        "sim_registered_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。{guide}",
+        "connection_failed_contact_support_tips": "{guide}を参照してください。問題が解決しない場合は、{log}を取得し、{addr}に送信してください。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",

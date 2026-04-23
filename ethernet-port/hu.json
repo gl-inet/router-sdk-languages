@@ -45,6 +45,9 @@
         "select_networks": "Hálózatok kiválasztása",
         "negotiated_port_rate": "Megállapodott hálózati port sebesség",
         "vlan_mode_tips": "A szabványos mód csak egy VLAN-t (nem címkézett) engedélyez, amely végberendezések csatlakoztatására szolgál. A több VLAN mód több VLAN-t (címkézett) engedélyez egy porton, általában hozzáférési pontok vagy más kapcsolók csatlakoztatásához.",
-        "err_interface_in_lan_mode": "WAN-ról LAN-ra váltáskor ki kell húzni a hálózati kábelt."
+        "err_interface_in_lan_mode": "WAN-ról LAN-ra váltáskor ki kell húzni a hálózati kábelt.",
+        "connection_status": "Kapcsolat állapota",
+        "connection_link_up": "Kapcsolat létrejött",
+        "connection_link_down": "Kapcsolat megszakadt"
     }
 }

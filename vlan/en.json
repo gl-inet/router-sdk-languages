@@ -1,6 +1,5 @@
 {
     "vlan": {
-        "tip": "Manage network segmentation with VLANs to isolate traffic and enhance security.",
         "name": "Name",
         "add": "Add",
         "lan": "LAN",
@@ -58,7 +57,6 @@
         "router_ip": "Router IP",
         "router_ip_tip": "The router IP address is the address that you would enter into your browser's address bar to access the router's admin page.",
         "dhcp_server": "DHCP Server",
-        "dhcp_tip": "Enable DHCP to automatically assign IP addresses to devices on this network.",
         "start_ip_address": "Start IP Address",
         "end_ip_address": "End IP Address",
         "dhcp_range": "DHCP Range",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_guest": "If this function is enabled, the guest network will not be able to access the upper-level network and the network segment where the upper-level network is located.",
         "block_wan_subnets_tip_iot": "If this function is enabled, the IoT network will not be able to access the upper-level network and the network segment where the upper-level network is located.",
         "block_wan_subnets_tip_custom": "If this function is enabled, this custom subnet will not be able to access the upper-level network and the network segment where the upper-level network is located.",
-        "ipv4_ranges_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Subnet address conflicts with \"{target}\".",
+        "err_dhcp_params_invalid": "The DHCP pool, lease time, or DHCP parameters related to the gateway/netmask are invalid.",
+        "tip": "Create additional VLAN networks to isolate different types of devices or visitor traffic.",
+        "dhcp_tip": "The DHCP server automatically assigns IP addresses and other communication parameters to client devices. If the DHCP server is disabled, client device network settings will need to be configured manually.",
+        "wan_access_control_label": "WAN Access Control",
+        "wan_access_unrestricted": "Unrestricted",
+        "wan_access_block_wan_subnet": "Block WAN Subnet",
+        "wan_access_block_internet": "Block Internet Access",
+        "wan_access_tip_unrestricted": "Unrestricted: Allows this subnet to access the internet and other WAN-side subnets without restrictions.",
+        "wan_access_tip_block_wan_subnet": "Block WAN Subnet: Blocks access to other WAN-side subnets. Internet access remains available.",
+        "wan_access_tip_block_internet": "Block Internet Access: Blocks all outbound access, including the internet and WAN-side subnets."
     },
     "menu_vlan": "VLAN"
 }

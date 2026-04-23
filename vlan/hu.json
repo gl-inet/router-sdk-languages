@@ -33,7 +33,6 @@
         "lan": "LAN",
         "name": "Név",
         "subnet_tip": "Beállíthat alhálózatot az IPv4 magáncím tartományokon belül: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
-        "tip": "Kezelje a hálózati szegmentálást VLAN-okkal a forgalom elkülönítése és a biztonság fokozása érdekében.",
         "err_vlan_id_out_of_range": "A VLAN ID tartományon kívül esik.",
         "err_vlan_id_in_use": "A VLAN ID már használatban van.",
         "err_subnet_conflict": "Alhálózati cím ütközés.",
@@ -58,7 +57,6 @@
         "router_ip": "Router IP",
         "router_ip_tip": "A router IP-címe az a cím, amelyet a böngésző címsorába írna be a router adminisztrációs oldalának eléréséhez.",
         "dhcp_server": "DHCP Szerver",
-        "dhcp_tip": "Engedélyezze a DHCP-t, hogy automatikusan IP-címeket rendeljen a hálózaton lévő eszközökhöz.",
         "start_ip_address": "Kezdő IP-cím",
         "end_ip_address": "Vég IP-cím",
         "dhcp_range": "DHCP tartomány",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_guest": "Ha ez a funkció engedélyezve van, a vendéghálózat nem fogja tudni elérni a felső szintű hálózatot és annak hálózati szegmensét.",
         "block_wan_subnets_tip_custom": "Ha ez a funkció engedélyezve van, ez az egyéni alhálózat nem fogja tudni elérni a felső szintű hálózatot és annak hálózati szegmensét.",
         "block_wan_subnets_tip_iot": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fogja tudni elérni a felső szintű hálózatot és annak hálózati szegmensét.",
-        "ipv4_ranges_tip": "Beállíthat alhálózatot az IPv4 magáncím tartományokon belül: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "Beállíthat alhálózatot az IPv4 magáncím tartományokon belül: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Alhálózati cím ütközik a következővel: \"{target}\".",
+        "err_dhcp_params_invalid": "A DHCP-készlet, a bérleti idő vagy az átjáró/alhálózati maszkkal kapcsolatos DHCP-paraméterek érvénytelenek.",
+        "tip": "Hozzon létre további VLAN hálózatokat a különböző típusú eszközök vagy látogatói forgalom elkülönítéséhez.",
+        "dhcp_tip": "A DHCP szerver automatikusan IP-címeket és egyéb kommunikációs paramétereket rendel az ügyféleszközökhöz. Ha a DHCP szerver ki van kapcsolva, az ügyféleszközök hálózati beállításait manuálisan kell konfigurálni.",
+        "wan_access_unrestricted": "Korlátozás nélküli",
+        "wan_access_block_wan_subnet": "WAN alhálózat blokkolása",
+        "wan_access_block_internet": "Internet-hozzáférés blokkolása",
+        "wan_access_tip_unrestricted": "Korlátozás nélküli: Lehetővé teszi, hogy ez az alhálózat korlátozások nélkül hozzáférjen az internethez és más WAN-oldali alhálózatokhoz.",
+        "wan_access_tip_block_wan_subnet": "WAN alhálózat blokkolása: Blokkolja a hozzáférést más WAN-oldali alhálózatokhoz. Az internet-hozzáférés továbbra is elérhető marad.",
+        "wan_access_tip_block_internet": "Internet-hozzáférés blokkolása: Blokkol minden kimenő hozzáférést, beleértve az internetet és a WAN-oldali alhálózatokat is.",
+        "wan_access_control_label": "WAN hozzáférés-vezérlés"
     },
     "menu_vlan": "VLAN"
 }

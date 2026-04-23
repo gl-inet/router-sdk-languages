@@ -1,6 +1,5 @@
 {
     "vlan": {
-        "tip": "Zarządzaj segmentacją sieci za pomocą VLAN-ów, aby izolować ruch i zwiększyć bezpieczeństwo.",
         "add": "Dodaj",
         "lan": "LAN",
         "gateway": "Brama",
@@ -58,7 +57,6 @@
         "router_ip": "IP Ruter",
         "router_ip_tip": "Adres IP routera to adres, który wpiszesz w pasku adresu przeglądarki, aby uzyskać dostęp do strony administracyjnej routera.",
         "dhcp_server": "Serwer DHCP",
-        "dhcp_tip": "Włącz DHCP, aby automatycznie przypisywać adresy IP urządzeniom w tej sieci.",
         "start_ip_address": "Początkowy Adres IP",
         "end_ip_address": "Końcowy Adres IP",
         "dhcp_range": "Zakres DHCP",
@@ -85,7 +83,18 @@
         "block_wan_subnets_tip_iot": "Jeśli ta funkcja jest włączona, sieć IoT nie będzie mogła uzyskać dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna.",
         "block_wan_subnets_tip_guest": "Jeśli ta funkcja jest włączona, sieć gościnna nie będzie mogła uzyskać dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna.",
         "block_wan_subnets_tip_custom": "Jeśli ta funkcja jest włączona, ta niestandardowa podsieć nie będzie mogła uzyskać dostępu do sieci nadrzędnej oraz segmentu sieci, w którym znajduje się sieć nadrzędna.",
-        "ipv4_ranges_tip": "Możesz ustawić podsieć w zakresach prywatnych adresów IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8"
+        "ipv4_ranges_tip": "Możesz ustawić podsieć w zakresach prywatnych adresów IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
+        "err_subnet_conflict_with": "Adres podsieci koliduje z \"{target}\".",
+        "err_dhcp_params_invalid": "Pula DHCP, czas dzierżawy lub parametry DHCP związane z bramą/maską sieci są nieprawidłowe.",
+        "tip": "Utwórz dodatkowe sieci VLAN, aby izolować różne typy urządzeń lub ruch gości.",
+        "dhcp_tip": "Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacyjne urządzeniom klienckim. Jeśli serwer DHCP jest wyłączony, ustawienia sieciowe urządzeń klienckich będą musiały zostać skonfigurowane ręcznie.",
+        "wan_access_block_internet": "Blokuj dostęp do internetu",
+        "wan_access_tip_block_wan_subnet": "Blokuj podsieć WAN: Blokuje dostęp do innych podsieci po stronie WAN. Dostęp do internetu pozostaje dostępny.",
+        "wan_access_control_label": "Kontrola dostępu do WAN",
+        "wan_access_unrestricted": "Bez ograniczeń",
+        "wan_access_block_wan_subnet": "Blokuj podsieć WAN",
+        "wan_access_tip_unrestricted": "Bez ograniczeń: Pozwala tej podsieci na dostęp do internetu i innych podsieci po stronie WAN bez ograniczeń.",
+        "wan_access_tip_block_internet": "Blokuj dostęp do internetu: Blokuje cały ruch wychodzący, w tym do internetu i podsieci po stronie WAN."
     },
     "menu_vlan": "VLAN"
 }

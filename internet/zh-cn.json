@@ -122,7 +122,9 @@
         "auto_resume_scan_tips": "互联网已连接，为了确保无线通信质量，中继将暂停扫描可用网络；一旦互联网断开，它将自动恢复扫描。您可以手动重连或切换Wi-Fi网络。",
         "initializing_tips": "中继正在初始化...",
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi 最高支持 160MHz 带宽。",
-        "band_conflict_tips": "为保证网络连接稳定性，中继启用时，5GHz/6GHz Wi-Fi 频段将和中继网络频段保持一致。若设备未能自动重连网络，请手动连接 Wi-Fi。"
+        "band_conflict_tips": "为保证网络连接稳定性，中继启用时，5GHz/6GHz Wi-Fi 频段将和中继网络频段保持一致。若设备未能自动重连网络，请手动连接 Wi-Fi。",
+        "saved_portal_info_title": "已保存的 Portal 信息",
+        "voucher_code_label": "凭证码"
     },
     "modem": {
         "title": "蜂窝网络",
@@ -276,7 +278,8 @@
         "name_already_taken_tips": "名称 {name} 已被使用",
         "name_empty_tips": "名称不能为空",
         "auto_switch_tips": "该功能依赖于多线负载接口状态检测的非低数据检测模式。启用后，系统将自动切换到相应的检测模式，并可能产生额外的流量消耗。",
-        "sim_registered_connection_failed_tips": "请检查 SIM 卡是否有可用流量，以及 {apnBtn} 设置是否正确。{guide}"
+        "sim_registered_connection_failed_tips": "请检查 SIM 卡是否有可用流量，以及 {apnBtn} 设置是否正确。{guide}",
+        "connection_failed_contact_support_tips": "参考{guide}，若问题依旧，请{log}并发送至{addr}。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
