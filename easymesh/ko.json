@@ -150,7 +150,8 @@
         "traffic_split_mode_tips": "트래픽 분할 모드에서는 홈 트래픽이 메인 라우터로 다시 라우팅되고, 다른 인터넷 트래픽은 WAN 인터페이스를 통해 직접 전송됩니다.",
         "traffic_split_mode_selected_tips": "현재 트래픽 분할 모드에 있습니다. AstroMesh 네트워크를 통해 메인 라우터에 계속 액세스할 수 있으며, 다른 인터넷 트래픽은 WAN 인터페이스를 통해 직접 라우팅됩니다.",
         "enabled_s2s_mode_tips": "TAP-S2S模式已启用，因此此功能无法使用。",
-        "enabled_astrowrap_tips": "AstroWrap 当前处于活动状态，这与 AstroMesh 存在冲突。请重置 AstroWrap 网络以继续操作。"
+        "enabled_astrowrap_tips": "AstroWrap 当前处于活动状态，这与 AstroMesh 存在冲突。请重置 AstroWrap 网络以继续操作。",
+        "connecting_tips": "연결 중..."
     },
     "menu_astromesh": "AstroMesh"
 }
