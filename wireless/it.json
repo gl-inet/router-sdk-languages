@@ -18,7 +18,7 @@
         "channel_optimization": "Ottimizzazione del canale",
         "enable": "Attiva il Wi-Fi",
         "repeater_using_tips": "La voce non può essere modificata quando il ripetitore è abilitato.",
-        "enable_dfs_tips": "Se al router è assegnato l'uso di un canale DFS, allora è richiesto un controllo di disponibilità del canale ogni volta che il Wi-Fi è abilitato; durante questo tempo il segnale a 5GHz non sarà disponibile per le connessioni, questo processo dura $$$$. Se il router rileva che il radar sta utilizzando il canale corrente, si disconnetterà temporaneamente dal client e passerà a un altro canale disponibile; inoltre, il Wi-Fi a 5GHz sarà temporaneamente disattivato mentre il router esegue la scansione delle reti disponibili nelle vicinanze.",
+        "enable_dfs_tips": "Se al router viene assegnato un canale DFS, è necessario eseguire un controllo di disponibilità del canale ogni volta che il Wi-Fi viene attivato. Durante questo periodo, il segnale a 5GHz non sarà disponibile per le connessioni e questo processo richiede del tempo. Se il router rileva che un radar sta utilizzando il canale corrente, si disconnetterà temporaneamente dal client e passerà a un altro canale disponibile. Inoltre, il Wi-Fi a 5GHz verrà temporaneamente disattivato mentre il router esegue la scansione delle reti vicine disponibili.",
         "dsf_starting": "Sto verificando la disponibilità del canale. Il processo richiederà $$$$, si prega di attendere...…",
         "dsf_conflict": "Il Wi-Fi a 5 GHz sarà temporaneamente non disponibile perché un radar sta utilizzando lo stesso canale del router.",
         "enable_dfs": "Consenti canale DFS",
