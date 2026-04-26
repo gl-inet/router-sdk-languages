@@ -88,13 +88,13 @@
         "err_dhcp_params_invalid": "Pula DHCP, czas dzierżawy lub parametry DHCP związane z bramą/maską sieci są nieprawidłowe.",
         "tip": "Utwórz dodatkowe sieci VLAN, aby izolować różne typy urządzeń lub ruch gości.",
         "dhcp_tip": "Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacyjne urządzeniom klienckim. Jeśli serwer DHCP jest wyłączony, ustawienia sieciowe urządzeń klienckich będą musiały zostać skonfigurowane ręcznie.",
-        "wan_access_block_internet": "Blokuj dostęp do internetu",
-        "wan_access_tip_block_wan_subnet": "Blokuj podsieć WAN: Blokuje dostęp do innych podsieci po stronie WAN. Dostęp do internetu pozostaje dostępny.",
-        "wan_access_control_label": "Kontrola dostępu do WAN",
-        "wan_access_unrestricted": "Bez ograniczeń",
-        "wan_access_block_wan_subnet": "Blokuj podsieć WAN",
-        "wan_access_tip_unrestricted": "Bez ograniczeń: Pozwala tej podsieci na dostęp do internetu i innych podsieci po stronie WAN bez ograniczeń.",
-        "wan_access_tip_block_internet": "Blokuj dostęp do internetu: Blokuje cały ruch wychodzący, w tym do internetu i podsieci po stronie WAN."
+        "wan_access_block_internet": "Blokuj Dostęp do Internetu",
+        "wan_access_tip_block_wan_subnet": "Blokuj Podsieć WAN: Blokuje dostęp do innych podsieci po stronie WAN. Dostęp do internetu pozostaje dostępny.",
+        "wan_access_control_label": "Kontrola Dostępu do WAN",
+        "wan_access_unrestricted": "Bez Ograniczeń",
+        "wan_access_block_wan_subnet": "Blokuj Podsieć WAN",
+        "wan_access_tip_unrestricted": "Bez Ograniczeń: Pozwala tej podsieci na dostęp do internetu i innych podsieci po stronie WAN bez ograniczeń.",
+        "wan_access_tip_block_internet": "Blokuj Dostęp do Internetu: Blokuje cały ruch wychodzący, w tym do internetu i podsieci po stronie WAN."
     },
     "menu_vlan": "VLAN"
 }
