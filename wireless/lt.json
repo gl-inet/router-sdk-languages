@@ -18,7 +18,7 @@
         "channel_optimization": "Kanalo optimizavimas",
         "repeater_using_tips": "Įrašas negali būti modifikuojamas, kai kartotùvas yra įjungtas.",
         "enable": "Įjungti/Įgalinti „Wi-Fi“",
-        "enable_dfs_tips": "Jei maršrutizatoriui yra priskirtas „DFS“ kanalas: tada, kiekvieną kartą įjungiant „Wi-Fi“, reikalinga patikrinti kanalo prieinamumą, tam vykstant, 5 GHz signalas nebus prieinamas ryšiams, šis vyksmas užtrunka – $$$$. Jei maršrutizatorius nustato, kad radaras naudoja dabartinį kanalą, tada jis laikinai atjungs klientą ir perjungs jį į kitą prieinamą kanalą. Be to, 5 GHz „Wi-Fi“ bus laikinai išjungtas, kol maršrutizatorius skenuos prieinamus; artimus tinklus.",
+        "enable_dfs_tips": "Jei maršrutizatoriui priskirta naudoti DFS kanalą, tada kiekvieną kartą, kai įjungiamas „Wi-Fi“, reikalingas kanalo prieinamumo patikrinimas. Šiuo metu 5 GHz signalas nebus prieinamas prisijungimams, o šis procesas užtrunka šiek tiek laiko. Jei maršrutizatorius aptinka, kad radaras naudoja dabartinį kanalą, jis laikinai atsijungs nuo kliento ir persijungs į kitą prieinamą kanalą. Be to, 5 GHz „Wi-Fi“ bus laikinai išjungtas, kol maršrutizatorius skenuoja prieinamus netoliese esančius tinklus.",
         "enable_dfs": "Leisti „DFS“ kanalą",
         "dsf_starting": "Tikrinamas kanalo prieinamumas. Šis vyksmas užtruks – $$$$. Prašome palaukti……",
         "dsf_conflict": "5GHz „Wi-Fi“ laikinai nepasiekiamas, nes radaras naudoja kanalą, kurį šiuo metu naudoja maršrutizatorius.",
