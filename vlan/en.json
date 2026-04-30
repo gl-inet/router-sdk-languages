@@ -80,7 +80,6 @@
         "lpr_tips": "Multiple printer LPR ports can be filled.",
         "err_display_name_max_length": "Display name must be 32 characters or fewer.",
         "err_dhcp_range_excludes_router_ip": "The DHCP pool must not include the router IP address.",
-        "block_wan_subnets_tip_custom": "If this function is enabled, this custom subnet will not be able to access the upper-level network and the network segment where the upper-level network is located.",
         "ipv4_ranges_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Subnet address conflicts with \"{target}\".",
         "err_dhcp_params_invalid": "The DHCP pool, lease time, or DHCP parameters related to the gateway/netmask are invalid.",
