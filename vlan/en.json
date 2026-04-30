@@ -93,7 +93,8 @@
         "wan_access_tip_block_internet": "Block Internet Access: Blocks all outbound access, including the internet and WAN-side subnets.",
         "block_wan_subnets_tip_guest": "If this function is enabled, the guest network will not be able to access the upper network and the network segment where the upper network is located.",
         "block_wan_subnets_tip_iot": "If this function is enabled, the IoT network will not be able to access the upper network and the network segment where the upper network is located.",
-        "block_wan_subnets_tip_custom": "If this function is enabled, the custom network will not be able to access the upper network and the network segment where the upper network is located."
+        "block_wan_subnets_tip_custom": "If this function is enabled, the custom network will not be able to access the upper network and the network segment where the upper network is located.",
+        "lpr_tips": "Enter one or more LPR server IP addresses."
     },
     "menu_vlan": "VLAN"
 }
