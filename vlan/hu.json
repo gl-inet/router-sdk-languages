@@ -91,7 +91,10 @@
         "wan_access_tip_unrestricted": "Korlátozás nélküli: Lehetővé teszi, hogy ez az alhálózat korlátozások nélkül hozzáférjen az internethez és más WAN-oldali alhálózatokhoz.",
         "wan_access_tip_block_wan_subnet": "WAN alhálózat blokkolása: Blokkolja a hozzáférést más WAN-oldali alhálózatokhoz. Az internet-hozzáférés továbbra is elérhető marad.",
         "wan_access_tip_block_internet": "Internet-hozzáférés blokkolása: Blokkol minden kimenő hozzáférést, beleértve az internetet és a WAN-oldali alhálózatokat is.",
-        "wan_access_control_label": "WAN hozzáférés-vezérlés"
+        "wan_access_control_label": "WAN hozzáférés-vezérlés",
+        "block_wan_subnets_tip_guest": "Ha ez a funkció engedélyezve van, a vendéghálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
+        "block_wan_subnets_tip_iot": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
+        "block_wan_subnets_tip_custom": "Ha ez a funkció engedélyezve van, az egyéni hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez."
     },
     "menu_vlan": "VLAN"
 }
