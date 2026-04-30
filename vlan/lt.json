@@ -91,7 +91,10 @@
         "wan_access_tip_block_internet": "Blokuoti interneto prieigą: Blokuoja visą išorinę prieigą, įskaitant internetą ir WAN pusės potinklius.",
         "wan_access_block_wan_subnet": "Blokuoti WAN potinklį",
         "wan_access_block_internet": "Blokuoti interneto prieigą",
-        "wan_access_tip_block_wan_subnet": "Blokuoti WAN potinklį: Blokuoja prieigą prie kitų WAN pusės potinklių. Prieiga prie interneto išlieka."
+        "wan_access_tip_block_wan_subnet": "Blokuoti WAN potinklį: Blokuoja prieigą prie kitų WAN pusės potinklių. Prieiga prie interneto išlieka.",
+        "block_wan_subnets_tip_guest": "Jei ši funkcija įjungta, svečių tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
+        "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
+        "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, pasirinktinis tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas."
     },
     "menu_vlan": "VLAN"
 }
