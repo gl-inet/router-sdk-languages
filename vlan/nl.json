@@ -91,7 +91,10 @@
         "wan_access_block_internet": "Internettoegang blokkeren",
         "wan_access_tip_unrestricted": "Onbeperkt: Staat dit subnet toe om zonder beperkingen toegang te krijgen tot het internet en andere WAN-subnets.",
         "wan_access_tip_block_wan_subnet": "WAN-subnet blokkeren: Blokkeert de toegang tot andere WAN-subnets. Internettoegang blijft beschikbaar.",
-        "wan_access_tip_block_internet": "Internettoegang blokkeren: Blokkeert alle uitgaande toegang, inclusief het internet en WAN-subnets."
+        "wan_access_tip_block_internet": "Internettoegang blokkeren: Blokkeert alle uitgaande toegang, inclusief het internet en WAN-subnets.",
+        "block_wan_subnets_tip_guest": "Als deze functie is ingeschakeld, kan het gastnetwerk geen toegang krijgen tot het bovenliggende netwerk en het netwerksegment waarin het bovenliggende netwerk zich bevindt.",
+        "block_wan_subnets_tip_iot": "Als deze functie is ingeschakeld, kan het IoT-netwerk geen toegang krijgen tot het bovenliggende netwerk en het netwerksegment waarin het bovenliggende netwerk zich bevindt.",
+        "block_wan_subnets_tip_custom": "Als deze functie is ingeschakeld, kan het aangepaste netwerk geen toegang krijgen tot het bovenliggende netwerk en het netwerksegment waarin het bovenliggende netwerk zich bevindt."
     },
     "menu_vlan": "VLAN"
 }
