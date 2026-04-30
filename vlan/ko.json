@@ -93,7 +93,8 @@
         "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
         "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上层网络及上层网络所在的网段。",
         "block_wan_subnets_tip_guest": "如果启用此功能，访客网络将无法访问上层网络及上层网络所在的网段。",
-        "block_wan_subnets_tip_iot": "如果启用此功能，IoT网络将无法访问上层网络及上层网络所在的网段。"
+        "block_wan_subnets_tip_iot": "如果启用此功能，IoT网络将无法访问上层网络及上层网络所在的网段。",
+        "lpr_tips": "하나 이상의 LPR 서버 IP 주소를 입력하십시오."
     },
     "menu_vlan": "VLAN"
 }
