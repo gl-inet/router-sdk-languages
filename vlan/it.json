@@ -91,7 +91,10 @@
         "wan_access_tip_block_wan_subnet": "Blocca sottorete WAN: Impedisce l'accesso ad altre sottoreti sul lato WAN. L'accesso a Internet rimane disponibile.",
         "wan_access_block_wan_subnet": "Blocca sottorete WAN",
         "wan_access_tip_unrestricted": "Senza restrizioni: Consente a questa sottorete di accedere a Internet e ad altre sottoreti sul lato WAN senza restrizioni.",
-        "wan_access_tip_block_internet": "Blocca accesso a Internet: Impedisce tutto l'accesso in uscita, inclusi Internet e le sottoreti sul lato WAN."
+        "wan_access_tip_block_internet": "Blocca accesso a Internet: Impedisce tutto l'accesso in uscita, inclusi Internet e le sottoreti sul lato WAN.",
+        "block_wan_subnets_tip_guest": "Se questa funzione è abilitata, la rete ospite non potrà accedere alla rete superiore e al segmento di rete in cui si trova la rete superiore.",
+        "block_wan_subnets_tip_iot": "Se questa funzione è abilitata, la rete IoT non potrà accedere alla rete superiore e al segmento di rete in cui si trova la rete superiore.",
+        "block_wan_subnets_tip_custom": "Se questa funzione è abilitata, la rete personalizzata non potrà accedere alla rete superiore e al segmento di rete in cui si trova la rete superiore."
     },
     "menu_vlan": "VLAN"
 }
