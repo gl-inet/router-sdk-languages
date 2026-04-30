@@ -91,7 +91,10 @@
         "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
         "wan_access_control_label": "WAN访问控制",
         "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。",
-        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍可用。"
+        "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍可用。",
+        "block_wan_subnets_tip_guest": "Má tá an fheidhm seo cumasaithe, ní bheidh an líonra aoi in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleog líonra ina bhfuil an líonra uachtarach suite.",
+        "block_wan_subnets_tip_custom": "Má tá an fheidhm seo cumasaithe, ní bheidh an líonra saincheaptha in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleog líonra ina bhfuil an líonra uachtarach suite.",
+        "block_wan_subnets_tip_iot": "Má tá an fheidhm seo cumasaithe, ní bheidh an líonra IoT in ann rochtain a fháil ar an líonra uachtarach agus ar an deighleog líonra ina bhfuil an líonra uachtarach suite."
     },
     "menu_vlan": "VLAN"
 }
