@@ -91,7 +91,10 @@
         "wan_access_block_internet": "封鎖網際網路訪問",
         "wan_access_tip_unrestricted": "無限制：允許此子網不受限制地訪問網際網路及其他 WAN 端子網。",
         "wan_access_tip_block_wan_subnet": "封鎖 WAN 子網：封鎖對其他 WAN 端子網的訪問，但仍可訪問網際網路。",
-        "wan_access_tip_block_internet": "封鎖網際網路訪問：封鎖所有對外訪問，包括網際網路及 WAN 端子網。"
+        "wan_access_tip_block_internet": "封鎖網際網路訪問：封鎖所有對外訪問，包括網際網路及 WAN 端子網。",
+        "block_wan_subnets_tip_iot": "如果啟用此功能，物聯網網路將無法訪問上層網路及上層網路所在的網段。",
+        "block_wan_subnets_tip_custom": "如果啟用此功能，自定義網路將無法訪問上層網路及上層網路所在的網段。",
+        "block_wan_subnets_tip_guest": "如果啟用此功能，訪客網路將無法訪問上層網路及上層網路所在的網段。"
     },
     "menu_vlan": "VLAN"
 }
