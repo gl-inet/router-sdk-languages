@@ -91,7 +91,10 @@
         "wan_access_block_wan_subnet": "阻止WAN子网",
         "wan_access_block_internet": "阻止互联网访问",
         "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。",
-        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。"
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
+        "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上层网络及上层网络所在的网段。",
+        "block_wan_subnets_tip_guest": "如果启用此功能，访客网络将无法访问上层网络及上层网络所在的网段。",
+        "block_wan_subnets_tip_iot": "如果启用此功能，IoT网络将无法访问上层网络及上层网络所在的网段。"
     },
     "menu_vlan": "VLAN"
 }
