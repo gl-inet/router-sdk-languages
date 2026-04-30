@@ -91,7 +91,10 @@
         "wan_access_block_internet": "Internetzugriff blockieren",
         "wan_access_tip_unrestricted": "Uneingeschränkt: Erlaubt diesem Subnetz den uneingeschränkten Zugriff auf das Internet und andere WAN-seitige Subnetze.",
         "wan_access_tip_block_wan_subnet": "WAN-Subnetz blockieren: Blockiert den Zugriff auf andere WAN-seitige Subnetze. Der Internetzugang bleibt verfügbar.",
-        "wan_access_tip_block_internet": "Internetzugriff blockieren: Blockiert den gesamten ausgehenden Datenverkehr, einschließlich des Internets und WAN-seitiger Subnetze."
+        "wan_access_tip_block_internet": "Internetzugriff blockieren: Blockiert den gesamten ausgehenden Datenverkehr, einschließlich des Internets und WAN-seitiger Subnetze.",
+        "block_wan_subnets_tip_guest": "Wenn diese Funktion aktiviert ist, kann das Gastnetzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen.",
+        "block_wan_subnets_tip_iot": "Wenn diese Funktion aktiviert ist, kann das IoT-Netzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen.",
+        "block_wan_subnets_tip_custom": "Wenn diese Funktion aktiviert ist, kann das benutzerdefinierte Netzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen."
     },
     "menu_vlan": "VLAN"
 }
