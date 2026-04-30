@@ -91,7 +91,10 @@
         "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍可用。",
         "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
         "wan_access_control_label": "WAN Access Control",
-        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。"
+        "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。",
+        "block_wan_subnets_tip_guest": "Si cette fonction est activée, le réseau invité ne pourra pas accéder au réseau supérieur ni au segment réseau où se trouve le réseau supérieur.",
+        "block_wan_subnets_tip_custom": "Si cette fonction est activée, le réseau personnalisé ne pourra pas accéder au réseau supérieur ni au segment réseau où se trouve le réseau supérieur.",
+        "block_wan_subnets_tip_iot": "Si cette fonction est activée, le réseau IoT ne pourra pas accéder au réseau supérieur ni au segment réseau où se trouve le réseau supérieur."
     },
     "menu_vlan": "VLAN"
 }
