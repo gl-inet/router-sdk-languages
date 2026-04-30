@@ -91,7 +91,10 @@
         "wan_access_block_internet": "Block Internet Access",
         "wan_access_tip_unrestricted": "Unrestricted: Allows this subnet to access the internet and other WAN-side subnets without restrictions.",
         "wan_access_tip_block_wan_subnet": "Block WAN Subnet: Blocks access to other WAN-side subnets. Internet access remains available.",
-        "wan_access_tip_block_internet": "Block Internet Access: Blocks all outbound access, including the internet and WAN-side subnets."
+        "wan_access_tip_block_internet": "Block Internet Access: Blocks all outbound access, including the internet and WAN-side subnets.",
+        "block_wan_subnets_tip_guest": "If this function is enabled, the guest network will not be able to access the upper network and the network segment where the upper network is located.",
+        "block_wan_subnets_tip_iot": "If this function is enabled, the IoT network will not be able to access the upper network and the network segment where the upper network is located.",
+        "block_wan_subnets_tip_custom": "If this function is enabled, the custom network will not be able to access the upper network and the network segment where the upper network is located."
     },
     "menu_vlan": "VLAN"
 }
