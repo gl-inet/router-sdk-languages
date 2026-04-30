@@ -77,7 +77,6 @@
         "address_reservation_tip": "Lorsque vous spécifiez une adresse IP réservée pour un client LAN, ce client recevra toujours la même adresse IP lorsqu'il demandera une adresse IP au serveur DHCP du routeur. Vous pouvez attribuer des adresses IP réservées à des ordinateurs ou serveurs nécessitant des paramètres IP permanents.",
         "confirm_delete_all": "Êtes-vous sûr de vouloir supprimer toutes les réservations d'adresses ?",
         "lpr_serve_label": "Serveur LPR",
-        "lpr_tips": "Plusieurs ports LPR d'imprimante peuvent être renseignés.",
         "err_display_name_max_length": "Le nom d'affichage doit comporter 32 caractères ou moins.",
         "err_dhcp_range_excludes_router_ip": "Le pool DHCP ne doit pas inclure l'adresse IP du routeur.",
         "ipv4_ranges_tip": "Vous pouvez définir un sous-réseau dans les plages d'adresses privées IPv4 : 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
