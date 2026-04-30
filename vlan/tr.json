@@ -91,7 +91,10 @@
         "wan_access_block_wan_subnet": "WAN Alt Ağını Engelle",
         "wan_access_block_internet": "İnternet Erişimini Engelle",
         "wan_access_tip_block_wan_subnet": "WAN Alt Ağını Engelle: Diğer WAN tarafı alt ağlarına erişimi engeller. İnternet erişimi kullanılabilir durumda kalır.",
-        "wan_access_tip_block_internet": "İnternet Erişimini Engelle: İnternet ve WAN tarafı alt ağları dahil tüm giden erişimi engeller."
+        "wan_access_tip_block_internet": "İnternet Erişimini Engelle: İnternet ve WAN tarafı alt ağları dahil tüm giden erişimi engeller.",
+        "block_wan_subnets_tip_guest": "Bu işlev etkinleştirilirse, misafir ağı üst ağa ve üst ağın bulunduğu ağ segmentine erişemez.",
+        "block_wan_subnets_tip_iot": "Bu işlev etkinleştirilirse, IoT ağı üst ağa ve üst ağın bulunduğu ağ segmentine erişemez.",
+        "block_wan_subnets_tip_custom": "Bu işlev etkinleştirilirse, özel ağ üst ağa ve üst ağın bulunduğu ağ segmentine erişemez."
     },
     "menu_vlan": "VLAN"
 }
