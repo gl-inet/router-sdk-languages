@@ -20,7 +20,7 @@
         "channel_optimization": "Uasmhéadú Cainéal",
         "repeater_using_tips": "Ní féidir an iontráil a athrú nuair a bhíonn an t-athsheoltóir cumasaithe.",
         "enable": "Cumasaigh Wi-Fi",
-        "enable_dfs_tips": "Má shanntar an ródaire chun cainéal DFS a úsáid, beidh gá le seiceáil infhaighteachta cainéil gach uair a chuirtear Wi-Fi ar siúl. Le linn an ama seo, ní bheidh an comhartha 5GHz ar fáil le haghaidh naisc, agus tógann an próiseas seo tamall. Má aimsíonn an ródaire go bhfuil radar ag úsáid an chainéil reatha, dícheanglóidh sé go sealadach ón gcliant agus aistreoidh sé go dtí cainéal eile atá ar fáil. Ina theannta sin, múchfar Wi-Fi 5GHz go sealadach agus an ródaire ag scanadh le haghaidh líonraí cóngaracha atá ar fáil.",
+        "enable_dfs_tips": "Má tá an ródaire sannta chun cainéal DFS a úsáid, ansin tá gá le seiceáil infhaighteachta cainéal gach uair a chuirtear Wi-Fi ar siúl. Le linn an ama seo, ní bheidh an comhartha 5GHz ar fáil le haghaidh naisc, agus tógann an próiseas seo roinnt ama. Má bhraitheann an ródaire go bhfuil an radar ag baint úsáide as an gcainéal reatha, déanfaidh sé dícheangail go sealadach ón gcliant agus aistreoidh sé go cainéal eile atá ar fáil. Ina theannta sin, múchfar Wi-Fi 5GHz go sealadach agus an ródaire ag scanadh le haghaidh líonraí in aice láimhe atá ar fáil.",
         "enable_dfs": "Ceadaigh Cainéal DFS",
         "dsf_starting": "Ag seiceáil ar infhaighteacht chainéil. Tógfaidh an próiseas seo $$$$. Fan go fóill……",
         "dsf_conflict": "Tá Wi-Fi 5GHz ar fáil go sealadach toisc go bhfuil radar ag úsáid an chainéil atá in úsáid ag an ródaire faoi láthair.",
@@ -61,7 +61,7 @@
         "radio_configuration_tips": "Cuirfear an chumraíocht seo a leanas i bhfeidhm ar gach líonra {band}.",
         "band_6g_bandwidth_limit_160mhz_tips": "Tacaíonn Wi-Fi 6GHz suas le 160MHz leithead banda.",
         "lan_iot_conflict_tips": "Chun coimhlint idir {lan} agus {iot} a sheachaint, ní féidir IoT Wi-Fi a ghníomhachtú.",
-        "enable_random_bssid_tips": "Déanfaidh an oibríocht seo comhshnáthú ar shocruithe BSSID randamach ar gach banda 6 GHz, agus atosóidh an Wi-Fi chun na hathruithe seo a chur i bhfeidhm."
+        "enable_random_bssid_tips": "Déanfaidh an oibríocht seo socruithe BSSID randamacha a shioncrónú ar fud na mbanda 6GHz go léir, agus atosófar an Wi-Fi chun na hathruithe seo a chur i bhfeidhm."
     },
     "menu_wireless": "Gan Sreang"
 }
