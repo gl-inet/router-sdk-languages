@@ -41,7 +41,8 @@
         "passthrough_only_one_wan_tips": "Az IP-passthrough módba való váltáshoz lépjen a {page} oldalra, és kapcsolja ki a WAN as LAN vagy LAN as WAN funkciót.",
         "sub_tips": "Ha a {mode} módot használja, többé nem fog tudni csatlakozni ehhez a felhasználói felülethez. A visszaállításhoz nyomja és tartsa nyomva a reset gombot 4 másodpercig, hogy visszaváltson router módra.",
         "reset_wan_port_msg": "Kérjük, konfigurálja a {port} portot WAN portként, és csak Ethernet kábelt csatlakoztasson a {port} porthoz.",
-        "unplug_cable_msg": "Kérjük, húzza ki az Ethernet-kábelt a(z) {port} portból."
+        "unplug_cable_msg": "Kérjük, húzza ki az Ethernet-kábelt a(z) {port} portból.",
+        "change_router_network_mode_tips": "A router hálózati módjának megváltoztatása visszaállít néhány hálózati beállítást, például a(z) {label} beállítást, és minden klienseszköznek újra kell csatlakoznia."
     },
     "menu_bridge": "Üzemmód"
 }
