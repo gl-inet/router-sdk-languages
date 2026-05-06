@@ -41,7 +41,8 @@
         "passthrough_only_one_wan_tips": "Norėdami perjungti į IP pérdavos veikseną, eikite į – {page} ir išjunkite „WAN“ veikimą kaip „LAN“ arba „LAN“ veikimą kaip „WAN“.",
         "sub_tips": "Kai naudojate – {mode}; nebegalėsite prisijungti prie šios naudotojo/vartotojo grafinės sąsajos. Galėsite paspausti ir laikyti atstatymo mygtuką maršrutizatoriuje 4-iom sekundėm, kad grąžintumėte veikimą į maršrutizatoriaus veikseną.",
         "reset_wan_port_msg": "Prašome sukonfigūruoti – {port} kaip „WAN“ prievadą ir prijunkite tik „eterneto“ laidą prie/į – {port}.",
-        "unplug_cable_msg": "Atjunkite/Ištraukite „eterneto“ laidą iš – {port}."
+        "unplug_cable_msg": "Atjunkite/Ištraukite „eterneto“ laidą iš – {port}.",
+        "change_router_network_mode_tips": "Pakeitus maršrutizatoriaus tinklo veikseną, bus grąžinti į pradinę padėtį kai kurie tinklo nustatymai, pvz., {label}, ir visi kliento įrenginiai turės prisijungti iš naujo."
     },
     "menu_bridge": "Tinklo veiksena"
 }
