@@ -548,7 +548,8 @@
         "init_wg_step_tip_1": "1. Bir WireGuard® yapılandırma dosyası oluşturun.",
         "init_wg_step_tip_2": "2. Bir eş yapılandırması ekleyin.",
         "init_wg_step_tip_3": "3. Eş bilgilerini istemciye aktarın.",
-        "init_wg_add_peer_tip": "Henüz herhangi bir eş yapılandırmanız bulunmuyor. Başlamak için bir eş yapılandırması ekleyin."
+        "init_wg_add_peer_tip": "Henüz herhangi bir eş yapılandırmanız bulunmuyor. Başlamak için bir eş yapılandırması ekleyin.",
+        "address_conflict_common_tips": "{vpnType} IP adresi ({address}), {interface} arayüzünün {type} ile çakışıyor."
     },
     "menu_wgserver": "WireGuard Sunucusu",
     "menu_ovpnserver": "OpenVPN Sunucusu",
@@ -588,7 +589,8 @@
         "stop_config_tunnel_stopped_tips": "Eğer bir tünel yalnızca bu yapılandırmayı içeriyorsa, tünel durdurulacaktır.",
         "stop_config_visit_dashboard_tips": "Tünelleri yönetmek için lütfen {page} sayfasını ziyaret edin.",
         "remove_config_btn": "Yapılandırmaları Sil",
-        "reomving_config_warning_tips": "Silmek istediğinizden emin misiniz?"
+        "reomving_config_warning_tips": "Silmek istediğinizden emin misiniz?",
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}), {interface} ile çakışıyor."
     },
     "ovpnclient": {
         "legacy_label": "Eski",
