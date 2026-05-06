@@ -42,7 +42,7 @@
         "sub_tips": "使用{mode}时，您将无法再次连接到此用户界面。按住复位按钮4秒可恢复至路由器模式。",
         "reset_wan_port_msg": "请将 {port} 配置为 WAN 口，并将网线插入 {port}。",
         "unplug_cable_msg": "请从 {port} 处拔掉以太网网线。",
-        "change_router_network_mode_tips": "更改路由器的网络模式将重置部分网络设置，例如{feature}，所有客户端设备将需要重新连接。"
+        "change_router_network_mode_tips": "更改路由器的网络模式时，部分网络设置（例如 {feature}）将会被重置，并且所有客户端设备都需要重新连接。"
     },
     "menu_bridge": "网络模式"
 }
