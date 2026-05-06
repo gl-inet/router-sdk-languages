@@ -625,6 +625,7 @@
         "manual_label": "マニュアル",
         "manual_mac_label": "手動MACアドレス",
         "no_wan_tips": "{silkprint}はLAN（ローカルエリアネットワーク）として使用されています。{view}でWAN（ワイドエリアネットワーク）に戻すことができます。",
-        "modify_subnet": "サブネットを変更する"
+        "modify_subnet": "サブネットを変更する",
+        "subnet_conflict_tips": "当前WAN IP子网与现有子网冲突。请{subnet}或调整上游网络配置。"
     }
 }
