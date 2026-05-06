@@ -41,7 +41,8 @@
         "passthrough_close_edge_tips": "IP Passthrough로 전환하려면 {page}를 끄십시오.",
         "sub_tips": "{mode}를 사용할 경우, 이 UI에 다시 연결할 수 없게 됩니다. 라우터 모드로 되돌리려면 리셋 버튼을 4초간 길게 누르세요.",
         "reset_wan_port_msg": "{port}를 WAN 포트로 구성하고 이더넷 케이블을 {port}에만 연결하십시오.",
-        "unplug_cable_msg": "{port}에서 이더넷 케이블을 분리해 주십시오."
+        "unplug_cable_msg": "{port}에서 이더넷 케이블을 분리해 주십시오.",
+        "change_router_network_mode_tips": "라우터의 네트워크 모드를 변경하면 {label}과 같은 일부 네트워크 설정이 초기화되며, 모든 클라이언트 장치가 다시 연결해야 합니다."
     },
     "menu_bridge": "네트워크 모드"
 }
