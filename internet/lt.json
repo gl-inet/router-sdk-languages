@@ -625,6 +625,7 @@
         "manual_label": "Rankinis",
         "manual_mac_label": "Rankinio MAC adresas",
         "no_wan_tips": "{silkprint} buvo naudojama kaip vietinis tinklas („LAN“). Galite jį vėl nustatyti į plačiajuostį tinklą („WAN“) per {view}.",
-        "modify_subnet": "keisti potinklį"
+        "modify_subnet": "keisti potinklį",
+        "subnet_conflict_tips": "Dabartinis WAN IP potinklis konfliktuoja su esamu potinkliu. Prašome {subnet} arba pakoreguoti išsiunčiamo srauto tinklo konfigūraciją."
     }
 }
