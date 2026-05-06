@@ -553,7 +553,8 @@
         "init_wg_step_tip_3": "3. 將節點資訊匯出至客戶端。",
         "init_wg_add_peer_tip": "您目前尚未設定任何節點配置。請先新增節點配置以開始使用。",
         "init_wg_desc": "WireGuard® 是一款採用尖端加密技術、極簡易且高速的現代化VPN。請遵循以下步驟：",
-        "init_wg_step_tip_2": "2. 新增節點配置。"
+        "init_wg_step_tip_2": "2. 新增節點配置。",
+        "address_conflict_common_tips": "{vpnType} IP 地址 ({address}) 与 {interface} 的 {type} 冲突。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "許多路由功能將無法使用。",
@@ -588,7 +589,8 @@
         "stop_config_tunnel_stopped_tips": "如果隧道仅包含此配置，隧道将被停止。",
         "stop_config_visit_dashboard_tips": "如需管理隧道，請訪問 {page}。",
         "remove_config_btn": "刪除配置",
-        "reomving_config_warning_tips": "您確定要刪除嗎？"
+        "reomving_config_warning_tips": "您確定要刪除嗎？",
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 與 {interface} 衝突。"
     },
     "ovpnclient": {
         "legacy_label": "兼容",
