@@ -553,7 +553,8 @@
         "init_wg_step_tip_1": "1. Sugeneruokite „WireGuard®“ konfigūracijos failą.",
         "init_wg_step_tip_2": "2. Pridėkite lygiaraščio konfigūraciją.",
         "init_wg_step_tip_3": "3. Eksportuokite lygiaraščio informaciją į klientą.",
-        "init_wg_add_peer_tip": "Jūs dar neturite jokios lygiaraščio konfigūracijos. Norėdami pradėti, pridėkite lygiaraščio konfigūraciją."
+        "init_wg_add_peer_tip": "Jūs dar neturite jokios lygiaraščio konfigūracijos. Norėdami pradėti, pridėkite lygiaraščio konfigūraciją.",
+        "address_conflict_common_tips": "{vpnType} IP adresas ({address}) konfliktuoja su {interface} {type}."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Daug kelvado funkcijų nebus prieinamos.",
@@ -588,7 +589,8 @@
         "stop_config_tunnel_stopped_tips": "Jei tunelyje yra tik ši konfigūracija, tunelis bus sustabdytas.",
         "stop_config_visit_dashboard_tips": "Norėdami tvarkyti tunelius, apsilankykite {page}.",
         "remove_config_btn": "Konfigūracijų trynimas",
-        "reomving_config_warning_tips": "Ar tikrai norite ištrinti?"
+        "reomving_config_warning_tips": "Ar tikrai norite ištrinti?",
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) konfliktuoja su {interface}."
     },
     "ovpnclient": {
         "legacy_label": "Pasenusio/-s standarto/įrangos",
