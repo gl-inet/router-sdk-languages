@@ -41,8 +41,7 @@
         "passthrough_only_one_wan_tips": "IPパススルーに切り替えるには、{page}に移動して、WAN as LANまたはLAN as WANをオフにしてください。",
         "sub_tips": "{mode}を使用すると、このユーザーインターフェースに再度接続できなくなります。リセットボタンを4秒間押し続けることで、ルーターモードに戻せます。",
         "reset_wan_port_msg": "{port}をWANポートとして設定し、イーサネットケーブルは{port}のみに接続してください。",
-        "unplug_cable_msg": "{port}からイーサネットケーブルを取り外してください。",
-        "change_router_network_mode_tips": "ルーターのネットワークモードを変更すると、{label}などの一部のネットワーク設定がリセットされ、すべてのクライアントデバイスが再接続する必要があります。"
+        "unplug_cable_msg": "{port}からイーサネットケーブルを取り外してください。"
     },
     "menu_bridge": "ネットワークモード"
 }
