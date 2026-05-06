@@ -132,7 +132,7 @@
         "using_other_methods_title": "Usando otros métodos",
         "join_by_ethernet_cable_label": "Unirse por cable Ethernet",
         "enter_main_router_pairing_code_label": "Por favor, ingrese el código de emparejamiento generado por su Router Principal.",
-        "join_by_ethernet_cable_tips": "Por favor, conecte el puerto LAN del Router Principal al puerto LAN de este Nodo Mesh utilizando un cable Ethernet.",
+        "join_by_ethernet_cable_tips": "Conecte el puerto LAN del Router principal al puerto WAN de este Nodo Mesh mediante un cable Ethernet.",
         "nodes_title": "Nodos",
         "mesh_node_mode_tips2": "Cuando lleves el dispositivo fuera de tu red doméstica, cambiará automáticamente al modo Astro Node.",
         "mesh_node_mode_tips": "El dispositivo se encuentra actualmente en modo Nodo de Malla. Puede iniciar sesión en el panel de administración del Router Principal para gestionarlo.",
@@ -159,7 +159,7 @@
         "reset_mode_tips1": "¿Está seguro de que desea restablecer la red AstroMesh?",
         "reset_mode_tips2": "Todos los ajustes actuales de AstroMesh se borrarán y los nodos de la malla se restablecerán a la configuración de fábrica.",
         "aw_pending_tips": "No se puede conectar a su Router Principal, y la red AstroMesh no está disponible actualmente. Verifique el estado de la conexión de red del Router Principal.",
-        "cloud_service_not_working_tips": "El servicio en la nube no funciona correctamente, y es posible que los nodos Astro no estén conectados. Verifique el estado de la conexión de red."
+        "cloud_service_not_working_tips": "El servicio en la nube no funciona correctamente, y los nodos Astro pueden no estar conectados. Por favor, verifique el estado de la conexión de red."
     },
     "menu_astromesh": "AstroMesh"
 }
