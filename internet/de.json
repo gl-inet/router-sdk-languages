@@ -624,6 +624,7 @@
     "internet": {
         "manual_label": "Handbuch",
         "manual_mac_label": "Manuelle MAC-Adresse",
-        "no_wan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet. Sie können es in {view} wieder auf WAN (Wide Area Network) zurücksetzen."
+        "no_wan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet. Sie können es in {view} wieder auf WAN (Wide Area Network) zurücksetzen.",
+        "subnet_conflict_tips": "Das aktuelle WAN-IP-Subnetz steht im Konflikt mit einem vorhandenen Subnetz. Bitte passen Sie den {subnet}-Bereich an oder ändern Sie die Konfiguration des vorgelagerten Netzwerks."
     }
 }
