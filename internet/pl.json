@@ -625,6 +625,7 @@
         "manual_label": "Instrukcja",
         "manual_mac_label": "Ręczne ustawienie adresu MAC",
         "no_wan_tips": "{silkprint} został użyty jako LAN (sieć lokalna). Możesz przywrócić go do WAN (sieć rozległa) w {view}.",
-        "modify_subnet": "zmodyfikuj podsieć"
+        "modify_subnet": "zmodyfikuj podsieć",
+        "subnet_conflict_tips": "Obecna podsieć adresu WAN jest w konflikcie z istniejącą podsiecią. Proszę {subnet} lub dostosować konfigurację sieci nadrzędnej."
     }
 }
