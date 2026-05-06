@@ -553,7 +553,8 @@
         "init_wg_step_tip_1": "1. Generieren Sie eine WireGuard®-Konfigurationsdatei.",
         "init_wg_step_tip_2": "2. Fügen Sie eine Peer-Konfiguration hinzu.",
         "init_wg_step_tip_3": "3. Exportieren Sie die Peer-Informationen an den Client.",
-        "init_wg_add_peer_tip": "Sie haben noch keine Peer-Konfiguration. Um zu beginnen, fügen Sie eine Peer-Konfiguration hinzu."
+        "init_wg_add_peer_tip": "Sie haben noch keine Peer-Konfiguration. Um zu beginnen, fügen Sie eine Peer-Konfiguration hinzu.",
+        "address_conflict_common_tips": "{vpnType} IP-Adresse ({address}) steht im Konflikt mit dem {type} der Schnittstelle {interface}."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Viele Routing-Funktionen werden nicht verfügbar sein.",
@@ -588,7 +589,8 @@
         "stop_config_tunnel_stopped_tips": "Wenn ein Tunnel nur diese Konfiguration enthält, wird der Tunnel gestoppt.",
         "stop_config_visit_dashboard_tips": "Um Tunnel zu verwalten, besuchen Sie bitte die {page}.",
         "remove_config_btn": "Konfigurationen löschen",
-        "reomving_config_warning_tips": "Sind Sie sicher, dass Sie löschen möchten?"
+        "reomving_config_warning_tips": "Sind Sie sicher, dass Sie löschen möchten?",
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) steht im Konflikt mit {interface}."
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
