@@ -624,6 +624,8 @@
     "internet": {
         "manual_label": "Manual",
         "manual_mac_label": "Dirección MAC manual",
-        "no_wan_tips": "{silkprint} se ha utilizado como LAN (Red de Área Local). Puede volver a configurarlo como WAN (Red de Área Amplia) en {view}."
+        "no_wan_tips": "{silkprint} se ha utilizado como LAN (Red de Área Local). Puede volver a configurarlo como WAN (Red de Área Amplia) en {view}.",
+        "subnet_conflict_tips": "La subred IP WAN actual entra en conflicto con una subred existente. Modifique el rango de {subnet} o ajuste la configuración de la red ascendente.",
+        "modify_subnet": "modificar la subred"
     }
 }
