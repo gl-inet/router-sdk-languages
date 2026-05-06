@@ -624,6 +624,7 @@
     "internet": {
         "manual_label": "Lámhleabhar",
         "manual_mac_label": "Seoladh MAC de láimh",
-        "no_wan_tips": "Úsáideadh {silkprint} mar LAN (Líonra Ceantair Áitiúil). Is féidir leat é a shocrú ar ais go WAN (Líonra Ceantair Leathan) i {view}"
+        "no_wan_tips": "Úsáideadh {silkprint} mar LAN (Líonra Ceantair Áitiúil). Is féidir leat é a shocrú ar ais go WAN (Líonra Ceantair Leathan) i {view}",
+        "subnet_conflict_tips": "Tá fo-líonra IP reatha an WAN ag teacht salach ar fho-líonra atá ann cheana. Déan modhnú ar raon an fho-líonra nó coigeartaigh cumraíocht an ghréasáin uachtaraigh."
     }
 }
