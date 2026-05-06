@@ -553,7 +553,8 @@
         "init_wg_add_peer_tip": "아직 피어 구성이 없습니다. 시작하려면 피어 구성을 추가하세요.",
         "init_ovpn_step_tip_3": "3. 클라이언트 구성 파일을 기기로 내보내기.",
         "init_wg_desc": "WireGuard®는 최신 암호화 기술을 활용한 매우 간단하고 빠르며 현대적인 VPN입니다. 다음 단계를 따라 진행하세요:",
-        "init_wg_step_tip_3": "3. 피어 정보를 클라이언트로 내보내기."
+        "init_wg_step_tip_3": "3. 피어 정보를 클라이언트로 내보내기.",
+        "address_conflict_common_tips": "{vpnType} IP地址({address})与{interface}的{type}冲突。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "많은 라우팅 기능을 사용할 수 없게 됩니다.",
@@ -588,7 +589,8 @@
         "stop_config_tunnel_stopped_tips": "터널에 이 구성만 포함되어 있으면 터널이 중지됩니다.",
         "stop_config_visit_dashboard_tips": "터널을 관리하려면 {page}를 방문하세요.",
         "remove_config_btn": "구성 삭제",
-        "reomving_config_warning_tips": "삭제하시겠습니까?"
+        "reomving_config_warning_tips": "삭제하시겠습니까?",
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 与 {interface} 冲突。"
     },
     "ovpnclient": {
         "legacy_label": "레거시",

@@ -339,7 +339,8 @@
     "router_visual": {
         "wlan_client": "WLAN-cliënten",
         "lan_Client": "LAN-cliënten",
-        "usb_client": "USB Client"
+        "usb_client": "USB Client",
+        "astromesh_nodes": "AstroMesh Nodes"
     },
     "modemmanage": {
         "port": "Poort",
@@ -623,6 +624,7 @@
     "internet": {
         "manual_label": "Handleiding",
         "manual_mac_label": "Handmatig MAC-adres",
-        "no_wan_tips": "{silkprint} is gebruikt als LAN (Local Area Network). U kunt het terugzetten naar WAN (Wide Area Network) in {view}"
+        "no_wan_tips": "{silkprint} is gebruikt als LAN (Local Area Network). U kunt het terugzetten naar WAN (Wide Area Network) in {view}",
+        "subnet_conflict_tips": "Het huidige WAN IP-subnet conflicteert met een bestaand subnet. Wijzig het subnetbereik of pas de upstream-netwerkconfiguratie aan."
     }
 }

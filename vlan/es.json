@@ -73,16 +73,12 @@
         "confirm_delete_subnet": "¿Está seguro de que desea eliminar esta red?",
         "lpr_serve_label": "Servidor LPR",
         "dhcp_charter_label": "Tiempo de concesión",
-        "lpr_tips": "Se pueden completar múltiples puertos LPR de impresora.",
         "dhcp_server": "Servidor DHCP",
         "end_ip_address": "Dirección IP final",
         "delete_all": "Eliminar todo",
         "add_reservation": "Agregar una nueva entrada de reserva",
         "err_display_name_max_length": "El nombre para mostrar debe tener 32 caracteres o menos.",
         "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router.",
-        "block_wan_subnets_tip_guest": "Si esta función está habilitada, la red de invitados no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
-        "block_wan_subnets_tip_iot": "Si esta función está habilitada, la red IoT no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
-        "block_wan_subnets_tip_custom": "Si esta función está habilitada, esta subred personalizada no podrá acceder a la red de nivel superior y al segmento de red donde se encuentra la red de nivel superior.",
         "ipv4_ranges_tip": "Puede configurar subredes dentro de los rangos de direcciones privadas IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "La dirección de subred entra en conflicto con \"{target}\".",
         "err_dhcp_params_invalid": "El grupo DHCP, el tiempo de concesión o los parámetros DHCP relacionados con la puerta de enlace/máscara de red no son válidos.",
@@ -94,7 +90,11 @@
         "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍然可用。",
         "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
         "wan_access_control_label": "WAN访问控制",
-        "wan_access_unrestricted": "无限制"
+        "wan_access_unrestricted": "无限制",
+        "block_wan_subnets_tip_guest": "Si esta función está habilitada, la red de invitados no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
+        "block_wan_subnets_tip_iot": "Si esta función está habilitada, la red IoT no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
+        "block_wan_subnets_tip_custom": "Si esta función está habilitada, la red personalizada no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
+        "lpr_tips": "Ingrese una o más direcciones IP del servidor LPR."
     },
     "menu_vlan": "VLAN"
 }

@@ -284,7 +284,8 @@
     "router_visual": {
         "wlan_client": "WLANクライアント",
         "lan_Client": "LANクライアント",
-        "usb_client": "USBクライアント"
+        "usb_client": "USBクライアント",
+        "astromesh_nodes": "AstroMesh Nodes"
     },
     "modemmanage": {
         "title": "管理",
@@ -623,6 +624,7 @@
     "internet": {
         "manual_label": "マニュアル",
         "manual_mac_label": "手動MACアドレス",
-        "no_wan_tips": "{silkprint}はLAN（ローカルエリアネットワーク）として使用されています。{view}でWAN（ワイドエリアネットワーク）に戻すことができます。"
+        "no_wan_tips": "{silkprint}はLAN（ローカルエリアネットワーク）として使用されています。{view}でWAN（ワイドエリアネットワーク）に戻すことができます。",
+        "subnet_conflict_tips": "WAN IPサブネットが既存のサブネットと競合しています。サブネット範囲または上流ネットワーク設定を変更してください。"
     }
 }

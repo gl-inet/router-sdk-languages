@@ -553,7 +553,8 @@
         "init_ovpn_step_tip_1": "1. OpenVPN設定ファイルを生成。",
         "init_wg_step_tip_2": "2. ピア設定を追加。",
         "init_wg_step_tip_3": "3. ピア情報をクライアントにエクスポート。",
-        "init_wg_add_peer_tip": "ピア設定がまだありません。開始するには、ピア設定を追加してください。"
+        "init_wg_add_peer_tip": "ピア設定がまだありません。開始するには、ピア設定を追加してください。",
+        "address_conflict_common_tips": "{vpnType} IP地址({address})与{interface}的{type}冲突。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "多くのルーティング機能が利用できなくなります。",
@@ -588,7 +589,8 @@
         "stop_config_tunnel_stopped_tips": "トンネルにこの設定のみが含まれている場合、そのトンネルは停止されます。",
         "stop_config_visit_dashboard_tips": "トンネルを管理するには、{page}をご覧ください。",
         "remove_config_btn": "設定を削除",
-        "reomving_config_warning_tips": "削除してもよろしいですか？"
+        "reomving_config_warning_tips": "削除してもよろしいですか？",
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 与 {interface} 冲突。"
     },
     "ovpnclient": {
         "legacy_label": "レガシー",

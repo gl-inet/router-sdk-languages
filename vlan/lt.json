@@ -77,12 +77,8 @@
         "confirm_delete_subnet": "Ar tikrai norite ištrinti šį tinklą?",
         "lpr_serve_label": "LPR serveris",
         "dhcp_charter_label": "Nuomos laikas",
-        "lpr_tips": "Galima užpildyti kelis spausdintuvo LPR prievadus.",
         "err_display_name_max_length": "Rodomas pavadinimas turi būti ne ilgesnis nei 32 simboliai.",
         "err_dhcp_range_excludes_router_ip": "DHCP telkinys neturi apimti maršrutizatoriaus IP adreso.",
-        "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
-        "block_wan_subnets_tip_guest": "Jei ši funkcija įjungta, svečių tinklas negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
-        "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, šis pasirinktinis potinklis negalės pasiekti aukštesnio lygio tinklo ir tinklo segmento, kuriame yra aukštesnio lygio tinklas.",
         "ipv4_ranges_tip": "Galite nustatyti potinklį IPv4 privačių adresų diapazonuose: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Potinklio adresas konfliktuoja su „{target}“.",
         "err_dhcp_params_invalid": "DHCP telkinio, nuomos laiko arba su tinklo tarpuvarte/„tinklo kauke – „netmask““ susiję DHCP parametrai yra negalimi.",
@@ -94,7 +90,11 @@
         "wan_access_tip_block_internet": "Blokuoti interneto prieigą: Blokuoja visą išorinę prieigą, įskaitant internetą ir WAN pusės potinklius.",
         "wan_access_block_wan_subnet": "Blokuoti WAN potinklį",
         "wan_access_block_internet": "Blokuoti interneto prieigą",
-        "wan_access_tip_block_wan_subnet": "Blokuoti WAN potinklį: Blokuoja prieigą prie kitų WAN pusės potinklių. Prieiga prie interneto išlieka."
+        "wan_access_tip_block_wan_subnet": "Blokuoti WAN potinklį: Blokuoja prieigą prie kitų WAN pusės potinklių. Prieiga prie interneto išlieka.",
+        "block_wan_subnets_tip_guest": "Jei ši funkcija įjungta, svečių tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
+        "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
+        "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, pasirinktinis tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
+        "lpr_tips": "Įveskite vieną ar daugiau LPR serverio IP adresų."
     },
     "menu_vlan": "VLAN"
 }

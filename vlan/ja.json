@@ -76,13 +76,9 @@
         "confirm_delete_subnet": "このネットワークを削除してもよろしいですか？",
         "lpr_serve_label": "LPRサーバー",
         "dhcp_charter_label": "リース時間",
-        "lpr_tips": "複数のプリンターLPRポートを入力できます。",
         "add_reservation": "新しい予約エントリを追加",
         "err_display_name_max_length": "表示名は32文字以内でなければなりません。",
         "err_dhcp_range_excludes_router_ip": "DHCPプールにはルーターのIPアドレスを含めてはいけません。",
-        "block_wan_subnets_tip_iot": "この機能を有効にすると、IoTネットワークは上位ネットワークおよびそのネットワークセグメントにアクセスできなくなります。",
-        "block_wan_subnets_tip_guest": "この機能を有効にすると、ゲストネットワークは上位ネットワークおよびそのネットワークセグメントにアクセスできなくなります。",
-        "block_wan_subnets_tip_custom": "この機能を有効にすると、このカスタムサブネットは上位ネットワークおよびそのネットワークセグメントにアクセスできなくなります。",
         "ipv4_ranges_tip": "IPv4プライベートアドレス範囲内でサブネットを設定できます: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "サブネットアドレスが\"{target}\"と競合しています。",
         "err_dhcp_params_invalid": "DHCPプール、リース時間、またはゲートウェイ/ネットマスクに関連するDHCPパラメータが無効です。",
@@ -94,7 +90,11 @@
         "wan_access_tip_unrestricted": "无限制：允许此子网不受限制地访问互联网及其他WAN侧子网。",
         "wan_access_control_label": "WAN访问控制",
         "wan_access_tip_block_wan_subnet": "阻止WAN子网：阻止访问其他WAN侧子网。互联网访问仍然可用。",
-        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。"
+        "wan_access_tip_block_internet": "阻止互联网访问：阻止所有出站访问，包括互联网和WAN侧子网。",
+        "block_wan_subnets_tip_guest": "启用此功能后，访客网络将无法访问上层网络及其所在的网段。",
+        "block_wan_subnets_tip_iot": "启用此功能后，物联网网络将无法访问上层网络及其所在的网段。",
+        "block_wan_subnets_tip_custom": "启用此功能后，自定义网络将无法访问上层网络及其所在的网段。",
+        "lpr_tips": "输入一个或多个LPR服务器IP地址。"
     },
     "menu_vlan": "VLAN"
 }

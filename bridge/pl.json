@@ -41,7 +41,8 @@
         "passthrough_only_one_wan_tips": "Aby przełączyć się na tryb IP passthrough, przejdź do {page} i wyłącz opcję WAN jako LAN lub LAN jako WAN.",
         "sub_tips": "Gdy używasz trybu {mode}, nie będziesz mógł ponownie połączyć się z tym interfejsem użytkownika. Aby powrócić do trybu routera, przytrzymaj przycisk resetowania przez 4 sekundy.",
         "reset_wan_port_msg": "Skonfiguruj {port} jako port WAN i podłącz tylko kabel Ethernet do {port}.",
-        "unplug_cable_msg": "Proszę odłączyć kabel Ethernet od portu {port}."
+        "unplug_cable_msg": "Proszę odłączyć kabel Ethernet od portu {port}.",
+        "change_router_network_mode_tips": "Zmiana trybu sieci routera spowoduje zresetowanie niektórych ustawień sieciowych, takich jak {feature}, a wszystkie urządzenia klienckie będą musiały się ponownie połączyć."
     },
     "menu_bridge": "Tryb Sieciowy"
 }

@@ -18,7 +18,6 @@
         "lan_tab": "Réseau local",
         "guest_tab": "Réseau invité",
         "ip_easy_tip": "L'adresse IP du routeur est l'adresse que vous devez saisir dans la barre d'adresse de votre navigateur pour accéder à la page d'administration du routeur.",
-        "lpr_tips": "Plusieurs ports LPR d'imprimante peuvent être remplis.",
         "security_title": "Paramètres de sécurités",
         "ap_isolate_label": "Isolation d'un AP",
         "ap_isolate_tips": "Vous pouvez isoler les appareils clients de votre réseau dans une zone de réseau séparée. Ces appareils ne peuvent pas communiquer avec les autres appareils du réseau.",
@@ -30,7 +29,8 @@
         "guest_disabel_tips": "Le réseau invité n'est pas disponible actuellement car {guest} est désactivé.",
         "iot_conflict_tips": "Il est en conflit avec l'IP IoT",
         "host_name_tips": "2 à 63 caractères. Seules les lettres, les chiffres ou les traits d'union sont autorisés. Ne doit pas commencer ou se terminer par un trait d'union, ni être composé uniquement de chiffres.",
-        "host_name_existed_tips": "Nom d'hôte déjà existant"
+        "host_name_existed_tips": "Nom d'hôte déjà existant",
+        "lpr_tips": "Saisissez une ou plusieurs adresses IP du serveur LPR."
     },
     "address_reservation": {
         "title": "Adresses Reservées",

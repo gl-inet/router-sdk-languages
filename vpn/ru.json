@@ -553,7 +553,8 @@
         "init_wg_step_tip_2": "2. 添加对等节点配置。",
         "init_wg_desc": "WireGuard® 是一款极其简洁、快速且现代化的 VPN，采用尖端加密技术。请按以下步骤操作：",
         "init_wg_step_tip_3": "3. 将对等节点信息导出至客户端。",
-        "init_wg_add_peer_tip": "您尚未添加任何对等节点配置。请先添加对等节点配置以开始使用。"
+        "init_wg_add_peer_tip": "您尚未添加任何对等节点配置。请先添加对等节点配置以开始使用。",
+        "address_conflict_common_tips": "{vpnType} IP-адрес ({address}) конфликтует с {type} интерфейса {interface}."
     },
     "vpn_taps2s": {
         "start_not_available_tips": "Многие функции маршрутизации будут недоступны.",
@@ -588,7 +589,8 @@
         "stop_config_tunnel_stopped_tips": "Если туннель содержит только эту конфигурацию, он будет остановлен.",
         "stop_config_visit_dashboard_tips": "Для управления туннелями, пожалуйста, посетите {page}.",
         "remove_config_btn": "删除配置",
-        "reomving_config_warning_tips": "Вы уверены, что хотите удалить?"
+        "reomving_config_warning_tips": "Вы уверены, что хотите удалить?",
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 与 {interface} 冲突。"
     },
     "ovpnclient": {
         "legacy_label": "Устаревшая версия",

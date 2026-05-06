@@ -41,7 +41,8 @@
         "passthrough_close_edge_tips": "IP Passthrough'a geçmek için {page} kapatın.",
         "sub_tips": "{mode} kullanırken bu arayüze tekrar bağlanamayacaksınız. Yönlendirici moduna dönmek için sıfırlama düğmesini 4 saniye basılı tutabilirsiniz.",
         "reset_wan_port_msg": "Lütfen {port}'u bir WAN bağlantı noktası olarak yapılandırın ve yalnızca bir Ethernet kablosunu {port}'a takın.",
-        "unplug_cable_msg": "Lütfen Ethernet kablosunu {port} bağlantı noktasından çıkarın."
+        "unplug_cable_msg": "Lütfen Ethernet kablosunu {port} bağlantı noktasından çıkarın.",
+        "change_router_network_mode_tips": "Yönlendiricinin ağ modunu değiştirmek, {feature} gibi bazı ağ ayarlarını sıfırlayacak ve tüm istemci cihazlarının yeniden bağlanması gerekecektir."
     },
     "menu_bridge": "Ağ Modu"
 }

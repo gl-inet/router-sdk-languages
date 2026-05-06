@@ -284,7 +284,8 @@
     "router_visual": {
         "wlan_client": "无线客户端",
         "lan_Client": "LAN 客户端",
-        "usb_client": "USB 客户端"
+        "usb_client": "USB 客户端",
+        "astromesh_nodes": "AstroMesh 节点"
     },
     "sms": {
         "title": "短信",
@@ -623,6 +624,7 @@
     "internet": {
         "manual_label": "手动",
         "manual_mac_label": "手动输入的 MAC 地址",
-        "no_wan_tips": "{silkprint} 已被用作LAN(局域网)。您可以在{view}中将其设置回WAN(广域网)"
+        "no_wan_tips": "{silkprint} 已被用作LAN(局域网)。您可以在{view}中将其设置回WAN(广域网)",
+        "subnet_conflict_tips": "当前 WAN IP 网段与现有子网网段冲突。请修改子网网段，或调整上级网络配置。"
     }
 }

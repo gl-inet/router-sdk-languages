@@ -77,12 +77,8 @@
         "confirm_delete_subnet": "您確定要刪除此網路嗎？",
         "lpr_serve_label": "LPR 伺服器",
         "dhcp_charter_label": "租用時間",
-        "lpr_tips": "可填寫多個印表機 LPR 連接埠。",
         "err_display_name_max_length": "顯示名稱必須為32個字元或更少。",
         "err_dhcp_range_excludes_router_ip": "DHCP 池不得包含路由器 IP 地址。",
-        "block_wan_subnets_tip_custom": "若啟用此功能，此自訂子網路將無法訪問上層網路及其所在的網段。",
-        "block_wan_subnets_tip_iot": "若啟用此功能，物聯網網路將無法訪問上層網路及其所在的網段。",
-        "block_wan_subnets_tip_guest": "若啟用此功能，訪客網路將無法訪問上層網路及其所在的網段。",
         "ipv4_ranges_tip": "您可以設定 IPv4 私有位址範圍內的子網路：192.168.0.0/16、172.16.0.0/12、10.0.0.0/8",
         "err_subnet_conflict_with": "子網地址與\"{target}\"衝突。",
         "err_dhcp_params_invalid": "DHCP 池、租用時間或與閘道/網路遮罩相關的 DHCP 參數無效。",
@@ -94,7 +90,11 @@
         "wan_access_block_internet": "封鎖網際網路訪問",
         "wan_access_tip_unrestricted": "無限制：允許此子網不受限制地訪問網際網路及其他 WAN 端子網。",
         "wan_access_tip_block_wan_subnet": "封鎖 WAN 子網：封鎖對其他 WAN 端子網的訪問，但仍可訪問網際網路。",
-        "wan_access_tip_block_internet": "封鎖網際網路訪問：封鎖所有對外訪問，包括網際網路及 WAN 端子網。"
+        "wan_access_tip_block_internet": "封鎖網際網路訪問：封鎖所有對外訪問，包括網際網路及 WAN 端子網。",
+        "block_wan_subnets_tip_iot": "如果啟用此功能，物聯網網路將無法訪問上層網路及上層網路所在的網段。",
+        "block_wan_subnets_tip_custom": "如果啟用此功能，自定義網路將無法訪問上層網路及上層網路所在的網段。",
+        "block_wan_subnets_tip_guest": "如果啟用此功能，訪客網路將無法訪問上層網路及上層網路所在的網段。",
+        "lpr_tips": "輸入一個或多個 LPR 伺服器 IP 位址。"
     },
     "menu_vlan": "VLAN"
 }

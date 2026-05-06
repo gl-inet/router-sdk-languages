@@ -357,7 +357,8 @@
     "router_visual": {
         "wlan_client": "Клієнти WLAN",
         "lan_Client": "Клієнти LAN",
-        "usb_client": "USB-клієнт"
+        "usb_client": "USB-клієнт",
+        "astromesh_nodes": "AstroMesh Nodes"
     },
     "tethering": {
         "title": "Тетерінг",
@@ -623,6 +624,7 @@
     "internet": {
         "manual_label": "Посібник користувача",
         "manual_mac_label": "Ручна MAC-адреса",
-        "no_wan_tips": "{silkprint} використовується як LAN (локальна мережа). Ви можете повернути його до WAN (глобальна мережа) в {view}"
+        "no_wan_tips": "{silkprint} використовується як LAN (локальна мережа). Ви можете повернути його до WAN (глобальна мережа) в {view}",
+        "subnet_conflict_tips": "Поточна підмережа WAN IP конфліктує з існуючою підмережею. Будь ласка, змініть діапазон підмережі або налаштуйте конфігурацію вищестоящої мережі."
     }
 }

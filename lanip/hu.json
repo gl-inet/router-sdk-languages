@@ -1,7 +1,6 @@
 {
     "lan_ip": {
         "dhcp_disable_warning_tips": "Ha letiltja a DHCP-t, előfordulhat, hogy nem tud csatlakozni az internethez, ezért kérjük, legyen óvatos.",
-        "lpr_tips": "Több nyomtató LPR portja is megadható.",
         "guest_disabel_tips": "A {guest} ki van kapcsolva, így a vendéghálózat nem működik.",
         "lan": "Útválasztó IP-címe",
         "guest": "Alapértelmezett átjáró",
@@ -29,7 +28,8 @@
         "ap_isolate_tips": "Izolálhatja hálózatának klienseszközeit egy külön hálózati területre. Ezek az eszközök nem kommunikálhatnak a hálózat más eszközeivel.",
         "iot_conflict_tips": "Ütközik az IoT IP-vel",
         "host_name_tips": "2-63 karakter. Csak betűk, számjegyek vagy kötőjelek megengedettek. Nem kezdődhet vagy végződhet kötőjellel, és nem állhat kizárólag számjegyekből.",
-        "host_name_existed_tips": "A gazdanév már létezik"
+        "host_name_existed_tips": "A gazdanév már létezik",
+        "lpr_tips": "Adjon meg egy vagy több LPR szerver IP-címet."
     },
     "address_reservation": {
         "title": "Címrezerváció",

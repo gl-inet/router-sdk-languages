@@ -19,7 +19,7 @@
         "channel_optimization": "Kanal Optimizasyonu",
         "repeater_using_tips": "Tekrarlayıcı etkinleştirildiğinde bu giriş değiştirilemez.",
         "enable": "Wi-Fi'yi Etkinleştir",
-        "enable_dfs_tips": "Yönlendiriciye bir DFS kanalı atanmışsa, Wi-Fi her etkinleştirildiğinde bir kanal kullanılabilirlik kontrolü gereklidir, bu süre boyunca 5GHz sinyali bağlantılar için kullanılamaz, bu işlem $$$$ sürer. Yönlendirici, radarın mevcut kanalı kullandığını tespit ederse, istemciden geçici olarak bağlantıyı keser ve başka bir kullanılabilir kanala geçer; ayrıca, yönlendirici yakındaki kullanılabilir ağları tararken 5GHz Wi-Fi geçici olarak kapatılır.",
+        "enable_dfs_tips": "Yönlendiriciye bir DFS kanalı kullanması atanmışsa, Wi-Fi her etkinleştirildiğinde bir kanal kullanılabilirlik kontrolü gerekir. Bu süre boyunca 5GHz sinyali bağlantılar için kullanılamaz ve bu işlem biraz zaman alır. Yönlendirici, radarın mevcut kanalı kullandığını tespit ederse, istemciyle bağlantıyı geçici olarak keser ve başka bir kullanılabilir kanala geçer. Ayrıca, yönlendirici yakındaki ağları tararken 5GHz Wi-Fi geçici olarak kapatılır.",
         "enable_dfs": "DFS Kanalına İzin Ver",
         "dsf_starting": "Kanal kullanılabilirliği kontrol ediliyor. Bu işlem $$$$ sürecektir. Lütfen bekleyin……",
         "dsf_conflict": "5GHz Wi-Fi, bir radarın yönlendirici tarafından kullanılan kanalı kullanması nedeniyle geçici olarak kullanılamıyor.",

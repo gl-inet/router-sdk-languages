@@ -77,12 +77,8 @@
         "confirm_delete_subnet": "Biztosan törölni szeretné ezt a hálózatot?",
         "lpr_serve_label": "LPR szerver",
         "dhcp_charter_label": "Bérleti idő",
-        "lpr_tips": "Több nyomtató LPR portja is megadható.",
         "err_display_name_max_length": "A megjelenítendő név legfeljebb 32 karakterből állhat.",
         "err_dhcp_range_excludes_router_ip": "A DHCP készlet nem tartalmazhatja az útválasztó IP-címét.",
-        "block_wan_subnets_tip_guest": "Ha ez a funkció engedélyezve van, a vendéghálózat nem fogja tudni elérni a felső szintű hálózatot és annak hálózati szegmensét.",
-        "block_wan_subnets_tip_custom": "Ha ez a funkció engedélyezve van, ez az egyéni alhálózat nem fogja tudni elérni a felső szintű hálózatot és annak hálózati szegmensét.",
-        "block_wan_subnets_tip_iot": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fogja tudni elérni a felső szintű hálózatot és annak hálózati szegmensét.",
         "ipv4_ranges_tip": "Beállíthat alhálózatot az IPv4 magáncím tartományokon belül: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Alhálózati cím ütközik a következővel: \"{target}\".",
         "err_dhcp_params_invalid": "A DHCP-készlet, a bérleti idő vagy az átjáró/alhálózati maszkkal kapcsolatos DHCP-paraméterek érvénytelenek.",
@@ -94,7 +90,11 @@
         "wan_access_tip_unrestricted": "Korlátozás nélküli: Lehetővé teszi, hogy ez az alhálózat korlátozások nélkül hozzáférjen az internethez és más WAN-oldali alhálózatokhoz.",
         "wan_access_tip_block_wan_subnet": "WAN alhálózat blokkolása: Blokkolja a hozzáférést más WAN-oldali alhálózatokhoz. Az internet-hozzáférés továbbra is elérhető marad.",
         "wan_access_tip_block_internet": "Internet-hozzáférés blokkolása: Blokkol minden kimenő hozzáférést, beleértve az internetet és a WAN-oldali alhálózatokat is.",
-        "wan_access_control_label": "WAN hozzáférés-vezérlés"
+        "wan_access_control_label": "WAN hozzáférés-vezérlés",
+        "block_wan_subnets_tip_guest": "Ha ez a funkció engedélyezve van, a vendéghálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
+        "block_wan_subnets_tip_iot": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
+        "block_wan_subnets_tip_custom": "Ha ez a funkció engedélyezve van, az egyéni hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
+        "lpr_tips": "Adjon meg egy vagy több LPR szerver IP-címet."
     },
     "menu_vlan": "VLAN"
 }

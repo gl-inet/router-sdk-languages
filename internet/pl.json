@@ -87,7 +87,7 @@
         "initializing_tips": "Repeater jest w trakcie inicjalizacji...",
         "band_6g_bandwidth_limit_160mhz_tips": "Wi-Fi 6GHz obsługuje przepustowość do 160 MHz.",
         "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy repeater jest włączony, pasmo Wi-Fi 5GHz/6GHz automatycznie dopasuje się do repeatera. Jeśli Twoje urządzenie nie połączy się ponownie automatycznie, proszę połączyć się z Wi-Fi ręcznie.",
-        "saved_portal_info_title": "Zapisane informacje o portalu",
+        "saved_portal_info_title": "Zapisane Informacje o Portalu",
         "voucher_code_label": "Kod Vouchera"
     },
     "cable": {
@@ -356,7 +356,8 @@
     "router_visual": {
         "wlan_client": "Klienci WLAN",
         "lan_Client": "Klienci LAN",
-        "usb_client": "Klient USB"
+        "usb_client": "Klient USB",
+        "astromesh_nodes": "AstroMesh Nodes"
     },
     "menu_internet": "INTERNET",
     "tethering": {
@@ -623,6 +624,7 @@
     "internet": {
         "manual_label": "Instrukcja",
         "manual_mac_label": "Ręczne ustawienie adresu MAC",
-        "no_wan_tips": "{silkprint} został użyty jako LAN (sieć lokalna). Możesz przywrócić go do WAN (sieć rozległa) w {view}."
+        "no_wan_tips": "{silkprint} został użyty jako LAN (sieć lokalna). Możesz przywrócić go do WAN (sieć rozległa) w {view}.",
+        "subnet_conflict_tips": "Obecna podsieć adresu WAN jest w konflikcie z istniejącą podsiecią. Zmień zakres podsieci lub dostosuj konfigurację sieci nadrzędnej."
     }
 }

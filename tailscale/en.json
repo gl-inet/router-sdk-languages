@@ -33,7 +33,7 @@
         "enabled_run_exit_node_tips1": "Are you sure you want to run an exit node?",
         "enabled_run_exit_node_tips2": "Running an exit node means other devices in your tailnet can send all their traffic through this router’s IP address.",
         "enable_function": "enable {function}",
-        "dns_serve_warning_tips": "After using the exit node, you maynot be able to access the DNS server if you use an internal IP address as DNS ({address}) .",
+        "dns_serve_warning_tips": "After using the exit node, you may not be able to access the DNS server if you use an internal IP address as DNS ({address}) .",
         "mullvad_exit_node_tips": "Mullvad is selected as the Exit Node. To allow LAN-side devices to access the internet via Tailscale, please enable {ipMasquerade}.",
         "enabled_custom_exit_node_tips": "A custom Exit Node is selected. To allow LAN-side devices to access the internet via Tailscale, please enable {advertiseLanSubnet} or {ipMasquerade}."
     }
