@@ -41,7 +41,8 @@
         "passthrough_close_edge_tips": "Para cambiar a IP Passthrough, apague {page}.",
         "sub_tips": "Cuando utiliza {mode}, no podrá conectarse a esta interfaz de usuario nuevamente. Puede mantener presionado el botón de reinicio durante 4 segundos para volver al modo router.",
         "reset_wan_port_msg": "Por favor, configure {port} como puerto WAN y solo conecte un cable Ethernet en {port}.",
-        "unplug_cable_msg": "Por favor, desenchufe el cable Ethernet del puerto {port}."
+        "unplug_cable_msg": "Por favor, desenchufe el cable Ethernet del puerto {port}.",
+        "change_router_network_mode_tips": "Cambiar el modo de red del router restablecerá algunos ajustes de red, como {label}, y todos los dispositivos cliente deberán volver a conectarse."
     },
     "menu_bridge": "Modo de Red"
 }
