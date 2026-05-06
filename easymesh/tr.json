@@ -132,7 +132,7 @@
         "join_by_ethernet_cable_label": "Ethernet Kablosu ile Bağlan",
         "enter_main_router_pairing_code_label": "Lütfen Ana Yönlendiriciniz tarafından oluşturulan eşleştirme kodunu girin.",
         "join_by_wifi_scan_tips": "Lütfen Ana Yönlendiricinizin yönetim paneline erişin ve AstroMesh menü sayfasında Wi-Fi Tarama ile Düğüm Ekle işlemini gerçekleştirin.",
-        "join_by_ethernet_cable_tips": "Lütfen Ana Yönlendiricinin LAN portunu bir Ethernet kablosu kullanarak bu Mesh Düğümünün LAN portuna bağlayın.",
+        "join_by_ethernet_cable_tips": "Lütfen Ana Yönlendiricinin LAN bağlantı noktasını, bir Ethernet kablosu kullanarak bu Mesh Düğümünün WAN bağlantı noktasına bağlayın.",
         "nodes_title": "Düğümler",
         "mesh_node_mode_tips": "Cihaz şu anda Mesh Düğüm modunda. Yönetmek için Ana Yönlendiricinin yönetici panelinden giriş yapabilirsiniz.",
         "mesh_node_mode_tips2": "Cihazı ev ağınızın dışına çıkardığınızda, otomatik olarak Astro Node moduna geçecektir.",
@@ -159,7 +159,7 @@
         "reset_mode_tips1": "AstroMesh ağını sıfırlamak istediğinizden emin misiniz?",
         "reset_mode_tips2": "Tüm mevcut AstroMesh ayarları silinecek ve Mesh Düğümleri fabrika ayarlarına sıfırlanacaktır.",
         "aw_pending_tips": "Ana yönlendiricinize bağlanılamıyor ve AstroMesh ağı şu anda kullanılamıyor. Lütfen ana yönlendiricinin ağ bağlantı durumunu kontrol edin.",
-        "cloud_service_not_working_tips": "云端服务运行不佳，Astro节点可能无法连接。请检查网络连接状态。"
+        "cloud_service_not_working_tips": "Bulut hizmeti düzgün çalışmıyor ve Astro düğümleri bağlı olmayabilir. Lütfen ağ bağlantı durumunu kontrol edin."
     },
     "menu_astromesh": "AstroMesh"
 }
