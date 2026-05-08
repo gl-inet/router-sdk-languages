@@ -13,7 +13,8 @@
         "qdisc_fq_codel_tips": "fq_codel：简单高效的公平队列，可基本降低延迟。",
         "tips_second": "SQM 会影响通过路由器作为网关的流量，包括 VPN 客户端流量，但当路由器作为 VPN 服务器运行时，不会影响传入流量。",
         "wan_bandwidth_title": "WAN 带宽",
-        "auto_detect_btn": "自动检测"
+        "auto_detect_btn": "自动检测",
+        "queue_discipline_title": "队列规则"
     },
     "qos": {
         "title": "QoS",
