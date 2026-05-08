@@ -18,7 +18,8 @@
         "cake_tips": "Smart, modellazione automatica del traffico con il miglior controllo complessivo della latenza (consigliato).",
         "fq_codel_tips": "Semplice ed efficiente fair-queueing con riduzione di base della latenza.",
         "optional_tag": "facoltativo",
-        "cake_autorate_title": "Cake Autorate"
+        "cake_autorate_title": "Cake Autorate",
+        "cake_autorate_tips": "Modellatore basato sulla latenza che riduce o aumenta la larghezza di banda CAKE in tempo reale in base all'RTT del probe — non è presente alcun test di velocità attivo, solo ping leggeri. Consigliato quando la larghezza di banda WAN fluttua; non necessario su collegamenti stabili."
     },
     "qos": {
         "title": "QoS",
