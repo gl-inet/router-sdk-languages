@@ -18,7 +18,8 @@
         "cake_tips": "Akıllı, otomatik trafik şekillendirme ile en iyi genel gecikme kontrolü (önerilir).",
         "fq_codel_tips": "Basit ve verimli adil kuyruklama ile temel gecikme azaltma.",
         "optional_tag": "isteğe bağlı",
-        "cake_autorate_title": "Cake Autorate"
+        "cake_autorate_title": "Cake Autorate",
+        "cake_autorate_tips": "Gecikme odaklı şekillendirici, prob RTT'sine dayanarak CAKE bant genişliğini gerçek zamanlı olarak azaltır veya artırır — aktif hız testi yoktur, yalnızca hafif pingler kullanılır. WAN bant genişliğinin dalgalandığı durumlarda önerilir; kararlı bağlantılarda gerekli değildir."
     },
     "qos": {
         "title": "QoS",
