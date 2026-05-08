@@ -19,7 +19,8 @@
         "fq_codel_tips": "简单高效且具有基本延迟减少功能的公平队列。",
         "optional_tag": "可選",
         "cake_autorate_title": "Cake Autorate",
-        "cake_autorate_tips": "基于探针RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动速度测试，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路上无需启用。"
+        "cake_autorate_tips": "基于探针RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动速度测试，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路上无需启用。",
+        "wired_wan_label": "有線廣域網路（乙太網路、光纖）："
     },
     "qos": {
         "title": "QoS",
