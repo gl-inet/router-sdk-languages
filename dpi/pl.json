@@ -18,7 +18,8 @@
         "cake_tips": "Inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień (zalecane).",
         "fq_codel_tips": "Proste i wydajne kolejkowanie sprawiedliwe z podstawową redukcją opóźnień.",
         "optional_tag": "opcjonalny",
-        "cake_autorate_title": "Cake Autorate"
+        "cake_autorate_title": "Cake Autorate",
+        "cake_autorate_tips": "Sterownik opóźnienia, który w czasie rzeczywistym zmniejsza lub zwiększa przepustowość CAKE na podstawie RTT sondy — nie przeprowadza aktywnego testu prędkości, a jedynie lekkie pingi. Zalecany, gdy przepustowość WAN ulega wahaniom; nie jest wymagany na stabilnych łączach."
     },
     "qos": {
         "title": "QoS",
