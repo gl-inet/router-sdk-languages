@@ -18,7 +18,8 @@
         "cake_tips": "Slimme, automatische verkeersvorming met de beste algehele latentiecontrole (aanbevolen).",
         "fq_codel_tips": "Eenvoudige en efficiënte fair-queueing met basisvertragingsreductie.",
         "optional_tag": "optioneel",
-        "cake_autorate_title": "Cake Autorate"
+        "cake_autorate_title": "Cake Autorate",
+        "cake_autorate_tips": "Op basis van latentie gestuurde vormgever die de CAKE-bandbreedte in realtime verlaagt of verhoogt op basis van de RTT van de probe — er is geen actieve snelheidstest, alleen lichtgewicht pings. Aanbevolen wanneer de WAN-bandbreedte fluctueert; niet nodig op stabiele verbindingen."
     },
     "qos": {
         "title": "QoS",
