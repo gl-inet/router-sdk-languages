@@ -11,7 +11,8 @@
         "full_name": "智能队列管理",
         "qdisc_cake_tips": "cake: 智能、自動流量整形，提供最佳整體延遲控制（推薦）。",
         "qdisc_fq_codel_tips": "fq_codel: 簡單高效的公平佇列，可基本降低延遲。",
-        "tips_second": "SQM 會影響通過路由器作為閘道的流量，包括 VPN 客戶端流量，但不會影響路由器作為 VPN 伺服器時的傳入流量。"
+        "tips_second": "SQM 會影響通過路由器作為閘道的流量，包括 VPN 客戶端流量，但不會影響路由器作為 VPN 伺服器時的傳入流量。",
+        "wan_bandwidth_title": "WAN 頻寬"
     },
     "qos": {
         "title": "QoS",
