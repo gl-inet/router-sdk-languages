@@ -32,7 +32,8 @@
         "small_traffic_tips2": "自动速率全天候向反射服务器发送ping。在默认设置下（4个反射器 @ 0.3秒），大约消耗1–5 KB/s的后台流量，外加少量路由器CPU资源。对于以太网/光纤/蜂窝网络的月度套餐而言，该流量可忽略不计，但在严格计量的连接（例如按MB计费的蜂窝网络、手机热点数据上限）中，每月可能累计增加约100–400 MB。",
         "probe_subtitle": "默认设置已调优，除非明确了解操作，否则请勿修改。",
         "probe_server_addresses_label": "探测服务器地址",
-        "probe_interval_label": "探测间隔"
+        "probe_interval_label": "探测间隔",
+        "concurrent_probes_label": "并发探测"
     },
     "qos": {
         "title": "QoS",
