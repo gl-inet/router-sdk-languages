@@ -29,7 +29,9 @@
         "usb_tethering_tips": "recommended, but mind the phone's data plan.",
         "small_traffic_tips1": "Heads up — small but continuous traffic:",
         "probe_title": "Probe & threshold parameters",
-        "small_traffic_tips2": "Autorate pings the reflector servers around the clock. With the default settings (4 reflectors @ 0.3 s) it consumes roughly 1–5 KB/s of background traffic, plus a small amount of router CPU. The amount is negligible on Ethernet/fiber/cellular monthly plans, but on strictly metered links (e.g. pay-per-MB cellular, phone hotspot data caps) it can add up to ~100–400 MB per month."
+        "small_traffic_tips2": "Autorate pings the reflector servers around the clock. With the default settings (4 reflectors @ 0.3 s) it consumes roughly 1–5 KB/s of background traffic, plus a small amount of router CPU. The amount is negligible on Ethernet/fiber/cellular monthly plans, but on strictly metered links (e.g. pay-per-MB cellular, phone hotspot data caps) it can add up to ~100–400 MB per month.",
+        "probe_subtitle": "Defaults are tuned to work — adjust only if you know what you are doing.",
+        "probe_server_addresses_label": "Probe Server Addresses"
     },
     "qos": {
         "title": "QoS",
