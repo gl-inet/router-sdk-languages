@@ -22,7 +22,11 @@
         "cake_autorate_tips": "Latenzgesteuerter Shaper, der die CAKE-Bandbreite in Echtzeit basierend auf der RTT des Probes reduziert oder erhöht – es gibt keinen aktiven Geschwindigkeitstest, sondern nur leichte Pings. Empfohlen, wenn die WAN-Bandbreite schwankt; auf stabilen Verbindungen nicht erforderlich.",
         "wired_wan_label": "Kabelgebundener WAN (Ethernet, Glasfaser)",
         "wired_wan_tips": "AUS — Bandbreite ist konstant.",
-        "repeater_tips": "kann hilfreich sein, wenn sich die HF-Bedingungen ändern."
+        "repeater_tips": "kann hilfreich sein, wenn sich die HF-Bedingungen ändern.",
+        "usb_tethering_label": "USB-Tethering / Telefon-Hotspot",
+        "cellular_label": "Mobilfunk (4G/5G-Modem)",
+        "cellular_tips": "empfohlen — Signal- und Zelllast beeinflussen die Rate.",
+        "usb_tethering_tips": "empfohlen, aber achten Sie auf den Datentarif des Telefons."
     },
     "qos": {
         "title": "QoS",
