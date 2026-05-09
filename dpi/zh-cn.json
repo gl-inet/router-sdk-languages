@@ -21,7 +21,8 @@
         "cake_autorate_title": "Cake Autorate",
         "cake_autorate_tips": "基于探测RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动测速，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路无需启用。",
         "wired_wan_label": "有线 WAN（以太网，光纤）",
-        "wired_wan_tips": "保持关闭 — 带宽恒定。"
+        "wired_wan_tips": "保持关闭 — 带宽恒定。",
+        "repeater_tips": "可能在射频条件变化时有所帮助。"
     },
     "qos": {
         "title": "QoS",
