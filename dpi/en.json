@@ -44,7 +44,8 @@
         "probe_server_addresses_tips": "Comma-separated, used for network quality probing.",
         "probe_interval_tips": "Seconds. Lower values = faster response but higher CPU usage.",
         "concurrent_probes_tips": "Must be less than probe server count; higher values increase CPU usage.",
-        "idle_detection_threshold_tips": "Kbps. Below this value the connection is considered idle and probing stops."
+        "idle_detection_threshold_tips": "Kbps. Below this value the connection is considered idle and probing stops.",
+        "download_latency_threshold_tips": "Milliseconds. Exceeding this triggers bandwidth reduction."
     },
     "qos": {
         "title": "QoS",
