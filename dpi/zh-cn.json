@@ -44,7 +44,8 @@
         "probe_server_addresses_tips": "逗号分隔，用于网络质量探测。",
         "probe_interval_tips": "秒。数值越小，响应越快，但CPU占用越高。",
         "concurrent_probes_tips": "必须小于探测服务器数量；较高的值会增加CPU使用率。",
-        "idle_detection_threshold_tips": "Kbps。低于此值时，连接被视为空闲并停止探测。"
+        "idle_detection_threshold_tips": "Kbps。低于此值时，连接被视为空闲并停止探测。",
+        "download_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。"
     },
     "qos": {
         "title": "QoS",
