@@ -41,7 +41,8 @@
         "milliseconds_unit": "Milisegundos",
         "seconds_unit": "Segundos",
         "setp_tag": "Paso {num}",
-        "probe_server_addresses_tips": "Separados por comas, utilizados para la verificación de la calidad de la red."
+        "probe_server_addresses_tips": "Separados por comas, utilizados para la verificación de la calidad de la red.",
+        "probe_interval_tips": "Segundos. Valores más bajos = respuesta más rápida pero mayor uso de CPU."
     },
     "qos": {
         "title": "QoS",
