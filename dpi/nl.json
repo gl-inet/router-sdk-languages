@@ -44,7 +44,8 @@
         "probe_server_addresses_tips": "Komma-gescheiden, gebruikt voor het testen van de netwerkkwaliteit.",
         "probe_interval_tips": "Seconden. Lagere waarden = snellere respons maar hoger CPU-gebruik.",
         "concurrent_probes_tips": "Moet kleiner zijn dan het aantal probeservers; hogere waarden verhogen het CPU-gebruik.",
-        "idle_detection_threshold_tips": "Kbps. Onder deze waarde wordt de verbinding als inactief beschouwd en stopt het testen."
+        "idle_detection_threshold_tips": "Kbps. Onder deze waarde wordt de verbinding als inactief beschouwd en stopt het testen.",
+        "download_latency_threshold_tips": "Milliseconden. Overschrijding hiervan leidt tot bandbreedtevermindering."
     },
     "qos": {
         "title": "QoS",
