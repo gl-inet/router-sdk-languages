@@ -22,7 +22,11 @@
         "cake_autorate_tips": "Sterownik opóźnienia, który w czasie rzeczywistym zmniejsza lub zwiększa przepustowość CAKE na podstawie RTT sondy — nie przeprowadza aktywnego testu prędkości, a jedynie lekkie pingi. Zalecany, gdy przepustowość WAN ulega wahaniom; nie jest wymagany na stabilnych łączach.",
         "wired_wan_label": "Przewodowe WAN (Ethernet, światłowód)",
         "wired_wan_tips": "leave OFF — przepustowość jest stała.",
-        "repeater_tips": "może pomóc, gdy warunki RF się zmieniają."
+        "repeater_tips": "może pomóc, gdy warunki RF się zmieniają.",
+        "usb_tethering_label": "Tethering USB / hotspot telefonu",
+        "cellular_label": "Komórkowy (modem 4G/5G)",
+        "cellular_tips": "zalecane — sygnał i obciążenie sieci komórkowej wpływają na prędkość.",
+        "usb_tethering_tips": "zalecane, ale należy zwrócić uwagę na plan danych telefonu."
     },
     "qos": {
         "title": "QoS",
