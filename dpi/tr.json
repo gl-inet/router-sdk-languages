@@ -45,7 +45,8 @@
         "probe_interval_tips": "Saniye. Daha düşük değerler = daha hızlı yanıt ancak daha yüksek CPU kullanımı.",
         "concurrent_probes_tips": "Probe sunucu sayısından daha az olmalıdır; daha yüksek değerler CPU kullanımını artırır.",
         "idle_detection_threshold_tips": "Kbps. Bu değerin altında bağlantı boşta kabul edilir ve yoklama durdurulur.",
-        "download_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur."
+        "download_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur.",
+        "upload_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur."
     },
     "qos": {
         "title": "QoS",
