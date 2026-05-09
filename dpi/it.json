@@ -22,7 +22,11 @@
         "cake_autorate_tips": "Modellatore basato sulla latenza che riduce o aumenta la larghezza di banda CAKE in tempo reale in base all'RTT del probe — non è presente alcun test di velocità attivo, solo ping leggeri. Consigliato quando la larghezza di banda WAN fluttua; non necessario su collegamenti stabili.",
         "wired_wan_label": "Wired WAN (Ethernet, fiber)",
         "wired_wan_tips": "lasciare OFF — la larghezza di banda è costante.",
-        "repeater_tips": "può essere utile quando le condizioni RF variano."
+        "repeater_tips": "può essere utile quando le condizioni RF variano.",
+        "usb_tethering_label": "Tethering USB / hotspot del telefono",
+        "cellular_label": "Cellulare (modem 4G/5G)",
+        "cellular_tips": "consigliato — il segnale e il carico della cella influenzano la velocità.",
+        "usb_tethering_tips": "consigliato, ma attenzione al piano dati del telefono."
     },
     "qos": {
         "title": "QoS",
