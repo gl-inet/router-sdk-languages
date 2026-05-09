@@ -31,7 +31,8 @@
         "probe_title": "Parametri di sonda e soglia",
         "small_traffic_tips2": "Autorate esegue il ping dei server reflector 24 ore su 24. Con le impostazioni predefinite (4 reflector @ 0,3 s) consuma circa 1–5 KB/s di traffico in background, più una piccola quantità di CPU del Router. La quantità è trascurabile sui piani mensili Ethernet/fibra/cellulare, ma su collegamenti rigorosamente a consumo (ad esempio cellulare a pagamento per MB, limiti di dati hotspot del telefono) può arrivare a circa 100–400 MB al mese.",
         "probe_subtitle": "Le impostazioni predefinite sono ottimizzate per funzionare — modifica solo se sai cosa stai facendo.",
-        "probe_server_addresses_label": "Indirizzi del Server di Probe"
+        "probe_server_addresses_label": "Indirizzi del Server di Probe",
+        "probe_interval_label": "Intervallo di Sondaggio"
     },
     "qos": {
         "title": "QoS",
