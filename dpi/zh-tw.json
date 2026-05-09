@@ -42,7 +42,8 @@
         "seconds_unit": "秒",
         "setp_tag": "步驟 {num}",
         "probe_server_addresses_tips": "以逗号分隔，用于网络质量探测。",
-        "probe_interval_tips": "秒。数值越低，响应越快，但CPU使用率越高。"
+        "probe_interval_tips": "秒。数值越低，响应越快，但CPU使用率越高。",
+        "concurrent_probes_tips": "必须小于探测服务器数量；较高的值会增加CPU使用率。"
     },
     "qos": {
         "title": "QoS",
