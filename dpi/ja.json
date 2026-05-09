@@ -43,7 +43,8 @@
         "setp_tag": "ステップ {num}",
         "probe_server_addresses_tips": "カンマ区切りで、ネットワーク品質のプローブに使用されます。",
         "probe_interval_tips": "秒。値が小さいほど応答が速くなりますが、CPU使用率が高くなります。",
-        "concurrent_probes_tips": "プローブサーバー数より小さくなければなりません。値を大きくするとCPU使用率が増加します。"
+        "concurrent_probes_tips": "プローブサーバー数より小さくなければなりません。値を大きくするとCPU使用率が増加します。",
+        "idle_detection_threshold_tips": "Kbps。低于此值时，连接被视为空闲并停止探测。"
     },
     "qos": {
         "title": "QoS",
