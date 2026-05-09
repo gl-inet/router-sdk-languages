@@ -45,7 +45,8 @@
         "probe_interval_tips": "Másodperc. Alacsonyabb érték = gyorsabb válasz, de magasabb CPU-használat.",
         "concurrent_probes_tips": "Kisebbnek kell lennie a próbaszerverek számánál; a magasabb értékek növelik a CPU-használatot.",
         "idle_detection_threshold_tips": "Kbps. Ez alatt az érték alatt a kapcsolat inaktívnak minősül, és a vizsgálat leáll.",
-        "download_latency_threshold_tips": "Ezredmásodperc. Ennek túllépése sávszélesség-csökkentést vált ki."
+        "download_latency_threshold_tips": "Ezredmásodperc. Ennek túllépése sávszélesség-csökkentést vált ki.",
+        "upload_latency_threshold_tips": "Ezredmásodperc. Ennek túllépése sávszélesség-csökkentést vált ki."
     },
     "qos": {
         "title": "QoS",
