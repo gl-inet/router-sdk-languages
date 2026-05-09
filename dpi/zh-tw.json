@@ -45,7 +45,8 @@
         "probe_interval_tips": "秒。数值越低，响应越快，但CPU使用率越高。",
         "concurrent_probes_tips": "必须小于探测服务器数量；较高的值会增加CPU使用率。",
         "idle_detection_threshold_tips": "Kbps。低於此值時，連線將被視為閒置，探測將停止。",
-        "download_latency_threshold_tips": "毫秒。超過此值將觸發頻寬降低。"
+        "download_latency_threshold_tips": "毫秒。超過此值將觸發頻寬降低。",
+        "upload_latency_threshold_tips": "毫秒。超過此值將觸發頻寬降低。"
     },
     "qos": {
         "title": "QoS",
