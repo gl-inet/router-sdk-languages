@@ -27,7 +27,9 @@
         "cellular_label": "Mobiel (4G/5G modem)",
         "cellular_tips": "aanbevolen — signaal en celbelasting beïnvloeden de snelheid.",
         "usb_tethering_tips": "aanbevolen, maar let op het data-abonnement van de telefoon.",
-        "small_traffic_tips1": "Let op — kleine maar continue datastroom:"
+        "small_traffic_tips1": "Let op — kleine maar continue datastroom:",
+        "probe_title": "Probe & threshold parameters",
+        "small_traffic_tips2": "Autorate pingt de reflectorservers de klok rond. Met de standaardinstellingen (4 reflectoren @ 0,3 s) verbruikt het ongeveer 1–5 KB/s aan achtergrondverkeer, plus een kleine hoeveelheid router-CPU. De hoeveelheid is verwaarloosbaar bij maandelijkse abonnementen voor Ethernet/glasvezel/mobiel, maar bij strikt gemeten verbindingen (bijv. betalen-per-MB mobiel, datalimieten voor telefoonhotspots) kan het oplopen tot ~100–400 MB per maand."
     },
     "qos": {
         "title": "QoS",
