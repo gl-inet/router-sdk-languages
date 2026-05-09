@@ -27,7 +27,9 @@
         "cellular_label": "蜂窩網路 (4G/5G 數據機)",
         "cellular_tips": "recommended — 信号和小区负载波动速率。",
         "usb_tethering_tips": "建議使用，但請留意手機的數據方案。",
-        "small_traffic_tips1": "注意 — 少量但持续的流量："
+        "small_traffic_tips1": "注意 — 少量但持续的流量：",
+        "small_traffic_tips2": "全天候自動對反射伺服器進行 Ping 測試。在預設設定下（4 個反射器 @ 0.3 秒），大約會消耗 1–5 KB/s 的背景流量，以及少量的路由器 CPU 資源。對於乙太網路、光纖或蜂窩網路的月費方案而言，此流量可忽略不計；但在嚴格計量的連線（例如按 MB 計費的蜂窩網路、手機熱點數據上限）上，每月可能累積約 100–400 MB。",
+        "probe_title": "探測與閾值參數"
     },
     "qos": {
         "title": "QoS",
