@@ -45,7 +45,8 @@
         "probe_interval_tips": "Sekunden. Niedrigere Werte = schnellere Reaktion, aber höhere CPU-Auslastung.",
         "concurrent_probes_tips": "Muss kleiner als die Anzahl der Testserver sein; höhere Werte erhöhen die CPU-Auslastung.",
         "idle_detection_threshold_tips": "Kbps. Unter diesem Wert wird die Verbindung als inaktiv betrachtet und die Überprüfung wird gestoppt.",
-        "download_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert."
+        "download_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert.",
+        "upload_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert."
     },
     "qos": {
         "title": "QoS",
