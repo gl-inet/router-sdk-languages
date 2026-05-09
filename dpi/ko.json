@@ -43,7 +43,8 @@
         "setp_tag": "단계 {num}",
         "probe_server_addresses_tips": "쉼표로 구분되며, 네트워크 품질 프로빙에 사용됩니다.",
         "probe_interval_tips": "초. 값이 낮을수록 응답 속도는 빨라지지만 CPU 사용량이 높아집니다.",
-        "concurrent_probes_tips": "프로브 서버 수보다 작아야 하며, 값이 높을수록 CPU 사용량이 증가합니다."
+        "concurrent_probes_tips": "프로브 서버 수보다 작아야 하며, 값이 높을수록 CPU 사용량이 증가합니다.",
+        "idle_detection_threshold_tips": "Kbps。低于此值时，连接被视为空闲并停止探测。"
     },
     "qos": {
         "title": "QoS",
