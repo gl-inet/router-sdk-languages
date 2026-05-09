@@ -41,7 +41,8 @@
         "milliseconds_unit": "Millisekunden",
         "seconds_unit": "Sekunden",
         "setp_tag": "Schritt {num}",
-        "probe_server_addresses_tips": "Kommagetrennt, verwendet für die Netzwerkqualitätsprüfung."
+        "probe_server_addresses_tips": "Kommagetrennt, verwendet für die Netzwerkqualitätsprüfung.",
+        "probe_interval_tips": "Sekunden. Niedrigere Werte = schnellere Reaktion, aber höhere CPU-Auslastung."
     },
     "qos": {
         "title": "QoS",
