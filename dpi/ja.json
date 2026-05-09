@@ -22,7 +22,11 @@
         "cake_autorate_tips": "レイテンシ駆動型シェイパーで、プローブRTTに基づいてCAKE帯域幅をリアルタイムに削減または増加します。アクティブなスピードテストはなく、軽量なpingのみを使用します。WAN帯域幅が変動する場合に推奨されます。安定したリンクでは必要ありません。",
         "wired_wan_label": "有線WAN（イーサネット、ファイバー）",
         "wired_wan_tips": "OFFのまま — 帯域幅は一定です。",
-        "repeater_tips": "RF 条件变化时可能有帮助。"
+        "repeater_tips": "RF 条件变化时可能有帮助。",
+        "usb_tethering_label": "USBテザリング / スマートフォンホットスポット",
+        "cellular_label": "セルラー (4G/5Gモデム)",
+        "cellular_tips": "recommended — signal and cell load swing the rate.",
+        "usb_tethering_tips": "推荐使用，但请注意手机的数据套餐。"
     },
     "qos": {
         "title": "QoS",
