@@ -41,7 +41,8 @@
         "milliseconds_unit": "毫秒",
         "seconds_unit": "秒",
         "setp_tag": "步驟 {num}",
-        "probe_server_addresses_tips": "以逗号分隔，用于网络质量探测。"
+        "probe_server_addresses_tips": "以逗号分隔，用于网络质量探测。",
+        "probe_interval_tips": "秒。数值越低，响应越快，但CPU使用率越高。"
     },
     "qos": {
         "title": "QoS",
