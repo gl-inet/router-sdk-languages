@@ -31,7 +31,8 @@
         "probe_title": "Probe & threshold parameters",
         "small_traffic_tips2": "Autorate pingt de reflectorservers de klok rond. Met de standaardinstellingen (4 reflectoren @ 0,3 s) verbruikt het ongeveer 1–5 KB/s aan achtergrondverkeer, plus een kleine hoeveelheid router-CPU. De hoeveelheid is verwaarloosbaar bij maandelijkse abonnementen voor Ethernet/glasvezel/mobiel, maar bij strikt gemeten verbindingen (bijv. betalen-per-MB mobiel, datalimieten voor telefoonhotspots) kan het oplopen tot ~100–400 MB per maand.",
         "probe_subtitle": "Standaardinstellingen zijn afgestemd om te werken — pas alleen aan als u weet wat u doet.",
-        "probe_server_addresses_label": "Probe-serveradressen"
+        "probe_server_addresses_label": "Probe-serveradressen",
+        "probe_interval_label": "Probe-interval"
     },
     "qos": {
         "title": "QoS",
