@@ -42,7 +42,7 @@
         "seconds_unit": "секунды",
         "setp_tag": "Шаг {num}",
         "probe_server_addresses_tips": "Через запятую, используется для проверки качества сети.",
-        "probe_interval_tips": "秒。数值越小，响应越快，但CPU占用越高。"
+        "probe_interval_tips": "Секунды. Меньшие значения = более быстрый отклик, но более высокая загрузка ЦП."
     },
     "qos": {
         "title": "QoS",
