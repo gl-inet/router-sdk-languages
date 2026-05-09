@@ -22,7 +22,11 @@
         "cake_autorate_tips": "Gecikme odaklı şekillendirici, prob RTT'sine dayanarak CAKE bant genişliğini gerçek zamanlı olarak azaltır veya artırır — aktif hız testi yoktur, yalnızca hafif pingler kullanılır. WAN bant genişliğinin dalgalandığı durumlarda önerilir; kararlı bağlantılarda gerekli değildir.",
         "wired_wan_label": "Kablolu WAN (Ethernet, fiber)",
         "wired_wan_tips": "leave OFF — bant genişliği sabittir.",
-        "repeater_tips": "RF koşulları değiştiğinde yardımcı olabilir."
+        "repeater_tips": "RF koşulları değiştiğinde yardımcı olabilir.",
+        "usb_tethering_label": "USB tethering / telefon sıcak noktası",
+        "cellular_label": "Hücresel (4G/5G modem)",
+        "cellular_tips": "önerilen — sinyal ve hücre yükü oranı değiştirir.",
+        "usb_tethering_tips": "önerilir, ancak telefonun veri planına dikkat edin."
     },
     "qos": {
         "title": "QoS",
