@@ -42,7 +42,8 @@
         "seconds_unit": "Sekundės",
         "setp_tag": "Žingsnis {num}",
         "probe_server_addresses_tips": "Kableliais atskirta, naudojama tinklo kokybės tikrinimui.",
-        "probe_interval_tips": "Sekundės. Mažesnės reikšmės = greitesnis atsakas, bet didesnis procesoriaus naudojimas."
+        "probe_interval_tips": "Sekundės. Mažesnės reikšmės = greitesnis atsakas, bet didesnis procesoriaus naudojimas.",
+        "concurrent_probes_tips": "Turėtų būti mažesnis už bandomų serverių skaičių; didesnės reikšmės padidina procesoriaus apkrovą."
     },
     "qos": {
         "title": "„QoS“",
