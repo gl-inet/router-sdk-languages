@@ -45,7 +45,8 @@
         "probe_interval_tips": "Sekundės. Mažesnės reikšmės = greitesnis atsakas, bet didesnis procesoriaus naudojimas.",
         "concurrent_probes_tips": "Turėtų būti mažesnis už bandomų serverių skaičių; didesnės reikšmės padidina procesoriaus apkrovą.",
         "idle_detection_threshold_tips": "Kbps. Žemiau šios reikšmės ryšys laikomas budėjimo režimu ir tikrinimas sustoja.",
-        "download_latency_threshold_tips": "Milisekundės. Viršijus šią reikšmę, suaktyvinamas duomenų siuntimo srauto pralaidumo mažinimas."
+        "download_latency_threshold_tips": "Milisekundės. Viršijus šią reikšmę, suaktyvinamas duomenų siuntimo srauto pralaidumo mažinimas.",
+        "upload_latency_threshold_tips": "Milisekundės. Viršijus šią reikšmę, suaktyvinamas duomenų siuntimo srauto pralaidumo mažinimas."
     },
     "qos": {
         "title": "„QoS“",
