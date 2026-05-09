@@ -41,7 +41,8 @@
         "milliseconds_unit": "ミリ秒",
         "seconds_unit": "秒",
         "setp_tag": "ステップ {num}",
-        "probe_server_addresses_tips": "カンマ区切りで、ネットワーク品質のプローブに使用されます。"
+        "probe_server_addresses_tips": "カンマ区切りで、ネットワーク品質のプローブに使用されます。",
+        "probe_interval_tips": "秒。数值越小，响应速度越快，但CPU占用率越高。"
     },
     "qos": {
         "title": "QoS",
