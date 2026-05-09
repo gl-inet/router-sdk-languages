@@ -22,7 +22,11 @@
         "cake_autorate_tips": "Delsos valdomas formuotojas, kuris realiu laiku mažina arba didina CAKE duomenų siuntimo srauto pralaidumą, remiantis zondo RTT — nėra aktyvaus greičio testo, tik lengvi pingai. Rekomenduojama, kai WAN pralaidumas svyruoja; nereikalingas stabiliose jungtyse.",
         "wired_wan_label": "Laidinis WAN (Eternetas, šviesolaidis)",
         "wired_wan_tips": "palikite IŠJUNGTA — duomenų siuntimo srauto pralaidumas yra pastovus.",
-        "repeater_tips": "gali padėti, kai RF sąlygos kinta."
+        "repeater_tips": "gali padėti, kai RF sąlygos kinta.",
+        "usb_tethering_label": "USB saityno ryšys / telefono viešavietė",
+        "cellular_label": "Mobilusis (4G/5G modemas)",
+        "cellular_tips": "Rekomenduojama — signalas ir ląstelės apkrova keičia spartą.",
+        "usb_tethering_tips": "rekomenduojama, tačiau atkreipkite dėmesį į telefono duomenų planą."
     },
     "qos": {
         "title": "„QoS“",
