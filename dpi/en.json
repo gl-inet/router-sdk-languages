@@ -22,7 +22,11 @@
         "cake_autorate_tips": "Latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT — there is no active speed test, only lightweight pings. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links.",
         "wired_wan_label": "Wired WAN (Ethernet, fiber)",
         "wired_wan_tips": "leave OFF — bandwidth is constant.",
-        "repeater_tips": "may help when RF conditions vary."
+        "repeater_tips": "may help when RF conditions vary.",
+        "usb_tethering_label": "USB tethering / phone hotspot",
+        "cellular_label": "Cellular (4G/5G modem)",
+        "cellular_tips": "recommended — signal and cell load swing the rate.",
+        "usb_tethering_tips": "recommended, but mind the phone's data plan."
     },
     "qos": {
         "title": "QoS",
