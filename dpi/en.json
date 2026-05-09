@@ -20,8 +20,9 @@
         "optional_tag": "optional",
         "cake_autorate_title": "Cake Autorate",
         "cake_autorate_tips": "Latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT — there is no active speed test, only lightweight pings. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links.",
-        "wired_wan_label": "Wired WAN (Ethernet, fiber):",
-        "wired_wan_tips": "leave OFF — bandwidth is constant."
+        "wired_wan_label": "Wired WAN (Ethernet, fiber)",
+        "wired_wan_tips": "leave OFF — bandwidth is constant.",
+        "repeater_tips": "may help when RF conditions vary."
     },
     "qos": {
         "title": "QoS",
