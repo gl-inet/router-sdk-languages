@@ -46,7 +46,7 @@
         "concurrent_probes_tips": "프로브 서버 수보다 작아야 하며, 값이 높을수록 CPU 사용량이 증가합니다.",
         "idle_detection_threshold_tips": "Kbps. 이 값 이하에서는 연결이 유휴 상태로 간주되어 프로빙이 중지됩니다.",
         "download_latency_threshold_tips": "밀리초. 이 값을 초과하면 대역폭이 감소됩니다.",
-        "upload_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。"
+        "upload_latency_threshold_tips": "밀리초. 이 값을 초과하면 대역폭이 감소됩니다."
     },
     "qos": {
         "title": "QoS",
