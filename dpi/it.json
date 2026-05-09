@@ -43,7 +43,8 @@
         "setp_tag": "Passaggio {num}",
         "probe_server_addresses_tips": "Separati da virgole, utilizzati per il sondaggio della qualità della rete.",
         "probe_interval_tips": "Secondi. Valori più bassi = risposta più rapida ma maggiore utilizzo della CPU.",
-        "concurrent_probes_tips": "Deve essere inferiore al numero di server di probe; valori più elevati aumentano l'utilizzo della CPU."
+        "concurrent_probes_tips": "Deve essere inferiore al numero di server di probe; valori più elevati aumentano l'utilizzo della CPU.",
+        "idle_detection_threshold_tips": "Kbps. Al di sotto di questo valore la connessione viene considerata inattiva e il probing si interrompe."
     },
     "qos": {
         "title": "QoS",
