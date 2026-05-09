@@ -29,7 +29,9 @@
         "usb_tethering_tips": "rekomenduojama, tačiau atkreipkite dėmesį į telefono duomenų planą.",
         "small_traffic_tips1": "Dėmesio — nedidelis, bet nuolatinis srautas:",
         "small_traffic_tips2": "„Autorate“ visą parą siunčia „ping“ užklausas atspindžio serveriams. Su numatytaisiais nustatymais (4 atspindžiai @ 0,3 s) jis sunaudoja maždaug 1–5 KB/s fono srauto, be to, šiek tiek maršrutizatoriaus procesoriaus resursų. Šis kiekis yra nereikšmingas naudojant eterneto / šviesolaidžio / mobiliojo ryšio mėnesinius planus, tačiau griežtai apskaitomuose ryšiuose (pvz., mokant už kiekvieną MB mobiliojo ryšio, telefono viešavietės duomenų limitai) jis gali sudaryti iki ~100–400 MB per mėnesį.",
-        "probe_title": "Zondavimo ir slenksčio parametrai"
+        "probe_title": "Zondavimo ir slenksčio parametrai",
+        "probe_subtitle": "Numatytieji nustatymai suderinti darbui — keiskite tik jei žinote, ką darote.",
+        "probe_server_addresses_label": "Probe Serveris Adresai"
     },
     "qos": {
         "title": "„QoS“",
