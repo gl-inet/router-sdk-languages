@@ -43,7 +43,8 @@
         "setp_tag": "Étape {num}",
         "probe_server_addresses_tips": "Séparé par des virgules, utilisé pour sonder la qualité du réseau.",
         "probe_interval_tips": "Secondes. Des valeurs plus faibles = réponse plus rapide mais utilisation CPU plus élevée.",
-        "concurrent_probes_tips": "Doit être inférieur au nombre de serveurs de sondes ; des valeurs plus élevées augmentent l'utilisation du CPU."
+        "concurrent_probes_tips": "Doit être inférieur au nombre de serveurs de sondes ; des valeurs plus élevées augmentent l'utilisation du CPU.",
+        "idle_detection_threshold_tips": "Kbps. En dessous de cette valeur, la connexion est considérée comme inactive et la sonde s'arrête."
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
