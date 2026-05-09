@@ -42,7 +42,8 @@
         "seconds_unit": "Segundos",
         "setp_tag": "Paso {num}",
         "probe_server_addresses_tips": "Separados por comas, utilizados para la verificación de la calidad de la red.",
-        "probe_interval_tips": "Segundos. Valores más bajos = respuesta más rápida pero mayor uso de CPU."
+        "probe_interval_tips": "Segundos. Valores más bajos = respuesta más rápida pero mayor uso de CPU.",
+        "concurrent_probes_tips": "Debe ser menor que el número de servidores de prueba; valores más altos aumentan el uso de la CPU."
     },
     "qos": {
         "title": "QoS",
