@@ -42,7 +42,8 @@
         "seconds_unit": "Seconds",
         "setp_tag": "Step {num}",
         "probe_server_addresses_tips": "Comma-separated, used for network quality probing.",
-        "probe_interval_tips": "Seconds. Lower values = faster response but higher CPU usage."
+        "probe_interval_tips": "Seconds. Lower values = faster response but higher CPU usage.",
+        "concurrent_probes_tips": "Must be less than probe server count; higher values increase CPU usage."
     },
     "qos": {
         "title": "QoS",
