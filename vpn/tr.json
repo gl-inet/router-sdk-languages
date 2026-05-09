@@ -522,7 +522,8 @@
         "add_client_config_btn": "İstemci Yapılandırması Ekle",
         "no_config_selected_line2": "Lütfen kullanmadan önce tünel yapılandırmasını tamamlayın.",
         "no_vpn_config_line2": "VPN servis sağlayıcısı kullanın veya yapılandırma dosyaları ekleyin.",
-        "no_config_selected_line1": "Mevcut tünel için yapılandırma seçilmedi."
+        "no_config_selected_line1": "Mevcut tünel için yapılandırma seçilmedi.",
+        "remove_last_tunnel_reset_policy_tips": "Son tüneli silmek, {policy} değerini \\\"{label}\\\" olarak sıfırlayacaktır."
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
