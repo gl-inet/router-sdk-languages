@@ -32,7 +32,8 @@
         "small_traffic_tips2": "Autorate pingt die Reflektor-Server rund um die Uhr. Bei den Standardeinstellungen (4 Reflektoren @ 0,3 s) verbraucht es etwa 1–5 KB/s Hintergrundverkehr, zuzüglich einer geringen Menge an Router-CPU. Die Menge ist bei monatlichen Ethernet-/Glasfaser-/Mobilfunktarifen vernachlässigbar, kann sich jedoch bei streng abgerechneten Verbindungen (z. B. Mobilfunk mit Pay-per-MB, Datenobergrenzen für Telefon-Hotspots) auf etwa 100–400 MB pro Monat summieren.",
         "probe_subtitle": "Die Standardeinstellungen sind optimiert — passen Sie sie nur an, wenn Sie genau wissen, was Sie tun.",
         "probe_server_addresses_label": "Probe-Server-Adressen",
-        "probe_interval_label": "Probe-Intervall"
+        "probe_interval_label": "Probe-Intervall",
+        "concurrent_probes_label": "Concurrent Probes"
     },
     "qos": {
         "title": "QoS",
