@@ -21,7 +21,8 @@
         "cake_autorate_title": "Cake Autorate",
         "cake_autorate_tips": "Moldeador basado en latencia que reduce o aumenta el ancho de banda de CAKE en tiempo real según el RTT de la sonda — no hay una prueba de velocidad activa, solo pings ligeros. Recomendado cuando el ancho de banda de la WAN fluctúa; no es necesario en enlaces estables.",
         "wired_wan_label": "Wired WAN (Ethernet, fiber)",
-        "wired_wan_tips": "apagar OFF: el ancho de banda es constante."
+        "wired_wan_tips": "apagar OFF: el ancho de banda es constante.",
+        "repeater_tips": "puede ayudar cuando las condiciones de RF varían."
     },
     "qos": {
         "title": "QoS",
