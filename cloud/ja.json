@@ -109,5 +109,24 @@
         "validate_password_error_msg": "パスワードの検証に失敗しました",
         "sms_sending_failed_msg": "SMSの送信に失敗しました",
         "verify_code_err_over_limit_msg": "認証コードのエラー回数が上限を超えました。"
+    },
+    "menu_account": "glinet アカウント",
+    "account": {
+        "page_title": "glinet アカウント",
+        "intro_primary": "glinet アカウントを使用すると、デバイスとクラウドサービスを接続して管理できます。",
+        "goodcloud_desc_primary": "GoodCloudは、ルーターのリモート管理のためのクラウドプラットフォームです。",
+        "goodcloud_desc_secondary": "リアルタイムの監視、集中管理、および安全な管理を提供します。",
+        "astrowarp_desc_secondary": "保護されたサイト間接続を確保しながら、導入を簡素化します。",
+        "app_desc_primary": "glinet Appを使用すると、ユーザーフレンドリーなモバイルインターフェースを介してルーターを管理できます。",
+        "bind_via_url": "URL経由でglinet アカウントをバインド",
+        "bound_account_label": "バインド済みアカウント：",
+        "bound_time_label": "バインド時刻：",
+        "unbind_notice": "バインドを解除すると、このルーターがクラウドサービスから切断されるだけです。ローカルネットワークサービスとルーターログイン認証情報は影響を受けません。",
+        "intro_secondary": "1つのglinet アカウントで、GoodCloudとglinet Appの両方にシームレスにアクセスでき、安全で向上したエクスペリエンスを確保します。これにより、いつでもどこからでもネットワークを管理するためのより便利な方法を提供します。",
+        "astrowarp_desc_primary": "AstroWarpは、2台のルーターをVPNペアとして使用して、ホームVPNのセットアップを簡素化し、安全にします。",
+        "app_title": "アプリ",
+        "app_desc_secondary": "どこからでもルーターの状態を監視し、設定を変更できます。",
+        "unbound_intro": "リンクをクリックすると、glinet アカウントの統合ログインパネルに移動します。サインイン後、アカウントがこのデバイスに接続されます。リモートバインディング用にリンクをコピーすることもできます。",
+        "bound_intro": "このルーターは現在、glinet アカウントにバインドされています。GoodCloud、AstroWarp、glinet Appを含むクラウド機能とサービスにアクセスできるようになりました。"
     }
 }
