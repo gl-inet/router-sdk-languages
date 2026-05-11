@@ -46,7 +46,7 @@
         "idle_detection_threshold_tips": "Kbps。この値を下回ると、接続はアイドル状態と見なされ、プロービングが停止します。",
         "download_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
         "upload_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
-        "cake_autorate_desc": "基于探测RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动速度测试，仅使用轻量级Ping。建议在WAN带宽波动时使用；稳定链路上无需启用。"
+        "cake_autorate_desc": "レイテンシ駆動型シェーパーで、プローブRTTに基づいてCAKE帯域幅をリアルタイムで削減または増加します。アクティブな速度テストはなく、軽量なpingのみを使用します。WAN帯域幅が変動する場合に推奨されます。安定したリンクでは不要です。"
     },
     "qos": {
         "title": "QoS",
