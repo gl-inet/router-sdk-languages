@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "Deve essere inferiore al numero di server di probe; valori più elevati aumentano l'utilizzo della CPU.",
         "idle_detection_threshold_tips": "Kbps. Al di sotto di questo valore la connessione viene considerata inattiva e il probing si interrompe.",
         "download_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
-        "upload_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda."
+        "upload_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
+        "cake_autorate_desc": "Modellatore basato sulla latenza che riduce o aumenta la larghezza di banda CAKE in tempo reale in base all'RTT del probe — non è presente alcun test di velocità attivo, solo ping leggeri. Consigliato quando la larghezza di banda WAN fluttua; non necessario su collegamenti stabili."
     },
     "qos": {
         "title": "QoS",
