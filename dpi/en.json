@@ -48,7 +48,8 @@
         "upload_latency_threshold_tips": "Milliseconds. Exceeding this triggers bandwidth reduction.",
         "cake_autorate_desc": "Latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT — there is no active speed test, only lightweight pings. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links.",
         "cake_autorate_tips": "Continuously sends small ICMP latency probes to reflector servers, observes round-trip delay, and dynamically lowers or raises the CAKE shaper bandwidth to suppress bufferbloat. It does NOT run active speed tests.",
-        "queue_discipline_tips": "Choose the queueing algorithm. cake offers smart, automatic traffic shaping with the best overall latency control. fq_codel provides simple and efficient fair-queueing with basic latency reduction."
+        "queue_discipline_tips": "Choose the queueing algorithm. cake offers smart, automatic traffic shaping with the best overall latency control. fq_codel provides simple and efficient fair-queueing with basic latency reduction.",
+        "intelligently_manage_traffic_tips": "Smart Queue Management intelligently manages traffic to minimize latency and \"bufferbloat\" for smoother gaming and calls. Best suited for low-bandwidth or congested networks; on high-speed connections, enabling this may reduce peak throughput. SQM affects traffic passing through the router as a gateway, including VPN Client traffic, but does not affect incoming traffic when the router operates as a VPN Server."
     },
     "qos": {
         "title": "QoS",
