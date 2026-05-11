@@ -527,7 +527,8 @@
         "add_client_config_btn": "Add Client Configuration",
         "no_config_selected_line1": "No configuration selected for the current tunnel.",
         "no_config_selected_line2": "Please complete the tunnel configuration before using it.",
-        "no_vpn_config_line2": "Using VPN service provider or add configuration files."
+        "no_vpn_config_line2": "Using VPN service provider or add configuration files.",
+        "remove_last_tunnel_reset_policy_tips": "Deleting the last tunnel will reset the {policy} to \"{label}\"."
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
