@@ -46,7 +46,8 @@
         "idle_detection_threshold_tips": "Kbps. Al di sotto di questo valore la connessione viene considerata inattiva e il probing si interrompe.",
         "download_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
         "upload_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
-        "cake_autorate_desc": "Modellatore basato sulla latenza che riduce o aumenta la larghezza di banda CAKE in tempo reale in base all'RTT del probe — non è presente alcun test di velocità attivo, solo ping leggeri. Consigliato quando la larghezza di banda WAN fluttua; non necessario su collegamenti stabili."
+        "cake_autorate_desc": "Modellatore basato sulla latenza che riduce o aumenta la larghezza di banda CAKE in tempo reale in base all'RTT del probe — non è presente alcun test di velocità attivo, solo ping leggeri. Consigliato quando la larghezza di banda WAN fluttua; non necessario su collegamenti stabili.",
+        "cake_autorate_tips": "Invia continuamente piccoli probe ICMP di latenza ai server reflector, osserva il ritardo di andata e ritorno e abbassa o alza dinamicamente la larghezza di banda dello shaper CAKE per sopprimere il bufferbloat. NON esegue test di velocità attivi."
     },
     "qos": {
         "title": "QoS",
