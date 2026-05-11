@@ -533,7 +533,7 @@
         "no_config_selected_line1": "Níl aon chumraíocht roghnaithe don tollán reatha.",
         "no_config_selected_line2": "Comhlánaigh cumraíocht an tolláin sula n-úsáideann tú é.",
         "no_vpn_config_line2": "Ag baint úsáide as soláthraí seirbhíse VPN nó ag cur comhaid chumraíochta leis.",
-        "remove_last_tunnel_reset_policy_tips": "Má scriostar an tollán deireanach, athshocrófar an {policy} go \"{label}\"."
+        "remove_last_tunnel_reset_policy_tips": "Athshocrófar an {policy} go \"{label}\" má scriostar an tollán deireanach."
     },
     "vpn_server": {
         "want_use_ipv6_tips": "Más mian leat seoladh IPv6 a úsáid, déan {todo} ar do ródaire le do thoil.",
@@ -560,7 +560,7 @@
         "init_wg_step_tip_1": "1. Giniúnaigh comhad cumraíochta WireGuard®.",
         "init_wg_step_tip_3": "3. Easpórtáil an t-eolas piaraí chuig an gcliant.",
         "init_wg_add_peer_tip": "Níl aon chumraíocht piaraí agat fós. Chun tosú, cuir cumraíocht piaraí leis.",
-        "address_conflict_common_tips": "{type} {interface} le {vpnType} seoladh IP ({address}) tagann sé salach ar a chéile."
+        "address_conflict_common_tips": "Tá coimhlint idir seoladh IP {vpnType} ({address}) agus {type} an {interface}."
     },
     "menu_vpndashboard": "Deais VPN",
     "menu_wgserver": "Freastalaí WireGuard",
@@ -591,7 +591,7 @@
         "stop_config_visit_dashboard_tips": "Chun tolláin a bhainistiú, tabhair cuairt ar an {page}.",
         "remove_config_btn": "Scrios Cumraíochtaí",
         "reomving_config_warning_tips": "An bhfuil tú cinnte gur mian leat é a scriosadh?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) ag teacht salach ar an {interface}."
+        "address_conflict_common_tips": "Tá coimhlint idir {tunnel} {addressType} ({address}) agus an {interface}."
     },
     "ovpnclient": {
         "legacy_label": "Oidhreacht",
