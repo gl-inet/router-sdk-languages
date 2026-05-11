@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "Musi być mniejsza niż liczba serwerów sondy; wyższe wartości zwiększają użycie procesora.",
         "idle_detection_threshold_tips": "Kbps. Poniżej tej wartości połączenie jest uznawane za bezczynne i sondowanie zostaje zatrzymane.",
         "download_latency_threshold_tips": "Milisekundy. Przekroczenie tego powoduje zmniejszenie przepustowości.",
-        "upload_latency_threshold_tips": "Milisekundy. Przekroczenie tego powoduje zmniejszenie przepustowości."
+        "upload_latency_threshold_tips": "Milisekundy. Przekroczenie tego powoduje zmniejszenie przepustowości.",
+        "cake_autorate_desc": "Sterownik opóźnienia, który w czasie rzeczywistym zmniejsza lub zwiększa przepustowość CAKE na podstawie RTT sondy — nie przeprowadza aktywnego testu prędkości, a jedynie lekkie pingi. Zalecany, gdy przepustowość WAN ulega wahaniom; nie jest wymagany na stabilnych łączach."
     },
     "qos": {
         "title": "QoS",
