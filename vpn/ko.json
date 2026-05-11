@@ -527,7 +527,8 @@
         "add_client_config_btn": "클라이언트 구성 추가",
         "no_config_selected_line1": "현재 터널에 대해 선택된 구성이 없습니다.",
         "no_config_selected_line2": "사용하기 전에 터널 구성을 완료하십시오.",
-        "no_vpn_config_line2": "VPN 서비스 공급자를 사용하거나 구성 파일을 추가하십시오."
+        "no_vpn_config_line2": "VPN 서비스 공급자를 사용하거나 구성 파일을 추가하십시오.",
+        "remove_last_tunnel_reset_policy_tips": "마지막 터널을 삭제하면 {policy}이(가) \"{label}\"(으)로 재설정됩니다."
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
