@@ -47,7 +47,8 @@
         "download_latency_threshold_tips": "Ezredmásodperc. Ennek túllépése sávszélesség-csökkentést vált ki.",
         "upload_latency_threshold_tips": "Ezredmásodperc. Ennek túllépése sávszélesség-csökkentést vált ki.",
         "cake_autorate_desc": "Késleltetésvezérelt alakító, amely valós időben csökkenti vagy növeli a CAKE sávszélességét a mérési RTT alapján – nincs aktív sebességteszt, csak könnyű pingek. Ajánlott, ha a WAN sávszélesség ingadozik; stabil kapcsolatokon nem szükséges.",
-        "cake_autorate_tips": "Folyamatosan kis ICMP késleltetési próbákat küld a visszaverő szerverekre, figyeli a körútidő-késleltetést, és dinamikusan csökkenti vagy növeli a CAKE alakító sávszélességét a puffertorlódás elnyomása érdekében. NEM futtat aktív sebességteszteket."
+        "cake_autorate_tips": "Folyamatosan kis ICMP késleltetési próbákat küld a visszaverő szerverekre, figyeli a körútidő-késleltetést, és dinamikusan csökkenti vagy növeli a CAKE alakító sávszélességét a puffertorlódás elnyomása érdekében. NEM futtat aktív sebességteszteket.",
+        "queue_discipline_tips": "Válassza ki a sorba rendezési algoritmust. A cake intelligens, automatikus forgalomszabályozást kínál a legjobb általános késleltetés-szabályozással. Az fq_codel egyszerű és hatékony tisztességes sorba rendezést biztosít alapvető késleltetés-csökkentéssel."
     },
     "qos": {
         "title": "QoS",
