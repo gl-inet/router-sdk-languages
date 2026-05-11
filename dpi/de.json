@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "Muss kleiner als die Anzahl der Testserver sein; höhere Werte erhöhen die CPU-Auslastung.",
         "idle_detection_threshold_tips": "Kbps. Unter diesem Wert wird die Verbindung als inaktiv betrachtet und die Überprüfung wird gestoppt.",
         "download_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert.",
-        "upload_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert."
+        "upload_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert.",
+        "cake_autorate_desc": "Latenzgesteuerter Shaper, der die CAKE-Bandbreite in Echtzeit basierend auf der RTT des Probes reduziert oder erhöht – es gibt keinen aktiven Geschwindigkeitstest, sondern nur leichte Pings. Empfohlen, wenn die WAN-Bandbreite schwankt; auf stabilen Verbindungen nicht erforderlich."
     },
     "qos": {
         "title": "QoS",
