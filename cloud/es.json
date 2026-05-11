@@ -109,5 +109,24 @@
         "validate_password_error_msg": "La validación de la contraseña ha fallado",
         "sms_sending_failed_msg": "Error al enviar SMS",
         "verify_code_err_over_limit_msg": "El número de errores del código de verificación ha superado el límite."
+    },
+    "menu_account": "Cuenta de glinet",
+    "account": {
+        "page_title": "Cuenta de glinet",
+        "intro_primary": "La cuenta de glinet le permite conectar y gestionar sus dispositivos y servicios en la nube.",
+        "intro_secondary": "Con una sola cuenta de glinet, puede acceder tanto a GoodCloud como a la aplicación glinet de manera fluida, garantizando una experiencia segura y mejorada. Esto le proporciona una forma más conveniente de gestionar su red desde cualquier lugar y en cualquier momento.",
+        "goodcloud_desc_primary": "GoodCloud es una plataforma en la nube para la gestión remota de enrutadores.",
+        "astrowarp_desc_primary": "AstroWarp simplifica y asegura la configuración de VPN en el hogar utilizando dos enrutadores como un par de VPN.",
+        "astrowarp_desc_secondary": "Simplifica la implementación al tiempo que garantiza una conectividad protegida de sitio a sitio.",
+        "app_title": "Aplicación",
+        "app_desc_secondary": "Puede monitorear el estado del enrutador y modificar la configuración desde cualquier lugar.",
+        "bind_via_url": "Vincular cuenta de glinet mediante URL",
+        "bound_intro": "Este enrutador está actualmente vinculado a su cuenta de glinet. Ahora puede acceder a las funciones y servicios en la nube, incluidos GoodCloud, AstroWarp y la aplicación glinet.",
+        "bound_account_label": "Cuenta vinculada:",
+        "bound_time_label": "Hora de vinculación:",
+        "unbind_notice": "La desvinculación solo desconecta este enrutador de los servicios en la nube. Los servicios de red local y las credenciales de inicio de sesión del enrutador no se ven afectados.",
+        "goodcloud_desc_secondary": "Proporciona monitoreo en tiempo real, configuración centralizada y gestión segura.",
+        "app_desc_primary": "La aplicación glinet le permite gestionar sus enrutadores a través de una interfaz móvil fácil de usar.",
+        "unbound_intro": "Al hacer clic en el enlace, será dirigido al panel de inicio de sesión unificado de la cuenta de glinet. Después de iniciar sesión, su cuenta se conectará a este dispositivo. También puede copiar el enlace para la vinculación remota."
     }
 }
