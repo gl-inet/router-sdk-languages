@@ -48,7 +48,8 @@
         "upload_latency_threshold_tips": "Milliseconds. Má sháraítear é seo, laghdaítear an bandaleithead.",
         "cake_autorate_desc": "Múnlóir atá bunaithe ar mhoille a laghdaíonn nó a ardaíonn bandaleithead CAKE i bhfíor-am bunaithe ar RTT an taiscéalaí — níl aon tástáil luais ghníomhach ann, ach pings éadroma amháin. Moltar é nuair a athraíonn bandaleithead an WAN go minic; ní gá é ar naisc chobhsaí.",
         "cake_autorate_tips": "Seolann sé taiscéalaithe beaga ICMP moille go leanúnach chuig freastalaithe frithchaiteacha, breathnaíonn sé ar an moille timthrialla, agus íslíonn nó ardaíonn sé go dinimiciúil bandaleithead mhúnlaithe CAKE chun maolánú a shochtadh. NÍ reáchtálann sé tástálacha luais gníomhacha.",
-        "queue_discipline_tips": "Roghnaigh an algartam scuaineála. Cuireann cake múnlú tráchta cliste, uathoibríoch ar fáil leis an rialú latency iomlán is fearr. Soláthraíonn fq_codel scuaineáil chothrom shimplí éifeachtach le laghdú bunúsach ar latency."
+        "queue_discipline_tips": "Roghnaigh an algartam scuaineála. Cuireann cake múnlú tráchta cliste, uathoibríoch ar fáil leis an rialú latency iomlán is fearr. Soláthraíonn fq_codel scuaineáil chothrom shimplí éifeachtach le laghdú bunúsach ar latency.",
+        "intelligently_manage_traffic_tips": "Bainistíonn Bainistíocht Chliste Cueanna trácht go cliste chun moill agus \"bufferbloat\" a íoslaghdú le haghaidh cearrbhachas agus glaonna níos míne. Is fearr a oireann sé do líonraí íseal-bandaleithead nó plódaithe; ar naisc ardluais, d'fhéadfadh sé seo a chumasú an buaicscoth-tréchur a laghdú. Bíonn tionchar ag SQM ar thrácht a théann tríd an ródaire mar gheata, lena n-áirítear trácht Cliant VPN, ach ní bhíonn tionchar aige ar thrácht isteach nuair a fheidhmíonn an ródaire mar Fhreastalaí VPN."
     },
     "qos": {
         "mode_title": "Leithdháil bandaleithead bunaithe ar thosaíocht an fheidhmchláir.",
