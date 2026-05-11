@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "プローブサーバー数より小さくなければなりません。値を大きくするとCPU使用率が増加します。",
         "idle_detection_threshold_tips": "Kbps。この値を下回ると、接続はアイドル状態と見なされ、プロービングが停止します。",
         "download_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
-        "upload_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。"
+        "upload_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
+        "cake_autorate_desc": "基于探测RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动速度测试，仅使用轻量级Ping。建议在WAN带宽波动时使用；稳定链路上无需启用。"
     },
     "qos": {
         "title": "QoS",
