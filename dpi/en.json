@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "Must be less than probe server count; higher values increase CPU usage.",
         "idle_detection_threshold_tips": "Kbps. Below this value the connection is considered idle and probing stops.",
         "download_latency_threshold_tips": "Milliseconds. Exceeding this triggers bandwidth reduction.",
-        "upload_latency_threshold_tips": "Milliseconds. Exceeding this triggers bandwidth reduction."
+        "upload_latency_threshold_tips": "Milliseconds. Exceeding this triggers bandwidth reduction.",
+        "cake_autorate_desc": "Latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT — there is no active speed test, only lightweight pings. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links."
     },
     "qos": {
         "title": "QoS",
