@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "Turėtų būti mažesnis už bandomų serverių skaičių; didesnės reikšmės padidina procesoriaus apkrovą.",
         "idle_detection_threshold_tips": "Kbps. Žemiau šios reikšmės ryšys laikomas budėjimo režimu ir tikrinimas sustoja.",
         "download_latency_threshold_tips": "Milisekundės. Viršijus šią reikšmę, suaktyvinamas duomenų siuntimo srauto pralaidumo mažinimas.",
-        "upload_latency_threshold_tips": "Milisekundės. Viršijus šią reikšmę, suaktyvinamas duomenų siuntimo srauto pralaidumo mažinimas."
+        "upload_latency_threshold_tips": "Milisekundės. Viršijus šią reikšmę, suaktyvinamas duomenų siuntimo srauto pralaidumo mažinimas.",
+        "cake_autorate_desc": "Delsos valdomas formuotojas, kuris realiu laiku mažina arba didina CAKE duomenų siuntimo srauto pralaidumą, remiantis zondo RTT — nėra aktyvaus greičio testo, tik lengvi pingai. Rekomenduojama, kai WAN pralaidumas svyruoja; nereikalingas stabiliose jungtyse."
     },
     "qos": {
         "title": "„QoS“",
