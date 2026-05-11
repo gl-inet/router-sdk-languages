@@ -46,7 +46,8 @@
         "idle_detection_threshold_tips": "Kbps. Poniżej tej wartości połączenie jest uznawane za bezczynne i sondowanie zostaje zatrzymane.",
         "download_latency_threshold_tips": "Milisekundy. Przekroczenie tego powoduje zmniejszenie przepustowości.",
         "upload_latency_threshold_tips": "Milisekundy. Przekroczenie tego powoduje zmniejszenie przepustowości.",
-        "cake_autorate_desc": "Sterownik opóźnienia, który w czasie rzeczywistym zmniejsza lub zwiększa przepustowość CAKE na podstawie RTT sondy — nie przeprowadza aktywnego testu prędkości, a jedynie lekkie pingi. Zalecany, gdy przepustowość WAN ulega wahaniom; nie jest wymagany na stabilnych łączach."
+        "cake_autorate_desc": "Sterownik opóźnienia, który w czasie rzeczywistym zmniejsza lub zwiększa przepustowość CAKE na podstawie RTT sondy — nie przeprowadza aktywnego testu prędkości, a jedynie lekkie pingi. Zalecany, gdy przepustowość WAN ulega wahaniom; nie jest wymagany na stabilnych łączach.",
+        "cake_autorate_tips": "Ciągle wysyła małe sondy opóźnienia ICMP do serwerów reflektorów, obserwuje opóźnienie w obie strony i dynamicznie obniża lub podnosi przepustowość kształtowania CAKE, aby tłumić buforowanie. NIE przeprowadza aktywnych testów prędkości."
     },
     "qos": {
         "title": "QoS",
