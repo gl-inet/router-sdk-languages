@@ -46,7 +46,8 @@
         "idle_detection_threshold_tips": "Kbps。低于此值时，连接被视为空闲并停止探测。",
         "download_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
         "upload_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
-        "cake_autorate_desc": "基于探测RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动测速，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路无需启用。"
+        "cake_autorate_desc": "基于探测RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动测速，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路无需启用。",
+        "cake_autorate_tips": "持续向反射服务器发送小型ICMP延迟探测包，观测往返延迟，并动态降低或提高CAKE整形器带宽以抑制缓冲区膨胀。该功能不会主动运行速度测试。"
     },
     "qos": {
         "title": "QoS",
