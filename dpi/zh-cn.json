@@ -47,7 +47,8 @@
         "download_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
         "upload_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
         "cake_autorate_desc": "基于探测RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动测速，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路无需启用。",
-        "cake_autorate_tips": "持续向反射服务器发送小型ICMP延迟探测包，观测往返延迟，并动态降低或提高CAKE整形器带宽以抑制缓冲区膨胀。该功能不会主动运行速度测试。"
+        "cake_autorate_tips": "持续向反射服务器发送小型ICMP延迟探测包，观测往返延迟，并动态降低或提高CAKE整形器带宽以抑制缓冲区膨胀。该功能不会主动运行速度测试。",
+        "queue_discipline_tips": "选择队列算法。cake提供智能、自动的流量整形功能，具有最佳的整体延迟控制能力。fq_codel提供简单高效的公平队列机制，可基本降低延迟。"
     },
     "qos": {
         "title": "QoS",
