@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "Probe sunucu sayısından daha az olmalıdır; daha yüksek değerler CPU kullanımını artırır.",
         "idle_detection_threshold_tips": "Kbps. Bu değerin altında bağlantı boşta kabul edilir ve yoklama durdurulur.",
         "download_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur.",
-        "upload_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur."
+        "upload_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur.",
+        "cake_autorate_desc": "Gecikme odaklı şekillendirici, prob RTT'sine dayanarak CAKE bant genişliğini gerçek zamanlı olarak azaltır veya artırır — aktif hız testi yoktur, yalnızca hafif pingler kullanılır. WAN bant genişliğinin dalgalandığı durumlarda önerilir; kararlı bağlantılarda gerekli değildir."
     },
     "qos": {
         "title": "QoS",
