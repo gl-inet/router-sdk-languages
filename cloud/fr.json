@@ -109,5 +109,24 @@
         "validate_password_error_msg": "La validation du mot de passe a échoué",
         "sms_sending_failed_msg": "Échec de l'envoi du SMS",
         "verify_code_err_over_limit_msg": "Le nombre d'erreurs du code de vérification dépasse la limite."
+    },
+    "menu_account": "Compte glinet",
+    "account": {
+        "page_title": "Compte glinet",
+        "goodcloud_desc_primary": "GoodCloud est une plateforme cloud pour la gestion à distance des routeurs.",
+        "goodcloud_desc_secondary": "Elle offre une surveillance en temps réel, une configuration centralisée et une gestion sécurisée.",
+        "astrowarp_desc_secondary": "Cela simplifie le déploiement tout en garantissant une connectivité site à site protégée.",
+        "app_title": "Application",
+        "app_desc_primary": "L'application glinet vous permet de gérer vos routeurs via une interface mobile conviviale.",
+        "app_desc_secondary": "Vous pouvez surveiller l'état du routeur et modifier les paramètres depuis n'importe où.",
+        "unbound_intro": "En cliquant sur le lien, vous serez redirigé vers le panneau de connexion unifié du compte glinet. Après vous être connecté, votre compte sera lié à cet appareil. Vous pouvez également copier le lien pour une liaison à distance.",
+        "bind_via_url": "Lier le compte glinet via une URL",
+        "bound_account_label": "Compte lié :",
+        "bound_time_label": "Heure de liaison :",
+        "intro_primary": "Le compte glinet vous permet de connecter et de gérer vos appareils et services cloud.",
+        "intro_secondary": "Avec un seul compte glinet, vous pouvez accéder à GoodCloud et à l'application glinet de manière transparente, garantissant une expérience sécurisée et améliorée. Cela vous offre un moyen plus pratique de gérer votre réseau depuis n'importe où, à tout moment.",
+        "astrowarp_desc_primary": "AstroWarp simplifie et sécurise la configuration d'un VPN domestique en utilisant deux routeurs comme paire VPN.",
+        "bound_intro": "Ce routeur est actuellement lié à votre compte glinet. Vous pouvez désormais accéder aux fonctionnalités et services cloud, notamment GoodCloud, AstroWarp et l'application glinet.",
+        "unbind_notice": "La dissociation déconnecte uniquement ce routeur des services cloud. Les services réseau locaux et les identifiants de connexion au routeur restent inchangés."
     }
 }
