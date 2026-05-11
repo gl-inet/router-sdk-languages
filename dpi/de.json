@@ -47,7 +47,8 @@
         "download_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert.",
         "upload_latency_threshold_tips": "Millisekunden. Bei Überschreitung wird die Bandbreite reduziert.",
         "cake_autorate_desc": "Latenzgesteuerter Shaper, der die CAKE-Bandbreite in Echtzeit basierend auf der RTT des Probes reduziert oder erhöht – es gibt keinen aktiven Geschwindigkeitstest, sondern nur leichte Pings. Empfohlen, wenn die WAN-Bandbreite schwankt; auf stabilen Verbindungen nicht erforderlich.",
-        "cake_autorate_tips": "Sendet kontinuierlich kleine ICMP-Latenztests an Reflektor-Server, beobachtet die Umlaufverzögerung und senkt oder erhöht dynamisch die CAKE-Shaper-Bandbreite, um Bufferbloat zu unterdrücken. Es führt KEINE aktiven Geschwindigkeitstests durch."
+        "cake_autorate_tips": "Sendet kontinuierlich kleine ICMP-Latenztests an Reflektor-Server, beobachtet die Umlaufverzögerung und senkt oder erhöht dynamisch die CAKE-Shaper-Bandbreite, um Bufferbloat zu unterdrücken. Es führt KEINE aktiven Geschwindigkeitstests durch.",
+        "queue_discipline_tips": "Wählen Sie den Warteschlangenalgorithmus. cake bietet intelligentes, automatisches Traffic-Shaping mit der besten Gesamtlatenzkontrolle. fq_codel bietet einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung."
     },
     "qos": {
         "title": "QoS",
