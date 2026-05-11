@@ -45,7 +45,8 @@
         "concurrent_probes_tips": "Moet kleiner zijn dan het aantal probeservers; hogere waarden verhogen het CPU-gebruik.",
         "idle_detection_threshold_tips": "Kbps. Onder deze waarde wordt de verbinding als inactief beschouwd en stopt het testen.",
         "download_latency_threshold_tips": "Milliseconden. Overschrijding hiervan leidt tot bandbreedtevermindering.",
-        "upload_latency_threshold_tips": "Milliseconden. Overschrijding hiervan leidt tot bandbreedtevermindering."
+        "upload_latency_threshold_tips": "Milliseconden. Overschrijding hiervan leidt tot bandbreedtevermindering.",
+        "cake_autorate_desc": "Op basis van latentie gestuurde vormgever die de CAKE-bandbreedte in realtime verlaagt of verhoogt op basis van de RTT van de probe — er is geen actieve snelheidstest, alleen lichtgewicht pings. Aanbevolen wanneer de WAN-bandbreedte fluctueert; niet nodig op stabiele verbindingen."
     },
     "qos": {
         "title": "QoS",
