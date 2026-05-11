@@ -48,7 +48,8 @@
         "upload_latency_threshold_tips": "毫秒。超過此值將觸發頻寬降低。",
         "cake_autorate_desc": "基于探针RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动速度测试，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路上无需启用。",
         "cake_autorate_tips": "持续向反射服务器发送小型ICMP延迟探测，观察往返延迟，并动态降低或提高CAKE整形器带宽以抑制缓冲膨胀。它不会主动运行速度测试。",
-        "queue_discipline_tips": "選擇佇列演算法。cake提供智慧型自動流量塑形，具有最佳整體延遲控制。fq_codel提供簡單且高效的公平佇列，並能基本降低延遲。"
+        "queue_discipline_tips": "選擇佇列演算法。cake提供智慧型自動流量塑形，具有最佳整體延遲控制。fq_codel提供簡單且高效的公平佇列，並能基本降低延遲。",
+        "intelligently_manage_traffic_tips": "智能队列管理能智能调控流量，最大限度降低延迟和\"缓冲区膨胀\"，使游戏和通话更流畅。最适合低带宽或拥堵网络；在高速连接上启用此功能可能会降低峰值吞吐量。SQM会影响通过路由器作为网关的流量，包括VPN客户端流量，但当路由器作为VPN服务器运行时，不影响传入流量。"
     },
     "qos": {
         "title": "QoS",
