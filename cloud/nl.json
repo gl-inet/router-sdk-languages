@@ -109,5 +109,24 @@
         "validate_password_error_msg": "Wachtwoordvalidatie mislukt",
         "sms_sending_failed_msg": "Het verzenden van de SMS is mislukt",
         "verify_code_err_over_limit_msg": "Verificatiecode foutenlimiet overschreden."
+    },
+    "menu_account": "glinet Account",
+    "account": {
+        "page_title": "glinet Account",
+        "intro_primary": "Met het glinet Account kunt u uw apparaten en clouddiensten verbinden en beheren.",
+        "goodcloud_desc_primary": "GoodCloud is een cloudplatform voor extern routerbeheer.",
+        "goodcloud_desc_secondary": "Het biedt real-time monitoring, gecentraliseerde configuratie en veilig beheer.",
+        "astrowarp_desc_primary": "AstroWarp vereenvoudigt en beveiligt de thuis-VPN-installatie door twee routers als een VPN-paar te gebruiken.",
+        "astrowarp_desc_secondary": "Het vereenvoudigt de implementatie terwijl beveiligde site-to-site-connectiviteit wordt gegarandeerd.",
+        "app_desc_primary": "Met de glinet App kunt u uw routers beheren via een gebruiksvriendelijke mobiele interface.",
+        "bind_via_url": "Bind glinet Account via URL",
+        "bound_intro": "Deze router is momenteel gebonden aan uw glinet Account. U heeft nu toegang tot cloudfuncties en -diensten, waaronder GoodCloud, AstroWarp en de glinet App.",
+        "bound_account_label": "Gebonden account:",
+        "bound_time_label": "Gebonden tijd:",
+        "unbind_notice": "Het ontbinden verbreekt alleen de verbinding van deze router met clouddiensten. Lokale netwerkdiensten en inloggegevens van de router blijven onaangetast.",
+        "intro_secondary": "Met één enkel glinet Account heeft u naadloos toegang tot zowel GoodCloud als de glinet App, wat zorgt voor een veilige en verbeterde ervaring. Dit biedt u een gemakkelijkere manier om uw netwerk overal en altijd te beheren.",
+        "app_title": "App",
+        "app_desc_secondary": "U kunt de routerstatus controleren en instellingen wijzigen vanaf elke locatie.",
+        "unbound_intro": "Door op de link te klikken, wordt u doorgestuurd naar het uniforme aanmeldingsscherm van het glinet Account. Na het inloggen wordt uw account aan dit apparaat gekoppeld. U kunt de link ook kopiëren voor externe binding."
     }
 }
