@@ -95,7 +95,8 @@
         "block_wan_subnets_tip_guest": "如果啟用此功能，訪客網路將無法訪問上層網路及上層網路所在的網段。",
         "lpr_tips": "輸入一個或多個 LPR 伺服器 IP 位址。",
         "hostname_tips": "0-63個字元。僅允許使用字母、數字或連字號。必須以字母或數字開頭和結尾，且不能僅由數字組成。",
-        "err_address_reservation_description_max_length": "最大長度為256個字元"
+        "err_address_reservation_description_max_length": "最大長度為256個字元",
+        "lan_ip_tips": "LAN 子網與 WAN 子網衝突，請 $$$$變更 LAN 子網$$$$ 為不同的位址。"
     },
     "menu_vlan": "子網"
 }
