@@ -96,7 +96,8 @@
         "lpr_tips": "输入一个或多个LPR服务器IP地址。",
         "err_address_reservation_description_max_length": "最大长度为256个字符",
         "hostname_tips": "0-63文字。仅允许使用字母、数字或连字符。必须以字母或数字开头和结尾，且不能仅由数字组成。",
-        "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。$$$$LANサブネットを変更$$$$して異なるアドレスに設定してください。"
+        "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。$$$$LANサブネットを変更$$$$して異なるアドレスに設定してください。",
+        "err_reserved_ip_not_in_subnet": "予約されたIPアドレスはサブネット内にありません"
     },
     "menu_vlan": "サブネット"
 }
