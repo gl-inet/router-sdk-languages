@@ -69,7 +69,6 @@
         "mac_existed": "Bhí MAC ann",
         "ip_existed": "Bhí IP ann",
         "not_allow_use_tips": "Ní cheadaítear na carachtair {char}.",
-        "hostname_tips": "2-63 carachtar. Ní cheadaítear ach litreacha, digití nó fleiscíní. Ní fhéadfaidh sé tosú ná críochnú le fleiscín, agus ní fhéadfaidh sé a bheith comhdhéanta de dhigití amháin.",
         "hostname_existed": "Bhí ainm óstach ann",
         "confirm_delete_subnet": "An bhfuil tú cinnte gur mian leat an líonra seo a scriosadh?",
         "dhcp_charter_label": "Am Léasa",
@@ -94,7 +93,9 @@
         "block_wan_subnets_tip_guest": "Mura bhfuil an fheidhm seo cumasaithe, ní bheidh an líonra aoi in ann rochtain a fháil ar an líonra uachtarach ná ar an deighleog líonra ina bhfuil an líonra uachtarach suite.",
         "block_wan_subnets_tip_custom": "Mura bhfuil an fheidhm seo cumasaithe, ní bheidh an líonra saincheaptha in ann rochtain a fháil ar an líonra uachtarach ná ar an deighleog líonra ina bhfuil an líonra uachtarach suite.",
         "block_wan_subnets_tip_iot": "Mura bhfuil an fheidhm seo cumasaithe, ní bheidh an líonra IoT in ann rochtain a fháil ar an líonra uachtarach ná ar an deighleog líonra ina bhfuil an líonra uachtarach suite.",
-        "lpr_tips": "Iontráil seoladh IP amháin nó níos mó d'fhreastalaí LPR."
+        "lpr_tips": "Iontráil seoladh IP amháin nó níos mó d'fhreastalaí LPR.",
+        "hostname_tips": "0-63 carachtar. Ní cheadaítear ach litreacha, digití nó fleiscíní. Ní mór tús agus deireadh a chur le litir nó le digit, agus ní féidir é a bheith comhdhéanta de dhigití amháin.",
+        "err_address_reservation_description_max_length": "Is é 256 carachtar an fad uasta"
     },
-    "menu_vlan": "VLAN"
+    "menu_vlan": "Fonghréasán"
 }

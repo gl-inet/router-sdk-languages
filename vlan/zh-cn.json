@@ -72,7 +72,6 @@
         "mac_existed": "MAC地址已存在",
         "ip_existed": "IP已存在",
         "not_allow_use_tips": "字符 {char} 不允许使用。",
-        "hostname_tips": "2-63个字符。只允许字母、数字或连字符。不能以连字符开头或结尾，也不能仅由数字组成。",
         "hostname_existed": "主机名已存在",
         "confirm_delete_subnet": "确定要删除此网络吗？",
         "lpr_serve_label": "LPR 服务器",
@@ -94,7 +93,9 @@
         "block_wan_subnets_tip_guest": "如果启用此功能，访客网络将无法访问上层网络及上层网络所在的网段。",
         "block_wan_subnets_tip_iot": "如果启用此功能，IoT网络将无法访问上层网络及上层网络所在的网段。",
         "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上层网络及上层网络所在的网段。",
-        "lpr_tips": "输入一个或多个LPR服务器IP地址。"
+        "lpr_tips": "输入一个或多个LPR服务器IP地址。",
+        "hostname_tips": "0-63个字符。仅允许使用字母、数字或连字符。必须以字母或数字开头和结尾，且不能仅由数字组成。",
+        "err_address_reservation_description_max_length": "最大长度为256个字符"
     },
-    "menu_vlan": "VLAN"
+    "menu_vlan": "子网"
 }

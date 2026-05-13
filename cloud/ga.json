@@ -82,7 +82,16 @@
         "go_to_services_title": "Téigh go Seirbhísí Néal",
         "access_cloud_services_bind_tips": "Tá tú ar tí rochtain a fháil ar na seirbhísí scamall chun an ceangal a chríochnú.",
         "copy_link_btn": "Cóipeáil an Nasc",
-        "access_cloud_services_tips": "Tá tú ar tí rochtain a fháil ar na seirbhísí scamhail."
+        "access_cloud_services_tips": "Tá tú ar tí rochtain a fháil ar na seirbhísí scamhail.",
+        "remote_monitoring_title": "Monatóireacht & Bainistíocht Cianda",
+        "batch_configuration_title": "Cumraíocht Gléas Baisc",
+        "diagnostics_title": "Fabhtcheartú & Diagnóisic",
+        "alarms_title": "Fógraí & Aláraim",
+        "device_identity_desc": "Úsáidtear na haitheantóirí seo le haghaidh tacaíochta, rianú fardail, agus iniúchadh taobh an néil.",
+        "recent_logs_title": "Logaí Néal Le Déanaí",
+        "account_management_link": "Bainistíocht Cuntas GL.iNet",
+        "no_logs_tips": "Gan Sonraí",
+        "device_identity_title": "Aitheantas Gléas"
     },
     "cloud_err": {
         "username_already_exist_msg": "Tá an t-ainm úsáideora ann cheana.",
@@ -109,5 +118,26 @@
         "verify_code_err_msg": "Earráid sa chód fíorúcháin.",
         "phone_verify_code_invalid_msg": "Tá an cód fíoraithe teileafóin imithe in éag."
     },
-    "menu_cloud": "GoodCloud"
+    "menu_cloud": "GoodCloud",
+    "menu_account": "Cuntas glinet",
+    "account": {
+        "page_title": "Cuntas glinet",
+        "intro_primary": "Ligeann Cuntas glinet duit do ghléasanna agus do sheirbhísí scamall a nascadh agus a bhainistiú.",
+        "intro_secondary": "Le Cuntas Glinet amháin, is féidir leat rochtain a fháil ar GoodCloud agus ar Aip Glinet gan uaim, rud a chinntíonn eispéireas slán agus feabhsaithe. Soláthraíonn sé seo bealach níos áisiúla duit chun do líonra a bhainistiú ó áit ar bith, ag am ar bith.",
+        "goodcloud_desc_primary": "Is ardán néil é GoodCloud le haghaidh bainistíochta cianda ródaire.",
+        "goodcloud_desc_secondary": "Soláthraíonn sé monatóireacht fíor-ama, cumraíocht láraithe, agus bainistíocht shlán.",
+        "astrowarp_desc_secondary": "Simplíonn sé an t-imscaradh agus cinntíonn sé nascacht chosanta ó shuíomh go suíomh ag an am céanna.",
+        "app_title": "Aip",
+        "app_desc_primary": "Ligeann an Aip glinet duit do ródairí a bhainistiú trí chomhéadan soghluaiste atá éasca le húsáid.",
+        "bind_via_url": "Ceangail Cuntas glinet trí URL",
+        "bound_account_label": "Cuntas Ceangailte:",
+        "bound_time_label": "Am Ceangailte:",
+        "unbind_notice": "Ní dhéanann dícheangal ach an ródaire seo a dhícheangal ó sheirbhísí néil. Fanann seirbhísí líonra áitiúla agus dintiúir logála isteach an ródaire gan athrú.",
+        "astrowarp_desc_primary": "Simplíonn agus daingníonn AstroWarp socrú VPN baile ag baint úsáide as dhá ródaire mar phéire VPN.",
+        "app_desc_secondary": "Is féidir leat monatóireacht a dhéanamh ar stádas an ródaire agus socruithe a mhodhnú ó áit ar bith.",
+        "unbound_intro": "Trí chliceáil ar an nasc, seolfar chuig painéal logála isteach aontaithe an Chuntais glinet thú. Tar éis duit síniú isteach, beidh do chuntas ceangailte leis an ngléas seo. Is féidir leat an nasc a chóipeáil freisin le haghaidh ceangal cianda.",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "Aip glinet",
+        "bound_intro": "Tá an ródaire seo ceangailte le do Chuntas glinet faoi láthair. Is féidir leat rochtain a fháil anois ar ghnéithe agus seirbhísí néil, lena n-áirítear {services}."
+    }
 }

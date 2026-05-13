@@ -82,7 +82,16 @@
         "go_to_services_title": "Eiti į – debesijos paslaugas",
         "access_cloud_services_bind_tips": "Jūs pasieksite debesijos paslaugų tarnybas, kad užbaigtumėte susiejimą.",
         "copy_link_btn": "Kopijuoti nuorodą",
-        "access_cloud_services_tips": "Jūs pasieksite debesijos paslaugų tarnybas."
+        "access_cloud_services_tips": "Jūs pasieksite debesijos paslaugų tarnybas.",
+        "remote_monitoring_title": "Nuotolinis stebėjimas ir tvarkymas",
+        "batch_configuration_title": "Paketinis įrenginių konfigūravimas",
+        "alarms_title": "Pranešimai ir pavojaus signalai",
+        "device_identity_title": "Įrenginio tapatybė",
+        "device_identity_desc": "Šie identifikatoriai naudojami palaikymui, atsargų sekimui ir debesies pusės auditui.",
+        "account_management_link": "glinet paskyros tvarkyba",
+        "no_logs_tips": "Nėra duomenų",
+        "diagnostics_title": "Triktžių šalinimas ir diagnostika",
+        "recent_logs_title": "Naujausi debesies žurnalai"
     },
     "menu_cloud": "„GoodCloud“",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "Slaptažodžio patikra nepavyko",
         "sms_sending_failed_msg": "Nepavyko nusiųsti „SMS“",
         "verify_code_err_over_limit_msg": "Patvirtinimo kodo klaidų skaičius viršijo nustatytą ribą."
+    },
+    "menu_account": "glinet paskyra",
+    "account": {
+        "page_title": "glinet paskyra",
+        "intro_primary": "„glinet“ paskyra leidžia jums prisijungti ir tvarkyti savo įrenginius bei debesijos paslaugas.",
+        "intro_secondary": "Turėdami vieną „glinet“ paskyrą, galite sklandžiai pasiekti ir „GoodCloud“, ir „glinet“ programėlę, užtikrindami saugią ir patobulintą patirtį. Tai suteikia jums patogesnį būdą tvarkyti savo tinklą iš bet kurios vietos, bet kuriuo metu.",
+        "goodcloud_desc_primary": "„GoodCloud“ yra debesijos platforma, skirta nuotoliniam maršrutizatorių valdymui.",
+        "goodcloud_desc_secondary": "Ji suteikia stebėjimą realiuoju laiku, centralizuotą konfigūraciją ir saugų valdymą.",
+        "astrowarp_desc_secondary": "Tai supaprastina diegimą, užtikrinant apsaugotą ryšį tarp vietovių.",
+        "app_title": "Programėlė",
+        "app_desc_primary": "„glinet“ programėlė leidžia tvarkyti maršrutizatorius per patogią mobiliąją sąsają.",
+        "app_desc_secondary": "Galite stebėti maršrutizatoriaus būseną ir keisti nustatymus iš bet kurios vietos.",
+        "unbound_intro": "Spustelėję nuorodą būsite nukreipti į „glinet“ paskyros vieningą prisijungimo skydelį. Prisijungus, jūsų paskyra bus susieta su šiuo įrenginiu. Taip pat galite nukopijuoti nuorodą nuotoliniam susiejimui.",
+        "bind_via_url": "Susieti „glinet“ paskyrą per URL",
+        "bound_account_label": "Prijungta paskyra:",
+        "bound_time_label": "Prisijungimo laikas:",
+        "unbind_notice": "Atsiejimas tik atjungia šį maršrutizatorių nuo debesijos paslaugų. Vietinio tinklo paslaugos ir maršrutizatoriaus prisijungimo duomenys lieka nepakeisti.",
+        "astrowarp_desc_primary": "„AstroWarp“ supaprastina ir apsaugo namų „VPN“ sąranką, naudojant du maršrutizatorius kaip „VPN“ porą.",
+        "goodcloud_title": "„GoodCloud“",
+        "app_service_title": "glinet programa",
+        "bound_intro": "Šis maršrutizatorius šiuo metu yra susietas su jūsų glinet paskyra. Dabar galite pasiekti debesies funkcijas ir paslaugas, įskaitant {services}."
     }
 }

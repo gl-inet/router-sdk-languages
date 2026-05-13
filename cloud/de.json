@@ -82,7 +82,16 @@
         "copy_link_btn": "Link kopieren",
         "continue_access_btn": "Weiter Zugreifen",
         "access_cloud_services_bind_tips": "Sie sind dabei, auf die Cloud-Dienste zuzugreifen, um die Bindung abzuschließen.",
-        "access_cloud_services_tips": "Sie sind dabei, auf die Cloud-Dienste zuzugreifen."
+        "access_cloud_services_tips": "Sie sind dabei, auf die Cloud-Dienste zuzugreifen.",
+        "remote_monitoring_title": "Fernüberwachung und -verwaltung",
+        "batch_configuration_title": "Stapelkonfiguration von Geräten",
+        "diagnostics_title": "Fehlerbehebung und Diagnose",
+        "alarms_title": "Benachrichtigungen und Alarme",
+        "device_identity_title": "Geräteidentität",
+        "device_identity_desc": "Diese Kennungen werden für Support, Bestandsverfolgung und Cloud-seitige Prüfungen verwendet.",
+        "recent_logs_title": "Letzte Cloud-Protokolle",
+        "account_management_link": "glinet Kontoverwaltung",
+        "no_logs_tips": "Keine Daten"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "Kennwortüberprüfung fehlgeschlagen",
         "sms_sending_failed_msg": "SMS-Versand fehlgeschlagen",
         "verify_code_err_over_limit_msg": "Verifizierungscode-Fehleranzahl überschreitet das Limit."
+    },
+    "menu_account": "glinet Konto",
+    "account": {
+        "page_title": "glinet Konto",
+        "intro_primary": "Mit dem glinet Konto können Sie Ihre Geräte und Cloud-Dienste verbinden und verwalten.",
+        "intro_secondary": "Mit einem einzigen glinet Konto können Sie nahtlos auf GoodCloud und die glinet App zugreifen, was ein sicheres und verbessertes Erlebnis gewährleistet. Dies bietet Ihnen eine bequemere Möglichkeit, Ihr Netzwerk von überall und jederzeit zu verwalten.",
+        "goodcloud_desc_primary": "GoodCloud ist eine Cloud-Plattform für die Fernverwaltung von Routern.",
+        "goodcloud_desc_secondary": "Es bietet Echtzeit-Überwachung, zentrale Konfiguration und sicheres Management.",
+        "astrowarp_desc_primary": "AstroWarp vereinfacht und sichert die Einrichtung eines Heim-VPNs, indem zwei Router als VPN-Paar verwendet werden.",
+        "astrowarp_desc_secondary": "Es vereinfacht die Bereitstellung und gewährleistet gleichzeitig eine geschützte Standort-zu-Standort-Konnektivität.",
+        "app_title": "App",
+        "app_desc_secondary": "Sie können den Router-Status von überall aus überwachen und Einstellungen ändern.",
+        "bind_via_url": "glinet Konto per URL binden",
+        "bound_account_label": "Gebundenes Konto:",
+        "bound_time_label": "Gebundene Zeit:",
+        "app_desc_primary": "Mit der glinet App können Sie Ihre Router über eine benutzerfreundliche mobile Oberfläche verwalten.",
+        "unbound_intro": "Durch Klicken auf den Link werden Sie zum einheitlichen Anmeldefenster des glinet Kontos weitergeleitet. Nach der Anmeldung wird Ihr Konto mit diesem Gerät verbunden. Sie können den Link auch für die Fernbindung kopieren.",
+        "unbind_notice": "Durch das Aufheben der Bindung wird dieser Router nur von den Cloud-Diensten getrennt. Lokale Netzwerkdienste und Router-Anmeldeinformationen bleiben davon unberührt.",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "glinet App",
+        "bound_intro": "Dieser Router ist derzeit mit Ihrem glinet-Konto verbunden. Sie können jetzt auf Cloud-Funktionen und -Dienste zugreifen, einschließlich {services}."
     }
 }

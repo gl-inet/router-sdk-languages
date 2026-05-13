@@ -72,7 +72,6 @@
         "mac_existed": "MAC adresas jau egzistuoja",
         "ip_existed": "IP adresas jau egzistuoja",
         "not_allow_use_tips": "Simboliai {char} neleidžiami.",
-        "hostname_tips": "2–63 simboliai. Leidžiamos tik raidės, skaitmenys arba brūkšneliai. Negali prasidėti ar baigtis brūkšneliu ir negali būti sudarytas vien iš skaitmenų.",
         "hostname_existed": "Įrenginio (t.y skleidėjo/vedėjo) pavadinimas jau egzistuoja",
         "confirm_delete_subnet": "Ar tikrai norite ištrinti šį tinklą?",
         "lpr_serve_label": "LPR serveris",
@@ -94,7 +93,9 @@
         "block_wan_subnets_tip_guest": "Jei ši funkcija įjungta, svečių tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
         "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
         "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, pasirinktinis tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
-        "lpr_tips": "Įveskite vieną ar daugiau LPR serverio IP adresų."
+        "lpr_tips": "Įveskite vieną ar daugiau LPR serverio IP adresų.",
+        "hostname_tips": "0-63 simboliai. Leidžiamos tik raidės, skaitmenys arba brūkšniai. Turi prasidėti ir baigtis raide arba skaitmeniu, ir negali būti sudarytas tik iš skaitmenų.",
+        "err_address_reservation_description_max_length": "Maksimalus ilgis yra 256 simboliai"
     },
-    "menu_vlan": "VLAN"
+    "menu_vlan": "Potinklis"
 }

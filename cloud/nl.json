@@ -82,7 +82,16 @@
         "go_to_services_title": "Ga naar Clouddiensten",
         "access_cloud_services_bind_tips": "U staat op het punt toegang te krijgen tot de cloudservices om de koppeling te voltooien.",
         "copy_link_btn": "Kopieer de link",
-        "access_cloud_services_tips": "U staat op het punt om toegang te krijgen tot de clouddiensten."
+        "access_cloud_services_tips": "U staat op het punt om toegang te krijgen tot de clouddiensten.",
+        "remote_monitoring_title": "Extern toezicht en beheer",
+        "batch_configuration_title": "Batchconfiguratie van apparaten",
+        "diagnostics_title": "Probleemoplossing en diagnostiek",
+        "alarms_title": "Meldingen en alarmen",
+        "device_identity_title": "Apparaatidentiteit",
+        "device_identity_desc": "Deze identificatiegegevens worden gebruikt voor ondersteuning, voorraadbeheer en cloud-side auditing.",
+        "account_management_link": "glinet Account Management",
+        "no_logs_tips": "Geen gegevens",
+        "recent_logs_title": "Recente cloudlogboeken"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "Wachtwoordvalidatie mislukt",
         "sms_sending_failed_msg": "Het verzenden van de SMS is mislukt",
         "verify_code_err_over_limit_msg": "Verificatiecode foutenlimiet overschreden."
+    },
+    "menu_account": "glinet Account",
+    "account": {
+        "page_title": "glinet Account",
+        "intro_primary": "Met het glinet Account kunt u uw apparaten en clouddiensten verbinden en beheren.",
+        "goodcloud_desc_primary": "GoodCloud is een cloudplatform voor extern routerbeheer.",
+        "goodcloud_desc_secondary": "Het biedt real-time monitoring, gecentraliseerde configuratie en veilig beheer.",
+        "astrowarp_desc_primary": "AstroWarp vereenvoudigt en beveiligt de thuis-VPN-installatie door twee routers als een VPN-paar te gebruiken.",
+        "astrowarp_desc_secondary": "Het vereenvoudigt de implementatie terwijl beveiligde site-to-site-connectiviteit wordt gegarandeerd.",
+        "app_desc_primary": "Met de glinet App kunt u uw routers beheren via een gebruiksvriendelijke mobiele interface.",
+        "bind_via_url": "Bind glinet Account via URL",
+        "bound_account_label": "Gebonden account:",
+        "bound_time_label": "Gebonden tijd:",
+        "unbind_notice": "Het ontbinden verbreekt alleen de verbinding van deze router met clouddiensten. Lokale netwerkdiensten en inloggegevens van de router blijven onaangetast.",
+        "intro_secondary": "Met één enkel glinet Account heeft u naadloos toegang tot zowel GoodCloud als de glinet App, wat zorgt voor een veilige en verbeterde ervaring. Dit biedt u een gemakkelijkere manier om uw netwerk overal en altijd te beheren.",
+        "app_title": "App",
+        "app_desc_secondary": "U kunt de routerstatus controleren en instellingen wijzigen vanaf elke locatie.",
+        "unbound_intro": "Door op de link te klikken, wordt u doorgestuurd naar het uniforme aanmeldingsscherm van het glinet Account. Na het inloggen wordt uw account aan dit apparaat gekoppeld. U kunt de link ook kopiëren voor externe binding.",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "glinet App",
+        "bound_intro": "Deze router is momenteel gekoppeld aan uw glinet-account. U heeft nu toegang tot cloudfuncties en -diensten, waaronder {services}."
     }
 }

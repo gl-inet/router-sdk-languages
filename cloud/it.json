@@ -82,7 +82,16 @@
         "go_to_services_title": "访问云服务",
         "access_cloud_services_bind_tips": "您即将访问云服务以完成绑定。",
         "copy_link_btn": "Copia il link",
-        "access_cloud_services_tips": "Stai per accedere ai servizi cloud."
+        "access_cloud_services_tips": "Stai per accedere ai servizi cloud.",
+        "remote_monitoring_title": "Monitoraggio e gestione remota",
+        "batch_configuration_title": "Configurazione batch dei dispositivi",
+        "alarms_title": "Notifiche e allarmi",
+        "device_identity_title": "Identità del dispositivo",
+        "device_identity_desc": "Questi identificatori vengono utilizzati per supporto, tracciamento dell'inventario e audit lato cloud.",
+        "account_management_link": "Gestione account GL.iNet",
+        "no_logs_tips": "Nessun dato",
+        "diagnostics_title": "Risoluzione dei problemi e diagnostica",
+        "recent_logs_title": "Registri cloud recenti"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "La validazione della password è fallita.",
         "sms_sending_failed_msg": "Impossibile inviare SMS",
         "verify_code_err_over_limit_msg": "Il numero di errori del codice di verifica ha superato il limite."
+    },
+    "menu_account": "Account glinet",
+    "account": {
+        "page_title": "Account glinet",
+        "intro_secondary": "Con un unico account glinet, puoi accedere sia a GoodCloud che all'app glinet in modo fluido, garantendo un'esperienza sicura e migliorata. Questo ti offre un modo più comodo per gestire la tua rete da qualsiasi luogo, in qualsiasi momento.",
+        "goodcloud_desc_primary": "GoodCloud è una piattaforma cloud per la gestione remota dei router.",
+        "goodcloud_desc_secondary": "Fornisce monitoraggio in tempo reale, configurazione centralizzata e gestione sicura.",
+        "astrowarp_desc_secondary": "Semplifica la distribuzione garantendo al contempo una connettività protetta da sito a sito.",
+        "app_title": "App",
+        "app_desc_primary": "L'app glinet ti consente di gestire i tuoi router tramite un'interfaccia mobile intuitiva.",
+        "unbound_intro": "Facendo clic sul collegamento, verrai reindirizzato al pannello di accesso unificato dell'account glinet. Dopo aver effettuato l'accesso, il tuo account verrà collegato a questo dispositivo. Puoi anche copiare il collegamento per l'associazione remota.",
+        "bound_account_label": "Account associato:",
+        "bound_time_label": "Ora di associazione:",
+        "unbind_notice": "La disassociazione disconnette solo questo router dai servizi cloud. I servizi di rete locale e le credenziali di accesso al router rimangono invariati.",
+        "intro_primary": "L'account glinet ti consente di connetterti e gestire i tuoi dispositivi e servizi cloud.",
+        "astrowarp_desc_primary": "AstroWarp semplifica e protegge la configurazione della VPN domestica utilizzando due router come coppia VPN.",
+        "app_desc_secondary": "Puoi monitorare lo stato del router e modificare le impostazioni da qualsiasi luogo.",
+        "bind_via_url": "Associa account glinet tramite URL",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "App glinet",
+        "bound_intro": "Questo router è attualmente associato al tuo account glinet. Ora puoi accedere a funzionalità e servizi cloud, inclusi {services}."
     }
 }

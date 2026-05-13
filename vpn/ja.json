@@ -527,7 +527,8 @@
         "add_client_config_btn": "クライアント設定を追加",
         "no_config_selected_line1": "現在のトンネルには設定が選択されていません。",
         "no_config_selected_line2": "使用前にトンネル設定を完了してください。",
-        "no_vpn_config_line2": "VPNサービスプロバイダーを使用するか、設定ファイルを追加してください。"
+        "no_vpn_config_line2": "VPNサービスプロバイダーを使用するか、設定ファイルを追加してください。",
+        "remove_last_tunnel_reset_policy_tips": "最後のトンネルを削除すると、{policy} が \"{label}\" にリセットされます。"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",

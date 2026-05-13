@@ -82,7 +82,16 @@
         "go_to_services_title": "Ugrás a Felhőszolgáltatásokhoz",
         "access_cloud_services_bind_tips": "Ön most felkészül a felhőszolgáltatások elérésére a kötés befejezéséhez.",
         "copy_link_btn": "Másolja a linket",
-        "access_cloud_services_tips": "Ön hamarosan hozzáfér a felhőszolgáltatásokhoz."
+        "access_cloud_services_tips": "Ön hamarosan hozzáfér a felhőszolgáltatásokhoz.",
+        "remote_monitoring_title": "Távfelügyelet és -kezelés",
+        "batch_configuration_title": "Tömeges eszközkonfiguráció",
+        "diagnostics_title": "Hibaelhárítás és diagnosztika",
+        "alarms_title": "Értesítések és riasztások",
+        "device_identity_title": "Eszközazonosító",
+        "device_identity_desc": "Ezeket az azonosítókat támogatáshoz, leltárkövetéshez és felhőoldali naplózáshoz használjuk.",
+        "account_management_link": "glinet fiókkezelés",
+        "no_logs_tips": "Nincs adat",
+        "recent_logs_title": "Legutóbbi felhőnaplók"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "Jelszó ellenőrzése sikertelen",
         "sms_sending_failed_msg": "SMS küldése sikertelen",
         "verify_code_err_over_limit_msg": "A hitelesítő kód hibaszáma meghaladta a megengedett határt."
+    },
+    "menu_account": "glinet fiók",
+    "account": {
+        "page_title": "glinet fiók",
+        "intro_primary": "A glinet fiók lehetővé teszi, hogy csatlakoztassa és kezelje eszközeit és felhőszolgáltatásait.",
+        "goodcloud_desc_primary": "A GoodCloud egy felhőalapú platform az útválasztók távoli kezeléséhez.",
+        "goodcloud_desc_secondary": "Valós idejű megfigyelést, központosított konfigurációt és biztonságos kezelést biztosít.",
+        "astrowarp_desc_primary": "Az AstroWarp leegyszerűsíti és biztonságossá teszi az otthoni VPN beállítását két útválasztó VPN-párként történő használatával.",
+        "astrowarp_desc_secondary": "Egyszerűsíti a telepítést, miközben biztosítja a védett helyek közötti kapcsolatot.",
+        "app_title": "App",
+        "app_desc_primary": "A glinet App lehetővé teszi útválasztói kezelését egy felhasználóbarát mobil felületen keresztül.",
+        "app_desc_secondary": "Bárhonnan figyelemmel kísérheti az útválasztó állapotát és módosíthatja a beállításokat.",
+        "unbound_intro": "A linkre kattintva a glinet fiók egységes bejelentkezési paneljére irányítjuk. A bejelentkezés után a fiókja ehhez az eszközhöz lesz kapcsolva. A linket másolhatja távoli kötéshez is.",
+        "bind_via_url": "glinet fiók kötése URL segítségével",
+        "bound_account_label": "Kötött fiók:",
+        "bound_time_label": "Kötés ideje:",
+        "unbind_notice": "A kötés feloldása csak ezt az útválasztót kapcsolja le a felhőszolgáltatásokról. A helyi hálózati szolgáltatások és az útválasztó bejelentkezési adatai változatlanok maradnak.",
+        "intro_secondary": "Egyetlen glinet fiókkal zökkenőmentesen hozzáférhet a GoodCloudhoz és a glinet Apphoz, biztosítva ezzel a biztonságos és jobb élményt. Ez kényelmesebb módot kínál arra, hogy bárhonnan, bármikor kezelje hálózatát.",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "glinet App",
+        "bound_intro": "Ez a router jelenleg a glinet fiókjához van kötve. Mostantól elérheti a felhőalapú funkciókat és szolgáltatásokat, beleértve a következőket: {services}."
     }
 }

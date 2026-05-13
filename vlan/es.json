@@ -68,7 +68,6 @@
         "mac_existed": "MAC ya existe",
         "ip_existed": "IP Existente",
         "not_allow_use_tips": "Los caracteres {char} no están permitidos.",
-        "hostname_tips": "2-63 caracteres. Solo se permiten letras, dígitos o guiones. No debe comenzar ni terminar con un guion, ni consistir únicamente en dígitos.",
         "hostname_existed": "El nombre de host ya existe",
         "confirm_delete_subnet": "¿Está seguro de que desea eliminar esta red?",
         "lpr_serve_label": "Servidor LPR",
@@ -94,7 +93,9 @@
         "block_wan_subnets_tip_guest": "Si esta función está habilitada, la red de invitados no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
         "block_wan_subnets_tip_iot": "Si esta función está habilitada, la red IoT no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
         "block_wan_subnets_tip_custom": "Si esta función está habilitada, la red personalizada no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
-        "lpr_tips": "Ingrese una o más direcciones IP del servidor LPR."
+        "lpr_tips": "Ingrese una o más direcciones IP del servidor LPR.",
+        "hostname_tips": "0-63 caracteres. Solo se permiten letras, dígitos o guiones. Debe comenzar y terminar con una letra o dígito, y no puede consistir únicamente en dígitos.",
+        "err_address_reservation_description_max_length": "La longitud máxima es de 256 caracteres."
     },
-    "menu_vlan": "VLAN"
+    "menu_vlan": "subred"
 }

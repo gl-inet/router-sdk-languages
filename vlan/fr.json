@@ -66,7 +66,6 @@
         "mac_existed": "MAC existante",
         "ip_existed": "IP existante",
         "not_allow_use_tips": "Les caractères {char} ne sont pas autorisés.",
-        "hostname_tips": "2 à 63 caractères. Seules les lettres, les chiffres ou les traits d'union sont autorisés. Ne doit pas commencer ou se terminer par un trait d'union, ni être composé uniquement de chiffres.",
         "hostname_existed": "Nom d'hôte déjà existant",
         "confirm_delete_subnet": "Êtes-vous sûr de vouloir supprimer ce réseau ?",
         "dhcp_charter_label": "Durée de bail",
@@ -94,7 +93,9 @@
         "block_wan_subnets_tip_guest": "Si cette fonction est activée, le réseau invité ne pourra pas accéder au réseau supérieur ni au segment réseau où se trouve le réseau supérieur.",
         "block_wan_subnets_tip_custom": "Si cette fonction est activée, le réseau personnalisé ne pourra pas accéder au réseau supérieur ni au segment réseau où se trouve le réseau supérieur.",
         "block_wan_subnets_tip_iot": "Si cette fonction est activée, le réseau IoT ne pourra pas accéder au réseau supérieur ni au segment réseau où se trouve le réseau supérieur.",
-        "lpr_tips": "Saisissez une ou plusieurs adresses IP du serveur LPR."
+        "lpr_tips": "Saisissez une ou plusieurs adresses IP du serveur LPR.",
+        "hostname_tips": "0-63 caractères. Seuls les lettres, chiffres ou traits d'union sont autorisés. Doit commencer et se terminer par une lettre ou un chiffre, et ne peut pas être composé uniquement de chiffres.",
+        "err_address_reservation_description_max_length": "La longueur maximale est de 256 caractères"
     },
-    "menu_vlan": "VLAN"
+    "menu_vlan": "Sous-réseau"
 }

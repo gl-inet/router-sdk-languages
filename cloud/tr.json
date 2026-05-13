@@ -82,7 +82,16 @@
         "go_to_services_title": "Bulut Hizmetlerine Git",
         "access_cloud_services_bind_tips": "Bulut hizmetlerine erişerek bağlama işlemini tamamlamak üzeresiniz.",
         "copy_link_btn": "Bağlantıyı Kopyala",
-        "access_cloud_services_tips": "Bulut hizmetlerine erişmek üzeresiniz."
+        "access_cloud_services_tips": "Bulut hizmetlerine erişmek üzeresiniz.",
+        "remote_monitoring_title": "Uzaktan İzleme ve Yönetim",
+        "batch_configuration_title": "Toplu Cihaz Yapılandırması",
+        "diagnostics_title": "Sorun Giderme ve Tanılama",
+        "device_identity_title": "Cihaz Kimliği",
+        "device_identity_desc": "Bu tanımlayıcılar; destek, envanter takibi ve bulut tarafı denetimi için kullanılır.",
+        "recent_logs_title": "Son Bulut Günlükleri",
+        "no_logs_tips": "Veri Yok",
+        "alarms_title": "Bildirimler ve Alarmlar",
+        "account_management_link": "glinet Hesap Yönetimi"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "Şifre Doğrulama Başarısız",
         "sms_sending_failed_msg": "SMS gönderilemedi.",
         "verify_code_err_over_limit_msg": "Doğrulama Kodu Hata Sayısı Limiti Aştı."
+    },
+    "menu_account": "glinet Hesabı",
+    "account": {
+        "page_title": "glinet Hesabı",
+        "intro_primary": "glinet Hesabı, cihazlarınızı ve bulut hizmetlerinizi bağlamanıza ve yönetmenize olanak tanır.",
+        "intro_secondary": "Tek bir glinet Hesabı ile hem GoodCloud'a hem de glinet Uygulamasına sorunsuz bir şekilde erişebilir, güvenli ve gelişmiş bir deneyim elde edebilirsiniz. Bu, ağınızı her yerden, her zaman yönetmeniz için daha kullanışlı bir yol sunar.",
+        "goodcloud_desc_secondary": "Gerçek zamanlı izleme, merkezi yapılandırma ve güvenli yönetim sağlar.",
+        "astrowarp_desc_primary": "AstroWarp, iki yönlendiriciyi bir VPN çifti olarak kullanarak ev VPN kurulumunu basitleştirir ve güvence altına alır.",
+        "astrowarp_desc_secondary": "Korumalı site-siteden-siteye bağlantı sağlarken dağıtımı basitleştirir.",
+        "app_desc_primary": "glinet Uygulaması, yönlendiricilerinizi kullanıcı dostu bir mobil arayüz üzerinden yönetmenizi sağlar.",
+        "unbound_intro": "Bağlantıya tıklayarak glinet Hesabı birleşik giriş paneline yönlendirileceksiniz. Oturum açtıktan sonra hesabınız bu cihaza bağlanacaktır. Uzaktan bağlama için bağlantıyı da kopyalayabilirsiniz.",
+        "bind_via_url": "URL ile glinet Hesabı Bağla",
+        "bound_account_label": "Bağlı Hesap:",
+        "unbind_notice": "Bağlantıyı kaldırmak, yalnızca bu yönlendiricinin bulut hizmetleriyle bağlantısını keser. Yerel ağ hizmetleri ve yönlendirici oturum açma bilgileri etkilenmez.",
+        "goodcloud_desc_primary": "GoodCloud, yönlendirici uzaktan yönetimi için bir bulut platformudur.",
+        "app_title": "Uygulama",
+        "app_desc_secondary": "Yönlendirici durumunu izleyebilir ve ayarları her yerden değiştirebilirsiniz.",
+        "bound_time_label": "Bağlanma Zamanı:",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "glinet Uygulaması",
+        "bound_intro": "Bu yönlendirici şu anda glinet hesabınıza bağlıdır. Artık {services} dahil olmak üzere bulut özelliklerine ve hizmetlerine erişebilirsiniz."
     }
 }

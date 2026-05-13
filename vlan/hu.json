@@ -72,7 +72,6 @@
         "mac_existed": "A MAC-cím már létezik",
         "ip_existed": "IP létezik",
         "not_allow_use_tips": "A(z) {char} karakter nem engedélyezett.",
-        "hostname_tips": "2-63 karakter. Csak betűk, számjegyek vagy kötőjelek engedélyezettek. Nem kezdődhet vagy végződhet kötőjellel, és nem állhat kizárólag számjegyekből.",
         "hostname_existed": "A hosztnév már létezik",
         "confirm_delete_subnet": "Biztosan törölni szeretné ezt a hálózatot?",
         "lpr_serve_label": "LPR szerver",
@@ -94,7 +93,9 @@
         "block_wan_subnets_tip_guest": "Ha ez a funkció engedélyezve van, a vendéghálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
         "block_wan_subnets_tip_iot": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
         "block_wan_subnets_tip_custom": "Ha ez a funkció engedélyezve van, az egyéni hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
-        "lpr_tips": "Adjon meg egy vagy több LPR szerver IP-címet."
+        "lpr_tips": "Adjon meg egy vagy több LPR szerver IP-címet.",
+        "hostname_tips": "0-63 karakter. Csak betűk, számjegyek és kötőjelek engedélyezettek. Betűvel vagy számjeggyel kell kezdődnie és végződnie, és nem állhat kizárólag számjegyekből.",
+        "err_address_reservation_description_max_length": "A maximális hossz 256 karakter."
     },
-    "menu_vlan": "VLAN"
+    "menu_vlan": "alhálózat"
 }

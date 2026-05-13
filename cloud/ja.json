@@ -82,7 +82,16 @@
         "go_to_services_title": "クラウドサービスへ移動",
         "access_cloud_services_bind_tips": "クラウドサービスにアクセスしてバインディングを完了します。",
         "copy_link_btn": "リンクをコピー",
-        "access_cloud_services_tips": "クラウドサービスにアクセスしようとしています。"
+        "access_cloud_services_tips": "クラウドサービスにアクセスしようとしています。",
+        "remote_monitoring_title": "远程监控与管理",
+        "batch_configuration_title": "批量设备配置",
+        "alarms_title": "通知与告警",
+        "device_identity_title": "设备标识",
+        "device_identity_desc": "这些标识符用于支持、库存跟踪和云端审计。",
+        "recent_logs_title": "最近的云端日志",
+        "account_management_link": "glinet 账户管理",
+        "no_logs_tips": "无数据",
+        "diagnostics_title": "故障排除与诊断"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "パスワードの検証に失敗しました",
         "sms_sending_failed_msg": "SMSの送信に失敗しました",
         "verify_code_err_over_limit_msg": "認証コードのエラー回数が上限を超えました。"
+    },
+    "menu_account": "glinet アカウント",
+    "account": {
+        "page_title": "glinet アカウント",
+        "intro_primary": "glinet アカウントを使用すると、デバイスとクラウドサービスを接続して管理できます。",
+        "goodcloud_desc_primary": "GoodCloudは、ルーターのリモート管理のためのクラウドプラットフォームです。",
+        "goodcloud_desc_secondary": "リアルタイムの監視、集中管理、および安全な管理を提供します。",
+        "astrowarp_desc_secondary": "保護されたサイト間接続を確保しながら、導入を簡素化します。",
+        "app_desc_primary": "glinet Appを使用すると、ユーザーフレンドリーなモバイルインターフェースを介してルーターを管理できます。",
+        "bind_via_url": "URL経由でglinet アカウントをバインド",
+        "bound_account_label": "バインド済みアカウント：",
+        "bound_time_label": "バインド時刻：",
+        "unbind_notice": "バインドを解除すると、このルーターがクラウドサービスから切断されるだけです。ローカルネットワークサービスとルーターログイン認証情報は影響を受けません。",
+        "intro_secondary": "1つのglinet アカウントで、GoodCloudとglinet Appの両方にシームレスにアクセスでき、安全で向上したエクスペリエンスを確保します。これにより、いつでもどこからでもネットワークを管理するためのより便利な方法を提供します。",
+        "astrowarp_desc_primary": "AstroWarpは、2台のルーターをVPNペアとして使用して、ホームVPNのセットアップを簡素化し、安全にします。",
+        "app_title": "アプリ",
+        "app_desc_secondary": "どこからでもルーターの状態を監視し、設定を変更できます。",
+        "unbound_intro": "リンクをクリックすると、glinet アカウントの統合ログインパネルに移動します。サインイン後、アカウントがこのデバイスに接続されます。リモートバインディング用にリンクをコピーすることもできます。",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "glinet App",
+        "bound_intro": "このルーターは現在、お客様のglinetアカウントにバインドされています。これにより、{services}を含むクラウド機能とサービスにアクセスできるようになります。"
     }
 }

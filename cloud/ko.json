@@ -82,7 +82,16 @@
         "go_to_services_title": "클라우드 서비스로 이동",
         "access_cloud_services_bind_tips": "클라우드 서비스에 접속하여 바인딩을 완료하려고 합니다.",
         "copy_link_btn": "링크 복사",
-        "access_cloud_services_tips": "클라우드 서비스에 접속하려고 합니다."
+        "access_cloud_services_tips": "클라우드 서비스에 접속하려고 합니다.",
+        "remote_monitoring_title": "远程监控与管理",
+        "batch_configuration_title": "批量设备配置",
+        "diagnostics_title": "故障排除与诊断",
+        "alarms_title": "通知与告警",
+        "device_identity_title": "设备身份",
+        "recent_logs_title": "最近的云端日志",
+        "account_management_link": "glinet 账户管理",
+        "no_logs_tips": "无数据",
+        "device_identity_desc": "这些标识符用于支持、库存跟踪和云端审计。"
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -109,5 +118,26 @@
         "validate_password_error_msg": "비밀번호 유효성 검사 실패",
         "sms_sending_failed_msg": "SMS 발송에 실패했습니다.",
         "verify_code_err_over_limit_msg": "인증 코드 오류 횟수가 제한을 초과했습니다."
+    },
+    "menu_account": "glinet 계정",
+    "account": {
+        "page_title": "glinet 계정",
+        "intro_primary": "glinet 계정을 사용하면 장치와 클라우드 서비스를 연결하고 관리할 수 있습니다.",
+        "goodcloud_desc_secondary": "실시간 모니터링, 중앙 집중식 구성 및 안전한 관리를 제공합니다.",
+        "astrowarp_desc_primary": "AstroWarp는 두 대의 라우터를 VPN 쌍으로 사용하여 홈 VPN 설정을 간소화하고 보호합니다.",
+        "astrowarp_desc_secondary": "보호된 사이트 간 연결을 보장하면서 배포를 간소화합니다.",
+        "app_desc_primary": "glinet 앱을 사용하면 사용자 친화적인 모바일 인터페이스를 통해 라우터를 관리할 수 있습니다.",
+        "unbound_intro": "링크를 클릭하면 glinet 계정 통합 로그인 패널로 이동합니다. 로그인하면 계정이 이 장치에 연결됩니다. 원격 바인딩을 위해 링크를 복사할 수도 있습니다.",
+        "bind_via_url": "URL을 통해 glinet 계정 바인딩",
+        "bound_account_label": "바인딩된 계정:",
+        "bound_time_label": "바인딩 시간:",
+        "unbind_notice": "바인딩 해제는 이 라우터를 클라우드 서비스에서만 연결 해제합니다. 로컬 네트워크 서비스 및 라우터 로그인 자격 증명은 영향을 받지 않습니다.",
+        "intro_secondary": "단일 glinet 계정으로 GoodCloud와 glinet 앱에 원활하게 액세스하여 안전하고 향상된 경험을 보장합니다. 이를 통해 언제 어디서나 네트워크를 보다 편리하게 관리할 수 있습니다.",
+        "goodcloud_desc_primary": "GoodCloud는 라우터 원격 관리를 위한 클라우드 플랫폼입니다.",
+        "app_title": "앱",
+        "app_desc_secondary": "어디서나 라우터 상태를 모니터링하고 설정을 수정할 수 있습니다.",
+        "goodcloud_title": "GoodCloud",
+        "app_service_title": "glinet App",
+        "bound_intro": "此路由器当前已绑定到您的glinet账户。您现在可以访问云功能和服务，包括{services}。"
     }
 }

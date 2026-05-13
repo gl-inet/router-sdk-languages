@@ -132,7 +132,7 @@
         "join_by_ethernet_cable_label": "이더넷 케이블로 연결",
         "enter_main_router_pairing_code_label": "메인 라우터에서 생성된 페어링 코드를 입력하세요.",
         "join_by_wifi_scan_tips": "메인 라우터의 관리 패널에 접속하여 AstroMesh 메뉴 페이지에서 Wi-Fi 스캔을 통한 노드 추가를 수행하세요.",
-        "join_by_ethernet_cable_tips": "메인 라우터의 LAN 포트를 이 메시 노드의 LAN 포트에 이더넷 케이블로 연결해 주세요.",
+        "join_by_ethernet_cable_tips": "메인 라우터의 LAN 포트를 이 메시 노드의 WAN 포트에 이더넷 케이블로 연결해 주세요.",
         "nodes_title": "노드",
         "mesh_node_mode_tips": "현재 장치는 Mesh 노드 모드입니다. 메인 라우터의 관리자 패널에 로그인하여 관리할 수 있습니다.",
         "mesh_node_mode_tips2": "장치를 가정 네트워크 외부로 가져가면 자동으로 Astro Node 모드로 전환됩니다.",
@@ -157,9 +157,9 @@
         "astro_node_disable _tips": "탭하여 연결 비활성화",
         "astro_node_connection_success_msg": "连接成功。设备现已在Astro节点模式下连接到主路由器。",
         "reset_mode_tips1": "您确定要重置AstroMesh网络吗？",
-        "reset_mode_tips2": "所有当前的AstroMesh设置将被清除，Mesh节点将恢复为出厂设置。",
+        "reset_mode_tips2": "현재 모든 AstroMesh 설정이 지워지며, Mesh 노드가 공장 초기화로 재설정됩니다.",
         "aw_pending_tips": "메인 라우터에 연결할 수 없어 AstroMesh 네트워크를 현재 사용할 수 없습니다. 메인 라우터의 네트워크 연결 상태를 확인하십시오.",
-        "cloud_service_not_working_tips": "云服务运行异常，Astro节点可能无法连接。请检查网络连接状态。"
+        "cloud_service_not_working_tips": "클라우드 서비스가 원활하게 작동하지 않아 Astro 노드가 연결되지 않을 수 있습니다. 네트워크 연결 상태를 확인하십시오."
     },
     "menu_astromesh": "AstroMesh"
 }

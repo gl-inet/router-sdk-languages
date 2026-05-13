@@ -506,7 +506,7 @@
         "enable_killswitch_tips": "Quando abilitato, il traffico assegnato a questo tunnel VPN verrà bloccato se il tunnel si disconnette inaspettatamente.",
         "not_use_killswitch_tips": "Il traffico segue la politica di Tutto il Resto del Traffico quando è disattivato.",
         "default_tunnel_kill_switch_enabled_tips": "{label}: Quando abilitato, solo il traffico VPN è autorizzato ad accedere a Internet. Tutto il traffico non VPN e il traffico fallito all'interno dei gruppi di policy verrà bloccato. Questa impostazione globale sostituisce e disabilita il Kill Switch individuale per ciascun gruppo di policy.",
-        "all_other_traffic_setting_title": "所有其他流量设置",
+        "all_other_traffic_setting_title": "Policy per tutto il traffico restante",
         "all_other_traffic_setting_tips": "Questa impostazione controlla se il traffico non corrispondente a nessun tunnel VPN attivo può accedere a Internet.",
         "allow_non_vpn_default_tips": "\"{label}\" è abilitato per impostazione predefinita per garantire l'accesso normale a Internet per il traffico non-VPN.",
         "enhanced_kill_switch_note_tips": "{tag} Questa impostazione globale non sostituisce il Kill Switch individuale configurato all'interno di specifiche politiche VPN.",
@@ -527,7 +527,8 @@
         "add_client_config_btn": "Aggiungi configurazione client",
         "no_config_selected_line1": "Nessuna configurazione selezionata per il tunnel corrente.",
         "no_config_selected_line2": "Completare la configurazione del tunnel prima di utilizzarlo.",
-        "no_vpn_config_line2": "Utilizzare un provider di servizi VPN o aggiungere file di configurazione."
+        "no_vpn_config_line2": "Utilizzare un provider di servizi VPN o aggiungere file di configurazione.",
+        "remove_last_tunnel_reset_policy_tips": "Eliminare l'ultimo tunnel reimposterà {policy} su \"{label}\"."
     },
     "vpn_server": {
         "connected_dev_label": "Dispositivi connessi",

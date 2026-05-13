@@ -132,7 +132,7 @@
         "join_by_ethernet_cable_label": "通过以太网线连接",
         "enter_main_router_pairing_code_label": "請輸入您主路由器生成的配對碼。",
         "join_by_wifi_scan_tips": "請訪問您主路由器的管理面板，並在AstroMesh選單頁面上執行「透過Wi-Fi掃描新增節點」。",
-        "join_by_ethernet_cable_tips": "請使用乙太網路線將主路由器的LAN埠連接到此Mesh節點的LAN埠。",
+        "join_by_ethernet_cable_tips": "請使用乙太網路線將主路由器的 LAN 連接埠連接到此 Mesh 節點的 WAN 連接埠。",
         "nodes_title": "節點",
         "mesh_node_mode_tips": "設備目前處於 Mesh 節點模式。您可以登入主路由器的管理面板進行管理。",
         "mesh_node_mode_tips2": "當您將設備帶出家中的網絡時，它將自動切換至Astro Node模式。",
@@ -159,7 +159,7 @@
         "reset_mode_tips1": "您确定要重置AstroMesh网络吗？",
         "reset_mode_tips2": "所有当前的 AstroMesh 设置将被清除，Mesh 节点将恢复为出厂设置。",
         "aw_pending_tips": "无法连接到主路由器，AstroMesh网络当前不可用。请检查主路由器的网络连接状态。",
-        "cloud_service_not_working_tips": "云端服务运行异常，Astro节点可能无法连接。请检查网络连接状态。"
+        "cloud_service_not_working_tips": "雲端服務運作不正常，Astro 節點可能無法連接。請檢查網路連線狀態。"
     },
     "menu_astromesh": "AstroMesh"
 }

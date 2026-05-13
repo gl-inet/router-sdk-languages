@@ -72,7 +72,6 @@
         "mac_existed": "MAC Existed",
         "ip_existed": "IP Existed",
         "not_allow_use_tips": "The characters {char} are not allowed.",
-        "hostname_tips": "2-63 characters. Only letters, digits or hyphens are allowed. Must not start or end with a hyphen, nor consist solely of digits.",
         "hostname_existed": "Hostname Existed",
         "confirm_delete_subnet": "Are you sure you want to delete this network?",
         "lpr_serve_label": "LPR Server",
@@ -94,7 +93,9 @@
         "block_wan_subnets_tip_guest": "If this function is enabled, the guest network will not be able to access the upper network and the network segment where the upper network is located.",
         "block_wan_subnets_tip_iot": "If this function is enabled, the IoT network will not be able to access the upper network and the network segment where the upper network is located.",
         "block_wan_subnets_tip_custom": "If this function is enabled, the custom network will not be able to access the upper network and the network segment where the upper network is located.",
-        "lpr_tips": "Enter one or more LPR server IP addresses."
+        "lpr_tips": "Enter one or more LPR server IP addresses.",
+        "hostname_tips": "0-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits.",
+        "err_address_reservation_description_max_length": "The maximum length is 256 characters"
     },
-    "menu_vlan": "VLAN"
+    "menu_vlan": "Subnet"
 }
