@@ -95,7 +95,8 @@
         "block_wan_subnets_tip_custom": "Wenn diese Funktion aktiviert ist, kann das benutzerdefinierte Netzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen.",
         "lpr_tips": "Geben Sie eine oder mehrere LPR-Server-IP-Adressen ein.",
         "hostname_tips": "0-63 Zeichen. Nur Buchstaben, Ziffern oder Bindestriche sind erlaubt. Muss mit einem Buchstaben oder einer Ziffer beginnen und enden und darf nicht ausschließlich aus Ziffern bestehen.",
-        "err_address_reservation_description_max_length": "Die maximale Länge beträgt 256 Zeichen."
+        "err_address_reservation_description_max_length": "Die maximale Länge beträgt 256 Zeichen.",
+        "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz. Bitte $$$$LAN-Subnetz ändern$$$$ zu einer anderen Adresse."
     },
     "menu_vlan": "Subnetz"
 }
