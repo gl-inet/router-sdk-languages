@@ -95,7 +95,8 @@
         "block_wan_subnets_tip_custom": "Bu işlev etkinleştirilirse, özel ağ üst ağa ve üst ağın bulunduğu ağ segmentine erişemez.",
         "lpr_tips": "Bir veya daha fazla LPR sunucu IP adresi girin.",
         "hostname_tips": "0-63 karakter. Yalnızca harfler, rakamlar veya kısa çizgilere izin verilir. Harf veya rakamla başlamalı ve bitmeli, yalnızca rakamlardan oluşamaz.",
-        "err_address_reservation_description_max_length": "Maksimum uzunluk 256 karakterdir."
+        "err_address_reservation_description_max_length": "Maksimum uzunluk 256 karakterdir.",
+        "lan_ip_tips": "LAN alt ağı, WAN alt ağı ile çakışıyor. Lütfen farklı bir adrese $$$$LAN Alt Ağını Değiştir$$$$."
     },
     "menu_vlan": "Alt ağ"
 }
