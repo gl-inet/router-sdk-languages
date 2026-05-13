@@ -95,7 +95,8 @@
         "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, pasirinktinis tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
         "lpr_tips": "Įveskite vieną ar daugiau LPR serverio IP adresų.",
         "hostname_tips": "0-63 simboliai. Leidžiamos tik raidės, skaitmenys arba brūkšniai. Turi prasidėti ir baigtis raide arba skaitmeniu, ir negali būti sudarytas tik iš skaitmenų.",
-        "err_address_reservation_description_max_length": "Maksimalus ilgis yra 256 simboliai"
+        "err_address_reservation_description_max_length": "Maksimalus ilgis yra 256 simboliai",
+        "lan_ip_tips": "Vietinio tinklo (LAN) potinklis prieštarauja išorinio tinklo (WAN) potinkliui. Prašome $$$$Pakeisti Vietinio tinklo (LAN) potinklį$$$$ į kitą adresą."
     },
     "menu_vlan": "Potinklis"
 }
