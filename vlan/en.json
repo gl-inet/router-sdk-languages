@@ -95,7 +95,8 @@
         "block_wan_subnets_tip_custom": "If this function is enabled, the custom network will not be able to access the upper network and the network segment where the upper network is located.",
         "lpr_tips": "Enter one or more LPR server IP addresses.",
         "hostname_tips": "0-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits.",
-        "err_address_reservation_description_max_length": "The maximum length is 256 characters"
+        "err_address_reservation_description_max_length": "The maximum length is 256 characters",
+        "lan_ip_tips": "LAN subnet is in conflict with the WAN subnet, Please $$$$Change LAN Subnet$$$$ to a different address."
     },
     "menu_vlan": "Subnet"
 }
