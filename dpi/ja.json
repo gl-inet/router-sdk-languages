@@ -43,7 +43,7 @@
         "probe_server_addresses_tips": "カンマ区切りで、ネットワーク品質のプローブに使用されます。",
         "probe_interval_tips": "秒。値が小さいほど応答が速くなりますが、CPU使用率が高くなります。",
         "concurrent_probes_tips": "プローブサーバー数より小さくなければなりません。値を大きくするとCPU使用率が増加します。",
-        "idle_detection_threshold_tips": "Kbps。この値を下回ると、接続はアイドル状態と見なされ、プロービングが停止します。",
+        "idle_detection_threshold_tips": "Kbps。速度がこの値を下回ると、接続はアイドル状態と見なされ、この値は設定された速度制限より小さくなければなりません。",
         "download_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
         "upload_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
         "cake_autorate_desc": "レイテンシ駆動型シェーパーで、プローブRTTに基づいてCAKE帯域幅をリアルタイムで削減または増加します。アクティブな速度テストはなく、軽量なpingのみを使用します。WAN帯域幅が変動する場合に推奨されます。安定したリンクでは不要です。",
