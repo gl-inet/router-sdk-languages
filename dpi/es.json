@@ -43,7 +43,7 @@
         "probe_server_addresses_tips": "Separados por comas, utilizados para la verificación de la calidad de la red.",
         "probe_interval_tips": "Segundos. Valores más bajos = respuesta más rápida pero mayor uso de CPU.",
         "concurrent_probes_tips": "Debe ser menor que el número de servidores de prueba; valores más altos aumentan el uso de la CPU.",
-        "idle_detection_threshold_tips": "Kbps. Por debajo de este valor, la conexión se considera inactiva y se detiene la verificación.",
+        "idle_detection_threshold_tips": "Kbps. Cuando la velocidad está por debajo de este valor, la conexión se considera inactiva, y este valor debe ser menor que el límite de velocidad establecido.",
         "download_latency_threshold_tips": "Milisegundos. Superar este valor provoca una reducción del ancho de banda.",
         "upload_latency_threshold_tips": "Milisegundos. Superar este valor provoca una reducción del ancho de banda.",
         "cake_autorate_desc": "Moldeador basado en latencia que reduce o aumenta el ancho de banda de CAKE en tiempo real según el RTT de la sonda — no hay una prueba de velocidad activa, solo pings ligeros. Recomendado cuando el ancho de banda de la WAN fluctúa; no es necesario en enlaces estables.",
