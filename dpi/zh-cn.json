@@ -43,7 +43,7 @@
         "probe_server_addresses_tips": "逗号分隔，用于网络质量探测。",
         "probe_interval_tips": "秒。数值越小，响应越快，但CPU占用越高。",
         "concurrent_probes_tips": "必须小于探测服务器数量；较高的值会增加CPU使用率。",
-        "idle_detection_threshold_tips": "Kbps。低于此值时，连接被视为空闲并停止探测。",
+        "idle_detection_threshold_tips": "Kbps。当速度低于此值时，连接被视为空闲，且此值必须小于设定的速度限制。",
         "download_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
         "upload_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
         "cake_autorate_desc": "基于探测RTT实时降低或提高CAKE带宽的延迟驱动整形器——不进行主动测速，仅使用轻量级ping。建议在WAN带宽波动时使用；稳定链路无需启用。",
