@@ -97,7 +97,14 @@
         "err_address_reservation_description_max_length": "最大长度为256个字符",
         "hostname_tips": "0-63文字。仅允许使用字母、数字或连字符。必须以字母或数字开头和结尾，且不能仅由数字组成。",
         "err_reserved_ip_not_in_subnet": "予約されたIPアドレスはサブネット内にありません",
-        "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。LANサブネットを別のアドレスに変更してください。"
+        "lan_ip_tips": "LANサブネットがWANサブネットと競合しています。LANサブネットを別のアドレスに変更してください。",
+        "err_wan_ip_conflict": "サブネットアドレスがWANサブネットと競合しています。",
+        "err_lan_ip_conflict": "サブネットアドレスがメインネットワークと競合しています。",
+        "err_guest_ip_conflict": "サブネットアドレスがゲストネットワークと競合しています。",
+        "err_iot_ip_conflict": "サブネットアドレスがIoTネットワークと競合しています。",
+        "err_delete_has_bindings": "このサブネットにはまだバインディングがあります。削除する前に移行してください。",
+        "err_fixed_subnet_cannot_delete": "固定サブネットは削除できません。",
+        "err_subnet_not_found": "サブネットが見つかりません。"
     },
     "menu_vlan": "サブネット"
 }
