@@ -97,7 +97,14 @@
         "hostname_tips": "0-63 Zeichen. Nur Buchstaben, Ziffern oder Bindestriche sind erlaubt. Muss mit einem Buchstaben oder einer Ziffer beginnen und enden und darf nicht ausschließlich aus Ziffern bestehen.",
         "err_address_reservation_description_max_length": "Die maximale Länge beträgt 256 Zeichen.",
         "err_reserved_ip_not_in_subnet": "Die reservierte IP-Adresse liegt nicht im Subnetz.",
-        "lan_ip_tips": "Das LAN-Subnetz steht im Konflikt mit dem WAN-Subnetz. Bitte ändern Sie das LAN-Subnetz auf eine andere Adresse."
+        "lan_ip_tips": "Das LAN-Subnetz steht im Konflikt mit dem WAN-Subnetz. Bitte ändern Sie das LAN-Subnetz auf eine andere Adresse.",
+        "err_wan_ip_conflict": "Subnetzadresse kollidiert mit einem WAN-Subnetz.",
+        "err_lan_ip_conflict": "Subnetzadresse kollidiert mit dem Hauptnetzwerk.",
+        "err_guest_ip_conflict": "Subnetzadresse kollidiert mit dem Gastnetzwerk.",
+        "err_iot_ip_conflict": "Subnetzadresse kollidiert mit dem IoT-Netzwerk.",
+        "err_delete_has_bindings": "Dieses Subnetz hat noch Bindungen. Migrieren Sie diese vor dem Löschen.",
+        "err_fixed_subnet_cannot_delete": "Feste Subnetze können nicht gelöscht werden.",
+        "err_subnet_not_found": "Subnetz nicht gefunden."
     },
     "menu_vlan": "Subnetz"
 }
