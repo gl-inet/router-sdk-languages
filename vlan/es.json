@@ -96,7 +96,8 @@
         "lpr_tips": "Ingrese una o más direcciones IP del servidor LPR.",
         "hostname_tips": "0-63 caracteres. Solo se permiten letras, dígitos o guiones. Debe comenzar y terminar con una letra o dígito, y no puede consistir únicamente en dígitos.",
         "err_address_reservation_description_max_length": "La longitud máxima es de 256 caracteres.",
-        "err_reserved_ip_not_in_subnet": "La dirección IP reservada no está dentro de la subred."
+        "err_reserved_ip_not_in_subnet": "La dirección IP reservada no está dentro de la subred.",
+        "lan_ip_tips": "La subred LAN está en conflicto con la subred WAN. Por favor, cambie la subred LAN a una dirección diferente."
     },
     "menu_vlan": "subred"
 }
