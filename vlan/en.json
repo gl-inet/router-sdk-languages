@@ -96,7 +96,8 @@
         "lpr_tips": "Enter one or more LPR server IP addresses.",
         "hostname_tips": "0-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits.",
         "err_address_reservation_description_max_length": "The maximum length is 256 characters",
-        "err_reserved_ip_not_in_subnet": "The reserved IP address is not within the subnet"
+        "err_reserved_ip_not_in_subnet": "The reserved IP address is not within the subnet",
+        "lan_ip_tips": "LAN subnet is in conflict with the WAN subnet, Please change LAN subnet to a different address."
     },
     "menu_vlan": "Subnet"
 }
