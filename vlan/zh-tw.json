@@ -103,7 +103,8 @@
         "err_delete_has_bindings": "此子網路仍有綁定，請先遷移後再刪除。",
         "err_fixed_subnet_cannot_delete": "固定子網路無法刪除。",
         "err_subnet_not_found": "找不到子網路。",
-        "err_guest_ip_conflict": "子網路位址與訪客網路衝突。"
+        "err_guest_ip_conflict": "子網路位址與訪客網路衝突。",
+        "err_display_name_max_length": "名稱必須在32個字元以內。"
     },
     "menu_vlan": "子網"
 }
