@@ -103,7 +103,8 @@
         "err_iot_ip_conflict": "Potinklio adresas konfliktuoja su IoT tinklu.",
         "err_delete_has_bindings": "Šis potinklis vis dar turi susiejimų. Perkelkite juos prieš jį ištrindami.",
         "err_fixed_subnet_cannot_delete": "Fiksuotų potinklių negalima ištrinti.",
-        "err_subnet_not_found": "Potinklis nerastas."
+        "err_subnet_not_found": "Potinklis nerastas.",
+        "err_display_name_max_length": "Pavadinimas turi būti ne ilgesnis nei 32 simboliai."
     },
     "menu_vlan": "Potinklis"
 }
