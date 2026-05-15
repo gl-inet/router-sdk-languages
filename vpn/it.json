@@ -521,7 +521,7 @@
         "exclude_domain_target_desc": "Instradare tutto il traffico attraverso questo tunnel VPN per impostazione predefinita, ad eccezione dei domini o degli indirizzi IP elencati. Le destinazioni escluse bypasseranno questo tunnel.",
         "connect_methods_desc": "Applicare le regole VPN in base all'interfaccia di rete, ad esempio instradando solo il traffico della Wi-Fi Guest o della LAN Ethernet.",
         "domain_target_desc": "Instradare solo il traffico destinato ai domini o agli indirizzi IP elencati attraverso questo tunnel VPN. Il traffico verso altre destinazioni bypasserà questo tunnel.",
-        "disable_killswitch_tips": "当禁用时，流量将遵循未匹配流量的策略（当前为：{label}）。",
+        "disable_killswitch_tips": "Quando disabilitato, il traffico seguirà i criteri per tutto l'altro traffico (attualmente: {label}).",
         "ip_assigning_label": "Assegnazione in corso...",
         "select_config_btn": "Selezionare una configurazione",
         "add_client_config_btn": "Aggiungi configurazione client",
@@ -589,7 +589,7 @@
         "stop_config_tips": "L'arrestazione di questa configurazione la rimuoverà da tutti i tunnel.",
         "stop_config_tunnel_stopped_tips": "Se un tunnel contiene solo questa configurazione, il tunnel verrà arrestato.",
         "stop_config_visit_dashboard_tips": "Per gestire i tunnel, si prega di visitare la {page}.",
-        "remove_config_btn": "删除配置",
+        "remove_config_btn": "Elimina Configurazioni",
         "reomving_config_warning_tips": "Sei sicuro di voler eliminare?",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address}) è in conflitto con {interface}."
     },

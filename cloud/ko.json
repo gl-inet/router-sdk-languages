@@ -83,15 +83,15 @@
         "access_cloud_services_bind_tips": "클라우드 서비스에 접속하여 바인딩을 완료하려고 합니다.",
         "copy_link_btn": "링크 복사",
         "access_cloud_services_tips": "클라우드 서비스에 접속하려고 합니다.",
-        "remote_monitoring_title": "远程监控与管理",
-        "batch_configuration_title": "批量设备配置",
-        "diagnostics_title": "故障排除与诊断",
-        "alarms_title": "通知与告警",
-        "device_identity_title": "设备身份",
-        "recent_logs_title": "最近的云端日志",
-        "account_management_link": "glinet 账户管理",
-        "no_logs_tips": "无数据",
-        "device_identity_desc": "这些标识符用于支持、库存跟踪和云端审计。"
+        "remote_monitoring_title": "원격 모니터링 및 관리",
+        "batch_configuration_title": "일괄 장치 구성",
+        "diagnostics_title": "문제 해결 및 진단",
+        "alarms_title": "알림 및 경고",
+        "device_identity_title": "장치 식별",
+        "recent_logs_title": "최근 클라우드 로그",
+        "account_management_link": "glinet 계정 관리",
+        "no_logs_tips": "데이터 없음",
+        "device_identity_desc": "이러한 식별자는 지원, 재고 추적 및 클라우드 감사에 사용됩니다."
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
@@ -138,6 +138,6 @@
         "app_desc_secondary": "어디서나 라우터 상태를 모니터링하고 설정을 수정할 수 있습니다.",
         "goodcloud_title": "GoodCloud",
         "app_service_title": "glinet App",
-        "bound_intro": "此路由器当前已绑定到您的glinet账户。您现在可以访问云功能和服务，包括{services}。"
+        "bound_intro": "이 라우터는 현재 귀하의 glinet 계정에 바인딩되어 있습니다. 이제 {services}을(를) 포함한 클라우드 기능 및 서비스에 액세스할 수 있습니다."
     }
 }
