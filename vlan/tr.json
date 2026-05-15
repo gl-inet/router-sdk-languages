@@ -103,7 +103,8 @@
         "err_delete_has_bindings": "Bu alt ağda hala bağlantılar var. Silmeden önce bunları taşıyın.",
         "err_fixed_subnet_cannot_delete": "Sabit alt ağlar silinemez.",
         "err_subnet_not_found": "Alt ağ bulunamadı.",
-        "err_wan_ip_conflict": "Alt ağ adresi bir WAN alt ağı ile çakışıyor."
+        "err_wan_ip_conflict": "Alt ağ adresi bir WAN alt ağı ile çakışıyor.",
+        "err_display_name_max_length": "İsim 32 karakter veya daha az olmalıdır."
     },
     "menu_vlan": "Alt ağ"
 }
