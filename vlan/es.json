@@ -103,7 +103,8 @@
         "err_iot_ip_conflict": "La dirección de subred entra en conflicto con la red IoT.",
         "err_delete_has_bindings": "Esta subred aún tiene vinculaciones. Migrelas antes de eliminarla.",
         "err_fixed_subnet_cannot_delete": "Las subredes fijas no se pueden eliminar.",
-        "err_subnet_not_found": "Subred no encontrada."
+        "err_subnet_not_found": "Subred no encontrada.",
+        "err_display_name_max_length": "El nombre debe tener 32 caracteres o menos."
     },
     "menu_vlan": "subred"
 }
