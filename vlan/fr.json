@@ -103,7 +103,8 @@
         "err_delete_has_bindings": "Ce sous-réseau a encore des liaisons. Migrez-les avant de le supprimer.",
         "err_fixed_subnet_cannot_delete": "Les sous-réseaux fixes ne peuvent pas être supprimés.",
         "err_subnet_not_found": "Sous-réseau introuvable.",
-        "err_iot_ip_conflict": "L'adresse du sous-réseau est en conflit avec le réseau IoT."
+        "err_iot_ip_conflict": "L'adresse du sous-réseau est en conflit avec le réseau IoT.",
+        "err_display_name_max_length": "Le nom doit comporter 32 caractères ou moins."
     },
     "menu_vlan": "Sous-réseau"
 }
