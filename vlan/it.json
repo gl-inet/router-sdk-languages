@@ -103,7 +103,8 @@
         "err_delete_has_bindings": "Questa sottorete ha ancora delle associazioni. Migrarle prima di eliminarla.",
         "err_fixed_subnet_cannot_delete": "Le sottoreti fisse non possono essere eliminate.",
         "err_subnet_not_found": "Sottorete non trovata.",
-        "err_guest_ip_conflict": "L'indirizzo della sottorete è in conflitto con la rete ospiti."
+        "err_guest_ip_conflict": "L'indirizzo della sottorete è in conflitto con la rete ospiti.",
+        "err_display_name_max_length": "Il nome deve avere al massimo 32 caratteri."
     },
     "menu_vlan": "Sottorete"
 }
