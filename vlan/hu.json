@@ -103,7 +103,8 @@
         "err_iot_ip_conflict": "Az alhálózat címe ütközik az IoT hálózattal.",
         "err_delete_has_bindings": "Ennek az alhálózatnak még vannak kötései. Törlés előtt telepítse át őket.",
         "err_subnet_not_found": "Alhálózat nem található.",
-        "err_fixed_subnet_cannot_delete": "A rögzített alhálózatok nem törölhetők."
+        "err_fixed_subnet_cannot_delete": "A rögzített alhálózatok nem törölhetők.",
+        "err_display_name_max_length": "A név legfeljebb 32 karakter hosszú lehet."
     },
     "menu_vlan": "alhálózat"
 }
