@@ -103,7 +103,8 @@
         "err_iot_ip_conflict": "子网地址与物联网网络冲突。",
         "err_delete_has_bindings": "此子网仍有绑定，请先迁移后再删除。",
         "err_fixed_subnet_cannot_delete": "固定子网无法删除。",
-        "err_subnet_not_found": "未找到子网。"
+        "err_subnet_not_found": "未找到子网。",
+        "err_display_name_max_length": "名称不能超过32个字符。"
     },
     "menu_vlan": "子网"
 }
