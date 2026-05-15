@@ -103,7 +103,8 @@
         "err_iot_ip_conflict": "Subnet address conflicts with the IoT network.",
         "err_delete_has_bindings": "This subnet still has bindings. Migrate them before deleting it.",
         "err_fixed_subnet_cannot_delete": "Fixed subnets cannot be deleted.",
-        "err_subnet_not_found": "Subnet not found."
+        "err_subnet_not_found": "Subnet not found.",
+        "err_display_name_max_length": "Name must be 32 characters or fewer."
     },
     "menu_vlan": "Subnet"
 }
