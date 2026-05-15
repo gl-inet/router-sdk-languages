@@ -103,7 +103,8 @@
         "err_fixed_subnet_cannot_delete": "고정 서브넷은 삭제할 수 없습니다.",
         "err_subnet_not_found": "서브넷을 찾을 수 없습니다.",
         "err_guest_ip_conflict": "서브넷 주소가 게스트 네트워크와 충돌합니다.",
-        "err_delete_has_bindings": "이 서브넷에 바인딩이 여전히 있습니다. 삭제하기 전에 마이그레이션하십시오."
+        "err_delete_has_bindings": "이 서브넷에 바인딩이 여전히 있습니다. 삭제하기 전에 마이그레이션하십시오.",
+        "err_display_name_max_length": "이름은 32자 이하여야 합니다."
     },
     "menu_vlan": "서브넷"
 }
