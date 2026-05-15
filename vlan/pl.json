@@ -103,7 +103,8 @@
         "err_delete_has_bindings": "Ta podsieć ma jeszcze powiązania. Przenieś je przed jej usunięciem.",
         "err_fixed_subnet_cannot_delete": "Stałych podsieci nie można usunąć.",
         "err_subnet_not_found": "Nie znaleziono podsieci.",
-        "err_wan_ip_conflict": "Adres podsieci jest w konflikcie z podsiecią WAN."
+        "err_wan_ip_conflict": "Adres podsieci jest w konflikcie z podsiecią WAN.",
+        "err_display_name_max_length": "Nazwa może mieć maksymalnie 32 znaki."
     },
     "menu_vlan": "podsieć"
 }
