@@ -43,7 +43,7 @@
         "probe_server_addresses_tips": "Komma-gescheiden, gebruikt voor het testen van de netwerkkwaliteit.",
         "probe_interval_tips": "Seconden. Lagere waarden = snellere respons maar hoger CPU-gebruik.",
         "concurrent_probes_tips": "Moet kleiner zijn dan het aantal probeservers; hogere waarden verhogen het CPU-gebruik.",
-        "idle_detection_threshold_tips": "Kbps. Onder deze waarde wordt de verbinding als inactief beschouwd en stopt het testen.",
+        "idle_detection_threshold_tips": "Kbps. Wanneer de snelheid onder deze waarde ligt, wordt de verbinding als inactief beschouwd, en deze waarde moet lager zijn dan de ingestelde snelheidslimiet.",
         "download_latency_threshold_tips": "Milliseconden. Overschrijding hiervan leidt tot bandbreedtevermindering.",
         "upload_latency_threshold_tips": "Milliseconden. Overschrijding hiervan leidt tot bandbreedtevermindering.",
         "cake_autorate_desc": "Op basis van latentie gestuurde vormgever die de CAKE-bandbreedte in realtime verlaagt of verhoogt op basis van de RTT van de probe — er is geen actieve snelheidstest, alleen lichtgewicht pings. Aanbevolen wanneer de WAN-bandbreedte fluctueert; niet nodig op stabiele verbindingen.",

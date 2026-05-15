@@ -47,7 +47,7 @@
         "err_dhcp_range_excludes_gateway": "Il pool DHCP non deve includere l'indirizzo del gateway.",
         "err_dhcp_outside_subnet": "Questo IP è al di fuori della subnet definita dalla netmask corrente.",
         "change_to": "L'indirizzo IP del router è stato modificato con successo in",
-        "lpr_duplicate_tips": "不允许重复的LPR条目。",
+        "lpr_duplicate_tips": "Voci LPR duplicate non sono consentite.",
         "name_placeholder": "Inserisci il nome della rete",
         "add_custom_network": "Aggiungi una Nuova Rete",
         "main_network": "Rete Principale",
@@ -95,7 +95,16 @@
         "block_wan_subnets_tip_custom": "Se questa funzione è abilitata, la rete personalizzata non potrà accedere alla rete superiore e al segmento di rete in cui si trova la rete superiore.",
         "lpr_tips": "Inserisci uno o più indirizzi IP del server LPR.",
         "hostname_tips": "0-63 caratteri. Sono consentiti solo lettere, cifre o trattini. Deve iniziare e terminare con una lettera o una cifra e non può essere composto esclusivamente da cifre.",
-        "err_address_reservation_description_max_length": "La lunghezza massima è di 256 caratteri."
+        "err_address_reservation_description_max_length": "La lunghezza massima è di 256 caratteri.",
+        "err_reserved_ip_not_in_subnet": "L'indirizzo IP riservato non si trova all'interno della sottorete.",
+        "lan_ip_tips": "La sottorete LAN è in conflitto con la sottorete WAN. Modificare la sottorete LAN con un indirizzo diverso.",
+        "err_wan_ip_conflict": "L'indirizzo della sottorete è in conflitto con una sottorete WAN.",
+        "err_lan_ip_conflict": "L'indirizzo della sottorete è in conflitto con la rete principale.",
+        "err_iot_ip_conflict": "L'indirizzo della sottorete è in conflitto con la rete IoT.",
+        "err_delete_has_bindings": "Questa sottorete ha ancora delle associazioni. Migrarle prima di eliminarla.",
+        "err_fixed_subnet_cannot_delete": "Le sottoreti fisse non possono essere eliminate.",
+        "err_subnet_not_found": "Sottorete non trovata.",
+        "err_guest_ip_conflict": "L'indirizzo della sottorete è in conflitto con la rete ospiti."
     },
     "menu_vlan": "Sottorete"
 }

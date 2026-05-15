@@ -43,7 +43,7 @@
         "probe_server_addresses_tips": "Vesszővel elválasztva, hálózati minőség ellenőrzéséhez használatos.",
         "probe_interval_tips": "Másodperc. Alacsonyabb érték = gyorsabb válasz, de magasabb CPU-használat.",
         "concurrent_probes_tips": "Kisebbnek kell lennie a próbaszerverek számánál; a magasabb értékek növelik a CPU-használatot.",
-        "idle_detection_threshold_tips": "Kbps. Ez alatt az érték alatt a kapcsolat inaktívnak minősül, és a vizsgálat leáll.",
+        "idle_detection_threshold_tips": "Kbps. Amikor a sebesség ezen érték alatt van, a kapcsolat tétlennek minősül, és ennek az értéknek kisebbnek kell lennie a beállított sebességkorlátnál.",
         "download_latency_threshold_tips": "Ezredmásodperc. Ennek túllépése sávszélesség-csökkentést vált ki.",
         "upload_latency_threshold_tips": "Ezredmásodperc. Ennek túllépése sávszélesség-csökkentést vált ki.",
         "cake_autorate_desc": "Késleltetésvezérelt alakító, amely valós időben csökkenti vagy növeli a CAKE sávszélességét a mérési RTT alapján – nincs aktív sebességteszt, csak könnyű pingek. Ajánlott, ha a WAN sávszélesség ingadozik; stabil kapcsolatokon nem szükséges.",

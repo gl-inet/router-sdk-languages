@@ -95,7 +95,16 @@
         "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, pasirinktinis tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
         "lpr_tips": "Įveskite vieną ar daugiau LPR serverio IP adresų.",
         "hostname_tips": "0-63 simboliai. Leidžiamos tik raidės, skaitmenys arba brūkšniai. Turi prasidėti ir baigtis raide arba skaitmeniu, ir negali būti sudarytas tik iš skaitmenų.",
-        "err_address_reservation_description_max_length": "Maksimalus ilgis yra 256 simboliai"
+        "err_address_reservation_description_max_length": "Maksimalus ilgis yra 256 simboliai",
+        "err_reserved_ip_not_in_subnet": "Rezervuotas IP adresas nėra potinklyje.",
+        "lan_ip_tips": "Vietinio tinklo potinklis yra konflikte su WAN potinkliu, prašome pakeisti Vietinio tinklo potinklį į kitą adresą.",
+        "err_wan_ip_conflict": "Potinklio adresas konfliktuoja su WAN potinkliu.",
+        "err_lan_ip_conflict": "Potinklio adresas konfliktuoja su pagrindiniu tinklu.",
+        "err_guest_ip_conflict": "Potinklio adresas konfliktuoja su svečių tinklu.",
+        "err_iot_ip_conflict": "Potinklio adresas konfliktuoja su IoT tinklu.",
+        "err_delete_has_bindings": "Šis potinklis vis dar turi susiejimų. Perkelkite juos prieš jį ištrindami.",
+        "err_fixed_subnet_cannot_delete": "Fiksuotų potinklių negalima ištrinti.",
+        "err_subnet_not_found": "Potinklis nerastas."
     },
     "menu_vlan": "Potinklis"
 }

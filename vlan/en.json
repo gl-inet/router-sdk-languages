@@ -95,7 +95,16 @@
         "block_wan_subnets_tip_custom": "If this function is enabled, the custom network will not be able to access the upper network and the network segment where the upper network is located.",
         "lpr_tips": "Enter one or more LPR server IP addresses.",
         "hostname_tips": "0-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits.",
-        "err_address_reservation_description_max_length": "The maximum length is 256 characters"
+        "err_address_reservation_description_max_length": "The maximum length is 256 characters",
+        "err_reserved_ip_not_in_subnet": "The reserved IP address is not within the subnet",
+        "lan_ip_tips": "LAN subnet is in conflict with the WAN subnet, Please change LAN subnet to a different address.",
+        "err_wan_ip_conflict": "Subnet address conflicts with a WAN subnet.",
+        "err_lan_ip_conflict": "Subnet address conflicts with the main network.",
+        "err_guest_ip_conflict": "Subnet address conflicts with the guest network.",
+        "err_iot_ip_conflict": "Subnet address conflicts with the IoT network.",
+        "err_delete_has_bindings": "This subnet still has bindings. Migrate them before deleting it.",
+        "err_fixed_subnet_cannot_delete": "Fixed subnets cannot be deleted.",
+        "err_subnet_not_found": "Subnet not found."
     },
     "menu_vlan": "Subnet"
 }

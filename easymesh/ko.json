@@ -148,18 +148,19 @@
         "exit_node_mode_selected_tips": "현재 메인 라우터를 출구 노드로 사용 중이며, 이는 모든 트래픽이 먼저 홈 네트워크를 통해 라우팅되어 홈 IP 주소를 사용 중임을 나타냅니다.",
         "traffic_split_mode_tips": "트래픽 분할 모드에서는 홈 트래픽이 메인 라우터로 다시 라우팅되고, 다른 인터넷 트래픽은 WAN 인터페이스를 통해 직접 전송됩니다.",
         "traffic_split_mode_selected_tips": "현재 트래픽 분할 모드에 있습니다. AstroMesh 네트워크를 통해 메인 라우터에 계속 액세스할 수 있으며, 다른 인터넷 트래픽은 WAN 인터페이스를 통해 직접 라우팅됩니다.",
-        "enabled_s2s_mode_tips": "TAP-S2S模式已启用，因此此功能无法使用。",
-        "enabled_astrowrap_tips": "AstroWrap 当前处于活动状态，这与 AstroMesh 存在冲突。请重置 AstroWrap 网络以继续操作。",
+        "enabled_s2s_mode_tips": "TAP-S2S 모드가 활성화되어 있어 이 기능을 사용할 수 없습니다.",
+        "enabled_astrowrap_tips": "AstroWrap이 현재 활성 상태이며 AstroMesh와 충돌합니다. 계속하려면 AstroWrap 네트워크를 재설정하세요.",
         "connecting_tips": "연결 중...",
         "join_astromesh_tips": "AstroMesh 네트워크에 연결하여 집이나 여행 중 메인 라우터의 Wi-Fi 범위를 확장하세요.",
         "astro_node_enable _tips": "연결 활성화를 탭하세요",
         "disconnecting_tips": "연결 해제 중...",
         "astro_node_disable _tips": "탭하여 연결 비활성화",
-        "astro_node_connection_success_msg": "连接成功。设备现已在Astro节点模式下连接到主路由器。",
-        "reset_mode_tips1": "您确定要重置AstroMesh网络吗？",
+        "astro_node_connection_success_msg": "연결 성공. 장치가 이제 Astro 노드 모드에서 메인 라우터에 연결되었습니다.",
+        "reset_mode_tips1": "AstroMesh 네트워크를 재설정하시겠습니까?",
         "reset_mode_tips2": "현재 모든 AstroMesh 설정이 지워지며, Mesh 노드가 공장 초기화로 재설정됩니다.",
         "aw_pending_tips": "메인 라우터에 연결할 수 없어 AstroMesh 네트워크를 현재 사용할 수 없습니다. 메인 라우터의 네트워크 연결 상태를 확인하십시오.",
-        "cloud_service_not_working_tips": "클라우드 서비스가 원활하게 작동하지 않아 Astro 노드가 연결되지 않을 수 있습니다. 네트워크 연결 상태를 확인하십시오."
+        "cloud_service_not_working_tips": "클라우드 서비스가 원활하게 작동하지 않아 Astro 노드가 연결되지 않을 수 있습니다. 네트워크 연결 상태를 확인하십시오.",
+        "net_conflict_tips": "현재 LAN 서브넷이 메인 라우터의 서브넷과 충돌합니다. LAN 네트워크를 다른 서브넷으로 변경해 주십시오."
     },
     "menu_astromesh": "AstroMesh"
 }

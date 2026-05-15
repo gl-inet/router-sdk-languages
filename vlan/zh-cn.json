@@ -95,7 +95,16 @@
         "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上层网络及上层网络所在的网段。",
         "lpr_tips": "输入一个或多个LPR服务器IP地址。",
         "hostname_tips": "0-63个字符。仅允许使用字母、数字或连字符。必须以字母或数字开头和结尾，且不能仅由数字组成。",
-        "err_address_reservation_description_max_length": "最大长度为256个字符"
+        "err_address_reservation_description_max_length": "最大长度为256个字符",
+        "err_reserved_ip_not_in_subnet": "保留IP地址不在子网内",
+        "lan_ip_tips": "LAN 子网与 WAN 子网冲突，请将 LAN 子网更改为其他地址。",
+        "err_wan_ip_conflict": "子网地址与WAN子网冲突。",
+        "err_lan_ip_conflict": "子网地址与主网络冲突。",
+        "err_guest_ip_conflict": "子网地址与访客网络冲突。",
+        "err_iot_ip_conflict": "子网地址与物联网网络冲突。",
+        "err_delete_has_bindings": "此子网仍有绑定，请先迁移后再删除。",
+        "err_fixed_subnet_cannot_delete": "固定子网无法删除。",
+        "err_subnet_not_found": "未找到子网。"
     },
     "menu_vlan": "子网"
 }

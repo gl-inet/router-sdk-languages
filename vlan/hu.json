@@ -95,7 +95,16 @@
         "block_wan_subnets_tip_custom": "Ha ez a funkció engedélyezve van, az egyéni hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
         "lpr_tips": "Adjon meg egy vagy több LPR szerver IP-címet.",
         "hostname_tips": "0-63 karakter. Csak betűk, számjegyek és kötőjelek engedélyezettek. Betűvel vagy számjeggyel kell kezdődnie és végződnie, és nem állhat kizárólag számjegyekből.",
-        "err_address_reservation_description_max_length": "A maximális hossz 256 karakter."
+        "err_address_reservation_description_max_length": "A maximális hossz 256 karakter.",
+        "err_reserved_ip_not_in_subnet": "A fenntartott IP-cím nincs az alhálózaton belül.",
+        "lan_ip_tips": "LAN alhálózat ütközik a WAN alhálózattal. Kérem, módosítsa a LAN alhálózatot más címre.",
+        "err_wan_ip_conflict": "Az alhálózat címe ütközik egy WAN alhálózattal.",
+        "err_lan_ip_conflict": "Az alhálózat címe ütközik a főhálózattal.",
+        "err_guest_ip_conflict": "Az alhálózat címe ütközik a vendéghálózattal.",
+        "err_iot_ip_conflict": "Az alhálózat címe ütközik az IoT hálózattal.",
+        "err_delete_has_bindings": "Ennek az alhálózatnak még vannak kötései. Törlés előtt telepítse át őket.",
+        "err_subnet_not_found": "Alhálózat nem található.",
+        "err_fixed_subnet_cannot_delete": "A rögzített alhálózatok nem törölhetők."
     },
     "menu_vlan": "alhálózat"
 }

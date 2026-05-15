@@ -49,7 +49,8 @@
         "custom_dns_setting_label": "Egyéni DNS beállítások",
         "address_label": "Cím",
         "iot_ip_tips": "Az IoT alhálózat ütközik a WAN alhálózattal, kérjük, módosítsa az {iotSubnet} címet egy másik címre.",
-        "change_iot_subnet": "IoT alhálózat módosítása"
+        "change_iot_subnet": "IoT alhálózat módosítása",
+        "mac_invalid_format": "Érvénytelen MAC-cím formátum"
     },
     "core": {
         "click here_btn": "Kattintson ide",
@@ -253,7 +254,7 @@
         "lost_account_btn": "Elveszett fiók?",
         "usb_power_limit_tips": "(Kérem, győződjön meg róla, hogy a tápellátás meghaladja a(z) {power} értéket)",
         "current_time_label": "Jelenlegi idö",
-        "enable_conflict_warning": "{self} 不可用，因为 {other} 已启用。",
+        "enable_conflict_warning": "{self} nem érhető el, mert a(z) {other} engedélyezve van.",
         "no_battery_charging_tips": "Nincs akkumulátor modul észlelve. A készülék jelenleg külső áramforrásról működik."
     },
     "err": {
