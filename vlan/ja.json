@@ -103,7 +103,8 @@
         "err_iot_ip_conflict": "サブネットアドレスがIoTネットワークと競合しています。",
         "err_delete_has_bindings": "このサブネットにはまだバインディングがあります。削除する前に移行してください。",
         "err_fixed_subnet_cannot_delete": "固定サブネットは削除できません。",
-        "err_subnet_not_found": "サブネットが見つかりません。"
+        "err_subnet_not_found": "サブネットが見つかりません。",
+        "err_display_name_max_length": "名前は32文字以内である必要があります。"
     },
     "menu_vlan": "サブネット"
 }
