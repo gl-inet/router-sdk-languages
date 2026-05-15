@@ -103,7 +103,8 @@
         "err_iot_ip_conflict": "Subnetzadresse kollidiert mit dem IoT-Netzwerk.",
         "err_delete_has_bindings": "Dieses Subnetz hat noch Bindungen. Migrieren Sie diese vor dem Löschen.",
         "err_fixed_subnet_cannot_delete": "Feste Subnetze können nicht gelöscht werden.",
-        "err_subnet_not_found": "Subnetz nicht gefunden."
+        "err_subnet_not_found": "Subnetz nicht gefunden.",
+        "err_display_name_max_length": "Der Name darf maximal 32 Zeichen lang sein."
     },
     "menu_vlan": "Subnetz"
 }
