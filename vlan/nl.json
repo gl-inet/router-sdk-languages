@@ -103,7 +103,8 @@
         "err_fixed_subnet_cannot_delete": "Vaste subnetten kunnen niet worden verwijderd.",
         "err_subnet_not_found": "Subnet niet gevonden.",
         "err_guest_ip_conflict": "Subnetadres conflicteert met het gastnetwerk.",
-        "err_delete_has_bindings": "Dit subnet heeft nog bindingen. Migreer ze voordat u het verwijdert."
+        "err_delete_has_bindings": "Dit subnet heeft nog bindingen. Migreer ze voordat u het verwijdert.",
+        "err_display_name_max_length": "Naam moet 32 tekens of minder zijn."
     },
     "menu_vlan": "subnet"
 }
