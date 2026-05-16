@@ -95,7 +95,7 @@
         "lpr_tips": "Wprowadź jeden lub więcej adresów IP serwera LPR.",
         "hostname_tips": "0-63 znaków. Dozwolone są tylko litery, cyfry lub myślniki. Musi zaczynać się i kończyć literą lub cyfrą i nie może składać się wyłącznie z cyfr.",
         "err_address_reservation_description_max_length": "Maksymalna długość to 256 znaków",
-        "err_reserved_ip_not_in_subnet": "Zastrzeżony adres IP nie znajduje się w podsieci.",
+        "err_reserved_ip_not_in_subnet": "Zastrzeżony adres IP nie znajduje się w podsieci",
         "lan_ip_tips": "Podsieć LAN jest w konflikcie z podsiecią WAN. Proszę zmienić podsieć LAN na inny adres.",
         "err_lan_ip_conflict": "Adres podsieci jest w konflikcie z siecią główną.",
         "err_guest_ip_conflict": "Adres podsieci jest w konflikcie z siecią gościnną.",
@@ -106,5 +106,5 @@
         "err_wan_ip_conflict": "Adres podsieci jest w konflikcie z podsiecią WAN.",
         "err_display_name_max_length": "Nazwa może mieć maksymalnie 32 znaki."
     },
-    "menu_vlan": "podsieć"
+    "menu_vlan": "Podsieć"
 }
