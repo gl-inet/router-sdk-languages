@@ -152,7 +152,12 @@
         "name_empty_tips": "A név nem lehet üres",
         "auto_switch_tips": "Ez a funkció a Multi-WAN Interface Status Track nem alacsony adatforgalmú észlelési módját igényli. Ha engedélyezve van, a rendszer automatikusan átvált a megfelelő észlelési módra, és további adatforgalmi felhasználást eredményezhet.",
         "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. {guide}",
-        "connection_failed_contact_support_tips": "Lásd a {guide} útmutatót. Ha a probléma továbbra is fennáll, kérjük, {log} és küldje el őket a {addr} címre."
+        "connection_failed_contact_support_tips": "Lásd a {guide} útmutatót. Ha a probléma továbbra is fennáll, kérjük, {log} és küldje el őket a {addr} címre.",
+        "version_3gpp": "3GPP Verzió: {num}",
+        "release15_3gpp_tips": "Alap 5G szabvány. A legjobb globális szolgáltatói kompatibilitást biztosítja. Regionális kapcsolódási problémák hibaelhárításához ajánlott.",
+        "release16_3gpp_tips": "Továbbfejlesztett 5G szabvány. Alkalmas a legtöbb kialakult 5G hálózati környezethez.",
+        "release17_3gpp_tips": "Az eszköz által támogatott legújabb 5G szabvány. Lehetővé teszi a fejlett hálózati funkciókat és képességeket. Bizonyos régiókban kompatibilitási eltérések léphetnek fel a szolgáltatói hálózati telepítések különbségei miatt.",
+        "release_3gpp_version_title": "3GPP Kiadás verzió"
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
