@@ -279,7 +279,12 @@
         "name_empty_tips": "名前を入力してください",
         "auto_switch_tips": "この機能は、Multi-WANインターフェースステータストラックの非低データ検出モードを必要とします。有効にすると、システムは自動的に対応する検出モードに切り替わり、追加のトラフィック使用量が発生する可能性があります。",
         "sim_registered_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。{guide}",
-        "connection_failed_contact_support_tips": "{guide}を参照してください。問題が解決しない場合は、{log}を取得し、{addr}に送信してください。"
+        "connection_failed_contact_support_tips": "{guide}を参照してください。問題が解決しない場合は、{log}を取得し、{addr}に送信してください。",
+        "version_3gpp": "3GPP バージョン: {num}",
+        "release15_3gpp_tips": "ベースライン5G標準。最高のグローバルキャリア互換性を提供します。地域接続の問題のトラブルシューティングに推奨されます。",
+        "release16_3gpp_tips": "拡張5G規格。確立されたほとんどの5Gネットワーク環境に適しています。",
+        "release17_3gpp_tips": "デバイスがサポートする最新の5G規格。高度なネットワーク機能と性能を有効にします。キャリアのネットワーク展開の違いにより、一部の地域で互換性の差異が生じる可能性があります。",
+        "release_3gpp_version_title": "3GPP リリースバージョン"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
