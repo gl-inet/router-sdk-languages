@@ -95,16 +95,16 @@
         "lpr_tips": "Iontráil seoladh IP amháin nó níos mó d'fhreastalaí LPR.",
         "hostname_tips": "0-63 carachtar. Ní cheadaítear ach litreacha, digití nó fleiscíní. Ní mór tús agus deireadh a chur le litir nó le digit, agus ní féidir é a bheith comhdhéanta de dhigití amháin.",
         "err_address_reservation_description_max_length": "Is é 256 carachtar an fad uasta",
-        "err_reserved_ip_not_in_subnet": "Níl an seoladh IP forchoimeádta laistigh den fhoghrúpa.",
-        "lan_ip_tips": "Tá foshraith LAN ag teacht salach ar fhoshraith WAN. Athraigh foshraith LAN go seoladh difriúil, le do thoil.",
-        "err_wan_ip_conflict": "Tá seoladh an fofho-líonra i gcoimhlint le fofho-líonra WAN.",
-        "err_lan_ip_conflict": "Tá seoladh an fofho-líonra i gcoimhlint leis an bpríomhlíonra.",
-        "err_guest_ip_conflict": "Tá seoladh an fofho-líonra i gcoimhlint leis an líonra aoi.",
-        "err_iot_ip_conflict": "Tá seoladh an fofho-líonra i gcoimhlint leis an líonra IoT.",
-        "err_subnet_not_found": "Níor aimsíodh fofho-líonra.",
-        "err_delete_has_bindings": "Tá ceangail fós ag an bhfofho-líonra seo. Déan iad a aistriú sula scriosfaidh tú é.",
-        "err_fixed_subnet_cannot_delete": "Ní féidir fofho-líonraí seasta a scriosadh.",
-        "err_display_name_max_length": "Caithfidh an t-ainm a bheith 32 charachtar nó níos lú."
+        "err_reserved_ip_not_in_subnet": "Níl an seoladh IP atá curtha in áirithe laistigh den fho-líonra",
+        "lan_ip_tips": "Tá coimhlint idir an fo-líonra LAN agus an fo-líonra WAN, athraigh an fo-líonra LAN go seoladh difriúil le do thoil.",
+        "err_wan_ip_conflict": "Tá coimhlint idir seoladh fo-líonra agus fo-líonra WAN.",
+        "err_lan_ip_conflict": "Tá coimhlint idir seoladh an fho-líonra agus an príomhlíonra.",
+        "err_guest_ip_conflict": "Tá coimhlint idir seoladh an fho-líonra agus líonra na n-aíonna.",
+        "err_iot_ip_conflict": "Tá coimhlintí idir seoladh an fho-líonra agus líonra na rudaí beaga.",
+        "err_subnet_not_found": "Fo-líonra gan aimsiú.",
+        "err_delete_has_bindings": "Tá ceangail fós ag an bhfo-líonra seo. Déan iad a aistriú sula scriostar é.",
+        "err_fixed_subnet_cannot_delete": "Ní féidir fo-líonraí seasta a scriosadh.",
+        "err_display_name_max_length": "Ní mór don ainm a bheith 32 carachtar ar a laghad."
     },
-    "menu_vlan": "Fonghréasán"
+    "menu_vlan": "Fo-líonra"
 }
