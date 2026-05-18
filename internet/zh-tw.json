@@ -279,7 +279,12 @@
         "name_empty_tips": "名称不能为空",
         "auto_switch_tips": "該功能依賴於多線負載介面狀態檢測的非低數據檢測模式。 啟用後，系統將自動切換到相應的檢測模式，並可能產生額外的流量消耗。",
         "sim_registered_connection_failed_tips": "請檢查 SIM 卡是否有可用流量，以及 {apnBtn} 設定是否正確。{guide}",
-        "connection_failed_contact_support_tips": "參考{guide}，若問題依舊，請{log}並發送至{addr}。"
+        "connection_failed_contact_support_tips": "參考{guide}，若問題依舊，請{log}並發送至{addr}。",
+        "version_3gpp": "3GPP 版本：{num}",
+        "release16_3gpp_tips": "增強型 5G 標準。適用於大多數已建立的 5G 網路環境。",
+        "release15_3gpp_tips": "基礎 5G 標準。提供最佳全球運營商相容性。建議用於排查區域連線問題。",
+        "release17_3gpp_tips": "設備支援的最新5G標準。啟用進階網路功能與能力。由於電信業者網路部署的差異，某些地區可能出現潛在的相容性差異。",
+        "release_3gpp_version_title": "3GPP 版本"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
