@@ -279,7 +279,12 @@
         "name_empty_tips": "Naam mag niet leeg zijn",
         "auto_switch_tips": "Deze functie vereist de niet-laag-datadetectiemodus van Multi-WAN Interface Status Track. Wanneer ingeschakeld, zal het systeem automatisch overschakelen naar de bijbehorende detectiemodus en kan dit extra dataverbruik genereren.",
         "sim_registered_connection_failed_tips": "Controleer of de SIM-kaart beschikbare data heeft en of de {apnBtn}-instellingen correct zijn. {guide}",
-        "connection_failed_contact_support_tips": "Raadpleeg de {guide}. Als het probleem aanhoudt, {log} en stuur deze naar {addr}."
+        "connection_failed_contact_support_tips": "Raadpleeg de {guide}. Als het probleem aanhoudt, {log} en stuur deze naar {addr}.",
+        "version_3gpp": "3GPP-versie: {num}",
+        "release15_3gpp_tips": "Basis 5G-standaard. Biedt de beste wereldwijde carriercompatibiliteit. Aanbevolen voor het oplossen van regionale connectiviteitsproblemen.",
+        "release16_3gpp_tips": "Verbeterde 5G-standaard. Geschikt voor de meeste gevestigde 5G-netwerkomgevingen.",
+        "release17_3gpp_tips": "De nieuwste 5G-standaard die door het apparaat wordt ondersteund. Maakt geavanceerde netwerkfuncties en -mogelijkheden mogelijk. Er kunnen potentiële compatibiliteitsverschillen optreden in bepaalde regio's als gevolg van verschillen in de implementatie van het mobiele netwerk van de provider.",
+        "release_3gpp_version_title": "3GPP Release-versie"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
