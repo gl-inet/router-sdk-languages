@@ -284,7 +284,11 @@
         "release15_3gpp_tips": "Baseline 5G standard. Offers the best global carrier compatibility. Recommended for troubleshooting regional connectivity issues.",
         "release16_3gpp_tips": "Enhanced 5G standard. Suitable for most established 5G network environments.",
         "release17_3gpp_tips": "The latest 5G standard supported by the device. Enables advanced network features and capabilities. Potential compatibility variances may occur in certain regions due to carrier network deployment differences.",
-        "release_3gpp_version_title": "3GPP Release Version"
+        "release_3gpp_version_title": "3GPP Release Version",
+        "release_europe_tips": "If you are in Europe and experiencing unstable connections, switching to Release 15 may improve compatibility.",
+        "release_restart_tips": "The device will restart after switching the version.",
+        "version_switch_device_restart_tips": "The device will restart after switching the version.",
+        "version_switch_confirm_tips": "Are you sure you want to continue?"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
