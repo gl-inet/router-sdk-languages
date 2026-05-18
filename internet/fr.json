@@ -279,7 +279,12 @@
         "name_empty_tips": "Le nom ne peut pas être vide",
         "auto_switch_tips": "Cette fonctionnalité nécessite le mode de détection non faible en données du suivi d'état de l'interface Multi-WAN. Lorsqu'elle est activée, le système basculera automatiquement vers le mode de détection correspondant et pourra générer une consommation de trafic supplémentaire.",
         "sim_registered_connection_failed_tips": "Veuillez vérifier si la carte SIM dispose de données disponibles et si les paramètres {apnBtn} sont corrects. {guide}",
-        "connection_failed_contact_support_tips": "Veuillez consulter le {guide}. Si le problème persiste, veuillez {log} et les envoyer à {addr}."
+        "connection_failed_contact_support_tips": "Veuillez consulter le {guide}. Si le problème persiste, veuillez {log} et les envoyer à {addr}.",
+        "version_3gpp": "Version 3GPP : {num}",
+        "release15_3gpp_tips": "Norme 5G de base. Offre la meilleure compatibilité avec les opérateurs mondiaux. Recommandé pour résoudre les problèmes de connectivité régionale.",
+        "release16_3gpp_tips": "Norme 5G améliorée. Convient à la plupart des environnements réseau 5G établis.",
+        "release17_3gpp_tips": "Le dernier standard 5G pris en charge par l'appareil. Permet des fonctionnalités et capacités réseau avancées. Des variations de compatibilité potentielles peuvent survenir dans certaines régions en raison des différences de déploiement des réseaux des opérateurs.",
+        "release_3gpp_version_title": "Version de publication 3GPP"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
