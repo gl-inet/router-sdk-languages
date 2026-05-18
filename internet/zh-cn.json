@@ -284,7 +284,11 @@
         "release15_3gpp_tips": "基线5G标准。提供最佳的全球运营商兼容性。建议用于排查区域连接问题。",
         "release16_3gpp_tips": "增强型5G标准。适用于大多数成熟的5G网络环境。",
         "release17_3gpp_tips": "设备支持的最新 5G 标准，可启用高级网络功能与性能。由于运营商网络部署差异，某些地区可能存在兼容性差异。",
-        "release_3gpp_version_title": "3GPP 发布版本"
+        "release_3gpp_version_title": "3GPP 发布版本",
+        "release_restart_tips": "切换版本后设备将重启。",
+        "release_europe_tips": "如果您在欧洲且遇到不稳定的连接，切换到 Release 15 可能会提高兼容性。",
+        "version_switch_device_restart_tips": "切换版本后设备将重启。",
+        "version_switch_confirm_tips": "您确定要继续吗？"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
