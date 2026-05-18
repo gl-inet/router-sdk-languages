@@ -152,7 +152,12 @@
         "name_empty_tips": "Pavadinimas negali būti tuščias",
         "auto_switch_tips": "Ši funkcija reikalauja daugiakanalio WAN sąsajos būsenos stebėjimo režimo, kuris nėra mažo duomenų kiekio aptikimo režimas. Kai įjungta, sistema automatiškai pereis į atitinkamą aptikimo režimą ir gali sukurti papildomą srauto naudojimą.",
         "sim_registered_connection_failed_tips": "Patikrinkite, ar SIM kortelė turi galimus duomenis ir ar {apnBtn} nustatymai yra teisingi. {guide}",
-        "connection_failed_contact_support_tips": "Žiūrėkite {guide}, jei problema išlieka, prašome {log} ir siųsti juos į {addr}."
+        "connection_failed_contact_support_tips": "Žiūrėkite {guide}, jei problema išlieka, prašome {log} ir siųsti juos į {addr}.",
+        "version_3gpp": "3GPP versija: {num}",
+        "release15_3gpp_tips": "Bazinis 5G tipinis. Užtikrina geriausią visuotinį operatorių suderinamumą. Rekomenduojama sprendžiant regioninio ryšio problemas.",
+        "release16_3gpp_tips": "Patobulintas 5G standartas. Tinkamas daugumai įtvirtintų 5G tinklo aplinkų.",
+        "release17_3gpp_tips": "Naujausias 5G standartas, palaikomas įrenginio. Įgalina pažangias tinklo funkcijas ir galimybes. Dėl operatorių tinklo diegimo skirtumų tam tikruose regionuose gali atsirasti suderinamumo skirtumų.",
+        "release_3gpp_version_title": "3GPP išleidimo versija"
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
