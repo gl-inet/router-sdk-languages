@@ -160,7 +160,8 @@
         "reset_mode_tips2": "Todos los ajustes actuales de AstroMesh se borrarán y los nodos de la malla se restablecerán a la configuración de fábrica.",
         "aw_pending_tips": "No se puede conectar a su Router Principal, y la red AstroMesh no está disponible actualmente. Verifique el estado de la conexión de red del Router Principal.",
         "cloud_service_not_working_tips": "El servicio en la nube no funciona correctamente, y los nodos Astro pueden no estar conectados. Por favor, verifique el estado de la conexión de red.",
-        "net_conflict_tips": "La subred LAN actual está en conflicto con la de su enrutador principal. Modifique la red LAN a otra subred."
+        "net_conflict_tips": "La subred LAN actual está en conflicto con la de su enrutador principal. Modifique la red LAN a otra subred.",
+        "node_joined_other_aw_net_tips": "{node} ya se ha añadido a tu red AstroWarp. Por favor, elimina su configuración de AstroWarp Cloud para continuar."
     },
     "menu_astromesh": "AstroMesh"
 }
