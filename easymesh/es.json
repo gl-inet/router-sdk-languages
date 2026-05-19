@@ -161,7 +161,8 @@
         "aw_pending_tips": "No se puede conectar a su Router Principal, y la red AstroMesh no está disponible actualmente. Verifique el estado de la conexión de red del Router Principal.",
         "cloud_service_not_working_tips": "El servicio en la nube no funciona correctamente, y los nodos Astro pueden no estar conectados. Por favor, verifique el estado de la conexión de red.",
         "net_conflict_tips": "La subred LAN actual está en conflicto con la de su enrutador principal. Modifique la red LAN a otra subred.",
-        "joined_other_tips": "{node} ya se ha añadido a tu red AstroWarp. Por favor, elimina su configuración de AstroWarp Cloud para continuar."
+        "joined_other_tips": "{node} ya se ha añadido a tu red AstroWarp. Por favor, elimina su configuración de AstroWarp Cloud para continuar.",
+        "disabled_5g_main_wifi_tips": "El Wi-Fi de 5 GHz está actualmente desactivado, por lo que no es posible agregar nodos mesh/astro."
     },
     "menu_astromesh": "AstroMesh"
 }
