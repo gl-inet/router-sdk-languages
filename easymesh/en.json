@@ -161,7 +161,8 @@
         "aw_pending_tips": "Cannot connect to your Main Router, and AstroMesh network is currently unavailable. Please check the Main Router's network connection status.",
         "cloud_service_not_working_tips": "The cloud service is not working well, and Astro nodes may not be connected. Please check the network connection status.",
         "net_conflict_tips": "The current LAN subnet conflicts with your Main Router's. Please modify the LAN network to another subnet.",
-        "joined_other_tips": "{node} is already added to your AstroWarp network. Please remove its settings from the AstroWarp Cloud to proceed."
+        "joined_other_tips": "{node} is already added to your AstroWarp network. Please remove its settings from the AstroWarp Cloud to proceed.",
+        "disabled_5g_main_wifi_tips": "5G Wi-Fi is currently disabled, so it is not available to add mesh/astro nodes."
     },
     "menu_astromesh": "AstroMesh"
 }
