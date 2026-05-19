@@ -161,7 +161,8 @@
         "aw_pending_tips": "メインルーターに接続できません。現在AstroMeshネットワークは利用できません。メインルーターのネットワーク接続状態をご確認ください。",
         "cloud_service_not_working_tips": "クラウドサービスが正常に動作しておらず、Astroノードが接続されていない可能性があります。ネットワーク接続状況を確認してください。",
         "net_conflict_tips": "現在のLANサブネットはメインルーターと競合しています。LANネットワークを別のサブネットに変更してください。",
-        "joined_other_tips": "{node} は既にあなたの AstroWarp ネットワークに追加されています。続行するには、AstroWarp Cloud からその設定を削除してください。"
+        "joined_other_tips": "{node} は既にあなたの AstroWarp ネットワークに追加されています。続行するには、AstroWarp Cloud からその設定を削除してください。",
+        "disabled_5g_main_wifi_tips": "5G Wi-Fiは現在無効になっていますので、メッシュ/アストロノードを追加できません。"
     },
     "menu_astromesh": "AstroMesh"
 }
