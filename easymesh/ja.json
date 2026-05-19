@@ -160,7 +160,8 @@
         "reset_mode_tips2": "現在のAstroMesh設定はすべてクリアされ、メッシュノードは工場出荷時の設定にリセットされます。",
         "aw_pending_tips": "メインルーターに接続できません。現在AstroMeshネットワークは利用できません。メインルーターのネットワーク接続状態をご確認ください。",
         "cloud_service_not_working_tips": "クラウドサービスが正常に動作しておらず、Astroノードが接続されていない可能性があります。ネットワーク接続状況を確認してください。",
-        "net_conflict_tips": "現在のLANサブネットはメインルーターと競合しています。LANネットワークを別のサブネットに変更してください。"
+        "net_conflict_tips": "現在のLANサブネットはメインルーターと競合しています。LANネットワークを別のサブネットに変更してください。",
+        "node_joined_other_aw_net_tips": "{node} は既にあなたの AstroWarp ネットワークに追加されています。続行するには、AstroWarp Cloud からその設定を削除してください。"
     },
     "menu_astromesh": "AstroMesh"
 }
