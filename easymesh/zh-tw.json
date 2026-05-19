@@ -161,7 +161,8 @@
         "aw_pending_tips": "无法连接到主路由器，AstroMesh网络当前不可用。请检查主路由器的网络连接状态。",
         "cloud_service_not_working_tips": "雲端服務運作不正常，Astro 節點可能無法連接。請檢查網路連線狀態。",
         "net_conflict_tips": "当前 LAN 子網與您的主路由器衝突。請將 LAN 網路修改為另一個子網。",
-        "joined_other_tips": "{node} 已新增至您的 AstroWarp 網路。請先從 AstroWarp Cloud 移除其設定，以繼續操作。"
+        "joined_other_tips": "{node} 已新增至您的 AstroWarp 網路。請先從 AstroWarp Cloud 移除其設定，以繼續操作。",
+        "disabled_5g_main_wifi_tips": "5G Wi-Fi 目前已停用，因此無法新增 mesh/astro 節點。"
     },
     "menu_astromesh": "AstroMesh"
 }
