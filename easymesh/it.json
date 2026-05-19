@@ -161,7 +161,8 @@
         "aw_pending_tips": "Impossibile connettersi al Router principale e la rete AstroMesh non è al momento disponibile. Verificare lo stato della connessione di rete del Router principale.",
         "cloud_service_not_working_tips": "Il servizio cloud non funziona correttamente e i nodi Astro potrebbero non essere connessi. Si prega di verificare lo stato della connessione di rete.",
         "net_conflict_tips": "La sottorete LAN corrente è in conflitto con quella del tuo router principale. Modifica la rete LAN con un'altra sottorete.",
-        "joined_other_tips": "{node} è già stato aggiunto alla tua rete AstroWarp. Rimuovi le sue impostazioni dal cloud AstroWarp per procedere."
+        "joined_other_tips": "{node} è già stato aggiunto alla tua rete AstroWarp. Rimuovi le sue impostazioni dal cloud AstroWarp per procedere.",
+        "disabled_5g_main_wifi_tips": "Il Wi-Fi 5G è attualmente disabilitato, quindi non è possibile aggiungere nodi mesh/astro."
     },
     "menu_astromesh": "AstroMesh"
 }
