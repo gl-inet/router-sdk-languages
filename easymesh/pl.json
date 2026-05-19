@@ -160,7 +160,8 @@
         "reset_mode_tips2": "Wszystkie bieżące ustawienia AstroMesh zostaną wyczyszczone, a węzły Mesh zostaną zresetowane do ustawień fabrycznych.",
         "aw_pending_tips": "Nie można połączyć się z głównym ruterem, a sieć AstroMesh jest obecnie niedostępna. Sprawdź stan połączenia sieciowego głównego rutera.",
         "cloud_service_not_working_tips": "Usługa w chmurze nie działa prawidłowo, a węzły Astro mogą nie być połączone. Sprawdź stan połączenia sieciowego.",
-        "net_conflict_tips": "Obecna podsieć LAN jest w konflikcie z podsiecią twojego głównego rutera. Zmodyfikuj sieć LAN na inną podsieć."
+        "net_conflict_tips": "Obecna podsieć LAN jest w konflikcie z podsiecią twojego głównego rutera. Zmodyfikuj sieć LAN na inną podsieć.",
+        "joined_other_tips": "{node} został już dodany do Twojej sieci AstroWarp. Aby kontynuować, usuń jego ustawienia z chmury AstroWarp."
     },
     "menu_astromesh": "AstroMesh"
 }
