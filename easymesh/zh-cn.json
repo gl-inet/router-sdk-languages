@@ -160,7 +160,8 @@
         "reset_mode_tips2": "所有当前的AstroMesh设置将被清除，Mesh节点将恢复为出厂设置。",
         "aw_pending_tips": "无法连接到主路由器，AstroMesh网络当前不可用。请检查主路由器的网络连接状态。",
         "cloud_service_not_working_tips": "云服务运行不佳，Astro节点可能无法连接。请检查网络连接状态。",
-        "net_conflict_tips": "当前局域网子网与您的主路由器冲突。请将局域网网络修改为其他子网。"
+        "net_conflict_tips": "当前局域网子网与您的主路由器冲突。请将局域网网络修改为其他子网。",
+        "node_joined_other_aw_net_tips": "{node} 已添加到您的 AstroWarp 网络。请从 AstroWarp Cloud 中删除其设置以继续。"
     },
     "menu_astromesh": "AstroMesh"
 }
