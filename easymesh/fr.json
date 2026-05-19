@@ -160,7 +160,8 @@
         "reset_mode_tips2": "Tous les paramètres actuels d'AstroMesh seront effacés, et les nœuds Mesh seront réinitialisés aux paramètres d'usine.",
         "aw_pending_tips": "Impossible de se connecter à votre routeur principal, et le réseau AstroMesh est actuellement indisponible. Veuillez vérifier l'état de la connexion réseau du routeur principal.",
         "cloud_service_not_working_tips": "Le service cloud ne fonctionne pas correctement, et les nœuds Astro peuvent ne pas être connectés. Veuillez vérifier l'état de la connexion réseau.",
-        "net_conflict_tips": "Le sous-réseau LAN actuel entre en conflit avec celui de votre routeur principal. Veuillez modifier le réseau LAN pour un autre sous-réseau."
+        "net_conflict_tips": "Le sous-réseau LAN actuel entre en conflit avec celui de votre routeur principal. Veuillez modifier le réseau LAN pour un autre sous-réseau.",
+        "joined_other_tips": "{node} est déjà ajouté à votre réseau AstroWarp. Veuillez supprimer ses paramètres depuis le cloud AstroWarp pour continuer."
     },
     "menu_astromesh": "AstroMesh"
 }
