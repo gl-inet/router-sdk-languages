@@ -290,7 +290,9 @@
         "version_switch_device_restart_tips": "L'appareil redémarrera après avoir changé de version.",
         "version_switch_confirm_tips": "Êtes-vous sûr de vouloir continuer ?",
         "net_env_incompatible_tips": "L'environnement réseau actuel peut être incompatible avec le mode de l'appareil. Veuillez passer en mode 3GPP R15 et réessayer.",
-        "rrc_segmentation_label": "Segmentation RRC"
+        "rrc_segmentation_label": "Segmentation RRC",
+        "rrc_segmentation_tips1": "Des variations potentielles de compatibilité peuvent survenir dans certaines régions en raison des différences de déploiement des réseaux des opérateurs.",
+        "rrc_segmentation_tips2": "Peut provoquer des déconnexions intermittentes ou un rejet du réseau sur des stations de base spécifiques d'opérateurs européens."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
