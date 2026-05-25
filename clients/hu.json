@@ -93,7 +93,8 @@
         "guest_label": "Vendég",
         "custom_label": "Egyéni",
         "unable_determine_target_subnet_msg": "Nem sikerült meghatározni a cél alhálózatot. Ellenőrizze a hálózati vagy IP konfigurációt.",
-        "subnet_reserved_ip_outside_range_msg": "A fenntartott IP-cím kívül esik a cél alhálózat tartományán."
+        "subnet_reserved_ip_outside_range_msg": "A fenntartott IP-cím kívül esik a cél alhálózat tartományán.",
+        "reserved_ip_cannot_be_gateway_msg": "A fenntartott IP-cím nem lehet azonos az átjáró címével."
     },
     "vpn_tunnel": {
         "mac_using_tips": "A VPN kapcsolódva van.",
