@@ -91,7 +91,8 @@
         "client_speed_limit_tips": "{name} включен, ограничение скорости клиента не работает.",
         "guest_label": "Гость",
         "custom_label": "Пользовательский",
-        "unable_determine_target_subnet_msg": "Не удалось определить целевую подсеть. Проверьте конфигурацию сети или IP."
+        "unable_determine_target_subnet_msg": "Не удалось определить целевую подсеть. Проверьте конфигурацию сети или IP.",
+        "subnet_reserved_ip_outside_range_msg": "Зарезервированный IP-адрес находится за пределами целевого диапазона подсети."
     },
     "menu_clients": "Клиенты",
     "vpn_tunnel": {
