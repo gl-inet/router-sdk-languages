@@ -93,7 +93,8 @@
         "guest_label": "Aoi",
         "custom_label": "Saincheaptha",
         "unable_determine_target_subnet_msg": "Ní féidir fo-ghréasán sprice a chinneadh. Seiceáil an líonra nó cumraíocht IP le do thoil.",
-        "subnet_reserved_ip_outside_range_msg": "Tá an seoladh IP forchoimeádta lasmuigh de raon an fho-líonra sprice."
+        "subnet_reserved_ip_outside_range_msg": "Tá an seoladh IP forchoimeádta lasmuigh de raon an fho-líonra sprice.",
+        "reserved_ip_cannot_be_gateway_msg": "Ní féidir an seoladh IP forchoimeádta a bheith mar an gcéanna le seoladh an gheata."
     },
     "vpn_tunnel": {
         "mac_using_tips": "Tá an VPN ceangailte.",
