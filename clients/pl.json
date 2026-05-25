@@ -92,7 +92,8 @@
         "guest_label": "Gość",
         "custom_label": "Niestandardowy",
         "unable_determine_target_subnet_msg": "Nie można określić docelowej podsieci. Sprawdź konfigurację sieci lub IP.",
-        "subnet_reserved_ip_outside_range_msg": "Zastrzeżony adres IP znajduje się poza zakresem docelowej podsieci."
+        "subnet_reserved_ip_outside_range_msg": "Zastrzeżony adres IP znajduje się poza zakresem docelowej podsieci.",
+        "reserved_ip_cannot_be_gateway_msg": "Zarezerwowany adres IP nie może być taki sam jak adres bramy."
     },
     "menu_clients": "KLIENCI",
     "vpn_tunnel": {
