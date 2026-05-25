@@ -93,7 +93,8 @@
         "guest_label": "게스트",
         "custom_label": "사용자 지정",
         "unable_determine_target_subnet_msg": "대상 서브넷을 확인할 수 없습니다. 네트워크 또는 IP 구성을 확인하십시오.",
-        "subnet_reserved_ip_outside_range_msg": "예약된 IP 주소가 대상 서브넷 범위를 벗어났습니다."
+        "subnet_reserved_ip_outside_range_msg": "예약된 IP 주소가 대상 서브넷 범위를 벗어났습니다.",
+        "reserved_ip_cannot_be_gateway_msg": "예약된 IP 주소는 게이트웨이 주소와 같을 수 없습니다."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN이 연결되었습니다.",
