@@ -91,7 +91,8 @@
         "client_speed_limit_tips": "{name} 已啟用，用戶端限速無法正常工作。",
         "guest_label": "訪客",
         "custom_label": "自訂",
-        "unable_determine_target_subnet_msg": "無法確定目標子網，請檢查網絡或IP配寘。"
+        "unable_determine_target_subnet_msg": "無法確定目標子網，請檢查網絡或IP配寘。",
+        "subnet_reserved_ip_outside_range_msg": "保留的IP位址超出目標子網路範圍。"
     },
     "menu_clients": "客戶端",
     "vpn_tunnel": {
