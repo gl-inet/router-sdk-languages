@@ -103,7 +103,8 @@
         "err_delete_has_bindings": "Ennek az alhálózatnak még vannak kötései. Törlés előtt telepítse át őket.",
         "err_subnet_not_found": "Alhálózat nem található.",
         "err_fixed_subnet_cannot_delete": "A rögzített alhálózatok nem törölhetők.",
-        "err_display_name_max_length": "A név legfeljebb 32 karakter hosszú lehet."
+        "err_display_name_max_length": "A név legfeljebb 32 karakter hosszú lehet.",
+        "hostname_tips": "2–63 karakter. Csak betűk, számjegyek vagy kötőjelek engedélyezettek. Betűvel vagy számjegygel kell kezdődnie és végződnie, és nem állhat kizárólag számjegyekből."
     },
     "menu_vlan": "alhálózat"
 }
