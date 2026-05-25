@@ -91,7 +91,8 @@
         "remove_all_offline_clients_confirm_tips": "목록에서 모든 클라이언트를 제거하시겠습니까? 이 작업은 클라이언트의 이름과 속도 제한 설정도 함께 제거합니다.",
         "client_speed_limit_tips": "{name}이 활성화되어 있어 클라이언트 속도 제한이 작동하지 않습니다.",
         "guest_label": "게스트",
-        "custom_label": "사용자 지정"
+        "custom_label": "사용자 지정",
+        "unable_determine_target_subnet_msg": "대상 서브넷을 확인할 수 없습니다. 네트워크 또는 IP 구성을 확인하십시오."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN이 연결되었습니다.",
