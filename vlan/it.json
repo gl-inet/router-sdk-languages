@@ -104,7 +104,8 @@
         "err_subnet_not_found": "Sottorete non trovata.",
         "err_guest_ip_conflict": "L'indirizzo della sottorete è in conflitto con la rete ospiti.",
         "err_display_name_max_length": "Il nome deve avere al massimo 32 caratteri.",
-        "hostname_tips": "2-63 caratteri. Sono consentiti solo lettere, cifre o trattini. Deve iniziare e terminare con una lettera o una cifra, e non può essere composto esclusivamente da cifre."
+        "hostname_tips": "2-63 caratteri. Sono consentiti solo lettere, cifre o trattini. Deve iniziare e terminare con una lettera o una cifra, e non può essere composto esclusivamente da cifre.",
+        "not_asscess_tips": "Attualmente {name} non può accedere ai segmenti di rete {net}."
     },
     "menu_vlan": "Sottorete"
 }
