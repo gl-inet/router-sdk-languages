@@ -103,7 +103,8 @@
         "err_subnet_not_found": "서브넷을 찾을 수 없습니다.",
         "err_guest_ip_conflict": "서브넷 주소가 게스트 네트워크와 충돌합니다.",
         "err_delete_has_bindings": "이 서브넷에 바인딩이 여전히 있습니다. 삭제하기 전에 마이그레이션하십시오.",
-        "err_display_name_max_length": "이름은 32자 이하여야 합니다."
+        "err_display_name_max_length": "이름은 32자 이하여야 합니다.",
+        "hostname_tips": "2-63자. 문자, 숫자 또는 하이픈만 허용됩니다. 문자나 숫자로 시작하고 끝나야 하며, 숫자만으로 구성될 수 없습니다."
     },
     "menu_vlan": "서브넷"
 }
