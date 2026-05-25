@@ -91,7 +91,8 @@
         "client_speed_limit_tips": "{name} yra įjungtas, Kliento greičio apribojimas neveikia.",
         "guest_label": "Svečias",
         "custom_label": "Pasirinktinės",
-        "unable_determine_target_subnet_msg": "Nepavyko nustatyti taikomojo potinklio. Patikrinkite tinklą arba IP konfigūraciją."
+        "unable_determine_target_subnet_msg": "Nepavyko nustatyti taikomojo potinklio. Patikrinkite tinklą arba IP konfigūraciją.",
+        "subnet_reserved_ip_outside_range_msg": "Rezervuotas IP adresas yra už taikomojo potinklio diapazono ribų."
     },
     "menu_clients": "Klientai",
     "vpn_tunnel": {
