@@ -91,7 +91,8 @@
         "client_speed_limit_tips": "{name} is ingeschakeld, Client Speed Limit werkt niet.",
         "guest_label": "Gast",
         "custom_label": "Aangepast",
-        "unable_determine_target_subnet_msg": "Kan het doel-subnet niet bepalen. Controleer de netwerk- of IP-configuratie."
+        "unable_determine_target_subnet_msg": "Kan het doel-subnet niet bepalen. Controleer de netwerk- of IP-configuratie.",
+        "subnet_reserved_ip_outside_range_msg": "Het gereserveerde IP-adres ligt buiten het bereik van het doel-subnet."
     },
     "menu_clients": "Apparaten",
     "vpn_tunnel": {
