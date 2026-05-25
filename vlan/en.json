@@ -104,7 +104,8 @@
         "err_fixed_subnet_cannot_delete": "Fixed subnets cannot be deleted.",
         "err_subnet_not_found": "Subnet not found.",
         "err_display_name_max_length": "Name must be 32 characters or fewer.",
-        "hostname_tips": "2-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits."
+        "hostname_tips": "2-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits.",
+        "not_asscess_tips": "Currently the {name} cannot access the network segments {net}."
     },
     "menu_vlan": "Subnet"
 }
