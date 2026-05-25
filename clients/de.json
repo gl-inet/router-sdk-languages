@@ -92,7 +92,8 @@
         "custom_label": "Benutzerdefiniert",
         "guest_label": "Gast",
         "unable_determine_target_subnet_msg": "Das Zielsubnetz konnte nicht ermittelt werden. Bitte überprüfen Sie die Netzwerk- oder IP-Konfiguration.",
-        "subnet_reserved_ip_outside_range_msg": "Die reservierte IP-Adresse liegt außerhalb des Ziel-Subnetzbereichs."
+        "subnet_reserved_ip_outside_range_msg": "Die reservierte IP-Adresse liegt außerhalb des Ziel-Subnetzbereichs.",
+        "reserved_ip_cannot_be_gateway_msg": "Die reservierte IP-Adresse darf nicht mit der Gateway-Adresse identisch sein."
     },
     "menu_clients": "Clients",
     "vpn_tunnel": {
