@@ -92,7 +92,8 @@
         "guest_label": "ゲスト",
         "custom_label": "カスタム",
         "unable_determine_target_subnet_msg": "対象サブネットを特定できません。ネットワークまたはIP設定を確認してください。",
-        "subnet_reserved_ip_outside_range_msg": "予約済みIPアドレスが対象サブネットの範囲外です。"
+        "subnet_reserved_ip_outside_range_msg": "予約済みIPアドレスが対象サブネットの範囲外です。",
+        "reserved_ip_cannot_be_gateway_msg": "予約IPアドレスはゲートウェイアドレスと同じにすることはできません。"
     },
     "menu_clients": "クライアント",
     "vpn_tunnel": {
