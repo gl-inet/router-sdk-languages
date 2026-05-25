@@ -92,7 +92,8 @@
         "client_speed_limit_tips": "{name} увімкнено, обмеження швидкості клієнта не працює.",
         "guest_label": "Гість",
         "custom_label": "Користувацький",
-        "unable_determine_target_subnet_msg": "Не вдалося визначити цільову підмережу. Перевірте налаштування мережі або IP."
+        "unable_determine_target_subnet_msg": "Не вдалося визначити цільову підмережу. Перевірте налаштування мережі або IP.",
+        "subnet_reserved_ip_outside_range_msg": "Зарезервована IP-адреса знаходиться за межами цільового діапазону підмережі."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN підключено.",
