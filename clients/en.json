@@ -92,7 +92,8 @@
         "client_speed_limit_tips": "{name} is enabled, Client Speed Limit is not working.",
         "custom_label": "Custom",
         "guest_label": "Guest",
-        "unable_determine_target_subnet_msg": "Unable to determine the target subnet. Please check the network or IP configuration."
+        "unable_determine_target_subnet_msg": "Unable to determine the target subnet. Please check the network or IP configuration.",
+        "subnet_reserved_ip_outside_range_msg": "The reserved IP address is outside the target subnet range."
     },
     "vpn_tunnel": {
         "mac_using_tips": "The VPN is connected.",
