@@ -104,7 +104,8 @@
         "err_subnet_not_found": "找不到子網路。",
         "err_guest_ip_conflict": "子網路位址與訪客網路衝突。",
         "err_display_name_max_length": "名稱必須在32個字元以內。",
-        "hostname_tips": "2-63 個字元。僅允許字母、數字或連字號。必須以字母或數字開頭和結尾，且不能僅由數字組成。"
+        "hostname_tips": "2-63 個字元。僅允許字母、數字或連字號。必須以字母或數字開頭和結尾，且不能僅由數字組成。",
+        "not_asscess_tips": "目前 {name} 無法訪問網路區段 {net}。"
     },
     "menu_vlan": "子網"
 }
