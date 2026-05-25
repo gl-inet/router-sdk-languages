@@ -91,7 +91,8 @@
         "client_speed_limit_tips": "{name} è abilitato, la limitazione della velocità del client non funziona.",
         "guest_label": "Ospite",
         "custom_label": "Personalizzato",
-        "unable_determine_target_subnet_msg": "Impossibile determinare la sottorete di destinazione. Verifica la configurazione di rete o IP."
+        "unable_determine_target_subnet_msg": "Impossibile determinare la sottorete di destinazione. Verifica la configurazione di rete o IP.",
+        "subnet_reserved_ip_outside_range_msg": "L'indirizzo IP riservato è al di fuori dell'intervallo della sottorete di destinazione."
     },
     "menu_clients": "Client",
     "vpn_tunnel": {
