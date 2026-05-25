@@ -91,7 +91,8 @@
         "client_speed_limit_tips": "{name} está habilitado, el límite de velocidad del cliente no funciona.",
         "custom_label": "Personalizado",
         "guest_label": "Invitado",
-        "unable_determine_target_subnet_msg": "No se puede determinar la subred de destino. Por favor, verifique la red o la configuración de IP."
+        "unable_determine_target_subnet_msg": "No se puede determinar la subred de destino. Por favor, verifique la red o la configuración de IP.",
+        "subnet_reserved_ip_outside_range_msg": "La dirección IP reservada está fuera del rango de la subred de destino."
     },
     "menu_clients": "Clientes",
     "vpn_tunnel": {
