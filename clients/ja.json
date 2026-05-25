@@ -90,7 +90,8 @@
         "remove_all_offline_clients_confirm_tips": "リストからすべてのクライアントを削除してもよろしいですか？この操作により、クライアント名と速度制限設定も削除されます。",
         "client_speed_limit_tips": "{name}が有効になっているため、クライアント速度制限は機能しません。",
         "guest_label": "ゲスト",
-        "custom_label": "カスタム"
+        "custom_label": "カスタム",
+        "unable_determine_target_subnet_msg": "対象サブネットを特定できません。ネットワークまたはIP設定を確認してください。"
     },
     "menu_clients": "クライアント",
     "vpn_tunnel": {
