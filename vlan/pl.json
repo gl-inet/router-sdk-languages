@@ -104,7 +104,8 @@
         "err_subnet_not_found": "Nie znaleziono podsieci.",
         "err_wan_ip_conflict": "Adres podsieci jest w konflikcie z podsiecią WAN.",
         "err_display_name_max_length": "Nazwa może mieć maksymalnie 32 znaki.",
-        "hostname_tips": "2-63 znaków. Dozwolone są tylko litery, cyfry lub myślniki. Musi zaczynać się i kończyć literą lub cyfrą i nie może składać się wyłącznie z cyfr."
+        "hostname_tips": "2-63 znaków. Dozwolone są tylko litery, cyfry lub myślniki. Musi zaczynać się i kończyć literą lub cyfrą i nie może składać się wyłącznie z cyfr.",
+        "not_asscess_tips": "Obecnie {name} nie ma dostępu do segmentów sieci {net}."
     },
     "menu_vlan": "Podsieć"
 }
