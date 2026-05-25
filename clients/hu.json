@@ -92,7 +92,8 @@
         "client_speed_limit_tips": "{name} engedélyezve van, az Ügyfél Sebességkorlát nem működik.",
         "guest_label": "Vendég",
         "custom_label": "Egyéni",
-        "unable_determine_target_subnet_msg": "Nem sikerült meghatározni a cél alhálózatot. Ellenőrizze a hálózati vagy IP konfigurációt."
+        "unable_determine_target_subnet_msg": "Nem sikerült meghatározni a cél alhálózatot. Ellenőrizze a hálózati vagy IP konfigurációt.",
+        "subnet_reserved_ip_outside_range_msg": "A fenntartott IP-cím kívül esik a cél alhálózat tartományán."
     },
     "vpn_tunnel": {
         "mac_using_tips": "A VPN kapcsolódva van.",
