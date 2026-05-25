@@ -92,7 +92,8 @@
         "client_speed_limit_tips": "{name} etkinleştirildi, İstemci Hız Sınırı çalışmıyor.",
         "guest_label": "Misafir",
         "custom_label": "Özel",
-        "unable_determine_target_subnet_msg": "Hedef alt ağ belirlenemiyor. Lütfen ağ veya IP yapılandırmasını kontrol edin."
+        "unable_determine_target_subnet_msg": "Hedef alt ağ belirlenemiyor. Lütfen ağ veya IP yapılandırmasını kontrol edin.",
+        "subnet_reserved_ip_outside_range_msg": "Ayrılmış IP adresi hedef alt ağ aralığının dışındadır."
     },
     "vpn_tunnel": {
         "mac_using_tips": "VPN bağlı.",
