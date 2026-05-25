@@ -91,7 +91,8 @@
         "client_speed_limit_tips": "{name} jest włączony, Ograniczenie Prędkości Klienta nie działa.",
         "guest_label": "Gość",
         "custom_label": "Niestandardowy",
-        "unable_determine_target_subnet_msg": "Nie można określić docelowej podsieci. Sprawdź konfigurację sieci lub IP."
+        "unable_determine_target_subnet_msg": "Nie można określić docelowej podsieci. Sprawdź konfigurację sieci lub IP.",
+        "subnet_reserved_ip_outside_range_msg": "Zastrzeżony adres IP znajduje się poza zakresem docelowej podsieci."
     },
     "menu_clients": "KLIENCI",
     "vpn_tunnel": {
