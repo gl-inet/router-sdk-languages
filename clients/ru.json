@@ -92,7 +92,8 @@
         "guest_label": "Гость",
         "custom_label": "Пользовательский",
         "unable_determine_target_subnet_msg": "Не удалось определить целевую подсеть. Проверьте конфигурацию сети или IP.",
-        "subnet_reserved_ip_outside_range_msg": "Зарезервированный IP-адрес находится за пределами целевого диапазона подсети."
+        "subnet_reserved_ip_outside_range_msg": "Зарезервированный IP-адрес находится за пределами целевого диапазона подсети.",
+        "reserved_ip_cannot_be_gateway_msg": "Зарезервированный IP-адрес не может совпадать с адресом шлюза."
     },
     "menu_clients": "Клиенты",
     "vpn_tunnel": {
