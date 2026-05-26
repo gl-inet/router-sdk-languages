@@ -73,7 +73,7 @@
         "failed_add_device_tips": "Theip ar an ngléas a chur leis",
         "make_sure_device_powered_tips": "Déan cinnte go bhfuil an gléas is mian leat a chur leis casta air agus laistigh de raon an Phríomh-Ródaire.{reScan}",
         "re_scan_btn": "Athscanadh",
-        "select_add_the_devices_tips": "",
+        "select_add_the_devices_tips": "Roghnaigh nód amháin agus cuir le do líonra AstroMesh é.",
         "pairing_code_expire_tips": "Beidh an cód péireála seo in éag i gceann {time}.",
         "screen_lokced_label": "Scáileán faoi Ghlas",
         "unlock_device_screen_tips": "Díghlasáil scáileán an ghléis le leanúint ar aghaidh.",
@@ -161,7 +161,8 @@
         "cloud_service_not_working_tips": "Níl an tseirbhís scamall ag obair i gceart, agus b'fhéidir nach bhfuil nóid Astro ceangailte. Seiceáil stádas naisc an líonra le do thoil.",
         "net_conflict_tips": "Tá coimhlint idir an fho-líonra LAN reatha agus fo-líonra do Phríomh-Ródaire. Athraigh an líonra LAN go fo-líonra eile, le do thoil.",
         "joined_other_tips": "Tá {node} curtha le do líonra AstroWarp cheana féin. Bain a chuid socruithe ó AstroWarp Cloud le leanúint ar aghaidh.",
-        "disabled_5g_main_wifi_tips": "Tá 5G Wi-Fi díchumasaithe faoi láthair, mar sin níl sé ar fáil chun nóid mesh/astro a chur leis."
+        "disabled_5g_main_wifi_tips": "Tá 5G Wi-Fi díchumasaithe faoi láthair, mar sin níl sé ar fáil chun nóid mesh/astro a chur leis.",
+        "please_enter_pairing_code_tips": "Cuir isteach an cód péireála seo i {mode}."
     },
     "menu_astromesh": "AstroMesh"
 }
