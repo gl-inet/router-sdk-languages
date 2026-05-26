@@ -79,7 +79,7 @@
         "add_device_operation_three_tips": "Um weitere Geräte hinzuzufügen, klicken Sie erneut auf {scan}.",
         "failed_add_device_tips": "Gerät konnte nicht hinzugefügt werden",
         "make_sure_device_powered_tips": "Stellen Sie sicher, dass das Gerät, das Sie hinzufügen möchten, eingeschaltet ist und sich in Reichweite des Haupt-Routers befindet.{reScan}",
-        "select_add_the_devices_tips": "",
+        "select_add_the_devices_tips": "Wählen Sie einen Knoten aus und fügen Sie ihn Ihrem AstroMesh-Netzwerk hinzu.",
         "re_scan_btn": "Erneut scannen",
         "pairing_code_title": "Pairing-Code",
         "pairing_code_expire_tips": "Dieser Pairing-Code läuft in {time} ab.",
@@ -161,7 +161,8 @@
         "cloud_service_not_working_tips": "Der Cloud-Dienst funktioniert nicht einwandfrei, und Astro-Knoten sind möglicherweise nicht verbunden. Bitte überprüfen Sie den Status der Netzwerkverbindung.",
         "net_conflict_tips": "Das aktuelle LAN-Subnetz steht im Konflikt mit dem Ihres Hauptrouters. Bitte ändern Sie das LAN-Netzwerk zu einem anderen Subnetz.",
         "joined_other_tips": "{node} wurde bereits zu Ihrem AstroWarp-Netzwerk hinzugefügt. Bitte entfernen Sie seine Einstellungen aus der AstroWarp Cloud, um fortzufahren.",
-        "disabled_5g_main_wifi_tips": "5G-WLAN ist derzeit deaktiviert, daher können keine Mesh-/Astro-Knoten hinzugefügt werden."
+        "disabled_5g_main_wifi_tips": "5G-WLAN ist derzeit deaktiviert, daher können keine Mesh-/Astro-Knoten hinzugefügt werden.",
+        "please_enter_pairing_code_tips": "Bitte geben Sie diesen Pairing-Code in {mode} ein."
     },
     "menu_astromesh": "AstroMesh"
 }
