@@ -80,7 +80,7 @@
         "failed_add_device_tips": "장치 추가 실패",
         "make_sure_device_powered_tips": "연결하려는 장치의 전원이 켜져 있고 메인 라우터의 범위 내에 있는지 확인하십시오.{reScan}",
         "re_scan_btn": "재스캔",
-        "select_add_the_devices_tips": "",
+        "select_add_the_devices_tips": "노드를 하나 선택하여 AstroMesh 네트워크에 추가하십시오.",
         "pairing_code_title": "페어링 코드",
         "pairing_code_expire_tips": "이 페어링 코드는 {time} 후에 만료됩니다.",
         "screen_lokced_label": "화면 잠김",
@@ -161,7 +161,8 @@
         "cloud_service_not_working_tips": "클라우드 서비스가 원활하게 작동하지 않아 Astro 노드가 연결되지 않을 수 있습니다. 네트워크 연결 상태를 확인하십시오.",
         "net_conflict_tips": "현재 LAN 서브넷이 메인 라우터의 서브넷과 충돌합니다. LAN 네트워크를 다른 서브넷으로 변경해 주십시오.",
         "joined_other_tips": "{node}는 이미 AstroWarp 네트워크에 추가되었습니다. 계속하려면 AstroWarp Cloud에서 해당 설정을 제거하십시오.",
-        "disabled_5g_main_wifi_tips": "5G Wi-Fi가 현재 비활성화되어 있으므로 mesh/astro 노드를 추가할 수 없습니다."
+        "disabled_5g_main_wifi_tips": "5G Wi-Fi가 현재 비활성화되어 있으므로 mesh/astro 노드를 추가할 수 없습니다.",
+        "please_enter_pairing_code_tips": "{mode}에서 이 페어링 코드를 입력하십시오."
     },
     "menu_astromesh": "AstroMesh"
 }
