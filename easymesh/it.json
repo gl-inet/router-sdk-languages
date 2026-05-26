@@ -75,7 +75,7 @@
         "failed_add_device_tips": "Impossibile aggiungere il dispositivo",
         "make_sure_device_powered_tips": "Assicurati che il dispositivo che desideri aggiungere sia acceso e nel raggio del Router Principale.{reScan}",
         "re_scan_btn": "Nuova scansione",
-        "select_add_the_devices_tips": "",
+        "select_add_the_devices_tips": "Seleziona un nodo e aggiungilo alla tua rete AstroMesh.",
         "pairing_code_expire_tips": "Questo codice di associazione scadrà tra {time}.",
         "screen_lokced_label": "Schermo Bloccato",
         "unlock_device_screen_tips": "Sblocca lo schermo del dispositivo per continuare.",
@@ -161,7 +161,8 @@
         "cloud_service_not_working_tips": "Il servizio cloud non funziona correttamente e i nodi Astro potrebbero non essere connessi. Si prega di verificare lo stato della connessione di rete.",
         "net_conflict_tips": "La sottorete LAN corrente è in conflitto con quella del tuo router principale. Modifica la rete LAN con un'altra sottorete.",
         "joined_other_tips": "{node} è già stato aggiunto alla tua rete AstroWarp. Rimuovi le sue impostazioni dal cloud AstroWarp per procedere.",
-        "disabled_5g_main_wifi_tips": "Il Wi-Fi 5G è attualmente disabilitato, quindi non è possibile aggiungere nodi mesh/astro."
+        "disabled_5g_main_wifi_tips": "Il Wi-Fi 5G è attualmente disabilitato, quindi non è possibile aggiungere nodi mesh/astro.",
+        "please_enter_pairing_code_tips": "Inserisci questo codice di accoppiamento in {mode}."
     },
     "menu_astromesh": "AstroMesh"
 }
