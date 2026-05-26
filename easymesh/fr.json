@@ -79,7 +79,7 @@
         "add_device_success_tips": "Cet appareil a été ajouté avec succès.",
         "add_device_operation_two_tips": "Le nouvel appareil peut prendre quelques instants pour apparaître dans la topologie.",
         "make_sure_device_powered_tips": "Assurez-vous que l'appareil que vous souhaitez ajouter est allumé et à portée du routeur principal.{reScan}",
-        "select_add_the_devices_tips": "",
+        "select_add_the_devices_tips": "Sélectionnez un nœud et ajoutez-le à votre réseau AstroMesh.",
         "re_scan_btn": "Nouvelle analyse",
         "pairing_code_title": "Code d'appairage",
         "pairing_code_expire_tips": "Ce code d'appairage expirera dans {time}.",
@@ -161,7 +161,8 @@
         "cloud_service_not_working_tips": "Le service cloud ne fonctionne pas correctement, et les nœuds Astro peuvent ne pas être connectés. Veuillez vérifier l'état de la connexion réseau.",
         "net_conflict_tips": "Le sous-réseau LAN actuel entre en conflit avec celui de votre routeur principal. Veuillez modifier le réseau LAN pour un autre sous-réseau.",
         "joined_other_tips": "{node} est déjà ajouté à votre réseau AstroWarp. Veuillez supprimer ses paramètres depuis le cloud AstroWarp pour continuer.",
-        "disabled_5g_main_wifi_tips": "Le Wi-Fi 5G est actuellement désactivé, il n'est donc pas possible d'ajouter des nœuds mesh/astro."
+        "disabled_5g_main_wifi_tips": "Le Wi-Fi 5G est actuellement désactivé, il n'est donc pas possible d'ajouter des nœuds mesh/astro.",
+        "please_enter_pairing_code_tips": "Veuillez saisir ce code d'appairage dans {mode}."
     },
     "menu_astromesh": "AstroMesh"
 }
