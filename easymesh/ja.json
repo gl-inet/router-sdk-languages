@@ -83,7 +83,7 @@
         "add_device_operation_three_tips": "さらにデバイスを追加するには、{scan}を再度クリックしてください。",
         "make_sure_device_powered_tips": "デバイスの電源が入っており、メインルーターの範囲内にあることを確認してください。{reScan}",
         "re_scan_btn": "再スキャン",
-        "select_add_the_devices_tips": "ノードを1つ選択し、AstroMeshネットワークに追加します。",
+        "select_add_the_devices_tips": "1つのノードを選択し、AstroMeshネットワークに追加してください。",
         "pairing_code_expire_tips": "このペアリングコードは{time}で有効期限が切れます。",
         "screen_lokced_label": "画面ロック中",
         "unlock_device_screen_tips": "デバイスの画面をロック解除して続行してください。",
@@ -161,7 +161,8 @@
         "cloud_service_not_working_tips": "クラウドサービスが正常に動作しておらず、Astroノードが接続されていない可能性があります。ネットワーク接続状況を確認してください。",
         "net_conflict_tips": "現在のLANサブネットはメインルーターと競合しています。LANネットワークを別のサブネットに変更してください。",
         "joined_other_tips": "{node} は既にあなたの AstroWarp ネットワークに追加されています。続行するには、AstroWarp Cloud からその設定を削除してください。",
-        "disabled_5g_main_wifi_tips": "5G Wi-Fiは現在無効になっていますので、メッシュ/アストロノードを追加できません。"
+        "disabled_5g_main_wifi_tips": "5G Wi-Fiは現在無効になっていますので、メッシュ/アストロノードを追加できません。",
+        "please_enter_pairing_code_tips": "このペアリングコードを{mode}に入力してください。"
     },
     "menu_astromesh": "AstroMesh"
 }
