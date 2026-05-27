@@ -163,7 +163,8 @@
         "joined_other_tips": "{node} 已添加到您的 AstroWarp 网络。请从 AstroWarp Cloud 中删除其设置以继续。",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi 当前已禁用，因此无法添加 mesh/astro 节点。",
         "please_enter_pairing_code_tips": "请在{mode}中输入此配对码。",
-        "using_pairing_code_label": "使用{mode}配对码"
+        "using_pairing_code_label": "使用{mode}配对码",
+        "astro_node_conflicts_with_feature_tips": "Astro节点与您的{feature}设置冲突。请禁用{feature}以继续，或仅使用Mesh节点模式。"
     },
     "menu_astromesh": "AstroMesh"
 }
