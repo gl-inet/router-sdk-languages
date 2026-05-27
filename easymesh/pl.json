@@ -163,7 +163,8 @@
         "joined_other_tips": "{node} został już dodany do Twojej sieci AstroWarp. Aby kontynuować, usuń jego ustawienia z chmury AstroWarp.",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi jest obecnie wyłączone, więc nie można dodać węzłów mesh/astro.",
         "please_enter_pairing_code_tips": "Proszę wprowadzić ten kod parowania w {mode}.",
-        "using_pairing_code_label": "Korzystanie z kodu parowania {mode}"
+        "using_pairing_code_label": "Korzystanie z kodu parowania {mode}",
+        "astro_node_conflicts_with_feature_tips": "Astro Node jest w konflikcie z ustawieniami {feature}. Wyłącz {feature}, aby kontynuować, lub użyj trybu tylko Mesh Node."
     },
     "menu_astromesh": "AstroMesh"
 }
