@@ -163,7 +163,8 @@
         "joined_other_tips": "{node} est déjà ajouté à votre réseau AstroWarp. Veuillez supprimer ses paramètres depuis le cloud AstroWarp pour continuer.",
         "disabled_5g_main_wifi_tips": "Le Wi-Fi 5G est actuellement désactivé, il n'est donc pas possible d'ajouter des nœuds mesh/astro.",
         "please_enter_pairing_code_tips": "Veuillez saisir ce code d'appairage dans {mode}.",
-        "using_pairing_code_label": "Utilisation du code d’appairage {mode}"
+        "using_pairing_code_label": "Utilisation du code d’appairage {mode}",
+        "astro_node_conflicts_with_feature_tips": "L'Astro Node entre en conflit avec vos paramètres {feature}. Désactivez {feature} pour continuer ou utilisez le mode Mesh Node uniquement."
     },
     "menu_astromesh": "AstroMesh"
 }
