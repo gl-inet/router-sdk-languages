@@ -163,7 +163,8 @@
         "joined_other_tips": "{node} már hozzá van adva az Ön AstroWarp hálózatához. A folytatáshoz távolítsa el a beállításait az AstroWarp felhőből.",
         "disabled_5g_main_wifi_tips": "Az 5G Wi-Fi jelenleg le van tiltva, így nem áll rendelkezésre mesh/astro csomópontok hozzáadása.",
         "please_enter_pairing_code_tips": "Kérem, adja meg ezt a párosítási kódot a {mode} módban.",
-        "using_pairing_code_label": "{mode} párosító kód használata"
+        "using_pairing_code_label": "{mode} párosító kód használata",
+        "astro_node_conflicts_with_feature_tips": "Az Astro Node ütközik a {feature} beállításokkal. A folytatáshoz tiltsa le a {feature}-t, vagy használja a csak Mesh Node módot."
     },
     "menu_astromesh": "AstroMesh"
 }
