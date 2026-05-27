@@ -163,7 +163,8 @@
         "joined_other_tips": "{node} вже додано до вашої мережі AstroWarp. Будь ласка, видаліть його налаштування з AstroWarp Cloud, щоб продовжити.",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi зараз вимкнено, тому неможливо додати mesh/astro вузли.",
         "please_enter_pairing_code_tips": "Будь ласка, введіть цей код парування в {mode}.",
-        "using_pairing_code_label": "Використання {mode} коду сполучення"
+        "using_pairing_code_label": "Використання {mode} коду сполучення",
+        "astro_node_conflicts_with_feature_tips": "Astro Node конфліктує з вашими налаштуваннями {feature}. Вимкніть {feature}, щоб продовжити, або використовуйте режим лише Mesh Node."
     },
     "menu_astromesh": "AstroMesh"
 }
