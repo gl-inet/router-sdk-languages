@@ -160,17 +160,18 @@
         "aw_pending_tips": "Ní féidir ceangal le do Phríomh-Ródaire, agus níl líonra AstroMesh ar fáil faoi láthair. Seiceáil stádas ceangail líonra an Phríomh-Ródaire le do thoil.",
         "cloud_service_not_working_tips": "Níl an tseirbhís scamall ag obair i gceart, agus b'fhéidir nach bhfuil nóid Astro ceangailte. Seiceáil stádas naisc an líonra le do thoil.",
         "net_conflict_tips": "Tá coimhlint idir an fho-líonra LAN reatha agus fo-líonra do Phríomh-Ródaire. Athraigh an líonra LAN go fo-líonra eile, le do thoil.",
-        "joined_other_tips": "Tá {node} curtha le do líonra AstroWarp cheana féin. Bain a chuid socruithe ó AstroWarp Cloud le leanúint ar aghaidh.",
-        "disabled_5g_main_wifi_tips": "Tá 5G Wi-Fi díchumasaithe faoi láthair, mar sin níl sé ar fáil chun nóid mesh/astro a chur leis.",
-        "please_enter_pairing_code_tips": "Cuir isteach an cód péireála seo i {mode}.",
-        "using_pairing_code_label": "Ag úsáid Cód Péireála {mode}",
-        "astro_node_conflicts_with_feature_tips": "Tá coinbhleacht ag an Astro Node le do shocruithe {feature}. Díchumasaigh {feature} chun leanúint ar aghaidh nó bain úsáid as mód Mesh Node amháin."
+        "joined_other_tips": "Tá {node} curtha le do líonra AstroWarp cheana féin. Bain a shocruithe as AstroWarp Cloud le dul ar aghaidh.",
+        "disabled_5g_main_wifi_tips": "Tá Wi-Fi 5G díchumasaithe faoi láthair, mar sin níl sé ar fáil nóid mogalra/réalteolaíocha a chur leis.",
+        "please_enter_pairing_code_tips": "Cuir isteach an cód péireála seo i {mode} le do thoil.",
+        "using_pairing_code_label": "Ag baint úsáide as Cód Péireála {mode}",
+        "astro_node_conflicts_with_feature_tips": "Tá coimhlint idir an Astro Node agus do shocruithe {feature}. Díchumasaigh {feature} le dul ar aghaidh nó bain úsáid as mód an Mogaill Node amháin."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
-        "astro_node_tips": "Cumasaíonn Astro Node duit ceangal le do líonra baile agus úsáid a bhaint as an bPríomh-Ródaire mar an nód éalaithe.",
-        "connect_to_astro_mesh_network_tips": "Ceangail le líonra AstroMesh chun rochtain a fháil ar do líonra baile ag am ar bith, in áit ar bith.",
-        "join_astro_mesh_network_tips": "Ceangail le do líonra AstroMesh chun ceangal le líonra an phríomh-ródaire agus tú ag taisteal."
+        "astro_node_tips": "Le Astro Node is féidir leat ceangal le do líonra baile agus an Príomh-Ródaire a úsáid mar an nód scoir.",
+        "connect_to_astro_mesh_network_tips": "Ceangail le líonra AstroMesh chun rochtain a fháil ar do líonra baile am ar bith, áit ar bith.",
+        "join_astro_mesh_network_tips": "Bí páirteach i do líonra AstroMesh chun ceangal le líonra an phríomhródaire agus tú ag taisteal.",
+        "confirm_reset_astro_node_settings_tips": "An bhfuil tú cinnte gur mian leat socruithe AstroNode a athshocrú?"
     },
     "menu_astronode": "AstroNode"
 }
