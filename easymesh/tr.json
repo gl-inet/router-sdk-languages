@@ -164,7 +164,10 @@
         "disabled_5g_main_wifi_tips": "5G Wi-Fi şu anda devre dışı, bu nedenle mesh/astro düğümleri eklemek mümkün değil.",
         "please_enter_pairing_code_tips": "Lütfen bu eşleştirme kodunu {mode} modunda girin.",
         "using_pairing_code_label": "{mode} Eşleştirme Kodunu Kullanma",
-        "astro_node_conflicts_with_feature_tips": "Astro Node, {feature} ayarlarınızla çakışıyor. Devam etmek için {feature} özelliğini devre dışı bırakın veya yalnızca Mesh Node modunu kullanın."
+        "astro_node_conflicts_with_feature_tips": "Astro Node, {feature} ayarlarınızla çakışıyor. Devam etmek için {feature} özelliğini devre dışı bırakın veya yalnızca Mesh Node modunu kullanın.",
+        "get_pairing_code_failed_msg": "Eşleştirme kodu alınamadı. Lütfen daha sonra tekrar deneyin.",
+        "get_pairing_code_failed_check_cloud_msg": "Eşleştirme kodu alınamadı. Lütfen bulut bağlantınızı kontrol edin ve daha sonra tekrar deneyin.",
+        "joined_failed_tips": "Astro, {node} üzerinde etkinleştirilemiyor. Lütfen bulut bağlantınızı kontrol edin ve daha sonra tekrar deneyin."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
