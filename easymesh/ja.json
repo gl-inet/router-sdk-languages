@@ -164,7 +164,10 @@
         "disabled_5g_main_wifi_tips": "5G Wi-Fiは現在無効になっていますので、メッシュ/アストロノードを追加できません。",
         "please_enter_pairing_code_tips": "このペアリングコードを{mode}に入力してください。",
         "using_pairing_code_label": "{mode} ペアリングコードを使用して",
-        "astro_node_conflicts_with_feature_tips": "Astro Node は {feature} 設定と競合しています。続行するには {feature} を無効にするか、Mesh Node 専用モードを使用してください。"
+        "astro_node_conflicts_with_feature_tips": "Astro Node は {feature} 設定と競合しています。続行するには {feature} を無効にするか、Mesh Node 専用モードを使用してください。",
+        "get_pairing_code_failed_msg": "ペアリングコードの取得に失敗しました。後でもう一度お試しください。",
+        "get_pairing_code_failed_check_cloud_msg": "ペアリングコードの取得に失敗しました。クラウド接続を確認して、後でもう一度お試しください。",
+        "joined_failed_tips": "{node}でAstroを有効にできません。クラウド接続を確認して、後でもう一度お試しください。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
