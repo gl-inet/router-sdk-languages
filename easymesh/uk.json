@@ -164,7 +164,10 @@
         "disabled_5g_main_wifi_tips": "5G Wi-Fi зараз вимкнено, тому неможливо додати mesh/astro вузли.",
         "please_enter_pairing_code_tips": "Будь ласка, введіть цей код парування в {mode}.",
         "using_pairing_code_label": "Використання {mode} коду сполучення",
-        "astro_node_conflicts_with_feature_tips": "Astro Node конфліктує з вашими налаштуваннями {feature}. Вимкніть {feature}, щоб продовжити, або використовуйте режим лише Mesh Node."
+        "astro_node_conflicts_with_feature_tips": "Astro Node конфліктує з вашими налаштуваннями {feature}. Вимкніть {feature}, щоб продовжити, або використовуйте режим лише Mesh Node.",
+        "get_pairing_code_failed_msg": "Не вдалося отримати код сполучення. Будь ласка, спробуйте пізніше.",
+        "get_pairing_code_failed_check_cloud_msg": "Не вдалося отримати код сполучення. Перевірте ваше хмарне з'єднання та спробуйте пізніше.",
+        "joined_failed_tips": "Неможливо увімкнути Astro на {node}. Будь ласка, перевірте ваше підключення до хмари та спробуйте пізніше."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
