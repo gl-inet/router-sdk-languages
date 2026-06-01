@@ -164,7 +164,10 @@
         "disabled_5g_main_wifi_tips": "5G Wi-Fi 目前已停用，因此無法新增 mesh/astro 節點。",
         "please_enter_pairing_code_tips": "請在{mode}中輸入此配對碼。",
         "using_pairing_code_label": "使用{mode}配對碼",
-        "astro_node_conflicts_with_feature_tips": "Astro 節點與你的 {feature} 設定衝突。請停用 {feature} 以繼續，或僅使用 Mesh 節點模式。"
+        "astro_node_conflicts_with_feature_tips": "Astro 節點與你的 {feature} 設定衝突。請停用 {feature} 以繼續，或僅使用 Mesh 節點模式。",
+        "get_pairing_code_failed_msg": "無法獲取配對碼。請稍後再試。",
+        "get_pairing_code_failed_check_cloud_msg": "獲取配對碼失敗。請檢查您的雲端連線，並於稍後重試。",
+        "joined_failed_tips": "無法在 {node} 上啟用 Astro。請檢查您的雲端連線，然後稍後再試。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
