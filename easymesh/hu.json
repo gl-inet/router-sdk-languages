@@ -164,7 +164,10 @@
         "disabled_5g_main_wifi_tips": "Az 5G Wi-Fi jelenleg le van tiltva, így nem áll rendelkezésre mesh/astro csomópontok hozzáadása.",
         "please_enter_pairing_code_tips": "Kérem, adja meg ezt a párosítási kódot a {mode} módban.",
         "using_pairing_code_label": "{mode} párosító kód használata",
-        "astro_node_conflicts_with_feature_tips": "Az Astro Node ütközik a {feature} beállításokkal. A folytatáshoz tiltsa le a {feature}-t, vagy használja a csak Mesh Node módot."
+        "astro_node_conflicts_with_feature_tips": "Az Astro Node ütközik a {feature} beállításokkal. A folytatáshoz tiltsa le a {feature}-t, vagy használja a csak Mesh Node módot.",
+        "get_pairing_code_failed_msg": "Nem sikerült lekérni a párosítási kódot. Kérjük, próbálja újra később.",
+        "get_pairing_code_failed_check_cloud_msg": "Nem sikerült lekérni a párosítási kódot. Ellenőrizze a felhőkapcsolatot, és próbálkozzon később újra.",
+        "joined_failed_tips": "Nem sikerült engedélyezni az Astro-t a {node} csomóponton. Ellenőrizze felhőkapcsolatát, és próbálja újra később."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
