@@ -164,7 +164,10 @@
         "disabled_5g_main_wifi_tips": "5G-WLAN ist derzeit deaktiviert, daher können keine Mesh-/Astro-Knoten hinzugefügt werden.",
         "please_enter_pairing_code_tips": "Bitte geben Sie diesen Pairing-Code in {mode} ein.",
         "using_pairing_code_label": "Mit {mode}-Pairing-Code verwenden",
-        "astro_node_conflicts_with_feature_tips": "Der Astro Node steht in Konflikt mit Ihren {feature}-Einstellungen. Deaktivieren Sie {feature}, um fortzufahren, oder verwenden Sie den Nur-Mesh-Node-Modus."
+        "astro_node_conflicts_with_feature_tips": "Der Astro Node steht in Konflikt mit Ihren {feature}-Einstellungen. Deaktivieren Sie {feature}, um fortzufahren, oder verwenden Sie den Nur-Mesh-Node-Modus.",
+        "get_pairing_code_failed_msg": "Fehler beim Abrufen des Pairing-Codes. Bitte versuchen Sie es später erneut.",
+        "get_pairing_code_failed_check_cloud_msg": "Fehler beim Abrufen des Pairing-Codes. Bitte überprüfen Sie Ihre Cloud-Verbindung und versuchen Sie es später erneut.",
+        "joined_failed_tips": "Astro auf {node} konnte nicht aktiviert werden. Bitte überprüfen Sie Ihre Cloud-Verbindung und versuchen Sie es später erneut."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
