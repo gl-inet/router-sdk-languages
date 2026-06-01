@@ -164,7 +164,10 @@
         "disabled_5g_main_wifi_tips": "5G Wi-Fi jest obecnie wyłączone, więc nie można dodać węzłów mesh/astro.",
         "please_enter_pairing_code_tips": "Proszę wprowadzić ten kod parowania w {mode}.",
         "using_pairing_code_label": "Korzystanie z Kodu Parowania {mode}",
-        "astro_node_conflicts_with_feature_tips": "Astro Node jest w konflikcie z ustawieniami {feature}. Wyłącz {feature}, aby kontynuować, lub użyj trybu tylko Mesh Node."
+        "astro_node_conflicts_with_feature_tips": "Astro Node jest w konflikcie z ustawieniami {feature}. Wyłącz {feature}, aby kontynuować, lub użyj trybu tylko Mesh Node.",
+        "get_pairing_code_failed_msg": "Nie udało się uzyskać kodu parowania. Spróbuj ponownie później.",
+        "get_pairing_code_failed_check_cloud_msg": "Nie udało się uzyskać kodu parowania. Sprawdź swoje połączenie z chmurą i spróbuj ponownie później.",
+        "joined_failed_tips": "Nie można włączyć Astro na {node}. Sprawdź swoje połączenie chmurowe i spróbuj ponownie później."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
