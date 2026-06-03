@@ -467,7 +467,13 @@
         "group_auth_conflict_with_users_msg": "conflicto de autenticación entre el grupo y el usuario",
         "connect_server_fail_msg": "Error al obtener información del servidor del proveedor",
         "network_abnormal_msg": "La Red puede estar experimentando problemas",
-        "api_limit_triggered_msg": "Operación frecuente, por favor inténtelo de nuevo más tarde."
+        "api_limit_triggered_msg": "Operación frecuente, por favor inténtelo de nuevo más tarde.",
+        "expressvpn_network_msg": "La red o el servicio upstream no está disponible. Inténtelo de nuevo más tarde.",
+        "expressvpn_login_expired_msg": "La sesión de inicio de sesión ha expirado. Inténtalo de nuevo.",
+        "expressvpn_no_subscription_msg": "No se encontró una suscripción activa de ExpressVPN para esta cuenta.",
+        "expressvpn_device_config_msg": "Falta la configuración del dispositivo. Póngase en contacto con el soporte.",
+        "expressvpn_business_msg": "La solicitud de ExpressVPN fue rechazada. Verifique el estado de la cuenta o del dispositivo.",
+        "expressvpn_internal_msg": "Error del servicio ExpressVPN. Inténtelo de nuevo más tarde."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Agregue el cliente a la lista de túneles basada en políticas VPN. Si desea realizar cambios más detallados en los túneles, vaya a la {page} para gestionar los túneles.",
