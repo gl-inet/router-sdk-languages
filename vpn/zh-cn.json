@@ -467,7 +467,13 @@
         "vpn_client_connect_fail_msg": "VPN客户端连接服务器失败",
         "connect_server_fail_msg": "从供应商服务器获取信息失败",
         "network_abnormal_msg": "网络可能异常",
-        "api_limit_triggered_msg": "操作频繁，请稍后再试。"
+        "api_limit_triggered_msg": "操作频繁，请稍后再试。",
+        "expressvpn_network_msg": "网络或上游服务不可用。请稍后重试。",
+        "expressvpn_login_expired_msg": "登录会话已过期，请重试。",
+        "expressvpn_no_subscription_msg": "此账户未找到有效的ExpressVPN订阅。",
+        "expressvpn_business_msg": "ExpressVPN请求被拒绝。请检查账户或设备状态。",
+        "expressvpn_device_config_msg": "设备配置缺失。请联系支持。",
+        "expressvpn_internal_msg": "ExpressVPN服务错误。请稍后重试。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "将客户端添加到VPN策略基础的隧道列表中。如果您想对隧道进行更详细的更改，请前往{page}管理隧道。",
