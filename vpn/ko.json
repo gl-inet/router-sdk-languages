@@ -467,7 +467,13 @@
         "invalid_username_msg": "사용자 이름은 문자와 숫자만 포함할 수 있습니다",
         "register_account_fail_msg": "새 계정 등록에 실패했습니다",
         "network_abnormal_msg": "네트워크가 비정상적일 수 있습니다",
-        "api_limit_triggered_msg": "잦은 요청입니다. 나중에 다시 시도해 주세요."
+        "api_limit_triggered_msg": "잦은 요청입니다. 나중에 다시 시도해 주세요.",
+        "expressvpn_network_msg": "네트워크 또는 업스트림 서비스를 사용할 수 없습니다. 나중에 다시 시도하십시오.",
+        "expressvpn_device_config_msg": "장치 구성이 누락되었습니다. 지원팀에 문의하십시오.",
+        "expressvpn_login_expired_msg": "로그인 세션이 만료되었습니다. 다시 시도하십시오.",
+        "expressvpn_no_subscription_msg": "이 계정에 대한 활성 ExpressVPN 구독을 찾을 수 없습니다.",
+        "expressvpn_business_msg": "ExpressVPN 요청이 거부되었습니다. 계정 또는 장치 상태를 확인하십시오.",
+        "expressvpn_internal_msg": "ExpressVPN 서비스 오류가 발생했습니다. 나중에 다시 시도하십시오."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN 정책 기반 터널 목록에 클라이언트를 추가하십시오. 터널에 대한 더 자세한 변경을 하고 싶다면 {page}로 이동하여 터널을 관리하십시오.",
