@@ -467,7 +467,13 @@
         "invalid_ip_addr_msg": "無効なIPアドレスです",
         "password_too_short_msg": "パスワードは少なくとも8文字でなければなりません",
         "network_abnormal_msg": "ネットワークに異常があるかもしれません",
-        "api_limit_triggered_msg": "頻繁な操作のため、後ほど再度お試しください。"
+        "api_limit_triggered_msg": "頻繁な操作のため、後ほど再度お試しください。",
+        "expressvpn_network_msg": "ネットワークまたは上流サービスが利用できません。後でもう一度お試しください。",
+        "expressvpn_login_expired_msg": "ログインセッションが期限切れになりました。もう一度お試しください。",
+        "expressvpn_business_msg": "ExpressVPNリクエストが拒否されました。アカウントまたはデバイスの状態をご確認ください。",
+        "expressvpn_device_config_msg": "デバイス設定が見つかりません。サポートにお問い合わせください。",
+        "expressvpn_no_subscription_msg": "このアカウントにアクティブなExpressVPNのサブスクリプションが見つかりませんでした。",
+        "expressvpn_internal_msg": "ExpressVPNサービスエラーが発生しました。後でもう一度お試しください。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPNポリシーに基づいたトンネルリストにクライアントを追加してください。トンネルに対してより詳細な変更を行いたい場合は、{page}にアクセスしてトンネルを管理してください。",
