@@ -394,8 +394,8 @@
         "expressvpn_custom_redeemed_prompt_desc": "本路由器的免费12个月套餐已兑换并添加至ExpressVPN账户。",
         "expressvpn_custom_redeemed_login_desc": "恭喜！您已成功领取12个月套餐。请登录您的账户。登录后，您即可在路由器上使用所有服务。",
         "expressvpn_custom_redeemed_already_title": "12个月高级套餐已兑换",
-        "expressvpn_custom_redeemed_claimed_time": "领取时间",
-        "expressvpn_custom_redeemed_action_desc": "登录ExpressVPN以继续管理此路由器上的VPN。",
+        "expressvpn_custom_redeemed_claimed_time": "绑定时间",
+        "expressvpn_custom_redeemed_action_desc": "使用绑定账户登录以保持订阅有效，或使用其他 ExpressVPN 账户继续管理此路由器上的 VPN。",
         "expressvpn_custom_redeemed_login_btn": "登录 ExpressVPN",
         "expressvpn_custom_redeemed_login_tip": "将打开一个新标签页，跳转至ExpressVPN的安全登录页面。",
         "expressvpn_custom_dashboard_active": "服务已激活，正在保护您的网络。",
@@ -426,8 +426,10 @@
         "expressvpn_custom_login_failed": "登录失败，请重试。",
         "expressvpn_custom_srt_failed": "获取订阅令牌失败，请确认您的账户有有效订阅。",
         "expressvpn_custom_dashboard_redeemed_desc": "由 {account} 于 {date} 兑换。该 12 个月套餐已添加到兑换此路由器兑换额度的 ExpressVPN 账户中。此路由器的兑换额度现已使用——在此路由器上登录的任何 ExpressVPN 账户将继续使用其自身的现有订阅。",
-        "expressvpn_custom_redeemed_claimed_by": "领取人",
-        "expressvpn_custom_dashboard_desc": "您已在此路由器上登录ExpressVPN。打开ExpressVPN仪表盘以添加隧道、设置路由策略并选择可用服务器位置。"
+        "expressvpn_custom_redeemed_claimed_by": "绑定账户",
+        "expressvpn_custom_dashboard_desc": "您已在此路由器上登录 ExpressVPN。 打开 ExpressVPN 仪表盘以添加隧道、设置路由策略，并从可用服务器位置中选择。",
+        "expressvpn_custom_dashboard_desc_line1": "您已在此路由器上登录 ExpressVPN。",
+        "expressvpn_custom_dashboard_desc_line2": "打开 ExpressVPN 仪表盘以添加隧道、设置路由策略，并从可用服务器位置中选择。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",

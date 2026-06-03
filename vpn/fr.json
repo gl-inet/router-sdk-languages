@@ -379,9 +379,9 @@
         "expressvpn_custom_redeemed_prompt_title": "Connexion",
         "expressvpn_custom_redeemed_prompt_desc": "Le plan gratuit de 12 mois de ce routeur a été utilisé et ajouté à un compte ExpressVPN.",
         "expressvpn_custom_redeemed_already_title": "Plan Premium de 12 mois déjà utilisé",
-        "expressvpn_custom_redeemed_claimed_by": "Réclamé par",
-        "expressvpn_custom_redeemed_claimed_time": "Date de réclamation",
-        "expressvpn_custom_redeemed_action_desc": "Connectez-vous à ExpressVPN pour continuer à gérer le VPN sur ce routeur.",
+        "expressvpn_custom_redeemed_claimed_by": "Compte lié",
+        "expressvpn_custom_redeemed_claimed_time": "Heure de liaison",
+        "expressvpn_custom_redeemed_action_desc": "Connectez-vous avec le compte lié pour garder votre abonnement actif, ou utilisez un autre compte ExpressVPN pour continuer à gérer le VPN sur ce routeur.",
         "expressvpn_custom_redeemed_login_btn": "Connectez-vous à ExpressVPN",
         "expressvpn_custom_redeemed_login_tip": "Un nouvel onglet s'ouvrira vers la page de connexion sécurisée d'ExpressVPN.",
         "expressvpn_custom_dashboard_active": "Actif et protégeant votre réseau.",
@@ -427,7 +427,9 @@
         "expressvpn_custom_success_note": "Votre routeur GL.iNet inclut un forfait ExpressVPN gratuit de 12 mois.",
         "expressvpn_custom_redeemed_login_desc": "Félicitations ! Vous avez bien réclamé le plan de 12 mois. Veuillez vous connecter à votre compte. Après connexion, vous pourrez utiliser tous les services sur votre routeur.",
         "expressvpn_custom_expiration_label": "Date d'expiration",
-        "expressvpn_custom_trial_available": "Licence valide"
+        "expressvpn_custom_trial_available": "Licence valide",
+        "expressvpn_custom_dashboard_desc_line1": "Vous êtes connecté à ExpressVPN sur ce routeur.",
+        "expressvpn_custom_dashboard_desc_line2": "Ouvrez le tableau de bord ExpressVPN pour ajouter des tunnels, définir des politiques de routage et choisir parmi les emplacements de serveurs disponibles."
     },
     "menu_wgserver": "Serveur Wireguard",
     "menu_ovpnserver": "Serveur OpenVPN",
