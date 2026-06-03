@@ -467,7 +467,13 @@
         "invalid_login_info_msg": "nieprawidłowe informacje logowania",
         "port_be_used_msg": "port jest już zajęty",
         "network_abnormal_msg": "Sieć może być niestabilna",
-        "api_limit_triggered_msg": "Częste operacje, proszę spróbować ponownie później."
+        "api_limit_triggered_msg": "Częste operacje, proszę spróbować ponownie później.",
+        "expressvpn_network_msg": "Sieć lub usługa nadrzędna jest niedostępna. Spróbuj ponownie później.",
+        "expressvpn_device_config_msg": "Brak konfiguracji urządzenia. Skontaktuj się z pomocą techniczną.",
+        "expressvpn_login_expired_msg": "Sesja logowania wygasła. Spróbuj ponownie.",
+        "expressvpn_no_subscription_msg": "Nie znaleziono aktywnej subskrypcji ExpressVPN dla tego konta.",
+        "expressvpn_business_msg": "Żądanie ExpressVPN zostało odrzucone. Sprawdź stan konta lub urządzenia.",
+        "expressvpn_internal_msg": "Błąd usługi ExpressVPN. Spróbuj ponownie później."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Dodaj klienta do listy tuneli zasad polityki VPN. Jeśli chcesz dokonać bardziej szczegółowych zmian w tunelach, przejdź do {page}, aby zarządzać tunelami.",
