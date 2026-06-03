@@ -467,7 +467,13 @@
         "get_provider_token_fail_msg": "獲取第三方提供商令牌失敗",
         "connect_server_fail_msg": "從供應商服務器獲取信息失敗",
         "network_abnormal_msg": "網路可能異常",
-        "api_limit_triggered_msg": "操作頻繁，請稍後再嘗試。"
+        "api_limit_triggered_msg": "操作頻繁，請稍後再嘗試。",
+        "expressvpn_network_msg": "網路或上游服務不可用，請稍後再試。",
+        "expressvpn_device_config_msg": "設備配置缺失，請聯繫支援團隊。",
+        "expressvpn_login_expired_msg": "登入工作階段已過期，請再試一次。",
+        "expressvpn_no_subscription_msg": "此帳戶未找到有效的 ExpressVPN 訂閱。",
+        "expressvpn_business_msg": "ExpressVPN 請求被拒絕，請檢查帳戶或設備狀態。",
+        "expressvpn_internal_msg": "ExpressVPN 服務錯誤，請稍後再試。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "使用 VPN 隧道",
