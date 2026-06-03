@@ -467,7 +467,13 @@
         "invalid_username_msg": "de gebruikersnaam mag alleen letters en cijfers bevatten",
         "register_account_fail_msg": "registratie van nieuw account mislukt",
         "network_abnormal_msg": "Het netwerk kan abnormaal zijn",
-        "api_limit_triggered_msg": "Frequente bediening, probeer het later opnieuw."
+        "api_limit_triggered_msg": "Frequente bediening, probeer het later opnieuw.",
+        "expressvpn_network_msg": "Netwerk of upstream-service is niet beschikbaar. Probeer het later opnieuw.",
+        "expressvpn_login_expired_msg": "Aanmeldingssessie is verlopen. Probeer het opnieuw.",
+        "expressvpn_business_msg": "ExpressVPN-verzoek is afgewezen. Controleer de account- of apparaatstatus.",
+        "expressvpn_internal_msg": "ExpressVPN-servicefout. Probeer het later opnieuw.",
+        "expressvpn_device_config_msg": "Apparaatconfiguratie ontbreekt. Neem contact op met de ondersteuning.",
+        "expressvpn_no_subscription_msg": "Er is geen actief ExpressVPN-abonnement gevonden voor dit account."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Gebruik VPN-tunnel",
