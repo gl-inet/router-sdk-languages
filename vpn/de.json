@@ -467,7 +467,13 @@
         "download_conf_fail_msg": "Konfigurationsdatei konnte nicht heruntergeladen werden",
         "invalid_username_msg": "Der Benutzername darf nur Buchstaben und Zahlen enthalten",
         "network_abnormal_msg": "Das Netzwerk könnte ungewöhnlich sein.",
-        "api_limit_triggered_msg": "Häufige Operation, bitte versuchen Sie es später noch einmal."
+        "api_limit_triggered_msg": "Häufige Operation, bitte versuchen Sie es später noch einmal.",
+        "expressvpn_network_msg": "Das Netzwerk oder der vorgelagerte Dienst ist nicht verfügbar. Bitte versuchen Sie es später erneut.",
+        "expressvpn_device_config_msg": "Gerätekonfiguration fehlt. Bitte kontaktieren Sie den Support.",
+        "expressvpn_login_expired_msg": "Die Anmeldesitzung ist abgelaufen. Bitte versuchen Sie es erneut.",
+        "expressvpn_no_subscription_msg": "Für dieses Konto wurde kein aktives ExpressVPN-Abonnement gefunden.",
+        "expressvpn_business_msg": "ExpressVPN-Anfrage wurde abgelehnt. Bitte überprüfen Sie den Kontostatus oder den Gerätestatus.",
+        "expressvpn_internal_msg": "ExpressVPN-Dienstfehler. Bitte versuchen Sie es später erneut."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Verwenden Sie den VPN-Tunnel",
