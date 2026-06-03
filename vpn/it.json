@@ -467,7 +467,13 @@
         "password_too_short_msg": "la password deve essere lunga almeno 8 caratteri",
         "register_account_fail_msg": "registrazione del nuovo account fallita",
         "network_abnormal_msg": "La rete potrebbe essere anormale",
-        "api_limit_triggered_msg": "Operazione frequente, si prega di riprovare più tardi."
+        "api_limit_triggered_msg": "Operazione frequente, si prega di riprovare più tardi.",
+        "expressvpn_network_msg": "Rete o servizio upstream non disponibile. Riprova più tardi.",
+        "expressvpn_device_config_msg": "Configurazione del dispositivo mancante. Contatta l'assistenza.",
+        "expressvpn_login_expired_msg": "La sessione di accesso è scaduta. Riprova.",
+        "expressvpn_no_subscription_msg": "Nessun abbonamento ExpressVPN attivo trovato per questo account.",
+        "expressvpn_business_msg": "Richiesta ExpressVPN respinta. Controlla lo stato dell'account o del dispositivo.",
+        "expressvpn_internal_msg": "Errore del servizio ExpressVPN. Riprova più tardi."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Aggiungi il client all'elenco dei tunnel basati sulla politica VPN. Se desideri apportare modifiche più dettagliate ai tunnel, vai alla {page} per gestire i tunnel.",
