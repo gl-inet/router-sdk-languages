@@ -467,7 +467,13 @@
         "download_conf_fail_msg": "échec du téléchargement du fichier de configuration",
         "password_too_short_msg": "le mot de passe doit comporter au moins 8 caractères",
         "network_abnormal_msg": "Le réseau peut être anormal",
-        "api_limit_triggered_msg": "Opération fréquente, veuillez réessayer plus tard."
+        "api_limit_triggered_msg": "Opération fréquente, veuillez réessayer plus tard.",
+        "expressvpn_network_msg": "Le réseau ou le service en amont est indisponible. Veuillez réessayer plus tard.",
+        "expressvpn_device_config_msg": "La configuration de l'appareil est manquante. Veuillez contacter le support.",
+        "expressvpn_login_expired_msg": "La session de connexion a expiré. Veuillez réessayer.",
+        "expressvpn_business_msg": "La demande ExpressVPN a été rejetée. Veuillez vérifier l'état du compte ou de l'appareil.",
+        "expressvpn_internal_msg": "Erreur du service ExpressVPN. Veuillez réessayer plus tard.",
+        "expressvpn_no_subscription_msg": "Aucun abonnement ExpressVPN actif n'a été trouvé pour ce compte."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Ajoutez un client à la liste des tunnels basés sur la politique VPN. Si vous souhaitez apporter des modifications plus détaillées aux tunnels, veuillez vous rendre sur la {page} pour gérer les tunnels.",
