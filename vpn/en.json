@@ -467,7 +467,13 @@
         "vpn_client_connect_fail_msg": "vpn client failed to connect to server",
         "connect_server_fail_msg": "get information from provider server failed",
         "network_abnormal_msg": "Network may be abnormal",
-        "api_limit_triggered_msg": "Frequent operation, please try again later."
+        "api_limit_triggered_msg": "Frequent operation, please try again later.",
+        "expressvpn_network_msg": "Network or upstream service is unavailable. Please try again later.",
+        "expressvpn_device_config_msg": "Device configuration is missing. Please contact support.",
+        "expressvpn_login_expired_msg": "Login session has expired. Please try again.",
+        "expressvpn_no_subscription_msg": "No active ExpressVPN subscription was found for this account.",
+        "expressvpn_business_msg": "ExpressVPN request was rejected. Please check the account or device status.",
+        "expressvpn_internal_msg": "ExpressVPN service error. Please try again later."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Use VPN Tunnel",
