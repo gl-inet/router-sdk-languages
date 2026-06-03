@@ -472,7 +472,13 @@
         "client_if_conflict_msg": "tá cliant vpn eile ag rith",
         "network_abnormal_msg": "D’fhéadfadh an líonra a bheith neamhghnách",
         "get_local_ipv6_net_fail_msg": "theip ar sheoladh IPv6 áitiúil a fháil",
-        "api_limit_triggered_msg": "Oibríocht mhinic, déan iarracht arís níos déanaí le do thoil."
+        "api_limit_triggered_msg": "Oibríocht mhinic, déan iarracht arís níos déanaí le do thoil.",
+        "expressvpn_network_msg": "Níl an líonra nó an tseirbhís uachtarach ar fáil. Bain triail eile as ar ball.",
+        "expressvpn_login_expired_msg": "Tá an seisiún logála imithe in éag. Bain triail eile as.",
+        "expressvpn_no_subscription_msg": "Ní bhfuarthas aon síntiús gníomhach ExpressVPN don chuntas seo.",
+        "expressvpn_business_msg": "Diúltaíodh d’iarraidh ExpressVPN. Seiceáil stádas an chuntais nó an fheiste.",
+        "expressvpn_device_config_msg": "Tá cumraíocht an fheiste ar iarraidh. Déan teagmháil le tacaíocht.",
+        "expressvpn_internal_msg": "Earráid sheirbhíse ExpressVPN. Bain triail eile as ar ball."
     },
     "vpn_tunnel": {
         "not_applicale_add_mac_label": "Ní Infheidhme",
