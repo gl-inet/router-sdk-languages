@@ -462,7 +462,13 @@
         "register_account_fail_msg": "Yeni hesap kaydı başarısız",
         "connect_server_fail_msg": "Sağlayıcı sunucudan bilgi alınamadı",
         "network_abnormal_msg": "Ağ anormal olabilir",
-        "api_limit_triggered_msg": "Sık işlem, lütfen daha sonra tekrar deneyin."
+        "api_limit_triggered_msg": "Sık işlem, lütfen daha sonra tekrar deneyin.",
+        "expressvpn_network_msg": "Ağ veya yukarı akış hizmeti kullanılamıyor. Lütfen daha sonra tekrar deneyin.",
+        "expressvpn_device_config_msg": "Cihaz yapılandırması eksik. Lütfen destek ile iletişime geçin.",
+        "expressvpn_login_expired_msg": "Oturum süresi doldu. Lütfen tekrar deneyin.",
+        "expressvpn_no_subscription_msg": "Bu hesap için aktif bir ExpressVPN aboneliği bulunamadı.",
+        "expressvpn_business_msg": "ExpressVPN isteği reddedildi. Lütfen hesap veya cihaz durumunu kontrol edin.",
+        "expressvpn_internal_msg": "ExpressVPN hizmet hatası. Lütfen daha sonra tekrar deneyin."
     },
     "vpn_tunnel": {
         "select_config_tip_label": "Lütfen bir yapılandırma dosyası seçin",
