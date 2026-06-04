@@ -166,7 +166,8 @@
         "astro_node_conflicts_with_feature_tips": "Astro Node jest w konflikcie z ustawieniami {feature}. Wyłącz {feature}, aby kontynuować, lub użyj trybu tylko Mesh Node.",
         "get_pairing_code_failed_msg": "Nie udało się uzyskać kodu parowania. Spróbuj ponownie później.",
         "get_pairing_code_failed_check_cloud_msg": "Nie udało się uzyskać kodu parowania. Sprawdź swoje połączenie z chmurą i spróbuj ponownie później.",
-        "joined_failed_tips": "Nie można włączyć Astro na {node}. Sprawdź swoje połączenie chmurowe i spróbuj ponownie później."
+        "joined_failed_tips": "Nie można włączyć Astro na {node}. Sprawdź swoje połączenie chmurowe i spróbuj ponownie później.",
+        "enabled_astrowrap_tips": "AstroWrap jest obecnie aktywny, co koliduje z {feature}. Aby kontynuować, zresetuj sieć AstroWrap."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
