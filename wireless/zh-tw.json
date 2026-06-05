@@ -9,7 +9,7 @@
         "channel": "信道",
         "tx_power": "發射功率",
         "shown": "顯示",
-        "hidden": "隐藏",
+        "hidden": "隱藏",
         "max": "最大",
         "high": "高",
         "medium": "中",
@@ -38,13 +38,13 @@
         "open_wifi_security_tips": "\"開放WiFi\"存在安全風險，請謹慎使用。",
         "guest_wifi_unavailable_tips": "訪客 Wi-Fi 不可用，因為{repeater}已啟用。",
         "cannot_detect_6g_network_tips": "部分設備可能無法識別 6GHz Wi-Fi，建議同時開啟 2.4GHz 和 6GHz 以提升相容性。",
-        "wifi_band": "Wi-Fi 频段",
+        "wifi_band": "Wi-Fi 頻段",
         "repeater_band_conflict_tips": "與中繼網絡衝突的頻段會被禁用。",
         "using_band": "使用 {band}",
         "wifi_sleep_tips": "Wi-Fi 當前處於休眠狀態，網絡不可見，您可以前往{management}關閉 Wi-Fi 休眠去喚醒它。",
         "wifi_band_mutex_tips": "Wi-Fi 默認啟用 5GHz 頻段，如檢測到與中繼網絡衝突，頻段將會自動切換至{auto}。",
         "usage_environment_title": "使用環境",
-        "indoor_label": "室内",
+        "indoor_label": "室內",
         "outdoor_label": "戶外",
         "environment_tips": "根據規定，在戶外使用Wi-Fi時必須切換至「戶外」模式，此操作可能導致覆蓋範圍縮小。",
         "guest_6g_bandwidth_limit_160mhz_tips": "當 6GHz 主網絡與訪客網絡同時開啟時，該 6GHz 頻段的最大頻寬將被限制為 160MHz。",
@@ -62,7 +62,7 @@
         "band_6g_bandwidth_limit_160mhz_tips": "6GHz Wi-Fi最高支持160MHz頻寬。",
         "lan_iot_conflict_tips": "為了避免 {lan} 與 {iot} 衝突，IoT Wi-Fi 無法啟動。",
         "enable_random_bssid_tips": "此操作將在所有 6GHz 頻段上同步隨機 BSSID 設置，Wi-Fi將重新啟動以應用這些變更。",
-        "use_environment_tips": "根据法规要求，在户外使用时，Wi-Fi 必须切换至“户外”模式。在此模式下，6GHz Wi-Fi 将不可用。"
+        "use_environment_tips": "根據法規要求，在戶外使用時，Wi-Fi 必須切換至“戶外”模式。在此模式下，6GHz Wi-Fi 將不可用。"
     },
     "menu_wireless": "無線"
 }

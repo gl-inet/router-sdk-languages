@@ -125,7 +125,7 @@
         "notice_title": "通知",
         "use_weak_disabled_ssh_tips": "使用弱密碼將禁用SSH與串行輸入功能。",
         "important_note": "重要",
-        "export_btn": "导出",
+        "export_btn": "導出",
         "example_label": "例如 {content}",
         "share": "分享",
         "note_tag": "注意：",
@@ -186,7 +186,7 @@
         "ttl_tips": "TTL（Time To Live）設置了數據包在網路中生存的最大時間，根據運營商要求進行填寫。",
         "mac_addr_label": "MAC 地址",
         "mac_real_label": "出廠",
-        "mac_format_tips": "第一個字節的最低位不允許設置爲 1（即第二個十六進制數字不允許爲奇數）。",
+        "mac_format_tips": "第一個字節的最低位不允許設置爲 1（即第二個十六進製數字不允許爲奇數）。",
         "mtu_general_tips": "如果您設置了高於或低於設備支持範圍的數值，設備會使用支持的最大或最小值。",
         "mtu_ipv6_warning_tips": "MTU 低於 1280 時 IPv6 無法工作。",
         "illegal_subnet_tips": "不合規的子網，最後三位比特必須爲 0。",
@@ -227,14 +227,14 @@
         "quarter": "季度",
         "year": "{count} 年 | {count} 年",
         "day_var": "第{count}天",
-        "week": "{count} 周| {count} 周",
+        "week": "{count} 週| {count} 週",
         "month_list": "一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月",
         "am": "上午",
         "pm": "下午",
         "weekend": "週末",
         "weekdays": "平日",
         "every_day": "每天",
-        "hour_system": "{label} 小時制"
+        "hour_system": "{label} 小時製"
     },
     "upload": {
         "select_or_drag": "選擇一個文件上傳或將文件拖到此處",
@@ -258,14 +258,14 @@
         "usb_power_limit_tips": "(請確保使用 {power}以上電源)",
         "current_time_label": "目前時間",
         "enable_conflict_warning": "{self} 不可用，因為 {other} 已啟用。",
-        "no_battery_charging_tips": "目前未侦測到電池模组，装置正在使用外部電源供電。"
+        "no_battery_charging_tips": "目前未偵測到電池模組，裝置正在使用外部電源供電。"
     },
     "err": {
         "abnormal_operation_msg": "操作異常",
         "network_not_reachable_msg": "網路無法連接",
         "param_illegal_msg": "參數非法，操作失敗。",
         "connection_failed_msg": "連接失敗。請稍後再試。",
-        "port_occupied_msg": "端口 {port} 已被占用。"
+        "port_occupied_msg": "端口 {port} 已被佔用。"
     },
     "subscription": {
         "url_label": "訂閱URL",
@@ -283,6 +283,6 @@
         "ipv6_limit_start_end_tips": "必須以{start}開頭，並以正確的IPv6地址{end}結尾。",
         "min_max_byte_tips": "{min} - {max} 位元組。",
         "not_allow_use_tips": "字符 {char} 不允许使用 | 字符 {char} 不允许使用",
-        "begin_not_allow_tips": "不能以字符 {char} 开头 | 不能以任何字符 {char} 开头"
+        "begin_not_allow_tips": "不能以字符 {char} 開頭 | 不能以任何字符 {char} 開頭"
     }
 }
