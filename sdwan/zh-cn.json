@@ -69,7 +69,7 @@
         "exit_ip_label": "出站 IP",
         "exit_network_tips": "退出后，所有已添加的客户端将被移除。如欲再次使用Astrowrap，您需要重新添加客户端。是否确认继续？",
         "exit_btn": "退出登录",
-        "enabled_astromesh_tips": "由于此路由器已启用 {feature}，此功能无法正常工作。"
+        "enabled_astromesh_tips": "此功能不可用，原因在于本路由器已启用 {feature}。"
     },
     "aw_err": {
         "not_joined_network_msg": "未连接至该网络。"
