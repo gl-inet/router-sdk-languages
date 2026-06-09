@@ -42,7 +42,8 @@
         "sub_tips": "Gdy używasz trybu {mode}, nie będziesz mógł ponownie połączyć się z tym interfejsem użytkownika. Aby powrócić do trybu routera, przytrzymaj przycisk resetowania przez 4 sekundy.",
         "reset_wan_port_msg": "Skonfiguruj {port} jako port WAN i podłącz tylko kabel Ethernet do {port}.",
         "unplug_cable_msg": "Proszę odłączyć kabel Ethernet od portu {port}.",
-        "change_router_network_mode_tips": "Zmiana trybu sieci routera spowoduje zresetowanie niektórych ustawień sieciowych, takich jak {feature}, a wszystkie urządzenia klienckie będą musiały się ponownie połączyć."
+        "change_router_network_mode_tips": "Zmiana trybu sieci routera spowoduje zresetowanie niektórych ustawień sieciowych, takich jak {feature}, a wszystkie urządzenia klienckie będą musiały się ponownie połączyć.",
+        "mode_switch_brief_network_loss_tips": "Zmiana trybów przywróci domyślne ustawienia portów sieciowych, co może spowodować krótką przerwę w działaniu sieci. Po zakończeniu proszę podłączyć ponownie kabel sieciowy i dostosować połączenie według potrzeb."
     },
     "menu_bridge": "Tryb Sieci"
 }
