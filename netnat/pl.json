@@ -9,7 +9,7 @@
         "disabled_client_label": "Statystyki Prędkości i Ruchu Klienta",
         "disabled_speed_limit_label": "Limit Prędkości Klienta",
         "disabled_vpn_ipv6_label": "VPN z IPv6",
-        "qos_sqm_safeguard_data_tips": "Ta funkcja jest niedostępna, ponieważ włączono {flowstatistics}, {safeguard}, {qos} lub {sqm}."
+        "qos_sqm_safeguard_data_tips": "Ta funkcja jest niedostępna, ponieważ koliduje z następującymi funkcjami: {features}."
     },
     "menu_netnat": "Akceleracja Sieci"
 }
