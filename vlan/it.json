@@ -105,7 +105,8 @@
         "err_guest_ip_conflict": "L'indirizzo della sottorete è in conflitto con la rete ospiti.",
         "err_display_name_max_length": "Il nome deve avere al massimo 32 caratteri.",
         "hostname_tips": "2-63 caratteri. Sono consentiti solo lettere, cifre o trattini. Deve iniziare e terminare con una lettera o una cifra, e non può essere composto esclusivamente da cifre.",
-        "not_asscess_tips": "Attualmente {name} non può accedere ai segmenti di rete {net}."
+        "not_asscess_tips": "Attualmente {name} non può accedere ai segmenti di rete {net}.",
+        "err_vlan_id_must_be_integer": "L'ID VLAN deve essere un numero intero."
     },
     "menu_vlan": "Sottorete",
     "menu_guestip": "Rete ospiti",
