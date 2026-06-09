@@ -76,7 +76,6 @@
         "confirm_delete_subnet": "Ar tikrai norite ištrinti šį tinklą?",
         "lpr_serve_label": "LPR serveris",
         "dhcp_charter_label": "Nuomos laikas",
-        "err_display_name_max_length": "Rodomas pavadinimas turi būti ne ilgesnis nei 32 simboliai.",
         "err_dhcp_range_excludes_router_ip": "DHCP telkinys neturi apimti maršrutizatoriaus IP adreso.",
         "ipv4_ranges_tip": "Galite nustatyti potinklį IPv4 privačių adresų diapazonuose: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Potinklio adresas konfliktuoja su „{target}“.",
@@ -94,7 +93,6 @@
         "block_wan_subnets_tip_iot": "Jei ši funkcija įjungta, IoT tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
         "block_wan_subnets_tip_custom": "Jei ši funkcija įjungta, pasirinktinis tinklas negalės pasiekti aukštesniojo tinklo ir tinklo segmento, kuriame yra aukštesnysis tinklas.",
         "lpr_tips": "Įveskite vieną ar daugiau LPR serverio IP adresų.",
-        "hostname_tips": "0-63 simboliai. Leidžiamos tik raidės, skaitmenys arba brūkšniai. Turi prasidėti ir baigtis raide arba skaitmeniu, ir negali būti sudarytas tik iš skaitmenų.",
         "err_address_reservation_description_max_length": "Maksimalus ilgis yra 256 simboliai",
         "err_reserved_ip_not_in_subnet": "Rezervuotas IP adresas nėra potinklyje.",
         "lan_ip_tips": "Vietinio tinklo potinklis yra konflikte su WAN potinkliu, prašome pakeisti Vietinio tinklo potinklį į kitą adresą.",
@@ -104,7 +102,13 @@
         "err_iot_ip_conflict": "Potinklio adresas konfliktuoja su IoT tinklu.",
         "err_delete_has_bindings": "Šis potinklis vis dar turi susiejimų. Perkelkite juos prieš jį ištrindami.",
         "err_fixed_subnet_cannot_delete": "Fiksuotų potinklių negalima ištrinti.",
-        "err_subnet_not_found": "Potinklis nerastas."
+        "err_subnet_not_found": "Potinklis nerastas.",
+        "err_display_name_max_length": "Pavadinimas turi būti ne ilgesnis nei 32 simboliai.",
+        "hostname_tips": "2–63 simboliai. Leidžiamos tik raidės, skaitmenys arba brūkšniai. Turi prasidėti ir baigtis raide arba skaitmeniu, ir negali būti sudarytas vien iš skaitmenų.",
+        "not_asscess_tips": "Šiuo metu {name} negali pasiekti tinklo segmentų {net}.",
+        "err_vlan_id_must_be_integer": "VLAN ID turi būti sveikasis skaičius."
     },
-    "menu_vlan": "Potinklis"
+    "menu_vlan": "Potinklis",
+    "menu_guestip": "Svečių tinklas",
+    "menu_iotip": "IoT Tinklas"
 }

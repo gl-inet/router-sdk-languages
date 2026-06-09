@@ -279,7 +279,20 @@
         "name_empty_tips": "Name cannot be empty",
         "auto_switch_tips": "This feature requires the non-low-data detection mode of Multi-WAN Interface Status Track. When enabled, the system will automatically switch to the corresponding detection mode and may generate additional traffic usage.",
         "sim_registered_connection_failed_tips": "Please check if the SIM card has available data and if the {apnBtn} settings are correct. {guide}",
-        "connection_failed_contact_support_tips": "Refer to the {guide}, If the issue persists, please {log} and send them to {addr}."
+        "connection_failed_contact_support_tips": "Refer to the {guide}, If the issue persists, please {log} and send them to {addr}.",
+        "version_3gpp": "3GPP Version: {num}",
+        "release15_3gpp_tips": "Baseline 5G standard. Offers the best global carrier compatibility. Recommended for troubleshooting regional connectivity issues.",
+        "release16_3gpp_tips": "Enhanced 5G standard. Suitable for most established 5G network environments.",
+        "release17_3gpp_tips": "The latest 5G standard supported by the device. Enables advanced network features and capabilities. Potential compatibility variances may occur in certain regions due to carrier network deployment differences.",
+        "release_3gpp_version_title": "3GPP Release Version",
+        "release_europe_tips": "If you are in Europe and experiencing unstable connections, switching to Release 15 may improve compatibility.",
+        "release_restart_tips": "The device will restart after switching the version.",
+        "version_switch_device_restart_tips": "The device will restart after switching the version.",
+        "version_switch_confirm_tips": "Are you sure you want to continue?",
+        "net_env_incompatible_tips": "The current network environment may be incompatible with the device mode. Please switch to 3GPP R15 mode and try again.",
+        "rrc_segmentation_label": "RRC Segmentation",
+        "rrc_segmentation_tips2": "Enable may cause intermittent disconnection or network rejection on specific European carrier base stations.",
+        "rrc_segmentation_tips1": "Potential compatibility variances may occur in certain regions due to carrier network deployment differences."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",

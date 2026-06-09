@@ -90,7 +90,10 @@
         "remove_all_offline_clients_confirm_tips": "Sind Sie sicher, dass Sie alle Clients aus der Liste entfernen möchten? Diese Aktion entfernt auch deren Namen und Geschwindigkeitsbegrenzungseinstellungen.",
         "client_speed_limit_tips": "{name} ist aktiviert, die Client-Geschwindigkeitsbegrenzung funktioniert nicht.",
         "custom_label": "Benutzerdefiniert",
-        "guest_label": "Gast"
+        "guest_label": "Gast",
+        "unable_determine_target_subnet_msg": "Das Zielsubnetz konnte nicht ermittelt werden. Bitte überprüfen Sie die Netzwerk- oder IP-Konfiguration.",
+        "subnet_reserved_ip_outside_range_msg": "Die reservierte IP-Adresse liegt außerhalb des Ziel-Subnetzbereichs.",
+        "reserved_ip_cannot_be_gateway_msg": "Die reservierte IP-Adresse darf nicht mit der Gateway-Adresse identisch sein."
     },
     "menu_clients": "Clients",
     "vpn_tunnel": {

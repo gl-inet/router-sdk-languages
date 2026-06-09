@@ -130,7 +130,10 @@
         "share": "Comhroinn",
         "note_tag": "Nóta:",
         "please_select": "Roghnaigh",
-        "dns_address_label": "Seoladh DNS"
+        "dns_address_label": "Seoladh DNS",
+        "terms_service": "Téarmaí Seirbhíse",
+        "privacy_policy": "Beartas Príobháideachais",
+        "agree_terms_privacy": "Léigh mé agus aontaím le {terms} & {privacy}"
     },
     "msg": {
         "copy_success": "Cóipeáil rathúil",
@@ -150,7 +153,8 @@
         "request_timeout_tip": "Tháinig deireadh leis an iarratas. Déan cinnte go bhfuil tú nasctha leis an ródaire seo agus athnuaigh an leathanach.",
         "unknown_err": "Tharla earráid anaithnid. Seiceáil an timpeallacht líonra nó atosaigh an gléas le do thoil.",
         "please_note": "Tabhair do d’aire:",
-        "send_success_tips": "Seolta go rathúil!"
+        "send_success_tips": "Seolta go rathúil!",
+        "low_memory_tips": "Theip ar uaslódáil an Firmware mar gheall ar easpa cuimhne. Déan athbhútáil ar an ródaire nó dún roinnt feidhmchlár go sealadach, ansin déan iarracht arís."
     },
     "system": {
         "lost_account_btn": "Cuntas Caillte?",
@@ -222,7 +226,7 @@
         "mtu_common_tip": "Socraigh an luach MTU de réir do chás úsáide. D’fhéadfadh socruithe míchearta dícheangal idirlín a chur faoi deara.",
         "iot_ip_tips": "Tá fo-líonra IoT i gcoimhlint leis an bhfo-líonra WAN, aistrigh {iotSubnet} chuig seoladh difriúil le do thoil.",
         "change_iot_subnet": "Athraigh Fo-líonra IoT",
-        "mac_invalid_format": "Formáid neamhbhailí seoladh MAC"
+        "mac_invalid_format": "Formáid seoladh MAC neamhbhailí"
     },
     "upload": {
         "select_or_drag": "Roghnaigh comhad le hualach nó tarraing anseo é",

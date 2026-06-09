@@ -42,7 +42,8 @@
         "sub_tips": "Ha a {mode} módot használja, többé nem fog tudni csatlakozni ehhez a felhasználói felülethez. A visszaállításhoz nyomja és tartsa nyomva a reset gombot 4 másodpercig, hogy visszaváltson router módra.",
         "reset_wan_port_msg": "Kérjük, konfigurálja a {port} portot WAN portként, és csak Ethernet kábelt csatlakoztasson a {port} porthoz.",
         "unplug_cable_msg": "Kérjük, húzza ki az Ethernet-kábelt a(z) {port} portból.",
-        "change_router_network_mode_tips": "A router hálózati módjának megváltoztatása visszaállít néhány hálózati beállítást, például a {feature} beállításokat, és minden klienseszköznek újra kell csatlakoznia."
+        "change_router_network_mode_tips": "A router hálózati módjának megváltoztatása visszaállít néhány hálózati beállítást, például a {feature} beállításokat, és minden klienseszköznek újra kell csatlakoznia.",
+        "mode_switch_brief_network_loss_tips": "A módok váltása visszaállítja az alapértelmezett hálózati port beállításokat, ami rövid hálózati megszakítást okozhat. A befejezést követően kérjük, csatlakoztassa újra a hálózati kábelt, és szükség szerint állítsa be a kapcsolatot."
     },
     "menu_bridge": "Üzemmód"
 }

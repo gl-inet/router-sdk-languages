@@ -76,7 +76,6 @@
         "end_ip_address": "Dirección IP final",
         "delete_all": "Eliminar todo",
         "add_reservation": "Agregar una nueva entrada de reserva",
-        "err_display_name_max_length": "El nombre para mostrar debe tener 32 caracteres o menos.",
         "err_dhcp_range_excludes_router_ip": "El grupo DHCP no debe incluir la dirección IP del router.",
         "ipv4_ranges_tip": "Puede configurar subredes dentro de los rangos de direcciones privadas IPv4: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "La dirección de subred entra en conflicto con \"{target}\".",
@@ -94,7 +93,6 @@
         "block_wan_subnets_tip_iot": "Si esta función está habilitada, la red IoT no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
         "block_wan_subnets_tip_custom": "Si esta función está habilitada, la red personalizada no podrá acceder a la red superior ni al segmento de red donde se encuentra la red superior.",
         "lpr_tips": "Ingrese una o más direcciones IP del servidor LPR.",
-        "hostname_tips": "0-63 caracteres. Solo se permiten letras, dígitos o guiones. Debe comenzar y terminar con una letra o dígito, y no puede consistir únicamente en dígitos.",
         "err_address_reservation_description_max_length": "La longitud máxima es de 256 caracteres.",
         "err_reserved_ip_not_in_subnet": "La dirección IP reservada no está dentro de la subred.",
         "lan_ip_tips": "La subred LAN está en conflicto con la subred WAN. Por favor, cambie la subred LAN a una dirección diferente.",
@@ -104,7 +102,13 @@
         "err_iot_ip_conflict": "La dirección de subred entra en conflicto con la red IoT.",
         "err_delete_has_bindings": "Esta subred aún tiene vinculaciones. Migrelas antes de eliminarla.",
         "err_fixed_subnet_cannot_delete": "Las subredes fijas no se pueden eliminar.",
-        "err_subnet_not_found": "Subred no encontrada."
+        "err_subnet_not_found": "Subred no encontrada.",
+        "err_display_name_max_length": "El nombre debe tener 32 caracteres o menos.",
+        "hostname_tips": "2-63 caracteres. Solo se permiten letras, dígitos o guiones. Debe comenzar y terminar con una letra o dígito, y no puede consistir únicamente en dígitos.",
+        "not_asscess_tips": "Actualmente, {name} no puede acceder a los segmentos de red {net}.",
+        "err_vlan_id_must_be_integer": "El ID de VLAN debe ser un número entero."
     },
-    "menu_vlan": "subred"
+    "menu_vlan": "subred",
+    "menu_guestip": "Red de Invitados",
+    "menu_iotip": "Red IoT"
 }

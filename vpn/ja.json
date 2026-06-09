@@ -331,7 +331,58 @@
         "exit_ip_address_label": "出口IPアドレス",
         "go_to_vpn_dashboard": "ダッシュボードに移動",
         "vpn_dashboard_desc_provider": "{provider}にサインインしています。VPNトンネルを作成および管理するには、VPNダッシュボードに移動してください。",
-        "vpn_dashboard_desc": "設定がアップロードされました。VPNトンネルを作成および管理するには、VPNダッシュボードに移動してください。"
+        "vpn_dashboard_desc": "設定がアップロードされました。VPNトンネルを作成および管理するには、VPNダッシュボードに移動してください。",
+        "expressvpn_custom_feature_security_title": "エンタープライズグレードのセキュリティ",
+        "expressvpn_custom_feature_security_desc": "ルーターに接続されたすべてのデバイスを保護",
+        "expressvpn_custom_feature_speed_title": "驚異的な高速速度",
+        "expressvpn_custom_feature_speed_desc": "接続速度への影響を最小限に抑えた最適化されたサーバーネットワーク",
+        "expressvpn_custom_feature_network_title": "グローバルサーバーネットワーク",
+        "expressvpn_custom_feature_network_desc": "世界105か国にわたるサーバーロケーションへのアクセス",
+        "expressvpn_custom_get_started_btn": "スタート",
+        "expressvpn_custom_get_started_tip": "今同意すれば、後で手動でVPNプロファイルを追加することもできます。",
+        "expressvpn_custom_redeem_title": "GL.iNet x ExpressVPNプランを利用する",
+        "expressvpn_custom_promo_title": "無料の12ヶ月間プランが利用可能",
+        "expressvpn_custom_order_id_label": "注文ID",
+        "expressvpn_custom_login_without_activation": "アクティベーションなしでログイン",
+        "expressvpn_custom_promo_desc_order": "注文IDを使用して、ExpressVPNのチェックアウトを完了し、このルーターを認証してください。",
+        "expressvpn_custom_promo_desc_submitted": "注文IDが確認されました。下のリンクをクリックして引き換えを完了し、その後このルーターを認証してください。",
+        "expressvpn_custom_continue_expressvpn_btn": "ExpressVPNに進む",
+        "expressvpn_custom_claim_btn": "12ヶ月プランを取得",
+        "expressvpn_custom_claim_footnote": "プランを取得後、こちらに戻ってこのルーターを認証してください。そうすることでVPNクライアントがExpressVPNの設定を取得できるようになります。",
+        "expressvpn_custom_claim_validity": "*引き換えは購入後2年以内に有効です。",
+        "expressvpn_custom_signin_title": "ExpressVPNにログイン",
+        "expressvpn_custom_dashboard_redeemed_title": "12か月プラン利用済み",
+        "expressvpn_custom_redeemed_prompt_desc": "このルーターの無料12か月プランは引き換えられ、ExpressVPNアカウントに追加されました。",
+        "expressvpn_custom_redeemed_already_title": "12か月プランはすでに引き換え済みです",
+        "expressvpn_custom_redeemed_claimed_by": "紐付け済みアカウント",
+        "expressvpn_custom_redeemed_claimed_time": "紐付け日時",
+        "expressvpn_custom_redeemed_action_desc": "サブスクリプションを有効な状態に保つには紐付け済みアカウントでサインインするか、別のExpressVPNアカウントを使用してこのルーター上のVPN管理を続行してください。",
+        "expressvpn_custom_dashboard_active": "アクティブでネットワークを保護しています。",
+        "expressvpn_custom_dashboard_expired": "サービス期限切れ。ネットワークを保護していません。",
+        "expressvpn_custom_plan_sync_tip": "ログイン後、プランの特典は自動的にデバイスに同期されます。追加の設定は不要です。",
+        "expressvpn_custom_logout_btn": "ログアウト",
+        "expressvpn_custom_go_dashboard_btn": "ExpressVPNダッシュボードへ移動",
+        "expressvpn_custom_status_label": "状況",
+        "expressvpn_custom_account_label": "アカウント名",
+        "expressvpn_custom_expiration_label": "有効期限",
+        "expressvpn_custom_valid_license": "有効なライセンス",
+        "expressvpn_custom_invalid_license": "無効なライセンス",
+        "expressvpn_custom_manual_title": "手動で追加",
+        "expressvpn_custom_manual_desc": "カスタムプロファイル用のWireGuard設定ファイルをインポートします—ExpressVPNのサインインは不要です。",
+        "expressvpn_custom_redeem_desc": "このコブランドルーターは、無料の12ヶ月間ExpressVPNプランを1つ利用できます。GL.iNet Cloudがまずこのハードウェアと注文の資格を確認し、その後ExpressVPNがブラウザでプロモーションチェックアウトを完了します。",
+        "expressvpn_custom_promo_desc_checkout": "ルーター購入時の注文IDを入力してください。ExpressVPNで請求を完了し、その後こちらに戻ってこのルーターを認証します。",
+        "expressvpn_custom_order_error": "注文IDの確認に失敗しました。無効なID、または既に有効化されているため再利用できません。",
+        "expressvpn_custom_dashboard_redeemed_desc": "{account} が {date} に利用しました。12か月プランはそのExpressVPNアカウントに追加されました。このルーターの引き換えクレジットは使用済みです — このルーターでサインインするその他のアカウントは、それぞれの既存のサブスクリプションを引き続き使用します。",
+        "expressvpn_custom_redeemed_prompt_title": "サインイン",
+        "expressvpn_custom_dashboard_desc_line1": "このルーターでExpressVPNにサインインしています。",
+        "expressvpn_custom_dashboard_desc_line2": "ExpressVPNダッシュボードを開いて、トンネルの追加、ルーティングポリシーの設定、利用可能なサーバーロケーションの選択を行ってください。",
+        "expressvpn_custom_redeemed_by_prefix": "利用したアカウント: ",
+        "expressvpn_custom_redeemed_on": " 日時: ",
+        "expressvpn_custom_redeemed_notice_suffix": "。12か月プランはそのExpressVPNアカウントに追加されました。このルーターの引き換えクレジットは使用済みです — このルーターでサインインするその他のアカウントは、それぞれの既存のサブスクリプションを引き続き使用します。",
+        "expressvpn_custom_redeemed_login_desc_line1": "おめでとうございます！12か月プランの取得が完了しました。アカウントにサインインしてください。",
+        "expressvpn_custom_redeemed_login_desc_line2": "ログイン後、ルーター上のすべてのサービスをご利用いただけます。",
+        "expressvpn_custom_signin_new_tab_tip": "ExpressVPNの安全なサインインページが新しいタブで開きます。",
+        "expressvpn_custom_order_placeholder": "例: 113-5829374-2938475"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
@@ -371,7 +422,13 @@
         "invalid_ip_addr_msg": "無効なIPアドレスです",
         "password_too_short_msg": "パスワードは少なくとも8文字でなければなりません",
         "network_abnormal_msg": "ネットワークに異常があるかもしれません",
-        "api_limit_triggered_msg": "頻繁な操作のため、後ほど再度お試しください。"
+        "api_limit_triggered_msg": "頻繁な操作のため、後ほど再度お試しください。",
+        "expressvpn_network_msg": "ネットワークまたは上流サービスが利用できません。後でもう一度お試しください。",
+        "expressvpn_login_expired_msg": "ログインセッションが期限切れになりました。もう一度お試しください。",
+        "expressvpn_business_msg": "ExpressVPNリクエストが拒否されました。アカウントまたはデバイスの状態をご確認ください。",
+        "expressvpn_device_config_msg": "デバイス設定が見つかりません。サポートにお問い合わせください。",
+        "expressvpn_no_subscription_msg": "このアカウントにアクティブなExpressVPNのサブスクリプションが見つかりませんでした。",
+        "expressvpn_internal_msg": "ExpressVPNサービスエラーが発生しました。後でもう一度お試しください。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPNポリシーに基づいたトンネルリストにクライアントを追加してください。トンネルに対してより詳細な変更を行いたい場合は、{page}にアクセスしてトンネルを管理してください。",
@@ -555,7 +612,7 @@
         "init_wg_step_tip_2": "2. ピア設定を追加。",
         "init_wg_step_tip_3": "3. ピア情報をクライアントにエクスポート。",
         "init_wg_add_peer_tip": "ピア設定がまだありません。開始するには、ピア設定を追加してください。",
-        "address_conflict_common_tips": "{vpnType} IP地址({address})与{interface}的{type}冲突。"
+        "address_conflict_common_tips": "{vpnType} IPアドレス（{address}）が{interface}の{type}と競合しています。"
     },
     "vpn_taps2s": {
         "start_not_available_tips": "多くのルーティング機能が利用できなくなります。",
@@ -591,7 +648,7 @@
         "stop_config_visit_dashboard_tips": "トンネルを管理するには、{page}をご覧ください。",
         "remove_config_btn": "設定を削除",
         "reomving_config_warning_tips": "削除してもよろしいですか？",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 与 {interface} 冲突。"
+        "address_conflict_common_tips": "{tunnel} {addressType}（{address}）が{interface}と競合しています。"
     },
     "ovpnclient": {
         "legacy_label": "レガシー",
@@ -606,5 +663,6 @@
     "menu_vpn-client": "VPNクライアントプロファイル",
     "internet": {
         "disconnected": "切断されました"
-    }
+    },
+    "menu_expressvpn_dashboard": "ExpressVPN ダッシュボード"
 }

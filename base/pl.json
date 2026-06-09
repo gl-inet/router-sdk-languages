@@ -130,10 +130,13 @@
         "share": "Udostępnij",
         "note_tag": "Uwaga:",
         "please_select": "Proszę Wybrać",
-        "dns_address_label": "Adres DNS"
+        "dns_address_label": "Adres DNS",
+        "terms_service": "Warunki korzystania z usługi",
+        "privacy_policy": "Polityka prywatności",
+        "agree_terms_privacy": "Przeczytałem i akceptuję {terms} oraz {privacy}"
     },
     "msg": {
-        "port_occupied": "{nazwa} port zajęty",
+        "port_occupied": "{name} port zajęty",
         "access_denied": "Nieprawidłowy użytkownik, brak uprawnień lub niezalogowano!",
         "success": "Zastosowano!",
         "operation_not_finished": "Proszę poczekać, aż bieżąca operacja zostanie zakończona.",
@@ -150,7 +153,8 @@
         "successfully_badge_tips": "Sukces!",
         "lack_of_memory_tips": "Z powodu braku pamięci, jeśli chcesz zaktualizować oprogramowanie, spróbuj ponownie uruchomić urządzenie.",
         "copy_success": "Kopiowanie zakończone pomyślnie",
-        "request_timeout_tip": "Żądanie przekroczyło limit czasu. Upewnij się, że jesteś połączony z tym routerem i odśwież stronę."
+        "request_timeout_tip": "Żądanie przekroczyło limit czasu. Upewnij się, że jesteś połączony z tym routerem i odśwież stronę.",
+        "low_memory_tips": "Przesyłanie oprogramowania układowego nie powiodło się z powodu niewystarczającej pamięci. Zrestartuj Ruter lub tymczasowo zamknij niektóre aplikacje, a następnie spróbuj ponownie."
     },
     "upload": {
         "file_include": "Typy plików obejmują",
@@ -241,7 +245,7 @@
         "second": "{count} Sekund | {count} Sekund",
         "min": "{count} Minut | {count} Minut",
         "hour": "{count} Godzin | {count} Godzin",
-        "for_last_time": "Ostatni {czas}",
+        "for_last_time": "Ostatni {time}",
         "ms": "ms",
         "quarter": "Kwartał",
         "day_time": "{count} Dzień | {count} Dni",

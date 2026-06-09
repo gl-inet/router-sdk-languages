@@ -91,7 +91,10 @@
         "remove_all_offline_clients_confirm_tips": "Êtes-vous sûr de vouloir supprimer tous les clients de la liste ? Cette action supprimera également leurs noms et leurs paramètres de limitation de vitesse.",
         "client_speed_limit_tips": "{name} est activé, la limitation de vitesse du client ne fonctionne pas.",
         "guest_label": "Invité",
-        "custom_label": "Personnalisé"
+        "custom_label": "Personnalisé",
+        "unable_determine_target_subnet_msg": "Impossible de déterminer le sous-réseau cible. Veuillez vérifier la configuration du réseau ou de l'IP.",
+        "subnet_reserved_ip_outside_range_msg": "L'adresse IP réservée se trouve en dehors de la plage du sous-réseau cible.",
+        "reserved_ip_cannot_be_gateway_msg": "L'adresse IP réservée ne peut pas être identique à l'adresse de la passerelle."
     },
     "vpn_tunnel": {
         "mac_using_tips": "Le VPN est connecté.",

@@ -130,7 +130,10 @@
         "share": "Teilen",
         "note_tag": "Hinweis:",
         "please_select": "Bitte auswählen",
-        "dns_address_label": "DNS-Adresse"
+        "dns_address_label": "DNS-Adresse",
+        "terms_service": "Nutzungsbedingungen",
+        "privacy_policy": "Datenschutzerklärung",
+        "agree_terms_privacy": "Ich habe {terms} & {privacy} gelesen und stimme zu"
     },
     "msg": {
         "access_denied": "Ungültiger Benutzer, keine Berechtigung oder nicht angemeldet!",
@@ -150,7 +153,8 @@
         "successfully_badge_tips": "Erfolgreich!",
         "lack_of_memory_tips": "Geringer Speicherplatz verfügbar. Um die Firmware zu aktualisieren, können Sie versuchen das Gerät neu zu starten.",
         "copy_success": "Kopieren erfolgreich",
-        "request_timeout_tip": "Zeitüberschreitung der Anfrage. Bitte stellen Sie sicher, dass Sie mit diesem Router verbunden sind, und aktualisieren Sie die Seite."
+        "request_timeout_tip": "Zeitüberschreitung der Anfrage. Bitte stellen Sie sicher, dass Sie mit diesem Router verbunden sind, und aktualisieren Sie die Seite.",
+        "low_memory_tips": "Firmware-Upload fehlgeschlagen aufgrund unzureichenden Speichers. Bitte führen Sie einen Neustart des Routers durch oder schließen Sie vorübergehend einige Anwendungen, und versuchen Sie es erneut."
     },
     "internet": {
         "lan_ip_tips": "Das LAN-Subnetz steht in Konflikt mit dem WAN-Subnetz, bitte $$$$Ändern Sie die LAN-IP$$$$ in eine andere IP-Adresse.",

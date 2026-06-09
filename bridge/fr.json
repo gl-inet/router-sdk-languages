@@ -42,7 +42,8 @@
         "sub_tips": "Lorsque vous utilisez {mode}, vous ne pourrez plus vous connecter à cette interface. Vous pouvez maintenir enfoncé le bouton de réinitialisation pendant 4 secondes pour revenir au mode routeur.",
         "reset_wan_port_msg": "Veuillez configurer {port} en tant que port WAN et ne branchez qu'un câble Ethernet dans {port}.",
         "unplug_cable_msg": "Veuillez débrancher le câble Ethernet du port {port}.",
-        "change_router_network_mode_tips": "Changer le mode réseau du routeur réinitialisera certains paramètres réseau, tels que {feature}, et tous les appareils clients devront se reconnecter."
+        "change_router_network_mode_tips": "Changer le mode réseau du routeur réinitialisera certains paramètres réseau, tels que {feature}, et tous les appareils clients devront se reconnecter.",
+        "mode_switch_brief_network_loss_tips": "Le changement de mode rétablira les paramètres par défaut des ports réseau, ce qui peut provoquer une brève interruption du réseau. Une fois terminé, veuillez reconnecter le câble réseau et ajuster la connexion selon vos besoins."
     },
     "menu_bridge": "Comportement"
 }

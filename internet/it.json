@@ -279,7 +279,20 @@
         "name_empty_tips": "Il nome non può essere vuoto",
         "auto_switch_tips": "Questa funzionalità richiede la modalità di rilevamento non a basso consumo dati del Monitoraggio dello Stato dell'Interfaccia Multi-WAN. Quando abilitata, il sistema passerà automaticamente alla corrispondente modalità di rilevamento e potrebbe generare un consumo di traffico aggiuntivo.",
         "sim_registered_connection_failed_tips": "Verificare se la scheda SIM dispone di dati disponibili e se le impostazioni {apnBtn} sono corrette. {guide}",
-        "connection_failed_contact_support_tips": "Fare riferimento alla {guide}. Se il problema persiste, si prega di {log} e inviarli a {addr}."
+        "connection_failed_contact_support_tips": "Fare riferimento alla {guide}. Se il problema persiste, si prega di {log} e inviarli a {addr}.",
+        "version_3gpp": "Versione 3GPP: {num}",
+        "release15_3gpp_tips": "Standard 5G. Offre la migliore compatibilità globale con gli operatori. Consigliato per la risoluzione di problemi di connettività regionali.",
+        "release16_3gpp_tips": "Standard 5G avanzato. Adatto alla maggior parte degli ambienti di rete 5G consolidati.",
+        "release17_3gpp_tips": "L'ultimo standard 5G supportato dal dispositivo. Abilita funzionalità e capacità di rete avanzate. Potrebbero verificarsi variazioni di compatibilità in alcune regioni a causa di differenze nella distribuzione della rete dell'operatore.",
+        "release_3gpp_version_title": "Versione di rilascio 3GPP",
+        "release_restart_tips": "Il dispositivo si riavvierà dopo aver cambiato la versione.",
+        "release_europe_tips": "Se ti trovi in Europa e stai riscontrando connessioni instabili, passare alla Release 15 potrebbe migliorare la compatibilità.",
+        "version_switch_device_restart_tips": "Il dispositivo si riavvierà dopo aver cambiato la versione.",
+        "version_switch_confirm_tips": "Sei sicuro di voler continuare?",
+        "net_env_incompatible_tips": "L'ambiente di rete corrente potrebbe essere incompatibile con la modalità del dispositivo. Passa alla modalità 3GPP R15 e riprova.",
+        "rrc_segmentation_label": "Segmentazione RRC",
+        "rrc_segmentation_tips2": "L'abilitazione potrebbe causare disconnessioni intermittenti o rifiuti di rete su stazioni base di specifici operatori europei.",
+        "rrc_segmentation_tips1": "Potrebbero verificarsi differenze di compatibilità in alcune regioni a causa di differenze nella distribuzione della rete del vettore."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",

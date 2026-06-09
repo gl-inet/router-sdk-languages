@@ -152,7 +152,20 @@
         "name_empty_tips": "A név nem lehet üres",
         "auto_switch_tips": "Ez a funkció a Multi-WAN Interface Status Track nem alacsony adatforgalmú észlelési módját igényli. Ha engedélyezve van, a rendszer automatikusan átvált a megfelelő észlelési módra, és további adatforgalmi felhasználást eredményezhet.",
         "sim_registered_connection_failed_tips": "Kérjük, ellenőrizze, hogy a SIM-kártyán rendelkezésre áll-e adatforgalom, és hogy a {apnBtn} beállítások helyesek-e. {guide}",
-        "connection_failed_contact_support_tips": "Lásd a {guide} útmutatót. Ha a probléma továbbra is fennáll, kérjük, {log} és küldje el őket a {addr} címre."
+        "connection_failed_contact_support_tips": "Lásd a {guide} útmutatót. Ha a probléma továbbra is fennáll, kérjük, {log} és küldje el őket a {addr} címre.",
+        "version_3gpp": "3GPP Verzió: {num}",
+        "release15_3gpp_tips": "Alap 5G szabvány. A legjobb globális szolgáltatói kompatibilitást biztosítja. Regionális kapcsolódási problémák hibaelhárításához ajánlott.",
+        "release16_3gpp_tips": "Továbbfejlesztett 5G szabvány. Alkalmas a legtöbb kialakult 5G hálózati környezethez.",
+        "release17_3gpp_tips": "Az eszköz által támogatott legújabb 5G szabvány. Lehetővé teszi a fejlett hálózati funkciókat és képességeket. Bizonyos régiókban kompatibilitási eltérések léphetnek fel a szolgáltatói hálózati telepítések különbségei miatt.",
+        "release_3gpp_version_title": "3GPP Kiadás verzió",
+        "release_restart_tips": "Az eszköz újraindul a verzióváltás után.",
+        "release_europe_tips": "Ha Európában tartózkodik, és instabil kapcsolatot tapasztal, a Release 15-re való váltás javíthatja a kompatibilitást.",
+        "version_switch_device_restart_tips": "Az eszköz újraindul a verzióváltás után.",
+        "version_switch_confirm_tips": "Biztosan folytatni szeretné?",
+        "net_env_incompatible_tips": "A jelenlegi hálózati környezet nem biztos, hogy kompatibilis az eszköz üzemmódjával. Kérjük, váltson 3GPP R15 módra, és próbálja újra.",
+        "rrc_segmentation_label": "RRC Szegmentáció",
+        "rrc_segmentation_tips2": "Az engedélyezés időszakos megszakadást vagy hálózati elutasítást okozhat bizonyos európai szolgáltatók bázisállomásain.",
+        "rrc_segmentation_tips1": "Potenciális kompatibilitási eltérések fordulhatnak elő bizonyos régiókban a szolgáltatói hálózat telepítési különbségei miatt."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",

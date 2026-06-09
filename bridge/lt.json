@@ -42,7 +42,8 @@
         "sub_tips": "Kai naudojate – {mode}; nebegalėsite prisijungti prie šios naudotojo/vartotojo grafinės sąsajos. Galėsite paspausti ir laikyti atstatymo mygtuką maršrutizatoriuje 4-iom sekundėm, kad grąžintumėte veikimą į maršrutizatoriaus veikseną.",
         "reset_wan_port_msg": "Prašome sukonfigūruoti – {port} kaip „WAN“ prievadą ir prijunkite tik „eterneto“ laidą prie/į – {port}.",
         "unplug_cable_msg": "Atjunkite/Ištraukite „eterneto“ laidą iš – {port}.",
-        "change_router_network_mode_tips": "Pakeitus maršrutizatoriaus tinklo veikseną, kai kurie tinklo nustatymai, pvz., {feature}, bus grąžinti į pradinę būseną, ir visi kliento įrenginiai turės prisijungti iš naujo."
+        "change_router_network_mode_tips": "Pakeitus maršrutizatoriaus tinklo veikseną, kai kurie tinklo nustatymai, pvz., – {feature}, bus grąžinti į pradinę būseną, ir visi kliento įrenginiai turės prisijungti iš naujo.",
+        "mode_switch_brief_network_loss_tips": "Režimų perjungimas atkurs numatytuosius tinklo prievado nustatymus, o tai gali sukelti trumpą tinklo pertraukimą. Kai tai bus atlikta, prašome iš naujo prijungti tinklo laidą ir sureguliuoti ryšį pagal poreikį."
     },
     "menu_bridge": "Tinklo veiksena"
 }

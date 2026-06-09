@@ -90,7 +90,10 @@
         "remove_all_offline_clients_confirm_tips": "Czy na pewno chcesz usunąć wszystkich klientów z listy? Ta operacja usunie również ich nazwy oraz ustawienia limitu prędkości.",
         "client_speed_limit_tips": "{name} jest włączony, Ograniczenie Prędkości Klienta nie działa.",
         "guest_label": "Gość",
-        "custom_label": "Niestandardowy"
+        "custom_label": "Niestandardowy",
+        "unable_determine_target_subnet_msg": "Nie można określić docelowej podsieci. Sprawdź konfigurację sieci lub IP.",
+        "subnet_reserved_ip_outside_range_msg": "Zastrzeżony adres IP znajduje się poza zakresem docelowej podsieci.",
+        "reserved_ip_cannot_be_gateway_msg": "Zarezerwowany adres IP nie może być taki sam jak adres bramy."
     },
     "menu_clients": "KLIENCI",
     "vpn_tunnel": {

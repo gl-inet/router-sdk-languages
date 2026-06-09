@@ -76,7 +76,6 @@
         "confirm_delete_subnet": "Biztosan törölni szeretné ezt a hálózatot?",
         "lpr_serve_label": "LPR szerver",
         "dhcp_charter_label": "Bérleti idő",
-        "err_display_name_max_length": "A megjelenítendő név legfeljebb 32 karakterből állhat.",
         "err_dhcp_range_excludes_router_ip": "A DHCP készlet nem tartalmazhatja az útválasztó IP-címét.",
         "ipv4_ranges_tip": "Beállíthat alhálózatot az IPv4 magáncím tartományokon belül: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Alhálózati cím ütközik a következővel: \"{target}\".",
@@ -94,7 +93,6 @@
         "block_wan_subnets_tip_iot": "Ha ez a funkció engedélyezve van, az IoT hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
         "block_wan_subnets_tip_custom": "Ha ez a funkció engedélyezve van, az egyéni hálózat nem fog hozzáférni a felső hálózathoz és annak hálózati szegmenséhez.",
         "lpr_tips": "Adjon meg egy vagy több LPR szerver IP-címet.",
-        "hostname_tips": "0-63 karakter. Csak betűk, számjegyek és kötőjelek engedélyezettek. Betűvel vagy számjeggyel kell kezdődnie és végződnie, és nem állhat kizárólag számjegyekből.",
         "err_address_reservation_description_max_length": "A maximális hossz 256 karakter.",
         "err_reserved_ip_not_in_subnet": "A fenntartott IP-cím nincs az alhálózaton belül.",
         "lan_ip_tips": "LAN alhálózat ütközik a WAN alhálózattal. Kérem, módosítsa a LAN alhálózatot más címre.",
@@ -104,7 +102,13 @@
         "err_iot_ip_conflict": "Az alhálózat címe ütközik az IoT hálózattal.",
         "err_delete_has_bindings": "Ennek az alhálózatnak még vannak kötései. Törlés előtt telepítse át őket.",
         "err_subnet_not_found": "Alhálózat nem található.",
-        "err_fixed_subnet_cannot_delete": "A rögzített alhálózatok nem törölhetők."
+        "err_fixed_subnet_cannot_delete": "A rögzített alhálózatok nem törölhetők.",
+        "err_display_name_max_length": "A név legfeljebb 32 karakter hosszú lehet.",
+        "hostname_tips": "2–63 karakter. Csak betűk, számjegyek vagy kötőjelek engedélyezettek. Betűvel vagy számjegygel kell kezdődnie és végződnie, és nem állhat kizárólag számjegyekből.",
+        "not_asscess_tips": "Jelenleg a {name} nem fér hozzá a {net} hálózati szegmensekhez.",
+        "err_vlan_id_must_be_integer": "A VLAN ID-nek egész számnak kell lennie."
     },
-    "menu_vlan": "alhálózat"
+    "menu_vlan": "alhálózat",
+    "menu_guestip": "Vendéghálózat",
+    "menu_iotip": "IoT Hálózat"
 }

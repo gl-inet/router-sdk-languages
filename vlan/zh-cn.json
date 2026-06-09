@@ -76,7 +76,6 @@
         "confirm_delete_subnet": "确定要删除此网络吗？",
         "lpr_serve_label": "LPR 服务器",
         "dhcp_charter_label": "租约时间",
-        "err_display_name_max_length": "显示名称不能超过32个字符。",
         "err_dhcp_range_excludes_router_ip": "DHCP地址池不得包含路由器IP地址。",
         "ipv4_ranges_tip": "您可以在IPv4私有地址范围内设置子网：192.168.0.0/16、172.16.0.0/12、10.0.0.0/8",
         "err_subnet_conflict_with": "子网地址与\"{target}\"冲突。",
@@ -94,7 +93,6 @@
         "block_wan_subnets_tip_iot": "如果启用此功能，IoT网络将无法访问上层网络及上层网络所在的网段。",
         "block_wan_subnets_tip_custom": "如果启用此功能，自定义网络将无法访问上层网络及上层网络所在的网段。",
         "lpr_tips": "输入一个或多个LPR服务器IP地址。",
-        "hostname_tips": "0-63个字符。仅允许使用字母、数字或连字符。必须以字母或数字开头和结尾，且不能仅由数字组成。",
         "err_address_reservation_description_max_length": "最大长度为256个字符",
         "err_reserved_ip_not_in_subnet": "保留IP地址不在子网内",
         "lan_ip_tips": "LAN 子网与 WAN 子网冲突，请将 LAN 子网更改为其他地址。",
@@ -104,7 +102,13 @@
         "err_iot_ip_conflict": "子网地址与物联网网络冲突。",
         "err_delete_has_bindings": "此子网仍有绑定，请先迁移后再删除。",
         "err_fixed_subnet_cannot_delete": "固定子网无法删除。",
-        "err_subnet_not_found": "未找到子网。"
+        "err_subnet_not_found": "未找到子网。",
+        "err_display_name_max_length": "名称不能超过32个字符。",
+        "hostname_tips": "2-63个字符。仅允许字母、数字或连字符。必须以字母或数字开头和结尾，且不能全部由数字组成。",
+        "not_asscess_tips": "当前 {name} 无法访问网络段 {net}。",
+        "err_vlan_id_must_be_integer": "VLAN ID 必须是一个整数。"
     },
-    "menu_vlan": "子网"
+    "menu_vlan": "子网",
+    "menu_guestip": "访客网络",
+    "menu_iotip": "IoT 网络"
 }

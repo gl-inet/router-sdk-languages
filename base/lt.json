@@ -130,7 +130,10 @@
         "share": "Dalintis",
         "note_tag": "Pastaba:",
         "please_select": "Prašome pasirinkti",
-        "dns_address_label": "DNS adresas"
+        "dns_address_label": "DNS adresas",
+        "terms_service": "Tarnybos sąlygos",
+        "privacy_policy": "Privatumo politika",
+        "agree_terms_privacy": "Aš perskaičiau ir sutinku {terms} & {privacy}"
     },
     "msg": {
         "being_process": "Apdorojama, prašome palaukti…",
@@ -144,13 +147,14 @@
         "interface_timeout": "Operacija užtruko per ilgai. Prašome patikrinti tinklo aplinką arba paleiskite įrenginį iš naujo (t.y. perkraukite).",
         "processing": "Apdorojama...",
         "please_note": "Atkreipkite dėmesį:",
-        "port_occupied": "{pavadinimas} prievadas užimtas",
+        "port_occupied": "{name} prievadas užimtas",
         "send_success_tips": "Nusiųsta sėkmingai!",
         "sign_up_success": "Sėkmingai prisiregistruota!",
         "successfully_badge_tips": "Sėkmingai!",
         "lack_of_memory_tips": "Dėl atminties trūkumo, galite bandyti paleisti iš naujo įrenginį, kad aukštutiniškai atnaujintumėte programinę įrangą.",
         "copy_success": "Kopijavimas sėkmingas",
-        "request_timeout_tip": "Užklausa baigėsi. Įsitikinkite, kad esate prisijungę/-usi prie šio maršrutizatoriaus ir atnaujinkite/įkelkite puslapį iš naujo."
+        "request_timeout_tip": "Užklausa baigėsi. Įsitikinkite, kad esate prisijungę/-usi prie šio maršrutizatoriaus ir atnaujinkite/įkelkite puslapį iš naujo.",
+        "low_memory_tips": "Įkelti programinės įrangos nepavyko dėl nepakankamos atminties. Prašome paleisti maršrutizatorių iš naujo arba laikinai uždarykite kai kurias programas, tada bandykite dar kartą."
     },
     "date": {
         "thursday": "Kt | Ketvirtadienis",

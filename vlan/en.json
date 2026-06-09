@@ -76,7 +76,6 @@
         "confirm_delete_subnet": "Are you sure you want to delete this network?",
         "lpr_serve_label": "LPR Server",
         "dhcp_charter_label": "Lease Time",
-        "err_display_name_max_length": "Display name must be 32 characters or fewer.",
         "err_dhcp_range_excludes_router_ip": "The DHCP pool must not include the router IP address.",
         "ipv4_ranges_tip": "You can set subnet within IPv4 private address ranges: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Subnet address conflicts with \"{target}\".",
@@ -94,7 +93,6 @@
         "block_wan_subnets_tip_iot": "If this function is enabled, the IoT network will not be able to access the upper network and the network segment where the upper network is located.",
         "block_wan_subnets_tip_custom": "If this function is enabled, the custom network will not be able to access the upper network and the network segment where the upper network is located.",
         "lpr_tips": "Enter one or more LPR server IP addresses.",
-        "hostname_tips": "0-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits.",
         "err_address_reservation_description_max_length": "The maximum length is 256 characters",
         "err_reserved_ip_not_in_subnet": "The reserved IP address is not within the subnet",
         "lan_ip_tips": "LAN subnet is in conflict with the WAN subnet, Please change LAN subnet to a different address.",
@@ -104,7 +102,13 @@
         "err_iot_ip_conflict": "Subnet address conflicts with the IoT network.",
         "err_delete_has_bindings": "This subnet still has bindings. Migrate them before deleting it.",
         "err_fixed_subnet_cannot_delete": "Fixed subnets cannot be deleted.",
-        "err_subnet_not_found": "Subnet not found."
+        "err_subnet_not_found": "Subnet not found.",
+        "err_display_name_max_length": "Name must be 32 characters or fewer.",
+        "hostname_tips": "2-63 characters. Only letters, digits or hyphens are allowed. Must start and end with a letter or digit, and cannot consist solely of digits.",
+        "not_asscess_tips": "Currently the {name} cannot access the network segments {net}.",
+        "err_vlan_id_must_be_integer": "VLAN ID must be an integer."
     },
-    "menu_vlan": "Subnet"
+    "menu_vlan": "Subnet",
+    "menu_guestip": "Guest Network",
+    "menu_iotip": "IoT Network"
 }

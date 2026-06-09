@@ -76,7 +76,6 @@
         "lpr_serve_label": "LPR Sunucusu",
         "dhcp_charter_label": "Kiralama Süresi",
         "add_reservation": "Yeni Bir Rezervasyon Girişi Ekle",
-        "err_display_name_max_length": "Görünen ad 32 karakter veya daha az olmalıdır.",
         "err_dhcp_range_excludes_router_ip": "DHCP havuzu, yönlendirici IP adresini içermemelidir.",
         "ipv4_ranges_tip": "IPv4 özel adres aralıkları içinde alt ağ ayarlayabilirsiniz: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Alt ağ adresi \"{target}\" ile çakışıyor.",
@@ -94,7 +93,6 @@
         "block_wan_subnets_tip_iot": "Bu işlev etkinleştirilirse, IoT ağı üst ağa ve üst ağın bulunduğu ağ segmentine erişemez.",
         "block_wan_subnets_tip_custom": "Bu işlev etkinleştirilirse, özel ağ üst ağa ve üst ağın bulunduğu ağ segmentine erişemez.",
         "lpr_tips": "Bir veya daha fazla LPR sunucu IP adresi girin.",
-        "hostname_tips": "0-63 karakter. Yalnızca harfler, rakamlar veya kısa çizgilere izin verilir. Harf veya rakamla başlamalı ve bitmeli, yalnızca rakamlardan oluşamaz.",
         "err_address_reservation_description_max_length": "Maksimum uzunluk 256 karakterdir.",
         "err_reserved_ip_not_in_subnet": "Ayrılmış IP adresi alt ağ içinde değil.",
         "lan_ip_tips": "LAN alt ağı, WAN alt ağı ile çakışıyor. Lütfen LAN alt ağını farklı bir adresle değiştirin.",
@@ -104,7 +102,13 @@
         "err_delete_has_bindings": "Bu alt ağda hala bağlantılar var. Silmeden önce bunları taşıyın.",
         "err_fixed_subnet_cannot_delete": "Sabit alt ağlar silinemez.",
         "err_subnet_not_found": "Alt ağ bulunamadı.",
-        "err_wan_ip_conflict": "Alt ağ adresi bir WAN alt ağı ile çakışıyor."
+        "err_wan_ip_conflict": "Alt ağ adresi bir WAN alt ağı ile çakışıyor.",
+        "err_display_name_max_length": "İsim 32 karakter veya daha az olmalıdır.",
+        "hostname_tips": "2-63 karakter. Sadece harfler, rakamlar veya kısa çizgilere izin verilir. Bir harf veya rakamla başlamalı ve bitmeli ve yalnızca rakamlardan oluşamaz.",
+        "not_asscess_tips": "Şu anda {name} ağ segmentlerine {net} erişemiyor.",
+        "err_vlan_id_must_be_integer": "VLAN ID bir tam sayı olmalıdır."
     },
-    "menu_vlan": "Alt ağ"
+    "menu_vlan": "Alt ağ",
+    "menu_guestip": "Misafir Ağı",
+    "menu_iotip": "IoT Ağı"
 }

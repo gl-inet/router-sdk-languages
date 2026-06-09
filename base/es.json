@@ -130,7 +130,10 @@
         "share": "Compartir",
         "note_tag": "Nota:",
         "please_select": "Por favor seleccione",
-        "dns_address_label": "Dirección DNS"
+        "dns_address_label": "Dirección DNS",
+        "privacy_policy": "Política de privacidad",
+        "agree_terms_privacy": "He leído y acepto {terms} y {privacy}",
+        "terms_service": "Términos del servicio"
     },
     "msg": {
         "access_denied": "¡Usuario no válido, permiso denegado o sesión no iniciada!",
@@ -150,7 +153,8 @@
         "sign_up_success": "¡Registrado con éxito!",
         "lack_of_memory_tips": "Debido a la falta de memoria, si desea actualizar el firmware, puede intentar reiniciar el dispositivo.",
         "copy_success": "Copia realizada correctamente",
-        "request_timeout_tip": "Tiempo de espera agotado. Asegúrese de estar conectado a este router y actualiza la página."
+        "request_timeout_tip": "Tiempo de espera agotado. Asegúrese de estar conectado a este router y actualiza la página.",
+        "low_memory_tips": "La carga de firmware falló debido a memoria insuficiente. Reinicie el enrutador o cierre temporalmente algunas aplicaciones, luego intente nuevamente."
     },
     "date": {
         "sunday": "Dom|Domingo",

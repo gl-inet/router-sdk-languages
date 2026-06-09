@@ -130,7 +130,10 @@
         "share": "Condividi",
         "note_tag": "Nota:",
         "please_select": "Seleziona",
-        "dns_address_label": "Indirizzo DNS"
+        "dns_address_label": "Indirizzo DNS",
+        "terms_service": "Termini di servizio",
+        "privacy_policy": "Informativa sulla privacy",
+        "agree_terms_privacy": "Ho letto e accetto {terms} e {privacy}"
     },
     "msg": {
         "access_denied": "Utente non valido, non connesso o con permesso negato!",
@@ -142,7 +145,7 @@
         "uninstalling": "In disinstallazione, attendere…",
         "unknown_err": "Errore sconosciuto. Verifica l'ambiente di rete o riavvia il dispositivo.",
         "interface_timeout": "Richiesta scaduta. Verifica l'ambiente di rete o riavvia il dispositivo.",
-        "port_occupied": "porto {nome} occupato",
+        "port_occupied": "porto {name} occupato",
         "please_note": "Notare che:",
         "processing": "In lavorazione...",
         "send_success_tips": "Inviato con successo!",
@@ -150,7 +153,8 @@
         "successfully_badge_tips": "Con successo!",
         "lack_of_memory_tips": "A causa della mancanza di memoria, se si desidera aggiornare il firmware, si può tentare di riavviare il dispositivo.",
         "copy_success": "Copia riuscita",
-        "request_timeout_tip": "Richiesta scaduta. Assicurati di essere connesso a questo router e aggiorna la pagina."
+        "request_timeout_tip": "Richiesta scaduta. Assicurati di essere connesso a questo router e aggiorna la pagina.",
+        "low_memory_tips": "Il caricamento del firmware è fallito a causa di memoria insufficiente. Riavviare il router o chiudere temporaneamente alcune applicazioni, quindi riprovare."
     },
     "date": {
         "day": "giorno(i)",

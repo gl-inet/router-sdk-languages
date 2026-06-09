@@ -130,7 +130,10 @@
         "share": "Partager",
         "note_tag": "Remarque :",
         "please_select": "Veuillez sélectionner",
-        "dns_address_label": "Adresse DNS"
+        "dns_address_label": "Adresse DNS",
+        "terms_service": "Conditions d'utilisation",
+        "agree_terms_privacy": "J'ai lu et j'accepte {terms} & {privacy}",
+        "privacy_policy": "Politique de confidentialité"
     },
     "msg": {
         "access_denied": "Utilisateur invalide, permission refusée ou non connecté !",
@@ -150,7 +153,8 @@
         "successfully_badge_tips": "Avec succès !",
         "lack_of_memory_tips": "En raison d'un manque de mémoire, si vous souhaitez mettre à jour le firmware, vous pouvez essayer de redémarrer l'appareil.",
         "copy_success": "Copie réussie",
-        "request_timeout_tip": "La requête a expiré. Veuillez vous assurer que vous êtes connecté à ce routeur et actualiser la page."
+        "request_timeout_tip": "La requête a expiré. Veuillez vous assurer que vous êtes connecté à ce routeur et actualiser la page.",
+        "low_memory_tips": "Échec du téléchargement du firmware en raison d'une mémoire insuffisante. Veuillez redémarrer le routeur ou fermer temporairement certaines applications, puis réessayez."
     },
     "date": {
         "day": "jour(s)",

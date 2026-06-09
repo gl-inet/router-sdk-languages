@@ -76,7 +76,6 @@
         "address_reservation_tip": "Wenn Sie eine reservierte IP-Adresse für einen LAN-Client festlegen, erhält der Client immer dieselbe IP-Adresse, wenn er eine IP-Adresse vom DHCP-Server des Routers anfordert. Sie können reservierte IP-Adressen Computern oder Servern zuweisen, die permanente IP-Einstellungen benötigen.",
         "no_interfaces": "Nicht in Verwendung",
         "delete_all": "Alle löschen",
-        "err_display_name_max_length": "Anzeigename darf maximal 32 Zeichen lang sein.",
         "err_dhcp_range_excludes_router_ip": "Der DHCP-Pool darf nicht die Router-IP-Adresse enthalten.",
         "ipv4_ranges_tip": "Sie können Subnetze innerhalb der privaten IPv4-Adressbereiche festlegen: 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8",
         "err_subnet_conflict_with": "Subnetz-Adresse steht in Konflikt mit \"{target}\".",
@@ -94,7 +93,6 @@
         "block_wan_subnets_tip_iot": "Wenn diese Funktion aktiviert ist, kann das IoT-Netzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen.",
         "block_wan_subnets_tip_custom": "Wenn diese Funktion aktiviert ist, kann das benutzerdefinierte Netzwerk nicht auf das übergeordnete Netzwerk und das Netzwerksegment, in dem sich das übergeordnete Netzwerk befindet, zugreifen.",
         "lpr_tips": "Geben Sie eine oder mehrere LPR-Server-IP-Adressen ein.",
-        "hostname_tips": "0-63 Zeichen. Nur Buchstaben, Ziffern oder Bindestriche sind erlaubt. Muss mit einem Buchstaben oder einer Ziffer beginnen und enden und darf nicht ausschließlich aus Ziffern bestehen.",
         "err_address_reservation_description_max_length": "Die maximale Länge beträgt 256 Zeichen.",
         "err_reserved_ip_not_in_subnet": "Die reservierte IP-Adresse liegt nicht im Subnetz.",
         "lan_ip_tips": "Das LAN-Subnetz steht im Konflikt mit dem WAN-Subnetz. Bitte ändern Sie das LAN-Subnetz auf eine andere Adresse.",
@@ -104,7 +102,13 @@
         "err_iot_ip_conflict": "Subnetzadresse kollidiert mit dem IoT-Netzwerk.",
         "err_delete_has_bindings": "Dieses Subnetz hat noch Bindungen. Migrieren Sie diese vor dem Löschen.",
         "err_fixed_subnet_cannot_delete": "Feste Subnetze können nicht gelöscht werden.",
-        "err_subnet_not_found": "Subnetz nicht gefunden."
+        "err_subnet_not_found": "Subnetz nicht gefunden.",
+        "err_display_name_max_length": "Der Name darf maximal 32 Zeichen lang sein.",
+        "hostname_tips": "2-63 Zeichen. Es sind nur Buchstaben, Ziffern oder Bindestriche erlaubt. Muss mit einem Buchstaben oder einer Ziffer beginnen und enden, und darf nicht ausschließlich aus Ziffern bestehen.",
+        "not_asscess_tips": "Aktuell kann {name} nicht auf die Netzwerksegmente {net} zugreifen.",
+        "err_vlan_id_must_be_integer": "VLAN ID muss eine Ganzzahl sein."
     },
-    "menu_vlan": "Subnetz"
+    "menu_vlan": "Subnetz",
+    "menu_guestip": "Gastnetzwerk",
+    "menu_iotip": "IoT-Netzwerk"
 }
