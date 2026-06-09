@@ -42,7 +42,8 @@
         "sub_tips": "Quando utilizzi {mode}, non sarai più in grado di connetterti a questa interfaccia utente. Puoi premere e tenere premuto il pulsante di reset per 4 secondi per tornare alla modalità router.",
         "reset_wan_port_msg": "Configura {port} come porta WAN e collega solo un cavo Ethernet a {port}.",
         "unplug_cable_msg": "Si prega di scollegare il cavo Ethernet dalla porta {port}.",
-        "change_router_network_mode_tips": "La modifica della modalità di rete del router reimposterà alcune impostazioni di rete, come {feature}, e tutti i dispositivi client dovranno riconnettersi."
+        "change_router_network_mode_tips": "La modifica della modalità di rete del router reimposterà alcune impostazioni di rete, come {feature}, e tutti i dispositivi client dovranno riconnettersi.",
+        "mode_switch_brief_network_loss_tips": "Il cambio di modalità ripristinerà le impostazioni predefinite delle porte di rete, il che potrebbe causare una breve interruzione di rete. Al termine, ricollegare il cavo di rete e regolare la connessione secondo necessità."
     },
     "menu_bridge": "Modalità di rete"
 }
