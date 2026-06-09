@@ -105,7 +105,8 @@
         "err_fixed_subnet_cannot_delete": "Ní féidir fo-líonraí seasta a scriosadh.",
         "err_display_name_max_length": "Ní mór don ainm a bheith 32 carachtar ar a laghad.",
         "hostname_tips": "2-63 carachtar. Ní cheadaítear ach litreacha, digití nó fleiscíní. Caithfidh sé tosú agus críochnú le litir nó digit, agus ní féidir é a bheith comhdhéanta de digití amháin.",
-        "not_asscess_tips": "Faoi láthair ní féidir le {name} rochtain a fháil ar na codanna líonra {net}."
+        "not_asscess_tips": "Faoi láthair ní féidir le {name} rochtain a fháil ar na codanna líonra {net}.",
+        "err_vlan_id_must_be_integer": "Caithfidh VLAN ID a bheith ina shlánuimhir."
     },
     "menu_vlan": "Fo-líonra",
     "menu_guestip": "Líonra Aoi",
