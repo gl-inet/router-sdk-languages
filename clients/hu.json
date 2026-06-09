@@ -61,7 +61,7 @@
         "import_mac_add_tips": "A sikeresen importált MAC címek hozzá lesznek fűzve a listához.",
         "parse_mac_error_tips": "Nem sikerült feloldani a MAC-címet, kérjük, ellenőrizze a fájlt és töltse fel újra.",
         "parse_mac_success_tips": "1 érvényes MAC cím feloldásra került. | {count} érvényes MAC cím feloldásra került.",
-        "parse_mac_warning_tips": "Ha az importálást megerősítik, az 1 érvénytelen MAC-című bejegyzés el lesz dobva.",
+        "parse_mac_warning_tips": "1 bejegyzés nem érvényes MAC-cím, importálás megerősítése esetén elvetésre kerül. | {count} bejegyzés nem érvényes MAC-cím, importálás megerősítése esetén elvetésre kerülnek.",
         "import_btn": "Importálás",
         "blacklist_self_error_tips": "Tiltsa meg a saját MAC cím hozzáadását a tiltólistához.",
         "whitelist_self_error_tips": "Az engedélyezési lista tartalmaznia kell a saját MAC-címet.",
