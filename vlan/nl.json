@@ -105,7 +105,8 @@
         "err_delete_has_bindings": "Dit subnet heeft nog bindingen. Migreer ze voordat u het verwijdert.",
         "err_display_name_max_length": "Naam moet 32 tekens of minder zijn.",
         "hostname_tips": "2-63 tekens. Alleen letters, cijfers of koppeltekens zijn toegestaan. Moet beginnen en eindigen met een letter of cijfer, en mag niet alleen uit cijfers bestaan.",
-        "not_asscess_tips": "Momenteel heeft {name} geen toegang tot de netwerksegmenten {net}."
+        "not_asscess_tips": "Momenteel heeft {name} geen toegang tot de netwerksegmenten {net}.",
+        "err_vlan_id_must_be_integer": "VLAN ID moet een geheel getal zijn."
     },
     "menu_vlan": "subnet",
     "menu_guestip": "Gast-netwerk",
