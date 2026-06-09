@@ -105,7 +105,8 @@
         "err_wan_ip_conflict": "Alt ağ adresi bir WAN alt ağı ile çakışıyor.",
         "err_display_name_max_length": "İsim 32 karakter veya daha az olmalıdır.",
         "hostname_tips": "2-63 karakter. Sadece harfler, rakamlar veya kısa çizgilere izin verilir. Bir harf veya rakamla başlamalı ve bitmeli ve yalnızca rakamlardan oluşamaz.",
-        "not_asscess_tips": "Şu anda {name} ağ segmentlerine {net} erişemiyor."
+        "not_asscess_tips": "Şu anda {name} ağ segmentlerine {net} erişemiyor.",
+        "err_vlan_id_must_be_integer": "VLAN ID bir tam sayı olmalıdır."
     },
     "menu_vlan": "Alt ağ",
     "menu_guestip": "Misafir Ağı",
