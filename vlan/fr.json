@@ -105,7 +105,8 @@
         "err_iot_ip_conflict": "L'adresse du sous-réseau est en conflit avec le réseau IoT.",
         "err_display_name_max_length": "Le nom doit comporter 32 caractères ou moins.",
         "hostname_tips": "2 à 63 caractères. Seules les lettres, les chiffres ou les traits d'union sont autorisés. Doit commencer et se terminer par une lettre ou un chiffre, et ne peut pas être constitué uniquement de chiffres.",
-        "not_asscess_tips": "Actuellement, le {name} ne peut pas accéder aux segments réseau {net}."
+        "not_asscess_tips": "Actuellement, le {name} ne peut pas accéder aux segments réseau {net}.",
+        "err_vlan_id_must_be_integer": "L'ID VLAN doit être un entier."
     },
     "menu_vlan": "Sous-réseau",
     "menu_guestip": "Réseau invité",
