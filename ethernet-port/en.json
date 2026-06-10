@@ -49,7 +49,9 @@
         "connection_link_down": "Link down",
         "drawer_title": "Port {n}: {silk} {configuration}",
         "full_duplex": "full duplex",
-        "two_port_label": "{port1} and {port2}"
+        "two_port_label": "{port1} and {port2}",
+        "network_assignment": "Untagged Traffic Handling",
+        "drop_untagged_packets": "Drop Untagged Packets"
     },
     "menu_ethernet-port": "Ethernet Port"
 }
