@@ -49,7 +49,9 @@
         "connection_link_down": "Соединение разорвано",
         "drawer_title": "Порт {n}: {silk} {configuration}",
         "full_duplex": "полный дуплекс",
-        "two_port_label": "{port1} и {port2}"
+        "two_port_label": "{port1} и {port2}",
+        "network_assignment": "Обработка нетегированного трафика",
+        "drop_untagged_packets": "Отбрасывать нетегированные пакеты"
     },
     "menu_ethernet-port": "Порт Ethernet"
 }
