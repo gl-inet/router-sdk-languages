@@ -49,7 +49,9 @@
         "connection_link_down": "Verbinding verbroken",
         "drawer_title": "Poort {n}: {silk} {configuration}",
         "full_duplex": "full duplex",
-        "two_port_label": "{port1} en {port2}"
+        "two_port_label": "{port1} en {port2}",
+        "network_assignment": "Afhandeling van ongetagd verkeer",
+        "drop_untagged_packets": "Ongetagde pakketten laten vallen"
     },
     "menu_ethernet-port": "Ethernetpoort"
 }
