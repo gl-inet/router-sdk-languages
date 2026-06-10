@@ -49,7 +49,9 @@
         "connection_link_up": "Зв'язок встановлено",
         "drawer_title": "Порт {n}: {silk} {configuration}",
         "full_duplex": "повний дуплекс",
-        "two_port_label": "{port1} та {port2}"
+        "two_port_label": "{port1} та {port2}",
+        "network_assignment": "Обробка нетегованого трафіку",
+        "drop_untagged_packets": "Відкидати нетеговані пакети"
     },
     "menu_ethernet-port": "Порт Ethernet"
 }
