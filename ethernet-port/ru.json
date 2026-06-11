@@ -38,7 +38,6 @@
         "auto_update_mac": "Автоматическое обновление MAC",
         "negotiated_port_rate": "Согласованная скорость сетевого порта",
         "mac_replacement": "Интервал замены MAC",
-        "network_assignment": "Родная сеть (PVID / Нетэгированная)",
         "network_assignment_tips": "PVID — это сеть по умолчанию для нетэгированного трафика. Трафик от нетэгированных устройств будет назначен этой сети.",
         "select_network": "Выбрать сеть",
         "allowed_tagged_networks": "Разрешенные тегированные сети",
@@ -50,7 +49,9 @@
         "connection_link_down": "Соединение разорвано",
         "drawer_title": "Порт {n}: {silk} {configuration}",
         "full_duplex": "полный дуплекс",
-        "two_port_label": "{port1} и {port2}"
+        "two_port_label": "{port1} и {port2}",
+        "network_assignment": "Обработка нетегированного трафика",
+        "drop_untagged_packets": "Отбрасывать нетегированные пакеты"
     },
     "menu_ethernet-port": "Порт Ethernet"
 }

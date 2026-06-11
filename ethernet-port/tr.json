@@ -39,7 +39,6 @@
         "negotiated_port_rate": "Anlaşmalı Ağ Bağlantı Noktası Hızı",
         "mac_replacement": "MAC Değiştirme Aralığı",
         "vlan_mode_tips": "Standart mod yalnızca bir VLAN'a (Etiketsiz) izin verir ve uç cihazları bağlamak için kullanılır. Çoklu VLAN modu, bir bağlantı noktasında birden fazla VLAN'a (Etiketli) izin verir, genellikle Erişim Noktalarını veya diğer anahtarları bağlamak için kullanılır.",
-        "network_assignment": "Yerel Ağ (PVID / Etiketsiz)",
         "network_assignment_tips": "PVID, etiketsiz trafik için varsayılan ağdır. Etiketsiz cihazlardan gelen trafik bu ağa atanacaktır.",
         "select_network": "Ağ seç",
         "allowed_tagged_networks": "İzin Verilen Etiketli Ağlar",
@@ -50,7 +49,9 @@
         "connection_link_down": "Bağlantı kesildi",
         "drawer_title": "Port {n}: {silk} {configuration}",
         "full_duplex": "Tam çift yönlü",
-        "two_port_label": "{port1} ve {port2}"
+        "two_port_label": "{port1} ve {port2}",
+        "network_assignment": "Etiketlenmemiş Trafiği İşleme",
+        "drop_untagged_packets": "Etiketlenmemiş Paketleri Düşür"
     },
     "menu_ethernet-port": "Ethernet Bağlantı Noktası"
 }

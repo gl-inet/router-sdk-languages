@@ -39,7 +39,6 @@
         "negotiated_port_rate": "Tasa de Puerto de Red Negociada",
         "mac_replacement": "Intervalo de Reemplazo de MAC",
         "vlan_mode_tips": "El modo estándar permite solo una VLAN (sin etiquetar), utilizada para conectar dispositivos finales. El modo de múltiples VLAN permite múltiples VLAN (etiquetadas) en un puerto, típicamente para conectar APs u otros switches.",
-        "network_assignment": "Red Nativa (PVID / Sin Etiquetar)",
         "network_assignment_tips": "PVID es la red predeterminada para el tráfico sin etiquetar. El tráfico de dispositivos sin etiquetar se asignará a esta red.",
         "select_network": "Seleccionar red",
         "allowed_tagged_networks": "Redes Etiquetadas Permitidas",
@@ -51,6 +50,8 @@
         "connection_link_down": "Enlace caído",
         "drawer_title": "Puerto {n}: {silk} {configuration}",
         "full_duplex": "full duplex",
-        "two_port_label": "{port1} y {port2}"
+        "two_port_label": "{port1} y {port2}",
+        "network_assignment": "Gestión del tráfico sin etiquetar",
+        "drop_untagged_packets": "Descartar paquetes sin etiquetar"
     }
 }

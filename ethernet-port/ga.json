@@ -38,7 +38,6 @@
         "port_mode_tip_lan": "Ceanglaíonn an port LAN le gléasanna áitiúla nó le lasca iartheachtacha.",
         "mac_replacement": "Eatramh Athsholáthair MAC",
         "vlan_mode_tips": "Sa mhodh caighdeánach, ní cheadaítear ach VLAN amháin (Gan Chlibeáil), a úsáidtear chun gléasanna deiridh a nascadh. Ceadaíonn an modh Il-VLANanna il-VLANanna (Clibeáilte) ar aon phort amháin, de ghnáth chun APanna nó lasca eile a nascadh.",
-        "network_assignment": "Líonra Dúchais (PVID / Neamhchlibeáilte)",
         "network_assignment_tips": "Is é PVID an líonra réamhshocraithe don trácht neamhchlibeáilte. Sanntar an trácht ó ghléasanna neamhchlibeáilte don líonra seo.",
         "select_network": "Roghnaigh líonra",
         "allowed_tagged_networks": "Líonraí Clibeáilte Ceadaithe",
@@ -51,6 +50,8 @@
         "connection_link_down": "Nasc síos",
         "drawer_title": "Calafort {n}: {silk} {configuration}",
         "full_duplex": "lán-dhúbailte",
-        "two_port_label": "{port1} agus {port2}"
+        "two_port_label": "{port1} agus {port2}",
+        "network_assignment": "Láimhseáil Tráchta Gan Chlib",
+        "drop_untagged_packets": "Caith Paicéid Gan Chlib Amach"
     }
 }

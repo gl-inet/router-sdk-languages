@@ -39,7 +39,6 @@
         "negotiated_port_rate": "Onderhandelde netwerkpoortsnelheid",
         "mac_replacement": "MAC-vervangingsinterval",
         "vlan_mode_tips": "Standaardmodus staat slechts één VLAN (Ongemarkeerd) toe, gebruikt voor het aansluiten van eindapparaten. Meerdere VLAN's-modus staat meerdere VLAN's (Gemarkeerd) toe op één poort, typisch voor het aansluiten van AP's of andere switches.",
-        "network_assignment": "Native netwerk (PVID / Ongetagd)",
         "network_assignment_tips": "PVID is het standaardnetwerk voor ongetagd verkeer. Verkeer van ongetagde apparaten wordt aan dit netwerk toegewezen.",
         "select_network": "Selecteer netwerk",
         "select_networks": "Selecteer netwerken",
@@ -50,7 +49,9 @@
         "connection_link_down": "Verbinding verbroken",
         "drawer_title": "Poort {n}: {silk} {configuration}",
         "full_duplex": "full duplex",
-        "two_port_label": "{port1} en {port2}"
+        "two_port_label": "{port1} en {port2}",
+        "network_assignment": "Afhandeling van ongetagd verkeer",
+        "drop_untagged_packets": "Ongetagde pakketten laten vallen"
     },
     "menu_ethernet-port": "Ethernetpoort"
 }

@@ -39,7 +39,6 @@
         "auto_update_mac": "Mise à jour automatique de l'adresse MAC",
         "negotiated_port_rate": "Débit négocié du port réseau",
         "mac_replacement": "Intervalle de remplacement de l'adresse MAC",
-        "network_assignment": "Réseau natif (PVID / Non étiqueté)",
         "network_assignment_tips": "Le PVID est le réseau par défaut pour le trafic non étiqueté. Le trafic provenant d'appareils non étiquetés sera attribué à ce réseau.",
         "select_network": "Sélectionner le réseau",
         "allowed_tagged_networks": "Réseaux étiquetés autorisés",
@@ -51,6 +50,8 @@
         "connection_link_down": "Lien inactif",
         "drawer_title": "Port {n} : {silk} {configuration}",
         "full_duplex": "full duplex",
-        "two_port_label": "{port1} et {port2}"
+        "two_port_label": "{port1} et {port2}",
+        "network_assignment": "Gestion du trafic non étiqueté",
+        "drop_untagged_packets": "Rejeter les paquets non étiquetés"
     }
 }

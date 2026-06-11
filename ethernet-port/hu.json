@@ -38,7 +38,6 @@
         "port_mode_tip_lan": "A LAN port helyi eszközökhöz vagy lefelé irányuló kapcsolókhoz csatlakozik.",
         "auto_update_mac": "MAC-cím automatikus frissítése",
         "mac_replacement": "MAC-cím cseréjének időköze",
-        "network_assignment": "Natív hálózat (PVID / Címkézetlen)",
         "network_assignment_tips": "A PVID az alapértelmezett hálózat a címkézetlen forgalom számára. A címkézetlen eszközökről érkező forgalom ehhez a hálózathoz lesz rendelve.",
         "select_network": "Hálózat kiválasztása",
         "allowed_tagged_networks": "Engedélyezett címkézett hálózatok",
@@ -51,6 +50,8 @@
         "connection_link_down": "Kapcsolat megszakadt",
         "drawer_title": "{n} port: {silk} {configuration}",
         "full_duplex": "teljes duplex",
-        "two_port_label": "{port1} és {port2}"
+        "two_port_label": "{port1} és {port2}",
+        "network_assignment": "Címkézetlen forgalom kezelése",
+        "drop_untagged_packets": "Címkézetlen csomagok eldobása"
     }
 }

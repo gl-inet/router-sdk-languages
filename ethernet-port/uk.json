@@ -39,7 +39,6 @@
         "negotiated_port_rate": "Узгоджена швидкість порту мережі",
         "mac_replacement": "Інтервал заміни MAC",
         "vlan_mode_tips": "Стандартний режим дозволяє лише одну VLAN (без тега), що використовується для підключення кінцевих пристроїв. Режим кількох VLAN дозволяє кілька VLAN (з тегами) на одному порту, зазвичай для підключення точок доступу або інших комутаторів.",
-        "network_assignment": "Рідна мережа (PVID / Нетегована)",
         "network_assignment_tips": "PVID — це мережа за замовчуванням для нетегованого трафіку. Трафік від нетегованих пристроїв буде призначено цій мережі.",
         "select_network": "Вибрати мережу",
         "allowed_tagged_networks": "Дозволені теговані мережі",
@@ -50,7 +49,9 @@
         "connection_link_up": "Зв'язок встановлено",
         "drawer_title": "Порт {n}: {silk} {configuration}",
         "full_duplex": "повний дуплекс",
-        "two_port_label": "{port1} та {port2}"
+        "two_port_label": "{port1} та {port2}",
+        "network_assignment": "Обробка нетегованого трафіку",
+        "drop_untagged_packets": "Відкидати нетеговані пакети"
     },
     "menu_ethernet-port": "Порт Ethernet"
 }

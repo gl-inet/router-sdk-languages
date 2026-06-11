@@ -31,7 +31,6 @@
         "max_wan_reached": "WAN 포트는 2개만 허용됩니다. 먼저 다른 포트를 LAN으로 전환해 주세요.",
         "mac_mode": "MAC 모드",
         "vlan_mode_tips": "표준 모드는 하나의 VLAN(Untagged)만 허용하며, 최종 장치 연결에 사용됩니다. 다중 VLAN 모드는 하나의 포트에서 여러 VLAN(Tagged)을 허용하며, 일반적으로 AP 또는 다른 스위치 연결에 사용됩니다.",
-        "network_assignment": "기본 네트워크 (PVID / 태그 미지정)",
         "select_network": "네트워크 선택",
         "module_status": "모듈 상태",
         "not_inserted": "삽입되지 않음",
@@ -50,7 +49,9 @@
         "connection_link_down": "링크 다운",
         "drawer_title": "포트 {n}: {silk} {configuration}",
         "full_duplex": "전이중",
-        "two_port_label": "{port1} 및 {port2}"
+        "two_port_label": "{port1} 및 {port2}",
+        "network_assignment": "태그 없는 트래픽 처리",
+        "drop_untagged_packets": "태그 없는 패킷 삭제"
     },
     "menu_ethernet-port": "이더넷 포트"
 }

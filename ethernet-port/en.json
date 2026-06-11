@@ -39,7 +39,6 @@
         "negotiated_port_rate": "Negotiated Network Port Rate",
         "mac_replacement": "MAC Replacement Interval",
         "vlan_mode_tips": "Standard mode allows only one VLAN (Untagged), used for connecting end devices. Multiple VLANs mode allows multiple VLANs (Tagged) on one port, typically for connecting APs or other switches.",
-        "network_assignment": "Native Network (PVID / Untagged)",
         "network_assignment_tips": "PVID is the default network for untagged traffic. Traffic from untagged devices will be assigned to this network.",
         "select_network": "Select network",
         "allowed_tagged_networks": "Allowed Tagged Networks",
@@ -50,7 +49,9 @@
         "connection_link_down": "Link down",
         "drawer_title": "Port {n}: {silk} {configuration}",
         "full_duplex": "full duplex",
-        "two_port_label": "{port1} and {port2}"
+        "two_port_label": "{port1} and {port2}",
+        "network_assignment": "Untagged Traffic Handling",
+        "drop_untagged_packets": "Drop Untagged Packets"
     },
     "menu_ethernet-port": "Ethernet Port"
 }
