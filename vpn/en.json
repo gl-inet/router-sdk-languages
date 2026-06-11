@@ -382,7 +382,16 @@
         "expressvpn_custom_invalid_license": "Invalid License",
         "expressvpn_custom_manual_title": "Add Manually",
         "expressvpn_custom_manual_desc": "Import a WireGuard configuration file for a custom profile—no ExpressVPN sign-in required.",
-        "expressvpn_custom_order_placeholder": "e.g.113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "e.g.113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "Claim 12-Month Plan",
+        "expressvpn_custom_claim_dialog_desc": "Enter the credentials from your router purchase. You will finish the claim on ExpressVPN, then return here to authorize this router.",
+        "expressvpn_custom_purchase_source_label": "Purchase Source",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_label": "Order Email",
+        "expressvpn_custom_order_email_placeholder": "Email used for your GL.iNet Store order",
+        "expressvpn_custom_credentials_error": "Verification unsuccessful. Invalid credentials or already activated, cannot be reused.",
+        "expressvpn_custom_checkout_opened": "ExpressVPN checkout page opened in a new tab."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
