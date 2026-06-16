@@ -392,7 +392,9 @@
         "expressvpn_custom_order_email_placeholder": "Електронна пошта, використана для вашого замовлення в GL.iNet Store",
         "expressvpn_custom_credentials_error": "Перевірка неуспішна. Недійсні облікові дані або вже активовано, повторне використання неможливе.",
         "expressvpn_custom_checkout_opened": "Сторінку оформлення ExpressVPN відкрито в новій вкладці.",
-        "expressvpn_custom_glinet_order_placeholder": "наприклад, GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "наприклад, GL-1234",
+        "number_allowed_devices_label": "Кількість дозволених пристроїв",
+        "wg_xvpn_limit_tips": "Обліковий запис досяг максимальної кількості пов’язаних пристроїв. Перейдіть до {provider}, щоб відв’язати пристрій."
     },
     "menu_wgserver": "WireGuard сервер",
     "menu_ovpnserver": "OpenVPN-сервер",
@@ -438,7 +440,13 @@
         "expressvpn_business_msg": "Запит ExpressVPN було відхилено. Перевірте статус облікового запису або пристрою.",
         "expressvpn_device_config_msg": "Конфігурація пристрою відсутня. Зверніться до служби підтримки.",
         "expressvpn_no_subscription_msg": "Для цього облікового запису не знайдено активної підписки ExpressVPN.",
-        "expressvpn_internal_msg": "Помилка служби ExpressVPN. Спробуйте пізніше."
+        "expressvpn_internal_msg": "Помилка служби ExpressVPN. Спробуйте пізніше.",
+        "credentials_changed_msg": "Ваші облікові дані було змінено. Увійдіть знову.",
+        "device_token_expired_msg": "Токен недійсний. Увійдіть знову, щоб відновити з’єднання.",
+        "device_bind_failed_msg": "Не вдалося прив’язати цей маршрутизатор до вашого облікового запису. Перевірте мережеве підключення та спробуйте ще раз.",
+        "premium_account_required_msg": "Потрібна преміумпідписка. Поновіть ліцензію.",
+        "provider_token_invalid_msg": "Токен недійсний. Увійдіть знову, щоб відновити з’єднання.",
+        "account_disabled_msg": "Ваш обліковий запис деактивовано. Зверніться до служби підтримки XVPN."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Додайте клієнта до списку тунелів політики VPN. Якщо ви хочете внести більш детальні зміни до тунелів, будь ласка, перейдіть на {page}, щоб керувати тунелями.",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Двофакторна автентифікація",
         "two_factor_authentication_desc": "Введіть 6-значний OTP-код із вашого застосунку автентифікації, щоб завершити вхід.",
         "two_factor_verification_failed_tips": "Перевірка не вдалася. Переконайтеся, що ви ввели правильний код.",
-        "two_factor_verifying_tips": "Перевірка, зачекайте хвилинку..."
+        "two_factor_verifying_tips": "Перевірка, зачекайте хвилинку...",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Спадщина",
