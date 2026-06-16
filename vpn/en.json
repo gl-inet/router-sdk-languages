@@ -392,7 +392,9 @@
         "expressvpn_custom_order_email_placeholder": "Email used for your GL.iNet Store order",
         "expressvpn_custom_credentials_error": "Verification unsuccessful. Invalid credentials or already activated, cannot be reused.",
         "expressvpn_custom_checkout_opened": "ExpressVPN checkout page opened in a new tab.",
-        "expressvpn_custom_glinet_order_placeholder": "e.g. GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "e.g. GL-1234",
+        "number_allowed_devices_label": "Number of Allowed Devices",
+        "wg_xvpn_limit_tips": "The account has reached the maximum limit of linked devices. Please go to {provider} to unlink a device."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -438,7 +440,13 @@
         "expressvpn_login_expired_msg": "Login session has expired. Please try again.",
         "expressvpn_no_subscription_msg": "No active ExpressVPN subscription was found for this account.",
         "expressvpn_business_msg": "ExpressVPN request was rejected. Please check the account or device status.",
-        "expressvpn_internal_msg": "ExpressVPN service error. Please try again later."
+        "expressvpn_internal_msg": "ExpressVPN service error. Please try again later.",
+        "premium_account_required_msg": "Premium subscription is required. Please renew your license.",
+        "provider_token_invalid_msg": "Token is invalid. Please log in again to restore your connection.",
+        "credentials_changed_msg": "Your credentials have been changed. Please log in again.",
+        "account_disabled_msg": "Your account has been deactivated. Please reach out to XVPN support.",
+        "device_token_expired_msg": "Token is invalid. Please log in again to restore your connection.",
+        "device_bind_failed_msg": "Unable to bind this router to your account. Please check your network connection and try again."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Use VPN Tunnel",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Two-Factor Authentication",
         "two_factor_authentication_desc": "Enter the 6-digit OTP code from your authenticator app to complete login.",
         "two_factor_verifying_tips": "Verifying, please wait a moment...",
-        "two_factor_verification_failed_tips": "Verification failed. Make sure you enter the correct code."
+        "two_factor_verification_failed_tips": "Verification failed. Make sure you enter the correct code.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
