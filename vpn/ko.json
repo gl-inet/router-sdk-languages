@@ -659,7 +659,11 @@
         "remove_config_btn": "구성 삭제",
         "reomving_config_warning_tips": "삭제하시겠습니까?",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address})가 {interface}와 충돌합니다.",
-        "groups_expressvpn_desc": "{custom} 사용을 원하시나요? 새 그룹을 만들어 구성 파일을 추가하세요."
+        "groups_expressvpn_desc": "{custom} 사용을 원하시나요? 새 그룹을 만들어 구성 파일을 추가하세요.",
+        "two_factor_authentication_title": "2단계 인증",
+        "two_factor_authentication_desc": "로그인을 완료하려면 인증 앱의 6자리 OTP 코드를 입력하세요.",
+        "two_factor_verifying_tips": "확인 중입니다. 잠시만 기다려 주세요...",
+        "two_factor_verification_failed_tips": "확인에 실패했습니다. 올바른 코드를 입력했는지 확인하세요."
     },
     "ovpnclient": {
         "legacy_label": "레거시",
