@@ -392,7 +392,9 @@
         "expressvpn_custom_credentials_error": "인증에 실패했습니다. 자격 증명이 유효하지 않거나 이미 활성화되어 재사용할 수 없습니다.",
         "expressvpn_custom_checkout_opened": "ExpressVPN 결제 페이지가 새 탭에서 열렸습니다.",
         "expressvpn_custom_claim_dialog_desc": "라우터 구매 정보를 입력하세요. ExpressVPN에서 신청을 완료한 후 여기로 돌아와 이 라우터를 인증하세요.",
-        "expressvpn_custom_glinet_order_placeholder": "예: GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "예: GL-1234",
+        "number_allowed_devices_label": "허용된 기기 수",
+        "wg_xvpn_limit_tips": "계정이 연결된 기기의 최대 한도에 도달했습니다. {provider}로 이동하여 기기 연결을 해제하세요."
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",
@@ -438,7 +440,13 @@
         "expressvpn_login_expired_msg": "로그인 세션이 만료되었습니다. 다시 시도하십시오.",
         "expressvpn_no_subscription_msg": "이 계정에 대한 활성 ExpressVPN 구독을 찾을 수 없습니다.",
         "expressvpn_business_msg": "ExpressVPN 요청이 거부되었습니다. 계정 또는 장치 상태를 확인하십시오.",
-        "expressvpn_internal_msg": "ExpressVPN 서비스 오류가 발생했습니다. 나중에 다시 시도하십시오."
+        "expressvpn_internal_msg": "ExpressVPN 서비스 오류가 발생했습니다. 나중에 다시 시도하십시오.",
+        "provider_token_invalid_msg": "토큰이 유효하지 않습니다. 연결을 복원하려면 다시 로그인하세요.",
+        "credentials_changed_msg": "인증 정보가 변경되었습니다. 다시 로그인하세요.",
+        "device_token_expired_msg": "토큰이 유효하지 않습니다. 연결을 복원하려면 다시 로그인하세요.",
+        "device_bind_failed_msg": "이 라우터를 계정에 바인딩할 수 없습니다. 네트워크 연결을 확인한 후 다시 시도하세요.",
+        "premium_account_required_msg": "프리미엄 구독이 필요합니다. 라이선스를 갱신하세요.",
+        "account_disabled_msg": "계정이 비활성화되었습니다. XVPN 지원팀에 문의하세요."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN 정책 기반 터널 목록에 클라이언트를 추가하십시오. 터널에 대한 더 자세한 변경을 하고 싶다면 {page}로 이동하여 터널을 관리하십시오.",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "2단계 인증",
         "two_factor_authentication_desc": "로그인을 완료하려면 인증 앱의 6자리 OTP 코드를 입력하세요.",
         "two_factor_verifying_tips": "확인 중입니다. 잠시만 기다려 주세요...",
-        "two_factor_verification_failed_tips": "확인에 실패했습니다. 올바른 코드를 입력했는지 확인하세요."
+        "two_factor_verification_failed_tips": "확인에 실패했습니다. 올바른 코드를 입력했는지 확인하세요.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "레거시",
