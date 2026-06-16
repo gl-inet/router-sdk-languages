@@ -48,7 +48,8 @@
         "cake_autorate_tips": "Envoie en continu de petites sondes de latence ICMP aux serveurs réflecteurs, observe le délai aller-retour, et abaisse ou augmente dynamiquement la bande passante du formateur CAKE pour supprimer le bufferbloat. Il n'exécute PAS de tests de vitesse actifs.",
         "queue_discipline_tips": "Choisissez l'algorithme de file d'attente. cake offre une gestion intelligente et automatique du trafic avec le meilleur contrôle global de la latence. fq_codel fournit une mise en file d'attente équitable simple et efficace avec une réduction de base de la latence.",
         "intelligently_manage_traffic_tips": "La gestion intelligente des files d'attente (Smart Queue Management) gère le trafic de manière intelligente afin de minimiser la latence et le « bufferbloat » pour des jeux et des appels plus fluides. Idéal pour les réseaux à faible bande passante ou congestionnés ; sur les connexions à haut débit, l'activation de cette fonction peut réduire le débit de pointe. SQM affecte le trafic transitant par le routeur en tant que passerelle, y compris le trafic du client VPN, mais n'affecte pas le trafic entrant lorsque le routeur fonctionne en tant que serveur VPN.",
-        "idle_detection_threshold_tips": "Lorsque le débit est inférieur à cette valeur, la connexion est considérée comme inactive, et cette valeur doit être inférieure à la limite de débit définie."
+        "idle_detection_threshold_tips": "Lorsque le débit est inférieur à cette valeur, la connexion est considérée comme inactive, et cette valeur doit être inférieure à la limite de débit définie.",
+        "probe_interval_tips": "Des valeurs plus faibles = réponse plus rapide, mais utilisation du CPU plus élevée."
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
