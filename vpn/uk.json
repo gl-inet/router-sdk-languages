@@ -659,7 +659,11 @@
         "remove_config_btn": "Видалити конфігурації",
         "reomving_config_warning_tips": "Ви впевнені, що хочете видалити?",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address}) конфліктує з {interface}.",
-        "groups_expressvpn_desc": "Надаєте перевагу використанню {custom}? Створіть нову групу, щоб додати файли конфігурації."
+        "groups_expressvpn_desc": "Надаєте перевагу використанню {custom}? Створіть нову групу, щоб додати файли конфігурації.",
+        "two_factor_authentication_title": "Двофакторна автентифікація",
+        "two_factor_authentication_desc": "Введіть 6-значний OTP-код із вашого застосунку автентифікації, щоб завершити вхід.",
+        "two_factor_verification_failed_tips": "Перевірка не вдалася. Переконайтеся, що ви ввели правильний код.",
+        "two_factor_verifying_tips": "Перевірка, зачекайте хвилинку..."
     },
     "ovpnclient": {
         "legacy_label": "Спадщина",
