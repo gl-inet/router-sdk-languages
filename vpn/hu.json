@@ -659,7 +659,11 @@
         "remove_config_btn": "Konfigurációk törlése",
         "reomving_config_warning_tips": "Biztosan törölni szeretné?",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address}) ütközik a(z) {interface} felülettel.",
-        "groups_expressvpn_desc": "Inkább a(z) {custom} használatát részesíti előnyben? Hozzon létre egy új csoportot a konfigurációs fájljai hozzáadásához."
+        "groups_expressvpn_desc": "Inkább a(z) {custom} használatát részesíti előnyben? Hozzon létre egy új csoportot a konfigurációs fájljai hozzáadásához.",
+        "two_factor_authentication_title": "Kétfaktoros hitelesítés",
+        "two_factor_authentication_desc": "Adja meg a hitelesítő alkalmazásból származó 6 számjegyű OTP-kódot a bejelentkezés befejezéséhez.",
+        "two_factor_verification_failed_tips": "Az ellenőrzés sikertelen. Győződjön meg róla, hogy a helyes kódot adta meg.",
+        "two_factor_verifying_tips": "Ellenőrzés, kérjük, várjon egy pillanatot..."
     },
     "ovpnclient": {
         "legacy_label": "Örökölt",
