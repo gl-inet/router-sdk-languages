@@ -392,7 +392,9 @@
         "expressvpn_custom_credentials_error": "Verifica non riuscita. Credenziali non valide o già attivate, non possono essere riutilizzate.",
         "expressvpn_custom_checkout_opened": "La pagina di pagamento di ExpressVPN è stata aperta in una nuova scheda.",
         "expressvpn_custom_purchase_source_label": "Fonte di acquisto",
-        "expressvpn_custom_glinet_order_placeholder": "ad es. GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "ad es. GL-1234",
+        "number_allowed_devices_label": "Numero di dispositivi consentiti",
+        "wg_xvpn_limit_tips": "L'account ha raggiunto il limite massimo di dispositivi collegati. Vai su {provider} per scollegare un dispositivo."
     },
     "menu_wgserver": "Server WireGuard",
     "menu_wgclient": "WireGuard Client",
@@ -438,7 +440,13 @@
         "expressvpn_login_expired_msg": "La sessione di accesso è scaduta. Riprova.",
         "expressvpn_no_subscription_msg": "Nessun abbonamento ExpressVPN attivo trovato per questo account.",
         "expressvpn_business_msg": "Richiesta ExpressVPN respinta. Controlla lo stato dell'account o del dispositivo.",
-        "expressvpn_internal_msg": "Errore del servizio ExpressVPN. Riprova più tardi."
+        "expressvpn_internal_msg": "Errore del servizio ExpressVPN. Riprova più tardi.",
+        "premium_account_required_msg": "È richiesto un abbonamento Premium. Rinnova la licenza.",
+        "provider_token_invalid_msg": "Il token non è valido. Accedi di nuovo per ripristinare la connessione.",
+        "account_disabled_msg": "Il tuo account è stato disattivato. Contatta l'assistenza XVPN.",
+        "device_token_expired_msg": "Il token non è valido. Accedi di nuovo per ripristinare la connessione.",
+        "credentials_changed_msg": "Le tue credenziali sono state modificate. Accedi di nuovo.",
+        "device_bind_failed_msg": "Impossibile associare questo router al tuo account. Controlla la connessione di rete e riprova."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Aggiungi il client all'elenco dei tunnel basati sulla politica VPN. Se desideri apportare modifiche più dettagliate ai tunnel, vai alla {page} per gestire i tunnel.",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Autenticazione a due fattori",
         "two_factor_authentication_desc": "Inserisci il codice OTP a 6 cifre dalla tua app di autenticazione per completare l'accesso.",
         "two_factor_verification_failed_tips": "Verifica non riuscita. Assicurati di inserire il codice corretto.",
-        "two_factor_verifying_tips": "Verifica in corso, attendi un momento..."
+        "two_factor_verifying_tips": "Verifica in corso, attendi un momento...",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
