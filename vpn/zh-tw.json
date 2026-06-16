@@ -392,7 +392,9 @@
         "expressvpn_custom_credentials_error": "驗證失敗。憑證無效或已啟用，無法重複使用。",
         "expressvpn_custom_checkout_opened": "ExpressVPN 結帳頁面已在新分頁中開啟。",
         "expressvpn_custom_purchase_source_amazon": "Amazon",
-        "expressvpn_custom_glinet_order_placeholder": "例如 GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "例如 GL-1234",
+        "number_allowed_devices_label": "允許的裝置數量",
+        "wg_xvpn_limit_tips": "帳戶已達到連結裝置數量上限。請前往 {provider} 解除連結裝置。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -438,7 +440,13 @@
         "expressvpn_login_expired_msg": "登入工作階段已過期，請再試一次。",
         "expressvpn_no_subscription_msg": "此帳戶未找到有效的 ExpressVPN 訂閱。",
         "expressvpn_business_msg": "ExpressVPN 請求被拒絕，請檢查帳戶或設備狀態。",
-        "expressvpn_internal_msg": "ExpressVPN 服務錯誤，請稍後再試。"
+        "expressvpn_internal_msg": "ExpressVPN 服務錯誤，請稍後再試。",
+        "provider_token_invalid_msg": "權杖無效。請重新登入以恢復連線。",
+        "credentials_changed_msg": "您的認證已變更。請重新登入。",
+        "account_disabled_msg": "您的帳戶已停用。請聯絡 XVPN 支援。",
+        "device_token_expired_msg": "權杖無效。請重新登入以恢復連線。",
+        "device_bind_failed_msg": "無法將此路由器綁定到您的帳戶。請檢查網路連線後再試一次。",
+        "premium_account_required_msg": "需要 Premium 訂閱。請續訂您的授權。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "使用 VPN 隧道",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "雙重驗證",
         "two_factor_verifying_tips": "正在驗證，請稍候...",
         "two_factor_authentication_desc": "請輸入驗證器應用程式中的 6 位數 OTP 代碼以完成登入。",
-        "two_factor_verification_failed_tips": "驗證失敗。請確認您輸入的代碼正確。"
+        "two_factor_verification_failed_tips": "驗證失敗。請確認您輸入的代碼正確。",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "兼容",
