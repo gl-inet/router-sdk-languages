@@ -659,7 +659,11 @@
         "remove_config_btn": "Elimina Configurazioni",
         "reomving_config_warning_tips": "Sei sicuro di voler eliminare?",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address}) è in conflitto con {interface}.",
-        "groups_expressvpn_desc": "Si preferisce utilizzare {custom}? Creare un nuovo gruppo per aggiungere i file di configurazione."
+        "groups_expressvpn_desc": "Si preferisce utilizzare {custom}? Creare un nuovo gruppo per aggiungere i file di configurazione.",
+        "two_factor_authentication_title": "Autenticazione a due fattori",
+        "two_factor_authentication_desc": "Inserisci il codice OTP a 6 cifre dalla tua app di autenticazione per completare l'accesso.",
+        "two_factor_verification_failed_tips": "Verifica non riuscita. Assicurati di inserire il codice corretto.",
+        "two_factor_verifying_tips": "Verifica in corso, attendi un momento..."
     },
     "ovpnclient": {
         "legacy_label": "Legacy",
