@@ -392,7 +392,9 @@
         "expressvpn_custom_credentials_error": "Weryfikacja nie powiodła się. Nieprawidłowe dane uwierzytelniające lub już aktywowane, nie można ich użyć ponownie.",
         "expressvpn_custom_checkout_opened": "Strona realizacji zakupu ExpressVPN została otwarta w nowej karcie.",
         "expressvpn_custom_claim_dialog_desc": "Wprowadź dane uwierzytelniające z zakupu rutera. Zakończysz odbiór w ExpressVPN, a następnie wrócisz tutaj, aby autoryzować ten ruter.",
-        "expressvpn_custom_glinet_order_placeholder": "np. GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "np. GL-1234",
+        "number_allowed_devices_label": "Liczba dozwolonych urządzeń",
+        "wg_xvpn_limit_tips": "Konto osiągnęło maksymalny limit połączonych urządzeń. Przejdź do {provider}, aby odłączyć urządzenie."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
@@ -438,7 +440,13 @@
         "expressvpn_login_expired_msg": "Sesja logowania wygasła. Spróbuj ponownie.",
         "expressvpn_no_subscription_msg": "Nie znaleziono aktywnej subskrypcji ExpressVPN dla tego konta.",
         "expressvpn_business_msg": "Żądanie ExpressVPN zostało odrzucone. Sprawdź stan konta lub urządzenia.",
-        "expressvpn_internal_msg": "Błąd usługi ExpressVPN. Spróbuj ponownie później."
+        "expressvpn_internal_msg": "Błąd usługi ExpressVPN. Spróbuj ponownie później.",
+        "provider_token_invalid_msg": "Token jest nieprawidłowy. Zaloguj się ponownie, aby przywrócić połączenie.",
+        "credentials_changed_msg": "Twoje dane logowania zostały zmienione. Zaloguj się ponownie.",
+        "device_token_expired_msg": "Token jest nieprawidłowy. Zaloguj się ponownie, aby przywrócić połączenie.",
+        "device_bind_failed_msg": "Nie można powiązać tego rutera z Twoim kontem. Sprawdź połączenie sieciowe i spróbuj ponownie.",
+        "premium_account_required_msg": "Wymagana jest subskrypcja Premium. Odnów licencję.",
+        "account_disabled_msg": "Twoje konto zostało dezaktywowane. Skontaktuj się z pomocą techniczną XVPN."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Dodaj klienta do listy tuneli zasad polityki VPN. Jeśli chcesz dokonać bardziej szczegółowych zmian w tunelach, przejdź do {page}, aby zarządzać tunelami.",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Uwierzytelnianie dwuskładnikowe",
         "two_factor_authentication_desc": "Wprowadź 6-cyfrowy kod OTP z aplikacji uwierzytelniającej, aby zakończyć logowanie.",
         "two_factor_verifying_tips": "Weryfikowanie, poczekaj chwilę...",
-        "two_factor_verification_failed_tips": "Weryfikacja nie powiodła się. Upewnij się, że wprowadzasz prawidłowy kod."
+        "two_factor_verification_failed_tips": "Weryfikacja nie powiodła się. Upewnij się, że wprowadzasz prawidłowy kod.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Starsze",
