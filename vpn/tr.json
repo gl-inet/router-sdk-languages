@@ -392,7 +392,9 @@
         "expressvpn_custom_claim_dialog_desc": "Yönlendirici satın alımınızdaki kimlik bilgilerini girin. Talebi ExpressVPN üzerinde tamamlayacak, ardından bu yönlendiriciyi yetkilendirmek için buraya döneceksiniz.",
         "expressvpn_custom_order_email_label": "Sipariş E-postası",
         "expressvpn_custom_order_email_placeholder": "GL.iNet Store siparişiniz için kullanılan e-posta",
-        "expressvpn_custom_glinet_order_placeholder": "örn. GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "örn. GL-1234",
+        "number_allowed_devices_label": "İzin Verilen Cihaz Sayısı",
+        "wg_xvpn_limit_tips": "Hesap, bağlı cihazlar için maksimum sınıra ulaştı. Lütfen bir cihazın bağlantısını kaldırmak için {provider} adresine gidin."
     },
     "vpn_err": {
         "no_passwd_msg": "Hesabın şifresi yok",
@@ -433,7 +435,13 @@
         "expressvpn_login_expired_msg": "Oturum süresi doldu. Lütfen tekrar deneyin.",
         "expressvpn_no_subscription_msg": "Bu hesap için aktif bir ExpressVPN aboneliği bulunamadı.",
         "expressvpn_business_msg": "ExpressVPN isteği reddedildi. Lütfen hesap veya cihaz durumunu kontrol edin.",
-        "expressvpn_internal_msg": "ExpressVPN hizmet hatası. Lütfen daha sonra tekrar deneyin."
+        "expressvpn_internal_msg": "ExpressVPN hizmet hatası. Lütfen daha sonra tekrar deneyin.",
+        "provider_token_invalid_msg": "Token geçersiz. Bağlantınızı geri yüklemek için lütfen tekrar oturum açın.",
+        "credentials_changed_msg": "Kimlik bilgileriniz değiştirildi. Lütfen tekrar oturum açın.",
+        "device_token_expired_msg": "Token geçersiz. Bağlantınızı geri yüklemek için lütfen tekrar oturum açın.",
+        "device_bind_failed_msg": "Bu yönlendirici hesabınıza bağlanamıyor. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin.",
+        "premium_account_required_msg": "Premium abonelik gereklidir. Lütfen lisansınızı yenileyin.",
+        "account_disabled_msg": "Hesabınız devre dışı bırakıldı. Lütfen XVPN destek ekibiyle iletişime geçin."
     },
     "vpn_tunnel": {
         "select_config_tip_label": "Lütfen bir yapılandırma dosyası seçin",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "İki Faktörlü Kimlik Doğrulama",
         "two_factor_verifying_tips": "Doğrulanıyor, lütfen bir süre bekleyin...",
         "two_factor_verification_failed_tips": "Doğrulama başarısız. Doğru kodu girdiğinizden emin olun.",
-        "two_factor_authentication_desc": "Oturumu açmayı tamamlamak için kimlik doğrulama uygulamanızdaki 6 haneli OTP kodunu girin."
+        "two_factor_authentication_desc": "Oturumu açmayı tamamlamak için kimlik doğrulama uygulamanızdaki 6 haneli OTP kodunu girin.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Eski",
