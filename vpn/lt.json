@@ -392,7 +392,9 @@
         "expressvpn_custom_credentials_error": "Patvirtinimas nepavyko. Kredencialai negalioja arba jau aktyvuota; negalima naudoti pakartotinai.",
         "expressvpn_custom_checkout_opened": "ExpressVPN atsiskaitymo puslapis atidarytas naujame skirtuke.",
         "expressvpn_custom_order_email_label": "Užsakymo el. paštas",
-        "expressvpn_custom_glinet_order_placeholder": "pvz., GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "pvz., GL-1234",
+        "number_allowed_devices_label": "Leistinų įrenginių skaičius",
+        "wg_xvpn_limit_tips": "Paskyra pasiekė maksimalų susietų įrenginių limitą. Eikite į {provider}, kad atsietumėte įrenginį."
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -438,7 +440,13 @@
         "expressvpn_no_subscription_msg": "Šiai paskyrai nerasta aktyvios ExpressVPN prenumeratos.",
         "expressvpn_business_msg": "ExpressVPN užklausa buvo atmesta. Patikrinkite paskyros arba įrenginio būseną.",
         "expressvpn_internal_msg": "ExpressVPN tarnybos klaida. Bandykite dar kartą vėliau.",
-        "expressvpn_device_config_msg": "Įrenginio konfigūracijos trūksta. Susisiekite su palaikymo tarnyba."
+        "expressvpn_device_config_msg": "Įrenginio konfigūracijos trūksta. Susisiekite su palaikymo tarnyba.",
+        "premium_account_required_msg": "Reikalinga „Premium“ prenumerata. Atnaujinkite savo licenciją.",
+        "provider_token_invalid_msg": "Žetonas negalioja. Prisijunkite dar kartą, kad atkurtumėte ryšį.",
+        "account_disabled_msg": "Jūsų paskyra buvo išaktyvinta. Susisiekite su XVPN palaikymo tarnyba.",
+        "device_token_expired_msg": "Žetonas negalioja. Prisijunkite dar kartą, kad atkurtumėte ryšį.",
+        "device_bind_failed_msg": "Nepavyko pririšti šio maršrutizatoriaus prie jūsų paskyros. Patikrinkite tinklo ryšį ir bandykite dar kartą.",
+        "credentials_changed_msg": "Jūsų prisijungimo duomenys buvo pakeisti. Prisijunkite dar kartą."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Pridėkite klientą į „VPN“ politikos pagrindu veikiančių tunelių sąrašą. Jei norite atlikti išsamesnius pakeitimus tuneliuose, prašome eiti į {page}, kad tvarkytumėte tunelius.",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Dviejų veiksnių autentifikavimas",
         "two_factor_authentication_desc": "Įveskite 6 skaitmenų OTP kodą iš autentifikavimo programėlės, kad užbaigtumėte prisijungimą.",
         "two_factor_verifying_tips": "Tikrinama, palaukite...",
-        "two_factor_verification_failed_tips": "Patvirtinti nepavyko. Įsitikinkite, kad įvedėte teisingą kodą."
+        "two_factor_verification_failed_tips": "Patvirtinti nepavyko. Įsitikinkite, kad įvedėte teisingą kodą.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Pasenusio/-s standarto/įrangos",
