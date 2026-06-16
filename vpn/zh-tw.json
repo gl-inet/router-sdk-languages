@@ -659,7 +659,11 @@
         "remove_config_btn": "刪除配置",
         "reomving_config_warning_tips": "您確定要刪除嗎？",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 與 {interface} 衝突。",
-        "groups_expressvpn_desc": "偏好使用 {custom}？建立新群組以新增您的設定檔。"
+        "groups_expressvpn_desc": "偏好使用 {custom}？建立新群組以新增您的設定檔。",
+        "two_factor_authentication_title": "雙重驗證",
+        "two_factor_verifying_tips": "正在驗證，請稍候...",
+        "two_factor_authentication_desc": "請輸入驗證器應用程式中的 6 位數 OTP 代碼以完成登入。",
+        "two_factor_verification_failed_tips": "驗證失敗。請確認您輸入的代碼正確。"
     },
     "ovpnclient": {
         "legacy_label": "兼容",
