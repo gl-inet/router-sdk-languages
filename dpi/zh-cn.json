@@ -41,7 +41,6 @@
         "seconds_unit": "秒",
         "setp_tag": "步骤 {num}",
         "probe_server_addresses_tips": "逗号分隔，用于网络质量探测。",
-        "probe_interval_tips": "秒。数值越小，响应越快，但CPU占用越高。",
         "concurrent_probes_tips": "必须小于探测服务器数量；较高的值会增加CPU使用率。",
         "download_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
         "upload_latency_threshold_tips": "毫秒。超过此值将触发带宽降低。",
