@@ -48,7 +48,8 @@
         "cake_autorate_tips": "Ciągle wysyła małe sondy opóźnienia ICMP do serwerów reflektorów, obserwuje opóźnienie w obie strony i dynamicznie obniża lub podnosi przepustowość kształtowania CAKE, aby tłumić buforowanie. NIE przeprowadza aktywnych testów prędkości.",
         "queue_discipline_tips": "Wybierz algorytm kolejkowania. cake oferuje inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień. fq_codel zapewnia proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.",
         "intelligently_manage_traffic_tips": "Inteligentne zarządzanie kolejką (SQM) inteligentnie zarządza ruchem, aby zminimalizować opóźnienia i \"bufferbloat\", zapewniając płynniejszą grę i połączenia. Najlepiej sprawdza się w sieciach o niskiej przepustowości lub przeciążonych; w przypadku szybkich połączeń włączenie tej funkcji może zmniejszyć szczytową przepustowość. SQM wpływa na ruch przechodzący przez ruter jako bramę, w tym ruch klienta VPN, ale nie wpływa na ruch przychodzący, gdy ruter działa jako serwer VPN.",
-        "idle_detection_threshold_tips": "Gdy prędkość jest poniżej tej wartości, połączenie jest uznawane za bezczynne, a wartość ta musi być mniejsza niż ustawiony limit prędkości."
+        "idle_detection_threshold_tips": "Gdy prędkość jest poniżej tej wartości, połączenie jest uznawane za bezczynne, a wartość ta musi być mniejsza niż ustawiony limit prędkości.",
+        "probe_interval_tips": "Niższe wartości = szybsza odpowiedź, ale większe użycie CPU."
     },
     "qos": {
         "title": "QoS",
