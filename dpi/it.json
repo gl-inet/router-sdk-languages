@@ -43,7 +43,6 @@
         "probe_server_addresses_tips": "Separati da virgole, utilizzati per il sondaggio della qualità della rete.",
         "probe_interval_tips": "Secondi. Valori più bassi = risposta più rapida ma maggiore utilizzo della CPU.",
         "concurrent_probes_tips": "Deve essere inferiore al numero di server di probe; valori più elevati aumentano l'utilizzo della CPU.",
-        "idle_detection_threshold_tips": "Kbps. Quando la velocità è al di sotto di questo valore, la connessione viene considerata inattiva e questo valore deve essere inferiore al limite di velocità impostato.",
         "download_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
         "upload_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
         "cake_autorate_desc": "Modellatore basato sulla latenza che riduce o aumenta la larghezza di banda CAKE in tempo reale in base all'RTT del probe — non è presente alcun test di velocità attivo, solo ping leggeri. Consigliato quando la larghezza di banda WAN fluttua; non necessario su collegamenti stabili.",
