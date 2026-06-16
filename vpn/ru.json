@@ -659,7 +659,11 @@
         "remove_config_btn": "Удалить конфигурации",
         "reomving_config_warning_tips": "Вы уверены, что хотите удалить?",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address}) конфликтует с {interface}.",
-        "groups_expressvpn_desc": "Предпочитаете использовать {custom}? Создайте новую группу, чтобы добавить свои файлы конфигурации."
+        "groups_expressvpn_desc": "Предпочитаете использовать {custom}? Создайте новую группу, чтобы добавить свои файлы конфигурации.",
+        "two_factor_authentication_title": "Двухфакторная аутентификация",
+        "two_factor_authentication_desc": "Введите 6-значный код OTP из приложения-аутентификатора для завершения входа.",
+        "two_factor_verifying_tips": "Проверка, подождите немного...",
+        "two_factor_verification_failed_tips": "Проверка не удалась. Убедитесь, что введен правильный код."
     },
     "ovpnclient": {
         "legacy_label": "Устаревшая версия",
