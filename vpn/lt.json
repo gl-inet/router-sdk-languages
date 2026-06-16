@@ -659,7 +659,11 @@
         "remove_config_btn": "Konfigūracijų trynimas",
         "reomving_config_warning_tips": "Ar tikrai norite ištrinti?",
         "address_conflict_common_tips": "{tunnel} {addressType} ({address}) konfliktuoja su {interface}.",
-        "groups_expressvpn_desc": "Norite naudoti {custom}? Sukurkite naują grupę, kad pridėtumėte savo konfigūracijos failus."
+        "groups_expressvpn_desc": "Norite naudoti {custom}? Sukurkite naują grupę, kad pridėtumėte savo konfigūracijos failus.",
+        "two_factor_authentication_title": "Dviejų veiksnių autentifikavimas",
+        "two_factor_authentication_desc": "Įveskite 6 skaitmenų OTP kodą iš autentifikavimo programėlės, kad užbaigtumėte prisijungimą.",
+        "two_factor_verifying_tips": "Tikrinama, palaukite...",
+        "two_factor_verification_failed_tips": "Patvirtinti nepavyko. Įsitikinkite, kad įvedėte teisingą kodą."
     },
     "ovpnclient": {
         "legacy_label": "Pasenusio/-s standarto/įrangos",
