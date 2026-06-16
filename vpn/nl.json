@@ -392,7 +392,9 @@
         "expressvpn_custom_checkout_opened": "ExpressVPN-afrekenpagina geopend in een nieuw tabblad.",
         "expressvpn_custom_order_email_placeholder": "E-mailadres gebruikt voor uw GL.iNet Store-bestelling",
         "expressvpn_custom_credentials_error": "Verificatie mislukt. Ongeldige gegevens of al geactiveerd, kunnen niet opnieuw worden gebruikt.",
-        "expressvpn_custom_glinet_order_placeholder": "bijv. GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "bijv. GL-1234",
+        "number_allowed_devices_label": "Aantal toegestane apparaten",
+        "wg_xvpn_limit_tips": "Het account heeft het maximale aantal gekoppelde apparaten bereikt. Ga naar {provider} om een apparaat te ontkoppelen."
     },
     "menu_ovpnclient": "OpenVPN-cliënt",
     "menu_wgclient": "WireGuard®-cliënt",
@@ -438,7 +440,13 @@
         "expressvpn_business_msg": "ExpressVPN-verzoek is afgewezen. Controleer de account- of apparaatstatus.",
         "expressvpn_internal_msg": "ExpressVPN-servicefout. Probeer het later opnieuw.",
         "expressvpn_device_config_msg": "Apparaatconfiguratie ontbreekt. Neem contact op met de ondersteuning.",
-        "expressvpn_no_subscription_msg": "Er is geen actief ExpressVPN-abonnement gevonden voor dit account."
+        "expressvpn_no_subscription_msg": "Er is geen actief ExpressVPN-abonnement gevonden voor dit account.",
+        "provider_token_invalid_msg": "Token is ongeldig. Meld u opnieuw aan om uw verbinding te herstellen.",
+        "credentials_changed_msg": "Uw inloggegevens zijn gewijzigd. Meld u opnieuw aan.",
+        "device_token_expired_msg": "Token is ongeldig. Meld u opnieuw aan om uw verbinding te herstellen.",
+        "device_bind_failed_msg": "Kan deze router niet aan uw account koppelen. Controleer uw netwerkverbinding en probeer het opnieuw.",
+        "premium_account_required_msg": "Premiumabonnement is vereist. Verleng uw licentie.",
+        "account_disabled_msg": "Uw account is gedeactiveerd. Neem contact op met XVPN-ondersteuning."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Gebruik VPN-tunnel",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Tweefactorauthenticatie",
         "two_factor_verifying_tips": "Verifiëren, even geduld...",
         "two_factor_authentication_desc": "Voer de 6-cijferige OTP-code uit uw authenticator-app in om het aanmelden te voltooien.",
-        "two_factor_verification_failed_tips": "Verificatie mislukt. Zorg ervoor dat u de juiste code invoert."
+        "two_factor_verification_failed_tips": "Verificatie mislukt. Zorg ervoor dat u de juiste code invoert.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Verouderd",
