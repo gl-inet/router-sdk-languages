@@ -392,7 +392,9 @@
         "expressvpn_custom_claim_dialog_title": "Активировать 12-месячный план",
         "expressvpn_custom_purchase_source_amazon": "Amazon",
         "expressvpn_custom_credentials_error": "Проверка не удалась. Недействительные учетные данные или уже активировано, повторное использование невозможно.",
-        "expressvpn_custom_glinet_order_placeholder": "например, GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "например, GL-1234",
+        "number_allowed_devices_label": "Количество разрешенных устройств",
+        "wg_xvpn_limit_tips": "Учетная запись достигла максимального лимита привязанных устройств. Перейдите в {provider}, чтобы отвязать устройство."
     },
     "menu_wgserver": "Сервер WireGuard",
     "menu_ovpnserver": "Сервер OpenVPN",
@@ -438,7 +440,13 @@
         "expressvpn_business_msg": "Запрос ExpressVPN был отклонен. Пожалуйста, проверьте статус учетной записи или устройства.",
         "expressvpn_device_config_msg": "Конфигурация устройства отсутствует. Пожалуйста, обратитесь в службу поддержки.",
         "expressvpn_no_subscription_msg": "Для этой учетной записи не найдена активная подписка ExpressVPN.",
-        "expressvpn_internal_msg": "Ошибка сервиса ExpressVPN. Пожалуйста, повторите попытку позже."
+        "expressvpn_internal_msg": "Ошибка сервиса ExpressVPN. Пожалуйста, повторите попытку позже.",
+        "provider_token_invalid_msg": "Токен недействителен. Войдите снова, чтобы восстановить подключение.",
+        "credentials_changed_msg": "Ваши учетные данные были изменены. Войдите снова.",
+        "account_disabled_msg": "Ваша учетная запись деактивирована. Обратитесь в поддержку XVPN.",
+        "device_bind_failed_msg": "Не удалось привязать этот маршрутизатор к вашей учетной записи. Проверьте сетевое подключение и повторите попытку.",
+        "premium_account_required_msg": "Требуется премиум-подписка. Продлите лицензию.",
+        "device_token_expired_msg": "Токен недействителен. Войдите снова, чтобы восстановить подключение."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Использовать VPN-туннель",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Двухфакторная аутентификация",
         "two_factor_authentication_desc": "Введите 6-значный код OTP из приложения-аутентификатора для завершения входа.",
         "two_factor_verifying_tips": "Проверка, подождите немного...",
-        "two_factor_verification_failed_tips": "Проверка не удалась. Убедитесь, что введен правильный код."
+        "two_factor_verification_failed_tips": "Проверка не удалась. Убедитесь, что введен правильный код.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Устаревшая версия",
