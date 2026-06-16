@@ -659,7 +659,11 @@
         "remove_config_btn": "設定を削除",
         "reomving_config_warning_tips": "削除してもよろしいですか？",
         "address_conflict_common_tips": "{tunnel} {addressType}（{address}）が{interface}と競合しています。",
-        "groups_expressvpn_desc": "{custom} の使用を優先しますか？新しいグループを作成して設定ファイルを追加してください。"
+        "groups_expressvpn_desc": "{custom} の使用を優先しますか？新しいグループを作成して設定ファイルを追加してください。",
+        "two_factor_authentication_title": "二要素認証",
+        "two_factor_authentication_desc": "認証アプリの6桁のOTPコードを入力してログインを完了してください。",
+        "two_factor_verifying_tips": "確認中です。しばらくお待ちください...",
+        "two_factor_verification_failed_tips": "確認に失敗しました。正しいコードを入力していることを確認してください。"
     },
     "ovpnclient": {
         "legacy_label": "レガシー",
