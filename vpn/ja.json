@@ -392,7 +392,9 @@
         "expressvpn_custom_checkout_opened": "ExpressVPN のチェックアウトページを新しいタブで開きました。",
         "expressvpn_custom_order_email_label": "注文メールアドレス",
         "expressvpn_custom_credentials_error": "確認に失敗しました。認証情報が無効、またはすでに有効化されているため、再利用できません。",
-        "expressvpn_custom_glinet_order_placeholder": "例：GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "例：GL-1234",
+        "number_allowed_devices_label": "許可されたデバイス数",
+        "wg_xvpn_limit_tips": "アカウントにリンクできるデバイス数の上限に達しました。{provider} にアクセスしてデバイスのリンクを解除してください。"
     },
     "menu_vpndashboard": "VPNダッシュボード",
     "menu_wgserver": "WireGuardサーバー",
@@ -438,7 +440,13 @@
         "expressvpn_business_msg": "ExpressVPNリクエストが拒否されました。アカウントまたはデバイスの状態をご確認ください。",
         "expressvpn_device_config_msg": "デバイス設定が見つかりません。サポートにお問い合わせください。",
         "expressvpn_no_subscription_msg": "このアカウントにアクティブなExpressVPNのサブスクリプションが見つかりませんでした。",
-        "expressvpn_internal_msg": "ExpressVPNサービスエラーが発生しました。後でもう一度お試しください。"
+        "expressvpn_internal_msg": "ExpressVPNサービスエラーが発生しました。後でもう一度お試しください。",
+        "premium_account_required_msg": "Premium サブスクリプションが必要です。ライセンスを更新してください。",
+        "provider_token_invalid_msg": "トークンが無効です。接続を復元するには、再度ログインしてください。",
+        "account_disabled_msg": "アカウントが無効化されています。XVPN サポートにお問い合わせください。",
+        "device_token_expired_msg": "トークンが無効です。接続を復元するには、再度ログインしてください。",
+        "credentials_changed_msg": "認証情報が変更されました。再度ログインしてください。",
+        "device_bind_failed_msg": "このルーターをアカウントに紐付けできません。ネットワーク接続を確認して、もう一度お試しください。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPNポリシーに基づいたトンネルリストにクライアントを追加してください。トンネルに対してより詳細な変更を行いたい場合は、{page}にアクセスしてトンネルを管理してください。",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "二要素認証",
         "two_factor_authentication_desc": "認証アプリの6桁のOTPコードを入力してログインを完了してください。",
         "two_factor_verifying_tips": "確認中です。しばらくお待ちください...",
-        "two_factor_verification_failed_tips": "確認に失敗しました。正しいコードを入力していることを確認してください。"
+        "two_factor_verification_failed_tips": "確認に失敗しました。正しいコードを入力していることを確認してください。",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "レガシー",
