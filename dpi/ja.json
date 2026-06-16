@@ -41,7 +41,6 @@
         "seconds_unit": "秒",
         "setp_tag": "ステップ {num}",
         "probe_server_addresses_tips": "カンマ区切りで、ネットワーク品質のプローブに使用されます。",
-        "probe_interval_tips": "秒。値が小さいほど応答が速くなりますが、CPU使用率が高くなります。",
         "concurrent_probes_tips": "プローブサーバー数より小さくなければなりません。値を大きくするとCPU使用率が増加します。",
         "download_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
         "upload_latency_threshold_tips": "ミリ秒。これを超えると帯域幅が減少します。",
