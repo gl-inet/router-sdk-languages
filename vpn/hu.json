@@ -392,7 +392,9 @@
         "expressvpn_custom_checkout_opened": "Az ExpressVPN fizetési oldala új lapon nyílt meg.",
         "expressvpn_custom_purchase_source_label": "Vásárlás forrása",
         "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
-        "expressvpn_custom_glinet_order_placeholder": "pl. GL-1234"
+        "expressvpn_custom_glinet_order_placeholder": "pl. GL-1234",
+        "number_allowed_devices_label": "Engedélyezett eszközök száma",
+        "wg_xvpn_limit_tips": "A fiók elérte a csatolt eszközök maximális számát. Kérjük, lépjen a(z) {provider} oldalra egy eszköz leválasztásához."
     },
     "menu_wgserver": "WireGuard-kiszolgáló",
     "menu_ovpnserver": "OpenVPN-kiszolgáló",
@@ -438,7 +440,13 @@
         "expressvpn_business_msg": "Az ExpressVPN kérés elutasításra került. Kérjük, ellenőrizze a fiók vagy az eszköz állapotát.",
         "expressvpn_device_config_msg": "Az eszköz konfigurációja hiányzik. Kérjük, lépjen kapcsolatba az ügyfélszolgálattal.",
         "expressvpn_no_subscription_msg": "Ehhez a fiókhoz nem található aktív ExpressVPN előfizetés.",
-        "expressvpn_internal_msg": "ExpressVPN szolgáltatási hiba. Kérjük, próbálja újra később."
+        "expressvpn_internal_msg": "ExpressVPN szolgáltatási hiba. Kérjük, próbálja újra később.",
+        "premium_account_required_msg": "Prémium előfizetés szükséges. Kérjük, újítsa meg a licencét.",
+        "provider_token_invalid_msg": "A token érvénytelen. Kérjük, jelentkezzen be újra a kapcsolat helyreállításához.",
+        "credentials_changed_msg": "A hitelesítő adatai megváltoztak. Kérjük, jelentkezzen be újra.",
+        "account_disabled_msg": "A fiókja deaktiválva lett. Kérjük, forduljon az XVPN ügyfélszolgálatához.",
+        "device_token_expired_msg": "A token érvénytelen. Kérjük, jelentkezzen be újra a kapcsolat helyreállításához.",
+        "device_bind_failed_msg": "Nem sikerült ezt az útválasztót a fiókjához kötni. Kérjük, ellenőrizze a hálózati kapcsolatot, majd próbálja újra."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN politikákon alapuló alagút listához ügyfél hozzáadása. Ha részletesebb változtatásokat szeretne végrehajtani az alagutakon, kérjük, látogasson el a {page} oldalra az alagutak kezeléséhez.",
@@ -663,7 +671,8 @@
         "two_factor_authentication_title": "Kétfaktoros hitelesítés",
         "two_factor_authentication_desc": "Adja meg a hitelesítő alkalmazásból származó 6 számjegyű OTP-kódot a bejelentkezés befejezéséhez.",
         "two_factor_verification_failed_tips": "Az ellenőrzés sikertelen. Győződjön meg róla, hogy a helyes kódot adta meg.",
-        "two_factor_verifying_tips": "Ellenőrzés, kérjük, várjon egy pillanatot..."
+        "two_factor_verifying_tips": "Ellenőrzés, kérjük, várjon egy pillanatot...",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Örökölt",
