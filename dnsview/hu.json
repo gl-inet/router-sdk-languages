@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Ellenőrzés sikertelen, protokoll eltérés.",
         "manual_server_addr_msg": "Kérjük, adja meg a linket ugyanabban a titkosított formátumban.",
         "duplicate_rule_msg": "Ismétlődő szabály észlelve",
-        "validation_failed_msg": "Érvényesítés sikertelen."
+        "validation_failed_msg": "Érvényesítés sikertelen.",
+        "router_using_wan_dns_tips": "Az útválasztó jelenleg a WAN DNS-t használja.",
+        "request_wan_interface_tips": "Minden DNS-kérés a WAN-interfészen konfigurált DNS-kiszolgáló címére lesz irányítva. A módosításokhoz lépjen az Internet oldalra.",
+        "router_splitting_mode_tips": "Az útválasztó jelenleg DNS-felosztási módban van.",
+        "vpn_policy_wan_fallback_tips": "A VPN-szabálynak megfelelő összes DNS-kérés a megfelelő VPN-alagúthoz társított DNS-kiszolgálóra lesz irányítva. A VPN-t nem használó többi DNS-kérés a WAN-interfészen beállított DNS-kiszolgáló címére lesz irányítva."
     }
 }
