@@ -60,6 +60,16 @@
         "router_using_wan_dns_tips": "El router está usando actualmente el DNS de la WAN.",
         "request_wan_interface_tips": "Todas las solicitudes DNS se dirigen a la dirección del servidor DNS configurada en la interfaz WAN. Vaya a la página de Internet para realizar los cambios.",
         "router_splitting_mode_tips": "El router está actualmente en modo de división de DNS.",
-        "vpn_policy_wan_fallback_tips": "Todas las solicitudes DNS que cumplan con la política de VPN se dirigirán al servidor DNS asociado con el túnel VPN correspondiente. Las demás solicitudes DNS que no utilicen VPN se dirigirán a la dirección del servidor DNS configurada en la interfaz WAN."
+        "vpn_policy_wan_fallback_tips": "Todas las solicitudes DNS que cumplan con la política de VPN se dirigirán al servidor DNS asociado con el túnel VPN correspondiente. Las demás solicitudes DNS que no utilicen VPN se dirigirán a la dirección del servidor DNS configurada en la interfaz WAN.",
+        "all_dns_requests_to_manual_dns_tips": "Todas las solicitudes DNS, incluidas las solicitudes DNS de la VPN, se dirigen a la dirección del servidor DNS estático/cifrado configurada en los ajustes de DNS manual.",
+        "vpn_splitting_mode_tips": "El router está actualmente en modo de división de DNS de la VPN.",
+        "switch_to_manual_dns_only_tips": "Cambiar para usar solo la configuración de DNS manual.",
+        "vpn_policy_dns_requests_tips": "Todas las solicitudes DNS que cumplan con la política de VPN se dirigirán al servidor DNS asociado con el túnel VPN correspondiente.",
+        "non_vpn_dns_manual_settings_tips": "Las demás solicitudes DNS que no usen VPN se dirigirán a la dirección del servidor DNS configurada en la configuración de DNS manual.",
+        "router_using_manual_dns_tips": "El router está usando actualmente DNS manual.",
+        "all_dns_via_feature_tips": "Todas las solicitudes DNS se resolverán a través de {feature}. Otros servicios DNS no tendrán efecto.",
+        "switch_to_vpn_dns_splitting_tips": "Cambiar al modo de división de DNS de VPN.",
+        "manual_dns_all_requests_forwarded_tips": "Todas las solicitudes DNS se dirigen a la dirección del servidor DNS estático/cifrado configurada en los ajustes de DNS manual.",
+        "feature_enabled_tips": "{feature} está habilitado."
     }
 }
