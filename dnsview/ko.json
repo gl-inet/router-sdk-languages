@@ -60,6 +60,16 @@
         "router_using_wan_dns_tips": "라우터가 현재 WAN DNS를 사용 중입니다.",
         "request_wan_interface_tips": "모든 DNS 요청이 WAN 인터페이스에 구성된 DNS 서버 주소로 전달됩니다. 변경하려면 인터넷 페이지로 이동하세요.",
         "router_splitting_mode_tips": "라우터가 현재 DNS 분할 모드에 있습니다.",
-        "vpn_policy_wan_fallback_tips": "VPN 정책을 준수하는 모든 DNS 요청은 해당 VPN 터널과 연결된 DNS 서버로 전달됩니다. VPN을 사용하지 않는 다른 DNS 요청은 WAN 인터페이스에 구성된 DNS 서버 주소로 전달됩니다."
+        "vpn_policy_wan_fallback_tips": "VPN 정책을 준수하는 모든 DNS 요청은 해당 VPN 터널과 연결된 DNS 서버로 전달됩니다. VPN을 사용하지 않는 다른 DNS 요청은 WAN 인터페이스에 구성된 DNS 서버 주소로 전달됩니다.",
+        "vpn_splitting_mode_tips": "라우터가 현재 VPN DNS 분할 모드에 있습니다.",
+        "vpn_policy_dns_requests_tips": "VPN 정책을 준수하는 모든 DNS 요청은 해당 VPN 터널과 연결된 DNS 서버로 전달됩니다.",
+        "non_vpn_dns_manual_settings_tips": "VPN을 사용하지 않는 다른 DNS 요청은 수동 DNS 설정에 구성된 DNS 서버 주소로 전달됩니다.",
+        "router_using_manual_dns_tips": "라우터가 현재 수동 DNS를 사용 중입니다.",
+        "switch_to_manual_dns_only_tips": "수동 DNS 설정만 사용하도록 전환합니다.",
+        "all_dns_via_feature_tips": "모든 DNS 요청은 {feature}를 통해 확인됩니다. 다른 DNS 서비스는 적용되지 않습니다.",
+        "all_dns_requests_to_manual_dns_tips": "VPN DNS 요청을 포함한 모든 DNS 요청이 수동 DNS 설정에 구성된 정적/암호화 DNS 서버 주소로 전달됩니다.",
+        "switch_to_vpn_dns_splitting_tips": "VPN DNS 분할 모드로 전환합니다.",
+        "manual_dns_all_requests_forwarded_tips": "모든 DNS 요청이 수동 DNS 설정에 구성된 정적/암호화 DNS 서버 주소로 전달됩니다.",
+        "feature_enabled_tips": "{feature}이(가) 활성화되었습니다."
     }
 }
