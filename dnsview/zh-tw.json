@@ -60,6 +60,16 @@
         "router_using_wan_dns_tips": "路由器目前正在使用 WAN DNS。",
         "request_wan_interface_tips": "所有 DNS 請求都會導向至 WAN 介面上設定的 DNS 伺服器位址。請前往網際網路頁面進行變更。",
         "router_splitting_mode_tips": "路由器目前處於 DNS 分流模式。",
-        "vpn_policy_wan_fallback_tips": "所有符合 VPN 政策的 DNS 請求都會導向至對應 VPN 通道關聯的 DNS 伺服器。其他未使用 VPN 的 DNS 請求將導向至 WAN 介面上設定的 DNS 伺服器位址。"
+        "vpn_policy_wan_fallback_tips": "所有符合 VPN 政策的 DNS 請求都會導向至對應 VPN 通道關聯的 DNS 伺服器。其他未使用 VPN 的 DNS 請求將導向至 WAN 介面上設定的 DNS 伺服器位址。",
+        "vpn_splitting_mode_tips": "路由器目前處於 VPN DNS 分流模式。",
+        "vpn_policy_dns_requests_tips": "所有符合 VPN 政策的 DNS 請求都會導向與對應 VPN 通道關聯的 DNS 伺服器。",
+        "non_vpn_dns_manual_settings_tips": "其他未使用 VPN 的 DNS 請求會導向手動 DNS 設定中設定的 DNS 伺服器位址。",
+        "switch_to_manual_dns_only_tips": "切換為僅使用手動 DNS 設定。",
+        "router_using_manual_dns_tips": "路由器目前正在使用手動 DNS。",
+        "all_dns_requests_to_manual_dns_tips": "所有 DNS 請求（包括 VPN DNS 請求）都會被導向手動 DNS 設定中設定的靜態/加密 DNS 伺服器位址。",
+        "switch_to_vpn_dns_splitting_tips": "切換至 VPN DNS 分流模式。",
+        "manual_dns_all_requests_forwarded_tips": "所有 DNS 請求都會導向在手動 DNS 設定中配置的靜態／加密 DNS 伺服器位址。",
+        "feature_enabled_tips": "{feature} 已啟用。",
+        "all_dns_via_feature_tips": "所有 DNS 請求都將透過 {feature} 解析。其他 DNS 服務將不會生效。"
     }
 }
