@@ -60,6 +60,16 @@
         "router_splitting_mode_tips": "The router is currently in the DNS splitting mode.",
         "router_using_wan_dns_tips": "The router is currently using WAN DNS.",
         "request_wan_interface_tips": "All DNS requests are being directed to the DNS server address configured on the WAN intereface. Go to the Internet page to make the changes.",
-        "vpn_policy_wan_fallback_tips": "All DNS requests that comply with the VPN policy will be directed to the DNS Server associated with the corresponding VPN tunnel. The other DNS requests that do not use VPN will be directed to the DNS server address configured on the WAN intereface."
+        "vpn_policy_wan_fallback_tips": "All DNS requests that comply with the VPN policy will be directed to the DNS Server associated with the corresponding VPN tunnel. The other DNS requests that do not use VPN will be directed to the DNS server address configured on the WAN intereface.",
+        "non_vpn_dns_manual_settings_tips": "The other DNS requests that do not use VPN will be directed to the DNS server address configured on the Manual DNS settings.",
+        "vpn_splitting_mode_tips": "The router is currently in the VPN DNS splitting mode.",
+        "switch_to_manual_dns_only_tips": "Switch to use Manual DNS settings only.",
+        "vpn_policy_dns_requests_tips": "All DNS requests that comply with the VPN policy will be directed to the DNS Server associated with the corresponding VPN tunnel.",
+        "router_using_manual_dns_tips": "The router is currently using Manual DNS.",
+        "all_dns_via_feature_tips": "All DNS requests will be resolved through {feature}. Other DNS services will not be effective.",
+        "all_dns_requests_to_manual_dns_tips": "All DNS requests, including the VPN DNS requests, are being directed to the static/encrypted DNS server address configured on the Manual DNS settings.",
+        "switch_to_vpn_dns_splitting_tips": "Switch to VPN DNS splitting mode.",
+        "manual_dns_all_requests_forwarded_tips": "All DNS requests are being directed to the static/encrypted DNS server address configured on the Manual DNS settings.",
+        "feature_enabled_tips": "{feature} is enabled."
     }
 }
