@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Überprüfung fehlgeschlagen, Protokollkonflikt.",
         "manual_server_addr_msg": "Bitte geben Sie den Link im gleichen verschlüsselten Format ein.",
         "duplicate_rule_msg": "Doppelte Regel erkannt",
-        "validation_failed_msg": "Validierung fehlgeschlagen."
+        "validation_failed_msg": "Validierung fehlgeschlagen.",
+        "router_splitting_mode_tips": "Der Router befindet sich derzeit im DNS-Splitting-Modus.",
+        "router_using_wan_dns_tips": "Der Router verwendet derzeit WAN-DNS.",
+        "request_wan_interface_tips": "Alle DNS-Anfragen werden an die auf der WAN-Schnittstelle konfigurierte DNS-Serveradresse weitergeleitet. Gehen Sie zur Internetseite, um die Änderungen vorzunehmen.",
+        "vpn_policy_wan_fallback_tips": "Alle DNS-Anfragen, die der VPN-Richtlinie entsprechen, werden an den DNS-Server weitergeleitet, der dem entsprechenden VPN-Tunnel zugeordnet ist. Andere DNS-Anfragen, die kein VPN verwenden, werden an die auf der WAN-Schnittstelle konfigurierte DNS-Serveradresse weitergeleitet."
     }
 }
