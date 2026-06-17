@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Patikrinimas nepavyko, protokolo neatitikimas.",
         "manual_server_addr_msg": "Įveskite sujungimą tame pačiome užšifruotame formate.",
         "duplicate_rule_msg": "Aptikta pasikartojanti taisyklė",
-        "validation_failed_msg": "Patvirtinimas nepavyko."
+        "validation_failed_msg": "Patvirtinimas nepavyko.",
+        "router_using_wan_dns_tips": "Maršrutizatorius šiuo metu naudoja WAN DNS.",
+        "request_wan_interface_tips": "Visos DNS užklausos nukreipiamos į DNS serverio adresą, sukonfigūruotą WAN sąsajoje. Eikite į interneto puslapį, kad atliktumėte pakeitimus.",
+        "router_splitting_mode_tips": "Maršrutizatorius šiuo metu veikia DNS skaidymo veiksena.",
+        "vpn_policy_wan_fallback_tips": "Visos DNS užklausos, atitinkančios „VPN“ politiką, bus nukreiptos į DNS serverį, susietą su atitinkamu „VPN“ tuneliu. Kitos DNS užklausos, kurios nenaudoja „VPN“, bus nukreiptos į DNS serverio adresą, sukonfigūruotą WAN sąsajoje."
     }
 }
