@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Kontrol başarısız, protokol uyuşmazlığı.",
         "manual_server_addr_msg": "Lütfen bağlantıyı aynı şifreli biçimde girin.",
         "duplicate_rule_msg": "Yinelenen kural algılandı",
-        "validation_failed_msg": "Doğrulama başarısız oldu."
+        "validation_failed_msg": "Doğrulama başarısız oldu.",
+        "router_using_wan_dns_tips": "Yönlendirici şu anda WAN DNS kullanıyor.",
+        "request_wan_interface_tips": "Tüm DNS istekleri, WAN arayüzünde yapılandırılan DNS sunucusu adresine yönlendiriliyor. Değişiklikleri yapmak için İnternet sayfasına gidin.",
+        "router_splitting_mode_tips": "Yönlendirici şu anda DNS bölme modunda.",
+        "vpn_policy_wan_fallback_tips": "VPN ilkesiyle uyumlu tüm DNS istekleri, ilgili VPN tüneliyle ilişkilendirilmiş DNS sunucusuna yönlendirilir. VPN kullanmayan diğer DNS istekleri, WAN arayüzünde yapılandırılmış DNS sunucusu adresine yönlendirilir."
     }
 }
