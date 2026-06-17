@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Échec de la vérification, protocole incompatible.",
         "manual_server_addr_msg": "Veuillez saisir le lien dans le même format chiffré.",
         "duplicate_rule_msg": "Règle en double détectée",
-        "validation_failed_msg": "Échec de la validation."
+        "validation_failed_msg": "Échec de la validation.",
+        "router_using_wan_dns_tips": "Le routeur utilise actuellement le DNS WAN.",
+        "request_wan_interface_tips": "Toutes les requêtes DNS sont dirigées vers l’adresse du serveur DNS configurée sur l’interface WAN. Accédez à la page Internet pour effectuer les modifications.",
+        "router_splitting_mode_tips": "Le routeur est actuellement en mode de fractionnement DNS.",
+        "vpn_policy_wan_fallback_tips": "Toutes les requêtes DNS conformes à la politique VPN seront dirigées vers le serveur DNS associé au tunnel VPN correspondant. Les autres requêtes DNS qui n’utilisent pas le VPN seront dirigées vers l’adresse du serveur DNS configurée sur l’interface WAN."
     }
 }
