@@ -60,6 +60,16 @@
         "router_using_wan_dns_tips": "Yönlendirici şu anda WAN DNS kullanıyor.",
         "request_wan_interface_tips": "Tüm DNS istekleri, WAN arayüzünde yapılandırılan DNS sunucusu adresine yönlendiriliyor. Değişiklikleri yapmak için İnternet sayfasına gidin.",
         "router_splitting_mode_tips": "Yönlendirici şu anda DNS bölme modunda.",
-        "vpn_policy_wan_fallback_tips": "VPN ilkesiyle uyumlu tüm DNS istekleri, ilgili VPN tüneliyle ilişkilendirilmiş DNS sunucusuna yönlendirilir. VPN kullanmayan diğer DNS istekleri, WAN arayüzünde yapılandırılmış DNS sunucusu adresine yönlendirilir."
+        "vpn_policy_wan_fallback_tips": "VPN ilkesiyle uyumlu tüm DNS istekleri, ilgili VPN tüneliyle ilişkilendirilmiş DNS sunucusuna yönlendirilir. VPN kullanmayan diğer DNS istekleri, WAN arayüzünde yapılandırılmış DNS sunucusu adresine yönlendirilir.",
+        "vpn_splitting_mode_tips": "Yönlendirici şu anda VPN DNS bölme modunda.",
+        "vpn_policy_dns_requests_tips": "VPN ilkesine uyan tüm DNS istekleri, ilgili VPN tüneliyle ilişkilendirilmiş DNS Sunucusuna yönlendirilecektir.",
+        "non_vpn_dns_manual_settings_tips": "VPN kullanmayan diğer DNS istekleri, Manuel DNS ayarlarında yapılandırılan DNS sunucusu adresine yönlendirilecektir.",
+        "switch_to_manual_dns_only_tips": "Yalnızca Manuel DNS ayarlarını kullanmaya geçin.",
+        "router_using_manual_dns_tips": "Yönlendirici şu anda Manuel DNS kullanıyor.",
+        "all_dns_requests_to_manual_dns_tips": "VPN DNS istekleri dahil tüm DNS istekleri, Manuel DNS ayarlarında yapılandırılan statik/şifreli DNS sunucusu adresine yönlendiriliyor.",
+        "switch_to_vpn_dns_splitting_tips": "VPN DNS bölme moduna geçin.",
+        "manual_dns_all_requests_forwarded_tips": "Tüm DNS istekleri, Manuel DNS ayarlarında yapılandırılan statik/şifreli DNS sunucusu adresine yönlendiriliyor.",
+        "feature_enabled_tips": "{feature} etkinleştirildi.",
+        "all_dns_via_feature_tips": "Tüm DNS istekleri {feature} üzerinden çözümlenecektir. Diğer DNS hizmetleri etkili olmayacaktır."
     }
 }
