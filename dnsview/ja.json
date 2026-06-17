@@ -60,6 +60,16 @@
         "router_using_wan_dns_tips": "ルーターは現在 WAN DNS を使用しています。",
         "request_wan_interface_tips": "すべてのDNSリクエストは、WANインターフェースで設定されたDNSサーバーアドレスに転送されています。変更するには、インターネットページに移動してください。",
         "router_splitting_mode_tips": "ルーターは現在、DNS 分割モードです。",
-        "vpn_policy_wan_fallback_tips": "VPNポリシーに準拠するすべてのDNSリクエストは、対応するVPNトンネルに関連付けられたDNSサーバーに転送されます。VPNを使用しないその他のDNSリクエストは、WANインターフェースに設定されたDNSサーバーアドレスに転送されます。"
+        "vpn_policy_wan_fallback_tips": "VPNポリシーに準拠するすべてのDNSリクエストは、対応するVPNトンネルに関連付けられたDNSサーバーに転送されます。VPNを使用しないその他のDNSリクエストは、WANインターフェースに設定されたDNSサーバーアドレスに転送されます。",
+        "vpn_splitting_mode_tips": "ルーターは現在、VPN DNS分割モードです。",
+        "vpn_policy_dns_requests_tips": "VPNポリシーに準拠するすべてのDNSリクエストは、対応するVPNトンネルに関連付けられたDNSサーバーに転送されます。",
+        "non_vpn_dns_manual_settings_tips": "VPNを使用しないその他のDNSリクエストは、手動DNS設定で構成されたDNSサーバーアドレスに転送されます。",
+        "switch_to_manual_dns_only_tips": "手動DNS設定のみを使用するように切り替えます。",
+        "router_using_manual_dns_tips": "ルーターは現在、手動DNSを使用しています。",
+        "all_dns_via_feature_tips": "すべての DNS リクエストは {feature} 経由で解決されます。他の DNS サービスは有効になりません。",
+        "switch_to_vpn_dns_splitting_tips": "VPN DNS 分割モードに切り替えます。",
+        "all_dns_requests_to_manual_dns_tips": "VPN DNS リクエストを含むすべての DNS リクエストは、手動 DNS 設定で構成された静的/暗号化 DNS サーバーアドレスに転送されます。",
+        "manual_dns_all_requests_forwarded_tips": "すべての DNS リクエストは、手動 DNS 設定で構成された静的/暗号化 DNS サーバーアドレスに転送されます。",
+        "feature_enabled_tips": "{feature} が有効になっています。"
     }
 }
