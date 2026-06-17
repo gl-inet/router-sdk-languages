@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Check failed, protocol mismatch.",
         "manual_server_addr_msg": "Please enter the link in the same encrypted format.",
         "duplicate_rule_msg": "Duplicate rule detected",
-        "validation_failed_msg": "Validation failed."
+        "validation_failed_msg": "Validation failed.",
+        "router_splitting_mode_tips": "The router is currently in the DNS splitting mode.",
+        "router_using_wan_dns_tips": "The router is currently using WAN DNS.",
+        "request_wan_interface_tips": "All DNS requests are being directed to the DNS server address configured on the WAN intereface. Go to the Internet page to make the changes.",
+        "vpn_policy_wan_fallback_tips": "All DNS requests that comply with the VPN policy will be directed to the DNS Server associated with the corresponding VPN tunnel. The other DNS requests that do not use VPN will be directed to the DNS server address configured on the WAN intereface."
     }
 }
