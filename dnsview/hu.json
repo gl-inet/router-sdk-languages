@@ -60,6 +60,16 @@
         "router_using_wan_dns_tips": "Az útválasztó jelenleg a WAN DNS-t használja.",
         "request_wan_interface_tips": "Minden DNS-kérés a WAN-interfészen konfigurált DNS-kiszolgáló címére lesz irányítva. A módosításokhoz lépjen az Internet oldalra.",
         "router_splitting_mode_tips": "Az útválasztó jelenleg DNS-felosztási módban van.",
-        "vpn_policy_wan_fallback_tips": "A VPN-szabálynak megfelelő összes DNS-kérés a megfelelő VPN-alagúthoz társított DNS-kiszolgálóra lesz irányítva. A VPN-t nem használó többi DNS-kérés a WAN-interfészen beállított DNS-kiszolgáló címére lesz irányítva."
+        "vpn_policy_wan_fallback_tips": "A VPN-szabálynak megfelelő összes DNS-kérés a megfelelő VPN-alagúthoz társított DNS-kiszolgálóra lesz irányítva. A VPN-t nem használó többi DNS-kérés a WAN-interfészen beállított DNS-kiszolgáló címére lesz irányítva.",
+        "all_dns_requests_to_manual_dns_tips": "Minden DNS-kérés, beleértve a VPN DNS-kéréseit is, a Manuális DNS-beállításokban konfigurált statikus/titkosított DNS-kiszolgáló címére lesz irányítva.",
+        "vpn_splitting_mode_tips": "Az útválasztó jelenleg VPN DNS-felosztási módban van.",
+        "vpn_policy_dns_requests_tips": "A VPN-házirendnek megfelelő összes DNS-kérés a megfelelő VPN-alagúthoz társított DNS-kiszolgálóra lesz irányítva.",
+        "non_vpn_dns_manual_settings_tips": "A VPN-t nem használó egyéb DNS-kérések a Kézi DNS-beállításoknál megadott DNS-kiszolgáló címére lesznek irányítva.",
+        "switch_to_manual_dns_only_tips": "Váltás kizárólag a Kézi DNS-beállítások használatára.",
+        "router_using_manual_dns_tips": "Az útválasztó jelenleg Kézi DNS-t használ.",
+        "all_dns_via_feature_tips": "Minden DNS-kérést a(z) {feature} old fel. Más DNS-szolgáltatások nem lesznek hatásosak.",
+        "switch_to_vpn_dns_splitting_tips": "Váltás VPN osztott DNS módra.",
+        "manual_dns_all_requests_forwarded_tips": "Minden DNS-kérés a Kézi DNS-beállításokban konfigurált statikus/titkosított DNS-kiszolgáló címére irányul.",
+        "feature_enabled_tips": "A(z) {feature} engedélyezve van."
     }
 }
