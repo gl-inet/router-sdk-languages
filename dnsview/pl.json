@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Sprawdzenie nie powiodło się, niezgodność protokołu.",
         "manual_server_addr_msg": "Wprowadź link w tym samym zaszyfrowanym formacie.",
         "duplicate_rule_msg": "Wykryto zduplikowaną regułę",
-        "validation_failed_msg": "Walidacja nie powiodła się."
+        "validation_failed_msg": "Walidacja nie powiodła się.",
+        "router_using_wan_dns_tips": "Ruter obecnie używa DNS WAN.",
+        "request_wan_interface_tips": "Wszystkie żądania DNS są kierowane na adres serwera DNS skonfigurowany na interfejsie WAN. Przejdź do strony Internet, aby wprowadzić zmiany.",
+        "router_splitting_mode_tips": "Ruter jest obecnie w trybie dzielenia DNS.",
+        "vpn_policy_wan_fallback_tips": "Wszystkie żądania DNS zgodne z zasadą VPN będą kierowane do serwera DNS powiązanego z odpowiednim tunelem VPN. Pozostałe żądania DNS, które nie używają VPN, będą kierowane na adres serwera DNS skonfigurowany na interfejsie WAN."
     }
 }
