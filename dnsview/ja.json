@@ -56,6 +56,10 @@
         "protocol_failed_msg": "チェックに失敗しました、プロトコルが一致しません。",
         "manual_server_addr_msg": "同じ暗号化形式でリンクを入力してください。",
         "duplicate_rule_msg": "重複したルールが検出されました",
-        "validation_failed_msg": "検証に失敗しました。"
+        "validation_failed_msg": "検証に失敗しました。",
+        "router_using_wan_dns_tips": "ルーターは現在 WAN DNS を使用しています。",
+        "request_wan_interface_tips": "すべてのDNSリクエストは、WANインターフェースで設定されたDNSサーバーアドレスに転送されています。変更するには、インターネットページに移動してください。",
+        "router_splitting_mode_tips": "ルーターは現在、DNS 分割モードです。",
+        "vpn_policy_wan_fallback_tips": "VPNポリシーに準拠するすべてのDNSリクエストは、対応するVPNトンネルに関連付けられたDNSサーバーに転送されます。VPNを使用しないその他のDNSリクエストは、WANインターフェースに設定されたDNSサーバーアドレスに転送されます。"
     }
 }
