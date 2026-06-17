@@ -56,6 +56,10 @@
         "protocol_failed_msg": "확인 실패, 프로토콜 불일치.",
         "manual_server_addr_msg": "동일한 암호화 형식으로 링크를 입력해 주세요.",
         "duplicate_rule_msg": "중복 규칙이 감지되었습니다",
-        "validation_failed_msg": "유효성 검사 실패"
+        "validation_failed_msg": "유효성 검사 실패",
+        "router_using_wan_dns_tips": "라우터가 현재 WAN DNS를 사용 중입니다.",
+        "request_wan_interface_tips": "모든 DNS 요청이 WAN 인터페이스에 구성된 DNS 서버 주소로 전달됩니다. 변경하려면 인터넷 페이지로 이동하세요.",
+        "router_splitting_mode_tips": "라우터가 현재 DNS 분할 모드에 있습니다.",
+        "vpn_policy_wan_fallback_tips": "VPN 정책을 준수하는 모든 DNS 요청은 해당 VPN 터널과 연결된 DNS 서버로 전달됩니다. VPN을 사용하지 않는 다른 DNS 요청은 WAN 인터페이스에 구성된 DNS 서버 주소로 전달됩니다."
     }
 }
