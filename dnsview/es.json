@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Verificación fallida, discrepancia de protocolo.",
         "manual_server_addr_msg": "Por favor, ingrese el enlace en el mismo formato cifrado.",
         "duplicate_rule_msg": "Regla duplicada detectada",
-        "validation_failed_msg": "Error de validación."
+        "validation_failed_msg": "Error de validación.",
+        "router_using_wan_dns_tips": "El router está usando actualmente el DNS de la WAN.",
+        "request_wan_interface_tips": "Todas las solicitudes DNS se dirigen a la dirección del servidor DNS configurada en la interfaz WAN. Vaya a la página de Internet para realizar los cambios.",
+        "router_splitting_mode_tips": "El router está actualmente en modo de división de DNS.",
+        "vpn_policy_wan_fallback_tips": "Todas las solicitudes DNS que cumplan con la política de VPN se dirigirán al servidor DNS asociado con el túnel VPN correspondiente. Las demás solicitudes DNS que no utilicen VPN se dirigirán a la dirección del servidor DNS configurada en la interfaz WAN."
     }
 }
