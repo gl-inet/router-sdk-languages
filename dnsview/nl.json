@@ -56,6 +56,10 @@
         "protocol_failed_msg": "Controle mislukt, protocol komt niet overeen.",
         "manual_server_addr_msg": "Voer de link in hetzelfde versleutelde formaat in.",
         "duplicate_rule_msg": "Dubbele regel gedetecteerd",
-        "validation_failed_msg": "Validatie mislukt."
+        "validation_failed_msg": "Validatie mislukt.",
+        "router_using_wan_dns_tips": "De router gebruikt momenteel WAN-DNS.",
+        "request_wan_interface_tips": "Alle DNS-verzoeken worden doorgestuurd naar het DNS-serveradres dat op de WAN-interface is geconfigureerd. Ga naar de Internet-pagina om de wijzigingen aan te brengen.",
+        "router_splitting_mode_tips": "De router bevindt zich momenteel in de DNS-splitsingsmodus.",
+        "vpn_policy_wan_fallback_tips": "Alle DNS-verzoeken die voldoen aan het VPN-beleid worden doorgestuurd naar de DNS-server die aan de bijbehorende VPN-tunnel is gekoppeld. Andere DNS-verzoeken die geen VPN gebruiken, worden doorgestuurd naar het DNS-serveradres dat op de WAN-interface is geconfigureerd."
     }
 }
