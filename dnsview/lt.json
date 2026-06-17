@@ -60,6 +60,16 @@
         "router_using_wan_dns_tips": "Maršrutizatorius šiuo metu naudoja WAN DNS.",
         "request_wan_interface_tips": "Visos DNS užklausos nukreipiamos į DNS serverio adresą, sukonfigūruotą WAN sąsajoje. Eikite į interneto puslapį, kad atliktumėte pakeitimus.",
         "router_splitting_mode_tips": "Maršrutizatorius šiuo metu veikia DNS skaidymo veiksena.",
-        "vpn_policy_wan_fallback_tips": "Visos DNS užklausos, atitinkančios „VPN“ politiką, bus nukreiptos į DNS serverį, susietą su atitinkamu „VPN“ tuneliu. Kitos DNS užklausos, kurios nenaudoja „VPN“, bus nukreiptos į DNS serverio adresą, sukonfigūruotą WAN sąsajoje."
+        "vpn_policy_wan_fallback_tips": "Visos DNS užklausos, atitinkančios „VPN“ politiką, bus nukreiptos į DNS serverį, susietą su atitinkamu „VPN“ tuneliu. Kitos DNS užklausos, kurios nenaudoja „VPN“, bus nukreiptos į DNS serverio adresą, sukonfigūruotą WAN sąsajoje.",
+        "vpn_splitting_mode_tips": "Maršrutizatorius šiuo metu veikia „VPN“ DNS skaidymo veiksena.",
+        "vpn_policy_dns_requests_tips": "Visos DNS užklausos, atitinkančios „VPN“ politiką, bus nukreiptos į DNS serverį, susietą su atitinkamu „VPN“ tuneliu.",
+        "non_vpn_dns_manual_settings_tips": "Kitos DNS užklausos, kurios nenaudoja „VPN“, bus nukreiptos į DNS serverio adresą, sukonfigūruotą rankiniuose DNS nustatymuose.",
+        "switch_to_manual_dns_only_tips": "Perjunkite, kad būtų naudojami tik rankiniai DNS nustatymai.",
+        "router_using_manual_dns_tips": "Maršrutizatorius šiuo metu naudoja rankinį DNS.",
+        "all_dns_requests_to_manual_dns_tips": "Visos DNS užklausos, įskaitant „VPN“ DNS užklausas, nukreipiamos į statinio / užšifruoto DNS serverio adresą, sukonfigūruotą rankiniuose DNS nustatymuose.",
+        "all_dns_via_feature_tips": "Visos DNS užklausos bus sprendžiamos per {feature}. Kitos DNS paslaugos neveiks.",
+        "switch_to_vpn_dns_splitting_tips": "Perjungti į „VPN“ DNS skaidymo veikseną.",
+        "manual_dns_all_requests_forwarded_tips": "Visos DNS užklausos nukreipiamos į statinio / užšifruoto DNS serverio adresą, sukonfigūruotą rankiniuose DNS nustatymuose.",
+        "feature_enabled_tips": "{feature} yra įjungta."
     }
 }
