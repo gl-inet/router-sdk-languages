@@ -60,6 +60,16 @@
         "router_splitting_mode_tips": "Der Router befindet sich derzeit im DNS-Splitting-Modus.",
         "router_using_wan_dns_tips": "Der Router verwendet derzeit WAN-DNS.",
         "request_wan_interface_tips": "Alle DNS-Anfragen werden an die auf der WAN-Schnittstelle konfigurierte DNS-Serveradresse weitergeleitet. Gehen Sie zur Internetseite, um die Änderungen vorzunehmen.",
-        "vpn_policy_wan_fallback_tips": "Alle DNS-Anfragen, die der VPN-Richtlinie entsprechen, werden an den DNS-Server weitergeleitet, der dem entsprechenden VPN-Tunnel zugeordnet ist. Andere DNS-Anfragen, die kein VPN verwenden, werden an die auf der WAN-Schnittstelle konfigurierte DNS-Serveradresse weitergeleitet."
+        "vpn_policy_wan_fallback_tips": "Alle DNS-Anfragen, die der VPN-Richtlinie entsprechen, werden an den DNS-Server weitergeleitet, der dem entsprechenden VPN-Tunnel zugeordnet ist. Andere DNS-Anfragen, die kein VPN verwenden, werden an die auf der WAN-Schnittstelle konfigurierte DNS-Serveradresse weitergeleitet.",
+        "all_dns_requests_to_manual_dns_tips": "Alle DNS-Anfragen, einschließlich der VPN-DNS-Anfragen, werden an die in den manuellen DNS-Einstellungen konfigurierte statische/verschlüsselte DNS-Serveradresse weitergeleitet.",
+        "vpn_splitting_mode_tips": "Der Router befindet sich derzeit im VPN-DNS-Splitting-Modus.",
+        "switch_to_manual_dns_only_tips": "Wechseln Sie zur ausschließlichen Verwendung der manuellen DNS-Einstellungen.",
+        "vpn_policy_dns_requests_tips": "Alle DNS-Anfragen, die der VPN-Richtlinie entsprechen, werden an den DNS-Server weitergeleitet, der dem entsprechenden VPN-Tunnel zugeordnet ist.",
+        "router_using_manual_dns_tips": "Der Router verwendet derzeit manuelles DNS.",
+        "non_vpn_dns_manual_settings_tips": "Andere DNS-Anfragen, die kein VPN verwenden, werden an die in den manuellen DNS-Einstellungen konfigurierte DNS-Serveradresse weitergeleitet.",
+        "all_dns_via_feature_tips": "Alle DNS-Anfragen werden über {feature} aufgelöst. Andere DNS-Dienste sind nicht wirksam.",
+        "switch_to_vpn_dns_splitting_tips": "In den VPN-DNS-Splitting-Modus wechseln.",
+        "manual_dns_all_requests_forwarded_tips": "Alle DNS-Anfragen werden an die in den manuellen DNS-Einstellungen konfigurierte statische/verschlüsselte DNS-Serveradresse weitergeleitet.",
+        "feature_enabled_tips": "{feature} ist aktiviert."
     }
 }
