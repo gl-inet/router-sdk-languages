@@ -71,6 +71,8 @@
         "manual_dns_all_requests_forwarded_tips": "Усі DNS-запити спрямовуються на адресу статичного/зашифрованого DNS-сервера, налаштовану в параметрах DNS вручну.",
         "feature_enabled_tips": "{feature} увімкнено.",
         "all_dns_via_feature_tips": "Усі DNS-запити розв’язуватимуться через {feature}. Інші DNS-служби не діятимуть.",
-        "static_dns_label": "Статичний DNS"
+        "static_dns_label": "Статичний DNS",
+        "vpn_tunnels_manual_dns_label": "Застосувати ручний DNS до VPN-тунелів",
+        "router_itself_manual_dns_label": "Застосувати ручний DNS до самого маршрутизатора"
     }
 }
