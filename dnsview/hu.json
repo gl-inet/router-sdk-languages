@@ -74,6 +74,9 @@
         "static_dns_label": "Statikus DNS",
         "vpn_tunnels_manual_dns_label": "Kézi DNS alkalmazása a VPN-alagutakra",
         "router_itself_manual_dns_label": "Kézi DNS alkalmazása magára az útválasztóra",
-        "dns_options_title": "DNS-beállítások"
+        "dns_options_title": "DNS-beállítások",
+        "all_dns_via_adguard_only_tips": "Minden DNS-kérés az Adguard Home-on keresztül lesz feloldva. Más DNS-szolgáltatások nem lesznek érvényesek.",
+        "upstream_dns_servers": "Felsőbb szintű DNS-kiszolgálók:",
+        "unactivated": "Nem aktivált"
     }
 }
