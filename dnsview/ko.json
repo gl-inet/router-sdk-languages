@@ -74,6 +74,9 @@
         "static_dns_label": "고정 DNS",
         "vpn_tunnels_manual_dns_label": "수동 DNS를 VPN 터널에 적용",
         "router_itself_manual_dns_label": "라우터 자체에 수동 DNS 적용",
-        "dns_options_title": "DNS 옵션"
+        "dns_options_title": "DNS 옵션",
+        "all_dns_via_adguard_only_tips": "모든 DNS 요청은 Adguard Home을 통해 확인됩니다. 다른 DNS 서비스는 적용되지 않습니다.",
+        "upstream_dns_servers": "업스트림 DNS 서버:",
+        "unactivated": "비활성화됨"
     }
 }
