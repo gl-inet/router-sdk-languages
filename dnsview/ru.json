@@ -74,6 +74,9 @@
         "static_dns_label": "Статический DNS",
         "vpn_tunnels_manual_dns_label": "Применять ручной DNS к VPN-туннелям",
         "router_itself_manual_dns_label": "Применить ручной DNS к самому маршрутизатору",
-        "dns_options_title": "Параметры DNS"
+        "dns_options_title": "Параметры DNS",
+        "all_dns_via_adguard_only_tips": "Все DNS-запросы будут разрешаться через AdGuard Home. Другие DNS-сервисы не будут работать.",
+        "upstream_dns_servers": "Вышестоящие DNS-серверы:",
+        "unactivated": "Не активировано"
     }
 }
