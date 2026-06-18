@@ -63,7 +63,6 @@
         "vpn_policy_wan_fallback_tips": "Todas las solicitudes DNS que cumplan con la política de VPN se dirigirán al servidor DNS asociado con el túnel VPN correspondiente. Las demás solicitudes DNS que no utilicen VPN se dirigirán a la dirección del servidor DNS configurada en la interfaz WAN.",
         "all_dns_requests_to_manual_dns_tips": "Todas las solicitudes DNS, incluidas las solicitudes DNS de la VPN, se dirigen a la dirección del servidor DNS estático/cifrado configurada en los ajustes de DNS manual.",
         "vpn_splitting_mode_tips": "El router está actualmente en modo de división de DNS de la VPN.",
-        "switch_to_manual_dns_only_tips": "Cambiar para usar solo la configuración de DNS manual.",
         "vpn_policy_dns_requests_tips": "Todas las solicitudes DNS que cumplan con la política de VPN se dirigirán al servidor DNS asociado con el túnel VPN correspondiente.",
         "non_vpn_dns_manual_settings_tips": "Las demás solicitudes DNS que no usen VPN se dirigirán a la dirección del servidor DNS configurada en la configuración de DNS manual.",
         "router_using_manual_dns_tips": "El router está usando actualmente DNS manual.",
