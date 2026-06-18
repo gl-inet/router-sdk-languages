@@ -74,6 +74,9 @@
         "static_dns_label": "DNS statico",
         "vpn_tunnels_manual_dns_label": "Applica DNS manuale ai tunnel VPN",
         "router_itself_manual_dns_label": "Applica DNS manuale al router stesso",
-        "dns_options_title": "Opzioni DNS"
+        "dns_options_title": "Opzioni DNS",
+        "all_dns_via_adguard_only_tips": "Tutte le richieste DNS verranno risolte tramite Adguard Home. Gli altri servizi DNS non avranno effetto.",
+        "upstream_dns_servers": "Server DNS upstream:",
+        "unactivated": "Non attivato"
     }
 }
