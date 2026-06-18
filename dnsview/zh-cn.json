@@ -71,6 +71,8 @@
         "manual_dns_all_requests_forwarded_tips": "所有 DNS 请求都将被定向到手动 DNS 设置中配置的静态/加密 DNS 服务器地址。",
         "feature_enabled_tips": "{feature} 已启用。",
         "all_dns_via_feature_tips": "所有 DNS 请求都将通过 {feature} 解析。其他 DNS 服务将不会生效。",
-        "static_dns_label": "静态 DNS"
+        "static_dns_label": "静态 DNS",
+        "vpn_tunnels_manual_dns_label": "将手动 DNS 应用于 VPN 隧道",
+        "router_itself_manual_dns_label": "将手动 DNS 应用于路由器自身"
     }
 }
