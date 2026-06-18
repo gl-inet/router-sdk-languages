@@ -74,6 +74,9 @@
         "static_dns_label": "静的 DNS",
         "vpn_tunnels_manual_dns_label": "手動DNSをVPNトンネルに適用",
         "router_itself_manual_dns_label": "手動 DNS をルーター自体に適用する",
-        "dns_options_title": "DNS オプション"
+        "dns_options_title": "DNS オプション",
+        "all_dns_via_adguard_only_tips": "すべての DNS リクエストは Adguard Home 経由で解決されます。他の DNS サービスは有効になりません。",
+        "upstream_dns_servers": "アップストリーム DNS サーバー:",
+        "unactivated": "未アクティブ"
     }
 }
