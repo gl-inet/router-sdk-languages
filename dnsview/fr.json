@@ -71,6 +71,8 @@
         "manual_dns_all_requests_forwarded_tips": "Toutes les requêtes DNS sont dirigées vers l’adresse du serveur DNS statique/chiffré configurée dans les paramètres DNS manuels.",
         "feature_enabled_tips": "{feature} est activé.",
         "all_dns_via_feature_tips": "Toutes les requêtes DNS seront résolues via {feature}. Les autres services DNS ne seront pas effectifs.",
-        "static_dns_label": "DNS statique"
+        "static_dns_label": "DNS statique",
+        "vpn_tunnels_manual_dns_label": "Appliquer le DNS manuel aux tunnels VPN",
+        "router_itself_manual_dns_label": "Appliquer le DNS manuel au routeur lui-même"
     }
 }
