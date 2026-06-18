@@ -71,6 +71,8 @@
         "manual_dns_all_requests_forwarded_tips": "Tüm DNS istekleri, Manuel DNS ayarlarında yapılandırılan statik/şifreli DNS sunucusu adresine yönlendiriliyor.",
         "feature_enabled_tips": "{feature} etkinleştirildi.",
         "all_dns_via_feature_tips": "Tüm DNS istekleri {feature} üzerinden çözümlenecektir. Diğer DNS hizmetleri etkili olmayacaktır.",
-        "static_dns_label": "Statik DNS"
+        "static_dns_label": "Statik DNS",
+        "vpn_tunnels_manual_dns_label": "Manuel DNS'yi VPN tünellerine uygula",
+        "router_itself_manual_dns_label": "Manuel DNS'yi yönlendiricinin kendisine uygula"
     }
 }
