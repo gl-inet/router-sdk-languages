@@ -71,6 +71,8 @@
         "manual_dns_all_requests_forwarded_tips": "Wszystkie żądania DNS są kierowane na adres statycznego/szyfrowanego serwera DNS skonfigurowany w ręcznych ustawieniach DNS.",
         "feature_enabled_tips": "{feature} jest włączone.",
         "all_dns_via_feature_tips": "Wszystkie żądania DNS będą rozwiązywane przez {feature}. Inne usługi DNS nie będą działać.",
-        "static_dns_label": "Statyczny DNS"
+        "static_dns_label": "Statyczny DNS",
+        "vpn_tunnels_manual_dns_label": "Zastosuj ręczny DNS do tuneli VPN",
+        "router_itself_manual_dns_label": "Zastosuj ręczny DNS do samego rutera"
     }
 }
