@@ -71,6 +71,8 @@
         "manual_dns_all_requests_forwarded_tips": "所有 DNS 請求都會導向在手動 DNS 設定中配置的靜態／加密 DNS 伺服器位址。",
         "feature_enabled_tips": "{feature} 已啟用。",
         "all_dns_via_feature_tips": "所有 DNS 請求都將透過 {feature} 解析。其他 DNS 服務將不會生效。",
-        "static_dns_label": "靜態 DNS"
+        "static_dns_label": "靜態 DNS",
+        "vpn_tunnels_manual_dns_label": "將手動 DNS 套用至 VPN 通道",
+        "router_itself_manual_dns_label": "將手動 DNS 套用至路由器本身"
     }
 }
