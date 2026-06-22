@@ -112,7 +112,11 @@
         "dest_port_label": "Port de destination",
         "source_address_label": "Adresse source",
         "high_priority_rules_title": "Règles de priorité élevée",
-        "add_rule_btn": "Ajouter une règle"
+        "add_rule_btn": "Ajouter une règle",
+        "search_device_placeholder": "Rechercher par nom de client, adresse MAC ou adresse IP",
+        "select_devices_title": "Sélectionner des appareils",
+        "edit_advanced_rule_title": "Modifier la règle QoS avancée",
+        "selected_total_label": "Sélectionnés {selected} / Total {total}"
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
