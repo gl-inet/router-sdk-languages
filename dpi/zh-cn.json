@@ -111,7 +111,12 @@
         "high_priority_rules_title": "高优先级规则",
         "add_rule_btn": "添加规则",
         "source_address_label": "源地址",
-        "dest_port_label": "目标端口"
+        "dest_port_label": "目标端口",
+        "search_device_placeholder": "按客户端名称、MAC 地址或 IP 地址搜索",
+        "select_devices_title": "选择设备",
+        "add_advanced_rule_title": "添加高级 QoS 规则",
+        "edit_advanced_rule_title": "编辑高级 QoS 规则",
+        "selected_total_label": "已选择 {selected} / 共 {total}"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
