@@ -41,6 +41,12 @@
     "disable_tips": "Zatrzymuje ciągłe monitorowanie responsywności, opóźnienia i DNS sieci oraz wyłącza alerty w czasie rzeczywistym dotyczące utraty pakietów i zerwań połączenia. Czy chcesz kontynuować?",
     "probe_targets": "Cele sondowania",
     "internet_target_tips": "Używane do sondowania łączności internetowej i pomiaru opóźnienia end-to-end (cel ping Hop2).",
-    "dns_target_tips": "Domena rozwiązywana podczas sond wyszukiwania DNS. Zapytania obejmują zarówno rekordy A (IPv4), jak i AAAA (IPv6)."
+    "dns_target_tips": "Domena rozwiązywana podczas sond wyszukiwania DNS. Zapytania obejmują zarówno rekordy A (IPv4), jak i AAAA (IPv6).",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Responsywna",
+    "variable": "Zmienna",
+    "unstable": "Niestabilna",
+    "failing": "Nie działa"
   }
 }

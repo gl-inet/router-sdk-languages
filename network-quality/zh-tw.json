@@ -41,6 +41,12 @@
     "disable_tips": "停止持續監控網路回應能力、延遲和 DNS，並停用封包遺失和連線中斷的即時警示。是否繼續？",
     "probe_targets": "探測目標",
     "internet_target_tips": "用於探測網際網路連線並測量端對端延遲（Hop2 ping 目標）。",
-    "dns_target_tips": "DNS 查詢探測期間解析的網域。會同時查詢 A（IPv4）和 AAAA（IPv6）記錄。"
+    "dns_target_tips": "DNS 查詢探測期間解析的網域。會同時查詢 A（IPv4）和 AAAA（IPv6）記錄。",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "回應良好",
+    "variable": "變化",
+    "unstable": "不穩定",
+    "failing": "故障"
   }
 }

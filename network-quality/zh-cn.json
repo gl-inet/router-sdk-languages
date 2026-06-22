@@ -41,6 +41,12 @@
     "disable_tips": "停止持续监控网络响应能力、延迟和 DNS，并禁用丢包和连接中断的实时告警。是否继续？",
     "probe_targets": "探测目标",
     "internet_target_tips": "用于探测互联网连接并测量端到端延迟（Hop2 ping 目标）。",
-    "dns_target_tips": "DNS 查询探测期间解析的域名。会同时查询 A（IPv4）和 AAAA（IPv6）记录。"
+    "dns_target_tips": "DNS 查询探测期间解析的域名。会同时查询 A（IPv4）和 AAAA（IPv6）记录。",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "响应良好",
+    "variable": "变化",
+    "unstable": "不稳定",
+    "failing": "故障"
   }
 }

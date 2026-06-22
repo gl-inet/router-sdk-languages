@@ -41,6 +41,12 @@
     "disable_tips": "Detiene la supervisión continua de la capacidad de respuesta, la latencia y el DNS de la red, y desactiva las alertas en tiempo real de pérdida de paquetes y caídas de conexión. ¿Desea continuar?",
     "probe_targets": "Objetivos de sondeo",
     "internet_target_tips": "Se utiliza para sondear la conectividad a Internet y medir la latencia de extremo a extremo (objetivo ping Hop2).",
-    "dns_target_tips": "El dominio resuelto durante los sondeos de búsqueda DNS. Se consultan registros A (IPv4) y AAAA (IPv6)."
+    "dns_target_tips": "El dominio resuelto durante los sondeos de búsqueda DNS. Se consultan registros A (IPv4) y AAAA (IPv6).",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Con capacidad de respuesta",
+    "variable": "Variable",
+    "unstable": "Inestable",
+    "failing": "Fallando"
   }
 }

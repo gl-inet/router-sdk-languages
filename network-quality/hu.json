@@ -41,6 +41,12 @@
     "disable_tips": "Leállítja a hálózat válaszkészségének, késleltetésének és DNS-ének folyamatos figyelését, valamint letiltja a csomagvesztésre és kapcsolatmegszakadásra vonatkozó valós idejű riasztásokat. Folytatja?",
     "probe_targets": "Próbacélok",
     "internet_target_tips": "Az internetkapcsolat vizsgálatára és a végpontok közötti késleltetés mérésére szolgál (Hop2 ping cél).",
-    "dns_target_tips": "A DNS-keresési próbák során feloldott tartomány. Az A (IPv4) és AAAA (IPv6) rekordok egyaránt lekérdezésre kerülnek."
+    "dns_target_tips": "A DNS-keresési próbák során feloldott tartomány. Az A (IPv4) és AAAA (IPv6) rekordok egyaránt lekérdezésre kerülnek.",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Válaszkész",
+    "variable": "Változó",
+    "unstable": "Instabil",
+    "failing": "Hibás"
   }
 }

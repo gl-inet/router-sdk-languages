@@ -41,6 +41,12 @@
     "disable_tips": "Interrompe il monitoraggio continuo della reattività, della latenza e del DNS della rete e disabilita gli avvisi in tempo reale per perdita di pacchetti e interruzioni di connessione. Continuare?",
     "probe_targets": "Destinazioni probe",
     "internet_target_tips": "Utilizzato per verificare la connettività Internet e misurare la latenza end-to-end (destinazione ping Hop2).",
-    "dns_target_tips": "Il dominio risolto durante i probe di ricerca DNS. Vengono interrogati sia i record A (IPv4) sia AAAA (IPv6)."
+    "dns_target_tips": "Il dominio risolto durante i probe di ricerca DNS. Vengono interrogati sia i record A (IPv4) sia AAAA (IPv6).",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Reattivo",
+    "variable": "Variabile",
+    "unstable": "Instabile",
+    "failing": "In errore"
   }
 }

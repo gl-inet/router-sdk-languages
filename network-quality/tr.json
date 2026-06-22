@@ -41,6 +41,12 @@
     "disable_tips": "Ağ yanıt verebilirliği, gecikmesi ve DNS'in sürekli izlenmesini durdurur; paket kaybı ve bağlantı kopmaları için gerçek zamanlı uyarıları devre dışı bırakır. Devam etmek istiyor musunuz?",
     "probe_targets": "Yoklama Hedefleri",
     "internet_target_tips": "İnternet bağlantısını yoklamak ve uçtan uca gecikmeyi ölçmek için kullanılır (Hop2 ping hedefi).",
-    "dns_target_tips": "DNS arama yoklamaları sırasında çözümlenen alan adı. Hem A (IPv4) hem de AAAA (IPv6) kayıtları sorgulanır."
+    "dns_target_tips": "DNS arama yoklamaları sırasında çözümlenen alan adı. Hem A (IPv4) hem de AAAA (IPv6) kayıtları sorgulanır.",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Yanıt veriyor",
+    "variable": "Değişken",
+    "unstable": "Kararsız",
+    "failing": "Başarısız"
   }
 }

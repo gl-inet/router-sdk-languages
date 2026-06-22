@@ -41,6 +41,12 @@
     "disable_tips": "Arrête la surveillance continue de la réactivité, de la latence et du DNS du réseau, et désactive les alertes en temps réel pour la perte de paquets et les coupures de connexion. Voulez-vous continuer ?",
     "probe_targets": "Cibles de sonde",
     "internet_target_tips": "Utilisé pour sonder la connectivité Internet et mesurer la latence de bout en bout (cible ping Hop2).",
-    "dns_target_tips": "Le domaine résolu pendant les sondes de recherche DNS. Les enregistrements A (IPv4) et AAAA (IPv6) sont tous deux interrogés."
+    "dns_target_tips": "Le domaine résolu pendant les sondes de recherche DNS. Les enregistrements A (IPv4) et AAAA (IPv6) sont tous deux interrogés.",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Réactif",
+    "variable": "Variable",
+    "unstable": "Instable",
+    "failing": "En échec"
   }
 }

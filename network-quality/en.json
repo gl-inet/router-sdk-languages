@@ -41,6 +41,12 @@
     "disable_tips": "Stops continuous monitoring of network responsiveness, latency and DNS, and disables real-time alerts for packet loss and connection drops. Do you want to continue?",
     "probe_targets": "Probe Targets",
     "internet_target_tips": "Used to probe internet connectivity and measure end-to-end latency (Hop2 ping target).",
-    "dns_target_tips": "The domain resolved during DNS lookup probes. Both A (IPv4) and AAAA (IPv6) records are queried."
+    "dns_target_tips": "The domain resolved during DNS lookup probes. Both A (IPv4) and AAAA (IPv6) records are queried.",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Responsive",
+    "variable": "Variable",
+    "unstable": "Unstable",
+    "failing": "Failing"
   }
 }

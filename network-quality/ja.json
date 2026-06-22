@@ -41,6 +41,12 @@
     "disable_tips": "ネットワークの応答性、遅延、DNS の継続監視を停止し、パケットロスと接続断のリアルタイム警告を無効にします。続行しますか？",
     "probe_targets": "プローブターゲット",
     "internet_target_tips": "インターネット接続を検出し、エンドツーエンド遅延を測定するために使用します（Hop2 ping ターゲット）。",
-    "dns_target_tips": "DNS ルックアッププローブ中に解決されるドメインです。A（IPv4）と AAAA（IPv6）の両方のレコードが照会されます。"
+    "dns_target_tips": "DNS ルックアッププローブ中に解決されるドメインです。A（IPv4）と AAAA（IPv6）の両方のレコードが照会されます。",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "応答良好",
+    "variable": "変動あり",
+    "unstable": "不安定",
+    "failing": "失敗中"
   }
 }

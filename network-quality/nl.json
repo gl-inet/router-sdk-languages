@@ -41,6 +41,12 @@
     "disable_tips": "Stopt continue bewaking van netwerkresponsiviteit, latentie en DNS, en schakelt realtime waarschuwingen voor pakketverlies en verbindingsuitval uit. Wilt u doorgaan?",
     "probe_targets": "Probedoelen",
     "internet_target_tips": "Wordt gebruikt om internetconnectiviteit te testen en end-to-end-latentie te meten (Hop2-pingdoel).",
-    "dns_target_tips": "Het domein dat wordt opgelost tijdens DNS-lookupprobes. Zowel A- (IPv4) als AAAA-records (IPv6) worden opgevraagd."
+    "dns_target_tips": "Het domein dat wordt opgelost tijdens DNS-lookupprobes. Zowel A- (IPv4) als AAAA-records (IPv6) worden opgevraagd.",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Responsief",
+    "variable": "Variabel",
+    "unstable": "Onstabiel",
+    "failing": "Mislukt"
   }
 }

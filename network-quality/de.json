@@ -41,6 +41,12 @@
     "disable_tips": "Stoppt die kontinuierliche Überwachung von Netzwerkreaktionsfähigkeit, Latenz und DNS und deaktiviert Echtzeitwarnungen für Paketverlust und Verbindungsabbrüche. Möchten Sie fortfahren?",
     "probe_targets": "Prüfziele",
     "internet_target_tips": "Wird verwendet, um die Internetverbindung zu prüfen und die Ende-zu-Ende-Latenz zu messen (Hop2-Ping-Ziel).",
-    "dns_target_tips": "Die Domain, die während DNS-Abfrageprüfungen aufgelöst wird. Sowohl A- (IPv4) als auch AAAA- (IPv6) Einträge werden abgefragt."
+    "dns_target_tips": "Die Domain, die während DNS-Abfrageprüfungen aufgelöst wird. Sowohl A- (IPv4) als auch AAAA- (IPv6) Einträge werden abgefragt.",
+    "unit_mbps": "Mbps",
+    "unit_ms": "ms",
+    "responsive": "Reaktionsfähig",
+    "variable": "Variabel",
+    "unstable": "Instabil",
+    "failing": "Fehlgeschlagen"
   }
 }
