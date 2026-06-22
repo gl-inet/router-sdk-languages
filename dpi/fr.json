@@ -116,7 +116,9 @@
         "search_device_placeholder": "Rechercher par nom de client, adresse MAC ou adresse IP",
         "select_devices_title": "Sélectionner des appareils",
         "edit_advanced_rule_title": "Modifier la règle QoS avancée",
-        "selected_total_label": "Sélectionnés {selected} / Total {total}"
+        "selected_total_label": "Sélectionnés {selected} / Total {total}",
+        "any_label": "N'importe lequel",
+        "scheduling_policy_tips": "Sélectionnez un mode de stratégie. Les règles avancées remplacent la stratégie de base pour le trafic correspondant."
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
