@@ -118,7 +118,10 @@
         "edit_advanced_rule_title": "Edit Advanced QoS Rule",
         "selected_total_label": "Selected {selected} / Total {total}",
         "any_label": "Any",
-        "scheduling_policy_tips": "Select one policy mode. Advanced rules override the basic policy for matched traffic."
+        "scheduling_policy_tips": "Select one policy mode. Advanced rules override the basic policy for matched traffic.",
+        "self_label": "Self",
+        "rule_name_placeholder": "e.g. Work Video Call Priority",
+        "dest_port_placeholder": "443, 3478-3480, or any"
     },
     "flowstatistics": {
         "card_title": "Application Total Data",
