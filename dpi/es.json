@@ -116,7 +116,9 @@
         "search_device_placeholder": "Buscar por nombre de cliente, dirección MAC o dirección IP",
         "select_devices_title": "Seleccionar dispositivos",
         "edit_advanced_rule_title": "Editar regla avanzada de QoS",
-        "selected_total_label": "Seleccionados {selected} / Total {total}"
+        "selected_total_label": "Seleccionados {selected} / Total {total}",
+        "any_label": "Cualquiera",
+        "scheduling_policy_tips": "Seleccione un modo de política. Las reglas avanzadas anulan la política básica para el tráfico coincidente."
     },
     "flowstatistics": {
         "card_title": "Datos Totales de Aplicación",
