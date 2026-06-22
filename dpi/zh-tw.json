@@ -118,7 +118,10 @@
         "edit_advanced_rule_title": "編輯進階 QoS 規則",
         "selected_total_label": "已選 {selected} / 總計 {total}",
         "any_label": "任意",
-        "scheduling_policy_tips": "選擇一種策略模式。進階規則會覆寫符合流量的基本策略。"
+        "scheduling_policy_tips": "選擇一種策略模式。進階規則會覆寫符合流量的基本策略。",
+        "self_label": "自身",
+        "rule_name_placeholder": "例如，工作視訊通話優先順序",
+        "dest_port_placeholder": "443、3478-3480 或任何"
     },
     "flowstatistics": {
         "card_title": "應用程式總數據量",
