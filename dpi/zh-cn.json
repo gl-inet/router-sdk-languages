@@ -118,7 +118,10 @@
         "edit_advanced_rule_title": "编辑高级 QoS 规则",
         "selected_total_label": "已选择 {selected} / 共 {total}",
         "any_label": "任意",
-        "scheduling_policy_tips": "选择一种策略模式。对于匹配的流量，高级规则会覆盖基本策略。"
+        "scheduling_policy_tips": "选择一种策略模式。对于匹配的流量，高级规则会覆盖基本策略。",
+        "self_label": "自身",
+        "rule_name_placeholder": "例如，工作视频通话优先级",
+        "dest_port_placeholder": "443、3478-3480 或任意"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
