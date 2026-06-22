@@ -116,7 +116,9 @@
         "search_device_placeholder": "クライアント名、MACアドレス、またはIPアドレスで検索",
         "select_devices_title": "デバイスを選択",
         "edit_advanced_rule_title": "高度なQoSルールを編集",
-        "selected_total_label": "選択済み {selected} / 合計 {total}"
+        "selected_total_label": "選択済み {selected} / 合計 {total}",
+        "any_label": "任意",
+        "scheduling_policy_tips": "ポリシーモードを1つ選択してください。詳細ルールは、一致するトラフィックに対して基本ポリシーより優先されます。"
     },
     "flowstatistics": {
         "card_title": "アプリケーション総データ量",
