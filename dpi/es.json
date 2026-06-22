@@ -112,7 +112,11 @@
         "device_priority_desc": "Los clientes seleccionados reciben mayor prioridad cuando la conexión WAN está ocupada.",
         "source_address_label": "Dirección de origen",
         "high_priority_rules_title": "Reglas de alta prioridad",
-        "add_rule_btn": "Agregar regla"
+        "add_rule_btn": "Agregar regla",
+        "search_device_placeholder": "Buscar por nombre de cliente, dirección MAC o dirección IP",
+        "select_devices_title": "Seleccionar dispositivos",
+        "edit_advanced_rule_title": "Editar regla avanzada de QoS",
+        "selected_total_label": "Seleccionados {selected} / Total {total}"
     },
     "flowstatistics": {
         "card_title": "Datos Totales de Aplicación",
