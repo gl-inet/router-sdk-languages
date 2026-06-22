@@ -1,7 +1,7 @@
 {
-    "igmp": {
-        "desc": "IGMP-Snooping überwacht IGMP Pakete, extrahiert die Informationen, erstellt und verwaltet die Multicast-Broadcasts im Layer 2. Es leitet die Daten der Multicast-Gruppen an die Hosts weiter, welche der Multicast-Gruppe angehören.",
-        "note": "IGMPv3 ist kompatibel mit Version 1 und 2. Benutzen Sie standardmäßig Version 3 und schalten Sie bei Problemen um.",
-        "version": "Version"
-    }
+  "igmp": {
+    "desc": "IGMP-Snooping überwacht IGMP Pakete, extrahiert die Informationen, erstellt und verwaltet die Multicast-Broadcasts im Layer 2. Es leitet die Daten der Multicast-Gruppen an die Hosts weiter, welche der Multicast-Gruppe angehören.",
+    "note": "IGMPv3 ist kompatibel mit Version 1 und 2. Benutzen Sie standardmäßig Version 3 und schalten Sie bei Problemen um.",
+    "version": "Version"
+  }
 }

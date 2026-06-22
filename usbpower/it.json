@@ -1,31 +1,31 @@
 {
-    "usb": {
-        "protocol_label": "Cambio Protocollo USB",
-        "usb_mode_label": "Modalità USB Doppio Ruolo",
-        "tethring_label": "Tethering",
-        "power_direction_label": "Direzione Alimentazione",
-        "power_threshold_label": "Soglia di Potenza",
-        "ask_me_label": "Chiedimi",
-        "usb_host_label": "Tethering USB (Host)",
-        "input_label": "Priorità Ingresso",
-        "output_label": "Priorità Uscita",
-        "interface_tips": "Le impostazioni USB si applicano solo alla porta dati e non influenzano la porta di sola alimentazione.",
-        "ask_me_tips": "Chiedi ogni volta (non forzare un ruolo)",
-        "usb_host_tips": "Funziona come Host USB (accetta periferiche USB compatibili)",
-        "power_power_direction_label": "Direzione dell'alimentazione (Porta di alimentazione)",
-        "usb_tethering_tips": "Funziona come Dispositivo di Tethering USB (si presenta come un adattatore di rete USB a un host)",
-        "power_data_direction_label": "Direzione dell'alimentazione (Porta dati)",
-        "power_threshold_tips": "Soglia minima della batteria per l'uscita di alimentazione esterna (i dispositivi USB non saranno disponibili al di sotto di questo livello)"
-    },
-    "power": {
-        "power_title": "Alimentazione",
-        "ethernet_idle_timeout_label": "Timeout Inattività Ethernet",
-        "power_off_timeout_label": "Timeout Spegnimento",
-        "auto_system_standby_tips": "Quando abilitato, se le reti sono inattive, nessun USB è connesso e il Ripetitore non è in uso, il sistema entrerà automaticamente in standby.",
-        "never_label": "mai",
-        "wifi_sleep_time_label": "Timeout Inattività Wi-Fi",
-        "power_charger_label": "Accensione con Alimentatore",
-        "auto_system_standby_label": "Standby Automatico Sistema"
-    },
-    "menu_usbpower": "USB e Alimentazione"
+  "usb": {
+    "protocol_label": "Cambio Protocollo USB",
+    "usb_mode_label": "Modalità USB Doppio Ruolo",
+    "tethring_label": "Tethering",
+    "power_direction_label": "Direzione Alimentazione",
+    "power_threshold_label": "Soglia di Potenza",
+    "ask_me_label": "Chiedimi",
+    "usb_host_label": "Tethering USB (Host)",
+    "input_label": "Priorità Ingresso",
+    "output_label": "Priorità Uscita",
+    "interface_tips": "Le impostazioni USB si applicano solo alla porta dati e non influenzano la porta di sola alimentazione.",
+    "ask_me_tips": "Chiedi ogni volta (non forzare un ruolo)",
+    "usb_host_tips": "Funziona come Host USB (accetta periferiche USB compatibili)",
+    "power_power_direction_label": "Direzione dell'alimentazione (Porta di alimentazione)",
+    "usb_tethering_tips": "Funziona come Dispositivo di Tethering USB (si presenta come un adattatore di rete USB a un host)",
+    "power_data_direction_label": "Direzione dell'alimentazione (Porta dati)",
+    "power_threshold_tips": "Soglia minima della batteria per l'uscita di alimentazione esterna (i dispositivi USB non saranno disponibili al di sotto di questo livello)"
+  },
+  "power": {
+    "power_title": "Alimentazione",
+    "ethernet_idle_timeout_label": "Timeout Inattività Ethernet",
+    "power_off_timeout_label": "Timeout Spegnimento",
+    "auto_system_standby_tips": "Quando abilitato, se le reti sono inattive, nessun USB è connesso e il Ripetitore non è in uso, il sistema entrerà automaticamente in standby.",
+    "never_label": "mai",
+    "wifi_sleep_time_label": "Timeout Inattività Wi-Fi",
+    "power_charger_label": "Accensione con Alimentatore",
+    "auto_system_standby_label": "Standby Automatico Sistema"
+  },
+  "menu_usbpower": "USB e Alimentazione"
 }

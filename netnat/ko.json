@@ -1,15 +1,15 @@
 {
-    "menu_netnat": "네트워크 가속",
-    "netnat": {
-        "desc": "네트워크 가속은 CPU 로드를 줄이고 트래픽 패킷 전송 속도를 높이지만 일부 기능과 충돌할 수 있습니다.",
-        "tips": "네트워크 가속이 활성화되면 클라이언트 속도 및 트래픽 통계, 클라이언트 속도 제한, 상위 제어 기능이 제대로 작동하지 않습니다.",
-        "hwnat_label": "하드웨어 가속",
-        "swnat_label": "소프트웨어 가속",
-        "wifi_reload_tips": "하드웨어 가속을 전환하거나 전환하려면 WIFI 모듈을 다시 로드해야 하며 대기 시간은 10초에서 1분입니다.",
-        "disabled_tips": "네트워크 가속이 활성화되면 다음 기능이 정상적으로 작동하지 않습니다: {feature}.",
-        "disabled_client_label": "클라이언트 속도 및 트래픽 통계",
-        "disabled_speed_limit_label": "클라이언트 속도 제한",
-        "disabled_vpn_ipv6_label": "IPv6 지원 VPN",
-        "qos_sqm_safeguard_data_tips": "이 기능은 다음 기능과 충돌하여 사용할 수 없습니다: {features}."
-    }
+  "menu_netnat": "네트워크 가속",
+  "netnat": {
+    "desc": "네트워크 가속은 CPU 로드를 줄이고 트래픽 패킷 전송 속도를 높이지만 일부 기능과 충돌할 수 있습니다.",
+    "tips": "네트워크 가속이 활성화되면 클라이언트 속도 및 트래픽 통계, 클라이언트 속도 제한, 상위 제어 기능이 제대로 작동하지 않습니다.",
+    "hwnat_label": "하드웨어 가속",
+    "swnat_label": "소프트웨어 가속",
+    "wifi_reload_tips": "하드웨어 가속을 전환하거나 전환하려면 WIFI 모듈을 다시 로드해야 하며 대기 시간은 10초에서 1분입니다.",
+    "disabled_tips": "네트워크 가속이 활성화되면 다음 기능이 정상적으로 작동하지 않습니다: {feature}.",
+    "disabled_client_label": "클라이언트 속도 및 트래픽 통계",
+    "disabled_speed_limit_label": "클라이언트 속도 제한",
+    "disabled_vpn_ipv6_label": "IPv6 지원 VPN",
+    "qos_sqm_safeguard_data_tips": "이 기능은 다음 기능과 충돌하여 사용할 수 없습니다: {features}."
+  }
 }

@@ -1,15 +1,15 @@
 {
-    "menu_netnat": "Tinklo spartinimas",
-    "netnat": {
-        "desc": "Tinklo spartinimas mažina „CPU“ (procesoriaus) apkrovą ir pagreitina srauto paketų peradresavimą ir persiuntimą, tačiau gali kisukelti konfliktų su kai kuriomis funkcijomis.",
-        "tips": "Įjungus/Įgalinus tinklo spartinimą, šios funkcijos neveiks tinkamai: „Kliento greitis ir Srauto statistika“, „Kliento greičio ribojimas“, „Tėvų kontrolė/valdymas“ ir „„VPN“ su IPv6“.",
-        "hwnat_label": "Aparatinė pagreitis",
-        "swnat_label": "Progr. įrangos spartinimas",
-        "wifi_reload_tips": "Perjunginėjant ar keičiant aparatinės pagreities nustatymus, reikalauja perleisti „Wi-Fi“ modulio įrangą. Šio perleidimo laikotarpis gali kisti nuo 10-imt sekundžių iki 1-os minutės.",
-        "disabled_tips": "Įjungus/Įgalinus tinklo spartinimą, šios funkcijos neveiks tinkamai: „{feature}“.",
-        "disabled_client_label": "Kliento greitis ir srauto statistika",
-        "disabled_speed_limit_label": "Kliento greičio apribojimas",
-        "disabled_vpn_ipv6_label": "„VPN“ su IPv6",
-        "qos_sqm_safeguard_data_tips": "Ši funkcija yra neprieinama/nepasiekiama, nes ji konfliktuoja su esamą/-omis funkcijomis – „{features}“."
-    }
+  "menu_netnat": "Tinklo spartinimas",
+  "netnat": {
+    "desc": "Tinklo spartinimas mažina „CPU“ (procesoriaus) apkrovą ir pagreitina srauto paketų peradresavimą ir persiuntimą, tačiau gali kisukelti konfliktų su kai kuriomis funkcijomis.",
+    "tips": "Įjungus/Įgalinus tinklo spartinimą, šios funkcijos neveiks tinkamai: „Kliento greitis ir Srauto statistika“, „Kliento greičio ribojimas“, „Tėvų kontrolė/valdymas“ ir „„VPN“ su IPv6“.",
+    "hwnat_label": "Aparatinė pagreitis",
+    "swnat_label": "Progr. įrangos spartinimas",
+    "wifi_reload_tips": "Perjunginėjant ar keičiant aparatinės pagreities nustatymus, reikalauja perleisti „Wi-Fi“ modulio įrangą. Šio perleidimo laikotarpis gali kisti nuo 10-imt sekundžių iki 1-os minutės.",
+    "disabled_tips": "Įjungus/Įgalinus tinklo spartinimą, šios funkcijos neveiks tinkamai: „{feature}“.",
+    "disabled_client_label": "Kliento greitis ir srauto statistika",
+    "disabled_speed_limit_label": "Kliento greičio apribojimas",
+    "disabled_vpn_ipv6_label": "„VPN“ su IPv6",
+    "qos_sqm_safeguard_data_tips": "Ši funkcija yra neprieinama/nepasiekiama, nes ji konfliktuoja su esamą/-omis funkcijomis – „{features}“."
+  }
 }

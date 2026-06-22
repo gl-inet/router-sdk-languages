@@ -1,20 +1,20 @@
 {
-"adguardhome": {
-"for_last_one_day": "En las últimas 24 horas",
-"top_queried_domain": "Dominios más consultados",
-"top_blocked_domain": "Dominios más bloqueados",
-"dns_querie_title": "Consultas DNS",
-"blocked_filtering_title": "Bloquear por Filtros",
-"replaced_safebrowsing_title": "Malware/Phishing Bloqueado",
-"replaced_parental_title": "Sitios web para Adultos Bloqueados",
-"domain_th": "Dominio",
-"request_th": "Número de peticiones",
-"for_last_days": "Durante los últimos $$$$ días",
-"desc": "AdGuard Home es un software de red para bloquear los anuncios y el seguimiento. Una vez configurado, cubrirá TODOS los dispositivos de su red, y no necesitará ningún software adicional en ellos. Esta página proporciona estadísticas a través de la API proporcionada por AdGuard Home. Cuando AdGuard Home está activado, el router forzará el uso de los servidores DNS proporcionados por AdGuard Home.",
-"tips": "Por favor, visite la página de $$$$Settings Page$$$$ para realizar la configuración avanzada de Adguard Home.",
-"not_disabled_dns_msg": "Ningún otro DNS está desactivado",
-"no_data": "Sin Datos",
-"process_req_label": "AdGuard Home Gestiona las Solicitudes de los Clientes",
-"process_req_tips": "Si esta opción está habilitada, las consultas DNS de los dispositivos cliente serán gestionadas directamente por AdGuard Home, lo que invalidará la política de VPN basada en dominios y las reglas de control parental."
-}
+  "adguardhome": {
+    "for_last_one_day": "En las últimas 24 horas",
+    "top_queried_domain": "Dominios más consultados",
+    "top_blocked_domain": "Dominios más bloqueados",
+    "dns_querie_title": "Consultas DNS",
+    "blocked_filtering_title": "Bloquear por Filtros",
+    "replaced_safebrowsing_title": "Malware/Phishing Bloqueado",
+    "replaced_parental_title": "Sitios web para Adultos Bloqueados",
+    "domain_th": "Dominio",
+    "request_th": "Número de peticiones",
+    "for_last_days": "Durante los últimos $$$$ días",
+    "desc": "AdGuard Home es un software de red para bloquear los anuncios y el seguimiento. Una vez configurado, cubrirá TODOS los dispositivos de su red, y no necesitará ningún software adicional en ellos. Esta página proporciona estadísticas a través de la API proporcionada por AdGuard Home. Cuando AdGuard Home está activado, el router forzará el uso de los servidores DNS proporcionados por AdGuard Home.",
+    "tips": "Por favor, visite la página de $$$$Settings Page$$$$ para realizar la configuración avanzada de Adguard Home.",
+    "not_disabled_dns_msg": "Ningún otro DNS está desactivado",
+    "no_data": "Sin Datos",
+    "process_req_label": "AdGuard Home Gestiona las Solicitudes de los Clientes",
+    "process_req_tips": "Si esta opción está habilitada, las consultas DNS de los dispositivos cliente serán gestionadas directamente por AdGuard Home, lo que invalidará la política de VPN basada en dominios y las reglas de control parental."
+  }
 }

@@ -1,28 +1,28 @@
 {
-    "menu_advanced": "詳細設定",
-    "advanced": {
-        "note_two": "このボタンをクリックすると、ネイティブのLuCIページに移動します。GL.iNetはLuCIのメンテナンスに対して責任を負いません。",
-        "note_one": "高度な設定は、OpenWrtのデフォルトWebユーザーインターフェースであるLuCIで変更できます。LuCIはOpenWrtが管理するオープンで独立したプロジェクトです。",
-        "go_to_luci_btn": "LuCIへ移動",
-        "luci_security_tips": "LuCIのセキュリティのため、リモートからLuCIにアクセスする必要がある場合は、LuCIポートを手動で開くようにしてください。",
-        "luci_rtty_tips": "rttyを経由してLuCIにリモートアクセスする必要がある場合は、クラウドプラットフォーム上で{port}ポートでLuCIにアクセスしてください。"
-    },
-    "luci": {
-        "install_tips": "LuCIで詳細設定を変更する",
-        "install_power_by_tips": "LuCIはOpenWrtによってメンテナンスされているオープンで独立したプロジェクトです。",
-        "install_btn": "今すぐインストール",
-        "insatlling_tips": "インストール中...",
-        "install_fail_tips": "インストールに失敗しました",
-        "check_network_tips": "ネットワーク接続を確認してください。",
-        "re_install_btn": "再インストール",
-        "out_of_memory_tips": "インストールするための十分なスペースがありません。",
-        "uninsatlling_tips": "アンインストール中...",
-        "need_uninstall_tips": "必要ない場合は、{do}できます。",
-        "uninstall_luci_btn": "LuCIをアンインストール",
-        "uninstall_done_tips": "アンインストール完了",
-        "uninstall_wraning_tips": "本当にLuCIをアンインストールしますか？",
-        "uninstall_wraning_remove_dep_tips": "これにより、LuCIおよび関連するすべての依存関係が削除されます。",
-        "uninstall_btn": "アンインストール",
-        "uninstall_done_desc": "いつでも再インストール可能です。"
-    }
+  "menu_advanced": "詳細設定",
+  "advanced": {
+    "note_two": "このボタンをクリックすると、ネイティブのLuCIページに移動します。GL.iNetはLuCIのメンテナンスに対して責任を負いません。",
+    "note_one": "高度な設定は、OpenWrtのデフォルトWebユーザーインターフェースであるLuCIで変更できます。LuCIはOpenWrtが管理するオープンで独立したプロジェクトです。",
+    "go_to_luci_btn": "LuCIへ移動",
+    "luci_security_tips": "LuCIのセキュリティのため、リモートからLuCIにアクセスする必要がある場合は、LuCIポートを手動で開くようにしてください。",
+    "luci_rtty_tips": "rttyを経由してLuCIにリモートアクセスする必要がある場合は、クラウドプラットフォーム上で{port}ポートでLuCIにアクセスしてください。"
+  },
+  "luci": {
+    "install_tips": "LuCIで詳細設定を変更する",
+    "install_power_by_tips": "LuCIはOpenWrtによってメンテナンスされているオープンで独立したプロジェクトです。",
+    "install_btn": "今すぐインストール",
+    "insatlling_tips": "インストール中...",
+    "install_fail_tips": "インストールに失敗しました",
+    "check_network_tips": "ネットワーク接続を確認してください。",
+    "re_install_btn": "再インストール",
+    "out_of_memory_tips": "インストールするための十分なスペースがありません。",
+    "uninsatlling_tips": "アンインストール中...",
+    "need_uninstall_tips": "必要ない場合は、{do}できます。",
+    "uninstall_luci_btn": "LuCIをアンインストール",
+    "uninstall_done_tips": "アンインストール完了",
+    "uninstall_wraning_tips": "本当にLuCIをアンインストールしますか？",
+    "uninstall_wraning_remove_dep_tips": "これにより、LuCIおよび関連するすべての依存関係が削除されます。",
+    "uninstall_btn": "アンインストール",
+    "uninstall_done_desc": "いつでも再インストール可能です。"
+  }
 }

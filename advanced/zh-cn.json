@@ -1,28 +1,28 @@
 {
-    "menu_advanced": "高级设置",
-    "advanced": {
-        "note_two": "点击此按钮能进入原生的 LuCI 页面，GL.iNet 不对 LuCI 页面的维护跟持续开发负责。",
-        "note_one": "您可以使用 OpenWrt 默认的用户界面 LuCI 来修改高级设置。LuCI 是一个由 OpenWrt 官方维护的开放源码的独立项目。",
-        "go_to_luci_btn": "前往 LuCI",
-        "luci_security_tips": "考虑到 LuCI 安全性，如果您需要远程访问 LuCI，请手动开放 LuCI 端口。",
-        "luci_rtty_tips": "如果需要通过 rtty 远程访问 LuCI，请通过云平台上的端口 {port} 访问 LuCI。"
-    },
-    "luci": {
-        "install_tips": "通过LuCI修改高级设置",
-        "install_power_by_tips": "LuCI是由OpenWrt维护的一个开放且独立的项目。",
-        "install_btn": "立即安装",
-        "insatlling_tips": "安装中...",
-        "install_fail_tips": "安装失败",
-        "check_network_tips": "请检查您的网络连接。",
-        "re_install_btn": "重新安装",
-        "out_of_memory_tips": "空间不足，无法安装。",
-        "uninsatlling_tips": "卸载中...",
-        "need_uninstall_tips": "如果不需要，您可以{do}。",
-        "uninstall_luci_btn": "卸载LuCI",
-        "uninstall_wraning_tips": "您确定要卸载LuCI吗？",
-        "uninstall_wraning_remove_dep_tips": "此操作将移除LuCI及其所有相关依赖项。",
-        "uninstall_btn": "卸载",
-        "uninstall_done_tips": "卸载完成",
-        "uninstall_done_desc": "您随时可以重新安装。"
-    }
+  "menu_advanced": "高级设置",
+  "advanced": {
+    "note_two": "点击此按钮能进入原生的 LuCI 页面，GL.iNet 不对 LuCI 页面的维护跟持续开发负责。",
+    "note_one": "您可以使用 OpenWrt 默认的用户界面 LuCI 来修改高级设置。LuCI 是一个由 OpenWrt 官方维护的开放源码的独立项目。",
+    "go_to_luci_btn": "前往 LuCI",
+    "luci_security_tips": "考虑到 LuCI 安全性，如果您需要远程访问 LuCI，请手动开放 LuCI 端口。",
+    "luci_rtty_tips": "如果需要通过 rtty 远程访问 LuCI，请通过云平台上的端口 {port} 访问 LuCI。"
+  },
+  "luci": {
+    "install_tips": "通过LuCI修改高级设置",
+    "install_power_by_tips": "LuCI是由OpenWrt维护的一个开放且独立的项目。",
+    "install_btn": "立即安装",
+    "insatlling_tips": "安装中...",
+    "install_fail_tips": "安装失败",
+    "check_network_tips": "请检查您的网络连接。",
+    "re_install_btn": "重新安装",
+    "out_of_memory_tips": "空间不足，无法安装。",
+    "uninsatlling_tips": "卸载中...",
+    "need_uninstall_tips": "如果不需要，您可以{do}。",
+    "uninstall_luci_btn": "卸载LuCI",
+    "uninstall_wraning_tips": "您确定要卸载LuCI吗？",
+    "uninstall_wraning_remove_dep_tips": "此操作将移除LuCI及其所有相关依赖项。",
+    "uninstall_btn": "卸载",
+    "uninstall_done_tips": "卸载完成",
+    "uninstall_done_desc": "您随时可以重新安装。"
+  }
 }
