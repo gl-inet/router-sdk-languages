@@ -110,7 +110,13 @@
         "device_priority_desc": "Wybrani klienci otrzymują wyższy priorytet, gdy połączenie WAN jest zajęte.",
         "high_priority_rules_title": "Reguły o wysokim priorytecie",
         "add_rule_btn": "Dodaj regułę",
-        "source_address_label": "Adres źródłowy"
+        "source_address_label": "Adres źródłowy",
+        "search_device_placeholder": "Szukaj według nazwy klienta, adresu MAC lub adresu IP",
+        "select_devices_title": "Wybierz urządzenia",
+        "dest_port_label": "Port docelowy",
+        "add_advanced_rule_title": "Dodaj zaawansowaną regułę QoS",
+        "edit_advanced_rule_title": "Edytuj zaawansowaną regułę QoS",
+        "selected_total_label": "Wybrano {selected} / Łącznie {total}"
     },
     "flowstatistics": {
         "card_title": "Całkowite Dane Aplikacji",
