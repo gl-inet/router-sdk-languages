@@ -116,7 +116,9 @@
         "search_device_placeholder": "클라이언트 이름, MAC 주소 또는 IP 주소로 검색",
         "select_devices_title": "장치 선택",
         "edit_advanced_rule_title": "고급 QoS 규칙 편집",
-        "selected_total_label": "선택됨 {selected} / 총 {total}"
+        "selected_total_label": "선택됨 {selected} / 총 {total}",
+        "any_label": "모두",
+        "scheduling_policy_tips": "정책 모드를 하나 선택하세요. 고급 규칙은 일치하는 트래픽에 대해 기본 정책보다 우선 적용됩니다."
     },
     "flowstatistics": {
         "card_title": "애플리케이션 총 데이터",
