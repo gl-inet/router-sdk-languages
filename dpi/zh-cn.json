@@ -116,7 +116,9 @@
         "select_devices_title": "选择设备",
         "add_advanced_rule_title": "添加高级 QoS 规则",
         "edit_advanced_rule_title": "编辑高级 QoS 规则",
-        "selected_total_label": "已选择 {selected} / 共 {total}"
+        "selected_total_label": "已选择 {selected} / 共 {total}",
+        "any_label": "任意",
+        "scheduling_policy_tips": "选择一种策略模式。对于匹配的流量，高级规则会覆盖基本策略。"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
