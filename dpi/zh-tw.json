@@ -41,7 +41,6 @@
         "setp_tag": "步驟 {num}",
         "probe_server_addresses_tips": "以逗號分隔，用于網絡質量探測。",
         "concurrent_probes_tips": "必須小于探測服務器數量；較高的值會增加CPU使用率。",
-        "download_latency_threshold_tips": "毫秒。超過此值將觸發頻寬降低。",
         "upload_latency_threshold_tips": "毫秒。超過此值將觸發頻寬降低。",
         "cake_autorate_desc": "基于探針RTT實時降低或提高CAKE帶宽的延遲驅動整形器——不進行主動速度測試，僅使用輕量級ping。建议在WAN帶宽波動時使用；穩定鏈路上無需啟用。",
         "cake_autorate_tips": "持續向反射服務器發送小型ICMP延遲探測，觀察往返延遲，並動態降低或提高CAKE整形器帶宽以抑製緩沖膨脹。它不會主動運行速度測試。",
