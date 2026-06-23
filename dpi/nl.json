@@ -48,7 +48,8 @@
         "intelligently_manage_traffic_tips": "Slimme wachtrijbeheer (Smart Queue Management) beheert het verkeer intelligent om latentie en \"bufferbloat\" te minimaliseren voor soepelere gaming en gesprekken. Het is het meest geschikt voor netwerken met lage bandbreedte of overbelaste netwerken; bij snelle verbindingen kan het inschakelen hiervan de piekdoorvoer verminderen. SQM beïnvloedt verkeer dat via de router als gateway passeert, inclusief VPN-clientverkeer, maar heeft geen invloed op inkomend verkeer wanneer de router als VPN-server functioneert.",
         "idle_detection_threshold_tips": "Wanneer de snelheid lager is dan deze waarde, wordt de verbinding als inactief beschouwd en moet deze waarde lager zijn dan de ingestelde snelheidslimiet.",
         "probe_interval_tips": "Lagere waarden = snellere respons, maar hoger CPU-gebruik.",
-        "small_traffic_tips1": "Opmerking — weinig maar continu verkeer:"
+        "small_traffic_tips1": "Opmerking — weinig maar continu verkeer:",
+        "download_latency_threshold_tips": "Als dit wordt overschreden, wordt de bandbreedte verlaagd."
     },
     "qos": {
         "title": "QoS",
