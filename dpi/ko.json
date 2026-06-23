@@ -48,7 +48,8 @@
         "idle_detection_threshold_tips": "속도가 이 값보다 낮으면 연결이 유휴 상태로 간주되며, 이 값은 설정된 속도 제한보다 낮아야 합니다.",
         "probe_interval_tips": "값이 낮을수록 응답 속도는 빨라지지만 CPU 사용량은 높아집니다.",
         "small_traffic_tips1": "참고 — 작지만 지속적인 트래픽:",
-        "download_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다."
+        "download_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다.",
+        "upload_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다."
     },
     "qos": {
         "title": "QoS",
