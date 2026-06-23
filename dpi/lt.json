@@ -41,7 +41,6 @@
         "setp_tag": "Žingsnis {num}",
         "probe_server_addresses_tips": "Kableliais atskirta, naudojama tinklo kokybės tikrinimui.",
         "concurrent_probes_tips": "Turėtų būti mažesnis už bandomų serverių skaičių; didesnės reikšmės padidina procesoriaus apkrovą.",
-        "upload_latency_threshold_tips": "Milisekundės. Viršijus šią reikšmę, suaktyvinamas duomenų siuntimo srauto pralaidumo mažinimas.",
         "cake_autorate_desc": "Delsos valdomas formuotojas, kuris realiu laiku mažina arba didina CAKE duomenų siuntimo srauto pralaidumą, remiantis zondo RTT — nėra aktyvaus greičio testo, tik lengvi pingai. Rekomenduojama, kai WAN pralaidumas svyruoja; nereikalingas stabiliose jungtyse.",
         "cake_autorate_tips": "Nuolat siunčia mažus ICMP delsos zondus į atspindinčius serverius, stebi apvalaus kelio delsą ir dinamiškai mažina arba didina CAKE formuotojo duomenų siuntimo srauto pralaidumą, kad slopintų buferio išpūtimą. Jis NEvykdo aktyvių greičio testų.",
         "queue_discipline_tips": "Pasirinkite eilių algoritmą. cake siūlo protingą, automatinį srauto formavimą su geriausia bendra delsos kontrole. fq_codel užtikrina paprastą ir efektyvų teisingą eilių sudarymą su pagrindiniu delsos mažinimu.",
