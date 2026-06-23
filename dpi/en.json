@@ -41,7 +41,6 @@
         "setp_tag": "Step {num}",
         "probe_server_addresses_tips": "Comma-separated, used for network quality probing.",
         "concurrent_probes_tips": "Must be less than probe server count; higher values increase CPU usage.",
-        "upload_latency_threshold_tips": "Milliseconds. Exceeding this triggers bandwidth reduction.",
         "cake_autorate_desc": "Latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT — there is no active speed test, only lightweight pings. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links.",
         "cake_autorate_tips": "Continuously sends small ICMP latency probes to reflector servers, observes round-trip delay, and dynamically lowers or raises the CAKE shaper bandwidth to suppress bufferbloat. It does NOT run active speed tests.",
         "queue_discipline_tips": "Choose the queueing algorithm. cake offers smart, automatic traffic shaping with the best overall latency control. fq_codel provides simple and efficient fair-queueing with basic latency reduction.",
