@@ -41,7 +41,6 @@
         "setp_tag": "Krok {num}",
         "probe_server_addresses_tips": "Oddzielone przecinkami, używane do badania jakości sieci.",
         "concurrent_probes_tips": "Musi być mniejsza niż liczba serwerów sondy; wyższe wartości zwiększają użycie procesora.",
-        "upload_latency_threshold_tips": "Milisekundy. Przekroczenie tego powoduje zmniejszenie przepustowości.",
         "cake_autorate_desc": "Sterownik opóźnienia, który w czasie rzeczywistym zmniejsza lub zwiększa przepustowość CAKE na podstawie RTT sondy — nie przeprowadza aktywnego testu prędkości, a jedynie lekkie pingi. Zalecany, gdy przepustowość WAN ulega wahaniom; nie jest wymagany na stabilnych łączach.",
         "cake_autorate_tips": "Ciągle wysyła małe sondy opóźnienia ICMP do serwerów reflektorów, obserwuje opóźnienie w obie strony i dynamicznie obniża lub podnosi przepustowość kształtowania CAKE, aby tłumić buforowanie. NIE przeprowadza aktywnych testów prędkości.",
         "queue_discipline_tips": "Wybierz algorytm kolejkowania. cake oferuje inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień. fq_codel zapewnia proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.",
