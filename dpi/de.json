@@ -48,7 +48,8 @@
         "idle_detection_threshold_tips": "Wenn die Geschwindigkeit unter diesem Wert liegt, gilt die Verbindung als inaktiv, und dieser Wert muss unter dem festgelegten Geschwindigkeitslimit liegen.",
         "probe_interval_tips": "Niedrigere Werte = schnellere Reaktion, aber höhere CPU-Auslastung.",
         "small_traffic_tips1": "Hinweis – geringer, aber kontinuierlicher Datenverkehr:",
-        "download_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert."
+        "download_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert.",
+        "upload_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert."
     },
     "qos": {
         "title": "QoS",
