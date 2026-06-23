@@ -48,7 +48,8 @@
         "queue_discipline_tips": "Wählen Sie den Warteschlangenalgorithmus. cake bietet intelligentes, automatisches Traffic-Shaping mit der besten Gesamtlatenzkontrolle. fq_codel bietet einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung.",
         "intelligently_manage_traffic_tips": "Intelligentes Warteschlangenmanagement (Smart Queue Management) verwaltet den Datenverkehr intelligent, um Latenz und \"Bufferbloat\" zu minimieren und so flüssigere Spiele und Anrufe zu ermöglichen. Am besten geeignet für Netzwerke mit geringer Bandbreite oder überlastete Netzwerke; bei Hochgeschwindigkeitsverbindungen kann die Aktivierung dieser Funktion den Spitzendurchsatz reduzieren. SQM beeinflusst den Datenverkehr, der den Router als Gateway durchläuft, einschließlich des VPN-Client-Datenverkehrs, hat jedoch keine Auswirkungen auf eingehenden Datenverkehr, wenn der Router als VPN-Server fungiert.",
         "idle_detection_threshold_tips": "Wenn die Geschwindigkeit unter diesem Wert liegt, gilt die Verbindung als inaktiv, und dieser Wert muss unter dem festgelegten Geschwindigkeitslimit liegen.",
-        "probe_interval_tips": "Niedrigere Werte = schnellere Reaktion, aber höhere CPU-Auslastung."
+        "probe_interval_tips": "Niedrigere Werte = schnellere Reaktion, aber höhere CPU-Auslastung.",
+        "small_traffic_tips1": "Hinweis – geringer, aber kontinuierlicher Datenverkehr:"
     },
     "qos": {
         "title": "QoS",
