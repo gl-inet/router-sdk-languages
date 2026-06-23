@@ -41,7 +41,6 @@
         "setp_tag": "Étape {num}",
         "probe_server_addresses_tips": "Séparé par des virgules, utilisé pour sonder la qualité du réseau.",
         "concurrent_probes_tips": "Doit être inférieur au nombre de serveurs de sondes ; des valeurs plus élevées augmentent l'utilisation du CPU.",
-        "upload_latency_threshold_tips": "Millisecondes. Dépasser ce seuil déclenche une réduction de la bande passante.",
         "cake_autorate_desc": "Façonneur piloté par la latence qui réduit ou augmente la bande passante CAKE en temps réel en fonction du RTT des sondes — aucun test de vitesse actif, uniquement des pings légers. Recommandé lorsque la bande passante WAN fluctue ; inutile sur les liaisons stables.",
         "cake_autorate_tips": "Envoie en continu de petites sondes de latence ICMP aux serveurs réflecteurs, observe le délai aller-retour, et abaisse ou augmente dynamiquement la bande passante du formateur CAKE pour supprimer le bufferbloat. Il n'exécute PAS de tests de vitesse actifs.",
         "queue_discipline_tips": "Choisissez l'algorithme de file d'attente. cake offre une gestion intelligente et automatique du trafic avec le meilleur contrôle global de la latence. fq_codel fournit une mise en file d'attente équitable simple et efficace avec une réduction de base de la latence.",
