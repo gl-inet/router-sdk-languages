@@ -48,7 +48,8 @@
         "intelligently_manage_traffic_tips": "Išmanusis eismo valdymas (SQM) protingai tvarko srautą, kad sumažintų delsą ir „buferio išpūtimą“ (bufferbloat), užtikrinant sklandesnį žaidimą ir pokalbius. Geriausiai tinka mažo pralaidumo ar perkrautoms tinklams; didelės spartos jungtyse šios funkcijos įjungimas gali sumažinti didžiausią pralaidumą. SQM veikia srautą, einantį per maršrutizatorių kaip tinklo tarpuvartę, įskaitant „VPN“ kliento srautą, tačiau neturi įtakos gaunamam srautui, kai maršrutizatorius veikia kaip „VPN“ serveris.",
         "idle_detection_threshold_tips": "Kai greitis mažesnis už šią reikšmę, ryšys laikomas budėjimo būsenos, o ši reikšmė turi būti mažesnė už nustatytą greičio ribą.",
         "probe_interval_tips": "Mažesnės reikšmės = greitesnis atsakas, bet didesnis CPU naudojimas.",
-        "small_traffic_tips1": "Pastaba — nedidelis, bet nuolatinis srautas:"
+        "small_traffic_tips1": "Pastaba — nedidelis, bet nuolatinis srautas:",
+        "download_latency_threshold_tips": "Viršijus šią ribą, bus sumažintas duomenų siuntimo srauto pralaidumas."
     },
     "qos": {
         "title": "„QoS“",
