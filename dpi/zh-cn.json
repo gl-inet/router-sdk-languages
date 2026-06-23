@@ -48,7 +48,8 @@
         "queue_discipline_tips": "选择队列算法。cake提供智能、自动的流量整形功能，具有最佳的整体延迟控制能力。fq_codel提供简单高效的公平队列机制，可基本降低延迟。",
         "intelligently_manage_traffic_tips": "智能队列管理通过智能调控流量，最大限度降低延迟和\"缓冲区膨胀\"，为游戏和通话提供更流畅的体验。该功能最适合低带宽或拥塞网络环境；在高速连接中启用此功能可能会降低峰值吞吐量。SQM会影响通过路由器作为网关转发的流量（包括VPN客户端流量），但当路由器作为VPN服务器运行时，不会影响入站流量。",
         "idle_detection_threshold_tips": "当速度低于此值时，连接将被视为空闲，且此值必须小于设置的速度限制。",
-        "probe_interval_tips": "值越低 = 响应越快，但 CPU 使用率越高。"
+        "probe_interval_tips": "值越低 = 响应越快，但 CPU 使用率越高。",
+        "small_traffic_tips1": "注意 — 少量但持续的流量："
     },
     "qos": {
         "title": "QoS",
