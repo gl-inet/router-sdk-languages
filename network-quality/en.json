@@ -2,15 +2,15 @@
   "network_quality": {
     "page_title": "Network Quality",
     "description_tips": "Continuously evaluates your network's responsiveness, latency and DNS, and flags connection drops or packet loss in real time.",
-    "score_label": "GL.iNet Network Quality Score",
+    "score_label": "GL.iNet NETWORK QUALITY SCORE",
     "overall_score_tips": "Overall Score = Response Score × 60% + Reliable Score × 40%",
     "score_rock_solid": "Rock Solid",
     "score_healthy": "Healthy",
     "score_fluctuating": "Fluctuating",
     "score_degraded": "Degraded",
     "score_critical": "Critical",
-    "internet_target": "Internet Reachability Target",
-    "dns_target": "DNS Resolution Target",
+    "internet_target": "INTERNET REACHABILITY TARGET",
+    "dns_target": "DNS RESOLUTION TARGET",
     "response_score": "Response Score",
     "reliable_score": "Reliable Score",
     "rate_total": "Rate Total: Mbps",
@@ -48,6 +48,8 @@
     "variable": "Variable",
     "unstable": "Unstable",
     "failing": "Failing",
-    "invalid_probe_target_tips": "Please enter a valid domain name."
+    "invalid_probe_target_tips": "Please enter a valid domain name.",
+    "speedtest_tips": "The current function is a local speed test for the router and is subject to rate limiting rules from features such as SQM and QoS.",
+    "rate_total_tips": "Enabling the network acceleration feature may affect speed accuracy."
   }
 }
