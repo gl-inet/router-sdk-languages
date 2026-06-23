@@ -41,7 +41,6 @@
         "setp_tag": "Adım {num}",
         "probe_server_addresses_tips": "Virgülle ayrılmış, ağ kalitesi testi için kullanılır.",
         "concurrent_probes_tips": "Probe sunucu sayısından daha az olmalıdır; daha yüksek değerler CPU kullanımını artırır.",
-        "download_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur.",
         "upload_latency_threshold_tips": "Miliseconds. Bunun aşılması bant genişliğinde düşüşe neden olur.",
         "cake_autorate_desc": "Gecikme odaklı şekillendirici, prob RTT'sine dayanarak CAKE bant genişliğini gerçek zamanlı olarak azaltır veya artırır — aktif hız testi yoktur, yalnızca hafif pingler kullanılır. WAN bant genişliğinin dalgalandığı durumlarda önerilir; kararlı bağlantılarda gerekli değildir.",
         "cake_autorate_tips": "Sürekli olarak yansıtıcı sunuculara küçük ICMP gecikme sondaları gönderir, gidiş-dönüş gecikmesini gözlemler ve tampon şişmesini bastırmak için CAKE şekillendirici bant genişliğini dinamik olarak düşürür veya yükseltir. Aktif hız testleri çalıştırmaz.",
