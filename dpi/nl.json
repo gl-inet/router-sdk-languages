@@ -41,7 +41,6 @@
         "setp_tag": "Stap {num}",
         "probe_server_addresses_tips": "Komma-gescheiden, gebruikt voor het testen van de netwerkkwaliteit.",
         "concurrent_probes_tips": "Moet kleiner zijn dan het aantal probeservers; hogere waarden verhogen het CPU-gebruik.",
-        "upload_latency_threshold_tips": "Milliseconden. Overschrijding hiervan leidt tot bandbreedtevermindering.",
         "cake_autorate_desc": "Op basis van latentie gestuurde vormgever die de CAKE-bandbreedte in realtime verlaagt of verhoogt op basis van de RTT van de probe — er is geen actieve snelheidstest, alleen lichtgewicht pings. Aanbevolen wanneer de WAN-bandbreedte fluctueert; niet nodig op stabiele verbindingen.",
         "cake_autorate_tips": "Stuurt continu kleine ICMP-latentieprobes naar reflectorservers, observeert de round-tripvertraging en verlaagt of verhoogt dynamisch de CAKE-shaperbandbreedte om bufferbloat te onderdrukken. Het voert GEEN actieve snelheidstests uit.",
         "queue_discipline_tips": "Kies het wachtrijalgoritme. cake biedt slimme, automatische verkeersvorming met de beste algehele latentiecontrole. fq_codel biedt eenvoudige en efficiënte eerlijke wachtrijen met basisvermindering van latentie.",
