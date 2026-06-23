@@ -48,7 +48,8 @@
         "intelligently_manage_traffic_tips": "La gestion intelligente des files d'attente (Smart Queue Management) gère le trafic de manière intelligente afin de minimiser la latence et le « bufferbloat » pour des jeux et des appels plus fluides. Idéal pour les réseaux à faible bande passante ou congestionnés ; sur les connexions à haut débit, l'activation de cette fonction peut réduire le débit de pointe. SQM affecte le trafic transitant par le routeur en tant que passerelle, y compris le trafic du client VPN, mais n'affecte pas le trafic entrant lorsque le routeur fonctionne en tant que serveur VPN.",
         "idle_detection_threshold_tips": "Lorsque le débit est inférieur à cette valeur, la connexion est considérée comme inactive, et cette valeur doit être inférieure à la limite de débit définie.",
         "probe_interval_tips": "Des valeurs plus faibles = réponse plus rapide, mais utilisation du CPU plus élevée.",
-        "small_traffic_tips1": "Remarque — trafic faible mais continu :"
+        "small_traffic_tips1": "Remarque — trafic faible mais continu :",
+        "download_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante."
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
