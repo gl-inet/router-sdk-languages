@@ -48,7 +48,8 @@
         "queue_discipline_tips": "Válassza ki a sorba rendezési algoritmust. A cake intelligens, automatikus forgalomszabályozást kínál a legjobb általános késleltetés-szabályozással. Az fq_codel egyszerű és hatékony tisztességes sorba rendezést biztosít alapvető késleltetés-csökkentéssel.",
         "intelligently_manage_traffic_tips": "Az Intelligens Sorbanállás-kezelés (Smart Queue Management) intelligensen kezeli a forgalmat a késleltetés és a \"bufferbloat\" minimalizálása érdekében, ezzel simább játékélményt és hívásminőséget biztosítva. Alacsony sávszélességű vagy túlterhelt hálózatokhoz ideális; nagy sebességű kapcsolatok esetén ennek engedélyezése csökkentheti a csúcsteljesítményt. Az SQM hatással van a routeren átmenő forgalomra, beleértve a VPN kliens forgalmát is, de nem befolyásolja a bejövő forgalmat, ha a router VPN szerverként működik.",
         "idle_detection_threshold_tips": "Ha a sebesség ez alá az érték alá csökken, a kapcsolat tétlennek minősül, és ennek az értéknek kisebbnek kell lennie a beállított sebességkorlátnál.",
-        "probe_interval_tips": "Alacsonyabb értékek = gyorsabb válasz, de magasabb CPU-használat."
+        "probe_interval_tips": "Alacsonyabb értékek = gyorsabb válasz, de magasabb CPU-használat.",
+        "small_traffic_tips1": "Megjegyzés — kismértékű, de folyamatos adatforgalom:"
     },
     "qos": {
         "title": "QoS",
