@@ -48,7 +48,8 @@
         "idle_detection_threshold_tips": "Lorsque le débit est inférieur à cette valeur, la connexion est considérée comme inactive, et cette valeur doit être inférieure à la limite de débit définie.",
         "probe_interval_tips": "Des valeurs plus faibles = réponse plus rapide, mais utilisation du CPU plus élevée.",
         "small_traffic_tips1": "Remarque — trafic faible mais continu :",
-        "download_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante."
+        "download_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante.",
+        "upload_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante."
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
