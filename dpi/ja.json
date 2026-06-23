@@ -125,7 +125,9 @@
         "add_rule_desc": "プロトコル、ポート、送信元 IP に基づいてトラフィックを優先するルールを作成します。",
         "max_rules_reached": "ルールの上限に達しました",
         "known_devices_label": "既知のデバイス",
-        "vlan_subnets_label": "VLANサブネット"
+        "vlan_subnets_label": "VLANサブネット",
+        "add_device_btn": "デバイスを追加",
+        "add_device_desc": "WAN接続が混雑しているときに優先度を高くするデバイスを追加します。"
     },
     "flowstatistics": {
         "card_title": "アプリケーション総データ量",
