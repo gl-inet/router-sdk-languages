@@ -125,7 +125,9 @@
         "add_rule_desc": "创建规则以按协议、端口和源 IP 优先处理流量。",
         "max_rules_reached": "已达到最大规则数",
         "known_devices_label": "已知设备",
-        "vlan_subnets_label": "VLAN 子网"
+        "vlan_subnets_label": "VLAN 子网",
+        "add_device_btn": "添加设备",
+        "add_device_desc": "添加设备，使其在 WAN 连接繁忙时获得更高优先级。"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
