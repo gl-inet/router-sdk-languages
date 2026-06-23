@@ -41,7 +41,6 @@
         "setp_tag": "Paso {num}",
         "probe_server_addresses_tips": "Separados por comas, utilizados para la verificación de la calidad de la red.",
         "concurrent_probes_tips": "Debe ser menor que el número de servidores de prueba; valores más altos aumentan el uso de la CPU.",
-        "download_latency_threshold_tips": "Milisegundos. Superar este valor provoca una reducción del ancho de banda.",
         "upload_latency_threshold_tips": "Milisegundos. Superar este valor provoca una reducción del ancho de banda.",
         "cake_autorate_desc": "Moldeador basado en latencia que reduce o aumenta el ancho de banda de CAKE en tiempo real según el RTT de la sonda — no hay una prueba de velocidad activa, solo pings ligeros. Recomendado cuando el ancho de banda de la WAN fluctúa; no es necesario en enlaces estables.",
         "cake_autorate_tips": "Envía continuamente pequeñas sondas de latencia ICMP a servidores reflectores, observa el retardo de ida y vuelta, y ajusta dinámicamente el ancho de banda del modelador CAKE para reducir o aumentar la supresión del bufferbloat. NO ejecuta pruebas de velocidad activas.",
