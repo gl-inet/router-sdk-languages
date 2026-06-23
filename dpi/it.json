@@ -41,7 +41,6 @@
         "setp_tag": "Passaggio {num}",
         "probe_server_addresses_tips": "Separati da virgole, utilizzati per il sondaggio della qualità della rete.",
         "concurrent_probes_tips": "Deve essere inferiore al numero di server di probe; valori più elevati aumentano l'utilizzo della CPU.",
-        "download_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
         "upload_latency_threshold_tips": "Millisecondi. Il superamento di questo valore attiva la riduzione della larghezza di banda.",
         "cake_autorate_desc": "Modellatore basato sulla latenza che riduce o aumenta la larghezza di banda CAKE in tempo reale in base all'RTT del probe — non è presente alcun test di velocità attivo, solo ping leggeri. Consigliato quando la larghezza di banda WAN fluttua; non necessario su collegamenti stabili.",
         "cake_autorate_tips": "Invia continuamente piccoli probe ICMP di latenza ai server reflector, osserva il ritardo di andata e ritorno e abbassa o alza dinamicamente la larghezza di banda dello shaper CAKE per sopprimere il bufferbloat. NON esegue test di velocità attivi.",
