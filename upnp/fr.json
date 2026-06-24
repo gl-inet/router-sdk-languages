@@ -33,6 +33,8 @@
         "internal_target": "Cible interne",
         "lease": "Bail",
         "delete_mapping_tips": "Voulez-vous vraiment supprimer ce mappage automatique de port ?",
-        "go": "Aller"
+        "go": "Aller",
+        "port_error": "Veuillez saisir un port ou une plage de ports valide de 1 à 65535.",
+        "port_range_error": "Le port de début ne peut pas être supérieur au port de fin."
     }
 }
