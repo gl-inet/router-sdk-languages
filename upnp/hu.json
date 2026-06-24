@@ -33,6 +33,8 @@
         "internal_target": "Belső cél",
         "lease": "Bérlet",
         "delete_mapping_tips": "Biztosan törli ezt az automatikus portleképezést?",
-        "go": "Ugrás"
+        "go": "Ugrás",
+        "port_error": "Kérjük, adjon meg egy érvényes portot vagy porttartományt 1 és 65535 között.",
+        "port_range_error": "A kezdő port nem lehet nagyobb, mint a záró port."
     }
 }
