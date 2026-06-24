@@ -33,6 +33,8 @@
         "internal_target": "Internes Ziel",
         "lease": "Lease",
         "delete_mapping_tips": "Möchten Sie diese automatische Portzuordnung wirklich löschen?",
-        "go": "Los"
+        "go": "Los",
+        "port_error": "Bitte geben Sie einen gültigen Port oder Portbereich von 1 bis 65535 ein.",
+        "port_range_error": "Der Startport darf nicht größer als der Endport sein."
     }
 }
