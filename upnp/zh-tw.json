@@ -33,6 +33,8 @@
         "internal_target": "內部目標",
         "lease": "租約",
         "delete_mapping_tips": "確定要刪除此自動連接埠對應嗎？",
-        "go": "前往"
+        "go": "前往",
+        "port_error": "請輸入 1 到 65535 之間的有效連接埠或連接埠範圍。",
+        "port_range_error": "起始連接埠不能大於結束連接埠。"
     }
 }
