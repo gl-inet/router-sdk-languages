@@ -33,6 +33,8 @@
         "internal_target": "Destino interno",
         "lease": "Concesión",
         "delete_mapping_tips": "¿Está seguro de que desea eliminar esta asignación automática de puerto?",
-        "go": "Ir"
+        "go": "Ir",
+        "port_error": "Introduzca un puerto o rango de puertos válido de 1 a 65535.",
+        "port_range_error": "El puerto inicial no puede ser mayor que el puerto final."
     }
 }
