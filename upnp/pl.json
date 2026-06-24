@@ -33,6 +33,8 @@
         "internal_target": "Cel wewnętrzny",
         "lease": "Dzierżawa",
         "delete_mapping_tips": "Czy na pewno chcesz usunąć to automatyczne mapowanie portu?",
-        "go": "Idź"
+        "go": "Idź",
+        "port_error": "Wprowadź prawidłowy port lub zakres portów od 1 do 65535.",
+        "port_range_error": "Port początkowy nie może być większy niż port końcowy."
     }
 }
