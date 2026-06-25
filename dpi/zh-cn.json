@@ -48,7 +48,8 @@
         "small_traffic_tips1": "注意 — 少量但持续的流量：",
         "download_latency_threshold_tips": "超过此值将触发带宽降低。",
         "upload_latency_threshold_tips": "超过此值将触发带宽降低。",
-        "idle_detection_threshold_tips": "當速度低於此值時，連接將被視為閒置，且此值必須小於設定速度限制值的25%。"
+        "idle_detection_threshold_tips": "當速度低於此值時，連接將被視為閒置，且此值必須小於設定速度限制值的25%。",
+        "small_traffic_tips2": "Autorate 会全天候 ping 反射服务器。使用默认设置（4 个探测包 @ 0.3 秒）时，它大约会消耗 1–5 KB/s 的后台流量，并占用少量路由器 CPU。对于以太网/光纤/蜂窝网络月租套餐来说，这一用量可以忽略不计；但在严格按流量计费的链路上（例如按 MB 付费的蜂窝网络、手机热点流量上限），每月可能会累积到约 100–400 MB。"
     },
     "qos": {
         "title": "QoS",
