@@ -48,7 +48,8 @@
         "probe_interval_tips": "값이 낮을수록 응답 속도는 빨라지지만 CPU 사용량은 높아집니다.",
         "small_traffic_tips1": "참고 — 작지만 지속적인 트래픽:",
         "download_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다.",
-        "upload_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다."
+        "upload_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다.",
+        "idle_detection_threshold_tips": "이 속도보다 낮은 연결은 유휴 상태로 간주됩니다. 이 값은 속도 제한의 25% 미만이어야 합니다."
     },
     "qos": {
         "title": "QoS",
