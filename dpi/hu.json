@@ -48,7 +48,8 @@
         "probe_interval_tips": "Alacsonyabb értékek = gyorsabb válasz, de magasabb CPU-használat.",
         "small_traffic_tips1": "Megjegyzés — kismértékű, de folyamatos adatforgalom:",
         "download_latency_threshold_tips": "Ennek túllépése sávszélesség-csökkentést vált ki.",
-        "upload_latency_threshold_tips": "Ennek túllépése sávszélesség-csökkentést vált ki."
+        "upload_latency_threshold_tips": "Ennek túllépése sávszélesség-csökkentést vált ki.",
+        "idle_detection_threshold_tips": "Az ennél lassabb kapcsolatok inaktívnak minősülnek. Ennek az értéknek kisebbnek kell lennie a sebességkorlát 25%-ánál."
     },
     "qos": {
         "title": "QoS",
