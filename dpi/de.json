@@ -48,7 +48,8 @@
         "probe_interval_tips": "Niedrigere Werte = schnellere Reaktion, aber höhere CPU-Auslastung.",
         "small_traffic_tips1": "Hinweis – geringer, aber kontinuierlicher Datenverkehr:",
         "download_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert.",
-        "upload_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert."
+        "upload_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert.",
+        "idle_detection_threshold_tips": "Verbindungen unterhalb dieser Geschwindigkeit gelten als inaktiv. Dieser Wert muss weniger als 25 % des Geschwindigkeitslimits betragen."
     },
     "qos": {
         "title": "QoS",
