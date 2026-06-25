@@ -48,7 +48,8 @@
         "small_traffic_tips1": "참고 — 작지만 지속적인 트래픽:",
         "download_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다.",
         "upload_latency_threshold_tips": "이를 초과하면 대역폭 제한이 적용됩니다.",
-        "idle_detection_threshold_tips": "이 속도보다 낮은 연결은 유휴 상태로 간주됩니다. 이 값은 속도 제한의 25% 미만이어야 합니다."
+        "idle_detection_threshold_tips": "이 속도보다 낮은 연결은 유휴 상태로 간주됩니다. 이 값은 속도 제한의 25% 미만이어야 합니다.",
+        "small_traffic_tips2": "Autorate는 24시간 내내 리플렉터 서버에 ping을 보냅니다. 기본 설정(4개 프로브 @ 0.3초)에서는 약 1~5KB/s의 백그라운드 트래픽과 소량의 라우터 CPU를 사용합니다. 이 양은 이더넷/광섬유/셀룰러 월정액 요금제에서는 미미하지만, 엄격한 종량제 링크(예: MB당 과금 셀룰러, 휴대폰 핫스팟 데이터 한도)에서는 월 약 100~400MB까지 누적될 수 있습니다."
     },
     "qos": {
         "title": "QoS",
