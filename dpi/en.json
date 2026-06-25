@@ -127,7 +127,8 @@
         "known_devices_label": "Known Devices",
         "vlan_subnets_label": "VLAN Subnets",
         "add_device_btn": "Add Device",
-        "add_device_desc": "Add a device to give it higher priority when the WAN connection is busy."
+        "add_device_desc": "Add a device to give it higher priority when the WAN connection is busy.",
+        "highest_priority_traffic_rule_tips": "Traffic matching this rule will be assigned the highest priority, ensuring it is forwarded first during network congestion for a smooth experience."
     },
     "flowstatistics": {
         "card_title": "Application Total Data",
