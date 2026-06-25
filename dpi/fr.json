@@ -27,7 +27,6 @@
         "cellular_tips": "recommandé — le signal et la charge cellulaire font varier le débit.",
         "usb_tethering_tips": "recommandé, mais attention au forfait de données du téléphone.",
         "probe_title": "Paramètres de sonde et de seuil",
-        "small_traffic_tips2": "Autorate effectue des pings sur les serveurs réflecteurs 24h/24. Avec les paramètres par défaut (4 réflecteurs à 0,3 s), cela consomme environ 1 à 5 Ko/s de trafic en arrière-plan, plus une petite quantité de CPU du routeur. Cette quantité est négligeable sur les forfaits mensuels Ethernet/fibre/connexion mobile, mais sur les liaisons strictement limitées (par exemple, connexion mobile payante au Mo, plafonds de données des points d'accès téléphoniques), cela peut s'accumuler jusqu'à environ 100 à 400 Mo par mois.",
         "probe_subtitle": "Les valeurs par défaut sont optimisées pour fonctionner — ne les ajustez que si vous savez ce que vous faites.",
         "probe_server_addresses_label": "Adresses des serveurs de sonde",
         "probe_interval_label": "Intervalle de sonde",
