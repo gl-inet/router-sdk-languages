@@ -48,7 +48,8 @@
         "probe_interval_tips": "Daha düşük değerler = daha hızlı yanıt ancak daha yüksek CPU kullanımı.",
         "small_traffic_tips1": "Not — az miktarda ancak sürekli trafik:",
         "download_latency_threshold_tips": "Bu sınırın aşılması bant genişliğinin düşürülmesini tetikler.",
-        "upload_latency_threshold_tips": "Bu sınırın aşılması bant genişliğinin düşürülmesini tetikler."
+        "upload_latency_threshold_tips": "Bu sınırın aşılması bant genişliğinin düşürülmesini tetikler.",
+        "idle_detection_threshold_tips": "Bu hızın altındaki bağlantılar boşta kabul edilir. Bu değer, hız sınırının %25’inden az olmalıdır."
     },
     "qos": {
         "title": "QoS",
