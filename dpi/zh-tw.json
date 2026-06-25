@@ -127,7 +127,8 @@
         "known_devices_label": "已知裝置",
         "vlan_subnets_label": "VLAN 子網路",
         "add_device_btn": "新增裝置",
-        "add_device_desc": "新增裝置以在 WAN 連線繁忙時給予其更高優先順序。"
+        "add_device_desc": "新增裝置以在 WAN 連線繁忙時給予其更高優先順序。",
+        "highest_priority_traffic_rule_tips": "符合此規則的流量將被指派最高優先級，確保在網路壅塞時優先轉送，以提供順暢體驗。"
     },
     "flowstatistics": {
         "card_title": "應用程式總數據量",
