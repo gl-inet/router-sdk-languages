@@ -48,7 +48,8 @@
         "probe_interval_tips": "値が低いほど応答は速くなりますが、CPU 使用率が高くなります。",
         "small_traffic_tips1": "注：少量ですが継続的なトラフィック：",
         "download_latency_threshold_tips": "これを超えると帯域幅が制限されます。",
-        "upload_latency_threshold_tips": "これを超えると帯域幅が制限されます。"
+        "upload_latency_threshold_tips": "これを超えると帯域幅が制限されます。",
+        "idle_detection_threshold_tips": "この速度を下回る接続はアイドル状態と見なされます。この値は速度制限の25%未満にする必要があります。"
     },
     "qos": {
         "title": "QoS",
