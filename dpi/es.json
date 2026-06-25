@@ -127,7 +127,8 @@
         "known_devices_label": "Dispositivos conocidos",
         "vlan_subnets_label": "Subredes VLAN",
         "add_device_btn": "Añadir dispositivo",
-        "add_device_desc": "Añada un dispositivo para darle mayor prioridad cuando la conexión WAN esté ocupada."
+        "add_device_desc": "Añada un dispositivo para darle mayor prioridad cuando la conexión WAN esté ocupada.",
+        "highest_priority_traffic_rule_tips": "El tráfico que coincida con esta regla se le asignará la máxima prioridad, lo que garantizará que se reenvíe primero durante la congestión de la red para una experiencia fluida."
     },
     "flowstatistics": {
         "card_title": "Datos Totales de Aplicación",
