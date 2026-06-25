@@ -48,7 +48,8 @@
         "probe_interval_tips": "Mažesnės reikšmės = greitesnis atsakas, bet didesnis CPU naudojimas.",
         "small_traffic_tips1": "Pastaba — nedidelis, bet nuolatinis srautas:",
         "download_latency_threshold_tips": "Viršijus šią ribą, bus sumažintas duomenų siuntimo srauto pralaidumas.",
-        "upload_latency_threshold_tips": "Viršijus šią ribą, bus sumažintas duomenų siuntimo srauto pralaidumas."
+        "upload_latency_threshold_tips": "Viršijus šią ribą, bus sumažintas duomenų siuntimo srauto pralaidumas.",
+        "idle_detection_threshold_tips": "Ryšiai, kurių greitis yra mažesnis už šį, laikomi budėjimo režimu. Ši reikšmė turi būti mažesnė nei 25 % greičio limito."
     },
     "qos": {
         "title": "„QoS“",
