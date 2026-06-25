@@ -48,7 +48,8 @@
         "probe_interval_tips": "Valores más bajos = respuesta más rápida, pero mayor uso de CPU.",
         "small_traffic_tips1": "Nota: tráfico reducido pero continuo:",
         "download_latency_threshold_tips": "Superar esto activa la reducción del ancho de banda.",
-        "upload_latency_threshold_tips": "Superar esto activa la reducción del ancho de banda."
+        "upload_latency_threshold_tips": "Superar esto activa la reducción del ancho de banda.",
+        "idle_detection_threshold_tips": "Las conexiones por debajo de esta velocidad se consideran inactivas. Este valor debe ser inferior al 25 % del límite de velocidad."
     },
     "qos": {
         "title": "QoS",
