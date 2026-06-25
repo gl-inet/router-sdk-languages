@@ -48,7 +48,8 @@
         "probe_interval_tips": "值越低 = 响应越快，但 CPU 使用率越高。",
         "small_traffic_tips1": "注意 — 少量但持续的流量：",
         "download_latency_threshold_tips": "超过此值将触发带宽降低。",
-        "upload_latency_threshold_tips": "超过此值将触发带宽降低。"
+        "upload_latency_threshold_tips": "超过此值将触发带宽降低。",
+        "idle_detection_threshold_tips": "低于此速度的连接将被视为空闲。此值必须小于速度限制的 25%。"
     },
     "qos": {
         "title": "QoS",
