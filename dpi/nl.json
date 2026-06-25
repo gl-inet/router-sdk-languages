@@ -48,7 +48,8 @@
         "probe_interval_tips": "Lagere waarden = snellere respons, maar hoger CPU-gebruik.",
         "small_traffic_tips1": "Opmerking — weinig maar continu verkeer:",
         "download_latency_threshold_tips": "Als dit wordt overschreden, wordt de bandbreedte verlaagd.",
-        "upload_latency_threshold_tips": "Als dit wordt overschreden, wordt de bandbreedte verlaagd."
+        "upload_latency_threshold_tips": "Als dit wordt overschreden, wordt de bandbreedte verlaagd.",
+        "idle_detection_threshold_tips": "Verbindingen onder deze snelheid worden als inactief beschouwd. Deze waarde moet lager zijn dan 25% van de snelheidslimiet."
     },
     "qos": {
         "title": "QoS",
