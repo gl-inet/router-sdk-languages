@@ -45,7 +45,6 @@
         "cake_autorate_tips": "Sürekli olarak yansıtıcı sunuculara küçük ICMP gecikme sondaları gönderir, gidiş-dönüş gecikmesini gözlemler ve tampon şişmesini bastırmak için CAKE şekillendirici bant genişliğini dinamik olarak düşürür veya yükseltir. Aktif hız testleri çalıştırmaz.",
         "queue_discipline_tips": "Kuyruk algoritmasını seçin. cake, en iyi genel gecikme kontrolü ile akıllı, otomatik trafik şekillendirme sunar. fq_codel, temel gecikme azaltma ile basit ve verimli adil kuyruklama sağlar.",
         "intelligently_manage_traffic_tips": "Akıllı Kuyruk Yönetimi (SQM), gecikmeyi ve \"bufferbloat\" sorununu en aza indirerek daha akıcı oyun ve görüşme deneyimi için trafiği akıllıca yönetir. Düşük bant genişliğine sahip veya yoğun ağlar için en uygunudur; yüksek hızlı bağlantılarda bu özelliğin etkinleştirilmesi tepe verimini düşürebilir. SQM, yönlendiriciden bir ağ geçidi olarak geçen trafiği (VPN İstemci trafiği dahil) etkiler ancak yönlendirici bir VPN Sunucusu olarak çalışırken gelen trafiği etkilemez.",
-        "idle_detection_threshold_tips": "Hız bu değerin altında olduğunda bağlantı boşta kabul edilir ve bu değer ayarlanan hız sınırından düşük olmalıdır.",
         "probe_interval_tips": "Daha düşük değerler = daha hızlı yanıt ancak daha yüksek CPU kullanımı.",
         "small_traffic_tips1": "Not — az miktarda ancak sürekli trafik:",
         "download_latency_threshold_tips": "Bu sınırın aşılması bant genişliğinin düşürülmesini tetikler.",
