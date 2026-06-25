@@ -48,7 +48,8 @@
         "probe_interval_tips": "Niższe wartości = szybsza odpowiedź, ale większe użycie CPU.",
         "small_traffic_tips1": "Uwaga — niewielki, ale ciągły ruch:",
         "download_latency_threshold_tips": "Przekroczenie tego spowoduje ograniczenie przepustowości.",
-        "upload_latency_threshold_tips": "Przekroczenie tego spowoduje ograniczenie przepustowości."
+        "upload_latency_threshold_tips": "Przekroczenie tego spowoduje ograniczenie przepustowości.",
+        "idle_detection_threshold_tips": "Połączenia poniżej tej prędkości są uznawane za bezczynne. Ta wartość musi być mniejsza niż 25% limitu prędkości."
     },
     "qos": {
         "title": "QoS",
