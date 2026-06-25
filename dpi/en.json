@@ -48,7 +48,8 @@
         "probe_interval_tips": "Lower values = faster response but higher CPU usage.",
         "small_traffic_tips1": "Note — small but continuous traffic:",
         "download_latency_threshold_tips": "Exceeding this triggers bandwidth reduction.",
-        "upload_latency_threshold_tips": "Exceeding this triggers bandwidth reduction."
+        "upload_latency_threshold_tips": "Exceeding this triggers bandwidth reduction.",
+        "idle_detection_threshold_tips": "Connections below this speed are considered idle. This value must be less than 25% of the speed limit."
     },
     "qos": {
         "title": "QoS",
