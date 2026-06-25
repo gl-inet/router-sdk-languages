@@ -48,7 +48,8 @@
         "probe_interval_tips": "Des valeurs plus faibles = réponse plus rapide, mais utilisation du CPU plus élevée.",
         "small_traffic_tips1": "Remarque — trafic faible mais continu :",
         "download_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante.",
-        "upload_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante."
+        "upload_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante.",
+        "idle_detection_threshold_tips": "Les connexions dont le débit est inférieur à cette valeur sont considérées comme inactives. Cette valeur doit être inférieure à 25 % de la limite de débit."
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
