@@ -127,7 +127,8 @@
         "known_devices_label": "Bekannte Geräte",
         "vlan_subnets_label": "VLAN-Subnetze",
         "add_device_btn": "Gerät hinzufügen",
-        "add_device_desc": "Fügen Sie ein Gerät hinzu, um ihm eine höhere Priorität zu geben, wenn die WAN-Verbindung ausgelastet ist."
+        "add_device_desc": "Fügen Sie ein Gerät hinzu, um ihm eine höhere Priorität zu geben, wenn die WAN-Verbindung ausgelastet ist.",
+        "highest_priority_traffic_rule_tips": "Der dieser Regel entsprechende Datenverkehr erhält die höchste Priorität und wird bei Netzüberlastung zuerst weitergeleitet, um ein reibungsloses Erlebnis zu gewährleisten."
     },
     "flowstatistics": {
         "card_title": "Anwendungsgesamt-Daten",
