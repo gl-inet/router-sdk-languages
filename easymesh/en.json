@@ -167,7 +167,8 @@
         "joined_failed_tips": "Unable to enable Astro feature on {node}. Please check your cloud connection and try again later.",
         "enabled_astrowrap_tips": "AstroWrap is currently active, which conflicts with {feature}. Please reset the AstroWrap network to proceed.",
         "net_conflict_tips": "The current LAN subnet conflicts with your main router’s subnet. Please {changeLan} to a different subnet, such as 192.168.18.1.",
-        "change_lanip_address": "change the LAN IP address"
+        "change_lanip_address": "change the LAN IP address",
+        "prepare_your_devices_three_tips": "3. Switch them to {node} mode."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
