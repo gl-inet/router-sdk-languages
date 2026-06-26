@@ -51,6 +51,7 @@
         "speedtest_tips": "目前功能是路由器的本機測速，會受到 SQM、QoS 等功能的限速規則影響。",
         "probe_internet_target": "網際網路可達性目標",
         "probe_dns_target": "DNS 解析目標",
-        "rate_total_label": "總速率：{unit}"
+        "rate_total_label": "總速率：{unit}",
+        "rate_total_netnat_tips": "啟用 {network} 功能可能會影響速度準確性。"
     }
 }
