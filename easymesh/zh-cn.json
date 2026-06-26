@@ -167,7 +167,8 @@
         "joined_failed_tips": "无法在 {node} 上启用 Astro 功能。请检查您的云连接，稍后重试。",
         "enabled_astrowrap_tips": "AstroWrap 当前处于活动状态，这与 {feature} 存在冲突。请重置 AstroWrap 网络以继续操作。",
         "net_conflict_tips": "当前 LAN 子网与主路由器的子网冲突。请{changeLan}为其他子网，例如 192.168.18.1。",
-        "change_lanip_address": "更改 LAN IP 地址"
+        "change_lanip_address": "更改 LAN IP 地址",
+        "prepare_your_devices_three_tips": "3. 将它们切换到 {node} 模式。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
