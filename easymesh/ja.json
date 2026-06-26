@@ -166,7 +166,9 @@
         "get_pairing_code_failed_msg": "ペアリングコードの取得に失敗しました。後でもう一度お試しください。",
         "get_pairing_code_failed_check_cloud_msg": "ペアリングコードの取得に失敗しました。クラウド接続を確認して、後でもう一度お試しください。",
         "joined_failed_tips": "{node}でAstro機能を有効にできません。クラウド接続を確認して、後でもう一度お試しください。",
-        "enabled_astrowrap_tips": "AstroWrap が現在アクティブであり、{feature} と競合します。続行するには、AstroWrap ネットワークをリセットしてください。"
+        "enabled_astrowrap_tips": "AstroWrap が現在アクティブであり、{feature} と競合します。続行するには、AstroWrap ネットワークをリセットしてください。",
+        "net_conflict_tips": "現在のLANサブネットはメインルーターのサブネットと競合しています。192.168.18.1 など、別のサブネットに{changeLan}してください。",
+        "change_lanip_address": "LAN IPアドレスを変更"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
