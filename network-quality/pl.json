@@ -51,6 +51,7 @@
         "speedtest_tips": "Bieżąca funkcja to lokalny test prędkości routera i podlega regułom ograniczania szybkości funkcji takich jak SQM i QoS.",
         "probe_internet_target": "Cel osiągalności Internetu",
         "probe_dns_target": "Cel rozwiązywania DNS",
-        "rate_total_label": "Łączna szybkość: {unit}"
+        "rate_total_label": "Łączna szybkość: {unit}",
+        "rate_total_netnat_tips": "Włączenie funkcji {network} może wpłynąć na dokładność pomiaru prędkości."
     }
 }
