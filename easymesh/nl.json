@@ -166,7 +166,9 @@
         "get_pairing_code_failed_msg": "Het ophalen van de koppelcode is mislukt. Probeer het later opnieuw.",
         "get_pairing_code_failed_check_cloud_msg": "Het ophalen van de koppelingscode is mislukt. Controleer uw cloudverbinding en probeer het later opnieuw.",
         "joined_failed_tips": "Kan de Astro-functie niet inschakelen op {node}. Controleer uw cloudverbinding en probeer het later opnieuw.",
-        "enabled_astrowrap_tips": "AstroWrap is momenteel actief, wat conflicteert met {feature}. Reset het AstroWrap-netwerk om verder te gaan."
+        "enabled_astrowrap_tips": "AstroWrap is momenteel actief, wat conflicteert met {feature}. Reset het AstroWrap-netwerk om verder te gaan.",
+        "net_conflict_tips": "Het huidige LAN-subnet conflicteert met het subnet van uw hoofdrouter. {changeLan} naar een ander subnet, zoals 192.168.18.1.",
+        "change_lanip_address": "Wijzig het LAN-IP-adres"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
