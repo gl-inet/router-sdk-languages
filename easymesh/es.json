@@ -166,7 +166,9 @@
         "get_pairing_code_failed_msg": "No se pudo obtener el código de emparejamiento. Inténtalo de nuevo más tarde.",
         "get_pairing_code_failed_check_cloud_msg": "No se pudo obtener el código de emparejamiento. Por favor, verifique su conexión a la nube e inténtelo de nuevo más tarde.",
         "joined_failed_tips": "No se puede habilitar la función Astro en {node}. Verifique su conexión a la nube e intente nuevamente más tarde.",
-        "enabled_astrowrap_tips": "AstroWrap está actualmente activo, lo que entra en conflicto con {feature}. Por favor, restablezca la red de AstroWrap para continuar."
+        "enabled_astrowrap_tips": "AstroWrap está actualmente activo, lo que entra en conflicto con {feature}. Por favor, restablezca la red de AstroWrap para continuar.",
+        "net_conflict_tips": "La subred LAN actual entra en conflicto con la subred de su router principal. {changeLan} a una subred diferente, como 192.168.18.1.",
+        "change_lanip_address": "cambiar la dirección IP de la LAN"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
