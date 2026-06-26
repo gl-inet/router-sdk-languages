@@ -78,6 +78,7 @@
         "unactivated": "未啟用",
         "switch_to_manual_dns_only_tips": "{switch} 以僅使用手動 DNS 設定。",
         "switch_to_vpn_dns_splitting_tips": "{switch} 至 VPN DNS 分流模式。",
-        "no_vpn_tunnel_available_tips": "沒有可用的 VPN 通道。請前往 {vpn} 設定。"
+        "no_vpn_tunnel_available_tips": "沒有可用的 VPN 通道。請前往 {vpn} 設定。",
+        "manual_overrides_vpn_tips": "由於已啟用「將手動 DNS 套用至 VPN 通道」，因此不會使用 VPN DNS。"
     }
 }
