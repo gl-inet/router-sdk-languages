@@ -106,7 +106,8 @@
         "err_display_name_max_length": "Pavadinimas turi būti ne ilgesnis nei 32 simboliai.",
         "hostname_tips": "2–63 simboliai. Leidžiamos tik raidės, skaitmenys arba brūkšniai. Turi prasidėti ir baigtis raide arba skaitmeniu, ir negali būti sudarytas vien iš skaitmenų.",
         "not_asscess_tips": "Šiuo metu {name} negali pasiekti tinklo segmentų {net}.",
-        "err_vlan_id_must_be_integer": "VLAN ID turi būti sveikasis skaičius."
+        "err_vlan_id_must_be_integer": "VLAN ID turi būti sveikasis skaičius.",
+        "ip_conflicts_with_interface_ip": "IP adresas konfliktuoja su dabartinio potinklio sąsajos IP adresu."
     },
     "menu_vlan": "Potinklis",
     "menu_guestip": "Svečių tinklas",
