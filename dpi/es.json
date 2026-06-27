@@ -48,7 +48,8 @@
         "small_traffic_tips1": "Nota: tráfico reducido pero continuo:",
         "download_latency_threshold_tips": "Superar esto activa la reducción del ancho de banda.",
         "upload_latency_threshold_tips": "Superar esto activa la reducción del ancho de banda.",
-        "small_traffic_tips2": "Autorate hace ping a los servidores reflectores de forma continua. Con la configuración predeterminada (4 sondas a 0,3 s), consume aproximadamente entre 1 y 5 KB/s de tráfico en segundo plano, además de una pequeña cantidad de CPU del router. La cantidad es insignificante en planes mensuales de Ethernet/fibra/móvil, pero en enlaces estrictamente medidos (por ejemplo, móvil de pago por MB, límites de datos de punto de acceso del teléfono) puede sumar entre ~100 y 400 MB al mes."
+        "small_traffic_tips2": "Autorate hace ping a los servidores reflectores de forma continua. Con la configuración predeterminada (4 sondas a 0,3 s), consume aproximadamente entre 1 y 5 KB/s de tráfico en segundo plano, además de una pequeña cantidad de CPU del router. La cantidad es insignificante en planes mensuales de Ethernet/fibra/móvil, pero en enlaces estrictamente medidos (por ejemplo, móvil de pago por MB, límites de datos de punto de acceso del teléfono) puede sumar entre ~100 y 400 MB al mes.",
+        "idle_detection_threshold_tips": "El tráfico que coincida con esta regla se le asignará la máxima prioridad, lo que garantizará que se reenvíe primero durante la congestión de la red para una experiencia fluida."
     },
     "qos": {
         "title": "QoS",
