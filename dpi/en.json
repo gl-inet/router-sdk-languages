@@ -48,7 +48,6 @@
         "small_traffic_tips1": "Note — small but continuous traffic:",
         "download_latency_threshold_tips": "Exceeding this triggers bandwidth reduction.",
         "upload_latency_threshold_tips": "Exceeding this triggers bandwidth reduction.",
-        "idle_detection_threshold_tips": "Connections below this speed are considered idle. This value must be less than 25% of the speed limit.",
         "small_traffic_tips2": "Autorate pings the reflector servers around the clock. With the default settings (4 probes @ 0.3 s) it consumes roughly 1–5 KB/s of background traffic, plus a small amount of router CPU. The amount is negligible on Ethernet/fiber/cellular monthly plans, but on strictly metered links (e.g. pay-per-MB cellular, phone hotspot data caps) it can add up to ~100–400 MB per month."
     },
     "qos": {
