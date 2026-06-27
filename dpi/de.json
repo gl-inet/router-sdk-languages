@@ -48,7 +48,6 @@
         "small_traffic_tips1": "Hinweis – geringer, aber kontinuierlicher Datenverkehr:",
         "download_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert.",
         "upload_latency_threshold_tips": "Bei Überschreitung wird die Bandbreite reduziert.",
-        "idle_detection_threshold_tips": "Verbindungen unterhalb dieser Geschwindigkeit gelten als inaktiv. Dieser Wert muss weniger als 25 % des Geschwindigkeitslimits betragen.",
         "small_traffic_tips2": "Autorate pingt rund um die Uhr die Reflektorserver an. Mit den Standardeinstellungen (4 Probes @ 0,3 s) verbraucht es etwa 1–5 KB/s Hintergrunddatenverkehr sowie eine geringe Menge Router-CPU. Diese Menge ist bei monatlichen Ethernet-/Glasfaser-/Mobilfunktarifen vernachlässigbar, kann sich bei streng volumenbasierten Verbindungen (z. B. Mobilfunk mit Abrechnung pro MB, Datenlimits bei Smartphone-Hotspots) jedoch auf ca. 100–400 MB pro Monat summieren."
     },
     "qos": {
