@@ -48,8 +48,7 @@
         "small_traffic_tips1": "Remarque — trafic faible mais continu :",
         "download_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante.",
         "upload_latency_threshold_tips": "Le dépassement de cette limite déclenche une réduction de la bande passante.",
-        "small_traffic_tips2": "Autorate envoie des pings aux serveurs réflecteurs en continu. Avec les paramètres par défaut (4 sondes à 0,3 s), il consomme environ 1 à 5 Ko/s de trafic en arrière-plan, plus une faible quantité de CPU du routeur. Cette quantité est négligeable sur les forfaits mensuels Ethernet/fibre/connexion mobile, mais sur les liaisons strictement limitées (p. ex. connexion mobile facturée au Mo, plafonds de données de partage de connexion téléphonique), elle peut atteindre environ 100 à 400 Mo par mois.",
-        "idle_detection_threshold_tips": "Le trafic correspondant à cette règle se verra attribuer la priorité la plus élevée, garantissant qu’il soit transmis en premier en cas de congestion du réseau pour une expérience fluide."
+        "small_traffic_tips2": "Autorate envoie des pings aux serveurs réflecteurs en continu. Avec les paramètres par défaut (4 sondes à 0,3 s), il consomme environ 1 à 5 Ko/s de trafic en arrière-plan, plus une faible quantité de CPU du routeur. Cette quantité est négligeable sur les forfaits mensuels Ethernet/fibre/connexion mobile, mais sur les liaisons strictement limitées (p. ex. connexion mobile facturée au Mo, plafonds de données de partage de connexion téléphonique), elle peut atteindre environ 100 à 400 Mo par mois."
     },
     "qos": {
         "gaming_priority": "Priorité Jeux",
