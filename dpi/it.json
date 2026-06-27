@@ -48,7 +48,6 @@
         "small_traffic_tips1": "Nota: traffico ridotto ma continuo:",
         "download_latency_threshold_tips": "Il superamento di questo limite attiva la riduzione della larghezza di banda.",
         "upload_latency_threshold_tips": "Il superamento di questo limite attiva la riduzione della larghezza di banda.",
-        "idle_detection_threshold_tips": "Le connessioni al di sotto di questa velocità sono considerate inattive. Questo valore deve essere inferiore al 25% del limite di velocità.",
         "small_traffic_tips2": "Autorate esegue ping dei server reflector 24 ore su 24. Con le impostazioni predefinite (4 probe @ 0,3 s) consuma circa 1–5 KB/s di traffico in background, più una piccola quantità di CPU del router. La quantità è trascurabile nei piani mensili Ethernet/fibra/cellulare, ma su collegamenti con traffico strettamente misurato (ad es. cellulare a consumo per MB, limiti dati dell’hotspot del telefono) può arrivare a circa 100–400 MB al mese."
     },
     "qos": {
