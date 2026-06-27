@@ -48,7 +48,7 @@
         "small_traffic_tips1": "注意 — 少量但持续的流量：",
         "download_latency_threshold_tips": "超过此值将触发带宽降低。",
         "upload_latency_threshold_tips": "超过此值将触发带宽降低。",
-        "idle_detection_threshold_tips": "當速度低於此值時，連接將被視為閒置，且此值必須小於設定速度限制值的25%。",
+        "idle_detection_threshold_tips": "当速度低于此值时，连接将被视为闲置，且此值必须小于设定速度限制值的25%。",
         "small_traffic_tips2": "自动速率全天候向反射服务器发送ping。在默认设置下（4个探测器 @ 0.3秒），大约消耗1–5 KB/s的后台流量，外加少量路由器CPU资源。对于以太网/光纤/蜂窝网络的月度套餐而言，该流量可忽略不计，但在严格计量的连接（例如按MB计费的蜂窝网络、手机热点数据上限）中，每月可能累计增加约100–400 MB。"
     },
     "qos": {
