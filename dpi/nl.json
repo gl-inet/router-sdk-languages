@@ -48,7 +48,8 @@
         "small_traffic_tips1": "Opmerking — weinig maar continu verkeer:",
         "download_latency_threshold_tips": "Als dit wordt overschreden, wordt de bandbreedte verlaagd.",
         "upload_latency_threshold_tips": "Als dit wordt overschreden, wordt de bandbreedte verlaagd.",
-        "small_traffic_tips2": "Autorate pingt de reflectorservers continu. Met de standaardinstellingen (4 probes @ 0,3 s) verbruikt dit ongeveer 1–5 KB/s aan achtergrondverkeer, plus een kleine hoeveelheid CPU van de router. Dit is verwaarloosbaar bij maandelijkse abonnementen voor Ethernet/glasvezel/mobiel, maar bij strikt gemeten verbindingen (bijv. mobiel per MB betalen, datalimieten voor telefoonhotspots) kan dit oplopen tot ~100–400 MB per maand."
+        "small_traffic_tips2": "Autorate pingt de reflectorservers continu. Met de standaardinstellingen (4 probes @ 0,3 s) verbruikt dit ongeveer 1–5 KB/s aan achtergrondverkeer, plus een kleine hoeveelheid CPU van de router. Dit is verwaarloosbaar bij maandelijkse abonnementen voor Ethernet/glasvezel/mobiel, maar bij strikt gemeten verbindingen (bijv. mobiel per MB betalen, datalimieten voor telefoonhotspots) kan dit oplopen tot ~100–400 MB per maand.",
+        "idle_detection_threshold_tips": "Wanneer de overdrachtssnelheid onder deze waarde daalt, wordt de verbinding als inactief beschouwd. Deze waarde mag niet hoger zijn dan 25% van de geconfigureerde snelheidslimiet."
     },
     "qos": {
         "title": "QoS",
