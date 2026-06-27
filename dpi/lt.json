@@ -48,7 +48,8 @@
         "small_traffic_tips1": "Pastaba — nedidelis, bet nuolatinis srautas:",
         "download_latency_threshold_tips": "Viršijus šią ribą, bus sumažintas duomenų siuntimo srauto pralaidumas.",
         "upload_latency_threshold_tips": "Viršijus šią ribą, bus sumažintas duomenų siuntimo srauto pralaidumas.",
-        "small_traffic_tips2": "Autorate visą parą siunčia ping užklausas reflektorių serveriams. Naudojant numatytuosius nustatymus (4 zondai @ 0,3 s), sunaudojama maždaug 1–5 KB/s foninio srauto ir nedidelė dalis maršrutizatoriaus CPU išteklių. Šis kiekis yra nereikšmingas Ethernet, šviesolaidžio ar mobiliojo ryšio mėnesiniuose planuose, tačiau griežtai apmokestinamuose ryšiuose (pvz., mokant už MB mobiliajame ryšyje, telefono viešavietės duomenų limituose) per mėnesį gali susidaryti apie 100–400 MB."
+        "small_traffic_tips2": "Autorate visą parą siunčia ping užklausas reflektorių serveriams. Naudojant numatytuosius nustatymus (4 zondai @ 0,3 s), sunaudojama maždaug 1–5 KB/s foninio srauto ir nedidelė dalis maršrutizatoriaus CPU išteklių. Šis kiekis yra nereikšmingas Ethernet, šviesolaidžio ar mobiliojo ryšio mėnesiniuose planuose, tačiau griežtai apmokestinamuose ryšiuose (pvz., mokant už MB mobiliajame ryšyje, telefono viešavietės duomenų limituose) per mėnesį gali susidaryti apie 100–400 MB.",
+        "idle_detection_threshold_tips": "Kai perdavimo sparta nukrenta žemiau šios reikšmės, ryšys bus laikomas budėjimo būsenos. Ši reikšmė neturi viršyti 25 % sukonfigūruoto greičio apribojimo."
     },
     "qos": {
         "title": "„QoS“",
