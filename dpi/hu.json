@@ -48,8 +48,7 @@
         "small_traffic_tips1": "Megjegyzés — kismértékű, de folyamatos adatforgalom:",
         "download_latency_threshold_tips": "Ennek túllépése sávszélesség-csökkentést vált ki.",
         "upload_latency_threshold_tips": "Ennek túllépése sávszélesség-csökkentést vált ki.",
-        "small_traffic_tips2": "Az Autorate éjjel-nappal pingeli a reflektorszervereket. Az alapértelmezett beállításokkal (4 próba @ 0,3 s) nagyjából 1–5 KB/s háttérforgalmat fogyaszt, valamint kis mértékben terheli a router CPU-ját. Ez Ethernet-/optikai-/mobilinternet-előfizetések havi csomagjainál elhanyagolható, de szigorúan mért kapcsolatokon (pl. MB-alapú mobilinternet, telefonos hotspot adatkorlátok) havonta akár ~100–400 MB-ra is összeadódhat.",
-        "idle_detection_threshold_tips": "Az erre a szabályra illeszkedő forgalom a legmagasabb prioritást kapja, így hálózati torlódás esetén elsőként lesz továbbítva a zökkenőmentes működés érdekében."
+        "small_traffic_tips2": "Az Autorate éjjel-nappal pingeli a reflektorszervereket. Az alapértelmezett beállításokkal (4 próba @ 0,3 s) nagyjából 1–5 KB/s háttérforgalmat fogyaszt, valamint kis mértékben terheli a router CPU-ját. Ez Ethernet-/optikai-/mobilinternet-előfizetések havi csomagjainál elhanyagolható, de szigorúan mért kapcsolatokon (pl. MB-alapú mobilinternet, telefonos hotspot adatkorlátok) havonta akár ~100–400 MB-ra is összeadódhat."
     },
     "qos": {
         "title": "QoS",
