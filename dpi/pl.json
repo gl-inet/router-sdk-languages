@@ -48,7 +48,8 @@
         "small_traffic_tips1": "Uwaga — niewielki, ale ciągły ruch:",
         "download_latency_threshold_tips": "Przekroczenie tego spowoduje ograniczenie przepustowości.",
         "upload_latency_threshold_tips": "Przekroczenie tego spowoduje ograniczenie przepustowości.",
-        "small_traffic_tips2": "Autorate wysyła pingi do serwerów reflektorów przez całą dobę. Przy ustawieniach domyślnych (4 próby @ 0,3 s) zużywa około 1–5 KB/s ruchu w tle oraz niewielką ilość zasobów CPU rutera. Ilość ta jest pomijalna w miesięcznych planach Ethernet/światłowód/komórkowy, ale na łączach ściśle rozliczanych według zużycia (np. komórkowy płatny za MB, limity danych hotspotu w telefonie) może wzrosnąć do około 100–400 MB miesięcznie."
+        "small_traffic_tips2": "Autorate wysyła pingi do serwerów reflektorów przez całą dobę. Przy ustawieniach domyślnych (4 próby @ 0,3 s) zużywa około 1–5 KB/s ruchu w tle oraz niewielką ilość zasobów CPU rutera. Ilość ta jest pomijalna w miesięcznych planach Ethernet/światłowód/komórkowy, ale na łączach ściśle rozliczanych według zużycia (np. komórkowy płatny za MB, limity danych hotspotu w telefonie) może wzrosnąć do około 100–400 MB miesięcznie.",
+        "idle_detection_threshold_tips": "Ruch pasujący do tej reguły otrzyma najwyższy priorytet, dzięki czemu będzie przekazywany w pierwszej kolejności podczas przeciążenia sieci, zapewniając płynne działanie."
     },
     "qos": {
         "title": "QoS",
