@@ -168,7 +168,9 @@
         "enabled_astrowrap_tips": "AstroWrap 目前處於啟用狀態，這與 {feature} 衝突。請重置 AstroWrap 網路以繼續操作。",
         "net_conflict_tips": "目前的 LAN 子網路與您的主路由器子網路衝突。請{changeLan}為不同的子網路，例如 192.168.18.1。",
         "change_lanip_address": "變更 LAN IP 位址",
-        "prepare_your_devices_three_tips": "3. 將它們切換為{node}模式。"
+        "prepare_your_devices_three_tips": "3. 將它們切換為{node}模式。",
+        "set_astro_mesh_to_local_only_tips": "與 AstroMesh 衝突。若要繼續，請將 AstroMesh 設定為僅本機 Mesh 模式。",
+        "conflicts_with_feature_tips": "與 {feature} 衝突，此功能無法運作。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
