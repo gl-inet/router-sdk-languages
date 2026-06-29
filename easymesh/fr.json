@@ -168,7 +168,9 @@
         "enabled_astrowrap_tips": "AstroWrap est actuellement actif, ce qui entre en conflit avec {feature}. Veuillez réinitialiser le réseau AstroWrap pour continuer.",
         "net_conflict_tips": "Le sous-réseau LAN actuel est en conflit avec le sous-réseau de votre routeur principal. Veuillez {changeLan} afin d’utiliser un autre sous-réseau, par exemple 192.168.18.1.",
         "change_lanip_address": "modifier l’adresse IP du LAN",
-        "prepare_your_devices_three_tips": "3. Passez-les en mode {node}."
+        "prepare_your_devices_three_tips": "3. Passez-les en mode {node}.",
+        "set_astro_mesh_to_local_only_tips": "Conflit avec AstroMesh. Pour continuer, veuillez régler AstroMesh en mode maillage local uniquement.",
+        "conflicts_with_feature_tips": "En conflit avec {feature}, cette fonctionnalité ne fonctionne pas."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
