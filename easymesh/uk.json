@@ -168,7 +168,9 @@
         "enabled_astrowrap_tips": "AstroWrap зараз активний, що конфліктує з {feature}. Будь ласка, скиньте мережу AstroWrap, щоб продовжити.",
         "net_conflict_tips": "Поточна підмережа LAN конфліктує з підмережею вашого головного маршрутизатора. Будь ласка, {changeLan} на іншу підмережу, наприклад 192.168.18.1.",
         "change_lanip_address": "змінити IP-адресу LAN",
-        "prepare_your_devices_three_tips": "3. Перемкніть їх у режим {node}."
+        "prepare_your_devices_three_tips": "3. Перемкніть їх у режим {node}.",
+        "set_astro_mesh_to_local_only_tips": "Конфліктує з AstroMesh. Щоб продовжити, установіть AstroMesh у режим лише локальної Mesh-мережі.",
+        "conflicts_with_feature_tips": "Конфліктує з {feature}, ця функція не працює."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
