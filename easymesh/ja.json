@@ -168,7 +168,9 @@
         "enabled_astrowrap_tips": "AstroWrap が現在アクティブであり、{feature} と競合します。続行するには、AstroWrap ネットワークをリセットしてください。",
         "net_conflict_tips": "現在のLANサブネットはメインルーターのサブネットと競合しています。192.168.18.1 など、別のサブネットに{changeLan}してください。",
         "change_lanip_address": "LAN IPアドレスを変更",
-        "prepare_your_devices_three_tips": "3. それらを{node}モードに切り替えます。"
+        "prepare_your_devices_three_tips": "3. それらを{node}モードに切り替えます。",
+        "set_astro_mesh_to_local_only_tips": "AstroMesh と競合しています。続行するには、AstroMesh をローカルメッシュ専用モードに設定してください。",
+        "conflicts_with_feature_tips": "{feature} と競合しているため、この機能は動作しません。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
