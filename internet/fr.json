@@ -627,7 +627,18 @@
         "dl_bandwidth": "Bande passante descendante",
         "data_traffic_cap_tips": "La carte SIM actuelle a dépassé le {dataCapAmount}.",
         "data_cap_amount": "Plafond de données",
-        "airplane_mode_tips": "Le mode avion est activé. La connexion mobile est indisponible."
+        "airplane_mode_tips": "Le mode avion est activé. La connexion mobile est indisponible.",
+        "details_configurations_title": "Détails et configurations",
+        "network_information_title": "Informations réseau",
+        "network_settings_title": "Paramètres réseau",
+        "band_lock_controls_title": "Contrôles de bande et de verrouillage",
+        "msisdn_label": "MSISDN",
+        "apn_label": "APN",
+        "ipv4_address_label": "Adresse IPv4",
+        "ipv4_dns_server_label": "Serveur DNS IPv4",
+        "ipv6_address_label": "Adresse IPv6",
+        "max_bit_rate_label": "Débit binaire maximal (AMBR)",
+        "ipv6_dns_server_label": "Serveur DNS IPv6"
     },
     "sim": {
         "sender_label": "Expéditeur"
