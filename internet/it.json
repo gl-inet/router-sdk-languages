@@ -299,7 +299,12 @@
         "locked_sim_tips": "La scheda SIM è bloccata. Sbloccala prima.",
         "sim_card_not_detected_tips": "Scheda SIM non rilevata. Inserire una scheda SIM o verificare.",
         "no_sim_switch_to_esim_tips": "Scheda SIM non rilevata. Inserisci una scheda SIM o passa a eSIM.",
-        "use_this_sim_btn": "Usa questa SIM"
+        "use_this_sim_btn": "Usa questa SIM",
+        "data_usage_label": "Utilizzo dati",
+        "signal_label": "Segnale",
+        "sim_type_label": "Tipo di SIM",
+        "details_configs_label": "Dettagli e configurazioni",
+        "operator_label": "Operatore"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Banda in Uplink",
         "dl_bandwidth": "Larghezza di banda in downlink",
         "data_traffic_cap_tips": "La scheda SIM attuale ha superato il {dataCapAmount}.",
-        "data_cap_amount": "Importo del limite di dati"
+        "data_cap_amount": "Importo del limite di dati",
+        "airplane_mode_tips": "La modalità aereo è attiva. La rete cellulare non è disponibile."
     },
     "sim": {
         "sender_label": "Mittente"
