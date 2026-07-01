@@ -299,7 +299,12 @@
         "locked_sim_tips": "SIMカードがロックされています。先にロックを解除してください。",
         "sim_card_not_detected_tips": "SIMカードが検出されません。SIMカードを挿入するか、確認してください。",
         "no_sim_switch_to_esim_tips": "SIMカードが検出されません。SIMカードを挿入するか、eSIMに切り替えてください。",
-        "use_this_sim_btn": "このSIMを使用"
+        "use_this_sim_btn": "このSIMを使用",
+        "details_configs_label": "詳細と設定",
+        "data_usage_label": "データ使用量",
+        "signal_label": "信号",
+        "sim_type_label": "SIMタイプ",
+        "operator_label": "オペレーター"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "アップリンク帯域幅",
         "dl_bandwidth": "ダウンリンク帯域幅",
         "data_traffic_cap_tips": "現在のSIMカードは{dataCapAmount}を超えています。",
-        "data_cap_amount": "データ上限量"
+        "data_cap_amount": "データ上限量",
+        "airplane_mode_tips": "機内モードがオンです。セルラーは利用できません。"
     },
     "sim": {
         "sender_label": "送信者"
