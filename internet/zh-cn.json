@@ -298,7 +298,13 @@
         "locked_sim": "已锁定的 SIM",
         "locked_sim_tips": "SIM 卡已锁定。请先解锁。",
         "sim_card_not_detected_tips": "未检测到 SIM 卡。请插入 SIM 卡或检查。",
-        "no_sim_switch_to_esim_tips": "未检测到 SIM 卡。请插入 SIM 卡或切换到 eSIM。"
+        "no_sim_switch_to_esim_tips": "未检测到 SIM 卡。请插入 SIM 卡或切换到 eSIM。",
+        "details_configs_label": "详细信息与配置",
+        "data_usage_label": "数据用量",
+        "signal_label": "信号",
+        "use_this_sim_btn": "使用此 SIM",
+        "sim_type_label": "SIM 类型",
+        "operator_label": "运营商"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
@@ -620,7 +626,8 @@
         "ul_bandwidth": "上行带宽",
         "dl_bandwidth": "下行带宽",
         "data_traffic_cap_tips": "当前 SIM 卡已超出{dataCapAmount}。",
-        "data_cap_amount": "流量数据上限额度"
+        "data_cap_amount": "流量数据上限额度",
+        "airplane_mode_tips": "飞行模式已开启。蜂窝网络不可用。"
     },
     "sim": {
         "sender_label": "发件人"
