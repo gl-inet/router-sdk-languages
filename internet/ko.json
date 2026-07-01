@@ -299,7 +299,12 @@
         "locked_sim_tips": "SIM 카드가 잠겨 있습니다. 먼저 잠금을 해제하세요.",
         "sim_card_not_detected_tips": "SIM 카드를 감지하지 못했습니다. SIM 카드를 삽입하거나 확인하세요.",
         "no_sim_switch_to_esim_tips": "SIM 카드를 감지할 수 없습니다. SIM 카드를 삽입하거나 eSIM으로 전환하세요.",
-        "use_this_sim_btn": "이 SIM 사용"
+        "use_this_sim_btn": "이 SIM 사용",
+        "details_configs_label": "세부 정보 및 구성",
+        "data_usage_label": "데이터 사용량",
+        "signal_label": "신호",
+        "sim_type_label": "SIM 유형",
+        "operator_label": "운영자"
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "업링크 대역폭",
         "dl_bandwidth": "다운링크 대역폭",
         "data_traffic_cap_tips": "현재 SIM 카드가 {dataCapAmount}를 초과했습니다.",
-        "data_cap_amount": "데이터 제한량"
+        "data_cap_amount": "데이터 제한량",
+        "airplane_mode_tips": "비행기 모드가 켜져 있습니다. 셀룰러를 사용할 수 없습니다."
     },
     "sim": {
         "sender_label": "발신자"
