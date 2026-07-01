@@ -299,7 +299,12 @@
         "locked_sim_tips": "La tarjeta SIM está bloqueada. Desbloquéela primero.",
         "sim_card_not_detected_tips": "No se detectó la tarjeta SIM. Inserte una tarjeta SIM o verifíquela.",
         "no_sim_switch_to_esim_tips": "No se detectó ninguna tarjeta SIM. Inserte una tarjeta SIM o cambie a eSIM.",
-        "use_this_sim_btn": "Usar esta SIM"
+        "use_this_sim_btn": "Usar esta SIM",
+        "details_configs_label": "Detalles y configuraciones",
+        "operator_label": "Operador",
+        "data_usage_label": "Uso de datos",
+        "signal_label": "Señal",
+        "sim_type_label": "Tipo de SIM"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Ancho de banda de enlace ascendente",
         "dl_bandwidth": "Ancho de banda de bajada",
         "data_traffic_cap_tips": "La tarjeta SIM actual ha superado los {dataCapAmount}.",
-        "data_cap_amount": "Límite de Datos"
+        "data_cap_amount": "Límite de Datos",
+        "airplane_mode_tips": "El modo avión está activado. La conexión móvil no está disponible."
     },
     "sim": {
         "sender_label": "Remitente"
