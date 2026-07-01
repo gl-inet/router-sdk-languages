@@ -627,7 +627,18 @@
         "dl_bandwidth": "下行頻寬",
         "data_traffic_cap_tips": "當前 SIM 卡已超出{dataCapAmount}。",
         "data_cap_amount": "流量數據上限額度",
-        "airplane_mode_tips": "飛航模式已開啟。蜂窩網路無法使用。"
+        "airplane_mode_tips": "飛航模式已開啟。蜂窩網路無法使用。",
+        "details_configurations_title": "詳細資料與設定",
+        "network_information_title": "網路資訊",
+        "network_settings_title": "網路設定",
+        "band_lock_controls_title": "頻段與鎖定控制",
+        "msisdn_label": "MSISDN",
+        "max_bit_rate_label": "最大位元速率 (AMBR)",
+        "ipv4_address_label": "IPv4 位址",
+        "ipv4_dns_server_label": "IPv4 DNS 伺服器",
+        "ipv6_address_label": "IPv6 位址",
+        "ipv6_dns_server_label": "IPv6 DNS 伺服器",
+        "apn_label": "APN"
     },
     "sim": {
         "sender_label": "發件人"
