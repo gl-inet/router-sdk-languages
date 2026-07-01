@@ -299,7 +299,12 @@
         "locked_sim_tips": "SIM card is locked. Please unlock it first.",
         "sim_card_not_detected_tips": "SIM Card Not Detected. Please insert a SIM card or check.",
         "no_sim_switch_to_esim_tips": "SIM Card Not Detected. Insert SIM card or switch to eSIM.",
-        "use_this_sim_btn": "Use this SIM"
+        "use_this_sim_btn": "Use this SIM",
+        "details_configs_label": "Details & Configurations",
+        "operator_label": "Operator",
+        "data_usage_label": "Data Usage",
+        "signal_label": "Signal",
+        "sim_type_label": "SIM Type"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Uplink Bandwidth",
         "dl_bandwidth": "Downlink Bandwidth",
         "data_traffic_cap_tips": "The current SIM card has exceeded the {dataCapAmount}.",
-        "data_cap_amount": "Data Cap Amount"
+        "data_cap_amount": "Data Cap Amount",
+        "airplane_mode_tips": "Airplane mode is on. Cellular is unavailable."
     },
     "sim": {
         "sender_label": "Sender"
