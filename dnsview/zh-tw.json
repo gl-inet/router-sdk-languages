@@ -79,6 +79,7 @@
         "switch_to_manual_dns_only_tips": "{switch} 以僅使用手動 DNS 設定。",
         "switch_to_vpn_dns_splitting_tips": "{switch} 至 VPN DNS 分流模式。",
         "no_vpn_tunnel_available_tips": "沒有可用的 VPN 通道。請前往 {vpn} 設定。",
-        "manual_overrides_vpn_tips": "由於已啟用「將手動 DNS 套用至 VPN 通道」，因此不會使用 VPN DNS。"
+        "manual_overrides_vpn_tips": "由於已啟用「將手動 DNS 套用至 VPN 通道」，因此不會使用 VPN DNS。",
+        "manual_local_dns_tips": "啟用後，路由器內建服務（例如 GoodCloud）將套用自訂手動 DNS 設定。"
     }
 }
