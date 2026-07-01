@@ -371,7 +371,12 @@
         "locked_sim_tips": "Karta SIM jest zablokowana. Najpierw ją odblokuj.",
         "sim_card_not_detected_tips": "Nie wykryto karty SIM. Włóż kartę SIM lub sprawdź ją.",
         "no_sim_switch_to_esim_tips": "Nie wykryto karty SIM. Włóż kartę SIM lub przełącz na eSIM.",
-        "use_this_sim_btn": "Użyj tej karty SIM"
+        "use_this_sim_btn": "Użyj tej karty SIM",
+        "details_configs_label": "Szczegóły i konfiguracja",
+        "data_usage_label": "Użycie danych",
+        "signal_label": "Sygnał",
+        "sim_type_label": "Typ karty SIM",
+        "operator_label": "Operator"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Przepustowość Łącza Nadrzędnego",
         "dl_bandwidth": "Przepustowość Łącza w Dół",
         "data_traffic_cap_tips": "Obecna karta SIM przekroczyła limit {dataCapAmount}.",
-        "data_cap_amount": "Limit Danych"
+        "data_cap_amount": "Limit Danych",
+        "airplane_mode_tips": "Tryb samolotowy jest włączony. Sieć komórkowa jest niedostępna."
     },
     "sim": {
         "sender_label": "Nadawca"
