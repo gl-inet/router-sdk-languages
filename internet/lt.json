@@ -172,7 +172,12 @@
         "locked_sim_tips": "SIM kortelė užrakinta. Pirmiausia ją atrakinkite.",
         "sim_card_not_detected_tips": "SIM kortelė neaptikta. Įterpkite SIM kortelę arba patikrinkite.",
         "no_sim_switch_to_esim_tips": "SIM kortelė neaptikta. Įterpkite SIM kortelę arba perjunkite į eSIM.",
-        "use_this_sim_btn": "Naudoti šią SIM kortelę"
+        "use_this_sim_btn": "Naudoti šią SIM kortelę",
+        "details_configs_label": "Išsamesnė informacija ir konfigūracijos",
+        "data_usage_label": "Duomenų naudojimas",
+        "signal_label": "Signalas",
+        "sim_type_label": "SIM tipas",
+        "operator_label": "Operatorius"
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Aukštynkryptis duomenų siuntimo srauto pralaidumas",
         "dl_bandwidth": "Žemyn srauto pralaidumas",
         "data_traffic_cap_tips": "Dabartinė SIM kortelė viršijo {dataCapAmount}.",
-        "data_cap_amount": "Duomenų limito suma"
+        "data_cap_amount": "Duomenų limito suma",
+        "airplane_mode_tips": "Lėktuvo veiksena yra įjungta. Mobilusis ryšys yra nepasiekiamas."
     },
     "sim": {
         "sender_label": "Siuntėjas"
