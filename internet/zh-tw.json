@@ -298,7 +298,13 @@
         "locked_sim": "SIM 卡已鎖定",
         "locked_sim_tips": "SIM 卡已鎖定。請先解鎖。",
         "sim_card_not_detected_tips": "未偵測到 SIM 卡。請插入或檢查 SIM 卡。",
-        "no_sim_switch_to_esim_tips": "未偵測到 SIM 卡。請插入 SIM 卡或切換至 eSIM。"
+        "no_sim_switch_to_esim_tips": "未偵測到 SIM 卡。請插入 SIM 卡或切換至 eSIM。",
+        "data_usage_label": "資料用量",
+        "signal_label": "訊號",
+        "use_this_sim_btn": "使用此 SIM 卡",
+        "sim_type_label": "SIM 卡類型",
+        "details_configs_label": "詳細資料與設定",
+        "operator_label": "營運商"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -620,7 +626,8 @@
         "ul_bandwidth": "上行頻寬",
         "dl_bandwidth": "下行頻寬",
         "data_traffic_cap_tips": "當前 SIM 卡已超出{dataCapAmount}。",
-        "data_cap_amount": "流量數據上限額度"
+        "data_cap_amount": "流量數據上限額度",
+        "airplane_mode_tips": "飛航模式已開啟。蜂窩網路無法使用。"
     },
     "sim": {
         "sender_label": "發件人"
