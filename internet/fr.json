@@ -299,7 +299,12 @@
         "locked_sim_tips": "La carte SIM est verrouillée. Veuillez d'abord la déverrouiller.",
         "sim_card_not_detected_tips": "Carte SIM non détectée. Veuillez insérer une carte SIM ou vérifier.",
         "no_sim_switch_to_esim_tips": "Carte SIM non détectée. Insérez une carte SIM ou passez à l’eSIM.",
-        "use_this_sim_btn": "Utiliser cette carte SIM"
+        "use_this_sim_btn": "Utiliser cette carte SIM",
+        "details_configs_label": "Détails et configurations",
+        "data_usage_label": "Utilisation des données",
+        "signal_label": "Signal",
+        "sim_type_label": "Type de SIM",
+        "operator_label": "Opérateur"
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Bande passante montante",
         "dl_bandwidth": "Bande passante descendante",
         "data_traffic_cap_tips": "La carte SIM actuelle a dépassé le {dataCapAmount}.",
-        "data_cap_amount": "Plafond de données"
+        "data_cap_amount": "Plafond de données",
+        "airplane_mode_tips": "Le mode avion est activé. La connexion mobile est indisponible."
     },
     "sim": {
         "sender_label": "Expéditeur"
