@@ -299,7 +299,12 @@
         "locked_sim_tips": "SIM-Karte ist gesperrt. Bitte entsperren Sie sie zuerst.",
         "sim_card_not_detected_tips": "SIM-Karte nicht erkannt. Bitte legen Sie eine SIM-Karte ein oder überprüfen Sie sie.",
         "no_sim_switch_to_esim_tips": "SIM-Karte nicht erkannt. Legen Sie eine SIM-Karte ein oder wechseln Sie zu eSIM.",
-        "use_this_sim_btn": "Diese SIM verwenden"
+        "use_this_sim_btn": "Diese SIM verwenden",
+        "details_configs_label": "Details und Konfigurationen",
+        "operator_label": "Betreiber",
+        "data_usage_label": "Datennutzung",
+        "signal_label": "Signal",
+        "sim_type_label": "SIM-Typ"
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Uplink-Bandbreite",
         "dl_bandwidth": "Downlink-Bandbreite",
         "data_traffic_cap_tips": "Die aktuelle SIM-Karte hat das {dataCapAmount} überschritten.",
-        "data_cap_amount": "Datenvolumen-Betrag"
+        "data_cap_amount": "Datenvolumen-Betrag",
+        "airplane_mode_tips": "Der Flugmodus ist aktiviert. Mobilfunk ist nicht verfügbar."
     },
     "sim": {
         "sender_label": "Absender"
