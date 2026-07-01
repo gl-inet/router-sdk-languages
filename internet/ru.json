@@ -299,7 +299,12 @@
         "locked_sim_tips": "SIM-карта заблокирована. Сначала разблокируйте её.",
         "sim_card_not_detected_tips": "SIM-карта не обнаружена. Вставьте SIM-карту или проверьте ее.",
         "no_sim_switch_to_esim_tips": "SIM-карта не обнаружена. Вставьте SIM-карту или переключитесь на eSIM.",
-        "use_this_sim_btn": "Использовать эту SIM-карту"
+        "use_this_sim_btn": "Использовать эту SIM-карту",
+        "data_usage_label": "Использование данных",
+        "signal_label": "Сигнал",
+        "sim_type_label": "Тип SIM-карты",
+        "details_configs_label": "Сведения и конфигурации",
+        "operator_label": "Оператор"
     },
     "sms": {
         "forward_encryp_label": "Включить маскировку",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Восходящая пропускная способность",
         "dl_bandwidth": "Нисходящая пропускная способность",
         "data_traffic_cap_tips": "Текущая SIM-карта превысила лимит в {dataCapAmount}.",
-        "data_cap_amount": "Объем данных"
+        "data_cap_amount": "Объем данных",
+        "airplane_mode_tips": "Режим полета включен. Сотовая связь недоступна."
     },
     "sim": {
         "sender_label": "Отправитель"
