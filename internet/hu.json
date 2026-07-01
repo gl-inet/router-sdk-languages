@@ -172,7 +172,12 @@
         "locked_sim_tips": "A SIM-kártya zárolva van. Először oldja fel.",
         "sim_card_not_detected_tips": "SIM-kártya nem észlelhető. Helyezzen be egy SIM-kártyát, vagy ellenőrizze.",
         "no_sim_switch_to_esim_tips": "SIM-kártya nem észlelhető. Helyezzen be SIM-kártyát, vagy váltson eSIM-re.",
-        "use_this_sim_btn": "E SIM-kártya használata"
+        "use_this_sim_btn": "E SIM-kártya használata",
+        "details_configs_label": "Részletek és beállítások",
+        "data_usage_label": "Adathasználat",
+        "signal_label": "Jel",
+        "sim_type_label": "SIM típusa",
+        "operator_label": "Szolgáltató"
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -621,7 +626,8 @@
         "ul_bandwidth": "Feljövő sávszélesség",
         "dl_bandwidth": "Lefelé irányuló sávszélesség",
         "data_traffic_cap_tips": "Az aktuális SIM-kártya meghaladta a {dataCapAmount} értéket.",
-        "data_cap_amount": "Adatkorlát összege"
+        "data_cap_amount": "Adatkorlát összege",
+        "airplane_mode_tips": "A repülőgép mód be van kapcsolva. A mobilhálózat nem érhető el."
     },
     "sim": {
         "sender_label": "Feladó"
