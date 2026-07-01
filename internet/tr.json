@@ -202,7 +202,13 @@
         "locked_sim": "Kilitli SIM",
         "locked_sim_tips": "SIM kart kilitli. Lütfen önce kilidini açın.",
         "sim_card_not_detected_tips": "SIM kart algılanmadı. Lütfen bir SIM kart takın veya kontrol edin.",
-        "no_sim_switch_to_esim_tips": "SIM kart algılanmadı. SIM kart takın veya eSIM'e geçin."
+        "no_sim_switch_to_esim_tips": "SIM kart algılanmadı. SIM kart takın veya eSIM'e geçin.",
+        "data_usage_label": "Veri Kullanımı",
+        "signal_label": "Sinyal",
+        "use_this_sim_btn": "Bu SIM'i kullan",
+        "sim_type_label": "SIM Türü",
+        "details_configs_label": "Ayrıntılar ve Yapılandırmalar",
+        "operator_label": "Operatör"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -635,7 +641,8 @@
         "ul_bandwidth": "Yukarı Bağlantı Bant Genişliği",
         "dl_bandwidth": "İndirme Bant Genişliği",
         "data_traffic_cap_tips": "Mevcut SIM kart, {dataCapAmount} kotasını aşmış durumda.",
-        "data_cap_amount": "Veri Sınırı Miktarı"
+        "data_cap_amount": "Veri Sınırı Miktarı",
+        "airplane_mode_tips": "Uçak modu açık. Hücresel bağlantı kullanılamıyor."
     },
     "sim": {
         "sender_label": "Gönderen"
