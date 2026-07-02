@@ -177,7 +177,15 @@
         "data_usage_label": "Adathasználat",
         "signal_label": "Jel",
         "sim_type_label": "SIM típusa",
-        "operator_label": "Szolgáltató"
+        "operator_label": "Szolgáltató",
+        "airplane_mode_label": "Repülőgép mód",
+        "model_information_label": "Modellinformációk",
+        "sim_failover_label": "SIM-feladatátvétel",
+        "modem_label": "Modem",
+        "firmware_version_label": "Firmware-verzió",
+        "imei_label": "IMEI {slot}",
+        "modem_information_title": "Modeminformációk",
+        "china_mobile_label": "China Mobile"
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -649,7 +657,8 @@
         "signal_history_title": "Jelelőzmények",
         "cell_id_label": "Cellaazonosító",
         "earfcn_label": "EARFCN",
-        "pci_label": "PCI"
+        "pci_label": "PCI",
+        "bandwidth_label": "Sávszélesség"
     },
     "sim": {
         "sender_label": "Feladó"
