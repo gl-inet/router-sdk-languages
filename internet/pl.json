@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint} został użyty jako LAN (sieć lokalna). Możesz przywrócić go do WAN (sieć rozległa) w {view}.",
         "subnet_conflict_tips": "Obecna podsieć adresu WAN jest w konflikcie z istniejącą podsiecią. Proszę {subnet} lub dostosować konfigurację sieci nadrzędnej.",
         "modify_subnet_range": "zmień zakres podsieci"
-    }
+    },
+    "acl": {
+        "protocol_label": "Protokół",
+        "match_label": "Dopasowanie",
+        "souce_zoon_label": "Strefa źródłowa",
+        "source_address_label": "Adres źródłowy",
+        "source_port_label": "Port źródłowy",
+        "dest_zone_label": "Strefa docelowa",
+        "action_label": "Działanie",
+        "dest_address_label": "Adres docelowy",
+        "dest_port_label": "Port docelowy",
+        "any_not_allowed_with_multiple_ips": "Gdy istnieje wiele adresów IP, opcja „Dowolny” nie może być uwzględniona",
+        "add_acl_dialog_title": "Dodaj regułę ACL",
+        "name_already_exist_msg": "Nazwa już istnieje.",
+        "accept_label": "Akceptuj",
+        "drop_label": "Blokuj",
+        "reject_label": "Odrzuć",
+        "add_new_btn": "Dodaj nowe",
+        "any_label": "Dowolny",
+        "name_label": "Nazwa",
+        "ip_type_label": "Typ IP",
+        "acl_desc": "{acl} może kontrolować ruch sieciowy na podstawie reguł, takich jak protokół, docelowy adres IP, źródłowy adres IP i numer portu. Jeśli wystąpi konflikt między dwiema włączonymi regułami {acl}, urządzenie nada priorytet regule o wyższym priorytecie.",
+        "add_rule_btn": "Dodaj regułę",
+        "edit_acl_dialog_title": "Modyfikuj regułę ACL"
+    },
+    "menu_acl": "ACL"
 }
