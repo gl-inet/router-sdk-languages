@@ -376,7 +376,15 @@
         "data_usage_label": "Użycie danych",
         "signal_label": "Sygnał",
         "sim_type_label": "Typ karty SIM",
-        "operator_label": "Operator"
+        "operator_label": "Operator",
+        "airplane_mode_label": "Tryb samolotowy",
+        "model_information_label": "Informacje o modelu",
+        "sim_failover_label": "Awaryjność SIM",
+        "modem_information_title": "Informacje o modemie",
+        "modem_label": "Modem",
+        "imei_label": "IMEI {slot}",
+        "china_mobile_label": "China Mobile",
+        "firmware_version_label": "Wersja oprogramowania układowego"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -649,7 +657,8 @@
         "tac_label": "TAC",
         "cell_id_label": "ID komórki",
         "earfcn_label": "EARFCN",
-        "pci_label": "PCI"
+        "pci_label": "PCI",
+        "bandwidth_label": "Przepustowość"
     },
     "sim": {
         "sender_label": "Nadawca"
