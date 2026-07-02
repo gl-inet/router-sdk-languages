@@ -299,7 +299,15 @@
         "use_this_sim_btn": "Використати цю SIM-картку",
         "sim_type_label": "Тип SIM-картки",
         "details_configs_label": "Відомості та конфігурації",
-        "operator_label": "Оператор"
+        "operator_label": "Оператор",
+        "airplane_mode_label": "Режим польоту",
+        "model_information_label": "Інформація про модель",
+        "modem_information_title": "Інформація про модем",
+        "firmware_version_label": "Версія прошивки",
+        "china_mobile_label": "China Mobile",
+        "sim_failover_label": "Failover SIM",
+        "modem_label": "Модем",
+        "imei_label": "IMEI {slot}"
     },
     "sms": {
         "all_read": "Всі прочитані",
@@ -649,7 +657,8 @@
         "rsrq_label": "RSRQ",
         "rssi_label": "RSSI",
         "signal_history_title": "Історія сигналу",
-        "cell_id_label": "Cell ID"
+        "cell_id_label": "Cell ID",
+        "bandwidth_label": "Пропускна здатність"
     },
     "sim": {
         "sender_label": "Відправник"
