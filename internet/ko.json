@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint}가 LAN(로컬 영역 네트워크)으로 사용되었습니다. {view}에서 WAN(광역 네트워크)으로 다시 설정할 수 있습니다.",
         "subnet_conflict_tips": "현재 WAN IP 서브넷이 기존 서브넷과 충돌합니다. {subnet}하거나 업스트림 네트워크 구성을 조정하세요.",
         "modify_subnet_range": "서브넷 범위 수정"
-    }
+    },
+    "acl": {
+        "protocol_label": "프로토콜",
+        "match_label": "일치",
+        "ip_type_label": "IP 유형",
+        "souce_zoon_label": "출발지 영역",
+        "source_address_label": "소스 주소",
+        "source_port_label": "출발지 포트",
+        "dest_zone_label": "대상 영역",
+        "action_label": "동작",
+        "dest_address_label": "대상 주소",
+        "dest_port_label": "대상 포트",
+        "add_rule_btn": "규칙 추가",
+        "any_not_allowed_with_multiple_ips": "IP 주소가 여러 개인 경우 '모두' 옵션을 포함할 수 없습니다.",
+        "add_acl_dialog_title": "ACL 규칙 추가",
+        "edit_acl_dialog_title": "ACL 규칙 수정",
+        "accept_label": "허용",
+        "drop_label": "차단",
+        "reject_label": "거부",
+        "add_new_btn": "새로 추가",
+        "name_label": "이름",
+        "acl_desc": "{acl}은 프로토콜, 대상 IP 주소, 출발지 IP 주소 및 포트 번호와 같은 규칙을 기반으로 네트워크 트래픽을 제어할 수 있습니다. 활성화된 두 {acl} 규칙 간에 충돌이 있는 경우 장치는 우선순위가 더 높은 규칙을 우선 적용합니다.",
+        "name_already_exist_msg": "이름이 이미 존재합니다.",
+        "any_label": "모두"
+    },
+    "menu_acl": "ACL"
 }
