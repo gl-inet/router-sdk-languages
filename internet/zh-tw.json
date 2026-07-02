@@ -304,7 +304,15 @@
         "use_this_sim_btn": "使用此 SIM 卡",
         "sim_type_label": "SIM 卡類型",
         "details_configs_label": "詳細資料與設定",
-        "operator_label": "營運商"
+        "operator_label": "營運商",
+        "airplane_mode_label": "飛航模式",
+        "model_information_label": "型號資訊",
+        "sim_failover_label": "SIM 故障轉移",
+        "modem_information_title": "數據機資訊",
+        "modem_label": "數據機",
+        "firmware_version_label": "韌體版本",
+        "imei_label": "IMEI {slot}",
+        "china_mobile_label": "中國移動"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -649,7 +657,8 @@
         "rsrp_label": "RSRP",
         "rsrq_label": "RSRQ",
         "rssi_label": "RSSI",
-        "signal_history_title": "訊號記錄"
+        "signal_history_title": "訊號記錄",
+        "bandwidth_label": "頻寬"
     },
     "sim": {
         "sender_label": "發件人"
