@@ -304,7 +304,15 @@
         "data_usage_label": "데이터 사용량",
         "signal_label": "신호",
         "sim_type_label": "SIM 유형",
-        "operator_label": "운영자"
+        "operator_label": "운영자",
+        "airplane_mode_label": "비행기 모드",
+        "model_information_label": "모델 정보",
+        "sim_failover_label": "SIM Failover",
+        "modem_information_title": "Modem 정보",
+        "modem_label": "Modem",
+        "firmware_version_label": "펌웨어 버전",
+        "imei_label": "IMEI {slot}",
+        "china_mobile_label": "China Mobile"
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -649,7 +657,8 @@
         "rssi_label": "RSSI",
         "signal_history_title": "신호 기록",
         "network_type_label": "네트워크 유형",
-        "pci_label": "PCI"
+        "pci_label": "PCI",
+        "bandwidth_label": "대역폭"
     },
     "sim": {
         "sender_label": "발신자"
