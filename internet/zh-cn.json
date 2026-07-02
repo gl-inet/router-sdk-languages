@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint} 已被用作LAN(局域网)。您可以在{view}中将其设置回WAN(广域网)",
         "subnet_conflict_tips": "当前 WAN IP 网段与现有子网网段冲突。请{subnet}，或调整上级网络配置。",
         "modify_subnet_range": "修改子网网段"
-    }
+    },
+    "acl": {
+        "protocol_label": "协议",
+        "match_label": "匹配",
+        "name_label": "名称",
+        "ip_type_label": "IP 类型",
+        "souce_zoon_label": "源区域",
+        "source_address_label": "源地址",
+        "source_port_label": "源端口",
+        "action_label": "操作",
+        "dest_address_label": "目标地址",
+        "dest_port_label": "目标端口",
+        "acl_desc": "{acl} 可以根据协议、目标 IP 地址、源 IP 地址和端口号等规则控制网络流量。如果两个已启用的 {acl} 规则之间存在冲突，设备将优先应用优先级更高的规则。",
+        "add_rule_btn": "添加规则",
+        "any_not_allowed_with_multiple_ips": "存在多个 IP 地址时，不能包含“任意”选项",
+        "edit_acl_dialog_title": "修改 ACL 规则",
+        "name_already_exist_msg": "名称已存在。",
+        "accept_label": "接受",
+        "drop_label": "阻止",
+        "reject_label": "拒绝",
+        "add_new_btn": "新增",
+        "dest_zone_label": "目标区域",
+        "add_acl_dialog_title": "添加 ACL 规则",
+        "any_label": "任意"
+    },
+    "menu_acl": "ACL"
 }
