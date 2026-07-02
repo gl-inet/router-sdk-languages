@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet. Sie können es in {view} wieder auf WAN (Wide Area Network) zurücksetzen.",
         "subnet_conflict_tips": "Das aktuelle WAN-IP-Subnetz steht im Konflikt mit einem vorhandenen Subnetz. Bitte {subnet} oder passen Sie die Upstream-Netzwerkkonfiguration an.",
         "modify_subnet_range": "Ändern Sie den Subnetzbereich"
-    }
+    },
+    "acl": {
+        "match_label": "Übereinstimmung",
+        "name_label": "Name",
+        "ip_type_label": "IP-Typ",
+        "souce_zoon_label": "Quellzone",
+        "source_address_label": "Quelladresse",
+        "dest_zone_label": "Zielzone",
+        "action_label": "Aktion",
+        "dest_address_label": "Zieladresse",
+        "dest_port_label": "Zielport",
+        "add_rule_btn": "Regel hinzufügen",
+        "any_not_allowed_with_multiple_ips": "Wenn mehrere IP-Adressen vorhanden sind, darf die Option „Beliebig“ nicht enthalten sein",
+        "add_acl_dialog_title": "ACL-Regel hinzufügen",
+        "edit_acl_dialog_title": "ACL-Regel ändern",
+        "name_already_exist_msg": "Der Name ist bereits vorhanden.",
+        "accept_label": "Akzeptieren",
+        "drop_label": "Blockieren",
+        "reject_label": "Ablehnen",
+        "add_new_btn": "Neu hinzufügen",
+        "any_label": "Beliebig",
+        "protocol_label": "Protokoll",
+        "source_port_label": "Quellport",
+        "acl_desc": "{acl} kann den Netzwerkverkehr anhand von Regeln wie Protokoll, Ziel-IP-Adresse, Quell-IP-Adresse und Portnummer steuern. Wenn ein Konflikt zwischen zwei aktivierten {acl}-Regeln besteht, priorisiert das Gerät die Regel mit der höheren Priorität."
+    },
+    "menu_acl": "ACL"
 }
