@@ -177,7 +177,15 @@
         "data_usage_label": "Duomenų naudojimas",
         "signal_label": "Signalas",
         "sim_type_label": "SIM tipas",
-        "operator_label": "Operatorius"
+        "operator_label": "Operatorius",
+        "airplane_mode_label": "Lėktuvo veiksena",
+        "model_information_label": "Modelio informacija",
+        "sim_failover_label": "SIM nesėkmingumo (įvykio) mechanizmas",
+        "modem_information_title": "Modemo informacija",
+        "modem_label": "Modemas",
+        "firmware_version_label": "Programinės aparatinės įrangos versija",
+        "imei_label": "IMEI {slot}",
+        "china_mobile_label": "China Mobile"
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -649,7 +657,8 @@
         "rsrq_label": "RSRQ",
         "rssi_label": "RSSI",
         "signal_history_title": "Signalo istorija",
-        "earfcn_label": "EARFCN"
+        "earfcn_label": "EARFCN",
+        "bandwidth_label": "Duomenų siuntimo srauto pralaidumas"
     },
     "sim": {
         "sender_label": "Siuntėjas"
