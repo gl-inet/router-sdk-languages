@@ -304,7 +304,15 @@
         "signal_label": "Сигнал",
         "sim_type_label": "Тип SIM-карты",
         "details_configs_label": "Сведения и конфигурации",
-        "operator_label": "Оператор"
+        "operator_label": "Оператор",
+        "airplane_mode_label": "Режим полета",
+        "model_information_label": "Информация о модели",
+        "sim_failover_label": "SIM Failover",
+        "modem_information_title": "Информация о модеме",
+        "modem_label": "Модем",
+        "firmware_version_label": "Версия прошивки",
+        "imei_label": "IMEI {slot}",
+        "china_mobile_label": "China Mobile"
     },
     "sms": {
         "forward_encryp_label": "Включить маскировку",
@@ -649,7 +657,8 @@
         "rsrp_label": "RSRP",
         "rsrq_label": "RSRQ",
         "rssi_label": "RSSI",
-        "signal_history_title": "История сигнала"
+        "signal_history_title": "История сигнала",
+        "bandwidth_label": "Пропускная способность"
     },
     "sim": {
         "sender_label": "Отправитель"
