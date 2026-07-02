@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint} використовується як LAN (локальна мережа). Ви можете повернути його до WAN (глобальна мережа) в {view}",
         "subnet_conflict_tips": "Поточна підмережа WAN IP конфліктує з існуючою підмережею. Будь ласка, {subnet} або налаштуйте конфігурацію вищестоящої мережі.",
         "modify_subnet_range": "змінити діапазон підмережі"
-    }
+    },
+    "acl": {
+        "protocol_label": "Протокол",
+        "match_label": "Збіг",
+        "name_label": "Назва",
+        "ip_type_label": "Тип IP",
+        "souce_zoon_label": "Зона джерела",
+        "source_port_label": "Порт джерела",
+        "dest_zone_label": "Зона призначення",
+        "action_label": "Дія",
+        "dest_address_label": "Адреса призначення",
+        "add_rule_btn": "Додати правило",
+        "any_not_allowed_with_multiple_ips": "Якщо є кілька IP-адрес, параметр «Будь-яка» не можна включати",
+        "add_acl_dialog_title": "Додати правило ACL",
+        "edit_acl_dialog_title": "Змінити правило ACL",
+        "name_already_exist_msg": "Назва вже існує.",
+        "accept_label": "Прийняти",
+        "drop_label": "Блокувати",
+        "reject_label": "Відхилити",
+        "add_new_btn": "Додати новий",
+        "any_label": "Будь-який",
+        "source_address_label": "Адреса джерела",
+        "dest_port_label": "Порт призначення",
+        "acl_desc": "{acl} може керувати мережевим трафіком на основі правил, таких як протокол, IP-адреса призначення, IP-адреса джерела та номер порту. Якщо між двома ввімкненими правилами {acl} виникає конфлікт, пристрій надасть пріоритет правилу з вищим пріоритетом."
+    },
+    "menu_acl": "ACL"
 }
