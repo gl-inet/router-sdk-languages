@@ -208,7 +208,15 @@
         "use_this_sim_btn": "Bu SIM'i kullan",
         "sim_type_label": "SIM Türü",
         "details_configs_label": "Ayrıntılar ve Yapılandırmalar",
-        "operator_label": "Operatör"
+        "operator_label": "Operatör",
+        "airplane_mode_label": "Uçak Modu",
+        "model_information_label": "Model Bilgileri",
+        "sim_failover_label": "SIM Yedek Bağlantısı",
+        "modem_label": "Modem",
+        "firmware_version_label": "Donanım Yazılımı Sürümü",
+        "imei_label": "IMEI {slot}",
+        "modem_information_title": "Modem Bilgileri",
+        "china_mobile_label": "China Mobile"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -664,7 +672,8 @@
         "rsrq_label": "RSRQ",
         "rssi_label": "RSSI",
         "signal_history_title": "Sinyal Geçmişi",
-        "earfcn_label": "EARFCN"
+        "earfcn_label": "EARFCN",
+        "bandwidth_label": "Bant Genişliği"
     },
     "sim": {
         "sender_label": "Gönderen"
