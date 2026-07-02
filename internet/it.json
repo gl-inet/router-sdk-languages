@@ -304,7 +304,15 @@
         "signal_label": "Segnale",
         "sim_type_label": "Tipo di SIM",
         "details_configs_label": "Dettagli e configurazioni",
-        "operator_label": "Operatore"
+        "operator_label": "Operatore",
+        "airplane_mode_label": "Modalità aereo",
+        "model_information_label": "Informazioni sul modello",
+        "sim_failover_label": "Failover SIM",
+        "modem_information_title": "Informazioni sul modem",
+        "modem_label": "Modem",
+        "firmware_version_label": "Versione firmware",
+        "imei_label": "IMEI {slot}",
+        "china_mobile_label": "China Mobile"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -649,7 +657,8 @@
         "rsrp_label": "RSRP",
         "rsrq_label": "RSRQ",
         "rssi_label": "RSSI",
-        "signal_history_title": "Cronologia del segnale"
+        "signal_history_title": "Cronologia del segnale",
+        "bandwidth_label": "Larghezza di banda"
     },
     "sim": {
         "sender_label": "Mittente"
