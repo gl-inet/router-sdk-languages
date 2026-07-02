@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint} a été utilisé comme LAN (réseau local). Vous pouvez le remettre en WAN (réseau étendu) dans {view}",
         "subnet_conflict_tips": "Le sous-réseau IP WAN actuel est en conflit avec un sous-réseau existant. Veuillez {subnet} ou ajuster la configuration du réseau amont.",
         "modify_subnet_range": "modifier la plage de sous-réseau"
-    }
+    },
+    "acl": {
+        "protocol_label": "Protocole",
+        "match_label": "Correspondance",
+        "name_label": "Nom",
+        "ip_type_label": "Type d’IP",
+        "souce_zoon_label": "Zone source",
+        "source_address_label": "Adresse source",
+        "source_port_label": "Port source",
+        "dest_zone_label": "Zone de destination",
+        "action_label": "Action",
+        "dest_address_label": "Adresse de destination",
+        "dest_port_label": "Port de destination",
+        "acl_desc": "{acl} peut contrôler le trafic réseau selon des règles telles que le protocole, l’adresse IP de destination, l’adresse IP source et le numéro de port. En cas de conflit entre deux règles {acl} activées, l’appareil donnera la priorité à la règle de priorité supérieure.",
+        "add_rule_btn": "Ajouter une règle",
+        "add_acl_dialog_title": "Ajouter une règle ACL",
+        "edit_acl_dialog_title": "Modifier la règle ACL",
+        "name_already_exist_msg": "Le nom existe déjà.",
+        "accept_label": "Accepter",
+        "drop_label": "Bloquer",
+        "reject_label": "Rejeter",
+        "add_new_btn": "Ajouter",
+        "any_label": "N'importe lequel",
+        "any_not_allowed_with_multiple_ips": "Lorsqu’il y a plusieurs adresses IP, l’option « Any » ne peut pas être incluse"
+    },
+    "menu_acl": "ACL"
 }
