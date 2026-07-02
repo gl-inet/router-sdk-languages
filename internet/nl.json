@@ -304,7 +304,15 @@
         "data_usage_label": "Gegevensgebruik",
         "signal_label": "Signaal",
         "sim_type_label": "SIM-type",
-        "operator_label": "Operator"
+        "operator_label": "Operator",
+        "airplane_mode_label": "Vliegtuigmodus",
+        "model_information_label": "Modelinformatie",
+        "sim_failover_label": "SIM-failover",
+        "modem_label": "Modem",
+        "firmware_version_label": "Firmwareversie",
+        "imei_label": "IMEI {slot}",
+        "modem_information_title": "Modeminformatie",
+        "china_mobile_label": "China Mobile"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -649,7 +657,8 @@
         "rsrq_label": "RSRQ",
         "rssi_label": "RSSI",
         "signal_history_title": "Signaalgeschiedenis",
-        "pci_label": "PCI"
+        "pci_label": "PCI",
+        "bandwidth_label": "Bandbreedte"
     },
     "sim": {
         "sender_label": "Afzender"
