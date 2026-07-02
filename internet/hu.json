@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint} LAN-ként (Helyi Hálózat) lett használva. Visszaállíthatja WAN-ként (Széles körű Hálózat) a {view} oldalon.",
         "subnet_conflict_tips": "A jelenlegi WAN IP-alhálózat ütközik egy meglévő alhálózattal. Kérjük, {subnet} vagy állítsa be a felső szintű hálózati konfigurációt.",
         "modify_subnet_range": "módosítsa az alhálózat tartományát"
-    }
+    },
+    "acl": {
+        "protocol_label": "Protokoll",
+        "match_label": "Egyezés",
+        "name_label": "Név",
+        "ip_type_label": "IP-típus",
+        "souce_zoon_label": "Forrászóna",
+        "source_address_label": "Forráscím",
+        "dest_zone_label": "Célzóna",
+        "action_label": "Művelet",
+        "dest_address_label": "Célcím",
+        "dest_port_label": "Célport",
+        "acl_desc": "A(z) {acl} olyan szabályok alapján vezérelheti a hálózati forgalmat, mint a protokoll, a cél IP-cím, a forrás IP-cím és a portszám. Ha két engedélyezett {acl}-szabály között ütközés van, az eszköz a magasabb prioritású szabályt részesíti előnyben.",
+        "add_rule_btn": "Szabály hozzáadása",
+        "any_not_allowed_with_multiple_ips": "Több IP-cím esetén a „Bármely” opció nem szerepelhet",
+        "add_acl_dialog_title": "ACL-szabály hozzáadása",
+        "edit_acl_dialog_title": "ACL-szabály módosítása",
+        "name_already_exist_msg": "A név már létezik.",
+        "accept_label": "Elfogadás",
+        "drop_label": "Tiltás",
+        "reject_label": "Elutasítás",
+        "any_label": "Bármely",
+        "source_port_label": "Forrásport",
+        "add_new_btn": "Új hozzáadása"
+    },
+    "menu_acl": "ACL"
 }
