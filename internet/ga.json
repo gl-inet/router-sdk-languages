@@ -675,5 +675,30 @@
         "no_wan_tips": "Úsáideadh {silkprint} mar LAN (Líonra Ceantair Áitiúil). Is féidir leat é a shocrú ar ais go WAN (Líonra Ceantair Leathan) i {view}",
         "subnet_conflict_tips": "Tá coimhlint idir an fho-líonra IP WAN reatha agus fo-líonra atá ann cheana féin. Úsáid {subnet} nó coigeartaigh cumraíocht an líonra suas an srutha le do thoil.",
         "modify_subnet_range": "modhnaigh an raon fo-líonra"
-    }
+    },
+    "acl": {
+        "match_label": "Meaitseáil",
+        "name_label": "Ainm",
+        "ip_type_label": "Cineál IP",
+        "souce_zoon_label": "Crios Foinse",
+        "source_address_label": "Seoladh foinse",
+        "source_port_label": "Port Foinse",
+        "dest_zone_label": "Crios Ceann Scríbe",
+        "action_label": "Gníomh",
+        "dest_address_label": "Seoladh Ceann Scríbe",
+        "dest_port_label": "Port ceann scríbe",
+        "add_rule_btn": "Cuir riail leis",
+        "any_not_allowed_with_multiple_ips": "Nuair atá ilseoltaí IP ann, ní féidir an rogha 'Any' a chur san áireamh",
+        "add_acl_dialog_title": "Cuir riail ACL leis",
+        "edit_acl_dialog_title": "Mionathraigh riail ACL",
+        "name_already_exist_msg": "Tá an t-ainm ann cheana.",
+        "accept_label": "Glac",
+        "drop_label": "Blocáil",
+        "reject_label": "Diúltaigh",
+        "any_label": "Ar bith",
+        "protocol_label": "Prótacal",
+        "acl_desc": "Is féidir le {acl} trácht líonra a rialú bunaithe ar rialacha amhail prótacal, seoladh IP ceann scríbe, seoladh IP foinse, agus uimhir phoirt. Má bhíonn coinbhleacht idir dhá riail {acl} chumasaithe, tabharfaidh an gléas tosaíocht don riail a bhfuil tosaíocht níos airde aici.",
+        "add_new_btn": "Cuir ceann nua leis"
+    },
+    "menu_acl": "ACL"
 }
