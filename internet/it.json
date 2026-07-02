@@ -675,5 +675,30 @@
         "no_wan_tips": "{silkprint} è stato utilizzato come LAN (Local Area Network). Puoi reimpostarlo su WAN (Wide Area Network) in {view}",
         "subnet_conflict_tips": "L'attuale sottorete IP WAN è in conflitto con una sottorete esistente. Si prega di {subnet} o di regolare la configurazione di rete upstream.",
         "modify_subnet_range": "modificare l'intervallo di sottorete"
-    }
+    },
+    "acl": {
+        "name_label": "Nome",
+        "ip_type_label": "Tipo IP",
+        "source_address_label": "Indirizzo di origine",
+        "source_port_label": "Porta di origine",
+        "dest_zone_label": "Zona di destinazione",
+        "action_label": "Azione",
+        "dest_address_label": "Indirizzo di destinazione",
+        "dest_port_label": "Porta di destinazione",
+        "any_not_allowed_with_multiple_ips": "Quando sono presenti più indirizzi IP, l'opzione \"Qualsiasi\" non può essere inclusa",
+        "add_acl_dialog_title": "Aggiungi una regola ACL",
+        "edit_acl_dialog_title": "Modifica regola ACL",
+        "accept_label": "Accetta",
+        "drop_label": "Blocca",
+        "reject_label": "Rifiuta",
+        "add_new_btn": "Aggiungi nuovo",
+        "protocol_label": "Protocollo",
+        "match_label": "Corrispondenza",
+        "souce_zoon_label": "Zona di origine",
+        "acl_desc": "{acl} può controllare il traffico di rete in base a regole come protocollo, indirizzo IP di destinazione, indirizzo IP di origine e numero di porta. In caso di conflitto tra due regole {acl} abilitate, il dispositivo darà priorità alla regola con priorità più alta.",
+        "add_rule_btn": "Aggiungi regola",
+        "name_already_exist_msg": "Il nome esiste già.",
+        "any_label": "Qualsiasi"
+    },
+    "menu_acl": "ACL"
 }
