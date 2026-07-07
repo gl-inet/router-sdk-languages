@@ -80,6 +80,7 @@
         "switch_to_vpn_dns_splitting_tips": "{switch} in den VPN-DNS-Splitting-Modus.",
         "no_vpn_tunnel_available_tips": "Es ist kein VPN-Tunnel verfügbar. Bitte gehen Sie zu den {vpn}-Einstellungen.",
         "manual_overrides_vpn_tips": "Da „Manuelles DNS auf VPN-Tunnel anwenden“ aktiviert ist, wird das VPN-DNS nicht verwendet.",
-        "manual_local_dns_tips": "Nach der Aktivierung verwenden die integrierten Dienste des Routers (z. B. GoodCloud) die benutzerdefinierten manuellen DNS-Einstellungen."
+        "manual_local_dns_tips": "Nach der Aktivierung verwenden die integrierten Dienste des Routers (z. B. GoodCloud) die benutzerdefinierten manuellen DNS-Einstellungen.",
+        "manual_dns_override_vpn_tips": "Wenn aktiviert, wird für Pakete durch den VPN-Tunnel der benutzerdefinierte manuelle DNS anstelle der DNS-Einstellungen des VPN verwendet."
     }
 }
