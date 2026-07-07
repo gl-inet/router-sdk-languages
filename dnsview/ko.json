@@ -80,6 +80,7 @@
         "switch_to_vpn_dns_splitting_tips": "VPN DNS 분할 모드로 {switch}하세요.",
         "no_vpn_tunnel_available_tips": "사용 가능한 VPN 터널이 없습니다. {vpn} 설정으로 이동하세요.",
         "manual_overrides_vpn_tips": "VPN 터널에 수동 DNS 적용이 활성화되어 있으므로 VPN DNS는 사용되지 않습니다.",
-        "manual_local_dns_tips": "활성화하면 라우터의 내장 서비스(예: GoodCloud)에 사용자 지정 수동 DNS 설정이 적용됩니다."
+        "manual_local_dns_tips": "활성화하면 라우터의 내장 서비스(예: GoodCloud)에 사용자 지정 수동 DNS 설정이 적용됩니다.",
+        "manual_dns_override_vpn_tips": "활성화하면 VPN 터널을 통과하는 패킷에 VPN의 DNS 설정 대신 사용자 지정 수동 DNS가 사용됩니다."
     }
 }
