@@ -80,6 +80,7 @@
         "switch_to_vpn_dns_splitting_tips": "{switch} naar de VPN-DNS-splitsingsmodus.",
         "no_vpn_tunnel_available_tips": "Er is geen VPN-tunnel beschikbaar. Ga naar de {vpn}-instellingen.",
         "manual_overrides_vpn_tips": "De VPN-DNS wordt niet gebruikt, omdat Handmatige DNS toepassen op VPN-tunnels is ingeschakeld.",
-        "manual_local_dns_tips": "Zodra ingeschakeld, passen de ingebouwde services van de router (zoals GoodCloud) de aangepaste handmatige DNS-instellingen toe."
+        "manual_local_dns_tips": "Zodra ingeschakeld, passen de ingebouwde services van de router (zoals GoodCloud) de aangepaste handmatige DNS-instellingen toe.",
+        "manual_dns_override_vpn_tips": "Indien ingeschakeld, wordt aangepaste handmatige DNS gebruikt voor pakketten via de VPN-tunnel in plaats van de DNS-instellingen van de VPN."
     }
 }
