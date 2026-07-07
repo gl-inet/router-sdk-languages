@@ -80,6 +80,7 @@
         "switch_to_vpn_dns_splitting_tips": "{switch} į „VPN“ DNS skaidymo veikseną.",
         "no_vpn_tunnel_available_tips": "Nėra pasiekiamo VPN tunelio. Eikite į {vpn} nustatymus.",
         "manual_overrides_vpn_tips": "„VPN“ DNS nebus naudojamas, nes įjungta parinktis Taikyti rankinį DNS „VPN“ tuneliams.",
-        "manual_local_dns_tips": "Įjungus, maršrutizatoriaus integruotos paslaugos (pvz., „GoodCloud“) taikys pasirinktinius rankinius DNS nustatymus."
+        "manual_local_dns_tips": "Įjungus, maršrutizatoriaus integruotos paslaugos (pvz., „GoodCloud“) taikys pasirinktinius rankinius DNS nustatymus.",
+        "manual_dns_override_vpn_tips": "Jei įjungta, paketams per „VPN“ tunelį vietoje „VPN“ DNS nustatymų bus naudojamas pasirinktinis rankinis DNS."
     }
 }
