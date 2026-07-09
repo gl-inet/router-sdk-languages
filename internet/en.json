@@ -325,7 +325,8 @@
         "scan_nearby_towers_tips": "Scan for nearby towers. This process takes approximately 120 seconds.",
         "scan_available_carriers_tips": "Scan for available carriers. This process takes approximately 120 seconds.",
         "band_masking_title": "Band Masking",
-        "minutes_value_label": "{count}mins"
+        "minutes_value_label": "{count}mins",
+        "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
