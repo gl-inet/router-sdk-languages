@@ -325,7 +325,8 @@
         "scan_nearby_towers_tips": "Recherche des antennes à proximité. Ce processus prend environ 120 secondes.",
         "scan_available_carriers_tips": "Recherche des opérateurs disponibles. Ce processus prend environ 120 secondes.",
         "band_masking_title": "Masquage de bande",
-        "minutes_value_label": "{count} min"
+        "minutes_value_label": "{count} min",
+        "network_type_conflicts_tips": "Le type de réseau de la carte SIM actuelle est {networkType}, ce qui est en conflit avec le type de réseau de {feature}."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
