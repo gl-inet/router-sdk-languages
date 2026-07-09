@@ -341,7 +341,7 @@
         "expressvpn_custom_get_started_btn": "立即开始",
         "expressvpn_custom_get_started_tip": "立即同意，您仍可稍后手动添加 VPN 配置文件。",
         "expressvpn_custom_redeem_title": "兑换 GL.iNet x ExpressVPN 套餐",
-        "expressvpn_custom_redeem_desc": "此联名路由器可兑换一份免费的 12 个月 ExpressVPN 套餐。GL.iNet Cloud 首先验证此硬件和订单资格，然后 ExpressVPN 在您的浏览器中完成促销结算。",
+        "expressvpn_custom_redeem_desc": "此联名路由器可兑换一个随附的12个月ExpressVPN套餐（适用于新账户或没有有效订阅的账户）。GL.iNet Cloud首先验证此硬件和订单资格，然后ExpressVPN在您的浏览器中完成促销结算。",
         "expressvpn_custom_promo_title": "提供免费 12 个月套餐",
         "expressvpn_custom_order_id_label": "订单号",
         "expressvpn_custom_login_without_activation": "无需激活直接登录",
@@ -356,7 +356,7 @@
         "expressvpn_custom_signin_title": "登录 ExpressVPN",
         "expressvpn_custom_dashboard_redeemed_title": "12 个月套餐已兑换",
         "expressvpn_custom_redeemed_prompt_title": "登录",
-        "expressvpn_custom_redeemed_prompt_desc": "本路由器的免费 12 个月套餐已兑换并添加至 ExpressVPN 账户。",
+        "expressvpn_custom_redeemed_prompt_desc": "此路由器附带的12个月套餐已被兑换并添加到ExpressVPN账户中。",
         "expressvpn_custom_redeemed_already_title": "12 个月套餐已兑换",
         "expressvpn_custom_redeemed_claimed_time": "绑定时间",
         "expressvpn_custom_redeemed_action_desc": "使用绑定账户登录以保持订阅有效，或使用其他 ExpressVPN 账户继续管理此路由器上的 VPN。",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_login_desc_line1": "恭喜！您已成功领取 12 个月套餐。请登录您的账户。",
         "expressvpn_custom_redeemed_login_desc_line2": "登录后，您即可在路由器上使用所有服务。",
         "expressvpn_custom_signin_new_tab_tip": "将打开一个新标签页，跳转至 ExpressVPN 的安全登录页面。",
-        "expressvpn_custom_order_placeholder": "例如113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "例如113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "领取 12 个月套餐",
+        "expressvpn_custom_purchase_source_label": "购买来源",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_label": "订单邮箱",
+        "expressvpn_custom_order_email_placeholder": "用于您的 GL.iNet Store 订单的邮箱",
+        "expressvpn_custom_checkout_opened": "ExpressVPN 结账页面已在新标签页中打开。",
+        "expressvpn_custom_claim_dialog_desc": "请输入购买路由器时的凭据。您将在 ExpressVPN 完成领取，然后返回此处授权此路由器。",
+        "expressvpn_custom_credentials_error": "验证失败。凭据无效或已激活，无法重复使用。",
+        "expressvpn_custom_glinet_order_placeholder": "例如 GL-1234",
+        "number_allowed_devices_label": "允许的设备数量",
+        "wg_xvpn_limit_tips": "该账号已达到关联设备数量上限。请前往 {provider} 解绑一台设备。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
@@ -428,7 +440,13 @@
         "expressvpn_no_subscription_msg": "此账户未找到有效的ExpressVPN订阅。",
         "expressvpn_business_msg": "ExpressVPN请求被拒绝。请检查账户或设备状态。",
         "expressvpn_device_config_msg": "设备配置缺失。请联系支持。",
-        "expressvpn_internal_msg": "ExpressVPN服务错误。请稍后重试。"
+        "expressvpn_internal_msg": "ExpressVPN服务错误。请稍后重试。",
+        "premium_account_required_msg": "需要高级订阅。请续订您的许可证。",
+        "provider_token_invalid_msg": "令牌无效。请重新登录以恢复连接。",
+        "credentials_changed_msg": "您的凭据已更改。请重新登录。",
+        "account_disabled_msg": "您的账号已被停用。请联系 XVPN 支持。",
+        "device_token_expired_msg": "令牌无效。请重新登录以恢复连接。",
+        "device_bind_failed_msg": "无法将此路由器绑定到您的账号。请检查网络连接并重试。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "将客户端添加到VPN策略基础的隧道列表中。如果您想对隧道进行更详细的更改，请前往{page}管理隧道。",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "如需管理隧道，请访问{page}。",
         "remove_config_btn": "删除配置",
         "reomving_config_warning_tips": "您确定要删除吗？",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 与 {interface} 冲突。"
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 与 {interface} 冲突。",
+        "groups_expressvpn_desc": "更喜欢使用 {custom}？创建新组以添加您的配置文件。",
+        "two_factor_authentication_title": "双重身份验证",
+        "two_factor_authentication_desc": "请输入身份验证器应用中的 6 位 OTP 代码以完成登录。",
+        "two_factor_verifying_tips": "正在验证，请稍候...",
+        "two_factor_verification_failed_tips": "验证失败。请确保输入正确的代码。",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "兼容",

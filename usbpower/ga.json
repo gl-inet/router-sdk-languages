@@ -1,31 +1,31 @@
 {
-    "usb": {
-        "power_direction_label": "Treo Cumhachta",
-        "power_threshold_label": "Tairseach Cumhachta",
-        "ask_me_label": "Fiafraigh Díom",
-        "tethring_label": "Gléas (Teaghráil USB)",
-        "usb_host_label": "Óstach (USB OTG)",
-        "input_label": "Tosaíocht Ionchuir",
-        "protocol_label": "Lasc Prótacail USB",
-        "usb_mode_label": "Mód USB Dúbailte Ról",
-        "output_label": "Tosaíocht Aschuir",
-        "interface_tips": "Ní bhaineann socruithe USB ach leis an gcalafort sonraí agus ní dhéanann siad difear don chalafort cumhachta amháin.",
-        "ask_me_tips": "Spreag gach uair (ná cuir ról i bhfeidhm)",
-        "usb_host_tips": "Feidhmíonn mar Óstach USB (glacann sé le Forimeallaigh USB comhoiriúnacha)",
-        "usb_tethering_tips": "Feidhmíonn mar Ghléas Teaghrán USB (cuireann sé i láthair mar oiriúntóir líonra USB d'óstach)",
-        "power_power_direction_label": "Treo Cumhachta (Port Cumhachta)",
-        "power_data_direction_label": "Treo na Cumhachta (Port Sonraí)",
-        "power_threshold_tips": "Íostairseach ceallraí le haghaidh aschur cumhachta seachtrach (ní bheidh gléasanna USB ar fáil faoi bhun an leibhéil seo)"
-    },
-    "power": {
-        "ethernet_idle_timeout_label": "Am Teorann Díomhaoin Ethernet",
-        "power_off_timeout_label": "Am Teorann Cumhachta Múchta",
-        "auto_system_standby_label": "Fuireachas Córas Uathoibríoch",
-        "auto_system_standby_tips": "Nuair a bheidh sé cumasaithe, má tá Ethernet, Wi-Fi agus Athsheoltóir díomhaoin, agus mura bhfuil aon ghléas USB ceangailte, rachaidh an gléas isteach i mód fuireachais an chórais, rachaidh Cellular isteach i mód ísealchumhachta, agus tosóidh an comhaireamh síos múchta.",
-        "never_label": "riamh",
-        "power_title": "Cumhacht",
-        "wifi_sleep_time_label": "Am Teorann Díomhaoin Wi-Fi",
-        "power_charger_label": "Cumhachtaigh Air leis an Luchtaire"
-    },
-    "menu_usbpower": "USB & Cumhacht"
+  "usb": {
+    "power_direction_label": "Treo Cumhachta",
+    "power_threshold_label": "Tairseach Cumhachta",
+    "ask_me_label": "Fiafraigh Díom",
+    "tethring_label": "Gléas (Teaghráil USB)",
+    "usb_host_label": "Óstach (USB OTG)",
+    "input_label": "Tosaíocht Ionchuir",
+    "protocol_label": "Lasc Prótacail USB",
+    "usb_mode_label": "Mód USB Dúbailte Ról",
+    "output_label": "Tosaíocht Aschuir",
+    "interface_tips": "Ní bhaineann socruithe USB ach leis an gcalafort sonraí agus ní dhéanann siad difear don chalafort cumhachta amháin.",
+    "ask_me_tips": "Spreag gach uair (ná cuir ról i bhfeidhm)",
+    "usb_host_tips": "Feidhmíonn mar Óstach USB (glacann sé le Forimeallaigh USB comhoiriúnacha)",
+    "usb_tethering_tips": "Feidhmíonn mar Ghléas Teaghrán USB (cuireann sé i láthair mar oiriúntóir líonra USB d'óstach)",
+    "power_power_direction_label": "Treo Cumhachta (Port Cumhachta)",
+    "power_data_direction_label": "Treo na Cumhachta (Port Sonraí)",
+    "power_threshold_tips": "Íostairseach ceallraí le haghaidh aschur cumhachta seachtrach (ní bheidh gléasanna USB ar fáil faoi bhun an leibhéil seo)"
+  },
+  "power": {
+    "ethernet_idle_timeout_label": "Am Teorann Díomhaoin Ethernet",
+    "power_off_timeout_label": "Am Teorann Cumhachta Múchta",
+    "auto_system_standby_label": "Fuireachas Córas Uathoibríoch",
+    "auto_system_standby_tips": "Nuair a bheidh sé cumasaithe, má tá Ethernet, Wi-Fi agus Athsheoltóir díomhaoin, agus mura bhfuil aon ghléas USB ceangailte, rachaidh an gléas isteach i mód fuireachais an chórais, rachaidh Cellular isteach i mód ísealchumhachta, agus tosóidh an comhaireamh síos múchta.",
+    "never_label": "riamh",
+    "power_title": "Cumhacht",
+    "wifi_sleep_time_label": "Am Teorann Díomhaoin Wi-Fi",
+    "power_charger_label": "Cumhachtaigh Air leis an Luchtaire"
+  },
+  "menu_usbpower": "USB & Cumhacht"
 }

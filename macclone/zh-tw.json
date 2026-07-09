@@ -1,15 +1,15 @@
 {
-    "macclone": {
-        "desc": "當你連接到公共網路時（如酒店或商場提供的網路），若你不希望網路管理員知道你真實的 MAC 地址或並根據 MAC 地址對你進行上網限制，請使用隨機 MAC 地址。",
-        "tips": "如果您所在的酒店或其它商業場所的網路需要認證，您可能會需要使用 MAC 複製。",
-        "mode_label": "模式",
-        "factory_default_label": "出廠默認",
-        "clone_label": "克隆",
-        "manual_label": "手動",
-        "random_btn": "隨機",
-        "current_client_label": "當前用戶",
-        "no_mac_tips": "接口使能時生成",
-        "current_interface_as_lan_tips": "WAN 埠目前用作 LAN 埠使用，配置僅在其恢復為 WAN 埠後生效。"
-    },
-    "menu_macclone": "MAC地址"
+  "macclone": {
+    "desc": "當你連接到公共網路時（如酒店或商場提供的網路），若你不希望網路管理員知道你真實的 MAC 地址或並根據 MAC 地址對你進行上網限制，請使用隨機 MAC 地址。",
+    "tips": "如果您所在的酒店或其它商業場所的網路需要認證，您可能會需要使用 MAC 複製。",
+    "mode_label": "模式",
+    "factory_default_label": "出廠默認",
+    "clone_label": "克隆",
+    "manual_label": "手動",
+    "random_btn": "隨機",
+    "current_client_label": "當前用戶",
+    "no_mac_tips": "接口使能時生成",
+    "current_interface_as_lan_tips": "WAN 埠目前用作 LAN 埠使用，配置僅在其恢復為 WAN 埠後生效。"
+  },
+  "menu_macclone": "MAC地址"
 }

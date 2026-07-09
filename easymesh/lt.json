@@ -1,6 +1,6 @@
 {
     "easymesh": {
-        "please_select_mode_label": "Pasirinkite EasyMesh veikseną",
+        "please_select_mode_label": "Pasirinkite „EasyMesh“ veikseną",
         "controller_label": "Valdiklis",
         "internet_label": "Internetas",
         "agent_label": "Agentas",
@@ -8,8 +8,8 @@
         "controller_mode_tips": "Pridėkite agentus, kad išplėstumėte „Wi‑Fi“ aprėptį ir centralizuotai tvarkytumėte visus agentus.",
         "agent_mode_one_tips": "Prisijunkite prie esamo EasyMesh tinklo, kad išplėstumėte Valdiklio „Wi-Fi“ aprėptį.",
         "agent_mode_two_tips": "Prisijungus, šis įrenginys automatiškai gaus IP adresą iš Valdiklio. Norėdami vėl pasiekti šią žiniatinklio sąsają, naudokite priskirtą IP adresą.",
-        "reset_mode_two_tips": "Visi dabartiniai EasyMesh nustatymai bus išvalyti ir juos reikės sukonfigūruoti iš naujo.",
-        "scan_nearby_agents_label": "Nuskaityti artimiausius agentus",
+        "reset_mode_two_tips": "Visi dabartiniai „EasyMesh“ nustatymai bus išvalyti ir juos reikės sukonfigūruoti iš naujo.",
+        "scan_nearby_agents_label": "Nuskaityti artimus agentus",
         "scan_nearby_agents_tips": "Ieškokite šalia esančių junglusiųjų agentų, kurie yra įjungti ir pasirengę prisijungti, kad galėtumėte juos pridėti prie savo junglausio tinklo.",
         "add_with_pairing_code_tips": "Gaukite suporavimo kodą šiame valdiklyje, tada įveskite jį agente, kad prisijungtumėte prie šio valdiklio junglausio tinklo.",
         "all_select_no_firmware_tips": "Visi pasirinkti įrenginiai veikia su naujausia programine įranga.",
@@ -64,7 +64,6 @@
         "prepare_your_devices_label": "Paruoškite savo GL.iNet įrenginius:",
         "prepare_your_devices_two_tips": "2. Įjunkite įrenginius šalia pagrindinio maršrutizatoriaus.",
         "prepare_your_devices_one_tips": "1. Įsitikinkite, kad jūsų įrenginiai palaiko AstroMesh. Gali tekti atnaujinti ankstesnių modelių programinę įrangą.",
-        "prepare_your_devices_three_tips": "3. Perjunkite juos į Mesh/Astro mazgo veikseną.",
         "no_devices_detected_tips": "Nerasta jokių AstroMesh tinklo mazgų.",
         "ensure_easyMesh_supported_tips": "Užtikrinkite, kad AstroMesh yra palaikoma ir įjungta, ir prireikus priartinkite įrenginį prie pagrindinio maršrutizatoriaus.",
         "add_device_success_tips": "Šis įrenginys buvo sėkmingai pridėtas.",
@@ -88,7 +87,7 @@
         "exit_mesh_network_btn": "Išeiti iš Junglusio Tinklo",
         "pairing_code_title": "Suporavimo kodas",
         "add_device_operation_two_tips": "Naujam įrenginiui gali prireikti šiek tiek laiko, kol jis pasirodys topologijoje.",
-        "controller_tips": "Prisijungia prie interneto ir tvarko visus Agentų įrenginius.",
+        "controller_tips": "Prisijungia prie interneto ir tvarko visus agentų įrenginius.",
         "download_fail_label": "Atsisiuntimas nepavyko",
         "remove_device_tips": "Ar tikrai norite pašalinti šį įrenginį?",
         "make_sure_the_pairing_code_tips": "Įsitikinkite, kad poravimo kodas yra teisingas, arba pabandykite priartinti šį įrenginį prie Pagrindinio maršrutizatoriaus.",
@@ -98,7 +97,7 @@
         "enter_pairing_code_label": "Įveskite poravimo kodą iš pagrindinio maršrutizatoriaus.",
         "waiting_status_label": "Laukiama...",
         "add_agents_btn": "Pridėti",
-        "reset_mode_one_tips": "Ar tikrai norite grąžinti EasyMesh veikseną į pradinę padėtį?",
+        "reset_mode_one_tips": "Ar tikrai norite grąžinti „EasyMesh“ veikseną į pradinę padėtį?",
         "disconnect_wan_tips": "Norint išvengti problemų, atjunkite WAN laidą.",
         "wan_cable_detected_tips": "Aptiktas WAN laidas.",
         "switch_agent_mode_conflicts_router_tips": "Pereinant į Agent veikseną, WAN prievadas bus paverstas į LAN, o tai gali sukelti tinklo konfliktus su jūsų išsiunčiamuoju maršrutizatoriumi.",
@@ -108,7 +107,7 @@
         "main_router_tips": "Šis veiksena prisijungia prie interneto ir valdo visus junglumo mazgus. Jis veikia kaip išėjimo mazgas visiems nuotoliniams Astro mazgams.",
         "mesh_astro_node_label": "Junglusis/Astro mazgas",
         "mesh_node_tips": "{meshNode}: ši veiksena vietiniu būdu išplečia pagrindinio maršrutizatoriaus „Wi-Fi“ aprėptį naudojant EasyMesh.",
-        "astro_node_tips": "{astroNode}: ši veiksena išplečia namų tinklą į nuotolines vietas naudojant AstroWarp.",
+        "astro_node_tips": "{astroNode}: ši veiksena išplečia namų tinklą į nuotolines vietoves.",
         "mesh_node_label": "Junglusis tinklo mazgas",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "Pasirinkite šio maršrutizatoriaus veikseną",
@@ -120,7 +119,7 @@
         "this_router_mode_title": "Šio maršrutizatoriaus veiksena: {mode}",
         "astro_node_switch": "Astro Tinklo Mazgo Komutatorius",
         "allow_astro_node_tips": "Astro mazgai šiuo metu turi prieigą prie jūsų namų tinklo per šį pagrindinį maršrutizatorių, naudodami jį kaip išėjimo mazgą.",
-        "mesh_node_only_label": "Tik Junglusis/Tankusis mazgas",
+        "mesh_node_only_label": "Vietinis junglusis tinklo mazgas",
         "allow_astro_node_label": "Leisti Astro mazgą",
         "allow_astro_node_desc": "Ši veiksena leidžia jūsų Astro mazgams prisijungti prie namų tinklo ir naudoti jį kaip išėjimo mazgą. Tačiau tinklavimo funkcijos, tokios kaip Tailscale ir ZeroTier, šioje veiksenoje nėra prieinamos.",
         "mesh_node_only_desc": "Šiuo veiksena visi Astro mazgai negali prisijungti prie jūsų namų tinklo. Vis tiek galite naudoti Junglusių mazgų su AstroMesh. Be to, galite naudoti kitas tinklavimo funkcijas, pvz., Tailscale ir ZeroTier.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Visi dabartiniai AstroMesh nustatymai bus išvalyti, o tinklo mazgai bus grąžinti į gamyklinius nustatymus.",
         "aw_pending_tips": "Negalima prisijungti prie pagrindinio maršrutizatoriaus, o „AstroMesh“ tinklas šiuo metu nepasiekiamas. Patikrinkite pagrindinio maršrutizatoriaus tinklo ryšio būseną.",
         "cloud_service_not_working_tips": "Debesų paslauga neveikia tinkamai, todėl Astro mazgai gali būti neprijungti. Prašome patikrinti tinklo ryšio būklę.",
-        "net_conflict_tips": "Dabartinis LAN potinklis konfliktuoja su jūsų pagrindinio maršrutizatoriaus potinkliu. Pakeiskite LAN tinklą į kitą potinklį.",
-        "joined_other_tips": "Tinklo mazgas {node} jau pridėtas prie jūsų AstroWarp tinklo. Norėdami tęsti, pašalinkite jo nustatymus iš AstroWarp debesijos.",
+        "joined_other_tips": "Tinklo mazgas {node} jau pridėtas prie jūsų AstroLink tinklo. Norėdami tęsti, pašalinkite jo nustatymus iš AstroLink debesijos.",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi šiuo metu yra išjungtas, todėl negalima pridėti jungliųjų/astro mazgų.",
         "please_enter_pairing_code_tips": "Prašome įvesti šį poravimo kodą į {mode}.",
         "using_pairing_code_label": "Naudojant {mode} poravimo kodą",
-        "astro_node_conflicts_with_feature_tips": "Astro Node konfliktuoja su jūsų {feature} nustatymais. Išjunkite {feature}, kad tęstumėte, arba naudokite tik jungliojo mazgo veikseną.",
+        "astro_node_conflicts_with_feature_tips": "Astro mazgas konfliktuoja su jūsų {feature} nustatymais. Išjunkite {feature}, kad tęstumėte, arba naudokite tik vietinio jungliojo mazgo veikseną.",
         "get_pairing_code_failed_msg": "Nepavyko gauti poravimo kodo. Bandykite dar kartą vėliau.",
         "get_pairing_code_failed_check_cloud_msg": "Nepavyko gauti poravimo kodo. Patikrinkite savo debesijos ryšį ir bandykite dar kartą vėliau.",
-        "joined_failed_tips": "Nepavyko įjungti Astro funkcijos {node}. Patikrinkite debesijos ryšį ir bandykite dar kartą vėliau.",
-        "enabled_astrowrap_tips": "AstroWrap šiuo metu yra aktyvus, o tai konfliktuoja su {feature}. Prašome grąžinti AstroWrap tinklą į pradinę padėtį, kad tęstumėte."
+        "joined_failed_tips": "Nepavyko įjungti Astro funkcijos {node}. Įsitikinkite, kad tinklo mazgas yra prijungtas prie debesies, tada bandykite dar kartą.",
+        "net_conflict_tips": "Dabartinis vietinio tinklo („LAN“) potinklis konfliktuoja su jūsų pagrindinio maršrutizatoriaus potinkliu. {changeLan} į kitą potinklį, pvz., 192.168.18.1.",
+        "change_lanip_address": "keisti LAN IP adresą",
+        "prepare_your_devices_three_tips": "3. Perjunkite juos į {node} veikseną.",
+        "set_astro_mesh_to_local_only_tips": "Konfliktai su AstroMesh. Norėdami tęsti, nustatykite „AstroMesh“ į „Local Mesh Node Only“.",
+        "change_to": "Maršrutizatoriaus IP adresas sėkmingai pakeistas į",
+        "enabled_astrowrap_tips": "AstroLink šiuo metu yra aktyvus, o tai konfliktuoja su {feature}. Norėdami tęsti, grąžinkite AstroLink tinklą į pradinę būseną."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Susiejimas pavyko. Jungiamasi...",
         "main_router_exit_node_all_traffic_tips": "Prisijungus, Pagrindinis maršrutizatorius veiks kaip išėjimo mazgas, nukreipdamas visą srautą per savo namų tinklą."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Grąžinti į pradinę padėtį"
+    }
 }

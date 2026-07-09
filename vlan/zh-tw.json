@@ -106,7 +106,8 @@
         "err_display_name_max_length": "名稱必須在32個字元以內。",
         "hostname_tips": "2-63 個字元。僅允許字母、數字或連字號。必須以字母或數字開頭和結尾，且不能僅由數字組成。",
         "not_asscess_tips": "目前 {name} 無法存取網段 {net}。",
-        "err_vlan_id_must_be_integer": "VLAN ID 必須是整數。"
+        "err_vlan_id_must_be_integer": "VLAN ID 必須是整數。",
+        "ip_conflicts_with_interface_ip": "IP 位址與目前子網路的介面 IP 衝突。"
     },
     "menu_vlan": "子網",
     "menu_guestip": "訪客網路",

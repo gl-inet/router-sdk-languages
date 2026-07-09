@@ -341,7 +341,7 @@
         "expressvpn_custom_get_started_btn": "Pradėti sąranką",
         "expressvpn_custom_get_started_tip": "Sutikite dabar, vėliau vis tiek galėsite rankiniu būdu pridėti VPN profilius.",
         "expressvpn_custom_redeem_title": "Išsipirkite GL.iNet x ExpressVPN planą",
-        "expressvpn_custom_redeem_desc": "Šis bendro prekės ženklo maršrutizatorius gali išsipirkti vieną nemokamą 12 mėnesių ExpressVPN planą. GL.iNet Cloud pirmiausia patikrina šią įrangą ir užsakymo tinkamumą, tada ExpressVPN užbaigia reklaminį atsiskaitymą jūsų naršyklėje.",
+        "expressvpn_custom_redeem_desc": "Šis bendro prekės ženklo maršrutizatorius gali išpirkti vieną įtrauktą 12 mėnesių ExpressVPN planą (taikoma naujoms paskyroms arba paskyroms be aktyvios prenumeratos). GL.iNet Cloud pirmiausia patikrina šios aparatinės įrangos ir užsakymo tinkamumą, tada ExpressVPN užbaigia reklaminį atsiskaitymą jūsų naršyklėje.",
         "expressvpn_custom_order_id_label": "Užsakymo ID",
         "expressvpn_custom_login_without_activation": "Prisijungti be aktyvacijos",
         "expressvpn_custom_promo_desc_order": "Naudokite savo užsakymo ID, užbaikite ExpressVPN atsiskaitymą, tada autorizuokite šį maršrutizatorių.",
@@ -355,7 +355,7 @@
         "expressvpn_custom_signin_title": "Prisijungti prie ExpressVPN",
         "expressvpn_custom_dashboard_redeemed_title": "12 mėnesių planas išpirktas",
         "expressvpn_custom_redeemed_prompt_title": "Prisijungimas",
-        "expressvpn_custom_redeemed_prompt_desc": "Šio maršrutizatoriaus nemokamas 12 mėnesių planas buvo išpirktas ir pridėtas prie ExpressVPN paskyros.",
+        "expressvpn_custom_redeemed_prompt_desc": "Šio maršrutizatoriaus įtrauktas 12 mėnesių planas buvo išpirktas ir pridėtas prie ExpressVPN paskyros.",
         "expressvpn_custom_redeemed_already_title": "12 mėnesių planas jau išpirktas",
         "expressvpn_custom_redeemed_claimed_by": "Susieta paskyra",
         "expressvpn_custom_redeemed_claimed_time": "Susiejimo laikas",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_login_desc_line1": "Sveikiname! Sėkmingai gavote 12 mėnesių planą. Prisijunkite prie savo paskyros.",
         "expressvpn_custom_redeemed_login_desc_line2": "Prisijungę galėsite naudotis visomis paslaugomis savo maršrutizatoriuje.",
         "expressvpn_custom_signin_new_tab_tip": "Naujame skirtuke bus atidarytas saugus ExpressVPN prisijungimo puslapis.",
-        "expressvpn_custom_order_placeholder": "pvz.113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "pvz.113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "Atsiimti 12 mėn. planą",
+        "expressvpn_custom_claim_dialog_desc": "Įveskite maršrutizatoriaus pirkimo kredencialus. Atsiėmimą užbaigsite ExpressVPN, tada grįžkite čia, kad autorizuotumėte šį maršrutizatorių.",
+        "expressvpn_custom_purchase_source_label": "Pirkimo šaltinis",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_placeholder": "El. paštas, naudotas jūsų GL.iNet Store užsakymui",
+        "expressvpn_custom_credentials_error": "Patvirtinimas nepavyko. Kredencialai negalioja arba jau aktyvuota; negalima naudoti pakartotinai.",
+        "expressvpn_custom_checkout_opened": "ExpressVPN atsiskaitymo puslapis atidarytas naujame skirtuke.",
+        "expressvpn_custom_order_email_label": "Užsakymo el. paštas",
+        "expressvpn_custom_glinet_order_placeholder": "pvz., GL-1234",
+        "number_allowed_devices_label": "Leistinų įrenginių skaičius",
+        "wg_xvpn_limit_tips": "Paskyra pasiekė maksimalų susietų įrenginių limitą. Eikite į {provider}, kad atsietumėte įrenginį."
     },
     "menu_wgserver": "„WireGuard“ serveris",
     "menu_ovpnserver": "„OpenVPN“ serveris",
@@ -428,7 +440,13 @@
         "expressvpn_no_subscription_msg": "Šiai paskyrai nerasta aktyvios ExpressVPN prenumeratos.",
         "expressvpn_business_msg": "ExpressVPN užklausa buvo atmesta. Patikrinkite paskyros arba įrenginio būseną.",
         "expressvpn_internal_msg": "ExpressVPN tarnybos klaida. Bandykite dar kartą vėliau.",
-        "expressvpn_device_config_msg": "Įrenginio konfigūracijos trūksta. Susisiekite su palaikymo tarnyba."
+        "expressvpn_device_config_msg": "Įrenginio konfigūracijos trūksta. Susisiekite su palaikymo tarnyba.",
+        "premium_account_required_msg": "Reikalinga „Premium“ prenumerata. Atnaujinkite savo licenciją.",
+        "provider_token_invalid_msg": "Žetonas negalioja. Prisijunkite dar kartą, kad atkurtumėte ryšį.",
+        "account_disabled_msg": "Jūsų paskyra buvo išaktyvinta. Susisiekite su XVPN palaikymo tarnyba.",
+        "device_token_expired_msg": "Žetonas negalioja. Prisijunkite dar kartą, kad atkurtumėte ryšį.",
+        "device_bind_failed_msg": "Nepavyko pririšti šio maršrutizatoriaus prie jūsų paskyros. Patikrinkite tinklo ryšį ir bandykite dar kartą.",
+        "credentials_changed_msg": "Jūsų prisijungimo duomenys buvo pakeisti. Prisijunkite dar kartą."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Pridėkite klientą į „VPN“ politikos pagrindu veikiančių tunelių sąrašą. Jei norite atlikti išsamesnius pakeitimus tuneliuose, prašome eiti į {page}, kad tvarkytumėte tunelius.",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "Norėdami tvarkyti tunelius, apsilankykite {page}.",
         "remove_config_btn": "Konfigūracijų trynimas",
         "reomving_config_warning_tips": "Ar tikrai norite ištrinti?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) konfliktuoja su {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) konfliktuoja su {interface}.",
+        "groups_expressvpn_desc": "Norite naudoti {custom}? Sukurkite naują grupę, kad pridėtumėte savo konfigūracijos failus.",
+        "two_factor_authentication_title": "Dviejų veiksnių autentifikavimas",
+        "two_factor_authentication_desc": "Įveskite 6 skaitmenų OTP kodą iš autentifikavimo programėlės, kad užbaigtumėte prisijungimą.",
+        "two_factor_verifying_tips": "Tikrinama, palaukite...",
+        "two_factor_verification_failed_tips": "Patvirtinti nepavyko. Įsitikinkite, kad įvedėte teisingą kodą.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Pasenusio/-s standarto/įrangos",

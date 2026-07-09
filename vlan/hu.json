@@ -106,7 +106,8 @@
         "err_display_name_max_length": "A név legfeljebb 32 karakter hosszú lehet.",
         "hostname_tips": "2–63 karakter. Csak betűk, számjegyek vagy kötőjelek engedélyezettek. Betűvel vagy számjegygel kell kezdődnie és végződnie, és nem állhat kizárólag számjegyekből.",
         "not_asscess_tips": "Jelenleg a {name} nem fér hozzá a {net} hálózati szegmensekhez.",
-        "err_vlan_id_must_be_integer": "A VLAN ID-nek egész számnak kell lennie."
+        "err_vlan_id_must_be_integer": "A VLAN ID-nek egész számnak kell lennie.",
+        "ip_conflicts_with_interface_ip": "Az IP-cím ütközik a jelenlegi alhálózat interfészének IP-címével."
     },
     "menu_vlan": "alhálózat",
     "menu_guestip": "Vendéghálózat",

@@ -67,7 +67,6 @@
         "add_easyMesh_devices_title": "GL.iNet AstroMesh Düğümü Ekle",
         "prepare_your_devices_two_tips": "2. Ana Yönlendiriciye yakın cihazları açın.",
         "prepare_your_devices_one_tips": "1. Cihazlarınızın AstroMesh'i desteklediğinden emin olun. Eski modeller için donanım yazılımını güncellemeniz gerekebilir.",
-        "prepare_your_devices_three_tips": "3. Bunları Mesh/Astro Düğüm moduna geçirin.",
         "no_devices_detected_tips": "AstroMesh Düğümü algılanmadı.",
         "ensure_easyMesh_supported_tips": "AstroMesh'in desteklendiğinden ve etkinleştirildiğinden emin olun ve gerekirse cihazı ana yönlendiriciye yaklaştırın.",
         "searching_easyMesh_agents_tips": "Yakındaki AstroMesh Düğümleri aranıyor...",
@@ -108,7 +107,7 @@
         "mesh_astro_node_label": "Mesh/Astro Düğümü",
         "main_router_tips": "Bu mod, internete bağlanır ve tüm Mesh Düğümlerini yönetir. Tüm uzak Astro Düğümleri için çıkış düğümü olarak hizmet verir.",
         "mesh_node_tips": "{meshNode}: bu mod, EasyMesh kullanarak Ana Yönlendiricinin Wi-Fi kapsama alanını yerel olarak genişletir.",
-        "astro_node_tips": "{astroNode}: Bu mod, AstroWarp kullanarak ev ağını uzak konumlara genişletir.",
+        "astro_node_tips": "{astroNode}: bu mod, ev ağını uzak konumlara genişletir.",
         "mesh_node_label": "Mesh Düğümü",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "Bu yönlendirici için modu seçin",
@@ -119,7 +118,7 @@
         "add_mesh_nodes_tips": "AstroMesh ağınıza mesh düğümleri ekleyin ve evde ve seyahat ederken Wi-Fi kapsama alanınızı genişletin.",
         "this_router_mode_title": "Bu Yönlendiricinin Modu: {mode}",
         "astro_node_switch": "Astro Node Anahtarı",
-        "mesh_node_only_label": "Yalnızca Mesh Düğümü",
+        "mesh_node_only_label": "Yalnızca Yerel Mesh Düğümü",
         "allow_astro_node_label": "Astro Düğümüne İzin Ver",
         "allow_astro_node_desc": "Bu mod, Astro Düğümlerinizin ev ağınıza bağlanmasına ve onu çıkış düğümü olarak kullanmasına olanak tanır. Ancak, Tailscale ve ZeroTier gibi ağ özellikleri bu modda kullanılamaz.",
         "mesh_node_only_desc": "Bu modda, tüm Astro Düğümleri ev ağınıza bağlanamaz. AstroMesh ile Mesh düğümlerini kullanmaya devam edebilirsiniz. Ayrıca Tailscale ve ZeroTier gibi diğer ağ özelliklerini de kullanabilirsiniz.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Tüm mevcut AstroMesh ayarları silinecek ve Mesh Düğümleri fabrika ayarlarına sıfırlanacaktır.",
         "aw_pending_tips": "Ana yönlendiricinize bağlanılamıyor ve AstroMesh ağı şu anda kullanılamıyor. Lütfen ana yönlendiricinin ağ bağlantı durumunu kontrol edin.",
         "cloud_service_not_working_tips": "Bulut hizmeti düzgün çalışmıyor ve Astro düğümleri bağlı olmayabilir. Lütfen ağ bağlantı durumunu kontrol edin.",
-        "net_conflict_tips": "Mevcut LAN alt ağı, Ana Yönlendiricinizinkiyle çakışıyor. Lütfen LAN ağını başka bir alt ağ ile değiştirin.",
-        "joined_other_tips": "{node} zaten AstroWarp ağınıza eklenmiş. Devam etmek için ayarlarını AstroWarp Cloud'dan kaldırın.",
+        "joined_other_tips": "{node} zaten AstroLink ağınıza eklenmiş. Devam etmek için ayarlarını AstroLink Cloud'dan kaldırın.",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi şu anda devre dışı, bu nedenle mesh/astro düğümleri eklemek mümkün değil.",
         "please_enter_pairing_code_tips": "Lütfen bu eşleştirme kodunu {mode} modunda girin.",
         "using_pairing_code_label": "{mode} Eşleştirme Kodunu Kullanma",
-        "astro_node_conflicts_with_feature_tips": "Astro Node, {feature} ayarlarınızla çakışıyor. Devam etmek için {feature} özelliğini devre dışı bırakın veya yalnızca Mesh Node modunu kullanın.",
+        "astro_node_conflicts_with_feature_tips": "Astro Düğümü, {feature} ayarlarınızla çakışıyor. Devam etmek için {feature} özelliğini devre dışı bırakın veya yalnızca Yerel Mesh Düğümü modunu kullanın.",
         "get_pairing_code_failed_msg": "Eşleştirme kodu alınamadı. Lütfen daha sonra tekrar deneyin.",
         "get_pairing_code_failed_check_cloud_msg": "Eşleştirme kodu alınamadı. Lütfen bulut bağlantınızı kontrol edin ve daha sonra tekrar deneyin.",
-        "joined_failed_tips": "{node} üzerinde Astro özelliği etkinleştirilemiyor. Lütfen bulut bağlantınızı kontrol edin ve daha sonra tekrar deneyin.",
-        "enabled_astrowrap_tips": "AstroWrap şu anda aktif, bu {feature} ile çakışıyor. Devam etmek için lütfen AstroWrap ağını sıfırlayın."
+        "joined_failed_tips": "{node} üzerinde Astro özelliği etkinleştirilemiyor. Düğümün buluta bağlı olduğundan emin olun, ardından tekrar deneyin.",
+        "net_conflict_tips": "Mevcut LAN alt ağı ana yönlendiricinizin alt ağıyla çakışıyor. Lütfen {changeLan} ile 192.168.18.1 gibi farklı bir alt ağa değiştirin.",
+        "change_lanip_address": "LAN IP adresini değiştir",
+        "prepare_your_devices_three_tips": "3. Bunları {node} moduna geçirin.",
+        "set_astro_mesh_to_local_only_tips": "AstroMesh ile çakışmalar. Devam etmek için lütfen AstroMesh'i Yalnızca Yerel Ağ Düğümü olarak ayarlayın.",
+        "change_to": "Yönlendiricinin IP adresi başarıyla değiştirildi:",
+        "enabled_astrowrap_tips": "AstroLink şu anda etkin, bu da {feature} ile çakışıyor. Devam etmek için lütfen AstroLink ağını sıfırlayın."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Eşleştirme başarılı. Bağlanıyor...",
         "main_router_exit_node_all_traffic_tips": "Bağlandıktan sonra, Ana Yönlendirici çıkış düğümü olarak hizmet verecek ve tüm trafiği kendi ev ağı üzerinden yönlendirecektir."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Sıfırla"
+    }
 }

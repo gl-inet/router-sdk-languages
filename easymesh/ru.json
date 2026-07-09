@@ -61,7 +61,6 @@
         "add_easyMesh_devices_title": "Добавить узел AstroMesh от GL.iNet",
         "prepare_your_devices_label": "Подготовьте свои устройства GL.iNet:",
         "prepare_your_devices_two_tips": "2. Включите устройства рядом с основным маршрутизатором.",
-        "prepare_your_devices_three_tips": "3. Переключите их в режим Mesh/Astro Node.",
         "no_devices_detected_tips": "Не обнаружено узлов AstroMesh.",
         "searching_easyMesh_agents_tips": "Поиск ближайших узлов AstroMesh...",
         "add_device_success_tips": "Устройство успешно добавлено.",
@@ -108,7 +107,7 @@
         "mesh_astro_node_label": "Mesh/Astro Node",
         "main_router_tips": "Этот режим подключается к Интернету и управляет всеми Mesh-узлами. Он служит выходным узлом для всех удаленных Astro-узлов.",
         "mesh_node_tips": "{meshNode}: этот режим расширяет покрытие Wi-Fi Главного маршрутизатора локально с помощью EasyMesh.",
-        "astro_node_tips": "{astroNode}: этот режим расширяет домашнюю сеть до удаленных узлов с помощью AstroWarp.",
+        "astro_node_tips": "{astroNode}: этот режим расширяет домашнюю сеть на удаленные участки.",
         "mesh_node_label": "Mesh Node",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "Выберите режим для этого маршрутизатора",
@@ -120,7 +119,7 @@
         "this_router_mode_title": "Режим этого маршрутизатора: {mode}",
         "astro_node_switch": "Astro Node Switch",
         "allow_astro_node_tips": "Astro Nodes в настоящее время имеют доступ к вашей домашней сети через этот Главный маршрутизатор, используя его в качестве выходного узла.",
-        "mesh_node_only_label": "Только Mesh-узел",
+        "mesh_node_only_label": "Только локальный узел Mesh",
         "allow_astro_node_label": "Разрешить Astro Node",
         "allow_astro_node_desc": "Этот режим позволяет вашим Astro Nodes подключаться к домашней сети и использовать её в качестве выходного узла. Однако сетевые функции, такие как Tailscale и ZeroTier, недоступны в этом режиме.",
         "mesh_node_only_desc": "В этом режиме все узлы Astro не могут подключаться к вашей домашней сети. Вы по-прежнему можете использовать Mesh-узлы с AstroMesh. Кроме того, вы можете использовать другие сетевые функции, такие как Tailscale и ZeroTier.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Все текущие настройки AstroMesh будут очищены, а узлы Mesh будут сброшены до заводских настроек.",
         "aw_pending_tips": "Не удается подключиться к вашему основному маршрутизатору, и сеть AstroMesh в настоящее время недоступна. Проверьте состояние сетевого подключения основного маршрутизатора.",
         "cloud_service_not_working_tips": "Облачный сервис работает некорректно, и узлы Astro могут быть не подключены. Пожалуйста, проверьте состояние сетевого подключения.",
-        "net_conflict_tips": "Текущая подсеть LAN конфликтует с подсетью вашего основного маршрутизатора. Пожалуйста, измените локальную сеть на другую подсеть.",
-        "joined_other_tips": "{node} уже добавлен в вашу сеть AstroWarp. Пожалуйста, удалите его настройки из AstroWarp Cloud, чтобы продолжить.",
+        "joined_other_tips": "{node} уже добавлен в вашу сеть AstroLink. Пожалуйста, удалите его настройки из AstroLink Cloud, чтобы продолжить.",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi в настоящее время отключен, поэтому недоступно добавление mesh/astro узлов.",
         "please_enter_pairing_code_tips": "Пожалуйста, введите этот код сопряжения в {mode}.",
         "using_pairing_code_label": "Использование {mode} кода сопряжения",
-        "astro_node_conflicts_with_feature_tips": "Astro Node конфликтует с вашими настройками {feature}. Отключите {feature}, чтобы продолжить, или используйте режим только Mesh Node.",
+        "astro_node_conflicts_with_feature_tips": "Узел Astro Node конфликтует с вашими настройками {feature}. Отключите {feature}, чтобы продолжить, или используйте режим только локального узла Mesh.",
         "get_pairing_code_failed_msg": "Не удалось получить код сопряжения. Пожалуйста, повторите попытку позже.",
         "get_pairing_code_failed_check_cloud_msg": "Не удалось получить код сопряжения. Проверьте подключение к облаку и повторите попытку позже.",
-        "joined_failed_tips": "Невозможно включить функцию Astro на {node}. Пожалуйста, проверьте ваше облачное подключение и повторите попытку позже.",
-        "enabled_astrowrap_tips": "AstroWrap в настоящее время активен, что конфликтует с {feature}. Пожалуйста, сбросьте сеть AstroWrap, чтобы продолжить."
+        "joined_failed_tips": "Невозможно включить функцию Astro на {node}. Убедитесь, что узел подключен к облаку, и повторите попытку.",
+        "net_conflict_tips": "Текущая подсеть LAN конфликтует с подсетью вашего основного маршрутизатора. {changeLan} на другую подсеть, например 192.168.18.1.",
+        "change_lanip_address": "изменить IP-адрес LAN",
+        "prepare_your_devices_three_tips": "3. Переключите их в режим {node}.",
+        "set_astro_mesh_to_local_only_tips": "Конфликты с AstroMesh. Чтобы продолжить, установите для AstroMesh значение «Только локальный узел сетки».",
+        "change_to": "IP-адрес маршрутизатора успешно изменён на",
+        "enabled_astrowrap_tips": "AstroLink сейчас активен, что конфликтует с {feature}. Сбросьте сеть AstroLink, чтобы продолжить."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Сопряжение выполнено. Подключение...",
         "main_router_exit_node_all_traffic_tips": "После подключения главный маршрутизатор будет выступать в роли выходного узла, направляя весь трафик через свою домашнюю сеть."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Сбросить"
+    }
 }

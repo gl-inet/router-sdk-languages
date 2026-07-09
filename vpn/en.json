@@ -341,7 +341,7 @@
         "expressvpn_custom_get_started_btn": "Get Started",
         "expressvpn_custom_get_started_tip": "Agree now, you may still manually add VPN profiles later.",
         "expressvpn_custom_redeem_title": "Redeem GL.iNet x ExpressVPN Plan",
-        "expressvpn_custom_redeem_desc": "This co-branded router can redeem one complimentary 12-Month ExpressVPN plan. GL.iNet Cloud first verifies this hardware and order eligibility, then ExpressVPN completes the promotional checkout in your browser.",
+        "expressvpn_custom_redeem_desc": "This co-branded router can redeem one included 12-Month ExpressVPN plan (applies to new accounts or accounts without an active subscription). GL.iNet Cloud first verifies this hardware and order eligibility, then ExpressVPN completes the promotional checkout in your browser.",
         "expressvpn_custom_promo_title": "Free 12-Month Plan available",
         "expressvpn_custom_login_without_activation": "Login without activation",
         "expressvpn_custom_promo_desc_order": "Use your Order ID, complete ExpressVPN checkout, then authorize this router.",
@@ -360,7 +360,7 @@
         "expressvpn_custom_redeemed_on": " on ",
         "expressvpn_custom_redeemed_notice_suffix": ". The 12-Month Plan was added to that ExpressVPN account. This router's redemption credit is now used — any other accounts you sign in with on this router will keep using their own existing subscription.",
         "expressvpn_custom_redeemed_prompt_title": "Sign-In",
-        "expressvpn_custom_redeemed_prompt_desc": "This router's complimentary 12-Month plan has been redeemed and added to an ExpressVPN account.",
+        "expressvpn_custom_redeemed_prompt_desc": "This router's included 12-Month plan has been redeemed and added to an ExpressVPN account.",
         "expressvpn_custom_redeemed_login_desc_line1": "Congratulations! You have successfully claimed the 12-Month Plan. Please sign in to your account.",
         "expressvpn_custom_redeemed_login_desc_line2": "After logging in, you can use all services on your router.",
         "expressvpn_custom_redeemed_already_title": "12-Month Plan already redeemed",
@@ -382,7 +382,19 @@
         "expressvpn_custom_invalid_license": "Invalid License",
         "expressvpn_custom_manual_title": "Add Manually",
         "expressvpn_custom_manual_desc": "Import a WireGuard configuration file for a custom profile—no ExpressVPN sign-in required.",
-        "expressvpn_custom_order_placeholder": "e.g.113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "e.g.113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "Claim 12-Month Plan",
+        "expressvpn_custom_claim_dialog_desc": "Enter the credentials from your router purchase. You will finish the claim on ExpressVPN, then return here to authorize this router.",
+        "expressvpn_custom_purchase_source_label": "Purchase Source",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_label": "Order Email",
+        "expressvpn_custom_order_email_placeholder": "Email used for your GL.iNet Store order",
+        "expressvpn_custom_credentials_error": "Verification unsuccessful. Invalid credentials or already activated, cannot be reused.",
+        "expressvpn_custom_checkout_opened": "ExpressVPN checkout page opened in a new tab.",
+        "expressvpn_custom_glinet_order_placeholder": "e.g. GL-1234",
+        "number_allowed_devices_label": "Number of Allowed Devices",
+        "wg_xvpn_limit_tips": "The account has reached the maximum limit of linked devices. Please go to {provider} to unlink a device."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -428,7 +440,13 @@
         "expressvpn_login_expired_msg": "Login session has expired. Please try again.",
         "expressvpn_no_subscription_msg": "No active ExpressVPN subscription was found for this account.",
         "expressvpn_business_msg": "ExpressVPN request was rejected. Please check the account or device status.",
-        "expressvpn_internal_msg": "ExpressVPN service error. Please try again later."
+        "expressvpn_internal_msg": "ExpressVPN service error. Please try again later.",
+        "premium_account_required_msg": "Premium subscription is required. Please renew your license.",
+        "provider_token_invalid_msg": "Token is invalid. Please log in again to restore your connection.",
+        "credentials_changed_msg": "Your credentials have been changed. Please log in again.",
+        "account_disabled_msg": "Your account has been deactivated. Please reach out to XVPN support.",
+        "device_token_expired_msg": "Token is invalid. Please log in again to restore your connection.",
+        "device_bind_failed_msg": "Unable to bind this router to your account. Please check your network connection and try again."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Use VPN Tunnel",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "To manage tunnels, please visit the {page}.",
         "remove_config_btn": "Delete Configurations",
         "reomving_config_warning_tips": "Are you sure you want to delete?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) conflicts with the {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) conflicts with the {interface}.",
+        "groups_expressvpn_desc": "Prefer using {custom}? Create a new group to add your configuration files.",
+        "two_factor_authentication_title": "Two-Factor Authentication",
+        "two_factor_authentication_desc": "Enter the 6-digit OTP code from your authenticator app to complete login.",
+        "two_factor_verifying_tips": "Verifying, please wait a moment...",
+        "two_factor_verification_failed_tips": "Verification failed. Make sure you enter the correct code.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",

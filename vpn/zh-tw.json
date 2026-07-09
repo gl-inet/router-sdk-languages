@@ -341,7 +341,7 @@
         "expressvpn_custom_get_started_btn": "開始使用",
         "expressvpn_custom_get_started_tip": "立即同意，您仍可稍後手動新增 VPN 設定檔。",
         "expressvpn_custom_redeem_title": "兌換 GL.iNet x ExpressVPN 方案",
-        "expressvpn_custom_redeem_desc": "此聯名路由器可兌換一個免費的 12 個月 ExpressVPN 方案。GL.iNet Cloud 會先驗證此硬體與訂單資格，隨後 ExpressVPN 將在您的瀏覽器中完成促銷結帳。",
+        "expressvpn_custom_redeem_desc": "此聯名路由器可兌換一份隨附的12個月ExpressVPN方案（適用於新帳戶或無有效訂閱的帳戶）。GL.iNet Cloud會先驗證此硬體與訂單資格，然後ExpressVPN將在您的瀏覽器中完成促銷結帳。",
         "expressvpn_custom_promo_title": "提供免費 12 個月方案",
         "expressvpn_custom_order_id_label": "訂單 ID",
         "expressvpn_custom_login_without_activation": "無需啟用即可登入",
@@ -356,7 +356,7 @@
         "expressvpn_custom_signin_title": "登入 ExpressVPN",
         "expressvpn_custom_dashboard_redeemed_title": "12 個月方案已兌換",
         "expressvpn_custom_redeemed_prompt_title": "登入",
-        "expressvpn_custom_redeemed_prompt_desc": "此路由器的免費 12 個月方案已兌換並新增至 ExpressVPN 帳戶。",
+        "expressvpn_custom_redeemed_prompt_desc": "此路由器附帶的12個月套餐已兌換並新增至ExpressVPN帳戶。",
         "expressvpn_custom_redeemed_already_title": "12 個月方案已兌換",
         "expressvpn_custom_redeemed_claimed_by": "綁定帳戶",
         "expressvpn_custom_redeemed_claimed_time": "綁定時間",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_login_desc_line1": "恭喜！您已成功領取 12 個月方案。請登入您的帳戶。",
         "expressvpn_custom_redeemed_login_desc_line2": "登入後，您即可在路由器上使用所有服務。",
         "expressvpn_custom_signin_new_tab_tip": "將開啟新分頁，前往 ExpressVPN 的安全登入頁面。",
-        "expressvpn_custom_order_placeholder": "例：113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "例：113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "領取 12 個月方案",
+        "expressvpn_custom_claim_dialog_desc": "輸入您購買路由器時的憑證。您將在 ExpressVPN 完成領取，然後返回此處授權此路由器。",
+        "expressvpn_custom_purchase_source_label": "購買來源",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_label": "訂單電子郵件",
+        "expressvpn_custom_order_email_placeholder": "用於您 GL.iNet Store 訂單的電子郵件",
+        "expressvpn_custom_credentials_error": "驗證失敗。憑證無效或已啟用，無法重複使用。",
+        "expressvpn_custom_checkout_opened": "ExpressVPN 結帳頁面已在新分頁中開啟。",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_glinet_order_placeholder": "例如 GL-1234",
+        "number_allowed_devices_label": "允許的裝置數量",
+        "wg_xvpn_limit_tips": "帳戶已達到連結裝置數量上限。請前往 {provider} 解除連結裝置。"
     },
     "menu_wgserver": "WireGuard 服務端",
     "menu_ovpnserver": "OpenVPN 服務端",
@@ -428,7 +440,13 @@
         "expressvpn_login_expired_msg": "登入工作階段已過期，請再試一次。",
         "expressvpn_no_subscription_msg": "此帳戶未找到有效的 ExpressVPN 訂閱。",
         "expressvpn_business_msg": "ExpressVPN 請求被拒絕，請檢查帳戶或設備狀態。",
-        "expressvpn_internal_msg": "ExpressVPN 服務錯誤，請稍後再試。"
+        "expressvpn_internal_msg": "ExpressVPN 服務錯誤，請稍後再試。",
+        "provider_token_invalid_msg": "權杖無效。請重新登入以恢復連線。",
+        "credentials_changed_msg": "您的認證已變更。請重新登入。",
+        "account_disabled_msg": "您的帳戶已停用。請聯絡 XVPN 支援。",
+        "device_token_expired_msg": "權杖無效。請重新登入以恢復連線。",
+        "device_bind_failed_msg": "無法將此路由器綁定到您的帳戶。請檢查網路連線後再試一次。",
+        "premium_account_required_msg": "需要 Premium 訂閱。請續訂您的授權。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "使用 VPN 隧道",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "如需管理隧道，請訪問 {page}。",
         "remove_config_btn": "刪除配置",
         "reomving_config_warning_tips": "您確定要刪除嗎？",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 與 {interface} 衝突。"
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) 與 {interface} 衝突。",
+        "groups_expressvpn_desc": "偏好使用 {custom}？建立新群組以新增您的設定檔。",
+        "two_factor_authentication_title": "雙重驗證",
+        "two_factor_verifying_tips": "正在驗證，請稍候...",
+        "two_factor_authentication_desc": "請輸入驗證器應用程式中的 6 位數 OTP 代碼以完成登入。",
+        "two_factor_verification_failed_tips": "驗證失敗。請確認您輸入的代碼正確。",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "兼容",

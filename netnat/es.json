@@ -1,15 +1,15 @@
 {
-    "menu_netnat": "Aceleración Network",
-    "netnat": {
-        "desc": "La Aceleración Network reduce la carga de CPU y acelera el tráfico de reenvio de paquetes, pero puede causar conflicto con otras funciones.",
-        "tips": "Cuando la Aceleración de Red está activada, las siguientes funciones no funcionaran correctamente: Velocidad del cliente , estadísticas de tráfico, velocidad límite del cliente y Control Parental.",
-        "hwnat_label": "Aceleración Hardware",
-        "swnat_label": "Aceleración Software",
-        "wifi_reload_tips": "Cambiar o alternar la aceleración de hardware requiere recargar el módulo WIFI, con tiempos de espera de 10 segundos a 1 minuto.",
-        "disabled_client_label": "Estadísticas de Velocidad y Tráfico del Cliente",
-        "disabled_tips": "Cuando la aceleración de red está habilitada, las siguientes funciones no funcionarán correctamente: {feature}.",
-        "disabled_speed_limit_label": "Límite de velocidad del cliente",
-        "disabled_vpn_ipv6_label": "VPN con IPv6",
-        "qos_sqm_safeguard_data_tips": "Esta función no está disponible porque entra en conflicto con las siguientes funciones: {features}."
-    }
+  "menu_netnat": "Aceleración Network",
+  "netnat": {
+    "desc": "La Aceleración Network reduce la carga de CPU y acelera el tráfico de reenvio de paquetes, pero puede causar conflicto con otras funciones.",
+    "tips": "Cuando la Aceleración de Red está activada, las siguientes funciones no funcionaran correctamente: Velocidad del cliente , estadísticas de tráfico, velocidad límite del cliente y Control Parental.",
+    "hwnat_label": "Aceleración Hardware",
+    "swnat_label": "Aceleración Software",
+    "wifi_reload_tips": "Cambiar o alternar la aceleración de hardware requiere recargar el módulo WIFI, con tiempos de espera de 10 segundos a 1 minuto.",
+    "disabled_client_label": "Estadísticas de Velocidad y Tráfico del Cliente",
+    "disabled_tips": "Cuando la aceleración de red está habilitada, las siguientes funciones no funcionarán correctamente: {feature}.",
+    "disabled_speed_limit_label": "Límite de velocidad del cliente",
+    "disabled_vpn_ipv6_label": "VPN con IPv6",
+    "qos_sqm_safeguard_data_tips": "Esta función no está disponible porque entra en conflicto con las siguientes funciones: {features}."
+  }
 }

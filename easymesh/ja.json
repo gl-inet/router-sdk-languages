@@ -71,7 +71,6 @@
         "prepare_your_devices_label": "GL.iNetデバイスの準備：",
         "prepare_your_devices_two_tips": "2. メインルーターの近くでデバイスの電源を入れます。",
         "prepare_your_devices_one_tips": "1. お使いのデバイスがAstroMeshをサポートしていることを確認してください。古いモデルではファームウェアのアップデートが必要な場合があります。",
-        "prepare_your_devices_three_tips": "3. それらをメッシュ/アストロノードモードに切り替えます。",
         "no_devices_detected_tips": "AstroMeshノードが検出されませんでした。",
         "ensure_easyMesh_supported_tips": "AstroMeshがサポートされ有効になっていることを確認し、必要に応じてデバイスをメインルーターに近づけてください。",
         "searching_easyMesh_agents_tips": "近くのAstroMeshノードを検索中...",
@@ -108,7 +107,7 @@
         "mesh_astro_node_label": "Mesh/Astroノード",
         "main_router_tips": "このモードはインターネットに接続し、すべてのメッシュノードを管理します。すべてのリモートAstroノードの出口ノードとして機能します。",
         "mesh_node_tips": "{meshNode}: このモードは、EasyMeshを使用してメインルーターのWi-Fiカバレッジをローカルに拡張します。",
-        "astro_node_tips": "{astroNode}: このモードはAstroWarpを使用して、ホームネットワークをリモートサイトに拡張します。",
+        "astro_node_tips": "{astroNode}: このモードは、ホームネットワークをリモートサイトに拡張します。",
         "mesh_node_label": "メッシュノード",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "このルーターのモードを選択してください",
@@ -120,7 +119,7 @@
         "this_router_mode_title": "このルーターのモード: {mode}",
         "astro_node_switch": "Astroノードスイッチ",
         "allow_astro_node_tips": "Astroノードは現在、このメインルーターを出口ノードとして使用し、あなたのホームネットワークにアクセスしています。",
-        "mesh_node_only_label": "メッシュノードのみ",
+        "mesh_node_only_label": "ローカルメッシュノードのみ",
         "allow_astro_node_label": "Astroノードを許可",
         "allow_astro_node_desc": "このモードでは、Astroノードがホームネットワークに接続し、それを出口ノードとして使用することができます。ただし、TailscaleやZeroTierなどのネットワーク機能はこのモードでは利用できません。",
         "mesh_node_only_desc": "このモードでは、すべてのAstroノードがホームネットワークに接続できなくなります。AstroMeshを使用してメッシュノードを引き続き利用できます。さらに、TailscaleやZeroTierなどの他のネットワーク機能も使用できます。",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "現在のAstroMesh設定はすべてクリアされ、メッシュノードは工場出荷時の設定にリセットされます。",
         "aw_pending_tips": "メインルーターに接続できません。現在AstroMeshネットワークは利用できません。メインルーターのネットワーク接続状態をご確認ください。",
         "cloud_service_not_working_tips": "クラウドサービスが正常に動作しておらず、Astroノードが接続されていない可能性があります。ネットワーク接続状況を確認してください。",
-        "net_conflict_tips": "現在のLANサブネットはメインルーターと競合しています。LANネットワークを別のサブネットに変更してください。",
-        "joined_other_tips": "{node} は既にあなたの AstroWarp ネットワークに追加されています。続行するには、AstroWarp Cloud からその設定を削除してください。",
+        "joined_other_tips": "{node} は既にあなたの AstroLink ネットワークに追加されています。続行するには、AstroLink Cloud からその設定を削除してください。",
         "disabled_5g_main_wifi_tips": "5G Wi-Fiは現在無効になっていますので、メッシュ/アストロノードを追加できません。",
         "please_enter_pairing_code_tips": "このペアリングコードを{mode}に入力してください。",
         "using_pairing_code_label": "{mode} ペアリングコードを使用して",
-        "astro_node_conflicts_with_feature_tips": "Astro Node は {feature} 設定と競合しています。続行するには {feature} を無効にするか、Mesh Node 専用モードを使用してください。",
+        "astro_node_conflicts_with_feature_tips": "Astro Node は {feature} 設定と競合しています。続行するには {feature} を無効にするか、ローカルメッシュノードのみモードを使用してください。",
         "get_pairing_code_failed_msg": "ペアリングコードの取得に失敗しました。後でもう一度お試しください。",
         "get_pairing_code_failed_check_cloud_msg": "ペアリングコードの取得に失敗しました。クラウド接続を確認して、後でもう一度お試しください。",
-        "joined_failed_tips": "{node}でAstro機能を有効にできません。クラウド接続を確認して、後でもう一度お試しください。",
-        "enabled_astrowrap_tips": "AstroWrap が現在アクティブであり、{feature} と競合します。続行するには、AstroWrap ネットワークをリセットしてください。"
+        "joined_failed_tips": "{node}でAstro機能を有効にできません。ノードがクラウドに接続されていることを確認してから、もう一度お試しください。",
+        "net_conflict_tips": "現在のLANサブネットはメインルーターのサブネットと競合しています。192.168.18.1 など、別のサブネットに{changeLan}してください。",
+        "change_lanip_address": "LAN IPアドレスを変更",
+        "prepare_your_devices_three_tips": "3. それらを{node}モードに切り替えます。",
+        "set_astro_mesh_to_local_only_tips": "AstroMesh と競合します。続行するには、AstroMesh をローカル メッシュ ノードのみに設定してください。",
+        "change_to": "ルーターのIPアドレスは正常に変更されました：",
+        "enabled_astrowrap_tips": "AstroLink は現在有効になっており、{feature} と競合しています。続行するには AstroLink ネットワークをリセットしてください。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "ペアリング成功。接続中...",
         "main_router_exit_node_all_traffic_tips": "接続されると、メインルーターが出口ノードとして機能し、すべてのトラフィックをそのホームネットワーク経由でルーティングします。"
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "リセット"
+    }
 }

@@ -1,21 +1,21 @@
 {
-    "menu_edgerouter": "Drop-in átjáró",
-    "edgerouter": {
-        "desc": "Amikor a drop-in átjáró mód engedélyezve van, a hálózaton lévő ügyfelek forgalma először ezen útválasztón kerül feldolgozásra. Ezt a módot használhatja az elsődleges útválasztó funkcionalitásának kiterjesztésére.",
-        "enable_label": "Drop-in átjáró mód engedélyezése",
-        "dhcp_closed_tips": "A fő útválasztó DHCP szolgáltatása ki van kapcsolva, a drop-in átjáró működik.",
-        "dhcp_on_tips": "A DHCP szolgáltatás még mindig engedélyezve van a fő útválasztón. A drop-in átjáró nem működhet megfelelően. Kérjük, menjen a $$$$fő útválasztó admin paneljére$$$$ a DHCP szolgáltatás kikapcsolásához vagy az átjáró {ip} címre való beállításához.",
-        "enable_tips": "Amikor a drop-in átjáró mód engedélyezve van, ezen útválasztó DNS beállításait használják a fő útválasztóé helyett.",
-        "dhcp_on_warning_tips": "A drop-in átjáró engedélyezve van.",
-        "dhcp_set_gateway_tips": "A fő útválasztó DHCP szolgáltatása helyesen állította be az átjárót {ip} címre, a drop-in átjáró működik.",
-        "auto_set_tips": "A szülő útválasztó DHCP beállításai megváltoztak, és előfordulhat, hogy az útválasztó nem tud megfelelően csatlakozni a hálózathoz. Kérjük, $$$$Szinkronizálja a beállításokat a DHCP-vel$$$$ vagy manuálisan módosítsa a beállításokat.",
-        "desc_vpn": "Kérjük, vegye figyelembe, hogy a Drop-in átjáró módban ez az eszköz VPN szabályzata nem fog működni a WAN portról érkező ügyfelek számára.",
-        "cable_not_connected_tips": "Nincs kábel észlelve a WAN portban. Kérjük, helyezzen be egy Ethernet kábelt.",
-        "modify_superior_router_label": "Minden eszköz a drop-in átjárón keresztül kapcsolódik a hálózathoz",
-        "modify_superior_router_desc": "Módosítania kell az elsődleges útvonal konfigurációját, amelyet csak az elsődleges útvonalhoz hozzáféréssel rendelkező felhasználó konfigurálhat.",
-        "modify_self_router_label": "Néhány eszköz saját hálózati átjárót választ",
-        "modify_self_router_desc": "Egyes eszközökön manuálisan kell megváltoztatni az átjáró címet a drop-in átjáró IP-címére, amelyeknek szükségük van a drop-in átjáró használatára.",
-        "configuration_method_label": "Konfigurációs módszer",
-        "feature_conflicts_tips": "Ez a funkció jelenleg nem érhető el, mert ütközik a WAN/LAN váltási funkcióval. Kérjük, állítsa vissza az {ethernetPort} alapértelmezett konfigurációját."
-    }
+  "menu_edgerouter": "Drop-in átjáró",
+  "edgerouter": {
+    "desc": "Amikor a drop-in átjáró mód engedélyezve van, a hálózaton lévő ügyfelek forgalma először ezen útválasztón kerül feldolgozásra. Ezt a módot használhatja az elsődleges útválasztó funkcionalitásának kiterjesztésére.",
+    "enable_label": "Drop-in átjáró mód engedélyezése",
+    "dhcp_closed_tips": "A fő útválasztó DHCP szolgáltatása ki van kapcsolva, a drop-in átjáró működik.",
+    "dhcp_on_tips": "A DHCP szolgáltatás még mindig engedélyezve van a fő útválasztón. A drop-in átjáró nem működhet megfelelően. Kérjük, menjen a $$$$fő útválasztó admin paneljére$$$$ a DHCP szolgáltatás kikapcsolásához vagy az átjáró {ip} címre való beállításához.",
+    "enable_tips": "Amikor a drop-in átjáró mód engedélyezve van, ezen útválasztó DNS beállításait használják a fő útválasztóé helyett.",
+    "dhcp_on_warning_tips": "A drop-in átjáró engedélyezve van.",
+    "dhcp_set_gateway_tips": "A fő útválasztó DHCP szolgáltatása helyesen állította be az átjárót {ip} címre, a drop-in átjáró működik.",
+    "auto_set_tips": "A szülő útválasztó DHCP beállításai megváltoztak, és előfordulhat, hogy az útválasztó nem tud megfelelően csatlakozni a hálózathoz. Kérjük, $$$$Szinkronizálja a beállításokat a DHCP-vel$$$$ vagy manuálisan módosítsa a beállításokat.",
+    "desc_vpn": "Kérjük, vegye figyelembe, hogy a Drop-in átjáró módban ez az eszköz VPN szabályzata nem fog működni a WAN portról érkező ügyfelek számára.",
+    "cable_not_connected_tips": "Nincs kábel észlelve a WAN portban. Kérjük, helyezzen be egy Ethernet kábelt.",
+    "modify_superior_router_label": "Minden eszköz a drop-in átjárón keresztül kapcsolódik a hálózathoz",
+    "modify_superior_router_desc": "Módosítania kell az elsődleges útvonal konfigurációját, amelyet csak az elsődleges útvonalhoz hozzáféréssel rendelkező felhasználó konfigurálhat.",
+    "modify_self_router_label": "Néhány eszköz saját hálózati átjárót választ",
+    "modify_self_router_desc": "Egyes eszközökön manuálisan kell megváltoztatni az átjáró címet a drop-in átjáró IP-címére, amelyeknek szükségük van a drop-in átjáró használatára.",
+    "configuration_method_label": "Konfigurációs módszer",
+    "feature_conflicts_tips": "Ez a funkció jelenleg nem érhető el, mert ütközik a WAN/LAN váltási funkcióval. Kérjük, állítsa vissza az {ethernetPort} alapértelmezett konfigurációját."
+  }
 }

@@ -350,7 +350,7 @@
         "expressvpn_custom_claim_validity": "*El canje es válido dentro de los 2 años posteriores a la compra.",
         "expressvpn_custom_signin_title": "Iniciar sesión en ExpressVPN",
         "expressvpn_custom_redeemed_prompt_title": "Iniciar sesión",
-        "expressvpn_custom_redeemed_prompt_desc": "El plan complementario de 12 meses de este router se ha canjeado y añadido a una cuenta de ExpressVPN.",
+        "expressvpn_custom_redeemed_prompt_desc": "El plan de 12 meses incluido de este router ha sido canjeado y añadido a una cuenta de ExpressVPN.",
         "expressvpn_custom_redeemed_claimed_by": "Cuenta vinculada",
         "expressvpn_custom_dashboard_active": "Activo y protegiendo su red.",
         "expressvpn_custom_dashboard_expired": "Servicio caducado. Ya no protege su red.",
@@ -364,7 +364,7 @@
         "expressvpn_custom_manual_title": "Agregar manualmente",
         "expressvpn_custom_manual_desc": "Importa un archivo de configuración de WireGuard para un perfil personalizado: no se requiere inicio de sesión en ExpressVPN.",
         "expressvpn_custom_feature_security_desc": "Protege todos los dispositivos conectados a su router",
-        "expressvpn_custom_redeem_desc": "Este router de marca compartida puede canjear un plan ExpressVPN gratuito de 12 meses. GL.iNet Cloud primero verifica este hardware y la elegibilidad del pedido, luego ExpressVPN completa el proceso de pago promocional en su navegador.",
+        "expressvpn_custom_redeem_desc": "Este router de marca compartida puede canjear un plan ExpressVPN de 12 meses incluido (aplica a cuentas nuevas o cuentas sin una suscripción activa). GL.iNet Cloud primero verifica la elegibilidad de este hardware y pedido, luego ExpressVPN completa el proceso de pago promocional en su navegador.",
         "expressvpn_custom_promo_title": "Plan gratuito de 12 meses disponible",
         "expressvpn_custom_promo_desc_checkout": "Ingresa el ID de pedido de tu compra del router. Finalizarás el reclamo en ExpressVPN, luego regresa aquí para autorizar este router.",
         "expressvpn_custom_order_error": "Verificación de ID de pedido fallida. ID inválido o ya activado, no se puede reutilizar.",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_notice_suffix": ". El plan de 12 meses se agregó a esa cuenta de ExpressVPN. El crédito de canje de este router ya se ha usado; cualquier otra cuenta con la que inicie sesión en este router seguirá usando su propia suscripción existente.",
         "expressvpn_custom_redeemed_login_desc_line1": "¡Felicitaciones! Ha reclamado correctamente el plan de 12 meses. Inicie sesión en su cuenta.",
         "expressvpn_custom_redeemed_login_desc_line2": "Después de iniciar sesión, podrá usar todos los servicios en su router.",
-        "expressvpn_custom_order_placeholder": "p. ej. 113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "p. ej. 113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "Reclamar plan de 12 meses",
+        "expressvpn_custom_claim_dialog_desc": "Introduzca las credenciales de la compra de su router. Finalizará el canje en ExpressVPN y luego volverá aquí para autorizar este router.",
+        "expressvpn_custom_purchase_source_label": "Fuente de compra",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "Tienda GL.iNet",
+        "expressvpn_custom_order_email_label": "Correo electrónico del pedido",
+        "expressvpn_custom_order_email_placeholder": "Correo electrónico usado para su pedido en la tienda GL.iNet",
+        "expressvpn_custom_credentials_error": "Verificación fallida. Credenciales no válidas o ya activadas; no se pueden reutilizar.",
+        "expressvpn_custom_checkout_opened": "La página de pago de ExpressVPN se abrió en una pestaña nueva.",
+        "expressvpn_custom_glinet_order_placeholder": "p. ej., GL-1234",
+        "number_allowed_devices_label": "Número de dispositivos permitidos",
+        "wg_xvpn_limit_tips": "La cuenta ha alcanzado el límite máximo de dispositivos vinculados. Vaya a {provider} para desvincular un dispositivo."
     },
     "menu_ovpnclient": "Cliente OpenVPN",
     "menu_wgclient": "Cliente WireGuard",
@@ -428,7 +440,13 @@
         "expressvpn_no_subscription_msg": "No se encontró una suscripción activa de ExpressVPN para esta cuenta.",
         "expressvpn_device_config_msg": "Falta la configuración del dispositivo. Póngase en contacto con el soporte.",
         "expressvpn_business_msg": "La solicitud de ExpressVPN fue rechazada. Verifique el estado de la cuenta o del dispositivo.",
-        "expressvpn_internal_msg": "Error del servicio ExpressVPN. Inténtelo de nuevo más tarde."
+        "expressvpn_internal_msg": "Error del servicio ExpressVPN. Inténtelo de nuevo más tarde.",
+        "premium_account_required_msg": "Se requiere una suscripción Premium. Renueve su licencia.",
+        "provider_token_invalid_msg": "El token no es válido. Inicie sesión de nuevo para restaurar su conexión.",
+        "account_disabled_msg": "Su cuenta ha sido desactivada. Póngase en contacto con el soporte de XVPN.",
+        "device_token_expired_msg": "El token no es válido. Inicie sesión de nuevo para restaurar su conexión.",
+        "credentials_changed_msg": "Sus credenciales han cambiado. Inicie sesión de nuevo.",
+        "device_bind_failed_msg": "No se puede vincular este router a su cuenta. Compruebe su conexión de red e inténtelo de nuevo."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Agregue el cliente a la lista de túneles basada en políticas VPN. Si desea realizar cambios más detallados en los túneles, vaya a la {page} para gestionar los túneles.",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "Para gestionar túneles, visite la {page}.",
         "remove_config_btn": "Eliminar Configuraciones",
         "reomving_config_warning_tips": "¿Está seguro de que desea eliminar?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) entra en conflicto con {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) entra en conflicto con {interface}.",
+        "groups_expressvpn_desc": "¿Prefiere usar {custom}? Cree un grupo nuevo para agregar sus archivos de configuración.",
+        "two_factor_authentication_title": "Autenticación de dos factores",
+        "two_factor_authentication_desc": "Introduzca el código OTP de 6 dígitos de su aplicación de autenticación para completar el inicio de sesión.",
+        "two_factor_verification_failed_tips": "Error de verificación. Asegúrese de introducir el código correcto.",
+        "two_factor_verifying_tips": "Verificando, espere un momento...",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Legado",

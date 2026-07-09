@@ -340,7 +340,7 @@
         "expressvpn_custom_get_started_btn": "Начало работы",
         "expressvpn_custom_get_started_tip": "Согласитесь сейчас, вы все равно сможете добавить VPN-профили вручную позже.",
         "expressvpn_custom_redeem_title": "Активировать план GL.iNet x ExpressVPN",
-        "expressvpn_custom_redeem_desc": "Этот совместный маршрутизатор может активировать один бесплатный 12-месячный план ExpressVPN. Облако GL.iNet сначала проверяет это оборудование и соответствие заказа, затем ExpressVPN завершает промо-оформление в вашем браузере.",
+        "expressvpn_custom_redeem_desc": "Этот кобрендинговый маршрутизатор позволяет активировать один включенный 12-месячный план ExpressVPN (действует для новых учетных записей или учетных записей без активной подписки). GL.iNet Cloud сначала проверяет данное оборудование и право на участие в акции, после чего ExpressVPN завершает оформление акционного заказа в вашем браузере.",
         "expressvpn_custom_promo_title": "Доступен бесплатный 12-месячный план",
         "expressvpn_custom_order_id_label": "Номер заказа",
         "expressvpn_custom_login_without_activation": "Войти без активации",
@@ -352,7 +352,7 @@
         "expressvpn_custom_signin_title": "Войти в ExpressVPN",
         "expressvpn_custom_dashboard_redeemed_title": "12-месячный план активирован",
         "expressvpn_custom_redeemed_prompt_title": "Вход",
-        "expressvpn_custom_redeemed_prompt_desc": "Бесплатный 12-месячный план этого маршрутизатора был активирован и добавлен к учетной записи ExpressVPN.",
+        "expressvpn_custom_redeemed_prompt_desc": "Этот маршрутизатор включенный 12-месячный план был активирован и добавлен в аккаунт ExpressVPN.",
         "expressvpn_custom_redeemed_already_title": "12-месячный план уже активирован",
         "expressvpn_custom_redeemed_claimed_by": "Привязанная учетная запись",
         "expressvpn_custom_redeemed_action_desc": "Войдите с привязанной учетной записью, чтобы сохранить подписку активной, или используйте другую учетную запись ExpressVPN, чтобы продолжить управлять VPN на этом маршрутизаторе.",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_login_desc_line1": "Поздравляем! Вы успешно получили 12-месячный план. Пожалуйста, войдите в свою учетную запись.",
         "expressvpn_custom_redeemed_login_desc_line2": "После входа вы сможете пользоваться всеми сервисами на своем маршрутизаторе.",
         "expressvpn_custom_signin_new_tab_tip": "Откроется новая вкладка с безопасной страницей входа ExpressVPN.",
-        "expressvpn_custom_order_placeholder": "например, 113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "например, 113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_desc": "Введите учетные данные, указанные при покупке маршрутизатора. Вы завершите активацию в ExpressVPN, затем вернетесь сюда, чтобы авторизовать этот маршрутизатор.",
+        "expressvpn_custom_purchase_source_label": "Источник покупки",
+        "expressvpn_custom_purchase_source_glinet": "Магазин GL.iNet",
+        "expressvpn_custom_order_email_label": "Электронная почта заказа",
+        "expressvpn_custom_order_email_placeholder": "Адрес электронной почты, использованный для заказа в магазине GL.iNet",
+        "expressvpn_custom_checkout_opened": "Страница оформления заказа ExpressVPN открыта в новой вкладке.",
+        "expressvpn_custom_claim_dialog_title": "Активировать 12-месячный план",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_credentials_error": "Проверка не удалась. Недействительные учетные данные или уже активировано, повторное использование невозможно.",
+        "expressvpn_custom_glinet_order_placeholder": "например, GL-1234",
+        "number_allowed_devices_label": "Количество разрешенных устройств",
+        "wg_xvpn_limit_tips": "Учетная запись достигла максимального лимита привязанных устройств. Перейдите в {provider}, чтобы отвязать устройство."
     },
     "menu_wgserver": "Сервер WireGuard",
     "menu_ovpnserver": "Сервер OpenVPN",
@@ -428,7 +440,13 @@
         "expressvpn_business_msg": "Запрос ExpressVPN был отклонен. Пожалуйста, проверьте статус учетной записи или устройства.",
         "expressvpn_device_config_msg": "Конфигурация устройства отсутствует. Пожалуйста, обратитесь в службу поддержки.",
         "expressvpn_no_subscription_msg": "Для этой учетной записи не найдена активная подписка ExpressVPN.",
-        "expressvpn_internal_msg": "Ошибка сервиса ExpressVPN. Пожалуйста, повторите попытку позже."
+        "expressvpn_internal_msg": "Ошибка сервиса ExpressVPN. Пожалуйста, повторите попытку позже.",
+        "provider_token_invalid_msg": "Токен недействителен. Войдите снова, чтобы восстановить подключение.",
+        "credentials_changed_msg": "Ваши учетные данные были изменены. Войдите снова.",
+        "account_disabled_msg": "Ваша учетная запись деактивирована. Обратитесь в поддержку XVPN.",
+        "device_bind_failed_msg": "Не удалось привязать этот маршрутизатор к вашей учетной записи. Проверьте сетевое подключение и повторите попытку.",
+        "premium_account_required_msg": "Требуется премиум-подписка. Продлите лицензию.",
+        "device_token_expired_msg": "Токен недействителен. Войдите снова, чтобы восстановить подключение."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Использовать VPN-туннель",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "Для управления туннелями, пожалуйста, посетите {page}.",
         "remove_config_btn": "Удалить конфигурации",
         "reomving_config_warning_tips": "Вы уверены, что хотите удалить?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) конфликтует с {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) конфликтует с {interface}.",
+        "groups_expressvpn_desc": "Предпочитаете использовать {custom}? Создайте новую группу, чтобы добавить свои файлы конфигурации.",
+        "two_factor_authentication_title": "Двухфакторная аутентификация",
+        "two_factor_authentication_desc": "Введите 6-значный код OTP из приложения-аутентификатора для завершения входа.",
+        "two_factor_verifying_tips": "Проверка, подождите немного...",
+        "two_factor_verification_failed_tips": "Проверка не удалась. Убедитесь, что введен правильный код.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Устаревшая версия",

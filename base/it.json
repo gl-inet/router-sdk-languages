@@ -259,7 +259,8 @@
         "usb_power_limit_tips": "(Assicurarsi che la tensione di alimentazione superi {power})",
         "current_time_label": "Ora corrente",
         "enable_conflict_warning": "{self} non è disponibile perché {other} è abilitato.",
-        "no_battery_charging_tips": "Nessun modulo batteria rilevato. Il dispositivo è attualmente alimentato da una fonte di alimentazione esterna."
+        "no_battery_charging_tips": "Nessun modulo batteria rilevato. Il dispositivo è attualmente alimentato da una fonte di alimentazione esterna.",
+        "conflicts_with_feature_tips": "Questa funzione è in conflitto con {feature}. Disabilita {feature} per abilitare questa funzione."
     },
     "subscription": {
         "url_label": "URL di sottoscrizione",

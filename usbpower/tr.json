@@ -1,31 +1,31 @@
 {
-    "usb": {
-        "protocol_label": "USB Protokol Anahtarı",
-        "power_threshold_label": "Güç Eşiği",
-        "ask_me_label": "Bana Sor",
-        "output_label": "Çıkış Önceliği",
-        "usb_mode_label": "Çift Rol USB Modu",
-        "power_direction_label": "Güç Yönü",
-        "tethring_label": "Tethering",
-        "usb_host_label": "USB Tethering (Ana Bilgisayar)",
-        "input_label": "Giriş Önceliği",
-        "interface_tips": "USB ayarları yalnızca veri portu için geçerlidir ve yalnızca güç portunu etkilemez.",
-        "ask_me_tips": "Her seferinde sor (rolü zorlama)",
-        "usb_host_tips": "USB Ana Bilgisayar olarak davranır (uyumlu USB Çevre Birimlerini kabul eder)",
-        "usb_tethering_tips": "USB Tether Cihazı olarak davranır (ana bilgisayara bir USB ağ adaptörü olarak görünür)",
-        "power_data_direction_label": "Güç Yönü (Veri Portu)",
-        "power_power_direction_label": "Güç Yönü (Güç Portu)",
-        "power_threshold_tips": "Harici güç çıkışı için minimum pil eşiği (USB cihazları bu seviyenin altında kullanılamaz)"
-    },
-    "power": {
-        "power_title": "Güç",
-        "wifi_sleep_time_label": "Wi-Fi Boşta Kalma Zaman Aşımı",
-        "ethernet_idle_timeout_label": "Ethernet Boşta Kalma Zaman Aşımı",
-        "never_label": "asla",
-        "power_off_timeout_label": "Güç Kapatma Zaman Aşımı",
-        "power_charger_label": "Şarj Cihazı ile Açma",
-        "auto_system_standby_tips": "Etkinleştirildiğinde, ağlar boştaysa ve USB bağlı değilse ve Repeater kullanılmıyorsa, sistem otomatik olarak bekleme moduna geçer.",
-        "auto_system_standby_label": "Otomatik Sistem Bekleme"
-    },
-    "menu_usbpower": "USB ve Güç"
+  "usb": {
+    "protocol_label": "USB Protokol Anahtarı",
+    "power_threshold_label": "Güç Eşiği",
+    "ask_me_label": "Bana Sor",
+    "output_label": "Çıkış Önceliği",
+    "usb_mode_label": "Çift Rol USB Modu",
+    "power_direction_label": "Güç Yönü",
+    "tethring_label": "Tethering",
+    "usb_host_label": "USB Tethering (Ana Bilgisayar)",
+    "input_label": "Giriş Önceliği",
+    "interface_tips": "USB ayarları yalnızca veri portu için geçerlidir ve yalnızca güç portunu etkilemez.",
+    "ask_me_tips": "Her seferinde sor (rolü zorlama)",
+    "usb_host_tips": "USB Ana Bilgisayar olarak davranır (uyumlu USB Çevre Birimlerini kabul eder)",
+    "usb_tethering_tips": "USB Tether Cihazı olarak davranır (ana bilgisayara bir USB ağ adaptörü olarak görünür)",
+    "power_data_direction_label": "Güç Yönü (Veri Portu)",
+    "power_power_direction_label": "Güç Yönü (Güç Portu)",
+    "power_threshold_tips": "Harici güç çıkışı için minimum pil eşiği (USB cihazları bu seviyenin altında kullanılamaz)"
+  },
+  "power": {
+    "power_title": "Güç",
+    "wifi_sleep_time_label": "Wi-Fi Boşta Kalma Zaman Aşımı",
+    "ethernet_idle_timeout_label": "Ethernet Boşta Kalma Zaman Aşımı",
+    "never_label": "asla",
+    "power_off_timeout_label": "Güç Kapatma Zaman Aşımı",
+    "power_charger_label": "Şarj Cihazı ile Açma",
+    "auto_system_standby_tips": "Etkinleştirildiğinde, ağlar boştaysa ve USB bağlı değilse ve Repeater kullanılmıyorsa, sistem otomatik olarak bekleme moduna geçer.",
+    "auto_system_standby_label": "Otomatik Sistem Bekleme"
+  },
+  "menu_usbpower": "USB ve Güç"
 }

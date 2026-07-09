@@ -106,7 +106,8 @@
         "err_display_name_max_length": "Le nom doit comporter 32 caractères ou moins.",
         "hostname_tips": "2 à 63 caractères. Seules les lettres, les chiffres ou les traits d'union sont autorisés. Doit commencer et se terminer par une lettre ou un chiffre, et ne peut pas être constitué uniquement de chiffres.",
         "not_asscess_tips": "Actuellement, le {name} ne peut pas accéder aux segments réseau {net}.",
-        "err_vlan_id_must_be_integer": "L'ID VLAN doit être un entier."
+        "err_vlan_id_must_be_integer": "L'ID VLAN doit être un entier.",
+        "ip_conflicts_with_interface_ip": "L’adresse IP entre en conflit avec l’adresse IP de l’interface du sous-réseau actuel."
     },
     "menu_vlan": "Sous-réseau",
     "menu_guestip": "Réseau invité",

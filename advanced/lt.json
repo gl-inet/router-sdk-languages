@@ -1,28 +1,28 @@
 {
-    "advanced": {
-        "note_one": "Jūs galite redaguoti pažangius nustatymus su „LuCI“, numatytąją tinklo tarpuvartę, kurią naudoja „OpenWrt“. „LuCI“ yra atviro ir nepriklausomo kodo projektas kurį prižiūri „OpenWrt“.",
-        "note_two": "Spaudžiant/Spustelėjus šį mygtuką, nukreipia Jus į „LuCI“ puslapį. „GL.iNet“ neprisiima atsakomybės (nevaldo) už „LuCI“ išlaikymą/pagalbą.",
-        "go_to_luci_btn": "Eiti į „LuCI“",
-        "luci_security_tips": "Skirta „LuCI“ saugumui; jeigu Jums reikia nuotoliniu būdu pasiekti „LuCI“, tada prašome atidaryti „LuCI“ prievadą rankiniu būdu.",
-        "luci_rtty_tips": "Jeigu Jums reikia nuotoliniu būdu pasiekti „LuCI“ naudojant „rtty“, tada „LuCI“ prieigą gausite ant prievado – {port}, debesijos platformoje."
-    },
-    "menu_advanced": "Pažangūs nustatymai",
-    "luci": {
-        "install_tips": "Keisti/Redaguoti pažangius nustatymus su „LuCI“",
-        "install_power_by_tips": "„LuCI“ yra atviras ir nepriklausomas „OpenWrt“ palaikomas projektas.",
-        "install_btn": "Įdiegti dabar",
-        "insatlling_tips": "Įdiegiama...",
-        "install_fail_tips": "Įdiegimas nepavyko",
-        "check_network_tips": "Prašome patikrinti savo tinklo ryšį.",
-        "re_install_btn": "Perdiegti/Įdiegti iš naujo",
-        "out_of_memory_tips": "Nėra pakankamai vietos, kad būtų galima įdiegti.",
-        "uninsatlling_tips": "Išdiegiama...",
-        "need_uninstall_tips": "Jei nereikia, galite – {do}.",
-        "uninstall_luci_btn": "Išdiegti „LuCI“",
-        "uninstall_wraning_tips": "Ar Jūs tikrai norite išdiegti „LuCI“?",
-        "uninstall_wraning_remove_dep_tips": "Tai pašalins „LuCI“ ir visas susijusias priklausomybes.",
-        "uninstall_btn": "Išdiegti",
-        "uninstall_done_tips": "Išdiegimas baigtas",
-        "uninstall_done_desc": "Galite jį vėl įdiegti, bet kuriuo metu."
-    }
+  "advanced": {
+    "note_one": "Jūs galite redaguoti pažangius nustatymus su „LuCI“, numatytąją tinklo tarpuvartę, kurią naudoja „OpenWrt“. „LuCI“ yra atviro ir nepriklausomo kodo projektas kurį prižiūri „OpenWrt“.",
+    "note_two": "Spaudžiant/Spustelėjus šį mygtuką, nukreipia Jus į „LuCI“ puslapį. „GL.iNet“ neprisiima atsakomybės (nevaldo) už „LuCI“ išlaikymą/pagalbą.",
+    "go_to_luci_btn": "Eiti į „LuCI“",
+    "luci_security_tips": "Skirta „LuCI“ saugumui; jeigu Jums reikia nuotoliniu būdu pasiekti „LuCI“, tada prašome atidaryti „LuCI“ prievadą rankiniu būdu.",
+    "luci_rtty_tips": "Jeigu Jums reikia nuotoliniu būdu pasiekti „LuCI“ naudojant „rtty“, tada „LuCI“ prieigą gausite ant prievado – {port}, debesijos platformoje."
+  },
+  "menu_advanced": "Pažangūs nustatymai",
+  "luci": {
+    "install_tips": "Keisti/Redaguoti pažangius nustatymus su „LuCI“",
+    "install_power_by_tips": "„LuCI“ yra atviras ir nepriklausomas „OpenWrt“ palaikomas projektas.",
+    "install_btn": "Įdiegti dabar",
+    "insatlling_tips": "Įdiegiama...",
+    "install_fail_tips": "Įdiegimas nepavyko",
+    "check_network_tips": "Prašome patikrinti savo tinklo ryšį.",
+    "re_install_btn": "Perdiegti/Įdiegti iš naujo",
+    "out_of_memory_tips": "Nėra pakankamai vietos, kad būtų galima įdiegti.",
+    "uninsatlling_tips": "Išdiegiama...",
+    "need_uninstall_tips": "Jei nereikia, galite – {do}.",
+    "uninstall_luci_btn": "Išdiegti „LuCI“",
+    "uninstall_wraning_tips": "Ar Jūs tikrai norite išdiegti „LuCI“?",
+    "uninstall_wraning_remove_dep_tips": "Tai pašalins „LuCI“ ir visas susijusias priklausomybes.",
+    "uninstall_btn": "Išdiegti",
+    "uninstall_done_tips": "Išdiegimas baigtas",
+    "uninstall_done_desc": "Galite jį vėl įdiegti, bet kuriuo metu."
+  }
 }

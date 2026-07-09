@@ -259,7 +259,8 @@
         "usb_power_limit_tips": "(Please ensure that the power supply voltage exceeds {power})",
         "current_time_label": "Current Time",
         "enable_conflict_warning": "{self} is unavailable because {other} is enabled.",
-        "no_battery_charging_tips": "No battery module detected. The device is currently powered by an external power source."
+        "no_battery_charging_tips": "No battery module detected. The device is currently powered by an external power source.",
+        "conflicts_with_feature_tips": "This feature conflicts with {feature}. Please disable {feature} to enable this function."
     },
     "err": {
         "network_not_reachable_msg": "Network not reachable",

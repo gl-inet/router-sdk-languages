@@ -67,7 +67,6 @@
         "prepare_your_devices_label": "Przygotuj Swoje Urządzenia GL.iNet:",
         "prepare_your_devices_two_tips": "2. Włącz urządzenia w pobliżu rutera głównego.",
         "prepare_your_devices_one_tips": "Upewnij się, że Twoje urządzenia obsługują AstroMesh. Może być konieczna aktualizacja oprogramowania sprzętowego dla starszych modeli.",
-        "prepare_your_devices_three_tips": "3. Przełącz je w tryb węzła Mesh/Astro.",
         "no_devices_detected_tips": "Nie wykryto węzłów AstroMesh.",
         "ensure_easyMesh_supported_tips": "Upewnij się, że AstroMesh jest obsługiwany i włączony, a jeśli to konieczne, przesuń urządzenie bliżej głównego rutera.",
         "searching_easyMesh_agents_tips": "Wyszukiwanie pobliskich węzłów AstroMesh...",
@@ -108,7 +107,7 @@
         "main_router_tips": "Ten tryb łączy się z Internetem i zarządza wszystkimi węzłami Mesh. Służy jako węzeł wyjściowy dla wszystkich zdalnych węzłów Astro.",
         "mesh_astro_node_label": "Mesh/Węzeł Astro",
         "mesh_node_tips": "{meshNode}: ten tryb rozszerza lokalnie zasięg Wi-Fi Głównego Routera za pomocą EasyMesh.",
-        "astro_node_tips": "{astroNode}: ten tryb rozszerza sieć domową na zdalne lokalizacje za pomocą AstroWarp.",
+        "astro_node_tips": "{astroNode}: ten tryb rozszerza sieć domową na zdalne lokalizacje.",
         "mesh_node_label": "Węzeł Siatki",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "Wybierz tryb dla tego routera",
@@ -119,7 +118,7 @@
         "add_mesh_nodes_tips": "Dodaj węzły siatki do swojej sieci AstroMesh i rozszerz zasięg Wi-Fi w domu oraz podczas podróży.",
         "this_router_mode_title": "Tryb tego rutera: {mode}",
         "astro_node_switch": "Astro Node Switch",
-        "mesh_node_only_label": "Tylko Węzeł Siatki",
+        "mesh_node_only_label": "Tylko węzeł sieci lokalnej Mesh",
         "allow_astro_node_label": "Zezwól na Węzeł Astro",
         "allow_astro_node_desc": "Ten tryb umożliwia Twoim węzłom Astro łączenie się z siecią domową i używanie jej jako węzła wyjściowego. Jednak funkcje sieciowe, takie jak Tailscale i ZeroTier, nie są dostępne w tym trybie.",
         "mesh_node_only_desc": "W tym trybie wszystkie węzły Astro nie mogą połączyć się z Twoją siecią domową. Nadal możesz używać węzłów Mesh z AstroMesh. Dodatkowo możesz korzystać z innych funkcji sieciowych, takich jak Tailscale i ZeroTier.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Wszystkie bieżące ustawienia AstroMesh zostaną wyczyszczone, a węzły Mesh zostaną zresetowane do ustawień fabrycznych.",
         "aw_pending_tips": "Nie można połączyć się z głównym ruterem, a sieć AstroMesh jest obecnie niedostępna. Sprawdź stan połączenia sieciowego głównego rutera.",
         "cloud_service_not_working_tips": "Usługa w chmurze nie działa prawidłowo, a węzły Astro mogą nie być połączone. Sprawdź stan połączenia sieciowego.",
-        "net_conflict_tips": "Obecna podsieć LAN jest w konflikcie z podsiecią twojego głównego rutera. Zmodyfikuj sieć LAN na inną podsieć.",
-        "joined_other_tips": "{node} został już dodany do Twojej sieci AstroWarp. Aby kontynuować, usuń jego ustawienia z chmury AstroWarp.",
+        "joined_other_tips": "{node} został już dodany do Twojej sieci AstroLink. Aby kontynuować, usuń jego ustawienia z chmury AstroLink.",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi jest obecnie wyłączone, więc nie można dodać węzłów mesh/astro.",
         "please_enter_pairing_code_tips": "Proszę wprowadzić ten kod parowania w {mode}.",
         "using_pairing_code_label": "Korzystanie z Kodu Parowania {mode}",
-        "astro_node_conflicts_with_feature_tips": "Astro Node jest w konflikcie z ustawieniami {feature}. Wyłącz {feature}, aby kontynuować, lub użyj trybu tylko Mesh Node.",
+        "astro_node_conflicts_with_feature_tips": "Węzeł Astro jest w konflikcie z ustawieniami {feature}. Wyłącz {feature}, aby kontynuować, lub użyj trybu tylko lokalnego węzła Mesh.",
         "get_pairing_code_failed_msg": "Nie udało się uzyskać kodu parowania. Spróbuj ponownie później.",
         "get_pairing_code_failed_check_cloud_msg": "Nie udało się uzyskać kodu parowania. Sprawdź swoje połączenie z chmurą i spróbuj ponownie później.",
-        "joined_failed_tips": "Nie można włączyć funkcji Astro na {node}. Sprawdź połączenie z chmurą i spróbuj ponownie później.",
-        "enabled_astrowrap_tips": "AstroWrap jest obecnie aktywny, co koliduje z {feature}. Aby kontynuować, zresetuj sieć AstroWrap."
+        "joined_failed_tips": "Nie można włączyć funkcji Astro na {node}. Upewnij się, że węzeł jest połączony z chmurą, a następnie spróbuj ponownie.",
+        "net_conflict_tips": "Bieżąca podsieć LAN koliduje z podsiecią głównego rutera. {changeLan} na inną podsieć, np. 192.168.18.1.",
+        "change_lanip_address": "zmień adres IP sieci LAN",
+        "prepare_your_devices_three_tips": "3. Przełącz je w tryb {node}.",
+        "set_astro_mesh_to_local_only_tips": "Konflikty z AstroMesh. Aby kontynuować, ustaw AstroMesh na Tylko lokalny węzeł siatki.",
+        "change_to": "Adres IP rutera został pomyślnie zmieniony na",
+        "enabled_astrowrap_tips": "AstroLink jest obecnie aktywny, co powoduje konflikt z {feature}. Zresetuj sieć AstroLink, aby kontynuować."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Parowanie powiodło się. Łączenie...",
         "main_router_exit_node_all_traffic_tips": "Po połączeniu, Główny Ruter będzie służył jako węzeł wyjściowy, kierując cały ruch przez swoją sieć domową."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Resetowanie"
+    }
 }

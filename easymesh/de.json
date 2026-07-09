@@ -68,7 +68,6 @@
         "prepare_your_devices_label": "Bereiten Sie Ihre GL.iNet-Geräte vor:",
         "prepare_your_devices_one_tips": "Stellen Sie sicher, dass Ihre Geräte AstroMesh unterstützen. Möglicherweise müssen Sie die Firmware für ältere Modelle aktualisieren.",
         "prepare_your_devices_two_tips": "2. Schalten Sie die Geräte in der Nähe des Main Routers ein.",
-        "prepare_your_devices_three_tips": "3. Schalten Sie sie in den Mesh/Astro-Node-Modus um.",
         "no_devices_detected_tips": "Keine AstroMesh-Knoten erkannt.",
         "ensure_easyMesh_supported_tips": "Stellen Sie sicher, dass AstroMesh unterstützt und aktiviert ist, und bringen Sie das Gerät bei Bedarf näher an den Hauptrouter.",
         "searching_easyMesh_agents_tips": "Suche nach nahegelegenen AstroMesh-Knoten...",
@@ -108,7 +107,7 @@
         "mesh_node_tips": "{meshNode}: Dieser Modus erweitert die WLAN-Abdeckung des Hauptrouters lokal über EasyMesh.",
         "mesh_astro_node_label": "Mesh/Astro-Knoten",
         "main_router_tips": "Dieser Modus verbindet sich mit dem Internet und verwaltet alle Mesh-Knoten. Er dient als Ausgangsknoten für alle entfernten Astro-Knoten.",
-        "astro_node_tips": "{astroNode}: Dieser Modus erweitert das Heimnetzwerk auf entfernte Standorte mithilfe von AstroWarp.",
+        "astro_node_tips": "{astroNode}: Dieser Modus erweitert das Heimnetzwerk auf entfernte Standorte.",
         "mesh_node_label": "Mesh-Knoten",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "Wählen Sie den Modus für diesen Router aus",
@@ -121,7 +120,7 @@
         "mesh_node_only_desc": "In diesem Modus können alle Astro-Knoten keine Verbindung zu Ihrem Heimnetzwerk herstellen. Sie können die Mesh-Knoten weiterhin mit AstroMesh nutzen. Zusätzlich können Sie andere Netzwerkfunktionen wie Tailscale und ZeroTier verwenden.",
         "astro_node_switch": "Astro Node Switch",
         "allow_astro_node_tips": "Astro-Nodes haben derzeit über diesen Hauptrouter Zugriff auf Ihr Heimnetzwerk und nutzen ihn als Exit-Node.",
-        "mesh_node_only_label": "Mesh-Knoten nur",
+        "mesh_node_only_label": "Nur lokaler Mesh-Knoten",
         "allow_astro_node_label": "Astro-Knoten zulassen",
         "allow_astro_node_desc": "Dieser Modus ermöglicht es Ihren Astro Nodes, sich mit Ihrem Heimnetzwerk zu verbinden und es als Exit-Node zu nutzen. Netzwerkfunktionen wie Tailscale und ZeroTier sind in diesem Modus jedoch nicht verfügbar.",
         "mesh_node_only_tips": "Alle Astro-Knoten sind derzeit vom Zugriff auf Ihr Heimnetzwerk dieses Hauptrouters blockiert.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Alle aktuellen AstroMesh-Einstellungen werden gelöscht und die Mesh-Knoten werden auf die Werkseinstellungen zurückgesetzt.",
         "aw_pending_tips": "Keine Verbindung zu Ihrem Hauptrouter möglich, und das AstroMesh-Netzwerk ist derzeit nicht verfügbar. Bitte überprüfen Sie den Netzwerkverbindungsstatus des Hauptrouters.",
         "cloud_service_not_working_tips": "Der Cloud-Dienst funktioniert nicht einwandfrei, und Astro-Knoten sind möglicherweise nicht verbunden. Bitte überprüfen Sie den Status der Netzwerkverbindung.",
-        "net_conflict_tips": "Das aktuelle LAN-Subnetz steht im Konflikt mit dem Ihres Hauptrouters. Bitte ändern Sie das LAN-Netzwerk zu einem anderen Subnetz.",
-        "joined_other_tips": "{node} wurde bereits zu Ihrem AstroWarp-Netzwerk hinzugefügt. Bitte entfernen Sie seine Einstellungen aus der AstroWarp Cloud, um fortzufahren.",
+        "joined_other_tips": "{node} wurde bereits zu Ihrem AstroLink-Netzwerk hinzugefügt. Bitte entfernen Sie seine Einstellungen aus der AstroLink Cloud, um fortzufahren.",
         "disabled_5g_main_wifi_tips": "5G-WLAN ist derzeit deaktiviert, daher können keine Mesh-/Astro-Knoten hinzugefügt werden.",
         "please_enter_pairing_code_tips": "Bitte geben Sie diesen Pairing-Code in {mode} ein.",
         "using_pairing_code_label": "Mit {mode}-Pairing-Code verwenden",
-        "astro_node_conflicts_with_feature_tips": "Der Astro Node steht in Konflikt mit Ihren {feature}-Einstellungen. Deaktivieren Sie {feature}, um fortzufahren, oder verwenden Sie den Nur-Mesh-Node-Modus.",
+        "astro_node_conflicts_with_feature_tips": "Der Astro Node steht im Konflikt mit Ihren {feature}-Einstellungen. Deaktivieren Sie {feature}, um fortzufahren, oder verwenden Sie den Modus „Nur lokaler Mesh-Knoten“.",
         "get_pairing_code_failed_msg": "Fehler beim Abrufen des Pairing-Codes. Bitte versuchen Sie es später erneut.",
         "get_pairing_code_failed_check_cloud_msg": "Fehler beim Abrufen des Pairing-Codes. Bitte überprüfen Sie Ihre Cloud-Verbindung und versuchen Sie es später erneut.",
-        "joined_failed_tips": "Astro-Funktion auf {node} kann nicht aktiviert werden. Bitte überprüfen Sie Ihre Cloud-Verbindung und versuchen Sie es später erneut.",
-        "enabled_astrowrap_tips": "AstroWrap ist derzeit aktiv, was mit {feature} in Konflikt steht. Bitte setzen Sie das AstroWrap-Netzwerk zurück, um fortzufahren."
+        "joined_failed_tips": "Die Astro-Funktion auf {node} konnte nicht aktiviert werden. Stellen Sie sicher, dass der Knoten mit der Cloud verbunden ist, und versuchen Sie es erneut.",
+        "net_conflict_tips": "Das aktuelle LAN-Subnetz steht im Konflikt mit dem Subnetz Ihres Hauptrouters. Bitte {changeLan} in ein anderes Subnetz ändern, z. B. 192.168.18.1.",
+        "change_lanip_address": "LAN-IP-Adresse ändern",
+        "prepare_your_devices_three_tips": "3. Schalten Sie sie in den {node}-Modus.",
+        "set_astro_mesh_to_local_only_tips": "Konflikte mit AstroMesh. Um fortzufahren, stellen Sie AstroMesh bitte auf „Nur lokaler Mesh-Knoten“ ein.",
+        "change_to": "Die IP-Adresse des Routers wurde erfolgreich geändert in",
+        "enabled_astrowrap_tips": "AstroLink ist derzeit aktiv, was mit {feature} in Konflikt steht. Bitte setzen Sie das AstroLink-Netzwerk zurück, um fortzufahren."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Kopplung erfolgreich. Verbinde...",
         "main_router_exit_node_all_traffic_tips": "Nach der Verbindung dient der Hauptrouter als Ausgangsknoten und leitet den gesamten Verkehr über sein Heimnetzwerk."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Zurücksetzen"
+    }
 }

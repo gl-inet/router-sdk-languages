@@ -106,7 +106,8 @@
         "err_display_name_max_length": "이름은 32자 이하여야 합니다.",
         "hostname_tips": "2-63자. 문자, 숫자 또는 하이픈만 허용됩니다. 문자나 숫자로 시작하고 끝나야 하며, 숫자만으로 구성될 수 없습니다.",
         "not_asscess_tips": "현재 {name}이(가) 네트워크 세그먼트 {net}에 접근할 수 없습니다.",
-        "err_vlan_id_must_be_integer": "VLAN ID는 정수여야 합니다."
+        "err_vlan_id_must_be_integer": "VLAN ID는 정수여야 합니다.",
+        "ip_conflicts_with_interface_ip": "IP 주소가 현재 서브넷의 인터페이스 IP와 충돌합니다."
     },
     "menu_vlan": "서브넷",
     "menu_guestip": "게스트 네트워크",

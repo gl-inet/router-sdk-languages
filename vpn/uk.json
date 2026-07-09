@@ -341,7 +341,7 @@
         "expressvpn_custom_get_started_btn": "Початок роботи",
         "expressvpn_custom_get_started_tip": "Погодьтеся зараз, ви зможете додати VPN-профілі вручну пізніше.",
         "expressvpn_custom_redeem_title": "Активувати план GL.iNet x ExpressVPN",
-        "expressvpn_custom_redeem_desc": "Цей спільний маршрутизатор може активувати один безкоштовний 12-місячний план ExpressVPN. Спочатку GL.iNet Cloud перевіряє це обладнання та відповідність замовлення, потім ExpressVPN завершує промо-оформлення у вашому браузері.",
+        "expressvpn_custom_redeem_desc": "Цей кобрендовий маршрутизатор може активувати один включений 12-місячний план ExpressVPN (стосується нових облікових записів або облікових записів без активної підписки). GL.iNet Cloud спочатку перевіряє відповідність цього обладнання та замовлення, а потім ExpressVPN завершує промо-оформлення у вашому браузері.",
         "expressvpn_custom_promo_title": "Доступний безкоштовний 12-місячний план",
         "expressvpn_custom_order_id_label": "Ідентифікатор замовлення",
         "expressvpn_custom_login_without_activation": "Увійти без активації",
@@ -356,7 +356,7 @@
         "expressvpn_custom_signin_title": "Увійдіть в ExpressVPN",
         "expressvpn_custom_dashboard_redeemed_title": "12-місячний план активовано",
         "expressvpn_custom_redeemed_prompt_title": "Увійти",
-        "expressvpn_custom_redeemed_prompt_desc": "Безкоштовний 12-місячний план цього маршрутизатора активовано та додано до облікового запису ExpressVPN.",
+        "expressvpn_custom_redeemed_prompt_desc": "Цей маршрутизатор має включений 12-місячний план, який було активовано та додано до облікового запису ExpressVPN.",
         "expressvpn_custom_redeemed_already_title": "12-місячний план вже активовано",
         "expressvpn_custom_redeemed_claimed_by": "Прив’язаний обліковий запис",
         "expressvpn_custom_redeemed_claimed_time": "Час прив’язування",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_login_desc_line1": "Вітаємо! Ви успішно отримали 12-місячний план. Увійдіть до свого облікового запису.",
         "expressvpn_custom_redeemed_login_desc_line2": "Після входу ви зможете користуватися всіма сервісами на своєму маршрутизаторі.",
         "expressvpn_custom_signin_new_tab_tip": "Відкриється нова вкладка з безпечною сторінкою входу ExpressVPN.",
-        "expressvpn_custom_order_placeholder": "наприклад, 113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "наприклад, 113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "Отримати 12-місячний план",
+        "expressvpn_custom_claim_dialog_desc": "Введіть облікові дані з покупки вашого маршрутизатора. Ви завершите отримання на ExpressVPN, а потім повернетеся сюди, щоб авторизувати цей маршрутизатор.",
+        "expressvpn_custom_purchase_source_label": "Джерело придбання",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_label": "Електронна пошта замовлення",
+        "expressvpn_custom_order_email_placeholder": "Електронна пошта, використана для вашого замовлення в GL.iNet Store",
+        "expressvpn_custom_credentials_error": "Перевірка неуспішна. Недійсні облікові дані або вже активовано, повторне використання неможливе.",
+        "expressvpn_custom_checkout_opened": "Сторінку оформлення ExpressVPN відкрито в новій вкладці.",
+        "expressvpn_custom_glinet_order_placeholder": "наприклад, GL-1234",
+        "number_allowed_devices_label": "Кількість дозволених пристроїв",
+        "wg_xvpn_limit_tips": "Обліковий запис досяг максимальної кількості пов’язаних пристроїв. Перейдіть до {provider}, щоб відв’язати пристрій."
     },
     "menu_wgserver": "WireGuard сервер",
     "menu_ovpnserver": "OpenVPN-сервер",
@@ -428,7 +440,13 @@
         "expressvpn_business_msg": "Запит ExpressVPN було відхилено. Перевірте статус облікового запису або пристрою.",
         "expressvpn_device_config_msg": "Конфігурація пристрою відсутня. Зверніться до служби підтримки.",
         "expressvpn_no_subscription_msg": "Для цього облікового запису не знайдено активної підписки ExpressVPN.",
-        "expressvpn_internal_msg": "Помилка служби ExpressVPN. Спробуйте пізніше."
+        "expressvpn_internal_msg": "Помилка служби ExpressVPN. Спробуйте пізніше.",
+        "credentials_changed_msg": "Ваші облікові дані було змінено. Увійдіть знову.",
+        "device_token_expired_msg": "Токен недійсний. Увійдіть знову, щоб відновити з’єднання.",
+        "device_bind_failed_msg": "Не вдалося прив’язати цей маршрутизатор до вашого облікового запису. Перевірте мережеве підключення та спробуйте ще раз.",
+        "premium_account_required_msg": "Потрібна преміумпідписка. Поновіть ліцензію.",
+        "provider_token_invalid_msg": "Токен недійсний. Увійдіть знову, щоб відновити з’єднання.",
+        "account_disabled_msg": "Ваш обліковий запис деактивовано. Зверніться до служби підтримки XVPN."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Додайте клієнта до списку тунелів політики VPN. Якщо ви хочете внести більш детальні зміни до тунелів, будь ласка, перейдіть на {page}, щоб керувати тунелями.",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "Для керування тунелями, будь ласка, відвідайте {page}.",
         "remove_config_btn": "Видалити конфігурації",
         "reomving_config_warning_tips": "Ви впевнені, що хочете видалити?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) конфліктує з {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) конфліктує з {interface}.",
+        "groups_expressvpn_desc": "Надаєте перевагу використанню {custom}? Створіть нову групу, щоб додати файли конфігурації.",
+        "two_factor_authentication_title": "Двофакторна автентифікація",
+        "two_factor_authentication_desc": "Введіть 6-значний OTP-код із вашого застосунку автентифікації, щоб завершити вхід.",
+        "two_factor_verification_failed_tips": "Перевірка не вдалася. Переконайтеся, що ви ввели правильний код.",
+        "two_factor_verifying_tips": "Перевірка, зачекайте хвилинку...",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Спадщина",

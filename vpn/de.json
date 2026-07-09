@@ -341,7 +341,7 @@
         "expressvpn_custom_get_started_btn": "Erste Schritte",
         "expressvpn_custom_get_started_tip": "Jetzt zustimmen, Sie können später weiterhin manuell VPN-Profile hinzufügen.",
         "expressvpn_custom_redeem_title": "GL.iNet x ExpressVPN-Plan einlösen",
-        "expressvpn_custom_redeem_desc": "Dieser Co-Branding-Router kann einen kostenlosen 12-Monats-ExpressVPN-Plan einlösen. GL.iNet Cloud überprüft zunächst diese Hardware und die Bestellberechtigung, dann führt ExpressVPN den Werbe-Checkout in Ihrem Browser durch.",
+        "expressvpn_custom_redeem_desc": "Dieser Co-Branding-Router kann einen enthaltenen 12-Monats-ExpressVPN-Plan einlösen (gilt für neue Konten oder Konten ohne aktives Abonnement). GL.iNet Cloud überprüft zunächst diese Hardware und die Berechtigung der Bestellung, anschließend führt ExpressVPN den Werbe-Checkout in Ihrem Browser durch.",
         "expressvpn_custom_promo_title": "Kostenloser 12-Monats-Plan verfügbar",
         "expressvpn_custom_order_id_label": "Bestellnummer",
         "expressvpn_custom_login_without_activation": "Anmelden ohne Aktivierung",
@@ -354,7 +354,7 @@
         "expressvpn_custom_signin_title": "Bei ExpressVPN anmelden",
         "expressvpn_custom_dashboard_redeemed_title": "12-Monats-Plan eingelöst",
         "expressvpn_custom_redeemed_prompt_title": "Anmelden",
-        "expressvpn_custom_redeemed_prompt_desc": "Der kostenlose 12-Monats-Plan dieses Routers wurde eingelöst und einem ExpressVPN-Konto hinzugefügt.",
+        "expressvpn_custom_redeemed_prompt_desc": "Der im Lieferumfang dieses Routers enthaltene 12-Monats-Plan wurde eingelöst und einem ExpressVPN-Konto hinzugefügt.",
         "expressvpn_custom_redeemed_already_title": "12-Monats-Plan bereits eingelöst",
         "expressvpn_custom_redeemed_claimed_by": "Gebundenes Konto",
         "expressvpn_custom_redeemed_claimed_time": "Bindungszeit",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_notice_suffix": ". Der 12-Monats-Plan wurde diesem ExpressVPN-Konto hinzugefügt. Der Einlöse-Credit dieses Routers ist nun verbraucht — alle anderen Konten, mit denen Sie sich auf diesem Router anmelden, verwenden weiterhin ihr eigenes bestehendes Abonnement.",
         "expressvpn_custom_redeemed_login_desc_line1": "Glückwunsch! Sie haben den 12-Monats-Plan erfolgreich eingelöst. Bitte melden Sie sich in Ihrem Konto an.",
         "expressvpn_custom_redeemed_login_desc_line2": "Nach der Anmeldung können Sie alle Dienste auf Ihrem Router nutzen.",
-        "expressvpn_custom_order_placeholder": "z.B.113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "z.B.113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "12-Monats-Tarif beanspruchen",
+        "expressvpn_custom_claim_dialog_desc": "Geben Sie die Zugangsdaten aus Ihrem Router-Kauf ein. Sie schließen die Beanspruchung bei ExpressVPN ab und kehren dann hierher zurück, um diesen Router zu autorisieren.",
+        "expressvpn_custom_purchase_source_label": "Kaufquelle",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_label": "Bestell-E-Mail",
+        "expressvpn_custom_order_email_placeholder": "E-Mail-Adresse, die für Ihre Bestellung im GL.iNet Store verwendet wurde",
+        "expressvpn_custom_checkout_opened": "ExpressVPN-Checkout-Seite wurde in einem neuen Tab geöffnet.",
+        "expressvpn_custom_credentials_error": "Verifizierung fehlgeschlagen. Ungültige Zugangsdaten oder bereits aktiviert, kann nicht erneut verwendet werden.",
+        "expressvpn_custom_glinet_order_placeholder": "z. B. GL-1234",
+        "number_allowed_devices_label": "Anzahl zulässiger Geräte",
+        "wg_xvpn_limit_tips": "Das Konto hat die maximale Anzahl verknüpfter Geräte erreicht. Bitte gehen Sie zu {provider}, um die Verknüpfung eines Geräts aufzuheben."
     },
     "menu_wgserver": "WireGuard Server",
     "menu_ovpnserver": "OpenVPN Server",
@@ -428,7 +440,13 @@
         "expressvpn_login_expired_msg": "Die Anmeldesitzung ist abgelaufen. Bitte versuchen Sie es erneut.",
         "expressvpn_no_subscription_msg": "Für dieses Konto wurde kein aktives ExpressVPN-Abonnement gefunden.",
         "expressvpn_business_msg": "ExpressVPN-Anfrage wurde abgelehnt. Bitte überprüfen Sie den Kontostatus oder den Gerätestatus.",
-        "expressvpn_internal_msg": "ExpressVPN-Dienstfehler. Bitte versuchen Sie es später erneut."
+        "expressvpn_internal_msg": "ExpressVPN-Dienstfehler. Bitte versuchen Sie es später erneut.",
+        "premium_account_required_msg": "Ein Premium-Abonnement ist erforderlich. Bitte erneuern Sie Ihre Lizenz.",
+        "provider_token_invalid_msg": "Das Token ist ungültig. Bitte melden Sie sich erneut an, um Ihre Verbindung wiederherzustellen.",
+        "credentials_changed_msg": "Ihre Anmeldedaten wurden geändert. Bitte melden Sie sich erneut an.",
+        "account_disabled_msg": "Ihr Konto wurde deaktiviert. Bitte wenden Sie sich an den XVPN-Support.",
+        "device_token_expired_msg": "Das Token ist ungültig. Bitte melden Sie sich erneut an, um Ihre Verbindung wiederherzustellen.",
+        "device_bind_failed_msg": "Dieser Router kann nicht mit Ihrem Konto verknüpft werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Verwenden Sie den VPN-Tunnel",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "Um Tunnel zu verwalten, besuchen Sie bitte die {page}.",
         "remove_config_btn": "Konfigurationen löschen",
         "reomving_config_warning_tips": "Sind Sie sicher, dass Sie löschen möchten?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) steht im Konflikt mit {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) steht im Konflikt mit {interface}.",
+        "groups_expressvpn_desc": "Verwenden Sie lieber {custom}? Erstellen Sie eine neue Gruppe, um Ihre Konfigurationsdateien hinzuzufügen.",
+        "two_factor_authentication_title": "Zwei-Faktor-Authentifizierung",
+        "two_factor_authentication_desc": "Geben Sie den 6-stelligen OTP-Code aus Ihrer Authenticator-App ein, um die Anmeldung abzuschließen.",
+        "two_factor_verification_failed_tips": "Überprüfung fehlgeschlagen. Stellen Sie sicher, dass Sie den richtigen Code eingeben.",
+        "two_factor_verifying_tips": "Überprüfung läuft, bitte warten Sie einen Moment...",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Legacy",

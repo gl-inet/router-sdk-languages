@@ -1,18 +1,18 @@
 {
-    "ipv6": {
-        "tips": "Quando IPv6 è abilitato, le interfacce WAN come Ethernet otterranno i loro indirizzi IPv6 tramite DHCPv6. È possibile anche modificare manualmente l'indirizzo IPv6 nella pagina delle impostazioni Ethernet. Alcune funzionalità (firewall, VPN, GoodCloud) non supportano ancora IPv6.",
-        "note": "Nota: se si utilizzano contemporaneamente le funzioni VPN e IPv6, è probabile che queste causino una perdita di dati IPv6.",
-        "enable": "Abilita",
-        "mode": "Modalità",
-        "addr": "Indirizzo IPv6",
-        "dns_acq": "Metodo di acquisizione DNS",
-        "dns_tips": "Il DNS viene utilizzato per trovare l'indirizzo IP corrispondente al nome di dominio. L'impostazione manuale del server DNS può causare un errore di ricerca DNS. Usare l'opzione con cautela.",
-        "dns_server": "DNS server",
-        "invalid_parameter": "Il formato che hai inserito non è corretto!",
-        "dns_server_empty": "Inserisci almeno un server DNS",
-        "native_tips": "Questa opzione è disponibile solo per la rete privata; la rete guest utilizza sempre la modalità NAT6.",
-        "use_tip": "Quando IPv6 è abilitato, le interfacce WAN come Ethernet otterranno i loro indirizzi IPv6 tramite DHCPv6. È possibile anche modificare manualmente l'indirizzo IPv6 nella pagina delle impostazioni Ethernet. Alcune funzionalità ({features}) non supportano ancora IPv6.",
-        "disable_dns_tips": "Se desideri disabilitare IPv6, la {page} dovrebbe utilizzare un indirizzo IPv4, altrimenti il dispositivo potrebbe non essere in grado di connettersi alla rete."
-    },
-    "menu_ipv6": "IPv6"
+  "ipv6": {
+    "tips": "Quando IPv6 è abilitato, le interfacce WAN come Ethernet otterranno i loro indirizzi IPv6 tramite DHCPv6. È possibile anche modificare manualmente l'indirizzo IPv6 nella pagina delle impostazioni Ethernet. Alcune funzionalità (firewall, VPN, GoodCloud) non supportano ancora IPv6.",
+    "note": "Nota: se si utilizzano contemporaneamente le funzioni VPN e IPv6, è probabile che queste causino una perdita di dati IPv6.",
+    "enable": "Abilita",
+    "mode": "Modalità",
+    "addr": "Indirizzo IPv6",
+    "dns_acq": "Metodo di acquisizione DNS",
+    "dns_tips": "Il DNS viene utilizzato per trovare l'indirizzo IP corrispondente al nome di dominio. L'impostazione manuale del server DNS può causare un errore di ricerca DNS. Usare l'opzione con cautela.",
+    "dns_server": "DNS server",
+    "invalid_parameter": "Il formato che hai inserito non è corretto!",
+    "dns_server_empty": "Inserisci almeno un server DNS",
+    "native_tips": "Questa opzione è disponibile solo per la rete privata; la rete guest utilizza sempre la modalità NAT6.",
+    "use_tip": "Quando IPv6 è abilitato, le interfacce WAN come Ethernet otterranno i loro indirizzi IPv6 tramite DHCPv6. È possibile anche modificare manualmente l'indirizzo IPv6 nella pagina delle impostazioni Ethernet. Alcune funzionalità ({features}) non supportano ancora IPv6.",
+    "disable_dns_tips": "Se desideri disabilitare IPv6, la {page} dovrebbe utilizzare un indirizzo IPv4, altrimenti il dispositivo potrebbe non essere in grado di connettersi alla rete."
+  },
+  "menu_ipv6": "IPv6"
 }

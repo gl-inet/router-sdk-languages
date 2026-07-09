@@ -63,9 +63,8 @@
         "do_not_power_off_tips": "Ná múch an nód ná húsáid é le linn an phróisis seo.",
         "node_upgrade_in_progress_tips": "Uasghrádú nóid ar siúl.",
         "you_can_check_node_tips": "Is féidir leat an leagan dochtearraí a sheiceáil sa leathanach faisnéise nód nuair a bheidh sé críochnaithe.",
-        "prepare_your_devices_label": "Ullmhaigh Do Ghléasanna GL-iNet:",
+        "prepare_your_devices_label": "Ullmhaigh Do Ghléasanna GL.iNet:",
         "prepare_your_devices_two_tips": "2. Cumhacht ar na gléasanna in aice leis an bPríomh-Ródaire.",
-        "prepare_your_devices_three_tips": "3. Athraigh iad go mód Nód Mogall/Astro.",
         "ensure_easyMesh_supported_tips": "Cinntigh go bhfuil AstroMesh tacaithe agus cumasaithe, agus bog an gléas níos gaire don phríomh-ródaire más gá.",
         "searching_easyMesh_agents_tips": "Ag cuardach nóid AstroMesh in aice láimhe...",
         "add_device_success_tips": "Tá an gléas seo curtha leis go rathúil.",
@@ -108,7 +107,7 @@
         "mesh_astro_node_label": "Mogalra/Astro Nód",
         "main_router_tips": "Tá an mód seo ceangailte leis an Idirlíon agus bainistíonn sé gach Nód Measc. Feidhmíonn sé mar an nód amach do gach Nód Astro iargúlta.",
         "mesh_node_tips": "{meshNode}: leathnaíonn an mód seo clúdach Wi-Fi an Phríomh-Ródaire go háitiúil ag baint úsáide as EasyMesh.",
-        "astro_node_tips": "{astroNode}: tá an modh seo ag leathnú an líonra baile chuig suíomhanna iargúlta ag baint úsáide as AstroWarp.",
+        "astro_node_tips": "{astroNode}: leathnaíonn an mód seo an líonra baile go dtí láithreáin iargúlta.",
         "mesh_node_label": "Nód Mogalra",
         "astro_node_label": "Nód Astro",
         "select_router_mode_label": "Roghnaigh an mód don ródaire seo",
@@ -120,7 +119,7 @@
         "this_router_mode_title": "Modh an Ródaire Seo: {mode}",
         "astro_node_switch": "Lasc Nóid Astro",
         "allow_astro_node_tips": "Tá rochtain ag Nóid Astro ar do líonra baile tríd an bPríomh-Ródaire seo faoi láthair, á úsáid mar an nód scoir.",
-        "mesh_node_only_label": "Nód Mogaill Amháin",
+        "mesh_node_only_label": "Nód Mogail Áitiúil Amháin",
         "allow_astro_node_label": "Ceadaigh Nóid Astro",
         "allow_astro_node_desc": "Leis an mód seo, is féidir le do Nóid Astro ceangal le do líonra baile agus é a úsáid mar an nód scoir. Mar sin féin, níl gnéithe líonraithe ar nós Tailscale agus ZeroTier ar fáil sa mhodh seo.",
         "mesh_node_only_desc": "Sa mhodh seo, ní féidir le haon Nóid Astro ceangal le do líonra baile. Is féidir leat na nóid Mogaill a úsáid le AstroMesh fós. Ina theannta sin, is féidir leat gnéithe líonraithe eile cosúil le Tailscale agus ZeroTier a úsáid.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Glanfar gach socrú reatha AstroMesh, agus athshocrófar na Nóid Mhogalra go socruithe monarchan.",
         "aw_pending_tips": "Ní féidir ceangal le do Phríomh-Ródaire, agus níl líonra AstroMesh ar fáil faoi láthair. Seiceáil stádas ceangail líonra an Phríomh-Ródaire le do thoil.",
         "cloud_service_not_working_tips": "Níl an tseirbhís scamall ag obair i gceart, agus b'fhéidir nach bhfuil nóid Astro ceangailte. Seiceáil stádas naisc an líonra le do thoil.",
-        "net_conflict_tips": "Tá coimhlint idir an fho-líonra LAN reatha agus fo-líonra do Phríomh-Ródaire. Athraigh an líonra LAN go fo-líonra eile, le do thoil.",
-        "joined_other_tips": "Tá {node} curtha le do líonra AstroWarp cheana féin. Bain a shocruithe as AstroWarp Cloud le dul ar aghaidh.",
+        "joined_other_tips": "Tá {node} curtha le do líonra AstroLink cheana féin. Bain a shocruithe as AstroLink Cloud le dul ar aghaidh.",
         "disabled_5g_main_wifi_tips": "Tá Wi-Fi 5G díchumasaithe faoi láthair, mar sin níl sé ar fáil nóid mogalra/réalteolaíocha a chur leis.",
         "please_enter_pairing_code_tips": "Cuir isteach an cód péireála seo i {mode} le do thoil.",
         "using_pairing_code_label": "Ag baint úsáide as Cód Péireála {mode}",
-        "astro_node_conflicts_with_feature_tips": "Tá coimhlint idir an Astro Node agus do shocruithe {feature}. Díchumasaigh {feature} le dul ar aghaidh nó bain úsáid as mód an Mogaill Node amháin.",
-        "get_pairing_code_failed_msg": "Theip ar an gcód péireála a fháil. Bain triail eile as ar ball.",
-        "get_pairing_code_failed_check_cloud_msg": "Theip ar an gcód péireála a fháil. Seiceáil do nasc scamall agus bain triail eile as níos déanaí.",
-        "joined_failed_tips": "Ní féidir gné Astro a chumasú ar {node}. Seiceáil do nasc scamall agus bain triail eile as ar ball.",
-        "enabled_astrowrap_tips": "Tá AstroWrap gníomhach faoi láthair, rud a chuireann coinbhleacht le {feature}. Déan an líonra AstroWrap a athshocrú le do thoil chun leanúint ar aghaidh."
+        "astro_node_conflicts_with_feature_tips": "Tá coimhlint idir an Astro Node agus do shocruithe {feature}. Díchumasaigh {feature} le dul ar aghaidh nó bain úsáid as mód Local Mogall Node Amháin.",
+        "get_pairing_code_failed_msg": "Theip ar an gcód péireála a fháil. Déan iarracht arís ar ball.",
+        "get_pairing_code_failed_check_cloud_msg": "Theip ar an gcód péireála a fháil. Seiceáil do nasc scamall agus déan iarracht arís ar ball.",
+        "joined_failed_tips": "Ní féidir an ghné Astro a chumasú ar {node}. Déan cinnte go bhfuil an nód ceangailte leis an scamall, ansin bain triail eile as.",
+        "net_conflict_tips": "Tá folíonra LAN reatha ag teacht salach ar fholíonra do phríomh-ródaire. {changeLan} chuig folíonra eile, amhail 192.168.18.1.",
+        "change_lanip_address": "Athraigh seoladh IP an LAN",
+        "prepare_your_devices_three_tips": "3. Athraigh iad go mód {node}.",
+        "set_astro_mesh_to_local_only_tips": "Coinbhleacht le AstroMesh. Chun leanúint ar aghaidh, socraigh AstroMesh go Nód Mogall Logánta Amháin.",
+        "change_to": "Athraíodh seoladh IP an ródaire go rathúil go",
+        "enabled_astrowrap_tips": "Tá AstroLink gníomhach faoi láthair, rud a thagann salach ar {feature}. Athshocraigh líonra AstroLink chun leanúint ar aghaidh."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -175,10 +178,13 @@
         "connect_to_astro_mesh_network_tips": "Ceangail le líonra AstroMesh chun rochtain a fháil ar do líonra baile am ar bith, áit ar bith.",
         "join_astro_mesh_network_tips": "Bí páirteach i do líonra AstroMesh chun ceangal le líonra an phríomhródaire agus tú ag taisteal.",
         "confirm_reset_astro_node_settings_tips": "An bhfuil tú cinnte gur mian leat socruithe AstroNode a athshocrú?",
-        "join_astro_mesh_network_failed_tips": "Theip ar theacht isteach sa líonra AstroMesh.",
-        "check_cloud_connection_and_retry_tips": "Seiceáil do nasc scamall agus déan iarracht arís níos déanaí.",
+        "join_astro_mesh_network_failed_tips": "Theip ar dhul isteach i líonra AstroMesh.",
+        "check_cloud_connection_and_retry_tips": "Seiceáil do nasc scamall agus déan iarracht arís ar ball.",
         "pairing_succeeded_connecting_tips": "D'éirigh le péireáil. Ag ceangal...",
         "main_router_exit_node_all_traffic_tips": "Nuair a bheidh sé nasctha, feidhmeoidh an Príomh-Ródaire mar an nód amach, ag ródú gach tráchta trína líonra baile."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Athshocraigh"
+    }
 }

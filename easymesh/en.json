@@ -77,10 +77,9 @@
         "do_not_power_off_tips": "Do not power off or operate the node during this process.",
         "you_can_check_node_tips": "You can check the firmware version in the node information page once complete.",
         "add_easyMesh_devices_title": "Add AstroMesh Node of GL.iNet",
-        "prepare_your_devices_label": "Prepare Your GL-iNet Devices:",
+        "prepare_your_devices_label": "Prepare Your GL.iNet Devices:",
         "prepare_your_devices_one_tips": "1. Make sure your devices support AstroMesh. You may need to update the firmware for earlier models.",
         "prepare_your_devices_two_tips": "2. Power on the devices near the Main Router.",
-        "prepare_your_devices_three_tips": "3. Switch them to Mesh/Astro Node mode.",
         "no_devices_detected_tips": "No AstroMesh Nodes detected.",
         "ensure_easyMesh_supported_tips": "Ensure AstroMesh is supported and enabled, and move the device closer to the main router if needed.",
         "searching_easyMesh_agents_tips": "Searching for nearby AstroMesh Nodes...",
@@ -108,7 +107,7 @@
         "mesh_node_tips": "{meshNode}: this mode extends the Wi-Fi coverage of the Main Router locally using EasyMesh.",
         "main_router_tips": "This mode connects to the Internet and manages all Mesh Nodes. It serves as the exit node for all remote Astro Nodes.",
         "mesh_astro_node_label": "Mesh/Astro Node",
-        "astro_node_tips": "{astroNode}: this mode extends the home network to remote sites using AstroWarp.",
+        "astro_node_tips": "{astroNode}: this mode extends the home network to remote sites.",
         "mesh_node_label": "Mesh Node",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "Select the mode for this router",
@@ -121,7 +120,7 @@
         "mesh_node_only_desc": "In this mode, all Astro Nodes cannot connect to your home network. You can still use the Mesh nodes with AstroMesh. Additionally, you can use other networking features like Tailscale and ZeroTier.",
         "astro_node_switch": "Astro Node Switch",
         "allow_astro_node_tips": "Astro Nodes currently have access to your home network via this Main Router, using it as the exit node.",
-        "mesh_node_only_label": "Mesh Node Only",
+        "mesh_node_only_label": "Local Mesh Node Only",
         "allow_astro_node_label": "Allow Astro Node",
         "allow_astro_node_desc": "This mode allows your Astro Nodes to connect to your home network and use it as the exit node. However, networking features such as Tailscale and ZeroTier are not available in this mode.",
         "mesh_node_only_tips": "All Astro Nodes are currently blocked from accessing your home network of this Main Router.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "All current AstroMesh settings will be cleared, and the Mesh Nodes will be reset to factory settings.",
         "aw_pending_tips": "Cannot connect to your Main Router, and AstroMesh network is currently unavailable. Please check the Main Router's network connection status.",
         "cloud_service_not_working_tips": "The cloud service is not working well, and Astro nodes may not be connected. Please check the network connection status.",
-        "net_conflict_tips": "The current LAN subnet conflicts with your Main Router's. Please modify the LAN network to another subnet.",
-        "joined_other_tips": "{node} is already added to your AstroWarp network. Please remove its settings from the AstroWarp Cloud to proceed.",
+        "joined_other_tips": "{node} is already added to your AstroLink network. Please remove its settings from the AstroLink Cloud to proceed.",
         "disabled_5g_main_wifi_tips": "5G Wi-Fi is currently disabled, so it is not available to add mesh/astro nodes.",
         "please_enter_pairing_code_tips": "Please enter this pairing code in {mode}.",
         "using_pairing_code_label": "Using {mode} Pairing Code",
-        "astro_node_conflicts_with_feature_tips": "The Astro Node conflicts with your {feature} settings. Disable {feature} to proceed or use Mesh Node only mode.",
+        "astro_node_conflicts_with_feature_tips": "The Astro Node conflicts with your {feature} settings. Disable {feature} to proceed or use Local Mesh Node Only mode.",
         "get_pairing_code_failed_msg": "Failed to get pairing code. Please try again later.",
         "get_pairing_code_failed_check_cloud_msg": "Failed to get pairing code. Please check your cloud connection and try again later.",
-        "joined_failed_tips": "Unable to enable Astro feature on {node}. Please check your cloud connection and try again later.",
-        "enabled_astrowrap_tips": "AstroWrap is currently active, which conflicts with {feature}. Please reset the AstroWrap network to proceed."
+        "joined_failed_tips": "Unable to enable the Astro feature on {node}. Make sure the node is connected to the cloud, then try again.",
+        "net_conflict_tips": "The current LAN subnet conflicts with your main router’s subnet. Please {changeLan} to a different subnet, such as 192.168.18.1.",
+        "change_lanip_address": "change the LAN IP address",
+        "prepare_your_devices_three_tips": "3. Switch them to {node} mode.",
+        "set_astro_mesh_to_local_only_tips": "Conflicts with AstroMesh. To proceed, please set AstroMesh to Local Mesh Node Only.",
+        "change_to": "The router's IP address has been successfully changed to",
+        "enabled_astrowrap_tips": "AstroLink is currently active, which conflicts with {feature}. Please reset the AstroLink network to proceed."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Pairing succeeded. Connecting...",
         "main_router_exit_node_all_traffic_tips": "Once connected, the Main Router will serve as the exit node, routing all traffic through its home network."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Reset"
+    }
 }

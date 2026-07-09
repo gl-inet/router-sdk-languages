@@ -106,7 +106,8 @@
         "err_display_name_max_length": "İsim 32 karakter veya daha az olmalıdır.",
         "hostname_tips": "2-63 karakter. Sadece harfler, rakamlar veya kısa çizgilere izin verilir. Bir harf veya rakamla başlamalı ve bitmeli ve yalnızca rakamlardan oluşamaz.",
         "not_asscess_tips": "Şu anda {name} ağ segmentlerine {net} erişemiyor.",
-        "err_vlan_id_must_be_integer": "VLAN ID bir tam sayı olmalıdır."
+        "err_vlan_id_must_be_integer": "VLAN ID bir tam sayı olmalıdır.",
+        "ip_conflicts_with_interface_ip": "IP adresi, mevcut alt ağın arayüz IP'si ile çakışıyor."
     },
     "menu_vlan": "Alt ağ",
     "menu_guestip": "Misafir Ağı",

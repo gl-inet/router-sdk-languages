@@ -351,7 +351,7 @@
         "expressvpn_custom_dashboard_redeemed_title": "Forfait 12 mois utilisé",
         "expressvpn_custom_dashboard_redeemed_desc": "Utilisé par {account} le {date}. Le forfait 12 mois a été ajouté à ce compte ExpressVPN. Le crédit d’utilisation de ce routeur est maintenant utilisé — tous les autres comptes avec lesquels vous vous connectez sur ce routeur continueront à utiliser leur propre abonnement existant.",
         "expressvpn_custom_redeemed_prompt_title": "Connexion",
-        "expressvpn_custom_redeemed_prompt_desc": "Le forfait gratuit de 12 mois de ce routeur a été utilisé et ajouté à un compte ExpressVPN.",
+        "expressvpn_custom_redeemed_prompt_desc": "Le plan de 12 mois inclus de ce routeur a été échangé et ajouté à un compte ExpressVPN.",
         "expressvpn_custom_redeemed_already_title": "Forfait 12 mois déjà utilisé",
         "expressvpn_custom_redeemed_claimed_by": "Compte lié",
         "expressvpn_custom_redeemed_claimed_time": "Heure de liaison",
@@ -370,7 +370,7 @@
         "expressvpn_custom_feature_speed_title": "Vitesse ultra-rapide",
         "expressvpn_custom_feature_network_title": "Réseau mondial de serveurs",
         "expressvpn_custom_get_started_tip": "Acceptez maintenant, vous pourrez toujours ajouter manuellement des profils VPN plus tard.",
-        "expressvpn_custom_redeem_desc": "Ce routeur co-marqué peut échanger un forfait ExpressVPN gratuit de 12 mois. GL.iNet Cloud vérifie d'abord l'éligibilité de ce matériel et de la commande, puis ExpressVPN finalise le paiement promotionnel dans votre navigateur.",
+        "expressvpn_custom_redeem_desc": "Ce routeur co-marqué permet de bénéficier d’un abonnement ExpressVPN de 12 mois inclus (valable pour les nouveaux comptes ou les comptes sans abonnement actif). GL.iNet Cloud vérifie d’abord l’éligibilité de ce matériel et de la commande, puis ExpressVPN finalise le processus promotionnel dans votre navigateur.",
         "expressvpn_custom_order_id_label": "Identifiant de commande",
         "expressvpn_custom_promo_desc_order": "Utilisez votre identifiant de commande, finalisez le paiement ExpressVPN, puis autorisez ce routeur.",
         "expressvpn_custom_expiration_label": "Date d'expiration",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_login_desc_line1": "Félicitations ! Vous avez réclamé avec succès le forfait 12 mois. Veuillez vous connecter à votre compte.",
         "expressvpn_custom_redeemed_login_desc_line2": "Après connexion, vous pourrez utiliser tous les services sur votre routeur.",
         "expressvpn_custom_signin_new_tab_tip": "Un nouvel onglet s’ouvrira sur la page de connexion sécurisée d’ExpressVPN.",
-        "expressvpn_custom_order_placeholder": "p. ex. 113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "p. ex. 113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "Réclamer le forfait de 12 mois",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_placeholder": "E-mail utilisé pour votre commande GL.iNet Store",
+        "expressvpn_custom_credentials_error": "Échec de la vérification. Identifiants invalides ou déjà activés, ils ne peuvent pas être réutilisés.",
+        "expressvpn_custom_claim_dialog_desc": "Saisissez les identifiants de votre achat de routeur. Vous finaliserez la réclamation sur ExpressVPN, puis reviendrez ici pour autoriser ce routeur.",
+        "expressvpn_custom_purchase_source_label": "Source d’achat",
+        "expressvpn_custom_order_email_label": "E-mail de commande",
+        "expressvpn_custom_checkout_opened": "La page de paiement ExpressVPN s’est ouverte dans un nouvel onglet.",
+        "expressvpn_custom_glinet_order_placeholder": "p. ex. GL-1234",
+        "number_allowed_devices_label": "Nombre d’appareils autorisés",
+        "wg_xvpn_limit_tips": "Le compte a atteint le nombre maximal d’appareils liés. Veuillez accéder à {provider} pour dissocier un appareil."
     },
     "menu_wgserver": "Serveur Wireguard",
     "menu_ovpnserver": "Serveur OpenVPN",
@@ -428,7 +440,13 @@
         "expressvpn_login_expired_msg": "La session de connexion a expiré. Veuillez réessayer.",
         "expressvpn_business_msg": "La demande ExpressVPN a été rejetée. Veuillez vérifier l'état du compte ou de l'appareil.",
         "expressvpn_internal_msg": "Erreur du service ExpressVPN. Veuillez réessayer plus tard.",
-        "expressvpn_no_subscription_msg": "Aucun abonnement ExpressVPN actif n'a été trouvé pour ce compte."
+        "expressvpn_no_subscription_msg": "Aucun abonnement ExpressVPN actif n'a été trouvé pour ce compte.",
+        "premium_account_required_msg": "Un abonnement Premium est requis. Veuillez renouveler votre licence.",
+        "provider_token_invalid_msg": "Le jeton est invalide. Veuillez vous reconnecter pour rétablir votre connexion.",
+        "credentials_changed_msg": "Vos identifiants ont été modifiés. Veuillez vous reconnecter.",
+        "account_disabled_msg": "Votre compte a été désactivé. Veuillez contacter l’assistance XVPN.",
+        "device_token_expired_msg": "Le jeton est invalide. Veuillez vous reconnecter pour rétablir votre connexion.",
+        "device_bind_failed_msg": "Impossible d’associer ce routeur à votre compte. Veuillez vérifier votre connexion réseau et réessayer."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Ajoutez un client à la liste des tunnels basés sur la politique VPN. Si vous souhaitez apporter des modifications plus détaillées aux tunnels, veuillez vous rendre sur la {page} pour gérer les tunnels.",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "Pour gérer les tunnels, veuillez visiter la {page}.",
         "remove_config_btn": "Supprimer les configurations",
         "reomving_config_warning_tips": "Êtes-vous sûr de vouloir supprimer ?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) entre en conflit avec {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) entre en conflit avec {interface}.",
+        "groups_expressvpn_desc": "Vous préférez utiliser {custom} ? Créez un nouveau groupe pour ajouter vos fichiers de configuration.",
+        "two_factor_authentication_title": "Authentification à deux facteurs",
+        "two_factor_authentication_desc": "Saisissez le code OTP à 6 chiffres de votre application d’authentification pour terminer la connexion.",
+        "two_factor_verification_failed_tips": "Échec de la vérification. Assurez-vous de saisir le bon code.",
+        "two_factor_verifying_tips": "Vérification en cours, veuillez patienter un instant...",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Ancien",

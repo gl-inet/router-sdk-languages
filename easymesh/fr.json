@@ -72,7 +72,6 @@
         "you_can_check_node_tips": "Vous pouvez vérifier la version du firmware dans la page d'informations du nœud une fois terminé.",
         "prepare_your_devices_label": "Préparez vos appareils GL.iNet :",
         "prepare_your_devices_one_tips": "Assurez-vous que vos appareils prennent en charge AstroMesh. Vous devrez peut-être mettre à jour le firmware pour les modèles plus anciens.",
-        "prepare_your_devices_three_tips": "3. Passez-les en mode Mesh/Astro Node.",
         "no_devices_detected_tips": "Aucun nœud AstroMesh détecté.",
         "searching_easyMesh_agents_tips": "Recherche des nœuds AstroMesh à proximité...",
         "adding_device_tips": "Ajout de l'appareil...",
@@ -108,7 +107,7 @@
         "main_router_tips": "Ce mode se connecte à Internet et gère tous les nœuds Mesh. Il sert de nœud de sortie pour tous les nœuds Astro distants.",
         "mesh_astro_node_label": "Mesh/Nœud Astro",
         "mesh_node_tips": "{meshNode} : ce mode étend localement la couverture Wi-Fi du routeur principal en utilisant EasyMesh.",
-        "astro_node_tips": "{astroNode} : ce mode étend le réseau domestique aux sites distants en utilisant AstroWarp.",
+        "astro_node_tips": "{astroNode} : ce mode étend le réseau domestique aux sites distants.",
         "mesh_node_label": "Nœud Maillage",
         "astro_node_label": "Astro Node",
         "select_router_mode_label": "Sélectionnez le mode pour ce routeur",
@@ -120,7 +119,7 @@
         "this_router_mode_title": "Mode de ce routeur : {mode}",
         "mesh_node_only_desc": "Dans ce mode, tous les nœuds Astro ne peuvent pas se connecter à votre réseau domestique. Vous pouvez toujours utiliser les nœuds Mesh avec AstroMesh. De plus, vous pouvez utiliser d'autres fonctionnalités de mise en réseau comme Tailscale et ZeroTier.",
         "astro_node_switch": "Astro Node Switch",
-        "mesh_node_only_label": "Nœud de Maillage Uniquement",
+        "mesh_node_only_label": "Nœud Mesh Local Uniquement",
         "allow_astro_node_label": "Autoriser le nœud Astro",
         "allow_astro_node_desc": "Ce mode permet à vos nœuds Astro de se connecter à votre réseau domestique et de l'utiliser comme nœud de sortie. Cependant, les fonctionnalités de mise en réseau telles que Tailscale et ZeroTier ne sont pas disponibles dans ce mode.",
         "mesh_node_only_tips": "Tous les nœuds Astro sont actuellement bloqués pour accéder à votre réseau domestique depuis ce routeur principal.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Tous les paramètres actuels d'AstroMesh seront effacés, et les nœuds Mesh seront réinitialisés aux paramètres d'usine.",
         "aw_pending_tips": "Impossible de se connecter à votre routeur principal, et le réseau AstroMesh est actuellement indisponible. Veuillez vérifier l'état de la connexion réseau du routeur principal.",
         "cloud_service_not_working_tips": "Le service cloud ne fonctionne pas correctement, et les nœuds Astro peuvent ne pas être connectés. Veuillez vérifier l'état de la connexion réseau.",
-        "net_conflict_tips": "Le sous-réseau LAN actuel entre en conflit avec celui de votre routeur principal. Veuillez modifier le réseau LAN pour un autre sous-réseau.",
-        "joined_other_tips": "{node} est déjà ajouté à votre réseau AstroWarp. Veuillez supprimer ses paramètres depuis le cloud AstroWarp pour continuer.",
+        "joined_other_tips": "{node} est déjà ajouté à votre réseau AstroLink. Veuillez supprimer ses paramètres depuis le cloud AstroLink pour continuer.",
         "disabled_5g_main_wifi_tips": "Le Wi-Fi 5G est actuellement désactivé, il n'est donc pas possible d'ajouter des nœuds mesh/astro.",
         "please_enter_pairing_code_tips": "Veuillez saisir ce code d'appairage dans {mode}.",
         "using_pairing_code_label": "Utilisation du code d’appairage {mode}",
-        "astro_node_conflicts_with_feature_tips": "L'Astro Node entre en conflit avec vos paramètres {feature}. Désactivez {feature} pour continuer ou utilisez le mode Mesh Node uniquement.",
+        "astro_node_conflicts_with_feature_tips": "Le nœud Astro entre en conflit avec vos paramètres {feature}. Désactivez {feature} pour continuer ou utilisez le mode nœud maillé local uniquement.",
         "get_pairing_code_failed_msg": "Échec de l'obtention du code d'appairage. Veuillez réessayer plus tard.",
         "get_pairing_code_failed_check_cloud_msg": "Échec de l'obtention du code d'appairage. Veuillez vérifier votre connexion cloud et réessayer plus tard.",
-        "joined_failed_tips": "Impossible d'activer la fonction Astro sur {node}. Veuillez vérifier votre connexion cloud et réessayer ultérieurement.",
-        "enabled_astrowrap_tips": "AstroWrap est actuellement actif, ce qui entre en conflit avec {feature}. Veuillez réinitialiser le réseau AstroWrap pour continuer."
+        "joined_failed_tips": "Impossible d'activer la fonction Astro sur {node}. Assurez-vous que le nœud est connecté au cloud, puis réessayez.",
+        "net_conflict_tips": "Le sous-réseau LAN actuel est en conflit avec le sous-réseau de votre routeur principal. Veuillez {changeLan} afin d’utiliser un autre sous-réseau, par exemple 192.168.18.1.",
+        "change_lanip_address": "modifier l’adresse IP du LAN",
+        "prepare_your_devices_three_tips": "3. Passez-les en mode {node}.",
+        "set_astro_mesh_to_local_only_tips": "Conflits avec AstroMesh. Pour continuer, veuillez définir AstroMesh sur Local Mesh Node Only.",
+        "change_to": "L’adresse IP du routeur a été modifiée avec succès en",
+        "enabled_astrowrap_tips": "AstroLink est actuellement actif, ce qui entre en conflit avec {feature}. Veuillez réinitialiser le réseau AstroLink pour continuer."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Appairage réussi. Connexion en cours...",
         "main_router_exit_node_all_traffic_tips": "Une fois connecté, le routeur principal servira de nœud de sortie, acheminant tout le trafic via son réseau domestique."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Réinitialiser"
+    }
 }

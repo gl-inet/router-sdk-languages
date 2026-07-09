@@ -106,7 +106,8 @@
         "err_display_name_max_length": "名称不能超过32个字符。",
         "hostname_tips": "2-63个字符。仅允许字母、数字或连字符。必须以字母或数字开头和结尾，且不能全部由数字组成。",
         "not_asscess_tips": "当前 {name} 无法访问网络段 {net}。",
-        "err_vlan_id_must_be_integer": "VLAN ID 必须是一个整数。"
+        "err_vlan_id_must_be_integer": "VLAN ID 必须是一个整数。",
+        "ip_conflicts_with_interface_ip": "IP 地址与当前子网的接口 IP 冲突。"
     },
     "menu_vlan": "子网",
     "menu_guestip": "访客网络",

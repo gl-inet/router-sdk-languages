@@ -106,7 +106,8 @@
         "err_display_name_max_length": "名前は32文字以内である必要があります。",
         "hostname_tips": "2～63文字。英字、数字、ハイフンのみ使用可能。先頭と末尾は英字または数字でなければならず、数字のみで構成することはできません。",
         "not_asscess_tips": "現在、{name}はネットワークセグメント{net}にアクセスできません。",
-        "err_vlan_id_must_be_integer": "VLAN IDは整数である必要があります。"
+        "err_vlan_id_must_be_integer": "VLAN IDは整数である必要があります。",
+        "ip_conflicts_with_interface_ip": "IPアドレスが現在のサブネットのインターフェースIPと競合しています。"
     },
     "menu_vlan": "サブネット",
     "menu_guestip": "ゲストネットワーク",

@@ -1,28 +1,28 @@
 {
-    "menu_advanced": "고급 설정",
-    "advanced": {
-        "note_one": "OpenWrt의 기본 웹 사용자 인터페이스인 LuCI를 사용하여 고급 설정을 수정할 수 있습니다. LuCI는 OpenWrt에서 유지 관리하는 개방적이고 독립적인 프로젝트입니다.",
-        "note_two": "LuCI의 유지보수는 GL.iNet에서 책임지지 않습니다.",
-        "go_to_luci_btn": "LuCI로 이동",
-        "luci_security_tips": "LuCI 보안을 위해 원격으로 LuCI에 접속해야 하는 경우, LuCI 포트를 수동으로 열어 주십시오.",
-        "luci_rtty_tips": "rtty를 통해 원격으로 LuCI에 접속해야 하는 경우, 클라우드 플랫폼에서 {port} 포트로 LuCI에 접속하십시오."
-    },
-    "luci": {
-        "install_tips": "LuCI로 고급 설정 수정",
-        "install_power_by_tips": "LuCI는 OpenWrt에서 유지 관리하는 개방적이고 독립적인 프로젝트입니다.",
-        "install_btn": "지금 설치",
-        "insatlling_tips": "설치 중...",
-        "install_fail_tips": "설치 실패",
-        "check_network_tips": "네트워크 연결을 확인해 주세요.",
-        "re_install_btn": "재설치",
-        "out_of_memory_tips": "설치할 공간이 부족합니다.",
-        "uninsatlling_tips": "제거 중...",
-        "need_uninstall_tips": "필요하지 않다면 {do}할 수 있습니다.",
-        "uninstall_luci_btn": "LuCI 제거",
-        "uninstall_wraning_tips": "LuCI을 제거하시겠습니까?",
-        "uninstall_wraning_remove_dep_tips": "이 작업은 LuCI 및 관련된 모든 종속성을 제거합니다.",
-        "uninstall_btn": "제거",
-        "uninstall_done_tips": "제거 완료",
-        "uninstall_done_desc": "언제든지 다시 설치할 수 있습니다."
-    }
+  "menu_advanced": "고급 설정",
+  "advanced": {
+    "note_one": "OpenWrt의 기본 웹 사용자 인터페이스인 LuCI를 사용하여 고급 설정을 수정할 수 있습니다. LuCI는 OpenWrt에서 유지 관리하는 개방적이고 독립적인 프로젝트입니다.",
+    "note_two": "LuCI의 유지보수는 GL.iNet에서 책임지지 않습니다.",
+    "go_to_luci_btn": "LuCI로 이동",
+    "luci_security_tips": "LuCI 보안을 위해 원격으로 LuCI에 접속해야 하는 경우, LuCI 포트를 수동으로 열어 주십시오.",
+    "luci_rtty_tips": "rtty를 통해 원격으로 LuCI에 접속해야 하는 경우, 클라우드 플랫폼에서 {port} 포트로 LuCI에 접속하십시오."
+  },
+  "luci": {
+    "install_tips": "LuCI로 고급 설정 수정",
+    "install_power_by_tips": "LuCI는 OpenWrt에서 유지 관리하는 개방적이고 독립적인 프로젝트입니다.",
+    "install_btn": "지금 설치",
+    "insatlling_tips": "설치 중...",
+    "install_fail_tips": "설치 실패",
+    "check_network_tips": "네트워크 연결을 확인해 주세요.",
+    "re_install_btn": "재설치",
+    "out_of_memory_tips": "설치할 공간이 부족합니다.",
+    "uninsatlling_tips": "제거 중...",
+    "need_uninstall_tips": "필요하지 않다면 {do}할 수 있습니다.",
+    "uninstall_luci_btn": "LuCI 제거",
+    "uninstall_wraning_tips": "LuCI을 제거하시겠습니까?",
+    "uninstall_wraning_remove_dep_tips": "이 작업은 LuCI 및 관련된 모든 종속성을 제거합니다.",
+    "uninstall_btn": "제거",
+    "uninstall_done_tips": "제거 완료",
+    "uninstall_done_desc": "언제든지 다시 설치할 수 있습니다."
+  }
 }

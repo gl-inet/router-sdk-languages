@@ -62,7 +62,6 @@
         "you_can_check_node_tips": "Puede comprobar la versión de firmware en la página de información del nodo una vez finalizado.",
         "prepare_your_devices_label": "Prepare sus dispositivos GL.iNet:",
         "prepare_your_devices_two_tips": "2. Encienda los dispositivos cerca del Router principal.",
-        "prepare_your_devices_three_tips": "3. Cámbielos al modo Mesh/Astro Node.",
         "ensure_easyMesh_supported_tips": "Asegúrese de que AstroMesh sea compatible y esté habilitado, y acerque el dispositivo al router principal si es necesario.",
         "searching_easyMesh_agents_tips": "Buscando nodos AstroMesh cercanos...",
         "add_device_success_tips": "Este dispositivo se ha añadido correctamente.",
@@ -108,7 +107,7 @@
         "main_router_tips": "Este modo se conecta a Internet y gestiona todos los nodos Mesh. Actúa como nodo de salida para todos los nodos Astro remotos.",
         "mesh_astro_node_label": "Malla/Nodo Astro",
         "mesh_node_tips": "{meshNode}: este modo extiende la cobertura Wi-Fi del Router Principal localmente mediante EasyMesh.",
-        "astro_node_tips": "{astroNode}: este modo extiende la red doméstica a sitios remotos utilizando AstroWarp.",
+        "astro_node_tips": "{astroNode}: este modo extiende la red doméstica a sitios remotos.",
         "mesh_node_label": "Nodo de Malla",
         "astro_node_label": "Nodo Astro",
         "select_router_mode_label": "Seleccione el modo para este router",
@@ -120,7 +119,7 @@
         "this_router_mode_title": "Modo de este router: {mode}",
         "astro_node_switch": "Astro Node Switch",
         "allow_astro_node_tips": "Los nodos de Astro actualmente tienen acceso a tu red doméstica a través de este Router Principal, utilizándolo como nodo de salida.",
-        "mesh_node_only_label": "Solo Nodo de Malla",
+        "mesh_node_only_label": "Nodo de Malla Local Solamente",
         "allow_astro_node_label": "Permitir Nodo Astro",
         "allow_astro_node_desc": "Este modo permite que tus Astro Nodes se conecten a tu red doméstica y la utilicen como nodo de salida. Sin embargo, las funciones de red como Tailscale y ZeroTier no están disponibles en este modo.",
         "mesh_node_only_tips": "Todos los nodos de Astro están actualmente bloqueados para acceder a su red doméstica de este Router Principal.",
@@ -158,16 +157,20 @@
         "reset_mode_tips2": "Todos los ajustes actuales de AstroMesh se borrarán y los nodos de la malla se restablecerán a la configuración de fábrica.",
         "aw_pending_tips": "No se puede conectar a su Router Principal, y la red AstroMesh no está disponible actualmente. Verifique el estado de la conexión de red del Router Principal.",
         "cloud_service_not_working_tips": "El servicio en la nube no funciona correctamente, y los nodos Astro pueden no estar conectados. Por favor, verifique el estado de la conexión de red.",
-        "net_conflict_tips": "La subred LAN actual está en conflicto con la de su enrutador principal. Modifique la red LAN a otra subred.",
-        "joined_other_tips": "{node} ya se ha añadido a tu red AstroWarp. Por favor, elimina su configuración de AstroWarp Cloud para continuar.",
+        "joined_other_tips": "{node} ya se ha añadido a tu red AstroLink. Por favor, elimina su configuración de AstroLink Cloud para continuar.",
         "disabled_5g_main_wifi_tips": "El Wi-Fi de 5 GHz está actualmente desactivado, por lo que no es posible agregar nodos mesh/astro.",
         "please_enter_pairing_code_tips": "Por favor, ingrese este código de emparejamiento en {mode}.",
         "using_pairing_code_label": "Usando {mode} código de emparejamiento",
-        "astro_node_conflicts_with_feature_tips": "El Astro Node entra en conflicto con la configuración de {feature}. Deshabilite {feature} para continuar o utilice solo el modo Mesh Node.",
+        "astro_node_conflicts_with_feature_tips": "El Astro Node entra en conflicto con la configuración de {feature}. Deshabilite {feature} para continuar o use el modo solo de nodo de malla local.",
         "get_pairing_code_failed_msg": "No se pudo obtener el código de emparejamiento. Inténtalo de nuevo más tarde.",
         "get_pairing_code_failed_check_cloud_msg": "No se pudo obtener el código de emparejamiento. Por favor, verifique su conexión a la nube e inténtelo de nuevo más tarde.",
-        "joined_failed_tips": "No se puede habilitar la función Astro en {node}. Verifique su conexión a la nube e intente nuevamente más tarde.",
-        "enabled_astrowrap_tips": "AstroWrap está actualmente activo, lo que entra en conflicto con {feature}. Por favor, restablezca la red de AstroWrap para continuar."
+        "joined_failed_tips": "No se puede habilitar la función Astro en {node}. Asegúrese de que el nodo esté conectado a la nube y vuelva a intentarlo.",
+        "net_conflict_tips": "La subred LAN actual entra en conflicto con la subred de su router principal. {changeLan} a una subred diferente, como 192.168.18.1.",
+        "change_lanip_address": "cambiar la dirección IP de la LAN",
+        "prepare_your_devices_three_tips": "3. Cámbielos al modo {node}.",
+        "set_astro_mesh_to_local_only_tips": "Conflictos con AstroMesh. Para continuar, configure AstroMesh en Solo nodo de malla local.",
+        "change_to": "La dirección IP del router se ha cambiado correctamente a",
+        "enabled_astrowrap_tips": "AstroLink está activo actualmente, lo que entra en conflicto con {feature}. Restablezca la red de AstroLink para continuar."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
@@ -180,5 +183,8 @@
         "pairing_succeeded_connecting_tips": "Emparejamiento exitoso. Conectando...",
         "main_router_exit_node_all_traffic_tips": "Una vez conectado, el Router Principal servirá como nodo de salida, enrutando todo el tráfico a través de su red local."
     },
-    "menu_astronode": "AstroNode"
+    "menu_astronode": "AstroNode",
+    "astromesh": {
+        "reset_btn": "Restablecer"
+    }
 }

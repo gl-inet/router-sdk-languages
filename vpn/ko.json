@@ -341,7 +341,7 @@
         "expressvpn_custom_get_started_btn": "시작하세요",
         "expressvpn_custom_get_started_tip": "지금 동의하면, 나중에 수동으로 VPN 프로필을 추가할 수 있습니다.",
         "expressvpn_custom_redeem_title": "GL.iNet x ExpressVPN 요금제 이용하기",
-        "expressvpn_custom_redeem_desc": "이 공동 브랜드 라우터는 1회 한정으로 12개월 ExpressVPN 요금제를 무료로 이용할 수 있습니다. GL.iNet Cloud가 먼저 하드웨어와 주문 적격성을 확인한 후, ExpressVPN이 브라우저에서 프로모션 결제를 완료합니다.",
+        "expressvpn_custom_redeem_desc": "이 공동 브랜드 라우터는 포함된 12개월 ExpressVPN 요금제를 사용할 수 있습니다(신규 계정 또는 활성 구독이 없는 계정에 적용). GL.iNet Cloud가 먼저 이 하드웨어와 주문 자격을 확인한 다음, ExpressVPN이 브라우저에서 프로모션 결제를 완료합니다.",
         "expressvpn_custom_promo_title": "무료 12개월 요금제 이용 가능",
         "expressvpn_custom_order_id_label": "주문 식별자",
         "expressvpn_custom_login_without_activation": "활성화 없이 로그인",
@@ -355,7 +355,7 @@
         "expressvpn_custom_signin_title": "ExpressVPN 로그인",
         "expressvpn_custom_dashboard_redeemed_title": "12개월 요금제 사용 완료",
         "expressvpn_custom_redeemed_prompt_title": "로그인",
-        "expressvpn_custom_redeemed_prompt_desc": "이 라우터의 무료 12개월 요금제가 사용되어 ExpressVPN 계정에 추가되었습니다.",
+        "expressvpn_custom_redeemed_prompt_desc": "이 라우터에 포함된 12개월 요금제가 이미 사용되어 ExpressVPN 계정에 추가되었습니다.",
         "expressvpn_custom_redeemed_already_title": "12개월 요금제가 이미 사용됨",
         "expressvpn_custom_redeemed_claimed_by": "연결된 계정",
         "expressvpn_custom_redeemed_claimed_time": "연결 시간",
@@ -382,7 +382,19 @@
         "expressvpn_custom_redeemed_notice_suffix": ". 12개월 요금제가 해당 ExpressVPN 계정에 추가되었습니다. 이 라우터의 교환 크레딧은 이제 사용되었습니다. 이 라우터에서 로그인하는 다른 계정은 각자의 기존 구독을 계속 사용합니다.",
         "expressvpn_custom_redeemed_login_desc_line1": "축하합니다! 12개월 요금제를 성공적으로 청구했습니다. 계정에 로그인하십시오.",
         "expressvpn_custom_redeemed_login_desc_line2": "로그인 후 라우터에서 모든 서비스를 사용할 수 있습니다.",
-        "expressvpn_custom_order_placeholder": "예: 113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "예: 113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "12개월 플랜 신청",
+        "expressvpn_custom_purchase_source_label": "구매처",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "GL.iNet Store",
+        "expressvpn_custom_order_email_label": "주문 이메일",
+        "expressvpn_custom_order_email_placeholder": "GL.iNet Store 주문에 사용한 이메일",
+        "expressvpn_custom_credentials_error": "인증에 실패했습니다. 자격 증명이 유효하지 않거나 이미 활성화되어 재사용할 수 없습니다.",
+        "expressvpn_custom_checkout_opened": "ExpressVPN 결제 페이지가 새 탭에서 열렸습니다.",
+        "expressvpn_custom_claim_dialog_desc": "라우터 구매 정보를 입력하세요. ExpressVPN에서 신청을 완료한 후 여기로 돌아와 이 라우터를 인증하세요.",
+        "expressvpn_custom_glinet_order_placeholder": "예: GL-1234",
+        "number_allowed_devices_label": "허용된 기기 수",
+        "wg_xvpn_limit_tips": "계정이 연결된 기기의 최대 한도에 도달했습니다. {provider}로 이동하여 기기 연결을 해제하세요."
     },
     "menu_wgserver": "WireGuard 서버",
     "menu_ovpnserver": "OpenVPN 서버",
@@ -428,7 +440,13 @@
         "expressvpn_login_expired_msg": "로그인 세션이 만료되었습니다. 다시 시도하십시오.",
         "expressvpn_no_subscription_msg": "이 계정에 대한 활성 ExpressVPN 구독을 찾을 수 없습니다.",
         "expressvpn_business_msg": "ExpressVPN 요청이 거부되었습니다. 계정 또는 장치 상태를 확인하십시오.",
-        "expressvpn_internal_msg": "ExpressVPN 서비스 오류가 발생했습니다. 나중에 다시 시도하십시오."
+        "expressvpn_internal_msg": "ExpressVPN 서비스 오류가 발생했습니다. 나중에 다시 시도하십시오.",
+        "provider_token_invalid_msg": "토큰이 유효하지 않습니다. 연결을 복원하려면 다시 로그인하세요.",
+        "credentials_changed_msg": "인증 정보가 변경되었습니다. 다시 로그인하세요.",
+        "device_token_expired_msg": "토큰이 유효하지 않습니다. 연결을 복원하려면 다시 로그인하세요.",
+        "device_bind_failed_msg": "이 라우터를 계정에 바인딩할 수 없습니다. 네트워크 연결을 확인한 후 다시 시도하세요.",
+        "premium_account_required_msg": "프리미엄 구독이 필요합니다. 라이선스를 갱신하세요.",
+        "account_disabled_msg": "계정이 비활성화되었습니다. XVPN 지원팀에 문의하세요."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN 정책 기반 터널 목록에 클라이언트를 추가하십시오. 터널에 대한 더 자세한 변경을 하고 싶다면 {page}로 이동하여 터널을 관리하십시오.",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "터널을 관리하려면 {page}를 방문하세요.",
         "remove_config_btn": "구성 삭제",
         "reomving_config_warning_tips": "삭제하시겠습니까?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address})가 {interface}와 충돌합니다."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address})가 {interface}와 충돌합니다.",
+        "groups_expressvpn_desc": "{custom} 사용을 원하시나요? 새 그룹을 만들어 구성 파일을 추가하세요.",
+        "two_factor_authentication_title": "2단계 인증",
+        "two_factor_authentication_desc": "로그인을 완료하려면 인증 앱의 6자리 OTP 코드를 입력하세요.",
+        "two_factor_verifying_tips": "확인 중입니다. 잠시만 기다려 주세요...",
+        "two_factor_verification_failed_tips": "확인에 실패했습니다. 올바른 코드를 입력했는지 확인하세요.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "레거시",

@@ -352,7 +352,7 @@
         "expressvpn_custom_signin_title": "Zaloguj się do ExpressVPN",
         "expressvpn_custom_dashboard_redeemed_title": "Plan 12-miesięczny zrealizowany",
         "expressvpn_custom_redeemed_prompt_title": "Zaloguj się",
-        "expressvpn_custom_redeemed_prompt_desc": "Bezpłatny Plan 12-miesięczny tego rutera został zrealizowany i dodany do konta ExpressVPN.",
+        "expressvpn_custom_redeemed_prompt_desc": "Plan 12-miesięczny dołączony do tego rutera został zrealizowany i dodany do konta ExpressVPN.",
         "expressvpn_custom_redeemed_already_title": "Plan 12-miesięczny został już zrealizowany",
         "expressvpn_custom_redeemed_claimed_by": "Powiązane konto",
         "expressvpn_custom_redeemed_claimed_time": "Czas powiązania",
@@ -372,7 +372,7 @@
         "expressvpn_custom_claim_btn": "Odbierz Plan 12-miesięczny",
         "expressvpn_custom_feature_network_desc": "Dostęp do lokalizacji serwerów w 105 krajach na całym świecie",
         "expressvpn_custom_dashboard_redeemed_desc": "Zrealizowane przez {account} dnia {date}. Plan 12-miesięczny został dodany do tego konta ExpressVPN. Kredyt realizacyjny tego rutera został już wykorzystany — wszystkie inne konta, na które zalogujesz się na tym ruterze, będą nadal korzystać z własnej istniejącej subskrypcji.",
-        "expressvpn_custom_redeem_desc": "Ten ruter marki partnerskiej umożliwia realizację jednego bezpłatnego planu ExpressVPN na 12 miesięcy. GL.iNet Cloud najpierw weryfikuje sprzęt i kwalifikowalność zamówienia, a następnie ExpressVPN przeprowadza promocyjną finalizację zakupu w Twojej przeglądarce.",
+        "expressvpn_custom_redeem_desc": "Ten router współmarkowy umożliwia skorzystanie z jednego z 12-miesięcznych abonamentów ExpressVPN (dotyczy nowych kont lub kont bez aktywnej subskrypcji). GL.iNet Cloud najpierw weryfikuje sprzęt i kwalifikowalność zamówienia, a następnie ExpressVPN finalizuje promocję w Twojej przeglądarce.",
         "expressvpn_custom_feature_speed_title": "Błyskawiczna Prędkość",
         "expressvpn_custom_redeemed_by_prefix": "Zrealizowane przez ",
         "expressvpn_custom_redeemed_on": " dnia ",
@@ -382,7 +382,19 @@
         "expressvpn_custom_signin_new_tab_tip": "Otworzy się nowa karta z bezpieczną stroną logowania ExpressVPN.",
         "expressvpn_custom_dashboard_desc_line1": "Jesteś zalogowany do ExpressVPN na tym routerze.",
         "expressvpn_custom_dashboard_desc_line2": "Otwórz panel ExpressVPN, aby dodać tunele, ustawić zasady routingu i wybrać spośród dostępnych lokalizacji serwerów.",
-        "expressvpn_custom_order_placeholder": "np.113-5829374-2938475"
+        "expressvpn_custom_order_placeholder": "np.113-5829374-2938475",
+        "expressvpn_custom_claim_dialog_title": "Odbierz plan 12-miesięczny",
+        "expressvpn_custom_purchase_source_label": "Źródło zakupu",
+        "expressvpn_custom_purchase_source_amazon": "Amazon",
+        "expressvpn_custom_purchase_source_glinet": "Sklep GL.iNet",
+        "expressvpn_custom_order_email_label": "Adres e-mail zamówienia",
+        "expressvpn_custom_order_email_placeholder": "Adres e-mail użyty przy zamówieniu w GL.iNet Store",
+        "expressvpn_custom_credentials_error": "Weryfikacja nie powiodła się. Nieprawidłowe dane uwierzytelniające lub już aktywowane, nie można ich użyć ponownie.",
+        "expressvpn_custom_checkout_opened": "Strona realizacji zakupu ExpressVPN została otwarta w nowej karcie.",
+        "expressvpn_custom_claim_dialog_desc": "Wprowadź dane uwierzytelniające z zakupu rutera. Zakończysz odbiór w ExpressVPN, a następnie wrócisz tutaj, aby autoryzować ten ruter.",
+        "expressvpn_custom_glinet_order_placeholder": "np. GL-1234",
+        "number_allowed_devices_label": "Liczba dozwolonych urządzeń",
+        "wg_xvpn_limit_tips": "Konto osiągnęło maksymalny limit połączonych urządzeń. Przejdź do {provider}, aby odłączyć urządzenie."
     },
     "menu_ovpnserver": "Serwer OpenVPN",
     "menu_wgclient": "Klient WireGuard",
@@ -428,7 +440,13 @@
         "expressvpn_login_expired_msg": "Sesja logowania wygasła. Spróbuj ponownie.",
         "expressvpn_no_subscription_msg": "Nie znaleziono aktywnej subskrypcji ExpressVPN dla tego konta.",
         "expressvpn_business_msg": "Żądanie ExpressVPN zostało odrzucone. Sprawdź stan konta lub urządzenia.",
-        "expressvpn_internal_msg": "Błąd usługi ExpressVPN. Spróbuj ponownie później."
+        "expressvpn_internal_msg": "Błąd usługi ExpressVPN. Spróbuj ponownie później.",
+        "provider_token_invalid_msg": "Token jest nieprawidłowy. Zaloguj się ponownie, aby przywrócić połączenie.",
+        "credentials_changed_msg": "Twoje dane logowania zostały zmienione. Zaloguj się ponownie.",
+        "device_token_expired_msg": "Token jest nieprawidłowy. Zaloguj się ponownie, aby przywrócić połączenie.",
+        "device_bind_failed_msg": "Nie można powiązać tego rutera z Twoim kontem. Sprawdź połączenie sieciowe i spróbuj ponownie.",
+        "premium_account_required_msg": "Wymagana jest subskrypcja Premium. Odnów licencję.",
+        "account_disabled_msg": "Twoje konto zostało dezaktywowane. Skontaktuj się z pomocą techniczną XVPN."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Dodaj klienta do listy tuneli zasad polityki VPN. Jeśli chcesz dokonać bardziej szczegółowych zmian w tunelach, przejdź do {page}, aby zarządzać tunelami.",
@@ -648,7 +666,13 @@
         "stop_config_visit_dashboard_tips": "Aby zarządzać tunelami, odwiedź stronę {page}.",
         "remove_config_btn": "Usuń Konfiguracje",
         "reomving_config_warning_tips": "Czy na pewno chcesz usunąć?",
-        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) koliduje z {interface}."
+        "address_conflict_common_tips": "{tunnel} {addressType} ({address}) koliduje z {interface}.",
+        "groups_expressvpn_desc": "Wolisz korzystać z {custom}? Utwórz nową grupę, aby dodać pliki konfiguracyjne.",
+        "two_factor_authentication_title": "Uwierzytelnianie dwuskładnikowe",
+        "two_factor_authentication_desc": "Wprowadź 6-cyfrowy kod OTP z aplikacji uwierzytelniającej, aby zakończyć logowanie.",
+        "two_factor_verifying_tips": "Weryfikowanie, poczekaj chwilę...",
+        "two_factor_verification_failed_tips": "Weryfikacja nie powiodła się. Upewnij się, że wprowadzasz prawidłowy kod.",
+        "amneziawg_label": "AmneziaWG 2.0"
     },
     "ovpnclient": {
         "legacy_label": "Starsze",
