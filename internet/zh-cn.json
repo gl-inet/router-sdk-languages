@@ -325,7 +325,8 @@
         "scan_nearby_towers_tips": "扫描附近的基站。此过程大约需要 120 秒。",
         "scan_available_carriers_tips": "扫描可用运营商。此过程大约需要 120 秒。",
         "band_masking_title": "频段屏蔽",
-        "minutes_value_label": "{count} 分钟"
+        "minutes_value_label": "{count} 分钟",
+        "network_type_conflicts_tips": "当前 SIM 卡网络类型为 {networkType}，与 {feature} 的网络类型冲突。"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
