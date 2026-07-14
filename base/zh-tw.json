@@ -1,10 +1,10 @@
 {
     "core": {
         "protocol": "協議",
-        "ip": "IP地址",
-        "ipv6": "IPv6地址",
+        "ip": "IP 地址",
+        "ipv6": "IPv6 地址",
         "gateway": "網關",
-        "dns": "DNS伺服器",
+        "dns": "DNS 伺服器",
         "netmask": "子網掩碼",
         "username": "帳號名稱",
         "password": "密碼",
@@ -123,7 +123,7 @@
         "attention_title": "注意",
         "remove_btn": "移除",
         "notice_title": "通知",
-        "use_weak_disabled_ssh_tips": "使用弱密碼將禁用SSH與串行輸入功能。",
+        "use_weak_disabled_ssh_tips": "使用弱密碼將禁用 SSH 與串行輸入功能。",
         "important_note": "重要",
         "export_btn": "導出",
         "example_label": "例如 {content}",
@@ -157,7 +157,7 @@
         "low_memory_tips": "由於記憶體不足，固件上傳失敗。請重啟設備或暫時關閉部分應用後重新嘗試升級。"
     },
     "internet": {
-        "lan_ip_tips": "LAN子網與WAN子網衝突，請$$$$修改LAN IP地址$$$$。",
+        "lan_ip_tips": "LAN 子網與 WAN 子網衝突，請$$$$修改 LAN IP 地址$$$$。",
         "getting": "正在獲取…",
         "connecting": "連接中…",
         "connected": "已連接",
@@ -176,7 +176,7 @@
         "random_btn": "隨機",
         "current_client_label": "當前用戶",
         "clone_mac_label": "克隆的 MAC 地址",
-        "hl_tips": "HL（Hop Limit），在 IPv6 中，該字段用於限制數據包在網路中的傳輸跳數，相當於 IPv4 的TTL。",
+        "hl_tips": "HL（Hop Limit），在 IPv6 中，該字段用於限制數據包在網路中的傳輸跳數，相當於 IPv4 的 TTL。",
         "net_trouble_guide_link": "網路故障處理指南",
         "disguise_mac_label": "偽裝的 MAC 地址",
         "random_mac_label": "隨機的 MAC 地址",
@@ -192,18 +192,18 @@
         "mtu_ipv6_warning_tips": "MTU 低於 1280 時 IPv6 無法工作。",
         "illegal_subnet_tips": "不合規的子網，最後三位比特必須爲 0。",
         "illegal_subnet_mask_tips": "不合規的掩碼，由於子網爲 {subnet}，掩碼不能小於 {min}。",
-        "auto_update_mac_strategy_label": "自動更新MAC策略",
+        "auto_update_mac_strategy_label": "自動更新 MAC 策略",
         "duplex_full_label": "{speed} Mbps 全雙工",
         "mode_label": "{tab}模式",
         "auto_update_mac_time_label": "按時間",
-        "auto_update_mac_label": "自動更新MAC",
-        "auto_update_mac_tips": "如果啟用此選項，MAC地址將可以自動更新。",
-        "mac_replacement_label": "MAC地址更換週期",
+        "auto_update_mac_label": "自動更新 MAC",
+        "auto_update_mac_tips": "如果啟用此選項，MAC 地址將可以自動更新。",
+        "mac_replacement_label": "MAC 地址更換週期",
         "mac_replacement_tips": "MAC 地址可以在更新時間點進行更新，如果該時間點 MAC 地址仍在使用中，則會在下次重新連接網路後更新。",
         "duplex_half_label": "{speed} Mbps 半雙工",
         "recheck_btn": "重新檢測",
         "mtu_common_tip": "請根據您的使用情況設定 MTU 值。不正確的設定可能會導致網路斷線。",
-        "custom_dns_setting_label": "自訂DNS設定",
+        "custom_dns_setting_label": "自訂 DNS 設定",
         "address_label": "地址",
         "iot_ip_tips": "IoT 子網與 WAN 子網衝突，請 {iotSubnet} 為不同的地址。",
         "change_iot_subnet": "更改 IoT 子網",
@@ -270,9 +270,9 @@
         "port_occupied_msg": "端口 {port} 已被佔用。"
     },
     "subscription": {
-        "url_label": "訂閱URL",
+        "url_label": "訂閱 URL",
         "manual_label": "手動",
-        "url_err_tips": "請輸入正確的URL連結。"
+        "url_err_tips": "請輸入正確的 URL 連結。"
     },
     "validate": {
         "not_allowed_only_spaces": "不允許僅使用空格。",
@@ -282,7 +282,7 @@
         "only_allowd_input_tips": "只允許輸入{limit}。",
         "only_num_letter_symbol_tips": "只允許字母、數字和符號{symbol}。",
         "min_max_length_tips": "{min} - {max} 個字符。",
-        "ipv6_limit_start_end_tips": "必須以{start}開頭，並以正確的IPv6地址{end}結尾。",
+        "ipv6_limit_start_end_tips": "必須以{start}開頭，並以正確的 IPv6 地址{end}結尾。",
         "min_max_byte_tips": "{min} - {max} 位元組。",
         "not_allow_use_tips": "字符 {char} 不允许使用 | 字符 {char} 不允许使用",
         "begin_not_allow_tips": "不能以字符 {char} 開頭 | 不能以任何字符 {char} 開頭"

@@ -2,10 +2,10 @@
   "lan_ip": {
     "lan": "路由器 IP 地址",
     "guest": "默认网关",
-    "start_ip": "起始IP地址",
-    "end_ip": "结束IP地址",
+    "start_ip": "起始 IP 地址",
+    "end_ip": "结束 IP 地址",
     "change_to": "路由器的 IP 地址已成功更改为",
-    "redirect_to": "你正被重定向到新IP",
+    "redirect_to": "你正被重定向到新 IP",
     "guest_conflict_tips": "与访客 IP 冲突",
     "lan_conflict_tips": "与 LAN IP 冲突",
     "ip_outside_tips": "IP 地址在子网范围之外",
@@ -29,7 +29,7 @@
     "iot_conflict_tips": "与 IoT IP 冲突",
     "host_name_tips": "2-63 个字符，仅支持字母、数字或连字符，首尾不可为连字符，且不能为纯数字。",
     "host_name_existed_tips": "主机名称已存在",
-    "lpr_tips": "输入一个或多个LPR服务器IP地址。"
+    "lpr_tips": "输入一个或多个 LPR 服务器 IP 地址。"
   },
   "address_reservation": {
     "title": "地址预留",
