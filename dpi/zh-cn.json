@@ -128,7 +128,9 @@
         "vlan_subnets_label": "VLAN 子网",
         "add_device_btn": "添加设备",
         "add_device_desc": "添加设备，使其在 WAN 连接繁忙时获得更高优先级。",
-        "highest_priority_traffic_rule_tips": "符合此规则的网络流量将获得最高优先级，即使在网络拥堵时也能确保优先转发，保障流畅体验。"
+        "highest_priority_traffic_rule_tips": "符合此规则的网络流量将获得最高优先级，即使在网络拥堵时也能确保优先转发，保障流畅体验。",
+        "speed_test_less_than_1m_tips": "检测到的带宽小于 1 Mbps。请手动输入带宽。",
+        "speed_test_done_msg": "检测完成"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
