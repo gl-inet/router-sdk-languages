@@ -128,7 +128,9 @@
         "vlan_subnets_label": "Sous-réseaux VLAN",
         "add_device_btn": "Ajouter un appareil",
         "add_device_desc": "Ajoutez un appareil pour lui donner une priorité plus élevée lorsque la connexion WAN est occupée.",
-        "highest_priority_traffic_rule_tips": "Le trafic correspondant à cette règle se verra attribuer la priorité la plus élevée, garantissant qu’il soit transmis en premier en cas de congestion du réseau pour une expérience fluide."
+        "highest_priority_traffic_rule_tips": "Le trafic correspondant à cette règle se verra attribuer la priorité la plus élevée, garantissant qu’il soit transmis en premier en cas de congestion du réseau pour une expérience fluide.",
+        "speed_test_less_than_1m_tips": "La bande passante détectée est inférieure à 1 Mbit/s. Veuillez saisir la bande passante manuellement.",
+        "speed_test_done_msg": "Détection terminée"
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
