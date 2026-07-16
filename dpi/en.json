@@ -129,7 +129,8 @@
         "add_device_desc": "Add a device to give it higher priority when the WAN connection is busy.",
         "highest_priority_traffic_rule_tips": "Traffic matching this rule will be assigned the highest priority, ensuring it is forwarded first during network congestion for a smooth experience.",
         "speed_test_less_than_1m_tips": "The detected bandwidth is less than 1 Mbps. Please enter the bandwidth manually.",
-        "speed_test_done_msg": "Detection done"
+        "speed_test_done_msg": "Detection done",
+        "dest_port_placeholder": "443, 3478-3480, or {any}"
     },
     "flowstatistics": {
         "card_title": "Application Total Data",
