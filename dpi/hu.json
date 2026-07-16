@@ -130,7 +130,8 @@
         "highest_priority_traffic_rule_tips": "Az erre a szabályra illeszkedő forgalom a legmagasabb prioritást kapja, így hálózati torlódás esetén elsőként lesz továbbítva a zökkenőmentes működés érdekében.",
         "speed_test_less_than_1m_tips": "Az észlelt sávszélesség kevesebb mint 1 Mbps. Adja meg kézzel a sávszélességet.",
         "speed_test_done_msg": "Észlelés kész",
-        "dest_port_placeholder": "443, 3478-3480 vagy {any}"
+        "dest_port_placeholder": "443, 3478-3480 vagy {any}",
+        "dest_port_range_error": "A porttartomány 1 és 65535 között van. Beállíthat egyetlen portot vagy porttartományt úgy, hogy az első és az utolsó portszámot kötőjellel kapcsolja össze (pl. 3478-3480), tartományonként legfeljebb 100 porttal. Az utolsó portszámnak nagyobbnak kell lennie az első portszámnál."
     },
     "flowstatistics": {
         "card_title": "Alkalmazás teljes adatmennyisége",
