@@ -128,7 +128,9 @@
         "vlan_subnets_label": "VLAN 서브넷",
         "add_device_btn": "기기 추가",
         "add_device_desc": "WAN 연결이 혼잡할 때 더 높은 우선순위를 부여할 기기를 추가합니다.",
-        "highest_priority_traffic_rule_tips": "이 규칙과 일치하는 트래픽은 최고 우선순위로 지정되어 네트워크 혼잡 시 먼저 전달되어 원활한 사용 환경을 보장합니다."
+        "highest_priority_traffic_rule_tips": "이 규칙과 일치하는 트래픽은 최고 우선순위로 지정되어 네트워크 혼잡 시 먼저 전달되어 원활한 사용 환경을 보장합니다.",
+        "speed_test_less_than_1m_tips": "감지된 대역폭이 1 Mbps 미만입니다. 대역폭을 수동으로 입력하세요.",
+        "speed_test_done_msg": "감지 완료"
     },
     "flowstatistics": {
         "card_title": "애플리케이션 총 데이터",
