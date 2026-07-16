@@ -129,7 +129,8 @@
         "add_device_desc": "Dodaj urządzenie, aby nadać mu wyższy priorytet, gdy połączenie WAN jest obciążone.",
         "highest_priority_traffic_rule_tips": "Ruch pasujący do tej reguły otrzyma najwyższy priorytet, dzięki czemu będzie przekazywany w pierwszej kolejności podczas przeciążenia sieci, zapewniając płynne działanie.",
         "speed_test_less_than_1m_tips": "Wykryta przepustowość jest mniejsza niż 1 Mbps. Wprowadź przepustowość ręcznie.",
-        "speed_test_done_msg": "Wykrywanie zakończone"
+        "speed_test_done_msg": "Wykrywanie zakończone",
+        "dest_port_placeholder": "443, 3478-3480 lub {any}"
     },
     "flowstatistics": {
         "card_title": "Całkowite Dane Aplikacji",
