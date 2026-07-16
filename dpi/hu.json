@@ -129,7 +129,8 @@
         "add_device_desc": "Adjon hozzá egy eszközt, hogy magasabb prioritást kapjon, amikor a WAN-kapcsolat leterhelt.",
         "highest_priority_traffic_rule_tips": "Az erre a szabályra illeszkedő forgalom a legmagasabb prioritást kapja, így hálózati torlódás esetén elsőként lesz továbbítva a zökkenőmentes működés érdekében.",
         "speed_test_less_than_1m_tips": "Az észlelt sávszélesség kevesebb mint 1 Mbps. Adja meg kézzel a sávszélességet.",
-        "speed_test_done_msg": "Észlelés kész"
+        "speed_test_done_msg": "Észlelés kész",
+        "dest_port_placeholder": "443, 3478-3480 vagy {any}"
     },
     "flowstatistics": {
         "card_title": "Alkalmazás teljes adatmennyisége",
