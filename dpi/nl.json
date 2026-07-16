@@ -129,7 +129,8 @@
         "add_device_desc": "Voeg een apparaat toe om het een hogere prioriteit te geven wanneer de WAN-verbinding bezet is.",
         "highest_priority_traffic_rule_tips": "Verkeer dat aan deze regel voldoet, krijgt de hoogste prioriteit en wordt bij netwerkcongestie als eerste doorgestuurd voor een soepele ervaring.",
         "speed_test_less_than_1m_tips": "De gedetecteerde bandbreedte is minder dan 1 Mbps. Voer de bandbreedte handmatig in.",
-        "speed_test_done_msg": "Detectie voltooid"
+        "speed_test_done_msg": "Detectie voltooid",
+        "dest_port_placeholder": "443, 3478-3480 of {any}"
     },
     "flowstatistics": {
         "card_title": "Applicatie Totale Gegevens",
