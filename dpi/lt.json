@@ -130,7 +130,8 @@
         "highest_priority_traffic_rule_tips": "Srautas, atitinkantis šią taisyklę, bus priskirtas aukščiausiam prioritetui, kad tinklo perkrovos metu jis būtų persiunčiamas pirmiausia ir veiktų sklandžiai.",
         "speed_test_done_msg": "Aptikimas baigtas",
         "speed_test_less_than_1m_tips": "Aptiktas duomenų siuntimo srauto pralaidumas yra mažesnis nei 1 Mbps. Įveskite duomenų siuntimo srauto pralaidumą rankiniu būdu.",
-        "dest_port_placeholder": "443, 3478-3480 arba {any}"
+        "dest_port_placeholder": "443, 3478-3480 arba {any}",
+        "dest_port_range_error": "Prievadų diapazonas yra nuo 1 iki 65535. Galite nustatyti vieną prievadą arba prievadų diapazoną, sujungdami pirmojo ir paskutinio prievado numerius brūkšneliu (pvz., 3478-3480), daugiausia 100 prievadų viename diapazone. Paskutinio prievado numeris turi būti didesnis už pirmojo prievado numerį."
     },
     "flowstatistics": {
         "echarts_title": "10 populiariausių programų pagal duomenų siuntimo srauto pralaidumą",
