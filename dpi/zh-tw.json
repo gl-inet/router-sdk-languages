@@ -130,7 +130,8 @@
         "highest_priority_traffic_rule_tips": "符合此規則的網路流量將獲得最高優先級，即使在網路擁堵時也能確保優先轉發，保障流暢體驗。",
         "speed_test_done_msg": "偵測完成",
         "speed_test_less_than_1m_tips": "偵測到的頻寬低於 1 Mbps。請手動輸入頻寬。",
-        "dest_port_placeholder": "443、3478-3480 或 {any}"
+        "dest_port_placeholder": "443、3478-3480 或 {any}",
+        "dest_port_range_error": "連接埠範圍為 1 至 65535。您可以設定單一連接埠，或使用連字號連接第一個和最後一個連接埠號碼來設定連接埠範圍（例如 3478-3480），每個範圍最多 100 個連接埠。最後一個連接埠號碼必須大於第一個連接埠號碼。"
     },
     "flowstatistics": {
         "card_title": "應用程式總數據量",
