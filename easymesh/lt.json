@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Perjunkite juos į {node} veikseną.",
         "set_astro_mesh_to_local_only_tips": "Konfliktai su AstroMesh. Norėdami tęsti, nustatykite „AstroMesh“ į „Local Mesh Node Only“.",
         "change_to": "Maršrutizatoriaus IP adresas sėkmingai pakeistas į",
-        "enabled_astrowrap_tips": "AstroLink šiuo metu yra aktyvus, o tai konfliktuoja su {feature}. Norėdami tęsti, grąžinkite AstroLink tinklą į pradinę būseną."
+        "enabled_astrowrap_tips": "AstroLink šiuo metu yra aktyvus, o tai konfliktuoja su {feature}. Norėdami tęsti, grąžinkite AstroLink tinklą į pradinę būseną.",
+        "wifi_scan_unavailable_title": "„Wi-Fi“ nuskaitymas nepasiekiamas",
+        "pairing_code_unavailable_title": "Susiejimo kodas nepasiekiamas",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Dabartinis kartotuvas yra prijungtas prie DFS kanalo, todėl „Wi-Fi“ nuskaitymas negalimas.",
+        "wifi_scan_unavailable_router_dfs_tips": "Kai maršrutizatorius veikia DFS kanale, „Wi-Fi“ nuskaitymas negali veikti.",
+        "pairing_code_unavailable_router_dfs_tips": "Kai maršrutizatorius veikia DFS kanale, susiejimo kodo negalima naudoti mazgams pridėti.",
+        "disable_repeater_scan_notice_tips": "Išjungus kartotuvą, nuskaitymą bus galima tęsti. Po nuskaitymo turėsite rankiniu būdu iš naujo prijungti kartotuvą.",
+        "switch_channel_scan_notice_tips": "Norint nuskaityti mazgus, reikia perjungti į ne DFS kanalą. Šis procesas gali užtrukti kelias akimirkas.",
+        "disable_repeater_pairing_code_notice_tips": "Išjungę kartotuvą galėsite pridėti mazgų naudodami susiejimo kodus. Po to turėsite rankiniu būdu iš naujo prijungti kartotuvą.",
+        "switch_channel_pairing_code_notice_tips": "Norint pridėti mazgų naudojant susiejimo kodus, reikia perjungti į ne DFS kanalą. Šis procesas gali užtrukti kelias akimirkas.",
+        "disable_repeater_btn": "Išjungti kartotuvą",
+        "pairing_code_unavailable_repeater_dfs_tips": "Dabartinis kartotuvas yra prijungtas prie DFS kanalo, todėl susiejimo kodo negalima naudoti mazgams pridėti.",
+        "switch_channel_btn": "Perjungti kanalą"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
