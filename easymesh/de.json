@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Schalten Sie sie in den {node}-Modus.",
         "set_astro_mesh_to_local_only_tips": "Konflikte mit AstroMesh. Um fortzufahren, stellen Sie AstroMesh bitte auf „Nur lokaler Mesh-Knoten“ ein.",
         "change_to": "Die IP-Adresse des Routers wurde erfolgreich geändert in",
-        "enabled_astrowrap_tips": "AstroLink ist derzeit aktiv, was mit {feature} in Konflikt steht. Bitte setzen Sie das AstroLink-Netzwerk zurück, um fortzufahren."
+        "enabled_astrowrap_tips": "AstroLink ist derzeit aktiv, was mit {feature} in Konflikt steht. Bitte setzen Sie das AstroLink-Netzwerk zurück, um fortzufahren.",
+        "wifi_scan_unavailable_title": "WLAN-Scan ist nicht verfügbar",
+        "pairing_code_unavailable_title": "Kopplungscode ist nicht verfügbar",
+        "wifi_scan_unavailable_router_dfs_tips": "Wenn der Router auf einem DFS-Kanal betrieben wird, kann der WLAN-Scan nicht funktionieren.",
+        "pairing_code_unavailable_router_dfs_tips": "Wenn der Router auf einem DFS-Kanal betrieben wird, kann der Kopplungscode nicht zum Hinzufügen von Knoten verwendet werden.",
+        "disable_repeater_scan_notice_tips": "Durch Deaktivieren des Repeaters kann der Scan fortgesetzt werden. Nach dem Scan müssen Sie den Repeater manuell erneut verbinden.",
+        "switch_channel_scan_notice_tips": "Zum Scannen nach Knoten ist der Wechsel zu einem Nicht-DFS-Kanal erforderlich. Dieser Vorgang kann einige Momente dauern.",
+        "disable_repeater_pairing_code_notice_tips": "Durch Deaktivieren des Repeaters können Sie Knoten per Kopplungscode hinzufügen. Anschließend müssen Sie den Repeater manuell erneut verbinden.",
+        "switch_channel_pairing_code_notice_tips": "Zum Hinzufügen von Knoten per Kopplungscode ist der Wechsel zu einem Nicht-DFS-Kanal erforderlich. Dieser Vorgang kann einige Momente dauern.",
+        "disable_repeater_btn": "Repeater deaktivieren",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Der aktuelle Repeater ist mit einem DFS-Kanal verbunden, wodurch der WLAN-Scan verhindert wird.",
+        "pairing_code_unavailable_repeater_dfs_tips": "Der aktuelle Repeater ist mit einem DFS-Kanal verbunden, daher kann der Kopplungscode nicht zum Hinzufügen von Knoten verwendet werden.",
+        "switch_channel_btn": "Kanal wechseln"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
