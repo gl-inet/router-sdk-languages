@@ -301,7 +301,6 @@
         "details_configs_label": "Відомості та конфігурації",
         "operator_label": "Оператор",
         "airplane_mode_label": "Режим польоту",
-        "model_information_label": "Інформація про модель",
         "modem_information_title": "Інформація про модем",
         "firmware_version_label": "Версія прошивки",
         "sim_failover_label": "Failover SIM",
@@ -320,7 +319,10 @@
         "scan_available_carriers_tips": "Сканування доступних операторів. Цей процес триває приблизно 120 секунд.",
         "scan_nearby_towers_tips": "Сканування найближчих веж. Цей процес триває приблизно 120 секунд.",
         "band_masking_title": "Маскування діапазону",
-        "minutes_value_label": "{count} хв."
+        "minutes_value_label": "{count} хв.",
+        "network_type_conflicts_tips": "Поточний тип мережі SIM-картки — {networkType}, що конфліктує з типом мережі {feature}.",
+        "low_power_mode_only_tips": "Пристрій перебуває в режимі низького енергоспоживання.",
+        "network_type_lock_tower_tips": "Якщо заблокувати Tower, тип мережі буде зафіксовано, і його не можна буде змінити."
     },
     "sms": {
         "all_read": "Всі прочитані",
@@ -652,7 +654,6 @@
         "details_configurations_title": "Відомості та конфігурації",
         "network_settings_title": "Налаштування мережі",
         "band_lock_controls_title": "Керування діапазонами та блокуванням",
-        "msisdn_label": "MSISDN",
         "max_bit_rate_label": "Максимальна бітова швидкість (AMBR)",
         "ipv4_dns_server_label": "DNS-сервер IPv4",
         "ipv6_dns_server_label": "DNS-сервер IPv6",
@@ -664,14 +665,10 @@
         "tac_label": "TAC",
         "band_information_title": "Інформація про діапазон",
         "band_label": "Діапазон",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Історія сигналу",
         "cell_id_label": "Cell ID",
-        "bandwidth_label": "Пропускна здатність"
+        "bandwidth_label": "Пропускна здатність",
+        "lock_operator_disabled_tip": "Оскільки поточний слот картки заблоковано для базової станції, функцію блокування оператора вимкнено."
     },
     "sim": {
         "sender_label": "Відправник"

@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Wählen Sie einen Richtlinienmodus aus. Erweiterte Regeln überschreiben die grundlegende Richtlinie für übereinstimmenden Datenverkehr.",
         "self_label": "Selbst",
         "rule_name_placeholder": "z. B. Priorität für geschäftliche Videoanrufe",
-        "dest_port_placeholder": "443, 3478-3480 oder beliebig",
         "add_rule_desc": "Erstellen Sie eine Regel, um Datenverkehr nach Protokoll, Port und Quell-IP zu priorisieren.",
         "max_rules_reached": "Maximale Anzahl an Regeln erreicht",
         "known_devices_label": "Bekannte Geräte",
         "vlan_subnets_label": "VLAN-Subnetze",
         "add_device_btn": "Gerät hinzufügen",
         "add_device_desc": "Fügen Sie ein Gerät hinzu, um ihm eine höhere Priorität zu geben, wenn die WAN-Verbindung ausgelastet ist.",
-        "highest_priority_traffic_rule_tips": "Der dieser Regel entsprechende Datenverkehr erhält die höchste Priorität und wird bei Netzüberlastung zuerst weitergeleitet, um ein reibungsloses Erlebnis zu gewährleisten."
+        "highest_priority_traffic_rule_tips": "Der dieser Regel entsprechende Datenverkehr erhält die höchste Priorität und wird bei Netzüberlastung zuerst weitergeleitet, um ein reibungsloses Erlebnis zu gewährleisten.",
+        "speed_test_less_than_1m_tips": "Die erkannte Bandbreite beträgt weniger als 1 Mbit/s. Bitte geben Sie die Bandbreite manuell ein.",
+        "speed_test_done_msg": "Erkennung abgeschlossen",
+        "dest_port_tips": "Der Portbereich reicht von 1 bis 65535. Sie können einen einzelnen Port oder einen Portbereich festlegen (z. B. 501-510). Die letzte Portnummer muss größer als die erste Portnummer sein. Leer bedeutet beliebig.",
+        "edit_advanced_qos_rule_title": "Erweiterte QoS-Regel bearbeiten"
     },
     "flowstatistics": {
         "card_title": "Anwendungsgesamt-Daten",
@@ -155,7 +158,10 @@
         "table_title": "App-Datenverkehrsstatistiken",
         "search_app_input_placeholder": "Bitte geben Sie den App-Namen zur Suche ein",
         "clear_statistical_label": "Alle statistischen Daten der aktuellen Seite löschen?",
-        "all_traffic_label": "Gesamter Datenverkehr"
+        "all_traffic_label": "Gesamter Datenverkehr",
+        "clients_label": "Clients",
+        "latest_client_label": "Neuester Client",
+        "all_clients_label": "Alle Clients"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",

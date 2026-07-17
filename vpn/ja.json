@@ -189,7 +189,7 @@
         "traffic_use_vpn_label": "クライアント機器からのトラフィック",
         "mac_exception": "以下のデバイスからのトラフィックを除く",
         "global_proxy_tips": "VPN が接続されている場合、すべての通信は VPN 経由でルーティングされます。 アクティブ化できる VPN クライアント インスタンスは 1 つだけです。",
-        "add_new_btn": "新しく追加",
+        "add_new_btn": "新規追加",
         "loaction_label": "場所",
         "use_client_tips": "$$$$その他のVPNサービスプロバイダ$$$$を使用しますか、それとも$$$$独自のVPNサーバー$$$$をカスタマイズしますか？ 新しいグループを作成して、設定ファイルを追加してください。",
         "policy_nav_title": "クライアントがルーター経由でネットワークにアクセスする際、$$$$暗号化トンネル経由のトラフィックかどうかをルーターにどのように表示させますか？",
@@ -603,7 +603,8 @@
         "no_config_selected_line1": "現在のトンネルには設定が選択されていません。",
         "no_config_selected_line2": "使用前にトンネル設定を完了してください。",
         "no_vpn_config_line2": "VPNサービスプロバイダーを使用するか、設定ファイルを追加してください。",
-        "remove_last_tunnel_reset_policy_tips": "最後のトンネルを削除すると、{policy} が \"{label}\" にリセットされます。"
+        "remove_last_tunnel_reset_policy_tips": "最後のトンネルを削除すると、{policy} が \"{label}\" にリセットされます。",
+        "expressvpn_not_connected_label": "未接続"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
@@ -672,7 +673,8 @@
         "two_factor_authentication_desc": "認証アプリの6桁のOTPコードを入力してログインを完了してください。",
         "two_factor_verifying_tips": "確認中です。しばらくお待ちください...",
         "two_factor_verification_failed_tips": "確認に失敗しました。正しいコードを入力していることを確認してください。",
-        "amneziawg_label": "AmneziaWG 2.0"
+        "amneziawg_label": "AmneziaWG 2.0",
+        "two_factor_request_failed_tips": "リクエストに失敗しました。ネットワーク接続を確認してください。"
     },
     "ovpnclient": {
         "legacy_label": "レガシー",

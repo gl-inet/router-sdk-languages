@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Bir politika modu seçin. Gelişmiş kurallar, eşleşen trafik için temel politikayı geçersiz kılar.",
         "self_label": "Kendisi",
         "rule_name_placeholder": "örn. İş Görüntülü Arama Önceliği",
-        "dest_port_placeholder": "443, 3478-3480 veya herhangi biri",
         "add_rule_desc": "Protokol, bağlantı noktası ve kaynak IP’ye göre trafiğe öncelik vermek için bir kural oluşturun.",
         "max_rules_reached": "Maksimum kural sayısına ulaşıldı",
         "known_devices_label": "Bilinen Cihazlar",
         "vlan_subnets_label": "VLAN Alt Ağları",
         "add_device_btn": "Cihaz Ekle",
         "add_device_desc": "WAN bağlantısı meşgul olduğunda daha yüksek öncelik vermek için bir cihaz ekleyin.",
-        "highest_priority_traffic_rule_tips": "Bu kuralla eşleşen trafik en yüksek önceliğe atanır; ağ tıkanıklığı sırasında sorunsuz bir deneyim için önce iletilmesi sağlanır."
+        "highest_priority_traffic_rule_tips": "Bu kuralla eşleşen trafik en yüksek önceliğe atanır; ağ tıkanıklığı sırasında sorunsuz bir deneyim için önce iletilmesi sağlanır.",
+        "speed_test_done_msg": "Algılama tamamlandı",
+        "speed_test_less_than_1m_tips": "Algılanan bant genişliği 1 Mbps'den az. Lütfen bant genişliğini manuel olarak girin.",
+        "dest_port_tips": "Port aralığı 1 ile 65535 arasındadır. Tek bir port veya bir port aralığı ayarlayabilirsiniz (örn. 501-510). Son port numarası ilk port numarasından büyük olmalıdır. Boş bırakılırsa herhangi biri anlamına gelir.",
+        "edit_advanced_qos_rule_title": "Gelişmiş QoS Kuralını Düzenle"
     },
     "flowstatistics": {
         "card_title": "Uygulama Toplam Verisi",
@@ -155,7 +158,10 @@
         "to_safeGuard_btn": "{name} sayfasına git",
         "clear_statistical_label": "Mevcut sayfanın tüm istatistiksel verilerini temizlemek istiyor musunuz?",
         "search_app_input_placeholder": "Lütfen aramak için uygulama adını girin",
-        "all_traffic_label": "Tüm trafik"
+        "all_traffic_label": "Tüm trafik",
+        "latest_client_label": "En Son İstemci",
+        "clients_label": "İstemciler",
+        "all_clients_label": "Tüm istemciler"
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",

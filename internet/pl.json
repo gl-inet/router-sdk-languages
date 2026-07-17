@@ -378,7 +378,6 @@
         "sim_type_label": "Typ karty SIM",
         "operator_label": "Operator",
         "airplane_mode_label": "Tryb samolotowy",
-        "model_information_label": "Informacje o modelu",
         "sim_failover_label": "Awaryjność SIM",
         "modem_information_title": "Informacje o modemie",
         "modem_label": "Modem",
@@ -397,7 +396,10 @@
         "scan_nearby_towers_tips": "Skanuj pobliskie stacje bazowe. Ten proces trwa około 120 sekund.",
         "scan_available_carriers_tips": "Skanuj dostępnych operatorów. Ten proces trwa około 120 sekund.",
         "band_masking_title": "Maskowanie pasma",
-        "minutes_value_label": "{count} min."
+        "minutes_value_label": "{count} min.",
+        "network_type_conflicts_tips": "Bieżący typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci funkcji {feature}.",
+        "low_power_mode_only_tips": "Urządzenie jest w trybie niskiego zużycia energii.",
+        "network_type_lock_tower_tips": "Jeśli zablokujesz Tower, typ sieci zostanie ustalony i nie będzie można go zmienić."
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -653,7 +655,6 @@
         "network_information_title": "Informacje o sieci",
         "network_settings_title": "Ustawienia sieci",
         "band_lock_controls_title": "Sterowanie pasmem i blokadą",
-        "msisdn_label": "MSISDN",
         "max_bit_rate_label": "Maksymalna przepływność (AMBR)",
         "ipv4_address_label": "Adres IPv4",
         "ipv4_dns_server_label": "Serwer DNS IPv4",
@@ -663,15 +664,11 @@
         "network_type_label": "Typ sieci",
         "band_information_title": "Informacje o paśmie",
         "band_label": "Pasmo",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Historia sygnału",
         "tac_label": "TAC",
         "cell_id_label": "ID komórki",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "bandwidth_label": "Przepustowość"
+        "bandwidth_label": "Przepustowość",
+        "lock_operator_disabled_tip": "Ponieważ bieżące gniazdo karty jest zablokowane dla stacji bazowej, funkcja blokady operatora jest wyłączona."
     },
     "sim": {
         "sender_label": "Nadawca"

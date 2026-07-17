@@ -306,7 +306,6 @@
         "sim_type_label": "SIMタイプ",
         "operator_label": "オペレーター",
         "airplane_mode_label": "機内モード",
-        "model_information_label": "モデル情報",
         "sim_failover_label": "SIMフェイルオーバー",
         "modem_information_title": "モデム情報",
         "modem_label": "モデム",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "近くの基地局をスキャンします。この処理には約120秒かかります。",
         "scan_available_carriers_tips": "利用可能なキャリアをスキャンします。この処理には約120秒かかります。",
         "band_masking_title": "バンドマスキング",
-        "minutes_value_label": "{count}分"
+        "minutes_value_label": "{count}分",
+        "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは{networkType}で、{feature}のネットワークタイプと競合しています。",
+        "low_power_mode_only_tips": "デバイスは低電力モードです。",
+        "network_type_lock_tower_tips": "Tower をロックすると、ネットワークタイプは固定され、変更できなくなります。"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -652,7 +654,6 @@
         "details_configurations_title": "詳細と設定",
         "network_information_title": "ネットワーク情報",
         "network_settings_title": "ネットワーク設定",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "max_bit_rate_label": "最大ビットレート (AMBR)",
         "ipv4_dns_server_label": "IPv4 DNS サーバー",
@@ -665,13 +666,9 @@
         "cell_id_label": "セル ID",
         "band_information_title": "バンド情報",
         "band_label": "バンド",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "信号履歴",
-        "bandwidth_label": "帯域幅"
+        "bandwidth_label": "帯域幅",
+        "lock_operator_disabled_tip": "現在のカードスロットは基地局にロックされているため、通信事業者ロック機能は無効です。"
     },
     "sim": {
         "sender_label": "送信者"
@@ -709,9 +706,9 @@
         "dest_address_label": "宛先アドレス",
         "dest_port_label": "宛先ポート",
         "add_rule_btn": "ルールを追加",
-        "any_not_allowed_with_multiple_ips": "複数のIPアドレスがある場合、「任意」オプションは含められません",
+        "any_not_allowed_with_multiple_ips": "複数のIPアドレスがある場合、「Any」オプションは含めることができません",
         "add_acl_dialog_title": "ACLルールを追加",
-        "name_already_exist_msg": "名前はすでに存在します。",
+        "name_already_exist_msg": "この名前は既に存在します。",
         "accept_label": "許可",
         "drop_label": "ブロック",
         "reject_label": "拒否",
@@ -719,7 +716,7 @@
         "any_label": "任意",
         "source_port_label": "送信元ポート",
         "dest_zone_label": "宛先ゾーン",
-        "acl_desc": "{acl} は、プロトコル、宛先IPアドレス、送信元IPアドレス、ポート番号などのルールに基づいてネットワークトラフィックを制御できます。有効な2つの {acl} ルールが競合する場合、デバイスは優先度の高いルールを優先します。",
+        "acl_desc": "{acl} は、プロトコル、宛先 IP アドレス、送信元 IP アドレス、ポート番号などのルールに基づいてネットワークトラフィックを制御できます。有効な 2 つの {acl} ルール間に競合がある場合、デバイスは優先度の高いルールを優先します。",
         "edit_acl_dialog_title": "ACLルールを変更"
     },
     "menu_acl": "ACL"

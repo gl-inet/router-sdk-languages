@@ -1,8 +1,8 @@
 {
     "core": {
         "protocol": "协议",
-        "ip": "IP地址",
-        "ipv6": "IPv6地址",
+        "ip": "IP 地址",
+        "ipv6": "IPv6 地址",
         "gateway": "网关",
         "dns": "DNS 服务器",
         "netmask": "子网掩码",
@@ -123,14 +123,14 @@
         "attention_title": "注意",
         "remove_btn": "移除",
         "notice_title": "通知",
-        "use_weak_disabled_ssh_tips": "使用弱密码将禁用SSH和串行输入。",
+        "use_weak_disabled_ssh_tips": "使用弱密码将禁用 SSH 和串行输入。",
         "important_note": "重要",
         "export_btn": "导出",
         "example_label": "例如 {content}",
         "share": "分享",
         "note_tag": "注意：",
         "please_select": "请选择",
-        "dns_address_label": "DNS地址",
+        "dns_address_label": "DNS 地址",
         "terms_service": "服务条款",
         "privacy_policy": "隐私政策",
         "agree_terms_privacy": "我已阅读并同意 {terms} & {privacy}"
@@ -202,7 +202,7 @@
         "disabled": "已禁用",
         "net_trouble_guide_link": "网络故障处理指南",
         "ttl_tips": "TTL（Time To Live）设置了数据包在网络中生存的最大时间，根据运营商要求进行填写。",
-        "hl_tips": "HL（Hop Limit），在 IPv6 中，该字段用于限制数据包在网络中的传输跳数，相当于 IPv4 的TTL。",
+        "hl_tips": "HL（Hop Limit），在 IPv6 中，该字段用于限制数据包在网络中的传输跳数，相当于 IPv4 的 TTL。",
         "wan_label": "WAN 口",
         "lan_label": "LAN 口",
         "wan_lan_label": "WAN/LAN 口",
@@ -220,22 +220,22 @@
         "mtu_ipv6_warning_tips": "MTU 低于 1280 时 IPv6 无法工作。",
         "illegal_subnet_tips": "不合规的子网，最后三位比特必须为 0。",
         "illegal_subnet_mask_tips": "不合规的掩码，由于子网为 {subnet}，掩码不能小于 {min}。",
-        "auto_update_mac_strategy_label": "自动更新MAC策略",
+        "auto_update_mac_strategy_label": "自动更新 MAC 策略",
         "mode_label": "{tab} 模式",
         "auto_update_mac_time_label": "按时间",
-        "auto_update_mac_label": "自动更新MAC",
-        "auto_update_mac_tips": "启用此选项后，MAC可以自动更新。",
-        "mac_replacement_label": "MAC更换周期",
+        "auto_update_mac_label": "自动更新 MAC",
+        "auto_update_mac_tips": "启用此选项后，MAC 可以自动更新。",
+        "mac_replacement_label": "MAC 更换周期",
         "mac_replacement_tips": "MAC 可以在更新时间点更新，如果此时 MAC 仍在使用，则在下次重新连接网络时更新。",
         "duplex_full_label": "{speed} Mbps 全双工",
-        "duplex_half_label": "{speed} Mbps半双工",
+        "duplex_half_label": "{speed} Mbps 半双工",
         "recheck_btn": "重新检测",
-        "mtu_common_tip": "请根据使用场景设置MTU值，设置不当可能导致无法上网。",
-        "custom_dns_setting_label": "自定义DNS设置",
+        "mtu_common_tip": "请根据使用场景设置 MTU 值，设置不当可能导致无法上网。",
+        "custom_dns_setting_label": "自定义 DNS 设置",
         "address_label": "地址",
         "iot_ip_tips": "IoT 子网与 WAN 子网冲突，请 {iotSubnet} 为不同的地址。",
         "change_iot_subnet": "更改 IoT 子网",
-        "mac_invalid_format": "MAC地址格式无效"
+        "mac_invalid_format": "MAC 地址格式无效"
     },
     "upload": {
         "file_include": "文件类型包括",
@@ -270,9 +270,9 @@
         "port_occupied_msg": "端口 {port} 已被占用。"
     },
     "subscription": {
-        "url_label": "订阅URL",
+        "url_label": "订阅 URL",
         "manual_label": "手动",
-        "url_err_tips": "请输入正确的URL链接。"
+        "url_err_tips": "请输入正确的 URL 链接。"
     },
     "validate": {
         "not_allowed_only_spaces": "不允许仅使用空格。",
@@ -282,7 +282,7 @@
         "only_allowd_input_tips": "只允许输入{limit}。",
         "only_num_letter_symbol_tips": "只允许使用字母、数字和符号{symbol}。",
         "min_max_length_tips": "{min} - {max}个字符。",
-        "ipv6_limit_start_end_tips": "必须以{start}开头，并以正确的IPv6地址{end}结尾。",
+        "ipv6_limit_start_end_tips": "必须以{start}开头，并以正确的 IPv6 地址{end}结尾。",
         "min_max_byte_tips": "{min} - {max} 字节。",
         "not_allow_use_tips": "字符 {char} 不允许使用 | 字符 {char} 不允许使用",
         "begin_not_allow_tips": "不能以字符 {char} 开头 | 不能以任何字符 {char} 开头"

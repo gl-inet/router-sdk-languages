@@ -603,7 +603,8 @@
         "no_config_selected_line1": "Er is geen configuratie geselecteerd voor de huidige tunnel.",
         "no_config_selected_line2": "Voltooi de tunnelconfiguratie voordat u deze gebruikt.",
         "no_vpn_config_line2": "Gebruik een VPN-serviceprovider of voeg configuratiebestanden toe.",
-        "remove_last_tunnel_reset_policy_tips": "Het verwijderen van de laatste tunnel zal de {policy} resetten naar \"{label}\"."
+        "remove_last_tunnel_reset_policy_tips": "Het verwijderen van de laatste tunnel zal de {policy} resetten naar \"{label}\".",
+        "expressvpn_not_connected_label": "Niet verbonden"
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
@@ -672,7 +673,8 @@
         "two_factor_verifying_tips": "Verifiëren, even geduld...",
         "two_factor_authentication_desc": "Voer de 6-cijferige OTP-code uit uw authenticator-app in om het aanmelden te voltooien.",
         "two_factor_verification_failed_tips": "Verificatie mislukt. Zorg ervoor dat u de juiste code invoert.",
-        "amneziawg_label": "AmneziaWG 2.0"
+        "amneziawg_label": "AmneziaWG 2.0",
+        "two_factor_request_failed_tips": "Aanvraag mislukt. Controleer uw netwerkverbinding."
     },
     "ovpnclient": {
         "legacy_label": "Verouderd",

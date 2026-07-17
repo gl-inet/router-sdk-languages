@@ -306,7 +306,6 @@
         "sim_type_label": "SIM 유형",
         "operator_label": "운영자",
         "airplane_mode_label": "비행기 모드",
-        "model_information_label": "모델 정보",
         "sim_failover_label": "SIM Failover",
         "modem_information_title": "Modem 정보",
         "modem_label": "Modem",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "주변 기지국을 스캔합니다. 이 과정은 약 120초가 소요됩니다.",
         "scan_available_carriers_tips": "사용 가능한 통신사를 스캔합니다. 이 과정은 약 120초가 소요됩니다.",
         "band_masking_title": "밴드 마스킹",
-        "minutes_value_label": "{count}분"
+        "minutes_value_label": "{count}분",
+        "network_type_conflicts_tips": "현재 SIM 카드 네트워크 유형은 {networkType}이며, {feature}의 네트워크 유형과 충돌합니다.",
+        "low_power_mode_only_tips": "장치가 저전력 모드입니다.",
+        "network_type_lock_tower_tips": "Tower를 잠그면 네트워크 유형이 고정되어 변경할 수 없습니다."
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -652,7 +654,6 @@
         "details_configurations_title": "세부 정보 및 구성",
         "network_information_title": "네트워크 정보",
         "network_settings_title": "네트워크 설정",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "ipv4_address_label": "IPv4 주소",
         "ipv4_dns_server_label": "IPv4 DNS 서버",
@@ -664,14 +665,10 @@
         "cell_id_label": "셀 ID",
         "band_information_title": "대역 정보",
         "band_label": "대역",
-        "earfcn_label": "EARFCN",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "신호 기록",
         "network_type_label": "네트워크 유형",
-        "pci_label": "PCI",
-        "bandwidth_label": "대역폭"
+        "bandwidth_label": "대역폭",
+        "lock_operator_disabled_tip": "현재 카드 슬롯이 기지국에 잠겨 있으므로 사업자 잠금 기능이 비활성화됩니다."
     },
     "sim": {
         "sender_label": "발신자"

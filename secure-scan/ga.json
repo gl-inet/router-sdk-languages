@@ -1,7 +1,7 @@
 {
     "secure_scan": {
         "page_title": "Scanadh Slándála",
-        "scan_btn": "Scan",
+        "scan_btn": "Scanadh",
         "scanning_btn": "Ag scanadh...",
         "fix_btn": "Deisigh",
         "fixing_btn": "Ag deisiú...",
@@ -29,7 +29,7 @@
         "webdav_wan_access": "Rochtain WebDav WAN",
         "dpi_content_protection": "Cosaint Ábhair DPI",
         "ddns": "DDNS",
-        "vpn_kill_switch": "VPN Kill Switch",
+        "vpn_kill_switch": "Lasc Maraithe VPN",
         "firmware_update": "Nuashonrú Firmware",
         "new_version_available": "Leagan Nua ar Fáil",
         "latest_version": "Leagan is Déanaí",
@@ -59,7 +59,6 @@
         "filter_safe_label": "Sábháilte",
         "excellent_security": "Slándáil den Scoth",
         "excellent_security_count": "{count} Míreanna",
-        "excellent_security_desc": "D'éirigh le gach seiceáil slándála. Tá do ródaire cosanta go maith.",
         "retest_btn": "Athshcrúdú",
         "confirm_disable_title": "Deimhniú Díchumasaithe",
         "confirm_disable_content": "An bhfuil tú cinnte gur mhaith leat {name} a dhíchumasú?",
@@ -95,6 +94,7 @@
         "upnp": "UPnP",
         "upnp_desc": "Tá UPnP cumasaithe, d’fhéadfadh sé poirt balla dóiteáin a oscailt go huathoibríoch chuig líonraí seachtracha",
         "disable_upnp_btn": "Díchumasaigh UPnP",
-        "no_match_safety_criteria": "Níor chomhlíon aon mhír na critéir sábháilteachta. Ceartaigh na rioscaí braite chun do thorthaí a fheabhsú."
+        "no_match_safety_criteria": "Níor chomhlíon aon mhír na critéir sábháilteachta. Ceartaigh na rioscaí braite chun do thorthaí a fheabhsú.",
+        "excellent_security_desc": "Tá do líonra cosanta go hiomlán agus níor braitheadh aon rioscaí. Lean leis na dea-chleachtais."
     }
 }

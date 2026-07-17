@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Válasszon egy házirendmódot. Az összetett szabályok felülírják az alapvető házirendet az egyező forgalom esetén.",
         "self_label": "Saját",
         "rule_name_placeholder": "pl. Munkahelyi videohívás prioritása",
-        "dest_port_placeholder": "443, 3478-3480 vagy bármelyik",
         "add_rule_desc": "Hozzon létre egy szabályt a forgalom protokoll, port és forrás IP-cím szerinti priorizálásához.",
         "max_rules_reached": "Elérte a szabályok maximális számát",
         "known_devices_label": "Ismert eszközök",
         "vlan_subnets_label": "VLAN-alhálózatok",
         "add_device_btn": "Eszköz hozzáadása",
         "add_device_desc": "Adjon hozzá egy eszközt, hogy magasabb prioritást kapjon, amikor a WAN-kapcsolat leterhelt.",
-        "highest_priority_traffic_rule_tips": "Az erre a szabályra illeszkedő forgalom a legmagasabb prioritást kapja, így hálózati torlódás esetén elsőként lesz továbbítva a zökkenőmentes működés érdekében."
+        "highest_priority_traffic_rule_tips": "Az erre a szabályra illeszkedő forgalom a legmagasabb prioritást kapja, így hálózati torlódás esetén elsőként lesz továbbítva a zökkenőmentes működés érdekében.",
+        "speed_test_less_than_1m_tips": "Az észlelt sávszélesség kevesebb mint 1 Mbps. Adja meg kézzel a sávszélességet.",
+        "speed_test_done_msg": "Észlelés kész",
+        "dest_port_tips": "A porttartomány 1 és 65535 között lehet. Megadhat egyetlen portot vagy porttartományt (pl. 501-510). Az utolsó portszámnak nagyobbnak kell lennie az első portszámnál. Üresen hagyva bármelyiket jelenti.",
+        "edit_advanced_qos_rule_title": "Speciális QoS-szabály szerkesztése"
     },
     "flowstatistics": {
         "card_title": "Alkalmazás teljes adatmennyisége",
@@ -155,7 +158,10 @@
         "past_hour_label": "Elmúlt óra",
         "search_app_input_placeholder": "Kérjük, adja meg az alkalmazás nevét a kereséshez",
         "clear_statistical_label": "Törli az aktuális oldal összes statisztikai adatát?",
-        "all_traffic_label": "Összes forgalom"
+        "all_traffic_label": "Összes forgalom",
+        "latest_client_label": "Legutóbbi kliens",
+        "clients_label": "Kliensek",
+        "all_clients_label": "Összes kliens"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",

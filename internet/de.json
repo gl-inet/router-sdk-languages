@@ -306,7 +306,6 @@
         "signal_label": "Signal",
         "sim_type_label": "SIM-Typ",
         "airplane_mode_label": "Flugmodus",
-        "model_information_label": "Modellinformationen",
         "sim_failover_label": "SIM-Ausfallsicherung",
         "modem_information_title": "Modeminformationen",
         "modem_label": "Modem",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "Nach Mobilfunkmasten in der Nähe suchen. Dieser Vorgang dauert etwa 120 Sekunden.",
         "scan_available_carriers_tips": "Nach verfügbaren Netzbetreibern suchen. Dieser Vorgang dauert etwa 120 Sekunden.",
         "band_masking_title": "Band-Maskierung",
-        "minutes_value_label": "{count} Min."
+        "minutes_value_label": "{count} Min.",
+        "network_type_conflicts_tips": "Der aktuelle Netzwerktyp der SIM-Karte ist {networkType}, was mit dem Netzwerktyp von {feature} in Konflikt steht.",
+        "low_power_mode_only_tips": "Das Gerät befindet sich im Energiesparmodus.",
+        "network_type_lock_tower_tips": "Wenn Sie den Tower sperren, wird der Netzwerktyp festgelegt und kann nicht geändert werden."
     },
     "router_visual": {
         "wlan_client": "WLAN-Client",
@@ -653,7 +655,6 @@
         "network_information_title": "Netzwerkinformationen",
         "network_settings_title": "Netzwerkeinstellungen",
         "band_lock_controls_title": "Band- und Sperrsteuerung",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "ipv4_address_label": "IPv4-Adresse",
         "ipv4_dns_server_label": "IPv4-DNS-Server",
@@ -665,13 +666,9 @@
         "cell_id_label": "Zell-ID",
         "band_information_title": "Bandinformationen",
         "band_label": "Band",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rssi_label": "RSSI",
         "signal_history_title": "Signalverlauf",
-        "rsrq_label": "RSRQ",
-        "bandwidth_label": "Bandbreite"
+        "bandwidth_label": "Bandbreite",
+        "lock_operator_disabled_tip": "Da der aktuelle Kartensteckplatz an die Basisstation gebunden ist, ist die Funktion zum Sperren des Betreibers deaktiviert."
     },
     "sim": {
         "sender_label": "Absender"

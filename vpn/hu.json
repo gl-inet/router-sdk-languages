@@ -603,7 +603,8 @@
         "no_config_selected_line1": "Aktuális alagúthoz nincs kiválasztott konfiguráció.",
         "no_config_selected_line2": "Kérjük, fejezze be az alagút konfigurációját a használat előtt.",
         "no_vpn_config_line2": "VPN szolgáltató használata vagy konfigurációs fájlok hozzáadása.",
-        "remove_last_tunnel_reset_policy_tips": "Az utolsó alagút törlése visszaállítja a {policy} beállítást a(z) \"{label}\" értékre."
+        "remove_last_tunnel_reset_policy_tips": "Az utolsó alagút törlése visszaállítja a {policy} beállítást a(z) \"{label}\" értékre.",
+        "expressvpn_not_connected_label": "Nincs csatlakoztatva"
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",
@@ -672,7 +673,8 @@
         "two_factor_authentication_desc": "Adja meg a hitelesítő alkalmazásból származó 6 számjegyű OTP-kódot a bejelentkezés befejezéséhez.",
         "two_factor_verification_failed_tips": "Az ellenőrzés sikertelen. Győződjön meg róla, hogy a helyes kódot adta meg.",
         "two_factor_verifying_tips": "Ellenőrzés, kérjük, várjon egy pillanatot...",
-        "amneziawg_label": "AmneziaWG 2.0"
+        "amneziawg_label": "AmneziaWG 2.0",
+        "two_factor_request_failed_tips": "A kérés sikertelen. Ellenőrizze a hálózati kapcsolatot."
     },
     "ovpnclient": {
         "legacy_label": "Örökölt",

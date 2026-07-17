@@ -598,7 +598,8 @@
         "no_config_selected_line2": "Lütfen kullanmadan önce tünel yapılandırmasını tamamlayın.",
         "no_vpn_config_line2": "VPN servis sağlayıcısı kullanın veya yapılandırma dosyaları ekleyin.",
         "no_config_selected_line1": "Mevcut tünel için yapılandırma seçilmedi.",
-        "remove_last_tunnel_reset_policy_tips": "Son tüneli silmek, {policy} değerini \"{label}\" olarak sıfırlayacaktır."
+        "remove_last_tunnel_reset_policy_tips": "Son tüneli silmek, {policy} değerini \"{label}\" olarak sıfırlayacaktır.",
+        "expressvpn_not_connected_label": "Bağlı Değil"
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
@@ -672,7 +673,8 @@
         "two_factor_verifying_tips": "Doğrulanıyor, lütfen bir süre bekleyin...",
         "two_factor_verification_failed_tips": "Doğrulama başarısız. Doğru kodu girdiğinizden emin olun.",
         "two_factor_authentication_desc": "Oturumu açmayı tamamlamak için kimlik doğrulama uygulamanızdaki 6 haneli OTP kodunu girin.",
-        "amneziawg_label": "AmneziaWG 2.0"
+        "amneziawg_label": "AmneziaWG 2.0",
+        "two_factor_request_failed_tips": "İstek başarısız oldu. Lütfen ağ bağlantınızı kontrol edin."
     },
     "ovpnclient": {
         "legacy_label": "Eski",

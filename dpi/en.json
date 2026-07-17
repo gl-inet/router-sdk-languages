@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Select one policy mode. Advanced rules override the basic policy for matched traffic.",
         "self_label": "Self",
         "rule_name_placeholder": "e.g. Work Video Call Priority",
-        "dest_port_placeholder": "443, 3478-3480, or any",
         "add_rule_desc": "Create a rule to prioritize traffic by protocol, port, and source IP.",
         "max_rules_reached": "Max rules reached",
         "known_devices_label": "Known Devices",
         "vlan_subnets_label": "VLAN Subnets",
         "add_device_btn": "Add Device",
         "add_device_desc": "Add a device to give it higher priority when the WAN connection is busy.",
-        "highest_priority_traffic_rule_tips": "Traffic matching this rule will be assigned the highest priority, ensuring it is forwarded first during network congestion for a smooth experience."
+        "highest_priority_traffic_rule_tips": "Traffic matching this rule will be assigned the highest priority, ensuring it is forwarded first during network congestion for a smooth experience.",
+        "speed_test_less_than_1m_tips": "The detected bandwidth is less than 1 Mbps. Please enter the bandwidth manually.",
+        "speed_test_done_msg": "Detection done",
+        "dest_port_tips": "The port range is from 1 to 65535. You can set a single port or a port range (e.g., 501-510). The last port number must be greater than the first port number. Empty means any.",
+        "edit_advanced_qos_rule_title": "Edit Advanced QoS Rule"
     },
     "flowstatistics": {
         "card_title": "Application Total Data",
@@ -155,7 +158,10 @@
         "data_usage_title": "Data Usage",
         "search_app_input_placeholder": "Search app name",
         "clear_statistical_label": "Clear all statistical data of the current page?",
-        "all_traffic_label": "All traffic"
+        "all_traffic_label": "All traffic",
+        "latest_client_label": "Latest Client",
+        "clients_label": "Clients",
+        "all_clients_label": "All clients"
     },
     "menu_sqm": "SQM",
     "menu_qos": "QoS",

@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Seleziona una modalità criterio. Le regole avanzate hanno la precedenza sul criterio di base per il traffico corrispondente.",
         "self_label": "Sé",
         "rule_name_placeholder": "ad es. Priorità videochiamata di lavoro",
-        "dest_port_placeholder": "443, 3478-3480 o qualsiasi",
         "add_rule_desc": "Crea una regola per dare priorità al traffico in base a protocollo, porta e IP di origine.",
         "max_rules_reached": "Numero massimo di regole raggiunto",
         "known_devices_label": "Dispositivi noti",
         "vlan_subnets_label": "Sottoreti VLAN",
         "add_device_btn": "Aggiungi dispositivo",
         "add_device_desc": "Aggiungi un dispositivo per assegnargli una priorità più alta quando la connessione WAN è occupata.",
-        "highest_priority_traffic_rule_tips": "Il traffico che corrisponde a questa regola avrà la massima priorità, garantendo che venga inoltrato per primo in caso di congestione della rete per un’esperienza fluida."
+        "highest_priority_traffic_rule_tips": "Il traffico che corrisponde a questa regola avrà la massima priorità, garantendo che venga inoltrato per primo in caso di congestione della rete per un’esperienza fluida.",
+        "speed_test_less_than_1m_tips": "La larghezza di banda rilevata è inferiore a 1 Mbps. Inserire manualmente la larghezza di banda.",
+        "speed_test_done_msg": "Rilevamento completato",
+        "dest_port_tips": "L'intervallo di porte va da 1 a 65535. È possibile impostare una singola porta o un intervallo di porte (ad es., 501-510). L'ultimo numero di porta deve essere maggiore del primo. Vuoto significa qualsiasi.",
+        "edit_advanced_qos_rule_title": "Modifica regola QoS avanzata"
     },
     "flowstatistics": {
         "card_title": "Dati totali applicazione",
@@ -155,7 +158,10 @@
         "flowstatistics_tips": "Quando {name} è abilitato, tiene traccia del traffico delle applicazioni sul router e sui client connessi, visualizzando le app in ordine decrescente di utilizzo totale. È possibile visualizzare i dati dettagliati per ogni app e bloccare singole app se necessario.",
         "search_app_input_placeholder": "Inserire il nome dell'app per la ricerca",
         "clear_statistical_label": "Cancellare tutti i dati statistici della pagina corrente?",
-        "all_traffic_label": "Tutto il traffico"
+        "all_traffic_label": "Tutto il traffico",
+        "latest_client_label": "Client più recente",
+        "clients_label": "Client",
+        "all_clients_label": "Tutti i client"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",

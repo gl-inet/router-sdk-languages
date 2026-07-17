@@ -179,7 +179,6 @@
         "sim_type_label": "SIM típusa",
         "operator_label": "Szolgáltató",
         "airplane_mode_label": "Repülőgép mód",
-        "model_information_label": "Modellinformációk",
         "sim_failover_label": "SIM-feladatátvétel",
         "modem_label": "Modem",
         "firmware_version_label": "Firmware-verzió",
@@ -198,7 +197,10 @@
         "scan_nearby_towers_tips": "Közeli tornyok keresése. Ez a folyamat körülbelül 120 másodpercet vesz igénybe.",
         "scan_available_carriers_tips": "Elérhető szolgáltatók keresése. Ez a folyamat körülbelül 120 másodpercet vesz igénybe.",
         "band_masking_title": "Sávmaszkolás",
-        "minutes_value_label": "{count} perc"
+        "minutes_value_label": "{count} perc",
+        "network_type_conflicts_tips": "A jelenlegi SIM-kártya hálózati típusa {networkType}, amely ütközik a(z) {feature} hálózati típusával.",
+        "low_power_mode_only_tips": "Az eszköz alacsony energiafogyasztású módban van.",
+        "network_type_lock_tower_tips": "Ha zárolja a Towert, a hálózattípus rögzítve lesz, és nem módosítható."
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -653,7 +655,6 @@
         "network_information_title": "Hálózati információk",
         "network_settings_title": "Hálózati beállítások",
         "band_lock_controls_title": "Sáv- és zárolási vezérlők",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "ipv4_dns_server_label": "IPv4 DNS-kiszolgáló",
         "ipv6_address_label": "IPv6-cím",
@@ -664,14 +665,10 @@
         "tac_label": "TAC",
         "band_information_title": "Sávinformációk",
         "band_label": "Sáv",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Jelelőzmények",
         "cell_id_label": "Cellaazonosító",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "bandwidth_label": "Sávszélesség"
+        "bandwidth_label": "Sávszélesség",
+        "lock_operator_disabled_tip": "Mivel a jelenlegi kártyafoglalat a bázisállomáshoz van zárolva, a szolgáltató zárolása funkció le van tiltva."
     },
     "sim": {
         "sender_label": "Feladó"

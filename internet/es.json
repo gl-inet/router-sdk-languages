@@ -306,7 +306,6 @@
         "signal_label": "Señal",
         "sim_type_label": "Tipo de SIM",
         "airplane_mode_label": "Modo avión",
-        "model_information_label": "Información del modelo",
         "sim_failover_label": "Tolerancia a fallos de SIM",
         "modem_information_title": "Información del módem",
         "modem_label": "Módem",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "Buscar torres cercanas. Este proceso tarda aproximadamente 120 segundos.",
         "scan_available_carriers_tips": "Buscar operadores disponibles. Este proceso tarda aproximadamente 120 segundos.",
         "band_masking_title": "Enmascaramiento de banda",
-        "minutes_value_label": "{count} min"
+        "minutes_value_label": "{count} min",
+        "network_type_conflicts_tips": "El tipo de red de la tarjeta SIM actual es {networkType}, lo que entra en conflicto con el tipo de red de {feature}.",
+        "low_power_mode_only_tips": "El dispositivo está en modo de bajo consumo.",
+        "network_type_lock_tower_tips": "Si bloquea Tower, el tipo de red quedará fijo y no se podrá cambiar."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -652,7 +654,6 @@
         "details_configurations_title": "Detalles y configuraciones",
         "network_information_title": "Información de red",
         "band_lock_controls_title": "Controles de banda y bloqueo",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "ipv4_address_label": "Dirección IPv4",
         "ipv6_address_label": "Dirección IPv6",
@@ -665,13 +666,9 @@
         "cell_id_label": "ID de celda",
         "band_information_title": "Información de banda",
         "band_label": "Banda",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Historial de señal",
-        "bandwidth_label": "Ancho de banda"
+        "bandwidth_label": "Ancho de banda",
+        "lock_operator_disabled_tip": "Debido a que la ranura de tarjeta actual está bloqueada en la estación base, la función de bloqueo de operador está deshabilitada."
     },
     "sim": {
         "sender_label": "Remitente"

@@ -306,7 +306,6 @@
         "sim_type_label": "Type de SIM",
         "operator_label": "Opérateur",
         "airplane_mode_label": "Mode avion",
-        "model_information_label": "Informations sur le modèle",
         "sim_failover_label": "Redondance SIM",
         "modem_information_title": "Informations sur le modem",
         "modem_label": "Modem",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "Recherche des antennes à proximité. Ce processus prend environ 120 secondes.",
         "scan_available_carriers_tips": "Recherche des opérateurs disponibles. Ce processus prend environ 120 secondes.",
         "band_masking_title": "Masquage de bande",
-        "minutes_value_label": "{count} min"
+        "minutes_value_label": "{count} min",
+        "network_type_conflicts_tips": "Le type de réseau de la carte SIM actuelle est {networkType}, ce qui est en conflit avec le type de réseau de {feature}.",
+        "low_power_mode_only_tips": "L’appareil est en mode basse consommation.",
+        "network_type_lock_tower_tips": "Si vous verrouillez la Tower, le type de réseau sera figé et ne pourra pas être modifié."
     },
     "router_visual": {
         "wlan_client": "Clients WiFi",
@@ -653,7 +655,6 @@
         "network_information_title": "Informations réseau",
         "network_settings_title": "Paramètres réseau",
         "band_lock_controls_title": "Contrôles de bande et de verrouillage",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "ipv4_address_label": "Adresse IPv4",
         "ipv4_dns_server_label": "Serveur DNS IPv4",
@@ -665,13 +666,9 @@
         "cell_id_label": "ID de cellule",
         "band_information_title": "Informations sur la bande",
         "band_label": "Bande",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Historique du signal",
-        "bandwidth_label": "Bande passante"
+        "bandwidth_label": "Bande passante",
+        "lock_operator_disabled_tip": "Étant donné que l’emplacement de carte actuel est verrouillé sur la station de base, la fonction de verrouillage de l’opérateur est désactivée."
     },
     "sim": {
         "sender_label": "Expéditeur"

@@ -306,7 +306,6 @@
         "details_configs_label": "Dettagli e configurazioni",
         "operator_label": "Operatore",
         "airplane_mode_label": "Modalità aereo",
-        "model_information_label": "Informazioni sul modello",
         "sim_failover_label": "Failover SIM",
         "modem_information_title": "Informazioni sul modem",
         "modem_label": "Modem",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "Scansiona le torri nelle vicinanze. Questo processo richiede circa 120 secondi.",
         "scan_available_carriers_tips": "Scansiona gli operatori disponibili. Questo processo richiede circa 120 secondi.",
         "band_masking_title": "Mascheramento banda",
-        "minutes_value_label": "{count} min"
+        "minutes_value_label": "{count} min",
+        "network_type_conflicts_tips": "Il tipo di rete della scheda SIM attuale è {networkType}, in conflitto con il tipo di rete di {feature}.",
+        "low_power_mode_only_tips": "Il dispositivo è in modalità a basso consumo.",
+        "network_type_lock_tower_tips": "Se blocchi la Tower, il tipo di rete sarà fisso e non potrà essere modificato."
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
@@ -652,7 +654,6 @@
         "details_configurations_title": "Dettagli e configurazioni",
         "network_information_title": "Informazioni di rete",
         "band_lock_controls_title": "Controlli banda e blocco",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "ipv4_address_label": "Indirizzo IPv4",
         "ipv4_dns_server_label": "Server DNS IPv4",
@@ -665,13 +666,9 @@
         "cell_id_label": "ID cella",
         "band_information_title": "Informazioni sulla banda",
         "band_label": "Banda",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Cronologia del segnale",
-        "bandwidth_label": "Larghezza di banda"
+        "bandwidth_label": "Larghezza di banda",
+        "lock_operator_disabled_tip": "Poiché lo slot della scheda corrente è bloccato sulla stazione base, la funzione di blocco operatore è disabilitata."
     },
     "sim": {
         "sender_label": "Mittente"

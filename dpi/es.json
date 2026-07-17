@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Seleccione un modo de política. Las reglas avanzadas anulan la política básica para el tráfico coincidente.",
         "self_label": "Propio",
         "rule_name_placeholder": "p. ej., Prioridad de videollamada de trabajo",
-        "dest_port_placeholder": "443, 3478-3480 o cualquiera",
         "add_rule_desc": "Cree una regla para priorizar el tráfico por protocolo, puerto e IP de origen.",
         "max_rules_reached": "Se alcanzó el número máximo de reglas",
         "known_devices_label": "Dispositivos conocidos",
         "vlan_subnets_label": "Subredes VLAN",
         "add_device_btn": "Añadir dispositivo",
         "add_device_desc": "Añada un dispositivo para darle mayor prioridad cuando la conexión WAN esté ocupada.",
-        "highest_priority_traffic_rule_tips": "El tráfico que coincida con esta regla se le asignará la máxima prioridad, lo que garantizará que se reenvíe primero durante la congestión de la red para una experiencia fluida."
+        "highest_priority_traffic_rule_tips": "El tráfico que coincida con esta regla se le asignará la máxima prioridad, lo que garantizará que se reenvíe primero durante la congestión de la red para una experiencia fluida.",
+        "speed_test_less_than_1m_tips": "El ancho de banda detectado es inferior a 1 Mbps. Introduzca el ancho de banda manualmente.",
+        "speed_test_done_msg": "Detección completada",
+        "dest_port_tips": "El rango de puertos es de 1 a 65535. Puede establecer un solo puerto o un rango de puertos (p. ej., 501-510). El último número de puerto debe ser mayor que el primero. Vacío significa cualquiera.",
+        "edit_advanced_qos_rule_title": "Editar regla avanzada de QoS"
     },
     "flowstatistics": {
         "card_title": "Datos Totales de Aplicación",
@@ -155,7 +158,10 @@
         "total_label": "Ancho de banda total",
         "search_app_input_placeholder": "Ingrese el nombre de la aplicación para buscar",
         "clear_statistical_label": "¿Borrar todos los datos estadísticos de la página actual?",
-        "all_traffic_label": "Todo el tráfico"
+        "all_traffic_label": "Todo el tráfico",
+        "clients_label": "Clientes",
+        "latest_client_label": "Cliente más reciente",
+        "all_clients_label": "Todos los clientes"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",

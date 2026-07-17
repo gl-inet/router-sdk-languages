@@ -3,8 +3,8 @@
         "name": "名稱",
         "speed": "速率",
         "traffic": "流量統計",
-        "delete_caution": "您確定想從列表中刪除該客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
-        "delete_all_caution": "您確定想從列表中刪除所有客戶端嗎？\n這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
+        "delete_caution": "您確定想從列表中刪除該客戶端嗎？\n 這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
+        "delete_all_caution": "您確定想從列表中刪除所有客戶端嗎？\n 這並不能阻止客戶端重新連接到路由器，您針對這些客戶端的配置也會被一併移除。",
         "access_wan": "訪問區域網絡 (WAN)",
         "online_client": "在線客戶端",
         "offline_client": "離線客戶端",
@@ -23,7 +23,7 @@
         "unlimited_hint": "無限制",
         "television": "電視機",
         "gateway": "網關",
-        "speed_tips": "此速率為最近 3 分鐘內的平均速率。 \n注意：打開此頁面時系統才開始計算速率（如打開頁面 10 秒時顯示的是最近 10 秒內平均速度），因此數值會有較大波動。",
+        "speed_tips": "此速率為最近 3 分鐘內的平均速率。 \n 注意：打開此頁面時系統才開始計算速率（如打開頁面 10 秒時顯示的是最近 10 秒內平均速度），因此數值會有較大波動。",
         "edit_device_title": "修改客戶端設備",
         "phone": "電話",
         "camera": "相機",
@@ -51,7 +51,7 @@
         "access_control_label": "訪問控製",
         "import_mac_label": "導入客戶",
         "import_mac_add_tips": "成功導入的 MAC 地址將附加到列表中。",
-        "parse_mac_error_tips": "MAC地址解析失敗，請檢查文件並重新上傳。",
+        "parse_mac_error_tips": "MAC 地址解析失敗，請檢查文件並重新上傳。",
         "parse_mac_success_tips": "已解析 1 個有效的 MAC 地址。 | {count} 個有效的 MAC 地址已被解析。",
         "blacklist_self_error_tips": "禁止將自身 MAC 添加到阻止列表。",
         "access_control_tips": "訪問控製允許或阻止特定客戶設備訪問你的網路。",
@@ -72,9 +72,9 @@
         "reserved_ip_label": "保留 IP",
         "reserved_ip_tips": "當您為區域網路 (LAN) 內的客戶端指定一個保留的 IP 地址時，該客戶端每次訪問路由器的 DHCP 伺服器時都會收到相同的 IP 地址。您可以為需要固定 IP 設置的電腦或伺服器分配保留 IP 地址。",
         "next_connect_effect_tips": "當前配置需要下一次連接才能生效。",
-        "reserve_ip_only_ipv4_tips": "只能配置局域網段IPv4地址保留。",
+        "reserve_ip_only_ipv4_tips": "只能配置局域網段 IPv4 地址保留。",
         "host_guest_label": "主/訪客網路",
-        "reserve_ip_different_lan_tips": "保留的IP與當前IP不在同一網段，配置未生效。",
+        "reserve_ip_different_lan_tips": "保留的 IP 與當前 IP 不在同一網段，配置未生效。",
         "access_control_overlimit_tips": "{list} 已滿。請在 {option} 中進行管理。",
         "usb_tethering": "USB 網路共用",
         "qos_warning": "用戶端速度限制不可用，因為已啟用$$$$QoS$$$$。",
@@ -98,8 +98,8 @@
     },
     "menu_clients": "客戶端",
     "vpn_tunnel": {
-        "mac_using_tips": "VPN已連接。",
-        "mac_not_effect_tips": "VPN尚未生效。",
-        "mac_connecting_tips": "VPN正在連接中。"
+        "mac_using_tips": "VPN 已連接。",
+        "mac_not_effect_tips": "VPN 尚未生效。",
+        "mac_connecting_tips": "VPN 正在連接中。"
     }
 }

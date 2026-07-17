@@ -18,7 +18,7 @@
         "dns_lookup": "Cuardach DNS",
         "typical": "Tipiciúil",
         "worst": "Is measa",
-        "jitter": "Jitter",
+        "jitter": "Crith",
         "status": "Stádas",
         "packet_loss": "Caillteanas Paicéad",
         "stable": "Cobhsaí",
@@ -33,7 +33,7 @@
         "speedtest_beta": "Béite",
         "speedtest_powered_by": "Cumhachtaithe ag Cloudflare Speed Test",
         "speedtest_ping": "Ping",
-        "speedtest_bufferbloat": "Bufferbloat",
+        "speedtest_bufferbloat": "Maolánú",
         "speedtest_run": "Rith Tástáil Luais",
         "speedtest_testing": "Ag tástáil",
         "disable_title": "Díchumasaigh Cáilíocht Líonra",
@@ -52,6 +52,7 @@
         "probe_internet_target": "Sprioc inrochtaineachta Idirlín",
         "probe_dns_target": "Sprioc réitigh DNS",
         "rate_total_label": "Iomlán an ráta: {unit}",
-        "rate_total_netnat_tips": "D’fhéadfadh cumasú na gné {network} dul i bhfeidhm ar chruinneas an luais."
+        "rate_total_netnat_tips": "D’fhéadfadh cumasú na gné {network} dul i bhfeidhm ar chruinneas an luais.",
+        "loss_percent_label": "Caillteanas {percent}%"
     }
 }

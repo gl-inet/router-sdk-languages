@@ -59,7 +59,6 @@
         "filter_safe_label": "安全",
         "excellent_security": "安全性极佳",
         "excellent_security_count": "{count} 项",
-        "excellent_security_desc": "所有安全检查均已通过。您的路由器已得到良好保护。",
         "retest_btn": "重新检测",
         "confirm_disable_title": "禁用确认",
         "confirm_disable_content": "确定要禁用 {name} 吗？",
@@ -95,6 +94,7 @@
         "upnp": "UPnP",
         "upnp_desc": "UPnP 已启用，可能会自动向外部网络开放防火墙端口",
         "disable_upnp_btn": "禁用 UPnP",
-        "no_match_safety_criteria": "没有项目符合安全标准。请修复检测到的风险以改善结果。"
+        "no_match_safety_criteria": "没有项目符合安全标准。请修复检测到的风险以改善结果。",
+        "excellent_security_desc": "您的网络已受到全面保护，未检测到风险。请继续保持良好的使用习惯。"
     }
 }

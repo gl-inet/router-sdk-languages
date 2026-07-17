@@ -210,7 +210,6 @@
         "details_configs_label": "Ayrıntılar ve Yapılandırmalar",
         "operator_label": "Operatör",
         "airplane_mode_label": "Uçak Modu",
-        "model_information_label": "Model Bilgileri",
         "sim_failover_label": "SIM Yedek Bağlantısı",
         "modem_label": "Modem",
         "firmware_version_label": "Donanım Yazılımı Sürümü",
@@ -229,7 +228,10 @@
         "scan_nearby_towers_tips": "Yakındaki baz istasyonlarını tara. Bu işlem yaklaşık 120 saniye sürer.",
         "scan_available_carriers_tips": "Kullanılabilir operatörleri tara. Bu işlem yaklaşık 120 saniye sürer.",
         "band_masking_title": "Bant Maskeleme",
-        "minutes_value_label": "{count} dk"
+        "minutes_value_label": "{count} dk",
+        "network_type_conflicts_tips": "Mevcut SIM kartı ağ türü {networkType}, {feature} özelliğinin ağ türüyle çakışıyor.",
+        "low_power_mode_only_tips": "Cihaz düşük güç modunda.",
+        "network_type_lock_tower_tips": "Tower'ı kilitlerseniz ağ türü sabitlenir ve değiştirilemez."
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -667,7 +669,6 @@
         "details_configurations_title": "Ayrıntılar ve Yapılandırmalar",
         "network_information_title": "Ağ Bilgileri",
         "network_settings_title": "Ağ Ayarları",
-        "msisdn_label": "MSISDN",
         "max_bit_rate_label": "Maks. Bit Hızı (AMBR)",
         "ipv4_address_label": "IPv4 Adresi",
         "ipv4_dns_server_label": "IPv4 DNS Sunucusu",
@@ -680,13 +681,9 @@
         "cell_id_label": "Hücre Kimliği",
         "band_information_title": "Bant Bilgisi",
         "band_label": "Bant",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Sinyal Geçmişi",
-        "earfcn_label": "EARFCN",
-        "bandwidth_label": "Bant Genişliği"
+        "bandwidth_label": "Bant Genişliği",
+        "lock_operator_disabled_tip": "Geçerli kart yuvası baz istasyonuna kilitli olduğundan, operatör kilitleme işlevi devre dışıdır."
     },
     "sim": {
         "sender_label": "Gönderen"

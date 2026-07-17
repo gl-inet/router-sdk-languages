@@ -1,17 +1,17 @@
 {
     "secure_scan": {
-        "page_title": "Saugumo Nuskaitymas",
+        "page_title": "Saugumo nuskaitymas",
         "scan_btn": "Nuskaityti",
         "scanning_btn": "Nuskaitoma...",
         "fix_btn": "Taisyti",
         "fixing_btn": "Taisoma...",
-        "go_to_settings_btn": "Eiti į Nustatymus",
+        "go_to_settings_btn": "Eiti į nustatymus",
         "status_scanning": "Nuskaitoma...",
         "status_fixing": "Taisoma",
         "status_safe": "Saugu",
         "status_waiting": "Laukiama",
-        "status_medium_risk": "Vidutinė Rizika",
-        "status_high_risk": "Didelė Rizika",
+        "status_medium_risk": "Vidutinė rizika",
+        "status_high_risk": "Didelė rizika",
         "level_safe": "Saugu|Saugūs",
         "level_suggestion": "Pasiūlymas|Pasiūlymai",
         "level_danger": "Pavojus",
@@ -59,7 +59,6 @@
         "filter_safe_label": "Saugu",
         "excellent_security": "Puikus Saugumas",
         "excellent_security_count": "{count} Elementai",
-        "excellent_security_desc": "Visi saugumo patikrinimai sėkmingi. Jūsų maršrutizatorius yra gerai apsaugotas.",
         "retest_btn": "Pakartotinis Testas",
         "confirm_disable_title": "Išjungimo Patvirtinimas",
         "confirm_disable_content": "Ar tikrai norite išjungti {name}?",
@@ -95,6 +94,7 @@
         "upnp": "UPnP",
         "upnp_desc": "UPnP įjungtas, gali automatiškai atverti užkardos prievadus išoriniams tinklams",
         "disable_upnp_btn": "Išjungti UPnP",
-        "no_match_safety_criteria": "Nė vienas elementas neatitiko saugos kriterijų. Ištaisykite aptiktas rizikas, kad pagerintumėte rezultatus."
+        "no_match_safety_criteria": "Nė vienas elementas neatitiko saugos kriterijų. Ištaisykite aptiktas rizikas, kad pagerintumėte rezultatus.",
+        "excellent_security_desc": "Jūsų tinklas yra visiškai apsaugotas, rizikų neaptikta. Išlaikykite gerą praktiką."
     }
 }

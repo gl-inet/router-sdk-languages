@@ -603,7 +603,8 @@
         "no_config_selected_line1": "현재 터널에 대해 선택된 구성이 없습니다.",
         "no_config_selected_line2": "사용하기 전에 터널 구성을 완료하십시오.",
         "no_vpn_config_line2": "VPN 서비스 공급자를 사용하거나 구성 파일을 추가하십시오.",
-        "remove_last_tunnel_reset_policy_tips": "마지막 터널을 삭제하면 {policy}이(가) \"{label}\"(으)로 재설정됩니다."
+        "remove_last_tunnel_reset_policy_tips": "마지막 터널을 삭제하면 {policy}이(가) \"{label}\"(으)로 재설정됩니다.",
+        "expressvpn_not_connected_label": "연결되지 않음"
     },
     "vpn_server": {
         "off_title": "{type} 서버가 현재 꺼져 있습니다.",
@@ -672,7 +673,8 @@
         "two_factor_authentication_desc": "로그인을 완료하려면 인증 앱의 6자리 OTP 코드를 입력하세요.",
         "two_factor_verifying_tips": "확인 중입니다. 잠시만 기다려 주세요...",
         "two_factor_verification_failed_tips": "확인에 실패했습니다. 올바른 코드를 입력했는지 확인하세요.",
-        "amneziawg_label": "AmneziaWG 2.0"
+        "amneziawg_label": "AmneziaWG 2.0",
+        "two_factor_request_failed_tips": "요청에 실패했습니다. 네트워크 연결을 확인하십시오."
     },
     "ovpnclient": {
         "legacy_label": "레거시",

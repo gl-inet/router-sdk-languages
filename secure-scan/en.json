@@ -59,7 +59,6 @@
         "filter_safe_label": "Safe",
         "excellent_security": "Excellent Security",
         "excellent_security_count": "{count} Items",
-        "excellent_security_desc": "All security checks passed. Your router is well protected.",
         "retest_btn": "Retest",
         "confirm_disable_title": "Disable Confirmation",
         "confirm_disable_content": "Are you sure you want to disable {name}?",
@@ -95,6 +94,7 @@
         "upnp": "UPnP",
         "upnp_desc": "UPnP is enabled, may automatically open firewall ports to external networks",
         "disable_upnp_btn": "Disable UPnP",
-        "no_match_safety_criteria": "No items matched the safety criteria. Fix detected risks to improve your results."
+        "no_match_safety_criteria": "No items matched the safety criteria. Fix detected risks to improve your results.",
+        "excellent_security_desc": "Your network is fully protected with no risks detected. Keep up the good practices."
     }
 }

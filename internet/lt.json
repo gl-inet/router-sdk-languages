@@ -179,7 +179,6 @@
         "sim_type_label": "SIM tipas",
         "operator_label": "Operatorius",
         "airplane_mode_label": "Lėktuvo veiksena",
-        "model_information_label": "Modelio informacija",
         "sim_failover_label": "SIM nesėkmingumo (įvykio) mechanizmas",
         "modem_information_title": "Modemo informacija",
         "modem_label": "Modemas",
@@ -198,7 +197,10 @@
         "scan_nearby_towers_tips": "Ieškoti netoliese esančių bokštų. Šis procesas trunka maždaug 120 sekundžių.",
         "scan_available_carriers_tips": "Ieškoti pasiekiamų operatorių. Šis procesas trunka maždaug 120 sekundžių.",
         "band_masking_title": "Juostos maskavimas",
-        "minutes_value_label": "{count} min."
+        "minutes_value_label": "{count} min.",
+        "network_type_conflicts_tips": "Dabartinis SIM kortelės tinklo tipas yra {networkType}, kuris nesuderinamas su {feature} tinklo tipu.",
+        "low_power_mode_only_tips": "Įrenginys yra mažos galios veiksenoje.",
+        "network_type_lock_tower_tips": "Jei užrakinsite Tower, tinklo tipas bus fiksuotas ir jo nebus galima pakeisti."
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -653,7 +655,6 @@
         "network_information_title": "Tinklo informacija",
         "network_settings_title": "Tinklo nustatymai",
         "band_lock_controls_title": "Juostos ir užrakinimo valdikliai",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "max_bit_rate_label": "Maksimali bitų sparta (AMBR)",
         "ipv4_address_label": "IPv4 adresas",
@@ -665,13 +666,9 @@
         "cell_id_label": "Langelio ID",
         "band_information_title": "Juostos informacija",
         "band_label": "Juosta",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Signalo istorija",
-        "earfcn_label": "EARFCN",
-        "bandwidth_label": "Duomenų siuntimo srauto pralaidumas"
+        "bandwidth_label": "Duomenų siuntimo srauto pralaidumas",
+        "lock_operator_disabled_tip": "Kadangi dabartinis kortelės lizdas yra užrakintas prie bazinės stoties, operatoriaus užrakinimo funkcija yra išjungta."
     },
     "sim": {
         "sender_label": "Siuntėjas"

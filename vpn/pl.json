@@ -603,7 +603,8 @@
         "no_config_selected_line1": "Dla bieżącego tunelu nie wybrano konfiguracji.",
         "no_config_selected_line2": "Przed użyciem należy uzupełnić konfigurację tunelu.",
         "no_vpn_config_line2": "Korzystanie z usługodawcy VPN lub dodawanie plików konfiguracyjnych.",
-        "remove_last_tunnel_reset_policy_tips": "Usunięcie ostatniego tunelu spowoduje zresetowanie {policy} do \"{label}\"."
+        "remove_last_tunnel_reset_policy_tips": "Usunięcie ostatniego tunelu spowoduje zresetowanie {policy} do \"{label}\".",
+        "expressvpn_not_connected_label": "Nie połączono"
     },
     "vpn_server": {
         "off_title": "Serwer {type} jest obecnie WYŁĄCZONY.",
@@ -672,7 +673,8 @@
         "two_factor_authentication_desc": "Wprowadź 6-cyfrowy kod OTP z aplikacji uwierzytelniającej, aby zakończyć logowanie.",
         "two_factor_verifying_tips": "Weryfikowanie, poczekaj chwilę...",
         "two_factor_verification_failed_tips": "Weryfikacja nie powiodła się. Upewnij się, że wprowadzasz prawidłowy kod.",
-        "amneziawg_label": "AmneziaWG 2.0"
+        "amneziawg_label": "AmneziaWG 2.0",
+        "two_factor_request_failed_tips": "Żądanie nie powiodło się. Sprawdź połączenie sieciowe."
     },
     "ovpnclient": {
         "legacy_label": "Starsze",

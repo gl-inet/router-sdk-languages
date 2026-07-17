@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "정책 모드를 하나 선택하세요. 고급 규칙은 일치하는 트래픽에 대해 기본 정책보다 우선 적용됩니다.",
         "self_label": "셀프",
         "rule_name_placeholder": "예: 업무 화상 통화 우선순위",
-        "dest_port_placeholder": "443, 3478-3480 또는 임의의",
         "add_rule_desc": "프로토콜, 포트 및 출발지 IP별로 트래픽 우선순위를 지정하는 규칙을 생성합니다.",
         "max_rules_reached": "최대 규칙 수에 도달했습니다",
         "known_devices_label": "알려진 기기",
         "vlan_subnets_label": "VLAN 서브넷",
         "add_device_btn": "기기 추가",
         "add_device_desc": "WAN 연결이 혼잡할 때 더 높은 우선순위를 부여할 기기를 추가합니다.",
-        "highest_priority_traffic_rule_tips": "이 규칙과 일치하는 트래픽은 최고 우선순위로 지정되어 네트워크 혼잡 시 먼저 전달되어 원활한 사용 환경을 보장합니다."
+        "highest_priority_traffic_rule_tips": "이 규칙과 일치하는 트래픽은 최고 우선순위로 지정되어 네트워크 혼잡 시 먼저 전달되어 원활한 사용 환경을 보장합니다.",
+        "speed_test_less_than_1m_tips": "감지된 대역폭이 1 Mbps 미만입니다. 대역폭을 수동으로 입력하세요.",
+        "speed_test_done_msg": "감지 완료",
+        "dest_port_tips": "포트 범위는 1~65535입니다. 단일 포트 또는 포트 범위(예: 501-510)를 설정할 수 있습니다. 마지막 포트 번호는 첫 번째 포트 번호보다 커야 합니다. 비워 두면 모두를 의미합니다.",
+        "edit_advanced_qos_rule_title": "고급 QoS 규칙 편집"
     },
     "flowstatistics": {
         "card_title": "애플리케이션 총 데이터",
@@ -155,7 +158,10 @@
         "to_safeGuard_btn": "{name}(으)로 이동",
         "search_app_input_placeholder": "앱 이름을 입력하여 검색하십시오",
         "clear_statistical_label": "현재 페이지의 모든 통계 데이터를 지우시겠습니까?",
-        "all_traffic_label": "모든 트래픽"
+        "all_traffic_label": "모든 트래픽",
+        "latest_client_label": "최신 클라이언트",
+        "clients_label": "클라이언트",
+        "all_clients_label": "모든 클라이언트"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",

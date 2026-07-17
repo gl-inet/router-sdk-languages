@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Sélectionnez un mode de stratégie. Les règles avancées remplacent la stratégie de base pour le trafic correspondant.",
         "self_label": "Soi-même",
         "rule_name_placeholder": "p. ex. Priorité aux appels vidéo professionnels",
-        "dest_port_placeholder": "443, 3478-3480 ou n’importe lequel",
         "add_rule_desc": "Créer une règle pour prioriser le trafic par protocole, port et adresse IP source.",
         "max_rules_reached": "Nombre maximal de règles atteint",
         "known_devices_label": "Appareils connus",
         "vlan_subnets_label": "Sous-réseaux VLAN",
         "add_device_btn": "Ajouter un appareil",
         "add_device_desc": "Ajoutez un appareil pour lui donner une priorité plus élevée lorsque la connexion WAN est occupée.",
-        "highest_priority_traffic_rule_tips": "Le trafic correspondant à cette règle se verra attribuer la priorité la plus élevée, garantissant qu’il soit transmis en premier en cas de congestion du réseau pour une expérience fluide."
+        "highest_priority_traffic_rule_tips": "Le trafic correspondant à cette règle se verra attribuer la priorité la plus élevée, garantissant qu’il soit transmis en premier en cas de congestion du réseau pour une expérience fluide.",
+        "speed_test_less_than_1m_tips": "La bande passante détectée est inférieure à 1 Mbit/s. Veuillez saisir la bande passante manuellement.",
+        "speed_test_done_msg": "Détection terminée",
+        "dest_port_tips": "La plage de ports va de 1 à 65535. Vous pouvez définir un port unique ou une plage de ports (par ex. 501-510). Le dernier numéro de port doit être supérieur au premier. Vide signifie n’importe lequel.",
+        "edit_advanced_qos_rule_title": "Modifier la règle QoS avancée"
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
@@ -155,7 +158,10 @@
         "mac_label": "MAC",
         "search_app_input_placeholder": "Veuillez saisir le nom de l'application à rechercher",
         "clear_statistical_label": "Effacer toutes les données statistiques de la page actuelle ?",
-        "all_traffic_label": "Tout le trafic"
+        "all_traffic_label": "Tout le trafic",
+        "clients_label": "Clients",
+        "latest_client_label": "Dernier client",
+        "all_clients_label": "Tous les clients"
     },
     "menu_sqm": "SQM",
     "menu_flowstatistics": "Statistiques des Données",

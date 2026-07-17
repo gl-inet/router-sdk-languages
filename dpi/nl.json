@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "Selecteer één beleidsmodus. Geavanceerde regels hebben voorrang op het basisbeleid voor overeenkomend verkeer.",
         "self_label": "Zelf",
         "rule_name_placeholder": "bijv. Prioriteit voor werkvideogesprekken",
-        "dest_port_placeholder": "443, 3478-3480 of alle",
         "add_rule_desc": "Maak een regel aan om verkeer te prioriteren op basis van protocol, poort en bron-IP.",
         "max_rules_reached": "Maximaal aantal regels bereikt",
         "known_devices_label": "Bekende apparaten",
         "vlan_subnets_label": "VLAN-subnetten",
         "add_device_btn": "Apparaat toevoegen",
         "add_device_desc": "Voeg een apparaat toe om het een hogere prioriteit te geven wanneer de WAN-verbinding bezet is.",
-        "highest_priority_traffic_rule_tips": "Verkeer dat aan deze regel voldoet, krijgt de hoogste prioriteit en wordt bij netwerkcongestie als eerste doorgestuurd voor een soepele ervaring."
+        "highest_priority_traffic_rule_tips": "Verkeer dat aan deze regel voldoet, krijgt de hoogste prioriteit en wordt bij netwerkcongestie als eerste doorgestuurd voor een soepele ervaring.",
+        "speed_test_less_than_1m_tips": "De gedetecteerde bandbreedte is minder dan 1 Mbps. Voer de bandbreedte handmatig in.",
+        "speed_test_done_msg": "Detectie voltooid",
+        "dest_port_tips": "Het poortbereik is van 1 tot 65535. U kunt één poort of een poortbereik instellen (bijv. 501-510). Het laatste poortnummer moet groter zijn dan het eerste poortnummer. Leeg betekent willekeurig.",
+        "edit_advanced_qos_rule_title": "Geavanceerde QoS-regel bewerken"
     },
     "flowstatistics": {
         "card_title": "Applicatie Totale Gegevens",
@@ -155,7 +158,10 @@
         "table_title": "App-verkeersstatistieken",
         "clear_statistical_label": "Alle statistische gegevens van de huidige pagina wissen?",
         "search_app_input_placeholder": "Voer de app-naam in om te zoeken",
-        "all_traffic_label": "Alle verkeer"
+        "all_traffic_label": "Alle verkeer",
+        "latest_client_label": "Nieuwste client",
+        "clients_label": "Clients",
+        "all_clients_label": "Alle clients"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",

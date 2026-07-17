@@ -306,7 +306,6 @@
         "details_configs_label": "Сведения и конфигурации",
         "operator_label": "Оператор",
         "airplane_mode_label": "Режим полета",
-        "model_information_label": "Информация о модели",
         "sim_failover_label": "SIM Failover",
         "modem_information_title": "Информация о модеме",
         "modem_label": "Модем",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "Сканирование ближайших вышек. Этот процесс занимает примерно 120 секунд.",
         "scan_available_carriers_tips": "Сканирование доступных операторов. Этот процесс занимает примерно 120 секунд.",
         "band_masking_title": "Маскирование диапазонов",
-        "minutes_value_label": "{count} мин."
+        "minutes_value_label": "{count} мин.",
+        "network_type_conflicts_tips": "Текущий тип сети SIM-карты — {networkType}, что конфликтует с типом сети функции {feature}.",
+        "low_power_mode_only_tips": "Устройство находится в режиме низкого энергопотребления.",
+        "network_type_lock_tower_tips": "Если заблокировать Tower, тип сети будет зафиксирован и его нельзя будет изменить."
     },
     "sms": {
         "forward_encryp_label": "Включить маскировку",
@@ -651,7 +653,6 @@
         "airplane_mode_tips": "Режим полета включен. Сотовая связь недоступна.",
         "details_configurations_title": "Сведения и конфигурации",
         "network_settings_title": "Настройки сети",
-        "msisdn_label": "MSISDN",
         "max_bit_rate_label": "Максимальная битовая скорость (AMBR)",
         "ipv4_address_label": "IPv4-адрес",
         "ipv4_dns_server_label": "DNS-сервер IPv4",
@@ -665,13 +666,9 @@
         "cell_id_label": "Cell ID",
         "band_information_title": "Информация о диапазоне",
         "band_label": "Диапазон",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "История сигнала",
-        "bandwidth_label": "Пропускная способность"
+        "bandwidth_label": "Пропускная способность",
+        "lock_operator_disabled_tip": "Поскольку текущий слот для карты привязан к базовой станции, функция блокировки оператора отключена."
     },
     "sim": {
         "sender_label": "Отправитель"

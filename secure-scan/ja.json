@@ -59,7 +59,6 @@
         "filter_safe_label": "安全",
         "excellent_security": "優れたセキュリティ",
         "excellent_security_count": "{count} 項目",
-        "excellent_security_desc": "すべてのセキュリティチェックに合格しました。ルーターは十分に保護されています。",
         "retest_btn": "再テスト",
         "confirm_disable_title": "無効化の確認",
         "confirm_disable_content": "{name} を無効にしてもよろしいですか？",
@@ -95,6 +94,7 @@
         "upnp": "UPnP",
         "upnp_desc": "UPnP が有効です。外部ネットワークに対してファイアウォールポートが自動的に開かれる可能性があります",
         "disable_upnp_btn": "UPnP を無効にする",
-        "no_match_safety_criteria": "安全基準に一致する項目はありません。検出されたリスクを修正して、結果を改善してください。"
+        "no_match_safety_criteria": "安全基準に一致する項目はありません。検出されたリスクを修正して、結果を改善してください。",
+        "excellent_security_desc": "ネットワークは完全に保護されており、リスクは検出されませんでした。引き続き適切な運用を維持してください。"
     }
 }

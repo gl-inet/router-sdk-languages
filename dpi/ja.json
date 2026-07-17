@@ -121,14 +121,17 @@
         "scheduling_policy_tips": "ポリシーモードを1つ選択してください。詳細ルールは、一致するトラフィックに対して基本ポリシーより優先されます。",
         "self_label": "自己",
         "rule_name_placeholder": "例：仕事のビデオ通話の優先度",
-        "dest_port_placeholder": "443、3478～3480、または任意",
         "add_rule_desc": "プロトコル、ポート、送信元 IP に基づいてトラフィックを優先するルールを作成します。",
         "max_rules_reached": "ルールの上限に達しました",
         "known_devices_label": "既知のデバイス",
         "vlan_subnets_label": "VLANサブネット",
         "add_device_btn": "デバイスを追加",
         "add_device_desc": "WAN接続が混雑しているときに優先度を高くするデバイスを追加します。",
-        "highest_priority_traffic_rule_tips": "このルールに一致するトラフィックには最高優先度が割り当てられ、ネットワーク混雑時でも最優先で転送されるため、スムーズにご利用いただけます。"
+        "highest_priority_traffic_rule_tips": "このルールに一致するトラフィックには最高優先度が割り当てられ、ネットワーク混雑時でも最優先で転送されるため、スムーズにご利用いただけます。",
+        "speed_test_less_than_1m_tips": "検出された帯域幅は 1 Mbps 未満です。帯域幅を手動で入力してください。",
+        "speed_test_done_msg": "検出完了",
+        "dest_port_tips": "ポート範囲は1～65535です。単一のポートまたはポート範囲（例：501-510）を設定できます。最後のポート番号は最初のポート番号より大きい必要があります。空欄の場合は任意を意味します。",
+        "edit_advanced_qos_rule_title": "高度なQoSルールを編集"
     },
     "flowstatistics": {
         "card_title": "アプリケーション総データ量",
@@ -155,7 +158,10 @@
         "total_label": "総帯域幅",
         "search_app_input_placeholder": "アプリ名を検索",
         "clear_statistical_label": "現在のページの統計データをすべて削除しますか？",
-        "all_traffic_label": "すべてのトラフィック"
+        "all_traffic_label": "すべてのトラフィック",
+        "latest_client_label": "最新のクライアント",
+        "clients_label": "クライアント",
+        "all_clients_label": "すべてのクライアント"
     },
     "menu_qos": "QoS",
     "menu_sqm": "SQM",

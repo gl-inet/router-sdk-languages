@@ -603,7 +603,8 @@
         "no_config_selected_line1": "Для поточного тунелю не обрано конфігурації.",
         "no_config_selected_line2": "Будь ласка, завершіть конфігурацію тунелю перед його використанням.",
         "no_vpn_config_line2": "Використовуйте постачальника послуг VPN або додайте файли конфігурації.",
-        "remove_last_tunnel_reset_policy_tips": "Видалення останнього тунелю скине {policy} до \"{label}\"."
+        "remove_last_tunnel_reset_policy_tips": "Видалення останнього тунелю скине {policy} до \"{label}\".",
+        "expressvpn_not_connected_label": "Не підключено"
     },
     "vpn_server": {
         "connected_dev_label": "Підключені пристрої",
@@ -672,7 +673,8 @@
         "two_factor_authentication_desc": "Введіть 6-значний OTP-код із вашого застосунку автентифікації, щоб завершити вхід.",
         "two_factor_verification_failed_tips": "Перевірка не вдалася. Переконайтеся, що ви ввели правильний код.",
         "two_factor_verifying_tips": "Перевірка, зачекайте хвилинку...",
-        "amneziawg_label": "AmneziaWG 2.0"
+        "amneziawg_label": "AmneziaWG 2.0",
+        "two_factor_request_failed_tips": "Помилка запиту. Перевірте підключення до мережі."
     },
     "ovpnclient": {
         "legacy_label": "Спадщина",

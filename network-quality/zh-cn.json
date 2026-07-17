@@ -52,6 +52,7 @@
         "probe_internet_target": "互联网可达性目标",
         "probe_dns_target": "DNS 解析目标",
         "rate_total_label": "总速率：{unit}",
-        "rate_total_netnat_tips": "启用 {network} 功能可能会影响速度准确性。"
+        "rate_total_netnat_tips": "启用 {network} 功能可能会影响速度准确性。",
+        "loss_percent_label": "{percent}% 丢包"
     }
 }

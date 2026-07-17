@@ -88,7 +88,6 @@
         "details_configurations_title": "Sonraí & Cumraíochtaí",
         "network_information_title": "Faisnéis Líonra",
         "band_lock_controls_title": "Rialuithe Banda agus Glasála",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "ipv4_address_label": "Seoladh IPv4",
         "ipv4_dns_server_label": "Freastalaí DNS IPv4",
@@ -101,13 +100,9 @@
         "cell_id_label": "Aitheantas Cille",
         "band_information_title": "Faisnéis Banda",
         "band_label": "Banda",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Stair Chomhartha",
-        "bandwidth_label": "Bandaleithead"
+        "bandwidth_label": "Bandaleithead",
+        "lock_operator_disabled_tip": "Toisc go bhfuil sliotán reatha an chárta glasáilte leis an mbunstáisiún, tá feidhm glasála an oibreora díchumasaithe."
     },
     "sms": {
         "del_sms": "Scrios",
@@ -466,7 +461,6 @@
         "sim_type_label": "Cineál SIM",
         "operator_label": "Oibreoir",
         "airplane_mode_label": "Mód Eitleáin",
-        "model_information_label": "Eolas faoin tSamhail",
         "sim_failover_label": "Teip-thar SIM",
         "modem_information_title": "Eolas faoin móideim",
         "modem_label": "móideim",
@@ -485,7 +479,10 @@
         "scan_nearby_towers_tips": "Scanadh do thúir in aice láimhe. Tógann an próiseas seo thart ar 120 soicind.",
         "scan_available_carriers_tips": "Scanadh d’oibreoirí ar fáil. Tógann an próiseas seo thart ar 120 soicind.",
         "band_masking_title": "Mascadh banda",
-        "minutes_value_label": "{count} nóim"
+        "minutes_value_label": "{count} nóim",
+        "network_type_conflicts_tips": "Tá cineál líonra an chárta SIM reatha {networkType}, atá i gcoinbhleacht le cineál líonra {feature}.",
+        "low_power_mode_only_tips": "Tá an gléas i mód ísealchumhachta.",
+        "network_type_lock_tower_tips": "Má chuireann tú glas ar Tower, socrófar cineál an líonra agus ní bheidh sé in-athraithe."
     },
     "guide": {
         "tethering_device_connect_title": "Braith Gléas Teaghráil",
@@ -703,24 +700,24 @@
         "name_label": "Ainm",
         "ip_type_label": "Cineál IP",
         "souce_zoon_label": "Crios Foinse",
-        "source_address_label": "Seoladh foinse",
+        "source_address_label": "Seoladh Foinse",
         "source_port_label": "Port Foinse",
         "dest_zone_label": "Crios Ceann Scríbe",
         "action_label": "Gníomh",
         "dest_address_label": "Seoladh Ceann Scríbe",
-        "dest_port_label": "Port ceann scríbe",
-        "add_rule_btn": "Cuir riail leis",
-        "any_not_allowed_with_multiple_ips": "Nuair atá ilseoltaí IP ann, ní féidir an rogha 'Any' a chur san áireamh",
+        "dest_port_label": "Port Ceann Scríbe",
+        "add_rule_btn": "Cuir Riail leis",
+        "any_not_allowed_with_multiple_ips": "Nuair a bhíonn roinnt seoltaí IP ann, ní féidir an rogha 'Aon cheann' a chur san áireamh",
         "add_acl_dialog_title": "Cuir riail ACL leis",
-        "edit_acl_dialog_title": "Mionathraigh riail ACL",
+        "edit_acl_dialog_title": "Modhnaigh riail ACL",
         "name_already_exist_msg": "Tá an t-ainm ann cheana.",
         "accept_label": "Glac",
         "drop_label": "Blocáil",
         "reject_label": "Diúltaigh",
-        "any_label": "Ar bith",
+        "any_label": "Aon",
         "protocol_label": "Prótacal",
-        "acl_desc": "Is féidir le {acl} trácht líonra a rialú bunaithe ar rialacha amhail prótacal, seoladh IP ceann scríbe, seoladh IP foinse, agus uimhir phoirt. Má bhíonn coinbhleacht idir dhá riail {acl} chumasaithe, tabharfaidh an gléas tosaíocht don riail a bhfuil tosaíocht níos airde aici.",
-        "add_new_btn": "Cuir ceann nua leis"
+        "acl_desc": "Is féidir le {acl} trácht líonra a rialú bunaithe ar rialacha amhail prótacal, seoladh IP ceann scríbe, seoladh IP foinseach, agus uimhir phoirt. Má bhíonn coimhlint idir dhá riail {acl} cumasaithe, tabharfaidh an gléas tús áite don riail is airde tosaíochta.",
+        "add_new_btn": "Cuir Nua leis"
     },
     "menu_acl": "ACL"
 }

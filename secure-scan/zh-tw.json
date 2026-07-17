@@ -59,7 +59,6 @@
         "filter_safe_label": "安全",
         "excellent_security": "安全性極佳",
         "excellent_security_count": "{count} 項",
-        "excellent_security_desc": "所有安全檢查均已通過。您的路由器已獲得良好保護。",
         "retest_btn": "重新檢測",
         "confirm_disable_title": "停用確認",
         "confirm_disable_content": "確定要停用 {name} 嗎？",
@@ -95,6 +94,7 @@
         "upnp": "UPnP",
         "upnp_desc": "UPnP 已啟用，可能會自動向外部網路開放防火牆連接埠",
         "disable_upnp_btn": "停用 UPnP",
-        "no_match_safety_criteria": "沒有項目符合安全性條件。請修正偵測到的風險以改善結果。"
+        "no_match_safety_criteria": "沒有項目符合安全性條件。請修正偵測到的風險以改善結果。",
+        "excellent_security_desc": "您的網路已受到完整保護，未偵測到風險。請繼續保持良好做法。"
     }
 }

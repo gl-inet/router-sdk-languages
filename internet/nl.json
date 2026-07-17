@@ -306,7 +306,6 @@
         "sim_type_label": "SIM-type",
         "operator_label": "Operator",
         "airplane_mode_label": "Vliegtuigmodus",
-        "model_information_label": "Modelinformatie",
         "sim_failover_label": "SIM-failover",
         "modem_label": "Modem",
         "firmware_version_label": "Firmwareversie",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "Scannen naar nabijgelegen zendmasten. Dit proces duurt ongeveer 120 seconden.",
         "scan_available_carriers_tips": "Scannen naar beschikbare providers. Dit proces duurt ongeveer 120 seconden.",
         "band_masking_title": "Bandmaskering",
-        "minutes_value_label": "{count} min"
+        "minutes_value_label": "{count} min",
+        "network_type_conflicts_tips": "Het huidige netwerktype van de SIM-kaart is {networkType}, wat conflicteert met het netwerktype van {feature}.",
+        "low_power_mode_only_tips": "Het apparaat staat in de energiebesparende modus.",
+        "network_type_lock_tower_tips": "Als u de Tower vergrendelt, wordt het netwerktype vastgezet en kan het niet worden gewijzigd."
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -653,7 +655,6 @@
         "network_information_title": "Netwerkinformatie",
         "network_settings_title": "Netwerkinstellingen",
         "band_lock_controls_title": "Band- en vergrendelingsbediening",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "max_bit_rate_label": "Max. bitsnelheid (AMBR)",
         "ipv4_address_label": "IPv4-adres",
@@ -665,13 +666,9 @@
         "cell_id_label": "Cel-ID",
         "band_information_title": "Bandinformatie",
         "band_label": "Band",
-        "earfcn_label": "EARFCN",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Signaalgeschiedenis",
-        "pci_label": "PCI",
-        "bandwidth_label": "Bandbreedte"
+        "bandwidth_label": "Bandbreedte",
+        "lock_operator_disabled_tip": "Omdat de huidige kaartsleuf aan het basisstation is vergrendeld, is de functie voor operatorvergrendeling uitgeschakeld."
     },
     "sim": {
         "sender_label": "Afzender"

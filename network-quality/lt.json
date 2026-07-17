@@ -2,15 +2,15 @@
     "network_quality": {
         "page_title": "Tinklo kokybė",
         "description_tips": "Nuolat vertina tinklo atsaką, delsą ir DNS bei realiuoju laiku pažymi ryšio nutrūkimus ar paketų praradimą.",
-        "score_label": "GL.iNet tinklo kokybės balas",
+        "score_label": "„GL.iNet“ tinklo kokybės balas",
         "overall_score_tips": "Bendras balas = Atsako balas × 60% + Patikimumo balas × 40%",
         "score_rock_solid": "Labai stabilus",
         "score_healthy": "Sveikas",
         "score_fluctuating": "Svyruojantis",
         "score_degraded": "Pablogėjęs",
         "score_critical": "Kritinis",
-        "internet_target": "Interneto pasiekiamumo tikslas",
-        "dns_target": "DNS išsprendimo tikslas",
+        "internet_target": "Interneto pasiekiamumo taikomasis/-oji",
+        "dns_target": "„DNS“ išsprendimo taikomasis/-oji",
         "response_score": "Atsako balas",
         "reliable_score": "Patikimumo balas",
         "wan_gateway": "WAN šliuzas",
@@ -49,9 +49,10 @@
         "failing": "Nepavyksta",
         "invalid_probe_target_tips": "Įveskite galiojantį domeno vardą.",
         "speedtest_tips": "Dabartinė funkcija yra vietinis maršrutizatoriaus greičio testas, kuriam taikomos tokių funkcijų kaip SQM ir QoS spartos ribojimo taisyklės.",
-        "probe_internet_target": "Interneto pasiekiamumo tikslas",
+        "probe_internet_target": "Interneto pasiekiamumo taikomasis/-oji",
         "probe_dns_target": "DNS vardų išsprendimo tikslas",
         "rate_total_label": "Bendra sparta: {unit}",
-        "rate_total_netnat_tips": "Įjungus {network} funkciją gali būti paveiktas greičio tikslumas."
+        "rate_total_netnat_tips": "Įjungus {network} funkciją gali būti paveiktas greičio tikslumas.",
+        "loss_percent_label": "{percent}% praradimas"
     }
 }

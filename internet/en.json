@@ -306,7 +306,6 @@
         "signal_label": "Signal",
         "sim_type_label": "SIM Type",
         "airplane_mode_label": "Airplane Mode",
-        "model_information_label": "Model Information",
         "sim_failover_label": "SIM Failover",
         "modem_information_title": "Modem Information",
         "modem_label": "Modem",
@@ -325,7 +324,10 @@
         "scan_nearby_towers_tips": "Scan for nearby towers. This process takes approximately 120 seconds.",
         "scan_available_carriers_tips": "Scan for available carriers. This process takes approximately 120 seconds.",
         "band_masking_title": "Band Masking",
-        "minutes_value_label": "{count}mins"
+        "minutes_value_label": "{count}mins",
+        "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type.",
+        "low_power_mode_only_tips": "The device is in low power mode.",
+        "network_type_lock_tower_tips": "If you lock the Tower, the network type will be fixed and cannot be changed."
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -653,7 +655,6 @@
         "network_information_title": "Network Information",
         "network_settings_title": "Network Settings",
         "band_lock_controls_title": "Band and Lock Controls",
-        "msisdn_label": "MSISDN",
         "apn_label": "APN",
         "max_bit_rate_label": "Max Bit Rate (AMBR)",
         "ipv4_address_label": "IPv4 Address",
@@ -665,13 +666,9 @@
         "cell_id_label": "Cell ID",
         "band_information_title": "Band Information",
         "band_label": "Band",
-        "earfcn_label": "EARFCN",
-        "pci_label": "PCI",
-        "rsrp_label": "RSRP",
-        "rsrq_label": "RSRQ",
-        "rssi_label": "RSSI",
         "signal_history_title": "Signal History",
-        "bandwidth_label": "Bandwidth"
+        "bandwidth_label": "Bandwidth",
+        "lock_operator_disabled_tip": "Because the current card slot is locked to the base station, the lock operator function is disabled."
     },
     "sim": {
         "sender_label": "Sender"

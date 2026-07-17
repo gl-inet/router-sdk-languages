@@ -59,7 +59,6 @@
         "filter_safe_label": "Seguro",
         "excellent_security": "Seguridad Excelente",
         "excellent_security_count": "{count} Elementos",
-        "excellent_security_desc": "Todas las verificaciones de seguridad aprobadas. Su router está bien protegido.",
         "retest_btn": "Volver a Probar",
         "confirm_disable_title": "Confirmación de Desactivación",
         "confirm_disable_content": "¿Está seguro de que desea desactivar {name}?",
@@ -95,6 +94,7 @@
         "upnp": "UPnP",
         "disable_upnp_btn": "Deshabilitar UPnP",
         "upnp_desc": "UPnP está habilitado; puede abrir automáticamente puertos del firewall a redes externas",
-        "no_match_safety_criteria": "Ningún elemento cumple los criterios de seguridad. Corrija los riesgos detectados para mejorar los resultados."
+        "no_match_safety_criteria": "Ningún elemento cumple los criterios de seguridad. Corrija los riesgos detectados para mejorar los resultados.",
+        "excellent_security_desc": "Su red está completamente protegida y no se han detectado riesgos. Mantenga las buenas prácticas."
     }
 }
