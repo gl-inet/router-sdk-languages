@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Przełącz je w tryb {node}.",
         "set_astro_mesh_to_local_only_tips": "Konflikty z AstroMesh. Aby kontynuować, ustaw AstroMesh na Tylko lokalny węzeł siatki.",
         "change_to": "Adres IP rutera został pomyślnie zmieniony na",
-        "enabled_astrowrap_tips": "AstroLink jest obecnie aktywny, co powoduje konflikt z {feature}. Zresetuj sieć AstroLink, aby kontynuować."
+        "enabled_astrowrap_tips": "AstroLink jest obecnie aktywny, co powoduje konflikt z {feature}. Zresetuj sieć AstroLink, aby kontynuować.",
+        "wifi_scan_unavailable_title": "Skanowanie Wi-Fi jest niedostępne",
+        "pairing_code_unavailable_title": "Kod parowania jest niedostępny",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Bieżący repeater jest połączony z kanałem DFS, co uniemożliwia skanowanie Wi-Fi.",
+        "wifi_scan_unavailable_router_dfs_tips": "Gdy ruter działa na kanale DFS, skanowanie Wi-Fi nie może działać.",
+        "pairing_code_unavailable_repeater_dfs_tips": "Bieżący repeater jest połączony z kanałem DFS, więc nie można użyć kodu parowania do dodania węzłów.",
+        "pairing_code_unavailable_router_dfs_tips": "Gdy ruter działa na kanale DFS, nie można użyć kodu parowania do dodania węzłów.",
+        "disable_repeater_btn": "Wyłącz repeater",
+        "switch_channel_btn": "Przełącz kanał",
+        "disable_repeater_scan_notice_tips": "Wyłączenie repeatera umożliwi kontynuowanie skanowania. Po skanowaniu trzeba będzie ręcznie ponownie połączyć repeater.",
+        "switch_channel_scan_notice_tips": "Aby skanować węzły, wymagane jest przełączenie na kanał inny niż DFS. Ten proces może potrwać kilka chwil.",
+        "disable_repeater_pairing_code_notice_tips": "Wyłączenie repeatera umożliwi dodawanie węzłów za pomocą kodów parowania. Następnie trzeba będzie ręcznie ponownie połączyć repeater.",
+        "switch_channel_pairing_code_notice_tips": "Aby dodać węzły za pomocą kodów parowania, wymagane jest przełączenie na kanał inny niż DFS. Ten proces może potrwać kilka chwil."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
