@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Athraigh iad go mód {node}.",
         "set_astro_mesh_to_local_only_tips": "Coinbhleacht le AstroMesh. Chun leanúint ar aghaidh, socraigh AstroMesh go Nód Mogall Logánta Amháin.",
         "change_to": "Athraíodh seoladh IP an ródaire go rathúil go",
-        "enabled_astrowrap_tips": "Tá AstroLink gníomhach faoi láthair, rud a thagann salach ar {feature}. Athshocraigh líonra AstroLink chun leanúint ar aghaidh."
+        "enabled_astrowrap_tips": "Tá AstroLink gníomhach faoi láthair, rud a thagann salach ar {feature}. Athshocraigh líonra AstroLink chun leanúint ar aghaidh.",
+        "wifi_scan_unavailable_title": "Níl scanadh Wi-Fi ar fáil",
+        "pairing_code_unavailable_title": "Níl an cód péireála ar fáil",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Tá an t-athsheoltóir reatha ceangailte le cainéal DFS, rud a chuireann cosc ar scanadh Wi-Fi.",
+        "pairing_code_unavailable_repeater_dfs_tips": "Tá an t-athsheoltóir reatha ceangailte le cainéal DFS, mar sin ní féidir cód péireála a úsáid chun nóid a chur leis.",
+        "pairing_code_unavailable_router_dfs_tips": "Nuair atá an ródaire ag feidhmiú ar chainéal DFS, ní féidir cód péireála a úsáid chun nóid a chur leis.",
+        "disable_repeater_pairing_code_notice_tips": "Má dhíchumasaítear an t-athsheoltóir, beidh tú in ann nóid a chur leis trí chóid phéireála. Ina dhiaidh sin, beidh ort an t-athsheoltóir a athcheangal de láimh.",
+        "switch_channel_pairing_code_notice_tips": "Chun nóid a chur leis trí chóid phéireála, ní mór aistriú go cainéal neamh-DFS. Seans go dtógfaidh an próiseas seo cúpla nóiméad.",
+        "disable_repeater_btn": "Díchumasaigh Athsheoltóir",
+        "switch_channel_btn": "Athraigh Cainéal",
+        "wifi_scan_unavailable_router_dfs_tips": "Nuair atá an ródaire ag feidhmiú ar chainéal DFS, ní féidir le scanadh Wi-Fi feidhmiú.",
+        "disable_repeater_scan_notice_tips": "Má dhíchumasaítear an t-athsheoltóir, beidh an scanadh in ann leanúint ar aghaidh. Tar éis an scanadh, beidh ort an t-athsheoltóir a athcheangal de láimh.",
+        "switch_channel_scan_notice_tips": "Ní mór aistriú go cainéal neamh-DFS chun nóid a scanadh. Seans go dtógfaidh an próiseas seo cúpla nóiméad."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
