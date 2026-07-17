@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Schakel ze over naar {node}-modus.",
         "set_astro_mesh_to_local_only_tips": "Conflicten met AstroMesh. Om verder te gaan, stelt u AstroMesh in op Alleen lokaal mesh-knooppunt.",
         "change_to": "Het IP-adres van de router is succesvol gewijzigd naar",
-        "enabled_astrowrap_tips": "AstroLink is momenteel actief, wat conflicteert met {feature}. Reset het AstroLink-netwerk om door te gaan."
+        "enabled_astrowrap_tips": "AstroLink is momenteel actief, wat conflicteert met {feature}. Reset het AstroLink-netwerk om door te gaan.",
+        "pairing_code_unavailable_title": "Koppelingscode is niet beschikbaar",
+        "pairing_code_unavailable_repeater_dfs_tips": "De huidige repeater is verbonden met een DFS-kanaal, waardoor de koppelingscode niet kan worden gebruikt om nodes toe te voegen.",
+        "disable_repeater_scan_notice_tips": "Als u de repeater uitschakelt, kan het scannen worden voortgezet. Na de scan moet u de repeater handmatig opnieuw verbinden.",
+        "switch_channel_scan_notice_tips": "Overschakelen naar een niet-DFS-kanaal is vereist om naar nodes te scannen. Dit proces kan enkele ogenblikken duren.",
+        "disable_repeater_pairing_code_notice_tips": "Als u de repeater uitschakelt, kunt u nodes toevoegen via koppelingscodes. Daarna moet u de repeater handmatig opnieuw verbinden.",
+        "disable_repeater_btn": "Repeater uitschakelen",
+        "switch_channel_btn": "Kanaal wisselen",
+        "wifi_scan_unavailable_title": "Wi-Fi-scan is niet beschikbaar",
+        "wifi_scan_unavailable_repeater_dfs_tips": "De huidige repeater is verbonden met een DFS-kanaal, waardoor Wi-Fi-scannen niet mogelijk is.",
+        "wifi_scan_unavailable_router_dfs_tips": "Wanneer de router op een DFS-kanaal werkt, kan Wi-Fi-scannen niet functioneren.",
+        "pairing_code_unavailable_router_dfs_tips": "Wanneer de router op een DFS-kanaal werkt, kan de koppelingscode niet worden gebruikt om nodes toe te voegen.",
+        "switch_channel_pairing_code_notice_tips": "Om nodes via koppelingscodes toe te voegen, is overschakelen naar een niet-DFS-kanaal vereist. Dit proces kan enkele ogenblikken duren."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
