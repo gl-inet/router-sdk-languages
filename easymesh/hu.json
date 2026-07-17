@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Váltsa őket {node} módba.",
         "set_astro_mesh_to_local_only_tips": "Konfliktusok az AstroMesh-sel. A folytatáshoz állítsa az AstroMesh-t Csak Local Mesh Node értékre.",
         "change_to": "Az útválasztó IP-címe sikeresen módosult erre:",
-        "enabled_astrowrap_tips": "Az AstroLink jelenleg aktív, ami ütközik ezzel: {feature}. A folytatáshoz állítsa alaphelyzetbe az AstroLink hálózatot."
+        "enabled_astrowrap_tips": "Az AstroLink jelenleg aktív, ami ütközik ezzel: {feature}. A folytatáshoz állítsa alaphelyzetbe az AstroLink hálózatot.",
+        "pairing_code_unavailable_title": "A párosítási kód nem érhető el",
+        "wifi_scan_unavailable_repeater_dfs_tips": "A jelenlegi ismétlő DFS-csatornához csatlakozik, ezért a Wi-Fi-keresés nem végezhető el.",
+        "wifi_scan_unavailable_router_dfs_tips": "Ha a router DFS-csatornán működik, a Wi-Fi-keresés nem használható.",
+        "pairing_code_unavailable_repeater_dfs_tips": "A jelenlegi ismétlő DFS-csatornához csatlakozik, ezért a párosítási kód nem használható csomópontok hozzáadására.",
+        "pairing_code_unavailable_router_dfs_tips": "Ha a router DFS-csatornán működik, a párosítási kód nem használható csomópontok hozzáadására.",
+        "disable_repeater_scan_notice_tips": "Az ismétlő letiltása lehetővé teszi a keresés folytatását. A keresés után manuálisan újra kell csatlakoztatnia az ismétlőt.",
+        "switch_channel_scan_notice_tips": "A csomópontok kereséséhez nem DFS-csatornára kell váltani. Ez a folyamat néhány pillanatig tarthat.",
+        "disable_repeater_btn": "Ismétlő letiltása",
+        "wifi_scan_unavailable_title": "A Wi-Fi-keresés nem érhető el",
+        "disable_repeater_pairing_code_notice_tips": "Az ismétlő letiltása lehetővé teszi csomópontok hozzáadását párosítási kódokkal. Ezt követően manuálisan újra kell csatlakoztatnia az ismétlőt.",
+        "switch_channel_pairing_code_notice_tips": "Csomópontok párosítási kódokkal történő hozzáadásához nem DFS-csatornára kell váltani. Ez a folyamat néhány pillanatig tarthat.",
+        "switch_channel_btn": "Csatorna váltása"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
