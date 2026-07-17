@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Impostali in modalità {node}.",
         "set_astro_mesh_to_local_only_tips": "Conflitti con AstroMesh. Per procedere, impostare AstroMesh su Solo nodo mesh locale.",
         "change_to": "L'indirizzo IP del router è stato modificato correttamente in",
-        "enabled_astrowrap_tips": "AstroLink è attualmente attivo e crea un conflitto con {feature}. Reimposta la rete AstroLink per procedere."
+        "enabled_astrowrap_tips": "AstroLink è attualmente attivo e crea un conflitto con {feature}. Reimposta la rete AstroLink per procedere.",
+        "wifi_scan_unavailable_title": "Scansione Wi-Fi non disponibile",
+        "pairing_code_unavailable_title": "Codice di abbinamento non disponibile",
+        "wifi_scan_unavailable_router_dfs_tips": "Quando il router opera su un canale DFS, la scansione Wi-Fi non può funzionare.",
+        "pairing_code_unavailable_router_dfs_tips": "Quando il router opera su un canale DFS, il codice di abbinamento non può essere usato per aggiungere nodi.",
+        "disable_repeater_scan_notice_tips": "Disabilitando il ripetitore, la scansione potrà continuare. Dopo la scansione, sarà necessario riconnettere manualmente il ripetitore.",
+        "switch_channel_scan_notice_tips": "Per eseguire la scansione dei nodi è necessario passare a un canale non DFS. Questo processo potrebbe richiedere alcuni istanti.",
+        "disable_repeater_pairing_code_notice_tips": "Disabilitando il ripetitore, sarà possibile aggiungere nodi tramite codici di abbinamento. Successivamente, sarà necessario riconnettere manualmente il ripetitore.",
+        "switch_channel_pairing_code_notice_tips": "Per aggiungere nodi tramite codici di abbinamento, è necessario passare a un canale non DFS. Questo processo potrebbe richiedere alcuni istanti.",
+        "disable_repeater_btn": "Disabilita ripetitore",
+        "switch_channel_btn": "Cambia canale",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Il ripetitore attuale è connesso a un canale DFS, impedendo la scansione Wi-Fi.",
+        "pairing_code_unavailable_repeater_dfs_tips": "Il ripetitore attuale è connesso a un canale DFS, quindi il codice di abbinamento non può essere usato per aggiungere nodi."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
