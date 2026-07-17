@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. それらを{node}モードに切り替えます。",
         "set_astro_mesh_to_local_only_tips": "AstroMesh と競合します。続行するには、AstroMesh をローカル メッシュ ノードのみに設定してください。",
         "change_to": "ルーターのIPアドレスは正常に変更されました：",
-        "enabled_astrowrap_tips": "AstroLink は現在有効になっており、{feature} と競合しています。続行するには AstroLink ネットワークをリセットしてください。"
+        "enabled_astrowrap_tips": "AstroLink は現在有効になっており、{feature} と競合しています。続行するには AstroLink ネットワークをリセットしてください。",
+        "wifi_scan_unavailable_title": "Wi-Fiスキャンは利用できません",
+        "wifi_scan_unavailable_repeater_dfs_tips": "現在のリピーターはDFSチャネルに接続されているため、Wi-Fiスキャンを実行できません。",
+        "wifi_scan_unavailable_router_dfs_tips": "ルーターがDFSチャネルで動作している場合、Wi-Fiスキャンは機能しません。",
+        "pairing_code_unavailable_repeater_dfs_tips": "現在のリピーターはDFSチャネルに接続されているため、ペアリングコードを使用してノードを追加できません。",
+        "disable_repeater_scan_notice_tips": "リピーターを無効にすると、スキャンを続行できます。スキャン後、リピーターを手動で再接続する必要があります。",
+        "disable_repeater_pairing_code_notice_tips": "リピーターを無効にすると、ペアリングコードでノードを追加できます。その後、リピーターを手動で再接続する必要があります。",
+        "disable_repeater_btn": "リピーターを無効化",
+        "switch_channel_btn": "チャネルを切り替え",
+        "pairing_code_unavailable_title": "ペアリングコードは利用できません",
+        "pairing_code_unavailable_router_dfs_tips": "ルーターがDFSチャネルで動作している場合、ペアリングコードを使用してノードを追加できません。",
+        "switch_channel_scan_notice_tips": "ノードをスキャンするには、非DFSチャネルへの切り替えが必要です。この処理にはしばらく時間がかかる場合があります。",
+        "switch_channel_pairing_code_notice_tips": "ペアリングコードでノードを追加するには、非DFSチャネルへの切り替えが必要です。この処理にはしばらく時間がかかる場合があります。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
