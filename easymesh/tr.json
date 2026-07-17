@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Bunları {node} moduna geçirin.",
         "set_astro_mesh_to_local_only_tips": "AstroMesh ile çakışmalar. Devam etmek için lütfen AstroMesh'i Yalnızca Yerel Ağ Düğümü olarak ayarlayın.",
         "change_to": "Yönlendiricinin IP adresi başarıyla değiştirildi:",
-        "enabled_astrowrap_tips": "AstroLink şu anda etkin, bu da {feature} ile çakışıyor. Devam etmek için lütfen AstroLink ağını sıfırlayın."
+        "enabled_astrowrap_tips": "AstroLink şu anda etkin, bu da {feature} ile çakışıyor. Devam etmek için lütfen AstroLink ağını sıfırlayın.",
+        "wifi_scan_unavailable_title": "Wi-Fi Taraması kullanılamıyor",
+        "pairing_code_unavailable_title": "Eşleştirme Kodu kullanılamıyor",
+        "disable_repeater_pairing_code_notice_tips": "Tekrarlayıcı devre dışı bırakılırsa eşleştirme kodlarıyla düğüm ekleyebilirsiniz. Sonrasında tekrarlayıcıyı manuel olarak yeniden bağlamanız gerekir.",
+        "switch_channel_pairing_code_notice_tips": "Eşleştirme kodlarıyla düğüm eklemek için DFS olmayan bir kanala geçmek gerekir. Bu işlem birkaç dakika sürebilir.",
+        "disable_repeater_btn": "Tekrarlayıcıyı Devre Dışı Bırak",
+        "switch_channel_btn": "Kanalı Değiştir",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Mevcut tekrarlayıcı bir DFS kanalına bağlı olduğundan Wi-Fi taraması yapılamıyor.",
+        "wifi_scan_unavailable_router_dfs_tips": "Yönlendirici bir DFS kanalında çalışırken Wi-Fi taraması çalışamaz.",
+        "pairing_code_unavailable_repeater_dfs_tips": "Mevcut tekrarlayıcı bir DFS kanalına bağlı olduğundan, düğüm eklemek için eşleştirme kodu kullanılamaz.",
+        "pairing_code_unavailable_router_dfs_tips": "Yönlendirici bir DFS kanalında çalışırken, düğüm eklemek için eşleştirme kodu kullanılamaz.",
+        "disable_repeater_scan_notice_tips": "Tekrarlayıcı devre dışı bırakılırsa taramaya devam edilebilir. Taramadan sonra tekrarlayıcıyı manuel olarak yeniden bağlamanız gerekir.",
+        "switch_channel_scan_notice_tips": "Düğümleri taramak için DFS olmayan bir kanala geçmek gerekir. Bu işlem birkaç dakika sürebilir."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
