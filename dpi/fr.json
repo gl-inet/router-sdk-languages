@@ -130,7 +130,8 @@
         "highest_priority_traffic_rule_tips": "Le trafic correspondant à cette règle se verra attribuer la priorité la plus élevée, garantissant qu’il soit transmis en premier en cas de congestion du réseau pour une expérience fluide.",
         "speed_test_less_than_1m_tips": "La bande passante détectée est inférieure à 1 Mbit/s. Veuillez saisir la bande passante manuellement.",
         "speed_test_done_msg": "Détection terminée",
-        "dest_port_tips": "La plage de ports va de 1 à 65535. Vous pouvez définir un port unique ou une plage de ports (par ex. 501-510). Le dernier numéro de port doit être supérieur au premier. Vide signifie n’importe lequel."
+        "dest_port_tips": "La plage de ports va de 1 à 65535. Vous pouvez définir un port unique ou une plage de ports (par ex. 501-510). Le dernier numéro de port doit être supérieur au premier. Vide signifie n’importe lequel.",
+        "edit_advanced_qos_rule_title": "Modifier la règle QoS avancée"
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
