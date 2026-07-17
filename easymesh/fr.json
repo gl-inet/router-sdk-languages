@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Passez-les en mode {node}.",
         "set_astro_mesh_to_local_only_tips": "Conflits avec AstroMesh. Pour continuer, veuillez définir AstroMesh sur Local Mesh Node Only.",
         "change_to": "L’adresse IP du routeur a été modifiée avec succès en",
-        "enabled_astrowrap_tips": "AstroLink est actuellement actif, ce qui entre en conflit avec {feature}. Veuillez réinitialiser le réseau AstroLink pour continuer."
+        "enabled_astrowrap_tips": "AstroLink est actuellement actif, ce qui entre en conflit avec {feature}. Veuillez réinitialiser le réseau AstroLink pour continuer.",
+        "wifi_scan_unavailable_title": "L’analyse Wi-Fi est indisponible",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Le répéteur actuel est connecté à un canal DFS, ce qui empêche l’analyse Wi-Fi.",
+        "wifi_scan_unavailable_router_dfs_tips": "Lorsque le routeur fonctionne sur un canal DFS, l’analyse Wi-Fi ne peut pas fonctionner.",
+        "disable_repeater_scan_notice_tips": "La désactivation du répéteur permettra de poursuivre l’analyse. Après l’analyse, vous devrez reconnecter le répéteur manuellement.",
+        "switch_channel_scan_notice_tips": "Le passage à un canal non DFS est nécessaire pour rechercher des nœuds. Ce processus peut prendre quelques instants.",
+        "switch_channel_pairing_code_notice_tips": "Pour ajouter des nœuds via des codes d’appairage, le passage à un canal non DFS est nécessaire. Ce processus peut prendre quelques instants.",
+        "disable_repeater_btn": "Désactiver le répéteur",
+        "switch_channel_btn": "Changer de canal",
+        "pairing_code_unavailable_title": "Le code d’appairage est indisponible",
+        "pairing_code_unavailable_repeater_dfs_tips": "Le répéteur actuel est connecté à un canal DFS, le code d’appairage ne peut donc pas être utilisé pour ajouter des nœuds.",
+        "pairing_code_unavailable_router_dfs_tips": "Lorsque le routeur fonctionne sur un canal DFS, le code d’appairage ne peut pas être utilisé pour ajouter des nœuds.",
+        "disable_repeater_pairing_code_notice_tips": "La désactivation du répéteur vous permettra d’ajouter des nœuds via des codes d’appairage. Ensuite, vous devrez reconnecter le répéteur manuellement."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
