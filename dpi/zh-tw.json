@@ -129,8 +129,7 @@
         "add_device_desc": "新增裝置以在 WAN 連線繁忙時給予其更高優先順序。",
         "highest_priority_traffic_rule_tips": "符合此規則的網路流量將獲得最高優先級，即使在網路擁堵時也能確保優先轉發，保障流暢體驗。",
         "speed_test_done_msg": "偵測完成",
-        "speed_test_less_than_1m_tips": "偵測到的頻寬低於 1 Mbps。請手動輸入頻寬。",
-        "dest_port_range_error": "連接埠範圍為 1 至 65535。您可以設定單一連接埠，或以連字號連接起始與結束連接埠號碼來設定連接埠範圍（例如 501-510）。結束連接埠號碼必須大於起始連接埠號碼。"
+        "speed_test_less_than_1m_tips": "偵測到的頻寬低於 1 Mbps。請手動輸入頻寬。"
     },
     "flowstatistics": {
         "card_title": "應用程式總數據量",
