@@ -129,7 +129,10 @@
         "add_device_desc": "Add a device to give it higher priority when the WAN connection is busy.",
         "highest_priority_traffic_rule_tips": "Traffic matching this rule will be assigned the highest priority, ensuring it is forwarded first during network congestion for a smooth experience.",
         "speed_test_less_than_1m_tips": "The detected bandwidth is less than 1 Mbps. Please enter the bandwidth manually.",
-        "speed_test_done_msg": "Detection done"
+        "speed_test_done_msg": "Detection done",
+        "dest_port_placeholder": "443, 3478-3480, or {any}",
+        "dest_port_tips": "The port range is from 1 to 65535. You can set a single port or a port range (e.g., 501-510). The last port number must be greater than the first port number. Empty means any.",
+        "dest_port_range_error": "The port range is from 1 to 65535. You can set a single port or a port range by connecting the first and last port numbers with a hyphen (e.g., 501-510). The last port number must be greater than the first port number."
     },
     "flowstatistics": {
         "card_title": "Application Total Data",
