@@ -130,7 +130,8 @@
         "highest_priority_traffic_rule_tips": "Az erre a szabályra illeszkedő forgalom a legmagasabb prioritást kapja, így hálózati torlódás esetén elsőként lesz továbbítva a zökkenőmentes működés érdekében.",
         "speed_test_less_than_1m_tips": "Az észlelt sávszélesség kevesebb mint 1 Mbps. Adja meg kézzel a sávszélességet.",
         "speed_test_done_msg": "Észlelés kész",
-        "dest_port_tips": "A porttartomány 1 és 65535 között lehet. Megadhat egyetlen portot vagy porttartományt (pl. 501-510). Az utolsó portszámnak nagyobbnak kell lennie az első portszámnál. Üresen hagyva bármelyiket jelenti."
+        "dest_port_tips": "A porttartomány 1 és 65535 között lehet. Megadhat egyetlen portot vagy porttartományt (pl. 501-510). Az utolsó portszámnak nagyobbnak kell lennie az első portszámnál. Üresen hagyva bármelyiket jelenti.",
+        "edit_advanced_qos_rule_title": "Speciális QoS-szabály szerkesztése"
     },
     "flowstatistics": {
         "card_title": "Alkalmazás teljes adatmennyisége",
