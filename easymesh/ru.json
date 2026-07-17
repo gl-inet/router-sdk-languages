@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Переключите их в режим {node}.",
         "set_astro_mesh_to_local_only_tips": "Конфликты с AstroMesh. Чтобы продолжить, установите для AstroMesh значение «Только локальный узел сетки».",
         "change_to": "IP-адрес маршрутизатора успешно изменён на",
-        "enabled_astrowrap_tips": "AstroLink сейчас активен, что конфликтует с {feature}. Сбросьте сеть AstroLink, чтобы продолжить."
+        "enabled_astrowrap_tips": "AstroLink сейчас активен, что конфликтует с {feature}. Сбросьте сеть AstroLink, чтобы продолжить.",
+        "pairing_code_unavailable_title": "Код сопряжения недоступен",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Текущий ретранслятор подключен к каналу DFS, что препятствует сканированию беспроводной сети.",
+        "wifi_scan_unavailable_router_dfs_tips": "Когда маршрутизатор работает на канале DFS, сканирование беспроводной сети невозможно.",
+        "pairing_code_unavailable_router_dfs_tips": "Когда маршрутизатор работает на канале DFS, код сопряжения нельзя использовать для добавления узлов.",
+        "disable_repeater_scan_notice_tips": "Отключение ретранслятора позволит продолжить сканирование. После сканирования потребуется вручную повторно подключить ретранслятор.",
+        "switch_channel_scan_notice_tips": "Для сканирования узлов необходимо переключиться на канал без DFS. Это может занять несколько минут.",
+        "disable_repeater_btn": "Отключить ретранслятор",
+        "wifi_scan_unavailable_title": "Сканирование беспроводной сети недоступно",
+        "pairing_code_unavailable_repeater_dfs_tips": "Текущий ретранслятор подключен к каналу DFS, поэтому код сопряжения нельзя использовать для добавления узлов.",
+        "disable_repeater_pairing_code_notice_tips": "Отключение ретранслятора позволит добавлять узлы с помощью кодов сопряжения. После этого потребуется вручную повторно подключить ретранслятор.",
+        "switch_channel_pairing_code_notice_tips": "Для добавления узлов с помощью кодов сопряжения необходимо переключиться на канал без DFS. Это может занять несколько минут.",
+        "switch_channel_btn": "Переключить канал"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
