@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Cámbielos al modo {node}.",
         "set_astro_mesh_to_local_only_tips": "Conflictos con AstroMesh. Para continuar, configure AstroMesh en Solo nodo de malla local.",
         "change_to": "La dirección IP del router se ha cambiado correctamente a",
-        "enabled_astrowrap_tips": "AstroLink está activo actualmente, lo que entra en conflicto con {feature}. Restablezca la red de AstroLink para continuar."
+        "enabled_astrowrap_tips": "AstroLink está activo actualmente, lo que entra en conflicto con {feature}. Restablezca la red de AstroLink para continuar.",
+        "wifi_scan_unavailable_title": "El escaneo de Wi-Fi no está disponible",
+        "pairing_code_unavailable_title": "El código de emparejamiento no está disponible",
+        "pairing_code_unavailable_repeater_dfs_tips": "El repetidor actual está conectado a un canal DFS, por lo que no se puede usar el código de emparejamiento para añadir nodos.",
+        "pairing_code_unavailable_router_dfs_tips": "Cuando el router funciona en un canal DFS, no se puede usar el código de emparejamiento para añadir nodos.",
+        "switch_channel_scan_notice_tips": "Es necesario cambiar a un canal no DFS para escanear nodos. Este proceso puede tardar unos momentos.",
+        "disable_repeater_btn": "Desactivar repetidor",
+        "wifi_scan_unavailable_repeater_dfs_tips": "El repetidor actual está conectado a un canal DFS, lo que impide el escaneo de Wi-Fi.",
+        "wifi_scan_unavailable_router_dfs_tips": "Cuando el router funciona en un canal DFS, el escaneo de Wi-Fi no puede funcionar.",
+        "disable_repeater_scan_notice_tips": "Desactivar el repetidor permitirá continuar con el escaneo. Después del escaneo, deberá volver a conectar el repetidor manualmente.",
+        "disable_repeater_pairing_code_notice_tips": "Desactivar el repetidor le permitirá añadir nodos mediante códigos de emparejamiento. Después, deberá volver a conectar el repetidor manualmente.",
+        "switch_channel_pairing_code_notice_tips": "Para añadir nodos mediante códigos de emparejamiento, es necesario cambiar a un canal no DFS. Este proceso puede tardar unos momentos.",
+        "switch_channel_btn": "Cambiar canal"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
