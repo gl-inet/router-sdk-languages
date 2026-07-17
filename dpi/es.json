@@ -129,8 +129,7 @@
         "add_device_desc": "Añada un dispositivo para darle mayor prioridad cuando la conexión WAN esté ocupada.",
         "highest_priority_traffic_rule_tips": "El tráfico que coincida con esta regla se le asignará la máxima prioridad, lo que garantizará que se reenvíe primero durante la congestión de la red para una experiencia fluida.",
         "speed_test_less_than_1m_tips": "El ancho de banda detectado es inferior a 1 Mbps. Introduzca el ancho de banda manualmente.",
-        "speed_test_done_msg": "Detección completada",
-        "dest_port_range_error": "El rango de puertos es de 1 a 65535. Puede configurar un solo puerto o un rango de puertos conectando el primer y el último número de puerto con un guion (p. ej., 3478-3480), con un máximo de 100 puertos por rango. El último número de puerto debe ser mayor que el primero."
+        "speed_test_done_msg": "Detección completada"
     },
     "flowstatistics": {
         "card_title": "Datos Totales de Aplicación",
