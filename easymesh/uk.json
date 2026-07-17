@@ -170,7 +170,19 @@
         "prepare_your_devices_three_tips": "3. Перемкніть їх у режим {node}.",
         "set_astro_mesh_to_local_only_tips": "Конфлікти з AstroMesh. Щоб продовжити, установіть для AstroMesh значення «Лише локальний вузол сіті».",
         "change_to": "IP-адресу маршрутизатора успішно змінено на",
-        "enabled_astrowrap_tips": "AstroLink наразі активний, що конфліктує з {feature}. Щоб продовжити, скиньте мережу AstroLink."
+        "enabled_astrowrap_tips": "AstroLink наразі активний, що конфліктує з {feature}. Щоб продовжити, скиньте мережу AstroLink.",
+        "wifi_scan_unavailable_title": "Сканування Wi-Fi недоступне",
+        "wifi_scan_unavailable_repeater_dfs_tips": "Поточний ретранслятор підключено до каналу DFS, що перешкоджає скануванню Wi-Fi.",
+        "wifi_scan_unavailable_router_dfs_tips": "Коли маршрутизатор працює на каналі DFS, сканування Wi-Fi не може функціонувати.",
+        "pairing_code_unavailable_repeater_dfs_tips": "Поточний ретранслятор підключено до каналу DFS, тому код сполучення не можна використовувати для додавання вузлів.",
+        "pairing_code_unavailable_router_dfs_tips": "Коли маршрутизатор працює на каналі DFS, код сполучення не можна використовувати для додавання вузлів.",
+        "disable_repeater_scan_notice_tips": "Вимкнення ретранслятора дозволить продовжити сканування. Після сканування потрібно буде повторно підключити ретранслятор вручну.",
+        "switch_channel_scan_notice_tips": "Для сканування вузлів потрібно перейти на канал без DFS. Цей процес може тривати кілька хвилин.",
+        "switch_channel_pairing_code_notice_tips": "Щоб додавати вузли за допомогою кодів сполучення, потрібно перейти на канал без DFS. Цей процес може тривати кілька хвилин.",
+        "disable_repeater_btn": "Вимкнути ретранслятор",
+        "switch_channel_btn": "Перемкнути канал",
+        "pairing_code_unavailable_title": "Код сполучення недоступний",
+        "disable_repeater_pairing_code_notice_tips": "Вимкнення ретранслятора дозволить додавати вузли за допомогою кодів сполучення. Після цього потрібно буде повторно підключити ретранслятор вручну."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
