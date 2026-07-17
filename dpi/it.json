@@ -130,7 +130,8 @@
         "highest_priority_traffic_rule_tips": "Il traffico che corrisponde a questa regola avrà la massima priorità, garantendo che venga inoltrato per primo in caso di congestione della rete per un’esperienza fluida.",
         "speed_test_less_than_1m_tips": "La larghezza di banda rilevata è inferiore a 1 Mbps. Inserire manualmente la larghezza di banda.",
         "speed_test_done_msg": "Rilevamento completato",
-        "dest_port_tips": "L'intervallo di porte va da 1 a 65535. È possibile impostare una singola porta o un intervallo di porte (ad es., 501-510). L'ultimo numero di porta deve essere maggiore del primo. Vuoto significa qualsiasi."
+        "dest_port_tips": "L'intervallo di porte va da 1 a 65535. È possibile impostare una singola porta o un intervallo di porte (ad es., 501-510). L'ultimo numero di porta deve essere maggiore del primo. Vuoto significa qualsiasi.",
+        "edit_advanced_qos_rule_title": "Modifica regola QoS avanzata"
     },
     "flowstatistics": {
         "card_title": "Dati totali applicazione",
