@@ -131,8 +131,7 @@
         "speed_test_less_than_1m_tips": "La bande passante détectée est inférieure à 1 Mbit/s. Veuillez saisir la bande passante manuellement.",
         "speed_test_done_msg": "Détection terminée",
         "dest_port_placeholder": "443, 3478-3480 ou {any}",
-        "dest_port_tips": "La plage de ports va de 1 à 65535. Vous pouvez définir un port unique ou une plage de ports (par ex. 501-510). Le dernier numéro de port doit être supérieur au premier. Vide signifie n’importe lequel.",
-        "dest_port_range_error": "La plage de ports va de 1 à 65535. Vous pouvez définir un seul port ou une plage de ports en reliant le premier et le dernier numéro de port par un trait d’union (par exemple, 501-510). Le dernier numéro de port doit être supérieur au premier."
+        "dest_port_tips": "La plage de ports va de 1 à 65535. Vous pouvez définir un port unique ou une plage de ports (par ex. 501-510). Le dernier numéro de port doit être supérieur au premier. Vide signifie n’importe lequel."
     },
     "flowstatistics": {
         "echarts_title": "Top 10 des applications par utilisation de bande passante",
