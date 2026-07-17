@@ -129,8 +129,7 @@
         "add_device_desc": "添加设备，使其在 WAN 连接繁忙时获得更高优先级。",
         "highest_priority_traffic_rule_tips": "符合此规则的网络流量将获得最高优先级，即使在网络拥堵时也能确保优先转发，保障流畅体验。",
         "speed_test_less_than_1m_tips": "检测到的带宽小于 1 Mbps。请手动输入带宽。",
-        "speed_test_done_msg": "检测完成",
-        "dest_port_range_error": "端口范围为 1 到 65535。您可以设置单个端口，或使用连字符连接起始端口号和结束端口号来设置端口范围（例如 501-510）。结束端口号必须大于起始端口号。"
+        "speed_test_done_msg": "检测完成"
     },
     "flowstatistics": {
         "card_title": "应用程序总数据",
