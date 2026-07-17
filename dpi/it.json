@@ -129,7 +129,9 @@
         "add_device_desc": "Aggiungi un dispositivo per assegnargli una priorità più alta quando la connessione WAN è occupata.",
         "highest_priority_traffic_rule_tips": "Il traffico che corrisponde a questa regola avrà la massima priorità, garantendo che venga inoltrato per primo in caso di congestione della rete per un’esperienza fluida.",
         "speed_test_less_than_1m_tips": "La larghezza di banda rilevata è inferiore a 1 Mbps. Inserire manualmente la larghezza di banda.",
-        "speed_test_done_msg": "Rilevamento completato"
+        "speed_test_done_msg": "Rilevamento completato",
+        "dest_port_placeholder": "443, 3478-3480 o {any}",
+        "dest_port_tips": "L'intervallo di porte va da 1 a 65535. È possibile impostare una singola porta o un intervallo di porte (ad es., 501-510). L'ultimo numero di porta deve essere maggiore del primo. Vuoto significa qualsiasi."
     },
     "flowstatistics": {
         "card_title": "Dati totali applicazione",
