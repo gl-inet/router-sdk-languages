@@ -1,44 +1,45 @@
 {
-  "timedtask": {
-    "reboot_time_label": "Orario di Riavvio",
-    "reboot_title": "Schedulazione Riavvio",
-    "on_time_label": "Orario di Accensione",
-    "wifi_turn_onoff_label": "Accensione/Spegnimento",
-    "off_time_label": "Orario di Spegnimento",
-    "wifi_mode_label": "Modalità Schedulata del Wi-Fi",
-    "wifi_power_switch_label": "Interruttore di Potenza TX",
-    "enable_wifi_label": "Abilitare la Schedulazione del Wi-Fi Principale",
-    "desc": "Se il dispositivo è spento nell'ora impostata, l'attività non verrà eseguita.",
-    "switch_label": "Imposta a",
-    "switch_time_label": "Cambia",
-    "restore_time_label": "Ripristina",
-    "host_wifi_title": "Wi-Fi Principale",
-    "guest_wifi_title": "Wi-Fi Ospiti",
-    "restore_label": "Imposta a",
-    "enable_guest_wifi_label": "Abilita la Schedulazione del Wi-Fi Ospite",
-    "enable_scheduled_label": "Abilita la Schedulazione",
-    "wifi_title": "Schedulazione dello Stato del Wi-Fi $$$$",
-    "led_title": "Schedulazione del Display LED",
-    "lcd_title": "Programmazione Display LCD"
-  },
-  "menu_timedtask": "Attività Schedulate",
-  "wifi": {
-    "switch_tx_power_label": "{band} Wi-Fi Commuta Potenza di Trasmissione",
-    "off_on_label": "{offTime} Spento, {onTime} Acceso",
-    "schedule_settings_title": "Impostazioni di Programmazione",
-    "add_schedule_title": "Aggiungi pianificazione",
-    "set_schedule_title": "Modifica Programma",
-    "off_common_title": "{label} Disattivato",
-    "schedule_title": "Programmazione Wi-Fi",
-    "off_time_info_tip": "Wi-Fi Disattivato: {start} - {end}",
-    "off_time_label": "Tempo di spegnimento Wi-Fi",
-    "on_time_label": "Wi-Fi a Orario",
-    "on_off_task_enabled_tips": "La pianificazione Wi-Fi per {label} è abilitata. Gestisci gli orari in {page}.",
-    "main_and_guest_wifi_label": "Wi-Fi principale e Guest",
-    "off_next_on_label": "{offTime} Spento, Giorno Successivo {onTime} Acceso"
-  },
-  "time": {
-    "next_day_label": "Giorno successivo",
-    "on_off_run_tips": "Lo stato del Wi-Fi cambia solo all'inizio e alla fine della pianificazione."
-  }
+    "timedtask": {
+        "reboot_time_label": "Orario di Riavvio",
+        "reboot_title": "Schedulazione Riavvio",
+        "on_time_label": "Orario di Accensione",
+        "wifi_turn_onoff_label": "Accensione/Spegnimento",
+        "off_time_label": "Orario di Spegnimento",
+        "wifi_mode_label": "Modalità Schedulata del Wi-Fi",
+        "wifi_power_switch_label": "Interruttore di Potenza TX",
+        "enable_wifi_label": "Abilitare la Schedulazione del Wi-Fi Principale",
+        "desc": "Se il dispositivo è spento nell'ora impostata, l'attività non verrà eseguita.",
+        "switch_label": "Imposta a",
+        "switch_time_label": "Cambia",
+        "restore_time_label": "Ripristina",
+        "host_wifi_title": "Wi-Fi Principale",
+        "guest_wifi_title": "Wi-Fi Ospiti",
+        "restore_label": "Imposta a",
+        "enable_guest_wifi_label": "Abilita la Schedulazione del Wi-Fi Ospite",
+        "enable_scheduled_label": "Abilita la Schedulazione",
+        "wifi_title": "Schedulazione dello Stato del Wi-Fi $$$$",
+        "led_title": "Schedulazione del Display LED",
+        "lcd_title": "Programmazione Display LCD",
+        "enable_wifi_schedule_label": "Abilita pianificazione {wifi}"
+    },
+    "menu_timedtask": "Attività Schedulate",
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Commuta Potenza di Trasmissione",
+        "off_on_label": "{offTime} Spento, {onTime} Acceso",
+        "schedule_settings_title": "Impostazioni di Programmazione",
+        "add_schedule_title": "Aggiungi pianificazione",
+        "set_schedule_title": "Modifica Programma",
+        "off_common_title": "{label} Disattivato",
+        "schedule_title": "Programmazione Wi-Fi",
+        "off_time_info_tip": "Wi-Fi Disattivato: {start} - {end}",
+        "off_time_label": "Tempo di spegnimento Wi-Fi",
+        "on_time_label": "Wi-Fi a Orario",
+        "on_off_task_enabled_tips": "La pianificazione Wi-Fi per {label} è abilitata. Gestisci gli orari in {page}.",
+        "main_and_guest_wifi_label": "Wi-Fi principale e Guest",
+        "off_next_on_label": "{offTime} Spento, Giorno Successivo {onTime} Acceso"
+    },
+    "time": {
+        "next_day_label": "Giorno successivo",
+        "on_off_run_tips": "Lo stato del Wi-Fi cambia solo all'inizio e alla fine della pianificazione."
+    }
 }
