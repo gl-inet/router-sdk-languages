@@ -1,44 +1,45 @@
 {
-  "timedtask": {
-    "reboot_title": "Reinicio programado",
-    "reboot_time_label": "Hora de reinicio",
-    "desc": "Si el dispositivo está apagado en el instante configurado, la tarea no se ejecutará.",
-    "switch_label": "Configurar",
-    "restore_label": "Configurar",
-    "restore_time_label": "Restaurar",
-    "wifi_mode_label": "Programación del modo Wi-Fi",
-    "enable_guest_wifi_label": "Activar la programación de la Wi-Fi de invitados",
-    "on_time_label": "Hora de encendido",
-    "off_time_label": "Hora de apagado",
-    "wifi_power_switch_label": "Cambiar la potencia de transmisión",
-    "enable_wifi_label": "Activar la programación de la Wi-Fi principal",
-    "host_wifi_title": "Wi-Fi principal",
-    "guest_wifi_title": "Wi-Fi de invitados",
-    "switch_time_label": "Cambiar",
-    "enable_scheduled_label": "Activar programada",
-    "led_title": "Programación del LED",
-    "wifi_turn_onoff_label": "Encender / Apagar",
-    "wifi_title": "$$$$ estado de la programación Wi-Fi",
-    "lcd_title": "Programación de Pantalla LCD"
-  },
-  "menu_timedtask": "Tareas programadas",
-  "wifi": {
-    "switch_tx_power_label": "{band} Potencia de Transmisión del Interruptor Wi-Fi",
-    "schedule_settings_title": "Configuración de Programación",
-    "add_schedule_title": "Agregar horario",
-    "off_on_label": "{offTime} Apagado, {onTime} Encendido",
-    "set_schedule_title": "Modificar Programación",
-    "off_common_title": "{label} Apagado",
-    "on_time_label": "Wi-Fi en horario programado",
-    "off_time_info_tip": "Wi-Fi Apagado: {start} - {end}",
-    "schedule_title": "Programación de Wi-Fi",
-    "off_time_label": "Hora de apagado del Wi-Fi",
-    "on_off_task_enabled_tips": "La programación de Wi-Fi para {label} está habilitada. Administre los horarios en {page}.",
-    "main_and_guest_wifi_label": "Wi-Fi principal y Wi-Fi para invitados",
-    "off_next_on_label": "{offTime} Apagado, Día Siguiente {onTime} Encendido"
-  },
-  "time": {
-    "next_day_label": "Día siguiente",
-    "on_off_run_tips": "El estado del Wi-Fi solo cambia al inicio y al final del horario programado."
-  }
+    "timedtask": {
+        "reboot_title": "Reinicio programado",
+        "reboot_time_label": "Hora de reinicio",
+        "desc": "Si el dispositivo está apagado en el instante configurado, la tarea no se ejecutará.",
+        "switch_label": "Configurar",
+        "restore_label": "Configurar",
+        "restore_time_label": "Restaurar",
+        "wifi_mode_label": "Programación del modo Wi-Fi",
+        "enable_guest_wifi_label": "Activar la programación de la Wi-Fi de invitados",
+        "on_time_label": "Hora de encendido",
+        "off_time_label": "Hora de apagado",
+        "wifi_power_switch_label": "Cambiar la potencia de transmisión",
+        "enable_wifi_label": "Activar la programación de la Wi-Fi principal",
+        "host_wifi_title": "Wi-Fi principal",
+        "guest_wifi_title": "Wi-Fi de invitados",
+        "switch_time_label": "Cambiar",
+        "enable_scheduled_label": "Activar programada",
+        "led_title": "Programación del LED",
+        "wifi_turn_onoff_label": "Encender / Apagar",
+        "wifi_title": "$$$$ estado de la programación Wi-Fi",
+        "lcd_title": "Programación de Pantalla LCD",
+        "enable_wifi_schedule_label": "Habilitar programación de {wifi}"
+    },
+    "menu_timedtask": "Tareas programadas",
+    "wifi": {
+        "switch_tx_power_label": "{band} Potencia de Transmisión del Interruptor Wi-Fi",
+        "schedule_settings_title": "Configuración de Programación",
+        "add_schedule_title": "Agregar horario",
+        "off_on_label": "{offTime} Apagado, {onTime} Encendido",
+        "set_schedule_title": "Modificar Programación",
+        "off_common_title": "{label} Apagado",
+        "on_time_label": "Wi-Fi en horario programado",
+        "off_time_info_tip": "Wi-Fi Apagado: {start} - {end}",
+        "schedule_title": "Programación de Wi-Fi",
+        "off_time_label": "Hora de apagado del Wi-Fi",
+        "on_off_task_enabled_tips": "La programación de Wi-Fi para {label} está habilitada. Administre los horarios en {page}.",
+        "main_and_guest_wifi_label": "Wi-Fi principal y Wi-Fi para invitados",
+        "off_next_on_label": "{offTime} Apagado, Día Siguiente {onTime} Encendido"
+    },
+    "time": {
+        "next_day_label": "Día siguiente",
+        "on_off_run_tips": "El estado del Wi-Fi solo cambia al inicio y al final del horario programado."
+    }
 }
