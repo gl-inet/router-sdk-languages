@@ -1,44 +1,45 @@
 {
-  "menu_timedtask": "Запланированные задачи",
-  "timedtask": {
-    "desc": "Если устройство будет выключено в установленное время, задача выполнена не будет.",
-    "restore_time_label": "Восстановить",
-    "enable_scheduled_label": "Включить по расписанию",
-    "wifi_title": "$$$$ Расписание статуса Wi-Fi",
-    "on_time_label": "Время включения",
-    "off_time_label": "Время выключения",
-    "reboot_title": "Запланировать перезагрузку",
-    "reboot_time_label": "Время перезагрузки",
-    "wifi_mode_label": "Режим по расписанию Wi-Fi",
-    "wifi_turn_onoff_label": "Включить/Выключить",
-    "wifi_power_switch_label": "Переключить мощность передачи",
-    "enable_wifi_label": "Включить расписание основной Wi-Fi сети",
-    "enable_guest_wifi_label": "Включить расписание гостевой Wi-Fi сети",
-    "host_wifi_title": "Основная Wi-Fi сеть",
-    "guest_wifi_title": "Гостевая Wi-Fi сеть",
-    "switch_label": "Установить в",
-    "switch_time_label": "Переключить",
-    "restore_label": "Установить в",
-    "led_title": "Расписание работы индикаторов",
-    "lcd_title": "График работы LCD-дисплея"
-  },
-  "wifi": {
-    "switch_tx_power_label": "{band} Переключатель мощности передачи беспроводной сети",
-    "schedule_settings_title": "Настройки расписания",
-    "off_on_label": "{offTime} Выкл, {onTime} Вкл",
-    "add_schedule_title": "Добавить расписание",
-    "set_schedule_title": "Изменить расписание",
-    "off_common_title": "{label} Выкл.",
-    "on_time_label": "Беспроводной сети Время включения",
-    "schedule_title": "Расписание беспроводной сети",
-    "off_time_info_tip": "Wi-Fi выключен: {start} - {end}",
-    "off_time_label": "Беспроводной сети Время выключения",
-    "on_off_task_enabled_tips": "Расписание работы беспроводной сети для {label} включено. Управление расписанием доступно на странице {page}.",
-    "main_and_guest_wifi_label": "Основная и гостевая беспроводная сети",
-    "off_next_on_label": "{offTime} Выключение, на следующий день {onTime} Включение"
-  },
-  "time": {
-    "next_day_label": "Следующий день",
-    "on_off_run_tips": "Статус беспроводной сети изменяется только в начале и конце расписания."
-  }
+    "menu_timedtask": "Запланированные задачи",
+    "timedtask": {
+        "desc": "Если устройство будет выключено в установленное время, задача выполнена не будет.",
+        "restore_time_label": "Восстановить",
+        "enable_scheduled_label": "Включить по расписанию",
+        "wifi_title": "$$$$ Расписание статуса Wi-Fi",
+        "on_time_label": "Время включения",
+        "off_time_label": "Время выключения",
+        "reboot_title": "Запланировать перезагрузку",
+        "reboot_time_label": "Время перезагрузки",
+        "wifi_mode_label": "Режим по расписанию Wi-Fi",
+        "wifi_turn_onoff_label": "Включить/Выключить",
+        "wifi_power_switch_label": "Переключить мощность передачи",
+        "enable_wifi_label": "Включить расписание основной Wi-Fi сети",
+        "enable_guest_wifi_label": "Включить расписание гостевой Wi-Fi сети",
+        "host_wifi_title": "Основная Wi-Fi сеть",
+        "guest_wifi_title": "Гостевая Wi-Fi сеть",
+        "switch_label": "Установить в",
+        "switch_time_label": "Переключить",
+        "restore_label": "Установить в",
+        "led_title": "Расписание работы индикаторов",
+        "lcd_title": "График работы LCD-дисплея",
+        "enable_wifi_schedule_label": "Включить расписание {wifi}"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Переключатель мощности передачи беспроводной сети",
+        "schedule_settings_title": "Настройки расписания",
+        "off_on_label": "{offTime} Выкл, {onTime} Вкл",
+        "add_schedule_title": "Добавить расписание",
+        "set_schedule_title": "Изменить расписание",
+        "off_common_title": "{label} Выкл.",
+        "on_time_label": "Беспроводной сети Время включения",
+        "schedule_title": "Расписание беспроводной сети",
+        "off_time_info_tip": "Wi-Fi выключен: {start} - {end}",
+        "off_time_label": "Беспроводной сети Время выключения",
+        "on_off_task_enabled_tips": "Расписание работы беспроводной сети для {label} включено. Управление расписанием доступно на странице {page}.",
+        "main_and_guest_wifi_label": "Основная и гостевая беспроводная сети",
+        "off_next_on_label": "{offTime} Выключение, на следующий день {onTime} Включение"
+    },
+    "time": {
+        "next_day_label": "Следующий день",
+        "on_off_run_tips": "Статус беспроводной сети изменяется только в начале и конце расписания."
+    }
 }
