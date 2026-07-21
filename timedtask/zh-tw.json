@@ -1,44 +1,45 @@
 {
-  "timedtask": {
-    "on_time_label": "開啟時間",
-    "reboot_title": "定時重啟",
-    "enable_wifi_label": "啟用主 Wi-Fi 定時任務",
-    "guest_wifi_title": "訪客 Wi-Fi",
-    "wifi_mode_label": "Wi-Fi 定時切換模式",
-    "off_time_label": "關閉時間",
-    "reboot_time_label": "重啟時間",
-    "desc": "如果設備在設定時間處於關機狀態，則不會執行任務。",
-    "wifi_turn_onoff_label": "開啟/關閉",
-    "wifi_power_switch_label": "切換發射功率",
-    "restore_time_label": "恢復",
-    "enable_scheduled_label": "啟用定時任務",
-    "wifi_title": "定時切換 $$$$ Wi-Fi 狀態",
-    "enable_guest_wifi_label": "啟用訪客 Wi-Fi 定時任務",
-    "host_wifi_title": "主 Wi-Fi",
-    "switch_label": "設置為",
-    "switch_time_label": "切換",
-    "restore_label": "設置為",
-    "led_title": "定時切換 LED 開關",
-    "lcd_title": "定時切換 LCD 開關"
-  },
-  "menu_timedtask": "計劃任務",
-  "wifi": {
-    "switch_tx_power_label": "{band} Wi-Fi 切換發射功率",
-    "schedule_settings_title": "排程設定",
-    "off_on_label": "{offTime} 關閉, {onTime} 開啟",
-    "add_schedule_title": "添加排程",
-    "set_schedule_title": "修改排程",
-    "off_common_title": "{label} 關閉",
-    "on_time_label": "Wi-Fi 開啟時間",
-    "schedule_title": "Wi-Fi 排程",
-    "off_time_info_tip": "Wi-Fi 關閉時間：{start} - {end}",
-    "off_time_label": "Wi-Fi 關閉時間",
-    "on_off_task_enabled_tips": "{label} 的 Wi-Fi 定時任務已啟用。請至{page}管理排程。",
-    "main_and_guest_wifi_label": "主 Wi-Fi 與訪客 Wi-Fi",
-    "off_next_on_label": "{offTime} 關閉，次日{onTime} 開啟"
-  },
-  "time": {
-    "next_day_label": "次日",
-    "on_off_run_tips": "Wi-Fi 狀態僅在排程開始和結束時變更。"
-  }
+    "timedtask": {
+        "on_time_label": "開啟時間",
+        "reboot_title": "定時重啟",
+        "enable_wifi_label": "啟用主 Wi-Fi 定時任務",
+        "guest_wifi_title": "訪客 Wi-Fi",
+        "wifi_mode_label": "Wi-Fi 定時切換模式",
+        "off_time_label": "關閉時間",
+        "reboot_time_label": "重啟時間",
+        "desc": "如果設備在設定時間處於關機狀態，則不會執行任務。",
+        "wifi_turn_onoff_label": "開啟/關閉",
+        "wifi_power_switch_label": "切換發射功率",
+        "restore_time_label": "恢復",
+        "enable_scheduled_label": "啟用定時任務",
+        "wifi_title": "定時切換 $$$$ Wi-Fi 狀態",
+        "enable_guest_wifi_label": "啟用訪客 Wi-Fi 定時任務",
+        "host_wifi_title": "主 Wi-Fi",
+        "switch_label": "設置為",
+        "switch_time_label": "切換",
+        "restore_label": "設置為",
+        "led_title": "定時切換 LED 開關",
+        "lcd_title": "定時切換 LCD 開關",
+        "enable_wifi_schedule_label": "啟用 {wifi} 排程"
+    },
+    "menu_timedtask": "計劃任務",
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi 切換發射功率",
+        "schedule_settings_title": "排程設定",
+        "off_on_label": "{offTime} 關閉, {onTime} 開啟",
+        "add_schedule_title": "添加排程",
+        "set_schedule_title": "修改排程",
+        "off_common_title": "{label} 關閉",
+        "on_time_label": "Wi-Fi 開啟時間",
+        "schedule_title": "Wi-Fi 排程",
+        "off_time_info_tip": "Wi-Fi 關閉時間：{start} - {end}",
+        "off_time_label": "Wi-Fi 關閉時間",
+        "on_off_task_enabled_tips": "{label} 的 Wi-Fi 定時任務已啟用。請至{page}管理排程。",
+        "main_and_guest_wifi_label": "主 Wi-Fi 與訪客 Wi-Fi",
+        "off_next_on_label": "{offTime} 關閉，次日{onTime} 開啟"
+    },
+    "time": {
+        "next_day_label": "次日",
+        "on_off_run_tips": "Wi-Fi 狀態僅在排程開始和結束時變更。"
+    }
 }
