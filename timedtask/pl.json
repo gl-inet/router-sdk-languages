@@ -1,44 +1,45 @@
 {
-  "menu_timedtask": "Harmonogram Zadań",
-  "timedtask": {
-    "on_time_label": "Czas włączenia",
-    "desc": "Jeżeli urządzenie zostanie wyłączone o ustawionej porze, zadanie nie zostanie wykonane.",
-    "off_time_label": "Czas wyłączenia",
-    "reboot_title": "Zaplanowany Restart",
-    "reboot_time_label": "Czas Restartu",
-    "wifi_mode_label": "Tryb Harmonogramu Wi-Fi",
-    "wifi_turn_onoff_label": "Włącz/Wyłącz",
-    "wifi_power_switch_label": "Zmień Moc Przełącznika",
-    "enable_wifi_label": "Włącz Harmonogram Głównego Wi-Fi",
-    "enable_guest_wifi_label": "Włącz Harmonogram Sieci Wi-Fi dla Gości",
-    "host_wifi_title": "Główne Wi-Fi",
-    "guest_wifi_title": "Wi-Fi Gościa",
-    "switch_label": "Ustaw na",
-    "switch_time_label": "Przełącz",
-    "restore_label": "Ustaw na",
-    "restore_time_label": "Przywróć",
-    "enable_scheduled_label": "Włącz Harmonogram",
-    "led_title": "Harmonogram LED",
-    "wifi_title": "Harmonogram Statusu Wi-Fi $$$$",
-    "lcd_title": "Harmonogram Wyświetlacza LCD"
-  },
-  "wifi": {
-    "switch_tx_power_label": "{band} Przełącznik Mocy Nadawania Wi-Fi",
-    "schedule_settings_title": "Ustawienia Harmonogramu",
-    "off_on_label": "{offTime} Wyłączony, {onTime} Włączony",
-    "add_schedule_title": "Dodaj Harmonogram",
-    "set_schedule_title": "Zmodyfikuj Harmonogram",
-    "off_common_title": "{label} Wyłączony",
-    "on_time_label": "Wi-Fi Włączony o Określonej Godzinie",
-    "schedule_title": "Harmonogram Wi-Fi",
-    "off_time_info_tip": "Wi-Fi Wyłączony: {start} - {end}",
-    "off_time_label": "Wi-Fi Wyłączony o Określonej Godzinie",
-    "on_off_task_enabled_tips": "Planowanie Wi-Fi dla {label} jest włączone. Zarządzaj harmonogramami w {page}.",
-    "main_and_guest_wifi_label": "Główne i Gościnne Wi-Fi",
-    "off_next_on_label": "{offTime} Wyłączone, Następnego Dnia {onTime} Włączone"
-  },
-  "time": {
-    "next_day_label": "Następny dzień",
-    "on_off_run_tips": "Status Wi-Fi zmienia się tylko na początku i na końcu harmonogramu."
-  }
+    "menu_timedtask": "Harmonogram Zadań",
+    "timedtask": {
+        "on_time_label": "Czas włączenia",
+        "desc": "Jeżeli urządzenie zostanie wyłączone o ustawionej porze, zadanie nie zostanie wykonane.",
+        "off_time_label": "Czas wyłączenia",
+        "reboot_title": "Zaplanowany Restart",
+        "reboot_time_label": "Czas Restartu",
+        "wifi_mode_label": "Tryb Harmonogramu Wi-Fi",
+        "wifi_turn_onoff_label": "Włącz/Wyłącz",
+        "wifi_power_switch_label": "Zmień Moc Przełącznika",
+        "enable_wifi_label": "Włącz Harmonogram Głównego Wi-Fi",
+        "enable_guest_wifi_label": "Włącz Harmonogram Sieci Wi-Fi dla Gości",
+        "host_wifi_title": "Główne Wi-Fi",
+        "guest_wifi_title": "Wi-Fi Gościa",
+        "switch_label": "Ustaw na",
+        "switch_time_label": "Przełącz",
+        "restore_label": "Ustaw na",
+        "restore_time_label": "Przywróć",
+        "enable_scheduled_label": "Włącz Harmonogram",
+        "led_title": "Harmonogram LED",
+        "wifi_title": "Harmonogram Statusu Wi-Fi $$$$",
+        "lcd_title": "Harmonogram Wyświetlacza LCD",
+        "enable_wifi_schedule_label": "Włącz harmonogram {wifi}"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Przełącznik Mocy Nadawania Wi-Fi",
+        "schedule_settings_title": "Ustawienia Harmonogramu",
+        "off_on_label": "{offTime} Wyłączony, {onTime} Włączony",
+        "add_schedule_title": "Dodaj Harmonogram",
+        "set_schedule_title": "Zmodyfikuj Harmonogram",
+        "off_common_title": "{label} Wyłączony",
+        "on_time_label": "Wi-Fi Włączony o Określonej Godzinie",
+        "schedule_title": "Harmonogram Wi-Fi",
+        "off_time_info_tip": "Wi-Fi Wyłączony: {start} - {end}",
+        "off_time_label": "Wi-Fi Wyłączony o Określonej Godzinie",
+        "on_off_task_enabled_tips": "Planowanie Wi-Fi dla {label} jest włączone. Zarządzaj harmonogramami w {page}.",
+        "main_and_guest_wifi_label": "Główne i Gościnne Wi-Fi",
+        "off_next_on_label": "{offTime} Wyłączone, Następnego Dnia {onTime} Włączone"
+    },
+    "time": {
+        "next_day_label": "Następny dzień",
+        "on_off_run_tips": "Status Wi-Fi zmienia się tylko na początku i na końcu harmonogramu."
+    }
 }
