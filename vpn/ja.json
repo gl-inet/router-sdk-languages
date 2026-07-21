@@ -651,7 +651,8 @@
         "set_parameters_tips_1": "ルーターは自動的に難読化パラメータを生成します。",
         "set_parameters_tips_2": "AmneziaWGの難読化に精通している場合は手動で編集することもできますが、自動生成されたものを使用することもできます。",
         "wg_client_parameters_tips": "難読化パラメータはサーバー側で決定されます。設定ファイルをインポートした後は変更する必要はありません。",
-        "conneted_tips": "難読化が有効になっています。AmneziaWGアプリまたはAmneziaWG難読化をサポートするファームウェアを実行しているGL.iNetルーター経由での接続を推奨します。AmneziaWG難読化をサポートしていないクライアントは接続できません。"
+        "conneted_tips": "難読化が有効になっています。AmneziaWGアプリまたはAmneziaWG難読化をサポートするファームウェアを実行しているGL.iNetルーター経由での接続を推奨します。AmneziaWG難読化をサポートしていないクライアントは接続できません。",
+        "enable_tips_v1": "有効にすると、VPN サーバーは AmneziaWG 難読化プロトコルを使用して VPN トラフィックを偽装します。"
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "アップロードされたファイルが大きすぎます。ストレージ不足のため解凍に失敗しました。",
