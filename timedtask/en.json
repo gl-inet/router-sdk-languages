@@ -1,44 +1,45 @@
 {
-  "menu_timedtask": "Scheduled Tasks",
-  "timedtask": {
-    "desc": "If the device is shutdown at the set time, the task will not be executed.",
-    "on_time_label": "Turn On Time",
-    "off_time_label": "Turn Off Time",
-    "reboot_title": "Schedule Reboot",
-    "reboot_time_label": "Reboot Time",
-    "wifi_mode_label": "Wi-Fi Scheduled Mode",
-    "wifi_turn_onoff_label": "Turn On/Off",
-    "wifi_power_switch_label": "Switch TX Power",
-    "enable_wifi_label": "Enable Main Wi-Fi Schedule",
-    "enable_guest_wifi_label": "Enable Guest Wi-Fi Schedule",
-    "host_wifi_title": "Main Wi-Fi",
-    "guest_wifi_title": "Guest Wi-Fi",
-    "switch_label": "Set to",
-    "switch_time_label": "Switch",
-    "restore_label": "Set to",
-    "restore_time_label": "Restore",
-    "enable_scheduled_label": "Enable Scheduled",
-    "led_title": "LED Display Schedule",
-    "wifi_title": "$$$$ Wi-Fi Status Schedule",
-    "lcd_title": "LCD Display Schedule"
-  },
-  "wifi": {
-    "switch_tx_power_label": "{band} Wi-Fi Switch Tx Power",
-    "off_on_label": "{offTime} Off, {onTime} On",
-    "schedule_settings_title": "Schedule Settings",
-    "add_schedule_title": "Add Schedule",
-    "set_schedule_title": "Modify Schedule",
-    "off_common_title": "{label} Off",
-    "on_time_label": "Wi-Fi On Time",
-    "off_time_info_tip": "Wi-Fi Off: {start} - {end}",
-    "schedule_title": "Wi-Fi Schedule",
-    "off_time_label": "Wi-Fi Off Time",
-    "on_off_task_enabled_tips": "Wi-Fi scheduling for {label} is enabled. Manage schedules in {page}.",
-    "main_and_guest_wifi_label": "Main and Guest Wi-Fi",
-    "off_next_on_label": "{offTime} Off, Next Day {onTime} On"
-  },
-  "time": {
-    "next_day_label": "Next Day",
-    "on_off_run_tips": "Wi-Fi status changes only at the start and end of the schedule."
-  }
+    "menu_timedtask": "Scheduled Tasks",
+    "timedtask": {
+        "desc": "If the device is shutdown at the set time, the task will not be executed.",
+        "on_time_label": "Turn On Time",
+        "off_time_label": "Turn Off Time",
+        "reboot_title": "Schedule Reboot",
+        "reboot_time_label": "Reboot Time",
+        "wifi_mode_label": "Wi-Fi Scheduled Mode",
+        "wifi_turn_onoff_label": "Turn On/Off",
+        "wifi_power_switch_label": "Switch TX Power",
+        "enable_wifi_label": "Enable Main Wi-Fi Schedule",
+        "enable_guest_wifi_label": "Enable Guest Wi-Fi Schedule",
+        "host_wifi_title": "Main Wi-Fi",
+        "guest_wifi_title": "Guest Wi-Fi",
+        "switch_label": "Set to",
+        "switch_time_label": "Switch",
+        "restore_label": "Set to",
+        "restore_time_label": "Restore",
+        "enable_scheduled_label": "Enable Scheduled",
+        "led_title": "LED Display Schedule",
+        "wifi_title": "$$$$ Wi-Fi Status Schedule",
+        "lcd_title": "LCD Display Schedule",
+        "enable_wifi_schedule_label": "Enable {wifi} Schedule"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Switch Tx Power",
+        "off_on_label": "{offTime} Off, {onTime} On",
+        "schedule_settings_title": "Schedule Settings",
+        "add_schedule_title": "Add Schedule",
+        "set_schedule_title": "Modify Schedule",
+        "off_common_title": "{label} Off",
+        "on_time_label": "Wi-Fi On Time",
+        "off_time_info_tip": "Wi-Fi Off: {start} - {end}",
+        "schedule_title": "Wi-Fi Schedule",
+        "off_time_label": "Wi-Fi Off Time",
+        "on_off_task_enabled_tips": "Wi-Fi scheduling for {label} is enabled. Manage schedules in {page}.",
+        "main_and_guest_wifi_label": "Main and Guest Wi-Fi",
+        "off_next_on_label": "{offTime} Off, Next Day {onTime} On"
+    },
+    "time": {
+        "next_day_label": "Next Day",
+        "on_off_run_tips": "Wi-Fi status changes only at the start and end of the schedule."
+    }
 }
