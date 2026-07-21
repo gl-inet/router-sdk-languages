@@ -1,44 +1,45 @@
 {
-  "timedtask": {
-    "off_time_label": "Час вимкнення",
-    "host_wifi_title": "Основний Wi-Fi",
-    "desc": "Якщо пристрій буде вимкнено у встановлений час, завдання не буде виконано.",
-    "on_time_label": "Час включення",
-    "reboot_title": "Заплановане перезавантаження",
-    "reboot_time_label": "Час перезавантаження",
-    "wifi_mode_label": "Режим Wi-Fi за розкладом",
-    "wifi_turn_onoff_label": "Увімкнення/Вимкнення",
-    "wifi_power_switch_label": "Перемикання потужності передачі",
-    "enable_wifi_label": "Увімкнути розклад основного Wi-Fi",
-    "enable_guest_wifi_label": "Увімкнути розклад гостьового Wi-Fi",
-    "guest_wifi_title": "Гостьовий Wi-Fi",
-    "switch_label": "Встановити на",
-    "switch_time_label": "Перемикання",
-    "restore_label": "Встановити на",
-    "restore_time_label": "Відновити",
-    "enable_scheduled_label": "Увімкнути за розкладом",
-    "led_title": "Розклад роботи світлодіодного дисплея",
-    "wifi_title": "$$$$ Розклад статусу Wi-Fi",
-    "lcd_title": "Розклад роботи LCD-дисплея"
-  },
-  "menu_timedtask": "Заплановані завдання",
-  "wifi": {
-    "switch_tx_power_label": "{band} Wi-Fi Перемикач Потужності Передачі",
-    "schedule_settings_title": "Налаштування розкладу",
-    "off_on_label": "{offTime} Вимкнено, {onTime} Увімкнено",
-    "add_schedule_title": "Додати розклад",
-    "set_schedule_title": "Змінити розклад",
-    "off_common_title": "{label} Вимкнено",
-    "on_time_label": "Час увімкнення Wi-Fi",
-    "schedule_title": "Розклад Wi-Fi",
-    "off_time_info_tip": "Wi-Fi вимкнено: {start} - {end}",
-    "off_time_label": "Час вимкнення Wi-Fi",
-    "on_off_task_enabled_tips": "Розклад Wi-Fi для {label} увімкнено. Керуйте розкладом на сторінці {page}.",
-    "main_and_guest_wifi_label": "Основна та гостьова мережа Wi-Fi",
-    "off_next_on_label": "{offTime} Вимкнено, Наступного дня {onTime} Увімкнено"
-  },
-  "time": {
-    "next_day_label": "Наступного дня",
-    "on_off_run_tips": "Статус Wi-Fi змінюється лише на початку та в кінці розкладу."
-  }
+    "timedtask": {
+        "off_time_label": "Час вимкнення",
+        "host_wifi_title": "Основний Wi-Fi",
+        "desc": "Якщо пристрій буде вимкнено у встановлений час, завдання не буде виконано.",
+        "on_time_label": "Час включення",
+        "reboot_title": "Заплановане перезавантаження",
+        "reboot_time_label": "Час перезавантаження",
+        "wifi_mode_label": "Режим Wi-Fi за розкладом",
+        "wifi_turn_onoff_label": "Увімкнення/Вимкнення",
+        "wifi_power_switch_label": "Перемикання потужності передачі",
+        "enable_wifi_label": "Увімкнути розклад основного Wi-Fi",
+        "enable_guest_wifi_label": "Увімкнути розклад гостьового Wi-Fi",
+        "guest_wifi_title": "Гостьовий Wi-Fi",
+        "switch_label": "Встановити на",
+        "switch_time_label": "Перемикання",
+        "restore_label": "Встановити на",
+        "restore_time_label": "Відновити",
+        "enable_scheduled_label": "Увімкнути за розкладом",
+        "led_title": "Розклад роботи світлодіодного дисплея",
+        "wifi_title": "$$$$ Розклад статусу Wi-Fi",
+        "lcd_title": "Розклад роботи LCD-дисплея",
+        "enable_wifi_schedule_label": "Увімкнути розклад {wifi}"
+    },
+    "menu_timedtask": "Заплановані завдання",
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Перемикач Потужності Передачі",
+        "schedule_settings_title": "Налаштування розкладу",
+        "off_on_label": "{offTime} Вимкнено, {onTime} Увімкнено",
+        "add_schedule_title": "Додати розклад",
+        "set_schedule_title": "Змінити розклад",
+        "off_common_title": "{label} Вимкнено",
+        "on_time_label": "Час увімкнення Wi-Fi",
+        "schedule_title": "Розклад Wi-Fi",
+        "off_time_info_tip": "Wi-Fi вимкнено: {start} - {end}",
+        "off_time_label": "Час вимкнення Wi-Fi",
+        "on_off_task_enabled_tips": "Розклад Wi-Fi для {label} увімкнено. Керуйте розкладом на сторінці {page}.",
+        "main_and_guest_wifi_label": "Основна та гостьова мережа Wi-Fi",
+        "off_next_on_label": "{offTime} Вимкнено, Наступного дня {onTime} Увімкнено"
+    },
+    "time": {
+        "next_day_label": "Наступного дня",
+        "on_off_run_tips": "Статус Wi-Fi змінюється лише на початку та в кінці розкладу."
+    }
 }
