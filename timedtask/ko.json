@@ -1,44 +1,45 @@
 {
-  "menu_timedtask": "예약된 작업",
-  "timedtask": {
-    "desc": "설정된 시간에 장치가 종료되면 작업이 실행되지 않습니다.",
-    "wifi_mode_label": "Wi-Fi 예약 모드",
-    "enable_guest_wifi_label": "게스트 Wi-Fi 예약 활성화",
-    "host_wifi_title": "메인 Wi-Fi",
-    "switch_label": "로 설정합니다",
-    "on_time_label": "켜기 시간 설정",
-    "off_time_label": "끄기 시간 설정",
-    "reboot_time_label": "재부팅 시간",
-    "reboot_title": "재부팅 예약",
-    "wifi_turn_onoff_label": "켜기/끄기",
-    "wifi_power_switch_label": "스위치 TX 전원",
-    "enable_wifi_label": "기본 Wi-Fi 예약 활성화",
-    "guest_wifi_title": "게스트 Wi-Fi",
-    "switch_time_label": "스위치",
-    "restore_label": "로 설정합니다",
-    "restore_time_label": "복원",
-    "enable_scheduled_label": "예약 활성화",
-    "led_title": "LED 표시 일정",
-    "wifi_title": "$$$$ Wi-Fi 상태 예약",
-    "lcd_title": "LCD 디스플레이 일정"
-  },
-  "wifi": {
-    "switch_tx_power_label": "{band} Wi-Fi 전송 전력 스위치",
-    "schedule_settings_title": "일정 설정",
-    "off_on_label": "{offTime} 꺼짐, {onTime} 켜짐",
-    "add_schedule_title": "일정 추가",
-    "set_schedule_title": "일정 수정",
-    "off_common_title": "{label} 끄기",
-    "on_time_label": "Wi-Fi 예약 설정",
-    "schedule_title": "Wi-Fi 스케줄",
-    "off_time_info_tip": "Wi-Fi 끄기: {start} - {end}",
-    "off_time_label": "Wi-Fi 종료 시간",
-    "on_off_task_enabled_tips": "{label}의 Wi-Fi 스케줄링이 활성화되었습니다. {page}에서 스케줄을 관리하세요.",
-    "main_and_guest_wifi_label": "메인 및 게스트 Wi-Fi",
-    "off_next_on_label": "{offTime} 종료, 다음 날 {onTime} 시작"
-  },
-  "time": {
-    "next_day_label": "다음 날",
-    "on_off_run_tips": "Wi-Fi 상태는 스케줄 시작과 종료 시에만 변경됩니다."
-  }
+    "menu_timedtask": "예약된 작업",
+    "timedtask": {
+        "desc": "설정된 시간에 장치가 종료되면 작업이 실행되지 않습니다.",
+        "wifi_mode_label": "Wi-Fi 예약 모드",
+        "enable_guest_wifi_label": "게스트 Wi-Fi 예약 활성화",
+        "host_wifi_title": "메인 Wi-Fi",
+        "switch_label": "로 설정합니다",
+        "on_time_label": "켜기 시간 설정",
+        "off_time_label": "끄기 시간 설정",
+        "reboot_time_label": "재부팅 시간",
+        "reboot_title": "재부팅 예약",
+        "wifi_turn_onoff_label": "켜기/끄기",
+        "wifi_power_switch_label": "스위치 TX 전원",
+        "enable_wifi_label": "기본 Wi-Fi 예약 활성화",
+        "guest_wifi_title": "게스트 Wi-Fi",
+        "switch_time_label": "스위치",
+        "restore_label": "로 설정합니다",
+        "restore_time_label": "복원",
+        "enable_scheduled_label": "예약 활성화",
+        "led_title": "LED 표시 일정",
+        "wifi_title": "$$$$ Wi-Fi 상태 예약",
+        "lcd_title": "LCD 디스플레이 일정",
+        "enable_wifi_schedule_label": "{wifi} 일정 활성화"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi 전송 전력 스위치",
+        "schedule_settings_title": "일정 설정",
+        "off_on_label": "{offTime} 꺼짐, {onTime} 켜짐",
+        "add_schedule_title": "일정 추가",
+        "set_schedule_title": "일정 수정",
+        "off_common_title": "{label} 끄기",
+        "on_time_label": "Wi-Fi 예약 설정",
+        "schedule_title": "Wi-Fi 스케줄",
+        "off_time_info_tip": "Wi-Fi 끄기: {start} - {end}",
+        "off_time_label": "Wi-Fi 종료 시간",
+        "on_off_task_enabled_tips": "{label}의 Wi-Fi 스케줄링이 활성화되었습니다. {page}에서 스케줄을 관리하세요.",
+        "main_and_guest_wifi_label": "메인 및 게스트 Wi-Fi",
+        "off_next_on_label": "{offTime} 종료, 다음 날 {onTime} 시작"
+    },
+    "time": {
+        "next_day_label": "다음 날",
+        "on_off_run_tips": "Wi-Fi 상태는 스케줄 시작과 종료 시에만 변경됩니다."
+    }
 }
