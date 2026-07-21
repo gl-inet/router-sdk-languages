@@ -1,44 +1,45 @@
 {
-  "menu_timedtask": "Ütemezés",
-  "timedtask": {
-    "desc": "Az ütemezések végrehajtása kikapcsolt időszakokban nem lehetséges.",
-    "on_time_label": "Bekapcsolás ekkor",
-    "off_time_label": "Kikapcsolás ekkor",
-    "reboot_title": "Újraindítás",
-    "reboot_time_label": "Újraindítás ekkor",
-    "wifi_turn_onoff_label": "Bekapcsolás/kikapcsolás",
-    "wifi_power_switch_label": "Teljesítmény módosítása",
-    "enable_wifi_label": "Fő hálózat szabályozása",
-    "enable_guest_wifi_label": "Vendég hálózat szabályozása",
-    "host_wifi_title": "Fő hálózat",
-    "guest_wifi_title": "Vendég hálózat",
-    "switch_label": "erre:",
-    "switch_time_label": "Módosítás ekkor",
-    "restore_label": "erre:",
-    "restore_time_label": "Visszaállítás ekkor",
-    "enable_scheduled_label": "Szabályozás engedélyezése",
-    "led_title": "LED indikátorok",
-    "wifi_mode_label": "Szabályozás módja",
-    "wifi_title": "$$$$ vezeték nélküli hálózat",
-    "lcd_title": "LCD-kijelző ütemezése"
-  },
-  "wifi": {
-    "switch_tx_power_label": "{band} Wi-Fi kapcsoló Tx teljesítmény",
-    "off_on_label": "{offTime} Kikapcsolva, {onTime} Bekapcsolva",
-    "schedule_settings_title": "Ütemezési beállítások",
-    "add_schedule_title": "Ütemezés hozzáadása",
-    "set_schedule_title": "Ütemezés módosítása",
-    "off_common_title": "{label} Ki",
-    "on_time_label": "Wi-Fi időzítés",
-    "schedule_title": "Wi-Fi ütemezés",
-    "off_time_info_tip": "Wi-Fi kikapcsolva: {start} - {end}",
-    "off_time_label": "Wi-Fi kikapcsolási idő",
-    "on_off_task_enabled_tips": "A(z) {label} Wi-Fi ütemezése engedélyezve van. Az ütemezések kezelése itt történhet: {page}.",
-    "main_and_guest_wifi_label": "Fő és vendég Wi-Fi",
-    "off_next_on_label": "{offTime} Kikapcsolás, Másnap {onTime} Bekapcsolás"
-  },
-  "time": {
-    "next_day_label": "Következő nap",
-    "on_off_run_tips": "A Wi-Fi állapota csak az ütemezés elején és végén változik."
-  }
+    "menu_timedtask": "Ütemezés",
+    "timedtask": {
+        "desc": "Az ütemezések végrehajtása kikapcsolt időszakokban nem lehetséges.",
+        "on_time_label": "Bekapcsolás ekkor",
+        "off_time_label": "Kikapcsolás ekkor",
+        "reboot_title": "Újraindítás",
+        "reboot_time_label": "Újraindítás ekkor",
+        "wifi_turn_onoff_label": "Bekapcsolás/kikapcsolás",
+        "wifi_power_switch_label": "Teljesítmény módosítása",
+        "enable_wifi_label": "Fő hálózat szabályozása",
+        "enable_guest_wifi_label": "Vendég hálózat szabályozása",
+        "host_wifi_title": "Fő hálózat",
+        "guest_wifi_title": "Vendég hálózat",
+        "switch_label": "erre:",
+        "switch_time_label": "Módosítás ekkor",
+        "restore_label": "erre:",
+        "restore_time_label": "Visszaállítás ekkor",
+        "enable_scheduled_label": "Szabályozás engedélyezése",
+        "led_title": "LED indikátorok",
+        "wifi_mode_label": "Szabályozás módja",
+        "wifi_title": "$$$$ vezeték nélküli hálózat",
+        "lcd_title": "LCD-kijelző ütemezése",
+        "enable_wifi_schedule_label": "{wifi} ütemezés engedélyezése"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi kapcsoló Tx teljesítmény",
+        "off_on_label": "{offTime} Kikapcsolva, {onTime} Bekapcsolva",
+        "schedule_settings_title": "Ütemezési beállítások",
+        "add_schedule_title": "Ütemezés hozzáadása",
+        "set_schedule_title": "Ütemezés módosítása",
+        "off_common_title": "{label} Ki",
+        "on_time_label": "Wi-Fi időzítés",
+        "schedule_title": "Wi-Fi ütemezés",
+        "off_time_info_tip": "Wi-Fi kikapcsolva: {start} - {end}",
+        "off_time_label": "Wi-Fi kikapcsolási idő",
+        "on_off_task_enabled_tips": "A(z) {label} Wi-Fi ütemezése engedélyezve van. Az ütemezések kezelése itt történhet: {page}.",
+        "main_and_guest_wifi_label": "Fő és vendég Wi-Fi",
+        "off_next_on_label": "{offTime} Kikapcsolás, Másnap {onTime} Bekapcsolás"
+    },
+    "time": {
+        "next_day_label": "Következő nap",
+        "on_off_run_tips": "A Wi-Fi állapota csak az ütemezés elején és végén változik."
+    }
 }
