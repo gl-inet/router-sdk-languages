@@ -1,44 +1,45 @@
 {
-  "menu_timedtask": "Geplande taken",
-  "timedtask": {
-    "wifi_turn_onoff_label": "Inschakelen / uitschakelen",
-    "desc": "Als het apparaat op de ingestelde is uitgeschakeld, wordt de taak niet uitgevoerd.",
-    "on_time_label": "Opstarttijd",
-    "off_time_label": "Uitschakelingstijd",
-    "reboot_title": "Geplande herstart",
-    "reboot_time_label": "Herstarttijd",
-    "wifi_mode_label": "Geplande Wi-Fi-modus",
-    "wifi_power_switch_label": "TX-vermogen verwisselen",
-    "enable_wifi_label": "Het globale Wi-Fi-schema inschakelen",
-    "enable_guest_wifi_label": "Het gastennetwerk-Wi-Fi-schema inschakelen",
-    "host_wifi_title": "Globale Wi-Fi",
-    "guest_wifi_title": "Gasten-Wi-Fi",
-    "switch_label": "Configuratie",
-    "switch_time_label": "Omschakelen",
-    "restore_label": "Configuratie",
-    "restore_time_label": "Terugzetten",
-    "enable_scheduled_label": "Activeren",
-    "led_title": "LED-tijdsschema",
-    "wifi_title": "$$$$ Wi-Fi-statusschema",
-    "lcd_title": "LCD-weergaveplanning"
-  },
-  "wifi": {
-    "switch_tx_power_label": "{band} Wi-Fi Tx-vermogen schakelen",
-    "schedule_settings_title": "Schema-instellingen",
-    "off_on_label": "{offTime} Uit, {onTime} Aan",
-    "add_schedule_title": "Schema toevoegen",
-    "set_schedule_title": "Schema aanpassen",
-    "off_common_title": "{label} Uit",
-    "on_time_label": "Wi-Fi Aan-tijd",
-    "schedule_title": "Wi-Fi Schema",
-    "off_time_info_tip": "Wi-Fi Uit: {start} - {end}",
-    "off_time_label": "Wi-Fi Uit-tijd",
-    "on_off_task_enabled_tips": "Wi-Fi-planning voor {label} is ingeschakeld. Beheer schema's in {page}.",
-    "main_and_guest_wifi_label": "Hoofd- en gast-Wi-Fi",
-    "off_next_on_label": "{offTime} Uit, Volgende Dag {onTime} Aan"
-  },
-  "time": {
-    "next_day_label": "Volgende dag",
-    "on_off_run_tips": "De Wi-Fi-status verandert alleen aan het begin en het einde van het schema."
-  }
+    "menu_timedtask": "Geplande taken",
+    "timedtask": {
+        "wifi_turn_onoff_label": "Inschakelen / uitschakelen",
+        "desc": "Als het apparaat op de ingestelde is uitgeschakeld, wordt de taak niet uitgevoerd.",
+        "on_time_label": "Opstarttijd",
+        "off_time_label": "Uitschakelingstijd",
+        "reboot_title": "Geplande herstart",
+        "reboot_time_label": "Herstarttijd",
+        "wifi_mode_label": "Geplande Wi-Fi-modus",
+        "wifi_power_switch_label": "TX-vermogen verwisselen",
+        "enable_wifi_label": "Het globale Wi-Fi-schema inschakelen",
+        "enable_guest_wifi_label": "Het gastennetwerk-Wi-Fi-schema inschakelen",
+        "host_wifi_title": "Globale Wi-Fi",
+        "guest_wifi_title": "Gasten-Wi-Fi",
+        "switch_label": "Configuratie",
+        "switch_time_label": "Omschakelen",
+        "restore_label": "Configuratie",
+        "restore_time_label": "Terugzetten",
+        "enable_scheduled_label": "Activeren",
+        "led_title": "LED-tijdsschema",
+        "wifi_title": "$$$$ Wi-Fi-statusschema",
+        "lcd_title": "LCD-weergaveplanning",
+        "enable_wifi_schedule_label": "{wifi}-schema inschakelen"
+    },
+    "wifi": {
+        "switch_tx_power_label": "{band} Wi-Fi Tx-vermogen schakelen",
+        "schedule_settings_title": "Schema-instellingen",
+        "off_on_label": "{offTime} Uit, {onTime} Aan",
+        "add_schedule_title": "Schema toevoegen",
+        "set_schedule_title": "Schema aanpassen",
+        "off_common_title": "{label} Uit",
+        "on_time_label": "Wi-Fi Aan-tijd",
+        "schedule_title": "Wi-Fi Schema",
+        "off_time_info_tip": "Wi-Fi Uit: {start} - {end}",
+        "off_time_label": "Wi-Fi Uit-tijd",
+        "on_off_task_enabled_tips": "Wi-Fi-planning voor {label} is ingeschakeld. Beheer schema's in {page}.",
+        "main_and_guest_wifi_label": "Hoofd- en gast-Wi-Fi",
+        "off_next_on_label": "{offTime} Uit, Volgende Dag {onTime} Aan"
+    },
+    "time": {
+        "next_day_label": "Volgende dag",
+        "on_off_run_tips": "De Wi-Fi-status verandert alleen aan het begin en het einde van het schema."
+    }
 }
