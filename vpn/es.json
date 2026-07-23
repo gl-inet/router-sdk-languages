@@ -446,7 +446,9 @@
         "account_disabled_msg": "Su cuenta ha sido desactivada. Póngase en contacto con el soporte de XVPN.",
         "device_token_expired_msg": "El token no es válido. Inicie sesión de nuevo para restaurar su conexión.",
         "credentials_changed_msg": "Sus credenciales han cambiado. Inicie sesión de nuevo.",
-        "device_bind_failed_msg": "No se puede vincular este router a su cuenta. Compruebe su conexión de red e inténtelo de nuevo."
+        "device_bind_failed_msg": "No se puede vincular este router a su cuenta. Compruebe su conexión de red e inténtelo de nuevo.",
+        "password_must_contain_uppercase_and_lowercase_msg": "La contraseña debe contener al menos una letra mayúscula y una minúscula.",
+        "password_must_contain_symbol_msg": "La contraseña debe contener al menos un símbolo."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Agregue el cliente a la lista de túneles basada en políticas VPN. Si desea realizar cambios más detallados en los túneles, vaya a la {page} para gestionar los túneles.",
