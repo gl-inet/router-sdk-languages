@@ -446,7 +446,9 @@
         "account_disabled_msg": "Il tuo account è stato disattivato. Contatta l'assistenza XVPN.",
         "device_token_expired_msg": "Il token non è valido. Accedi di nuovo per ripristinare la connessione.",
         "credentials_changed_msg": "Le tue credenziali sono state modificate. Accedi di nuovo.",
-        "device_bind_failed_msg": "Impossibile associare questo router al tuo account. Controlla la connessione di rete e riprova."
+        "device_bind_failed_msg": "Impossibile associare questo router al tuo account. Controlla la connessione di rete e riprova.",
+        "password_must_contain_uppercase_and_lowercase_msg": "La password deve contenere almeno una lettera maiuscola e una minuscola.",
+        "password_must_contain_symbol_msg": "La password deve contenere almeno un simbolo."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Aggiungi il client all'elenco dei tunnel basati sulla politica VPN. Se desideri apportare modifiche più dettagliate ai tunnel, vai alla {page} per gestire i tunnel.",
