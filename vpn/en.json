@@ -446,7 +446,9 @@
         "credentials_changed_msg": "Your credentials have been changed. Please log in again.",
         "account_disabled_msg": "Your account has been deactivated. Please reach out to XVPN support.",
         "device_token_expired_msg": "Token is invalid. Please log in again to restore your connection.",
-        "device_bind_failed_msg": "Unable to bind this router to your account. Please check your network connection and try again."
+        "device_bind_failed_msg": "Unable to bind this router to your account. Please check your network connection and try again.",
+        "password_must_contain_uppercase_and_lowercase_msg": "The password must contain at least one uppercase and one lowercase letter.",
+        "password_must_contain_symbol_msg": "The password must contain at least one symbol."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Use VPN Tunnel",
