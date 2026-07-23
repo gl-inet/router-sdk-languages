@@ -446,7 +446,9 @@
         "device_token_expired_msg": "토큰이 유효하지 않습니다. 연결을 복원하려면 다시 로그인하세요.",
         "device_bind_failed_msg": "이 라우터를 계정에 바인딩할 수 없습니다. 네트워크 연결을 확인한 후 다시 시도하세요.",
         "premium_account_required_msg": "프리미엄 구독이 필요합니다. 라이선스를 갱신하세요.",
-        "account_disabled_msg": "계정이 비활성화되었습니다. XVPN 지원팀에 문의하세요."
+        "account_disabled_msg": "계정이 비활성화되었습니다. XVPN 지원팀에 문의하세요.",
+        "password_must_contain_uppercase_and_lowercase_msg": "비밀번호에는 대문자와 소문자가 각각 하나 이상 포함되어야 합니다.",
+        "password_must_contain_symbol_msg": "비밀번호에는 기호가 하나 이상 포함되어야 합니다."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN 정책 기반 터널 목록에 클라이언트를 추가하십시오. 터널에 대한 더 자세한 변경을 하고 싶다면 {page}로 이동하여 터널을 관리하십시오.",
