@@ -446,7 +446,9 @@
         "credentials_changed_msg": "您的凭据已更改。请重新登录。",
         "account_disabled_msg": "您的账号已被停用。请联系 XVPN 支持。",
         "device_token_expired_msg": "令牌无效。请重新登录以恢复连接。",
-        "device_bind_failed_msg": "无法将此路由器绑定到您的账号。请检查网络连接并重试。"
+        "device_bind_failed_msg": "无法将此路由器绑定到您的账号。请检查网络连接并重试。",
+        "password_must_contain_uppercase_and_lowercase_msg": "密码必须包含至少一个大写字母和一个小写字母。",
+        "password_must_contain_symbol_msg": "密码必须包含至少一个符号。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "将客户端添加到 VPN 策略基础的隧道列表中。如果您想对隧道进行更详细的更改，请前往{page}管理隧道。",
