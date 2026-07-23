@@ -446,7 +446,9 @@
         "credentials_changed_msg": "A hitelesítő adatai megváltoztak. Kérjük, jelentkezzen be újra.",
         "account_disabled_msg": "A fiókja deaktiválva lett. Kérjük, forduljon az XVPN ügyfélszolgálatához.",
         "device_token_expired_msg": "A token érvénytelen. Kérjük, jelentkezzen be újra a kapcsolat helyreállításához.",
-        "device_bind_failed_msg": "Nem sikerült ezt az útválasztót a fiókjához kötni. Kérjük, ellenőrizze a hálózati kapcsolatot, majd próbálja újra."
+        "device_bind_failed_msg": "Nem sikerült ezt az útválasztót a fiókjához kötni. Kérjük, ellenőrizze a hálózati kapcsolatot, majd próbálja újra.",
+        "password_must_contain_uppercase_and_lowercase_msg": "A jelszónak legalább egy nagybetűt és egy kisbetűt kell tartalmaznia.",
+        "password_must_contain_symbol_msg": "A jelszónak legalább egy speciális karaktert kell tartalmaznia."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN politikákon alapuló alagút listához ügyfél hozzáadása. Ha részletesebb változtatásokat szeretne végrehajtani az alagutakon, kérjük, látogasson el a {page} oldalra az alagutak kezeléséhez.",
