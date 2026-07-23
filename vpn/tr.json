@@ -441,7 +441,9 @@
         "device_token_expired_msg": "Token geçersiz. Bağlantınızı geri yüklemek için lütfen tekrar oturum açın.",
         "device_bind_failed_msg": "Bu yönlendirici hesabınıza bağlanamıyor. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin.",
         "premium_account_required_msg": "Premium abonelik gereklidir. Lütfen lisansınızı yenileyin.",
-        "account_disabled_msg": "Hesabınız devre dışı bırakıldı. Lütfen XVPN destek ekibiyle iletişime geçin."
+        "account_disabled_msg": "Hesabınız devre dışı bırakıldı. Lütfen XVPN destek ekibiyle iletişime geçin.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Parola en az bir büyük ve bir küçük harf içermelidir.",
+        "password_must_contain_symbol_msg": "Parola en az bir sembol içermelidir."
     },
     "vpn_tunnel": {
         "select_config_tip_label": "Lütfen bir yapılandırma dosyası seçin",
