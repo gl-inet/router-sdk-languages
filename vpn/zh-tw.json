@@ -446,7 +446,9 @@
         "account_disabled_msg": "您的帳戶已停用。請聯絡 XVPN 支援。",
         "device_token_expired_msg": "權杖無效。請重新登入以恢復連線。",
         "device_bind_failed_msg": "無法將此路由器綁定到您的帳戶。請檢查網路連線後再試一次。",
-        "premium_account_required_msg": "需要 Premium 訂閱。請續訂您的授權。"
+        "premium_account_required_msg": "需要 Premium 訂閱。請續訂您的授權。",
+        "password_must_contain_uppercase_and_lowercase_msg": "密碼必須包含至少一個大寫字母和一個小寫字母。",
+        "password_must_contain_symbol_msg": "密碼必須包含至少一個符號。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "使用 VPN 隧道",
