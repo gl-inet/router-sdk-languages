@@ -446,7 +446,9 @@
         "account_disabled_msg": "Jūsų paskyra buvo išaktyvinta. Susisiekite su XVPN palaikymo tarnyba.",
         "device_token_expired_msg": "Žetonas negalioja. Prisijunkite dar kartą, kad atkurtumėte ryšį.",
         "device_bind_failed_msg": "Nepavyko pririšti šio maršrutizatoriaus prie jūsų paskyros. Patikrinkite tinklo ryšį ir bandykite dar kartą.",
-        "credentials_changed_msg": "Jūsų prisijungimo duomenys buvo pakeisti. Prisijunkite dar kartą."
+        "credentials_changed_msg": "Jūsų prisijungimo duomenys buvo pakeisti. Prisijunkite dar kartą.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Slaptažodyje turi būti bent viena didžioji ir viena mažoji raidė.",
+        "password_must_contain_symbol_msg": "Slaptažodyje turi būti bent vienas simbolis."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Pridėkite klientą į „VPN“ politikos pagrindu veikiančių tunelių sąrašą. Jei norite atlikti išsamesnius pakeitimus tuneliuose, prašome eiti į {page}, kad tvarkytumėte tunelius.",
