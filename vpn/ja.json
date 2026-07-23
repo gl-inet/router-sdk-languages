@@ -446,7 +446,9 @@
         "account_disabled_msg": "アカウントが無効化されています。XVPN サポートにお問い合わせください。",
         "device_token_expired_msg": "トークンが無効です。接続を復元するには、再度ログインしてください。",
         "credentials_changed_msg": "認証情報が変更されました。再度ログインしてください。",
-        "device_bind_failed_msg": "このルーターをアカウントに紐付けできません。ネットワーク接続を確認して、もう一度お試しください。"
+        "device_bind_failed_msg": "このルーターをアカウントに紐付けできません。ネットワーク接続を確認して、もう一度お試しください。",
+        "password_must_contain_uppercase_and_lowercase_msg": "パスワードには、大文字と小文字をそれぞれ少なくとも1文字含める必要があります。",
+        "password_must_contain_symbol_msg": "パスワードには、少なくとも1つの記号を含める必要があります。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPNポリシーに基づいたトンネルリストにクライアントを追加してください。トンネルに対してより詳細な変更を行いたい場合は、{page}にアクセスしてトンネルを管理してください。",
