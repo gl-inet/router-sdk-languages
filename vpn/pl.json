@@ -446,7 +446,9 @@
         "device_token_expired_msg": "Token jest nieprawidłowy. Zaloguj się ponownie, aby przywrócić połączenie.",
         "device_bind_failed_msg": "Nie można powiązać tego rutera z Twoim kontem. Sprawdź połączenie sieciowe i spróbuj ponownie.",
         "premium_account_required_msg": "Wymagana jest subskrypcja Premium. Odnów licencję.",
-        "account_disabled_msg": "Twoje konto zostało dezaktywowane. Skontaktuj się z pomocą techniczną XVPN."
+        "account_disabled_msg": "Twoje konto zostało dezaktywowane. Skontaktuj się z pomocą techniczną XVPN.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Hasło musi zawierać co najmniej jedną wielką i jedną małą literę.",
+        "password_must_contain_symbol_msg": "Hasło musi zawierać co najmniej jeden symbol."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Dodaj klienta do listy tuneli zasad polityki VPN. Jeśli chcesz dokonać bardziej szczegółowych zmian w tunelach, przejdź do {page}, aby zarządzać tunelami.",
