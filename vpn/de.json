@@ -446,7 +446,9 @@
         "credentials_changed_msg": "Ihre Anmeldedaten wurden geändert. Bitte melden Sie sich erneut an.",
         "account_disabled_msg": "Ihr Konto wurde deaktiviert. Bitte wenden Sie sich an den XVPN-Support.",
         "device_token_expired_msg": "Das Token ist ungültig. Bitte melden Sie sich erneut an, um Ihre Verbindung wiederherzustellen.",
-        "device_bind_failed_msg": "Dieser Router kann nicht mit Ihrem Konto verknüpft werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut."
+        "device_bind_failed_msg": "Dieser Router kann nicht mit Ihrem Konto verknüpft werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Das Kennwort muss mindestens einen Großbuchstaben und einen Kleinbuchstaben enthalten.",
+        "password_must_contain_symbol_msg": "Das Kennwort muss mindestens ein Symbol enthalten."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Verwenden Sie den VPN-Tunnel",
