@@ -394,7 +394,12 @@
         "expressvpn_custom_credentials_error": "验证失败。凭据无效或已激活，无法重复使用。",
         "expressvpn_custom_glinet_order_placeholder": "例如 GL-1234",
         "number_allowed_devices_label": "允许的设备数量",
-        "wg_xvpn_limit_tips": "该账号已达到关联设备数量上限。请前往 {provider} 解绑一台设备。"
+        "wg_xvpn_limit_tips": "该账号已达到关联设备数量上限。请前往 {provider} 解绑一台设备。",
+        "expressvpn_custom_welcome_title": "兑换您的免费 ExpressVPN 订阅",
+        "expressvpn_custom_welcome_subscription_desc": "您的新 Fortify 路由器附带 {subscription}",
+        "expressvpn_custom_welcome_subscription": "免费 12 个月 ExpressVPN Advanced 订阅。",
+        "expressvpn_custom_welcome_activation_desc": "要激活该订阅，GL.iNet Cloud 会先验证您的硬件和订单资格，然后将您转至 ExpressVPN，在浏览器中完成促销结账——您今天无需支付任何费用。",
+        "expressvpn_custom_welcome_offer_note": "优惠适用于 ExpressVPN 新客户和回归客户，其中“回归”是指您当前没有有效订阅。"
     },
     "menu_wgserver": "WireGuard 服务器",
     "menu_ovpnserver": "OpenVPN 服务器",
