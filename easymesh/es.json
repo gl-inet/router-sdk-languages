@@ -214,7 +214,9 @@
         "add_mesh_node_by_wifi_scan": "Añadir nodo Mesh mediante escaneo Wi-Fi",
         "ethernet_backhaul_prepare_tips": "Conecte el puerto WAN del nodo encendido al router principal mediante un cable Ethernet. El sistema se configurará automáticamente.",
         "ethernet_backhaul_instruction_title": "Conecte el nodo Mesh mediante un cable Ethernet para crear una red Backhaul Ethernet estable.",
-        "ethernet_backhaul_step_one": "1. Encienda el nodo Mesh de destino."
+        "ethernet_backhaul_step_one": "1. Encienda el nodo Mesh de destino.",
+        "join_by_wifi_scan_new_tips": "Acceda al panel de administración de su router principal y utilice la opción \"Escaneo Wi-Fi\" en el menú AstroMesh para añadir un nodo Mesh.",
+        "join_by_ethernet_cable_new_tips": "Conecte el puerto WAN del nodo Mesh al router principal mediante un cable Ethernet para configurar automáticamente una red de retorno Ethernet."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
