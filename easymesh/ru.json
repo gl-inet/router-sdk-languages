@@ -214,7 +214,9 @@
         "ethernet_backhaul_title": "Транзитное подключение Ethernet",
         "ethernet_backhaul_prepare_tips": "Подключите WAN-порт включенного узла к основному маршрутизатору с помощью Ethernet-кабеля. Система выполнит автоматическую настройку.",
         "ethernet_cable_label": "Ethernet-кабель",
-        "ethernet_backhaul_instruction_title": "Подключите узел Mesh с помощью Ethernet-кабеля, чтобы создать стабильную сеть транзитного подключения Ethernet."
+        "ethernet_backhaul_instruction_title": "Подключите узел Mesh с помощью Ethernet-кабеля, чтобы создать стабильную сеть транзитного подключения Ethernet.",
+        "join_by_ethernet_cable_new_tips": "Подключите WAN-порт Mesh-узла к основному роутеру с помощью Ethernet-кабеля, чтобы автоматически настроить сеть Ethernet Backhaul.",
+        "join_by_wifi_scan_new_tips": "Откройте панель администратора основного роутера и используйте опцию «Сканирование беспроводной сети» в меню AstroMesh, чтобы добавить Mesh-узел."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
