@@ -214,7 +214,9 @@
         "ethernet_cable_label": "Câble Ethernet",
         "ethernet_backhaul_instruction_title": "Connectez le nœud Mesh à l’aide d’un câble Ethernet pour créer un réseau de liaison de retour Ethernet stable.",
         "ethernet_backhaul_step_two": "2. Branchez une extrémité d’un câble Ethernet sur le {wan} du nœud Mesh cible, et l’autre extrémité sur le {lan} du routeur principal.",
-        "ethernet_backhaul_step_three": "3. Le système détectera automatiquement le nœud Mesh et terminera la configuration."
+        "ethernet_backhaul_step_three": "3. Le système détectera automatiquement le nœud Mesh et terminera la configuration.",
+        "join_by_wifi_scan_new_tips": "Veuillez accéder au panneau d’administration de votre routeur principal et utiliser l’option « Analyse Wi-Fi » dans le menu AstroMesh pour ajouter un nœud Mesh.",
+        "join_by_ethernet_cable_new_tips": "Connectez le port WAN du nœud Mesh au routeur principal à l’aide d’un câble Ethernet pour configurer automatiquement un réseau de liaison de retour Ethernet."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
