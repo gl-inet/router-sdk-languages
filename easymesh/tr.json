@@ -214,7 +214,9 @@
         "ethernet_backhaul_title": "Ethernet Backhaul",
         "ethernet_backhaul_desc": "Ethernet Backhaul da desteklenir.",
         "ethernet_backhaul_prepare_tips": "Açık durumdaki düğümün WAN portunu Ethernet kablosuyla ana yönlendiriciye bağlayın. Sistem otomatik olarak yapılandırılacaktır.",
-        "ethernet_cable_label": "Ethernet Kablosu"
+        "ethernet_cable_label": "Ethernet Kablosu",
+        "join_by_wifi_scan_new_tips": "Ana Yönlendiricinizin yönetici paneline erişin ve Mesh Node eklemek için AstroMesh menüsündeki \"Wi-Fi Scan\" seçeneğini kullanın.",
+        "join_by_ethernet_cable_new_tips": "Ethernet Backhaul ağını otomatik olarak yapılandırmak için Mesh Node'un WAN bağlantı noktasını bir Ethernet kablosu kullanarak Ana Yönlendiriciye bağlayın."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
