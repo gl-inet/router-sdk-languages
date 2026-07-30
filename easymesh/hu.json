@@ -214,7 +214,9 @@
         "wifi_scan_prepare_tips": "Keresés előtt győződjön meg arról, hogy az új csomópont be van kapcsolva, készen áll a párosításra, és a fő router Wi-Fi lefedettségén belül van elhelyezve.",
         "start_scanning_btn": "Keresés indítása",
         "ethernet_cable_label": "Ethernet-kábel",
-        "ethernet_backhaul_instruction_title": "Csatlakoztassa a Mesh csomópontot Ethernet-kábellel egy stabil Ethernet backhaul hálózat létrehozásához."
+        "ethernet_backhaul_instruction_title": "Csatlakoztassa a Mesh csomópontot Ethernet-kábellel egy stabil Ethernet backhaul hálózat létrehozásához.",
+        "join_by_wifi_scan_new_tips": "Nyissa meg a fő router adminisztrációs felületét, és az AstroMesh menü „Wi-Fi keresés” opciójával adjon hozzá Mesh csomópontot.",
+        "join_by_ethernet_cable_new_tips": "Csatlakoztassa a Mesh csomópont WAN-portját a fő routerhez Ethernet-kábellel az Ethernet Backhaul hálózat automatikus konfigurálásához."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
