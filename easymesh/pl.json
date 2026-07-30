@@ -214,7 +214,9 @@
         "ethernet_backhaul_desc": "Ethernet Backhaul jest również obsługiwany.",
         "ethernet_cable_label": "Kabel Ethernet",
         "ethernet_backhaul_instruction_title": "Podłącz węzeł Mesh za pomocą kabla Ethernet, aby utworzyć stabilną sieć Ethernet Backhaul.",
-        "ethernet_backhaul_step_two": "2. Podłącz jeden koniec kabla Ethernet do portu {wan} docelowego węzła Mesh, a drugi koniec do portu {lan} Rutera głównego."
+        "ethernet_backhaul_step_two": "2. Podłącz jeden koniec kabla Ethernet do portu {wan} docelowego węzła Mesh, a drugi koniec do portu {lan} Rutera głównego.",
+        "join_by_wifi_scan_new_tips": "Uzyskaj dostęp do panelu administracyjnego głównego rutera i użyj opcji „Skanowanie Wi-Fi” w menu AstroMesh, aby dodać węzeł Mesh.",
+        "join_by_ethernet_cable_new_tips": "Podłącz port WAN węzła Mesh do głównego rutera za pomocą kabla Ethernet, aby automatycznie skonfigurować sieć Ethernet Backhaul."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
