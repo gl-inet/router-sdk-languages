@@ -214,7 +214,9 @@
         "ethernet_backhaul_instruction_title": "Connect Mesh Node using an Ethernet cable to build a stable Ethernet Backhaul network.",
         "ethernet_backhaul_step_one": "1. Power on the target Mesh Node.",
         "ethernet_backhaul_step_two": "2. Plug one end of an Ethernet cable into the {wan} of the target Mesh Node, and the other end into the {lan} of the Main Router.",
-        "ethernet_backhaul_step_three": "3. The system will automatically detect the Mesh Node and complete the configuration."
+        "ethernet_backhaul_step_three": "3. The system will automatically detect the Mesh Node and complete the configuration.",
+        "join_by_wifi_scan_new_tips": "Please access your Main Router's admin panel and use the \"Wi-Fi Scan\" option on the AstroMesh menu to add Mesh Node.",
+        "join_by_ethernet_cable_new_tips": "Connect the Mesh Node's WAN port to the Main Router using an Ethernet cable to automatically configure an Ethernet Backhaul network."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
