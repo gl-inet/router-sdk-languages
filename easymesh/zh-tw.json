@@ -214,7 +214,9 @@
         "add_mesh_node_title": "新增 Mesh 節點",
         "ethernet_backhaul_title": "乙太網路回程",
         "ethernet_backhaul_prepare_tips": "透過乙太網路線將已開機節點的 WAN 連接埠連接到主路由器。系統將自動設定。",
-        "ethernet_backhaul_instruction_title": "使用乙太網路線連接 Mesh 節點，以建立穩定的乙太網路回程網路。"
+        "ethernet_backhaul_instruction_title": "使用乙太網路線連接 Mesh 節點，以建立穩定的乙太網路回程網路。",
+        "join_by_wifi_scan_new_tips": "請訪問您的主路由器管理面板，並使用 AstroMesh 選單中的「Wi-Fi 掃描」選項新增 Mesh 節點。",
+        "join_by_ethernet_cable_new_tips": "使用乙太網路線將 Mesh 節點的 WAN 埠連接到主路由器，以自動設定乙太網路回程網路。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
