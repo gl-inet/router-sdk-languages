@@ -214,7 +214,9 @@
         "ethernet_backhaul_prepare_tips": "電源が入ったノードのWANポートを、イーサネットケーブルでメインルーターに接続します。システムが自動設定します。",
         "ethernet_cable_label": "イーサネットケーブル",
         "ethernet_backhaul_instruction_title": "イーサネットケーブルを使用してメッシュノードを接続し、安定したイーサネットバックホールネットワークを構築します。",
-        "ethernet_backhaul_step_two": "2. Ethernetケーブルの一端をターゲットMeshノードの{wan}に接続し、もう一端をメインルーターの{lan}に接続します。"
+        "ethernet_backhaul_step_two": "2. Ethernetケーブルの一端をターゲットMeshノードの{wan}に接続し、もう一端をメインルーターの{lan}に接続します。",
+        "join_by_wifi_scan_new_tips": "メインルーターの管理パネルにアクセスし、AstroMeshメニューの「Wi-Fiスキャン」オプションを使用してメッシュノードを追加してください。",
+        "join_by_ethernet_cable_new_tips": "イーサネットケーブルを使用してメッシュノードのWANポートをメインルーターに接続すると、イーサネットバックホールネットワークが自動的に設定されます。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
