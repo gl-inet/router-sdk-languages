@@ -214,7 +214,9 @@
         "wifi_scan_prepare_tips": "Stellen Sie vor dem Scannen sicher, dass der neue Knoten eingeschaltet, zur Kopplung bereit und innerhalb der WLAN-Abdeckung des Hauptrouters platziert ist.",
         "ethernet_backhaul_prepare_tips": "Verbinden Sie den WAN-Port des eingeschalteten Knotens per Ethernet-Kabel mit dem Hauptrouter. Das System konfiguriert sich automatisch.",
         "ethernet_backhaul_instruction_title": "Verbinden Sie den Mesh-Knoten über ein Ethernet-Kabel, um ein stabiles Ethernet-Backhaul-Netzwerk aufzubauen.",
-        "ethernet_backhaul_step_one": "1. Schalten Sie den Ziel-Mesh-Knoten ein."
+        "ethernet_backhaul_step_one": "1. Schalten Sie den Ziel-Mesh-Knoten ein.",
+        "join_by_wifi_scan_new_tips": "Rufen Sie das Admin-Panel Ihres Hauptrouters auf und verwenden Sie die Option „WLAN-Scan“ im AstroMesh-Menü, um einen Mesh-Knoten hinzuzufügen.",
+        "join_by_ethernet_cable_new_tips": "Verbinden Sie den WAN-Port des Mesh-Knotens über ein Ethernet-Kabel mit dem Hauptrouter, um automatisch ein Ethernet-Backhaul-Netzwerk zu konfigurieren."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
