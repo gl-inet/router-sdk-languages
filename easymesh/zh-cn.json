@@ -214,7 +214,9 @@
         "add_astro_node_desc": "远程代码配对仅适用于 Astro 节点。请确保 Astro 节点已开机并连接到互联网，然后在 Astro 节点页面输入其 8 位配对码以完成设置。",
         "add_mesh_node_title": "添加 Mesh 节点",
         "ethernet_backhaul_title": "以太网回程",
-        "ethernet_backhaul_prepare_tips": "使用以太网线缆将已开机节点的 WAN 端口连接到主路由器。系统将自动配置。"
+        "ethernet_backhaul_prepare_tips": "使用以太网线缆将已开机节点的 WAN 端口连接到主路由器。系统将自动配置。",
+        "join_by_ethernet_cable_new_tips": "使用以太网线将 Mesh 节点的 WAN 端口连接到主路由器，以自动配置以太网回程网络。",
+        "join_by_wifi_scan_new_tips": "请访问主路由器的管理面板，并使用 AstroMesh 菜单中的“Wi-Fi 扫描”选项添加 Mesh 节点。"
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
