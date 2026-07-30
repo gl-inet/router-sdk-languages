@@ -214,7 +214,9 @@
         "ethernet_backhaul_title": "이더넷 백홀",
         "ethernet_backhaul_prepare_tips": "전원이 켜진 노드의 WAN 포트를 이더넷 케이블로 메인 라우터에 연결하세요. 시스템이 자동으로 구성됩니다.",
         "ethernet_cable_label": "이더넷 케이블",
-        "ethernet_backhaul_instruction_title": "이더넷 케이블을 사용하여 메시 노드를 연결하고 안정적인 이더넷 백홀 네트워크를 구축합니다."
+        "ethernet_backhaul_instruction_title": "이더넷 케이블을 사용하여 메시 노드를 연결하고 안정적인 이더넷 백홀 네트워크를 구축합니다.",
+        "join_by_wifi_scan_new_tips": "메인 라우터의 관리자 패널에 접속한 후 AstroMesh 메뉴의 \"Wi-Fi Scan\" 옵션을 사용하여 메시 노드를 추가하세요.",
+        "join_by_ethernet_cable_new_tips": "이더넷 케이블을 사용하여 메시 노드의 WAN 포트를 메인 라우터에 연결하면 이더넷 백홀 네트워크가 자동으로 구성됩니다."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
