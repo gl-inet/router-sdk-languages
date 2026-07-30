@@ -214,7 +214,9 @@
         "wifi_scan_prepare_tips": "Перед скануванням переконайтеся, що новий вузол увімкнено, готовий до сполучення та розміщений у зоні покриття Wi-Fi основного маршрутизатора.",
         "ethernet_backhaul_title": "Транзитне з’єднання Ethernet",
         "ethernet_backhaul_prepare_tips": "Підключіть WAN-порт увімкненого вузла до основного маршрутизатора за допомогою Ethernet-кабелю. Система налаштується автоматично.",
-        "ethernet_backhaul_step_two": "2. Підключіть один кінець Ethernet-кабелю до {wan} цільового вузла Mesh, а інший — до {lan} головного маршрутизатора."
+        "ethernet_backhaul_step_two": "2. Підключіть один кінець Ethernet-кабелю до {wan} цільового вузла Mesh, а інший — до {lan} головного маршрутизатора.",
+        "join_by_wifi_scan_new_tips": "Відкрийте панель адміністратора головного маршрутизатора та скористайтеся опцією \"Wi-Fi Scan\" у меню AstroMesh, щоб додати вузол Mesh.",
+        "join_by_ethernet_cable_new_tips": "Підключіть WAN-порт вузла Mesh до головного маршрутизатора за допомогою Ethernet-кабелю, щоб автоматично налаштувати мережу Ethernet Backhaul."
     },
     "menu_astromesh": "AstroMesh",
     "astronode": {
