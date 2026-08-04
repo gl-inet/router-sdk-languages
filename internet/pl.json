@@ -400,7 +400,9 @@
         "network_type_conflicts_tips": "Bieżący typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci funkcji {feature}.",
         "low_power_mode_only_tips": "Urządzenie jest w trybie niskiego zużycia energii.",
         "network_type_lock_tower_tips": "Jeśli zablokujesz Tower, typ sieci zostanie ustalony i nie będzie można go zmienić.",
-        "rescan_label": "Skanuj ponownie"
+        "rescan_label": "Skanuj ponownie",
+        "slot_inactive_tips": "Slot nieaktywny. Jeśli karta SIM jest włożona, przełącz ręcznie, aby aktywować ten slot.",
+        "sim_slot_label": "Slot SIM {slot}"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
