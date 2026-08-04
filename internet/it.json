@@ -328,7 +328,9 @@
         "network_type_conflicts_tips": "Il tipo di rete della scheda SIM attuale è {networkType}, in conflitto con il tipo di rete di {feature}.",
         "low_power_mode_only_tips": "Il dispositivo è in modalità a basso consumo.",
         "network_type_lock_tower_tips": "Se blocchi la Tower, il tipo di rete sarà fisso e non potrà essere modificato.",
-        "rescan_label": "Ripeti scansione"
+        "rescan_label": "Ripeti scansione",
+        "slot_inactive_tips": "Slot inattivo. Se è inserita una scheda SIM, passa manualmente per attivare questo slot.",
+        "sim_slot_label": "Slot SIM {slot}"
     },
     "router_visual": {
         "wlan_client": "Client WLAN",
