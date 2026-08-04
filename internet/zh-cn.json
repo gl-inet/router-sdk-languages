@@ -328,7 +328,9 @@
         "network_type_conflicts_tips": "当前 SIM 卡网络类型为{networkType}，与{feature}网络类型冲突。",
         "low_power_mode_only_tips": "设备处于低功耗模式。",
         "network_type_lock_tower_tips": "若锁定基站，网络类型将被固定且无法更改。",
-        "rescan_label": "重新扫描"
+        "rescan_label": "重新扫描",
+        "slot_inactive_tips": "卡槽未激活。如果已插入 SIM 卡，请手动切换以激活此卡槽。",
+        "sim_slot_label": "SIM {slot} 卡槽"
     },
     "router_visual": {
         "wlan_client": "无线客户端",
