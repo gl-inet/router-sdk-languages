@@ -2,7 +2,9 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP 設定",
-        "desc": "啟用後，UPnP 允許區域網路裝置自動建立暫時的 WAN 連接埠對應。當用戶端釋放對應或租約到期時，作用中的對應會被移除。",
+        "introduction": "功能介紹",
+        "security_risks": "安全風險",
+        "desc": "啟用後，UPnP 允許區域網路裝置自動建立暫時的 WAN 連接埠對應；當用戶端釋放對應或租約到期時，作用中的對應會被移除。此功能可簡化從公用網路存取本機網路服務的流程，無需手動設定連接埠轉送。",
         "allowed_clients_wan_ports": "允許的用戶端和 WAN 連接埠",
         "policy_tips": "允許全部會允許所有區域網路用戶端請求 WAN 連接埠對應。限制僅允許相符的用戶端和連接埠。",
         "allow_all": "允許全部",

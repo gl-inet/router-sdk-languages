@@ -2,7 +2,9 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP Configuration",
-        "desc": "When enabled, UPnP allows LAN devices to automatically create temporary WAN port mappings. Active mappings are removed when the client releases them or the lease expires.",
+        "introduction": "Introduction",
+        "security_risks": "Security Risks",
+        "desc": "When enabled, UPnP allows LAN devices to automatically create temporary WAN port mappings; active mappings will be removed once the client releases them or the lease expires. This feature simplifies remote access to local network services, eliminating the need for manual port forwarding configurations.",
         "allowed_clients_wan_ports": "Allowed Clients and WAN Ports",
         "policy_tips": "Allow All permits all LAN clients to request WAN port mappings. Restrict only permits matching clients and ports.",
         "allow_all": "Allow All",

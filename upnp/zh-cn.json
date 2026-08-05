@@ -2,7 +2,9 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP 配置",
-        "desc": "启用后，UPnP 允许局域网设备自动创建临时 WAN 端口映射。当客户端释放映射或租约到期时，活动映射会被移除。",
+        "introduction": "功能介绍",
+        "security_risks": "安全风险",
+        "desc": "启用后，UPnP 允许局域网设备自动创建临时 WAN 端口映射；当客户端释放映射或租约到期时，活动映射会被移除。此功能可简化从公网访问本地网络服务的过程，无需手动配置端口转发。",
         "allowed_clients_wan_ports": "允许的客户端和 WAN 端口",
         "policy_tips": "允许所有会允许所有局域网客户端请求 WAN 端口映射。限制仅允许匹配的客户端和端口。",
         "allow_all": "允许所有",

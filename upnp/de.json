@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP-Konfiguration",
+        "introduction": "Einführung",
+        "security_risks": "Sicherheitsrisiken",
         "desc": "Wenn aktiviert, erlaubt UPnP LAN-Geräten, automatisch temporäre WAN-Portzuordnungen zu erstellen. Aktive Zuordnungen werden entfernt, wenn der Client sie freigibt oder die Lease abläuft.",
         "allowed_clients_wan_ports": "Erlaubte Clients und WAN-Ports",
         "policy_tips": "Alle erlauben gestattet allen LAN-Clients, WAN-Portzuordnungen anzufordern. Einschränken erlaubt nur passende Clients und Ports.",

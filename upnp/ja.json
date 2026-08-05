@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP 設定",
+        "introduction": "はじめに",
+        "security_risks": "セキュリティリスク",
         "desc": "有効にすると、UPnP により LAN デバイスは一時的な WAN ポートマッピングを自動的に作成できます。アクティブなマッピングは、クライアントが解放したとき、またはリース期限が切れたときに削除されます。",
         "allowed_clients_wan_ports": "許可されたクライアントと WAN ポート",
         "policy_tips": "すべて許可では、すべての LAN クライアントが WAN ポートマッピングを要求できます。制限では、一致するクライアントとポートのみが許可されます。",

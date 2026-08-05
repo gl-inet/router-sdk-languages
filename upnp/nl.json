@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP-configuratie",
+        "introduction": "Inleiding",
+        "security_risks": "Beveiligingsrisico's",
         "desc": "Wanneer ingeschakeld, staat UPnP LAN-apparaten toe om automatisch tijdelijke WAN-poorttoewijzingen te maken. Actieve toewijzingen worden verwijderd wanneer de client ze vrijgeeft of wanneer de lease verloopt.",
         "allowed_clients_wan_ports": "Toegestane clients en WAN-poorten",
         "policy_tips": "Alles toestaan staat alle LAN-clients toe om WAN-poorttoewijzingen aan te vragen. Beperken staat alleen overeenkomende clients en poorten toe.",

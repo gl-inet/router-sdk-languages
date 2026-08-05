@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "Configuration UPnP",
+        "introduction": "Introduction",
+        "security_risks": "Risques de sécurité",
         "desc": "Lorsqu’il est activé, UPnP permet aux appareils LAN de créer automatiquement des mappages temporaires de ports WAN. Les mappages actifs sont supprimés lorsque le client les libère ou lorsque le bail expire.",
         "allowed_clients_wan_ports": "Clients et ports WAN autorisés",
         "policy_tips": "Tout autoriser permet à tous les clients LAN de demander des mappages de ports WAN. Restreindre n’autorise que les clients et ports correspondants.",

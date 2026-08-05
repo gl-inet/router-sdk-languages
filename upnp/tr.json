@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP Yapılandırması",
+        "introduction": "Giriş",
+        "security_risks": "Güvenlik Riskleri",
         "desc": "Etkinleştirildiğinde UPnP, LAN cihazlarının geçici WAN bağlantı noktası eşlemelerini otomatik olarak oluşturmasına izin verir. Etkin eşlemeler, istemci bunları serbest bıraktığında veya kira süresi dolduğunda kaldırılır.",
         "allowed_clients_wan_ports": "İzin verilen istemciler ve WAN bağlantı noktaları",
         "policy_tips": "Tümüne İzin Ver, tüm LAN istemcilerinin WAN bağlantı noktası eşlemeleri istemesine izin verir. Kısıtla yalnızca eşleşen istemcilere ve bağlantı noktalarına izin verir.",
