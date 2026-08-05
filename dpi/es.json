@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: planificación basada en encolamiento equitativo simple con reducción básica de latencia.",
         "tips_second": "SQM afecta al tráfico que pasa a través del router como puerta de enlace, incluyendo el tráfico del Cliente VPN, pero no afecta al tráfico entrante cuando el router opera como Servidor VPN.",
         "wan_bandwidth_title": "Ancho de banda de WAN",
-        "auto_detect_btn": "Detectar automáticamente",
+        "auto_detect_btn": "Ejecutar prueba de velocidad",
         "queue_discipline_title": "Disciplina de Cola",
         "cake_tips": "Moldeado de tráfico automatico e inteligente con el mejor control general de latencia (recomendado).",
         "fq_codel_tips": "Planificación basada en encolamiento equitativo simple con reducción básica de la latencia.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "El tráfico que coincida con esta regla se le asignará la máxima prioridad, lo que garantizará que se reenvíe primero durante la congestión de la red para una experiencia fluida.",
         "speed_test_less_than_1m_tips": "El ancho de banda detectado es inferior a 1 Mbps. Introduzca el ancho de banda manualmente.",
         "speed_test_done_msg": "Detección completada",
+        "speed_test_in_progress": "Prueba de velocidad en curso. Espere...",
+        "speed_test_failed_msg": "La prueba de velocidad ha fallado. Inténtelo de nuevo más tarde.",
         "dest_port_tips": "El rango de puertos es de 1 a 65535. Puede establecer un solo puerto o un rango de puertos (p. ej., 501-510). El último número de puerto debe ser mayor que el primero. Vacío significa cualquiera.",
         "edit_advanced_qos_rule_title": "Editar regla avanzada de QoS"
     },

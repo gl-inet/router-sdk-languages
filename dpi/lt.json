@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "„fq_codel“: Paprastas ir efektyvus teisingojo eilių formavimas su paprastu delsos mažinimu.",
         "tips_second": "„SQM“ paveikia srautą, einantį per maršrutizatorių kaip tinklo tarpuvartę, įskaitant „VPN“ kliento srautą, bet nepaveikia gaunamo srauto, kai maršrutizatorius veikia kaip „VPN“ serveris.",
         "wan_bandwidth_title": "„WAN“ duomenų siuntimo srauto pralaidumas",
-        "auto_detect_btn": "Automatinis aptikimas",
+        "auto_detect_btn": "Vykdyti greičio testą",
         "queue_discipline_title": "Eilių disciplina",
         "cake_tips": "Protingas, automatinis srauto formavimas su geriausiu bendru delsos valdymu (rekomenduojamas).",
         "fq_codel_tips": "Paprastas ir efektyvus teisingųjų eilių sudarymas su paprastu delsos mažinimu.",
@@ -129,6 +129,8 @@
         "add_device_desc": "Pridėkite įrenginį, kad jam būtų suteiktas didesnis prioritetas, kai WAN ryšys yra užimtas.",
         "highest_priority_traffic_rule_tips": "Srautas, atitinkantis šią taisyklę, bus priskirtas aukščiausiam prioritetui, kad tinklo perkrovos metu jis būtų persiunčiamas pirmiausia ir veiktų sklandžiai.",
         "speed_test_done_msg": "Aptikimas baigtas",
+        "speed_test_in_progress": "Vykdomas greičio testas. Palaukite...",
+        "speed_test_failed_msg": "Greičio testas nepavyko. Bandykite dar kartą vėliau.",
         "speed_test_less_than_1m_tips": "Aptiktas duomenų siuntimo srauto pralaidumas yra mažesnis nei 1 Mbps. Įveskite duomenų siuntimo srauto pralaidumą rankiniu būdu.",
         "dest_port_tips": "Prievadų diapazonas yra nuo 1 iki 65535. Galite nustatyti vieną prievadą arba prievadų diapazoną (pvz., 501-510). Paskutinio prievado numeris turi būti didesnis už pirmojo prievado numerį. Tuščia reikšmė reiškia bet kurį.",
         "edit_advanced_qos_rule_title": "Redaguoti pažangią QoS taisyklę"

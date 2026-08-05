@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.",
         "tips_second": "SQM wpływa na ruch przechodzący przez router jako bramę, w tym na ruch klienta VPN, ale nie wpływa na ruch przychodzący, gdy router działa jako serwer VPN.",
         "wan_bandwidth_title": "Przepustowość WAN",
-        "auto_detect_btn": "Auto Detect",
+        "auto_detect_btn": "Uruchom test prędkości",
         "queue_discipline_title": "Dyscyplina Kolejkowania",
         "cake_tips": "Inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień (zalecane).",
         "fq_codel_tips": "Proste i wydajne kolejkowanie sprawiedliwe z podstawową redukcją opóźnień.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "Ruch pasujący do tej reguły otrzyma najwyższy priorytet, dzięki czemu będzie przekazywany w pierwszej kolejności podczas przeciążenia sieci, zapewniając płynne działanie.",
         "speed_test_less_than_1m_tips": "Wykryta przepustowość jest mniejsza niż 1 Mbps. Wprowadź przepustowość ręcznie.",
         "speed_test_done_msg": "Wykrywanie zakończone",
+        "speed_test_in_progress": "Test prędkości w toku. Proszę czekać...",
+        "speed_test_failed_msg": "Test prędkości nie powiódł się. Spróbuj ponownie później.",
         "dest_port_tips": "Zakres portów wynosi od 1 do 65535. Można ustawić pojedynczy port lub zakres portów (np. 501-510). Ostatni numer portu musi być większy niż pierwszy numer portu. Puste pole oznacza dowolny.",
         "edit_advanced_qos_rule_title": "Edytuj zaawansowaną regułę QoS"
     },

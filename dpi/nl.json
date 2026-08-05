@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: Eenvoudige en efficiënte fair-queueing met basis latentiereductie.",
         "tips_second": "SQM beïnvloedt het verkeer dat via de router als gateway passeert, inclusief VPN Client-verkeer, maar heeft geen invloed op inkomend verkeer wanneer de router functioneert als een VPN Server.",
         "wan_bandwidth_title": "WAN-bandbreedte",
-        "auto_detect_btn": "Automatisch detecteren",
+        "auto_detect_btn": "Snelheidstest uitvoeren",
         "queue_discipline_title": "Wachtrijdiscipline",
         "cake_tips": "Slimme, automatische verkeersvorming met de beste algehele latentiecontrole (aanbevolen).",
         "fq_codel_tips": "Eenvoudige en efficiënte fair-queueing met basisvertragingsreductie.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "Verkeer dat aan deze regel voldoet, krijgt de hoogste prioriteit en wordt bij netwerkcongestie als eerste doorgestuurd voor een soepele ervaring.",
         "speed_test_less_than_1m_tips": "De gedetecteerde bandbreedte is minder dan 1 Mbps. Voer de bandbreedte handmatig in.",
         "speed_test_done_msg": "Detectie voltooid",
+        "speed_test_in_progress": "Snelheidstest wordt uitgevoerd. Even geduld...",
+        "speed_test_failed_msg": "Snelheidstest mislukt. Probeer het later opnieuw.",
         "dest_port_tips": "Het poortbereik is van 1 tot 65535. U kunt één poort of een poortbereik instellen (bijv. 501-510). Het laatste poortnummer moet groter zijn dan het eerste poortnummer. Leeg betekent willekeurig.",
         "edit_advanced_qos_rule_title": "Geavanceerde QoS-regel bewerken"
     },

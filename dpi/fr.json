@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel : File d'attente équitable simple et efficace avec réduction de latence de base.",
         "tips_second": "Le SQM affecte le trafic passant par le routeur en tant que passerelle, y compris le trafic du client VPN, mais n'affecte pas le trafic entrant lorsque le routeur fonctionne en tant que serveur VPN.",
         "wan_bandwidth_title": "Bande passante WAN",
-        "auto_detect_btn": "Détection automatique",
+        "auto_detect_btn": "Lancer le test de débit",
         "queue_discipline_title": "Discipline de file d'attente",
         "cake_tips": "Intelligent, régulation automatique du trafic avec le meilleur contrôle global de la latence (recommandé).",
         "fq_codel_tips": "Simple et efficace mise en file d'attente équitable avec réduction de base de la latence.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "Le trafic correspondant à cette règle se verra attribuer la priorité la plus élevée, garantissant qu’il soit transmis en premier en cas de congestion du réseau pour une expérience fluide.",
         "speed_test_less_than_1m_tips": "La bande passante détectée est inférieure à 1 Mbit/s. Veuillez saisir la bande passante manuellement.",
         "speed_test_done_msg": "Détection terminée",
+        "speed_test_in_progress": "Test de vitesse en cours. Veuillez patienter...",
+        "speed_test_failed_msg": "Échec du test de vitesse. Veuillez réessayer plus tard.",
         "dest_port_tips": "La plage de ports va de 1 à 65535. Vous pouvez définir un port unique ou une plage de ports (par ex. 501-510). Le dernier numéro de port doit être supérieur au premier. Vide signifie n’importe lequel.",
         "edit_advanced_qos_rule_title": "Modifier la règle QoS avancée"
     },

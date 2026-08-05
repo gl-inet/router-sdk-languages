@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: 기본적인 지연 감소와 함께 간단하고 효율적인 공정 대기열을 제공합니다.",
         "tips_second": "SQM은 VPN 클라이언트 트래픽을 포함하여 게이트웨이로 작동하는 라우터를 통과하는 트래픽에 영향을 미치지만, 라우터가 VPN 서버로 작동할 때 들어오는 트래픽에는 영향을 미치지 않습니다.",
         "wan_bandwidth_title": "WAN 대역폭",
-        "auto_detect_btn": "자동 감지",
+        "auto_detect_btn": "속도 테스트 실행",
         "queue_discipline_title": "대기열 규율",
         "cake_tips": "스마트하고 자동화된 트래픽 셰이핑으로 최적의 전체 지연 시간 제어를 제공합니다(권장).",
         "fq_codel_tips": "기본 지연 시간 감소와 함께 간단하고 효율적인 공정 대기열 처리.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "이 규칙과 일치하는 트래픽은 최고 우선순위로 지정되어 네트워크 혼잡 시 먼저 전달되어 원활한 사용 환경을 보장합니다.",
         "speed_test_less_than_1m_tips": "감지된 대역폭이 1 Mbps 미만입니다. 대역폭을 수동으로 입력하세요.",
         "speed_test_done_msg": "감지 완료",
+        "speed_test_in_progress": "속도 테스트가 진행 중입니다. 잠시 기다려 주세요...",
+        "speed_test_failed_msg": "속도 테스트에 실패했습니다. 나중에 다시 시도해 주세요.",
         "dest_port_tips": "포트 범위는 1~65535입니다. 단일 포트 또는 포트 범위(예: 501-510)를 설정할 수 있습니다. 마지막 포트 번호는 첫 번째 포트 번호보다 커야 합니다. 비워 두면 모두를 의미합니다.",
         "edit_advanced_qos_rule_title": "고급 QoS 규칙 편집"
     },

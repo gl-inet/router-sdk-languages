@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: 簡單高效的公平佇列，可基本降低延遲。",
         "tips_second": "SQM 會影響通過路由器作為閘道的流量，包括 VPN 客戶端流量，但不會影響路由器作為 VPN 伺服器時的傳入流量。",
         "wan_bandwidth_title": "WAN 頻寬",
-        "auto_detect_btn": "自動偵測",
+        "auto_detect_btn": "執行測速",
         "queue_discipline_title": "佇列規則",
         "cake_tips": "智能且自動的流量整形，具備最佳的整體延遲控製（推薦）。",
         "fq_codel_tips": "簡單高效且具有基本延遲減少功能的公平隊列。",
@@ -129,6 +129,8 @@
         "add_device_desc": "新增裝置以在 WAN 連線繁忙時給予其更高優先順序。",
         "highest_priority_traffic_rule_tips": "符合此規則的網路流量將獲得最高優先級，即使在網路擁堵時也能確保優先轉發，保障流暢體驗。",
         "speed_test_done_msg": "偵測完成",
+        "speed_test_in_progress": "正在進行速度測試，請稍候...",
+        "speed_test_failed_msg": "速度測試失敗，請稍後再試。",
         "speed_test_less_than_1m_tips": "偵測到的頻寬低於 1 Mbps。請手動輸入頻寬。",
         "dest_port_tips": "連接埠範圍為 1 到 65535。您可以設定單一連接埠或連接埠範圍（例如 501-510）。最後一個連接埠號碼必須大於第一個連接埠號碼。留空表示任意。",
         "edit_advanced_qos_rule_title": "編輯進階 QoS 規則"

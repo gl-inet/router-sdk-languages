@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: Temel gecikme azaltma ile basit ve verimli adil kuyruklama.",
         "tips_second": "SQM, yönlendiriciyi bir ağ geçidi olarak kullanan trafiği etkiler, VPN İstemci trafiği dahil, ancak yönlendirici VPN Sunucusu olarak çalışırken gelen trafiği etkilemez.",
         "wan_bandwidth_title": "WAN Bant Genişliği",
-        "auto_detect_btn": "Otomatik Algılama",
+        "auto_detect_btn": "Hız testini çalıştır",
         "queue_discipline_title": "Kuyruk Disiplini",
         "cake_tips": "Akıllı, otomatik trafik şekillendirme ile en iyi genel gecikme kontrolü (önerilir).",
         "fq_codel_tips": "Basit ve verimli adil kuyruklama ile temel gecikme azaltma.",
@@ -129,6 +129,8 @@
         "add_device_desc": "WAN bağlantısı meşgul olduğunda daha yüksek öncelik vermek için bir cihaz ekleyin.",
         "highest_priority_traffic_rule_tips": "Bu kuralla eşleşen trafik en yüksek önceliğe atanır; ağ tıkanıklığı sırasında sorunsuz bir deneyim için önce iletilmesi sağlanır.",
         "speed_test_done_msg": "Algılama tamamlandı",
+        "speed_test_in_progress": "Hız testi devam ediyor. Lütfen bekleyin...",
+        "speed_test_failed_msg": "Hız testi başarısız oldu. Lütfen daha sonra tekrar deneyin.",
         "speed_test_less_than_1m_tips": "Algılanan bant genişliği 1 Mbps'den az. Lütfen bant genişliğini manuel olarak girin.",
         "dest_port_tips": "Port aralığı 1 ile 65535 arasındadır. Tek bir port veya bir port aralığı ayarlayabilirsiniz (örn. 501-510). Son port numarası ilk port numarasından büyük olmalıdır. Boş bırakılırsa herhangi biri anlamına gelir.",
         "edit_advanced_qos_rule_title": "Gelişmiş QoS Kuralını Düzenle"
