@@ -4,7 +4,7 @@
         "configuration": "Konfiguracja UPnP",
         "introduction": "Wprowadzenie",
         "security_risks": "Zagrożenia bezpieczeństwa",
-        "desc": "Po włączeniu UPnP umożliwia urządzeniom LAN automatyczne tworzenie tymczasowych mapowań portów WAN. Aktywne mapowania są usuwane, gdy klient je zwolni lub gdy wygaśnie dzierżawa.",
+        "desc": "Po włączeniu funkcja UPnP umożliwia urządzeniom w sieci LAN automatyczne tworzenie tymczasowych mapowań portów WAN; aktywne mapowania są usuwane, gdy klient je zwolni lub gdy wygaśnie czas ich dzierżawy. Funkcja ta ułatwia zdalny dostęp do usług w sieci lokalnej, eliminując konieczność ręcznej konfiguracji przekierowania portów.",
         "allowed_clients_wan_ports": "Dozwoleni klienci i porty WAN",
         "policy_tips": "Zezwalaj wszystkim pozwala wszystkim klientom LAN żądać mapowań portów WAN. Ogranicz zezwala tylko pasującym klientom i portom.",
         "allow_all": "Zezwalaj wszystkim",
