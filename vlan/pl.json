@@ -107,9 +107,11 @@
         "hostname_tips": "2-63 znaków. Dozwolone są tylko litery, cyfry lub myślniki. Musi zaczynać się i kończyć literą lub cyfrą i nie może składać się wyłącznie z cyfr.",
         "not_asscess_tips": "Obecnie {name} nie ma dostępu do segmentów sieci {net}.",
         "err_vlan_id_must_be_integer": "VLAN ID musi być liczbą całkowitą.",
-        "ip_conflicts_with_interface_ip": "Adres IP koliduje z adresem IP interfejsu bieżącej podsieci."
+        "ip_conflicts_with_interface_ip": "Adres IP koliduje z adresem IP interfejsu bieżącej podsieci.",
+        "associated_lan_ports": "Powiązane porty LAN"
     },
     "menu_vlan": "Podsieć",
     "menu_guestip": "Sieć Gościnna",
-    "menu_iotip": "Sieć IoT"
+    "menu_iotip": "Sieć IoT",
+    "menu_lan": "LAN"
 }
