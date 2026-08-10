@@ -90,7 +90,10 @@
         "finish_btn": "Termina",
         "no_devices_detected_tips": "Nessun nodo Mesh rilevato.",
         "ensure_mesh_supported_tips": "Assicurati che Mesh sia supportato e abilitato e, se necessario, avvicina il dispositivo al router principale.",
-        "make_sure_device_powered_tips": "Assicurati che il dispositivo che desideri aggiungere sia acceso e nel raggio del Router principale."
+        "make_sure_device_powered_tips": "Assicurati che il dispositivo che desideri aggiungere sia acceso e nel raggio del Router principale.",
+        "wifi_scan_failed_title": "Scansione Mesh non riuscita",
+        "wifi_scan_failed_primary_tips": "Nessun nodo Mesh trovato.",
+        "wifi_scan_failed_secondary_tips": "Assicurati che Mesh sia abilitato sul dispositivo peer, avvicinalo al router principale, quindi riprova."
     },
     "menu_mesh": "Mesh"
 }
