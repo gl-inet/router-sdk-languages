@@ -90,7 +90,10 @@
         "finish_btn": "Terminer",
         "no_devices_detected_tips": "Aucun nœud Mesh détecté.",
         "ensure_mesh_supported_tips": "Assurez-vous que Mesh est pris en charge et activé, puis rapprochez l’appareil du routeur principal si nécessaire.",
-        "make_sure_device_powered_tips": "Assurez-vous que l’appareil que vous souhaitez ajouter est sous tension et à portée du routeur principal."
+        "make_sure_device_powered_tips": "Assurez-vous que l’appareil que vous souhaitez ajouter est sous tension et à portée du routeur principal.",
+        "wifi_scan_failed_title": "Échec de l’analyse Mesh",
+        "wifi_scan_failed_secondary_tips": "Assurez-vous que Mesh est activé sur l’appareil pair, rapprochez-le du routeur principal, puis réessayez.",
+        "wifi_scan_failed_primary_tips": "Aucun nœud Mesh n’a été trouvé."
     },
     "menu_mesh": "Mesh"
 }
