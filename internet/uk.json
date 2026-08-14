@@ -322,7 +322,10 @@
         "minutes_value_label": "{count} хв.",
         "network_type_conflicts_tips": "Поточний тип мережі SIM-картки — {networkType}, що конфліктує з типом мережі {feature}.",
         "low_power_mode_only_tips": "Пристрій перебуває в режимі низького енергоспоживання.",
-        "network_type_lock_tower_tips": "Якщо заблокувати Tower, тип мережі буде зафіксовано, і його не можна буде змінити."
+        "network_type_lock_tower_tips": "Якщо заблокувати Tower, тип мережі буде зафіксовано, і його не можна буде змінити.",
+        "rescan_label": "Повторно сканувати",
+        "slot_inactive_tips": "Слот неактивний. Якщо SIM-карту вставлено, перемкніть вручну, щоб активувати цей слот.",
+        "sim_slot_label": "Слот SIM {slot}"
     },
     "sms": {
         "all_read": "Всі прочитані",
@@ -559,7 +562,10 @@
         "cable_fail_try_other_tips": "Будь ласка, спробуйте інший {config}.",
         "modem_auto_switching_tips": "Отримання інформації про SIM-карту, зачекайте.",
         "cellular_detecting_title": "Виявлення SIM-картки",
-        "cable_disabled_tips": "{feature} увімкнено."
+        "cable_disabled_tips": "{feature} увімкнено.",
+        "expressvpn_setup_title": "Налаштувати ExpressVPN на Fortify",
+        "expressvpn_setup_tip": "Ваш маршрутизатор включає 12-місячний план ExpressVPN Advanced. Активуйте його на наступній сторінці, щоб продовжити налаштування VPN.",
+        "expressvpn_start_setup_btn": "Почати налаштування"
     },
     "traffic": {
         "first_month_label": "Перший Місяць",

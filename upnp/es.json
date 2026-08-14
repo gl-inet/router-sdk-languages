@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "Configuración de UPnP",
+        "introduction": "Introducción",
+        "security_risks": "Riesgos de seguridad",
         "desc": "Cuando está activado, UPnP permite que los dispositivos LAN creen automáticamente asignaciones temporales de puertos WAN. Las asignaciones activas se eliminan cuando el cliente las libera o cuando vence la concesión.",
         "allowed_clients_wan_ports": "Clientes y puertos WAN permitidos",
         "policy_tips": "Permitir todo permite que todos los clientes LAN soliciten asignaciones de puertos WAN. Restringir solo permite clientes y puertos coincidentes.",

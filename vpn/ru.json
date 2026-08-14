@@ -332,13 +332,18 @@
         "go_to_vpn_dashboard": "Перейти к панели управления",
         "vpn_dashboard_desc": "Конфигурация загружена. Перейдите на панель управления VPN для создания и управления VPN-туннелями.",
         "vpn_dashboard_desc_provider": "Вы вошли в систему {provider}. Перейдите на панель управления VPN для создания и управления VPN-туннелями.",
-        "expressvpn_custom_feature_security_desc": "Защита всех устройств, подключенных к вашему маршрутизатору",
+        "expressvpn_custom_feature_security_desc": "Защитите с помощью шифрования все устройства, подключённые к вашему маршрутизатору.",
         "expressvpn_custom_feature_speed_title": "Молниеносная скорость",
-        "expressvpn_custom_feature_speed_desc": "Оптимизированная сеть серверов с минимальным влиянием на скорость соединения",
+        "expressvpn_custom_feature_speed_desc": "Серверы со скоростью до 40 Gbps обеспечивают сверхбыстрое подключение по всему дому.",
         "expressvpn_custom_feature_network_title": "Глобальная сеть серверов",
-        "expressvpn_custom_feature_network_desc": "Доступ к серверным локациям в 105 странах по всему миру",
+        "expressvpn_custom_feature_network_desc": "Получите доступ к более чем 214 серверным локациям в 113 странах мира.",
         "expressvpn_custom_get_started_btn": "Начало работы",
         "expressvpn_custom_get_started_tip": "Согласитесь сейчас, вы все равно сможете добавить VPN-профили вручную позже.",
+        "expressvpn_custom_welcome_title": "Активируйте бесплатную подписку ExpressVPN",
+        "expressvpn_custom_welcome_subscription_desc": "В комплект вашего нового маршрутизатора Fortify входит {subscription}",
+        "expressvpn_custom_welcome_subscription": "бесплатная 12-месячная подписка ExpressVPN Advanced.",
+        "expressvpn_custom_welcome_activation_desc": "Чтобы активировать её, GL.iNet Cloud сначала проверит ваше оборудование и право на участие по заказу, а затем перенаправит вас в ExpressVPN для завершения оформления промопредложения в браузере — сегодня вы ничего не заплатите.",
+        "expressvpn_custom_welcome_offer_note": "Предложение доступно новым и вернувшимся клиентам ExpressVPN; «вернувшиеся» — это клиенты, у которых сейчас нет активной подписки.",
         "expressvpn_custom_redeem_title": "Активировать план GL.iNet x ExpressVPN",
         "expressvpn_custom_redeem_desc": "Этот кобрендинговый маршрутизатор позволяет активировать один включенный 12-месячный план ExpressVPN (действует для новых учетных записей или учетных записей без активной подписки). GL.iNet Cloud сначала проверяет данное оборудование и право на участие в акции, после чего ExpressVPN завершает оформление акционного заказа в вашем браузере.",
         "expressvpn_custom_promo_title": "Доступен бесплатный 12-месячный план",
@@ -355,7 +360,7 @@
         "expressvpn_custom_redeemed_prompt_desc": "Этот маршрутизатор включенный 12-месячный план был активирован и добавлен в аккаунт ExpressVPN.",
         "expressvpn_custom_redeemed_already_title": "12-месячный план уже активирован",
         "expressvpn_custom_redeemed_claimed_by": "Привязанная учетная запись",
-        "expressvpn_custom_redeemed_action_desc": "Войдите с привязанной учетной записью, чтобы сохранить подписку активной, или используйте другую учетную запись ExpressVPN, чтобы продолжить управлять VPN на этом маршрутизаторе.",
+        "expressvpn_custom_redeemed_action_desc": "Войдите с привязанной учётной записью или используйте другую учётную запись ExpressVPN, чтобы продолжить управлять VPN на этом маршрутизаторе.",
         "expressvpn_custom_dashboard_active": "Активен и защищает вашу сеть.",
         "expressvpn_custom_dashboard_expired": "Срок действия услуги истек. Больше не защищает вашу сеть.",
         "expressvpn_custom_plan_sync_tip": "Преимущества вашего плана будут автоматически синхронизированы с устройством после входа, дополнительная настройка не требуется.",
@@ -368,7 +373,7 @@
         "expressvpn_custom_invalid_license": "Недействительная лицензия",
         "expressvpn_custom_manual_title": "Добавить вручную",
         "expressvpn_custom_manual_desc": "Импортируйте файл конфигурации WireGuard для пользовательского профиля — вход в ExpressVPN не требуется.",
-        "expressvpn_custom_feature_security_title": "Безопасность корпоративного уровня",
+        "expressvpn_custom_feature_security_title": "Надёжная защита",
         "expressvpn_custom_promo_desc_checkout": "Введите ID заказа из покупки вашего маршрутизатора. Вы завершите активацию на ExpressVPN, затем вернитесь сюда, чтобы авторизовать этот маршрутизатор.",
         "expressvpn_custom_continue_expressvpn_btn": "Перейти к ExpressVPN",
         "expressvpn_custom_claim_footnote": "После активации плана вернитесь сюда и авторизуйте этот маршрутизатор, чтобы VPN-клиент мог получить конфигурацию ExpressVPN.",
@@ -446,7 +451,9 @@
         "account_disabled_msg": "Ваша учетная запись деактивирована. Обратитесь в поддержку XVPN.",
         "device_bind_failed_msg": "Не удалось привязать этот маршрутизатор к вашей учетной записи. Проверьте сетевое подключение и повторите попытку.",
         "premium_account_required_msg": "Требуется премиум-подписка. Продлите лицензию.",
-        "device_token_expired_msg": "Токен недействителен. Войдите снова, чтобы восстановить подключение."
+        "device_token_expired_msg": "Токен недействителен. Войдите снова, чтобы восстановить подключение.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Пароль должен содержать как минимум одну заглавную и одну строчную букву.",
+        "password_must_contain_symbol_msg": "Пароль должен содержать как минимум один специальный символ."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Использовать VPN-туннель",
@@ -651,7 +658,8 @@
         "enable_tips": "При включении VPN-сервер использует протокол обфускации AmneziaWG для маскировки VPN-трафика.",
         "parameters_label": "Параметры обфускации",
         "set_parameters_tips_2": "Вы можете изменить их вручную, если знакомы с обфускацией AmneziaWG, или использовать автоматически сгенерированные параметры.",
-        "conneted_tips": "Обфускация включена. Рекомендуется подключаться через приложение AmneziaWG или маршрутизатор GL.iNet с прошивкой, поддерживающей обфускацию AmneziaWG. Клиенты, не поддерживающие обфускацию AmneziaWG, не смогут подключиться."
+        "conneted_tips": "Обфускация включена. Рекомендуется подключаться через приложение AmneziaWG или маршрутизатор GL.iNet с прошивкой, поддерживающей обфускацию AmneziaWG. Клиенты, не поддерживающие обфускацию AmneziaWG, не смогут подключиться.",
+        "enable_tips_v1": "Если включено, VPN-сервер использует протокол обфускации AmneziaWG для маскировки VPN-трафика."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Загруженный файл слишком велик. Распаковка не удалась из-за недостаточного объема памяти.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Отключено"
     },
-    "menu_expressvpn_dashboard": "Панель управления ExpressVPN"
+    "menu_expressvpn_dashboard": "Панель управления ExpressVPN",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Добро пожаловать в Fortify."
+    }
 }

@@ -332,14 +332,19 @@
         "go_to_vpn_dashboard": "Zum Dashboard gehen",
         "vpn_dashboard_desc": "Konfiguration hochgeladen. Gehen Sie zum VPN-Dashboard, um VPN-Tunnel zu erstellen und zu verwalten.",
         "vpn_dashboard_desc_provider": "Sie sind bei {provider} angemeldet. Gehen Sie zum VPN-Dashboard, um VPN-Tunnel zu erstellen und zu verwalten.",
-        "expressvpn_custom_feature_security_title": "Sicherheit auf Unternehmensniveau",
-        "expressvpn_custom_feature_security_desc": "Schützt alle mit Ihrem Router verbundenen Geräte",
-        "expressvpn_custom_feature_speed_title": "Blitzschnelle Geschwindigkeit",
-        "expressvpn_custom_feature_speed_desc": "Optimiertes Servernetzwerk mit minimalen Auswirkungen auf die Verbindungsgeschwindigkeit",
+        "expressvpn_custom_feature_security_title": "Bewährte Sicherheit",
+        "expressvpn_custom_feature_security_desc": "Schützen Sie alle mit Ihrem Router verbundenen Geräte durch Verschlüsselung.",
+        "expressvpn_custom_feature_speed_title": "Blitzschnelle Geschwindigkeiten",
+        "expressvpn_custom_feature_speed_desc": "Profitieren Sie dank Servern mit bis zu 40 Gbps von ultraschneller Konnektivität im ganzen Zuhause.",
         "expressvpn_custom_feature_network_title": "Globales Servernetzwerk",
-        "expressvpn_custom_feature_network_desc": "Zugriff auf Serverstandorte in 105 Ländern weltweit",
+        "expressvpn_custom_feature_network_desc": "Greifen Sie weltweit auf insgesamt 214+ Serverstandorte in 113 Ländern zu.",
         "expressvpn_custom_get_started_btn": "Erste Schritte",
         "expressvpn_custom_get_started_tip": "Jetzt zustimmen, Sie können später weiterhin manuell VPN-Profile hinzufügen.",
+        "expressvpn_custom_welcome_title": "Lösen Sie Ihr kostenloses ExpressVPN-Abonnement ein",
+        "expressvpn_custom_welcome_subscription_desc": "Ihr neuer Fortify-Router umfasst {subscription}",
+        "expressvpn_custom_welcome_subscription": "ein kostenloses 12-monatiges ExpressVPN Advanced-Abonnement.",
+        "expressvpn_custom_welcome_activation_desc": "Zur Aktivierung überprüft GL.iNet Cloud zunächst Ihre Hardware und Bestellberechtigung und leitet Sie dann zu ExpressVPN weiter, wo Sie den Aktions-Checkout in Ihrem Browser abschließen — heute entstehen Ihnen keine Kosten.",
+        "expressvpn_custom_welcome_offer_note": "Das Angebot ist für neue und zurückkehrende ExpressVPN-Kunden verfügbar. „Zurückkehrend“ bedeutet, dass Sie derzeit kein aktives Abonnement haben.",
         "expressvpn_custom_redeem_title": "GL.iNet x ExpressVPN-Plan einlösen",
         "expressvpn_custom_redeem_desc": "Dieser Co-Branding-Router kann einen enthaltenen 12-Monats-ExpressVPN-Plan einlösen (gilt für neue Konten oder Konten ohne aktives Abonnement). GL.iNet Cloud überprüft zunächst diese Hardware und die Berechtigung der Bestellung, anschließend führt ExpressVPN den Werbe-Checkout in Ihrem Browser durch.",
         "expressvpn_custom_promo_title": "Kostenloser 12-Monats-Plan verfügbar",
@@ -446,7 +451,9 @@
         "credentials_changed_msg": "Ihre Anmeldedaten wurden geändert. Bitte melden Sie sich erneut an.",
         "account_disabled_msg": "Ihr Konto wurde deaktiviert. Bitte wenden Sie sich an den XVPN-Support.",
         "device_token_expired_msg": "Das Token ist ungültig. Bitte melden Sie sich erneut an, um Ihre Verbindung wiederherzustellen.",
-        "device_bind_failed_msg": "Dieser Router kann nicht mit Ihrem Konto verknüpft werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut."
+        "device_bind_failed_msg": "Dieser Router kann nicht mit Ihrem Konto verknüpft werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Das Kennwort muss mindestens einen Großbuchstaben und einen Kleinbuchstaben enthalten.",
+        "password_must_contain_symbol_msg": "Das Kennwort muss mindestens ein Symbol enthalten."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Verwenden Sie den VPN-Tunnel",
@@ -651,7 +658,8 @@
         "parameters_label": "Verschleierungsparameter",
         "set_parameters_btn": "Verschleierungsparameter festlegen",
         "wg_client_parameters_tips": "Die Verschleierungsparameter werden vom Server bestimmt. Es ist nicht notwendig, sie nach dem Import der Konfigurationsdatei zu ändern.",
-        "conneted_tips": "Verschleierung ist aktiviert. Wir empfehlen, sich über die AmneziaWG-App oder einen GL.iNet-Router mit Firmware zu verbinden, die AmneziaWG-Verschleierung unterstützt. Clients, die AmneziaWG-Verschleierung nicht unterstützen, können keine Verbindung herstellen."
+        "conneted_tips": "Verschleierung ist aktiviert. Wir empfehlen, sich über die AmneziaWG-App oder einen GL.iNet-Router mit Firmware zu verbinden, die AmneziaWG-Verschleierung unterstützt. Clients, die AmneziaWG-Verschleierung nicht unterstützen, können keine Verbindung herstellen.",
+        "enable_tips_v1": "Wenn aktiviert, verwendet der VPN-Server das AmneziaWG-Verschleierungsprotokoll, um VPN-Datenverkehr zu tarnen."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Hochgeladene Datei zu groß. Dekomprimierung aufgrund unzureichenden Speicherplatzes fehlgeschlagen.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Getrennt"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN Dashboard"
+    "menu_expressvpn_dashboard": "ExpressVPN Dashboard",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Willkommen bei Fortify."
+    }
 }

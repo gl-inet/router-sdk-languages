@@ -327,7 +327,10 @@
         "minutes_value_label": "{count} 分鐘",
         "network_type_conflicts_tips": "當前 SIM 卡網絡類型為{networkType}，與{feature}網絡類型衝突。",
         "low_power_mode_only_tips": "裝置處於低功耗模式。",
-        "network_type_lock_tower_tips": "若鎖定基站，網絡類型將被固定且無法更改。"
+        "network_type_lock_tower_tips": "若鎖定基站，網絡類型將被固定且無法更改。",
+        "rescan_label": "重新掃描",
+        "slot_inactive_tips": "插槽未啟用。若已插入 SIM 卡，請手動切換以啟用此插槽。",
+        "sim_slot_label": "SIM {slot} 插槽"
     },
     "router_visual": {
         "wlan_client": "無線網絡客戶端",
@@ -559,7 +562,10 @@
         "cable_fail_try_other_tips": "請嘗試其他{config}。",
         "modem_auto_switching_tips": "正在獲取 SIM 卡信息，請稍候。",
         "cellular_detecting_title": "正在檢測 SIM 卡",
-        "cable_disabled_tips": "{feature} 已啟用。"
+        "cable_disabled_tips": "{feature} 已啟用。",
+        "expressvpn_setup_title": "在 Fortify 上設定 ExpressVPN",
+        "expressvpn_setup_tip": "您的路由器包含 12 個月的 ExpressVPN Advanced 方案。請在下一頁啟用以繼續 VPN 設定。",
+        "expressvpn_start_setup_btn": "開始設定"
     },
     "traffic": {
         "first_month_label": "第一個月",

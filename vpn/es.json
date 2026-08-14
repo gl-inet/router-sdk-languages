@@ -332,13 +332,18 @@
         "go_to_vpn_dashboard": "Ir al Panel de Control",
         "vpn_dashboard_desc": "Configuración cargada. Vaya al Panel de Control de VPN para crear y gestionar túneles VPN.",
         "vpn_dashboard_desc_provider": "Ha iniciado sesión en {provider}. Vaya al Panel de Control de VPN para crear y gestionar túneles VPN.",
-        "expressvpn_custom_feature_security_title": "Seguridad de nivel empresarial",
-        "expressvpn_custom_feature_speed_title": "Velocidad ultrarrápida",
-        "expressvpn_custom_feature_speed_desc": "Red de servidores optimizada con impacto mínimo en la velocidad de conexión",
+        "expressvpn_custom_feature_security_title": "Seguridad de confianza",
+        "expressvpn_custom_feature_speed_title": "Velocidades ultrarrápidas",
+        "expressvpn_custom_feature_speed_desc": "Con servidores de hasta 40 Gbps, disfrute de una conectividad ultrarrápida en todo su hogar.",
         "expressvpn_custom_feature_network_title": "Red global de servidores",
-        "expressvpn_custom_feature_network_desc": "Acceso a ubicaciones de servidores en 105 países de todo el mundo",
+        "expressvpn_custom_feature_network_desc": "Acceda a un total de 214+ ubicaciones de servidores en 113 países de todo el mundo.",
         "expressvpn_custom_get_started_btn": "Comenzar",
         "expressvpn_custom_get_started_tip": "Acepte ahora; aún puede agregar perfiles VPN manualmente más tarde.",
+        "expressvpn_custom_welcome_title": "Canjee su suscripción gratuita a ExpressVPN",
+        "expressvpn_custom_welcome_subscription_desc": "Su nuevo router Fortify incluye {subscription}",
+        "expressvpn_custom_welcome_subscription": "una suscripción gratuita de 12 meses a ExpressVPN Advanced.",
+        "expressvpn_custom_welcome_activation_desc": "Para activarla, GL.iNet Cloud primero verifica el hardware y la elegibilidad del pedido; después, le redirige a ExpressVPN para completar en el navegador el proceso de pago promocional — hoy no tendrá que pagar nada.",
+        "expressvpn_custom_welcome_offer_note": "La oferta está disponible para clientes nuevos y que regresan a ExpressVPN; esto último significa que actualmente no tienen una suscripción activa.",
         "expressvpn_custom_redeem_title": "Canjear el plan GL.iNet x ExpressVPN",
         "expressvpn_custom_order_id_label": "ID de pedido",
         "expressvpn_custom_login_without_activation": "Iniciar sesión sin activación",
@@ -363,7 +368,7 @@
         "expressvpn_custom_invalid_license": "Licencia no válida",
         "expressvpn_custom_manual_title": "Agregar manualmente",
         "expressvpn_custom_manual_desc": "Importa un archivo de configuración de WireGuard para un perfil personalizado: no se requiere inicio de sesión en ExpressVPN.",
-        "expressvpn_custom_feature_security_desc": "Protege todos los dispositivos conectados a su router",
+        "expressvpn_custom_feature_security_desc": "Proteja con cifrado todos los dispositivos conectados a su router.",
         "expressvpn_custom_redeem_desc": "Este router de marca compartida puede canjear un plan ExpressVPN de 12 meses incluido (aplica a cuentas nuevas o cuentas sin una suscripción activa). GL.iNet Cloud primero verifica la elegibilidad de este hardware y pedido, luego ExpressVPN completa el proceso de pago promocional en su navegador.",
         "expressvpn_custom_promo_title": "Plan gratuito de 12 meses disponible",
         "expressvpn_custom_promo_desc_checkout": "Ingresa el ID de pedido de tu compra del router. Finalizarás el reclamo en ExpressVPN, luego regresa aquí para autorizar este router.",
@@ -446,7 +451,9 @@
         "account_disabled_msg": "Su cuenta ha sido desactivada. Póngase en contacto con el soporte de XVPN.",
         "device_token_expired_msg": "El token no es válido. Inicie sesión de nuevo para restaurar su conexión.",
         "credentials_changed_msg": "Sus credenciales han cambiado. Inicie sesión de nuevo.",
-        "device_bind_failed_msg": "No se puede vincular este router a su cuenta. Compruebe su conexión de red e inténtelo de nuevo."
+        "device_bind_failed_msg": "No se puede vincular este router a su cuenta. Compruebe su conexión de red e inténtelo de nuevo.",
+        "password_must_contain_uppercase_and_lowercase_msg": "La contraseña debe contener al menos una letra mayúscula y una minúscula.",
+        "password_must_contain_symbol_msg": "La contraseña debe contener al menos un símbolo."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Agregue el cliente a la lista de túneles basada en políticas VPN. Si desea realizar cambios más detallados en los túneles, vaya a la {page} para gestionar los túneles.",
@@ -651,7 +658,8 @@
         "set_parameters_tips_1": "El router genera automáticamente los parámetros de ofuscación.",
         "set_parameters_tips_2": "Puede editarlos manualmente si está familiarizado con la ofuscación de AmneziaWG, o utilizar los generados automáticamente.",
         "wg_client_parameters_tips": "Los parámetros de ofuscación son determinados por el servidor. No es necesario cambiarlos después de importar el archivo de configuración.",
-        "conneted_tips": "La ofuscación está habilitada. Recomendamos conectarse a través de la aplicación AmneziaWG o un router GL.iNet con firmware que admita la ofuscación AmneziaWG. Los clientes que no admitan la ofuscación AmneziaWG no podrán conectarse."
+        "conneted_tips": "La ofuscación está habilitada. Recomendamos conectarse a través de la aplicación AmneziaWG o un router GL.iNet con firmware que admita la ofuscación AmneziaWG. Los clientes que no admitan la ofuscación AmneziaWG no podrán conectarse.",
+        "enable_tips_v1": "Cuando está habilitado, el servidor VPN utiliza el protocolo de ofuscación AmneziaWG para disfrazar el tráfico VPN."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Archivo subido demasiado grande. La descompresión falló debido a almacenamiento insuficiente.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Desconectado"
     },
-    "menu_expressvpn_dashboard": "Panel de ExpressVPN"
+    "menu_expressvpn_dashboard": "Panel de ExpressVPN",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Bienvenido a Fortify."
+    }
 }

@@ -399,7 +399,10 @@
         "minutes_value_label": "{count} min.",
         "network_type_conflicts_tips": "Bieżący typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci funkcji {feature}.",
         "low_power_mode_only_tips": "Urządzenie jest w trybie niskiego zużycia energii.",
-        "network_type_lock_tower_tips": "Jeśli zablokujesz Tower, typ sieci zostanie ustalony i nie będzie można go zmienić."
+        "network_type_lock_tower_tips": "Jeśli zablokujesz Tower, typ sieci zostanie ustalony i nie będzie można go zmienić.",
+        "rescan_label": "Skanuj ponownie",
+        "slot_inactive_tips": "Slot nieaktywny. Jeśli karta SIM jest włożona, przełącz ręcznie, aby aktywować ten slot.",
+        "sim_slot_label": "Slot SIM {slot}"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -559,7 +562,10 @@
         "cable_fail_try_other_tips": "Proszę spróbować innego {config}.",
         "modem_auto_switching_tips": "Pobieranie informacji o karcie SIM, proszę czekać.",
         "cellular_detecting_title": "Wykrywanie karty SIM",
-        "cable_disabled_tips": "{feature} jest włączona."
+        "cable_disabled_tips": "{feature} jest włączona.",
+        "expressvpn_setup_title": "Skonfiguruj ExpressVPN na Fortify",
+        "expressvpn_setup_tip": "Twój ruter obejmuje 12-miesięczny plan ExpressVPN Advanced. Aktywuj go na następnej stronie, aby kontynuować konfigurację VPN.",
+        "expressvpn_start_setup_btn": "Rozpocznij konfigurację"
     },
     "traffic": {
         "modify_data_used_tips": "Statystyki danych mają charakter informacyjny. Rzeczywisty ruch jest określany przez operatora sieci i pojawi się na rachunku dostarczonym przez operatora sieci.",

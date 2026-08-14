@@ -332,14 +332,19 @@
         "go_to_vpn_dashboard": "Eiti į ataskaitų skydelį",
         "vpn_dashboard_desc": "Konfigūracija įkelta. Eikite į „VPN“ ataskaitų skydelį, kad sukurtumėte ir tvarkytumėte „VPN“ tunelius.",
         "vpn_dashboard_desc_provider": "Esate prisijungę prie {provider}. Eikite į „VPN“ ataskaitų skydelį, kad sukurtumėte ir tvarkytumėte „VPN“ tunelius.",
-        "expressvpn_custom_feature_security_title": "Įmonės lygio saugumas",
-        "expressvpn_custom_feature_security_desc": "Apsaugo visus prie jūsų maršrutizatoriaus prijungtus įrenginius",
-        "expressvpn_custom_feature_speed_title": "Žaibiškas greitis",
-        "expressvpn_custom_feature_speed_desc": "Optimizuotas serverių tinklas su minimaliu poveikiu ryšio greičiui",
+        "expressvpn_custom_feature_security_title": "Patikima apsauga",
+        "expressvpn_custom_feature_security_desc": "Naudodami šifravimą apsaugokite visus prie maršrutizatoriaus prijungtus įrenginius.",
+        "expressvpn_custom_feature_speed_title": "Itin didelis greitis",
+        "expressvpn_custom_feature_speed_desc": "Iki 40 Gbps spartos serveriai užtikrina itin greitą ryšį visuose namuose.",
         "expressvpn_custom_feature_network_title": "Pasaulinis serverių tinklas",
-        "expressvpn_custom_feature_network_desc": "Prieiga prie serverių vietų 105 šalyse visame pasaulyje",
+        "expressvpn_custom_feature_network_desc": "Naudokitės daugiau nei 214 serverių vietų 113 pasaulio šalių.",
         "expressvpn_custom_get_started_btn": "Pradėti sąranką",
         "expressvpn_custom_get_started_tip": "Sutikite dabar, vėliau vis tiek galėsite rankiniu būdu pridėti VPN profilius.",
+        "expressvpn_custom_welcome_title": "Pasinaudokite nemokama ExpressVPN prenumerata",
+        "expressvpn_custom_welcome_subscription_desc": "Su naujuoju Fortify maršrutizatoriumi gaunate {subscription}",
+        "expressvpn_custom_welcome_subscription": "nemokamą 12 mėnesių ExpressVPN Advanced prenumeratą.",
+        "expressvpn_custom_welcome_activation_desc": "Norėdami ją aktyvuoti, GL.iNet Cloud pirmiausia patikrins jūsų aparatinę įrangą ir užsakymo tinkamumą, tada nukreips jus į ExpressVPN, kur naršyklėje užbaigsite reklaminį užsakymą — šiandien nieko mokėti nereikės.",
+        "expressvpn_custom_welcome_offer_note": "Pasiūlymas galioja naujiems ir grįžtantiems ExpressVPN klientams; „grįžtantys“ reiškia, kad šiuo metu neturite aktyvios prenumeratos.",
         "expressvpn_custom_redeem_title": "Išsipirkite GL.iNet x ExpressVPN planą",
         "expressvpn_custom_redeem_desc": "Šis bendro prekės ženklo maršrutizatorius gali išpirkti vieną įtrauktą 12 mėnesių ExpressVPN planą (taikoma naujoms paskyroms arba paskyroms be aktyvios prenumeratos). GL.iNet Cloud pirmiausia patikrina šios aparatinės įrangos ir užsakymo tinkamumą, tada ExpressVPN užbaigia reklaminį atsiskaitymą jūsų naršyklėje.",
         "expressvpn_custom_order_id_label": "Užsakymo ID",
@@ -373,7 +378,7 @@
         "expressvpn_custom_manual_desc": "Importuokite „WireGuard“ konfigūracijos failą pasirinktiniam profiliui – nereikia „ExpressVPN“ prisijungimo.",
         "expressvpn_custom_promo_title": "Nemokamas 12 mėnesių planas prieinamas",
         "expressvpn_custom_dashboard_redeemed_desc": "Išpirko {account} {date}. 12 mėnesių planas buvo pridėtas prie tos ExpressVPN paskyros. Šio maršrutizatoriaus išpirkimo kreditas dabar panaudotas — visos kitos paskyros, kuriomis prisijungsite šiame maršrutizatoriuje, toliau naudos savo esamą prenumeratą.",
-        "expressvpn_custom_redeemed_action_desc": "Prisijunkite naudodami susietą paskyrą, kad prenumerata liktų aktyvi, arba naudokite kitą ExpressVPN paskyrą ir toliau valdykite VPN šiame maršrutizatoriuje.",
+        "expressvpn_custom_redeemed_action_desc": "Prisijunkite naudodami susietą paskyrą arba naudokite kitą ExpressVPN paskyrą, kad galėtumėte toliau valdyti VPN šiame maršrutizatoriuje.",
         "expressvpn_custom_dashboard_desc_line1": "Jūs esate prisijungę prie ExpressVPN šiame maršrutizatoriuje.",
         "expressvpn_custom_dashboard_desc_line2": "Atidarykite ExpressVPN ataskaitų skydelį, kad pridėtumėte tunelius, nustatytumėte maršruto parinkimo politikas ir pasirinktumėte iš galimų serverių vietų.",
         "expressvpn_custom_redeemed_by_prefix": "Išpirko ",
@@ -446,7 +451,9 @@
         "account_disabled_msg": "Jūsų paskyra buvo išaktyvinta. Susisiekite su XVPN palaikymo tarnyba.",
         "device_token_expired_msg": "Žetonas negalioja. Prisijunkite dar kartą, kad atkurtumėte ryšį.",
         "device_bind_failed_msg": "Nepavyko pririšti šio maršrutizatoriaus prie jūsų paskyros. Patikrinkite tinklo ryšį ir bandykite dar kartą.",
-        "credentials_changed_msg": "Jūsų prisijungimo duomenys buvo pakeisti. Prisijunkite dar kartą."
+        "credentials_changed_msg": "Jūsų prisijungimo duomenys buvo pakeisti. Prisijunkite dar kartą.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Slaptažodyje turi būti bent viena didžioji ir viena mažoji raidė.",
+        "password_must_contain_symbol_msg": "Slaptažodyje turi būti bent vienas simbolis."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Pridėkite klientą į „VPN“ politikos pagrindu veikiančių tunelių sąrašą. Jei norite atlikti išsamesnius pakeitimus tuneliuose, prašome eiti į {page}, kad tvarkytumėte tunelius.",
@@ -651,7 +658,8 @@
         "set_parameters_btn": "Nustatyti slėpimo parametrus",
         "set_parameters_tips_1": "Maršrutizatorius automatiškai generuoja slėpimo parametrus.",
         "wg_client_parameters_tips": "Slėpimo parametrus nustato serveris. Nereikia jų keisti po konfigūracijos failo importavimo.",
-        "conneted_tips": "Obfuscation yra įjungta. Rekomenduojame prisijungti per AmneziaWG programą arba GL.iNet maršrutizatorių, kurio programinė įranga palaiko AmneziaWG obfuscation. Klientai, kurie nepalaiko AmneziaWG obfuscation, negalės prisijungti."
+        "conneted_tips": "Obfuscation yra įjungta. Rekomenduojame prisijungti per AmneziaWG programą arba GL.iNet maršrutizatorių, kurio programinė įranga palaiko AmneziaWG obfuscation. Klientai, kurie nepalaiko AmneziaWG obfuscation, negalės prisijungti.",
+        "enable_tips_v1": "Įjungus, „VPN“ serveris naudoja AmneziaWG maskavimo protokolą „VPN“ srautui paslėpti."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Įkeltas failas per didelis. Išskleidimas nepavyko dėl nepakankamos saugyklos vietos.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Atjungta"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN Ataskaitų skydelis"
+    "menu_expressvpn_dashboard": "ExpressVPN Ataskaitų skydelis",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Sveiki atvykę į Fortify."
+    }
 }

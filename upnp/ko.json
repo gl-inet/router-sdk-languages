@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP 구성",
+        "introduction": "소개",
+        "security_risks": "보안 위험",
         "desc": "활성화하면 UPnP를 통해 LAN 장치가 임시 WAN 포트 매핑을 자동으로 만들 수 있습니다. 활성 매핑은 클라이언트가 해제하거나 임대 시간이 만료되면 제거됩니다.",
         "allowed_clients_wan_ports": "허용된 클라이언트 및 WAN 포트",
         "policy_tips": "모두 허용은 모든 LAN 클라이언트가 WAN 포트 매핑을 요청하도록 허용합니다. 제한은 일치하는 클라이언트와 포트만 허용합니다.",

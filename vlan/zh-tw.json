@@ -16,8 +16,8 @@
         "block_wan_subnets": "封鎖 WAN 子網路",
         "cancel": "取消",
         "apply": "套用",
-        "iot_wifi": "物聯網 Wi-Fi ",
-        "iot_network_unavailable": "物聯網網路目前無法使用，因為 ",
+        "iot_wifi": "IoT Wi-Fi ",
+        "iot_network_unavailable": "IoT 網路目前無法使用，因為 ",
         "guest_wifi": "訪客 Wi-Fi ",
         "is_disabled": "已停用。",
         "modify": "修改",
@@ -52,7 +52,7 @@
         "add_custom_network": "新增網路",
         "main_network": "主要網路",
         "guest_network": "訪客網路",
-        "iot_network": "物聯網網路",
+        "iot_network": "IoT 網路",
         "router_ip_address": "路由器 IP 位址",
         "router_ip": "路由器 IP",
         "router_ip_tip": "路由器 IP 地址是您需要在瀏覽器地址欄中輸入以訪問路由器管理頁面的地址。",
@@ -85,7 +85,7 @@
         "wan_access_control_label": "WAN 訪問控製",
         "wan_access_unrestricted": "無限制",
         "wan_access_block_wan_subnet": "封鎖 WAN 子網",
-        "wan_access_block_internet": "封鎖網際網路訪問",
+        "wan_access_block_internet": "封鎖互聯網訪問",
         "wan_access_tip_unrestricted": "無限制：允許此子網不受限制地訪問網際網路及其他 WAN 端子網。",
         "wan_access_tip_block_wan_subnet": "封鎖 WAN 子網：封鎖對其他 WAN 端子網的訪問，但仍可訪問網際網路。",
         "wan_access_tip_block_internet": "封鎖網際網路訪問：封鎖所有對外訪問，包括網際網路及 WAN 端子網。",
@@ -107,9 +107,11 @@
         "hostname_tips": "2-63 個字元。僅允許字母、數字或連字號。必須以字母或數字開頭和結尾，且不能僅由數字組成。",
         "not_asscess_tips": "目前 {name} 無法存取網段 {net}。",
         "err_vlan_id_must_be_integer": "VLAN ID 必須是整數。",
-        "ip_conflicts_with_interface_ip": "IP 位址與目前子網路的介面 IP 衝突。"
+        "ip_conflicts_with_interface_ip": "IP 位址與目前子網路的介面 IP 衝突。",
+        "associated_lan_ports": "關聯的 LAN 連接埠"
     },
     "menu_vlan": "子網",
     "menu_guestip": "訪客網路",
-    "menu_iotip": "IoT 網路"
+    "menu_iotip": "IoT 網路",
+    "menu_lan": "區域網路"
 }

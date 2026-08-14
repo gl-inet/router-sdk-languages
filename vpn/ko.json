@@ -332,14 +332,19 @@
         "go_to_vpn_dashboard": "대시보드로 이동",
         "vpn_dashboard_desc": "구성이 업로드되었습니다. VPN 터널을 생성하고 관리하려면 VPN 대시보드로 이동하세요.",
         "vpn_dashboard_desc_provider": "{provider}에 로그인되었습니다. VPN 터널을 생성하고 관리하려면 VPN 대시보드로 이동하세요.",
-        "expressvpn_custom_feature_security_title": "기업급 보안",
-        "expressvpn_custom_feature_security_desc": "라우터에 연결된 모든 기기 보호",
-        "expressvpn_custom_feature_speed_title": "초고속 성능",
-        "expressvpn_custom_feature_speed_desc": "연결 속도에 미치는 영향을 최소화한 최적화된 서버 네트워크",
+        "expressvpn_custom_feature_security_title": "신뢰할 수 있는 보안",
+        "expressvpn_custom_feature_security_desc": "라우터에 연결된 모든 기기를 암호화로 보호합니다.",
+        "expressvpn_custom_feature_speed_title": "놀라운 초고속 연결",
+        "expressvpn_custom_feature_speed_desc": "최대 40 Gbps 서버를 기반으로 집 안 어디서나 초고속 연결을 이용할 수 있습니다.",
         "expressvpn_custom_feature_network_title": "글로벌 서버 네트워크",
-        "expressvpn_custom_feature_network_desc": "전 세계 105개국에 위치한 서버 액세스",
+        "expressvpn_custom_feature_network_desc": "전 세계 113개 국가에 있는 총 214+개 서버 위치에 접속할 수 있습니다.",
         "expressvpn_custom_get_started_btn": "시작하세요",
         "expressvpn_custom_get_started_tip": "지금 동의하면, 나중에 수동으로 VPN 프로필을 추가할 수 있습니다.",
+        "expressvpn_custom_welcome_title": "무료 ExpressVPN 구독 혜택 받기",
+        "expressvpn_custom_welcome_subscription_desc": "새 Fortify 라우터에는 {subscription}이 포함되어 있습니다",
+        "expressvpn_custom_welcome_subscription": "12개월 무료 ExpressVPN Advanced 구독.",
+        "expressvpn_custom_welcome_activation_desc": "활성화하려면 먼저 GL.iNet Cloud가 하드웨어 및 주문 자격을 확인한 다음 ExpressVPN으로 이동하여 브라우저에서 프로모션 결제를 완료합니다. 오늘 결제되는 금액은 없습니다.",
+        "expressvpn_custom_welcome_offer_note": "이 혜택은 ExpressVPN 신규 및 재가입 고객에게 제공되며, ‘재가입 고객’은 현재 활성 구독이 없는 고객을 의미합니다.",
         "expressvpn_custom_redeem_title": "GL.iNet x ExpressVPN 요금제 이용하기",
         "expressvpn_custom_redeem_desc": "이 공동 브랜드 라우터는 포함된 12개월 ExpressVPN 요금제를 사용할 수 있습니다(신규 계정 또는 활성 구독이 없는 계정에 적용). GL.iNet Cloud가 먼저 이 하드웨어와 주문 자격을 확인한 다음, ExpressVPN이 브라우저에서 프로모션 결제를 완료합니다.",
         "expressvpn_custom_promo_title": "무료 12개월 요금제 이용 가능",
@@ -359,7 +364,7 @@
         "expressvpn_custom_redeemed_already_title": "12개월 요금제가 이미 사용됨",
         "expressvpn_custom_redeemed_claimed_by": "연결된 계정",
         "expressvpn_custom_redeemed_claimed_time": "연결 시간",
-        "expressvpn_custom_redeemed_action_desc": "구독을 활성 상태로 유지하려면 연결된 계정으로 로그인하거나, 다른 ExpressVPN 계정을 사용하여 이 라우터에서 VPN을 계속 관리하십시오.",
+        "expressvpn_custom_redeemed_action_desc": "연결된 계정으로 로그인하거나 다른 ExpressVPN 계정을 사용하여 이 라우터에서 VPN을 계속 관리하세요.",
         "expressvpn_custom_dashboard_active": "활성 상태이며 네트워크를 보호하고 있습니다.",
         "expressvpn_custom_plan_sync_tip": "로그인 후 요금제 혜택이 자동으로 기기에 동기화되며, 추가 설정이 필요하지 않습니다.",
         "expressvpn_custom_logout_btn": "로그아웃",
@@ -446,7 +451,9 @@
         "device_token_expired_msg": "토큰이 유효하지 않습니다. 연결을 복원하려면 다시 로그인하세요.",
         "device_bind_failed_msg": "이 라우터를 계정에 바인딩할 수 없습니다. 네트워크 연결을 확인한 후 다시 시도하세요.",
         "premium_account_required_msg": "프리미엄 구독이 필요합니다. 라이선스를 갱신하세요.",
-        "account_disabled_msg": "계정이 비활성화되었습니다. XVPN 지원팀에 문의하세요."
+        "account_disabled_msg": "계정이 비활성화되었습니다. XVPN 지원팀에 문의하세요.",
+        "password_must_contain_uppercase_and_lowercase_msg": "비밀번호에는 대문자와 소문자가 각각 하나 이상 포함되어야 합니다.",
+        "password_must_contain_symbol_msg": "비밀번호에는 기호가 하나 이상 포함되어야 합니다."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN 정책 기반 터널 목록에 클라이언트를 추가하십시오. 터널에 대한 더 자세한 변경을 하고 싶다면 {page}로 이동하여 터널을 관리하십시오.",
@@ -651,7 +658,8 @@
         "set_parameters_tips_1": "라우터가 자동으로 난독화 매개변수를 생성합니다.",
         "set_parameters_tips_2": "AmneziaWG 난독화에 익숙한 경우 수동으로 편집하거나 자동 생성된 매개변수를 사용할 수 있습니다.",
         "wg_client_parameters_tips": "난독화 매개변수는 서버에 의해 결정됩니다. 구성 파일을 가져온 후에는 변경할 필요가 없습니다.",
-        "conneted_tips": "난독화가 활성화되었습니다. AmneziaWG 앱 또는 AmneziaWG 난독화를 지원하는 펌웨어가 탑재된 GL.iNet 라우터를 통해 연결하는 것을 권장합니다. AmneziaWG 난독화를 지원하지 않는 클라이언트는 연결할 수 없습니다."
+        "conneted_tips": "난독화가 활성화되었습니다. AmneziaWG 앱 또는 AmneziaWG 난독화를 지원하는 펌웨어가 탑재된 GL.iNet 라우터를 통해 연결하는 것을 권장합니다. AmneziaWG 난독화를 지원하지 않는 클라이언트는 연결할 수 없습니다.",
+        "enable_tips_v1": "활성화하면 VPN 서버가 AmneziaWG 난독화 프로토콜을 사용하여 VPN 트래픽을 위장합니다."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "업로드된 파일이 너무 큽니다. 저장 공간 부족으로 압축 해제에 실패했습니다.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "연결 끊김"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN 대시보드"
+    "menu_expressvpn_dashboard": "ExpressVPN 대시보드",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Fortify에 오신 것을 환영합니다."
+    }
 }

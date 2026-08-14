@@ -231,7 +231,10 @@
         "minutes_value_label": "{count} dk",
         "network_type_conflicts_tips": "Mevcut SIM kartı ağ türü {networkType}, {feature} özelliğinin ağ türüyle çakışıyor.",
         "low_power_mode_only_tips": "Cihaz düşük güç modunda.",
-        "network_type_lock_tower_tips": "Tower'ı kilitlerseniz ağ türü sabitlenir ve değiştirilemez."
+        "network_type_lock_tower_tips": "Tower'ı kilitlerseniz ağ türü sabitlenir ve değiştirilemez.",
+        "rescan_label": "Yeniden tara",
+        "slot_inactive_tips": "Yuva etkin değil. SIM kart takılıysa, bu yuvayı etkinleştirmek için manuel olarak geçiş yapın.",
+        "sim_slot_label": "SIM {slot} Yuvası"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -379,7 +382,10 @@
         "cable_fail_try_other_tips": "Lütfen başka bir {config} deneyin.",
         "modem_auto_switching_tips": "SIM kart bilgileri alınıyor, lütfen bekleyin.",
         "cellular_detecting_title": "SIM kart algılanıyor",
-        "cable_disabled_tips": "{feature} etkin."
+        "cable_disabled_tips": "{feature} etkin.",
+        "expressvpn_setup_title": "Fortify üzerinde ExpressVPN Kurulumu",
+        "expressvpn_setup_tip": "Yönlendiriciniz 12 aylık ExpressVPN Advanced planı içerir. VPN kurulumuna devam etmek için sonraki sayfada etkinleştirin.",
+        "expressvpn_start_setup_btn": "Kurulumu Başlat"
     },
     "traffic": {
         "data_used_label": "{sim} Kullanılan Veri",

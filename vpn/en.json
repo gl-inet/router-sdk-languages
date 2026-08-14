@@ -332,14 +332,19 @@
         "vpn_dashboard_desc": "Configuration uploaded. Go to the VPN Dashboard to create and manage VPN tunnels.",
         "go_to_vpn_dashboard": "Go to Dashboard",
         "vpn_dashboard_desc_provider": "You're signed in to {provider}. Go to the VPN Dashboard to create and manage VPN tunnels.",
-        "expressvpn_custom_feature_security_title": "Enterprise-Grade Security",
-        "expressvpn_custom_feature_security_desc": "Protecting all devices connected to your router",
-        "expressvpn_custom_feature_speed_title": "Blazing Fast Speed",
-        "expressvpn_custom_feature_speed_desc": "Optimized server network with minimal impact on connection speed",
+        "expressvpn_custom_feature_security_title": "Trusted Security",
+        "expressvpn_custom_feature_security_desc": "Protect all devices connected to your router with encryption.",
+        "expressvpn_custom_feature_speed_title": "Blazing Fast Speeds",
+        "expressvpn_custom_feature_speed_desc": "Powered by servers up to 40 Gbps, enjoy ultra-fast whole home connectivity.",
         "expressvpn_custom_feature_network_title": "Global Server Network",
-        "expressvpn_custom_feature_network_desc": "Access to server locations across 105 countries worldwide",
+        "expressvpn_custom_feature_network_desc": "Access 214+ total server locations across 113 countries worldwide.",
         "expressvpn_custom_get_started_btn": "Get Started",
         "expressvpn_custom_get_started_tip": "Agree now, you may still manually add VPN profiles later.",
+        "expressvpn_custom_welcome_title": "Redeem Your Free ExpressVPN Subscription",
+        "expressvpn_custom_welcome_subscription_desc": "Your new Fortify router comes with a {subscription}",
+        "expressvpn_custom_welcome_subscription": "free 12-month ExpressVPN Advanced subscription.",
+        "expressvpn_custom_welcome_activation_desc": "To activate it, GL.iNet Cloud first verifies your hardware and order eligibility, then transfers you to ExpressVPN to complete your promotional checkout in your browser — you won't pay anything today.",
+        "expressvpn_custom_welcome_offer_note": "Offer available to new and returning ExpressVPN customers, where \"returning\" means you don't currently have an active subscription.",
         "expressvpn_custom_redeem_title": "Redeem GL.iNet x ExpressVPN Plan",
         "expressvpn_custom_redeem_desc": "This co-branded router can redeem one included 12-Month ExpressVPN plan (applies to new accounts or accounts without an active subscription). GL.iNet Cloud first verifies this hardware and order eligibility, then ExpressVPN completes the promotional checkout in your browser.",
         "expressvpn_custom_promo_title": "Free 12-Month Plan available",
@@ -366,7 +371,7 @@
         "expressvpn_custom_redeemed_already_title": "12-Month Plan already redeemed",
         "expressvpn_custom_redeemed_claimed_by": "Bound Account",
         "expressvpn_custom_redeemed_claimed_time": "Bound Time",
-        "expressvpn_custom_redeemed_action_desc": "Sign in with the bound account to keep your subscription active, or use another ExpressVPN account to continue managing VPN on this router.",
+        "expressvpn_custom_redeemed_action_desc": "Log in with the bound account, or use another ExpressVPN account to continue managing VPN on this router.",
         "expressvpn_custom_signin_new_tab_tip": "A new tab will open to ExpressVPN's secure sign-in page.",
         "expressvpn_custom_plan_sync_tip": "Your plan benefits will be automatically synced to the device after login, no extra setup required.",
         "expressvpn_custom_dashboard_active": "Active and protecting your network.",
@@ -446,7 +451,9 @@
         "credentials_changed_msg": "Your credentials have been changed. Please log in again.",
         "account_disabled_msg": "Your account has been deactivated. Please reach out to XVPN support.",
         "device_token_expired_msg": "Token is invalid. Please log in again to restore your connection.",
-        "device_bind_failed_msg": "Unable to bind this router to your account. Please check your network connection and try again."
+        "device_bind_failed_msg": "Unable to bind this router to your account. Please check your network connection and try again.",
+        "password_must_contain_uppercase_and_lowercase_msg": "The password must contain at least one uppercase and one lowercase letter.",
+        "password_must_contain_symbol_msg": "The password must contain at least one symbol."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "Use VPN Tunnel",
@@ -651,7 +658,8 @@
         "set_parameters_tips_1": "The router automatically generates obfuscation parameters.",
         "set_parameters_tips_2": "You may edit them manually if you are familiar with AmneziaWG obfuscation, or use the auto-generated ones.",
         "wg_client_parameters_tips": "The obfuscation parameters are determined by the server. No need to change it after importing the configuration file.",
-        "conneted_tips": "Obfuscation is enabled. We recommend connecting via the AmneziaWG app or a GL.iNet router running firmware that supports AmneziaWG obfuscation. Clients that do not support AmneziaWG obfuscation will be unable to connect."
+        "conneted_tips": "Obfuscation is enabled. We recommend connecting via the AmneziaWG app or a GL.iNet router running firmware that supports AmneziaWG obfuscation. Clients that do not support AmneziaWG obfuscation will be unable to connect.",
+        "enable_tips_v1": "When enabled, the VPN Server uses the AmneziaWG obfuscation protocol to disguise VPN traffic."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Uploaded file too large. Decompression failed due to insufficient storage.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Disconnected"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN Dashboard"
+    "menu_expressvpn_dashboard": "ExpressVPN Dashboard",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Welcome to Fortify."
+    }
 }

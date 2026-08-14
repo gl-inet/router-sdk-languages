@@ -281,7 +281,7 @@
         "sim_registered_connection_failed_tips": "SIMカードに利用可能なデータがあるか、および{apnBtn}設定が正しいか確認してください。{guide}",
         "connection_failed_contact_support_tips": "{guide}を参照してください。問題が解決しない場合は、{log}を取得し、{addr}に送信してください。",
         "version_3gpp": "3GPP バージョン: {num}",
-        "release15_3gpp_tips": "ベースライン5G標準。最高のグローバルキャリア互換性を提供します。地域接続の問題のトラブルシューティングに推奨されます。",
+        "release15_3gpp_tips": "標準5G規格。最高のグローバルキャリア互換性を提供します。地域接続の問題のトラブルシューティングに推奨されます。",
         "release16_3gpp_tips": "拡張5G規格。確立されたほとんどの5Gネットワーク環境に適しています。",
         "release17_3gpp_tips": "デバイスがサポートする最新の5G規格。高度なネットワーク機能と性能を有効にします。キャリアのネットワーク展開の違いにより、一部の地域で互換性の差異が生じる可能性があります。",
         "release_3gpp_version_title": "3GPP リリースバージョン",
@@ -327,7 +327,10 @@
         "minutes_value_label": "{count}分",
         "network_type_conflicts_tips": "現在のSIMカードのネットワークタイプは{networkType}で、{feature}のネットワークタイプと競合しています。",
         "low_power_mode_only_tips": "デバイスは低電力モードです。",
-        "network_type_lock_tower_tips": "Tower をロックすると、ネットワークタイプは固定され、変更できなくなります。"
+        "network_type_lock_tower_tips": "Tower をロックすると、ネットワークタイプは固定され、変更できなくなります。",
+        "rescan_label": "再スキャン",
+        "slot_inactive_tips": "スロットは非アクティブです。SIMカードが挿入されている場合は、手動で切り替えてこのスロットを有効化してください。",
+        "sim_slot_label": "SIM {slot} スロット"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -559,7 +562,10 @@
         "cable_fail_try_other_tips": "別の{config}を試してください。",
         "modem_auto_switching_tips": "SIMカード情報を取得しています。お待ちください。",
         "cellular_detecting_title": "SIMカードを検出中",
-        "cable_disabled_tips": "{feature}が有効になっています。"
+        "cable_disabled_tips": "{feature}が有効になっています。",
+        "expressvpn_setup_title": "FortifyでExpressVPNを設定",
+        "expressvpn_setup_tip": "お使いのルーターには、12か月間のExpressVPN Advancedプランが含まれています。次のページで有効化して、VPN設定を続行してください。",
+        "expressvpn_start_setup_btn": "設定を開始"
     },
     "traffic": {
         "no_saved_limit_tips": "データ使用量に基づいてSIMカードをロックする必要がある場合は、「電源オフ時にデータを保存」スイッチをオンにしてください。",

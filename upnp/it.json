@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "Configurazione UPnP",
+        "introduction": "Introduzione",
+        "security_risks": "Rischi per la sicurezza",
         "desc": "Quando è abilitato, UPnP consente ai dispositivi LAN di creare automaticamente mappature temporanee delle porte WAN. Le mappature attive vengono rimosse quando il client le rilascia o quando il lease scade.",
         "allowed_clients_wan_ports": "Client e porte WAN consentiti",
         "policy_tips": "Consenti tutto permette a tutti i client LAN di richiedere mappature delle porte WAN. Limita consente solo client e porte corrispondenti.",

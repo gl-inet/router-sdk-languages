@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: Scuaineáil chóir shimplí agus éifeachtach le laghdú bunúsach ar mhoille.",
         "tips_second": "Bíonn tionchar ag SQM ar thrácht a théann tríd an ródaire mar gheata, lena n-áirítear trácht Cliant VPN, ach ní bhíonn tionchar aige ar thrácht isteach nuair a bhíonn an ródaire ag feidhmiú mar Fhreastalaí VPN.",
         "wan_bandwidth_title": "Bandaleithead WAN",
-        "auto_detect_btn": "Brath Uathoibríoch",
+        "auto_detect_btn": "Rith Tástáil Luais",
         "queue_discipline_title": "Disciplín Scuaine",
         "cake_tips": "Múnlú tráchta cliste, uathoibríoch leis an rialú latency foriomlán is fearr (molta).",
         "fq_codel_tips": "Scuaineáil chóir shimplí agus éifeachtach le laghdú bunúsach ar mhoill.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "Sannfar an tosaíocht is airde do thrácht a mheaitseálann an riail seo, rud a chinntíonn go gcuirfear ar aghaidh é ar dtús le linn plódú líonra le haghaidh taithí réidh.",
         "speed_test_less_than_1m_tips": "Tá an bandaleithead braite níos lú ná 1 Mbps. Cuir an bandaleithead isteach de láimh.",
         "speed_test_done_msg": "Tá an bhrath críochnaithe",
+        "speed_test_in_progress": "Tá an tástáil luais ar siúl. Fan le do thoil...",
+        "speed_test_failed_msg": "Theip ar an tástáil luais. Bain triail eile as ar ball.",
         "dest_port_tips": "Tá raon na bport ó 1 go 65535. Is féidir port amháin nó raon port a shocrú (m.sh., 501-510). Ní mór don uimhir phoirt dheireanach a bheith níos mó ná an chéad uimhir phoirt. Ciallaíonn folamh aon cheann.",
         "edit_advanced_qos_rule_title": "Cuir riail ardleibhéil QoS in eagar"
     },
@@ -327,7 +329,15 @@
         "version_update_center_title": "Ionad Nuashonraithe Leagan",
         "version_update_desc_text": "Tá {name} réidh. Ní oibríonn {name1}, {name2}, agus {name3} ach amháin nuair a bhíonn siad cumasaithe ina leathanaigh féin.",
         "latest_available_label": "Is déanaí atá ar fáil: ",
-        "upgrading_btn_text": "Ag uasghrádú..."
+        "upgrading_btn_text": "Ag uasghrádú...",
+        "more_dpi_based_features_label": "Gnéithe breise bunaithe ar DPI:",
+        "activate_service_title": "Gníomhachtaigh {title}",
+        "activation_effects_title": "Cad a tharlóidh?",
+        "activation_step1_title": "Tá an ghné seo á cumhachtú ag DPI. Úsáideann DPI acmhainní áitiúla chun paicéid a anailísiú agus a aicmiú.",
+        "database_label": "Bunachar sonraí",
+        "dpi_online_upgrade_title": "Uasghrádú DPI ar líne",
+        "dpi_up_to_date_tips": "Tá DPI cothrom le dáta.",
+        "new_label": "Nua"
     },
     "menu_dpifeatures": "Inneall DPI"
 }

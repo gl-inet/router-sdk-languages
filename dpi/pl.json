@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.",
         "tips_second": "SQM wpływa na ruch przechodzący przez router jako bramę, w tym na ruch klienta VPN, ale nie wpływa na ruch przychodzący, gdy router działa jako serwer VPN.",
         "wan_bandwidth_title": "Przepustowość WAN",
-        "auto_detect_btn": "Auto Detect",
+        "auto_detect_btn": "Uruchom test prędkości",
         "queue_discipline_title": "Dyscyplina Kolejkowania",
         "cake_tips": "Inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień (zalecane).",
         "fq_codel_tips": "Proste i wydajne kolejkowanie sprawiedliwe z podstawową redukcją opóźnień.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "Ruch pasujący do tej reguły otrzyma najwyższy priorytet, dzięki czemu będzie przekazywany w pierwszej kolejności podczas przeciążenia sieci, zapewniając płynne działanie.",
         "speed_test_less_than_1m_tips": "Wykryta przepustowość jest mniejsza niż 1 Mbps. Wprowadź przepustowość ręcznie.",
         "speed_test_done_msg": "Wykrywanie zakończone",
+        "speed_test_in_progress": "Test prędkości w toku. Proszę czekać...",
+        "speed_test_failed_msg": "Test prędkości nie powiódł się. Spróbuj ponownie później.",
         "dest_port_tips": "Zakres portów wynosi od 1 do 65535. Można ustawić pojedynczy port lub zakres portów (np. 501-510). Ostatni numer portu musi być większy niż pierwszy numer portu. Puste pole oznacza dowolny.",
         "edit_advanced_qos_rule_title": "Edytuj zaawansowaną regułę QoS"
     },
@@ -233,7 +235,7 @@
         "all_in_one_subscriptio_label": "Mądrzejszy, szybszy, bezpieczniejszy — wszystko w jednej subskrypcji!",
         "premium_features_first_text": "Śledź, które aplikacje wykorzystują Twoje pasmo.",
         "premium_features_second_text": "Nadaj priorytet swoim najważniejszym zadaniom.",
-        "networking_btn": "Oczekiwanie na połączenie sieciowe",
+        "networking_btn": "Oczekiwanie na Dostęp do Internetu",
         "synchronization_btn": "Oczekiwanie na synchronizację czasu",
         "expired_tips": "Wygasło {time}",
         "qos_description_card_text": "QoS (Quality of Service) optymalizuje alokację przepustowości poprzez priorytetyzację krytycznych aplikacji, takich jak wideorozmowy i gry, zmniejszając opóźnienia i poprawiając ogólną wydajność sieci.",
@@ -327,7 +329,15 @@
         "version_update_center_title": "Centrum Aktualizacji Wersji",
         "version_update_desc_text": "{name} jest gotowy. {name1}, {name2} i {name3} działają tylko po włączeniu na ich własnych stronach.",
         "latest_available_label": "Najnowsza dostępna: ",
-        "upgrading_btn_text": "Aktualizowanie..."
+        "upgrading_btn_text": "Aktualizowanie...",
+        "more_dpi_based_features_label": "Więcej funkcji opartych na DPI:",
+        "activate_service_title": "Aktywuj {title}",
+        "activation_effects_title": "Co się stanie?",
+        "activation_step1_title": "Ta funkcja jest obsługiwana przez DPI. DPI wykorzystuje zasoby lokalne do analizowania i klasyfikowania pakietów.",
+        "database_label": "Baza danych",
+        "dpi_online_upgrade_title": "Aktualizacja DPI online",
+        "dpi_up_to_date_tips": "DPI jest aktualne.",
+        "new_label": "Nowe"
     },
     "menu_dpifeatures": "Silnik DPI"
 }

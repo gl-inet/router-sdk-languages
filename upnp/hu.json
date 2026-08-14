@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP konfiguráció",
+        "introduction": "Bevezetés",
+        "security_risks": "Biztonsági kockázatok",
         "desc": "Ha engedélyezve van, az UPnP lehetővé teszi, hogy a LAN-eszközök automatikusan ideiglenes WAN-portleképezéseket hozzanak létre. Az aktív leképezések törlődnek, amikor az ügyfél felszabadítja őket, vagy amikor a bérlet lejár.",
         "allowed_clients_wan_ports": "Engedélyezett kliensek és WAN-portok",
         "policy_tips": "Az Összes engedélyezése minden LAN-kliens számára engedélyezi WAN-portleképezések kérését. A Korlátozás csak az egyező klienseket és portokat engedélyezi.",

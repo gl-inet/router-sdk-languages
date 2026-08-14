@@ -332,10 +332,10 @@
         "go_to_vpn_dashboard": "Accéder au Tableau de bord",
         "vpn_dashboard_desc_provider": "Vous êtes connecté à {provider}. Accédez au Tableau de bord VPN pour créer et gérer les tunnels VPN.",
         "vpn_dashboard_desc": "Configuration téléchargée. Accédez au Tableau de bord VPN pour créer et gérer les tunnels VPN.",
-        "expressvpn_custom_feature_security_title": "Sécurité de niveau entreprise",
-        "expressvpn_custom_feature_security_desc": "Protège tous les appareils connectés à votre routeur",
-        "expressvpn_custom_feature_speed_desc": "Réseau de serveurs optimisé avec un impact minimal sur la vitesse de connexion",
-        "expressvpn_custom_feature_network_desc": "Accès à des serveurs dans 105 pays à travers le monde",
+        "expressvpn_custom_feature_security_title": "Sécurité fiable",
+        "expressvpn_custom_feature_security_desc": "Protégez par chiffrement tous les appareils connectés à votre routeur.",
+        "expressvpn_custom_feature_speed_desc": "Grâce à des serveurs offrant jusqu’à 40 Gbps, profitez d’une connectivité ultrarapide dans toute la maison.",
+        "expressvpn_custom_feature_network_desc": "Accédez à un total de 214+ emplacements de serveurs dans 113 pays à travers le monde.",
         "expressvpn_custom_get_started_btn": "Lancer",
         "expressvpn_custom_redeem_title": "Échangez le forfait GL.iNet x ExpressVPN",
         "expressvpn_custom_promo_title": "Forfait gratuit de 12 mois disponible",
@@ -367,9 +367,14 @@
         "expressvpn_custom_invalid_license": "Licence invalide",
         "expressvpn_custom_manual_title": "Ajouter manuellement",
         "expressvpn_custom_manual_desc": "Importez un fichier de configuration WireGuard pour un profil personnalisé—aucune connexion ExpressVPN requise.",
-        "expressvpn_custom_feature_speed_title": "Vitesse ultra-rapide",
+        "expressvpn_custom_feature_speed_title": "Vitesses fulgurantes",
         "expressvpn_custom_feature_network_title": "Réseau mondial de serveurs",
         "expressvpn_custom_get_started_tip": "Acceptez maintenant, vous pourrez toujours ajouter manuellement des profils VPN plus tard.",
+        "expressvpn_custom_welcome_title": "Profitez de votre abonnement ExpressVPN gratuit",
+        "expressvpn_custom_welcome_subscription_desc": "Votre nouveau routeur Fortify comprend {subscription}",
+        "expressvpn_custom_welcome_subscription": "un abonnement gratuit de 12 mois à ExpressVPN Advanced.",
+        "expressvpn_custom_welcome_activation_desc": "Pour l’activer, GL.iNet Cloud vérifie d’abord votre matériel et l’éligibilité de votre commande, puis vous redirige vers ExpressVPN afin de finaliser l’offre promotionnelle dans votre navigateur — vous n’aurez rien à payer aujourd’hui.",
+        "expressvpn_custom_welcome_offer_note": "Offre disponible pour les clients ExpressVPN nouveaux et anciens, « anciens » désignant ceux qui ne disposent actuellement d’aucun abonnement actif.",
         "expressvpn_custom_redeem_desc": "Ce routeur co-marqué permet de bénéficier d’un abonnement ExpressVPN de 12 mois inclus (valable pour les nouveaux comptes ou les comptes sans abonnement actif). GL.iNet Cloud vérifie d’abord l’éligibilité de ce matériel et de la commande, puis ExpressVPN finalise le processus promotionnel dans votre navigateur.",
         "expressvpn_custom_order_id_label": "Identifiant de commande",
         "expressvpn_custom_promo_desc_order": "Utilisez votre identifiant de commande, finalisez le paiement ExpressVPN, puis autorisez ce routeur.",
@@ -446,7 +451,9 @@
         "credentials_changed_msg": "Vos identifiants ont été modifiés. Veuillez vous reconnecter.",
         "account_disabled_msg": "Votre compte a été désactivé. Veuillez contacter l’assistance XVPN.",
         "device_token_expired_msg": "Le jeton est invalide. Veuillez vous reconnecter pour rétablir votre connexion.",
-        "device_bind_failed_msg": "Impossible d’associer ce routeur à votre compte. Veuillez vérifier votre connexion réseau et réessayer."
+        "device_bind_failed_msg": "Impossible d’associer ce routeur à votre compte. Veuillez vérifier votre connexion réseau et réessayer.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Le mot de passe doit contenir au moins une lettre majuscule et une lettre minuscule.",
+        "password_must_contain_symbol_msg": "Le mot de passe doit contenir au moins un symbole."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Ajoutez un client à la liste des tunnels basés sur la politique VPN. Si vous souhaitez apporter des modifications plus détaillées aux tunnels, veuillez vous rendre sur la {page} pour gérer les tunnels.",
@@ -651,7 +658,8 @@
         "enable_tips": "Lorsqu'il est activé, le serveur VPN utilise le protocole d'obfuscation AmneziaWG pour masquer le trafic VPN.",
         "set_parameters_btn": "Définir les paramètres d'obfuscation",
         "wg_client_parameters_tips": "Les paramètres d'obfuscation sont déterminés par le serveur. Aucun besoin de les modifier après l'importation du fichier de configuration.",
-        "conneted_tips": "L'obfuscation est activée. Nous recommandons de vous connecter via l'application AmneziaWG ou un routeur GL.iNet exécutant un micrologiciel prenant en charge l'obfuscation AmneziaWG. Les clients qui ne prennent pas en charge l'obfuscation AmneziaWG ne pourront pas se connecter."
+        "conneted_tips": "L'obfuscation est activée. Nous recommandons de vous connecter via l'application AmneziaWG ou un routeur GL.iNet exécutant un micrologiciel prenant en charge l'obfuscation AmneziaWG. Les clients qui ne prennent pas en charge l'obfuscation AmneziaWG ne pourront pas se connecter.",
+        "enable_tips_v1": "Lorsqu’il est activé, le serveur VPN utilise le protocole d’obfuscation AmneziaWG pour masquer le trafic VPN."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Fichier téléchargé trop volumineux. La décompression a échoué en raison d'un espace de stockage insuffisant.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Déconnecté"
     },
-    "menu_expressvpn_dashboard": "Tableau de bord ExpressVPN"
+    "menu_expressvpn_dashboard": "Tableau de bord ExpressVPN",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Bienvenue dans Fortify."
+    }
 }

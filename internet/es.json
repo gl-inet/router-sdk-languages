@@ -327,7 +327,10 @@
         "minutes_value_label": "{count} min",
         "network_type_conflicts_tips": "El tipo de red de la tarjeta SIM actual es {networkType}, lo que entra en conflicto con el tipo de red de {feature}.",
         "low_power_mode_only_tips": "El dispositivo está en modo de bajo consumo.",
-        "network_type_lock_tower_tips": "Si bloquea Tower, el tipo de red quedará fijo y no se podrá cambiar."
+        "network_type_lock_tower_tips": "Si bloquea Tower, el tipo de red quedará fijo y no se podrá cambiar.",
+        "rescan_label": "Volver a escanear",
+        "slot_inactive_tips": "Ranura inactiva. Si hay una tarjeta SIM insertada, cambie manualmente para activar esta ranura.",
+        "sim_slot_label": "Ranura SIM {slot}"
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -559,7 +562,10 @@
         "cable_fail_try_other_tips": "Por favor, intente otra {config}.",
         "modem_auto_switching_tips": "Obteniendo información de la tarjeta SIM, por favor espere.",
         "cellular_detecting_title": "Detección de tarjeta SIM",
-        "cable_disabled_tips": "{feature} está habilitado."
+        "cable_disabled_tips": "{feature} está habilitado.",
+        "expressvpn_setup_title": "Configurar ExpressVPN en Fortify",
+        "expressvpn_setup_tip": "Su router incluye un plan ExpressVPN Advanced de 12 meses. Actívelo en la página siguiente para continuar con la configuración de la VPN.",
+        "expressvpn_start_setup_btn": "Iniciar configuración"
     },
     "traffic": {
         "save_to_flash_tips": "Si el interruptor está activado, los datos se pueden guardar incluso después de que el dispositivo se haya apagado.",
@@ -702,22 +708,22 @@
         "dest_zone_label": "Zona de destino",
         "dest_address_label": "Dirección de destino",
         "dest_port_label": "Puerto de destino",
-        "add_rule_btn": "Agregar regla",
-        "any_not_allowed_with_multiple_ips": "Cuando hay varias direcciones IP, no se puede incluir la opción «Cualquiera»",
-        "add_acl_dialog_title": "Añadir una regla ACL",
+        "add_rule_btn": "Añadir regla",
+        "any_not_allowed_with_multiple_ips": "Cuando hay varias direcciones IP, no se puede incluir la opción 'Cualquiera'",
+        "add_acl_dialog_title": "Añadir una regla de ACL",
         "edit_acl_dialog_title": "Modificar regla ACL",
         "name_already_exist_msg": "El nombre ya existe.",
         "accept_label": "Aceptar",
         "drop_label": "Bloquear",
         "reject_label": "Rechazar",
-        "add_new_btn": "Añadir nuevo",
+        "add_new_btn": "Añadir Nuevo",
         "any_label": "Cualquiera",
         "protocol_label": "Protocolo",
         "name_label": "Nombre",
         "souce_zoon_label": "Zona de origen",
         "source_port_label": "Puerto de origen",
         "action_label": "Acción",
-        "acl_desc": "{acl} puede controlar el tráfico de red según reglas como el protocolo, la dirección IP de destino, la dirección IP de origen y el número de puerto. Si hay un conflicto entre dos reglas {acl} habilitadas, el dispositivo dará prioridad a la regla de mayor prioridad."
+        "acl_desc": "{acl} puede controlar el tráfico de red basándose en reglas como el protocolo, la dirección IP de destino, la dirección IP de origen y número de puerto. Si hay un conflicto entre dos reglas de {acl} habilitadas, el dispositivo dará prioridad a la regla de mayor prioridad."
     },
     "menu_acl": "ACL"
 }

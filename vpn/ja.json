@@ -326,20 +326,25 @@
         "refer_step_one_tips": "1. 上流デバイスのポート転送設定が正しいことを確認するには、以下の表の情報をご参照ください：",
         "refer_step_two_tips": "2. 上流デバイスのファイアウォール設定が正しいことを確認してください。",
         "refer_step_three_tips": "3. {contact}",
-        "vpn_server_connectivity_tips": "このルーターがNATの背後にある場合、ISPルーター{gateway}でポート転送を設定する必要があるかもしれません。",
+        "vpn_server_connectivity_tips": "このルーターがNATの背後にある場合、上流ルーター{gateway}でポート転送を設定する必要があるかもしれません。",
         "protocol_label": "プロトコル",
         "exit_ip_address_label": "出口IPアドレス",
         "go_to_vpn_dashboard": "ダッシュボードに移動",
         "vpn_dashboard_desc_provider": "{provider}にサインインしています。VPNトンネルを作成および管理するには、VPNダッシュボードに移動してください。",
         "vpn_dashboard_desc": "設定がアップロードされました。VPNトンネルを作成および管理するには、VPNダッシュボードに移動してください。",
-        "expressvpn_custom_feature_security_title": "エンタープライズグレードのセキュリティ",
-        "expressvpn_custom_feature_security_desc": "ルーターに接続されたすべてのデバイスを保護",
-        "expressvpn_custom_feature_speed_title": "驚異的な高速速度",
-        "expressvpn_custom_feature_speed_desc": "接続速度への影響を最小限に抑えた最適化されたサーバーネットワーク",
+        "expressvpn_custom_feature_security_title": "信頼できるセキュリティ",
+        "expressvpn_custom_feature_security_desc": "ルーターに接続されたすべてのデバイスを暗号化で保護します。",
+        "expressvpn_custom_feature_speed_title": "圧倒的な高速通信",
+        "expressvpn_custom_feature_speed_desc": "最大40 Gbpsのサーバーにより、家庭全体で超高速接続を利用できます。",
         "expressvpn_custom_feature_network_title": "グローバルサーバーネットワーク",
-        "expressvpn_custom_feature_network_desc": "世界105か国にわたるサーバーロケーションへのアクセス",
-        "expressvpn_custom_get_started_btn": "スタート",
+        "expressvpn_custom_feature_network_desc": "世界113か国、合計214+か所のサーバーロケーションにアクセスできます。",
+        "expressvpn_custom_get_started_btn": "スタートする",
         "expressvpn_custom_get_started_tip": "今同意すれば、後で手動でVPNプロファイルを追加することもできます。",
+        "expressvpn_custom_welcome_title": "無料のExpressVPNサブスクリプションを利用する",
+        "expressvpn_custom_welcome_subscription_desc": "新しいFortifyルーターには、{subscription}が付属しています",
+        "expressvpn_custom_welcome_subscription": "12か月間無料のExpressVPN Advancedサブスクリプション。",
+        "expressvpn_custom_welcome_activation_desc": "有効化するには、まずGL.iNet Cloudがハードウェアと注文の対象資格を確認し、その後ExpressVPNに移動してブラウザでプロモーションのチェックアウトを完了します。本日のお支払いはありません。",
+        "expressvpn_custom_welcome_offer_note": "本特典はExpressVPNの新規および再利用のお客様が対象です。「再利用」とは、現在有効なサブスクリプションをお持ちでないお客様を指します。",
         "expressvpn_custom_redeem_title": "GL.iNet x ExpressVPNプランを利用する",
         "expressvpn_custom_promo_title": "無料の12ヶ月間プランが利用可能",
         "expressvpn_custom_order_id_label": "注文ID",
@@ -356,7 +361,7 @@
         "expressvpn_custom_redeemed_already_title": "12か月プランはすでに引き換え済みです",
         "expressvpn_custom_redeemed_claimed_by": "紐付け済みアカウント",
         "expressvpn_custom_redeemed_claimed_time": "紐付け日時",
-        "expressvpn_custom_redeemed_action_desc": "サブスクリプションを有効な状態に保つには紐付け済みアカウントでサインインするか、別のExpressVPNアカウントを使用してこのルーター上のVPN管理を続行してください。",
+        "expressvpn_custom_redeemed_action_desc": "紐付け済みアカウントでログインするか、別のExpressVPNアカウントを使用して、このルーター上のVPN管理を続行してください。",
         "expressvpn_custom_dashboard_active": "アクティブでネットワークを保護しています。",
         "expressvpn_custom_dashboard_expired": "サービス期限切れ。ネットワークを保護していません。",
         "expressvpn_custom_plan_sync_tip": "ログイン後、プランの特典は自動的にデバイスに同期されます。追加の設定は不要です。",
@@ -446,7 +451,9 @@
         "account_disabled_msg": "アカウントが無効化されています。XVPN サポートにお問い合わせください。",
         "device_token_expired_msg": "トークンが無効です。接続を復元するには、再度ログインしてください。",
         "credentials_changed_msg": "認証情報が変更されました。再度ログインしてください。",
-        "device_bind_failed_msg": "このルーターをアカウントに紐付けできません。ネットワーク接続を確認して、もう一度お試しください。"
+        "device_bind_failed_msg": "このルーターをアカウントに紐付けできません。ネットワーク接続を確認して、もう一度お試しください。",
+        "password_must_contain_uppercase_and_lowercase_msg": "パスワードには、大文字と小文字をそれぞれ少なくとも1文字含める必要があります。",
+        "password_must_contain_symbol_msg": "パスワードには、少なくとも1つの記号を含める必要があります。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPNポリシーに基づいたトンネルリストにクライアントを追加してください。トンネルに対してより詳細な変更を行いたい場合は、{page}にアクセスしてトンネルを管理してください。",
@@ -651,7 +658,8 @@
         "set_parameters_tips_1": "ルーターは自動的に難読化パラメータを生成します。",
         "set_parameters_tips_2": "AmneziaWGの難読化に精通している場合は手動で編集することもできますが、自動生成されたものを使用することもできます。",
         "wg_client_parameters_tips": "難読化パラメータはサーバー側で決定されます。設定ファイルをインポートした後は変更する必要はありません。",
-        "conneted_tips": "難読化が有効になっています。AmneziaWGアプリまたはAmneziaWG難読化をサポートするファームウェアを実行しているGL.iNetルーター経由での接続を推奨します。AmneziaWG難読化をサポートしていないクライアントは接続できません。"
+        "conneted_tips": "難読化が有効になっています。AmneziaWGアプリまたはAmneziaWG難読化をサポートするファームウェアを実行しているGL.iNetルーター経由での接続を推奨します。AmneziaWG難読化をサポートしていないクライアントは接続できません。",
+        "enable_tips_v1": "有効にすると、VPN サーバーは AmneziaWG 難読化プロトコルを使用して VPN トラフィックを偽装します。"
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "アップロードされたファイルが大きすぎます。ストレージ不足のため解凍に失敗しました。",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "切断されました"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN ダッシュボード"
+    "menu_expressvpn_dashboard": "ExpressVPN ダッシュボード",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Fortifyへようこそ。"
+    }
 }

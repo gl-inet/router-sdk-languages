@@ -327,7 +327,10 @@
         "minutes_value_label": "{count}mins",
         "network_type_conflicts_tips": "The current SIM card network type is {networkType}, which conflicts with the {feature}'s network type.",
         "low_power_mode_only_tips": "The device is in low power mode.",
-        "network_type_lock_tower_tips": "If you lock the Tower, the network type will be fixed and cannot be changed."
+        "network_type_lock_tower_tips": "If you lock the Tower, the network type will be fixed and cannot be changed.",
+        "rescan_label": "Rescan",
+        "slot_inactive_tips": "Slot inactive. If a SIM card is inserted, manually switch to activate this slot.",
+        "sim_slot_label": "SIM {slot} Slot"
     },
     "router_visual": {
         "wlan_client": "WLAN Clients",
@@ -559,7 +562,10 @@
         "cable_fail_try_other_tips": "Please try another {config}.",
         "modem_auto_switching_tips": "Getting SIM card information, please wait.",
         "cellular_detecting_title": "Detecting SIM card",
-        "cable_disabled_tips": "{feature} is enabled."
+        "cable_disabled_tips": "{feature} is enabled.",
+        "expressvpn_setup_title": "Set Up ExpressVPN on Fortify",
+        "expressvpn_setup_tip": "Your router includes a 12-month ExpressVPN Advanced plan. Activate it on the next page to continue VPN setup.",
+        "expressvpn_start_setup_btn": "Start Setup"
     },
     "traffic": {
         "data_used_label": "{sim} Data Used",

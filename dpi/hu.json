@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: Egyszerű és hatékony fair-queueing alapvető késleltetéscsökkentéssel.",
         "tips_second": "Az SQM hatással van az útválasztón, mint átjárón áthaladó forgalomra, beleértve a VPN-kliens forgalmát is, de nem befolyásolja a bejövő forgalmat, amikor az útválasztó VPN-szerverként működik.",
         "wan_bandwidth_title": "WAN sávszélesség",
-        "auto_detect_btn": "Automatikus érzékelés",
+        "auto_detect_btn": "Sebességteszt futtatása",
         "queue_discipline_title": "Sorrendi Fegyelem",
         "cake_tips": "Intelligens, automatikus forgalomszabályozás a legjobb általános késleltetés-szabályozással (ajánlott).",
         "fq_codel_tips": "Egyszerű és hatékony fair-queueing alapvető késleltetéscsökkentéssel.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "Az erre a szabályra illeszkedő forgalom a legmagasabb prioritást kapja, így hálózati torlódás esetén elsőként lesz továbbítva a zökkenőmentes működés érdekében.",
         "speed_test_less_than_1m_tips": "Az észlelt sávszélesség kevesebb mint 1 Mbps. Adja meg kézzel a sávszélességet.",
         "speed_test_done_msg": "Észlelés kész",
+        "speed_test_in_progress": "A sebességteszt folyamatban van. Kérjük, várjon...",
+        "speed_test_failed_msg": "A sebességteszt sikertelen. Kérjük, próbálja újra később.",
         "dest_port_tips": "A porttartomány 1 és 65535 között lehet. Megadhat egyetlen portot vagy porttartományt (pl. 501-510). Az utolsó portszámnak nagyobbnak kell lennie az első portszámnál. Üresen hagyva bármelyiket jelenti.",
         "edit_advanced_qos_rule_title": "Speciális QoS-szabály szerkesztése"
     },
@@ -327,7 +329,15 @@
         "engine_version_center_title": "{name} Verzióközpont",
         "engine_desc_text": "Ez az oldal csak az alapvető rendszerállapot-jelzőket mutatja. A forgalom feldolgozása akkor kezdődik meg, amikor a megfelelő funkciók engedélyezve vannak.",
         "version_update_center_title": "Verziófrissítési központ",
-        "upgrading_btn_text": "Frissítés..."
+        "upgrading_btn_text": "Frissítés...",
+        "more_dpi_based_features_label": "További DPI-alapú funkciók:",
+        "activate_service_title": "{title} aktiválása",
+        "activation_effects_title": "Mi fog történni?",
+        "activation_step1_title": "Ezt a funkciót a DPI biztosítja. A DPI helyi erőforrásokat használ a csomagok elemzésére és osztályozására.",
+        "database_label": "Adatbázis",
+        "dpi_online_upgrade_title": "DPI online frissítés",
+        "new_label": "Új",
+        "dpi_up_to_date_tips": "A DPI naprakész."
     },
     "menu_dpifeatures": "DPI funkciók"
 }

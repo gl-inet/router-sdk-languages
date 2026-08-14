@@ -2,6 +2,8 @@
     "upnp": {
         "title": "UPnP",
         "configuration": "UPnP konfigūracija",
+        "introduction": "Įvadas",
+        "security_risks": "Saugumo rizikos",
         "desc": "Kai įjungta, UPnP leidžia LAN įrenginiams automatiškai kurti laikinus WAN prievadų susiejimus. Aktyvūs susiejimai pašalinami, kai klientas juos atlaisvina arba kai baigiasi nuomos laikas.",
         "allowed_clients_wan_ports": "Leidžiami klientai ir WAN prievadai",
         "policy_tips": "Leisti visus leidžia visiems LAN klientams prašyti WAN prievadų susiejimų. Riboti leidžia tik atitinkančius klientus ir prievadus.",

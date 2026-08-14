@@ -332,14 +332,19 @@
         "go_to_vpn_dashboard": "前往儀表板",
         "vpn_dashboard_desc": "配置已上傳。請前往 VPN 儀表板以建立和管理 VPN 通道。",
         "vpn_dashboard_desc_provider": "您已登入 {provider}。請前往 VPN 儀表板以建立和管理 VPN 通道。",
-        "expressvpn_custom_feature_security_title": "企業級安全性",
-        "expressvpn_custom_feature_security_desc": "保護連接到路由器的所有裝置",
-        "expressvpn_custom_feature_speed_title": "極速效能",
-        "expressvpn_custom_feature_speed_desc": "最佳化的伺服器網路，對連線速度影響最小",
+        "expressvpn_custom_feature_security_title": "值得信賴的安全防護",
+        "expressvpn_custom_feature_security_desc": "透過加密保護所有連接到路由器的裝置。",
+        "expressvpn_custom_feature_speed_title": "疾速連線",
+        "expressvpn_custom_feature_speed_desc": "伺服器頻寬最高可達 40 Gbps，暢享全屋超高速連線。",
         "expressvpn_custom_feature_network_title": "全球伺服器網路",
-        "expressvpn_custom_feature_network_desc": "可訪問遍及全球 105 個國家的伺服器位置",
+        "expressvpn_custom_feature_network_desc": "可存取遍布全球 113 個國家和地區的 214+ 個伺服器位置。",
         "expressvpn_custom_get_started_btn": "開始使用",
         "expressvpn_custom_get_started_tip": "立即同意，您仍可稍後手動新增 VPN 設定檔。",
+        "expressvpn_custom_welcome_title": "兌換您的免費 ExpressVPN 訂閱",
+        "expressvpn_custom_welcome_subscription_desc": "您的新 Fortify 路由器隨附{subscription}",
+        "expressvpn_custom_welcome_subscription": "免費 12 個月 ExpressVPN Advanced 訂閱。",
+        "expressvpn_custom_welcome_activation_desc": "若要啟用此訂閱，GL.iNet Cloud 會先驗證您的硬體和訂單資格，然後轉至 ExpressVPN，由您在瀏覽器中完成促銷結帳——今天無需支付任何費用。",
+        "expressvpn_custom_welcome_offer_note": "此優惠適用於 ExpressVPN 新客戶和回歸客戶；「回歸客戶」是指目前沒有有效訂閱的客戶。",
         "expressvpn_custom_redeem_title": "兌換 GL.iNet x ExpressVPN 方案",
         "expressvpn_custom_redeem_desc": "此聯名路由器可兌換一份隨附的12個月 ExpressVPN 方案（適用於新帳戶或無有效訂閱的帳戶）。GL.iNet Cloud 會先驗證此硬體與訂單資格，然後 ExpressVPN 將在您的瀏覽器中完成促銷結帳。",
         "expressvpn_custom_promo_title": "提供免費 12 個月方案",
@@ -360,7 +365,7 @@
         "expressvpn_custom_redeemed_already_title": "12 個月方案已兌換",
         "expressvpn_custom_redeemed_claimed_by": "綁定帳戶",
         "expressvpn_custom_redeemed_claimed_time": "綁定時間",
-        "expressvpn_custom_redeemed_action_desc": "使用綁定帳戶登入以保持訂閱有效，或使用其他 ExpressVPN 帳戶繼續管理此路由器上的 VPN。",
+        "expressvpn_custom_redeemed_action_desc": "使用綁定帳戶登入，或使用其他 ExpressVPN 帳戶繼續管理此路由器上的 VPN。",
         "expressvpn_custom_dashboard_active": "啟用中並保護您的網路。",
         "expressvpn_custom_dashboard_expired": "服務已到期，不再保護您的網路。",
         "expressvpn_custom_plan_sync_tip": "您的方案權益將在登入後自動同步至裝置，無需額外設定。",
@@ -441,12 +446,14 @@
         "expressvpn_no_subscription_msg": "此帳戶未找到有效的 ExpressVPN 訂閱。",
         "expressvpn_business_msg": "ExpressVPN 請求被拒絕，請檢查帳戶或設備狀態。",
         "expressvpn_internal_msg": "ExpressVPN 服務錯誤，請稍後再試。",
-        "provider_token_invalid_msg": "權杖無效。請重新登入以恢復連線。",
+        "provider_token_invalid_msg": "令牌無效。請重新登入以恢復連線。",
         "credentials_changed_msg": "您的認證已變更。請重新登入。",
         "account_disabled_msg": "您的帳戶已停用。請聯絡 XVPN 支援。",
-        "device_token_expired_msg": "權杖無效。請重新登入以恢復連線。",
+        "device_token_expired_msg": "令牌無效。請重新登入以恢復連線。",
         "device_bind_failed_msg": "無法將此路由器綁定到您的帳戶。請檢查網路連線後再試一次。",
-        "premium_account_required_msg": "需要 Premium 訂閱。請續訂您的授權。"
+        "premium_account_required_msg": "需要 Premium 訂閱。請續訂您的授權。",
+        "password_must_contain_uppercase_and_lowercase_msg": "密碼必須包含至少一個大寫字母和一個小寫字母。",
+        "password_must_contain_symbol_msg": "密碼必須包含至少一個符號。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_btn": "使用 VPN 隧道",
@@ -651,7 +658,8 @@
         "set_parameters_tips_1": "路由器會自動生成混淆參數。",
         "set_parameters_tips_2": "若您熟悉 AmneziaWG 混淆協議，可手動編輯參數，或直接使用自動生成的設定。",
         "wg_client_parameters_tips": "混淆參數由伺服器端決定，導入設定檔後無需更改。",
-        "conneted_tips": "混淆功能已啟用。建議透過 AmneziaWG 應用程式或運行支援 AmneziaWG 混淆功能的 GL.iNet 路由器韌體進行連線。不支援 AmneziaWG 混淆功能的客戶端將無法連線。"
+        "conneted_tips": "混淆功能已啟用。建議透過 AmneziaWG 應用程式或運行支援 AmneziaWG 混淆功能的 GL.iNet 路由器韌體進行連線。不支援 AmneziaWG 混淆功能的客戶端將無法連線。",
+        "enable_tips_v1": "啟用後，VPN 伺服器會使用 AmneziaWG 混淆協定來偽裝 VPN 流量。"
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "上傳檔案過大。因儲存空間不足，解壓縮失敗。",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "已斷開連線"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN 儀表板"
+    "menu_expressvpn_dashboard": "ExpressVPN 儀表板",
+    "welcome": {
+        "expressvpn_welcome_slogan": "歡迎使用 Fortify。"
+    }
 }

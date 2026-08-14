@@ -332,12 +332,17 @@
         "go_to_vpn_dashboard": "Przejdź do Panelu sterowania",
         "vpn_dashboard_desc": "Konfiguracja przesłana. Przejdź do Panelu sterowania VPN, aby tworzyć i zarządzać tunelami VPN.",
         "vpn_dashboard_desc_provider": "Jesteś zalogowany do {provider}. Przejdź do Panelu sterowania VPN, aby tworzyć i zarządzać tunelami VPN.",
-        "expressvpn_custom_feature_security_title": "Bezpieczeństwo Klasy Korporacyjnej",
-        "expressvpn_custom_feature_security_desc": "Chroni wszystkie urządzenia podłączone do Twojego rutera",
-        "expressvpn_custom_feature_speed_desc": "Zoptymalizowana sieć serwerów z minimalnym wpływem na szybkość połączenia",
-        "expressvpn_custom_feature_network_title": "Globalna Sieć Serwerów",
+        "expressvpn_custom_feature_security_title": "Godne zaufania bezpieczeństwo",
+        "expressvpn_custom_feature_security_desc": "Chroń za pomocą szyfrowania wszystkie urządzenia połączone z routerem.",
+        "expressvpn_custom_feature_speed_desc": "Serwery o przepustowości do 40 Gbps zapewniają ultraszybką łączność w całym domu.",
+        "expressvpn_custom_feature_network_title": "Globalna sieć serwerów",
         "expressvpn_custom_get_started_btn": "Rozpocznij Teraz",
         "expressvpn_custom_get_started_tip": "Wyraź zgodę teraz, możesz później ręcznie dodać profile VPN.",
+        "expressvpn_custom_welcome_title": "Odbierz bezpłatną subskrypcję ExpressVPN",
+        "expressvpn_custom_welcome_subscription_desc": "Do nowego routera Fortify dołączona jest {subscription}",
+        "expressvpn_custom_welcome_subscription": "bezpłatna 12-miesięczna subskrypcja ExpressVPN Advanced.",
+        "expressvpn_custom_welcome_activation_desc": "Aby ją aktywować, GL.iNet Cloud najpierw zweryfikuje sprzęt oraz uprawnienia wynikające z zamówienia, a następnie przekieruje Cię do ExpressVPN, gdzie w przeglądarce dokończysz promocyjne zamówienie — dzisiaj nic nie zapłacisz.",
+        "expressvpn_custom_welcome_offer_note": "Oferta jest dostępna dla nowych i powracających klientów ExpressVPN; „powracający” oznacza, że obecnie nie masz aktywnej subskrypcji.",
         "expressvpn_custom_redeem_title": "Zrealizuj Plan GL.iNet x ExpressVPN",
         "expressvpn_custom_promo_title": "Dostępny bezpłatny 12-miesięczny Plan",
         "expressvpn_custom_order_id_label": "ID zamówienia",
@@ -356,7 +361,7 @@
         "expressvpn_custom_redeemed_already_title": "Plan 12-miesięczny został już zrealizowany",
         "expressvpn_custom_redeemed_claimed_by": "Powiązane konto",
         "expressvpn_custom_redeemed_claimed_time": "Czas powiązania",
-        "expressvpn_custom_redeemed_action_desc": "Zaloguj się za pomocą powiązanego konta, aby utrzymać aktywną subskrypcję, albo użyj innego konta ExpressVPN, aby nadal zarządzać VPN na tym ruterze.",
+        "expressvpn_custom_redeemed_action_desc": "Zaloguj się za pomocą powiązanego konta albo użyj innego konta ExpressVPN, aby nadal zarządzać VPN na tym routerze.",
         "expressvpn_custom_dashboard_active": "Aktywuj i chroń swoją sieć.",
         "expressvpn_custom_dashboard_expired": "Usługa wygasła. Twoja sieć nie jest już chroniona.",
         "expressvpn_custom_plan_sync_tip": "Korzyści z Twojego planu zostaną automatycznie zsynchronizowane z urządzeniem po zalogowaniu, nie jest wymagana dodatkowa konfiguracja.",
@@ -370,10 +375,10 @@
         "expressvpn_custom_manual_title": "Dodaj Ręcznie",
         "expressvpn_custom_manual_desc": "Zaimportuj plik konfiguracyjny WireGuard dla niestandardowego profilu – nie wymaga logowania do ExpressVPN.",
         "expressvpn_custom_claim_btn": "Odbierz Plan 12-miesięczny",
-        "expressvpn_custom_feature_network_desc": "Dostęp do lokalizacji serwerów w 105 krajach na całym świecie",
+        "expressvpn_custom_feature_network_desc": "Uzyskaj dostęp do ponad 214 lokalizacji serwerów w 113 krajach na całym świecie.",
         "expressvpn_custom_dashboard_redeemed_desc": "Zrealizowane przez {account} dnia {date}. Plan 12-miesięczny został dodany do tego konta ExpressVPN. Kredyt realizacyjny tego rutera został już wykorzystany — wszystkie inne konta, na które zalogujesz się na tym ruterze, będą nadal korzystać z własnej istniejącej subskrypcji.",
         "expressvpn_custom_redeem_desc": "Ten router współmarkowy umożliwia skorzystanie z jednego z 12-miesięcznych abonamentów ExpressVPN (dotyczy nowych kont lub kont bez aktywnej subskrypcji). GL.iNet Cloud najpierw weryfikuje sprzęt i kwalifikowalność zamówienia, a następnie ExpressVPN finalizuje promocję w Twojej przeglądarce.",
-        "expressvpn_custom_feature_speed_title": "Błyskawiczna Prędkość",
+        "expressvpn_custom_feature_speed_title": "Błyskawiczna prędkość",
         "expressvpn_custom_redeemed_by_prefix": "Zrealizowane przez ",
         "expressvpn_custom_redeemed_on": " dnia ",
         "expressvpn_custom_redeemed_notice_suffix": ". Plan 12-miesięczny został dodany do tego konta ExpressVPN. Kredyt realizacyjny tego rutera został już wykorzystany — wszystkie inne konta, na które zalogujesz się na tym ruterze, będą nadal korzystać z własnej istniejącej subskrypcji.",
@@ -446,7 +451,9 @@
         "device_token_expired_msg": "Token jest nieprawidłowy. Zaloguj się ponownie, aby przywrócić połączenie.",
         "device_bind_failed_msg": "Nie można powiązać tego rutera z Twoim kontem. Sprawdź połączenie sieciowe i spróbuj ponownie.",
         "premium_account_required_msg": "Wymagana jest subskrypcja Premium. Odnów licencję.",
-        "account_disabled_msg": "Twoje konto zostało dezaktywowane. Skontaktuj się z pomocą techniczną XVPN."
+        "account_disabled_msg": "Twoje konto zostało dezaktywowane. Skontaktuj się z pomocą techniczną XVPN.",
+        "password_must_contain_uppercase_and_lowercase_msg": "Hasło musi zawierać co najmniej jedną wielką i jedną małą literę.",
+        "password_must_contain_symbol_msg": "Hasło musi zawierać co najmniej jeden symbol."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "Dodaj klienta do listy tuneli zasad polityki VPN. Jeśli chcesz dokonać bardziej szczegółowych zmian w tunelach, przejdź do {page}, aby zarządzać tunelami.",
@@ -651,7 +658,8 @@
         "set_parameters_tips_2": "Możesz je edytować ręcznie, jeśli znasz zaciemnianie AmneziaWG, lub użyć automatycznie wygenerowanych.",
         "set_parameters_tips_1": "Router automatycznie generuje parametry zaciemniania.",
         "wg_client_parameters_tips": "Parametry zaciemniania są określane przez serwer. Nie ma potrzeby ich zmiany po zaimportowaniu pliku konfiguracyjnego.",
-        "conneted_tips": "Włączono zaciemnianie. Zalecamy łączenie za pomocą aplikacji AmneziaWG lub routera GL.iNet z oprogramowaniem układowym obsługującym zaciemnianie AmneziaWG. Klienci, którzy nie obsługują zaciemniania AmneziaWG, nie będą mogli się połączyć."
+        "conneted_tips": "Włączono zaciemnianie. Zalecamy łączenie za pomocą aplikacji AmneziaWG lub routera GL.iNet z oprogramowaniem układowym obsługującym zaciemnianie AmneziaWG. Klienci, którzy nie obsługują zaciemniania AmneziaWG, nie będą mogli się połączyć.",
+        "enable_tips_v1": "Po włączeniu serwer VPN używa protokołu maskowania AmneziaWG do ukrywania ruchu VPN."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "Przesłany plik jest zbyt duży. Dekompresja nie powiodła się z powodu niewystarczającej przestrzeni dyskowej.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Rozłączono"
     },
-    "menu_expressvpn_dashboard": "Panel ExpressVPN"
+    "menu_expressvpn_dashboard": "Panel ExpressVPN",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Witamy w Fortify."
+    }
 }

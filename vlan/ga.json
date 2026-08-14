@@ -107,9 +107,11 @@
         "hostname_tips": "2-63 carachtar. Ní cheadaítear ach litreacha, digití nó fleiscíní. Caithfidh sé tosú agus críochnú le litir nó digit, agus ní féidir é a bheith comhdhéanta de digití amháin.",
         "not_asscess_tips": "Faoi láthair ní féidir le {name} rochtain a fháil ar na codanna líonra {net}.",
         "err_vlan_id_must_be_integer": "Caithfidh VLAN ID a bheith ina shlánuimhir.",
-        "ip_conflicts_with_interface_ip": "Tá coinbhleacht idir an seoladh IP agus seoladh IP an chomhéadain ar an bhfolíon reatha."
+        "ip_conflicts_with_interface_ip": "Tá coinbhleacht idir an seoladh IP agus seoladh IP an chomhéadain ar an bhfolíon reatha.",
+        "associated_lan_ports": "Poirt LAN ghaolmhara"
     },
     "menu_vlan": "Fo-líonra",
     "menu_guestip": "Líonra Aoi",
-    "menu_iotip": "Líonra IoT"
+    "menu_iotip": "Líonra IoT",
+    "menu_lan": "LAN"
 }

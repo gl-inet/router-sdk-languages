@@ -13,7 +13,7 @@
         "qdisc_fq_codel_tips": "fq_codel: Einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung.",
         "tips_second": "SQM beeinflusst den Datenverkehr, der den Router als Gateway passiert, einschließlich VPN-Client-Verkehr, aber nicht den eingehenden Verkehr, wenn der Router als VPN-Server arbeitet.",
         "wan_bandwidth_title": "WAN-Bandbreite",
-        "auto_detect_btn": "Auto Detect",
+        "auto_detect_btn": "Geschwindigkeitstest starten",
         "queue_discipline_title": "Queue-Disziplin",
         "cake_tips": "Intelligentes, automatisches Traffic-Shaping mit der besten Gesamtlatenzkontrolle (empfohlen).",
         "fq_codel_tips": "Einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung.",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "Der dieser Regel entsprechende Datenverkehr erhält die höchste Priorität und wird bei Netzüberlastung zuerst weitergeleitet, um ein reibungsloses Erlebnis zu gewährleisten.",
         "speed_test_less_than_1m_tips": "Die erkannte Bandbreite beträgt weniger als 1 Mbit/s. Bitte geben Sie die Bandbreite manuell ein.",
         "speed_test_done_msg": "Erkennung abgeschlossen",
+        "speed_test_in_progress": "Geschwindigkeitstest läuft. Bitte warten...",
+        "speed_test_failed_msg": "Geschwindigkeitstest fehlgeschlagen. Bitte versuchen Sie es später erneut.",
         "dest_port_tips": "Der Portbereich reicht von 1 bis 65535. Sie können einen einzelnen Port oder einen Portbereich festlegen (z. B. 501-510). Die letzte Portnummer muss größer als die erste Portnummer sein. Leer bedeutet beliebig.",
         "edit_advanced_qos_rule_title": "Erweiterte QoS-Regel bearbeiten"
     },
@@ -327,7 +329,15 @@
         "engine_version_center_title": "{name} Versionszentrum",
         "core_services_ready_tag": "Kernservices bereit",
         "engine_desc_text": "Diese Seite zeigt nur die Statusanzeigen des Kernsystems. Die Verkehrsverarbeitung beginnt, sobald die entsprechenden Funktionen aktiviert sind.",
-        "version_update_center_title": "Versionsaktualisierungszentrum"
+        "version_update_center_title": "Versionsaktualisierungszentrum",
+        "more_dpi_based_features_label": "Weitere DPI-basierte Funktionen:",
+        "activate_service_title": "{title} aktivieren",
+        "activation_effects_title": "Was wird passieren?",
+        "activation_step1_title": "Diese Funktion wird durch DPI unterstützt. DPI nutzt lokale Ressourcen, um Pakete zu analysieren und zu klassifizieren.",
+        "database_label": "Datenbank",
+        "dpi_up_to_date_tips": "DPI ist auf dem neuesten Stand.",
+        "dpi_online_upgrade_title": "DPI-Online-Aktualisierung",
+        "new_label": "Neu"
     },
     "menu_dpifeatures": "DPI-Funktionen"
 }

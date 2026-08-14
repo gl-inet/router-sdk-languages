@@ -7,7 +7,7 @@
         "score_rock_solid": "非常穩定",
         "score_healthy": "健康",
         "score_fluctuating": "波動",
-        "score_degraded": "降級",
+        "score_degraded": "劣化",
         "score_critical": "嚴重",
         "internet_target": "網際網路可達性目標",
         "dns_target": "DNS 解析目標",
@@ -53,6 +53,9 @@
         "probe_dns_target": "DNS 解析目標",
         "rate_total_label": "總速率：{unit}",
         "rate_total_netnat_tips": "啟用 {network} 功能可能會影響速度準確性。",
-        "loss_percent_label": "{percent}% 遺失"
+        "loss_percent_label": "{percent}% 遺失",
+        "speedtest_stopping": "正在停止",
+        "speedtest_stop_btn": "停止測試",
+        "speedtest_offline_tips": "沒有網路，無法使用測速。"
     }
 }

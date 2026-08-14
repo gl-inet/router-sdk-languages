@@ -11,9 +11,9 @@
         "full_name": "智能队列管理",
         "qdisc_cake_tips": "cake：智能、自动的流量整形，提供最佳的整体延迟控制（推荐）。",
         "qdisc_fq_codel_tips": "fq_codel：简单高效的公平队列，可基本降低延迟。",
-        "tips_second": "SQM 会影响通过路由器作为网关的流量，包括 VPN 客户端流量，但当路由器作为 VPN 服务器运行时，不会影响传入流量。",
+        "tips_second": "SQM 会影响通过路由器作为网关的流量。",
         "wan_bandwidth_title": "WAN 带宽",
-        "auto_detect_btn": "自动检测",
+        "auto_detect_btn": "运行测速",
         "queue_discipline_title": "队列规则",
         "cake_tips": "智能的自动流量整形，具备最佳整体延迟控制（推荐）。",
         "fq_codel_tips": "简单高效的公平队列，具有基本的延迟降低功能。",
@@ -43,7 +43,7 @@
         "cake_autorate_desc": "基于探测 RTT 实时降低或提高 CAKE 带宽的延迟驱动整形器——不进行主动测速，仅使用轻量级 ping。建议在 WAN 带宽波动时使用；稳定链路无需启用。",
         "cake_autorate_tips": "持续向反射服务器发送小型 ICMP 延迟探测包，观测往返延迟，并动态降低或提高 CAKE 整形器带宽以抑制缓冲区膨胀。该功能不会主动运行速度测试。",
         "queue_discipline_tips": "选择队列算法。cake 提供智能、自动的流量整形功能，具有最佳的整体延迟控制能力。fq_codel 提供简单高效的公平队列机制，可基本降低延迟。",
-        "intelligently_manage_traffic_tips": "智能队列管理通过智能调控流量，最大限度降低延迟和\"缓冲区膨胀\"，为游戏和通话提供更流畅的体验。该功能最适合低带宽或拥塞网络环境；在高速连接中启用此功能可能会降低峰值吞吐量。SQM 会影响通过路由器作为网关转发的流量（包括 VPN 客户端流量），但当路由器作为 VPN 服务器运行时，不会影响入站流量。",
+        "intelligently_manage_traffic_tips": "智能队列管理通过智能调控流量，最大限度降低延迟和\"缓冲区膨胀\"，为游戏和通话提供更流畅的体验。该功能最适合低带宽或拥塞网络环境；在高速连接中启用此功能可能会降低峰值吞吐量。SQM 会影响通过路由器作为网关转发的流量。",
         "probe_interval_tips": "值越低 = 响应越快，但 CPU 使用率越高。",
         "small_traffic_tips1": "注意 — 少量但持续的流量：",
         "download_latency_threshold_tips": "超过此值将触发带宽降低。",
@@ -130,6 +130,8 @@
         "highest_priority_traffic_rule_tips": "符合此规则的网络流量将获得最高优先级，即使在网络拥堵时也能确保优先转发，保障流畅体验。",
         "speed_test_less_than_1m_tips": "检测到的带宽小于 1 Mbps。请手动输入带宽。",
         "speed_test_done_msg": "检测完成",
+        "speed_test_in_progress": "正在测速，请稍候...",
+        "speed_test_failed_msg": "测速失败，请稍后重试。",
         "dest_port_tips": "端口范围为 1 到 65535。您可以设置单个端口或端口范围（例如 501-510）。最后一个端口号必须大于第一个端口号。留空表示任意。",
         "edit_advanced_qos_rule_title": "编辑高级 QoS 规则"
     },
@@ -327,7 +329,15 @@
         "latest_available_label": "最新可用版本： ",
         "upgrading_btn_text": "正在升级...",
         "trial_dialog_title": "激活 DPI",
-        "trial_dialog_success_title": "激活成功！"
+        "trial_dialog_success_title": "激活成功！",
+        "more_dpi_based_features_label": "更多基于 DPI 的功能：",
+        "activate_service_title": "激活 {title}",
+        "activation_effects_title": "会发生什么？",
+        "activation_step1_title": "此功能由 DPI 提供支持。DPI 使用本地资源分析和分类数据包。",
+        "database_label": "数据库",
+        "dpi_online_upgrade_title": "DPI 在线升级",
+        "dpi_up_to_date_tips": "DPI 已是最新版本。",
+        "new_label": "新的"
     },
     "menu_dpifeatures": "DPI 引擎"
 }

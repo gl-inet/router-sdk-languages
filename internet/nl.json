@@ -327,7 +327,10 @@
         "minutes_value_label": "{count} min",
         "network_type_conflicts_tips": "Het huidige netwerktype van de SIM-kaart is {networkType}, wat conflicteert met het netwerktype van {feature}.",
         "low_power_mode_only_tips": "Het apparaat staat in de energiebesparende modus.",
-        "network_type_lock_tower_tips": "Als u de Tower vergrendelt, wordt het netwerktype vastgezet en kan het niet worden gewijzigd."
+        "network_type_lock_tower_tips": "Als u de Tower vergrendelt, wordt het netwerktype vastgezet en kan het niet worden gewijzigd.",
+        "rescan_label": "Opnieuw scannen",
+        "slot_inactive_tips": "Sleuf inactief. Als er een simkaart is geplaatst, schakel dan handmatig om deze sleuf te activeren.",
+        "sim_slot_label": "SIM {slot}-sleuf"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -559,7 +562,10 @@
         "cable_fail_try_other_tips": "Probeer een andere {config}.",
         "modem_auto_switching_tips": "SIM-kaartinformatie ophalen, even geduld a.u.b.",
         "cellular_detecting_title": "Detecteren van SIM-kaart",
-        "cable_disabled_tips": "{feature} is ingeschakeld."
+        "cable_disabled_tips": "{feature} is ingeschakeld.",
+        "expressvpn_setup_title": "ExpressVPN instellen op Fortify",
+        "expressvpn_setup_tip": "Uw router bevat een ExpressVPN Advanced-abonnement van 12 maanden. Activeer het op de volgende pagina om door te gaan met de VPN-configuratie.",
+        "expressvpn_start_setup_btn": "Installatie starten"
     },
     "traffic": {
         "save_to_flash_label": "Gegevens opslaan bij uitschakelen",

@@ -332,14 +332,19 @@
         "go_to_vpn_dashboard": "前往控制面板",
         "vpn_dashboard_desc": "配置已上传。请前往 VPN 控制面板以创建和管理 VPN 隧道。",
         "vpn_dashboard_desc_provider": "您已登录到 {provider}。请前往 VPN 控制面板以创建和管理 VPN 隧道。",
-        "expressvpn_custom_feature_security_title": "企业级安全",
-        "expressvpn_custom_feature_security_desc": "保护连接到路由器的所有设备",
-        "expressvpn_custom_feature_speed_title": "极速体验",
-        "expressvpn_custom_feature_speed_desc": "优化的服务器网络，对连接速度影响最小",
+        "expressvpn_custom_feature_security_title": "可信赖的安全保护",
+        "expressvpn_custom_feature_security_desc": "通过加密保护连接到路由器的所有设备。",
+        "expressvpn_custom_feature_speed_title": "疾速连接",
+        "expressvpn_custom_feature_speed_desc": "服务器带宽最高可达 40 Gbps，畅享全屋超高速连接。",
         "expressvpn_custom_feature_network_title": "全球服务器网络",
-        "expressvpn_custom_feature_network_desc": "可访问全球 105 个国家的服务器位置",
+        "expressvpn_custom_feature_network_desc": "可访问遍布全球 113 个国家和地区的 214+ 个服务器位置。",
         "expressvpn_custom_get_started_btn": "立即开始",
         "expressvpn_custom_get_started_tip": "立即同意，您仍可稍后手动添加 VPN 配置文件。",
+        "expressvpn_custom_welcome_title": "兑换您的免费 ExpressVPN 订阅",
+        "expressvpn_custom_welcome_subscription_desc": "您的新 Fortify 路由器随附{subscription}",
+        "expressvpn_custom_welcome_subscription": "免费 12 个月 ExpressVPN Advanced 订阅。",
+        "expressvpn_custom_welcome_activation_desc": "要激活此订阅，GL.iNet Cloud 会先验证您的硬件和订单资格，然后转至 ExpressVPN，由您在浏览器中完成促销结账——今天无需支付任何费用。",
+        "expressvpn_custom_welcome_offer_note": "此优惠适用于 ExpressVPN 新客户和回归客户；“回归客户”是指当前没有有效订阅的客户。",
         "expressvpn_custom_redeem_title": "兑换 GL.iNet x ExpressVPN 套餐",
         "expressvpn_custom_redeem_desc": "此联名路由器可兑换一个随附的12个月 ExpressVPN 套餐（适用于新账户或没有有效订阅的账户）。GL.iNet Cloud 首先验证此硬件和订单资格，然后 ExpressVPN 在您的浏览器中完成促销结算。",
         "expressvpn_custom_promo_title": "提供免费 12 个月套餐",
@@ -359,7 +364,7 @@
         "expressvpn_custom_redeemed_prompt_desc": "此路由器附带的12个月套餐已被兑换并添加到 ExpressVPN 账户中。",
         "expressvpn_custom_redeemed_already_title": "12 个月套餐已兑换",
         "expressvpn_custom_redeemed_claimed_time": "绑定时间",
-        "expressvpn_custom_redeemed_action_desc": "使用绑定账户登录以保持订阅有效，或使用其他 ExpressVPN 账户继续管理此路由器上的 VPN。",
+        "expressvpn_custom_redeemed_action_desc": "使用绑定账户登录，或使用其他 ExpressVPN 账户继续管理此路由器上的 VPN。",
         "expressvpn_custom_dashboard_active": "服务已激活，正在保护您的网络。",
         "expressvpn_custom_dashboard_expired": "服务已过期，不再保护您的网络。",
         "expressvpn_custom_plan_sync_tip": "登录后，您的套餐权益将自动同步至设备，无需额外设置。",
@@ -446,7 +451,9 @@
         "credentials_changed_msg": "您的凭据已更改。请重新登录。",
         "account_disabled_msg": "您的账号已被停用。请联系 XVPN 支持。",
         "device_token_expired_msg": "令牌无效。请重新登录以恢复连接。",
-        "device_bind_failed_msg": "无法将此路由器绑定到您的账号。请检查网络连接并重试。"
+        "device_bind_failed_msg": "无法将此路由器绑定到您的账号。请检查网络连接并重试。",
+        "password_must_contain_uppercase_and_lowercase_msg": "密码必须包含至少一个大写字母和一个小写字母。",
+        "password_must_contain_symbol_msg": "密码必须包含至少一个符号。"
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "将客户端添加到 VPN 策略基础的隧道列表中。如果您想对隧道进行更详细的更改，请前往{page}管理隧道。",
@@ -651,7 +658,8 @@
         "set_parameters_tips_2": "如果您熟悉 AmneziaWG 混淆协议，可以手动编辑这些参数，或使用自动生成的参数。",
         "wg_client_parameters_tips": "混淆参数由服务器确定。导入配置文件后无需更改。",
         "enable_tips": "启用后，VPN 服务器将使用 AmneziaWG 2.0 混淆协议来伪装 VPN 流量。",
-        "conneted_tips": "混淆功能已启用。建议通过 AmneziaWG 应用程序或运行支持 AmneziaWG 混淆固件的 GL.iNet 路由器进行连接。不支持 AmneziaWG 混淆的客户端将无法连接。"
+        "conneted_tips": "混淆功能已启用。建议通过 AmneziaWG 应用程序或运行支持 AmneziaWG 混淆固件的 GL.iNet 路由器进行连接。不支持 AmneziaWG 混淆的客户端将无法连接。",
+        "enable_tips_v1": "启用后，VPN 服务器将使用 AmneziaWG 混淆协议来伪装 VPN 流量。"
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "上传文件过大。因存储空间不足，解压失败。",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "已断开连接"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN 仪表盘"
+    "menu_expressvpn_dashboard": "ExpressVPN 仪表盘",
+    "welcome": {
+        "expressvpn_welcome_slogan": "欢迎使用 Fortify。"
+    }
 }

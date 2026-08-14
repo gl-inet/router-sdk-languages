@@ -332,14 +332,19 @@
         "go_to_vpn_dashboard": "Ugrás az Irányítópultra",
         "vpn_dashboard_desc_provider": "Bejelentkezett a(z) {provider} szolgáltatásba. Lépjen a VPN Irányítópultra VPN-alagutak létrehozásához és kezeléséhez.",
         "vpn_dashboard_desc": "A konfiguráció feltöltve. Lépjen a VPN Irányítópultra VPN-alagutak létrehozásához és kezeléséhez.",
-        "expressvpn_custom_feature_security_title": "Vállalati szintű biztonság",
-        "expressvpn_custom_feature_security_desc": "Minden, a routeréhez csatlakoztatott eszköz védelme",
+        "expressvpn_custom_feature_security_title": "Megbízható biztonság",
+        "expressvpn_custom_feature_security_desc": "Titkosítással védi a routerhez csatlakoztatott összes eszközt.",
         "expressvpn_custom_feature_speed_title": "Villámgyors sebesség",
-        "expressvpn_custom_feature_speed_desc": "Optimalizált szerverhálózat, minimális hatással a kapcsolat sebességére",
+        "expressvpn_custom_feature_speed_desc": "Az akár 40 Gbps sebességű szervereknek köszönhetően otthona minden pontján ultragyors kapcsolatot élvezhet.",
         "expressvpn_custom_feature_network_title": "Globális szerverhálózat",
-        "expressvpn_custom_feature_network_desc": "Hozzáférés szerverhelyekhez világszerte 105 országban",
+        "expressvpn_custom_feature_network_desc": "Világszerte 113 országban összesen több mint 214 szerverhelyszínhez férhet hozzá.",
         "expressvpn_custom_get_started_btn": "Első lépések",
         "expressvpn_custom_get_started_tip": "Fogadja el most, később még manuálisan is hozzáadhat VPN-profilokat.",
+        "expressvpn_custom_welcome_title": "Váltsa be ingyenes ExpressVPN-előfizetését",
+        "expressvpn_custom_welcome_subscription_desc": "Új Fortify routeréhez {subscription} jár",
+        "expressvpn_custom_welcome_subscription": "ingyenes 12 hónapos ExpressVPN Advanced-előfizetés.",
+        "expressvpn_custom_welcome_activation_desc": "Az aktiváláshoz a GL.iNet Cloud először ellenőrzi a hardvert és a rendelés jogosultságát, majd átirányítja az ExpressVPN oldalára, ahol a böngészőben befejezheti a promóciós megrendelést — ma semmit sem kell fizetnie.",
+        "expressvpn_custom_welcome_offer_note": "Az ajánlat új és visszatérő ExpressVPN-ügyfelek számára érhető el; „visszatérő” ügyfélnek az számít, akinek jelenleg nincs aktív előfizetése.",
         "expressvpn_custom_redeem_title": "Váltsa be a GL.iNet x ExpressVPN csomagot",
         "expressvpn_custom_promo_title": "Ingyenes 12 hónapos csomag elérhető",
         "expressvpn_custom_order_id_label": "Rendelés azonosító",
@@ -360,7 +365,7 @@
         "expressvpn_custom_redeemed_already_title": "12 hónapos csomag már beváltva",
         "expressvpn_custom_redeemed_claimed_by": "Hozzárendelt fiók",
         "expressvpn_custom_redeemed_claimed_time": "Hozzárendelés ideje",
-        "expressvpn_custom_redeemed_action_desc": "Jelentkezzen be a hozzárendelt fiókkal, hogy előfizetése aktív maradjon, vagy használjon egy másik ExpressVPN-fiókot a VPN további kezeléséhez ezen a routeren.",
+        "expressvpn_custom_redeemed_action_desc": "Jelentkezzen be a hozzárendelt fiókkal, vagy használjon másik ExpressVPN-fiókot a VPN kezelésének folytatásához ezen a routeren.",
         "expressvpn_custom_dashboard_active": "Aktív és védi a hálózatát.",
         "expressvpn_custom_dashboard_expired": "A szolgáltatás lejárt. Már nem védi a hálózatát.",
         "expressvpn_custom_plan_sync_tip": "A csomag előnyei automatikusan szinkronizálódnak az eszközzel a bejelentkezés után, nincs szükség további beállításra.",
@@ -446,7 +451,9 @@
         "credentials_changed_msg": "A hitelesítő adatai megváltoztak. Kérjük, jelentkezzen be újra.",
         "account_disabled_msg": "A fiókja deaktiválva lett. Kérjük, forduljon az XVPN ügyfélszolgálatához.",
         "device_token_expired_msg": "A token érvénytelen. Kérjük, jelentkezzen be újra a kapcsolat helyreállításához.",
-        "device_bind_failed_msg": "Nem sikerült ezt az útválasztót a fiókjához kötni. Kérjük, ellenőrizze a hálózati kapcsolatot, majd próbálja újra."
+        "device_bind_failed_msg": "Nem sikerült ezt az útválasztót a fiókjához kötni. Kérjük, ellenőrizze a hálózati kapcsolatot, majd próbálja újra.",
+        "password_must_contain_uppercase_and_lowercase_msg": "A jelszónak legalább egy nagybetűt és egy kisbetűt kell tartalmaznia.",
+        "password_must_contain_symbol_msg": "A jelszónak legalább egy speciális karaktert kell tartalmaznia."
     },
     "vpn_tunnel": {
         "use_vpn_tunnel_tips": "VPN politikákon alapuló alagút listához ügyfél hozzáadása. Ha részletesebb változtatásokat szeretne végrehajtani az alagutakon, kérjük, látogasson el a {page} oldalra az alagutak kezeléséhez.",
@@ -651,7 +658,8 @@
         "set_parameters_tips_2": "Manuálisan is szerkesztheti őket, ha ismeri az AmneziaWG obfuszkációt, vagy használhatja az automatikusan generáltakat.",
         "wg_client_parameters_tips": "Az obfuszkációs paramétereket a szerver határozza meg. A konfigurációs fájl importálása után nem szükséges megváltoztatni.",
         "enable_tips": "Ha engedélyezve van, a VPN szerver az AmneziaWG obfuszkációs protokollt használja a VPN forgalom álcázására.",
-        "conneted_tips": "Az elrejtés engedélyezve van. Javasoljuk, hogy az AmneziaWG alkalmazáson keresztül vagy egy AmneziaWG elrejtést támogató firmware-t futtató GL.iNet routeren keresztül kapcsolódjon. Az AmneziaWG elrejtést nem támogató kliensek nem tudnak csatlakozni."
+        "conneted_tips": "Az elrejtés engedélyezve van. Javasoljuk, hogy az AmneziaWG alkalmazáson keresztül vagy egy AmneziaWG elrejtést támogató firmware-t futtató GL.iNet routeren keresztül kapcsolódjon. Az AmneziaWG elrejtést nem támogató kliensek nem tudnak csatlakozni.",
+        "enable_tips_v1": "Ha engedélyezve van, a VPN-kiszolgáló az AmneziaWG álcázási protokollt használja a VPN-forgalom elrejtésére."
     },
     "vpn_client": {
         "too_large_unzip_fail_tips": "A feltöltött fájl túl nagy. A kibontás a tárhely hiánya miatt sikertelen.",
@@ -690,5 +698,8 @@
     "internet": {
         "disconnected": "Kapcsolat bontva"
     },
-    "menu_expressvpn_dashboard": "ExpressVPN irányítópult"
+    "menu_expressvpn_dashboard": "ExpressVPN irányítópult",
+    "welcome": {
+        "expressvpn_welcome_slogan": "Üdvözöljük a Fortifyban."
+    }
 }

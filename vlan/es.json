@@ -107,9 +107,11 @@
         "hostname_tips": "2-63 caracteres. Solo se permiten letras, dígitos o guiones. Debe comenzar y terminar con una letra o dígito, y no puede consistir únicamente en dígitos.",
         "not_asscess_tips": "Actualmente, {name} no puede acceder a los segmentos de red {net}.",
         "err_vlan_id_must_be_integer": "El ID de VLAN debe ser un número entero.",
-        "ip_conflicts_with_interface_ip": "La dirección IP entra en conflicto con la IP de la interfaz de la subred actual."
+        "ip_conflicts_with_interface_ip": "La dirección IP entra en conflicto con la IP de la interfaz de la subred actual.",
+        "associated_lan_ports": "Puertos LAN asociados"
     },
     "menu_vlan": "subred",
     "menu_guestip": "Red de Invitados",
-    "menu_iotip": "Red IoT"
+    "menu_iotip": "Red IoT",
+    "menu_lan": "LAN"
 }
