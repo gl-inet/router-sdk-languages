@@ -97,7 +97,10 @@
         "change_to": "L’adresse IP du routeur a été modifiée avec succès en",
         "node_added_successfully_title": "Nœud Mesh ajouté avec succès",
         "node_added_successfully_desc": "Le nœud Mesh apparaîtra bientôt dans la topologie. Pour des performances optimales, placez-le à mi-chemin entre le routeur principal et toute zone sans couverture Wi-Fi.",
-        "failed_add_device_title": "Échec de l’ajout du nœud Mesh"
+        "failed_add_device_title": "Échec de l’ajout du nœud Mesh",
+        "wifi_scan_failed_title": "Échec de l’analyse Mesh !",
+        "wifi_scan_failed_no_nodes_tips": "Aucun nœud Mesh détecté.",
+        "wifi_scan_failed_retry_tips": "Confirmez que le Mesh est activé sur les appareils pairs et réduisez la distance avec le routeur principal, puis réessayez."
     },
     "menu_mesh": "Mesh"
 }
