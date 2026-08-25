@@ -95,7 +95,10 @@
         "enabled_s2s_mode_tips": "TAP-S2S 모드가 활성화되어 있어 이 기능을 사용할 수 없습니다.",
         "wan_port_label": "WAN 포트",
         "lan_port_label": "LAN 포트",
-        "change_to": "라우터의 IP 주소가 성공적으로 변경되었습니다:"
+        "change_to": "라우터의 IP 주소가 성공적으로 변경되었습니다:",
+        "node_added_successfully_title": "Mesh 노드가 성공적으로 추가되었습니다",
+        "node_added_successfully_desc": "Mesh 노드가 곧 토폴로지에 표시됩니다. 최상의 성능을 위해 메인 라우터와 Wi-Fi 음영 지역 사이의 중간 지점에 배치하세요.",
+        "failed_add_device_title": "Mesh 노드 추가 실패"
     },
     "menu_mesh": "Mesh"
 }
