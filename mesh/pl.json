@@ -97,7 +97,10 @@
         "change_to": "Adres IP rutera został pomyślnie zmieniony na",
         "node_added_successfully_title": "Węzeł Mesh został pomyślnie dodany",
         "failed_add_device_title": "Nie udało się dodać węzła Mesh",
-        "node_added_successfully_desc": "Węzeł Mesh wkrótce pojawi się w topologii. Aby uzyskać najlepszą wydajność, umieść go w połowie drogi między głównym ruterem a martwą strefą Wi-Fi."
+        "node_added_successfully_desc": "Węzeł Mesh wkrótce pojawi się w topologii. Aby uzyskać najlepszą wydajność, umieść go w połowie drogi między głównym ruterem a martwą strefą Wi-Fi.",
+        "wifi_scan_failed_title": "Skanowanie Mesh nie powiodło się!",
+        "wifi_scan_failed_retry_tips": "Upewnij się, że Mesh jest włączony na urządzeniach równorzędnych, zmniejsz odległość od głównego rutera, a następnie spróbuj ponownie.",
+        "wifi_scan_failed_no_nodes_tips": "Nie wykryto węzłów Mesh."
     },
     "menu_mesh": "Mesh"
 }
