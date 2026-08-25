@@ -95,7 +95,10 @@
         "enabled_s2s_mode_tips": "Cette fonctionnalité ne fonctionne pas car le mode TAP-S2S est activé.",
         "wan_port_label": "Port WAN",
         "lan_port_label": "Port LAN",
-        "change_to": "L’adresse IP du routeur a été modifiée avec succès en"
+        "change_to": "L’adresse IP du routeur a été modifiée avec succès en",
+        "node_added_successfully_title": "Nœud Mesh ajouté avec succès",
+        "node_added_successfully_desc": "Le nœud Mesh apparaîtra bientôt dans la topologie. Pour des performances optimales, placez-le à mi-chemin entre le routeur principal et toute zone sans couverture Wi-Fi.",
+        "failed_add_device_title": "Échec de l’ajout du nœud Mesh"
     },
     "menu_mesh": "Mesh"
 }
