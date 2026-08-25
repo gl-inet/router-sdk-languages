@@ -95,7 +95,10 @@
         "enabled_s2s_mode_tips": "此功能無法運作，因為已啟用 TAP-S2S 模式。",
         "wan_port_label": "WAN 連接埠",
         "lan_port_label": "LAN 連接埠",
-        "change_to": "路由器的 IP 位址已成功變更為"
+        "change_to": "路由器的 IP 位址已成功變更為",
+        "node_added_successfully_title": "Mesh 節點已成功新增",
+        "node_added_successfully_desc": "Mesh 節點將很快顯示在拓撲中。為獲得最佳效能，請將其放置在主路由器與任何 Wi-Fi 死角之間的中間位置。",
+        "failed_add_device_title": "新增 Mesh 節點失敗"
     },
     "menu_mesh": "Mesh"
 }
