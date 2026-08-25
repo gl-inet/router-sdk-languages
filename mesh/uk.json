@@ -97,7 +97,10 @@
         "change_to": "IP-адресу маршрутизатора успішно змінено на",
         "node_added_successfully_title": "Вузол Mesh успішно додано",
         "node_added_successfully_desc": "Вузол Mesh незабаром з’явиться в топології. Для найкращої продуктивності розмістіть його посередині між головним маршрутизатором і будь-якою мертвою зоною Wi-Fi.",
-        "failed_add_device_title": "Не вдалося додати вузол Mesh"
+        "failed_add_device_title": "Не вдалося додати вузол Mesh",
+        "wifi_scan_failed_title": "Не вдалося сканувати Mesh!",
+        "wifi_scan_failed_no_nodes_tips": "Вузли Mesh не виявлено.",
+        "wifi_scan_failed_retry_tips": "Переконайтеся, що Mesh увімкнено на однорангових пристроях, і зменште відстань до головного маршрутизатора, потім повторіть спробу."
     },
     "menu_mesh": "Mesh"
 }
