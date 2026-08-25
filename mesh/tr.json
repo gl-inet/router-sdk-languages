@@ -97,7 +97,10 @@
         "change_to": "Yönlendiricinin IP adresi başarıyla şu şekilde değiştirildi:",
         "node_added_successfully_title": "Mesh Düğümü Başarıyla Eklendi",
         "node_added_successfully_desc": "Mesh Düğümü kısa süre içinde topolojide görünecek. En iyi performans için ana yönlendirici ile Wi-Fi kapsama alanı olmayan bölge arasına, yaklaşık orta noktaya yerleştirin.",
-        "failed_add_device_title": "Mesh Düğümü Eklenemedi"
+        "failed_add_device_title": "Mesh Düğümü Eklenemedi",
+        "wifi_scan_failed_title": "Mesh taraması başarısız!",
+        "wifi_scan_failed_retry_tips": "Eş cihazlarda Mesh’in etkin olduğunu doğrulayın ve ana yönlendiriciye olan mesafeyi azaltıp tekrar deneyin.",
+        "wifi_scan_failed_no_nodes_tips": "Mesh düğümü algılanmadı."
     },
     "menu_mesh": "Mesh"
 }
