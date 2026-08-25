@@ -95,7 +95,10 @@
         "enabled_s2s_mode_tips": "Esta función no funciona porque el modo TAP-S2S está habilitado.",
         "wan_port_label": "Puerto WAN",
         "lan_port_label": "Puerto LAN",
-        "change_to": "La dirección IP del router se ha cambiado correctamente a"
+        "change_to": "La dirección IP del router se ha cambiado correctamente a",
+        "node_added_successfully_title": "Nodo Mesh añadido correctamente",
+        "failed_add_device_title": "Error al añadir el nodo Mesh",
+        "node_added_successfully_desc": "El nodo Mesh aparecerá en la topología en breve. Para obtener el mejor rendimiento, colóquelo a mitad de camino entre el router principal y cualquier zona sin cobertura Wi-Fi."
     },
     "menu_mesh": "Mesh"
 }
