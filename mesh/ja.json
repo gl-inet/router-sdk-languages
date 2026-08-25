@@ -95,7 +95,10 @@
         "enabled_s2s_mode_tips": "TAP-S2S モードが有効になっているため、この機能は動作しません。",
         "wan_port_label": "WANポート",
         "lan_port_label": "LANポート",
-        "change_to": "ルーターのIPアドレスが正常に変更されました:"
+        "change_to": "ルーターのIPアドレスが正常に変更されました:",
+        "node_added_successfully_title": "Meshノードを正常に追加しました",
+        "failed_add_device_title": "Meshノードの追加に失敗しました",
+        "node_added_successfully_desc": "Meshノードはまもなくトポロジーに表示されます。最高のパフォーマンスを得るには、メインルーターとWi-Fiのデッドゾーンの中間に配置してください。"
     },
     "menu_mesh": "Mesh"
 }
