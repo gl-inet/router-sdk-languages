@@ -97,7 +97,10 @@
         "change_to": "La dirección IP del router se ha cambiado correctamente a",
         "node_added_successfully_title": "Nodo Mesh añadido correctamente",
         "failed_add_device_title": "Error al añadir el nodo Mesh",
-        "node_added_successfully_desc": "El nodo Mesh aparecerá en la topología en breve. Para obtener el mejor rendimiento, colóquelo a mitad de camino entre el router principal y cualquier zona sin cobertura Wi-Fi."
+        "node_added_successfully_desc": "El nodo Mesh aparecerá en la topología en breve. Para obtener el mejor rendimiento, colóquelo a mitad de camino entre el router principal y cualquier zona sin cobertura Wi-Fi.",
+        "wifi_scan_failed_title": "¡Error en el escaneo de Mesh!",
+        "wifi_scan_failed_no_nodes_tips": "No se detectaron nodos Mesh.",
+        "wifi_scan_failed_retry_tips": "Confirme que Mesh esté habilitado en los dispositivos pares y reduzca la distancia al router principal; luego, inténtelo de nuevo."
     },
     "menu_mesh": "Mesh"
 }
