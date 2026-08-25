@@ -97,7 +97,10 @@
         "change_to": "路由器的 IP 地址已成功更改为",
         "node_added_successfully_title": "Mesh 节点添加成功",
         "node_added_successfully_desc": "Mesh 节点稍后将出现在拓扑中。为获得最佳性能，请将其放置在主路由器与任何 Wi-Fi 信号盲区之间的中间位置。",
-        "failed_add_device_title": "添加 Mesh 节点失败"
+        "failed_add_device_title": "添加 Mesh 节点失败",
+        "wifi_scan_failed_title": "Mesh 扫描失败！",
+        "wifi_scan_failed_no_nodes_tips": "未检测到 Mesh 节点。",
+        "wifi_scan_failed_retry_tips": "请确认对端设备已启用 Mesh，并缩短与主路由器的距离，然后重试。"
     },
     "menu_mesh": "Mesh"
 }
