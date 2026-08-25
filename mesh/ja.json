@@ -97,7 +97,10 @@
         "change_to": "ルーターのIPアドレスが正常に変更されました:",
         "node_added_successfully_title": "Meshノードを正常に追加しました",
         "failed_add_device_title": "Meshノードの追加に失敗しました",
-        "node_added_successfully_desc": "Meshノードはまもなくトポロジーに表示されます。最高のパフォーマンスを得るには、メインルーターとWi-Fiのデッドゾーンの中間に配置してください。"
+        "node_added_successfully_desc": "Meshノードはまもなくトポロジーに表示されます。最高のパフォーマンスを得るには、メインルーターとWi-Fiのデッドゾーンの中間に配置してください。",
+        "wifi_scan_failed_title": "メッシュスキャンに失敗しました！",
+        "wifi_scan_failed_no_nodes_tips": "メッシュノードが検出されませんでした。",
+        "wifi_scan_failed_retry_tips": "ピアデバイスでメッシュが有効になっていることを確認し、メインルーターとの距離を短くしてから再試行してください。"
     },
     "menu_mesh": "Mesh"
 }
