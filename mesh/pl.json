@@ -95,7 +95,10 @@
         "enabled_s2s_mode_tips": "Ta funkcja nie działa, ponieważ włączony jest tryb TAP-S2S.",
         "wan_port_label": "Port WAN",
         "lan_port_label": "Port LAN",
-        "change_to": "Adres IP rutera został pomyślnie zmieniony na"
+        "change_to": "Adres IP rutera został pomyślnie zmieniony na",
+        "node_added_successfully_title": "Węzeł Mesh został pomyślnie dodany",
+        "failed_add_device_title": "Nie udało się dodać węzła Mesh",
+        "node_added_successfully_desc": "Węzeł Mesh wkrótce pojawi się w topologii. Aby uzyskać najlepszą wydajność, umieść go w połowie drogi między głównym ruterem a martwą strefą Wi-Fi."
     },
     "menu_mesh": "Mesh"
 }
