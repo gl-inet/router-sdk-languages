@@ -97,7 +97,10 @@
         "change_to": "Az útválasztó IP-címe sikeresen módosítva erre:",
         "node_added_successfully_title": "Mesh csomópont sikeresen hozzáadva",
         "failed_add_device_title": "Nem sikerült hozzáadni a Mesh csomópontot",
-        "node_added_successfully_desc": "A Mesh csomópont hamarosan megjelenik a topológiában. A legjobb teljesítmény érdekében helyezze félúton a fő router és bármely Wi-Fi holtzóna közé."
+        "node_added_successfully_desc": "A Mesh csomópont hamarosan megjelenik a topológiában. A legjobb teljesítmény érdekében helyezze félúton a fő router és bármely Wi-Fi holtzóna közé.",
+        "wifi_scan_failed_title": "Mesh keresése sikertelen!",
+        "wifi_scan_failed_no_nodes_tips": "Nem észlelhetők Mesh csomópontok.",
+        "wifi_scan_failed_retry_tips": "Ellenőrizze, hogy a Mesh engedélyezve van-e a társeszközökön, és csökkentse a fő routertől való távolságot, majd próbálja újra."
     },
     "menu_mesh": "Mesh"
 }
