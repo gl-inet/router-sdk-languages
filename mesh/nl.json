@@ -97,7 +97,10 @@
         "change_to": "Het IP-adres van de router is gewijzigd naar",
         "node_added_successfully_title": "Mesh-node succesvol toegevoegd",
         "node_added_successfully_desc": "De Mesh-node verschijnt binnenkort in de topologie. Voor de beste prestaties plaatst u deze halverwege tussen de hoofdrouter en een Wi-Fi-dode zone.",
-        "failed_add_device_title": "Toevoegen van Mesh-node mislukt"
+        "failed_add_device_title": "Toevoegen van Mesh-node mislukt",
+        "wifi_scan_failed_title": "Mesh-scan mislukt!",
+        "wifi_scan_failed_no_nodes_tips": "Geen Mesh-nodes gedetecteerd.",
+        "wifi_scan_failed_retry_tips": "Controleer of Mesh is ingeschakeld op peer-apparaten en verklein de afstand tot de hoofdrouter. Probeer het daarna opnieuw."
     },
     "menu_mesh": "Mesh"
 }
