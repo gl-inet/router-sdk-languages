@@ -677,7 +677,9 @@
         "bandwidth_label": "帯域幅",
         "lock_operator_disabled_tip": "現在のカードスロットは基地局にロックされているため、通信事業者ロック機能は無効です。",
         "select_cellular_profile_tips": "{selectProfile}して、保存済みの設定をこのSIMカードに適用できます。",
-        "select_cellular_profile": "セルラープロファイルを選択"
+        "select_cellular_profile": "セルラープロファイルを選択",
+        "select_cellular_profile_title": "セルラープロファイルを選択",
+        "apply_cellular_profile_tips": "セルラープロファイルを適用すると、現在のSIMカード設定が更新され、セルラーネットワークに再接続されます。"
     },
     "sim": {
         "sender_label": "送信者"
