@@ -677,7 +677,9 @@
         "bandwidth_label": "Ancho de banda",
         "lock_operator_disabled_tip": "Debido a que la ranura de tarjeta actual está bloqueada en la estación base, la función de bloqueo de operador está deshabilitada.",
         "select_cellular_profile_tips": "Puede {selectProfile} para aplicar sus ajustes guardados a esta tarjeta SIM.",
-        "select_cellular_profile": "Seleccionar un perfil móvil"
+        "select_cellular_profile": "Seleccionar un perfil móvil",
+        "select_cellular_profile_title": "Seleccionar un perfil móvil",
+        "apply_cellular_profile_tips": "Aplicar un perfil móvil actualizará la configuración actual de la tarjeta SIM y volverá a conectar la red móvil."
     },
     "sim": {
         "sender_label": "Remitente"
