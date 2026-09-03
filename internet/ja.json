@@ -330,7 +330,9 @@
         "network_type_lock_tower_tips": "Tower をロックすると、ネットワークタイプは固定され、変更できなくなります。",
         "rescan_label": "再スキャン",
         "slot_inactive_tips": "スロットは非アクティブです。SIMカードが挿入されている場合は、手動で切り替えてこのスロットを有効化してください。",
-        "sim_slot_label": "SIM {slot} スロット"
+        "sim_slot_label": "SIM {slot} スロット",
+        "manage_data_usage_tips": "{dataUsage}を管理するにはここをクリックしてください。",
+        "mins_ago_label": "分前"
     },
     "router_visual": {
         "wlan_client": "WLANクライアント",
@@ -674,7 +676,11 @@
         "band_label": "バンド",
         "signal_history_title": "信号履歴",
         "bandwidth_label": "帯域幅",
-        "lock_operator_disabled_tip": "現在のカードスロットは基地局にロックされているため、通信事業者ロック機能は無効です。"
+        "lock_operator_disabled_tip": "現在のカードスロットは基地局にロックされているため、通信事業者ロック機能は無効です。",
+        "select_cellular_profile_tips": "{selectProfile}して、保存済みの設定をこのSIMカードに適用できます。",
+        "select_cellular_profile": "セルラープロファイルを選択",
+        "apply_cellular_profile_tips": "セルラープロファイルを適用すると、現在のSIMカード設定が更新され、セルラーネットワークに再接続されます。",
+        "band_enable_tips": "有効にするバンドを選択してください。"
     },
     "sim": {
         "sender_label": "送信者"

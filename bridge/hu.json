@@ -30,7 +30,7 @@
     "force_subnet_label": "24-es alhálózat kényszerítése",
     "subnet_mode_bable": "Alhálózati mód",
     "passthrough_desc": "Ha az IP Átengedés engedélyezve van, a router átadja a szolgáltató IP-címét a LAN portnak.",
-    "passthrough_close_warning": "Ha erre a módra vált, a Repeater, Wireless, Kliensek, VPN és az Adguard Home funkciók ki lesznek kapcsolva.",
+    "passthrough_close_warning": "Ha erre a módra vált, a Repeater, Wireless, Kliensek, VPN és az AdGuard Home funkciók ki lesznek kapcsolva.",
     "passthrough_conflict_warning": "Ez a mód nem működhet, ha bármelyik következő beállítás engedélyezve van: Tethering, Drop-In Gateway mód, IPv6, kézzel beállított DNS, Multi-WAN beállítva terheléselosztó módba, WAN port beállítva LAN-ként, VPN szabályzat használata, bármilyen tűzfal beállítás hozzáadva, MAC-cím kézzel beállítva.",
     "passthrough_conflict_2b_warning": "Ez a mód nem működhet, ha a következő beállítások vannak engedélyezve: engedélyezett drop-in gateway mód, engedélyezett IPv6, manuálisan beállított DNS, Multi-WAN beállítva terheléselosztó módba, WAN port beállítva LAN-ként, használt VPN szabályzat, tűzfal beállítás hozzáadva, manuálisan beállított MAC-cím.",
     "passthrough_secondwan_warning": "Az IP átengedő módhoz szükség van és csak egy WAN portot használhat. Kérjük, menjen a $$$$ oldalra a módosításhoz, hogy megszüntesse a WAN port használatát LAN portként vagy a LAN használatát WAN portként.",

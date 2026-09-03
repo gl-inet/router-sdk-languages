@@ -203,7 +203,9 @@
         "network_type_lock_tower_tips": "Ha zárolja a Towert, a hálózattípus rögzítve lesz, és nem módosítható.",
         "rescan_label": "Újrakeresés",
         "slot_inactive_tips": "A foglalat inaktív. Ha van behelyezve SIM-kártya, váltson át manuálisan a foglalat aktiválásához.",
-        "sim_slot_label": "SIM {slot} foglalat"
+        "sim_slot_label": "SIM {slot} foglalat",
+        "manage_data_usage_tips": "Kattintson ide a(z) {dataUsage} kezeléséhez.",
+        "mins_ago_label": "perce"
     },
     "cable": {
         "dhcp_tips": "Az IP-címet a magasabb szintű hálózati eszköz rendeli ki.",
@@ -674,7 +676,11 @@
         "signal_history_title": "Jelelőzmények",
         "cell_id_label": "Cellaazonosító",
         "bandwidth_label": "Sávszélesség",
-        "lock_operator_disabled_tip": "Mivel a jelenlegi kártyafoglalat a bázisállomáshoz van zárolva, a szolgáltató zárolása funkció le van tiltva."
+        "lock_operator_disabled_tip": "Mivel a jelenlegi kártyafoglalat a bázisállomáshoz van zárolva, a szolgáltató zárolása funkció le van tiltva.",
+        "select_cellular_profile_tips": "A {selectProfile} használatával alkalmazhatja annak mentett beállításait erre a SIM-kártyára.",
+        "select_cellular_profile": "Mobilprofil kiválasztása",
+        "apply_cellular_profile_tips": "A mobilprofil alkalmazása frissíti az aktuális SIM-kártya beállításait, és újracsatlakoztatja a mobilhálózatot.",
+        "band_enable_tips": "Jelölje be az engedélyezni kívánt sávokat."
     },
     "sim": {
         "sender_label": "Feladó"

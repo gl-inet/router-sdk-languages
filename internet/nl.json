@@ -330,7 +330,9 @@
         "network_type_lock_tower_tips": "Als u de Tower vergrendelt, wordt het netwerktype vastgezet en kan het niet worden gewijzigd.",
         "rescan_label": "Opnieuw scannen",
         "slot_inactive_tips": "Sleuf inactief. Als er een simkaart is geplaatst, schakel dan handmatig om deze sleuf te activeren.",
-        "sim_slot_label": "SIM {slot}-sleuf"
+        "sim_slot_label": "SIM {slot}-sleuf",
+        "manage_data_usage_tips": "Klik hier om {dataUsage} te beheren.",
+        "mins_ago_label": "min. geleden"
     },
     "sms": {
         "send_sms": "Bericht verzenden",
@@ -674,7 +676,11 @@
         "band_label": "Band",
         "signal_history_title": "Signaalgeschiedenis",
         "bandwidth_label": "Bandbreedte",
-        "lock_operator_disabled_tip": "Omdat de huidige kaartsleuf aan het basisstation is vergrendeld, is de functie voor operatorvergrendeling uitgeschakeld."
+        "lock_operator_disabled_tip": "Omdat de huidige kaartsleuf aan het basisstation is vergrendeld, is de functie voor operatorvergrendeling uitgeschakeld.",
+        "select_cellular_profile_tips": "U kunt {selectProfile} om de opgeslagen instellingen ervan op deze simkaart toe te passen.",
+        "select_cellular_profile": "Selecteer een mobiel profiel",
+        "apply_cellular_profile_tips": "Het toepassen van een mobiel profiel werkt de huidige simkaartinstellingen bij en maakt opnieuw verbinding met het mobiele netwerk.",
+        "band_enable_tips": "Vink de banden aan om in te schakelen."
     },
     "sim": {
         "sender_label": "Afzender"

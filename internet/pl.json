@@ -402,7 +402,9 @@
         "network_type_lock_tower_tips": "Jeśli zablokujesz Tower, typ sieci zostanie ustalony i nie będzie można go zmienić.",
         "rescan_label": "Skanuj ponownie",
         "slot_inactive_tips": "Slot nieaktywny. Jeśli karta SIM jest włożona, przełącz ręcznie, aby aktywować ten slot.",
-        "sim_slot_label": "Slot SIM {slot}"
+        "sim_slot_label": "Slot SIM {slot}",
+        "manage_data_usage_tips": "Kliknij tutaj, aby zarządzać {dataUsage}.",
+        "mins_ago_label": "min temu"
     },
     "router_visual": {
         "wlan_client": "Klienci WLAN",
@@ -674,7 +676,11 @@
         "tac_label": "TAC",
         "cell_id_label": "ID komórki",
         "bandwidth_label": "Przepustowość",
-        "lock_operator_disabled_tip": "Ponieważ bieżące gniazdo karty jest zablokowane dla stacji bazowej, funkcja blokady operatora jest wyłączona."
+        "lock_operator_disabled_tip": "Ponieważ bieżące gniazdo karty jest zablokowane dla stacji bazowej, funkcja blokady operatora jest wyłączona.",
+        "select_cellular_profile_tips": "Możesz {selectProfile}, aby zastosować zapisane ustawienia do tej karty SIM.",
+        "select_cellular_profile": "Wybierz profil komórkowy",
+        "apply_cellular_profile_tips": "Zastosowanie profilu komórkowego zaktualizuje bieżące ustawienia karty SIM i ponownie połączy z siecią komórkową.",
+        "band_enable_tips": "Zaznacz pasma, które chcesz włączyć."
     },
     "sim": {
         "sender_label": "Nadawca"

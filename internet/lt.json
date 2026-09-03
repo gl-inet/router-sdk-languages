@@ -203,7 +203,9 @@
         "network_type_lock_tower_tips": "Jei užrakinsite Tower, tinklo tipas bus fiksuotas ir jo nebus galima pakeisti.",
         "rescan_label": "Nuskaityti iš naujo",
         "slot_inactive_tips": "Lizdas neaktyvus. Jei įdėta SIM kortelė, perjunkite rankiniu būdu, kad suaktyvintumėte šį lizdą.",
-        "sim_slot_label": "SIM {slot} lizdas"
+        "sim_slot_label": "SIM {slot} lizdas",
+        "manage_data_usage_tips": "Spustelėkite čia, kad tvarkytumėte {dataUsage}.",
+        "mins_ago_label": "prieš min."
     },
     "cable": {
         "rm_wan_cable": "Prašome išimti/ištraukti „eternetą/-o“ laidą iš „WAN“ prievado.",
@@ -674,7 +676,11 @@
         "band_label": "Juosta",
         "signal_history_title": "Signalo istorija",
         "bandwidth_label": "Duomenų siuntimo srauto pralaidumas",
-        "lock_operator_disabled_tip": "Kadangi dabartinis kortelės lizdas yra užrakintas prie bazinės stoties, operatoriaus užrakinimo funkcija yra išjungta."
+        "lock_operator_disabled_tip": "Kadangi dabartinis kortelės lizdas yra užrakintas prie bazinės stoties, operatoriaus užrakinimo funkcija yra išjungta.",
+        "select_cellular_profile_tips": "Galite {selectProfile}, kad šiai SIM kortelei pritaikytumėte išsaugotus nustatymus.",
+        "select_cellular_profile": "Pasirinkite mobiliojo ryšio profilį",
+        "apply_cellular_profile_tips": "Pritaikius mobiliojo ryšio profilį bus atnaujinti dabartiniai SIM kortelės nustatymai ir iš naujo prijungtas mobilusis tinklas.",
+        "band_enable_tips": "Pažymėkite juostas, kurias norite įjungti."
     },
     "sim": {
         "sender_label": "Siuntėjas"

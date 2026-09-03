@@ -234,7 +234,9 @@
         "network_type_lock_tower_tips": "Tower'ı kilitlerseniz ağ türü sabitlenir ve değiştirilemez.",
         "rescan_label": "Yeniden tara",
         "slot_inactive_tips": "Yuva etkin değil. SIM kart takılıysa, bu yuvayı etkinleştirmek için manuel olarak geçiş yapın.",
-        "sim_slot_label": "SIM {slot} Yuvası"
+        "sim_slot_label": "SIM {slot} Yuvası",
+        "manage_data_usage_tips": "{dataUsage} öğesini yönetmek için buraya tıklayın.",
+        "mins_ago_label": "dakika önce"
     },
     "guide": {
         "ethernet_connected_tip": "Ethernet yapılandırması tamamlandı.",
@@ -689,7 +691,11 @@
         "band_label": "Bant",
         "signal_history_title": "Sinyal Geçmişi",
         "bandwidth_label": "Bant Genişliği",
-        "lock_operator_disabled_tip": "Geçerli kart yuvası baz istasyonuna kilitli olduğundan, operatör kilitleme işlevi devre dışıdır."
+        "lock_operator_disabled_tip": "Geçerli kart yuvası baz istasyonuna kilitli olduğundan, operatör kilitleme işlevi devre dışıdır.",
+        "select_cellular_profile_tips": "Kaydedilmiş ayarlarını bu SIM karta uygulamak için {selectProfile} yapabilirsiniz.",
+        "select_cellular_profile": "Bir Hücresel Profil seçin",
+        "apply_cellular_profile_tips": "Bir hücresel profil uygulamak mevcut SIM kart ayarlarını günceller ve hücresel ağı yeniden bağlar.",
+        "band_enable_tips": "Etkinleştirmek için bantları işaretleyin."
     },
     "sim": {
         "sender_label": "Gönderen"

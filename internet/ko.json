@@ -330,7 +330,9 @@
         "network_type_lock_tower_tips": "Tower를 잠그면 네트워크 유형이 고정되어 변경할 수 없습니다.",
         "rescan_label": "다시 검색",
         "slot_inactive_tips": "슬롯이 비활성 상태입니다. SIM 카드가 삽입되어 있으면 수동으로 전환하여 이 슬롯을 활성화하세요.",
-        "sim_slot_label": "SIM {slot} 슬롯"
+        "sim_slot_label": "SIM {slot} 슬롯",
+        "manage_data_usage_tips": "{dataUsage}을(를) 관리하려면 여기를 클릭하세요.",
+        "mins_ago_label": "분 전"
     },
     "router_visual": {
         "wlan_client": "WLAN 클라이언트",
@@ -674,7 +676,11 @@
         "signal_history_title": "신호 기록",
         "network_type_label": "네트워크 유형",
         "bandwidth_label": "대역폭",
-        "lock_operator_disabled_tip": "현재 카드 슬롯이 기지국에 잠겨 있으므로 사업자 잠금 기능이 비활성화됩니다."
+        "lock_operator_disabled_tip": "현재 카드 슬롯이 기지국에 잠겨 있으므로 사업자 잠금 기능이 비활성화됩니다.",
+        "select_cellular_profile_tips": "{selectProfile}하여 저장된 설정을 이 SIM 카드에 적용할 수 있습니다.",
+        "select_cellular_profile": "셀룰러 프로필 선택",
+        "apply_cellular_profile_tips": "셀룰러 프로필을 적용하면 현재 SIM 카드 설정이 업데이트되고 셀룰러 네트워크에 다시 연결됩니다.",
+        "band_enable_tips": "활성화할 대역을 선택하세요."
     },
     "sim": {
         "sender_label": "발신자"

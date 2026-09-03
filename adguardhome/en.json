@@ -1,7 +1,7 @@
 {
 "adguardhome": {
 "desc": "AdGuard Home is network-wide software that blocks ads and tracking. Once set up, it will cover ALL the devices on your home network, there is no need for any additional client-side software. This page gets statistics through the API provided by AdGuard Home. When AdGuard Home is enabled, the router will force the use of DNS servers provided by AdGuard Home.",
-"tips": "Please go to the $$$$Settings Page$$$$ to perform advanced configuration of Adguard Home.",
+"tips": "Please go to the $$$$Settings Page$$$$ to perform advanced configuration of AdGuard Home.",
 "top_queried_domain": "Top queried domains",
 "top_blocked_domain": "Top blocked domains",
 "dns_querie_title": "DNS Queries",
@@ -16,6 +16,6 @@
 "no_data": "No Data",
 "process_req_label": "AdGuard Home Handle Client Requests",
 "process_req_tips": "If this option is enabled, DNS queries from client devices will be handled directly by AdGuard Home, which will invalidate the domain-based VPN policy and parental control rules.",
-"adguard_vpn_tunnels_label": "Apply Adguard Home to VPN tunnels"
+"adguard_vpn_tunnels_label": "Apply AdGuard Home to VPN tunnels"
 }
 }

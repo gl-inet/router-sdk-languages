@@ -330,7 +330,9 @@
         "network_type_lock_tower_tips": "Si bloquea Tower, el tipo de red quedará fijo y no se podrá cambiar.",
         "rescan_label": "Volver a escanear",
         "slot_inactive_tips": "Ranura inactiva. Si hay una tarjeta SIM insertada, cambie manualmente para activar esta ranura.",
-        "sim_slot_label": "Ranura SIM {slot}"
+        "sim_slot_label": "Ranura SIM {slot}",
+        "manage_data_usage_tips": "Haga clic aquí para gestionar {dataUsage}.",
+        "mins_ago_label": "hace unos min."
     },
     "router_visual": {
         "wlan_client": "Clientes WLAN",
@@ -674,7 +676,11 @@
         "band_label": "Banda",
         "signal_history_title": "Historial de señal",
         "bandwidth_label": "Ancho de banda",
-        "lock_operator_disabled_tip": "Debido a que la ranura de tarjeta actual está bloqueada en la estación base, la función de bloqueo de operador está deshabilitada."
+        "lock_operator_disabled_tip": "Debido a que la ranura de tarjeta actual está bloqueada en la estación base, la función de bloqueo de operador está deshabilitada.",
+        "select_cellular_profile_tips": "Puede {selectProfile} para aplicar sus ajustes guardados a esta tarjeta SIM.",
+        "select_cellular_profile": "Seleccionar un perfil móvil",
+        "apply_cellular_profile_tips": "Aplicar un perfil móvil actualizará la configuración actual de la tarjeta SIM y volverá a conectar la red móvil.",
+        "band_enable_tips": "Marque las bandas para habilitarlas."
     },
     "sim": {
         "sender_label": "Remitente"
