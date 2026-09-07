@@ -593,7 +593,8 @@
         "sim_threshold_single_tips": "SIMデータ上限量が設定されている場合、データ使用量が上限量を超えるとSIMが無効化されます。",
         "sim_threshold_dual_tips": "{currentSim}のデータ上限量が設定されており、SIMカードスロット{handler}が有効な場合、{currentSim}のデータ使用量が上限量を超過すると、{currentSim}は無効化され、自動的に{otherSim}に切り替わります。",
         "disabled_sim_auto_switch_tips": "データ上限に達してもSIMは切替わりません。{handler}が有効化されていないためです。また、データ上限に達するとSIMは無効化されます。",
-        "enabled_sim_auto_switch_tips": "SIMカードはデータ上限に達すると切り替わります。"
+        "enabled_sim_auto_switch_tips": "SIMカードはデータ上限に達すると切り替わります。",
+        "sim_threshold_switch_tips": "{currentSim} のデータ上限量が設定され、{handler} が有効になっている場合、{currentSim} のデータ使用量がデータ上限量を超えると、自動的に {otherSim} に切り替わり、{currentSim} は無効になります。"
     },
     "cellular": {
         "tower_locked_label": "{sim} タワーはロックされた状態",
