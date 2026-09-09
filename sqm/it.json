@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "title": "SQM",
+    "queue_label": "Regola Coda",
+    "tips": "Quando è abilitato, il router gestisce il traffico in modo intelligente per ridurre al minimo la latenza e il \"bufferbloat\", offrendo un'esperienza più fluida nelle chiamate e nel gaming. Poiché SQM richiede molte risorse, è più adatto a reti con poca larghezza di banda o congestionate; su connessioni ad alta velocità, abilitarlo può ridurre le prestazioni di throughput di picco.",
+    "qdisc_cake_tips": "cake: Gestione intelligente e automatica del traffico con il miglior controllo complessivo della latenza (consigliato).",
+    "qdisc_fq_codel_tips": "fq_codel: Coda equa semplice ed efficiente con riduzione di base della latenza.",
+    "tips_second": "SQM influisce sul traffico che passa attraverso il router come gateway, incluso il traffico del client VPN, ma non influisce sul traffico in entrata quando il router opera come server VPN.",
+    "cake_autorate_tips": "Invia continuamente piccoli probe ICMP di latenza ai server reflector, osserva il ritardo di andata e ritorno e abbassa o alza dinamicamente la larghezza di banda dello shaper CAKE per sopprimere il bufferbloat. NON esegue test di velocità attivi.",
     "upload_label": "Upload",
     "network_acceleration_warning": "Questa funzione non può funzionare insieme a {network}. L\u0027attivazione disabiliterà automaticamente l\u0027Accelerazione di Rete per garantire il corretto funzionamento.",
     "client_speed_limit_warning_tips": "Questa funzione non può funzionare insieme al Limite Velocità Client. L\u0027attivazione rimuoverà automaticamente tutti i limiti di velocità client.",

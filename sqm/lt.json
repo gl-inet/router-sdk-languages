@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "title": "„SQM“",
+    "tips": "Įjungus šią funkciją, maršrutizatorius išmaniai valdo srautą, kad sumažintų delsą ir „bufferbloat“, todėl skambučiai ir žaidimai veikia sklandžiau. Kadangi SQM naudoja daug išteklių, ji labiausiai tinka mažo pralaidumo arba apkrautiems tinklams; sparčiuose ryšiuose jos įjungimas gali sumažinti maksimalų pralaidumą.",
+    "queue_label": "Eilės taisyklė",
+    "qdisc_cake_tips": "„cake“: Išmanus, automatinis srauto formavimas su geriausiu bendru delsos valdymu (rekomenduojama).",
+    "qdisc_fq_codel_tips": "„fq_codel“: Paprastas ir efektyvus teisingojo eilių formavimas su paprastu delsos mažinimu.",
+    "tips_second": "„SQM“ paveikia srautą, einantį per maršrutizatorių kaip tinklo tarpuvartę, įskaitant „VPN“ kliento srautą, bet nepaveikia gaunamo srauto, kai maršrutizatorius veikia kaip „VPN“ serveris.",
+    "cake_autorate_tips": "Nuolat siunčia mažus ICMP delsos zondus į atspindinčius serverius, stebi apvalaus kelio delsą ir dinamiškai mažina arba didina CAKE formuotojo duomenų siuntimo srauto pralaidumą, kad slopintų buferio išpūtimą. Jis NEvykdo aktyvių greičio testų.",
     "upload_label": "Įkelti",
     "download_label": "Atsisiuntimas",
     "upload_tips": "Pirmiausia nustatykite maksimalų įkėlimo ir atsisiuntimo greitį (įvesties diapazonas: 1–10000) srauto planavimui. Norėdami gauti geriausius rezultatus, priderinkite juos prie tikrojo interneto duomenų siuntimo srauto pralaidumo.",

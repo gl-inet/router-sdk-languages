@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "title": "SQM",
+    "queue_label": "Regla de Cola",
+    "tips": "Cuando está activado, su router gestiona el tráfico de forma inteligente para minimizar la latencia y el «bufferbloat», logrando juegos y llamadas más fluidos. Como SQM consume muchos recursos, es más adecuado para redes con poco ancho de banda o congestionadas; en conexiones de alta velocidad, activarlo puede reducir el rendimiento máximo de transferencia.",
+    "qdisc_cake_tips": "cake: Control inteligente y automático del tráfico con el mejor control general de latencia (recomendado).",
+    "qdisc_fq_codel_tips": "fq_codel: planificación basada en encolamiento equitativo simple con reducción básica de latencia.",
+    "tips_second": "SQM afecta al tráfico que pasa a través del router como puerta de enlace, incluyendo el tráfico del Cliente VPN, pero no afecta al tráfico entrante cuando el router opera como Servidor VPN.",
+    "cake_autorate_tips": "Envía continuamente pequeñas sondas de latencia ICMP a servidores reflectores, observa el retardo de ida y vuelta, y ajusta dinámicamente el ancho de banda del modelador CAKE para reducir el bufferbloat. NO ejecuta pruebas de velocidad activas.",
     "upload_label": "Subir",
     "download_label": "Descargar",
     "upload_tips": "Primero establezca sus velocidades máximas de subida y bajada (rango de entrada: 1–10000) para la planificación del tráfico. Ajústelas a su ancho de banda real de internet para obtener los mejores resultados.",

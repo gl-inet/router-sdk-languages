@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "queue_label": "Wachtrijregel",
+    "title": "SQM",
+    "tips": "Wanneer ingeschakeld, beheert uw router het verkeer op intelligente wijze om latentie en 'bufferbloat' te minimaliseren, voor vloeiendere gesprekken en een soepelere game-ervaring. Omdat SQM veel systeembronnen gebruikt, is het vooral geschikt voor netwerken met weinig bandbreedte of veel congestie; bij snelle verbindingen kan inschakeling de maximale doorvoersnelheid verlagen.",
+    "qdisc_cake_tips": "cake: Slimme, automatische verkeersvorming met de beste algehele latentiecontrole (aanbevolen).",
+    "qdisc_fq_codel_tips": "fq_codel: Eenvoudige en efficiënte fair-queueing met basis latentiereductie.",
+    "tips_second": "SQM beïnvloedt het verkeer dat via de router als gateway passeert, inclusief VPN Client-verkeer, maar heeft geen invloed op inkomend verkeer wanneer de router functioneert als een VPN Server.",
+    "cake_autorate_tips": "Stuurt continu kleine ICMP-latentieprobes naar reflectorservers, observeert de round-tripvertraging en verlaagt of verhoogt dynamisch de CAKE-shaperbandbreedte om bufferbloat te onderdrukken. Het voert GEEN actieve snelheidstests uit.",
     "upload_label": "Upload",
     "download_label": "Downloaden",
     "client_speed_limit_warning_tips": "Deze functie kan niet samenwerken met Client Snelheidslimiet. Inschakelen ervan zal automatisch alle cliëntsnelheidslimieten verwijderen.",

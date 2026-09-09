@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "title": "SQM",
+    "queue_label": "Várakozási sor szabály",
+    "tips": "Bekapcsolásakor a router intelligensen kezeli a forgalmat, hogy minimalizálja a késleltetést és a „bufferbloat” jelenséget, így gördülékenyebb játékot és hívásokat biztosít. Mivel az SQM erőforrás-igényes, leginkább alacsony sávszélességű vagy túlterhelt hálózatokhoz ajánlott; nagy sebességű kapcsolatokon a bekapcsolása csökkentheti a maximális átviteli sebességet.",
+    "qdisc_cake_tips": "cake: Intelligens, automatikus forgalomformálás a legjobb teljesítményű késleltetés-vezérléssel (ajánlott).",
+    "qdisc_fq_codel_tips": "fq_codel: Egyszerű és hatékony fair-queueing alapvető késleltetéscsökkentéssel.",
+    "tips_second": "Az SQM hatással van az útválasztón, mint átjárón áthaladó forgalomra, beleértve a VPN-kliens forgalmát is, de nem befolyásolja a bejövő forgalmat, amikor az útválasztó VPN-szerverként működik.",
+    "cake_autorate_tips": "Folyamatosan kis ICMP késleltetési próbákat küld a visszaverő szerverekre, figyeli a körútidő-késleltetést, és dinamikusan csökkenti vagy növeli a CAKE alakító sávszélességét a puffertorlódás elnyomása érdekében. NEM futtat aktív sebességteszteket.",
     "upload_label": "Feltöltés",
     "download_label": "Letöltés",
     "network_acceleration_warning": "Ez a funkció nem működhet együtt a(z) {network} szolgáltatással. Engedélyezése automatikusan letiltja a Hálózati Gyorsítást a megfelelő működés biztosítása érdekében.",

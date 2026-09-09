@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "queue_label": "Riail Scuaine",
+    "tips": "Nuair a bhíonn sé cumasaithe, déanann do ródaire bainistíocht chliste ar thrácht chun moill agus \"bufferbloat\" a íoslaghdú le haghaidh cearrbhachais agus glaonna níos réidhe. Ós rud é go bhfuil SQM dian ar acmhainní, is fearr a oireann sé do líonraí bandaleithead íseal nó plódaithe; ar naisc ardluais, d'fhéadfadh sé go laghdófaí feidhmíocht buaic-thráchta dá gcuirfí ar chumas é seo.",
+    "title": "SQM",
+    "qdisc_cake_tips": "císte: Múnlú tráchta cliste, uathoibríoch leis an rialú latency foriomlán is fearr (molta).",
+    "qdisc_fq_codel_tips": "fq_codel: Scuaineáil chóir shimplí agus éifeachtach le laghdú bunúsach ar mhoille.",
+    "tips_second": "Bíonn tionchar ag SQM ar thrácht a théann tríd an ródaire mar gheata, lena n-áirítear trácht Cliant VPN, ach ní bhíonn tionchar aige ar thrácht isteach nuair a bhíonn an ródaire ag feidhmiú mar Fhreastalaí VPN.",
+    "cake_autorate_tips": "Seolann sé tóireadóirí latency ICMP beaga chuig freastalaithe frithchaiteoirí go leanúnach, breathnaíonn sé moill bhabhta, agus laghdaíonn nó ardaíonn sé bandaleithead mhúnlaithe an CAKE go dinimiciúil chun an bufferbloat a chosc. NÍ ritheann sé tástálacha luais gníomhacha.",
     "download_label": "Íoslódáil",
     "client_speed_limit_warning_tips": "Ní féidir an ghné seo a oibriú i dteannta le Teorainn Luais Cliant. Má chumasaítear í, bainfear na teorainneacha luais cliant go huathoibríoch.",
     "upload_tips": "Socraigh do luasanna uasta uaslódála agus íoslódála ar dtús (raon ionchuir: 1–10000) le haghaidh sceidealú tráchta. Meaitseáil iad le do bhandaleithead idirlín iarbhír chun na torthaí is fearr a fháil.",

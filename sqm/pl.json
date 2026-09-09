@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "title": "SQM",
+    "queue_label": "Reguła Kolejki",
+    "tips": "Po włączeniu router inteligentnie zarządza ruchem, aby zminimalizować opóźnienia i „bufferbloat”, zapewniając płynniejszą rozgrywkę i połączenia głosowe. Ponieważ SQM jest zasobożerne, najlepiej sprawdza się w sieciach o niskiej przepustowości lub przeciążonych; w przypadku łączy wysokiej prędkości jego włączenie może spowodować spadek maksymalnej wydajności.",
+    "qdisc_cake_tips": "cake: Inteligentne, automatyczne kształtowanie ruchu z najlepszą ogólną kontrolą opóźnień (zalecane).",
+    "qdisc_fq_codel_tips": "fq_codel: Proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.",
+    "tips_second": "SQM wpływa na ruch przechodzący przez router jako bramę, w tym na ruch klienta VPN, ale nie wpływa na ruch przychodzący, gdy router działa jako serwer VPN.",
+    "cake_autorate_tips": "Ciągle wysyła małe sondy opóźnienia ICMP do serwerów reflektorów, obserwuje opóźnienie w obie strony i dynamicznie obniża lub podnosi przepustowość kształtowania CAKE, aby tłumić buforowanie. NIE przeprowadza aktywnych testów prędkości.",
     "upload_label": "Wysyłanie",
     "download_label": "Pobieranie",
     "upload_tips": "Najpierw ustaw maksymalne prędkości wysyłania i pobierania (zakres: 1–10000) w celu planowania ruchu. Dopasuj je do rzeczywistej przepustowości łącza internetowego, aby uzyskać najlepsze rezultaty.",

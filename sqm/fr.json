@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "title": "SQM",
+    "queue_label": "Règle de File d'Attente",
+    "tips": "Lorsqu'il est activé, votre routeur gère intelligemment le trafic afin de minimiser la latence et le « bufferbloat », pour des jeux et des appels plus fluides. Comme SQM est gourmand en ressources, il convient surtout aux réseaux à faible bande passante ou encombrés ; sur les connexions à haut débit, son activation peut réduire le débit maximal.",
+    "qdisc_cake_tips": "cake : Gestion intelligente et automatique du trafic avec le meilleur contrôle de latence global (recommandé).",
+    "qdisc_fq_codel_tips": "fq_codel : File d'attente équitable simple et efficace avec réduction de latence de base.",
+    "tips_second": "Le SQM affecte le trafic passant par le routeur en tant que passerelle, y compris le trafic du client VPN, mais n'affecte pas le trafic entrant lorsque le routeur fonctionne en tant que serveur VPN.",
+    "cake_autorate_tips": "Envoie en continu de petites sondes de latence ICMP aux serveurs réflecteurs, observe le délai aller-retour, et abaisse ou augmente dynamiquement la bande passante du formateur CAKE pour supprimer le bufferbloat. Il n'exécute PAS de tests de vitesse actifs.",
     "download_label": "Téléchargement",
     "client_speed_limit_warning_tips": "Cette fonctionnalité ne peut pas fonctionner avec la limitation de vitesse client. Son activation supprimera automatiquement toutes les limites de vitesse client.",
     "network_acceleration_warning": "Cette fonction ne peut pas fonctionner avec {network}. Son activation désactivera automatiquement l\u0027Accélération Réseau pour garantir un fonctionnement correct.",

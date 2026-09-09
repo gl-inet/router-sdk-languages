@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "title": "SQM",
+    "tips": "Wenn aktiviert, verwaltet Ihr Router den Datenverkehr intelligent, um Latenz und „Bufferbloat“ zu minimieren und so flüssigeres Gaming und klarere Anrufe zu ermöglichen. Da SQM ressourcenintensiv ist, eignet es sich am besten für Netzwerke mit geringer Bandbreite oder starker Auslastung; bei Hochgeschwindigkeitsverbindungen kann die Aktivierung die maximale Durchsatzleistung verringern.",
+    "queue_label": "Warteschlangenregel",
+    "qdisc_cake_tips": "cake: Intelligente, automatische Verkehrsformung mit der besten Gesamtlatenzkontrolle (empfohlen).",
+    "qdisc_fq_codel_tips": "fq_codel: Einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung.",
+    "tips_second": "SQM beeinflusst den Datenverkehr, der den Router als Gateway passiert, einschließlich VPN-Client-Verkehr, aber nicht den eingehenden Verkehr, wenn der Router als VPN-Server arbeitet.",
+    "cake_autorate_tips": "Sendet kontinuierlich kleine ICMP-Latenztests an Reflektor-Server, beobachtet die Umlaufverzögerung und senkt oder erhöht dynamisch die CAKE-Shaper-Bandbreite, um Bufferbloat zu unterdrücken. Es führt KEINE aktiven Geschwindigkeitstests durch.",
     "upload_label": "Hochladen",
     "download_label": "Download",
     "upload_tips": "Legen Sie zunächst Ihre maximale Upload- und Download-Geschwindigkeit fest (Eingabebereich: 1–10000) für die Verkehrssteuerung. Stimmen Sie diese auf Ihre tatsächliche Internetbandbreite ab, um die besten Ergebnisse zu erzielen.",

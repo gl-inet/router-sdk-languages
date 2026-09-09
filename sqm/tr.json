@@ -1,5 +1,12 @@
 {
   "sqm": {
+    "queue_label": "Kuyruk Kuralı",
+    "title": "SQM",
+    "tips": "Etkinleştirildiğinde yönlendiriciniz, gecikmeyi ve \"bufferbloat\" etkisini en aza indirmek için trafiği akıllı şekilde yönetir; böylece oyunlar ve aramalar daha akıcı olur. SQM kaynak yoğun bir özellik olduğundan, düşük bant genişliğine sahip veya yoğun ağlar için daha uygundur; yüksek hızlı bağlantılarda etkinleştirilmesi en yüksek aktarım performansını düşürebilir.",
+    "qdisc_cake_tips": "cake: Akıllı, otomatik trafik şekillendirme ile en iyi genel gecikme kontrolü (önerilir).",
+    "qdisc_fq_codel_tips": "fq_codel: Temel gecikme azaltma ile basit ve verimli adil kuyruklama.",
+    "tips_second": "SQM, yönlendiriciyi bir ağ geçidi olarak kullanan trafiği etkiler, VPN İstemci trafiği dahil, ancak yönlendirici VPN Sunucusu olarak çalışırken gelen trafiği etkilemez.",
+    "cake_autorate_tips": "Sürekli olarak yansıtıcı sunuculara küçük ICMP gecikme sondaları gönderir, gidiş-dönüş gecikmesini gözlemler ve tampon şişmesini bastırmak için CAKE şekillendirici bant genişliğini dinamik olarak düşürür veya yükseltir. Aktif hız testleri çalıştırmaz.",
     "upload_label": "Yükleme",
     "client_speed_limit_warning_tips": "Bu özellik İstemci Hız Sınırlaması ile birlikte çalışamaz. Etkinleştirilmesi tüm istemci hız sınırlarını otomatik olarak kaldıracaktır.",
     "upload_tips": "Trafik planlaması için önce maksimum yükleme ve indirme hızlarınızı ayarlayın (giriş aralığı: 1–10000). En iyi sonuçlar için bunları gerçek internet bant genişliğinizle eşleştirin.",
