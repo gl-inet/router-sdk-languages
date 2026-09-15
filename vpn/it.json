@@ -701,5 +701,13 @@
     "menu_expressvpn_dashboard": "Pannello di controllo ExpressVPN",
     "welcome": {
         "expressvpn_welcome_slogan": "Benvenuto in Fortify."
+    },
+    "vpn_client_groups": {
+        "search_group_label": "Cerca per nome gruppo",
+        "group_count_label": "{count} gruppo | {count} gruppi",
+        "at_least_one_group_msg": "Seleziona almeno un gruppo di dispositivi disponibile.",
+        "no_groups_tips": "Nessun gruppo di dispositivi disponibile.",
+        "no_groups_link_tips": "Crea o gestisci gruppi di dispositivi nella pagina {clients}.",
+        "no_matching_groups_tips": "Nessun gruppo di dispositivi corrispondente."
     }
 }
