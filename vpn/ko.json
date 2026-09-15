@@ -701,5 +701,13 @@
     "menu_expressvpn_dashboard": "ExpressVPN 대시보드",
     "welcome": {
         "expressvpn_welcome_slogan": "Fortify에 오신 것을 환영합니다."
+    },
+    "vpn_client_groups": {
+        "search_group_label": "그룹 이름으로 검색",
+        "group_count_label": "{count}개 그룹 | {count}개 그룹",
+        "at_least_one_group_msg": "사용 가능한 장치 그룹을 하나 이상 선택하세요.",
+        "no_groups_tips": "사용 가능한 장치 그룹이 없습니다.",
+        "no_matching_groups_tips": "일치하는 장치 그룹이 없습니다.",
+        "no_groups_link_tips": "{clients} 페이지에서 장치 그룹을 생성하거나 관리하세요."
     }
 }
