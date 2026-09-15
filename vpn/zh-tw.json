@@ -701,5 +701,13 @@
     "menu_expressvpn_dashboard": "ExpressVPN 儀表板",
     "welcome": {
         "expressvpn_welcome_slogan": "歡迎使用 Fortify。"
+    },
+    "vpn_client_groups": {
+        "search_group_label": "依群組名稱搜尋",
+        "group_count_label": "{count} 個群組 | {count} 個群組",
+        "at_least_one_group_msg": "請至少選取一個可用的裝置群組。",
+        "no_groups_tips": "沒有可用的裝置群組。",
+        "no_matching_groups_tips": "沒有相符的裝置群組。",
+        "no_groups_link_tips": "在 {clients} 頁面建立或管理裝置群組。"
     }
 }
