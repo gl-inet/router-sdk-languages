@@ -95,6 +95,13 @@
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
+        "time_not_synced_msg": "Time not synced. Waiting for auto-sync...",
+        "invalid_signature_msg": "Invalid signature. Please contact technical support.",
+        "device_not_registered_msg": "Device info not registered. Please contact technical support.",
+        "invalid_tls_device_msg": "Invalid TLS device info. Please contact technical support.",
+        "invalid_certificate_msg": "Invalid certificate. Please contact technical support.",
+        "invalid_device_version_msg": "Invalid device version. Please contact technical support.",
+        "dns_resolution_failed_msg": "DNS resolution failed. Please check your DNS settings.",
         "server_abnormal_msg": "Server Exception",
         "server_busy_msg": "The server is busy, please try again later.",
         "token_invalid_msg": "token invalidation",

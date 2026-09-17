@@ -95,6 +95,13 @@
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
+        "time_not_synced_msg": "La hora no está sincronizada. Esperando la sincronización automática...",
+        "invalid_signature_msg": "Firma no válida. Por favor, contacte con el soporte técnico.",
+        "device_not_registered_msg": "La información del dispositivo no está registrada. Por favor, contacte con el soporte técnico.",
+        "invalid_tls_device_msg": "Información TLS del dispositivo no válida. Por favor, contacte con el soporte técnico.",
+        "invalid_certificate_msg": "Certificado no válido. Por favor, contacte con el soporte técnico.",
+        "invalid_device_version_msg": "Versión del dispositivo no válida. Por favor, contacte con el soporte técnico.",
+        "dns_resolution_failed_msg": "Error en la resolución DNS. Por favor, compruebe su configuración DNS.",
         "server_busy_msg": "El servidor está ocupado, por favor inténtelo de nuevo más tarde.",
         "account_incorrect_msg": "El nombre de usuario o la contraseña es incorrecta.",
         "token_invalid_msg": "invalidación de token",

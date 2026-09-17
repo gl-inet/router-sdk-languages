@@ -95,6 +95,13 @@
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
+        "time_not_synced_msg": "De tijd is niet gesynchroniseerd. Wachten op automatische synchronisatie...",
+        "invalid_signature_msg": "Ongeldige handtekening. Neem contact op met de technische ondersteuning.",
+        "device_not_registered_msg": "De apparaatgegevens zijn niet geregistreerd. Neem contact op met de technische ondersteuning.",
+        "invalid_tls_device_msg": "Ongeldige TLS-apparaatgegevens. Neem contact op met de technische ondersteuning.",
+        "invalid_certificate_msg": "Ongeldig certificaat. Neem contact op met de technische ondersteuning.",
+        "invalid_device_version_msg": "Ongeldige apparaatversie. Neem contact op met de technische ondersteuning.",
+        "dns_resolution_failed_msg": "DNS-resolutie mislukt. Controleer uw DNS-instellingen.",
         "username_already_exist_msg": "De gebruikersnaam bestaat al.",
         "phone_not_exist_msg": "Het telefoonnummer is leeg.",
         "send_verify_code_err_msg": "Het verzenden van de e-mailverificatiecode is mislukt.",

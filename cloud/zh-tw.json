@@ -95,6 +95,13 @@
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
+        "time_not_synced_msg": "時間未同步，正在等待自動同步...",
+        "invalid_signature_msg": "簽章無效，請聯絡技術支援。",
+        "device_not_registered_msg": "設備資訊未註冊，請聯絡技術支援。",
+        "invalid_tls_device_msg": "TLS 設備資訊無效，請聯絡技術支援。",
+        "invalid_certificate_msg": "憑證無效，請聯絡技術支援。",
+        "invalid_device_version_msg": "設備版本無效，請聯絡技術支援。",
+        "dns_resolution_failed_msg": "DNS 解析失敗，請檢查 DNS 設定。",
         "device_not_found_msg": "未知設備。",
         "username_already_exist_msg": "用戶名已存在。",
         "email_already_exist_msg": "郵箱已存在。",
