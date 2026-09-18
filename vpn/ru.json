@@ -611,7 +611,10 @@
         "no_config_selected_line2": "Пожалуйста, завершите настройку туннеля перед его использованием.",
         "no_vpn_config_line2": "Используйте VPN-провайдера или добавьте файлы конфигурации.",
         "remove_last_tunnel_reset_policy_tips": "Удаление последнего туннеля приведет к сбросу {policy} до \"{label}\".",
-        "expressvpn_not_connected_label": "Не подключено"
+        "expressvpn_not_connected_label": "Не подключено",
+        "client_source_unavailable_tips": "Этот туннель отключён, поскольку его источник клиента недоступен. Выберите доступный источник клиента перед использованием этого туннеля.",
+        "select_client_source_btn": "Выберите источник клиента",
+        "client_source_unavailable_label": "Недоступно"
     },
     "vpn_server": {
         "connected_dev_label": "Подключенные устройства",

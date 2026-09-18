@@ -611,7 +611,10 @@
         "no_config_selected_line2": "請在使用前完成隧道配置。",
         "no_vpn_config_line2": "使用 VPN 服務提供商或添加配置文件。",
         "remove_last_tunnel_reset_policy_tips": "刪除最後一個通道將會將{policy}重置為\"{label}\"。",
-        "expressvpn_not_connected_label": "未連線"
+        "expressvpn_not_connected_label": "未連線",
+        "client_source_unavailable_tips": "由於用戶端來源無法使用，此隧道已停用。請先選擇可用的用戶端來源，再使用此隧道。",
+        "select_client_source_btn": "請選擇用戶端來源",
+        "client_source_unavailable_label": "無法使用"
     },
     "vpn_server": {
         "connected_dev_label": "已連接的設備",

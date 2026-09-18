@@ -611,7 +611,10 @@
         "no_config_selected_line2": "Kérjük, fejezze be az alagút konfigurációját a használat előtt.",
         "no_vpn_config_line2": "VPN szolgáltató használata vagy konfigurációs fájlok hozzáadása.",
         "remove_last_tunnel_reset_policy_tips": "Az utolsó alagút törlése visszaállítja a {policy} beállítást a(z) \"{label}\" értékre.",
-        "expressvpn_not_connected_label": "Nincs csatlakoztatva"
+        "expressvpn_not_connected_label": "Nincs csatlakoztatva",
+        "client_source_unavailable_tips": "Ez az alagút le van tiltva, mert a kliens forrása nem érhető el. Kérjük, válasszon egy elérhető kliens forrást az alagút használata előtt.",
+        "select_client_source_btn": "Kérjük, válasszon kliens forrást",
+        "client_source_unavailable_label": "Nem érhető el"
     },
     "vpn_server": {
         "off_title": "A {type} szerver jelenleg KIKAPCSOLT állapotban van.",

@@ -611,7 +611,10 @@
         "no_config_selected_line2": "使用前にトンネル設定を完了してください。",
         "no_vpn_config_line2": "VPNサービスプロバイダーを使用するか、設定ファイルを追加してください。",
         "remove_last_tunnel_reset_policy_tips": "最後のトンネルを削除すると、{policy} が \"{label}\" にリセットされます。",
-        "expressvpn_not_connected_label": "未接続"
+        "expressvpn_not_connected_label": "未接続",
+        "client_source_unavailable_tips": "クライアントソースが利用できないため、このトンネルは無効になっています。このトンネルを使用する前に、利用可能なクライアントソースを選択してください。",
+        "select_client_source_btn": "クライアントソースを選択してください",
+        "client_source_unavailable_label": "利用不可"
     },
     "vpn_server": {
         "off_title": "{type}サーバーは現在停止しています。",
