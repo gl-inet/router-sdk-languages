@@ -596,7 +596,8 @@
         "sim_threshold_dual_tips": "Jei nustatytas {currentSim} duomenų ribos kiekis ir SIM kortelės lizdas {handler} įgalintas, {currentSim} automatiškai perjungs į {otherSim}, kai jo duomenų kiekis viršys duomenų ribos kiekį ir {currentSim} bus išjungtas.",
         "disabled_sim_auto_switch_tips": "SIM kortelė nebus perjungta pasiekus duomenų limitą, nes {handler} nėra įjungtas. Pasiekus duomenų limitą, SIM kortelė bus išjungta.",
         "enabled_sim_auto_switch_tips": "SIM kortelė bus pakeista, kai bus pasiektas duomenų limitas.",
-        "sim_threshold_switch_tips": "Jei nustatytas {currentSim} duomenų limito kiekis ir įjungtas {handler}, {currentSim} automatiškai persijungs į {otherSim}, kai jo duomenų naudojimas viršys duomenų limito kiekį, o {currentSim} bus išjungtas."
+        "sim_threshold_switch_tips": "Jei nustatytas {currentSim} duomenų limito kiekis ir įjungtas {handler}, {currentSim} automatiškai persijungs į {otherSim}, kai jo duomenų naudojimas viršys duomenų limito kiekį, o {currentSim} bus išjungtas.",
+        "sim_data_limit_switch_tips": "Priešingu atveju tinklas gali būti atjungtas arba SIM kortelė gali persijungti į kitą."
     },
     "cellular": {
         "tower_locked_label": "{sim}: Bokštas užrakintas",
