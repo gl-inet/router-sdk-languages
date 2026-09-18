@@ -611,7 +611,10 @@
         "no_config_selected_line2": "Prieš naudodami tunelį, užbaikite jo konfigūraciją.",
         "no_vpn_config_line2": "Naudokite „VPN“ paslaugų teikėją arba pridėkite konfigūracijos failus.",
         "remove_last_tunnel_reset_policy_tips": "Ištrinus paskutinį tunelį, {policy} bus grąžinta į pradinę būseną „{label}“.",
-        "expressvpn_not_connected_label": "Neprisijungta"
+        "expressvpn_not_connected_label": "Neprisijungta",
+        "client_source_unavailable_tips": "Šis tunelis išjungtas, nes jo kliento šaltinis nepasiekiamas. Prieš naudodami šį tunelį, pasirinkite pasiekiamą kliento šaltinį.",
+        "select_client_source_btn": "Pasirinkite kliento šaltinį",
+        "client_source_unavailable_label": "Nepasiekiamas"
     },
     "vpn_server": {
         "off_title": "{type} serveris šiuo metu išjungtas.",
@@ -701,5 +704,11 @@
     "menu_expressvpn_dashboard": "ExpressVPN Ataskaitų skydelis",
     "welcome": {
         "expressvpn_welcome_slogan": "Sveiki atvykę į Fortify."
+    },
+    "vpn_client_groups": {
+        "search_group_label": "Ieškoti pagal grupės pavadinimą",
+        "group_count_label": "{count} grupė | {count} grupės",
+        "at_least_one_group_msg": "Pasirinkite bent vieną pasiekiamą įrenginių grupę.",
+        "no_matching_groups_tips": "Nėra atitinkančių įrenginių grupių."
     }
 }

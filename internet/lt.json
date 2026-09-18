@@ -239,6 +239,8 @@
         "vlan_lan_subnet_conflict_tips": "Visuotiniame „WAN“ prievade sukonfigūruotas „VLAN“ konfliktuoja su potinkliu."
     },
     "repeater": {
+        "upload_link_label": "Siuntimo ryšys",
+        "download_link_label": "Atsisiuntimo ryšys",
         "change_wifi": "Pakeisti tinklą",
         "allow_change": "Leisti perjungimą į kitus išsaugotus tinklus",
         "allow_change_tips": "Jei ši parinktis įgalinta, maršrutizatorius automatiškai prisijungs prie kitų išsaugotų tinklų, kai negalės/nepavyks prisijungti prie dabartinio „Wi-Fi“ tinklo.",
@@ -593,7 +595,8 @@
         "sim_threshold_single_tips": "Jei nustatytas SIM duomenų limito kiekis, SIM bus išjungtas, kai jo duomenys viršys duomenų limito kiekį.",
         "sim_threshold_dual_tips": "Jei nustatytas {currentSim} duomenų ribos kiekis ir SIM kortelės lizdas {handler} įgalintas, {currentSim} automatiškai perjungs į {otherSim}, kai jo duomenų kiekis viršys duomenų ribos kiekį ir {currentSim} bus išjungtas.",
         "disabled_sim_auto_switch_tips": "SIM kortelė nebus perjungta pasiekus duomenų limitą, nes {handler} nėra įjungtas. Pasiekus duomenų limitą, SIM kortelė bus išjungta.",
-        "enabled_sim_auto_switch_tips": "SIM kortelė bus pakeista, kai bus pasiektas duomenų limitas."
+        "enabled_sim_auto_switch_tips": "SIM kortelė bus pakeista, kai bus pasiektas duomenų limitas.",
+        "sim_threshold_switch_tips": "Jei nustatytas {currentSim} duomenų limito kiekis ir įjungtas {handler}, {currentSim} automatiškai persijungs į {otherSim}, kai jo duomenų naudojimas viršys duomenų limito kiekį, o {currentSim} bus išjungtas."
     },
     "cellular": {
         "tower_locked_label": "{sim}: Bokštas užrakintas",

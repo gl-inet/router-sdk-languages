@@ -94,6 +94,13 @@
         "device_identity_title": "Aitheantas Gléas"
     },
     "cloud_err": {
+        "time_not_synced_msg": "Níl an t-am sioncronaithe. Ag fanacht le sioncronú uathoibríoch...",
+        "invalid_signature_msg": "Síniú neamhbhailí. Déan teagmháil leis an tacaíocht theicniúil, le do thoil.",
+        "device_not_registered_msg": "Níl faisnéis an ghléis cláraithe. Déan teagmháil leis an tacaíocht theicniúil, le do thoil.",
+        "invalid_tls_device_msg": "Tá faisnéis TLS an ghléis neamhbhailí. Déan teagmháil leis an tacaíocht theicniúil, le do thoil.",
+        "invalid_certificate_msg": "Teastas neamhbhailí. Déan teagmháil leis an tacaíocht theicniúil, le do thoil.",
+        "invalid_device_version_msg": "Leagan neamhbhailí den ghléas. Déan teagmháil leis an tacaíocht theicniúil, le do thoil.",
+        "dns_resolution_failed_msg": "Theip ar réiteach DNS. Seiceáil do shocruithe DNS, le do thoil.",
         "username_already_exist_msg": "Tá an t-ainm úsáideora ann cheana.",
         "sms_sending_failed_msg": "Theip ar SMS a sheoladh",
         "phone_verify_code_err_msg": "Tá an cód fíoraithe teileafóin mícheart.",

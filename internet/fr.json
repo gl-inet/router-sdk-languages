@@ -36,6 +36,8 @@
         "no_device_tips": "Aucun smartphone en partage de connexion n'a été trouvé. Branchez votre smartphone en modem USB pour activer cette connexion."
     },
     "repeater": {
+        "upload_link_label": "Liaison montante",
+        "download_link_label": "Liaison descendante",
         "title": "Répéteur",
         "known_net": "Réseaux connus",
         "options": "Options de répéteur",
@@ -593,7 +595,8 @@
         "sim_threshold_single_tips": "Si le volume du plafond de données SIM est défini, la SIM sera désactivée lorsque sa consommation de données dépassera le volume du plafond de données.",
         "sim_threshold_dual_tips": "Si le volume du plafond de données de {currentSim} est défini et que l'emplacement de la carte SIM {handler} est activé, {currentSim} basculera automatiquement sur {otherSim} lorsque ses données dépasseront le volume du plafond de données et {currentSim} sera désactivé.",
         "disabled_sim_auto_switch_tips": "La carte SIM ne basculera pas au plafond de données car {handler} n'est pas activé. Et la carte SIM sera désactivée lorsque le plafond de données sera atteint.",
-        "enabled_sim_auto_switch_tips": "La carte SIM basculera lorsque le plafond de données sera atteint."
+        "enabled_sim_auto_switch_tips": "La carte SIM basculera lorsque le plafond de données sera atteint.",
+        "sim_threshold_switch_tips": "Si le plafond de données de {currentSim} est défini et que {handler} est activé, {currentSim} basculera automatiquement vers {otherSim} lorsque sa consommation de données dépassera le plafond de données, et {currentSim} sera désactivé."
     },
     "cellular": {
         "tower_locked_label": "{sim} Tour verrouillée",

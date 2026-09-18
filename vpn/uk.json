@@ -611,7 +611,10 @@
         "no_config_selected_line2": "Будь ласка, завершіть конфігурацію тунелю перед його використанням.",
         "no_vpn_config_line2": "Використовуйте постачальника послуг VPN або додайте файли конфігурації.",
         "remove_last_tunnel_reset_policy_tips": "Видалення останнього тунелю скине {policy} до \"{label}\".",
-        "expressvpn_not_connected_label": "Не підключено"
+        "expressvpn_not_connected_label": "Не підключено",
+        "client_source_unavailable_tips": "Цей тунель вимкнено, оскільки його джерело клієнта недоступне. Виберіть доступне джерело клієнта перед використанням цього тунелю.",
+        "select_client_source_btn": "Виберіть джерело клієнта",
+        "client_source_unavailable_label": "Недоступно"
     },
     "vpn_server": {
         "connected_dev_label": "Підключені пристрої",
@@ -701,5 +704,11 @@
     "menu_expressvpn_dashboard": "Дашборд ExpressVPN",
     "welcome": {
         "expressvpn_welcome_slogan": "Ласкаво просимо до Fortify."
+    },
+    "vpn_client_groups": {
+        "search_group_label": "Пошук за назвою групи",
+        "at_least_one_group_msg": "Виберіть принаймні одну доступну групу пристроїв.",
+        "no_matching_groups_tips": "Немає відповідних груп пристроїв.",
+        "group_count_label": "{count} група | {count} груп"
     }
 }

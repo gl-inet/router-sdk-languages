@@ -36,6 +36,8 @@
         "no_device_tips": "No Tethering device found. Plug in your smartphone or USB Modem to start."
     },
     "repeater": {
+        "upload_link_label": "Upload Link",
+        "download_link_label": "Download Link",
         "title": "Repeater",
         "known_net": "Known Networks",
         "options": "Repeater Options",
@@ -593,7 +595,8 @@
         "over_limit_common_tips": "The Data Used has exceeded the Data Cap Amount, please modify the Data Cap Amount or the Data Used manually.",
         "sim_threshold_dual_tips": "If the {currentSim} Data Cap Amount is set and the SIM Card Slot {handler} is enabled, {currentSim} will automatically switch to {otherSim} when it's data exceeds the Data Cap Amount and {currentSim} will be disabled.",
         "disabled_sim_auto_switch_tips": "The SIM will not switch at data cap because {handler} is not enable. And the SIM will be disabled when data cap is reached.",
-        "enabled_sim_auto_switch_tips": "The SIM will switch when data cap is reached."
+        "enabled_sim_auto_switch_tips": "The SIM will switch when data cap is reached.",
+        "sim_threshold_switch_tips": "If the {currentSim} Data Cap Amount is set and the {handler} is enabled, {currentSim} will automatically switch to {otherSim} when it's data exceeds the Data Cap Amount and {currentSim} will be disabled."
     },
     "cellular": {
         "tower_locked_label": "{sim} Tower Locked",

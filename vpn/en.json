@@ -611,7 +611,10 @@
         "no_config_selected_line2": "Please complete the tunnel configuration before using it.",
         "no_vpn_config_line2": "Using VPN service provider or add configuration files.",
         "remove_last_tunnel_reset_policy_tips": "Deleting the last tunnel will reset the {policy} to \"{label}\".",
-        "expressvpn_not_connected_label": "Not Connected"
+        "expressvpn_not_connected_label": "Not Connected",
+        "client_source_unavailable_tips": "This tunnel is disabled because its client source is unavailable. Please select an available client source before using this tunnel.",
+        "select_client_source_btn": "Please select a client source",
+        "client_source_unavailable_label": "Unavailable"
     },
     "vpn_server": {
         "starting_label": "The {type} server is starting...",
@@ -701,5 +704,11 @@
     "menu_expressvpn_dashboard": "ExpressVPN Dashboard",
     "welcome": {
         "expressvpn_welcome_slogan": "Welcome to Fortify."
+    },
+    "vpn_client_groups": {
+        "search_group_label": "Search by group name",
+        "group_count_label": "{count} Group | {count} Groups",
+        "at_least_one_group_msg": "Please select at least one available device group.",
+        "no_matching_groups_tips": "No matching device groups."
     }
 }

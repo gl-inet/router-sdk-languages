@@ -36,6 +36,8 @@
         "no_device_tips": "Kein Tethering-Gerät gefunden. Schließen Sie Ihr Smartphone oder USB-Modem an, um zu starten."
     },
     "repeater": {
+        "upload_link_label": "Uplink",
+        "download_link_label": "Downlink",
         "title": "Repeater",
         "known_net": "bekannte Netzwerke",
         "options": "Repeater Optionen",
@@ -593,7 +595,8 @@
         "over_limit_common_tips": "Die verwendeten Daten haben das festgelegte Datenvolumen überschritten. Bitte passen Sie das Datenvolumen oder die verwendeten Daten manuell an.",
         "sim_threshold_dual_tips": "Wenn das Datenvolumen für {currentSim} festgelegt ist und der SIM-Karten-Slot {handler} aktiviert ist, wird {currentSim} automatisch auf {otherSim} umschalten, wenn das Datenvolumen überschritten wird, und {currentSim} wird deaktiviert.",
         "enabled_sim_auto_switch_tips": "Die SIM wird gewechselt, wenn das Datenvolumen erreicht ist.",
-        "disabled_sim_auto_switch_tips": "Die SIM wird bei Erreichen des Datenlimits nicht wechseln, da {handler} nicht aktiviert ist. Und die SIM wird deaktiviert, wenn das Datenlimit erreicht ist."
+        "disabled_sim_auto_switch_tips": "Die SIM wird bei Erreichen des Datenlimits nicht wechseln, da {handler} nicht aktiviert ist. Und die SIM wird deaktiviert, wenn das Datenlimit erreicht ist.",
+        "sim_threshold_switch_tips": "Wenn die Datenobergrenze für {currentSim} festgelegt und {handler} aktiviert ist, wechselt {currentSim} automatisch zu {otherSim}, wenn der Datenverbrauch die Datenobergrenze überschreitet, und {currentSim} wird deaktiviert."
     },
     "cellular": {
         "tower_locked_label": "{sim} Turm gesperrt",

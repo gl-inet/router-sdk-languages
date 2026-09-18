@@ -95,6 +95,13 @@
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
+        "time_not_synced_msg": "L'heure n'est pas synchronisée. En attente de la synchronisation automatique...",
+        "invalid_signature_msg": "Signature invalide. Veuillez contacter l'assistance technique.",
+        "device_not_registered_msg": "Les informations de l'appareil ne sont pas enregistrées. Veuillez contacter l'assistance technique.",
+        "invalid_tls_device_msg": "Informations TLS de l'appareil invalides. Veuillez contacter l'assistance technique.",
+        "invalid_certificate_msg": "Certificat invalide. Veuillez contacter l'assistance technique.",
+        "invalid_device_version_msg": "Version de l'appareil invalide. Veuillez contacter l'assistance technique.",
+        "dns_resolution_failed_msg": "Échec de la résolution DNS. Veuillez vérifier vos paramètres DNS.",
         "server_busy_msg": "Le serveur est occupé, veuillez réessayer plus tard.",
         "account_incorrect_msg": "Le nom d'utilisateur ou le mot de passe est incorrect.",
         "phone_not_exist_msg": "Le numéro de téléphone est vide.",

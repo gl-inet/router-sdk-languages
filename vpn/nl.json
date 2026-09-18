@@ -611,7 +611,10 @@
         "no_config_selected_line2": "Voltooi de tunnelconfiguratie voordat u deze gebruikt.",
         "no_vpn_config_line2": "Gebruik een VPN-serviceprovider of voeg configuratiebestanden toe.",
         "remove_last_tunnel_reset_policy_tips": "Het verwijderen van de laatste tunnel zal de {policy} resetten naar \"{label}\".",
-        "expressvpn_not_connected_label": "Niet verbonden"
+        "expressvpn_not_connected_label": "Niet verbonden",
+        "client_source_unavailable_tips": "Deze tunnel is uitgeschakeld omdat de clientbron niet beschikbaar is. Selecteer een beschikbare clientbron voordat u deze tunnel gebruikt.",
+        "select_client_source_btn": "Selecteer een clientbron",
+        "client_source_unavailable_label": "Niet beschikbaar"
     },
     "vpn_server": {
         "off_title": "De {type} server is momenteel UIT.",
@@ -701,5 +704,11 @@
     "menu_expressvpn_dashboard": "ExpressVPN Dashboard",
     "welcome": {
         "expressvpn_welcome_slogan": "Welkom bij Fortify."
+    },
+    "vpn_client_groups": {
+        "search_group_label": "Zoeken op groepsnaam",
+        "group_count_label": "{count} groep | {count} groepen",
+        "at_least_one_group_msg": "Selecteer ten minste één beschikbare apparaatgroep.",
+        "no_matching_groups_tips": "Geen overeenkomende apparaatgroepen."
     }
 }

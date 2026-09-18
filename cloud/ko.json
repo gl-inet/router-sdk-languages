@@ -95,6 +95,13 @@
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
+        "time_not_synced_msg": "시간이 동기화되지 않았습니다. 자동 동기화를 기다리는 중입니다...",
+        "invalid_signature_msg": "서명이 유효하지 않습니다. 기술 지원팀에 문의해 주세요.",
+        "device_not_registered_msg": "장치 정보가 등록되지 않았습니다. 기술 지원팀에 문의해 주세요.",
+        "invalid_tls_device_msg": "TLS 장치 정보가 유효하지 않습니다. 기술 지원팀에 문의해 주세요.",
+        "invalid_certificate_msg": "인증서가 유효하지 않습니다. 기술 지원팀에 문의해 주세요.",
+        "invalid_device_version_msg": "장치 버전이 유효하지 않습니다. 기술 지원팀에 문의해 주세요.",
+        "dns_resolution_failed_msg": "DNS 이름 확인에 실패했습니다. DNS 설정을 확인해 주세요.",
         "server_busy_msg": "서버가 바쁩니다. 나중에 다시 시도해 주세요.",
         "username_already_exist_msg": "사용자 이름이 이미 존재합니다.",
         "phone_verify_code_invalid_msg": "전화 인증 코드가 만료되었습니다.",

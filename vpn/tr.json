@@ -606,7 +606,10 @@
         "no_vpn_config_line2": "VPN servis sağlayıcısı kullanın veya yapılandırma dosyaları ekleyin.",
         "no_config_selected_line1": "Mevcut tünel için yapılandırma seçilmedi.",
         "remove_last_tunnel_reset_policy_tips": "Son tüneli silmek, {policy} değerini \"{label}\" olarak sıfırlayacaktır.",
-        "expressvpn_not_connected_label": "Bağlı Değil"
+        "expressvpn_not_connected_label": "Bağlı Değil",
+        "client_source_unavailable_tips": "İstemci kaynağı kullanılamadığı için bu tünel devre dışı bırakılmıştır. Bu tüneli kullanmadan önce lütfen kullanılabilir bir istemci kaynağı seçin.",
+        "select_client_source_btn": "Lütfen bir istemci kaynağı seçin",
+        "client_source_unavailable_label": "Kullanılamıyor"
     },
     "vpn_server": {
         "route_rule_dest_already_exists_msg": "Zaten var olan bir hedef adres girilemez.",
@@ -701,5 +704,11 @@
     "menu_expressvpn_dashboard": "ExpressVPN Kontrol Paneli",
     "welcome": {
         "expressvpn_welcome_slogan": "Fortify'ye hoş geldiniz."
+    },
+    "vpn_client_groups": {
+        "search_group_label": "Grup adına göre ara",
+        "group_count_label": "{count} Grup | {count} Grup",
+        "at_least_one_group_msg": "Lütfen en az bir kullanılabilir cihaz grubu seçin.",
+        "no_matching_groups_tips": "Eşleşen cihaz grubu yok."
     }
 }

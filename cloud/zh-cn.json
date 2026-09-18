@@ -95,6 +95,13 @@
     },
     "menu_cloud": "GoodCloud",
     "cloud_err": {
+        "time_not_synced_msg": "时间未同步，正在等待自动同步...",
+        "invalid_signature_msg": "签名无效，请联系技术支持。",
+        "device_not_registered_msg": "设备信息未注册，请联系技术支持。",
+        "invalid_tls_device_msg": "TLS 设备信息无效，请联系技术支持。",
+        "invalid_certificate_msg": "证书无效，请联系技术支持。",
+        "invalid_device_version_msg": "设备版本无效，请联系技术支持。",
+        "dns_resolution_failed_msg": "DNS 解析失败，请检查 DNS 设置。",
         "username_already_exist_msg": "用户名已存在。",
         "phone_already_exist_msg": "手机号码已存在。",
         "email_verify_code_err_msg": "邮件验证码错误。",
