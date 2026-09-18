@@ -596,7 +596,8 @@
         "sim_threshold_dual_tips": "Si le volume du plafond de données de {currentSim} est défini et que l'emplacement de la carte SIM {handler} est activé, {currentSim} basculera automatiquement sur {otherSim} lorsque ses données dépasseront le volume du plafond de données et {currentSim} sera désactivé.",
         "disabled_sim_auto_switch_tips": "La carte SIM ne basculera pas au plafond de données car {handler} n'est pas activé. Et la carte SIM sera désactivée lorsque le plafond de données sera atteint.",
         "enabled_sim_auto_switch_tips": "La carte SIM basculera lorsque le plafond de données sera atteint.",
-        "sim_threshold_switch_tips": "Si le plafond de données de {currentSim} est défini et que {handler} est activé, {currentSim} basculera automatiquement vers {otherSim} lorsque sa consommation de données dépassera le plafond de données, et {currentSim} sera désactivé."
+        "sim_threshold_switch_tips": "Si le plafond de données de {currentSim} est défini et que {handler} est activé, {currentSim} basculera automatiquement vers {otherSim} lorsque sa consommation de données dépassera le plafond de données, et {currentSim} sera désactivé.",
+        "sim_data_limit_switch_tips": "Sinon, le réseau peut être déconnecté ou la carte SIM peut basculer vers une autre."
     },
     "cellular": {
         "tower_locked_label": "{sim} Tour verrouillée",
