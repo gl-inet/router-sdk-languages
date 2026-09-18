@@ -596,7 +596,8 @@
         "sim_threshold_dual_tips": "Якщо встановлено ліміт даних для {currentSim} і слот SIM-карти {handler} активовано, {currentSim} автоматично переключиться на {otherSim}, коли обсяг даних перевищить встановлений ліміт, і {currentSim} буде вимкнено.",
         "disabled_sim_auto_switch_tips": "SIM-картка не переключиться при досягненні ліміту даних, оскільки {handler} не активовано. А SIM-картка буде вимкнена, коли буде досягнуто ліміт даних.",
         "enabled_sim_auto_switch_tips": "SIM-картка буде змінена після досягнення ліміту даних.",
-        "sim_threshold_switch_tips": "Якщо для {currentSim} встановлено ліміт обсягу даних і ввімкнено {handler}, {currentSim} автоматично перемкнеться на {otherSim}, коли використання даних на {currentSim} перевищить ліміт, і {currentSim} буде вимкнено."
+        "sim_threshold_switch_tips": "Якщо для {currentSim} встановлено ліміт обсягу даних і ввімкнено {handler}, {currentSim} автоматично перемкнеться на {otherSim}, коли використання даних на {currentSim} перевищить ліміт, і {currentSim} буде вимкнено.",
+        "sim_data_limit_switch_tips": "Інакше підключення до мережі може розірватися або SIM-карта може перемкнутися на іншу."
     },
     "cellular": {
         "tower_locked_label": "{sim} Блокування вежі",
