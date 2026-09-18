@@ -414,7 +414,8 @@
         "sim_threshold_dual_tips": "Eğer {currentSim} Veri Sınırı Miktarı ayarlandıysa ve SIM Kart Yuvası {handler} etkinse, {currentSim} verisi sınırı aştığında otomatik olarak {otherSim}'e geçilecek ve {currentSim} devre dışı bırakılacaktır.",
         "disabled_sim_auto_switch_tips": "SIM, {handler} etkin olmadığı için veri sınırında geçiş yapmayacak. Ve veri sınırına ulaşıldığında SIM devre dışı bırakılacaktır.",
         "enabled_sim_auto_switch_tips": "Veri sınırına ulaşıldığında SIM geçiş yapacaktır.",
-        "sim_threshold_switch_tips": "{currentSim} Veri Sınırı Miktarı ayarlanmışsa ve {handler} etkinse, veri kullanımı Veri Sınırı Miktarını aştığında {currentSim} otomatik olarak {otherSim} öğesine geçer ve {currentSim} devre dışı bırakılır."
+        "sim_threshold_switch_tips": "{currentSim} Veri Sınırı Miktarı ayarlanmışsa ve {handler} etkinse, veri kullanımı Veri Sınırı Miktarını aştığında {currentSim} otomatik olarak {otherSim} öğesine geçer ve {currentSim} devre dışı bırakılır.",
+        "sim_data_limit_switch_tips": "Aksi takdirde ağ bağlantısı kesilebilir veya başka bir SIM karta geçiş yapılabilir."
     },
     "simo": {
         "physical_switch_to_vsim_tips": "Fiziksel SIM karttan modülün sanal SIM kartına (vSIM) geçeceksiniz. simo web sitesinden bir veri paketi satın aldığınızdan emin olmanız gerekir (Satın almak için cihazdaki QR kodunu tarayın). Ardından fiziksel SIM kartı cihazdan çıkarabilirsiniz.",
