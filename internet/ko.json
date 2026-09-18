@@ -596,7 +596,8 @@
         "sim_threshold_dual_tips": "만약 {currentSim} 데이터 사용량 제한이 설정되어 있고 SIM 카드 슬롯 {handler}가 활성화되어 있다면, 데이터 사용량이 제한을 초과하면 {currentSim}에서 {otherSim}으로 자동 전환되며 {currentSim}은 비활성화됩니다.",
         "disabled_sim_auto_switch_tips": "SIM 카드는 데이터 제한에 도달했을 때 {handler}가 활성화되어 있지 않기 때문에 전환되지 않습니다. 그리고 데이터 제한에 도달하면 SIM 카드는 비활성화될 것입니다.",
         "enabled_sim_auto_switch_tips": "SIM 카드는 데이터 사용량이 제한에 도달하면 전환됩니다.",
-        "sim_threshold_switch_tips": "{currentSim} 데이터 한도량이 설정되어 있고 {handler}이(가) 활성화된 경우, {currentSim}의 데이터 사용량이 데이터 한도량을 초과하면 자동으로 {otherSim}(으)로 전환되고 {currentSim}은(는) 비활성화됩니다."
+        "sim_threshold_switch_tips": "{currentSim} 데이터 한도량이 설정되어 있고 {handler}이(가) 활성화된 경우, {currentSim}의 데이터 사용량이 데이터 한도량을 초과하면 자동으로 {otherSim}(으)로 전환되고 {currentSim}은(는) 비활성화됩니다.",
+        "sim_data_limit_switch_tips": "그렇지 않으면 네트워크 연결이 끊기거나 SIM 카드가 다른 카드로 전환될 수 있습니다."
     },
     "cellular": {
         "tower_locked_label": "{sim} 타워 잠금",
