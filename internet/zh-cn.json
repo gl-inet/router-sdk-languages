@@ -596,7 +596,8 @@
         "sim_threshold_dual_tips": "如果设置了{currentSim}的数据上限额度，并且启用了 SIM 卡槽{handler}，当其数据超出上限额度时，{currentSim}将自动切换到{otherSim}，并且{currentSim}将被禁用。",
         "disabled_sim_auto_switch_tips": "达到数据上限时，SIM 卡不会切换，因为{handler}未启用。并且当达到数据上限时，SIM 卡将被禁用。",
         "enabled_sim_auto_switch_tips": "SIM 卡将在达到数据上限时切换。",
-        "sim_threshold_switch_tips": "如果设置了 {currentSim} 流量上限，且已启用 {handler}，当 {currentSim} 的流量超过流量上限时，将自动切换到 {otherSim}，并禁用 {currentSim}。"
+        "sim_threshold_switch_tips": "如果设置了 {currentSim} 流量上限，且已启用 {handler}，当 {currentSim} 的流量超过流量上限时，将自动切换到 {otherSim}，并禁用 {currentSim}。",
+        "sim_data_limit_switch_tips": "否则，网络可能会断开，或 SIM 卡可能会切换到另一张。"
     },
     "cellular": {
         "tower_locked_label": "{sim} 基站已被锁定",
