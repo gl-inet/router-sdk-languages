@@ -596,7 +596,8 @@
         "sim_threshold_dual_tips": "Se l'importo del limite di dati di {currentSim} è impostato e lo slot della SIM Card {handler} è attivato, {currentSim} passerà automaticamente a {otherSim} quando i suoi dati superano l'importo del limite di dati e {currentSim} verrà disabilitato.",
         "disabled_sim_auto_switch_tips": "La SIM non effettuerà il cambio al raggiungimento del limite di dati perché {handler} non è attivo. E la SIM verrà disabilitata quando si raggiunge il limite di dati.",
         "enabled_sim_auto_switch_tips": "La SIM verrà sostituita al raggiungimento del limite di dati.",
-        "sim_threshold_switch_tips": "Se il Limite dati di {currentSim} è impostato e {handler} è abilitato, {currentSim} passerà automaticamente a {otherSim} quando il consumo dati supera il Limite dati e {currentSim} verrà disabilitata."
+        "sim_threshold_switch_tips": "Se il Limite dati di {currentSim} è impostato e {handler} è abilitato, {currentSim} passerà automaticamente a {otherSim} quando il consumo dati supera il Limite dati e {currentSim} verrà disabilitata.",
+        "sim_data_limit_switch_tips": "In caso contrario, la rete potrebbe disconnettersi o la scheda SIM potrebbe passare a un'altra."
     },
     "cellular": {
         "tower_locked_label": "{sim} Torre bloccata",
