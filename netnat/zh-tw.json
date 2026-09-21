@@ -11,6 +11,6 @@
         "disabled_speed_limit_label": "用戶端速度限制",
         "disabled_vpn_ipv6_label": "使用 IPv6 的 VPN",
         "qos_sqm_safeguard_data_tips": "此功能不可用，因為它與以下功能衝突：{features}。",
-        "disable_conflicting_features_msg": "請先停用家長控制/QoS/DPI，再變更 NAT 加速設定。"
+        "disable_conflicting_features_msg": "在變更 NAT 加速設定之前，請先停用家長控制/QoS/DPI。"
     }
 }
