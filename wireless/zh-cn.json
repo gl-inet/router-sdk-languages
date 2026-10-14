@@ -63,7 +63,12 @@
         "lan_iot_conflict_tips": "为了避免 {lan} 与 {iot} 冲突，IoT Wi-Fi 无法启动。",
         "enable_random_bssid_tips": "此操作将在所有 6GHz 频段上同步随机 BSSID 设置，Wi-Fi 将重新启动以应用这些更改。",
         "use_environment_tips": "根据法规要求，在户外使用时，Wi-Fi 必须切换至 “户外” 模式。在“户外” 模式下，6GHz Wi-Fi 将不可用。",
-        "halow_network_title": "HaLow 网络"
+        "halow_network_title": "HaLow 网络",
+        "network_label": "网络",
+        "bssid_label": "BSSID",
+        "main_custom_network_title": "主网络和自定义网络",
+        "add_main_wifi_title": "添加主 WiFi",
+        "radio_settings_btn": "无线电设置"
     },
     "menu_wireless": "无线"
 }
