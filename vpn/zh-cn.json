@@ -654,6 +654,10 @@
         "enable_not_allow_tips": "{feature} 和 TAP-S2S 客户端无法同时工作。请手动禁用 {feature}。"
     },
     "vpn_obfuscation": {
+        "enable_tips_v3": "启用后，VPN 服务器将使用 AmneziaWG 3.1 混淆协议来伪装 VPN 流量。",
+        "select_version_label": "选择版本",
+        "regenerate_btn": "重新生成",
+        "auto_generate_label": "自动生成",
         "enable_label": "启用混淆功能",
         "parameters_label": "混淆参数",
         "set_parameters_btn": "设置混淆参数",

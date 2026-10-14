@@ -654,6 +654,10 @@
         "enable_not_allow_tips": "{feature} und TAP-S2S Client können nicht gleichzeitig arbeiten. Bitte deaktivieren Sie {feature} manuell."
     },
     "vpn_obfuscation": {
+        "enable_tips_v3": "Wenn aktiviert, verwendet der VPN-Server das Verschleierungsprotokoll AmneziaWG 3.1, um VPN-Datenverkehr zu verschleiern.",
+        "select_version_label": "Version auswählen",
+        "regenerate_btn": "Neu generieren",
+        "auto_generate_label": "Automatisch generieren",
         "set_parameters_tips_1": "Der Router generiert automatisch Verschleierungsparameter.",
         "set_parameters_tips_2": "Sie können diese manuell bearbeiten, wenn Sie mit der AmneziaWG-Verschleierung vertraut sind, oder die automatisch generierten verwenden.",
         "enable_label": "Verschleierung aktivieren",

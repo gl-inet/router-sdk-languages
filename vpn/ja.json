@@ -654,6 +654,10 @@
         "enable_not_allow_tips": "{feature}とTAP-S2Sクライアントは同時に動作できません。手動で{feature}を無効にしてください。"
     },
     "vpn_obfuscation": {
+        "enable_tips_v3": "有効にすると、VPN サーバーは AmneziaWG 3.1 難読化プロトコルを使用して VPN トラフィックを偽装します。",
+        "select_version_label": "バージョンを選択",
+        "regenerate_btn": "再生成",
+        "auto_generate_label": "自動生成",
         "enable_label": "難読化を有効にする",
         "set_parameters_btn": "難読化パラメータを設定",
         "enable_tips": "有効にすると、VPNサーバーはAmneziaWG2.0難読化プロトコルを使用してVPN通信を偽装します。",

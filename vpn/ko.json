@@ -654,6 +654,10 @@
         "enable_not_allow_tips": "{feature}와 TAP-S2S 클라이언트는 동시에 작동할 수 없습니다. {feature}를 수동으로 비활성화해 주세요."
     },
     "vpn_obfuscation": {
+        "enable_tips_v3": "활성화하면 VPN 서버가 AmneziaWG 3.1 난독화 프로토콜을 사용하여 VPN 트래픽을 위장합니다.",
+        "select_version_label": "버전 선택",
+        "regenerate_btn": "다시 생성",
+        "auto_generate_label": "자동 생성",
         "enable_label": "난독화 활성화",
         "enable_tips": "활성화 시 VPN 서버는 AmneziaWG 난독화 프로토콜을 사용하여 VPN 트래픽을 위장합니다.",
         "parameters_label": "난독화 매개변수",

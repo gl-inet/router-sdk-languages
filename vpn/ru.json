@@ -654,6 +654,10 @@
         "enable_not_allow_tips": "{feature} и TAP-S2S Client не могут работать одновременно. Пожалуйста, отключите {feature} вручную."
     },
     "vpn_obfuscation": {
+        "enable_tips_v3": "При включении VPN-сервер использует протокол обфускации AmneziaWG 3.1 для маскировки VPN-трафика.",
+        "select_version_label": "Выберите версию",
+        "regenerate_btn": "Сгенерировать заново",
+        "auto_generate_label": "Генерировать автоматически",
         "enable_label": "Включить обфускацию",
         "set_parameters_btn": "Настройка параметров обфускации",
         "set_parameters_tips_1": "Роутер автоматически генерирует параметры обфускации.",

@@ -654,6 +654,10 @@
         "enable_not_allow_tips": "{feature} et TAP-S2S Client ne peuvent pas fonctionner en même temps. Veuillez désactiver {feature} manuellement."
     },
     "vpn_obfuscation": {
+        "enable_tips_v3": "Lorsqu'il est activé, le serveur VPN utilise le protocole d'obfuscation AmneziaWG 3.1 pour masquer le trafic VPN.",
+        "select_version_label": "Sélectionner une version",
+        "regenerate_btn": "Régénérer",
+        "auto_generate_label": "Générer automatiquement",
         "enable_label": "Activer l'obfuscation",
         "parameters_label": "Paramètres d'obfuscation",
         "set_parameters_tips_1": "Le routeur génère automatiquement les paramètres d'obfuscation.",
