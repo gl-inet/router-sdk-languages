@@ -133,6 +133,7 @@
         "group_name_too_long": "A csoportnév nem haladhatja meg a 32 karaktert.",
         "delete_group": "Csoport törlése",
         "delete_group_confirm": "Törli ezt a csoportot? Az ügyfelei visszakerülnek az Alapértelmezett csoportba, és a kapcsolódó csoportszabályok eltávolításra kerülnek.",
+        "group_in_use_delete_msg": "Ez a csoport nem törölhető, mert jelenleg a következő funkciók használják: {features}.",
         "confirm_delete_group": "Csoport törlése",
         "vpn_multiple_device_tips": "Ez az ügyfél már több VPN-alagúthoz van kötve. Ezeket a kötéseket a VPN irányítópulton kezelheti.",
         "random_mac_dpi_tips": "Engedélyezze az adatstatisztikát, hogy segítsen azonosítani néhány véletlenszerű MAC-címet használó eszközt.",

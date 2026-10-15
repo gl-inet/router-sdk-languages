@@ -153,6 +153,7 @@
         "group_name_duplicated": "このグループはすでに存在します。",
         "delete_group": "グループを削除",
         "delete_group_confirm": "このグループを削除しますか？このグループのクライアントはデフォルトに戻り、関連するグループルールは削除されます。",
+        "group_in_use_delete_msg": "このグループは現在 {features} で使用されているため、削除できません。",
         "confirm_delete_group": "グループを削除",
         "vpn_multiple_device_tips": "このクライアントはすでに複数のVPNトンネルにバインドされています。VPNダッシュボードでこれらのバインドを管理してください。",
         "random_mac_dpi_tips": "ランダム化されたMACアドレスを使用している一部のデバイスを識別するには、データ統計を有効にしてください。",

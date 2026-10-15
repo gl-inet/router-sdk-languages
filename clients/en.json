@@ -141,6 +141,7 @@
         "group_limit_tips": "A maximum of 20 custom groups can be created.",
         "delete_group": "Delete Group",
         "delete_group_confirm": "Delete this group? Its clients will return to Default and associated group rules will be removed.",
+        "group_in_use_delete_msg": "This group cannot be deleted because it is currently being used by the {features}.",
         "confirm_delete_group": "Delete Group",
         "vpn_multiple_device_tips": "This client is already bound to multiple VPN tunnels. Manage these bindings on the VPN Dashboard.",
         "random_mac_dpi_tips": "Enable Data Statistics to help identify some devices using randomized MAC addresses.",

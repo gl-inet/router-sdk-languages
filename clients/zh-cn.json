@@ -101,6 +101,7 @@
         "group_name_required": "请输入组名称。",
         "group_name_duplicated": "此组已存在。",
         "delete_group_confirm": "要删除此组吗？其客户端将返回默认组，关联的组规则将被移除。",
+        "group_in_use_delete_msg": "此组正在被 {features} 使用，无法删除。",
         "vpn_multiple_device_tips": "此客户端已绑定到多个 VPN 隧道。请在 VPN 仪表板中管理这些绑定。",
         "traffic_history": "流量历史",
         "view_traffic_details": "查看流量详情",

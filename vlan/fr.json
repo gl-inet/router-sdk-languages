@@ -1,5 +1,6 @@
 {
     "vlan": {
+        "subnet_in_use_delete_msg": "Ce sous-réseau ne peut pas être supprimé car il est actuellement utilisé par les fonctionnalités {features}.",
         "name": "Nom",
         "add": "Ajouter",
         "gateway": "Passerelle",

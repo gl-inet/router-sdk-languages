@@ -1,5 +1,6 @@
 {
     "vlan": {
+        "subnet_in_use_delete_msg": "Nie można usunąć tej podsieci, ponieważ jest obecnie używana przez następujące funkcje: {features}.",
         "add": "Dodaj",
         "lan": "LAN",
         "gateway": "Brama",

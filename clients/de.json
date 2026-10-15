@@ -137,6 +137,7 @@
         "group_limit_tips": "Es können maximal 20 benutzerdefinierte Gruppen erstellt werden.",
         "delete_group": "Gruppe löschen",
         "delete_group_confirm": "Diese Gruppe löschen? Ihre Clients kehren zu „Standard“ zurück und zugehörige Gruppenregeln werden entfernt.",
+        "group_in_use_delete_msg": "Diese Gruppe kann nicht gelöscht werden, da sie derzeit von folgenden Funktionen verwendet wird: {features}.",
         "confirm_delete_group": "Gruppe löschen",
         "vpn_multiple_device_tips": "Dieser Client ist bereits an mehrere VPN-Tunnel gebunden. Verwalten Sie diese Bindungen im VPN-Dashboard.",
         "random_mac_dpi_tips": "Aktivieren Sie Datenstatistiken, um einige Geräte mit zufälligen MAC-Adressen zu identifizieren.",
