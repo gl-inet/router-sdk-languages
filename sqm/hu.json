@@ -48,7 +48,7 @@
     "small_traffic_tips1": "Megjegyzés — kismértékű, de folyamatos adatforgalom:",
     "download_latency_threshold_tips": "Ennek túllépése sávszélesség-csökkentést vált ki.",
     "upload_latency_threshold_tips": "Ennek túllépése sávszélesség-csökkentést vált ki.",
-    "small_traffic_tips2": "Az Autorate éjjel-nappal pingeli a reflektorszervereket. Az alapértelmezett beállításokkal (4 próba @ 0,3 s) nagyjából 1–5 KB/s háttérforgalmat fogyaszt, valamint kis mértékben terheli a router CPU-ját. Ez Ethernet-/optikai-/mobilinternet-előfizetések havi csomagjainál elhanyagolható, de szigorúan mért kapcsolatokon (pl. MB-alapú mobilinternet, telefonos hotspot adatkorlátok) havonta akár ~100–400 MB-ra is összeadódhat.",
+    "small_traffic_tips2": "Az Autorate éjjel-nappal pingeli a reflektorszervereket. Az alapértelmezett beállításokkal (4 próba @ 0,3 s) nagyjából 1–5 KB/s háttérforgalmat fogyaszt, valamint kis mértékben terheli a router CPU-ját. Ez Ethernet-/optikai-/mobilinternet-előfizetések havi csomagjainál elhanyagolható, de szigorúan mért kapcsolatokon (pl. MB-alapú mobilinternet, telefonos hotspot adatkorlátok) havonta akár ~2,6–13 GB-ra is összeadódhat.",
     "idle_detection_threshold_tips": "Ha az átviteli sebesség ez alá az érték alá csökken, a kapcsolat tétlennek minősül. Ez az érték nem haladhatja meg a beállított sebességkorlát 25%-át.",
     "speed_test_less_than_1m_tips": "Az észlelt sávszélesség kevesebb mint 1 Mbps. Adja meg kézzel a sávszélességet.",
     "speed_test_done_msg": "Észlelés kész",
