@@ -152,7 +152,9 @@
         "support_channels_title_label": "지원 채널",
         "support_channels_range_label": "채널 {range}",
         "no_matching_networks_tips": "일치하는 네트워크를 찾을 수 없습니다.",
-        "portal_auth_page_tips": "{ssid}에 연결되었습니다. 이 Wi-Fi는 포털 인증이 필요합니다. 인터넷에 접속하려면 포털 페이지에서 인증을 완료하세요:"
+        "portal_auth_page_tips": "{ssid}에 연결되었습니다. 이 Wi-Fi는 포털 인증이 필요합니다. 인터넷에 접속하려면 포털 페이지에서 인증을 완료하세요:",
+        "login_mode_description_tips": "이 기능을 활성화하면 Wi-Fi에 {portal} 인증이 필요한 것으로 감지될 때 이 라우터가 자동으로 로그인 모드로 전환됩니다. 이 모드에서는 일부 서비스가 일시 중단될 수 있으며 DNS 설정이 자동으로 전환됩니다.",
+        "login_mode_privacy_tips": "이로 인해 네트워크 활동 정보가 호텔이나 쇼핑몰 등의 핫스팟 제공업체에 노출될 수 있습니다."
     },
     "modem": {
         "title": "셀룰러",
