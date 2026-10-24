@@ -141,7 +141,7 @@
         "portal_relay_auth_page_tips": "Connected to {ssid}. This Wi-Fi requires Portal authentication and Portal Relay is enabled. Use the following link to open the Portal page and complete authentication:",
         "portal_relay_fallback_tips": "If you cannot open the Portal page, try enabling Portal Relay and using the following link:",
         "portal_original_fallback_tips": "If you cannot open it, try using the original Portal page link to complete authentication:",
-        "portal_relay_tips": "If enabled, the router will handle Portal authentication, ensuring that all requests to the authentication server originate from the router itself. This allows for easier access to the Portal page, especially when features like VPN are active on the client device.",
+        "portal_relay_tips": "If enabled, the router will handle {portal} authentication, ensuring that all requests to the authentication server originate from the router itself. This allows for easier access to the {portal} page, especially when features like VPN are active on the client device.",
         "login_mode_tips": "If enabled, this router will automatically enter Login Mode when it detects that the WiFi requires Portal Authentication. In this mode, some services may be suspended, and the DNS setting will switch to automatic.\nPlease note that this can potentially expose your network activity information to the hotspot provider, such as at hotels or shopping malls.",
         "camouflage_tips": "If enabled, this router camouflages itself as the same device as the client device you are using.",
         "lock_ap_title": "Lock AP",
