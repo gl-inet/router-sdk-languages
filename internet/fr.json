@@ -152,7 +152,7 @@
         "support_channels_title_label": "Canaux pris en charge",
         "support_channels_range_label": "Canaux {range}",
         "portal_relay_label": "{portal} Relay",
-        "portal_relay_tips": "Si cette option est activée, le routeur gère l’authentification sur le portail et garantit que toutes les requêtes vers le serveur d’authentification proviennent du routeur lui-même. Cela facilite l’accès à la page du portail, notamment lorsque des fonctionnalités comme un VPN sont actives sur l’appareil client.",
+        "portal_relay_tips": "Si cette option est activée, le routeur gérera l'authentification {portal}, en veillant à ce que toutes les requêtes vers le serveur d'authentification proviennent du routeur lui-même. Cela permet un accès plus facile à la page {portal}, en particulier lorsque des fonctionnalités telles que le VPN sont actives sur l'appareil client.",
         "lock_ap_title": "Verrouillage du point d’accès",
         "enable_ap_lock_label": "Activer le verrouillage du point d’accès"
     },
