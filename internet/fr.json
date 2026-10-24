@@ -154,7 +154,9 @@
         "portal_relay_label": "{portal} Relay",
         "portal_relay_tips": "Si cette option est activée, le routeur gérera l'authentification {portal}, en veillant à ce que toutes les requêtes vers le serveur d'authentification proviennent du routeur lui-même. Cela permet un accès plus facile à la page {portal}, en particulier lorsque des fonctionnalités telles que le VPN sont actives sur l'appareil client.",
         "lock_ap_title": "Verrouillage du point d’accès",
-        "enable_ap_lock_label": "Activer le verrouillage du point d’accès"
+        "enable_ap_lock_label": "Activer le verrouillage du point d’accès",
+        "login_mode_description_tips": "Si cette option est activée, ce routeur passera automatiquement en mode de connexion lorsqu’il détectera que le réseau Wi-Fi nécessite une authentification {portal}. Dans ce mode, certains services peuvent être suspendus et le paramétrage DNS passera en mode automatique.",
+        "login_mode_privacy_tips": "Veuillez noter que cela peut exposer les informations sur votre activité réseau au fournisseur du point d’accès, par exemple dans les hôtels ou les centres commerciaux."
     },
     "modem": {
         "title": "Cellulaire",
