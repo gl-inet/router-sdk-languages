@@ -103,7 +103,7 @@
         "portal_relay_auth_page_tips": "Połączono z {ssid}. Ta sieć Wi-Fi wymaga uwierzytelnienia w portalu, a pośredniczenie portalu jest włączone. Należy użyć poniższego łącza, aby otworzyć stronę portalu i ukończyć uwierzytelnianie:",
         "portal_relay_fallback_tips": "Jeśli nie można otworzyć strony portalu, należy spróbować włączyć pośredniczenie portalu i użyć poniższego łącza:",
         "portal_original_fallback_tips": "Jeśli nie można jej otworzyć, należy spróbować użyć oryginalnego łącza do strony portalu, aby ukończyć uwierzytelnianie:",
-        "portal_relay_tips": "Po włączeniu tej opcji ruter będzie obsługiwać uwierzytelnianie w portalu, zapewniając, że wszystkie żądania do serwera uwierzytelniania będą pochodzić z samego rutera. Ułatwia to dostęp do strony portalu, zwłaszcza gdy na urządzeniu klienckim są aktywne funkcje takie jak VPN.",
+        "portal_relay_tips": "Jeśli ta opcja jest włączona, ruter będzie obsługiwać uwierzytelnianie {portal}, zapewniając, że wszystkie żądania do serwera uwierzytelniania pochodzą z samego rutera. Ułatwia to dostęp do strony {portal}, zwłaszcza gdy na urządzeniu klienta aktywne są funkcje takie jak VPN.",
         "lock_ap_title": "Blokada punktu dostępowego",
         "enable_ap_lock_label": "Włącz blokadę punktu dostępowego",
         "ap_lock_mode_label": "Zablokuj",
