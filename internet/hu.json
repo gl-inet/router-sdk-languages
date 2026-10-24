@@ -432,7 +432,9 @@
         "portal_relay_fallback_tips": "Ha nem tudja megnyitni a portáloldalt, próbálja meg engedélyezni a portáltovábbítást, majd használja az alábbi hivatkozást:",
         "enable_ap_lock_label": "Hozzáférési pont rögzítésének engedélyezése",
         "ap_band_label": "Sáv",
-        "static_ip_label": "Statikus IP"
+        "static_ip_label": "Statikus IP",
+        "login_mode_description_tips": "Ha engedélyezve van, a router automatikusan bejelentkezési módba lép, amikor észleli, hogy a Wi-Fi {portal} hitelesítést igényel. Ebben a módban egyes szolgáltatások szünetelhetnek, és a DNS-beállítás automatikusra vált.",
+        "login_mode_privacy_tips": "Felhívjuk figyelmét, hogy ez hozzáférhetővé teheti a hálózati tevékenységére vonatkozó információkat a hotspot szolgáltatója számára, például szállodákban vagy bevásárlóközpontokban."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
