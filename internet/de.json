@@ -154,7 +154,9 @@
         "ip_address_mode_label": "IPv4-Verbindungstyp",
         "static_ip_label": "Statische IP",
         "support_channels_title_label": "Unterstützte Kanäle",
-        "support_channels_range_label": "Kanäle {range}"
+        "support_channels_range_label": "Kanäle {range}",
+        "login_mode_description_tips": "Wenn diese Option aktiviert ist, wechselt dieser Router automatisch in den Anmeldemodus, sobald er erkennt, dass das WLAN eine {portal}-Authentifizierung erfordert. In diesem Modus werden möglicherweise einige Dienste ausgesetzt und die DNS-Einstellung auf automatisch umgestellt.",
+        "login_mode_privacy_tips": "Bitte beachten Sie, dass dadurch Informationen über Ihre Netzwerkaktivitäten für den Hotspot-Anbieter, beispielsweise in Hotels oder Einkaufszentren, sichtbar werden können."
     },
     "modem": {
         "title": "Mobilfunknetz",
