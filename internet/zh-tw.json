@@ -154,7 +154,9 @@
         "search_ssid_placeholder": "依 Wi-Fi 名稱 (SSID) 搜尋",
         "enable_ap_lock_label": "啟用 AP 鎖定",
         "ap_lock_mode_label": "鎖定",
-        "support_channels_title_label": "支援的頻道"
+        "support_channels_title_label": "支援的頻道",
+        "login_mode_description_tips": "啟用後，當此路由器偵測到 Wi-Fi 需要 {portal} 驗證時，便會自動進入登入模式。在此模式下，部分服務可能會暫停，且 DNS 設定將切換為自動。",
+        "login_mode_privacy_tips": "請注意，這可能會讓熱點供應商（例如飯店或購物中心）取得您的網路活動資訊。"
     },
     "modem": {
         "title": "行動網路",
