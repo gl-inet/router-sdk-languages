@@ -154,7 +154,9 @@
         "no_matching_networks_tips": "Nessuna rete corrispondente trovata.",
         "portal_auth_page_tips": "Connesso a {ssid}. Questa rete Wi-Fi richiede l'autenticazione tramite portale. Completi l'autenticazione nella pagina del portale per accedere a Internet:",
         "login_mode_tips": "Se abilitata, il router entrerà automaticamente in modalità di accesso quando rileva che la rete Wi-Fi richiede l'autenticazione tramite portale. In questa modalità, alcuni servizi potrebbero essere sospesi e l'impostazione DNS passerà ad automatica.\nTenga presente che ciò potrebbe esporre informazioni sulla Sua attività di rete al fornitore dell'hotspot, ad esempio in hotel o centri commerciali.",
-        "enable_ap_lock_tips": "Se questa opzione è abilitata, è possibile impostare il router affinché si connetta esclusivamente a un punto di accesso con un BSSID specifico o su una banda di frequenza designata."
+        "enable_ap_lock_tips": "Se questa opzione è abilitata, è possibile impostare il router affinché si connetta esclusivamente a un punto di accesso con un BSSID specifico o su una banda di frequenza designata.",
+        "login_mode_privacy_tips": "Si noti che ciò potrebbe esporre le informazioni sull'attività di rete al fornitore dell'hotspot, ad esempio in hotel o centri commerciali.",
+        "login_mode_description_tips": "Se abilitato, questo router entrerà automaticamente in modalità di accesso quando rileva che la rete Wi-Fi richiede l'autenticazione {portal}. In questa modalità, alcuni servizi potrebbero essere sospesi e l'impostazione DNS passerà ad automatica."
     },
     "modem": {
         "title": "Cellulare",
