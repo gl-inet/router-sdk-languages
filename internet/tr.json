@@ -556,7 +556,9 @@
         "login_mode_tips": "Etkinleştirilirse bu yönlendirici, Wi-Fi ağının Portal kimlik doğrulaması gerektirdiğini algıladığında otomatik olarak Oturum Açma Modu'na geçer. Bu modda bazı hizmetler askıya alınabilir ve DNS ayarı otomatiğe geçer.\nBunun, ağ etkinliği bilgilerinizi otel veya alışveriş merkezi gibi yerlerdeki erişim noktası sağlayıcısına açığa çıkarabileceğini unutmayın.",
         "camouflage_tips": "Etkinleştirilirse bu yönlendirici kendisini kullandığınız istemci cihazla aynı cihazmış gibi gösterir.",
         "enable_ap_lock_tips": "Bu seçenek etkinleştirilirse yönlendiriciyi yalnızca belirli bir BSSID'ye sahip bir erişim noktasına veya belirlenen bir frekans bandına bağlanacak şekilde ayarlayabilirsiniz.",
-        "ip_address_mode_label": "IPv4 Bağlantı Türü"
+        "ip_address_mode_label": "IPv4 Bağlantı Türü",
+        "login_mode_description_tips": "Etkinleştirilirse bu yönlendirici, WiFi ağının {portal} kimlik doğrulaması gerektirdiğini algıladığında otomatik olarak Oturum Açma Moduna girer. Bu modda bazı hizmetler askıya alınabilir ve DNS ayarı otomatik olarak değiştirilir.",
+        "login_mode_privacy_tips": "Bu durumun, ağ etkinliği bilgilerinizi oteller veya alışveriş merkezleri gibi yerlerdeki erişim noktası sağlayıcısına ifşa edebileceğini lütfen unutmayın."
     },
     "router_visual": {
         "wlan_client": "WLAN İstemcileri",
