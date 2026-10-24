@@ -154,7 +154,9 @@
         "ip_address_mode_label": "IPv4 Connection Type",
         "static_ip_label": "Static IP",
         "support_channels_title_label": "Support Channels",
-        "support_channels_range_label": "Channels {range}"
+        "support_channels_range_label": "Channels {range}",
+        "login_mode_description_tips": "If enabled, this router will automatically enter Login Mode when it detects that the WiFi requires {portal} Authentication. In this mode, some services may be suspended, and the DNS setting will switch to automatic.",
+        "login_mode_privacy_tips": "Please note that this can potentially expose your network activity information to the hotspot provider, such as at hotels or shopping malls."
     },
     "modem": {
         "title": "Cellular",
