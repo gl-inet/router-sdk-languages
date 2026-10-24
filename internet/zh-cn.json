@@ -151,7 +151,7 @@
         "support_channels_title_label": "支持的信道",
         "support_channels_range_label": "信道 {range}",
         "portal_auth_page_tips": "已连接到 {ssid}。此 Wi-Fi 需要门户认证。请在门户页面完成认证以访问互联网：",
-        "portal_relay_tips": "启用后，路由器将处理门户认证，确保所有发往认证服务器的请求均来自路由器本身。这有助于更轻松地访问门户页面，尤其是在客户端设备启用 VPN 等功能时。",
+        "portal_relay_tips": "如果启用，路由器将处理 {portal} 认证，确保所有发往认证服务器的请求都来自路由器本身。这样可以更轻松地访问 {portal} 页面，尤其是在客户端设备上启用了 VPN 等功能时。",
         "login_mode_tips": "启用后，此路由器在检测到 Wi-Fi 需要门户认证时，将自动进入登录模式。在此模式下，部分服务可能会暂停，DNS 设置将切换为自动。\n请注意，这可能会将您的网络活动信息暴露给热点提供商，例如酒店或商场。",
         "ap_lock_mode_label": "锁定",
         "ip_address_mode_label": "IPv4 连接类型"
