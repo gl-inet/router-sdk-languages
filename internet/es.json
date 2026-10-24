@@ -154,7 +154,9 @@
         "portal_relay_auth_page_tips": "Conectado a {ssid}. Esta red Wi-Fi requiere autenticación en el portal y la retransmisión del portal está habilitada. Utilice el siguiente enlace para abrir la página del portal y completar la autenticación:",
         "portal_relay_fallback_tips": "Si no puede abrir la página del portal, pruebe a habilitar la retransmisión del portal y utilizar el siguiente enlace:",
         "portal_relay_tips": "Si está habilitado, el router gestionará la autenticación de {portal}, asegurando que todas las solicitudes al servidor de autenticación provengan del propio router. Esto facilita el acceso a la página de {portal}, especialmente cuando funciones como VPN están activas en el dispositivo cliente.",
-        "login_mode_tips": "Si se habilita, este router entrará automáticamente en el modo de inicio de sesión cuando detecte que la red Wi-Fi requiere autenticación en el portal. En este modo, algunos servicios pueden suspenderse y la configuración de DNS cambiará a automática.\nTenga en cuenta que esto podría exponer información sobre su actividad de red al proveedor del punto de acceso, como en hoteles o centros comerciales."
+        "login_mode_tips": "Si se habilita, este router entrará automáticamente en el modo de inicio de sesión cuando detecte que la red Wi-Fi requiere autenticación en el portal. En este modo, algunos servicios pueden suspenderse y la configuración de DNS cambiará a automática.\nTenga en cuenta que esto podría exponer información sobre su actividad de red al proveedor del punto de acceso, como en hoteles o centros comerciales.",
+        "login_mode_privacy_tips": "Tenga en cuenta que esto podría exponer información sobre su actividad de red al proveedor del punto de acceso, por ejemplo, en hoteles o centros comerciales.",
+        "login_mode_description_tips": "Si se activa, este router entrará automáticamente en el modo de inicio de sesión cuando detecte que la red Wi-Fi requiere autenticación {portal}. En este modo, algunos servicios podrían suspenderse y la configuración de DNS cambiará a automática."
     },
     "modem": {
         "title": "Móvil",
