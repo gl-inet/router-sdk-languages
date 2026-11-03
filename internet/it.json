@@ -38,6 +38,7 @@
     "repeater": {
         "upload_link_label": "Collegamento in upload",
         "download_link_label": "Collegamento in download",
+        "wireless_link_rate_tips": "Mostra la velocità negoziata del collegamento wireless, non la velocità effettiva di upload o download. La velocità effettiva di trasferimento dei dati varia in base alle condizioni wireless e all’overhead del protocollo.",
         "title": "Ripetitore",
         "known_net": "Reti Note",
         "options": "Opzioni del Ripetitore",
@@ -126,7 +127,36 @@
         "band_6g_bandwidth_limit_160mhz_tips": "Il Wi-Fi a 6 GHz supporta una larghezza di banda fino a 160 MHz.",
         "band_conflict_tips": "Per una connessione stabile, quando il ripetitore è attivato, la banda Wi-Fi 5GHz/6GHz si adatterà automaticamente al ripetitore. Se il tuo dispositivo non si riconnette automaticamente, connettiti manualmente al Wi-Fi.",
         "saved_portal_info_title": "Informazioni sul portale salvato",
-        "voucher_code_label": "Codice Voucher"
+        "voucher_code_label": "Codice Voucher",
+        "search_ssid_placeholder": "Cerca per nome Wi-Fi (SSID)",
+        "out_of_range_label": "Fuori portata",
+        "settings_title": "Impostazioni",
+        "auto_connect_label": "Connessione automatica",
+        "portal_title": "Portale",
+        "login_mode_label": "Modalità di accesso",
+        "camouflage_label": "Camuffamento",
+        "portal_relay_label": "{portal} Relay",
+        "portal_relay_auth_page_tips": "Connesso a {ssid}. Questa rete Wi-Fi richiede l'autenticazione tramite portale e il relay del portale è abilitato. Utilizzi il seguente link per aprire la pagina del portale e completare l'autenticazione:",
+        "portal_relay_fallback_tips": "Se non riesce ad aprire la pagina del portale, provi ad abilitare il relay del portale e a utilizzare il seguente link:",
+        "portal_original_fallback_tips": "Se non riesce ad aprirla, provi a utilizzare il link originale della pagina del portale per completare l'autenticazione:",
+        "portal_relay_tips": "Se abilitato, il router gestirà l'autenticazione {portal}, assicurando che tutte le richieste al server di autenticazione provengano dal router stesso. Ciò consente un accesso più semplice alla pagina {portal}, soprattutto quando funzionalità come VPN sono attive sul dispositivo client.",
+        "camouflage_tips": "Se abilitato, il router si camuffa per apparire come il dispositivo client che sta utilizzando.",
+        "lock_ap_title": "Blocco AP",
+        "enable_ap_lock_label": "Abilita blocco AP",
+        "ap_lock_mode_label": "Blocca",
+        "ap_band_label": "Banda",
+        "wifi_band_label": "Banda Wi-Fi",
+        "mac_settings_title": "Impostazioni MAC",
+        "ip_address_mode_label": "Tipo di connessione IPv4",
+        "static_ip_label": "IP statico",
+        "support_channels_title_label": "Canali supportati",
+        "support_channels_range_label": "Canali {range}",
+        "no_matching_networks_tips": "Nessuna rete corrispondente trovata.",
+        "portal_auth_page_tips": "Connesso a {ssid}. Questa rete Wi-Fi richiede l'autenticazione tramite portale. Completi l'autenticazione nella pagina del portale per accedere a Internet:",
+        "login_mode_tips": "Se abilitata, il router entrerà automaticamente in modalità di accesso quando rileva che la rete Wi-Fi richiede l'autenticazione tramite portale. In questa modalità, alcuni servizi potrebbero essere sospesi e l'impostazione DNS passerà ad automatica.\nTenga presente che ciò potrebbe esporre informazioni sulla Sua attività di rete al fornitore dell'hotspot, ad esempio in hotel o centri commerciali.",
+        "enable_ap_lock_tips": "Se questa opzione è abilitata, è possibile impostare il router affinché si connetta esclusivamente a un punto di accesso con un BSSID specifico o su una banda di frequenza designata.",
+        "login_mode_privacy_tips": "Si noti che ciò potrebbe esporre le informazioni sull'attività di rete al fornitore dell'hotspot, ad esempio in hotel o centri commerciali.",
+        "login_mode_description_tips": "Se abilitato, questo router entrerà automaticamente in modalità di accesso quando rileva che la rete Wi-Fi richiede l'autenticazione {portal}. In questa modalità, alcuni servizi potrebbero essere sospesi e l'impostazione DNS passerà ad automatica."
     },
     "modem": {
         "title": "Cellulare",
@@ -596,7 +626,8 @@
         "sim_threshold_dual_tips": "Se l'importo del limite di dati di {currentSim} è impostato e lo slot della SIM Card {handler} è attivato, {currentSim} passerà automaticamente a {otherSim} quando i suoi dati superano l'importo del limite di dati e {currentSim} verrà disabilitato.",
         "disabled_sim_auto_switch_tips": "La SIM non effettuerà il cambio al raggiungimento del limite di dati perché {handler} non è attivo. E la SIM verrà disabilitata quando si raggiunge il limite di dati.",
         "enabled_sim_auto_switch_tips": "La SIM verrà sostituita al raggiungimento del limite di dati.",
-        "sim_threshold_switch_tips": "Se il Limite dati di {currentSim} è impostato e {handler} è abilitato, {currentSim} passerà automaticamente a {otherSim} quando il consumo dati supera il Limite dati e {currentSim} verrà disabilitata."
+        "sim_threshold_switch_tips": "Se il Limite dati di {currentSim} è impostato e {handler} è abilitato, {currentSim} passerà automaticamente a {otherSim} quando il consumo dati supera il Limite dati e {currentSim} verrà disabilitata.",
+        "sim_data_limit_switch_tips": "In caso contrario, la rete potrebbe disconnettersi o la scheda SIM potrebbe passare a un'altra."
     },
     "cellular": {
         "tower_locked_label": "{sim} Torre bloccata",
@@ -707,6 +738,7 @@
         "manual_label": "Manuale",
         "manual_mac_label": "Indirizzo MAC manuale",
         "no_wan_tips": "{silkprint} è stato utilizzato come LAN (Local Area Network). Puoi reimpostarlo su WAN (Wide Area Network) in {view}",
+        "silkprint_used_as_lan_tips": "{silkprint} è stato utilizzato come LAN (Local Area Network).",
         "subnet_conflict_tips": "L'attuale sottorete IP WAN è in conflitto con una sottorete esistente. Si prega di {subnet} o di regolare la configurazione di rete upstream.",
         "modify_subnet_range": "modificare l'intervallo di sottorete"
     },

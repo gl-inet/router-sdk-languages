@@ -318,6 +318,7 @@
     "repeater": {
         "upload_link_label": "Feltöltési kapcsolat",
         "download_link_label": "Letöltési kapcsolat",
+        "wireless_link_rate_tips": "A vezeték nélküli kapcsolat egyeztetett sebességét mutatja, nem a tényleges feltöltési vagy letöltési sebességet. A tényleges adatátviteli sebesség a vezeték nélküli kapcsolat körülményeitől és a protokoll többletterhelésétől függ.",
         "detail_title": "Hálózat tulajdonságai",
         "ssid": "Hálózat neve (SSID)",
         "encryption": "Titkosítás",
@@ -406,7 +407,36 @@
         "band_6g_bandwidth_limit_160mhz_tips": "A 6 GHz-es Wi-Fi akár 160 MHz-es sávszélességet is támogat.",
         "band_conflict_tips": "A stabil kapcsolat érdekében, amikor a repeater engedélyezve van, az 5 GHz/6 GHz Wi-Fi sáv automatikusan illeszkedik a repeaterhez. Ha az eszköz nem csatlakozik újra automatikusan, kérjük, csatlakozzon manuálisan a Wi-Fi hálózathoz.",
         "saved_portal_info_title": "Mentett portál információ",
-        "voucher_code_label": "Voucher kód"
+        "voucher_code_label": "Voucher kód",
+        "search_ssid_placeholder": "Keresés Wi-Fi-név (SSID) alapján",
+        "no_matching_networks_tips": "Nem található megfelelő hálózat.",
+        "out_of_range_label": "Hatótávolságon kívül",
+        "settings_title": "Beállítások",
+        "auto_connect_label": "Automatikus csatlakozás",
+        "login_mode_label": "Bejelentkezési mód",
+        "camouflage_label": "Álcázás",
+        "portal_relay_label": "{portal} Relay",
+        "portal_auth_page_tips": "Csatlakoztatva ehhez: {ssid}. Ez a Wi-Fi-hálózat portálhitelesítést igényel. Az internet eléréséhez végezze el a hitelesítést a portáloldalon:",
+        "portal_original_fallback_tips": "Ha nem tudja megnyitni, próbálja meg a portáloldal eredeti hivatkozásával elvégezni a hitelesítést:",
+        "portal_relay_tips": "Ha engedélyezve van, a router kezeli a {portal} hitelesítést, biztosítva, hogy a hitelesítési szerverhez intézett összes kérés magától a routertől származzon. Ez megkönnyíti a {portal} oldal elérését, különösen akkor, ha olyan funkciók, mint a VPN, aktívak az ügyféleszközön.",
+        "camouflage_tips": "Ha engedélyezve van, a router az Ön által használt klienseszköznek álcázza magát.",
+        "lock_ap_title": "Hozzáférési pont rögzítése",
+        "enable_ap_lock_tips": "Ha ez a beállítás engedélyezve van, beállíthatja, hogy a router kizárólag egy adott BSSID-vel rendelkező hozzáférési ponthoz vagy egy kijelölt frekvenciasávon csatlakozzon.",
+        "ap_lock_mode_label": "Rögzítés",
+        "wifi_band_label": "Wi-Fi-sáv",
+        "mac_settings_title": "MAC-beállítások",
+        "ip_address_mode_label": "IPv4-kapcsolat típusa",
+        "support_channels_title_label": "Támogatott csatornák",
+        "support_channels_range_label": "Csatornák: {range}",
+        "portal_relay_auth_page_tips": "Csatlakoztatva ehhez: {ssid}. Ez a Wi-Fi-hálózat portálhitelesítést igényel, és a portáltovábbítás engedélyezve van. Az alábbi hivatkozással nyissa meg a portáloldalt, és végezze el a hitelesítést:",
+        "portal_relay_fallback_tips": "Ha nem tudja megnyitni a portáloldalt, próbálja meg engedélyezni a portáltovábbítást, majd használja az alábbi hivatkozást:",
+        "enable_ap_lock_label": "Hozzáférési pont rögzítésének engedélyezése",
+        "ap_band_label": "Sáv",
+        "static_ip_label": "Statikus IP",
+        "login_mode_description_tips": "Ha engedélyezve van, a router automatikusan bejelentkezési módba lép, amikor észleli, hogy a Wi-Fi {portal} hitelesítést igényel. Ebben a módban egyes szolgáltatások szünetelhetnek, és a DNS-beállítás automatikusra vált.",
+        "login_mode_privacy_tips": "Felhívjuk figyelmét, hogy ez hozzáférhetővé teheti a hálózati tevékenységére vonatkozó információkat a hotspot szolgáltatója számára, például szállodákban vagy bevásárlóközpontokban.",
+        "portal_title": "Portál",
+        "login_mode_tips": "Ha engedélyezve van, a router automatikusan bejelentkezési módba lép, ha észleli, hogy a Wi-Fi-hálózat portálhitelesítést igényel. Ebben a módban egyes szolgáltatások szünetelhetnek, és a DNS-beállítás automatikusra vált.\nFelhívjuk figyelmét, hogy ez hozzáférhetővé teheti a hálózati tevékenységével kapcsolatos adatokat a hotspot szolgáltatója számára, például szállodákban vagy bevásárlóközpontokban."
     },
     "router_visual": {
         "wlan_client": "WLAN ügyfelek",
@@ -596,7 +626,8 @@
         "sim_threshold_dual_tips": "Ha a(z) {currentSim} adatforgalmi korlátja be van állítva, és a SIM-kártya foglalat {handler} engedélyezve van, akkor a(z) {currentSim} automatikusan átvált a(z) {otherSim}-re, ha az adatforgalma meghaladja az adatforgalmi korlátot, és a(z) {currentSim} le lesz tiltva.",
         "disabled_sim_auto_switch_tips": "A SIM nem vált adatkorlátnál, mert a {handler} nincs engedélyezve. És a SIM le lesz tiltva, amikor eléri az adatkorlátot.",
         "enabled_sim_auto_switch_tips": "A SIM-kártya váltásra kerül, amikor az adatkeret elérésre kerül.",
-        "sim_threshold_switch_tips": "Ha a(z) {currentSim} adatforgalmi korlátja be van állítva, és a(z) {handler} engedélyezve van, a(z) {currentSim} automatikusan átvált a(z) {otherSim} kártyára, amikor az adatforgalma túllépi az adatforgalmi korlátot, és a(z) {currentSim} le lesz tiltva."
+        "sim_threshold_switch_tips": "Ha a(z) {currentSim} adatforgalmi korlátja be van állítva, és a(z) {handler} engedélyezve van, a(z) {currentSim} automatikusan átvált a(z) {otherSim} kártyára, amikor az adatforgalma túllépi az adatforgalmi korlátot, és a(z) {currentSim} le lesz tiltva.",
+        "sim_data_limit_switch_tips": "Ellenkező esetben a hálózat megszakadhat, vagy a SIM-kártya átválthat egy másikra."
     },
     "cellular": {
         "tower_locked_label": "{sim} Torony zárolva",
@@ -707,6 +738,7 @@
         "manual_label": "Kézikönyv",
         "manual_mac_label": "Manuális MAC-cím",
         "no_wan_tips": "{silkprint} LAN-ként (Helyi Hálózat) lett használva. Visszaállíthatja WAN-ként (Széles körű Hálózat) a {view} oldalon.",
+        "silkprint_used_as_lan_tips": "{silkprint} LAN-ként (Helyi Hálózat) lett használva.",
         "subnet_conflict_tips": "A jelenlegi WAN IP-alhálózat ütközik egy meglévő alhálózattal. Kérjük, {subnet} vagy állítsa be a felső szintű hálózati konfigurációt.",
         "modify_subnet_range": "módosítsa az alhálózat tartományát"
     },

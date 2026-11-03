@@ -38,6 +38,7 @@
     "repeater": {
         "upload_link_label": "Liaison montante",
         "download_link_label": "Liaison descendante",
+        "wireless_link_rate_tips": "Affiche le débit négocié de la liaison sans fil, et non la vitesse réelle d’envoi ou de téléchargement. Le débit réel varie en fonction des conditions sans fil et de la surcharge du protocole.",
         "title": "Répéteur",
         "known_net": "Réseaux connus",
         "options": "Options de répéteur",
@@ -126,7 +127,36 @@
         "band_6g_bandwidth_limit_160mhz_tips": "Le Wi-Fi 6 GHz prend en charge une bande passante allant jusqu'à 160 MHz.",
         "band_conflict_tips": "Pour une connexion stable, lorsque le répéteur est activé, la bande Wi-Fi 5 GHz/6 GHz correspondra automatiquement au répéteur. Si votre appareil ne se reconnecte pas automatiquement, veuillez vous connecter manuellement au Wi-Fi.",
         "saved_portal_info_title": "Informations du portail enregistrées",
-        "voucher_code_label": "Code de bon"
+        "voucher_code_label": "Code de bon",
+        "search_ssid_placeholder": "Rechercher par nom Wi-Fi (SSID)",
+        "no_matching_networks_tips": "Aucun réseau correspondant trouvé.",
+        "out_of_range_label": "Hors de portée",
+        "settings_title": "Paramètres",
+        "auto_connect_label": "Connexion automatique",
+        "portal_title": "Portail",
+        "login_mode_label": "Mode de connexion",
+        "camouflage_label": "Camouflage",
+        "portal_auth_page_tips": "Connecté à {ssid}. Ce réseau Wi-Fi nécessite une authentification sur le portail. Veuillez vous authentifier sur la page du portail pour accéder à internet :",
+        "portal_relay_auth_page_tips": "Connecté à {ssid}. Ce réseau Wi-Fi nécessite une authentification sur le portail et le relais du portail est activé. Utilisez le lien suivant pour ouvrir la page du portail et vous authentifier :",
+        "portal_relay_fallback_tips": "Si vous ne pouvez pas ouvrir la page du portail, essayez d’activer le relais du portail et d’utiliser le lien suivant :",
+        "portal_original_fallback_tips": "Si vous ne pouvez pas l’ouvrir, essayez d’utiliser le lien d’origine de la page du portail pour vous authentifier :",
+        "login_mode_tips": "Si cette option est activée, ce routeur passe automatiquement en mode de connexion lorsqu’il détecte que le réseau Wi-Fi nécessite une authentification sur le portail. Dans ce mode, certains services peuvent être suspendus et le paramétrage DNS passe en mode automatique.\nVeuillez noter que cela peut exposer des informations sur votre activité réseau au fournisseur du point d’accès, par exemple dans les hôtels ou les centres commerciaux.",
+        "camouflage_tips": "Si cette option est activée, ce routeur se fait passer pour l’appareil client que vous utilisez.",
+        "enable_ap_lock_tips": "Si cette option est activée, vous pouvez configurer le routeur pour qu’il se connecte exclusivement à un point d’accès ayant un BSSID spécifique ou utilisant une bande de fréquences définie.",
+        "ap_lock_mode_label": "Verrouiller",
+        "ap_band_label": "Bande",
+        "wifi_band_label": "Bande Wi-Fi",
+        "mac_settings_title": "Paramètres MAC",
+        "ip_address_mode_label": "Type de connexion IPv4",
+        "static_ip_label": "IP statique",
+        "support_channels_title_label": "Canaux pris en charge",
+        "support_channels_range_label": "Canaux {range}",
+        "portal_relay_label": "{portal} Relay",
+        "portal_relay_tips": "Si cette option est activée, le routeur gérera l'authentification {portal}, en veillant à ce que toutes les requêtes vers le serveur d'authentification proviennent du routeur lui-même. Cela permet un accès plus facile à la page {portal}, en particulier lorsque des fonctionnalités telles que le VPN sont actives sur l'appareil client.",
+        "lock_ap_title": "Verrouillage du point d’accès",
+        "enable_ap_lock_label": "Activer le verrouillage du point d’accès",
+        "login_mode_description_tips": "Si cette option est activée, ce routeur passera automatiquement en mode de connexion lorsqu’il détectera que le réseau Wi-Fi nécessite une authentification {portal}. Dans ce mode, certains services peuvent être suspendus et le paramétrage DNS passera en mode automatique.",
+        "login_mode_privacy_tips": "Veuillez noter que cela peut exposer les informations sur votre activité réseau au fournisseur du point d’accès, par exemple dans les hôtels ou les centres commerciaux."
     },
     "modem": {
         "title": "Cellulaire",
@@ -596,7 +626,8 @@
         "sim_threshold_dual_tips": "Si le volume du plafond de données de {currentSim} est défini et que l'emplacement de la carte SIM {handler} est activé, {currentSim} basculera automatiquement sur {otherSim} lorsque ses données dépasseront le volume du plafond de données et {currentSim} sera désactivé.",
         "disabled_sim_auto_switch_tips": "La carte SIM ne basculera pas au plafond de données car {handler} n'est pas activé. Et la carte SIM sera désactivée lorsque le plafond de données sera atteint.",
         "enabled_sim_auto_switch_tips": "La carte SIM basculera lorsque le plafond de données sera atteint.",
-        "sim_threshold_switch_tips": "Si le plafond de données de {currentSim} est défini et que {handler} est activé, {currentSim} basculera automatiquement vers {otherSim} lorsque sa consommation de données dépassera le plafond de données, et {currentSim} sera désactivé."
+        "sim_threshold_switch_tips": "Si le plafond de données de {currentSim} est défini et que {handler} est activé, {currentSim} basculera automatiquement vers {otherSim} lorsque sa consommation de données dépassera le plafond de données, et {currentSim} sera désactivé.",
+        "sim_data_limit_switch_tips": "Sinon, le réseau peut être déconnecté ou la carte SIM peut basculer vers une autre."
     },
     "cellular": {
         "tower_locked_label": "{sim} Tour verrouillée",
@@ -707,6 +738,7 @@
         "manual_label": "Manuel",
         "manual_mac_label": "Adresse MAC manuelle",
         "no_wan_tips": "{silkprint} a été utilisé comme LAN (réseau local). Vous pouvez le remettre en WAN (réseau étendu) dans {view}",
+        "silkprint_used_as_lan_tips": "{silkprint} a été utilisé comme LAN (réseau local).",
         "subnet_conflict_tips": "Le sous-réseau IP WAN actuel est en conflit avec un sous-réseau existant. Veuillez {subnet} ou ajuster la configuration du réseau amont.",
         "modify_subnet_range": "modifier la plage de sous-réseau"
     },

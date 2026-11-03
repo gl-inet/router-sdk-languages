@@ -38,6 +38,7 @@
     "repeater": {
         "upload_link_label": "Uplink",
         "download_link_label": "Downlink",
+        "wireless_link_rate_tips": "Zeigt die ausgehandelte WLAN-Verbindungsrate an, nicht die tatsächliche Upload- oder Downloadgeschwindigkeit. Der tatsächliche Datendurchsatz variiert je nach WLAN-Bedingungen und Protokoll-Overhead.",
         "title": "Repeater",
         "known_net": "bekannte Netzwerke",
         "options": "Repeater Optionen",
@@ -126,7 +127,36 @@
         "band_6g_bandwidth_limit_160mhz_tips": "6-GHz-WLAN unterstützt eine Bandbreite von bis zu 160 MHz.",
         "band_conflict_tips": "Für eine stabile Verbindung wird bei aktiviertem Repeater das 5-GHz/6-GHz-WLAN-Band automatisch an den Repeater angepasst. Wenn Ihr Gerät sich nicht automatisch neu verbindet, verbinden Sie sich bitte manuell mit dem WLAN.",
         "saved_portal_info_title": "Gespeicherte Portal-Informationen",
-        "voucher_code_label": "Gutscheincode"
+        "voucher_code_label": "Gutscheincode",
+        "search_ssid_placeholder": "Nach WLAN-Namen (SSID) suchen",
+        "no_matching_networks_tips": "Keine passenden Netzwerke gefunden.",
+        "out_of_range_label": "Außer Reichweite",
+        "settings_title": "Einstellungen",
+        "auto_connect_label": "Automatisch verbinden",
+        "portal_title": "Portal",
+        "login_mode_label": "Anmeldemodus",
+        "camouflage_label": "Tarnung",
+        "portal_relay_label": "{portal} Relay",
+        "portal_auth_page_tips": "Mit {ssid} verbunden. Dieses WLAN erfordert eine Portal-Authentifizierung. Schließen Sie die Authentifizierung auf der Portalseite ab, um auf das Internet zuzugreifen:",
+        "portal_relay_auth_page_tips": "Mit {ssid} verbunden. Dieses WLAN erfordert eine Portal-Authentifizierung und Portal-Relay ist aktiviert. Öffnen Sie die Portalseite über den folgenden Link und schließen Sie die Authentifizierung ab:",
+        "portal_relay_fallback_tips": "Wenn Sie die Portalseite nicht öffnen können, versuchen Sie, Portal-Relay zu aktivieren und den folgenden Link zu verwenden:",
+        "portal_original_fallback_tips": "Wenn Sie die Seite nicht öffnen können, versuchen Sie, die Authentifizierung über den ursprünglichen Link zur Portalseite abzuschließen:",
+        "portal_relay_tips": "Wenn aktiviert, übernimmt der Router die {portal}-Authentifizierung und stellt sicher, dass alle Anfragen an den Authentifizierungsserver vom Router selbst stammen. Dies ermöglicht einen einfacheren Zugriff auf die {portal}-Seite, insbesondere wenn Funktionen wie VPN auf dem Client-Gerät aktiv sind.",
+        "login_mode_tips": "Wenn aktiviert, wechselt dieser Router automatisch in den Anmeldemodus, sobald er erkennt, dass das WLAN eine Portal-Authentifizierung erfordert. In diesem Modus können einige Dienste ausgesetzt werden und die DNS-Einstellung wird auf automatisch umgestellt.\nBeachten Sie, dass dadurch Informationen über Ihre Netzwerkaktivitäten für den Hotspot-Anbieter sichtbar werden können, etwa in Hotels oder Einkaufszentren.",
+        "camouflage_tips": "Wenn aktiviert, tarnt sich dieser Router als das von Ihnen verwendete Clientgerät.",
+        "lock_ap_title": "AP festlegen",
+        "enable_ap_lock_label": "AP-Bindung aktivieren",
+        "enable_ap_lock_tips": "Wenn diese Option aktiviert ist, können Sie den Router so einstellen, dass er sich ausschließlich mit einem Access Point mit einer bestimmten BSSID oder in einem festgelegten Frequenzband verbindet.",
+        "ap_lock_mode_label": "Festlegen",
+        "ap_band_label": "Frequenzband",
+        "wifi_band_label": "WLAN-Frequenzband",
+        "mac_settings_title": "MAC-Einstellungen",
+        "ip_address_mode_label": "IPv4-Verbindungstyp",
+        "static_ip_label": "Statische IP",
+        "support_channels_title_label": "Unterstützte Kanäle",
+        "support_channels_range_label": "Kanäle {range}",
+        "login_mode_description_tips": "Wenn diese Option aktiviert ist, wechselt dieser Router automatisch in den Anmeldemodus, sobald er erkennt, dass das WLAN eine {portal}-Authentifizierung erfordert. In diesem Modus werden möglicherweise einige Dienste ausgesetzt und die DNS-Einstellung auf automatisch umgestellt.",
+        "login_mode_privacy_tips": "Bitte beachten Sie, dass dadurch Informationen über Ihre Netzwerkaktivitäten für den Hotspot-Anbieter, beispielsweise in Hotels oder Einkaufszentren, sichtbar werden können."
     },
     "modem": {
         "title": "Mobilfunknetz",
@@ -596,7 +626,8 @@
         "sim_threshold_dual_tips": "Wenn das Datenvolumen für {currentSim} festgelegt ist und der SIM-Karten-Slot {handler} aktiviert ist, wird {currentSim} automatisch auf {otherSim} umschalten, wenn das Datenvolumen überschritten wird, und {currentSim} wird deaktiviert.",
         "enabled_sim_auto_switch_tips": "Die SIM wird gewechselt, wenn das Datenvolumen erreicht ist.",
         "disabled_sim_auto_switch_tips": "Die SIM wird bei Erreichen des Datenlimits nicht wechseln, da {handler} nicht aktiviert ist. Und die SIM wird deaktiviert, wenn das Datenlimit erreicht ist.",
-        "sim_threshold_switch_tips": "Wenn die Datenobergrenze für {currentSim} festgelegt und {handler} aktiviert ist, wechselt {currentSim} automatisch zu {otherSim}, wenn der Datenverbrauch die Datenobergrenze überschreitet, und {currentSim} wird deaktiviert."
+        "sim_threshold_switch_tips": "Wenn die Datenobergrenze für {currentSim} festgelegt und {handler} aktiviert ist, wechselt {currentSim} automatisch zu {otherSim}, wenn der Datenverbrauch die Datenobergrenze überschreitet, und {currentSim} wird deaktiviert.",
+        "sim_data_limit_switch_tips": "Andernfalls kann die Netzwerkverbindung getrennt oder auf eine andere SIM-Karte umgeschaltet werden."
     },
     "cellular": {
         "tower_locked_label": "{sim} Turm gesperrt",
@@ -707,6 +738,7 @@
         "manual_label": "Handbuch",
         "manual_mac_label": "Manuelle MAC-Adresse",
         "no_wan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet. Sie können es in {view} wieder auf WAN (Wide Area Network) zurücksetzen.",
+        "silkprint_used_as_lan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet.",
         "subnet_conflict_tips": "Das aktuelle WAN-IP-Subnetz steht im Konflikt mit einem vorhandenen Subnetz. Bitte {subnet} oder passen Sie die Upstream-Netzwerkkonfiguration an.",
         "modify_subnet_range": "Ändern Sie den Subnetzbereich"
     },

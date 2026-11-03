@@ -1,5 +1,6 @@
 {
     "vlan": {
+        "subnet_in_use_delete_msg": "No se puede eliminar esta subred porque las funciones {features} la están utilizando actualmente.",
         "name": "Nombre",
         "add": "Añadir",
         "gateway": "Puerta de enlace",

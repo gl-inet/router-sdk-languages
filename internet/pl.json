@@ -2,6 +2,7 @@
     "repeater": {
         "upload_link_label": "Łącze wysyłania",
         "download_link_label": "Łącze pobierania",
+        "wireless_link_rate_tips": "Pokazuje wynegocjowaną szybkość łącza bezprzewodowego, a nie rzeczywistą szybkość wysyłania lub pobierania. Rzeczywista przepustowość zależy od warunków połączenia bezprzewodowego i narzutu protokołu.",
         "quit_btn": "Opuść Tryb Logowania",
         "available_wifi": "Dostępne Sieci",
         "ssid": "SSID",
@@ -90,7 +91,36 @@
         "band_6g_bandwidth_limit_160mhz_tips": "Wi-Fi 6GHz obsługuje przepustowość do 160 MHz.",
         "band_conflict_tips": "Aby zapewnić stabilne połączenie, gdy repeater jest włączony, pasmo Wi-Fi 5GHz/6GHz automatycznie dopasuje się do repeatera. Jeśli Twoje urządzenie nie połączy się ponownie automatycznie, proszę połączyć się z Wi-Fi ręcznie.",
         "saved_portal_info_title": "Zapisane Informacje o Portalu",
-        "voucher_code_label": "Kod Vouchera"
+        "voucher_code_label": "Kod Vouchera",
+        "search_ssid_placeholder": "Szukaj według nazwy sieci Wi-Fi (SSID)",
+        "no_matching_networks_tips": "Nie znaleziono pasujących sieci.",
+        "out_of_range_label": "Poza zasięgiem",
+        "settings_title": "Ustawienia",
+        "auto_connect_label": "Automatyczne łączenie",
+        "login_mode_label": "Tryb logowania",
+        "camouflage_label": "Maskowanie",
+        "portal_relay_label": "{portal} Przekaźnik",
+        "portal_relay_auth_page_tips": "Połączono z {ssid}. Ta sieć Wi-Fi wymaga uwierzytelnienia w portalu, a pośredniczenie portalu jest włączone. Należy użyć poniższego łącza, aby otworzyć stronę portalu i ukończyć uwierzytelnianie:",
+        "portal_relay_fallback_tips": "Jeśli nie można otworzyć strony portalu, należy spróbować włączyć pośredniczenie portalu i użyć poniższego łącza:",
+        "portal_original_fallback_tips": "Jeśli nie można jej otworzyć, należy spróbować użyć oryginalnego łącza do strony portalu, aby ukończyć uwierzytelnianie:",
+        "portal_relay_tips": "Jeśli ta opcja jest włączona, ruter będzie obsługiwać uwierzytelnianie {portal}, zapewniając, że wszystkie żądania do serwera uwierzytelniania pochodzą z samego rutera. Ułatwia to dostęp do strony {portal}, zwłaszcza gdy na urządzeniu klienta aktywne są funkcje takie jak VPN.",
+        "lock_ap_title": "Blokada punktu dostępowego",
+        "enable_ap_lock_label": "Włącz blokadę punktu dostępowego",
+        "ap_lock_mode_label": "Zablokuj",
+        "ap_band_label": "Pasmo",
+        "wifi_band_label": "Pasmo Wi-Fi",
+        "mac_settings_title": "Ustawienia adresu MAC",
+        "ip_address_mode_label": "Typ połączenia IPv4",
+        "static_ip_label": "Statyczny adres IP",
+        "support_channels_title_label": "Obsługiwane kanały",
+        "portal_auth_page_tips": "Połączono z {ssid}. Ta sieć Wi-Fi wymaga uwierzytelnienia w portalu. Aby uzyskać dostęp do Internetu, należy ukończyć uwierzytelnianie na stronie portalu:",
+        "camouflage_tips": "Po włączeniu tej opcji ruter będzie podszywać się pod używane urządzenie klienckie.",
+        "enable_ap_lock_tips": "Po włączeniu tej opcji można ustawić ruter tak, aby łączył się wyłącznie z punktem dostępowym o określonym BSSID lub w wyznaczonym paśmie częstotliwości.",
+        "support_channels_range_label": "Kanały {range}",
+        "login_mode_description_tips": "Po włączeniu tej opcji ruter automatycznie przejdzie w tryb logowania, gdy wykryje, że sieć Wi-Fi wymaga uwierzytelnienia {portal}. W tym trybie niektóre usługi mogą zostać zawieszone, a ustawienie DNS zmieni się na automatyczne.",
+        "login_mode_privacy_tips": "Należy pamiętać, że może to ujawnić informacje o aktywności w sieci dostawcy hotspotu, na przykład w hotelu lub centrum handlowym.",
+        "login_mode_tips": "Po włączeniu tej opcji ruter automatycznie przejdzie w tryb logowania, gdy wykryje, że sieć Wi-Fi wymaga uwierzytelnienia w portalu. W tym trybie niektóre usługi mogą zostać zawieszone, a ustawienie DNS zostanie zmienione na automatyczne.\nNależy pamiętać, że może to ujawnić informacje o aktywności sieciowej dostawcy hotspotu, np. w hotelu lub centrum handlowym.",
+        "portal_title": "Portal"
     },
     "cable": {
         "title": "Ethernet",
@@ -596,7 +626,8 @@
         "sim_threshold_dual_tips": "Jeśli ustawiono limit danych dla {currentSim} i włączono slot karty SIM {handler}, {currentSim} automatycznie przełączy się na {otherSim}, gdy przekroczy ustawiony limit danych, a {currentSim} zostanie wyłączony.",
         "disabled_sim_auto_switch_tips": "SIM nie przełączy się po osiągnięciu limitu danych, ponieważ {handler} nie jest włączony. Po osiągnięciu limitu danych, karta SIM zostanie wyłączona.",
         "enabled_sim_auto_switch_tips": "Po osiągnięciu limitu danych nastąpi zmiana karty SIM.",
-        "sim_threshold_switch_tips": "Jeśli ustawiono limit danych dla {currentSim} i włączono {handler}, {currentSim} automatycznie przełączy się na {otherSim}, gdy zużycie danych przekroczy limit danych, a {currentSim} zostanie wyłączona."
+        "sim_threshold_switch_tips": "Jeśli ustawiono limit danych dla {currentSim} i włączono {handler}, {currentSim} automatycznie przełączy się na {otherSim}, gdy zużycie danych przekroczy limit danych, a {currentSim} zostanie wyłączona.",
+        "sim_data_limit_switch_tips": "W przeciwnym razie sieć może zostać rozłączona lub karta SIM może przełączyć się na inną."
     },
     "cellular": {
         "tower_locked_label": "{sim} Wieża zablokowana",
@@ -707,6 +738,7 @@
         "manual_label": "Instrukcja",
         "manual_mac_label": "Ręczne ustawienie adresu MAC",
         "no_wan_tips": "{silkprint} został użyty jako LAN (sieć lokalna). Możesz przywrócić go do WAN (sieć rozległa) w {view}.",
+        "silkprint_used_as_lan_tips": "{silkprint} został użyty jako LAN (sieć lokalna).",
         "subnet_conflict_tips": "Obecna podsieć adresu WAN jest w konflikcie z istniejącą podsiecią. Proszę {subnet} lub dostosować konfigurację sieci nadrzędnej.",
         "modify_subnet_range": "zmień zakres podsieci"
     },

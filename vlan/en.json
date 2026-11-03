@@ -1,5 +1,6 @@
 {
     "vlan": {
+        "subnet_in_use_delete_msg": "This subnet cannot be deleted because it is currently being used by the {features}.",
         "name": "Name",
         "add": "Add",
         "lan": "LAN",

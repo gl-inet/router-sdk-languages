@@ -1,5 +1,6 @@
 {
     "vpn": {
+        "vpn_policy_label": "Polityka VPN",
         "log": "Dziennik",
         "location_max_pre_label": "Maksymalna liczba dla lokalizacji",
         "tunnel_ip": "Adres tunelu",
@@ -654,6 +655,10 @@
         "enable_not_allow_tips": "{feature} i Klient TAP-S2S nie mogą działać jednocześnie. Proszę wyłączyć {feature} ręcznie."
     },
     "vpn_obfuscation": {
+        "enable_tips_v3": "Po włączeniu serwer VPN używa protokołu zaciemniania AmneziaWG 3.1 do maskowania ruchu VPN.",
+        "select_version_label": "Wybierz wersję",
+        "regenerate_btn": "Wygeneruj ponownie",
+        "auto_generate_label": "Generuj automatycznie",
         "enable_label": "Włącz Zaciemnianie",
         "enable_tips": "Po włączeniu, serwer VPN używa protokołu zaciemniania AmneziaWG do maskowania ruchu VPN.",
         "parameters_label": "Parametry Zaciemniania",
