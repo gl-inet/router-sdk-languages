@@ -766,5 +766,22 @@
         "acl_desc": "Is féidir le {acl} trácht líonra a rialú bunaithe ar rialacha amhail prótacal, seoladh IP ceann scríbe, seoladh IP foinseach, agus uimhir phoirt. Má bhíonn coimhlint idir dhá riail {acl} cumasaithe, tabharfaidh an gléas tús áite don riail is airde tosaíochta.",
         "add_new_btn": "Cuir Nua leis"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_tips": "Is teicneolaíocht é USSD chun cumarsáid a dhéanamh le líonra an oibreora.",
+        "end_session_btn": "Cuir Deireadh leis an Seisiún",
+        "invalid_request_tips": "Ní thacaítear ach le huimhreacha, * agus #.",
+        "request_label": "Iarratas USSD",
+        "result_label": "Toradh USSD",
+        "carrier_support_tips": "Braitheann na hiarratais agus na freagraí USSD a dtacaítear leo ar d’oibreoir.",
+        "no_response_tips": "Gan freagra"
+    },
+    "passthrough": {
+        "status_title": "Stádas Pas-trí IP",
+        "active_label": "Gníomhach",
+        "inactive_label": "Neamhghníomhach",
+        "source_wan_label": "WAN Foinseach",
+        "lan_port_label": "Port LAN",
+        "target_mac_label": "Seoladh MAC Sprice"
+    }
 }
