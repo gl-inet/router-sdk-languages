@@ -766,5 +766,22 @@
         "name_already_exist_msg": "이름이 이미 존재합니다.",
         "any_label": "모두"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_tips": "USSD는 이동통신사 네트워크와 통신하는 기술입니다.",
+        "end_session_btn": "세션 종료",
+        "no_response_tips": "응답 없음",
+        "invalid_request_tips": "숫자, * 및 #만 지원됩니다.",
+        "request_label": "USSD 요청",
+        "result_label": "USSD 결과",
+        "carrier_support_tips": "지원되는 USSD 요청 및 응답은 이동통신사에 따라 다릅니다."
+    },
+    "passthrough": {
+        "status_title": "IP 패스스루 상태",
+        "active_label": "활성",
+        "source_wan_label": "원본 WAN",
+        "lan_port_label": "LAN 포트",
+        "target_mac_label": "대상 MAC 주소",
+        "inactive_label": "비활성"
+    }
 }
