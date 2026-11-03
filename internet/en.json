@@ -766,5 +766,22 @@
         "add_new_btn": "Add New",
         "any_label": "Any"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_label": "USSD Request",
+        "result_label": "USSD Result",
+        "request_tips": "USSD is a technology for communicating with the carrier network.",
+        "carrier_support_tips": "Supported USSD requests and responses depend on your carrier.",
+        "end_session_btn": "End Session",
+        "no_response_tips": "No response",
+        "invalid_request_tips": "Only numbers, * and # are supported."
+    },
+    "passthrough": {
+        "status_title": "IP Passthrough Status",
+        "active_label": "Active",
+        "inactive_label": "Inactive",
+        "source_wan_label": "Source WAN",
+        "lan_port_label": "LAN Port",
+        "target_mac_label": "Target MAC Address"
+    }
 }
