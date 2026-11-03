@@ -766,5 +766,22 @@
         "any_not_allowed_with_multiple_ips": "Wanneer er meerdere IP-adressen zijn, kan de optie 'Any' niet worden opgenomen",
         "add_acl_dialog_title": "Een ACL-regel toevoegen"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "result_label": "USSD-resultaat",
+        "request_tips": "USSD is een technologie voor communicatie met het netwerk van de provider.",
+        "carrier_support_tips": "Ondersteunde USSD-verzoeken en -antwoorden zijn afhankelijk van uw provider.",
+        "end_session_btn": "Sessie beëindigen",
+        "no_response_tips": "Geen antwoord",
+        "request_label": "USSD-verzoek",
+        "invalid_request_tips": "Alleen cijfers, * en # worden ondersteund."
+    },
+    "passthrough": {
+        "status_title": "IP-passthroughstatus",
+        "active_label": "Actief",
+        "inactive_label": "Inactief",
+        "source_wan_label": "Bron-WAN",
+        "lan_port_label": "LAN-poort",
+        "target_mac_label": "Doel-MAC-adres"
+    }
 }
