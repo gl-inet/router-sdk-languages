@@ -95,7 +95,10 @@
         "wifi_scan_error_title": "Wi-Fi 掃描失敗！",
         "wifi_scan_try_later_tips": "請稍後再試。",
         "node_settings_title": "節點設定",
-        "preparing_services_tips": "正在準備 Mesh 服務，請稍候..."
+        "preparing_services_tips": "正在準備 Mesh 服務，請稍候...",
+        "do_not_press_mesh_button_tips": "請勿按下 {mesh} 按鈕。",
+        "wifi_scan_failed_velica_retry_tips": "若為 Velica 節點，請重設後再試一次。",
+        "wifi_scan_failed_router_retry_tips": "若為其他路由器，請確認已啟用 Mesh 並設為 Mesh 節點模式。"
     },
     "menu_mesh": "Mesh"
 }
