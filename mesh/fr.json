@@ -95,7 +95,10 @@
         "wifi_scan_error_title": "L’analyse Wi-Fi a échoué !",
         "wifi_scan_try_later_tips": "Veuillez réessayer plus tard.",
         "node_settings_title": "Paramètres du nœud",
-        "preparing_services_tips": "Préparation des services Mesh. Veuillez patienter..."
+        "preparing_services_tips": "Préparation des services Mesh. Veuillez patienter...",
+        "do_not_press_mesh_button_tips": "Veuillez NE PAS appuyer sur le bouton {mesh}.",
+        "wifi_scan_failed_velica_retry_tips": "Pour les nœuds Velica, veuillez les réinitialiser et réessayer.",
+        "wifi_scan_failed_router_retry_tips": "Pour les autres routeurs, vérifiez que Mesh est activé et configuré en mode Nœud Mesh."
     },
     "menu_mesh": "Mesh"
 }
