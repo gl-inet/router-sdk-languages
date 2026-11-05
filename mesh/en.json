@@ -95,7 +95,10 @@
         "wifi_scan_error_title": "Wi-Fi Scan failed!",
         "wifi_scan_try_later_tips": "Please try again later.",
         "node_settings_title": "Node Settings",
-        "preparing_services_tips": "Preparing Mesh services. Please wait..."
+        "preparing_services_tips": "Preparing Mesh services. Please wait...",
+        "do_not_press_mesh_button_tips": "Please do NOT press the {mesh} button.",
+        "wifi_scan_failed_velica_retry_tips": "For Velica nodes, please reset and try again.",
+        "wifi_scan_failed_router_retry_tips": "For other routers, confirm Mesh is enabled and set to Mesh Node mode."
     },
     "menu_mesh": "Mesh"
 }
