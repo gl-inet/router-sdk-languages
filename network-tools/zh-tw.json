@@ -66,11 +66,11 @@
         "download_btn": "下載",
         "target_label": "目標",
         "completed_label": "已完成",
-        "capture_low_memory_msg": "可用記憶體不足，無法開始擷取封包。",
-        "tool_busy_msg": "工具忙碌中，請稍後再試。",
-        "tool_not_running_msg": "工具未執行，無可取消的作業。",
-        "capture_invalid_filter_msg": "篩選條件無效，無法開始擷取封包。",
-        "capture_count_exceeded_msg": "封包數量過大，無法開始擷取封包。",
-        "capture_mac_unsupported_msg": "目前的介面不支援 MAC 篩選。"
+        "capture_low_memory_msg": "可用內存不足，無法開始抓包。",
+        "tool_busy_msg": "當前工具正在運行。",
+        "tool_not_running_msg": "當前沒有正在運行的工具，無需取消。",
+        "capture_invalid_filter_msg": "抓包協議錯誤，無法開始抓包。",
+        "capture_count_exceeded_msg": "抓包數量過大，無法開始抓包。",
+        "capture_mac_unsupported_msg": "當前接口不支持 MAC 過濾。"
     }
 }
