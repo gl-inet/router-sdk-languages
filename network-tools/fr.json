@@ -65,6 +65,12 @@
         "start_btn": "Exécuter",
         "download_btn": "Télécharger",
         "target_label": "Cible",
-        "completed_label": "Terminé"
+        "completed_label": "Terminé",
+        "capture_low_memory_msg": "Mémoire disponible insuffisante, impossible de démarrer la capture de paquets.",
+        "tool_busy_msg": "L’outil est occupé, veuillez réessayer plus tard.",
+        "tool_not_running_msg": "L’outil n’est pas en cours d’exécution, rien à annuler.",
+        "capture_mac_unsupported_msg": "L’interface actuelle ne prend pas en charge le filtrage MAC.",
+        "capture_invalid_filter_msg": "Conditions de filtrage non valides, impossible de démarrer la capture de paquets.",
+        "capture_count_exceeded_msg": "Nombre de paquets trop élevé, impossible de démarrer la capture de paquets."
     }
 }
