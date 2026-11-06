@@ -65,6 +65,12 @@
         "start_btn": "运行",
         "download_btn": "下载",
         "target_label": "目标",
-        "completed_label": "已完成"
+        "completed_label": "已完成",
+        "capture_low_memory_msg": "可用内存不足，无法开始抓包。",
+        "tool_not_running_msg": "工具未运行，无需取消。",
+        "capture_mac_unsupported_msg": "当前接口不支持 MAC 过滤。",
+        "capture_invalid_filter_msg": "过滤条件无效，无法开始抓包。",
+        "capture_count_exceeded_msg": "数据包数量过多，无法开始抓包。",
+        "tool_busy_msg": "工具正忙，请稍后重试。"
     }
 }
