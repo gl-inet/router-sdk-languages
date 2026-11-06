@@ -65,6 +65,12 @@
         "start_btn": "Uruchom",
         "download_btn": "Pobierz",
         "target_label": "Cel",
-        "completed_label": "Zakończone"
+        "completed_label": "Zakończone",
+        "capture_low_memory_msg": "Za mało dostępnej pamięci, nie można rozpocząć przechwytywania pakietów.",
+        "tool_busy_msg": "Narzędzie jest zajęte, proszę spróbować ponownie później.",
+        "tool_not_running_msg": "Narzędzie nie jest uruchomione, nie ma czego anulować.",
+        "capture_invalid_filter_msg": "Nieprawidłowe warunki filtrowania, nie można rozpocząć przechwytywania pakietów.",
+        "capture_count_exceeded_msg": "Zbyt duża liczba pakietów, nie można rozpocząć przechwytywania pakietów.",
+        "capture_mac_unsupported_msg": "Bieżący interfejs nie obsługuje filtrowania adresów MAC."
     }
 }
