@@ -98,7 +98,11 @@
         "preparing_services_tips": "正在准备 Mesh 服务，请稍候...",
         "do_not_press_mesh_button_tips": "请勿按下 {mesh} 按钮。",
         "wifi_scan_failed_router_retry_tips": "对于其他路由器，请确认已启用 Mesh 并设置为 Mesh 节点模式。",
-        "wifi_scan_failed_velica_retry_tips": "对于 Velica 节点，请重置后重试。"
+        "wifi_scan_failed_velica_retry_tips": "对于 Velica 节点，请重置后重试。",
+        "optimize_topology_btn": "优化 Mesh 拓扑",
+        "optimize_btn": "优化",
+        "optimize_topology_interrupt_tips": "优化可能会短暂中断 Wi-Fi，并断开已连接设备的连接。",
+        "optimize_topology_idle_tips": "建议在网络空闲时进行。"
     },
     "menu_mesh": "Mesh"
 }
