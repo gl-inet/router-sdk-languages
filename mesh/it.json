@@ -98,7 +98,11 @@
         "preparing_services_tips": "Preparazione dei servizi Mesh in corso. Attendere...",
         "do_not_press_mesh_button_tips": "Non premere il pulsante {mesh}.",
         "wifi_scan_failed_velica_retry_tips": "Per i nodi Velica, ripristinare e riprovare.",
-        "wifi_scan_failed_router_retry_tips": "Per gli altri router, verificare che Mesh sia abilitato e impostato sulla modalità Nodo Mesh."
+        "wifi_scan_failed_router_retry_tips": "Per gli altri router, verificare che Mesh sia abilitato e impostato sulla modalità Nodo Mesh.",
+        "optimize_topology_btn": "Ottimizza la topologia mesh",
+        "optimize_btn": "Ottimizza",
+        "optimize_topology_idle_tips": "Si consiglia di procedere quando la rete è inattiva.",
+        "optimize_topology_interrupt_tips": "L'ottimizzazione potrebbe interrompere brevemente il Wi-Fi e disconnettere i dispositivi connessi."
     },
     "menu_mesh": "Mesh"
 }
