@@ -98,7 +98,11 @@
         "preparing_services_tips": "Подготовка сервисов Mesh. Подождите...",
         "do_not_press_mesh_button_tips": "НЕ нажимайте кнопку {mesh}.",
         "wifi_scan_failed_velica_retry_tips": "Для узлов Velica выполните сброс и повторите попытку.",
-        "wifi_scan_failed_router_retry_tips": "Для других маршрутизаторов убедитесь, что Mesh включён и выбран режим узла Mesh."
+        "wifi_scan_failed_router_retry_tips": "Для других маршрутизаторов убедитесь, что Mesh включён и выбран режим узла Mesh.",
+        "optimize_topology_btn": "Оптимизировать топологию Mesh",
+        "optimize_btn": "Оптимизировать",
+        "optimize_topology_idle_tips": "Рекомендуем продолжить, когда сеть не используется.",
+        "optimize_topology_interrupt_tips": "Оптимизация может ненадолго прервать работу беспроводной сети и отключить подключённые устройства."
     },
     "menu_mesh": "Mesh"
 }
