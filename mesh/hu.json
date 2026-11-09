@@ -98,7 +98,11 @@
         "preparing_services_tips": "Mesh-szolgáltatások előkészítése. Kérjük, várjon...",
         "do_not_press_mesh_button_tips": "NE nyomja meg a(z) {mesh} gombot.",
         "wifi_scan_failed_router_retry_tips": "Más routerek esetén ellenőrizze, hogy a Mesh engedélyezve van-e, és Mesh csomópont módra van-e állítva.",
-        "wifi_scan_failed_velica_retry_tips": "Velica csomópontok esetén állítsa vissza a gyári beállításokat, és próbálja újra."
+        "wifi_scan_failed_velica_retry_tips": "Velica csomópontok esetén állítsa vissza a gyári beállításokat, és próbálja újra.",
+        "optimize_btn": "Optimalizálás",
+        "optimize_topology_btn": "Mesh topológia optimalizálása",
+        "optimize_topology_interrupt_tips": "Az optimalizálás rövid időre megszakíthatja a Wi-Fi-kapcsolatot, és leválaszthatja a csatlakoztatott eszközöket.",
+        "optimize_topology_idle_tips": "Javasoljuk, hogy akkor folytassa, amikor a hálózat nincs használatban."
     },
     "menu_mesh": "Mesh"
 }
