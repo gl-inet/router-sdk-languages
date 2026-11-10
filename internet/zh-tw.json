@@ -447,7 +447,8 @@
         "forward_email_title": "通過電子郵件轉發",
         "forward_sms_title": "通過短信轉發",
         "received": "已接收",
-        "single_standby_cannot_forwarded_tips": "不可轉發至本機號碼"
+        "single_standby_cannot_forwarded_tips": "不可轉發至本機號碼",
+        "forward_dual_tips": "為避免循環轉發，若在此輸入 SIM1 或 SIM2 的號碼，將不允許轉發簡訊。此外，若數據機未讀取到您 SIM 卡的號碼，將不會執行簡訊轉發。"
     },
     "menu_internet": "互聯網",
     "guide": {
