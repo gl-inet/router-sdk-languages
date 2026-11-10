@@ -425,7 +425,8 @@
         "forward_email_title": "Reenviar por Correo Electrónico",
         "forward_sms_title": "Reenviar por SMS",
         "received": "Recibido",
-        "single_standby_cannot_forwarded_tips": "Los SMS no pueden ser reenviados al número local."
+        "single_standby_cannot_forwarded_tips": "Los SMS no pueden ser reenviados al número local.",
+        "forward_dual_tips": "Para evitar bucles, no se permitirá el reenvío de SMS si se introduce aquí el número de SIM1 o SIM2. Además, si el módem no puede leer el número de su tarjeta SIM, no se realizará el reenvío de SMS."
     },
     "modemmanage": {
         "title": "Administración",
