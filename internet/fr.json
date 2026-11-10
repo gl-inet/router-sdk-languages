@@ -425,7 +425,8 @@
         "forward_sms_title": "Transmettre par SMS",
         "forward_email_title": "Transmettre par email",
         "received": "Reçu",
-        "single_standby_cannot_forwarded_tips": "Les SMS ne peuvent pas être transférés vers le numéro local."
+        "single_standby_cannot_forwarded_tips": "Les SMS ne peuvent pas être transférés vers le numéro local.",
+        "forward_dual_tips": "Pour éviter les boucles, le transfert de SMS ne sera pas autorisé si le numéro de SIM1 ou de SIM2 est saisi ici. De plus, si le modem ne parvient pas à lire le numéro de votre carte SIM, le transfert de SMS ne sera pas effectué."
     },
     "modemmanage": {
         "title": "Gérer",
