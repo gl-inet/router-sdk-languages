@@ -291,7 +291,8 @@
         "forward_email_account_label": "Felhasználónév",
         "forward_email_subject_label": "Tárgy",
         "received": "Fogadott",
-        "single_standby_cannot_forwarded_tips": "Az SMS nem továbbítható a helyi számra."
+        "single_standby_cannot_forwarded_tips": "Az SMS nem továbbítható a helyi számra.",
+        "forward_dual_tips": "A körkörös továbbítás elkerülése érdekében az SMS-továbbítás nem engedélyezett, ha itt a SIM1 vagy SIM2 telefonszámát adja meg. Továbbá, ha a modem nem tudja kiolvasni a SIM-kártya telefonszámát, az SMS-továbbítás nem történik meg."
     },
     "modemmanage": {
         "export_debug_info": "Hibakeresési napló letöltése",
