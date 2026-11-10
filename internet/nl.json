@@ -419,7 +419,8 @@
         "forward_tips": "Om circulariteit te voorkomen is het doorsturen van SMS niet toegestaan als hier het lokale nummer wordt ingevuld. Bovendien wordt het doorsturen van SMS-berichten niet uitgevoerd als de modem het nummer van uw SIM-kaart niet leest.",
         "forward_phone_tips": "Als u wilt dat de router SMS-berichten doorstuurt naar uw mobiele telefoon, zorg er dan voor dat uw mobiele netwerk beschikbaar is en het verzenden van SMS-berichten ondersteunt.",
         "received": "Ontvangen",
-        "single_standby_cannot_forwarded_tips": "SMS kan niet worden doorgestuurd naar het lokale nummer."
+        "single_standby_cannot_forwarded_tips": "SMS kan niet worden doorgestuurd naar het lokale nummer.",
+        "forward_dual_tips": "Om een kringloop te voorkomen, is sms-doorsturing niet toegestaan wanneer hier het nummer van SIM1 of SIM2 wordt ingevoerd. Als het modem het nummer van uw simkaart niet kan uitlezen, wordt sms-doorsturing ook niet uitgevoerd."
     },
     "router_visual": {
         "wlan_client": "WLAN-cliënten",
