@@ -447,7 +447,8 @@
         "forward_email_title": "メール経由で転送",
         "forward_sms_title": "SMS経由で転送",
         "received": "受信しました",
-        "single_standby_cannot_forwarded_tips": "SMSはローカル番号に転送できません。"
+        "single_standby_cannot_forwarded_tips": "SMSはローカル番号に転送できません。",
+        "forward_dual_tips": "ループを防ぐため、ここにSIM1またはSIM2の電話番号を入力した場合、SMS転送は許可されません。また、モデムがSIMカードの電話番号を読み取れない場合、SMS転送は実行されません。"
     },
     "menu_internet": "インターネット",
     "guide": {
