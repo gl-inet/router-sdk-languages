@@ -425,7 +425,8 @@
         "forward_email_title": "Forward via Email",
         "forward_sms_title": "Forward via SMS",
         "received": "Received",
-        "single_standby_cannot_forwarded_tips": "SMS cannot be forwarded to the local number."
+        "single_standby_cannot_forwarded_tips": "SMS cannot be forwarded to the local number.",
+        "forward_dual_tips": "To prevent circularity, SMS forwarding will not be allowed when the number of SIM1 or SIM2 is entered here. Additionally, if the Modem does not read the number of your SIM card, SMS forwarding will not be executed."
     },
     "modemmanage": {
         "title": "Management",
