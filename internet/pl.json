@@ -206,7 +206,8 @@
         "forward_email_subject_label": "Wątek",
         "receive": "Otrzymać",
         "received": "Odebrano",
-        "single_standby_cannot_forwarded_tips": "SMS nie może zostać przekazany na numer lokalny."
+        "single_standby_cannot_forwarded_tips": "SMS nie może zostać przekazany na numer lokalny.",
+        "forward_dual_tips": "Aby zapobiec zapętleniu, przekazywanie SMS-ów nie będzie dozwolone, jeśli zostanie tu wprowadzony numer karty SIM1 lub SIM2. Ponadto, jeśli modem nie odczyta numeru karty SIM, SMS-y nie będą przekazywane."
     },
     "modemmanage": {
         "success_copy": "Kopiowanie powiodło się",
