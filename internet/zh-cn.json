@@ -425,7 +425,8 @@
         "forward_email_title": "通过电子邮件转发",
         "forward_sms_title": "通过短信转发",
         "received": "已接收",
-        "single_standby_cannot_forwarded_tips": "不可转发至本机号码"
+        "single_standby_cannot_forwarded_tips": "不可转发至本机号码",
+        "forward_dual_tips": "为防止循环转发，此处输入 SIM1 或 SIM2 的号码时，将不允许短信转发。此外，如果调制解调器未读取到您的 SIM 卡号码，短信转发将不会执行。"
     },
     "modemmanage": {
         "title": "管理",
