@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "Les paramètres ont été enregistrés, mais le service de tunnel n’a pas pu redémarrer. Veuillez réessayer pour les appliquer.",
     "wifi_sync_unavailable_msg": "Le service de synchronisation Wi-Fi est indisponible. Veuillez réessayer plus tard.",
     "wifi_sync_stopped_msg": "Le service de synchronisation Wi-Fi est en cours d’arrêt. Veuillez réessayer plus tard.",
-    "wifi_sync_request_failed_msg": "Impossible de récupérer l’état de la synchronisation Wi-Fi. Veuillez réessayer."
+    "wifi_sync_request_failed_msg": "Impossible de récupérer l’état de la synchronisation Wi-Fi. Veuillez réessayer.",
+    "operation_not_allowed_msg": "L’état actuel ne permet pas cette opération.",
+    "config_restoring_msg": "La configuration est en cours de restauration après une mise à niveau. Veuillez réessayer plus tard.",
+    "connection_not_ready_msg": "Les conditions de connexion ne sont pas remplies. Vérifiez le nœud principal et l’état du réseau.",
+    "speed_target_unavailable_msg": "La cible du test de vitesse de la liaison est indisponible. Veuillez réessayer plus tard.",
+    "wifi_preview_invalid_msg": "L’aperçu Wi-Fi est manquant ou n’est plus valide. Récupérez à nouveau les paramètres avant de les synchroniser.",
+    "access_plan_expired_tips": "Échec de la connexion. L’abonnement réseau a expiré.",
+    "access_code_limit_tips": "Échec de la connexion. La limite de routeurs connectés au réseau a été atteinte.",
+    "inp_access_code_wait_tips": "Trop de tentatives. Veuillez réessayer dans {time}."
   }
 }

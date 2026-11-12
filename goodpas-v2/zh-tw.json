@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "設定已儲存，但通道服務重新啟動失敗。請再試一次以套用設定。",
     "wifi_sync_unavailable_msg": "Wi-Fi 同步服務無法使用。請稍後再試。",
     "wifi_sync_stopped_msg": "Wi-Fi 同步服務正在停止。請稍後再試。",
-    "wifi_sync_request_failed_msg": "無法取得 Wi-Fi 同步狀態。請再試一次。"
+    "wifi_sync_request_failed_msg": "無法取得 Wi-Fi 同步狀態。請再試一次。",
+    "operation_not_allowed_msg": "目前狀態不允許執行此操作。",
+    "config_restoring_msg": "升級後正在還原設定。請稍後再試。",
+    "connection_not_ready_msg": "尚未滿足連線條件。請檢查主節點和網路狀態。",
+    "speed_target_unavailable_msg": "鏈路速度測試目標無法使用。請稍後再試。",
+    "wifi_preview_invalid_msg": "Wi-Fi 預覽遺失或已失效。請重新取得設定後再同步。",
+    "access_plan_expired_tips": "連線失敗。網路方案已到期。",
+    "access_code_limit_tips": "連線失敗。已連線的路由器數量已達網路上限。",
+    "inp_access_code_wait_tips": "嘗試次數過多。請在 {time} 後再試一次。"
   }
 }
