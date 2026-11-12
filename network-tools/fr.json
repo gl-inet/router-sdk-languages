@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Sondage",
         "traceroute_reachable_label": "Accessible",
         "traceroute_unreachable_label": "Inaccessible",
-        "observed_hops_label": "Sauts observés",
+        "observed_hops_label": "Sauts tracés",
         "ip_protocol_label": "Protocole IP",
         "ping_device_label": "Source",
         "ping_count_label": "Nombre de paquets",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Source",
         "traceroute_probes_label": "Sondes par saut",
         "traceroute_timeout_label": "Délai d'attente par saut",
-        "traceroute_numeric_label": "Numérique uniquement",
+        "traceroute_numeric_label": "Ignorer la résolution DNS",
         "raw_response_label": "Réponse brute",
         "tool_idle_tips": "{tool} inactif...",
-        "capture_low_memory_tips": "Mémoire disponible insuffisante, impossible de démarrer la capture de paquets.",
         "scan_btn": "Scanner",
         "wifi_scan_again_btn": "Scanner à nouveau",
         "wifi_stop_scan_btn": "Arrêter le scan",
@@ -65,6 +64,16 @@
         "start_btn": "Exécuter",
         "download_btn": "Télécharger",
         "target_label": "Cible",
-        "completed_label": "Terminé"
+        "completed_label": "Terminé",
+        "capture_low_memory_msg": "Mémoire disponible insuffisante, impossible de démarrer la capture de paquets.",
+        "tool_busy_msg": "L’outil est occupé, veuillez réessayer plus tard.",
+        "tool_not_running_msg": "L’outil n’est pas en cours d’exécution, rien à annuler.",
+        "capture_mac_unsupported_msg": "L’interface actuelle ne prend pas en charge le filtrage MAC.",
+        "capture_invalid_filter_msg": "Conditions de filtrage non valides, impossible de démarrer la capture de paquets.",
+        "capture_count_exceeded_msg": "Nombre de paquets trop élevé, impossible de démarrer la capture de paquets.",
+        "dns_records_count_label": "{count} enregistrements",
+        "wifi_count_label": "Nombre",
+        "wifi_name_label": "Nom du réseau Wi-Fi",
+        "wifi_channel_tips": "Les canaux sont affichés sous la forme « Canal principal (canal central) »."
     }
 }

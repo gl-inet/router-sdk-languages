@@ -425,7 +425,8 @@
         "forward_email_title": "通过电子邮件转发",
         "forward_sms_title": "通过短信转发",
         "received": "已接收",
-        "single_standby_cannot_forwarded_tips": "不可转发至本机号码"
+        "single_standby_cannot_forwarded_tips": "不可转发至本机号码",
+        "forward_dual_tips": "为防止循环转发，此处输入 SIM1 或 SIM2 的号码时，将不允许短信转发。此外，如果调制解调器未读取到您的 SIM 卡号码，短信转发将不会执行。"
     },
     "modemmanage": {
         "title": "管理",
@@ -766,5 +767,23 @@
         "add_acl_dialog_title": "添加 ACL 规则",
         "any_label": "任意"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_label": "USSD 请求",
+        "result_label": "USSD 结果",
+        "request_tips": "USSD 是一种与运营商网络通信的技术。",
+        "carrier_support_tips": "支持的 USSD 请求和响应取决于您的运营商。",
+        "end_session_btn": "结束会话",
+        "no_response_tips": "无响应",
+        "invalid_request_tips": "仅支持数字、* 和 #。",
+        "send_failed_tips": "USSD请求发送失败"
+    },
+    "passthrough": {
+        "status_title": "IP Passthrough 状态",
+        "active_label": "已激活",
+        "inactive_label": "未激活",
+        "source_wan_label": "来源 WAN",
+        "lan_port_label": "LAN 端口",
+        "target_mac_label": "目标 MAC 地址"
+    }
 }

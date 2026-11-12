@@ -291,7 +291,8 @@
         "forward_email_account_label": "Felhasználónév",
         "forward_email_subject_label": "Tárgy",
         "received": "Fogadott",
-        "single_standby_cannot_forwarded_tips": "Az SMS nem továbbítható a helyi számra."
+        "single_standby_cannot_forwarded_tips": "Az SMS nem továbbítható a helyi számra.",
+        "forward_dual_tips": "A körkörös továbbítás elkerülése érdekében az SMS-továbbítás nem engedélyezett, ha itt a SIM1 vagy SIM2 telefonszámát adja meg. Továbbá, ha a modem nem tudja kiolvasni a SIM-kártya telefonszámát, az SMS-továbbítás nem történik meg."
     },
     "modemmanage": {
         "export_debug_info": "Hibakeresési napló letöltése",
@@ -766,5 +767,23 @@
         "source_port_label": "Forrásport",
         "add_new_btn": "Új hozzáadása"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_label": "USSD-kérés",
+        "result_label": "USSD-eredmény",
+        "request_tips": "Az USSD a szolgáltatói hálózattal való kommunikációra szolgáló technológia.",
+        "carrier_support_tips": "A támogatott USSD-kérések és -válaszok a szolgáltatótól függenek.",
+        "end_session_btn": "Munkamenet befejezése",
+        "no_response_tips": "Nincs válasz",
+        "invalid_request_tips": "Csak számok, valamint a * és a # karakterek támogatottak.",
+        "send_failed_tips": "Nem sikerült elküldeni az USSD-kérést"
+    },
+    "passthrough": {
+        "active_label": "Aktív",
+        "inactive_label": "Inaktív",
+        "source_wan_label": "Forrás WAN",
+        "lan_port_label": "LAN-port",
+        "target_mac_label": "Cél MAC-cím",
+        "status_title": "IP-átengedés állapota"
+    }
 }

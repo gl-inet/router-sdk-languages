@@ -95,7 +95,14 @@
         "wifi_scan_try_later_tips": "Bitte versuchen Sie es später erneut.",
         "wifi_scan_error_title": "WLAN-Scan fehlgeschlagen!",
         "node_settings_title": "Knoteneinstellungen",
-        "preparing_services_tips": "Mesh-Dienste werden vorbereitet. Bitte warten..."
+        "preparing_services_tips": "Mesh-Dienste werden vorbereitet. Bitte warten...",
+        "do_not_press_mesh_button_tips": "Drücken Sie NICHT die Taste {mesh}.",
+        "wifi_scan_failed_velica_retry_tips": "Setzen Sie die Velica-Knoten zurück und versuchen Sie es erneut.",
+        "wifi_scan_failed_router_retry_tips": "Stellen Sie bei anderen Routern sicher, dass Mesh aktiviert und der Mesh-Knoten-Modus eingestellt ist.",
+        "optimize_topology_btn": "Mesh-Topologie optimieren",
+        "optimize_btn": "Optimieren",
+        "optimize_topology_idle_tips": "Wir empfehlen, fortzufahren, wenn das Netzwerk nicht genutzt wird.",
+        "optimize_topology_interrupt_tips": "Die Optimierung kann das WLAN kurzzeitig unterbrechen und die Verbindung zu verbundenen Geräten trennen."
     },
     "menu_mesh": "Mesh"
 }

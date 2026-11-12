@@ -447,7 +447,8 @@
         "forward_email_title": "Weiterleiten an E-Mail",
         "forward_sms_title": "Weiterleiten als SMS",
         "received": "Empfangen",
-        "single_standby_cannot_forwarded_tips": "SMS kann nicht an die lokale Nummer weitergeleitet werden."
+        "single_standby_cannot_forwarded_tips": "SMS kann nicht an die lokale Nummer weitergeleitet werden.",
+        "forward_dual_tips": "Um eine Schleife zu verhindern, ist die SMS-Weiterleitung nicht zulässig, wenn hier die Rufnummer von SIM1 oder SIM2 eingegeben wird. Wenn das Modem die Rufnummer Ihrer SIM-Karte nicht auslesen kann, wird die SMS-Weiterleitung ebenfalls nicht ausgeführt."
     },
     "menu_internet": "Internet",
     "guide": {
@@ -766,5 +767,23 @@
         "source_port_label": "Quellport",
         "acl_desc": "{acl} kann den Netzwerkverkehr anhand von Regeln wie Protokoll, Ziel-IP-Adresse, Quell-IP-Adresse und Portnummer steuern. Wenn ein Konflikt zwischen zwei aktivierten {acl}-Regeln besteht, priorisiert das Gerät die Regel mit der höheren Priorität."
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_label": "USSD-Anfrage",
+        "result_label": "USSD-Ergebnis",
+        "request_tips": "USSD ist eine Technologie zur Kommunikation mit dem Mobilfunknetz.",
+        "carrier_support_tips": "Die unterstützten USSD-Anfragen und -Antworten hängen von Ihrem Mobilfunkanbieter ab.",
+        "end_session_btn": "Sitzung beenden",
+        "no_response_tips": "Keine Antwort",
+        "invalid_request_tips": "Es werden nur Ziffern, * und # unterstützt.",
+        "send_failed_tips": "USSD-Anfrage konnte nicht gesendet werden"
+    },
+    "passthrough": {
+        "active_label": "Aktiv",
+        "inactive_label": "Inaktiv",
+        "source_wan_label": "Quell-WAN",
+        "lan_port_label": "LAN-Port",
+        "target_mac_label": "Ziel-MAC-Adresse",
+        "status_title": "IP-Passthrough-Status"
+    }
 }

@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "设置已保存，但隧道服务重启失败。请重试以应用设置。",
     "wifi_sync_unavailable_msg": "Wi-Fi 同步服务不可用。请稍后重试。",
     "wifi_sync_stopped_msg": "Wi-Fi 同步服务正在停止。请稍后重试。",
-    "wifi_sync_request_failed_msg": "无法获取 Wi-Fi 同步状态。请重试。"
+    "wifi_sync_request_failed_msg": "无法获取 Wi-Fi 同步状态。请重试。",
+    "operation_not_allowed_msg": "当前状态不允许执行此操作。",
+    "config_restoring_msg": "升级后正在恢复配置。请稍后重试。",
+    "connection_not_ready_msg": "尚未满足连接条件。请检查主节点和网络状态。",
+    "speed_target_unavailable_msg": "链路测速目标不可用。请稍后重试。",
+    "wifi_preview_invalid_msg": "Wi-Fi 预览缺失或已失效。请重新获取设置后再同步。",
+    "access_plan_expired_tips": "连接失败。网络套餐已到期。",
+    "access_code_limit_tips": "连接失败。已连接的路由器数量已达到网络上限。",
+    "inp_access_code_wait_tips": "尝试次数过多。请在 {time} 后重试。"
   }
 }

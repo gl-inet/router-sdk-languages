@@ -425,7 +425,8 @@
         "forward_email_title": "Inoltra via Email",
         "forward_sms_title": "inoltra via SMS",
         "received": "Ricevuto",
-        "single_standby_cannot_forwarded_tips": "SMS non può essere inoltrato al numero locale."
+        "single_standby_cannot_forwarded_tips": "SMS non può essere inoltrato al numero locale.",
+        "forward_dual_tips": "Per evitare cicli, l'inoltro degli SMS non sarà consentito se qui viene inserito il numero della SIM1 o della SIM2. Inoltre, se il modem non legge il numero della scheda SIM, l'inoltro degli SMS non verrà eseguito."
     },
     "modemmanage": {
         "title": "Gestione",
@@ -766,5 +767,23 @@
         "name_already_exist_msg": "Il nome esiste già.",
         "any_label": "Qualsiasi"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "result_label": "Risultato USSD",
+        "request_tips": "USSD è una tecnologia per comunicare con la rete dell'operatore.",
+        "end_session_btn": "Termina sessione",
+        "no_response_tips": "Nessuna risposta",
+        "invalid_request_tips": "Sono supportati solo numeri, * e #.",
+        "request_label": "Richiesta USSD",
+        "carrier_support_tips": "Le richieste e le risposte USSD supportate dipendono dall'operatore.",
+        "send_failed_tips": "Invio della richiesta USSD non riuscito"
+    },
+    "passthrough": {
+        "status_title": "Stato del passthrough IP",
+        "active_label": "Attivo",
+        "inactive_label": "Inattivo",
+        "source_wan_label": "WAN di origine",
+        "lan_port_label": "Porta LAN",
+        "target_mac_label": "Indirizzo MAC di destinazione"
+    }
 }

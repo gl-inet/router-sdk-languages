@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Probing",
         "traceroute_reachable_label": "Reachable",
         "traceroute_unreachable_label": "Unreachable",
-        "observed_hops_label": "Observed Hops",
+        "observed_hops_label": "Traced Hops",
         "ip_protocol_label": "IP Protocol",
         "ping_device_label": "Source",
         "ping_count_label": "Packet Count",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Source",
         "traceroute_probes_label": "Probes Per Hop",
         "traceroute_timeout_label": "Per-Hop Timeout",
-        "traceroute_numeric_label": "Numeric Only",
+        "traceroute_numeric_label": "Skip DNS Resolution",
         "raw_response_label": "Raw response",
         "tool_idle_tips": "{tool} Idle...",
-        "capture_low_memory_tips": "Low available memory, unable to start packet capture.",
         "scan_btn": "Scan",
         "wifi_scan_again_btn": "Scan again",
         "wifi_stop_scan_btn": "Stop scanning",
@@ -65,6 +64,16 @@
         "start_btn": "Run",
         "download_btn": "Download",
         "target_label": "Target",
-        "completed_label": "Completed"
+        "completed_label": "Completed",
+        "capture_low_memory_msg": "Low available memory, unable to start packet capture.",
+        "tool_busy_msg": "Tool is busy, please try again later.",
+        "tool_not_running_msg": "Tool is not running, nothing to cancel.",
+        "capture_mac_unsupported_msg": "The current interface does not support MAC filtering.",
+        "capture_invalid_filter_msg": "Invalid filter conditions, unable to start packet capture.",
+        "capture_count_exceeded_msg": "Packet count too large, unable to start packet capture.",
+        "dns_records_count_label": "{count} records",
+        "wifi_count_label": "Count",
+        "wifi_name_label": "Wi-Fi Name",
+        "wifi_channel_tips": "Channels are displayed as “Primary channel (center channel)”."
     }
 }

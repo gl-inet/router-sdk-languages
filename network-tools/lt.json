@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Tikrinama",
         "traceroute_reachable_label": "Pasiekiamas",
         "traceroute_unreachable_label": "Nepasiekiamas",
-        "observed_hops_label": "Stebėti šuoliai",
+        "observed_hops_label": "Atsekti šuoliai",
         "ip_protocol_label": "IP protokolas",
         "ping_device_label": "Šaltinis",
         "ping_count_label": "Paketų skaičius",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Šaltinis",
         "traceroute_probes_label": "Patikrinimai per šuolį",
         "traceroute_timeout_label": "Laiko limitas per šuolį",
-        "traceroute_numeric_label": "Tik skaitinės reikšmės",
+        "traceroute_numeric_label": "Praleisti DNS vardų nustatymą",
         "raw_response_label": "Neapdorotas atsakymas",
         "tool_idle_tips": "{tool} neveikia...",
-        "capture_low_memory_tips": "Nepakanka laisvos atminties, paketų fiksavimo pradėti nepavyksta.",
         "scan_btn": "Skenuoti",
         "wifi_scan_again_btn": "Skenuoti iš naujo",
         "wifi_stop_scan_btn": "Sustabdyti skenavimą",
@@ -65,6 +64,16 @@
         "start_btn": "Vykdyti",
         "download_btn": "Atsisiųsti",
         "target_label": "Tikslas",
-        "completed_label": "Baigta"
+        "completed_label": "Baigta",
+        "capture_low_memory_msg": "Nepakanka laisvos atminties, nepavyko pradėti paketų fiksavimo.",
+        "tool_busy_msg": "Įrankis užimtas, bandykite dar kartą vėliau.",
+        "tool_not_running_msg": "Įrankis neveikia, nėra ko atšaukti.",
+        "capture_mac_unsupported_msg": "Dabartinė sąsaja nepalaiko MAC filtravimo.",
+        "capture_invalid_filter_msg": "Negalimos filtravimo sąlygos, nepavyko pradėti paketų fiksavimo.",
+        "capture_count_exceeded_msg": "Per didelis paketų skaičius, nepavyko pradėti paketų fiksavimo.",
+        "dns_records_count_label": "{count} įrašai",
+        "wifi_count_label": "Skaičius",
+        "wifi_name_label": "„Wi-Fi“ pavadinimas",
+        "wifi_channel_tips": "Kanalai rodomi formatu „Pagrindinis kanalas (centrinis kanalas)“."
     }
 }

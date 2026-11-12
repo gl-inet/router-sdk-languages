@@ -447,7 +447,8 @@
         "forward_email_title": "通過電子郵件轉發",
         "forward_sms_title": "通過短信轉發",
         "received": "已接收",
-        "single_standby_cannot_forwarded_tips": "不可轉發至本機號碼"
+        "single_standby_cannot_forwarded_tips": "不可轉發至本機號碼",
+        "forward_dual_tips": "為避免循環轉發，若在此輸入 SIM1 或 SIM2 的號碼，將不允許轉發簡訊。此外，若數據機未讀取到您 SIM 卡的號碼，將不會執行簡訊轉發。"
     },
     "menu_internet": "互聯網",
     "guide": {
@@ -766,5 +767,23 @@
         "protocol_label": "通訊協定",
         "name_already_exist_msg": "名稱已存在。"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "result_label": "USSD 結果",
+        "carrier_support_tips": "支援的 USSD 請求與回應取決於您的電信業者。",
+        "no_response_tips": "無回應",
+        "invalid_request_tips": "僅支援數字、* 和 #。",
+        "request_label": "USSD 請求",
+        "request_tips": "USSD 是一種與電信業者網路通訊的技術。",
+        "end_session_btn": "結束會話",
+        "send_failed_tips": "USSD 請求傳送失敗"
+    },
+    "passthrough": {
+        "status_title": "IP Passthrough 狀態",
+        "active_label": "啟用中",
+        "inactive_label": "未啟用",
+        "source_wan_label": "來源 WAN",
+        "lan_port_label": "LAN 連接埠",
+        "target_mac_label": "目標 MAC 位址"
+    }
 }

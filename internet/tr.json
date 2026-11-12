@@ -619,7 +619,8 @@
         "forward_email_title": "E-posta ile Yönlendir",
         "forward_sms_title": "SMS ile Yönlendir",
         "received": "Alındı",
-        "single_standby_cannot_forwarded_tips": "SMS yerel numaraya yönlendirilemez."
+        "single_standby_cannot_forwarded_tips": "SMS yerel numaraya yönlendirilemez.",
+        "forward_dual_tips": "Döngü oluşmasını önlemek için buraya SIM1 veya SIM2'nin numarası girildiğinde SMS yönlendirmeye izin verilmez. Ayrıca modem SIM kartınızın numarasını okuyamazsa SMS yönlendirme gerçekleştirilmez."
     },
     "modemmanage": {
         "title": "Yönetim",
@@ -766,5 +767,23 @@
         "acl_desc": "{acl}; protokol, hedef IP adresi, kaynak IP adresi ve bağlantı noktası numarası gibi kurallara göre ağ trafiğini denetleyebilir. Etkinleştirilmiş iki {acl} kuralı arasında çakışma varsa cihaz, önceliği daha yüksek olan kurala öncelik verir.",
         "drop_label": "Engelle"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "result_label": "USSD Sonucu",
+        "carrier_support_tips": "Desteklenen USSD istekleri ve yanıtları operatörünüze bağlıdır.",
+        "end_session_btn": "Oturumu Sonlandır",
+        "no_response_tips": "Yanıt yok",
+        "request_label": "USSD İsteği",
+        "request_tips": "USSD, operatör ağıyla iletişim kurmak için kullanılan bir teknolojidir.",
+        "invalid_request_tips": "Yalnızca rakamlar, * ve # desteklenir.",
+        "send_failed_tips": "USSD isteği gönderilemedi"
+    },
+    "passthrough": {
+        "status_title": "IP Geçiş Durumu",
+        "active_label": "Etkin",
+        "inactive_label": "Etkin Değil",
+        "source_wan_label": "Kaynak WAN",
+        "target_mac_label": "Hedef MAC Adresi",
+        "lan_port_label": "LAN Bağlantı Noktası"
+    }
 }

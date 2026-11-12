@@ -425,7 +425,8 @@
         "forward_email_title": "Reenviar por Correo Electrónico",
         "forward_sms_title": "Reenviar por SMS",
         "received": "Recibido",
-        "single_standby_cannot_forwarded_tips": "Los SMS no pueden ser reenviados al número local."
+        "single_standby_cannot_forwarded_tips": "Los SMS no pueden ser reenviados al número local.",
+        "forward_dual_tips": "Para evitar bucles, no se permitirá el reenvío de SMS si se introduce aquí el número de SIM1 o SIM2. Además, si el módem no puede leer el número de su tarjeta SIM, no se realizará el reenvío de SMS."
     },
     "modemmanage": {
         "title": "Administración",
@@ -766,5 +767,23 @@
         "action_label": "Acción",
         "acl_desc": "{acl} puede controlar el tráfico de red basándose en reglas como el protocolo, la dirección IP de destino, la dirección IP de origen y número de puerto. Si hay un conflicto entre dos reglas de {acl} habilitadas, el dispositivo dará prioridad a la regla de mayor prioridad."
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_label": "Solicitud USSD",
+        "result_label": "Resultado USSD",
+        "request_tips": "USSD es una tecnología para comunicarse con la red del operador.",
+        "carrier_support_tips": "Las solicitudes y respuestas USSD compatibles dependen de su operador.",
+        "end_session_btn": "Finalizar sesión",
+        "no_response_tips": "Sin respuesta",
+        "invalid_request_tips": "Solo se admiten números, * y #.",
+        "send_failed_tips": "No se pudo enviar la solicitud USSD"
+    },
+    "passthrough": {
+        "status_title": "Estado del paso de IP",
+        "active_label": "Activo",
+        "inactive_label": "Inactivo",
+        "source_wan_label": "WAN de origen",
+        "lan_port_label": "Puerto LAN",
+        "target_mac_label": "Dirección MAC de destino"
+    }
 }

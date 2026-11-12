@@ -95,7 +95,14 @@
         "wifi_scan_error_title": "Skanowanie Wi-Fi nie powiodło się!",
         "wifi_scan_try_later_tips": "Spróbuj ponownie później.",
         "node_settings_title": "Ustawienia węzła",
-        "preparing_services_tips": "Przygotowywanie usług Mesh. Proszę czekać..."
+        "preparing_services_tips": "Przygotowywanie usług Mesh. Proszę czekać...",
+        "do_not_press_mesh_button_tips": "NIE naciskaj przycisku {mesh}.",
+        "wifi_scan_failed_router_retry_tips": "W przypadku innych routerów upewnij się, że funkcja Mesh jest włączona i ustawiona na tryb węzła Mesh.",
+        "wifi_scan_failed_velica_retry_tips": "W przypadku węzłów Velica zresetuj je i spróbuj ponownie.",
+        "optimize_btn": "Optymalizuj",
+        "optimize_topology_interrupt_tips": "Optymalizacja może na krótko przerwać działanie Wi-Fi i rozłączyć podłączone urządzenia.",
+        "optimize_topology_idle_tips": "Zalecamy kontynuowanie, gdy sieć jest bezczynna.",
+        "optimize_topology_btn": "Optymalizuj topologię sieci Mesh"
     },
     "menu_mesh": "Mesh"
 }

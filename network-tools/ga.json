@@ -2,7 +2,7 @@
     "network_tools": {
         "page_title": "Uirlisí Líonra",
         "invalid_target_tips": "Cuir isteach seoladh IP nó ainm fearainn bailí",
-        "traceroute_label": "Traceroute",
+        "traceroute_label": "Rianú Bealaigh",
         "dns_label": "Réiteach DNS",
         "capture_label": "Gabháil Paicéad",
         "capture_device_label": "Comhéadan Gabhála",
@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Á Thástáil",
         "traceroute_reachable_label": "Inrochtana",
         "traceroute_unreachable_label": "Do-inrochtana",
-        "observed_hops_label": "Léimeanna Breathnaithe",
+        "observed_hops_label": "Léimeanna Rianaithe",
         "ip_protocol_label": "Prótacal IP",
         "ping_device_label": "Foinse",
         "ping_count_label": "Líon na bPaicéad",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Foinse",
         "traceroute_probes_label": "Tástálacha in aghaidh an Léim",
         "traceroute_timeout_label": "Am Feithimh in aghaidh an Léim",
-        "traceroute_numeric_label": "Uimhriúil Amháin",
+        "traceroute_numeric_label": "Scipeáil Taifeach DNS",
         "raw_response_label": "Freagra amh",
         "tool_idle_tips": "{tool} Díomhaoin...",
-        "capture_low_memory_tips": "Cuimhne ar fáil íseal, ní féidir gabháil paicéad a thosú.",
         "scan_btn": "Scanadh",
         "wifi_scan_again_btn": "Scanadh arís",
         "wifi_stop_scan_btn": "Stop an scanadh",
@@ -65,6 +64,16 @@
         "start_btn": "Rith",
         "download_btn": "Íoslódáil",
         "target_label": "Sprioc",
-        "completed_label": "Críochnaithe"
+        "completed_label": "Críochnaithe",
+        "capture_low_memory_msg": "Níl dóthain cuimhne ar fáil, ní féidir gabháil paicéad a thosú.",
+        "tool_busy_msg": "Tá an uirlis gnóthach, bain triail eile as ar ball.",
+        "tool_not_running_msg": "Níl an uirlis ag rith, níl aon rud le cealú.",
+        "capture_invalid_filter_msg": "Coinníollacha scagaire neamhbhailí, ní féidir gabháil paicéad a thosú.",
+        "capture_mac_unsupported_msg": "Ní thacaíonn an comhéadan reatha le scagadh MAC.",
+        "capture_count_exceeded_msg": "Tá líon na bpaicéad rómhór, ní féidir gabháil paicéad a thosú.",
+        "dns_records_count_label": "{count} taifead",
+        "wifi_count_label": "Líon",
+        "wifi_name_label": "Ainm Wi-Fi",
+        "wifi_channel_tips": "Taispeántar cainéil mar “Príomhchainéal (cainéal láir)”."
     }
 }

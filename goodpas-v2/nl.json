@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "De instellingen zijn opgeslagen, maar de tunnelservice kon niet opnieuw worden gestart. Probeer het opnieuw om ze toe te passen.",
     "wifi_sync_unavailable_msg": "De Wi-Fi-synchronisatieservice is niet beschikbaar. Probeer het later opnieuw.",
     "wifi_sync_stopped_msg": "De Wi-Fi-synchronisatieservice wordt gestopt. Probeer het later opnieuw.",
-    "wifi_sync_request_failed_msg": "Kan de Wi-Fi-synchronisatiestatus niet ophalen. Probeer het opnieuw."
+    "wifi_sync_request_failed_msg": "Kan de Wi-Fi-synchronisatiestatus niet ophalen. Probeer het opnieuw.",
+    "operation_not_allowed_msg": "De huidige status staat deze bewerking niet toe.",
+    "config_restoring_msg": "De configuratie wordt hersteld na een upgrade. Probeer het later opnieuw.",
+    "connection_not_ready_msg": "Er wordt niet voldaan aan de verbindingsvereisten. Controleer het hoofdknooppunt en de netwerkstatus.",
+    "speed_target_unavailable_msg": "Het doel voor de verbindingssnelheidstest is niet beschikbaar. Probeer het later opnieuw.",
+    "wifi_preview_invalid_msg": "Het Wi-Fi-voorbeeld ontbreekt of is niet meer geldig. Haal de instellingen opnieuw op voordat u synchroniseert.",
+    "access_plan_expired_tips": "Verbinding mislukt. Het netwerkabonnement is verlopen.",
+    "access_code_limit_tips": "Verbinding mislukt. Het maximale aantal verbonden routers voor dit netwerk is bereikt.",
+    "inp_access_code_wait_tips": "Te veel pogingen. Probeer het over {time} opnieuw."
   }
 }

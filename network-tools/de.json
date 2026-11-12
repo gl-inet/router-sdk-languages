@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Prüfung läuft",
         "traceroute_reachable_label": "Erreichbar",
         "traceroute_unreachable_label": "Nicht erreichbar",
-        "observed_hops_label": "Beobachtete Hops",
+        "observed_hops_label": "Verfolgte Hops",
         "ip_protocol_label": "IP-Protokoll",
         "ping_device_label": "Quelle",
         "ping_count_label": "Paketanzahl",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Quelle",
         "traceroute_probes_label": "Prüfungen pro Hop",
         "traceroute_timeout_label": "Zeitüberschreitung pro Hop",
-        "traceroute_numeric_label": "Nur numerisch",
+        "traceroute_numeric_label": "DNS-Auflösung überspringen",
         "raw_response_label": "Rohe Antwort",
         "tool_idle_tips": "{tool} im Leerlauf...",
-        "capture_low_memory_tips": "Zu wenig verfügbarer Speicher, Paketaufzeichnung kann nicht gestartet werden.",
         "scan_btn": "Scannen",
         "wifi_scan_again_btn": "Erneut scannen",
         "wifi_stop_scan_btn": "Scan stoppen",
@@ -65,6 +64,16 @@
         "start_btn": "Ausführen",
         "download_btn": "Herunterladen",
         "target_label": "Ziel",
-        "completed_label": "Abgeschlossen"
+        "completed_label": "Abgeschlossen",
+        "capture_low_memory_msg": "Zu wenig freier Arbeitsspeicher. Die Paketerfassung kann nicht gestartet werden.",
+        "tool_busy_msg": "Das Tool ist ausgelastet. Versuchen Sie es später erneut.",
+        "tool_not_running_msg": "Das Tool wird nicht ausgeführt. Es gibt nichts abzubrechen.",
+        "capture_mac_unsupported_msg": "Die aktuelle Schnittstelle unterstützt keine MAC-Filterung.",
+        "capture_invalid_filter_msg": "Ungültige Filterbedingungen. Die Paketerfassung kann nicht gestartet werden.",
+        "capture_count_exceeded_msg": "Die Paketanzahl ist zu hoch. Die Paketerfassung kann nicht gestartet werden.",
+        "dns_records_count_label": "{count} Einträge",
+        "wifi_count_label": "Anzahl",
+        "wifi_name_label": "WLAN-Name",
+        "wifi_channel_tips": "Kanäle werden als „Primärkanal (Mittenkanal)“ angezeigt."
     }
 }

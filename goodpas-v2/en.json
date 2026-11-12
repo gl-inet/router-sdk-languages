@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "Settings were saved, but the tunnel service failed to restart. Please try again to apply them.",
     "wifi_sync_unavailable_msg": "The Wi-Fi sync service is unavailable. Please try again later.",
     "wifi_sync_stopped_msg": "The Wi-Fi sync service is stopping. Please try again later.",
-    "wifi_sync_request_failed_msg": "Unable to retrieve the Wi-Fi sync status. Please try again."
+    "wifi_sync_request_failed_msg": "Unable to retrieve the Wi-Fi sync status. Please try again.",
+    "operation_not_allowed_msg": "The current state does not allow this operation.",
+    "config_restoring_msg": "Configuration is being restored after an upgrade. Please try again later.",
+    "connection_not_ready_msg": "Connection requirements are not met. Please check the Main Node and network status.",
+    "speed_target_unavailable_msg": "The link speed test target is unavailable. Please try again later.",
+    "wifi_preview_invalid_msg": "The Wi-Fi preview is missing or no longer valid. Retrieve the settings again before syncing.",
+    "access_plan_expired_tips": "Connection failed. The network plan has expired.",
+    "access_code_limit_tips": "Connection failed. Connected routers have reached network's limit.",
+    "inp_access_code_wait_tips": "Too many attempts. Please try again in {time}."
   }
 }

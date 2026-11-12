@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Проверка",
         "traceroute_reachable_label": "Доступен",
         "traceroute_unreachable_label": "Недоступен",
-        "observed_hops_label": "Обнаруженные переходы",
+        "observed_hops_label": "Отслеженные переходы",
         "ip_protocol_label": "IP-протокол",
         "ping_device_label": "Источник",
         "ping_count_label": "Количество пакетов",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Источник",
         "traceroute_probes_label": "Проверок на переход",
         "traceroute_timeout_label": "Тайм-аут на переход",
-        "traceroute_numeric_label": "Только числа",
+        "traceroute_numeric_label": "Пропустить разрешение DNS",
         "raw_response_label": "Необработанный ответ",
         "tool_idle_tips": "{tool} бездействует...",
-        "capture_low_memory_tips": "Недостаточно доступной памяти, невозможно начать захват пакетов.",
         "scan_btn": "Сканировать",
         "wifi_scan_again_btn": "Сканировать снова",
         "wifi_stop_scan_btn": "Остановить сканирование",
@@ -65,6 +64,16 @@
         "start_btn": "Запустить",
         "download_btn": "Скачать",
         "target_label": "Цель",
-        "completed_label": "Завершено"
+        "completed_label": "Завершено",
+        "capture_low_memory_msg": "Недостаточно свободной памяти для запуска захвата пакетов.",
+        "tool_not_running_msg": "Инструмент не запущен, отменять нечего.",
+        "capture_invalid_filter_msg": "Недопустимые условия фильтрации, невозможно запустить захват пакетов.",
+        "capture_count_exceeded_msg": "Слишком большое количество пакетов, невозможно запустить захват пакетов.",
+        "tool_busy_msg": "Инструмент занят, повторите попытку позже.",
+        "capture_mac_unsupported_msg": "Текущий интерфейс не поддерживает фильтрацию по MAC-адресам.",
+        "dns_records_count_label": "{count} записей",
+        "wifi_name_label": "Имя беспроводной сети",
+        "wifi_count_label": "Количество",
+        "wifi_channel_tips": "Каналы отображаются в формате «Основной канал (центральный канал)»."
     }
 }

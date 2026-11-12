@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Vizsgálat",
         "traceroute_reachable_label": "Elérhető",
         "traceroute_unreachable_label": "Nem elérhető",
-        "observed_hops_label": "Megfigyelt ugrások",
+        "observed_hops_label": "Nyomon követett ugrások",
         "ip_protocol_label": "IP-protokoll",
         "ping_device_label": "Forrás",
         "ping_count_label": "Csomagok száma",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Forrás",
         "traceroute_probes_label": "Vizsgálatok ugrásonként",
         "traceroute_timeout_label": "Ugrásonkénti időtúllépés",
-        "traceroute_numeric_label": "Csak numerikus",
+        "traceroute_numeric_label": "DNS-feloldás kihagyása",
         "raw_response_label": "Nyers válasz",
         "tool_idle_tips": "{tool} tétlen...",
-        "capture_low_memory_tips": "Kevés a rendelkezésre álló memória, a csomagrögzítés nem indítható el.",
         "scan_btn": "Szkennelés",
         "wifi_scan_again_btn": "Újraszkennelés",
         "wifi_stop_scan_btn": "Szkennelés leállítása",
@@ -65,6 +64,16 @@
         "start_btn": "Futtatás",
         "download_btn": "Letöltés",
         "target_label": "Cél",
-        "completed_label": "Befejezve"
+        "completed_label": "Befejezve",
+        "capture_low_memory_msg": "Kevés a rendelkezésre álló memória, a csomagrögzítés nem indítható el.",
+        "tool_not_running_msg": "Az eszköz nem fut, nincs mit megszakítani.",
+        "capture_mac_unsupported_msg": "A jelenlegi interfész nem támogatja a MAC-szűrést.",
+        "capture_invalid_filter_msg": "Érvénytelen szűrési feltételek, a csomagrögzítés nem indítható el.",
+        "capture_count_exceeded_msg": "Túl nagy a csomagszám, a csomagrögzítés nem indítható el.",
+        "tool_busy_msg": "Az eszköz foglalt, próbálja újra később.",
+        "dns_records_count_label": "{count} rekord",
+        "wifi_count_label": "Darabszám",
+        "wifi_name_label": "Wi-Fi neve",
+        "wifi_channel_tips": "A csatornák „Elsődleges csatorna (középcsatorna)” formában jelennek meg."
     }
 }

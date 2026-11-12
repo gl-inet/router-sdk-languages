@@ -206,7 +206,8 @@
         "forward_email_subject_label": "Wątek",
         "receive": "Otrzymać",
         "received": "Odebrano",
-        "single_standby_cannot_forwarded_tips": "SMS nie może zostać przekazany na numer lokalny."
+        "single_standby_cannot_forwarded_tips": "SMS nie może zostać przekazany na numer lokalny.",
+        "forward_dual_tips": "Aby zapobiec zapętleniu, przekazywanie SMS-ów nie będzie dozwolone, jeśli zostanie tu wprowadzony numer karty SIM1 lub SIM2. Ponadto, jeśli modem nie odczyta numeru karty SIM, SMS-y nie będą przekazywane."
     },
     "modemmanage": {
         "success_copy": "Kopiowanie powiodło się",
@@ -766,5 +767,23 @@
         "add_rule_btn": "Dodaj Regułę",
         "edit_acl_dialog_title": "Modyfikuj regułę ACL"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "result_label": "Wynik USSD",
+        "request_tips": "USSD to technologia komunikacji z siecią operatora.",
+        "carrier_support_tips": "Obsługiwane żądania i odpowiedzi USSD zależą od operatora.",
+        "no_response_tips": "Brak odpowiedzi",
+        "invalid_request_tips": "Obsługiwane są tylko cyfry oraz znaki * i #.",
+        "request_label": "Żądanie USSD",
+        "end_session_btn": "Zakończ sesję",
+        "send_failed_tips": "Nie udało się wysłać żądania USSD"
+    },
+    "passthrough": {
+        "active_label": "Aktywne",
+        "inactive_label": "Nieaktywne",
+        "source_wan_label": "Źródłowy interfejs WAN",
+        "lan_port_label": "Port LAN",
+        "target_mac_label": "Docelowy adres MAC",
+        "status_title": "Stan przekazywania adresu IP"
+    }
 }

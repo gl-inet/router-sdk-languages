@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "Le impostazioni sono state salvate, ma il riavvio del servizio tunnel non è riuscito. Riprova per applicarle.",
     "wifi_sync_unavailable_msg": "Il servizio di sincronizzazione Wi-Fi non è disponibile. Riprova più tardi.",
     "wifi_sync_stopped_msg": "Il servizio di sincronizzazione Wi-Fi è in fase di arresto. Riprova più tardi.",
-    "wifi_sync_request_failed_msg": "Impossibile recuperare lo stato della sincronizzazione Wi-Fi. Riprova."
+    "wifi_sync_request_failed_msg": "Impossibile recuperare lo stato della sincronizzazione Wi-Fi. Riprova.",
+    "operation_not_allowed_msg": "Lo stato attuale non consente questa operazione.",
+    "config_restoring_msg": "È in corso il ripristino della configurazione dopo un aggiornamento. Riprova più tardi.",
+    "connection_not_ready_msg": "I requisiti di connessione non sono soddisfatti. Controlla il nodo principale e lo stato della rete.",
+    "speed_target_unavailable_msg": "La destinazione del test della velocità del collegamento non è disponibile. Riprova più tardi.",
+    "wifi_preview_invalid_msg": "L’anteprima Wi-Fi è mancante o non è più valida. Recupera nuovamente le impostazioni prima di sincronizzarle.",
+    "access_plan_expired_tips": "Connessione non riuscita. Il piano di rete è scaduto.",
+    "access_code_limit_tips": "Connessione non riuscita. È stato raggiunto il limite di router connessi alla rete.",
+    "inp_access_code_wait_tips": "Troppi tentativi. Riprova tra {time}."
   }
 }

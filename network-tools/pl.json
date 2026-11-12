@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Sondowanie",
         "traceroute_reachable_label": "Osiągalny",
         "traceroute_unreachable_label": "Nieosiągalny",
-        "observed_hops_label": "Zaobserwowane przeskoki",
+        "observed_hops_label": "Śledzone przeskoki",
         "ip_protocol_label": "Protokół IP",
         "ping_device_label": "Źródło",
         "ping_count_label": "Liczba pakietów",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Źródło",
         "traceroute_probes_label": "Sondy na przeskok",
         "traceroute_timeout_label": "Limit czasu na przeskok",
-        "traceroute_numeric_label": "Tylko liczbowo",
+        "traceroute_numeric_label": "Pomiń rozwiązywanie nazw DNS",
         "raw_response_label": "Surowa odpowiedź",
         "tool_idle_tips": "{tool} bezczynny...",
-        "capture_low_memory_tips": "Za mało dostępnej pamięci, nie można rozpocząć przechwytywania pakietów.",
         "scan_btn": "Skanuj",
         "wifi_scan_again_btn": "Skanuj ponownie",
         "wifi_stop_scan_btn": "Zatrzymaj skanowanie",
@@ -65,6 +64,16 @@
         "start_btn": "Uruchom",
         "download_btn": "Pobierz",
         "target_label": "Cel",
-        "completed_label": "Zakończone"
+        "completed_label": "Zakończone",
+        "capture_low_memory_msg": "Za mało dostępnej pamięci, nie można rozpocząć przechwytywania pakietów.",
+        "tool_busy_msg": "Narzędzie jest zajęte, proszę spróbować ponownie później.",
+        "tool_not_running_msg": "Narzędzie nie jest uruchomione, nie ma czego anulować.",
+        "capture_invalid_filter_msg": "Nieprawidłowe warunki filtrowania, nie można rozpocząć przechwytywania pakietów.",
+        "capture_count_exceeded_msg": "Zbyt duża liczba pakietów, nie można rozpocząć przechwytywania pakietów.",
+        "capture_mac_unsupported_msg": "Bieżący interfejs nie obsługuje filtrowania adresów MAC.",
+        "dns_records_count_label": "{count} rekordów",
+        "wifi_count_label": "Liczba",
+        "wifi_name_label": "Nazwa sieci Wi-Fi",
+        "wifi_channel_tips": "Kanały są wyświetlane w formacie „Kanał podstawowy (kanał środkowy)”."
     }
 }

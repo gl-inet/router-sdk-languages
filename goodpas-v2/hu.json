@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "A beállítások mentése sikerült, de az alagútszolgáltatás újraindítása nem sikerült. Az alkalmazásukhoz próbálja újra.",
     "wifi_sync_unavailable_msg": "A Wi-Fi-szinkronizálási szolgáltatás nem érhető el. Próbálja újra később.",
     "wifi_sync_stopped_msg": "A Wi-Fi-szinkronizálási szolgáltatás leállítása folyamatban van. Próbálja újra később.",
-    "wifi_sync_request_failed_msg": "Nem sikerült lekérni a Wi-Fi-szinkronizálás állapotát. Próbálja újra."
+    "wifi_sync_request_failed_msg": "Nem sikerült lekérni a Wi-Fi-szinkronizálás állapotát. Próbálja újra.",
+    "operation_not_allowed_msg": "A jelenlegi állapot nem teszi lehetővé ezt a műveletet.",
+    "config_restoring_msg": "A konfiguráció visszaállítása folyamatban van a frissítés után. Próbálja újra később.",
+    "connection_not_ready_msg": "A csatlakozás feltételei nem teljesülnek. Ellenőrizze a fő csomópontot és a hálózat állapotát.",
+    "speed_target_unavailable_msg": "A kapcsolati sebességteszt célpontja nem érhető el. Próbálja újra később.",
+    "wifi_preview_invalid_msg": "A Wi-Fi előnézete hiányzik vagy már nem érvényes. A szinkronizálás előtt kérje le újra a beállításokat.",
+    "access_plan_expired_tips": "A csatlakozás sikertelen. A hálózati előfizetés lejárt.",
+    "access_code_limit_tips": "A csatlakozás sikertelen. A csatlakoztatott routerek száma elérte a hálózati korlátot.",
+    "inp_access_code_wait_tips": "Túl sok próbálkozás. Próbálja újra {time} múlva."
   }
 }

@@ -33,7 +33,7 @@
         "traceroute_probing_label": "探测中",
         "traceroute_reachable_label": "可达",
         "traceroute_unreachable_label": "不可达",
-        "observed_hops_label": "已观测跳数",
+        "observed_hops_label": "已追踪跳数",
         "ip_protocol_label": "IP 协议",
         "ping_device_label": "来源",
         "ping_count_label": "发包数量",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "来源",
         "traceroute_probes_label": "每跳探测次数",
         "traceroute_timeout_label": "每跳超时时间",
-        "traceroute_numeric_label": "仅显示数字",
+        "traceroute_numeric_label": "跳过DNS解析",
         "raw_response_label": "原始响应",
         "tool_idle_tips": "{tool} 空闲中...",
-        "capture_low_memory_tips": "可用内存不足，无法开始抓包。",
         "scan_btn": "扫描",
         "wifi_scan_again_btn": "重新扫描",
         "wifi_stop_scan_btn": "停止扫描",
@@ -65,6 +64,16 @@
         "start_btn": "运行",
         "download_btn": "下载",
         "target_label": "目标",
-        "completed_label": "已完成"
+        "completed_label": "已完成",
+        "capture_low_memory_msg": "可用内存不足，无法开始抓包。",
+        "tool_not_running_msg": "当前没有正在运行的工具，无需取消。",
+        "capture_mac_unsupported_msg": "当前接口不支持 MAC 过滤。",
+        "capture_invalid_filter_msg": "抓包协议错误，无法开始抓包。",
+        "capture_count_exceeded_msg": "抓包数量过大，无法开始抓包。",
+        "tool_busy_msg": "当前工具正在运行。",
+        "dns_records_count_label": "{count} 条记录",
+        "wifi_count_label": "数量",
+        "wifi_name_label": "Wi-Fi 名称",
+        "wifi_channel_tips": "信道显示格式为“主信道（中心信道）”。"
     }
 }

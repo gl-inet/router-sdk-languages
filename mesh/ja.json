@@ -95,7 +95,14 @@
         "wifi_scan_error_title": "Wi-Fi スキャンに失敗しました！",
         "wifi_scan_try_later_tips": "後でもう一度お試しください。",
         "node_settings_title": "ノード設定",
-        "preparing_services_tips": "Meshサービスを準備しています。しばらくお待ちください..."
+        "preparing_services_tips": "Meshサービスを準備しています。しばらくお待ちください...",
+        "do_not_press_mesh_button_tips": "{mesh}ボタンを押さないでください。",
+        "wifi_scan_failed_velica_retry_tips": "Velicaノードの場合は、リセットしてから再試行してください。",
+        "wifi_scan_failed_router_retry_tips": "その他のルーターの場合は、メッシュが有効で、メッシュノードモードに設定されていることを確認してください。",
+        "optimize_btn": "最適化",
+        "optimize_topology_btn": "メッシュトポロジーを最適化",
+        "optimize_topology_interrupt_tips": "最適化により、Wi-Fi が一時的に中断され、接続中のデバイスが切断される場合があります。",
+        "optimize_topology_idle_tips": "ネットワークがアイドル状態のときに実行することをお勧めします。"
     },
     "menu_mesh": "Mesh"
 }

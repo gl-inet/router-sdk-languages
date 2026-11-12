@@ -33,7 +33,7 @@
         "traceroute_probing_label": "탐색 중",
         "traceroute_reachable_label": "도달 가능",
         "traceroute_unreachable_label": "도달 불가",
-        "observed_hops_label": "관찰된 홉",
+        "observed_hops_label": "추적된 홉 수",
         "ip_protocol_label": "IP 프로토콜",
         "ping_device_label": "출처",
         "ping_count_label": "패킷 수",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "출처",
         "traceroute_probes_label": "홉당 탐색 횟수",
         "traceroute_timeout_label": "홉당 시간 초과",
-        "traceroute_numeric_label": "숫자만 표시",
+        "traceroute_numeric_label": "DNS 조회 건너뛰기",
         "raw_response_label": "원시 응답",
         "tool_idle_tips": "{tool} 유휴 상태...",
-        "capture_low_memory_tips": "사용 가능한 메모리가 부족하여 패킷 캡처를 시작할 수 없습니다.",
         "scan_btn": "스캔",
         "wifi_scan_again_btn": "다시 스캔",
         "wifi_stop_scan_btn": "스캔 중지",
@@ -65,6 +64,16 @@
         "start_btn": "실행",
         "download_btn": "다운로드",
         "target_label": "대상",
-        "completed_label": "완료됨"
+        "completed_label": "완료됨",
+        "capture_low_memory_msg": "사용 가능한 메모리가 부족하여 패킷 캡처를 시작할 수 없습니다.",
+        "tool_not_running_msg": "도구가 실행 중이 아니므로 취소할 작업이 없습니다.",
+        "capture_invalid_filter_msg": "필터 조건이 유효하지 않아 패킷 캡처를 시작할 수 없습니다.",
+        "capture_count_exceeded_msg": "패킷 수가 너무 많아 패킷 캡처를 시작할 수 없습니다.",
+        "tool_busy_msg": "도구가 사용 중입니다. 나중에 다시 시도하세요.",
+        "capture_mac_unsupported_msg": "현재 인터페이스는 MAC 필터링을 지원하지 않습니다.",
+        "dns_records_count_label": "{count}개 기록",
+        "wifi_count_label": "개수",
+        "wifi_name_label": "Wi-Fi 이름",
+        "wifi_channel_tips": "채널은 “기본 채널(중심 채널)” 형식으로 표시됩니다."
     }
 }

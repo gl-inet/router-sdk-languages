@@ -95,7 +95,14 @@
         "wifi_scan_error_title": "Wi-Fi 스캔에 실패했습니다!",
         "wifi_scan_try_later_tips": "나중에 다시 시도하세요.",
         "node_settings_title": "노드 설정",
-        "preparing_services_tips": "Mesh 서비스를 준비 중입니다. 잠시 기다려 주세요..."
+        "preparing_services_tips": "Mesh 서비스를 준비 중입니다. 잠시 기다려 주세요...",
+        "do_not_press_mesh_button_tips": "{mesh} 버튼을 누르지 마세요.",
+        "wifi_scan_failed_router_retry_tips": "다른 라우터의 경우 Mesh가 활성화되어 있고 Mesh 노드 모드로 설정되어 있는지 확인하세요.",
+        "wifi_scan_failed_velica_retry_tips": "Velica 노드의 경우 초기화한 후 다시 시도하세요.",
+        "optimize_topology_btn": "메시 토폴로지 최적화",
+        "optimize_btn": "최적화",
+        "optimize_topology_interrupt_tips": "최적화 중 Wi-Fi가 일시적으로 중단되고 연결된 기기의 연결이 끊어질 수 있습니다.",
+        "optimize_topology_idle_tips": "네트워크가 유휴 상태일 때 진행하는 것이 좋습니다."
     },
     "menu_mesh": "Mesh"
 }

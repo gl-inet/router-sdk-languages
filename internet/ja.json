@@ -447,7 +447,8 @@
         "forward_email_title": "メール経由で転送",
         "forward_sms_title": "SMS経由で転送",
         "received": "受信しました",
-        "single_standby_cannot_forwarded_tips": "SMSはローカル番号に転送できません。"
+        "single_standby_cannot_forwarded_tips": "SMSはローカル番号に転送できません。",
+        "forward_dual_tips": "ループを防ぐため、ここにSIM1またはSIM2の電話番号を入力した場合、SMS転送は許可されません。また、モデムがSIMカードの電話番号を読み取れない場合、SMS転送は実行されません。"
     },
     "menu_internet": "インターネット",
     "guide": {
@@ -766,5 +767,23 @@
         "acl_desc": "{acl} は、プロトコル、宛先 IP アドレス、送信元 IP アドレス、ポート番号などのルールに基づいてネットワークトラフィックを制御できます。有効な 2 つの {acl} ルール間に競合がある場合、デバイスは優先度の高いルールを優先します。",
         "edit_acl_dialog_title": "ACLルールを変更"
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_label": "USSDリクエスト",
+        "result_label": "USSD結果",
+        "request_tips": "USSDは通信事業者のネットワークと通信するための技術です。",
+        "carrier_support_tips": "サポートされるUSSDリクエストと応答は、通信事業者によって異なります。",
+        "end_session_btn": "セッションを終了",
+        "no_response_tips": "応答なし",
+        "invalid_request_tips": "数字、*、#のみ使用できます。",
+        "send_failed_tips": "USSDリクエストの送信に失敗しました"
+    },
+    "passthrough": {
+        "status_title": "IPパススルーの状態",
+        "active_label": "アクティブ",
+        "inactive_label": "非アクティブ",
+        "source_wan_label": "送信元WAN",
+        "lan_port_label": "LANポート",
+        "target_mac_label": "対象のMACアドレス"
+    }
 }

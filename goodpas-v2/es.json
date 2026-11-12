@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "Se han guardado los ajustes, pero no se ha podido reiniciar el servicio del túnel. Inténtelo de nuevo para aplicarlos.",
     "wifi_sync_unavailable_msg": "El servicio de sincronización Wi-Fi no está disponible. Inténtelo de nuevo más tarde.",
     "wifi_sync_stopped_msg": "El servicio de sincronización Wi-Fi se está deteniendo. Inténtelo de nuevo más tarde.",
-    "wifi_sync_request_failed_msg": "No se puede obtener el estado de sincronización Wi-Fi. Inténtelo de nuevo."
+    "wifi_sync_request_failed_msg": "No se puede obtener el estado de sincronización Wi-Fi. Inténtelo de nuevo.",
+    "operation_not_allowed_msg": "El estado actual no permite esta operación.",
+    "config_restoring_msg": "Se está restaurando la configuración tras una actualización. Inténtelo de nuevo más tarde.",
+    "connection_not_ready_msg": "No se cumplen los requisitos de conexión. Compruebe el nodo principal y el estado de la red.",
+    "speed_target_unavailable_msg": "El destino de la prueba de velocidad del enlace no está disponible. Inténtelo de nuevo más tarde.",
+    "wifi_preview_invalid_msg": "La vista previa de Wi-Fi no está disponible o ya no es válida. Obtenga los ajustes de nuevo antes de sincronizarlos.",
+    "access_plan_expired_tips": "Error de conexión. El plan de red ha caducado.",
+    "access_code_limit_tips": "Error de conexión. Se ha alcanzado el límite de routers conectados a la red.",
+    "inp_access_code_wait_tips": "Demasiados intentos. Inténtelo de nuevo en {time}."
   }
 }

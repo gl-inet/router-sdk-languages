@@ -33,7 +33,7 @@
         "traceroute_probing_label": "Sondeando",
         "traceroute_reachable_label": "Accesible",
         "traceroute_unreachable_label": "Inaccesible",
-        "observed_hops_label": "Saltos observados",
+        "observed_hops_label": "Saltos rastreados",
         "ip_protocol_label": "Protocolo IP",
         "ping_device_label": "Origen",
         "ping_count_label": "Número de paquetes",
@@ -46,10 +46,9 @@
         "traceroute_device_label": "Origen",
         "traceroute_probes_label": "Sondeos por salto",
         "traceroute_timeout_label": "Tiempo de espera por salto",
-        "traceroute_numeric_label": "Solo numérico",
+        "traceroute_numeric_label": "Omitir resolución DNS",
         "raw_response_label": "Respuesta sin procesar",
         "tool_idle_tips": "{tool} inactivo...",
-        "capture_low_memory_tips": "Memoria disponible insuficiente, no se puede iniciar la captura de paquetes.",
         "scan_btn": "Escanear",
         "wifi_scan_again_btn": "Escanear de nuevo",
         "wifi_stop_scan_btn": "Detener escaneo",
@@ -65,6 +64,16 @@
         "start_btn": "Ejecutar",
         "download_btn": "Descargar",
         "target_label": "Destino",
-        "completed_label": "Completado"
+        "completed_label": "Completado",
+        "capture_low_memory_msg": "Memoria disponible insuficiente. No se puede iniciar la captura de paquetes.",
+        "tool_busy_msg": "La herramienta está ocupada. Inténtelo de nuevo más tarde.",
+        "tool_not_running_msg": "La herramienta no está en ejecución. No hay nada que cancelar.",
+        "capture_invalid_filter_msg": "Condiciones de filtrado no válidas. No se puede iniciar la captura de paquetes.",
+        "capture_count_exceeded_msg": "La cantidad de paquetes es demasiado elevada. No se puede iniciar la captura de paquetes.",
+        "capture_mac_unsupported_msg": "La interfaz actual no admite el filtrado MAC.",
+        "dns_records_count_label": "{count} registros",
+        "wifi_count_label": "Cantidad",
+        "wifi_name_label": "Nombre de la red Wi-Fi",
+        "wifi_channel_tips": "Los canales se muestran como «Canal primario (canal central)»."
     }
 }

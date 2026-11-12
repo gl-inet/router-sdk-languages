@@ -173,6 +173,14 @@
     "mptun_restart_failed_msg": "Ustawienia zostały zapisane, ale ponowne uruchomienie usługi tunelu nie powiodło się. Spróbuj ponownie, aby je zastosować.",
     "wifi_sync_unavailable_msg": "Usługa synchronizacji Wi-Fi jest niedostępna. Spróbuj ponownie później.",
     "wifi_sync_stopped_msg": "Usługa synchronizacji Wi-Fi jest zatrzymywana. Spróbuj ponownie później.",
-    "wifi_sync_request_failed_msg": "Nie można pobrać stanu synchronizacji Wi-Fi. Spróbuj ponownie."
+    "wifi_sync_request_failed_msg": "Nie można pobrać stanu synchronizacji Wi-Fi. Spróbuj ponownie.",
+    "operation_not_allowed_msg": "Bieżący stan nie pozwala na wykonanie tej operacji.",
+    "config_restoring_msg": "Trwa przywracanie konfiguracji po aktualizacji. Spróbuj ponownie później.",
+    "connection_not_ready_msg": "Wymagania dotyczące połączenia nie są spełnione. Sprawdź węzeł główny i stan sieci.",
+    "speed_target_unavailable_msg": "Cel testu szybkości łącza jest niedostępny. Spróbuj ponownie później.",
+    "wifi_preview_invalid_msg": "Brakuje podglądu Wi-Fi lub jest on już nieaktualny. Pobierz ustawienia ponownie przed synchronizacją.",
+    "access_plan_expired_tips": "Połączenie nie powiodło się. Plan sieciowy wygasł.",
+    "access_code_limit_tips": "Połączenie nie powiodło się. Osiągnięto limit routerów połączonych z siecią.",
+    "inp_access_code_wait_tips": "Zbyt wiele prób. Spróbuj ponownie za {time}."
   }
 }
