@@ -577,7 +577,7 @@
         "cable_manual_title": "Daten konnten nicht automatisch abgerufen werden",
         "cable_static_title": "Statische IP-Konfiguration",
         "cable_static_tips": "Weitere erweiterte Optionen können über die Hauptoberfläche bearbeitet werden.",
-        "cable_manual_tips": "Sie können den Vorgang manuell fortsetzen oder den Modem neu starten.",
+        "cable_manual_tips": "Sie können den Vorgang manuell fortsetzen oder das Modem neu starten.",
         "cable_detect_title": "WAN-Schnittstellenerkennung",
         "cable_config_title": "Ethernet-Konfiguration",
         "modem_fail_apn_tips": "Wenn Sie den APN Ihrer SIM-Karte nicht kennen, wenden Sie sich an Ihren ISP und versuchen Sie, den APN manuell {do}.",
@@ -642,7 +642,7 @@
         "lock_operation_mode_tip": "Die Funktion der Betreibersperre unterstützt drei Modi: automatisches Verbinden mit einem verfügbaren Betreibernetzwerk, manuelles Sperren auf einen bestimmten Betreiber oder automatisches Umschalten auf ein verfügbares Betreibernetzwerk, falls die manuelle Sperre fehlschlägt.",
         "scan_operator_warning_tips": "Das Scannen des Betreibers wird einige Minuten in Anspruch nehmen, und während dieser Zeit wird Ihre Netzwerkverbindung vorübergehend unterbrochen. Sind Sie sicher, dass Sie fortfahren möchten?",
         "available_operator_title": "Verfügbare Betreiber",
-        "manual_lock_operator_label": "Bedienungsanleitung",
+        "manual_lock_operator_label": "Manuelle Betreibersperre",
         "manual_select_operator_tips": "Die aktuelle Betreiberliste dient nur zur Referenz. Sollte die manuelle Auswahl fehlschlagen, beziehen Sie sich bitte auf die Liste der vom aktuellen SIM-Karte unterstützten Betreiber oder konsultieren Sie den Kundendienst des Betreibers für genaue Informationen.",
         "lock_operator_fail_msg": "Der aktuelle Betreiber ist gesperrt, aber aufgrund von Karten- oder Betreibereinschränkungen tatsächlich nicht verfügbar. Wenn Sie das Netzwerk wiederherstellen müssen, führen Sie bitte eine manuelle Entsperrungsoperation durch.",
         "lock_operator_warning_tips": "Wenn der gesperrte Betreiber nicht mit der Bandmaskierung oder den APN-Parametern in den Mobilfunkeinstellungen übereinstimmt, wird die Mobilfunkschnittstelle keine Verbindung zum Internet herstellen können.",
@@ -736,7 +736,7 @@
         "try_again_later_msg": "APN-Datenbankaktualisierung fehlgeschlagen. Bitte versuchen Sie es später erneut."
     },
     "internet": {
-        "manual_label": "Handbuch",
+        "manual_label": "Manuell",
         "manual_mac_label": "Manuelle MAC-Adresse",
         "no_wan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet. Sie können es in {view} wieder auf WAN (Wide Area Network) zurücksetzen.",
         "silkprint_used_as_lan_tips": "{silkprint} wurde als LAN (Local Area Network) verwendet.",
