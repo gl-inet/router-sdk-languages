@@ -429,7 +429,7 @@
         "scan_nearby_towers_tips": "Skanuj pobliskie stacje bazowe. Ten proces trwa około 120 sekund.",
         "scan_available_carriers_tips": "Skanuj dostępnych operatorów. Ten proces trwa około 120 sekund.",
         "band_masking_title": "Maskowanie pasma",
-        "minutes_value_label": "{count} min.",
+        "minutes_value_label": "{count}min",
         "network_type_conflicts_tips": "Bieżący typ sieci karty SIM to {networkType}, co powoduje konflikt z typem sieci funkcji {feature}.",
         "low_power_mode_only_tips": "Urządzenie jest w trybie niskiego zużycia energii.",
         "network_type_lock_tower_tips": "Jeśli zablokujesz Tower, typ sieci zostanie ustalony i nie będzie można go zmienić.",
@@ -731,7 +731,7 @@
         "enable_polling_label": "Włączanie sondowania",
         "polling_control_title": "Kontrola sondowania APN",
         "enable_polling_tips": "Jeśli urządzenie korzysta z karty SIM Verizon i ta funkcja jest włączona, urządzenie będzie ciągle sondować APN przez maksymalnie 12 minut po ponownym uruchomieniu, aż połączenie sieciowe będzie normalne. Ta funkcja jest ważna tylko dla kart SIM Verizon.",
-        "database_update_success_msg": "Baza Danych APN została pomyślnie zaktualizowana.",
+        "database_update_success_msg": "Baza APN została pomyślnie zaktualizowana.",
         "check_internet_retry_msg": "Aktualizacja Bazy Danych APN nie powiodła się. Sprawdź połączenie internetowe i spróbuj ponownie.",
         "try_again_later_msg": "Aktualizacja Bazy Danych APN nie powiodła się. Spróbuj ponownie później."
     },
