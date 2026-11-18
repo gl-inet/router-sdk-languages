@@ -330,7 +330,36 @@
         "band_6g_bandwidth_limit_160mhz_tips": "6 GHz „Wi-Fi“ palaiko iki 160 MHz duomenų siuntimo srauto pralaidumą.",
         "band_conflict_tips": "Siekiant stabilaus ryšio, kai kartotuvas yra įjungtas, 5 GHz/6 GHz „Wi-Fi“ juosta automatiškai suderinama su kartotuvu. Jei Jūsų įrenginys neprisijungia automatiškai, tada prisijunkite prie „Wi-Fi“ rankiniu būdu.",
         "saved_portal_info_title": "Išsaugota portalo informacija",
-        "voucher_code_label": "Voucher Code"
+        "voucher_code_label": "Voucher Code",
+        "camouflage_tips": "Įjungus šią parinktį, maršrutizatorius apsimeta jūsų naudojamu kliento įrenginiu.",
+        "lock_ap_title": "Prieigos taško fiksavimas",
+        "search_ssid_placeholder": "Ieškoti pagal „Wi-Fi“ pavadinimą (SSID)",
+        "no_matching_networks_tips": "Atitinkančių tinklų nerasta.",
+        "out_of_range_label": "Už veikimo diapazono ribų",
+        "settings_title": "Nustatymai",
+        "auto_connect_label": "Automatinis prisijungimas",
+        "portal_title": "Portalas",
+        "login_mode_label": "Prisijungimo veiksena",
+        "camouflage_label": "Maskavimas",
+        "portal_relay_label": "{portal} perdavimas",
+        "portal_auth_page_tips": "Prisijungta prie {ssid}. Šiam „Wi-Fi“ tinklui reikalingas autentifikavimas portale. Norėdami pasiekti internetą, atlikite autentifikavimą portalo puslapyje:",
+        "portal_relay_auth_page_tips": "Prisijungta prie {ssid}. Šiam „Wi-Fi“ tinklui reikalingas autentifikavimas portale, o portalo perdavimas yra įjungtas. Naudokite toliau pateiktą nuorodą, kad atidarytumėte portalo puslapį ir atliktumėte autentifikavimą:",
+        "portal_relay_fallback_tips": "Jei negalite atidaryti portalo puslapio, pabandykite įjungti portalo perdavimą ir naudoti toliau pateiktą nuorodą:",
+        "portal_original_fallback_tips": "Jei negalite jo atidaryti, pabandykite naudoti pradinę portalo puslapio nuorodą autentifikavimui atlikti:",
+        "portal_relay_tips": "Jei įjungta, maršrutizatorius tvarkys {portal} autentifikavimą ir užtikrins, kad visos užklausos autentifikavimo serveriui būtų siunčiamos iš paties maršrutizatoriaus. Taip lengviau pasiekti {portal} puslapį, ypač kai kliento įrenginyje įjungtos tokios funkcijos kaip „VPN“.",
+        "login_mode_tips": "Įjungus šią parinktį, maršrutizatorius automatiškai įjungs prisijungimo veikseną, kai aptiks, kad „Wi-Fi“ tinklui reikalingas autentifikavimas portale. Šioje veiksenoje kai kurių paslaugų veikimas gali būti sustabdytas, o DNS nustatymas bus pakeistas į automatinį.\nAtkreipkite dėmesį, kad dėl to viešavietės teikėjas, pavyzdžiui, viešbutyje ar prekybos centre, gali matyti informaciją apie jūsų veiklą tinkle.",
+        "enable_ap_lock_label": "Įjungti prieigos taško fiksavimą",
+        "enable_ap_lock_tips": "Įjungę šią parinktį, galite nustatyti, kad maršrutizatorius jungtųsi tik prie prieigos taško su konkrečiu BSSID arba nurodytoje dažnių juostoje.",
+        "ap_lock_mode_label": "Fiksuoti",
+        "ap_band_label": "Juosta",
+        "wifi_band_label": "„Wi-Fi“ juosta",
+        "mac_settings_title": "MAC nustatymai",
+        "ip_address_mode_label": "IPv4 – Interneto protokolo versija 4: ryšio tipas",
+        "static_ip_label": "Statinis IP – Interneto protokolas",
+        "support_channels_title_label": "Palaikomi kanalai",
+        "support_channels_range_label": "Kanalai {range}",
+        "login_mode_description_tips": "Įjungus šią parinktį, maršrutizatorius automatiškai pereis į prisijungimo veikseną, kai aptiks, kad „Wi-Fi“ tinklui reikalingas {portal} tapatumo nustatymas. Šioje veiksenoje kai kurios paslaugos gali būti sustabdytos, o DNS nustatymas bus pakeistas į automatinį.",
+        "login_mode_privacy_tips": "Atkreipkite dėmesį, kad dėl to jūsų veiklos tinkle informacija gali tapti prieinama viešavietės paslaugos teikėjui, pavyzdžiui, viešbučiuose ar prekybos centruose."
     },
     "router_visual": {
         "wlan_client": "Bevielio/Belaidžio („WLAN“) tinklo klientai",
@@ -396,7 +425,8 @@
         "forward_email_title": "Persiųsti el. paštu",
         "forward_sms_title": "Persiųsti „SMS“ žinutę",
         "received": "Gauta",
-        "single_standby_cannot_forwarded_tips": "SMS negali būti persiųsti į vietinį numerį."
+        "single_standby_cannot_forwarded_tips": "SMS negali būti persiųsti į vietinį numerį.",
+        "forward_dual_tips": "Siekiant išvengti ciklinio persiuntimo, SMS persiuntimas nebus leidžiamas, jei čia įvestas SIM1 arba SIM2 numeris. Be to, jei modemas nenuskaito jūsų SIM kortelės numerio, SMS persiuntimas nebus vykdomas."
     },
     "modemmanage": {
         "title": "Valdymas",
@@ -737,5 +767,23 @@
         "action_label": "Veiksmas",
         "name_already_exist_msg": "Pavadinimas jau yra."
     },
-    "menu_acl": "ACL"
+    "menu_acl": "ACL",
+    "ussd": {
+        "request_label": "USSD užklausa",
+        "end_session_btn": "Baigti seansą",
+        "no_response_tips": "Nėra atsakymo",
+        "invalid_request_tips": "Palaikomi tik skaitmenys, * ir #.",
+        "send_failed_tips": "Nepavyko išsiųsti USSD užklausos",
+        "result_label": "USSD rezultatas",
+        "request_tips": "USSD yra ryšio su operatoriaus tinklu technologija.",
+        "carrier_support_tips": "Palaikomos USSD užklausos ir atsakymai priklauso nuo jūsų operatoriaus."
+    },
+    "passthrough": {
+        "status_title": "IP perdavimo būsena",
+        "active_label": "Aktyvus",
+        "inactive_label": "Neaktyvus",
+        "source_wan_label": "Šaltinio WAN",
+        "lan_port_label": "Vietinio tinklo („LAN“) prievadas („Port'as“)",
+        "target_mac_label": "Taikomasis MAC adresas"
+    }
 }
