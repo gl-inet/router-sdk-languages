@@ -102,7 +102,24 @@
         "optimize_topology_btn": "메시 토폴로지 최적화",
         "optimize_btn": "최적화",
         "optimize_topology_interrupt_tips": "최적화 중 Wi-Fi가 일시적으로 중단되고 연결된 기기의 연결이 끊어질 수 있습니다.",
-        "optimize_topology_idle_tips": "네트워크가 유휴 상태일 때 진행하는 것이 좋습니다."
+        "optimize_topology_idle_tips": "네트워크가 유휴 상태일 때 진행하는 것이 좋습니다.",
+        "negotiated_rate_label": "협상된 속도",
+        "roaming_log_title": "로밍 로그",
+        "roaming_log_time_label": "시간",
+        "roaming_log_mac_label": "장치 MAC",
+        "roaming_log_event_label": "이벤트",
+        "roaming_log_details_label": "상세 정보",
+        "sensitivity_title": "로밍 민감도",
+        "sensitivity_tips": "각 대역의 RSSI 임계값을 조정하여 네트워크가 클라이언트의 로밍을 유도하는 정도를 제어합니다. 민감도가 높을수록 로밍을 더 일찍 유도하며, 실제 전환은 클라이언트와 주변 네트워크 환경에 따라 달라집니다.",
+        "low_sensitivity_label": "낮은 민감도",
+        "high_sensitivity_label": "높은 민감도",
+        "fast_roaming_title": "빠른 로밍",
+        "fast_roaming_label": "빠른 로밍 (802.11r)",
+        "all_clients_label": "모든 클라이언트",
+        "event_type_label": "이벤트 유형",
+        "all_events_label": "모든 이벤트",
+        "fast_roaming_tips": "빠른 로밍은 802.11r을 사용하여 호환 클라이언트가 메시 노드 간에 이동할 때 인증 시간을 단축하고 로밍 중 연결 끊김을 줄입니다.",
+        "fast_roaming_compatibility_tips": "일부 클라이언트는 802.11r을 지원하지 않아 연결 문제가 발생할 수 있습니다. 빠른 로밍을 활성화한 후 연결 문제가 발생하면 이 기능을 비활성화하세요."
     },
     "menu_mesh": "Mesh"
 }
