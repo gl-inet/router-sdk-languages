@@ -102,7 +102,24 @@
         "optimize_btn": "Optimalizálás",
         "optimize_topology_btn": "Mesh topológia optimalizálása",
         "optimize_topology_interrupt_tips": "Az optimalizálás rövid időre megszakíthatja a Wi-Fi-kapcsolatot, és leválaszthatja a csatlakoztatott eszközöket.",
-        "optimize_topology_idle_tips": "Javasoljuk, hogy akkor folytassa, amikor a hálózat nincs használatban."
+        "optimize_topology_idle_tips": "Javasoljuk, hogy akkor folytassa, amikor a hálózat nincs használatban.",
+        "negotiated_rate_label": "Egyeztetett sebesség",
+        "roaming_log_title": "Barangolási napló",
+        "roaming_log_time_label": "Idő",
+        "roaming_log_event_label": "Esemény",
+        "roaming_log_details_label": "Részletek",
+        "sensitivity_title": "Barangolási érzékenység",
+        "low_sensitivity_label": "Alacsony érzékenység",
+        "high_sensitivity_label": "Magas érzékenység",
+        "fast_roaming_title": "Gyors barangolás",
+        "fast_roaming_label": "Gyors barangolás (802.11r)",
+        "fast_roaming_compatibility_tips": "Előfordulhat, hogy egyes kliensek nem támogatják a 802.11r szabványt, és csatlakozási problémák lépnek fel. Ha a gyors barangolás engedélyezése után csatlakozási problémák jelentkeznek, tiltsa le ezt a funkciót.",
+        "all_clients_label": "Összes kliens",
+        "event_type_label": "Eseménytípus",
+        "all_events_label": "Összes esemény",
+        "roaming_log_mac_label": "Eszköz MAC-címe",
+        "sensitivity_tips": "Állítsa be az RSSI-küszöbértéket minden sávhoz annak szabályozására, hogy a hálózat milyen mértékben ösztönözze a klienseket barangolásra. A magasabb érzékenység korábbi barangolásra ösztönöz; a tényleges átadás a klienstől és a környező hálózati viszonyoktól függ.",
+        "fast_roaming_tips": "A gyors barangolás a 802.11r használatával lerövidíti a hitelesítést, amikor a kompatibilis kliensek Mesh-csomópontok között váltanak, így csökkenti a kapcsolat megszakadásait barangolás közben."
     },
     "menu_mesh": "Mesh"
 }
