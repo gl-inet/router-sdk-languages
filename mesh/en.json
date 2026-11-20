@@ -102,7 +102,24 @@
         "optimize_topology_btn": "Optimize Mesh Topology",
         "optimize_btn": "Optimize",
         "optimize_topology_interrupt_tips": "Optimization may briefly interrupt Wi-Fi and disconnect connected devices.",
-        "optimize_topology_idle_tips": "We recommend proceeding when the network is idle."
+        "optimize_topology_idle_tips": "We recommend proceeding when the network is idle.",
+        "negotiated_rate_label": "Negotiated Rate",
+        "roaming_log_title": "Roaming Log",
+        "roaming_log_time_label": "Time",
+        "roaming_log_mac_label": "Device MAC",
+        "roaming_log_event_label": "Event",
+        "roaming_log_details_label": "Details",
+        "sensitivity_title": "Roaming Sensitivity",
+        "sensitivity_tips": "Adjust the RSSI threshold for each band to control how proactively the network encourages clients to roam. Higher sensitivity encourages earlier roaming; the actual handoff depends on the client and surrounding network conditions.",
+        "low_sensitivity_label": "Low sensitivity",
+        "high_sensitivity_label": "High sensitivity",
+        "fast_roaming_title": "Fast Roaming",
+        "fast_roaming_tips": "Fast Roaming uses 802.11r to shorten authentication when compatible clients move between Mesh nodes, reducing connection interruptions during roaming.",
+        "fast_roaming_label": "Fast Roaming (802.11r)",
+        "fast_roaming_compatibility_tips": "Some clients may not support 802.11r and may experience connection issues. If connection issues occur after enabling Fast Roaming, disable this feature.",
+        "all_clients_label": "All Clients",
+        "event_type_label": "Event Type",
+        "all_events_label": "All Events"
     },
     "menu_mesh": "Mesh"
 }
