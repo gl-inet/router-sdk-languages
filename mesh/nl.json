@@ -102,7 +102,24 @@
         "optimize_topology_btn": "Mesh-topologie optimaliseren",
         "optimize_btn": "Optimaliseren",
         "optimize_topology_idle_tips": "We raden aan door te gaan wanneer het netwerk niet in gebruik is.",
-        "optimize_topology_interrupt_tips": "Optimalisatie kan Wi-Fi kort onderbreken en de verbinding met verbonden apparaten verbreken."
+        "optimize_topology_interrupt_tips": "Optimalisatie kan Wi-Fi kort onderbreken en de verbinding met verbonden apparaten verbreken.",
+        "negotiated_rate_label": "Onderhandelde snelheid",
+        "roaming_log_title": "Roaminglogboek",
+        "roaming_log_time_label": "Tijd",
+        "roaming_log_mac_label": "MAC-adres van apparaat",
+        "roaming_log_event_label": "Gebeurtenis",
+        "roaming_log_details_label": "Details",
+        "sensitivity_title": "Roaminggevoeligheid",
+        "low_sensitivity_label": "Lage gevoeligheid",
+        "high_sensitivity_label": "Hoge gevoeligheid",
+        "fast_roaming_title": "Snelle roaming",
+        "fast_roaming_tips": "Snelle roaming gebruikt 802.11r om de authenticatietijd te verkorten wanneer compatibele clients tussen meshknooppunten wisselen. Dit vermindert verbindingsonderbrekingen tijdens roaming.",
+        "fast_roaming_compatibility_tips": "Sommige clients ondersteunen 802.11r mogelijk niet en kunnen verbindingsproblemen ondervinden. Schakel deze functie uit als er verbindingsproblemen optreden na het inschakelen van snelle roaming.",
+        "all_clients_label": "Alle clients",
+        "event_type_label": "Gebeurtenistype",
+        "all_events_label": "Alle gebeurtenissen",
+        "sensitivity_tips": "Pas de RSSI-drempel voor elke band aan om te bepalen hoe proactief het netwerk clients aanmoedigt om te roamen. Een hogere gevoeligheid stimuleert eerder roamen; de daadwerkelijke overdracht hangt af van de client en de netwerkomstandigheden in de omgeving.",
+        "fast_roaming_label": "Snelle roaming (802.11r)"
     },
     "menu_mesh": "Mesh"
 }
