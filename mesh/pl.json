@@ -102,7 +102,24 @@
         "optimize_btn": "Optymalizuj",
         "optimize_topology_interrupt_tips": "Optymalizacja może na krótko przerwać działanie Wi-Fi i rozłączyć podłączone urządzenia.",
         "optimize_topology_idle_tips": "Zalecamy kontynuowanie, gdy sieć jest bezczynna.",
-        "optimize_topology_btn": "Optymalizuj topologię sieci Mesh"
+        "optimize_topology_btn": "Optymalizuj topologię sieci Mesh",
+        "negotiated_rate_label": "Wynegocjowana szybkość",
+        "roaming_log_title": "Dziennik roamingu",
+        "roaming_log_time_label": "Czas",
+        "roaming_log_mac_label": "Adres MAC urządzenia",
+        "roaming_log_event_label": "Zdarzenie",
+        "roaming_log_details_label": "Szczegóły",
+        "sensitivity_title": "Czułość roamingu",
+        "low_sensitivity_label": "Niska czułość",
+        "high_sensitivity_label": "Wysoka czułość",
+        "fast_roaming_title": "Szybki roaming",
+        "fast_roaming_label": "Szybki roaming (802.11r)",
+        "all_clients_label": "Wszystkie urządzenia klienckie",
+        "event_type_label": "Typ zdarzenia",
+        "all_events_label": "Wszystkie zdarzenia",
+        "sensitivity_tips": "Dostosuj próg RSSI dla każdego pasma, aby określić, jak aktywnie sieć zachęca urządzenia klienckie do roamingu. Wyższa czułość sprzyja wcześniejszemu roamingowi; faktyczne przełączenie zależy od urządzenia klienckiego i warunków w otaczającej sieci.",
+        "fast_roaming_tips": "Szybki roaming wykorzystuje standard 802.11r do skrócenia uwierzytelniania, gdy zgodne urządzenia klienckie przemieszczają się między węzłami Mesh, ograniczając przerwy w połączeniu podczas roamingu.",
+        "fast_roaming_compatibility_tips": "Niektóre urządzenia klienckie mogą nie obsługiwać standardu 802.11r i mogą mieć problemy z połączeniem. Jeśli po włączeniu szybkiego roamingu wystąpią problemy z połączeniem, wyłącz tę funkcję."
     },
     "menu_mesh": "Mesh"
 }
