@@ -102,7 +102,24 @@
         "optimize_topology_btn": "優化 Mesh 拓撲",
         "optimize_btn": "優化",
         "optimize_topology_interrupt_tips": "優化可能會短暫中斷 Wi-Fi，並導致已連接的裝置中斷連線。",
-        "optimize_topology_idle_tips": "建議在網路閒置時進行優化。"
+        "optimize_topology_idle_tips": "建議在網路閒置時進行優化。",
+        "negotiated_rate_label": "協商速率",
+        "roaming_log_title": "漫遊日誌",
+        "roaming_log_time_label": "時間",
+        "roaming_log_mac_label": "裝置 MAC",
+        "roaming_log_event_label": "事件",
+        "roaming_log_details_label": "詳細資訊",
+        "sensitivity_title": "漫遊靈敏度",
+        "sensitivity_tips": "調整各頻段的 RSSI 閾值，以控制網路促使客戶端漫遊的積極程度。靈敏度越高，越早促使客戶端漫遊；實際切換取決於客戶端及周遭網路狀況。",
+        "high_sensitivity_label": "高靈敏度",
+        "fast_roaming_tips": "快速漫遊使用 802.11r，在相容客戶端於 Mesh 節點之間移動時縮短驗證時間，減少漫遊期間的連線中斷。",
+        "fast_roaming_compatibility_tips": "部分客戶端可能不支援 802.11r，並可能出現連線問題。若啟用快速漫遊後發生連線問題，請停用此功能。",
+        "all_clients_label": "所有客戶端",
+        "event_type_label": "事件類型",
+        "all_events_label": "所有事件",
+        "low_sensitivity_label": "低靈敏度",
+        "fast_roaming_title": "快速漫遊",
+        "fast_roaming_label": "快速漫遊 (802.11r)"
     },
     "menu_mesh": "Mesh"
 }
