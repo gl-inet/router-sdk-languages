@@ -102,7 +102,24 @@
         "optimize_topology_btn": "Ottimizza la topologia mesh",
         "optimize_btn": "Ottimizza",
         "optimize_topology_idle_tips": "Si consiglia di procedere quando la rete è inattiva.",
-        "optimize_topology_interrupt_tips": "L'ottimizzazione potrebbe interrompere brevemente il Wi-Fi e disconnettere i dispositivi connessi."
+        "optimize_topology_interrupt_tips": "L'ottimizzazione potrebbe interrompere brevemente il Wi-Fi e disconnettere i dispositivi connessi.",
+        "negotiated_rate_label": "Velocità negoziata",
+        "roaming_log_title": "Registro del roaming",
+        "roaming_log_event_label": "Evento",
+        "roaming_log_details_label": "Dettagli",
+        "sensitivity_title": "Sensibilità del roaming",
+        "sensitivity_tips": "Regolare la soglia RSSI per ciascuna banda per controllare quanto attivamente la rete incoraggia i client a effettuare il roaming. Una sensibilità maggiore favorisce un roaming anticipato; il passaggio effettivo dipende dal client e dalle condizioni della rete circostante.",
+        "low_sensitivity_label": "Sensibilità bassa",
+        "high_sensitivity_label": "Sensibilità alta",
+        "fast_roaming_title": "Roaming rapido",
+        "fast_roaming_tips": "Il roaming rapido utilizza 802.11r per abbreviare l'autenticazione quando i client compatibili passano da un nodo Mesh all'altro, riducendo le interruzioni della connessione durante il roaming.",
+        "fast_roaming_label": "Roaming rapido (802.11r)",
+        "all_clients_label": "Tutti i client",
+        "event_type_label": "Tipo di evento",
+        "all_events_label": "Tutti gli eventi",
+        "roaming_log_time_label": "Ora",
+        "roaming_log_mac_label": "Indirizzo MAC del dispositivo",
+        "fast_roaming_compatibility_tips": "Alcuni client potrebbero non supportare 802.11r e riscontrare problemi di connessione. Se si verificano problemi di connessione dopo aver abilitato il roaming rapido, disabilitare questa funzione."
     },
     "menu_mesh": "Mesh"
 }
