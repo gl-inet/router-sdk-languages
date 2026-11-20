@@ -102,7 +102,24 @@
         "optimize_topology_btn": "Optimiser la topologie Mesh",
         "optimize_btn": "Optimiser",
         "optimize_topology_interrupt_tips": "L’optimisation peut interrompre brièvement le Wi-Fi et déconnecter les appareils connectés.",
-        "optimize_topology_idle_tips": "Nous vous recommandons de procéder lorsque le réseau est inactif."
+        "optimize_topology_idle_tips": "Nous vous recommandons de procéder lorsque le réseau est inactif.",
+        "negotiated_rate_label": "Débit négocié",
+        "roaming_log_title": "Journal d’itinérance",
+        "roaming_log_time_label": "Heure",
+        "roaming_log_mac_label": "Adresse MAC de l’appareil",
+        "roaming_log_event_label": "Événement",
+        "roaming_log_details_label": "Détails",
+        "sensitivity_title": "Sensibilité de l’itinérance",
+        "low_sensitivity_label": "Sensibilité faible",
+        "high_sensitivity_label": "Sensibilité élevée",
+        "fast_roaming_title": "Itinérance rapide",
+        "fast_roaming_label": "Itinérance rapide (802.11r)",
+        "fast_roaming_compatibility_tips": "Certains clients peuvent ne pas prendre en charge la norme 802.11r et rencontrer des problèmes de connexion. Si des problèmes de connexion surviennent après l’activation de l’itinérance rapide, désactivez cette fonctionnalité.",
+        "all_clients_label": "Tous les clients",
+        "event_type_label": "Type d’événement",
+        "all_events_label": "Tous les événements",
+        "sensitivity_tips": "Ajustez le seuil RSSI de chaque bande pour définir dans quelle mesure le réseau incite les clients à changer de point d’accès. Une sensibilité plus élevée favorise une itinérance plus précoce ; le transfert effectif dépend du client et des conditions du réseau environnant.",
+        "fast_roaming_tips": "L’itinérance rapide utilise la norme 802.11r pour accélérer l’authentification lorsque des clients compatibles passent d’un nœud Mesh à un autre, réduisant ainsi les interruptions de connexion lors de l’itinérance."
     },
     "menu_mesh": "Mesh"
 }
