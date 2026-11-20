@@ -102,7 +102,24 @@
         "optimize_topology_btn": "优化 Mesh 拓扑",
         "optimize_btn": "优化",
         "optimize_topology_interrupt_tips": "优化可能会短暂中断 Wi-Fi，并导致已连接的设备断开连接。",
-        "optimize_topology_idle_tips": "建议在网络空闲时进行优化。"
+        "optimize_topology_idle_tips": "建议在网络空闲时进行优化。",
+        "negotiated_rate_label": "协商速率",
+        "roaming_log_title": "漫游日志",
+        "roaming_log_time_label": "时间",
+        "roaming_log_mac_label": "设备 MAC",
+        "roaming_log_event_label": "事件",
+        "sensitivity_title": "漫游灵敏度",
+        "sensitivity_tips": "调整各频段的 RSSI 阈值，以控制网络引导客户端漫游的积极程度。灵敏度越高，越早引导客户端漫游；实际切换取决于客户端及周围的网络状况。",
+        "high_sensitivity_label": "高灵敏度",
+        "fast_roaming_title": "快速漫游",
+        "fast_roaming_tips": "快速漫游使用 802.11r，在兼容客户端于 Mesh 节点之间移动时缩短认证时间，减少漫游过程中的连接中断。",
+        "fast_roaming_label": "快速漫游（802.11r）",
+        "all_clients_label": "所有客户端",
+        "event_type_label": "事件类型",
+        "all_events_label": "所有事件",
+        "roaming_log_details_label": "详情",
+        "low_sensitivity_label": "低灵敏度",
+        "fast_roaming_compatibility_tips": "部分客户端可能不支持 802.11r，并可能出现连接问题。如果启用快速漫游后出现连接问题，请禁用此功能。"
     },
     "menu_mesh": "Mesh"
 }
