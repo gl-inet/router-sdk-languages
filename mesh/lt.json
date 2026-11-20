@@ -102,7 +102,24 @@
         "optimize_topology_btn": "Optimizuoti jungliojo tinklo topologiją",
         "optimize_btn": "Optimizuoti",
         "optimize_topology_interrupt_tips": "Optimizavimas gali trumpam sutrikdyti „Wi-Fi“ ryšį ir atjungti prijungtus įrenginius.",
-        "optimize_topology_idle_tips": "Rekomenduojame tęsti, kai tinklas yra budėjimo būsenoje."
+        "optimize_topology_idle_tips": "Rekomenduojame tęsti, kai tinklas yra budėjimo būsenoje.",
+        "negotiated_rate_label": "Suderėta sparta",
+        "roaming_log_title": "Tarptinklinio ryšio žurnalas",
+        "roaming_log_time_label": "Laikas",
+        "roaming_log_mac_label": "Įrenginio MAC",
+        "roaming_log_event_label": "Įvykis",
+        "sensitivity_title": "Tarptinklinio ryšio jautrumas",
+        "sensitivity_tips": "Koreguokite kiekvienos juostos RSSI slenkstį, kad nustatytumėte, kaip aktyviai tinklas skatina klientus pereiti prie kito mazgo. Didesnis jautrumas skatina ankstesnį perėjimą; faktinis perėjimas priklauso nuo kliento ir aplinkinių tinklo sąlygų.",
+        "low_sensitivity_label": "Mažas jautrumas",
+        "high_sensitivity_label": "Didelis jautrumas",
+        "fast_roaming_title": "Spartusis tarptinklinis ryšys",
+        "fast_roaming_tips": "Spartusis tarptinklinis ryšys naudoja 802.11r autentifikavimo trukmei sutrumpinti, kai suderinami klientai pereina tarp jungliojo tinklo mazgų, taip sumažindamas ryšio pertrūkius.",
+        "fast_roaming_label": "Spartusis tarptinklinis ryšys (802.11r)",
+        "fast_roaming_compatibility_tips": "Kai kurie klientai gali nepalaikyti 802.11r ir patirti ryšio problemų. Jei įjungus spartųjį tarptinklinį ryšį kyla ryšio problemų, išjunkite šią funkciją.",
+        "all_clients_label": "Visi klientai",
+        "event_type_label": "Įvykio tipas",
+        "roaming_log_details_label": "Išsamesnės informacijos",
+        "all_events_label": "Visi įvykiai"
     },
     "menu_mesh": "Mesh"
 }
