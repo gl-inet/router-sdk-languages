@@ -102,7 +102,24 @@
         "optimize_btn": "Optimize Et",
         "optimize_topology_interrupt_tips": "Optimizasyon, Wi-Fi bağlantısını kısa süreliğine kesintiye uğratabilir ve bağlı cihazların bağlantısını kesebilir.",
         "optimize_topology_idle_tips": "Ağ boşta olduğunda devam etmenizi öneririz.",
-        "optimize_topology_btn": "Mesh Topolojisini Optimize Et"
+        "optimize_topology_btn": "Mesh Topolojisini Optimize Et",
+        "negotiated_rate_label": "Anlaşılan Hız",
+        "roaming_log_title": "Dolaşım Günlüğü",
+        "roaming_log_time_label": "Zaman",
+        "roaming_log_mac_label": "Cihaz MAC Adresi",
+        "roaming_log_event_label": "Olay",
+        "roaming_log_details_label": "Ayrıntılar",
+        "sensitivity_title": "Dolaşım Hassasiyeti",
+        "low_sensitivity_label": "Düşük hassasiyet",
+        "high_sensitivity_label": "Yüksek hassasiyet",
+        "fast_roaming_title": "Hızlı Dolaşım",
+        "fast_roaming_tips": "Hızlı Dolaşım, uyumlu istemciler Mesh düğümleri arasında geçiş yaparken kimlik doğrulama süresini kısaltmak için 802.11r'yi kullanarak dolaşım sırasındaki bağlantı kesintilerini azaltır.",
+        "all_clients_label": "Tüm İstemciler",
+        "event_type_label": "Olay Türü",
+        "all_events_label": "Tüm Olaylar",
+        "sensitivity_tips": "Ağın istemcileri dolaşıma ne kadar erken teşvik edeceğini kontrol etmek için her bandın RSSI eşiğini ayarlayın. Daha yüksek hassasiyet, daha erken dolaşımı teşvik eder; gerçek geçiş, istemciye ve çevredeki ağ koşullarına bağlıdır.",
+        "fast_roaming_label": "Hızlı Dolaşım (802.11r)",
+        "fast_roaming_compatibility_tips": "Bazı istemciler 802.11r'yi desteklemeyebilir ve bağlantı sorunları yaşayabilir. Hızlı Dolaşım etkinleştirildikten sonra bağlantı sorunları oluşursa bu özelliği devre dışı bırakın."
     },
     "menu_mesh": "Mesh"
 }
