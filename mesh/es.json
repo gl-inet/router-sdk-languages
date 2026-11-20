@@ -102,7 +102,24 @@
         "optimize_topology_btn": "Optimizar la topología Mesh",
         "optimize_btn": "Optimizar",
         "optimize_topology_interrupt_tips": "La optimización puede interrumpir brevemente la conexión Wi-Fi y desconectar los dispositivos conectados.",
-        "optimize_topology_idle_tips": "Recomendamos continuar cuando la red esté inactiva."
+        "optimize_topology_idle_tips": "Recomendamos continuar cuando la red esté inactiva.",
+        "negotiated_rate_label": "Velocidad negociada",
+        "roaming_log_title": "Registro de itinerancia",
+        "roaming_log_time_label": "Hora",
+        "roaming_log_mac_label": "MAC del dispositivo",
+        "roaming_log_event_label": "Evento",
+        "roaming_log_details_label": "Detalles",
+        "sensitivity_title": "Sensibilidad de itinerancia",
+        "sensitivity_tips": "Ajuste el umbral RSSI de cada banda para controlar con qué anticipación la red anima a los clientes a cambiar de nodo. Una mayor sensibilidad favorece una itinerancia más temprana; el cambio efectivo depende del cliente y de las condiciones de la red circundante.",
+        "low_sensitivity_label": "Sensibilidad baja",
+        "high_sensitivity_label": "Sensibilidad alta",
+        "fast_roaming_title": "Itinerancia rápida",
+        "fast_roaming_label": "Itinerancia rápida (802.11r)",
+        "all_clients_label": "Todos los clientes",
+        "event_type_label": "Tipo de evento",
+        "fast_roaming_tips": "La itinerancia rápida utiliza 802.11r para agilizar la autenticación cuando los clientes compatibles se desplazan entre nodos de malla, lo que reduce las interrupciones de conexión durante la itinerancia.",
+        "fast_roaming_compatibility_tips": "Es posible que algunos clientes no sean compatibles con 802.11r y experimenten problemas de conexión. Si se producen problemas de conexión tras activar la itinerancia rápida, desactive esta función.",
+        "all_events_label": "Todos los eventos"
     },
     "menu_mesh": "Mesh"
 }
