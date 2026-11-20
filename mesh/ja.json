@@ -102,7 +102,24 @@
         "optimize_btn": "最適化",
         "optimize_topology_btn": "メッシュトポロジーを最適化",
         "optimize_topology_interrupt_tips": "最適化により、Wi-Fi が一時的に中断され、接続中のデバイスが切断される場合があります。",
-        "optimize_topology_idle_tips": "ネットワークがアイドル状態のときに実行することをお勧めします。"
+        "optimize_topology_idle_tips": "ネットワークがアイドル状態のときに実行することをお勧めします。",
+        "negotiated_rate_label": "ネゴシエーション済みレート",
+        "roaming_log_title": "ローミングログ",
+        "roaming_log_time_label": "時刻",
+        "roaming_log_mac_label": "デバイスのMACアドレス",
+        "roaming_log_event_label": "イベント",
+        "sensitivity_title": "ローミング感度",
+        "low_sensitivity_label": "低感度",
+        "high_sensitivity_label": "高感度",
+        "fast_roaming_title": "高速ローミング",
+        "fast_roaming_tips": "高速ローミングは802.11rを使用し、対応クライアントがメッシュノード間を移動する際の認証時間を短縮することで、ローミング中の接続の中断を軽減します。",
+        "fast_roaming_compatibility_tips": "一部のクライアントは802.11rに対応しておらず、接続に問題が発生する場合があります。高速ローミングを有効にした後に接続の問題が発生した場合は、この機能を無効にしてください。",
+        "all_clients_label": "すべてのクライアント",
+        "event_type_label": "イベントの種類",
+        "roaming_log_details_label": "詳細",
+        "sensitivity_tips": "各帯域のRSSIしきい値を調整して、ネットワークがクライアントにローミングを促す度合いを制御します。感度を高くすると、より早い段階でローミングを促します。実際の切り替えは、クライアントと周辺のネットワーク状況によって異なります。",
+        "fast_roaming_label": "高速ローミング（802.11r）",
+        "all_events_label": "すべてのイベント"
     },
     "menu_mesh": "Mesh"
 }
