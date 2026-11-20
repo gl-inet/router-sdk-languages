@@ -102,7 +102,24 @@
         "optimize_topology_btn": "Mesh-Topologie optimieren",
         "optimize_btn": "Optimieren",
         "optimize_topology_idle_tips": "Wir empfehlen, fortzufahren, wenn das Netzwerk nicht genutzt wird.",
-        "optimize_topology_interrupt_tips": "Die Optimierung kann das WLAN kurzzeitig unterbrechen und die Verbindung zu verbundenen Geräten trennen."
+        "optimize_topology_interrupt_tips": "Die Optimierung kann das WLAN kurzzeitig unterbrechen und die Verbindung zu verbundenen Geräten trennen.",
+        "negotiated_rate_label": "Ausgehandelte Datenrate",
+        "roaming_log_title": "Roaming-Protokoll",
+        "roaming_log_time_label": "Zeit",
+        "roaming_log_mac_label": "Geräte-MAC-Adresse",
+        "roaming_log_event_label": "Ereignis",
+        "roaming_log_details_label": "Details",
+        "sensitivity_title": "Roaming-Empfindlichkeit",
+        "low_sensitivity_label": "Niedrige Empfindlichkeit",
+        "high_sensitivity_label": "Hohe Empfindlichkeit",
+        "fast_roaming_title": "Fast Roaming",
+        "fast_roaming_tips": "Fast Roaming nutzt 802.11r, um die Authentifizierung zu verkürzen, wenn kompatible Clients zwischen Mesh-Knoten wechseln. Dadurch werden Verbindungsunterbrechungen beim Roaming reduziert.",
+        "fast_roaming_label": "Fast Roaming (802.11r)",
+        "fast_roaming_compatibility_tips": "Einige Clients unterstützen möglicherweise 802.11r nicht und können Verbindungsprobleme haben. Falls nach dem Aktivieren von Fast Roaming Verbindungsprobleme auftreten, deaktivieren Sie diese Funktion.",
+        "all_clients_label": "Alle Clients",
+        "event_type_label": "Ereignistyp",
+        "sensitivity_tips": "Passen Sie den RSSI-Schwellenwert für jedes Frequenzband an, um zu steuern, wie aktiv das Netzwerk Clients zum Roaming anregt. Eine höhere Empfindlichkeit fördert früheres Roaming; der tatsächliche Wechsel hängt vom Client und den umgebenden Netzwerkbedingungen ab.",
+        "all_events_label": "Alle Ereignisse"
     },
     "menu_mesh": "Mesh"
 }
