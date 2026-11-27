@@ -119,7 +119,8 @@
         "all_clients_label": "Alle Clients",
         "event_type_label": "Ereignistyp",
         "sensitivity_tips": "Passen Sie den RSSI-Schwellenwert für jedes Frequenzband an, um zu steuern, wie aktiv das Netzwerk Clients zum Roaming anregt. Eine höhere Empfindlichkeit fördert früheres Roaming; der tatsächliche Wechsel hängt vom Client und den umgebenden Netzwerkbedingungen ab.",
-        "all_events_label": "Alle Ereignisse"
+        "all_events_label": "Alle Ereignisse",
+        "ethernet_backhaul_velica_tips": "*Hinweis: Schließen Sie den Velica-Mesh-Knoten an einen beliebigen Ethernet-Port an – eine Unterscheidung zwischen WAN und LAN ist nicht erforderlich.*"
     },
     "menu_mesh": "Mesh"
 }
