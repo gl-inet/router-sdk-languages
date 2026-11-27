@@ -119,7 +119,8 @@
         "all_events_label": "Tüm Olaylar",
         "sensitivity_tips": "Ağın istemcileri dolaşıma ne kadar erken teşvik edeceğini kontrol etmek için her bandın RSSI eşiğini ayarlayın. Daha yüksek hassasiyet, daha erken dolaşımı teşvik eder; gerçek geçiş, istemciye ve çevredeki ağ koşullarına bağlıdır.",
         "fast_roaming_label": "Hızlı Dolaşım (802.11r)",
-        "fast_roaming_compatibility_tips": "Bazı istemciler 802.11r'yi desteklemeyebilir ve bağlantı sorunları yaşayabilir. Hızlı Dolaşım etkinleştirildikten sonra bağlantı sorunları oluşursa bu özelliği devre dışı bırakın."
+        "fast_roaming_compatibility_tips": "Bazı istemciler 802.11r'yi desteklemeyebilir ve bağlantı sorunları yaşayabilir. Hızlı Dolaşım etkinleştirildikten sonra bağlantı sorunları oluşursa bu özelliği devre dışı bırakın.",
+        "ethernet_backhaul_velica_tips": "*Not: Velica Mesh düğümü için herhangi bir Ethernet bağlantı noktasını kullanın; WAN ve LAN arasında ayrım yapmanız gerekmez.*"
     },
     "menu_mesh": "Mesh"
 }
