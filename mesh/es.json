@@ -119,7 +119,8 @@
         "event_type_label": "Tipo de evento",
         "fast_roaming_tips": "La itinerancia rápida utiliza 802.11r para agilizar la autenticación cuando los clientes compatibles se desplazan entre nodos de malla, lo que reduce las interrupciones de conexión durante la itinerancia.",
         "fast_roaming_compatibility_tips": "Es posible que algunos clientes no sean compatibles con 802.11r y experimenten problemas de conexión. Si se producen problemas de conexión tras activar la itinerancia rápida, desactive esta función.",
-        "all_events_label": "Todos los eventos"
+        "all_events_label": "Todos los eventos",
+        "ethernet_backhaul_velica_tips": "*Nota: Para el nodo Velica Mesh, conecte el cable a cualquier puerto Ethernet; no es necesario distinguir entre WAN y LAN.*"
     },
     "menu_mesh": "Mesh"
 }
