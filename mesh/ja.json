@@ -119,7 +119,8 @@
         "roaming_log_details_label": "詳細",
         "sensitivity_tips": "各帯域のRSSIしきい値を調整して、ネットワークがクライアントにローミングを促す度合いを制御します。感度を高くすると、より早い段階でローミングを促します。実際の切り替えは、クライアントと周辺のネットワーク状況によって異なります。",
         "fast_roaming_label": "高速ローミング（802.11r）",
-        "all_events_label": "すべてのイベント"
+        "all_events_label": "すべてのイベント",
+        "ethernet_backhaul_velica_tips": "*注：Velica Mesh Nodeでは、WANとLANを区別せず、いずれかのイーサネットポートに接続してください。*"
     },
     "menu_mesh": "Mesh"
 }
