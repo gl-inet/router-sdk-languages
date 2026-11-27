@@ -119,7 +119,8 @@
         "event_type_label": "Type d’événement",
         "all_events_label": "Tous les événements",
         "sensitivity_tips": "Ajustez le seuil RSSI de chaque bande pour définir dans quelle mesure le réseau incite les clients à changer de point d’accès. Une sensibilité plus élevée favorise une itinérance plus précoce ; le transfert effectif dépend du client et des conditions du réseau environnant.",
-        "fast_roaming_tips": "L’itinérance rapide utilise la norme 802.11r pour accélérer l’authentification lorsque des clients compatibles passent d’un nœud Mesh à un autre, réduisant ainsi les interruptions de connexion lors de l’itinérance."
+        "fast_roaming_tips": "L’itinérance rapide utilise la norme 802.11r pour accélérer l’authentification lorsque des clients compatibles passent d’un nœud Mesh à un autre, réduisant ainsi les interruptions de connexion lors de l’itinérance.",
+        "ethernet_backhaul_velica_tips": "*Remarque : pour le nœud Mesh Velica, branchez le câble sur n’importe quel port Ethernet, sans distinction entre WAN et LAN.*"
     },
     "menu_mesh": "Mesh"
 }
