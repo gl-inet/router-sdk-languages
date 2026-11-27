@@ -119,7 +119,8 @@
         "all_events_label": "Wszystkie zdarzenia",
         "sensitivity_tips": "Dostosuj próg RSSI dla każdego pasma, aby określić, jak aktywnie sieć zachęca urządzenia klienckie do roamingu. Wyższa czułość sprzyja wcześniejszemu roamingowi; faktyczne przełączenie zależy od urządzenia klienckiego i warunków w otaczającej sieci.",
         "fast_roaming_tips": "Szybki roaming wykorzystuje standard 802.11r do skrócenia uwierzytelniania, gdy zgodne urządzenia klienckie przemieszczają się między węzłami Mesh, ograniczając przerwy w połączeniu podczas roamingu.",
-        "fast_roaming_compatibility_tips": "Niektóre urządzenia klienckie mogą nie obsługiwać standardu 802.11r i mogą mieć problemy z połączeniem. Jeśli po włączeniu szybkiego roamingu wystąpią problemy z połączeniem, wyłącz tę funkcję."
+        "fast_roaming_compatibility_tips": "Niektóre urządzenia klienckie mogą nie obsługiwać standardu 802.11r i mogą mieć problemy z połączeniem. Jeśli po włączeniu szybkiego roamingu wystąpią problemy z połączeniem, wyłącz tę funkcję.",
+        "ethernet_backhaul_velica_tips": "*Uwaga: W przypadku węzła Velica Mesh podłącz kabel do dowolnego portu Ethernet — nie ma potrzeby rozróżniania portów WAN i LAN.*"
     },
     "menu_mesh": "Mesh"
 }
