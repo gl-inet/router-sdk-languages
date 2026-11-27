@@ -119,7 +119,8 @@
         "all_events_label": "Összes esemény",
         "roaming_log_mac_label": "Eszköz MAC-címe",
         "sensitivity_tips": "Állítsa be az RSSI-küszöbértéket minden sávhoz annak szabályozására, hogy a hálózat milyen mértékben ösztönözze a klienseket barangolásra. A magasabb érzékenység korábbi barangolásra ösztönöz; a tényleges átadás a klienstől és a környező hálózati viszonyoktól függ.",
-        "fast_roaming_tips": "A gyors barangolás a 802.11r használatával lerövidíti a hitelesítést, amikor a kompatibilis kliensek Mesh-csomópontok között váltanak, így csökkenti a kapcsolat megszakadásait barangolás közben."
+        "fast_roaming_tips": "A gyors barangolás a 802.11r használatával lerövidíti a hitelesítést, amikor a kompatibilis kliensek Mesh-csomópontok között váltanak, így csökkenti a kapcsolat megszakadásait barangolás közben.",
+        "ethernet_backhaul_velica_tips": "*Megjegyzés: Velica Mesh csomópont esetén csatlakoztassa bármelyik Ethernet-porthoz – nem szükséges különbséget tenni a WAN és a LAN között.*"
     },
     "menu_mesh": "Mesh"
 }
